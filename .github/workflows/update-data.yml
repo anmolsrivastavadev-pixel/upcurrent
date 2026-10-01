@@ -2,7 +2,7 @@ name: Update data and publish
 
 on:
   schedule:
-    - cron: "17 * * * *" # every hour
+    - cron: "11,41 * * * *" # twice an hour, so a delayed or skipped run is covered
   workflow_dispatch:
   push:
     branches: [main]
