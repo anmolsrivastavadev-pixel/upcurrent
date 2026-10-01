@@ -45,6 +45,8 @@ const KEEP_STALE_HOURS = 48;
   if (!live.length) { console.error("Every source failed and there is no earlier data:", errors); process.exit(1); }
 
   const hist = C.updateHistory(prev.hist || {}, raw, now);
+  // Belt and braces: strip anything key-like from saved errors.
+  for (const k in errors) errors[k] = String(errors[k]).replace(/([?&](?:api-key|apikey|apiKey|key|token)=)[^&\s]+/gi, "$1REDACTED");
   const out = { fetchedAt: new Date(now).toISOString(), sourceTimes, stale, errors, raw, hist };
   fs.mkdirSync(path.dirname(OUT), { recursive: true });
   fs.writeFileSync(OUT, JSON.stringify(out));

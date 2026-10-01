@@ -13,6 +13,8 @@
   };
 
   /* ---------- sources ---------- */
+  // Never let an API key end up in an error message (errors are saved to the public data file).
+  const redact = u => String(u).replace(/([?&](?:api-key|apikey|apiKey|key|token)=)[^&\s]+/gi, "$1REDACTED");
   const decode = t => t.replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&#39;|&apos;/g, "'").replace(/&#(\d+);/g, (_, n) => String.fromCharCode(+n)).replace(/&amp;/g, "&");
   const stripHtml = t => decode(String(t || "").replace(/<[^>]+>/g, " "));
   // Minimal RSS / Atom reader: titles, links and dates only.
@@ -46,12 +48,16 @@
     const ua = opts.userAgent ? { "User-Agent": opts.userAgent } : {};
     async function getText(url) {
       const r = await fetch(url, { headers: { Accept: "application/rss+xml, application/atom+xml, application/xml, text/xml, */*", ...ua } });
-      if (!r.ok) throw new Error(url + " → " + r.status);
+      if (!r.ok) throw new Error(redact(url) + " → " + r.status);
       return r.text();
     }
     async function getJSON(url, headers = {}) {
       const r = await fetch(url, { headers: { Accept: "application/json", ...ua, ...headers } });
-      if (!r.ok) throw new Error(url + " → " + r.status);
+      if (!r.ok) {
+        let why = "";
+        try { const b = await r.json(); why = b?.message || b?.error?.message || b?.errors?.[0] || ""; } catch {}
+        throw new Error(`${redact(url)} → ${r.status}${why ? " " + redact(String(why)).slice(0, 160) : ""}`);
+      }
       return r.json();
     }
     return {
@@ -169,7 +175,7 @@
       },
       async newsapi() {
         if (!opts.keys?.newsapi) return null;
-        const j = await getJSON(`https://newsapi.org/v2/everything?q=%22artificial%20intelligence%22%20OR%20OpenAI%20OR%20LLM&language=en&sortBy=publishedAt&pageSize=20&apiKey=${opts.keys.newsapi}`);
+        const j = await getJSON("https://newsapi.org/v2/everything?q=%22artificial%20intelligence%22%20OR%20OpenAI%20OR%20LLM&language=en&sortBy=publishedAt&pageSize=20", { "X-Api-Key": opts.keys.newsapi });
         return j.articles.filter(a => a.title && a.title !== "[Removed]").map(a => ({ t: a.title, url: a.url, at: a.publishedAt, src: a.source?.name || "NewsAPI", kind: "News" }));
       },
       async youtube() {
