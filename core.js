@@ -175,7 +175,7 @@
       },
       async newsapi() {
         if (!opts.keys?.newsapi) return null;
-        const j = await getJSON("https://newsapi.org/v2/everything?q=%22artificial%20intelligence%22%20OR%20OpenAI%20OR%20LLM&language=en&sortBy=publishedAt&pageSize=20", { "X-Api-Key": opts.keys.newsapi });
+        const j = await getJSON("https://newsapi.org/v2/everything?q=%22artificial%20intelligence%22%20OR%20OpenAI%20OR%20LLM&language=en&sortBy=publishedAt&pageSize=20", { "X-Api-Key": opts.keys.newsapi, "User-Agent": "Upcurrent/1.0 (+https://anmolsrivastavadev-pixel.github.io/upcurrent/)" });
         return j.articles.filter(a => a.title && a.title !== "[Removed]").map(a => ({ t: a.title, url: a.url, at: a.publishedAt, src: a.source?.name || "NewsAPI", kind: "News" }));
       },
       async youtube() {
