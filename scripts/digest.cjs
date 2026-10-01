@@ -44,21 +44,54 @@ console.log(`Subject: ${subject}\n${body.length} chars, ${rising.length} movers,
 
 const key = process.env.BUTTONDOWN_API_KEY;
 if (!key) { console.log("::notice::No BUTTONDOWN_API_KEY, preview only."); process.exit(0); }
-if (process.env.DRY_RUN === "1") {
-  // Check the key without sending anything.
-  fetch("https://api.buttondown.com/v1/subscribers?page_size=1", { headers: { Authorization: `Token ${key}` } })
-    .then(async r => { const t = await r.text(); console.log(r.ok ? `::notice::Key works. Subscribers: ${JSON.parse(t).count}. DRY_RUN set, not sending.` : `::error::Buttondown ${r.status}: ${t.slice(0, 300)}`); process.exit(r.ok ? 0 : 1); })
-    .catch(e => { console.error(e.message); process.exit(1); });
-  return;
-}
-if (!rising.length && !news.length) { console.error("Nothing to send today."); process.exit(1); }
 
-fetch("https://api.buttondown.com/v1/emails", {
-  method: "POST",
-  headers: { Authorization: `Token ${key}`, "Content-Type": "application/json", "X-Buttondown-Live-Dangerously": "true" },
-  body: JSON.stringify({ subject, body, status: "about_to_send" })
-}).then(async r => {
+// Each subscriber gets the email once a day, during the 7am hour in their own time zone.
+// The signup form stores their zone as metadata.timezone; anyone without one is treated as DEFAULT_TZ.
+const API = "https://api.buttondown.com/v1";
+const DEFAULT_TZ = "Europe/London";
+const SEND_HOUR = 7;
+const headers = { Authorization: `Token ${key}`, "Content-Type": "application/json" };
+
+async function api(method, url, body, extra = {}) {
+  const r = await fetch(url.startsWith("http") ? url : API + url, { method, headers: { ...headers, ...extra }, body: body ? JSON.stringify(body) : undefined });
   const t = await r.text();
-  if (!r.ok) { console.error(`::error::Buttondown ${r.status}: ${t.slice(0, 400)}`); process.exit(1); }
-  console.log("::notice::Sent.");
-}).catch(e => { console.error(e.message); process.exit(1); });
+  if (!r.ok) throw new Error(`Buttondown ${r.status} on ${method} ${url.replace(API, "")}: ${t.slice(0, 300)}`);
+  return t ? JSON.parse(t) : {};
+}
+
+const validTz = tz => { try { new Intl.DateTimeFormat("en-US", { timeZone: tz }); return true; } catch { return false; } };
+const localHour = (tz, at) => Number(new Intl.DateTimeFormat("en-US", { timeZone: tz, hour: "numeric", hourCycle: "h23" }).format(at));
+
+async function main() {
+  const subs = [];
+  for (let url = "/subscribers?type=regular"; url; ) { const page = await api("GET", url); subs.push(...page.results); url = page.next; }
+
+  // Give subscribers with a missing or unknown zone the default, so the filter below can reach them.
+  for (const s of subs) {
+    const tz = s.metadata?.timezone;
+    if (tz && validTz(tz)) continue;
+    if (process.env.DRY_RUN !== "1") await api("PATCH", `/subscribers/${s.id}`, { metadata: { ...(s.metadata || {}), timezone: DEFAULT_TZ } });
+    s.metadata = { ...(s.metadata || {}), timezone: DEFAULT_TZ };
+  }
+
+  const now = new Date();
+  const zones = [...new Set(subs.map(s => s.metadata.timezone))];
+  const due = process.env.ONLY_TZ ? [process.env.ONLY_TZ] : zones.filter(tz => localHour(tz, now) === SEND_HOUR);
+  const reach = subs.filter(s => due.includes(s.metadata.timezone)).length;
+  console.log(`::notice::${subs.length} subscribers in ${zones.length} time zones (${zones.join(", ") || "none"}). Due now: ${due.join(", ") || "none"} (${reach} people).`);
+  const filters = { filters: (due.length ? due : zones).map(tz => ({ field: "subscriber.metadata.timezone", operator: "equals", value: tz })), groups: [], predicate: "or" };
+  if (process.env.DRY_RUN === "1") {
+    // Check that Buttondown accepts the time-zone filter by saving it on a draft, then delete the draft.
+    const draft = await api("POST", "/emails", { subject: `[test] ${subject}`, body, status: "draft", filters });
+    console.log(`::notice::Filter accepted: ${JSON.stringify(draft.filters)}`);
+    await api("DELETE", `/emails/${draft.id}`);
+    return;
+  }
+  if (!due.length) return;
+  if (!rising.length && !news.length) throw new Error("Nothing to send today.");
+
+  await api("POST", "/emails", { subject, body, status: "about_to_send", filters }, { "X-Buttondown-Live-Dangerously": "true" });
+  console.log(`::notice::Sent to ${due.join(", ")}.`);
+}
+
+main().catch(e => { console.error(`::error::${e.message}`); process.exit(1); });

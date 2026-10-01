@@ -51,7 +51,7 @@ Each of these switches on when you add its repository secret:
 
 ## Morning email
 
-`scripts/digest.cjs` turns `data/latest.json` into a short email (top movers, headlines, repos, threads) and sends it through [Buttondown](https://buttondown.com). The **Morning email** workflow runs it every day at 06:30 UTC.
+`scripts/digest.cjs` turns `data/latest.json` into a short email (top movers, headlines, repos, threads) and sends it through [Buttondown](https://buttondown.com). The **Morning email** workflow runs every hour and sends to each subscriber during 7am in their own time zone (the signup form saves it as `metadata.timezone`; anyone without one gets Europe/London).
 
 1. Create a Buttondown account and add its API key as the `BUTTONDOWN_API_KEY` secret.
 2. Put your Buttondown username in `const NEWSLETTER = ""` in `index.html` to show the signup box.

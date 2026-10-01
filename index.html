@@ -525,6 +525,11 @@ if (NEWSLETTER) {
   $("miniSignup").hidden = false;
   document.querySelectorAll(".nl-form").forEach(f => {
     f.action = `https://buttondown.com/api/emails/embed-subscribe/${NEWSLETTER}`;
+    // Record the reader's time zone so the morning email reaches them at 7am local time.
+    const tz = document.createElement("input");
+    tz.type = "hidden"; tz.name = "metadata__timezone";
+    try { tz.value = Intl.DateTimeFormat().resolvedOptions().timeZone || ""; } catch { tz.value = ""; }
+    f.appendChild(tz);
     f.addEventListener("submit", () => setTimeout(() => { f.querySelector(".ok").hidden = false; f.reset(); }, 100));
   });
 }

@@ -2,16 +2,24 @@ name: Morning email
 
 on:
   schedule:
-    - cron: "30 6 * * *" # 06:30 UTC every day
+    - cron: "5 * * * *" # every hour; each subscriber gets it during 7am in their own time zone
   workflow_dispatch:
     inputs:
       dry_run:
-        description: "Only build the preview, don't send"
+        description: "Only check who is due and test the filter, don't send"
         type: boolean
         default: true
+      only_tz:
+        description: "Send now to one time zone only (e.g. Europe/London), ignoring the 7am rule"
+        type: string
+        default: ""
 
 permissions:
   contents: read
+
+concurrency:
+  group: morning-email
+  cancel-in-progress: false
 
 jobs:
   send:
@@ -28,6 +36,7 @@ jobs:
         env:
           BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
           DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
+          ONLY_TZ: ${{ inputs.only_tz }}
 
       - name: Show the email
         if: always()
