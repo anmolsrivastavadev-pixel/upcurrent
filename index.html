@@ -650,11 +650,10 @@ async function goLive() {
     const j = await fromPublished();
     lastRaw = j.raw; lastHist = j.hist || {}; lastFetchedAt = j.fetchedAt;
     rebuild(); render();
-    // If the hourly job could not reach Reddit, try loading it from this browser instead.
-    if (!lastRaw.reddit) {
-      const reddit = await C.fetchOne("reddit");
-      if (reddit) { lastRaw = { ...lastRaw, reddit }; rebuild(); render(); }
-    }
+    // If the hourly job could not reach Reddit or Bluesky, try loading them from this browser instead.
+    const missing = ["reddit", "bluesky"].filter(n => !lastRaw[n]);
+    const got = await Promise.all(missing.map(n => C.fetchOne(n)));
+    if (got.some(Boolean)) { lastRaw = { ...lastRaw }; missing.forEach((n, i) => { if (got[i]) lastRaw[n] = got[i]; }); rebuild(); render(); }
     return;
   } catch {}
   const cached = store.get("sh-cache");

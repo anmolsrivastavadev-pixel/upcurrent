@@ -39,6 +39,9 @@ jobs:
           REDDIT_USERNAME: ${{ secrets.REDDIT_USERNAME }}
           # Optional: an X API bearer token (paid X developer plan) adds posts from X.
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+          # Optional: a Bluesky handle + app password (free) for Bluesky search.
+          BSKY_HANDLE: ${{ secrets.BSKY_HANDLE }}
+          BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
 
       - name: Save data to the repo
         run: |

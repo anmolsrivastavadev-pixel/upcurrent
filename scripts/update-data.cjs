@@ -17,6 +17,8 @@ const KEEP_STALE_HOURS = 48;
     redditId: process.env.REDDIT_CLIENT_ID,
     redditSecret: process.env.REDDIT_CLIENT_SECRET,
     xToken: process.env.X_BEARER_TOKEN,
+    bskyHandle: process.env.BSKY_HANDLE,
+    bskyPassword: process.env.BSKY_APP_PASSWORD,
     userAgent: `script:upcurrent-dashboard:v1.0 (by /u/${process.env.REDDIT_USERNAME || "upcurrent"})`
   });
 

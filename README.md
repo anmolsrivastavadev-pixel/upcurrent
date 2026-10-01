@@ -30,6 +30,8 @@ Reddit blocks requests from GitHub's servers. To read it through Reddit's offici
 Without these, the page tries to load Reddit from each visitor's browser instead.
 
 ## Bluesky and X
-Bluesky posts come from Bluesky's free public search API, with no setup needed.
+Bluesky search refuses GitHub's servers without a login. Create a free app password in Bluesky
+(Settings → Privacy and security → App passwords) and add `BSKY_HANDLE` and `BSKY_APP_PASSWORD`
+as repository secrets. Without them, the page tries Bluesky from each visitor's browser.
 X needs a paid X developer plan. Add its bearer token as the `X_BEARER_TOKEN` repository secret and
 posts from X show up on the next hourly run. Without the token, X is skipped.

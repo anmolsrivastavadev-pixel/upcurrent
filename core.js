@@ -74,7 +74,14 @@
         // Bluesky's public search API needs no key.
         const since = new Date(Date.now() - DAY).toISOString();
         const terms = ["LLM", "Claude", "OpenAI", "Gemini", "AI agents"];
-        const res = await Promise.allSettled(terms.map(t => getJSON(`https://public.api.bsky.app/xrpc/app.bsky.feed.searchPosts?q=${encodeURIComponent(t)}&sort=top&lang=en&since=${since}&limit=25`)));
+        // With a Bluesky app password, search as that account; otherwise use the public endpoint.
+        let host = "https://public.api.bsky.app", auth = {};
+        if (opts.bskyHandle && opts.bskyPassword) {
+          const r = await fetch("https://bsky.social/xrpc/com.atproto.server.createSession", { method: "POST", headers: { ...ua, "Content-Type": "application/json" }, body: JSON.stringify({ identifier: opts.bskyHandle, password: opts.bskyPassword }) });
+          if (!r.ok) throw new Error("bluesky login → " + r.status);
+          host = "https://bsky.social"; auth = { Authorization: `Bearer ${(await r.json()).accessJwt}` };
+        }
+        const res = await Promise.allSettled(terms.map(t => getJSON(`${host}/xrpc/app.bsky.feed.searchPosts?q=${encodeURIComponent(t)}&sort=top&lang=en&since=${since}&limit=25`, auth)));
         const ok = res.filter(x => x.status === "fulfilled");
         if (!ok.length) throw new Error(String(res[0]?.reason?.message || "bluesky unreachable"));
         const seen = new Map();
