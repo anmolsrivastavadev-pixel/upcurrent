@@ -195,6 +195,14 @@ td { padding: 13px 12px 13px 0; border-bottom: 1px solid var(--line); white-spac
 .more-btn { margin-top: 14px; border: 1px solid var(--line); background: var(--paper); border-radius: 8px; padding: 7px 14px; font-weight: 600; font-size: 13.5px; cursor: pointer; }
 .more-btn:hover { border-color: var(--ink); }
 
+
+/* headlines */
+.news { list-style: none; margin: 0; padding: 0; border-top: 2px solid var(--ink); display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 40px; }
+.news li { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 12px; padding: 13px 0; border-bottom: 1px solid var(--line); align-items: baseline; }
+.news .h { font-weight: 600; overflow-wrap: anywhere; }
+.news .w { font: 500 12px var(--font-mono); color: var(--faint); white-space: nowrap; }
+.news .k { grid-column: 1 / -1; display: flex; gap: 8px; align-items: center; font-size: 12.5px; color: var(--muted); }
+@media (max-width: 920px) { .news { grid-template-columns: minmax(0, 1fr); } }
 footer { margin-top: 64px; border-top: 1px solid var(--line); padding-block: 28px 44px; color: var(--muted); font-size: 14px; }
 footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; align-items: center; }
 .empty { padding: 22px 0; color: var(--faint); }
@@ -247,6 +255,7 @@ footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wr
       <a href="#models">Models</a>
       <a href="#github">Repos</a>
       <a href="#threads">Threads</a>
+      <a href="#news">Headlines</a>
       <a href="#free">Free models</a>
     </nav>
     <div class="search">
@@ -313,7 +322,7 @@ footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wr
   <section class="block" id="threads">
     <div class="split">
       <div>
-        <div class="sec-head"><div><div class="eyebrow">Reddit · Hacker News · Bluesky · X</div><h2>Threads people are discussing</h2><p>Sorted by upvotes or likes per hour since posting.</p></div></div>
+        <div class="sec-head"><div><div class="eyebrow">Hacker News · Reddit · Lobsters · DEV · Mastodon · Bluesky · X</div><h2>Threads people are discussing</h2><p>Sorted by upvotes or likes per hour since posting.</p></div></div>
         <div class="threads" id="disc"></div>
       </div>
       <div>
@@ -321,6 +330,11 @@ footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wr
         <ol class="timeline" id="newToday"></ol>
       </div>
     </div>
+  </section>
+
+  <section class="block" id="news">
+    <div class="sec-head"><div><div class="eyebrow">Lab blogs · News · Video</div><h2>Headlines</h2><p>The latest announcements and stories about AI, newest first.</p></div></div>
+    <ol class="news" id="newsList"></ol>
   </section>
 
   <section class="block" id="free">
@@ -333,7 +347,7 @@ footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wr
 <footer>
   <div class="wrap">
     <span class="logo" style="font-size:16px">Upcurrent</span>
-    <span>Data from GitHub, Hugging Face, Hacker News, Reddit, Bluesky, X, OpenRouter and OpenCode Zen.</span>
+    <span>Data from GitHub, Hugging Face, arXiv, Hacker News, Reddit, Lobsters, DEV, Mastodon, Bluesky, AI lab blogs, Techmeme, OpenRouter, OpenCode Zen and more.</span>
   </div>
 </footer>
 
@@ -449,7 +463,7 @@ let DATA = SNAPSHOT;
 const state = { cat: "all", q: "", win: "24h" };
 const matches = (text, cat) => (state.cat === "all" || cat === state.cat) && (!state.q || text.toLowerCase().includes(state.q));
 const CATS = ["all", "Agents", "LLMs", "Coding", "Infrastructure", "Robotics", "Vision", "Research", "Tools"];
-const SRC_LABEL = { gh: "GITHUB", hf: "HUGGING FACE", paper: "PAPER" };
+const SRC_LABEL = { gh: "GITHUB", hf: "HUGGING FACE", paper: "PAPER", ph: "PRODUCT HUNT" };
 const reduceMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
 
 const cssVar = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
@@ -489,7 +503,7 @@ function render() {
       <div class="rank">${r.rank}</div>
       <div style="min-width:0">
         <h3><a href="${esc(linkFor(r))}" target="_blank" rel="noopener">${esc(r.name)}</a></h3>
-        <div class="tags"><span class="src">${SRC_LABEL[r.src] || "SOURCE"}</span>${r.owner !== "Paper" ? `<span>${esc(r.owner)}</span>` : ""}<span class="cat">${r.cat}</span></div>
+        <div class="tags"><span class="src">${SRC_LABEL[r.src] || "SOURCE"}</span>${r.owner !== "Paper" && r.owner !== "Product Hunt" ? `<span>${esc(r.owner)}</span>` : ""}<span class="cat">${r.cat}</span></div>
         <p class="desc">${esc(r.desc)}</p>
         <div class="meta">${r.meta.map(m => `<span>${esc(m)}</span>`).join("")}</div>
       </div>
@@ -523,10 +537,14 @@ function render() {
   const ds = D.discussions.filter(d => !state.q || d.t.toLowerCase().includes(state.q));
   const maxV = Math.max(1, ...ds.map(d => d.vel));
   $("disc").innerHTML = ds.map(d => `<a class="thread" href="${esc(d.url)}" target="_blank" rel="noopener">
-    <div style="min-width:0"><div class="where"><span>${esc(d.src)}</span><span>${ago(d.at)}</span></div><div class="t">${esc(d.t)}</div><div class="stats">▲ ${fmt(d.up)} · ${fmt(d.com)} ${/^(X|Bluesky)$/.test(d.src) ? "replies" : "comments"}</div></div>
-    <div class="vel"><b class="num">${Math.round(d.vel)}</b><span>${/^(X|Bluesky)$/.test(d.src) ? "likes/hr" : "upvotes/hr"}</span><div class="m"><i style="width:${d.vel / maxV * 100}%"></i></div></div></a>`).join("") || `<div class="empty">No threads match.</div>`;
+    <div style="min-width:0"><div class="where"><span>${esc(d.src)}</span><span>${ago(d.at)}</span></div><div class="t">${esc(d.t)}</div><div class="stats">▲ ${fmt(d.up)} · ${fmt(d.com)} ${/^(X|Bluesky|Mastodon)$/.test(d.src) ? "replies" : "comments"}</div></div>
+    <div class="vel"><b class="num">${Math.round(d.vel)}</b><span>${/^(X|Bluesky|Mastodon|DEV)$/.test(d.src) ? "likes/hr" : "upvotes/hr"}</span><div class="m"><i style="width:${d.vel / maxV * 100}%"></i></div></div></a>`).join("") || `<div class="empty">No threads match.</div>`;
 
   $("newToday").innerHTML = D.newToday.filter(n => !state.q || n.t.toLowerCase().includes(state.q)).map(n => `<li><time>${hhmm(n.at)}</time><span class="dot"></span><span>${n.url ? `<a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.t)}</a>` : esc(n.t)}</span></li>`).join("") || `<li><span></span><span></span><span class="empty">Nothing new matches.</span></li>`;
+
+  const hl = (D.headlines || []).filter(h => !state.q || h.t.toLowerCase().includes(state.q));
+  $("newsList").innerHTML = hl.length ? hl.map(h => `<li><a class="h" href="${esc(h.url)}" target="_blank" rel="noopener">${esc(h.t)}</a><span class="w">${ago(h.at)}</span><span class="k"><span class="src">${esc((h.kind || "News").toUpperCase())}</span>${esc(h.src)}</span></li>`).join("")
+    : `<li class="empty">${D.isSnapshot ? "Headlines load with live data." : "No headlines match."}</li>`;
 
   const fc = D.freeCounts;
   $("freeSub").textContent = `${fc.zen + fc.or} models you can call at zero cost right now: ${fc.zen} on OpenCode Zen and ${fc.or} on OpenRouter. Newest first.`;

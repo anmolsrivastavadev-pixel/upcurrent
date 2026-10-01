@@ -35,3 +35,16 @@ Bluesky search refuses GitHub's servers without a login. Create a free app passw
 as repository secrets. Without them, the page tries Bluesky from each visitor's browser.
 X needs a paid X developer plan. Add its bearer token as the `X_BEARER_TOKEN` repository secret and
 posts from X show up on the next hourly run. Without the token, X is skipped.
+
+## More sources
+No key needed: arXiv, Lobsters, DEV, Mastodon, AI lab blogs (OpenAI, Google DeepMind, Google Research,
+Hugging Face, Meta AI, NVIDIA) and Techmeme.
+
+Each of these switches on when you add its repository secret:
+| Source | Secret | Get a key |
+|---|---|---|
+| The Guardian | `GUARDIAN_API_KEY` | https://open-platform.theguardian.com/access/ |
+| GNews | `GNEWS_API_KEY` | https://gnews.io/register |
+| NewsAPI | `NEWSAPI_KEY` | https://newsapi.org/register (free plan is for development only) |
+| YouTube | `YOUTUBE_API_KEY` | Google Cloud console, enable "YouTube Data API v3", create an API key |
+| Product Hunt | `PRODUCTHUNT_TOKEN` | https://www.producthunt.com/v2/oauth/applications, use the developer token |

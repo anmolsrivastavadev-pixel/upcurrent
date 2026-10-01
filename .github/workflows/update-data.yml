@@ -42,6 +42,12 @@ jobs:
           # Optional: a Bluesky handle + app password (free) for Bluesky search.
           BSKY_HANDLE: ${{ secrets.BSKY_HANDLE }}
           BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
+          # Optional news and launch sources. Each one switches on when its key is added.
+          GUARDIAN_API_KEY: ${{ secrets.GUARDIAN_API_KEY }}
+          GNEWS_API_KEY: ${{ secrets.GNEWS_API_KEY }}
+          NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          PRODUCTHUNT_TOKEN: ${{ secrets.PRODUCTHUNT_TOKEN }}
 
       - name: Save data to the repo
         run: |

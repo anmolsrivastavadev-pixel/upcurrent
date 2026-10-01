@@ -13,6 +13,25 @@
   };
 
   /* ---------- sources ---------- */
+  const decode = t => t.replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&#39;|&apos;/g, "'").replace(/&#(\d+);/g, (_, n) => String.fromCharCode(+n)).replace(/&amp;/g, "&");
+  const stripHtml = t => decode(String(t || "").replace(/<[^>]+>/g, " "));
+  // Minimal RSS / Atom reader: titles, links and dates only.
+  function parseFeed(xml) {
+    const tag = (c, n) => { const m = c.match(new RegExp(`<${n}[^>]*>([\\s\\S]*?)</${n}>`)); return m ? decode(m[1]).trim() : ""; };
+    return xml.split(/<item[\s>]|<entry[\s>]/).slice(1).map(c => {
+      const href = (c.match(/<link[^>]*href="([^"]+)"/) || [])[1];
+      return { t: stripHtml(tag(c, "title")).replace(/\s+/g, " ").trim(), url: href || tag(c, "link") || tag(c, "id"), at: new Date(tag(c, "pubDate") || tag(c, "published") || tag(c, "updated") || tag(c, "dc:date") || Date.now()).toISOString() };
+    }).filter(i => i.t && i.url);
+  }
+  const AI_WORDS = /\b(AI|A\.I\.|LLMs?|GPT|ChatGPT|OpenAI|Anthropic|Claude|Gemini|DeepMind|Copilot|machine learning|neural|chatbot|artificial intelligence|Llama|Mistral|Nvidia|agents?)\b/i;
+  const FEEDS = [
+    ["OpenAI", "https://openai.com/news/rss.xml"],
+    ["Google DeepMind", "https://deepmind.google/blog/rss.xml"],
+    ["Google Research", "https://research.google/blog/rss/"],
+    ["Hugging Face", "https://huggingface.co/blog/feed.xml"],
+    ["Meta AI", "https://ai.meta.com/blog/rss/"],
+    ["NVIDIA", "https://blogs.nvidia.com/feed/"]
+  ];
   const oneLine = (t = "") => { t = t.replace(/https?:\/\/\S+/g, "").replace(/\s+/g, " ").trim(); return t.length > 160 ? t.slice(0, 157) + "…" : t; };
   function caps(mods = [], params = []) {
     const m = (mods || []).filter(x => x !== "text");
@@ -25,6 +44,11 @@
   function makeSources(opts = {}) {
     const ghHeaders = { Accept: "application/vnd.github+json", ...(opts.githubToken ? { Authorization: `Bearer ${opts.githubToken}` } : {}) };
     const ua = opts.userAgent ? { "User-Agent": opts.userAgent } : {};
+    async function getText(url) {
+      const r = await fetch(url, { headers: { Accept: "application/rss+xml, application/atom+xml, application/xml, text/xml, */*", ...ua } });
+      if (!r.ok) throw new Error(url + " → " + r.status);
+      return r.text();
+    }
     async function getJSON(url, headers = {}) {
       const r = await fetch(url, { headers: { Accept: "application/json", ...ua, ...headers } });
       if (!r.ok) throw new Error(url + " → " + r.status);
@@ -102,6 +126,66 @@
           up: t.public_metrics?.like_count || 0, com: t.public_metrics?.reply_count || 0, at: t.created_at
         }));
       },
+      async blogs() {
+        // Official AI lab blogs. Each feed fails on its own without sinking the rest.
+        const res = await Promise.allSettled(FEEDS.map(([name, url]) => getText(url).then(x => parseFeed(x).slice(0, 8).map(i => ({ ...i, src: name, kind: "Lab blog" })))));
+        const ok = res.filter(r => r.status === "fulfilled").flatMap(r => r.value);
+        if (!ok.length) throw new Error("no lab blog feed answered");
+        return ok;
+      },
+      async techmeme() {
+        return parseFeed(await getText("https://www.techmeme.com/feed.xml")).filter(i => AI_WORDS.test(i.t)).map(i => ({ ...i, t: i.t.replace(/\s*\([^)]*\)\s*$/, ""), src: "Techmeme", kind: "News" }));
+      },
+      async lobsters() {
+        const j = await getJSON("https://lobste.rs/t/ai.json");
+        return j.map(x => ({ src: "Lobsters", t: x.title, url: x.comments_url || x.short_id_url, up: x.score || 0, com: x.comment_count || 0, at: x.created_at }));
+      },
+      async dev() {
+        const j = await getJSON("https://dev.to/api/articles?tag=ai&top=2&per_page=30");
+        return j.map(x => ({ src: "DEV", t: x.title, url: x.url, up: x.positive_reactions_count || 0, com: x.comments_count || 0, at: x.published_at }));
+      },
+      async mastodon() {
+        const tags = ["llm", "ai", "generativeai"];
+        const res = await Promise.allSettled(tags.map(t => getJSON(`https://mastodon.social/api/v1/timelines/tag/${t}?limit=40`)));
+        const ok = res.filter(r => r.status === "fulfilled").flatMap(r => r.value);
+        if (!ok.length) throw new Error("mastodon unreachable");
+        const seen = new Map();
+        ok.filter(x => !x.reblog && (x.favourites_count || 0) >= 3).forEach(x => seen.set(x.url, { src: "Mastodon", t: oneLine(stripHtml(x.content)), url: x.url, up: x.favourites_count || 0, com: x.replies_count || 0, at: x.created_at }));
+        return [...seen.values()].filter(x => x.t);
+      },
+      async arxiv() {
+        const x = await getText("https://export.arxiv.org/api/query?search_query=cat:cs.AI+OR+cat:cs.CL+OR+cat:cs.LG&sortBy=submittedDate&sortOrder=descending&max_results=25");
+        return parseFeed(x).filter(i => /arxiv\.org\/abs/.test(i.url)).map(i => ({ ...i, src: "arXiv" }));
+      },
+      async guardian() {
+        if (!opts.keys?.guardian) return null;
+        const j = await getJSON(`https://content.guardianapis.com/search?q=%22artificial%20intelligence%22%20OR%20OpenAI%20OR%20ChatGPT&order-by=newest&page-size=20&api-key=${opts.keys.guardian}`);
+        return j.response.results.map(r => ({ t: r.webTitle, url: r.webUrl, at: r.webPublicationDate, src: "The Guardian", kind: "News" }));
+      },
+      async gnews() {
+        if (!opts.keys?.gnews) return null;
+        const j = await getJSON(`https://gnews.io/api/v4/search?q=%22artificial%20intelligence%22%20OR%20OpenAI%20OR%20LLM&lang=en&max=20&sortby=publishedAt&apikey=${opts.keys.gnews}`);
+        return j.articles.map(a => ({ t: a.title, url: a.url, at: a.publishedAt, src: a.source?.name || "GNews", kind: "News" }));
+      },
+      async newsapi() {
+        if (!opts.keys?.newsapi) return null;
+        const j = await getJSON(`https://newsapi.org/v2/everything?q=%22artificial%20intelligence%22%20OR%20OpenAI%20OR%20LLM&language=en&sortBy=publishedAt&pageSize=20&apiKey=${opts.keys.newsapi}`);
+        return j.articles.filter(a => a.title && a.title !== "[Removed]").map(a => ({ t: a.title, url: a.url, at: a.publishedAt, src: a.source?.name || "NewsAPI", kind: "News" }));
+      },
+      async youtube() {
+        if (!opts.keys?.youtube) return null;
+        const after = new Date(Date.now() - 3 * DAY).toISOString();
+        const j = await getJSON(`https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&order=viewCount&q=AI%20news%7CLLM%7COpenAI%7CClaude&relevanceLanguage=en&publishedAfter=${after}&maxResults=15&key=${opts.keys.youtube}`);
+        return j.items.map(v => ({ t: decode(v.snippet.title), url: `https://www.youtube.com/watch?v=${v.id.videoId}`, at: v.snippet.publishedAt, src: v.snippet.channelTitle, kind: "Video" }));
+      },
+      async producthunt() {
+        if (!opts.keys?.producthunt) return null;
+        const after = new Date(Date.now() - 2 * DAY).toISOString();
+        const query = `{ posts(order: VOTES, topic: "artificial-intelligence", postedAfter: "${after}", first: 20) { edges { node { name tagline votesCount commentsCount url createdAt } } } }`;
+        const r = await fetch("https://api.producthunt.com/v2/api/graphql", { method: "POST", headers: { ...ua, "Content-Type": "application/json", Accept: "application/json", Authorization: `Bearer ${opts.keys.producthunt}` }, body: JSON.stringify({ query }) });
+        if (!r.ok) throw new Error("producthunt → " + r.status);
+        return ((await r.json()).data?.posts?.edges || []).map(e => e.node).map(n => ({ name: n.name, tagline: n.tagline, votes: n.votesCount, comments: n.commentsCount, url: n.url, at: n.createdAt }));
+      },
       async openrouter() {
         const j = await getJSON("https://openrouter.ai/api/v1/models");
         return j.data.filter(m => m.id.endsWith(":free") || (Number(m.pricing?.prompt) === 0 && Number(m.pricing?.completion) === 0 && !m.id.startsWith("openrouter/auto")))
@@ -119,7 +203,9 @@
       }
     };
   }
-  const SOURCE_NAMES = ["github", "hfModels", "hfPapers", "hn", "reddit", "bluesky", "x", "openrouter", "zen"];
+  const SOURCE_NAMES = ["github", "hfModels", "hfPapers", "arxiv", "producthunt", "hn", "reddit", "bluesky", "x", "lobsters", "dev", "mastodon", "blogs", "techmeme", "guardian", "gnews", "newsapi", "youtube", "openrouter", "zen"];
+  // Sources that only run when their key is configured.
+  const KEYED = { x: o => o.xToken, guardian: o => o.keys?.guardian, gnews: o => o.keys?.gnews, newsapi: o => o.keys?.newsapi, youtube: o => o.keys?.youtube, producthunt: o => o.keys?.producthunt };
 
   // Returns { raw, errors }. A source that fails or returns nothing is null in raw.
   async function fetchAll(opts = {}) {
@@ -131,7 +217,8 @@
       raw[n] = s.status === "fulfilled" && s.value?.length ? s.value : null;
       if (!raw[n]) errors[n] = s.status === "rejected" ? String(s.reason?.message || s.reason) : "empty response";
     });
-    if (!opts.xToken) { delete errors.x; raw.xOff = true; }
+    raw.off = Object.keys(KEYED).filter(n => !KEYED[n](opts));
+    raw.off.forEach(n => delete errors[n]);
     if (raw.github) raw.contrib = await S.contributors(raw.github.slice(0, 12).map(g => g.repo));
     return { raw, errors };
   }
@@ -164,7 +251,8 @@
   function build(raw, { win = "24h", hist = {}, now = Date.now(), fetchedAt = new Date(now).toISOString(), fallback }) {
     const prev = id => hist[id];
     const winDays = win === "7d" ? 7 : win === "30d" ? 30 : 1;
-    const counted = SOURCE_NAMES.filter(n => !(n === "x" && raw.xOff));
+    const off = raw.off || (raw.xOff ? ["x"] : []);
+    const counted = SOURCE_NAMES.filter(n => !off.includes(n) || raw[n]);
     const live = counted.filter(n => raw[n]).length;
     const items = [];
 
@@ -198,18 +286,31 @@
     const ppPct = pctRank(papers.map(p => p.upvotes));
     papers.forEach(p => items.push({ name: p.title, owner: "Paper", src: "paper", url: `https://huggingface.co/papers/${p.id}`, cat: "Research", score: Math.min(95, Math.round(45 + 40 * ppPct(p.upvotes))), grow: null, desc: p.summary.split(/(?<=\.)\s/)[0] || "", meta: [`▲ ${p.upvotes} upvotes`, "Hugging Face Papers"], at: p.at }));
 
+    const ph = raw.producthunt || [];
+    const phPct = pctRank(ph.map(p => p.votes));
+    ph.forEach(p => items.push({ name: p.name, owner: "Product Hunt", src: "ph", url: p.url, cat: category(p.name + " " + p.tagline), score: Math.min(95, Math.round(45 + 40 * phPct(p.votes))), grow: null, desc: p.tagline, meta: [`▲ ${comma(p.votes)} votes`, `${p.comments} comments`, `Launched ${ago(p.at, now)}`], at: p.at }));
+
     const S = fallback;
     const rising = items.length ? items.sort((a, b) => b.score - a.score).slice(0, 10) : S.rising;
     const activity = items.length ? items.reduce((a, it) => (a[it.cat] = (a[it.cat] || 0) + 1, a), {}) : S.activity;
 
-    const disc = [...(raw.reddit || []), ...(raw.hn || []), ...(raw.bluesky || []), ...(raw.x || [])].map(d => ({ ...d, vel: d.up / Math.max(1, (now - Date.parse(d.at)) / 36e5) }));
+    const disc = [...(raw.reddit || []), ...(raw.hn || []), ...(raw.bluesky || []), ...(raw.x || []), ...(raw.lobsters || []), ...(raw.dev || []), ...(raw.mastodon || [])].map(d => ({ ...d, vel: d.up / Math.max(1, (now - Date.parse(d.at)) / 36e5) }));
     const discussions = disc.length ? disc.sort((a, b) => b.vel - a.vel).slice(0, 6) : S.discussions;
 
     const free = [...(raw.zen || []), ...(raw.openrouter || [])].sort((a, b) => Date.parse(b.at) - Date.parse(a.at));
     const freeCounts = { zen: raw.zen ? raw.zen.length : S.freeCounts.zen, or: raw.openrouter ? raw.openrouter.length : S.freeCounts.or };
     const freeRows = raw.zen && raw.openrouter ? free : free.length ? [...free, ...S.free.filter(f => !(raw.zen && f.prov === "OpenCode Zen") && !(raw.openrouter && f.prov === "OpenRouter"))].sort((a, b) => Date.parse(b.at) - Date.parse(a.at)) : S.free;
 
+    const seenT = new Set();
+    const headlines = [...(raw.blogs || []), ...(raw.techmeme || []), ...(raw.guardian || []), ...(raw.gnews || []), ...(raw.newsapi || []), ...(raw.youtube || [])]
+      .filter(h => now - Date.parse(h.at) < 7 * DAY)
+      .sort((a, b) => Date.parse(b.at) - Date.parse(a.at))
+      .filter(h => { const k = h.t.toLowerCase().replace(/[^a-z0-9]/g, "").slice(0, 60); if (seenT.has(k)) return false; seenT.add(k); return true; })
+      .slice(0, 16);
+
     const newToday = [
+      ...(raw.arxiv || []).slice(0, 4).map(a => ({ at: a.at, t: `New on arXiv: ${a.t}`, url: a.url })),
+      ...(raw.blogs || []).map(b => ({ at: b.at, t: `${b.src}: ${b.t}`, url: b.url })),
       ...disc.filter(d => d.up > 300).map(d => ({ at: d.at, t: `${d.src}: ${d.t}`, url: d.url })),
       ...ghRows.filter(g => g.age <= 1).map(g => ({ at: g.created, t: `${g.repo} is new on GitHub`, url: `https://github.com/${g.repo}` })),
       ...ghRows.flatMap(g => { const p = prev("gh:" + g.repo); return [1e3, 5e3, 1e4, 5e4].filter(m => p && p.v < m && g.stars >= m).map(m => ({ at: fetchedAt, t: `${g.repo} passes ${fmt(m)} GitHub stars`, url: `https://github.com/${g.repo}` })); })
@@ -238,7 +339,7 @@
       updated: fetchedAt, generated: fetchedAt, live, total: counted.length, isSnapshot: false,
       pulse, brief: brief.length ? brief : S.brief, freeCounts, rising, activity,
       models: models.length ? models.slice(0, 6) : S.models, github, discussions, newToday: newToday.length ? newToday : S.newToday,
-      free: freeRows
+      free: freeRows, headlines
     };
   }
 
@@ -247,6 +348,6 @@
     try { const v = await makeSources(opts)[name](); return v?.length ? v : null; } catch { return null; }
   }
 
-  root.UpcurrentCore = { fetchAll, fetchOne, build, updateHistory, SOURCE_NAMES, fmt, comma, ago };
+  root.UpcurrentCore = { fetchAll, fetchOne, parseFeed, build, updateHistory, SOURCE_NAMES, fmt, comma, ago };
   if (typeof module !== "undefined" && module.exports) module.exports = root.UpcurrentCore;
 })(typeof globalThis !== "undefined" ? globalThis : this);

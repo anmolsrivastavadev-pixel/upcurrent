@@ -19,6 +19,13 @@ const KEEP_STALE_HOURS = 48;
     xToken: process.env.X_BEARER_TOKEN,
     bskyHandle: process.env.BSKY_HANDLE,
     bskyPassword: process.env.BSKY_APP_PASSWORD,
+    keys: {
+      guardian: process.env.GUARDIAN_API_KEY,
+      gnews: process.env.GNEWS_API_KEY,
+      newsapi: process.env.NEWSAPI_KEY,
+      youtube: process.env.YOUTUBE_API_KEY,
+      producthunt: process.env.PRODUCTHUNT_TOKEN
+    },
     userAgent: `script:upcurrent-dashboard:v1.0 (by /u/${process.env.REDDIT_USERNAME || "upcurrent"})`
   });
 
@@ -28,6 +35,7 @@ const KEEP_STALE_HOURS = 48;
   const sourceTimes = {};
   for (const n of C.SOURCE_NAMES) {
     if (raw[n]) { sourceTimes[n] = new Date(now).toISOString(); continue; }
+    if ((raw.off || []).includes(n)) continue;
     const t = prevAge[n] && Date.parse(prevAge[n]);
     if (prev.raw?.[n] && t && now - t < KEEP_STALE_HOURS * 36e5) { raw[n] = prev.raw[n]; sourceTimes[n] = prevAge[n]; stale.push(n); }
   }
