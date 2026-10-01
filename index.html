@@ -99,6 +99,16 @@ nav.main a:hover { color: var(--ink); background: var(--chip); }
 
 /* sections */
 section.block { padding-block: 48px 8px; }
+.signup { margin-block: 56px 8px; padding: 28px clamp(18px, 4vw, 36px); background: var(--band); color: var(--band-ink); border-radius: 14px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 420px); gap: 20px 36px; align-items: center; }
+.signup h2 { font: 800 clamp(22px, 3vw, 30px)/1.1 var(--font-display); margin: 0 0 6px; text-wrap: balance; }
+.signup p { margin: 0; opacity: .8; }
+.signup form { display: flex; gap: 8px; flex-wrap: wrap; }
+.signup input { flex: 1 1 200px; min-width: 0; padding: 11px 14px; border-radius: 9px; border: 1px solid color-mix(in srgb, var(--band-ink) 25%, transparent); background: color-mix(in srgb, var(--band-ink) 8%, transparent); color: var(--band-ink); font: 500 15px var(--font-body); }
+.signup input::placeholder { color: color-mix(in srgb, var(--band-ink) 55%, transparent); }
+.signup button { padding: 11px 18px; border: 0; border-radius: 9px; background: var(--warm); color: #1b1206; font: 700 15px var(--font-body); cursor: pointer; }
+.signup .ok { flex-basis: 100%; font-size: 14px; }
+@media (max-width: 720px) { .signup { grid-template-columns: 1fr; } }
+
 .sec-head { display: flex; justify-content: space-between; align-items: end; gap: 16px; flex-wrap: wrap; margin-bottom: 18px; }
 .sec-head h2 { margin: 6px 0 0; font: 800 clamp(24px, 3vw, 32px)/1.1 var(--font-display); letter-spacing: -.03em; text-wrap: balance; }
 .sec-head p { margin: 6px 0 0; color: var(--muted); font-size: 15px; max-width: 60ch; }
@@ -342,6 +352,14 @@ footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wr
     <div class="free" id="freeBody"></div>
     <div id="freeNote"></div>
   </section>
+  <section class="signup" id="signup" hidden>
+    <div><h2>Get this every morning</h2><p>The top AI movers, headlines and repos in one short email. Free, and you can unsubscribe anytime.</p></div>
+    <form id="signupForm" method="post" target="_blank">
+      <input type="email" name="email" required placeholder="you@example.com" aria-label="Email address" autocomplete="email">
+      <button type="submit">Subscribe</button>
+      <div class="ok" id="signupOk" hidden>Check your inbox to confirm.</div>
+    </form>
+  </section>
 </main>
 
 <footer>
@@ -476,6 +494,13 @@ function heat(score) {
   return `rgb(${rgb.join(",")})`;
 }
 
+// Morning email signup. Set this to your Buttondown username to show the form.
+const NEWSLETTER = "";
+if (NEWSLETTER) {
+  $("signup").hidden = false;
+  $("signupForm").action = `https://buttondown.com/api/emails/embed-subscribe/${NEWSLETTER}`;
+  $("signupForm").addEventListener("submit", () => setTimeout(() => { $("signupOk").hidden = false; $("signupForm").reset(); }, 100));
+}
 $("pills").innerHTML = CATS.map(c => `<button type="button" class="chip" data-cat="${c}" aria-pressed="${c === "all"}">${c === "all" ? "All" : c}</button>`).join("");
 
 function render() {

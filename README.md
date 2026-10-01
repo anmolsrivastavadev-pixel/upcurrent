@@ -48,3 +48,13 @@ Each of these switches on when you add its repository secret:
 | NewsAPI | `NEWSAPI_KEY` | https://newsapi.org/register (free plan is for development only) |
 | YouTube | `YOUTUBE_API_KEY` | Google Cloud console, enable "YouTube Data API v3", create an API key |
 | Product Hunt | `PRODUCTHUNT_TOKEN` | https://www.producthunt.com/v2/oauth/applications, use the developer token |
+
+## Morning email
+
+`scripts/digest.cjs` turns `data/latest.json` into a short email (top movers, headlines, repos, threads) and sends it through [Buttondown](https://buttondown.com). The **Morning email** workflow runs it every day at 06:30 UTC.
+
+1. Create a Buttondown account and add its API key as the `BUTTONDOWN_API_KEY` secret.
+2. Put your Buttondown username in `const NEWSLETTER = ""` in `index.html` to show the signup box.
+3. Optional: add `data/sponsor.json` (`{"name": "...", "url": "https://...", "text": "..."}`) to put a sponsor line at the top of the email.
+
+Run the workflow by hand with "dry run" ticked to preview the email in the run summary without sending it.
