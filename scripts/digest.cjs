@@ -43,7 +43,14 @@ fs.writeFileSync(path.join(root, "data/digest.md"), `# ${subject}\n\n${body}\n`)
 console.log(`Subject: ${subject}\n${body.length} chars, ${rising.length} movers, ${news.length} headlines`);
 
 const key = process.env.BUTTONDOWN_API_KEY;
-if (!key || process.env.DRY_RUN === "1") { console.log(key ? "DRY_RUN set, not sending." : "No BUTTONDOWN_API_KEY, preview only."); process.exit(0); }
+if (!key) { console.log("No BUTTONDOWN_API_KEY, preview only."); process.exit(0); }
+if (process.env.DRY_RUN === "1") {
+  // Check the key without sending anything.
+  fetch("https://api.buttondown.com/v1/subscribers?page_size=1", { headers: { Authorization: `Token ${key}` } })
+    .then(async r => { const t = await r.text(); console.log(r.ok ? `Key works. Subscribers: ${JSON.parse(t).count}. DRY_RUN set, not sending.` : `Buttondown ${r.status}: ${t.slice(0, 300)}`); process.exit(r.ok ? 0 : 1); })
+    .catch(e => { console.error(e.message); process.exit(1); });
+  return;
+}
 if (!rising.length && !news.length) { console.error("Nothing to send today."); process.exit(1); }
 
 fetch("https://api.buttondown.com/v1/emails", {
