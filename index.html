@@ -510,6 +510,14 @@ function heat(score) {
   return `rgb(${rgb.join(",")})`;
 }
 
+// Visitor counter (GoatCounter: free, no cookies). Set this to your GoatCounter code to start counting.
+const GOATCOUNTER = "";
+if (GOATCOUNTER) {
+  const sc = document.createElement("script");
+  sc.async = true; sc.src = "https://gc.zgo.at/count.js";
+  sc.dataset.goatcounter = `https://${GOATCOUNTER}.goatcounter.com/count`;
+  document.head.appendChild(sc);
+}
 // Morning email signup. Set this to your Buttondown username to show the form.
 const NEWSLETTER = "anmolsrivastavadev";
 if (NEWSLETTER) {
