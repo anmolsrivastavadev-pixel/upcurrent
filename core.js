@@ -13,6 +13,7 @@
   };
 
   /* ---------- sources ---------- */
+  const oneLine = (t = "") => { t = t.replace(/https?:\/\/\S+/g, "").replace(/\s+/g, " ").trim(); return t.length > 160 ? t.slice(0, 157) + "…" : t; };
   function caps(mods = [], params = []) {
     const m = (mods || []).filter(x => x !== "text");
     const out = m.length ? [m.join("/")] : [];
@@ -69,6 +70,31 @@
         }
         return j.data.children.map(c => c.data).filter(d => !d.stickied).map(d => ({ src: "r/" + d.subreddit, t: d.title, url: "https://www.reddit.com" + d.permalink, up: d.ups, com: d.num_comments, at: new Date(d.created_utc * 1000).toISOString() }));
       },
+      async bluesky() {
+        // Bluesky's public search API needs no key.
+        const since = new Date(Date.now() - DAY).toISOString();
+        const terms = ["LLM", "Claude", "OpenAI", "Gemini", "AI agents"];
+        const res = await Promise.allSettled(terms.map(t => getJSON(`https://public.api.bsky.app/xrpc/app.bsky.feed.searchPosts?q=${encodeURIComponent(t)}&sort=top&lang=en&since=${since}&limit=25`)));
+        const ok = res.filter(x => x.status === "fulfilled");
+        if (!ok.length) throw new Error(String(res[0]?.reason?.message || "bluesky unreachable"));
+        const seen = new Map();
+        ok.forEach(x => (x.value.posts || []).forEach(p => seen.set(p.uri, {
+          src: "Bluesky", t: oneLine(p.record?.text), url: `https://bsky.app/profile/${p.author.handle}/post/${p.uri.split("/").pop()}`,
+          up: p.likeCount || 0, com: p.replyCount || 0, at: p.record?.createdAt || p.indexedAt
+        })));
+        return [...seen.values()].filter(p => p.t);
+      },
+      async x() {
+        // X's API is paid; this only runs when an X_BEARER_TOKEN is configured.
+        if (!opts.xToken) return null;
+        const q = '(LLM OR "AI agent" OR Claude OR ChatGPT OR Gemini OR "open source model") -is:retweet -is:reply lang:en';
+        const j = await getJSON(`https://api.x.com/2/tweets/search/recent?query=${encodeURIComponent(q)}&sort_order=relevancy&max_results=50&tweet.fields=public_metrics,created_at&expansions=author_id&user.fields=username`, { Authorization: `Bearer ${opts.xToken}` });
+        const users = Object.fromEntries((j.includes?.users || []).map(u => [u.id, u.username]));
+        return (j.data || []).map(t => ({
+          src: "X", t: oneLine(t.text), url: `https://x.com/${users[t.author_id] || "i"}/status/${t.id}`,
+          up: t.public_metrics?.like_count || 0, com: t.public_metrics?.reply_count || 0, at: t.created_at
+        }));
+      },
       async openrouter() {
         const j = await getJSON("https://openrouter.ai/api/v1/models");
         return j.data.filter(m => m.id.endsWith(":free") || (Number(m.pricing?.prompt) === 0 && Number(m.pricing?.completion) === 0 && !m.id.startsWith("openrouter/auto")))
@@ -86,7 +112,7 @@
       }
     };
   }
-  const SOURCE_NAMES = ["github", "hfModels", "hfPapers", "hn", "reddit", "openrouter", "zen"];
+  const SOURCE_NAMES = ["github", "hfModels", "hfPapers", "hn", "reddit", "bluesky", "x", "openrouter", "zen"];
 
   // Returns { raw, errors }. A source that fails or returns nothing is null in raw.
   async function fetchAll(opts = {}) {
@@ -98,6 +124,7 @@
       raw[n] = s.status === "fulfilled" && s.value?.length ? s.value : null;
       if (!raw[n]) errors[n] = s.status === "rejected" ? String(s.reason?.message || s.reason) : "empty response";
     });
+    if (!opts.xToken) { delete errors.x; raw.xOff = true; }
     if (raw.github) raw.contrib = await S.contributors(raw.github.slice(0, 12).map(g => g.repo));
     return { raw, errors };
   }
@@ -130,7 +157,8 @@
   function build(raw, { win = "24h", hist = {}, now = Date.now(), fetchedAt = new Date(now).toISOString(), fallback }) {
     const prev = id => hist[id];
     const winDays = win === "7d" ? 7 : win === "30d" ? 30 : 1;
-    const live = SOURCE_NAMES.filter(n => raw[n]).length;
+    const counted = SOURCE_NAMES.filter(n => !(n === "x" && raw.xOff));
+    const live = counted.filter(n => raw[n]).length;
     const items = [];
 
     const gh = raw.github || [];
@@ -167,7 +195,7 @@
     const rising = items.length ? items.sort((a, b) => b.score - a.score).slice(0, 10) : S.rising;
     const activity = items.length ? items.reduce((a, it) => (a[it.cat] = (a[it.cat] || 0) + 1, a), {}) : S.activity;
 
-    const disc = [...(raw.reddit || []), ...(raw.hn || [])].map(d => ({ ...d, vel: d.up / Math.max(1, (now - Date.parse(d.at)) / 36e5) }));
+    const disc = [...(raw.reddit || []), ...(raw.hn || []), ...(raw.bluesky || []), ...(raw.x || [])].map(d => ({ ...d, vel: d.up / Math.max(1, (now - Date.parse(d.at)) / 36e5) }));
     const discussions = disc.length ? disc.sort((a, b) => b.vel - a.vel).slice(0, 6) : S.discussions;
 
     const free = [...(raw.zen || []), ...(raw.openrouter || [])].sort((a, b) => Date.parse(b.at) - Date.parse(a.at));
@@ -200,7 +228,7 @@
     const github = ghRows.length ? [...ghRows].sort((a, b) => b.d24 - a.d24).slice(0, 8).map(g => ({ repo: g.repo, stars: g.stars, d24: g.d24, est: g.est, forks: g.forks, contrib: (raw.contrib || {})[g.repo] ?? null, score: g.score })) : S.github;
 
     return {
-      updated: fetchedAt, generated: fetchedAt, live, total: SOURCE_NAMES.length, isSnapshot: false,
+      updated: fetchedAt, generated: fetchedAt, live, total: counted.length, isSnapshot: false,
       pulse, brief: brief.length ? brief : S.brief, freeCounts, rising, activity,
       models: models.length ? models.slice(0, 6) : S.models, github, discussions, newToday: newToday.length ? newToday : S.newToday,
       free: freeRows

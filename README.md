@@ -28,3 +28,8 @@ Reddit blocks requests from GitHub's servers. To read it through Reddit's offici
 2. In this repo: Settings → Secrets and variables → Actions → New repository secret. Add
    `REDDIT_CLIENT_ID` (the code under the app name), `REDDIT_CLIENT_SECRET` and `REDDIT_USERNAME`.
 Without these, the page tries to load Reddit from each visitor's browser instead.
+
+## Bluesky and X
+Bluesky posts come from Bluesky's free public search API, with no setup needed.
+X needs a paid X developer plan. Add its bearer token as the `X_BEARER_TOKEN` repository secret and
+posts from X show up on the next hourly run. Without the token, X is skipped.

@@ -37,6 +37,8 @@ jobs:
           REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
           REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
           REDDIT_USERNAME: ${{ secrets.REDDIT_USERNAME }}
+          # Optional: an X API bearer token (paid X developer plan) adds posts from X.
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
 
       - name: Save data to the repo
         run: |

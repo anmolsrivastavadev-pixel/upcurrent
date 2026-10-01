@@ -313,7 +313,7 @@ footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wr
   <section class="block" id="threads">
     <div class="split">
       <div>
-        <div class="sec-head"><div><div class="eyebrow">Reddit · Hacker News</div><h2>Threads people are discussing</h2><p>Sorted by upvotes per hour since posting.</p></div></div>
+        <div class="sec-head"><div><div class="eyebrow">Reddit · Hacker News · Bluesky · X</div><h2>Threads people are discussing</h2><p>Sorted by upvotes or likes per hour since posting.</p></div></div>
         <div class="threads" id="disc"></div>
       </div>
       <div>
@@ -333,7 +333,7 @@ footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wr
 <footer>
   <div class="wrap">
     <span class="logo" style="font-size:16px">Upcurrent</span>
-    <span>Data from GitHub, Hugging Face, Hacker News, Reddit, OpenRouter and OpenCode Zen.</span>
+    <span>Data from GitHub, Hugging Face, Hacker News, Reddit, Bluesky, X, OpenRouter and OpenCode Zen.</span>
   </div>
 </footer>
 
@@ -523,8 +523,8 @@ function render() {
   const ds = D.discussions.filter(d => !state.q || d.t.toLowerCase().includes(state.q));
   const maxV = Math.max(1, ...ds.map(d => d.vel));
   $("disc").innerHTML = ds.map(d => `<a class="thread" href="${esc(d.url)}" target="_blank" rel="noopener">
-    <div style="min-width:0"><div class="where"><span>${esc(d.src)}</span><span>${ago(d.at)}</span></div><div class="t">${esc(d.t)}</div><div class="stats">▲ ${fmt(d.up)} · ${fmt(d.com)} comments</div></div>
-    <div class="vel"><b class="num">${Math.round(d.vel)}</b><span>upvotes/hr</span><div class="m"><i style="width:${d.vel / maxV * 100}%"></i></div></div></a>`).join("") || `<div class="empty">No threads match.</div>`;
+    <div style="min-width:0"><div class="where"><span>${esc(d.src)}</span><span>${ago(d.at)}</span></div><div class="t">${esc(d.t)}</div><div class="stats">▲ ${fmt(d.up)} · ${fmt(d.com)} ${/^(X|Bluesky)$/.test(d.src) ? "replies" : "comments"}</div></div>
+    <div class="vel"><b class="num">${Math.round(d.vel)}</b><span>${/^(X|Bluesky)$/.test(d.src) ? "likes/hr" : "upvotes/hr"}</span><div class="m"><i style="width:${d.vel / maxV * 100}%"></i></div></div></a>`).join("") || `<div class="empty">No threads match.</div>`;
 
   $("newToday").innerHTML = D.newToday.filter(n => !state.q || n.t.toLowerCase().includes(state.q)).map(n => `<li><time>${hhmm(n.at)}</time><span class="dot"></span><span>${n.url ? `<a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.t)}</a>` : esc(n.t)}</span></li>`).join("") || `<li><span></span><span></span><span class="empty">Nothing new matches.</span></li>`;
 

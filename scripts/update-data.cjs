@@ -16,6 +16,7 @@ const KEEP_STALE_HOURS = 48;
     githubToken: process.env.GITHUB_TOKEN,
     redditId: process.env.REDDIT_CLIENT_ID,
     redditSecret: process.env.REDDIT_CLIENT_SECRET,
+    xToken: process.env.X_BEARER_TOKEN,
     userAgent: `script:upcurrent-dashboard:v1.0 (by /u/${process.env.REDDIT_USERNAME || "upcurrent"})`
   });
 
