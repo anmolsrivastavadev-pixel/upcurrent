@@ -55,7 +55,7 @@ if (!rising.length && !news.length) { console.error("Nothing to send today."); p
 
 fetch("https://api.buttondown.com/v1/emails", {
   method: "POST",
-  headers: { Authorization: `Token ${key}`, "Content-Type": "application/json" },
+  headers: { Authorization: `Token ${key}`, "Content-Type": "application/json", "X-Buttondown-Live-Dangerously": "true" },
   body: JSON.stringify({ subject, body, status: "about_to_send" })
 }).then(async r => {
   const t = await r.text();
