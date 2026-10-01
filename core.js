@@ -159,7 +159,7 @@
       },
       async guardian() {
         if (!opts.keys?.guardian) return null;
-        const j = await getJSON(`https://content.guardianapis.com/search?q=%22artificial%20intelligence%22%20OR%20OpenAI%20OR%20ChatGPT&order-by=newest&page-size=20&api-key=${opts.keys.guardian}`);
+        const j = await getJSON(`https://content.guardianapis.com/search?tag=technology/artificialintelligenceai&order-by=newest&page-size=20&api-key=${opts.keys.guardian}`);
         return j.response.results.map(r => ({ t: r.webTitle, url: r.webUrl, at: r.webPublicationDate, src: "The Guardian", kind: "News" }));
       },
       async gnews() {
