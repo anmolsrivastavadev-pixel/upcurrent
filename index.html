@@ -1,0 +1,673 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Upcurrent</title>
+<meta name="description" content="A daily dashboard of AI repos, models, papers and threads that are picking up speed.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Schibsted+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap">
+<style>
+/* Layout: a morning weather report for AI. Ticker band, then a headline + live updraft chart,
+   then ranked movers as ruled rows (not cards), with heat colour encoding momentum everywhere. */
+:root {
+  --bg: #eef1f4;
+  --paper: #ffffff;
+  --ink: #0f1829;
+  --muted: #566276;
+  --faint: #8792a3;
+  --line: #d6dce4;
+  --band: #0f1829;
+  --band-ink: #e9eef6;
+  --link: #2a45cf;
+  --cool: #2f9db5;
+  --warm: #ef9b2d;
+  --hot: #e2412f;
+  --up: #12895f;
+  --chip: #e3e8ee;
+  --font-display: "Bricolage Grotesque", "Avenir Next", system-ui, sans-serif;
+  --font-body: "Schibsted Grotesk", "Helvetica Neue", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0c111a; --paper: #131a26; --ink: #e8edf5; --muted: #95a1b5; --faint: #67738a; --line: #232d3f;
+    --band: #19223a; --band-ink: #e8edf5; --link: #8fa3ff; --cool: #46b9d1; --warm: #f5ad45; --hot: #ff5c48; --up: #3fd09a; --chip: #1c2535;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0c111a; --paper: #131a26; --ink: #e8edf5; --muted: #95a1b5; --faint: #67738a; --line: #232d3f;
+  --band: #19223a; --band-ink: #e8edf5; --link: #8fa3ff; --cool: #46b9d1; --warm: #f5ad45; --hot: #ff5c48; --up: #3fd09a; --chip: #1c2535;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font: 16px/1.55 var(--font-body); -webkit-font-smoothing: antialiased; }
+a { color: inherit; text-decoration: none; }
+a:hover { color: var(--link); }
+:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; border-radius: 3px; }
+button { font: inherit; color: inherit; }
+.wrap { max-width: 1180px; margin: 0 auto; padding-inline: 20px; }
+.num { font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+.eyebrow { font: 600 11.5px/1 var(--font-mono); letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+
+/* top bar */
+.top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; background: color-mix(in srgb, var(--bg) 86%, transparent); backdrop-filter: saturate(1.4) blur(12px); border-bottom: 1px solid var(--line); }
+.top .wrap { display: flex; align-items: center; gap: 22px; padding-block: 12px; flex-wrap: wrap; }
+.logo { display: flex; align-items: center; gap: 9px; font: 800 21px/1 var(--font-display); letter-spacing: -.03em; }
+.logo svg { width: 26px; height: 26px; }
+nav.main { display: flex; gap: 2px; flex: 1; min-width: 0; flex-wrap: wrap; }
+nav.main a { padding: 6px 10px; border-radius: 6px; white-space: nowrap; font-size: 14.5px; font-weight: 500; color: var(--muted); }
+nav.main a:hover { color: var(--ink); background: var(--chip); }
+.search { position: relative; }
+.search input { width: 220px; max-width: 100%; padding: 8px 12px 8px 32px; border: 1px solid var(--line); border-radius: 8px; background: var(--paper); color: var(--ink); font: inherit; font-size: 14px; }
+.search svg { position: absolute; left: 10px; top: 50%; width: 14px; transform: translateY(-50%); color: var(--faint); }
+
+/* ticker */
+.ticker { background: var(--band); color: var(--band-ink); overflow: hidden; border-bottom: 1px solid var(--line); }
+.ticker-track { display: flex; width: max-content; animation: tick 60s linear infinite; }
+.ticker:hover .ticker-track { animation-play-state: paused; }
+.ticker-track span { display: inline-flex; align-items: center; gap: 8px; padding: 9px 22px; font: 500 13px var(--font-mono); white-space: nowrap; border-right: 1px solid color-mix(in srgb, var(--band-ink) 14%, transparent); }
+.ticker-track b { font-weight: 600; }
+.ticker-track i { font-style: normal; color: var(--warm); }
+@keyframes tick { to { transform: translateX(-50%); } }
+
+/* hero */
+.hero { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr); gap: 40px; padding-block: 44px 36px; align-items: stretch; }
+.dateline { display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.live { display: inline-flex; align-items: center; gap: 7px; font: 500 12.5px var(--font-mono); color: var(--muted); }
+.live::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--up); box-shadow: 0 0 0 0 color-mix(in srgb, var(--up) 60%, transparent); animation: pulse 2.2s ease-out infinite; }
+.live.snap::before { background: var(--faint); animation: none; }
+@keyframes pulse { 70% { box-shadow: 0 0 0 9px transparent; } 100% { box-shadow: 0 0 0 0 transparent; } }
+.hero h1 { font: 800 clamp(34px, 5.4vw, 60px)/1.02 var(--font-display); letter-spacing: -.035em; margin: 18px 0 18px; text-wrap: balance; }
+.hero h1 .mover { background: linear-gradient(90deg, var(--warm), var(--hot)); -webkit-background-clip: text; background-clip: text; color: transparent; overflow-wrap: anywhere; }
+.brief { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; max-width: 58ch; }
+.brief li { display: grid; grid-template-columns: 18px 1fr; gap: 8px; color: var(--muted); font-size: 16.5px; }
+.brief li::before { content: "↗"; color: var(--hot); font-weight: 700; }
+.brief li:first-child { color: var(--ink); }
+.gen { margin-top: 14px; font: 12px var(--font-mono); color: var(--faint); }
+
+.updraft { position: relative; background: var(--paper); border: 1px solid var(--line); border-radius: 14px; padding: 18px 18px 12px; display: flex; flex-direction: column; min-height: 340px; min-width: 0; }
+.updraft header { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.updraft h2 { margin: 0; font: 700 17px var(--font-display); letter-spacing: -.01em; }
+.updraft p { margin: 2px 0 0; font-size: 13px; color: var(--muted); }
+.updraft canvas { flex: 1; width: 100%; min-height: 240px; margin-top: 10px; cursor: pointer; display: block; }
+
+/* glance */
+.glance { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); border-block: 1px solid var(--line); }
+.glance div { padding: 18px 18px 16px; border-left: 1px solid var(--line); min-width: 0; }
+.glance div:first-child { border-left: 0; padding-left: 0; }
+.glance b { display: block; font: 800 34px/1 var(--font-display); letter-spacing: -.03em; }
+.glance span { font-size: 13.5px; color: var(--muted); }
+
+/* sections */
+section.block { padding-block: 48px 8px; }
+.sec-head { display: flex; justify-content: space-between; align-items: end; gap: 16px; flex-wrap: wrap; margin-bottom: 18px; }
+.sec-head h2 { margin: 6px 0 0; font: 800 clamp(24px, 3vw, 32px)/1.1 var(--font-display); letter-spacing: -.03em; text-wrap: balance; }
+.sec-head p { margin: 6px 0 0; color: var(--muted); font-size: 15px; max-width: 60ch; }
+
+.controls { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; background: var(--paper); }
+.seg button { border: 0; background: none; padding: 6px 13px; font: 600 12.5px var(--font-mono); color: var(--muted); cursor: pointer; }
+.seg button + button { border-left: 1px solid var(--line); }
+.seg button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { border: 1px solid var(--line); background: transparent; border-radius: 999px; padding: 4px 11px; font-size: 13px; font-weight: 500; color: var(--muted); cursor: pointer; }
+.chip:hover { color: var(--ink); border-color: var(--faint); }
+.chip[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--bg); }
+
+/* movers */
+.movers { border-top: 2px solid var(--ink); margin-top: 16px; }
+.row { display: grid; grid-template-columns: 54px minmax(0, 1fr) 132px; gap: 18px; padding: 18px 8px 18px 0; border-bottom: 1px solid var(--line); align-items: start; transition: background .15s; }
+.row:hover { background: color-mix(in srgb, var(--paper) 70%, transparent); }
+.rank { font: 800 34px/1 var(--font-display); color: transparent; -webkit-text-stroke: 1.2px var(--faint); letter-spacing: -.04em; text-align: right; padding-top: 2px; }
+.row.lead .rank { -webkit-text-stroke: 0; color: var(--hot); }
+.row h3 { margin: 0; font: 700 19px/1.25 var(--font-display); letter-spacing: -.015em; overflow-wrap: anywhere; }
+.row.lead h3 { font-size: 26px; }
+.tags { display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; margin-top: 5px; font-size: 13px; color: var(--faint); }
+.src { font: 600 10.5px var(--font-mono); letter-spacing: .06em; padding: 2px 6px; border-radius: 4px; background: var(--chip); color: var(--muted); }
+.cat { font-weight: 600; color: var(--muted); }
+.row .desc { margin: 8px 0 0; color: var(--muted); font-size: 15px; max-width: 72ch; overflow-wrap: anywhere; }
+.row .meta { margin-top: 8px; display: flex; flex-wrap: wrap; gap: 4px 14px; font: 12.5px var(--font-mono); color: var(--faint); }
+.heat { justify-self: end; text-align: right; display: grid; gap: 6px; justify-items: end; }
+.heat .score { display: inline-flex; align-items: baseline; gap: 3px; padding: 6px 10px 5px; border-radius: 8px; color: #fff; font: 800 24px/1 var(--font-display); letter-spacing: -.02em; }
+.heat .score small { font: 500 11px var(--font-mono); opacity: .8; }
+.heat .gauge { width: 112px; height: 5px; border-radius: 3px; background: linear-gradient(90deg, var(--cool), var(--warm), var(--hot)); position: relative; opacity: .9; }
+.heat .gauge i { position: absolute; top: -3px; width: 2px; height: 11px; background: var(--ink); border-radius: 1px; }
+.grow { font: 600 13px var(--font-mono); color: var(--up); }
+.grow.flat { color: var(--faint); font-weight: 400; }
+.note { font: 12.5px var(--font-mono); color: var(--faint); margin-top: 12px; }
+details.how { margin-top: 18px; color: var(--muted); font-size: 14.5px; max-width: 72ch; }
+details.how summary { cursor: pointer; color: var(--ink); font-weight: 600; }
+
+/* models */
+.models { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0; border-top: 2px solid var(--ink); }
+.model { padding: 18px 18px 18px 0; border-bottom: 1px solid var(--line); display: grid; gap: 10px; align-content: start; min-width: 0; }
+.model + .model { padding-left: 18px; border-left: 1px solid var(--line); }
+.model:nth-child(3n+1) { padding-left: 0; border-left: 0; }
+.model .org { font: 500 12.5px var(--font-mono); color: var(--faint); overflow-wrap: anywhere; }
+.model h3 { margin: 2px 0 0; font: 700 17px/1.25 var(--font-display); overflow-wrap: anywhere; }
+.model .kv { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; font-size: 12px; color: var(--faint); }
+.model .kv b { display: block; font: 600 15px var(--font-mono); color: var(--ink); }
+.dlbar { height: 4px; background: var(--chip); border-radius: 2px; overflow: hidden; }
+.dlbar i { display: block; height: 100%; background: var(--cool); }
+
+/* repos */
+.tbl { overflow-x: auto; border-top: 2px solid var(--ink); }
+table { width: 100%; border-collapse: collapse; font-size: 14.5px; }
+th { text-align: left; font: 600 11px var(--font-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--faint); padding: 12px 12px 10px 0; border-bottom: 1px solid var(--line); white-space: nowrap; }
+td { padding: 13px 12px 13px 0; border-bottom: 1px solid var(--line); white-space: nowrap; vertical-align: middle; }
+.r { text-align: right; }
+.repo .o { color: var(--faint); }
+.repo b { font-weight: 700; }
+.spark { display: inline-flex; align-items: center; gap: 10px; justify-content: flex-end; }
+.spark .b { width: 120px; height: 8px; background: var(--chip); border-radius: 2px; overflow: hidden; }
+.spark .b i { display: block; height: 100%; background: linear-gradient(90deg, var(--warm), var(--hot)); }
+.pill { display: inline-block; min-width: 34px; padding: 2px 7px; border-radius: 5px; color: #fff; font: 700 13px var(--font-mono); text-align: center; }
+
+/* threads + just in */
+.split { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); gap: 48px; }
+.threads { border-top: 2px solid var(--ink); }
+.thread { display: grid; grid-template-columns: minmax(0, 1fr) 96px; gap: 16px; padding: 15px 0; border-bottom: 1px solid var(--line); }
+.thread .where { font: 500 12px var(--font-mono); color: var(--faint); display: flex; gap: 10px; flex-wrap: wrap; }
+.thread .t { font-weight: 600; font-size: 16px; margin-top: 3px; overflow-wrap: anywhere; }
+.thread .stats { font: 12px var(--font-mono); color: var(--faint); margin-top: 4px; }
+.vel { text-align: right; }
+.vel b { display: block; font: 800 22px/1 var(--font-display); color: var(--hot); }
+.vel span { font: 11px var(--font-mono); color: var(--faint); }
+.vel .m { height: 4px; background: var(--chip); border-radius: 2px; margin-top: 6px; overflow: hidden; }
+.vel .m i { display: block; height: 100%; background: var(--hot); margin-left: auto; }
+.timeline { list-style: none; margin: 0; padding: 0; border-top: 2px solid var(--ink); position: relative; }
+.timeline li { display: grid; grid-template-columns: 52px 14px minmax(0, 1fr); gap: 10px; padding: 11px 0; font-size: 14.5px; }
+.timeline time { font: 500 12.5px var(--font-mono); color: var(--faint); padding-top: 2px; }
+.timeline .dot { position: relative; }
+.timeline .dot::before { content: ""; position: absolute; left: 3px; top: 7px; width: 8px; height: 8px; border-radius: 50%; background: var(--warm); }
+.timeline .dot::after { content: ""; position: absolute; left: 6.5px; top: 18px; bottom: -22px; width: 1px; background: var(--line); }
+.timeline li:last-child .dot::after { display: none; }
+.timeline span { overflow-wrap: anywhere; }
+
+/* free models */
+.free { border-top: 2px solid var(--ink); display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 40px; }
+.fm { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 12px; padding: 13px 0; border-bottom: 1px solid var(--line); }
+.fm .n { font-weight: 600; overflow-wrap: anywhere; }
+.fm .p { font: 500 12px var(--font-mono); color: var(--faint); text-align: right; white-space: nowrap; }
+.fm .ctx { grid-column: 1 / -1; display: flex; align-items: center; gap: 10px; font: 12px var(--font-mono); color: var(--muted); flex-wrap: wrap; }
+.fm .ctx .b { width: 90px; height: 4px; background: var(--chip); border-radius: 2px; overflow: hidden; }
+.fm .ctx .b i { display: block; height: 100%; background: var(--cool); }
+.cap { font-size: 11.5px; padding: 1px 7px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); font-family: var(--font-body); }
+.more-btn { margin-top: 14px; border: 1px solid var(--line); background: var(--paper); border-radius: 8px; padding: 7px 14px; font-weight: 600; font-size: 13.5px; cursor: pointer; }
+.more-btn:hover { border-color: var(--ink); }
+
+footer { margin-top: 64px; border-top: 1px solid var(--line); padding-block: 28px 44px; color: var(--muted); font-size: 14px; }
+footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; align-items: center; }
+.empty { padding: 22px 0; color: var(--faint); }
+
+@media (max-width: 920px) {
+  .hero { grid-template-columns: minmax(0, 1fr); gap: 28px; }
+  .glance { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .glance div:nth-child(4) { border-left: 0; padding-left: 0; }
+  .glance div:nth-child(n+4) { border-top: 1px solid var(--line); }
+  .models { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .model:nth-child(3n+1) { padding-left: 18px; border-left: 1px solid var(--line); }
+  .model:nth-child(2n+1) { padding-left: 0; border-left: 0; }
+  .split { grid-template-columns: minmax(0, 1fr); }
+  .free { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 600px) {
+  .wrap { padding-inline: 16px; }
+  nav.main { order: 3; flex-basis: 100%; flex-wrap: nowrap; overflow-x: auto; }
+  .search { flex: 1; } .search input { width: 100%; }
+  .glance { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .glance div { border-left: 0 !important; padding-left: 0 !important; }
+  .glance div:nth-child(n+3) { border-top: 1px solid var(--line); }
+  .row { grid-template-columns: 34px minmax(0, 1fr); gap: 12px; }
+  .rank { font-size: 24px; }
+  .heat { grid-column: 2; justify-self: start; justify-items: start; text-align: left; grid-auto-flow: column; align-items: center; gap: 12px; }
+  .row.lead h3 { font-size: 21px; }
+  .models { grid-template-columns: minmax(0, 1fr); }
+  .model { padding-left: 0 !important; border-left: 0 !important; }
+  .thread { grid-template-columns: minmax(0, 1fr) 72px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ticker-track, .live::before { animation: none; }
+  .ticker { overflow-x: auto; }
+}
+</style>
+</head><body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="#top" aria-label="Upcurrent home">
+      <svg viewBox="0 0 32 32" fill="none" aria-hidden="true">
+        <path d="M5 25c4-1 6-5 6-10" stroke="var(--cool)" stroke-width="3.2" stroke-linecap="round"/>
+        <path d="M13 26c4.5-1.5 7-7 6.5-15" stroke="var(--warm)" stroke-width="3.2" stroke-linecap="round"/>
+        <path d="M21 27c5-2 7.5-10 6-21" stroke="var(--hot)" stroke-width="3.2" stroke-linecap="round"/>
+      </svg>
+      Upcurrent
+    </a>
+    <nav class="main" aria-label="Sections">
+      <a href="#rising">Movers</a>
+      <a href="#models">Models</a>
+      <a href="#github">Repos</a>
+      <a href="#threads">Threads</a>
+      <a href="#free">Free models</a>
+    </nav>
+    <div class="search">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input id="q" type="search" placeholder="Filter everything" aria-label="Filter the page">
+    </div>
+  </div>
+</header>
+
+<div class="ticker" aria-label="Top movers ticker"><div class="ticker-track" id="ticker"></div></div>
+
+<main id="top" class="wrap">
+  <div class="hero">
+    <div>
+      <div class="dateline"><span class="eyebrow" id="dateline"></span><span class="live" id="statusText"></span></div>
+      <h1 id="headline"></h1>
+      <ul class="brief" id="brief"></ul>
+      <div class="gen" id="genText"></div>
+    </div>
+    <div class="updraft">
+      <header>
+        <div><h2>Where the momentum is</h2><p>Column height is item count. Faster particles mean hotter scores. Select a column to filter.</p></div>
+        <button type="button" class="chip" id="clearCat" hidden>Show all</button>
+      </header>
+      <canvas id="draft" role="img" aria-label="Momentum by category"></canvas>
+    </div>
+  </div>
+
+  <div class="glance" id="pulse" aria-label="Today at a glance"></div>
+
+  <section class="block" id="rising">
+    <div class="sec-head">
+      <div><div class="eyebrow">Ranked by momentum score</div><h2>Climbing fastest</h2></div>
+      <div class="controls">
+        <div class="seg" role="group" aria-label="Time window">
+          <button type="button" data-w="24h" aria-pressed="true">24H</button>
+          <button type="button" data-w="7d" aria-pressed="false">7D</button>
+          <button type="button" data-w="30d" aria-pressed="false">30D</button>
+        </div>
+        <div class="chips" id="pills" role="group" aria-label="Category"></div>
+      </div>
+    </div>
+    <div class="movers" id="risingList"></div>
+    <div class="note" id="winNote" hidden>Only the 24-hour ranking is in the snapshot, so 7D and 30D show the same list until live data loads.</div>
+    <details class="how">
+      <summary>How the momentum score works</summary>
+      <p>Each item gets a 0–100 score. It is ranked against other items from the same source by attention per day (GitHub stars, Hugging Face trending score, paper upvotes), then gets a small boost if it is less than nine days old. The colour runs from cool blue to hot red with the score. Growth % appears once the page has seen an item on an earlier visit.</p>
+    </details>
+  </section>
+
+  <section class="block" id="models">
+    <div class="sec-head"><div><div class="eyebrow">Hugging Face</div><h2>Models on the move</h2><p>Recently released models that are trending, with downloads to date.</p></div></div>
+    <div class="models" id="modelGrid"></div>
+  </section>
+
+  <section class="block" id="github">
+    <div class="sec-head"><div><div class="eyebrow">GitHub</div><h2>Repos picking up stars</h2><p>Young AI repositories sorted by stars gained per day.</p></div></div>
+    <div class="tbl"><table>
+      <thead><tr><th>Repository</th><th class="r">Stars</th><th class="r">Gained per day</th><th class="r">Forks</th><th class="r">Contributors</th><th class="r">Score</th></tr></thead>
+      <tbody id="ghBody"></tbody>
+    </table></div>
+  </section>
+
+  <section class="block" id="threads">
+    <div class="split">
+      <div>
+        <div class="sec-head"><div><div class="eyebrow">Reddit · Hacker News</div><h2>Threads people are discussing</h2><p>Sorted by upvotes per hour since posting.</p></div></div>
+        <div class="threads" id="disc"></div>
+      </div>
+      <div>
+        <div class="sec-head"><div><div class="eyebrow">Last 24 hours</div><h2>Just in</h2></div></div>
+        <ol class="timeline" id="newToday"></ol>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="free">
+    <div class="sec-head"><div><div class="eyebrow">OpenRouter · OpenCode Zen</div><h2>Free models to call</h2><p id="freeSub"></p></div></div>
+    <div class="free" id="freeBody"></div>
+    <div id="freeNote"></div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span class="logo" style="font-size:16px">Upcurrent</span>
+    <span>Data from GitHub, Hugging Face, Hacker News, Reddit, OpenRouter and OpenCode Zen.</span>
+  </div>
+</footer>
+
+<script src="core.js"></script>
+<script>
+// Upcurrent. Renders a snapshot instantly, then pulls live data in the viewer's browser
+// from public, CORS-enabled APIs. Sources that fail keep their snapshot section.
+const SNAP_AT = "2026-10-01T16:50:00Z";
+const hAgo = h => new Date(Date.parse(SNAP_AT) - h * 3600e3).toISOString();
+const dAgo = d => hAgo(d * 24);
+const SNAPSHOT = {
+  updated: "2026-10-01T16:08:00Z", generated: "2026-10-01T16:11:00Z", live: 7, total: 7,
+  pulse: { trending: 162, accelerating: 4, newModels: 9, discussions: 38, stars: 0 },
+  brief: [
+    "Top mover: universal-modder, score 80, up 193% in a day.",
+    "Agent projects make up 4 of the top 10.",
+    "Hugging Face has 9 trending models released this week, 7 of them open source.",
+    "You can call 25 models for free: 8 on OpenCode Zen and 17 on OpenRouter."
+  ],
+  freeCounts: { zen: 8, or: 17 },
+  rising: [
+    { name: "universal-modder", owner: "rehan-remade", src: "gh", cat: "Agents", score: 80, grow: 193, desc: "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.", meta: ["★ 1,365", "+899 in 24h", "Released 2 days ago"] },
+    { name: "UniMate", owner: "Friedrich-M", src: "gh", cat: "Tools", score: 77, grow: 29, desc: "[SIGGRAPH Asia 2026] UniMate: One Unified Model to Animate Diverse Skeletons", meta: ["★ 1,000", "+225 in 24h"] },
+    { name: "VisionHOPE", owner: "PSRben", src: "hf", cat: "Vision", score: 71, grow: 123, desc: "VisionHOPE provides hierarchical T, S and B visual backbones for image classification, object detection and segmentation.", meta: ["305 downloads (30d)"] },
+    { name: "openrig", owner: "mvschwarz", src: "gh", cat: "Agents", score: 71, grow: 23, desc: "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.", meta: ["★ 3,500", "+640 in 24h"] },
+    { name: "AIHOT", owner: "KKKKhazix", src: "gh", cat: "Agents", score: 71, grow: 14, desc: "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。", meta: ["★ 4,600", "+565 in 24h"] },
+    { name: "Qwen3.8-Flash-Next-GSQ-RCO-Coder-GGUF", owner: "ISTA-DASLab", src: "hf", cat: "Vision", score: 69, grow: 345, desc: "A pruned and quantized version of Qwen/Qwen3.8-Flash-Next for code, agentic tool use, vision and spatial reasoning.", meta: ["148K downloads"] },
+    { name: "MiniMax-H3-360-Orbit-LoRA", owner: "pablodawson", src: "hf", cat: "Tools", score: 68, grow: 55, desc: "A LoRA adapter for MiniMax-H3 (FL2VA variant) for image-to-video generation.", meta: ["2.2K downloads"] },
+    { name: "laya", owner: "convaiinnovations", src: "hf", cat: "Tools", score: 68, grow: null, desc: "Laya is a 0.4B non-autoregressive decision model for answering typed questions about a text, email, ticket or JSON state with calibrated probabilities in a single forward pass.", meta: ["421M params", "0 downloads (30d)"] },
+    { name: "Raven: The Harness of Harnesses for Composable Agentic Intelligence", owner: "Paper", src: "paper", url: "https://huggingface.co/papers", cat: "Research", score: 68, grow: null, desc: "As large language models advance, AI agents are moving beyond isolated, domain-specific tasks toward long-horizon, cross-domain workflows.", meta: ["Hugging Face Papers"] },
+    { name: "lemo-opuscar", owner: "lemomo-ai", src: "gh", cat: "Agents", score: 64, grow: 13, desc: "43 film styles, each a reusable style prompt plus a short film made entirely in code by Claude Opus 5.5. Pick a style, bring your own story, and let your agent direct.", meta: ["★ 753", "+89 in 24h"] }
+  ],
+  activity: { Agents: 62, Vision: 32, Research: 20, LLMs: 20, Tools: 19, Coding: 5, Infrastructure: 3, Robotics: 1 },
+  models: [
+    { name: "VisionHOPE", org: "PSRben", lic: "Open source", at: dAgo(2), grow: 123, score: 71, dl: 305, cat: "Vision" },
+    { name: "Qwen3.8-Flash-Next-GSQ-RCO-Coder-GGUF", org: "ISTA-DASLab", lic: "Open source", at: dAgo(5), grow: 345, score: 69, dl: 148000, cat: "Vision" },
+    { name: "MiniMax-H3-360-Orbit-LoRA", org: "pablodawson", lic: "Open weights", at: dAgo(5), grow: 55, score: 68, dl: 2200, cat: "Tools" },
+    { name: "laya", org: "convaiinnovations", size: "421M", lic: "Open source", at: dAgo(14), grow: null, score: 68, dl: 0, cat: "Tools" },
+    { name: "MiniMax-H3-Character-Swap-LoRA", org: "akatz-ai", lic: "Open weights", at: dAgo(6), grow: 24, score: 63, dl: 10000, cat: "Tools" },
+    { name: "OrcaSAQ-2-Cyber-27B-Uncensored-GGUF", org: "orcarouter", size: "27B", lic: "Open source", at: dAgo(6), grow: 17, score: 60, dl: 8400, cat: "LLMs" }
+  ],
+  github: [
+    { repo: "rehan-remade/universal-modder", stars: 1365, d24: 899, forks: 91, contrib: 80, score: 80 },
+    { repo: "NVIDIA/OpenShell", stars: 14000, d24: 2503, forks: 1600, contrib: 53, score: 53 },
+    { repo: "feder-cr/dots", stars: 2200, d24: 500, forks: 360, contrib: 51, score: 51 },
+    { repo: "mvschwarz/openrig", stars: 3500, d24: 640, forks: 236, contrib: 71, score: 71 },
+    { repo: "Friedrich-M/UniMate", stars: 1000, d24: 225, forks: 96, contrib: 77, score: 77 },
+    { repo: "KKKKhazix/AIHOT", stars: 4600, d24: 565, forks: 1300, contrib: 71, score: 71 },
+    { repo: "yetone/magpie", stars: 4000, d24: 376, forks: 252, contrib: 62, score: 62 },
+    { repo: "lemomo-ai/lemo-opuscar", stars: 753, d24: 89, forks: 91, contrib: 64, score: 64 }
+  ],
+  discussions: [
+    { src: "r/OpenAI", t: "After researchers discovered a 'pain' signal inside LLMs, a man set up an AI torture chamber in which he trapped a…", vel: 169, at: hAgo(4), up: 756, com: 908, url: "https://www.reddit.com/r/OpenAI" },
+    { src: "r/ClaudeAI", t: "Opus 5.5 nerfing - how to measure, how to spot, how to sue", vel: 147, at: hAgo(6), up: 892, com: 198, url: "https://www.reddit.com/r/ClaudeAI" },
+    { src: "r/ClaudeAI", t: "Throwback to when Claude suggested I should deal drugs to make money.", vel: 127, at: hAgo(6), up: 810, com: 67, url: "https://www.reddit.com/r/ClaudeAI" },
+    { src: "Hacker News", t: "Gemini 4 Argon", vel: 75, at: hAgo(21), up: 1600, com: 1000, url: "https://news.ycombinator.com/" },
+    { src: "r/singularity", t: "Gemini 4 Argon solved hallucinations.", vel: 71, at: hAgo(18), up: 1300, com: 246, url: "https://www.reddit.com/r/singularity" },
+    { src: "r/singularity", t: "Gemini 4 from straight from the horses mouth", vel: 54, at: hAgo(21), up: 1100, com: 281, url: "https://www.reddit.com/r/singularity" }
+  ],
+  newToday: [
+    ["2026-10-01T16:18:00Z", "earendil-works/pi"],
+    ["2026-10-01T16:14:00Z", "FreeToken vs llama.cpp on one RTX 3090: llama.cpp is 2–3× faster when the MoE fits in VRAM. On gpt-oss-120b (63 GB), FreeToken gets the first token out 7× faster at 32 concurrent users."],
+    ["2026-10-01T16:10:00Z", "rehan-remade/universal-modder passes 1K GitHub stars"],
+    ["2026-10-01T16:10:00Z", "Friedrich-M/UniMate passes 1K GitHub stars"],
+    ["2026-10-01T10:50:00Z", "r/ClaudeAI: Opus 5.5 nerfing - how to measure, how to spot, how to sue"],
+    ["2026-10-01T07:14:00Z", "Raven: The Harness of Harnesses for Composable Agentic Intelligence"],
+    ["2026-10-01T06:35:00Z", "tp=6 can work on vLLM, with padding"],
+    ["2026-10-01T04:05:00Z", "Open source inference engine that optimizes itself for your exact hardware, so open models run up to 2x faster than llama.cpp."],
+    ["2026-10-01T02:18:00Z", "debpalash/VoiceStudio passes 50K GitHub stars"],
+    ["2026-09-30T22:46:00Z", "r/singularity: Gemini 4 Argon solved hallucinations."],
+    ["2026-09-30T20:15:00Z", "r/ClaudeAI: Gemini 4 is out: The competition has woken up"],
+    ["2026-09-30T20:09:00Z", "r/singularity: Introducing Gemini 4 Argon"]
+  ].map(([at, t]) => ({ at, t })),
+  free: [
+    ["LongCat 2.5 Preview", "OpenCode Zen", 1e6, ["image", "reasoning", "tools"], dAgo(7)],
+    ["Space Bunny Alpha", "OpenRouter", 1e6, ["image/video", "reasoning", "tools"], dAgo(8)],
+    ["Space Bunny", "OpenCode Zen", 1e6, ["image/video", "reasoning", "tools"], dAgo(9)],
+    ["MiMo-V2.6-Flash", "OpenCode Zen", 200e3, ["image/audio/video", "reasoning", "tools"], dAgo(10)],
+    ["Ling 3.0 Flash Sante", "OpenRouter", 262e3, ["reasoning", "tools"], dAgo(27)],
+    ["Muse Spark 1.3", "OpenCode Zen", 1e6, ["image/video/pdf/audio", "reasoning", "tools"], "2026-09-02T12:00:00Z"],
+    ["Ling 3.0 Flash Fin", "OpenCode Zen", 262e3, ["reasoning", "tools"], "2026-08-27T12:00:00Z"],
+    ["Qwen3.8 27B", "OpenRouter", 262e3, ["image/video", "reasoning", "tools"], "2026-08-14T12:00:00Z"],
+    ["Dots3-Note Preview", "OpenRouter", 512e3, ["image", "reasoning", "tools"], "2026-08-14T12:00:00Z"],
+    ["LFM2.5-2.6B", "OpenRouter", 66e3, ["reasoning", "tools"], "2026-08-11T12:00:00Z"]
+  ].map(([name, prov, ctx, caps, at]) => ({ name, prov, ctx, caps, at })),
+};
+
+/* ---------- helpers ---------- */
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const $ = id => document.getElementById(id);
+const HUES = ["#8b7cff", "#ff8a4c", "#3ddc97", "#5cc8ff", "#ff6fa8", "#ffd166"];
+const hue = s => HUES[[...s].reduce((a, c) => a + c.charCodeAt(0), 0) % HUES.length];
+const avatar = s => `<div class="av" style="background:${hue(s)}" aria-hidden="true">${esc(s.replace(/[^A-Za-z0-9]/g, "").slice(0, 2).toUpperCase() || "AI")}</div>`;
+const fmt = n => n == null ? "—" : n >= 1e6 ? (n / 1e6).toFixed(n >= 1e7 ? 0 : 1).replace(/\.0$/, "") + "M" : n >= 1e3 ? (n / 1e3).toFixed(n >= 1e4 ? 0 : 1).replace(/\.0$/, "") + "K" : String(Math.round(n));
+const comma = n => Math.round(n).toLocaleString("en-US");
+const ago = iso => {
+  const m = (Date.now() - Date.parse(iso)) / 6e4;
+  if (m < 60) return `${Math.max(1, Math.round(m))} min ago`;
+  if (m < 1440) return `${Math.round(m / 60)}h ago`;
+  return `${Math.round(m / 1440)} days ago`;
+};
+const added = iso => (Date.now() - Date.parse(iso)) / 864e5 < 30 ? `${Math.max(0, Math.round((Date.now() - Date.parse(iso)) / 864e5))} days ago` : new Date(iso).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+const hhmm = iso => new Date(iso).toLocaleTimeString("en-GB", { hour: "2-digit", minute: "2-digit" });
+const growth = g => g == null ? `<span class="grow flat">—</span>` : `<span class="grow">▲ +${g}%</span>`;
+const linkFor = r => r.url || (r.src === "gh" ? `https://github.com/${r.owner}/${r.name}` : r.src === "hf" ? `https://huggingface.co/${r.owner}/${r.name}` : "#");
+const store = {
+  get(k) { try { return JSON.parse(localStorage.getItem(k)); } catch { return null; } },
+  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} }
+};
+
+/* ---------- rendering ---------- */
+let DATA = SNAPSHOT;
+const state = { cat: "all", q: "", win: "24h" };
+const matches = (text, cat) => (state.cat === "all" || cat === state.cat) && (!state.q || text.toLowerCase().includes(state.q));
+const CATS = ["all", "Agents", "LLMs", "Coding", "Infrastructure", "Robotics", "Vision", "Research", "Tools"];
+const SRC_LABEL = { gh: "GITHUB", hf: "HUGGING FACE", paper: "PAPER" };
+const reduceMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+const cssVar = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const hex = h => { const m = h.replace("#", ""); return [0, 2, 4].map(i => parseInt(m.slice(i, i + 2), 16)); };
+const mix = (a, b, t) => a.map((v, i) => Math.round(v + (b[i] - v) * t));
+function heat(score) {
+  const c = hex(cssVar("--cool")), w = hex(cssVar("--warm")), h = hex(cssVar("--hot"));
+  const t = Math.max(0, Math.min(1, (score - 45) / 45));
+  const rgb = t < 0.5 ? mix(c, w, t * 2) : mix(w, h, (t - 0.5) * 2);
+  return `rgb(${rgb.join(",")})`;
+}
+
+$("pills").innerHTML = CATS.map(c => `<button type="button" class="chip" data-cat="${c}" aria-pressed="${c === "all"}">${c === "all" ? "All" : c}</button>`).join("");
+
+function render() {
+  const D = DATA;
+  const st = $("statusText");
+  st.className = "live" + (D.isSnapshot ? " snap" : "");
+  st.textContent = D.isSnapshot ? (D.live === 0 ? `Snapshot from ${new Date(SNAP_AT).toLocaleDateString("en-US", { month: "short", day: "numeric" })} · live sources unreachable here` : "Snapshot · checking live sources…") : `Live · updated ${ago(D.updated)} · ${D.live}/${D.total} sources`;
+  $("dateline").textContent = new Date(D.isSnapshot ? SNAP_AT : D.updated).toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric" });
+  $("genText").textContent = `Written from the numbers on this page · ${new Date(D.generated).toISOString().slice(0, 16).replace("T", " ")} UTC`;
+  const top = D.rising[0];
+  $("headline").innerHTML = top ? `<span class="mover">${esc(top.name.length > 40 ? top.name.slice(0, 38) + "…" : top.name)}</span> is climbing fastest today.` : "Quiet morning in AI.";
+  $("brief").innerHTML = D.brief.map(b => `<li>${esc(b)}</li>`).join("");
+
+  const tick = [...D.rising.map(r => `<span><b>${esc(r.name.length > 34 ? r.name.slice(0, 32) + "…" : r.name)}</b> ${r.grow != null ? `<i>▲ ${r.grow}%</i>` : ""}<span style="padding:0;border:0;opacity:.7">score ${r.score}</span></span>`),
+    ...D.discussions.slice(0, 3).map(d => `<span>${esc(d.src)} <b>${esc(d.t.length > 50 ? d.t.slice(0, 48) + "…" : d.t)}</b> <i>↑ ${Math.round(d.vel)}/hr</i></span>`)].join("");
+  $("ticker").innerHTML = tick + tick;
+
+  const P = D.pulse;
+  $("pulse").innerHTML = [[fmt(P.trending), "items tracked"], [fmt(P.accelerating), "doubled in a day"], [fmt(P.newModels), "models released this week"], [fmt(P.discussions), "threads in the last 24h"], [fmt(P.stars), "GitHub stars gained today"]]
+    .map(([v, l]) => `<div><b class="num">${v}</b><span>${l}</span></div>`).join("");
+
+  const rows = D.rising.map((r, i) => ({ ...r, rank: i + 1 })).filter(r => matches(r.name + r.owner + r.desc, r.cat));
+  $("risingList").innerHTML = rows.length ? rows.map(r => `
+    <article class="row${r.rank === 1 && state.cat === "all" && !state.q ? " lead" : ""}">
+      <div class="rank">${r.rank}</div>
+      <div style="min-width:0">
+        <h3><a href="${esc(linkFor(r))}" target="_blank" rel="noopener">${esc(r.name)}</a></h3>
+        <div class="tags"><span class="src">${SRC_LABEL[r.src] || "SOURCE"}</span>${r.owner !== "Paper" ? `<span>${esc(r.owner)}</span>` : ""}<span class="cat">${r.cat}</span></div>
+        <p class="desc">${esc(r.desc)}</p>
+        <div class="meta">${r.meta.map(m => `<span>${esc(m)}</span>`).join("")}</div>
+      </div>
+      <div class="heat">
+        <span class="score" style="background:${heat(r.score)}">${r.score}<small>/100</small></span>
+        <span class="gauge" aria-hidden="true"><i style="left:calc(${Math.max(0, Math.min(100, r.score))}% - 1px)"></i></span>
+        ${r.grow == null ? `<span class="grow flat">no prior reading</span>` : `<span class="grow">▲ ${r.grow}% in 24h</span>`}
+      </div>
+    </article>`).join("") : `<div class="empty">Nothing in this category matches. Try All.</div>`;
+
+  const ms = D.models.filter(m => matches(m.name + m.org, m.cat));
+  const maxDl = Math.max(1, ...ms.map(m => m.dl || 0));
+  $("modelGrid").innerHTML = ms.length ? ms.map(m => `
+    <article class="model">
+      <div><div class="org">${esc(m.org)}${m.size ? " · " + m.size : ""}</div><h3><a href="https://huggingface.co/${esc(m.org)}/${esc(m.name)}" target="_blank" rel="noopener">${esc(m.name)}</a></h3></div>
+      <div class="tags"><span class="src">${esc(m.lic.toUpperCase())}</span><span>released ${ago(m.at)}</span><span class="cat">${m.cat}</span></div>
+      <div class="kv"><div>Score<b style="color:${heat(m.score)}">${m.score}</b></div><div>Downloads<b>${fmt(m.dl)}</b></div><div>24h<b style="color:var(${m.grow == null ? "--faint" : "--up"})">${m.grow == null ? "—" : "+" + m.grow + "%"}</b></div></div>
+      <div class="dlbar" title="Downloads relative to the most-downloaded model here"><i style="width:${Math.max(2, Math.sqrt((m.dl || 0) / maxDl) * 100)}%"></i></div>
+    </article>`).join("") : `<div class="empty">No models match.</div>`;
+
+  const gh = D.github.filter(g => !state.q || g.repo.toLowerCase().includes(state.q));
+  const maxD = Math.max(1, ...gh.map(g => g.d24 || 0));
+  $("ghBody").innerHTML = gh.map(g => { const [o, n] = g.repo.split("/"); return `<tr>
+    <td class="repo"><a href="https://github.com/${esc(g.repo)}" target="_blank" rel="noopener"><span class="o">${esc(o)}/</span><b>${esc(n)}</b></a></td>
+    <td class="r num">${fmt(g.stars)}</td>
+    <td class="r"><span class="spark"><span class="num">${g.d24 == null ? "—" : (g.est ? "~" : "+") + comma(g.d24)}</span><span class="b"><i style="width:${(g.d24 || 0) / maxD * 100}%"></i></span></span></td>
+    <td class="r num">${fmt(g.forks)}</td>
+    <td class="r num">${g.contrib == null ? "—" : fmt(g.contrib)}</td>
+    <td class="r"><span class="pill" style="background:${heat(g.score)}">${g.score}</span></td></tr>`; }).join("") || `<tr><td colspan="6" class="empty">No repositories match.</td></tr>`;
+
+  const ds = D.discussions.filter(d => !state.q || d.t.toLowerCase().includes(state.q));
+  const maxV = Math.max(1, ...ds.map(d => d.vel));
+  $("disc").innerHTML = ds.map(d => `<a class="thread" href="${esc(d.url)}" target="_blank" rel="noopener">
+    <div style="min-width:0"><div class="where"><span>${esc(d.src)}</span><span>${ago(d.at)}</span></div><div class="t">${esc(d.t)}</div><div class="stats">▲ ${fmt(d.up)} · ${fmt(d.com)} comments</div></div>
+    <div class="vel"><b class="num">${Math.round(d.vel)}</b><span>upvotes/hr</span><div class="m"><i style="width:${d.vel / maxV * 100}%"></i></div></div></a>`).join("") || `<div class="empty">No threads match.</div>`;
+
+  $("newToday").innerHTML = D.newToday.filter(n => !state.q || n.t.toLowerCase().includes(state.q)).map(n => `<li><time>${hhmm(n.at)}</time><span class="dot"></span><span>${n.url ? `<a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.t)}</a>` : esc(n.t)}</span></li>`).join("") || `<li><span></span><span></span><span class="empty">Nothing new matches.</span></li>`;
+
+  const fc = D.freeCounts;
+  $("freeSub").textContent = `${fc.zen + fc.or} models you can call at zero cost right now: ${fc.zen} on OpenCode Zen and ${fc.or} on OpenRouter. Newest first.`;
+  const fr = D.free.filter(f => !state.q || f.name.toLowerCase().includes(state.q));
+  const showAll = $("freeBody").dataset.all === "1";
+  const logC = c => c ? Math.max(4, (Math.log2(c) - 13) / (Math.log2(2e6) - 13) * 100) : 0;
+  $("freeBody").innerHTML = (showAll ? fr : fr.slice(0, 10)).map(f => `<div class="fm">
+    <span class="n">${f.url ? `<a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.name)}</a>` : esc(f.name)}</span>
+    <span class="p">${f.prov} · ${added(f.at)}</span>
+    <span class="ctx"><span class="b" title="Context window, log scale"><i style="width:${logC(f.ctx)}%"></i></span>${f.ctx ? fmt(f.ctx) + " context" : "context n/a"}${f.caps.map(x => `<span class="cap">${esc(x)}</span>`).join("")}</span></div>`).join("") || `<div class="empty">No models match.</div>`;
+  $("freeNote").innerHTML = fr.length > 10 ? `<button type="button" class="more-btn" id="freeToggle">${showAll ? "Show fewer" : `Show all ${fr.length}`}</button>` : (D.isSnapshot && fr.length < fc.zen + fc.or ? `<div class="note">The snapshot holds ${fr.length} of ${fc.zen + fc.or}. The full list loads with live data.</div>` : "");
+
+  document.querySelectorAll(".chip[data-cat]").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.cat === state.cat)));
+  $("clearCat").hidden = state.cat === "all";
+  drawSetup();
+}
+
+/* ---------- updraft chart ---------- */
+const cv = $("draft"), ctx = cv.getContext("2d");
+let cols = [], parts = [], W = 0, H = 0, raf = 0;
+function catHeat() {
+  const acc = {};
+  [...DATA.rising, ...DATA.models].forEach(i => { (acc[i.cat] = acc[i.cat] || []).push(i.score); });
+  return c => acc[c] ? acc[c].reduce((a, b) => a + b, 0) / acc[c].length : 52;
+}
+function drawSetup() {
+  const r = cv.getBoundingClientRect(), dpr = window.devicePixelRatio || 1;
+  W = r.width; H = r.height;
+  if (!W || !H) return;
+  cv.width = W * dpr; cv.height = H * dpr; ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  const entries = Object.entries(DATA.activity).sort((a, b) => b[1] - a[1]).slice(0, 8);
+  const max = Math.max(1, ...entries.map(e => e[1]));
+  const hs = catHeat();
+  const gap = 10, bw = (W - gap * (entries.length - 1)) / Math.max(1, entries.length);
+  const base = H - 40;
+  cols = entries.map(([c, n], i) => {
+    const score = hs(c);
+    return { c, n, x: i * (bw + gap), w: bw, h: Math.max(10, (base - 20) * n / max), score, color: heat(score) };
+  });
+  parts = cols.flatMap((col, ci) => Array.from({ length: Math.min(26, 4 + Math.round(col.n / 2)) }, () => ({ ci, x: col.x + 4 + Math.random() * (col.w - 8), y: base - Math.random() * col.h, v: 0.25 + (col.score - 40) / 60 * 1.3 + Math.random() * 0.3, r: 1 + Math.random() * 1.8 })));
+  if (!raf) frame();
+}
+function paint() {
+  ctx.clearRect(0, 0, W, H);
+  const gapPx = 10, base = H - 40, ink = cssVar("--ink"), faint = cssVar("--faint"), line = cssVar("--line");
+  ctx.strokeStyle = line; ctx.lineWidth = 1;
+  [0.25, 0.5, 0.75].forEach(f => { const y = Math.round(base - (base - 20) * f) + .5; ctx.beginPath(); ctx.moveTo(0, y); ctx.lineTo(W, y); ctx.stroke(); });
+  cols.forEach(col => {
+    const dim = state.cat !== "all" && state.cat !== col.c;
+    const g = ctx.createLinearGradient(0, base, 0, base - col.h);
+    g.addColorStop(0, cssVar("--cool")); g.addColorStop(1, col.color);
+    ctx.globalAlpha = dim ? 0.18 : 0.9;
+    ctx.fillStyle = g;
+    ctx.beginPath(); ctx.roundRect ? ctx.roundRect(col.x, base - col.h, col.w, col.h, [5, 5, 0, 0]) : ctx.rect(col.x, base - col.h, col.w, col.h); ctx.fill();
+    ctx.globalAlpha = dim ? 0.35 : 1;
+    ctx.fillStyle = ink; ctx.font = `700 15px ${cssVar("--font-mono")}`; ctx.textAlign = "center";
+    ctx.fillText(String(col.n), col.x + col.w / 2, base - col.h - 7);
+    ctx.fillStyle = faint; ctx.font = `500 11.5px ${cssVar("--font-body")}`;
+    let label = col.c;
+    while (label.length > 3 && ctx.measureText(label).width > col.w + gapPx - 2) label = label.slice(0, -2) + ".";
+    if (label.endsWith("..")) label = label.slice(0, -1);
+    ctx.fillText(label, col.x + col.w / 2, base + 18);
+  });
+  ctx.globalAlpha = 1;
+  ctx.fillStyle = "#ffffff";
+  parts.forEach(p => {
+    const col = cols[p.ci]; if (!col) return;
+    ctx.globalAlpha = state.cat !== "all" && state.cat !== col.c ? 0.12 : 0.75;
+    ctx.beginPath(); ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2); ctx.fill();
+  });
+  ctx.globalAlpha = 1;
+}
+function frame() {
+  const base = H - 40;
+  if (!reduceMotion) parts.forEach(p => { const col = cols[p.ci]; if (!col) return; p.y -= p.v; if (p.y < base - col.h + 4) { p.y = base - 3; p.x = col.x + 4 + Math.random() * (col.w - 8); } });
+  paint();
+  raf = reduceMotion ? 0 : requestAnimationFrame(frame);
+}
+cv.addEventListener("click", e => {
+  const x = e.clientX - cv.getBoundingClientRect().left;
+  const hit = cols.find(c => x >= c.x && x <= c.x + c.w);
+  if (hit) { state.cat = state.cat === hit.c ? "all" : hit.c; render(); }
+});
+addEventListener("resize", () => drawSetup());
+matchMedia("(prefers-color-scheme: dark)").addEventListener?.("change", () => render());
+
+document.addEventListener("click", e => {
+  const b = e.target.closest(".chip[data-cat]");
+  if (b) { state.cat = state.cat === b.dataset.cat && b.dataset.cat !== "all" ? "all" : b.dataset.cat; render(); }
+  if (e.target.id === "clearCat") { state.cat = "all"; render(); }
+  const w = e.target.closest("[data-w]");
+  if (w) {
+    document.querySelectorAll("[data-w]").forEach(x => x.setAttribute("aria-pressed", String(x === w)));
+    state.win = w.dataset.w; $("winNote").hidden = w.dataset.w === "24h" || !DATA.isSnapshot;
+    if (!DATA.isSnapshot && lastRaw) { rebuild(); render(); }
+  }
+  if (e.target.id === "freeToggle") { $("freeBody").dataset.all = $("freeBody").dataset.all === "1" ? "" : "1"; render(); }
+});
+$("q").addEventListener("input", e => { state.q = e.target.value.trim().toLowerCase(); render(); });
+
+
+/* ---------- live data ---------- */
+// 1) data/latest.json, written hourly by the scheduled GitHub Action next to this page
+// 2) otherwise, fetch the public sources directly from this browser
+// 3) otherwise, the snapshot above
+const C = window.UpcurrentCore;
+let lastRaw = null, lastHist = {}, lastFetchedAt = null;
+function rebuild() { DATA = C.build(lastRaw, { win: state.win, hist: lastHist, fetchedAt: lastFetchedAt, fallback: SNAPSHOT }); }
+
+async function fromPublished() {
+  const r = await fetch("data/latest.json", { cache: "no-cache" });
+  if (!r.ok) throw new Error("no published data");
+  const j = await r.json();
+  if (!j.raw || !C.SOURCE_NAMES.some(n => j.raw[n])) throw new Error("published data is empty");
+  return j;
+}
+
+async function goLive() {
+  if (!C) { DATA = { ...SNAPSHOT, isSnapshot: true, live: 0 }; render(); return; }
+  try {
+    const j = await fromPublished();
+    lastRaw = j.raw; lastHist = j.hist || {}; lastFetchedAt = j.fetchedAt;
+    rebuild(); render(); return;
+  } catch {}
+  const cached = store.get("sh-cache");
+  if (cached && Date.now() - cached.ts < 15 * 6e4) {
+    lastRaw = cached.raw; lastHist = store.get("sh-history") || {}; lastFetchedAt = new Date(cached.ts).toISOString();
+    rebuild(); render(); return;
+  }
+  const { raw } = await C.fetchAll();
+  if (!C.SOURCE_NAMES.some(n => raw[n])) { DATA = { ...SNAPSHOT, isSnapshot: true, live: 0 }; render(); return; }
+  lastHist = C.updateHistory(store.get("sh-history") || {}, raw);
+  store.set("sh-history", lastHist);
+  store.set("sh-cache", { ts: Date.now(), raw });
+  lastRaw = raw; lastFetchedAt = new Date().toISOString();
+  rebuild(); render();
+}
+
+DATA = { ...SNAPSHOT, isSnapshot: true };
+state.win = "24h";
+render();
+goLive();
+</script>
+</body></html>
