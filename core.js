@@ -55,7 +55,18 @@
         return [...seen.values()];
       },
       async reddit() {
-        const j = await getJSON("https://www.reddit.com/r/OpenAI+ClaudeAI+singularity+LocalLLaMA+MachineLearning/hot.json?limit=60&raw_json=1");
+        // With a Reddit app (client id + secret) use the official OAuth API; otherwise the public JSON.
+        const path = "/r/OpenAI+ClaudeAI+singularity+LocalLLaMA+MachineLearning/hot.json?limit=60&raw_json=1";
+        let j;
+        if (opts.redditId && opts.redditSecret) {
+          const basic = typeof btoa === "function" ? btoa(`${opts.redditId}:${opts.redditSecret}`) : Buffer.from(`${opts.redditId}:${opts.redditSecret}`).toString("base64");
+          const t = await fetch("https://www.reddit.com/api/v1/access_token", { method: "POST", headers: { ...ua, Authorization: `Basic ${basic}`, "Content-Type": "application/x-www-form-urlencoded" }, body: "grant_type=client_credentials" });
+          if (!t.ok) throw new Error("reddit token → " + t.status);
+          const { access_token } = await t.json();
+          j = await getJSON("https://oauth.reddit.com" + path, { Authorization: `Bearer ${access_token}` });
+        } else {
+          j = await getJSON("https://www.reddit.com" + path);
+        }
         return j.data.children.map(c => c.data).filter(d => !d.stickied).map(d => ({ src: "r/" + d.subreddit, t: d.title, url: "https://www.reddit.com" + d.permalink, up: d.ups, com: d.num_comments, at: new Date(d.created_utc * 1000).toISOString() }));
       },
       async openrouter() {
@@ -196,6 +207,11 @@
     };
   }
 
-  root.UpcurrentCore = { fetchAll, build, updateHistory, SOURCE_NAMES, fmt, comma, ago };
+  // Fetch one source by name, e.g. fetchOne("reddit"). Returns null if it fails or is empty.
+  async function fetchOne(name, opts = {}) {
+    try { const v = await makeSources(opts)[name](); return v?.length ? v : null; } catch { return null; }
+  }
+
+  root.UpcurrentCore = { fetchAll, fetchOne, build, updateHistory, SOURCE_NAMES, fmt, comma, ago };
   if (typeof module !== "undefined" && module.exports) module.exports = root.UpcurrentCore;
 })(typeof globalThis !== "undefined" ? globalThis : this);

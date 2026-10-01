@@ -649,7 +649,13 @@ async function goLive() {
   try {
     const j = await fromPublished();
     lastRaw = j.raw; lastHist = j.hist || {}; lastFetchedAt = j.fetchedAt;
-    rebuild(); render(); return;
+    rebuild(); render();
+    // If the hourly job could not reach Reddit, try loading it from this browser instead.
+    if (!lastRaw.reddit) {
+      const reddit = await C.fetchOne("reddit");
+      if (reddit) { lastRaw = { ...lastRaw, reddit }; rebuild(); render(); }
+    }
+    return;
   } catch {}
   const cached = store.get("sh-cache");
   if (cached && Date.now() - cached.ts < 15 * 6e4) {

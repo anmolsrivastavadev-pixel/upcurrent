@@ -12,7 +12,12 @@ const KEEP_STALE_HOURS = 48;
   try { prev = JSON.parse(fs.readFileSync(OUT, "utf8")); } catch {}
 
   const now = Date.now();
-  const { raw, errors } = await C.fetchAll({ githubToken: process.env.GITHUB_TOKEN, userAgent: "upcurrent-dashboard/1.0 (GitHub Actions)" });
+  const { raw, errors } = await C.fetchAll({
+    githubToken: process.env.GITHUB_TOKEN,
+    redditId: process.env.REDDIT_CLIENT_ID,
+    redditSecret: process.env.REDDIT_CLIENT_SECRET,
+    userAgent: `script:upcurrent-dashboard:v1.0 (by /u/${process.env.REDDIT_USERNAME || "upcurrent"})`
+  });
 
   // A source that failed this run keeps its last good data for up to 48 hours.
   const stale = [];

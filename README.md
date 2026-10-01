@@ -20,3 +20,11 @@ A daily dashboard of AI repos, models, papers and threads that are picking up sp
 3. Actions → "Update data and publish" → Run workflow (or wait for the next hour).
 
 Run it locally with `node scripts/update-data.cjs` (Node 18+).
+
+## Reddit (optional)
+Reddit blocks requests from GitHub's servers. To read it through Reddit's official API:
+1. Log in to Reddit, open https://www.reddit.com/prefs/apps and create an app of type **script**
+   (redirect URI can be `http://localhost`).
+2. In this repo: Settings → Secrets and variables → Actions → New repository secret. Add
+   `REDDIT_CLIENT_ID` (the code under the app name), `REDDIT_CLIENT_SECRET` and `REDDIT_USERNAME`.
+Without these, the page tries to load Reddit from each visitor's browser instead.
