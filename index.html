@@ -99,6 +99,14 @@ nav.main a:hover { color: var(--ink); background: var(--chip); }
 
 /* sections */
 section.block { padding-block: 48px 8px; }
+.mini-signup { margin: 22px 0 6px; display: grid; gap: 7px; max-width: 460px; }
+.mini-signup label { font: 600 12px var(--font-mono); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.mini-row { display: flex; gap: 6px; }
+.mini-row input { flex: 1 1 auto; min-width: 0; padding: 9px 12px; border-radius: 8px; border: 1px solid var(--line); background: var(--paper); color: var(--ink); font: 500 14.5px var(--font-body); }
+.mini-row input:focus { outline: 2px solid var(--warm); outline-offset: 1px; border-color: transparent; }
+.mini-row button { flex: none; padding: 9px 15px; border: 0; border-radius: 8px; background: var(--ink); color: var(--bg); font: 700 14px var(--font-body); cursor: pointer; }
+.mini-row button:hover { background: var(--hot); color: #fff; }
+.mini-signup .ok { font-size: 13.5px; color: var(--up); }
 .signup { margin-block: 56px 8px; padding: 28px clamp(18px, 4vw, 36px); background: var(--band); color: var(--band-ink); border-radius: 14px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 420px); gap: 20px 36px; align-items: center; }
 .signup h2 { font: 800 clamp(22px, 3vw, 30px)/1.1 var(--font-display); margin: 0 0 6px; text-wrap: balance; }
 .signup p { margin: 0; opacity: .8; }
@@ -283,6 +291,14 @@ footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wr
       <div class="dateline"><span class="eyebrow" id="dateline"></span><span class="live" id="statusText"></span></div>
       <h1 id="headline"></h1>
       <ul class="brief" id="brief"></ul>
+      <form class="mini-signup nl-form" id="miniSignup" method="post" target="_blank" hidden>
+        <label for="miniEmail">Get this every morning</label>
+        <div class="mini-row">
+          <input type="email" id="miniEmail" name="email" required placeholder="you@example.com" autocomplete="email">
+          <button type="submit">Subscribe</button>
+        </div>
+        <div class="ok" hidden>Check your inbox to confirm.</div>
+      </form>
       <div class="gen" id="genText"></div>
     </div>
     <div class="updraft">
@@ -354,10 +370,10 @@ footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wr
   </section>
   <section class="signup" id="signup" hidden>
     <div><h2>Get this every morning</h2><p>The top AI movers, headlines and repos in one short email. Free, and you can unsubscribe anytime.</p></div>
-    <form id="signupForm" method="post" target="_blank">
+    <form id="signupForm" class="nl-form" method="post" target="_blank">
       <input type="email" name="email" required placeholder="you@example.com" aria-label="Email address" autocomplete="email">
       <button type="submit">Subscribe</button>
-      <div class="ok" id="signupOk" hidden>Check your inbox to confirm.</div>
+      <div class="ok" hidden>Check your inbox to confirm.</div>
     </form>
   </section>
 </main>
@@ -498,8 +514,11 @@ function heat(score) {
 const NEWSLETTER = "anmolsrivastavadev";
 if (NEWSLETTER) {
   $("signup").hidden = false;
-  $("signupForm").action = `https://buttondown.com/api/emails/embed-subscribe/${NEWSLETTER}`;
-  $("signupForm").addEventListener("submit", () => setTimeout(() => { $("signupOk").hidden = false; $("signupForm").reset(); }, 100));
+  $("miniSignup").hidden = false;
+  document.querySelectorAll(".nl-form").forEach(f => {
+    f.action = `https://buttondown.com/api/emails/embed-subscribe/${NEWSLETTER}`;
+    f.addEventListener("submit", () => setTimeout(() => { f.querySelector(".ok").hidden = false; f.reset(); }, 100));
+  });
 }
 $("pills").innerHTML = CATS.map(c => `<button type="button" class="chip" data-cat="${c}" aria-pressed="${c === "all"}">${c === "all" ? "All" : c}</button>`).join("");
 
