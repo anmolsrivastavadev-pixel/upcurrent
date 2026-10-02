@@ -317,12 +317,20 @@ footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wr
   .ticker-track, .live::before { animation: none; }
   .ticker { overflow-x: auto; }
 }
+
+/* language picker + hide Google's translate banner */
+.lang-pick { position: relative; display: inline-flex; align-items: center; gap: 6px; color: var(--muted); }
+.lang-pick svg { width: 16px; height: 16px; flex: none; }
+.lang-pick select { appearance: none; -webkit-appearance: none; font: inherit; font-size: 14px; color: var(--ink); background: var(--paper); border: 1px solid var(--line); border-radius: 8px; padding: 7px 10px; max-width: 160px; cursor: pointer; }
+iframe.skiptranslate, .goog-te-banner-frame, #goog-gt-tt, .goog-te-balloon-frame, .VIpgJd-ZVi9od-ORHb-OEVmcd, .VIpgJd-ZVi9od-aZ2wEe-wOHMyf { display: none !important; }
+body { top: 0 !important; }
+font[style] { background: none !important; box-shadow: none !important; }
 </style>
 </head><body>
 
 <header class="top">
   <div class="wrap">
-    <a class="logo" href="#top" aria-label="Upcurrent home">
+    <a class="logo notranslate" translate="no" href="#top" aria-label="Upcurrent home">
       <svg viewBox="0 0 32 32" fill="none" aria-hidden="true">
         <path d="M5 25c4-1 6-5 6-10" stroke="var(--cool)" stroke-width="3.2" stroke-linecap="round"/>
         <path d="M13 26c4.5-1.5 7-7 6.5-15" stroke="var(--warm)" stroke-width="3.2" stroke-linecap="round"/>
@@ -342,6 +350,7 @@ footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wr
       <a href="#free">Free models</a>
       <a href="data.html">Open data</a>
     </nav>
+    <span id="langPick"></span>
     <div class="search">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
       <input id="q" type="search" placeholder="Filter everything" aria-label="Filter the page">
@@ -469,6 +478,7 @@ footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wr
   </div>
 </footer>
 
+<script src="translate.js"></script>
 <script src="core.js"></script>
 <script>
 // Upcurrent. Renders a snapshot instantly, then pulls live data in the viewer's browser

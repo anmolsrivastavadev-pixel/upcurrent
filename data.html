@@ -53,8 +53,16 @@ th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--lin
 th { font: 600 11.5px var(--font-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
 td:first-child { font-family: var(--font-mono); font-size: 13.5px; white-space: nowrap; }
 footer { border-top: 1px solid var(--line); padding-block: 22px; color: var(--muted); font-size: 14px; }
+
+/* language picker + hide Google's translate banner */
+.lang-pick { position: relative; display: inline-flex; align-items: center; gap: 6px; color: var(--muted); }
+.lang-pick svg { width: 16px; height: 16px; flex: none; }
+.lang-pick select { appearance: none; -webkit-appearance: none; font: inherit; font-size: 14px; color: var(--ink); background: var(--paper); border: 1px solid var(--line); border-radius: 8px; padding: 7px 10px; max-width: 160px; cursor: pointer; }
+iframe.skiptranslate, .goog-te-banner-frame, #goog-gt-tt, .goog-te-balloon-frame, .VIpgJd-ZVi9od-ORHb-OEVmcd, .VIpgJd-ZVi9od-aZ2wEe-wOHMyf { display: none !important; }
+body { top: 0 !important; }
+font[style] { background: none !important; box-shadow: none !important; }
 </style></head><body>
-<header><div class="wrap"><a class="logo" href="./">Upcurrent</a><a href="./">Back to the dashboard</a></div></header>
+<header><div class="wrap"><a class="logo notranslate" translate="no" href="./">Upcurrent</a><span style="display:flex;gap:14px;align-items:center;flex-wrap:wrap"><span id="langPick"></span><a href="./">Back to the dashboard</a></span></div></header>
 <main class="wrap">
 <section>
   <div class="eyebrow">Open data · free · CC BY 4.0</div>
@@ -77,7 +85,7 @@ footer { border-top: 1px solid var(--line); padding-block: 22px; color: var(--mu
 <section>
   <h2>Try it</h2>
   <div class="copy">
-<pre><code id="ex">const res = await fetch("https://anmolsrivastavadev-pixel.github.io/upcurrent/data/api/today.json");
+<pre class="notranslate" translate="no"><code id="ex">const res = await fetch("https://anmolsrivastavadev-pixel.github.io/upcurrent/data/api/today.json");
 const data = await res.json();
 for (const item of data.rising.slice(0, 5)) console.log(item.title, item.url);</code></pre>
     <button type="button" data-copy="ex">Copy</button>
@@ -106,7 +114,7 @@ for (const item of data.rising.slice(0, 5)) console.log(item.title, item.url);</
   <h2>The one rule: credit Upcurrent</h2>
   <p>The data Upcurrent creates (scores, breakouts, hype verdicts, receipts, free model changes) is licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>. Wherever you show it, add this line:</p>
   <div class="copy">
-<pre><code id="credit">Data from &lt;a href="https://anmolsrivastavadev-pixel.github.io/upcurrent/"&gt;Upcurrent&lt;/a&gt;</code></pre>
+<pre class="notranslate" translate="no"><code id="credit">Data from &lt;a href="https://anmolsrivastavadev-pixel.github.io/upcurrent/"&gt;Upcurrent&lt;/a&gt;</code></pre>
     <button type="button" data-copy="credit">Copy</button>
   </div>
   <ul class="rules" style="margin-top:14px">
@@ -118,6 +126,7 @@ for (const item of data.rising.slice(0, 5)) console.log(item.title, item.url);</
 </section>
 </main>
 <footer><div class="wrap">Built something with this? Upcurrent would love to see it. <a href="./">Back to the dashboard</a></div></footer>
+<script src="translate.js"></script>
 <script>
 document.querySelectorAll("[data-copy]").forEach(b => b.addEventListener("click", async () => {
   const t = document.getElementById(b.dataset.copy).textContent;
