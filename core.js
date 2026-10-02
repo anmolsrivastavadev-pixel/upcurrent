@@ -82,7 +82,7 @@
         const ok = res.filter(x => x.status === "fulfilled");
         if (!ok.length) throw new Error("hn unreachable");
         const seen = new Map();
-        ok.forEach(x => x.value.hits.forEach(h => seen.set(h.objectID, { src: "Hacker News", t: h.title, url: `https://news.ycombinator.com/item?id=${h.objectID}`, up: h.points, com: h.num_comments || 0, at: new Date(h.created_at_i * 1000).toISOString() })));
+        ok.forEach(x => x.value.hits.forEach(h => seen.set(h.objectID, { src: "Hacker News", t: h.title, url: `https://news.ycombinator.com/item?id=${h.objectID}`, link: h.url || "", up: h.points, com: h.num_comments || 0, at: new Date(h.created_at_i * 1000).toISOString() })));
         return [...seen.values()];
       },
       async reddit() {
@@ -144,7 +144,7 @@
       },
       async lobsters() {
         const j = await getJSON("https://lobste.rs/t/ai.json");
-        return j.map(x => ({ src: "Lobsters", t: x.title, url: x.comments_url || x.short_id_url, up: x.score || 0, com: x.comment_count || 0, at: x.created_at }));
+        return j.map(x => ({ src: "Lobsters", t: x.title, url: x.comments_url || x.short_id_url, link: x.url || "", up: x.score || 0, com: x.comment_count || 0, at: x.created_at }));
       },
       async dev() {
         const j = await getJSON("https://dev.to/api/articles?tag=ai&top=2&per_page=30");
@@ -239,6 +239,86 @@
     return hist;
   }
 
+
+  /* ---------- breakouts: the same thing showing up on several sources at once ---------- */
+  const BREAKOUT_MIN = 3;
+  // Versioned model and product names, e.g. "GPT-6.1", "Qwen3.8", "Gemini 4", "DeepSeek-V4.1".
+  const VERSIONED = /\b(gpt|qwen|gemini|gemma|claude (?:opus|sonnet|haiku|fable)|opus|sonnet|haiku|fable|deepseek|llama|mistral|grok|kimi|glm|phi|minimax|nemotron|sora|veo|imagen|flux|kling|mimo|longcat)[ -]?(v?\d+(?:\.\d+)?)(?!\.\d)\b/gi;
+  // Names too common to match on their own.
+  const COMMON = new Set("agent agents agentic model models claude openai gemini chat studio magic skill skills tools coder code python search browser memory local cloud react voice image video vision research paper notes awesome open-source opensource llama qwen deepseek mistral anthropic google nvidia apple meta microsoft amazon github hugging face".split(" "));
+  const reEsc = s => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const SOURCE_LABEL = { github: "GitHub", hfModels: "Hugging Face", hfPapers: "HF Papers", arxiv: "arXiv", producthunt: "Product Hunt", youtube: "YouTube" };
+  function mentions(raw, now) {
+    const fresh = r => !r.at || now - Date.parse(r.at) < 3 * DAY;
+    const out = [];
+    const add = (name, label, rows, text) => (rows || []).filter(fresh).forEach(r => out.push({ name, src: label(r), t: r.t || r.title || r.name || r.repo || r.id, title: String(r.title || r.t || r.name || "").toLowerCase(), url: r.url || (name === "github" ? `https://github.com/${r.repo}` : name === "hfModels" ? `https://huggingface.co/${r.id}` : name === "hfPapers" ? `https://huggingface.co/papers/${r.id}` : ""), text: text(r).toLowerCase() }));
+    for (const n of ["hn", "reddit", "bluesky", "x", "lobsters", "dev", "mastodon"]) add(n, r => n === "reddit" ? "Reddit" : r.src, raw[n], r => `${r.t} ${r.link || ""}`);
+    for (const n of ["blogs", "techmeme", "guardian", "gnews", "newsapi", "youtube", "arxiv"]) add(n, r => SOURCE_LABEL[n] || (n === "blogs" ? r.src + " blog" : r.src), raw[n], r => `${r.t} ${r.url}`);
+    add("producthunt", () => "Product Hunt", raw.producthunt, r => `${r.name} ${r.tagline} ${r.url}`);
+    add("github", () => "GitHub", (raw.github || []).map(r => ({ ...r, at: undefined, t: r.repo, title: `${r.repo} ${r.desc}` })), r => `${r.repo} ${r.desc}`);
+    add("hfModels", () => "Hugging Face", (raw.hfModels || []).map(r => ({ ...r, at: undefined })), r => r.id);
+    add("hfPapers", () => "HF Papers", raw.hfPapers, r => `${r.title} arxiv.org/abs/${r.id}`);
+    return out;
+  }
+  // Things named on BREAKOUT_MIN or more separate sources in the last three days.
+  function findBreakouts(raw, now = Date.now()) {
+    const M = mentions(raw, now);
+    const ents = new Map();
+    const ent = (key, label) => { if (!ents.has(key)) ents.set(key, { key, label, by: new Map() }); return ents.get(key); };
+    // 1. Versioned model names, anywhere in any source.
+    M.forEach(m => { for (const x of m.title.matchAll(VERSIONED)) {
+      const fam = x[1].replace(/^claude /, ""), ver = x[2].replace(/^v/, "");
+      const e = ent(`${fam} ${ver}`, `${fam.replace(/^gpt$/, "GPT").replace(/^glm$/, "GLM").replace(/^\w/, c => c.toUpperCase())}${fam === "gpt" || fam === "glm" ? "-" : " "}${ver}`);
+      if (!e.by.has(m.src)) e.by.set(m.src, m);
+    } });
+    // 2. Trending repos, models and launches, matched by link or by a distinctive name.
+    const items = [
+      ...(raw.github || []).map(g => ({ label: g.name, own: "GitHub", url: `github.com/${g.repo}`.toLowerCase() })),
+      ...(raw.hfModels || []).map(m => ({ label: m.id.split("/").pop(), own: "Hugging Face", url: `huggingface.co/${m.id}`.toLowerCase() })),
+      ...(raw.producthunt || []).map(p => ({ label: p.name, own: "Product Hunt" }))
+    ];
+    items.forEach(it => {
+      const nm = it.label.toLowerCase();
+      const byName = nm.length >= 5 && /[a-z]/.test(nm) && !COMMON.has(nm) && new RegExp(`(^|[^a-z0-9])${reEsc(nm)}($|[^a-z0-9])`);
+      const hits = M.filter(m => m.src !== it.own && ((it.url && m.text.includes(it.url)) || (byName && byName.test(m.text))));
+      if (!hits.length) return;
+      const e = ent(nm, it.label);
+      e.by.set(it.own, M.find(m => m.src === it.own && (m.text.includes(it.url || "\0") || m.text.includes(nm))) || { src: it.own, t: it.label, url: it.url ? "https://" + it.url : "" });
+      hits.forEach(m => { if (!e.by.has(m.src)) e.by.set(m.src, m); });
+    });
+    return [...ents.values()].filter(e => e.by.size >= BREAKOUT_MIN)
+      .map(e => ({ key: e.key, label: e.label, n: e.by.size, sources: [...e.by.values()].map(m => ({ src: m.src, t: m.t, url: m.url })) }))
+      .sort((a, b) => b.n - a.n).slice(0, 8);
+  }
+
+  /* ---------- receipts: what Upcurrent was tracking before it hit a milestone ---------- */
+  const MILESTONES = { stars: [1e3, 2.5e3, 5e3, 1e4, 2.5e4, 5e4, 1e5], downloads: [1e4, 1e5, 1e6, 1e7] };
+  // Keeps, per repo or model, when Upcurrent first saw it and when it later passed each milestone.
+  function updateSpotted(sp = {}, raw, now = Date.now()) {
+    const iso = new Date(now).toISOString();
+    const items = { ...(sp.items || {}) }, breakouts = { ...(sp.breakouts || {}) };
+    const track = (key, name, url, kind, v) => {
+      if (v == null) return;
+      const p = items[key];
+      if (!p) { items[key] = { name, url, kind, first: iso, firstV: v, v, at: iso, hits: [] }; return; }
+      const hits = [...p.hits];
+      MILESTONES[kind].forEach(m => { if (p.firstV < m && v >= m && !hits.some(h => h.m === m)) hits.push({ m, at: iso }); });
+      items[key] = { ...p, v: Math.max(p.v, v), at: iso, hits };
+    };
+    (raw.github || []).forEach(g => track("gh:" + g.repo, g.repo, `https://github.com/${g.repo}`, "stars", g.stars));
+    (raw.hfModels || []).forEach(m => track("hf:" + m.id, m.id, `https://huggingface.co/${m.id}`, "downloads", m.downloads));
+    findBreakouts(raw, now).forEach(b => { const p = breakouts[b.key]; breakouts[b.key] = { label: b.label, first: p ? p.first : iso, last: iso, max: Math.max(p ? p.max : 0, b.n) }; });
+    for (const k in items) { const it = items[k], lastHit = it.hits.length ? Date.parse(it.hits[it.hits.length - 1].at) : 0; if (now - Date.parse(it.at) > 14 * DAY && now - lastHit > 60 * DAY) delete items[k]; }
+    for (const k in breakouts) if (now - Date.parse(breakouts[k].last) > 14 * DAY) delete breakouts[k];
+    return { since: sp.since || iso, items, breakouts };
+  }
+  // The latest milestone each item passed after Upcurrent started tracking it, newest first.
+  function receipts(sp, now = Date.now(), minLeadHours = 6) {
+    return Object.values((sp && sp.items) || {}).flatMap(it => it.hits.slice(-1).map(h => ({ name: it.name, url: it.url, kind: it.kind, first: it.first, firstV: it.firstV, m: h.m, at: h.at, lead: (Date.parse(h.at) - Date.parse(it.first)) / 36e5 })))
+      .filter(r => r.lead >= minLeadHours && now - Date.parse(r.at) < 30 * DAY)
+      .sort((a, b) => Date.parse(b.at) - Date.parse(a.at)).slice(0, 8);
+  }
+
   /* ---------- turning raw sources into the dashboard ---------- */
   function category(text, task = "") {
     const t = (text + " " + task).toLowerCase();
@@ -254,7 +334,7 @@
   const license = tags => { const l = (tags.find(t => t.startsWith("license:")) || "").slice(8); return !l ? "Open weights" : /apache|mit|bsd|gpl|cc-by|openrail|mpl/.test(l) ? "Open source" : "Open weights"; };
 
   // fallback: the snapshot sections to use for any source that did not answer
-  function build(raw, { win = "24h", hist = {}, now = Date.now(), fetchedAt = new Date(now).toISOString(), fallback }) {
+  function build(raw, { win = "24h", hist = {}, spotted = null, now = Date.now(), fetchedAt = new Date(now).toISOString(), fallback }) {
     const prev = id => hist[id];
     const winDays = win === "7d" ? 7 : win === "30d" ? 30 : 1;
     const off = raw.off || (raw.xOff ? ["x"] : []);
@@ -297,7 +377,9 @@
     ph.forEach(p => items.push({ name: p.name, owner: "Product Hunt", src: "ph", url: p.url, cat: category(p.name + " " + p.tagline), score: Math.min(95, Math.round(45 + 40 * phPct(p.votes))), grow: null, desc: p.tagline, meta: [`▲ ${comma(p.votes)} votes`, `${p.comments} comments`, `Launched ${ago(p.at, now)}`], at: p.at }));
 
     const S = fallback;
-    const rising = items.length ? items.sort((a, b) => b.score - a.score).slice(0, 10) : S.rising;
+    const breakouts = findBreakouts(raw, now).map(b => ({ ...b, since: spotted?.breakouts?.[b.key]?.first || null }));
+    const boBy = new Map(breakouts.map(b => [b.key, b.n]));
+    const rising = items.length ? items.sort((a, b) => b.score - a.score).slice(0, 10).map(it => ({ ...it, breakout: boBy.get(it.name.toLowerCase()) || null })) : S.rising;
     const activity = items.length ? items.reduce((a, it) => (a[it.cat] = (a[it.cat] || 0) + 1, a), {}) : S.activity;
 
     const disc = [...(raw.reddit || []), ...(raw.hn || []), ...(raw.bluesky || []), ...(raw.x || []), ...(raw.lobsters || []), ...(raw.dev || []), ...(raw.mastodon || [])].map(d => ({ ...d, vel: d.up / Math.max(1, (now - Date.parse(d.at)) / 36e5) }));
@@ -345,7 +427,7 @@
       updated: fetchedAt, generated: fetchedAt, live, total: counted.length, isSnapshot: false,
       pulse, brief: brief.length ? brief : S.brief, freeCounts, rising, activity,
       models: models.length ? models.slice(0, 6) : S.models, github, discussions, newToday: newToday.length ? newToday : S.newToday,
-      free: freeRows, headlines
+      free: freeRows, headlines, breakouts, receipts: receipts(spotted, now), trackingSince: spotted?.since || null
     };
   }
 
@@ -354,6 +436,6 @@
     try { const v = await makeSources(opts)[name](); return v?.length ? v : null; } catch { return null; }
   }
 
-  root.UpcurrentCore = { fetchAll, fetchOne, parseFeed, build, updateHistory, SOURCE_NAMES, fmt, comma, ago };
+  root.UpcurrentCore = { fetchAll, fetchOne, parseFeed, build, updateHistory, updateSpotted, findBreakouts, receipts, MILESTONES, SOURCE_NAMES, fmt, comma, ago };
   if (typeof module !== "undefined" && module.exports) module.exports = root.UpcurrentCore;
 })(typeof globalThis !== "undefined" ? globalThis : this);

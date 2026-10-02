@@ -155,6 +155,32 @@ section.block { padding-block: 48px 8px; }
 details.how { margin-top: 18px; color: var(--muted); font-size: 14.5px; max-width: 72ch; }
 details.how summary { cursor: pointer; color: var(--ink); font-weight: 600; }
 
+
+/* breakouts: one thing named on several sources at once */
+.bo-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); gap: 0 32px; border-top: 2px solid var(--ink); }
+.bo { padding: 16px 0; border-bottom: 1px solid var(--line); min-width: 0; }
+.bo h3 { margin: 0; display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; font: 800 22px/1.2 var(--font-display); letter-spacing: -.02em; }
+.bo .n { font: 600 12px var(--font-mono); color: var(--hot); letter-spacing: .04em; }
+.bo ul { list-style: none; margin: 8px 0 0; padding: 0; display: grid; gap: 4px; font-size: 14px; }
+.bo li { display: grid; grid-template-columns: 9.5em minmax(0, 1fr); gap: 10px; }
+.bo li b { font: 500 12px/1.9 var(--font-mono); color: var(--faint); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.bo li a { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--muted); }
+.bo .since { margin-top: 8px; font: 12px var(--font-mono); color: var(--faint); }
+.badge-bo { font: 700 10.5px var(--font-mono); letter-spacing: .06em; padding: 2px 6px; border-radius: 4px; background: var(--hot); color: #fff; }
+/* receipts: tracked before the milestone */
+.receipts { list-style: none; margin: 0; padding: 0; border-top: 2px solid var(--ink); }
+.receipts li { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 20px; padding: 15px 0; border-bottom: 1px solid var(--line); align-items: baseline; }
+.receipts .what { font-weight: 600; overflow-wrap: anywhere; }
+.receipts .what a { font-family: var(--font-display); font-weight: 800; letter-spacing: -.015em; }
+.receipts .proof { grid-column: 1; font: 12.5px var(--font-mono); color: var(--faint); }
+.receipts .lead { grid-row: 1 / span 2; grid-column: 2; text-align: right; font: 800 26px/1 var(--font-display); color: var(--up); letter-spacing: -.02em; }
+@media (max-width: 600px) {
+  .receipts li { grid-template-columns: minmax(0, 1fr); }
+  .receipts li .lead { grid-row: auto; grid-column: 1; text-align: left; font-size: 18px; }
+  .receipts li .lead small { display: inline; margin-left: 6px; }
+}
+.receipts .lead small { display: block; font: 500 11px var(--font-mono); color: var(--faint); letter-spacing: 0; margin-top: 4px; }
+
 /* models */
 .models { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0; border-top: 2px solid var(--ink); }
 .model { padding: 18px 18px 18px 0; border-bottom: 1px solid var(--line); display: grid; gap: 10px; align-content: start; min-width: 0; }
@@ -270,6 +296,8 @@ footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wr
     </a>
     <nav class="main" aria-label="Sections">
       <a href="#rising">Movers</a>
+      <a href="#breakouts">Breakouts</a>
+      <a href="#receipts">Called it</a>
       <a href="#models">Models</a>
       <a href="#github">Repos</a>
       <a href="#threads">Threads</a>
@@ -312,6 +340,11 @@ footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wr
 
   <div class="glance" id="pulse" aria-label="Today at a glance"></div>
 
+  <section class="block" id="breakouts">
+    <div class="sec-head"><div><div class="eyebrow">Named on 3 or more sources · last 3 days</div><h2>Breaking out</h2><p>The same model or project turning up on several separate sources at once, like GitHub, Hacker News and the news.</p></div></div>
+    <div class="bo-list" id="boList"></div>
+  </section>
+
   <section class="block" id="rising">
     <div class="sec-head">
       <div><div class="eyebrow">Ranked by momentum score</div><h2>Climbing fastest</h2></div>
@@ -330,6 +363,11 @@ footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wr
       <summary>How the momentum score works</summary>
       <p>Each item gets a 0–100 score. It is ranked against other items from the same source by attention per day (GitHub stars, Hugging Face trending score, paper upvotes), then gets a small boost if it is less than nine days old. The colour runs from cool blue to hot red with the score. Growth % appears once the page has seen an item on an earlier visit.</p>
     </details>
+  </section>
+
+  <section class="block" id="receipts">
+    <div class="sec-head"><div><div class="eyebrow">Receipts</div><h2>Called it</h2><p id="rcSub">Projects Upcurrent was already tracking before they passed a big milestone. Times come from our hourly records.</p></div></div>
+    <ol class="receipts" id="rcList"></ol>
   </section>
 
   <section class="block" id="models">
@@ -560,7 +598,7 @@ function render() {
       <div class="rank">${r.rank}</div>
       <div style="min-width:0">
         <h3><a href="${esc(linkFor(r))}" target="_blank" rel="noopener">${esc(r.name)}</a></h3>
-        <div class="tags"><span class="src">${SRC_LABEL[r.src] || "SOURCE"}</span>${r.owner !== "Paper" && r.owner !== "Product Hunt" ? `<span>${esc(r.owner)}</span>` : ""}<span class="cat">${r.cat}</span></div>
+        <div class="tags">${r.breakout ? `<a class="badge-bo" href="#breakouts" title="Named on ${r.breakout} separate sources">BREAKOUT · ${r.breakout} SOURCES</a>` : ""}<span class="src">${SRC_LABEL[r.src] || "SOURCE"}</span>${r.owner !== "Paper" && r.owner !== "Product Hunt" ? `<span>${esc(r.owner)}</span>` : ""}<span class="cat">${r.cat}</span></div>
         <p class="desc">${esc(r.desc)}</p>
         <div class="meta">${r.meta.map(m => `<span>${esc(m)}</span>`).join("")}</div>
       </div>
@@ -570,6 +608,23 @@ function render() {
         ${r.grow == null ? `<span class="grow flat">no prior reading</span>` : `<span class="grow">▲ ${r.grow}% in 24h</span>`}
       </div>
     </article>`).join("") : `<div class="empty">Nothing in this category matches. Try All.</div>`;
+
+  const MS = { stars: "stars", downloads: "downloads" };
+  const day = iso => new Date(iso).toLocaleDateString("en-US", { month: "short", day: "numeric" });
+  const leadTxt = h => h < 48 ? `${Math.round(h)} hours` : `${Math.round(h / 24)} days`;
+  const bos = (D.breakouts || []).filter(b => !state.q || (b.label + b.sources.map(x => x.t).join(" ")).toLowerCase().includes(state.q));
+  $("boList").innerHTML = bos.length ? bos.map(b => `<article class="bo">
+    <h3>${esc(b.label)} <span class="n">${b.n} SOURCES</span></h3>
+    <ul>${b.sources.map(x => `<li><b>${esc(x.src)}</b>${x.url ? `<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.t)}</a>` : `<span>${esc(x.t)}</span>`}</li>`).join("")}</ul>
+    ${b.since ? `<div class="since">On 3+ sources since ${day(b.since)}, ${hhmm(b.since)}</div>` : ""}</article>`).join("")
+    : `<div class="empty">Nothing is on 3 or more sources right now. That's normal: it only happens when something is genuinely everywhere.</div>`;
+
+  const rcs = (D.receipts || []).filter(r => !state.q || r.name.toLowerCase().includes(state.q));
+  $("rcList").innerHTML = rcs.length ? rcs.map(r => `<li>
+    <div class="what"><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.name.split("/").pop())}</a> passed ${fmt(r.m)} ${MS[r.kind]}</div>
+    <div class="proof">On Upcurrent since ${day(r.first)} at ${comma(r.firstV)} ${MS[r.kind]} · passed ${fmt(r.m)} on ${day(r.at)}, ${hhmm(r.at)}</div>
+    <div class="lead">${leadTxt(r.lead)}<small>before the milestone</small></div></li>`).join("")
+    : `<li><span class="empty">No receipts yet${D.trackingSince ? `. Records started on ${day(D.trackingSince)}` : ""}. They appear when a project Upcurrent was already tracking passes 1K, 2.5K, 5K or 10K stars, or 10K, 100K or 1M downloads.</span></li>`;
 
   const ms = D.models.filter(m => matches(m.name + m.org, m.cat));
   const maxDl = Math.max(1, ...ms.map(m => m.dl || 0));
@@ -708,9 +763,9 @@ $("q").addEventListener("input", e => { state.q = e.target.value.trim().toLowerC
 // 2) otherwise, fetch the public sources directly from this browser
 // 3) otherwise, the snapshot above
 const C = window.UpcurrentCore;
-let lastRaw = null, lastHist = {}, lastFetchedAt = null;
+let lastRaw = null, lastHist = {}, lastFetchedAt = null, lastSpotted = null;
 const STALE_AFTER = 75 * 6e4; // published data older than this gets refreshed in the browser
-function rebuild() { DATA = C.build(lastRaw, { win: state.win, hist: lastHist, fetchedAt: lastFetchedAt, fallback: SNAPSHOT }); }
+function rebuild() { DATA = C.build(lastRaw, { win: state.win, hist: lastHist, spotted: lastSpotted, fetchedAt: lastFetchedAt, fallback: SNAPSHOT }); }
 
 async function fromPublished() {
   const r = await fetch("data/latest.json", { cache: "no-cache" });
@@ -724,7 +779,7 @@ async function goLive() {
   if (!C) { DATA = { ...SNAPSHOT, isSnapshot: true, live: 0 }; render(); return; }
   try {
     const j = await fromPublished();
-    lastRaw = j.raw; lastHist = j.hist || {}; lastFetchedAt = j.fetchedAt;
+    lastRaw = j.raw; lastHist = j.hist || {}; lastSpotted = j.spotted || null; lastFetchedAt = j.fetchedAt;
     rebuild(); render();
     // If the hourly job hasn't run for a while, refresh the public sources from this browser.
     // Sources that need private keys (news APIs, YouTube, Product Hunt) keep their published data.

@@ -58,3 +58,8 @@ Each of these switches on when you add its repository secret:
 3. Optional: add `data/sponsor.json` (`{"name": "...", "url": "https://...", "text": "..."}`) to put a sponsor line at the top of the email.
 
 Run the workflow by hand with "dry run" ticked to preview the email in the run summary without sending it.
+
+## Breakouts and "Called it"
+
+- **Breaking out** lists any model or project named on 3 or more separate sources in the last 3 days (for example GitHub, Hacker News and a news site). Items in the movers list that are breaking out get a red badge.
+- **Called it** shows projects Upcurrent was already tracking before they passed a milestone (1K, 2.5K, 5K, 10K… stars, or 10K, 100K, 1M… downloads). The hourly job keeps this record in the `spotted` field of `data/latest.json`. `scripts/backfill-spotted.cjs` rebuilds it from git history.
