@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-02T16:31:25.977Z"
+  "updated": "2026-10-02T17:01:07.146Z"
  },
  "pulse": {
   "trending": 90,
   "accelerating": 1,
   "newModels": 8,
-  "discussions": 43,
-  "stars": 6376
+  "discussions": 44,
+  "stars": 6327
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
    "meta": [
-    "★ 4,937",
-    "~1,333 in 24h",
+    "★ 4,944",
+    "~1,328 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-09-28T23:40:05Z",
@@ -42,7 +42,7 @@
    "desc": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
    "meta": [
     "★ 2,434",
-    "~893 in 24h",
+    "~886 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-09-29T23:06:00Z",
@@ -56,7 +56,7 @@
    "cat": "Coding",
    "score": 95,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 652",
+   "desc": "Model on Hugging Face · open source · ♥ 662",
    "meta": [
     "824 downloads",
     "Released 2 days ago"
@@ -74,9 +74,9 @@
    "grow": null,
    "desc": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
    "meta": [
-    "★ 1,913",
-    "~771 in 24h",
-    "Created 2 days ago"
+    "★ 1,923",
+    "~769 in 24h",
+    "Created 3 days ago"
    ],
    "at": "2026-09-30T05:00:35Z",
    "breakout": null,
@@ -92,7 +92,7 @@
    "desc": "AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese",
    "meta": [
     "★ 1,163",
-    "~530 in 24h",
+    "~525 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-09-30T11:49:32Z",
@@ -108,8 +108,8 @@
    "grow": null,
    "desc": "A tiny friend that lives in your notch (macOS) or at the top of your screen (Windows, Linux) and keeps an eye on your coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more.",
    "meta": [
-    "★ 2,842",
-    "~595 in 24h",
+    "★ 2,851",
+    "~594 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-09-27T21:54:12Z",
@@ -157,8 +157,8 @@
    "grow": null,
    "desc": "Your always-on AI coworkers that move between text, calls, and Slack.",
    "meta": [
-    "★ 1,173",
-    "~395 in 24h",
+    "★ 1,197",
+    "~400 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-09-29T17:13:58Z",
@@ -184,38 +184,15 @@
  ],
  "breakouts": [
   {
-   "key": "gemini 4",
-   "label": "Gemini 4",
-   "n": 4,
-   "sources": [
-    {
-     "src": "DEV",
-     "t": "Gemini 4 Argon\r\n\r\nhttps://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
-     "url": "https://dev.to/ben/gemini-4-argon-5g2l"
-    },
-    {
-     "src": "Mastodon",
-     "t": "KI-Update kompakt: Gemini 4 Argon, Manus Cue, ChatGPT-Werbung, Reha-Kliniken Das „KI-Update“ liefert drei mal pro Woche eine Zusammenfassung der wichtigsten …",
-     "url": "https://social.heise.de/@heiseonline/117371449081711873"
-    },
-    {
-     "src": "Google DeepMind blog",
-     "t": "Gemini 4 Argon: our next era of frontier intelligence",
-     "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/"
-    },
-    {
-     "src": "Thurrott.com",
-     "t": "Google Makes New Gemini 4 Argon Available for Cybersecurity Experts",
-     "url": "https://www.thurrott.com/a-i/342295/google-makes-new-gemini-4-argon-available-for-cybersecurity-experts"
-    }
-   ],
-   "since": "2026-10-01T18:14:41.538Z"
-  },
-  {
    "key": "gpt 6",
    "label": "GPT-6",
-   "n": 4,
+   "n": 5,
    "sources": [
+    {
+     "src": "Hacker News",
+     "t": "GPT-6 Astra plays World of Warcraft for the first time with agent-wow",
+     "url": "https://news.ycombinator.com/item?id=49933251"
+    },
     {
      "src": "OpenAI blog",
      "t": "A model guide for the GPT-6 family",
@@ -238,9 +215,59 @@
     }
    ],
    "since": "2026-10-02T11:40:52.853Z"
+  },
+  {
+   "key": "gemini 4",
+   "label": "Gemini 4",
+   "n": 3,
+   "sources": [
+    {
+     "src": "DEV",
+     "t": "Gemini 4 Argon\r\n\r\nhttps://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+     "url": "https://dev.to/ben/gemini-4-argon-5g2l"
+    },
+    {
+     "src": "Mastodon",
+     "t": "KI-Update kompakt: Gemini 4 Argon, Manus Cue, ChatGPT-Werbung, Reha-Kliniken Das „KI-Update“ liefert drei mal pro Woche eine Zusammenfassung der wichtigsten …",
+     "url": "https://social.heise.de/@heiseonline/117371449081711873"
+    },
+    {
+     "src": "Google DeepMind blog",
+     "t": "Gemini 4 Argon: our next era of frontier intelligence",
+     "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/"
+    }
+   ],
+   "since": "2026-10-01T18:14:41.538Z"
   }
  ],
  "hype": [
+  {
+   "name": "GPT-6",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "Hacker News",
+     "t": "GPT-6 Astra plays World of Warcraft for the first time with agent-wow",
+     "url": "https://news.ycombinator.com/item?id=49933251"
+    },
+    {
+     "src": "OpenAI blog",
+     "t": "A model guide for the GPT-6 family",
+     "url": "https://openai.com/index/practical-guide-building-gpt-6"
+    },
+    {
+     "src": "NVIDIA blog",
+     "t": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
+     "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/"
+    }
+   ],
+   "buzz": 3,
+   "verdict": "Talk only, no public usage numbers"
+  },
   {
    "name": "Gemini 4",
    "url": null,
@@ -263,44 +290,17 @@
      "src": "Google DeepMind blog",
      "t": "Gemini 4 Argon: our next era of frontier intelligence",
      "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/"
-    },
-    {
-     "src": "Thurrott.com",
-     "t": "Google Makes New Gemini 4 Argon Available for Cybersecurity Experts",
-     "url": "https://www.thurrott.com/a-i/342295/google-makes-new-gemini-4-argon-available-for-cybersecurity-experts"
     }
    ],
-   "buzz": 4,
-   "verdict": "Talk only, no public usage numbers"
-  },
-  {
-   "name": "GPT-6",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
-    {
-     "src": "OpenAI blog",
-     "t": "A model guide for the GPT-6 family",
-     "url": "https://openai.com/index/practical-guide-building-gpt-6"
-    },
-    {
-     "src": "NVIDIA blog",
-     "t": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
-     "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/"
-    }
-   ],
-   "buzz": 2,
+   "buzz": 3,
    "verdict": "Talk only, no public usage numbers"
   },
   {
    "name": "AIHOT",
    "url": "https://github.com/KKKKhazix/AIHOT",
    "from": "GitHub",
-   "use": 1333,
-   "useLabel": "~1,333 stars/day",
+   "use": 1328,
+   "useLabel": "~1,328 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -384,8 +384,8 @@
  "github": [
   {
    "repo": "KKKKhazix/AIHOT",
-   "stars": 4937,
-   "d24": 1333,
+   "stars": 4944,
+   "d24": 1328,
    "est": true,
    "forks": 1345,
    "contrib": 10,
@@ -394,7 +394,7 @@
   {
    "repo": "feder-cr/dots",
    "stars": 2434,
-   "d24": 893,
+   "d24": 886,
    "est": true,
    "forks": 422,
    "contrib": null,
@@ -402,53 +402,53 @@
   },
   {
    "repo": "rehan-remade/universal-modder",
-   "stars": 1913,
-   "d24": 771,
+   "stars": 1923,
+   "d24": 769,
    "est": true,
-   "forks": 140,
+   "forks": 141,
    "contrib": null,
    "score": 94
   },
   {
    "repo": "Louis-CFM/coucou",
-   "stars": 2842,
-   "d24": 595,
+   "stars": 2851,
+   "d24": 594,
    "est": true,
-   "forks": 431,
+   "forks": 432,
    "contrib": 6,
    "score": 90
   },
   {
-   "repo": "edenfunf/reelmimic",
-   "stars": 949,
-   "d24": 545,
-   "est": false,
-   "forks": 122,
-   "contrib": null,
-   "score": 84
-  },
-  {
    "repo": "nanaism/yomiyasu",
    "stars": 1163,
-   "d24": 530,
+   "d24": 525,
    "est": true,
    "forks": 26,
    "contrib": null,
    "score": 91
   },
   {
+   "repo": "edenfunf/reelmimic",
+   "stars": 949,
+   "d24": 514,
+   "est": false,
+   "forks": 122,
+   "contrib": null,
+   "score": 84
+  },
+  {
    "repo": "CopilotKit/OpenDots",
-   "stars": 1173,
-   "d24": 395,
+   "stars": 1197,
+   "d24": 400,
    "est": true,
-   "forks": 139,
+   "forks": 144,
    "contrib": null,
    "score": 88
   },
   {
    "repo": "dzhng/jevgrep",
    "stars": 2051,
-   "d24": 315,
+   "d24": 314,
    "est": true,
    "forks": 132,
    "contrib": null,
@@ -465,7 +465,7 @@
    "grow": null,
    "score": 95,
    "cat": "Coding",
-   "likes": 652
+   "likes": 662
   },
   {
    "name": "laya",
@@ -476,7 +476,7 @@
    "grow": null,
    "score": 90,
    "cat": "Tools",
-   "likes": 4927
+   "likes": 4930
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -487,7 +487,7 @@
    "grow": null,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 2789
+   "likes": 2792
   },
   {
    "name": "CLM-v0.1-8B",
@@ -510,7 +510,7 @@
    "grow": null,
    "score": 85,
    "cat": "Vision",
-   "likes": 2818
+   "likes": 2819
   },
   {
    "name": "VisionHOPE",
@@ -991,31 +991,31 @@
    "kind": "News"
   },
   {
-   "t": "Kelly Clarkson Loves AI, But Says AI Artists Shouldn't Be Human Music Charts",
-   "url": "https://www.hollywoodreporter.com/music/music-news/kelly-clarkson-ai-artists-shouldnt-be-music-charts-humans-1236720709/",
-   "at": "2026-10-02T04:22:28Z",
-   "src": "The Hollywood Reporter",
+   "t": "OpenAI says three staffers fired for mishandling 'sensitive' info",
+   "url": "https://www.thestar.com.my/tech/tech-news/2026/10/02/openai-says-three-staffers-fired-for-mishandling-039sensitive039-info",
+   "at": "2026-10-02T05:00:00Z",
+   "src": "The Star",
    "kind": "News"
   },
   {
-   "t": "Australia will get early access to AI models: Altman",
-   "url": "https://www.afr.com/technology/australia-will-get-early-access-to-ai-models-altman-20261002-p6127r",
-   "at": "2026-10-02T04:20:11Z",
-   "src": "Australian Financial Review",
+   "t": "OpenAI alerts over 100 organisations of AI agent incidents",
+   "url": "https://www.lokmattimes.com/technology/openai-alerts-over-100-organisations-of-ai-agent-incidents-1/",
+   "at": "2026-10-02T04:56:38Z",
+   "src": "Lokmat Times",
    "kind": "News"
   },
   {
-   "t": "OpenAI Has Sent Notices of Sketchy AI Behavior to Over 100 Organizations So Far",
-   "url": "https://gizmodo.com/openai-has-sent-notices-of-sketchy-ai-behavior-to-over-100-organizations-so-far-2000820702",
-   "at": "2026-10-02T04:17:11Z",
-   "src": "Gizmodo",
+   "t": "PewDiePie Says OpenAI Banned Him Twice While He Built Ajax, A Local AI Model",
+   "url": "https://www.freepressjournal.in/tech/pewdiepie-says-openai-banned-him-twice-while-he-built-ajax-a-local-ai-model",
+   "at": "2026-10-02T04:52:34Z",
+   "src": "Free Press Journal",
    "kind": "News"
   },
   {
-   "t": "OpenAI confirms its AI agents are going rouge, over 100 organisations hacked",
-   "url": "https://www.indiatoday.in/technology/news/story/openai-confirms-its-ai-agents-are-going-rouge-over-100-organisations-hacked-3007853-2026-10-02",
-   "at": "2026-10-02T04:13:46Z",
-   "src": "India Today",
+   "t": "OpenAI fires safety team members over confidential information leak: report",
+   "url": "https://www.foxbusiness.com/technology/openai-fires-3-safety-researchers-accused-sharing-confidential-company-information-report",
+   "at": "2026-10-02T04:51:33Z",
+   "src": "Fox Business",
    "kind": "News"
   }
  ],
@@ -1025,9 +1025,18 @@
    "t": "AI Makes Me Sad",
    "url": "https://news.ycombinator.com/item?id=49934487",
    "link": "https://mondobe.com/ai-makes-me-sad",
-   "up": 133,
-   "com": 137,
+   "up": 153,
+   "com": 164,
    "at": "2026-10-02T15:18:00.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Frog and Toad and the Increasingly Capable Machines",
+   "url": "https://news.ycombinator.com/item?id=49927760",
+   "link": "https://www.frogandtoad.ai/",
+   "up": 464,
+   "com": 106,
+   "at": "2026-10-01T22:23:38.000Z"
   },
   {
    "src": "DEV",
@@ -1039,39 +1048,30 @@
   },
   {
    "src": "Hacker News",
-   "t": "Frog and Toad and the Increasingly Capable Machines",
-   "url": "https://news.ycombinator.com/item?id=49927760",
-   "link": "https://www.frogandtoad.ai/",
-   "up": 454,
-   "com": 99,
-   "at": "2026-10-01T22:23:38.000Z"
+   "t": "Don't be fooled–LLMs don't reason",
+   "url": "https://news.ycombinator.com/item?id=49933459",
+   "link": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/",
+   "up": 57,
+   "com": 109,
+   "at": "2026-10-02T13:45:42.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Power approval set to delay Oracle's Wisconsin AI datacenter",
+   "url": "https://news.ycombinator.com/item?id=49934569",
+   "link": "https://www.theregister.com/on-prem/2026/10/02/power-approval-set-to-delay-oracles-wisconsin-ai-datacenter/5300832",
+   "up": 27,
+   "com": 5,
+   "at": "2026-10-02T15:24:54.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Mozilla shutting down Solo AI website creator",
    "url": "https://news.ycombinator.com/item?id=49934502",
    "link": "https://support.soloist.ai/doc/solo-shutdown-faq",
-   "up": 26,
-   "com": 43,
+   "up": 27,
+   "com": 53,
    "at": "2026-10-02T15:19:22.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Git 3.0's upcoming SHA-256 default will be a costly mistake",
-   "url": "https://news.ycombinator.com/item?id=49924179",
-   "link": "https://blog.gitbutler.com/git-3-sha-256",
-   "up": 507,
-   "com": 477,
-   "at": "2026-10-01T16:57:03.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Don't be fooled–LLMs don't reason",
-   "url": "https://news.ycombinator.com/item?id=49933459",
-   "link": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/",
-   "up": 57,
-   "com": 106,
-   "at": "2026-10-02T13:45:42.000Z"
   }
  ]
 }
