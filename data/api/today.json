@@ -5,33 +5,16 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-02T17:01:07.146Z"
+  "updated": "2026-10-02T17:30:49.650Z"
  },
  "pulse": {
   "trending": 90,
   "accelerating": 1,
   "newModels": 8,
-  "discussions": 44,
-  "stars": 6327
+  "discussions": 40,
+  "stars": 6289
  },
  "rising": [
-  {
-   "name": "AIHOT",
-   "owner": "KKKKhazix",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 95,
-   "grow": null,
-   "desc": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
-   "meta": [
-    "★ 4,944",
-    "~1,328 in 24h",
-    "Created 4 days ago"
-   ],
-   "at": "2026-09-28T23:40:05Z",
-   "breakout": null,
-   "url": "https://github.com/KKKKhazix/AIHOT"
-  },
   {
    "name": "dots",
    "owner": "feder-cr",
@@ -42,7 +25,7 @@
    "desc": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
    "meta": [
     "★ 2,434",
-    "~886 in 24h",
+    "~880 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-09-29T23:06:00Z",
@@ -56,7 +39,7 @@
    "cat": "Coding",
    "score": 95,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 662",
+   "desc": "Model on Hugging Face · open source · ♥ 676",
    "meta": [
     "824 downloads",
     "Released 2 days ago"
@@ -64,6 +47,23 @@
    "at": "2026-09-30T21:15:35.000Z",
    "breakout": null,
    "url": "https://huggingface.co/Cloudflare/clef"
+  },
+  {
+   "name": "AIHOT",
+   "owner": "KKKKhazix",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 94,
+   "grow": null,
+   "desc": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
+   "meta": [
+    "★ 4,945",
+    "~1,321 in 24h",
+    "Created 4 days ago"
+   ],
+   "at": "2026-09-28T23:40:05Z",
+   "breakout": null,
+   "url": "https://github.com/KKKKhazix/AIHOT"
   },
   {
    "name": "universal-modder",
@@ -74,8 +74,8 @@
    "grow": null,
    "desc": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
    "meta": [
-    "★ 1,923",
-    "~769 in 24h",
+    "★ 1,936",
+    "~768 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-09-30T05:00:35Z",
@@ -91,8 +91,8 @@
    "grow": null,
    "desc": "AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese",
    "meta": [
-    "★ 1,163",
-    "~525 in 24h",
+    "★ 1,164",
+    "~520 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-09-30T11:49:32Z",
@@ -108,7 +108,7 @@
    "grow": null,
    "desc": "A tiny friend that lives in your notch (macOS) or at the top of your screen (Windows, Linux) and keeps an eye on your coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more.",
    "meta": [
-    "★ 2,851",
+    "★ 2,863",
     "~594 in 24h",
     "Created 5 days ago"
    ],
@@ -126,7 +126,7 @@
    "desc": "Model on Hugging Face · open source · ♥ 4.9K",
    "meta": [
     "0 downloads",
-    "Released 14 days ago"
+    "Released 15 days ago"
    ],
    "at": "2026-09-18T05:05:55.000Z",
    "breakout": null,
@@ -157,8 +157,8 @@
    "grow": null,
    "desc": "Your always-on AI coworkers that move between text, calls, and Slack.",
    "meta": [
-    "★ 1,197",
-    "~400 in 24h",
+    "★ 1,226",
+    "~407 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-09-29T17:13:58Z",
@@ -172,7 +172,7 @@
    "cat": "Agents",
    "score": 86,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 640",
+   "desc": "Model on Hugging Face · open source · ♥ 643",
    "meta": [
     "3K downloads",
     "Released 11 days ago"
@@ -186,7 +186,7 @@
   {
    "key": "gpt 6",
    "label": "GPT-6",
-   "n": 5,
+   "n": 4,
    "sources": [
     {
      "src": "Hacker News",
@@ -207,11 +207,6 @@
      "src": "GitHub",
      "t": "zjwzcx/Awesome-Astra-Embodied-AI",
      "url": "https://github.com/zjwzcx/Awesome-Astra-Embodied-AI"
-    },
-    {
-     "src": "HF Papers",
-     "t": "Fewer Tokens, Better Action: GPT-6 Astra Robot Agents with 14% Higher Success Rate but 65% Fewer Tokens",
-     "url": "https://huggingface.co/papers/2610.01939"
     }
    ],
    "since": "2026-10-02T11:40:52.853Z"
@@ -299,8 +294,8 @@
    "name": "AIHOT",
    "url": "https://github.com/KKKKhazix/AIHOT",
    "from": "GitHub",
-   "use": 1328,
-   "useLabel": "~1,328 stars/day",
+   "use": 1321,
+   "useLabel": "~1,321 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -384,17 +379,17 @@
  "github": [
   {
    "repo": "KKKKhazix/AIHOT",
-   "stars": 4944,
-   "d24": 1328,
+   "stars": 4945,
+   "d24": 1321,
    "est": true,
    "forks": 1345,
    "contrib": 10,
-   "score": 95
+   "score": 94
   },
   {
    "repo": "feder-cr/dots",
    "stars": 2434,
-   "d24": 886,
+   "d24": 880,
    "est": true,
    "forks": 422,
    "contrib": null,
@@ -402,26 +397,26 @@
   },
   {
    "repo": "rehan-remade/universal-modder",
-   "stars": 1923,
-   "d24": 769,
+   "stars": 1936,
+   "d24": 768,
    "est": true,
-   "forks": 141,
+   "forks": 144,
    "contrib": null,
    "score": 94
   },
   {
    "repo": "Louis-CFM/coucou",
-   "stars": 2851,
+   "stars": 2863,
    "d24": 594,
    "est": true,
-   "forks": 432,
+   "forks": 436,
    "contrib": 6,
    "score": 90
   },
   {
    "repo": "nanaism/yomiyasu",
-   "stars": 1163,
-   "d24": 525,
+   "stars": 1164,
+   "d24": 520,
    "est": true,
    "forks": 26,
    "contrib": null,
@@ -429,8 +424,8 @@
   },
   {
    "repo": "edenfunf/reelmimic",
-   "stars": 949,
-   "d24": 514,
+   "stars": 950,
+   "d24": 489,
    "est": false,
    "forks": 122,
    "contrib": null,
@@ -438,17 +433,17 @@
   },
   {
    "repo": "CopilotKit/OpenDots",
-   "stars": 1197,
-   "d24": 400,
+   "stars": 1226,
+   "d24": 407,
    "est": true,
-   "forks": 144,
+   "forks": 146,
    "contrib": null,
    "score": 88
   },
   {
    "repo": "dzhng/jevgrep",
-   "stars": 2051,
-   "d24": 314,
+   "stars": 2052,
+   "d24": 313,
    "est": true,
    "forks": 132,
    "contrib": null,
@@ -465,7 +460,7 @@
    "grow": null,
    "score": 95,
    "cat": "Coding",
-   "likes": 662
+   "likes": 676
   },
   {
    "name": "laya",
@@ -476,7 +471,7 @@
    "grow": null,
    "score": 90,
    "cat": "Tools",
-   "likes": 4930
+   "likes": 4936
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -487,7 +482,7 @@
    "grow": null,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 2792
+   "likes": 2794
   },
   {
    "name": "CLM-v0.1-8B",
@@ -499,7 +494,7 @@
    "grow": null,
    "score": 86,
    "cat": "Agents",
-   "likes": 640
+   "likes": 643
   },
   {
    "name": "Qwen-Image-2.1",
@@ -510,18 +505,19 @@
    "grow": null,
    "score": 85,
    "cat": "Vision",
-   "likes": 2819
+   "likes": 2820
   },
   {
-   "name": "VisionHOPE",
-   "org": "PSRben",
+   "name": "Qwen3.8-27B",
+   "org": "Qwen",
+   "size": "27B",
    "lic": "Open source",
-   "at": "2026-09-29T07:28:16.000Z",
-   "dl": 1279,
+   "at": "2026-08-05T08:22:59.000Z",
+   "dl": 6934867,
    "grow": null,
    "score": 84,
-   "cat": "Vision",
-   "likes": 364
+   "cat": "Infrastructure",
+   "likes": 16770
   }
  ],
  "free": [
@@ -991,31 +987,31 @@
    "kind": "News"
   },
   {
+   "t": "ChatGPT can now let you virtually try on outfits before you hit buy: How does it work?",
+   "url": "https://www.firstpost.com/tech/chatgpt-can-now-let-you-virtually-try-on-outfits-before-you-hit-buy-how-does-it-work-14049862.html",
+   "at": "2026-10-02T05:24:03Z",
+   "src": "Firstpost",
+   "kind": "News"
+  },
+  {
+   "t": "OpenAI alerts over 100 organisations as rogue AI agent activity is probed",
+   "url": "https://www.cnbctv18.com/technology/openai-alerts-over-100-organisations-as-rogue-ai-agent-activity-is-probed-20003551.htm",
+   "at": "2026-10-02T05:23:58Z",
+   "src": "CNBC TV18",
+   "kind": "News"
+  },
+  {
+   "t": "OpenAI alerts more than 100 organisations after rogue AI agent incidents",
+   "url": "https://www.firstpost.com/tech/openai-alerts-more-than-100-organisations-after-rogue-ai-agent-incidents-14049847.html",
+   "at": "2026-10-02T05:06:49Z",
+   "src": "Firstpost",
+   "kind": "News"
+  },
+  {
    "t": "OpenAI says three staffers fired for mishandling 'sensitive' info",
    "url": "https://www.thestar.com.my/tech/tech-news/2026/10/02/openai-says-three-staffers-fired-for-mishandling-039sensitive039-info",
    "at": "2026-10-02T05:00:00Z",
    "src": "The Star",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI alerts over 100 organisations of AI agent incidents",
-   "url": "https://www.lokmattimes.com/technology/openai-alerts-over-100-organisations-of-ai-agent-incidents-1/",
-   "at": "2026-10-02T04:56:38Z",
-   "src": "Lokmat Times",
-   "kind": "News"
-  },
-  {
-   "t": "PewDiePie Says OpenAI Banned Him Twice While He Built Ajax, A Local AI Model",
-   "url": "https://www.freepressjournal.in/tech/pewdiepie-says-openai-banned-him-twice-while-he-built-ajax-a-local-ai-model",
-   "at": "2026-10-02T04:52:34Z",
-   "src": "Free Press Journal",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI fires safety team members over confidential information leak: report",
-   "url": "https://www.foxbusiness.com/technology/openai-fires-3-safety-researchers-accused-sharing-confidential-company-information-report",
-   "at": "2026-10-02T04:51:33Z",
-   "src": "Fox Business",
    "kind": "News"
   }
  ],
@@ -1025,8 +1021,8 @@
    "t": "AI Makes Me Sad",
    "url": "https://news.ycombinator.com/item?id=49934487",
    "link": "https://mondobe.com/ai-makes-me-sad",
-   "up": 153,
-   "com": 164,
+   "up": 156,
+   "com": 177,
    "at": "2026-10-02T15:18:00.000Z"
   },
   {
@@ -1034,9 +1030,27 @@
    "t": "Frog and Toad and the Increasingly Capable Machines",
    "url": "https://news.ycombinator.com/item?id=49927760",
    "link": "https://www.frogandtoad.ai/",
-   "up": 464,
-   "com": 106,
+   "up": 478,
+   "com": 111,
    "at": "2026-10-01T22:23:38.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Power approval set to delay Oracle's Wisconsin AI datacenter",
+   "url": "https://news.ycombinator.com/item?id=49934569",
+   "link": "https://www.theregister.com/on-prem/2026/10/02/power-approval-set-to-delay-oracles-wisconsin-ai-datacenter/5300832",
+   "up": 36,
+   "com": 8,
+   "at": "2026-10-02T15:24:54.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Don't be fooled–LLMs don't reason",
+   "url": "https://news.ycombinator.com/item?id=49933459",
+   "link": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/",
+   "up": 59,
+   "com": 110,
+   "at": "2026-10-02T13:45:42.000Z"
   },
   {
    "src": "DEV",
@@ -1048,30 +1062,12 @@
   },
   {
    "src": "Hacker News",
-   "t": "Don't be fooled–LLMs don't reason",
-   "url": "https://news.ycombinator.com/item?id=49933459",
-   "link": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/",
-   "up": 57,
-   "com": 109,
-   "at": "2026-10-02T13:45:42.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Power approval set to delay Oracle's Wisconsin AI datacenter",
-   "url": "https://news.ycombinator.com/item?id=49934569",
-   "link": "https://www.theregister.com/on-prem/2026/10/02/power-approval-set-to-delay-oracles-wisconsin-ai-datacenter/5300832",
-   "up": 27,
-   "com": 5,
-   "at": "2026-10-02T15:24:54.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Mozilla shutting down Solo AI website creator",
-   "url": "https://news.ycombinator.com/item?id=49934502",
-   "link": "https://support.soloist.ai/doc/solo-shutdown-faq",
-   "up": 27,
-   "com": 53,
-   "at": "2026-10-02T15:19:22.000Z"
+   "t": "GPT-6 Astra plays World of Warcraft for the first time with agent-wow",
+   "url": "https://news.ycombinator.com/item?id=49933251",
+   "link": "https://agent-wow.sh/gpt-6-astra-plays-world-of-warcraft-for-the-first-time-with-agent-wow/",
+   "up": 60,
+   "com": 44,
+   "at": "2026-10-02T13:19:47.000Z"
   }
  ]
 }
