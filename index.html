@@ -181,6 +181,30 @@ details.how summary { cursor: pointer; color: var(--ink); font-weight: 600; }
 }
 .receipts .lead small { display: block; font: 500 11px var(--font-mono); color: var(--faint); letter-spacing: 0; margin-top: 4px; }
 
+
+/* since your last visit */
+.since-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; padding: 14px 16px; margin-top: 22px; border-radius: 10px; background: var(--paper); border: 1px solid var(--line); font-size: 15px; }
+.since-bar b { font-weight: 700; }
+.since-bar a { padding: 3px 10px; border-radius: 999px; background: var(--chip); font: 600 13px var(--font-mono); color: var(--ink); white-space: nowrap; }
+.since-bar a:hover { background: var(--ink); color: var(--bg); }
+.since-bar .quiet { color: var(--muted); }
+.new-tag { font: 700 10px var(--font-mono); letter-spacing: .08em; padding: 2px 5px; border-radius: 4px; background: var(--up); color: #fff; vertical-align: 2px; margin-right: 6px; }
+/* hype check */
+.hype { border-top: 2px solid var(--ink); }
+.hy { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr) minmax(0, 1fr); gap: 10px 28px; padding: 16px 0; border-bottom: 1px solid var(--line); align-items: start; }
+.hy h3 { margin: 0; font: 800 19px/1.25 var(--font-display); letter-spacing: -.015em; overflow-wrap: anywhere; }
+.hy .verdict { display: inline-block; margin-top: 6px; font: 600 12px var(--font-mono); padding: 2px 8px; border-radius: 999px; background: var(--chip); color: var(--muted); }
+.hy .verdict.match { background: color-mix(in srgb, var(--up) 18%, transparent); color: var(--up); }
+.hy .verdict.talk { background: color-mix(in srgb, var(--hot) 16%, transparent); color: var(--hot); }
+.hy .verdict.quiet { background: color-mix(in srgb, var(--cool) 18%, transparent); color: var(--cool); }
+.hy .lab { font: 600 11px var(--font-mono); letter-spacing: .1em; color: var(--faint); text-transform: uppercase; }
+.hy .val { font-weight: 600; margin: 3px 0 6px; overflow-wrap: anywhere; }
+.hy .meter { height: 6px; border-radius: 3px; background: var(--chip); overflow: hidden; }
+.hy .meter i { display: block; height: 100%; border-radius: 3px; }
+.hy .where { font-size: 13px; color: var(--muted); margin-top: 6px; overflow-wrap: anywhere; }
+.hy .where a { text-decoration: underline; text-decoration-color: var(--line); }
+@media (max-width: 720px) { .hy { grid-template-columns: minmax(0, 1fr); } }
+
 /* models */
 .models { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0; border-top: 2px solid var(--ink); }
 .model { padding: 18px 18px 18px 0; border-bottom: 1px solid var(--line); display: grid; gap: 10px; align-content: start; min-width: 0; }
@@ -297,6 +321,7 @@ footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wr
     <nav class="main" aria-label="Sections">
       <a href="#rising">Movers</a>
       <a href="#breakouts">Breakouts</a>
+      <a href="#hype">Hype check</a>
       <a href="#receipts">Called it</a>
       <a href="#models">Models</a>
       <a href="#github">Repos</a>
@@ -339,10 +364,16 @@ footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wr
   </div>
 
   <div class="glance" id="pulse" aria-label="Today at a glance"></div>
+  <div class="since-bar" id="sinceBar" hidden></div>
 
   <section class="block" id="breakouts">
     <div class="sec-head"><div><div class="eyebrow">Named on 3 or more sources · last 3 days</div><h2>Breaking out</h2><p>The same model or project turning up on several separate sources at once, like GitHub, Hacker News and the news.</p></div></div>
     <div class="bo-list" id="boList"></div>
+  </section>
+
+  <section class="block" id="hype">
+    <div class="sec-head"><div><div class="eyebrow">Talk vs. real use</div><h2>Hype check</h2><p>How many news sites, lab blogs and threads are talking about something, next to how much people actually use it: GitHub stars gained per day or Hugging Face downloads.</p></div></div>
+    <div class="hype" id="hypeList"></div>
   </section>
 
   <section class="block" id="rising">
@@ -573,8 +604,43 @@ if (NEWSLETTER) {
 }
 $("pills").innerHTML = CATS.map(c => `<button type="button" class="chip" data-cat="${c}" aria-pressed="${c === "all"}">${c === "all" ? "All" : c}</button>`).join("");
 
+/* ---------- since your last visit (kept in this browser only) ---------- */
+const keysOf = D => ({
+  rising: D.rising.map(r => "r:" + r.name),
+  breakouts: (D.breakouts || []).map(b => "b:" + b.key),
+  github: D.github.map(g => "g:" + g.repo),
+  models: D.models.map(m => "m:" + m.org + "/" + m.name),
+  news: D.headlines.map(h => "h:" + h.url),
+  receipts: (D.receipts || []).map(r => "c:" + r.name + r.m)
+});
+let SINCE = null; // { at, seen: Set } baseline for this page view
+function sinceBaseline(D) {
+  if (SINCE || D.isSnapshot) return;
+  const now = Date.now(), all = Object.values(keysOf(D)).flat();
+  const v = store.get("uc-visit");
+  // A reload within 20 minutes keeps comparing against the same earlier visit.
+  const base = v && (now - v.at < 20 * 6e4 ? (v.prevAt ? { at: v.prevAt, seen: v.prevSeen } : null) : { at: v.at, seen: v.seen });
+  SINCE = base ? { at: base.at, seen: new Set(base.seen) } : { at: null, seen: null };
+  const keep = v && now - v.at < 20 * 6e4;
+  store.set("uc-visit", { at: now, seen: [...new Set([...(keep ? v.seen : []), ...all])].slice(-600), prevAt: base ? base.at : null, prevSeen: base ? base.seen : null });
+}
+const isNew = k => !!(SINCE && SINCE.seen && !SINCE.seen.has(k));
+const NEW = k => isNew(k) ? `<span class="new-tag">NEW</span>` : "";
+
 function render() {
   const D = DATA;
+  sinceBaseline(D);
+  const sb = $("sinceBar");
+  if (SINCE && SINCE.seen) {
+    const k = keysOf(D), n = Object.fromEntries(Object.entries(k).map(([g, ks]) => [g, ks.filter(isNew).length]));
+    const parts = [["rising", "movers", "#rising"], ["breakouts", "breakouts", "#breakouts"], ["receipts", "receipts", "#receipts"], ["models", "models", "#models"], ["github", "repos", "#github"], ["news", "headlines", "#news"]]
+      .filter(([g]) => n[g]).map(([g, l, h]) => `<a href="${h}">${n[g]} new ${n[g] === 1 ? l.replace(/s$/, "") : l}</a>`);
+    sb.innerHTML = `<b>Since your last visit</b><span class="quiet">${ago(new Date(SINCE.at).toISOString())}:</span>` + (parts.length ? parts.join("") : `<span class="quiet">nothing new yet. Check back later.</span>`);
+    sb.hidden = false;
+  } else if (SINCE) {
+    sb.innerHTML = `<b>Welcome.</b><span class="quiet">Next time you visit, this bar shows what changed since now. Nothing to sign up for.</span>`;
+    sb.hidden = false;
+  }
   const st = $("statusText");
   st.className = "live" + (D.isSnapshot ? " snap" : "");
   st.textContent = D.isSnapshot ? (D.live === 0 ? `Snapshot from ${new Date(SNAP_AT).toLocaleDateString("en-US", { month: "short", day: "numeric" })} · live sources unreachable here` : "Snapshot · checking live sources…") : `Live · updated ${ago(D.updated)} · ${D.live}/${D.total} sources`;
@@ -597,7 +663,7 @@ function render() {
     <article class="row${r.rank === 1 && state.cat === "all" && !state.q ? " lead" : ""}">
       <div class="rank">${r.rank}</div>
       <div style="min-width:0">
-        <h3><a href="${esc(linkFor(r))}" target="_blank" rel="noopener">${esc(r.name)}</a></h3>
+        <h3>${NEW("r:" + r.name)}<a href="${esc(linkFor(r))}" target="_blank" rel="noopener">${esc(r.name)}</a></h3>
         <div class="tags">${r.breakout ? `<a class="badge-bo" href="#breakouts" title="Named on ${r.breakout} separate sources">BREAKOUT · ${r.breakout} SOURCES</a>` : ""}<span class="src">${SRC_LABEL[r.src] || "SOURCE"}</span>${r.owner !== "Paper" && r.owner !== "Product Hunt" ? `<span>${esc(r.owner)}</span>` : ""}<span class="cat">${r.cat}</span></div>
         <p class="desc">${esc(r.desc)}</p>
         <div class="meta">${r.meta.map(m => `<span>${esc(m)}</span>`).join("")}</div>
@@ -614,14 +680,26 @@ function render() {
   const leadTxt = h => h < 48 ? `${Math.round(h)} hours` : `${Math.round(h / 24)} days`;
   const bos = (D.breakouts || []).filter(b => !state.q || (b.label + b.sources.map(x => x.t).join(" ")).toLowerCase().includes(state.q));
   $("boList").innerHTML = bos.length ? bos.map(b => `<article class="bo">
-    <h3>${esc(b.label)} <span class="n">${b.n} SOURCES</span></h3>
+    <h3>${NEW("b:" + b.key)}${esc(b.label)} <span class="n">${b.n} SOURCES</span></h3>
     <ul>${b.sources.map(x => `<li><b>${esc(x.src)}</b>${x.url ? `<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.t)}</a>` : `<span>${esc(x.t)}</span>`}</li>`).join("")}</ul>
     ${b.since ? `<div class="since">On 3+ sources since ${day(b.since)}, ${hhmm(b.since)}</div>` : ""}</article>`).join("")
     : `<div class="empty">Nothing is on 3 or more sources right now. That's normal: it only happens when something is genuinely everywhere.</div>`;
 
+  const hy = (D.hype || []).filter(h => !state.q || h.name.toLowerCase().includes(state.q));
+  const vClass = v => /matches/.test(v) ? "match" : /More talk|Talk only/.test(v) ? "talk" : "quiet";
+  $("hypeList").innerHTML = hy.length ? hy.map(h => `<article class="hy">
+    <div><h3>${h.url ? `<a href="${esc(h.url)}" target="_blank" rel="noopener">${esc(h.name)}</a>` : esc(h.name)}</h3><span class="verdict ${vClass(h.verdict)}">${esc(h.verdict)}</span></div>
+    <div><div class="lab">Talk</div><div class="val">${h.buzz ? `${h.buzz} ${h.buzz === 1 ? "source" : "sources"}` : "Not in the news or threads"}</div>
+      <div class="meter"><i style="width:${Math.min(100, h.buzz / 5 * 100)}%;background:var(--hot)"></i></div>
+      ${h.talk.length ? `<div class="where">${h.talk.map(t => t.url ? `<a href="${esc(t.url)}" target="_blank" rel="noopener" title="${esc(t.t)}">${esc(t.src)}</a>` : esc(t.src)).join(", ")}</div>` : ""}</div>
+    <div><div class="lab">Real use${h.from ? " · " + h.from : ""}</div><div class="val">${esc(h.useLabel)}</div>
+      <div class="meter"><i style="width:${h.usePct == null ? 0 : Math.max(4, h.usePct * 100)}%;background:var(--up)"></i></div>
+      ${h.usePct != null ? `<div class="where">${h.usePct >= 0.85 ? "Among the most used here" : h.usePct >= 0.5 ? "Above the middle here" : "Below the middle here"}</div>` : ""}</div>
+  </article>`).join("") : `<div class="empty">${D.isSnapshot ? "The hype check loads with live data." : "Nothing to compare right now."}</div>`;
+
   const rcs = (D.receipts || []).filter(r => !state.q || r.name.toLowerCase().includes(state.q));
   $("rcList").innerHTML = rcs.length ? rcs.map(r => `<li>
-    <div class="what"><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.name.split("/").pop())}</a> passed ${fmt(r.m)} ${MS[r.kind]}</div>
+    <div class="what">${NEW("c:" + r.name + r.m)}<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.name.split("/").pop())}</a> passed ${fmt(r.m)} ${MS[r.kind]}</div>
     <div class="proof">On Upcurrent since ${day(r.first)} at ${comma(r.firstV)} ${MS[r.kind]} · passed ${fmt(r.m)} on ${day(r.at)}, ${hhmm(r.at)}</div>
     <div class="lead">${leadTxt(r.lead)}<small>before the milestone</small></div></li>`).join("")
     : `<li><span class="empty">No receipts yet${D.trackingSince ? `. Records started on ${day(D.trackingSince)}` : ""}. They appear when a project Upcurrent was already tracking passes 1K, 2.5K, 5K or 10K stars, or 10K, 100K or 1M downloads.</span></li>`;
@@ -630,7 +708,7 @@ function render() {
   const maxDl = Math.max(1, ...ms.map(m => m.dl || 0));
   $("modelGrid").innerHTML = ms.length ? ms.map(m => `
     <article class="model">
-      <div><div class="org">${esc(m.org)}${m.size ? " · " + m.size : ""}</div><h3><a href="https://huggingface.co/${esc(m.org)}/${esc(m.name)}" target="_blank" rel="noopener">${esc(m.name)}</a></h3></div>
+      <div><div class="org">${esc(m.org)}${m.size ? " · " + m.size : ""}</div><h3>${NEW("m:" + m.org + "/" + m.name)}<a href="https://huggingface.co/${esc(m.org)}/${esc(m.name)}" target="_blank" rel="noopener">${esc(m.name)}</a></h3></div>
       <div class="tags"><span class="src">${esc(m.lic.toUpperCase())}</span><span>released ${ago(m.at)}</span><span class="cat">${m.cat}</span></div>
       <div class="kv"><div>Score<b style="color:${heat(m.score)}">${m.score}</b></div><div>Downloads<b>${fmt(m.dl)}</b></div><div>24h<b style="color:var(${m.grow == null ? "--faint" : "--up"})">${m.grow == null ? "—" : "+" + m.grow + "%"}</b></div></div>
       <div class="dlbar" title="Downloads relative to the most-downloaded model here"><i style="width:${Math.max(2, Math.sqrt((m.dl || 0) / maxDl) * 100)}%"></i></div>
@@ -639,7 +717,7 @@ function render() {
   const gh = D.github.filter(g => !state.q || g.repo.toLowerCase().includes(state.q));
   const maxD = Math.max(1, ...gh.map(g => g.d24 || 0));
   $("ghBody").innerHTML = gh.map(g => { const [o, n] = g.repo.split("/"); return `<tr>
-    <td class="repo"><a href="https://github.com/${esc(g.repo)}" target="_blank" rel="noopener"><span class="o">${esc(o)}/</span><b>${esc(n)}</b></a></td>
+    <td class="repo">${NEW("g:" + g.repo)}<a href="https://github.com/${esc(g.repo)}" target="_blank" rel="noopener"><span class="o">${esc(o)}/</span><b>${esc(n)}</b></a></td>
     <td class="r num">${fmt(g.stars)}</td>
     <td class="r"><span class="spark"><span class="num">${g.d24 == null ? "—" : (g.est ? "~" : "+") + comma(g.d24)}</span><span class="b"><i style="width:${(g.d24 || 0) / maxD * 100}%"></i></span></span></td>
     <td class="r num">${fmt(g.forks)}</td>
@@ -655,7 +733,7 @@ function render() {
   $("newToday").innerHTML = D.newToday.filter(n => !state.q || n.t.toLowerCase().includes(state.q)).map(n => `<li><time>${hhmm(n.at)}</time><span class="dot"></span><span>${n.url ? `<a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.t)}</a>` : esc(n.t)}</span></li>`).join("") || `<li><span></span><span></span><span class="empty">Nothing new matches.</span></li>`;
 
   const hl = (D.headlines || []).filter(h => !state.q || h.t.toLowerCase().includes(state.q));
-  $("newsList").innerHTML = hl.length ? hl.map(h => `<li><a class="h" href="${esc(h.url)}" target="_blank" rel="noopener">${esc(h.t)}</a><span class="w">${ago(h.at)}</span><span class="k"><span class="src">${esc((h.kind || "News").toUpperCase())}</span>${esc(h.src)}</span></li>`).join("")
+  $("newsList").innerHTML = hl.length ? hl.map(h => `<li><a class="h" href="${esc(h.url)}" target="_blank" rel="noopener">${NEW("h:" + h.url)}${esc(h.t)}</a><span class="w">${ago(h.at)}</span><span class="k"><span class="src">${esc((h.kind || "News").toUpperCase())}</span>${esc(h.src)}</span></li>`).join("")
     : `<li class="empty">${D.isSnapshot ? "Headlines load with live data." : "No headlines match."}</li>`;
 
   const fc = D.freeCounts;

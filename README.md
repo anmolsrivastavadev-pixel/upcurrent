@@ -63,3 +63,5 @@ Run the workflow by hand with "dry run" ticked to preview the email in the run s
 
 - **Breaking out** lists any model or project named on 3 or more separate sources in the last 3 days (for example GitHub, Hacker News and a news site). Items in the movers list that are breaking out get a red badge.
 - **Called it** shows projects Upcurrent was already tracking before they passed a milestone (1K, 2.5K, 5K, 10K… stars, or 10K, 100K, 1M… downloads). The hourly job keeps this record in the `spotted` field of `data/latest.json`. `scripts/backfill-spotted.cjs` rebuilds it from git history.
+- **Hype check** puts how many news sites, lab blogs and threads mention something next to how much it's used (GitHub stars per day, Hugging Face downloads).
+- **Since your last visit** remembers, in the visitor's own browser only, what they saw last time and marks new items with a NEW tag.

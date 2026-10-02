@@ -260,8 +260,8 @@
     add("hfPapers", () => "HF Papers", raw.hfPapers, r => `${r.title} arxiv.org/abs/${r.id}`);
     return out;
   }
-  // Things named on BREAKOUT_MIN or more separate sources in the last three days.
-  function findBreakouts(raw, now = Date.now()) {
+  // Every named thing seen on more than one source in the last three days, with the sources that named it.
+  function entities(raw, now = Date.now()) {
     const M = mentions(raw, now);
     const ents = new Map();
     const ent = (key, label) => { if (!ents.has(key)) ents.set(key, { key, label, by: new Map() }); return ents.get(key); };
@@ -286,9 +286,35 @@
       e.by.set(it.own, M.find(m => m.src === it.own && (m.text.includes(it.url || "\0") || m.text.includes(nm))) || { src: it.own, t: it.label, url: it.url ? "https://" + it.url : "" });
       hits.forEach(m => { if (!e.by.has(m.src)) e.by.set(m.src, m); });
     });
-    return [...ents.values()].filter(e => e.by.size >= BREAKOUT_MIN)
+    return [...ents.values()];
+  }
+  // Things named on BREAKOUT_MIN or more separate sources in the last three days.
+  function findBreakouts(raw, now = Date.now()) {
+    return entities(raw, now).filter(e => e.by.size >= BREAKOUT_MIN)
       .map(e => ({ key: e.key, label: e.label, n: e.by.size, sources: [...e.by.values()].map(m => ({ src: m.src, t: m.t, url: m.url })) }))
       .sort((a, b) => b.n - a.n).slice(0, 8);
+  }
+
+
+  /* ---------- hype check: how much something is talked about vs how much it is used ---------- */
+  // "Talk" is news, lab blogs, videos and discussion threads; GitHub, Hugging Face and paper lists are where use shows up.
+  const NOT_TALK = new Set(["GitHub", "Hugging Face", "HF Papers", "arXiv", "Product Hunt"]);
+  function hypeCheck(raw, ghRows, models, now = Date.now()) {
+    const ents = new Map(entities(raw, now).map(e => [e.key, e]));
+    const talkOf = key => { const e = ents.get(key); return e ? [...e.by.values()].filter(m => !NOT_TALK.has(m.src)).map(m => ({ src: m.src, t: m.t, url: m.url })) : []; };
+    const rank = arr => { const s = [...arr].sort((a, b) => a - b); return v => s.length < 2 ? 1 : s.lastIndexOf(v) / (s.length - 1); };
+    const ghR = rank(ghRows.map(g => g.d24)), hfR = rank(models.map(m => m.dl || 0));
+    const rows = [
+      ...ghRows.map(g => ({ name: g.name, url: `https://github.com/${g.repo}`, from: "GitHub", use: g.d24, useLabel: `${g.est ? "~" : "+"}${comma(g.d24)} stars/day`, usePct: ghR(g.d24), talk: talkOf(g.name.toLowerCase()) })),
+      ...models.map(m => ({ name: m.name, url: `https://huggingface.co/${m.org}/${m.name}`, from: "Hugging Face", use: m.dl, useLabel: `${fmt(m.dl)} downloads`, usePct: hfR(m.dl || 0), talk: talkOf(m.name.toLowerCase()) })),
+      // Model names in the news (e.g. "Gemini 4") rarely have public usage numbers.
+      ...[...ents.values()].filter(e => /\d/.test(e.key) && !ghRows.some(g => g.name.toLowerCase() === e.key) && !models.some(m => m.name.toLowerCase() === e.key))
+        .map(e => ({ name: e.label, url: null, from: null, use: null, useLabel: "No public numbers", usePct: null, talk: talkOf(e.key) })).filter(r => r.talk.length >= 2)
+    ].map(r => ({ ...r, buzz: r.talk.length,
+      verdict: r.use == null ? "Talk only, no public usage numbers" : r.talk.length && r.usePct >= 0.5 ? "The hype matches real use" : r.talk.length ? "More talk than use" : "Used a lot, hardly talked about" }));
+    const talked = rows.filter(r => r.buzz > 0).sort((a, b) => b.buzz - a.buzz);
+    const quiet = rows.filter(r => r.buzz === 0 && r.usePct >= 0.85).sort((a, b) => b.usePct - a.usePct).slice(0, 3);
+    return [...talked.slice(0, 6), ...quiet];
   }
 
   /* ---------- receipts: what Upcurrent was tracking before it hit a milestone ---------- */
@@ -427,7 +453,7 @@
       updated: fetchedAt, generated: fetchedAt, live, total: counted.length, isSnapshot: false,
       pulse, brief: brief.length ? brief : S.brief, freeCounts, rising, activity,
       models: models.length ? models.slice(0, 6) : S.models, github, discussions, newToday: newToday.length ? newToday : S.newToday,
-      free: freeRows, headlines, breakouts, receipts: receipts(spotted, now), trackingSince: spotted?.since || null
+      free: freeRows, headlines, breakouts, hype: hypeCheck(raw, ghRows, models, now), receipts: receipts(spotted, now), trackingSince: spotted?.since || null
     };
   }
 
