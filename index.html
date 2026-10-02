@@ -551,7 +551,7 @@ function render() {
   $("ticker").innerHTML = tick + tick;
 
   const P = D.pulse;
-  $("pulse").innerHTML = [[fmt(P.trending), "items tracked"], [fmt(P.accelerating), "doubled in a day"], [fmt(P.newModels), "models released this week"], [fmt(P.discussions), "threads in the last 24h"], [fmt(P.stars), "GitHub stars gained today"]]
+  $("pulse").innerHTML = [[fmt(P.trending), "items tracked"], [fmt(P.accelerating), "doubled in a day"], [fmt(P.newModels), "models released this week"], [fmt(P.discussions), "threads in the last 24h"], [fmt(P.stars), "stars gained by these AI repos today"]]
     .map(([v, l]) => `<div><b class="num">${v}</b><span>${l}</span></div>`).join("");
 
   const rows = D.rising.map((r, i) => ({ ...r, rank: i + 1 })).filter(r => matches(r.name + r.owner + r.desc, r.cat));
