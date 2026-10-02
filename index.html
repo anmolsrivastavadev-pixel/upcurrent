@@ -205,6 +205,18 @@ details.how summary { cursor: pointer; color: var(--ink); font-weight: 600; }
 .hy .where a { text-decoration: underline; text-decoration-color: var(--line); }
 @media (max-width: 720px) { .hy { grid-template-columns: minmax(0, 1fr); } }
 
+
+/* free models watch */
+.free-watch { margin-bottom: 18px; padding: 14px 16px; border-radius: 10px; background: var(--paper); border: 1px solid var(--line); }
+.free-watch h3 { margin: 0 0 6px; font: 700 15px/1.3 var(--font-body); }
+.free-watch ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; font-size: 14.5px; }
+.free-watch li { display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; }
+.free-watch .ev { font: 700 11px var(--font-mono); padding: 1px 6px; border-radius: 4px; color: #fff; }
+.free-watch .ev.added { background: var(--up); }
+.free-watch .ev.removed { background: var(--hot); }
+.free-watch .when { font: 12px var(--font-mono); color: var(--faint); }
+.free-watch p { margin: 0; color: var(--muted); font-size: 14.5px; }
+
 /* models */
 .models { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0; border-top: 2px solid var(--ink); }
 .model { padding: 18px 18px 18px 0; border-bottom: 1px solid var(--line); display: grid; gap: 10px; align-content: start; min-width: 0; }
@@ -328,6 +340,7 @@ footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wr
       <a href="#threads">Threads</a>
       <a href="#news">Headlines</a>
       <a href="#free">Free models</a>
+      <a href="data.html">Open data</a>
     </nav>
     <div class="search">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
@@ -434,6 +447,7 @@ footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wr
 
   <section class="block" id="free">
     <div class="sec-head"><div><div class="eyebrow">OpenRouter · OpenCode Zen</div><h2>Free models to call</h2><p id="freeSub"></p></div></div>
+    <div class="free-watch" id="freeWatch" hidden></div>
     <div class="free" id="freeBody"></div>
     <div id="freeNote"></div>
   </section>
@@ -451,6 +465,7 @@ footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wr
   <div class="wrap">
     <span class="logo" style="font-size:16px">Upcurrent</span>
     <span>Data from GitHub, Hugging Face, arXiv, Hacker News, Reddit, Lobsters, DEV, Mastodon, Bluesky, AI lab blogs, Techmeme, OpenRouter, OpenCode Zen and more.</span>
+    <a href="data.html" style="text-decoration:underline">Use this data free (open data)</a>
   </div>
 </footer>
 
@@ -738,11 +753,19 @@ function render() {
 
   const fc = D.freeCounts;
   $("freeSub").textContent = `${fc.zen + fc.or} models you can call at zero cost right now: ${fc.zen} on OpenCode Zen and ${fc.or} on OpenRouter. Newest first.`;
-  const fr = D.free.filter(f => !state.q || f.name.toLowerCase().includes(state.q));
+  const fw = $("freeWatch"), ch = D.freeChanges;
+  if (ch) {
+    const evs = ch.events.slice(0, 12);
+    fw.innerHTML = `<h3>Free models watch · last 24 hours</h3>` + (evs.length
+      ? `<ul>${evs.map(e => `<li><span class="ev ${e.type}">${e.type === "added" ? "+ NEW" : "− GONE"}</span><span>${e.url ? `<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.name)}</a>` : esc(e.name)}</span><span class="when">${esc(e.prov)} · ${ago(e.at)}</span></li>`).join("")}</ul>`
+      : `<p>No free model was added or removed in the last 24 hours. Checked every 30 minutes since ${new Date(ch.since).toLocaleDateString("en-US", { month: "short", day: "numeric" })}.</p>`);
+    fw.hidden = false;
+  } else fw.hidden = true;
+  const fr = D.free.filter(f => !state.q || f.name.toLowerCase().includes(state.q)).sort((a, b) => b.added - a.added);
   const showAll = $("freeBody").dataset.all === "1";
   const logC = c => c ? Math.max(4, (Math.log2(c) - 13) / (Math.log2(2e6) - 13) * 100) : 0;
   $("freeBody").innerHTML = (showAll ? fr : fr.slice(0, 10)).map(f => `<div class="fm">
-    <span class="n">${f.url ? `<a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.name)}</a>` : esc(f.name)}</span>
+    <span class="n">${f.added ? `<span class="new-tag">NEW TODAY</span>` : ""}${f.url ? `<a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.name)}</a>` : esc(f.name)}</span>
     <span class="p">${f.prov} · ${added(f.at)}</span>
     <span class="ctx"><span class="b" title="Context window, log scale"><i style="width:${logC(f.ctx)}%"></i></span>${f.ctx ? fmt(f.ctx) + " context" : "context n/a"}${f.caps.map(x => `<span class="cap">${esc(x)}</span>`).join("")}</span></div>`).join("") || `<div class="empty">No models match.</div>`;
   $("freeNote").innerHTML = fr.length > 10 ? `<button type="button" class="more-btn" id="freeToggle">${showAll ? "Show fewer" : `Show all ${fr.length}`}</button>` : (D.isSnapshot && fr.length < fc.zen + fc.or ? `<div class="note">The snapshot holds ${fr.length} of ${fc.zen + fc.or}. The full list loads with live data.</div>` : "");

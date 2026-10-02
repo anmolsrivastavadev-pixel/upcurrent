@@ -65,3 +65,17 @@ Run the workflow by hand with "dry run" ticked to preview the email in the run s
 - **Called it** shows projects Upcurrent was already tracking before they passed a milestone (1K, 2.5K, 5K, 10K… stars, or 10K, 100K, 1M… downloads). The hourly job keeps this record in the `spotted` field of `data/latest.json`. `scripts/backfill-spotted.cjs` rebuilds it from git history.
 - **Hype check** puts how many news sites, lab blogs and threads mention something next to how much it's used (GitHub stars per day, Hugging Face downloads).
 - **Since your last visit** remembers, in the visitor's own browser only, what they saw last time and marks new items with a NEW tag.
+
+## Free models watch
+
+Every run compares the free model lists from OpenRouter and OpenCode Zen with the last run. A model counts as added the first time it appears, and as removed only after it is missing from two fresh checks in a row (so a provider hiccup doesn't cause false alarms). Changes from the last 24 hours show at the top of the Free models section, and new models get a NEW TODAY tag. The record lives in `spotted.free` inside `data/latest.json`.
+
+## Open data
+
+Each run also writes small, documented JSON files anyone can use for free under CC BY 4.0, with credit to Upcurrent:
+
+- `data/api/today.json`: everything on the dashboard right now
+- `data/api/history.json`: everything Upcurrent has tracked, breakouts, and free model changes
+- `data/api/daily/YYYY-MM-DD.json`: one snapshot per UTC day
+
+The docs page is `data.html`.

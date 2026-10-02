@@ -1,0 +1,133 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Upcurrent open data</title>
+<meta name="description" content="Free JSON feeds of what is rising in AI, updated every 30 minutes. Use them in anything, just credit Upcurrent.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Schibsted+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap">
+<style>
+:root {
+  --bg: #eef1f4; --paper: #ffffff; --ink: #0f1829; --muted: #566276; --faint: #8792a3; --line: #d6dce4;
+  --link: #2a45cf; --up: #12895f; --chip: #e3e8ee; --code: #0f1829; --code-ink: #e9eef6;
+  --font-display: "Bricolage Grotesque", "Avenir Next", system-ui, sans-serif;
+  --font-body: "Schibsted Grotesk", "Helvetica Neue", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0c111a; --paper: #131a26; --ink: #e8edf5; --muted: #95a1b5; --faint: #67738a; --line: #232d3f;
+    --link: #8fa3ff; --up: #3fd09a; --chip: #1c2535; --code: #080c13; --code-ink: #dfe6f1; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0c111a; --paper: #131a26; --ink: #e8edf5; --muted: #95a1b5; --faint: #67738a; --line: #232d3f;
+  --link: #8fa3ff; --up: #3fd09a; --chip: #1c2535; --code: #080c13; --code-ink: #dfe6f1; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 var(--font-body); -webkit-font-smoothing: antialiased; }
+a { color: var(--link); }
+.wrap { max-width: 820px; margin: 0 auto; padding-inline: 20px; }
+header { border-bottom: 1px solid var(--line); }
+header .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-block: 14px; flex-wrap: wrap; }
+.logo { font: 800 21px/1 var(--font-display); letter-spacing: -.03em; color: var(--ink); text-decoration: none; }
+main { padding-block: 40px 64px; display: grid; gap: 40px; }
+main > section { min-width: 0; }
+h1 { font: 800 clamp(30px, 6vw, 44px)/1.05 var(--font-display); letter-spacing: -.035em; margin: 0 0 12px; text-wrap: balance; }
+h2 { font: 700 22px/1.2 var(--font-display); letter-spacing: -.02em; margin: 0 0 10px; }
+p { margin: 0 0 10px; max-width: 65ch; }
+.lede { font-size: 18px; color: var(--muted); }
+.eyebrow { font: 600 11.5px/1 var(--font-mono); letter-spacing: .14em; text-transform: uppercase; color: var(--up); margin-bottom: 12px; }
+code { font: 14px var(--font-mono); background: var(--chip); padding: 1px 5px; border-radius: 4px; overflow-wrap: anywhere; }
+pre { margin: 0; background: var(--code); color: var(--code-ink); padding: 16px 18px; border-radius: 10px; overflow-x: auto; font: 13.5px/1.6 var(--font-mono); }
+pre code { background: none; padding: 0; color: inherit; overflow-wrap: normal; }
+.feeds { list-style: none; margin: 0; padding: 0; display: grid; gap: 0; border-top: 1px solid var(--line); }
+.feeds li { display: grid; grid-template-columns: minmax(0, 1fr); gap: 4px; padding-block: 14px; border-bottom: 1px solid var(--line); }
+.feeds .url { font: 600 14px var(--font-mono); overflow-wrap: anywhere; }
+.feeds .what { color: var(--muted); font-size: 15px; }
+.copy { display: flex; gap: 8px; align-items: stretch; flex-wrap: wrap; }
+.copy pre { flex: 1 1 320px; min-width: 0; }
+.copy button { font: 600 13px var(--font-body); padding: 8px 14px; border-radius: 8px; border: 1px solid var(--line); background: var(--paper); color: var(--ink); cursor: pointer; }
+.rules { margin: 0; padding-left: 20px; display: grid; gap: 6px; max-width: 65ch; }
+table { border-collapse: collapse; width: 100%; font-size: 14.5px; }
+.tbl { overflow-x: auto; }
+th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font: 600 11.5px var(--font-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+td:first-child { font-family: var(--font-mono); font-size: 13.5px; white-space: nowrap; }
+footer { border-top: 1px solid var(--line); padding-block: 22px; color: var(--muted); font-size: 14px; }
+</style></head><body>
+<header><div class="wrap"><a class="logo" href="./">Upcurrent</a><a href="./">Back to the dashboard</a></div></header>
+<main class="wrap">
+<section>
+  <div class="eyebrow">Open data · free · CC BY 4.0</div>
+  <h1>Use Upcurrent's data in your own projects</h1>
+  <p class="lede">Every 30 minutes Upcurrent checks GitHub, Hugging Face, arXiv, Hacker News, AI lab blogs, model providers and more, then works out what is rising. The results are plain JSON files. Use them in a bot, a newsletter, a research project or an app, for free. The only ask is a credit with a link back.</p>
+  <p id="updated" class="lede" style="font-size:15px"></p>
+</section>
+
+<section>
+  <h2>The feeds</h2>
+  <ul class="feeds">
+    <li><a class="url" href="data/api/today.json">data/api/today.json</a><span class="what">Everything on the dashboard right now: rising items, breakouts, hype check, receipts, top repos, trending models, free models, headlines and discussions.</span></li>
+    <li><a class="url" href="data/api/history.json">data/api/history.json</a><span class="what">The long memory: every item Upcurrent has tracked, when it was first spotted and what it was at, milestones it passed since, every breakout, and every free model added or removed.</span></li>
+    <li><span class="url">data/api/daily/YYYY-MM-DD.json</span><span class="what">A frozen copy of today.json for each day (UTC), starting <a href="data/api/daily/2026-10-02.json">2026-10-02</a>. Good for comparing days.</span></li>
+    <li><a class="url" href="data/latest.json">data/latest.json</a><span class="what">The raw file the site itself reads, including every source's original response. Bigger and less tidy; use it if you want to do your own scoring.</span></li>
+  </ul>
+  <p style="margin-top:12px">Full addresses start with <code>https://anmolsrivastavadev-pixel.github.io/upcurrent/</code>. No key, no sign-up, and browsers can fetch them directly from any website.</p>
+</section>
+
+<section>
+  <h2>Try it</h2>
+  <div class="copy">
+<pre><code id="ex">const res = await fetch("https://anmolsrivastavadev-pixel.github.io/upcurrent/data/api/today.json");
+const data = await res.json();
+for (const item of data.rising.slice(0, 5)) console.log(item.title, item.url);</code></pre>
+    <button type="button" data-copy="ex">Copy</button>
+  </div>
+</section>
+
+<section>
+  <h2>What's inside today.json</h2>
+  <div class="tbl"><table>
+    <thead><tr><th>Field</th><th>What it holds</th></tr></thead>
+    <tbody>
+      <tr><td>about</td><td>Name, license, the credit line to use, and when the data was last updated.</td></tr>
+      <tr><td>pulse</td><td>Headline numbers for the day, like stars gained by tracked AI repos.</td></tr>
+      <tr><td>rising</td><td>The ranked movers across all sources, with a momentum score.</td></tr>
+      <tr><td>breakouts</td><td>Things named on 3 or more different sources in the last 3 days.</td></tr>
+      <tr><td>hype</td><td>How much each item is talked about compared with how much it is actually used, with a plain verdict.</td></tr>
+      <tr><td>receipts</td><td>Items Upcurrent tracked before they passed a big milestone, and by how many hours.</td></tr>
+      <tr><td>github, models</td><td>Fastest-rising AI repos and Hugging Face models.</td></tr>
+      <tr><td>free, freeChanges</td><td>AI models you can call at zero cost right now, and which ones were added or removed in the last 24 hours.</td></tr>
+      <tr><td>headlines, discussions</td><td>Recent AI news and the busiest threads.</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section>
+  <h2>The one rule: credit Upcurrent</h2>
+  <p>The data Upcurrent creates (scores, breakouts, hype verdicts, receipts, free model changes) is licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>. Wherever you show it, add this line:</p>
+  <div class="copy">
+<pre><code id="credit">Data from &lt;a href="https://anmolsrivastavadev-pixel.github.io/upcurrent/"&gt;Upcurrent&lt;/a&gt;</code></pre>
+    <button type="button" data-copy="credit">Copy</button>
+  </div>
+  <ul class="rules" style="margin-top:14px">
+    <li>Commercial use is fine.</li>
+    <li>Titles, descriptions and links inside the data belong to their original publishers. Link to them rather than republishing whole articles.</li>
+    <li>Numbers are real and come from each source's official API. If a source was down, it is listed in <code>data/latest.json</code> under <code>stale</code>.</li>
+    <li>Please don't fetch more than once every few minutes. The data only changes every 30 minutes.</li>
+  </ul>
+</section>
+</main>
+<footer><div class="wrap">Built something with this? Upcurrent would love to see it. <a href="./">Back to the dashboard</a></div></footer>
+<script>
+document.querySelectorAll("[data-copy]").forEach(b => b.addEventListener("click", async () => {
+  const t = document.getElementById(b.dataset.copy).textContent;
+  try { await navigator.clipboard.writeText(t); b.textContent = "Copied"; }
+  catch { const r = document.createRange(); r.selectNodeContents(document.getElementById(b.dataset.copy)); const s = getSelection(); s.removeAllRanges(); s.addRange(r); b.textContent = "Selected"; }
+  setTimeout(() => b.textContent = "Copy", 1600);
+}));
+fetch("data/api/today.json").then(r => r.json()).then(j => {
+  const d = new Date(j.about.updated);
+  document.getElementById("updated").textContent = `Last updated ${d.toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" })}.`;
+}).catch(() => {});
+</script>
+</body></html>

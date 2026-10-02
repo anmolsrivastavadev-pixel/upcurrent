@@ -15,7 +15,7 @@ const snaps = git("log --format=%H -- data/latest.json").trim().split("\n").filt
 const file = path.join(root, "data/latest.json");
 const cur = JSON.parse(fs.readFileSync(file, "utf8"));
 let sp = {};
-for (const j of [...snaps, cur]) sp = C.updateSpotted(sp, j.raw, Date.parse(j.fetchedAt));
+for (const j of [...snaps, cur]) sp = C.updateSpotted(sp, j.raw, Date.parse(j.fetchedAt), { stale: j.stale || [] });
 cur.spotted = sp;
 fs.writeFileSync(file, JSON.stringify(cur));
 const n = Object.values(sp.items).reduce((a, it) => a + it.hits.length, 0);

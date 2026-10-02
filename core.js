@@ -320,7 +320,7 @@
   /* ---------- receipts: what Upcurrent was tracking before it hit a milestone ---------- */
   const MILESTONES = { stars: [1e3, 2.5e3, 5e3, 1e4, 2.5e4, 5e4, 1e5], downloads: [1e4, 1e5, 1e6, 1e7] };
   // Keeps, per repo or model, when Upcurrent first saw it and when it later passed each milestone.
-  function updateSpotted(sp = {}, raw, now = Date.now()) {
+  function updateSpotted(sp = {}, raw, now = Date.now(), { stale = [] } = {}) {
     const iso = new Date(now).toISOString();
     const items = { ...(sp.items || {}) }, breakouts = { ...(sp.breakouts || {}) };
     const track = (key, name, url, kind, v) => {
@@ -336,8 +336,37 @@
     findBreakouts(raw, now).forEach(b => { const p = breakouts[b.key]; breakouts[b.key] = { label: b.label, first: p ? p.first : iso, last: iso, max: Math.max(p ? p.max : 0, b.n) }; });
     for (const k in items) { const it = items[k], lastHit = it.hits.length ? Date.parse(it.hits[it.hits.length - 1].at) : 0; if (now - Date.parse(it.at) > 14 * DAY && now - lastHit > 60 * DAY) delete items[k]; }
     for (const k in breakouts) if (now - Date.parse(breakouts[k].last) > 14 * DAY) delete breakouts[k];
-    return { since: sp.since || iso, items, breakouts };
+    return { since: sp.since || iso, items, breakouts, free: updateFree(sp.free, raw, now, stale) };
   }
+  /* ---------- free models watch: which zero-cost models appeared or disappeared ---------- */
+  const freeKey = f => `${f.prov}|${f.url || f.name}`;
+  // A model counts as removed after it is missing from two fresh fetches in a row, so one flaky answer doesn't count.
+  function updateFree(fr, raw, now = Date.now(), stale = []) {
+    const iso = new Date(now).toISOString();
+    const first = !fr;
+    fr = fr || { since: iso, models: {}, events: [] };
+    const models = { ...fr.models }, events = [...fr.events];
+    for (const [src, prov] of [["openrouter", "OpenRouter"], ["zen", "OpenCode Zen"]]) {
+      if (!raw[src] || stale.includes(src)) continue; // only judge a provider from a fresh answer
+      const seen = new Set();
+      raw[src].forEach(f => {
+        const k = freeKey(f); seen.add(k);
+        const p = models[k];
+        if (!p || p.gone) { if (!first && (!p || p.gone)) events.push({ type: "added", name: f.name, prov, url: f.url || null, at: iso }); models[k] = { name: f.name, prov, url: f.url || null, first: p ? p.first : iso, last: iso, miss: 0 }; }
+        else models[k] = { ...p, last: iso, miss: 0 };
+      });
+      for (const k in models) {
+        const m = models[k];
+        if (m.prov !== prov || seen.has(k) || m.gone) continue;
+        const miss = (m.miss || 0) + 1;
+        models[k] = { ...m, miss, gone: miss >= 2 ? iso : undefined };
+        if (miss >= 2) events.push({ type: "removed", name: m.name, prov, url: m.url, at: iso });
+      }
+    }
+    for (const k in models) if (models[k].gone && now - Date.parse(models[k].gone) > 30 * DAY) delete models[k];
+    return { since: fr.since, models, events: events.filter(e => now - Date.parse(e.at) < 30 * DAY).slice(-300) };
+  }
+
   // The latest milestone each item passed after Upcurrent started tracking it, newest first.
   function receipts(sp, now = Date.now(), minLeadHours = 6) {
     return Object.values((sp && sp.items) || {}).flatMap(it => it.hits.slice(-1).map(h => ({ name: it.name, url: it.url, kind: it.kind, first: it.first, firstV: it.firstV, m: h.m, at: h.at, lead: (Date.parse(h.at) - Date.parse(it.first)) / 36e5 })))
@@ -453,7 +482,9 @@
       updated: fetchedAt, generated: fetchedAt, live, total: counted.length, isSnapshot: false,
       pulse, brief: brief.length ? brief : S.brief, freeCounts, rising, activity,
       models: models.length ? models.slice(0, 6) : S.models, github, discussions, newToday: newToday.length ? newToday : S.newToday,
-      free: freeRows, headlines, breakouts, hype: hypeCheck(raw, ghRows, models, now), receipts: receipts(spotted, now), trackingSince: spotted?.since || null
+      free: freeRows.map(f => ({ ...f, added: spotted?.free?.events?.some(e => e.type === "added" && e.name === f.name && e.prov === f.prov && now - Date.parse(e.at) < DAY) || false })),
+      freeChanges: spotted?.free ? { since: spotted.free.since, events: spotted.free.events.filter(e => now - Date.parse(e.at) < DAY).reverse() } : null,
+      headlines, breakouts, hype: hypeCheck(raw, ghRows, models, now), receipts: receipts(spotted, now), trackingSince: spotted?.since || null
     };
   }
 
