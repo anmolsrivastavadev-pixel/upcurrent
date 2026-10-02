@@ -45,11 +45,13 @@ console.log(`Subject: ${subject}\n${body.length} chars, ${rising.length} movers,
 const key = process.env.BUTTONDOWN_API_KEY;
 if (!key) { console.log("::notice::No BUTTONDOWN_API_KEY, preview only."); process.exit(0); }
 
-// Each subscriber gets the email once a day, during the 7am hour in their own time zone.
+// Each subscriber gets the email once a day, at 7am in their own time zone. GitHub sometimes runs
+// scheduled jobs late or skips them, so a zone that missed 7am is caught up on the next run before noon.
+// metadata.last_sent (their local date) stops anyone getting it twice.
 // The signup form stores their zone as metadata.timezone; anyone without one is treated as DEFAULT_TZ.
 const API = "https://api.buttondown.com/v1";
 const DEFAULT_TZ = "Europe/London";
-const SEND_HOUR = 7;
+const SEND_HOUR = 7, LAST_HOUR = 12;
 const headers = { Authorization: `Token ${key}`, "Content-Type": "application/json" };
 
 async function api(method, url, body, extra = {}) {
@@ -60,6 +62,7 @@ async function api(method, url, body, extra = {}) {
 }
 
 const validTz = tz => { try { new Intl.DateTimeFormat("en-US", { timeZone: tz }); return true; } catch { return false; } };
+const localDate = (tz, at) => new Intl.DateTimeFormat("en-CA", { timeZone: tz }).format(at);
 const localHour = (tz, at) => Number(new Intl.DateTimeFormat("en-US", { timeZone: tz, hour: "numeric", hourCycle: "h23" }).format(at));
 
 async function main() {
@@ -76,7 +79,8 @@ async function main() {
 
   const now = new Date();
   const zones = [...new Set(subs.map(s => s.metadata.timezone))];
-  const due = process.env.ONLY_TZ ? [process.env.ONLY_TZ] : zones.filter(tz => localHour(tz, now) === SEND_HOUR);
+  const waiting = tz => subs.some(s => s.metadata.timezone === tz && s.metadata.last_sent !== localDate(tz, now));
+  const due = process.env.ONLY_TZ ? [process.env.ONLY_TZ] : zones.filter(tz => { const h = localHour(tz, now); return h >= SEND_HOUR && h < LAST_HOUR && waiting(tz); });
   const reach = subs.filter(s => due.includes(s.metadata.timezone)).length;
   console.log(`::notice::${subs.length} subscribers in ${zones.length} time zones (${zones.join(", ") || "none"}). Due now: ${due.join(", ") || "none"} (${reach} people).`);
   const filters = { filters: (due.length ? due : zones).map(tz => ({ field: "subscriber.metadata.timezone", operator: "equals", value: tz })), groups: [], predicate: "or" };
@@ -92,6 +96,11 @@ async function main() {
 
   await api("POST", "/emails", { subject, body, status: "about_to_send", filters }, { "X-Buttondown-Live-Dangerously": "true" });
   console.log(`::notice::Sent to ${due.join(", ")}.`);
+  // Mark who got today's email, so later runs this morning skip them.
+  for (const s of subs.filter(s => due.includes(s.metadata.timezone))) {
+    try { await api("PATCH", `/subscribers/${s.id}`, { metadata: { ...s.metadata, last_sent: localDate(s.metadata.timezone, now) } }); }
+    catch (e) { console.log(`::warning::Could not mark ${s.id} as sent: ${e.message}`); }
+  }
 }
 
 main().catch(e => { console.error(`::error::${e.message}`); process.exit(1); });

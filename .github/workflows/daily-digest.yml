@@ -2,7 +2,7 @@ name: Morning email
 
 on:
   schedule:
-    - cron: "5 * * * *" # every hour; each subscriber gets it during 7am in their own time zone
+    - cron: "5,35 * * * *" # twice an hour; each subscriber gets it once, at 7am their time (or the next run before noon if GitHub was late)
   workflow_dispatch:
     inputs:
       dry_run:
