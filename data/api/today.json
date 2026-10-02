@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-02T16:01:08.690Z"
+  "updated": "2026-10-02T16:31:25.977Z"
  },
  "pulse": {
   "trending": 90,
   "accelerating": 1,
   "newModels": 8,
-  "discussions": 39,
-  "stars": 6423
+  "discussions": 43,
+  "stars": 6376
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
    "meta": [
-    "★ 4,926",
-    "~1,338 in 24h",
+    "★ 4,937",
+    "~1,333 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-09-28T23:40:05Z",
@@ -41,13 +41,29 @@
    "grow": null,
    "desc": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
    "meta": [
-    "★ 2,431",
-    "~899 in 24h",
+    "★ 2,434",
+    "~893 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-09-29T23:06:00Z",
    "breakout": null,
    "url": "https://github.com/feder-cr/dots"
+  },
+  {
+   "name": "clef",
+   "owner": "Cloudflare",
+   "src": "hf",
+   "cat": "Coding",
+   "score": 95,
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 652",
+   "meta": [
+    "824 downloads",
+    "Released 2 days ago"
+   ],
+   "at": "2026-09-30T21:15:35.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/Cloudflare/clef"
   },
   {
    "name": "universal-modder",
@@ -58,29 +74,13 @@
    "grow": null,
    "desc": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
    "meta": [
-    "★ 1,897",
-    "~772 in 24h",
+    "★ 1,913",
+    "~771 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-09-30T05:00:35Z",
    "breakout": null,
    "url": "https://github.com/rehan-remade/universal-modder"
-  },
-  {
-   "name": "clef",
-   "owner": "Cloudflare",
-   "src": "hf",
-   "cat": "Coding",
-   "score": 93,
-   "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 642",
-   "meta": [
-    "824 downloads",
-    "Released 2 days ago"
-   ],
-   "at": "2026-09-30T21:15:35.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/Cloudflare/clef"
   },
   {
    "name": "yomiyasu",
@@ -91,8 +91,8 @@
    "grow": null,
    "desc": "AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese",
    "meta": [
-    "★ 1,161",
-    "~534 in 24h",
+    "★ 1,163",
+    "~530 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-09-30T11:49:32Z",
@@ -108,7 +108,7 @@
    "grow": null,
    "desc": "A tiny friend that lives in your notch (macOS) or at the top of your screen (Windows, Linux) and keeps an eye on your coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more.",
    "meta": [
-    "★ 2,827",
+    "★ 2,842",
     "~595 in 24h",
     "Created 5 days ago"
    ],
@@ -133,20 +133,20 @@
    "url": "https://huggingface.co/convaiinnovations/laya"
   },
   {
-   "name": "TeleOCR",
-   "owner": "XingChen-AGI",
+   "name": "Qwen-Image-2.1-Uncensored-GGUF",
+   "owner": "abenzerps",
    "src": "hf",
    "cat": "Infrastructure",
    "score": 89,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 1.3K",
+   "desc": "Model on Hugging Face · open weights · ♥ 2.8K",
    "meta": [
-    "33K downloads",
-    "Released 49 days ago"
+    "1.4M downloads",
+    "Released 12 days ago"
    ],
-   "at": "2026-08-14T06:15:03.000Z",
+   "at": "2026-09-20T15:51:13.000Z",
    "breakout": null,
-   "url": "https://huggingface.co/XingChen-AGI/TeleOCR"
+   "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF"
   },
   {
    "name": "OpenDots",
@@ -157,8 +157,8 @@
    "grow": null,
    "desc": "Your always-on AI coworkers that move between text, calls, and Slack.",
    "meta": [
-    "★ 1,143",
-    "~388 in 24h",
+    "★ 1,173",
+    "~395 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-09-29T17:13:58Z",
@@ -166,27 +166,27 @@
    "url": "https://github.com/CopilotKit/OpenDots"
   },
   {
-   "name": "Qwen-Image-2.1-Uncensored-GGUF",
-   "owner": "abenzerps",
+   "name": "CLM-v0.1-8B",
+   "owner": "Contrastive-LM",
    "src": "hf",
-   "cat": "Infrastructure",
-   "score": 88,
+   "cat": "Agents",
+   "score": 86,
    "grow": null,
-   "desc": "Model on Hugging Face · open weights · ♥ 2.8K",
+   "desc": "Model on Hugging Face · open source · ♥ 640",
    "meta": [
-    "1.4M downloads",
-    "Released 12 days ago"
+    "3K downloads",
+    "Released 11 days ago"
    ],
-   "at": "2026-09-20T15:51:13.000Z",
+   "at": "2026-09-21T20:09:04.000Z",
    "breakout": null,
-   "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF"
+   "url": "https://huggingface.co/Contrastive-LM/CLM-v0.1-8B"
   }
  ],
  "breakouts": [
   {
    "key": "gemini 4",
    "label": "Gemini 4",
-   "n": 3,
+   "n": 4,
    "sources": [
     {
      "src": "DEV",
@@ -202,6 +202,11 @@
      "src": "Google DeepMind blog",
      "t": "Gemini 4 Argon: our next era of frontier intelligence",
      "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/"
+    },
+    {
+     "src": "Thurrott.com",
+     "t": "Google Makes New Gemini 4 Argon Available for Cybersecurity Experts",
+     "url": "https://www.thurrott.com/a-i/342295/google-makes-new-gemini-4-argon-available-for-cybersecurity-experts"
     }
    ],
    "since": "2026-10-01T18:14:41.538Z"
@@ -209,8 +214,13 @@
   {
    "key": "gpt 6",
    "label": "GPT-6",
-   "n": 3,
+   "n": 4,
    "sources": [
+    {
+     "src": "OpenAI blog",
+     "t": "A model guide for the GPT-6 family",
+     "url": "https://openai.com/index/practical-guide-building-gpt-6"
+    },
     {
      "src": "NVIDIA blog",
      "t": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
@@ -253,17 +263,44 @@
      "src": "Google DeepMind blog",
      "t": "Gemini 4 Argon: our next era of frontier intelligence",
      "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/"
+    },
+    {
+     "src": "Thurrott.com",
+     "t": "Google Makes New Gemini 4 Argon Available for Cybersecurity Experts",
+     "url": "https://www.thurrott.com/a-i/342295/google-makes-new-gemini-4-argon-available-for-cybersecurity-experts"
     }
    ],
-   "buzz": 3,
+   "buzz": 4,
+   "verdict": "Talk only, no public usage numbers"
+  },
+  {
+   "name": "GPT-6",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "OpenAI blog",
+     "t": "A model guide for the GPT-6 family",
+     "url": "https://openai.com/index/practical-guide-building-gpt-6"
+    },
+    {
+     "src": "NVIDIA blog",
+     "t": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
+     "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/"
+    }
+   ],
+   "buzz": 2,
    "verdict": "Talk only, no public usage numbers"
   },
   {
    "name": "AIHOT",
    "url": "https://github.com/KKKKhazix/AIHOT",
    "from": "GitHub",
-   "use": 1338,
-   "useLabel": "~1,338 stars/day",
+   "use": 1333,
+   "useLabel": "~1,333 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -347,44 +384,44 @@
  "github": [
   {
    "repo": "KKKKhazix/AIHOT",
-   "stars": 4926,
-   "d24": 1338,
+   "stars": 4937,
+   "d24": 1333,
    "est": true,
-   "forks": 1342,
+   "forks": 1345,
    "contrib": 10,
    "score": 95
   },
   {
    "repo": "feder-cr/dots",
-   "stars": 2431,
-   "d24": 899,
+   "stars": 2434,
+   "d24": 893,
    "est": true,
-   "forks": 421,
+   "forks": 422,
    "contrib": null,
    "score": 95
   },
   {
    "repo": "rehan-remade/universal-modder",
-   "stars": 1897,
-   "d24": 772,
+   "stars": 1913,
+   "d24": 771,
    "est": true,
-   "forks": 138,
+   "forks": 140,
    "contrib": null,
    "score": 94
   },
   {
    "repo": "Louis-CFM/coucou",
-   "stars": 2827,
+   "stars": 2842,
    "d24": 595,
    "est": true,
-   "forks": 429,
+   "forks": 431,
    "contrib": 6,
    "score": 90
   },
   {
    "repo": "edenfunf/reelmimic",
    "stars": 949,
-   "d24": 582,
+   "d24": 545,
    "est": false,
    "forks": 122,
    "contrib": null,
@@ -392,8 +429,8 @@
   },
   {
    "repo": "nanaism/yomiyasu",
-   "stars": 1161,
-   "d24": 534,
+   "stars": 1163,
+   "d24": 530,
    "est": true,
    "forks": 26,
    "contrib": null,
@@ -401,19 +438,19 @@
   },
   {
    "repo": "CopilotKit/OpenDots",
-   "stars": 1143,
-   "d24": 388,
+   "stars": 1173,
+   "d24": 395,
    "est": true,
-   "forks": 136,
+   "forks": 139,
    "contrib": null,
    "score": 88
   },
   {
    "repo": "dzhng/jevgrep",
-   "stars": 2050,
-   "d24": 316,
+   "stars": 2051,
+   "d24": 315,
    "est": true,
-   "forks": 133,
+   "forks": 132,
    "contrib": null,
    "score": 83
   }
@@ -426,9 +463,9 @@
    "at": "2026-09-30T21:15:35.000Z",
    "dl": 824,
    "grow": null,
-   "score": 93,
+   "score": 95,
    "cat": "Coding",
-   "likes": 642
+   "likes": 652
   },
   {
    "name": "laya",
@@ -439,18 +476,7 @@
    "grow": null,
    "score": 90,
    "cat": "Tools",
-   "likes": 4926
-  },
-  {
-   "name": "TeleOCR",
-   "org": "XingChen-AGI",
-   "lic": "Open source",
-   "at": "2026-08-14T06:15:03.000Z",
-   "dl": 32675,
-   "grow": null,
-   "score": 89,
-   "cat": "Infrastructure",
-   "likes": 1261
+   "likes": 4927
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -459,9 +485,9 @@
    "at": "2026-09-20T15:51:13.000Z",
    "dl": 1376248,
    "grow": null,
-   "score": 88,
+   "score": 89,
    "cat": "Infrastructure",
-   "likes": 2786
+   "likes": 2789
   },
   {
    "name": "CLM-v0.1-8B",
@@ -471,9 +497,9 @@
    "at": "2026-09-21T20:09:04.000Z",
    "dl": 2951,
    "grow": null,
-   "score": 85,
+   "score": 86,
    "cat": "Agents",
-   "likes": 638
+   "likes": 640
   },
   {
    "name": "Qwen-Image-2.1",
@@ -482,9 +508,20 @@
    "at": "2026-09-14T03:47:26.000Z",
    "dl": 81738,
    "grow": null,
+   "score": 85,
+   "cat": "Vision",
+   "likes": 2818
+  },
+  {
+   "name": "VisionHOPE",
+   "org": "PSRben",
+   "lic": "Open source",
+   "at": "2026-09-29T07:28:16.000Z",
+   "dl": 1279,
+   "grow": null,
    "score": 84,
    "cat": "Vision",
-   "likes": 2817
+   "likes": 364
   }
  ],
  "free": [
@@ -578,6 +615,14 @@
   },
   {
    "name": "fledge-alpha",
+   "prov": "OpenCode Zen",
+   "ctx": null,
+   "url": null,
+   "caps": [],
+   "added": true
+  },
+  {
+   "name": "ling-3.1-flash",
    "prov": "OpenCode Zen",
    "ctx": null,
    "url": null,
@@ -839,6 +884,13 @@
   "events": [
    {
     "type": "added",
+    "name": "ling-3.1-flash",
+    "prov": "OpenCode Zen",
+    "url": null,
+    "at": "2026-10-02T16:31:25.977Z"
+   },
+   {
+    "type": "added",
     "name": "Ling 3.1 Flash",
     "prov": "OpenRouter",
     "url": "https://openrouter.ai/inclusionai/ling-3.1-flash",
@@ -854,6 +906,13 @@
   ]
  },
  "headlines": [
+  {
+   "t": "A model guide for the GPT-6 family",
+   "url": "https://openai.com/index/practical-guide-building-gpt-6",
+   "at": "2026-10-02T16:15:00.000Z",
+   "src": "OpenAI",
+   "kind": "Lab blog"
+  },
   {
    "t": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
    "url": "https://huggingface.co/blog/allenai/astabrief",
@@ -932,38 +991,31 @@
    "kind": "News"
   },
   {
-   "t": "ArXiv limits preprint submissions to two per month per submitter, as AI access fuels a record 40,363 submissions in September 2026, vs. 20,569 in September 2024",
-   "url": "https://www.techmeme.com/261002/p1#a261002p1",
-   "at": "2026-10-02T04:55:00.000Z",
-   "src": "Techmeme",
+   "t": "Kelly Clarkson Loves AI, But Says AI Artists Shouldn't Be Human Music Charts",
+   "url": "https://www.hollywoodreporter.com/music/music-news/kelly-clarkson-ai-artists-shouldnt-be-music-charts-humans-1236720709/",
+   "at": "2026-10-02T04:22:28Z",
+   "src": "The Hollywood Reporter",
    "kind": "News"
   },
   {
-   "t": "AutoSynthData: Generating Training Data for Enterprise Agents",
-   "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
-   "at": "2026-10-02T04:01:31.000Z",
-   "src": "Hugging Face",
-   "kind": "Lab blog"
-  },
-  {
-   "t": "Samsung raises prices of most Galaxy S26 smartphones by US$100",
-   "url": "https://www.thestar.com.my/tech/tech-news/2026/10/02/samsung-raises-prices-of-most-galaxy-s26-smartphones-by-us100",
-   "at": "2026-10-02T04:00:00Z",
-   "src": "The Star",
+   "t": "Australia will get early access to AI models: Altman",
+   "url": "https://www.afr.com/technology/australia-will-get-early-access-to-ai-models-altman-20261002-p6127r",
+   "at": "2026-10-02T04:20:11Z",
+   "src": "Australian Financial Review",
    "kind": "News"
   },
   {
-   "t": "ChatGPT can now show how clothes look on you",
-   "url": "https://www.newsbytesapp.com/news/science/chatgpt-can-now-show-how-clothes-look-on-you/story",
-   "at": "2026-10-02T03:54:13Z",
-   "src": "NewsBytes",
+   "t": "OpenAI Has Sent Notices of Sketchy AI Behavior to Over 100 Organizations So Far",
+   "url": "https://gizmodo.com/openai-has-sent-notices-of-sketchy-ai-behavior-to-over-100-organizations-so-far-2000820702",
+   "at": "2026-10-02T04:17:11Z",
+   "src": "Gizmodo",
    "kind": "News"
   },
   {
-   "t": "Study: Gen Z is using AI, but skepticism grows",
-   "url": "https://www.europesays.com/3284374/",
-   "at": "2026-10-02T03:45:15Z",
-   "src": "EUROPE SAYS",
+   "t": "OpenAI confirms its AI agents are going rouge, over 100 organisations hacked",
+   "url": "https://www.indiatoday.in/technology/news/story/openai-confirms-its-ai-agents-are-going-rouge-over-100-organisations-hacked-3007853-2026-10-02",
+   "at": "2026-10-02T04:13:46Z",
+   "src": "India Today",
    "kind": "News"
   }
  ],
@@ -973,54 +1025,53 @@
    "t": "AI Makes Me Sad",
    "url": "https://news.ycombinator.com/item?id=49934487",
    "link": "https://mondobe.com/ai-makes-me-sad",
-   "up": 87,
-   "com": 72,
+   "up": 133,
+   "com": 137,
    "at": "2026-10-02T15:18:00.000Z"
   },
   {
-   "src": "Hacker News",
-   "t": "Don't be fooled–LLMs don't reason",
-   "url": "https://news.ycombinator.com/item?id=49933459",
-   "link": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/",
-   "up": 56,
-   "com": 98,
-   "at": "2026-10-02T13:45:42.000Z"
+   "src": "DEV",
+   "t": "I Gave 15 AI Models Proof Their Hacking Target Was a Real Company. 73% of the Ones That Noticed Told No One.",
+   "url": "https://dev.to/soumyadeepdey/i-gave-15-ai-models-proof-their-hacking-target-was-a-real-company-73-of-the-ones-that-noticed-1h81",
+   "up": 30,
+   "com": 0,
+   "at": "2026-10-02T15:34:23Z"
   },
   {
    "src": "Hacker News",
    "t": "Frog and Toad and the Increasingly Capable Machines",
    "url": "https://news.ycombinator.com/item?id=49927760",
    "link": "https://www.frogandtoad.ai/",
-   "up": 433,
-   "com": 93,
+   "up": 454,
+   "com": 99,
    "at": "2026-10-01T22:23:38.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Mozilla shutting down Solo AI website creator",
+   "url": "https://news.ycombinator.com/item?id=49934502",
+   "link": "https://support.soloist.ai/doc/solo-shutdown-faq",
+   "up": 26,
+   "com": 43,
+   "at": "2026-10-02T15:19:22.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Git 3.0's upcoming SHA-256 default will be a costly mistake",
    "url": "https://news.ycombinator.com/item?id=49924179",
    "link": "https://blog.gitbutler.com/git-3-sha-256",
-   "up": 499,
-   "com": 472,
+   "up": 507,
+   "com": 477,
    "at": "2026-10-01T16:57:03.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Show HN: Audionaut – an open-source cross-platform multitrack audio editor",
-   "url": "https://news.ycombinator.com/item?id=49931031",
-   "link": "https://github.com/kvoltmer/Audionaut",
-   "up": 93,
-   "com": 37,
-   "at": "2026-10-02T08:05:48.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Harvard particle physicist Matthew Schwartz drops 36 papers authored with Claude",
-   "url": "https://news.ycombinator.com/item?id=49932606",
-   "link": "https://www.reddit.com/r/Physics/comments/1wvin77/harvard_particle_physicist_matthew_schwartz_drops/",
-   "up": 44,
-   "com": 70,
-   "at": "2026-10-02T12:12:38.000Z"
+   "t": "Don't be fooled–LLMs don't reason",
+   "url": "https://news.ycombinator.com/item?id=49933459",
+   "link": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/",
+   "up": 57,
+   "com": 106,
+   "at": "2026-10-02T13:45:42.000Z"
   }
  ]
 }
