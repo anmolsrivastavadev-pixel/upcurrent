@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-02T21:30:47.124Z"
+  "updated": "2026-10-02T22:01:01.478Z"
  },
  "pulse": {
   "trending": 90,
-  "accelerating": 1,
+  "accelerating": 0,
   "newModels": 8,
-  "discussions": 49,
-  "stars": 3744
+  "discussions": 47,
+  "stars": 3667
  },
  "rising": [
   {
@@ -24,7 +24,7 @@
    "grow": 1,
    "desc": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
    "meta": [
-    "★ 2,452",
+    "★ 2,454",
     "+99 in 24h",
     "Created 3 days ago"
    ],
@@ -42,7 +42,7 @@
    "desc": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
    "meta": [
     "★ 4,956",
-    "+134 in 24h",
+    "+126 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-09-28T23:40:05Z",
@@ -55,11 +55,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 94,
-   "grow": 10,
+   "grow": 11,
    "desc": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
    "meta": [
-    "★ 2,037",
-    "+583 in 24h",
+    "★ 2,057",
+    "+606 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-09-30T05:00:35Z",
@@ -73,7 +73,7 @@
    "cat": "Coding",
    "score": 94,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 758",
+   "desc": "Model on Hugging Face · open source · ♥ 762",
    "meta": [
     "824 downloads",
     "Released 2 days ago"
@@ -91,8 +91,8 @@
    "grow": 2,
    "desc": "AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese",
    "meta": [
-    "★ 1,171",
-    "+83 in 24h",
+    "★ 1,173",
+    "+84 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-09-30T11:49:32Z",
@@ -124,8 +124,8 @@
    "grow": 6,
    "desc": "A tiny friend that lives in your notch (macOS) or at the top of your screen (Windows, Linux) and keeps an eye on your coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more.",
    "meta": [
-    "★ 2,935",
-    "+519 in 24h",
+    "★ 2,939",
+    "+498 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-09-27T21:54:12Z",
@@ -154,11 +154,11 @@
    "src": "gh",
    "cat": "Tools",
    "score": 88,
-   "grow": 55,
+   "grow": 56,
    "desc": "Your always-on AI coworkers that move between text, calls, and Slack.",
    "meta": [
-    "★ 1,380",
-    "+1,194 in 24h",
+    "★ 1,392",
+    "+1,163 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-09-29T17:13:58Z",
@@ -172,7 +172,7 @@
    "cat": "Agents",
    "score": 86,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 663",
+   "desc": "Model on Hugging Face · open source · ♥ 665",
    "meta": [
     "3K downloads",
     "Released 11 days ago"
@@ -210,29 +210,6 @@
     }
    ],
    "since": "2026-10-02T11:40:52.853Z"
-  },
-  {
-   "key": "gemini 4",
-   "label": "Gemini 4",
-   "n": 3,
-   "sources": [
-    {
-     "src": "Mastodon",
-     "t": "KI-Update kompakt: Gemini 4 Argon, Manus Cue, ChatGPT-Werbung, Reha-Kliniken Das „KI-Update“ liefert drei mal pro Woche eine Zusammenfassung der wichtigsten …",
-     "url": "https://social.heise.de/@heiseonline/117371449081711873"
-    },
-    {
-     "src": "Google DeepMind blog",
-     "t": "Gemini 4 Argon: our next era of frontier intelligence",
-     "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/"
-    },
-    {
-     "src": "YouTube",
-     "t": "Gemini 4 Argon: The New Frontier",
-     "url": "https://www.youtube.com/watch?v=OSbjezrUuP0"
-    }
-   ],
-   "since": "2026-10-01T18:14:41.538Z"
   }
  ],
  "hype": [
@@ -280,22 +257,17 @@
      "src": "Google DeepMind blog",
      "t": "Gemini 4 Argon: our next era of frontier intelligence",
      "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/"
-    },
-    {
-     "src": "YouTube",
-     "t": "Gemini 4 Argon: The New Frontier",
-     "url": "https://www.youtube.com/watch?v=OSbjezrUuP0"
     }
    ],
-   "buzz": 3,
+   "buzz": 2,
    "verdict": "Talk only, no public usage numbers"
   },
   {
    "name": "OpenDots",
    "url": "https://github.com/CopilotKit/OpenDots",
    "from": "GitHub",
-   "use": 1194,
-   "useLabel": "+1,194 stars/day",
+   "use": 1163,
+   "useLabel": "+1,163 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -379,17 +351,17 @@
  "github": [
   {
    "repo": "CopilotKit/OpenDots",
-   "stars": 1380,
-   "d24": 1194,
+   "stars": 1392,
+   "d24": 1163,
    "est": false,
-   "forks": 168,
+   "forks": 171,
    "contrib": null,
    "score": 88
   },
   {
    "repo": "rehan-remade/universal-modder",
-   "stars": 2037,
-   "d24": 583,
+   "stars": 2057,
+   "d24": 606,
    "est": false,
    "forks": 152,
    "contrib": null,
@@ -397,17 +369,17 @@
   },
   {
    "repo": "Louis-CFM/coucou",
-   "stars": 2935,
-   "d24": 519,
+   "stars": 2939,
+   "d24": 498,
    "est": false,
-   "forks": 442,
+   "forks": 446,
    "contrib": 6,
    "score": 89
   },
   {
    "repo": "edenfunf/reelmimic",
    "stars": 953,
-   "d24": 345,
+   "d24": 332,
    "est": false,
    "forks": 124,
    "contrib": null,
@@ -415,8 +387,8 @@
   },
   {
    "repo": "kaankiziltug/logo-design-skill",
-   "stars": 1508,
-   "d24": 234,
+   "stars": 1509,
+   "d24": 222,
    "est": false,
    "forks": 89,
    "contrib": null,
@@ -424,8 +396,8 @@
   },
   {
    "repo": "feitangyuan/onetake",
-   "stars": 1312,
-   "d24": 192,
+   "stars": 1313,
+   "d24": 183,
    "est": false,
    "forks": 82,
    "contrib": null,
@@ -433,8 +405,8 @@
   },
   {
    "repo": "yihui-dev/awesome-opus5-5-videos",
-   "stars": 1408,
-   "d24": 163,
+   "stars": 1409,
+   "d24": 156,
    "est": false,
    "forks": 147,
    "contrib": null,
@@ -443,7 +415,7 @@
   {
    "repo": "KKKKhazix/AIHOT",
    "stars": 4956,
-   "d24": 134,
+   "d24": 126,
    "est": false,
    "forks": 1352,
    "contrib": 10,
@@ -460,7 +432,7 @@
    "grow": 0,
    "score": 94,
    "cat": "Coding",
-   "likes": 758
+   "likes": 762
   },
   {
    "name": "laya",
@@ -471,7 +443,7 @@
    "grow": null,
    "score": 90,
    "cat": "Tools",
-   "likes": 4988
+   "likes": 4993
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -482,7 +454,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 2828
+   "likes": 2830
   },
   {
    "name": "CLM-v0.1-8B",
@@ -494,7 +466,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Agents",
-   "likes": 663
+   "likes": 665
   },
   {
    "name": "Qwen-Image-2.1",
@@ -505,7 +477,7 @@
    "grow": 0,
    "score": 85,
    "cat": "Vision",
-   "likes": 2831
+   "likes": 2832
   },
   {
    "name": "VisionHOPE",
@@ -993,17 +965,17 @@
    "kind": "News"
   },
   {
-   "t": "Mexico’s Export Boom Comes With Some AI Caveats: JP Spinetto",
-   "url": "https://news.bloombergtax.com/daily-tax-report/mexicos-export-boom-comes-with-some-ai-caveats-jp-spinetto",
-   "at": "2026-10-02T09:30:00Z",
-   "src": "Bloomberg Tax News",
+   "t": "OpenAI disclose another hack on government department in Australia",
+   "url": "https://www.theguardian.com/technology/2026/oct/02/openai-disclose-another-hack-on-government-department-in-australia",
+   "at": "2026-10-02T10:00:05Z",
+   "src": "The Guardian",
    "kind": "News"
   },
   {
-   "t": "Another NSW government website has been hacked by an OpenAI agent",
-   "url": "https://www.sbs.com.au/news/article/nsw-government-website-application-accessed-by-openai-agent/ifi8qb447",
-   "at": "2026-10-02T09:28:02Z",
-   "src": "SBS Australia",
+   "t": "OpenAI Terminates 3 Researchers Over Alleged Policy Violations",
+   "url": "https://www.marketscreener.com/news/openai-terminates-3-researchers-over-alleged-policy-violations-ce785ddadf80f320",
+   "at": "2026-10-02T09:39:23Z",
+   "src": "MarketScreener",
    "kind": "News"
   }
  ],
@@ -1014,33 +986,15 @@
    "url": "https://news.ycombinator.com/item?id=49934487",
    "link": "https://mondobe.com/ai-makes-me-sad",
    "up": 175,
-   "com": 204,
+   "com": 208,
    "at": "2026-10-02T15:18:00.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Crypto Capture of Foreign Aid",
-   "url": "https://news.ycombinator.com/item?id=49936725",
-   "link": "https://www.nber.org/papers/w35655",
-   "up": 83,
-   "com": 25,
-   "at": "2026-10-02T18:14:29.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Show HN: Made an open-source Lego AI generator",
-   "url": "https://news.ycombinator.com/item?id=49937916",
-   "link": "https://github.com/anteloc/ldraw-nova",
-   "up": 36,
-   "com": 19,
-   "at": "2026-10-02T20:00:15.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Frog and Toad and the Increasingly Capable Machines",
    "url": "https://news.ycombinator.com/item?id=49927760",
    "link": "https://www.frogandtoad.ai/",
-   "up": 531,
+   "up": 532,
    "com": 120,
    "at": "2026-10-01T22:23:38.000Z"
   },
@@ -1049,17 +1003,35 @@
    "t": "From the creator of Redis; run LLM locally with ds4",
    "url": "https://news.ycombinator.com/item?id=49936575",
    "link": "https://dwarfstar.sh/",
-   "up": 73,
-   "com": 6,
+   "up": 89,
+   "com": 16,
    "at": "2026-10-02T18:01:16.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Crypto Capture of Foreign Aid",
+   "url": "https://news.ycombinator.com/item?id=49936725",
+   "link": "https://www.nber.org/papers/w35655",
+   "up": 83,
+   "com": 28,
+   "at": "2026-10-02T18:14:29.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Show HN: Made an open-source Lego AI generator",
+   "url": "https://news.ycombinator.com/item?id=49937916",
+   "link": "https://github.com/anteloc/ldraw-nova",
+   "up": 42,
+   "com": 26,
+   "at": "2026-10-02T20:00:15.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Muse Gadgets",
    "url": "https://news.ycombinator.com/item?id=49937504",
    "link": "https://gadgets.muse.ai",
-   "up": 36,
-   "com": 28,
+   "up": 51,
+   "com": 34,
    "at": "2026-10-02T19:26:54.000Z"
   }
  ]
