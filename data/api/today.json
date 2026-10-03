@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-03T10:00:58.077Z"
+  "updated": "2026-10-03T10:31:07.045Z"
  },
  "pulse": {
-  "trending": 87,
+  "trending": 86,
   "accelerating": 3,
   "newModels": 8,
   "discussions": 48,
-  "stars": 2341
+  "stars": 4612
  },
  "rising": [
   {
@@ -22,7 +22,7 @@
    "cat": "Coding",
    "score": 95,
    "grow": 218,
-   "desc": "Model on Hugging Face · open source · ♥ 866",
+   "desc": "Model on Hugging Face · open source · ♥ 873",
    "meta": [
     "2.6K downloads",
     "Released 3 days ago"
@@ -37,11 +37,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 94,
-   "grow": 3,
+   "grow": null,
    "desc": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
    "meta": [
-    "★ 5,050",
-    "+163 in 24h",
+    "★ 5,055",
+    "~1,135 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-09-28T23:40:05Z",
@@ -54,11 +54,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 94,
-   "grow": 6,
+   "grow": null,
    "desc": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
    "meta": [
-    "★ 2,564",
-    "+172 in 24h",
+    "★ 2,566",
+    "~738 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-09-29T23:06:00Z",
@@ -70,12 +70,12 @@
    "owner": "rehan-remade",
    "src": "gh",
    "cat": "Agents",
-   "score": 94,
-   "grow": 25,
+   "score": 93,
+   "grow": null,
    "desc": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
    "meta": [
-    "★ 2,315",
-    "+552 in 24h",
+    "★ 2,329",
+    "~721 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-09-30T05:00:35Z",
@@ -91,8 +91,8 @@
    "grow": null,
    "desc": "Your always-on AI coworkers that move between text, calls, and Slack.",
    "meta": [
-    "★ 1,796",
-    "~485 in 24h",
+    "★ 1,812",
+    "~487 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-09-29T17:13:58Z",
@@ -121,11 +121,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 89,
-   "grow": 12,
+   "grow": null,
    "desc": "A tiny friend that lives in your notch (macOS) or at the top of your screen (Windows, Linux) and keeps an eye on your coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more.",
    "meta": [
-    "★ 3,097",
-    "+389 in 24h",
+    "★ 3,104",
+    "~562 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-09-27T21:54:12Z",
@@ -138,11 +138,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 88,
-   "grow": 8,
+   "grow": null,
    "desc": "AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese",
    "meta": [
-    "★ 1,237",
-    "+110 in 24h",
+    "★ 1,242",
+    "~422 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-09-30T11:49:32Z",
@@ -155,7 +155,7 @@
    "src": "hf",
    "cat": "Infrastructure",
    "score": 88,
-   "grow": 6,
+   "grow": null,
    "desc": "Model on Hugging Face · open weights · ♥ 2.9K",
    "meta": [
     "1.5M downloads",
@@ -172,7 +172,7 @@
    "cat": "Coding",
    "score": 88,
    "grow": 231,
-   "desc": "Model on Hugging Face · open source · ♥ 295",
+   "desc": "Model on Hugging Face · open source · ♥ 296",
    "meta": [
     "4.3K downloads",
     "Released 3 days ago"
@@ -186,17 +186,12 @@
   {
    "key": "gpt 6",
    "label": "GPT-6",
-   "n": 5,
+   "n": 4,
    "sources": [
     {
      "src": "Hacker News",
      "t": "GPT-6 Astra plays World of Warcraft for the first time with agent-wow",
      "url": "https://news.ycombinator.com/item?id=49933251"
-    },
-    {
-     "src": "DEV",
-     "t": "Opus 5.5 pricing vs GPT-6 Sol: which is cheaper per task?",
-     "url": "https://dev.to/axrisi/opus-55-pricing-vs-gpt-6-sol-which-is-cheaper-per-task-fn2"
     },
     {
      "src": "OpenAI blog",
@@ -219,7 +214,7 @@
   {
    "key": "gemini 4",
    "label": "Gemini 4",
-   "n": 3,
+   "n": 4,
    "sources": [
     {
      "src": "Mastodon",
@@ -232,6 +227,11 @@
      "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/"
     },
     {
+     "src": "Natural News",
+     "t": "Google’s Gemini 4 “Argon” Faces Internal Doubts Over Real",
+     "url": "https://www.naturalnews.com/2026-10-02-google-gemini-argon-faces-internal-doubts.html"
+    },
+    {
      "src": "YouTube",
      "t": "AI News: Dots, GPT-6.1 Sol, Sonnet 5.5, Gemini 4, and everything you need to know",
      "url": "https://www.youtube.com/watch?v=dDgncbBAA0c"
@@ -241,38 +241,6 @@
   }
  ],
  "hype": [
-  {
-   "name": "GPT-6",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
-    {
-     "src": "Hacker News",
-     "t": "GPT-6 Astra plays World of Warcraft for the first time with agent-wow",
-     "url": "https://news.ycombinator.com/item?id=49933251"
-    },
-    {
-     "src": "DEV",
-     "t": "Opus 5.5 pricing vs GPT-6 Sol: which is cheaper per task?",
-     "url": "https://dev.to/axrisi/opus-55-pricing-vs-gpt-6-sol-which-is-cheaper-per-task-fn2"
-    },
-    {
-     "src": "OpenAI blog",
-     "t": "A model guide for the GPT-6 family",
-     "url": "https://openai.com/index/practical-guide-building-gpt-6"
-    },
-    {
-     "src": "NVIDIA blog",
-     "t": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
-     "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/"
-    }
-   ],
-   "buzz": 4,
-   "verdict": "Talk only, no public usage numbers"
-  },
   {
    "name": "Gemini 4",
    "url": null,
@@ -292,20 +260,52 @@
      "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/"
     },
     {
+     "src": "Natural News",
+     "t": "Google’s Gemini 4 “Argon” Faces Internal Doubts Over Real",
+     "url": "https://www.naturalnews.com/2026-10-02-google-gemini-argon-faces-internal-doubts.html"
+    },
+    {
      "src": "YouTube",
      "t": "AI News: Dots, GPT-6.1 Sol, Sonnet 5.5, Gemini 4, and everything you need to know",
      "url": "https://www.youtube.com/watch?v=dDgncbBAA0c"
+    }
+   ],
+   "buzz": 4,
+   "verdict": "Talk only, no public usage numbers"
+  },
+  {
+   "name": "GPT-6",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "Hacker News",
+     "t": "GPT-6 Astra plays World of Warcraft for the first time with agent-wow",
+     "url": "https://news.ycombinator.com/item?id=49933251"
+    },
+    {
+     "src": "OpenAI blog",
+     "t": "A model guide for the GPT-6 family",
+     "url": "https://openai.com/index/practical-guide-building-gpt-6"
+    },
+    {
+     "src": "NVIDIA blog",
+     "t": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
+     "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/"
     }
    ],
    "buzz": 3,
    "verdict": "Talk only, no public usage numbers"
   },
   {
-   "name": "universal-modder",
-   "url": "https://github.com/rehan-remade/universal-modder",
+   "name": "AIHOT",
+   "url": "https://github.com/KKKKhazix/AIHOT",
    "from": "GitHub",
-   "use": 552,
-   "useLabel": "+552 stars/day",
+   "use": 1135,
+   "useLabel": "~1,135 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -418,76 +418,76 @@
  ],
  "github": [
   {
-   "repo": "rehan-remade/universal-modder",
-   "stars": 2315,
-   "d24": 552,
-   "est": false,
-   "forks": 179,
-   "contrib": null,
-   "score": 94
-  },
-  {
-   "repo": "CopilotKit/OpenDots",
-   "stars": 1796,
-   "d24": 485,
-   "est": true,
-   "forks": 224,
-   "contrib": null,
-   "score": 90
-  },
-  {
-   "repo": "Louis-CFM/coucou",
-   "stars": 3097,
-   "d24": 389,
-   "est": false,
-   "forks": 479,
-   "contrib": 6,
-   "score": 89
-  },
-  {
-   "repo": "edenfunf/reelmimic",
-   "stars": 1002,
-   "d24": 217,
-   "est": true,
-   "forks": 131,
-   "contrib": null,
-   "score": 83
-  },
-  {
-   "repo": "feder-cr/dots",
-   "stars": 2564,
-   "d24": 172,
-   "est": false,
-   "forks": 435,
-   "contrib": null,
-   "score": 94
-  },
-  {
    "repo": "KKKKhazix/AIHOT",
-   "stars": 5050,
-   "d24": 163,
-   "est": false,
+   "stars": 5055,
+   "d24": 1135,
+   "est": true,
    "forks": 1376,
    "contrib": 10,
    "score": 94
   },
   {
+   "repo": "feder-cr/dots",
+   "stars": 2566,
+   "d24": 738,
+   "est": true,
+   "forks": 435,
+   "contrib": null,
+   "score": 94
+  },
+  {
+   "repo": "rehan-remade/universal-modder",
+   "stars": 2329,
+   "d24": 721,
+   "est": true,
+   "forks": 180,
+   "contrib": null,
+   "score": 93
+  },
+  {
+   "repo": "Louis-CFM/coucou",
+   "stars": 3104,
+   "d24": 562,
+   "est": true,
+   "forks": 480,
+   "contrib": 6,
+   "score": 89
+  },
+  {
+   "repo": "CopilotKit/OpenDots",
+   "stars": 1812,
+   "d24": 487,
+   "est": true,
+   "forks": 225,
+   "contrib": null,
+   "score": 90
+  },
+  {
+   "repo": "nanaism/yomiyasu",
+   "stars": 1242,
+   "d24": 422,
+   "est": true,
+   "forks": 28,
+   "contrib": null,
+   "score": 88
+  },
+  {
    "repo": "yihui-dev/awesome-opus5-5-videos",
-   "stars": 1490,
-   "d24": 160,
-   "est": false,
+   "stars": 1492,
+   "d24": 242,
+   "est": true,
    "forks": 156,
    "contrib": null,
    "score": 83
   },
   {
-   "repo": "nanaism/yomiyasu",
-   "stars": 1237,
-   "d24": 110,
-   "est": false,
-   "forks": 28,
+   "repo": "echris6/motion-video-kit",
+   "stars": 966,
+   "d24": 165,
+   "est": true,
+   "forks": 83,
    "contrib": null,
-   "score": 88
+   "score": 76
   }
  ],
  "models": [
@@ -500,7 +500,7 @@
    "grow": 218,
    "score": 95,
    "cat": "Coding",
-   "likes": 866
+   "likes": 873
   },
   {
    "name": "laya",
@@ -519,10 +519,10 @@
    "lic": "Open weights",
    "at": "2026-09-20T15:51:13.000Z",
    "dl": 1455921,
-   "grow": 6,
+   "grow": null,
    "score": 88,
    "cat": "Infrastructure",
-   "likes": 2865
+   "likes": 2867
   },
   {
    "name": "clef-flash",
@@ -533,7 +533,7 @@
    "grow": 231,
    "score": 88,
    "cat": "Coding",
-   "likes": 295
+   "likes": 296
   },
   {
    "name": "CLM-v0.1-8B",
@@ -542,7 +542,7 @@
    "lic": "Open source",
    "at": "2026-09-21T20:09:04.000Z",
    "dl": 3190,
-   "grow": 8,
+   "grow": null,
    "score": 86,
    "cat": "Agents",
    "likes": 676
@@ -553,7 +553,7 @@
    "lic": "Open weights",
    "at": "2026-09-14T03:47:26.000Z",
    "dl": 85895,
-   "grow": 5,
+   "grow": null,
    "score": 85,
    "cat": "Vision",
    "likes": 2857
@@ -1012,38 +1012,38 @@
    "kind": "News"
   },
   {
-   "t": "Indian Ambassador to Kazakhstan calls for ‘connectivity in its true sense’, urges shift from AI talks to joint projects",
-   "url": "https://www.tribuneindia.com/news/world/indian-ambassador-to-kazakhstan-calls-for-connectivity-in-its-true-sense-urges-shift-from-ai-talks-to-joint-projects/",
-   "at": "2026-10-02T21:57:27Z",
-   "src": "The Tribune",
+   "t": "Apple (AAPL) Launches New Safeguards Against AI Agents",
+   "url": "https://markets.businessinsider.com/news/stocks/apple-aapl-launches-new-safeguards-against-ai-agents-1036595112",
+   "at": "2026-10-02T22:31:04Z",
+   "src": "Markets Insider",
    "kind": "News"
   },
   {
-   "t": "ED onto Betting Apps Moving ‘AI’ Funds",
-   "url": "https://economictimes.indiatimes.com/satet-front/ed-onto-betting-apps-moving-ai-funds/articleshow/134646823.cms",
-   "at": "2026-10-02T21:38:00Z",
-   "src": "The Economic Times",
+   "t": "Google’s Gemini 4 “Argon” Faces Internal Doubts Over Real",
+   "url": "https://www.naturalnews.com/2026-10-02-google-gemini-argon-faces-internal-doubts.html",
+   "at": "2026-10-02T22:23:07Z",
+   "src": "Natural News",
    "kind": "News"
   },
   {
-   "t": "California Subpoenas OpenAI Over AI Models That Hacked Their Way Out of a Test",
-   "url": "https://decrypt.co/379998/california-subpoena-openai-ai-models-hack",
-   "at": "2026-10-02T21:16:04Z",
-   "src": "Decrypt",
+   "t": "IPOs in Play as AI, Private Capital Reinvent Accounting Sector",
+   "url": "https://news.bloombergtax.com/daily-tax-report/ipos-in-play-as-ai-private-capital-reinvent-accounting-sector",
+   "at": "2026-10-02T22:11:29Z",
+   "src": "Bloomberg Tax News",
    "kind": "News"
   },
   {
-   "t": "FBI Director Kash Patel says agency fully overhauled AI capabilities",
-   "url": "https://www.foxnews.com/us/fbi-overhauls-tech-backbone-counter-ai-threats-foreign-adversaries-reduce-response-times-patel-says",
-   "at": "2026-10-02T21:08:31Z",
-   "src": "Fox News",
+   "t": "Anthropic vs. the pope",
+   "url": "https://www.vox.com/today-explained-newsletter/504966/anthropic-claude-consciousness-pope-leo",
+   "at": "2026-10-02T22:10:00Z",
+   "src": "Vox.com",
    "kind": "News"
   },
   {
-   "t": "How the Smithsonian is using AI to connect artifacts from the American Revolution",
-   "url": "https://www.breitbart.com/news/how-the-smithsonian-is-using-ai-to-connect-artifacts-from-the-american-revolution/",
-   "at": "2026-10-02T21:04:30Z",
-   "src": "Breitbart News Network",
+   "t": "'We can't trust them completely': AI research fellows warn that labs are running models with the safeguards off behind closed doors",
+   "url": "https://fortune.com/2026/10/02/we-cant-trust-them-completely-labs-safeguards/",
+   "at": "2026-10-02T22:05:44Z",
+   "src": "Fortune",
    "kind": "News"
   }
  ],
@@ -1053,8 +1053,8 @@
    "t": "U.S. may have overthrown Venezuela due to chat with Grok",
    "url": "https://news.ycombinator.com/item?id=49942437",
    "link": "https://www.thedailybeast.com/jaw-dropping-way-trump-80-got-talked-into-a-war-is-leaked/",
-   "up": 30,
-   "com": 6,
+   "up": 32,
+   "com": 7,
    "at": "2026-10-03T08:40:38.000Z"
   },
   {
@@ -1062,8 +1062,8 @@
    "t": "From the creator of Redis; run LLM locally with ds4",
    "url": "https://news.ycombinator.com/item?id=49936575",
    "link": "https://dwarfstar.sh/",
-   "up": 241,
-   "com": 64,
+   "up": 246,
+   "com": 67,
    "at": "2026-10-02T18:01:16.000Z"
   },
   {
@@ -1071,8 +1071,8 @@
    "t": "Muse Gadgets",
    "url": "https://news.ycombinator.com/item?id=49937504",
    "link": "https://gadgets.muse.ai",
-   "up": 195,
-   "com": 85,
+   "up": 198,
+   "com": 87,
    "at": "2026-10-02T19:26:54.000Z"
   },
   {
@@ -1080,7 +1080,7 @@
    "t": "Cloudflare OHTTP gateway",
    "url": "https://news.ycombinator.com/item?id=49941091",
    "link": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/",
-   "up": 75,
+   "up": 82,
    "com": 22,
    "at": "2026-10-03T03:15:05.000Z"
   },
@@ -1089,7 +1089,7 @@
    "t": "With most information hidden, the game Stratego had stumped AI until now",
    "url": "https://news.ycombinator.com/item?id=49933740",
    "link": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
-   "up": 216,
+   "up": 218,
    "com": 109,
    "at": "2026-10-02T14:11:24.000Z"
   },
