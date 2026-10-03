@@ -5,16 +5,32 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-03T00:00:57.695Z"
+  "updated": "2026-10-03T00:30:46.606Z"
  },
  "pulse": {
-  "trending": 90,
+  "trending": 89,
   "accelerating": 0,
   "newModels": 8,
-  "discussions": 44,
-  "stars": 3499
+  "discussions": 45,
+  "stars": 3461
  },
  "rising": [
+  {
+   "name": "clef",
+   "owner": "Cloudflare",
+   "src": "hf",
+   "cat": "Coding",
+   "score": 96,
+   "grow": 0,
+   "desc": "Model on Hugging Face · open source · ♥ 775",
+   "meta": [
+    "824 downloads",
+    "Released 2 days ago"
+   ],
+   "at": "2026-09-30T21:15:35.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/Cloudflare/clef"
+  },
   {
    "name": "AIHOT",
    "owner": "KKKKhazix",
@@ -25,7 +41,7 @@
    "desc": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
    "meta": [
     "★ 4,959",
-    "+108 in 24h",
+    "+103 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-09-28T23:40:05Z",
@@ -41,8 +57,8 @@
    "grow": 2,
    "desc": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
    "meta": [
-    "★ 2,472",
-    "+122 in 24h",
+    "★ 2,478",
+    "+130 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-09-29T23:06:00Z",
@@ -55,32 +71,16 @@
    "src": "gh",
    "cat": "Agents",
    "score": 94,
-   "grow": 14,
+   "grow": 15,
    "desc": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
    "meta": [
-    "★ 2,119",
-    "+634 in 24h",
+    "★ 2,129",
+    "+627 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-09-30T05:00:35Z",
    "breakout": null,
    "url": "https://github.com/rehan-remade/universal-modder"
-  },
-  {
-   "name": "clef",
-   "owner": "Cloudflare",
-   "src": "hf",
-   "cat": "Coding",
-   "score": 94,
-   "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 769",
-   "meta": [
-    "824 downloads",
-    "Released 2 days ago"
-   ],
-   "at": "2026-09-30T21:15:35.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/Cloudflare/clef"
   },
   {
    "name": "yomiyasu",
@@ -91,8 +91,8 @@
    "grow": 3,
    "desc": "AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese",
    "meta": [
-    "★ 1,176",
-    "+74 in 24h",
+    "★ 1,179",
+    "+78 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-09-30T11:49:32Z",
@@ -124,8 +124,8 @@
    "grow": 7,
    "desc": "A tiny friend that lives in your notch (macOS) or at the top of your screen (Windows, Linux) and keeps an eye on your coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more.",
    "meta": [
-    "★ 2,967",
-    "+466 in 24h",
+    "★ 2,974",
+    "+460 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-09-27T21:54:12Z",
@@ -133,11 +133,28 @@
    "url": "https://github.com/Louis-CFM/coucou"
   },
   {
+   "name": "OpenDots",
+   "owner": "CopilotKit",
+   "src": "gh",
+   "cat": "Tools",
+   "score": 88,
+   "grow": 64,
+   "desc": "Your always-on AI coworkers that move between text, calls, and Slack.",
+   "meta": [
+    "★ 1,458",
+    "+1,061 in 24h",
+    "Created 3 days ago"
+   ],
+   "at": "2026-09-29T17:13:58Z",
+   "breakout": null,
+   "url": "https://github.com/CopilotKit/OpenDots"
+  },
+  {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
    "owner": "abenzerps",
    "src": "hf",
    "cat": "Infrastructure",
-   "score": 89,
+   "score": 87,
    "grow": 0,
    "desc": "Model on Hugging Face · open weights · ♥ 2.8K",
    "meta": [
@@ -149,30 +166,13 @@
    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF"
   },
   {
-   "name": "OpenDots",
-   "owner": "CopilotKit",
-   "src": "gh",
-   "cat": "Tools",
-   "score": 88,
-   "grow": 62,
-   "desc": "Your always-on AI coworkers that move between text, calls, and Slack.",
-   "meta": [
-    "★ 1,445",
-    "+1,078 in 24h",
-    "Created 3 days ago"
-   ],
-   "at": "2026-09-29T17:13:58Z",
-   "breakout": null,
-   "url": "https://github.com/CopilotKit/OpenDots"
-  },
-  {
    "name": "CLM-v0.1-8B",
    "owner": "Contrastive-LM",
    "src": "hf",
    "cat": "Agents",
    "score": 86,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 665",
+   "desc": "Model on Hugging Face · open source · ♥ 666",
    "meta": [
     "3K downloads",
     "Released 11 days ago"
@@ -186,7 +186,7 @@
   {
    "key": "gpt 6",
    "label": "GPT-6",
-   "n": 5,
+   "n": 4,
    "sources": [
     {
      "src": "Hacker News",
@@ -204,45 +204,12 @@
      "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/"
     },
     {
-     "src": "Nvidia.com",
-     "t": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
-     "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/"
-    },
-    {
      "src": "GitHub",
      "t": "zjwzcx/Awesome-Astra-Embodied-AI",
      "url": "https://github.com/zjwzcx/Awesome-Astra-Embodied-AI"
     }
    ],
    "since": "2026-10-02T11:40:52.853Z"
-  },
-  {
-   "key": "gemini 4",
-   "label": "Gemini 4",
-   "n": 4,
-   "sources": [
-    {
-     "src": "Mastodon",
-     "t": "KI-Update kompakt: Gemini 4 Argon, Manus Cue, ChatGPT-Werbung, Reha-Kliniken Das „KI-Update“ liefert drei mal pro Woche eine Zusammenfassung der wichtigsten …",
-     "url": "https://social.heise.de/@heiseonline/117371449081711873"
-    },
-    {
-     "src": "Google DeepMind blog",
-     "t": "Gemini 4 Argon: our next era of frontier intelligence",
-     "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/"
-    },
-    {
-     "src": "Biztoc.com",
-     "t": "Will Google Turn The Tables In AI Race? Wall Street Reacts To Gemini 4",
-     "url": "https://biztoc.com/x/ab709918c27c5b09"
-    },
-    {
-     "src": "YouTube",
-     "t": "Gemini 4 Argon: The New Frontier",
-     "url": "https://www.youtube.com/watch?v=OSbjezrUuP0"
-    }
-   ],
-   "since": "2026-10-01T18:14:41.538Z"
   }
  ],
  "hype": [
@@ -268,14 +235,9 @@
      "src": "NVIDIA blog",
      "t": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
      "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/"
-    },
-    {
-     "src": "Nvidia.com",
-     "t": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
-     "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/"
     }
    ],
-   "buzz": 4,
+   "buzz": 3,
    "verdict": "Talk only, no public usage numbers"
   },
   {
@@ -295,27 +257,17 @@
      "src": "Google DeepMind blog",
      "t": "Gemini 4 Argon: our next era of frontier intelligence",
      "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/"
-    },
-    {
-     "src": "Biztoc.com",
-     "t": "Will Google Turn The Tables In AI Race? Wall Street Reacts To Gemini 4",
-     "url": "https://biztoc.com/x/ab709918c27c5b09"
-    },
-    {
-     "src": "YouTube",
-     "t": "Gemini 4 Argon: The New Frontier",
-     "url": "https://www.youtube.com/watch?v=OSbjezrUuP0"
     }
    ],
-   "buzz": 4,
+   "buzz": 2,
    "verdict": "Talk only, no public usage numbers"
   },
   {
    "name": "OpenDots",
    "url": "https://github.com/CopilotKit/OpenDots",
    "from": "GitHub",
-   "use": 1078,
-   "useLabel": "+1,078 stars/day",
+   "use": 1061,
+   "useLabel": "+1,061 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -338,7 +290,7 @@
    "from": "Hugging Face",
    "use": 6237305,
    "useLabel": "6.2M downloads",
-   "usePct": 0.9722222222222222,
+   "usePct": 0.9714285714285714,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -399,17 +351,17 @@
  "github": [
   {
    "repo": "CopilotKit/OpenDots",
-   "stars": 1445,
-   "d24": 1078,
+   "stars": 1458,
+   "d24": 1061,
    "est": false,
-   "forks": 175,
+   "forks": 177,
    "contrib": null,
    "score": 88
   },
   {
    "repo": "rehan-remade/universal-modder",
-   "stars": 2119,
-   "d24": 634,
+   "stars": 2129,
+   "d24": 627,
    "est": false,
    "forks": 161,
    "contrib": null,
@@ -417,17 +369,17 @@
   },
   {
    "repo": "Louis-CFM/coucou",
-   "stars": 2967,
-   "d24": 466,
+   "stars": 2974,
+   "d24": 460,
    "est": false,
-   "forks": 452,
+   "forks": 453,
    "contrib": 6,
    "score": 89
   },
   {
    "repo": "edenfunf/reelmimic",
-   "stars": 957,
-   "d24": 296,
+   "stars": 959,
+   "d24": 289,
    "est": false,
    "forks": 125,
    "contrib": null,
@@ -435,8 +387,8 @@
   },
   {
    "repo": "kaankiziltug/logo-design-skill",
-   "stars": 1520,
-   "d24": 204,
+   "stars": 1525,
+   "d24": 206,
    "est": false,
    "forks": 90,
    "contrib": null,
@@ -444,8 +396,8 @@
   },
   {
    "repo": "feitangyuan/onetake",
-   "stars": 1326,
-   "d24": 178,
+   "stars": 1329,
+   "d24": 176,
    "est": false,
    "forks": 82,
    "contrib": null,
@@ -453,8 +405,8 @@
   },
   {
    "repo": "yihui-dev/awesome-opus5-5-videos",
-   "stars": 1419,
-   "d24": 149,
+   "stars": 1421,
+   "d24": 146,
    "est": false,
    "forks": 150,
    "contrib": null,
@@ -462,10 +414,10 @@
   },
   {
    "repo": "feder-cr/dots",
-   "stars": 2472,
-   "d24": 122,
+   "stars": 2478,
+   "d24": 130,
    "est": false,
-   "forks": 433,
+   "forks": 434,
    "contrib": null,
    "score": 94
   }
@@ -478,9 +430,9 @@
    "at": "2026-09-30T21:15:35.000Z",
    "dl": 824,
    "grow": 0,
-   "score": 94,
+   "score": 96,
    "cat": "Coding",
-   "likes": 769
+   "likes": 775
   },
   {
    "name": "laya",
@@ -491,7 +443,7 @@
    "grow": null,
    "score": 90,
    "cat": "Tools",
-   "likes": 5003
+   "likes": 5004
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -500,9 +452,9 @@
    "at": "2026-09-20T15:51:13.000Z",
    "dl": 1376248,
    "grow": 0,
-   "score": 89,
+   "score": 87,
    "cat": "Infrastructure",
-   "likes": 2839
+   "likes": 2840
   },
   {
    "name": "CLM-v0.1-8B",
@@ -514,7 +466,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Agents",
-   "likes": 665
+   "likes": 666
   },
   {
    "name": "Qwen-Image-2.1",
@@ -525,7 +477,7 @@
    "grow": 0,
    "score": 85,
    "cat": "Vision",
-   "likes": 2835
+   "likes": 2836
   },
   {
    "name": "VisionHOPE",
@@ -1013,17 +965,17 @@
    "kind": "Lab blog"
   },
   {
-   "t": "US equity funds post second weekly inflow as AI optimism tempers yield concerns",
-   "url": "https://www.marketscreener.com/news/us-equity-funds-post-second-weekly-inflow-as-ai-optimism-tempers-yield-concerns-ce785ddade8ef123",
-   "at": "2026-10-02T11:23:30Z",
-   "src": "MarketScreener",
+   "t": "OpenAI Parts Ways With Three Safety Researchers Over Sensitive Information Mishandling",
+   "url": "https://thehackernews.com/2026/10/openai-parts-ways-with-three-safety.html",
+   "at": "2026-10-02T12:23:00Z",
+   "src": "The Hacker News",
    "kind": "News"
   },
   {
-   "t": "AI groups are spending millions to influence the midterms",
-   "url": "https://www.inquirer.com/news/nation-world/artificial-intelligence-companies-midterm-spending-20261002.html",
-   "at": "2026-10-02T11:03:04Z",
-   "src": "The Philadelphia Inquirer",
+   "t": "Singapore Manufacturing Activity Expands as AI Demand Supports Growth",
+   "url": "https://www.marketscreener.com/news/singapore-manufacturing-activity-expands-as-ai-demand-supports-growth-ce785ddad18af023",
+   "at": "2026-10-02T12:15:55Z",
+   "src": "MarketScreener",
    "kind": "News"
   }
  ],
@@ -1033,8 +985,8 @@
    "t": "Muse Gadgets",
    "url": "https://news.ycombinator.com/item?id=49937504",
    "link": "https://gadgets.muse.ai",
-   "up": 101,
-   "com": 50,
+   "up": 109,
+   "com": 58,
    "at": "2026-10-02T19:26:54.000Z"
   },
   {
@@ -1042,8 +994,8 @@
    "t": "From the creator of Redis; run LLM locally with ds4",
    "url": "https://news.ycombinator.com/item?id=49936575",
    "link": "https://dwarfstar.sh/",
-   "up": 125,
-   "com": 35,
+   "up": 129,
+   "com": 36,
    "at": "2026-10-02T18:01:16.000Z"
   },
   {
@@ -1052,7 +1004,7 @@
    "url": "https://news.ycombinator.com/item?id=49934487",
    "link": "https://mondobe.com/ai-makes-me-sad",
    "up": 178,
-   "com": 213,
+   "com": 214,
    "at": "2026-10-02T15:18:00.000Z"
   },
   {
@@ -1060,9 +1012,18 @@
    "t": "With most information hidden, the game Stratego had stumped AI until now",
    "url": "https://news.ycombinator.com/item?id=49933740",
    "link": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
-   "up": 153,
-   "com": 74,
+   "up": 163,
+   "com": 79,
    "at": "2026-10-02T14:11:24.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Show HN: Made an open-source Lego AI generator",
+   "url": "https://news.ycombinator.com/item?id=49937916",
+   "link": "https://github.com/anteloc/ldraw-nova",
+   "up": 64,
+   "com": 37,
+   "at": "2026-10-02T20:00:15.000Z"
   },
   {
    "src": "Hacker News",
@@ -1070,17 +1031,8 @@
    "url": "https://news.ycombinator.com/item?id=49936725",
    "link": "https://www.nber.org/papers/w35655",
    "up": 85,
-   "com": 29,
+   "com": 30,
    "at": "2026-10-02T18:14:29.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Show HN: Made an open-source Lego AI generator",
-   "url": "https://news.ycombinator.com/item?id=49937916",
-   "link": "https://github.com/anteloc/ldraw-nova",
-   "up": 56,
-   "com": 35,
-   "at": "2026-10-02T20:00:15.000Z"
   }
  ]
 }
