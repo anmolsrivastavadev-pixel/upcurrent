@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-03T05:11:22.743Z"
+  "updated": "2026-10-03T05:30:53.402Z"
  },
  "pulse": {
   "trending": 88,
   "accelerating": 0,
   "newModels": 8,
-  "discussions": 50,
-  "stars": 3242
+  "discussions": 49,
+  "stars": 3220
  },
  "rising": [
   {
@@ -22,7 +22,7 @@
    "cat": "Coding",
    "score": 95,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 817",
+   "desc": "Model on Hugging Face · open source · ♥ 821",
    "meta": [
     "824 downloads",
     "Released 2 days ago"
@@ -40,7 +40,7 @@
    "grow": 2,
    "desc": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
    "meta": [
-    "★ 5,010",
+    "★ 5,012",
     "+152 in 24h",
     "Created 4 days ago"
    ],
@@ -57,8 +57,8 @@
    "grow": 5,
    "desc": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
    "meta": [
-    "★ 2,535",
-    "+180 in 24h",
+    "★ 2,538",
+    "+181 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-09-29T23:06:00Z",
@@ -74,8 +74,8 @@
    "grow": 20,
    "desc": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
    "meta": [
-    "★ 2,220",
-    "+577 in 24h",
+    "★ 2,227",
+    "+576 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-09-30T05:00:35Z",
@@ -107,8 +107,8 @@
    "grow": 9,
    "desc": "A tiny friend that lives in your notch (macOS) or at the top of your screen (Windows, Linux) and keeps an eye on your coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more.",
    "meta": [
-    "★ 3,025",
-    "+399 in 24h",
+    "★ 3,029",
+    "+396 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-09-27T21:54:12Z",
@@ -121,12 +121,12 @@
    "src": "gh",
    "cat": "Tools",
    "score": 89,
-   "grow": 80,
+   "grow": 81,
    "desc": "Your always-on AI coworkers that move between text, calls, and Slack.",
    "meta": [
-    "★ 1,605",
-    "+979 in 24h",
-    "Created 3 days ago"
+    "★ 1,612",
+    "+970 in 24h",
+    "Created 4 days ago"
    ],
    "at": "2026-09-29T17:13:58Z",
    "breakout": null,
@@ -141,8 +141,8 @@
    "grow": 6,
    "desc": "AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese",
    "meta": [
-    "★ 1,212",
-    "+106 in 24h",
+    "★ 1,213",
+    "+105 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-09-30T11:49:32Z",
@@ -156,7 +156,7 @@
    "cat": "Coding",
    "score": 88,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 277",
+   "desc": "Model on Hugging Face · open source · ♥ 278",
    "meta": [
     "1.3K downloads",
     "Released 2 days ago"
@@ -219,7 +219,7 @@
   {
    "key": "gemini 4",
    "label": "Gemini 4",
-   "n": 3,
+   "n": 4,
    "sources": [
     {
      "src": "Mastodon",
@@ -230,6 +230,11 @@
      "src": "Google DeepMind blog",
      "t": "Gemini 4 Argon: our next era of frontier intelligence",
      "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/"
+    },
+    {
+     "src": "Il Sole 24 Ore",
+     "t": "Arriva Gemini 4 Argon, il guanto della sfida di Google a OpenAI ed Anthropic",
+     "url": "https://www.infodata.ilsole24ore.com/2026/10/02/arriva-gemini-4-argon-il-guanto-della-sfida-di-google-a-openai-ed-anthropic/"
     },
     {
      "src": "YouTube",
@@ -292,20 +297,25 @@
      "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/"
     },
     {
+     "src": "Il Sole 24 Ore",
+     "t": "Arriva Gemini 4 Argon, il guanto della sfida di Google a OpenAI ed Anthropic",
+     "url": "https://www.infodata.ilsole24ore.com/2026/10/02/arriva-gemini-4-argon-il-guanto-della-sfida-di-google-a-openai-ed-anthropic/"
+    },
+    {
      "src": "YouTube",
      "t": "AI News: Dots, GPT-6.1 Sol, Sonnet 5.5, Gemini 4, and everything you need to know",
      "url": "https://www.youtube.com/watch?v=dDgncbBAA0c"
     }
    ],
-   "buzz": 3,
+   "buzz": 4,
    "verdict": "Talk only, no public usage numbers"
   },
   {
    "name": "OpenDots",
    "url": "https://github.com/CopilotKit/OpenDots",
    "from": "GitHub",
-   "use": 979,
-   "useLabel": "+979 stars/day",
+   "use": 970,
+   "useLabel": "+970 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -409,17 +419,17 @@
  "github": [
   {
    "repo": "CopilotKit/OpenDots",
-   "stars": 1605,
-   "d24": 979,
+   "stars": 1612,
+   "d24": 970,
    "est": false,
-   "forks": 197,
+   "forks": 198,
    "contrib": null,
    "score": 89
   },
   {
    "repo": "rehan-remade/universal-modder",
-   "stars": 2220,
-   "d24": 577,
+   "stars": 2227,
+   "d24": 576,
    "est": false,
    "forks": 173,
    "contrib": null,
@@ -427,16 +437,16 @@
   },
   {
    "repo": "Louis-CFM/coucou",
-   "stars": 3025,
-   "d24": 399,
+   "stars": 3029,
+   "d24": 396,
    "est": false,
-   "forks": 463,
+   "forks": 465,
    "contrib": 6,
    "score": 89
   },
   {
    "repo": "edenfunf/reelmimic",
-   "stars": 972,
+   "stars": 974,
    "d24": 220,
    "est": true,
    "forks": 129,
@@ -446,7 +456,7 @@
   {
    "repo": "kaankiziltug/logo-design-skill",
    "stars": 1560,
-   "d24": 198,
+   "d24": 194,
    "est": false,
    "forks": 94,
    "contrib": null,
@@ -454,8 +464,8 @@
   },
   {
    "repo": "feder-cr/dots",
-   "stars": 2535,
-   "d24": 180,
+   "stars": 2538,
+   "d24": 181,
    "est": false,
    "forks": 434,
    "contrib": null,
@@ -463,8 +473,8 @@
   },
   {
    "repo": "feitangyuan/onetake",
-   "stars": 1359,
-   "d24": 169,
+   "stars": 1362,
+   "d24": 170,
    "est": false,
    "forks": 84,
    "contrib": null,
@@ -472,10 +482,10 @@
   },
   {
    "repo": "KKKKhazix/AIHOT",
-   "stars": 5010,
+   "stars": 5012,
    "d24": 152,
    "est": false,
-   "forks": 1366,
+   "forks": 1367,
    "contrib": 10,
    "score": 94
   }
@@ -490,7 +500,7 @@
    "grow": 0,
    "score": 95,
    "cat": "Coding",
-   "likes": 817
+   "likes": 821
   },
   {
    "name": "laya",
@@ -512,7 +522,7 @@
    "grow": 0,
    "score": 88,
    "cat": "Coding",
-   "likes": 277
+   "likes": 278
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -925,6 +935,13 @@
  },
  "headlines": [
   {
+   "t": "Reco, whose tech helps enterprises secure and govern AI agents across SaaS environments, raised a $55M Series B extension, taking its total funding to $140M",
+   "url": "https://www.techmeme.com/261003/p2#a261003p2",
+   "at": "2026-10-03T05:11:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Eliza review – an ambitious, unsettling play about the birth of AI",
    "url": "https://www.theguardian.com/stage/2026/oct/03/eliza-review-melbourne-theatre-company-birth-of-ai",
    "at": "2026-10-03T01:57:39Z",
@@ -974,17 +991,31 @@
    "kind": "News"
   },
   {
-   "t": "Apple says it is adding additional controls around \"Full Disk Access\" on macOS as AI agents have increased \"the risks associated with this level of access\"",
-   "url": "https://www.techmeme.com/261002/p19#a261002p19",
-   "at": "2026-10-02T18:30:00.000Z",
-   "src": "Techmeme",
+   "t": "OpenAI Alerts Over 100 Groups About Rogue AI Agent Activity",
+   "url": "https://www.ndtv.com/world-news/openai-alerts-over-100-groups-about-rogue-ai-agent-activity-12131640",
+   "at": "2026-10-02T17:29:13Z",
+   "src": "NDTV.com",
    "kind": "News"
   },
   {
-   "t": "Anthropic launches the Claude Frontier Academy with a $100M commitment to train 10K \"Frontier Deployed Engineers\" by 2028, starting with Accenture, Bain, others",
-   "url": "https://www.techmeme.com/261002/p18#a261002p18",
-   "at": "2026-10-02T18:00:38.000Z",
-   "src": "Techmeme",
+   "t": "Trump expected to name intelligence chief Jay Clayton as new AI czar",
+   "url": "https://www.inquirer.com/politics/nation/jay-clayton-ai-czar-trump-20261002.html",
+   "at": "2026-10-02T17:26:21Z",
+   "src": "The Philadelphia Inquirer",
+   "kind": "News"
+  },
+  {
+   "t": "OpenAI Fires Three Researchers Over Alleged Mishandling Of Sensitive Information. What We Know",
+   "url": "https://www.ndtvprofit.com/technology/openai-fires-three-researchers-over-alleged-mishandling-of-sensitive-information-what-we-know-12131579",
+   "at": "2026-10-02T17:23:30Z",
+   "src": "NDTV Profit",
+   "kind": "News"
+  },
+  {
+   "t": "Chinese government to families of CEOs, CTOs and other top executives working in AI companies: You need permission to travel to ...",
+   "url": "https://timesofindia.indiatimes.com/technology/tech-news/chinese-government-to-families-of-ceos-ctos-and-other-top-executives-working-in-ai-companies-you-need-permission-to-travel-to-/articleshow/134644229.cms",
+   "at": "2026-10-02T17:20:00Z",
+   "src": "Times of India",
    "kind": "News"
   },
   {
@@ -1014,27 +1045,6 @@
    "at": "2026-10-02T16:14:11Z",
    "src": "Digital Trends",
    "kind": "News"
-  },
-  {
-   "t": "​Nursing as an economic engine",
-   "url": "https://www.manilatimes.net/2026/10/03/opinion/editorial/nursing-as-an-economic-engine/2438103",
-   "at": "2026-10-02T16:10:00Z",
-   "src": "The Manila Times",
-   "kind": "News"
-  },
-  {
-   "t": "​SoftBank completes $30B OpenAI investment",
-   "url": "https://www.manilatimes.net/2026/10/03/business/foreign-business/softbank-completes-30b-openai-investment/2438078",
-   "at": "2026-10-02T16:05:00Z",
-   "src": "The Manila Times",
-   "kind": "News"
-  },
-  {
-   "t": "The future is now: EdTek Con 2026",
-   "url": "https://www.manilatimes.net/2026/10/03/tmt-newswire/the-future-is-now-edtek-con-2026/2437851",
-   "at": "2026-10-02T16:03:00Z",
-   "src": "The Manila Times",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -1043,7 +1053,7 @@
    "t": "From the creator of Redis; run LLM locally with ds4",
    "url": "https://news.ycombinator.com/item?id=49936575",
    "link": "https://dwarfstar.sh/",
-   "up": 191,
+   "up": 197,
    "com": 56,
    "at": "2026-10-02T18:01:16.000Z"
   },
@@ -1052,8 +1062,8 @@
    "t": "Muse Gadgets",
    "url": "https://news.ycombinator.com/item?id=49937504",
    "link": "https://gadgets.muse.ai",
-   "up": 166,
-   "com": 76,
+   "up": 170,
+   "com": 77,
    "at": "2026-10-02T19:26:54.000Z"
   },
   {
@@ -1061,8 +1071,8 @@
    "t": "With most information hidden, the game Stratego had stumped AI until now",
    "url": "https://news.ycombinator.com/item?id=49933740",
    "link": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
-   "up": 200,
-   "com": 95,
+   "up": 202,
+   "com": 96,
    "at": "2026-10-02T14:11:24.000Z"
   },
   {
@@ -1076,19 +1086,19 @@
   },
   {
    "src": "Hacker News",
-   "t": "Show HN: Made an open-source Lego AI generator",
-   "url": "https://news.ycombinator.com/item?id=49937916",
-   "link": "https://github.com/anteloc/ldraw-nova",
-   "up": 89,
-   "com": 41,
-   "at": "2026-10-02T20:00:15.000Z"
+   "t": "Cloudflare OHTTP gateway",
+   "url": "https://news.ycombinator.com/item?id=49941091",
+   "link": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/",
+   "up": 28,
+   "com": 6,
+   "at": "2026-10-03T03:15:05.000Z"
   },
   {
    "src": "Hacker News",
    "t": "One month coding with GLM 5.3 Flash",
    "url": "https://news.ycombinator.com/item?id=49934620",
    "link": "https://wagtail.org/blog/one-month-on-glm-53-flash/",
-   "up": 131,
+   "up": 133,
    "com": 105,
    "at": "2026-10-02T15:29:15.000Z"
   }
