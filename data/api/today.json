@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-03T04:30:49.491Z"
+  "updated": "2026-10-03T05:00:58.492Z"
  },
  "pulse": {
-  "trending": 89,
+  "trending": 88,
   "accelerating": 0,
   "newModels": 8,
   "discussions": 48,
-  "stars": 3267
+  "stars": 3250
  },
  "rising": [
   {
@@ -22,7 +22,7 @@
    "cat": "Coding",
    "score": 95,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 806",
+   "desc": "Model on Hugging Face · open source · ♥ 813",
    "meta": [
     "824 downloads",
     "Released 2 days ago"
@@ -40,7 +40,7 @@
    "grow": 2,
    "desc": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
    "meta": [
-    "★ 5,007",
+    "★ 5,010",
     "+154 in 24h",
     "Created 4 days ago"
    ],
@@ -54,11 +54,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 94,
-   "grow": 4,
+   "grow": 5,
    "desc": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
    "meta": [
-    "★ 2,528",
-    "+177 in 24h",
+    "★ 2,534",
+    "+181 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-09-29T23:06:00Z",
@@ -71,11 +71,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 94,
-   "grow": 19,
+   "grow": 20,
    "desc": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
    "meta": [
-    "★ 2,202",
-    "+574 in 24h",
+    "★ 2,218",
+    "+581 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-09-30T05:00:35Z",
@@ -107,8 +107,8 @@
    "grow": 9,
    "desc": "A tiny friend that lives in your notch (macOS) or at the top of your screen (Windows, Linux) and keeps an eye on your coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more.",
    "meta": [
-    "★ 3,020",
-    "+409 in 24h",
+    "★ 3,023",
+    "+400 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-09-27T21:54:12Z",
@@ -121,11 +121,11 @@
    "src": "gh",
    "cat": "Tools",
    "score": 89,
-   "grow": 78,
+   "grow": 80,
    "desc": "Your always-on AI coworkers that move between text, calls, and Slack.",
    "meta": [
-    "★ 1,588",
-    "+994 in 24h",
+    "★ 1,601",
+    "+983 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-09-29T17:13:58Z",
@@ -138,11 +138,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 89,
-   "grow": 5,
+   "grow": 6,
    "desc": "AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese",
    "meta": [
-    "★ 1,207",
-    "+103 in 24h",
+    "★ 1,210",
+    "+104 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-09-30T11:49:32Z",
@@ -150,11 +150,27 @@
    "url": "https://github.com/nanaism/yomiyasu"
   },
   {
+   "name": "clef-flash",
+   "owner": "Cloudflare",
+   "src": "hf",
+   "cat": "Coding",
+   "score": 88,
+   "grow": 0,
+   "desc": "Model on Hugging Face · open source · ♥ 277",
+   "meta": [
+    "1.3K downloads",
+    "Released 2 days ago"
+   ],
+   "at": "2026-09-30T21:15:36.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/Cloudflare/clef-flash"
+  },
+  {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
    "owner": "abenzerps",
    "src": "hf",
    "cat": "Infrastructure",
-   "score": 88,
+   "score": 87,
    "grow": 0,
    "desc": "Model on Hugging Face · open weights · ♥ 2.9K",
    "meta": [
@@ -164,22 +180,6 @@
    "at": "2026-09-20T15:51:13.000Z",
    "breakout": null,
    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF"
-  },
-  {
-   "name": "clef-flash",
-   "owner": "Cloudflare",
-   "src": "hf",
-   "cat": "Coding",
-   "score": 87,
-   "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 274",
-   "meta": [
-    "1.3K downloads",
-    "Released 2 days ago"
-   ],
-   "at": "2026-09-30T21:15:36.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/Cloudflare/clef-flash"
   }
  ],
  "breakouts": [
@@ -304,8 +304,8 @@
    "name": "OpenDots",
    "url": "https://github.com/CopilotKit/OpenDots",
    "from": "GitHub",
-   "use": 994,
-   "useLabel": "+994 stars/day",
+   "use": 983,
+   "useLabel": "+983 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -328,7 +328,7 @@
    "from": "Hugging Face",
    "use": 6237305,
    "useLabel": "6.2M downloads",
-   "usePct": 0.9722222222222222,
+   "usePct": 0.9714285714285714,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -409,8 +409,8 @@
  "github": [
   {
    "repo": "CopilotKit/OpenDots",
-   "stars": 1588,
-   "d24": 994,
+   "stars": 1601,
+   "d24": 983,
    "est": false,
    "forks": 196,
    "contrib": null,
@@ -418,17 +418,17 @@
   },
   {
    "repo": "rehan-remade/universal-modder",
-   "stars": 2202,
-   "d24": 574,
+   "stars": 2218,
+   "d24": 581,
    "est": false,
-   "forks": 170,
+   "forks": 171,
    "contrib": null,
    "score": 94
   },
   {
    "repo": "Louis-CFM/coucou",
-   "stars": 3020,
-   "d24": 409,
+   "stars": 3023,
+   "d24": 400,
    "est": false,
    "forks": 463,
    "contrib": 6,
@@ -436,8 +436,8 @@
   },
   {
    "repo": "edenfunf/reelmimic",
-   "stars": 970,
-   "d24": 221,
+   "stars": 971,
+   "d24": 220,
    "est": true,
    "forks": 128,
    "contrib": null,
@@ -445,8 +445,8 @@
   },
   {
    "repo": "kaankiziltug/logo-design-skill",
-   "stars": 1555,
-   "d24": 199,
+   "stars": 1558,
+   "d24": 197,
    "est": false,
    "forks": 94,
    "contrib": null,
@@ -454,8 +454,8 @@
   },
   {
    "repo": "feder-cr/dots",
-   "stars": 2528,
-   "d24": 177,
+   "stars": 2534,
+   "d24": 181,
    "est": false,
    "forks": 434,
    "contrib": null,
@@ -463,8 +463,8 @@
   },
   {
    "repo": "feitangyuan/onetake",
-   "stars": 1357,
-   "d24": 174,
+   "stars": 1358,
+   "d24": 170,
    "est": false,
    "forks": 84,
    "contrib": null,
@@ -472,10 +472,10 @@
   },
   {
    "repo": "KKKKhazix/AIHOT",
-   "stars": 5007,
+   "stars": 5010,
    "d24": 154,
    "est": false,
-   "forks": 1364,
+   "forks": 1366,
    "contrib": 10,
    "score": 94
   }
@@ -490,7 +490,7 @@
    "grow": 0,
    "score": 95,
    "cat": "Coding",
-   "likes": 806
+   "likes": 813
   },
   {
    "name": "laya",
@@ -504,26 +504,26 @@
    "likes": 5008
   },
   {
-   "name": "Qwen-Image-2.1-Uncensored-GGUF",
-   "org": "abenzerps",
-   "lic": "Open weights",
-   "at": "2026-09-20T15:51:13.000Z",
-   "dl": 1376248,
-   "grow": 0,
-   "score": 88,
-   "cat": "Infrastructure",
-   "likes": 2852
-  },
-  {
    "name": "clef-flash",
    "org": "Cloudflare",
    "lic": "Open source",
    "at": "2026-09-30T21:15:36.000Z",
    "dl": 1303,
    "grow": 0,
-   "score": 87,
+   "score": 88,
    "cat": "Coding",
-   "likes": 274
+   "likes": 277
+  },
+  {
+   "name": "Qwen-Image-2.1-Uncensored-GGUF",
+   "org": "abenzerps",
+   "lic": "Open weights",
+   "at": "2026-09-20T15:51:13.000Z",
+   "dl": 1376248,
+   "grow": 0,
+   "score": 87,
+   "cat": "Infrastructure",
+   "likes": 2853
   },
   {
    "name": "CLM-v0.1-8B",
@@ -546,7 +546,7 @@
    "grow": 0,
    "score": 85,
    "cat": "Vision",
-   "likes": 2847
+   "likes": 2848
   }
  ],
  "free": [
@@ -988,10 +988,10 @@
    "kind": "News"
   },
   {
-   "t": "Sources: SpaceX's AI unit held talks about leasing computing capacity to Microsoft, as it fully embraces the neocloud business despite Musk's initial reluctance",
-   "url": "https://www.techmeme.com/261002/p17#a261002p17",
-   "at": "2026-10-02T17:35:05.000Z",
-   "src": "Techmeme",
+   "t": "Artificial Intelligence and Attribution of Non",
+   "url": "https://www.europesays.com/3285604/",
+   "at": "2026-10-02T16:49:19Z",
+   "src": "EUROPE SAYS",
    "kind": "News"
   },
   {
@@ -1043,8 +1043,8 @@
    "t": "From the creator of Redis; run LLM locally with ds4",
    "url": "https://news.ycombinator.com/item?id=49936575",
    "link": "https://dwarfstar.sh/",
-   "up": 185,
-   "com": 53,
+   "up": 191,
+   "com": 56,
    "at": "2026-10-02T18:01:16.000Z"
   },
   {
@@ -1052,9 +1052,18 @@
    "t": "Muse Gadgets",
    "url": "https://news.ycombinator.com/item?id=49937504",
    "link": "https://gadgets.muse.ai",
-   "up": 157,
-   "com": 74,
+   "up": 165,
+   "com": 76,
    "at": "2026-10-02T19:26:54.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "With most information hidden, the game Stratego had stumped AI until now",
+   "url": "https://news.ycombinator.com/item?id=49933740",
+   "link": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
+   "up": 196,
+   "com": 95,
+   "at": "2026-10-02T14:11:24.000Z"
   },
   {
    "src": "Hacker News",
@@ -1062,35 +1071,26 @@
    "url": "https://news.ycombinator.com/item?id=49934487",
    "link": "https://mondobe.com/ai-makes-me-sad",
    "up": 181,
-   "com": 219,
+   "com": 220,
    "at": "2026-10-02T15:18:00.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "With most information hidden, the game Stratego had stumped AI until now",
-   "url": "https://news.ycombinator.com/item?id=49933740",
-   "link": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
-   "up": 195,
-   "com": 94,
-   "at": "2026-10-02T14:11:24.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "One month coding with GLM 5.3 Flash",
-   "url": "https://news.ycombinator.com/item?id=49934620",
-   "link": "https://wagtail.org/blog/one-month-on-glm-53-flash/",
-   "up": 130,
-   "com": 105,
-   "at": "2026-10-02T15:29:15.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Show HN: Made an open-source Lego AI generator",
    "url": "https://news.ycombinator.com/item?id=49937916",
    "link": "https://github.com/anteloc/ldraw-nova",
-   "up": 82,
+   "up": 88,
    "com": 41,
    "at": "2026-10-02T20:00:15.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Crypto Capture of Foreign Aid",
+   "url": "https://news.ycombinator.com/item?id=49936725",
+   "link": "https://www.nber.org/papers/w35655",
+   "up": 91,
+   "com": 35,
+   "at": "2026-10-02T18:14:29.000Z"
   }
  ]
 }
