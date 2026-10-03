@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-03T17:01:01.887Z"
+  "updated": "2026-10-03T17:30:47.312Z"
  },
  "pulse": {
   "trending": 86,
   "accelerating": 2,
   "newModels": 9,
-  "discussions": 43,
-  "stars": 3312
+  "discussions": 41,
+  "stars": 3344
  },
  "rising": [
   {
@@ -22,7 +22,7 @@
    "cat": "Coding",
    "score": 95,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 939",
+   "desc": "Model on Hugging Face · open source · ♥ 941",
    "meta": [
     "2.6K downloads",
     "Released 3 days ago"
@@ -30,23 +30,6 @@
    "at": "2026-09-30T21:15:35.000Z",
    "breakout": null,
    "url": "https://huggingface.co/Cloudflare/clef"
-  },
-  {
-   "name": "AIHOT",
-   "owner": "KKKKhazix",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 94,
-   "grow": 5,
-   "desc": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
-   "meta": [
-    "★ 5,322",
-    "+986 in 24h",
-    "Created 5 days ago"
-   ],
-   "at": "2026-09-28T23:40:05Z",
-   "breakout": null,
-   "url": "https://github.com/KKKKhazix/AIHOT"
   },
   {
    "name": "universal-modder",
@@ -57,13 +40,30 @@
    "grow": 7,
    "desc": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
    "meta": [
-    "★ 2,484",
-    "+572 in 24h",
+    "★ 2,500",
+    "+587 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-09-30T05:00:35Z",
    "breakout": null,
    "url": "https://github.com/rehan-remade/universal-modder"
+  },
+  {
+   "name": "AIHOT",
+   "owner": "KKKKhazix",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 93,
+   "grow": 6,
+   "desc": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
+   "meta": [
+    "★ 5,337",
+    "+968 in 24h",
+    "Created 5 days ago"
+   ],
+   "at": "2026-09-28T23:40:05Z",
+   "breakout": null,
+   "url": "https://github.com/KKKKhazix/AIHOT"
   },
   {
    "name": "dots",
@@ -74,8 +74,8 @@
    "grow": 0,
    "desc": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
    "meta": [
-    "★ 2,571",
-    "+18 in 24h",
+    "★ 2,572",
+    "+21 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-09-29T23:06:00Z",
@@ -88,11 +88,11 @@
    "src": "gh",
    "cat": "Tools",
    "score": 90,
-   "grow": 24,
+   "grow": 25,
    "desc": "Your always-on AI coworkers that move between text, calls, and Slack.",
    "meta": [
-    "★ 2,131",
-    "+1,091 in 24h",
+    "★ 2,160",
+    "+1,107 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-09-29T17:13:58Z",
@@ -109,7 +109,7 @@
    "desc": "Model on Hugging Face · open source · ♥ 5.1K",
    "meta": [
     "0 downloads",
-    "Released 15 days ago"
+    "Released 16 days ago"
    ],
    "at": "2026-09-18T05:05:55.000Z",
    "breakout": null,
@@ -124,8 +124,8 @@
    "grow": 2,
    "desc": "A tiny friend that lives in your notch (macOS) or at the top of your screen (Windows, Linux) and keeps an eye on your coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more.",
    "meta": [
-    "★ 3,157",
-    "+196 in 24h",
+    "★ 3,164",
+    "+206 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-09-27T21:54:12Z",
@@ -141,8 +141,8 @@
    "grow": 4,
    "desc": "AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese",
    "meta": [
-    "★ 1,287",
-    "+166 in 24h",
+    "★ 1,290",
+    "+165 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-09-30T11:49:32Z",
@@ -172,7 +172,7 @@
    "cat": "Coding",
    "score": 87,
    "grow": 231,
-   "desc": "Model on Hugging Face · open source · ♥ 336",
+   "desc": "Model on Hugging Face · open source · ♥ 338",
    "meta": [
     "4.3K downloads",
     "Released 3 days ago"
@@ -186,7 +186,7 @@
   {
    "key": "gpt 6",
    "label": "GPT-6",
-   "n": 5,
+   "n": 4,
    "sources": [
     {
      "src": "DEV",
@@ -202,11 +202,6 @@
      "src": "NVIDIA blog",
      "t": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
      "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/"
-    },
-    {
-     "src": "Starskirmish.com",
-     "t": "Show HN: GPT-6 Astra and Claude 5.5 Opus race to create the best StarCraft bot",
-     "url": "https://starskirmish.com/hillclimb/"
     },
     {
      "src": "GitHub",
@@ -263,14 +258,9 @@
      "src": "NVIDIA blog",
      "t": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
      "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/"
-    },
-    {
-     "src": "Starskirmish.com",
-     "t": "Show HN: GPT-6 Astra and Claude 5.5 Opus race to create the best StarCraft bot",
-     "url": "https://starskirmish.com/hillclimb/"
     }
    ],
-   "buzz": 4,
+   "buzz": 3,
    "verdict": "Talk only, no public usage numbers"
   },
   {
@@ -304,8 +294,8 @@
    "name": "OpenDots",
    "url": "https://github.com/CopilotKit/OpenDots",
    "from": "GitHub",
-   "use": 1091,
-   "useLabel": "+1,091 stars/day",
+   "use": 1107,
+   "useLabel": "+1,107 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -335,6 +325,16 @@
   }
  ],
  "receipts": [
+  {
+   "name": "rehan-remade/universal-modder",
+   "url": "https://github.com/rehan-remade/universal-modder",
+   "kind": "stars",
+   "first": "2026-10-01T17:48:04.617Z",
+   "firstV": 1408,
+   "m": 2500,
+   "at": "2026-10-03T17:30:47.312Z",
+   "lead": 47.71185972222222
+  },
   {
    "name": "edenfunf/reelmimic",
    "url": "https://github.com/edenfunf/reelmimic",
@@ -404,50 +404,40 @@
    "m": 1000000,
    "at": "2026-10-02T11:40:52.853Z",
    "lead": 17.880065555555557
-  },
-  {
-   "name": "Louis-CFM/coucou",
-   "url": "https://github.com/Louis-CFM/coucou",
-   "kind": "stars",
-   "first": "2026-10-01T17:48:04.617Z",
-   "firstV": 2307,
-   "m": 2500,
-   "at": "2026-10-02T08:25:35.064Z",
-   "lead": 14.625124166666666
   }
  ],
  "github": [
   {
    "repo": "CopilotKit/OpenDots",
-   "stars": 2131,
-   "d24": 1091,
+   "stars": 2160,
+   "d24": 1107,
    "est": false,
-   "forks": 261,
+   "forks": 269,
    "contrib": null,
    "score": 90
   },
   {
    "repo": "KKKKhazix/AIHOT",
-   "stars": 5322,
-   "d24": 986,
+   "stars": 5337,
+   "d24": 968,
    "est": false,
-   "forks": 1408,
+   "forks": 1411,
    "contrib": 10,
-   "score": 94
+   "score": 93
   },
   {
    "repo": "rehan-remade/universal-modder",
-   "stars": 2484,
-   "d24": 572,
+   "stars": 2500,
+   "d24": 587,
    "est": false,
-   "forks": 202,
+   "forks": 203,
    "contrib": null,
    "score": 94
   },
   {
    "repo": "Louis-CFM/coucou",
-   "stars": 3157,
-   "d24": 196,
+   "stars": 3164,
+   "d24": 206,
    "est": false,
    "forks": 496,
    "contrib": 6,
@@ -455,35 +445,35 @@
   },
   {
    "repo": "nanaism/yomiyasu",
-   "stars": 1287,
-   "d24": 166,
+   "stars": 1290,
+   "d24": 165,
    "est": false,
    "forks": 28,
    "contrib": null,
    "score": 88
   },
   {
-   "repo": "edenfunf/reelmimic",
-   "stars": 1038,
-   "d24": 131,
+   "repo": "yihui-dev/awesome-opus5-5-videos",
+   "stars": 1532,
+   "d24": 137,
    "est": false,
-   "forks": 133,
+   "forks": 163,
    "contrib": null,
    "score": 83
   },
   {
-   "repo": "yihui-dev/awesome-opus5-5-videos",
-   "stars": 1525,
-   "d24": 122,
+   "repo": "edenfunf/reelmimic",
+   "stars": 1038,
+   "d24": 126,
    "est": false,
-   "forks": 162,
+   "forks": 133,
    "contrib": null,
-   "score": 83
+   "score": 82
   },
   {
    "repo": "echris6/motion-video-kit",
    "stars": 974,
-   "d24": 30,
+   "d24": 27,
    "est": false,
    "forks": 85,
    "contrib": null,
@@ -500,7 +490,7 @@
    "grow": 0,
    "score": 95,
    "cat": "Coding",
-   "likes": 939
+   "likes": 941
   },
   {
    "name": "laya",
@@ -511,7 +501,7 @@
    "grow": null,
    "score": 90,
    "cat": "Tools",
-   "likes": 5051
+   "likes": 5052
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -522,7 +512,7 @@
    "grow": 0,
    "score": 88,
    "cat": "Infrastructure",
-   "likes": 2905
+   "likes": 2907
   },
   {
    "name": "clef-flash",
@@ -533,7 +523,7 @@
    "grow": 231,
    "score": 87,
    "cat": "Coding",
-   "likes": 336
+   "likes": 338
   },
   {
    "name": "CLM-v0.1-8B",
@@ -1038,8 +1028,8 @@
    "t": "Kolibri is an open-weight LLM from Aleph Alpha for German and English",
    "url": "https://news.ycombinator.com/item?id=49943034",
    "link": "https://tej.as/blog/aleph-alpha-kolibri",
-   "up": 340,
-   "com": 136,
+   "up": 367,
+   "com": 149,
    "at": "2026-10-03T10:43:51.000Z"
   },
   {
@@ -1047,8 +1037,8 @@
    "t": "City building games have a Soul Problem pt.2",
    "url": "https://news.ycombinator.com/item?id=49945323",
    "link": "https://www.radical-elements.com/minor-epiphanies/city-building-games-have-a-soul-problem-pt2",
-   "up": 29,
-   "com": 18,
+   "up": 59,
+   "com": 52,
    "at": "2026-10-03T15:52:07.000Z"
   },
   {
@@ -1065,7 +1055,7 @@
    "t": "US killer's sentence quashed because of AI video of victim shown in court",
    "url": "https://news.ycombinator.com/item?id=49944127",
    "link": "https://www.bbc.com/news/articles/cwgkvygg5nzvo",
-   "up": 54,
+   "up": 56,
    "com": 43,
    "at": "2026-10-03T13:34:18.000Z"
   },
@@ -1083,8 +1073,8 @@
    "t": "Cloudflare OHTTP gateway",
    "url": "https://news.ycombinator.com/item?id=49941091",
    "link": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/",
-   "up": 154,
-   "com": 68,
+   "up": 157,
+   "com": 69,
    "at": "2026-10-03T03:15:05.000Z"
   }
  ]
