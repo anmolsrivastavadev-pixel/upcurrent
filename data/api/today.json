@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-03T21:01:33.129Z"
+  "updated": "2026-10-03T21:30:46.619Z"
  },
  "pulse": {
   "trending": 85,
   "accelerating": 1,
   "newModels": 9,
   "discussions": 40,
-  "stars": 3068
+  "stars": 3064
  },
  "rising": [
   {
@@ -22,7 +22,7 @@
    "cat": "Coding",
    "score": 95,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 966",
+   "desc": "Model on Hugging Face · open source · ♥ 968",
    "meta": [
     "2.6K downloads",
     "Released 3 days ago"
@@ -37,11 +37,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 94,
-   "grow": 10,
+   "grow": 11,
    "desc": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
    "meta": [
-    "★ 2,570",
-    "+550 in 24h",
+    "★ 2,582",
+    "+552 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-09-30T05:00:35Z",
@@ -57,8 +57,8 @@
    "grow": 6,
    "desc": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
    "meta": [
-    "★ 5,374",
-    "+729 in 24h",
+    "★ 5,377",
+    "+703 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-09-28T23:40:05Z",
@@ -75,7 +75,7 @@
    "desc": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
    "meta": [
     "★ 2,573",
-    "+16 in 24h",
+    "+15 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-09-29T23:06:00Z",
@@ -88,11 +88,11 @@
    "src": "gh",
    "cat": "Tools",
    "score": 91,
-   "grow": 35,
+   "grow": 38,
    "desc": "Your always-on AI coworkers that move between text, calls, and Slack.",
    "meta": [
-    "★ 2,331",
-    "+1,124 in 24h",
+    "★ 2,370",
+    "+1,152 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-09-29T17:13:58Z",
@@ -124,8 +124,8 @@
    "grow": 3,
    "desc": "A tiny friend that lives in your notch (macOS) or at the top of your screen (Windows, Linux) and keeps an eye on your coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more.",
    "meta": [
-    "★ 3,208",
-    "+238 in 24h",
+    "★ 3,210",
+    "+231 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-09-27T21:54:12Z",
@@ -142,12 +142,28 @@
    "desc": "AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese",
    "meta": [
     "★ 1,300",
-    "+132 in 24h",
+    "+127 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-09-30T11:49:32Z",
    "breakout": null,
    "url": "https://github.com/nanaism/yomiyasu"
+  },
+  {
+   "name": "clef-flash",
+   "owner": "Cloudflare",
+   "src": "hf",
+   "cat": "Coding",
+   "score": 88,
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 349",
+   "meta": [
+    "4.3K downloads",
+    "Released 3 days ago"
+   ],
+   "at": "2026-09-30T21:15:36.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/Cloudflare/clef-flash"
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -164,22 +180,6 @@
    "at": "2026-09-20T15:51:13.000Z",
    "breakout": null,
    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF"
-  },
-  {
-   "name": "clef-flash",
-   "owner": "Cloudflare",
-   "src": "hf",
-   "cat": "Coding",
-   "score": 87,
-   "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 349",
-   "meta": [
-    "4.3K downloads",
-    "Released 3 days ago"
-   ],
-   "at": "2026-09-30T21:15:36.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/Cloudflare/clef-flash"
   }
  ],
  "breakouts": [
@@ -311,8 +311,8 @@
    "name": "OpenDots",
    "url": "https://github.com/CopilotKit/OpenDots",
    "from": "GitHub",
-   "use": 1124,
-   "useLabel": "+1,124 stars/day",
+   "use": 1152,
+   "useLabel": "+1,152 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -426,17 +426,17 @@
  "github": [
   {
    "repo": "CopilotKit/OpenDots",
-   "stars": 2331,
-   "d24": 1124,
+   "stars": 2370,
+   "d24": 1152,
    "est": false,
-   "forks": 294,
+   "forks": 297,
    "contrib": null,
    "score": 91
   },
   {
    "repo": "KKKKhazix/AIHOT",
-   "stars": 5374,
-   "d24": 729,
+   "stars": 5377,
+   "d24": 703,
    "est": false,
    "forks": 1422,
    "contrib": 10,
@@ -444,44 +444,44 @@
   },
   {
    "repo": "rehan-remade/universal-modder",
-   "stars": 2570,
-   "d24": 550,
+   "stars": 2582,
+   "d24": 552,
    "est": false,
-   "forks": 217,
+   "forks": 219,
    "contrib": null,
    "score": 94
   },
   {
    "repo": "Louis-CFM/coucou",
-   "stars": 3208,
-   "d24": 238,
+   "stars": 3210,
+   "d24": 231,
    "est": false,
    "forks": 499,
    "contrib": 6,
    "score": 88
   },
   {
-   "repo": "nanaism/yomiyasu",
-   "stars": 1300,
-   "d24": 132,
-   "est": false,
-   "forks": 28,
-   "contrib": null,
-   "score": 88
-  },
-  {
    "repo": "edenfunf/reelmimic",
-   "stars": 1057,
-   "d24": 126,
+   "stars": 1063,
+   "d24": 131,
    "est": false,
    "forks": 141,
    "contrib": null,
    "score": 82
   },
   {
+   "repo": "nanaism/yomiyasu",
+   "stars": 1300,
+   "d24": 127,
+   "est": false,
+   "forks": 28,
+   "contrib": null,
+   "score": 88
+  },
+  {
    "repo": "yihui-dev/awesome-opus5-5-videos",
-   "stars": 1545,
-   "d24": 121,
+   "stars": 1548,
+   "d24": 122,
    "est": false,
    "forks": 166,
    "contrib": null,
@@ -490,7 +490,7 @@
   {
    "repo": "echris6/motion-video-kit",
    "stars": 980,
-   "d24": 32,
+   "d24": 31,
    "est": false,
    "forks": 86,
    "contrib": null,
@@ -507,7 +507,7 @@
    "grow": 0,
    "score": 95,
    "cat": "Coding",
-   "likes": 966
+   "likes": 968
   },
   {
    "name": "laya",
@@ -521,6 +521,17 @@
    "likes": 5071
   },
   {
+   "name": "clef-flash",
+   "org": "Cloudflare",
+   "lic": "Open source",
+   "at": "2026-09-30T21:15:36.000Z",
+   "dl": 4310,
+   "grow": null,
+   "score": 88,
+   "cat": "Coding",
+   "likes": 349
+  },
+  {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
    "org": "abenzerps",
    "lic": "Open weights",
@@ -529,18 +540,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Infrastructure",
-   "likes": 2912
-  },
-  {
-   "name": "clef-flash",
-   "org": "Cloudflare",
-   "lic": "Open source",
-   "at": "2026-09-30T21:15:36.000Z",
-   "dl": 4310,
-   "grow": null,
-   "score": 87,
-   "cat": "Coding",
-   "likes": 349
+   "likes": 2915
   },
   {
    "name": "CLM-v0.1-8B",
@@ -563,7 +563,7 @@
    "grow": 0,
    "score": 85,
    "cat": "Vision",
-   "likes": 2891
+   "likes": 2894
   }
  ],
  "free": [
@@ -962,6 +962,34 @@
    "kind": "News"
   },
   {
+   "t": "Why local expertise matters in Richmond real estate",
+   "url": "https://richmond.com/opinion/column/article_266d2c5c-e1e9-446c-8e03-77e69fbd2f97.html",
+   "at": "2026-10-03T09:30:00Z",
+   "src": "Richmond Times-Dispatch",
+   "kind": "News"
+  },
+  {
+   "t": "TEDxIEMSaltLake 2026 explores loneliness and human connection in the era of AI",
+   "url": "https://www.tribuneindia.com/news/business/tedxiemsaltlake-2026-explores-loneliness-and-human-connection-in-the-era-of-ai/",
+   "at": "2026-10-03T09:27:24Z",
+   "src": "The Tribune",
+   "kind": "News"
+  },
+  {
+   "t": "Trump expected to appoint Clayton as new AI adviser",
+   "url": "https://www.arkansasonline.com/news/2026/oct/03/trump-expected-to-appoint-clayton-as-new-ai/",
+   "at": "2026-10-03T09:16:00Z",
+   "src": "Arkansas Online",
+   "kind": "News"
+  },
+  {
+   "t": "How the Smithsonian is using AI to connect artifacts from the American Revolution",
+   "url": "https://phys.org/news/2026-10-smithsonian-ai-artifacts-american-revolution.html",
+   "at": "2026-10-03T09:15:48Z",
+   "src": "Phys.org",
+   "kind": "News"
+  },
+  {
    "t": "RBI remains cautious on crypto, backs underlying technology: Governor Sanjay Malhotra",
    "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-remains-cautious-on-crypto-backs-underlying-technology-governor-sanjay-malhotra/articleshow/134655603.cms",
    "at": "2026-10-03T09:00:00Z",
@@ -997,38 +1025,10 @@
    "kind": "News"
   },
   {
-   "t": "OpenAI's head of safety systems resigns",
-   "url": "https://www.newsbytesapp.com/news/business/openai-safety-systems-head-resigns-from-company-amid-departures/story",
-   "at": "2026-10-03T07:58:57Z",
-   "src": "NewsBytes",
-   "kind": "News"
-  },
-  {
-   "t": "India well placed amid global AI risks, strong fundamentals offer resilience: RBI Governor",
-   "url": "https://www.lokmattimes.com/technology/india-well-placed-amid-global-ai-risks-strong-fundamentals-offer-resilience-rbi-governor-2/",
-   "at": "2026-10-03T07:58:35Z",
-   "src": "Lokmat Times",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI facing 66-million-year problem, spending Rs 5 crore a day to deal with AI agent mess",
-   "url": "https://www.indiatoday.in/technology/news/story/openai-facing-66-million-year-problem-spending-rs-5-crore-a-day-to-deal-with-ai-agent-mess-3008659-2026-10-03",
-   "at": "2026-10-03T07:39:07Z",
-   "src": "India Today",
-   "kind": "News"
-  },
-  {
    "t": "From the Bayeux tapestry to Glastonbury: top tips and tricks to grab the hottest tickets",
    "url": "https://www.theguardian.com/money/2026/oct/03/bayeux-tapestry-glastonbury-top-tips-tricks-hottest-tickets",
    "at": "2026-10-03T07:36:54Z",
    "src": "The Guardian",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI's investigation into hacks costing company $500,000 per day",
-   "url": "https://www.newsbytesapp.com/news/science/openai-spending-over-500-000-daily-investigating-rogue-ai-agents-breaches/story",
-   "at": "2026-10-03T07:36:36Z",
-   "src": "NewsBytes",
    "kind": "News"
   },
   {
@@ -1045,53 +1045,53 @@
    "t": "Aleph Alpha Kolibri: How the sovereign German LLM works",
    "url": "https://news.ycombinator.com/item?id=49943034",
    "link": "https://tej.as/blog/aleph-alpha-kolibri",
-   "up": 408,
+   "up": 409,
    "com": 11,
    "at": "2026-10-03T10:43:51.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Pop!_OS bans AI-generated code from much of its codebase",
-   "url": "https://news.ycombinator.com/item?id=49946321",
-   "link": "https://www.neowin.net/news/system76-bans-ai-generated-code-across-many-of-its-cosmic-codebases/",
-   "up": 86,
-   "com": 101,
-   "at": "2026-10-03T17:57:03.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "City building games have a Soul Problem pt.2",
-   "url": "https://news.ycombinator.com/item?id=49945323",
-   "link": "https://www.radical-elements.com/minor-epiphanies/city-building-games-have-a-soul-problem-pt2",
-   "up": 119,
-   "com": 113,
-   "at": "2026-10-03T15:52:07.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "FTL: A new operating system for clouds",
-   "url": "https://news.ycombinator.com/item?id=49944912",
-   "link": "https://ftl-os.org/",
-   "up": 121,
-   "com": 50,
-   "at": "2026-10-03T15:02:36.000Z"
   },
   {
    "src": "Hacker News",
    "t": "We want you to build the next Git platform on Cloudflare",
    "url": "https://news.ycombinator.com/item?id=49947051",
    "link": "https://blog.cloudflare.com/next-git-platform-on-cloudflare/",
-   "up": 29,
-   "com": 22,
+   "up": 60,
+   "com": 48,
    "at": "2026-10-03T19:33:16.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Pop!_OS bans AI-generated code from much of its codebase",
+   "url": "https://news.ycombinator.com/item?id=49946321",
+   "link": "https://www.neowin.net/news/system76-bans-ai-generated-code-across-many-of-its-cosmic-codebases/",
+   "up": 90,
+   "com": 114,
+   "at": "2026-10-03T17:57:03.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Getting the most out of Opus 5.5 in Claude and Claude Code",
+   "url": "https://news.ycombinator.com/item?id=49946567",
+   "link": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5/",
+   "up": 66,
+   "com": 22,
+   "at": "2026-10-03T18:29:30.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "City building games have a Soul Problem pt.2",
+   "url": "https://news.ycombinator.com/item?id=49945323",
+   "link": "https://www.radical-elements.com/minor-epiphanies/city-building-games-have-a-soul-problem-pt2",
+   "up": 120,
+   "com": 116,
+   "at": "2026-10-03T15:52:07.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Our AI Midwife",
    "url": "https://news.ycombinator.com/item?id=49946873",
    "link": "https://www.astralcodexten.com/p/our-ai-midwife",
-   "up": 33,
-   "com": 5,
+   "up": 46,
+   "com": 24,
    "at": "2026-10-03T19:12:27.000Z"
   }
  ]
