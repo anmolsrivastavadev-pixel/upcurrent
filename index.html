@@ -115,6 +115,19 @@ section.block { padding-block: 48px 8px; }
 .signup input::placeholder { color: color-mix(in srgb, var(--band-ink) 55%, transparent); }
 .signup button { padding: 11px 18px; border: 0; border-radius: 9px; background: var(--warm); color: #1b1206; font: 700 15px var(--font-body); cursor: pointer; }
 .signup .ok { flex-basis: 100%; font-size: 14px; }
+.sample-link { font-size: 13.5px; color: var(--muted); }
+.signup p a { color: inherit; }
+.nudge { position: fixed; z-index: 30; left: 50%; bottom: calc(14px + env(safe-area-inset-bottom, 0px)); transform: translate(-50%, 0); width: min(720px, calc(100% - 24px)); display: flex; align-items: center; gap: 10px 16px; flex-wrap: wrap; padding: 12px 44px 12px 18px; background: var(--band); color: var(--band-ink); border-radius: 14px; box-shadow: 0 14px 40px rgba(0,0,0,.28); animation: nudge-in .35s ease-out; }
+@keyframes nudge-in { from { transform: translate(-50%, 24px); opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .nudge { animation: none; } }
+.nudge-text { flex: 1 1 220px; font-size: 14.5px; }
+.nudge-text a { color: inherit; opacity: .8; }
+.nudge-form { display: flex; gap: 6px; flex: 1 1 280px; flex-wrap: wrap; }
+.nudge-form input { flex: 1 1 160px; min-width: 0; padding: 9px 12px; border-radius: 8px; border: 1px solid color-mix(in srgb, var(--band-ink) 25%, transparent); background: color-mix(in srgb, var(--band-ink) 8%, transparent); color: var(--band-ink); font: 500 14.5px var(--font-body); }
+.nudge-form input::placeholder { color: color-mix(in srgb, var(--band-ink) 55%, transparent); }
+.nudge-form button { padding: 9px 15px; border: 0; border-radius: 8px; background: var(--warm); color: #1b1206; font: 700 14px var(--font-body); cursor: pointer; }
+.nudge-form .ok { flex-basis: 100%; font-size: 13.5px; }
+.nudge-x { position: absolute; top: 6px; right: 8px; width: 30px; height: 30px; border: 0; background: none; color: var(--band-ink); font-size: 22px; line-height: 1; opacity: .7; cursor: pointer; }
 @media (max-width: 720px) { .signup { grid-template-columns: 1fr; } }
 
 .sec-head { display: flex; justify-content: space-between; align-items: end; gap: 16px; flex-wrap: wrap; margin-bottom: 18px; }
@@ -373,6 +386,7 @@ font[style] { background: none !important; box-shadow: none !important; }
           <button type="submit">Subscribe</button>
         </div>
         <div class="ok" hidden>Check your inbox to confirm.</div>
+        <a class="sample-link" href="email.html">See today's email first</a>
       </form>
       <div class="gen" id="genText"></div>
     </div>
@@ -461,7 +475,7 @@ font[style] { background: none !important; box-shadow: none !important; }
     <div id="freeNote"></div>
   </section>
   <section class="signup" id="signup" hidden>
-    <div><h2>Get this every morning</h2><p>The top AI movers, headlines and repos in one short email. Free, and you can unsubscribe anytime.</p></div>
+    <div><h2>Get this every morning</h2><p>The top AI movers, headlines and repos in one short email. Free, and you can unsubscribe anytime. <a href="email.html">See today's email</a>.</p></div>
     <form id="signupForm" class="nl-form" method="post" target="_blank">
       <input type="email" name="email" required placeholder="you@example.com" aria-label="Email address" autocomplete="email">
       <button type="submit">Subscribe</button>
@@ -469,6 +483,16 @@ font[style] { background: none !important; box-shadow: none !important; }
     </form>
   </section>
 </main>
+
+<aside class="nudge" id="nudge" hidden aria-label="Get the morning email">
+  <div class="nudge-text"><b>Like this? Get it at 7am, free.</b> <a href="email.html">See a sample</a></div>
+  <form class="nl-form nudge-form" method="post" target="_blank">
+    <input type="email" name="email" required placeholder="you@example.com" aria-label="Email address" autocomplete="email">
+    <button type="submit">Subscribe</button>
+    <div class="ok" hidden>Check your inbox to confirm.</div>
+  </form>
+  <button type="button" class="nudge-x" id="nudgeX" aria-label="Close">×</button>
+</aside>
 
 <footer>
   <div class="wrap">
@@ -624,8 +648,30 @@ if (NEWSLETTER) {
     tz.type = "hidden"; tz.name = "metadata__timezone";
     try { tz.value = Intl.DateTimeFormat().resolvedOptions().timeZone || ""; } catch { tz.value = ""; }
     f.appendChild(tz);
-    f.addEventListener("submit", () => setTimeout(() => { f.querySelector(".ok").hidden = false; f.reset(); }, 100));
+    f.addEventListener("submit", () => {
+      store.set("uc-subscribed", Date.now());
+      // Counted as an event in GoatCounter, next to page visits.
+      try { window.goatcounter?.count?.({ path: "subscribe", title: "Subscribed (" + (f.id || f.className.split(" ")[0]) + ")", event: true }); } catch {}
+      setTimeout(() => { f.querySelector(".ok").hidden = false; f.reset(); }, 100);
+    });
   });
+  // Ask once, after the reader has scrolled past a few sections and clearly likes the page.
+  // Never if they already subscribed or closed it this week; hidden while the main signup box is on screen.
+  const nudge = $("nudge"), closedAt = store.get("uc-nudge-closed");
+  const nudgeOk = () => !store.get("uc-subscribed") && !(closedAt && Date.now() - closedAt < 7 * 864e5);
+  if (nudgeOk() && "IntersectionObserver" in window) {
+    let shown = false, signupVisible = false;
+    new IntersectionObserver(es => es.forEach(e => {
+      if (e.target.id === "signup") signupVisible = e.isIntersecting;
+      else if (e.isIntersecting || e.boundingClientRect.top < 0) shown = true;
+      nudge.hidden = !(shown && !signupVisible && nudgeOk());
+    })).observe($("receipts"));
+    new IntersectionObserver(es => es.forEach(e => {
+      signupVisible = e.isIntersecting;
+      nudge.hidden = !(shown && !signupVisible && nudgeOk());
+    })).observe($("signup"));
+    $("nudgeX").addEventListener("click", () => { store.set("uc-nudge-closed", Date.now()); nudge.hidden = true; });
+  }
 }
 $("pills").innerHTML = CATS.map(c => `<button type="button" class="chip" data-cat="${c}" aria-pressed="${c === "all"}">${c === "all" ? "All" : c}</button>`).join("");
 

@@ -1,0 +1,151 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Upcurrent morning email</title>
+<meta name="description" content="A preview of the free Upcurrent morning email: the AI movers, headlines and repos that picked up speed in the last day.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Schibsted+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap">
+<style>
+:root {
+  --bg: #eef1f4; --paper: #ffffff; --ink: #0f1829; --muted: #566276; --faint: #8792a3; --line: #d6dce4;
+  --link: #2a45cf; --up: #12895f; --chip: #e3e8ee; --code: #0f1829; --code-ink: #e9eef6; --band: #0f1829; --band-ink: #e9eef6;
+  --font-display: "Bricolage Grotesque", "Avenir Next", system-ui, sans-serif;
+  --font-body: "Schibsted Grotesk", "Helvetica Neue", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", monospace; --warm: #ef9b2d;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0c111a; --paper: #131a26; --ink: #e8edf5; --muted: #95a1b5; --faint: #67738a; --line: #232d3f;
+    --link: #8fa3ff; --up: #3fd09a; --chip: #1c2535; --code: #080c13; --code-ink: #dfe6f1; --band: #19223a; --band-ink: #e8edf5; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0c111a; --paper: #131a26; --ink: #e8edf5; --muted: #95a1b5; --faint: #67738a; --line: #232d3f;
+  --link: #8fa3ff; --up: #3fd09a; --chip: #1c2535; --code: #080c13; --code-ink: #dfe6f1; --band: #19223a; --band-ink: #e8edf5; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 var(--font-body); -webkit-font-smoothing: antialiased; }
+a { color: var(--link); }
+.wrap { max-width: 820px; margin: 0 auto; padding-inline: 20px; }
+header { border-bottom: 1px solid var(--line); }
+header .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-block: 14px; flex-wrap: wrap; }
+.logo { font: 800 21px/1 var(--font-display); letter-spacing: -.03em; color: var(--ink); text-decoration: none; }
+main { padding-block: 40px 64px; display: grid; gap: 40px; }
+main > section { min-width: 0; }
+h1 { font: 800 clamp(30px, 6vw, 44px)/1.05 var(--font-display); letter-spacing: -.035em; margin: 0 0 12px; text-wrap: balance; }
+h2 { font: 700 22px/1.2 var(--font-display); letter-spacing: -.02em; margin: 0 0 10px; }
+p { margin: 0 0 10px; max-width: 65ch; }
+.lede { font-size: 18px; color: var(--muted); }
+.eyebrow { font: 600 11.5px/1 var(--font-mono); letter-spacing: .14em; text-transform: uppercase; color: var(--up); margin-bottom: 12px; }
+code { font: 14px var(--font-mono); background: var(--chip); padding: 1px 5px; border-radius: 4px; overflow-wrap: anywhere; }
+pre { margin: 0; background: var(--code); color: var(--code-ink); padding: 16px 18px; border-radius: 10px; overflow-x: auto; font: 13.5px/1.6 var(--font-mono); }
+pre code { background: none; padding: 0; color: inherit; overflow-wrap: normal; }
+.mail { background: var(--paper); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
+.mail-head { padding: 16px 22px; border-bottom: 1px solid var(--line); display: grid; gap: 4px; font-size: 14px; color: var(--muted); }
+.mail-head b { color: var(--ink); font-weight: 600; }
+.mail-head .subj { font: 700 18px/1.3 var(--font-body); color: var(--ink); }
+.mail-body { padding: 22px clamp(18px, 4vw, 34px) 28px; max-width: 68ch; }
+.mail-body h3 { font: 700 19px/1.2 var(--font-display); letter-spacing: -.015em; margin: 26px 0 10px; }
+.mail-body ol, .mail-body ul { margin: 0; padding-left: 22px; display: grid; gap: 8px; }
+.mail-body p { margin: 0 0 12px; }
+.mail-body a { overflow-wrap: anywhere; }
+.loading { color: var(--muted); }
+.cta { padding: 26px clamp(18px, 4vw, 34px); background: var(--band); color: var(--band-ink); border-radius: 14px; display: grid; gap: 14px; }
+.cta h2 { margin: 0; font-size: clamp(22px, 3vw, 28px); }
+.cta p { margin: 0; opacity: .8; }
+.cta form { display: flex; gap: 8px; flex-wrap: wrap; }
+.cta input { flex: 1 1 220px; min-width: 0; padding: 11px 14px; border-radius: 9px; border: 1px solid color-mix(in srgb, var(--band-ink) 25%, transparent); background: color-mix(in srgb, var(--band-ink) 8%, transparent); color: var(--band-ink); font: 500 15px var(--font-body); }
+.cta input::placeholder { color: color-mix(in srgb, var(--band-ink) 55%, transparent); }
+.cta button { padding: 11px 18px; border: 0; border-radius: 9px; background: var(--warm); color: #1b1206; font: 700 15px var(--font-body); cursor: pointer; }
+.cta .ok { flex-basis: 100%; font-size: 14px; color: var(--band-ink); }
+/* language picker + hide Google's translate banner */
+.lang-pick { position: relative; display: inline-flex; align-items: center; gap: 6px; color: var(--muted); }
+.lang-pick svg { width: 16px; height: 16px; flex: none; }
+.lang-pick select { appearance: none; -webkit-appearance: none; font: inherit; font-size: 14px; color: var(--ink); background: var(--paper); border: 1px solid var(--line); border-radius: 8px; padding: 7px 10px; max-width: 160px; cursor: pointer; }
+iframe.skiptranslate, .goog-te-banner-frame, #goog-gt-tt, .goog-te-balloon-frame, .VIpgJd-ZVi9od-ORHb-OEVmcd, .VIpgJd-ZVi9od-aZ2wEe-wOHMyf { display: none !important; }
+body { top: 0 !important; }
+font[style] { background: none !important; box-shadow: none !important; }
+</style></head><body>
+<header><div class="wrap"><a class="logo notranslate" translate="no" href="./">Upcurrent</a><span style="display:flex;gap:14px;align-items:center;flex-wrap:wrap"><span id="langPick"></span><a href="./">Back to the dashboard</a></span></div></header>
+<main class="wrap">
+<section>
+  <div class="eyebrow">The morning email · free</div>
+  <h1>Here's what lands in your inbox at 7am</h1>
+  <p class="lede">This is the real email, built from the latest data. Subscribers get a fresh one every morning at 7am in their own time zone.</p>
+</section>
+
+<section class="mail" aria-label="Email preview">
+  <div class="mail-head">
+    <span><b>From:</b> Upcurrent</span>
+    <span class="subj" id="subj">Loading…</span>
+    <span id="when"></span>
+  </div>
+  <div class="mail-body" id="mail"><p class="loading">Loading the latest email…</p></div>
+</section>
+
+<section class="cta">
+  <h2>Get this every morning</h2>
+  <p>Free. One short email a day. Unsubscribe anytime with one click.</p>
+  <form class="nl-form" id="emailForm" method="post" target="_blank">
+    <input type="email" name="email" required placeholder="you@example.com" aria-label="Email address" autocomplete="email">
+    <button type="submit">Subscribe</button>
+    <div class="ok" hidden>Check your inbox to confirm.</div>
+  </form>
+</section>
+</main>
+<footer><div class="wrap">Want the full picture? <a href="./">Open the live dashboard</a></div></footer>
+<script src="translate.js"></script>
+<script>
+const NEWSLETTER = "anmolsrivastavadev", GOATCOUNTER = "upcurrent";
+const sc = document.createElement("script");
+sc.async = true; sc.src = "https://gc.zgo.at/count.js"; sc.dataset.goatcounter = `https://${GOATCOUNTER}.goatcounter.com/count`;
+document.head.appendChild(sc);
+
+const f = document.getElementById("emailForm");
+f.action = `https://buttondown.com/api/emails/embed-subscribe/${NEWSLETTER}`;
+const tz = document.createElement("input");
+tz.type = "hidden"; tz.name = "metadata__timezone";
+try { tz.value = Intl.DateTimeFormat().resolvedOptions().timeZone || ""; } catch { tz.value = ""; }
+f.appendChild(tz);
+f.addEventListener("submit", () => {
+  try { localStorage.setItem("uc-subscribed", JSON.stringify(Date.now())); } catch {}
+  try { window.goatcounter?.count?.({ path: "subscribe", title: "Subscribed (email page)", event: true }); } catch {}
+  setTimeout(() => { f.querySelector(".ok").hidden = false; f.reset(); }, 100);
+});
+
+// The email is Markdown (scripts/digest.cjs writes data/digest.md). This turns its small subset into HTML.
+const esc = s => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+const inline = s => {
+  const links = [];
+  s = s.replace(/\[((?:\\.|[^\]])*)\]\((https?:\/\/[^)\s]+)\)/g, (m, t, u) => { links.push([t, u]); return `\u0000${links.length - 1}\u0000`; });
+  s = esc(s).replace(/\*\*(.+?)\*\*/g, "<b>$1</b>");
+  s = s.replace(/\u0000(\d+)\u0000/g, (m, i) => `<a href="${esc(links[i][1])}" target="_blank" rel="noopener">${inline(links[i][0])}</a>`);
+  return s.replace(/\\([\\`*_[\]<>])/g, "$1");
+};
+function render(md) {
+  const out = []; let list = null;
+  const close = () => { if (list) { out.push(`</${list}>`); list = null; } };
+  for (const line of md.split("\n")) {
+    let m;
+    if (!line.trim()) { close(); continue; }
+    if ((m = line.match(/^## (.*)/))) { close(); out.push(`<h3>${inline(m[1])}</h3>`); }
+    else if ((m = line.match(/^\d+\. (.*)/))) { if (list !== "ol") { close(); out.push("<ol>"); list = "ol"; } out.push(`<li>${inline(m[1])}</li>`); }
+    else if ((m = line.match(/^- (.*)/))) { if (list !== "ul") { close(); out.push("<ul>"); list = "ul"; } out.push(`<li>${inline(m[1])}</li>`); }
+    else { close(); out.push(`<p>${inline(line)}</p>`); }
+  }
+  close();
+  return out.join("");
+}
+fetch("data/digest.md", { cache: "no-cache" }).then(r => { if (!r.ok) throw 0; return r.text(); }).then(t => {
+  const lines = t.split("\n"), title = (lines[0] || "").replace(/^# /, "");
+  document.getElementById("subj").textContent = title.replace(/\\(.)/g, "$1");
+  document.getElementById("mail").innerHTML = render(lines.slice(1).join("\n"));
+}).catch(() => {
+  document.getElementById("subj").textContent = "Upcurrent";
+  document.getElementById("mail").innerHTML = `<p>The preview isn't available right now. <a href="./">See today's movers on the dashboard</a>.</p>`;
+});
+fetch("data/api/today.json").then(r => r.json()).then(j => {
+  document.getElementById("when").textContent = `Built from data updated ${new Date(j.about.updated).toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" })}`;
+}).catch(() => {});
+</script>
+</body></html>
