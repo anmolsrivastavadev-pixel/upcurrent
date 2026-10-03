@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-03T03:00:58.254Z"
+  "updated": "2026-10-03T03:30:47.827Z"
  },
  "pulse": {
-  "trending": 89,
+  "trending": 90,
   "accelerating": 0,
-  "newModels": 8,
-  "discussions": 45,
-  "stars": 3365
+  "newModels": 9,
+  "discussions": 49,
+  "stars": 3346
  },
  "rising": [
   {
@@ -22,7 +22,7 @@
    "cat": "Coding",
    "score": 95,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 800",
+   "desc": "Model on Hugging Face · open source · ♥ 802",
    "meta": [
     "824 downloads",
     "Released 2 days ago"
@@ -40,8 +40,8 @@
    "grow": 2,
    "desc": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
    "meta": [
-    "★ 4,988",
-    "+137 in 24h",
+    "★ 4,995",
+    "+144 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-09-28T23:40:05Z",
@@ -57,8 +57,8 @@
    "grow": 4,
    "desc": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
    "meta": [
-    "★ 2,509",
-    "+162 in 24h",
+    "★ 2,515",
+    "+167 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-09-29T23:06:00Z",
@@ -71,33 +71,16 @@
    "src": "gh",
    "cat": "Agents",
    "score": 94,
-   "grow": 17,
+   "grow": 18,
    "desc": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
    "meta": [
-    "★ 2,172",
-    "+585 in 24h",
+    "★ 2,181",
+    "+580 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-09-30T05:00:35Z",
    "breakout": null,
    "url": "https://github.com/rehan-remade/universal-modder"
-  },
-  {
-   "name": "yomiyasu",
-   "owner": "nanaism",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 90,
-   "grow": 5,
-   "desc": "AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese",
-   "meta": [
-    "★ 1,197",
-    "+96 in 24h",
-    "Created 3 days ago"
-   ],
-   "at": "2026-09-30T11:49:32Z",
-   "breakout": null,
-   "url": "https://github.com/nanaism/yomiyasu"
   },
   {
    "name": "laya",
@@ -121,11 +104,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 89,
-   "grow": 8,
+   "grow": 9,
    "desc": "A tiny friend that lives in your notch (macOS) or at the top of your screen (Windows, Linux) and keeps an eye on your coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more.",
    "meta": [
-    "★ 3,004",
-    "+427 in 24h",
+    "★ 3,012",
+    "+425 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-09-27T21:54:12Z",
@@ -133,16 +116,33 @@
    "url": "https://github.com/Louis-CFM/coucou"
   },
   {
+   "name": "yomiyasu",
+   "owner": "nanaism",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 89,
+   "grow": 5,
+   "desc": "AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese",
+   "meta": [
+    "★ 1,201",
+    "+100 in 24h",
+    "Created 3 days ago"
+   ],
+   "at": "2026-09-30T11:49:32Z",
+   "breakout": null,
+   "url": "https://github.com/nanaism/yomiyasu"
+  },
+  {
    "name": "OpenDots",
    "owner": "CopilotKit",
    "src": "gh",
    "cat": "Tools",
    "score": 88,
-   "grow": 72,
+   "grow": 74,
    "desc": "Your always-on AI coworkers that move between text, calls, and Slack.",
    "meta": [
-    "★ 1,534",
-    "+1,006 in 24h",
+    "★ 1,548",
+    "+996 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-09-29T17:13:58Z",
@@ -154,9 +154,9 @@
    "owner": "abenzerps",
    "src": "hf",
    "cat": "Infrastructure",
-   "score": 87,
+   "score": 88,
    "grow": 0,
-   "desc": "Model on Hugging Face · open weights · ♥ 2.8K",
+   "desc": "Model on Hugging Face · open weights · ♥ 2.9K",
    "meta": [
     "1.4M downloads",
     "Released 12 days ago"
@@ -166,20 +166,20 @@
    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF"
   },
   {
-   "name": "CLM-v0.1-8B",
-   "owner": "Contrastive-LM",
+   "name": "clef-flash",
+   "owner": "Cloudflare",
    "src": "hf",
-   "cat": "Agents",
-   "score": 86,
-   "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 671",
+   "cat": "Coding",
+   "score": 87,
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 272",
    "meta": [
-    "3K downloads",
-    "Released 11 days ago"
+    "1.3K downloads",
+    "Released 2 days ago"
    ],
-   "at": "2026-09-21T20:09:04.000Z",
+   "at": "2026-09-30T21:15:36.000Z",
    "breakout": null,
-   "url": "https://huggingface.co/Contrastive-LM/CLM-v0.1-8B"
+   "url": "https://huggingface.co/Cloudflare/clef-flash"
   }
  ],
  "breakouts": [
@@ -294,8 +294,8 @@
    "name": "OpenDots",
    "url": "https://github.com/CopilotKit/OpenDots",
    "from": "GitHub",
-   "use": 1006,
-   "useLabel": "+1,006 stars/day",
+   "use": 996,
+   "useLabel": "+996 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -318,7 +318,7 @@
    "from": "Hugging Face",
    "use": 6237305,
    "useLabel": "6.2M downloads",
-   "usePct": 0.9714285714285714,
+   "usePct": 0.9722222222222222,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -389,35 +389,35 @@
  "github": [
   {
    "repo": "CopilotKit/OpenDots",
-   "stars": 1534,
-   "d24": 1006,
+   "stars": 1548,
+   "d24": 996,
    "est": false,
-   "forks": 185,
+   "forks": 189,
    "contrib": null,
    "score": 88
   },
   {
    "repo": "rehan-remade/universal-modder",
-   "stars": 2172,
-   "d24": 585,
+   "stars": 2181,
+   "d24": 580,
    "est": false,
-   "forks": 167,
+   "forks": 168,
    "contrib": null,
    "score": 94
   },
   {
    "repo": "Louis-CFM/coucou",
-   "stars": 3004,
-   "d24": 427,
+   "stars": 3012,
+   "d24": 425,
    "est": false,
-   "forks": 458,
+   "forks": 460,
    "contrib": 6,
    "score": 89
   },
   {
    "repo": "edenfunf/reelmimic",
    "stars": 966,
-   "d24": 259,
+   "d24": 253,
    "est": false,
    "forks": 126,
    "contrib": null,
@@ -425,8 +425,8 @@
   },
   {
    "repo": "kaankiziltug/logo-design-skill",
-   "stars": 1547,
-   "d24": 207,
+   "stars": 1549,
+   "d24": 203,
    "est": false,
    "forks": 94,
    "contrib": null,
@@ -434,8 +434,8 @@
   },
   {
    "repo": "feitangyuan/onetake",
-   "stars": 1347,
-   "d24": 175,
+   "stars": 1350,
+   "d24": 174,
    "est": false,
    "forks": 83,
    "contrib": null,
@@ -443,21 +443,21 @@
   },
   {
    "repo": "feder-cr/dots",
-   "stars": 2509,
-   "d24": 162,
+   "stars": 2515,
+   "d24": 167,
    "est": false,
    "forks": 434,
    "contrib": null,
    "score": 94
   },
   {
-   "repo": "yihui-dev/awesome-opus5-5-videos",
-   "stars": 1436,
-   "d24": 146,
+   "repo": "KKKKhazix/AIHOT",
+   "stars": 4995,
+   "d24": 144,
    "est": false,
-   "forks": 153,
-   "contrib": null,
-   "score": 83
+   "forks": 1360,
+   "contrib": 10,
+   "score": 94
   }
  ],
  "models": [
@@ -470,7 +470,7 @@
    "grow": 0,
    "score": 95,
    "cat": "Coding",
-   "likes": 800
+   "likes": 802
   },
   {
    "name": "laya",
@@ -490,9 +490,20 @@
    "at": "2026-09-20T15:51:13.000Z",
    "dl": 1376248,
    "grow": 0,
-   "score": 87,
+   "score": 88,
    "cat": "Infrastructure",
-   "likes": 2848
+   "likes": 2851
+  },
+  {
+   "name": "clef-flash",
+   "org": "Cloudflare",
+   "lic": "Open source",
+   "at": "2026-09-30T21:15:36.000Z",
+   "dl": 1303,
+   "grow": null,
+   "score": 87,
+   "cat": "Coding",
+   "likes": 272
   },
   {
    "name": "CLM-v0.1-8B",
@@ -504,18 +515,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Agents",
-   "likes": 671
-  },
-  {
-   "name": "clef-flash",
-   "org": "Cloudflare",
-   "lic": "Open source",
-   "at": "2026-09-30T21:15:36.000Z",
-   "dl": 1303,
-   "grow": null,
-   "score": 86,
-   "cat": "Coding",
-   "likes": 270
+   "likes": 672
   },
   {
    "name": "Qwen-Image-2.1",
@@ -526,7 +526,7 @@
    "grow": 0,
    "score": 85,
    "cat": "Vision",
-   "likes": 2843
+   "likes": 2846
   }
  ],
  "free": [
@@ -989,32 +989,32 @@
    "kind": "Lab blog"
   },
   {
-   "t": "AI News: Dots, GPT-6.1 Sol, Sonnet 5.5, Gemini 4, and everything you need to know",
-   "url": "https://www.youtube.com/watch?v=dDgncbBAA0c",
-   "at": "2026-10-02T15:00:16Z",
-   "src": "Matt Wolfe",
-   "kind": "Video"
-  },
-  {
-   "t": "OpenAI’s Medicare attack has exposed Australia’s ‘tech debt’. Fixing it could bring a big bill for taxpayers",
-   "url": "https://www.theguardian.com/australia-news/2026/oct/03/openais-medicare-attack-has-exposed-australias-tech-debt-fixing-it-could-bring-a-big-bill-for-taxpayers",
-   "at": "2026-10-02T15:00:13Z",
-   "src": "The Guardian",
+   "t": "driven judicial transformation with constitutional values: CJI Surya Kant",
+   "url": "https://www.tribuneindia.com/news/india/need-to-balance-ai-driven-judicial-transformation-with-constitutional-values-cji-surya-kant/",
+   "at": "2026-10-02T15:17:05Z",
+   "src": "The Tribune",
    "kind": "News"
   },
   {
-   "t": "‘These guys are just coming from nothing’: questions over multibillion-dollar Firmus float amid datacentre backlash",
-   "url": "https://www.theguardian.com/australia-news/2026/oct/03/ai-datacentre-backlash-firmus-asx-float-tasmania-australia",
-   "at": "2026-10-02T15:00:12Z",
-   "src": "The Guardian",
+   "t": "Elon Musk’s latest public breakup is about as cringey as it could possibly be.",
+   "url": "https://www.theverge.com/tech/1003911/elon-musk-shivon-zilis-let-go",
+   "at": "2026-10-02T15:15:55Z",
+   "src": "The Verge",
    "kind": "News"
   },
   {
-   "t": "Toward provably private learning from federated data",
-   "url": "https://research.google/blog/toward-provably-private-learning-from-federated-data/",
-   "at": "2026-10-02T14:57:41.000Z",
-   "src": "Google Research",
-   "kind": "Lab blog"
+   "t": "Nvidia Well Positioned as AI Bottleneck Shifts, Morgan Stanley Says",
+   "url": "https://www.marketscreener.com/news/nvidia-well-positioned-as-ai-bottleneck-shifts-morgan-stanley-says-ce785ddbd98bf723",
+   "at": "2026-10-02T15:14:31Z",
+   "src": "MarketScreener",
+   "kind": "News"
+  },
+  {
+   "t": "AI is 55% financed in a closed loop",
+   "url": "https://www.marketscreener.com/news/ai-is-55-financed-in-a-closed-loop-ce785ddbd989f123",
+   "at": "2026-10-02T15:12:33Z",
+   "src": "MarketScreener",
+   "kind": "News"
   }
  ],
  "discussions": [
@@ -1023,8 +1023,8 @@
    "t": "Muse Gadgets",
    "url": "https://news.ycombinator.com/item?id=49937504",
    "link": "https://gadgets.muse.ai",
-   "up": 143,
-   "com": 68,
+   "up": 150,
+   "com": 69,
    "at": "2026-10-02T19:26:54.000Z"
   },
   {
@@ -1032,8 +1032,8 @@
    "t": "From the creator of Redis; run LLM locally with ds4",
    "url": "https://news.ycombinator.com/item?id=49936575",
    "link": "https://dwarfstar.sh/",
-   "up": 164,
-   "com": 42,
+   "up": 174,
+   "com": 43,
    "at": "2026-10-02T18:01:16.000Z"
   },
   {
@@ -1041,7 +1041,7 @@
    "t": "AI Makes Me Sad",
    "url": "https://news.ycombinator.com/item?id=49934487",
    "link": "https://mondobe.com/ai-makes-me-sad",
-   "up": 180,
+   "up": 181,
    "com": 218,
    "at": "2026-10-02T15:18:00.000Z"
   },
@@ -1050,27 +1050,27 @@
    "t": "With most information hidden, the game Stratego had stumped AI until now",
    "url": "https://news.ycombinator.com/item?id=49933740",
    "link": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
-   "up": 189,
-   "com": 91,
+   "up": 191,
+   "com": 92,
    "at": "2026-10-02T14:11:24.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "One month coding with GLM 5.3 Flash",
-   "url": "https://news.ycombinator.com/item?id=49934620",
-   "link": "https://wagtail.org/blog/one-month-on-glm-53-flash/",
-   "up": 122,
-   "com": 95,
-   "at": "2026-10-02T15:29:15.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Show HN: Made an open-source Lego AI generator",
    "url": "https://news.ycombinator.com/item?id=49937916",
    "link": "https://github.com/anteloc/ldraw-nova",
-   "up": 74,
+   "up": 80,
    "com": 41,
    "at": "2026-10-02T20:00:15.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "One month coding with GLM 5.3 Flash",
+   "url": "https://news.ycombinator.com/item?id=49934620",
+   "link": "https://wagtail.org/blog/one-month-on-glm-53-flash/",
+   "up": 128,
+   "com": 99,
+   "at": "2026-10-02T15:29:15.000Z"
   }
  ]
 }
