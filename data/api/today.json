@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-03T06:00:59.001Z"
+  "updated": "2026-10-03T06:30:49.043Z"
  },
  "pulse": {
-  "trending": 87,
+  "trending": 88,
   "accelerating": 0,
-  "newModels": 8,
+  "newModels": 9,
   "discussions": 46,
-  "stars": 3056
+  "stars": 3042
  },
  "rising": [
   {
@@ -22,7 +22,7 @@
    "cat": "Coding",
    "score": 95,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 825",
+   "desc": "Model on Hugging Face · open source · ♥ 831",
    "meta": [
     "824 downloads",
     "Released 2 days ago"
@@ -40,8 +40,8 @@
    "grow": 2,
    "desc": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
    "meta": [
-    "★ 5,014",
-    "+150 in 24h",
+    "★ 5,015",
+    "+147 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-09-28T23:40:05Z",
@@ -57,8 +57,8 @@
    "grow": 5,
    "desc": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
    "meta": [
-    "★ 2,547",
-    "+189 in 24h",
+    "★ 2,553",
+    "+192 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-09-29T23:06:00Z",
@@ -74,8 +74,8 @@
    "grow": 21,
    "desc": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
    "meta": [
-    "★ 2,238",
-    "+575 in 24h",
+    "★ 2,246",
+    "+569 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-09-30T05:00:35Z",
@@ -88,10 +88,10 @@
    "src": "gh",
    "cat": "Tools",
    "score": 90,
-   "grow": 83,
+   "grow": 85,
    "desc": "Your always-on AI coworkers that move between text, calls, and Slack.",
    "meta": [
-    "★ 1,629",
+    "★ 1,649",
     "+966 in 24h",
     "Created 4 days ago"
    ],
@@ -121,11 +121,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 89,
-   "grow": 9,
+   "grow": 10,
    "desc": "A tiny friend that lives in your notch (macOS) or at the top of your screen (Windows, Linux) and keeps an eye on your coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more.",
    "meta": [
-    "★ 3,036",
-    "+395 in 24h",
+    "★ 3,040",
+    "+388 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-09-27T21:54:12Z",
@@ -138,11 +138,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 89,
-   "grow": 6,
+   "grow": 7,
    "desc": "AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese",
    "meta": [
-    "★ 1,218",
-    "+110 in 24h",
+    "★ 1,222",
+    "+112 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-09-30T11:49:32Z",
@@ -150,27 +150,11 @@
    "url": "https://github.com/nanaism/yomiyasu"
   },
   {
-   "name": "clef-flash",
-   "owner": "Cloudflare",
-   "src": "hf",
-   "cat": "Coding",
-   "score": 88,
-   "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 279",
-   "meta": [
-    "1.3K downloads",
-    "Released 2 days ago"
-   ],
-   "at": "2026-09-30T21:15:36.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/Cloudflare/clef-flash"
-  },
-  {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
    "owner": "abenzerps",
    "src": "hf",
    "cat": "Infrastructure",
-   "score": 87,
+   "score": 88,
    "grow": 0,
    "desc": "Model on Hugging Face · open weights · ♥ 2.9K",
    "meta": [
@@ -180,6 +164,22 @@
    "at": "2026-09-20T15:51:13.000Z",
    "breakout": null,
    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF"
+  },
+  {
+   "name": "clef-flash",
+   "owner": "Cloudflare",
+   "src": "hf",
+   "cat": "Coding",
+   "score": 88,
+   "grow": 0,
+   "desc": "Model on Hugging Face · open source · ♥ 283",
+   "meta": [
+    "1.3K downloads",
+    "Released 2 days ago"
+   ],
+   "at": "2026-09-30T21:15:36.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/Cloudflare/clef-flash"
   }
  ],
  "breakouts": [
@@ -311,23 +311,6 @@
    "verdict": "Talk only, no public usage numbers"
   },
   {
-   "name": "Nemotron-3-Diarization",
-   "url": "https://huggingface.co/nvidia/Nemotron-3-Diarization",
-   "from": "Hugging Face",
-   "use": 44350,
-   "useLabel": "44K downloads",
-   "usePct": 0.5142857142857142,
-   "talk": [
-    {
-     "src": "Huggingface.co",
-     "t": "nvidia/Nemotron-3-Diarization · Hugging Face",
-     "url": "https://huggingface.co/nvidia/Nemotron-3-Diarization"
-    }
-   ],
-   "buzz": 1,
-   "verdict": "The hype matches real use"
-  },
-  {
    "name": "OpenDots",
    "url": "https://github.com/CopilotKit/OpenDots",
    "from": "GitHub",
@@ -355,7 +338,7 @@
    "from": "Hugging Face",
    "use": 6237305,
    "useLabel": "6.2M downloads",
-   "usePct": 0.9714285714285714,
+   "usePct": 0.9722222222222222,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -446,7 +429,7 @@
  "github": [
   {
    "repo": "CopilotKit/OpenDots",
-   "stars": 1629,
+   "stars": 1649,
    "d24": 966,
    "est": false,
    "forks": 200,
@@ -455,17 +438,17 @@
   },
   {
    "repo": "rehan-remade/universal-modder",
-   "stars": 2238,
-   "d24": 575,
+   "stars": 2246,
+   "d24": 569,
    "est": false,
-   "forks": 174,
+   "forks": 175,
    "contrib": null,
    "score": 94
   },
   {
    "repo": "Louis-CFM/coucou",
-   "stars": 3036,
-   "d24": 395,
+   "stars": 3040,
+   "d24": 388,
    "est": false,
    "forks": 466,
    "contrib": 6,
@@ -473,7 +456,7 @@
   },
   {
    "repo": "edenfunf/reelmimic",
-   "stars": 980,
+   "stars": 985,
    "d24": 220,
    "est": true,
    "forks": 130,
@@ -482,8 +465,8 @@
   },
   {
    "repo": "feder-cr/dots",
-   "stars": 2547,
-   "d24": 189,
+   "stars": 2553,
+   "d24": 192,
    "est": false,
    "forks": 434,
    "contrib": null,
@@ -491,8 +474,8 @@
   },
   {
    "repo": "kaankiziltug/logo-design-skill",
-   "stars": 1561,
-   "d24": 189,
+   "stars": 1563,
+   "d24": 186,
    "est": false,
    "forks": 94,
    "contrib": null,
@@ -500,8 +483,8 @@
   },
   {
    "repo": "yihui-dev/awesome-opus5-5-videos",
-   "stars": 1460,
-   "d24": 155,
+   "stars": 1466,
+   "d24": 159,
    "est": false,
    "forks": 154,
    "contrib": null,
@@ -509,8 +492,8 @@
   },
   {
    "repo": "KKKKhazix/AIHOT",
-   "stars": 5014,
-   "d24": 150,
+   "stars": 5015,
+   "d24": 147,
    "est": false,
    "forks": 1366,
    "contrib": 10,
@@ -527,7 +510,7 @@
    "grow": 0,
    "score": 95,
    "cat": "Coding",
-   "likes": 825
+   "likes": 831
   },
   {
    "name": "laya",
@@ -538,7 +521,18 @@
    "grow": null,
    "score": 90,
    "cat": "Tools",
-   "likes": 5009
+   "likes": 5011
+  },
+  {
+   "name": "Qwen-Image-2.1-Uncensored-GGUF",
+   "org": "abenzerps",
+   "lic": "Open weights",
+   "at": "2026-09-20T15:51:13.000Z",
+   "dl": 1376248,
+   "grow": 0,
+   "score": 88,
+   "cat": "Infrastructure",
+   "likes": 2855
   },
   {
    "name": "clef-flash",
@@ -549,18 +543,7 @@
    "grow": 0,
    "score": 88,
    "cat": "Coding",
-   "likes": 279
-  },
-  {
-   "name": "Qwen-Image-2.1-Uncensored-GGUF",
-   "org": "abenzerps",
-   "lic": "Open weights",
-   "at": "2026-09-20T15:51:13.000Z",
-   "dl": 1376248,
-   "grow": 0,
-   "score": 87,
-   "cat": "Infrastructure",
-   "likes": 2853
+   "likes": 283
   },
   {
    "name": "CLM-v0.1-8B",
@@ -583,7 +566,7 @@
    "grow": 0,
    "score": 85,
    "cat": "Vision",
-   "likes": 2848
+   "likes": 2850
   }
  ],
  "free": [
@@ -1046,31 +1029,31 @@
    "kind": "News"
   },
   {
-   "t": "AI content ‘lacks the spark’ of human-made art, Pope Leo says",
-   "url": "https://globalnews.ca/news/12085593/ai-content-human-made-art/",
-   "at": "2026-10-02T17:48:53Z",
-   "src": "Global News",
+   "t": "OpenAI fires researchers who 'mishandled sensitive information'",
+   "url": "https://www.lbc.co.uk/article/openai-fires-researchers-who-mishandled-sensitive-information-5HjdjMX_2/",
+   "at": "2026-10-02T18:05:38Z",
+   "src": "LBC",
    "kind": "News"
   },
   {
-   "t": "OpenAI Alerts Over 100 Groups About Rogue AI Agent Activity",
-   "url": "https://www.ndtv.com/world-news/openai-alerts-over-100-groups-about-rogue-ai-agent-activity-12131640",
-   "at": "2026-10-02T17:29:13Z",
-   "src": "NDTV.com",
+   "t": "Prime Minister Carney launches new National Council on Artificial Intelligence",
+   "url": "https://lfpress.com/press-releases/pr-newswire/prime-minister-carney-launches-new-national-council-on-artificial-intelligence/",
+   "at": "2026-10-02T18:04:20Z",
+   "src": "The London Free Press",
    "kind": "News"
   },
   {
-   "t": "Trump expected to name intelligence chief Jay Clayton as new AI czar",
-   "url": "https://www.inquirer.com/politics/nation/jay-clayton-ai-czar-trump-20261002.html",
-   "at": "2026-10-02T17:26:21Z",
-   "src": "The Philadelphia Inquirer",
+   "t": "Trump set to name Jay Clayton as AI czar with safety fear rising",
+   "url": "https://www.spokesman.com/stories/2026/oct/02/trump-set-to-name-jay-clayton-as-ai-czar-with-safe/",
+   "at": "2026-10-02T18:01:00Z",
+   "src": "Spokane Spokesman-Review",
    "kind": "News"
   },
   {
-   "t": "OpenAI Fires Three Researchers Over Alleged Mishandling Of Sensitive Information. What We Know",
-   "url": "https://www.ndtvprofit.com/technology/openai-fires-three-researchers-over-alleged-mishandling-of-sensitive-information-what-we-know-12131579",
-   "at": "2026-10-02T17:23:30Z",
-   "src": "NDTV Profit",
+   "t": "The perils and promises of AI's Pandora's Box",
+   "url": "https://www.bangkokpost.com/opinion/opinion/3330670/the-perils-and-promises-of-ais-pandoras-box",
+   "at": "2026-10-02T18:01:00Z",
+   "src": "Bangkok Post",
    "kind": "News"
   }
  ],
@@ -1080,7 +1063,7 @@
    "t": "From the creator of Redis; run LLM locally with ds4",
    "url": "https://news.ycombinator.com/item?id=49936575",
    "link": "https://dwarfstar.sh/",
-   "up": 202,
+   "up": 209,
    "com": 56,
    "at": "2026-10-02T18:01:16.000Z"
   },
@@ -1089,7 +1072,7 @@
    "t": "Muse Gadgets",
    "url": "https://news.ycombinator.com/item?id=49937504",
    "link": "https://gadgets.muse.ai",
-   "up": 173,
+   "up": 175,
    "com": 78,
    "at": "2026-10-02T19:26:54.000Z"
   },
@@ -1098,7 +1081,7 @@
    "t": "Cloudflare OHTTP gateway",
    "url": "https://news.ycombinator.com/item?id=49941091",
    "link": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/",
-   "up": 36,
+   "up": 41,
    "com": 9,
    "at": "2026-10-03T03:15:05.000Z"
   },
@@ -1107,7 +1090,7 @@
    "t": "With most information hidden, the game Stratego had stumped AI until now",
    "url": "https://news.ycombinator.com/item?id=49933740",
    "link": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
-   "up": 204,
+   "up": 205,
    "com": 97,
    "at": "2026-10-02T14:11:24.000Z"
   },
@@ -1116,8 +1099,8 @@
    "t": "AI Makes Me Sad",
    "url": "https://news.ycombinator.com/item?id=49934487",
    "link": "https://mondobe.com/ai-makes-me-sad",
-   "up": 181,
-   "com": 220,
+   "up": 182,
+   "com": 221,
    "at": "2026-10-02T15:18:00.000Z"
   },
   {
@@ -1125,7 +1108,7 @@
    "t": "Show HN: Made an open-source Lego AI generator",
    "url": "https://news.ycombinator.com/item?id=49937916",
    "link": "https://github.com/anteloc/ldraw-nova",
-   "up": 92,
+   "up": 101,
    "com": 44,
    "at": "2026-10-02T20:00:15.000Z"
   }
