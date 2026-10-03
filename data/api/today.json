@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-03T14:01:05.142Z"
+  "updated": "2026-10-03T14:30:46.625Z"
  },
  "pulse": {
   "trending": 86,
   "accelerating": 2,
   "newModels": 8,
-  "discussions": 48,
-  "stars": 4570
+  "discussions": 47,
+  "stars": 5074
  },
  "rising": [
   {
@@ -22,7 +22,7 @@
    "cat": "Coding",
    "score": 95,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 919",
+   "desc": "Model on Hugging Face · open source · ♥ 922",
    "meta": [
     "2.6K downloads",
     "Released 3 days ago"
@@ -40,7 +40,7 @@
    "grow": null,
    "desc": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
    "meta": [
-    "★ 5,210",
+    "★ 5,235",
     "~1,133 in 24h",
     "Created 5 days ago"
    ],
@@ -57,7 +57,7 @@
    "grow": null,
    "desc": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
    "meta": [
-    "★ 2,415",
+    "★ 2,428",
     "~715 in 24h",
     "Created 3 days ago"
    ],
@@ -74,8 +74,8 @@
    "grow": null,
    "desc": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
    "meta": [
-    "★ 2,568",
-    "~709 in 24h",
+    "★ 2,569",
+    "~705 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-09-29T23:06:00Z",
@@ -88,11 +88,11 @@
    "src": "gh",
    "cat": "Tools",
    "score": 90,
-   "grow": null,
+   "grow": 16,
    "desc": "Your always-on AI coworkers that move between text, calls, and Slack.",
    "meta": [
-    "★ 1,973",
-    "~510 in 24h",
+    "★ 1,999",
+    "+1,024 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-09-29T17:13:58Z",
@@ -124,8 +124,8 @@
    "grow": null,
    "desc": "A tiny friend that lives in your notch (macOS) or at the top of your screen (Windows, Linux) and keeps an eye on your coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more.",
    "meta": [
-    "★ 3,131",
-    "~552 in 24h",
+    "★ 3,136",
+    "~551 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-09-27T21:54:12Z",
@@ -141,8 +141,8 @@
    "grow": null,
    "desc": "AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese",
    "meta": [
-    "★ 1,274",
-    "~412 in 24h",
+    "★ 1,277",
+    "~410 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-09-30T11:49:32Z",
@@ -409,26 +409,35 @@
  "github": [
   {
    "repo": "KKKKhazix/AIHOT",
-   "stars": 5210,
+   "stars": 5235,
    "d24": 1133,
    "est": true,
-   "forks": 1391,
+   "forks": 1393,
    "contrib": 10,
    "score": 94
   },
   {
+   "repo": "CopilotKit/OpenDots",
+   "stars": 1999,
+   "d24": 1024,
+   "est": false,
+   "forks": 251,
+   "contrib": null,
+   "score": 90
+  },
+  {
    "repo": "rehan-remade/universal-modder",
-   "stars": 2415,
+   "stars": 2428,
    "d24": 715,
    "est": true,
-   "forks": 190,
+   "forks": 196,
    "contrib": null,
    "score": 94
   },
   {
    "repo": "feder-cr/dots",
-   "stars": 2568,
-   "d24": 709,
+   "stars": 2569,
+   "d24": 705,
    "est": true,
    "forks": 435,
    "contrib": null,
@@ -436,26 +445,17 @@
   },
   {
    "repo": "Louis-CFM/coucou",
-   "stars": 3131,
-   "d24": 552,
+   "stars": 3136,
+   "d24": 551,
    "est": true,
-   "forks": 488,
+   "forks": 489,
    "contrib": 6,
    "score": 89
   },
   {
-   "repo": "CopilotKit/OpenDots",
-   "stars": 1973,
-   "d24": 510,
-   "est": true,
-   "forks": 249,
-   "contrib": null,
-   "score": 90
-  },
-  {
    "repo": "nanaism/yomiyasu",
-   "stars": 1274,
-   "d24": 412,
+   "stars": 1277,
+   "d24": 410,
    "est": true,
    "forks": 28,
    "contrib": null,
@@ -463,17 +463,17 @@
   },
   {
    "repo": "yihui-dev/awesome-opus5-5-videos",
-   "stars": 1507,
+   "stars": 1509,
    "d24": 238,
    "est": true,
-   "forks": 160,
+   "forks": 161,
    "contrib": null,
    "score": 83
   },
   {
    "repo": "echris6/motion-video-kit",
    "stars": 971,
-   "d24": 162,
+   "d24": 161,
    "est": true,
    "forks": 85,
    "contrib": null,
@@ -490,7 +490,7 @@
    "grow": null,
    "score": 95,
    "cat": "Coding",
-   "likes": 919
+   "likes": 922
   },
   {
    "name": "laya",
@@ -501,7 +501,7 @@
    "grow": null,
    "score": 90,
    "cat": "Tools",
-   "likes": 5042
+   "likes": 5043
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -512,7 +512,7 @@
    "grow": null,
    "score": 88,
    "cat": "Infrastructure",
-   "likes": 2892
+   "likes": 2895
   },
   {
    "name": "clef-flash",
@@ -546,7 +546,7 @@
    "grow": null,
    "score": 85,
    "cat": "Tools",
-   "likes": 386
+   "likes": 388
   }
  ],
  "free": [
@@ -925,6 +925,13 @@
  },
  "headlines": [
   {
+   "t": "California’s new laws target workers’ biggest fear of AI taking their jobs",
+   "url": "https://www.theguardian.com/technology/2026/oct/03/california-ai-laws-worker-protection",
+   "at": "2026-10-03T14:00:00Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
    "t": "A look at a radio show co-hosted by an AI DJ and a human that is expanding in LA and other cities, as radio workers worry synthetic hosts may soon replace them",
    "url": "https://www.techmeme.com/261003/p8#a261003p8",
    "at": "2026-10-03T13:35:01.000Z",
@@ -944,6 +951,13 @@
    "at": "2026-10-03T06:35:01.000Z",
    "src": "Techmeme",
    "kind": "News"
+  },
+  {
+   "t": "HUGE Fable 5.5 LEAK + First Preview, Gemini 4 Argon, Claude Code Update, FREE Model, & More! AI NEWS",
+   "url": "https://www.youtube.com/watch?v=N3REfH4N9Dg",
+   "at": "2026-10-03T06:15:14Z",
+   "src": "WorldofAI",
+   "kind": "Video"
   },
   {
    "t": "Relay, which develops cloud-hosted, AI-powered smart radio communicators for frontline workers, raised $36M to help businesses capture \"frontline intelligence\"",
@@ -971,6 +985,13 @@
    "url": "https://www.techmeme.com/261003/p2#a261003p2",
    "at": "2026-10-03T05:11:01.000Z",
    "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "AI sings Russia's war story: Inside the rise of generative songs about Ukraine conflict",
+   "url": "https://timesofindia.indiatimes.com/world/europe/ai-sings-russias-war-story-inside-the-rise-of-generative-songs-about-ukraine-conflict/articleshow/134650594.cms",
+   "at": "2026-10-03T02:27:00Z",
+   "src": "Times of India",
    "kind": "News"
   },
   {
@@ -1014,37 +1035,25 @@
    "at": "2026-10-03T00:53:19Z",
    "src": "7NEWS Australia",
    "kind": "News"
-  },
-  {
-   "t": "Supabase raised $150M led by Singapore's GIC and agrees to acquire Turso, which offers a database optimized for AI agents, for an undisclosed sum",
-   "url": "https://www.techmeme.com/261002/p30#a261002p30",
-   "at": "2026-10-03T00:50:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "ED probes betting apps using AI firms to move Rs 2,000 crore abroad",
-   "url": "https://economictimes.indiatimes.com/news/india/ed-probes-betting-apps-using-ai-firms-to-move-rs-2000-crore-abroad/articleshow/134646286.cms",
-   "at": "2026-10-03T00:30:00Z",
-   "src": "The Economic Times",
-   "kind": "News"
-  },
-  {
-   "t": "Data centre pre-leasing doubles amid rising AI demand",
-   "url": "https://www.livemint.com/industry/infotech/data-centre-pre-leasing-doubles-amid-rising-ai-demand-11790836267049.html",
-   "at": "2026-10-03T00:00:42Z",
-   "src": "Livemint",
-   "kind": "News"
   }
  ],
  "discussions": [
   {
    "src": "Hacker News",
+   "t": "I Quit OpenAI Because Its Culture Is Broken",
+   "url": "https://news.ycombinator.com/item?id=49944227",
+   "link": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/",
+   "up": 45,
+   "com": 17,
+   "at": "2026-10-03T13:46:34.000Z"
+  },
+  {
+   "src": "Hacker News",
    "t": "Show HN: Germany's new sovereign AI model Kolibri",
    "url": "https://news.ycombinator.com/item?id=49943034",
    "link": "https://tej.as/blog/aleph-alpha-kolibri",
-   "up": 80,
-   "com": 53,
+   "up": 99,
+   "com": 69,
    "at": "2026-10-03T10:43:51.000Z"
   },
   {
@@ -1052,8 +1061,8 @@
    "t": "From the creator of Redis; run LLM locally with ds4",
    "url": "https://news.ycombinator.com/item?id=49936575",
    "link": "https://dwarfstar.sh/",
-   "up": 281,
-   "com": 80,
+   "up": 285,
+   "com": 83,
    "at": "2026-10-02T18:01:16.000Z"
   },
   {
@@ -1061,36 +1070,27 @@
    "t": "GitHub's new dashboard experience now the default",
    "url": "https://news.ycombinator.com/item?id=49942818",
    "link": "https://github.blog/changelog/2026-10-01-new-dashboard-experience-now-the-default/",
-   "up": 52,
-   "com": 62,
+   "up": 56,
+   "com": 64,
    "at": "2026-10-03T09:59:01.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Muse Gadgets",
-   "url": "https://news.ycombinator.com/item?id=49937504",
-   "link": "https://gadgets.muse.ai",
-   "up": 213,
-   "com": 93,
-   "at": "2026-10-02T19:26:54.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "An AI agent emailed researchers for help. It told us why",
-   "url": "https://news.ycombinator.com/item?id=49942865",
-   "link": "https://www.science.org/content/article/exclusive-ai-agent-emailed-hundreds-researchers-help-it-told-us-why",
-   "up": 44,
-   "com": 67,
-   "at": "2026-10-03T10:07:08.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Cloudflare OHTTP gateway",
    "url": "https://news.ycombinator.com/item?id=49941091",
    "link": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/",
-   "up": 121,
-   "com": 44,
+   "up": 127,
+   "com": 48,
    "at": "2026-10-03T03:15:05.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Muse Gadgets",
+   "url": "https://news.ycombinator.com/item?id=49937504",
+   "link": "https://gadgets.muse.ai",
+   "up": 214,
+   "com": 94,
+   "at": "2026-10-02T19:26:54.000Z"
   }
  ]
 }
