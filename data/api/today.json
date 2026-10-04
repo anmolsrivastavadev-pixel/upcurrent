@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-04T21:31:22.701Z"
+  "updated": "2026-10-04T22:00:59.319Z"
  },
  "pulse": {
-  "trending": 83,
+  "trending": 82,
   "accelerating": 0,
   "newModels": 7,
-  "discussions": 30,
-  "stars": 3217
+  "discussions": 33,
+  "stars": 2913
  },
  "rising": [
   {
@@ -37,11 +37,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 93,
-   "grow": 12,
+   "grow": 13,
    "desc": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
    "meta": [
-    "★ 3,058",
-    "+558 in 24h",
+    "★ 3,078",
+    "+571 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-09-30T05:00:35Z",
@@ -57,8 +57,8 @@
    "grow": 4,
    "desc": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
    "meta": [
-    "★ 5,757",
-    "+369 in 24h",
+    "★ 5,759",
+    "+360 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-09-28T23:40:05Z",
@@ -74,8 +74,8 @@
    "grow": 20,
    "desc": "Your always-on AI coworkers that move between text, calls, and Slack.",
    "meta": [
-    "★ 3,162",
-    "+749 in 24h",
+    "★ 3,169",
+    "+738 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-09-29T17:13:58Z",
@@ -89,7 +89,7 @@
    "cat": "Coding",
    "score": 91,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 422",
+   "desc": "Model on Hugging Face · open source · ♥ 423",
    "meta": [
     "6.4K downloads",
     "Released 4 days ago"
@@ -124,7 +124,7 @@
    "desc": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
    "meta": [
     "★ 2,599",
-    "+30 in 24h",
+    "+29 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-09-29T23:06:00Z",
@@ -137,12 +137,12 @@
    "src": "gh",
    "cat": "Agents",
    "score": 89,
-   "grow": 25,
+   "grow": 26,
    "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
    "meta": [
-    "★ 1,004",
-    "+602 in 24h",
-    "Created 2 days ago"
+    "★ 1,008",
+    "+579 in 24h",
+    "Created 3 days ago"
    ],
    "at": "2026-10-02T09:57:40Z",
    "breakout": null,
@@ -165,21 +165,20 @@
    "url": "https://huggingface.co/convaiinnovations/laya"
   },
   {
-   "name": "coucou",
-   "owner": "Louis-CFM",
-   "src": "gh",
-   "cat": "Agents",
+   "name": "Qwen-Image-2.1-Uncensored-GGUF",
+   "owner": "abenzerps",
+   "src": "hf",
+   "cat": "Infrastructure",
    "score": 87,
-   "grow": 5,
-   "desc": "A tiny friend that lives in your notch (macOS) or at the top of your screen (Windows, Linux) and keeps an eye on your coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more.",
+   "grow": 7,
+   "desc": "Model on Hugging Face · open weights · ♥ 3.1K",
    "meta": [
-    "★ 3,440",
-    "+280 in 24h",
-    "Created 7 days ago"
+    "1.6M downloads",
+    "Released 14 days ago"
    ],
-   "at": "2026-09-27T21:54:12Z",
+   "at": "2026-09-20T15:51:13.000Z",
    "breakout": null,
-   "url": "https://github.com/Louis-CFM/coucou"
+   "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF"
   }
  ],
  "breakouts": [
@@ -266,8 +265,8 @@
    "name": "OpenDots",
    "url": "https://github.com/CopilotKit/OpenDots",
    "from": "GitHub",
-   "use": 749,
-   "useLabel": "+749 stars/day",
+   "use": 738,
+   "useLabel": "+738 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -297,6 +296,16 @@
   }
  ],
  "receipts": [
+  {
+   "name": "nykooi1/vibe-wise",
+   "url": "https://github.com/nykooi1/vibe-wise",
+   "kind": "stars",
+   "first": "2026-10-04T06:01:02.461Z",
+   "firstV": 763,
+   "m": 1000,
+   "at": "2026-10-04T22:00:59.319Z",
+   "lead": 15.999127222222222
+  },
   {
    "name": "QingYunA/answer-me-with-html",
    "url": "https://github.com/QingYunA/answer-me-with-html",
@@ -366,32 +375,22 @@
    "m": 2500,
    "at": "2026-10-03T17:30:47.312Z",
    "lead": 47.71185972222222
-  },
-  {
-   "name": "edenfunf/reelmimic",
-   "url": "https://github.com/edenfunf/reelmimic",
-   "kind": "stars",
-   "first": "2026-10-02T08:25:35.064Z",
-   "firstV": 765,
-   "m": 1000,
-   "at": "2026-10-03T10:00:58.077Z",
-   "lead": 25.589725833333333
   }
  ],
  "github": [
   {
    "repo": "CopilotKit/OpenDots",
-   "stars": 3162,
-   "d24": 749,
+   "stars": 3169,
+   "d24": 738,
    "est": false,
-   "forks": 409,
+   "forks": 410,
    "contrib": 3,
    "score": 92
   },
   {
    "repo": "QingYunA/answer-me-with-html",
-   "stars": 1004,
-   "d24": 602,
+   "stars": 1008,
+   "d24": 579,
    "est": false,
    "forks": 68,
    "contrib": null,
@@ -399,44 +398,35 @@
   },
   {
    "repo": "rehan-remade/universal-modder",
-   "stars": 3058,
-   "d24": 558,
+   "stars": 3078,
+   "d24": 571,
    "est": false,
-   "forks": 267,
+   "forks": 270,
    "contrib": 16,
    "score": 93
   },
   {
-   "repo": "KKKKhazix/AIHOT",
-   "stars": 5757,
-   "d24": 369,
-   "est": false,
-   "forks": 1483,
-   "contrib": 10,
-   "score": 92
-  },
-  {
    "repo": "nykooi1/vibe-wise",
-   "stars": 996,
-   "d24": 361,
+   "stars": 1010,
+   "d24": 371,
    "est": false,
    "forks": 54,
    "contrib": null,
    "score": 79
   },
   {
-   "repo": "Louis-CFM/coucou",
-   "stars": 3440,
-   "d24": 280,
+   "repo": "KKKKhazix/AIHOT",
+   "stars": 5759,
+   "d24": 360,
    "est": false,
-   "forks": 534,
-   "contrib": 7,
-   "score": 87
+   "forks": 1484,
+   "contrib": 10,
+   "score": 92
   },
   {
    "repo": "edenfunf/reelmimic",
    "stars": 1265,
-   "d24": 208,
+   "d24": 207,
    "est": true,
    "forks": 154,
    "contrib": null,
@@ -445,11 +435,20 @@
   {
    "repo": "nanaism/yomiyasu",
    "stars": 1378,
-   "d24": 60,
+   "d24": 58,
    "est": false,
    "forks": 29,
    "contrib": null,
    "score": 85
+  },
+  {
+   "repo": "feder-cr/dots",
+   "stars": 2599,
+   "d24": 29,
+   "est": false,
+   "forks": 437,
+   "contrib": null,
+   "score": 90
   }
  ],
  "models": [
@@ -462,7 +461,7 @@
    "grow": 61,
    "score": 95,
    "cat": "Coding",
-   "likes": 1182
+   "likes": 1186
   },
   {
    "name": "clef-flash",
@@ -473,7 +472,7 @@
    "grow": 0,
    "score": 91,
    "cat": "Coding",
-   "likes": 422
+   "likes": 423
   },
   {
    "name": "Kolibri-1",
@@ -495,7 +494,7 @@
    "grow": null,
    "score": 89,
    "cat": "Tools",
-   "likes": 5156
+   "likes": 5158
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -506,7 +505,7 @@
    "grow": 7,
    "score": 87,
    "cat": "Infrastructure",
-   "likes": 3113
+   "likes": 3119
   },
   {
    "name": "VisionHOPE",
@@ -881,6 +880,20 @@
  },
  "headlines": [
   {
+   "t": "Sam Altman says OpenAI and Anthropic still hold fundamentally different worldviews on AI regulation, arguing that AI's benefits justify accepting some risks",
+   "url": "https://www.techmeme.com/261004/p19#a261004p19",
+   "at": "2026-10-04T21:55:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Sources: Anthropic's stock match of employee charity gifts hit $660M+ in the six months through March, likely to reach billions post-IPO, diluting shareholders",
+   "url": "https://www.techmeme.com/261004/p18#a261004p18",
+   "at": "2026-10-04T21:35:10.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "In an X reply, Elon Musk says that SpaceX will rename its AI unit SpaceXAI to SpaceXSI, following Trump's push to replace \"artificial\" intelligence with \"super\"",
    "url": "https://www.techmeme.com/261004/p14#a261004p14",
    "at": "2026-10-04T17:55:02.000Z",
@@ -909,10 +922,52 @@
    "kind": "News"
   },
   {
+   "t": "OpenAI’s Head of ChatGPT: We’re entering a new era of AI (again) | Tibo Sottiaux",
+   "url": "https://www.youtube.com/watch?v=MM-C3JqCXBk",
+   "at": "2026-10-04T12:30:30Z",
+   "src": "Lenny's Podcast",
+   "kind": "Video"
+  },
+  {
    "t": "A profile of Meta Chief AI Officer Alexandr Wang, who is the company's first senior executive from Gen Z and has succeeded in building hype for Muse",
    "url": "https://www.techmeme.com/261004/p10#a261004p10",
    "at": "2026-10-04T12:00:43.000Z",
    "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "St. Paul public schools plan for students with AI",
+   "url": "https://www.twincities.com/2026/10/04/ai-in-st-paul-public-schools/",
+   "at": "2026-10-04T10:00:50Z",
+   "src": "St. Paul Pioneer Press",
+   "kind": "News"
+  },
+  {
+   "t": "White House AI Task Force Will Prevent 'Overregulation': Report",
+   "url": "https://www.deccanchronicle.com/artificial-intelligence/white-house-ai-task-force-will-prevent-overregulation-report-1993030",
+   "at": "2026-10-04T09:53:46Z",
+   "src": "Deccan Chronicle",
+   "kind": "News"
+  },
+  {
+   "t": "AI can explain how it ‘thinks’ - but can we still trust it? OpenAI finds a problem",
+   "url": "https://www.financialexpress.com/life/technology/ai-can-explain-how-it-thinks-but-can-we-still-trust-it-openai-finds-a-problem/4353317/",
+   "at": "2026-10-04T09:45:17Z",
+   "src": "The Financial Express",
+   "kind": "News"
+  },
+  {
+   "t": "Trump expected to name intelligence chief Jay Clayton as new AI czar",
+   "url": "https://www.moneycontrol.com/world/trump-expected-to-name-intelligence-chief-jay-clayton-as-new-ai-czar-article-14044168.html",
+   "at": "2026-10-04T09:37:35Z",
+   "src": "Moneycontrol",
+   "kind": "News"
+  },
+  {
+   "t": "Trump names national intelligence director Jay Clayton to lead a new federal AI task force",
+   "url": "https://triblive.com/news/world/trump-names-national-intelligence-director-jay-clayton-to-lead-a-new-federal-ai-task-force/",
+   "at": "2026-10-04T09:31:33Z",
+   "src": "Pittsburgh Tribune-Review",
    "kind": "News"
   },
   {
@@ -935,62 +990,6 @@
    "at": "2026-10-04T09:08:41Z",
    "src": "The News International",
    "kind": "News"
-  },
-  {
-   "t": "Q&A with OpenAI VP of Hardware Richard Ho on its Jalapeño inference chip co-designed with Broadcom, using internal OpenAI models to design the chip, and more",
-   "url": "https://www.techmeme.com/261004/p9#a261004p9",
-   "at": "2026-10-04T09:00:41.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "The City Council must hear everyone on AI",
-   "url": "https://www.nydailynews.com/2026/10/04/the-city-council-must-hear-everyone-on-ai/",
-   "at": "2026-10-04T09:00:33Z",
-   "src": "New York Daily News",
-   "kind": "News"
-  },
-  {
-   "t": "Smithsonian taps AI to link Revolution era relics",
-   "url": "https://www.arkansasonline.com/news/2026/oct/04/smithsonian-taps-ai-to-link-revolution-era-relics/",
-   "at": "2026-10-04T09:00:00Z",
-   "src": "Arkansas Online",
-   "kind": "News"
-  },
-  {
-   "t": "Anthropic vs OpenAI: Why Claude is reaching out to religious leaders while ChatGPT maker warns against it",
-   "url": "https://www.livemint.com/ai/artificial-intelligence/anthropic-vs-openai-why-claude-is-reaching-out-to-religious-leaders-while-chatgpt-maker-warns-against-it-decoded-11791102460626.html",
-   "at": "2026-10-04T08:45:22Z",
-   "src": "Livemint",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI safety staffer quits firm with yet another warning-‘nuclear-level safeguards needed’",
-   "url": "https://theprint.in/world/openai-safety-staffer-quits-firm-with-yet-another-warning-nuclear-level-safeguards-needed/3061507/",
-   "at": "2026-10-04T08:41:09Z",
-   "src": "ThePrint",
-   "kind": "News"
-  },
-  {
-   "t": "White House AI Task Force Will Prevent 'Overregulation': Report",
-   "url": "https://www.ndtv.com/artificial-intelligence/white-house-ai-task-force-will-prevent-overregulation-report-12136689",
-   "at": "2026-10-04T08:40:28Z",
-   "src": "NDTV.com",
-   "kind": "News"
-  },
-  {
-   "t": "Kerala LLM Allotment 2026: Check last date to register, how to apply at cee.kerala.gov.in, fee details and important rules",
-   "url": "https://economictimes.indiatimes.com/news/new-updates/kerala-llm-allotment-2026-check-last-date-to-register-how-to-apply-at-cee-kerala-gov-in-fee-details-and-important-rules/articleshow/134671915.cms",
-   "at": "2026-10-04T08:22:00Z",
-   "src": "The Economic Times",
-   "kind": "News"
-  },
-  {
-   "t": "Yami Gautam raises concern over AI-edited celebrity photos, urges media to 'use images in their original form': 'Altering or manipulating an individual’s image or likeness should not be done without t",
-   "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/yami-gautam-raises-concern-over-ai-edited-celebrity-photos-urges-media-to-use-images-in-their-original-form-altering-or-manipulating-an-individuals-image-or-likeness-should-not-be-done-without-their-knowledge-and-consent/articleshow/134671763.cms",
-   "at": "2026-10-04T08:06:00Z",
-   "src": "Times of India",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -999,8 +998,8 @@
    "t": "Turn off Apple Intelligence on macOS 27 and get its disk space back",
    "url": "https://news.ycombinator.com/item?id=49957116",
    "link": "https://github.com/omlahore/RemoveMacAI",
-   "up": 141,
-   "com": 63,
+   "up": 181,
+   "com": 92,
    "at": "2026-10-04T19:42:25.000Z"
   },
   {
@@ -1008,9 +1007,18 @@
    "t": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
    "url": "https://news.ycombinator.com/item?id=49953495",
    "link": "https://github.com/Niko1221/Strata",
-   "up": 490,
-   "com": 249,
+   "up": 508,
+   "com": 253,
    "at": "2026-10-04T12:51:53.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Homa: The end of TCP for AI clusters [video]",
+   "url": "https://news.ycombinator.com/item?id=49957117",
+   "link": "https://www.youtube.com/watch?v=eZ8WWZzoaR0",
+   "up": 33,
+   "com": 4,
+   "at": "2026-10-04T19:42:25.000Z"
   },
   {
    "src": "Hacker News",
@@ -1023,30 +1031,21 @@
   },
   {
    "src": "Hacker News",
+   "t": "I asked Claude build a physically accurate O'Neill cylinder you can walk around",
+   "url": "https://news.ycombinator.com/item?id=49957191",
+   "link": "https://island-three.gruberbuilds.workers.dev/",
+   "up": 24,
+   "com": 23,
+   "at": "2026-10-04T19:49:12.000Z"
+  },
+  {
+   "src": "Hacker News",
    "t": "Show HN: AI search for every photo and every frame of video on macOS",
    "url": "https://news.ycombinator.com/item?id=49952111",
    "link": "https://github.com/allenv0/SCM",
-   "up": 125,
-   "com": 59,
+   "up": 128,
+   "com": 60,
    "at": "2026-10-04T09:24:52.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Building a RAG pipeline for semantic code search",
-   "url": "https://news.ycombinator.com/item?id=49956148",
-   "link": "https://blog.jetbrains.com/ai/2026/09/building-a-rag-pipeline-for-semantic-code-search-a-developer-diary-and-field-notes/",
-   "up": 31,
-   "com": 7,
-   "at": "2026-10-04T17:51:48.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Religious scholars met with Anthropic",
-   "url": "https://news.ycombinator.com/item?id=49950052",
-   "link": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
-   "up": 153,
-   "com": 383,
-   "at": "2026-10-04T02:34:22.000Z"
   }
  ]
 }
