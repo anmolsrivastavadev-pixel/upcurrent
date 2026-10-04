@@ -42,6 +42,7 @@ ol.rows,ul.rows{list-style:none;margin:0;padding:0;border-top:1px solid var(--li
 .rows .t{font-weight:600;overflow-wrap:anywhere}.rows .m{color:var(--muted);font-size:14.5px;overflow-wrap:anywhere}
 .num{font-family:var(--font-mono);font-variant-numeric:tabular-nums}
 .stats{display:flex;flex-wrap:wrap;gap:10px 22px;margin:14px 0 0;padding:0;list-style:none;color:var(--muted);font-size:15px}.stats b{color:var(--ink)}
+.share{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center}.share a{font-weight:600}
 .pager{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
 .cta{padding:22px clamp(16px,4vw,30px);background:var(--band);color:var(--band-ink);border-radius:14px;display:grid;gap:10px}
 .cta h2{margin:0}.cta p{margin:0;opacity:.85}.cta a{color:var(--warm);font-weight:700}
@@ -89,6 +90,12 @@ ${body}
 `;
 }
 
+const shareLinks = (url, title) => {
+  const msg = encodeURIComponent(`${title}, from Upcurrent: ${url}`), u = encodeURIComponent(url);
+  return [["X", `https://x.com/intent/post?text=${msg}`], ["Bluesky", `https://bsky.app/intent/compose?text=${msg}`], ["LinkedIn", `https://www.linkedin.com/sharing/share-offsite/?url=${u}`],
+    ["WhatsApp", `https://wa.me/?text=${msg}`], ["Reddit", `https://www.reddit.com/submit?url=${u}&title=${encodeURIComponent(title)}`]]
+    .map(([n, h]) => `<a href="${esc(h)}" target="_blank" rel="noopener">${n}</a>`).join("");
+};
 const breadcrumb = items => ({ "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: items.map(([name, item], i) => ({ "@type": "ListItem", position: i + 1, name, item })) });
 
 function dailyPage(day, d, prev, next) {
@@ -124,6 +131,7 @@ ${sec("models", "Trending models on Hugging Face", list(models, m => `<li><span 
 ${sec("receipts", "Called it", list(rc, r => `<li><span class="t">${link(r.url, r.name)}</span><span class="m">Tracked at ${fmt(r.firstV)} ${esc(r.kind)} on ${esc(new Date(r.first).toUTCString().slice(5, 22))} UTC, passed ${fmt(r.m)} on ${esc(new Date(r.at).toUTCString().slice(5, 22))} UTC</span></li>`, "ul"))}
 ${sec("discussions", "Most-discussed threads", list(disc, t => `<li><span class="t">${link(t.url, t.t)}</span><span class="m">${esc(t.src)}${t.up != null ? ` · ${fmt(t.up)} points` : ""}${t.com != null ? ` · ${fmt(t.com)} comments` : ""}</span></li>`))}
 ${sec("news", "AI headlines", list(news, h => `<li><span class="t">${link(h.url, h.t)}</span><span class="m">${esc([h.src, h.kind].filter(Boolean).join(" · "))}</span></li>`, "ul"))}
+<section class="share" aria-label="Share this page"><b>Share this list:</b> ${shareLinks(url, `What was rising in AI on ${shortDate(day)}`)}</section>
 <nav class="pager" aria-label="Other days">${prev ? `<a href="${prev}.html" rel="prev">← ${esc(shortDate(prev))}</a>` : "<span></span>"}<a href="./">All days</a>${next ? `<a href="${next}.html" rel="next">${esc(shortDate(next))} →</a>` : "<span></span>"}</nav>`;
   const ld = [
     { "@context": "https://schema.org", "@type": "Article", headline: `What was rising in AI on ${shortDate(day)}`, description, url, mainEntityOfPage: url, datePublished: `${day}T00:00:00Z`, dateModified: d.about?.updated || `${day}T23:59:59Z`, image: SITE + "og.png", inLanguage: "en", author: { "@type": "Organization", name: "Upcurrent", url: SITE }, publisher: { "@type": "Organization", name: "Upcurrent", url: SITE, logo: { "@type": "ImageObject", url: SITE + "icon-512.png" } }, isAccessibleForFree: true },

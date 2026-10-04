@@ -20,6 +20,13 @@ const link = (t, u) => u ? `[${md(t)}](${u})` : md(t);
 const clip = s => s.length > 150 ? s.slice(0, 147).replace(/\s+\S*$/, "") + "…" : s;
 const itemUrl = r => r.url || (r.src === "gh" ? `https://github.com/${r.owner}/${r.name}` : r.src === "hf" ? `https://huggingface.co/${r.owner}/${r.name}` : null);
 
+// Every reader who forwards or shares the email can bring in another reader.
+function share() {
+  const page = `${SITE}daily/${data.fetchedAt.slice(0, 10)}.html`;
+  const msg = encodeURIComponent(`What's rising in AI today, from Upcurrent: ${page}`);
+  return `## Know someone who'd like this?\n\nForward this email to them, or send them the free sign-up link: ${link("get Upcurrent every morning", SITE + "#signup")}.\n\nShare today's list: ${link("X", "https://x.com/intent/post?text=" + msg)} · ${link("Bluesky", "https://bsky.app/intent/compose?text=" + msg)} · ${link("LinkedIn", "https://www.linkedin.com/sharing/share-offsite/?url=" + encodeURIComponent(page))} · ${link("WhatsApp", "https://wa.me/?text=" + msg)} · ${link("Reddit", "https://www.reddit.com/submit?url=" + encodeURIComponent(page) + "&title=" + encodeURIComponent("What's rising in AI today"))}`;
+}
+
 const date = new Date(data.fetchedAt).toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric", timeZone: "UTC" });
 const rising = D.rising.slice(0, 5);
 const news = D.headlines.filter(h => Date.now() - Date.parse(h.at) < 2 * 864e5).slice(0, 5);
@@ -34,6 +41,7 @@ const parts = [
   news.length && `## Headlines\n\n` + news.map(h => `- ${link(h.t, h.url)} (${md(h.src)})`).join("\n"),
   repos.length && `## Repos gaining stars\n\n` + repos.map(g => `- ${link(g.repo, "https://github.com/" + g.repo)}: ${g.est ? "about " : ""}+${comma(g.d24)} stars in 24h`).join("\n"),
   threads.length && `## Threads people are discussing\n\n` + threads.map(d => `- ${link(d.t, d.url)} (${md(d.src)})`).join("\n"),
+  share(),
   `[See the full dashboard](${SITE})`
 ].filter(Boolean);
 

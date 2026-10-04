@@ -38,6 +38,17 @@ jobs:
           DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
           ONLY_TZ: ${{ inputs.only_tz }}
 
+      - name: Post the top 3 to Bluesky and Mastodon
+        # Once a day, 8am-1pm UK. Skips any network without secrets and never blocks the email.
+        continue-on-error: true
+        run: node scripts/social-post.cjs
+        env:
+          BSKY_HANDLE: ${{ secrets.BSKY_HANDLE }}
+          BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
+          MASTODON_INSTANCE: ${{ secrets.MASTODON_INSTANCE }}
+          MASTODON_TOKEN: ${{ secrets.MASTODON_TOKEN }}
+          DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
+
       - name: Show the email
         if: always()
         run: cat data/digest.md >> "$GITHUB_STEP_SUMMARY"

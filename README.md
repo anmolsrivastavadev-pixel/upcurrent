@@ -88,3 +88,8 @@ Each publish also runs `scripts/build-seo.cjs`, which only changes the copy that
 - `index.html` filled with the rendered dashboard (headless Chrome), so crawlers and link previews see
   today's content without running JavaScript. If that step fails, the plain page is published instead.
 After the publish, `scripts/indexnow.cjs` tells Bing and other IndexNow engines about new pages.
+
+## Morning posts on Bluesky and Mastodon
+`scripts/social-post.cjs` runs with the morning email and posts the day's top 3, once a day between
+8am and 1pm UK time. Add `BSKY_HANDLE` + `BSKY_APP_PASSWORD` for Bluesky, and `MASTODON_INSTANCE`
+(e.g. `https://mastodon.social`) + `MASTODON_TOKEN` (an access token with `write:statuses`) for Mastodon.
