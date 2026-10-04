@@ -1,6 +1,28 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Upcurrent</title>
-<meta name="description" content="A daily dashboard of AI repos, models, papers and threads that are picking up speed.">
+<title>Upcurrent: AI trends today, rising GitHub repos, models and news</title>
+<meta name="description" content="What's rising in AI today: trending GitHub AI repos, new Hugging Face models, papers, threads, headlines and free models. Updated every 30 minutes.">
+<link rel="canonical" href="https://anmolsrivastavadev-pixel.github.io/upcurrent/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#0f1829">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="sitemap" type="application/xml" href="sitemap.xml">
+<link rel="alternate" type="application/json" title="Upcurrent open data" href="data/api/today.json">
+<meta property="og:site_name" content="Upcurrent">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_GB">
+<meta property="og:title" content="Upcurrent: AI trends today, rising GitHub repos, models and news">
+<meta property="og:description" content="What's rising in AI today: trending GitHub AI repos, new Hugging Face models, papers, threads, headlines and free models. Updated every 30 minutes.">
+<meta property="og:url" content="https://anmolsrivastavadev-pixel.github.io/upcurrent/">
+<meta property="og:image" content="https://anmolsrivastavadev-pixel.github.io/upcurrent/og.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Upcurrent: what's rising in AI today">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Upcurrent: AI trends today, rising GitHub repos, models and news">
+<meta name="twitter:description" content="What's rising in AI today: trending GitHub AI repos, new Hugging Face models, papers, threads, headlines and free models. Updated every 30 minutes.">
+<meta name="twitter:image" content="https://anmolsrivastavadev-pixel.github.io/upcurrent/og.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "@id": "https://anmolsrivastavadev-pixel.github.io/upcurrent/#site", "name": "Upcurrent", "url": "https://anmolsrivastavadev-pixel.github.io/upcurrent/", "inLanguage": "en", "description": "A free daily dashboard of the AI repos, models, papers and stories that are picking up speed.", "publisher": {"@id": "https://anmolsrivastavadev-pixel.github.io/upcurrent/#org"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "@id": "https://anmolsrivastavadev-pixel.github.io/upcurrent/#org", "name": "Upcurrent", "url": "https://anmolsrivastavadev-pixel.github.io/upcurrent/", "logo": "https://anmolsrivastavadev-pixel.github.io/upcurrent/icon-512.png"}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Schibsted+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap">
@@ -39,6 +61,7 @@
   color-scheme: dark;
 }
 * { box-sizing: border-box; }
+[hidden] { display: none !important; }
 body { background: var(--bg); color: var(--ink); font: 16px/1.55 var(--font-body); -webkit-font-smoothing: antialiased; }
 a { color: inherit; text-decoration: none; }
 a:hover { color: var(--link); }
@@ -298,6 +321,7 @@ td { padding: 13px 12px 13px 0; border-bottom: 1px solid var(--line); white-spac
 @media (max-width: 920px) { .news { grid-template-columns: minmax(0, 1fr); } }
 footer { margin-top: 64px; border-top: 1px solid var(--line); padding-block: 28px 44px; color: var(--muted); font-size: 14px; }
 footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; align-items: center; }
+footer .about { flex-basis: 100%; margin: 6px 0 0; max-width: 80ch; line-height: 1.6; }
 .empty { padding: 22px 0; color: var(--faint); }
 
 @media (max-width: 920px) {
@@ -361,6 +385,7 @@ font[style] { background: none !important; box-shadow: none !important; }
       <a href="#threads">Threads</a>
       <a href="#news">Headlines</a>
       <a href="#free">Free models</a>
+      <a href="daily/">Archive</a>
       <a href="data.html">Open data</a>
     </nav>
     <span id="langPick"></span>
@@ -499,6 +524,9 @@ font[style] { background: none !important; box-shadow: none !important; }
     <span class="logo" style="font-size:16px">Upcurrent</span>
     <span>Data from GitHub, Hugging Face, arXiv, Hacker News, Reddit, Lobsters, DEV, Mastodon, Bluesky, AI lab blogs, Techmeme, OpenRouter, OpenCode Zen and more.</span>
     <a href="data.html" style="text-decoration:underline">Use this data free (open data)</a>
+    <a href="daily/" style="text-decoration:underline">Daily AI trends archive</a>
+    <a href="email.html" style="text-decoration:underline">Read today's email</a>
+    <p class="about">Upcurrent is a free AI trends dashboard. Every 30 minutes it checks GitHub, Hugging Face, arXiv, Hacker News, AI lab blogs, news sites and model providers, then ranks the AI repos, models, papers and stories that are picking up speed. It flags names breaking out across several sources, checks hype against real use, keeps receipts on projects it spotted early, and lists the AI models you can call for free today.</p>
   </div>
 </footer>
 
@@ -972,7 +1000,8 @@ async function goLive() {
 
 DATA = { ...SNAPSHOT, isSnapshot: true };
 state.win = "24h";
-render();
+// A published copy already holds today's rendered dashboard, so skip the old built-in snapshot.
+if (!document.documentElement.hasAttribute("data-prerendered")) render();
 goLive();
 </script>
 </body></html>
