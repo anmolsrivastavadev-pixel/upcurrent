@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-04T06:18:25.815Z"
+  "updated": "2026-10-04T06:30:54.212Z"
  },
  "pulse": {
-  "trending": 85,
+  "trending": 84,
   "accelerating": 0,
   "newModels": 8,
   "discussions": 42,
-  "stars": 2523
+  "stars": 2346
  },
  "rising": [
   {
@@ -40,8 +40,8 @@
    "grow": 9,
    "desc": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
    "meta": [
-    "★ 5,521",
-    "+565 in 24h",
+    "★ 5,524",
+    "+563 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-09-28T23:40:05Z",
@@ -57,8 +57,8 @@
    "grow": 16,
    "desc": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
    "meta": [
-    "★ 2,708",
-    "+460 in 24h",
+    "★ 2,711",
+    "+458 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-09-30T05:00:35Z",
@@ -107,7 +107,7 @@
    "grow": null,
    "desc": "Your always-on AI coworkers that move between text, calls, and Slack.",
    "meta": [
-    "★ 2,689",
+    "★ 2,697",
     "~592 in 24h",
     "Created 5 days ago"
    ],
@@ -141,7 +141,7 @@
    "desc": "AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese",
    "meta": [
     "★ 1,342",
-    "+121 in 24h",
+    "+120 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-09-30T11:49:32Z",
@@ -157,8 +157,8 @@
    "grow": 5,
    "desc": "A tiny friend that lives in your notch (macOS) or at the top of your screen (Windows, Linux) and keeps an eye on your coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more.",
    "meta": [
-    "★ 3,265",
-    "+195 in 24h",
+    "★ 3,267",
+    "+196 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-09-27T21:54:12Z",
@@ -223,8 +223,8 @@
     },
     {
      "src": "YouTube",
-     "t": "AI News: Dots, GPT-6.1 Sol, Sonnet 5.5, Gemini 4, and everything you need to know",
-     "url": "https://www.youtube.com/watch?v=dDgncbBAA0c"
+     "t": "HUGE Fable 5.5 LEAK + First Preview, Gemini 4 Argon, Claude Code Update, FREE Model, & More! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=N3REfH4N9Dg"
     }
    ],
    "buzz": 2,
@@ -388,57 +388,48 @@
  "github": [
   {
    "repo": "CopilotKit/OpenDots",
-   "stars": 2689,
+   "stars": 2697,
    "d24": 592,
    "est": true,
-   "forks": 334,
+   "forks": 336,
    "contrib": null,
    "score": 91
   },
   {
    "repo": "KKKKhazix/AIHOT",
-   "stars": 5521,
-   "d24": 565,
+   "stars": 5524,
+   "d24": 563,
    "est": false,
-   "forks": 1443,
+   "forks": 1444,
    "contrib": 10,
    "score": 93
   },
   {
    "repo": "rehan-remade/universal-modder",
-   "stars": 2708,
-   "d24": 460,
+   "stars": 2711,
+   "d24": 458,
    "est": false,
-   "forks": 238,
+   "forks": 239,
    "contrib": null,
    "score": 93
   },
   {
    "repo": "edenfunf/reelmimic",
-   "stars": 1152,
-   "d24": 211,
-   "est": true,
-   "forks": 150,
+   "stars": 1153,
+   "d24": 228,
+   "est": false,
+   "forks": 151,
    "contrib": null,
    "score": 82
   },
   {
    "repo": "Louis-CFM/coucou",
-   "stars": 3265,
-   "d24": 195,
+   "stars": 3267,
+   "d24": 196,
    "est": false,
    "forks": 507,
    "contrib": 6,
    "score": 87
-  },
-  {
-   "repo": "yihui-dev/awesome-opus5-5-videos",
-   "stars": 1649,
-   "d24": 190,
-   "est": false,
-   "forks": 172,
-   "contrib": null,
-   "score": 82
   },
   {
    "repo": "nykooi1/vibe-wise",
@@ -452,11 +443,20 @@
   {
    "repo": "nanaism/yomiyasu",
    "stars": 1342,
-   "d24": 121,
+   "d24": 120,
    "est": false,
    "forks": 29,
    "contrib": null,
    "score": 88
+  },
+  {
+   "repo": "echris6/motion-video-kit",
+   "stars": 987,
+   "d24": 25,
+   "est": false,
+   "forks": 89,
+   "contrib": null,
+   "score": 75
   }
  ],
  "models": [
@@ -469,7 +469,7 @@
    "grow": 0,
    "score": 96,
    "cat": "Coding",
-   "likes": 1025
+   "likes": 1030
   },
   {
    "name": "clef-flash",
@@ -491,7 +491,7 @@
    "grow": null,
    "score": 89,
    "cat": "Tools",
-   "likes": 5087
+   "likes": 5088
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -524,7 +524,7 @@
    "grow": null,
    "score": 85,
    "cat": "Infrastructure",
-   "likes": 270
+   "likes": 274
   }
  ],
  "free": [
@@ -951,18 +951,18 @@
    "kind": "News"
   },
   {
+   "t": "Scott Bessent says AI industry must own its risks and find solutions",
+   "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/scott-bessent-says-ai-industry-must-own-its-risks-and-find-solutions/articleshow/134664534.cms",
+   "at": "2026-10-03T18:19:12Z",
+   "src": "The Economic Times",
+   "kind": "News"
+  },
+  {
    "t": "I replaced Grammarly with a local LLM, and none of my writing leaves my laptop anymore",
    "url": "https://www.xda-developers.com/replaced-grammarly-with-a-local-llm/",
    "at": "2026-10-03T18:00:18Z",
    "src": "XDA Developers",
    "kind": "News"
-  },
-  {
-   "t": "DETAILS: OpenAI safety leader RESIGNS #foxnews #news #shorts #ai",
-   "url": "https://www.youtube.com/watch?v=QsAKPXFFr5E",
-   "at": "2026-10-03T18:00:01Z",
-   "src": "Fox News",
-   "kind": "Video"
   },
   {
    "t": "AI researcher warns humans lack control over autonomous AI agents",
@@ -1024,8 +1024,8 @@
    "t": "The work by Valve's Timur Kristóf on improving old AMD GPUs on Linux",
    "url": "https://news.ycombinator.com/item?id=49946895",
    "link": "https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU",
-   "up": 212,
-   "com": 25,
+   "up": 219,
+   "com": 26,
    "at": "2026-10-03T19:14:48.000Z"
   },
   {
@@ -1033,8 +1033,8 @@
    "t": "Getting the most out of Opus 5.5 in Claude and Claude Code",
    "url": "https://news.ycombinator.com/item?id=49946567",
    "link": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5/",
-   "up": 203,
-   "com": 139,
+   "up": 204,
+   "com": 140,
    "at": "2026-10-03T18:29:30.000Z"
   },
   {
@@ -1042,8 +1042,8 @@
    "t": "Religious scholars met with Anthropic",
    "url": "https://news.ycombinator.com/item?id=49950052",
    "link": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
-   "up": 55,
-   "com": 93,
+   "up": 56,
+   "com": 95,
    "at": "2026-10-04T02:34:22.000Z"
   },
   {
@@ -1051,7 +1051,7 @@
    "t": "FTL: A new operating system for clouds",
    "url": "https://news.ycombinator.com/item?id=49944912",
    "link": "https://ftl-os.org/",
-   "up": 165,
+   "up": 167,
    "com": 66,
    "at": "2026-10-03T15:02:36.000Z"
   }
