@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-04T22:30:44.086Z"
+  "updated": "2026-10-04T23:00:59.139Z"
  },
  "pulse": {
   "trending": 82,
   "accelerating": 0,
   "newModels": 7,
-  "discussions": 33,
-  "stars": 2884
+  "discussions": 34,
+  "stars": 2893
  },
  "rising": [
   {
@@ -37,11 +37,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 93,
-   "grow": 14,
+   "grow": 15,
    "desc": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
    "meta": [
-    "★ 3,098",
-    "+584 in 24h",
+    "★ 3,131",
+    "+615 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-09-30T05:00:35Z",
@@ -57,8 +57,8 @@
    "grow": 4,
    "desc": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
    "meta": [
-    "★ 5,761",
-    "+352 in 24h",
+    "★ 5,765",
+    "+347 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-09-28T23:40:05Z",
@@ -74,8 +74,8 @@
    "grow": 21,
    "desc": "Your always-on AI coworkers that move between text, calls, and Slack.",
    "meta": [
-    "★ 3,177",
-    "+728 in 24h",
+    "★ 3,186",
+    "+720 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-09-29T17:13:58Z",
@@ -89,7 +89,7 @@
    "cat": "Coding",
    "score": 91,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 423",
+   "desc": "Model on Hugging Face · open source · ♥ 424",
    "meta": [
     "6.4K downloads",
     "Released 4 days ago"
@@ -124,7 +124,7 @@
    "desc": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
    "meta": [
     "★ 2,599",
-    "+28 in 24h",
+    "+27 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-09-29T23:06:00Z",
@@ -137,11 +137,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 89,
-   "grow": 26,
+   "grow": 27,
    "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
    "meta": [
-    "★ 1,014",
-    "+563 in 24h",
+    "★ 1,022",
+    "+553 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-02T09:57:40Z",
@@ -185,7 +185,7 @@
   {
    "key": "gpt 6",
    "label": "GPT-6",
-   "n": 4,
+   "n": 3,
    "sources": [
     {
      "src": "OpenAI blog",
@@ -198,11 +198,6 @@
      "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/"
     },
     {
-     "src": "Kotaku",
-     "t": "OpenAI’s GPT-6 Astra Gets Frustrated Losing At StarCraft And Decides To Cheat Instead",
-     "url": "https://kotaku.com/openais-gpt-6-astra-gets-frustrated-losing-at-starcraft-and-decides-to-cheat-instead-2000739607"
-    },
-    {
      "src": "GitHub",
      "t": "zjwzcx/Awesome-Astra-Embodied-AI",
      "url": "https://github.com/zjwzcx/Awesome-Astra-Embodied-AI"
@@ -212,33 +207,6 @@
   }
  ],
  "hype": [
-  {
-   "name": "GPT-6",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
-    {
-     "src": "OpenAI blog",
-     "t": "A model guide for the GPT-6 family",
-     "url": "https://openai.com/index/practical-guide-building-gpt-6"
-    },
-    {
-     "src": "NVIDIA blog",
-     "t": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
-     "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/"
-    },
-    {
-     "src": "Kotaku",
-     "t": "OpenAI’s GPT-6 Astra Gets Frustrated Losing At StarCraft And Decides To Cheat Instead",
-     "url": "https://kotaku.com/openais-gpt-6-astra-gets-frustrated-losing-at-starcraft-and-decides-to-cheat-instead-2000739607"
-    }
-   ],
-   "buzz": 3,
-   "verdict": "Talk only, no public usage numbers"
-  },
   {
    "name": "Gemini 4",
    "url": null,
@@ -262,11 +230,33 @@
    "verdict": "Talk only, no public usage numbers"
   },
   {
+   "name": "GPT-6",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "OpenAI blog",
+     "t": "A model guide for the GPT-6 family",
+     "url": "https://openai.com/index/practical-guide-building-gpt-6"
+    },
+    {
+     "src": "NVIDIA blog",
+     "t": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
+     "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/"
+    }
+   ],
+   "buzz": 2,
+   "verdict": "Talk only, no public usage numbers"
+  },
+  {
    "name": "OpenDots",
    "url": "https://github.com/CopilotKit/OpenDots",
    "from": "GitHub",
-   "use": 728,
-   "useLabel": "+728 stars/day",
+   "use": 720,
+   "useLabel": "+720 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -380,8 +370,8 @@
  "github": [
   {
    "repo": "CopilotKit/OpenDots",
-   "stars": 3177,
-   "d24": 728,
+   "stars": 3186,
+   "d24": 720,
    "est": false,
    "forks": 413,
    "contrib": 3,
@@ -389,25 +379,25 @@
   },
   {
    "repo": "rehan-remade/universal-modder",
-   "stars": 3098,
-   "d24": 584,
+   "stars": 3131,
+   "d24": 615,
    "est": false,
-   "forks": 270,
+   "forks": 271,
    "contrib": 16,
    "score": 93
   },
   {
    "repo": "QingYunA/answer-me-with-html",
-   "stars": 1014,
-   "d24": 563,
+   "stars": 1022,
+   "d24": 553,
    "est": false,
-   "forks": 69,
+   "forks": 71,
    "contrib": null,
    "score": 89
   },
   {
    "repo": "nykooi1/vibe-wise",
-   "stars": 1015,
+   "stars": 1023,
    "d24": 367,
    "est": false,
    "forks": 54,
@@ -416,8 +406,8 @@
   },
   {
    "repo": "KKKKhazix/AIHOT",
-   "stars": 5761,
-   "d24": 352,
+   "stars": 5765,
+   "d24": 347,
    "est": false,
    "forks": 1484,
    "contrib": 10,
@@ -426,7 +416,7 @@
   {
    "repo": "edenfunf/reelmimic",
    "stars": 1265,
-   "d24": 206,
+   "d24": 205,
    "est": true,
    "forks": 154,
    "contrib": null,
@@ -434,17 +424,17 @@
   },
   {
    "repo": "nanaism/yomiyasu",
-   "stars": 1378,
-   "d24": 56,
+   "stars": 1381,
+   "d24": 59,
    "est": false,
-   "forks": 29,
+   "forks": 30,
    "contrib": null,
    "score": 85
   },
   {
    "repo": "feder-cr/dots",
    "stars": 2599,
-   "d24": 28,
+   "d24": 27,
    "est": false,
    "forks": 437,
    "contrib": null,
@@ -461,7 +451,7 @@
    "grow": 61,
    "score": 95,
    "cat": "Coding",
-   "likes": 1193
+   "likes": 1197
   },
   {
    "name": "clef-flash",
@@ -472,7 +462,7 @@
    "grow": 0,
    "score": 91,
    "cat": "Coding",
-   "likes": 423
+   "likes": 424
   },
   {
    "name": "Kolibri-1",
@@ -494,7 +484,7 @@
    "grow": null,
    "score": 89,
    "cat": "Tools",
-   "likes": 5160
+   "likes": 5161
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -505,7 +495,7 @@
    "grow": 7,
    "score": 87,
    "cat": "Infrastructure",
-   "likes": 3123
+   "likes": 3128
   },
   {
    "name": "VisionHOPE",
@@ -929,6 +919,20 @@
    "kind": "News"
   },
   {
+   "t": "ChatGPT、Claude、Obsidianに続く、AI時代必須のアプリが「コレ」です",
+   "url": "https://www.youtube.com/watch?v=l26g1eFA1d0",
+   "at": "2026-10-04T10:40:06Z",
+   "src": "monograph/ 堀口英剛",
+   "kind": "Video"
+  },
+  {
+   "t": "AI agents are offering to run your life. Should you let them?",
+   "url": "https://www.hindustantimes.com/world-news/ai-agents-are-offering-to-run-your-life-should-you-let-them-101791110100060.html",
+   "at": "2026-10-04T10:38:01Z",
+   "src": "Hindustan Times",
+   "kind": "News"
+  },
+  {
    "t": "India's AI strategy: We should not invest in the whole stack but focus instead on areas of expertise",
    "url": "https://www.livemint.com/opinion/online-views/india-ai-strategy-should-not-invest-in-the-whole-stack-but-focus-instead-on-areas-of-expertise-11791104377806.html",
    "at": "2026-10-04T10:29:41Z",
@@ -976,20 +980,6 @@
    "at": "2026-10-04T09:37:35Z",
    "src": "Moneycontrol",
    "kind": "News"
-  },
-  {
-   "t": "Trump names national intelligence director Jay Clayton to lead a new federal AI task force",
-   "url": "https://triblive.com/news/world/trump-names-national-intelligence-director-jay-clayton-to-lead-a-new-federal-ai-task-force/",
-   "at": "2026-10-04T09:31:33Z",
-   "src": "Pittsburgh Tribune-Review",
-   "kind": "News"
-  },
-  {
-   "t": "Trump defends data centers in Ohio as he rallies to boost Jon Husted in a tight Senate race",
-   "url": "https://www.europesays.com/3289208/",
-   "at": "2026-10-04T09:25:08Z",
-   "src": "EUROPE SAYS",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -998,8 +988,8 @@
    "t": "Turn off Apple Intelligence on macOS 27 and get its disk space back",
    "url": "https://news.ycombinator.com/item?id=49957116",
    "link": "https://github.com/omlahore/RemoveMacAI",
-   "up": 215,
-   "com": 120,
+   "up": 247,
+   "com": 139,
    "at": "2026-10-04T19:42:25.000Z"
   },
   {
@@ -1007,8 +997,8 @@
    "t": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
    "url": "https://news.ycombinator.com/item?id=49953495",
    "link": "https://github.com/Niko1221/Strata",
-   "up": 521,
-   "com": 259,
+   "up": 541,
+   "com": 269,
    "at": "2026-10-04T12:51:53.000Z"
   },
   {
@@ -1016,8 +1006,8 @@
    "t": "Homa: The end of TCP for AI clusters [video]",
    "url": "https://news.ycombinator.com/item?id=49957117",
    "link": "https://www.youtube.com/watch?v=eZ8WWZzoaR0",
-   "up": 36,
-   "com": 6,
+   "up": 42,
+   "com": 8,
    "at": "2026-10-04T19:42:25.000Z"
   },
   {
@@ -1025,7 +1015,7 @@
    "t": "Show HN: AI search for every photo and every frame of video on macOS",
    "url": "https://news.ycombinator.com/item?id=49952111",
    "link": "https://github.com/allenv0/SCM",
-   "up": 129,
+   "up": 132,
    "com": 62,
    "at": "2026-10-04T09:24:52.000Z"
   },
@@ -1034,8 +1024,8 @@
    "t": "I asked Claude build a physically accurate O'Neill cylinder you can walk around",
    "url": "https://news.ycombinator.com/item?id=49957191",
    "link": "https://island-three.gruberbuilds.workers.dev/",
-   "up": 26,
-   "com": 25,
+   "up": 29,
+   "com": 27,
    "at": "2026-10-04T19:49:12.000Z"
   },
   {
@@ -1043,8 +1033,8 @@
    "t": "Religious scholars met with Anthropic",
    "url": "https://news.ycombinator.com/item?id=49950052",
    "link": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
-   "up": 154,
-   "com": 388,
+   "up": 155,
+   "com": 390,
    "at": "2026-10-04T02:34:22.000Z"
   }
  ]
