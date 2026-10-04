@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-04T21:01:01.029Z"
+  "updated": "2026-10-04T21:31:22.701Z"
  },
  "pulse": {
   "trending": 83,
   "accelerating": 0,
   "newModels": 7,
   "discussions": 30,
-  "stars": 3241
+  "stars": 3217
  },
  "rising": [
   {
@@ -40,8 +40,8 @@
    "grow": 12,
    "desc": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
    "meta": [
-    "★ 3,042",
-    "+550 in 24h",
+    "★ 3,058",
+    "+558 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-09-30T05:00:35Z",
@@ -57,8 +57,8 @@
    "grow": 4,
    "desc": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
    "meta": [
-    "★ 5,756",
-    "+381 in 24h",
+    "★ 5,757",
+    "+369 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-09-28T23:40:05Z",
@@ -74,8 +74,8 @@
    "grow": 20,
    "desc": "Your always-on AI coworkers that move between text, calls, and Slack.",
    "meta": [
-    "★ 3,151",
-    "+756 in 24h",
+    "★ 3,162",
+    "+749 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-09-29T17:13:58Z",
@@ -105,7 +105,7 @@
    "cat": "Infrastructure",
    "score": 91,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 379",
+   "desc": "Model on Hugging Face · open source · ♥ 385",
    "meta": [
     "1.1K downloads",
     "Released 3 days ago"
@@ -123,8 +123,8 @@
    "grow": 1,
    "desc": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
    "meta": [
-    "★ 2,598",
-    "+29 in 24h",
+    "★ 2,599",
+    "+30 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-09-29T23:06:00Z",
@@ -137,11 +137,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 89,
-   "grow": 24,
+   "grow": 25,
    "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
    "meta": [
-    "★ 999",
-    "+627 in 24h",
+    "★ 1,004",
+    "+602 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-02T09:57:40Z",
@@ -173,8 +173,8 @@
    "grow": 5,
    "desc": "A tiny friend that lives in your notch (macOS) or at the top of your screen (Windows, Linux) and keeps an eye on your coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more.",
    "meta": [
-    "★ 3,430",
-    "+273 in 24h",
+    "★ 3,440",
+    "+280 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-09-27T21:54:12Z",
@@ -186,7 +186,7 @@
   {
    "key": "gpt 6",
    "label": "GPT-6",
-   "n": 3,
+   "n": 4,
    "sources": [
     {
      "src": "OpenAI blog",
@@ -199,6 +199,11 @@
      "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/"
     },
     {
+     "src": "Kotaku",
+     "t": "OpenAI’s GPT-6 Astra Gets Frustrated Losing At StarCraft And Decides To Cheat Instead",
+     "url": "https://kotaku.com/openais-gpt-6-astra-gets-frustrated-losing-at-starcraft-and-decides-to-cheat-instead-2000739607"
+    },
+    {
      "src": "GitHub",
      "t": "zjwzcx/Awesome-Astra-Embodied-AI",
      "url": "https://github.com/zjwzcx/Awesome-Astra-Embodied-AI"
@@ -208,6 +213,33 @@
   }
  ],
  "hype": [
+  {
+   "name": "GPT-6",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "OpenAI blog",
+     "t": "A model guide for the GPT-6 family",
+     "url": "https://openai.com/index/practical-guide-building-gpt-6"
+    },
+    {
+     "src": "NVIDIA blog",
+     "t": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
+     "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/"
+    },
+    {
+     "src": "Kotaku",
+     "t": "OpenAI’s GPT-6 Astra Gets Frustrated Losing At StarCraft And Decides To Cheat Instead",
+     "url": "https://kotaku.com/openais-gpt-6-astra-gets-frustrated-losing-at-starcraft-and-decides-to-cheat-instead-2000739607"
+    }
+   ],
+   "buzz": 3,
+   "verdict": "Talk only, no public usage numbers"
+  },
   {
    "name": "Gemini 4",
    "url": null,
@@ -231,33 +263,11 @@
    "verdict": "Talk only, no public usage numbers"
   },
   {
-   "name": "GPT-6",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
-    {
-     "src": "OpenAI blog",
-     "t": "A model guide for the GPT-6 family",
-     "url": "https://openai.com/index/practical-guide-building-gpt-6"
-    },
-    {
-     "src": "NVIDIA blog",
-     "t": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
-     "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/"
-    }
-   ],
-   "buzz": 2,
-   "verdict": "Talk only, no public usage numbers"
-  },
-  {
    "name": "OpenDots",
    "url": "https://github.com/CopilotKit/OpenDots",
    "from": "GitHub",
-   "use": 756,
-   "useLabel": "+756 stars/day",
+   "use": 749,
+   "useLabel": "+749 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -287,6 +297,16 @@
   }
  ],
  "receipts": [
+  {
+   "name": "QingYunA/answer-me-with-html",
+   "url": "https://github.com/QingYunA/answer-me-with-html",
+   "kind": "stars",
+   "first": "2026-10-04T13:30:48.499Z",
+   "firstV": 803,
+   "m": 1000,
+   "at": "2026-10-04T21:31:22.701Z",
+   "lead": 8.009500555555556
+  },
   {
    "name": "echris6/motion-video-kit",
    "url": "https://github.com/echris6/motion-video-kit",
@@ -356,50 +376,40 @@
    "m": 1000,
    "at": "2026-10-03T10:00:58.077Z",
    "lead": 25.589725833333333
-  },
-  {
-   "name": "orcarouter/OrcaSAQ-2-Cyber-27B-Uncensored-GGUF",
-   "url": "https://huggingface.co/orcarouter/OrcaSAQ-2-Cyber-27B-Uncensored-GGUF",
-   "kind": "downloads",
-   "first": "2026-10-01T17:48:04.617Z",
-   "firstV": 8412,
-   "m": 10000,
-   "at": "2026-10-03T09:30:48.250Z",
-   "lead": 39.71212027777778
   }
  ],
  "github": [
   {
    "repo": "CopilotKit/OpenDots",
-   "stars": 3151,
-   "d24": 756,
+   "stars": 3162,
+   "d24": 749,
    "est": false,
-   "forks": 408,
+   "forks": 409,
    "contrib": 3,
    "score": 92
   },
   {
    "repo": "QingYunA/answer-me-with-html",
-   "stars": 999,
-   "d24": 627,
+   "stars": 1004,
+   "d24": 602,
    "est": false,
-   "forks": 67,
+   "forks": 68,
    "contrib": null,
    "score": 89
   },
   {
    "repo": "rehan-remade/universal-modder",
-   "stars": 3042,
-   "d24": 550,
+   "stars": 3058,
+   "d24": 558,
    "est": false,
-   "forks": 266,
+   "forks": 267,
    "contrib": 16,
    "score": 93
   },
   {
    "repo": "KKKKhazix/AIHOT",
-   "stars": 5756,
-   "d24": 381,
+   "stars": 5757,
+   "d24": 369,
    "est": false,
    "forks": 1483,
    "contrib": 10,
@@ -407,17 +417,17 @@
   },
   {
    "repo": "nykooi1/vibe-wise",
-   "stars": 985,
-   "d24": 355,
+   "stars": 996,
+   "d24": 361,
    "est": false,
-   "forks": 53,
+   "forks": 54,
    "contrib": null,
    "score": 79
   },
   {
    "repo": "Louis-CFM/coucou",
-   "stars": 3430,
-   "d24": 273,
+   "stars": 3440,
+   "d24": 280,
    "est": false,
    "forks": 534,
    "contrib": 7,
@@ -435,7 +445,7 @@
   {
    "repo": "nanaism/yomiyasu",
    "stars": 1378,
-   "d24": 62,
+   "d24": 60,
    "est": false,
    "forks": 29,
    "contrib": null,
@@ -452,7 +462,7 @@
    "grow": 61,
    "score": 95,
    "cat": "Coding",
-   "likes": 1173
+   "likes": 1182
   },
   {
    "name": "clef-flash",
@@ -474,7 +484,7 @@
    "grow": 0,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 379
+   "likes": 385
   },
   {
    "name": "laya",
@@ -485,7 +495,7 @@
    "grow": null,
    "score": 89,
    "cat": "Tools",
-   "likes": 5151
+   "likes": 5156
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -496,7 +506,7 @@
    "grow": 7,
    "score": 87,
    "cat": "Infrastructure",
-   "likes": 3103
+   "likes": 3113
   },
   {
    "name": "VisionHOPE",
@@ -906,6 +916,27 @@
    "kind": "News"
   },
   {
+   "t": "Trump defends data centers in Ohio as he rallies to boost Jon Husted in a tight Senate race",
+   "url": "https://www.europesays.com/3289208/",
+   "at": "2026-10-04T09:25:08Z",
+   "src": "EUROPE SAYS",
+   "kind": "News"
+  },
+  {
+   "t": "OpenAI Employee Quits With Call for Nuclear-Level Safeguards",
+   "url": "https://www.deccanchronicle.com/technology/openai-employee-quits-with-call-for-nuclear-level-safeguards-1993022",
+   "at": "2026-10-04T09:11:58Z",
+   "src": "Deccan Chronicle",
+   "kind": "News"
+  },
+  {
+   "t": "OpenAI safety leader who led 12 launch reports quits",
+   "url": "https://www.thenews.com.pk/latest/1418682-openai-safety-leader-who-led-12-launch-reports-quits",
+   "at": "2026-10-04T09:08:41Z",
+   "src": "The News International",
+   "kind": "News"
+  },
+  {
    "t": "Q&A with OpenAI VP of Hardware Richard Ho on its Jalapeño inference chip co-designed with Broadcom, using internal OpenAI models to design the chip, and more",
    "url": "https://www.techmeme.com/261004/p9#a261004p9",
    "at": "2026-10-04T09:00:41.000Z",
@@ -960,37 +991,16 @@
    "at": "2026-10-04T08:06:00Z",
    "src": "Times of India",
    "kind": "News"
-  },
-  {
-   "t": "OpenAI safety leader quits, warning AI company’s culture is ‘broken’",
-   "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
-   "at": "2026-10-04T07:48:54Z",
-   "src": "The Guardian",
-   "kind": "News"
-  },
-  {
-   "t": "‘We can’t assume we understand how AI works’: Checkmarx’s Nitin Dang on AI’s security concerns",
-   "url": "https://www.firstpost.com/tech/artificial-intelligence-cybersecurity-ai-agents-hacking-openai-anthropic-google-meta-breach-checkmarx-nitin-kumar-dang-14050268.html",
-   "at": "2026-10-04T07:35:35Z",
-   "src": "Firstpost",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI Partners With Sachin Tendulkar: How To Use AI Every Day",
-   "url": "https://www.news18.com/tech/openai-sachin-tendulkar-partnership-how-indians-can-use-ai-every-day-10365736.html",
-   "at": "2026-10-04T07:27:21Z",
-   "src": "News18",
-   "kind": "News"
   }
  ],
  "discussions": [
   {
    "src": "Hacker News",
-   "t": "Remove and Disable Apple Macos27 AI Models Tool",
+   "t": "Turn off Apple Intelligence on macOS 27 and get its disk space back",
    "url": "https://news.ycombinator.com/item?id=49957116",
    "link": "https://github.com/omlahore/RemoveMacAI",
-   "up": 86,
-   "com": 39,
+   "up": 141,
+   "com": 63,
    "at": "2026-10-04T19:42:25.000Z"
   },
   {
@@ -998,8 +1008,8 @@
    "t": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
    "url": "https://news.ycombinator.com/item?id=49953495",
    "link": "https://github.com/Niko1221/Strata",
-   "up": 473,
-   "com": 245,
+   "up": 490,
+   "com": 249,
    "at": "2026-10-04T12:51:53.000Z"
   },
   {
@@ -1016,8 +1026,8 @@
    "t": "Show HN: AI search for every photo and every frame of video on macOS",
    "url": "https://news.ycombinator.com/item?id=49952111",
    "link": "https://github.com/allenv0/SCM",
-   "up": 119,
-   "com": 58,
+   "up": 125,
+   "com": 59,
    "at": "2026-10-04T09:24:52.000Z"
   },
   {
@@ -1026,7 +1036,7 @@
    "url": "https://news.ycombinator.com/item?id=49956148",
    "link": "https://blog.jetbrains.com/ai/2026/09/building-a-rag-pipeline-for-semantic-code-search-a-developer-diary-and-field-notes/",
    "up": 31,
-   "com": 6,
+   "com": 7,
    "at": "2026-10-04T17:51:48.000Z"
   },
   {
@@ -1034,8 +1044,8 @@
    "t": "Religious scholars met with Anthropic",
    "url": "https://news.ycombinator.com/item?id=49950052",
    "link": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
-   "up": 152,
-   "com": 381,
+   "up": 153,
+   "com": 383,
    "at": "2026-10-04T02:34:22.000Z"
   }
  ]
