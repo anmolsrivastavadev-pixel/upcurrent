@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-04T08:01:23.082Z"
+  "updated": "2026-10-04T08:30:51.086Z"
  },
  "pulse": {
-  "trending": 84,
+  "trending": 83,
   "accelerating": 0,
   "newModels": 8,
   "discussions": 38,
-  "stars": 4274
+  "stars": 4264
  },
  "rising": [
   {
@@ -40,8 +40,8 @@
    "grow": null,
    "desc": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
    "meta": [
-    "★ 5,556",
-    "~1,039 in 24h",
+    "★ 5,564",
+    "~1,036 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-09-28T23:40:05Z",
@@ -57,8 +57,8 @@
    "grow": null,
    "desc": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
    "meta": [
-    "★ 2,738",
-    "~664 in 24h",
+    "★ 2,747",
+    "~663 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-09-30T05:00:35Z",
@@ -74,7 +74,7 @@
    "grow": null,
    "desc": "Your always-on AI coworkers that move between text, calls, and Slack.",
    "meta": [
-    "★ 2,762",
+    "★ 2,774",
     "~598 in 24h",
     "Created 5 days ago"
    ],
@@ -91,8 +91,8 @@
    "grow": null,
    "desc": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
    "meta": [
-    "★ 2,582",
-    "~591 in 24h",
+    "★ 2,583",
+    "~588 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-09-29T23:06:00Z",
@@ -104,9 +104,9 @@
    "owner": "Cloudflare",
    "src": "hf",
    "cat": "Coding",
-   "score": 92,
+   "score": 91,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 373",
+   "desc": "Model on Hugging Face · open source · ♥ 374",
    "meta": [
     "4.3K downloads",
     "Released 3 days ago"
@@ -132,6 +132,22 @@
    "url": "https://huggingface.co/convaiinnovations/laya"
   },
   {
+   "name": "Kolibri-1",
+   "owner": "Aleph-Alpha",
+   "src": "hf",
+   "cat": "Infrastructure",
+   "score": 89,
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 289",
+   "meta": [
+    "0 downloads",
+    "Released 2 days ago"
+   ],
+   "at": "2026-10-02T05:54:02.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+  },
+  {
    "name": "yomiyasu",
    "owner": "nanaism",
    "src": "gh",
@@ -141,7 +157,7 @@
    "desc": "AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese",
    "meta": [
     "★ 1,347",
-    "~351 in 24h",
+    "~349 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-09-30T11:49:32Z",
@@ -157,29 +173,13 @@
    "grow": null,
    "desc": "A tiny friend that lives in your notch (macOS) or at the top of your screen (Windows, Linux) and keeps an eye on your coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more.",
    "meta": [
-    "★ 3,280",
-    "~511 in 24h",
+    "★ 3,287",
+    "~510 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-09-27T21:54:12Z",
    "breakout": null,
    "url": "https://github.com/Louis-CFM/coucou"
-  },
-  {
-   "name": "Qwen-Image-2.1-Uncensored-GGUF",
-   "owner": "abenzerps",
-   "src": "hf",
-   "cat": "Infrastructure",
-   "score": 87,
-   "grow": null,
-   "desc": "Model on Hugging Face · open weights · ♥ 3K",
-   "meta": [
-    "1.5M downloads",
-    "Released 14 days ago"
-   ],
-   "at": "2026-09-20T15:51:13.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF"
   }
  ],
  "breakouts": [
@@ -256,19 +256,8 @@
    "name": "AIHOT",
    "url": "https://github.com/KKKKhazix/AIHOT",
    "from": "GitHub",
-   "use": 1039,
-   "useLabel": "~1,039 stars/day",
-   "usePct": 1,
-   "talk": [],
-   "buzz": 0,
-   "verdict": "Used a lot, hardly talked about"
-  },
-  {
-   "name": "Qwen3.8-27B",
-   "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-   "from": "Hugging Face",
-   "use": 6895117,
-   "useLabel": "6.9M downloads",
+   "use": 1036,
+   "useLabel": "~1,036 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -280,7 +269,18 @@
    "from": "Hugging Face",
    "use": 6314973,
    "useLabel": "6.3M downloads",
-   "usePct": 0.9705882352941176,
+   "usePct": 1,
+   "talk": [],
+   "buzz": 0,
+   "verdict": "Used a lot, hardly talked about"
+  },
+  {
+   "name": "Qwen-Image-2.1",
+   "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1",
+   "from": "Hugging Face",
+   "use": 5999374,
+   "useLabel": "6M downloads",
+   "usePct": 0.9696969696969697,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -371,35 +371,35 @@
  "github": [
   {
    "repo": "KKKKhazix/AIHOT",
-   "stars": 5556,
-   "d24": 1039,
+   "stars": 5564,
+   "d24": 1036,
    "est": true,
-   "forks": 1452,
+   "forks": 1453,
    "contrib": 10,
    "score": 93
   },
   {
    "repo": "rehan-remade/universal-modder",
-   "stars": 2738,
-   "d24": 664,
+   "stars": 2747,
+   "d24": 663,
    "est": true,
-   "forks": 240,
+   "forks": 241,
    "contrib": null,
    "score": 93
   },
   {
    "repo": "CopilotKit/OpenDots",
-   "stars": 2762,
+   "stars": 2774,
    "d24": 598,
    "est": true,
-   "forks": 344,
-   "contrib": null,
+   "forks": 348,
+   "contrib": 3,
    "score": 92
   },
   {
    "repo": "feder-cr/dots",
-   "stars": 2582,
-   "d24": 591,
+   "stars": 2583,
+   "d24": 588,
    "est": true,
    "forks": 436,
    "contrib": null,
@@ -407,8 +407,8 @@
   },
   {
    "repo": "Louis-CFM/coucou",
-   "stars": 3280,
-   "d24": 511,
+   "stars": 3287,
+   "d24": 510,
    "est": true,
    "forks": 508,
    "contrib": 6,
@@ -417,7 +417,7 @@
   {
    "repo": "nanaism/yomiyasu",
    "stars": 1347,
-   "d24": 351,
+   "d24": 349,
    "est": true,
    "forks": 29,
    "contrib": null,
@@ -425,8 +425,8 @@
   },
   {
    "repo": "edenfunf/reelmimic",
-   "stars": 1166,
-   "d24": 224,
+   "stars": 1171,
+   "d24": 225,
    "est": false,
    "forks": 151,
    "contrib": null,
@@ -434,10 +434,10 @@
   },
   {
    "repo": "nykooi1/vibe-wise",
-   "stars": 787,
+   "stars": 791,
    "d24": 149,
    "est": true,
-   "forks": 44,
+   "forks": 45,
    "contrib": null,
    "score": 76
   }
@@ -452,7 +452,7 @@
    "grow": null,
    "score": 96,
    "cat": "Coding",
-   "likes": 1043
+   "likes": 1046
   },
   {
    "name": "clef-flash",
@@ -461,9 +461,9 @@
    "at": "2026-09-30T21:15:36.000Z",
    "dl": 4310,
    "grow": 0,
-   "score": 92,
+   "score": 91,
    "cat": "Coding",
-   "likes": 373
+   "likes": 374
   },
   {
    "name": "laya",
@@ -474,7 +474,18 @@
    "grow": null,
    "score": 89,
    "cat": "Tools",
-   "likes": 5099
+   "likes": 5103
+  },
+  {
+   "name": "Kolibri-1",
+   "org": "Aleph-Alpha",
+   "lic": "Open source",
+   "at": "2026-10-02T05:54:02.000Z",
+   "dl": 0,
+   "grow": null,
+   "score": 89,
+   "cat": "Infrastructure",
+   "likes": 289
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -485,18 +496,7 @@
    "grow": null,
    "score": 87,
    "cat": "Infrastructure",
-   "likes": 2962
-  },
-  {
-   "name": "Kolibri-1",
-   "org": "Aleph-Alpha",
-   "lic": "Open source",
-   "at": "2026-10-02T05:54:02.000Z",
-   "dl": 0,
-   "grow": null,
-   "score": 86,
-   "cat": "Infrastructure",
-   "likes": 284
+   "likes": 2964
   },
   {
    "name": "Qwen-Image-2.1",
@@ -507,7 +507,7 @@
    "grow": null,
    "score": 85,
    "cat": "Vision",
-   "likes": 2912
+   "likes": 2913
   }
  ],
  "free": [
@@ -934,6 +934,13 @@
    "kind": "News"
   },
   {
+   "t": "AI needs safety layers like nuclear plants: ex-OpenAI engineer",
+   "url": "https://japantoday.com/category/tech/ai-needs-safety-layers-like-nuclear-plants-ex-openai-engineer",
+   "at": "2026-10-03T20:20:00Z",
+   "src": "Japan Today",
+   "kind": "News"
+  },
+  {
    "t": "Sam Altman: Don't treat AI like a 'religious force'",
    "url": "https://www.newsbreak.com/business-insider-562169/4923751059467-sam-altman-don-t-treat-ai-like-a-religious-force",
    "at": "2026-10-03T19:45:23Z",
@@ -974,13 +981,6 @@
    "at": "2026-10-03T18:00:18Z",
    "src": "XDA Developers",
    "kind": "News"
-  },
-  {
-   "t": "DETAILS: OpenAI safety leader RESIGNS #foxnews #news #shorts #ai",
-   "url": "https://www.youtube.com/watch?v=QsAKPXFFr5E",
-   "at": "2026-10-03T18:00:01Z",
-   "src": "Fox News",
-   "kind": "Video"
   }
  ],
  "discussions": [
@@ -989,35 +989,35 @@
    "t": "OpenAI safety leader quits, warning AI company's culture is 'broken'",
    "url": "https://news.ycombinator.com/item?id=49948332",
    "link": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
-   "up": 260,
+   "up": 261,
    "com": 3,
    "at": "2026-10-03T22:18:13.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Aleph Alpha Kolibri: How the sovereign German LLM works",
-   "url": "https://news.ycombinator.com/item?id=49943034",
-   "link": "https://tej.as/blog/aleph-alpha-kolibri",
-   "up": 412,
-   "com": 11,
-   "at": "2026-10-03T10:43:51.000Z"
   },
   {
    "src": "Hacker News",
    "t": "The work by Valve's Timur Kristóf on improving old AMD GPUs on Linux",
    "url": "https://news.ycombinator.com/item?id=49946895",
    "link": "https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU",
-   "up": 246,
-   "com": 36,
+   "up": 258,
+   "com": 37,
    "at": "2026-10-03T19:14:48.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Aleph Alpha Kolibri: How the sovereign German LLM works",
+   "url": "https://news.ycombinator.com/item?id=49943034",
+   "link": "https://tej.as/blog/aleph-alpha-kolibri",
+   "up": 413,
+   "com": 11,
+   "at": "2026-10-03T10:43:51.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Getting the most out of Opus 5.5 in Claude and Claude Code",
    "url": "https://news.ycombinator.com/item?id=49946567",
    "link": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5/",
-   "up": 210,
-   "com": 146,
+   "up": 212,
+   "com": 148,
    "at": "2026-10-03T18:29:30.000Z"
   },
   {
@@ -1025,8 +1025,8 @@
    "t": "Religious scholars met with Anthropic",
    "url": "https://news.ycombinator.com/item?id=49950052",
    "link": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
-   "up": 62,
-   "com": 104,
+   "up": 66,
+   "com": 110,
    "at": "2026-10-04T02:34:22.000Z"
   },
   {
@@ -1034,8 +1034,8 @@
    "t": "I quit OpenAI because its culture is broken",
    "url": "https://news.ycombinator.com/item?id=49944227",
    "link": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/?gift=v5U_UzUTothfWXsPxtvNVAh7esWToMRD6XnbXmc5WgA",
-   "up": 193,
-   "com": 456,
+   "up": 203,
+   "com": 465,
    "at": "2026-10-03T13:46:34.000Z"
   }
  ]
