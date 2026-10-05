@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-05T11:30:53.700Z"
+  "updated": "2026-10-05T12:01:06.307Z"
  },
  "pulse": {
   "trending": 83,
   "accelerating": 1,
-  "newModels": 8,
-  "discussions": 34,
-  "stars": 2668
+  "newModels": 7,
+  "discussions": 29,
+  "stars": 2738
  },
  "rising": [
   {
@@ -40,9 +40,9 @@
    "grow": 2,
    "desc": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
    "meta": [
-    "★ 5,903",
-    "+270 in 24h",
-    "Created 6 days ago"
+    "★ 5,909",
+    "+271 in 24h",
+    "Created 7 days ago"
    ],
    "at": "2026-09-28T23:40:05Z",
    "breakout": null,
@@ -57,8 +57,8 @@
    "grow": 8,
    "desc": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
    "meta": [
-    "★ 3,520",
-    "+774 in 24h",
+    "★ 3,528",
+    "+751 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-09-30T05:00:35Z",
@@ -72,7 +72,7 @@
    "cat": "Infrastructure",
    "score": 92,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 512",
+   "desc": "Model on Hugging Face · open source · ♥ 516",
    "meta": [
     "2.5K downloads",
     "Released 3 days ago"
@@ -87,33 +87,16 @@
    "src": "gh",
    "cat": "Tools",
    "score": 91,
-   "grow": 6,
+   "grow": 7,
    "desc": "Your always-on AI coworkers that move between text, calls, and Slack.",
    "meta": [
-    "★ 3,398",
-    "+443 in 24h",
+    "★ 3,418",
+    "+467 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-09-29T17:13:58Z",
    "breakout": null,
    "url": "https://github.com/CopilotKit/OpenDots"
-  },
-  {
-   "name": "dots",
-   "owner": "feder-cr",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 89,
-   "grow": 0,
-   "desc": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
-   "meta": [
-    "★ 2,610",
-    "+18 in 24h",
-    "Created 6 days ago"
-   ],
-   "at": "2026-09-29T23:06:00Z",
-   "breakout": null,
-   "url": "https://github.com/feder-cr/dots"
   },
   {
    "name": "answer-me-with-html",
@@ -124,8 +107,8 @@
    "grow": null,
    "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
    "meta": [
-    "★ 1,286",
-    "~420 in 24h",
+    "★ 1,303",
+    "~422 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-02T09:57:40Z",
@@ -165,6 +148,23 @@
    "url": "https://huggingface.co/Cloudflare/clef-flash"
   },
   {
+   "name": "dots",
+   "owner": "feder-cr",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 88,
+   "grow": 0,
+   "desc": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
+   "meta": [
+    "★ 2,610",
+    "+17 in 24h",
+    "Created 6 days ago"
+   ],
+   "at": "2026-09-29T23:06:00Z",
+   "breakout": null,
+   "url": "https://github.com/feder-cr/dots"
+  },
+  {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
    "owner": "abenzerps",
    "src": "hf",
@@ -181,82 +181,14 @@
    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF"
   }
  ],
- "breakouts": [
-  {
-   "key": "gemini 4",
-   "label": "Gemini 4",
-   "n": 3,
-   "sources": [
-    {
-     "src": "Mastodon",
-     "t": "KI-Update kompakt: Gemini 4 Argon, Manus Cue, ChatGPT-Werbung, Reha-Kliniken Das „KI-Update“ liefert drei mal pro Woche eine Zusammenfassung der wichtigsten …",
-     "url": "https://social.heise.de/@heiseonline/117371449081711873"
-    },
-    {
-     "src": "Il Sole 24 Ore",
-     "t": "Cosa sappiamo su Gemini 4 Argon?",
-     "url": "https://www.infodata.ilsole24ore.com/2026/10/04/cosa-sappiamo-su-gemini-4-argon/"
-    },
-    {
-     "src": "YouTube",
-     "t": "HUGE Fable 5.5 LEAK + First Preview, Gemini 4 Argon, Claude Code Update, FREE Model, & More! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=N3REfH4N9Dg"
-    }
-   ],
-   "since": "2026-10-01T18:14:41.538Z"
-  }
- ],
+ "breakouts": [],
  "hype": [
-  {
-   "name": "Gemini 4",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
-    {
-     "src": "Mastodon",
-     "t": "KI-Update kompakt: Gemini 4 Argon, Manus Cue, ChatGPT-Werbung, Reha-Kliniken Das „KI-Update“ liefert drei mal pro Woche eine Zusammenfassung der wichtigsten …",
-     "url": "https://social.heise.de/@heiseonline/117371449081711873"
-    },
-    {
-     "src": "Il Sole 24 Ore",
-     "t": "Cosa sappiamo su Gemini 4 Argon?",
-     "url": "https://www.infodata.ilsole24ore.com/2026/10/04/cosa-sappiamo-su-gemini-4-argon/"
-    },
-    {
-     "src": "YouTube",
-     "t": "HUGE Fable 5.5 LEAK + First Preview, Gemini 4 Argon, Claude Code Update, FREE Model, & More! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=N3REfH4N9Dg"
-    }
-   ],
-   "buzz": 3,
-   "verdict": "Talk only, no public usage numbers"
-  },
-  {
-   "name": "RemoveMacAI",
-   "url": "https://github.com/omlahore/RemoveMacAI",
-   "from": "GitHub",
-   "use": 168,
-   "useLabel": "~168 stars/day",
-   "usePct": 0.375,
-   "talk": [
-    {
-     "src": "Hacker News",
-     "t": "Turn off Apple Intelligence on macOS 27 and get its disk space back",
-     "url": "https://news.ycombinator.com/item?id=49957116"
-    }
-   ],
-   "buzz": 1,
-   "verdict": "More talk than use"
-  },
   {
    "name": "universal-modder",
    "url": "https://github.com/rehan-remade/universal-modder",
    "from": "GitHub",
-   "use": 774,
-   "useLabel": "+774 stars/day",
+   "use": 751,
+   "useLabel": "+751 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -370,8 +302,8 @@
  "github": [
   {
    "repo": "rehan-remade/universal-modder",
-   "stars": 3520,
-   "d24": 774,
+   "stars": 3528,
+   "d24": 751,
    "est": false,
    "forks": 306,
    "contrib": 28,
@@ -379,53 +311,53 @@
   },
   {
    "repo": "CopilotKit/OpenDots",
-   "stars": 3398,
-   "d24": 443,
+   "stars": 3418,
+   "d24": 467,
    "est": false,
-   "forks": 446,
+   "forks": 451,
    "contrib": 3,
    "score": 91
   },
   {
    "repo": "QingYunA/answer-me-with-html",
-   "stars": 1286,
-   "d24": 420,
+   "stars": 1303,
+   "d24": 422,
    "est": true,
-   "forks": 86,
+   "forks": 89,
    "contrib": null,
    "score": 89
   },
   {
    "repo": "nykooi1/vibe-wise",
-   "stars": 1216,
-   "d24": 365,
+   "stars": 1242,
+   "d24": 411,
    "est": false,
-   "forks": 63,
+   "forks": 64,
    "contrib": null,
    "score": 79
   },
   {
    "repo": "KKKKhazix/AIHOT",
-   "stars": 5903,
-   "d24": 270,
+   "stars": 5909,
+   "d24": 271,
    "est": false,
-   "forks": 1493,
+   "forks": 1496,
    "contrib": 10,
    "score": 92
   },
   {
    "repo": "omlahore/RemoveMacAI",
-   "stars": 1014,
-   "d24": 168,
+   "stars": 1054,
+   "d24": 174,
    "est": true,
-   "forks": 18,
+   "forks": 20,
    "contrib": null,
    "score": 78
   },
   {
    "repo": "nanaism/yomiyasu",
-   "stars": 1466,
-   "d24": 162,
+   "stars": 1472,
+   "d24": 169,
    "est": false,
    "forks": 33,
    "contrib": null,
@@ -433,8 +365,8 @@
   },
   {
    "repo": "edenfunf/reelmimic",
-   "stars": 1293,
-   "d24": 48,
+   "stars": 1299,
+   "d24": 56,
    "est": false,
    "forks": 160,
    "contrib": null,
@@ -451,7 +383,7 @@
    "grow": 29,
    "score": 94,
    "cat": "Coding",
-   "likes": 1305
+   "likes": 1308
   },
   {
    "name": "Kolibri-1",
@@ -462,7 +394,7 @@
    "grow": null,
    "score": 92,
    "cat": "Infrastructure",
-   "likes": 512
+   "likes": 516
   },
   {
    "name": "laya",
@@ -473,7 +405,7 @@
    "grow": 213,
    "score": 89,
    "cat": "Tools",
-   "likes": 5195
+   "likes": 5198
   },
   {
    "name": "clef-flash",
@@ -495,7 +427,7 @@
    "grow": 5,
    "score": 87,
    "cat": "Infrastructure",
-   "likes": 3187
+   "likes": 3192
   },
   {
    "name": "VisionHOPE",
@@ -947,77 +879,50 @@
    "kind": "News"
   },
   {
-   "t": "A look at Sean Parker's resurrection of Stability AI following Emad Mostaque's ousting, and its new focus on AI for music professionals, backed by major labels",
-   "url": "https://www.techmeme.com/261004/p23#a261004p23",
-   "at": "2026-10-05T02:55:02.000Z",
-   "src": "Techmeme",
+   "t": "PewDiePie’s OpenAI controversy takes a new turn with his “less restricted” Ajax AI",
+   "url": "https://timesofindia.indiatimes.com/world/us-streamers/pewdiepies-openai-controversy-takes-a-new-turn-with-his-less-restricted-ajax-ai/articleshow/134675241.cms",
+   "at": "2026-10-05T00:01:00Z",
+   "src": "Times of India",
    "kind": "News"
   },
   {
-   "t": "Change.org says it is investing $100M of its own money to rebuild its core petitions platform with AI and launches an AI copilot beta for petition creators",
-   "url": "https://www.techmeme.com/261004/p22#a261004p22",
-   "at": "2026-10-05T02:00:01.000Z",
-   "src": "Techmeme",
+   "t": "Elon Musk to rename SpaceX AI arm SpaceXSI after Trump order replacing AI with SI",
+   "url": "https://www.aninews.in/news/world/us/elon-musk-to-rename-spacex-ai-arm-spacexsi-after-trump-order-replacing-ai-with-si20261005053057/",
+   "at": "2026-10-05T00:00:57Z",
+   "src": "ANI (Asian News International)",
+   "kind": "News"
+  },
+  {
+   "t": "Agility, evolved governance standardsmust amid changing corporate landscape: V-P",
+   "url": "https://www.thehitavada.com/Encyc/2026/10/5/agility-evolved-governance-standards-must-amid-changing-corporate-landscape-v-p.html",
+   "at": "2026-10-05T00:00:00Z",
+   "src": "The Hitavada",
+   "kind": "News"
+  },
+  {
+   "t": "AI is being taught how to do your job. Will artificial intelligence replace us, or just change the way we work?",
+   "url": "https://www.cbsnews.com/news/artificial-intelligence-trained-to-help-with-careers-60-minutes/",
+   "at": "2026-10-04T23:53:33Z",
+   "src": "CBS News",
    "kind": "News"
   },
   {
    "t": "AI benefits warrant accepting some risks: Sam Altman",
-   "url": "https://www.canberratimes.com.au/story/9362505/ai-benefits-warrant-accepting-some-risks-sam-altman/",
-   "at": "2026-10-04T23:30:26Z",
-   "src": "The Canberra Times",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI's Altman says AI benefits warrant accepting some risks",
-   "url": "https://www.thestar.com.my/tech/tech-news/2026/10/05/openai039s-altman-says-ai-benefits-warrant-accepting-some-risks",
-   "at": "2026-10-04T23:29:00Z",
-   "src": "The Star",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI Altman on AI benefits and risk acceptance",
-   "url": "https://www.straitstimes.com/world/united-states/openais-altman-says-ai-benefits-warrant-accepting-some-risks",
-   "at": "2026-10-04T23:25:00Z",
-   "src": "The Straits Times",
+   "url": "https://www.perthnow.com.au/news/technology/ai-benefits-warrant-accepting-some-risks-sam-altman-c-22968479",
+   "at": "2026-10-04T23:32:48Z",
+   "src": "PerthNow",
    "kind": "News"
   }
  ],
  "discussions": [
   {
    "src": "Hacker News",
-   "t": "Turn off Apple Intelligence on macOS 27 and get its disk space back",
-   "url": "https://news.ycombinator.com/item?id=49957116",
-   "link": "https://github.com/omlahore/RemoveMacAI",
-   "up": 610,
-   "com": 415,
-   "at": "2026-10-04T19:42:25.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
-   "url": "https://news.ycombinator.com/item?id=49953495",
-   "link": "https://github.com/Niko1221/Strata",
-   "up": 822,
-   "com": 364,
-   "at": "2026-10-04T12:51:53.000Z"
-  },
-  {
-   "src": "Hacker News",
    "t": "Powerless F1 drivers frustrated by Bahrain F1 software glitch",
    "url": "https://news.ycombinator.com/item?id=49959869",
    "link": "https://www.motorsport.com/f1/news/horrible-totally-unacceptable-powerless-f1-drivers-frustrated-by-bahrain-f1-software-glitch/10861968/",
-   "up": 222,
-   "com": 192,
+   "up": 229,
+   "com": 197,
    "at": "2026-10-05T01:54:08.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "A browser-native classic Visual Basic VB6 IDE",
-   "url": "https://news.ycombinator.com/item?id=49956681",
-   "link": "https://wieslawsoltes.github.io/VB6/",
-   "up": 266,
-   "com": 90,
-   "at": "2026-10-04T18:49:17.000Z"
   },
   {
    "src": "Hacker News",
@@ -1025,7 +930,7 @@
    "url": "https://news.ycombinator.com/item?id=49961057",
    "link": "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
    "up": 74,
-   "com": 60,
+   "com": 63,
    "at": "2026-10-05T05:37:40.000Z"
   },
   {
@@ -1035,6 +940,31 @@
    "up": 41,
    "com": 2,
    "at": "2026-10-05T07:04:53.000Z"
+  },
+  {
+   "src": "DEV",
+   "t": "How To Write Playwright tests in minutes with Playwright MCP and Claude Code",
+   "url": "https://dev.to/jakobnorlin/how-to-write-playwright-tests-in-minutes-with-playwright-mcp-and-claude-code-1o0d",
+   "up": 15,
+   "com": 0,
+   "at": "2026-10-05T09:44:22Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Homa: The end of TCP for AI clusters [video]",
+   "url": "https://news.ycombinator.com/item?id=49957117",
+   "link": "https://www.youtube.com/watch?v=eZ8WWZzoaR0",
+   "up": 78,
+   "com": 43,
+   "at": "2026-10-04T19:42:25.000Z"
+  },
+  {
+   "src": "DEV",
+   "t": "Before the Alarm Screams at 3 AM: Predicting Liam's Nocturnal Hypoglycemia with Prior Labs TabPFN",
+   "url": "https://dev.to/emmasofia/before-the-alarm-screams-at-3-am-predicting-liams-nocturnal-hypoglycemia-with-prior-labs-tabpfn-25mn",
+   "up": 72,
+   "com": 6,
+   "at": "2026-10-04T18:02:42Z"
   }
  ]
 }
