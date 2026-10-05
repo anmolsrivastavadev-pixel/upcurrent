@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-05T11:01:08.033Z"
+  "updated": "2026-10-05T11:30:53.700Z"
  },
  "pulse": {
   "trending": 83,
   "accelerating": 1,
-  "newModels": 7,
-  "discussions": 35,
-  "stars": 2647
+  "newModels": 8,
+  "discussions": 34,
+  "stars": 2668
  },
  "rising": [
   {
@@ -37,11 +37,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 92,
-   "grow": 1,
+   "grow": 2,
    "desc": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
    "meta": [
-    "★ 5,895",
-    "+262 in 24h",
+    "★ 5,903",
+    "+270 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-09-28T23:40:05Z",
@@ -57,8 +57,8 @@
    "grow": 8,
    "desc": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
    "meta": [
-    "★ 3,511",
-    "+796 in 24h",
+    "★ 3,520",
+    "+774 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-09-30T05:00:35Z",
@@ -72,7 +72,7 @@
    "cat": "Infrastructure",
    "score": 92,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 506",
+   "desc": "Model on Hugging Face · open source · ♥ 512",
    "meta": [
     "2.5K downloads",
     "Released 3 days ago"
@@ -90,8 +90,8 @@
    "grow": 6,
    "desc": "Your always-on AI coworkers that move between text, calls, and Slack.",
    "meta": [
-    "★ 3,389",
-    "+444 in 24h",
+    "★ 3,398",
+    "+443 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-09-29T17:13:58Z",
@@ -108,8 +108,8 @@
    "desc": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
    "meta": [
     "★ 2,610",
-    "+19 in 24h",
-    "Created 5 days ago"
+    "+18 in 24h",
+    "Created 6 days ago"
    ],
    "at": "2026-09-29T23:06:00Z",
    "breakout": null,
@@ -124,8 +124,8 @@
    "grow": null,
    "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
    "meta": [
-    "★ 1,272",
-    "~418 in 24h",
+    "★ 1,286",
+    "~420 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-02T09:57:40Z",
@@ -181,7 +181,31 @@
    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF"
   }
  ],
- "breakouts": [],
+ "breakouts": [
+  {
+   "key": "gemini 4",
+   "label": "Gemini 4",
+   "n": 3,
+   "sources": [
+    {
+     "src": "Mastodon",
+     "t": "KI-Update kompakt: Gemini 4 Argon, Manus Cue, ChatGPT-Werbung, Reha-Kliniken Das „KI-Update“ liefert drei mal pro Woche eine Zusammenfassung der wichtigsten …",
+     "url": "https://social.heise.de/@heiseonline/117371449081711873"
+    },
+    {
+     "src": "Il Sole 24 Ore",
+     "t": "Cosa sappiamo su Gemini 4 Argon?",
+     "url": "https://www.infodata.ilsole24ore.com/2026/10/04/cosa-sappiamo-su-gemini-4-argon/"
+    },
+    {
+     "src": "YouTube",
+     "t": "HUGE Fable 5.5 LEAK + First Preview, Gemini 4 Argon, Claude Code Update, FREE Model, & More! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=N3REfH4N9Dg"
+    }
+   ],
+   "since": "2026-10-01T18:14:41.538Z"
+  }
+ ],
  "hype": [
   {
    "name": "Gemini 4",
@@ -197,20 +221,25 @@
      "url": "https://social.heise.de/@heiseonline/117371449081711873"
     },
     {
+     "src": "Il Sole 24 Ore",
+     "t": "Cosa sappiamo su Gemini 4 Argon?",
+     "url": "https://www.infodata.ilsole24ore.com/2026/10/04/cosa-sappiamo-su-gemini-4-argon/"
+    },
+    {
      "src": "YouTube",
      "t": "HUGE Fable 5.5 LEAK + First Preview, Gemini 4 Argon, Claude Code Update, FREE Model, & More! AI NEWS",
      "url": "https://www.youtube.com/watch?v=N3REfH4N9Dg"
     }
    ],
-   "buzz": 2,
+   "buzz": 3,
    "verdict": "Talk only, no public usage numbers"
   },
   {
    "name": "RemoveMacAI",
    "url": "https://github.com/omlahore/RemoveMacAI",
    "from": "GitHub",
-   "use": 164,
-   "useLabel": "~164 stars/day",
+   "use": 168,
+   "useLabel": "~168 stars/day",
    "usePct": 0.375,
    "talk": [
     {
@@ -226,19 +255,8 @@
    "name": "universal-modder",
    "url": "https://github.com/rehan-remade/universal-modder",
    "from": "GitHub",
-   "use": 796,
-   "useLabel": "+796 stars/day",
-   "usePct": 1,
-   "talk": [],
-   "buzz": 0,
-   "verdict": "Used a lot, hardly talked about"
-  },
-  {
-   "name": "Qwen-Image-2.1",
-   "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1",
-   "from": "Hugging Face",
-   "use": 6612052,
-   "useLabel": "6.6M downloads",
+   "use": 774,
+   "useLabel": "+774 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -250,6 +268,17 @@
    "from": "Hugging Face",
    "use": 6545387,
    "useLabel": "6.5M downloads",
+   "usePct": 1,
+   "talk": [],
+   "buzz": 0,
+   "verdict": "Used a lot, hardly talked about"
+  },
+  {
+   "name": "Ternary-Bonsai-2-27B-gguf",
+   "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
+   "from": "Hugging Face",
+   "use": 4120718,
+   "useLabel": "4.1M downloads",
    "usePct": 0.9696969696969697,
    "talk": [],
    "buzz": 0,
@@ -341,17 +370,17 @@
  "github": [
   {
    "repo": "rehan-remade/universal-modder",
-   "stars": 3511,
-   "d24": 796,
+   "stars": 3520,
+   "d24": 774,
    "est": false,
-   "forks": 305,
+   "forks": 306,
    "contrib": 28,
    "score": 92
   },
   {
    "repo": "CopilotKit/OpenDots",
-   "stars": 3389,
-   "d24": 444,
+   "stars": 3398,
+   "d24": 443,
    "est": false,
    "forks": 446,
    "contrib": 3,
@@ -359,8 +388,8 @@
   },
   {
    "repo": "QingYunA/answer-me-with-html",
-   "stars": 1272,
-   "d24": 418,
+   "stars": 1286,
+   "d24": 420,
    "est": true,
    "forks": 86,
    "contrib": null,
@@ -368,26 +397,26 @@
   },
   {
    "repo": "nykooi1/vibe-wise",
-   "stars": 1199,
-   "d24": 339,
+   "stars": 1216,
+   "d24": 365,
    "est": false,
-   "forks": 61,
+   "forks": 63,
    "contrib": null,
    "score": 79
   },
   {
    "repo": "KKKKhazix/AIHOT",
-   "stars": 5895,
-   "d24": 262,
+   "stars": 5903,
+   "d24": 270,
    "est": false,
-   "forks": 1492,
+   "forks": 1493,
    "contrib": 10,
    "score": 92
   },
   {
    "repo": "omlahore/RemoveMacAI",
-   "stars": 982,
-   "d24": 164,
+   "stars": 1014,
+   "d24": 168,
    "est": true,
    "forks": 18,
    "contrib": null,
@@ -395,8 +424,8 @@
   },
   {
    "repo": "nanaism/yomiyasu",
-   "stars": 1462,
-   "d24": 160,
+   "stars": 1466,
+   "d24": 162,
    "est": false,
    "forks": 33,
    "contrib": null,
@@ -404,8 +433,8 @@
   },
   {
    "repo": "edenfunf/reelmimic",
-   "stars": 1290,
-   "d24": 45,
+   "stars": 1293,
+   "d24": 48,
    "est": false,
    "forks": 160,
    "contrib": null,
@@ -422,7 +451,7 @@
    "grow": 29,
    "score": 94,
    "cat": "Coding",
-   "likes": 1302
+   "likes": 1305
   },
   {
    "name": "Kolibri-1",
@@ -433,7 +462,7 @@
    "grow": null,
    "score": 92,
    "cat": "Infrastructure",
-   "likes": 506
+   "likes": 512
   },
   {
    "name": "laya",
@@ -444,7 +473,7 @@
    "grow": 213,
    "score": 89,
    "cat": "Tools",
-   "likes": 5194
+   "likes": 5195
   },
   {
    "name": "clef-flash",
@@ -466,7 +495,7 @@
    "grow": 5,
    "score": 87,
    "cat": "Infrastructure",
-   "likes": 3186
+   "likes": 3187
   },
   {
    "name": "VisionHOPE",
@@ -477,7 +506,7 @@
    "grow": 9,
    "score": 85,
    "cat": "Vision",
-   "likes": 411
+   "likes": 412
   }
  ],
  "free": [
@@ -932,24 +961,24 @@
    "kind": "News"
   },
   {
-   "t": "Q&A with Google SVP and DeepMind Institute co-director James Manyika on AI risks and why responsibility must be shared across industry, government, and society",
-   "url": "https://www.techmeme.com/261004/p21#a261004p21",
-   "at": "2026-10-05T00:55:01.000Z",
-   "src": "Techmeme",
+   "t": "AI benefits warrant accepting some risks: Sam Altman",
+   "url": "https://www.canberratimes.com.au/story/9362505/ai-benefits-warrant-accepting-some-risks-sam-altman/",
+   "at": "2026-10-04T23:30:26Z",
+   "src": "The Canberra Times",
    "kind": "News"
   },
   {
-   "t": "OpenAI CEO says AI will cause some bad things, but the benefits are worth it",
-   "url": "https://www.digitaltrends.com/cool-tech/sam-altman-ai-risks-benefits-regulation/",
-   "at": "2026-10-04T22:48:16Z",
-   "src": "Digital Trends",
+   "t": "OpenAI's Altman says AI benefits warrant accepting some risks",
+   "url": "https://www.thestar.com.my/tech/tech-news/2026/10/05/openai039s-altman-says-ai-benefits-warrant-accepting-some-risks",
+   "at": "2026-10-04T23:29:00Z",
+   "src": "The Star",
    "kind": "News"
   },
   {
-   "t": "National intelligence chief to lead US artificial intelligence task force",
-   "url": "https://www.fox4news.com/news/national-intelligence-chief-lead-us-artificial-intelligence-task-force",
-   "at": "2026-10-04T22:43:23Z",
-   "src": "FOX 4 News",
+   "t": "OpenAI Altman on AI benefits and risk acceptance",
+   "url": "https://www.straitstimes.com/world/united-states/openais-altman-says-ai-benefits-warrant-accepting-some-risks",
+   "at": "2026-10-04T23:25:00Z",
+   "src": "The Straits Times",
    "kind": "News"
   }
  ],
@@ -959,8 +988,8 @@
    "t": "Turn off Apple Intelligence on macOS 27 and get its disk space back",
    "url": "https://news.ycombinator.com/item?id=49957116",
    "link": "https://github.com/omlahore/RemoveMacAI",
-   "up": 596,
-   "com": 409,
+   "up": 610,
+   "com": 415,
    "at": "2026-10-04T19:42:25.000Z"
   },
   {
@@ -968,8 +997,8 @@
    "t": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
    "url": "https://news.ycombinator.com/item?id=49953495",
    "link": "https://github.com/Niko1221/Strata",
-   "up": 817,
-   "com": 361,
+   "up": 822,
+   "com": 364,
    "at": "2026-10-04T12:51:53.000Z"
   },
   {
@@ -977,8 +1006,8 @@
    "t": "Powerless F1 drivers frustrated by Bahrain F1 software glitch",
    "url": "https://news.ycombinator.com/item?id=49959869",
    "link": "https://www.motorsport.com/f1/news/horrible-totally-unacceptable-powerless-f1-drivers-frustrated-by-bahrain-f1-software-glitch/10861968/",
-   "up": 218,
-   "com": 188,
+   "up": 222,
+   "com": 192,
    "at": "2026-10-05T01:54:08.000Z"
   },
   {
@@ -986,8 +1015,8 @@
    "t": "A browser-native classic Visual Basic VB6 IDE",
    "url": "https://news.ycombinator.com/item?id=49956681",
    "link": "https://wieslawsoltes.github.io/VB6/",
-   "up": 257,
-   "com": 88,
+   "up": 266,
+   "com": 90,
    "at": "2026-10-04T18:49:17.000Z"
   },
   {
@@ -995,17 +1024,17 @@
    "t": "Anthropic reported diary entry to police, woman faces felony charge",
    "url": "https://news.ycombinator.com/item?id=49961057",
    "link": "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
-   "up": 72,
+   "up": 74,
    "com": 60,
    "at": "2026-10-05T05:37:40.000Z"
   },
   {
-   "src": "DEV",
-   "t": "How To Write Playwright tests in minutes with Playwright MCP and Claude Code",
-   "url": "https://dev.to/jakobnorlin/how-to-write-playwright-tests-in-minutes-with-playwright-mcp-and-claude-code-1o0d",
-   "up": 15,
-   "com": 0,
-   "at": "2026-10-05T09:44:22Z"
+   "src": "Mastodon",
+   "t": "„Große Sprachmodelle – im Alltag oft mit KI gleichgesetzt – produzieren Text. Sie tun nichts anderes. Dass aus dem Text eine Anweisung wird, die auf einem Co…",
+   "url": "https://climatejustice.social/@stefanmuelller/117387027628788703",
+   "up": 41,
+   "com": 2,
+   "at": "2026-10-05T07:04:53.000Z"
   }
  ]
 }
