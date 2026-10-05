@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-05T05:30:50.090Z"
+  "updated": "2026-10-05T06:01:00.549Z"
  },
  "pulse": {
   "trending": 82,
   "accelerating": 0,
   "newModels": 6,
-  "discussions": 36,
-  "stars": 3728
+  "discussions": 37,
+  "stars": 3725
  },
  "rising": [
   {
@@ -40,8 +40,8 @@
    "grow": null,
    "desc": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
    "meta": [
-    "★ 5,838",
-    "~935 in 24h",
+    "★ 5,842",
+    "~933 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-09-28T23:40:05Z",
@@ -57,13 +57,29 @@
    "grow": null,
    "desc": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
    "meta": [
-    "★ 3,319",
-    "~661 in 24h",
+    "★ 3,339",
+    "~662 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-09-30T05:00:35Z",
    "breakout": null,
    "url": "https://github.com/rehan-remade/universal-modder"
+  },
+  {
+   "name": "Kolibri-1",
+   "owner": "Aleph-Alpha",
+   "src": "hf",
+   "cat": "Infrastructure",
+   "score": 92,
+   "grow": 0,
+   "desc": "Model on Hugging Face · open source · ♥ 432",
+   "meta": [
+    "1.1K downloads",
+    "Released 3 days ago"
+   ],
+   "at": "2026-10-02T05:54:02.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
   },
   {
    "name": "OpenDots",
@@ -74,45 +90,13 @@
    "grow": null,
    "desc": "Your always-on AI coworkers that move between text, calls, and Slack.",
    "meta": [
-    "★ 3,269",
+    "★ 3,280",
     "~593 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-09-29T17:13:58Z",
    "breakout": null,
    "url": "https://github.com/CopilotKit/OpenDots"
-  },
-  {
-   "name": "clef-flash",
-   "owner": "Cloudflare",
-   "src": "hf",
-   "cat": "Coding",
-   "score": 91,
-   "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 438",
-   "meta": [
-    "6.4K downloads",
-    "Released 4 days ago"
-   ],
-   "at": "2026-09-30T21:15:36.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/Cloudflare/clef-flash"
-  },
-  {
-   "name": "Kolibri-1",
-   "owner": "Aleph-Alpha",
-   "src": "hf",
-   "cat": "Infrastructure",
-   "score": 91,
-   "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 427",
-   "meta": [
-    "1.1K downloads",
-    "Released 3 days ago"
-   ],
-   "at": "2026-10-02T05:54:02.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
   },
   {
    "name": "dots",
@@ -123,8 +107,8 @@
    "grow": null,
    "desc": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
    "meta": [
-    "★ 2,605",
-    "~495 in 24h",
+    "★ 2,606",
+    "~493 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-09-29T23:06:00Z",
@@ -137,11 +121,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 89,
-   "grow": 43,
+   "grow": 45,
    "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
    "meta": [
-    "★ 1,152",
-    "+523 in 24h",
+    "★ 1,163",
+    "+524 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-02T09:57:40Z",
@@ -163,6 +147,22 @@
    "at": "2026-09-18T05:05:55.000Z",
    "breakout": null,
    "url": "https://huggingface.co/convaiinnovations/laya"
+  },
+  {
+   "name": "clef-flash",
+   "owner": "Cloudflare",
+   "src": "hf",
+   "cat": "Coding",
+   "score": 89,
+   "grow": 0,
+   "desc": "Model on Hugging Face · open source · ♥ 439",
+   "meta": [
+    "6.4K downloads",
+    "Released 4 days ago"
+   ],
+   "at": "2026-09-30T21:15:36.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/Cloudflare/clef-flash"
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -198,8 +198,8 @@
     },
     {
      "src": "YouTube",
-     "t": "Gemini 4, GPT 6.1, Dots, Claude Sonnet 5.5, Ideogram 4.5, Flux 3: AI NEWS",
-     "url": "https://www.youtube.com/watch?v=lHmZoRHMZyM"
+     "t": "HUGE Fable 5.5 LEAK + First Preview, Gemini 4 Argon, Claude Code Update, FREE Model, & More! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=N3REfH4N9Dg"
     }
    ],
    "buzz": 2,
@@ -209,8 +209,8 @@
    "name": "AIHOT",
    "url": "https://github.com/KKKKhazix/AIHOT",
    "from": "GitHub",
-   "use": 935,
-   "useLabel": "~935 stars/day",
+   "use": 933,
+   "useLabel": "~933 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -324,17 +324,17 @@
  "github": [
   {
    "repo": "KKKKhazix/AIHOT",
-   "stars": 5838,
-   "d24": 935,
+   "stars": 5842,
+   "d24": 933,
    "est": true,
-   "forks": 1489,
+   "forks": 1488,
    "contrib": 10,
    "score": 92
   },
   {
    "repo": "rehan-remade/universal-modder",
-   "stars": 3319,
-   "d24": 661,
+   "stars": 3339,
+   "d24": 662,
    "est": true,
    "forks": 291,
    "contrib": 26,
@@ -342,17 +342,17 @@
   },
   {
    "repo": "CopilotKit/OpenDots",
-   "stars": 3269,
+   "stars": 3280,
    "d24": 593,
    "est": true,
-   "forks": 431,
+   "forks": 433,
    "contrib": 3,
    "score": 91
   },
   {
    "repo": "QingYunA/answer-me-with-html",
-   "stars": 1152,
-   "d24": 523,
+   "stars": 1163,
+   "d24": 524,
    "est": false,
    "forks": 81,
    "contrib": null,
@@ -360,8 +360,8 @@
   },
   {
    "repo": "feder-cr/dots",
-   "stars": 2605,
-   "d24": 495,
+   "stars": 2606,
+   "d24": 493,
    "est": true,
    "forks": 437,
    "contrib": null,
@@ -369,7 +369,7 @@
   },
   {
    "repo": "nanaism/yomiyasu",
-   "stars": 1423,
+   "stars": 1426,
    "d24": 300,
    "est": true,
    "forks": 32,
@@ -378,17 +378,17 @@
   },
   {
    "repo": "nykooi1/vibe-wise",
-   "stars": 1117,
-   "d24": 181,
+   "stars": 1124,
+   "d24": 182,
    "est": true,
-   "forks": 56,
+   "forks": 57,
    "contrib": null,
    "score": 79
   },
   {
    "repo": "edenfunf/reelmimic",
    "stars": 1278,
-   "d24": 40,
+   "d24": 38,
    "est": false,
    "forks": 156,
    "contrib": null,
@@ -405,18 +405,7 @@
    "grow": null,
    "score": 95,
    "cat": "Coding",
-   "likes": 1253
-  },
-  {
-   "name": "clef-flash",
-   "org": "Cloudflare",
-   "lic": "Open source",
-   "at": "2026-09-30T21:15:36.000Z",
-   "dl": 6372,
-   "grow": 0,
-   "score": 91,
-   "cat": "Coding",
-   "likes": 438
+   "likes": 1256
   },
   {
    "name": "Kolibri-1",
@@ -425,9 +414,9 @@
    "at": "2026-10-02T05:54:02.000Z",
    "dl": 1135,
    "grow": 0,
-   "score": 91,
+   "score": 92,
    "cat": "Infrastructure",
-   "likes": 427
+   "likes": 432
   },
   {
    "name": "laya",
@@ -438,7 +427,18 @@
    "grow": null,
    "score": 89,
    "cat": "Tools",
-   "likes": 5170
+   "likes": 5173
+  },
+  {
+   "name": "clef-flash",
+   "org": "Cloudflare",
+   "lic": "Open source",
+   "at": "2026-09-30T21:15:36.000Z",
+   "dl": 6372,
+   "grow": 0,
+   "score": 89,
+   "cat": "Coding",
+   "likes": 439
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -449,7 +449,7 @@
    "grow": null,
    "score": 87,
    "cat": "Infrastructure",
-   "likes": 3157
+   "likes": 3159
   },
   {
    "name": "VisionHOPE",
@@ -942,35 +942,35 @@
    "t": "Turn off Apple Intelligence on macOS 27 and get its disk space back",
    "url": "https://news.ycombinator.com/item?id=49957116",
    "link": "https://github.com/omlahore/RemoveMacAI",
-   "up": 471,
-   "com": 296,
+   "up": 484,
+   "com": 302,
    "at": "2026-10-04T19:42:25.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Powerless F1 drivers frustrated by Bahrain F1 software glitch",
-   "url": "https://news.ycombinator.com/item?id=49959869",
-   "link": "https://www.motorsport.com/f1/news/horrible-totally-unacceptable-powerless-f1-drivers-frustrated-by-bahrain-f1-software-glitch/10861968/",
-   "up": 150,
-   "com": 88,
-   "at": "2026-10-05T01:54:08.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
    "url": "https://news.ycombinator.com/item?id=49953495",
    "link": "https://github.com/Niko1221/Strata",
-   "up": 682,
-   "com": 313,
+   "up": 696,
+   "com": 320,
    "at": "2026-10-04T12:51:53.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Powerless F1 drivers frustrated by Bahrain F1 software glitch",
+   "url": "https://news.ycombinator.com/item?id=49959869",
+   "link": "https://www.motorsport.com/f1/news/horrible-totally-unacceptable-powerless-f1-drivers-frustrated-by-bahrain-f1-software-glitch/10861968/",
+   "up": 163,
+   "com": 95,
+   "at": "2026-10-05T01:54:08.000Z"
   },
   {
    "src": "Hacker News",
    "t": "A browser-native classic Visual Basic VB6 IDE",
    "url": "https://news.ycombinator.com/item?id=49956681",
    "link": "https://wieslawsoltes.github.io/VB6/",
-   "up": 146,
-   "com": 52,
+   "up": 151,
+   "com": 56,
    "at": "2026-10-04T18:49:17.000Z"
   },
   {
@@ -978,15 +978,15 @@
    "t": "ArtCraft Apps – open-source Adobe compatible suite written in Rust",
    "url": "https://news.ycombinator.com/item?id=49958850",
    "link": "https://getartcraft.com/apps",
-   "up": 62,
-   "com": 71,
+   "up": 77,
+   "com": 77,
    "at": "2026-10-04T23:02:43.000Z"
   },
   {
    "src": "DEV",
    "t": "We Gave AI Agents Real Tools — Then Realized “Just Ask Before Acting” Wasn’t Enough",
    "url": "https://dev.to/robertadam987_/we-gave-ai-agents-real-tools-then-realized-just-ask-before-acting-wasnt-enough-19e3",
-   "up": 8,
+   "up": 9,
    "com": 2,
    "at": "2026-10-05T04:50:38Z"
   }
