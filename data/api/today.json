@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-05T14:01:06.178Z"
+  "updated": "2026-10-05T14:30:49.970Z"
  },
  "pulse": {
   "trending": 83,
   "accelerating": 2,
   "newModels": 7,
-  "discussions": 35,
-  "stars": 2914
+  "discussions": 39,
+  "stars": 2963
  },
  "rising": [
   {
@@ -40,8 +40,8 @@
    "grow": 2,
    "desc": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
    "meta": [
-    "★ 5,932",
-    "+272 in 24h",
+    "★ 5,938",
+    "+273 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-09-28T23:40:05Z",
@@ -57,8 +57,8 @@
    "grow": 10,
    "desc": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
    "meta": [
-    "★ 3,578",
-    "+722 in 24h",
+    "★ 3,595",
+    "+727 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-09-30T05:00:35Z",
@@ -72,7 +72,7 @@
    "cat": "Infrastructure",
    "score": 92,
    "grow": 116,
-   "desc": "Model on Hugging Face · open source · ♥ 538",
+   "desc": "Model on Hugging Face · open source · ♥ 550",
    "meta": [
     "2.5K downloads",
     "Released 3 days ago"
@@ -87,11 +87,11 @@
    "src": "gh",
    "cat": "Tools",
    "score": 91,
-   "grow": 8,
+   "grow": 9,
    "desc": "Your always-on AI coworkers that move between text, calls, and Slack.",
    "meta": [
-    "★ 3,465",
-    "+482 in 24h",
+    "★ 3,480",
+    "+491 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-09-29T17:13:58Z",
@@ -107,8 +107,8 @@
    "grow": null,
    "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
    "meta": [
-    "★ 1,367",
-    "~431 in 24h",
+    "★ 1,383",
+    "~434 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-02T09:57:40Z",
@@ -138,7 +138,7 @@
    "cat": "Coding",
    "score": 89,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 470",
+   "desc": "Model on Hugging Face · open source · ♥ 474",
    "meta": [
     "8.1K downloads",
     "Released 5 days ago"
@@ -156,8 +156,8 @@
    "grow": 0,
    "desc": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
    "meta": [
-    "★ 2,611",
-    "+16 in 24h",
+    "★ 2,610",
+    "+13 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-09-29T23:06:00Z",
@@ -187,8 +187,8 @@
    "name": "RemoveMacAI",
    "url": "https://github.com/omlahore/RemoveMacAI",
    "from": "GitHub",
-   "use": 200,
-   "useLabel": "~200 stars/day",
+   "use": 209,
+   "useLabel": "~209 stars/day",
    "usePct": 0.375,
    "talk": [
     {
@@ -204,8 +204,19 @@
    "name": "universal-modder",
    "url": "https://github.com/rehan-remade/universal-modder",
    "from": "GitHub",
-   "use": 722,
-   "useLabel": "+722 stars/day",
+   "use": 727,
+   "useLabel": "+727 stars/day",
+   "usePct": 1,
+   "talk": [],
+   "buzz": 0,
+   "verdict": "Used a lot, hardly talked about"
+  },
+  {
+   "name": "Qwen-Image-2.1",
+   "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1",
+   "from": "Hugging Face",
+   "use": 6612052,
+   "useLabel": "6.6M downloads",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -217,17 +228,6 @@
    "from": "Hugging Face",
    "use": 6545387,
    "useLabel": "6.5M downloads",
-   "usePct": 1,
-   "talk": [],
-   "buzz": 0,
-   "verdict": "Used a lot, hardly talked about"
-  },
-  {
-   "name": "Ternary-Bonsai-2-27B-gguf",
-   "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
-   "from": "Hugging Face",
-   "use": 4120718,
-   "useLabel": "4.1M downloads",
    "usePct": 0.9696969696969697,
    "talk": [],
    "buzz": 0,
@@ -319,35 +319,35 @@
  "github": [
   {
    "repo": "rehan-remade/universal-modder",
-   "stars": 3578,
-   "d24": 722,
+   "stars": 3595,
+   "d24": 727,
    "est": false,
-   "forks": 309,
+   "forks": 310,
    "contrib": 28,
    "score": 92
   },
   {
    "repo": "nykooi1/vibe-wise",
-   "stars": 1350,
-   "d24": 563,
+   "stars": 1369,
+   "d24": 577,
    "est": false,
-   "forks": 67,
+   "forks": 68,
    "contrib": null,
    "score": 80
   },
   {
    "repo": "CopilotKit/OpenDots",
-   "stars": 3465,
-   "d24": 482,
+   "stars": 3480,
+   "d24": 491,
    "est": false,
-   "forks": 459,
+   "forks": 460,
    "contrib": 3,
    "score": 91
   },
   {
    "repo": "QingYunA/answer-me-with-html",
-   "stars": 1367,
-   "d24": 431,
+   "stars": 1383,
+   "d24": 434,
    "est": true,
    "forks": 93,
    "contrib": null,
@@ -355,8 +355,8 @@
   },
   {
    "repo": "KKKKhazix/AIHOT",
-   "stars": 5932,
-   "d24": 272,
+   "stars": 5938,
+   "d24": 273,
    "est": false,
    "forks": 1506,
    "contrib": 10,
@@ -364,8 +364,8 @@
   },
   {
    "repo": "omlahore/RemoveMacAI",
-   "stars": 1223,
-   "d24": 200,
+   "stars": 1284,
+   "d24": 209,
    "est": true,
    "forks": 23,
    "contrib": null,
@@ -373,8 +373,8 @@
   },
   {
    "repo": "nanaism/yomiyasu",
-   "stars": 1481,
-   "d24": 158,
+   "stars": 1487,
+   "d24": 164,
    "est": false,
    "forks": 34,
    "contrib": null,
@@ -382,8 +382,8 @@
   },
   {
    "repo": "edenfunf/reelmimic",
-   "stars": 1314,
-   "d24": 70,
+   "stars": 1319,
+   "d24": 75,
    "est": false,
    "forks": 161,
    "contrib": null,
@@ -400,7 +400,7 @@
    "grow": 29,
    "score": 94,
    "cat": "Coding",
-   "likes": 1325
+   "likes": 1335
   },
   {
    "name": "Kolibri-1",
@@ -411,7 +411,7 @@
    "grow": 116,
    "score": 92,
    "cat": "Infrastructure",
-   "likes": 538
+   "likes": 550
   },
   {
    "name": "laya",
@@ -422,7 +422,7 @@
    "grow": 213,
    "score": 89,
    "cat": "Tools",
-   "likes": 5201
+   "likes": 5202
   },
   {
    "name": "clef-flash",
@@ -433,7 +433,7 @@
    "grow": null,
    "score": 89,
    "cat": "Coding",
-   "likes": 470
+   "likes": 474
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -444,7 +444,7 @@
    "grow": 5,
    "score": 87,
    "cat": "Infrastructure",
-   "likes": 3201
+   "likes": 3208
   },
   {
    "name": "VisionHOPE",
@@ -819,7 +819,14 @@
  },
  "headlines": [
   {
-   "t": "Sources: Nico Caprez, son-in-law to Jensen Huang, has rapidly ascended to become an Nvidia VP, serving as Huang's \"consigliere\" and main contact for neoclouds",
+   "t": "Q&A with AI researchers Jacob Coxon, Daniel Kokotajlo, Alex Turner, and others on leaving AI labs, AGI's dangers, planned IPOs, AI safety, oversight, and more",
+   "url": "https://www.techmeme.com/261005/p20#a261005p20",
+   "at": "2026-10-05T14:10:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Sources: Nico Caprez, son-in-law to Jensen Huang, rapidly ascended to become an Nvidia VP, serving as its main contact for neoclouds and Huang's \"consigliere\"",
    "url": "https://www.techmeme.com/261005/p19#a261005p19",
    "at": "2026-10-05T13:55:03.000Z",
    "src": "Techmeme",
@@ -903,20 +910,6 @@
    "kind": "News"
   },
   {
-   "t": "An interview with CoreWeave Physical AI SVP Richard Ahlfeld on AI models failing real-world checks, the roles of synthetic data and physical tests, and more",
-   "url": "https://www.techmeme.com/261005/p6#a261005p6",
-   "at": "2026-10-05T08:45:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "A look at China's gray market of token resellers, who use accumulated identities and USDT-funded cards to obtain Claude accounts and route them through proxies",
-   "url": "https://www.techmeme.com/261005/p5#a261005p5",
-   "at": "2026-10-05T08:10:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": " Internet Watch Foundation reports huge rise in AI child sexual abuse material",
    "url": "https://www.theguardian.com/technology/2026/oct/05/internet-watch-foundation-huge-rise-ai-child-sexual-abuse-material",
    "at": "2026-10-05T05:00:49Z",
@@ -924,10 +917,17 @@
    "kind": "News"
   },
   {
-   "t": "The future of history: Tech to empower Malaysia's historical preservation efforts",
-   "url": "https://www.thestar.com.my/tech/tech-news/2026/10/05/the-future-of-history-tech-to-empower-malaysia039s-historical-preservation-efforts",
-   "at": "2026-10-05T02:00:00Z",
-   "src": "The Star",
+   "t": "Former Anthropic researcher Jacob Coxon to testify at New York City AI hearing",
+   "url": "https://www.firstpost.com/tech/former-anthropic-researcher-jacob-coxon-to-testify-at-new-york-city-ai-hearing-14050372.html",
+   "at": "2026-10-05T02:22:28Z",
+   "src": "Firstpost",
+   "kind": "News"
+  },
+  {
+   "t": "Trump names Jay Clayton as White House's AI czar. This is what he thinks about the technology",
+   "url": "https://economictimes.indiatimes.com/world/us/trump-names-jay-clayton-as-white-houses-ai-czar-this-is-what-he-thinks-about-the-technology/articleshow/134683900.cms",
+   "at": "2026-10-05T02:09:00Z",
+   "src": "The Economic Times",
    "kind": "News"
   }
  ],
@@ -937,7 +937,7 @@
    "t": "Turn off Apple Intelligence on macOS 27 and get its disk space back",
    "url": "https://news.ycombinator.com/item?id=49957116",
    "link": "https://github.com/omlahore/RemoveMacAI",
-   "up": 663,
+   "up": 674,
    "com": 454,
    "at": "2026-10-04T19:42:25.000Z"
   },
@@ -946,44 +946,45 @@
    "t": "Accept 'bad things' in return for benefits of AI, says Sam Altman",
    "url": "https://news.ycombinator.com/item?id=49964248",
    "link": "https://www.theguardian.com/technology/2026/oct/05/sam-altman-open-ai-chatgpt-benefits-risks",
-   "up": 33,
-   "com": 78,
+   "up": 35,
+   "com": 86,
    "at": "2026-10-05T12:56:18.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Gitframes",
+   "url": "https://news.ycombinator.com/item?id=49964265",
+   "link": "https://github.com/gatewai-dev/gitframes",
+   "up": 32,
+   "com": 16,
+   "at": "2026-10-05T12:59:14.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Powerless F1 drivers frustrated by Bahrain F1 software glitch",
    "url": "https://news.ycombinator.com/item?id=49959869",
    "link": "https://www.motorsport.com/f1/news/horrible-totally-unacceptable-powerless-f1-drivers-frustrated-by-bahrain-f1-software-glitch/10861968/",
-   "up": 252,
-   "com": 217,
+   "up": 258,
+   "com": 219,
    "at": "2026-10-05T01:54:08.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Spending on AI Is Becoming Almost Impossible for Businesses to Budget",
+   "url": "https://news.ycombinator.com/item?id=49964537",
+   "link": "https://www.wsj.com/tech/personal-tech/ai-token-spending-businesses-431ee94a",
+   "up": 22,
+   "com": 10,
+   "at": "2026-10-05T13:22:31.000Z"
   },
   {
    "src": "Hacker News",
    "t": "A browser-native classic Visual Basic VB6 IDE",
    "url": "https://news.ycombinator.com/item?id=49956681",
    "link": "https://wieslawsoltes.github.io/VB6/",
-   "up": 309,
-   "com": 101,
+   "up": 315,
+   "com": 103,
    "at": "2026-10-04T18:49:17.000Z"
-  },
-  {
-   "src": "DEV",
-   "t": "I Built an AI That Reads Eviction Notices and Refuses to Lie to You",
-   "url": "https://dev.to/aws-builders/i-built-an-ai-that-reads-eviction-notices-and-refuses-to-lie-to-you-3475",
-   "up": 10,
-   "com": 0,
-   "at": "2026-10-05T13:27:11Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Anthropic reported diary entry to police, woman faces felony charge",
-   "url": "https://news.ycombinator.com/item?id=49961057",
-   "link": "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
-   "up": 81,
-   "com": 65,
-   "at": "2026-10-05T05:37:40.000Z"
   }
  ]
 }
