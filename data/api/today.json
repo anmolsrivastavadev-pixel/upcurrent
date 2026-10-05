@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-05T23:01:07.363Z"
+  "updated": "2026-10-05T23:30:52.332Z"
  },
  "pulse": {
   "trending": 82,
-  "accelerating": 3,
+  "accelerating": 2,
   "newModels": 7,
-  "discussions": 52,
-  "stars": 4216
+  "discussions": 50,
+  "stars": 5369
  },
  "rising": [
   {
@@ -21,7 +21,7 @@
    "src": "hf",
    "cat": "Coding",
    "score": 94,
-   "grow": 29,
+   "grow": null,
    "desc": "Model on Hugging Face · open source · ♥ 1.5K",
    "meta": [
     "5.4K downloads",
@@ -37,11 +37,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 92,
-   "grow": 17,
+   "grow": null,
    "desc": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
    "meta": [
-    "★ 3,828",
-    "+696 in 24h",
+    "★ 3,834",
+    "~664 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-09-30T05:00:35Z",
@@ -54,11 +54,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 91,
-   "grow": 3,
+   "grow": null,
    "desc": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
    "meta": [
     "★ 5,990",
-    "+218 in 24h",
+    "~856 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-09-28T23:40:05Z",
@@ -90,8 +90,8 @@
    "grow": null,
    "desc": "Your always-on AI coworkers that move between text, calls, and Slack.",
    "meta": [
-    "★ 3,660",
-    "~586 in 24h",
+    "★ 3,665",
+    "~585 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-09-29T17:13:58Z",
@@ -108,7 +108,7 @@
    "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
    "meta": [
     "★ 1,471",
-    "+427 in 24h",
+    "+411 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-02T09:57:40Z",
@@ -121,7 +121,7 @@
    "src": "hf",
    "cat": "Tools",
    "score": 89,
-   "grow": 213,
+   "grow": null,
    "desc": "Model on Hugging Face · open source · ♥ 5.2K",
    "meta": [
     "12K downloads",
@@ -137,11 +137,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 88,
-   "grow": 1,
+   "grow": null,
    "desc": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
    "meta": [
-    "★ 2,618",
-    "+17 in 24h",
+    "★ 2,619",
+    "~435 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-09-29T23:06:00Z",
@@ -155,7 +155,7 @@
    "cat": "Coding",
    "score": 88,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 513",
+   "desc": "Model on Hugging Face · open source · ♥ 517",
    "meta": [
     "8.1K downloads",
     "Released 5 days ago"
@@ -170,7 +170,7 @@
    "src": "hf",
    "cat": "Infrastructure",
    "score": 87,
-   "grow": 5,
+   "grow": null,
    "desc": "Model on Hugging Face · open weights · ♥ 3.3K",
    "meta": [
     "1.6M downloads",
@@ -255,8 +255,8 @@
    "name": "RemoveMacAI",
    "url": "https://github.com/omlahore/RemoveMacAI",
    "from": "GitHub",
-   "use": 1907,
-   "useLabel": "+1,907 stars/day",
+   "use": 1891,
+   "useLabel": "+1,891 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -370,75 +370,75 @@
  "github": [
   {
    "repo": "omlahore/RemoveMacAI",
-   "stars": 1960,
-   "d24": 1907,
+   "stars": 1990,
+   "d24": 1891,
    "est": false,
    "forks": 41,
    "contrib": null,
    "score": 83
   },
   {
+   "repo": "KKKKhazix/AIHOT",
+   "stars": 5990,
+   "d24": 856,
+   "est": true,
+   "forks": 1515,
+   "contrib": 11,
+   "score": 91
+  },
+  {
    "repo": "rehan-remade/universal-modder",
-   "stars": 3828,
-   "d24": 696,
-   "est": false,
-   "forks": 335,
+   "stars": 3834,
+   "d24": 664,
+   "est": true,
+   "forks": 337,
    "contrib": 33,
    "score": 92
   },
   {
    "repo": "CopilotKit/OpenDots",
-   "stars": 3660,
-   "d24": 586,
+   "stars": 3665,
+   "d24": 585,
    "est": true,
-   "forks": 486,
+   "forks": 487,
    "contrib": 16,
    "score": 90
   },
   {
+   "repo": "feder-cr/dots",
+   "stars": 2619,
+   "d24": 435,
+   "est": true,
+   "forks": 438,
+   "contrib": null,
+   "score": 88
+  },
+  {
    "repo": "QingYunA/answer-me-with-html",
    "stars": 1471,
-   "d24": 427,
+   "d24": 411,
    "est": false,
    "forks": 102,
    "contrib": null,
    "score": 89
   },
   {
-   "repo": "nykooi1/vibe-wise",
-   "stars": 1744,
-   "d24": 253,
-   "est": true,
-   "forks": 82,
-   "contrib": null,
-   "score": 81
-  },
-  {
-   "repo": "KKKKhazix/AIHOT",
-   "stars": 5990,
-   "d24": 218,
-   "est": false,
-   "forks": 1515,
-   "contrib": 11,
-   "score": 91
-  },
-  {
    "repo": "nanaism/yomiyasu",
-   "stars": 1503,
-   "d24": 112,
-   "est": false,
+   "stars": 1504,
+   "d24": 274,
+   "est": true,
    "forks": 34,
    "contrib": null,
    "score": 84
   },
   {
-   "repo": "feder-cr/dots",
-   "stars": 2618,
-   "d24": 17,
-   "est": false,
-   "forks": 438,
+   "repo": "nykooi1/vibe-wise",
+   "stars": 1751,
+   "d24": 253,
+   "est": true,
+   "forks": 83,
    "contrib": null,
-   "score": 88
+   "score": 81
   }
  ],
  "models": [
@@ -448,10 +448,10 @@
    "lic": "Open source",
    "at": "2026-09-30T21:15:35.000Z",
    "dl": 5416,
-   "grow": 29,
+   "grow": null,
    "score": 94,
    "cat": "Coding",
-   "likes": 1454
+   "likes": 1464
   },
   {
    "name": "Kolibri-1",
@@ -470,7 +470,7 @@
    "lic": "Open source",
    "at": "2026-09-18T05:05:55.000Z",
    "dl": 11733,
-   "grow": 213,
+   "grow": null,
    "score": 89,
    "cat": "Tools",
    "likes": 5228
@@ -484,7 +484,7 @@
    "grow": 0,
    "score": 88,
    "cat": "Coding",
-   "likes": 513
+   "likes": 517
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -492,7 +492,7 @@
    "lic": "Open weights",
    "at": "2026-09-20T15:51:13.000Z",
    "dl": 1638838,
-   "grow": 5,
+   "grow": null,
    "score": 87,
    "cat": "Infrastructure",
    "likes": 3251
@@ -507,7 +507,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 511
+   "likes": 528
   }
  ],
  "free": [
@@ -862,6 +862,13 @@
  },
  "headlines": [
   {
+   "t": "Sources: AI inference-chip startup Etched is in early talks to raise funding at a $40B-$50B valuation, up from $21B in August",
+   "url": "https://www.techmeme.com/261005/p34#a261005p34",
+   "at": "2026-10-05T23:25:02.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Analysis: Anthropic's subscriptions offer ~5x more API-equivalent value per month than OpenAI's for agentic workloads with Claude Opus 5.5 vs. GPT-6.1 Sol",
    "url": "https://www.techmeme.com/261005/p33#a261005p33",
    "at": "2026-10-05T22:20:02.000Z",
@@ -953,13 +960,6 @@
    "kind": "News"
   },
   {
-   "t": "Sources: Nico Caprez, son-in-law to Jensen Huang, rapidly ascended to become an Nvidia VP, serving as its main contact for neoclouds and Huang's \"consigliere\"",
-   "url": "https://www.techmeme.com/261005/p19#a261005p19",
-   "at": "2026-10-05T13:55:03.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Accept ‘bad things’ in return for benefits of AI, says Sam Altman",
    "url": "https://www.theguardian.com/technology/2026/oct/05/sam-altman-open-ai-chatgpt-benefits-risks",
    "at": "2026-10-05T13:27:45Z",
@@ -980,8 +980,8 @@
    "t": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
    "url": "https://news.ycombinator.com/item?id=49970667",
    "link": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
-   "up": 137,
-   "com": 110,
+   "up": 165,
+   "com": 124,
    "at": "2026-10-05T21:00:21.000Z"
   },
   {
@@ -989,8 +989,8 @@
    "t": "Beam: Reflection's 501B open-weight model",
    "url": "https://news.ycombinator.com/item?id=49969183",
    "link": "https://reflection.ai/blog/introducing-beam",
-   "up": 237,
-   "com": 65,
+   "up": 257,
+   "com": 66,
    "at": "2026-10-05T19:16:35.000Z"
   },
   {
@@ -998,8 +998,8 @@
    "t": "OpenAI \"rogue\" agent activities found on Wikimedia projects",
    "url": "https://news.ycombinator.com/item?id=49968105",
    "link": "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/",
-   "up": 250,
-   "com": 167,
+   "up": 253,
+   "com": 169,
    "at": "2026-10-05T17:53:35.000Z"
   },
   {
@@ -1007,8 +1007,8 @@
    "t": "Incident with Actions",
    "url": "https://news.ycombinator.com/item?id=49969961",
    "link": "https://www.githubstatus.com/incidents/3q1yb5m7ltvb",
-   "up": 89,
-   "com": 61,
+   "up": 91,
+   "com": 62,
    "at": "2026-10-05T20:09:12.000Z"
   },
   {
@@ -1016,8 +1016,8 @@
    "t": "Anthropic reported diary entry to police, woman faces felony charge",
    "url": "https://news.ycombinator.com/item?id=49961057",
    "link": "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
-   "up": 458,
-   "com": 385,
+   "up": 474,
+   "com": 400,
    "at": "2026-10-05T05:37:40.000Z"
   },
   {
@@ -1025,8 +1025,8 @@
    "t": "Mold Linker Version 3.0.0 Release – Rewritten in Rust",
    "url": "https://news.ycombinator.com/item?id=49963385",
    "link": "https://github.com/rui314/mold/releases/tag/v3.0.0",
-   "up": 226,
-   "com": 152,
+   "up": 227,
+   "com": 155,
    "at": "2026-10-05T11:17:18.000Z"
   }
  ]
