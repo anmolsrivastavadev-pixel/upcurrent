@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-04T23:34:41.861Z"
+  "updated": "2026-10-05T00:01:01.871Z"
  },
  "pulse": {
   "trending": 82,
   "accelerating": 0,
   "newModels": 7,
   "discussions": 34,
-  "stars": 2892
+  "stars": 2859
  },
  "rising": [
   {
@@ -37,11 +37,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 93,
-   "grow": 16,
+   "grow": 17,
    "desc": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
    "meta": [
-    "★ 3,163",
-    "+641 in 24h",
+    "★ 3,174",
+    "+640 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-09-30T05:00:35Z",
@@ -57,8 +57,8 @@
    "grow": 4,
    "desc": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
    "meta": [
-    "★ 5,768",
-    "+339 in 24h",
+    "★ 5,770",
+    "+333 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-09-28T23:40:05Z",
@@ -74,8 +74,8 @@
    "grow": 21,
    "desc": "Your always-on AI coworkers that move between text, calls, and Slack.",
    "meta": [
-    "★ 3,195",
-    "+710 in 24h",
+    "★ 3,196",
+    "+695 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-09-29T17:13:58Z",
@@ -123,8 +123,8 @@
    "grow": 1,
    "desc": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
    "meta": [
-    "★ 2,599",
-    "+26 in 24h",
+    "★ 2,600",
+    "+27 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-09-29T23:06:00Z",
@@ -137,11 +137,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 89,
-   "grow": 28,
+   "grow": 29,
    "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
    "meta": [
-    "★ 1,031",
-    "+544 in 24h",
+    "★ 1,037",
+    "+535 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-02T09:57:40Z",
@@ -181,31 +181,7 @@
    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF"
   }
  ],
- "breakouts": [
-  {
-   "key": "gpt 6",
-   "label": "GPT-6",
-   "n": 3,
-   "sources": [
-    {
-     "src": "OpenAI blog",
-     "t": "A model guide for the GPT-6 family",
-     "url": "https://openai.com/index/practical-guide-building-gpt-6"
-    },
-    {
-     "src": "NVIDIA blog",
-     "t": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
-     "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/"
-    },
-    {
-     "src": "GitHub",
-     "t": "zjwzcx/Awesome-Astra-Embodied-AI",
-     "url": "https://github.com/zjwzcx/Awesome-Astra-Embodied-AI"
-    }
-   ],
-   "since": "2026-10-02T11:40:52.853Z"
-  }
- ],
+ "breakouts": [],
  "hype": [
   {
    "name": "Gemini 4",
@@ -230,33 +206,11 @@
    "verdict": "Talk only, no public usage numbers"
   },
   {
-   "name": "GPT-6",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
-    {
-     "src": "OpenAI blog",
-     "t": "A model guide for the GPT-6 family",
-     "url": "https://openai.com/index/practical-guide-building-gpt-6"
-    },
-    {
-     "src": "NVIDIA blog",
-     "t": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
-     "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/"
-    }
-   ],
-   "buzz": 2,
-   "verdict": "Talk only, no public usage numbers"
-  },
-  {
    "name": "OpenDots",
    "url": "https://github.com/CopilotKit/OpenDots",
    "from": "GitHub",
-   "use": 710,
-   "useLabel": "+710 stars/day",
+   "use": 695,
+   "useLabel": "+695 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -370,8 +324,8 @@
  "github": [
   {
    "repo": "CopilotKit/OpenDots",
-   "stars": 3195,
-   "d24": 710,
+   "stars": 3196,
+   "d24": 695,
    "est": false,
    "forks": 414,
    "contrib": 3,
@@ -379,26 +333,26 @@
   },
   {
    "repo": "rehan-remade/universal-modder",
-   "stars": 3163,
-   "d24": 641,
+   "stars": 3174,
+   "d24": 640,
    "est": false,
-   "forks": 273,
+   "forks": 276,
    "contrib": 16,
    "score": 93
   },
   {
    "repo": "QingYunA/answer-me-with-html",
-   "stars": 1031,
-   "d24": 544,
+   "stars": 1037,
+   "d24": 535,
    "est": false,
-   "forks": 72,
+   "forks": 73,
    "contrib": null,
    "score": 89
   },
   {
    "repo": "nykooi1/vibe-wise",
-   "stars": 1031,
-   "d24": 366,
+   "stars": 1036,
+   "d24": 364,
    "est": false,
    "forks": 54,
    "contrib": null,
@@ -406,8 +360,8 @@
   },
   {
    "repo": "KKKKhazix/AIHOT",
-   "stars": 5768,
-   "d24": 339,
+   "stars": 5770,
+   "d24": 333,
    "est": false,
    "forks": 1484,
    "contrib": 10,
@@ -416,7 +370,7 @@
   {
    "repo": "edenfunf/reelmimic",
    "stars": 1266,
-   "d24": 205,
+   "d24": 204,
    "est": true,
    "forks": 154,
    "contrib": null,
@@ -424,7 +378,7 @@
   },
   {
    "repo": "nanaism/yomiyasu",
-   "stars": 1384,
+   "stars": 1385,
    "d24": 61,
    "est": false,
    "forks": 30,
@@ -433,8 +387,8 @@
   },
   {
    "repo": "feder-cr/dots",
-   "stars": 2599,
-   "d24": 26,
+   "stars": 2600,
+   "d24": 27,
    "est": false,
    "forks": 437,
    "contrib": null,
@@ -451,7 +405,7 @@
    "grow": 61,
    "score": 95,
    "cat": "Coding",
-   "likes": 1200
+   "likes": 1203
   },
   {
    "name": "clef-flash",
@@ -495,7 +449,7 @@
    "grow": 7,
    "score": 87,
    "cat": "Infrastructure",
-   "likes": 3133
+   "likes": 3134
   },
   {
    "name": "VisionHOPE",
@@ -919,6 +873,27 @@
    "kind": "News"
   },
   {
+   "t": "Amazon’s colorful and sturdy new Kindles",
+   "url": "https://www.theverge.com/tech/1004199/amazon-kindle-openai-dots-witcher-3-remastered-bose-wired-headphones",
+   "at": "2026-10-04T12:00:00Z",
+   "src": "The Verge",
+   "kind": "News"
+  },
+  {
+   "t": "Gavin Newsom signs executive order directly opposing Trump: 'You're welcome, America'",
+   "url": "https://www.indy100.com/politics/trump/gavin-newsom-executive-order-ai-2677997853",
+   "at": "2026-10-04T11:45:17Z",
+   "src": "indy100",
+   "kind": "News"
+  },
+  {
+   "t": "OpenAI safety expert quits as he warns company behind ChatGPT is not taking enough care",
+   "url": "https://www.ladbible.com/technology/david-robinson-openai-chatgpt-quits-safety-concerns-020489-20261004",
+   "at": "2026-10-04T11:41:04Z",
+   "src": "LADbible",
+   "kind": "News"
+  },
+  {
    "t": "Trump names Jay Clayton to new artificial intelligence czar post",
    "url": "https://www.breitbart.com/news/trump-names-jay-clayton-to-new-artificial-intelligence-czar-post/",
    "at": "2026-10-04T11:34:40Z",
@@ -959,27 +934,6 @@
    "at": "2026-10-04T10:29:41Z",
    "src": "Livemint",
    "kind": "News"
-  },
-  {
-   "t": "St. Paul public schools plan for students with AI",
-   "url": "https://www.europesays.com/3289299/",
-   "at": "2026-10-04T10:27:15Z",
-   "src": "EUROPE SAYS",
-   "kind": "News"
-  },
-  {
-   "t": "AI predicts XRP for October 31, 2026",
-   "url": "https://finbold.com/ai-predicts-xrp-for-october-31-2026/",
-   "at": "2026-10-04T10:17:18Z",
-   "src": "Finbold",
-   "kind": "News"
-  },
-  {
-   "t": "AI predicts XRP price for October 31, 2026",
-   "url": "https://finbold.com/ai-predicts-xrp-price-for-october-31-2026/",
-   "at": "2026-10-04T10:17:18Z",
-   "src": "Finbold",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -988,8 +942,8 @@
    "t": "Turn off Apple Intelligence on macOS 27 and get its disk space back",
    "url": "https://news.ycombinator.com/item?id=49957116",
    "link": "https://github.com/omlahore/RemoveMacAI",
-   "up": 273,
-   "com": 156,
+   "up": 291,
+   "com": 173,
    "at": "2026-10-04T19:42:25.000Z"
   },
   {
@@ -997,8 +951,8 @@
    "t": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
    "url": "https://news.ycombinator.com/item?id=49953495",
    "link": "https://github.com/Niko1221/Strata",
-   "up": 552,
-   "com": 268,
+   "up": 568,
+   "com": 270,
    "at": "2026-10-04T12:51:53.000Z"
   },
   {
@@ -1006,8 +960,8 @@
    "t": "Homa: The end of TCP for AI clusters [video]",
    "url": "https://news.ycombinator.com/item?id=49957117",
    "link": "https://www.youtube.com/watch?v=eZ8WWZzoaR0",
-   "up": 45,
-   "com": 11,
+   "up": 46,
+   "com": 12,
    "at": "2026-10-04T19:42:25.000Z"
   },
   {
@@ -1015,27 +969,27 @@
    "t": "Show HN: AI search for every photo and every frame of video on macOS",
    "url": "https://news.ycombinator.com/item?id=49952111",
    "link": "https://github.com/allenv0/SCM",
-   "up": 132,
-   "com": 62,
+   "up": 134,
+   "com": 64,
    "at": "2026-10-04T09:24:52.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "I asked Claude build a physically accurate O'Neill cylinder you can walk around",
-   "url": "https://news.ycombinator.com/item?id=49957191",
-   "link": "https://island-three.gruberbuilds.workers.dev/",
-   "up": 29,
-   "com": 28,
-   "at": "2026-10-04T19:49:12.000Z"
   },
   {
    "src": "Hacker News",
    "t": "A browser-native classic Visual Basic VB6 IDE",
    "url": "https://news.ycombinator.com/item?id=49956681",
    "link": "https://wieslawsoltes.github.io/VB6/",
-   "up": 36,
-   "com": 12,
+   "up": 44,
+   "com": 18,
    "at": "2026-10-04T18:49:17.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Religious scholars met with Anthropic",
+   "url": "https://news.ycombinator.com/item?id=49950052",
+   "link": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
+   "up": 156,
+   "com": 393,
+   "at": "2026-10-04T02:34:22.000Z"
   }
  ]
 }
