@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-05T15:01:06.935Z"
+  "updated": "2026-10-05T15:31:00.525Z"
  },
  "pulse": {
   "trending": 83,
   "accelerating": 2,
   "newModels": 7,
-  "discussions": 40,
-  "stars": 2999
+  "discussions": 42,
+  "stars": 5135
  },
  "rising": [
   {
@@ -40,8 +40,8 @@
    "grow": 2,
    "desc": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
    "meta": [
-    "★ 5,947",
-    "+280 in 24h",
+    "★ 5,954",
+    "+282 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-09-28T23:40:05Z",
@@ -54,11 +54,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 92,
-   "grow": 10,
+   "grow": 11,
    "desc": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
    "meta": [
-    "★ 3,604",
-    "+713 in 24h",
+    "★ 3,614",
+    "+704 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-09-30T05:00:35Z",
@@ -72,7 +72,7 @@
    "cat": "Infrastructure",
    "score": 92,
    "grow": 116,
-   "desc": "Model on Hugging Face · open source · ♥ 554",
+   "desc": "Model on Hugging Face · open source · ♥ 562",
    "meta": [
     "2.5K downloads",
     "Released 3 days ago"
@@ -87,11 +87,11 @@
    "src": "gh",
    "cat": "Tools",
    "score": 91,
-   "grow": 9,
+   "grow": 10,
    "desc": "Your always-on AI coworkers that move between text, calls, and Slack.",
    "meta": [
-    "★ 3,497",
-    "+502 in 24h",
+    "★ 3,509",
+    "+505 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-09-29T17:13:58Z",
@@ -104,11 +104,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 90,
-   "grow": null,
+   "grow": 15,
    "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
    "meta": [
-    "★ 1,400",
-    "~436 in 24h",
+    "★ 1,420",
+    "+756 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-02T09:57:40Z",
@@ -138,7 +138,7 @@
    "cat": "Coding",
    "score": 89,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 474",
+   "desc": "Model on Hugging Face · open source · ♥ 478",
    "meta": [
     "8.1K downloads",
     "Released 5 days ago"
@@ -157,7 +157,7 @@
    "desc": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
    "meta": [
     "★ 2,610",
-    "+13 in 24h",
+    "+12 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-09-29T23:06:00Z",
@@ -187,9 +187,9 @@
    "name": "RemoveMacAI",
    "url": "https://github.com/omlahore/RemoveMacAI",
    "from": "GitHub",
-   "use": 217,
-   "useLabel": "~217 stars/day",
-   "usePct": 0.375,
+   "use": 2031,
+   "useLabel": "+2,031 stars/day",
+   "usePct": 1,
    "talk": [
     {
      "src": "Hacker News",
@@ -198,18 +198,7 @@
     }
    ],
    "buzz": 1,
-   "verdict": "More talk than use"
-  },
-  {
-   "name": "universal-modder",
-   "url": "https://github.com/rehan-remade/universal-modder",
-   "from": "GitHub",
-   "use": 713,
-   "useLabel": "+713 stars/day",
-   "usePct": 1,
-   "talk": [],
-   "buzz": 0,
-   "verdict": "Used a lot, hardly talked about"
+   "verdict": "The hype matches real use"
   },
   {
    "name": "Qwen-Image-2.1",
@@ -229,6 +218,17 @@
    "use": 6545387,
    "useLabel": "6.5M downloads",
    "usePct": 0.9696969696969697,
+   "talk": [],
+   "buzz": 0,
+   "verdict": "Used a lot, hardly talked about"
+  },
+  {
+   "name": "Ternary-Bonsai-2-27B-gguf",
+   "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
+   "from": "Hugging Face",
+   "use": 4120718,
+   "useLabel": "4.1M downloads",
+   "usePct": 0.9393939393939394,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -318,18 +318,36 @@
  ],
  "github": [
   {
-   "repo": "rehan-remade/universal-modder",
-   "stars": 3604,
-   "d24": 713,
+   "repo": "omlahore/RemoveMacAI",
+   "stars": 1395,
+   "d24": 2031,
    "est": false,
-   "forks": 311,
+   "forks": 27,
+   "contrib": null,
+   "score": 81
+  },
+  {
+   "repo": "QingYunA/answer-me-with-html",
+   "stars": 1420,
+   "d24": 756,
+   "est": false,
+   "forks": 96,
+   "contrib": null,
+   "score": 90
+  },
+  {
+   "repo": "rehan-remade/universal-modder",
+   "stars": 3614,
+   "d24": 704,
+   "est": false,
+   "forks": 313,
    "contrib": 28,
    "score": 92
   },
   {
    "repo": "nykooi1/vibe-wise",
-   "stars": 1395,
-   "d24": 604,
+   "stars": 1414,
+   "d24": 615,
    "est": false,
    "forks": 70,
    "contrib": null,
@@ -337,44 +355,26 @@
   },
   {
    "repo": "CopilotKit/OpenDots",
-   "stars": 3497,
-   "d24": 502,
+   "stars": 3509,
+   "d24": 505,
    "est": false,
-   "forks": 461,
+   "forks": 463,
    "contrib": 3,
    "score": 91
   },
   {
-   "repo": "QingYunA/answer-me-with-html",
-   "stars": 1400,
-   "d24": 436,
-   "est": true,
-   "forks": 94,
-   "contrib": null,
-   "score": 90
-  },
-  {
    "repo": "KKKKhazix/AIHOT",
-   "stars": 5947,
-   "d24": 280,
+   "stars": 5954,
+   "d24": 282,
    "est": false,
    "forks": 1510,
    "contrib": 10,
    "score": 92
   },
   {
-   "repo": "omlahore/RemoveMacAI",
-   "stars": 1335,
-   "d24": 217,
-   "est": true,
-   "forks": 27,
-   "contrib": null,
-   "score": 81
-  },
-  {
    "repo": "nanaism/yomiyasu",
    "stars": 1487,
-   "d24": 156,
+   "d24": 150,
    "est": false,
    "forks": 34,
    "contrib": null,
@@ -382,10 +382,10 @@
   },
   {
    "repo": "edenfunf/reelmimic",
-   "stars": 1323,
-   "d24": 78,
+   "stars": 1326,
+   "d24": 80,
    "est": false,
-   "forks": 162,
+   "forks": 164,
    "contrib": null,
    "score": 78
   }
@@ -400,7 +400,7 @@
    "grow": 29,
    "score": 94,
    "cat": "Coding",
-   "likes": 1338
+   "likes": 1346
   },
   {
    "name": "Kolibri-1",
@@ -411,7 +411,7 @@
    "grow": 116,
    "score": 92,
    "cat": "Infrastructure",
-   "likes": 554
+   "likes": 562
   },
   {
    "name": "laya",
@@ -422,7 +422,7 @@
    "grow": 213,
    "score": 89,
    "cat": "Tools",
-   "likes": 5204
+   "likes": 5207
   },
   {
    "name": "clef-flash",
@@ -433,7 +433,7 @@
    "grow": null,
    "score": 89,
    "cat": "Coding",
-   "likes": 474
+   "likes": 478
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -453,7 +453,7 @@
    "at": "2026-09-29T07:28:16.000Z",
    "dl": 1654,
    "grow": 9,
-   "score": 85,
+   "score": 84,
    "cat": "Vision",
    "likes": 415
   }
@@ -819,6 +819,13 @@
  },
  "headlines": [
   {
+   "t": "Our approach to EU text provenance rules",
+   "url": "https://openai.com/index/eu-text-provenance",
+   "at": "2026-10-05T15:00:00.000Z",
+   "src": "OpenAI",
+   "kind": "Lab blog"
+  },
+  {
    "t": "Q&A with AI researchers Jacob Coxon, Daniel Kokotajlo, Alex Turner, and others on leaving AI labs, AGI's dangers, planned IPOs, AI safety, oversight, and more",
    "url": "https://www.techmeme.com/261005/p20#a261005p20",
    "at": "2026-10-05T14:10:01.000Z",
@@ -917,17 +924,10 @@
    "kind": "News"
   },
   {
-   "t": "Korea to launch $3.5 bil. frontier AI project next year",
-   "url": "https://www.koreatimes.co.kr/business/tech-science/20261005/korea-to-launch-35-bil-frontier-ai-project-next-year",
-   "at": "2026-10-05T03:01:03Z",
-   "src": "The Korea Times",
-   "kind": "News"
-  },
-  {
-   "t": "Ex-OpenAI engineer: AI needs safety layers like nuclear plants",
-   "url": "https://www.thestar.com.my/tech/tech-news/2026/10/05/ex-openai-engineer-ai-needs-safety-layers-like-nuclear-plants",
-   "at": "2026-10-05T03:00:00Z",
-   "src": "The Star",
+   "t": "'Some Harm Is an Acceptable Price for AI's Benefits': OpenAI's Sam Altman Says",
+   "url": "https://www.freepressjournal.in/tech/some-harm-is-an-acceptable-price-for-ais-benefits-openais-sam-altman-says",
+   "at": "2026-10-05T03:27:37Z",
+   "src": "Free Press Journal",
    "kind": "News"
   }
  ],
@@ -937,17 +937,26 @@
    "t": "Turn off Apple Intelligence on macOS 27 and get its disk space back",
    "url": "https://news.ycombinator.com/item?id=49957116",
    "link": "https://github.com/omlahore/RemoveMacAI",
-   "up": 688,
-   "com": 456,
+   "up": 698,
+   "com": 463,
    "at": "2026-10-04T19:42:25.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Altman: The world should accept some bad things happening for the benefits of AI",
+   "url": "https://news.ycombinator.com/item?id=49965786",
+   "link": "https://www.politico.com/news/2026/10/04/sam-altman-decoded-interview-ai-01106217",
+   "up": 29,
+   "com": 31,
+   "at": "2026-10-05T15:03:32.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Spending on AI Is Becoming Almost Impossible for Businesses to Budget",
    "url": "https://news.ycombinator.com/item?id=49964537",
    "link": "https://www.wsj.com/tech/personal-tech/ai-token-spending-businesses-431ee94a",
-   "up": 40,
-   "com": 44,
+   "up": 46,
+   "com": 63,
    "at": "2026-10-05T13:22:31.000Z"
   },
   {
@@ -955,8 +964,8 @@
    "t": "Gitframes",
    "url": "https://news.ycombinator.com/item?id=49964265",
    "link": "https://github.com/gatewai-dev/gitframes",
-   "up": 48,
-   "com": 24,
+   "up": 52,
+   "com": 26,
    "at": "2026-10-05T12:59:14.000Z"
   },
   {
@@ -964,8 +973,8 @@
    "t": "Powerless F1 drivers frustrated by Bahrain F1 software glitch",
    "url": "https://news.ycombinator.com/item?id=49959869",
    "link": "https://www.motorsport.com/f1/news/horrible-totally-unacceptable-powerless-f1-drivers-frustrated-by-bahrain-f1-software-glitch/10861968/",
-   "up": 264,
-   "com": 224,
+   "up": 266,
+   "com": 227,
    "at": "2026-10-05T01:54:08.000Z"
   },
   {
@@ -973,18 +982,9 @@
    "t": "Accept 'bad things' in return for benefits of AI, says Sam Altman",
    "url": "https://news.ycombinator.com/item?id=49964248",
    "link": "https://www.theguardian.com/technology/2026/oct/05/sam-altman-open-ai-chatgpt-benefits-risks",
-   "up": 38,
-   "com": 96,
+   "up": 42,
+   "com": 98,
    "at": "2026-10-05T12:56:18.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "A browser-native classic Visual Basic VB6 IDE",
-   "url": "https://news.ycombinator.com/item?id=49956681",
-   "link": "https://wieslawsoltes.github.io/VB6/",
-   "up": 326,
-   "com": 104,
-   "at": "2026-10-04T18:49:17.000Z"
   }
  ]
 }
