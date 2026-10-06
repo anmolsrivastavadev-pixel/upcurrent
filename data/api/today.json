@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-06T18:30:56.570Z"
+  "updated": "2026-10-06T19:01:06.094Z"
  },
  "pulse": {
   "trending": 80,
   "accelerating": 0,
   "newModels": 7,
-  "discussions": 40,
-  "stars": 1293
+  "discussions": 37,
+  "stars": 1285
  },
  "rising": [
   {
@@ -22,7 +22,7 @@
    "cat": "Coding",
    "score": 93,
    "grow": 34,
-   "desc": "Model on Hugging Face · open source · ♥ 1.6K",
+   "desc": "Model on Hugging Face · open source · ♥ 1.7K",
    "meta": [
     "7.3K downloads",
     "Released 6 days ago"
@@ -40,8 +40,8 @@
    "grow": 16,
    "desc": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
    "meta": [
-    "★ 4,444",
-    "+770 in 24h",
+    "★ 4,462",
+    "+773 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-09-30T05:00:35Z",
@@ -55,7 +55,7 @@
    "cat": "Infrastructure",
    "score": 91,
    "grow": 19,
-   "desc": "Model on Hugging Face · open source · ♥ 940",
+   "desc": "Model on Hugging Face · open source · ♥ 955",
    "meta": [
     "1.5M downloads",
     "Released 7 days ago"
@@ -71,7 +71,7 @@
    "cat": "Infrastructure",
    "score": 91,
    "grow": 69,
-   "desc": "Model on Hugging Face · open source · ♥ 696",
+   "desc": "Model on Hugging Face · open source · ♥ 699",
    "meta": [
     "4.1K downloads",
     "Released 5 days ago"
@@ -86,16 +86,32 @@
    "src": "gh",
    "cat": "Agents",
    "score": 88,
-   "grow": 14,
+   "grow": 15,
    "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
    "meta": [
-    "★ 1,739",
-    "+402 in 24h",
+    "★ 1,742",
+    "+393 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-02T09:57:40Z",
    "breakout": null,
    "url": "https://github.com/QingYunA/answer-me-with-html"
+  },
+  {
+   "name": "clef-flash",
+   "owner": "Cloudflare",
+   "src": "hf",
+   "cat": "Coding",
+   "score": 88,
+   "grow": 32,
+   "desc": "Model on Hugging Face · open source · ♥ 580",
+   "meta": [
+    "11K downloads",
+    "Released 6 days ago"
+   ],
+   "at": "2026-09-30T21:15:36.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/Cloudflare/clef-flash"
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -114,29 +130,13 @@
    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF"
   },
   {
-   "name": "clef-flash",
-   "owner": "Cloudflare",
-   "src": "hf",
-   "cat": "Coding",
-   "score": 87,
-   "grow": 32,
-   "desc": "Model on Hugging Face · open source · ♥ 578",
-   "meta": [
-    "11K downloads",
-    "Released 6 days ago"
-   ],
-   "at": "2026-09-30T21:15:36.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/Cloudflare/clef-flash"
-  },
-  {
    "name": "GEV-26B-Decide",
    "owner": "autotrust",
    "src": "hf",
    "cat": "Coding",
    "score": 87,
    "grow": 91,
-   "desc": "Model on Hugging Face · open source · ♥ 668",
+   "desc": "Model on Hugging Face · open source · ♥ 670",
    "meta": [
     "855K downloads",
     "Released 5 days ago"
@@ -163,20 +163,20 @@
    "url": "https://github.com/feder-cr/dots"
   },
   {
-   "name": "laya",
-   "owner": "convaiinnovations",
-   "src": "hf",
-   "cat": "Tools",
+   "name": "LMBuild: Evaluating LLM Agents for Generating Buildable and Functional Structures",
+   "owner": "Paper",
+   "src": "paper",
+   "url": "https://huggingface.co/papers/2610.04292",
+   "cat": "Research",
    "score": 85,
-   "grow": 74,
-   "desc": "Model on Hugging Face · open source · ♥ 5.3K",
+   "grow": null,
+   "desc": "LLM-based agents are increasingly capable of generating complex 3D structures, with the potential to reshape how objects are designed and realized in the physical world.",
    "meta": [
-    "20K downloads",
-    "Released 19 days ago"
+    "▲ 21 upvotes",
+    "Hugging Face Papers"
    ],
-   "at": "2026-09-18T05:05:55.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/convaiinnovations/laya"
+   "at": "2026-10-02T20:00:00.000Z",
+   "breakout": null
   }
  ],
  "breakouts": [
@@ -231,8 +231,8 @@
    "name": "universal-modder",
    "url": "https://github.com/rehan-remade/universal-modder",
    "from": "GitHub",
-   "use": 770,
-   "useLabel": "+770 stars/day",
+   "use": 773,
+   "useLabel": "+773 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -346,8 +346,8 @@
  "github": [
   {
    "repo": "rehan-remade/universal-modder",
-   "stars": 4444,
-   "d24": 770,
+   "stars": 4462,
+   "d24": 773,
    "est": false,
    "forks": 393,
    "contrib": 38,
@@ -355,8 +355,8 @@
   },
   {
    "repo": "QingYunA/answer-me-with-html",
-   "stars": 1739,
-   "d24": 402,
+   "stars": 1742,
+   "d24": 393,
    "est": false,
    "forks": 122,
    "contrib": null,
@@ -365,7 +365,7 @@
   {
    "repo": "nanaism/yomiyasu",
    "stars": 1589,
-   "d24": 107,
+   "d24": 105,
    "est": false,
    "forks": 35,
    "contrib": null,
@@ -391,7 +391,7 @@
    "grow": 34,
    "score": 93,
    "cat": "Coding",
-   "likes": 1646
+   "likes": 1652
   },
   {
    "name": "JEV-27B-VL",
@@ -403,7 +403,7 @@
    "grow": 19,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 940
+   "likes": 955
   },
   {
    "name": "Kolibri-1",
@@ -414,7 +414,18 @@
    "grow": 69,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 696
+   "likes": 699
+  },
+  {
+   "name": "clef-flash",
+   "org": "Cloudflare",
+   "lic": "Open source",
+   "at": "2026-09-30T21:15:36.000Z",
+   "dl": 10638,
+   "grow": 32,
+   "score": 88,
+   "cat": "Coding",
+   "likes": 580
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -425,18 +436,7 @@
    "grow": 5,
    "score": 87,
    "cat": "Infrastructure",
-   "likes": 3398
-  },
-  {
-   "name": "clef-flash",
-   "org": "Cloudflare",
-   "lic": "Open source",
-   "at": "2026-09-30T21:15:36.000Z",
-   "dl": 10638,
-   "grow": 32,
-   "score": 87,
-   "cat": "Coding",
-   "likes": 578
+   "likes": 3403
   },
   {
    "name": "GEV-26B-Decide",
@@ -448,7 +448,7 @@
    "grow": 91,
    "score": 87,
    "cat": "Coding",
-   "likes": 668
+   "likes": 670
   }
  ],
  "free": [
@@ -788,6 +788,13 @@
  },
  "headlines": [
   {
+   "t": "Meta, Walmart, Stripe, and others publish the Personal Agent Protocol to standardize and secure interactions between AI bots and businesses",
+   "url": "https://www.techmeme.com/261006/p31#a261006p31",
+   "at": "2026-10-06T18:55:00.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Flai, which makes AI tools for car dealerships to manage phone calls, emails, and texts, raised a $27M Series A led by Base10 Partners",
    "url": "https://www.techmeme.com/261006/p30#a261006p30",
    "at": "2026-10-06T18:05:00.000Z",
@@ -891,13 +898,6 @@
    "at": "2026-10-06T13:00:19.000Z",
    "src": "NVIDIA",
    "kind": "Lab blog"
-  },
-  {
-   "t": "Making scents: could AI help perfumers take pressure off endangered plants?",
-   "url": "https://www.theguardian.com/science/2026/oct/06/fragrance-biotechnology-endangered-plants-perfume",
-   "at": "2026-10-06T13:00:15Z",
-   "src": "The Guardian",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -906,8 +906,8 @@
    "t": "Mistral Large 4",
    "url": "https://news.ycombinator.com/item?id=49977979",
    "link": "https://mistral.ai/news/mistral-large-4/\\",
-   "up": 1091,
-   "com": 707,
+   "up": 1157,
+   "com": 740,
    "at": "2026-10-06T13:15:49.000Z"
   },
   {
@@ -915,45 +915,45 @@
    "t": "Mistral Large 4: \"Le Chonk\"",
    "url": "https://news.ycombinator.com/item?id=49978116",
    "link": "https://mistral.ai/news/mistral-large-4/",
-   "up": 515,
+   "up": 517,
    "com": 5,
    "at": "2026-10-06T13:25:50.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Adobe Creative Suite Cleanroom Port to Rust",
-   "url": "https://news.ycombinator.com/item?id=49981449",
-   "link": "https://github.com/storytold/photocraft",
-   "up": 78,
-   "com": 31,
-   "at": "2026-10-06T17:20:00.000Z"
   },
   {
    "src": "Hacker News",
    "t": "AI is now capable of developing its own inference hardware",
    "url": "https://news.ycombinator.com/item?id=49980715",
    "link": "https://github.com/FeSens/openTPU",
-   "up": 128,
-   "com": 103,
+   "up": 140,
+   "com": 125,
    "at": "2026-10-06T16:23:25.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Utah to let AI examine patients and prescribe medication without human oversight",
-   "url": "https://news.ycombinator.com/item?id=49981197",
-   "link": "https://www.techspot.com/news/114111-utah-become-first-state-ai-examine-patients-prescribe.html",
-   "up": 37,
-   "com": 55,
-   "at": "2026-10-06T17:01:52.000Z"
+   "t": "Adobe Creative Suite Cleanroom Port to Rust",
+   "url": "https://news.ycombinator.com/item?id=49981449",
+   "link": "https://github.com/storytold/photocraft",
+   "up": 87,
+   "com": 48,
+   "at": "2026-10-06T17:20:00.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Beam: Reflection's 501B open-weight model",
    "url": "https://news.ycombinator.com/item?id=49969183",
    "link": "https://reflection.ai/blog/introducing-beam",
-   "up": 519,
+   "up": 521,
    "com": 164,
    "at": "2026-10-05T19:16:35.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
+   "url": "https://news.ycombinator.com/item?id=49970667",
+   "link": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
+   "up": 459,
+   "com": 309,
+   "at": "2026-10-05T21:00:21.000Z"
   }
  ]
 }
