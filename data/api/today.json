@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-06T08:30:57.141Z"
+  "updated": "2026-10-06T09:01:09.702Z"
  },
  "pulse": {
   "trending": 81,
   "accelerating": 0,
   "newModels": 7,
-  "discussions": 45,
-  "stars": 1675
+  "discussions": 47,
+  "stars": 1727
  },
  "rising": [
   {
@@ -37,11 +37,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 91,
-   "grow": 5,
+   "grow": 6,
    "desc": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
    "meta": [
-    "★ 4,036",
-    "+539 in 24h",
+    "★ 4,058",
+    "+566 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-09-30T05:00:35Z",
@@ -54,8 +54,8 @@
    "src": "hf",
    "cat": "Infrastructure",
    "score": 91,
-   "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 656",
+   "grow": 0,
+   "desc": "Model on Hugging Face · open source · ♥ 659",
    "meta": [
     "2.5K downloads",
     "Released 4 days ago"
@@ -73,8 +73,8 @@
    "grow": 3,
    "desc": "Your always-on AI coworkers that move between text, calls, and Slack.",
    "meta": [
-    "★ 3,753",
-    "+237 in 24h",
+    "★ 3,768",
+    "+258 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-09-29T17:13:58Z",
@@ -88,7 +88,7 @@
    "cat": "Infrastructure",
    "score": 90,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 813",
+   "desc": "Model on Hugging Face · open source · ♥ 817",
    "meta": [
     "1.3M downloads",
     "Released 6 days ago"
@@ -122,30 +122,13 @@
    "grow": null,
    "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
    "meta": [
-    "★ 1,563",
-    "~397 in 24h",
+    "★ 1,565",
+    "~395 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-02T09:57:40Z",
    "breakout": null,
    "url": "https://github.com/QingYunA/answer-me-with-html"
-  },
-  {
-   "name": "dots",
-   "owner": "feder-cr",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 87,
-   "grow": 0,
-   "desc": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
-   "meta": [
-    "★ 2,625",
-    "+16 in 24h",
-    "Created 6 days ago"
-   ],
-   "at": "2026-09-29T23:06:00Z",
-   "breakout": null,
-   "url": "https://github.com/feder-cr/dots"
   },
   {
    "name": "clef-flash",
@@ -154,7 +137,7 @@
    "cat": "Coding",
    "score": 87,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 548",
+   "desc": "Model on Hugging Face · open source · ♥ 552",
    "meta": [
     "8.1K downloads",
     "Released 5 days ago"
@@ -164,13 +147,30 @@
    "url": "https://huggingface.co/Cloudflare/clef-flash"
   },
   {
+   "name": "dots",
+   "owner": "feder-cr",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 86,
+   "grow": 0,
+   "desc": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
+   "meta": [
+    "★ 2,625",
+    "+15 in 24h",
+    "Created 6 days ago"
+   ],
+   "at": "2026-09-29T23:06:00Z",
+   "breakout": null,
+   "url": "https://github.com/feder-cr/dots"
+  },
+  {
    "name": "GEV-26B-Decide",
    "owner": "autotrust",
    "src": "hf",
    "cat": "Coding",
    "score": 86,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 490",
+   "desc": "Model on Hugging Face · open source · ♥ 501",
    "meta": [
     "447K downloads",
     "Released 4 days ago"
@@ -184,7 +184,7 @@
   {
    "key": "opus 5.5",
    "label": "Opus 5.5",
-   "n": 4,
+   "n": 3,
    "sources": [
     {
      "src": "Hacker News",
@@ -195,11 +195,6 @@
      "src": "Techmeme",
      "t": "Analysis: Anthropic's subscriptions offer ~5x more API-equivalent value per month than OpenAI's for agentic workloads with Claude Opus 5.5 vs. GPT-6.1 Sol",
      "url": "https://www.techmeme.com/261005/p33#a261005p33"
-    },
-    {
-     "src": "YouTube",
-     "t": "How to Make a Roblox Game With AI (Claude Opus 5.5 Full Tutorial)",
-     "url": "https://www.youtube.com/watch?v=afuKhenJldY"
     },
     {
      "src": "GitHub",
@@ -228,14 +223,9 @@
      "src": "Techmeme",
      "t": "Analysis: Anthropic's subscriptions offer ~5x more API-equivalent value per month than OpenAI's for agentic workloads with Claude Opus 5.5 vs. GPT-6.1 Sol",
      "url": "https://www.techmeme.com/261005/p33#a261005p33"
-    },
-    {
-     "src": "YouTube",
-     "t": "How to Make a Roblox Game With AI (Claude Opus 5.5 Full Tutorial)",
-     "url": "https://www.youtube.com/watch?v=afuKhenJldY"
     }
    ],
-   "buzz": 3,
+   "buzz": 2,
    "verdict": "Talk only, no public usage numbers"
   },
   {
@@ -264,8 +254,8 @@
    "name": "universal-modder",
    "url": "https://github.com/rehan-remade/universal-modder",
    "from": "GitHub",
-   "use": 539,
-   "useLabel": "+539 stars/day",
+   "use": 566,
+   "useLabel": "+566 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -379,17 +369,17 @@
  "github": [
   {
    "repo": "rehan-remade/universal-modder",
-   "stars": 4036,
-   "d24": 539,
+   "stars": 4058,
+   "d24": 566,
    "est": false,
-   "forks": 362,
+   "forks": 363,
    "contrib": 37,
    "score": 91
   },
   {
    "repo": "QingYunA/answer-me-with-html",
-   "stars": 1563,
-   "d24": 397,
+   "stars": 1565,
+   "d24": 395,
    "est": true,
    "forks": 108,
    "contrib": null,
@@ -397,26 +387,26 @@
   },
   {
    "repo": "omlahore/RemoveMacAI",
-   "stars": 2416,
-   "d24": 350,
+   "stars": 2447,
+   "d24": 354,
    "est": true,
-   "forks": 53,
+   "forks": 54,
    "contrib": null,
    "score": 84
   },
   {
    "repo": "CopilotKit/OpenDots",
-   "stars": 3753,
-   "d24": 237,
+   "stars": 3768,
+   "d24": 258,
    "est": false,
-   "forks": 503,
+   "forks": 505,
    "contrib": 16,
    "score": 90
   },
   {
    "repo": "nanaism/yomiyasu",
-   "stars": 1555,
-   "d24": 136,
+   "stars": 1559,
+   "d24": 139,
    "est": false,
    "forks": 35,
    "contrib": null,
@@ -425,11 +415,11 @@
   {
    "repo": "feder-cr/dots",
    "stars": 2625,
-   "d24": 16,
+   "d24": 15,
    "est": false,
    "forks": 438,
    "contrib": null,
-   "score": 87
+   "score": 86
   }
  ],
  "models": [
@@ -442,7 +432,7 @@
    "grow": 0,
    "score": 94,
    "cat": "Coding",
-   "likes": 1550
+   "likes": 1551
   },
   {
    "name": "Kolibri-1",
@@ -450,10 +440,10 @@
    "lic": "Open source",
    "at": "2026-10-02T05:54:02.000Z",
    "dl": 2453,
-   "grow": null,
+   "grow": 0,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 656
+   "likes": 659
   },
   {
    "name": "JEV-27B-VL",
@@ -465,7 +455,7 @@
    "grow": null,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 813
+   "likes": 817
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -476,7 +466,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 3311
+   "likes": 3315
   },
   {
    "name": "clef-flash",
@@ -487,7 +477,7 @@
    "grow": null,
    "score": 87,
    "cat": "Coding",
-   "likes": 548
+   "likes": 552
   },
   {
    "name": "GEV-26B-Decide",
@@ -499,7 +489,7 @@
    "grow": null,
    "score": 86,
    "cat": "Coding",
-   "likes": 490
+   "likes": 501
   }
  ],
  "free": [
@@ -938,31 +928,31 @@
    "kind": "Lab blog"
   },
   {
-   "t": "Never Let Me Go Meets M3GAN In Jenna Ortega's Exciting Dystopian Sci",
-   "url": "https://screenrant.com/klara-and-the-sun-jenna-ortega-never-let-me-go-m3gan/",
-   "at": "2026-10-05T20:30:17Z",
-   "src": "Screen Rant",
-   "kind": "News"
-  },
-  {
-   "t": "Sunnyvale office building is bought in wake of AI-fueled tech boom",
-   "url": "https://www.mercurynews.com/2026/10/05/tech-sunnyvale-office-build-property-ai-develop-internet-economy-jobs/",
-   "at": "2026-10-05T20:28:27Z",
-   "src": "The Mercury News",
-   "kind": "News"
-  },
-  {
-   "t": "Ukraine says it is using AI robot guns to shoot down new Russian drones",
-   "url": "https://japantoday.com/category/world/ukraine-says-using-ai-robot-guns-to-shoot-down-new-russian-drones",
-   "at": "2026-10-05T20:20:00Z",
+   "t": "'Reckless' AI firms can't control models, says whistleblower",
+   "url": "https://japantoday.com/category/tech/'reckless'-ai-firms-can't-control-models-says-whistleblower",
+   "at": "2026-10-05T21:00:00Z",
    "src": "Japan Today",
    "kind": "News"
   },
   {
-   "t": "A Japanese real estate company is building a data center in an underground tunnel.",
-   "url": "https://www.theverge.com/science/1005082/a-japanese-real-estate-company-is-building-a-data-center-in-an-underground-tunnel",
-   "at": "2026-10-05T20:17:15Z",
-   "src": "The Verge",
+   "t": "Wikimedia says rogue OpenAI agents edited its wikis without approval",
+   "url": "https://thenextweb.com/news/wikimedia-openai-agents-wiki-edits-wikidata-outage",
+   "at": "2026-10-05T20:56:29Z",
+   "src": "TNW",
+   "kind": "News"
+  },
+  {
+   "t": "Trump's 'Super Intelligence' AI Rebrand Has Everyone Shopping for Slovenia's .SI Domain",
+   "url": "https://www.europesays.com/3292259/",
+   "at": "2026-10-05T20:50:19Z",
+   "src": "EUROPE SAYS",
+   "kind": "News"
+  },
+  {
+   "t": "OpenAI details new text watermarking system for ChatGPT, Codex, API",
+   "url": "https://9to5mac.com/2026/10/05/openai-details-new-text-watermarking-system-for-chatgpt-codex-and-the-api/",
+   "at": "2026-10-05T20:46:17Z",
+   "src": "9to5Mac",
    "kind": "News"
   }
  ],
@@ -972,8 +962,8 @@
    "t": "Beam: Reflection's 501B open-weight model",
    "url": "https://news.ycombinator.com/item?id=49969183",
    "link": "https://reflection.ai/blog/introducing-beam",
-   "up": 436,
-   "com": 136,
+   "up": 443,
+   "com": 142,
    "at": "2026-10-05T19:16:35.000Z"
   },
   {
@@ -981,16 +971,25 @@
    "t": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
    "url": "https://news.ycombinator.com/item?id=49970667",
    "link": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
-   "up": 342,
-   "com": 223,
+   "up": 346,
+   "com": 225,
    "at": "2026-10-05T21:00:21.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "German Bundeswehr Uses AI to Screen Applicants for Right-Wing Extremism",
+   "url": "https://news.ycombinator.com/item?id=49975484",
+   "link": "https://news.osna.fm/german-military-intelligence-uses-ai-to-screen-bundeswehr-applicants-for-right-wing-extremism/",
+   "up": 23,
+   "com": 38,
+   "at": "2026-10-06T07:49:07.000Z"
   },
   {
    "src": "Hacker News",
    "t": "OpenAI \"rogue\" agent activities found on Wikimedia projects",
    "url": "https://news.ycombinator.com/item?id=49968105",
    "link": "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/",
-   "up": 277,
+   "up": 278,
    "com": 182,
    "at": "2026-10-05T17:53:35.000Z"
   },
@@ -999,7 +998,7 @@
    "t": "Photopea creator weighs in on Photosuite project",
    "url": "https://news.ycombinator.com/item?id=49972730",
    "link": "https://github.com/eolix/photosuite/issues/77",
-   "up": 111,
+   "up": 112,
    "com": 67,
    "at": "2026-10-06T00:41:44.000Z"
   },
@@ -1008,18 +1007,9 @@
    "t": "Mold Linker Version 3.0.0 Release – Rewritten in Rust",
    "url": "https://news.ycombinator.com/item?id=49963385",
    "link": "https://github.com/rui314/mold/releases/tag/v3.0.0",
-   "up": 236,
+   "up": 237,
    "com": 174,
    "at": "2026-10-05T11:17:18.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "The lamps in my house",
-   "url": "https://news.ycombinator.com/item?id=49965152",
-   "link": "https://arslan.io/2026/10/05/the-lamps-in-my-house/",
-   "up": 191,
-   "com": 88,
-   "at": "2026-10-05T14:12:14.000Z"
   }
  ]
 }
