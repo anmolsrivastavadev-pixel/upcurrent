@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-06T06:01:07.856Z"
+  "updated": "2026-10-06T06:30:54.357Z"
  },
  "pulse": {
   "trending": 80,
   "accelerating": 0,
-  "newModels": 8,
-  "discussions": 54,
-  "stars": 1542
+  "newModels": 7,
+  "discussions": 53,
+  "stars": 1570
  },
  "rising": [
   {
@@ -40,8 +40,8 @@
    "grow": 3,
    "desc": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
    "meta": [
-    "★ 3,951",
-    "+432 in 24h",
+    "★ 3,967",
+    "+456 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-09-30T05:00:35Z",
@@ -55,7 +55,7 @@
    "cat": "Infrastructure",
    "score": 91,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 645",
+   "desc": "Model on Hugging Face · open source · ♥ 646",
    "meta": [
     "2.5K downloads",
     "Released 4 days ago"
@@ -73,8 +73,8 @@
    "grow": 2,
    "desc": "Your always-on AI coworkers that move between text, calls, and Slack.",
    "meta": [
-    "★ 3,726",
-    "+231 in 24h",
+    "★ 3,730",
+    "+229 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-09-29T17:13:58Z",
@@ -106,29 +106,13 @@
    "grow": null,
    "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
    "meta": [
-    "★ 1,531",
-    "~399 in 24h",
+    "★ 1,535",
+    "~398 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-02T09:57:40Z",
    "breakout": null,
    "url": "https://github.com/QingYunA/answer-me-with-html"
-  },
-  {
-   "name": "JEV-27B-VL",
-   "owner": "autotrust",
-   "src": "hf",
-   "cat": "Infrastructure",
-   "score": 88,
-   "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 752",
-   "meta": [
-    "1.3M downloads",
-    "Released 6 days ago"
-   ],
-   "at": "2026-09-30T05:02:23.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/autotrust/JEV-27B-VL"
   },
   {
    "name": "dots",
@@ -139,8 +123,8 @@
    "grow": 0,
    "desc": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
    "meta": [
-    "★ 2,620",
-    "+4 in 24h",
+    "★ 2,621",
+    "+7 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-09-29T23:06:00Z",
@@ -164,13 +148,29 @@
    "url": "https://huggingface.co/convaiinnovations/laya"
   },
   {
+   "name": "JEV-27B-VL",
+   "owner": "autotrust",
+   "src": "hf",
+   "cat": "Infrastructure",
+   "score": 87,
+   "grow": 0,
+   "desc": "Model on Hugging Face · open source · ♥ 770",
+   "meta": [
+    "1.3M downloads",
+    "Released 6 days ago"
+   ],
+   "at": "2026-09-30T05:02:23.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/autotrust/JEV-27B-VL"
+  },
+  {
    "name": "clef-flash",
    "owner": "Cloudflare",
    "src": "hf",
    "cat": "Coding",
    "score": 87,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 540",
+   "desc": "Model on Hugging Face · open source · ♥ 543",
    "meta": [
     "8.1K downloads",
     "Released 5 days ago"
@@ -254,8 +254,8 @@
    "name": "universal-modder",
    "url": "https://github.com/rehan-remade/universal-modder",
    "from": "GitHub",
-   "use": 432,
-   "useLabel": "+432 stars/day",
+   "use": 456,
+   "useLabel": "+456 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -369,8 +369,8 @@
  "github": [
   {
    "repo": "rehan-remade/universal-modder",
-   "stars": 3951,
-   "d24": 432,
+   "stars": 3967,
+   "d24": 456,
    "est": false,
    "forks": 353,
    "contrib": 37,
@@ -378,8 +378,8 @@
   },
   {
    "repo": "QingYunA/answer-me-with-html",
-   "stars": 1531,
-   "d24": 399,
+   "stars": 1535,
+   "d24": 398,
    "est": true,
    "forks": 108,
    "contrib": null,
@@ -387,26 +387,26 @@
   },
   {
    "repo": "omlahore/RemoveMacAI",
-   "stars": 2283,
-   "d24": 336,
+   "stars": 2307,
+   "d24": 339,
    "est": true,
-   "forks": 50,
+   "forks": 51,
    "contrib": null,
    "score": 84
   },
   {
    "repo": "CopilotKit/OpenDots",
-   "stars": 3726,
-   "d24": 231,
+   "stars": 3730,
+   "d24": 229,
    "est": false,
-   "forks": 495,
+   "forks": 496,
    "contrib": 16,
    "score": 90
   },
   {
    "repo": "nanaism/yomiyasu",
-   "stars": 1542,
-   "d24": 140,
+   "stars": 1545,
+   "d24": 141,
    "est": false,
    "forks": 34,
    "contrib": null,
@@ -414,8 +414,8 @@
   },
   {
    "repo": "feder-cr/dots",
-   "stars": 2620,
-   "d24": 4,
+   "stars": 2621,
+   "d24": 7,
    "est": false,
    "forks": 438,
    "contrib": null,
@@ -432,7 +432,7 @@
    "grow": 0,
    "score": 94,
    "cat": "Coding",
-   "likes": 1535
+   "likes": 1537
   },
   {
    "name": "Kolibri-1",
@@ -443,7 +443,7 @@
    "grow": null,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 645
+   "likes": 646
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -454,19 +454,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 3290
-  },
-  {
-   "name": "JEV-27B-VL",
-   "org": "autotrust",
-   "size": "27B",
-   "lic": "Open source",
-   "at": "2026-09-30T05:02:23.000Z",
-   "dl": 1278569,
-   "grow": 0,
-   "score": 88,
-   "cat": "Infrastructure",
-   "likes": 752
+   "likes": 3293
   },
   {
    "name": "laya",
@@ -480,6 +468,18 @@
    "likes": 5249
   },
   {
+   "name": "JEV-27B-VL",
+   "org": "autotrust",
+   "size": "27B",
+   "lic": "Open source",
+   "at": "2026-09-30T05:02:23.000Z",
+   "dl": 1278569,
+   "grow": 0,
+   "score": 87,
+   "cat": "Infrastructure",
+   "likes": 770
+  },
+  {
    "name": "clef-flash",
    "org": "Cloudflare",
    "lic": "Open source",
@@ -488,7 +488,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Coding",
-   "likes": 540
+   "likes": 543
   }
  ],
  "free": [
@@ -843,6 +843,13 @@
  },
  "headlines": [
   {
+   "t": "Analysis: insurers brace for multimillion-dollar claims caused by rogue AI agents, amid concern that execs like Sam Altman and Dario Amodei could be held liable",
+   "url": "https://www.techmeme.com/261006/p3#a261006p3",
+   "at": "2026-10-06T06:30:00.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "‘Pull the plug’: protesters resort to direct action against AI firms",
    "url": "https://www.theguardian.com/technology/2026/oct/06/pull-the-plug-protesters-resort-to-direct-action-against-ai-firms",
    "at": "2026-10-06T06:00:04Z",
@@ -913,6 +920,13 @@
    "kind": "News"
   },
   {
+   "t": "ChatGPT text is getting an invisible watermark in Europe to comply with the EU AI Act. Here’s how it works",
+   "url": "https://techstartups.com/2026/10/05/chatgpt-text-is-getting-an-invisible-watermark-in-europe-to-comply-with-the-eu-ai-act-heres-how-it-works/",
+   "at": "2026-10-05T18:29:49Z",
+   "src": "TechStartups.com",
+   "kind": "News"
+  },
+  {
    "t": "Ghost, which makes a $3,499 computer designed for AI agents and includes an RTX Pro 4000 SFF Blackwell GPU, emerges from stealth with an $11M seed led by a16z",
    "url": "https://www.techmeme.com/261005/p28#a261005p28",
    "at": "2026-10-05T18:20:01.000Z",
@@ -920,38 +934,24 @@
    "kind": "News"
   },
   {
+   "t": "Sam Altman Says He Has to 'Punch' Back at Elon Musk 'Once in a While'",
+   "url": "https://www.businessinsider.com/sam-altman-elon-musk-punch-back-cooperation-2026-10",
+   "at": "2026-10-05T18:09:53Z",
+   "src": "Business Insider",
+   "kind": "News"
+  },
+  {
+   "t": "OpenAI is adding text watermarking in ChatGPT and Codex",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act",
+   "at": "2026-10-05T18:08:39Z",
+   "src": "The Verge",
+   "kind": "News"
+  },
+  {
    "t": "Linus wrote Git in about 10 days, so I asked my local LLM to build something similar with one prompt",
    "url": "https://www.xda-developers.com/linus-wrote-git-in-10-days-so-asked-local-llm-to-do-same/",
    "at": "2026-10-05T18:00:16Z",
    "src": "XDA Developers",
-   "kind": "News"
-  },
-  {
-   "t": "PTC shares soar nearly 34% after Schneider Electric agrees to $22.6 billion buyout",
-   "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/ptc-shares-soar-nearly-34-after-schneider-electric-agrees-to-22-6-billion-buyout/articleshow/134714341.cms",
-   "at": "2026-10-05T18:00:00Z",
-   "src": "The Economic Times",
-   "kind": "News"
-  },
-  {
-   "t": "Sam Altman says world should accept some risks for AI benefits",
-   "url": "https://www.europesays.com/3291987/",
-   "at": "2026-10-05T17:57:20Z",
-   "src": "EUROPE SAYS",
-   "kind": "News"
-  },
-  {
-   "t": "Trump AI Website Returns 2020 Election Result: Biden Won, Citing National Archives",
-   "url": "https://www.naturalnews.com/2026-10-05-trump-ai-website-election-result-biden-won.html",
-   "at": "2026-10-05T17:51:58Z",
-   "src": "Natural News",
-   "kind": "News"
-  },
-  {
-   "t": "Former Anthropic researcher Jacob Coxon and representatives from Anthropic, Google, OpenAI, and Meta testified at a New York City Council hearing on AI safety",
-   "url": "https://www.techmeme.com/261005/p27#a261005p27",
-   "at": "2026-10-05T17:51:09.000Z",
-   "src": "Techmeme",
    "kind": "News"
   }
  ],
@@ -961,8 +961,8 @@
    "t": "Beam: Reflection's 501B open-weight model",
    "url": "https://news.ycombinator.com/item?id=49969183",
    "link": "https://reflection.ai/blog/introducing-beam",
-   "up": 386,
-   "com": 119,
+   "up": 392,
+   "com": 122,
    "at": "2026-10-05T19:16:35.000Z"
   },
   {
@@ -970,8 +970,8 @@
    "t": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
    "url": "https://news.ycombinator.com/item?id=49970667",
    "link": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
-   "up": 285,
-   "com": 190,
+   "up": 296,
+   "com": 196,
    "at": "2026-10-05T21:00:21.000Z"
   },
   {
@@ -979,7 +979,7 @@
    "t": "OpenAI \"rogue\" agent activities found on Wikimedia projects",
    "url": "https://news.ycombinator.com/item?id=49968105",
    "link": "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/",
-   "up": 269,
+   "up": 271,
    "com": 180,
    "at": "2026-10-05T17:53:35.000Z"
   },
@@ -988,8 +988,8 @@
    "t": "Photopea creator weighs in on Photosuite project",
    "url": "https://news.ycombinator.com/item?id=49972730",
    "link": "https://github.com/eolix/photosuite/issues/77",
-   "up": 97,
-   "com": 56,
+   "up": 102,
+   "com": 59,
    "at": "2026-10-06T00:41:44.000Z"
   },
   {
@@ -998,7 +998,7 @@
    "url": "https://news.ycombinator.com/item?id=49963385",
    "link": "https://github.com/rui314/mold/releases/tag/v3.0.0",
    "up": 235,
-   "com": 172,
+   "com": 173,
    "at": "2026-10-05T11:17:18.000Z"
   },
   {
@@ -1006,7 +1006,7 @@
    "t": "The lamps in my house",
    "url": "https://news.ycombinator.com/item?id=49965152",
    "link": "https://arslan.io/2026/10/05/the-lamps-in-my-house/",
-   "up": 168,
+   "up": 173,
    "com": 79,
    "at": "2026-10-05T14:12:14.000Z"
   }
