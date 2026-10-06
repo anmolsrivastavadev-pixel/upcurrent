@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-06T11:30:56.037Z"
+  "updated": "2026-10-06T12:01:04.237Z"
  },
  "pulse": {
   "trending": 80,
   "accelerating": 0,
   "newModels": 7,
-  "discussions": 56,
-  "stars": 1419
+  "discussions": 53,
+  "stars": 1402
  },
  "rising": [
   {
@@ -40,8 +40,8 @@
    "grow": 9,
    "desc": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
    "meta": [
-    "★ 4,172",
-    "+676 in 24h",
+    "★ 4,191",
+    "+685 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-09-30T05:00:35Z",
@@ -55,7 +55,7 @@
    "cat": "Infrastructure",
    "score": 91,
    "grow": 69,
-   "desc": "Model on Hugging Face · open source · ♥ 669",
+   "desc": "Model on Hugging Face · open source · ♥ 672",
    "meta": [
     "4.1K downloads",
     "Released 4 days ago"
@@ -73,8 +73,8 @@
    "grow": 4,
    "desc": "Your always-on AI coworkers that move between text, calls, and Slack.",
    "meta": [
-    "★ 3,798",
-    "+263 in 24h",
+    "★ 3,803",
+    "+262 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-09-29T17:13:58Z",
@@ -88,7 +88,7 @@
    "cat": "Infrastructure",
    "score": 90,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 847",
+   "desc": "Model on Hugging Face · open source · ♥ 855",
    "meta": [
     "1.5M downloads",
     "Released 6 days ago"
@@ -122,8 +122,8 @@
    "grow": 6,
    "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
    "meta": [
-    "★ 1,605",
-    "+336 in 24h",
+    "★ 1,607",
+    "+317 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-02T09:57:40Z",
@@ -137,7 +137,7 @@
    "cat": "Coding",
    "score": 87,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 557",
+   "desc": "Model on Hugging Face · open source · ♥ 558",
    "meta": [
     "11K downloads",
     "Released 6 days ago"
@@ -153,7 +153,7 @@
    "cat": "Coding",
    "score": 87,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 568",
+   "desc": "Model on Hugging Face · open source · ♥ 583",
    "meta": [
     "855K downloads",
     "Released 4 days ago"
@@ -172,7 +172,7 @@
    "desc": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
    "meta": [
     "★ 2,627",
-    "+16 in 24h",
+    "+15 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-09-29T23:06:00Z",
@@ -180,8 +180,54 @@
    "url": "https://github.com/feder-cr/dots"
   }
  ],
- "breakouts": [],
+ "breakouts": [
+  {
+   "key": "opus 5.5",
+   "label": "Opus 5.5",
+   "n": 3,
+   "sources": [
+    {
+     "src": "Hacker News",
+     "t": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
+     "url": "https://news.ycombinator.com/item?id=49970667"
+    },
+    {
+     "src": "YouTube",
+     "t": "How to Make a Roblox Game With AI (Claude Opus 5.5 Full Tutorial)",
+     "url": "https://www.youtube.com/watch?v=afuKhenJldY"
+    },
+    {
+     "src": "GitHub",
+     "t": "yihui-dev/awesome-opus5-5-videos",
+     "url": "https://github.com/yihui-dev/awesome-opus5-5-videos"
+    }
+   ],
+   "since": "2026-10-03T21:01:33.129Z"
+  }
+ ],
  "hype": [
+  {
+   "name": "Opus 5.5",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "Hacker News",
+     "t": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
+     "url": "https://news.ycombinator.com/item?id=49970667"
+    },
+    {
+     "src": "YouTube",
+     "t": "How to Make a Roblox Game With AI (Claude Opus 5.5 Full Tutorial)",
+     "url": "https://www.youtube.com/watch?v=afuKhenJldY"
+    }
+   ],
+   "buzz": 2,
+   "verdict": "Talk only, no public usage numbers"
+  },
   {
    "name": "Qwen3.8-Flash-Next",
    "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
@@ -203,8 +249,8 @@
    "name": "universal-modder",
    "url": "https://github.com/rehan-remade/universal-modder",
    "from": "GitHub",
-   "use": 676,
-   "useLabel": "+676 stars/day",
+   "use": 685,
+   "useLabel": "+685 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -318,35 +364,35 @@
  "github": [
   {
    "repo": "rehan-remade/universal-modder",
-   "stars": 4172,
-   "d24": 676,
+   "stars": 4191,
+   "d24": 685,
    "est": false,
-   "forks": 371,
+   "forks": 373,
    "contrib": 37,
    "score": 91
   },
   {
    "repo": "QingYunA/answer-me-with-html",
-   "stars": 1605,
-   "d24": 336,
+   "stars": 1607,
+   "d24": 317,
    "est": false,
-   "forks": 109,
+   "forks": 110,
    "contrib": null,
    "score": 88
   },
   {
    "repo": "CopilotKit/OpenDots",
-   "stars": 3798,
-   "d24": 263,
+   "stars": 3803,
+   "d24": 262,
    "est": false,
-   "forks": 507,
+   "forks": 511,
    "contrib": 16,
    "score": 90
   },
   {
    "repo": "nanaism/yomiyasu",
    "stars": 1568,
-   "d24": 128,
+   "d24": 123,
    "est": false,
    "forks": 35,
    "contrib": null,
@@ -355,9 +401,9 @@
   {
    "repo": "feder-cr/dots",
    "stars": 2627,
-   "d24": 16,
+   "d24": 15,
    "est": false,
-   "forks": 448,
+   "forks": 449,
    "contrib": null,
    "score": 86
   }
@@ -372,7 +418,7 @@
    "grow": 34,
    "score": 93,
    "cat": "Coding",
-   "likes": 1572
+   "likes": 1579
   },
   {
    "name": "Kolibri-1",
@@ -383,7 +429,7 @@
    "grow": 69,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 669
+   "likes": 672
   },
   {
    "name": "JEV-27B-VL",
@@ -395,7 +441,7 @@
    "grow": null,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 847
+   "likes": 855
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -406,7 +452,7 @@
    "grow": 5,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 3341
+   "likes": 3344
   },
   {
    "name": "clef-flash",
@@ -417,7 +463,7 @@
    "grow": null,
    "score": 87,
    "cat": "Coding",
-   "likes": 557
+   "likes": 558
   },
   {
    "name": "GEV-26B-Decide",
@@ -429,7 +475,7 @@
    "grow": null,
    "score": 87,
    "cat": "Coding",
-   "likes": 568
+   "likes": 583
   }
  ],
  "free": [
@@ -784,6 +830,13 @@
  },
  "headlines": [
   {
+   "t": "Study: China is struggling to attract foreign AI talent; for every 30 Chinese AI researchers in the US in 2025, only one in China made the opposite journey",
+   "url": "https://www.techmeme.com/261006/p18#a261006p18",
+   "at": "2026-10-06T11:55:07.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Hadrian, an agentic AI offensive security service, raised $40M co-led by Forgepoint Capital International and SmartFin, taking its total funding to $65M",
    "url": "https://www.techmeme.com/261006/p14#a261006p14",
    "at": "2026-10-06T11:10:01.000Z",
@@ -847,24 +900,10 @@
    "kind": "Lab blog"
   },
   {
-   "t": "Analysis: insurers brace for multimillion-dollar claims caused by rogue AI agents, amid concern that Sam Altman, Dario Amodei, and others could be held liable",
-   "url": "https://www.techmeme.com/261006/p3#a261006p3",
-   "at": "2026-10-06T06:30:00.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "‘Pull the plug’: protesters resort to direct action against AI firms",
    "url": "https://www.theguardian.com/technology/2026/oct/06/pull-the-plug-protesters-resort-to-direct-action-against-ai-firms",
    "at": "2026-10-06T06:00:04Z",
    "src": "The Guardian",
-   "kind": "News"
-  },
-  {
-   "t": "Sources: Seagate and Toshiba are bidding for TDK's HDD magnetic head business in a multibillion-dollar deal, as they compete for AI data center storage demand",
-   "url": "https://www.techmeme.com/261006/p1#a261006p1",
-   "at": "2026-10-06T05:00:14.000Z",
-   "src": "Techmeme",
    "kind": "News"
   },
   {
@@ -875,24 +914,31 @@
    "kind": "News"
   },
   {
-   "t": "AI execs grilled by NYC pols on dangers of tech that ‘could end in human extinction’",
-   "url": "https://nypost.com/2026/10/05/us-news/ai-execs-grilled-by-nyc-pols-on-dangers-of-tech-that-could-end-in-human-extinction/",
-   "at": "2026-10-05T23:01:51Z",
-   "src": "New York Post",
+   "t": "National-level award to MPPKVVCL for effective use of AI/ML",
+   "url": "https://www.thehitavada.com/Encyc/2026/10/6/national-level-award-to-mppkvvcl-for-effective-use-of-aiml.html",
+   "at": "2026-10-06T00:00:00Z",
+   "src": "The Hitavada",
    "kind": "News"
   },
   {
-   "t": "LG urges for technologies aimed at improvements in lives of marginal farmers",
-   "url": "https://www.dailyexcelsior.com/lg-urges-for-technologies-aimed-at-improvements-in-lives-of-marginal-farmers/",
-   "at": "2026-10-05T22:55:24Z",
-   "src": "Daily Excelsior",
+   "t": "'Should not have happened': OpenAI fronts grilling",
+   "url": "https://www.canberratimes.com.au/story/9363114/should-not-have-happened-openai-fronts-grilling/",
+   "at": "2026-10-05T23:48:27Z",
+   "src": "The Canberra Times",
    "kind": "News"
   },
   {
-   "t": "AI giants give few clear answers to key safety questions at NYC Council hearing amid whistleblower warnings",
-   "url": "https://www.amny.com/news/ai-giants-nyc-council-whistleblower-warnings/",
-   "at": "2026-10-05T22:30:09Z",
-   "src": "AM New York",
+   "t": "OpenAI in Talks With UAE Funds, Including MGX, to Anchor $30 Billion Round",
+   "url": "https://www.marketscreener.com/news/openai-in-talks-with-uae-funds-including-mgx-to-anchor-30-billion-round-ce785dd8dd8ef626",
+   "at": "2026-10-05T23:45:27Z",
+   "src": "MarketScreener",
+   "kind": "News"
+  },
+  {
+   "t": "Wikipedia operator says OpenAI's rogue agents possibly tied to data service disruption in May",
+   "url": "https://www.thestar.com.my/tech/tech-news/2026/10/06/wikipedia-operator-says-openai039s-rogue-agents-possibly-tied-to-data-service-disruption-in-may",
+   "at": "2026-10-05T23:38:00Z",
+   "src": "The Star",
    "kind": "News"
   }
  ],
@@ -902,8 +948,8 @@
    "t": "Beam: Reflection's 501B open-weight model",
    "url": "https://news.ycombinator.com/item?id=49969183",
    "link": "https://reflection.ai/blog/introducing-beam",
-   "up": 474,
-   "com": 149,
+   "up": 477,
+   "com": 153,
    "at": "2026-10-05T19:16:35.000Z"
   },
   {
@@ -911,8 +957,8 @@
    "t": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
    "url": "https://news.ycombinator.com/item?id=49970667",
    "link": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
-   "up": 371,
-   "com": 251,
+   "up": 379,
+   "com": 257,
    "at": "2026-10-05T21:00:21.000Z"
   },
   {
@@ -920,7 +966,7 @@
    "t": "OpenAI \"rogue\" agent activities found on Wikimedia projects",
    "url": "https://news.ycombinator.com/item?id=49968105",
    "link": "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/",
-   "up": 283,
+   "up": 284,
    "com": 186,
    "at": "2026-10-05T17:53:35.000Z"
   },
@@ -929,8 +975,8 @@
    "t": "Anthropic Subscriptions Offer 5x+ More Value Than OpenAI",
    "url": "https://news.ycombinator.com/item?id=49975345",
    "link": "https://newsletter.semianalysis.com/p/anthropic-subscriptions-offer-5x",
-   "up": 56,
-   "com": 55,
+   "up": 62,
+   "com": 59,
    "at": "2026-10-06T07:29:50.000Z"
   },
   {
@@ -938,7 +984,7 @@
    "t": "Photopea creator weighs in on Photosuite project",
    "url": "https://news.ycombinator.com/item?id=49972730",
    "link": "https://github.com/eolix/photosuite/issues/77",
-   "up": 121,
+   "up": 124,
    "com": 77,
    "at": "2026-10-06T00:41:44.000Z"
   },
@@ -947,8 +993,8 @@
    "t": "The lamps in my house",
    "url": "https://news.ycombinator.com/item?id=49965152",
    "link": "https://arslan.io/2026/10/05/the-lamps-in-my-house/",
-   "up": 229,
-   "com": 99,
+   "up": 231,
+   "com": 102,
    "at": "2026-10-05T14:12:14.000Z"
   }
  ]
