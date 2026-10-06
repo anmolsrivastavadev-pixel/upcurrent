@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-06T14:01:03.568Z"
+  "updated": "2026-10-06T14:27:09.229Z"
  },
  "pulse": {
-  "trending": 79,
+  "trending": 80,
   "accelerating": 0,
   "newModels": 7,
-  "discussions": 48,
-  "stars": 1503
+  "discussions": 43,
+  "stars": 1530
  },
  "rising": [
   {
@@ -40,8 +40,8 @@
    "grow": 12,
    "desc": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
    "meta": [
-    "★ 4,283",
-    "+743 in 24h",
+    "★ 4,300",
+    "+749 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-09-30T05:00:35Z",
@@ -55,7 +55,7 @@
    "cat": "Infrastructure",
    "score": 91,
    "grow": 19,
-   "desc": "Model on Hugging Face · open source · ♥ 886",
+   "desc": "Model on Hugging Face · open source · ♥ 892",
    "meta": [
     "1.5M downloads",
     "Released 6 days ago"
@@ -71,7 +71,7 @@
    "cat": "Infrastructure",
    "score": 91,
    "grow": 69,
-   "desc": "Model on Hugging Face · open source · ♥ 683",
+   "desc": "Model on Hugging Face · open source · ♥ 687",
    "meta": [
     "4.1K downloads",
     "Released 4 days ago"
@@ -89,8 +89,8 @@
    "grow": 5,
    "desc": "Your always-on AI coworkers that move between text, calls, and Slack.",
    "meta": [
-    "★ 3,825",
-    "+263 in 24h",
+    "★ 3,831",
+    "+264 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-09-29T17:13:58Z",
@@ -102,12 +102,12 @@
    "owner": "QingYunA",
    "src": "gh",
    "cat": "Agents",
-   "score": 88,
-   "grow": 8,
+   "score": 89,
+   "grow": 9,
    "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
    "meta": [
-    "★ 1,650",
-    "+364 in 24h",
+    "★ 1,665",
+    "+387 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-02T09:57:40Z",
@@ -131,30 +131,13 @@
    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF"
   },
   {
-   "name": "dots",
-   "owner": "feder-cr",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 86,
-   "grow": 0,
-   "desc": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
-   "meta": [
-    "★ 2,629",
-    "+17 in 24h",
-    "Created 7 days ago"
-   ],
-   "at": "2026-09-29T23:06:00Z",
-   "breakout": null,
-   "url": "https://github.com/feder-cr/dots"
-  },
-  {
    "name": "clef-flash",
    "owner": "Cloudflare",
    "src": "hf",
    "cat": "Coding",
-   "score": 86,
+   "score": 87,
    "grow": 32,
-   "desc": "Model on Hugging Face · open source · ♥ 562",
+   "desc": "Model on Hugging Face · open source · ♥ 563",
    "meta": [
     "11K downloads",
     "Released 6 days ago"
@@ -168,9 +151,9 @@
    "owner": "autotrust",
    "src": "hf",
    "cat": "Coding",
-   "score": 86,
-   "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 634",
+   "score": 87,
+   "grow": 91,
+   "desc": "Model on Hugging Face · open source · ♥ 644",
    "meta": [
     "855K downloads",
     "Released 4 days ago"
@@ -178,6 +161,23 @@
    "at": "2026-10-02T04:20:21.000Z",
    "breakout": null,
    "url": "https://huggingface.co/autotrust/GEV-26B-Decide"
+  },
+  {
+   "name": "dots",
+   "owner": "feder-cr",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 85,
+   "grow": 0,
+   "desc": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
+   "meta": [
+    "★ 2,629",
+    "+16 in 24h",
+    "Created 7 days ago"
+   ],
+   "at": "2026-09-29T23:06:00Z",
+   "breakout": null,
+   "url": "https://github.com/feder-cr/dots"
   }
  ],
  "breakouts": [
@@ -203,6 +203,29 @@
     }
    ],
    "since": "2026-10-03T21:01:33.129Z"
+  },
+  {
+   "key": "gpt 6",
+   "label": "GPT-6",
+   "n": 3,
+   "sources": [
+    {
+     "src": "Hacker News",
+     "t": "GPT-6 Astra cracks 217-year-old Napoleonic code in six hours",
+     "url": "https://news.ycombinator.com/item?id=49966271"
+    },
+    {
+     "src": "Ibtimes.com.au",
+     "t": "Nvidia Shares Climb to $237 as Blackwell Chips Power OpenAI's Faster GPT-6 Astra Ultrafast Inference Mode",
+     "url": "https://www.ibtimes.com.au/nvidia-shares-openai-gpt-6-blackwell-chips-1876285"
+    },
+    {
+     "src": "GitHub",
+     "t": "zjwzcx/Awesome-Astra-Embodied-AI",
+     "url": "https://github.com/zjwzcx/Awesome-Astra-Embodied-AI"
+    }
+   ],
+   "since": "2026-10-02T11:40:52.853Z"
   }
  ],
  "hype": [
@@ -229,11 +252,33 @@
    "verdict": "Talk only, no public usage numbers"
   },
   {
+   "name": "GPT-6",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "Hacker News",
+     "t": "GPT-6 Astra cracks 217-year-old Napoleonic code in six hours",
+     "url": "https://news.ycombinator.com/item?id=49966271"
+    },
+    {
+     "src": "Ibtimes.com.au",
+     "t": "Nvidia Shares Climb to $237 as Blackwell Chips Power OpenAI's Faster GPT-6 Astra Ultrafast Inference Mode",
+     "url": "https://www.ibtimes.com.au/nvidia-shares-openai-gpt-6-blackwell-chips-1876285"
+    }
+   ],
+   "buzz": 2,
+   "verdict": "Talk only, no public usage numbers"
+  },
+  {
    "name": "universal-modder",
    "url": "https://github.com/rehan-remade/universal-modder",
    "from": "GitHub",
-   "use": 743,
-   "useLabel": "+743 stars/day",
+   "use": 749,
+   "useLabel": "+749 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -256,7 +301,7 @@
    "from": "Hugging Face",
    "use": 4193836,
    "useLabel": "4.2M downloads",
-   "usePct": 0.9696969696969697,
+   "usePct": 0.9705882352941176,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -347,26 +392,26 @@
  "github": [
   {
    "repo": "rehan-remade/universal-modder",
-   "stars": 4283,
-   "d24": 743,
+   "stars": 4300,
+   "d24": 749,
    "est": false,
-   "forks": 377,
+   "forks": 379,
    "contrib": 38,
    "score": 91
   },
   {
    "repo": "QingYunA/answer-me-with-html",
-   "stars": 1650,
-   "d24": 364,
+   "stars": 1665,
+   "d24": 387,
    "est": false,
    "forks": 115,
    "contrib": null,
-   "score": 88
+   "score": 89
   },
   {
    "repo": "CopilotKit/OpenDots",
-   "stars": 3825,
-   "d24": 263,
+   "stars": 3831,
+   "d24": 264,
    "est": false,
    "forks": 513,
    "contrib": 16,
@@ -374,8 +419,8 @@
   },
   {
    "repo": "nanaism/yomiyasu",
-   "stars": 1574,
-   "d24": 116,
+   "stars": 1575,
+   "d24": 114,
    "est": false,
    "forks": 35,
    "contrib": null,
@@ -384,11 +429,11 @@
   {
    "repo": "feder-cr/dots",
    "stars": 2629,
-   "d24": 17,
+   "d24": 16,
    "est": false,
    "forks": 459,
    "contrib": null,
-   "score": 86
+   "score": 85
   }
  ],
  "models": [
@@ -401,7 +446,7 @@
    "grow": 34,
    "score": 93,
    "cat": "Coding",
-   "likes": 1600
+   "likes": 1604
   },
   {
    "name": "JEV-27B-VL",
@@ -413,7 +458,7 @@
    "grow": 19,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 886
+   "likes": 892
   },
   {
    "name": "Kolibri-1",
@@ -424,7 +469,7 @@
    "grow": 69,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 683
+   "likes": 687
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -435,7 +480,7 @@
    "grow": 5,
    "score": 87,
    "cat": "Infrastructure",
-   "likes": 3365
+   "likes": 3366
   },
   {
    "name": "clef-flash",
@@ -444,9 +489,9 @@
    "at": "2026-09-30T21:15:36.000Z",
    "dl": 10638,
    "grow": 32,
-   "score": 86,
+   "score": 87,
    "cat": "Coding",
-   "likes": 562
+   "likes": 563
   },
   {
    "name": "GEV-26B-Decide",
@@ -455,10 +500,10 @@
    "lic": "Open source",
    "at": "2026-10-02T04:20:21.000Z",
    "dl": 854574,
-   "grow": null,
-   "score": 86,
+   "grow": 91,
+   "score": 87,
    "cat": "Coding",
-   "likes": 634
+   "likes": 644
   }
  ],
  "free": [
@@ -918,10 +963,10 @@
    "kind": "News"
   },
   {
-   "t": "OpenAI In $30 Billion Round Talks With UAE Funds, BlackRock",
-   "url": "https://www.ndtvprofit.com/business/openai-in-30-billion-round-talks-with-uae-funds-blackrock-12143570",
-   "at": "2026-10-06T02:00:52Z",
-   "src": "NDTV Profit",
+   "t": "Australian creators demand protection as AI firms call for looser laws",
+   "url": "https://www.afr.com/technology/australian-creators-demand-protection-as-ai-firms-call-for-looser-laws-20261006-p6137h",
+   "at": "2026-10-06T02:23:38Z",
+   "src": "Australian Financial Review",
    "kind": "News"
   }
  ],
@@ -931,8 +976,8 @@
    "t": "Mistral Large 4",
    "url": "https://news.ycombinator.com/item?id=49977979",
    "link": "https://docs.mistral.ai/models/mistral-large-4-0",
-   "up": 299,
-   "com": 125,
+   "up": 417,
+   "com": 201,
    "at": "2026-10-06T13:15:49.000Z"
   },
   {
@@ -940,8 +985,8 @@
    "t": "Mistral Large 4: \"Le Chonk\"",
    "url": "https://news.ycombinator.com/item?id=49978116",
    "link": "https://mistral.ai/news/mistral-large-4/",
-   "up": 76,
-   "com": 7,
+   "up": 166,
+   "com": 19,
    "at": "2026-10-06T13:25:50.000Z"
   },
   {
@@ -949,7 +994,7 @@
    "t": "Mistral Large 4",
    "url": "https://news.ycombinator.com/item?id=49977844",
    "link": "https://twitter.com/MistralAI/status/2107456586813730854",
-   "up": 47,
+   "up": 51,
    "com": 4,
    "at": "2026-10-06T13:06:16.000Z"
   },
@@ -958,8 +1003,8 @@
    "t": "Beam: Reflection's 501B open-weight model",
    "url": "https://news.ycombinator.com/item?id=49969183",
    "link": "https://reflection.ai/blog/introducing-beam",
-   "up": 486,
-   "com": 158,
+   "up": 490,
+   "com": 160,
    "at": "2026-10-05T19:16:35.000Z"
   },
   {
@@ -967,8 +1012,8 @@
    "t": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
    "url": "https://news.ycombinator.com/item?id=49970667",
    "link": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
-   "up": 408,
-   "com": 274,
+   "up": 412,
+   "com": 281,
    "at": "2026-10-05T21:00:21.000Z"
   },
   {
@@ -976,7 +1021,7 @@
    "t": "Show HN: MailAccess – the true Email OSINT framework",
    "url": "https://news.ycombinator.com/item?id=49977385",
    "link": "https://mailaccess.pro",
-   "up": 34,
+   "up": 41,
    "com": 0,
    "at": "2026-10-06T12:24:18.000Z"
   }
