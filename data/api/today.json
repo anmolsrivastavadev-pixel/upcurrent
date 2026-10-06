@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-06T10:01:05.401Z"
+  "updated": "2026-10-06T10:31:02.690Z"
  },
  "pulse": {
   "trending": 81,
   "accelerating": 0,
   "newModels": 7,
-  "discussions": 47,
-  "stars": 1787
+  "discussions": 55,
+  "stars": 1809
  },
  "rising": [
   {
@@ -37,11 +37,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 91,
-   "grow": 7,
+   "grow": 8,
    "desc": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
    "meta": [
-    "★ 4,103",
-    "+615 in 24h",
+    "★ 4,125",
+    "+635 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-09-30T05:00:35Z",
@@ -55,7 +55,7 @@
    "cat": "Infrastructure",
    "score": 91,
    "grow": 69,
-   "desc": "Model on Hugging Face · open source · ♥ 661",
+   "desc": "Model on Hugging Face · open source · ♥ 663",
    "meta": [
     "4.1K downloads",
     "Released 4 days ago"
@@ -73,8 +73,8 @@
    "grow": 4,
    "desc": "Your always-on AI coworkers that move between text, calls, and Slack.",
    "meta": [
-    "★ 3,785",
-    "+270 in 24h",
+    "★ 3,790",
+    "+268 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-09-29T17:13:58Z",
@@ -88,7 +88,7 @@
    "cat": "Infrastructure",
    "score": 90,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 820",
+   "desc": "Model on Hugging Face · open source · ♥ 830",
    "meta": [
     "1.5M downloads",
     "Released 6 days ago"
@@ -122,8 +122,8 @@
    "grow": null,
    "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
    "meta": [
-    "★ 1,583",
-    "~396 in 24h",
+    "★ 1,588",
+    "~395 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-02T09:57:40Z",
@@ -153,7 +153,7 @@
    "cat": "Coding",
    "score": 87,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 528",
+   "desc": "Model on Hugging Face · open source · ♥ 541",
    "meta": [
     "855K downloads",
     "Released 4 days ago"
@@ -171,8 +171,8 @@
    "grow": 0,
    "desc": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
    "meta": [
-    "★ 2,626",
-    "+16 in 24h",
+    "★ 2,627",
+    "+17 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-09-29T23:06:00Z",
@@ -184,7 +184,7 @@
   {
    "key": "opus 5.5",
    "label": "Opus 5.5",
-   "n": 3,
+   "n": 4,
    "sources": [
     {
      "src": "Hacker News",
@@ -195,6 +195,11 @@
      "src": "Techmeme",
      "t": "Analysis: Anthropic's subscriptions offer ~5x more API-equivalent value per month than OpenAI's for agentic workloads with Claude Opus 5.5 vs. GPT-6.1 Sol",
      "url": "https://www.techmeme.com/261005/p33#a261005p33"
+    },
+    {
+     "src": "YouTube",
+     "t": "How to Make a Roblox Game With AI (Claude Opus 5.5 Full Tutorial)",
+     "url": "https://www.youtube.com/watch?v=afuKhenJldY"
     },
     {
      "src": "GitHub",
@@ -223,9 +228,14 @@
      "src": "Techmeme",
      "t": "Analysis: Anthropic's subscriptions offer ~5x more API-equivalent value per month than OpenAI's for agentic workloads with Claude Opus 5.5 vs. GPT-6.1 Sol",
      "url": "https://www.techmeme.com/261005/p33#a261005p33"
+    },
+    {
+     "src": "YouTube",
+     "t": "How to Make a Roblox Game With AI (Claude Opus 5.5 Full Tutorial)",
+     "url": "https://www.youtube.com/watch?v=afuKhenJldY"
     }
    ],
-   "buzz": 2,
+   "buzz": 3,
    "verdict": "Talk only, no public usage numbers"
   },
   {
@@ -271,8 +281,8 @@
    "name": "universal-modder",
    "url": "https://github.com/rehan-remade/universal-modder",
    "from": "GitHub",
-   "use": 615,
-   "useLabel": "+615 stars/day",
+   "use": 635,
+   "useLabel": "+635 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -386,26 +396,26 @@
  "github": [
   {
    "repo": "rehan-remade/universal-modder",
-   "stars": 4103,
-   "d24": 615,
+   "stars": 4125,
+   "d24": 635,
    "est": false,
-   "forks": 367,
+   "forks": 368,
    "contrib": 37,
    "score": 91
   },
   {
    "repo": "QingYunA/answer-me-with-html",
-   "stars": 1583,
-   "d24": 396,
+   "stars": 1588,
+   "d24": 395,
    "est": true,
-   "forks": 108,
+   "forks": 109,
    "contrib": null,
    "score": 88
   },
   {
    "repo": "omlahore/RemoveMacAI",
-   "stars": 2507,
-   "d24": 360,
+   "stars": 2534,
+   "d24": 363,
    "est": true,
    "forks": 55,
    "contrib": null,
@@ -413,8 +423,8 @@
   },
   {
    "repo": "CopilotKit/OpenDots",
-   "stars": 3785,
-   "d24": 270,
+   "stars": 3790,
+   "d24": 268,
    "est": false,
    "forks": 506,
    "contrib": 16,
@@ -422,8 +432,8 @@
   },
   {
    "repo": "nanaism/yomiyasu",
-   "stars": 1561,
-   "d24": 130,
+   "stars": 1564,
+   "d24": 131,
    "est": false,
    "forks": 35,
    "contrib": null,
@@ -431,10 +441,10 @@
   },
   {
    "repo": "feder-cr/dots",
-   "stars": 2626,
-   "d24": 16,
+   "stars": 2627,
+   "d24": 17,
    "est": false,
-   "forks": 439,
+   "forks": 441,
    "contrib": null,
    "score": 86
   }
@@ -449,7 +459,7 @@
    "grow": 34,
    "score": 93,
    "cat": "Coding",
-   "likes": 1558
+   "likes": 1562
   },
   {
    "name": "Kolibri-1",
@@ -460,7 +470,7 @@
    "grow": 69,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 661
+   "likes": 663
   },
   {
    "name": "JEV-27B-VL",
@@ -472,7 +482,7 @@
    "grow": null,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 820
+   "likes": 830
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -483,7 +493,7 @@
    "grow": 5,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 3327
+   "likes": 3333
   },
   {
    "name": "clef-flash",
@@ -506,7 +516,7 @@
    "grow": null,
    "score": 87,
    "cat": "Coding",
-   "likes": 528
+   "likes": 541
   }
  ],
  "free": [
@@ -861,6 +871,27 @@
  },
  "headlines": [
   {
+   "t": "Drax datacentre could create nearly twice the yearly emissions of all Gatwick flights",
+   "url": "https://www.theguardian.com/uk-news/2026/oct/06/drax-datacentre-yearly-co2-emissions-gatwick-flights-analysis",
+   "at": "2026-10-06T10:27:03Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "At an Australian hearing, OpenAI Chief Strategy Officer Jason Kwon pledged faster safety incident disclosures; Anthropic representatives made similar pledges",
+   "url": "https://www.techmeme.com/261006/p9#a261006p9",
+   "at": "2026-10-06T10:11:38.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "South Korea plans to launch a ~$3.5B program to develop a frontier AI model starting as early as March 2027 and will open a competition to select participants",
+   "url": "https://www.techmeme.com/261006/p8#a261006p8",
+   "at": "2026-10-06T10:00:37.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "South Korean officials are probing whether AI agents were used in recent bank hacks, after President Lee Jae Myung said \"signs\" suggest AI models were involved",
    "url": "https://www.techmeme.com/261006/p6#a261006p6",
    "at": "2026-10-06T08:20:01.000Z",
@@ -931,45 +962,24 @@
    "kind": "News"
   },
   {
-   "t": "Analysis: Anthropic's subscriptions offer ~5x more API-equivalent value per month than OpenAI's for agentic workloads with Claude Opus 5.5 vs. GPT-6.1 Sol",
-   "url": "https://www.techmeme.com/261005/p33#a261005p33",
-   "at": "2026-10-05T22:20:02.000Z",
-   "src": "Techmeme",
+   "t": "AI giants give few clear answers to key safety questions at NYC Council hearing amid whistleblower warnings",
+   "url": "https://www.amny.com/news/ai-giants-nyc-council-whistleblower-warnings/",
+   "at": "2026-10-05T22:30:09Z",
+   "src": "AM New York",
    "kind": "News"
   },
   {
-   "t": "OpenAI CEO Sam Altman says people need to 'accept some bad things' for the benefits of AI",
-   "url": "https://www.youtube.com/watch?v=dizqYRTo6aI",
-   "at": "2026-10-05T22:08:51Z",
-   "src": "NBC News",
-   "kind": "Video"
-  },
-  {
-   "t": "OpenAI is in talks with Abu Dhabi’s MGX and BlackRock for a $30B round",
-   "url": "https://thenextweb.com/news/openai-30bn-mgx-blackrock-europe",
-   "at": "2026-10-05T21:52:45Z",
-   "src": "TNW",
+   "t": "AI Will Not Decide Humanity’s Fate - Unless We Let It",
+   "url": "https://www.dailyexcelsior.com/ai-will-not-decide-humanitys-fate-unless-we-let-it/",
+   "at": "2026-10-05T22:30:00Z",
+   "src": "Daily Excelsior",
    "kind": "News"
   },
   {
-   "t": "At NYC’s AI hearing, ex-lab insiders warn humanity may lose control of AI",
-   "url": "https://thenextweb.com/news/nyc-council-ai-hearing-coxon-kokotajlo-turner",
-   "at": "2026-10-05T21:51:31Z",
-   "src": "TNW",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI Is Adding Text Watermarks in the EU Because Regulation Works",
-   "url": "https://gizmodo.com/openai-is-adding-text-watermarks-in-the-eu-because-regulation-works-2000821852",
-   "at": "2026-10-05T21:50:13Z",
-   "src": "Gizmodo",
-   "kind": "News"
-  },
-  {
-   "t": "Japan's entertainment robots diversify with AI, offer comfort",
-   "url": "https://japantoday.com/category/tech/japan's-entertainment-robots-diversify-with-ai-offer-comfort",
-   "at": "2026-10-05T21:30:00Z",
-   "src": "Japan Today",
+   "t": "Technology must advance while remaining rooted in India's cultural foundations: IGNCA member secretary Sachchidanand Joshi",
+   "url": "https://www.aninews.in/news/national/general-news/technology-must-advance-while-remaining-rooted-in-indias-cultural-foundations-ignca-member-secretary-sachchidanand-joshi20261006035515/",
+   "at": "2026-10-05T22:25:15Z",
+   "src": "ANI (Asian News International)",
    "kind": "News"
   }
  ],
@@ -979,8 +989,8 @@
    "t": "Beam: Reflection's 501B open-weight model",
    "url": "https://news.ycombinator.com/item?id=49969183",
    "link": "https://reflection.ai/blog/introducing-beam",
-   "up": 457,
-   "com": 145,
+   "up": 462,
+   "com": 148,
    "at": "2026-10-05T19:16:35.000Z"
   },
   {
@@ -988,8 +998,8 @@
    "t": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
    "url": "https://news.ycombinator.com/item?id=49970667",
    "link": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
-   "up": 357,
-   "com": 238,
+   "up": 360,
+   "com": 241,
    "at": "2026-10-05T21:00:21.000Z"
   },
   {
@@ -997,9 +1007,27 @@
    "t": "OpenAI \"rogue\" agent activities found on Wikimedia projects",
    "url": "https://news.ycombinator.com/item?id=49968105",
    "link": "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/",
-   "up": 280,
+   "up": 282,
    "com": 183,
    "at": "2026-10-05T17:53:35.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Anthropic Subscriptions Offer 5x+ More Value Than OpenAI",
+   "url": "https://news.ycombinator.com/item?id=49975345",
+   "link": "https://newsletter.semianalysis.com/p/anthropic-subscriptions-offer-5x",
+   "up": 40,
+   "com": 31,
+   "at": "2026-10-06T07:29:50.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Photopea creator weighs in on Photosuite project",
+   "url": "https://news.ycombinator.com/item?id=49972730",
+   "link": "https://github.com/eolix/photosuite/issues/77",
+   "up": 120,
+   "com": 73,
+   "at": "2026-10-06T00:41:44.000Z"
   },
   {
    "src": "Hacker News",
@@ -1007,26 +1035,8 @@
    "url": "https://news.ycombinator.com/item?id=49975484",
    "link": "https://news.osna.fm/german-military-intelligence-uses-ai-to-screen-bundeswehr-applicants-for-right-wing-extremism/",
    "up": 29,
-   "com": 43,
+   "com": 46,
    "at": "2026-10-06T07:49:07.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Photopea creator weighs in on Photosuite project",
-   "url": "https://news.ycombinator.com/item?id=49972730",
-   "link": "https://github.com/eolix/photosuite/issues/77",
-   "up": 118,
-   "com": 70,
-   "at": "2026-10-06T00:41:44.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Mold Linker Version 3.0.0 Release – Rewritten in Rust",
-   "url": "https://news.ycombinator.com/item?id=49963385",
-   "link": "https://github.com/rui314/mold/releases/tag/v3.0.0",
-   "up": 238,
-   "com": 174,
-   "at": "2026-10-05T11:17:18.000Z"
   }
  ]
 }
