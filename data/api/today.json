@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-06T09:30:56.537Z"
+  "updated": "2026-10-06T10:01:05.401Z"
  },
  "pulse": {
   "trending": 81,
   "accelerating": 0,
   "newModels": 7,
-  "discussions": 48,
-  "stars": 1757
+  "discussions": 47,
+  "stars": 1787
  },
  "rising": [
   {
@@ -21,10 +21,10 @@
    "src": "hf",
    "cat": "Coding",
    "score": 93,
-   "grow": 0,
+   "grow": 34,
    "desc": "Model on Hugging Face · open source · ♥ 1.6K",
    "meta": [
-    "5.4K downloads",
+    "7.3K downloads",
     "Released 6 days ago"
    ],
    "at": "2026-09-30T21:15:35.000Z",
@@ -37,11 +37,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 91,
-   "grow": 6,
+   "grow": 7,
    "desc": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
    "meta": [
-    "★ 4,081",
-    "+593 in 24h",
+    "★ 4,103",
+    "+615 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-09-30T05:00:35Z",
@@ -54,10 +54,10 @@
    "src": "hf",
    "cat": "Infrastructure",
    "score": 91,
-   "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 660",
+   "grow": 69,
+   "desc": "Model on Hugging Face · open source · ♥ 661",
    "meta": [
-    "2.5K downloads",
+    "4.1K downloads",
     "Released 4 days ago"
    ],
    "at": "2026-10-02T05:54:02.000Z",
@@ -73,8 +73,8 @@
    "grow": 4,
    "desc": "Your always-on AI coworkers that move between text, calls, and Slack.",
    "meta": [
-    "★ 3,775",
-    "+261 in 24h",
+    "★ 3,785",
+    "+270 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-09-29T17:13:58Z",
@@ -88,9 +88,9 @@
    "cat": "Infrastructure",
    "score": 90,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 818",
+   "desc": "Model on Hugging Face · open source · ♥ 820",
    "meta": [
-    "1.3M downloads",
+    "1.5M downloads",
     "Released 6 days ago"
    ],
    "at": "2026-09-30T05:02:23.000Z",
@@ -103,10 +103,10 @@
    "src": "hf",
    "cat": "Infrastructure",
    "score": 89,
-   "grow": 0,
+   "grow": 5,
    "desc": "Model on Hugging Face · open weights · ♥ 3.3K",
    "meta": [
-    "1.6M downloads",
+    "1.7M downloads",
     "Released 16 days ago"
    ],
    "at": "2026-09-20T15:51:13.000Z",
@@ -122,8 +122,8 @@
    "grow": null,
    "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
    "meta": [
-    "★ 1,574",
-    "~395 in 24h",
+    "★ 1,583",
+    "~396 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-02T09:57:40Z",
@@ -137,14 +137,30 @@
    "cat": "Coding",
    "score": 87,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 552",
+   "desc": "Model on Hugging Face · open source · ♥ 553",
    "meta": [
-    "8.1K downloads",
+    "11K downloads",
     "Released 6 days ago"
    ],
    "at": "2026-09-30T21:15:36.000Z",
    "breakout": null,
    "url": "https://huggingface.co/Cloudflare/clef-flash"
+  },
+  {
+   "name": "GEV-26B-Decide",
+   "owner": "autotrust",
+   "src": "hf",
+   "cat": "Coding",
+   "score": 87,
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 528",
+   "meta": [
+    "855K downloads",
+    "Released 4 days ago"
+   ],
+   "at": "2026-10-02T04:20:21.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/autotrust/GEV-26B-Decide"
   },
   {
    "name": "dots",
@@ -155,36 +171,20 @@
    "grow": 0,
    "desc": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
    "meta": [
-    "★ 2,625",
-    "+14 in 24h",
+    "★ 2,626",
+    "+16 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-09-29T23:06:00Z",
    "breakout": null,
    "url": "https://github.com/feder-cr/dots"
-  },
-  {
-   "name": "GEV-26B-Decide",
-   "owner": "autotrust",
-   "src": "hf",
-   "cat": "Coding",
-   "score": 86,
-   "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 515",
-   "meta": [
-    "447K downloads",
-    "Released 4 days ago"
-   ],
-   "at": "2026-10-02T04:20:21.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/autotrust/GEV-26B-Decide"
   }
  ],
  "breakouts": [
   {
    "key": "opus 5.5",
    "label": "Opus 5.5",
-   "n": 4,
+   "n": 3,
    "sources": [
     {
      "src": "Hacker News",
@@ -195,11 +195,6 @@
      "src": "Techmeme",
      "t": "Analysis: Anthropic's subscriptions offer ~5x more API-equivalent value per month than OpenAI's for agentic workloads with Claude Opus 5.5 vs. GPT-6.1 Sol",
      "url": "https://www.techmeme.com/261005/p33#a261005p33"
-    },
-    {
-     "src": "YouTube",
-     "t": "How to Make a Roblox Game With AI (Claude Opus 5.5 Full Tutorial)",
-     "url": "https://www.youtube.com/watch?v=afuKhenJldY"
     },
     {
      "src": "GitHub",
@@ -228,14 +223,9 @@
      "src": "Techmeme",
      "t": "Analysis: Anthropic's subscriptions offer ~5x more API-equivalent value per month than OpenAI's for agentic workloads with Claude Opus 5.5 vs. GPT-6.1 Sol",
      "url": "https://www.techmeme.com/261005/p33#a261005p33"
-    },
-    {
-     "src": "YouTube",
-     "t": "How to Make a Roblox Game With AI (Claude Opus 5.5 Full Tutorial)",
-     "url": "https://www.youtube.com/watch?v=afuKhenJldY"
     }
    ],
-   "buzz": 3,
+   "buzz": 2,
    "verdict": "Talk only, no public usage numbers"
   },
   {
@@ -261,11 +251,28 @@
    "verdict": "Talk only, no public usage numbers"
   },
   {
+   "name": "Qwen3.8-Flash-Next",
+   "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+   "from": "Hugging Face",
+   "use": 1589145,
+   "useLabel": "1.6M downloads",
+   "usePct": 0.8235294117647058,
+   "talk": [
+    {
+     "src": "DEV",
+     "t": "Forget Claude Code. All you need is Qwen3.8-Flash-Next running locally for agentic coding",
+     "url": "https://dev.to/deepu105/forget-claude-code-all-you-need-is-qwen38-flash-next-running-locally-for-agentic-coding-1a19"
+    }
+   ],
+   "buzz": 1,
+   "verdict": "The hype matches real use"
+  },
+  {
    "name": "universal-modder",
    "url": "https://github.com/rehan-remade/universal-modder",
    "from": "GitHub",
-   "use": 593,
-   "useLabel": "+593 stars/day",
+   "use": 615,
+   "useLabel": "+615 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -275,8 +282,8 @@
    "name": "Qwen3.8-27B-GGUF",
    "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
    "from": "Hugging Face",
-   "use": 6545387,
-   "useLabel": "6.5M downloads",
+   "use": 6566855,
+   "useLabel": "6.6M downloads",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -286,8 +293,8 @@
    "name": "Ternary-Bonsai-2-27B-gguf",
    "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
    "from": "Hugging Face",
-   "use": 4120718,
-   "useLabel": "4.1M downloads",
+   "use": 4193836,
+   "useLabel": "4.2M downloads",
    "usePct": 0.9705882352941176,
    "talk": [],
    "buzz": 0,
@@ -295,6 +302,46 @@
   }
  ],
  "receipts": [
+  {
+   "name": "Qwen/Qwen-Image-2.1",
+   "url": "https://huggingface.co/Qwen/Qwen-Image-2.1",
+   "kind": "downloads",
+   "first": "2026-10-01T17:48:04.617Z",
+   "firstV": 76938,
+   "m": 100000,
+   "at": "2026-10-06T10:01:05.401Z",
+   "lead": 112.21688444444445
+  },
+  {
+   "name": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+   "kind": "downloads",
+   "first": "2026-10-01T17:48:04.617Z",
+   "firstV": 748482,
+   "m": 1000000,
+   "at": "2026-10-06T10:01:05.401Z",
+   "lead": 112.21688444444445
+  },
+  {
+   "name": "Cloudflare/clef-flash",
+   "url": "https://huggingface.co/Cloudflare/clef-flash",
+   "kind": "downloads",
+   "first": "2026-10-02T01:48:25.114Z",
+   "firstV": 18,
+   "m": 10000,
+   "at": "2026-10-06T10:01:05.401Z",
+   "lead": 104.21119083333333
+  },
+  {
+   "name": "omlahore/RemoveMacAI",
+   "url": "https://github.com/omlahore/RemoveMacAI",
+   "kind": "stars",
+   "first": "2026-10-05T09:30:52.147Z",
+   "firstV": 887,
+   "m": 2500,
+   "at": "2026-10-06T10:01:05.401Z",
+   "lead": 24.503681666666665
+  },
   {
    "name": "aimeoa/hanshuang-codex",
    "url": "https://github.com/aimeoa/hanshuang-codex",
@@ -334,62 +381,22 @@
    "m": 1000,
    "at": "2026-10-05T07:01:02.108Z",
    "lead": 85.21596972222223
-  },
-  {
-   "name": "Inkloom-art/inkloom",
-   "url": "https://github.com/Inkloom-art/inkloom",
-   "kind": "stars",
-   "first": "2026-10-04T15:30:46.134Z",
-   "firstV": 828,
-   "m": 1000,
-   "at": "2026-10-05T04:00:59.764Z",
-   "lead": 12.503786111111111
-  },
-  {
-   "name": "nykooi1/vibe-wise",
-   "url": "https://github.com/nykooi1/vibe-wise",
-   "kind": "stars",
-   "first": "2026-10-04T06:01:02.461Z",
-   "firstV": 763,
-   "m": 1000,
-   "at": "2026-10-04T22:00:59.319Z",
-   "lead": 15.999127222222222
-  },
-  {
-   "name": "QingYunA/answer-me-with-html",
-   "url": "https://github.com/QingYunA/answer-me-with-html",
-   "kind": "stars",
-   "first": "2026-10-04T13:30:48.499Z",
-   "firstV": 803,
-   "m": 1000,
-   "at": "2026-10-04T21:31:22.701Z",
-   "lead": 8.009500555555556
-  },
-  {
-   "name": "echris6/motion-video-kit",
-   "url": "https://github.com/echris6/motion-video-kit",
-   "kind": "stars",
-   "first": "2026-10-01T17:48:04.617Z",
-   "firstV": 838,
-   "m": 1000,
-   "at": "2026-10-04T18:31:00.832Z",
-   "lead": 72.71561527777777
   }
  ],
  "github": [
   {
    "repo": "rehan-remade/universal-modder",
-   "stars": 4081,
-   "d24": 593,
+   "stars": 4103,
+   "d24": 615,
    "est": false,
-   "forks": 366,
+   "forks": 367,
    "contrib": 37,
    "score": 91
   },
   {
    "repo": "QingYunA/answer-me-with-html",
-   "stars": 1574,
-   "d24": 395,
+   "stars": 1583,
+   "d24": 396,
    "est": true,
    "forks": 108,
    "contrib": null,
@@ -397,8 +404,8 @@
   },
   {
    "repo": "omlahore/RemoveMacAI",
-   "stars": 2476,
-   "d24": 357,
+   "stars": 2507,
+   "d24": 360,
    "est": true,
    "forks": 55,
    "contrib": null,
@@ -406,8 +413,8 @@
   },
   {
    "repo": "CopilotKit/OpenDots",
-   "stars": 3775,
-   "d24": 261,
+   "stars": 3785,
+   "d24": 270,
    "est": false,
    "forks": 506,
    "contrib": 16,
@@ -416,7 +423,7 @@
   {
    "repo": "nanaism/yomiyasu",
    "stars": 1561,
-   "d24": 137,
+   "d24": 130,
    "est": false,
    "forks": 35,
    "contrib": null,
@@ -424,8 +431,8 @@
   },
   {
    "repo": "feder-cr/dots",
-   "stars": 2625,
-   "d24": 14,
+   "stars": 2626,
+   "d24": 16,
    "est": false,
    "forks": 439,
    "contrib": null,
@@ -438,22 +445,22 @@
    "org": "Cloudflare",
    "lic": "Open source",
    "at": "2026-09-30T21:15:35.000Z",
-   "dl": 5416,
-   "grow": 0,
+   "dl": 7255,
+   "grow": 34,
    "score": 93,
    "cat": "Coding",
-   "likes": 1554
+   "likes": 1558
   },
   {
    "name": "Kolibri-1",
    "org": "Aleph-Alpha",
    "lic": "Open source",
    "at": "2026-10-02T05:54:02.000Z",
-   "dl": 2453,
-   "grow": 0,
+   "dl": 4138,
+   "grow": 69,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 660
+   "likes": 661
   },
   {
    "name": "JEV-27B-VL",
@@ -461,33 +468,33 @@
    "size": "27B",
    "lic": "Open source",
    "at": "2026-09-30T05:02:23.000Z",
-   "dl": 1278569,
+   "dl": 1525286,
    "grow": null,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 818
+   "likes": 820
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
    "org": "abenzerps",
    "lic": "Open weights",
    "at": "2026-09-20T15:51:13.000Z",
-   "dl": 1638838,
-   "grow": 0,
+   "dl": 1721760,
+   "grow": 5,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 3320
+   "likes": 3327
   },
   {
    "name": "clef-flash",
    "org": "Cloudflare",
    "lic": "Open source",
    "at": "2026-09-30T21:15:36.000Z",
-   "dl": 8075,
+   "dl": 10638,
    "grow": null,
    "score": 87,
    "cat": "Coding",
-   "likes": 552
+   "likes": 553
   },
   {
    "name": "GEV-26B-Decide",
@@ -495,11 +502,11 @@
    "size": "26B",
    "lic": "Open source",
    "at": "2026-10-02T04:20:21.000Z",
-   "dl": 446527,
+   "dl": 854574,
    "grow": null,
-   "score": 86,
+   "score": 87,
    "cat": "Coding",
-   "likes": 515
+   "likes": 528
   }
  ],
  "free": [
@@ -938,31 +945,31 @@
    "kind": "Video"
   },
   {
+   "t": "OpenAI is in talks with Abu Dhabi’s MGX and BlackRock for a $30B round",
+   "url": "https://thenextweb.com/news/openai-30bn-mgx-blackrock-europe",
+   "at": "2026-10-05T21:52:45Z",
+   "src": "TNW",
+   "kind": "News"
+  },
+  {
+   "t": "At NYC’s AI hearing, ex-lab insiders warn humanity may lose control of AI",
+   "url": "https://thenextweb.com/news/nyc-council-ai-hearing-coxon-kokotajlo-turner",
+   "at": "2026-10-05T21:51:31Z",
+   "src": "TNW",
+   "kind": "News"
+  },
+  {
+   "t": "OpenAI Is Adding Text Watermarks in the EU Because Regulation Works",
+   "url": "https://gizmodo.com/openai-is-adding-text-watermarks-in-the-eu-because-regulation-works-2000821852",
+   "at": "2026-10-05T21:50:13Z",
+   "src": "Gizmodo",
+   "kind": "News"
+  },
+  {
    "t": "Japan's entertainment robots diversify with AI, offer comfort",
    "url": "https://japantoday.com/category/tech/japan's-entertainment-robots-diversify-with-ai-offer-comfort",
    "at": "2026-10-05T21:30:00Z",
    "src": "Japan Today",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI boss flies into Sydney to face parliamentary inquiry after government portal breaches",
-   "url": "https://www.perthnow.com.au/news/openai-boss-flies-into-sydney-to-face-parliamentary-inquiry-after-government-portal-breaches-c-22972404",
-   "at": "2026-10-05T21:29:00Z",
-   "src": "PerthNow",
-   "kind": "News"
-  },
-  {
-   "t": "Materials Up on AI Demand Optimism -- Materials Roundup",
-   "url": "https://www.marketscreener.com/news/materials-up-on-ai-demand-optimism-materials-roundup-ce785dd8dd8bf324",
-   "at": "2026-10-05T21:27:26Z",
-   "src": "MarketScreener",
-   "kind": "News"
-  },
-  {
-   "t": "AI tool designed and integrated into hospital workflows to classify skin lesions",
-   "url": "https://medicalxpress.com/news/2026-10-ai-tool-hospital-workflows-skin.html",
-   "at": "2026-10-05T21:20:07Z",
-   "src": "Medical Xpress",
    "kind": "News"
   }
  ],
@@ -972,8 +979,8 @@
    "t": "Beam: Reflection's 501B open-weight model",
    "url": "https://news.ycombinator.com/item?id=49969183",
    "link": "https://reflection.ai/blog/introducing-beam",
-   "up": 448,
-   "com": 143,
+   "up": 457,
+   "com": 145,
    "at": "2026-10-05T19:16:35.000Z"
   },
   {
@@ -981,8 +988,8 @@
    "t": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
    "url": "https://news.ycombinator.com/item?id=49970667",
    "link": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
-   "up": 352,
-   "com": 232,
+   "up": 357,
+   "com": 238,
    "at": "2026-10-05T21:00:21.000Z"
   },
   {
@@ -990,7 +997,7 @@
    "t": "OpenAI \"rogue\" agent activities found on Wikimedia projects",
    "url": "https://news.ycombinator.com/item?id=49968105",
    "link": "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/",
-   "up": 279,
+   "up": 280,
    "com": 183,
    "at": "2026-10-05T17:53:35.000Z"
   },
@@ -999,8 +1006,8 @@
    "t": "German Bundeswehr Uses AI to Screen Applicants for Right-Wing Extremism",
    "url": "https://news.ycombinator.com/item?id=49975484",
    "link": "https://news.osna.fm/german-military-intelligence-uses-ai-to-screen-bundeswehr-applicants-for-right-wing-extremism/",
-   "up": 27,
-   "com": 41,
+   "up": 29,
+   "com": 43,
    "at": "2026-10-06T07:49:07.000Z"
   },
   {
@@ -1008,8 +1015,8 @@
    "t": "Photopea creator weighs in on Photosuite project",
    "url": "https://news.ycombinator.com/item?id=49972730",
    "link": "https://github.com/eolix/photosuite/issues/77",
-   "up": 114,
-   "com": 68,
+   "up": 118,
+   "com": 70,
    "at": "2026-10-06T00:41:44.000Z"
   },
   {
