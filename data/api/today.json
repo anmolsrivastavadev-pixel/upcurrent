@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-06T02:01:06.089Z"
+  "updated": "2026-10-06T02:30:54.444Z"
  },
  "pulse": {
   "trending": 80,
   "accelerating": 2,
   "newModels": 7,
-  "discussions": 53,
-  "stars": 4072
+  "discussions": 52,
+  "stars": 4066
  },
  "rising": [
   {
@@ -40,7 +40,7 @@
    "grow": null,
    "desc": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
    "meta": [
-    "★ 3,862",
+    "★ 3,873",
     "~657 in 24h",
     "Created 6 days ago"
    ],
@@ -55,7 +55,7 @@
    "cat": "Infrastructure",
    "score": 91,
    "grow": 116,
-   "desc": "Model on Hugging Face · open source · ♥ 631",
+   "desc": "Model on Hugging Face · open source · ♥ 632",
    "meta": [
     "2.5K downloads",
     "Released 4 days ago"
@@ -73,8 +73,8 @@
    "grow": null,
    "desc": "Your always-on AI coworkers that move between text, calls, and Slack.",
    "meta": [
-    "★ 3,690",
-    "~580 in 24h",
+    "★ 3,695",
+    "~579 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-09-29T17:13:58Z",
@@ -107,7 +107,7 @@
    "desc": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
    "meta": [
     "★ 2,619",
-    "~428 in 24h",
+    "~426 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-09-29T23:06:00Z",
@@ -120,10 +120,10 @@
    "src": "gh",
    "cat": "Agents",
    "score": 88,
-   "grow": 21,
+   "grow": 22,
    "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
    "meta": [
-    "★ 1,490",
+    "★ 1,498",
     "+377 in 24h",
     "Created 4 days ago"
    ],
@@ -132,20 +132,20 @@
    "url": "https://github.com/QingYunA/answer-me-with-html"
   },
   {
-   "name": "clef-flash",
-   "owner": "Cloudflare",
+   "name": "JEV-27B-VL",
+   "owner": "autotrust",
    "src": "hf",
-   "cat": "Coding",
+   "cat": "Infrastructure",
    "score": 88,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 536",
+   "desc": "Model on Hugging Face · open source · ♥ 645",
    "meta": [
-    "8.1K downloads",
-    "Released 5 days ago"
+    "1.3M downloads",
+    "Released 6 days ago"
    ],
-   "at": "2026-09-30T21:15:36.000Z",
+   "at": "2026-09-30T05:02:23.000Z",
    "breakout": null,
-   "url": "https://huggingface.co/Cloudflare/clef-flash"
+   "url": "https://huggingface.co/autotrust/JEV-27B-VL"
   },
   {
    "name": "laya",
@@ -164,20 +164,20 @@
    "url": "https://huggingface.co/convaiinnovations/laya"
   },
   {
-   "name": "JEV-27B-VL",
-   "owner": "autotrust",
+   "name": "clef-flash",
+   "owner": "Cloudflare",
    "src": "hf",
-   "cat": "Infrastructure",
-   "score": 86,
+   "cat": "Coding",
+   "score": 87,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 634",
+   "desc": "Model on Hugging Face · open source · ♥ 536",
    "meta": [
-    "1.3M downloads",
-    "Released 6 days ago"
+    "8.1K downloads",
+    "Released 5 days ago"
    ],
-   "at": "2026-09-30T05:02:23.000Z",
+   "at": "2026-09-30T21:15:36.000Z",
    "breakout": null,
-   "url": "https://huggingface.co/autotrust/JEV-27B-VL"
+   "url": "https://huggingface.co/Cloudflare/clef-flash"
   }
  ],
  "breakouts": [
@@ -254,8 +254,8 @@
    "name": "RemoveMacAI",
    "url": "https://github.com/omlahore/RemoveMacAI",
    "from": "GitHub",
-   "use": 1758,
-   "useLabel": "+1,758 stars/day",
+   "use": 1756,
+   "useLabel": "+1,756 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -369,16 +369,16 @@
  "github": [
   {
    "repo": "omlahore/RemoveMacAI",
-   "stars": 2096,
-   "d24": 1758,
+   "stars": 2131,
+   "d24": 1756,
    "est": false,
-   "forks": 46,
+   "forks": 48,
    "contrib": null,
    "score": 83
   },
   {
    "repo": "rehan-remade/universal-modder",
-   "stars": 3862,
+   "stars": 3873,
    "d24": 657,
    "est": true,
    "forks": 345,
@@ -387,8 +387,8 @@
   },
   {
    "repo": "CopilotKit/OpenDots",
-   "stars": 3690,
-   "d24": 580,
+   "stars": 3695,
+   "d24": 579,
    "est": true,
    "forks": 491,
    "contrib": 16,
@@ -397,7 +397,7 @@
   {
    "repo": "feder-cr/dots",
    "stars": 2619,
-   "d24": 428,
+   "d24": 426,
    "est": true,
    "forks": 438,
    "contrib": null,
@@ -405,17 +405,17 @@
   },
   {
    "repo": "QingYunA/answer-me-with-html",
-   "stars": 1490,
+   "stars": 1498,
    "d24": 377,
    "est": false,
-   "forks": 102,
+   "forks": 103,
    "contrib": null,
    "score": 88
   },
   {
    "repo": "nanaism/yomiyasu",
    "stars": 1520,
-   "d24": 272,
+   "d24": 271,
    "est": true,
    "forks": 34,
    "contrib": null,
@@ -432,7 +432,7 @@
    "grow": null,
    "score": 94,
    "cat": "Coding",
-   "likes": 1507
+   "likes": 1513
   },
   {
    "name": "Kolibri-1",
@@ -443,7 +443,7 @@
    "grow": 116,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 631
+   "likes": 632
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -454,18 +454,19 @@
    "grow": null,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 3268
+   "likes": 3271
   },
   {
-   "name": "clef-flash",
-   "org": "Cloudflare",
+   "name": "JEV-27B-VL",
+   "org": "autotrust",
+   "size": "27B",
    "lic": "Open source",
-   "at": "2026-09-30T21:15:36.000Z",
-   "dl": 8075,
+   "at": "2026-09-30T05:02:23.000Z",
+   "dl": 1278569,
    "grow": 0,
    "score": 88,
-   "cat": "Coding",
-   "likes": 536
+   "cat": "Infrastructure",
+   "likes": 645
   },
   {
    "name": "laya",
@@ -476,19 +477,18 @@
    "grow": null,
    "score": 87,
    "cat": "Tools",
-   "likes": 5241
+   "likes": 5244
   },
   {
-   "name": "JEV-27B-VL",
-   "org": "autotrust",
-   "size": "27B",
+   "name": "clef-flash",
+   "org": "Cloudflare",
    "lic": "Open source",
-   "at": "2026-09-30T05:02:23.000Z",
-   "dl": 1278569,
+   "at": "2026-09-30T21:15:36.000Z",
+   "dl": 8075,
    "grow": 0,
-   "score": 86,
-   "cat": "Infrastructure",
-   "likes": 634
+   "score": 87,
+   "cat": "Coding",
+   "likes": 536
   }
  ],
  "free": [
@@ -941,17 +941,17 @@
    "kind": "Lab blog"
   },
   {
-   "t": "Q&A with AI researchers Jacob Coxon, Daniel Kokotajlo, Alex Turner, and others on leaving AI labs, AGI's dangers, planned IPOs, AI safety, oversight, and more",
-   "url": "https://www.techmeme.com/261005/p20#a261005p20",
-   "at": "2026-10-05T14:10:01.000Z",
-   "src": "Techmeme",
+   "t": "From Overseas Range Records to Zero-Carbon Factories: OMODA & JAECOO to Showcase Green Technology Credentials at 2026 International User Summit in October",
+   "url": "https://www.manilatimes.net/2026/10/05/tmt-newswire/globenewswire/from-overseas-range-records-to-zero-carbon-factories-omoda-jaecoo-to-showcase-green-technology-credentials-at-2026-international-user-summit-in-october/2439224",
+   "at": "2026-10-05T14:29:49Z",
+   "src": "The Manila Times",
    "kind": "News"
   },
   {
-   "t": "OpenAI must explain action taken to stop AI hacking Australians’ private data, chair of federal inquiry says",
-   "url": "https://www.theguardian.com/australia-news/2026/oct/06/openai-must-explain-action-taken-to-stop-ai-hacking-australians-private-data-chair-of-federal-inquiry-says",
-   "at": "2026-10-05T14:00:27Z",
-   "src": "The Guardian",
+   "t": "OpenAI’s chip chief tells More Than Moore he doesn’t fully trust AI design",
+   "url": "https://thenextweb.com/news/openai-jalapeno-chip-richard-ho-ai-design",
+   "at": "2026-10-05T14:17:02Z",
+   "src": "TNW",
    "kind": "News"
   }
  ],
@@ -961,8 +961,8 @@
    "t": "Beam: Reflection's 501B open-weight model",
    "url": "https://news.ycombinator.com/item?id=49969183",
    "link": "https://reflection.ai/blog/introducing-beam",
-   "up": 312,
-   "com": 91,
+   "up": 321,
+   "com": 92,
    "at": "2026-10-05T19:16:35.000Z"
   },
   {
@@ -970,8 +970,8 @@
    "t": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
    "url": "https://news.ycombinator.com/item?id=49970667",
    "link": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
-   "up": 212,
-   "com": 163,
+   "up": 222,
+   "com": 164,
    "at": "2026-10-05T21:00:21.000Z"
   },
   {
@@ -988,18 +988,9 @@
    "t": "Anthropic reported diary entry to police, woman faces felony charge",
    "url": "https://news.ycombinator.com/item?id=49961057",
    "link": "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
-   "up": 550,
-   "com": 469,
+   "up": 564,
+   "com": 475,
    "at": "2026-10-05T05:37:40.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Incident with Actions",
-   "url": "https://news.ycombinator.com/item?id=49969961",
-   "link": "https://www.githubstatus.com/incidents/3q1yb5m7ltvb",
-   "up": 94,
-   "com": 63,
-   "at": "2026-10-05T20:09:12.000Z"
   },
   {
    "src": "Hacker News",
@@ -1009,6 +1000,15 @@
    "up": 231,
    "com": 165,
    "at": "2026-10-05T11:17:18.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Incident with Actions",
+   "url": "https://news.ycombinator.com/item?id=49969961",
+   "link": "https://www.githubstatus.com/incidents/3q1yb5m7ltvb",
+   "up": 95,
+   "com": 63,
+   "at": "2026-10-05T20:09:12.000Z"
   }
  ]
 }
