@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-06T19:01:06.094Z"
+  "updated": "2026-10-06T19:30:53.656Z"
  },
  "pulse": {
   "trending": 80,
   "accelerating": 0,
   "newModels": 7,
-  "discussions": 37,
-  "stars": 1285
+  "discussions": 34,
+  "stars": 1694
  },
  "rising": [
   {
@@ -21,7 +21,7 @@
    "src": "hf",
    "cat": "Coding",
    "score": 93,
-   "grow": 34,
+   "grow": null,
    "desc": "Model on Hugging Face · open source · ♥ 1.7K",
    "meta": [
     "7.3K downloads",
@@ -37,11 +37,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 91,
-   "grow": 16,
+   "grow": null,
    "desc": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
    "meta": [
-    "★ 4,462",
-    "+773 in 24h",
+    "★ 4,474",
+    "~677 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-09-30T05:00:35Z",
@@ -55,7 +55,7 @@
    "cat": "Infrastructure",
    "score": 91,
    "grow": 19,
-   "desc": "Model on Hugging Face · open source · ♥ 955",
+   "desc": "Model on Hugging Face · open source · ♥ 961",
    "meta": [
     "1.5M downloads",
     "Released 7 days ago"
@@ -89,8 +89,8 @@
    "grow": 15,
    "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
    "meta": [
-    "★ 1,742",
-    "+393 in 24h",
+    "★ 1,744",
+    "+382 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-02T09:57:40Z",
@@ -119,7 +119,7 @@
    "src": "hf",
    "cat": "Infrastructure",
    "score": 87,
-   "grow": 5,
+   "grow": null,
    "desc": "Model on Hugging Face · open weights · ♥ 3.4K",
    "meta": [
     "1.7M downloads",
@@ -151,11 +151,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 85,
-   "grow": 0,
+   "grow": null,
    "desc": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
    "meta": [
     "★ 2,630",
-    "+14 in 24h",
+    "~384 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-09-29T23:06:00Z",
@@ -231,8 +231,8 @@
    "name": "universal-modder",
    "url": "https://github.com/rehan-remade/universal-modder",
    "from": "GitHub",
-   "use": 773,
-   "useLabel": "+773 stars/day",
+   "use": 677,
+   "useLabel": "~677 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -346,39 +346,39 @@
  "github": [
   {
    "repo": "rehan-remade/universal-modder",
-   "stars": 4462,
-   "d24": 773,
-   "est": false,
+   "stars": 4474,
+   "d24": 677,
+   "est": true,
    "forks": 393,
    "contrib": 38,
    "score": 91
   },
   {
+   "repo": "feder-cr/dots",
+   "stars": 2630,
+   "d24": 384,
+   "est": true,
+   "forks": 459,
+   "contrib": null,
+   "score": 85
+  },
+  {
    "repo": "QingYunA/answer-me-with-html",
-   "stars": 1742,
-   "d24": 393,
+   "stars": 1744,
+   "d24": 382,
    "est": false,
-   "forks": 122,
+   "forks": 123,
    "contrib": null,
    "score": 88
   },
   {
    "repo": "nanaism/yomiyasu",
    "stars": 1589,
-   "d24": 105,
-   "est": false,
+   "d24": 251,
+   "est": true,
    "forks": 35,
    "contrib": null,
    "score": 82
-  },
-  {
-   "repo": "feder-cr/dots",
-   "stars": 2630,
-   "d24": 14,
-   "est": false,
-   "forks": 459,
-   "contrib": null,
-   "score": 85
   }
  ],
  "models": [
@@ -388,7 +388,7 @@
    "lic": "Open source",
    "at": "2026-09-30T21:15:35.000Z",
    "dl": 7255,
-   "grow": 34,
+   "grow": null,
    "score": 93,
    "cat": "Coding",
    "likes": 1652
@@ -403,7 +403,7 @@
    "grow": 19,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 955
+   "likes": 961
   },
   {
    "name": "Kolibri-1",
@@ -433,7 +433,7 @@
    "lic": "Open weights",
    "at": "2026-09-20T15:51:13.000Z",
    "dl": 1721760,
-   "grow": 5,
+   "grow": null,
    "score": 87,
    "cat": "Infrastructure",
    "likes": 3403
@@ -788,6 +788,13 @@
  },
  "headlines": [
   {
+   "t": "Mistral says ML4 was trained using 3,800 Nvidia Grace Blackwell GPUs in its own data centers in Europe and much of its training data was multilingual",
+   "url": "https://www.techmeme.com/261006/p32#a261006p32",
+   "at": "2026-10-06T19:00:52.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Meta, Walmart, Stripe, and others publish the Personal Agent Protocol to standardize and secure interactions between AI bots and businesses",
    "url": "https://www.techmeme.com/261006/p31#a261006p31",
    "at": "2026-10-06T18:55:00.000Z",
@@ -886,18 +893,11 @@
    "kind": "News"
   },
   {
-   "t": "Mistral releases Mistral Large 4, dubbed \"le Chonk\", a 1T-parameter open-weight model for general agentic capabilities, trained on 4,000 Nvidia Grace Blackwells",
+   "t": "Mistral releases Mistral Large 4, dubbed \"le Chonk\", a 1T-parameter open-weight model for general agentic capabilities",
    "url": "https://www.techmeme.com/261006/p22#a261006p22",
    "at": "2026-10-06T13:08:33.000Z",
    "src": "Techmeme",
    "kind": "News"
-  },
-  {
-   "t": "Why Telecom Operators Are Building Their AI Strategy on Open Models",
-   "url": "https://blogs.nvidia.com/blog/telecom-operators-open-models/",
-   "at": "2026-10-06T13:00:19.000Z",
-   "src": "NVIDIA",
-   "kind": "Lab blog"
   }
  ],
  "discussions": [
@@ -906,8 +906,8 @@
    "t": "Mistral Large 4",
    "url": "https://news.ycombinator.com/item?id=49977979",
    "link": "https://mistral.ai/news/mistral-large-4/\\",
-   "up": 1157,
-   "com": 740,
+   "up": 1204,
+   "com": 773,
    "at": "2026-10-06T13:15:49.000Z"
   },
   {
@@ -924,8 +924,8 @@
    "t": "AI is now capable of developing its own inference hardware",
    "url": "https://news.ycombinator.com/item?id=49980715",
    "link": "https://github.com/FeSens/openTPU",
-   "up": 140,
-   "com": 125,
+   "up": 147,
+   "com": 150,
    "at": "2026-10-06T16:23:25.000Z"
   },
   {
@@ -933,27 +933,27 @@
    "t": "Adobe Creative Suite Cleanroom Port to Rust",
    "url": "https://news.ycombinator.com/item?id=49981449",
    "link": "https://github.com/storytold/photocraft",
-   "up": 87,
-   "com": 48,
+   "up": 88,
+   "com": 50,
    "at": "2026-10-06T17:20:00.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Beam: Reflection's 501B open-weight model",
-   "url": "https://news.ycombinator.com/item?id=49969183",
-   "link": "https://reflection.ai/blog/introducing-beam",
-   "up": 521,
-   "com": 164,
-   "at": "2026-10-05T19:16:35.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
    "url": "https://news.ycombinator.com/item?id=49970667",
    "link": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
-   "up": 459,
-   "com": 309,
+   "up": 466,
+   "com": 311,
    "at": "2026-10-05T21:00:21.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Utah to let AI examine patients and prescribe medication without human oversight",
+   "url": "https://news.ycombinator.com/item?id=49981197",
+   "link": "https://www.techspot.com/news/114111-utah-become-first-state-ai-examine-patients-prescribe.html",
+   "up": 41,
+   "com": 66,
+   "at": "2026-10-06T17:01:52.000Z"
   }
  ]
 }
