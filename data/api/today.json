@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-06T07:01:06.306Z"
+  "updated": "2026-10-06T07:30:34.465Z"
  },
  "pulse": {
-  "trending": 80,
+  "trending": 81,
   "accelerating": 0,
-  "newModels": 8,
-  "discussions": 50,
-  "stars": 1598
+  "newModels": 7,
+  "discussions": 42,
+  "stars": 1617
  },
  "rising": [
   {
@@ -40,8 +40,8 @@
    "grow": 4,
    "desc": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
    "meta": [
-    "★ 3,984",
-    "+480 in 24h",
+    "★ 3,999",
+    "+495 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-09-30T05:00:35Z",
@@ -57,13 +57,45 @@
    "grow": 3,
    "desc": "Your always-on AI coworkers that move between text, calls, and Slack.",
    "meta": [
-    "★ 3,737",
-    "+235 in 24h",
+    "★ 3,741",
+    "+233 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-09-29T17:13:58Z",
    "breakout": null,
    "url": "https://github.com/CopilotKit/OpenDots"
+  },
+  {
+   "name": "JEV-27B-VL",
+   "owner": "autotrust",
+   "src": "hf",
+   "cat": "Infrastructure",
+   "score": 90,
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 792",
+   "meta": [
+    "1.3M downloads",
+    "Released 6 days ago"
+   ],
+   "at": "2026-09-30T05:02:23.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/autotrust/JEV-27B-VL"
+  },
+  {
+   "name": "Kolibri-1",
+   "owner": "Aleph-Alpha",
+   "src": "hf",
+   "cat": "Infrastructure",
+   "score": 90,
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 651",
+   "meta": [
+    "2.5K downloads",
+    "Released 4 days ago"
+   ],
+   "at": "2026-10-02T05:54:02.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -82,38 +114,6 @@
    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF"
   },
   {
-   "name": "JEV-27B-VL",
-   "owner": "autotrust",
-   "src": "hf",
-   "cat": "Infrastructure",
-   "score": 89,
-   "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 780",
-   "meta": [
-    "1.3M downloads",
-    "Released 6 days ago"
-   ],
-   "at": "2026-09-30T05:02:23.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/autotrust/JEV-27B-VL"
-  },
-  {
-   "name": "Kolibri-1",
-   "owner": "Aleph-Alpha",
-   "src": "hf",
-   "cat": "Infrastructure",
-   "score": 89,
-   "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 648",
-   "meta": [
-    "2.5K downloads",
-    "Released 4 days ago"
-   ],
-   "at": "2026-10-02T05:54:02.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
-  },
-  {
    "name": "answer-me-with-html",
    "owner": "QingYunA",
    "src": "gh",
@@ -122,7 +122,7 @@
    "grow": null,
    "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
    "meta": [
-    "★ 1,539",
+    "★ 1,546",
     "~397 in 24h",
     "Created 4 days ago"
    ],
@@ -139,8 +139,8 @@
    "grow": 0,
    "desc": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
    "meta": [
-    "★ 2,621",
-    "+6 in 24h",
+    "★ 2,623",
+    "+12 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-09-29T23:06:00Z",
@@ -148,11 +148,27 @@
    "url": "https://github.com/feder-cr/dots"
   },
   {
+   "name": "clef-flash",
+   "owner": "Cloudflare",
+   "src": "hf",
+   "cat": "Coding",
+   "score": 87,
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 548",
+   "meta": [
+    "8.1K downloads",
+    "Released 5 days ago"
+   ],
+   "at": "2026-09-30T21:15:36.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/Cloudflare/clef-flash"
+  },
+  {
    "name": "laya",
    "owner": "convaiinnovations",
    "src": "hf",
    "cat": "Tools",
-   "score": 87,
+   "score": 86,
    "grow": 0,
    "desc": "Model on Hugging Face · open source · ♥ 5.3K",
    "meta": [
@@ -162,22 +178,6 @@
    "at": "2026-09-18T05:05:55.000Z",
    "breakout": null,
    "url": "https://huggingface.co/convaiinnovations/laya"
-  },
-  {
-   "name": "clef-flash",
-   "owner": "Cloudflare",
-   "src": "hf",
-   "cat": "Coding",
-   "score": 87,
-   "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 547",
-   "meta": [
-    "8.1K downloads",
-    "Released 5 days ago"
-   ],
-   "at": "2026-09-30T21:15:36.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/Cloudflare/clef-flash"
   }
  ],
  "breakouts": [
@@ -264,8 +264,8 @@
    "name": "universal-modder",
    "url": "https://github.com/rehan-remade/universal-modder",
    "from": "GitHub",
-   "use": 480,
-   "useLabel": "+480 stars/day",
+   "use": 495,
+   "useLabel": "+495 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -288,7 +288,7 @@
    "from": "Hugging Face",
    "use": 4120718,
    "useLabel": "4.1M downloads",
-   "usePct": 0.9696969696969697,
+   "usePct": 0.9705882352941176,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -379,16 +379,16 @@
  "github": [
   {
    "repo": "rehan-remade/universal-modder",
-   "stars": 3984,
-   "d24": 480,
+   "stars": 3999,
+   "d24": 495,
    "est": false,
-   "forks": 354,
+   "forks": 360,
    "contrib": 37,
    "score": 91
   },
   {
    "repo": "QingYunA/answer-me-with-html",
-   "stars": 1539,
+   "stars": 1546,
    "d24": 397,
    "est": true,
    "forks": 108,
@@ -397,35 +397,35 @@
   },
   {
    "repo": "omlahore/RemoveMacAI",
-   "stars": 2335,
-   "d24": 342,
+   "stars": 2364,
+   "d24": 345,
    "est": true,
-   "forks": 51,
+   "forks": 52,
    "contrib": null,
    "score": 84
   },
   {
    "repo": "CopilotKit/OpenDots",
-   "stars": 3737,
-   "d24": 235,
+   "stars": 3741,
+   "d24": 233,
    "est": false,
-   "forks": 497,
+   "forks": 499,
    "contrib": 16,
    "score": 90
   },
   {
    "repo": "nanaism/yomiyasu",
-   "stars": 1547,
-   "d24": 138,
+   "stars": 1549,
+   "d24": 135,
    "est": false,
-   "forks": 34,
+   "forks": 35,
    "contrib": null,
    "score": 83
   },
   {
    "repo": "feder-cr/dots",
-   "stars": 2621,
-   "d24": 6,
+   "stars": 2623,
+   "d24": 12,
    "est": false,
    "forks": 438,
    "contrib": null,
@@ -442,7 +442,30 @@
    "grow": 0,
    "score": 94,
    "cat": "Coding",
-   "likes": 1540
+   "likes": 1543
+  },
+  {
+   "name": "JEV-27B-VL",
+   "org": "autotrust",
+   "size": "27B",
+   "lic": "Open source",
+   "at": "2026-09-30T05:02:23.000Z",
+   "dl": 1278569,
+   "grow": null,
+   "score": 90,
+   "cat": "Infrastructure",
+   "likes": 792
+  },
+  {
+   "name": "Kolibri-1",
+   "org": "Aleph-Alpha",
+   "lic": "Open source",
+   "at": "2026-10-02T05:54:02.000Z",
+   "dl": 2453,
+   "grow": null,
+   "score": 90,
+   "cat": "Infrastructure",
+   "likes": 651
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -453,30 +476,18 @@
    "grow": 0,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 3299
+   "likes": 3303
   },
   {
-   "name": "JEV-27B-VL",
-   "org": "autotrust",
-   "size": "27B",
+   "name": "clef-flash",
+   "org": "Cloudflare",
    "lic": "Open source",
-   "at": "2026-09-30T05:02:23.000Z",
-   "dl": 1278569,
-   "grow": 0,
-   "score": 89,
-   "cat": "Infrastructure",
-   "likes": 780
-  },
-  {
-   "name": "Kolibri-1",
-   "org": "Aleph-Alpha",
-   "lic": "Open source",
-   "at": "2026-10-02T05:54:02.000Z",
-   "dl": 2453,
+   "at": "2026-09-30T21:15:36.000Z",
+   "dl": 8075,
    "grow": null,
-   "score": 89,
-   "cat": "Infrastructure",
-   "likes": 648
+   "score": 87,
+   "cat": "Coding",
+   "likes": 548
   },
   {
    "name": "laya",
@@ -485,20 +496,9 @@
    "at": "2026-09-18T05:05:55.000Z",
    "dl": 11733,
    "grow": 0,
-   "score": 87,
+   "score": 86,
    "cat": "Tools",
-   "likes": 5250
-  },
-  {
-   "name": "clef-flash",
-   "org": "Cloudflare",
-   "lic": "Open source",
-   "at": "2026-09-30T21:15:36.000Z",
-   "dl": 8075,
-   "grow": 0,
-   "score": 87,
-   "cat": "Coding",
-   "likes": 547
+   "likes": 5251
   }
  ],
  "free": [
@@ -923,45 +923,45 @@
    "kind": "News"
   },
   {
-   "t": "AI companies former employees voice AI safety concerns",
-   "url": "https://www.bnnbloomberg.ca/business/artificial-intelligence/2026/10/05/ai-industry-insiders-voice-alarms-to-nyc-council-as-local-governments-take-up-safety-concerns/",
-   "at": "2026-10-05T18:57:28Z",
-   "src": "Bnn Bloomberg",
+   "t": "OpenAI rogue agent possibly behind Wikipedia disruption in May, operator says",
+   "url": "https://globalnews.ca/news/12088387/openai-rogue-agent-wikipedia-disruption/",
+   "at": "2026-10-05T19:24:41Z",
+   "src": "Global News",
    "kind": "News"
   },
   {
-   "t": "OpenAI Will Add A Digital Watermark To Text And Code Generated In The EU",
-   "url": "https://www.engadget.com/2277866/openai-will-add-a-digital-watermark-to-text-and-code-generated-in-the-eu/",
-   "at": "2026-10-05T18:55:40Z",
-   "src": "Engadget",
+   "t": "India’s economic resilience strengthens global leadership prospects: Jean-Pierre Landau",
+   "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-economic-resilience-strengthens-global-leadership-prospects-jean-pierre-landau/articleshow/134716138.cms",
+   "at": "2026-10-05T19:14:00Z",
+   "src": "The Economic Times",
    "kind": "News"
   },
   {
-   "t": "OpenAI is adding invisible watermarks to ChatGPT and Codex for users in the EU",
-   "url": "https://www.digitaltrends.com/computing/openai-is-adding-invisible-watermarks-to-chatgpt-and-codex-for-users-in-the-eu/",
-   "at": "2026-10-05T18:53:46Z",
-   "src": "Digital Trends",
+   "t": "'AI raises the floor, people raise the ceiling': PwC US CEO on India venture, Big Four race and GCC push",
+   "url": "https://economictimes.indiatimes.com/news/company/corporate-trends/ai-raises-the-floor-people-raise-the-ceiling-pwc-us-ceo-on-india-venture-big-four-race-and-gcc-push/articleshow/134716168.cms",
+   "at": "2026-10-05T19:11:00Z",
+   "src": "The Economic Times",
    "kind": "News"
   },
   {
-   "t": "‘Reckless’ AI firms can’t control their models, claims whistleblower",
-   "url": "https://www.nzherald.co.nz/world/reckless-ai-firms-cant-control-their-models-claims-whistleblower/OXLB7CRFOFBJHMDKTI6ABW4Y44/",
-   "at": "2026-10-05T18:53:44Z",
-   "src": "The New Zealand Herald",
+   "t": "Wikipedia operator says OpenAI's rogue agents possibly tied to data service disruption in May",
+   "url": "https://www.devdiscourse.com/article/international/3987200-wikipedia-operator-says-openais-rogue-agents-possibly-tied-to-data-service-disruption-in-may",
+   "at": "2026-10-05T19:08:43Z",
+   "src": "Devdiscourse",
    "kind": "News"
   },
   {
-   "t": "AI industry insiders voice alarms to NYC council as local governments take up safety concerns",
-   "url": "https://www.clickondetroit.com/business/2026/10/05/ai-industry-insiders-voice-alarms-to-nyc-council-as-local-governments-take-up-safety-concerns/",
-   "at": "2026-10-05T18:45:54Z",
-   "src": "WDIV ClickOnDetroit",
+   "t": "Trust is the real AI advantage",
+   "url": "https://www.straitstimes.com/business/trust-is-the-real-ai-advantage",
+   "at": "2026-10-05T19:08:00Z",
+   "src": "The Straits Times",
    "kind": "News"
   },
   {
-   "t": "‘Something a supervillain would say’: Sam Altman’s AI ‘downsides’ comment sparks backlash as he says world must accept them for tech’s benefits",
-   "url": "https://www.indiatimes.com/trending/something-a-supervillain-would-say-sam-altmans-ai-downsides-comment-sparks-backlash-as-he-says-world-must-accept-them-for-techs-benefits/articleshow/134715091.html",
-   "at": "2026-10-05T18:40:56Z",
-   "src": "Indiatimes",
+   "t": "Wikipedia operator says OpenAI’s ‘rogue’ bots may be linked to a May outage",
+   "url": "https://www.theverge.com/news/1004929/wikipedia-openai-rogue-bots-wikimedia-foundation-outage",
+   "at": "2026-10-05T19:05:19Z",
+   "src": "The Verge",
    "kind": "News"
   }
  ],
@@ -971,8 +971,8 @@
    "t": "Beam: Reflection's 501B open-weight model",
    "url": "https://news.ycombinator.com/item?id=49969183",
    "link": "https://reflection.ai/blog/introducing-beam",
-   "up": 407,
-   "com": 124,
+   "up": 415,
+   "com": 130,
    "at": "2026-10-05T19:16:35.000Z"
   },
   {
@@ -980,8 +980,8 @@
    "t": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
    "url": "https://news.ycombinator.com/item?id=49970667",
    "link": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
-   "up": 303,
-   "com": 198,
+   "up": 316,
+   "com": 206,
    "at": "2026-10-05T21:00:21.000Z"
   },
   {
@@ -989,36 +989,36 @@
    "t": "OpenAI \"rogue\" agent activities found on Wikimedia projects",
    "url": "https://news.ycombinator.com/item?id=49968105",
    "link": "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/",
-   "up": 271,
-   "com": 180,
+   "up": 272,
+   "com": 181,
    "at": "2026-10-05T17:53:35.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Photopea creator weighs in on Photosuite project",
-   "url": "https://news.ycombinator.com/item?id=49972730",
-   "link": "https://github.com/eolix/photosuite/issues/77",
-   "up": 106,
-   "com": 64,
-   "at": "2026-10-06T00:41:44.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Mold Linker Version 3.0.0 Release – Rewritten in Rust",
-   "url": "https://news.ycombinator.com/item?id=49963385",
-   "link": "https://github.com/rui314/mold/releases/tag/v3.0.0",
-   "up": 235,
-   "com": 173,
-   "at": "2026-10-05T11:17:18.000Z"
   },
   {
    "src": "Hacker News",
    "t": "The lamps in my house",
    "url": "https://news.ycombinator.com/item?id=49965152",
    "link": "https://arslan.io/2026/10/05/the-lamps-in-my-house/",
-   "up": 177,
-   "com": 80,
+   "up": 178,
+   "com": 83,
    "at": "2026-10-05T14:12:14.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "AI tutoring with Khanmigo in a two-year school experiment",
+   "url": "https://news.ycombinator.com/item?id=49972419",
+   "link": "https://edworkingpapers.com/ai26-1551",
+   "up": 61,
+   "com": 53,
+   "at": "2026-10-06T00:00:45.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Ephemeral Testing",
+   "url": "https://news.ycombinator.com/item?id=49972008",
+   "link": "https://lemire.me/blog/2026/10/05/ephemeral-testing/",
+   "up": 51,
+   "com": 13,
+   "at": "2026-10-05T23:06:36.000Z"
   }
  ]
 }
