@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-06T05:01:05.996Z"
+  "updated": "2026-10-06T05:30:55.037Z"
  },
  "pulse": {
   "trending": 80,
-  "accelerating": 1,
-  "newModels": 7,
-  "discussions": 53,
-  "stars": 3590
+  "accelerating": 0,
+  "newModels": 8,
+  "discussions": 54,
+  "stars": 1515
  },
  "rising": [
   {
@@ -21,7 +21,7 @@
    "src": "hf",
    "cat": "Coding",
    "score": 94,
-   "grow": null,
+   "grow": 0,
    "desc": "Model on Hugging Face · open source · ♥ 1.5K",
    "meta": [
     "5.4K downloads",
@@ -37,11 +37,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 91,
-   "grow": null,
+   "grow": 3,
    "desc": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
    "meta": [
-    "★ 3,916",
-    "~653 in 24h",
+    "★ 3,933",
+    "+396 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-09-30T05:00:35Z",
@@ -73,9 +73,9 @@
    "grow": 2,
    "desc": "Your always-on AI coworkers that move between text, calls, and Slack.",
    "meta": [
-    "★ 3,719",
-    "+239 in 24h",
-    "Created 6 days ago"
+    "★ 3,722",
+    "+234 in 24h",
+    "Created 7 days ago"
    ],
    "at": "2026-09-29T17:13:58Z",
    "breakout": null,
@@ -87,7 +87,7 @@
    "src": "hf",
    "cat": "Infrastructure",
    "score": 89,
-   "grow": null,
+   "grow": 0,
    "desc": "Model on Hugging Face · open weights · ♥ 3.3K",
    "meta": [
     "1.6M downloads",
@@ -103,11 +103,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 88,
-   "grow": 23,
+   "grow": null,
    "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
    "meta": [
-    "★ 1,520",
-    "+356 in 24h",
+    "★ 1,521",
+    "~399 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-02T09:57:40Z",
@@ -121,7 +121,7 @@
    "cat": "Infrastructure",
    "score": 88,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 718",
+   "desc": "Model on Hugging Face · open source · ♥ 734",
    "meta": [
     "1.3M downloads",
     "Released 6 days ago"
@@ -136,11 +136,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 87,
-   "grow": null,
+   "grow": 0,
    "desc": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
    "meta": [
     "★ 2,620",
-    "~419 in 24h",
+    "+4 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-09-29T23:06:00Z",
@@ -153,7 +153,7 @@
    "src": "hf",
    "cat": "Tools",
    "score": 87,
-   "grow": null,
+   "grow": 0,
    "desc": "Model on Hugging Face · open source · ♥ 5.2K",
    "meta": [
     "12K downloads",
@@ -170,7 +170,7 @@
    "cat": "Coding",
    "score": 87,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 538",
+   "desc": "Model on Hugging Face · open source · ♥ 539",
    "meta": [
     "8.1K downloads",
     "Released 5 days ago"
@@ -251,11 +251,11 @@
    "verdict": "Talk only, no public usage numbers"
   },
   {
-   "name": "RemoveMacAI",
-   "url": "https://github.com/omlahore/RemoveMacAI",
+   "name": "answer-me-with-html",
+   "url": "https://github.com/QingYunA/answer-me-with-html",
    "from": "GitHub",
-   "use": 1654,
-   "useLabel": "+1,654 stars/day",
+   "use": 399,
+   "useLabel": "~399 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -368,58 +368,58 @@
  ],
  "github": [
   {
-   "repo": "omlahore/RemoveMacAI",
-   "stars": 2231,
-   "d24": 1654,
-   "est": false,
-   "forks": 50,
-   "contrib": null,
-   "score": 84
-  },
-  {
-   "repo": "rehan-remade/universal-modder",
-   "stars": 3916,
-   "d24": 653,
-   "est": true,
-   "forks": 351,
-   "contrib": 37,
-   "score": 91
-  },
-  {
-   "repo": "feder-cr/dots",
-   "stars": 2620,
-   "d24": 419,
-   "est": true,
-   "forks": 438,
-   "contrib": null,
-   "score": 87
-  },
-  {
    "repo": "QingYunA/answer-me-with-html",
-   "stars": 1520,
-   "d24": 356,
-   "est": false,
+   "stars": 1521,
+   "d24": 399,
+   "est": true,
    "forks": 107,
    "contrib": null,
    "score": 88
   },
   {
-   "repo": "nanaism/yomiyasu",
-   "stars": 1540,
-   "d24": 269,
+   "repo": "rehan-remade/universal-modder",
+   "stars": 3933,
+   "d24": 396,
+   "est": false,
+   "forks": 352,
+   "contrib": 37,
+   "score": 91
+  },
+  {
+   "repo": "omlahore/RemoveMacAI",
+   "stars": 2260,
+   "d24": 334,
    "est": true,
+   "forks": 50,
+   "contrib": null,
+   "score": 84
+  },
+  {
+   "repo": "CopilotKit/OpenDots",
+   "stars": 3722,
+   "d24": 234,
+   "est": false,
+   "forks": 494,
+   "contrib": 16,
+   "score": 90
+  },
+  {
+   "repo": "nanaism/yomiyasu",
+   "stars": 1541,
+   "d24": 148,
+   "est": false,
    "forks": 34,
    "contrib": null,
    "score": 83
   },
   {
-   "repo": "CopilotKit/OpenDots",
-   "stars": 3719,
-   "d24": 239,
+   "repo": "feder-cr/dots",
+   "stars": 2620,
+   "d24": 4,
    "est": false,
-   "forks": 493,
-   "contrib": 16,
-   "score": 90
+   "forks": 438,
+   "contrib": null,
+   "score": 87
   }
  ],
  "models": [
@@ -429,10 +429,10 @@
    "lic": "Open source",
    "at": "2026-09-30T21:15:35.000Z",
    "dl": 5416,
-   "grow": null,
+   "grow": 0,
    "score": 94,
    "cat": "Coding",
-   "likes": 1531
+   "likes": 1533
   },
   {
    "name": "Kolibri-1",
@@ -451,10 +451,10 @@
    "lic": "Open weights",
    "at": "2026-09-20T15:51:13.000Z",
    "dl": 1638838,
-   "grow": null,
+   "grow": 0,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 3282
+   "likes": 3286
   },
   {
    "name": "JEV-27B-VL",
@@ -466,7 +466,7 @@
    "grow": 0,
    "score": 88,
    "cat": "Infrastructure",
-   "likes": 718
+   "likes": 734
   },
   {
    "name": "laya",
@@ -474,10 +474,10 @@
    "lic": "Open source",
    "at": "2026-09-18T05:05:55.000Z",
    "dl": 11733,
-   "grow": null,
+   "grow": 0,
    "score": 87,
    "cat": "Tools",
-   "likes": 5247
+   "likes": 5248
   },
   {
    "name": "clef-flash",
@@ -488,7 +488,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Coding",
-   "likes": 538
+   "likes": 539
   }
  ],
  "free": [
@@ -843,6 +843,13 @@
  },
  "headlines": [
   {
+   "t": "Sources: Seagate and Toshiba are bidding for TDK's HDD magnetic head business in a multibillion-dollar deal, as they compete for AI data center storage demand",
+   "url": "https://www.techmeme.com/261006/p1#a261006p1",
+   "at": "2026-10-06T05:00:14.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Sources: Moonshot AI closes its final private funding round at a ~$50B valuation and is targeting a Hong Kong IPO in Q1 2027 to raise up to $5B",
    "url": "https://www.techmeme.com/261005/p35#a261005p35",
    "at": "2026-10-06T03:10:01.000Z",
@@ -913,45 +920,38 @@
    "kind": "News"
   },
   {
-   "t": "OpenAI PR tells journalist to ‘move on’ while asking Sam Altman about a ChatGPT user’s suicide",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1004827/openai-sam-altman-vanity-fair-interview-pr",
-   "at": "2026-10-05T16:55:42Z",
-   "src": "The Verge",
+   "t": "Your local LLM is quietly wasting RAM on context you never use, and one setting gives it back",
+   "url": "https://www.xda-developers.com/local-llm-wasting-ram-context-never-use-one-setting-gives-back/",
+   "at": "2026-10-05T17:30:18Z",
+   "src": "XDA Developers",
    "kind": "News"
   },
   {
-   "t": "ChatGPT Plus Free For A Month In India: How To Check If You're Eligible And Claim It",
-   "url": "https://www.ndtvprofit.com/technology/chatgpt-plus-free-for-one-month-in-india-how-to-check-if-youre-eligible-and-claim-it-12142554",
-   "at": "2026-10-05T16:45:46Z",
-   "src": "NDTV Profit",
+   "t": "OpenAI to add invisible watermarks to ChatGPT text in EU to meet AI act rules",
+   "url": "https://www.firstpost.com/tech/openai-to-add-invisible-watermarks-to-chatgpt-text-in-eu-to-meet-ai-act-rules-14050615.html",
+   "at": "2026-10-05T17:25:01Z",
+   "src": "Firstpost",
    "kind": "News"
   },
   {
-   "t": "AI giants fly in as safety, copyright debates heat up",
-   "url": "https://www.perthnow.com.au/news/politics/ai-giants-fly-in-as-safety-copyright-debates-heat-up-c-22972079",
-   "at": "2026-10-05T16:34:51Z",
-   "src": "PerthNow",
+   "t": "Man arrested for circulating AI-generated image showing cop sexually assaulting woman: Delhi Police",
+   "url": "https://theprint.in/india/man-arrested-for-circulating-ai-generated-image-showing-cop-sexually-assaulting-woman-delhi-police/3062721/",
+   "at": "2026-10-05T17:23:34Z",
+   "src": "ThePrint",
    "kind": "News"
   },
   {
-   "t": "OpenAI and Anthropic Have a New Threat to Worry About-and It Isn't China",
-   "url": "https://gizmodo.com/openai-and-anthropic-have-a-new-threat-to-worry-about-and-it-isnt-china-2000821705",
-   "at": "2026-10-05T16:30:51Z",
-   "src": "Gizmodo",
+   "t": "Democracy needs protection in polarizing times, Chief Justice Richard Wagner says as Supreme Court opens",
+   "url": "https://www.theglobeandmail.com/canada/article-democracy-needs-protection-in-polarizing-times-chief-justice-richard/",
+   "at": "2026-10-05T17:17:38Z",
+   "src": "The Globe and Mail",
    "kind": "News"
   },
   {
-   "t": "An official says the DOD has stopped using Anthropic's tools; sources: Claude was in use as recently as last week, including in military operations against Iran",
-   "url": "https://www.techmeme.com/261005/p25#a261005p25",
-   "at": "2026-10-05T16:30:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "To comply with the EU AI Act, OpenAI plans to add text watermarking for ChatGPT and Codex users in the EU and an opt-in setting for API customers globally",
-   "url": "https://www.techmeme.com/261005/p24#a261005p24",
-   "at": "2026-10-05T16:21:02.000Z",
-   "src": "Techmeme",
+   "t": "ChatGPT is adding new ads",
+   "url": "https://9to5google.com/2026/10/05/chatgpt-is-adding-new-ads/",
+   "at": "2026-10-05T17:15:00Z",
+   "src": "9to5Google",
    "kind": "News"
   }
  ],
@@ -961,8 +961,8 @@
    "t": "Beam: Reflection's 501B open-weight model",
    "url": "https://news.ycombinator.com/item?id=49969183",
    "link": "https://reflection.ai/blog/introducing-beam",
-   "up": 376,
-   "com": 114,
+   "up": 383,
+   "com": 117,
    "at": "2026-10-05T19:16:35.000Z"
   },
   {
@@ -970,8 +970,8 @@
    "t": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
    "url": "https://news.ycombinator.com/item?id=49970667",
    "link": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
-   "up": 265,
-   "com": 182,
+   "up": 273,
+   "com": 186,
    "at": "2026-10-05T21:00:21.000Z"
   },
   {
@@ -979,8 +979,8 @@
    "t": "Anthropic reported diary entry to police, woman faces felony charge",
    "url": "https://news.ycombinator.com/item?id=49961057",
    "link": "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
-   "up": 633,
-   "com": 504,
+   "up": 643,
+   "com": 508,
    "at": "2026-10-05T05:37:40.000Z"
   },
   {
@@ -988,7 +988,7 @@
    "t": "OpenAI \"rogue\" agent activities found on Wikimedia projects",
    "url": "https://news.ycombinator.com/item?id=49968105",
    "link": "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/",
-   "up": 266,
+   "up": 268,
    "com": 180,
    "at": "2026-10-05T17:53:35.000Z"
   },
@@ -997,8 +997,8 @@
    "t": "Photopea creator weighs in on Photosuite project",
    "url": "https://news.ycombinator.com/item?id=49972730",
    "link": "https://github.com/eolix/photosuite/issues/77",
-   "up": 82,
-   "com": 41,
+   "up": 90,
+   "com": 49,
    "at": "2026-10-06T00:41:44.000Z"
   },
   {
@@ -1006,7 +1006,7 @@
    "t": "Mold Linker Version 3.0.0 Release – Rewritten in Rust",
    "url": "https://news.ycombinator.com/item?id=49963385",
    "link": "https://github.com/rui314/mold/releases/tag/v3.0.0",
-   "up": 234,
+   "up": 235,
    "com": 167,
    "at": "2026-10-05T11:17:18.000Z"
   }
