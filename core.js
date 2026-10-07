@@ -9,7 +9,8 @@
     const m = (now - Date.parse(iso)) / 6e4;
     if (m < 60) return `${Math.max(1, Math.round(m))} min ago`;
     if (m < 1440) return `${Math.round(m / 60)}h ago`;
-    return `${Math.round(m / 1440)} days ago`;
+    const d = Math.round(m / 1440);
+    return d === 1 ? "yesterday" : `${d} days ago`;
   };
 
   /* ---------- sources ---------- */
@@ -470,8 +471,8 @@
       stars: raw.github ? ghRows.reduce((a, g) => a + g.d24, 0) : S.pulse.stars
     };
     const brief = [
-      top && `Top mover: ${top.name}, score ${top.score}${top.grow != null ? `, up ${top.grow}% in a day` : ""}.`,
-      lead && `${lead[0]} make up ${lead[1]} of the top ${rising.length}.`,
+      top && `Top mover: ${top.name}, score ${top.score}${top.grow > 0 ? `, up ${top.grow}% in a day` : ""}.`,
+      lead && lead[1] > 1 && `${lead[1]} of the top ${rising.length} are in ${lead[0]}.`,
       raw.hfModels && `Hugging Face has ${newModels.length} trending models released this week, ${newModels.filter(m => m.lic === "Open source").length} of them open source.`,
       `You can call ${freeCounts.zen + freeCounts.or} models for free: ${freeCounts.zen} on OpenCode Zen and ${freeCounts.or} on OpenRouter.`
     ].filter(Boolean);

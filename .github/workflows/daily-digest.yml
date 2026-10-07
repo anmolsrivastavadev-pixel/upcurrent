@@ -16,6 +16,7 @@ on:
 
 permissions:
   contents: read
+  actions: write
 
 concurrency:
   group: morning-email
@@ -26,6 +27,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      - name: Unstick the site publish
+        # On 6 Oct a publish run sat "waiting" for the github-pages environment for a day and froze the site.
+        # Any "Update data" run still waiting after 45 minutes is cancelled so the next one can go out.
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api "repos/${{ github.repository }}/actions/workflows/update-data.yml/runs?status=waiting&per_page=20" \
+            --jq '.workflow_runs[] | select((now - (.run_started_at | fromdateiso8601)) > 2700) | .id' |
+          while read -r id; do echo "Cancelling stuck run $id"; gh api -X POST "repos/${{ github.repository }}/actions/runs/$id/cancel" || true; done
 
       - uses: actions/setup-node@v4
         with:

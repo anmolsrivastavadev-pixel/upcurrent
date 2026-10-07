@@ -1,0 +1,51 @@
+/* Upcurrent design tokens. Every page links this file, so a colour or size changes in one place.
+   Text colours (--ink, --muted, --faint, --hot-text, --up-text, --link) all pass WCAG AA (4.5:1) on --bg and --paper.
+   --cool, --warm, --hot and --up are for bars, dots and charts only; use the -text versions for words.
+   --badge-hot and --badge-up are backgrounds for small white labels (pass 4.5:1 with white in both themes). */
+:root {
+  /* colour: surfaces and text */
+  --bg: #eef1f4; --paper: #ffffff; --chip: #e3e8ee; --line: #d6dce4;
+  --ink: #0f1829; --muted: #4f5b6e; --faint: #586476; --link: #2a45cf;
+  --band: #0f1829; --band-ink: #e9eef6; --code: #0f1829; --code-ink: #e9eef6;
+  /* colour: heat scale (decoration) */
+  --cool: #2f9db5; --warm: #ef9b2d; --hot: #e2412f; --up: #12895f;
+  /* colour: heat scale (text and labels) */
+  --hot-text: #b52817; --up-text: #0b7a52; --cool-text: #1d6f82;
+  --badge-hot: #c42d1c; --badge-up: #0b7a52;
+
+  /* type */
+  --font-display: "Bricolage Grotesque", "Avenir Next", system-ui, sans-serif;
+  --font-body: "Schibsted Grotesk", "Helvetica Neue", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", monospace;
+  --text-xs: 12px;    /* labels, timestamps, mono metadata */
+  --text-sm: 13.5px;  /* secondary text, chips, buttons */
+  --text-md: 15px;    /* descriptions, section intros */
+  --text-base: 16px;  /* body */
+  --text-lg: 19px;    /* row titles */
+  --text-xl: clamp(24px, 3vw, 32px); /* section titles */
+
+  /* shape and space */
+  --radius-sm: 4px; --radius-md: 8px; --radius-lg: 14px; --radius-pill: 999px;
+  --space-1: 4px; --space-2: 8px; --space-3: 12px; --space-4: 16px; --space-5: 24px; --space-6: 48px;
+  --target: 36px;     /* smallest clickable height; 44px on touch screens */
+}
+@media (pointer: coarse) { :root { --target: 44px; } }
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0c111a; --paper: #131a26; --chip: #1c2535; --line: #232d3f;
+    --ink: #e8edf5; --muted: #a3aec0; --faint: #8f9ab0; --link: #8fa3ff;
+    --band: #19223a; --band-ink: #e8edf5; --code: #080c13; --code-ink: #dfe6f1;
+    --cool: #46b9d1; --warm: #f5ad45; --hot: #ff5c48; --up: #3fd09a;
+    --hot-text: #ff8a7a; --up-text: #3fd09a; --cool-text: #6fcde0;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0c111a; --paper: #131a26; --chip: #1c2535; --line: #232d3f;
+  --ink: #e8edf5; --muted: #a3aec0; --faint: #8f9ab0; --link: #8fa3ff;
+  --band: #19223a; --band-ink: #e8edf5; --code: #080c13; --code-ink: #dfe6f1;
+  --cool: #46b9d1; --warm: #f5ad45; --hot: #ff5c48; --up: #3fd09a;
+  --hot-text: #ff8a7a; --up-text: #3fd09a; --cool-text: #6fcde0;
+  color-scheme: dark;
+}

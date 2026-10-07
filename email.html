@@ -25,25 +25,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Schibsted+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="tokens.css">
 <style>
-:root {
-  --bg: #eef1f4; --paper: #ffffff; --ink: #0f1829; --muted: #566276; --faint: #8792a3; --line: #d6dce4;
-  --link: #2a45cf; --up: #12895f; --chip: #e3e8ee; --code: #0f1829; --code-ink: #e9eef6; --band: #0f1829; --band-ink: #e9eef6;
-  --font-display: "Bricolage Grotesque", "Avenir Next", system-ui, sans-serif;
-  --font-body: "Schibsted Grotesk", "Helvetica Neue", system-ui, sans-serif;
-  --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", monospace; --warm: #ef9b2d;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --bg: #0c111a; --paper: #131a26; --ink: #e8edf5; --muted: #95a1b5; --faint: #67738a; --line: #232d3f;
-    --link: #8fa3ff; --up: #3fd09a; --chip: #1c2535; --code: #080c13; --code-ink: #dfe6f1; --band: #19223a; --band-ink: #e8edf5; color-scheme: dark;
-  }
-}
-:root[data-theme="dark"] {
-  --bg: #0c111a; --paper: #131a26; --ink: #e8edf5; --muted: #95a1b5; --faint: #67738a; --line: #232d3f;
-  --link: #8fa3ff; --up: #3fd09a; --chip: #1c2535; --code: #080c13; --code-ink: #dfe6f1; --band: #19223a; --band-ink: #e8edf5; color-scheme: dark;
-}
 * { box-sizing: border-box; }
 body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 var(--font-body); -webkit-font-smoothing: antialiased; }
 a { color: var(--link); }
@@ -57,7 +40,7 @@ h1 { font: 800 clamp(30px, 6vw, 44px)/1.05 var(--font-display); letter-spacing: 
 h2 { font: 700 22px/1.2 var(--font-display); letter-spacing: -.02em; margin: 0 0 10px; }
 p { margin: 0 0 10px; max-width: 65ch; }
 .lede { font-size: 18px; color: var(--muted); }
-.eyebrow { font: 600 11.5px/1 var(--font-mono); letter-spacing: .14em; text-transform: uppercase; color: var(--up); margin-bottom: 12px; }
+.eyebrow { font: 600 11.5px/1 var(--font-mono); letter-spacing: .14em; text-transform: uppercase; color: var(--up-text); margin-bottom: 12px; }
 code { font: 14px var(--font-mono); background: var(--chip); padding: 1px 5px; border-radius: 4px; overflow-wrap: anywhere; }
 pre { margin: 0; background: var(--code); color: var(--code-ink); padding: 16px 18px; border-radius: 10px; overflow-x: auto; font: 13.5px/1.6 var(--font-mono); }
 pre code { background: none; padding: 0; color: inherit; overflow-wrap: normal; }
@@ -66,7 +49,7 @@ pre code { background: none; padding: 0; color: inherit; overflow-wrap: normal; 
 .mail-head b { color: var(--ink); font-weight: 600; }
 .mail-head .subj { font: 700 18px/1.3 var(--font-body); color: var(--ink); }
 .mail-body { padding: 22px clamp(18px, 4vw, 34px) 28px; max-width: 68ch; }
-.mail-body h3 { font: 700 19px/1.2 var(--font-display); letter-spacing: -.015em; margin: 26px 0 10px; }
+.mail-body h2 { font: 700 19px/1.2 var(--font-display); letter-spacing: -.015em; margin: 26px 0 10px; }
 .mail-body ol, .mail-body ul { margin: 0; padding-left: 22px; display: grid; gap: 8px; }
 .mail-body p { margin: 0 0 12px; }
 .mail-body a { overflow-wrap: anywhere; }
@@ -149,7 +132,7 @@ function render(md) {
   for (const line of md.split("\n")) {
     let m;
     if (!line.trim()) { close(); continue; }
-    if ((m = line.match(/^## (.*)/))) { close(); out.push(`<h3>${inline(m[1])}</h3>`); }
+    if ((m = line.match(/^## (.*)/))) { close(); out.push(`<h2>${inline(m[1])}</h2>`); }
     else if ((m = line.match(/^\d+\. (.*)/))) { if (list !== "ol") { close(); out.push("<ol>"); list = "ol"; } out.push(`<li>${inline(m[1])}</li>`); }
     else if ((m = line.match(/^- (.*)/))) { if (list !== "ul") { close(); out.push("<ul>"); list = "ul"; } out.push(`<li>${inline(m[1])}</li>`); }
     else { close(); out.push(`<p>${inline(line)}</p>`); }

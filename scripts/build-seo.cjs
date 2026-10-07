@@ -24,11 +24,8 @@ const shortDate = day => new Date(day + "T12:00:00Z").toLocaleDateString("en-GB"
 const clip = (s, n) => s.length <= n ? s : s.slice(0, n - 1).replace(/\s+\S*$/, "") + "…";
 const ldJson = o => `<script type="application/ld+json">${JSON.stringify(o).replace(/</g, "\\u003c")}</script>`;
 
-const CSS = `:root{--bg:#eef1f4;--paper:#fff;--ink:#0f1829;--muted:#566276;--line:#d6dce4;--link:#2a45cf;--up:#12895f;--chip:#e3e8ee;--band:#0f1829;--band-ink:#e9eef6;--warm:#ef9b2d;
---font-display:"Bricolage Grotesque","Avenir Next",system-ui,sans-serif;--font-body:"Schibsted Grotesk","Helvetica Neue",system-ui,sans-serif;--font-mono:"JetBrains Mono",ui-monospace,"SF Mono",monospace}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0c111a;--paper:#131a26;--ink:#e8edf5;--muted:#95a1b5;--line:#232d3f;--link:#8fa3ff;--up:#3fd09a;--chip:#1c2535;--band:#19223a;--band-ink:#e8edf5;color-scheme:dark}}
-:root[data-theme="dark"]{--bg:#0c111a;--paper:#131a26;--ink:#e8edf5;--muted:#95a1b5;--line:#232d3f;--link:#8fa3ff;--up:#3fd09a;--chip:#1c2535;--band:#19223a;--band-ink:#e8edf5;color-scheme:dark}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 var(--font-body);-webkit-font-smoothing:antialiased}
+// Colours, fonts and sizes come from the shared tokens.css (linked in page()).
+const CSS = `*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 var(--font-body);-webkit-font-smoothing:antialiased}
 a{color:var(--link)}.wrap{max-width:820px;margin:0 auto;padding-inline:16px}
 header{border-bottom:1px solid var(--line)}header .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:14px;flex-wrap:wrap}
 .logo{font:800 21px/1 var(--font-display);letter-spacing:-.03em;color:var(--ink);text-decoration:none}
@@ -36,7 +33,7 @@ main{padding-block:36px 56px;display:grid;gap:36px}main>section{min-width:0}
 h1{font:800 clamp(28px,6vw,42px)/1.08 var(--font-display);letter-spacing:-.035em;margin:0 0 12px;text-wrap:balance}
 h2{font:700 22px/1.2 var(--font-display);letter-spacing:-.02em;margin:0 0 12px}
 p{margin:0 0 10px;max-width:68ch}.lede{font-size:18px;color:var(--muted)}
-.eyebrow{font:600 11.5px/1 var(--font-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--up);margin-bottom:12px}
+.eyebrow{font:600 11.5px/1 var(--font-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--up-text);margin-bottom:12px}
 ol.rows,ul.rows{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
 .rows li{padding-block:12px;border-bottom:1px solid var(--line);display:grid;gap:3px;min-width:0}
 .rows .t{font-weight:600;overflow-wrap:anywhere}.rows .m{color:var(--muted);font-size:14.5px;overflow-wrap:anywhere}
@@ -76,6 +73,7 @@ function page({ title, description, canonical, body, ld, ogType = "article", up 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Schibsted+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="${up}tokens.css">
 <style>${CSS}</style>
 ${ld.map(ldJson).join("\n")}
 </head><body>

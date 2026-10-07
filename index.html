@@ -26,40 +26,10 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Schibsted+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="tokens.css">
 <style>
 /* Layout: a morning weather report for AI. Ticker band, then a headline + live updraft chart,
    then ranked movers as ruled rows (not cards), with heat colour encoding momentum everywhere. */
-:root {
-  --bg: #eef1f4;
-  --paper: #ffffff;
-  --ink: #0f1829;
-  --muted: #566276;
-  --faint: #8792a3;
-  --line: #d6dce4;
-  --band: #0f1829;
-  --band-ink: #e9eef6;
-  --link: #2a45cf;
-  --cool: #2f9db5;
-  --warm: #ef9b2d;
-  --hot: #e2412f;
-  --up: #12895f;
-  --chip: #e3e8ee;
-  --font-display: "Bricolage Grotesque", "Avenir Next", system-ui, sans-serif;
-  --font-body: "Schibsted Grotesk", "Helvetica Neue", system-ui, sans-serif;
-  --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", monospace;
-}
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --bg: #0c111a; --paper: #131a26; --ink: #e8edf5; --muted: #95a1b5; --faint: #67738a; --line: #232d3f;
-    --band: #19223a; --band-ink: #e8edf5; --link: #8fa3ff; --cool: #46b9d1; --warm: #f5ad45; --hot: #ff5c48; --up: #3fd09a; --chip: #1c2535;
-    color-scheme: dark;
-  }
-}
-:root[data-theme="dark"] {
-  --bg: #0c111a; --paper: #131a26; --ink: #e8edf5; --muted: #95a1b5; --faint: #67738a; --line: #232d3f;
-  --band: #19223a; --band-ink: #e8edf5; --link: #8fa3ff; --cool: #46b9d1; --warm: #f5ad45; --hot: #ff5c48; --up: #3fd09a; --chip: #1c2535;
-  color-scheme: dark;
-}
 * { box-sizing: border-box; }
 [hidden] { display: none !important; }
 body { background: var(--bg); color: var(--ink); font: 16px/1.55 var(--font-body); -webkit-font-smoothing: antialiased; }
@@ -73,18 +43,21 @@ button { font: inherit; color: inherit; }
 
 /* top bar */
 .top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; background: color-mix(in srgb, var(--bg) 86%, transparent); backdrop-filter: saturate(1.4) blur(12px); border-bottom: 1px solid var(--line); }
-.top .wrap { display: flex; align-items: center; gap: 22px; padding-block: 12px; flex-wrap: wrap; }
+.top .wrap { display: flex; align-items: center; gap: 16px; padding-block: 12px; flex-wrap: wrap; }
 .logo { display: flex; align-items: center; gap: 9px; font: 800 21px/1 var(--font-display); letter-spacing: -.03em; }
 .logo svg { width: 26px; height: 26px; }
-nav.main { display: flex; gap: 2px; flex: 1; min-width: 0; flex-wrap: wrap; }
-nav.main a { padding: 6px 10px; border-radius: 6px; white-space: nowrap; font-size: 14.5px; font-weight: 500; color: var(--muted); }
+nav.main { display: flex; gap: 2px; flex: 1; min-width: 0; flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; }
+nav.main a { display: inline-flex; align-items: center; min-height: var(--target); padding: 6px 10px; border-radius: 6px; white-space: nowrap; font-size: 14.5px; font-weight: 500; color: var(--muted); }
 nav.main a:hover { color: var(--ink); background: var(--chip); }
 .search { position: relative; }
-.search input { width: 220px; max-width: 100%; padding: 8px 12px 8px 32px; border: 1px solid var(--line); border-radius: 8px; background: var(--paper); color: var(--ink); font: inherit; font-size: 14px; }
+.search input { width: 190px; max-width: 100%; padding: 8px 12px 8px 32px; border: 1px solid var(--line); border-radius: 8px; background: var(--paper); color: var(--ink); font: inherit; font-size: 14px; }
 .search svg { position: absolute; left: 10px; top: 50%; width: 14px; transform: translateY(-50%); color: var(--faint); }
 
 /* ticker */
-.ticker { background: var(--band); color: var(--band-ink); overflow: hidden; border-bottom: 1px solid var(--line); }
+.ticker { position: relative; background: var(--band); color: var(--band-ink); overflow: hidden; border-bottom: 1px solid var(--line); }
+.ticker.paused .ticker-track { animation-play-state: paused; }
+.ticker-pause { position: absolute; right: 0; top: 0; bottom: 0; width: var(--target); border: 0; background: var(--band); color: var(--band-ink); font-size: 11px; letter-spacing: -1px; cursor: pointer; box-shadow: -10px 0 12px var(--band); }
+.ticker-pause[aria-pressed="true"] { color: var(--warm); }
 .ticker-track { display: flex; width: max-content; animation: tick 60s linear infinite; }
 .ticker:hover .ticker-track { animation-play-state: paused; }
 .ticker-track span { display: inline-flex; align-items: center; gap: 8px; padding: 9px 22px; font: 500 13px var(--font-mono); white-space: nowrap; border-right: 1px solid color-mix(in srgb, var(--band-ink) 14%, transparent); }
@@ -114,7 +87,7 @@ nav.main a:hover { color: var(--ink); background: var(--chip); }
 .updraft canvas { flex: 1; width: 100%; min-height: 240px; margin-top: 10px; cursor: pointer; display: block; }
 
 /* glance */
-.glance { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); border-block: 1px solid var(--line); }
+.glance { display: grid; grid-template-columns: repeat(var(--n, 5), minmax(0, 1fr)); border-block: 1px solid var(--line); }
 .glance div { padding: 18px 18px 16px; border-left: 1px solid var(--line); min-width: 0; }
 .glance div:first-child { border-left: 0; padding-left: 0; }
 .glance b { display: block; font: 800 34px/1 var(--font-display); letter-spacing: -.03em; }
@@ -122,6 +95,15 @@ nav.main a:hover { color: var(--ink); background: var(--chip); }
 
 /* sections */
 section.block { padding-block: 48px 8px; }
+.poll { margin-top: 56px; padding: 22px clamp(18px, 4vw, 28px); border: 1px solid var(--line); border-radius: var(--radius-lg); background: var(--paper); display: grid; gap: 14px; }
+.poll h2 { margin: 6px 0 4px; font: 800 22px/1.15 var(--font-display); letter-spacing: -.02em; }
+.poll p { margin: 0; color: var(--muted); font-size: var(--text-md); }
+.poll-opts { display: flex; flex-wrap: wrap; gap: var(--space-2); }
+.poll-opts .chip { color: var(--ink); }
+section.block.is-empty { padding-block: 32px 0; }
+section.block.is-empty .sec-head p { display: none; }
+section.block.is-empty .bo-list { border-top-width: 1px; }
+section.block.is-empty .empty { padding: 14px 0; }
 .mini-signup { margin: 22px 0 6px; display: grid; gap: 7px; max-width: 460px; }
 .mini-signup label { font: 600 12px var(--font-mono); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
 .mini-row { display: flex; gap: 6px; }
@@ -129,7 +111,7 @@ section.block { padding-block: 48px 8px; }
 .mini-row input:focus { outline: 2px solid var(--warm); outline-offset: 1px; border-color: transparent; }
 .mini-row button { flex: none; padding: 9px 15px; border: 0; border-radius: 8px; background: var(--ink); color: var(--bg); font: 700 14px var(--font-body); cursor: pointer; }
 .mini-row button:hover { background: var(--hot); color: #fff; }
-.mini-signup .ok { font-size: 13.5px; color: var(--up); }
+.mini-signup .ok { font-size: 13.5px; color: var(--up-text); }
 .signup { margin-block: 56px 8px; padding: 28px clamp(18px, 4vw, 36px); background: var(--band); color: var(--band-ink); border-radius: 14px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 420px); gap: 20px 36px; align-items: center; }
 .signup h2 { font: 800 clamp(22px, 3vw, 30px)/1.1 var(--font-display); margin: 0 0 6px; text-wrap: balance; }
 .signup p { margin: 0; opacity: .8; }
@@ -150,7 +132,7 @@ section.block { padding-block: 48px 8px; }
 .nudge-form input::placeholder { color: color-mix(in srgb, var(--band-ink) 55%, transparent); }
 .nudge-form button { padding: 9px 15px; border: 0; border-radius: 8px; background: var(--warm); color: #1b1206; font: 700 14px var(--font-body); cursor: pointer; }
 .nudge-form .ok { flex-basis: 100%; font-size: 13.5px; }
-.nudge-x { position: absolute; top: 6px; right: 8px; width: 30px; height: 30px; border: 0; background: none; color: var(--band-ink); font-size: 22px; line-height: 1; opacity: .7; cursor: pointer; }
+.nudge-x { position: absolute; top: 4px; right: 4px; width: 40px; height: 40px; border: 0; background: none; color: var(--band-ink); font-size: 22px; line-height: 1; opacity: .7; cursor: pointer; }
 @media (max-width: 720px) { .signup { grid-template-columns: 1fr; } }
 
 .sec-head { display: flex; justify-content: space-between; align-items: end; gap: 16px; flex-wrap: wrap; margin-bottom: 18px; }
@@ -159,11 +141,11 @@ section.block { padding-block: 48px 8px; }
 
 .controls { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; }
 .seg { display: inline-flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; background: var(--paper); }
-.seg button { border: 0; background: none; padding: 6px 13px; font: 600 12.5px var(--font-mono); color: var(--muted); cursor: pointer; }
+.seg button { border: 0; background: none; min-height: var(--target); padding: 6px 14px; font: 600 12.5px var(--font-mono); color: var(--muted); cursor: pointer; }
 .seg button + button { border-left: 1px solid var(--line); }
 .seg button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
 .chips { display: flex; flex-wrap: wrap; gap: 6px; }
-.chip { border: 1px solid var(--line); background: transparent; border-radius: 999px; padding: 4px 11px; font-size: 13px; font-weight: 500; color: var(--muted); cursor: pointer; }
+.chip { border: 1px solid var(--line); background: transparent; border-radius: var(--radius-pill); min-height: var(--target); padding: 4px 14px; font-size: var(--text-sm); font-weight: 500; color: var(--muted); cursor: pointer; }
 .chip:hover { color: var(--ink); border-color: var(--faint); }
 .chip[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--bg); }
 
@@ -181,11 +163,11 @@ section.block { padding-block: 48px 8px; }
 .row .desc { margin: 8px 0 0; color: var(--muted); font-size: 15px; max-width: 72ch; overflow-wrap: anywhere; }
 .row .meta { margin-top: 8px; display: flex; flex-wrap: wrap; gap: 4px 14px; font: 12.5px var(--font-mono); color: var(--faint); }
 .heat { justify-self: end; text-align: right; display: grid; gap: 6px; justify-items: end; }
-.heat .score { display: inline-flex; align-items: baseline; gap: 3px; padding: 6px 10px 5px; border-radius: 8px; color: #fff; font: 800 24px/1 var(--font-display); letter-spacing: -.02em; }
-.heat .score small { font: 500 11px var(--font-mono); opacity: .8; }
+.heat .score { display: inline-flex; align-items: baseline; gap: 3px; padding: 6px 10px 5px; border-radius: var(--radius-md); color: var(--ink); background: color-mix(in srgb, var(--h) 16%, var(--paper)); box-shadow: inset 3px 0 0 var(--h); font: 800 24px/1 var(--font-display); letter-spacing: -.02em; }
+.heat .score small { font: 500 11px var(--font-mono); color: var(--muted); }
 .heat .gauge { width: 112px; height: 5px; border-radius: 3px; background: linear-gradient(90deg, var(--cool), var(--warm), var(--hot)); position: relative; opacity: .9; }
 .heat .gauge i { position: absolute; top: -3px; width: 2px; height: 11px; background: var(--ink); border-radius: 1px; }
-.grow { font: 600 13px var(--font-mono); color: var(--up); }
+.grow { font: 600 13px var(--font-mono); color: var(--up-text); }
 .grow.flat { color: var(--faint); font-weight: 400; }
 .note { font: 12.5px var(--font-mono); color: var(--faint); margin-top: 12px; }
 details.how { margin-top: 18px; color: var(--muted); font-size: 14.5px; max-width: 72ch; }
@@ -196,20 +178,20 @@ details.how summary { cursor: pointer; color: var(--ink); font-weight: 600; }
 .bo-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); gap: 0 32px; border-top: 2px solid var(--ink); }
 .bo { padding: 16px 0; border-bottom: 1px solid var(--line); min-width: 0; }
 .bo h3 { margin: 0; display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; font: 800 22px/1.2 var(--font-display); letter-spacing: -.02em; }
-.bo .n { font: 600 12px var(--font-mono); color: var(--hot); letter-spacing: .04em; }
+.bo .n { font: 600 12px var(--font-mono); color: var(--hot-text); letter-spacing: .04em; }
 .bo ul { list-style: none; margin: 8px 0 0; padding: 0; display: grid; gap: 4px; font-size: 14px; }
 .bo li { display: grid; grid-template-columns: 9.5em minmax(0, 1fr); gap: 10px; }
 .bo li b { font: 500 12px/1.9 var(--font-mono); color: var(--faint); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .bo li a { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--muted); }
 .bo .since { margin-top: 8px; font: 12px var(--font-mono); color: var(--faint); }
-.badge-bo { font: 700 10.5px var(--font-mono); letter-spacing: .06em; padding: 2px 6px; border-radius: 4px; background: var(--hot); color: #fff; }
+.badge-bo { font: 700 10.5px var(--font-mono); letter-spacing: .06em; padding: 2px 6px; border-radius: 4px; background: var(--badge-hot); color: #fff; }
 /* receipts: tracked before the milestone */
 .receipts { list-style: none; margin: 0; padding: 0; border-top: 2px solid var(--ink); }
 .receipts li { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 20px; padding: 15px 0; border-bottom: 1px solid var(--line); align-items: baseline; }
 .receipts .what { font-weight: 600; overflow-wrap: anywhere; }
 .receipts .what a { font-family: var(--font-display); font-weight: 800; letter-spacing: -.015em; }
 .receipts .proof { grid-column: 1; font: 12.5px var(--font-mono); color: var(--faint); }
-.receipts .lead { grid-row: 1 / span 2; grid-column: 2; text-align: right; font: 800 26px/1 var(--font-display); color: var(--up); letter-spacing: -.02em; }
+.receipts .lead { grid-row: 1 / span 2; grid-column: 2; text-align: right; font: 800 26px/1 var(--font-display); color: var(--up-text); letter-spacing: -.02em; }
 @media (max-width: 600px) {
   .receipts li { grid-template-columns: minmax(0, 1fr); }
   .receipts li .lead { grid-row: auto; grid-column: 1; text-align: left; font-size: 18px; }
@@ -221,18 +203,18 @@ details.how summary { cursor: pointer; color: var(--ink); font-weight: 600; }
 /* since your last visit */
 .since-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; padding: 14px 16px; margin-top: 22px; border-radius: 10px; background: var(--paper); border: 1px solid var(--line); font-size: 15px; }
 .since-bar b { font-weight: 700; }
-.since-bar a { padding: 3px 10px; border-radius: 999px; background: var(--chip); font: 600 13px var(--font-mono); color: var(--ink); white-space: nowrap; }
+.since-bar a { display: inline-flex; align-items: center; min-height: 32px; padding: 3px 12px; border-radius: 999px; background: var(--chip); font: 600 13px var(--font-mono); color: var(--ink); white-space: nowrap; }
 .since-bar a:hover { background: var(--ink); color: var(--bg); }
 .since-bar .quiet { color: var(--muted); }
-.new-tag { font: 700 10px var(--font-mono); letter-spacing: .08em; padding: 2px 5px; border-radius: 4px; background: var(--up); color: #fff; vertical-align: 2px; margin-right: 6px; }
+.new-tag { font: 700 10px var(--font-mono); letter-spacing: .08em; padding: 2px 5px; border-radius: 4px; background: var(--badge-up); color: #fff; vertical-align: 2px; margin-right: 6px; }
 /* hype check */
 .hype { border-top: 2px solid var(--ink); }
 .hy { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr) minmax(0, 1fr); gap: 10px 28px; padding: 16px 0; border-bottom: 1px solid var(--line); align-items: start; }
 .hy h3 { margin: 0; font: 800 19px/1.25 var(--font-display); letter-spacing: -.015em; overflow-wrap: anywhere; }
 .hy .verdict { display: inline-block; margin-top: 6px; font: 600 12px var(--font-mono); padding: 2px 8px; border-radius: 999px; background: var(--chip); color: var(--muted); }
-.hy .verdict.match { background: color-mix(in srgb, var(--up) 18%, transparent); color: var(--up); }
-.hy .verdict.talk { background: color-mix(in srgb, var(--hot) 16%, transparent); color: var(--hot); }
-.hy .verdict.quiet { background: color-mix(in srgb, var(--cool) 18%, transparent); color: var(--cool); }
+.hy .verdict.match { background: color-mix(in srgb, var(--up) 9%, transparent); color: var(--up-text); }
+.hy .verdict.talk { background: color-mix(in srgb, var(--hot) 8%, transparent); color: var(--hot-text); }
+.hy .verdict.quiet { background: color-mix(in srgb, var(--cool) 9%, transparent); color: var(--cool-text); }
 .hy .lab { font: 600 11px var(--font-mono); letter-spacing: .1em; color: var(--faint); text-transform: uppercase; }
 .hy .val { font-weight: 600; margin: 3px 0 6px; overflow-wrap: anywhere; }
 .hy .meter { height: 6px; border-radius: 3px; background: var(--chip); overflow: hidden; }
@@ -248,8 +230,8 @@ details.how summary { cursor: pointer; color: var(--ink); font-weight: 600; }
 .free-watch ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; font-size: 14.5px; }
 .free-watch li { display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; }
 .free-watch .ev { font: 700 11px var(--font-mono); padding: 1px 6px; border-radius: 4px; color: #fff; }
-.free-watch .ev.added { background: var(--up); }
-.free-watch .ev.removed { background: var(--hot); }
+.free-watch .ev.added { background: var(--badge-up); }
+.free-watch .ev.removed { background: var(--badge-hot); }
 .free-watch .when { font: 12px var(--font-mono); color: var(--faint); }
 .free-watch p { margin: 0; color: var(--muted); font-size: 14.5px; }
 
@@ -276,7 +258,7 @@ td { padding: 13px 12px 13px 0; border-bottom: 1px solid var(--line); white-spac
 .spark { display: inline-flex; align-items: center; gap: 10px; justify-content: flex-end; }
 .spark .b { width: 120px; height: 8px; background: var(--chip); border-radius: 2px; overflow: hidden; }
 .spark .b i { display: block; height: 100%; background: linear-gradient(90deg, var(--warm), var(--hot)); }
-.pill { display: inline-block; min-width: 34px; padding: 2px 7px; border-radius: 5px; color: #fff; font: 700 13px var(--font-mono); text-align: center; }
+.pill { display: inline-block; min-width: 34px; padding: 2px 7px; border-radius: var(--radius-sm); color: var(--ink); background: color-mix(in srgb, var(--h) 16%, var(--paper)); box-shadow: inset 3px 0 0 var(--h); font: 700 13px var(--font-mono); text-align: center; }
 
 /* threads + just in */
 .split { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); gap: 48px; }
@@ -286,7 +268,7 @@ td { padding: 13px 12px 13px 0; border-bottom: 1px solid var(--line); white-spac
 .thread .t { font-weight: 600; font-size: 16px; margin-top: 3px; overflow-wrap: anywhere; }
 .thread .stats { font: 12px var(--font-mono); color: var(--faint); margin-top: 4px; }
 .vel { text-align: right; }
-.vel b { display: block; font: 800 22px/1 var(--font-display); color: var(--hot); }
+.vel b { display: block; font: 800 22px/1 var(--font-display); color: var(--hot-text); }
 .vel span { font: 11px var(--font-mono); color: var(--faint); }
 .vel .m { height: 4px; background: var(--chip); border-radius: 2px; margin-top: 6px; overflow: hidden; }
 .vel .m i { display: block; height: 100%; background: var(--hot); margin-left: auto; }
@@ -308,7 +290,7 @@ td { padding: 13px 12px 13px 0; border-bottom: 1px solid var(--line); white-spac
 .fm .ctx .b { width: 90px; height: 4px; background: var(--chip); border-radius: 2px; overflow: hidden; }
 .fm .ctx .b i { display: block; height: 100%; background: var(--cool); }
 .cap { font-size: 11.5px; padding: 1px 7px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); font-family: var(--font-body); }
-.more-btn { margin-top: 14px; border: 1px solid var(--line); background: var(--paper); border-radius: 8px; padding: 7px 14px; font-weight: 600; font-size: 13.5px; cursor: pointer; }
+.more-btn { margin-top: 14px; border: 1px solid var(--line); background: var(--paper); border-radius: var(--radius-md); min-height: var(--target); padding: 7px 14px; font-weight: 600; font-size: 13.5px; cursor: pointer; }
 .more-btn:hover { border-color: var(--ink); }
 
 
@@ -342,6 +324,8 @@ footer .about { flex-basis: 100%; margin: 6px 0 0; max-width: 80ch; line-height:
   .glance { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .glance div { border-left: 0 !important; padding-left: 0 !important; }
   .glance div:nth-child(n+3) { border-top: 1px solid var(--line); }
+  .updraft { min-height: 0; }
+  .updraft canvas { min-height: 190px; }
   .row { grid-template-columns: 34px minmax(0, 1fr); gap: 12px; }
   .rank { font-size: 24px; }
   .heat { grid-column: 2; justify-self: start; justify-items: start; text-align: left; grid-auto-flow: column; align-items: center; gap: 12px; }
@@ -353,6 +337,7 @@ footer .about { flex-basis: 100%; margin: 6px 0 0; max-width: 80ch; line-height:
 @media (prefers-reduced-motion: reduce) {
   .ticker-track, .live::before { animation: none; }
   .ticker { overflow-x: auto; }
+  .ticker-pause { display: none; }
 }
 
 /* language picker + hide Google's translate banner */
@@ -382,21 +367,18 @@ font[style] { background: none !important; box-shadow: none !important; }
       <a href="#receipts">Called it</a>
       <a href="#models">Models</a>
       <a href="#github">Repos</a>
-      <a href="#threads">Threads</a>
       <a href="#news">Headlines</a>
       <a href="#free">Free models</a>
-      <a href="daily/">Archive</a>
-      <a href="data.html">Open data</a>
     </nav>
     <span id="langPick"></span>
     <div class="search">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-      <input id="q" type="search" placeholder="Filter everything" aria-label="Filter the page">
+      <input id="q" type="search" placeholder="Filter this page" aria-label="Filter this page by name or keyword">
     </div>
   </div>
 </header>
 
-<div class="ticker" aria-label="Top movers ticker"><div class="ticker-track" id="ticker"></div></div>
+<div class="ticker" id="tickerBox"><div class="ticker-track" id="ticker" aria-hidden="true"></div><button type="button" class="ticker-pause" id="tickerPause" aria-pressed="false" aria-label="Pause the scrolling ticker">❚❚</button></div>
 
 <main id="top" class="wrap">
   <div class="hero">
@@ -405,19 +387,19 @@ font[style] { background: none !important; box-shadow: none !important; }
       <h1 id="headline"></h1>
       <ul class="brief" id="brief"></ul>
       <form class="mini-signup nl-form" id="miniSignup" method="post" target="_blank" hidden>
-        <label for="miniEmail">Get this every morning</label>
+        <label for="miniEmail">Get this by email at 7am, free</label>
         <div class="mini-row">
           <input type="email" id="miniEmail" name="email" required placeholder="you@example.com" autocomplete="email">
           <button type="submit">Subscribe</button>
         </div>
         <div class="ok" hidden>Check your inbox to confirm.</div>
-        <a class="sample-link" href="email.html">See today's email first</a>
+        <a class="sample-link" href="email.html">See today's email</a>
       </form>
       <div class="gen" id="genText"></div>
     </div>
     <div class="updraft">
       <header>
-        <div><h2>Where the momentum is</h2><p>Column height is item count. Faster particles mean hotter scores. Select a column to filter.</p></div>
+        <div><h2>Where the momentum is</h2><p>Taller columns have more items. Faster dots mean hotter scores. Tap a column to filter the page.</p></div>
         <button type="button" class="chip" id="clearCat" hidden>Show all</button>
       </header>
       <canvas id="draft" role="img" aria-label="Momentum by category"></canvas>
@@ -426,16 +408,6 @@ font[style] { background: none !important; box-shadow: none !important; }
 
   <div class="glance" id="pulse" aria-label="Today at a glance"></div>
   <div class="since-bar" id="sinceBar" hidden></div>
-
-  <section class="block" id="breakouts">
-    <div class="sec-head"><div><div class="eyebrow">Named on 3 or more sources · last 3 days</div><h2>Breaking out</h2><p>The same model or project turning up on several separate sources at once, like GitHub, Hacker News and the news.</p></div></div>
-    <div class="bo-list" id="boList"></div>
-  </section>
-
-  <section class="block" id="hype">
-    <div class="sec-head"><div><div class="eyebrow">Talk vs. real use</div><h2>Hype check</h2><p>How many news sites, lab blogs and threads are talking about something, next to how much people actually use it: GitHub stars gained per day or Hugging Face downloads.</p></div></div>
-    <div class="hype" id="hypeList"></div>
-  </section>
 
   <section class="block" id="rising">
     <div class="sec-head">
@@ -455,6 +427,16 @@ font[style] { background: none !important; box-shadow: none !important; }
       <summary>How the momentum score works</summary>
       <p>Each item gets a 0–100 score. It is ranked against other items from the same source by attention per day (GitHub stars, Hugging Face trending score, paper upvotes), then gets a small boost if it is less than nine days old. The colour runs from cool blue to hot red with the score. Growth % appears once the page has seen an item on an earlier visit.</p>
     </details>
+  </section>
+
+  <section class="block" id="breakouts">
+    <div class="sec-head"><div><div class="eyebrow">Named on 3 or more sources · last 3 days</div><h2>Breaking out</h2><p>The same model or project turning up on several separate sources at once, like GitHub, Hacker News and the news.</p></div></div>
+    <div class="bo-list" id="boList"></div>
+  </section>
+
+  <section class="block" id="hype">
+    <div class="sec-head"><div><div class="eyebrow">Talk vs. real use</div><h2>Hype check</h2><p>How many news sites, lab blogs and threads are talking about something, next to how much people actually use it: GitHub stars gained per day or Hugging Face downloads.</p></div></div>
+    <div class="hype" id="hypeList"></div>
   </section>
 
   <section class="block" id="receipts">
@@ -499,6 +481,17 @@ font[style] { background: none !important; box-shadow: none !important; }
     <div class="free" id="freeBody"></div>
     <div id="freeNote"></div>
   </section>
+  <section class="poll" id="poll" hidden aria-labelledby="pollQ">
+    <div><div class="eyebrow">One quick question</div><h2 id="pollQ">What do you come to Upcurrent for?</h2><p>One tap, no sign-up. It decides what gets built next.</p></div>
+    <div class="poll-opts" role="group" aria-labelledby="pollQ">
+      <button type="button" class="chip" data-poll="tools">Finding tools and models to use</button>
+      <button type="button" class="chip" data-poll="news">Keeping up with AI news</button>
+      <button type="button" class="chip" data-poll="building">Ideas for what to build</button>
+      <button type="button" class="chip" data-poll="work">Research or work</button>
+      <button type="button" class="chip" data-poll="curious">Just curious</button>
+    </div>
+    <p class="poll-done" hidden role="status">Thanks, that helps decide what comes next.</p>
+  </section>
   <section class="signup" id="signup" hidden>
     <div><h2>Get this every morning</h2><p>The top AI movers, headlines and repos in one short email. Free, and you can unsubscribe anytime. <a href="email.html">See today's email</a>.</p></div>
     <form id="signupForm" class="nl-form" method="post" target="_blank">
@@ -510,13 +503,13 @@ font[style] { background: none !important; box-shadow: none !important; }
 </main>
 
 <aside class="nudge" id="nudge" hidden aria-label="Get the morning email">
-  <div class="nudge-text"><b>Like this? Get it at 7am, free.</b> <a href="email.html">See a sample</a></div>
+  <div class="nudge-text"><b>Get this by email at 7am, free.</b> <a href="email.html">See today's email</a></div>
   <form class="nl-form nudge-form" method="post" target="_blank">
     <input type="email" name="email" required placeholder="you@example.com" aria-label="Email address" autocomplete="email">
     <button type="submit">Subscribe</button>
     <div class="ok" hidden>Check your inbox to confirm.</div>
   </form>
-  <button type="button" class="nudge-x" id="nudgeX" aria-label="Close">×</button>
+  <button type="button" class="nudge-x" id="nudgeX" aria-label="Close and don't show this for a week">×</button>
 </aside>
 
 <footer>
@@ -543,7 +536,7 @@ const SNAPSHOT = {
   pulse: { trending: 162, accelerating: 4, newModels: 9, discussions: 38, stars: 0 },
   brief: [
     "Top mover: universal-modder, score 80, up 193% in a day.",
-    "Agent projects make up 4 of the top 10.",
+    "4 of the top 10 are in Agents.",
     "Hugging Face has 9 trending models released this week, 7 of them open source.",
     "You can call 25 models for free: 8 on OpenCode Zen and 17 on OpenRouter."
   ],
@@ -627,9 +620,12 @@ const ago = iso => {
   const m = (Date.now() - Date.parse(iso)) / 6e4;
   if (m < 60) return `${Math.max(1, Math.round(m))} min ago`;
   if (m < 1440) return `${Math.round(m / 60)}h ago`;
-  return `${Math.round(m / 1440)} days ago`;
+  const d = Math.round(m / 1440);
+  return d === 1 ? "yesterday" : `${d} days ago`;
 };
-const added = iso => (Date.now() - Date.parse(iso)) / 864e5 < 30 ? `${Math.max(0, Math.round((Date.now() - Date.parse(iso)) / 864e5))} days ago` : new Date(iso).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+const added = iso => { const d = Math.round((Date.now() - Date.parse(iso)) / 864e5); return d < 30 ? (d <= 0 ? "today" : d === 1 ? "yesterday" : `${d} days ago`) : new Date(iso).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" }); };
+// Growth wording: only real rises get an arrow; flat or falling says so plainly.
+const growLabel = (g, suffix = "") => g == null ? "" : g > 0 ? `<span class="grow">▲ ${g}%${suffix}</span>` : g < 0 ? `<span class="grow flat">▼ ${-g}%${suffix}</span>` : `<span class="grow flat">flat${suffix}</span>`;
 const hhmm = iso => new Date(iso).toLocaleTimeString("en-GB", { hour: "2-digit", minute: "2-digit" });
 const growth = g => g == null ? `<span class="grow flat">—</span>` : `<span class="grow">▲ +${g}%</span>`;
 const linkFor = r => r.url || (r.src === "gh" ? `https://github.com/${r.owner}/${r.name}` : r.src === "hf" ? `https://huggingface.co/${r.owner}/${r.name}` : "#");
@@ -701,6 +697,17 @@ if (NEWSLETTER) {
     $("nudgeX").addEventListener("click", () => { store.set("uc-nudge-closed", Date.now()); nudge.hidden = true; });
   }
 }
+// One-question reader poll. Answers are counted as GoatCounter events (no cookies, no personal data), once per browser.
+if (!store.get("uc-poll")) {
+  $("poll").hidden = false;
+  $("poll").addEventListener("click", e => {
+    const b = e.target.closest("[data-poll]"); if (!b) return;
+    try { window.goatcounter?.count?.({ path: "poll-" + b.dataset.poll, title: "Poll: " + b.textContent, event: true }); } catch {}
+    store.set("uc-poll", b.dataset.poll);
+    $("poll").querySelector(".poll-opts").hidden = true;
+    $("poll").querySelector(".poll-done").hidden = false;
+  });
+}
 $("pills").innerHTML = CATS.map(c => `<button type="button" class="chip" data-cat="${c}" aria-pressed="${c === "all"}">${c === "all" ? "All" : c}</button>`).join("");
 
 /* ---------- since your last visit (kept in this browser only) ---------- */
@@ -737,7 +744,7 @@ function render() {
     sb.innerHTML = `<b>Since your last visit</b><span class="quiet">${ago(new Date(SINCE.at).toISOString())}:</span>` + (parts.length ? parts.join("") : `<span class="quiet">nothing new yet. Check back later.</span>`);
     sb.hidden = false;
   } else if (SINCE) {
-    sb.innerHTML = `<b>Welcome.</b><span class="quiet">Next time you visit, this bar shows what changed since now. Nothing to sign up for.</span>`;
+    sb.innerHTML = `<span class="quiet">First visit? Next time, this bar shows what\u2019s new since now.</span>`;
     sb.hidden = false;
   }
   const st = $("statusText");
@@ -749,13 +756,15 @@ function render() {
   $("headline").innerHTML = top ? `<span class="mover">${esc(top.name.length > 40 ? top.name.slice(0, 38) + "…" : top.name)}</span> is climbing fastest today.` : "Quiet morning in AI.";
   $("brief").innerHTML = D.brief.map(b => `<li>${esc(b)}</li>`).join("");
 
-  const tick = [...D.rising.map(r => `<span><b>${esc(r.name.length > 34 ? r.name.slice(0, 32) + "…" : r.name)}</b> ${r.grow != null ? `<i>▲ ${r.grow}%</i>` : ""}<span style="padding:0;border:0;opacity:.7">score ${r.score}</span></span>`),
+  const tick = [...D.rising.map(r => `<span><b>${esc(r.name.length > 34 ? r.name.slice(0, 32) + "…" : r.name)}</b> ${r.grow > 0 ? `<i>▲ ${r.grow}%</i>` : ""}<span style="padding:0;border:0;opacity:.7">score ${r.score}</span></span>`),
     ...D.discussions.slice(0, 3).map(d => `<span>${esc(d.src)} <b>${esc(d.t.length > 50 ? d.t.slice(0, 48) + "…" : d.t)}</b> <i>↑ ${Math.round(d.vel)}/hr</i></span>`)].join("");
   $("ticker").innerHTML = tick + tick;
 
   const P = D.pulse;
-  $("pulse").innerHTML = [[fmt(P.trending), "items tracked"], [fmt(P.accelerating), "doubled in a day"], [fmt(P.newModels), "models released this week"], [fmt(P.discussions), "threads in the last 24h"], [fmt(P.stars), "stars gained by these AI repos today"]]
-    .map(([v, l]) => `<div><b class="num">${v}</b><span>${l}</span></div>`).join("");
+  // A zero says nothing at a glance, so stats at zero are left out.
+  const stats = [[P.trending, "items tracked"], [P.accelerating, "doubled in a day"], [P.newModels, "models released this week"], [P.discussions, "threads in the last 24h"], [P.stars, "stars gained by these AI repos today"]].filter(([v]) => v);
+  $("pulse").style.setProperty("--n", stats.length || 1);
+  $("pulse").innerHTML = stats.map(([v, l]) => `<div><b class="num">${fmt(v)}</b><span>${l}</span></div>`).join("");
 
   const rows = D.rising.map((r, i) => ({ ...r, rank: i + 1 })).filter(r => matches(r.name + r.owner + r.desc, r.cat));
   $("risingList").innerHTML = rows.length ? rows.map(r => `
@@ -768,9 +777,9 @@ function render() {
         <div class="meta">${r.meta.map(m => `<span>${esc(m)}</span>`).join("")}</div>
       </div>
       <div class="heat">
-        <span class="score" style="background:${heat(r.score)}">${r.score}<small>/100</small></span>
+        <span class="score" style="--h:${heat(r.score)}" title="Momentum score">${r.score}<small>/100</small></span>
         <span class="gauge" aria-hidden="true"><i style="left:calc(${Math.max(0, Math.min(100, r.score))}% - 1px)"></i></span>
-        ${r.grow == null ? `<span class="grow flat">no prior reading</span>` : `<span class="grow">▲ ${r.grow}% in 24h</span>`}
+        ${growLabel(r.grow, " in 24h")}
       </div>
     </article>`).join("") : `<div class="empty">Nothing in this category matches. Try All.</div>`;
 
@@ -782,7 +791,8 @@ function render() {
     <h3>${NEW("b:" + b.key)}${esc(b.label)} <span class="n">${b.n} SOURCES</span></h3>
     <ul>${b.sources.map(x => `<li><b>${esc(x.src)}</b>${x.url ? `<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.t)}</a>` : `<span>${esc(x.t)}</span>`}</li>`).join("")}</ul>
     ${b.since ? `<div class="since">On 3+ sources since ${day(b.since)}, ${hhmm(b.since)}</div>` : ""}</article>`).join("")
-    : `<div class="empty">Nothing is on 3 or more sources right now. That's normal: it only happens when something is genuinely everywhere.</div>`;
+    : `<div class="empty">Nothing is on 3 or more sources right now. That only happens when one name is everywhere at once, so check back later.</div>`;
+  $("breakouts").classList.toggle("is-empty", !bos.length && !state.q);
 
   const hy = (D.hype || []).filter(h => !state.q || h.name.toLowerCase().includes(state.q));
   const vClass = v => /matches/.test(v) ? "match" : /More talk|Talk only/.test(v) ? "talk" : "quiet";
@@ -809,7 +819,7 @@ function render() {
     <article class="model">
       <div><div class="org">${esc(m.org)}${m.size ? " · " + m.size : ""}</div><h3>${NEW("m:" + m.org + "/" + m.name)}<a href="https://huggingface.co/${esc(m.org)}/${esc(m.name)}" target="_blank" rel="noopener">${esc(m.name)}</a></h3></div>
       <div class="tags"><span class="src">${esc(m.lic.toUpperCase())}</span><span>released ${ago(m.at)}</span><span class="cat">${m.cat}</span></div>
-      <div class="kv"><div>Score<b style="color:${heat(m.score)}">${m.score}</b></div><div>Downloads<b>${fmt(m.dl)}</b></div><div>24h<b style="color:var(${m.grow == null ? "--faint" : "--up"})">${m.grow == null ? "—" : "+" + m.grow + "%"}</b></div></div>
+      <div class="kv"><div>Score<b>${m.score}</b></div><div>Downloads<b>${fmt(m.dl)}</b></div><div>24h<b style="color:var(${m.grow > 0 ? "--up-text" : "--faint"})">${m.grow == null ? "—" : (m.grow > 0 ? "+" : "") + m.grow + "%"}</b></div></div>
       <div class="dlbar" title="Downloads relative to the most-downloaded model here"><i style="width:${Math.max(2, Math.sqrt((m.dl || 0) / maxDl) * 100)}%"></i></div>
     </article>`).join("") : `<div class="empty">No models match.</div>`;
 
@@ -821,7 +831,7 @@ function render() {
     <td class="r"><span class="spark"><span class="num">${g.d24 == null ? "—" : (g.est ? "~" : "+") + comma(g.d24)}</span><span class="b"><i style="width:${(g.d24 || 0) / maxD * 100}%"></i></span></span></td>
     <td class="r num">${fmt(g.forks)}</td>
     <td class="r num">${g.contrib == null ? "—" : fmt(g.contrib)}</td>
-    <td class="r"><span class="pill" style="background:${heat(g.score)}">${g.score}</span></td></tr>`; }).join("") || `<tr><td colspan="6" class="empty">No repositories match.</td></tr>`;
+    <td class="r"><span class="pill" style="--h:${heat(g.score)}">${g.score}</span></td></tr>`; }).join("") || `<tr><td colspan="6" class="empty">No repositories match.</td></tr>`;
 
   const ds = D.discussions.filter(d => !state.q || d.t.toLowerCase().includes(state.q));
   const maxV = Math.max(1, ...ds.map(d => d.vel));
@@ -851,7 +861,7 @@ function render() {
   $("freeBody").innerHTML = (showAll ? fr : fr.slice(0, 10)).map(f => `<div class="fm">
     <span class="n">${f.added ? `<span class="new-tag">NEW TODAY</span>` : ""}${f.url ? `<a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.name)}</a>` : esc(f.name)}</span>
     <span class="p">${f.prov} · ${added(f.at)}</span>
-    <span class="ctx"><span class="b" title="Context window, log scale"><i style="width:${logC(f.ctx)}%"></i></span>${f.ctx ? fmt(f.ctx) + " context" : "context n/a"}${f.caps.map(x => `<span class="cap">${esc(x)}</span>`).join("")}</span></div>`).join("") || `<div class="empty">No models match.</div>`;
+    <span class="ctx">${f.ctx ? `<span class="b" title="Context window, log scale"><i style="width:${logC(f.ctx)}%"></i></span>${fmt(f.ctx)} context` : ""}${f.caps.map(x => `<span class="cap">${esc(x)}</span>`).join("")}</span></div>`).join("") || `<div class="empty">No models match.</div>`;
   $("freeNote").innerHTML = fr.length > 10 ? `<button type="button" class="more-btn" id="freeToggle">${showAll ? "Show fewer" : `Show all ${fr.length}`}</button>` : (D.isSnapshot && fr.length < fc.zen + fc.or ? `<div class="note">The snapshot holds ${fr.length} of ${fc.zen + fc.or}. The full list loads with live data.</div>` : "");
 
   document.querySelectorAll(".chip[data-cat]").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.cat === state.cat)));
@@ -941,6 +951,7 @@ document.addEventListener("click", e => {
   if (e.target.id === "freeToggle") { $("freeBody").dataset.all = $("freeBody").dataset.all === "1" ? "" : "1"; render(); }
 });
 $("q").addEventListener("input", e => { state.q = e.target.value.trim().toLowerCase(); render(); });
+$("tickerPause").addEventListener("click", e => { const on = e.currentTarget.getAttribute("aria-pressed") !== "true"; e.currentTarget.setAttribute("aria-pressed", String(on)); e.currentTarget.setAttribute("aria-label", on ? "Play the scrolling ticker" : "Pause the scrolling ticker"); e.currentTarget.textContent = on ? "▶" : "❚❚"; $("tickerBox").classList.toggle("paused", on); });
 
 
 /* ---------- live data ---------- */
