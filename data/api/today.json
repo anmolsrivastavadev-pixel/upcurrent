@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-07T20:01:20.069Z"
+  "updated": "2026-10-07T20:30:50.303Z"
  },
  "pulse": {
   "trending": 77,
   "accelerating": 0,
   "newModels": 9,
-  "discussions": 53,
-  "stars": 373
+  "discussions": 55,
+  "stars": 372
  },
  "rising": [
   {
@@ -70,7 +70,7 @@
    "cat": "Infrastructure",
    "score": 88,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 771",
+   "desc": "Model on Hugging Face · open source · ♥ 772",
    "meta": [
     "5.8K downloads",
     "Released 6 days ago"
@@ -88,8 +88,8 @@
    "grow": null,
    "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
    "meta": [
-    "★ 2,024",
-    "~373 in 24h",
+    "★ 2,025",
+    "~372 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-02T09:57:40Z",
@@ -103,7 +103,7 @@
    "cat": "Vision",
    "score": 86,
    "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 900",
+   "desc": "Vision on Hugging Face · open source · ♥ 908",
    "meta": [
     "7.6K downloads",
     "Released 23 days ago"
@@ -152,7 +152,7 @@
    "cat": "Infrastructure",
    "score": 84,
    "grow": null,
-   "desc": "Model on Hugging Face · open weights · ♥ 3.5K",
+   "desc": "Model on Hugging Face · open weights · ♥ 3.6K",
    "meta": [
     "1.8M downloads",
     "Released 17 days ago"
@@ -180,6 +180,34 @@
  ],
  "breakouts": [
   {
+   "key": "mistral large 4",
+   "label": "Mistral Large 4",
+   "n": 4,
+   "sources": [
+    {
+     "src": "Product Hunt",
+     "t": "Mistral Large 4",
+     "url": "https://www.producthunt.com/products/mistral-7b?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
+    },
+    {
+     "src": "DEV",
+     "t": "Mistral Large 4 Scores 59.9% on AutomationBench Across Four Workplace Apps",
+     "url": "https://dev.to/alifar/mistral-large-4-scores-599-on-automationbench-across-four-workplace-apps-hkp"
+    },
+    {
+     "src": "SiliconANGLE News",
+     "t": "Mistral launches open-source Mistral Large 4, details AI roadmap",
+     "url": "https://siliconangle.com/2026/10/06/mistral-launches-open-source-mistral-large-4-details-ai-roadmap/"
+    },
+    {
+     "src": "YouTube",
+     "t": "GPT-7 'Bel' First Preview, Mythos 5.1 Access, Mistral Large 4, Claude Code Update, & More! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=-mv1Tf26Vms"
+    }
+   ],
+   "since": "2026-10-07T19:51:16.190Z"
+  },
+  {
    "key": "gpt 6",
    "label": "GPT-6",
    "n": 3,
@@ -201,21 +229,26 @@
     }
    ],
    "since": "2026-10-02T11:40:52.853Z"
-  },
+  }
+ ],
+ "hype": [
   {
-   "key": "mistral large 4",
-   "label": "Mistral Large 4",
-   "n": 3,
-   "sources": [
-    {
-     "src": "Product Hunt",
-     "t": "Mistral Large 4",
-     "url": "https://www.producthunt.com/products/mistral-7b?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
-    },
+   "name": "Mistral Large 4",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
     {
      "src": "DEV",
      "t": "Mistral Large 4 Scores 59.9% on AutomationBench Across Four Workplace Apps",
      "url": "https://dev.to/alifar/mistral-large-4-scores-599-on-automationbench-across-four-workplace-apps-hkp"
+    },
+    {
+     "src": "SiliconANGLE News",
+     "t": "Mistral launches open-source Mistral Large 4, details AI roadmap",
+     "url": "https://siliconangle.com/2026/10/06/mistral-launches-open-source-mistral-large-4-details-ai-roadmap/"
     },
     {
      "src": "YouTube",
@@ -223,10 +256,9 @@
      "url": "https://www.youtube.com/watch?v=-mv1Tf26Vms"
     }
    ],
-   "since": "2026-10-07T19:51:16.190Z"
-  }
- ],
- "hype": [
+   "buzz": 3,
+   "verdict": "Talk only, no public usage numbers"
+  },
   {
    "name": "Haiku 5.5",
    "url": null,
@@ -272,28 +304,6 @@
    "verdict": "Talk only, no public usage numbers"
   },
   {
-   "name": "Mistral Large 4",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
-    {
-     "src": "DEV",
-     "t": "Mistral Large 4 Scores 59.9% on AutomationBench Across Four Workplace Apps",
-     "url": "https://dev.to/alifar/mistral-large-4-scores-599-on-automationbench-across-four-workplace-apps-hkp"
-    },
-    {
-     "src": "YouTube",
-     "t": "GPT-7 'Bel' First Preview, Mythos 5.1 Access, Mistral Large 4, Claude Code Update, & More! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=-mv1Tf26Vms"
-    }
-   ],
-   "buzz": 2,
-   "verdict": "Talk only, no public usage numbers"
-  },
-  {
    "name": "embeddinggemma-2",
    "url": "https://huggingface.co/google/embeddinggemma-2",
    "from": "Hugging Face",
@@ -314,8 +324,8 @@
    "name": "answer-me-with-html",
    "url": "https://github.com/QingYunA/answer-me-with-html",
    "from": "GitHub",
-   "use": 373,
-   "useLabel": "~373 stars/day",
+   "use": 372,
+   "useLabel": "~372 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -429,8 +439,8 @@
  "github": [
   {
    "repo": "QingYunA/answer-me-with-html",
-   "stars": 2024,
-   "d24": 373,
+   "stars": 2025,
+   "d24": 372,
    "est": true,
    "forks": 138,
    "contrib": null,
@@ -447,7 +457,7 @@
    "grow": null,
    "score": 92,
    "cat": "Coding",
-   "likes": 1797
+   "likes": 1800
   },
   {
    "name": "GEV-26B-Decide",
@@ -459,7 +469,7 @@
    "grow": null,
    "score": 91,
    "cat": "Coding",
-   "likes": 1171
+   "likes": 1186
   },
   {
    "name": "JEV-27B-VL",
@@ -471,7 +481,7 @@
    "grow": null,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 1789
+   "likes": 1817
   },
   {
    "name": "Kolibri-1",
@@ -482,7 +492,7 @@
    "grow": null,
    "score": 88,
    "cat": "Infrastructure",
-   "likes": 771
+   "likes": 772
   },
   {
    "name": "embeddinggemma-2",
@@ -493,7 +503,7 @@
    "grow": null,
    "score": 86,
    "cat": "Vision",
-   "likes": 900
+   "likes": 908
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -504,7 +514,7 @@
    "grow": null,
    "score": 84,
    "cat": "Infrastructure",
-   "likes": 3550
+   "likes": 3553
   }
  ],
  "free": [
@@ -858,6 +868,13 @@
  },
  "headlines": [
   {
+   "t": "Does better work always mean better workers?",
+   "url": "https://research.google/blog/does-better-work-always-mean-better-workers/",
+   "at": "2026-10-07T20:19:57.000Z",
+   "src": "Google Research",
+   "kind": "Lab blog"
+  },
+  {
    "t": "Sources: former White House AI adviser Sriram Krishnan is raising a ~$500M fund to back growth- and later-stage US AI companies, prioritizing national security",
    "url": "https://www.techmeme.com/261007/p35#a261007p35",
    "at": "2026-10-07T19:30:31.000Z",
@@ -900,7 +917,7 @@
    "kind": "News"
   },
   {
-   "t": "Anthropic launches Claude Haiku 5.5, the first Haiku model with effort controls, for high-volume, cost-sensitive tasks like summaries and classification",
+   "t": "Anthropic launches Claude Haiku 5.5, the first Haiku model with effort controls, for high-volume, cost-sensitive tasks like summary and classification requests",
    "url": "https://www.techmeme.com/261007/p31#a261007p31",
    "at": "2026-10-07T18:22:12.000Z",
    "src": "Techmeme",
@@ -961,13 +978,6 @@
    "at": "2026-10-07T14:10:01.000Z",
    "src": "Techmeme",
    "kind": "News"
-  },
-  {
-   "t": "Australia is building a lot of new homes. But is the datacentre boom holding us back? | Greg Jericho",
-   "url": "https://www.theguardian.com/business/grogonomics/2026/oct/08/australia-is-building-a-lot-of-new-homes-but-is-the-datacentre-boom-holding-us-back",
-   "at": "2026-10-07T14:00:54Z",
-   "src": "The Guardian",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -976,8 +986,8 @@
    "t": "Claude Haiku 5.5",
    "url": "https://news.ycombinator.com/item?id=49996437",
    "link": "https://www.anthropic.com/claude-haiku-5-5",
-   "up": 355,
-   "com": 168,
+   "up": 402,
+   "com": 191,
    "at": "2026-10-07T18:01:32.000Z"
   },
   {
@@ -985,27 +995,27 @@
    "t": "GPT‑6 and Intelligent UI for everyone",
    "url": "https://news.ycombinator.com/item?id=49996425",
    "link": "https://openai.com/index/gpt-6-for-everyone/",
-   "up": 250,
-   "com": 122,
+   "up": 290,
+   "com": 140,
    "at": "2026-10-07T18:00:58.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
+   "url": "https://news.ycombinator.com/item?id=49997161",
+   "link": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
+   "up": 99,
+   "com": 103,
+   "at": "2026-10-07T18:49:40.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Sharing AI progress in mathematics",
    "url": "https://news.ycombinator.com/item?id=49984923",
    "link": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
-   "up": 1184,
-   "com": 1337,
+   "up": 1191,
+   "com": 1347,
    "at": "2026-10-06T22:17:21.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Meta and Microsoft Limit Employee Use of Claude AI Tools",
-   "url": "https://news.ycombinator.com/item?id=49997161",
-   "link": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
-   "up": 65,
-   "com": 61,
-   "at": "2026-10-07T18:49:40.000Z"
   },
   {
    "src": "Hacker News",
@@ -1013,17 +1023,17 @@
    "url": "https://news.ycombinator.com/item?id=49994027",
    "link": "https://www.githubstatus.com/incidents/djlmxz2zd0j7",
    "up": 222,
-   "com": 175,
+   "com": 176,
    "at": "2026-10-07T15:17:23.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "A font recreated from photographs of classic Commodore 64 keycaps",
-   "url": "https://news.ycombinator.com/item?id=49990224",
-   "link": "https://github.com/szabadkai/c64-keyboard-font/",
-   "up": 348,
-   "com": 59,
-   "at": "2026-10-07T09:17:55.000Z"
+   "t": "Docker Agent",
+   "url": "https://news.ycombinator.com/item?id=49996259",
+   "link": "https://github.com/docker/docker-agent",
+   "up": 88,
+   "com": 33,
+   "at": "2026-10-07T17:48:38.000Z"
   }
  ]
 }
