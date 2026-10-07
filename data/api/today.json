@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-06T19:48:11.925Z"
+  "updated": "2026-10-07T19:51:16.190Z"
  },
  "pulse": {
-  "trending": 80,
+  "trending": 77,
   "accelerating": 0,
-  "newModels": 7,
-  "discussions": 35,
-  "stars": 1688
+  "newModels": 9,
+  "discussions": 52,
+  "stars": 374
  },
  "rising": [
   {
@@ -20,45 +20,44 @@
    "owner": "Cloudflare",
    "src": "hf",
    "cat": "Coding",
-   "score": 93,
+   "score": 92,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 1.7K",
+   "desc": "Model on Hugging Face · open source · ♥ 1.8K",
    "meta": [
-    "7.3K downloads",
-    "Released 6 days ago"
+    "9.5K downloads",
+    "Released 7 days ago"
    ],
    "at": "2026-09-30T21:15:35.000Z",
    "breakout": null,
    "url": "https://huggingface.co/Cloudflare/clef"
   },
   {
-   "name": "universal-modder",
-   "owner": "rehan-remade",
-   "src": "gh",
-   "cat": "Agents",
+   "name": "GEV-26B-Decide",
+   "owner": "autotrust",
+   "src": "hf",
+   "cat": "Coding",
    "score": 91,
    "grow": null,
-   "desc": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
+   "desc": "Model on Hugging Face · open source · ♥ 1.2K",
    "meta": [
-    "★ 4,484",
-    "~678 in 24h",
-    "Created 7 days ago"
+    "896K downloads",
+    "Released 6 days ago"
    ],
-   "at": "2026-09-30T05:00:35Z",
+   "at": "2026-10-02T04:20:21.000Z",
    "breakout": null,
-   "url": "https://github.com/rehan-remade/universal-modder"
+   "url": "https://huggingface.co/autotrust/GEV-26B-Decide"
   },
   {
    "name": "JEV-27B-VL",
    "owner": "autotrust",
    "src": "hf",
    "cat": "Infrastructure",
-   "score": 91,
-   "grow": 19,
-   "desc": "Model on Hugging Face · open source · ♥ 966",
+   "score": 90,
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 1.8K",
    "meta": [
     "1.5M downloads",
-    "Released 7 days ago"
+    "Released 8 days ago"
    ],
    "at": "2026-09-30T05:02:23.000Z",
    "breakout": null,
@@ -69,12 +68,12 @@
    "owner": "Aleph-Alpha",
    "src": "hf",
    "cat": "Infrastructure",
-   "score": 91,
-   "grow": 69,
-   "desc": "Model on Hugging Face · open source · ♥ 701",
+   "score": 88,
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 770",
    "meta": [
-    "4.1K downloads",
-    "Released 5 days ago"
+    "5.8K downloads",
+    "Released 6 days ago"
    ],
    "at": "2026-10-02T05:54:02.000Z",
    "breakout": null,
@@ -85,128 +84,151 @@
    "owner": "QingYunA",
    "src": "gh",
    "cat": "Agents",
-   "score": 88,
-   "grow": 15,
+   "score": 87,
+   "grow": null,
    "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
    "meta": [
-    "★ 1,745",
-    "+376 in 24h",
-    "Created 4 days ago"
+    "★ 2,023",
+    "~374 in 24h",
+    "Created 5 days ago"
    ],
    "at": "2026-10-02T09:57:40Z",
    "breakout": null,
    "url": "https://github.com/QingYunA/answer-me-with-html"
   },
   {
-   "name": "clef-flash",
-   "owner": "Cloudflare",
+   "name": "embeddinggemma-2",
+   "owner": "google",
    "src": "hf",
-   "cat": "Coding",
-   "score": 88,
-   "grow": 32,
-   "desc": "Model on Hugging Face · open source · ♥ 581",
+   "cat": "Vision",
+   "score": 86,
+   "grow": null,
+   "desc": "Vision on Hugging Face · open source · ♥ 896",
    "meta": [
-    "11K downloads",
-    "Released 6 days ago"
+    "7.6K downloads",
+    "Released 23 days ago"
    ],
-   "at": "2026-09-30T21:15:36.000Z",
+   "at": "2026-09-14T14:53:42.000Z",
    "breakout": null,
-   "url": "https://huggingface.co/Cloudflare/clef-flash"
+   "url": "https://huggingface.co/google/embeddinggemma-2"
+  },
+  {
+   "name": "CheckerBench: Can Long-Horizon Agents Synthesize Static-Analysis Checkers?",
+   "owner": "Paper",
+   "src": "paper",
+   "url": "https://huggingface.co/papers/2610.07557",
+   "cat": "Research",
+   "score": 85,
+   "grow": null,
+   "desc": "Static-analysis checker synthesis requires agents to interpret a defect specification, inspect a repository, implement analyzer-specific logic, and refine the checker through repeated compilation and analysis feedback.",
+   "meta": [
+    "▲ 52 upvotes",
+    "Hugging Face Papers"
+   ],
+   "at": "2026-10-05T20:00:00.000Z",
+   "breakout": null
+  },
+  {
+   "name": "Rill Browser",
+   "owner": "Product Hunt",
+   "src": "ph",
+   "url": "https://www.producthunt.com/products/rill-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29",
+   "cat": "Agents",
+   "score": 85,
+   "grow": null,
+   "desc": "The browser where Claude Code and Codex work beside you",
+   "meta": [
+    "▲ 422 votes",
+    "66 comments",
+    "Launched 2 days ago"
+   ],
+   "at": "2026-10-06T07:01:00Z",
+   "breakout": null
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
    "owner": "abenzerps",
    "src": "hf",
    "cat": "Infrastructure",
-   "score": 87,
+   "score": 84,
    "grow": null,
-   "desc": "Model on Hugging Face · open weights · ♥ 3.4K",
+   "desc": "Model on Hugging Face · open weights · ♥ 3.5K",
    "meta": [
-    "1.7M downloads",
-    "Released 16 days ago"
+    "1.8M downloads",
+    "Released 17 days ago"
    ],
    "at": "2026-09-20T15:51:13.000Z",
    "breakout": null,
    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF"
   },
   {
-   "name": "GEV-26B-Decide",
-   "owner": "autotrust",
+   "name": "clef-flash",
+   "owner": "Cloudflare",
    "src": "hf",
    "cat": "Coding",
-   "score": 87,
-   "grow": 91,
-   "desc": "Model on Hugging Face · open source · ♥ 670",
-   "meta": [
-    "855K downloads",
-    "Released 5 days ago"
-   ],
-   "at": "2026-10-02T04:20:21.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/autotrust/GEV-26B-Decide"
-  },
-  {
-   "name": "dots",
-   "owner": "feder-cr",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 85,
+   "score": 83,
    "grow": null,
-   "desc": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
+   "desc": "Model on Hugging Face · open source · ♥ 642",
    "meta": [
-    "★ 2,631",
-    "~383 in 24h",
-    "Created 7 days ago"
+    "16K downloads",
+    "Released 7 days ago"
    ],
-   "at": "2026-09-29T23:06:00Z",
+   "at": "2026-09-30T21:15:36.000Z",
    "breakout": null,
-   "url": "https://github.com/feder-cr/dots"
-  },
-  {
-   "name": "LMBuild: Evaluating LLM Agents for Generating Buildable and Functional Structures",
-   "owner": "Paper",
-   "src": "paper",
-   "url": "https://huggingface.co/papers/2610.04292",
-   "cat": "Research",
-   "score": 85,
-   "grow": null,
-   "desc": "LLM-based agents are increasingly capable of generating complex 3D structures, with the potential to reshape how objects are designed and realized in the physical world.",
-   "meta": [
-    "▲ 22 upvotes",
-    "Hugging Face Papers"
-   ],
-   "at": "2026-10-02T20:00:00.000Z",
-   "breakout": null
+   "url": "https://huggingface.co/Cloudflare/clef-flash"
   }
  ],
  "breakouts": [
   {
-   "key": "opus 5.5",
-   "label": "Opus 5.5",
+   "key": "gpt 6",
+   "label": "GPT-6",
    "n": 3,
    "sources": [
     {
-     "src": "Hacker News",
-     "t": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
-     "url": "https://news.ycombinator.com/item?id=49970667"
+     "src": "OpenAI blog",
+     "t": "GPT-6 and Intelligent UI for everyone",
+     "url": "https://openai.com/index/gpt-6-for-everyone"
     },
     {
-     "src": "YouTube",
-     "t": "How to Make a Roblox Game With AI (Claude Opus 5.5 Full Tutorial)",
-     "url": "https://www.youtube.com/watch?v=afuKhenJldY"
+     "src": "Techmeme",
+     "t": "OpenAI rolls out GPT-6 in ChatGPT with Intelligent UI, a new feature that includes interactive elements like charts, buttons, and forms in answers",
+     "url": "https://www.techmeme.com/261007/p32#a261007p32"
     },
     {
      "src": "GitHub",
-     "t": "yihui-dev/awesome-opus5-5-videos",
-     "url": "https://github.com/yihui-dev/awesome-opus5-5-videos"
+     "t": "zjwzcx/Awesome-Astra-Embodied-AI",
+     "url": "https://github.com/zjwzcx/Awesome-Astra-Embodied-AI"
     }
    ],
-   "since": "2026-10-03T21:01:33.129Z"
+   "since": "2026-10-02T11:40:52.853Z"
+  },
+  {
+   "key": "mistral large 4",
+   "label": "Mistral Large 4",
+   "n": 3,
+   "sources": [
+    {
+     "src": "Product Hunt",
+     "t": "Mistral Large 4",
+     "url": "https://www.producthunt.com/products/mistral-7b?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
+    },
+    {
+     "src": "DEV",
+     "t": "Mistral Large 4 Scores 59.9% on AutomationBench Across Four Workplace Apps",
+     "url": "https://dev.to/alifar/mistral-large-4-scores-599-on-automationbench-across-four-workplace-apps-hkp"
+    },
+    {
+     "src": "YouTube",
+     "t": "GPT-7 'Bel' First Preview, Mythos 5.1 Access, Mistral Large 4, Claude Code Update, & More! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=-mv1Tf26Vms"
+    }
+   ],
+   "since": "2026-10-07T19:51:16.190Z"
   }
  ],
  "hype": [
   {
-   "name": "Opus 5.5",
+   "name": "Haiku 5.5",
    "url": null,
    "from": null,
    "use": null,
@@ -215,24 +237,85 @@
    "talk": [
     {
      "src": "Hacker News",
-     "t": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
-     "url": "https://news.ycombinator.com/item?id=49970667"
+     "t": "Claude Haiku 5.5",
+     "url": "https://news.ycombinator.com/item?id=49996437"
     },
     {
-     "src": "YouTube",
-     "t": "How to Make a Roblox Game With AI (Claude Opus 5.5 Full Tutorial)",
-     "url": "https://www.youtube.com/watch?v=afuKhenJldY"
+     "src": "Techmeme",
+     "t": "Anthropic prices Haiku 5.5 at $0.10/1M input and $0.50/1M output tokens for requests up to 100K tokens, and $0.50 and $2.50 above, vs. $1 and $5 for Haiku 4.5",
+     "url": "https://www.techmeme.com/261007/p33#a261007p33"
     }
    ],
    "buzz": 2,
    "verdict": "Talk only, no public usage numbers"
   },
   {
-   "name": "universal-modder",
-   "url": "https://github.com/rehan-remade/universal-modder",
+   "name": "GPT-6",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "OpenAI blog",
+     "t": "GPT-6 and Intelligent UI for everyone",
+     "url": "https://openai.com/index/gpt-6-for-everyone"
+    },
+    {
+     "src": "Techmeme",
+     "t": "OpenAI rolls out GPT-6 in ChatGPT with Intelligent UI, a new feature that includes interactive elements like charts, buttons, and forms in answers",
+     "url": "https://www.techmeme.com/261007/p32#a261007p32"
+    }
+   ],
+   "buzz": 2,
+   "verdict": "Talk only, no public usage numbers"
+  },
+  {
+   "name": "Mistral Large 4",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "DEV",
+     "t": "Mistral Large 4 Scores 59.9% on AutomationBench Across Four Workplace Apps",
+     "url": "https://dev.to/alifar/mistral-large-4-scores-599-on-automationbench-across-four-workplace-apps-hkp"
+    },
+    {
+     "src": "YouTube",
+     "t": "GPT-7 'Bel' First Preview, Mythos 5.1 Access, Mistral Large 4, Claude Code Update, & More! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=-mv1Tf26Vms"
+    }
+   ],
+   "buzz": 2,
+   "verdict": "Talk only, no public usage numbers"
+  },
+  {
+   "name": "embeddinggemma-2",
+   "url": "https://huggingface.co/google/embeddinggemma-2",
+   "from": "Hugging Face",
+   "use": 7562,
+   "useLabel": "7.6K downloads",
+   "usePct": 0.2,
+   "talk": [
+    {
+     "src": "Google DeepMind blog",
+     "t": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+     "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/"
+    }
+   ],
+   "buzz": 1,
+   "verdict": "More talk than use"
+  },
+  {
+   "name": "answer-me-with-html",
+   "url": "https://github.com/QingYunA/answer-me-with-html",
    "from": "GitHub",
-   "use": 678,
-   "useLabel": "~678 stars/day",
+   "use": 374,
+   "useLabel": "~374 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -242,7 +325,7 @@
    "name": "Qwen3.8-27B-GGUF",
    "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
    "from": "Hugging Face",
-   "use": 6566855,
+   "use": 6553039,
    "useLabel": "6.6M downloads",
    "usePct": 1,
    "talk": [],
@@ -253,8 +336,8 @@
    "name": "Ternary-Bonsai-2-27B-gguf",
    "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
    "from": "Hugging Face",
-   "use": 4193836,
-   "useLabel": "4.2M downloads",
+   "use": 4271466,
+   "useLabel": "4.3M downloads",
    "usePct": 0.9714285714285714,
    "talk": [],
    "buzz": 0,
@@ -262,6 +345,76 @@
   }
  ],
  "receipts": [
+  {
+   "name": "rehan-remade/universal-modder",
+   "url": "https://github.com/rehan-remade/universal-modder",
+   "kind": "stars",
+   "first": "2026-10-01T17:48:04.617Z",
+   "firstV": 1408,
+   "m": 5000,
+   "at": "2026-10-07T19:51:16.190Z",
+   "lead": 146.05321472222224
+  },
+  {
+   "name": "yihui-dev/awesome-opus5-5-videos",
+   "url": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+   "kind": "stars",
+   "first": "2026-10-01T17:48:04.617Z",
+   "firstV": 1221,
+   "m": 2500,
+   "at": "2026-10-07T19:51:16.190Z",
+   "lead": 146.05321472222224
+  },
+  {
+   "name": "pablodawson/MiniMax-H3-360-Orbit-LoRA",
+   "url": "https://huggingface.co/pablodawson/MiniMax-H3-360-Orbit-LoRA",
+   "kind": "downloads",
+   "first": "2026-10-02T08:25:35.064Z",
+   "firstV": 2216,
+   "m": 10000,
+   "at": "2026-10-07T19:51:16.190Z",
+   "lead": 131.42809055555554
+  },
+  {
+   "name": "nykooi1/vibe-wise",
+   "url": "https://github.com/nykooi1/vibe-wise",
+   "kind": "stars",
+   "first": "2026-10-04T06:01:02.461Z",
+   "firstV": 763,
+   "m": 2500,
+   "at": "2026-10-07T19:51:16.190Z",
+   "lead": 85.83714694444444
+  },
+  {
+   "name": "omnirush-ai/omnirush-gui",
+   "url": "https://github.com/omnirush-ai/omnirush-gui",
+   "kind": "stars",
+   "first": "2026-10-04T09:30:51.920Z",
+   "firstV": 811,
+   "m": 2500,
+   "at": "2026-10-07T19:51:16.190Z",
+   "lead": 82.340075
+  },
+  {
+   "name": "Ebony-Vinyl/dsh-our-free-model",
+   "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+   "kind": "stars",
+   "first": "2026-10-05T06:01:00.549Z",
+   "firstV": 1271,
+   "m": 2500,
+   "at": "2026-10-07T19:51:16.190Z",
+   "lead": 61.83767805555556
+  },
+  {
+   "name": "shader-effects-inc/shaders",
+   "url": "https://github.com/shader-effects-inc/shaders",
+   "kind": "stars",
+   "first": "2026-10-06T19:30:53.656Z",
+   "firstV": 931,
+   "m": 1000,
+   "at": "2026-10-07T19:51:16.190Z",
+   "lead": 24.339592777777778
+  },
   {
    "name": "riba2534/claude-opus-5-5-demo",
    "url": "https://github.com/riba2534/claude-opus-5-5-demo",
@@ -271,114 +424,17 @@
    "m": 1000,
    "at": "2026-10-06T13:01:07.473Z",
    "lead": 115.21746
-  },
-  {
-   "name": "Qwen/Qwen-Image-2.1",
-   "url": "https://huggingface.co/Qwen/Qwen-Image-2.1",
-   "kind": "downloads",
-   "first": "2026-10-01T17:48:04.617Z",
-   "firstV": 76938,
-   "m": 100000,
-   "at": "2026-10-06T10:01:05.401Z",
-   "lead": 112.21688444444445
-  },
-  {
-   "name": "deepseek-ai/DeepSeek-V4.1-Flash",
-   "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
-   "kind": "downloads",
-   "first": "2026-10-01T17:48:04.617Z",
-   "firstV": 748482,
-   "m": 1000000,
-   "at": "2026-10-06T10:01:05.401Z",
-   "lead": 112.21688444444445
-  },
-  {
-   "name": "Cloudflare/clef-flash",
-   "url": "https://huggingface.co/Cloudflare/clef-flash",
-   "kind": "downloads",
-   "first": "2026-10-02T01:48:25.114Z",
-   "firstV": 18,
-   "m": 10000,
-   "at": "2026-10-06T10:01:05.401Z",
-   "lead": 104.21119083333333
-  },
-  {
-   "name": "omlahore/RemoveMacAI",
-   "url": "https://github.com/omlahore/RemoveMacAI",
-   "kind": "stars",
-   "first": "2026-10-05T09:30:52.147Z",
-   "firstV": 887,
-   "m": 2500,
-   "at": "2026-10-06T10:01:05.401Z",
-   "lead": 24.503681666666665
-  },
-  {
-   "name": "aimeoa/hanshuang-codex",
-   "url": "https://github.com/aimeoa/hanshuang-codex",
-   "kind": "stars",
-   "first": "2026-10-01T17:48:04.617Z",
-   "firstV": 848,
-   "m": 1000,
-   "at": "2026-10-05T15:01:06.935Z",
-   "lead": 93.21731055555556
-  },
-  {
-   "name": "yetone/magpie",
-   "url": "https://github.com/yetone/magpie",
-   "kind": "stars",
-   "first": "2026-10-01T17:48:04.617Z",
-   "firstV": 4054,
-   "m": 5000,
-   "at": "2026-10-05T10:30:56.814Z",
-   "lead": 88.71449916666667
-  },
-  {
-   "name": "convaiinnovations/laya",
-   "url": "https://huggingface.co/convaiinnovations/laya",
-   "kind": "downloads",
-   "first": "2026-10-01T17:48:04.617Z",
-   "firstV": 0,
-   "m": 10000,
-   "at": "2026-10-05T10:01:03.802Z",
-   "lead": 88.21644027777778
   }
  ],
  "github": [
   {
-   "repo": "rehan-remade/universal-modder",
-   "stars": 4484,
-   "d24": 678,
-   "est": true,
-   "forks": 396,
-   "contrib": 38,
-   "score": 91
-  },
-  {
-   "repo": "feder-cr/dots",
-   "stars": 2631,
-   "d24": 383,
-   "est": true,
-   "forks": 459,
-   "contrib": null,
-   "score": 85
-  },
-  {
    "repo": "QingYunA/answer-me-with-html",
-   "stars": 1745,
-   "d24": 376,
-   "est": false,
-   "forks": 123,
-   "contrib": null,
-   "score": 88
-  },
-  {
-   "repo": "nanaism/yomiyasu",
-   "stars": 1589,
-   "d24": 251,
+   "stars": 2023,
+   "d24": 374,
    "est": true,
-   "forks": 36,
+   "forks": 138,
    "contrib": null,
-   "score": 82
+   "score": 87
   }
  ],
  "models": [
@@ -387,56 +443,11 @@
    "org": "Cloudflare",
    "lic": "Open source",
    "at": "2026-09-30T21:15:35.000Z",
-   "dl": 7255,
+   "dl": 9513,
    "grow": null,
-   "score": 93,
+   "score": 92,
    "cat": "Coding",
-   "likes": 1652
-  },
-  {
-   "name": "JEV-27B-VL",
-   "org": "autotrust",
-   "size": "27B",
-   "lic": "Open source",
-   "at": "2026-09-30T05:02:23.000Z",
-   "dl": 1525286,
-   "grow": 19,
-   "score": 91,
-   "cat": "Infrastructure",
-   "likes": 966
-  },
-  {
-   "name": "Kolibri-1",
-   "org": "Aleph-Alpha",
-   "lic": "Open source",
-   "at": "2026-10-02T05:54:02.000Z",
-   "dl": 4138,
-   "grow": 69,
-   "score": 91,
-   "cat": "Infrastructure",
-   "likes": 701
-  },
-  {
-   "name": "clef-flash",
-   "org": "Cloudflare",
-   "lic": "Open source",
-   "at": "2026-09-30T21:15:36.000Z",
-   "dl": 10638,
-   "grow": 32,
-   "score": 88,
-   "cat": "Coding",
-   "likes": 581
-  },
-  {
-   "name": "Qwen-Image-2.1-Uncensored-GGUF",
-   "org": "abenzerps",
-   "lic": "Open weights",
-   "at": "2026-09-20T15:51:13.000Z",
-   "dl": 1721760,
-   "grow": null,
-   "score": 87,
-   "cat": "Infrastructure",
-   "likes": 3405
+   "likes": 1796
   },
   {
    "name": "GEV-26B-Decide",
@@ -444,11 +455,56 @@
    "size": "26B",
    "lic": "Open source",
    "at": "2026-10-02T04:20:21.000Z",
-   "dl": 854574,
-   "grow": 91,
-   "score": 87,
+   "dl": 895867,
+   "grow": null,
+   "score": 91,
    "cat": "Coding",
-   "likes": 670
+   "likes": 1166
+  },
+  {
+   "name": "JEV-27B-VL",
+   "org": "autotrust",
+   "size": "27B",
+   "lic": "Open source",
+   "at": "2026-09-30T05:02:23.000Z",
+   "dl": 1529210,
+   "grow": null,
+   "score": 90,
+   "cat": "Infrastructure",
+   "likes": 1778
+  },
+  {
+   "name": "Kolibri-1",
+   "org": "Aleph-Alpha",
+   "lic": "Open source",
+   "at": "2026-10-02T05:54:02.000Z",
+   "dl": 5775,
+   "grow": null,
+   "score": 88,
+   "cat": "Infrastructure",
+   "likes": 770
+  },
+  {
+   "name": "embeddinggemma-2",
+   "org": "google",
+   "lic": "Open source",
+   "at": "2026-09-14T14:53:42.000Z",
+   "dl": 7562,
+   "grow": null,
+   "score": 86,
+   "cat": "Vision",
+   "likes": 896
+  },
+  {
+   "name": "Qwen-Image-2.1-Uncensored-GGUF",
+   "org": "abenzerps",
+   "lic": "Open weights",
+   "at": "2026-09-20T15:51:13.000Z",
+   "dl": 1820627,
+   "grow": null,
+   "score": 84,
+   "cat": "Infrastructure",
+   "likes": 3548
   }
  ],
  "free": [
@@ -461,12 +517,12 @@
    "added": false
   },
   {
-   "name": "deepseek-v4-flash",
+   "name": "exo",
    "prov": "OpenCode Zen",
    "ctx": null,
    "url": null,
    "caps": [],
-   "added": false
+   "added": true
   },
   {
    "name": "muse-spark-1.3-contributor",
@@ -502,14 +558,6 @@
   },
   {
    "name": "longcat-2.5-preview",
-   "prov": "OpenCode Zen",
-   "ctx": null,
-   "url": null,
-   "caps": [],
-   "added": false
-  },
-  {
-   "name": "mimo-v2.5",
    "prov": "OpenCode Zen",
    "ctx": null,
    "url": null,
@@ -784,176 +832,184 @@
  ],
  "freeChanges": {
   "since": "2026-10-01T17:48:04.617Z",
-  "events": []
+  "events": [
+   {
+    "type": "added",
+    "name": "exo",
+    "prov": "OpenCode Zen",
+    "url": null,
+    "at": "2026-10-07T19:51:16.190Z"
+   }
+  ]
  },
  "headlines": [
   {
-   "t": "Mistral launches a preview of Mistral Large 4, or Le Chonk, a 1T model it claims tops any open model developed in the US or Europe; weights are due October 27",
-   "url": "https://www.techmeme.com/261006/p34#a261006p34",
-   "at": "2026-10-06T19:45:01.000Z",
+   "t": "Sources: former White House AI adviser Sriram Krishnan is raising a ~$500M fund to back growth- and later-stage US AI companies, prioritizing national security",
+   "url": "https://www.techmeme.com/261007/p35#a261007p35",
+   "at": "2026-10-07T19:30:31.000Z",
    "src": "Techmeme",
    "kind": "News"
   },
   {
-   "t": "Sources: Waymo increased the size of its inaugural debt raise from $3B+ to $5B, as it grapples with rising AI costs and rapidly expands its robotaxi fleet",
-   "url": "https://www.techmeme.com/261006/p35#a261006p35",
-   "at": "2026-10-06T19:45:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Anthropic integrates its Cyber Verification Program and Project Glasswing into a new, expanded version of CVP, with three tiers and access to its latest models",
-   "url": "https://www.techmeme.com/261006/p33#a261006p33",
-   "at": "2026-10-06T19:35:03.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Mistral says ML4 was trained using 3,800 Nvidia Grace Blackwell GPUs in its own data centers in Europe and much of its training data was multilingual",
-   "url": "https://www.techmeme.com/261006/p32#a261006p32",
-   "at": "2026-10-06T19:00:52.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Meta, Walmart, Stripe, and others publish the Personal Agent Protocol to standardize and secure interactions between AI bots and businesses",
-   "url": "https://www.techmeme.com/261006/p31#a261006p31",
-   "at": "2026-10-06T18:55:00.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Flai, which makes AI tools for car dealerships to manage phone calls, emails, and texts, raised a $27M Series A led by Base10 Partners",
-   "url": "https://www.techmeme.com/261006/p30#a261006p30",
-   "at": "2026-10-06T18:05:00.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Sources: AI neocloud Lambda is raising up to $4B led by Blackstone and Coatue at a pre-money valuation of $14.5B in a final round before its planned IPO",
-   "url": "https://www.techmeme.com/261006/p29#a261006p29",
-   "at": "2026-10-06T17:10:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Artificial review – Luca Guadagnino takes on OpenAI in muddled tech satire",
-   "url": "https://www.theguardian.com/film/2026/oct/06/artificial-sam-altman-ai-movie-review",
-   "at": "2026-10-06T16:58:15Z",
+   "t": "The AI industry is booming. Women are getting left behind",
+   "url": "https://www.theguardian.com/technology/2026/oct/04/women-ai-jobs-inequality",
+   "at": "2026-10-07T19:14:03Z",
    "src": "The Guardian",
    "kind": "News"
   },
   {
-   "t": "Is regulation enough to stop AI systems killing us all? | Letters",
-   "url": "https://www.theguardian.com/technology/2026/oct/06/is-regulation-enough-to-stop-ai-systems-killing-us-all",
-   "at": "2026-10-06T16:56:04Z",
-   "src": "The Guardian",
-   "kind": "News"
-  },
-  {
-   "t": "A look at consumer AI trends: ChatGPT has 3x more US subscribers than Claude or Gemini, the top 1% of spenders drive 19.5% of spend, and AI agents gain traction",
-   "url": "https://www.techmeme.com/261006/p28#a261006p28",
-   "at": "2026-10-06T16:50:00.000Z",
+   "t": "Anthropic cuts Sonnet 5.5 cache read price from $0.20 to $0.10 and adds monthly API credits: $100 for Max 5x, $200 for Max 20x, up to $500 shared by Team users",
+   "url": "https://www.techmeme.com/261007/p34#a261007p34",
+   "at": "2026-10-07T19:05:01.000Z",
    "src": "Techmeme",
    "kind": "News"
   },
   {
-   "t": "Anthropic expands its Claude Startups program, including up to $45K in discounts and credits via the Claude Startup Stack and a one-time $1,000 API credit",
-   "url": "https://www.techmeme.com/261006/p26#a261006p26",
-   "at": "2026-10-06T16:30:02.000Z",
+   "t": "Anthropic prices Haiku 5.5 at $0.10/1M input and $0.50/1M output tokens for requests up to 100K tokens, and $0.50 and $2.50 above, vs. $1 and $5 for Haiku 4.5",
+   "url": "https://www.techmeme.com/261007/p33#a261007p33",
+   "at": "2026-10-07T18:45:30.000Z",
    "src": "Techmeme",
    "kind": "News"
   },
   {
-   "t": "Google DeepMind launches EmbeddingGemma 2, a 740M-parameter model to map code, images, video, and audio in a shared embedding space, under an Apache 2.0 license",
-   "url": "https://www.techmeme.com/261006/p25#a261006p25",
-   "at": "2026-10-06T16:20:00.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Tell us: do you use AI agents to manage your finances? ",
-   "url": "https://www.theguardian.com/technology/2026/oct/06/tell-us-do-you-use-ai-agents-to-manage-your-finances",
-   "at": "2026-10-06T16:02:24Z",
-   "src": "The Guardian",
-   "kind": "News"
-  },
-  {
-   "t": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
-   "url": "https://openai.com/index/atlassian-partnership",
-   "at": "2026-10-06T16:00:00.000Z",
-   "src": "OpenAI",
+   "t": "NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents",
+   "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
+   "at": "2026-10-07T18:45:28.000Z",
+   "src": "NVIDIA",
    "kind": "Lab blog"
   },
   {
-   "t": "Stop worrying about my AI, says multibillionaire Sam Altman. So we bear the risks and he keeps the money | Chris Stokel-Walker",
-   "url": "https://www.theguardian.com/commentisfree/2026/oct/06/ai-sam-altman-billionaire-risks-openai",
-   "at": "2026-10-06T15:30:17Z",
+   "t": "OpenAI rolls out GPT-6 in ChatGPT with Intelligent UI, a new feature that includes interactive elements like charts, buttons, and forms in answers",
+   "url": "https://www.techmeme.com/261007/p32#a261007p32",
+   "at": "2026-10-07T18:40:02.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Anthropic launches Claude Haiku 5.5, the first Haiku model with effort controls, for high-volume, cost-sensitive tasks like summaries and classification",
+   "url": "https://www.techmeme.com/261007/p31#a261007p31",
+   "at": "2026-10-07T18:22:12.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Meta rolls out AI tools to find ads that secretly lead users to CSAM and says it took action against 33.2M pieces of child exploitation content in H1 2026",
+   "url": "https://www.techmeme.com/261007/p28#a261007p28",
+   "at": "2026-10-07T17:20:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Multimodal open d1 decision models for the edge",
+   "url": "https://huggingface.co/blog/LiquidAI/open-d1",
+   "at": "2026-10-07T16:54:33.000Z",
+   "src": "Hugging Face",
+   "kind": "Lab blog"
+  },
+  {
+   "t": "OpenAI's first report on teen ChatGPT use says teens spend under 15 minutes a day on average on the chatbot, with less than 2% using it for 3+ hours straight",
+   "url": "https://www.techmeme.com/261007/p27#a261007p27",
+   "at": "2026-10-07T16:30:19.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "OpenAI’s release of mathematical findings draws concerns from experts",
+   "url": "https://www.theguardian.com/technology/2026/oct/07/openai-mathematical-findings-concerns",
+   "at": "2026-10-07T15:40:51Z",
    "src": "The Guardian",
    "kind": "News"
   },
   {
-   "t": "Unlocking Earth AI’s planetary geospatial foundation models for global public health",
-   "url": "https://research.google/blog/earth-ais-planetary-geospatial-foundation-models-for-global-public-health/",
-   "at": "2026-10-06T15:05:11.000Z",
-   "src": "Google Research",
-   "kind": "Lab blog"
+   "t": "Healthleap, which makes AI screening software to identify patients at risk of undiagnosed illnesses, raised $38M across a $30M Series A and an $8M seed",
+   "url": "https://www.techmeme.com/261007/p25#a261007p25",
+   "at": "2026-10-07T15:35:02.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Elon Musk says Grok Bot will use the \"best back end model for any given task, including Claude Opus 5.5, MidJourney, Suno\"",
+   "url": "https://www.techmeme.com/261007/p23#a261007p23",
+   "at": "2026-10-07T14:40:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Mumsnet denies using AI for content after prompt appears on message board",
+   "url": "https://www.theguardian.com/media/2026/oct/07/mumsnet-denies-using-ai-for-content-message-board-prompt",
+   "at": "2026-10-07T14:31:04Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "Google launches SynthID Detector, a website that lets users detect AI-generated image, video, and audio media across dozens of common file formats",
+   "url": "https://www.techmeme.com/261007/p21#a261007p21",
+   "at": "2026-10-07T14:10:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Australia is building a lot of new homes. But is the datacentre boom holding us back? | Greg Jericho",
+   "url": "https://www.theguardian.com/business/grogonomics/2026/oct/08/australia-is-building-a-lot-of-new-homes-but-is-the-datacentre-boom-holding-us-back",
+   "at": "2026-10-07T14:00:54Z",
+   "src": "The Guardian",
+   "kind": "News"
   }
  ],
  "discussions": [
   {
    "src": "Hacker News",
-   "t": "Mistral Large 4",
-   "url": "https://news.ycombinator.com/item?id=49977979",
-   "link": "https://mistral.ai/news/mistral-large-4/\\",
-   "up": 1234,
-   "com": 800,
-   "at": "2026-10-06T13:15:49.000Z"
+   "t": "Claude Haiku 5.5",
+   "url": "https://news.ycombinator.com/item?id=49996437",
+   "link": "https://www.anthropic.com/claude-haiku-5-5",
+   "up": 335,
+   "com": 157,
+   "at": "2026-10-07T18:01:32.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Mistral Large 4: \"Le Chonk\"",
-   "url": "https://news.ycombinator.com/item?id=49978116",
-   "link": "https://mistral.ai/news/mistral-large-4/",
-   "up": 517,
-   "com": 5,
-   "at": "2026-10-06T13:25:50.000Z"
+   "t": "GPT‑6 and Intelligent UI for everyone",
+   "url": "https://news.ycombinator.com/item?id=49996425",
+   "link": "https://openai.com/index/gpt-6-for-everyone/",
+   "up": 230,
+   "com": 112,
+   "at": "2026-10-07T18:00:58.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "AI is now capable of developing its own inference hardware",
-   "url": "https://news.ycombinator.com/item?id=49980715",
-   "link": "https://github.com/FeSens/openTPU",
-   "up": 154,
-   "com": 161,
-   "at": "2026-10-06T16:23:25.000Z"
+   "t": "Sharing AI progress in mathematics",
+   "url": "https://news.ycombinator.com/item?id=49984923",
+   "link": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+   "up": 1181,
+   "com": 1333,
+   "at": "2026-10-06T22:17:21.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Adobe Creative Suite Cleanroom Port to Rust",
-   "url": "https://news.ycombinator.com/item?id=49981449",
-   "link": "https://github.com/storytold/photocraft",
-   "up": 91,
-   "com": 51,
-   "at": "2026-10-06T17:20:00.000Z"
+   "t": "Meta and Microsoft Limit Employee Use of Claude AI Tools",
+   "url": "https://news.ycombinator.com/item?id=49997161",
+   "link": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
+   "up": 53,
+   "com": 50,
+   "at": "2026-10-07T18:49:40.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
-   "url": "https://news.ycombinator.com/item?id=49970667",
-   "link": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
-   "up": 473,
-   "com": 320,
-   "at": "2026-10-05T21:00:21.000Z"
+   "t": "Incident with Git Operations, Pull Requests and Actions – Resolved",
+   "url": "https://news.ycombinator.com/item?id=49994027",
+   "link": "https://www.githubstatus.com/incidents/djlmxz2zd0j7",
+   "up": 222,
+   "com": 174,
+   "at": "2026-10-07T15:17:23.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Utah to let AI examine patients and prescribe medication without human oversight",
-   "url": "https://news.ycombinator.com/item?id=49981197",
-   "link": "https://www.techspot.com/news/114111-utah-become-first-state-ai-examine-patients-prescribe.html",
-   "up": 43,
-   "com": 70,
-   "at": "2026-10-06T17:01:52.000Z"
+   "t": "A font recreated from photographs of classic Commodore 64 keycaps",
+   "url": "https://news.ycombinator.com/item?id=49990224",
+   "link": "https://github.com/szabadkai/c64-keyboard-font/",
+   "up": 344,
+   "com": 58,
+   "at": "2026-10-07T09:17:55.000Z"
   }
  ]
 }
