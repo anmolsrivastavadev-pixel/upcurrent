@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-08T05:30:56.041Z"
+  "updated": "2026-10-08T05:55:09.935Z"
  },
  "pulse": {
   "trending": 77,
   "accelerating": 0,
   "newModels": 6,
-  "discussions": 45,
-  "stars": 325
+  "discussions": 46,
+  "stars": 331
  },
  "rising": [
   {
@@ -85,11 +85,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 86,
-   "grow": 6,
+   "grow": 7,
    "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
    "meta": [
-    "★ 2,154",
-    "+325 in 24h",
+    "★ 2,162",
+    "+331 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-02T09:57:40Z",
@@ -122,7 +122,7 @@
    "grow": null,
    "desc": "Linear attention replaces growing KV caches with fixed-size recurrent states, yet these persistent states can become a substantial memory bottleneck under concurrent serving.",
    "meta": [
-    "▲ 51 upvotes",
+    "▲ 58 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-09-28T20:00:00.000Z",
@@ -138,9 +138,9 @@
    "grow": null,
    "desc": "AI workflow automation: show it once, let it run",
    "meta": [
-    "▲ 442 votes",
+    "▲ 445 votes",
     "105 comments",
-    "Launched 22h ago"
+    "Launched 23h ago"
    ],
    "at": "2026-10-07T07:01:00Z",
    "breakout": null
@@ -201,8 +201,8 @@
    "name": "answer-me-with-html",
    "url": "https://github.com/QingYunA/answer-me-with-html",
    "from": "GitHub",
-   "use": 325,
-   "useLabel": "+325 stars/day",
+   "use": 331,
+   "useLabel": "+331 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -316,10 +316,10 @@
  "github": [
   {
    "repo": "QingYunA/answer-me-with-html",
-   "stars": 2154,
-   "d24": 325,
+   "stars": 2162,
+   "d24": 331,
    "est": false,
-   "forks": 147,
+   "forks": 148,
    "contrib": null,
    "score": 86
   }
@@ -335,7 +335,7 @@
    "grow": 0,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 2187
+   "likes": 2209
   },
   {
    "name": "clef",
@@ -346,7 +346,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Coding",
-   "likes": 1835
+   "likes": 1837
   },
   {
    "name": "GEV-26B-Decide",
@@ -358,7 +358,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Coding",
-   "likes": 1437
+   "likes": 1447
   },
   {
    "name": "Kolibri-1",
@@ -380,7 +380,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Vision",
-   "likes": 1013
+   "likes": 1019
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -391,7 +391,7 @@
    "grow": 0,
    "score": 84,
    "cat": "Infrastructure",
-   "likes": 3597
+   "likes": 3598
   }
  ],
  "free": [
@@ -850,10 +850,10 @@
    "kind": "Lab blog"
   },
   {
-   "t": "OpenAI Says Teens Usage Average Under 15 Minutes A Day On ChatGPT Amid Safety Concerns",
-   "url": "https://www.ndtvprofit.com/technology/openai-says-teens-usage-average-under-15-minutes-a-day-on-chatgpt-amid-safety-concerns-12153090",
-   "at": "2026-10-07T17:30:09Z",
-   "src": "NDTV Profit",
+   "t": "You can build a full business website in 4 days, new report says",
+   "url": "https://krdo.com/news/2026/10/07/you-can-build-a-full-business-website-in-4-days-new-report-says/",
+   "at": "2026-10-07T17:49:06Z",
+   "src": "KRDO",
    "kind": "News"
   }
  ],
@@ -863,17 +863,26 @@
    "t": "Claude Haiku 5.5",
    "url": "https://news.ycombinator.com/item?id=49996437",
    "link": "https://www.anthropic.com/claude-haiku-5-5",
-   "up": 780,
-   "com": 387,
+   "up": 790,
+   "com": 389,
    "at": "2026-10-07T18:01:32.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Terence Tao Responds to the OpenAI Math Drop",
+   "url": "https://news.ycombinator.com/item?id=50002008",
+   "link": "https://mathstodon.xyz/@tao/117395269325940185",
+   "up": 61,
+   "com": 20,
+   "at": "2026-10-08T05:14:14.000Z"
   },
   {
    "src": "Hacker News",
    "t": "GPT‑6 and Intelligent UI for everyone",
    "url": "https://news.ycombinator.com/item?id=49996425",
    "link": "https://openai.com/index/gpt-6-for-everyone/",
-   "up": 567,
-   "com": 295,
+   "up": 570,
+   "com": 296,
    "at": "2026-10-07T18:00:58.000Z"
   },
   {
@@ -881,8 +890,8 @@
    "t": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
    "url": "https://news.ycombinator.com/item?id=49997161",
    "link": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
-   "up": 327,
-   "com": 310,
+   "up": 330,
+   "com": 317,
    "at": "2026-10-07T18:49:40.000Z"
   },
   {
@@ -899,18 +908,9 @@
    "t": "Docker Agent",
    "url": "https://news.ycombinator.com/item?id=49996259",
    "link": "https://github.com/docker/docker-agent",
-   "up": 209,
+   "up": 210,
    "com": 97,
    "at": "2026-10-07T17:48:38.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Incident with Git Operations, Pull Requests and Actions – Resolved",
-   "url": "https://news.ycombinator.com/item?id=49994027",
-   "link": "https://www.githubstatus.com/incidents/djlmxz2zd0j7",
-   "up": 224,
-   "com": 176,
-   "at": "2026-10-07T15:17:23.000Z"
   }
  ]
 }
