@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-08T01:30:47.959Z"
+  "updated": "2026-10-08T02:01:05.749Z"
  },
  "pulse": {
   "trending": 77,
   "accelerating": 0,
   "newModels": 7,
-  "discussions": 49,
-  "stars": 366
+  "discussions": 47,
+  "stars": 195
  },
  "rising": [
   {
@@ -21,7 +21,7 @@
    "src": "hf",
    "cat": "Infrastructure",
    "score": 91,
-   "grow": null,
+   "grow": 0,
    "desc": "Model on Hugging Face · open source · ♥ 2K",
    "meta": [
     "1.5M downloads",
@@ -37,7 +37,7 @@
    "src": "hf",
    "cat": "Coding",
    "score": 91,
-   "grow": null,
+   "grow": 0,
    "desc": "Model on Hugging Face · open source · ♥ 1.8K",
    "meta": [
     "9.5K downloads",
@@ -53,7 +53,7 @@
    "src": "hf",
    "cat": "Coding",
    "score": 91,
-   "grow": null,
+   "grow": 0,
    "desc": "Model on Hugging Face · open source · ♥ 1.3K",
    "meta": [
     "896K downloads",
@@ -69,7 +69,7 @@
    "src": "hf",
    "cat": "Infrastructure",
    "score": 88,
-   "grow": null,
+   "grow": 0,
    "desc": "Model on Hugging Face · open source · ♥ 775",
    "meta": [
     "5.8K downloads",
@@ -85,11 +85,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 86,
-   "grow": null,
+   "grow": 2,
    "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
    "meta": [
-    "★ 2,065",
-    "~366 in 24h",
+    "★ 2,073",
+    "+195 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-02T09:57:40Z",
@@ -102,8 +102,8 @@
    "src": "hf",
    "cat": "Vision",
    "score": 86,
-   "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 954",
+   "grow": 0,
+   "desc": "Vision on Hugging Face · open source · ♥ 962",
    "meta": [
     "7.6K downloads",
     "Released 23 days ago"
@@ -151,7 +151,7 @@
    "src": "hf",
    "cat": "Infrastructure",
    "score": 84,
-   "grow": null,
+   "grow": 0,
    "desc": "Model on Hugging Face · open weights · ♥ 3.6K",
    "meta": [
     "1.8M downloads",
@@ -167,7 +167,7 @@
    "src": "hf",
    "cat": "Coding",
    "score": 83,
-   "grow": null,
+   "grow": 0,
    "desc": "Model on Hugging Face · open source · ♥ 653",
    "meta": [
     "16K downloads",
@@ -269,8 +269,8 @@
    "name": "answer-me-with-html",
    "url": "https://github.com/QingYunA/answer-me-with-html",
    "from": "GitHub",
-   "use": 366,
-   "useLabel": "~366 stars/day",
+   "use": 195,
+   "useLabel": "+195 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -300,6 +300,16 @@
   }
  ],
  "receipts": [
+  {
+   "name": "angusdevgo/Seep-Reverse-Lab",
+   "url": "https://github.com/angusdevgo/Seep-Reverse-Lab",
+   "kind": "stars",
+   "first": "2026-10-02T01:48:25.114Z",
+   "firstV": 722,
+   "m": 1000,
+   "at": "2026-10-08T02:01:05.749Z",
+   "lead": 144.2112875
+  },
   {
    "name": "shader-effects-inc/shaders",
    "url": "https://github.com/shader-effects-inc/shaders",
@@ -369,25 +379,15 @@
    "m": 2500,
    "at": "2026-10-07T19:51:16.190Z",
    "lead": 61.83767805555556
-  },
-  {
-   "name": "riba2534/claude-opus-5-5-demo",
-   "url": "https://github.com/riba2534/claude-opus-5-5-demo",
-   "kind": "stars",
-   "first": "2026-10-01T17:48:04.617Z",
-   "firstV": 956,
-   "m": 1000,
-   "at": "2026-10-06T13:01:07.473Z",
-   "lead": 115.21746
   }
  ],
  "github": [
   {
    "repo": "QingYunA/answer-me-with-html",
-   "stars": 2065,
-   "d24": 366,
-   "est": true,
-   "forks": 138,
+   "stars": 2073,
+   "d24": 195,
+   "est": false,
+   "forks": 140,
    "contrib": null,
    "score": 86
   }
@@ -400,10 +400,10 @@
    "lic": "Open source",
    "at": "2026-09-30T05:02:23.000Z",
    "dl": 1529210,
-   "grow": null,
+   "grow": 0,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 1992
+   "likes": 2010
   },
   {
    "name": "clef",
@@ -411,7 +411,7 @@
    "lic": "Open source",
    "at": "2026-09-30T21:15:35.000Z",
    "dl": 9513,
-   "grow": null,
+   "grow": 0,
    "score": 91,
    "cat": "Coding",
    "likes": 1816
@@ -423,10 +423,10 @@
    "lic": "Open source",
    "at": "2026-10-02T04:20:21.000Z",
    "dl": 895867,
-   "grow": null,
+   "grow": 0,
    "score": 91,
    "cat": "Coding",
-   "likes": 1323
+   "likes": 1338
   },
   {
    "name": "Kolibri-1",
@@ -434,7 +434,7 @@
    "lic": "Open source",
    "at": "2026-10-02T05:54:02.000Z",
    "dl": 5775,
-   "grow": null,
+   "grow": 0,
    "score": 88,
    "cat": "Infrastructure",
    "likes": 775
@@ -445,10 +445,10 @@
    "lic": "Open source",
    "at": "2026-09-14T14:53:42.000Z",
    "dl": 7562,
-   "grow": null,
+   "grow": 0,
    "score": 86,
    "cat": "Vision",
-   "likes": 954
+   "likes": 962
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -456,10 +456,10 @@
    "lic": "Open weights",
    "at": "2026-09-20T15:51:13.000Z",
    "dl": 1820627,
-   "grow": null,
+   "grow": 0,
    "score": 84,
    "cat": "Infrastructure",
-   "likes": 3562
+   "likes": 3566
   }
  ],
  "free": [
@@ -931,8 +931,8 @@
    "t": "Claude Haiku 5.5",
    "url": "https://news.ycombinator.com/item?id=49996437",
    "link": "https://www.anthropic.com/claude-haiku-5-5",
-   "up": 670,
-   "com": 336,
+   "up": 688,
+   "com": 342,
    "at": "2026-10-07T18:01:32.000Z"
   },
   {
@@ -940,8 +940,8 @@
    "t": "GPT‑6 and Intelligent UI for everyone",
    "url": "https://news.ycombinator.com/item?id=49996425",
    "link": "https://openai.com/index/gpt-6-for-everyone/",
-   "up": 491,
-   "com": 259,
+   "up": 504,
+   "com": 268,
    "at": "2026-10-07T18:00:58.000Z"
   },
   {
@@ -949,16 +949,25 @@
    "t": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
    "url": "https://news.ycombinator.com/item?id=49997161",
    "link": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
-   "up": 268,
-   "com": 271,
+   "up": 277,
+   "com": 276,
    "at": "2026-10-07T18:49:40.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Rust Port of TypeScript (Tsc)",
+   "url": "https://news.ycombinator.com/item?id=50000676",
+   "link": "https://github.com/pingdotgg/ts-rust",
+   "up": 39,
+   "com": 32,
+   "at": "2026-10-08T00:46:00.000Z"
   },
   {
    "src": "Hacker News",
    "t": "A font recreated from photographs of classic Commodore 64 keycaps",
    "url": "https://news.ycombinator.com/item?id=49990224",
    "link": "https://github.com/szabadkai/c64-keyboard-font/",
-   "up": 380,
+   "up": 383,
    "com": 62,
    "at": "2026-10-07T09:17:55.000Z"
   },
@@ -967,18 +976,9 @@
    "t": "Docker Agent",
    "url": "https://news.ycombinator.com/item?id=49996259",
    "link": "https://github.com/docker/docker-agent",
-   "up": 176,
-   "com": 82,
+   "up": 183,
+   "com": 84,
    "at": "2026-10-07T17:48:38.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Incident with Git Operations, Pull Requests and Actions – Resolved",
-   "url": "https://news.ycombinator.com/item?id=49994027",
-   "link": "https://www.githubstatus.com/incidents/djlmxz2zd0j7",
-   "up": 224,
-   "com": 176,
-   "at": "2026-10-07T15:17:23.000Z"
   }
  ]
 }
