@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-08T05:01:05.279Z"
+  "updated": "2026-10-08T05:30:56.041Z"
  },
  "pulse": {
   "trending": 77,
   "accelerating": 0,
   "newModels": 6,
-  "discussions": 48,
-  "stars": 306
+  "discussions": 45,
+  "stars": 325
  },
  "rising": [
   {
@@ -88,8 +88,8 @@
    "grow": 6,
    "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
    "meta": [
-    "★ 2,140",
-    "+306 in 24h",
+    "★ 2,154",
+    "+325 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-02T09:57:40Z",
@@ -122,7 +122,7 @@
    "grow": null,
    "desc": "Linear attention replaces growing KV caches with fixed-size recurrent states, yet these persistent states can become a substantial memory bottleneck under concurrent serving.",
    "meta": [
-    "▲ 41 upvotes",
+    "▲ 51 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-09-28T20:00:00.000Z",
@@ -138,8 +138,8 @@
    "grow": null,
    "desc": "AI workflow automation: show it once, let it run",
    "meta": [
-    "▲ 438 votes",
-    "104 comments",
+    "▲ 442 votes",
+    "105 comments",
     "Launched 22h ago"
    ],
    "at": "2026-10-07T07:01:00Z",
@@ -201,8 +201,8 @@
    "name": "answer-me-with-html",
    "url": "https://github.com/QingYunA/answer-me-with-html",
    "from": "GitHub",
-   "use": 306,
-   "useLabel": "+306 stars/day",
+   "use": 325,
+   "useLabel": "+325 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -316,10 +316,10 @@
  "github": [
   {
    "repo": "QingYunA/answer-me-with-html",
-   "stars": 2140,
-   "d24": 306,
+   "stars": 2154,
+   "d24": 325,
    "est": false,
-   "forks": 145,
+   "forks": 147,
    "contrib": null,
    "score": 86
   }
@@ -335,7 +335,7 @@
    "grow": 0,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 2164
+   "likes": 2187
   },
   {
    "name": "clef",
@@ -358,7 +358,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Coding",
-   "likes": 1426
+   "likes": 1437
   },
   {
    "name": "Kolibri-1",
@@ -380,7 +380,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Vision",
-   "likes": 1007
+   "likes": 1013
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -391,7 +391,7 @@
    "grow": 0,
    "score": 84,
    "cat": "Infrastructure",
-   "likes": 3595
+   "likes": 3597
   }
  ],
  "free": [
@@ -745,6 +745,20 @@
  },
  "headlines": [
   {
+   "t": "A theoretical computer scientist, citing sources, says AI labs have quietly started probing whether their models can break important cryptographic protocols",
+   "url": "https://www.techmeme.com/261008/p6#a261008p6",
+   "at": "2026-10-08T05:10:11.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Vitalik Buterin says \"we should take the risks to cryptography from AI-accelerated math seriously\", backing a \"bunker mode\" call for the blockchain industry",
+   "url": "https://www.techmeme.com/261008/p5#a261008p5",
+   "at": "2026-10-08T05:05:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "German search engine Ecosia, used by government services, ditches Mistral for open-source models, including Chinese ones, citing Mistral's disappointing quality",
    "url": "https://www.techmeme.com/261008/p4#a261008p4",
    "at": "2026-10-08T04:50:01.000Z",
@@ -808,11 +822,11 @@
    "kind": "News"
   },
   {
-   "t": "Sources: Broadcom has been working to arrange more than $50B in financing for OpenAI's custom AI chip; Oracle is in talks on financing for a big chip purchase",
-   "url": "https://www.techmeme.com/261007/p37#a261007p37",
-   "at": "2026-10-07T21:45:32.000Z",
-   "src": "Techmeme",
-   "kind": "News"
+   "t": "OpenAI Just Broke Math With Its Most Powerful AI Yet",
+   "url": "https://www.youtube.com/watch?v=WYpzvsC4qTk",
+   "at": "2026-10-07T22:12:23Z",
+   "src": "AI Revolution",
+   "kind": "Video"
   },
   {
    "t": "Does better work always mean better workers?",
@@ -836,24 +850,10 @@
    "kind": "Lab blog"
   },
   {
-   "t": "Why OpenAI and Anthropic Want to Win",
-   "url": "https://www.businessinsider.com/openai-anthropic-trump-regulation-kevin-roose-ai-book-podcast-kafka-2026-10",
-   "at": "2026-10-07T16:54:56Z",
-   "src": "Business Insider",
-   "kind": "News"
-  },
-  {
-   "t": "Multimodal open d1 decision models for the edge",
-   "url": "https://huggingface.co/blog/LiquidAI/open-d1",
-   "at": "2026-10-07T16:54:33.000Z",
-   "src": "Hugging Face",
-   "kind": "Lab blog"
-  },
-  {
-   "t": "FCC considers allowing more political robocalls before midterms, including those created with AI",
-   "url": "https://triblive.com/news/world/fcc-considers-allowing-more-political-robocalls-before-midterms-including-those-created-with-ai/",
-   "at": "2026-10-07T16:52:21Z",
-   "src": "Pittsburgh Tribune-Review",
+   "t": "OpenAI Says Teens Usage Average Under 15 Minutes A Day On ChatGPT Amid Safety Concerns",
+   "url": "https://www.ndtvprofit.com/technology/openai-says-teens-usage-average-under-15-minutes-a-day-on-chatgpt-amid-safety-concerns-12153090",
+   "at": "2026-10-07T17:30:09Z",
+   "src": "NDTV Profit",
    "kind": "News"
   }
  ],
@@ -863,8 +863,8 @@
    "t": "Claude Haiku 5.5",
    "url": "https://news.ycombinator.com/item?id=49996437",
    "link": "https://www.anthropic.com/claude-haiku-5-5",
-   "up": 770,
-   "com": 380,
+   "up": 780,
+   "com": 387,
    "at": "2026-10-07T18:01:32.000Z"
   },
   {
@@ -872,8 +872,8 @@
    "t": "GPT‑6 and Intelligent UI for everyone",
    "url": "https://news.ycombinator.com/item?id=49996425",
    "link": "https://openai.com/index/gpt-6-for-everyone/",
-   "up": 557,
-   "com": 289,
+   "up": 567,
+   "com": 295,
    "at": "2026-10-07T18:00:58.000Z"
   },
   {
@@ -881,8 +881,8 @@
    "t": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
    "url": "https://news.ycombinator.com/item?id=49997161",
    "link": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
-   "up": 320,
-   "com": 302,
+   "up": 327,
+   "com": 310,
    "at": "2026-10-07T18:49:40.000Z"
   },
   {
@@ -890,7 +890,7 @@
    "t": "A font recreated from photographs of classic Commodore 64 keycaps",
    "url": "https://news.ycombinator.com/item?id=49990224",
    "link": "https://github.com/szabadkai/c64-keyboard-font/",
-   "up": 385,
+   "up": 386,
    "com": 64,
    "at": "2026-10-07T09:17:55.000Z"
   },
@@ -899,8 +899,8 @@
    "t": "Docker Agent",
    "url": "https://news.ycombinator.com/item?id=49996259",
    "link": "https://github.com/docker/docker-agent",
-   "up": 204,
-   "com": 93,
+   "up": 209,
+   "com": 97,
    "at": "2026-10-07T17:48:38.000Z"
   },
   {
