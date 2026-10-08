@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-08T02:01:05.749Z"
+  "updated": "2026-10-08T02:30:53.648Z"
  },
  "pulse": {
   "trending": 77,
   "accelerating": 0,
   "newModels": 7,
-  "discussions": 47,
-  "stars": 195
+  "discussions": 48,
+  "stars": 231
  },
  "rising": [
   {
@@ -32,11 +32,27 @@
    "url": "https://huggingface.co/autotrust/JEV-27B-VL"
   },
   {
+   "name": "GEV-26B-Decide",
+   "owner": "autotrust",
+   "src": "hf",
+   "cat": "Coding",
+   "score": 91,
+   "grow": 0,
+   "desc": "Model on Hugging Face · open source · ♥ 1.4K",
+   "meta": [
+    "896K downloads",
+    "Released 6 days ago"
+   ],
+   "at": "2026-10-02T04:20:21.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/autotrust/GEV-26B-Decide"
+  },
+  {
    "name": "clef",
    "owner": "Cloudflare",
    "src": "hf",
    "cat": "Coding",
-   "score": 91,
+   "score": 90,
    "grow": 0,
    "desc": "Model on Hugging Face · open source · ♥ 1.8K",
    "meta": [
@@ -46,22 +62,6 @@
    "at": "2026-09-30T21:15:35.000Z",
    "breakout": null,
    "url": "https://huggingface.co/Cloudflare/clef"
-  },
-  {
-   "name": "GEV-26B-Decide",
-   "owner": "autotrust",
-   "src": "hf",
-   "cat": "Coding",
-   "score": 91,
-   "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 1.3K",
-   "meta": [
-    "896K downloads",
-    "Released 6 days ago"
-   ],
-   "at": "2026-10-02T04:20:21.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/autotrust/GEV-26B-Decide"
   },
   {
    "name": "Kolibri-1",
@@ -85,11 +85,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 86,
-   "grow": 2,
+   "grow": 3,
    "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
    "meta": [
-    "★ 2,073",
-    "+195 in 24h",
+    "★ 2,087",
+    "+231 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-02T09:57:40Z",
@@ -103,7 +103,7 @@
    "cat": "Vision",
    "score": 86,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open source · ♥ 962",
+   "desc": "Vision on Hugging Face · open source · ♥ 969",
    "meta": [
     "7.6K downloads",
     "Released 23 days ago"
@@ -113,19 +113,19 @@
    "url": "https://huggingface.co/google/embeddinggemma-2"
   },
   {
-   "name": "CheckerBench: Can Long-Horizon Agents Synthesize Static-Analysis Checkers?",
+   "name": "Questioning the Questions: Sustaining Self-Evolution in Reasoning Models",
    "owner": "Paper",
    "src": "paper",
-   "url": "https://huggingface.co/papers/2610.07557",
+   "url": "https://huggingface.co/papers/2610.04299",
    "cat": "Research",
    "score": 85,
    "grow": null,
-   "desc": "Static-analysis checker synthesis requires agents to interpret a defect specification, inspect a repository, implement analyzer-specific logic, and refine the checker through repeated compilation and analysis feedback.",
+   "desc": "Self-evolving reasoning models learn from their own generated questions, yet repeated self-training can lead to performance collapse.",
    "meta": [
-    "▲ 52 upvotes",
+    "▲ 23 upvotes",
     "Hugging Face Papers"
    ],
-   "at": "2026-10-05T20:00:00.000Z",
+   "at": "2026-10-02T20:00:00.000Z",
    "breakout": null
   },
   {
@@ -269,8 +269,8 @@
    "name": "answer-me-with-html",
    "url": "https://github.com/QingYunA/answer-me-with-html",
    "from": "GitHub",
-   "use": 195,
-   "useLabel": "+195 stars/day",
+   "use": 231,
+   "useLabel": "+231 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -384,8 +384,8 @@
  "github": [
   {
    "repo": "QingYunA/answer-me-with-html",
-   "stars": 2073,
-   "d24": 195,
+   "stars": 2087,
+   "d24": 231,
    "est": false,
    "forks": 140,
    "contrib": null,
@@ -403,18 +403,7 @@
    "grow": 0,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 2010
-  },
-  {
-   "name": "clef",
-   "org": "Cloudflare",
-   "lic": "Open source",
-   "at": "2026-09-30T21:15:35.000Z",
-   "dl": 9513,
-   "grow": 0,
-   "score": 91,
-   "cat": "Coding",
-   "likes": 1816
+   "likes": 2034
   },
   {
    "name": "GEV-26B-Decide",
@@ -426,7 +415,18 @@
    "grow": 0,
    "score": 91,
    "cat": "Coding",
-   "likes": 1338
+   "likes": 1350
+  },
+  {
+   "name": "clef",
+   "org": "Cloudflare",
+   "lic": "Open source",
+   "at": "2026-09-30T21:15:35.000Z",
+   "dl": 9513,
+   "grow": 0,
+   "score": 90,
+   "cat": "Coding",
+   "likes": 1819
   },
   {
    "name": "Kolibri-1",
@@ -448,7 +448,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Vision",
-   "likes": 962
+   "likes": 969
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -459,7 +459,7 @@
    "grow": 0,
    "score": 84,
    "cat": "Infrastructure",
-   "likes": 3566
+   "likes": 3571
   }
  ],
  "free": [
@@ -931,8 +931,8 @@
    "t": "Claude Haiku 5.5",
    "url": "https://news.ycombinator.com/item?id=49996437",
    "link": "https://www.anthropic.com/claude-haiku-5-5",
-   "up": 688,
-   "com": 342,
+   "up": 700,
+   "com": 349,
    "at": "2026-10-07T18:01:32.000Z"
   },
   {
@@ -940,7 +940,7 @@
    "t": "GPT‑6 and Intelligent UI for everyone",
    "url": "https://news.ycombinator.com/item?id=49996425",
    "link": "https://openai.com/index/gpt-6-for-everyone/",
-   "up": 504,
+   "up": 516,
    "com": 268,
    "at": "2026-10-07T18:00:58.000Z"
   },
@@ -949,8 +949,8 @@
    "t": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
    "url": "https://news.ycombinator.com/item?id=49997161",
    "link": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
-   "up": 277,
-   "com": 276,
+   "up": 285,
+   "com": 281,
    "at": "2026-10-07T18:49:40.000Z"
   },
   {
@@ -958,8 +958,8 @@
    "t": "Rust Port of TypeScript (Tsc)",
    "url": "https://news.ycombinator.com/item?id=50000676",
    "link": "https://github.com/pingdotgg/ts-rust",
-   "up": 39,
-   "com": 32,
+   "up": 43,
+   "com": 49,
    "at": "2026-10-08T00:46:00.000Z"
   },
   {
@@ -967,7 +967,7 @@
    "t": "A font recreated from photographs of classic Commodore 64 keycaps",
    "url": "https://news.ycombinator.com/item?id=49990224",
    "link": "https://github.com/szabadkai/c64-keyboard-font/",
-   "up": 383,
+   "up": 384,
    "com": 62,
    "at": "2026-10-07T09:17:55.000Z"
   },
@@ -976,8 +976,8 @@
    "t": "Docker Agent",
    "url": "https://news.ycombinator.com/item?id=49996259",
    "link": "https://github.com/docker/docker-agent",
-   "up": 183,
-   "com": 84,
+   "up": 185,
+   "com": 85,
    "at": "2026-10-07T17:48:38.000Z"
   }
  ]
