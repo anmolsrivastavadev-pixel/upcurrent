@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-08T06:30:50.849Z"
+  "updated": "2026-10-08T07:01:05.036Z"
  },
  "pulse": {
   "trending": 77,
   "accelerating": 0,
-  "newModels": 6,
-  "discussions": 44,
-  "stars": 349
+  "newModels": 7,
+  "discussions": 43,
+  "stars": 365
  },
  "rising": [
   {
@@ -22,7 +22,7 @@
    "cat": "Infrastructure",
    "score": 91,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 2.2K",
+   "desc": "Model on Hugging Face · open source · ♥ 2.3K",
    "meta": [
     "1.5M downloads",
     "Released 8 days ago"
@@ -88,8 +88,8 @@
    "grow": 8,
    "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
    "meta": [
-    "★ 2,178",
-    "+349 in 24h",
+    "★ 2,193",
+    "+365 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-02T09:57:40Z",
@@ -122,7 +122,7 @@
    "grow": null,
    "desc": "Linear attention replaces growing KV caches with fixed-size recurrent states, yet these persistent states can become a substantial memory bottleneck under concurrent serving.",
    "meta": [
-    "▲ 71 upvotes",
+    "▲ 79 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-09-28T20:00:00.000Z",
@@ -138,9 +138,9 @@
    "grow": null,
    "desc": "AI workflow automation: show it once, let it run",
    "meta": [
-    "▲ 473 votes",
-    "105 comments",
-    "Launched 23h ago"
+    "▲ 497 votes",
+    "119 comments",
+    "Launched yesterday"
    ],
    "at": "2026-10-07T07:01:00Z",
    "breakout": null
@@ -168,7 +168,7 @@
    "cat": "Coding",
    "score": 84,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 666",
+   "desc": "Model on Hugging Face · open source · ♥ 668",
    "meta": [
     "16K downloads",
     "Released 7 days ago"
@@ -186,7 +186,7 @@
    "from": "Hugging Face",
    "use": 7562,
    "useLabel": "7.6K downloads",
-   "usePct": 0.2,
+   "usePct": 0.22857142857142856,
    "talk": [
     {
      "src": "Google DeepMind blog",
@@ -201,8 +201,8 @@
    "name": "answer-me-with-html",
    "url": "https://github.com/QingYunA/answer-me-with-html",
    "from": "GitHub",
-   "use": 349,
-   "useLabel": "+349 stars/day",
+   "use": 365,
+   "useLabel": "+365 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -316,8 +316,8 @@
  "github": [
   {
    "repo": "QingYunA/answer-me-with-html",
-   "stars": 2178,
-   "d24": 349,
+   "stars": 2193,
+   "d24": 365,
    "est": false,
    "forks": 148,
    "contrib": null,
@@ -335,7 +335,7 @@
    "grow": 0,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 2246
+   "likes": 2278
   },
   {
    "name": "clef",
@@ -346,7 +346,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Coding",
-   "likes": 1841
+   "likes": 1842
   },
   {
    "name": "GEV-26B-Decide",
@@ -358,7 +358,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Coding",
-   "likes": 1460
+   "likes": 1474
   },
   {
    "name": "Kolibri-1",
@@ -380,7 +380,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Vision",
-   "likes": 1031
+   "likes": 1036
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -391,7 +391,7 @@
    "grow": 0,
    "score": 84,
    "cat": "Infrastructure",
-   "likes": 3600
+   "likes": 3604
   }
  ],
  "free": [
@@ -822,20 +822,6 @@
    "kind": "News"
   },
   {
-   "t": "Mecka, which collects human motion data to train humanoid robots, raised a $60M Series B led by Sequoia, with participation from Nvidia, M12, and others",
-   "url": "https://www.techmeme.com/261007/p43#a261007p43",
-   "at": "2026-10-08T00:35:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Letter: three fired OpenAI researchers urge AI labs to halt work that could impair AI monitoring and say their firings are \"chilling those who remain at OpenAI\"",
-   "url": "https://www.techmeme.com/261007/p42#a261007p42",
-   "at": "2026-10-08T00:05:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "OpenAI Just Broke Math With Its Most Powerful AI Yet",
    "url": "https://www.youtube.com/watch?v=WYpzvsC4qTk",
    "at": "2026-10-07T22:12:23Z",
@@ -855,25 +841,30 @@
    "at": "2026-10-07T19:14:03Z",
    "src": "The Guardian",
    "kind": "News"
+  },
+  {
+   "t": "The latest TLD applications are all about AI",
+   "url": "https://www.theverge.com/tech/1007132/icann-domains-2026-ai-agi",
+   "at": "2026-10-07T18:46:16Z",
+   "src": "The Verge",
+   "kind": "News"
+  },
+  {
+   "t": "NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents",
+   "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
+   "at": "2026-10-07T18:45:28.000Z",
+   "src": "NVIDIA",
+   "kind": "Lab blog"
   }
  ],
  "discussions": [
   {
    "src": "Hacker News",
-   "t": "Terence Tao Responds to the OpenAI Math Drop",
-   "url": "https://news.ycombinator.com/item?id=50002008",
-   "link": "https://mathstodon.xyz/@tao/117395269325940185",
-   "up": 144,
-   "com": 71,
-   "at": "2026-10-08T05:14:14.000Z"
-  },
-  {
-   "src": "Hacker News",
    "t": "Claude Haiku 5.5",
    "url": "https://news.ycombinator.com/item?id=49996437",
    "link": "https://www.anthropic.com/claude-haiku-5-5",
-   "up": 803,
-   "com": 392,
+   "up": 815,
+   "com": 400,
    "at": "2026-10-07T18:01:32.000Z"
   },
   {
@@ -881,8 +872,8 @@
    "t": "GPT‑6 and Intelligent UI for everyone",
    "url": "https://news.ycombinator.com/item?id=49996425",
    "link": "https://openai.com/index/gpt-6-for-everyone/",
-   "up": 579,
-   "com": 298,
+   "up": 590,
+   "com": 300,
    "at": "2026-10-07T18:00:58.000Z"
   },
   {
@@ -890,8 +881,8 @@
    "t": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
    "url": "https://news.ycombinator.com/item?id=49997161",
    "link": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
-   "up": 333,
-   "com": 323,
+   "up": 334,
+   "com": 324,
    "at": "2026-10-07T18:49:40.000Z"
   },
   {
@@ -899,7 +890,7 @@
    "t": "A font recreated from photographs of classic Commodore 64 keycaps",
    "url": "https://news.ycombinator.com/item?id=49990224",
    "link": "https://github.com/szabadkai/c64-keyboard-font/",
-   "up": 386,
+   "up": 388,
    "com": 64,
    "at": "2026-10-07T09:17:55.000Z"
   },
@@ -908,9 +899,18 @@
    "t": "Docker Agent",
    "url": "https://news.ycombinator.com/item?id=49996259",
    "link": "https://github.com/docker/docker-agent",
-   "up": 213,
-   "com": 100,
+   "up": 216,
+   "com": 101,
    "at": "2026-10-07T17:48:38.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "A 100x faster* alternative to homebrew",
+   "url": "https://news.ycombinator.com/item?id=50001580",
+   "link": "https://github.com/zerobrewhq/zerobrew",
+   "up": 58,
+   "com": 33,
+   "at": "2026-10-08T03:23:08.000Z"
   }
  ]
 }
