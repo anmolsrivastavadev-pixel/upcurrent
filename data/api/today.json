@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-08T21:01:05.660Z"
+  "updated": "2026-10-08T21:30:50.727Z"
  },
  "pulse": {
   "trending": 77,
   "accelerating": 2,
   "newModels": 7,
-  "discussions": 42,
-  "stars": 586
+  "discussions": 43,
+  "stars": 588
  },
  "rising": [
   {
@@ -70,7 +70,7 @@
    "cat": "Infrastructure",
    "score": 87,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 810",
+   "desc": "Model on Hugging Face · open source · ♥ 812",
    "meta": [
     "6.8K downloads",
     "Released 7 days ago"
@@ -105,7 +105,7 @@
    "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
    "meta": [
     "★ 2,319",
-    "~359 in 24h",
+    "~358 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-02T09:57:40Z",
@@ -152,7 +152,7 @@
    "cat": "Infrastructure",
    "score": 84,
    "grow": 7874,
-   "desc": "Model on Hugging Face · open source · ♥ 375",
+   "desc": "Model on Hugging Face · open source · ♥ 376",
    "meta": [
     "5.4K downloads",
     "Released 2 days ago"
@@ -182,7 +182,7 @@
   {
    "key": "gpt 6",
    "label": "GPT-6",
-   "n": 4,
+   "n": 3,
    "sources": [
     {
      "src": "OpenAI blog",
@@ -193,11 +193,6 @@
      "src": "Livescience.com",
      "t": "OpenAI claims we've entered the AGI era - has GPT-6 Astra really demonstrated general intelligence?",
      "url": "https://www.livescience.com/technology/artificial-intelligence/openai-claims-weve-entered-the-agi-era-has-gpt-6-astra-really-demonstrated-general-intelligence"
-    },
-    {
-     "src": "9to5Mac",
-     "t": "OpenAI brings GPT-6 to ChatGPT and debuts Intelligent UI",
-     "url": "https://9to5mac.com/2026/10/07/openai-brings-gpt-6-to-chatgpt-and-debuts-intelligent-ui/"
     },
     {
      "src": "GitHub",
@@ -226,14 +221,9 @@
      "src": "Livescience.com",
      "t": "OpenAI claims we've entered the AGI era - has GPT-6 Astra really demonstrated general intelligence?",
      "url": "https://www.livescience.com/technology/artificial-intelligence/openai-claims-weve-entered-the-agi-era-has-gpt-6-astra-really-demonstrated-general-intelligence"
-    },
-    {
-     "src": "9to5Mac",
-     "t": "OpenAI brings GPT-6 to ChatGPT and debuts Intelligent UI",
-     "url": "https://9to5mac.com/2026/10/07/openai-brings-gpt-6-to-chatgpt-and-debuts-intelligent-ui/"
     }
    ],
-   "buzz": 3,
+   "buzz": 2,
    "verdict": "Talk only, no public usage numbers"
   },
   {
@@ -257,8 +247,8 @@
    "name": "answer-me-with-html",
    "url": "https://github.com/QingYunA/answer-me-with-html",
    "from": "GitHub",
-   "use": 359,
-   "useLabel": "~359 stars/day",
+   "use": 358,
+   "useLabel": "~358 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -288,6 +278,16 @@
   }
  ],
  "receipts": [
+  {
+   "name": "angel291592/Intent-Router",
+   "url": "https://github.com/angel291592/Intent-Router",
+   "kind": "stars",
+   "first": "2026-10-06T00:01:07.303Z",
+   "firstV": 866,
+   "m": 1000,
+   "at": "2026-10-08T21:30:50.727Z",
+   "lead": 69.49539555555556
+  },
   {
    "name": "Jakeschincariol/replica-skill",
    "url": "https://github.com/Jakeschincariol/replica-skill",
@@ -357,23 +357,13 @@
    "m": 2500,
    "at": "2026-10-08T01:30:47.959Z",
    "lead": 29.9984175
-  },
-  {
-   "name": "rehan-remade/universal-modder",
-   "url": "https://github.com/rehan-remade/universal-modder",
-   "kind": "stars",
-   "first": "2026-10-01T17:48:04.617Z",
-   "firstV": 1408,
-   "m": 5000,
-   "at": "2026-10-07T19:51:16.190Z",
-   "lead": 146.05321472222224
   }
  ],
  "github": [
   {
    "repo": "QingYunA/answer-me-with-html",
    "stars": 2319,
-   "d24": 359,
+   "d24": 358,
    "est": true,
    "forks": 155,
    "contrib": null,
@@ -381,10 +371,10 @@
   },
   {
    "repo": "Jakeschincariol/replica-skill",
-   "stars": 1047,
-   "d24": 227,
+   "stars": 1053,
+   "d24": 230,
    "est": false,
-   "forks": 130,
+   "forks": 132,
    "contrib": null,
    "score": 80
   }
@@ -423,7 +413,7 @@
    "grow": null,
    "score": 88,
    "cat": "Coding",
-   "likes": 1879
+   "likes": 1880
   },
   {
    "name": "Kolibri-1",
@@ -434,7 +424,7 @@
    "grow": null,
    "score": 87,
    "cat": "Infrastructure",
-   "likes": 810
+   "likes": 812
   },
   {
    "name": "embeddinggemma-2",
@@ -445,7 +435,7 @@
    "grow": null,
    "score": 86,
    "cat": "Vision",
-   "likes": 1170
+   "likes": 1174
   },
   {
    "name": "GLM5.3-Flash-E224-DGX-Spark",
@@ -456,7 +446,7 @@
    "grow": 7874,
    "score": 84,
    "cat": "Infrastructure",
-   "likes": 375
+   "likes": 376
   }
  ],
  "free": [
@@ -799,6 +789,13 @@
  },
  "headlines": [
   {
+   "t": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+   "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+   "at": "2026-10-08T21:06:35.000Z",
+   "src": "NVIDIA",
+   "kind": "Lab blog"
+  },
+  {
    "t": "USV raised $900M, including a $500M early-stage fund, up from $275M in 2024, cuts general partnership to four investors, and aims to lead more AI rounds",
    "url": "https://www.techmeme.com/261008/p47#a261008p47",
    "at": "2026-10-08T20:40:01.000Z",
@@ -902,13 +899,6 @@
    "at": "2026-10-08T12:23:20Z",
    "src": "The Guardian",
    "kind": "News"
-  },
-  {
-   "t": "Microsoft Slashes Spending on Anthropic AI Claude - AI is Too Expensive",
-   "url": "https://www.youtube.com/watch?v=e5YE6iOJRiU",
-   "at": "2026-10-08T12:00:18Z",
-   "src": "Eli the Computer Guy",
-   "kind": "Video"
   }
  ],
  "discussions": [
@@ -917,8 +907,8 @@
    "t": "Tell HN: I've been paying for a rural Tanzanian's education for 10 years",
    "url": "https://news.ycombinator.com/item?id=50006366",
    "link": "",
-   "up": 621,
-   "com": 172,
+   "up": 628,
+   "com": 174,
    "at": "2026-10-08T14:39:47.000Z"
   },
   {
@@ -926,8 +916,8 @@
    "t": "OpenAI annualised revenues $20B less than previously signalled",
    "url": "https://news.ycombinator.com/item?id=50008187",
    "link": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
-   "up": 299,
-   "com": 187,
+   "up": 317,
+   "com": 204,
    "at": "2026-10-08T16:45:58.000Z"
   },
   {
@@ -935,18 +925,9 @@
    "t": "The value of not getting to the point (2015)",
    "url": "https://news.ycombinator.com/item?id=50010470",
    "link": "https://ken.arneson.name/2015/11/the-value-of-not-getting-to-the-point/",
-   "up": 55,
-   "com": 19,
+   "up": 66,
+   "com": 21,
    "at": "2026-10-08T19:04:56.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "License update: AI derivation prohibited on all my art, lore, stories, comics",
-   "url": "https://news.ycombinator.com/item?id=50011028",
-   "link": "https://www.davidrevoy.com/article1178/license-update-ai-derivation-prohibited-on-all-my-art-lore-stories-and-comics",
-   "up": 34,
-   "com": 19,
-   "at": "2026-10-08T19:43:59.000Z"
   },
   {
    "src": "Hacker News",
@@ -962,9 +943,18 @@
    "t": "Vitalik Buterin backs crypto ‘bunker mode’ amid rapid AI math advances",
    "url": "https://news.ycombinator.com/item?id=50010656",
    "link": "https://cointelegraph.com/news/justin-drake-urges-crypto-bunker-mode-as-ai-could-break-wallet-security-within-months",
-   "up": 40,
-   "com": 27,
+   "up": 46,
+   "com": 33,
    "at": "2026-10-08T19:17:51.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "License update: AI derivation prohibited on all my art, lore, stories, comics",
+   "url": "https://news.ycombinator.com/item?id=50011028",
+   "link": "https://www.davidrevoy.com/article1178/license-update-ai-derivation-prohibited-on-all-my-art-lore-stories-and-comics",
+   "up": 36,
+   "com": 22,
+   "at": "2026-10-08T19:43:59.000Z"
   }
  ]
 }
