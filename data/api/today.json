@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-08T09:01:07.035Z"
+  "updated": "2026-10-08T09:30:50.498Z"
  },
  "pulse": {
-  "trending": 77,
+  "trending": 78,
   "accelerating": 0,
   "newModels": 7,
-  "discussions": 49,
-  "stars": 376
+  "discussions": 47,
+  "stars": 582
  },
  "rising": [
   {
@@ -41,7 +41,7 @@
    "desc": "Model on Hugging Face · open source · ♥ 1.9K",
    "meta": [
     "9.5K downloads",
-    "Released 7 days ago"
+    "Released 8 days ago"
    ],
    "at": "2026-09-30T21:15:35.000Z",
    "breakout": null,
@@ -85,11 +85,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 86,
-   "grow": 10,
+   "grow": 11,
    "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
    "meta": [
-    "★ 2,229",
-    "+376 in 24h",
+    "★ 2,245",
+    "+390 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-02T09:57:40Z",
@@ -122,7 +122,7 @@
    "grow": null,
    "desc": "Vision-language-action models benefit from the understanding and reasoning capabilities of pretrained vision-language models, but action-only supervision provides limited grounding in world dynamics.",
    "meta": [
-    "▲ 40 upvotes",
+    "▲ 41 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-09-30T20:00:00.000Z",
@@ -171,7 +171,7 @@
    "desc": "Model on Hugging Face · open source · ♥ 674",
    "meta": [
     "16K downloads",
-    "Released 7 days ago"
+    "Released 8 days ago"
    ],
    "at": "2026-09-30T21:15:36.000Z",
    "breakout": null,
@@ -201,8 +201,8 @@
    "name": "answer-me-with-html",
    "url": "https://github.com/QingYunA/answer-me-with-html",
    "from": "GitHub",
-   "use": 376,
-   "useLabel": "+376 stars/day",
+   "use": 390,
+   "useLabel": "+390 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -316,12 +316,21 @@
  "github": [
   {
    "repo": "QingYunA/answer-me-with-html",
-   "stars": 2229,
-   "d24": 376,
+   "stars": 2245,
+   "d24": 390,
    "est": false,
-   "forks": 148,
+   "forks": 151,
    "contrib": null,
    "score": 86
+  },
+  {
+   "repo": "Jakeschincariol/replica-skill",
+   "stars": 938,
+   "d24": 192,
+   "est": true,
+   "forks": 116,
+   "contrib": null,
+   "score": 79
   }
  ],
  "models": [
@@ -335,7 +344,7 @@
    "grow": 0,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 2381
+   "likes": 2405
   },
   {
    "name": "clef",
@@ -346,7 +355,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Coding",
-   "likes": 1855
+   "likes": 1856
   },
   {
    "name": "GEV-26B-Decide",
@@ -358,7 +367,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Coding",
-   "likes": 1533
+   "likes": 1545
   },
   {
    "name": "Kolibri-1",
@@ -380,7 +389,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Vision",
-   "likes": 1068
+   "likes": 1072
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -391,7 +400,7 @@
    "grow": 0,
    "score": 84,
    "cat": "Infrastructure",
-   "likes": 3620
+   "likes": 3626
   }
  ],
  "free": [
@@ -822,17 +831,24 @@
    "kind": "News"
   },
   {
-   "t": "Keyu Tian, a former ByteDance intern, raised ~$30M from 5Y and IDG for his unnamed AI lab that focuses on building world models, at a $200M post-money valuation",
-   "url": "https://www.techmeme.com/261007/p44#a261007p44",
-   "at": "2026-10-08T01:05:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Datacentre company Firmus’s high flying valuation may be coming back down to earth ahead of expected ASX debut",
    "url": "https://www.theguardian.com/australia-news/2026/oct/08/ai-datacentre-firmus-slash-valuation-before-asx-listing",
    "at": "2026-10-08T00:57:58Z",
    "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "OpenAI Just Broke Math With Its Most Powerful AI Yet",
+   "url": "https://www.youtube.com/watch?v=WYpzvsC4qTk",
+   "at": "2026-10-07T22:12:23Z",
+   "src": "AI Revolution",
+   "kind": "Video"
+  },
+  {
+   "t": "ChatGPT for Teens Is an ‘Unacceptable Risk,’ Watchdog Group Says",
+   "url": "https://www.cnet.com/tech/services-and-software/chatgpt-for-teens-unacceptable-risk-common-sense-media-study/",
+   "at": "2026-10-07T21:06:04Z",
+   "src": "CNET",
    "kind": "News"
   },
   {
@@ -848,13 +864,6 @@
    "at": "2026-10-07T21:00:00Z",
    "src": "Fortune",
    "kind": "News"
-  },
-  {
-   "t": "6 to ChatGPT and debuts Intelligent UI",
-   "url": "https://9to5mac.com/2026/10/07/openai-brings-gpt-6-to-chatgpt-and-debuts-intelligent-ui/",
-   "at": "2026-10-07T20:57:28Z",
-   "src": "9to5Mac",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -863,8 +872,8 @@
    "t": "Claude Haiku 5.5",
    "url": "https://news.ycombinator.com/item?id=49996437",
    "link": "https://www.anthropic.com/claude-haiku-5-5",
-   "up": 864,
-   "com": 417,
+   "up": 873,
+   "com": 418,
    "at": "2026-10-07T18:01:32.000Z"
   },
   {
@@ -872,8 +881,8 @@
    "t": "GPT‑6 and Intelligent UI for everyone",
    "url": "https://news.ycombinator.com/item?id=49996425",
    "link": "https://openai.com/index/gpt-6-for-everyone/",
-   "up": 617,
-   "com": 336,
+   "up": 625,
+   "com": 345,
    "at": "2026-10-07T18:00:58.000Z"
   },
   {
@@ -882,7 +891,7 @@
    "url": "https://news.ycombinator.com/item?id=49997161",
    "link": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
    "up": 340,
-   "com": 335,
+   "com": 337,
    "at": "2026-10-07T18:49:40.000Z"
   },
   {
@@ -890,27 +899,27 @@
    "t": "OpenAI withdraws three mathematical results",
    "url": "https://news.ycombinator.com/item?id=50002650",
    "link": "https://twitter.com/danintheory/status/2108065033070789090",
-   "up": 33,
-   "com": 20,
+   "up": 44,
+   "com": 35,
    "at": "2026-10-08T07:05:40.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "I think I found a planet nobody knew existed. I used Claude Code to find it",
-   "url": "https://news.ycombinator.com/item?id=50002665",
-   "link": "https://www.reddit.com/r/ClaudeAI/s/mbe5IY2LF9",
-   "up": 32,
-   "com": 12,
-   "at": "2026-10-08T07:07:34.000Z"
+   "t": "Classic PC demoscene productions running natively in the browser",
+   "url": "https://news.ycombinator.com/item?id=50002426",
+   "link": "https://treylorswift.github.io/demoscene-recomp/web/",
+   "up": 48,
+   "com": 24,
+   "at": "2026-10-08T06:29:25.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "A font recreated from photographs of classic Commodore 64 keycaps",
-   "url": "https://news.ycombinator.com/item?id=49990224",
-   "link": "https://github.com/szabadkai/c64-keyboard-font/",
-   "up": 389,
-   "com": 64,
-   "at": "2026-10-07T09:17:55.000Z"
+   "t": "Docker Agent",
+   "url": "https://news.ycombinator.com/item?id=49996259",
+   "link": "https://github.com/docker/docker-agent",
+   "up": 233,
+   "com": 109,
+   "at": "2026-10-07T17:48:38.000Z"
   }
  ]
 }
