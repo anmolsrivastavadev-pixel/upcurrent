@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-08T13:31:00.499Z"
+  "updated": "2026-10-08T14:01:04.740Z"
  },
  "pulse": {
   "trending": 78,
   "accelerating": 4,
   "newModels": 8,
-  "discussions": 47,
-  "stars": 568
+  "discussions": 46,
+  "stars": 561
  },
  "rising": [
   {
@@ -88,8 +88,8 @@
    "grow": 14,
    "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
    "meta": [
-    "★ 2,299",
-    "+375 in 24h",
+    "★ 2,301",
+    "+367 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-02T09:57:40Z",
@@ -138,7 +138,7 @@
    "grow": null,
    "desc": "AI workflow automation: show it once, let it run",
    "meta": [
-    "▲ 514 votes",
+    "▲ 515 votes",
     "119 comments",
     "Launched yesterday"
    ],
@@ -178,15 +178,61 @@
    "url": "https://huggingface.co/Cloudflare/clef-flash"
   }
  ],
- "breakouts": [],
+ "breakouts": [
+  {
+   "key": "gpt 6",
+   "label": "GPT-6",
+   "n": 3,
+   "sources": [
+    {
+     "src": "OpenAI blog",
+     "t": "GPT-6 and Intelligent UI for everyone",
+     "url": "https://openai.com/index/gpt-6-for-everyone"
+    },
+    {
+     "src": "The Indian Express",
+     "t": "OpenAI rolls out GPT-6 with visuals, interactive features and faster responses",
+     "url": "https://indianexpress.com/shorts/technology/artificial-intelligence/openai-rolls-out-gpt-6-with-visuals-interactive-features-and-faster-responses-10911660/"
+    },
+    {
+     "src": "GitHub",
+     "t": "zjwzcx/Awesome-Astra-Embodied-AI",
+     "url": "https://github.com/zjwzcx/Awesome-Astra-Embodied-AI"
+    }
+   ],
+   "since": "2026-10-02T11:40:52.853Z"
+  }
+ ],
  "hype": [
+  {
+   "name": "GPT-6",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "OpenAI blog",
+     "t": "GPT-6 and Intelligent UI for everyone",
+     "url": "https://openai.com/index/gpt-6-for-everyone"
+    },
+    {
+     "src": "The Indian Express",
+     "t": "OpenAI rolls out GPT-6 with visuals, interactive features and faster responses",
+     "url": "https://indianexpress.com/shorts/technology/artificial-intelligence/openai-rolls-out-gpt-6-with-visuals-interactive-features-and-faster-responses-10911660/"
+    }
+   ],
+   "buzz": 2,
+   "verdict": "Talk only, no public usage numbers"
+  },
   {
    "name": "embeddinggemma-2",
    "url": "https://huggingface.co/google/embeddinggemma-2",
    "from": "Hugging Face",
    "use": 21148,
    "useLabel": "21K downloads",
-   "usePct": 0.42857142857142855,
+   "usePct": 0.4,
    "talk": [
     {
      "src": "Google DeepMind blog",
@@ -201,8 +247,8 @@
    "name": "answer-me-with-html",
    "url": "https://github.com/QingYunA/answer-me-with-html",
    "from": "GitHub",
-   "use": 375,
-   "useLabel": "+375 stars/day",
+   "use": 367,
+   "useLabel": "+367 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -316,8 +362,8 @@
  "github": [
   {
    "repo": "QingYunA/answer-me-with-html",
-   "stars": 2299,
-   "d24": 375,
+   "stars": 2301,
+   "d24": 367,
    "est": false,
    "forks": 154,
    "contrib": null,
@@ -325,10 +371,10 @@
   },
   {
    "repo": "Jakeschincariol/replica-skill",
-   "stars": 978,
-   "d24": 193,
+   "stars": 985,
+   "d24": 194,
    "est": true,
-   "forks": 121,
+   "forks": 123,
    "contrib": null,
    "score": 79
   }
@@ -344,7 +390,7 @@
    "grow": 0,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 2616
+   "likes": 2641
   },
   {
    "name": "clef",
@@ -355,7 +401,7 @@
    "grow": 14,
    "score": 90,
    "cat": "Coding",
-   "likes": 1862
+   "likes": 1864
   },
   {
    "name": "GEV-26B-Decide",
@@ -367,7 +413,7 @@
    "grow": 1,
    "score": 90,
    "cat": "Coding",
-   "likes": 1639
+   "likes": 1648
   },
   {
    "name": "Kolibri-1",
@@ -389,7 +435,7 @@
    "grow": 180,
    "score": 86,
    "cat": "Vision",
-   "likes": 1108
+   "likes": 1110
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -400,7 +446,7 @@
    "grow": 6,
    "score": 84,
    "cat": "Infrastructure",
-   "likes": 3642
+   "likes": 3643
   }
  ],
  "free": [
@@ -459,6 +505,14 @@
    "url": null,
    "caps": [],
    "added": false
+  },
+  {
+   "name": "step-5-preview",
+   "prov": "OpenCode Zen",
+   "ctx": null,
+   "url": null,
+   "caps": [],
+   "added": true
   },
   {
    "name": "ling-3.0-flash-fin",
@@ -730,6 +784,13 @@
   "since": "2026-10-01T17:48:04.617Z",
   "events": [
    {
+    "type": "added",
+    "name": "step-5-preview",
+    "prov": "OpenCode Zen",
+    "url": null,
+    "at": "2026-10-08T14:01:04.740Z"
+   },
+   {
     "type": "removed",
     "name": "mimo-v2.5",
     "prov": "OpenCode Zen",
@@ -754,7 +815,28 @@
  },
  "headlines": [
   {
-   "t": "Google Cloud unveils the Gemini agent to handle multi-day enterprise workflows across Workspace, Microsoft 365, and Slack, with support for multiple AI models",
+   "t": "European venture funding rose 77% YoY to $25B in Q3, the region's strongest funding quarter in four years, representing 16% of global VC and led by AI startups",
+   "url": "https://www.techmeme.com/261008/p28#a261008p28",
+   "at": "2026-10-08T13:55:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Google debuts Google AI Edge Foresight, a local macOS note-taking app for meetings that uses its 740M-parameter EmbeddingGemma 2 model and Gemma 4 assistant",
+   "url": "https://www.techmeme.com/261008/p27#a261008p27",
+   "at": "2026-10-08T13:45:11.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "OpenAI disrupts a Russian influence campaign tied to the Politology network that targeted schools, media, and foreign officials, and gives it a 5/6 impact score",
+   "url": "https://www.techmeme.com/261008/p26#a261008p26",
+   "at": "2026-10-08T13:40:00.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Google Cloud unveils a universal Gemini agent to handle multi-day enterprise workflows in Workspace, Microsoft 365, and Slack that supports several AI models",
    "url": "https://www.techmeme.com/261008/p25#a261008p25",
    "at": "2026-10-08T13:25:01.000Z",
    "src": "Techmeme",
@@ -810,13 +892,6 @@
    "kind": "News"
   },
   {
-   "t": "ICANN receives 1,615 TLD applications from 481 applicants; Meta, OpenAI, and eight others applied for .agent, seven companies applied for .agi, and six for .asi",
-   "url": "https://www.techmeme.com/261008/p13#a261008p13",
-   "at": "2026-10-08T09:45:00.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "‘Dystopian’: Co-op becomes latest firm to put staff under AI surveillance",
    "url": "https://www.theguardian.com/technology/2026/oct/08/co-op-legal-services-ai-customer-phone-call-surveillance",
    "at": "2026-10-08T09:00:16Z",
@@ -831,38 +906,24 @@
    "kind": "News"
   },
   {
-   "t": "Singapore sets AI risk rules for financial sector from 2027",
-   "url": "https://www.malaymail.com/news/singapore/2026/10/08/singapore-sets-ai-risk-rules-for-financial-sector-from-2027/238172",
-   "at": "2026-10-08T01:18:06Z",
-   "src": "Malay Mail",
+   "t": "ChatGPT to start showing visual ads to Free and Go users",
+   "url": "https://www.thestar.com.my/tech/tech-news/2026/10/08/chatgpt-to-start-showing-visual-ads-to-free-and-go-users",
+   "at": "2026-10-08T02:00:00Z",
+   "src": "The Star",
    "kind": "News"
   },
   {
-   "t": "OpenAI says teens use ChatGPT for under 15 minutes a day as worries over risks grow",
-   "url": "https://www.straitstimes.com/world/openai-says-teens-use-chatgpt-for-under-15-minutes-a-day-as-worries-over-risks-grow",
-   "at": "2026-10-08T01:01:00Z",
-   "src": "The Straits Times",
+   "t": "Justin Drake Calls for Crypto “Bunker Mode” as AI Threat Grows",
+   "url": "https://www.cryptobreaking.com/justin-drake-calls-for-crypto/",
+   "at": "2026-10-08T01:45:22Z",
+   "src": "Crypto Breaking News",
    "kind": "News"
   },
   {
-   "t": "Datacentre company Firmus’s high flying valuation may be coming back down to earth ahead of expected ASX debut",
-   "url": "https://www.theguardian.com/australia-news/2026/oct/08/ai-datacentre-firmus-slash-valuation-before-asx-listing",
-   "at": "2026-10-08T00:57:58Z",
-   "src": "The Guardian",
-   "kind": "News"
-  },
-  {
-   "t": "The AI price war is heating up-and OpenAI is gaining ground on Anthropic",
-   "url": "https://www.livemint.com/ai/the-ai-price-war-is-heating-up-and-openai-is-gaining-ground-on-anthropic-11791420672276.html",
-   "at": "2026-10-08T00:52:40Z",
-   "src": "Livemint",
-   "kind": "News"
-  },
-  {
-   "t": "Microsoft bets buyers will pony up over RM10,000 for an AI-powered Surface Ultra laptop",
-   "url": "https://www.malaymail.com/news/tech-gadgets/2026/10/08/microsoft-bets-buyers-will-pony-up-over-rm10000-for-an-ai-powered-surface-ultra-laptop/238156",
-   "at": "2026-10-08T00:49:22Z",
-   "src": "Malay Mail",
+   "t": "OpenAI rolls out GPT-6 with visuals, interactive features and faster responses",
+   "url": "https://indianexpress.com/shorts/technology/artificial-intelligence/openai-rolls-out-gpt-6-with-visuals-interactive-features-and-faster-responses-10911660/",
+   "at": "2026-10-08T01:44:03Z",
+   "src": "The Indian Express",
    "kind": "News"
   }
  ],
@@ -872,8 +933,8 @@
    "t": "Claude Haiku 5.5",
    "url": "https://news.ycombinator.com/item?id=49996437",
    "link": "https://www.anthropic.com/claude-haiku-5-5",
-   "up": 945,
-   "com": 444,
+   "up": 952,
+   "com": 447,
    "at": "2026-10-07T18:01:32.000Z"
   },
   {
@@ -881,8 +942,8 @@
    "t": "GPT‑6 and Intelligent UI for everyone",
    "url": "https://news.ycombinator.com/item?id=49996425",
    "link": "https://openai.com/index/gpt-6-for-everyone/",
-   "up": 684,
-   "com": 399,
+   "up": 690,
+   "com": 401,
    "at": "2026-10-07T18:00:58.000Z"
   },
   {
@@ -890,8 +951,8 @@
    "t": "OpenAI Withdraws 3 Math Papers",
    "url": "https://news.ycombinator.com/item?id=50003107",
    "link": "https://github.com/openai/math/blob/main/history.md",
-   "up": 138,
-   "com": 103,
+   "up": 179,
+   "com": 130,
    "at": "2026-10-08T08:08:37.000Z"
   },
   {
@@ -899,8 +960,8 @@
    "t": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
    "url": "https://news.ycombinator.com/item?id=49997161",
    "link": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
-   "up": 349,
-   "com": 354,
+   "up": 353,
+   "com": 358,
    "at": "2026-10-07T18:49:40.000Z"
   },
   {
@@ -908,8 +969,8 @@
    "t": "Classic PC demoscene productions running natively in the browser",
    "url": "https://news.ycombinator.com/item?id=50002426",
    "link": "https://treylorswift.github.io/demoscene-recomp/web/",
-   "up": 114,
-   "com": 99,
+   "up": 117,
+   "com": 103,
    "at": "2026-10-08T06:29:25.000Z"
   },
   {
@@ -917,7 +978,7 @@
    "t": "Docker Agent",
    "url": "https://news.ycombinator.com/item?id=49996259",
    "link": "https://github.com/docker/docker-agent",
-   "up": 266,
+   "up": 269,
    "com": 124,
    "at": "2026-10-07T17:48:38.000Z"
   }
