@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-08T11:30:53.670Z"
+  "updated": "2026-10-08T12:01:04.458Z"
  },
  "pulse": {
   "trending": 78,
   "accelerating": 3,
   "newModels": 8,
-  "discussions": 47,
-  "stars": 582
+  "discussions": 49,
+  "stars": 579
  },
  "rising": [
   {
@@ -88,8 +88,8 @@
    "grow": 13,
    "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
    "meta": [
-    "★ 2,277",
-    "+389 in 24h",
+    "★ 2,282",
+    "+385 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-02T09:57:40Z",
@@ -138,7 +138,7 @@
    "grow": null,
    "desc": "AI workflow automation: show it once, let it run",
    "meta": [
-    "▲ 513 votes",
+    "▲ 514 votes",
     "119 comments",
     "Launched yesterday"
    ],
@@ -168,7 +168,7 @@
    "cat": "Coding",
    "score": 84,
    "grow": 12,
-   "desc": "Model on Hugging Face · open source · ♥ 678",
+   "desc": "Model on Hugging Face · open source · ♥ 679",
    "meta": [
     "18K downloads",
     "Released 8 days ago"
@@ -178,54 +178,8 @@
    "url": "https://huggingface.co/Cloudflare/clef-flash"
   }
  ],
- "breakouts": [
-  {
-   "key": "gpt 6",
-   "label": "GPT-6",
-   "n": 3,
-   "sources": [
-    {
-     "src": "OpenAI blog",
-     "t": "GPT-6 and Intelligent UI for everyone",
-     "url": "https://openai.com/index/gpt-6-for-everyone"
-    },
-    {
-     "src": "MacRumors",
-     "t": "ChatGPT Gets GPT-6 and New Intelligent UI With Visual Answers",
-     "url": "https://www.macrumors.com/2026/10/07/chatgpt-intelligent-ui/"
-    },
-    {
-     "src": "GitHub",
-     "t": "zjwzcx/Awesome-Astra-Embodied-AI",
-     "url": "https://github.com/zjwzcx/Awesome-Astra-Embodied-AI"
-    }
-   ],
-   "since": "2026-10-02T11:40:52.853Z"
-  }
- ],
+ "breakouts": [],
  "hype": [
-  {
-   "name": "GPT-6",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
-    {
-     "src": "OpenAI blog",
-     "t": "GPT-6 and Intelligent UI for everyone",
-     "url": "https://openai.com/index/gpt-6-for-everyone"
-    },
-    {
-     "src": "MacRumors",
-     "t": "ChatGPT Gets GPT-6 and New Intelligent UI With Visual Answers",
-     "url": "https://www.macrumors.com/2026/10/07/chatgpt-intelligent-ui/"
-    }
-   ],
-   "buzz": 2,
-   "verdict": "Talk only, no public usage numbers"
-  },
   {
    "name": "embeddinggemma-2",
    "url": "https://huggingface.co/google/embeddinggemma-2",
@@ -247,8 +201,8 @@
    "name": "answer-me-with-html",
    "url": "https://github.com/QingYunA/answer-me-with-html",
    "from": "GitHub",
-   "use": 389,
-   "useLabel": "+389 stars/day",
+   "use": 385,
+   "useLabel": "+385 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -362,8 +316,8 @@
  "github": [
   {
    "repo": "QingYunA/answer-me-with-html",
-   "stars": 2277,
-   "d24": 389,
+   "stars": 2282,
+   "d24": 385,
    "est": false,
    "forks": 152,
    "contrib": null,
@@ -371,8 +325,8 @@
   },
   {
    "repo": "Jakeschincariol/replica-skill",
-   "stars": 962,
-   "d24": 193,
+   "stars": 967,
+   "d24": 194,
    "est": true,
    "forks": 120,
    "contrib": null,
@@ -390,7 +344,7 @@
    "grow": 0,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 2508
+   "likes": 2535
   },
   {
    "name": "clef",
@@ -401,7 +355,7 @@
    "grow": 14,
    "score": 90,
    "cat": "Coding",
-   "likes": 1859
+   "likes": 1860
   },
   {
    "name": "GEV-26B-Decide",
@@ -413,7 +367,7 @@
    "grow": 1,
    "score": 90,
    "cat": "Coding",
-   "likes": 1596
+   "likes": 1607
   },
   {
    "name": "Kolibri-1",
@@ -435,7 +389,7 @@
    "grow": 180,
    "score": 86,
    "cat": "Vision",
-   "likes": 1090
+   "likes": 1096
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -446,7 +400,7 @@
    "grow": 6,
    "score": 84,
    "cat": "Infrastructure",
-   "likes": 3634
+   "likes": 3638
   }
  ],
  "free": [
@@ -800,6 +754,13 @@
  },
  "headlines": [
   {
+   "t": "Analysis: the hacker who targeted South Korean banks is likely Chinese-speaking, financially motivated, and used LLMs and open-source Chinese agentic tool ARTEX",
+   "url": "https://www.techmeme.com/261008/p19#a261008p19",
+   "at": "2026-10-08T11:35:00.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Analysis: planned and active data center investments in Finland surpass €67B, driven by AI demand, cool climate conditions, and renewable energy access",
    "url": "https://www.techmeme.com/261008/p17#a261008p17",
    "at": "2026-10-08T10:55:01.000Z",
@@ -870,13 +831,6 @@
    "kind": "News"
   },
   {
-   "t": "German search engine Ecosia, used by government services, ditches Mistral for open-source models, including Chinese ones, citing Mistral's disappointing quality",
-   "url": "https://www.techmeme.com/261008/p4#a261008p4",
-   "at": "2026-10-08T04:50:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Datacentre company Firmus’s high flying valuation may be coming back down to earth ahead of expected ASX debut",
    "url": "https://www.theguardian.com/australia-news/2026/oct/08/ai-datacentre-firmus-slash-valuation-before-asx-listing",
    "at": "2026-10-08T00:57:58Z",
@@ -884,31 +838,31 @@
    "kind": "News"
   },
   {
-   "t": "WSU turns to artificial intelligence to assist sports communications",
-   "url": "https://www.spokesman.com/stories/2026/oct/07/wsu-turns-to-artificial-intelligence-to-assist-spo/",
-   "at": "2026-10-07T23:25:00Z",
-   "src": "Spokane Spokesman-Review",
-   "kind": "News"
-  },
-  {
-   "t": "Anthropic launches third Claude 5.5 model, expanding AI lineup before planned IPO",
-   "url": "https://www.thestar.com.my/tech/tech-news/2026/10/08/anthropic-launches-third-claude-55-model-expanding-ai-lineup-before-planned-ipo",
-   "at": "2026-10-07T23:25:00Z",
+   "t": "Some guardrails on ChatGPT for Teens don't work as promised, watchdog group says",
+   "url": "https://www.thestar.com.my/tech/tech-news/2026/10/08/some-guardrails-on-chatgpt-for-teens-don039t-work-as-promised-watchdog-group-says",
+   "at": "2026-10-08T00:00:00Z",
    "src": "The Star",
    "kind": "News"
   },
   {
-   "t": "Analysts predict SET to reach 1,680 by year-end",
-   "url": "https://www.bangkokpost.com/business/investment/3333435/analysts-predict-set-to-reach-1680-by-yearend",
-   "at": "2026-10-07T23:16:00Z",
-   "src": "Bangkok Post",
+   "t": "Trump's AI Czar to Meet Top AI Executives",
+   "url": "https://www.marketscreener.com/news/trump-s-ai-czar-to-meet-top-ai-executives-ce785ddedc81ff26",
+   "at": "2026-10-07T23:56:42Z",
+   "src": "MarketScreener",
    "kind": "News"
   },
   {
-   "t": "Broadcom, Oracle seek to arrange financing for AI chip purchases, WSJ says",
-   "url": "https://markets.businessinsider.com/news/stocks/broadcom-oracle-seek-to-arrange-financing-for-ai-chip-purchases-wsj-says-1036607224",
-   "at": "2026-10-07T23:10:25Z",
-   "src": "Markets Insider",
+   "t": "6 with Intelligent UI, turning ChatGPT into an interactive visual experience",
+   "url": "https://techstartups.com/2026/10/07/openai-launches-gpt-6-with-intelligent-ui-turning-chatgpt-into-an-interactive-visual-experience/",
+   "at": "2026-10-07T23:46:35Z",
+   "src": "TechStartups.com",
+   "kind": "News"
+  },
+  {
+   "t": "WSU turns to artificial intelligence to assist sports communications",
+   "url": "https://www.spokesman.com/stories/2026/oct/07/wsu-turns-to-artificial-intelligence-to-assist-spo/",
+   "at": "2026-10-07T23:25:00Z",
+   "src": "Spokane Spokesman-Review",
    "kind": "News"
   }
  ],
@@ -918,8 +872,8 @@
    "t": "Claude Haiku 5.5",
    "url": "https://news.ycombinator.com/item?id=49996437",
    "link": "https://www.anthropic.com/claude-haiku-5-5",
-   "up": 913,
-   "com": 436,
+   "up": 923,
+   "com": 437,
    "at": "2026-10-07T18:01:32.000Z"
   },
   {
@@ -927,8 +881,8 @@
    "t": "GPT‑6 and Intelligent UI for everyone",
    "url": "https://news.ycombinator.com/item?id=49996425",
    "link": "https://openai.com/index/gpt-6-for-everyone/",
-   "up": 660,
-   "com": 368,
+   "up": 665,
+   "com": 379,
    "at": "2026-10-07T18:00:58.000Z"
   },
   {
@@ -936,8 +890,8 @@
    "t": "Open-Source Rust Alternatives to Adobe Apps",
    "url": "https://news.ycombinator.com/item?id=50004284",
    "link": "https://getartcraft.com/",
-   "up": 27,
-   "com": 16,
+   "up": 28,
+   "com": 23,
    "at": "2026-10-08T10:55:10.000Z"
   },
   {
@@ -945,8 +899,8 @@
    "t": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
    "url": "https://news.ycombinator.com/item?id=49997161",
    "link": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
-   "up": 344,
-   "com": 347,
+   "up": 345,
+   "com": 348,
    "at": "2026-10-07T18:49:40.000Z"
   },
   {
@@ -954,8 +908,8 @@
    "t": "Classic PC demoscene productions running natively in the browser",
    "url": "https://news.ycombinator.com/item?id=50002426",
    "link": "https://treylorswift.github.io/demoscene-recomp/web/",
-   "up": 86,
-   "com": 67,
+   "up": 93,
+   "com": 81,
    "at": "2026-10-08T06:29:25.000Z"
   },
   {
@@ -963,8 +917,8 @@
    "t": "OpenAI withdraws three mathematical results",
    "url": "https://news.ycombinator.com/item?id=50002650",
    "link": "https://twitter.com/danintheory/status/2108065033070789090",
-   "up": 71,
-   "com": 66,
+   "up": 79,
+   "com": 68,
    "at": "2026-10-08T07:05:40.000Z"
   }
  ]
