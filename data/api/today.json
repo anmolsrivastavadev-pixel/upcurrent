@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-08T12:01:04.458Z"
+  "updated": "2026-10-08T12:30:54.100Z"
  },
  "pulse": {
   "trending": 78,
   "accelerating": 3,
   "newModels": 8,
-  "discussions": 49,
-  "stars": 579
+  "discussions": 47,
+  "stars": 576
  },
  "rising": [
   {
@@ -22,7 +22,7 @@
    "cat": "Infrastructure",
    "score": 91,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 2.5K",
+   "desc": "Model on Hugging Face · open source · ♥ 2.6K",
    "meta": [
     "1.5M downloads",
     "Released 8 days ago"
@@ -70,7 +70,7 @@
    "cat": "Infrastructure",
    "score": 88,
    "grow": 17,
-   "desc": "Model on Hugging Face · open source · ♥ 796",
+   "desc": "Model on Hugging Face · open source · ♥ 797",
    "meta": [
     "6.8K downloads",
     "Released 6 days ago"
@@ -88,8 +88,8 @@
    "grow": 13,
    "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
    "meta": [
-    "★ 2,282",
-    "+385 in 24h",
+    "★ 2,289",
+    "+383 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-02T09:57:40Z",
@@ -122,7 +122,7 @@
    "grow": null,
    "desc": "We propose Tetris3D, a generative framework for single-image 3D scene reconstruction that recovers objects which are physically and geometrically coherent as a scene.",
    "meta": [
-    "▲ 30 upvotes",
+    "▲ 31 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-06T20:00:00.000Z",
@@ -186,7 +186,7 @@
    "from": "Hugging Face",
    "use": 21148,
    "useLabel": "21K downloads",
-   "usePct": 0.42857142857142855,
+   "usePct": 0.4,
    "talk": [
     {
      "src": "Google DeepMind blog",
@@ -201,8 +201,8 @@
    "name": "answer-me-with-html",
    "url": "https://github.com/QingYunA/answer-me-with-html",
    "from": "GitHub",
-   "use": 385,
-   "useLabel": "+385 stars/day",
+   "use": 383,
+   "useLabel": "+383 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -316,21 +316,21 @@
  "github": [
   {
    "repo": "QingYunA/answer-me-with-html",
-   "stars": 2282,
-   "d24": 385,
+   "stars": 2289,
+   "d24": 383,
    "est": false,
-   "forks": 152,
+   "forks": 153,
    "contrib": null,
    "score": 86
   },
   {
    "repo": "Jakeschincariol/replica-skill",
-   "stars": 967,
-   "d24": 194,
+   "stars": 970,
+   "d24": 193,
    "est": true,
    "forks": 120,
    "contrib": null,
-   "score": 80
+   "score": 79
   }
  ],
  "models": [
@@ -344,7 +344,7 @@
    "grow": 0,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 2535
+   "likes": 2559
   },
   {
    "name": "clef",
@@ -367,7 +367,7 @@
    "grow": 1,
    "score": 90,
    "cat": "Coding",
-   "likes": 1607
+   "likes": 1616
   },
   {
    "name": "Kolibri-1",
@@ -378,7 +378,7 @@
    "grow": 17,
    "score": 88,
    "cat": "Infrastructure",
-   "likes": 796
+   "likes": 797
   },
   {
    "name": "embeddinggemma-2",
@@ -389,7 +389,7 @@
    "grow": 180,
    "score": 86,
    "cat": "Vision",
-   "likes": 1096
+   "likes": 1098
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -400,7 +400,7 @@
    "grow": 6,
    "score": 84,
    "cat": "Infrastructure",
-   "likes": 3638
+   "likes": 3640
   }
  ],
  "free": [
@@ -754,6 +754,13 @@
  },
  "headlines": [
   {
+   "t": "Tell us: have you been monitored or assessed by AI at work?",
+   "url": "https://www.theguardian.com/technology/2026/oct/08/tell-us-have-you-been-monitored-or-assessed-by-ai-at-work",
+   "at": "2026-10-08T12:23:20Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
    "t": "Analysis: the hacker who targeted South Korean banks is likely Chinese-speaking, financially motivated, and used LLMs and open-source Chinese agentic tool ARTEX",
    "url": "https://www.techmeme.com/261008/p19#a261008p19",
    "at": "2026-10-08T11:35:00.000Z",
@@ -817,20 +824,6 @@
    "kind": "News"
   },
   {
-   "t": "A theoretical computer scientist, citing sources, says AI labs have quietly started probing whether their models can break important cryptographic protocols",
-   "url": "https://www.techmeme.com/261008/p6#a261008p6",
-   "at": "2026-10-08T05:10:11.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Vitalik Buterin says \"we should take the risks to cryptography from AI-accelerated math seriously\", backing a \"bunker mode\" call for the blockchain industry",
-   "url": "https://www.techmeme.com/261008/p5#a261008p5",
-   "at": "2026-10-08T05:05:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Datacentre company Firmus’s high flying valuation may be coming back down to earth ahead of expected ASX debut",
    "url": "https://www.theguardian.com/australia-news/2026/oct/08/ai-datacentre-firmus-slash-valuation-before-asx-listing",
    "at": "2026-10-08T00:57:58Z",
@@ -864,6 +857,13 @@
    "at": "2026-10-07T23:25:00Z",
    "src": "Spokane Spokesman-Review",
    "kind": "News"
+  },
+  {
+   "t": "Anthropic launches third Claude 5.5 model, expanding AI lineup before planned IPO",
+   "url": "https://www.thestar.com.my/tech/tech-news/2026/10/08/anthropic-launches-third-claude-55-model-expanding-ai-lineup-before-planned-ipo",
+   "at": "2026-10-07T23:25:00Z",
+   "src": "The Star",
+   "kind": "News"
   }
  ],
  "discussions": [
@@ -872,8 +872,8 @@
    "t": "Claude Haiku 5.5",
    "url": "https://news.ycombinator.com/item?id=49996437",
    "link": "https://www.anthropic.com/claude-haiku-5-5",
-   "up": 923,
-   "com": 437,
+   "up": 932,
+   "com": 440,
    "at": "2026-10-07T18:01:32.000Z"
   },
   {
@@ -881,45 +881,45 @@
    "t": "GPT‑6 and Intelligent UI for everyone",
    "url": "https://news.ycombinator.com/item?id=49996425",
    "link": "https://openai.com/index/gpt-6-for-everyone/",
-   "up": 665,
-   "com": 379,
+   "up": 672,
+   "com": 391,
    "at": "2026-10-07T18:00:58.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Open-Source Rust Alternatives to Adobe Apps",
-   "url": "https://news.ycombinator.com/item?id=50004284",
-   "link": "https://getartcraft.com/",
-   "up": 28,
-   "com": 23,
-   "at": "2026-10-08T10:55:10.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
    "url": "https://news.ycombinator.com/item?id=49997161",
    "link": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
-   "up": 345,
-   "com": 348,
+   "up": 347,
+   "com": 350,
    "at": "2026-10-07T18:49:40.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Open-Source Rust Alternatives to Adobe Apps",
+   "url": "https://news.ycombinator.com/item?id=50004284",
+   "link": "https://getartcraft.com/",
+   "up": 29,
+   "com": 24,
+   "at": "2026-10-08T10:55:10.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Classic PC demoscene productions running natively in the browser",
    "url": "https://news.ycombinator.com/item?id=50002426",
    "link": "https://treylorswift.github.io/demoscene-recomp/web/",
-   "up": 93,
-   "com": 81,
+   "up": 100,
+   "com": 87,
    "at": "2026-10-08T06:29:25.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "OpenAI withdraws three mathematical results",
-   "url": "https://news.ycombinator.com/item?id=50002650",
-   "link": "https://twitter.com/danintheory/status/2108065033070789090",
-   "up": 79,
-   "com": 68,
-   "at": "2026-10-08T07:05:40.000Z"
+   "t": "OpenAI Withdraws 3 Math Papers",
+   "url": "https://news.ycombinator.com/item?id=50003107",
+   "link": "https://github.com/openai/math/blob/main/history.md",
+   "up": 71,
+   "com": 37,
+   "at": "2026-10-08T08:08:37.000Z"
   }
  ]
 }
