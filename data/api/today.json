@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-08T08:30:58.012Z"
+  "updated": "2026-10-08T09:01:07.035Z"
  },
  "pulse": {
   "trending": 77,
   "accelerating": 0,
   "newModels": 7,
-  "discussions": 47,
-  "stars": 375
+  "discussions": 49,
+  "stars": 376
  },
  "rising": [
   {
@@ -88,8 +88,8 @@
    "grow": 10,
    "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
    "meta": [
-    "★ 2,221",
-    "+375 in 24h",
+    "★ 2,229",
+    "+376 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-02T09:57:40Z",
@@ -113,19 +113,19 @@
    "url": "https://huggingface.co/google/embeddinggemma-2"
   },
   {
-   "name": "VepAgent: Bridging Causal-Transition via Tool-Augmented Reinforcement Learning for Video Event Prediction",
+   "name": "UniWAM: Unified World-Action Model",
    "owner": "Paper",
    "src": "paper",
-   "url": "https://huggingface.co/papers/2610.06293",
+   "url": "https://huggingface.co/papers/2610.02054",
    "cat": "Research",
    "score": 85,
    "grow": null,
-   "desc": "Multimodal Large Language Models (MLLMs) have demonstrated remarkable potential in video understanding, yet their reliance on retrospective summarization and text-centric priors often limits their ability to bridge unobserved causal transitions when applied to Video Event Prediction (VEP).",
+   "desc": "Vision-language-action models benefit from the understanding and reasoning capabilities of pretrained vision-language models, but action-only supervision provides limited grounding in world dynamics.",
    "meta": [
-    "▲ 41 upvotes",
+    "▲ 40 upvotes",
     "Hugging Face Papers"
    ],
-   "at": "2026-10-04T20:00:00.000Z",
+   "at": "2026-09-30T20:00:00.000Z",
    "breakout": null
   },
   {
@@ -138,7 +138,7 @@
    "grow": null,
    "desc": "AI workflow automation: show it once, let it run",
    "meta": [
-    "▲ 510 votes",
+    "▲ 512 votes",
     "119 comments",
     "Launched yesterday"
    ],
@@ -178,54 +178,8 @@
    "url": "https://huggingface.co/Cloudflare/clef-flash"
   }
  ],
- "breakouts": [
-  {
-   "key": "gpt 6",
-   "label": "GPT-6",
-   "n": 3,
-   "sources": [
-    {
-     "src": "OpenAI blog",
-     "t": "GPT-6 and Intelligent UI for everyone",
-     "url": "https://openai.com/index/gpt-6-for-everyone"
-    },
-    {
-     "src": "Firstpost",
-     "t": "OpenAI unveils GPT-6 with new intelligent UI and faster responses, here’s what’s new",
-     "url": "https://www.firstpost.com/tech/openai-unveils-gpt-6-with-new-intelligent-ui-and-faster-responses-heres-whats-new-14051264.html"
-    },
-    {
-     "src": "GitHub",
-     "t": "zjwzcx/Awesome-Astra-Embodied-AI",
-     "url": "https://github.com/zjwzcx/Awesome-Astra-Embodied-AI"
-    }
-   ],
-   "since": "2026-10-02T11:40:52.853Z"
-  }
- ],
+ "breakouts": [],
  "hype": [
-  {
-   "name": "GPT-6",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
-    {
-     "src": "OpenAI blog",
-     "t": "GPT-6 and Intelligent UI for everyone",
-     "url": "https://openai.com/index/gpt-6-for-everyone"
-    },
-    {
-     "src": "Firstpost",
-     "t": "OpenAI unveils GPT-6 with new intelligent UI and faster responses, here’s what’s new",
-     "url": "https://www.firstpost.com/tech/openai-unveils-gpt-6-with-new-intelligent-ui-and-faster-responses-heres-whats-new-14051264.html"
-    }
-   ],
-   "buzz": 2,
-   "verdict": "Talk only, no public usage numbers"
-  },
   {
    "name": "embeddinggemma-2",
    "url": "https://huggingface.co/google/embeddinggemma-2",
@@ -247,8 +201,8 @@
    "name": "answer-me-with-html",
    "url": "https://github.com/QingYunA/answer-me-with-html",
    "from": "GitHub",
-   "use": 375,
-   "useLabel": "+375 stars/day",
+   "use": 376,
+   "useLabel": "+376 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -362,8 +316,8 @@
  "github": [
   {
    "repo": "QingYunA/answer-me-with-html",
-   "stars": 2221,
-   "d24": 375,
+   "stars": 2229,
+   "d24": 376,
    "est": false,
    "forks": 148,
    "contrib": null,
@@ -381,7 +335,7 @@
    "grow": 0,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 2358
+   "likes": 2381
   },
   {
    "name": "clef",
@@ -392,7 +346,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Coding",
-   "likes": 1852
+   "likes": 1855
   },
   {
    "name": "GEV-26B-Decide",
@@ -404,7 +358,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Coding",
-   "likes": 1517
+   "likes": 1533
   },
   {
    "name": "Kolibri-1",
@@ -426,7 +380,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Vision",
-   "likes": 1064
+   "likes": 1068
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -437,7 +391,7 @@
    "grow": 0,
    "score": 84,
    "cat": "Infrastructure",
-   "likes": 3617
+   "likes": 3620
   }
  ],
  "free": [
@@ -791,6 +745,20 @@
  },
  "headlines": [
   {
+   "t": "Co-op Legal Services using AI to rate workers’ phone calls to customers",
+   "url": "https://www.theguardian.com/technology/2026/oct/08/co-op-legal-services-ai-customer-phone-call-surveillance",
+   "at": "2026-10-08T09:00:16Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "‘Someone else will do it for less’: Refugees in Kenya are powering tech for dwindling pay",
+   "url": "https://www.theguardian.com/technology/ng-interactive/2026/oct/08/ai-gig-work-refugees-kenya",
+   "at": "2026-10-08T09:00:15Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
    "t": "The Association for Human Mathematics says OpenAI's new math documents show power, not scholarship, and urges mathematicians to stop working with the company",
    "url": "https://www.techmeme.com/261008/p9#a261008p9",
    "at": "2026-10-08T06:25:07.000Z",
@@ -868,38 +836,24 @@
    "kind": "News"
   },
   {
-   "t": "OpenAI Just Broke Math With Its Most Powerful AI Yet",
-   "url": "https://www.youtube.com/watch?v=WYpzvsC4qTk",
-   "at": "2026-10-07T22:12:23Z",
-   "src": "AI Revolution",
-   "kind": "Video"
-  },
-  {
-   "t": "Does better work always mean better workers?",
-   "url": "https://research.google/blog/does-better-work-always-mean-better-workers/",
-   "at": "2026-10-07T20:19:57.000Z",
-   "src": "Google Research",
-   "kind": "Lab blog"
-  },
-  {
-   "t": "New Zealand’s primary industries slow to take up new AI tech",
-   "url": "https://www.nzherald.co.nz/nz/new-zealands-primary-industries-slow-to-take-up-new-ai-tech/KQV4Q3TOUZBJNMKUTUTSRYVLDA/",
-   "at": "2026-10-07T20:06:22Z",
-   "src": "The New Zealand Herald",
+   "t": "Imagine AI agents like Meta Muse and OpenAI's Dots are on the loose - could you stop them?",
+   "url": "https://www.techradar.com/ai-platforms-assistants/imagine-ai-agents-like-meta-muse-and-openais-dots-are-on-the-loose-could-you-stop-them",
+   "at": "2026-10-07T21:00:00Z",
+   "src": "TechRadar",
    "kind": "News"
   },
   {
-   "t": "David Robinson Says 'Cognitive Dissonance' Led Him to Leave OpenAI",
-   "url": "https://www.businessinsider.com/david-robinson-ezra-klein-interview-cognitive-dissonance-leave-openai-2026-10",
-   "at": "2026-10-07T20:03:46Z",
-   "src": "Business Insider",
+   "t": "Why China's AI startups will need to turn to IPOs and private credit",
+   "url": "https://fortune.com/2026/10/07/why-china-ai-startups-need-new-funding/",
+   "at": "2026-10-07T21:00:00Z",
+   "src": "Fortune",
    "kind": "News"
   },
   {
-   "t": "NMC bars self-promotion, misleading reviews; regulates AI, social media use by doctors, hospitals",
-   "url": "https://www.aninews.in/news/national/general-news/nmc-bars-self-promotion-misleading-reviews-regulates-ai-social-media-use-by-doctors-hospitals20261008013007/",
-   "at": "2026-10-07T20:00:07Z",
-   "src": "ANI (Asian News International)",
+   "t": "6 to ChatGPT and debuts Intelligent UI",
+   "url": "https://9to5mac.com/2026/10/07/openai-brings-gpt-6-to-chatgpt-and-debuts-intelligent-ui/",
+   "at": "2026-10-07T20:57:28Z",
+   "src": "9to5Mac",
    "kind": "News"
   }
  ],
@@ -909,8 +863,8 @@
    "t": "Claude Haiku 5.5",
    "url": "https://news.ycombinator.com/item?id=49996437",
    "link": "https://www.anthropic.com/claude-haiku-5-5",
-   "up": 852,
-   "com": 413,
+   "up": 864,
+   "com": 417,
    "at": "2026-10-07T18:01:32.000Z"
   },
   {
@@ -918,8 +872,8 @@
    "t": "GPT‑6 and Intelligent UI for everyone",
    "url": "https://news.ycombinator.com/item?id=49996425",
    "link": "https://openai.com/index/gpt-6-for-everyone/",
-   "up": 610,
-   "com": 328,
+   "up": 617,
+   "com": 336,
    "at": "2026-10-07T18:00:58.000Z"
   },
   {
@@ -927,17 +881,26 @@
    "t": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
    "url": "https://news.ycombinator.com/item?id=49997161",
    "link": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
-   "up": 339,
-   "com": 331,
+   "up": 340,
+   "com": 335,
    "at": "2026-10-07T18:49:40.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "OpenAI withdraws three mathematical results",
+   "url": "https://news.ycombinator.com/item?id=50002650",
+   "link": "https://twitter.com/danintheory/status/2108065033070789090",
+   "up": 33,
+   "com": 20,
+   "at": "2026-10-08T07:05:40.000Z"
   },
   {
    "src": "Hacker News",
    "t": "I think I found a planet nobody knew existed. I used Claude Code to find it",
    "url": "https://news.ycombinator.com/item?id=50002665",
    "link": "https://www.reddit.com/r/ClaudeAI/s/mbe5IY2LF9",
-   "up": 26,
-   "com": 10,
+   "up": 32,
+   "com": 12,
    "at": "2026-10-08T07:07:34.000Z"
   },
   {
@@ -948,15 +911,6 @@
    "up": 389,
    "com": 64,
    "at": "2026-10-07T09:17:55.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Docker Agent",
-   "url": "https://news.ycombinator.com/item?id=49996259",
-   "link": "https://github.com/docker/docker-agent",
-   "up": 227,
-   "com": 106,
-   "at": "2026-10-07T17:48:38.000Z"
   }
  ]
 }
