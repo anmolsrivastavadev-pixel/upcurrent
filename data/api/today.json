@@ -5,22 +5,38 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-08T00:30:49.937Z"
+  "updated": "2026-10-08T01:01:03.060Z"
  },
  "pulse": {
   "trending": 77,
   "accelerating": 0,
   "newModels": 7,
-  "discussions": 49,
-  "stars": 365
+  "discussions": 48,
+  "stars": 366
  },
  "rising": [
+  {
+   "name": "JEV-27B-VL",
+   "owner": "autotrust",
+   "src": "hf",
+   "cat": "Infrastructure",
+   "score": 91,
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 2K",
+   "meta": [
+    "1.5M downloads",
+    "Released 8 days ago"
+   ],
+   "at": "2026-09-30T05:02:23.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/autotrust/JEV-27B-VL"
+  },
   {
    "name": "clef",
    "owner": "Cloudflare",
    "src": "hf",
    "cat": "Coding",
-   "score": 92,
+   "score": 91,
    "grow": null,
    "desc": "Model on Hugging Face · open source · ♥ 1.8K",
    "meta": [
@@ -48,22 +64,6 @@
    "url": "https://huggingface.co/autotrust/GEV-26B-Decide"
   },
   {
-   "name": "JEV-27B-VL",
-   "owner": "autotrust",
-   "src": "hf",
-   "cat": "Infrastructure",
-   "score": 90,
-   "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 1.9K",
-   "meta": [
-    "1.5M downloads",
-    "Released 8 days ago"
-   ],
-   "at": "2026-09-30T05:02:23.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/autotrust/JEV-27B-VL"
-  },
-  {
    "name": "Kolibri-1",
    "owner": "Aleph-Alpha",
    "src": "hf",
@@ -88,8 +88,8 @@
    "grow": null,
    "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
    "meta": [
-    "★ 2,045",
-    "~365 in 24h",
+    "★ 2,057",
+    "~366 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-02T09:57:40Z",
@@ -103,7 +103,7 @@
    "cat": "Vision",
    "score": 86,
    "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 945",
+   "desc": "Vision on Hugging Face · open source · ♥ 948",
    "meta": [
     "7.6K downloads",
     "Released 23 days ago"
@@ -138,7 +138,7 @@
    "grow": null,
    "desc": "The browser where Claude Code and Codex work beside you",
    "meta": [
-    "▲ 424 votes",
+    "▲ 425 votes",
     "66 comments",
     "Launched 2 days ago"
    ],
@@ -168,7 +168,7 @@
    "cat": "Coding",
    "score": 83,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 650",
+   "desc": "Model on Hugging Face · open source · ♥ 651",
    "meta": [
     "16K downloads",
     "Released 7 days ago"
@@ -269,8 +269,8 @@
    "name": "answer-me-with-html",
    "url": "https://github.com/QingYunA/answer-me-with-html",
    "from": "GitHub",
-   "use": 365,
-   "useLabel": "~365 stars/day",
+   "use": 366,
+   "useLabel": "~366 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -384,8 +384,8 @@
  "github": [
   {
    "repo": "QingYunA/answer-me-with-html",
-   "stars": 2045,
-   "d24": 365,
+   "stars": 2057,
+   "d24": 366,
    "est": true,
    "forks": 138,
    "contrib": null,
@@ -394,15 +394,27 @@
  ],
  "models": [
   {
+   "name": "JEV-27B-VL",
+   "org": "autotrust",
+   "size": "27B",
+   "lic": "Open source",
+   "at": "2026-09-30T05:02:23.000Z",
+   "dl": 1529210,
+   "grow": null,
+   "score": 91,
+   "cat": "Infrastructure",
+   "likes": 1968
+  },
+  {
    "name": "clef",
    "org": "Cloudflare",
    "lic": "Open source",
    "at": "2026-09-30T21:15:35.000Z",
    "dl": 9513,
    "grow": null,
-   "score": 92,
+   "score": 91,
    "cat": "Coding",
-   "likes": 1814
+   "likes": 1816
   },
   {
    "name": "GEV-26B-Decide",
@@ -414,19 +426,7 @@
    "grow": null,
    "score": 91,
    "cat": "Coding",
-   "likes": 1289
-  },
-  {
-   "name": "JEV-27B-VL",
-   "org": "autotrust",
-   "size": "27B",
-   "lic": "Open source",
-   "at": "2026-09-30T05:02:23.000Z",
-   "dl": 1529210,
-   "grow": null,
-   "score": 90,
-   "cat": "Infrastructure",
-   "likes": 1943
+   "likes": 1304
   },
   {
    "name": "Kolibri-1",
@@ -448,7 +448,7 @@
    "grow": null,
    "score": 86,
    "cat": "Vision",
-   "likes": 945
+   "likes": 948
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -459,7 +459,7 @@
    "grow": null,
    "score": 84,
    "cat": "Infrastructure",
-   "likes": 3558
+   "likes": 3560
   }
  ],
  "free": [
@@ -813,6 +813,13 @@
  },
  "headlines": [
   {
+   "t": "Mecka, which collects human motion data to train humanoid robots, raised a $60M Series B led by Sequoia, with participation from Nvidia, M12, and others",
+   "url": "https://www.techmeme.com/261007/p43#a261007p43",
+   "at": "2026-10-08T00:35:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Letter: three fired OpenAI researchers urge AI labs to halt work that could impair AI monitoring and say their firings are \"chilling those who remain at OpenAI\"",
    "url": "https://www.techmeme.com/261007/p42#a261007p42",
    "at": "2026-10-08T00:05:01.000Z",
@@ -890,13 +897,6 @@
    "kind": "News"
   },
   {
-   "t": "Meta rolls out AI tools to find ads that secretly lead users to CSAM and says it took action against 33.2M pieces of child exploitation content in H1 2026",
-   "url": "https://www.techmeme.com/261007/p28#a261007p28",
-   "at": "2026-10-07T17:20:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Multimodal open d1 decision models for the edge",
    "url": "https://huggingface.co/blog/LiquidAI/open-d1",
    "at": "2026-10-07T16:54:33.000Z",
@@ -931,8 +931,8 @@
    "t": "Claude Haiku 5.5",
    "url": "https://news.ycombinator.com/item?id=49996437",
    "link": "https://www.anthropic.com/claude-haiku-5-5",
-   "up": 638,
-   "com": 321,
+   "up": 653,
+   "com": 326,
    "at": "2026-10-07T18:01:32.000Z"
   },
   {
@@ -940,8 +940,8 @@
    "t": "GPT‑6 and Intelligent UI for everyone",
    "url": "https://news.ycombinator.com/item?id=49996425",
    "link": "https://openai.com/index/gpt-6-for-everyone/",
-   "up": 470,
-   "com": 245,
+   "up": 482,
+   "com": 250,
    "at": "2026-10-07T18:00:58.000Z"
   },
   {
@@ -949,34 +949,34 @@
    "t": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
    "url": "https://news.ycombinator.com/item?id=49997161",
    "link": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
-   "up": 256,
-   "com": 252,
+   "up": 264,
+   "com": 261,
    "at": "2026-10-07T18:49:40.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Docker Agent",
-   "url": "https://news.ycombinator.com/item?id=49996259",
-   "link": "https://github.com/docker/docker-agent",
-   "up": 168,
-   "com": 80,
-   "at": "2026-10-07T17:48:38.000Z"
   },
   {
    "src": "Hacker News",
    "t": "A font recreated from photographs of classic Commodore 64 keycaps",
    "url": "https://news.ycombinator.com/item?id=49990224",
    "link": "https://github.com/szabadkai/c64-keyboard-font/",
-   "up": 378,
+   "up": 380,
    "com": 62,
    "at": "2026-10-07T09:17:55.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Docker Agent",
+   "url": "https://news.ycombinator.com/item?id=49996259",
+   "link": "https://github.com/docker/docker-agent",
+   "up": 171,
+   "com": 81,
+   "at": "2026-10-07T17:48:38.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Incident with Git Operations, Pull Requests and Actions – Resolved",
    "url": "https://news.ycombinator.com/item?id=49994027",
    "link": "https://www.githubstatus.com/incidents/djlmxz2zd0j7",
-   "up": 223,
+   "up": 224,
    "com": 176,
    "at": "2026-10-07T15:17:23.000Z"
   }
