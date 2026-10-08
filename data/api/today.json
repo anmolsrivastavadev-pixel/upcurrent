@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-08T10:01:08.085Z"
+  "updated": "2026-10-08T10:30:54.608Z"
  },
  "pulse": {
   "trending": 78,
-  "accelerating": 1,
+  "accelerating": 3,
   "newModels": 8,
-  "discussions": 45,
-  "stars": 605
+  "discussions": 46,
+  "stars": 596
  },
  "rising": [
   {
@@ -22,7 +22,7 @@
    "cat": "Infrastructure",
    "score": 91,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 2.4K",
+   "desc": "Model on Hugging Face · open source · ♥ 2.5K",
    "meta": [
     "1.5M downloads",
     "Released 8 days ago"
@@ -37,10 +37,10 @@
    "src": "hf",
    "cat": "Coding",
    "score": 90,
-   "grow": 0,
+   "grow": 14,
    "desc": "Model on Hugging Face · open source · ♥ 1.9K",
    "meta": [
-    "9.5K downloads",
+    "11K downloads",
     "Released 8 days ago"
    ],
    "at": "2026-09-30T21:15:35.000Z",
@@ -53,10 +53,10 @@
    "src": "hf",
    "cat": "Coding",
    "score": 90,
-   "grow": 0,
+   "grow": 1,
    "desc": "Model on Hugging Face · open source · ♥ 1.6K",
    "meta": [
-    "896K downloads",
+    "904K downloads",
     "Released 6 days ago"
    ],
    "at": "2026-10-02T04:20:21.000Z",
@@ -69,10 +69,10 @@
    "src": "hf",
    "cat": "Infrastructure",
    "score": 88,
-   "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 794",
+   "grow": 17,
+   "desc": "Model on Hugging Face · open source · ♥ 795",
    "meta": [
-    "5.8K downloads",
+    "6.8K downloads",
     "Released 6 days ago"
    ],
    "at": "2026-10-02T05:54:02.000Z",
@@ -88,8 +88,8 @@
    "grow": 12,
    "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
    "meta": [
-    "★ 2,266",
-    "+412 in 24h",
+    "★ 2,269",
+    "+403 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-02T09:57:40Z",
@@ -113,16 +113,16 @@
    "url": "https://huggingface.co/google/embeddinggemma-2"
   },
   {
-   "name": "RunningTab: Direct Workspace Interaction with Environment-Side Tabs",
+   "name": "Tetris3D: 3D Scene Generation With Objects That Fit Together",
    "owner": "Paper",
    "src": "paper",
-   "url": "https://huggingface.co/papers/2610.10444",
+   "url": "https://huggingface.co/papers/2610.10539",
    "cat": "Research",
    "score": 85,
    "grow": null,
-   "desc": "Much knowledge work produces new deliverables from files a workspace already holds, and LLM agents are beginning to take such work over.",
+   "desc": "We propose Tetris3D, a generative framework for single-image 3D scene reconstruction that recovers objects which are physically and geometrically coherent as a scene.",
    "meta": [
-    "▲ 32 upvotes",
+    "▲ 29 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-06T20:00:00.000Z",
@@ -138,7 +138,7 @@
    "grow": null,
    "desc": "AI workflow automation: show it once, let it run",
    "meta": [
-    "▲ 512 votes",
+    "▲ 513 votes",
     "119 comments",
     "Launched yesterday"
    ],
@@ -151,10 +151,10 @@
    "src": "hf",
    "cat": "Infrastructure",
    "score": 84,
-   "grow": 0,
+   "grow": 6,
    "desc": "Model on Hugging Face · open weights · ♥ 3.6K",
    "meta": [
-    "1.8M downloads",
+    "1.9M downloads",
     "Released 18 days ago"
    ],
    "at": "2026-09-20T15:51:13.000Z",
@@ -167,10 +167,10 @@
    "src": "hf",
    "cat": "Coding",
    "score": 84,
-   "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 676",
+   "grow": 12,
+   "desc": "Model on Hugging Face · open source · ♥ 677",
    "meta": [
-    "16K downloads",
+    "18K downloads",
     "Released 8 days ago"
    ],
    "at": "2026-09-30T21:15:36.000Z",
@@ -178,15 +178,61 @@
    "url": "https://huggingface.co/Cloudflare/clef-flash"
   }
  ],
- "breakouts": [],
+ "breakouts": [
+  {
+   "key": "gpt 6",
+   "label": "GPT-6",
+   "n": 3,
+   "sources": [
+    {
+     "src": "OpenAI blog",
+     "t": "GPT-6 and Intelligent UI for everyone",
+     "url": "https://openai.com/index/gpt-6-for-everyone"
+    },
+    {
+     "src": "MacRumors",
+     "t": "ChatGPT Gets GPT-6 and New Intelligent UI With Visual Answers",
+     "url": "https://www.macrumors.com/2026/10/07/chatgpt-intelligent-ui/"
+    },
+    {
+     "src": "GitHub",
+     "t": "zjwzcx/Awesome-Astra-Embodied-AI",
+     "url": "https://github.com/zjwzcx/Awesome-Astra-Embodied-AI"
+    }
+   ],
+   "since": "2026-10-02T11:40:52.853Z"
+  }
+ ],
  "hype": [
+  {
+   "name": "GPT-6",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "OpenAI blog",
+     "t": "GPT-6 and Intelligent UI for everyone",
+     "url": "https://openai.com/index/gpt-6-for-everyone"
+    },
+    {
+     "src": "MacRumors",
+     "t": "ChatGPT Gets GPT-6 and New Intelligent UI With Visual Answers",
+     "url": "https://www.macrumors.com/2026/10/07/chatgpt-intelligent-ui/"
+    }
+   ],
+   "buzz": 2,
+   "verdict": "Talk only, no public usage numbers"
+  },
   {
    "name": "embeddinggemma-2",
    "url": "https://huggingface.co/google/embeddinggemma-2",
    "from": "Hugging Face",
    "use": 21148,
    "useLabel": "21K downloads",
-   "usePct": 0.45714285714285713,
+   "usePct": 0.4,
    "talk": [
     {
      "src": "Google DeepMind blog",
@@ -201,8 +247,8 @@
    "name": "answer-me-with-html",
    "url": "https://github.com/QingYunA/answer-me-with-html",
    "from": "GitHub",
-   "use": 412,
-   "useLabel": "+412 stars/day",
+   "use": 403,
+   "useLabel": "+403 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -232,6 +278,16 @@
   }
  ],
  "receipts": [
+  {
+   "name": "Cloudflare/clef",
+   "url": "https://huggingface.co/Cloudflare/clef",
+   "kind": "downloads",
+   "first": "2026-10-01T18:51:59.552Z",
+   "firstV": 18,
+   "m": 10000,
+   "at": "2026-10-08T10:30:54.608Z",
+   "lead": 159.64862666666667
+  },
   {
    "name": "google/embeddinggemma-2",
    "url": "https://huggingface.co/google/embeddinggemma-2",
@@ -301,23 +357,13 @@
    "m": 2500,
    "at": "2026-10-07T19:51:16.190Z",
    "lead": 146.05321472222224
-  },
-  {
-   "name": "pablodawson/MiniMax-H3-360-Orbit-LoRA",
-   "url": "https://huggingface.co/pablodawson/MiniMax-H3-360-Orbit-LoRA",
-   "kind": "downloads",
-   "first": "2026-10-02T08:25:35.064Z",
-   "firstV": 2216,
-   "m": 10000,
-   "at": "2026-10-07T19:51:16.190Z",
-   "lead": 131.42809055555554
   }
  ],
  "github": [
   {
    "repo": "QingYunA/answer-me-with-html",
-   "stars": 2266,
-   "d24": 412,
+   "stars": 2269,
+   "d24": 403,
    "est": false,
    "forks": 152,
    "contrib": null,
@@ -325,7 +371,7 @@
   },
   {
    "repo": "Jakeschincariol/replica-skill",
-   "stars": 948,
+   "stars": 952,
    "d24": 193,
    "est": true,
    "forks": 118,
@@ -340,22 +386,22 @@
    "size": "27B",
    "lic": "Open source",
    "at": "2026-09-30T05:02:23.000Z",
-   "dl": 1529210,
+   "dl": 1533034,
    "grow": 0,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 2431
+   "likes": 2460
   },
   {
    "name": "clef",
    "org": "Cloudflare",
    "lic": "Open source",
    "at": "2026-09-30T21:15:35.000Z",
-   "dl": 9513,
-   "grow": 0,
+   "dl": 10874,
+   "grow": 14,
    "score": 90,
    "cat": "Coding",
-   "likes": 1857
+   "likes": 1859
   },
   {
    "name": "GEV-26B-Decide",
@@ -363,22 +409,22 @@
    "size": "26B",
    "lic": "Open source",
    "at": "2026-10-02T04:20:21.000Z",
-   "dl": 895867,
-   "grow": 0,
+   "dl": 903866,
+   "grow": 1,
    "score": 90,
    "cat": "Coding",
-   "likes": 1559
+   "likes": 1571
   },
   {
    "name": "Kolibri-1",
    "org": "Aleph-Alpha",
    "lic": "Open source",
    "at": "2026-10-02T05:54:02.000Z",
-   "dl": 5775,
-   "grow": 0,
+   "dl": 6777,
+   "grow": 17,
    "score": 88,
    "cat": "Infrastructure",
-   "likes": 794
+   "likes": 795
   },
   {
    "name": "embeddinggemma-2",
@@ -389,18 +435,18 @@
    "grow": 180,
    "score": 86,
    "cat": "Vision",
-   "likes": 1078
+   "likes": 1080
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
    "org": "abenzerps",
    "lic": "Open weights",
    "at": "2026-09-20T15:51:13.000Z",
-   "dl": 1820627,
-   "grow": 0,
+   "dl": 1933066,
+   "grow": 6,
    "score": 84,
    "cat": "Infrastructure",
-   "likes": 3628
+   "likes": 3630
   }
  ],
  "free": [
@@ -754,6 +800,20 @@
  },
  "headlines": [
   {
+   "t": "The US Federal Reserve's September meeting shows officials are increasingly citing surging AI investments, not tariffs, as the driver of rising goods inflation",
+   "url": "https://www.techmeme.com/261008/p15#a261008p15",
+   "at": "2026-10-08T10:20:00.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Sam Altman says AI will make ‘bad things’ happen. Exhibit A: needless death | Moustafa Bayoumi",
+   "url": "https://www.theguardian.com/commentisfree/2026/oct/08/ai-death-war-sam-altman",
+   "at": "2026-10-08T10:00:16Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
    "t": "ICANN receives 1,615 TLD applications from 481 applicants; Meta, OpenAI, and eight others applied for .agent, seven companies applied for .agi, and six for .asi",
    "url": "https://www.techmeme.com/261008/p13#a261008p13",
    "at": "2026-10-08T09:45:00.000Z",
@@ -761,7 +821,7 @@
    "kind": "News"
   },
   {
-   "t": "Co-op Legal Services using AI to rate workers’ phone calls to customers",
+   "t": "‘Dystopian’: Co-op becomes latest firm to put staff under AI surveillance",
    "url": "https://www.theguardian.com/technology/2026/oct/08/co-op-legal-services-ai-customer-phone-call-surveillance",
    "at": "2026-10-08T09:00:16Z",
    "src": "The Guardian",
@@ -824,20 +884,6 @@
    "kind": "News"
   },
   {
-   "t": "Source: Nvidia considered a last-minute OpenRouter bid, telling its leadership it was prepared to make a generous offer, but OpenRouter didn't want to wait",
-   "url": "https://www.techmeme.com/261007/p47#a261007p47",
-   "at": "2026-10-08T03:25:00.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "OpenRouter: the share of business spending between OpenAI and Anthropic models was roughly even in September, vs. Anthropic commanding a 75% share in January",
-   "url": "https://www.techmeme.com/261007/p46#a261007p46",
-   "at": "2026-10-08T03:15:43.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Datacentre company Firmus’s high flying valuation may be coming back down to earth ahead of expected ASX debut",
    "url": "https://www.theguardian.com/australia-news/2026/oct/08/ai-datacentre-firmus-slash-valuation-before-asx-listing",
    "at": "2026-10-08T00:57:58Z",
@@ -845,24 +891,24 @@
    "kind": "News"
   },
   {
-   "t": "OpenAI Just Broke Math With Its Most Powerful AI Yet",
-   "url": "https://www.youtube.com/watch?v=WYpzvsC4qTk",
-   "at": "2026-10-07T22:12:23Z",
-   "src": "AI Revolution",
-   "kind": "Video"
-  },
-  {
-   "t": "Autonomous AI can increase clinical capacity for dermatologists",
-   "url": "https://medicalxpress.com/news/2026-10-autonomous-ai-clinical-capacity-dermatologists.html",
-   "at": "2026-10-07T22:00:13Z",
-   "src": "Medical Xpress",
+   "t": "ChatGPT Gets GPT-6 and New Intelligent UI With Visual Answers",
+   "url": "https://www.macrumors.com/2026/10/07/chatgpt-intelligent-ui/",
+   "at": "2026-10-07T22:26:55Z",
+   "src": "MacRumors",
    "kind": "News"
   },
   {
-   "t": "Broadcom, Oracle, SpaceX Seek Financing for AI Chip Purchases",
-   "url": "https://www.marketscreener.com/news/broadcom-oracle-spacex-seek-financing-for-ai-chip-purchases-ce785ddedc8df42d",
-   "at": "2026-10-07T21:58:17Z",
-   "src": "MarketScreener",
+   "t": "OpenAI math breakthroughs raise ‘bunker mode’ alarm from Bitcoin researcher Justin Drake",
+   "url": "https://cryptoslate.com/openais-math-breakthrough-raises-fears-ai-could-break-bitcoin-and-ethereum-security-within-months/",
+   "at": "2026-10-07T22:24:45Z",
+   "src": "CryptoSlate",
+   "kind": "News"
+  },
+  {
+   "t": "Microsoft pushes AI vision with new, expensive Surface laptop",
+   "url": "https://www.manilatimes.net/2026/10/08/world/americas-emea/microsoft-pushes-ai-vision-with-new-expensive-surface-laptop/2441336",
+   "at": "2026-10-07T22:21:00Z",
+   "src": "The Manila Times",
    "kind": "News"
   }
  ],
@@ -872,8 +918,8 @@
    "t": "Claude Haiku 5.5",
    "url": "https://news.ycombinator.com/item?id=49996437",
    "link": "https://www.anthropic.com/claude-haiku-5-5",
-   "up": 879,
-   "com": 423,
+   "up": 891,
+   "com": 427,
    "at": "2026-10-07T18:01:32.000Z"
   },
   {
@@ -881,8 +927,8 @@
    "t": "GPT‑6 and Intelligent UI for everyone",
    "url": "https://news.ycombinator.com/item?id=49996425",
    "link": "https://openai.com/index/gpt-6-for-everyone/",
-   "up": 635,
-   "com": 348,
+   "up": 642,
+   "com": 352,
    "at": "2026-10-07T18:00:58.000Z"
   },
   {
@@ -891,7 +937,7 @@
    "url": "https://news.ycombinator.com/item?id=49997161",
    "link": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
    "up": 342,
-   "com": 339,
+   "com": 342,
    "at": "2026-10-07T18:49:40.000Z"
   },
   {
@@ -899,8 +945,8 @@
    "t": "OpenAI withdraws three mathematical results",
    "url": "https://news.ycombinator.com/item?id=50002650",
    "link": "https://twitter.com/danintheory/status/2108065033070789090",
-   "up": 55,
-   "com": 48,
+   "up": 65,
+   "com": 56,
    "at": "2026-10-08T07:05:40.000Z"
   },
   {
@@ -908,8 +954,8 @@
    "t": "Classic PC demoscene productions running natively in the browser",
    "url": "https://news.ycombinator.com/item?id=50002426",
    "link": "https://treylorswift.github.io/demoscene-recomp/web/",
-   "up": 59,
-   "com": 40,
+   "up": 71,
+   "com": 54,
    "at": "2026-10-08T06:29:25.000Z"
   },
   {
@@ -917,8 +963,8 @@
    "t": "Docker Agent",
    "url": "https://news.ycombinator.com/item?id=49996259",
    "link": "https://github.com/docker/docker-agent",
-   "up": 237,
-   "com": 110,
+   "up": 241,
+   "com": 113,
    "at": "2026-10-07T17:48:38.000Z"
   }
  ]
