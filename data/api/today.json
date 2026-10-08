@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-08T04:30:55.790Z"
+  "updated": "2026-10-08T05:01:05.279Z"
  },
  "pulse": {
   "trending": 77,
   "accelerating": 0,
   "newModels": 6,
   "discussions": 48,
-  "stars": 308
+  "stars": 306
  },
  "rising": [
   {
@@ -22,7 +22,7 @@
    "cat": "Infrastructure",
    "score": 91,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 2.1K",
+   "desc": "Model on Hugging Face · open source · ♥ 2.2K",
    "meta": [
     "1.5M downloads",
     "Released 8 days ago"
@@ -70,7 +70,7 @@
    "cat": "Infrastructure",
    "score": 88,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 787",
+   "desc": "Model on Hugging Face · open source · ♥ 788",
    "meta": [
     "5.8K downloads",
     "Released 6 days ago"
@@ -85,11 +85,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 86,
-   "grow": 5,
+   "grow": 6,
    "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
    "meta": [
-    "★ 2,134",
-    "+308 in 24h",
+    "★ 2,140",
+    "+306 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-02T09:57:40Z",
@@ -113,36 +113,36 @@
    "url": "https://huggingface.co/google/embeddinggemma-2"
   },
   {
-   "name": "GRACE: Generation-aware latent compression for efficient video generation",
+   "name": "STEPQuant: When and Where Errors Matter in Delta-Rule Recurrent State Quantization",
    "owner": "Paper",
    "src": "paper",
-   "url": "https://huggingface.co/papers/2610.10524",
+   "url": "https://huggingface.co/papers/2609.38169",
    "cat": "Research",
    "score": 85,
    "grow": null,
-   "desc": "Highly compressed video autoencoders offer an effective way to accelerate video diffusion models, as the Diffusion Transformer (DiT) operates on far fewer tokens.",
+   "desc": "Linear attention replaces growing KV caches with fixed-size recurrent states, yet these persistent states can become a substantial memory bottleneck under concurrent serving.",
    "meta": [
-    "▲ 50 upvotes",
+    "▲ 41 upvotes",
     "Hugging Face Papers"
    ],
-   "at": "2026-10-06T20:00:00.000Z",
+   "at": "2026-09-28T20:00:00.000Z",
    "breakout": null
   },
   {
-   "name": "Rill Browser",
+   "name": "IrisGo for Solopreneurs",
    "owner": "Product Hunt",
    "src": "ph",
-   "url": "https://www.producthunt.com/products/rill-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29",
-   "cat": "Agents",
+   "url": "https://www.producthunt.com/products/irisgo-public-beta?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29",
+   "cat": "Tools",
    "score": 85,
    "grow": null,
-   "desc": "The browser where Claude Code and Codex work beside you",
+   "desc": "AI workflow automation: show it once, let it run",
    "meta": [
-    "▲ 434 votes",
-    "66 comments",
-    "Launched 2 days ago"
+    "▲ 438 votes",
+    "104 comments",
+    "Launched 22h ago"
    ],
-   "at": "2026-10-06T07:01:00Z",
+   "at": "2026-10-07T07:01:00Z",
    "breakout": null
   },
   {
@@ -178,76 +178,8 @@
    "url": "https://huggingface.co/Cloudflare/clef-flash"
   }
  ],
- "breakouts": [
-  {
-   "key": "gpt 6",
-   "label": "GPT-6",
-   "n": 3,
-   "sources": [
-    {
-     "src": "OpenAI blog",
-     "t": "GPT-6 and Intelligent UI for everyone",
-     "url": "https://openai.com/index/gpt-6-for-everyone"
-    },
-    {
-     "src": "Techmeme",
-     "t": "OpenAI says GPT-6 in ChatGPT's Chat tab is powered by GPT-6 Sol for Plus, Pro, Business, and Enterprise tiers and GPT-6 Luna for Free and Go tiers",
-     "url": "https://www.techmeme.com/261007/p36#a261007p36"
-    },
-    {
-     "src": "GitHub",
-     "t": "zjwzcx/Awesome-Astra-Embodied-AI",
-     "url": "https://github.com/zjwzcx/Awesome-Astra-Embodied-AI"
-    }
-   ],
-   "since": "2026-10-02T11:40:52.853Z"
-  }
- ],
+ "breakouts": [],
  "hype": [
-  {
-   "name": "Haiku 5.5",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
-    {
-     "src": "Hacker News",
-     "t": "Claude Haiku 5.5",
-     "url": "https://news.ycombinator.com/item?id=49996437"
-    },
-    {
-     "src": "Techmeme",
-     "t": "Anthropic prices Haiku 5.5 at $0.10/1M input and $0.50/1M output tokens for requests up to 100K tokens, and $0.50 and $2.50 above, vs. $1 and $5 for Haiku 4.5",
-     "url": "https://www.techmeme.com/261007/p33#a261007p33"
-    }
-   ],
-   "buzz": 2,
-   "verdict": "Talk only, no public usage numbers"
-  },
-  {
-   "name": "GPT-6",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
-    {
-     "src": "OpenAI blog",
-     "t": "GPT-6 and Intelligent UI for everyone",
-     "url": "https://openai.com/index/gpt-6-for-everyone"
-    },
-    {
-     "src": "Techmeme",
-     "t": "OpenAI says GPT-6 in ChatGPT's Chat tab is powered by GPT-6 Sol for Plus, Pro, Business, and Enterprise tiers and GPT-6 Luna for Free and Go tiers",
-     "url": "https://www.techmeme.com/261007/p36#a261007p36"
-    }
-   ],
-   "buzz": 2,
-   "verdict": "Talk only, no public usage numbers"
-  },
   {
    "name": "embeddinggemma-2",
    "url": "https://huggingface.co/google/embeddinggemma-2",
@@ -269,8 +201,8 @@
    "name": "answer-me-with-html",
    "url": "https://github.com/QingYunA/answer-me-with-html",
    "from": "GitHub",
-   "use": 308,
-   "useLabel": "+308 stars/day",
+   "use": 306,
+   "useLabel": "+306 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -384,10 +316,10 @@
  "github": [
   {
    "repo": "QingYunA/answer-me-with-html",
-   "stars": 2134,
-   "d24": 308,
+   "stars": 2140,
+   "d24": 306,
    "est": false,
-   "forks": 144,
+   "forks": 145,
    "contrib": null,
    "score": 86
   }
@@ -403,7 +335,7 @@
    "grow": 0,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 2136
+   "likes": 2164
   },
   {
    "name": "clef",
@@ -426,7 +358,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Coding",
-   "likes": 1415
+   "likes": 1426
   },
   {
    "name": "Kolibri-1",
@@ -437,7 +369,7 @@
    "grow": 0,
    "score": 88,
    "cat": "Infrastructure",
-   "likes": 787
+   "likes": 788
   },
   {
    "name": "embeddinggemma-2",
@@ -448,7 +380,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Vision",
-   "likes": 1001
+   "likes": 1007
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -459,7 +391,7 @@
    "grow": 0,
    "score": 84,
    "cat": "Infrastructure",
-   "likes": 3593
+   "likes": 3595
   }
  ],
  "free": [
@@ -813,6 +745,27 @@
  },
  "headlines": [
   {
+   "t": "German search engine Ecosia, used by government services, ditches Mistral for open-source models, including Chinese ones, citing Mistral's disappointing quality",
+   "url": "https://www.techmeme.com/261008/p4#a261008p4",
+   "at": "2026-10-08T04:50:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Filing: Shanghai-based AI chipmaker Biren raises ~$515M in a new share sale; Biren's Hong Kong-listed stock is down 50%+ from a June peak but up ~70% YTD",
+   "url": "https://www.techmeme.com/261008/p3#a261008p3",
+   "at": "2026-10-08T04:45:50.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Sources: Isomorphic Labs, an AI drug discovery startup spun out of Google DeepMind, is in early talks to raise funds at a valuation of at least $40B",
+   "url": "https://www.techmeme.com/261008/p1#a261008p1",
+   "at": "2026-10-08T04:35:00.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Source: Nvidia considered a last-minute OpenRouter bid, telling its leadership it was prepared to make a generous offer, but OpenRouter didn't want to wait",
    "url": "https://www.techmeme.com/261007/p47#a261007p47",
    "at": "2026-10-08T03:25:00.000Z",
@@ -862,13 +815,6 @@
    "kind": "News"
   },
   {
-   "t": "OpenAI says GPT-6 in ChatGPT's Chat tab is powered by GPT-6 Sol for Plus, Pro, Business, and Enterprise tiers and GPT-6 Luna for Free and Go tiers",
-   "url": "https://www.techmeme.com/261007/p36#a261007p36",
-   "at": "2026-10-07T20:55:02.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Does better work always mean better workers?",
    "url": "https://research.google/blog/does-better-work-always-mean-better-workers/",
    "at": "2026-10-07T20:19:57.000Z",
@@ -876,31 +822,10 @@
    "kind": "Lab blog"
   },
   {
-   "t": "Sources: former White House AI adviser Sriram Krishnan is raising a ~$500M fund to back growth- and later-stage US AI startups, prioritizing national security",
-   "url": "https://www.techmeme.com/261007/p35#a261007p35",
-   "at": "2026-10-07T19:30:31.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "The AI industry is booming. Women are getting left behind",
    "url": "https://www.theguardian.com/technology/2026/oct/04/women-ai-jobs-inequality",
    "at": "2026-10-07T19:14:03Z",
    "src": "The Guardian",
-   "kind": "News"
-  },
-  {
-   "t": "Anthropic cuts Sonnet 5.5 cache read price from $0.20 to $0.10 and adds monthly API credits: $100 for Max 5x, $200 for Max 20x, up to $500 shared by Team users",
-   "url": "https://www.techmeme.com/261007/p34#a261007p34",
-   "at": "2026-10-07T19:05:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Anthropic prices Haiku 5.5 at $0.10/1M input and $0.50/1M output tokens for requests up to 100K tokens, and $0.50 and $2.50 above, vs. $1 and $5 for Haiku 4.5",
-   "url": "https://www.techmeme.com/261007/p33#a261007p33",
-   "at": "2026-10-07T18:45:30.000Z",
-   "src": "Techmeme",
    "kind": "News"
   },
   {
@@ -911,6 +836,13 @@
    "kind": "Lab blog"
   },
   {
+   "t": "Why OpenAI and Anthropic Want to Win",
+   "url": "https://www.businessinsider.com/openai-anthropic-trump-regulation-kevin-roose-ai-book-podcast-kafka-2026-10",
+   "at": "2026-10-07T16:54:56Z",
+   "src": "Business Insider",
+   "kind": "News"
+  },
+  {
    "t": "Multimodal open d1 decision models for the edge",
    "url": "https://huggingface.co/blog/LiquidAI/open-d1",
    "at": "2026-10-07T16:54:33.000Z",
@@ -918,10 +850,10 @@
    "kind": "Lab blog"
   },
   {
-   "t": "Global Economy Faces a Three-Way Test: AI, Expensive Energy and Unsustainable Debt",
-   "url": "https://www.devdiscourse.com/article/business/3988123-global-economy-faces-a-three-way-test-ai-expensive-energy-and-unsustainable-debt",
-   "at": "2026-10-07T16:27:14Z",
-   "src": "Devdiscourse",
+   "t": "FCC considers allowing more political robocalls before midterms, including those created with AI",
+   "url": "https://triblive.com/news/world/fcc-considers-allowing-more-political-robocalls-before-midterms-including-those-created-with-ai/",
+   "at": "2026-10-07T16:52:21Z",
+   "src": "Pittsburgh Tribune-Review",
    "kind": "News"
   }
  ],
@@ -931,8 +863,8 @@
    "t": "Claude Haiku 5.5",
    "url": "https://news.ycombinator.com/item?id=49996437",
    "link": "https://www.anthropic.com/claude-haiku-5-5",
-   "up": 754,
-   "com": 378,
+   "up": 770,
+   "com": 380,
    "at": "2026-10-07T18:01:32.000Z"
   },
   {
@@ -940,8 +872,8 @@
    "t": "GPT‑6 and Intelligent UI for everyone",
    "url": "https://news.ycombinator.com/item?id=49996425",
    "link": "https://openai.com/index/gpt-6-for-everyone/",
-   "up": 544,
-   "com": 281,
+   "up": 557,
+   "com": 289,
    "at": "2026-10-07T18:00:58.000Z"
   },
   {
@@ -949,8 +881,8 @@
    "t": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
    "url": "https://news.ycombinator.com/item?id=49997161",
    "link": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
-   "up": 310,
-   "com": 299,
+   "up": 320,
+   "com": 302,
    "at": "2026-10-07T18:49:40.000Z"
   },
   {
@@ -967,8 +899,8 @@
    "t": "Docker Agent",
    "url": "https://news.ycombinator.com/item?id=49996259",
    "link": "https://github.com/docker/docker-agent",
-   "up": 201,
-   "com": 91,
+   "up": 204,
+   "com": 93,
    "at": "2026-10-07T17:48:38.000Z"
   },
   {
