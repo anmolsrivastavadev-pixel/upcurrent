@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-08T07:01:05.036Z"
+  "updated": "2026-10-08T07:30:54.501Z"
  },
  "pulse": {
   "trending": 77,
   "accelerating": 0,
   "newModels": 7,
-  "discussions": 43,
-  "stars": 365
+  "discussions": 46,
+  "stars": 364
  },
  "rising": [
   {
@@ -70,7 +70,7 @@
    "cat": "Infrastructure",
    "score": 88,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 790",
+   "desc": "Model on Hugging Face · open source · ♥ 791",
    "meta": [
     "5.8K downloads",
     "Released 6 days ago"
@@ -85,11 +85,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 86,
-   "grow": 8,
+   "grow": 9,
    "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
    "meta": [
-    "★ 2,193",
-    "+365 in 24h",
+    "★ 2,200",
+    "+364 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-02T09:57:40Z",
@@ -122,7 +122,7 @@
    "grow": null,
    "desc": "Linear attention replaces growing KV caches with fixed-size recurrent states, yet these persistent states can become a substantial memory bottleneck under concurrent serving.",
    "meta": [
-    "▲ 79 upvotes",
+    "▲ 80 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-09-28T20:00:00.000Z",
@@ -138,7 +138,7 @@
    "grow": null,
    "desc": "AI workflow automation: show it once, let it run",
    "meta": [
-    "▲ 497 votes",
+    "▲ 505 votes",
     "119 comments",
     "Launched yesterday"
    ],
@@ -168,7 +168,7 @@
    "cat": "Coding",
    "score": 84,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 668",
+   "desc": "Model on Hugging Face · open source · ♥ 670",
    "meta": [
     "16K downloads",
     "Released 7 days ago"
@@ -178,15 +178,61 @@
    "url": "https://huggingface.co/Cloudflare/clef-flash"
   }
  ],
- "breakouts": [],
+ "breakouts": [
+  {
+   "key": "gpt 6",
+   "label": "GPT-6",
+   "n": 3,
+   "sources": [
+    {
+     "src": "OpenAI blog",
+     "t": "GPT-6 and Intelligent UI for everyone",
+     "url": "https://openai.com/index/gpt-6-for-everyone"
+    },
+    {
+     "src": "Firstpost",
+     "t": "OpenAI unveils GPT-6 with new intelligent UI and faster responses, here’s what’s new",
+     "url": "https://www.firstpost.com/tech/openai-unveils-gpt-6-with-new-intelligent-ui-and-faster-responses-heres-whats-new-14051264.html"
+    },
+    {
+     "src": "GitHub",
+     "t": "zjwzcx/Awesome-Astra-Embodied-AI",
+     "url": "https://github.com/zjwzcx/Awesome-Astra-Embodied-AI"
+    }
+   ],
+   "since": "2026-10-02T11:40:52.853Z"
+  }
+ ],
  "hype": [
+  {
+   "name": "GPT-6",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "OpenAI blog",
+     "t": "GPT-6 and Intelligent UI for everyone",
+     "url": "https://openai.com/index/gpt-6-for-everyone"
+    },
+    {
+     "src": "Firstpost",
+     "t": "OpenAI unveils GPT-6 with new intelligent UI and faster responses, here’s what’s new",
+     "url": "https://www.firstpost.com/tech/openai-unveils-gpt-6-with-new-intelligent-ui-and-faster-responses-heres-whats-new-14051264.html"
+    }
+   ],
+   "buzz": 2,
+   "verdict": "Talk only, no public usage numbers"
+  },
   {
    "name": "embeddinggemma-2",
    "url": "https://huggingface.co/google/embeddinggemma-2",
    "from": "Hugging Face",
    "use": 7562,
    "useLabel": "7.6K downloads",
-   "usePct": 0.22857142857142856,
+   "usePct": 0.2,
    "talk": [
     {
      "src": "Google DeepMind blog",
@@ -201,8 +247,8 @@
    "name": "answer-me-with-html",
    "url": "https://github.com/QingYunA/answer-me-with-html",
    "from": "GitHub",
-   "use": 365,
-   "useLabel": "+365 stars/day",
+   "use": 364,
+   "useLabel": "+364 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -232,6 +278,16 @@
   }
  ],
  "receipts": [
+  {
+   "name": "bilibili/Index-Translate",
+   "url": "https://github.com/bilibili/Index-Translate",
+   "kind": "stars",
+   "first": "2026-10-07T22:30:49.405Z",
+   "firstV": 939,
+   "m": 1000,
+   "at": "2026-10-08T07:30:54.501Z",
+   "lead": 9.001415555555555
+  },
   {
    "name": "angusdevgo/Seep-Reverse-Lab",
    "url": "https://github.com/angusdevgo/Seep-Reverse-Lab",
@@ -301,23 +357,13 @@
    "m": 2500,
    "at": "2026-10-07T19:51:16.190Z",
    "lead": 82.340075
-  },
-  {
-   "name": "Ebony-Vinyl/dsh-our-free-model",
-   "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
-   "kind": "stars",
-   "first": "2026-10-05T06:01:00.549Z",
-   "firstV": 1271,
-   "m": 2500,
-   "at": "2026-10-07T19:51:16.190Z",
-   "lead": 61.83767805555556
   }
  ],
  "github": [
   {
    "repo": "QingYunA/answer-me-with-html",
-   "stars": 2193,
-   "d24": 365,
+   "stars": 2200,
+   "d24": 364,
    "est": false,
    "forks": 148,
    "contrib": null,
@@ -335,7 +381,7 @@
    "grow": 0,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 2278
+   "likes": 2301
   },
   {
    "name": "clef",
@@ -346,7 +392,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Coding",
-   "likes": 1842
+   "likes": 1847
   },
   {
    "name": "GEV-26B-Decide",
@@ -358,7 +404,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Coding",
-   "likes": 1474
+   "likes": 1488
   },
   {
    "name": "Kolibri-1",
@@ -369,7 +415,7 @@
    "grow": 0,
    "score": 88,
    "cat": "Infrastructure",
-   "likes": 790
+   "likes": 791
   },
   {
    "name": "embeddinggemma-2",
@@ -380,7 +426,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Vision",
-   "likes": 1036
+   "likes": 1048
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -391,7 +437,7 @@
    "grow": 0,
    "score": 84,
    "cat": "Infrastructure",
-   "likes": 3604
+   "likes": 3609
   }
  ],
  "free": [
@@ -836,25 +882,25 @@
    "kind": "Lab blog"
   },
   {
+   "t": "OpenAI unveils GPT-6 with new intelligent UI and faster responses, here’s what’s new",
+   "url": "https://www.firstpost.com/tech/openai-unveils-gpt-6-with-new-intelligent-ui-and-faster-responses-heres-whats-new-14051264.html",
+   "at": "2026-10-07T19:27:28Z",
+   "src": "Firstpost",
+   "kind": "News"
+  },
+  {
+   "t": "Daily on Energy: Nuclear plants embrace artificial intelligence",
+   "url": "https://www.washingtonexaminer.com/daily-on-energy/4757946/daily-on-energy-nuclear-plants-embrace-artificial-intelligence/",
+   "at": "2026-10-07T19:19:18Z",
+   "src": "Washington Examiner",
+   "kind": "News"
+  },
+  {
    "t": "The AI industry is booming. Women are getting left behind",
    "url": "https://www.theguardian.com/technology/2026/oct/04/women-ai-jobs-inequality",
    "at": "2026-10-07T19:14:03Z",
    "src": "The Guardian",
    "kind": "News"
-  },
-  {
-   "t": "The latest TLD applications are all about AI",
-   "url": "https://www.theverge.com/tech/1007132/icann-domains-2026-ai-agi",
-   "at": "2026-10-07T18:46:16Z",
-   "src": "The Verge",
-   "kind": "News"
-  },
-  {
-   "t": "NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents",
-   "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
-   "at": "2026-10-07T18:45:28.000Z",
-   "src": "NVIDIA",
-   "kind": "Lab blog"
   }
  ],
  "discussions": [
@@ -863,8 +909,8 @@
    "t": "Claude Haiku 5.5",
    "url": "https://news.ycombinator.com/item?id=49996437",
    "link": "https://www.anthropic.com/claude-haiku-5-5",
-   "up": 815,
-   "com": 400,
+   "up": 831,
+   "com": 407,
    "at": "2026-10-07T18:01:32.000Z"
   },
   {
@@ -872,8 +918,8 @@
    "t": "GPT‑6 and Intelligent UI for everyone",
    "url": "https://news.ycombinator.com/item?id=49996425",
    "link": "https://openai.com/index/gpt-6-for-everyone/",
-   "up": 590,
-   "com": 300,
+   "up": 595,
+   "com": 310,
    "at": "2026-10-07T18:00:58.000Z"
   },
   {
@@ -881,8 +927,8 @@
    "t": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
    "url": "https://news.ycombinator.com/item?id=49997161",
    "link": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
-   "up": 334,
-   "com": 324,
+   "up": 335,
+   "com": 325,
    "at": "2026-10-07T18:49:40.000Z"
   },
   {
@@ -890,7 +936,7 @@
    "t": "A font recreated from photographs of classic Commodore 64 keycaps",
    "url": "https://news.ycombinator.com/item?id=49990224",
    "link": "https://github.com/szabadkai/c64-keyboard-font/",
-   "up": 388,
+   "up": 389,
    "com": 64,
    "at": "2026-10-07T09:17:55.000Z"
   },
@@ -899,18 +945,17 @@
    "t": "Docker Agent",
    "url": "https://news.ycombinator.com/item?id=49996259",
    "link": "https://github.com/docker/docker-agent",
-   "up": 216,
-   "com": 101,
+   "up": 221,
+   "com": 103,
    "at": "2026-10-07T17:48:38.000Z"
   },
   {
-   "src": "Hacker News",
-   "t": "A 100x faster* alternative to homebrew",
-   "url": "https://news.ycombinator.com/item?id=50001580",
-   "link": "https://github.com/zerobrewhq/zerobrew",
-   "up": 58,
-   "com": 33,
-   "at": "2026-10-08T03:23:08.000Z"
+   "src": "DEV",
+   "t": "To Retry or Not to Retry? That Is the Question.",
+   "url": "https://dev.to/gramli/to-retry-or-not-to-retry-that-is-the-question-1j2l",
+   "up": 16,
+   "com": 2,
+   "at": "2026-10-08T07:00:15Z"
   }
  ]
 }
