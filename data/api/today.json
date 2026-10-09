@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-09T14:01:08.434Z"
+  "updated": "2026-10-09T14:30:57.811Z"
  },
  "pulse": {
   "trending": 77,
   "accelerating": 3,
-  "newModels": 5,
+  "newModels": 6,
   "discussions": 44,
-  "stars": 2543
+  "stars": 2495
  },
  "rising": [
   {
@@ -21,15 +21,15 @@
    "src": "gh",
    "cat": "Agents",
    "score": 98,
-   "grow": 100,
+   "grow": 102,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 1,939",
-    "+2,216 in 24h",
+    "★ 1,960",
+    "+2,162 in 24h",
     "Created yesterday"
    ],
    "at": "2026-10-08T05:33:06Z",
-   "breakout": null,
+   "breakout": 3,
    "url": "https://github.com/mhtsec/ARTEX"
   },
   {
@@ -119,7 +119,7 @@
    "cat": "Infrastructure",
    "score": 86,
    "grow": 113,
-   "desc": "Model on Hugging Face · open source · ♥ 553",
+   "desc": "Model on Hugging Face · open source · ♥ 555",
    "meta": [
     "12K downloads",
     "Released 3 days ago"
@@ -138,7 +138,7 @@
    "grow": null,
    "desc": "Reinforcement learning (RL) is the central training paradigm for advancing large foundation models towards self-improvement.",
    "meta": [
-    "▲ 52 upvotes",
+    "▲ 53 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-07T20:00:00.000Z",
@@ -178,23 +178,52 @@
    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF"
   }
  ],
- "breakouts": [],
+ "breakouts": [
+  {
+   "key": "artex",
+   "label": "ARTEX",
+   "n": 3,
+   "sources": [
+    {
+     "src": "GitHub",
+     "t": "mhtsec/ARTEX",
+     "url": "https://github.com/mhtsec/ARTEX"
+    },
+    {
+     "src": "Techmeme",
+     "t": "The Chinese developer of ARTEX says they have converted the AI agent into a closed-source project after CrowdStrike said it was used to hack South Korean banks",
+     "url": "https://www.techmeme.com/261009/p11#a261009p11"
+    },
+    {
+     "src": "Internet",
+     "t": "ARTEX AI Pentesting Tool Used in Data Theft Attacks on South Korean Financial Firms",
+     "url": "https://thehackernews.com/2026/10/artex-ai-pentesting-tool-used-in-data.html"
+    }
+   ],
+   "since": "2026-10-09T14:30:57.811Z"
+  }
+ ],
  "hype": [
   {
    "name": "ARTEX",
    "url": "https://github.com/mhtsec/ARTEX",
    "from": "GitHub",
-   "use": 2216,
-   "useLabel": "+2,216 stars/day",
+   "use": 2162,
+   "useLabel": "+2,162 stars/day",
    "usePct": 1,
    "talk": [
     {
      "src": "Techmeme",
-     "t": "The Chinese developer of ARTEX says it has converted the AI agent into a closed-source project after CrowdStrike said it was used to hack South Korean banks",
+     "t": "The Chinese developer of ARTEX says they have converted the AI agent into a closed-source project after CrowdStrike said it was used to hack South Korean banks",
      "url": "https://www.techmeme.com/261009/p11#a261009p11"
+    },
+    {
+     "src": "Internet",
+     "t": "ARTEX AI Pentesting Tool Used in Data Theft Attacks on South Korean Financial Firms",
+     "url": "https://thehackernews.com/2026/10/artex-ai-pentesting-tool-used-in-data.html"
     }
    ],
-   "buzz": 1,
+   "buzz": 2,
    "verdict": "The hype matches real use"
   },
   {
@@ -203,7 +232,7 @@
    "from": "Hugging Face",
    "use": 29185,
    "useLabel": "29K downloads",
-   "usePct": 0.38235294117647056,
+   "usePct": 0.4117647058823529,
    "talk": [
     {
      "src": "Google DeepMind blog",
@@ -220,7 +249,7 @@
    "from": "Hugging Face",
    "use": 5558,
    "useLabel": "5.6K downloads",
-   "usePct": 0.08823529411764706,
+   "usePct": 0.11764705882352941,
    "talk": [
     {
      "src": "Lobsters",
@@ -266,6 +295,16 @@
   }
  ],
  "receipts": [
+  {
+   "name": "dzhng/jevgrep",
+   "url": "https://github.com/dzhng/jevgrep",
+   "kind": "stars",
+   "first": "2026-10-01T17:48:04.617Z",
+   "firstV": 1979,
+   "m": 2500,
+   "at": "2026-10-09T14:30:57.811Z",
+   "lead": 188.71477611111112
+  },
   {
    "name": "Ebony-Vinyl/dsh-our-free-model",
    "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
@@ -335,34 +374,24 @@
    "m": 1000,
    "at": "2026-10-08T16:01:06.102Z",
    "lead": 6.504334444444445
-  },
-  {
-   "name": "Cloudflare/clef",
-   "url": "https://huggingface.co/Cloudflare/clef",
-   "kind": "downloads",
-   "first": "2026-10-01T18:51:59.552Z",
-   "firstV": 18,
-   "m": 10000,
-   "at": "2026-10-08T10:30:54.608Z",
-   "lead": 159.64862666666667
   }
  ],
  "github": [
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 1939,
-   "d24": 2216,
+   "stars": 1960,
+   "d24": 2162,
    "est": false,
-   "forks": 4129,
+   "forks": 4171,
    "contrib": null,
    "score": 98
   },
   {
    "repo": "Jakeschincariol/replica-skill",
-   "stars": 1252,
-   "d24": 327,
+   "stars": 1261,
+   "d24": 333,
    "est": false,
-   "forks": 159,
+   "forks": 164,
    "contrib": null,
    "score": 79
   }
@@ -378,7 +407,7 @@
    "grow": null,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 3396
+   "likes": 3412
   },
   {
    "name": "GEV-26B-Decide",
@@ -390,7 +419,7 @@
    "grow": null,
    "score": 90,
    "cat": "Coding",
-   "likes": 2058
+   "likes": 2070
   },
   {
    "name": "embeddinggemma-2",
@@ -401,7 +430,7 @@
    "grow": null,
    "score": 87,
    "cat": "Vision",
-   "likes": 1289
+   "likes": 1290
   },
   {
    "name": "clef",
@@ -434,7 +463,7 @@
    "grow": 113,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 553
+   "likes": 555
   }
  ],
  "free": [
@@ -770,14 +799,21 @@
  },
  "headlines": [
   {
-   "t": "Jev developer TypeSafe AI raised ~$870M led by a16z at a $7.5B valuation with Sequoia and others participating",
+   "t": "Analysis of 857 releases from nine Chinese AI labs between 2021 and September 2026: just 3.6% disclosed safety results, and only 1.1% did so at launch",
+   "url": "https://www.techmeme.com/261009/p14#a261009p14",
+   "at": "2026-10-09T14:15:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Jev developer TypeSafe AI raised ~$870M led by a16z at a $7.5B valuation with Sequoia and angel investors also participating; ~33% of the Fortune 500 use Jev",
    "url": "https://www.techmeme.com/261009/p13#a261009p13",
    "at": "2026-10-09T13:25:03.000Z",
    "src": "Techmeme",
    "kind": "News"
   },
   {
-   "t": "The Chinese developer of ARTEX says it has converted the AI agent into a closed-source project after CrowdStrike said it was used to hack South Korean banks",
+   "t": "The Chinese developer of ARTEX says they have converted the AI agent into a closed-source project after CrowdStrike said it was used to hack South Korean banks",
    "url": "https://www.techmeme.com/261009/p11#a261009p11",
    "at": "2026-10-09T11:55:01.000Z",
    "src": "Techmeme",
@@ -873,13 +909,6 @@
    "at": "2026-10-09T04:05:01.000Z",
    "src": "Techmeme",
    "kind": "News"
-  },
-  {
-   "t": "OpenAI says Iran, Russia influence ops busted",
-   "url": "https://www.cnbctv18.com/technology/openai-says-iran-russia-influence-ops-busted-20008129.htm",
-   "at": "2026-10-09T02:00:32Z",
-   "src": "CNBC TV18",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -888,35 +917,35 @@
    "t": "Let your AI agents paint big arrows, boxes and text on your screen",
    "url": "https://news.ycombinator.com/item?id=50018817",
    "link": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
-   "up": 171,
-   "com": 66,
+   "up": 185,
+   "com": 74,
    "at": "2026-10-09T11:03:48.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Tell HN: I've been paying for a rural Tanzanian's education for 10 years",
-   "url": "https://news.ycombinator.com/item?id=50006366",
-   "link": "",
-   "up": 717,
-   "com": 223,
-   "at": "2026-10-08T14:39:47.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Iranian campaign planted fake articles in real U.S. publications using ChatGPT",
    "url": "https://news.ycombinator.com/item?id=50019455",
    "link": "https://www.washingtonpost.com/technology/2026/10/09/chatgpt-users-iran-planted-ai-generated-articles-us-news-media/",
-   "up": 50,
-   "com": 15,
+   "up": 74,
+   "com": 34,
    "at": "2026-10-09T12:21:24.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Tell HN: I've been paying for a rural Tanzanian's education for 10 years",
+   "url": "https://news.ycombinator.com/item?id=50006366",
+   "link": "",
+   "up": 719,
+   "com": 223,
+   "at": "2026-10-08T14:39:47.000Z"
   },
   {
    "src": "Hacker News",
    "t": "OpenAI fires three safety researchers for \"mishandling research information\"",
    "url": "https://news.ycombinator.com/item?id=50018350",
    "link": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
-   "up": 101,
-   "com": 54,
+   "up": 113,
+   "com": 61,
    "at": "2026-10-09T10:00:26.000Z"
   },
   {
@@ -924,7 +953,7 @@
    "t": "OpenAI annualised revenues $20B less than previously signalled",
    "url": "https://news.ycombinator.com/item?id=50008187",
    "link": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
-   "up": 408,
+   "up": 409,
    "com": 282,
    "at": "2026-10-08T16:45:58.000Z"
   },
@@ -933,7 +962,7 @@
    "t": "MXC - a sandboxed code execution system",
    "url": "https://news.ycombinator.com/item?id=50016489",
    "link": "https://github.com/microsoft/mxc",
-   "up": 86,
+   "up": 90,
    "com": 48,
    "at": "2026-10-09T05:51:29.000Z"
   }
