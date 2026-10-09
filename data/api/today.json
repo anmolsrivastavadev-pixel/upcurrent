@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-09T02:01:04.068Z"
+  "updated": "2026-10-09T02:30:49.193Z"
  },
  "pulse": {
   "trending": 77,
   "accelerating": 2,
   "newModels": 8,
-  "discussions": 47,
-  "stars": 285
+  "discussions": 48,
+  "stars": 306
  },
  "rising": [
   {
@@ -38,7 +38,7 @@
    "cat": "Infrastructure",
    "score": 90,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 2.9K",
+   "desc": "Model on Hugging Face · open source · ♥ 3K",
    "meta": [
     "1.5M downloads",
     "Released 9 days ago"
@@ -101,16 +101,32 @@
    "src": "gh",
    "cat": "Agents",
    "score": 85,
-   "grow": 1,
+   "grow": 2,
    "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
    "meta": [
-    "★ 2,335",
-    "+58 in 24h",
+    "★ 2,346",
+    "+80 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-02T09:57:40Z",
    "breakout": null,
    "url": "https://github.com/QingYunA/answer-me-with-html"
+  },
+  {
+   "name": "GLM5.3-Flash-E224-DGX-Spark",
+   "owner": "autotrust",
+   "src": "hf",
+   "cat": "Infrastructure",
+   "score": 85,
+   "grow": 7874,
+   "desc": "Model on Hugging Face · open source · ♥ 411",
+   "meta": [
+    "5.4K downloads",
+    "Released 2 days ago"
+   ],
+   "at": "2026-10-06T22:49:26.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/autotrust/GLM5.3-Flash-E224-DGX-Spark"
   },
   {
    "name": "Self-Retrospection Distillation: Turning Post-hoc Experiences into Prior Foresight",
@@ -122,7 +138,7 @@
    "grow": null,
    "desc": "Reinforcement learning with verifiable rewards (RLVR) turns agent experience into learning signals primarily through scalar outcome rewards after interaction.",
    "meta": [
-    "▲ 31 upvotes",
+    "▲ 45 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-05T20:00:00.000Z",
@@ -144,22 +160,6 @@
    ],
    "at": "2026-10-07T07:01:00Z",
    "breakout": null
-  },
-  {
-   "name": "GLM5.3-Flash-E224-DGX-Spark",
-   "owner": "autotrust",
-   "src": "hf",
-   "cat": "Infrastructure",
-   "score": 84,
-   "grow": 7874,
-   "desc": "Model on Hugging Face · open source · ♥ 402",
-   "meta": [
-    "5.4K downloads",
-    "Released 2 days ago"
-   ],
-   "at": "2026-10-06T22:49:26.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/autotrust/GLM5.3-Flash-E224-DGX-Spark"
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -201,8 +201,8 @@
    "name": "replica-skill",
    "url": "https://github.com/Jakeschincariol/replica-skill",
    "from": "GitHub",
-   "use": 227,
-   "useLabel": "+227 stars/day",
+   "use": 226,
+   "useLabel": "+226 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -316,8 +316,8 @@
  "github": [
   {
    "repo": "Jakeschincariol/replica-skill",
-   "stars": 1094,
-   "d24": 227,
+   "stars": 1098,
+   "d24": 226,
    "est": false,
    "forks": 138,
    "contrib": null,
@@ -325,10 +325,10 @@
   },
   {
    "repo": "QingYunA/answer-me-with-html",
-   "stars": 2335,
-   "d24": 58,
+   "stars": 2346,
+   "d24": 80,
    "est": false,
-   "forks": 156,
+   "forks": 157,
    "contrib": null,
    "score": 85
   }
@@ -344,7 +344,7 @@
    "grow": 0,
    "score": 91,
    "cat": "Coding",
-   "likes": 1838
+   "likes": 1848
   },
   {
    "name": "JEV-27B-VL",
@@ -356,7 +356,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 2939
+   "likes": 2952
   },
   {
    "name": "clef",
@@ -367,7 +367,7 @@
    "grow": 0,
    "score": 88,
    "cat": "Coding",
-   "likes": 1889
+   "likes": 1890
   },
   {
    "name": "Kolibri-1",
@@ -389,7 +389,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Vision",
-   "likes": 1203
+   "likes": 1206
   },
   {
    "name": "GLM5.3-Flash-E224-DGX-Spark",
@@ -398,9 +398,9 @@
    "at": "2026-10-06T22:49:26.000Z",
    "dl": 5422,
    "grow": 7874,
-   "score": 84,
+   "score": 85,
    "cat": "Infrastructure",
-   "likes": 402
+   "likes": 411
   }
  ],
  "free": [
@@ -834,6 +834,13 @@
    "kind": "Video"
   },
   {
+   "t": "Safe Pro Expects Record 2,300% Revenue Growth in Q3 2026 Driven by Multiple Government Contracts for AI-Powered Threat Detection and Mapping",
+   "url": "https://techbullion.com/safe-pro-expects-record-2300-revenue-growth-in-q3-2026-driven-by-multiple-government-contracts-for-ai-powered-threat-detection-and-mapping/",
+   "at": "2026-10-08T14:18:27Z",
+   "src": "TechBullion",
+   "kind": "News"
+  },
+  {
    "t": "Why are the tech lords so bad at signing their names?",
    "url": "https://krdo.com/news/national-world/cnn-national/2026/10/08/why-are-the-tech-lords-so-bad-at-signing-their-names/",
    "at": "2026-10-08T14:00:44Z",
@@ -846,13 +853,6 @@
    "at": "2026-10-08T13:58:08Z",
    "src": "The Verge",
    "kind": "News"
-  },
-  {
-   "t": "ASEAN making good progress on Code of Conduct for South China Sea: Philippine president",
-   "url": "https://www.channelnewsasia.com/watch/asean-making-good-progress-code-conduct-south-china-sea-philippine-president-6442811",
-   "at": "2026-10-08T13:54:28Z",
-   "src": "CNA",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -861,8 +861,8 @@
    "t": "Tell HN: I've been paying for a rural Tanzanian's education for 10 years",
    "url": "https://news.ycombinator.com/item?id=50006366",
    "link": "",
-   "up": 665,
-   "com": 199,
+   "up": 667,
+   "com": 201,
    "at": "2026-10-08T14:39:47.000Z"
   },
   {
@@ -870,7 +870,7 @@
    "t": "OpenAI annualised revenues $20B less than previously signalled",
    "url": "https://news.ycombinator.com/item?id=50008187",
    "link": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
-   "up": 351,
+   "up": 357,
    "com": 246,
    "at": "2026-10-08T16:45:58.000Z"
   },
@@ -880,7 +880,7 @@
    "url": "https://news.ycombinator.com/item?id=50013902",
    "link": "https://karagila.org/2026/openai-pp/",
    "up": 85,
-   "com": 101,
+   "com": 106,
    "at": "2026-10-08T23:29:43.000Z"
   },
   {
@@ -897,7 +897,7 @@
    "t": "The value of not getting to the point (2015)",
    "url": "https://news.ycombinator.com/item?id=50010470",
    "link": "https://ken.arneson.name/2015/11/the-value-of-not-getting-to-the-point/",
-   "up": 120,
+   "up": 128,
    "com": 40,
    "at": "2026-10-08T19:04:56.000Z"
   },
@@ -906,8 +906,8 @@
    "t": "AI-ready biological data: $1.8B global commitment",
    "url": "https://news.ycombinator.com/item?id=50011999",
    "link": "https://biohub.org/news/virtual-biology-initiative-expansion/",
-   "up": 70,
-   "com": 7,
+   "up": 77,
+   "com": 10,
    "at": "2026-10-08T20:46:25.000Z"
   }
  ]
