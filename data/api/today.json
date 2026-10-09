@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-09T00:01:04.701Z"
+  "updated": "2026-10-09T00:30:52.434Z"
  },
  "pulse": {
   "trending": 77,
   "accelerating": 2,
   "newModels": 7,
-  "discussions": 44,
-  "stars": 246
+  "discussions": 45,
+  "stars": 251
  },
  "rising": [
   {
@@ -104,8 +104,8 @@
    "grow": 0,
    "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
    "meta": [
-    "★ 2,319",
-    "+24 in 24h",
+    "★ 2,320",
+    "+25 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-02T09:57:40Z",
@@ -113,19 +113,19 @@
    "url": "https://github.com/QingYunA/answer-me-with-html"
   },
   {
-   "name": "NAMVIS: Next-Scale Autoregressive Multi-View Image Synthesis",
+   "name": "Q-Learning with Scalar Adjoint Matching",
    "owner": "Paper",
    "src": "paper",
-   "url": "https://huggingface.co/papers/2610.04722",
+   "url": "https://huggingface.co/papers/2610.10437",
    "cat": "Research",
    "score": 85,
    "grow": null,
-   "desc": "Sparse-view novel view synthesis is a central problem in 3D content creation, but diffusion-based approaches remain limited by iterative denoising, making multi-view generation expensive at inference time.",
+   "desc": "Flow policies capture rich and diverse action distributions, and fine-tuning them with off-policy RL to improve beyond the demonstrations has drawn growing interest.",
    "meta": [
-    "▲ 19 upvotes",
+    "▲ 16 upvotes",
     "Hugging Face Papers"
    ],
-   "at": "2026-10-02T20:00:00.000Z",
+   "at": "2026-10-06T20:00:00.000Z",
    "breakout": null
   },
   {
@@ -152,7 +152,7 @@
    "cat": "Infrastructure",
    "score": 84,
    "grow": 7874,
-   "desc": "Model on Hugging Face · open source · ♥ 376",
+   "desc": "Model on Hugging Face · open source · ♥ 384",
    "meta": [
     "5.4K downloads",
     "Released 2 days ago"
@@ -247,8 +247,8 @@
    "name": "replica-skill",
    "url": "https://github.com/Jakeschincariol/replica-skill",
    "from": "GitHub",
-   "use": 222,
-   "useLabel": "+222 stars/day",
+   "use": 226,
+   "useLabel": "+226 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -362,8 +362,8 @@
  "github": [
   {
    "repo": "Jakeschincariol/replica-skill",
-   "stars": 1072,
-   "d24": 222,
+   "stars": 1079,
+   "d24": 226,
    "est": false,
    "forks": 132,
    "contrib": null,
@@ -371,8 +371,8 @@
   },
   {
    "repo": "QingYunA/answer-me-with-html",
-   "stars": 2319,
-   "d24": 24,
+   "stars": 2320,
+   "d24": 25,
    "est": false,
    "forks": 155,
    "contrib": null,
@@ -390,7 +390,7 @@
    "grow": 0,
    "score": 91,
    "cat": "Coding",
-   "likes": 1811
+   "likes": 1820
   },
   {
    "name": "JEV-27B-VL",
@@ -402,7 +402,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 2871
+   "likes": 2896
   },
   {
    "name": "clef",
@@ -413,7 +413,7 @@
    "grow": 0,
    "score": 88,
    "cat": "Coding",
-   "likes": 1885
+   "likes": 1886
   },
   {
    "name": "Kolibri-1",
@@ -435,7 +435,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Vision",
-   "likes": 1191
+   "likes": 1193
   },
   {
    "name": "GLM5.3-Flash-E224-DGX-Spark",
@@ -446,7 +446,7 @@
    "grow": 7874,
    "score": 84,
    "cat": "Infrastructure",
-   "likes": 376
+   "likes": 384
   }
  ],
  "free": [
@@ -887,18 +887,18 @@
    "kind": "News"
   },
   {
-   "t": "Arena, which develops the popular AI model leaderboard, raised $200M at a $3.1B valuation, up from $1.7B in January, and launches an Alignment Index",
-   "url": "https://www.techmeme.com/261008/p35#a261008p35",
-   "at": "2026-10-08T16:20:02.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "How Oracle turns days of work into minutes with ChatGPT and Codex",
    "url": "https://openai.com/index/oracle",
    "at": "2026-10-08T16:00:00.000Z",
    "src": "OpenAI",
    "kind": "Lab blog"
+  },
+  {
+   "t": "Math Field SHOOK After Open AI SOLVES HUNDREDS Of Problems, ITS OVER",
+   "url": "https://www.youtube.com/watch?v=hUJuWw2utAg",
+   "at": "2026-10-08T15:00:28Z",
+   "src": "Timcast IRL",
+   "kind": "Video"
   }
  ],
  "discussions": [
@@ -907,8 +907,8 @@
    "t": "Tell HN: I've been paying for a rural Tanzanian's education for 10 years",
    "url": "https://news.ycombinator.com/item?id=50006366",
    "link": "",
-   "up": 652,
-   "com": 186,
+   "up": 653,
+   "com": 189,
    "at": "2026-10-08T14:39:47.000Z"
   },
   {
@@ -917,8 +917,17 @@
    "url": "https://news.ycombinator.com/item?id=50008187",
    "link": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
    "up": 346,
-   "com": 240,
+   "com": 243,
    "at": "2026-10-08T16:45:58.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "OpenAI, the Partition Principle, and Mathematics",
+   "url": "https://news.ycombinator.com/item?id=50013902",
+   "link": "https://karagila.org/2026/openai-pp/",
+   "up": 38,
+   "com": 24,
+   "at": "2026-10-08T23:29:43.000Z"
   },
   {
    "src": "Hacker News",
@@ -934,8 +943,8 @@
    "t": "The value of not getting to the point (2015)",
    "url": "https://news.ycombinator.com/item?id=50010470",
    "link": "https://ken.arneson.name/2015/11/the-value-of-not-getting-to-the-point/",
-   "up": 102,
-   "com": 34,
+   "up": 103,
+   "com": 35,
    "at": "2026-10-08T19:04:56.000Z"
   },
   {
@@ -943,18 +952,9 @@
    "t": "AI-ready biological data: $1.8B global commitment",
    "url": "https://news.ycombinator.com/item?id=50011999",
    "link": "https://biohub.org/news/virtual-biology-initiative-expansion/",
-   "up": 51,
+   "up": 56,
    "com": 4,
    "at": "2026-10-08T20:46:25.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "OpenAI withdraws three mathematical results",
-   "url": "https://news.ycombinator.com/item?id=50002650",
-   "link": "https://twitter.com/danintheory/status/2108065033070789090",
-   "up": 241,
-   "com": 540,
-   "at": "2026-10-08T07:05:40.000Z"
   }
  ]
 }
