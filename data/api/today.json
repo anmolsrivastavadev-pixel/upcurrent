@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-09T09:30:53.485Z"
+  "updated": "2026-10-09T10:01:05.408Z"
  },
  "pulse": {
-  "trending": 78,
-  "accelerating": 0,
+  "trending": 77,
+  "accelerating": 2,
   "newModels": 5,
-  "discussions": 42,
-  "stars": 3004
+  "discussions": 40,
+  "stars": 2922
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 98,
-   "grow": 69,
+   "grow": 76,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 1,635",
-    "+2,664 in 24h",
+    "★ 1,706",
+    "+2,720 in 24h",
     "Created yesterday"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -39,7 +39,7 @@
    "cat": "Infrastructure",
    "score": 90,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 3.2K",
+   "desc": "Model on Hugging Face · open source · ♥ 3.3K",
    "meta": [
     "1.5M downloads",
     "Released 9 days ago"
@@ -54,10 +54,10 @@
    "src": "hf",
    "cat": "Coding",
    "score": 90,
-   "grow": 0,
+   "grow": 1,
    "desc": "Model on Hugging Face · open source · ♥ 2K",
    "meta": [
-    "904K downloads",
+    "910K downloads",
     "Released 7 days ago"
    ],
    "at": "2026-10-02T04:20:21.000Z",
@@ -65,20 +65,20 @@
    "url": "https://huggingface.co/autotrust/GEV-26B-Decide"
   },
   {
-   "name": "clef",
-   "owner": "Cloudflare",
+   "name": "embeddinggemma-2",
+   "owner": "google",
    "src": "hf",
-   "cat": "Coding",
-   "score": 88,
-   "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 1.9K",
+   "cat": "Vision",
+   "score": 87,
+   "grow": 38,
+   "desc": "Vision on Hugging Face · open source · ♥ 1.3K",
    "meta": [
-    "11K downloads",
-    "Released 9 days ago"
+    "29K downloads",
+    "Released 25 days ago"
    ],
-   "at": "2026-09-30T21:15:35.000Z",
+   "at": "2026-09-14T14:53:42.000Z",
    "breakout": null,
-   "url": "https://huggingface.co/Cloudflare/clef"
+   "url": "https://huggingface.co/google/embeddinggemma-2"
   },
   {
    "name": "Kolibri-1",
@@ -86,10 +86,10 @@
    "src": "hf",
    "cat": "Infrastructure",
    "score": 87,
-   "grow": 0,
+   "grow": 25,
    "desc": "Model on Hugging Face · open source · ♥ 822",
    "meta": [
-    "6.8K downloads",
+    "8.5K downloads",
     "Released 7 days ago"
    ],
    "at": "2026-10-02T05:54:02.000Z",
@@ -97,20 +97,20 @@
    "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
   },
   {
-   "name": "embeddinggemma-2",
-   "owner": "google",
+   "name": "clef",
+   "owner": "Cloudflare",
    "src": "hf",
-   "cat": "Vision",
+   "cat": "Coding",
    "score": 86,
-   "grow": 0,
-   "desc": "Vision on Hugging Face · open source · ♥ 1.3K",
+   "grow": 11,
+   "desc": "Model on Hugging Face · open source · ♥ 1.9K",
    "meta": [
-    "21K downloads",
-    "Released 25 days ago"
+    "12K downloads",
+    "Released 9 days ago"
    ],
-   "at": "2026-09-14T14:53:42.000Z",
+   "at": "2026-09-30T21:15:35.000Z",
    "breakout": null,
-   "url": "https://huggingface.co/google/embeddinggemma-2"
+   "url": "https://huggingface.co/Cloudflare/clef"
   },
   {
    "name": "GLM5.3-Flash-E224-DGX-Spark",
@@ -121,7 +121,7 @@
    "grow": null,
    "desc": "Model on Hugging Face · open source · ♥ 550",
    "meta": [
-    "5.4K downloads",
+    "12K downloads",
     "Released 2 days ago"
    ],
    "at": "2026-10-06T22:49:26.000Z",
@@ -138,7 +138,7 @@
    "grow": null,
    "desc": "Reinforcement learning (RL) is the central training paradigm for advancing large foundation models towards self-improvement.",
    "meta": [
-    "▲ 43 upvotes",
+    "▲ 45 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-07T20:00:00.000Z",
@@ -154,7 +154,7 @@
    "grow": null,
    "desc": "A swarm of agents, in the same place you work",
    "meta": [
-    "▲ 369 votes",
+    "▲ 370 votes",
     "60 comments",
     "Launched yesterday"
    ],
@@ -162,21 +162,20 @@
    "breakout": null
   },
   {
-   "name": "answer-me-with-html",
-   "owner": "QingYunA",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 84,
+   "name": "Qwen-Image-2.1-Uncensored-GGUF",
+   "owner": "abenzerps",
+   "src": "hf",
+   "cat": "Infrastructure",
+   "score": 83,
    "grow": 4,
-   "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
+   "desc": "Model on Hugging Face · open weights · ♥ 3.7K",
    "meta": [
-    "★ 2,412",
-    "+139 in 24h",
-    "Created 7 days ago"
+    "2M downloads",
+    "Released 19 days ago"
    ],
-   "at": "2026-10-02T09:57:40Z",
+   "at": "2026-09-20T15:51:13.000Z",
    "breakout": null,
-   "url": "https://github.com/QingYunA/answer-me-with-html"
+   "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF"
   }
  ],
  "breakouts": [],
@@ -185,8 +184,8 @@
    "name": "embeddinggemma-2",
    "url": "https://huggingface.co/google/embeddinggemma-2",
    "from": "Hugging Face",
-   "use": 21148,
-   "useLabel": "21K downloads",
+   "use": 29185,
+   "useLabel": "29K downloads",
    "usePct": 0.4117647058823529,
    "talk": [
     {
@@ -202,9 +201,9 @@
    "name": "whistle",
    "url": "https://huggingface.co/Cactus-Compute/whistle",
    "from": "Hugging Face",
-   "use": 2594,
-   "useLabel": "2.6K downloads",
-   "usePct": 0.11764705882352941,
+   "use": 5558,
+   "useLabel": "5.6K downloads",
+   "usePct": 0.08823529411764706,
    "talk": [
     {
      "src": "Lobsters",
@@ -219,8 +218,8 @@
    "name": "ARTEX",
    "url": "https://github.com/mhtsec/ARTEX",
    "from": "GitHub",
-   "use": 2664,
-   "useLabel": "+2,664 stars/day",
+   "use": 2720,
+   "useLabel": "+2,720 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -230,7 +229,7 @@
    "name": "Qwen3.8-27B-GGUF",
    "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
    "from": "Hugging Face",
-   "use": 6518857,
+   "use": 6452782,
    "useLabel": "6.5M downloads",
    "usePct": 1,
    "talk": [],
@@ -241,8 +240,8 @@
    "name": "Ternary-Bonsai-2-27B-gguf",
    "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
    "from": "Hugging Face",
-   "use": 4345410,
-   "useLabel": "4.3M downloads",
+   "use": 4389072,
+   "useLabel": "4.4M downloads",
    "usePct": 0.9705882352941176,
    "talk": [],
    "buzz": 0,
@@ -250,6 +249,36 @@
   }
  ],
  "receipts": [
+  {
+   "name": "canberkkkkkk/ema-lightning",
+   "url": "https://huggingface.co/canberkkkkkk/ema-lightning",
+   "kind": "downloads",
+   "first": "2026-10-07T19:51:16.190Z",
+   "firstV": 2724,
+   "m": 10000,
+   "at": "2026-10-09T10:01:05.408Z",
+   "lead": 38.163671666666666
+  },
+  {
+   "name": "autotrust/GLM5.3-Flash-E224-DGX-Spark",
+   "url": "https://huggingface.co/autotrust/GLM5.3-Flash-E224-DGX-Spark",
+   "kind": "downloads",
+   "first": "2026-10-08T10:01:08.085Z",
+   "firstV": 68,
+   "m": 10000,
+   "at": "2026-10-09T10:01:05.408Z",
+   "lead": 23.999256388888888
+  },
+  {
+   "name": "ConwayResearch/Underdog-Saluki-27B-1.0",
+   "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0",
+   "kind": "downloads",
+   "first": "2026-10-09T02:01:04.068Z",
+   "firstV": 142,
+   "m": 10000,
+   "at": "2026-10-09T10:01:05.408Z",
+   "lead": 8.000372222222222
+  },
   {
    "name": "yi1108/printfilm",
    "url": "https://github.com/yi1108/printfilm",
@@ -299,65 +328,26 @@
    "m": 10000,
    "at": "2026-10-08T10:01:08.085Z",
    "lead": 40.50481888888889
-  },
-  {
-   "name": "penso/herdr-gpui",
-   "url": "https://github.com/penso/herdr-gpui",
-   "kind": "stars",
-   "first": "2026-10-06T00:01:07.303Z",
-   "firstV": 894,
-   "m": 1000,
-   "at": "2026-10-08T08:01:06.722Z",
-   "lead": 55.99983861111111
-  },
-  {
-   "name": "bilibili/Index-Translate",
-   "url": "https://github.com/bilibili/Index-Translate",
-   "kind": "stars",
-   "first": "2026-10-07T22:30:49.405Z",
-   "firstV": 939,
-   "m": 1000,
-   "at": "2026-10-08T07:30:54.501Z",
-   "lead": 9.001415555555555
-  },
-  {
-   "name": "angusdevgo/Seep-Reverse-Lab",
-   "url": "https://github.com/angusdevgo/Seep-Reverse-Lab",
-   "kind": "stars",
-   "first": "2026-10-02T01:48:25.114Z",
-   "firstV": 722,
-   "m": 1000,
-   "at": "2026-10-08T02:01:05.749Z",
-   "lead": 144.2112875
   }
  ],
  "github": [
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 1635,
-   "d24": 2664,
+   "stars": 1706,
+   "d24": 2720,
    "est": false,
-   "forks": 3659,
+   "forks": 3791,
    "contrib": null,
    "score": 98
   },
   {
    "repo": "Jakeschincariol/replica-skill",
-   "stars": 1185,
-   "d24": 201,
+   "stars": 1194,
+   "d24": 202,
    "est": true,
    "forks": 155,
    "contrib": null,
    "score": 79
-  },
-  {
-   "repo": "QingYunA/answer-me-with-html",
-   "stars": 2412,
-   "d24": 139,
-   "est": false,
-   "forks": 163,
-   "contrib": null,
-   "score": 84
   }
  ],
  "models": [
@@ -367,11 +357,11 @@
    "size": "27B",
    "lic": "Open source",
    "at": "2026-09-30T05:02:23.000Z",
-   "dl": 1533034,
+   "dl": 1536533,
    "grow": 0,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 3238
+   "likes": 3264
   },
   {
    "name": "GEV-26B-Decide",
@@ -379,51 +369,51 @@
    "size": "26B",
    "lic": "Open source",
    "at": "2026-10-02T04:20:21.000Z",
-   "dl": 903866,
-   "grow": 0,
+   "dl": 909755,
+   "grow": 1,
    "score": 90,
    "cat": "Coding",
-   "likes": 2019
-  },
-  {
-   "name": "clef",
-   "org": "Cloudflare",
-   "lic": "Open source",
-   "at": "2026-09-30T21:15:35.000Z",
-   "dl": 10874,
-   "grow": 0,
-   "score": 88,
-   "cat": "Coding",
-   "likes": 1906
-  },
-  {
-   "name": "Kolibri-1",
-   "org": "Aleph-Alpha",
-   "lic": "Open source",
-   "at": "2026-10-02T05:54:02.000Z",
-   "dl": 6777,
-   "grow": 0,
-   "score": 87,
-   "cat": "Infrastructure",
-   "likes": 822
+   "likes": 2031
   },
   {
    "name": "embeddinggemma-2",
    "org": "google",
    "lic": "Open source",
    "at": "2026-09-14T14:53:42.000Z",
-   "dl": 21148,
-   "grow": 0,
-   "score": 86,
+   "dl": 29185,
+   "grow": 38,
+   "score": 87,
    "cat": "Vision",
-   "likes": 1259
+   "likes": 1260
+  },
+  {
+   "name": "Kolibri-1",
+   "org": "Aleph-Alpha",
+   "lic": "Open source",
+   "at": "2026-10-02T05:54:02.000Z",
+   "dl": 8474,
+   "grow": 25,
+   "score": 87,
+   "cat": "Infrastructure",
+   "likes": 822
+  },
+  {
+   "name": "clef",
+   "org": "Cloudflare",
+   "lic": "Open source",
+   "at": "2026-09-30T21:15:35.000Z",
+   "dl": 12066,
+   "grow": 11,
+   "score": 86,
+   "cat": "Coding",
+   "likes": 1907
   },
   {
    "name": "GLM5.3-Flash-E224-DGX-Spark",
    "org": "autotrust",
    "lic": "Open source",
    "at": "2026-10-06T22:49:26.000Z",
-   "dl": 5422,
+   "dl": 11534,
    "grow": null,
    "score": 86,
    "cat": "Infrastructure",
@@ -826,6 +816,13 @@
    "kind": "News"
   },
   {
+   "t": "Comedians roast Trump, midterms, AI & more | Have I Got News For You",
+   "url": "https://www.youtube.com/watch?v=0ZV-D9R9Eu8",
+   "at": "2026-10-09T02:00:12Z",
+   "src": "CNN",
+   "kind": "Video"
+  },
+  {
    "t": "Anthropic bans users from ‘needless abusive or cruel behavior’ towards Claude",
    "url": "https://www.theguardian.com/technology/2026/oct/08/anthropic-bans-abusive-behavior-claude",
    "at": "2026-10-09T01:25:42Z",
@@ -847,6 +844,13 @@
    "kind": "News"
   },
   {
+   "t": "Concerns AI a shoulder to cry on for sexually exploited",
+   "url": "https://www.canberratimes.com.au/story/9365404/concerns-ai-a-shoulder-to-cry-on-for-sexually-exploited/",
+   "at": "2026-10-08T22:00:29Z",
+   "src": "The Canberra Times",
+   "kind": "News"
+  },
+  {
    "t": "Tomorrow Will Be Crazy: OpenAI's $20B Miss, Riyadh Airport Attacked",
    "url": "https://www.youtube.com/watch?v=k06Qkbmdme8",
    "at": "2026-10-08T22:00:03Z",
@@ -854,31 +858,17 @@
    "kind": "Video"
   },
   {
-   "t": "OpenAI's annualized revenue $20 billion less than previously signaled, FT reports",
-   "url": "https://www.marketscreener.com/news/openai-s-annualized-revenue-20-billion-less-than-previously-signaled-ft-reports-ce785ddfdc89ff20",
-   "at": "2026-10-08T21:11:26Z",
+   "t": "Tech Slides After Financial Times Report on OpenAI -- Tech Roundup",
+   "url": "https://www.marketscreener.com/news/tech-slides-after-financial-times-report-on-openai-tech-roundup-ce785ddfdc8af62c",
+   "at": "2026-10-08T21:55:22Z",
    "src": "MarketScreener",
    "kind": "News"
   },
   {
-   "t": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
-   "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
-   "at": "2026-10-08T21:06:35.000Z",
-   "src": "NVIDIA",
-   "kind": "Lab blog"
-  },
-  {
-   "t": "$5M granted for New York-based nonprofit to expand AI legal tool helping workers know their legal rights, reclaim stolen wages, and more",
-   "url": "https://www.amny.com/new-york/ai-legal-tool-workers-rights/",
-   "at": "2026-10-08T21:00:30Z",
-   "src": "AM New York",
-   "kind": "News"
-  },
-  {
-   "t": "Dow Jones Futures: AI Stocks Tumble On OpenAI News; SpaceX Move Slams Verizon, AT&T Late",
-   "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-ai-stocks-tumble-openai-news-spacex-verizon-att/",
-   "at": "2026-10-08T20:56:35Z",
-   "src": "Investor's Business Daily",
+   "t": "Dental Reviewed Launches Dental Clarity, Dentist-Led Market Research Service",
+   "url": "https://www.brantfordexpositor.ca/press-releases/newsfile/dental-reviewed-launches-dental-clarity-dentist-led-market-research-service/",
+   "at": "2026-10-08T21:32:33Z",
+   "src": "The Expositor",
    "kind": "News"
   }
  ],
@@ -888,8 +878,8 @@
    "t": "Tell HN: I've been paying for a rural Tanzanian's education for 10 years",
    "url": "https://news.ycombinator.com/item?id=50006366",
    "link": "",
-   "up": 699,
-   "com": 216,
+   "up": 700,
+   "com": 217,
    "at": "2026-10-08T14:39:47.000Z"
   },
   {
@@ -898,7 +888,7 @@
    "url": "https://news.ycombinator.com/item?id=50008187",
    "link": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
    "up": 391,
-   "com": 259,
+   "com": 261,
    "at": "2026-10-08T16:45:58.000Z"
   },
   {
@@ -906,8 +896,8 @@
    "t": "OpenAI, the Partition Principle, and Mathematics",
    "url": "https://news.ycombinator.com/item?id=50013902",
    "link": "https://karagila.org/2026/openai-pp/",
-   "up": 117,
-   "com": 167,
+   "up": 121,
+   "com": 178,
    "at": "2026-10-08T23:29:43.000Z"
   },
   {
@@ -916,24 +906,25 @@
    "url": "https://news.ycombinator.com/item?id=50010470",
    "link": "https://ken.arneson.name/2015/11/the-value-of-not-getting-to-the-point/",
    "up": 166,
-   "com": 55,
+   "com": 56,
    "at": "2026-10-08T19:04:56.000Z"
-  },
-  {
-   "src": "Mastodon",
-   "t": "Uh. Die Frau hatte gestern einen Kunden, der sich im Vorfeld von ChatGPT betaten ließ. Natööörlich war das, was dieser hirnlose # LLM -Papagei ausgekotzt hat…",
-   "url": "https://troet.cafe/@arthurdent/117409629702124004",
-   "up": 27,
-   "com": 6,
-   "at": "2026-10-09T06:52:53.000Z"
   },
   {
    "src": "DEV",
    "t": "Docker just shipped the agent wall I wanted. It's off by default.",
    "url": "https://dev.to/slabb/docker-just-shipped-the-agent-wall-i-wanted-its-off-by-default-f18",
    "up": 10,
-   "com": 2,
+   "com": 3,
    "at": "2026-10-09T09:10:51Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "AI-ready biological data: $1.8B global commitment",
+   "url": "https://news.ycombinator.com/item?id=50011999",
+   "link": "https://biohub.org/news/virtual-biology-initiative-expansion/",
+   "up": 123,
+   "com": 18,
+   "at": "2026-10-08T20:46:25.000Z"
   }
  ]
 }
