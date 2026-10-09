@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-09T15:01:08.583Z"
+  "updated": "2026-10-09T15:30:54.045Z"
  },
  "pulse": {
   "trending": 78,
   "accelerating": 3,
   "newModels": 7,
-  "discussions": 45,
-  "stars": 2803
+  "discussions": 44,
+  "stars": 2764
  },
  "rising": [
   {
@@ -21,15 +21,15 @@
    "src": "gh",
    "cat": "Agents",
    "score": 98,
-   "grow": 105,
+   "grow": 107,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 1,984",
-    "+2,117 in 24h",
+    "★ 2,006",
+    "+2,074 in 24h",
     "Created yesterday"
    ],
    "at": "2026-10-08T05:33:06Z",
-   "breakout": 3,
+   "breakout": null,
    "url": "https://github.com/mhtsec/ARTEX"
   },
   {
@@ -73,8 +73,8 @@
    "grow": null,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 1,002",
-    "~360 in 24h",
+    "★ 1,032",
+    "~368 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -120,7 +120,7 @@
    "cat": "Infrastructure",
    "score": 86,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 830",
+   "desc": "Model on Hugging Face · open source · ♥ 831",
    "meta": [
     "8.5K downloads",
     "Released 7 days ago"
@@ -155,7 +155,7 @@
    "grow": null,
    "desc": "Reinforcement learning (RL) is the central training paradigm for advancing large foundation models towards self-improvement.",
    "meta": [
-    "▲ 53 upvotes",
+    "▲ 54 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-07T20:00:00.000Z",
@@ -171,7 +171,7 @@
    "grow": null,
    "desc": "A swarm of agents, in the same place you work",
    "meta": [
-    "▲ 376 votes",
+    "▲ 377 votes",
     "60 comments",
     "Launched yesterday"
    ],
@@ -179,98 +179,24 @@
    "breakout": null
   }
  ],
- "breakouts": [
-  {
-   "key": "gpt 6",
-   "label": "GPT-6",
-   "n": 3,
-   "sources": [
-    {
-     "src": "OpenAI blog",
-     "t": "GPT-6 and Intelligent UI for everyone",
-     "url": "https://openai.com/index/gpt-6-for-everyone"
-    },
-    {
-     "src": "Ubergizmo",
-     "t": "ChatGPT Adds GPT-6 For Everyone, Featuring Dynamic Maps And Diagrams",
-     "url": "https://www.ubergizmo.com/2026/10/chatgpt-adds-gpt-6-for-everyone-featuring-dynamic-maps-and-diagrams/"
-    },
-    {
-     "src": "GitHub",
-     "t": "zjwzcx/Awesome-Astra-Embodied-AI",
-     "url": "https://github.com/zjwzcx/Awesome-Astra-Embodied-AI"
-    }
-   ],
-   "since": "2026-10-02T11:40:52.853Z"
-  },
-  {
-   "key": "artex",
-   "label": "ARTEX",
-   "n": 3,
-   "sources": [
-    {
-     "src": "GitHub",
-     "t": "mhtsec/ARTEX",
-     "url": "https://github.com/mhtsec/ARTEX"
-    },
-    {
-     "src": "Techmeme",
-     "t": "The Chinese developer of ARTEX says they have converted the AI agent into a closed-source project after CrowdStrike said it was used to hack South Korean banks",
-     "url": "https://www.techmeme.com/261009/p11#a261009p11"
-    },
-    {
-     "src": "Ryukoku.ac.jp",
-     "t": "(㏍、帥, 10/8)＜散: Unknown Threat Ac ...",
-     "url": "http://www.st.ryukoku.ac.jp/~kjm/security/memo/2026/10.html#20261009__artex"
-    }
-   ],
-   "since": "2026-10-09T14:30:57.811Z"
-  }
- ],
+ "breakouts": [],
  "hype": [
   {
    "name": "ARTEX",
    "url": "https://github.com/mhtsec/ARTEX",
    "from": "GitHub",
-   "use": 2117,
-   "useLabel": "+2,117 stars/day",
+   "use": 2074,
+   "useLabel": "+2,074 stars/day",
    "usePct": 1,
    "talk": [
     {
      "src": "Techmeme",
      "t": "The Chinese developer of ARTEX says they have converted the AI agent into a closed-source project after CrowdStrike said it was used to hack South Korean banks",
      "url": "https://www.techmeme.com/261009/p11#a261009p11"
-    },
-    {
-     "src": "Ryukoku.ac.jp",
-     "t": "(㏍、帥, 10/8)＜散: Unknown Threat Ac ...",
-     "url": "http://www.st.ryukoku.ac.jp/~kjm/security/memo/2026/10.html#20261009__artex"
     }
    ],
-   "buzz": 2,
+   "buzz": 1,
    "verdict": "The hype matches real use"
-  },
-  {
-   "name": "GPT-6",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
-    {
-     "src": "OpenAI blog",
-     "t": "GPT-6 and Intelligent UI for everyone",
-     "url": "https://openai.com/index/gpt-6-for-everyone"
-    },
-    {
-     "src": "Ubergizmo",
-     "t": "ChatGPT Adds GPT-6 For Everyone, Featuring Dynamic Maps And Diagrams",
-     "url": "https://www.ubergizmo.com/2026/10/chatgpt-adds-gpt-6-for-everyone-featuring-dynamic-maps-and-diagrams/"
-    }
-   ],
-   "buzz": 2,
-   "verdict": "Talk only, no public usage numbers"
   },
   {
    "name": "embeddinggemma-2",
@@ -425,26 +351,26 @@
  "github": [
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 1984,
-   "d24": 2117,
+   "stars": 2006,
+   "d24": 2074,
    "est": false,
-   "forks": 4197,
+   "forks": 4221,
    "contrib": null,
    "score": 98
   },
   {
    "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 1002,
-   "d24": 360,
+   "stars": 1032,
+   "d24": 368,
    "est": true,
-   "forks": 100,
+   "forks": 101,
    "contrib": null,
    "score": 88
   },
   {
    "repo": "Jakeschincariol/replica-skill",
-   "stars": 1265,
-   "d24": 326,
+   "stars": 1270,
+   "d24": 322,
    "est": false,
    "forks": 164,
    "contrib": null,
@@ -462,7 +388,7 @@
    "grow": null,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 3428
+   "likes": 3443
   },
   {
    "name": "GEV-26B-Decide",
@@ -474,7 +400,7 @@
    "grow": null,
    "score": 90,
    "cat": "Coding",
-   "likes": 2080
+   "likes": 2089
   },
   {
    "name": "embeddinggemma-2",
@@ -485,7 +411,7 @@
    "grow": null,
    "score": 87,
    "cat": "Vision",
-   "likes": 1291
+   "likes": 1293
   },
   {
    "name": "clef",
@@ -496,7 +422,7 @@
    "grow": null,
    "score": 86,
    "cat": "Coding",
-   "likes": 1916
+   "likes": 1920
   },
   {
    "name": "Kolibri-1",
@@ -507,7 +433,7 @@
    "grow": null,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 830
+   "likes": 831
   },
   {
    "name": "GLM5.3-Flash-E224-DGX-Spark",
@@ -854,6 +780,13 @@
  },
  "headlines": [
   {
+   "t": "Impactful scheduling for GPU clusters",
+   "url": "https://huggingface.co/blog/allenai/impactful-scheduling",
+   "at": "2026-10-09T15:20:29.000Z",
+   "src": "Hugging Face",
+   "kind": "Lab blog"
+  },
+  {
    "t": "Lost generation: the AI threat to Britain’s next great directors ",
    "url": "https://www.theguardian.com/film/2026/oct/09/ai-threat-britain-directors-ridley-scott-guy-ritchie",
    "at": "2026-10-09T15:00:31Z",
@@ -957,13 +890,6 @@
    "at": "2026-10-09T05:05:01.000Z",
    "src": "Techmeme",
    "kind": "News"
-  },
-  {
-   "t": "British households would be £5,000 richer if we were more innovative. Let’s unleash our talents | Gordon Brown",
-   "url": "https://www.theguardian.com/commentisfree/2026/oct/09/gordon-brown-british-households-5000-richer-innovation",
-   "at": "2026-10-09T05:00:39Z",
-   "src": "The Guardian",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -972,8 +898,8 @@
    "t": "Let your AI agents paint big arrows, boxes and text on your screen",
    "url": "https://news.ycombinator.com/item?id=50018817",
    "link": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
-   "up": 210,
-   "com": 80,
+   "up": 223,
+   "com": 87,
    "at": "2026-10-09T11:03:48.000Z"
   },
   {
@@ -981,8 +907,8 @@
    "t": "Court throws out killer's sentence after judge said he loved AI video of victim",
    "url": "https://news.ycombinator.com/item?id=50020856",
    "link": "https://www.nbcnews.com/news/us-news/sentence-vacated-ai-video-dead-victim-rcna601457",
-   "up": 39,
-   "com": 26,
+   "up": 52,
+   "com": 51,
    "at": "2026-10-09T14:14:08.000Z"
   },
   {
@@ -990,8 +916,8 @@
    "t": "Iranian campaign planted fake articles in real U.S. publications using ChatGPT",
    "url": "https://news.ycombinator.com/item?id=50019455",
    "link": "https://www.washingtonpost.com/technology/2026/10/09/chatgpt-users-iran-planted-ai-generated-articles-us-news-media/",
-   "up": 87,
-   "com": 70,
+   "up": 108,
+   "com": 87,
    "at": "2026-10-09T12:21:24.000Z"
   },
   {
@@ -999,8 +925,8 @@
    "t": "OpenAI fires three safety researchers for \"mishandling research information\"",
    "url": "https://news.ycombinator.com/item?id=50018350",
    "link": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
-   "up": 133,
-   "com": 68,
+   "up": 150,
+   "com": 73,
    "at": "2026-10-09T10:00:26.000Z"
   },
   {
