@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-09T21:01:05.617Z"
+  "updated": "2026-10-09T21:30:53.843Z"
  },
  "pulse": {
   "trending": 77,
   "accelerating": 2,
   "newModels": 6,
-  "discussions": 36,
-  "stars": 2339
+  "discussions": 37,
+  "stars": 3343
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 97,
-   "grow": 117,
+   "grow": 118,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 2,107",
-    "+1,560 in 24h",
+    "★ 2,113",
+    "+1,525 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -37,12 +37,12 @@
    "owner": "LosaLosSantos",
    "src": "gh",
    "cat": "LLMs",
-   "score": 91,
-   "grow": null,
+   "score": 93,
+   "grow": 40,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 1,376",
-    "~454 in 24h",
+    "★ 1,407",
+    "+1,496 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -104,7 +104,7 @@
    "cat": "Infrastructure",
    "score": 86,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 731",
+   "desc": "Model on Hugging Face · open source · ♥ 737",
    "meta": [
     "29K downloads",
     "Released 29 days ago"
@@ -120,10 +120,10 @@
    "cat": "Vision",
    "score": 86,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 261",
+   "desc": "Vision on Hugging Face · open weights · ♥ 266",
    "meta": [
     "0 downloads",
-    "Released 16h ago"
+    "Released 17h ago"
    ],
    "at": "2026-10-09T04:50:01.000Z",
    "breakout": null,
@@ -171,7 +171,7 @@
    "grow": null,
    "desc": "A swarm of agents, in the same place you work",
    "meta": [
-    "▲ 381 votes",
+    "▲ 382 votes",
     "61 comments",
     "Launched 2 days ago"
    ],
@@ -204,21 +204,26 @@
    "verdict": "Talk only, no public usage numbers"
   },
   {
-   "name": "ARTEX",
-   "url": "https://github.com/mhtsec/ARTEX",
-   "from": "GitHub",
-   "use": 1560,
-   "useLabel": "+1,560 stars/day",
-   "usePct": 1,
+   "name": "Gemini 4",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
    "talk": [
     {
      "src": "Techmeme",
-     "t": "The Chinese developer of ARTEX says they have converted the AI agent into a closed-source project after CrowdStrike said it was used to hack South Korean banks",
-     "url": "https://www.techmeme.com/261009/p11#a261009p11"
+     "t": "Sources: as Google prepares to roll out its Gemini 4 Argon, staff are testing a new version internally named Carbon; one staffer says it \"feels like Opus 5.5\"",
+     "url": "https://www.techmeme.com/261009/p25#a261009p25"
+    },
+    {
+     "src": "YouTube",
+     "t": "HUGE Gemini 4 Argon UPDATE, Fable 5.5 LEAKS, GPT-6.1 Ultrafast, Claude Motion, & Step 5! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=ATBnss54_t4"
     }
    ],
-   "buzz": 1,
-   "verdict": "The hype matches real use"
+   "buzz": 2,
+   "verdict": "Talk only, no public usage numbers"
   },
   {
    "name": "whistle",
@@ -238,6 +243,17 @@
    "verdict": "More talk than use"
   },
   {
+   "name": "ARTEX",
+   "url": "https://github.com/mhtsec/ARTEX",
+   "from": "GitHub",
+   "use": 1525,
+   "useLabel": "+1,525 stars/day",
+   "usePct": 1,
+   "talk": [],
+   "buzz": 0,
+   "verdict": "Used a lot, hardly talked about"
+  },
+  {
    "name": "Qwen3.8-27B-GGUF",
    "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
    "from": "Hugging Face",
@@ -255,17 +271,6 @@
    "use": 4389072,
    "useLabel": "4.4M downloads",
    "usePct": 0.9696969696969697,
-   "talk": [],
-   "buzz": 0,
-   "verdict": "Used a lot, hardly talked about"
-  },
-  {
-   "name": "Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
-   "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
-   "from": "Hugging Face",
-   "use": 3559321,
-   "useLabel": "3.6M downloads",
-   "usePct": 0.9393939393939394,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -356,28 +361,28 @@
  "github": [
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 2107,
-   "d24": 1560,
+   "stars": 2113,
+   "d24": 1525,
    "est": false,
-   "forks": 4343,
+   "forks": 4348,
    "contrib": null,
    "score": 97
   },
   {
    "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 1376,
-   "d24": 454,
-   "est": true,
-   "forks": 112,
+   "stars": 1407,
+   "d24": 1496,
+   "est": false,
+   "forks": 113,
    "contrib": null,
-   "score": 91
+   "score": 93
   },
   {
    "repo": "Jakeschincariol/replica-skill",
-   "stars": 1346,
-   "d24": 325,
+   "stars": 1351,
+   "d24": 322,
    "est": false,
-   "forks": 172,
+   "forks": 173,
    "contrib": null,
    "score": 78
   }
@@ -392,7 +397,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 1332
+   "likes": 1336
   },
   {
    "name": "clef",
@@ -403,7 +408,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Coding",
-   "likes": 1935
+   "likes": 1937
   },
   {
    "name": "Kolibri-1",
@@ -425,7 +430,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 731
+   "likes": 737
   },
   {
    "name": "Qwen-Image-2.1-Turbo",
@@ -436,7 +441,7 @@
    "grow": null,
    "score": 86,
    "cat": "Vision",
-   "likes": 261
+   "likes": 266
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -447,7 +452,7 @@
    "grow": 0,
    "score": 85,
    "cat": "Infrastructure",
-   "likes": 3757
+   "likes": 3759
   }
  ],
  "free": [
@@ -768,6 +773,20 @@
  },
  "headlines": [
   {
+   "t": "Sources: top execs at Anthropic, OpenAI, and others are gaming out scenarios for a public and political revolt following a catastrophic AI event",
+   "url": "https://www.techmeme.com/261009/p26#a261009p26",
+   "at": "2026-10-09T21:25:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Sources: as Google prepares to roll out its Gemini 4 Argon, staff are testing a new version internally named Carbon; one staffer says it \"feels like Opus 5.5\"",
+   "url": "https://www.techmeme.com/261009/p25#a261009p25",
+   "at": "2026-10-09T21:16:18.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Philadelphia police say Anthropic informed them on Oct. 7 that one of its models submitted a false tip about an unsolved murder via a public web form on July 18",
    "url": "https://www.techmeme.com/261009/p22#a261009p22",
    "at": "2026-10-09T20:00:49.000Z",
@@ -845,13 +864,6 @@
    "kind": "News"
   },
   {
-   "t": "The Chinese developer of ARTEX says they have converted the AI agent into a closed-source project after CrowdStrike said it was used to hack South Korean banks",
-   "url": "https://www.techmeme.com/261009/p11#a261009p11",
-   "at": "2026-10-09T11:55:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "AI and the climate crisis pose existential risks. The law offers a way to reduce them | Robert Reich",
    "url": "https://www.theguardian.com/commentisfree/2026/oct/09/ai-climate-change-liability-lawsuits",
    "at": "2026-10-09T11:00:26Z",
@@ -859,24 +871,17 @@
    "kind": "News"
   },
   {
-   "t": "India must ensure AI benefits reach every citizen, prevent digital divide from widening: Scindia",
-   "url": "https://www.tribuneindia.com/news/business/india-must-ensure-ai-benefits-reach-every-citizen-prevent-digital-divide-from-widening-scindia/",
-   "at": "2026-10-09T09:01:06Z",
-   "src": "The Tribune",
-   "kind": "News"
-  },
-  {
-   "t": "Google launches workplace AI agent that acts like a colleague",
-   "url": "https://www.thestar.com.my/tech/tech-news/2026/10/09/google-launches-workplace-ai-agent-that-acts-like-a-colleague",
-   "at": "2026-10-09T09:00:00Z",
-   "src": "The Star",
-   "kind": "News"
-  },
-  {
-   "t": "AI Stocks Recover as Futures Rise, Oil Slips",
-   "url": "https://www.marketscreener.com/news/ai-stocks-recover-as-futures-rise-oil-slips-ce785ddfd18af327",
-   "at": "2026-10-09T08:57:32Z",
+   "t": "OpenAI Sees 2026 Annualized Sales Surpassing $70 Billion",
+   "url": "https://www.marketscreener.com/news/openai-sees-2026-annualized-sales-surpassing-70-billion-ce785ddfd18cf22d",
+   "at": "2026-10-09T09:29:47Z",
    "src": "MarketScreener",
+   "kind": "News"
+  },
+  {
+   "t": "ET Alpha Wealth Summit 2.0: AI can analyse portfolios, but investor behaviour drives returns, says Ravi Dharamshi",
+   "url": "https://economictimes.indiatimes.com/mf/mf-news/et-alpha-wealth-summit-2-0-ai-can-analyse-portfolios-but-investor-behaviour-drives-returns-says-ravi-dharamshi/articleshow/134829224.cms",
+   "at": "2026-10-09T09:24:00Z",
+   "src": "The Economic Times",
    "kind": "News"
   }
  ],
@@ -886,8 +891,8 @@
    "t": "Typesafe AI raises $870M at $7.5B",
    "url": "https://news.ycombinator.com/item?id=50023450",
    "link": "https://typesafe.ai/blog/series-ai",
-   "up": 151,
-   "com": 124,
+   "up": 183,
+   "com": 144,
    "at": "2026-10-09T17:02:31.000Z"
   },
   {
@@ -895,8 +900,8 @@
    "t": "Show HN: Let your AI agents paint big arrows, boxes and text on your screen",
    "url": "https://news.ycombinator.com/item?id=50018817",
    "link": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
-   "up": 345,
-   "com": 145,
+   "up": 346,
+   "com": 147,
    "at": "2026-10-09T11:03:48.000Z"
   },
   {
@@ -904,8 +909,8 @@
    "t": "Germany transforms former coal mines into Europe's largest lake landscape",
    "url": "https://news.ycombinator.com/item?id=50021540",
    "link": "https://www.euronews.com/2026/04/14/almost-like-lake-como-germany-transforms-former-coal-mines-into-europes-largest-lake-lands",
-   "up": 159,
-   "com": 85,
+   "up": 163,
+   "com": 89,
    "at": "2026-10-09T15:05:24.000Z"
   },
   {
@@ -913,27 +918,27 @@
    "t": "OpenAI fires three safety researchers for \"mishandling research information\"",
    "url": "https://news.ycombinator.com/item?id=50018350",
    "link": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
-   "up": 274,
-   "com": 177,
+   "up": 280,
+   "com": 182,
    "at": "2026-10-09T10:00:26.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Iranian campaign planted fake articles in real U.S. publications using ChatGPT",
-   "url": "https://news.ycombinator.com/item?id=50019455",
-   "link": "https://www.washingtonpost.com/technology/2026/10/09/chatgpt-users-iran-planted-ai-generated-articles-us-news-media/",
-   "up": 170,
-   "com": 154,
-   "at": "2026-10-09T12:21:24.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Ideas aren't getting harder to find, anyone who tells you otherwise is a coward",
    "url": "https://news.ycombinator.com/item?id=50024571",
    "link": "https://www.experimental-history.com/p/ideas-arent-getting-harder-to-find",
-   "up": 53,
-   "com": 17,
+   "up": 66,
+   "com": 22,
    "at": "2026-10-09T18:16:03.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Iranian campaign planted fake articles in real U.S. publications using ChatGPT",
+   "url": "https://news.ycombinator.com/item?id=50019455",
+   "link": "https://www.washingtonpost.com/technology/2026/10/09/chatgpt-users-iran-planted-ai-generated-articles-us-news-media/",
+   "up": 171,
+   "com": 158,
+   "at": "2026-10-09T12:21:24.000Z"
   }
  ]
 }
