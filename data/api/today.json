@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-09T14:30:57.811Z"
+  "updated": "2026-10-09T15:01:08.583Z"
  },
  "pulse": {
-  "trending": 77,
+  "trending": 78,
   "accelerating": 3,
-  "newModels": 6,
-  "discussions": 44,
-  "stars": 2495
+  "newModels": 7,
+  "discussions": 45,
+  "stars": 2803
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 98,
-   "grow": 102,
+   "grow": 105,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 1,960",
-    "+2,162 in 24h",
+    "★ 1,984",
+    "+2,117 in 24h",
     "Created yesterday"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -63,6 +63,23 @@
    "at": "2026-10-02T04:20:21.000Z",
    "breakout": null,
    "url": "https://huggingface.co/autotrust/GEV-26B-Decide"
+  },
+  {
+   "name": "aurelio-finance",
+   "owner": "LosaLosSantos",
+   "src": "gh",
+   "cat": "LLMs",
+   "score": 88,
+   "grow": null,
+   "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
+   "meta": [
+    "★ 1,002",
+    "~360 in 24h",
+    "Created 3 days ago"
+   ],
+   "at": "2026-10-06T20:14:19Z",
+   "breakout": null,
+   "url": "https://github.com/LosaLosSantos/aurelio-finance"
   },
   {
    "name": "embeddinggemma-2",
@@ -103,7 +120,7 @@
    "cat": "Infrastructure",
    "score": 86,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 829",
+   "desc": "Model on Hugging Face · open source · ♥ 830",
    "meta": [
     "8.5K downloads",
     "Released 7 days ago"
@@ -160,25 +177,32 @@
    ],
    "at": "2026-10-08T07:01:00Z",
    "breakout": null
-  },
-  {
-   "name": "Qwen-Image-2.1-Uncensored-GGUF",
-   "owner": "abenzerps",
-   "src": "hf",
-   "cat": "Infrastructure",
-   "score": 83,
-   "grow": null,
-   "desc": "Model on Hugging Face · open weights · ♥ 3.7K",
-   "meta": [
-    "2M downloads",
-    "Released 19 days ago"
-   ],
-   "at": "2026-09-20T15:51:13.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF"
   }
  ],
  "breakouts": [
+  {
+   "key": "gpt 6",
+   "label": "GPT-6",
+   "n": 3,
+   "sources": [
+    {
+     "src": "OpenAI blog",
+     "t": "GPT-6 and Intelligent UI for everyone",
+     "url": "https://openai.com/index/gpt-6-for-everyone"
+    },
+    {
+     "src": "Ubergizmo",
+     "t": "ChatGPT Adds GPT-6 For Everyone, Featuring Dynamic Maps And Diagrams",
+     "url": "https://www.ubergizmo.com/2026/10/chatgpt-adds-gpt-6-for-everyone-featuring-dynamic-maps-and-diagrams/"
+    },
+    {
+     "src": "GitHub",
+     "t": "zjwzcx/Awesome-Astra-Embodied-AI",
+     "url": "https://github.com/zjwzcx/Awesome-Astra-Embodied-AI"
+    }
+   ],
+   "since": "2026-10-02T11:40:52.853Z"
+  },
   {
    "key": "artex",
    "label": "ARTEX",
@@ -195,9 +219,9 @@
      "url": "https://www.techmeme.com/261009/p11#a261009p11"
     },
     {
-     "src": "Internet",
-     "t": "ARTEX AI Pentesting Tool Used in Data Theft Attacks on South Korean Financial Firms",
-     "url": "https://thehackernews.com/2026/10/artex-ai-pentesting-tool-used-in-data.html"
+     "src": "Ryukoku.ac.jp",
+     "t": "(㏍、帥, 10/8)＜散: Unknown Threat Ac ...",
+     "url": "http://www.st.ryukoku.ac.jp/~kjm/security/memo/2026/10.html#20261009__artex"
     }
    ],
    "since": "2026-10-09T14:30:57.811Z"
@@ -208,8 +232,8 @@
    "name": "ARTEX",
    "url": "https://github.com/mhtsec/ARTEX",
    "from": "GitHub",
-   "use": 2162,
-   "useLabel": "+2,162 stars/day",
+   "use": 2117,
+   "useLabel": "+2,117 stars/day",
    "usePct": 1,
    "talk": [
     {
@@ -218,13 +242,35 @@
      "url": "https://www.techmeme.com/261009/p11#a261009p11"
     },
     {
-     "src": "Internet",
-     "t": "ARTEX AI Pentesting Tool Used in Data Theft Attacks on South Korean Financial Firms",
-     "url": "https://thehackernews.com/2026/10/artex-ai-pentesting-tool-used-in-data.html"
+     "src": "Ryukoku.ac.jp",
+     "t": "(㏍、帥, 10/8)＜散: Unknown Threat Ac ...",
+     "url": "http://www.st.ryukoku.ac.jp/~kjm/security/memo/2026/10.html#20261009__artex"
     }
    ],
    "buzz": 2,
    "verdict": "The hype matches real use"
+  },
+  {
+   "name": "GPT-6",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "OpenAI blog",
+     "t": "GPT-6 and Intelligent UI for everyone",
+     "url": "https://openai.com/index/gpt-6-for-everyone"
+    },
+    {
+     "src": "Ubergizmo",
+     "t": "ChatGPT Adds GPT-6 For Everyone, Featuring Dynamic Maps And Diagrams",
+     "url": "https://www.ubergizmo.com/2026/10/chatgpt-adds-gpt-6-for-everyone-featuring-dynamic-maps-and-diagrams/"
+    }
+   ],
+   "buzz": 2,
+   "verdict": "Talk only, no public usage numbers"
   },
   {
    "name": "embeddinggemma-2",
@@ -232,7 +278,7 @@
    "from": "Hugging Face",
    "use": 29185,
    "useLabel": "29K downloads",
-   "usePct": 0.4117647058823529,
+   "usePct": 0.4411764705882353,
    "talk": [
     {
      "src": "Google DeepMind blog",
@@ -249,7 +295,7 @@
    "from": "Hugging Face",
    "use": 5558,
    "useLabel": "5.6K downloads",
-   "usePct": 0.11764705882352941,
+   "usePct": 0.14705882352941177,
    "talk": [
     {
      "src": "Lobsters",
@@ -379,21 +425,30 @@
  "github": [
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 1960,
-   "d24": 2162,
+   "stars": 1984,
+   "d24": 2117,
    "est": false,
-   "forks": 4171,
+   "forks": 4197,
    "contrib": null,
    "score": 98
   },
   {
+   "repo": "LosaLosSantos/aurelio-finance",
+   "stars": 1002,
+   "d24": 360,
+   "est": true,
+   "forks": 100,
+   "contrib": null,
+   "score": 88
+  },
+  {
    "repo": "Jakeschincariol/replica-skill",
-   "stars": 1261,
-   "d24": 333,
+   "stars": 1265,
+   "d24": 326,
    "est": false,
    "forks": 164,
    "contrib": null,
-   "score": 79
+   "score": 78
   }
  ],
  "models": [
@@ -407,7 +462,7 @@
    "grow": null,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 3412
+   "likes": 3428
   },
   {
    "name": "GEV-26B-Decide",
@@ -419,7 +474,7 @@
    "grow": null,
    "score": 90,
    "cat": "Coding",
-   "likes": 2070
+   "likes": 2080
   },
   {
    "name": "embeddinggemma-2",
@@ -430,7 +485,7 @@
    "grow": null,
    "score": 87,
    "cat": "Vision",
-   "likes": 1290
+   "likes": 1291
   },
   {
    "name": "clef",
@@ -441,7 +496,7 @@
    "grow": null,
    "score": 86,
    "cat": "Coding",
-   "likes": 1915
+   "likes": 1916
   },
   {
    "name": "Kolibri-1",
@@ -452,7 +507,7 @@
    "grow": null,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 829
+   "likes": 830
   },
   {
    "name": "GLM5.3-Flash-E224-DGX-Spark",
@@ -799,7 +854,21 @@
  },
  "headlines": [
   {
-   "t": "Analysis of 857 releases from nine Chinese AI labs between 2021 and September 2026: just 3.6% disclosed safety results, and only 1.1% did so at launch",
+   "t": "Lost generation: the AI threat to Britain’s next great directors ",
+   "url": "https://www.theguardian.com/film/2026/oct/09/ai-threat-britain-directors-ridley-scott-guy-ritchie",
+   "at": "2026-10-09T15:00:31Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "Sabi, which is building a baseball cap that uses 100K non-contact neuro-sensors to convert neural signals into text prompts for AI systems, raised a $50M seed",
+   "url": "https://www.techmeme.com/261009/p15#a261009p15",
+   "at": "2026-10-09T14:55:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Analysis of 857 releases from nine Chinese AI labs from 2021 to September 2026: just 3.6% included safety results from the developer and only 1.1% did at launch",
    "url": "https://www.techmeme.com/261009/p14#a261009p14",
    "at": "2026-10-09T14:15:01.000Z",
    "src": "Techmeme",
@@ -895,20 +964,6 @@
    "at": "2026-10-09T05:00:39Z",
    "src": "The Guardian",
    "kind": "News"
-  },
-  {
-   "t": "Firmus pulls biggest ASX float since Telstra amid investor doubt about datacentre company",
-   "url": "https://www.theguardian.com/australia-news/2026/oct/09/firmus-pulls-asx-float-datacentre-investor-doubt-australia",
-   "at": "2026-10-09T04:37:55Z",
-   "src": "The Guardian",
-   "kind": "News"
-  },
-  {
-   "t": "Anthropic is setting up a \"presidential engagement\" program for the 2028 US elections that will offer AI policy education to candidates in both parties",
-   "url": "https://www.techmeme.com/261009/p1#a261009p1",
-   "at": "2026-10-09T04:05:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -917,35 +972,35 @@
    "t": "Let your AI agents paint big arrows, boxes and text on your screen",
    "url": "https://news.ycombinator.com/item?id=50018817",
    "link": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
-   "up": 185,
-   "com": 74,
+   "up": 210,
+   "com": 80,
    "at": "2026-10-09T11:03:48.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Court throws out killer's sentence after judge said he loved AI video of victim",
+   "url": "https://news.ycombinator.com/item?id=50020856",
+   "link": "https://www.nbcnews.com/news/us-news/sentence-vacated-ai-video-dead-victim-rcna601457",
+   "up": 39,
+   "com": 26,
+   "at": "2026-10-09T14:14:08.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Iranian campaign planted fake articles in real U.S. publications using ChatGPT",
    "url": "https://news.ycombinator.com/item?id=50019455",
    "link": "https://www.washingtonpost.com/technology/2026/10/09/chatgpt-users-iran-planted-ai-generated-articles-us-news-media/",
-   "up": 74,
-   "com": 34,
+   "up": 87,
+   "com": 70,
    "at": "2026-10-09T12:21:24.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Tell HN: I've been paying for a rural Tanzanian's education for 10 years",
-   "url": "https://news.ycombinator.com/item?id=50006366",
-   "link": "",
-   "up": 719,
-   "com": 223,
-   "at": "2026-10-08T14:39:47.000Z"
   },
   {
    "src": "Hacker News",
    "t": "OpenAI fires three safety researchers for \"mishandling research information\"",
    "url": "https://news.ycombinator.com/item?id=50018350",
    "link": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
-   "up": 113,
-   "com": 61,
+   "up": 133,
+   "com": 68,
    "at": "2026-10-09T10:00:26.000Z"
   },
   {
@@ -953,18 +1008,17 @@
    "t": "OpenAI annualised revenues $20B less than previously signalled",
    "url": "https://news.ycombinator.com/item?id=50008187",
    "link": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
-   "up": 409,
-   "com": 282,
+   "up": 412,
+   "com": 286,
    "at": "2026-10-08T16:45:58.000Z"
   },
   {
-   "src": "Hacker News",
-   "t": "MXC - a sandboxed code execution system",
-   "url": "https://news.ycombinator.com/item?id=50016489",
-   "link": "https://github.com/microsoft/mxc",
-   "up": 90,
-   "com": 48,
-   "at": "2026-10-09T05:51:29.000Z"
+   "src": "DEV",
+   "t": "Zero-Screen Dungeon Master: The Voice-Only RPG Where Your Real Walk Drives the Story",
+   "url": "https://dev.to/vidisha_gupta_/zero-screen-dungeon-master-the-voice-only-rpg-where-your-real-walk-drives-the-story-3m68",
+   "up": 15,
+   "com": 2,
+   "at": "2026-10-09T14:21:13Z"
   }
  ]
 }
