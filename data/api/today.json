@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-09T01:30:49.180Z"
+  "updated": "2026-10-09T02:01:04.068Z"
  },
  "pulse": {
   "trending": 77,
   "accelerating": 2,
-  "newModels": 7,
-  "discussions": 45,
-  "stars": 260
+  "newModels": 8,
+  "discussions": 47,
+  "stars": 285
  },
  "rising": [
   {
@@ -70,7 +70,7 @@
    "cat": "Infrastructure",
    "score": 87,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 814",
+   "desc": "Model on Hugging Face · open source · ♥ 815",
    "meta": [
     "6.8K downloads",
     "Released 7 days ago"
@@ -104,8 +104,8 @@
    "grow": 1,
    "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
    "meta": [
-    "★ 2,325",
-    "+35 in 24h",
+    "★ 2,335",
+    "+58 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-02T09:57:40Z",
@@ -122,7 +122,7 @@
    "grow": null,
    "desc": "Reinforcement learning with verifiable rewards (RLVR) turns agent experience into learning signals primarily through scalar outcome rewards after interaction.",
    "meta": [
-    "▲ 18 upvotes",
+    "▲ 31 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-05T20:00:00.000Z",
@@ -138,7 +138,7 @@
    "grow": null,
    "desc": "AI workflow automation: show it once, let it run",
    "meta": [
-    "▲ 517 votes",
+    "▲ 518 votes",
     "116 comments",
     "Launched 2 days ago"
    ],
@@ -152,7 +152,7 @@
    "cat": "Infrastructure",
    "score": 84,
    "grow": 7874,
-   "desc": "Model on Hugging Face · open source · ♥ 399",
+   "desc": "Model on Hugging Face · open source · ♥ 402",
    "meta": [
     "5.4K downloads",
     "Released 2 days ago"
@@ -178,54 +178,8 @@
    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF"
   }
  ],
- "breakouts": [
-  {
-   "key": "gpt 6",
-   "label": "GPT-6",
-   "n": 3,
-   "sources": [
-    {
-     "src": "OpenAI blog",
-     "t": "GPT-6 and Intelligent UI for everyone",
-     "url": "https://openai.com/index/gpt-6-for-everyone"
-    },
-    {
-     "src": "SiliconANGLE News",
-     "t": "With GPT-6, ChatGPT’s responses are much more visually appealing and interactive",
-     "url": "https://siliconangle.com/2026/10/07/with-gpt-6-chatgpts-responses-are-much-more-visually-appealing-and-interactive/"
-    },
-    {
-     "src": "GitHub",
-     "t": "zjwzcx/Awesome-Astra-Embodied-AI",
-     "url": "https://github.com/zjwzcx/Awesome-Astra-Embodied-AI"
-    }
-   ],
-   "since": "2026-10-02T11:40:52.853Z"
-  }
- ],
+ "breakouts": [],
  "hype": [
-  {
-   "name": "GPT-6",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
-    {
-     "src": "OpenAI blog",
-     "t": "GPT-6 and Intelligent UI for everyone",
-     "url": "https://openai.com/index/gpt-6-for-everyone"
-    },
-    {
-     "src": "SiliconANGLE News",
-     "t": "With GPT-6, ChatGPT’s responses are much more visually appealing and interactive",
-     "url": "https://siliconangle.com/2026/10/07/with-gpt-6-chatgpts-responses-are-much-more-visually-appealing-and-interactive/"
-    }
-   ],
-   "buzz": 2,
-   "verdict": "Talk only, no public usage numbers"
-  },
   {
    "name": "embeddinggemma-2",
    "url": "https://huggingface.co/google/embeddinggemma-2",
@@ -247,8 +201,8 @@
    "name": "replica-skill",
    "url": "https://github.com/Jakeschincariol/replica-skill",
    "from": "GitHub",
-   "use": 225,
-   "useLabel": "+225 stars/day",
+   "use": 227,
+   "useLabel": "+227 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -362,19 +316,19 @@
  "github": [
   {
    "repo": "Jakeschincariol/replica-skill",
-   "stars": 1088,
-   "d24": 225,
+   "stars": 1094,
+   "d24": 227,
    "est": false,
-   "forks": 136,
+   "forks": 138,
    "contrib": null,
    "score": 80
   },
   {
    "repo": "QingYunA/answer-me-with-html",
-   "stars": 2325,
-   "d24": 35,
+   "stars": 2335,
+   "d24": 58,
    "est": false,
-   "forks": 155,
+   "forks": 156,
    "contrib": null,
    "score": 85
   }
@@ -390,7 +344,7 @@
    "grow": 0,
    "score": 91,
    "cat": "Coding",
-   "likes": 1835
+   "likes": 1838
   },
   {
    "name": "JEV-27B-VL",
@@ -402,7 +356,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 2930
+   "likes": 2939
   },
   {
    "name": "clef",
@@ -413,7 +367,7 @@
    "grow": 0,
    "score": 88,
    "cat": "Coding",
-   "likes": 1888
+   "likes": 1889
   },
   {
    "name": "Kolibri-1",
@@ -424,7 +378,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Infrastructure",
-   "likes": 814
+   "likes": 815
   },
   {
    "name": "embeddinggemma-2",
@@ -435,7 +389,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Vision",
-   "likes": 1200
+   "likes": 1203
   },
   {
    "name": "GLM5.3-Flash-E224-DGX-Spark",
@@ -446,7 +400,7 @@
    "grow": 7874,
    "score": 84,
    "cat": "Infrastructure",
-   "likes": 399
+   "likes": 402
   }
  ],
  "free": [
@@ -859,20 +813,6 @@
    "kind": "News"
   },
   {
-   "t": "Anthropic updates its usage policy to ban \"sustained and needless abusive or cruel behavior\" toward Claude; ending chats is \"the primary enforcement mechanism\"",
-   "url": "https://www.techmeme.com/261008/p39#a261008p39",
-   "at": "2026-10-08T17:20:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "AI Keeps Pissing Off Mathematicians",
-   "url": "https://www.youtube.com/watch?v=SoLWCYnc-Bs",
-   "at": "2026-10-08T17:05:21Z",
-   "src": "ColdFusion",
-   "kind": "Video"
-  },
-  {
    "t": "An AI boom is sending San Francisco rents through the roof: ‘Nowhere left for people to go’",
    "url": "https://www.theguardian.com/us-news/ng-interactive/2026/oct/08/san-francisco-housing-ai-boom",
    "at": "2026-10-08T17:04:09Z",
@@ -894,10 +834,24 @@
    "kind": "Video"
   },
   {
-   "t": "Birlasoft Named an OpenAI Select Partner",
-   "url": "https://www.nugget.ca/press-releases/pr-newswire/birlasoft-named-an-openai-select-partner/",
-   "at": "2026-10-08T13:24:02Z",
-   "src": "The North Bay Nugget",
+   "t": "Why are the tech lords so bad at signing their names?",
+   "url": "https://krdo.com/news/national-world/cnn-national/2026/10/08/why-are-the-tech-lords-so-bad-at-signing-their-names/",
+   "at": "2026-10-08T14:00:44Z",
+   "src": "KRDO",
+   "kind": "News"
+  },
+  {
+   "t": "The FCC might let political groups send you more AI robocalls.",
+   "url": "https://www.theverge.com/policy/1007713/the-fcc-might-let-political-groups-send-you-more-ai-robocalls",
+   "at": "2026-10-08T13:58:08Z",
+   "src": "The Verge",
+   "kind": "News"
+  },
+  {
+   "t": "ASEAN making good progress on Code of Conduct for South China Sea: Philippine president",
+   "url": "https://www.channelnewsasia.com/watch/asean-making-good-progress-code-conduct-south-china-sea-philippine-president-6442811",
+   "at": "2026-10-08T13:54:28Z",
+   "src": "CNA",
    "kind": "News"
   }
  ],
@@ -907,27 +861,27 @@
    "t": "Tell HN: I've been paying for a rural Tanzanian's education for 10 years",
    "url": "https://news.ycombinator.com/item?id=50006366",
    "link": "",
-   "up": 659,
-   "com": 197,
+   "up": 665,
+   "com": 199,
    "at": "2026-10-08T14:39:47.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "OpenAI, the Partition Principle, and Mathematics",
-   "url": "https://news.ycombinator.com/item?id=50013902",
-   "link": "https://karagila.org/2026/openai-pp/",
-   "up": 82,
-   "com": 89,
-   "at": "2026-10-08T23:29:43.000Z"
   },
   {
    "src": "Hacker News",
    "t": "OpenAI annualised revenues $20B less than previously signalled",
    "url": "https://news.ycombinator.com/item?id=50008187",
    "link": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
-   "up": 350,
+   "up": 351,
    "com": 246,
    "at": "2026-10-08T16:45:58.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "OpenAI, the Partition Principle, and Mathematics",
+   "url": "https://news.ycombinator.com/item?id=50013902",
+   "link": "https://karagila.org/2026/openai-pp/",
+   "up": 85,
+   "com": 101,
+   "at": "2026-10-08T23:29:43.000Z"
   },
   {
    "src": "Hacker News",
@@ -943,7 +897,7 @@
    "t": "The value of not getting to the point (2015)",
    "url": "https://news.ycombinator.com/item?id=50010470",
    "link": "https://ken.arneson.name/2015/11/the-value-of-not-getting-to-the-point/",
-   "up": 116,
+   "up": 120,
    "com": 40,
    "at": "2026-10-08T19:04:56.000Z"
   },
@@ -952,8 +906,8 @@
    "t": "AI-ready biological data: $1.8B global commitment",
    "url": "https://news.ycombinator.com/item?id=50011999",
    "link": "https://biohub.org/news/virtual-biology-initiative-expansion/",
-   "up": 64,
-   "com": 5,
+   "up": 70,
+   "com": 7,
    "at": "2026-10-08T20:46:25.000Z"
   }
  ]
