@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-09T20:01:05.753Z"
+  "updated": "2026-10-09T20:30:54.322Z"
  },
  "pulse": {
   "trending": 77,
   "accelerating": 2,
   "newModels": 6,
   "discussions": 39,
-  "stars": 2409
+  "stars": 2377
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 117,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 2,099",
-    "+1,643 in 24h",
+    "★ 2,104",
+    "+1,602 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -41,8 +41,8 @@
    "grow": null,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 1,315",
-    "~440 in 24h",
+    "★ 1,353",
+    "~449 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -88,7 +88,7 @@
    "cat": "Infrastructure",
    "score": 89,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 839",
+   "desc": "Model on Hugging Face · open source · ♥ 840",
    "meta": [
     "8.5K downloads",
     "Released 8 days ago"
@@ -104,7 +104,7 @@
    "cat": "Infrastructure",
    "score": 86,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 728",
+   "desc": "Model on Hugging Face · open source · ♥ 729",
    "meta": [
     "29K downloads",
     "Released 29 days ago"
@@ -114,13 +114,29 @@
    "url": "https://huggingface.co/jialinyyzz/humanizer"
   },
   {
+   "name": "Qwen-Image-2.1-Turbo",
+   "owner": "Qwen",
+   "src": "hf",
+   "cat": "Vision",
+   "score": 86,
+   "grow": null,
+   "desc": "Vision on Hugging Face · open weights · ♥ 254",
+   "meta": [
+    "0 downloads",
+    "Released 16h ago"
+   ],
+   "at": "2026-10-09T04:50:01.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo"
+  },
+  {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
    "owner": "abenzerps",
    "src": "hf",
    "cat": "Infrastructure",
    "score": 85,
    "grow": 0,
-   "desc": "Model on Hugging Face · open weights · ♥ 3.7K",
+   "desc": "Model on Hugging Face · open weights · ♥ 3.8K",
    "meta": [
     "2M downloads",
     "Released 19 days ago"
@@ -128,22 +144,6 @@
    "at": "2026-09-20T15:51:13.000Z",
    "breakout": null,
    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF"
-  },
-  {
-   "name": "Qwen-Image-2.1-Turbo",
-   "owner": "Qwen",
-   "src": "hf",
-   "cat": "Vision",
-   "score": 85,
-   "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 247",
-   "meta": [
-    "0 downloads",
-    "Released 15h ago"
-   ],
-   "at": "2026-10-09T04:50:01.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo"
   },
   {
    "name": "Memento 3: Model-Based Recursive Self-Improvement through Reflective Rulebooks",
@@ -182,11 +182,33 @@
  "breakouts": [],
  "hype": [
   {
+   "name": "GPT-6.1",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "OpenAI blog",
+     "t": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+     "url": "https://openai.com/index/asana-browser-agent"
+    },
+    {
+     "src": "YouTube",
+     "t": "HUGE Gemini 4 Argon UPDATE, Fable 5.5 LEAKS, GPT-6.1 Ultrafast, Claude Motion, & Step 5! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=ATBnss54_t4"
+    }
+   ],
+   "buzz": 2,
+   "verdict": "Talk only, no public usage numbers"
+  },
+  {
    "name": "ARTEX",
    "url": "https://github.com/mhtsec/ARTEX",
    "from": "GitHub",
-   "use": 1643,
-   "useLabel": "+1,643 stars/day",
+   "use": 1602,
+   "useLabel": "+1,602 stars/day",
    "usePct": 1,
    "talk": [
     {
@@ -334,28 +356,28 @@
  "github": [
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 2099,
-   "d24": 1643,
+   "stars": 2104,
+   "d24": 1602,
    "est": false,
-   "forks": 4335,
+   "forks": 4339,
    "contrib": null,
    "score": 97
   },
   {
    "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 1315,
-   "d24": 440,
+   "stars": 1353,
+   "d24": 449,
    "est": true,
-   "forks": 110,
+   "forks": 111,
    "contrib": null,
    "score": 91
   },
   {
    "repo": "Jakeschincariol/replica-skill",
-   "stars": 1333,
+   "stars": 1340,
    "d24": 326,
    "est": false,
-   "forks": 171,
+   "forks": 172,
    "contrib": null,
    "score": 78
   }
@@ -370,7 +392,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 1325
+   "likes": 1326
   },
   {
    "name": "clef",
@@ -392,7 +414,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 839
+   "likes": 840
   },
   {
    "name": "humanizer",
@@ -403,7 +425,18 @@
    "grow": 0,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 728
+   "likes": 729
+  },
+  {
+   "name": "Qwen-Image-2.1-Turbo",
+   "org": "Qwen",
+   "lic": "Open weights",
+   "at": "2026-10-09T04:50:01.000Z",
+   "dl": 0,
+   "grow": null,
+   "score": 86,
+   "cat": "Vision",
+   "likes": 254
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -414,18 +447,7 @@
    "grow": 0,
    "score": 85,
    "cat": "Infrastructure",
-   "likes": 3749
-  },
-  {
-   "name": "Qwen-Image-2.1-Turbo",
-   "org": "Qwen",
-   "lic": "Open weights",
-   "at": "2026-10-09T04:50:01.000Z",
-   "dl": 0,
-   "grow": null,
-   "score": 85,
-   "cat": "Vision",
-   "likes": 247
+   "likes": 3752
   }
  ],
  "free": [
@@ -746,6 +768,13 @@
  },
  "headlines": [
   {
+   "t": "Philadelphia police say Anthropic informed them on Oct. 7 that one of its models submitted a false tip about an unsolved murder via a public web form on July 18",
+   "url": "https://www.techmeme.com/261009/p22#a261009p22",
+   "at": "2026-10-09T20:00:49.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Vesta, which uses AI agents to automate much of the loan origination process, raised $30M led by Conversion, bringing its total funding to $85M",
    "url": "https://www.techmeme.com/261009/p20#a261009p20",
    "at": "2026-10-09T17:35:02.000Z",
@@ -764,6 +793,13 @@
    "url": "https://www.youtube.com/watch?v=4fJK-O3S4ko",
    "at": "2026-10-09T16:00:07Z",
    "src": "House of El: AI",
+   "kind": "Video"
+  },
+  {
+   "t": "These 722 Papers Just Broke The Math World",
+   "url": "https://www.youtube.com/watch?v=Y0xrSNVeEHc",
+   "at": "2026-10-09T15:38:33Z",
+   "src": "Cleo Abram",
    "kind": "Video"
   },
   {
@@ -830,31 +866,17 @@
    "kind": "News"
   },
   {
-   "t": "A slew of cyberattacks hit Japanese companies in September, exposing the data of millions and prompting calls for security checks, as AI lowers hacking barriers",
-   "url": "https://www.techmeme.com/261009/p7#a261009p7",
-   "at": "2026-10-09T10:01:12.000Z",
-   "src": "Techmeme",
+   "t": "Fired OpenAI Safety Researchers Dispute Their Dismissals In Open Letter",
+   "url": "https://www.engadget.com/2281966/fired-openai-safety-researchers-dispute-their-dismissals-in-open-letter/",
+   "at": "2026-10-09T08:25:18Z",
+   "src": "Engadget",
    "kind": "News"
   },
   {
-   "t": "OpenAI projected to bring in $20bn less in revenue than expected",
-   "url": "https://www.theguardian.com/technology/2026/oct/09/openai-forecast-revenue-gap",
-   "at": "2026-10-09T08:06:09Z",
-   "src": "The Guardian",
-   "kind": "News"
-  },
-  {
-   "t": "Jio IPO: After winning India’s telecom war, cloud and AI drive its next growth phase",
-   "url": "https://www.firstpost.com/business/jio-platforms-ipo-cloud-ai-next-growth-phase-14051677.html",
-   "at": "2026-10-09T08:00:47Z",
-   "src": "Firstpost",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI explains why it fired 3 researchers amid ‘suspicious’ exit claims",
-   "url": "https://www.thenews.com.pk/latest/1419272-openai-explains-why-it-fired-3-researchers-amid-suspicious-exit-claims",
-   "at": "2026-10-09T07:56:00Z",
-   "src": "The News International",
+   "t": "Explained: Why IT stocks ignored Donald Trump’s PERM suspension to gain Rs 70,000 crore in one day",
+   "url": "https://economictimes.indiatimes.com/markets/stocks/news/explained-why-it-stocks-ignored-donald-trumps-perm-suspension-to-gain-rs-70000-crore-in-one-day/articleshow/134824300.cms",
+   "at": "2026-10-09T08:18:00Z",
+   "src": "The Economic Times",
    "kind": "News"
   }
  ],
@@ -864,8 +886,8 @@
    "t": "Typesafe AI raises $870M at $7.5B",
    "url": "https://news.ycombinator.com/item?id=50023450",
    "link": "https://typesafe.ai/blog/series-ai",
-   "up": 114,
-   "com": 86,
+   "up": 137,
+   "com": 106,
    "at": "2026-10-09T17:02:31.000Z"
   },
   {
@@ -873,8 +895,8 @@
    "t": "Show HN: Let your AI agents paint big arrows, boxes and text on your screen",
    "url": "https://news.ycombinator.com/item?id=50018817",
    "link": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
-   "up": 329,
-   "com": 140,
+   "up": 335,
+   "com": 143,
    "at": "2026-10-09T11:03:48.000Z"
   },
   {
@@ -882,8 +904,8 @@
    "t": "Germany transforms former coal mines into Europe's largest lake landscape",
    "url": "https://news.ycombinator.com/item?id=50021540",
    "link": "https://www.euronews.com/2026/04/14/almost-like-lake-como-germany-transforms-former-coal-mines-into-europes-largest-lake-lands",
-   "up": 144,
-   "com": 78,
+   "up": 152,
+   "com": 80,
    "at": "2026-10-09T15:05:24.000Z"
   },
   {
@@ -891,8 +913,8 @@
    "t": "OpenAI fires three safety researchers for \"mishandling research information\"",
    "url": "https://news.ycombinator.com/item?id=50018350",
    "link": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
-   "up": 258,
-   "com": 166,
+   "up": 267,
+   "com": 169,
    "at": "2026-10-09T10:00:26.000Z"
   },
   {
@@ -900,18 +922,18 @@
    "t": "Iranian campaign planted fake articles in real U.S. publications using ChatGPT",
    "url": "https://news.ycombinator.com/item?id=50019455",
    "link": "https://www.washingtonpost.com/technology/2026/10/09/chatgpt-users-iran-planted-ai-generated-articles-us-news-media/",
-   "up": 168,
-   "com": 150,
+   "up": 170,
+   "com": 154,
    "at": "2026-10-09T12:21:24.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "The super intelligence shit is a humiliation ritual for OpenAI",
-   "url": "https://news.ycombinator.com/item?id=50021763",
-   "link": "https://bsky.app/profile/opinionhaver.bsky.social/post/3mxfo2mdjqs2z",
-   "up": 80,
-   "com": 76,
-   "at": "2026-10-09T15:18:59.000Z"
+   "t": "Ideas aren't getting harder to find, anyone who tells you otherwise is a coward",
+   "url": "https://news.ycombinator.com/item?id=50024571",
+   "link": "https://www.experimental-history.com/p/ideas-arent-getting-harder-to-find",
+   "up": 40,
+   "com": 13,
+   "at": "2026-10-09T18:16:03.000Z"
   }
  ]
 }
