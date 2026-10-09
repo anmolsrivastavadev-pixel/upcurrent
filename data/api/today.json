@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-09T09:01:07.025Z"
+  "updated": "2026-10-09T09:30:53.485Z"
  },
  "pulse": {
   "trending": 78,
   "accelerating": 0,
   "newModels": 5,
-  "discussions": 44,
-  "stars": 1683
+  "discussions": 42,
+  "stars": 3004
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 98,
-   "grow": null,
+   "grow": 69,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 1,536",
-    "~1,342 in 24h",
+    "★ 1,635",
+    "+2,664 in 24h",
     "Created yesterday"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -74,7 +74,7 @@
    "desc": "Model on Hugging Face · open source · ♥ 1.9K",
    "meta": [
     "11K downloads",
-    "Released 8 days ago"
+    "Released 9 days ago"
    ],
    "at": "2026-09-30T21:15:35.000Z",
    "breakout": null,
@@ -119,7 +119,7 @@
    "cat": "Infrastructure",
    "score": 86,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 549",
+   "desc": "Model on Hugging Face · open source · ♥ 550",
    "meta": [
     "5.4K downloads",
     "Released 2 days ago"
@@ -138,7 +138,7 @@
    "grow": null,
    "desc": "Reinforcement learning (RL) is the central training paradigm for advancing large foundation models towards self-improvement.",
    "meta": [
-    "▲ 42 upvotes",
+    "▲ 43 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-07T20:00:00.000Z",
@@ -154,7 +154,7 @@
    "grow": null,
    "desc": "A swarm of agents, in the same place you work",
    "meta": [
-    "▲ 363 votes",
+    "▲ 369 votes",
     "60 comments",
     "Launched yesterday"
    ],
@@ -170,8 +170,8 @@
    "grow": 4,
    "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
    "meta": [
-    "★ 2,410",
-    "+140 in 24h",
+    "★ 2,412",
+    "+139 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-02T09:57:40Z",
@@ -179,54 +179,8 @@
    "url": "https://github.com/QingYunA/answer-me-with-html"
   }
  ],
- "breakouts": [
-  {
-   "key": "gpt 6",
-   "label": "GPT-6",
-   "n": 3,
-   "sources": [
-    {
-     "src": "OpenAI blog",
-     "t": "GPT-6 and Intelligent UI for everyone",
-     "url": "https://openai.com/index/gpt-6-for-everyone"
-    },
-    {
-     "src": "Slashdot.org",
-     "t": "GPT-6 is coming to all tiers of ChatGPT",
-     "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186065390"
-    },
-    {
-     "src": "GitHub",
-     "t": "zjwzcx/Awesome-Astra-Embodied-AI",
-     "url": "https://github.com/zjwzcx/Awesome-Astra-Embodied-AI"
-    }
-   ],
-   "since": "2026-10-02T11:40:52.853Z"
-  }
- ],
+ "breakouts": [],
  "hype": [
-  {
-   "name": "GPT-6",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
-    {
-     "src": "OpenAI blog",
-     "t": "GPT-6 and Intelligent UI for everyone",
-     "url": "https://openai.com/index/gpt-6-for-everyone"
-    },
-    {
-     "src": "Slashdot.org",
-     "t": "GPT-6 is coming to all tiers of ChatGPT",
-     "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186065390"
-    }
-   ],
-   "buzz": 2,
-   "verdict": "Talk only, no public usage numbers"
-  },
   {
    "name": "embeddinggemma-2",
    "url": "https://huggingface.co/google/embeddinggemma-2",
@@ -265,8 +219,8 @@
    "name": "ARTEX",
    "url": "https://github.com/mhtsec/ARTEX",
    "from": "GitHub",
-   "use": 1342,
-   "useLabel": "~1,342 stars/day",
+   "use": 2664,
+   "useLabel": "+2,664 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -380,28 +334,28 @@
  "github": [
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 1536,
-   "d24": 1342,
-   "est": true,
-   "forks": 3470,
+   "stars": 1635,
+   "d24": 2664,
+   "est": false,
+   "forks": 3659,
    "contrib": null,
    "score": 98
   },
   {
    "repo": "Jakeschincariol/replica-skill",
-   "stars": 1180,
+   "stars": 1185,
    "d24": 201,
    "est": true,
-   "forks": 154,
+   "forks": 155,
    "contrib": null,
    "score": 79
   },
   {
    "repo": "QingYunA/answer-me-with-html",
-   "stars": 2410,
-   "d24": 140,
+   "stars": 2412,
+   "d24": 139,
    "est": false,
-   "forks": 162,
+   "forks": 163,
    "contrib": null,
    "score": 84
   }
@@ -417,7 +371,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 3219
+   "likes": 3238
   },
   {
    "name": "GEV-26B-Decide",
@@ -429,7 +383,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Coding",
-   "likes": 2007
+   "likes": 2019
   },
   {
    "name": "clef",
@@ -462,7 +416,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Vision",
-   "likes": 1254
+   "likes": 1259
   },
   {
    "name": "GLM5.3-Flash-E224-DGX-Spark",
@@ -473,7 +427,7 @@
    "grow": null,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 549
+   "likes": 550
   }
  ],
  "free": [
@@ -816,7 +770,7 @@
  },
  "headlines": [
   {
-   "t": "OpenAI defends its decision to fire three safety researchers, saying an investigation found they \"violated clear policies on handling sensitive information\"",
+   "t": "OpenAI says it didn't fire three researchers for \"raising safety concerns or speaking out\", but due to violating \"clear policies on handling sensitive\" info",
    "url": "https://www.techmeme.com/261009/p5#a261009p5",
    "at": "2026-10-09T08:50:01.000Z",
    "src": "Techmeme",
@@ -835,6 +789,13 @@
    "at": "2026-10-09T07:20:33Z",
    "src": "The Guardian",
    "kind": "News"
+  },
+  {
+   "t": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+   "url": "https://openai.com/index/sophos",
+   "at": "2026-10-09T07:00:00.000Z",
+   "src": "OpenAI",
+   "kind": "Lab blog"
   },
   {
    "t": "Sources: SoftBank is seeking to raise up to $100B from Gulf investors for a fund to buy companies and improve their operations with AI and other advanced tech",
@@ -893,6 +854,13 @@
    "kind": "Video"
   },
   {
+   "t": "OpenAI's annualized revenue $20 billion less than previously signaled, FT reports",
+   "url": "https://www.marketscreener.com/news/openai-s-annualized-revenue-20-billion-less-than-previously-signaled-ft-reports-ce785ddfdc89ff20",
+   "at": "2026-10-08T21:11:26Z",
+   "src": "MarketScreener",
+   "kind": "News"
+  },
+  {
    "t": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
    "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
    "at": "2026-10-08T21:06:35.000Z",
@@ -912,20 +880,6 @@
    "at": "2026-10-08T20:56:35Z",
    "src": "Investor's Business Daily",
    "kind": "News"
-  },
-  {
-   "t": "Iranian operatives used AI to plant fake stories in multiple US media outlets",
-   "url": "https://abc17news.com/politics/national-politics/cnn-us-politics/2026/10/08/iranian-operatives-used-ai-to-plant-fake-stories-in-multiple-us-media-outlets/",
-   "at": "2026-10-08T20:46:28Z",
-   "src": "ABC17News.com",
-   "kind": "News"
-  },
-  {
-   "t": "Peter Thiel accuses Obama, Pope Leo of AI fearmongering: 'No ideas'",
-   "url": "https://nypost.com/2026/10/08/media/peter-thiel-accuses-obama-pope-leo-of-ai-fearmongering-no-ideas/",
-   "at": "2026-10-08T20:40:19Z",
-   "src": "New York Post",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -935,7 +889,7 @@
    "url": "https://news.ycombinator.com/item?id=50006366",
    "link": "",
    "up": 699,
-   "com": 215,
+   "com": 216,
    "at": "2026-10-08T14:39:47.000Z"
   },
   {
@@ -943,8 +897,8 @@
    "t": "OpenAI annualised revenues $20B less than previously signalled",
    "url": "https://news.ycombinator.com/item?id=50008187",
    "link": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
-   "up": 390,
-   "com": 256,
+   "up": 391,
+   "com": 259,
    "at": "2026-10-08T16:45:58.000Z"
   },
   {
@@ -952,35 +906,34 @@
    "t": "OpenAI, the Partition Principle, and Mathematics",
    "url": "https://news.ycombinator.com/item?id=50013902",
    "link": "https://karagila.org/2026/openai-pp/",
-   "up": 113,
-   "com": 160,
+   "up": 117,
+   "com": 167,
    "at": "2026-10-08T23:29:43.000Z"
-  },
-  {
-   "src": "Mastodon",
-   "t": "Uh. Die Frau hatte gestern einen Kunden, der sich im Vorfeld von ChatGPT betaten ließ. Natööörlich war das, was dieser hirnlose # LLM -Papagei ausgekotzt hat…",
-   "url": "https://troet.cafe/@arthurdent/117409629702124004",
-   "up": 25,
-   "com": 6,
-   "at": "2026-10-09T06:52:53.000Z"
   },
   {
    "src": "Hacker News",
    "t": "The value of not getting to the point (2015)",
    "url": "https://news.ycombinator.com/item?id=50010470",
    "link": "https://ken.arneson.name/2015/11/the-value-of-not-getting-to-the-point/",
-   "up": 162,
+   "up": 166,
    "com": 55,
    "at": "2026-10-08T19:04:56.000Z"
   },
   {
-   "src": "Hacker News",
-   "t": "AI-ready biological data: $1.8B global commitment",
-   "url": "https://news.ycombinator.com/item?id=50011999",
-   "link": "https://biohub.org/news/virtual-biology-initiative-expansion/",
-   "up": 123,
-   "com": 18,
-   "at": "2026-10-08T20:46:25.000Z"
+   "src": "Mastodon",
+   "t": "Uh. Die Frau hatte gestern einen Kunden, der sich im Vorfeld von ChatGPT betaten ließ. Natööörlich war das, was dieser hirnlose # LLM -Papagei ausgekotzt hat…",
+   "url": "https://troet.cafe/@arthurdent/117409629702124004",
+   "up": 27,
+   "com": 6,
+   "at": "2026-10-09T06:52:53.000Z"
+  },
+  {
+   "src": "DEV",
+   "t": "Docker just shipped the agent wall I wanted. It's off by default.",
+   "url": "https://dev.to/slabb/docker-just-shipped-the-agent-wall-i-wanted-its-off-by-default-f18",
+   "up": 10,
+   "com": 2,
+   "at": "2026-10-09T09:10:51Z"
   }
  ]
 }
