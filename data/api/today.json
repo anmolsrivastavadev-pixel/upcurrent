@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-09T18:30:56.541Z"
+  "updated": "2026-10-09T18:48:13.276Z"
  },
  "pulse": {
   "trending": 77,
   "accelerating": 2,
   "newModels": 6,
-  "discussions": 42,
-  "stars": 2538
+  "discussions": 43,
+  "stars": 2512
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 115,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 2,084",
-    "+1,784 in 24h",
+    "★ 2,087",
+    "+1,755 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -41,8 +41,8 @@
    "grow": null,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 1,224",
-    "~418 in 24h",
+    "★ 1,243",
+    "~423 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -88,7 +88,7 @@
    "cat": "Infrastructure",
    "score": 89,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 837",
+   "desc": "Model on Hugging Face · open source · ♥ 838",
    "meta": [
     "8.5K downloads",
     "Released 8 days ago"
@@ -155,7 +155,7 @@
    "grow": null,
    "desc": "A swarm of agents, in the same place you work",
    "meta": [
-    "▲ 380 votes",
+    "▲ 381 votes",
     "61 comments",
     "Launched yesterday"
    ],
@@ -182,11 +182,33 @@
  "breakouts": [],
  "hype": [
   {
+   "name": "GPT-6.1",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "OpenAI blog",
+     "t": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+     "url": "https://openai.com/index/asana-browser-agent"
+    },
+    {
+     "src": "YouTube",
+     "t": "HUGE Gemini 4 Argon UPDATE, Fable 5.5 LEAKS, GPT-6.1 Ultrafast, Claude Motion, & Step 5! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=ATBnss54_t4"
+    }
+   ],
+   "buzz": 2,
+   "verdict": "Talk only, no public usage numbers"
+  },
+  {
    "name": "ARTEX",
    "url": "https://github.com/mhtsec/ARTEX",
    "from": "GitHub",
-   "use": 1784,
-   "useLabel": "+1,784 stars/day",
+   "use": 1755,
+   "useLabel": "+1,755 stars/day",
    "usePct": 1,
    "talk": [
     {
@@ -351,17 +373,17 @@
  "github": [
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 2084,
-   "d24": 1784,
+   "stars": 2087,
+   "d24": 1755,
    "est": false,
-   "forks": 4321,
+   "forks": 4322,
    "contrib": null,
    "score": 97
   },
   {
    "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 1224,
-   "d24": 418,
+   "stars": 1243,
+   "d24": 423,
    "est": true,
    "forks": 107,
    "contrib": null,
@@ -369,10 +391,10 @@
   },
   {
    "repo": "Jakeschincariol/replica-skill",
-   "stars": 1318,
-   "d24": 336,
+   "stars": 1321,
+   "d24": 334,
    "est": false,
-   "forks": 167,
+   "forks": 169,
    "contrib": null,
    "score": 78
   }
@@ -387,7 +409,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 1314
+   "likes": 1319
   },
   {
    "name": "clef",
@@ -398,7 +420,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Coding",
-   "likes": 1930
+   "likes": 1931
   },
   {
    "name": "Kolibri-1",
@@ -409,7 +431,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 837
+   "likes": 838
   },
   {
    "name": "humanizer",
@@ -431,7 +453,7 @@
    "grow": 0,
    "score": 85,
    "cat": "Infrastructure",
-   "likes": 3745
+   "likes": 3747
   },
   {
    "name": "Xing4.0-29B-A4B-GGUF",
@@ -869,11 +891,11 @@
    "kind": "Lab blog"
   },
   {
-   "t": "OpenAI says it has fired three researchers for violating sensitive information policy",
-   "url": "https://www.reuters.com/business/openai-says-it-has-fired-three-researchers-violating-sensitive-information-2026-10-09/",
-   "at": "2026-10-09T06:30:50Z",
-   "src": "Reuters",
-   "kind": "News"
+   "t": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+   "url": "https://openai.com/index/asana-browser-agent",
+   "at": "2026-10-09T07:00:00.000Z",
+   "src": "OpenAI",
+   "kind": "Lab blog"
   }
  ],
  "discussions": [
@@ -882,8 +904,8 @@
    "t": "Show HN: Let your AI agents paint big arrows, boxes and text on your screen",
    "url": "https://news.ycombinator.com/item?id=50018817",
    "link": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
-   "up": 313,
-   "com": 134,
+   "up": 316,
+   "com": 137,
    "at": "2026-10-09T11:03:48.000Z"
   },
   {
@@ -891,8 +913,8 @@
    "t": "Germany transforms former coal mines into Europe's largest lake landscape",
    "url": "https://news.ycombinator.com/item?id=50021540",
    "link": "https://www.euronews.com/2026/04/14/almost-like-lake-como-germany-transforms-former-coal-mines-into-europes-largest-lake-lands",
-   "up": 127,
-   "com": 64,
+   "up": 130,
+   "com": 70,
    "at": "2026-10-09T15:05:24.000Z"
   },
   {
@@ -900,8 +922,8 @@
    "t": "OpenAI fires three safety researchers for \"mishandling research information\"",
    "url": "https://news.ycombinator.com/item?id=50018350",
    "link": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
-   "up": 238,
-   "com": 149,
+   "up": 242,
+   "com": 154,
    "at": "2026-10-09T10:00:26.000Z"
   },
   {
@@ -909,9 +931,18 @@
    "t": "Iranian campaign planted fake articles in real U.S. publications using ChatGPT",
    "url": "https://news.ycombinator.com/item?id=50019455",
    "link": "https://www.washingtonpost.com/technology/2026/10/09/chatgpt-users-iran-planted-ai-generated-articles-us-news-media/",
-   "up": 162,
-   "com": 138,
+   "up": 165,
+   "com": 141,
    "at": "2026-10-09T12:21:24.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "TypeSafe a Raises $870M at a $7.5B",
+   "url": "https://news.ycombinator.com/item?id=50023450",
+   "link": "https://typesafe.ai/blog/series-ai",
+   "up": 41,
+   "com": 18,
+   "at": "2026-10-09T17:02:31.000Z"
   },
   {
    "src": "Hacker News",
@@ -921,15 +952,6 @@
    "up": 43,
    "com": 2,
    "at": "2026-10-09T16:52:20.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "The super intelligence shit is a humiliation ritual for OpenAI",
-   "url": "https://news.ycombinator.com/item?id=50021763",
-   "link": "https://bsky.app/profile/opinionhaver.bsky.social/post/3mxfo2mdjqs2z",
-   "up": 77,
-   "com": 70,
-   "at": "2026-10-09T15:18:59.000Z"
   }
  ]
 }
