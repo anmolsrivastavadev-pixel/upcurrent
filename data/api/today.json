@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-10T19:01:06.411Z"
+  "updated": "2026-10-10T19:30:52.230Z"
  },
  "pulse": {
   "trending": 76,
   "accelerating": 1,
   "newModels": 8,
   "discussions": 37,
-  "stars": 2345
+  "stars": 2484
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 96,
-   "grow": 36,
+   "grow": null,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 2,885",
-    "+931 in 24h",
+    "★ 2,888",
+    "~1,119 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "LLMs",
    "score": 92,
-   "grow": 27,
+   "grow": 28,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 2,079",
-    "+1,414 in 24h",
+    "★ 2,092",
+    "+1,365 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -88,7 +88,7 @@
    "cat": "Vision",
    "score": 89,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 427",
+   "desc": "Vision on Hugging Face · open weights · ♥ 428",
    "meta": [
     "2.1K downloads",
     "Released 2 days ago"
@@ -104,7 +104,7 @@
    "cat": "Infrastructure",
    "score": 87,
    "grow": 14,
-   "desc": "Model on Hugging Face · open source · ♥ 928",
+   "desc": "Model on Hugging Face · open source · ♥ 931",
    "meta": [
     "34K downloads",
     "Released 30 days ago"
@@ -171,7 +171,7 @@
    "grow": null,
    "desc": "Get discovered & recommended when customers ask AI",
    "meta": [
-    "▲ 328 votes",
+    "▲ 332 votes",
     "23 comments",
     "Launched 12h ago"
    ],
@@ -202,8 +202,8 @@
    "name": "aurelio-finance",
    "url": "https://github.com/LosaLosSantos/aurelio-finance",
    "from": "GitHub",
-   "use": 1414,
-   "useLabel": "+1,414 stars/day",
+   "use": 1365,
+   "useLabel": "+1,365 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -317,8 +317,8 @@
  "github": [
   {
    "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 2079,
-   "d24": 1414,
+   "stars": 2092,
+   "d24": 1365,
    "est": false,
    "forks": 215,
    "contrib": null,
@@ -326,9 +326,9 @@
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 2885,
-   "d24": 931,
-   "est": false,
+   "stars": 2888,
+   "d24": 1119,
+   "est": true,
    "forks": 5300,
    "contrib": null,
    "score": 96
@@ -344,7 +344,7 @@
    "grow": 56,
    "score": 90,
    "cat": "Vision",
-   "likes": 1477
+   "likes": 1481
   },
   {
    "name": "clef",
@@ -366,7 +366,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Vision",
-   "likes": 427
+   "likes": 428
   },
   {
    "name": "humanizer",
@@ -377,7 +377,7 @@
    "grow": 14,
    "score": 87,
    "cat": "Infrastructure",
-   "likes": 928
+   "likes": 931
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -388,7 +388,7 @@
    "grow": 4,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 3852
+   "likes": 3854
   },
   {
    "name": "Kolibri-1",
@@ -720,6 +720,13 @@
  },
  "headlines": [
   {
+   "t": "Sources: Nvidia is in talks to acquire or invest more into US open-weights AI startup Reflection AI; the deal may be an acquihire to avoid antitrust scrutiny",
+   "url": "https://www.techmeme.com/261010/p16#a261010p16",
+   "at": "2026-10-10T19:08:43.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "A look at a 1,700-member Slack run by Medicare agency CMS where Microsoft, OpenAI, and other companies help shape policy on AI apps and medical records access",
    "url": "https://www.techmeme.com/261010/p14#a261010p14",
    "at": "2026-10-10T16:50:11.000Z",
@@ -745,6 +752,13 @@
    "url": "https://www.theguardian.com/technology/2026/oct/10/uk-foreign-ai-head-alan-turing-institute-george-williamson",
    "at": "2026-10-10T10:00:55Z",
    "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "OpenAI's Math Papers Destroyed Careers Of Early Mathematicians: US Professor",
+   "url": "https://www.ndtv.com/education/openais-math-papers-destroyed-careers-of-early-mathematicians-us-professor-12165290",
+   "at": "2026-10-10T07:04:22Z",
+   "src": "NDTV.com",
    "kind": "News"
   },
   {
@@ -797,13 +811,6 @@
    "kind": "News"
   },
   {
-   "t": "A US Senate investigation led by Senators Warren, Van Hollen, and Blumenthal says some hyperscalers misled the public about AI data centers' costs and benefits",
-   "url": "https://www.techmeme.com/261010/p1#a261010p1",
-   "at": "2026-10-10T05:05:00.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "AI torture experiments are testing our understanding of morality",
    "url": "https://www.independent.co.uk/tech/ai-pain-ethics-artificial-intelligence-b3063005.html",
    "at": "2026-10-10T05:00:00Z",
@@ -823,13 +830,6 @@
    "at": "2026-10-10T04:30:44Z",
    "src": "Moneycontrol",
    "kind": "News"
-  },
-  {
-   "t": "OpenAI maths breakthrough stuns mathematicians",
-   "url": "https://www.straitstimes.com/world/united-states/breathtaking-devastating-mathematics-reels-after-new-openai-release",
-   "at": "2026-10-10T04:15:00Z",
-   "src": "The Straits Times",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -838,35 +838,44 @@
    "t": "Anthropic discloses 2 months old fake tip to police among new rogue AI incidents",
    "url": "https://news.ycombinator.com/item?id=50035550",
    "link": "https://www.reuters.com/world/us/anthropic-ai-model-submits-false-homicide-tip-police-website-2026-10-09/",
-   "up": 29,
-   "com": 6,
+   "up": 37,
+   "com": 17,
    "at": "2026-10-10T18:10:54.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Tom Brown used GOP ties to broker a $1.25B/month SpaceX compute deal",
-   "url": "https://news.ycombinator.com/item?id=50033678",
-   "link": "https://wsj.com/tech/ai/tom-brown-athropic-669005ad",
-   "up": 91,
-   "com": 32,
-   "at": "2026-10-10T15:04:38.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
    "url": "https://news.ycombinator.com/item?id=50031614",
    "link": "https://github.com/rociiu/talorys",
-   "up": 181,
-   "com": 96,
+   "up": 193,
+   "com": 100,
    "at": "2026-10-10T10:52:09.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Tom Brown used GOP ties to broker a $1.25B/month SpaceX compute deal",
+   "url": "https://news.ycombinator.com/item?id=50033678",
+   "link": "https://wsj.com/tech/ai/tom-brown-athropic-669005ad",
+   "up": 99,
+   "com": 37,
+   "at": "2026-10-10T15:04:38.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Vibe coded browser ports of Halo, The Simpsons: Hit And Run, GTA work well",
+   "url": "https://news.ycombinator.com/item?id=50035561",
+   "link": "https://kotaku.com/we-might-be-cooked-as-these-vibe-coded-web-browser-ports-of-halo-the-simpsons-hit-and-run-and-gta-vice-city-seem-to-work-perfectly-2000743300",
+   "up": 29,
+   "com": 21,
+   "at": "2026-10-10T18:11:58.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Telegram Desktop vulnerability allowed any user's file to be stolen",
    "url": "https://news.ycombinator.com/item?id=50029123",
    "link": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
-   "up": 352,
-   "com": 180,
+   "up": 357,
+   "com": 185,
    "at": "2026-10-10T03:02:47.000Z"
   },
   {
@@ -876,15 +885,6 @@
    "up": 49,
    "com": 7,
    "at": "2026-10-10T15:49:58Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "AI Is Throwing a Roadside Picnic",
-   "url": "https://news.ycombinator.com/item?id=50034363",
-   "link": "https://metedata.substack.com/p/ai-is-throwing-a-roadside-picnic",
-   "up": 38,
-   "com": 43,
-   "at": "2026-10-10T16:19:23.000Z"
   }
  ]
 }
