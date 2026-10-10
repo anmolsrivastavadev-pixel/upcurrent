@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-10T11:01:06.476Z"
+  "updated": "2026-10-10T11:30:54.690Z"
  },
  "pulse": {
   "trending": 77,
   "accelerating": 2,
   "newModels": 6,
-  "discussions": 50,
-  "stars": 2064
+  "discussions": 46,
+  "stars": 1783
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 97,
-   "grow": 26,
+   "grow": 27,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 2,689",
-    "+1,170 in 24h",
+    "★ 2,701",
+    "+1,146 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -37,12 +37,12 @@
    "owner": "LosaLosSantos",
    "src": "gh",
    "cat": "LLMs",
-   "score": 91,
-   "grow": 59,
+   "score": 92,
+   "grow": null,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 1,596",
-    "+713 in 24h",
+    "★ 1,637",
+    "~450 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -72,7 +72,7 @@
    "cat": "Vision",
    "score": 90,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 377",
+   "desc": "Vision on Hugging Face · open weights · ♥ 381",
    "meta": [
     "2.1K downloads",
     "Released yesterday"
@@ -104,7 +104,7 @@
    "cat": "Infrastructure",
    "score": 87,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 857",
+   "desc": "Model on Hugging Face · open source · ♥ 864",
    "meta": [
     "34K downloads",
     "Released 29 days ago"
@@ -224,8 +224,19 @@
    "name": "ARTEX",
    "url": "https://github.com/mhtsec/ARTEX",
    "from": "GitHub",
-   "use": 1170,
-   "useLabel": "+1,170 stars/day",
+   "use": 1146,
+   "useLabel": "+1,146 stars/day",
+   "usePct": 1,
+   "talk": [],
+   "buzz": 0,
+   "verdict": "Used a lot, hardly talked about"
+  },
+  {
+   "name": "Qwen-Image-2.1",
+   "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1",
+   "from": "Hugging Face",
+   "use": 8224717,
+   "useLabel": "8.2M downloads",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -237,17 +248,6 @@
    "from": "Hugging Face",
    "use": 6449020,
    "useLabel": "6.4M downloads",
-   "usePct": 1,
-   "talk": [],
-   "buzz": 0,
-   "verdict": "Used a lot, hardly talked about"
-  },
-  {
-   "name": "Ternary-Bonsai-2-27B-gguf",
-   "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
-   "from": "Hugging Face",
-   "use": 4457576,
-   "useLabel": "4.5M downloads",
    "usePct": 0.9696969696969697,
    "talk": [],
    "buzz": 0,
@@ -339,26 +339,26 @@
  "github": [
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 2689,
-   "d24": 1170,
+   "stars": 2701,
+   "d24": 1146,
    "est": false,
-   "forks": 5102,
+   "forks": 5117,
    "contrib": null,
    "score": 97
   },
   {
    "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 1596,
-   "d24": 713,
-   "est": false,
-   "forks": 165,
+   "stars": 1637,
+   "d24": 450,
+   "est": true,
+   "forks": 181,
    "contrib": null,
-   "score": 91
+   "score": 92
   },
   {
    "repo": "Jakeschincariol/replica-skill",
-   "stars": 1459,
-   "d24": 181,
+   "stars": 1465,
+   "d24": 187,
    "est": false,
    "forks": 193,
    "contrib": null,
@@ -386,7 +386,7 @@
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 377
+   "likes": 381
   },
   {
    "name": "clef",
@@ -397,7 +397,7 @@
    "grow": null,
    "score": 89,
    "cat": "Coding",
-   "likes": 1962
+   "likes": 1963
   },
   {
    "name": "humanizer",
@@ -408,7 +408,7 @@
    "grow": null,
    "score": 87,
    "cat": "Infrastructure",
-   "likes": 857
+   "likes": 864
   },
   {
    "name": "Kolibri-1",
@@ -430,7 +430,7 @@
    "grow": null,
    "score": 85,
    "cat": "Infrastructure",
-   "likes": 3810
+   "likes": 3814
   }
  ],
  "free": [
@@ -807,6 +807,41 @@
    "kind": "News"
   },
   {
+   "t": "CUJ holds meet on AI, digital technology in tourism",
+   "url": "https://www.dailyexcelsior.com/cuj-holds-meet-on-ai-digital-technology-in-tourism/",
+   "at": "2026-10-09T23:15:56Z",
+   "src": "Daily Excelsior",
+   "kind": "News"
+  },
+  {
+   "t": "OpenAI Paused The Release Of Its Latest Models Over Safety Concerns. But an Expert is Also Warning Against a Slowdown.",
+   "url": "https://www.ibtimes.com/openai-paused-release-its-latest-models-over-safety-concerns-expert-also-warning-against-3808432",
+   "at": "2026-10-09T23:14:01Z",
+   "src": "International Business Times",
+   "kind": "News"
+  },
+  {
+   "t": "Anthropic AI model submits false homicide tip to Philadelphia police website",
+   "url": "https://www.thestar.com.my/tech/tech-news/2026/10/10/anthropic-ai-model-submits-false-homicide-tip-to-police-website",
+   "at": "2026-10-09T23:11:00Z",
+   "src": "The Star",
+   "kind": "News"
+  },
+  {
+   "t": "US visa uncertainty: Where can Indian tech professionals find jobs beyond America?",
+   "url": "https://www.businesstoday.in/jobs/story/us-visa-uncertainty-where-can-indian-tech-professionals-find-jobs-beyond-america-560722-2026-10-10",
+   "at": "2026-10-09T23:05:03Z",
+   "src": "Business Today",
+   "kind": "News"
+  },
+  {
+   "t": "Anthropic AI model posed as a human to send cops fake lead on unsolved case",
+   "url": "https://www.nzherald.co.nz/world/anthropic-ai-model-posed-as-a-human-to-send-cops-fake-lead-on-unsolved-case/IXMDP546ORBZBARUB76UQCXGCM/",
+   "at": "2026-10-09T23:04:17Z",
+   "src": "The New Zealand Herald",
+   "kind": "News"
+  },
+  {
    "t": "Reading” Tool That Reconstructs What Eyes See – NaturalNews.com",
    "url": "https://www.naturalnews.com/2026-10-09-researchers-develop-ai-mind-reading-tool.html",
    "at": "2026-10-09T22:48:09Z",
@@ -826,41 +861,6 @@
    "at": "2026-10-09T22:34:45Z",
    "src": "TMZ",
    "kind": "News"
-  },
-  {
-   "t": "Tech Up as AI Profit Fears Fade -- Tech Roundup",
-   "url": "https://www.marketscreener.com/news/tech-up-as-ai-profit-fears-fade-tech-roundup-ce785ddcda8bf027",
-   "at": "2026-10-09T21:53:17Z",
-   "src": "MarketScreener",
-   "kind": "News"
-  },
-  {
-   "t": "Fired OpenAI employees raise safety concerns : NPR",
-   "url": "https://www.npr.org/2026/10/09/nx-s1-5996890/openai-safety-firings",
-   "at": "2026-10-09T21:28:09Z",
-   "src": "NPR",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI Denies Firing Researchers Over AI Safety Warnings",
-   "url": "https://www.ndtv.com/world-news/openai-denies-firing-researchers-over-ai-safety-warnings-12164169",
-   "at": "2026-10-09T20:33:25Z",
-   "src": "NDTV.com",
-   "kind": "News"
-  },
-  {
-   "t": "Here are 10 terms you need to know to understand artificial intelligence",
-   "url": "https://nypost.com/2026/10/09/business/here-are-10-terms-you-need-to-know-to-understand-artificial-intelligence/",
-   "at": "2026-10-09T20:32:18Z",
-   "src": "New York Post",
-   "kind": "News"
-  },
-  {
-   "t": "Apple Stock (AAPL) Could Gain $75 per Share from AI, Dan Ives Says",
-   "url": "https://markets.businessinsider.com/news/stocks/apple-stock-aapl-could-gain-75-per-share-from-ai-dan-ives-says-1036614149",
-   "at": "2026-10-09T20:28:08Z",
-   "src": "Markets Insider",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -878,8 +878,8 @@
    "t": "Telegram Desktop vulnerability allowed any user's file to be stolen",
    "url": "https://news.ycombinator.com/item?id=50029123",
    "link": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
-   "up": 191,
-   "com": 91,
+   "up": 200,
+   "com": 95,
    "at": "2026-10-10T03:02:47.000Z"
   },
   {
@@ -888,24 +888,15 @@
    "url": "https://news.ycombinator.com/item?id=50023450",
    "link": "https://typesafe.ai/blog/series-ai",
    "up": 379,
-   "com": 281,
+   "com": 284,
    "at": "2026-10-09T17:02:31.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Show HN: Let your AI agents paint big arrows, boxes and text on your screen",
-   "url": "https://news.ycombinator.com/item?id=50018817",
-   "link": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
-   "up": 399,
-   "com": 175,
-   "at": "2026-10-09T11:03:48.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Anthropic AI model submits false tip on unsolved Philly murder, police say",
    "url": "https://news.ycombinator.com/item?id=50027118",
    "link": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
-   "up": 167,
+   "up": 169,
    "com": 125,
    "at": "2026-10-09T22:00:35.000Z"
   },
@@ -917,6 +908,15 @@
    "up": 203,
    "com": 114,
    "at": "2026-10-09T15:05:24.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Iranian campaign planted fake articles in real U.S. publications using ChatGPT",
+   "url": "https://news.ycombinator.com/item?id=50019455",
+   "link": "https://www.washingtonpost.com/technology/2026/10/09/chatgpt-users-iran-planted-ai-generated-articles-us-news-media/",
+   "up": 187,
+   "com": 167,
+   "at": "2026-10-09T12:21:24.000Z"
   }
  ]
 }
