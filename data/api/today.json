@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-10T01:30:51.731Z"
+  "updated": "2026-10-10T02:01:02.448Z"
  },
  "pulse": {
   "trending": 77,
   "accelerating": 0,
   "newModels": 7,
-  "discussions": 41,
-  "stars": 2770
+  "discussions": 43,
+  "stars": 2626
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 2,209",
-    "~1,206 in 24h",
+    "★ 2,239",
+    "~1,208 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -42,7 +42,7 @@
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
     "★ 1,555",
-    "+1,265 in 24h",
+    "+1,207 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -56,7 +56,7 @@
    "cat": "Vision",
    "score": 90,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open source · ♥ 1.3K",
+   "desc": "Vision on Hugging Face · open source · ♥ 1.4K",
    "meta": [
     "29K downloads",
     "Released 25 days ago"
@@ -88,7 +88,7 @@
    "cat": "Infrastructure",
    "score": 88,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 843",
+   "desc": "Model on Hugging Face · open source · ♥ 845",
    "meta": [
     "8.5K downloads",
     "Released 8 days ago"
@@ -104,7 +104,7 @@
    "cat": "Vision",
    "score": 87,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 296",
+   "desc": "Vision on Hugging Face · open weights · ♥ 301",
    "meta": [
     "0 downloads",
     "Released 21h ago"
@@ -120,7 +120,7 @@
    "cat": "Infrastructure",
    "score": 86,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 751",
+   "desc": "Model on Hugging Face · open source · ♥ 753",
    "meta": [
     "29K downloads",
     "Released 29 days ago"
@@ -155,7 +155,7 @@
    "grow": null,
    "desc": "Learning to act in unfamiliar environments requires agents to infer how the world works and revise that understanding as new evidence arrives.",
    "meta": [
-    "▲ 25 upvotes",
+    "▲ 26 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-07T20:00:00.000Z",
@@ -182,50 +182,6 @@
  "breakouts": [],
  "hype": [
   {
-   "name": "GPT-6.1",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
-    {
-     "src": "OpenAI blog",
-     "t": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-     "url": "https://openai.com/index/asana-browser-agent"
-    },
-    {
-     "src": "YouTube",
-     "t": "HUGE Gemini 4 Argon UPDATE, Fable 5.5 LEAKS, GPT-6.1 Ultrafast, Claude Motion, & Step 5! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=ATBnss54_t4"
-    }
-   ],
-   "buzz": 2,
-   "verdict": "Talk only, no public usage numbers"
-  },
-  {
-   "name": "Gemini 4",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
-    {
-     "src": "Techmeme",
-     "t": "Sources: as Google prepares to roll out its Gemini 4 Argon, staff are testing a new version internally named Carbon; one staffer says it \"feels like Opus 5.5\"",
-     "url": "https://www.techmeme.com/261009/p25#a261009p25"
-    },
-    {
-     "src": "YouTube",
-     "t": "HUGE Gemini 4 Argon UPDATE, Fable 5.5 LEAKS, GPT-6.1 Ultrafast, Claude Motion, & Step 5! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=ATBnss54_t4"
-    }
-   ],
-   "buzz": 2,
-   "verdict": "Talk only, no public usage numbers"
-  },
-  {
    "name": "whistle",
    "url": "https://huggingface.co/Cactus-Compute/whistle",
    "from": "Hugging Face",
@@ -243,11 +199,11 @@
    "verdict": "More talk than use"
   },
   {
-   "name": "aurelio-finance",
-   "url": "https://github.com/LosaLosSantos/aurelio-finance",
+   "name": "ARTEX",
+   "url": "https://github.com/mhtsec/ARTEX",
    "from": "GitHub",
-   "use": 1265,
-   "useLabel": "+1,265 stars/day",
+   "use": 1208,
+   "useLabel": "~1,208 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -360,28 +316,28 @@
  ],
  "github": [
   {
-   "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 1555,
-   "d24": 1265,
-   "est": false,
-   "forks": 121,
-   "contrib": null,
-   "score": 93
-  },
-  {
    "repo": "mhtsec/ARTEX",
-   "stars": 2209,
-   "d24": 1206,
+   "stars": 2239,
+   "d24": 1208,
    "est": true,
-   "forks": 4482,
+   "forks": 4525,
    "contrib": null,
    "score": 97
   },
   {
-   "repo": "Jakeschincariol/replica-skill",
-   "stars": 1385,
-   "d24": 299,
+   "repo": "LosaLosSantos/aurelio-finance",
+   "stars": 1555,
+   "d24": 1207,
    "est": false,
+   "forks": 122,
+   "contrib": null,
+   "score": 93
+  },
+  {
+   "repo": "Jakeschincariol/replica-skill",
+   "stars": 1391,
+   "d24": 211,
+   "est": true,
    "forks": 180,
    "contrib": null,
    "score": 78
@@ -397,7 +353,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 1349
+   "likes": 1352
   },
   {
    "name": "clef",
@@ -408,7 +364,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Coding",
-   "likes": 1943
+   "likes": 1946
   },
   {
    "name": "Kolibri-1",
@@ -419,7 +375,7 @@
    "grow": 0,
    "score": 88,
    "cat": "Infrastructure",
-   "likes": 843
+   "likes": 845
   },
   {
    "name": "Qwen-Image-2.1-Turbo",
@@ -430,7 +386,7 @@
    "grow": null,
    "score": 87,
    "cat": "Vision",
-   "likes": 296
+   "likes": 301
   },
   {
    "name": "humanizer",
@@ -441,7 +397,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 751
+   "likes": 753
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -452,7 +408,7 @@
    "grow": 0,
    "score": 85,
    "cat": "Infrastructure",
-   "likes": 3770
+   "likes": 3772
   }
  ],
  "free": [
@@ -857,31 +813,31 @@
    "kind": "News"
   },
   {
-   "t": "Physics model reveals fundamental trade-off between prediction and energy efficiency in intelligent systems",
-   "url": "https://phys.org/news/2026-10-physics-reveals-fundamental-energy-efficiency.html",
-   "at": "2026-10-09T13:30:01Z",
+   "t": "OpenAI revenue falls short, models play hopscotch and Trump cracks down on tech green cards",
+   "url": "https://siliconangle.com/2026/10/09/openai-revenue-falls-short-models-play-hopscotch-and-trump-cracks-down-on-tech-green-cards/",
+   "at": "2026-10-09T14:00:29Z",
+   "src": "SiliconANGLE News",
+   "kind": "News"
+  },
+  {
+   "t": "Canada's settlement services are going digital. AI should support workers, not replace them",
+   "url": "https://phys.org/news/2026-10-canada-settlement-digital-ai-workers.html",
+   "at": "2026-10-09T14:00:11Z",
    "src": "Phys.org",
    "kind": "News"
   },
   {
-   "t": "Halton police in Ontario uses AI in hiring, training 911 call takers",
-   "url": "https://www.baytoday.ca/ontario-news/halton-police-in-ontario-uses-ai-in-hiring-training-911-call-takers-12876860",
-   "at": "2026-10-09T13:27:08Z",
-   "src": "BayToday",
+   "t": "Three former OpenAI researchers say they were fired for raising AI safety concerns",
+   "url": "https://www.firstpost.com/tech/three-former-openai-researchers-say-they-were-fired-for-raising-ai-safety-concerns-14051784.html",
+   "at": "2026-10-09T13:58:48Z",
+   "src": "Firstpost",
    "kind": "News"
   },
   {
-   "t": "An Indian Identity, a Russian Agenda: Inside a Latin American Influence Operation",
-   "url": "https://www.indiatoday.in/india/story/openai-russian-influence-operation-india-latin-america-think-tank-mia-clark-3013442-2026-10-09",
-   "at": "2026-10-09T13:13:28Z",
-   "src": "India Today",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI GPT-6 Introduces Smarter User Interface With Interactive Tools And Improved Speed",
-   "url": "https://in.mashable.com/tech/114791/openai-gpt-6-introduces-smarter-user-interface-with-interactive-tools-and-improved-speed",
-   "at": "2026-10-09T12:55:01Z",
-   "src": "Mashable India",
+   "t": "ChatGPT-maker denies firing researchers over AI warnings",
+   "url": "https://www.cp24.com/news/world/2026/10/09/openai-denies-firing-researchers-over-ai-safety-warnings/",
+   "at": "2026-10-09T13:52:26Z",
+   "src": "CP24 Toronto",
    "kind": "News"
   }
  ],
@@ -891,8 +847,8 @@
    "t": "Typesafe AI raises $870M at $7.5B",
    "url": "https://news.ycombinator.com/item?id=50023450",
    "link": "https://typesafe.ai/blog/series-ai",
-   "up": 270,
-   "com": 206,
+   "up": 275,
+   "com": 210,
    "at": "2026-10-09T17:02:31.000Z"
   },
   {
@@ -900,8 +856,8 @@
    "t": "Show HN: Let your AI agents paint big arrows, boxes and text on your screen",
    "url": "https://news.ycombinator.com/item?id=50018817",
    "link": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
-   "up": 378,
-   "com": 165,
+   "up": 379,
+   "com": 166,
    "at": "2026-10-09T11:03:48.000Z"
   },
   {
@@ -909,8 +865,8 @@
    "t": "OpenAI fires three safety researchers for \"mishandling research information\"",
    "url": "https://news.ycombinator.com/item?id=50018350",
    "link": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
-   "up": 315,
-   "com": 202,
+   "up": 317,
+   "com": 203,
    "at": "2026-10-09T10:00:26.000Z"
   },
   {
@@ -918,7 +874,7 @@
    "t": "Germany transforms former coal mines into Europe's largest lake landscape",
    "url": "https://news.ycombinator.com/item?id=50021540",
    "link": "https://www.euronews.com/2026/04/14/almost-like-lake-como-germany-transforms-former-coal-mines-into-europes-largest-lake-lands",
-   "up": 181,
+   "up": 183,
    "com": 100,
    "at": "2026-10-09T15:05:24.000Z"
   },
@@ -927,8 +883,8 @@
    "t": "Ideas aren't getting harder to find (2022)",
    "url": "https://news.ycombinator.com/item?id=50024571",
    "link": "https://www.experimental-history.com/p/ideas-arent-getting-harder-to-find",
-   "up": 119,
-   "com": 54,
+   "up": 123,
+   "com": 55,
    "at": "2026-10-09T18:16:03.000Z"
   },
   {
