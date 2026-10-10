@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-10T03:30:52.958Z"
+  "updated": "2026-10-10T04:01:06.874Z"
  },
  "pulse": {
   "trending": 77,
   "accelerating": 0,
   "newModels": 6,
-  "discussions": 43,
-  "stars": 2499
+  "discussions": 42,
+  "stars": 2461
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 2,343",
-    "~1,223 in 24h",
+    "★ 2,376",
+    "~1,227 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -42,7 +42,7 @@
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
     "★ 1,556",
-    "+1,064 in 24h",
+    "+1,023 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -102,9 +102,9 @@
    "owner": "Qwen",
    "src": "hf",
    "cat": "Vision",
-   "score": 87,
+   "score": 88,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 311",
+   "desc": "Vision on Hugging Face · open weights · ♥ 317",
    "meta": [
     "0 downloads",
     "Released 23h ago"
@@ -120,7 +120,7 @@
    "cat": "Infrastructure",
    "score": 86,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 766",
+   "desc": "Model on Hugging Face · open source · ♥ 772",
    "meta": [
     "29K downloads",
     "Released 29 days ago"
@@ -139,7 +139,7 @@
    "desc": "Model on Hugging Face · open weights · ♥ 3.8K",
    "meta": [
     "2M downloads",
-    "Released 19 days ago"
+    "Released 20 days ago"
    ],
    "at": "2026-09-20T15:51:13.000Z",
    "breakout": null,
@@ -226,6 +226,23 @@
    "verdict": "Talk only, no public usage numbers"
   },
   {
+   "name": "ARTEX",
+   "url": "https://github.com/mhtsec/ARTEX",
+   "from": "GitHub",
+   "use": 1227,
+   "useLabel": "~1,227 stars/day",
+   "usePct": 1,
+   "talk": [
+    {
+     "src": "The Manila Times",
+     "t": "China’s Artex AI agent made closed",
+     "url": "https://www.manilatimes.net/2026/10/10/business/foreign-business/chinas-artex-ai-agent-made-closed/2442520"
+    }
+   ],
+   "buzz": 1,
+   "verdict": "The hype matches real use"
+  },
+  {
    "name": "whistle",
    "url": "https://huggingface.co/Cactus-Compute/whistle",
    "from": "Hugging Face",
@@ -241,17 +258,6 @@
    ],
    "buzz": 1,
    "verdict": "More talk than use"
-  },
-  {
-   "name": "ARTEX",
-   "url": "https://github.com/mhtsec/ARTEX",
-   "from": "GitHub",
-   "use": 1223,
-   "useLabel": "~1,223 stars/day",
-   "usePct": 1,
-   "talk": [],
-   "buzz": 0,
-   "verdict": "Used a lot, hardly talked about"
   },
   {
    "name": "Qwen3.8-27B-GGUF",
@@ -271,6 +277,17 @@
    "use": 4389072,
    "useLabel": "4.4M downloads",
    "usePct": 0.9696969696969697,
+   "talk": [],
+   "buzz": 0,
+   "verdict": "Used a lot, hardly talked about"
+  },
+  {
+   "name": "Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
+   "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
+   "from": "Hugging Face",
+   "use": 3559321,
+   "useLabel": "3.6M downloads",
+   "usePct": 0.9393939393939394,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -361,28 +378,28 @@
  "github": [
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 2343,
-   "d24": 1223,
+   "stars": 2376,
+   "d24": 1227,
    "est": true,
-   "forks": 4679,
+   "forks": 4710,
    "contrib": null,
    "score": 97
   },
   {
    "repo": "LosaLosSantos/aurelio-finance",
    "stars": 1556,
-   "d24": 1064,
+   "d24": 1023,
    "est": false,
-   "forks": 126,
+   "forks": 128,
    "contrib": null,
    "score": 93
   },
   {
    "repo": "Jakeschincariol/replica-skill",
-   "stars": 1406,
-   "d24": 212,
+   "stars": 1409,
+   "d24": 211,
    "est": true,
-   "forks": 181,
+   "forks": 182,
    "contrib": null,
    "score": 78
   }
@@ -397,7 +414,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 1365
+   "likes": 1366
   },
   {
    "name": "clef",
@@ -428,9 +445,9 @@
    "at": "2026-10-09T04:50:01.000Z",
    "dl": 0,
    "grow": null,
-   "score": 87,
+   "score": 88,
    "cat": "Vision",
-   "likes": 311
+   "likes": 317
   },
   {
    "name": "humanizer",
@@ -441,7 +458,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 766
+   "likes": 772
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -452,7 +469,7 @@
    "grow": 0,
    "score": 85,
    "cat": "Infrastructure",
-   "likes": 3781
+   "likes": 3783
   }
  ],
  "free": [
@@ -822,11 +839,46 @@
    "kind": "Video"
   },
   {
+   "t": "China’s Artex AI agent made closed",
+   "url": "https://www.manilatimes.net/2026/10/10/business/foreign-business/chinas-artex-ai-agent-made-closed/2442520",
+   "at": "2026-10-09T16:01:00Z",
+   "src": "The Manila Times",
+   "kind": "News"
+  },
+  {
+   "t": "P4: Philippine telcos move beyond connectivity",
+   "url": "https://www.manilatimes.net/2026/10/10/supplements/p4-philippine-telcos-move-beyond-connectivity/2442904",
+   "at": "2026-10-09T16:01:00Z",
+   "src": "The Manila Times",
+   "kind": "News"
+  },
+  {
+   "t": "OpenAI, Google and Meta battle for AI internet domains as crypto firms target .bitcoin and .wallet",
+   "url": "https://cryptoslate.com/openai-google-and-meta-battle-for-ai-internet-domains-as-crypto-firms-target-bitcoin-and-wallet/",
+   "at": "2026-10-09T16:00:55Z",
+   "src": "CryptoSlate",
+   "kind": "News"
+  },
+  {
    "t": "OpenAI’s Math Dump Just Exposed the AI Bubble’s Fatal Flaw",
    "url": "https://www.youtube.com/watch?v=4fJK-O3S4ko",
    "at": "2026-10-09T16:00:07Z",
    "src": "House of El: AI",
    "kind": "Video"
+  },
+  {
+   "t": "Budget covers pets and AI",
+   "url": "https://www.thestar.com.my/news/nation/2026/10/10/budget-covers-pets-and-ai",
+   "at": "2026-10-09T16:00:00Z",
+   "src": "The Star",
+   "kind": "News"
+  },
+  {
+   "t": "USA Today vs OpenAI: Key questions over ChatGPT training data, news copyright and whether publishers should be paid for their work",
+   "url": "https://economictimes.indiatimes.com/news/international/world-news/usa-today-vs-openai-key-questions-over-chatgpt-training-data-news-copyright-and-whether-publishers-should-be-paid-for-their-work/articleshow/134837314.cms",
+   "at": "2026-10-09T15:48:00Z",
+   "src": "The Economic Times",
+   "kind": "News"
   },
   {
    "t": "🚨AI AGENT Revolution | OpenAI Dots, Meta Muse, Grok & Gemini Spark & Future Jobs Explained | VR Raja",
@@ -848,41 +900,6 @@
    "at": "2026-10-09T15:28:00Z",
    "src": "POLITICO",
    "kind": "News"
-  },
-  {
-   "t": "Impactful scheduling for GPU clusters",
-   "url": "https://huggingface.co/blog/allenai/impactful-scheduling",
-   "at": "2026-10-09T15:20:29.000Z",
-   "src": "Hugging Face",
-   "kind": "Lab blog"
-  },
-  {
-   "t": "Storing AI Large Language Models behind AI on personal computers",
-   "url": "https://augustafreepress.com/news/storing-ai-large-language-models-behind-ai-on-personal-computers-better-for-the-planet/",
-   "at": "2026-10-09T15:17:11Z",
-   "src": "Augusta Free Press",
-   "kind": "News"
-  },
-  {
-   "t": "ChatGPT for Teens safety gaps, Common Sense Media finds",
-   "url": "https://www.cnbc.com/make-it/2026/10/09/chatgpt-for-teens-safety-common-sense-media.html",
-   "at": "2026-10-09T15:07:53Z",
-   "src": "CNBC",
-   "kind": "News"
-  },
-  {
-   "t": "Lost generation: the AI threat to Britain’s next great directors ",
-   "url": "https://www.theguardian.com/film/2026/oct/09/ai-threat-britain-directors-ridley-scott-guy-ritchie",
-   "at": "2026-10-09T15:00:31Z",
-   "src": "The Guardian",
-   "kind": "News"
-  },
-  {
-   "t": "Maha govt advances ‘Quantum City’ plans with London tech, investment mission",
-   "url": "https://www.lokmattimes.com/business/maha-govt-advances-quantum-city-plans-with-london-tech-investment-mission-1/",
-   "at": "2026-10-09T14:56:12Z",
-   "src": "Lokmat Times",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -891,8 +908,8 @@
    "t": "Typesafe AI raises $870M at $7.5B",
    "url": "https://news.ycombinator.com/item?id=50023450",
    "link": "https://typesafe.ai/blog/series-ai",
-   "up": 296,
-   "com": 223,
+   "up": 299,
+   "com": 226,
    "at": "2026-10-09T17:02:31.000Z"
   },
   {
@@ -900,8 +917,8 @@
    "t": "Show HN: Let your AI agents paint big arrows, boxes and text on your screen",
    "url": "https://news.ycombinator.com/item?id=50018817",
    "link": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
-   "up": 385,
-   "com": 169,
+   "up": 386,
+   "com": 170,
    "at": "2026-10-09T11:03:48.000Z"
   },
   {
@@ -909,8 +926,8 @@
    "t": "OpenAI fires three safety researchers for \"mishandling research information\"",
    "url": "https://news.ycombinator.com/item?id=50018350",
    "link": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
-   "up": 320,
-   "com": 204,
+   "up": 322,
+   "com": 205,
    "at": "2026-10-09T10:00:26.000Z"
   },
   {
@@ -918,8 +935,8 @@
    "t": "Anthropic AI model submits false tip on unsolved Philly murder",
    "url": "https://news.ycombinator.com/item?id=50027118",
    "link": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
-   "up": 89,
-   "com": 77,
+   "up": 96,
+   "com": 80,
    "at": "2026-10-09T22:00:35.000Z"
   },
   {
@@ -927,7 +944,7 @@
    "t": "Germany transforms former coal mines into Europe's largest lake landscape",
    "url": "https://news.ycombinator.com/item?id=50021540",
    "link": "https://www.euronews.com/2026/04/14/almost-like-lake-como-germany-transforms-former-coal-mines-into-europes-largest-lake-lands",
-   "up": 183,
+   "up": 184,
    "com": 102,
    "at": "2026-10-09T15:05:24.000Z"
   },
@@ -937,7 +954,7 @@
    "url": "https://news.ycombinator.com/item?id=50024571",
    "link": "https://www.experimental-history.com/p/ideas-arent-getting-harder-to-find",
    "up": 127,
-   "com": 58,
+   "com": 59,
    "at": "2026-10-09T18:16:03.000Z"
   }
  ]
