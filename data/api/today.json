@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-10T17:01:07.723Z"
+  "updated": "2026-10-10T17:30:52.309Z"
  },
  "pulse": {
   "trending": 76,
   "accelerating": 2,
-  "newModels": 8,
+  "newModels": 9,
   "discussions": 38,
-  "stars": 1498
+  "stars": 1487
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 97,
-   "grow": 34,
+   "grow": 35,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 2,862",
-    "+1,006 in 24h",
+    "★ 2,869",
+    "+988 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -37,12 +37,12 @@
    "owner": "LosaLosSantos",
    "src": "gh",
    "cat": "LLMs",
-   "score": 91,
+   "score": 92,
    "grow": null,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 1,901",
-    "~492 in 24h",
+    "★ 1,938",
+    "~499 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -88,7 +88,7 @@
    "cat": "Vision",
    "score": 89,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 414",
+   "desc": "Vision on Hugging Face · open weights · ♥ 418",
    "meta": [
     "2.1K downloads",
     "Released 2 days ago"
@@ -104,7 +104,7 @@
    "cat": "Infrastructure",
    "score": 87,
    "grow": 14,
-   "desc": "Model on Hugging Face · open source · ♥ 910",
+   "desc": "Model on Hugging Face · open source · ♥ 913",
    "meta": [
     "34K downloads",
     "Released 30 days ago"
@@ -171,7 +171,7 @@
    "grow": null,
    "desc": "Get discovered & recommended when customers ask AI",
    "meta": [
-    "▲ 306 votes",
+    "▲ 313 votes",
     "22 comments",
     "Launched 10h ago"
    ],
@@ -209,7 +209,7 @@
    "from": "Hugging Face",
    "use": 12816,
    "useLabel": "13K downloads",
-   "usePct": 0.24242424242424243,
+   "usePct": 0.2727272727272727,
    "talk": [
     {
      "src": "Lobsters",
@@ -224,8 +224,8 @@
    "name": "ARTEX",
    "url": "https://github.com/mhtsec/ARTEX",
    "from": "GitHub",
-   "use": 1006,
-   "useLabel": "+1,006 stars/day",
+   "use": 988,
+   "useLabel": "+988 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -339,21 +339,21 @@
  "github": [
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 2862,
-   "d24": 1006,
+   "stars": 2869,
+   "d24": 988,
    "est": false,
-   "forks": 5280,
+   "forks": 5287,
    "contrib": null,
    "score": 97
   },
   {
    "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 1901,
-   "d24": 492,
+   "stars": 1938,
+   "d24": 499,
    "est": true,
    "forks": 215,
    "contrib": null,
-   "score": 91
+   "score": 92
   }
  ],
  "models": [
@@ -366,7 +366,7 @@
    "grow": 56,
    "score": 90,
    "cat": "Vision",
-   "likes": 1459
+   "likes": 1465
   },
   {
    "name": "clef",
@@ -388,7 +388,7 @@
    "grow": null,
    "score": 89,
    "cat": "Vision",
-   "likes": 414
+   "likes": 418
   },
   {
    "name": "humanizer",
@@ -399,7 +399,7 @@
    "grow": 14,
    "score": 87,
    "cat": "Infrastructure",
-   "likes": 910
+   "likes": 913
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -410,7 +410,7 @@
    "grow": 4,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 3841
+   "likes": 3843
   },
   {
    "name": "Kolibri-1",
@@ -791,6 +791,13 @@
    "kind": "News"
   },
   {
+   "t": "OpenAI denies firing researchers over AI safety warnings",
+   "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-denies-firing-researchers-over-ai-safety-warnings/articleshow/134847907.cms",
+   "at": "2026-10-10T05:27:22Z",
+   "src": "The Economic Times",
+   "kind": "News"
+  },
+  {
    "t": "Sources: Anthropic's AI agents submitted 20 visa applications via a form on the US State Department website; the applications were incomplete and not processed",
    "url": "https://www.techmeme.com/261010/p3#a261010p3",
    "at": "2026-10-10T05:20:01.000Z",
@@ -845,13 +852,6 @@
    "at": "2026-10-10T03:30:01.000Z",
    "src": "Techmeme",
    "kind": "News"
-  },
-  {
-   "t": "Anthropic's AI agents go rogue: From sending a fake homicide tip to police to filling out government forms",
-   "url": "https://www.livemint.com/ai/artificial-intelligence/anthropics-ai-agents-go-rogue-from-sending-a-fake-homicide-tip-to-police-to-filling-out-government-forms-top-cases-11791599304735.html",
-   "at": "2026-10-10T02:46:55Z",
-   "src": "Livemint",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -859,7 +859,7 @@
    "src": "DEV",
    "t": "How Do We Extract the “Why” from a PR into a CHANGELOG with Jev? 🤔",
    "url": "https://dev.to/nyaomaru/how-do-we-extract-the-why-from-a-pr-into-a-changelog-with-jev-52pk",
-   "up": 28,
+   "up": 40,
    "com": 6,
    "at": "2026-10-10T15:49:58Z"
   },
@@ -868,8 +868,8 @@
    "t": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
    "url": "https://news.ycombinator.com/item?id=50031614",
    "link": "https://github.com/rociiu/talorys",
-   "up": 145,
-   "com": 77,
+   "up": 153,
+   "com": 80,
    "at": "2026-10-10T10:52:09.000Z"
   },
   {
@@ -877,35 +877,36 @@
    "t": "Telegram Desktop vulnerability allowed any user's file to be stolen",
    "url": "https://news.ycombinator.com/item?id=50029123",
    "link": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
-   "up": 318,
-   "com": 163,
+   "up": 328,
+   "com": 164,
    "at": "2026-10-10T03:02:47.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Tom Brown used GOP ties to broker a $1.25B/month SpaceX compute deal",
+   "url": "https://news.ycombinator.com/item?id=50033678",
+   "link": "https://wsj.com/tech/ai/tom-brown-athropic-669005ad",
+   "up": 47,
+   "com": 0,
+   "at": "2026-10-10T15:04:38.000Z"
   },
   {
    "src": "Hacker News",
    "t": "My personal AI agent posted my bank details on company Slack",
    "url": "https://news.ycombinator.com/item?id=50033517",
    "link": "https://www.businessinsider.com/personal-ai-agent-grok-bot-posted-bank-details-company-slack-2026-10",
-   "up": 45,
-   "com": 48,
+   "up": 47,
+   "com": 50,
    "at": "2026-10-10T14:46:16.000Z"
   },
   {
-   "src": "DEV",
-   "t": "12 of 13 AI models knew the new name and still wrote the old one",
-   "url": "https://dev.to/apples_one_cd174284bffb/12-of-13-ai-models-knew-the-new-name-and-still-wrote-the-old-one-2jla",
-   "up": 24,
-   "com": 6,
-   "at": "2026-10-10T15:38:25Z"
-  },
-  {
    "src": "Hacker News",
-   "t": "Typesafe AI raises $870M at $7.5B",
-   "url": "https://news.ycombinator.com/item?id=50023450",
-   "link": "https://typesafe.ai/blog/series-ai",
-   "up": 415,
-   "com": 334,
-   "at": "2026-10-09T17:02:31.000Z"
+   "t": "Lobbying",
+   "url": "https://news.ycombinator.com/item?id=50029630",
+   "link": "https://geohot.github.io//blog/jekyll/update/2026/10/10/lobbying.html",
+   "up": 177,
+   "com": 67,
+   "at": "2026-10-10T04:40:36.000Z"
   }
  ]
 }
