@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-10T02:01:02.448Z"
+  "updated": "2026-10-10T02:30:55.656Z"
  },
  "pulse": {
   "trending": 77,
   "accelerating": 0,
-  "newModels": 7,
+  "newModels": 6,
   "discussions": 43,
-  "stars": 2626
+  "stars": 2582
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 2,239",
-    "~1,208 in 24h",
+    "★ 2,273",
+    "~1,213 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -41,8 +41,8 @@
    "grow": 55,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 1,555",
-    "+1,207 in 24h",
+    "★ 1,556",
+    "+1,157 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -104,10 +104,10 @@
    "cat": "Vision",
    "score": 87,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 301",
+   "desc": "Vision on Hugging Face · open weights · ♥ 304",
    "meta": [
     "0 downloads",
-    "Released 21h ago"
+    "Released 22h ago"
    ],
    "at": "2026-10-09T04:50:01.000Z",
    "breakout": null,
@@ -120,7 +120,7 @@
    "cat": "Infrastructure",
    "score": 86,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 753",
+   "desc": "Model on Hugging Face · open source · ♥ 756",
    "meta": [
     "29K downloads",
     "Released 29 days ago"
@@ -155,7 +155,7 @@
    "grow": null,
    "desc": "Learning to act in unfamiliar environments requires agents to infer how the world works and revise that understanding as new evidence arrives.",
    "meta": [
-    "▲ 26 upvotes",
+    "▲ 27 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-07T20:00:00.000Z",
@@ -182,12 +182,56 @@
  "breakouts": [],
  "hype": [
   {
+   "name": "GPT-6.1",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "OpenAI blog",
+     "t": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+     "url": "https://openai.com/index/asana-browser-agent"
+    },
+    {
+     "src": "YouTube",
+     "t": "HUGE Gemini 4 Argon UPDATE, Fable 5.5 LEAKS, GPT-6.1 Ultrafast, Claude Motion, & Step 5! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=ATBnss54_t4"
+    }
+   ],
+   "buzz": 2,
+   "verdict": "Talk only, no public usage numbers"
+  },
+  {
+   "name": "Gemini 4",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "Techmeme",
+     "t": "Sources: as Google prepares to roll out its Gemini 4 Argon, staff are testing a new version internally named Carbon; one staffer says it \"feels like Opus 5.5\"",
+     "url": "https://www.techmeme.com/261009/p25#a261009p25"
+    },
+    {
+     "src": "YouTube",
+     "t": "HUGE Gemini 4 Argon UPDATE, Fable 5.5 LEAKS, GPT-6.1 Ultrafast, Claude Motion, & Step 5! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=ATBnss54_t4"
+    }
+   ],
+   "buzz": 2,
+   "verdict": "Talk only, no public usage numbers"
+  },
+  {
    "name": "whistle",
    "url": "https://huggingface.co/Cactus-Compute/whistle",
    "from": "Hugging Face",
    "use": 5558,
    "useLabel": "5.6K downloads",
-   "usePct": 0.18181818181818182,
+   "usePct": 0.15151515151515152,
    "talk": [
     {
      "src": "Lobsters",
@@ -202,8 +246,8 @@
    "name": "ARTEX",
    "url": "https://github.com/mhtsec/ARTEX",
    "from": "GitHub",
-   "use": 1208,
-   "useLabel": "~1,208 stars/day",
+   "use": 1213,
+   "useLabel": "~1,213 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -317,28 +361,28 @@
  "github": [
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 2239,
-   "d24": 1208,
+   "stars": 2273,
+   "d24": 1213,
    "est": true,
-   "forks": 4525,
+   "forks": 4578,
    "contrib": null,
    "score": 97
   },
   {
    "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 1555,
-   "d24": 1207,
+   "stars": 1556,
+   "d24": 1157,
    "est": false,
-   "forks": 122,
+   "forks": 125,
    "contrib": null,
    "score": 93
   },
   {
    "repo": "Jakeschincariol/replica-skill",
-   "stars": 1391,
-   "d24": 211,
+   "stars": 1396,
+   "d24": 212,
    "est": true,
-   "forks": 180,
+   "forks": 181,
    "contrib": null,
    "score": 78
   }
@@ -353,7 +397,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 1352
+   "likes": 1354
   },
   {
    "name": "clef",
@@ -386,7 +430,7 @@
    "grow": null,
    "score": 87,
    "cat": "Vision",
-   "likes": 301
+   "likes": 304
   },
   {
    "name": "humanizer",
@@ -397,7 +441,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 753
+   "likes": 756
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -408,7 +452,7 @@
    "grow": 0,
    "score": 85,
    "cat": "Infrastructure",
-   "likes": 3772
+   "likes": 3773
   }
  ],
  "free": [
@@ -813,31 +857,31 @@
    "kind": "News"
   },
   {
-   "t": "OpenAI revenue falls short, models play hopscotch and Trump cracks down on tech green cards",
-   "url": "https://siliconangle.com/2026/10/09/openai-revenue-falls-short-models-play-hopscotch-and-trump-cracks-down-on-tech-green-cards/",
-   "at": "2026-10-09T14:00:29Z",
-   "src": "SiliconANGLE News",
+   "t": "Dragonfly Partner Rejects “Bunker Mode” Doomism, Urges Proactive Crypto Action",
+   "url": "https://www.cryptobreaking.com/dragonfly-partner-rejects-bunker-mode/",
+   "at": "2026-10-09T14:27:13Z",
+   "src": "Crypto Breaking News",
    "kind": "News"
   },
   {
-   "t": "Canada's settlement services are going digital. AI should support workers, not replace them",
-   "url": "https://phys.org/news/2026-10-canada-settlement-digital-ai-workers.html",
-   "at": "2026-10-09T14:00:11Z",
-   "src": "Phys.org",
+   "t": "Trump’s attempt to rename AI is looking awfully artificial",
+   "url": "https://www.theverge.com/policy/1008677/trump-super-intelligence-ai-rebranding",
+   "at": "2026-10-09T14:25:43Z",
+   "src": "The Verge",
    "kind": "News"
   },
   {
-   "t": "Three former OpenAI researchers say they were fired for raising AI safety concerns",
-   "url": "https://www.firstpost.com/tech/three-former-openai-researchers-say-they-were-fired-for-raising-ai-safety-concerns-14051784.html",
-   "at": "2026-10-09T13:58:48Z",
-   "src": "Firstpost",
+   "t": "First real-world study of safety and quality of patient-facing AI in primary care",
+   "url": "https://medicalxpress.com/news/2026-10-real-world-safety-quality-patient.html",
+   "at": "2026-10-09T14:20:17Z",
+   "src": "Medical Xpress",
    "kind": "News"
   },
   {
-   "t": "ChatGPT-maker denies firing researchers over AI warnings",
-   "url": "https://www.cp24.com/news/world/2026/10/09/openai-denies-firing-researchers-over-ai-safety-warnings/",
-   "at": "2026-10-09T13:52:26Z",
-   "src": "CP24 Toronto",
+   "t": "OpenAI Fires 3 Safety Researchers Over 'Breach Of Trust'; Employees Allege Corporate Interests Took Priority Over AI Safety",
+   "url": "https://www.freepressjournal.in/tech/openai-fires-3-safety-researchers-over-breach-of-trust-employees-allege-corporate-interests-took-priority-over-ai-safety",
+   "at": "2026-10-09T14:17:08Z",
+   "src": "Free Press Journal",
    "kind": "News"
   }
  ],
@@ -847,8 +891,8 @@
    "t": "Typesafe AI raises $870M at $7.5B",
    "url": "https://news.ycombinator.com/item?id=50023450",
    "link": "https://typesafe.ai/blog/series-ai",
-   "up": 275,
-   "com": 210,
+   "up": 281,
+   "com": 216,
    "at": "2026-10-09T17:02:31.000Z"
   },
   {
@@ -856,8 +900,8 @@
    "t": "Show HN: Let your AI agents paint big arrows, boxes and text on your screen",
    "url": "https://news.ycombinator.com/item?id=50018817",
    "link": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
-   "up": 379,
-   "com": 166,
+   "up": 383,
+   "com": 169,
    "at": "2026-10-09T11:03:48.000Z"
   },
   {
@@ -865,9 +909,18 @@
    "t": "OpenAI fires three safety researchers for \"mishandling research information\"",
    "url": "https://news.ycombinator.com/item?id=50018350",
    "link": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
-   "up": 317,
+   "up": 318,
    "com": 203,
    "at": "2026-10-09T10:00:26.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Anthropic AI model submits false tip on unsolved Philly murder",
+   "url": "https://news.ycombinator.com/item?id=50027118",
+   "link": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
+   "up": 73,
+   "com": 56,
+   "at": "2026-10-09T22:00:35.000Z"
   },
   {
    "src": "Hacker News",
@@ -883,18 +936,9 @@
    "t": "Ideas aren't getting harder to find (2022)",
    "url": "https://news.ycombinator.com/item?id=50024571",
    "link": "https://www.experimental-history.com/p/ideas-arent-getting-harder-to-find",
-   "up": 123,
-   "com": 55,
+   "up": 124,
+   "com": 56,
    "at": "2026-10-09T18:16:03.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Iranian campaign planted fake articles in real U.S. publications using ChatGPT",
-   "url": "https://news.ycombinator.com/item?id=50019455",
-   "link": "https://www.washingtonpost.com/technology/2026/10/09/chatgpt-users-iran-planted-ai-generated-articles-us-news-media/",
-   "up": 180,
-   "com": 162,
-   "at": "2026-10-09T12:21:24.000Z"
   }
  ]
 }
