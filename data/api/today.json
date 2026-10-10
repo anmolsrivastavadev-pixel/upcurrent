@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-10T17:30:52.309Z"
+  "updated": "2026-10-10T18:01:05.114Z"
  },
  "pulse": {
   "trending": 76,
   "accelerating": 2,
-  "newModels": 9,
-  "discussions": 38,
-  "stars": 1487
+  "newModels": 8,
+  "discussions": 37,
+  "stars": 2239
  },
  "rising": [
   {
@@ -20,13 +20,13 @@
    "owner": "mhtsec",
    "src": "gh",
    "cat": "Agents",
-   "score": 97,
+   "score": 96,
    "grow": 35,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 2,869",
-    "+988 in 24h",
-    "Created 2 days ago"
+    "★ 2,878",
+    "+973 in 24h",
+    "Created 3 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
    "breakout": null,
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "LLMs",
    "score": 92,
-   "grow": null,
+   "grow": 21,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 1,938",
-    "~499 in 24h",
+    "★ 1,980",
+    "+1,266 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -87,8 +87,8 @@
    "src": "hf",
    "cat": "Vision",
    "score": 89,
-   "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 418",
+   "grow": 0,
+   "desc": "Vision on Hugging Face · open weights · ♥ 424",
    "meta": [
     "2.1K downloads",
     "Released 2 days ago"
@@ -104,7 +104,7 @@
    "cat": "Infrastructure",
    "score": 87,
    "grow": 14,
-   "desc": "Model on Hugging Face · open source · ♥ 913",
+   "desc": "Model on Hugging Face · open source · ♥ 920",
    "meta": [
     "34K downloads",
     "Released 30 days ago"
@@ -139,7 +139,7 @@
    "desc": "Model on Hugging Face · open source · ♥ 857",
    "meta": [
     "10K downloads",
-    "Released 8 days ago"
+    "Released 9 days ago"
    ],
    "at": "2026-10-02T05:54:02.000Z",
    "breakout": null,
@@ -171,9 +171,9 @@
    "grow": null,
    "desc": "Get discovered & recommended when customers ask AI",
    "meta": [
-    "▲ 313 votes",
+    "▲ 317 votes",
     "22 comments",
-    "Launched 10h ago"
+    "Launched 11h ago"
    ],
    "at": "2026-10-10T07:01:00Z",
    "breakout": null
@@ -182,34 +182,12 @@
  "breakouts": [],
  "hype": [
   {
-   "name": "GPT-6.1",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
-    {
-     "src": "OpenAI blog",
-     "t": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-     "url": "https://openai.com/index/asana-browser-agent"
-    },
-    {
-     "src": "YouTube",
-     "t": "HUGE Gemini 4 Argon UPDATE, Fable 5.5 LEAKS, GPT-6.1 Ultrafast, Claude Motion, & Step 5! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=ATBnss54_t4"
-    }
-   ],
-   "buzz": 2,
-   "verdict": "Talk only, no public usage numbers"
-  },
-  {
    "name": "whistle",
    "url": "https://huggingface.co/Cactus-Compute/whistle",
    "from": "Hugging Face",
    "use": 12816,
    "useLabel": "13K downloads",
-   "usePct": 0.2727272727272727,
+   "usePct": 0.24242424242424243,
    "talk": [
     {
      "src": "Lobsters",
@@ -221,11 +199,22 @@
    "verdict": "More talk than use"
   },
   {
-   "name": "ARTEX",
-   "url": "https://github.com/mhtsec/ARTEX",
+   "name": "aurelio-finance",
+   "url": "https://github.com/LosaLosSantos/aurelio-finance",
    "from": "GitHub",
-   "use": 988,
-   "useLabel": "+988 stars/day",
+   "use": 1266,
+   "useLabel": "+1,266 stars/day",
+   "usePct": 1,
+   "talk": [],
+   "buzz": 0,
+   "verdict": "Used a lot, hardly talked about"
+  },
+  {
+   "name": "Qwen-Image-2.1",
+   "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1",
+   "from": "Hugging Face",
+   "use": 8224717,
+   "useLabel": "8.2M downloads",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -237,17 +226,6 @@
    "from": "Hugging Face",
    "use": 6449020,
    "useLabel": "6.4M downloads",
-   "usePct": 1,
-   "talk": [],
-   "buzz": 0,
-   "verdict": "Used a lot, hardly talked about"
-  },
-  {
-   "name": "Ternary-Bonsai-2-27B-gguf",
-   "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
-   "from": "Hugging Face",
-   "use": 4457576,
-   "useLabel": "4.5M downloads",
    "usePct": 0.9696969696969697,
    "talk": [],
    "buzz": 0,
@@ -338,22 +316,22 @@
  ],
  "github": [
   {
-   "repo": "mhtsec/ARTEX",
-   "stars": 2869,
-   "d24": 988,
-   "est": false,
-   "forks": 5287,
-   "contrib": null,
-   "score": 97
-  },
-  {
    "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 1938,
-   "d24": 499,
-   "est": true,
+   "stars": 1980,
+   "d24": 1266,
+   "est": false,
    "forks": 215,
    "contrib": null,
    "score": 92
+  },
+  {
+   "repo": "mhtsec/ARTEX",
+   "stars": 2878,
+   "d24": 973,
+   "est": false,
+   "forks": 5295,
+   "contrib": null,
+   "score": 96
   }
  ],
  "models": [
@@ -366,7 +344,7 @@
    "grow": 56,
    "score": 90,
    "cat": "Vision",
-   "likes": 1465
+   "likes": 1471
   },
   {
    "name": "clef",
@@ -385,10 +363,10 @@
    "lic": "Open weights",
    "at": "2026-10-09T04:50:01.000Z",
    "dl": 2138,
-   "grow": null,
+   "grow": 0,
    "score": 89,
    "cat": "Vision",
-   "likes": 418
+   "likes": 424
   },
   {
    "name": "humanizer",
@@ -399,7 +377,7 @@
    "grow": 14,
    "score": 87,
    "cat": "Infrastructure",
-   "likes": 913
+   "likes": 920
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -410,7 +388,7 @@
    "grow": 4,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 3843
+   "likes": 3845
   },
   {
    "name": "Kolibri-1",
@@ -791,6 +769,13 @@
    "kind": "News"
   },
   {
+   "t": "10 Best Online Tools That Make AI-Generated Work Feel More Human in 2026",
+   "url": "https://techbullion.com/10-best-online-tools-that-make-ai-generated-work-feel-more-human-in-2026/",
+   "at": "2026-10-10T05:54:24Z",
+   "src": "TechBullion",
+   "kind": "News"
+  },
+  {
    "t": "OpenAI denies firing researchers over AI safety warnings",
    "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-denies-firing-researchers-over-ai-safety-warnings/articleshow/134847907.cms",
    "at": "2026-10-10T05:27:22Z",
@@ -845,16 +830,44 @@
    "at": "2026-10-10T04:13:56Z",
    "src": "Indiatimes",
    "kind": "News"
-  },
-  {
-   "t": "Anthropic says it is barring live internet access for internal evals until monitoring is reliable, after its agents exploited websites and bypassed restrictions",
-   "url": "https://www.techmeme.com/261009/p35#a261009p35",
-   "at": "2026-10-10T03:30:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
   }
  ],
  "discussions": [
+  {
+   "src": "Hacker News",
+   "t": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+   "url": "https://news.ycombinator.com/item?id=50031614",
+   "link": "https://github.com/rociiu/talorys",
+   "up": 161,
+   "com": 86,
+   "at": "2026-10-10T10:52:09.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Telegram Desktop vulnerability allowed any user's file to be stolen",
+   "url": "https://news.ycombinator.com/item?id=50029123",
+   "link": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
+   "up": 336,
+   "com": 169,
+   "at": "2026-10-10T03:02:47.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Tom Brown used GOP ties to broker a $1.25B/month SpaceX compute deal",
+   "url": "https://news.ycombinator.com/item?id=50033678",
+   "link": "https://wsj.com/tech/ai/tom-brown-athropic-669005ad",
+   "up": 63,
+   "com": 2,
+   "at": "2026-10-10T15:04:38.000Z"
+  },
+  {
+   "src": "DEV",
+   "t": "Sidequest: A 100% Offline Vision-Language Scavenger Hunt Where the Screen Is the Shortest Part of the Walk",
+   "url": "https://dev.to/shreyansh_agrahari_2009db/sidequest-a-100-offline-vision-language-scavenger-hunt-where-the-screen-is-the-shortest-part-of-4hna",
+   "up": 20,
+   "com": 1,
+   "at": "2026-10-10T17:35:35Z"
+  },
   {
    "src": "DEV",
    "t": "How Do We Extract the “Why” from a PR into a CHANGELOG with Jev? 🤔",
@@ -865,48 +878,12 @@
   },
   {
    "src": "Hacker News",
-   "t": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
-   "url": "https://news.ycombinator.com/item?id=50031614",
-   "link": "https://github.com/rociiu/talorys",
-   "up": 153,
-   "com": 80,
-   "at": "2026-10-10T10:52:09.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Telegram Desktop vulnerability allowed any user's file to be stolen",
-   "url": "https://news.ycombinator.com/item?id=50029123",
-   "link": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
-   "up": 328,
-   "com": 164,
-   "at": "2026-10-10T03:02:47.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Tom Brown used GOP ties to broker a $1.25B/month SpaceX compute deal",
-   "url": "https://news.ycombinator.com/item?id=50033678",
-   "link": "https://wsj.com/tech/ai/tom-brown-athropic-669005ad",
-   "up": 47,
-   "com": 0,
-   "at": "2026-10-10T15:04:38.000Z"
-  },
-  {
-   "src": "Hacker News",
    "t": "My personal AI agent posted my bank details on company Slack",
    "url": "https://news.ycombinator.com/item?id=50033517",
    "link": "https://www.businessinsider.com/personal-ai-agent-grok-bot-posted-bank-details-company-slack-2026-10",
    "up": 47,
-   "com": 50,
+   "com": 53,
    "at": "2026-10-10T14:46:16.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Lobbying",
-   "url": "https://news.ycombinator.com/item?id=50029630",
-   "link": "https://geohot.github.io//blog/jekyll/update/2026/10/10/lobbying.html",
-   "up": 177,
-   "com": 67,
-   "at": "2026-10-10T04:40:36.000Z"
   }
  ]
 }
