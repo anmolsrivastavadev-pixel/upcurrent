@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-10T15:51:08.003Z"
+  "updated": "2026-10-10T16:01:06.637Z"
  },
  "pulse": {
   "trending": 76,
   "accelerating": 2,
   "newModels": 8,
   "discussions": 41,
-  "stars": 1518
+  "stars": 1514
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 33,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 2,836",
-    "+1,040 in 24h",
+    "★ 2,840",
+    "+1,035 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -41,8 +41,8 @@
    "grow": null,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 1,826",
-    "~478 in 24h",
+    "★ 1,833",
+    "~479 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -88,7 +88,7 @@
    "cat": "Vision",
    "score": 89,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 405",
+   "desc": "Vision on Hugging Face · open weights · ♥ 406",
    "meta": [
     "2.1K downloads",
     "Released yesterday"
@@ -171,7 +171,7 @@
    "grow": null,
    "desc": "Get discovered & recommended when customers ask AI",
    "meta": [
-    "▲ 284 votes",
+    "▲ 288 votes",
     "22 comments",
     "Launched 9h ago"
    ],
@@ -181,6 +181,28 @@
  ],
  "breakouts": [],
  "hype": [
+  {
+   "name": "GPT-6.1",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "OpenAI blog",
+     "t": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+     "url": "https://openai.com/index/asana-browser-agent"
+    },
+    {
+     "src": "YouTube",
+     "t": "HUGE Gemini 4 Argon UPDATE, Fable 5.5 LEAKS, GPT-6.1 Ultrafast, Claude Motion, & Step 5! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=ATBnss54_t4"
+    }
+   ],
+   "buzz": 2,
+   "verdict": "Talk only, no public usage numbers"
+  },
   {
    "name": "whistle",
    "url": "https://huggingface.co/Cactus-Compute/whistle",
@@ -202,8 +224,8 @@
    "name": "ARTEX",
    "url": "https://github.com/mhtsec/ARTEX",
    "from": "GitHub",
-   "use": 1040,
-   "useLabel": "+1,040 stars/day",
+   "use": 1035,
+   "useLabel": "+1,035 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -317,19 +339,19 @@
  "github": [
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 2836,
-   "d24": 1040,
+   "stars": 2840,
+   "d24": 1035,
    "est": false,
-   "forks": 5256,
+   "forks": 5260,
    "contrib": null,
    "score": 97
   },
   {
    "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 1826,
-   "d24": 478,
+   "stars": 1833,
+   "d24": 479,
    "est": true,
-   "forks": 213,
+   "forks": 215,
    "contrib": null,
    "score": 91
   }
@@ -366,7 +388,7 @@
    "grow": null,
    "score": 89,
    "cat": "Vision",
-   "likes": 405
+   "likes": 406
   },
   {
    "name": "humanizer",
@@ -838,35 +860,43 @@
    "t": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
    "url": "https://news.ycombinator.com/item?id=50031614",
    "link": "https://github.com/rociiu/talorys",
-   "up": 118,
+   "up": 124,
    "com": 62,
    "at": "2026-10-10T10:52:09.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Telegram Desktop vulnerability allowed any user's file to be stolen",
-   "url": "https://news.ycombinator.com/item?id=50029123",
-   "link": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
-   "up": 292,
-   "com": 147,
-   "at": "2026-10-10T03:02:47.000Z"
   },
   {
    "src": "Hacker News",
    "t": "My personal AI agent posted my bank details on company Slack",
    "url": "https://news.ycombinator.com/item?id=50033517",
    "link": "https://www.businessinsider.com/personal-ai-agent-grok-bot-posted-bank-details-company-slack-2026-10",
-   "up": 23,
-   "com": 16,
+   "up": 29,
+   "com": 26,
    "at": "2026-10-10T14:46:16.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Telegram Desktop vulnerability allowed any user's file to be stolen",
+   "url": "https://news.ycombinator.com/item?id=50029123",
+   "link": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
+   "up": 295,
+   "com": 150,
+   "at": "2026-10-10T03:02:47.000Z"
+  },
+  {
+   "src": "DEV",
+   "t": "How Do We Extract the “Why” from a PR into a CHANGELOG with Jev? 🤔",
+   "url": "https://dev.to/nyaomaru/how-do-we-extract-the-why-from-a-pr-into-a-changelog-with-jev-52pk",
+   "up": 21,
+   "com": 3,
+   "at": "2026-10-10T15:49:58Z"
   },
   {
    "src": "Hacker News",
    "t": "Typesafe AI raises $870M at $7.5B",
    "url": "https://news.ycombinator.com/item?id=50023450",
    "link": "https://typesafe.ai/blog/series-ai",
-   "up": 410,
-   "com": 326,
+   "up": 412,
+   "com": 328,
    "at": "2026-10-09T17:02:31.000Z"
   },
   {
@@ -874,17 +904,9 @@
    "t": "Lobbying",
    "url": "https://news.ycombinator.com/item?id=50029630",
    "link": "https://geohot.github.io//blog/jekyll/update/2026/10/10/lobbying.html",
-   "up": 175,
+   "up": 176,
    "com": 67,
    "at": "2026-10-10T04:40:36.000Z"
-  },
-  {
-   "src": "DEV",
-   "t": "12 of 13 AI models knew the new name and still wrote the old one",
-   "url": "https://dev.to/apples_one_cd174284bffb/12-of-13-ai-models-knew-the-new-name-and-still-wrote-the-old-one-2jla",
-   "up": 14,
-   "com": 2,
-   "at": "2026-10-10T15:38:25Z"
   }
  ]
 }
