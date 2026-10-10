@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-10T06:01:04.895Z"
+  "updated": "2026-10-10T06:30:52.644Z"
  },
  "pulse": {
   "trending": 77,
   "accelerating": 0,
   "newModels": 6,
-  "discussions": 40,
-  "stars": 2311
+  "discussions": 41,
+  "stars": 2296
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 97,
-   "grow": 15,
+   "grow": 17,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 2,457",
-    "+1,214 in 24h",
+    "★ 2,486",
+    "+1,227 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -42,7 +42,7 @@
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
     "★ 1,556",
-    "+886 in 24h",
+    "+858 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -104,7 +104,7 @@
    "cat": "Vision",
    "score": 88,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 337",
+   "desc": "Vision on Hugging Face · open weights · ♥ 341",
    "meta": [
     "0 downloads",
     "Released yesterday"
@@ -120,7 +120,7 @@
    "cat": "Infrastructure",
    "score": 86,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 795",
+   "desc": "Model on Hugging Face · open source · ♥ 800",
    "meta": [
     "29K downloads",
     "Released 29 days ago"
@@ -204,28 +204,6 @@
    "verdict": "Talk only, no public usage numbers"
   },
   {
-   "name": "Gemini 4",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
-    {
-     "src": "Techmeme",
-     "t": "Sources: as Google prepares to roll out its Gemini 4 Argon, staff are testing a new version internally named Carbon; one staffer says it \"feels like Opus 5.5\"",
-     "url": "https://www.techmeme.com/261009/p25#a261009p25"
-    },
-    {
-     "src": "YouTube",
-     "t": "HUGE Gemini 4 Argon UPDATE, Fable 5.5 LEAKS, GPT-6.1 Ultrafast, Claude Motion, & Step 5! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=ATBnss54_t4"
-    }
-   ],
-   "buzz": 2,
-   "verdict": "Talk only, no public usage numbers"
-  },
-  {
    "name": "whistle",
    "url": "https://huggingface.co/Cactus-Compute/whistle",
    "from": "Hugging Face",
@@ -246,8 +224,8 @@
    "name": "ARTEX",
    "url": "https://github.com/mhtsec/ARTEX",
    "from": "GitHub",
-   "use": 1214,
-   "useLabel": "+1,214 stars/day",
+   "use": 1227,
+   "useLabel": "+1,227 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -361,17 +339,17 @@
  "github": [
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 2457,
-   "d24": 1214,
+   "stars": 2486,
+   "d24": 1227,
    "est": false,
-   "forks": 4805,
+   "forks": 4844,
    "contrib": null,
    "score": 97
   },
   {
    "repo": "LosaLosSantos/aurelio-finance",
    "stars": 1556,
-   "d24": 886,
+   "d24": 858,
    "est": false,
    "forks": 138,
    "contrib": null,
@@ -379,10 +357,10 @@
   },
   {
    "repo": "Jakeschincariol/replica-skill",
-   "stars": 1420,
+   "stars": 1425,
    "d24": 211,
    "est": true,
-   "forks": 184,
+   "forks": 186,
    "contrib": null,
    "score": 78
   }
@@ -397,7 +375,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 1383
+   "likes": 1388
   },
   {
    "name": "clef",
@@ -408,7 +386,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Coding",
-   "likes": 1952
+   "likes": 1953
   },
   {
    "name": "Kolibri-1",
@@ -430,7 +408,7 @@
    "grow": null,
    "score": 88,
    "cat": "Vision",
-   "likes": 337
+   "likes": 341
   },
   {
    "name": "humanizer",
@@ -441,7 +419,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 795
+   "likes": 800
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -452,7 +430,7 @@
    "grow": 0,
    "score": 85,
    "cat": "Infrastructure",
-   "likes": 3789
+   "likes": 3790
   }
  ],
  "free": [
@@ -773,6 +751,13 @@
  },
  "headlines": [
   {
+   "t": "Chip design software leader Synopsys says it is exploring partnerships with Chinese AI labs to develop AI-powered chip design tools for the Chinese market",
+   "url": "https://www.techmeme.com/261010/p6#a261010p6",
+   "at": "2026-10-10T06:15:00.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Sources: Anthropic's AI agents submitted 20 visa applications via a form on the US State Department website; the applications were incomplete and not processed",
    "url": "https://www.techmeme.com/261010/p3#a261010p3",
    "at": "2026-10-10T05:20:01.000Z",
@@ -808,17 +793,10 @@
    "kind": "News"
   },
   {
-   "t": "Sources: top execs at Anthropic, OpenAI, and others are gaming out scenarios for a public and political revolt following a catastrophic AI event",
-   "url": "https://www.techmeme.com/261009/p26#a261009p26",
-   "at": "2026-10-09T21:25:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Sources: as Google prepares to roll out its Gemini 4 Argon, staff are testing a new version internally named Carbon; one staffer says it \"feels like Opus 5.5\"",
-   "url": "https://www.techmeme.com/261009/p25#a261009p25",
-   "at": "2026-10-09T21:16:18.000Z",
-   "src": "Techmeme",
+   "t": "Crypto News: Vitalik Warns AI Could Break Wallet Security as AlphaPepe Nears $3M Ahead of October 14 Reveal",
+   "url": "https://techbullion.com/crypto-news-vitalik-warns-ai-could-break-wallet-security-as-alphapepe-nears-3m-ahead-of-october-14-reveal/",
+   "at": "2026-10-09T18:05:30Z",
+   "src": "TechBullion",
    "kind": "News"
   },
   {
@@ -891,8 +869,8 @@
    "t": "Lobbying",
    "url": "https://news.ycombinator.com/item?id=50029630",
    "link": "https://geohot.github.io//blog/jekyll/update/2026/10/10/lobbying.html",
-   "up": 150,
-   "com": 54,
+   "up": 153,
+   "com": 56,
    "at": "2026-10-10T04:40:36.000Z"
   },
   {
@@ -900,8 +878,8 @@
    "t": "Typesafe AI raises $870M at $7.5B",
    "url": "https://news.ycombinator.com/item?id=50023450",
    "link": "https://typesafe.ai/blog/series-ai",
-   "up": 328,
-   "com": 237,
+   "up": 334,
+   "com": 240,
    "at": "2026-10-09T17:02:31.000Z"
   },
   {
@@ -909,17 +887,26 @@
    "t": "Show HN: Let your AI agents paint big arrows, boxes and text on your screen",
    "url": "https://news.ycombinator.com/item?id=50018817",
    "link": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
-   "up": 391,
-   "com": 173,
+   "up": 392,
+   "com": 174,
    "at": "2026-10-09T11:03:48.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Telegram Desktop vulnerability allowed any user's file to be stolen",
+   "url": "https://news.ycombinator.com/item?id=50029123",
+   "link": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
+   "up": 60,
+   "com": 19,
+   "at": "2026-10-10T03:02:47.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Anthropic AI model submits false tip on unsolved Philly murder",
    "url": "https://news.ycombinator.com/item?id=50027118",
    "link": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
-   "up": 132,
-   "com": 101,
+   "up": 139,
+   "com": 106,
    "at": "2026-10-09T22:00:35.000Z"
   },
   {
@@ -927,18 +914,9 @@
    "t": "OpenAI fires three safety researchers for \"mishandling research information\"",
    "url": "https://news.ycombinator.com/item?id=50018350",
    "link": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
-   "up": 326,
+   "up": 327,
    "com": 207,
    "at": "2026-10-09T10:00:26.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Telegram Desktop vulnerability allowed any user's file to be stolen",
-   "url": "https://news.ycombinator.com/item?id=50029123",
-   "link": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
-   "up": 46,
-   "com": 13,
-   "at": "2026-10-10T03:02:47.000Z"
   }
  ]
 }
