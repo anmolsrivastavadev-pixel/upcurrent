@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-10T07:30:55.137Z"
+  "updated": "2026-10-10T08:01:06.080Z"
  },
  "pulse": {
   "trending": 77,
   "accelerating": 0,
   "newModels": 6,
-  "discussions": 44,
-  "stars": 2286
+  "discussions": 43,
+  "stars": 2203
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 97,
-   "grow": 20,
+   "grow": 21,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 2,551",
-    "+1,269 in 24h",
+    "★ 2,570",
+    "+1,247 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -42,7 +42,7 @@
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
     "★ 1,557",
-    "+807 in 24h",
+    "+784 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -82,29 +82,13 @@
    "url": "https://huggingface.co/Cloudflare/clef"
   },
   {
-   "name": "Kolibri-1",
-   "owner": "Aleph-Alpha",
-   "src": "hf",
-   "cat": "Infrastructure",
-   "score": 88,
-   "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 847",
-   "meta": [
-    "8.5K downloads",
-    "Released 8 days ago"
-   ],
-   "at": "2026-10-02T05:54:02.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
-  },
-  {
    "name": "Qwen-Image-2.1-Turbo",
    "owner": "Qwen",
    "src": "hf",
    "cat": "Vision",
    "score": 88,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 349",
+   "desc": "Vision on Hugging Face · open weights · ♥ 354",
    "meta": [
     "0 downloads",
     "Released yesterday"
@@ -118,9 +102,9 @@
    "owner": "jialinyyzz",
    "src": "hf",
    "cat": "Infrastructure",
-   "score": 86,
+   "score": 87,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 811",
+   "desc": "Model on Hugging Face · open source · ♥ 816",
    "meta": [
     "29K downloads",
     "Released 29 days ago"
@@ -128,6 +112,22 @@
    "at": "2026-09-11T05:00:16.000Z",
    "breakout": null,
    "url": "https://huggingface.co/jialinyyzz/humanizer"
+  },
+  {
+   "name": "Kolibri-1",
+   "owner": "Aleph-Alpha",
+   "src": "hf",
+   "cat": "Infrastructure",
+   "score": 87,
+   "grow": 0,
+   "desc": "Model on Hugging Face · open source · ♥ 847",
+   "meta": [
+    "8.5K downloads",
+    "Released 8 days ago"
+   ],
+   "at": "2026-10-02T05:54:02.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -224,8 +224,8 @@
    "name": "ARTEX",
    "url": "https://github.com/mhtsec/ARTEX",
    "from": "GitHub",
-   "use": 1269,
-   "useLabel": "+1,269 stars/day",
+   "use": 1247,
+   "useLabel": "+1,247 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -339,17 +339,17 @@
  "github": [
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 2551,
-   "d24": 1269,
+   "stars": 2570,
+   "d24": 1247,
    "est": false,
-   "forks": 4935,
+   "forks": 4965,
    "contrib": null,
    "score": 97
   },
   {
    "repo": "LosaLosSantos/aurelio-finance",
    "stars": 1557,
-   "d24": 807,
+   "d24": 784,
    "est": false,
    "forks": 138,
    "contrib": null,
@@ -357,10 +357,10 @@
   },
   {
    "repo": "Jakeschincariol/replica-skill",
-   "stars": 1433,
-   "d24": 210,
-   "est": true,
-   "forks": 189,
+   "stars": 1434,
+   "d24": 172,
+   "est": false,
+   "forks": 191,
    "contrib": null,
    "score": 78
   }
@@ -375,7 +375,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 1395
+   "likes": 1400
   },
   {
    "name": "clef",
@@ -386,18 +386,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Coding",
-   "likes": 1956
-  },
-  {
-   "name": "Kolibri-1",
-   "org": "Aleph-Alpha",
-   "lic": "Open source",
-   "at": "2026-10-02T05:54:02.000Z",
-   "dl": 8474,
-   "grow": 0,
-   "score": 88,
-   "cat": "Infrastructure",
-   "likes": 847
+   "likes": 1957
   },
   {
    "name": "Qwen-Image-2.1-Turbo",
@@ -408,7 +397,7 @@
    "grow": null,
    "score": 88,
    "cat": "Vision",
-   "likes": 349
+   "likes": 354
   },
   {
    "name": "humanizer",
@@ -417,9 +406,20 @@
    "at": "2026-09-11T05:00:16.000Z",
    "dl": 29470,
    "grow": 0,
-   "score": 86,
+   "score": 87,
    "cat": "Infrastructure",
-   "likes": 811
+   "likes": 816
+  },
+  {
+   "name": "Kolibri-1",
+   "org": "Aleph-Alpha",
+   "lic": "Open source",
+   "at": "2026-10-02T05:54:02.000Z",
+   "dl": 8474,
+   "grow": 0,
+   "score": 87,
+   "cat": "Infrastructure",
+   "likes": 847
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -430,7 +430,7 @@
    "grow": 0,
    "score": 85,
    "cat": "Infrastructure",
-   "likes": 3796
+   "likes": 3797
   }
  ],
  "free": [
@@ -807,6 +807,27 @@
    "kind": "News"
   },
   {
+   "t": "OpenAI and Anthropic Are Quietly Rehearsing for the Day After an AI Catastrophe",
+   "url": "https://decrypt.co/380621/openai-anthropic-quietly-rehearsing-ai-catastrophe",
+   "at": "2026-10-09T19:47:01Z",
+   "src": "Decrypt",
+   "kind": "News"
+  },
+  {
+   "t": "Hunterbook short Meta, says data show Muse downloads slowing",
+   "url": "https://markets.businessinsider.com/news/stocks/hunterbook-short-meta-says-data-show-muse-downloads-slowing-1036614124",
+   "at": "2026-10-09T19:40:23Z",
+   "src": "Markets Insider",
+   "kind": "News"
+  },
+  {
+   "t": "Laura Reiley on Sam Altman’s “unsatisfying” Vanity Fair interview answer.",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1008992/laura-reiley-sam-altman-chatgpt-suicide-research",
+   "at": "2026-10-09T19:36:31Z",
+   "src": "The Verge",
+   "kind": "News"
+  },
+  {
    "t": "Anthropic AI model submits false homicide tip to Philadelphia police website",
    "url": "https://www.reuters.com/world/us/anthropic-ai-model-submits-false-homicide-tip-police-website-2026-10-09/",
    "at": "2026-10-09T19:21:27Z",
@@ -840,27 +861,6 @@
    "at": "2026-10-09T18:40:10Z",
    "src": "Washington Examiner",
    "kind": "News"
-  },
-  {
-   "t": "Anthropic’s artificial intelligence gave a false homicide tip to Philly police, authorites say",
-   "url": "https://www.inquirer.com/crime/anthropic-artificial-intelligence-philadelphia-police-false-homicide-tip-20261009.html",
-   "at": "2026-10-09T18:37:35Z",
-   "src": "The Philadelphia Inquirer",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI fires 3 safety researchers in dispute over AI risks",
-   "url": "https://globalnews.ca/news/12097342/openai-fires-safety-researchers-risks/",
-   "at": "2026-10-09T18:33:01Z",
-   "src": "Global News",
-   "kind": "News"
-  },
-  {
-   "t": "Crypto News: Vitalik Warns AI Could Break Wallet Security as AlphaPepe Nears $3M Ahead of October 14 Reveal",
-   "url": "https://techbullion.com/crypto-news-vitalik-warns-ai-could-break-wallet-security-as-alphapepe-nears-3m-ahead-of-october-14-reveal/",
-   "at": "2026-10-09T18:05:30Z",
-   "src": "TechBullion",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -869,8 +869,8 @@
    "t": "Lobbying",
    "url": "https://news.ycombinator.com/item?id=50029630",
    "link": "https://geohot.github.io//blog/jekyll/update/2026/10/10/lobbying.html",
-   "up": 160,
-   "com": 61,
+   "up": 162,
+   "com": 62,
    "at": "2026-10-10T04:40:36.000Z"
   },
   {
@@ -878,8 +878,8 @@
    "t": "Typesafe AI raises $870M at $7.5B",
    "url": "https://news.ycombinator.com/item?id=50023450",
    "link": "https://typesafe.ai/blog/series-ai",
-   "up": 346,
-   "com": 251,
+   "up": 352,
+   "com": 259,
    "at": "2026-10-09T17:02:31.000Z"
   },
   {
@@ -887,8 +887,8 @@
    "t": "Telegram Desktop vulnerability allowed any user's file to be stolen",
    "url": "https://news.ycombinator.com/item?id=50029123",
    "link": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
-   "up": 91,
-   "com": 43,
+   "up": 108,
+   "com": 46,
    "at": "2026-10-10T03:02:47.000Z"
   },
   {
@@ -896,17 +896,17 @@
    "t": "Show HN: Let your AI agents paint big arrows, boxes and text on your screen",
    "url": "https://news.ycombinator.com/item?id=50018817",
    "link": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
-   "up": 394,
+   "up": 395,
    "com": 175,
    "at": "2026-10-09T11:03:48.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Anthropic AI model submits false tip on unsolved Philly murder",
+   "t": "Anthropic AI model submits false tip on unsolved Philly murder, police say",
    "url": "https://news.ycombinator.com/item?id=50027118",
    "link": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
    "up": 154,
-   "com": 115,
+   "com": 114,
    "at": "2026-10-09T22:00:35.000Z"
   },
   {
