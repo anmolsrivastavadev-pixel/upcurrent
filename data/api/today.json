@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-11T16:30:53.227Z"
+  "updated": "2026-10-11T17:01:04.330Z"
  },
  "pulse": {
   "trending": 77,
   "accelerating": 2,
   "newModels": 7,
-  "discussions": 45,
-  "stars": 1612
+  "discussions": 43,
+  "stars": 1647
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 3,106",
-    "~899 in 24h",
+    "★ 3,110",
+    "~894 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -41,8 +41,8 @@
    "grow": null,
    "desc": "A Claude Code skill that turns a technical idea into a detailed, interactive isometric figure of a real machine. It makes SVG with optional WebGL shaders and 3D, for docs, articles and landing pages.",
    "meta": [
-    "★ 2,032",
-    "~623 in 24h",
+    "★ 2,158",
+    "~657 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -56,10 +56,10 @@
    "cat": "Vision",
    "score": 91,
    "grow": 120,
-   "desc": "Vision on Hugging Face · open weights · ♥ 514",
+   "desc": "Vision on Hugging Face · open weights · ♥ 516",
    "meta": [
     "4.7K downloads",
-    "Released 2 days ago"
+    "Released 3 days ago"
    ],
    "at": "2026-10-09T04:50:01.000Z",
    "breakout": null,
@@ -90,8 +90,8 @@
    "grow": 2,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 2,128",
-    "+90 in 24h",
+    "★ 2,132",
+    "+96 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -108,7 +108,7 @@
    "desc": "Model on Hugging Face · open source · ♥ 1K",
    "meta": [
     "38K downloads",
-    "Released 30 days ago"
+    "Released 31 days ago"
    ],
    "at": "2026-09-11T05:00:16.000Z",
    "breakout": null,
@@ -137,7 +137,7 @@
    "cat": "Infrastructure",
    "score": 86,
    "grow": 4,
-   "desc": "Model on Hugging Face · open weights · ♥ 3.9K",
+   "desc": "Model on Hugging Face · open weights · ♥ 4K",
    "meta": [
     "2.2M downloads",
     "Released 21 days ago"
@@ -200,11 +200,28 @@
    "verdict": "More talk than use"
   },
   {
+   "name": "Qwen3.8-Flash-Next",
+   "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+   "from": "Hugging Face",
+   "use": 1870465,
+   "useLabel": "1.9M downloads",
+   "usePct": 0.7878787878787878,
+   "talk": [
+    {
+     "src": "Github.com",
+     "t": "Show HN: LoRA over GGUF – Train Qwen3.8-Flash-Next in 40G VRAM",
+     "url": "https://github.com/woct0rdho/transformers5-qwen3.5-recipe"
+    }
+   ],
+   "buzz": 1,
+   "verdict": "The hype matches real use"
+  },
+  {
    "name": "ARTEX",
    "url": "https://github.com/mhtsec/ARTEX",
    "from": "GitHub",
-   "use": 899,
-   "useLabel": "~899 stars/day",
+   "use": 894,
+   "useLabel": "~894 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -318,28 +335,28 @@
  "github": [
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 3106,
-   "d24": 899,
+   "stars": 3110,
+   "d24": 894,
    "est": true,
-   "forks": 5530,
+   "forks": 5533,
    "contrib": null,
    "score": 95
   },
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 2032,
-   "d24": 623,
+   "stars": 2158,
+   "d24": 657,
    "est": true,
-   "forks": 158,
+   "forks": 163,
    "contrib": null,
    "score": 94
   },
   {
    "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 2128,
-   "d24": 90,
+   "stars": 2132,
+   "d24": 96,
    "est": false,
-   "forks": 227,
+   "forks": 231,
    "contrib": null,
    "score": 89
   }
@@ -354,7 +371,7 @@
    "grow": 120,
    "score": 91,
    "cat": "Vision",
-   "likes": 514
+   "likes": 516
   },
   {
    "name": "embeddinggemma-2",
@@ -365,7 +382,7 @@
    "grow": 117,
    "score": 90,
    "cat": "Vision",
-   "likes": 1636
+   "likes": 1639
   },
   {
    "name": "humanizer",
@@ -376,7 +393,7 @@
    "grow": 12,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1023
+   "likes": 1027
   },
   {
    "name": "clef",
@@ -398,7 +415,7 @@
    "grow": 4,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 3948
+   "likes": 3950
   },
   {
    "name": "Underdog-Saluki-27B-1.0",
@@ -773,6 +790,13 @@
    "kind": "News"
   },
   {
+   "t": "Nadella calls for AI emergency brake, warns firms against trusting advanced models blindly",
+   "url": "https://www.lokmattimes.com/business/nadella-calls-for-ai-emergency-brake-warns-firms-against-trusting-advanced-models-blindly/",
+   "at": "2026-10-11T04:58:47Z",
+   "src": "Lokmat Times",
+   "kind": "News"
+  },
+  {
    "t": "Chưa thấy ai ăn kiểu này",
    "url": "https://www.youtube.com/watch?v=Mx-ZZaVfkjg",
    "at": "2026-10-11T04:00:01Z",
@@ -834,13 +858,6 @@
    "at": "2026-10-10T23:00:00Z",
    "src": "Malay Mail",
    "kind": "News"
-  },
-  {
-   "t": "White House demands transparency after Anthropic’s AI agents called in a false Philly homicide tip and applied for visas",
-   "url": "https://www.spokesman.com/stories/2026/oct/10/white-house-demands-transparency-after-anthropics-/",
-   "at": "2026-10-10T21:30:00Z",
-   "src": "Spokane Spokesman-Review",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -849,8 +866,8 @@
    "t": "Terence Tao: Math 2.0 [pdf]",
    "url": "https://news.ycombinator.com/item?id=50043026",
    "link": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
-   "up": 118,
-   "com": 152,
+   "up": 127,
+   "com": 160,
    "at": "2026-10-11T13:16:45.000Z"
   },
   {
@@ -858,7 +875,7 @@
    "t": "Show HN: WallHop – 12ft.io is gone, so I built a replacement",
    "url": "https://news.ycombinator.com/item?id=50038634",
    "link": "https://wallhop.io/",
-   "up": 263,
+   "up": 264,
    "com": 114,
    "at": "2026-10-11T00:46:48.000Z"
   },
@@ -867,9 +884,18 @@
    "t": "AI is creating a 'human premium' for art created by people",
    "url": "https://news.ycombinator.com/item?id=50042107",
    "link": "https://www.bbc.com/news/articles/c5vgjm3gk7rzo",
-   "up": 63,
-   "com": 79,
+   "up": 66,
+   "com": 80,
    "at": "2026-10-11T11:34:28.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Using AI for Just 10 Minutes Erodes Your Ability to Persist at Hard Things",
+   "url": "https://news.ycombinator.com/item?id=50041765",
+   "link": "https://vcresearch.berkeley.edu/news/using-ai-just-10-minutes-erodes-your-ability-persist-hard-things",
+   "up": 57,
+   "com": 67,
+   "at": "2026-10-11T10:47:21.000Z"
   },
   {
    "src": "Hacker News",
@@ -877,26 +903,17 @@
    "url": "https://news.ycombinator.com/item?id=50042370",
    "link": "https://phys.org/news/2024-02-scandinavia-farmers-slaughtered-hunter-population.html",
    "up": 44,
-   "com": 60,
+   "com": 61,
    "at": "2026-10-11T12:07:22.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Using AI for Just 10 Minutes Erodes Your Ability to Persist at Hard Things",
-   "url": "https://news.ycombinator.com/item?id=50041765",
-   "link": "https://vcresearch.berkeley.edu/news/using-ai-just-10-minutes-erodes-your-ability-persist-hard-things",
-   "up": 56,
-   "com": 65,
-   "at": "2026-10-11T10:47:21.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "500B Tokens Later: Letting AI Agents Decompile a First-Person Shooter",
-   "url": "https://news.ycombinator.com/item?id=50039092",
-   "link": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
-   "up": 121,
-   "com": 88,
-   "at": "2026-10-11T02:02:38.000Z"
+   "t": "Nicolas Cage says he won't work with Amazon again over AI dispute",
+   "url": "https://news.ycombinator.com/item?id=50041873",
+   "link": "https://www.latimes.com/entertainment-arts/business/story/2026-10-10/nicolas-cage-says-he-wont-work-with-amazon-again-over-ai-dispute",
+   "up": 51,
+   "com": 14,
+   "at": "2026-10-11T11:03:21.000Z"
   }
  ]
 }
