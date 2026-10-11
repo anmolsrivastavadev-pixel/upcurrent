@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-11T13:01:04.745Z"
+  "updated": "2026-10-11T13:30:57.823Z"
  },
  "pulse": {
   "trending": 77,
   "accelerating": 1,
   "newModels": 7,
-  "discussions": 42,
-  "stars": 1089
+  "discussions": 43,
+  "stars": 1114
  },
  "rising": [
   {
@@ -24,13 +24,30 @@
    "grow": 6,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 3,063",
-    "+240 in 24h",
+    "★ 3,067",
+    "+239 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
    "breakout": null,
    "url": "https://github.com/mhtsec/ARTEX"
+  },
+  {
+   "name": "anatomy",
+   "owner": "wheresryan22",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 91,
+   "grow": null,
+   "desc": "A Claude Code skill that turns a technical idea into a detailed, interactive isometric figure of a real machine. It makes SVG with optional WebGL shaders and 3D, for docs, articles and landing pages.",
+   "meta": [
+    "★ 1,345",
+    "~429 in 24h",
+    "Created 3 days ago"
+   ],
+   "at": "2026-10-08T10:12:49Z",
+   "breakout": null,
+   "url": "https://github.com/wheresryan22/anatomy"
   },
   {
    "name": "Qwen-Image-2.1-Turbo",
@@ -39,7 +56,7 @@
    "cat": "Vision",
    "score": 91,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 496",
+   "desc": "Vision on Hugging Face · open weights · ♥ 499",
    "meta": [
     "4.7K downloads",
     "Released 2 days ago"
@@ -57,30 +74,13 @@
    "grow": null,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 2,102",
-    "~447 in 24h",
+    "★ 2,103",
+    "~446 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
    "breakout": null,
    "url": "https://github.com/LosaLosSantos/aurelio-finance"
-  },
-  {
-   "name": "anatomy",
-   "owner": "wheresryan22",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 90,
-   "grow": null,
-   "desc": "A Claude Code skill that turns a technical idea into a detailed, interactive isometric figure of a real machine. It makes SVG with optional WebGL shaders and 3D, for docs, articles and landing pages.",
-   "meta": [
-    "★ 1,254",
-    "~402 in 24h",
-    "Created 3 days ago"
-   ],
-   "at": "2026-10-08T10:12:49Z",
-   "breakout": null,
-   "url": "https://github.com/wheresryan22/anatomy"
   },
   {
    "name": "embeddinggemma-2",
@@ -153,7 +153,7 @@
    "cat": "Agents",
    "score": 85,
    "grow": 84,
-   "desc": "Model on Hugging Face · open source · ♥ 302",
+   "desc": "Model on Hugging Face · open source · ♥ 303",
    "meta": [
     "109K downloads",
     "Released 3 days ago"
@@ -202,8 +202,8 @@
    "name": "aurelio-finance",
    "url": "https://github.com/LosaLosSantos/aurelio-finance",
    "from": "GitHub",
-   "use": 447,
-   "useLabel": "~447 stars/day",
+   "use": 446,
+   "useLabel": "~446 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -317,8 +317,8 @@
  "github": [
   {
    "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 2102,
-   "d24": 447,
+   "stars": 2103,
+   "d24": 446,
    "est": true,
    "forks": 215,
    "contrib": null,
@@ -326,19 +326,19 @@
   },
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 1254,
-   "d24": 402,
+   "stars": 1345,
+   "d24": 429,
    "est": true,
-   "forks": 103,
+   "forks": 106,
    "contrib": null,
-   "score": 90
+   "score": 91
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 3063,
-   "d24": 240,
+   "stars": 3067,
+   "d24": 239,
    "est": false,
-   "forks": 5490,
+   "forks": 5496,
    "contrib": null,
    "score": 96
   }
@@ -353,7 +353,7 @@
    "grow": null,
    "score": 91,
    "cat": "Vision",
-   "likes": 496
+   "likes": 499
   },
   {
    "name": "embeddinggemma-2",
@@ -364,7 +364,7 @@
    "grow": 117,
    "score": 90,
    "cat": "Vision",
-   "likes": 1601
+   "likes": 1607
   },
   {
    "name": "humanizer",
@@ -375,7 +375,7 @@
    "grow": 12,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1008
+   "likes": 1011
   },
   {
    "name": "clef",
@@ -397,7 +397,7 @@
    "grow": 4,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 3930
+   "likes": 3933
   },
   {
    "name": "Underdog-Saluki-27B-1.0",
@@ -409,7 +409,7 @@
    "grow": 84,
    "score": 85,
    "cat": "Agents",
-   "likes": 302
+   "likes": 303
   }
  ],
  "free": [
@@ -730,6 +730,13 @@
  },
  "headlines": [
   {
+   "t": "PitchBook: robotics and physical AI companies have raised ~$48B YTD, as they gather training data from people completing tasks in factories, offices, and homes",
+   "url": "https://www.techmeme.com/261011/p6#a261011p6",
+   "at": "2026-10-11T13:00:51.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "US’s Reagan-era economic promises return as Trump’s AI-fueled growth fantasy",
    "url": "https://www.theguardian.com/business/2026/oct/11/trump-ai-economy-reagan",
    "at": "2026-10-11T11:00:25Z",
@@ -833,13 +840,6 @@
    "at": "2026-10-10T19:08:43.000Z",
    "src": "Techmeme",
    "kind": "News"
-  },
-  {
-   "t": "I connected my local LLM to Gmail, Calendar, and Home Assistant, and it finally became useful",
-   "url": "https://www.xda-developers.com/connected-local-llm-gmail-calendar-home-assistant-finally-became-useful/",
-   "at": "2026-10-10T18:00:18Z",
-   "src": "XDA Developers",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -848,17 +848,26 @@
    "t": "AI is creating a 'human premium' for art created by people",
    "url": "https://news.ycombinator.com/item?id=50042107",
    "link": "https://www.bbc.com/news/articles/c5vgjm3gk7rzo",
-   "up": 46,
-   "com": 51,
+   "up": 47,
+   "com": 60,
    "at": "2026-10-11T11:34:28.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Scandinavia's first farmers slaughtered hunter-gatherer population, DNA suggests",
+   "url": "https://news.ycombinator.com/item?id=50042370",
+   "link": "https://phys.org/news/2024-02-scandinavia-farmers-slaughtered-hunter-population.html",
+   "up": 30,
+   "com": 21,
+   "at": "2026-10-11T12:07:22.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Show HN: WallHop – 12ft.io is gone, so I built a replacement",
    "url": "https://news.ycombinator.com/item?id=50038634",
    "link": "https://wallhop.io/",
-   "up": 256,
-   "com": 109,
+   "up": 258,
+   "com": 112,
    "at": "2026-10-11T00:46:48.000Z"
   },
   {
@@ -866,8 +875,8 @@
    "t": "Using AI for Just 10 Minutes Erodes Your Ability to Persist at Hard Things",
    "url": "https://news.ycombinator.com/item?id=50041765",
    "link": "https://vcresearch.berkeley.edu/news/using-ai-just-10-minutes-erodes-your-ability-persist-hard-things",
-   "up": 44,
-   "com": 55,
+   "up": 46,
+   "com": 56,
    "at": "2026-10-11T10:47:21.000Z"
   },
   {
@@ -875,8 +884,8 @@
    "t": "500B Tokens Later: Letting AI Agents Decompile a First-Person Shooter",
    "url": "https://news.ycombinator.com/item?id=50039092",
    "link": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
-   "up": 111,
-   "com": 82,
+   "up": 116,
+   "com": 83,
    "at": "2026-10-11T02:02:38.000Z"
   },
   {
@@ -884,18 +893,9 @@
    "t": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
    "url": "https://news.ycombinator.com/item?id=50035886",
    "link": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
-   "up": 168,
+   "up": 169,
    "com": 107,
    "at": "2026-10-10T18:48:35.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "PSPi 6 – Raspberry Pi in a PSP",
-   "url": "https://news.ycombinator.com/item?id=50038623",
-   "link": "https://github.com/othermod/PSPi-Version-6",
-   "up": 109,
-   "com": 10,
-   "at": "2026-10-11T00:45:49.000Z"
   }
  ]
 }
