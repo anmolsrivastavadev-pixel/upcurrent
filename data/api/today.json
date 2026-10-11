@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-11T12:30:53.714Z"
+  "updated": "2026-10-11T13:01:04.745Z"
  },
  "pulse": {
   "trending": 77,
   "accelerating": 1,
   "newModels": 7,
   "discussions": 42,
-  "stars": 1067
+  "stars": 1089
  },
  "rising": [
   {
@@ -24,13 +24,29 @@
    "grow": 6,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 3,057",
-    "+239 in 24h",
+    "★ 3,063",
+    "+240 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
    "breakout": null,
    "url": "https://github.com/mhtsec/ARTEX"
+  },
+  {
+   "name": "Qwen-Image-2.1-Turbo",
+   "owner": "Qwen",
+   "src": "hf",
+   "cat": "Vision",
+   "score": 91,
+   "grow": null,
+   "desc": "Vision on Hugging Face · open weights · ♥ 496",
+   "meta": [
+    "4.7K downloads",
+    "Released 2 days ago"
+   ],
+   "at": "2026-10-09T04:50:01.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo"
   },
   {
    "name": "aurelio-finance",
@@ -41,8 +57,8 @@
    "grow": null,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 2,100",
-    "~449 in 24h",
+    "★ 2,102",
+    "~447 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -58,8 +74,8 @@
    "grow": null,
    "desc": "A Claude Code skill that turns a technical idea into a detailed, interactive isometric figure of a real machine. It makes SVG with optional WebGL shaders and 3D, for docs, articles and landing pages.",
    "meta": [
-    "★ 1,173",
-    "~379 in 24h",
+    "★ 1,254",
+    "~402 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -81,22 +97,6 @@
    "at": "2026-09-14T14:53:42.000Z",
    "breakout": null,
    "url": "https://huggingface.co/google/embeddinggemma-2"
-  },
-  {
-   "name": "Qwen-Image-2.1-Turbo",
-   "owner": "Qwen",
-   "src": "hf",
-   "cat": "Vision",
-   "score": 90,
-   "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 491",
-   "meta": [
-    "4.7K downloads",
-    "Released 2 days ago"
-   ],
-   "at": "2026-10-09T04:50:01.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo"
   },
   {
    "name": "humanizer",
@@ -147,20 +147,20 @@
    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF"
   },
   {
-   "name": "Kolibri-1",
-   "owner": "Aleph-Alpha",
+   "name": "Underdog-Saluki-27B-1.0",
+   "owner": "ConwayResearch",
    "src": "hf",
-   "cat": "Infrastructure",
+   "cat": "Agents",
    "score": 85,
-   "grow": 20,
-   "desc": "Model on Hugging Face · open source · ♥ 879",
+   "grow": 84,
+   "desc": "Model on Hugging Face · open source · ♥ 302",
    "meta": [
-    "13K downloads",
-    "Released 9 days ago"
+    "109K downloads",
+    "Released 3 days ago"
    ],
-   "at": "2026-10-02T05:54:02.000Z",
+   "at": "2026-10-08T01:47:26.000Z",
    "breakout": null,
-   "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+   "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0"
   },
   {
    "name": "Memento 3: Model-Based Recursive Self-Improvement through Reflective Rulebooks",
@@ -202,8 +202,8 @@
    "name": "aurelio-finance",
    "url": "https://github.com/LosaLosSantos/aurelio-finance",
    "from": "GitHub",
-   "use": 449,
-   "useLabel": "~449 stars/day",
+   "use": 447,
+   "useLabel": "~447 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -317,8 +317,8 @@
  "github": [
   {
    "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 2100,
-   "d24": 449,
+   "stars": 2102,
+   "d24": 447,
    "est": true,
    "forks": 215,
    "contrib": null,
@@ -326,24 +326,35 @@
   },
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 1173,
-   "d24": 379,
+   "stars": 1254,
+   "d24": 402,
    "est": true,
-   "forks": 97,
+   "forks": 103,
    "contrib": null,
    "score": 90
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 3057,
-   "d24": 239,
+   "stars": 3063,
+   "d24": 240,
    "est": false,
-   "forks": 5483,
+   "forks": 5490,
    "contrib": null,
    "score": 96
   }
  ],
  "models": [
+  {
+   "name": "Qwen-Image-2.1-Turbo",
+   "org": "Qwen",
+   "lic": "Open weights",
+   "at": "2026-10-09T04:50:01.000Z",
+   "dl": 4702,
+   "grow": null,
+   "score": 91,
+   "cat": "Vision",
+   "likes": 496
+  },
   {
    "name": "embeddinggemma-2",
    "org": "google",
@@ -353,18 +364,7 @@
    "grow": 117,
    "score": 90,
    "cat": "Vision",
-   "likes": 1598
-  },
-  {
-   "name": "Qwen-Image-2.1-Turbo",
-   "org": "Qwen",
-   "lic": "Open weights",
-   "at": "2026-10-09T04:50:01.000Z",
-   "dl": 4702,
-   "grow": null,
-   "score": 90,
-   "cat": "Vision",
-   "likes": 491
+   "likes": 1601
   },
   {
    "name": "humanizer",
@@ -375,7 +375,7 @@
    "grow": 12,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1006
+   "likes": 1008
   },
   {
    "name": "clef",
@@ -397,18 +397,19 @@
    "grow": 4,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 3928
+   "likes": 3930
   },
   {
-   "name": "Kolibri-1",
-   "org": "Aleph-Alpha",
+   "name": "Underdog-Saluki-27B-1.0",
+   "org": "ConwayResearch",
+   "size": "27B",
    "lic": "Open source",
-   "at": "2026-10-02T05:54:02.000Z",
-   "dl": 12550,
-   "grow": 20,
+   "at": "2026-10-08T01:47:26.000Z",
+   "dl": 108900,
+   "grow": 84,
    "score": 85,
-   "cat": "Infrastructure",
-   "likes": 879
+   "cat": "Agents",
+   "likes": 302
   }
  ],
  "free": [
@@ -847,18 +848,9 @@
    "t": "AI is creating a 'human premium' for art created by people",
    "url": "https://news.ycombinator.com/item?id=50042107",
    "link": "https://www.bbc.com/news/articles/c5vgjm3gk7rzo",
-   "up": 31,
-   "com": 22,
+   "up": 46,
+   "com": 51,
    "at": "2026-10-11T11:34:28.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Using AI for Just 10 Minutes Erodes Your Ability to Persist at Hard Things",
-   "url": "https://news.ycombinator.com/item?id=50041765",
-   "link": "https://vcresearch.berkeley.edu/news/using-ai-just-10-minutes-erodes-your-ability-persist-hard-things",
-   "up": 41,
-   "com": 53,
-   "at": "2026-10-11T10:47:21.000Z"
   },
   {
    "src": "Hacker News",
@@ -866,16 +858,25 @@
    "url": "https://news.ycombinator.com/item?id=50038634",
    "link": "https://wallhop.io/",
    "up": 256,
-   "com": 105,
+   "com": 109,
    "at": "2026-10-11T00:46:48.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Using AI for Just 10 Minutes Erodes Your Ability to Persist at Hard Things",
+   "url": "https://news.ycombinator.com/item?id=50041765",
+   "link": "https://vcresearch.berkeley.edu/news/using-ai-just-10-minutes-erodes-your-ability-persist-hard-things",
+   "up": 44,
+   "com": 55,
+   "at": "2026-10-11T10:47:21.000Z"
   },
   {
    "src": "Hacker News",
    "t": "500B Tokens Later: Letting AI Agents Decompile a First-Person Shooter",
    "url": "https://news.ycombinator.com/item?id=50039092",
    "link": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
-   "up": 109,
-   "com": 79,
+   "up": 111,
+   "com": 82,
    "at": "2026-10-11T02:02:38.000Z"
   },
   {
@@ -883,17 +884,18 @@
    "t": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
    "url": "https://news.ycombinator.com/item?id=50035886",
    "link": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
-   "up": 166,
-   "com": 106,
+   "up": 168,
+   "com": 107,
    "at": "2026-10-10T18:48:35.000Z"
   },
   {
-   "src": "DEV",
-   "t": "Every Skill in This Open Source Agent Framework Could Literally Be a Startup",
-   "url": "https://dev.to/rinrinrinrin/every-skill-in-this-open-source-agent-framework-could-literally-be-a-startup-30lc",
-   "up": 15,
-   "com": 7,
-   "at": "2026-10-11T10:54:20Z"
+   "src": "Hacker News",
+   "t": "PSPi 6 – Raspberry Pi in a PSP",
+   "url": "https://news.ycombinator.com/item?id=50038623",
+   "link": "https://github.com/othermod/PSPi-Version-6",
+   "up": 109,
+   "com": 10,
+   "at": "2026-10-11T00:45:49.000Z"
   }
  ]
 }
