@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-11T11:30:51.880Z"
+  "updated": "2026-10-11T12:01:03.759Z"
  },
  "pulse": {
   "trending": 77,
   "accelerating": 1,
   "newModels": 7,
-  "discussions": 43,
-  "stars": 1021
+  "discussions": 36,
+  "stars": 1051
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 96,
-   "grow": 5,
+   "grow": 6,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 3,044",
-    "+234 in 24h",
+    "★ 3,055",
+    "+243 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -42,7 +42,7 @@
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
     "★ 2,100",
-    "~453 in 24h",
+    "~451 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -72,7 +72,7 @@
    "cat": "Vision",
    "score": 90,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 489",
+   "desc": "Vision on Hugging Face · open weights · ♥ 490",
    "meta": [
     "4.7K downloads",
     "Released 2 days ago"
@@ -98,6 +98,23 @@
    "url": "https://huggingface.co/jialinyyzz/humanizer"
   },
   {
+   "name": "anatomy",
+   "owner": "wheresryan22",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 88,
+   "grow": null,
+   "desc": "A Claude Code skill that turns a technical idea into a detailed, interactive isometric figure of a real machine. It makes SVG with optional WebGL shaders and 3D, for docs, articles and landing pages.",
+   "meta": [
+    "★ 1,098",
+    "~357 in 24h",
+    "Created 3 days ago"
+   ],
+   "at": "2026-10-08T10:12:49Z",
+   "breakout": null,
+   "url": "https://github.com/wheresryan22/anatomy"
+  },
+  {
    "name": "clef",
    "owner": "Cloudflare",
    "src": "hf",
@@ -112,23 +129,6 @@
    "at": "2026-09-30T21:15:35.000Z",
    "breakout": null,
    "url": "https://huggingface.co/Cloudflare/clef"
-  },
-  {
-   "name": "anatomy",
-   "owner": "wheresryan22",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 86,
-   "grow": null,
-   "desc": "A Claude Code skill that turns a technical idea into a detailed, interactive isometric figure of a real machine. It makes SVG with optional WebGL shaders and 3D, for docs, articles and landing pages.",
-   "meta": [
-    "★ 1,020",
-    "~334 in 24h",
-    "Created 3 days ago"
-   ],
-   "at": "2026-10-08T10:12:49Z",
-   "breakout": null,
-   "url": "https://github.com/wheresryan22/anatomy"
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -202,8 +202,8 @@
    "name": "aurelio-finance",
    "url": "https://github.com/LosaLosSantos/aurelio-finance",
    "from": "GitHub",
-   "use": 453,
-   "useLabel": "~453 stars/day",
+   "use": 451,
+   "useLabel": "~451 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -318,7 +318,7 @@
   {
    "repo": "LosaLosSantos/aurelio-finance",
    "stars": 2100,
-   "d24": 453,
+   "d24": 451,
    "est": true,
    "forks": 215,
    "contrib": null,
@@ -326,19 +326,19 @@
   },
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 1020,
-   "d24": 334,
+   "stars": 1098,
+   "d24": 357,
    "est": true,
-   "forks": 90,
+   "forks": 94,
    "contrib": null,
-   "score": 86
+   "score": 88
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 3044,
-   "d24": 234,
+   "stars": 3055,
+   "d24": 243,
    "est": false,
-   "forks": 5474,
+   "forks": 5481,
    "contrib": null,
    "score": 96
   }
@@ -353,7 +353,7 @@
    "grow": 117,
    "score": 90,
    "cat": "Vision",
-   "likes": 1592
+   "likes": 1595
   },
   {
    "name": "Qwen-Image-2.1-Turbo",
@@ -364,7 +364,7 @@
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 489
+   "likes": 490
   },
   {
    "name": "humanizer",
@@ -375,7 +375,7 @@
    "grow": 12,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1004
+   "likes": 1006
   },
   {
    "name": "clef",
@@ -397,7 +397,7 @@
    "grow": 4,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 3924
+   "likes": 3926
   },
   {
    "name": "Kolibri-1",
@@ -750,6 +750,13 @@
    "kind": "News"
   },
   {
+   "t": "Do AI Labs Like Anthropic and OpenAI Have Economic Moats?",
+   "url": "https://www.morningstar.com/stocks/do-ai-labs-like-anthropic-openai-have-economic-moats",
+   "at": "2026-10-11T00:00:00Z",
+   "src": "Morningstar",
+   "kind": "News"
+  },
+  {
    "t": "Nuclear war and malicious use of AI threaten end of humanity by 2100, says Lancet assessment",
    "url": "https://www.theguardian.com/global-development/2026/oct/11/nuclear-war-and-malicious-use-of-ai-threaten-end-of-humanity-by-2100-says-lancet-assessment",
    "at": "2026-10-10T23:01:09Z",
@@ -832,13 +839,6 @@
    "at": "2026-10-10T18:00:18Z",
    "src": "XDA Developers",
    "kind": "News"
-  },
-  {
-   "t": "In Silicon Valley, AI founders cheer Trump’s calls for the industry to police itself on safety",
-   "url": "https://www.courant.com/2026/10/10/in-silicon-valley-ai-founders-cheer-trumps-calls-for-the-industry-to-police-itself-on-safety/",
-   "at": "2026-10-10T17:37:25Z",
-   "src": "Hartford Courant",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -847,18 +847,9 @@
    "t": "Using AI for Just 10 Minutes Erodes Your Ability to Persist at Hard Things",
    "url": "https://news.ycombinator.com/item?id=50041765",
    "link": "https://vcresearch.berkeley.edu/news/using-ai-just-10-minutes-erodes-your-ability-persist-hard-things",
-   "up": 25,
-   "com": 25,
+   "up": 36,
+   "com": 50,
    "at": "2026-10-11T10:47:21.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Show HN: WallHop – 12ft.io is gone, so I built a replacement",
-   "url": "https://news.ycombinator.com/item?id=50038634",
-   "link": "https://wallhop.io/",
-   "up": 251,
-   "com": 104,
-   "at": "2026-10-11T00:46:48.000Z"
   },
   {
    "src": "DEV",
@@ -873,8 +864,8 @@
    "t": "500B Tokens Later: Letting AI Agents Decompile a First-Person Shooter",
    "url": "https://news.ycombinator.com/item?id=50039092",
    "link": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
-   "up": 104,
-   "com": 75,
+   "up": 107,
+   "com": 78,
    "at": "2026-10-11T02:02:38.000Z"
   },
   {
@@ -888,12 +879,21 @@
   },
   {
    "src": "Hacker News",
-   "t": "PSPi 6 – Raspberry Pi in a PSP",
-   "url": "https://news.ycombinator.com/item?id=50038623",
-   "link": "https://github.com/othermod/PSPi-Version-6",
-   "up": 98,
-   "com": 9,
-   "at": "2026-10-11T00:45:49.000Z"
+   "t": "Tom Brown used GOP ties to broker a $1.25B/month SpaceX compute deal",
+   "url": "https://news.ycombinator.com/item?id=50033678",
+   "link": "https://wsj.com/tech/ai/tom-brown-athropic-669005ad",
+   "up": 134,
+   "com": 52,
+   "at": "2026-10-10T15:04:38.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "AI agents in a stand-up call",
+   "url": "https://news.ycombinator.com/item?id=50039630",
+   "link": "https://atoll92.github.io/agent-standup/",
+   "up": 44,
+   "com": 44,
+   "at": "2026-10-11T03:42:47.000Z"
   }
  ]
 }
