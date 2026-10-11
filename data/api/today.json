@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-11T09:01:06.918Z"
+  "updated": "2026-10-11T09:30:54.886Z"
  },
  "pulse": {
   "trending": 76,
-  "accelerating": 0,
+  "accelerating": 1,
   "newModels": 8,
-  "discussions": 44,
-  "stars": 699
+  "discussions": 46,
+  "stars": 708
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 5,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 3,021",
-    "+236 in 24h",
+    "★ 3,032",
+    "+247 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -37,12 +37,12 @@
    "owner": "LosaLosSantos",
    "src": "gh",
    "cat": "LLMs",
-   "score": 91,
+   "score": 90,
    "grow": null,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 2,098",
-    "~463 in 24h",
+    "★ 2,099",
+    "~461 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -58,7 +58,7 @@
    "grow": null,
    "desc": "Vision on Hugging Face · open source · ♥ 1.6K",
    "meta": [
-    "46K downloads",
+    "99K downloads",
     "Released 27 days ago"
    ],
    "at": "2026-09-14T14:53:42.000Z",
@@ -72,9 +72,9 @@
    "cat": "Vision",
    "score": 90,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 481",
+   "desc": "Vision on Hugging Face · open weights · ♥ 484",
    "meta": [
-    "2.1K downloads",
+    "4.7K downloads",
     "Released 2 days ago"
    ],
    "at": "2026-10-09T04:50:01.000Z",
@@ -88,9 +88,9 @@
    "cat": "Infrastructure",
    "score": 89,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 991",
+   "desc": "Model on Hugging Face · open source · ♥ 996",
    "meta": [
-    "34K downloads",
+    "38K downloads",
     "Released 30 days ago"
    ],
    "at": "2026-09-11T05:00:16.000Z",
@@ -107,7 +107,7 @@
    "desc": "Model on Hugging Face · open source · ♥ 2K",
    "meta": [
     "14K downloads",
-    "Released 10 days ago"
+    "Released 11 days ago"
    ],
    "at": "2026-09-30T21:15:35.000Z",
    "breakout": null,
@@ -122,7 +122,7 @@
    "grow": null,
    "desc": "Model on Hugging Face · open weights · ♥ 3.9K",
    "meta": [
-    "2.1M downloads",
+    "2.2M downloads",
     "Released 21 days ago"
    ],
    "at": "2026-09-20T15:51:13.000Z",
@@ -138,7 +138,7 @@
    "grow": null,
    "desc": "Model on Hugging Face · open source · ♥ 876",
    "meta": [
-    "10K downloads",
+    "13K downloads",
     "Released 9 days ago"
    ],
    "at": "2026-10-02T05:54:02.000Z",
@@ -171,7 +171,7 @@
    "grow": null,
    "desc": "Get discovered & recommended when customers ask AI",
    "meta": [
-    "▲ 442 votes",
+    "▲ 444 votes",
     "34 comments",
     "Launched yesterday"
    ],
@@ -185,8 +185,8 @@
    "name": "whistle",
    "url": "https://huggingface.co/Cactus-Compute/whistle",
    "from": "Hugging Face",
-   "use": 12816,
-   "useLabel": "13K downloads",
+   "use": 16434,
+   "useLabel": "16K downloads",
    "usePct": 0.24242424242424243,
    "talk": [
     {
@@ -202,8 +202,8 @@
    "name": "aurelio-finance",
    "url": "https://github.com/LosaLosSantos/aurelio-finance",
    "from": "GitHub",
-   "use": 463,
-   "useLabel": "~463 stars/day",
+   "use": 461,
+   "useLabel": "~461 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -213,8 +213,8 @@
    "name": "Qwen-Image-2.1",
    "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1",
    "from": "Hugging Face",
-   "use": 8224717,
-   "useLabel": "8.2M downloads",
+   "use": 8674298,
+   "useLabel": "8.7M downloads",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -224,8 +224,8 @@
    "name": "Qwen3.8-27B-GGUF",
    "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
    "from": "Hugging Face",
-   "use": 6449020,
-   "useLabel": "6.4M downloads",
+   "use": 6488262,
+   "useLabel": "6.5M downloads",
    "usePct": 0.9696969696969697,
    "talk": [],
    "buzz": 0,
@@ -233,6 +233,36 @@
   }
  ],
  "receipts": [
+  {
+   "name": "LiquidAI/d1-3B",
+   "url": "https://huggingface.co/LiquidAI/d1-3B",
+   "kind": "downloads",
+   "first": "2026-10-08T07:01:05.036Z",
+   "firstV": 15,
+   "m": 10000,
+   "at": "2026-10-11T09:30:54.886Z",
+   "lead": 74.49718055555556
+  },
+  {
+   "name": "ConwayResearch/Underdog-Saluki-27B-1.0",
+   "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0",
+   "kind": "downloads",
+   "first": "2026-10-09T02:01:04.068Z",
+   "firstV": 142,
+   "m": 100000,
+   "at": "2026-10-11T09:30:54.886Z",
+   "lead": 55.49744944444444
+  },
+  {
+   "name": "AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
+   "url": "https://huggingface.co/AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
+   "kind": "downloads",
+   "first": "2026-10-10T14:30:51.236Z",
+   "firstV": 7314,
+   "m": 100000,
+   "at": "2026-10-11T09:30:54.886Z",
+   "lead": 19.001013888888888
+  },
   {
    "name": "JohnHeibel/ClaudeAnimationBase",
    "url": "https://github.com/JohnHeibel/ClaudeAnimationBase",
@@ -282,54 +312,24 @@
    "m": 2500,
    "at": "2026-10-10T09:01:08.994Z",
    "lead": 207.2178825
-  },
-  {
-   "name": "mhtsec/ARTEX",
-   "url": "https://github.com/mhtsec/ARTEX",
-   "kind": "stars",
-   "first": "2026-10-09T03:30:51.352Z",
-   "firstV": 969,
-   "m": 2500,
-   "at": "2026-10-10T07:01:04.209Z",
-   "lead": 27.50357138888889
-  },
-  {
-   "name": "glanderness/BeefTV",
-   "url": "https://github.com/glanderness/BeefTV",
-   "kind": "stars",
-   "first": "2026-10-02T18:30:51.846Z",
-   "firstV": 744,
-   "m": 1000,
-   "at": "2026-10-10T00:01:08.118Z",
-   "lead": 173.50452
-  },
-  {
-   "name": "QingYunA/answer-me-with-html",
-   "url": "https://github.com/QingYunA/answer-me-with-html",
-   "kind": "stars",
-   "first": "2026-10-04T13:30:48.499Z",
-   "firstV": 803,
-   "m": 2500,
-   "at": "2026-10-09T23:30:51.626Z",
-   "lead": 130.00086861111112
   }
  ],
  "github": [
   {
    "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 2098,
-   "d24": 463,
+   "stars": 2099,
+   "d24": 461,
    "est": true,
    "forks": 215,
    "contrib": null,
-   "score": 91
+   "score": 90
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 3021,
-   "d24": 236,
+   "stars": 3032,
+   "d24": 247,
    "est": false,
-   "forks": 5443,
+   "forks": 5455,
    "contrib": null,
    "score": 96
   }
@@ -340,40 +340,40 @@
    "org": "google",
    "lic": "Open source",
    "at": "2026-09-14T14:53:42.000Z",
-   "dl": 45605,
+   "dl": 98829,
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 1560
+   "likes": 1573
   },
   {
    "name": "Qwen-Image-2.1-Turbo",
    "org": "Qwen",
    "lic": "Open weights",
    "at": "2026-10-09T04:50:01.000Z",
-   "dl": 2138,
+   "dl": 4702,
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 481
+   "likes": 484
   },
   {
    "name": "humanizer",
    "org": "jialinyyzz",
    "lic": "Open source",
    "at": "2026-09-11T05:00:16.000Z",
-   "dl": 33664,
+   "dl": 37647,
    "grow": null,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 991
+   "likes": 996
   },
   {
    "name": "clef",
    "org": "Cloudflare",
    "lic": "Open source",
    "at": "2026-09-30T21:15:35.000Z",
-   "dl": 13579,
+   "dl": 14351,
    "grow": null,
    "score": 87,
    "cat": "Coding",
@@ -384,18 +384,18 @@
    "org": "abenzerps",
    "lic": "Open weights",
    "at": "2026-09-20T15:51:13.000Z",
-   "dl": 2096562,
+   "dl": 2188658,
    "grow": null,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 3910
+   "likes": 3915
   },
   {
    "name": "Kolibri-1",
    "org": "Aleph-Alpha",
    "lic": "Open source",
    "at": "2026-10-02T05:54:02.000Z",
-   "dl": 10496,
+   "dl": 12550,
    "grow": null,
    "score": 85,
    "cat": "Infrastructure",
@@ -741,6 +741,20 @@
    "kind": "News"
   },
   {
+   "t": "White House demands transparency after Anthropic’s AI agents called in a false Philly homicide tip and applied for visas",
+   "url": "https://www.spokesman.com/stories/2026/oct/10/white-house-demands-transparency-after-anthropics-/",
+   "at": "2026-10-10T21:30:00Z",
+   "src": "Spokane Spokesman-Review",
+   "kind": "News"
+  },
+  {
+   "t": "Anthropic's Claude AI submits false tip on crime website",
+   "url": "https://www.latimes.com/world-nation/story/2026-10-10/anthropics-claude-ai-submits-false-tip-on-crime-website",
+   "at": "2026-10-10T21:06:37Z",
+   "src": "Los Angeles Times",
+   "kind": "News"
+  },
+  {
    "t": "8 seriously annoying tasks you can hand off to an AI agent",
    "url": "https://www.foxnews.com/tech/8-annoying-tasks-hand-off-ai-agent",
    "at": "2026-10-10T20:37:52Z",
@@ -790,6 +804,13 @@
    "kind": "News"
   },
   {
+   "t": "‘A CHILLING EFFECT’: How OpenAI’s massive math breakthrough is ‘DESTROYING’ early careers",
+   "url": "https://www.youtube.com/watch?v=a65dI2AYL3o",
+   "at": "2026-10-10T18:30:52Z",
+   "src": "MS NOW",
+   "kind": "Video"
+  },
+  {
    "t": "I connected my local LLM to Gmail, Calendar, and Home Assistant, and it finally became useful",
    "url": "https://www.xda-developers.com/connected-local-llm-gmail-calendar-home-assistant-finally-became-useful/",
    "at": "2026-10-10T18:00:18Z",
@@ -809,27 +830,6 @@
    "at": "2026-10-10T17:25:28Z",
    "src": "Livemint",
    "kind": "News"
-  },
-  {
-   "t": "AI founders cheer Trump's self-policing safety calls",
-   "url": "https://www.bnnbloomberg.ca/business/artificial-intelligence/2026/10/10/in-silicon-valley-ai-founders-cheer-trumps-calls-for-the-industry-to-police-itself-on-safety/",
-   "at": "2026-10-10T17:18:48Z",
-   "src": "Bnn Bloomberg",
-   "kind": "News"
-  },
-  {
-   "t": "AI Chip Stocks Fall After Report on OpenAI Revenue Shortfall",
-   "url": "https://www.naturalnews.com/2026-10-10-chip-stocks-fall-after-openai-revenue-shortfall.html",
-   "at": "2026-10-10T17:00:05Z",
-   "src": "Natural News",
-   "kind": "News"
-  },
-  {
-   "t": "A look at a 1,700-member Slack run by Medicare agency CMS where Microsoft, OpenAI, and other companies help shape policy on AI apps and medical records access",
-   "url": "https://www.techmeme.com/261010/p14#a261010p14",
-   "at": "2026-10-10T16:50:11.000Z",
-   "src": "Techmeme",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -838,8 +838,8 @@
    "t": "Show HN: WallHop – 12ft.io is gone, so I built a replacement",
    "url": "https://news.ycombinator.com/item?id=50038634",
    "link": "https://wallhop.io/",
-   "up": 244,
-   "com": 98,
+   "up": 246,
+   "com": 102,
    "at": "2026-10-11T00:46:48.000Z"
   },
   {
@@ -847,7 +847,7 @@
    "t": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
    "url": "https://news.ycombinator.com/item?id=50031614",
    "link": "https://github.com/rociiu/talorys",
-   "up": 289,
+   "up": 292,
    "com": 133,
    "at": "2026-10-10T10:52:09.000Z"
   },
@@ -856,8 +856,8 @@
    "t": "500B Tokens Later: Letting AI Agents Decompile a First-Person Shooter",
    "url": "https://news.ycombinator.com/item?id=50039092",
    "link": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
-   "up": 89,
-   "com": 67,
+   "up": 91,
+   "com": 70,
    "at": "2026-10-11T02:02:38.000Z"
   },
   {
@@ -874,18 +874,18 @@
    "t": "PSPi 6 – Raspberry Pi in a PSP",
    "url": "https://news.ycombinator.com/item?id=50038623",
    "link": "https://github.com/othermod/PSPi-Version-6",
-   "up": 79,
+   "up": 85,
    "com": 7,
    "at": "2026-10-11T00:45:49.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "AI agents in a stand-up call",
-   "url": "https://news.ycombinator.com/item?id=50039630",
-   "link": "https://atoll92.github.io/agent-standup/",
-   "up": 40,
-   "com": 41,
-   "at": "2026-10-11T03:42:47.000Z"
+   "t": "Tom Brown used GOP ties to broker a $1.25B/month SpaceX compute deal",
+   "url": "https://news.ycombinator.com/item?id=50033678",
+   "link": "https://wsj.com/tech/ai/tom-brown-athropic-669005ad",
+   "up": 134,
+   "com": 52,
+   "at": "2026-10-10T15:04:38.000Z"
   }
  ]
 }
