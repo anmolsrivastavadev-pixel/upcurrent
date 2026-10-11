@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-11T11:01:06.650Z"
+  "updated": "2026-10-11T11:30:51.880Z"
  },
  "pulse": {
-  "trending": 76,
+  "trending": 77,
   "accelerating": 1,
   "newModels": 7,
-  "discussions": 41,
-  "stars": 692
+  "discussions": 43,
+  "stars": 1021
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 5,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 3,041",
-    "+237 in 24h",
+    "★ 3,044",
+    "+234 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -42,7 +42,7 @@
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
     "★ 2,100",
-    "~455 in 24h",
+    "~453 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -114,6 +114,23 @@
    "url": "https://huggingface.co/Cloudflare/clef"
   },
   {
+   "name": "anatomy",
+   "owner": "wheresryan22",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 86,
+   "grow": null,
+   "desc": "A Claude Code skill that turns a technical idea into a detailed, interactive isometric figure of a real machine. It makes SVG with optional WebGL shaders and 3D, for docs, articles and landing pages.",
+   "meta": [
+    "★ 1,020",
+    "~334 in 24h",
+    "Created 3 days ago"
+   ],
+   "at": "2026-10-08T10:12:49Z",
+   "breakout": null,
+   "url": "https://github.com/wheresryan22/anatomy"
+  },
+  {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
    "owner": "abenzerps",
    "src": "hf",
@@ -136,7 +153,7 @@
    "cat": "Infrastructure",
    "score": 85,
    "grow": 20,
-   "desc": "Model on Hugging Face · open source · ♥ 878",
+   "desc": "Model on Hugging Face · open source · ♥ 879",
    "meta": [
     "13K downloads",
     "Released 9 days ago"
@@ -159,23 +176,6 @@
     "Hugging Face Papers"
    ],
    "at": "2026-10-07T20:00:00.000Z",
-   "breakout": null
-  },
-  {
-   "name": "ReSO AI",
-   "owner": "Product Hunt",
-   "src": "ph",
-   "url": "https://www.producthunt.com/products/reso?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29",
-   "cat": "Tools",
-   "score": 85,
-   "grow": null,
-   "desc": "Get discovered & recommended when customers ask AI",
-   "meta": [
-    "▲ 452 votes",
-    "34 comments",
-    "Launched yesterday"
-   ],
-   "at": "2026-10-10T07:01:00Z",
    "breakout": null
   }
  ],
@@ -202,8 +202,8 @@
    "name": "aurelio-finance",
    "url": "https://github.com/LosaLosSantos/aurelio-finance",
    "from": "GitHub",
-   "use": 455,
-   "useLabel": "~455 stars/day",
+   "use": 453,
+   "useLabel": "~453 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -318,18 +318,27 @@
   {
    "repo": "LosaLosSantos/aurelio-finance",
    "stars": 2100,
-   "d24": 455,
+   "d24": 453,
    "est": true,
    "forks": 215,
    "contrib": null,
    "score": 90
   },
   {
+   "repo": "wheresryan22/anatomy",
+   "stars": 1020,
+   "d24": 334,
+   "est": true,
+   "forks": 90,
+   "contrib": null,
+   "score": 86
+  },
+  {
    "repo": "mhtsec/ARTEX",
-   "stars": 3041,
-   "d24": 237,
+   "stars": 3044,
+   "d24": 234,
    "est": false,
-   "forks": 5470,
+   "forks": 5474,
    "contrib": null,
    "score": 96
   }
@@ -344,7 +353,7 @@
    "grow": 117,
    "score": 90,
    "cat": "Vision",
-   "likes": 1589
+   "likes": 1592
   },
   {
    "name": "Qwen-Image-2.1-Turbo",
@@ -366,7 +375,7 @@
    "grow": 12,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1001
+   "likes": 1004
   },
   {
    "name": "clef",
@@ -377,7 +386,7 @@
    "grow": 6,
    "score": 87,
    "cat": "Coding",
-   "likes": 2011
+   "likes": 2010
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -399,7 +408,7 @@
    "grow": 20,
    "score": 85,
    "cat": "Infrastructure",
-   "likes": 878
+   "likes": 879
   }
  ],
  "free": [
@@ -720,6 +729,13 @@
  },
  "headlines": [
   {
+   "t": "US’s Reagan-era economic promises return as Trump’s AI-fueled growth fantasy",
+   "url": "https://www.theguardian.com/business/2026/oct/11/trump-ai-economy-reagan",
+   "at": "2026-10-11T11:00:25Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
    "t": "Rein Security, which develops runtime tools to secure enterprise AI agents and stop adversarial AI agents, raised a $25M Series A, taking total funding to $35M",
    "url": "https://www.techmeme.com/261011/p4#a261011p4",
    "at": "2026-10-11T05:50:01.000Z",
@@ -811,13 +827,6 @@
    "kind": "News"
   },
   {
-   "t": "‘A CHILLING EFFECT’: How OpenAI’s massive math breakthrough is ‘DESTROYING’ early careers",
-   "url": "https://www.youtube.com/watch?v=a65dI2AYL3o",
-   "at": "2026-10-10T18:30:52Z",
-   "src": "MS NOW",
-   "kind": "Video"
-  },
-  {
    "t": "I connected my local LLM to Gmail, Calendar, and Home Assistant, and it finally became useful",
    "url": "https://www.xda-developers.com/connected-local-llm-gmail-calendar-home-assistant-finally-became-useful/",
    "at": "2026-10-10T18:00:18Z",
@@ -835,19 +844,36 @@
  "discussions": [
   {
    "src": "Hacker News",
+   "t": "Using AI for Just 10 Minutes Erodes Your Ability to Persist at Hard Things",
+   "url": "https://news.ycombinator.com/item?id=50041765",
+   "link": "https://vcresearch.berkeley.edu/news/using-ai-just-10-minutes-erodes-your-ability-persist-hard-things",
+   "up": 25,
+   "com": 25,
+   "at": "2026-10-11T10:47:21.000Z"
+  },
+  {
+   "src": "Hacker News",
    "t": "Show HN: WallHop – 12ft.io is gone, so I built a replacement",
    "url": "https://news.ycombinator.com/item?id=50038634",
    "link": "https://wallhop.io/",
-   "up": 249,
-   "com": 103,
+   "up": 251,
+   "com": 104,
    "at": "2026-10-11T00:46:48.000Z"
+  },
+  {
+   "src": "DEV",
+   "t": "Every Skill in This Open Source Agent Framework Could Literally Be a Startup",
+   "url": "https://dev.to/rinrinrinrin/every-skill-in-this-open-source-agent-framework-could-literally-be-a-startup-30lc",
+   "up": 15,
+   "com": 7,
+   "at": "2026-10-11T10:54:20Z"
   },
   {
    "src": "Hacker News",
    "t": "500B Tokens Later: Letting AI Agents Decompile a First-Person Shooter",
    "url": "https://news.ycombinator.com/item?id=50039092",
    "link": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
-   "up": 100,
+   "up": 104,
    "com": 75,
    "at": "2026-10-11T02:02:38.000Z"
   },
@@ -856,7 +882,7 @@
    "t": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
    "url": "https://news.ycombinator.com/item?id=50035886",
    "link": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
-   "up": 163,
+   "up": 165,
    "com": 105,
    "at": "2026-10-10T18:48:35.000Z"
   },
@@ -865,27 +891,9 @@
    "t": "PSPi 6 – Raspberry Pi in a PSP",
    "url": "https://news.ycombinator.com/item?id=50038623",
    "link": "https://github.com/othermod/PSPi-Version-6",
-   "up": 94,
+   "up": 98,
    "com": 9,
    "at": "2026-10-11T00:45:49.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Tom Brown used GOP ties to broker a $1.25B/month SpaceX compute deal",
-   "url": "https://news.ycombinator.com/item?id=50033678",
-   "link": "https://wsj.com/tech/ai/tom-brown-athropic-669005ad",
-   "up": 134,
-   "com": 52,
-   "at": "2026-10-10T15:04:38.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "AI agents in a stand-up call",
-   "url": "https://news.ycombinator.com/item?id=50039630",
-   "link": "https://atoll92.github.io/agent-standup/",
-   "up": 44,
-   "com": 42,
-   "at": "2026-10-11T03:42:47.000Z"
   }
  ]
 }
