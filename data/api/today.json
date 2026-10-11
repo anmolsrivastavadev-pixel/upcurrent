@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-11T17:01:04.330Z"
+  "updated": "2026-10-11T17:30:52.925Z"
  },
  "pulse": {
   "trending": 77,
-  "accelerating": 2,
+  "accelerating": 3,
   "newModels": 7,
   "discussions": 43,
-  "stars": 1647
+  "stars": 5936
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 3,110",
-    "~894 in 24h",
+    "★ 3,116",
+    "~891 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 94,
-   "grow": null,
+   "grow": 121,
    "desc": "A Claude Code skill that turns a technical idea into a detailed, interactive isometric figure of a real machine. It makes SVG with optional WebGL shaders and 3D, for docs, articles and landing pages.",
    "meta": [
-    "★ 2,158",
-    "~657 in 24h",
+    "★ 2,256",
+    "+4,944 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -56,7 +56,7 @@
    "cat": "Vision",
    "score": 91,
    "grow": 120,
-   "desc": "Vision on Hugging Face · open weights · ♥ 516",
+   "desc": "Vision on Hugging Face · open weights · ♥ 518",
    "meta": [
     "4.7K downloads",
     "Released 3 days ago"
@@ -90,8 +90,8 @@
    "grow": 2,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 2,132",
-    "+96 in 24h",
+    "★ 2,136",
+    "+101 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -172,7 +172,7 @@
    "grow": null,
    "desc": "Get discovered & recommended when customers ask AI",
    "meta": [
-    "▲ 460 votes",
+    "▲ 462 votes",
     "37 comments",
     "Launched yesterday"
    ],
@@ -200,28 +200,11 @@
    "verdict": "More talk than use"
   },
   {
-   "name": "Qwen3.8-Flash-Next",
-   "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
-   "from": "Hugging Face",
-   "use": 1870465,
-   "useLabel": "1.9M downloads",
-   "usePct": 0.7878787878787878,
-   "talk": [
-    {
-     "src": "Github.com",
-     "t": "Show HN: LoRA over GGUF – Train Qwen3.8-Flash-Next in 40G VRAM",
-     "url": "https://github.com/woct0rdho/transformers5-qwen3.5-recipe"
-    }
-   ],
-   "buzz": 1,
-   "verdict": "The hype matches real use"
-  },
-  {
-   "name": "ARTEX",
-   "url": "https://github.com/mhtsec/ARTEX",
+   "name": "anatomy",
+   "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 894,
-   "useLabel": "~894 stars/day",
+   "use": 4944,
+   "useLabel": "+4,944 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -334,29 +317,29 @@
  ],
  "github": [
   {
-   "repo": "mhtsec/ARTEX",
-   "stars": 3110,
-   "d24": 894,
-   "est": true,
-   "forks": 5533,
-   "contrib": null,
-   "score": 95
-  },
-  {
    "repo": "wheresryan22/anatomy",
-   "stars": 2158,
-   "d24": 657,
-   "est": true,
-   "forks": 163,
+   "stars": 2256,
+   "d24": 4944,
+   "est": false,
+   "forks": 172,
    "contrib": null,
    "score": 94
   },
   {
+   "repo": "mhtsec/ARTEX",
+   "stars": 3116,
+   "d24": 891,
+   "est": true,
+   "forks": 5536,
+   "contrib": null,
+   "score": 95
+  },
+  {
    "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 2132,
-   "d24": 96,
+   "stars": 2136,
+   "d24": 101,
    "est": false,
-   "forks": 231,
+   "forks": 234,
    "contrib": null,
    "score": 89
   }
@@ -371,7 +354,7 @@
    "grow": 120,
    "score": 91,
    "cat": "Vision",
-   "likes": 516
+   "likes": 518
   },
   {
    "name": "embeddinggemma-2",
@@ -382,7 +365,7 @@
    "grow": 117,
    "score": 90,
    "cat": "Vision",
-   "likes": 1639
+   "likes": 1644
   },
   {
    "name": "humanizer",
@@ -393,7 +376,7 @@
    "grow": 12,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1027
+   "likes": 1032
   },
   {
    "name": "clef",
@@ -404,7 +387,7 @@
    "grow": 6,
    "score": 87,
    "cat": "Coding",
-   "likes": 2016
+   "likes": 2017
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -415,7 +398,7 @@
    "grow": 4,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 3950
+   "likes": 3952
   },
   {
    "name": "Underdog-Saluki-27B-1.0",
@@ -769,17 +752,31 @@
    "kind": "News"
   },
   {
-   "t": "China AI ACHIEVED RSI? GLM 5.5, NEW Fable 5.5 Checkpoint, Qwen4, Kimi K3.1, M3.1 Pro & More! AI NEWS",
-   "url": "https://www.youtube.com/watch?v=0EwN9bb157M",
-   "at": "2026-10-11T07:45:11Z",
-   "src": "WorldofAI",
-   "kind": "Video"
-  },
-  {
    "t": "Rein Security, which develops runtime tools to secure enterprise AI agents and stop adversarial AI agents, raised a $25M Series A, taking total funding to $35M",
    "url": "https://www.techmeme.com/261011/p4#a261011p4",
    "at": "2026-10-11T05:50:01.000Z",
    "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "track AI strategy casts uncertainty over sovereign model project",
+   "url": "https://www.koreatimes.co.kr/business/tech-science/20261011/cover-story-koreas-2-track-ai-strategy-casts-uncertainty-over-sovereign-model-project",
+   "at": "2026-10-11T05:30:04Z",
+   "src": "The Korea Times",
+   "kind": "News"
+  },
+  {
+   "t": "Based Hacker to Hit South Korean Banks, CrowdStrike Report Says – NaturalNews.com",
+   "url": "https://www.naturalnews.com/2026-10-11-china-hacker-used-ai-hit-south-korean-banks.html",
+   "at": "2026-10-11T05:30:03Z",
+   "src": "Natural News",
+   "kind": "News"
+  },
+  {
+   "t": "Retired Air Force Colonel Warns Data Centers Could Put Nearby Residents at Risk",
+   "url": "https://www.naturalnews.com/2026-10-11-retired-air-force-colonel-data-centers-risk.html",
+   "at": "2026-10-11T05:20:04Z",
+   "src": "Natural News",
    "kind": "News"
   },
   {
@@ -844,30 +841,24 @@
    "at": "2026-10-11T00:00:00Z",
    "src": "Morningstar",
    "kind": "News"
-  },
-  {
-   "t": "Nuclear war and malicious use of AI threaten end of humanity by 2100, says Lancet assessment",
-   "url": "https://www.theguardian.com/global-development/2026/oct/11/nuclear-war-and-malicious-use-of-ai-threaten-end-of-humanity-by-2100-says-lancet-assessment",
-   "at": "2026-10-10T23:01:09Z",
-   "src": "The Guardian",
-   "kind": "News"
-  },
-  {
-   "t": "The next label on your book might say a human wrote it",
-   "url": "https://www.malaymail.com/news/life/2026/10/11/the-next-label-on-your-book-might-say-a-human-wrote-it/238534",
-   "at": "2026-10-10T23:00:00Z",
-   "src": "Malay Mail",
-   "kind": "News"
   }
  ],
  "discussions": [
+  {
+   "src": "DEV",
+   "t": "Sharkly vs Jira in 2026: Which Project Management Tool Is Better for AI Development Teams?",
+   "url": "https://dev.to/therealmrmumba/sharkly-vs-jira-in-2026-which-project-management-tool-is-better-for-ai-development-teams-21a0",
+   "up": 38,
+   "com": 1,
+   "at": "2026-10-11T17:21:42Z"
+  },
   {
    "src": "Hacker News",
    "t": "Terence Tao: Math 2.0 [pdf]",
    "url": "https://news.ycombinator.com/item?id=50043026",
    "link": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
-   "up": 127,
-   "com": 160,
+   "up": 136,
+   "com": 168,
    "at": "2026-10-11T13:16:45.000Z"
   },
   {
@@ -885,7 +876,7 @@
    "url": "https://news.ycombinator.com/item?id=50042107",
    "link": "https://www.bbc.com/news/articles/c5vgjm3gk7rzo",
    "up": 66,
-   "com": 80,
+   "com": 81,
    "at": "2026-10-11T11:34:28.000Z"
   },
   {
@@ -894,7 +885,7 @@
    "url": "https://news.ycombinator.com/item?id=50041765",
    "link": "https://vcresearch.berkeley.edu/news/using-ai-just-10-minutes-erodes-your-ability-persist-hard-things",
    "up": 57,
-   "com": 67,
+   "com": 68,
    "at": "2026-10-11T10:47:21.000Z"
   },
   {
@@ -902,18 +893,9 @@
    "t": "Scandinavia's first farmers slaughtered hunter-gatherer population, DNA suggests",
    "url": "https://news.ycombinator.com/item?id=50042370",
    "link": "https://phys.org/news/2024-02-scandinavia-farmers-slaughtered-hunter-population.html",
-   "up": 44,
-   "com": 61,
+   "up": 45,
+   "com": 62,
    "at": "2026-10-11T12:07:22.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Nicolas Cage says he won't work with Amazon again over AI dispute",
-   "url": "https://news.ycombinator.com/item?id=50041873",
-   "link": "https://www.latimes.com/entertainment-arts/business/story/2026-10-10/nicolas-cage-says-he-wont-work-with-amazon-again-over-ai-dispute",
-   "up": 51,
-   "com": 14,
-   "at": "2026-10-11T11:03:21.000Z"
   }
  ]
 }
