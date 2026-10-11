@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-11T01:30:50.047Z"
+  "updated": "2026-10-11T02:01:04.483Z"
  },
  "pulse": {
   "trending": 76,
   "accelerating": 1,
   "newModels": 9,
   "discussions": 45,
-  "stars": 1815
+  "stars": 889
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 96,
-   "grow": null,
+   "grow": 1,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 2,919",
-    "~1,031 in 24h",
+    "★ 2,924",
+    "+133 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -37,12 +37,12 @@
    "owner": "LosaLosSantos",
    "src": "gh",
    "cat": "LLMs",
-   "score": 92,
+   "score": 91,
    "grow": 28,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
     "★ 2,094",
-    "+784 in 24h",
+    "+756 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -72,7 +72,7 @@
    "cat": "Infrastructure",
    "score": 89,
    "grow": 14,
-   "desc": "Model on Hugging Face · open source · ♥ 965",
+   "desc": "Model on Hugging Face · open source · ♥ 970",
    "meta": [
     "34K downloads",
     "Released 30 days ago"
@@ -88,7 +88,7 @@
    "cat": "Vision",
    "score": 89,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 456",
+   "desc": "Vision on Hugging Face · open weights · ♥ 459",
    "meta": [
     "2.1K downloads",
     "Released 2 days ago"
@@ -136,7 +136,7 @@
    "cat": "Infrastructure",
    "score": 85,
    "grow": 24,
-   "desc": "Model on Hugging Face · open source · ♥ 867",
+   "desc": "Model on Hugging Face · open source · ♥ 869",
    "meta": [
     "10K downloads",
     "Released 9 days ago"
@@ -173,7 +173,7 @@
    "meta": [
     "▲ 357 votes",
     "26 comments",
-    "Launched 18h ago"
+    "Launched 19h ago"
    ],
    "at": "2026-10-10T07:01:00Z",
    "breakout": null
@@ -199,11 +199,11 @@
    "verdict": "More talk than use"
   },
   {
-   "name": "ARTEX",
-   "url": "https://github.com/mhtsec/ARTEX",
+   "name": "aurelio-finance",
+   "url": "https://github.com/LosaLosSantos/aurelio-finance",
    "from": "GitHub",
-   "use": 1031,
-   "useLabel": "~1,031 stars/day",
+   "use": 756,
+   "useLabel": "+756 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -316,22 +316,22 @@
  ],
  "github": [
   {
-   "repo": "mhtsec/ARTEX",
-   "stars": 2919,
-   "d24": 1031,
-   "est": true,
-   "forks": 5339,
-   "contrib": null,
-   "score": 96
-  },
-  {
    "repo": "LosaLosSantos/aurelio-finance",
    "stars": 2094,
-   "d24": 784,
+   "d24": 756,
    "est": false,
    "forks": 215,
    "contrib": null,
-   "score": 92
+   "score": 91
+  },
+  {
+   "repo": "mhtsec/ARTEX",
+   "stars": 2924,
+   "d24": 133,
+   "est": false,
+   "forks": 5341,
+   "contrib": null,
+   "score": 96
   }
  ],
  "models": [
@@ -344,7 +344,7 @@
    "grow": 56,
    "score": 90,
    "cat": "Vision",
-   "likes": 1519
+   "likes": 1522
   },
   {
    "name": "humanizer",
@@ -355,7 +355,7 @@
    "grow": 14,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 965
+   "likes": 970
   },
   {
    "name": "Qwen-Image-2.1-Turbo",
@@ -366,7 +366,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Vision",
-   "likes": 456
+   "likes": 459
   },
   {
    "name": "clef",
@@ -377,7 +377,7 @@
    "grow": 13,
    "score": 87,
    "cat": "Coding",
-   "likes": 1998
+   "likes": 1999
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -388,7 +388,7 @@
    "grow": 4,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 3883
+   "likes": 3884
   },
   {
    "name": "Kolibri-1",
@@ -399,7 +399,7 @@
    "grow": 24,
    "score": 85,
    "cat": "Infrastructure",
-   "likes": 867
+   "likes": 869
   }
  ],
  "free": [
@@ -755,6 +755,13 @@
    "kind": "News"
   },
   {
+   "t": "Hollywood takes aim at Zuckerberg, Musk and Altman over AI fears",
+   "url": "https://www.thenews.com.pk/latest/1419417-hollywood-takes-aim-at-zuckerberg-musk-and-altman-over-ai-fears",
+   "at": "2026-10-10T13:34:00Z",
+   "src": "The News International",
+   "kind": "News"
+  },
+  {
    "t": "AI agent makers are promising privacy - will they deliver?",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots",
    "at": "2026-10-10T13:00:00Z",
@@ -823,13 +830,6 @@
    "at": "2026-10-10T11:20:00Z",
    "src": "Newsmax",
    "kind": "News"
-  },
-  {
-   "t": "Eight in ten financial planners expect AI adoption within a year",
-   "url": "https://www.lokmattimes.com/technology/eight-in-ten-financial-planners-expect-ai-adoption-within-a-year-1/",
-   "at": "2026-10-10T11:19:14Z",
-   "src": "Lokmat Times",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -838,8 +838,8 @@
    "t": "Anthropic Bans Cruelty to Claude, Still Won't Say What It Protects",
    "url": "https://news.ycombinator.com/item?id=50038383",
    "link": "https://rews.cc/a/anthropic-bans-cruelty-to-claude-still-won-t-say-what-it-pro-bd99f6",
-   "up": 47,
-   "com": 93,
+   "up": 49,
+   "com": 97,
    "at": "2026-10-11T00:08:31.000Z"
   },
   {
@@ -847,8 +847,8 @@
    "t": "Ask HN: Why aren't Americans rising up against tipping?",
    "url": "https://news.ycombinator.com/item?id=50038458",
    "link": "",
-   "up": 30,
-   "com": 60,
+   "up": 34,
+   "com": 74,
    "at": "2026-10-11T00:20:23.000Z"
   },
   {
@@ -856,8 +856,8 @@
    "t": "Telegram Desktop vulnerability allowed any user's file to be stolen",
    "url": "https://news.ycombinator.com/item?id=50029123",
    "link": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
-   "up": 413,
-   "com": 265,
+   "up": 417,
+   "com": 267,
    "at": "2026-10-10T03:02:47.000Z"
   },
   {
@@ -865,7 +865,7 @@
    "t": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
    "url": "https://news.ycombinator.com/item?id=50035886",
    "link": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
-   "up": 117,
+   "up": 123,
    "com": 83,
    "at": "2026-10-10T18:48:35.000Z"
   },
@@ -874,8 +874,8 @@
    "t": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
    "url": "https://news.ycombinator.com/item?id=50031614",
    "link": "https://github.com/rociiu/talorys",
-   "up": 247,
-   "com": 121,
+   "up": 253,
+   "com": 123,
    "at": "2026-10-10T10:52:09.000Z"
   },
   {
