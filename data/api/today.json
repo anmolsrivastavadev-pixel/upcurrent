@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-11T15:01:09.991Z"
+  "updated": "2026-10-11T15:30:56.325Z"
  },
  "pulse": {
   "trending": 77,
   "accelerating": 2,
   "newModels": 7,
-  "discussions": 48,
-  "stars": 847
+  "discussions": 46,
+  "stars": 1543
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 95,
-   "grow": 7,
+   "grow": null,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 3,085",
-    "+242 in 24h",
+    "★ 3,096",
+    "~907 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -41,8 +41,8 @@
    "grow": null,
    "desc": "A Claude Code skill that turns a technical idea into a detailed, interactive isometric figure of a real machine. It makes SVG with optional WebGL shaders and 3D, for docs, articles and landing pages.",
    "meta": [
-    "★ 1,684",
-    "~526 in 24h",
+    "★ 1,792",
+    "~556 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -56,7 +56,7 @@
    "cat": "Vision",
    "score": 91,
    "grow": 120,
-   "desc": "Vision on Hugging Face · open weights · ♥ 504",
+   "desc": "Vision on Hugging Face · open weights · ♥ 508",
    "meta": [
     "4.7K downloads",
     "Released 2 days ago"
@@ -90,8 +90,8 @@
    "grow": 1,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 2,119",
-    "+79 in 24h",
+    "★ 2,121",
+    "+80 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -153,7 +153,7 @@
    "cat": "Agents",
    "score": 85,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 305",
+   "desc": "Model on Hugging Face · open source · ♥ 306",
    "meta": [
     "109K downloads",
     "Released 4 days ago"
@@ -199,11 +199,11 @@
    "verdict": "More talk than use"
   },
   {
-   "name": "anatomy",
-   "url": "https://github.com/wheresryan22/anatomy",
+   "name": "ARTEX",
+   "url": "https://github.com/mhtsec/ARTEX",
    "from": "GitHub",
-   "use": 526,
-   "useLabel": "~526 stars/day",
+   "use": 907,
+   "useLabel": "~907 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -316,29 +316,29 @@
  ],
  "github": [
   {
-   "repo": "wheresryan22/anatomy",
-   "stars": 1684,
-   "d24": 526,
-   "est": true,
-   "forks": 131,
-   "contrib": null,
-   "score": 93
-  },
-  {
    "repo": "mhtsec/ARTEX",
-   "stars": 3085,
-   "d24": 242,
-   "est": false,
-   "forks": 5513,
+   "stars": 3096,
+   "d24": 907,
+   "est": true,
+   "forks": 5519,
    "contrib": null,
    "score": 95
   },
   {
+   "repo": "wheresryan22/anatomy",
+   "stars": 1792,
+   "d24": 556,
+   "est": true,
+   "forks": 135,
+   "contrib": null,
+   "score": 93
+  },
+  {
    "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 2119,
-   "d24": 79,
+   "stars": 2121,
+   "d24": 80,
    "est": false,
-   "forks": 223,
+   "forks": 224,
    "contrib": null,
    "score": 89
   }
@@ -353,7 +353,7 @@
    "grow": 120,
    "score": 91,
    "cat": "Vision",
-   "likes": 504
+   "likes": 508
   },
   {
    "name": "embeddinggemma-2",
@@ -364,7 +364,7 @@
    "grow": 117,
    "score": 90,
    "cat": "Vision",
-   "likes": 1624
+   "likes": 1629
   },
   {
    "name": "humanizer",
@@ -375,7 +375,7 @@
    "grow": 12,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1016
+   "likes": 1019
   },
   {
    "name": "clef",
@@ -386,7 +386,7 @@
    "grow": 6,
    "score": 87,
    "cat": "Coding",
-   "likes": 2014
+   "likes": 2016
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -397,7 +397,7 @@
    "grow": 4,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 3942
+   "likes": 3944
   },
   {
    "name": "Underdog-Saluki-27B-1.0",
@@ -409,7 +409,7 @@
    "grow": null,
    "score": 85,
    "cat": "Agents",
-   "likes": 305
+   "likes": 306
   }
  ],
  "free": [
@@ -758,6 +758,13 @@
    "kind": "News"
   },
   {
+   "t": "AI issuers upend debt market safety valve as borrowing costs rise",
+   "url": "https://www.business-standard.com/world-news/ai-issuers-upend-debt-market-safety-valve-as-borrowing-costs-rise-126101100064_1.html",
+   "at": "2026-10-11T03:04:42Z",
+   "src": "Business Standard",
+   "kind": "News"
+  },
+  {
    "t": "Microsoft CEO Satya Nadella Calls For 'Emergency Brake' On Advanced AI",
    "url": "https://www.ndtvprofit.com/technology/microsoft-ceo-satya-nadella-calls-for-emergency-brake-on-advanced-ai-12168233",
    "at": "2026-10-11T02:21:21Z",
@@ -833,13 +840,6 @@
    "at": "2026-10-10T20:00:09Z",
    "src": "Medical Xpress",
    "kind": "News"
-  },
-  {
-   "t": "Hundreds of old games were decompiled and ported to run on browsers in recent weeks, driven by Claude Opus 5.5; titles like GTA: Vice City and Halo: CE run well",
-   "url": "https://www.techmeme.com/261010/p17#a261010p17",
-   "at": "2026-10-10T19:45:00.000Z",
-   "src": "Techmeme",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -848,8 +848,8 @@
    "t": "Terence Tao: Math 2.0 [pdf]",
    "url": "https://news.ycombinator.com/item?id=50043026",
    "link": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
-   "up": 67,
-   "com": 54,
+   "up": 88,
+   "com": 109,
    "at": "2026-10-11T13:16:45.000Z"
   },
   {
@@ -857,7 +857,7 @@
    "t": "Show HN: WallHop – 12ft.io is gone, so I built a replacement",
    "url": "https://news.ycombinator.com/item?id=50038634",
    "link": "https://wallhop.io/",
-   "up": 260,
+   "up": 261,
    "com": 112,
    "at": "2026-10-11T00:46:48.000Z"
   },
@@ -866,8 +866,8 @@
    "t": "AI is creating a 'human premium' for art created by people",
    "url": "https://news.ycombinator.com/item?id=50042107",
    "link": "https://www.bbc.com/news/articles/c5vgjm3gk7rzo",
-   "up": 58,
-   "com": 71,
+   "up": 59,
+   "com": 77,
    "at": "2026-10-11T11:34:28.000Z"
   },
   {
@@ -875,7 +875,7 @@
    "t": "Scandinavia's first farmers slaughtered hunter-gatherer population, DNA suggests",
    "url": "https://news.ycombinator.com/item?id=50042370",
    "link": "https://phys.org/news/2024-02-scandinavia-farmers-slaughtered-hunter-population.html",
-   "up": 41,
+   "up": 42,
    "com": 55,
    "at": "2026-10-11T12:07:22.000Z"
   },
@@ -884,8 +884,8 @@
    "t": "Using AI for Just 10 Minutes Erodes Your Ability to Persist at Hard Things",
    "url": "https://news.ycombinator.com/item?id=50041765",
    "link": "https://vcresearch.berkeley.edu/news/using-ai-just-10-minutes-erodes-your-ability-persist-hard-things",
-   "up": 54,
-   "com": 59,
+   "up": 55,
+   "com": 63,
    "at": "2026-10-11T10:47:21.000Z"
   },
   {
@@ -893,7 +893,7 @@
    "t": "500B Tokens Later: Letting AI Agents Decompile a First-Person Shooter",
    "url": "https://news.ycombinator.com/item?id=50039092",
    "link": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
-   "up": 118,
+   "up": 120,
    "com": 88,
    "at": "2026-10-11T02:02:38.000Z"
   }
