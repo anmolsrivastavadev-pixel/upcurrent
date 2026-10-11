@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-11T04:01:05.275Z"
+  "updated": "2026-10-11T04:30:55.674Z"
  },
  "pulse": {
   "trending": 76,
-  "accelerating": 1,
-  "newModels": 9,
-  "discussions": 47,
-  "stars": 851
+  "accelerating": 0,
+  "newModels": 8,
+  "discussions": 46,
+  "stars": 848
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 96,
-   "grow": 2,
+   "grow": 3,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 2,954",
-    "+186 in 24h",
+    "★ 2,964",
+    "+203 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -42,7 +42,7 @@
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
     "★ 2,094",
-    "+665 in 24h",
+    "+645 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -55,7 +55,7 @@
    "src": "hf",
    "cat": "Vision",
    "score": 90,
-   "grow": 56,
+   "grow": null,
    "desc": "Vision on Hugging Face · open source · ♥ 1.5K",
    "meta": [
     "46K downloads",
@@ -72,7 +72,7 @@
    "cat": "Vision",
    "score": 90,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 465",
+   "desc": "Vision on Hugging Face · open weights · ♥ 468",
    "meta": [
     "2.1K downloads",
     "Released 2 days ago"
@@ -87,7 +87,7 @@
    "src": "hf",
    "cat": "Infrastructure",
    "score": 89,
-   "grow": 14,
+   "grow": null,
    "desc": "Model on Hugging Face · open source · ♥ 978",
    "meta": [
     "34K downloads",
@@ -103,7 +103,7 @@
    "src": "hf",
    "cat": "Coding",
    "score": 87,
-   "grow": 13,
+   "grow": null,
    "desc": "Model on Hugging Face · open source · ♥ 2K",
    "meta": [
     "14K downloads",
@@ -119,7 +119,7 @@
    "src": "hf",
    "cat": "Infrastructure",
    "score": 86,
-   "grow": 4,
+   "grow": null,
    "desc": "Model on Hugging Face · open weights · ♥ 3.9K",
    "meta": [
     "2.1M downloads",
@@ -135,8 +135,8 @@
    "src": "hf",
    "cat": "Infrastructure",
    "score": 85,
-   "grow": 24,
-   "desc": "Model on Hugging Face · open source · ♥ 871",
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 872",
    "meta": [
     "10K downloads",
     "Released 9 days ago"
@@ -171,7 +171,7 @@
    "grow": null,
    "desc": "Get discovered & recommended when customers ask AI",
    "meta": [
-    "▲ 380 votes",
+    "▲ 382 votes",
     "26 comments",
     "Launched 21h ago"
    ],
@@ -181,6 +181,28 @@
  ],
  "breakouts": [],
  "hype": [
+  {
+   "name": "GPT-6.1",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "OpenAI blog",
+     "t": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+     "url": "https://openai.com/index/asana-browser-agent"
+    },
+    {
+     "src": "YouTube",
+     "t": "HUGE Gemini 4 Argon UPDATE, Fable 5.5 LEAKS, GPT-6.1 Ultrafast, Claude Motion, & Step 5! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=ATBnss54_t4"
+    }
+   ],
+   "buzz": 2,
+   "verdict": "Talk only, no public usage numbers"
+  },
   {
    "name": "whistle",
    "url": "https://huggingface.co/Cactus-Compute/whistle",
@@ -202,8 +224,8 @@
    "name": "aurelio-finance",
    "url": "https://github.com/LosaLosSantos/aurelio-finance",
    "from": "GitHub",
-   "use": 665,
-   "useLabel": "+665 stars/day",
+   "use": 645,
+   "useLabel": "+645 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -318,7 +340,7 @@
   {
    "repo": "LosaLosSantos/aurelio-finance",
    "stars": 2094,
-   "d24": 665,
+   "d24": 645,
    "est": false,
    "forks": 215,
    "contrib": null,
@@ -326,10 +348,10 @@
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 2954,
-   "d24": 186,
+   "stars": 2964,
+   "d24": 203,
    "est": false,
-   "forks": 5370,
+   "forks": 5375,
    "contrib": null,
    "score": 96
   }
@@ -341,10 +363,10 @@
    "lic": "Open source",
    "at": "2026-09-14T14:53:42.000Z",
    "dl": 45605,
-   "grow": 56,
+   "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 1532
+   "likes": 1533
   },
   {
    "name": "Qwen-Image-2.1-Turbo",
@@ -355,7 +377,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 465
+   "likes": 468
   },
   {
    "name": "humanizer",
@@ -363,7 +385,7 @@
    "lic": "Open source",
    "at": "2026-09-11T05:00:16.000Z",
    "dl": 33664,
-   "grow": 14,
+   "grow": null,
    "score": 89,
    "cat": "Infrastructure",
    "likes": 978
@@ -374,7 +396,7 @@
    "lic": "Open source",
    "at": "2026-09-30T21:15:35.000Z",
    "dl": 13579,
-   "grow": 13,
+   "grow": null,
    "score": 87,
    "cat": "Coding",
    "likes": 2003
@@ -385,7 +407,7 @@
    "lic": "Open weights",
    "at": "2026-09-20T15:51:13.000Z",
    "dl": 2096562,
-   "grow": 4,
+   "grow": null,
    "score": 86,
    "cat": "Infrastructure",
    "likes": 3891
@@ -396,10 +418,10 @@
    "lic": "Open source",
    "at": "2026-10-02T05:54:02.000Z",
    "dl": 10496,
-   "grow": 24,
+   "grow": null,
    "score": 85,
    "cat": "Infrastructure",
-   "likes": 871
+   "likes": 872
   }
  ],
  "free": [
@@ -748,6 +770,34 @@
    "kind": "News"
   },
   {
+   "t": "Study using AI links trees to lower risk of cardiovascular disease",
+   "url": "https://www.naturalnews.com/2026-10-10-study-links-trees-to-lower-cardiovascular-disease-risk.html",
+   "at": "2026-10-10T16:30:46Z",
+   "src": "Natural News",
+   "kind": "News"
+  },
+  {
+   "t": "Art, AI, and what it means to be human",
+   "url": "https://www.manilatimes.net/2026/10/11/opinion/columns/art-ai-and-what-it-means-to-be-human/2443143",
+   "at": "2026-10-10T16:07:00Z",
+   "src": "The Manila Times",
+   "kind": "News"
+  },
+  {
+   "t": "When persuasion begins to erode trust",
+   "url": "https://www.manilatimes.net/2026/10/11/business/sunday-business-it/when-persuasion-begins-to-erode-trust/2443040",
+   "at": "2026-10-10T16:05:00Z",
+   "src": "The Manila Times",
+   "kind": "News"
+  },
+  {
+   "t": "New logic of modern data center",
+   "url": "https://www.manilatimes.net/2026/10/11/business/sunday-business-it/new-logic-of-modern-data-center/2443039",
+   "at": "2026-10-10T16:04:00Z",
+   "src": "The Manila Times",
+   "kind": "News"
+  },
+  {
    "t": "Calls for a higher claim threshold",
    "url": "https://www.thestar.com.my/news/nation/2026/10/11/calls-for-ahigher-claim-threshold",
    "at": "2026-10-10T16:00:00Z",
@@ -766,34 +816,6 @@
    "url": "https://www.cp24.com/news/world/2026/10/10/in-silicon-valley-ai-founders-cheer-trumps-calls-for-the-industry-to-police-itself-on-safety/",
    "at": "2026-10-10T15:16:42Z",
    "src": "CP24 Toronto",
-   "kind": "News"
-  },
-  {
-   "t": "India Mobile Congress 2026 concludes with focus on agricultural AI, 5G automation and last",
-   "url": "https://www.tribuneindia.com/news/business/india-mobile-congress-2026-concludes-with-focus-on-agricultural-ai-5g-automation-and-last-mile-connectivity/",
-   "at": "2026-10-10T15:06:08Z",
-   "src": "The Tribune",
-   "kind": "News"
-  },
-  {
-   "t": "Should AI be used to make everything easier?",
-   "url": "https://www.deseret.com/opinion/2026/10/10/is-the-art-looking-things-up-obsolete/",
-   "at": "2026-10-10T15:00:00Z",
-   "src": "Salt Lake City Deseret News",
-   "kind": "News"
-  },
-  {
-   "t": "SEBI to issue AI, machine learning guidelines shortly; eyes expiry",
-   "url": "https://www.tribuneindia.com/news/business/sebi-to-issue-ai-machine-learning-guidelines-shortly-eyes-expiry-day-settlement-rules-within-a-week-tuhin-kanta-pandey/",
-   "at": "2026-10-10T14:26:25Z",
-   "src": "The Tribune",
-   "kind": "News"
-  },
-  {
-   "t": "SEBI to issue AI, machine learning guidelines shortly; eyes expiry-day settlement rules within a week : Tuhin Kanta Pandey",
-   "url": "https://www.aninews.in/news/business/sebi-to-issue-ai-machine-learning-guidelines-shortly-eyes-expiry-day-settlement-rules-within-a-week-tuhin-kanta-pandey20261010195505/",
-   "at": "2026-10-10T14:25:05Z",
-   "src": "ANI (Asian News International)",
    "kind": "News"
   },
   {
@@ -818,17 +840,17 @@
    "kind": "News"
   },
   {
-   "t": "HUGE Gemini 4 Carbon LEAKS, Claude Fable 6, GPT-7 Bel, Google CRACKED RSI?! & More! AI NEWS",
-   "url": "https://www.youtube.com/watch?v=USpkPjv-lxs",
-   "at": "2026-10-10T07:34:33Z",
-   "src": "WorldofAI",
-   "kind": "Video"
-  },
-  {
    "t": "Recruitment boss accused of being behind ‘doxxing’ campaign against RNLI and anti-racism activists",
    "url": "https://www.theguardian.com/uk-news/2026/oct/10/recruitment-boss-accused-of-being-behind-doxxing-campaign-against-rnli-and-anti-racism-activists",
    "at": "2026-10-10T07:00:50Z",
    "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "A look at differing revenue calculations of Anthropic and OpenAI, as Anthropic books gross sales through cloud partners, while OpenAI records only its net share",
+   "url": "https://www.techmeme.com/261010/p8#a261010p8",
+   "at": "2026-10-10T06:35:01.000Z",
+   "src": "Techmeme",
    "kind": "News"
   }
  ],
@@ -838,25 +860,16 @@
    "t": "500B Tokens Later: Letting AI Agents Decompile a First-Person Shooter",
    "url": "https://news.ycombinator.com/item?id=50039092",
    "link": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
-   "up": 59,
-   "com": 41,
+   "up": 62,
+   "com": 44,
    "at": "2026-10-11T02:02:38.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Anthropic asks users to stop being mean to Claude",
-   "url": "https://news.ycombinator.com/item?id=50038865",
-   "link": "https://www.theregister.com/ai-and-ml/2026/10/09/anthropic-asks-users-to-stop-being-mean-to-claude/5302218",
-   "up": 45,
-   "com": 48,
-   "at": "2026-10-11T01:17:22.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
    "url": "https://news.ycombinator.com/item?id=50031614",
    "link": "https://github.com/rociiu/talorys",
-   "up": 264,
+   "up": 266,
    "com": 123,
    "at": "2026-10-10T10:52:09.000Z"
   },
@@ -865,27 +878,36 @@
    "t": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
    "url": "https://news.ycombinator.com/item?id=50035886",
    "link": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
-   "up": 138,
-   "com": 92,
+   "up": 142,
+   "com": 95,
    "at": "2026-10-10T18:48:35.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Anthropic asks users to stop being mean to Claude",
+   "url": "https://news.ycombinator.com/item?id=50038865",
+   "link": "https://www.theregister.com/ai-and-ml/2026/10/09/anthropic-asks-users-to-stop-being-mean-to-claude/5302218",
+   "up": 46,
+   "com": 48,
+   "at": "2026-10-11T01:17:22.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Anthropic Bans Cruelty to Claude, Still Won't Say What It Protects",
    "url": "https://news.ycombinator.com/item?id=50038383",
    "link": "https://rews.cc/a/anthropic-bans-cruelty-to-claude-still-won-t-say-what-it-pro-bd99f6",
-   "up": 52,
-   "com": 110,
+   "up": 53,
+   "com": 109,
    "at": "2026-10-11T00:08:31.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Ask HN: Why aren't Americans rising up against tipping?",
-   "url": "https://news.ycombinator.com/item?id=50038458",
-   "link": "",
-   "up": 39,
-   "com": 91,
-   "at": "2026-10-11T00:20:23.000Z"
+   "t": "Tom Brown used GOP ties to broker a $1.25B/month SpaceX compute deal",
+   "url": "https://news.ycombinator.com/item?id=50033678",
+   "link": "https://wsj.com/tech/ai/tom-brown-athropic-669005ad",
+   "up": 131,
+   "com": 56,
+   "at": "2026-10-10T15:04:38.000Z"
   }
  ]
 }
