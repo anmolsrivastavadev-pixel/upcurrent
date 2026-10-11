@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-11T22:30:53.713Z"
+  "updated": "2026-10-11T23:01:06.208Z"
  },
  "pulse": {
   "trending": 77,
   "accelerating": 3,
   "newModels": 8,
-  "discussions": 44,
-  "stars": 4870
+  "discussions": 42,
+  "stars": 4737
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 95,
-   "grow": 206,
+   "grow": 209,
    "desc": "A Claude Code skill that turns a technical idea into a detailed, interactive isometric figure of a real machine. It makes SVG with optional WebGL shaders and 3D, for docs, articles and landing pages.",
    "meta": [
-    "★ 3,120",
-    "+4,582 in 24h",
+    "★ 3,150",
+    "+4,444 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -41,8 +41,8 @@
    "grow": 1,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 3,136",
-    "+137 in 24h",
+    "★ 3,137",
+    "+131 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -56,7 +56,7 @@
    "cat": "Vision",
    "score": 91,
    "grow": 120,
-   "desc": "Vision on Hugging Face · open weights · ♥ 534",
+   "desc": "Vision on Hugging Face · open weights · ♥ 536",
    "meta": [
     "4.7K downloads",
     "Released 3 days ago"
@@ -87,11 +87,11 @@
    "src": "gh",
    "cat": "LLMs",
    "score": 89,
-   "grow": 4,
+   "grow": 5,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 2,187",
-    "+151 in 24h",
+    "★ 2,197",
+    "+162 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -183,6 +183,28 @@
  "breakouts": [],
  "hype": [
   {
+   "name": "GPT-6.1",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "OpenAI blog",
+     "t": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+     "url": "https://openai.com/index/asana-browser-agent"
+    },
+    {
+     "src": "YouTube",
+     "t": "HUGE Gemini 4 Argon UPDATE, Fable 5.5 LEAKS, GPT-6.1 Ultrafast, Claude Motion, & Step 5! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=ATBnss54_t4"
+    }
+   ],
+   "buzz": 2,
+   "verdict": "Talk only, no public usage numbers"
+  },
+  {
    "name": "whistle",
    "url": "https://huggingface.co/Cactus-Compute/whistle",
    "from": "Hugging Face",
@@ -203,8 +225,8 @@
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 4582,
-   "useLabel": "+4,582 stars/day",
+   "use": 4444,
+   "useLabel": "+4,444 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -318,28 +340,28 @@
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 3120,
-   "d24": 4582,
+   "stars": 3150,
+   "d24": 4444,
    "est": false,
-   "forks": 235,
+   "forks": 238,
    "contrib": null,
    "score": 95
   },
   {
    "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 2187,
-   "d24": 151,
+   "stars": 2197,
+   "d24": 162,
    "est": false,
-   "forks": 283,
+   "forks": 286,
    "contrib": null,
    "score": 89
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 3136,
-   "d24": 137,
+   "stars": 3137,
+   "d24": 131,
    "est": false,
-   "forks": 5549,
+   "forks": 5551,
    "contrib": null,
    "score": 94
   }
@@ -354,7 +376,7 @@
    "grow": 120,
    "score": 91,
    "cat": "Vision",
-   "likes": 534
+   "likes": 536
   },
   {
    "name": "embeddinggemma-2",
@@ -365,7 +387,7 @@
    "grow": 117,
    "score": 90,
    "cat": "Vision",
-   "likes": 1685
+   "likes": 1687
   },
   {
    "name": "humanizer",
@@ -376,7 +398,7 @@
    "grow": 12,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1069
+   "likes": 1071
   },
   {
    "name": "clef",
@@ -398,7 +420,7 @@
    "grow": 4,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 3973
+   "likes": 3976
   },
   {
    "name": "Underdog-Saluki-27B-1.0",
@@ -771,6 +793,13 @@
    "kind": "News"
   },
   {
+   "t": "AI is among 17 potentially ‘catastrophic threats’ that researchers say require targeted action",
+   "url": "https://wtop.com/national/2026/10/ai-is-among-17-potentially-catastrophic-threats-that-researchers-say-require-targeted-action/",
+   "at": "2026-10-11T10:38:54Z",
+   "src": "WTOP",
+   "kind": "News"
+  },
+  {
    "t": "Digital tools, AI can preserve Dusun language for future generations, says Sabah deputy CM",
    "url": "https://www.malaymail.com/news/malaysia/2026/10/11/digital-tools-ai-can-preserve-dusun-language-for-future-generations-says-sabah-deputy-cm/238707",
    "at": "2026-10-11T10:26:09Z",
@@ -793,9 +822,9 @@
   },
   {
    "t": "Delay the deployment of Artificial Intelligence | Opinion letters",
-   "url": "https://eu.news-press.com/story/opinion/2026/10/11/delay-the-deployment-of-artificial-intelligence-opinion-letters/92116430007/",
+   "url": "https://www.naplesnews.com/story/opinion/2026/10/11/delay-the-deployment-of-artificial-intelligence-opinion-letters/92116430007/",
    "at": "2026-10-11T10:02:37Z",
-   "src": "News-Press",
+   "src": "Naples Daily News",
    "kind": "News"
   },
   {
@@ -820,25 +849,18 @@
    "kind": "News"
   },
   {
-   "t": "Electric avenues: AI data centers spur natural gas, solar; challenge power grids",
-   "url": "https://www.europesays.com/3303798/",
-   "at": "2026-10-11T09:37:17Z",
-   "src": "EUROPE SAYS",
-   "kind": "News"
-  },
-  {
-   "t": "Gujarat: Rajkot Civic Body Identifies 10,333 Potential Mosquito Breeding Sites Through Drone Surveys",
-   "url": "https://www.ndtv.com/health/gujarat-rajkot-civic-body-identifies-10-333-potential-mosquito-breeding-sites-through-drone-surveys-12167081",
-   "at": "2026-10-11T09:32:36Z",
-   "src": "NDTV.com",
-   "kind": "News"
-  },
-  {
    "t": "China AI ACHIEVED RSI? GLM 5.5, NEW Fable 5.5 Checkpoint, Qwen4, Kimi K3.1, M3.1 Pro & More! AI NEWS",
    "url": "https://www.youtube.com/watch?v=0EwN9bb157M",
    "at": "2026-10-11T07:45:11Z",
    "src": "WorldofAI",
    "kind": "Video"
+  },
+  {
+   "t": "Rein Security, which develops runtime tools to secure enterprise AI agents and stop adversarial AI agents, raised a $25M Series A, taking total funding to $35M",
+   "url": "https://www.techmeme.com/261011/p4#a261011p4",
+   "at": "2026-10-11T05:50:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
   }
  ],
  "discussions": [
@@ -847,8 +869,8 @@
    "t": "The gap in shared understanding of LLM capability is widening",
    "url": "https://news.ycombinator.com/item?id=50047422",
    "link": "https://twitter.com/karpathy/status/2109361546505966046",
-   "up": 86,
-   "com": 86,
+   "up": 122,
+   "com": 153,
    "at": "2026-10-11T20:20:52.000Z"
   },
   {
@@ -856,8 +878,8 @@
    "t": "Terence Tao: Math 2.0 [pdf]",
    "url": "https://news.ycombinator.com/item?id=50043026",
    "link": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
-   "up": 276,
-   "com": 331,
+   "up": 283,
+   "com": 344,
    "at": "2026-10-11T13:16:45.000Z"
   },
   {
@@ -865,8 +887,8 @@
    "t": "YouTuber builds 'Flock-like' camera to track police vehicles, gets police visit",
    "url": "https://news.ycombinator.com/item?id=50045735",
    "link": "https://www.tomshardware.com/tech-industry/cyber-security/canadian-youtuber-builds-flock-like-camera-to-exclusively-track-police-vehicles-officers-visit-his-home-to-express-privacy-concerns",
-   "up": 77,
-   "com": 27,
+   "up": 78,
+   "com": 29,
    "at": "2026-10-11T17:40:42.000Z"
   },
   {
@@ -882,7 +904,7 @@
    "src": "Mastodon",
    "t": "But here we run up against an unpleasant reality: the tech sector values the # LLM craze chiefly because it's outrageously inefficient and destructive, alway…",
    "url": "https://cyberpunk.lol/@mxchara/117423667414261621",
-   "up": 37,
+   "up": 39,
    "com": 1,
    "at": "2026-10-11T18:22:52.000Z"
   },
@@ -891,7 +913,7 @@
    "t": "apsw: Another Python SQLite Wrapper",
    "url": "https://news.ycombinator.com/item?id=50045273",
    "link": "https://github.com/rogerbinns/apsw",
-   "up": 47,
+   "up": 49,
    "com": 13,
    "at": "2026-10-11T16:58:22.000Z"
   }
