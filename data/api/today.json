@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-11T02:30:52.287Z"
+  "updated": "2026-10-11T03:01:05.264Z"
  },
  "pulse": {
   "trending": 76,
   "accelerating": 1,
   "newModels": 9,
-  "discussions": 46,
-  "stars": 865
+  "discussions": 49,
+  "stars": 864
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 96,
-   "grow": 1,
+   "grow": 2,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 2,927",
-    "+134 in 24h",
+    "★ 2,937",
+    "+157 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -42,7 +42,7 @@
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
     "★ 2,094",
-    "+731 in 24h",
+    "+707 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -59,11 +59,27 @@
    "desc": "Vision on Hugging Face · open source · ♥ 1.5K",
    "meta": [
     "46K downloads",
-    "Released 26 days ago"
+    "Released 27 days ago"
    ],
    "at": "2026-09-14T14:53:42.000Z",
    "breakout": null,
    "url": "https://huggingface.co/google/embeddinggemma-2"
+  },
+  {
+   "name": "Qwen-Image-2.1-Turbo",
+   "owner": "Qwen",
+   "src": "hf",
+   "cat": "Vision",
+   "score": 90,
+   "grow": 0,
+   "desc": "Vision on Hugging Face · open weights · ♥ 463",
+   "meta": [
+    "2.1K downloads",
+    "Released 2 days ago"
+   ],
+   "at": "2026-10-09T04:50:01.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo"
   },
   {
    "name": "humanizer",
@@ -72,7 +88,7 @@
    "cat": "Infrastructure",
    "score": 89,
    "grow": 14,
-   "desc": "Model on Hugging Face · open source · ♥ 974",
+   "desc": "Model on Hugging Face · open source · ♥ 976",
    "meta": [
     "34K downloads",
     "Released 30 days ago"
@@ -80,22 +96,6 @@
    "at": "2026-09-11T05:00:16.000Z",
    "breakout": null,
    "url": "https://huggingface.co/jialinyyzz/humanizer"
-  },
-  {
-   "name": "Qwen-Image-2.1-Turbo",
-   "owner": "Qwen",
-   "src": "hf",
-   "cat": "Vision",
-   "score": 89,
-   "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 461",
-   "meta": [
-    "2.1K downloads",
-    "Released 2 days ago"
-   ],
-   "at": "2026-10-09T04:50:01.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo"
   },
   {
    "name": "clef",
@@ -136,7 +136,7 @@
    "cat": "Infrastructure",
    "score": 85,
    "grow": 24,
-   "desc": "Model on Hugging Face · open source · ♥ 870",
+   "desc": "Model on Hugging Face · open source · ♥ 871",
    "meta": [
     "10K downloads",
     "Released 9 days ago"
@@ -171,9 +171,9 @@
    "grow": null,
    "desc": "Get discovered & recommended when customers ask AI",
    "meta": [
-    "▲ 359 votes",
+    "▲ 366 votes",
     "26 comments",
-    "Launched 19h ago"
+    "Launched 20h ago"
    ],
    "at": "2026-10-10T07:01:00Z",
    "breakout": null
@@ -202,8 +202,8 @@
    "name": "aurelio-finance",
    "url": "https://github.com/LosaLosSantos/aurelio-finance",
    "from": "GitHub",
-   "use": 731,
-   "useLabel": "+731 stars/day",
+   "use": 707,
+   "useLabel": "+707 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -318,7 +318,7 @@
   {
    "repo": "LosaLosSantos/aurelio-finance",
    "stars": 2094,
-   "d24": 731,
+   "d24": 707,
    "est": false,
    "forks": 215,
    "contrib": null,
@@ -326,10 +326,10 @@
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 2927,
-   "d24": 134,
+   "stars": 2937,
+   "d24": 157,
    "est": false,
-   "forks": 5349,
+   "forks": 5355,
    "contrib": null,
    "score": 96
   }
@@ -344,7 +344,18 @@
    "grow": 56,
    "score": 90,
    "cat": "Vision",
-   "likes": 1525
+   "likes": 1528
+  },
+  {
+   "name": "Qwen-Image-2.1-Turbo",
+   "org": "Qwen",
+   "lic": "Open weights",
+   "at": "2026-10-09T04:50:01.000Z",
+   "dl": 2138,
+   "grow": 0,
+   "score": 90,
+   "cat": "Vision",
+   "likes": 463
   },
   {
    "name": "humanizer",
@@ -355,18 +366,7 @@
    "grow": 14,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 974
-  },
-  {
-   "name": "Qwen-Image-2.1-Turbo",
-   "org": "Qwen",
-   "lic": "Open weights",
-   "at": "2026-10-09T04:50:01.000Z",
-   "dl": 2138,
-   "grow": 0,
-   "score": 89,
-   "cat": "Vision",
-   "likes": 461
+   "likes": 976
   },
   {
    "name": "clef",
@@ -377,7 +377,7 @@
    "grow": 13,
    "score": 87,
    "cat": "Coding",
-   "likes": 2000
+   "likes": 2001
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -388,7 +388,7 @@
    "grow": 4,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 3886
+   "likes": 3889
   },
   {
    "name": "Kolibri-1",
@@ -399,7 +399,7 @@
    "grow": 24,
    "score": 85,
    "cat": "Infrastructure",
-   "likes": 870
+   "likes": 871
   }
  ],
  "free": [
@@ -748,6 +748,13 @@
    "kind": "News"
   },
   {
+   "t": "Should AI be used to make everything easier?",
+   "url": "https://www.deseret.com/opinion/2026/10/10/is-the-art-looking-things-up-obsolete/",
+   "at": "2026-10-10T15:00:00Z",
+   "src": "Salt Lake City Deseret News",
+   "kind": "News"
+  },
+  {
    "t": "SEBI to issue AI, machine learning guidelines shortly; eyes expiry",
    "url": "https://www.tribuneindia.com/news/business/sebi-to-issue-ai-machine-learning-guidelines-shortly-eyes-expiry-day-settlement-rules-within-a-week-tuhin-kanta-pandey/",
    "at": "2026-10-10T14:26:25Z",
@@ -818,13 +825,6 @@
    "kind": "News"
   },
   {
-   "t": "AI predicts Palantir stock price for end of Q4 2026",
-   "url": "https://finbold.com/ai-predicts-palantir-stock-price-for-end-of-q4-2026/",
-   "at": "2026-10-10T11:43:32Z",
-   "src": "Finbold",
-   "kind": "News"
-  },
-  {
    "t": " UK must not be beholden to foreign AI, says head of Alan Turing Institute",
    "url": "https://www.theguardian.com/technology/2026/oct/10/uk-foreign-ai-head-alan-turing-institute-george-williamson",
    "at": "2026-10-10T10:00:55Z",
@@ -838,34 +838,43 @@
    "t": "Anthropic asks users to stop being mean to Claude",
    "url": "https://news.ycombinator.com/item?id=50038865",
    "link": "https://www.theregister.com/ai-and-ml/2026/10/09/anthropic-asks-users-to-stop-being-mean-to-claude/5302218",
-   "up": 28,
-   "com": 13,
+   "up": 42,
+   "com": 32,
    "at": "2026-10-11T01:17:22.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Anthropic Bans Cruelty to Claude, Still Won't Say What It Protects",
-   "url": "https://news.ycombinator.com/item?id=50038383",
-   "link": "https://rews.cc/a/anthropic-bans-cruelty-to-claude-still-won-t-say-what-it-pro-bd99f6",
-   "up": 49,
-   "com": 102,
-   "at": "2026-10-11T00:08:31.000Z"
+   "t": "500B Tokens Later: Letting AI Agents Decompile a First-Person Shooter",
+   "url": "https://news.ycombinator.com/item?id=50039092",
+   "link": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
+   "up": 24,
+   "com": 16,
+   "at": "2026-10-11T02:02:38.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Telegram Desktop vulnerability allowed any user's file to be stolen",
    "url": "https://news.ycombinator.com/item?id=50029123",
    "link": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
-   "up": 422,
-   "com": 272,
+   "up": 426,
+   "com": 273,
    "at": "2026-10-10T03:02:47.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Anthropic Bans Cruelty to Claude, Still Won't Say What It Protects",
+   "url": "https://news.ycombinator.com/item?id=50038383",
+   "link": "https://rews.cc/a/anthropic-bans-cruelty-to-claude-still-won-t-say-what-it-pro-bd99f6",
+   "up": 51,
+   "com": 107,
+   "at": "2026-10-11T00:08:31.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
    "url": "https://news.ycombinator.com/item?id=50031614",
    "link": "https://github.com/rociiu/talorys",
-   "up": 258,
+   "up": 259,
    "com": 123,
    "at": "2026-10-10T10:52:09.000Z"
   },
@@ -874,18 +883,9 @@
    "t": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
    "url": "https://news.ycombinator.com/item?id=50035886",
    "link": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
-   "up": 127,
-   "com": 84,
+   "up": 129,
+   "com": 87,
    "at": "2026-10-10T18:48:35.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Ask HN: Why aren't Americans rising up against tipping?",
-   "url": "https://news.ycombinator.com/item?id=50038458",
-   "link": "",
-   "up": 35,
-   "com": 80,
-   "at": "2026-10-11T00:20:23.000Z"
   }
  ]
 }
