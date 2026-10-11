@@ -5,49 +5,49 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-11T21:01:04.253Z"
+  "updated": "2026-10-11T21:30:56.300Z"
  },
  "pulse": {
   "trending": 77,
   "accelerating": 3,
   "newModels": 8,
-  "discussions": 45,
-  "stars": 5888
+  "discussions": 44,
+  "stars": 5818
  },
  "rising": [
-  {
-   "name": "ARTEX",
-   "owner": "mhtsec",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 95,
-   "grow": null,
-   "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
-   "meta": [
-    "★ 3,131",
-    "~859 in 24h",
-    "Created 4 days ago"
-   ],
-   "at": "2026-10-08T05:33:06Z",
-   "breakout": null,
-   "url": "https://github.com/mhtsec/ARTEX"
-  },
   {
    "name": "anatomy",
    "owner": "wheresryan22",
    "src": "gh",
    "cat": "Agents",
-   "score": 94,
-   "grow": 190,
+   "score": 95,
+   "grow": 197,
    "desc": "A Claude Code skill that turns a technical idea into a detailed, interactive isometric figure of a real machine. It makes SVG with optional WebGL shaders and 3D, for docs, articles and landing pages.",
    "meta": [
-    "★ 2,956",
-    "+4,889 in 24h",
+    "★ 3,028",
+    "+4,819 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
    "breakout": null,
    "url": "https://github.com/wheresryan22/anatomy"
+  },
+  {
+   "name": "ARTEX",
+   "owner": "mhtsec",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 94,
+   "grow": null,
+   "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
+   "meta": [
+    "★ 3,132",
+    "~855 in 24h",
+    "Created 4 days ago"
+   ],
+   "at": "2026-10-08T05:33:06Z",
+   "breakout": null,
+   "url": "https://github.com/mhtsec/ARTEX"
   },
   {
    "name": "Qwen-Image-2.1-Turbo",
@@ -56,7 +56,7 @@
    "cat": "Vision",
    "score": 91,
    "grow": 120,
-   "desc": "Vision on Hugging Face · open weights · ♥ 531",
+   "desc": "Vision on Hugging Face · open weights · ♥ 532",
    "meta": [
     "4.7K downloads",
     "Released 3 days ago"
@@ -90,8 +90,8 @@
    "grow": 4,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 2,172",
-    "+140 in 24h",
+    "★ 2,177",
+    "+144 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -225,8 +225,8 @@
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 4889,
-   "useLabel": "+4,889 stars/day",
+   "use": 4819,
+   "useLabel": "+4,819 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -340,28 +340,28 @@
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 2956,
-   "d24": 4889,
+   "stars": 3028,
+   "d24": 4819,
    "est": false,
-   "forks": 230,
-   "contrib": null,
-   "score": 94
-  },
-  {
-   "repo": "mhtsec/ARTEX",
-   "stars": 3131,
-   "d24": 859,
-   "est": true,
-   "forks": 5549,
+   "forks": 231,
    "contrib": null,
    "score": 95
   },
   {
+   "repo": "mhtsec/ARTEX",
+   "stars": 3132,
+   "d24": 855,
+   "est": true,
+   "forks": 5549,
+   "contrib": null,
+   "score": 94
+  },
+  {
    "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 2172,
-   "d24": 140,
+   "stars": 2177,
+   "d24": 144,
    "est": false,
-   "forks": 264,
+   "forks": 271,
    "contrib": null,
    "score": 89
   }
@@ -376,7 +376,7 @@
    "grow": 120,
    "score": 91,
    "cat": "Vision",
-   "likes": 531
+   "likes": 532
   },
   {
    "name": "embeddinggemma-2",
@@ -387,7 +387,7 @@
    "grow": 117,
    "score": 90,
    "cat": "Vision",
-   "likes": 1676
+   "likes": 1679
   },
   {
    "name": "humanizer",
@@ -398,7 +398,7 @@
    "grow": 12,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1059
+   "likes": 1063
   },
   {
    "name": "clef",
@@ -420,7 +420,7 @@
    "grow": 4,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 3970
+   "likes": 3971
   },
   {
    "name": "Underdog-Saluki-27B-1.0",
@@ -751,6 +751,13 @@
  },
  "headlines": [
   {
+   "t": "Sources: Amazon is in talks to buy AI startup Decart in a deal that could value it at ~$7B; Anthropic had decided against acquiring Decart for ~$6B in September",
+   "url": "https://www.techmeme.com/261011/p11#a261011p11",
+   "at": "2026-10-11T21:20:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "How Musk and Benioff pledged to rename SpaceXAI and AIForce, while Nadella and Nvidia adopted \"super intelligence\", as Silicon Valley falls in line with Trump",
    "url": "https://www.techmeme.com/261011/p10#a261011p10",
    "at": "2026-10-11T20:45:01.000Z",
@@ -783,6 +790,20 @@
    "url": "https://www.theguardian.com/business/2026/oct/11/trump-ai-economy-reagan",
    "at": "2026-10-11T11:00:25Z",
    "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "AI in education: IIT Kharagpur professor warns against AI doing students’ work",
+   "url": "https://www.indiatoday.in/education-today/news/story/ai-in-education-iit-kharagpur-professor-warns-against-ai-doing-students-work-3014678-2026-10-11",
+   "at": "2026-10-11T09:29:57Z",
+   "src": "India Today",
+   "kind": "News"
+  },
+  {
+   "t": "Artificial intelligence answers: what is the expected result of the Liverpool versus Manchester City match?",
+   "url": "https://www.yardbarker.com/soccer/articles/artificial_intelligence_answers_what_is_the_expected_result_of_the_liverpool_versus_manchester_city_match/s1_17790_44414472",
+   "at": "2026-10-11T09:07:20Z",
+   "src": "Yardbarker",
    "kind": "News"
   },
   {
@@ -840,27 +861,6 @@
    "at": "2026-10-11T07:10:39Z",
    "src": "Business Standard",
    "kind": "News"
-  },
-  {
-   "t": "From Supply Security to Artificial Intelligence: Issues Bringing Global Energy Leaders Together in Riyadh",
-   "url": "https://www.europesays.com/3303608/",
-   "at": "2026-10-11T06:49:32Z",
-   "src": "EUROPE SAYS",
-   "kind": "News"
-  },
-  {
-   "t": "Nicolas Cage refuses AI waiver for ‘Spider-Noir’; says he may not work with studio again",
-   "url": "https://timesofindia.indiatimes.com/entertainment/english/hollywood/news/nicolas-cage-refuses-ai-waiver-for-spider-noir-says-he-may-not-work-with-studio-again/articleshow/134866453.cms",
-   "at": "2026-10-11T06:42:00Z",
-   "src": "Times of India",
-   "kind": "News"
-  },
-  {
-   "t": "Rein Security, which develops runtime tools to secure enterprise AI agents and stop adversarial AI agents, raised a $25M Series A, taking total funding to $35M",
-   "url": "https://www.techmeme.com/261011/p4#a261011p4",
-   "at": "2026-10-11T05:50:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -869,8 +869,8 @@
    "t": "Terence Tao: Math 2.0 [pdf]",
    "url": "https://news.ycombinator.com/item?id=50043026",
    "link": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
-   "up": 245,
-   "com": 294,
+   "up": 259,
+   "com": 314,
    "at": "2026-10-11T13:16:45.000Z"
   },
   {
@@ -878,7 +878,7 @@
    "t": "YouTuber builds 'Flock-like' camera to track police vehicles, gets police visit",
    "url": "https://news.ycombinator.com/item?id=50045735",
    "link": "https://www.tomshardware.com/tech-industry/cyber-security/canadian-youtuber-builds-flock-like-camera-to-exclusively-track-police-vehicles-officers-visit-his-home-to-express-privacy-concerns",
-   "up": 69,
+   "up": 72,
    "com": 27,
    "at": "2026-10-11T17:40:42.000Z"
   },
@@ -888,14 +888,14 @@
    "url": "https://news.ycombinator.com/item?id=50038634",
    "link": "https://wallhop.io/",
    "up": 267,
-   "com": 118,
+   "com": 117,
    "at": "2026-10-11T00:46:48.000Z"
   },
   {
    "src": "Mastodon",
    "t": "But here we run up against an unpleasant reality: the tech sector values the # LLM craze chiefly because it's outrageously inefficient and destructive, alway…",
    "url": "https://cyberpunk.lol/@mxchara/117423667414261621",
-   "up": 30,
+   "up": 31,
    "com": 1,
    "at": "2026-10-11T18:22:52.000Z"
   },
@@ -904,17 +904,18 @@
    "t": "apsw: Another Python SQLite Wrapper",
    "url": "https://news.ycombinator.com/item?id=50045273",
    "link": "https://github.com/rogerbinns/apsw",
-   "up": 41,
-   "com": 11,
+   "up": 44,
+   "com": 12,
    "at": "2026-10-11T16:58:22.000Z"
   },
   {
-   "src": "DEV",
-   "t": "Georgian Language Benchmark: Two Biggest AI Labs Clash in a Language That Doesn't Play by Anyone's Rules",
-   "url": "https://dev.to/georgekobaidze/georgian-language-benchmark-two-biggest-ai-labs-clash-in-a-language-that-doesnt-play-by-anyones-5b22",
-   "up": 11,
-   "com": 1,
-   "at": "2026-10-11T19:40:43Z"
+   "src": "Hacker News",
+   "t": "Nicolas Cage says he won't work with Amazon again over AI dispute",
+   "url": "https://news.ycombinator.com/item?id=50041873",
+   "link": "https://www.latimes.com/entertainment-arts/business/story/2026-10-10/nicolas-cage-says-he-wont-work-with-amazon-again-over-ai-dispute",
+   "up": 74,
+   "com": 22,
+   "at": "2026-10-11T11:03:21.000Z"
   }
  ]
 }
