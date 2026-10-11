@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-11T21:30:56.300Z"
+  "updated": "2026-10-11T22:01:04.928Z"
  },
  "pulse": {
   "trending": 77,
   "accelerating": 3,
   "newModels": 8,
-  "discussions": 44,
-  "stars": 5818
+  "discussions": 45,
+  "stars": 4989
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 95,
-   "grow": 197,
+   "grow": 202,
    "desc": "A Claude Code skill that turns a technical idea into a detailed, interactive isometric figure of a real machine. It makes SVG with optional WebGL shaders and 3D, for docs, articles and landing pages.",
    "meta": [
-    "★ 3,028",
-    "+4,819 in 24h",
+    "★ 3,077",
+    "+4,700 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 94,
-   "grow": null,
+   "grow": 1,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 3,132",
-    "~855 in 24h",
+    "★ 3,134",
+    "+140 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -56,7 +56,7 @@
    "cat": "Vision",
    "score": 91,
    "grow": 120,
-   "desc": "Vision on Hugging Face · open weights · ♥ 532",
+   "desc": "Vision on Hugging Face · open weights · ♥ 534",
    "meta": [
     "4.7K downloads",
     "Released 3 days ago"
@@ -90,8 +90,8 @@
    "grow": 4,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 2,177",
-    "+144 in 24h",
+    "★ 2,183",
+    "+149 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -172,7 +172,7 @@
    "grow": null,
    "desc": "Get discovered & recommended when customers ask AI",
    "meta": [
-    "▲ 464 votes",
+    "▲ 467 votes",
     "37 comments",
     "Launched 2 days ago"
    ],
@@ -182,28 +182,6 @@
  ],
  "breakouts": [],
  "hype": [
-  {
-   "name": "GPT-6.1",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
-    {
-     "src": "OpenAI blog",
-     "t": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-     "url": "https://openai.com/index/asana-browser-agent"
-    },
-    {
-     "src": "YouTube",
-     "t": "HUGE Gemini 4 Argon UPDATE, Fable 5.5 LEAKS, GPT-6.1 Ultrafast, Claude Motion, & Step 5! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=ATBnss54_t4"
-    }
-   ],
-   "buzz": 2,
-   "verdict": "Talk only, no public usage numbers"
-  },
   {
    "name": "whistle",
    "url": "https://huggingface.co/Cactus-Compute/whistle",
@@ -225,8 +203,8 @@
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 4819,
-   "useLabel": "+4,819 stars/day",
+   "use": 4700,
+   "useLabel": "+4,700 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -340,30 +318,30 @@
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 3028,
-   "d24": 4819,
+   "stars": 3077,
+   "d24": 4700,
    "est": false,
-   "forks": 231,
+   "forks": 234,
    "contrib": null,
    "score": 95
   },
   {
+   "repo": "LosaLosSantos/aurelio-finance",
+   "stars": 2183,
+   "d24": 149,
+   "est": false,
+   "forks": 277,
+   "contrib": null,
+   "score": 89
+  },
+  {
    "repo": "mhtsec/ARTEX",
-   "stars": 3132,
-   "d24": 855,
-   "est": true,
+   "stars": 3134,
+   "d24": 140,
+   "est": false,
    "forks": 5549,
    "contrib": null,
    "score": 94
-  },
-  {
-   "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 2177,
-   "d24": 144,
-   "est": false,
-   "forks": 271,
-   "contrib": null,
-   "score": 89
   }
  ],
  "models": [
@@ -376,7 +354,7 @@
    "grow": 120,
    "score": 91,
    "cat": "Vision",
-   "likes": 532
+   "likes": 534
   },
   {
    "name": "embeddinggemma-2",
@@ -387,7 +365,7 @@
    "grow": 117,
    "score": 90,
    "cat": "Vision",
-   "likes": 1679
+   "likes": 1682
   },
   {
    "name": "humanizer",
@@ -398,7 +376,7 @@
    "grow": 12,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1063
+   "likes": 1066
   },
   {
    "name": "clef",
@@ -420,7 +398,7 @@
    "grow": 4,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 3971
+   "likes": 3972
   },
   {
    "name": "Underdog-Saluki-27B-1.0",
@@ -432,7 +410,7 @@
    "grow": 0,
    "score": 84,
    "cat": "Agents",
-   "likes": 319
+   "likes": 320
   }
  ],
  "free": [
@@ -793,6 +771,41 @@
    "kind": "News"
   },
   {
+   "t": "Andy Mukherjee: The AI productivity boom has begun-if you know where to find it",
+   "url": "https://www.livemint.com/opinion/online-views/andy-mukherjee-the-ai-productivity-boom-has-begun-if-you-know-where-to-find-it-11791464874233.html",
+   "at": "2026-10-11T10:00:44Z",
+   "src": "Livemint",
+   "kind": "News"
+  },
+  {
+   "t": "Victor Marx says AI, 'accountability' would guide him as Colorado governor",
+   "url": "https://www.dailycamera.com/2026/10/11/victor-marx-colorado-governor-election-approach/",
+   "at": "2026-10-11T10:00:05Z",
+   "src": "Boulder Daily Camera",
+   "kind": "News"
+  },
+  {
+   "t": "DBS CEO cites FCNR(B) success as proof of global faith in India, calls for more FDI",
+   "url": "https://economictimes.indiatimes.com/industry/banking/finance/banking/dbs-ceo-cites-fcnrb-success-as-proof-of-global-faith-in-india-calls-for-more-fdi/articleshow/134868254.cms",
+   "at": "2026-10-11T09:44:00Z",
+   "src": "The Economic Times",
+   "kind": "News"
+  },
+  {
+   "t": "Electric avenues: AI data centers spur natural gas, solar; challenge power grids",
+   "url": "https://www.europesays.com/3303798/",
+   "at": "2026-10-11T09:37:17Z",
+   "src": "EUROPE SAYS",
+   "kind": "News"
+  },
+  {
+   "t": "Gujarat: Rajkot Civic Body Identifies 10,333 Potential Mosquito Breeding Sites Through Drone Surveys",
+   "url": "https://www.ndtv.com/health/gujarat-rajkot-civic-body-identifies-10-333-potential-mosquito-breeding-sites-through-drone-surveys-12167081",
+   "at": "2026-10-11T09:32:36Z",
+   "src": "NDTV.com",
+   "kind": "News"
+  },
+  {
    "t": "AI in education: IIT Kharagpur professor warns against AI doing students’ work",
    "url": "https://www.indiatoday.in/education-today/news/story/ai-in-education-iit-kharagpur-professor-warns-against-ai-doing-students-work-3014678-2026-10-11",
    "at": "2026-10-11T09:29:57Z",
@@ -821,56 +834,30 @@
    "kind": "News"
   },
   {
-   "t": "Nicole Junkermann on India's Engineering Talent: How AI Builders Are Shaping the Future of Global Media",
-   "url": "https://techbullion.com/nicole-junkermann-on-indias-engineering-talent-how-ai-builders-are-shaping-the-future-of-global-media/",
-   "at": "2026-10-11T07:54:20Z",
-   "src": "TechBullion",
-   "kind": "News"
-  },
-  {
-   "t": "AI should be a bridge, not a new geopolitical divide",
-   "url": "https://www.europesays.com/3303684/",
-   "at": "2026-10-11T07:49:16Z",
-   "src": "EUROPE SAYS",
-   "kind": "News"
-  },
-  {
    "t": "China AI ACHIEVED RSI? GLM 5.5, NEW Fable 5.5 Checkpoint, Qwen4, Kimi K3.1, M3.1 Pro & More! AI NEWS",
    "url": "https://www.youtube.com/watch?v=0EwN9bb157M",
    "at": "2026-10-11T07:45:11Z",
    "src": "WorldofAI",
    "kind": "Video"
-  },
-  {
-   "t": "AI agents are going rogue - here's what you need to know if you use ChatGPT, Gemini or Claude",
-   "url": "https://www.tomsguide.com/ai/ai-agents-are-going-rogue-heres-what-you-need-to-know-if-you-use-chatgpt-gemini-or-claude",
-   "at": "2026-10-11T07:45:00Z",
-   "src": "Tom's Guide",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI and Anthropic prepare for the end of world, rupture possible in 2027",
-   "url": "https://www.indiatoday.in/technology/this-week-in-ai/story/openai-and-anthropic-prepare-for-the-end-of-world-rupture-possible-in-2027-3014688-2026-10-11",
-   "at": "2026-10-11T07:43:04Z",
-   "src": "India Today",
-   "kind": "News"
-  },
-  {
-   "t": "FPIs pull out ₹44,166 cr from equities in Oct, 2026 outflows cross ₹3 trn",
-   "url": "https://www.business-standard.com/finance/news/fpis-pull-out-44-166-cr-from-equities-in-oct-2026-outflows-cross-3-trn-126101100210_1.html",
-   "at": "2026-10-11T07:10:39Z",
-   "src": "Business Standard",
-   "kind": "News"
   }
  ],
  "discussions": [
   {
    "src": "Hacker News",
+   "t": "The gap in shared understanding of LLM capability is widening",
+   "url": "https://news.ycombinator.com/item?id=50047422",
+   "link": "https://twitter.com/karpathy/status/2109361546505966046",
+   "up": 53,
+   "com": 23,
+   "at": "2026-10-11T20:20:52.000Z"
+  },
+  {
+   "src": "Hacker News",
    "t": "Terence Tao: Math 2.0 [pdf]",
    "url": "https://news.ycombinator.com/item?id=50043026",
    "link": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
-   "up": 259,
-   "com": 314,
+   "up": 271,
+   "com": 324,
    "at": "2026-10-11T13:16:45.000Z"
   },
   {
@@ -878,7 +865,7 @@
    "t": "YouTuber builds 'Flock-like' camera to track police vehicles, gets police visit",
    "url": "https://news.ycombinator.com/item?id=50045735",
    "link": "https://www.tomshardware.com/tech-industry/cyber-security/canadian-youtuber-builds-flock-like-camera-to-exclusively-track-police-vehicles-officers-visit-his-home-to-express-privacy-concerns",
-   "up": 72,
+   "up": 73,
    "com": 27,
    "at": "2026-10-11T17:40:42.000Z"
   },
@@ -895,7 +882,7 @@
    "src": "Mastodon",
    "t": "But here we run up against an unpleasant reality: the tech sector values the # LLM craze chiefly because it's outrageously inefficient and destructive, alway…",
    "url": "https://cyberpunk.lol/@mxchara/117423667414261621",
-   "up": 31,
+   "up": 35,
    "com": 1,
    "at": "2026-10-11T18:22:52.000Z"
   },
@@ -904,18 +891,9 @@
    "t": "apsw: Another Python SQLite Wrapper",
    "url": "https://news.ycombinator.com/item?id=50045273",
    "link": "https://github.com/rogerbinns/apsw",
-   "up": 44,
-   "com": 12,
+   "up": 46,
+   "com": 13,
    "at": "2026-10-11T16:58:22.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Nicolas Cage says he won't work with Amazon again over AI dispute",
-   "url": "https://news.ycombinator.com/item?id=50041873",
-   "link": "https://www.latimes.com/entertainment-arts/business/story/2026-10-10/nicolas-cage-says-he-wont-work-with-amazon-again-over-ai-dispute",
-   "up": 74,
-   "com": 22,
-   "at": "2026-10-11T11:03:21.000Z"
   }
  ]
 }
