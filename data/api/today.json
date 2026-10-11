@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-11T14:01:05.318Z"
+  "updated": "2026-10-11T14:30:53.671Z"
  },
  "pulse": {
   "trending": 77,
   "accelerating": 2,
   "newModels": 7,
-  "discussions": 44,
-  "stars": 758
+  "discussions": 49,
+  "stars": 807
  },
  "rising": [
   {
@@ -20,12 +20,12 @@
    "owner": "mhtsec",
    "src": "gh",
    "cat": "Agents",
-   "score": 96,
-   "grow": 6,
+   "score": 95,
+   "grow": 7,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 3,075",
-    "+243 in 24h",
+    "★ 3,082",
+    "+245 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -41,8 +41,8 @@
    "grow": null,
    "desc": "A Claude Code skill that turns a technical idea into a detailed, interactive isometric figure of a real machine. It makes SVG with optional WebGL shaders and 3D, for docs, articles and landing pages.",
    "meta": [
-    "★ 1,449",
-    "~459 in 24h",
+    "★ 1,564",
+    "~492 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -56,7 +56,7 @@
    "cat": "Vision",
    "score": 91,
    "grow": 120,
-   "desc": "Vision on Hugging Face · open weights · ♥ 502",
+   "desc": "Vision on Hugging Face · open weights · ♥ 504",
    "meta": [
     "4.7K downloads",
     "Released 2 days ago"
@@ -90,8 +90,8 @@
    "grow": 1,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 2,110",
-    "+56 in 24h",
+    "★ 2,115",
+    "+70 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -152,7 +152,7 @@
    "src": "hf",
    "cat": "Agents",
    "score": 85,
-   "grow": 84,
+   "grow": null,
    "desc": "Model on Hugging Face · open source · ♥ 303",
    "meta": [
     "109K downloads",
@@ -182,6 +182,23 @@
  "breakouts": [],
  "hype": [
   {
+   "name": "ARTEX",
+   "url": "https://github.com/mhtsec/ARTEX",
+   "from": "GitHub",
+   "use": 245,
+   "useLabel": "+245 stars/day",
+   "usePct": 0.5,
+   "talk": [
+    {
+     "src": "BleepingComputer",
+     "t": "ARTEX AI, Claude agents used in cyberattacks on South Korean banks",
+     "url": "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/"
+    }
+   ],
+   "buzz": 1,
+   "verdict": "The hype matches real use"
+  },
+  {
    "name": "whistle",
    "url": "https://huggingface.co/Cactus-Compute/whistle",
    "from": "Hugging Face",
@@ -202,8 +219,8 @@
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 459,
-   "useLabel": "~459 stars/day",
+   "use": 492,
+   "useLabel": "~492 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -317,26 +334,26 @@
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 1449,
-   "d24": 459,
+   "stars": 1564,
+   "d24": 492,
    "est": true,
-   "forks": 112,
+   "forks": 120,
    "contrib": null,
    "score": 91
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 3075,
-   "d24": 243,
+   "stars": 3082,
+   "d24": 245,
    "est": false,
-   "forks": 5499,
+   "forks": 5507,
    "contrib": null,
-   "score": 96
+   "score": 95
   },
   {
    "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 2110,
-   "d24": 56,
+   "stars": 2115,
+   "d24": 70,
    "est": false,
    "forks": 219,
    "contrib": null,
@@ -353,7 +370,7 @@
    "grow": 120,
    "score": 91,
    "cat": "Vision",
-   "likes": 502
+   "likes": 504
   },
   {
    "name": "embeddinggemma-2",
@@ -364,7 +381,7 @@
    "grow": 117,
    "score": 90,
    "cat": "Vision",
-   "likes": 1611
+   "likes": 1617
   },
   {
    "name": "humanizer",
@@ -375,7 +392,7 @@
    "grow": 12,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1013
+   "likes": 1014
   },
   {
    "name": "clef",
@@ -386,7 +403,7 @@
    "grow": 6,
    "score": 87,
    "cat": "Coding",
-   "likes": 2013
+   "likes": 2014
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -397,7 +414,7 @@
    "grow": 4,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 3937
+   "likes": 3939
   },
   {
    "name": "Underdog-Saluki-27B-1.0",
@@ -406,7 +423,7 @@
    "lic": "Open source",
    "at": "2026-10-08T01:47:26.000Z",
    "dl": 108900,
-   "grow": 84,
+   "grow": null,
    "score": 85,
    "cat": "Agents",
    "likes": 303
@@ -758,6 +775,20 @@
    "kind": "News"
   },
   {
+   "t": "Microsoft CEO Satya Nadella Calls For 'Emergency Brake' On Advanced AI",
+   "url": "https://www.ndtvprofit.com/technology/microsoft-ceo-satya-nadella-calls-for-emergency-brake-on-advanced-ai-12168233",
+   "at": "2026-10-11T02:21:21Z",
+   "src": "NDTV Profit",
+   "kind": "News"
+  },
+  {
+   "t": "Comment “Erase” and I’ll send you the prompts 👇 #ai #claude #claudeprompts #privacy #digitalidentity",
+   "url": "https://www.youtube.com/watch?v=gaWJ7JPYFk4",
+   "at": "2026-10-11T01:01:10Z",
+   "src": "Maverick Maltin | ChatGPT, Claude, & AI",
+   "kind": "Video"
+  },
+  {
    "t": "Children and pregnant woman among eight killed in Pennsylvania shooting",
    "url": "https://www.abc.net.au/news/2026-10-11/children-and-pregnant-woman-killed-pennsylvania-shooting/107252788",
    "at": "2026-10-11T00:07:52Z",
@@ -826,30 +857,34 @@
    "at": "2026-10-10T19:45:00.000Z",
    "src": "Techmeme",
    "kind": "News"
-  },
-  {
-   "t": "Nicolas Cage says he probably won’t work with Amazon again over AI concerns.",
-   "url": "https://www.theverge.com/entertainment/1009318/nicolas-cage-says-he-probably-wont-work-with-amazon-again-over-ai-concerns",
-   "at": "2026-10-10T19:24:05Z",
-   "src": "The Verge",
-   "kind": "News"
-  },
-  {
-   "t": "Sources: Nvidia is in talks to acquire or invest more into US open-weights AI startup Reflection AI; the deal may be an acquihire to avoid antitrust scrutiny",
-   "url": "https://www.techmeme.com/261010/p16#a261010p16",
-   "at": "2026-10-10T19:08:43.000Z",
-   "src": "Techmeme",
-   "kind": "News"
   }
  ],
  "discussions": [
   {
    "src": "Hacker News",
+   "t": "Terence Tao: Math 2.0 [pdf]",
+   "url": "https://news.ycombinator.com/item?id=50043026",
+   "link": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
+   "up": 33,
+   "com": 2,
+   "at": "2026-10-11T13:16:45.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Show HN: WallHop – 12ft.io is gone, so I built a replacement",
+   "url": "https://news.ycombinator.com/item?id=50038634",
+   "link": "https://wallhop.io/",
+   "up": 260,
+   "com": 112,
+   "at": "2026-10-11T00:46:48.000Z"
+  },
+  {
+   "src": "Hacker News",
    "t": "AI is creating a 'human premium' for art created by people",
    "url": "https://news.ycombinator.com/item?id=50042107",
    "link": "https://www.bbc.com/news/articles/c5vgjm3gk7rzo",
-   "up": 51,
-   "com": 62,
+   "up": 55,
+   "com": 65,
    "at": "2026-10-11T11:34:28.000Z"
   },
   {
@@ -857,26 +892,17 @@
    "t": "Scandinavia's first farmers slaughtered hunter-gatherer population, DNA suggests",
    "url": "https://news.ycombinator.com/item?id=50042370",
    "link": "https://phys.org/news/2024-02-scandinavia-farmers-slaughtered-hunter-population.html",
-   "up": 38,
-   "com": 43,
+   "up": 39,
+   "com": 49,
    "at": "2026-10-11T12:07:22.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Show HN: WallHop – 12ft.io is gone, so I built a replacement",
-   "url": "https://news.ycombinator.com/item?id=50038634",
-   "link": "https://wallhop.io/",
-   "up": 258,
-   "com": 112,
-   "at": "2026-10-11T00:46:48.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Using AI for Just 10 Minutes Erodes Your Ability to Persist at Hard Things",
    "url": "https://news.ycombinator.com/item?id=50041765",
    "link": "https://vcresearch.berkeley.edu/news/using-ai-just-10-minutes-erodes-your-ability-persist-hard-things",
-   "up": 46,
-   "com": 56,
+   "up": 49,
+   "com": 59,
    "at": "2026-10-11T10:47:21.000Z"
   },
   {
@@ -884,18 +910,9 @@
    "t": "500B Tokens Later: Letting AI Agents Decompile a First-Person Shooter",
    "url": "https://news.ycombinator.com/item?id=50039092",
    "link": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
-   "up": 117,
-   "com": 83,
+   "up": 118,
+   "com": 85,
    "at": "2026-10-11T02:02:38.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
-   "url": "https://news.ycombinator.com/item?id=50035886",
-   "link": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
-   "up": 169,
-   "com": 107,
-   "at": "2026-10-10T18:48:35.000Z"
   }
  ]
 }
