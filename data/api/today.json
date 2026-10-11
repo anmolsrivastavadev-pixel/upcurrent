@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-11T13:30:57.823Z"
+  "updated": "2026-10-11T14:01:05.318Z"
  },
  "pulse": {
   "trending": 77,
-  "accelerating": 1,
+  "accelerating": 2,
   "newModels": 7,
-  "discussions": 43,
-  "stars": 1114
+  "discussions": 44,
+  "stars": 758
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 6,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 3,067",
-    "+239 in 24h",
+    "★ 3,075",
+    "+243 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -41,8 +41,8 @@
    "grow": null,
    "desc": "A Claude Code skill that turns a technical idea into a detailed, interactive isometric figure of a real machine. It makes SVG with optional WebGL shaders and 3D, for docs, articles and landing pages.",
    "meta": [
-    "★ 1,345",
-    "~429 in 24h",
+    "★ 1,449",
+    "~459 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -55,8 +55,8 @@
    "src": "hf",
    "cat": "Vision",
    "score": 91,
-   "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 499",
+   "grow": 120,
+   "desc": "Vision on Hugging Face · open weights · ♥ 502",
    "meta": [
     "4.7K downloads",
     "Released 2 days ago"
@@ -64,23 +64,6 @@
    "at": "2026-10-09T04:50:01.000Z",
    "breakout": null,
    "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo"
-  },
-  {
-   "name": "aurelio-finance",
-   "owner": "LosaLosSantos",
-   "src": "gh",
-   "cat": "LLMs",
-   "score": 90,
-   "grow": null,
-   "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
-   "meta": [
-    "★ 2,103",
-    "~446 in 24h",
-    "Created 5 days ago"
-   ],
-   "at": "2026-10-06T20:14:19Z",
-   "breakout": null,
-   "url": "https://github.com/LosaLosSantos/aurelio-finance"
   },
   {
    "name": "embeddinggemma-2",
@@ -97,6 +80,23 @@
    "at": "2026-09-14T14:53:42.000Z",
    "breakout": null,
    "url": "https://huggingface.co/google/embeddinggemma-2"
+  },
+  {
+   "name": "aurelio-finance",
+   "owner": "LosaLosSantos",
+   "src": "gh",
+   "cat": "LLMs",
+   "score": 89,
+   "grow": 1,
+   "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
+   "meta": [
+    "★ 2,110",
+    "+56 in 24h",
+    "Created 5 days ago"
+   ],
+   "at": "2026-10-06T20:14:19Z",
+   "breakout": null,
+   "url": "https://github.com/LosaLosSantos/aurelio-finance"
   },
   {
    "name": "humanizer",
@@ -156,7 +156,7 @@
    "desc": "Model on Hugging Face · open source · ♥ 303",
    "meta": [
     "109K downloads",
-    "Released 3 days ago"
+    "Released 4 days ago"
    ],
    "at": "2026-10-08T01:47:26.000Z",
    "breakout": null,
@@ -199,11 +199,11 @@
    "verdict": "More talk than use"
   },
   {
-   "name": "aurelio-finance",
-   "url": "https://github.com/LosaLosSantos/aurelio-finance",
+   "name": "anatomy",
+   "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 446,
-   "useLabel": "~446 stars/day",
+   "use": 459,
+   "useLabel": "~459 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -316,31 +316,31 @@
  ],
  "github": [
   {
-   "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 2103,
-   "d24": 446,
-   "est": true,
-   "forks": 215,
-   "contrib": null,
-   "score": 90
-  },
-  {
    "repo": "wheresryan22/anatomy",
-   "stars": 1345,
-   "d24": 429,
+   "stars": 1449,
+   "d24": 459,
    "est": true,
-   "forks": 106,
+   "forks": 112,
    "contrib": null,
    "score": 91
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 3067,
-   "d24": 239,
+   "stars": 3075,
+   "d24": 243,
    "est": false,
-   "forks": 5496,
+   "forks": 5499,
    "contrib": null,
    "score": 96
+  },
+  {
+   "repo": "LosaLosSantos/aurelio-finance",
+   "stars": 2110,
+   "d24": 56,
+   "est": false,
+   "forks": 219,
+   "contrib": null,
+   "score": 89
   }
  ],
  "models": [
@@ -350,10 +350,10 @@
    "lic": "Open weights",
    "at": "2026-10-09T04:50:01.000Z",
    "dl": 4702,
-   "grow": null,
+   "grow": 120,
    "score": 91,
    "cat": "Vision",
-   "likes": 499
+   "likes": 502
   },
   {
    "name": "embeddinggemma-2",
@@ -364,7 +364,7 @@
    "grow": 117,
    "score": 90,
    "cat": "Vision",
-   "likes": 1607
+   "likes": 1611
   },
   {
    "name": "humanizer",
@@ -375,7 +375,7 @@
    "grow": 12,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1011
+   "likes": 1013
   },
   {
    "name": "clef",
@@ -386,7 +386,7 @@
    "grow": 6,
    "score": 87,
    "cat": "Coding",
-   "likes": 2012
+   "likes": 2013
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -397,7 +397,7 @@
    "grow": 4,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 3933
+   "likes": 3937
   },
   {
    "name": "Underdog-Saluki-27B-1.0",
@@ -848,8 +848,8 @@
    "t": "AI is creating a 'human premium' for art created by people",
    "url": "https://news.ycombinator.com/item?id=50042107",
    "link": "https://www.bbc.com/news/articles/c5vgjm3gk7rzo",
-   "up": 47,
-   "com": 60,
+   "up": 51,
+   "com": 62,
    "at": "2026-10-11T11:34:28.000Z"
   },
   {
@@ -857,8 +857,8 @@
    "t": "Scandinavia's first farmers slaughtered hunter-gatherer population, DNA suggests",
    "url": "https://news.ycombinator.com/item?id=50042370",
    "link": "https://phys.org/news/2024-02-scandinavia-farmers-slaughtered-hunter-population.html",
-   "up": 30,
-   "com": 21,
+   "up": 38,
+   "com": 43,
    "at": "2026-10-11T12:07:22.000Z"
   },
   {
@@ -884,7 +884,7 @@
    "t": "500B Tokens Later: Letting AI Agents Decompile a First-Person Shooter",
    "url": "https://news.ycombinator.com/item?id=50039092",
    "link": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
-   "up": 116,
+   "up": 117,
    "com": 83,
    "at": "2026-10-11T02:02:38.000Z"
   },
