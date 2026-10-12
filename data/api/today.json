@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-12T16:01:08.219Z"
+  "updated": "2026-10-12T16:30:55.142Z"
  },
  "pulse": {
   "trending": 75,
   "accelerating": 0,
-  "newModels": 5,
-  "discussions": 39,
-  "stars": 4810
+  "newModels": 4,
+  "discussions": 40,
+  "stars": 4834
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 95,
-   "grow": 28,
+   "grow": 30,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 5,308",
-    "+3,277 in 24h",
+    "★ 5,394",
+    "+3,326 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -41,13 +41,29 @@
    "grow": null,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 3,519",
-    "~793 in 24h",
+    "★ 3,531",
+    "~792 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
    "breakout": null,
    "url": "https://github.com/mhtsec/ARTEX"
+  },
+  {
+   "name": "Qwen-Image-2.1-Turbo",
+   "owner": "Qwen",
+   "src": "hf",
+   "cat": "Vision",
+   "score": 91,
+   "grow": 44,
+   "desc": "Vision on Hugging Face · open weights · ♥ 607",
+   "meta": [
+    "6.8K downloads",
+    "Released 3 days ago"
+   ],
+   "at": "2026-10-09T04:50:01.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo"
   },
   {
    "name": "embeddinggemma-2",
@@ -64,22 +80,6 @@
    "at": "2026-09-14T14:53:42.000Z",
    "breakout": null,
    "url": "https://huggingface.co/google/embeddinggemma-2"
-  },
-  {
-   "name": "Qwen-Image-2.1-Turbo",
-   "owner": "Qwen",
-   "src": "hf",
-   "cat": "Vision",
-   "score": 90,
-   "grow": 44,
-   "desc": "Vision on Hugging Face · open weights · ♥ 603",
-   "meta": [
-    "6.8K downloads",
-    "Released 3 days ago"
-   ],
-   "at": "2026-10-09T04:50:01.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo"
   },
   {
    "name": "humanizer",
@@ -106,8 +106,8 @@
    "grow": 16,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 2,712",
-    "+740 in 24h",
+    "★ 2,715",
+    "+716 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -147,22 +147,6 @@
    "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0"
   },
   {
-   "name": "clef",
-   "owner": "Cloudflare",
-   "src": "hf",
-   "cat": "Coding",
-   "score": 86,
-   "grow": 5,
-   "desc": "Model on Hugging Face · open source · ♥ 2.1K",
-   "meta": [
-    "15K downloads",
-    "Released 12 days ago"
-   ],
-   "at": "2026-09-30T21:15:35.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/Cloudflare/clef"
-  },
-  {
    "name": "S-Space: Exploring Spatial Workspace in Multimodal Language Models",
    "owner": "Paper",
    "src": "paper",
@@ -172,10 +156,27 @@
    "grow": null,
    "desc": "Multimodal language models (MLLMs) exhibit promising spatial reasoning capabilities, yet the internal mechanisms supporting them remain poorly understood.",
    "meta": [
-    "▲ 197 upvotes",
+    "▲ 198 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-09T08:48:41.000Z",
+   "breakout": null
+  },
+  {
+   "name": "HireKey",
+   "owner": "Product Hunt",
+   "src": "ph",
+   "url": "https://www.producthunt.com/products/hirekey?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29",
+   "cat": "Coding",
+   "score": 85,
+   "grow": null,
+   "desc": "Your recruiter-informed AI copilot for tech job search",
+   "meta": [
+    "▲ 268 votes",
+    "38 comments",
+    "Launched yesterday"
+   ],
+   "at": "2026-10-11T07:01:00Z",
    "breakout": null
   }
  ],
@@ -185,8 +186,8 @@
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 3277,
-   "useLabel": "+3,277 stars/day",
+   "use": 3326,
+   "useLabel": "+3,326 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -300,33 +301,44 @@
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 5308,
-   "d24": 3277,
+   "stars": 5394,
+   "d24": 3326,
    "est": false,
-   "forks": 387,
+   "forks": 391,
    "contrib": 5,
    "score": 95
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 3519,
-   "d24": 793,
+   "stars": 3531,
+   "d24": 792,
    "est": true,
-   "forks": 5935,
+   "forks": 5943,
    "contrib": null,
    "score": 93
   },
   {
    "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 2712,
-   "d24": 740,
+   "stars": 2715,
+   "d24": 716,
    "est": false,
-   "forks": 357,
+   "forks": 361,
    "contrib": null,
    "score": 88
   }
  ],
  "models": [
+  {
+   "name": "Qwen-Image-2.1-Turbo",
+   "org": "Qwen",
+   "lic": "Open weights",
+   "at": "2026-10-09T04:50:01.000Z",
+   "dl": 6787,
+   "grow": 44,
+   "score": 91,
+   "cat": "Vision",
+   "likes": 607
+  },
   {
    "name": "embeddinggemma-2",
    "org": "google",
@@ -336,18 +348,7 @@
    "grow": 17,
    "score": 90,
    "cat": "Vision",
-   "likes": 1880
-  },
-  {
-   "name": "Qwen-Image-2.1-Turbo",
-   "org": "Qwen",
-   "lic": "Open weights",
-   "at": "2026-10-09T04:50:01.000Z",
-   "dl": 6787,
-   "grow": 44,
-   "score": 90,
-   "cat": "Vision",
-   "likes": 603
+   "likes": 1885
   },
   {
    "name": "humanizer",
@@ -358,7 +359,7 @@
    "grow": 22,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1276
+   "likes": 1286
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-Quantized",
@@ -369,7 +370,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Infrastructure",
-   "likes": 4060
+   "likes": 4062
   },
   {
    "name": "Underdog-Saluki-27B-1.0",
@@ -390,7 +391,7 @@
    "at": "2026-09-30T21:15:35.000Z",
    "dl": 15064,
    "grow": 5,
-   "score": 86,
+   "score": 84,
    "cat": "Coding",
    "likes": 2073
   }
@@ -711,9 +712,9 @@
  },
  "headlines": [
   {
-   "t": "Burnham claims EU summit could boost growth and help control illegal migration – UK politics live",
+   "t": "Burnham says ‘public will be the boss’ in any future decision about closer relationship with the EU – UK politics live",
    "url": "https://www.theguardian.com/politics/live/2026/oct/12/uk-politics-live-tories-andy-burnham-russian-interference-brexit-eu-latest",
-   "at": "2026-10-12T15:59:19Z",
+   "at": "2026-10-12T16:21:14Z",
    "src": "The Guardian",
    "kind": "News"
   },
@@ -816,10 +817,10 @@
    "kind": "Video"
   },
   {
-   "t": "OpenAI film 'Artificial' turns lens on creators of 'new world,’ Andrew Garfield says",
-   "url": "https://www.thehindu.com/sci-tech/technology/openai-film-artificial-turns-lens-on-creators-of-new-world-andrew-garfield-says/article71573676.ece",
-   "at": "2026-10-12T03:50:38Z",
-   "src": "The Hindu",
+   "t": "India's tech push: five things to know",
+   "url": "https://www.thestar.com.my/tech/tech-news/2026/10/12/india039s-tech-push-five-things-to-know",
+   "at": "2026-10-12T04:30:00Z",
+   "src": "The Star",
    "kind": "News"
   }
  ],
@@ -829,8 +830,8 @@
    "t": "Why aren't AI companies being charged for hacking?",
    "url": "https://news.ycombinator.com/item?id=50057278",
    "link": "https://mortoray.com/why-arent-ai-companies-being-charged-for-hacking/",
-   "up": 215,
-   "com": 183,
+   "up": 251,
+   "com": 233,
    "at": "2026-10-12T14:52:37.000Z"
   },
   {
@@ -838,17 +839,26 @@
    "t": "QGIS bans AI assisted contributions",
    "url": "https://news.ycombinator.com/item?id=50054751",
    "link": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
-   "up": 295,
-   "com": 309,
+   "up": 310,
+   "com": 329,
    "at": "2026-10-12T11:22:24.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "GLM-Legal: Advancing Agentic Legal Intelligence",
+   "url": "https://news.ycombinator.com/item?id=50058507",
+   "link": "https://z.ai/blog/glm-legal",
+   "up": 47,
+   "com": 13,
+   "at": "2026-10-12T16:11:45.000Z"
   },
   {
    "src": "Hacker News",
    "t": "The gap in shared understanding of LLM capability is widening",
    "url": "https://news.ycombinator.com/item?id=50047422",
    "link": "https://twitter.com/karpathy/status/2109361546505966046",
-   "up": 586,
-   "com": 844,
+   "up": 599,
+   "com": 864,
    "at": "2026-10-11T20:20:52.000Z"
   },
   {
@@ -856,8 +866,8 @@
    "t": "Incident with Actions, Pull Requests and Issues",
    "url": "https://news.ycombinator.com/item?id=50055375",
    "link": "https://www.githubstatus.com/incidents/93njd414rpbx",
-   "up": 106,
-   "com": 85,
+   "up": 112,
+   "com": 96,
    "at": "2026-10-12T12:23:51.000Z"
   },
   {
@@ -865,18 +875,9 @@
    "t": "Zod 4.6.6 compromised by malware?",
    "url": "https://news.ycombinator.com/item?id=50052814",
    "link": "https://github.com/colinhacks/zod/commit/d821685ea6732436fcdf786a81d076958471e467",
-   "up": 168,
+   "up": 171,
    "com": 48,
    "at": "2026-10-12T07:47:29.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Show HN: PS2 games statically recompiled to WebAssembly",
-   "url": "https://news.ycombinator.com/item?id=50052251",
-   "link": "https://github.com/snuri00/ps2-web-recomp",
-   "up": 158,
-   "com": 84,
-   "at": "2026-10-12T06:46:53.000Z"
   }
  ]
 }
