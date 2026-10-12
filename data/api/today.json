@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-12T22:01:04.246Z"
+  "updated": "2026-10-12T22:30:52.056Z"
  },
  "pulse": {
   "trending": 76,
   "accelerating": 0,
   "newModels": 5,
-  "discussions": 57,
-  "stars": 4149
+  "discussions": 55,
+  "stars": 4117
  },
  "rising": [
   {
@@ -20,13 +20,13 @@
    "owner": "wheresryan22",
    "src": "gh",
    "cat": "Agents",
-   "score": 95,
-   "grow": 45,
+   "score": 94,
+   "grow": 47,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 6,029",
-    "+3,115 in 24h",
-    "Created 4 days ago"
+    "★ 6,076",
+    "+3,087 in 24h",
+    "Created 5 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
    "breakout": null,
@@ -41,8 +41,8 @@
    "grow": 3,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 3,554",
-    "+211 in 24h",
+    "★ 3,557",
+    "+208 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -56,7 +56,7 @@
    "cat": "Vision",
    "score": 92,
    "grow": 44,
-   "desc": "Vision on Hugging Face · open weights · ♥ 627",
+   "desc": "Vision on Hugging Face · open weights · ♥ 629",
    "meta": [
     "6.8K downloads",
     "Released 4 days ago"
@@ -106,8 +106,8 @@
    "grow": 20,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 2,806",
-    "+619 in 24h",
+    "★ 2,818",
+    "+618 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -147,19 +147,19 @@
    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized"
   },
   {
-   "name": "S-Space: Exploring Spatial Workspace in Multimodal Language Models",
+   "name": "MetaKernelBench: Measuring GPU Kernel Knowledge Transfer Beyond Code",
    "owner": "Paper",
    "src": "paper",
-   "url": "https://huggingface.co/papers/2610.13527",
+   "url": "https://huggingface.co/papers/2610.05014",
    "cat": "Research",
    "score": 85,
    "grow": null,
-   "desc": "Multimodal language models (MLLMs) exhibit promising spatial reasoning capabilities, yet the internal mechanisms supporting them remain poorly understood.",
+   "desc": "Recent GPU kernel optimization agents retain what they learn in knowledge bases or as distilled skills.",
    "meta": [
-    "▲ 201 upvotes",
+    "▲ 16 upvotes",
     "Hugging Face Papers"
    ],
-   "at": "2026-10-09T08:48:41.000Z",
+   "at": "2026-10-03T20:00:00.000Z",
    "breakout": null
   },
   {
@@ -232,8 +232,8 @@
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 3115,
-   "useLabel": "+3,115 stars/day",
+   "use": 3087,
+   "useLabel": "+3,087 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -347,17 +347,17 @@
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 6029,
-   "d24": 3115,
+   "stars": 6076,
+   "d24": 3087,
    "est": false,
-   "forks": 429,
+   "forks": 431,
    "contrib": 5,
-   "score": 95
+   "score": 94
   },
   {
    "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 2806,
-   "d24": 619,
+   "stars": 2818,
+   "d24": 618,
    "est": false,
    "forks": 379,
    "contrib": null,
@@ -365,8 +365,8 @@
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 3554,
-   "d24": 211,
+   "stars": 3557,
+   "d24": 208,
    "est": false,
    "forks": 5966,
    "contrib": null,
@@ -374,10 +374,10 @@
   },
   {
    "repo": "bherbruck/solidcraft",
-   "stars": 1048,
+   "stars": 1052,
    "d24": 204,
    "est": true,
-   "forks": 102,
+   "forks": 104,
    "contrib": null,
    "score": 78
   }
@@ -392,7 +392,7 @@
    "grow": 44,
    "score": 92,
    "cat": "Vision",
-   "likes": 627
+   "likes": 629
   },
   {
    "name": "embeddinggemma-2",
@@ -403,7 +403,7 @@
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 1922
+   "likes": 1925
   },
   {
    "name": "humanizer",
@@ -414,7 +414,7 @@
    "grow": null,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1307
+   "likes": 1311
   },
   {
    "name": "Underdog-Saluki-27B-1.0",
@@ -448,7 +448,7 @@
    "grow": null,
    "score": 84,
    "cat": "Coding",
-   "likes": 2086
+   "likes": 2087
   }
  ],
  "free": [
@@ -745,6 +745,13 @@
  },
  "headlines": [
   {
+   "t": "Sources: JPMorgan and Goldman, leading a $5B loan sale with a yield of ~11% for AI startup Volta, took a rare move to limit exposure by underwriting just $1.3B",
+   "url": "https://www.techmeme.com/261012/p41#a261012p41",
+   "at": "2026-10-12T22:10:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Anthropic researchers say small AI models may be months away from being able to self-replicate on IoT devices like smart ovens and off-brand Android TV boxes",
    "url": "https://www.techmeme.com/261012/p40#a261012p40",
    "at": "2026-10-12T21:50:01.000Z",
@@ -836,24 +843,17 @@
    "kind": "News"
   },
   {
-   "t": "‘I’ve become significantly more cautious’: six parents on limiting their kids’ social media and AI use",
-   "url": "https://www.theguardian.com/us-news/2026/oct/12/parents-limiting-social-media-ai-use",
-   "at": "2026-10-12T10:00:51Z",
-   "src": "The Guardian",
+   "t": "S&P 500 Profits Set to Surge More Than 30% in Q3 With AI Giants Dominating Growth",
+   "url": "https://www.ibtimes.com/sp-500-profits-set-surge-more-30-q3-ai-giants-dominating-growth-3808416",
+   "at": "2026-10-12T10:26:01Z",
+   "src": "International Business Times",
    "kind": "News"
   },
   {
-   "t": "Trinasolar Introduces Latest PV and Energy Storage Solutions in Vietnam",
-   "url": "https://www.manilatimes.net/2026/10/12/tmt-newswire/pr-newswire/trinasolar-introduces-latest-pv-and-energy-storage-solutions-in-vietnam/2443579",
-   "at": "2026-10-12T09:57:24Z",
-   "src": "The Manila Times",
-   "kind": "News"
-  },
-  {
-   "t": "Stars in their eyes, Finaltis analysts look to the skies and beyond",
-   "url": "https://www.marketscreener.com/news/stars-in-their-eyes-finaltis-analysts-look-to-the-skies-and-beyond-ce785ddcde8ff227",
-   "at": "2026-10-12T09:49:49Z",
-   "src": "MarketScreener",
+   "t": "Firmus IPO Debacle Raises the Bar for Asia AI Deals in Pipeline",
+   "url": "https://www.livemint.com/market/firmus-ipo-debacle-raises-the-bar-for-asia-ai-deals-in-pipeline-11791800511745.html",
+   "at": "2026-10-12T10:21:51Z",
+   "src": "Livemint",
    "kind": "News"
   }
  ],
@@ -863,8 +863,8 @@
    "t": "Codex CLI installs a persistent, self-updating background daemon by default",
    "url": "https://news.ycombinator.com/item?id=50060694",
    "link": "https://github.com/openai/codex/issues/48195",
-   "up": 367,
-   "com": 205,
+   "up": 382,
+   "com": 212,
    "at": "2026-10-12T18:29:04.000Z"
   },
   {
@@ -872,17 +872,26 @@
    "t": "Muse Wonder",
    "url": "https://news.ycombinator.com/item?id=50059115",
    "link": "https://research.meta.ai/blog/muse-wonder",
-   "up": 450,
-   "com": 239,
+   "up": 468,
+   "com": 252,
    "at": "2026-10-12T16:48:01.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "AI Is a Tool. Using It Well Takes Skill.",
+   "url": "https://news.ycombinator.com/item?id=50063427",
+   "link": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
+   "up": 78,
+   "com": 59,
+   "at": "2026-10-12T21:40:18.000Z"
   },
   {
    "src": "Hacker News",
    "t": "GLM-Legal",
    "url": "https://news.ycombinator.com/item?id=50058507",
    "link": "https://z.ai/blog/glm-legal",
-   "up": 366,
-   "com": 205,
+   "up": 377,
+   "com": 212,
    "at": "2026-10-12T16:11:45.000Z"
   },
   {
@@ -890,8 +899,8 @@
    "t": "OpenFatigue™ – Open is the new closed",
    "url": "https://news.ycombinator.com/item?id=50061278",
    "link": "https://openfatigue.ai/",
-   "up": 171,
-   "com": 34,
+   "up": 178,
+   "com": 39,
    "at": "2026-10-12T19:08:21.000Z"
   },
   {
@@ -899,18 +908,9 @@
    "t": "AI coding agents generate more code, but not more software",
    "url": "https://news.ycombinator.com/item?id=50059523",
    "link": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
-   "up": 264,
-   "com": 215,
+   "up": 274,
+   "com": 225,
    "at": "2026-10-12T17:14:01.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Why aren't AI companies being charged for hacking?",
-   "url": "https://news.ycombinator.com/item?id=50057278",
-   "link": "https://mortoray.com/why-arent-ai-companies-being-charged-for-hacking/",
-   "up": 301,
-   "com": 318,
-   "at": "2026-10-12T14:52:37.000Z"
   }
  ]
 }
