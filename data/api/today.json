@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-12T20:01:06.843Z"
+  "updated": "2026-10-12T20:30:54.616Z"
  },
  "pulse": {
   "trending": 76,
   "accelerating": 0,
   "newModels": 5,
-  "discussions": 46,
-  "stars": 4304
+  "discussions": 45,
+  "stars": 4272
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 95,
-   "grow": 41,
+   "grow": 42,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 5,833",
-    "+3,236 in 24h",
+    "★ 5,889",
+    "+3,216 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -41,8 +41,8 @@
    "grow": 2,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 3,546",
-    "+240 in 24h",
+    "★ 3,547",
+    "+229 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -56,7 +56,7 @@
    "cat": "Vision",
    "score": 92,
    "grow": 44,
-   "desc": "Vision on Hugging Face · open weights · ♥ 621",
+   "desc": "Vision on Hugging Face · open weights · ♥ 622",
    "meta": [
     "6.8K downloads",
     "Released 4 days ago"
@@ -106,8 +106,8 @@
    "grow": 18,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 2,762",
-    "+630 in 24h",
+    "★ 2,773",
+    "+627 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -184,7 +184,7 @@
   {
    "key": "opus 5.5",
    "label": "Opus 5.5",
-   "n": 4,
+   "n": 3,
    "sources": [
     {
      "src": "Hacker News",
@@ -195,11 +195,6 @@
      "src": "Mastodon",
      "t": "\"A developer frustrated by Adobe's cancellation fees used Anthropic's Opus 5.5 model and pure Rust to rewrite the entire Creative Cloud suite as open-source …",
      "url": "https://tldr.nettime.org/@remixtures/117427110761117205"
-    },
-    {
-     "src": "YouTube",
-     "t": "How To Make Edits With Claude Opus 5.5 + Higgsfield Katana",
-     "url": "https://www.youtube.com/watch?v=rZvF_EWZoHw"
     },
     {
      "src": "GitHub",
@@ -228,22 +223,17 @@
      "src": "Mastodon",
      "t": "\"A developer frustrated by Adobe's cancellation fees used Anthropic's Opus 5.5 model and pure Rust to rewrite the entire Creative Cloud suite as open-source …",
      "url": "https://tldr.nettime.org/@remixtures/117427110761117205"
-    },
-    {
-     "src": "YouTube",
-     "t": "How To Make Edits With Claude Opus 5.5 + Higgsfield Katana",
-     "url": "https://www.youtube.com/watch?v=rZvF_EWZoHw"
     }
    ],
-   "buzz": 3,
+   "buzz": 2,
    "verdict": "Talk only, no public usage numbers"
   },
   {
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 3236,
-   "useLabel": "+3,236 stars/day",
+   "use": 3216,
+   "useLabel": "+3,216 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -357,17 +347,17 @@
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 5833,
-   "d24": 3236,
+   "stars": 5889,
+   "d24": 3216,
    "est": false,
-   "forks": 413,
+   "forks": 419,
    "contrib": 5,
    "score": 95
   },
   {
    "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 2762,
-   "d24": 630,
+   "stars": 2773,
+   "d24": 627,
    "est": false,
    "forks": 379,
    "contrib": null,
@@ -375,8 +365,8 @@
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 3546,
-   "d24": 240,
+   "stars": 3547,
+   "d24": 229,
    "est": false,
    "forks": 5962,
    "contrib": null,
@@ -384,8 +374,8 @@
   },
   {
    "repo": "bherbruck/solidcraft",
-   "stars": 1001,
-   "d24": 198,
+   "stars": 1015,
+   "d24": 200,
    "est": true,
    "forks": 96,
    "contrib": null,
@@ -402,7 +392,7 @@
    "grow": 44,
    "score": 92,
    "cat": "Vision",
-   "likes": 621
+   "likes": 622
   },
   {
    "name": "embeddinggemma-2",
@@ -413,7 +403,7 @@
    "grow": 17,
    "score": 90,
    "cat": "Vision",
-   "likes": 1913
+   "likes": 1916
   },
   {
    "name": "humanizer",
@@ -424,7 +414,7 @@
    "grow": 22,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1302
+   "likes": 1303
   },
   {
    "name": "Underdog-Saluki-27B-1.0",
@@ -447,7 +437,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 4079
+   "likes": 4082
   },
   {
    "name": "clef",
@@ -458,7 +448,7 @@
    "grow": 5,
    "score": 84,
    "cat": "Coding",
-   "likes": 2083
+   "likes": 2084
   }
  ],
  "free": [
@@ -755,6 +745,20 @@
  },
  "headlines": [
   {
+   "t": "Sources: Epic has delayed the release of an upcoming game, instructing developers to implement an \"AI first\" production model with \"no more hand-written code\"",
+   "url": "https://www.techmeme.com/261012/p39#a261012p39",
+   "at": "2026-10-12T20:25:00.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Suki, an AI ambient scribe for healthcare providers, raised a $90M Series E led by Healthier Capital; a source says it projects $60M-$80M in revenue this year",
+   "url": "https://www.techmeme.com/261012/p38#a261012p38",
+   "at": "2026-10-12T20:00:48.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Burnham says ‘public will be the boss’ in any future decision about closer relationship with the EU – as it happened",
    "url": "https://www.theguardian.com/politics/live/2026/oct/12/uk-politics-live-tories-andy-burnham-russian-interference-brexit-eu-latest",
    "at": "2026-10-12T17:34:40Z",
@@ -811,24 +815,10 @@
    "kind": "News"
   },
   {
-   "t": "Analysis: constructing and equipping a 1GW AI data center in Abilene, Texas, could cost ~$30B, including $17B on chips, $3B on power, and $2.4B on construction",
-   "url": "https://www.techmeme.com/261012/p24#a261012p24",
-   "at": "2026-10-12T13:55:13.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Cyber-attack similar to OpenAI Medicare breach seems likely in UK, says minister",
    "url": "https://www.theguardian.com/technology/2026/oct/12/cyber-attack-like-openai-medicare-breach-seems-likely-in-uk-says-minister",
    "at": "2026-10-12T13:52:55Z",
    "src": "The Guardian",
-   "kind": "News"
-  },
-  {
-   "t": "A profile of Microsoft EVP of Copilot Charles Lamanna, a potential Satya Nadella successor; a source says Microsoft is on track to pay Anthropic $2B+ per year",
-   "url": "https://www.techmeme.com/261012/p23#a261012p23",
-   "at": "2026-10-12T13:45:00.000Z",
-   "src": "Techmeme",
    "kind": "News"
   },
   {
@@ -846,24 +836,24 @@
    "kind": "News"
   },
   {
-   "t": "Why artificial intelligence must be stopped now",
-   "url": "https://www.resilience.org/stories/2026-10-12/why-artificial-intelligence-must-be-stopped-now/",
-   "at": "2026-10-12T08:00:00Z",
-   "src": "Resilience",
+   "t": "Intel, Broadcom CEOs warn capital crunch could become AI bottleneck",
+   "url": "https://www.cnbc.com/2026/10/12/intel-broadcom-ceos-warn-capital-crunch-could-become-ai-bottleneck.html",
+   "at": "2026-10-12T08:27:52Z",
+   "src": "CNBC",
    "kind": "News"
   },
   {
-   "t": "COLUMNIST: Risk taking might be the price of progress",
-   "url": "https://www.arkansasonline.com/news/2026/oct/12/columnist-risk-taking-might-be-the-price-of/",
-   "at": "2026-10-12T07:59:00Z",
-   "src": "Arkansas Online",
+   "t": "Hexaview joins Anthropic and OpenAI partner programs, backed by Founder Ankit Agarwal’s AI",
+   "url": "https://www.tribuneindia.com/news/business/hexaview-joins-anthropic-and-openai-partner-programs-backed-by-founder-ankit-agarwals-ai-led-legacy-transformation-playbook/",
+   "at": "2026-10-12T08:26:08Z",
+   "src": "The Tribune",
    "kind": "News"
   },
   {
-   "t": "AI less regulated than milk, Microsoft president says in warning over safety",
-   "url": "https://www.theguardian.com/technology/2026/oct/12/ai-less-regulated-than-milk-microsoft-president-calls-for-tougher-rules",
-   "at": "2026-10-12T07:52:46Z",
-   "src": "The Guardian",
+   "t": "Productivity gains from AI could help offset Asia's ageing population problem, IMF says",
+   "url": "https://www.marketscreener.com/news/productivity-gains-from-ai-could-help-offset-asia-s-ageing-population-problem-imf-says-ce785ddcde8ff12c",
+   "at": "2026-10-12T08:23:32Z",
+   "src": "MarketScreener",
    "kind": "News"
   }
  ],
@@ -873,8 +863,8 @@
    "t": "Codex CLI installs a persistent, self-updating background daemon by default",
    "url": "https://news.ycombinator.com/item?id=50060694",
    "link": "https://github.com/openai/codex/issues/48195",
-   "up": 210,
-   "com": 125,
+   "up": 272,
+   "com": 164,
    "at": "2026-10-12T18:29:04.000Z"
   },
   {
@@ -882,26 +872,17 @@
    "t": "Muse Wonder",
    "url": "https://news.ycombinator.com/item?id=50059115",
    "link": "https://research.meta.ai/blog/muse-wonder",
-   "up": 362,
-   "com": 167,
+   "up": 396,
+   "com": 193,
    "at": "2026-10-12T16:48:01.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Just say no to OpenAI and Anthropic",
-   "url": "https://news.ycombinator.com/item?id=50060500",
-   "link": "https://micahflee.com/just-say-no-to-openai-and-anthropic/",
-   "up": 141,
-   "com": 121,
-   "at": "2026-10-12T18:17:29.000Z"
   },
   {
    "src": "Hacker News",
    "t": "GLM-Legal",
    "url": "https://news.ycombinator.com/item?id=50058507",
    "link": "https://z.ai/blog/glm-legal",
-   "up": 294,
-   "com": 163,
+   "up": 313,
+   "com": 172,
    "at": "2026-10-12T16:11:45.000Z"
   },
   {
@@ -909,17 +890,26 @@
    "t": "Introducing OpenFatigue",
    "url": "https://news.ycombinator.com/item?id=50061278",
    "link": "https://openfatigue.ai/",
-   "up": 62,
-   "com": 12,
+   "up": 96,
+   "com": 19,
    "at": "2026-10-12T19:08:21.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Just say no to OpenAI and Anthropic",
+   "url": "https://news.ycombinator.com/item?id=50060500",
+   "link": "https://micahflee.com/just-say-no-to-openai-and-anthropic/",
+   "up": 143,
+   "com": 127,
+   "at": "2026-10-12T18:17:29.000Z"
   },
   {
    "src": "Hacker News",
    "t": "AI coding agents generate more code, but not more software",
    "url": "https://news.ycombinator.com/item?id=50059523",
    "link": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
-   "up": 168,
-   "com": 134,
+   "up": 194,
+   "com": 160,
    "at": "2026-10-12T17:14:01.000Z"
   }
  ]
