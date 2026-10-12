@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-12T05:01:06.288Z"
+  "updated": "2026-10-12T05:30:53.352Z"
  },
  "pulse": {
   "trending": 76,
   "accelerating": 1,
   "newModels": 8,
-  "discussions": 35,
-  "stars": 4689
+  "discussions": 37,
+  "stars": 4664
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 95,
-   "grow": 277,
+   "grow": 284,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 3,849",
-    "+3,879 in 24h",
+    "★ 3,912",
+    "+3,856 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -41,8 +41,8 @@
    "grow": 7,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 3,303",
-    "+368 in 24h",
+    "★ 3,309",
+    "+365 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -72,7 +72,7 @@
    "cat": "Vision",
    "score": 90,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 551",
+   "desc": "Vision on Hugging Face · open weights · ♥ 554",
    "meta": [
     "4.7K downloads",
     "Released 3 days ago"
@@ -106,8 +106,8 @@
    "grow": null,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 2,372",
-    "~442 in 24h",
+    "★ 2,386",
+    "~443 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -147,6 +147,22 @@
    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF"
   },
   {
+   "name": "VisionWeave: Weaving Elastic Visual Representations as a Native Capability of MLLMs",
+   "owner": "Paper",
+   "src": "paper",
+   "url": "https://huggingface.co/papers/2610.07987",
+   "cat": "Research",
+   "score": 85,
+   "grow": null,
+   "desc": "Multimodal large language models have become the dominant paradigm for visual understanding, but incur substantial costs by encoding inputs into dense, fixed-size patch tokens.",
+   "meta": [
+    "▲ 24 upvotes",
+    "Hugging Face Papers"
+   ],
+   "at": "2026-10-05T20:00:00.000Z",
+   "breakout": null
+  },
+  {
    "name": "ReSO AI",
    "owner": "Product Hunt",
    "src": "ph",
@@ -156,28 +172,12 @@
    "grow": null,
    "desc": "Get discovered & recommended when customers ask AI",
    "meta": [
-    "▲ 478 votes",
+    "▲ 479 votes",
     "38 comments",
     "Launched 2 days ago"
    ],
    "at": "2026-10-10T07:01:00Z",
    "breakout": null
-  },
-  {
-   "name": "Underdog-Saluki-27B-1.0",
-   "owner": "ConwayResearch",
-   "src": "hf",
-   "cat": "Agents",
-   "score": 84,
-   "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 327",
-   "meta": [
-    "109K downloads",
-    "Released 4 days ago"
-   ],
-   "at": "2026-10-08T01:47:26.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0"
   }
  ],
  "breakouts": [],
@@ -203,8 +203,8 @@
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 3879,
-   "useLabel": "+3,879 stars/day",
+   "use": 3856,
+   "useLabel": "+3,856 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -318,17 +318,17 @@
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 3849,
-   "d24": 3879,
+   "stars": 3912,
+   "d24": 3856,
    "est": false,
-   "forks": 303,
+   "forks": 310,
    "contrib": null,
    "score": 95
   },
   {
    "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 2372,
-   "d24": 442,
+   "stars": 2386,
+   "d24": 443,
    "est": true,
    "forks": 289,
    "contrib": null,
@@ -336,10 +336,10 @@
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 3303,
-   "d24": 368,
+   "stars": 3309,
+   "d24": 365,
    "est": false,
-   "forks": 5719,
+   "forks": 5729,
    "contrib": null,
    "score": 93
   }
@@ -354,7 +354,7 @@
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 1744
+   "likes": 1749
   },
   {
    "name": "Qwen-Image-2.1-Turbo",
@@ -365,7 +365,7 @@
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 551
+   "likes": 554
   },
   {
    "name": "humanizer",
@@ -376,7 +376,7 @@
    "grow": null,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1137
+   "likes": 1141
   },
   {
    "name": "clef",
@@ -398,7 +398,7 @@
    "grow": null,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 4002
+   "likes": 4003
   },
   {
    "name": "Underdog-Saluki-27B-1.0",
@@ -729,6 +729,13 @@
  },
  "headlines": [
   {
+   "t": "An interview with ex-DeepMind scientist David Silver on his startup Ineffable, building an AI \"super learner\" using RL as an alternative path to LLMs, and more",
+   "url": "https://www.techmeme.com/261012/p3#a261012p3",
+   "at": "2026-10-12T05:25:00.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Qualcomm CEO Cristiano Amon says AI companies are \"starting to do phones\" and asking Qualcomm to support running 100B-parameter local LLMs continuously by 2028",
    "url": "https://www.techmeme.com/261011/p15#a261011p15",
    "at": "2026-10-12T02:55:00.000Z",
@@ -778,6 +785,20 @@
    "kind": "News"
   },
   {
+   "t": "Nirmala Sitharaman holds talks with global financial leaders in Singapore, pitches for boosting investment in India",
+   "url": "https://economictimes.indiatimes.com/news/india/fm-holds-talks-with-global-financial-leaders-in-singapore-pitches-for-boosting-investment-in-india/articleshow/134874693.cms",
+   "at": "2026-10-11T17:27:00Z",
+   "src": "The Economic Times",
+   "kind": "News"
+  },
+  {
+   "t": "FM holds talks with global financial leaders in Singapore, pitches for boosting investment in India",
+   "url": "https://theprint.in/india/fm-holds-talks-with-global-financial-leaders-in-singapore-pitches-for-boosting-investment-in-india/3068743/",
+   "at": "2026-10-11T17:18:14Z",
+   "src": "ThePrint",
+   "kind": "News"
+  },
+  {
    "t": "There is no viable case for widespread generative AI access",
    "url": "https://www.socialmediatoday.com/news/there-is-no-viable-case-for-widespread-generative-ai-access/832681/",
    "at": "2026-10-11T16:42:04Z",
@@ -818,27 +839,6 @@
    "at": "2026-10-11T16:00:00Z",
    "src": "Pittsburgh Tribune-Review",
    "kind": "News"
-  },
-  {
-   "t": "Feelgood factor of human interaction | Brief letters",
-   "url": "https://www.theguardian.com/science/2026/oct/11/feelgood-factor-of-human-interaction",
-   "at": "2026-10-11T15:52:20Z",
-   "src": "The Guardian",
-   "kind": "News"
-  },
-  {
-   "t": "McDonald’s Sued, Accused of Using AI to Extract as Much Money Out of Customers as (In)Humanly Possible",
-   "url": "https://www.thegatewaypundit.com/2026/10/mcdonalds-sued-accused-using-ai-extract-much-money/",
-   "at": "2026-10-11T15:40:33Z",
-   "src": "The Gateway Pundit",
-   "kind": "News"
-  },
-  {
-   "t": "2 Palantir (PLTR) stock alternatives to buy now",
-   "url": "https://finbold.com/2-palantir-pltr-stock-alternatives-to-buy-now/",
-   "at": "2026-10-11T15:17:58Z",
-   "src": "Finbold",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -847,8 +847,8 @@
    "t": "The gap in shared understanding of LLM capability is widening",
    "url": "https://news.ycombinator.com/item?id=50047422",
    "link": "https://twitter.com/karpathy/status/2109361546505966046",
-   "up": 337,
-   "com": 510,
+   "up": 360,
+   "com": 524,
    "at": "2026-10-11T20:20:52.000Z"
   },
   {
@@ -856,7 +856,7 @@
    "t": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
    "url": "https://news.ycombinator.com/item?id=50050370",
    "link": "https://github.com/storytold/wordcraft",
-   "up": 90,
+   "up": 91,
    "com": 82,
    "at": "2026-10-12T01:57:39.000Z"
   },
@@ -865,8 +865,8 @@
    "t": "Terence Tao: Math 2.0 [pdf]",
    "url": "https://news.ycombinator.com/item?id=50043026",
    "link": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
-   "up": 351,
-   "com": 397,
+   "up": 362,
+   "com": 402,
    "at": "2026-10-11T13:16:45.000Z"
   },
   {
@@ -874,27 +874,27 @@
    "t": "Recursive self-improvement through collective intelligence",
    "url": "https://news.ycombinator.com/item?id=50048522",
    "link": "https://pub.sakana.ai/mass/",
-   "up": 86,
-   "com": 45,
+   "up": 90,
+   "com": 47,
    "at": "2026-10-11T22:22:10.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "HashiCorp archives the Boundary open source repo",
-   "url": "https://news.ycombinator.com/item?id=50049498",
-   "link": "https://github.com/hashicorp/boundary",
-   "up": 58,
-   "com": 12,
-   "at": "2026-10-12T00:02:45.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Doory – Open-Source Canva",
    "url": "https://news.ycombinator.com/item?id=50049872",
    "link": "https://github.com/shaongitbd/doory",
-   "up": 42,
-   "com": 5,
+   "up": 54,
+   "com": 18,
    "at": "2026-10-12T00:48:27.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "HashiCorp archives the Boundary open source repo",
+   "url": "https://news.ycombinator.com/item?id=50049498",
+   "link": "https://github.com/hashicorp/boundary",
+   "up": 62,
+   "com": 11,
+   "at": "2026-10-12T00:02:45.000Z"
   }
  ]
 }
