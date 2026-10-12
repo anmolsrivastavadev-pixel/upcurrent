@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-12T03:01:07.150Z"
+  "updated": "2026-10-12T03:30:54.115Z"
  },
  "pulse": {
   "trending": 77,
   "accelerating": 2,
   "newModels": 8,
-  "discussions": 32,
-  "stars": 4532
+  "discussions": 34,
+  "stars": 4580
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 95,
-   "grow": 252,
+   "grow": 260,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 3,591",
-    "+3,980 in 24h",
+    "★ 3,667",
+    "+3,970 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 94,
-   "grow": 4,
+   "grow": 5,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 3,230",
-    "+280 in 24h",
+    "★ 3,259",
+    "+326 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -56,7 +56,7 @@
    "cat": "Vision",
    "score": 91,
    "grow": 120,
-   "desc": "Vision on Hugging Face · open weights · ♥ 545",
+   "desc": "Vision on Hugging Face · open weights · ♥ 548",
    "meta": [
     "4.7K downloads",
     "Released 3 days ago"
@@ -103,11 +103,11 @@
    "src": "gh",
    "cat": "LLMs",
    "score": 88,
-   "grow": 10,
+   "grow": 11,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 2,311",
-    "+272 in 24h",
+    "★ 2,327",
+    "+284 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -147,19 +147,19 @@
    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF"
   },
   {
-   "name": "SoloQ: Calibration-Free Quantization for Diffusion Language Models",
+   "name": "ProgramGym: Scaling Training Environments for Long-Horizon Program Reproduction Agents",
    "owner": "Paper",
    "src": "paper",
-   "url": "https://huggingface.co/papers/2610.07121",
+   "url": "https://huggingface.co/papers/2610.13395",
    "cat": "Research",
    "score": 85,
    "grow": null,
-   "desc": "Diffusion large language models dLLMs) have emerged as a promising alternative to autoregressive language models through bidirectional diffusion-based token generation.",
+   "desc": "Coding agents are increasingly used to build programs from scratch as software engineers do rather than to resolve issues within a repository or to generate a repository from a given requirements document.",
    "meta": [
-    "▲ 16 upvotes",
+    "▲ 21 upvotes",
     "Hugging Face Papers"
    ],
-   "at": "2026-10-04T20:00:00.000Z",
+   "at": "2026-10-08T20:00:00.000Z",
    "breakout": null
   },
   {
@@ -172,7 +172,7 @@
    "grow": null,
    "desc": "Get discovered & recommended when customers ask AI",
    "meta": [
-    "▲ 475 votes",
+    "▲ 476 votes",
     "37 comments",
     "Launched 2 days ago"
    ],
@@ -203,8 +203,8 @@
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 3980,
-   "useLabel": "+3,980 stars/day",
+   "use": 3970,
+   "useLabel": "+3,970 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -318,26 +318,26 @@
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 3591,
-   "d24": 3980,
+   "stars": 3667,
+   "d24": 3970,
    "est": false,
-   "forks": 280,
+   "forks": 287,
    "contrib": null,
    "score": 95
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 3230,
-   "d24": 280,
+   "stars": 3259,
+   "d24": 326,
    "est": false,
-   "forks": 5627,
+   "forks": 5658,
    "contrib": null,
    "score": 94
   },
   {
    "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 2311,
-   "d24": 272,
+   "stars": 2327,
+   "d24": 284,
    "est": false,
    "forks": 288,
    "contrib": null,
@@ -354,7 +354,7 @@
    "grow": 120,
    "score": 91,
    "cat": "Vision",
-   "likes": 545
+   "likes": 548
   },
   {
    "name": "embeddinggemma-2",
@@ -365,7 +365,7 @@
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 1732
+   "likes": 1735
   },
   {
    "name": "humanizer",
@@ -376,7 +376,7 @@
    "grow": null,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1109
+   "likes": 1118
   },
   {
    "name": "clef",
@@ -387,7 +387,7 @@
    "grow": null,
    "score": 87,
    "cat": "Coding",
-   "likes": 2028
+   "likes": 2029
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -398,7 +398,7 @@
    "grow": null,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 3997
+   "likes": 4000
   },
   {
    "name": "Underdog-Saluki-27B-1.0",
@@ -410,7 +410,7 @@
    "grow": 0,
    "score": 84,
    "cat": "Agents",
-   "likes": 324
+   "likes": 326
   }
  ],
  "free": [
@@ -785,6 +785,13 @@
    "kind": "News"
   },
   {
+   "t": "2 Palantir (PLTR) stock alternatives to buy now",
+   "url": "https://finbold.com/2-palantir-pltr-stock-alternatives-to-buy-now/",
+   "at": "2026-10-11T15:17:58Z",
+   "src": "Finbold",
+   "kind": "News"
+  },
+  {
    "t": "IIT Kanpur alumnus unable to find job in US for two years, raises ₹8 lakh through GoFundMe",
    "url": "https://www.livemint.com/news/trends/iit-kanpur-alumnus-unable-to-find-job-in-us-for-two-years-raises-8-lakh-through-gofundme-11791728802942.html",
    "at": "2026-10-11T14:42:06Z",
@@ -806,18 +813,18 @@
    "kind": "News"
   },
   {
-   "t": "LLM-inspired study sheds light on how brain cells encode the meaning of words",
-   "url": "https://medicalxpress.com/news/2026-10-llm-brain-cells-encode-words.html",
-   "at": "2026-10-11T13:40:01Z",
-   "src": "Medical Xpress",
-   "kind": "News"
-  },
-  {
    "t": "PitchBook: robotics and physical AI companies have raised ~$48B YTD, as they gather training data from people completing tasks in factories, offices, and homes",
    "url": "https://www.techmeme.com/261011/p6#a261011p6",
    "at": "2026-10-11T13:00:51.000Z",
    "src": "Techmeme",
    "kind": "News"
+  },
+  {
+   "t": "Ai use krke kisi ki bhi location bta skte ho tum.",
+   "url": "https://www.youtube.com/watch?v=kQ9E1SUOXYw",
+   "at": "2026-10-11T13:00:02Z",
+   "src": "ezCommit",
+   "kind": "Video"
   },
   {
    "t": "US’s Reagan-era economic promises return as Trump’s AI-fueled growth fantasy",
@@ -827,17 +834,10 @@
    "kind": "News"
   },
   {
-   "t": "Rein Security, which develops runtime tools to secure enterprise AI agents and stop adversarial AI agents, raised a $25M Series A, taking total funding to $35M",
-   "url": "https://www.techmeme.com/261011/p4#a261011p4",
-   "at": "2026-10-11T05:50:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Microsoft unveils Microsoft-Decision-1, a fast decision-scoring model trained on Qwen3.5-9B, and says it will soon rebase it on MAI, OpenAI, and other models",
-   "url": "https://www.techmeme.com/261011/p2#a261011p2",
-   "at": "2026-10-11T05:05:02.000Z",
-   "src": "Techmeme",
+   "t": "Fixated on AI, the world has forgotten what is staring it in the face: nuclear annihilation | Simon Tisdall",
+   "url": "https://www.theguardian.com/commentisfree/2026/oct/11/ai-annihilation-advanced-nuclear-weapons",
+   "at": "2026-10-11T09:00:22Z",
+   "src": "The Guardian",
    "kind": "News"
   }
  ],
@@ -847,8 +847,8 @@
    "t": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
    "url": "https://news.ycombinator.com/item?id=50050370",
    "link": "https://github.com/storytold/wordcraft",
-   "up": 68,
-   "com": 33,
+   "up": 84,
+   "com": 73,
    "at": "2026-10-12T01:57:39.000Z"
   },
   {
@@ -856,8 +856,8 @@
    "t": "The gap in shared understanding of LLM capability is widening",
    "url": "https://news.ycombinator.com/item?id=50047422",
    "link": "https://twitter.com/karpathy/status/2109361546505966046",
-   "up": 279,
-   "com": 456,
+   "up": 288,
+   "com": 467,
    "at": "2026-10-11T20:20:52.000Z"
   },
   {
@@ -865,27 +865,27 @@
    "t": "Terence Tao: Math 2.0 [pdf]",
    "url": "https://news.ycombinator.com/item?id=50043026",
    "link": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
-   "up": 330,
-   "com": 382,
+   "up": 336,
+   "com": 388,
    "at": "2026-10-11T13:16:45.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "HashiCorp archives the Boundary open source repo",
-   "url": "https://news.ycombinator.com/item?id=50049498",
-   "link": "https://github.com/hashicorp/boundary",
-   "up": 48,
-   "com": 7,
-   "at": "2026-10-12T00:02:45.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Recursive self-improvement through collective intelligence",
    "url": "https://news.ycombinator.com/item?id=50048522",
    "link": "https://pub.sakana.ai/mass/",
-   "up": 74,
-   "com": 38,
+   "up": 78,
+   "com": 40,
    "at": "2026-10-11T22:22:10.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "HashiCorp archives the Boundary open source repo",
+   "url": "https://news.ycombinator.com/item?id=50049498",
+   "link": "https://github.com/hashicorp/boundary",
+   "up": 51,
+   "com": 11,
+   "at": "2026-10-12T00:02:45.000Z"
   },
   {
    "src": "Hacker News",
