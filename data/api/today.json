@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-12T18:01:09.157Z"
+  "updated": "2026-10-12T18:30:55.695Z"
  },
  "pulse": {
-  "trending": 75,
+  "trending": 76,
   "accelerating": 0,
-  "newModels": 4,
-  "discussions": 45,
-  "stars": 4725
+  "newModels": 5,
+  "discussions": 44,
+  "stars": 4386
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 95,
-   "grow": 35,
+   "grow": 36,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 5,584",
-    "+3,284 in 24h",
+    "★ 5,643",
+    "+3,264 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 93,
-   "grow": null,
+   "grow": 2,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
     "★ 3,542",
-    "~784 in 24h",
+    "+281 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -56,7 +56,7 @@
    "cat": "Vision",
    "score": 91,
    "grow": 44,
-   "desc": "Vision on Hugging Face · open weights · ♥ 611",
+   "desc": "Vision on Hugging Face · open weights · ♥ 614",
    "meta": [
     "6.8K downloads",
     "Released 4 days ago"
@@ -103,11 +103,11 @@
    "src": "gh",
    "cat": "LLMs",
    "score": 88,
-   "grow": 16,
+   "grow": 17,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 2,725",
-    "+657 in 24h",
+    "★ 2,733",
+    "+647 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -180,14 +180,70 @@
    "breakout": null
   }
  ],
- "breakouts": [],
+ "breakouts": [
+  {
+   "key": "opus 5.5",
+   "label": "Opus 5.5",
+   "n": 4,
+   "sources": [
+    {
+     "src": "Hacker News",
+     "t": "Show HN: Opus 5.5 made a fully featured Figma clone in 3 hours / 8 prompts",
+     "url": "https://news.ycombinator.com/item?id=50060311"
+    },
+    {
+     "src": "Mastodon",
+     "t": "\"A developer frustrated by Adobe's cancellation fees used Anthropic's Opus 5.5 model and pure Rust to rewrite the entire Creative Cloud suite as open-source …",
+     "url": "https://tldr.nettime.org/@remixtures/117427110761117205"
+    },
+    {
+     "src": "YouTube",
+     "t": "How To Make Edits With Claude Opus 5.5 + Higgsfield Katana",
+     "url": "https://www.youtube.com/watch?v=rZvF_EWZoHw"
+    },
+    {
+     "src": "GitHub",
+     "t": "yihui-dev/awesome-opus5-5-videos",
+     "url": "https://github.com/yihui-dev/awesome-opus5-5-videos"
+    }
+   ],
+   "since": "2026-10-03T21:01:33.129Z"
+  }
+ ],
  "hype": [
+  {
+   "name": "Opus 5.5",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "Hacker News",
+     "t": "Show HN: Opus 5.5 made a fully featured Figma clone in 3 hours / 8 prompts",
+     "url": "https://news.ycombinator.com/item?id=50060311"
+    },
+    {
+     "src": "Mastodon",
+     "t": "\"A developer frustrated by Adobe's cancellation fees used Anthropic's Opus 5.5 model and pure Rust to rewrite the entire Creative Cloud suite as open-source …",
+     "url": "https://tldr.nettime.org/@remixtures/117427110761117205"
+    },
+    {
+     "src": "YouTube",
+     "t": "How To Make Edits With Claude Opus 5.5 + Higgsfield Katana",
+     "url": "https://www.youtube.com/watch?v=rZvF_EWZoHw"
+    }
+   ],
+   "buzz": 3,
+   "verdict": "Talk only, no public usage numbers"
+  },
   {
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 3284,
-   "useLabel": "+3,284 stars/day",
+   "use": 3264,
+   "useLabel": "+3,264 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -301,30 +357,39 @@
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 5584,
-   "d24": 3284,
+   "stars": 5643,
+   "d24": 3264,
    "est": false,
-   "forks": 399,
+   "forks": 401,
    "contrib": 5,
    "score": 95
   },
   {
+   "repo": "LosaLosSantos/aurelio-finance",
+   "stars": 2733,
+   "d24": 647,
+   "est": false,
+   "forks": 379,
+   "contrib": null,
+   "score": 88
+  },
+  {
    "repo": "mhtsec/ARTEX",
    "stars": 3542,
-   "d24": 784,
-   "est": true,
-   "forks": 5954,
+   "d24": 281,
+   "est": false,
+   "forks": 5955,
    "contrib": null,
    "score": 93
   },
   {
-   "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 2725,
-   "d24": 657,
-   "est": false,
-   "forks": 377,
+   "repo": "bherbruck/solidcraft",
+   "stars": 964,
+   "d24": 194,
+   "est": true,
+   "forks": 92,
    "contrib": null,
-   "score": 88
+   "score": 78
   }
  ],
  "models": [
@@ -337,7 +402,7 @@
    "grow": 44,
    "score": 91,
    "cat": "Vision",
-   "likes": 611
+   "likes": 614
   },
   {
    "name": "embeddinggemma-2",
@@ -348,7 +413,7 @@
    "grow": 17,
    "score": 90,
    "cat": "Vision",
-   "likes": 1898
+   "likes": 1901
   },
   {
    "name": "humanizer",
@@ -359,7 +424,7 @@
    "grow": 22,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1295
+   "likes": 1296
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-Quantized",
@@ -370,7 +435,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Infrastructure",
-   "likes": 4071
+   "likes": 4074
   },
   {
    "name": "Underdog-Saluki-27B-1.0",
@@ -393,7 +458,7 @@
    "grow": 5,
    "score": 84,
    "cat": "Coding",
-   "likes": 2080
+   "likes": 2081
   }
  ],
  "free": [
@@ -810,17 +875,17 @@
    "kind": "News"
   },
   {
-   "t": "Delhi HC protects Kangana Ranaut’s personality rights; orders takedown of AI-Generated deepfakes",
-   "url": "https://www.devdiscourse.com/article/headlines/3990666-delhi-hc-protects-kangana-ranauts-personality-rights-orders-takedown-of-ai-generated-deepfakes",
-   "at": "2026-10-12T05:59:04Z",
-   "src": "Devdiscourse",
-   "kind": "News"
+   "t": "Claude Opus 6 LEAKED, Gemini 4 Carbon Leaks, HUGE OpenAI Update, Claude 24/7 Agent, & More! AI NEWS",
+   "url": "https://www.youtube.com/watch?v=4iKUaUmeoWk",
+   "at": "2026-10-12T07:25:21Z",
+   "src": "WorldofAI",
+   "kind": "Video"
   },
   {
-   "t": "Greens vow to regulate AI so benefits go to people, not tech firms",
-   "url": "https://www.nzherald.co.nz/nz/greens-vow-to-regulate-ai-so-benefits-go-to-people-not-tech-firms/PLHW5X722ZDIFDKEVHQAJ2337E/",
-   "at": "2026-10-12T05:56:11Z",
-   "src": "The New Zealand Herald",
+   "t": "Startups are betting on AI to predict the future",
+   "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/startups-are-betting-on-ai-to-predict-the-future/articleshow/134884372.cms",
+   "at": "2026-10-12T06:16:13Z",
+   "src": "The Economic Times",
    "kind": "News"
   }
  ],
@@ -830,8 +895,8 @@
    "t": "Muse Wonder",
    "url": "https://news.ycombinator.com/item?id=50059115",
    "link": "https://research.meta.ai/blog/muse-wonder",
-   "up": 173,
-   "com": 76,
+   "up": 237,
+   "com": 98,
    "at": "2026-10-12T16:48:01.000Z"
   },
   {
@@ -839,8 +904,8 @@
    "t": "GLM-Legal",
    "url": "https://news.ycombinator.com/item?id=50058507",
    "link": "https://z.ai/blog/glm-legal",
-   "up": 176,
-   "com": 116,
+   "up": 224,
+   "com": 137,
    "at": "2026-10-12T16:11:45.000Z"
   },
   {
@@ -848,35 +913,35 @@
    "t": "Why aren't AI companies being charged for hacking?",
    "url": "https://news.ycombinator.com/item?id=50057278",
    "link": "https://mortoray.com/why-arent-ai-companies-being-charged-for-hacking/",
-   "up": 283,
-   "com": 271,
+   "up": 287,
+   "com": 281,
    "at": "2026-10-12T14:52:37.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "QGIS: No AI contributions permitted",
-   "url": "https://news.ycombinator.com/item?id=50054751",
-   "link": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
-   "up": 334,
-   "com": 362,
-   "at": "2026-10-12T11:22:24.000Z"
   },
   {
    "src": "Hacker News",
    "t": "AI coding agents generate more code, but not more software",
    "url": "https://news.ycombinator.com/item?id=50059523",
    "link": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
-   "up": 34,
-   "com": 13,
+   "up": 68,
+   "com": 46,
    "at": "2026-10-12T17:14:01.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "QGIS: No AI contributions permitted",
+   "url": "https://news.ycombinator.com/item?id=50054751",
+   "link": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
+   "up": 336,
+   "com": 368,
+   "at": "2026-10-12T11:22:24.000Z"
   },
   {
    "src": "Hacker News",
    "t": "The gap in shared understanding of LLM capability is widening",
    "url": "https://news.ycombinator.com/item?id=50047422",
    "link": "https://twitter.com/karpathy/status/2109361546505966046",
-   "up": 624,
-   "com": 906,
+   "up": 632,
+   "com": 924,
    "at": "2026-10-11T20:20:52.000Z"
   }
  ]
