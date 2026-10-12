@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-12T01:30:53.901Z"
+  "updated": "2026-10-12T02:01:04.325Z"
  },
  "pulse": {
   "trending": 77,
   "accelerating": 2,
   "newModels": 8,
-  "discussions": 32,
-  "stars": 4450
+  "discussions": 33,
+  "stars": 4445
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 95,
-   "grow": 233,
+   "grow": 239,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 3,395",
-    "+4,071 in 24h",
+    "★ 3,460",
+    "+4,038 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -41,8 +41,8 @@
    "grow": 2,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 3,155",
-    "+142 in 24h",
+    "★ 3,166",
+    "+160 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -56,7 +56,7 @@
    "cat": "Vision",
    "score": 91,
    "grow": 120,
-   "desc": "Vision on Hugging Face · open weights · ♥ 543",
+   "desc": "Vision on Hugging Face · open weights · ♥ 544",
    "meta": [
     "4.7K downloads",
     "Released 3 days ago"
@@ -103,11 +103,11 @@
    "src": "gh",
    "cat": "LLMs",
    "score": 88,
-   "grow": 8,
+   "grow": 9,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 2,269",
-    "+237 in 24h",
+    "★ 2,281",
+    "+247 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -147,16 +147,16 @@
    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF"
   },
   {
-   "name": "Memento 3: Model-Based Recursive Self-Improvement through Reflective Rulebooks",
+   "name": "Pumpire: Unified Benchmark for Metric Distance Estimation",
    "owner": "Paper",
    "src": "paper",
-   "url": "https://huggingface.co/papers/2610.11794",
+   "url": "https://huggingface.co/papers/2610.12423",
    "cat": "Research",
    "score": 85,
    "grow": null,
-   "desc": "Learning to act in unfamiliar environments requires agents to infer how the world works and revise that understanding as new evidence arrives.",
+   "desc": "We present Pumpire, a unified benchmark for evaluating metric point-pair distance estimation capability of both image- and video-level 3D foundation models, with or without depth priors.",
    "meta": [
-    "▲ 35 upvotes",
+    "▲ 18 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-07T20:00:00.000Z",
@@ -183,28 +183,6 @@
  "breakouts": [],
  "hype": [
   {
-   "name": "GPT-6.1",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
-    {
-     "src": "OpenAI blog",
-     "t": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-     "url": "https://openai.com/index/asana-browser-agent"
-    },
-    {
-     "src": "YouTube",
-     "t": "HUGE Gemini 4 Argon UPDATE, Fable 5.5 LEAKS, GPT-6.1 Ultrafast, Claude Motion, & Step 5! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=ATBnss54_t4"
-    }
-   ],
-   "buzz": 2,
-   "verdict": "Talk only, no public usage numbers"
-  },
-  {
    "name": "whistle",
    "url": "https://huggingface.co/Cactus-Compute/whistle",
    "from": "Hugging Face",
@@ -225,8 +203,8 @@
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 4071,
-   "useLabel": "+4,071 stars/day",
+   "use": 4038,
+   "useLabel": "+4,038 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -340,17 +318,17 @@
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 3395,
-   "d24": 4071,
+   "stars": 3460,
+   "d24": 4038,
    "est": false,
-   "forks": 265,
+   "forks": 269,
    "contrib": null,
    "score": 95
   },
   {
    "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 2269,
-   "d24": 237,
+   "stars": 2281,
+   "d24": 247,
    "est": false,
    "forks": 288,
    "contrib": null,
@@ -358,10 +336,10 @@
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 3155,
-   "d24": 142,
+   "stars": 3166,
+   "d24": 160,
    "est": false,
-   "forks": 5568,
+   "forks": 5575,
    "contrib": null,
    "score": 94
   }
@@ -376,7 +354,7 @@
    "grow": 120,
    "score": 91,
    "cat": "Vision",
-   "likes": 543
+   "likes": 544
   },
   {
    "name": "embeddinggemma-2",
@@ -387,7 +365,7 @@
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 1707
+   "likes": 1718
   },
   {
    "name": "humanizer",
@@ -398,7 +376,7 @@
    "grow": null,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1086
+   "likes": 1092
   },
   {
    "name": "clef",
@@ -420,7 +398,7 @@
    "grow": null,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 3988
+   "likes": 3991
   },
   {
    "name": "Underdog-Saluki-27B-1.0",
@@ -432,7 +410,7 @@
    "grow": 0,
    "score": 84,
    "cat": "Agents",
-   "likes": 322
+   "likes": 323
   }
  ],
  "free": [
@@ -800,6 +778,20 @@
    "kind": "News"
   },
   {
+   "t": "LLM-inspired study sheds light on how brain cells encode the meaning of words",
+   "url": "https://medicalxpress.com/news/2026-10-llm-brain-cells-encode-words.html",
+   "at": "2026-10-11T13:40:01Z",
+   "src": "Medical Xpress",
+   "kind": "News"
+  },
+  {
+   "t": "ChatGPT’s yes-man era may finally be coming to an end",
+   "url": "https://www.digitaltrends.com/computing/chatgpts-yes-man-era-may-finally-be-coming-to-an-end/",
+   "at": "2026-10-11T13:33:21Z",
+   "src": "Digital Trends",
+   "kind": "News"
+  },
+  {
    "t": "Not Anthropic. Not AMD. Here's My Top AI Stock for 2027.",
    "url": "https://www.europesays.com/3304089/",
    "at": "2026-10-11T13:07:17Z",
@@ -847,20 +839,6 @@
    "at": "2026-10-11T11:00:25Z",
    "src": "The Guardian",
    "kind": "News"
-  },
-  {
-   "t": "AI is among 17 potentially ‘catastrophic threats’ that researchers say require targeted action",
-   "url": "https://wtop.com/national/2026/10/ai-is-among-17-potentially-catastrophic-threats-that-researchers-say-require-targeted-action/",
-   "at": "2026-10-11T10:38:54Z",
-   "src": "WTOP",
-   "kind": "News"
-  },
-  {
-   "t": "Digital tools, AI can preserve Dusun language for future generations, says Sabah deputy CM",
-   "url": "https://www.malaymail.com/news/malaysia/2026/10/11/digital-tools-ai-can-preserve-dusun-language-for-future-generations-says-sabah-deputy-cm/238707",
-   "at": "2026-10-11T10:26:09Z",
-   "src": "Malay Mail",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -869,8 +847,8 @@
    "t": "The gap in shared understanding of LLM capability is widening",
    "url": "https://news.ycombinator.com/item?id=50047422",
    "link": "https://twitter.com/karpathy/status/2109361546505966046",
-   "up": 235,
-   "com": 382,
+   "up": 255,
+   "com": 408,
    "at": "2026-10-11T20:20:52.000Z"
   },
   {
@@ -878,8 +856,8 @@
    "t": "Terence Tao: Math 2.0 [pdf]",
    "url": "https://news.ycombinator.com/item?id=50043026",
    "link": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
-   "up": 316,
-   "com": 369,
+   "up": 322,
+   "com": 372,
    "at": "2026-10-11T13:16:45.000Z"
   },
   {
@@ -887,9 +865,18 @@
    "t": "Recursive self-improvement through collective intelligence",
    "url": "https://news.ycombinator.com/item?id=50048522",
    "link": "https://pub.sakana.ai/mass/",
-   "up": 55,
-   "com": 22,
+   "up": 62,
+   "com": 27,
    "at": "2026-10-11T22:22:10.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "HashiCorp archives the Boundary open source repo",
+   "url": "https://news.ycombinator.com/item?id=50049498",
+   "link": "https://github.com/hashicorp/boundary",
+   "up": 29,
+   "com": 1,
+   "at": "2026-10-12T00:02:45.000Z"
   },
   {
    "src": "Hacker News",
@@ -905,18 +892,9 @@
    "t": "apsw: Another Python SQLite Wrapper",
    "url": "https://news.ycombinator.com/item?id=50045273",
    "link": "https://github.com/rogerbinns/apsw",
-   "up": 61,
+   "up": 68,
    "com": 15,
    "at": "2026-10-11T16:58:22.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "500B tokens later: Letting AI agents decompile a first-person shooter",
-   "url": "https://news.ycombinator.com/item?id=50039092",
-   "link": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
-   "up": 155,
-   "com": 109,
-   "at": "2026-10-11T02:02:38.000Z"
   }
  ]
 }
