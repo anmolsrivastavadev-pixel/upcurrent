@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-12T04:01:06.680Z"
+  "updated": "2026-10-12T04:30:55.053Z"
  },
  "pulse": {
-  "trending": 77,
+  "trending": 76,
   "accelerating": 1,
   "newModels": 8,
-  "discussions": 32,
-  "stars": 4718
+  "discussions": 33,
+  "stars": 4703
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 95,
-   "grow": 265,
+   "grow": 271,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 3,718",
-    "+3,923 in 24h",
+    "★ 3,780",
+    "+3,896 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -41,29 +41,13 @@
    "grow": 6,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 3,281",
-    "+355 in 24h",
+    "★ 3,294",
+    "+366 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
    "breakout": null,
    "url": "https://github.com/mhtsec/ARTEX"
-  },
-  {
-   "name": "Qwen-Image-2.1-Turbo",
-   "owner": "Qwen",
-   "src": "hf",
-   "cat": "Vision",
-   "score": 91,
-   "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 551",
-   "meta": [
-    "4.7K downloads",
-    "Released 3 days ago"
-   ],
-   "at": "2026-10-09T04:50:01.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo"
   },
   {
    "name": "embeddinggemma-2",
@@ -80,6 +64,22 @@
    "at": "2026-09-14T14:53:42.000Z",
    "breakout": null,
    "url": "https://huggingface.co/google/embeddinggemma-2"
+  },
+  {
+   "name": "Qwen-Image-2.1-Turbo",
+   "owner": "Qwen",
+   "src": "hf",
+   "cat": "Vision",
+   "score": 90,
+   "grow": null,
+   "desc": "Vision on Hugging Face · open weights · ♥ 551",
+   "meta": [
+    "4.7K downloads",
+    "Released 3 days ago"
+   ],
+   "at": "2026-10-09T04:50:01.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo"
   },
   {
    "name": "humanizer",
@@ -106,8 +106,8 @@
    "grow": null,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 2,342",
-    "~440 in 24h",
+    "★ 2,358",
+    "~441 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -147,19 +147,19 @@
    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF"
   },
   {
-   "name": "ProgramGym: Scaling Training Environments for Long-Horizon Program Reproduction Agents",
+   "name": "Here the World in Stereo: Learning Dynamic Spatial Correspondence for Immersive Joint Video-Audio Generation",
    "owner": "Paper",
    "src": "paper",
-   "url": "https://huggingface.co/papers/2610.13395",
+   "url": "https://huggingface.co/papers/2609.38748",
    "cat": "Research",
    "score": 85,
    "grow": null,
-   "desc": "Coding agents are increasingly used to build programs from scratch as software engineers do rather than to resolve issues within a repository or to generate a repository from a given requirements document.",
+   "desc": "Recent joint video-audio generation models have achieved strong semantic correspondence and temporal synchronization.",
    "meta": [
-    "▲ 25 upvotes",
+    "▲ 21 upvotes",
     "Hugging Face Papers"
    ],
-   "at": "2026-10-08T20:00:00.000Z",
+   "at": "2026-09-29T20:00:00.000Z",
    "breakout": null
   },
   {
@@ -183,34 +183,12 @@
  "breakouts": [],
  "hype": [
   {
-   "name": "GPT-6.1",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
-    {
-     "src": "OpenAI blog",
-     "t": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-     "url": "https://openai.com/index/asana-browser-agent"
-    },
-    {
-     "src": "YouTube",
-     "t": "HUGE Gemini 4 Argon UPDATE, Fable 5.5 LEAKS, GPT-6.1 Ultrafast, Claude Motion, & Step 5! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=ATBnss54_t4"
-    }
-   ],
-   "buzz": 2,
-   "verdict": "Talk only, no public usage numbers"
-  },
-  {
    "name": "whistle",
    "url": "https://huggingface.co/Cactus-Compute/whistle",
    "from": "Hugging Face",
    "use": 16434,
    "useLabel": "16K downloads",
-   "usePct": 0.2727272727272727,
+   "usePct": 0.25,
    "talk": [
     {
      "src": "Lobsters",
@@ -225,8 +203,8 @@
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 3923,
-   "useLabel": "+3,923 stars/day",
+   "use": 3896,
+   "useLabel": "+3,896 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -249,7 +227,7 @@
    "from": "Hugging Face",
    "use": 6488262,
    "useLabel": "6.5M downloads",
-   "usePct": 0.9696969696969697,
+   "usePct": 0.96875,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -340,17 +318,17 @@
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 3718,
-   "d24": 3923,
+   "stars": 3780,
+   "d24": 3896,
    "est": false,
-   "forks": 294,
+   "forks": 297,
    "contrib": null,
    "score": 95
   },
   {
    "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 2342,
-   "d24": 440,
+   "stars": 2358,
+   "d24": 441,
    "est": true,
    "forks": 289,
    "contrib": null,
@@ -358,26 +336,15 @@
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 3281,
-   "d24": 355,
+   "stars": 3294,
+   "d24": 366,
    "est": false,
-   "forks": 5689,
+   "forks": 5703,
    "contrib": null,
    "score": 94
   }
  ],
  "models": [
-  {
-   "name": "Qwen-Image-2.1-Turbo",
-   "org": "Qwen",
-   "lic": "Open weights",
-   "at": "2026-10-09T04:50:01.000Z",
-   "dl": 4702,
-   "grow": null,
-   "score": 91,
-   "cat": "Vision",
-   "likes": 551
-  },
   {
    "name": "embeddinggemma-2",
    "org": "google",
@@ -387,7 +354,18 @@
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 1737
+   "likes": 1743
+  },
+  {
+   "name": "Qwen-Image-2.1-Turbo",
+   "org": "Qwen",
+   "lic": "Open weights",
+   "at": "2026-10-09T04:50:01.000Z",
+   "dl": 4702,
+   "grow": null,
+   "score": 90,
+   "cat": "Vision",
+   "likes": 551
   },
   {
    "name": "humanizer",
@@ -398,7 +376,7 @@
    "grow": null,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1125
+   "likes": 1131
   },
   {
    "name": "clef",
@@ -409,7 +387,7 @@
    "grow": null,
    "score": 87,
    "cat": "Coding",
-   "likes": 2030
+   "likes": 2031
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -420,7 +398,7 @@
    "grow": null,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 4000
+   "likes": 4001
   },
   {
    "name": "Underdog-Saluki-27B-1.0",
@@ -800,6 +778,20 @@
    "kind": "News"
   },
   {
+   "t": "Preparing Filipino workers for the AI age",
+   "url": "https://www.manilatimes.net/2026/10/12/tmt-anniversary/preparing-filipino-workers-for-the-ai-age/2440824",
+   "at": "2026-10-11T16:13:00Z",
+   "src": "The Manila Times",
+   "kind": "News"
+  },
+  {
+   "t": "Pax Silica: A curse or a blessing?",
+   "url": "https://www.manilatimes.net/2026/10/12/tmt-anniversary/pax-silica-a-curse-or-a-blessing/2439972",
+   "at": "2026-10-11T16:08:00Z",
+   "src": "The Manila Times",
+   "kind": "News"
+  },
+  {
    "t": "Trump Threatens Anyone Who Won’t Follow His Latest Demand, Then the One Woman He Dubbed a Traitor Throws It Back in His Face With Two Words",
    "url": "https://atlantablackstar.com/2026/10/11/trump-threatens-anyone-who-wont-follow-his-latest-demand/",
    "at": "2026-10-11T16:00:00Z",
@@ -847,48 +839,34 @@
    "at": "2026-10-11T14:42:06Z",
    "src": "Livemint",
    "kind": "News"
-  },
-  {
-   "t": "Report: ChatGPT's teen suicide safeguards failed to alert parents",
-   "url": "https://billingsgazette.com/life-entertainment/nation-world/parenting/article_9c07b714-20bb-538e-8aba-865288a8762f.html",
-   "at": "2026-10-11T14:30:00Z",
-   "src": "Billings Gazette",
-   "kind": "News"
-  },
-  {
-   "t": "PitchBook: robotics and physical AI companies have raised ~$48B YTD, as they gather training data from people completing tasks in factories, offices, and homes",
-   "url": "https://www.techmeme.com/261011/p6#a261011p6",
-   "at": "2026-10-11T13:00:51.000Z",
-   "src": "Techmeme",
-   "kind": "News"
   }
  ],
  "discussions": [
   {
    "src": "Hacker News",
-   "t": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
-   "url": "https://news.ycombinator.com/item?id=50050370",
-   "link": "https://github.com/storytold/wordcraft",
-   "up": 89,
-   "com": 79,
-   "at": "2026-10-12T01:57:39.000Z"
-  },
-  {
-   "src": "Hacker News",
    "t": "The gap in shared understanding of LLM capability is widening",
    "url": "https://news.ycombinator.com/item?id=50047422",
    "link": "https://twitter.com/karpathy/status/2109361546505966046",
-   "up": 305,
-   "com": 487,
+   "up": 325,
+   "com": 496,
    "at": "2026-10-11T20:20:52.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
+   "url": "https://news.ycombinator.com/item?id=50050370",
+   "link": "https://github.com/storytold/wordcraft",
+   "up": 90,
+   "com": 82,
+   "at": "2026-10-12T01:57:39.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Terence Tao: Math 2.0 [pdf]",
    "url": "https://news.ycombinator.com/item?id=50043026",
    "link": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
-   "up": 346,
-   "com": 393,
+   "up": 349,
+   "com": 395,
    "at": "2026-10-11T13:16:45.000Z"
   },
   {
@@ -896,8 +874,8 @@
    "t": "Recursive self-improvement through collective intelligence",
    "url": "https://news.ycombinator.com/item?id=50048522",
    "link": "https://pub.sakana.ai/mass/",
-   "up": 80,
-   "com": 41,
+   "up": 82,
+   "com": 44,
    "at": "2026-10-11T22:22:10.000Z"
   },
   {
@@ -905,18 +883,18 @@
    "t": "HashiCorp archives the Boundary open source repo",
    "url": "https://news.ycombinator.com/item?id=50049498",
    "link": "https://github.com/hashicorp/boundary",
-   "up": 53,
+   "up": 56,
    "com": 12,
    "at": "2026-10-12T00:02:45.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "YouTuber builds 'Flock-like' camera to track police vehicles, gets police visit",
-   "url": "https://news.ycombinator.com/item?id=50045735",
-   "link": "https://www.tomshardware.com/tech-industry/cyber-security/canadian-youtuber-builds-flock-like-camera-to-exclusively-track-police-vehicles-officers-visit-his-home-to-express-privacy-concerns",
-   "up": 80,
-   "com": 31,
-   "at": "2026-10-11T17:40:42.000Z"
+   "t": "Doory – Open-Source Canva",
+   "url": "https://news.ycombinator.com/item?id=50049872",
+   "link": "https://github.com/shaongitbd/doory",
+   "up": 35,
+   "com": 3,
+   "at": "2026-10-12T00:48:27.000Z"
   }
  ]
 }
