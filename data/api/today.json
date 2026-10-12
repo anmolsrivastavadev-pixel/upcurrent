@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-12T05:30:53.352Z"
+  "updated": "2026-10-12T06:01:05.535Z"
  },
  "pulse": {
   "trending": 76,
   "accelerating": 1,
   "newModels": 8,
-  "discussions": 37,
-  "stars": 4664
+  "discussions": 35,
+  "stars": 4643
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 95,
-   "grow": 284,
+   "grow": 290,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 3,912",
-    "+3,856 in 24h",
+    "★ 3,975",
+    "+3,833 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -41,8 +41,8 @@
    "grow": 7,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 3,309",
-    "+365 in 24h",
+    "★ 3,317",
+    "+366 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -56,7 +56,7 @@
    "cat": "Vision",
    "score": 90,
    "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 1.7K",
+   "desc": "Vision on Hugging Face · open source · ♥ 1.8K",
    "meta": [
     "99K downloads",
     "Released 28 days ago"
@@ -72,7 +72,7 @@
    "cat": "Vision",
    "score": 90,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 554",
+   "desc": "Vision on Hugging Face · open weights · ♥ 556",
    "meta": [
     "4.7K downloads",
     "Released 3 days ago"
@@ -106,8 +106,8 @@
    "grow": null,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 2,386",
-    "~443 in 24h",
+    "★ 2,401",
+    "~444 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -156,7 +156,7 @@
    "grow": null,
    "desc": "Multimodal large language models have become the dominant paradigm for visual understanding, but incur substantial costs by encoding inputs into dense, fixed-size patch tokens.",
    "meta": [
-    "▲ 24 upvotes",
+    "▲ 25 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-05T20:00:00.000Z",
@@ -172,7 +172,7 @@
    "grow": null,
    "desc": "Get discovered & recommended when customers ask AI",
    "meta": [
-    "▲ 479 votes",
+    "▲ 484 votes",
     "38 comments",
     "Launched 2 days ago"
    ],
@@ -183,28 +183,11 @@
  "breakouts": [],
  "hype": [
   {
-   "name": "whistle",
-   "url": "https://huggingface.co/Cactus-Compute/whistle",
-   "from": "Hugging Face",
-   "use": 16434,
-   "useLabel": "16K downloads",
-   "usePct": 0.25,
-   "talk": [
-    {
-     "src": "Lobsters",
-     "t": "Whistle: Speech to Text in 16.9 MB",
-     "url": "https://lobste.rs/s/lpomuo/whistle_speech_text_16_9_mb"
-    }
-   ],
-   "buzz": 1,
-   "verdict": "More talk than use"
-  },
-  {
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 3856,
-   "useLabel": "+3,856 stars/day",
+   "use": 3833,
+   "useLabel": "+3,833 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -318,17 +301,17 @@
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 3912,
-   "d24": 3856,
+   "stars": 3975,
+   "d24": 3833,
    "est": false,
-   "forks": 310,
+   "forks": 315,
    "contrib": null,
    "score": 95
   },
   {
    "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 2386,
-   "d24": 443,
+   "stars": 2401,
+   "d24": 444,
    "est": true,
    "forks": 289,
    "contrib": null,
@@ -336,10 +319,10 @@
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 3309,
-   "d24": 365,
+   "stars": 3317,
+   "d24": 366,
    "est": false,
-   "forks": 5729,
+   "forks": 5745,
    "contrib": null,
    "score": 93
   }
@@ -354,7 +337,7 @@
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 1749
+   "likes": 1755
   },
   {
    "name": "Qwen-Image-2.1-Turbo",
@@ -365,7 +348,7 @@
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 554
+   "likes": 556
   },
   {
    "name": "humanizer",
@@ -376,7 +359,7 @@
    "grow": null,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1141
+   "likes": 1142
   },
   {
    "name": "clef",
@@ -387,7 +370,7 @@
    "grow": null,
    "score": 87,
    "cat": "Coding",
-   "likes": 2031
+   "likes": 2032
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -398,7 +381,7 @@
    "grow": null,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 4003
+   "likes": 4006
   },
   {
    "name": "Underdog-Saluki-27B-1.0",
@@ -729,6 +712,13 @@
  },
  "headlines": [
   {
+   "t": "Sources: the US restores the UK AISI's access to the latest US models for safety testing, after ordering OpenAI and Anthropic to stop sharing models last month",
+   "url": "https://www.techmeme.com/261012/p4#a261012p4",
+   "at": "2026-10-12T05:40:00.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "An interview with ex-DeepMind scientist David Silver on his startup Ineffable, building an AI \"super learner\" using RL as an alternative path to LLMs, and more",
    "url": "https://www.techmeme.com/261012/p3#a261012p3",
    "at": "2026-10-12T05:25:00.000Z",
@@ -832,13 +822,6 @@
    "at": "2026-10-11T16:00:00Z",
    "src": "The New Zealand Herald",
    "kind": "News"
-  },
-  {
-   "t": "Jessica Kaddy: On AI, certainty is dangerous",
-   "url": "https://triblive.com/opinion/jessica-kaddy-on-ai-certainty-is-dangerous/",
-   "at": "2026-10-11T16:00:00Z",
-   "src": "Pittsburgh Tribune-Review",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -847,8 +830,8 @@
    "t": "The gap in shared understanding of LLM capability is widening",
    "url": "https://news.ycombinator.com/item?id=50047422",
    "link": "https://twitter.com/karpathy/status/2109361546505966046",
-   "up": 360,
-   "com": 524,
+   "up": 377,
+   "com": 533,
    "at": "2026-10-11T20:20:52.000Z"
   },
   {
@@ -856,7 +839,7 @@
    "t": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
    "url": "https://news.ycombinator.com/item?id=50050370",
    "link": "https://github.com/storytold/wordcraft",
-   "up": 91,
+   "up": 92,
    "com": 82,
    "at": "2026-10-12T01:57:39.000Z"
   },
@@ -865,27 +848,27 @@
    "t": "Terence Tao: Math 2.0 [pdf]",
    "url": "https://news.ycombinator.com/item?id=50043026",
    "link": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
-   "up": 362,
-   "com": 402,
+   "up": 371,
+   "com": 404,
    "at": "2026-10-11T13:16:45.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Recursive self-improvement through collective intelligence",
-   "url": "https://news.ycombinator.com/item?id=50048522",
-   "link": "https://pub.sakana.ai/mass/",
-   "up": 90,
-   "com": 47,
-   "at": "2026-10-11T22:22:10.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Doory – Open-Source Canva",
    "url": "https://news.ycombinator.com/item?id=50049872",
    "link": "https://github.com/shaongitbd/doory",
-   "up": 54,
+   "up": 67,
    "com": 18,
    "at": "2026-10-12T00:48:27.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Recursive self-improvement through collective intelligence",
+   "url": "https://news.ycombinator.com/item?id=50048522",
+   "link": "https://pub.sakana.ai/mass/",
+   "up": 93,
+   "com": 50,
+   "at": "2026-10-11T22:22:10.000Z"
   },
   {
    "src": "Hacker News",
