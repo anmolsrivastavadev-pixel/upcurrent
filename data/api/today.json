@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-12T00:30:51.132Z"
+  "updated": "2026-10-12T01:01:04.722Z"
  },
  "pulse": {
   "trending": 77,
-  "accelerating": 3,
+  "accelerating": 2,
   "newModels": 8,
-  "discussions": 38,
-  "stars": 4506
+  "discussions": 34,
+  "stars": 4469
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 95,
-   "grow": 221,
+   "grow": 226,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 3,279",
-    "+4,171 in 24h",
+    "★ 3,330",
+    "+4,106 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -41,8 +41,8 @@
    "grow": 2,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 3,144",
-    "+128 in 24h",
+    "★ 3,151",
+    "+139 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -56,7 +56,7 @@
    "cat": "Vision",
    "score": 91,
    "grow": 120,
-   "desc": "Vision on Hugging Face · open weights · ♥ 539",
+   "desc": "Vision on Hugging Face · open weights · ♥ 541",
    "meta": [
     "4.7K downloads",
     "Released 3 days ago"
@@ -71,7 +71,7 @@
    "src": "hf",
    "cat": "Vision",
    "score": 90,
-   "grow": 117,
+   "grow": null,
    "desc": "Vision on Hugging Face · open source · ♥ 1.7K",
    "meta": [
     "99K downloads",
@@ -87,7 +87,7 @@
    "src": "hf",
    "cat": "Infrastructure",
    "score": 89,
-   "grow": 12,
+   "grow": null,
    "desc": "Model on Hugging Face · open source · ♥ 1.1K",
    "meta": [
     "38K downloads",
@@ -103,11 +103,11 @@
    "src": "gh",
    "cat": "LLMs",
    "score": 88,
-   "grow": 7,
+   "grow": 8,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 2,238",
-    "+207 in 24h",
+    "★ 2,255",
+    "+224 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -120,7 +120,7 @@
    "src": "hf",
    "cat": "Coding",
    "score": 87,
-   "grow": 6,
+   "grow": null,
    "desc": "Model on Hugging Face · open source · ♥ 2K",
    "meta": [
     "14K downloads",
@@ -136,7 +136,7 @@
    "src": "hf",
    "cat": "Infrastructure",
    "score": 86,
-   "grow": 4,
+   "grow": null,
    "desc": "Model on Hugging Face · open weights · ♥ 4K",
    "meta": [
     "2.2M downloads",
@@ -203,8 +203,8 @@
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 4171,
-   "useLabel": "+4,171 stars/day",
+   "use": 4106,
+   "useLabel": "+4,106 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -318,28 +318,28 @@
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 3279,
-   "d24": 4171,
+   "stars": 3330,
+   "d24": 4106,
    "est": false,
-   "forks": 249,
+   "forks": 256,
    "contrib": null,
    "score": 95
   },
   {
    "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 2238,
-   "d24": 207,
+   "stars": 2255,
+   "d24": 224,
    "est": false,
-   "forks": 287,
+   "forks": 288,
    "contrib": null,
    "score": 88
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 3144,
-   "d24": 128,
+   "stars": 3151,
+   "d24": 139,
    "est": false,
-   "forks": 5555,
+   "forks": 5560,
    "contrib": null,
    "score": 94
   }
@@ -354,7 +354,7 @@
    "grow": 120,
    "score": 91,
    "cat": "Vision",
-   "likes": 539
+   "likes": 541
   },
   {
    "name": "embeddinggemma-2",
@@ -362,10 +362,10 @@
    "lic": "Open source",
    "at": "2026-09-14T14:53:42.000Z",
    "dl": 98829,
-   "grow": 117,
+   "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 1698
+   "likes": 1703
   },
   {
    "name": "humanizer",
@@ -373,10 +373,10 @@
    "lic": "Open source",
    "at": "2026-09-11T05:00:16.000Z",
    "dl": 37647,
-   "grow": 12,
+   "grow": null,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1077
+   "likes": 1081
   },
   {
    "name": "clef",
@@ -384,10 +384,10 @@
    "lic": "Open source",
    "at": "2026-09-30T21:15:35.000Z",
    "dl": 14351,
-   "grow": 6,
+   "grow": null,
    "score": 87,
    "cat": "Coding",
-   "likes": 2027
+   "likes": 2028
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -395,10 +395,10 @@
    "lic": "Open weights",
    "at": "2026-09-20T15:51:13.000Z",
    "dl": 2188658,
-   "grow": 4,
+   "grow": null,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 3981
+   "likes": 3984
   },
   {
    "name": "Underdog-Saluki-27B-1.0",
@@ -729,6 +729,13 @@
  },
  "headlines": [
   {
+   "t": "Vitalize, an AI platform that helps hospitals manage labor and capacity in real time, raised a $31M Series A led by Oak HC/FT, with YC and others participating",
+   "url": "https://www.techmeme.com/261011/p13#a261011p13",
+   "at": "2026-10-12T00:45:00.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Q&A with Palantir CTO Shyam Sankar on the Iran school strike and AI targeting, the DOD dropping Anthropic, AI liability, effective altruism, and more",
    "url": "https://www.techmeme.com/261011/p12#a261011p12",
    "at": "2026-10-11T23:50:02.000Z",
@@ -764,6 +771,13 @@
    "kind": "News"
   },
   {
+   "t": "Paranormal Events, Politics 10/11/26, ET UFO AI Future, Technology, Science, Global News",
+   "url": "https://www.youtube.com/watch?v=sfi-IfFZHqg",
+   "at": "2026-10-11T17:00:03Z",
+   "src": "Sterling Psychic Medium",
+   "kind": "Video"
+  },
+  {
    "t": "Feelgood factor of human interaction | Brief letters",
    "url": "https://www.theguardian.com/science/2026/oct/11/feelgood-factor-of-human-interaction",
    "at": "2026-10-11T15:52:20Z",
@@ -776,13 +790,6 @@
    "at": "2026-10-11T13:00:51.000Z",
    "src": "Techmeme",
    "kind": "News"
-  },
-  {
-   "t": "Ai use krke kisi ki bhi location bta skte ho tum.",
-   "url": "https://www.youtube.com/watch?v=kQ9E1SUOXYw",
-   "at": "2026-10-11T13:00:02Z",
-   "src": "ezCommit",
-   "kind": "Video"
   },
   {
    "t": "friendly actor’: Nicolas Cage criticises Amazon, says he may not work with studio again",
@@ -832,13 +839,6 @@
    "at": "2026-10-11T10:26:09Z",
    "src": "Malay Mail",
    "kind": "News"
-  },
-  {
-   "t": "The Week That Was, The Week Ahead: Macro and Markets, October 11",
-   "url": "https://markets.businessinsider.com/news/stocks/the-week-that-was-the-week-ahead-macro-and-markets-october-11-1036614655",
-   "at": "2026-10-11T10:20:20Z",
-   "src": "Markets Insider",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -847,8 +847,8 @@
    "t": "The gap in shared understanding of LLM capability is widening",
    "url": "https://news.ycombinator.com/item?id=50047422",
    "link": "https://twitter.com/karpathy/status/2109361546505966046",
-   "up": 199,
-   "com": 329,
+   "up": 219,
+   "com": 354,
    "at": "2026-10-11T20:20:52.000Z"
   },
   {
@@ -856,8 +856,8 @@
    "t": "Terence Tao: Math 2.0 [pdf]",
    "url": "https://news.ycombinator.com/item?id=50043026",
    "link": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
-   "up": 304,
-   "com": 359,
+   "up": 310,
+   "com": 366,
    "at": "2026-10-11T13:16:45.000Z"
   },
   {
@@ -865,8 +865,8 @@
    "t": "Recursive self-improvement through collective intelligence",
    "url": "https://news.ycombinator.com/item?id=50048522",
    "link": "https://pub.sakana.ai/mass/",
-   "up": 37,
-   "com": 11,
+   "up": 47,
+   "com": 17,
    "at": "2026-10-11T22:22:10.000Z"
   },
   {
@@ -880,21 +880,21 @@
   },
   {
    "src": "Hacker News",
-   "t": "Show HN: WallHop – 12ft.io is gone, so I built a replacement",
-   "url": "https://news.ycombinator.com/item?id=50038634",
-   "link": "https://wallhop.io/",
-   "up": 270,
-   "com": 118,
-   "at": "2026-10-11T00:46:48.000Z"
-  },
-  {
-   "src": "Hacker News",
    "t": "apsw: Another Python SQLite Wrapper",
    "url": "https://news.ycombinator.com/item?id=50045273",
    "link": "https://github.com/rogerbinns/apsw",
-   "up": 54,
-   "com": 13,
+   "up": 60,
+   "com": 14,
    "at": "2026-10-11T16:58:22.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "500B tokens later: Letting AI agents decompile a first-person shooter",
+   "url": "https://news.ycombinator.com/item?id=50039092",
+   "link": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
+   "up": 149,
+   "com": 107,
+   "at": "2026-10-11T02:02:38.000Z"
   }
  ]
 }
