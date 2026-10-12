@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-12T18:30:55.695Z"
+  "updated": "2026-10-12T19:01:04.392Z"
  },
  "pulse": {
   "trending": 76,
   "accelerating": 0,
   "newModels": 5,
-  "discussions": 44,
-  "stars": 4386
+  "discussions": 47,
+  "stars": 4346
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 95,
-   "grow": 36,
+   "grow": 38,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 5,643",
-    "+3,264 in 24h",
+    "★ 5,704",
+    "+3,249 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -41,8 +41,8 @@
    "grow": 2,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 3,542",
-    "+281 in 24h",
+    "★ 3,543",
+    "+264 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -54,9 +54,9 @@
    "owner": "Qwen",
    "src": "hf",
    "cat": "Vision",
-   "score": 91,
+   "score": 93,
    "grow": 44,
-   "desc": "Vision on Hugging Face · open weights · ♥ 614",
+   "desc": "Vision on Hugging Face · open weights · ♥ 618",
    "meta": [
     "6.8K downloads",
     "Released 4 days ago"
@@ -106,8 +106,8 @@
    "grow": 17,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 2,733",
-    "+647 in 24h",
+    "★ 2,741",
+    "+638 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -115,11 +115,27 @@
    "url": "https://github.com/LosaLosSantos/aurelio-finance"
   },
   {
+   "name": "Underdog-Saluki-27B-1.0",
+   "owner": "ConwayResearch",
+   "src": "hf",
+   "cat": "Agents",
+   "score": 87,
+   "grow": 0,
+   "desc": "Model on Hugging Face · open source · ♥ 363",
+   "meta": [
+    "242K downloads",
+    "Released 5 days ago"
+   ],
+   "at": "2026-10-08T01:47:26.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0"
+  },
+  {
    "name": "Qwen-Image-2.1-Uncensored-Quantized",
    "owner": "abenzerps",
    "src": "hf",
    "cat": "Infrastructure",
-   "score": 87,
+   "score": 86,
    "grow": 0,
    "desc": "Model on Hugging Face · open weights · ♥ 4.1K",
    "meta": [
@@ -129,22 +145,6 @@
    "at": "2026-09-20T15:51:13.000Z",
    "breakout": null,
    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized"
-  },
-  {
-   "name": "Underdog-Saluki-27B-1.0",
-   "owner": "ConwayResearch",
-   "src": "hf",
-   "cat": "Agents",
-   "score": 87,
-   "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 362",
-   "meta": [
-    "242K downloads",
-    "Released 5 days ago"
-   ],
-   "at": "2026-10-08T01:47:26.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0"
   },
   {
    "name": "S-Space: Exploring Spatial Workspace in Multimodal Language Models",
@@ -174,7 +174,7 @@
    "meta": [
     "▲ 269 votes",
     "38 comments",
-    "Launched yesterday"
+    "Launched 2 days ago"
    ],
    "at": "2026-10-11T07:01:00Z",
    "breakout": null
@@ -242,8 +242,8 @@
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 3264,
-   "useLabel": "+3,264 stars/day",
+   "use": 3249,
+   "useLabel": "+3,249 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -357,17 +357,17 @@
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 5643,
-   "d24": 3264,
+   "stars": 5704,
+   "d24": 3249,
    "est": false,
-   "forks": 401,
+   "forks": 406,
    "contrib": 5,
    "score": 95
   },
   {
    "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 2733,
-   "d24": 647,
+   "stars": 2741,
+   "d24": 638,
    "est": false,
    "forks": 379,
    "contrib": null,
@@ -375,19 +375,19 @@
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 3542,
-   "d24": 281,
+   "stars": 3543,
+   "d24": 264,
    "est": false,
-   "forks": 5955,
+   "forks": 5960,
    "contrib": null,
    "score": 93
   },
   {
    "repo": "bherbruck/solidcraft",
-   "stars": 964,
-   "d24": 194,
+   "stars": 976,
+   "d24": 195,
    "est": true,
-   "forks": 92,
+   "forks": 94,
    "contrib": null,
    "score": 78
   }
@@ -400,9 +400,9 @@
    "at": "2026-10-09T04:50:01.000Z",
    "dl": 6787,
    "grow": 44,
-   "score": 91,
+   "score": 93,
    "cat": "Vision",
-   "likes": 614
+   "likes": 618
   },
   {
    "name": "embeddinggemma-2",
@@ -413,7 +413,7 @@
    "grow": 17,
    "score": 90,
    "cat": "Vision",
-   "likes": 1901
+   "likes": 1905
   },
   {
    "name": "humanizer",
@@ -424,18 +424,7 @@
    "grow": 22,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1296
-  },
-  {
-   "name": "Qwen-Image-2.1-Uncensored-Quantized",
-   "org": "abenzerps",
-   "lic": "Open weights",
-   "at": "2026-09-20T15:51:13.000Z",
-   "dl": 2188658,
-   "grow": 0,
-   "score": 87,
-   "cat": "Infrastructure",
-   "likes": 4074
+   "likes": 1299
   },
   {
    "name": "Underdog-Saluki-27B-1.0",
@@ -447,7 +436,18 @@
    "grow": 0,
    "score": 87,
    "cat": "Agents",
-   "likes": 362
+   "likes": 363
+  },
+  {
+   "name": "Qwen-Image-2.1-Uncensored-Quantized",
+   "org": "abenzerps",
+   "lic": "Open weights",
+   "at": "2026-09-20T15:51:13.000Z",
+   "dl": 2188658,
+   "grow": 0,
+   "score": 86,
+   "cat": "Infrastructure",
+   "likes": 4076
   },
   {
    "name": "clef",
@@ -458,7 +458,7 @@
    "grow": 5,
    "score": 84,
    "cat": "Coding",
-   "likes": 2081
+   "likes": 2082
   }
  ],
  "free": [
@@ -875,11 +875,11 @@
    "kind": "News"
   },
   {
-   "t": "Claude Opus 6 LEAKED, Gemini 4 Carbon Leaks, HUGE OpenAI Update, Claude 24/7 Agent, & More! AI NEWS",
-   "url": "https://www.youtube.com/watch?v=4iKUaUmeoWk",
-   "at": "2026-10-12T07:25:21Z",
-   "src": "WorldofAI",
-   "kind": "Video"
+   "t": "Korea unveils 1st defense AI center to power next",
+   "url": "https://www.koreatimes.co.kr/southkorea/defense/20261012/korea-unveils-1st-defense-ai-center-to-power-next-generation-combat-systems",
+   "at": "2026-10-12T06:58:03Z",
+   "src": "The Korea Times",
+   "kind": "News"
   },
   {
    "t": "Startups are betting on AI to predict the future",
@@ -895,8 +895,8 @@
    "t": "Muse Wonder",
    "url": "https://news.ycombinator.com/item?id=50059115",
    "link": "https://research.meta.ai/blog/muse-wonder",
-   "up": 237,
-   "com": 98,
+   "up": 275,
+   "com": 124,
    "at": "2026-10-12T16:48:01.000Z"
   },
   {
@@ -904,45 +904,45 @@
    "t": "GLM-Legal",
    "url": "https://news.ycombinator.com/item?id=50058507",
    "link": "https://z.ai/blog/glm-legal",
-   "up": 224,
-   "com": 137,
+   "up": 253,
+   "com": 146,
    "at": "2026-10-12T16:11:45.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Just say no to OpenAI and Anthropic",
+   "url": "https://news.ycombinator.com/item?id=50060500",
+   "link": "https://micahflee.com/just-say-no-to-openai-and-anthropic/",
+   "up": 77,
+   "com": 38,
+   "at": "2026-10-12T18:17:29.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Why aren't AI companies being charged for hacking?",
    "url": "https://news.ycombinator.com/item?id=50057278",
    "link": "https://mortoray.com/why-arent-ai-companies-being-charged-for-hacking/",
-   "up": 287,
-   "com": 281,
+   "up": 289,
+   "com": 288,
    "at": "2026-10-12T14:52:37.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Codex CLI installs a persistent, self-updating background daemon by default",
+   "url": "https://news.ycombinator.com/item?id=50060694",
+   "link": "https://github.com/openai/codex/issues/48195",
+   "up": 61,
+   "com": 19,
+   "at": "2026-10-12T18:29:04.000Z"
   },
   {
    "src": "Hacker News",
    "t": "AI coding agents generate more code, but not more software",
    "url": "https://news.ycombinator.com/item?id=50059523",
    "link": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
-   "up": 68,
-   "com": 46,
+   "up": 105,
+   "com": 79,
    "at": "2026-10-12T17:14:01.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "QGIS: No AI contributions permitted",
-   "url": "https://news.ycombinator.com/item?id=50054751",
-   "link": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
-   "up": 336,
-   "com": 368,
-   "at": "2026-10-12T11:22:24.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "The gap in shared understanding of LLM capability is widening",
-   "url": "https://news.ycombinator.com/item?id=50047422",
-   "link": "https://twitter.com/karpathy/status/2109361546505966046",
-   "up": 632,
-   "com": 924,
-   "at": "2026-10-11T20:20:52.000Z"
   }
  ]
 }
