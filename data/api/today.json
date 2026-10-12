@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-12T09:44:57.676Z"
+  "updated": "2026-10-12T10:01:10.524Z"
  },
  "pulse": {
   "trending": 75,
   "accelerating": 1,
-  "newModels": 7,
-  "discussions": 36,
-  "stars": 2008
+  "newModels": 6,
+  "discussions": 37,
+  "stars": 2368
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 4,472",
-    "~1,123 in 24h",
+    "★ 4,501",
+    "~1,128 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -41,8 +41,8 @@
    "grow": 11,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 3,423",
-    "+430 in 24h",
+    "★ 3,432",
+    "+436 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -71,8 +71,8 @@
    "src": "hf",
    "cat": "Vision",
    "score": 90,
-   "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 578",
+   "grow": 44,
+   "desc": "Vision on Hugging Face · open weights · ♥ 581",
    "meta": [
     "6.8K downloads",
     "Released 3 days ago"
@@ -103,11 +103,11 @@
    "src": "gh",
    "cat": "LLMs",
    "score": 88,
-   "grow": null,
+   "grow": 9,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 2,532",
-    "~455 in 24h",
+    "★ 2,543",
+    "+804 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -172,7 +172,7 @@
    "grow": null,
    "desc": "Online reinforcement learning (RL) fine-tunes diffusion models with black-box rewards, but reverse-process methods such as Flow-GRPO are limited in efficiency by poor credit assignment, while forward-process methods such as DiffusionNFT are efficient yet unstable without carefully tuned exponential-moving-average (EMA) off-policy training.",
    "meta": [
-    "▲ 119 upvotes",
+    "▲ 127 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-07T20:00:00.000Z",
@@ -185,8 +185,8 @@
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 1123,
-   "useLabel": "~1,123 stars/day",
+   "use": 1128,
+   "useLabel": "~1,128 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -300,28 +300,28 @@
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 4472,
-   "d24": 1123,
+   "stars": 4501,
+   "d24": 1128,
    "est": true,
-   "forks": 339,
+   "forks": 341,
    "contrib": null,
    "score": 95
   },
   {
    "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 2532,
-   "d24": 455,
-   "est": true,
-   "forks": 312,
+   "stars": 2543,
+   "d24": 804,
+   "est": false,
+   "forks": 315,
    "contrib": null,
    "score": 88
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 3423,
-   "d24": 430,
+   "stars": 3432,
+   "d24": 436,
    "est": false,
-   "forks": 5845,
+   "forks": 5855,
    "contrib": null,
    "score": 93
   }
@@ -336,7 +336,7 @@
    "grow": 17,
    "score": 90,
    "cat": "Vision",
-   "likes": 1814
+   "likes": 1819
   },
   {
    "name": "Qwen-Image-2.1-Turbo",
@@ -344,10 +344,10 @@
    "lic": "Open weights",
    "at": "2026-10-09T04:50:01.000Z",
    "dl": 6787,
-   "grow": null,
+   "grow": 44,
    "score": 90,
    "cat": "Vision",
-   "likes": 578
+   "likes": 581
   },
   {
    "name": "humanizer",
@@ -358,7 +358,7 @@
    "grow": 22,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1196
+   "likes": 1200
   },
   {
    "name": "clef",
@@ -369,7 +369,7 @@
    "grow": 5,
    "score": 87,
    "cat": "Coding",
-   "likes": 2052
+   "likes": 2054
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-Quantized",
@@ -380,7 +380,7 @@
    "grow": null,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 4028
+   "likes": 4030
   },
   {
    "name": "Underdog-Saluki-27B-1.0",
@@ -767,13 +767,6 @@
    "kind": "News"
   },
   {
-   "t": "Vitalize, an AI platform that helps hospitals manage labor and capacity in real time, raised a $31M Series A led by Oak HC/FT, with YC and others participating",
-   "url": "https://www.techmeme.com/261011/p13#a261011p13",
-   "at": "2026-10-12T00:45:00.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "UK to strengthen cyber defences as minister calls for AI firms to increase safety efforts",
    "url": "https://www.theguardian.com/technology/2026/oct/12/uk-strengthen-cyber-defences-minister-ai-firms-safety",
    "at": "2026-10-11T23:01:39Z",
@@ -821,6 +814,13 @@
    "at": "2026-10-11T18:46:00Z",
    "src": "The Telegraph",
    "kind": "News"
+  },
+  {
+   "t": "DBS Chief sees overseas confidence in India despite capital outflow concerns",
+   "url": "https://economictimes.indiatimes.com/markets/stocks/news/dbs-chief-sees-overseas-confidence-in-india-despite-capital-outflow-concerns/articleshow/134880062.cms",
+   "at": "2026-10-11T18:31:00Z",
+   "src": "The Economic Times",
+   "kind": "News"
   }
  ],
  "discussions": [
@@ -829,7 +829,7 @@
    "t": "Zod 4.6.6 compromised by malware?",
    "url": "https://news.ycombinator.com/item?id=50052814",
    "link": "https://github.com/colinhacks/zod/commit/d821685ea6732436fcdf786a81d076958471e467",
-   "up": 118,
+   "up": 120,
    "com": 31,
    "at": "2026-10-12T07:47:29.000Z"
   },
@@ -838,8 +838,8 @@
    "t": "The gap in shared understanding of LLM capability is widening",
    "url": "https://news.ycombinator.com/item?id=50047422",
    "link": "https://twitter.com/karpathy/status/2109361546505966046",
-   "up": 458,
-   "com": 660,
+   "up": 463,
+   "com": 668,
    "at": "2026-10-11T20:20:52.000Z"
   },
   {
@@ -847,7 +847,7 @@
    "t": "Terence Tao: Math 2.0 [pdf]",
    "url": "https://news.ycombinator.com/item?id=50043026",
    "link": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
-   "up": 399,
+   "up": 401,
    "com": 423,
    "at": "2026-10-11T13:16:45.000Z"
   },
@@ -856,8 +856,8 @@
    "t": "Doory – Open-Source Canva",
    "url": "https://news.ycombinator.com/item?id=50049872",
    "link": "https://github.com/shaongitbd/doory",
-   "up": 113,
-   "com": 41,
+   "up": 115,
+   "com": 44,
    "at": "2026-10-12T00:48:27.000Z"
   },
   {
@@ -870,13 +870,12 @@
    "at": "2026-10-12T01:57:39.000Z"
   },
   {
-   "src": "Hacker News",
-   "t": "Recursive self-improvement through collective intelligence",
-   "url": "https://news.ycombinator.com/item?id=50048522",
-   "link": "https://pub.sakana.ai/mass/",
-   "up": 115,
-   "com": 66,
-   "at": "2026-10-11T22:22:10.000Z"
+   "src": "DEV",
+   "t": "5 Best AI Gateways",
+   "url": "https://dev.to/hadil/5-best-ai-gateways-1o72",
+   "up": 10,
+   "com": 0,
+   "at": "2026-10-12T09:05:21Z"
   }
  ]
 }
