@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-12T00:01:08.750Z"
+  "updated": "2026-10-12T00:30:51.132Z"
  },
  "pulse": {
   "trending": 77,
   "accelerating": 3,
   "newModels": 8,
-  "discussions": 41,
-  "stars": 4572
+  "discussions": 38,
+  "stars": 4506
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 95,
-   "grow": 217,
+   "grow": 221,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 3,237",
-    "+4,255 in 24h",
+    "★ 3,279",
+    "+4,171 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 94,
-   "grow": 1,
+   "grow": 2,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 3,140",
-    "+124 in 24h",
+    "★ 3,144",
+    "+128 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -56,7 +56,7 @@
    "cat": "Vision",
    "score": 91,
    "grow": 120,
-   "desc": "Vision on Hugging Face · open weights · ♥ 538",
+   "desc": "Vision on Hugging Face · open weights · ♥ 539",
    "meta": [
     "4.7K downloads",
     "Released 3 days ago"
@@ -82,23 +82,6 @@
    "url": "https://huggingface.co/google/embeddinggemma-2"
   },
   {
-   "name": "aurelio-finance",
-   "owner": "LosaLosSantos",
-   "src": "gh",
-   "cat": "LLMs",
-   "score": 89,
-   "grow": 6,
-   "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
-   "meta": [
-    "★ 2,225",
-    "+193 in 24h",
-    "Created 5 days ago"
-   ],
-   "at": "2026-10-06T20:14:19Z",
-   "breakout": null,
-   "url": "https://github.com/LosaLosSantos/aurelio-finance"
-  },
-  {
    "name": "humanizer",
    "owner": "jialinyyzz",
    "src": "hf",
@@ -113,6 +96,23 @@
    "at": "2026-09-11T05:00:16.000Z",
    "breakout": null,
    "url": "https://huggingface.co/jialinyyzz/humanizer"
+  },
+  {
+   "name": "aurelio-finance",
+   "owner": "LosaLosSantos",
+   "src": "gh",
+   "cat": "LLMs",
+   "score": 88,
+   "grow": 7,
+   "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
+   "meta": [
+    "★ 2,238",
+    "+207 in 24h",
+    "Created 5 days ago"
+   ],
+   "at": "2026-10-06T20:14:19Z",
+   "breakout": null,
+   "url": "https://github.com/LosaLosSantos/aurelio-finance"
   },
   {
    "name": "clef",
@@ -203,8 +203,8 @@
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 4255,
-   "useLabel": "+4,255 stars/day",
+   "use": 4171,
+   "useLabel": "+4,171 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -318,28 +318,28 @@
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 3237,
-   "d24": 4255,
+   "stars": 3279,
+   "d24": 4171,
    "est": false,
-   "forks": 244,
+   "forks": 249,
    "contrib": null,
    "score": 95
   },
   {
    "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 2225,
-   "d24": 193,
+   "stars": 2238,
+   "d24": 207,
    "est": false,
    "forks": 287,
    "contrib": null,
-   "score": 89
+   "score": 88
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 3140,
-   "d24": 124,
+   "stars": 3144,
+   "d24": 128,
    "est": false,
-   "forks": 5553,
+   "forks": 5555,
    "contrib": null,
    "score": 94
   }
@@ -354,7 +354,7 @@
    "grow": 120,
    "score": 91,
    "cat": "Vision",
-   "likes": 538
+   "likes": 539
   },
   {
    "name": "embeddinggemma-2",
@@ -365,7 +365,7 @@
    "grow": 117,
    "score": 90,
    "cat": "Vision",
-   "likes": 1694
+   "likes": 1698
   },
   {
    "name": "humanizer",
@@ -376,7 +376,7 @@
    "grow": 12,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1074
+   "likes": 1077
   },
   {
    "name": "clef",
@@ -387,7 +387,7 @@
    "grow": 6,
    "score": 87,
    "cat": "Coding",
-   "likes": 2026
+   "likes": 2027
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-GGUF",
@@ -398,7 +398,7 @@
    "grow": 4,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 3979
+   "likes": 3981
   },
   {
    "name": "Underdog-Saluki-27B-1.0",
@@ -778,6 +778,20 @@
    "kind": "News"
   },
   {
+   "t": "Ai use krke kisi ki bhi location bta skte ho tum.",
+   "url": "https://www.youtube.com/watch?v=kQ9E1SUOXYw",
+   "at": "2026-10-11T13:00:02Z",
+   "src": "ezCommit",
+   "kind": "Video"
+  },
+  {
+   "t": "friendly actor’: Nicolas Cage criticises Amazon, says he may not work with studio again",
+   "url": "https://www.tribuneindia.com/news/entertainment/not-an-ai-friendly-actor-nicolas-cage-criticises-amazon-says-he-may-not-work-with-studio-again/",
+   "at": "2026-10-11T12:25:27Z",
+   "src": "The Tribune",
+   "kind": "News"
+  },
+  {
    "t": "Khushbu Sundar slams AI misuse against women: ‘Try using AI to wrongly alter pictures of the women in your own homes’",
    "url": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/khushbu-sundar-slams-ai-misuse-against-women-try-using-ai-to-wrongly-alter-pictures-of-the-women-in-your-own-homes/articleshow/134869772.cms",
    "at": "2026-10-11T11:38:00Z",
@@ -825,20 +839,6 @@
    "at": "2026-10-11T10:20:20Z",
    "src": "Markets Insider",
    "kind": "News"
-  },
-  {
-   "t": "India's tech push: five things to know",
-   "url": "https://economictimes.indiatimes.com/tech/technology/indias-tech-push-five-things-to-know/articleshow/134868670.cms",
-   "at": "2026-10-11T10:17:21Z",
-   "src": "The Economic Times",
-   "kind": "News"
-  },
-  {
-   "t": "Delay the deployment of Artificial Intelligence | Opinion letters",
-   "url": "https://www.naplesnews.com/story/opinion/2026/10/11/delay-the-deployment-of-artificial-intelligence-opinion-letters/92116430007/",
-   "at": "2026-10-11T10:02:37Z",
-   "src": "Naples Daily News",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -847,8 +847,8 @@
    "t": "The gap in shared understanding of LLM capability is widening",
    "url": "https://news.ycombinator.com/item?id=50047422",
    "link": "https://twitter.com/karpathy/status/2109361546505966046",
-   "up": 183,
-   "com": 276,
+   "up": 199,
+   "com": 329,
    "at": "2026-10-11T20:20:52.000Z"
   },
   {
@@ -856,8 +856,8 @@
    "t": "Terence Tao: Math 2.0 [pdf]",
    "url": "https://news.ycombinator.com/item?id=50043026",
    "link": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
-   "up": 297,
-   "com": 355,
+   "up": 304,
+   "com": 359,
    "at": "2026-10-11T13:16:45.000Z"
   },
   {
@@ -865,8 +865,8 @@
    "t": "Recursive self-improvement through collective intelligence",
    "url": "https://news.ycombinator.com/item?id=50048522",
    "link": "https://pub.sakana.ai/mass/",
-   "up": 31,
-   "com": 4,
+   "up": 37,
+   "com": 11,
    "at": "2026-10-11T22:22:10.000Z"
   },
   {
@@ -883,8 +883,8 @@
    "t": "Show HN: WallHop – 12ft.io is gone, so I built a replacement",
    "url": "https://news.ycombinator.com/item?id=50038634",
    "link": "https://wallhop.io/",
-   "up": 269,
-   "com": 117,
+   "up": 270,
+   "com": 118,
    "at": "2026-10-11T00:46:48.000Z"
   },
   {
@@ -892,7 +892,7 @@
    "t": "apsw: Another Python SQLite Wrapper",
    "url": "https://news.ycombinator.com/item?id=50045273",
    "link": "https://github.com/rogerbinns/apsw",
-   "up": 51,
+   "up": 54,
    "com": 13,
    "at": "2026-10-11T16:58:22.000Z"
   }
