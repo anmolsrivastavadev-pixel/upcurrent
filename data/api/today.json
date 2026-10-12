@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-12T12:01:26.005Z"
+  "updated": "2026-10-12T12:30:55.900Z"
  },
  "pulse": {
   "trending": 75,
   "accelerating": 0,
   "newModels": 6,
-  "discussions": 36,
-  "stars": 2796
+  "discussions": 37,
+  "stars": 2823
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 4,715",
-    "~1,157 in 24h",
+    "★ 4,762",
+    "~1,163 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -41,8 +41,8 @@
    "grow": null,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 3,466",
-    "~812 in 24h",
+    "★ 3,473",
+    "~810 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -72,7 +72,7 @@
    "cat": "Vision",
    "score": 90,
    "grow": 44,
-   "desc": "Vision on Hugging Face · open weights · ♥ 589",
+   "desc": "Vision on Hugging Face · open weights · ♥ 590",
    "meta": [
     "6.8K downloads",
     "Released 3 days ago"
@@ -103,11 +103,11 @@
    "src": "gh",
    "cat": "LLMs",
    "score": 88,
-   "grow": 12,
+   "grow": 13,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 2,618",
-    "+827 in 24h",
+    "★ 2,643",
+    "+850 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -137,7 +137,7 @@
    "cat": "Agents",
    "score": 87,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 345",
+   "desc": "Model on Hugging Face · open source · ♥ 347",
    "meta": [
     "242K downloads",
     "Released 4 days ago"
@@ -163,20 +163,20 @@
    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized"
   },
   {
-   "name": "S-Space: Exploring Spatial Workspace in Multimodal Language Models",
-   "owner": "Paper",
-   "src": "paper",
-   "url": "https://huggingface.co/papers/2610.13527",
-   "cat": "Research",
+   "name": "Qwen-Image-2.1-Turbo-Uncensored-GGUF",
+   "owner": "AtomicChat",
+   "src": "hf",
+   "cat": "Coding",
    "score": 85,
    "grow": null,
-   "desc": "Multimodal language models (MLLMs) exhibit promising spatial reasoning capabilities, yet the internal mechanisms supporting them remain poorly understood.",
+   "desc": "Model on Hugging Face · open source · ♥ 357",
    "meta": [
-    "▲ 134 upvotes",
-    "Hugging Face Papers"
+    "162K downloads",
+    "Released 3 days ago"
    ],
-   "at": "2026-10-09T08:48:41.000Z",
-   "breakout": null
+   "at": "2026-10-09T16:30:48.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF"
   }
  ],
  "breakouts": [],
@@ -185,8 +185,8 @@
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 1157,
-   "useLabel": "~1,157 stars/day",
+   "use": 1163,
+   "useLabel": "~1,163 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -300,28 +300,28 @@
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 4715,
-   "d24": 1157,
+   "stars": 4762,
+   "d24": 1163,
    "est": true,
-   "forks": 358,
-   "contrib": null,
+   "forks": 360,
+   "contrib": 5,
    "score": 95
   },
   {
    "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 2618,
-   "d24": 827,
+   "stars": 2643,
+   "d24": 850,
    "est": false,
-   "forks": 328,
+   "forks": 329,
    "contrib": null,
    "score": 88
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 3466,
-   "d24": 812,
+   "stars": 3473,
+   "d24": 810,
    "est": true,
-   "forks": 5882,
+   "forks": 5886,
    "contrib": null,
    "score": 93
   }
@@ -336,7 +336,7 @@
    "grow": 17,
    "score": 90,
    "cat": "Vision",
-   "likes": 1836
+   "likes": 1842
   },
   {
    "name": "Qwen-Image-2.1-Turbo",
@@ -347,7 +347,7 @@
    "grow": 44,
    "score": 90,
    "cat": "Vision",
-   "likes": 589
+   "likes": 590
   },
   {
    "name": "humanizer",
@@ -358,7 +358,7 @@
    "grow": 22,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1224
+   "likes": 1229
   },
   {
    "name": "clef",
@@ -369,7 +369,7 @@
    "grow": 5,
    "score": 87,
    "cat": "Coding",
-   "likes": 2061
+   "likes": 2063
   },
   {
    "name": "Underdog-Saluki-27B-1.0",
@@ -381,7 +381,7 @@
    "grow": null,
    "score": 87,
    "cat": "Agents",
-   "likes": 345
+   "likes": 347
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-Quantized",
@@ -711,6 +711,20 @@
  },
  "headlines": [
   {
+   "t": "Sources: DeepSeek agrees to lead robotic AI startup Winverse AI's seed funding round of tens of millions of dollars, valuing the startup at ~$400M post-money",
+   "url": "https://www.techmeme.com/261012/p17#a261012p17",
+   "at": "2026-10-12T12:20:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "As US medical debt grows, AI will be used more to collect it",
+   "url": "https://www.theguardian.com/us-news/2026/oct/12/ai-medical-debt-billing",
+   "at": "2026-10-12T12:00:55Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
    "t": "Broadcom CEO Hock Tan criticizes speculative AI investing, comparing uninformed investors to casino gamblers and questioning the long-term economics of AI labs",
    "url": "https://www.techmeme.com/261012/p16#a261012p16",
    "at": "2026-10-12T11:40:02.000Z",
@@ -807,20 +821,6 @@
    "at": "2026-10-11T23:01:39Z",
    "src": "The Guardian",
    "kind": "News"
-  },
-  {
-   "t": "India’s Techade drive: Five key moves in chips, electronics, AI and global competition",
-   "url": "https://www.malaymail.com/news/tech-gadgets/2026/10/12/indias-techade-drive-five-key-moves-in-chips-electronics-ai-and-global-competition/238654",
-   "at": "2026-10-11T23:00:00Z",
-   "src": "Malay Mail",
-   "kind": "News"
-  },
-  {
-   "t": "Threat of AI Global action critical",
-   "url": "https://www.dailyexcelsior.com/threat-of-ai-global-action-critical/",
-   "at": "2026-10-11T22:30:46Z",
-   "src": "Daily Excelsior",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -829,8 +829,8 @@
    "t": "QGIS bans AI assisted contributions",
    "url": "https://news.ycombinator.com/item?id=50054751",
    "link": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
-   "up": 60,
-   "com": 47,
+   "up": 89,
+   "com": 79,
    "at": "2026-10-12T11:22:24.000Z"
   },
   {
@@ -838,8 +838,8 @@
    "t": "Zod 4.6.6 compromised by malware?",
    "url": "https://news.ycombinator.com/item?id=50052814",
    "link": "https://github.com/colinhacks/zod/commit/d821685ea6732436fcdf786a81d076958471e467",
-   "up": 144,
-   "com": 34,
+   "up": 153,
+   "com": 39,
    "at": "2026-10-12T07:47:29.000Z"
   },
   {
@@ -847,8 +847,8 @@
    "t": "The gap in shared understanding of LLM capability is widening",
    "url": "https://news.ycombinator.com/item?id=50047422",
    "link": "https://twitter.com/karpathy/status/2109361546505966046",
-   "up": 504,
-   "com": 733,
+   "up": 509,
+   "com": 749,
    "at": "2026-10-11T20:20:52.000Z"
   },
   {
@@ -856,8 +856,8 @@
    "t": "Terence Tao: Math 2.0 [pdf]",
    "url": "https://news.ycombinator.com/item?id=50043026",
    "link": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
-   "up": 425,
-   "com": 440,
+   "up": 428,
+   "com": 444,
    "at": "2026-10-11T13:16:45.000Z"
   },
   {
@@ -865,8 +865,8 @@
    "t": "Show HN: PS2 games statically recompiled to WebAssembly",
    "url": "https://news.ycombinator.com/item?id=50052251",
    "link": "https://github.com/snuri00/ps2-web-recomp",
-   "up": 66,
-   "com": 23,
+   "up": 78,
+   "com": 34,
    "at": "2026-10-12T06:46:53.000Z"
   },
   {
@@ -874,8 +874,8 @@
    "t": "Doory – Open-Source Canva",
    "url": "https://news.ycombinator.com/item?id=50049872",
    "link": "https://github.com/shaongitbd/doory",
-   "up": 135,
-   "com": 50,
+   "up": 139,
+   "com": 51,
    "at": "2026-10-12T00:48:27.000Z"
   }
  ]
