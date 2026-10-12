@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-12T15:31:36.763Z"
+  "updated": "2026-10-12T16:01:08.219Z"
  },
  "pulse": {
   "trending": 75,
   "accelerating": 0,
-  "newModels": 4,
-  "discussions": 40,
-  "stars": 4765
+  "newModels": 5,
+  "discussions": 39,
+  "stars": 4810
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 95,
-   "grow": 26,
+   "grow": 28,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 5,217",
-    "+3,206 in 24h",
+    "★ 5,308",
+    "+3,277 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -41,8 +41,8 @@
    "grow": null,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 3,514",
-    "~796 in 24h",
+    "★ 3,519",
+    "~793 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -72,7 +72,7 @@
    "cat": "Vision",
    "score": 90,
    "grow": 44,
-   "desc": "Vision on Hugging Face · open weights · ♥ 602",
+   "desc": "Vision on Hugging Face · open weights · ♥ 603",
    "meta": [
     "6.8K downloads",
     "Released 3 days ago"
@@ -106,8 +106,8 @@
    "grow": 16,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 2,708",
-    "+763 in 24h",
+    "★ 2,712",
+    "+740 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -115,27 +115,11 @@
    "url": "https://github.com/LosaLosSantos/aurelio-finance"
   },
   {
-   "name": "Underdog-Saluki-27B-1.0",
-   "owner": "ConwayResearch",
-   "src": "hf",
-   "cat": "Agents",
-   "score": 87,
-   "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 356",
-   "meta": [
-    "242K downloads",
-    "Released 5 days ago"
-   ],
-   "at": "2026-10-08T01:47:26.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0"
-  },
-  {
    "name": "Qwen-Image-2.1-Uncensored-Quantized",
    "owner": "abenzerps",
    "src": "hf",
    "cat": "Infrastructure",
-   "score": 86,
+   "score": 87,
    "grow": 0,
    "desc": "Model on Hugging Face · open weights · ♥ 4.1K",
    "meta": [
@@ -145,6 +129,22 @@
    "at": "2026-09-20T15:51:13.000Z",
    "breakout": null,
    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized"
+  },
+  {
+   "name": "Underdog-Saluki-27B-1.0",
+   "owner": "ConwayResearch",
+   "src": "hf",
+   "cat": "Agents",
+   "score": 87,
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 357",
+   "meta": [
+    "242K downloads",
+    "Released 5 days ago"
+   ],
+   "at": "2026-10-08T01:47:26.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0"
   },
   {
    "name": "clef",
@@ -163,20 +163,20 @@
    "url": "https://huggingface.co/Cloudflare/clef"
   },
   {
-   "name": "Qwen-Image-2.1-Turbo-Uncensored-GGUF",
-   "owner": "AtomicChat",
-   "src": "hf",
-   "cat": "Coding",
-   "score": 86,
-   "grow": 61,
-   "desc": "Model on Hugging Face · open source · ♥ 363",
+   "name": "S-Space: Exploring Spatial Workspace in Multimodal Language Models",
+   "owner": "Paper",
+   "src": "paper",
+   "url": "https://huggingface.co/papers/2610.13527",
+   "cat": "Research",
+   "score": 85,
+   "grow": null,
+   "desc": "Multimodal language models (MLLMs) exhibit promising spatial reasoning capabilities, yet the internal mechanisms supporting them remain poorly understood.",
    "meta": [
-    "162K downloads",
-    "Released 3 days ago"
+    "▲ 197 upvotes",
+    "Hugging Face Papers"
    ],
-   "at": "2026-10-09T16:30:48.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF"
+   "at": "2026-10-09T08:48:41.000Z",
+   "breakout": null
   }
  ],
  "breakouts": [],
@@ -185,8 +185,8 @@
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 3206,
-   "useLabel": "+3,206 stars/day",
+   "use": 3277,
+   "useLabel": "+3,277 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -300,28 +300,28 @@
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 5217,
-   "d24": 3206,
+   "stars": 5308,
+   "d24": 3277,
    "est": false,
-   "forks": 383,
+   "forks": 387,
    "contrib": 5,
    "score": 95
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 3514,
-   "d24": 796,
+   "stars": 3519,
+   "d24": 793,
    "est": true,
-   "forks": 5933,
+   "forks": 5935,
    "contrib": null,
    "score": 93
   },
   {
    "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 2708,
-   "d24": 763,
+   "stars": 2712,
+   "d24": 740,
    "est": false,
-   "forks": 353,
+   "forks": 357,
    "contrib": null,
    "score": 88
   }
@@ -336,7 +336,7 @@
    "grow": 17,
    "score": 90,
    "cat": "Vision",
-   "likes": 1875
+   "likes": 1880
   },
   {
    "name": "Qwen-Image-2.1-Turbo",
@@ -347,7 +347,7 @@
    "grow": 44,
    "score": 90,
    "cat": "Vision",
-   "likes": 602
+   "likes": 603
   },
   {
    "name": "humanizer",
@@ -358,7 +358,18 @@
    "grow": 22,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1271
+   "likes": 1276
+  },
+  {
+   "name": "Qwen-Image-2.1-Uncensored-Quantized",
+   "org": "abenzerps",
+   "lic": "Open weights",
+   "at": "2026-09-20T15:51:13.000Z",
+   "dl": 2188658,
+   "grow": 0,
+   "score": 87,
+   "cat": "Infrastructure",
+   "likes": 4060
   },
   {
    "name": "Underdog-Saluki-27B-1.0",
@@ -370,18 +381,7 @@
    "grow": null,
    "score": 87,
    "cat": "Agents",
-   "likes": 356
-  },
-  {
-   "name": "Qwen-Image-2.1-Uncensored-Quantized",
-   "org": "abenzerps",
-   "lic": "Open weights",
-   "at": "2026-09-20T15:51:13.000Z",
-   "dl": 2188658,
-   "grow": 0,
-   "score": 86,
-   "cat": "Infrastructure",
-   "likes": 4058
+   "likes": 357
   },
   {
    "name": "clef",
@@ -392,7 +392,7 @@
    "grow": 5,
    "score": 86,
    "cat": "Coding",
-   "likes": 2071
+   "likes": 2073
   }
  ],
  "free": [
@@ -713,7 +713,7 @@
   {
    "t": "Burnham claims EU summit could boost growth and help control illegal migration – UK politics live",
    "url": "https://www.theguardian.com/politics/live/2026/oct/12/uk-politics-live-tories-andy-burnham-russian-interference-brexit-eu-latest",
-   "at": "2026-10-12T15:27:24Z",
+   "at": "2026-10-12T15:59:19Z",
    "src": "The Guardian",
    "kind": "News"
   },
@@ -725,7 +725,7 @@
    "kind": "Lab blog"
   },
   {
-   "t": "AI is supercharging a ~$442B scam economy that is bigger than the global cocaine trade, as the Chinese scam industry spreads beyond Asia's fortified compounds",
+   "t": "How the Chinese scam industry is spreading beyond Asia's fortified compounds as AI makes it cheaper and easier to run fake investment schemes and other scams",
    "url": "https://www.techmeme.com/261012/p28#a261012p28",
    "at": "2026-10-12T14:50:00.000Z",
    "src": "Techmeme",
@@ -746,7 +746,7 @@
    "kind": "News"
   },
   {
-   "t": "Cyber-attack like OpenAI Medicare breach ‘seems likely’ in UK, says minister",
+   "t": "Cyber-attack similar to OpenAI Medicare breach seems likely in UK, says minister",
    "url": "https://www.theguardian.com/technology/2026/oct/12/cyber-attack-like-openai-medicare-breach-seems-likely-in-uk-says-minister",
    "at": "2026-10-12T13:52:55Z",
    "src": "The Guardian",
@@ -816,10 +816,10 @@
    "kind": "Video"
   },
   {
-   "t": "Elon Musk, Jensen Huang & Other Trump Allies Adopt 'Super Intelligence' As White House Pushes To Retire The Term 'AI'",
-   "url": "https://www.freepressjournal.in/tech/elon-musk-jensen-huang-other-trump-allies-adopt-super-intelligence-as-white-house-pushes-to-retire-the-term-ai",
-   "at": "2026-10-12T03:28:35Z",
-   "src": "Free Press Journal",
+   "t": "OpenAI film 'Artificial' turns lens on creators of 'new world,’ Andrew Garfield says",
+   "url": "https://www.thehindu.com/sci-tech/technology/openai-film-artificial-turns-lens-on-creators-of-new-world-andrew-garfield-says/article71573676.ece",
+   "at": "2026-10-12T03:50:38Z",
+   "src": "The Hindu",
    "kind": "News"
   }
  ],
@@ -829,8 +829,8 @@
    "t": "Why aren't AI companies being charged for hacking?",
    "url": "https://news.ycombinator.com/item?id=50057278",
    "link": "https://mortoray.com/why-arent-ai-companies-being-charged-for-hacking/",
-   "up": 163,
-   "com": 114,
+   "up": 215,
+   "com": 183,
    "at": "2026-10-12T14:52:37.000Z"
   },
   {
@@ -838,8 +838,8 @@
    "t": "QGIS bans AI assisted contributions",
    "url": "https://news.ycombinator.com/item?id=50054751",
    "link": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
-   "up": 274,
-   "com": 278,
+   "up": 295,
+   "com": 309,
    "at": "2026-10-12T11:22:24.000Z"
   },
   {
@@ -847,8 +847,8 @@
    "t": "The gap in shared understanding of LLM capability is widening",
    "url": "https://news.ycombinator.com/item?id=50047422",
    "link": "https://twitter.com/karpathy/status/2109361546505966046",
-   "up": 578,
-   "com": 834,
+   "up": 586,
+   "com": 844,
    "at": "2026-10-11T20:20:52.000Z"
   },
   {
@@ -856,8 +856,8 @@
    "t": "Incident with Actions, Pull Requests and Issues",
    "url": "https://news.ycombinator.com/item?id=50055375",
    "link": "https://www.githubstatus.com/incidents/93njd414rpbx",
-   "up": 94,
-   "com": 65,
+   "up": 106,
+   "com": 85,
    "at": "2026-10-12T12:23:51.000Z"
   },
   {
@@ -871,12 +871,12 @@
   },
   {
    "src": "Hacker News",
-   "t": "\"Just Ask Claude\" Is a Rare and Valuable Skill",
-   "url": "https://news.ycombinator.com/item?id=50056063",
-   "link": "https://justismills.substack.com/p/just-ask-claude-is-a-rare-and-valuable",
-   "up": 43,
-   "com": 48,
-   "at": "2026-10-12T13:20:04.000Z"
+   "t": "Show HN: PS2 games statically recompiled to WebAssembly",
+   "url": "https://news.ycombinator.com/item?id=50052251",
+   "link": "https://github.com/snuri00/ps2-web-recomp",
+   "up": 158,
+   "com": 84,
+   "at": "2026-10-12T06:46:53.000Z"
   }
  ]
 }
