@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-12T08:30:59.769Z"
+  "updated": "2026-10-12T09:01:13.742Z"
  },
  "pulse": {
   "trending": 75,
   "accelerating": 0,
   "newModels": 8,
-  "discussions": 37,
-  "stars": 1957
+  "discussions": 35,
+  "stars": 1979
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 4,274",
-    "~1,088 in 24h",
+    "★ 4,359",
+    "~1,103 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -41,8 +41,8 @@
    "grow": 10,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 3,391",
-    "+416 in 24h",
+    "★ 3,404",
+    "+422 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -72,7 +72,7 @@
    "cat": "Vision",
    "score": 90,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 570",
+   "desc": "Vision on Hugging Face · open weights · ♥ 575",
    "meta": [
     "4.7K downloads",
     "Released 3 days ago"
@@ -106,8 +106,8 @@
    "grow": null,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 2,494",
-    "~453 in 24h",
+    "★ 2,510",
+    "~454 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -153,7 +153,7 @@
    "cat": "Agents",
    "score": 86,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 339",
+   "desc": "Model on Hugging Face · open source · ♥ 340",
    "meta": [
     "109K downloads",
     "Released 4 days ago"
@@ -172,7 +172,7 @@
    "grow": null,
    "desc": "Online reinforcement learning (RL) fine-tunes diffusion models with black-box rewards, but reverse-process methods such as Flow-GRPO are limited in efficiency by poor credit assignment, while forward-process methods such as DiffusionNFT are efficient yet unstable without carefully tuned exponential-moving-average (EMA) off-policy training.",
    "meta": [
-    "▲ 83 upvotes",
+    "▲ 97 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-07T20:00:00.000Z",
@@ -185,8 +185,8 @@
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 1088,
-   "useLabel": "~1,088 stars/day",
+   "use": 1103,
+   "useLabel": "~1,103 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -216,6 +216,16 @@
   }
  ],
  "receipts": [
+  {
+   "name": "LosaLosSantos/aurelio-finance",
+   "url": "https://github.com/LosaLosSantos/aurelio-finance",
+   "kind": "stars",
+   "first": "2026-10-09T15:01:08.583Z",
+   "firstV": 1002,
+   "m": 2500,
+   "at": "2026-10-12T09:01:13.742Z",
+   "lead": 66.00143305555555
+  },
   {
    "name": "Jakeschincariol/instagram-agent-skill",
    "url": "https://github.com/Jakeschincariol/instagram-agent-skill",
@@ -285,43 +295,33 @@
    "m": 1000,
    "at": "2026-10-10T15:01:06.480Z",
    "lead": 62.99936861111111
-  },
-  {
-   "name": "Aleph-Alpha/Kolibri-1",
-   "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1",
-   "kind": "downloads",
-   "first": "2026-10-03T14:53:22.181Z",
-   "firstV": 0,
-   "m": 10000,
-   "at": "2026-10-10T09:30:53.392Z",
-   "lead": 162.62533638888888
   }
  ],
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 4274,
-   "d24": 1088,
+   "stars": 4359,
+   "d24": 1103,
    "est": true,
-   "forks": 334,
+   "forks": 335,
    "contrib": null,
    "score": 95
   },
   {
    "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 2494,
-   "d24": 453,
+   "stars": 2510,
+   "d24": 454,
    "est": true,
-   "forks": 305,
+   "forks": 308,
    "contrib": null,
    "score": 88
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 3391,
-   "d24": 416,
+   "stars": 3404,
+   "d24": 422,
    "est": false,
-   "forks": 5816,
+   "forks": 5830,
    "contrib": null,
    "score": 93
   }
@@ -336,7 +336,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 1795
+   "likes": 1803
   },
   {
    "name": "Qwen-Image-2.1-Turbo",
@@ -347,7 +347,7 @@
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 570
+   "likes": 575
   },
   {
    "name": "humanizer",
@@ -358,7 +358,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1179
+   "likes": 1185
   },
   {
    "name": "clef",
@@ -369,7 +369,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Coding",
-   "likes": 2047
+   "likes": 2050
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-Quantized",
@@ -380,7 +380,7 @@
    "grow": null,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 4022
+   "likes": 4024
   },
   {
    "name": "Underdog-Saluki-27B-1.0",
@@ -392,7 +392,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Agents",
-   "likes": 339
+   "likes": 340
   }
  ],
  "free": [
@@ -711,6 +711,13 @@
  },
  "headlines": [
   {
+   "t": "US soldiers using AI tech during a July exercise say they encountered issues like drone overheating, highlighting challenges in the Army's modernization effort",
+   "url": "https://www.techmeme.com/261012/p8#a261012p8",
+   "at": "2026-10-12T08:45:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "AI less regulated than milk, Microsoft president says in warning over safety",
    "url": "https://www.theguardian.com/technology/2026/oct/12/ai-less-regulated-than-milk-microsoft-president-calls-for-tougher-rules",
    "at": "2026-10-12T07:52:46Z",
@@ -774,10 +781,17 @@
    "kind": "News"
   },
   {
-   "t": "Elon Musk and Mark Benioff pledged to rename SpaceXAI and AIForce, while Satya Nadella and Nvidia adopt \"super intelligence\", as Silicon Valley follows Trump",
-   "url": "https://www.techmeme.com/261011/p10#a261011p10",
-   "at": "2026-10-11T20:45:01.000Z",
-   "src": "Techmeme",
+   "t": "BoT has high hopes for global summit",
+   "url": "https://www.bangkokpost.com/business/general/3335470/bot-has-high-hopes-for-global-summit",
+   "at": "2026-10-11T20:59:00Z",
+   "src": "Bangkok Post",
+   "kind": "News"
+  },
+  {
+   "t": "Christchurch restaurant owner says fake rat photos are damaging business reputation",
+   "url": "https://www.nzherald.co.nz/nz/christchurch-restaurant-owner-says-fake-rat-photos-are-damaging-business-reputation/E3I4C5DE6JGJ5PKULLYAACPHFE/",
+   "at": "2026-10-11T20:45:05Z",
+   "src": "The New Zealand Herald",
    "kind": "News"
   },
   {
@@ -807,30 +821,16 @@
    "at": "2026-10-11T18:15:07Z",
    "src": "TMZ",
    "kind": "News"
-  },
-  {
-   "t": "Canadian ransomware negotiator arrested on federal extortion charges amid FBI hacking probe",
-   "url": "https://www.europesays.com/3304499/",
-   "at": "2026-10-11T18:13:29Z",
-   "src": "EUROPE SAYS",
-   "kind": "News"
-  },
-  {
-   "t": "Nirmala Sitharaman holds talks with global financial leaders in Singapore, pitches for boosting investment in India",
-   "url": "https://economictimes.indiatimes.com/news/india/fm-holds-talks-with-global-financial-leaders-in-singapore-pitches-for-boosting-investment-in-india/articleshow/134874693.cms",
-   "at": "2026-10-11T17:27:00Z",
-   "src": "The Economic Times",
-   "kind": "News"
   }
  ],
  "discussions": [
   {
    "src": "Hacker News",
-   "t": "Do not install Zod 4.6.6 – might be infected",
+   "t": "Zod 4.6.6 compromised by malware?",
    "url": "https://news.ycombinator.com/item?id=50052814",
    "link": "https://github.com/colinhacks/zod/commit/d821685ea6732436fcdf786a81d076958471e467",
-   "up": 37,
-   "com": 4,
+   "up": 99,
+   "com": 23,
    "at": "2026-10-12T07:47:29.000Z"
   },
   {
@@ -838,8 +838,8 @@
    "t": "The gap in shared understanding of LLM capability is widening",
    "url": "https://news.ycombinator.com/item?id=50047422",
    "link": "https://twitter.com/karpathy/status/2109361546505966046",
-   "up": 441,
-   "com": 623,
+   "up": 448,
+   "com": 637,
    "at": "2026-10-11T20:20:52.000Z"
   },
   {
@@ -847,8 +847,8 @@
    "t": "Terence Tao: Math 2.0 [pdf]",
    "url": "https://news.ycombinator.com/item?id=50043026",
    "link": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
-   "up": 384,
-   "com": 419,
+   "up": 388,
+   "com": 422,
    "at": "2026-10-11T13:16:45.000Z"
   },
   {
@@ -856,7 +856,7 @@
    "t": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
    "url": "https://news.ycombinator.com/item?id=50050370",
    "link": "https://github.com/storytold/wordcraft",
-   "up": 96,
+   "up": 97,
    "com": 88,
    "at": "2026-10-12T01:57:39.000Z"
   },
@@ -865,8 +865,8 @@
    "t": "Doory – Open-Source Canva",
    "url": "https://news.ycombinator.com/item?id=50049872",
    "link": "https://github.com/shaongitbd/doory",
-   "up": 100,
-   "com": 28,
+   "up": 107,
+   "com": 37,
    "at": "2026-10-12T00:48:27.000Z"
   },
   {
@@ -874,8 +874,8 @@
    "t": "Recursive self-improvement through collective intelligence",
    "url": "https://news.ycombinator.com/item?id=50048522",
    "link": "https://pub.sakana.ai/mass/",
-   "up": 111,
-   "com": 60,
+   "up": 113,
+   "com": 62,
    "at": "2026-10-11T22:22:10.000Z"
   }
  ]
