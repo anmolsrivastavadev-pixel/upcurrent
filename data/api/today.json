@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-12T09:30:59.509Z"
+  "updated": "2026-10-12T09:44:57.676Z"
  },
  "pulse": {
   "trending": 75,
-  "accelerating": 0,
-  "newModels": 8,
-  "discussions": 34,
-  "stars": 1999
+  "accelerating": 1,
+  "newModels": 7,
+  "discussions": 36,
+  "stars": 2008
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 4,436",
-    "~1,117 in 24h",
+    "★ 4,472",
+    "~1,123 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 93,
-   "grow": 10,
+   "grow": 11,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 3,416",
-    "+427 in 24h",
+    "★ 3,423",
+    "+430 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -72,9 +72,9 @@
    "cat": "Vision",
    "score": 90,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 577",
+   "desc": "Vision on Hugging Face · open weights · ♥ 578",
    "meta": [
-    "4.7K downloads",
+    "6.8K downloads",
     "Released 3 days ago"
    ],
    "at": "2026-10-09T04:50:01.000Z",
@@ -106,7 +106,7 @@
    "grow": null,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 2,524",
+    "★ 2,532",
     "~455 in 24h",
     "Created 6 days ago"
    ],
@@ -152,10 +152,10 @@
    "src": "hf",
    "cat": "Agents",
    "score": 86,
-   "grow": 0,
+   "grow": 123,
    "desc": "Model on Hugging Face · open source · ♥ 342",
    "meta": [
-    "109K downloads",
+    "242K downloads",
     "Released 4 days ago"
    ],
    "at": "2026-10-08T01:47:26.000Z",
@@ -172,7 +172,7 @@
    "grow": null,
    "desc": "Online reinforcement learning (RL) fine-tunes diffusion models with black-box rewards, but reverse-process methods such as Flow-GRPO are limited in efficiency by poor credit assignment, while forward-process methods such as DiffusionNFT are efficient yet unstable without carefully tuned exponential-moving-average (EMA) off-policy training.",
    "meta": [
-    "▲ 111 upvotes",
+    "▲ 119 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-07T20:00:00.000Z",
@@ -185,8 +185,8 @@
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 1117,
-   "useLabel": "~1,117 stars/day",
+   "use": 1123,
+   "useLabel": "~1,123 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -300,8 +300,8 @@
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 4436,
-   "d24": 1117,
+   "stars": 4472,
+   "d24": 1123,
    "est": true,
    "forks": 339,
    "contrib": null,
@@ -309,19 +309,19 @@
   },
   {
    "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 2524,
+   "stars": 2532,
    "d24": 455,
    "est": true,
-   "forks": 310,
+   "forks": 312,
    "contrib": null,
    "score": 88
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 3416,
-   "d24": 427,
+   "stars": 3423,
+   "d24": 430,
    "est": false,
-   "forks": 5842,
+   "forks": 5845,
    "contrib": null,
    "score": 93
   }
@@ -336,18 +336,18 @@
    "grow": 17,
    "score": 90,
    "cat": "Vision",
-   "likes": 1810
+   "likes": 1814
   },
   {
    "name": "Qwen-Image-2.1-Turbo",
    "org": "Qwen",
    "lic": "Open weights",
    "at": "2026-10-09T04:50:01.000Z",
-   "dl": 4702,
+   "dl": 6787,
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 577
+   "likes": 578
   },
   {
    "name": "humanizer",
@@ -358,7 +358,7 @@
    "grow": 22,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1191
+   "likes": 1196
   },
   {
    "name": "clef",
@@ -380,7 +380,7 @@
    "grow": null,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 4027
+   "likes": 4028
   },
   {
    "name": "Underdog-Saluki-27B-1.0",
@@ -388,8 +388,8 @@
    "size": "27B",
    "lic": "Open source",
    "at": "2026-10-08T01:47:26.000Z",
-   "dl": 108900,
-   "grow": 0,
+   "dl": 242329,
+   "grow": 123,
    "score": 86,
    "cat": "Agents",
    "likes": 342
@@ -829,7 +829,7 @@
    "t": "Zod 4.6.6 compromised by malware?",
    "url": "https://news.ycombinator.com/item?id=50052814",
    "link": "https://github.com/colinhacks/zod/commit/d821685ea6732436fcdf786a81d076958471e467",
-   "up": 116,
+   "up": 118,
    "com": 31,
    "at": "2026-10-12T07:47:29.000Z"
   },
@@ -838,8 +838,8 @@
    "t": "The gap in shared understanding of LLM capability is widening",
    "url": "https://news.ycombinator.com/item?id=50047422",
    "link": "https://twitter.com/karpathy/status/2109361546505966046",
-   "up": 457,
-   "com": 652,
+   "up": 458,
+   "com": 660,
    "at": "2026-10-11T20:20:52.000Z"
   },
   {
@@ -847,9 +847,18 @@
    "t": "Terence Tao: Math 2.0 [pdf]",
    "url": "https://news.ycombinator.com/item?id=50043026",
    "link": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
-   "up": 398,
+   "up": 399,
    "com": 423,
    "at": "2026-10-11T13:16:45.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Doory – Open-Source Canva",
+   "url": "https://news.ycombinator.com/item?id=50049872",
+   "link": "https://github.com/shaongitbd/doory",
+   "up": 113,
+   "com": 41,
+   "at": "2026-10-12T00:48:27.000Z"
   },
   {
    "src": "Hacker News",
@@ -857,17 +866,8 @@
    "url": "https://news.ycombinator.com/item?id=50050370",
    "link": "https://github.com/storytold/wordcraft",
    "up": 97,
-   "com": 88,
+   "com": 90,
    "at": "2026-10-12T01:57:39.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Doory – Open-Source Canva",
-   "url": "https://news.ycombinator.com/item?id=50049872",
-   "link": "https://github.com/shaongitbd/doory",
-   "up": 111,
-   "com": 41,
-   "at": "2026-10-12T00:48:27.000Z"
   },
   {
    "src": "Hacker News",
