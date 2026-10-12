@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-12T09:01:13.742Z"
+  "updated": "2026-10-12T09:30:59.509Z"
  },
  "pulse": {
   "trending": 75,
   "accelerating": 0,
   "newModels": 8,
-  "discussions": 35,
-  "stars": 1979
+  "discussions": 34,
+  "stars": 1999
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 4,359",
-    "~1,103 in 24h",
+    "★ 4,436",
+    "~1,117 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -41,8 +41,8 @@
    "grow": 10,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 3,404",
-    "+422 in 24h",
+    "★ 3,416",
+    "+427 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -55,10 +55,10 @@
    "src": "hf",
    "cat": "Vision",
    "score": 90,
-   "grow": 0,
+   "grow": 17,
    "desc": "Vision on Hugging Face · open source · ♥ 1.8K",
    "meta": [
-    "99K downloads",
+    "116K downloads",
     "Released 28 days ago"
    ],
    "at": "2026-09-14T14:53:42.000Z",
@@ -72,7 +72,7 @@
    "cat": "Vision",
    "score": 90,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 575",
+   "desc": "Vision on Hugging Face · open weights · ♥ 577",
    "meta": [
     "4.7K downloads",
     "Released 3 days ago"
@@ -87,10 +87,10 @@
    "src": "hf",
    "cat": "Infrastructure",
    "score": 89,
-   "grow": 0,
+   "grow": 22,
    "desc": "Model on Hugging Face · open source · ♥ 1.2K",
    "meta": [
-    "38K downloads",
+    "46K downloads",
     "Released 31 days ago"
    ],
    "at": "2026-09-11T05:00:16.000Z",
@@ -106,8 +106,8 @@
    "grow": null,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 2,510",
-    "~454 in 24h",
+    "★ 2,524",
+    "~455 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -120,11 +120,11 @@
    "src": "hf",
    "cat": "Coding",
    "score": 87,
-   "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 2K",
+   "grow": 5,
+   "desc": "Model on Hugging Face · open source · ♥ 2.1K",
    "meta": [
-    "14K downloads",
-    "Released 11 days ago"
+    "15K downloads",
+    "Released 12 days ago"
    ],
    "at": "2026-09-30T21:15:35.000Z",
    "breakout": null,
@@ -153,7 +153,7 @@
    "cat": "Agents",
    "score": 86,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 340",
+   "desc": "Model on Hugging Face · open source · ♥ 342",
    "meta": [
     "109K downloads",
     "Released 4 days ago"
@@ -172,7 +172,7 @@
    "grow": null,
    "desc": "Online reinforcement learning (RL) fine-tunes diffusion models with black-box rewards, but reverse-process methods such as Flow-GRPO are limited in efficiency by poor credit assignment, while forward-process methods such as DiffusionNFT are efficient yet unstable without carefully tuned exponential-moving-average (EMA) off-policy training.",
    "meta": [
-    "▲ 97 upvotes",
+    "▲ 111 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-07T20:00:00.000Z",
@@ -185,8 +185,8 @@
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 1103,
-   "useLabel": "~1,103 stars/day",
+   "use": 1117,
+   "useLabel": "~1,117 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -196,8 +196,8 @@
    "name": "Qwen-Image-2.1",
    "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1",
    "from": "Hugging Face",
-   "use": 8674298,
-   "useLabel": "8.7M downloads",
+   "use": 9090866,
+   "useLabel": "9.1M downloads",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -207,8 +207,8 @@
    "name": "Ternary-Bonsai-2-27B-gguf",
    "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
    "from": "Hugging Face",
-   "use": 4549911,
-   "useLabel": "4.5M downloads",
+   "use": 4615462,
+   "useLabel": "4.6M downloads",
    "usePct": 0.967741935483871,
    "talk": [],
    "buzz": 0,
@@ -216,6 +216,36 @@
   }
  ],
  "receipts": [
+  {
+   "name": "yetone/magpie",
+   "url": "https://github.com/yetone/magpie",
+   "kind": "stars",
+   "first": "2026-10-01T17:48:04.617Z",
+   "firstV": 4054,
+   "m": 10000,
+   "at": "2026-10-12T09:30:59.509Z",
+   "lead": 255.7152477777778
+  },
+  {
+   "name": "google/embeddinggemma-2",
+   "url": "https://huggingface.co/google/embeddinggemma-2",
+   "kind": "downloads",
+   "first": "2026-10-06T17:30:50.737Z",
+   "firstV": 364,
+   "m": 100000,
+   "at": "2026-10-12T09:30:59.509Z",
+   "lead": 136.00243666666665
+  },
+  {
+   "name": "SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
+   "url": "https://huggingface.co/SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
+   "kind": "downloads",
+   "first": "2026-10-07T19:51:16.190Z",
+   "firstV": 500723,
+   "m": 1000000,
+   "at": "2026-10-12T09:30:59.509Z",
+   "lead": 109.66203305555555
+  },
   {
    "name": "LosaLosSantos/aurelio-finance",
    "url": "https://github.com/LosaLosSantos/aurelio-finance",
@@ -265,63 +295,33 @@
    "m": 10000,
    "at": "2026-10-11T09:30:54.886Z",
    "lead": 74.49718055555556
-  },
-  {
-   "name": "ConwayResearch/Underdog-Saluki-27B-1.0",
-   "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0",
-   "kind": "downloads",
-   "first": "2026-10-09T02:01:04.068Z",
-   "firstV": 142,
-   "m": 100000,
-   "at": "2026-10-11T09:30:54.886Z",
-   "lead": 55.49744944444444
-  },
-  {
-   "name": "AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
-   "url": "https://huggingface.co/AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
-   "kind": "downloads",
-   "first": "2026-10-10T14:30:51.236Z",
-   "firstV": 7314,
-   "m": 100000,
-   "at": "2026-10-11T09:30:54.886Z",
-   "lead": 19.001013888888888
-  },
-  {
-   "name": "JohnHeibel/ClaudeAnimationBase",
-   "url": "https://github.com/JohnHeibel/ClaudeAnimationBase",
-   "kind": "stars",
-   "first": "2026-10-08T00:01:08.753Z",
-   "firstV": 923,
-   "m": 1000,
-   "at": "2026-10-10T15:01:06.480Z",
-   "lead": 62.99936861111111
   }
  ],
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 4359,
-   "d24": 1103,
+   "stars": 4436,
+   "d24": 1117,
    "est": true,
-   "forks": 335,
+   "forks": 339,
    "contrib": null,
    "score": 95
   },
   {
    "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 2510,
-   "d24": 454,
+   "stars": 2524,
+   "d24": 455,
    "est": true,
-   "forks": 308,
+   "forks": 310,
    "contrib": null,
    "score": 88
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 3404,
-   "d24": 422,
+   "stars": 3416,
+   "d24": 427,
    "est": false,
-   "forks": 5830,
+   "forks": 5842,
    "contrib": null,
    "score": 93
   }
@@ -332,11 +332,11 @@
    "org": "google",
    "lic": "Open source",
    "at": "2026-09-14T14:53:42.000Z",
-   "dl": 98829,
-   "grow": 0,
+   "dl": 115763,
+   "grow": 17,
    "score": 90,
    "cat": "Vision",
-   "likes": 1803
+   "likes": 1810
   },
   {
    "name": "Qwen-Image-2.1-Turbo",
@@ -347,29 +347,29 @@
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 575
+   "likes": 577
   },
   {
    "name": "humanizer",
    "org": "jialinyyzz",
    "lic": "Open source",
    "at": "2026-09-11T05:00:16.000Z",
-   "dl": 37647,
-   "grow": 0,
+   "dl": 46070,
+   "grow": 22,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1185
+   "likes": 1191
   },
   {
    "name": "clef",
    "org": "Cloudflare",
    "lic": "Open source",
    "at": "2026-09-30T21:15:35.000Z",
-   "dl": 14351,
-   "grow": 0,
+   "dl": 15064,
+   "grow": 5,
    "score": 87,
    "cat": "Coding",
-   "likes": 2050
+   "likes": 2052
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-Quantized",
@@ -380,7 +380,7 @@
    "grow": null,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 4024
+   "likes": 4027
   },
   {
    "name": "Underdog-Saluki-27B-1.0",
@@ -392,7 +392,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Agents",
-   "likes": 340
+   "likes": 342
   }
  ],
  "free": [
@@ -711,6 +711,20 @@
  },
  "headlines": [
   {
+   "t": "Christian leaders are weighing in on AI earlier than they did with other tech, as AI leaders' talk of creating a new consciousness fuels religious concerns",
+   "url": "https://www.techmeme.com/261012/p10#a261012p10",
+   "at": "2026-10-12T09:30:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "X has re-found its footing under Elon Musk, as it continues to host more interesting discussions on AI and other fun and smart topics than rival platforms",
+   "url": "https://www.techmeme.com/261012/p9#a261012p9",
+   "at": "2026-10-12T09:05:02.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "US soldiers using AI tech during a July exercise say they encountered issues like drone overheating, highlighting challenges in the Army's modernization effort",
    "url": "https://www.techmeme.com/261012/p8#a261012p8",
    "at": "2026-10-12T08:45:01.000Z",
@@ -760,13 +774,6 @@
    "kind": "News"
   },
   {
-   "t": "Q&A with Palantir CTO Shyam Sankar on the Iran school strike and AI targeting, the DOD dropping Anthropic, AI liability, effective altruism, and more",
-   "url": "https://www.techmeme.com/261011/p12#a261011p12",
-   "at": "2026-10-11T23:50:02.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "UK to strengthen cyber defences as minister calls for AI firms to increase safety efforts",
    "url": "https://www.theguardian.com/technology/2026/oct/12/uk-strengthen-cyber-defences-minister-ai-firms-safety",
    "at": "2026-10-11T23:01:39Z",
@@ -774,10 +781,17 @@
    "kind": "News"
   },
   {
-   "t": "Sources: Amazon is in talks to buy AI startup Decart in a deal that could value it at ~$7B; Anthropic had decided against acquiring Decart for ~$6B in September",
-   "url": "https://www.techmeme.com/261011/p11#a261011p11",
-   "at": "2026-10-11T21:20:01.000Z",
-   "src": "Techmeme",
+   "t": "Amazon in talks to buy AI startup Decart for around $7 billion, WSJ reports",
+   "url": "https://www.marketscreener.com/news/amazon-in-talks-to-buy-ai-startup-decart-for-around-7-billion-wsj-reports-ce785ddcdc8cf621",
+   "at": "2026-10-11T21:15:17Z",
+   "src": "MarketScreener",
+   "kind": "News"
+  },
+  {
+   "t": "Artificial writer says AI ‘just as powerful and dangerous’ as scientists claim",
+   "url": "https://www.standard.co.uk/culture/film/andrew-garfield-mark-rylance-chatgpt-luca-guadagnino-press-association-b1300379.html",
+   "at": "2026-10-11T21:14:03Z",
+   "src": "Evening Standard",
    "kind": "News"
   },
   {
@@ -807,20 +821,6 @@
    "at": "2026-10-11T18:46:00Z",
    "src": "The Telegraph",
    "kind": "News"
-  },
-  {
-   "t": "DBS Chief sees overseas confidence in India despite capital outflow concerns",
-   "url": "https://economictimes.indiatimes.com/markets/stocks/news/dbs-chief-sees-overseas-confidence-in-india-despite-capital-outflow-concerns/articleshow/134880062.cms",
-   "at": "2026-10-11T18:31:00Z",
-   "src": "The Economic Times",
-   "kind": "News"
-  },
-  {
-   "t": "Bill Gates Warns A.I. Is Most Dangerous Technology Ever, Wants Trump Meeting",
-   "url": "https://www.tmz.com/2026/10/11/bill-gates-warning-about-artificial-intelligence/",
-   "at": "2026-10-11T18:15:07Z",
-   "src": "TMZ",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -829,8 +829,8 @@
    "t": "Zod 4.6.6 compromised by malware?",
    "url": "https://news.ycombinator.com/item?id=50052814",
    "link": "https://github.com/colinhacks/zod/commit/d821685ea6732436fcdf786a81d076958471e467",
-   "up": 99,
-   "com": 23,
+   "up": 116,
+   "com": 31,
    "at": "2026-10-12T07:47:29.000Z"
   },
   {
@@ -838,8 +838,8 @@
    "t": "The gap in shared understanding of LLM capability is widening",
    "url": "https://news.ycombinator.com/item?id=50047422",
    "link": "https://twitter.com/karpathy/status/2109361546505966046",
-   "up": 448,
-   "com": 637,
+   "up": 457,
+   "com": 652,
    "at": "2026-10-11T20:20:52.000Z"
   },
   {
@@ -847,8 +847,8 @@
    "t": "Terence Tao: Math 2.0 [pdf]",
    "url": "https://news.ycombinator.com/item?id=50043026",
    "link": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
-   "up": 388,
-   "com": 422,
+   "up": 398,
+   "com": 423,
    "at": "2026-10-11T13:16:45.000Z"
   },
   {
@@ -865,8 +865,8 @@
    "t": "Doory – Open-Source Canva",
    "url": "https://news.ycombinator.com/item?id=50049872",
    "link": "https://github.com/shaongitbd/doory",
-   "up": 107,
-   "com": 37,
+   "up": 111,
+   "com": 41,
    "at": "2026-10-12T00:48:27.000Z"
   },
   {
@@ -874,8 +874,8 @@
    "t": "Recursive self-improvement through collective intelligence",
    "url": "https://news.ycombinator.com/item?id=50048522",
    "link": "https://pub.sakana.ai/mass/",
-   "up": 113,
-   "com": 62,
+   "up": 115,
+   "com": 66,
    "at": "2026-10-11T22:22:10.000Z"
   }
  ]
