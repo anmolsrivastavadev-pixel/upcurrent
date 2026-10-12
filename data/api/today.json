@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-12T02:01:04.325Z"
+  "updated": "2026-10-12T02:30:53.386Z"
  },
  "pulse": {
   "trending": 77,
   "accelerating": 2,
   "newModels": 8,
-  "discussions": 33,
-  "stars": 4445
+  "discussions": 32,
+  "stars": 4466
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 95,
-   "grow": 239,
+   "grow": 246,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 3,460",
-    "+4,038 in 24h",
+    "★ 3,534",
+    "+4,022 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 94,
-   "grow": 2,
+   "grow": 3,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 3,166",
-    "+160 in 24h",
+    "★ 3,181",
+    "+185 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -56,7 +56,7 @@
    "cat": "Vision",
    "score": 91,
    "grow": 120,
-   "desc": "Vision on Hugging Face · open weights · ♥ 544",
+   "desc": "Vision on Hugging Face · open weights · ♥ 545",
    "meta": [
     "4.7K downloads",
     "Released 3 days ago"
@@ -103,11 +103,11 @@
    "src": "gh",
    "cat": "LLMs",
    "score": 88,
-   "grow": 9,
+   "grow": 10,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 2,281",
-    "+247 in 24h",
+    "★ 2,296",
+    "+259 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -147,19 +147,19 @@
    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF"
   },
   {
-   "name": "Pumpire: Unified Benchmark for Metric Distance Estimation",
+   "name": "SoloQ: Calibration-Free Quantization for Diffusion Language Models",
    "owner": "Paper",
    "src": "paper",
-   "url": "https://huggingface.co/papers/2610.12423",
+   "url": "https://huggingface.co/papers/2610.07121",
    "cat": "Research",
    "score": 85,
    "grow": null,
-   "desc": "We present Pumpire, a unified benchmark for evaluating metric point-pair distance estimation capability of both image- and video-level 3D foundation models, with or without depth priors.",
+   "desc": "Diffusion large language models dLLMs) have emerged as a promising alternative to autoregressive language models through bidirectional diffusion-based token generation.",
    "meta": [
-    "▲ 18 upvotes",
+    "▲ 15 upvotes",
     "Hugging Face Papers"
    ],
-   "at": "2026-10-07T20:00:00.000Z",
+   "at": "2026-10-04T20:00:00.000Z",
    "breakout": null
   },
   {
@@ -172,7 +172,7 @@
    "grow": null,
    "desc": "Get discovered & recommended when customers ask AI",
    "meta": [
-    "▲ 469 votes",
+    "▲ 472 votes",
     "37 comments",
     "Launched 2 days ago"
    ],
@@ -203,8 +203,8 @@
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 4038,
-   "useLabel": "+4,038 stars/day",
+   "use": 4022,
+   "useLabel": "+4,022 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -318,17 +318,17 @@
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 3460,
-   "d24": 4038,
+   "stars": 3534,
+   "d24": 4022,
    "est": false,
-   "forks": 269,
+   "forks": 273,
    "contrib": null,
    "score": 95
   },
   {
    "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 2281,
-   "d24": 247,
+   "stars": 2296,
+   "d24": 259,
    "est": false,
    "forks": 288,
    "contrib": null,
@@ -336,10 +336,10 @@
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 3166,
-   "d24": 160,
+   "stars": 3181,
+   "d24": 185,
    "est": false,
-   "forks": 5575,
+   "forks": 5596,
    "contrib": null,
    "score": 94
   }
@@ -354,7 +354,7 @@
    "grow": 120,
    "score": 91,
    "cat": "Vision",
-   "likes": 544
+   "likes": 545
   },
   {
    "name": "embeddinggemma-2",
@@ -365,7 +365,7 @@
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 1718
+   "likes": 1725
   },
   {
    "name": "humanizer",
@@ -376,7 +376,7 @@
    "grow": null,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1092
+   "likes": 1101
   },
   {
    "name": "clef",
@@ -398,7 +398,7 @@
    "grow": null,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 3991
+   "likes": 3993
   },
   {
    "name": "Underdog-Saluki-27B-1.0",
@@ -410,7 +410,7 @@
    "grow": 0,
    "score": 84,
    "cat": "Agents",
-   "likes": 323
+   "likes": 324
   }
  ],
  "free": [
@@ -778,6 +778,20 @@
    "kind": "News"
   },
   {
+   "t": "Report: ChatGPT's teen suicide safeguards failed to alert parents",
+   "url": "https://billingsgazette.com/life-entertainment/nation-world/parenting/article_9c07b714-20bb-538e-8aba-865288a8762f.html",
+   "at": "2026-10-11T14:30:00Z",
+   "src": "Billings Gazette",
+   "kind": "News"
+  },
+  {
+   "t": "Pune: Human Judgement Remains Vital in the Age of AI, Says EFLU Vice-Chancellor N Nagaraju",
+   "url": "https://www.freepressjournal.in/pune/pune-human-judgement-remains-vital-in-the-age-of-ai-says-eflu-vice-chancellor-n-nagaraju",
+   "at": "2026-10-11T14:03:25Z",
+   "src": "Free Press Journal",
+   "kind": "News"
+  },
+  {
    "t": "LLM-inspired study sheds light on how brain cells encode the meaning of words",
    "url": "https://medicalxpress.com/news/2026-10-llm-brain-cells-encode-words.html",
    "at": "2026-10-11T13:40:01Z",
@@ -792,45 +806,10 @@
    "kind": "News"
   },
   {
-   "t": "Not Anthropic. Not AMD. Here's My Top AI Stock for 2027.",
-   "url": "https://www.europesays.com/3304089/",
-   "at": "2026-10-11T13:07:17Z",
-   "src": "EUROPE SAYS",
-   "kind": "News"
-  },
-  {
    "t": "PitchBook: robotics and physical AI companies have raised ~$48B YTD, as they gather training data from people completing tasks in factories, offices, and homes",
    "url": "https://www.techmeme.com/261011/p6#a261011p6",
    "at": "2026-10-11T13:00:51.000Z",
    "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "friendly actor’: Nicolas Cage criticises Amazon, says he may not work with studio again",
-   "url": "https://www.tribuneindia.com/news/entertainment/not-an-ai-friendly-actor-nicolas-cage-criticises-amazon-says-he-may-not-work-with-studio-again/",
-   "at": "2026-10-11T12:25:27Z",
-   "src": "The Tribune",
-   "kind": "News"
-  },
-  {
-   "t": "Khushbu Sundar slams AI misuse against women: ‘Try using AI to wrongly alter pictures of the women in your own homes’",
-   "url": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/khushbu-sundar-slams-ai-misuse-against-women-try-using-ai-to-wrongly-alter-pictures-of-the-women-in-your-own-homes/articleshow/134869772.cms",
-   "at": "2026-10-11T11:38:00Z",
-   "src": "Times of India",
-   "kind": "News"
-  },
-  {
-   "t": "AI, Nuclear War, Bioweapons May Trigger End Of Humanity By 2100: Report",
-   "url": "https://www.ndtv.com/world-news/ai-nuclear-war-bioweapons-may-trigger-end-of-humanity-by-2100-report-12169794",
-   "at": "2026-10-11T11:22:32Z",
-   "src": "NDTV.com",
-   "kind": "News"
-  },
-  {
-   "t": "Microsoft CEO Satya Nadella flags risks of advanced AI models amid OpenAI agent incidents, calls for ‘emergency brake’",
-   "url": "https://www.livemint.com/ai/microsoft-ceo-satya-nadella-flags-risks-of-advanced-ai-models-amid-openai-agent-incidents-calls-for-emergency-brake-11791711363046.html",
-   "at": "2026-10-11T11:06:59Z",
-   "src": "Livemint",
    "kind": "News"
   },
   {
@@ -839,6 +818,27 @@
    "at": "2026-10-11T11:00:25Z",
    "src": "The Guardian",
    "kind": "News"
+  },
+  {
+   "t": "Rein Security, which develops runtime tools to secure enterprise AI agents and stop adversarial AI agents, raised a $25M Series A, taking total funding to $35M",
+   "url": "https://www.techmeme.com/261011/p4#a261011p4",
+   "at": "2026-10-11T05:50:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Microsoft unveils Microsoft-Decision-1, a fast decision-scoring model trained on Qwen3.5-9B, and says it will soon rebase it on MAI, OpenAI, and other models",
+   "url": "https://www.techmeme.com/261011/p2#a261011p2",
+   "at": "2026-10-11T05:05:02.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Chưa thấy ai ăn kiểu này",
+   "url": "https://www.youtube.com/watch?v=Mx-ZZaVfkjg",
+   "at": "2026-10-11T04:00:01Z",
+   "src": "Geats News",
+   "kind": "Video"
   }
  ],
  "discussions": [
@@ -847,8 +847,8 @@
    "t": "The gap in shared understanding of LLM capability is widening",
    "url": "https://news.ycombinator.com/item?id=50047422",
    "link": "https://twitter.com/karpathy/status/2109361546505966046",
-   "up": 255,
-   "com": 408,
+   "up": 265,
+   "com": 431,
    "at": "2026-10-11T20:20:52.000Z"
   },
   {
@@ -856,27 +856,27 @@
    "t": "Terence Tao: Math 2.0 [pdf]",
    "url": "https://news.ycombinator.com/item?id=50043026",
    "link": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
-   "up": 322,
-   "com": 372,
+   "up": 324,
+   "com": 377,
    "at": "2026-10-11T13:16:45.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Recursive self-improvement through collective intelligence",
-   "url": "https://news.ycombinator.com/item?id=50048522",
-   "link": "https://pub.sakana.ai/mass/",
-   "up": 62,
-   "com": 27,
-   "at": "2026-10-11T22:22:10.000Z"
   },
   {
    "src": "Hacker News",
    "t": "HashiCorp archives the Boundary open source repo",
    "url": "https://news.ycombinator.com/item?id=50049498",
    "link": "https://github.com/hashicorp/boundary",
-   "up": 29,
-   "com": 1,
+   "up": 42,
+   "com": 6,
    "at": "2026-10-12T00:02:45.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Recursive self-improvement through collective intelligence",
+   "url": "https://news.ycombinator.com/item?id=50048522",
+   "link": "https://pub.sakana.ai/mass/",
+   "up": 70,
+   "com": 32,
+   "at": "2026-10-11T22:22:10.000Z"
   },
   {
    "src": "Hacker News",
@@ -884,7 +884,7 @@
    "url": "https://news.ycombinator.com/item?id=50045735",
    "link": "https://www.tomshardware.com/tech-industry/cyber-security/canadian-youtuber-builds-flock-like-camera-to-exclusively-track-police-vehicles-officers-visit-his-home-to-express-privacy-concerns",
    "up": 80,
-   "com": 30,
+   "com": 31,
    "at": "2026-10-11T17:40:42.000Z"
   },
   {
@@ -892,7 +892,7 @@
    "t": "apsw: Another Python SQLite Wrapper",
    "url": "https://news.ycombinator.com/item?id=50045273",
    "link": "https://github.com/rogerbinns/apsw",
-   "up": 68,
+   "up": 69,
    "com": 15,
    "at": "2026-10-11T16:58:22.000Z"
   }
