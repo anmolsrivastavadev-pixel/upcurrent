@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-12T15:01:38.960Z"
+  "updated": "2026-10-12T15:31:36.763Z"
  },
  "pulse": {
   "trending": 75,
   "accelerating": 0,
   "newModels": 4,
-  "discussions": 39,
-  "stars": 4793
+  "discussions": 40,
+  "stars": 4765
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 95,
-   "grow": 24,
+   "grow": 26,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 5,150",
-    "+3,205 in 24h",
+    "★ 5,217",
+    "+3,206 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -41,8 +41,8 @@
    "grow": null,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 3,512",
-    "~799 in 24h",
+    "★ 3,514",
+    "~796 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -72,7 +72,7 @@
    "cat": "Vision",
    "score": 90,
    "grow": 44,
-   "desc": "Vision on Hugging Face · open weights · ♥ 600",
+   "desc": "Vision on Hugging Face · open weights · ♥ 602",
    "meta": [
     "6.8K downloads",
     "Released 3 days ago"
@@ -103,32 +103,16 @@
    "src": "gh",
    "cat": "LLMs",
    "score": 88,
-   "grow": 15,
+   "grow": 16,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 2,704",
-    "+789 in 24h",
+    "★ 2,708",
+    "+763 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
    "breakout": null,
    "url": "https://github.com/LosaLosSantos/aurelio-finance"
-  },
-  {
-   "name": "clef",
-   "owner": "Cloudflare",
-   "src": "hf",
-   "cat": "Coding",
-   "score": 87,
-   "grow": 5,
-   "desc": "Model on Hugging Face · open source · ♥ 2.1K",
-   "meta": [
-    "15K downloads",
-    "Released 12 days ago"
-   ],
-   "at": "2026-09-30T21:15:35.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/Cloudflare/clef"
   },
   {
    "name": "Underdog-Saluki-27B-1.0",
@@ -137,7 +121,7 @@
    "cat": "Agents",
    "score": 87,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 355",
+   "desc": "Model on Hugging Face · open source · ♥ 356",
    "meta": [
     "242K downloads",
     "Released 5 days ago"
@@ -163,20 +147,36 @@
    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized"
   },
   {
-   "name": "S-Space: Exploring Spatial Workspace in Multimodal Language Models",
-   "owner": "Paper",
-   "src": "paper",
-   "url": "https://huggingface.co/papers/2610.13527",
-   "cat": "Research",
-   "score": 85,
-   "grow": null,
-   "desc": "Multimodal language models (MLLMs) exhibit promising spatial reasoning capabilities, yet the internal mechanisms supporting them remain poorly understood.",
+   "name": "clef",
+   "owner": "Cloudflare",
+   "src": "hf",
+   "cat": "Coding",
+   "score": 86,
+   "grow": 5,
+   "desc": "Model on Hugging Face · open source · ♥ 2.1K",
    "meta": [
-    "▲ 197 upvotes",
-    "Hugging Face Papers"
+    "15K downloads",
+    "Released 12 days ago"
    ],
-   "at": "2026-10-09T08:48:41.000Z",
-   "breakout": null
+   "at": "2026-09-30T21:15:35.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/Cloudflare/clef"
+  },
+  {
+   "name": "Qwen-Image-2.1-Turbo-Uncensored-GGUF",
+   "owner": "AtomicChat",
+   "src": "hf",
+   "cat": "Coding",
+   "score": 86,
+   "grow": 61,
+   "desc": "Model on Hugging Face · open source · ♥ 363",
+   "meta": [
+    "162K downloads",
+    "Released 3 days ago"
+   ],
+   "at": "2026-10-09T16:30:48.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF"
   }
  ],
  "breakouts": [],
@@ -185,8 +185,8 @@
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 3205,
-   "useLabel": "+3,205 stars/day",
+   "use": 3206,
+   "useLabel": "+3,206 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -300,28 +300,28 @@
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 5150,
-   "d24": 3205,
+   "stars": 5217,
+   "d24": 3206,
    "est": false,
-   "forks": 379,
+   "forks": 383,
    "contrib": 5,
    "score": 95
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 3512,
-   "d24": 799,
+   "stars": 3514,
+   "d24": 796,
    "est": true,
-   "forks": 5929,
+   "forks": 5933,
    "contrib": null,
    "score": 93
   },
   {
    "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 2704,
-   "d24": 789,
+   "stars": 2708,
+   "d24": 763,
    "est": false,
-   "forks": 350,
+   "forks": 353,
    "contrib": null,
    "score": 88
   }
@@ -336,7 +336,7 @@
    "grow": 17,
    "score": 90,
    "cat": "Vision",
-   "likes": 1871
+   "likes": 1875
   },
   {
    "name": "Qwen-Image-2.1-Turbo",
@@ -347,7 +347,7 @@
    "grow": 44,
    "score": 90,
    "cat": "Vision",
-   "likes": 600
+   "likes": 602
   },
   {
    "name": "humanizer",
@@ -358,18 +358,7 @@
    "grow": 22,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1261
-  },
-  {
-   "name": "clef",
-   "org": "Cloudflare",
-   "lic": "Open source",
-   "at": "2026-09-30T21:15:35.000Z",
-   "dl": 15064,
-   "grow": 5,
-   "score": 87,
-   "cat": "Coding",
-   "likes": 2070
+   "likes": 1271
   },
   {
    "name": "Underdog-Saluki-27B-1.0",
@@ -381,7 +370,7 @@
    "grow": null,
    "score": 87,
    "cat": "Agents",
-   "likes": 355
+   "likes": 356
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-Quantized",
@@ -392,7 +381,18 @@
    "grow": 0,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 4056
+   "likes": 4058
+  },
+  {
+   "name": "clef",
+   "org": "Cloudflare",
+   "lic": "Open source",
+   "at": "2026-09-30T21:15:35.000Z",
+   "dl": 15064,
+   "grow": 5,
+   "score": 86,
+   "cat": "Coding",
+   "likes": 2071
   }
  ],
  "free": [
@@ -713,9 +713,16 @@
   {
    "t": "Burnham claims EU summit could boost growth and help control illegal migration – UK politics live",
    "url": "https://www.theguardian.com/politics/live/2026/oct/12/uk-politics-live-tories-andy-burnham-russian-interference-brexit-eu-latest",
-   "at": "2026-10-12T14:58:40Z",
+   "at": "2026-10-12T15:27:24Z",
    "src": "The Guardian",
    "kind": "News"
+  },
+  {
+   "t": "OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide",
+   "url": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
+   "at": "2026-10-12T15:00:25.000Z",
+   "src": "NVIDIA",
+   "kind": "Lab blog"
   },
   {
    "t": "AI is supercharging a ~$442B scam economy that is bigger than the global cocaine trade, as the Chinese scam industry spreads beyond Asia's fortified compounds",
@@ -788,13 +795,6 @@
    "kind": "News"
   },
   {
-   "t": "Microsoft President Brad Smith calls for global safety regulations for AI, arguing that milk and washing machines currently face more stringent safety standards",
-   "url": "https://www.techmeme.com/261012/p14#a261012p14",
-   "at": "2026-10-12T10:50:03.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "‘I’ve become significantly more cautious’: six parents on limiting their kids’ social media and AI use",
    "url": "https://www.theguardian.com/us-news/2026/oct/12/parents-limiting-social-media-ai-use",
    "at": "2026-10-12T10:00:51Z",
@@ -809,46 +809,46 @@
    "kind": "News"
   },
   {
-   "t": "Bill Gates warns cyberattacks most imminent AI threat",
-   "url": "https://www.thestar.com.my/tech/tech-news/2026/10/12/bill-gates-warns-cyberattacks-most-imminent-ai-threat",
-   "at": "2026-10-12T03:00:00Z",
-   "src": "The Star",
-   "kind": "News"
+   "t": "Claude Opus 6 LEAKED, Gemini 4 Carbon Leaks, HUGE OpenAI Update, Claude 24/7 Agent, & More! AI NEWS",
+   "url": "https://www.youtube.com/watch?v=4iKUaUmeoWk",
+   "at": "2026-10-12T07:25:21Z",
+   "src": "WorldofAI",
+   "kind": "Video"
   },
   {
-   "t": "DBS Says Hong Kong Can Act as Bridge for China's AI Innovation With Global Markets",
-   "url": "https://www.marketscreener.com/news/dbs-says-hong-kong-can-act-as-bridge-for-china-s-ai-innovation-with-global-markets-ce785ddcdc81fe22",
-   "at": "2026-10-12T02:58:19Z",
-   "src": "MarketScreener",
+   "t": "Elon Musk, Jensen Huang & Other Trump Allies Adopt 'Super Intelligence' As White House Pushes To Retire The Term 'AI'",
+   "url": "https://www.freepressjournal.in/tech/elon-musk-jensen-huang-other-trump-allies-adopt-super-intelligence-as-white-house-pushes-to-retire-the-term-ai",
+   "at": "2026-10-12T03:28:35Z",
+   "src": "Free Press Journal",
    "kind": "News"
   }
  ],
  "discussions": [
   {
    "src": "Hacker News",
-   "t": "QGIS bans AI assisted contributions",
-   "url": "https://news.ycombinator.com/item?id=50054751",
-   "link": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
-   "up": 258,
-   "com": 261,
-   "at": "2026-10-12T11:22:24.000Z"
-  },
-  {
-   "src": "Hacker News",
    "t": "Why aren't AI companies being charged for hacking?",
    "url": "https://news.ycombinator.com/item?id=50057278",
    "link": "https://mortoray.com/why-arent-ai-companies-being-charged-for-hacking/",
-   "up": 59,
-   "com": 16,
+   "up": 163,
+   "com": 114,
    "at": "2026-10-12T14:52:37.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "QGIS bans AI assisted contributions",
+   "url": "https://news.ycombinator.com/item?id=50054751",
+   "link": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
+   "up": 274,
+   "com": 278,
+   "at": "2026-10-12T11:22:24.000Z"
   },
   {
    "src": "Hacker News",
    "t": "The gap in shared understanding of LLM capability is widening",
    "url": "https://news.ycombinator.com/item?id=50047422",
    "link": "https://twitter.com/karpathy/status/2109361546505966046",
-   "up": 572,
-   "com": 812,
+   "up": 578,
+   "com": 834,
    "at": "2026-10-11T20:20:52.000Z"
   },
   {
@@ -856,27 +856,27 @@
    "t": "Incident with Actions, Pull Requests and Issues",
    "url": "https://news.ycombinator.com/item?id=50055375",
    "link": "https://www.githubstatus.com/incidents/93njd414rpbx",
-   "up": 71,
-   "com": 48,
+   "up": 94,
+   "com": 65,
    "at": "2026-10-12T12:23:51.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "\"Just Ask Claude\" Is a Rare and Valuable Skill",
-   "url": "https://news.ycombinator.com/item?id=50056063",
-   "link": "https://justismills.substack.com/p/just-ask-claude-is-a-rare-and-valuable",
-   "up": 41,
-   "com": 44,
-   "at": "2026-10-12T13:20:04.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Zod 4.6.6 compromised by malware?",
    "url": "https://news.ycombinator.com/item?id=50052814",
    "link": "https://github.com/colinhacks/zod/commit/d821685ea6732436fcdf786a81d076958471e467",
-   "up": 167,
-   "com": 47,
+   "up": 168,
+   "com": 48,
    "at": "2026-10-12T07:47:29.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "\"Just Ask Claude\" Is a Rare and Valuable Skill",
+   "url": "https://news.ycombinator.com/item?id=50056063",
+   "link": "https://justismills.substack.com/p/just-ask-claude-is-a-rare-and-valuable",
+   "up": 43,
+   "com": 48,
+   "at": "2026-10-12T13:20:04.000Z"
   }
  ]
 }
