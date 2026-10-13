@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-13T08:30:54.744Z"
+  "updated": "2026-10-13T09:01:06.224Z"
  },
  "pulse": {
-  "trending": 76,
+  "trending": 77,
   "accelerating": 0,
   "newModels": 7,
   "discussions": 54,
-  "stars": 3250
+  "stars": 3914
  },
  "rising": [
   {
@@ -24,13 +24,30 @@
    "grow": null,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 7,006",
-    "~1,421 in 24h",
+    "★ 7,056",
+    "~1,425 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
    "breakout": null,
    "url": "https://github.com/wheresryan22/anatomy"
+  },
+  {
+   "name": "esp32-iphone-agent",
+   "owner": "onehumanbeing",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 94,
+   "grow": null,
+   "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
+   "meta": [
+    "★ 1,064",
+    "~675 in 24h",
+    "Created 2 days ago"
+   ],
+   "at": "2026-10-11T19:10:25Z",
+   "breakout": null,
+   "url": "https://github.com/onehumanbeing/esp32-iphone-agent"
   },
   {
    "name": "ARTEX",
@@ -41,8 +58,8 @@
    "grow": null,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 3,744",
-    "~731 in 24h",
+    "★ 3,752",
+    "~729 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -102,12 +119,12 @@
    "owner": "LosaLosSantos",
    "src": "gh",
    "cat": "LLMs",
-   "score": 87,
+   "score": 86,
    "grow": 7,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 3,049",
-    "+565 in 24h",
+    "★ 3,050",
+    "+536 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -153,7 +170,7 @@
    "cat": "Coding",
    "score": 85,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 384",
+   "desc": "Model on Hugging Face · open source · ♥ 386",
    "meta": [
     "162K downloads",
     "Released 4 days ago"
@@ -161,25 +178,42 @@
    "at": "2026-10-09T16:30:48.000Z",
    "breakout": null,
    "url": "https://huggingface.co/AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF"
-  },
-  {
-   "name": "GroundingPI: A Grounding Foundation Model towards Physical Intelligence with Visual Primitives",
-   "owner": "Paper",
-   "src": "paper",
-   "url": "https://huggingface.co/papers/2609.39601",
-   "cat": "Research",
-   "score": 85,
-   "grow": null,
-   "desc": "Precise grounding matters.",
-   "meta": [
-    "▲ 84 upvotes",
-    "Hugging Face Papers"
-   ],
-   "at": "2026-09-29T20:00:00.000Z",
-   "breakout": null
   }
  ],
  "breakouts": [
+  {
+   "key": "muse wonder",
+   "label": "Muse Wonder",
+   "n": 5,
+   "sources": [
+    {
+     "src": "Product Hunt",
+     "t": "Muse Wonder",
+     "url": "https://www.producthunt.com/products/meta-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
+    },
+    {
+     "src": "Hacker News",
+     "t": "Muse Wonder",
+     "url": "https://news.ycombinator.com/item?id=50059115"
+    },
+    {
+     "src": "Techmeme",
+     "t": "Q&A with Mark Zuckerberg and Alexandr Wang on the Muse app, Muse Wonder, the risks of committing $100B+ to AI, rebooting Meta's AI team, agentic commerce, more",
+     "url": "https://www.techmeme.com/261012/p44#a261012p44"
+    },
+    {
+     "src": "Digital Trends",
+     "t": "Meta goes toe-to-toe with the big boys as it launches Muse Wonder AI models",
+     "url": "https://www.digitaltrends.com/computing/meta-goes-toe-to-toe-with-the-big-boys-with-muse-wonder-ai-models/"
+    },
+    {
+     "src": "Business Insider",
+     "t": "Meta Launches Muse Wonder Series to Rival Anthropic, OpenAI Models",
+     "url": "https://www.businessinsider.com/meta-launches-muse-wonder-series-to-rival-anthropic-openai-models-2026-10"
+    }
+   ],
+   "since": "2026-10-13T07:01:06.070Z"
+  },
   {
    "key": "opus 5.5",
    "label": "Opus 5.5",
@@ -238,12 +272,29 @@
    "verdict": "Talk only, no public usage numbers"
   },
   {
+   "name": "anatomy",
+   "url": "https://github.com/wheresryan22/anatomy",
+   "from": "GitHub",
+   "use": 1425,
+   "useLabel": "~1,425 stars/day",
+   "usePct": 1,
+   "talk": [
+    {
+     "src": "Thenation.com",
+     "t": "The Anatomy of a Literary Scandal",
+     "url": "https://www.thenation.com/?post_type=article&p=612153"
+    }
+   ],
+   "buzz": 1,
+   "verdict": "The hype matches real use"
+  },
+  {
    "name": "solidcraft",
    "url": "https://github.com/bherbruck/solidcraft",
    "from": "GitHub",
-   "use": 533,
-   "useLabel": "+533 stars/day",
-   "usePct": 0,
+   "use": 549,
+   "useLabel": "+549 stars/day",
+   "usePct": 0.25,
    "talk": [
     {
      "src": "Hacker News",
@@ -253,17 +304,6 @@
    ],
    "buzz": 1,
    "verdict": "More talk than use"
-  },
-  {
-   "name": "anatomy",
-   "url": "https://github.com/wheresryan22/anatomy",
-   "from": "GitHub",
-   "use": 1421,
-   "useLabel": "~1,421 stars/day",
-   "usePct": 1,
-   "talk": [],
-   "buzz": 0,
-   "verdict": "Used a lot, hardly talked about"
   },
   {
    "name": "Ternary-Bonsai-2-27B-gguf",
@@ -283,6 +323,17 @@
    "use": 4413142,
    "useLabel": "4.4M downloads",
    "usePct": 0.967741935483871,
+   "talk": [],
+   "buzz": 0,
+   "verdict": "Used a lot, hardly talked about"
+  },
+  {
+   "name": "Qwen-Image-2.1-Uncensored-Quantized",
+   "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+   "from": "Hugging Face",
+   "use": 2188658,
+   "useLabel": "2.2M downloads",
+   "usePct": 0.9354838709677419,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -373,39 +424,48 @@
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 7006,
-   "d24": 1421,
+   "stars": 7056,
+   "d24": 1425,
    "est": true,
-   "forks": 503,
+   "forks": 505,
    "contrib": 8,
    "score": 94
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 3744,
-   "d24": 731,
+   "stars": 3752,
+   "d24": 729,
    "est": true,
-   "forks": 6115,
+   "forks": 6124,
    "contrib": null,
    "score": 92
   },
   {
-   "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 3049,
-   "d24": 565,
-   "est": false,
-   "forks": 381,
+   "repo": "onehumanbeing/esp32-iphone-agent",
+   "stars": 1064,
+   "d24": 675,
+   "est": true,
+   "forks": 130,
    "contrib": null,
-   "score": 87
+   "score": 94
   },
   {
    "repo": "bherbruck/solidcraft",
-   "stars": 1275,
-   "d24": 533,
+   "stars": 1296,
+   "d24": 549,
    "est": false,
-   "forks": 126,
+   "forks": 127,
    "contrib": null,
-   "score": 79
+   "score": 78
+  },
+  {
+   "repo": "LosaLosSantos/aurelio-finance",
+   "stars": 3050,
+   "d24": 536,
+   "est": false,
+   "forks": 381,
+   "contrib": null,
+   "score": 86
   }
  ],
  "models": [
@@ -429,7 +489,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 1998
+   "likes": 2000
   },
   {
    "name": "humanizer",
@@ -440,7 +500,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1371
+   "likes": 1375
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-Quantized",
@@ -451,7 +511,7 @@
    "grow": null,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 4137
+   "likes": 4144
   },
   {
    "name": "Underdog-Saluki-27B-1.0",
@@ -474,7 +534,7 @@
    "grow": null,
    "score": 85,
    "cat": "Coding",
-   "likes": 384
+   "likes": 386
   }
  ],
  "free": [
@@ -892,11 +952,11 @@
    "kind": "News"
   },
   {
-   "t": "Sources: Epic has delayed the release of an upcoming game, instructing developers to implement an \"AI first\" production model with \"no more hand-written code\"",
-   "url": "https://www.techmeme.com/261012/p39#a261012p39",
-   "at": "2026-10-12T20:25:00.000Z",
-   "src": "Techmeme",
-   "kind": "News"
+   "t": "Anthropic's New Claude NEXT Leak Exposes a MAJOR Breakthrough",
+   "url": "https://www.youtube.com/watch?v=efjJH2rVykc",
+   "at": "2026-10-12T21:26:22Z",
+   "src": "AI Revolution",
+   "kind": "Video"
   }
  ],
  "discussions": [
@@ -905,8 +965,8 @@
    "t": "Muse Wonder",
    "url": "https://news.ycombinator.com/item?id=50059115",
    "link": "https://research.meta.ai/blog/muse-wonder",
-   "up": 624,
-   "com": 329,
+   "up": 627,
+   "com": 332,
    "at": "2026-10-12T16:48:01.000Z"
   },
   {
@@ -914,8 +974,8 @@
    "t": "Codex CLI installs a persistent, self-updating background daemon by default",
    "url": "https://news.ycombinator.com/item?id=50060694",
    "link": "https://github.com/openai/codex/issues/48195",
-   "up": 549,
-   "com": 272,
+   "up": 553,
+   "com": 273,
    "at": "2026-10-12T18:29:04.000Z"
   },
   {
@@ -923,8 +983,8 @@
    "t": "AI is a tool and using it well takes skill",
    "url": "https://news.ycombinator.com/item?id=50063427",
    "link": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
-   "up": 385,
-   "com": 303,
+   "up": 397,
+   "com": 319,
    "at": "2026-10-12T21:40:18.000Z"
   },
   {
@@ -932,8 +992,8 @@
    "t": "GLM-Legal",
    "url": "https://news.ycombinator.com/item?id=50058507",
    "link": "https://z.ai/blog/glm-legal",
-   "up": 544,
-   "com": 312,
+   "up": 550,
+   "com": 313,
    "at": "2026-10-12T16:11:45.000Z"
   },
   {
@@ -941,18 +1001,18 @@
    "t": "Hackers activate automatic defrosting in supermarket fridges across Europe",
    "url": "https://news.ycombinator.com/item?id=50055304",
    "link": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
-   "up": 660,
-   "com": 787,
+   "up": 677,
+   "com": 803,
    "at": "2026-10-12T12:16:42.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Threat of AI share crash puts world financial stability at risk, says IMF",
-   "url": "https://news.ycombinator.com/item?id=50067356",
-   "link": "https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks",
-   "up": 83,
-   "com": 79,
-   "at": "2026-10-13T05:57:32.000Z"
+   "t": "AI models can provably hide arbitrary capabilities",
+   "url": "https://news.ycombinator.com/item?id=50065692",
+   "link": "https://arxiv.org/abs/2610.13928",
+   "up": 200,
+   "com": 104,
+   "at": "2026-10-13T02:07:08.000Z"
   }
  ]
 }
