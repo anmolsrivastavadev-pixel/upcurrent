@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-13T00:01:09.881Z"
+  "updated": "2026-10-13T00:30:59.080Z"
  },
  "pulse": {
   "trending": 76,
   "accelerating": 0,
   "newModels": 5,
   "discussions": 52,
-  "stars": 3820
+  "stars": 4073
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 94,
-   "grow": 49,
+   "grow": 50,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 6,179",
-    "+2,955 in 24h",
+    "★ 6,220",
+    "+2,926 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -41,8 +41,8 @@
    "grow": 3,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 3,563",
-    "+194 in 24h",
+    "★ 3,566",
+    "+192 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -56,7 +56,7 @@
    "cat": "Vision",
    "score": 92,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 631",
+   "desc": "Vision on Hugging Face · open weights · ♥ 633",
    "meta": [
     "6.8K downloads",
     "Released 4 days ago"
@@ -102,11 +102,11 @@
    "owner": "LosaLosSantos",
    "src": "gh",
    "cat": "LLMs",
-   "score": 88,
+   "score": 87,
    "grow": null,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 2,849",
+    "★ 2,861",
     "~463 in 24h",
     "Created 6 days ago"
    ],
@@ -163,17 +163,17 @@
    "breakout": null
   },
   {
-   "name": "HireKey",
+   "name": "kōdlo",
    "owner": "Product Hunt",
    "src": "ph",
-   "url": "https://www.producthunt.com/products/hirekey?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29",
-   "cat": "Coding",
+   "url": "https://www.producthunt.com/products/kodlo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29",
+   "cat": "Tools",
    "score": 85,
    "grow": null,
-   "desc": "Your recruiter-informed AI copilot for tech job search",
+   "desc": "End-to-end sales workspace with unified context",
    "meta": [
-    "▲ 271 votes",
-    "38 comments",
+    "▲ 273 votes",
+    "57 comments",
     "Launched 2 days ago"
    ],
    "at": "2026-10-11T07:01:00Z",
@@ -232,8 +232,8 @@
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 2955,
-   "useLabel": "+2,955 stars/day",
+   "use": 2926,
+   "useLabel": "+2,926 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -347,35 +347,35 @@
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 6179,
-   "d24": 2955,
+   "stars": 6220,
+   "d24": 2926,
    "est": false,
-   "forks": 435,
+   "forks": 438,
    "contrib": 8,
    "score": 94
   },
   {
-   "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 2849,
-   "d24": 463,
-   "est": true,
-   "forks": 380,
-   "contrib": null,
-   "score": 88
-  },
-  {
    "repo": "bherbruck/solidcraft",
-   "stars": 1084,
-   "d24": 208,
-   "est": true,
-   "forks": 107,
+   "stars": 1087,
+   "d24": 492,
+   "est": false,
+   "forks": 108,
    "contrib": null,
    "score": 78
   },
   {
+   "repo": "LosaLosSantos/aurelio-finance",
+   "stars": 2861,
+   "d24": 463,
+   "est": true,
+   "forks": 380,
+   "contrib": null,
+   "score": 87
+  },
+  {
    "repo": "mhtsec/ARTEX",
-   "stars": 3563,
-   "d24": 194,
+   "stars": 3566,
+   "d24": 192,
    "est": false,
    "forks": 5968,
    "contrib": null,
@@ -392,7 +392,7 @@
    "grow": null,
    "score": 92,
    "cat": "Vision",
-   "likes": 631
+   "likes": 633
   },
   {
    "name": "embeddinggemma-2",
@@ -403,7 +403,7 @@
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 1932
+   "likes": 1936
   },
   {
    "name": "humanizer",
@@ -414,7 +414,7 @@
    "grow": null,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1316
+   "likes": 1321
   },
   {
    "name": "Underdog-Saluki-27B-1.0",
@@ -437,7 +437,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 4095
+   "likes": 4096
   },
   {
    "name": "clef",
@@ -448,7 +448,7 @@
    "grow": null,
    "score": 84,
    "cat": "Coding",
-   "likes": 2090
+   "likes": 2092
   }
  ],
  "free": [
@@ -745,6 +745,20 @@
  },
  "headlines": [
   {
+   "t": "Leading Chinese mathematicians launch an alliance, including eight orgs and aiming for 1,000+ scientists, to focus on developing specialized AI models for math",
+   "url": "https://www.techmeme.com/261012/p42#a261012p42",
+   "at": "2026-10-13T00:15:02.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "David Pocock concerned senior Albanese adviser ‘vetted’ bipartisan AI letter that was sent to PM",
+   "url": "https://www.theguardian.com/technology/2026/oct/13/senior-albanese-adviser-vetted-bipartisan-ai-letter-politics-ntwnfb",
+   "at": "2026-10-13T00:03:19Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
    "t": "Sources: JPMorgan and Goldman, leading a $5B loan sale with a yield of ~11% for AI startup Volta, took a rare move to limit exposure by underwriting just $1.3B",
    "url": "https://www.techmeme.com/261012/p41#a261012p41",
    "at": "2026-10-12T22:10:01.000Z",
@@ -836,25 +850,11 @@
    "kind": "News"
   },
   {
-   "t": "As US medical debt grows, AI will be used more to collect it",
-   "url": "https://www.theguardian.com/us-news/2026/oct/12/ai-medical-debt-billing",
-   "at": "2026-10-12T12:00:55Z",
-   "src": "The Guardian",
+   "t": "L&T Finance Ltd. Launches the Second Edition of 'Pitch Point,' A Competition for AI Startups Ahead of RAISE' 26",
+   "url": "https://www.aninews.in/news/business/lampt-finance-ltd-launches-the-second-edition-of-pitch-point-a-competition-for-ai-startups-ahead-of-raise-2620261012175625/",
+   "at": "2026-10-12T12:26:25Z",
+   "src": "ANI (Asian News International)",
    "kind": "News"
-  },
-  {
-   "t": "Palantir's Price Tag Scared Wall Street. Why More Analysts Are Bullish.",
-   "url": "https://www.investors.com/news/technology/palantir-stock-pltr-why-wall-street-analysts-turning-bullish/",
-   "at": "2026-10-12T12:00:38Z",
-   "src": "Investor's Business Daily",
-   "kind": "News"
-  },
-  {
-   "t": "Microsoft New Surface Laptop Ultra with NVIDIA GPU for Local AI - OpenAI is DEAD",
-   "url": "https://www.youtube.com/watch?v=mRCGG61UrFg",
-   "at": "2026-10-12T12:00:22Z",
-   "src": "Eli the Computer Guy",
-   "kind": "Video"
   }
  ],
  "discussions": [
@@ -863,8 +863,8 @@
    "t": "Codex CLI installs a persistent, self-updating background daemon by default",
    "url": "https://news.ycombinator.com/item?id=50060694",
    "link": "https://github.com/openai/codex/issues/48195",
-   "up": 424,
-   "com": 222,
+   "up": 433,
+   "com": 227,
    "at": "2026-10-12T18:29:04.000Z"
   },
   {
@@ -872,8 +872,8 @@
    "t": "AI is a tool and using it well takes skill",
    "url": "https://news.ycombinator.com/item?id=50063427",
    "link": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
-   "up": 179,
-   "com": 166,
+   "up": 195,
+   "com": 183,
    "at": "2026-10-12T21:40:18.000Z"
   },
   {
@@ -881,8 +881,8 @@
    "t": "Muse Wonder",
    "url": "https://news.ycombinator.com/item?id=50059115",
    "link": "https://research.meta.ai/blog/muse-wonder",
-   "up": 499,
-   "com": 269,
+   "up": 507,
+   "com": 276,
    "at": "2026-10-12T16:48:01.000Z"
   },
   {
@@ -890,8 +890,8 @@
    "t": "GLM-Legal",
    "url": "https://news.ycombinator.com/item?id=50058507",
    "link": "https://z.ai/blog/glm-legal",
-   "up": 399,
-   "com": 225,
+   "up": 408,
+   "com": 235,
    "at": "2026-10-12T16:11:45.000Z"
   },
   {
@@ -899,8 +899,8 @@
    "t": "AI coding agents generate more code, but not more software",
    "url": "https://news.ycombinator.com/item?id=50059523",
    "link": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
-   "up": 297,
-   "com": 254,
+   "up": 302,
+   "com": 259,
    "at": "2026-10-12T17:14:01.000Z"
   },
   {
@@ -908,8 +908,8 @@
    "t": "OpenFatigue™ – Open is the new closed",
    "url": "https://news.ycombinator.com/item?id=50061278",
    "link": "https://openfatigue.ai/",
-   "up": 191,
-   "com": 44,
+   "up": 193,
+   "com": 45,
    "at": "2026-10-12T19:08:21.000Z"
   }
  ]
