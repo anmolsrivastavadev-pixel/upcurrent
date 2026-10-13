@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-13T14:30:58.380Z"
+  "updated": "2026-10-13T15:01:10.994Z"
  },
  "pulse": {
   "trending": 79,
   "accelerating": 2,
   "newModels": 7,
-  "discussions": 58,
-  "stars": 4133
+  "discussions": 55,
+  "stars": 4478
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 96,
-   "grow": null,
+   "grow": 25,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 1,302",
-    "~721 in 24h",
+    "★ 1,329",
+    "+1,060 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 94,
-   "grow": 17,
+   "grow": 18,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 7,618",
-    "+2,391 in 24h",
+    "★ 7,672",
+    "+2,399 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -56,7 +56,7 @@
    "cat": "Vision",
    "score": 92,
    "grow": 42,
-   "desc": "Vision on Hugging Face · open weights · ♥ 681",
+   "desc": "Vision on Hugging Face · open weights · ♥ 683",
    "meta": [
     "9.7K downloads",
     "Released 4 days ago"
@@ -71,11 +71,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 91,
-   "grow": 2,
+   "grow": 3,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 3,836",
-    "+368 in 24h",
+    "★ 3,844",
+    "+369 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -89,7 +89,7 @@
    "cat": "Vision",
    "score": 90,
    "grow": 8,
-   "desc": "Vision on Hugging Face · open source · ♥ 2K",
+   "desc": "Vision on Hugging Face · open source · ♥ 2.1K",
    "meta": [
     "125K downloads",
     "Released 29 days ago"
@@ -139,8 +139,8 @@
    "grow": 8,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 3,085",
-    "+391 in 24h",
+    "★ 3,090",
+    "+386 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -232,8 +232,8 @@
    "name": "solidcraft",
    "url": "https://github.com/bherbruck/solidcraft",
    "from": "GitHub",
-   "use": 262,
-   "useLabel": "~262 stars/day",
+   "use": 264,
+   "useLabel": "~264 stars/day",
    "usePct": 0,
    "talk": [
     {
@@ -249,8 +249,8 @@
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 2391,
-   "useLabel": "+2,391 stars/day",
+   "use": 2399,
+   "useLabel": "+2,399 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -280,6 +280,16 @@
   }
  ],
  "receipts": [
+  {
+   "name": "nano-muse/nanoMuse",
+   "url": "https://github.com/nano-muse/nanoMuse",
+   "kind": "stars",
+   "first": "2026-10-12T17:30:54.184Z",
+   "firstV": 961,
+   "m": 1000,
+   "at": "2026-10-13T15:01:10.994Z",
+   "lead": 21.504669444444446
+  },
   {
    "name": "autotrust/JEV-35B",
    "url": "https://huggingface.co/autotrust/JEV-35B",
@@ -349,61 +359,51 @@
    "m": 10000,
    "at": "2026-10-12T09:30:59.509Z",
    "lead": 255.7152477777778
-  },
-  {
-   "name": "google/embeddinggemma-2",
-   "url": "https://huggingface.co/google/embeddinggemma-2",
-   "kind": "downloads",
-   "first": "2026-10-06T17:30:50.737Z",
-   "firstV": 364,
-   "m": 100000,
-   "at": "2026-10-12T09:30:59.509Z",
-   "lead": 136.00243666666665
   }
  ],
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 7618,
-   "d24": 2391,
+   "stars": 7672,
+   "d24": 2399,
    "est": false,
-   "forks": 538,
+   "forks": 540,
    "contrib": 8,
    "score": 94
   },
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 1302,
-   "d24": 721,
-   "est": true,
-   "forks": 161,
+   "stars": 1329,
+   "d24": 1060,
+   "est": false,
+   "forks": 162,
    "contrib": null,
    "score": 96
   },
   {
    "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 3085,
-   "d24": 391,
+   "stars": 3090,
+   "d24": 386,
    "est": false,
-   "forks": 419,
+   "forks": 421,
    "contrib": null,
    "score": 86
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 3836,
-   "d24": 368,
+   "stars": 3844,
+   "d24": 369,
    "est": false,
-   "forks": 6174,
+   "forks": 6176,
    "contrib": null,
    "score": 91
   },
   {
    "repo": "bherbruck/solidcraft",
-   "stars": 1522,
-   "d24": 262,
+   "stars": 1541,
+   "d24": 264,
    "est": true,
-   "forks": 140,
+   "forks": 143,
    "contrib": null,
    "score": 79
   }
@@ -418,7 +418,7 @@
    "grow": 42,
    "score": 92,
    "cat": "Vision",
-   "likes": 681
+   "likes": 683
   },
   {
    "name": "embeddinggemma-2",
@@ -429,7 +429,7 @@
    "grow": 8,
    "score": 90,
    "cat": "Vision",
-   "likes": 2048
+   "likes": 2053
   },
   {
    "name": "humanizer",
@@ -440,7 +440,7 @@
    "grow": 17,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1401
+   "likes": 1407
   },
   {
    "name": "Underdog-Saluki-27B-1.0",
@@ -871,13 +871,6 @@
    "kind": "News"
   },
   {
-   "t": "Alibaba unveils its next-gen Qwen Glasses N1, starting at ~$450, with 50MP cameras, sensors, and eye-tracking on the ~$520 Pro model, and Qwen Clip AI earbuds",
-   "url": "https://www.techmeme.com/261013/p11#a261013p11",
-   "at": "2026-10-13T10:10:00.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "The people who don’t want their AI chatbots to die when they do: ‘I can’t have the switch turned off’",
    "url": "https://www.theguardian.com/technology/ng-interactive/2026/oct/13/ai-chatbot-death-plans",
    "at": "2026-10-13T10:00:04Z",
@@ -897,6 +890,13 @@
    "at": "2026-10-13T09:00:20Z",
    "src": "The Guardian",
    "kind": "News"
+  },
+  {
+   "t": "IMF warns of 'triple whammy' if global AI investment boom fails to pay off | Ed Conway analysis",
+   "url": "https://www.youtube.com/watch?v=nKYQ8I99p3c",
+   "at": "2026-10-13T07:13:48Z",
+   "src": "Sky News",
+   "kind": "Video"
   }
  ],
  "discussions": [
@@ -905,26 +905,17 @@
    "t": "11 year old unsoundness bugs found in Rust borrow checker",
    "url": "https://news.ycombinator.com/item?id=50069499",
    "link": "https://github.com/rust-lang/rust/issues/164250",
-   "up": 396,
-   "com": 201,
+   "up": 427,
+   "com": 225,
    "at": "2026-10-13T10:27:00.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "An hour of audio transcribed in about 13s on MacBook Air",
-   "url": "https://news.ycombinator.com/item?id=50069971",
-   "link": "https://eg2.haku.sh/",
-   "up": 212,
-   "com": 53,
-   "at": "2026-10-13T11:27:14.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Apple's Minions: A virtual GPU cloud built from idle Apple Silicon Macs",
+   "t": "A Dynamic and Distributed Virtual GPU Cloud Built on Idle Apple Silicon Devices",
    "url": "https://news.ycombinator.com/item?id=50070593",
    "link": "https://machinelearning.apple.com/research/distributed-gpu-cloud",
-   "up": 95,
-   "com": 37,
+   "up": 123,
+   "com": 44,
    "at": "2026-10-13T12:26:36.000Z"
   },
   {
@@ -932,27 +923,36 @@
    "t": "Character.ai Files for Bankruptcy",
    "url": "https://news.ycombinator.com/item?id=50069942",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney",
-   "up": 120,
-   "com": 82,
+   "up": 131,
+   "com": 95,
    "at": "2026-10-13T11:24:08.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Muse Wonder",
-   "url": "https://news.ycombinator.com/item?id=50059115",
-   "link": "https://research.meta.ai/blog/muse-wonder",
-   "up": 650,
-   "com": 359,
-   "at": "2026-10-12T16:48:01.000Z"
   },
   {
    "src": "Hacker News",
    "t": "AI is a tool and using it well takes skill",
    "url": "https://news.ycombinator.com/item?id=50063427",
    "link": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
-   "up": 503,
-   "com": 404,
+   "up": 516,
+   "com": 415,
    "at": "2026-10-12T21:40:18.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Muse Wonder",
+   "url": "https://news.ycombinator.com/item?id=50059115",
+   "link": "https://research.meta.ai/blog/muse-wonder",
+   "up": 651,
+   "com": 360,
+   "at": "2026-10-12T16:48:01.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Codex CLI installs a persistent, self-updating background daemon by default",
+   "url": "https://news.ycombinator.com/item?id=50060694",
+   "link": "https://github.com/openai/codex/issues/48195",
+   "up": 585,
+   "com": 282,
+   "at": "2026-10-12T18:29:04.000Z"
   }
  ]
 }
