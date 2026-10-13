@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-13T02:01:04.000Z"
+  "updated": "2026-10-13T02:30:55.331Z"
  },
  "pulse": {
   "trending": 76,
   "accelerating": 0,
   "newModels": 6,
   "discussions": 52,
-  "stars": 4000
+  "stars": 4014
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 94,
-   "grow": 53,
+   "grow": 55,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 6,350",
-    "+2,858 in 24h",
+    "★ 6,417",
+    "+2,867 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -41,8 +41,8 @@
    "grow": 4,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 3,604",
-    "+237 in 24h",
+    "★ 3,617",
+    "+250 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -56,7 +56,7 @@
    "cat": "Vision",
    "score": 92,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 638",
+   "desc": "Vision on Hugging Face · open weights · ♥ 640",
    "meta": [
     "6.8K downloads",
     "Released 4 days ago"
@@ -106,8 +106,8 @@
    "grow": null,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 2,898",
-    "~464 in 24h",
+    "★ 2,914",
+    "~465 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -147,19 +147,19 @@
    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized"
   },
   {
-   "name": "MetaKernelBench: Measuring GPU Kernel Knowledge Transfer Beyond Code",
+   "name": "Humanity's Sixth Sense: Benchmarking Intuitive Visual Reasoning in Multimodal Models",
    "owner": "Paper",
    "src": "paper",
-   "url": "https://huggingface.co/papers/2610.05014",
+   "url": "https://huggingface.co/papers/2610.08966",
    "cat": "Research",
    "score": 85,
    "grow": null,
-   "desc": "Recent GPU kernel optimization agents retain what they learn in knowledge bases or as distilled skills.",
+   "desc": "Humans perceive far more in a scene than what is explicitly depicted: a single glance captures past causes and future trajectories; a quick peek determines if a vehicle can fit between two parked cars; a few seconds of video reveals who holds authority in a room; and a fleeting clip highlights subtle abstract patterns like unwritten rules or hidden labels.",
    "meta": [
-    "▲ 16 upvotes",
+    "▲ 14 upvotes",
     "Hugging Face Papers"
    ],
-   "at": "2026-10-03T20:00:00.000Z",
+   "at": "2026-10-07T20:00:00.000Z",
    "breakout": null
   },
   {
@@ -184,7 +184,7 @@
   {
    "key": "opus 5.5",
    "label": "Opus 5.5",
-   "n": 3,
+   "n": 4,
    "sources": [
     {
      "src": "Hacker News",
@@ -195,6 +195,11 @@
      "src": "Mastodon",
      "t": "\"A developer frustrated by Adobe's cancellation fees used Anthropic's Opus 5.5 model and pure Rust to rewrite the entire Creative Cloud suite as open-source …",
      "url": "https://tldr.nettime.org/@remixtures/117427110761117205"
+    },
+    {
+     "src": "YouTube",
+     "t": "How To Make Edits With Claude Opus 5.5 + Higgsfield Katana",
+     "url": "https://www.youtube.com/watch?v=rZvF_EWZoHw"
     },
     {
      "src": "GitHub",
@@ -223,17 +228,22 @@
      "src": "Mastodon",
      "t": "\"A developer frustrated by Adobe's cancellation fees used Anthropic's Opus 5.5 model and pure Rust to rewrite the entire Creative Cloud suite as open-source …",
      "url": "https://tldr.nettime.org/@remixtures/117427110761117205"
+    },
+    {
+     "src": "YouTube",
+     "t": "How To Make Edits With Claude Opus 5.5 + Higgsfield Katana",
+     "url": "https://www.youtube.com/watch?v=rZvF_EWZoHw"
     }
    ],
-   "buzz": 2,
+   "buzz": 3,
    "verdict": "Talk only, no public usage numbers"
   },
   {
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 2858,
-   "useLabel": "+2,858 stars/day",
+   "use": 2867,
+   "useLabel": "+2,867 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -347,17 +357,17 @@
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 6350,
-   "d24": 2858,
+   "stars": 6417,
+   "d24": 2867,
    "est": false,
-   "forks": 452,
+   "forks": 456,
    "contrib": 8,
    "score": 94
   },
   {
    "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 2898,
-   "d24": 464,
+   "stars": 2914,
+   "d24": 465,
    "est": true,
    "forks": 380,
    "contrib": null,
@@ -365,8 +375,8 @@
   },
   {
    "repo": "bherbruck/solidcraft",
-   "stars": 1102,
-   "d24": 441,
+   "stars": 1108,
+   "d24": 432,
    "est": false,
    "forks": 112,
    "contrib": null,
@@ -374,10 +384,10 @@
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 3604,
-   "d24": 237,
+   "stars": 3617,
+   "d24": 250,
    "est": false,
-   "forks": 6004,
+   "forks": 6012,
    "contrib": null,
    "score": 93
   }
@@ -392,7 +402,7 @@
    "grow": null,
    "score": 92,
    "cat": "Vision",
-   "likes": 638
+   "likes": 640
   },
   {
    "name": "embeddinggemma-2",
@@ -403,7 +413,7 @@
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 1941
+   "likes": 1945
   },
   {
    "name": "humanizer",
@@ -414,7 +424,7 @@
    "grow": null,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1324
+   "likes": 1327
   },
   {
    "name": "Underdog-Saluki-27B-1.0",
@@ -437,7 +447,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 4100
+   "likes": 4103
   },
   {
    "name": "clef",
@@ -448,7 +458,7 @@
    "grow": null,
    "score": 84,
    "cat": "Coding",
-   "likes": 2096
+   "likes": 2097
   }
  ],
  "free": [
@@ -843,17 +853,17 @@
    "kind": "Lab blog"
   },
   {
-   "t": "Dystopian and dehumanising: that’s what it felt like when I was interviewed by an AI assistant | Giselle Au-Nhien Nguyen",
-   "url": "https://www.theguardian.com/commentisfree/2026/oct/13/dystopian-and-dehumanising-thats-what-it-felt-like-when-i-was-interviewed-by-an-ai-assistant",
-   "at": "2026-10-12T14:00:57Z",
-   "src": "The Guardian",
+   "t": "AI minister warns it's 'likely, if not inevitable' UK cyber defences will be breached",
+   "url": "https://www.mirror.co.uk/news/politics/kanishka-narayan-artificial-intelligence-speech-37763094",
+   "at": "2026-10-12T14:20:12Z",
+   "src": "The Mirror",
    "kind": "News"
   },
   {
-   "t": "HR Path accelerates its Artificial Intelligence strategy with the acquisition of SnapAI",
-   "url": "https://www.manilatimes.net/2026/10/12/tmt-newswire/pr-newswire/hr-path-accelerates-its-artificial-intelligence-strategy-with-the-acquisition-of-snapai/2443888",
-   "at": "2026-10-12T13:58:37Z",
-   "src": "The Manila Times",
+   "t": "DBS CEO: Market Repricing Risks on AI Financing",
+   "url": "https://www.marketscreener.com/news/dbs-ceo-market-repricing-risks-on-ai-financing-ce785dddd989ff2c",
+   "at": "2026-10-12T14:10:55Z",
+   "src": "MarketScreener",
    "kind": "News"
   }
  ],
@@ -863,8 +873,8 @@
    "t": "Codex CLI installs a persistent, self-updating background daemon by default",
    "url": "https://news.ycombinator.com/item?id=50060694",
    "link": "https://github.com/openai/codex/issues/48195",
-   "up": 466,
-   "com": 238,
+   "up": 478,
+   "com": 242,
    "at": "2026-10-12T18:29:04.000Z"
   },
   {
@@ -872,8 +882,8 @@
    "t": "Muse Wonder",
    "url": "https://news.ycombinator.com/item?id=50059115",
    "link": "https://research.meta.ai/blog/muse-wonder",
-   "up": 527,
-   "com": 299,
+   "up": 534,
+   "com": 298,
    "at": "2026-10-12T16:48:01.000Z"
   },
   {
@@ -881,8 +891,8 @@
    "t": "AI is a tool and using it well takes skill",
    "url": "https://news.ycombinator.com/item?id=50063427",
    "link": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
-   "up": 233,
-   "com": 211,
+   "up": 246,
+   "com": 215,
    "at": "2026-10-12T21:40:18.000Z"
   },
   {
@@ -890,27 +900,27 @@
    "t": "GLM-Legal",
    "url": "https://news.ycombinator.com/item?id=50058507",
    "link": "https://z.ai/blog/glm-legal",
-   "up": 432,
-   "com": 248,
+   "up": 447,
+   "com": 250,
    "at": "2026-10-12T16:11:45.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "I turned my unused Kindle into a photo frame with GPT-6 Astra",
+   "url": "https://news.ycombinator.com/item?id=50064318",
+   "link": "https://nirajrajgor.com/blog/kindle-photo-frame-with-ai",
+   "up": 123,
+   "com": 79,
+   "at": "2026-10-12T23:07:25.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Blood cells from 80-year-old donor become stem cells with molecular age under 20",
    "url": "https://news.ycombinator.com/item?id=50064536",
    "link": "https://doi.org/10.1111/acel.70751",
-   "up": 95,
-   "com": 63,
+   "up": 102,
+   "com": 69,
    "at": "2026-10-12T23:34:22.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "GPT-6 Astra Helped Me Jailbreak My Kindle",
-   "url": "https://news.ycombinator.com/item?id=50064318",
-   "link": "https://nirajrajgor.com/blog/kindle-photo-frame-with-ai",
-   "up": 110,
-   "com": 65,
-   "at": "2026-10-12T23:07:25.000Z"
   }
  ]
 }
