@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-13T06:01:07.638Z"
+  "updated": "2026-10-13T06:30:54.247Z"
  },
  "pulse": {
   "trending": 76,
   "accelerating": 0,
   "newModels": 7,
-  "discussions": 47,
-  "stars": 2608
+  "discussions": 54,
+  "stars": 2886
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 6,720",
-    "~1,393 in 24h",
+    "★ 6,763",
+    "~1,396 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -41,8 +41,8 @@
    "grow": 6,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 3,681",
-    "+287 in 24h",
+    "★ 3,691",
+    "+292 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -55,8 +55,8 @@
    "src": "hf",
    "cat": "Vision",
    "score": 92,
-   "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 655",
+   "grow": 0,
+   "desc": "Vision on Hugging Face · open weights · ♥ 657",
    "meta": [
     "6.8K downloads",
     "Released 4 days ago"
@@ -103,11 +103,11 @@
    "src": "gh",
    "cat": "LLMs",
    "score": 87,
-   "grow": null,
+   "grow": 7,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 3,018",
-    "~471 in 24h",
+    "★ 3,044",
+    "+720 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -163,19 +163,19 @@
    "url": "https://huggingface.co/AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF"
   },
   {
-   "name": "GroundingPI: A Grounding Foundation Model towards Physical Intelligence with Visual Primitives",
+   "name": "Scaling Agentic Data for Long-Horizon Terminal Intelligence",
    "owner": "Paper",
    "src": "paper",
-   "url": "https://huggingface.co/papers/2609.39601",
+   "url": "https://huggingface.co/papers/2610.13166",
    "cat": "Research",
    "score": 85,
    "grow": null,
-   "desc": "Precise grounding matters.",
+   "desc": "Terminal agents are moving beyond local operations toward completing real-world professional tasks.",
    "meta": [
-    "▲ 39 upvotes",
+    "▲ 56 upvotes",
     "Hugging Face Papers"
    ],
-   "at": "2026-09-29T20:00:00.000Z",
+   "at": "2026-10-08T20:00:00.000Z",
    "breakout": null
   }
  ],
@@ -248,11 +248,28 @@
    "verdict": "Talk only, no public usage numbers"
   },
   {
+   "name": "solidcraft",
+   "url": "https://github.com/bherbruck/solidcraft",
+   "from": "GitHub",
+   "use": 478,
+   "useLabel": "+478 stars/day",
+   "usePct": 0.3333333333333333,
+   "talk": [
+    {
+     "src": "Hacker News",
+     "t": "Show HN: SolidCraft – Open-Source Parametric CAD in Rust (With MCP Support)",
+     "url": "https://news.ycombinator.com/item?id=50064840"
+    }
+   ],
+   "buzz": 1,
+   "verdict": "More talk than use"
+  },
+  {
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 1393,
-   "useLabel": "~1,393 stars/day",
+   "use": 1396,
+   "useLabel": "~1,396 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -366,37 +383,37 @@
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 6720,
-   "d24": 1393,
+   "stars": 6763,
+   "d24": 1396,
    "est": true,
-   "forks": 488,
+   "forks": 490,
    "contrib": 8,
    "score": 94
   },
   {
    "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 3018,
-   "d24": 471,
-   "est": true,
+   "stars": 3044,
+   "d24": 720,
+   "est": false,
    "forks": 381,
    "contrib": null,
    "score": 87
   },
   {
    "repo": "bherbruck/solidcraft",
-   "stars": 1183,
-   "d24": 457,
+   "stars": 1203,
+   "d24": 478,
    "est": false,
-   "forks": 117,
+   "forks": 118,
    "contrib": null,
    "score": 78
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 3681,
-   "d24": 287,
+   "stars": 3691,
+   "d24": 292,
    "est": false,
-   "forks": 6062,
+   "forks": 6071,
    "contrib": null,
    "score": 92
   }
@@ -408,10 +425,10 @@
    "lic": "Open weights",
    "at": "2026-10-09T04:50:01.000Z",
    "dl": 6787,
-   "grow": null,
+   "grow": 0,
    "score": 92,
    "cat": "Vision",
-   "likes": 655
+   "likes": 657
   },
   {
    "name": "embeddinggemma-2",
@@ -422,7 +439,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 1973
+   "likes": 1975
   },
   {
    "name": "humanizer",
@@ -433,7 +450,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1351
+   "likes": 1354
   },
   {
    "name": "Underdog-Saluki-27B-1.0",
@@ -456,7 +473,7 @@
    "grow": null,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 4122
+   "likes": 4124
   },
   {
    "name": "Qwen-Image-2.1-Turbo-Uncensored-GGUF",
@@ -895,29 +912,29 @@
  "discussions": [
   {
    "src": "Hacker News",
-   "t": "Codex CLI installs a persistent, self-updating background daemon by default",
-   "url": "https://news.ycombinator.com/item?id=50060694",
-   "link": "https://github.com/openai/codex/issues/48195",
-   "up": 520,
-   "com": 265,
-   "at": "2026-10-12T18:29:04.000Z"
-  },
-  {
-   "src": "Hacker News",
    "t": "Muse Wonder",
    "url": "https://news.ycombinator.com/item?id=50059115",
    "link": "https://research.meta.ai/blog/muse-wonder",
-   "up": 589,
-   "com": 323,
+   "up": 602,
+   "com": 326,
    "at": "2026-10-12T16:48:01.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Codex CLI installs a persistent, self-updating background daemon by default",
+   "url": "https://news.ycombinator.com/item?id=50060694",
+   "link": "https://github.com/openai/codex/issues/48195",
+   "up": 527,
+   "com": 270,
+   "at": "2026-10-12T18:29:04.000Z"
   },
   {
    "src": "Hacker News",
    "t": "AI is a tool and using it well takes skill",
    "url": "https://news.ycombinator.com/item?id=50063427",
    "link": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
-   "up": 319,
-   "com": 265,
+   "up": 333,
+   "com": 275,
    "at": "2026-10-12T21:40:18.000Z"
   },
   {
@@ -925,8 +942,8 @@
    "t": "GLM-Legal",
    "url": "https://news.ycombinator.com/item?id=50058507",
    "link": "https://z.ai/blog/glm-legal",
-   "up": 506,
-   "com": 293,
+   "up": 512,
+   "com": 298,
    "at": "2026-10-12T16:11:45.000Z"
   },
   {
@@ -934,8 +951,8 @@
    "t": "Hackers activate automatic defrosting in supermarket fridges across Europe",
    "url": "https://news.ycombinator.com/item?id=50055304",
    "link": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
-   "up": 568,
-   "com": 738,
+   "up": 585,
+   "com": 751,
    "at": "2026-10-12T12:16:42.000Z"
   },
   {
@@ -943,8 +960,8 @@
    "t": "AI Models Can Provably Hide Arbitrary Capabilities",
    "url": "https://news.ycombinator.com/item?id=50065692",
    "link": "https://arxiv.org/abs/2610.13928",
-   "up": 103,
-   "com": 50,
+   "up": 117,
+   "com": 61,
    "at": "2026-10-13T02:07:08.000Z"
   }
  ]
