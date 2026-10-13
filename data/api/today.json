@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-13T12:01:06.340Z"
+  "updated": "2026-10-13T12:30:57.316Z"
  },
  "pulse": {
-  "trending": 77,
+  "trending": 78,
   "accelerating": 2,
   "newModels": 6,
-  "discussions": 57,
-  "stars": 4813
+  "discussions": 58,
+  "stars": 4826
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 94,
-   "grow": 13,
+   "grow": 14,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 7,352",
-    "+2,343 in 24h",
+    "★ 7,405",
+    "+2,355 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -41,7 +41,7 @@
    "grow": null,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 1,182",
+    "★ 1,197",
     "~695 in 24h",
     "Created 2 days ago"
    ],
@@ -58,8 +58,8 @@
    "grow": null,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 3,802",
-    "~722 in 24h",
+    "★ 3,807",
+    "~720 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -115,6 +115,22 @@
    "url": "https://huggingface.co/jialinyyzz/humanizer"
   },
   {
+   "name": "Underdog-Saluki-27B-1.0",
+   "owner": "ConwayResearch",
+   "src": "hf",
+   "cat": "Agents",
+   "score": 87,
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 396",
+   "meta": [
+    "270K downloads",
+    "Released 5 days ago"
+   ],
+   "at": "2026-10-08T01:47:26.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0"
+  },
+  {
    "name": "aurelio-finance",
    "owner": "LosaLosSantos",
    "src": "gh",
@@ -123,8 +139,8 @@
    "grow": 8,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 3,067",
-    "+436 in 24h",
+    "★ 3,070",
+    "+424 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -146,22 +162,6 @@
    "at": "2026-09-20T15:51:13.000Z",
    "breakout": null,
    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized"
-  },
-  {
-   "name": "Underdog-Saluki-27B-1.0",
-   "owner": "ConwayResearch",
-   "src": "hf",
-   "cat": "Agents",
-   "score": 86,
-   "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 393",
-   "meta": [
-    "270K downloads",
-    "Released 5 days ago"
-   ],
-   "at": "2026-10-08T01:47:26.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0"
   },
   {
    "name": "Qwen-Image-2.1-Turbo-Uncensored-GGUF",
@@ -265,8 +265,8 @@
    "name": "solidcraft",
    "url": "https://github.com/bherbruck/solidcraft",
    "from": "GitHub",
-   "use": 617,
-   "useLabel": "+617 stars/day",
+   "use": 632,
+   "useLabel": "+632 stars/day",
    "usePct": 0.25,
    "talk": [
     {
@@ -282,8 +282,19 @@
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 2343,
-   "useLabel": "+2,343 stars/day",
+   "use": 2355,
+   "useLabel": "+2,355 stars/day",
+   "usePct": 1,
+   "talk": [],
+   "buzz": 0,
+   "verdict": "Used a lot, hardly talked about"
+  },
+  {
+   "name": "Qwen-Image-2.1",
+   "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1",
+   "from": "Hugging Face",
+   "use": 9400716,
+   "useLabel": "9.4M downloads",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -295,18 +306,7 @@
    "from": "Hugging Face",
    "use": 4686252,
    "useLabel": "4.7M downloads",
-   "usePct": 1,
-   "talk": [],
-   "buzz": 0,
-   "verdict": "Used a lot, hardly talked about"
-  },
-  {
-   "name": "Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
-   "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
-   "from": "Hugging Face",
-   "use": 4675423,
-   "useLabel": "4.7M downloads",
-   "usePct": 0.967741935483871,
+   "usePct": 0.96875,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -397,8 +397,8 @@
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 7352,
-   "d24": 2343,
+   "stars": 7405,
+   "d24": 2355,
    "est": false,
    "forks": 524,
    "contrib": 8,
@@ -406,26 +406,26 @@
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 3802,
-   "d24": 722,
+   "stars": 3807,
+   "d24": 720,
    "est": true,
-   "forks": 6150,
+   "forks": 6154,
    "contrib": null,
    "score": 92
   },
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 1182,
+   "stars": 1197,
    "d24": 695,
    "est": true,
-   "forks": 140,
+   "forks": 144,
    "contrib": null,
    "score": 94
   },
   {
    "repo": "bherbruck/solidcraft",
-   "stars": 1414,
-   "d24": 617,
+   "stars": 1438,
+   "d24": 632,
    "est": false,
    "forks": 132,
    "contrib": null,
@@ -433,10 +433,10 @@
   },
   {
    "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 3067,
-   "d24": 436,
+   "stars": 3070,
+   "d24": 424,
    "est": false,
-   "forks": 397,
+   "forks": 401,
    "contrib": null,
    "score": 86
   }
@@ -462,7 +462,7 @@
    "grow": 8,
    "score": 90,
    "cat": "Vision",
-   "likes": 2026
+   "likes": 2029
   },
   {
    "name": "humanizer",
@@ -476,6 +476,18 @@
    "likes": 1393
   },
   {
+   "name": "Underdog-Saluki-27B-1.0",
+   "org": "ConwayResearch",
+   "size": "27B",
+   "lic": "Open source",
+   "at": "2026-10-08T01:47:26.000Z",
+   "dl": 269829,
+   "grow": null,
+   "score": 87,
+   "cat": "Agents",
+   "likes": 396
+  },
+  {
    "name": "Qwen-Image-2.1-Uncensored-Quantized",
    "org": "abenzerps",
    "lic": "Open weights",
@@ -485,18 +497,6 @@
    "score": 86,
    "cat": "Infrastructure",
    "likes": 4165
-  },
-  {
-   "name": "Underdog-Saluki-27B-1.0",
-   "org": "ConwayResearch",
-   "size": "27B",
-   "lic": "Open source",
-   "at": "2026-10-08T01:47:26.000Z",
-   "dl": 269829,
-   "grow": null,
-   "score": 86,
-   "cat": "Agents",
-   "likes": 393
   },
   {
    "name": "Qwen-Image-2.1-Turbo-Uncensored-GGUF",
@@ -820,6 +820,20 @@
  },
  "headlines": [
   {
+   "t": "Threat of AI share crash puts world financial stability at risk, says IMF",
+   "url": "https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks",
+   "at": "2026-10-13T12:30:01Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "All Systems Go: Global PC App Ecosystem Ready for NVIDIA RTX Spark",
+   "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
+   "at": "2026-10-13T12:00:49.000Z",
+   "src": "NVIDIA",
+   "kind": "Lab blog"
+  },
+  {
    "t": "Sources: Anthropic and OpenAI have pushed for substantial control over what external AI evaluators can publish, out of concern that trade secrets could leak",
    "url": "https://www.techmeme.com/261013/p17#a261013p17",
    "at": "2026-10-13T11:45:00.000Z",
@@ -904,13 +918,6 @@
    "kind": "News"
   },
   {
-   "t": "Threat of AI share crash puts world financial stability at risk, says IMF",
-   "url": "https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks",
-   "at": "2026-10-13T03:15:12Z",
-   "src": "The Guardian",
-   "kind": "News"
-  },
-  {
    "t": "ಭಾರತಕ್ಕೆ ದೊಡ್ಡ ಲಾಭ! | AI Debt Crisis | Bubble Burst | RBI Warn | OpenAI | Masth Magaa | Amar Prasad",
    "url": "https://www.youtube.com/watch?v=LQ-x6bgU3rg",
    "at": "2026-10-13T02:30:38Z",
@@ -923,13 +930,6 @@
    "at": "2026-10-13T02:00:11Z",
    "src": "The Guardian",
    "kind": "News"
-  },
-  {
-   "t": "David Pocock concerned senior Albanese adviser ‘vetted’ bipartisan AI letter that was sent to PM",
-   "url": "https://www.theguardian.com/technology/2026/oct/13/senior-albanese-adviser-vetted-bipartisan-ai-letter-politics-ntwnfb",
-   "at": "2026-10-13T00:03:19Z",
-   "src": "The Guardian",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -938,8 +938,8 @@
    "t": "11 year old unsoundness bugs found in Rust borrow checker",
    "url": "https://news.ycombinator.com/item?id=50069499",
    "link": "https://github.com/rust-lang/rust/issues/164250",
-   "up": 157,
-   "com": 53,
+   "up": 204,
+   "com": 84,
    "at": "2026-10-13T10:27:00.000Z"
   },
   {
@@ -947,16 +947,25 @@
    "t": "An hour of audio transcribed in about 13s on MacBook Air",
    "url": "https://news.ycombinator.com/item?id=50069971",
    "link": "https://eg2.haku.sh/",
-   "up": 37,
-   "com": 9,
+   "up": 76,
+   "com": 19,
    "at": "2026-10-13T11:27:14.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Character.ai Files for Bankruptcy",
+   "url": "https://news.ycombinator.com/item?id=50069942",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney",
+   "up": 38,
+   "com": 18,
+   "at": "2026-10-13T11:24:08.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Muse Wonder",
    "url": "https://news.ycombinator.com/item?id=50059115",
    "link": "https://research.meta.ai/blog/muse-wonder",
-   "up": 642,
+   "up": 643,
    "com": 352,
    "at": "2026-10-12T16:48:01.000Z"
   },
@@ -965,8 +974,8 @@
    "t": "Codex CLI installs a persistent, self-updating background daemon by default",
    "url": "https://news.ycombinator.com/item?id=50060694",
    "link": "https://github.com/openai/codex/issues/48195",
-   "up": 574,
-   "com": 276,
+   "up": 577,
+   "com": 277,
    "at": "2026-10-12T18:29:04.000Z"
   },
   {
@@ -974,18 +983,9 @@
    "t": "AI is a tool and using it well takes skill",
    "url": "https://news.ycombinator.com/item?id=50063427",
    "link": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
-   "up": 453,
-   "com": 360,
+   "up": 463,
+   "com": 363,
    "at": "2026-10-12T21:40:18.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Hackers activate automatic defrosting in supermarket fridges across Europe",
-   "url": "https://news.ycombinator.com/item?id=50055304",
-   "link": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
-   "up": 747,
-   "com": 859,
-   "at": "2026-10-12T12:16:42.000Z"
   }
  ]
 }
