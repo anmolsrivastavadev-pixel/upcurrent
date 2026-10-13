@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-13T04:30:54.641Z"
+  "updated": "2026-10-13T05:01:06.126Z"
  },
  "pulse": {
   "trending": 76,
   "accelerating": 0,
   "newModels": 7,
-  "discussions": 53,
-  "stars": 2548
+  "discussions": 52,
+  "stars": 2559
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 6,593",
-    "~1,384 in 24h",
+    "★ 6,631",
+    "~1,386 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -37,11 +37,11 @@
    "owner": "mhtsec",
    "src": "gh",
    "cat": "Agents",
-   "score": 93,
-   "grow": 5,
+   "score": 92,
+   "grow": 6,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 3,654",
+    "★ 3,660",
     "+274 in 24h",
     "Created 5 days ago"
    ],
@@ -56,7 +56,7 @@
    "cat": "Vision",
    "score": 92,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 646",
+   "desc": "Vision on Hugging Face · open weights · ♥ 650",
    "meta": [
     "6.8K downloads",
     "Released 4 days ago"
@@ -106,8 +106,8 @@
    "grow": null,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 2,971",
-    "~468 in 24h",
+    "★ 2,984",
+    "~469 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -147,6 +147,22 @@
    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized"
   },
   {
+   "name": "Qwen-Image-2.1-Turbo-Uncensored-GGUF",
+   "owner": "AtomicChat",
+   "src": "hf",
+   "cat": "Coding",
+   "score": 85,
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 378",
+   "meta": [
+    "162K downloads",
+    "Released 4 days ago"
+   ],
+   "at": "2026-10-09T16:30:48.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF"
+  },
+  {
    "name": "Multi-Stream Attention Residuals",
    "owner": "Paper",
    "src": "paper",
@@ -156,27 +172,10 @@
    "grow": null,
    "desc": "Attention Residuals (AttnRes) enables content-dependent retrieval over network depth, which can be viewed as single-stream softmax attention along the depth axis.",
    "meta": [
-    "▲ 29 upvotes",
+    "▲ 30 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-08T20:00:00.000Z",
-   "breakout": null
-  },
-  {
-   "name": "kōdlo",
-   "owner": "Product Hunt",
-   "src": "ph",
-   "url": "https://www.producthunt.com/products/kodlo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29",
-   "cat": "Tools",
-   "score": 85,
-   "grow": null,
-   "desc": "End-to-end sales workspace with unified context",
-   "meta": [
-    "▲ 277 votes",
-    "57 comments",
-    "Launched 2 days ago"
-   ],
-   "at": "2026-10-11T07:01:00Z",
    "breakout": null
   }
  ],
@@ -252,8 +251,8 @@
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 1384,
-   "useLabel": "~1,384 stars/day",
+   "use": 1386,
+   "useLabel": "~1,386 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -367,17 +366,17 @@
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 6593,
-   "d24": 1384,
+   "stars": 6631,
+   "d24": 1386,
    "est": true,
-   "forks": 479,
+   "forks": 480,
    "contrib": 8,
    "score": 94
   },
   {
    "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 2971,
-   "d24": 468,
+   "stars": 2984,
+   "d24": 469,
    "est": true,
    "forks": 381,
    "contrib": null,
@@ -385,21 +384,21 @@
   },
   {
    "repo": "bherbruck/solidcraft",
-   "stars": 1140,
-   "d24": 422,
+   "stars": 1152,
+   "d24": 430,
    "est": false,
-   "forks": 113,
+   "forks": 115,
    "contrib": null,
    "score": 78
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 3654,
+   "stars": 3660,
    "d24": 274,
    "est": false,
-   "forks": 6043,
+   "forks": 6044,
    "contrib": null,
-   "score": 93
+   "score": 92
   }
  ],
  "models": [
@@ -412,7 +411,7 @@
    "grow": null,
    "score": 92,
    "cat": "Vision",
-   "likes": 646
+   "likes": 650
   },
   {
    "name": "embeddinggemma-2",
@@ -423,7 +422,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 1959
+   "likes": 1961
   },
   {
    "name": "humanizer",
@@ -434,7 +433,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1343
+   "likes": 1345
   },
   {
    "name": "Underdog-Saluki-27B-1.0",
@@ -457,18 +456,18 @@
    "grow": null,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 4111
+   "likes": 4116
   },
   {
-   "name": "clef",
-   "org": "Cloudflare",
+   "name": "Qwen-Image-2.1-Turbo-Uncensored-GGUF",
+   "org": "AtomicChat",
    "lic": "Open source",
-   "at": "2026-09-30T21:15:35.000Z",
-   "dl": 15064,
-   "grow": 0,
-   "score": 84,
+   "at": "2026-10-09T16:30:48.000Z",
+   "dl": 161715,
+   "grow": null,
+   "score": 85,
    "cat": "Coding",
-   "likes": 2101
+   "likes": 378
   }
  ],
  "free": [
@@ -765,6 +764,20 @@
  },
  "headlines": [
   {
+   "t": "Character.AI files for Chapter 11 bankruptcy in the US, agrees to sell some assets to Disney for $20M, and plans to keep operating as it completes the sale",
+   "url": "https://www.techmeme.com/261013/p3#a261013p3",
+   "at": "2026-10-13T04:55:02.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "IDC: Nvidia's AI chip shipments in China fell 44% YoY to 678K in H1 2026, as its market share slid to 34% amid US export curbs and rising domestic competition",
+   "url": "https://www.techmeme.com/261013/p2#a261013p2",
+   "at": "2026-10-13T04:45:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Anthropic says new measures like preserved thinking in Fable 5.1 and Opus 5.5 have reduced data harvesting through distillation attacks by about 90% to 99%",
    "url": "https://www.techmeme.com/261012/p46#a261012p46",
    "at": "2026-10-13T03:45:01.000Z",
@@ -856,24 +869,10 @@
    "kind": "News"
   },
   {
-   "t": "Meta says Wonder includes Active Memory and Active Focus, two features designed to help AI systems perform more useful work over extended periods",
-   "url": "https://www.techmeme.com/261012/p34#a261012p34",
-   "at": "2026-10-12T17:25:10.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Meta says it plans to power its Muse AI agent with Wonder, starting with subscribers, and will develop specialized models it \"can bring to everyone using Muse\"",
-   "url": "https://www.techmeme.com/261012/p33#a261012p33",
-   "at": "2026-10-12T17:20:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Meta launches advanced Muse Wonder AI models",
-   "url": "https://www.socialmediatoday.com/news/meta-launches-advanced-muse-wonder-ai-models/832795/",
-   "at": "2026-10-12T16:21:58Z",
-   "src": "Social Media Today",
+   "t": "Nicolas Cage Says He Refused To Sign Amazon's AI Waiver For 'Spider-Noir'",
+   "url": "https://www.huffpost.com/entry/nicolas-cage-work-amazon-ai-spider-noir_n_6acce899e4b0ec20eb6b47c4",
+   "at": "2026-10-12T16:57:19Z",
+   "src": "HuffPost",
    "kind": "News"
   }
  ],
@@ -883,8 +882,8 @@
    "t": "Codex CLI installs a persistent, self-updating background daemon by default",
    "url": "https://news.ycombinator.com/item?id=50060694",
    "link": "https://github.com/openai/codex/issues/48195",
-   "up": 497,
-   "com": 255,
+   "up": 502,
+   "com": 256,
    "at": "2026-10-12T18:29:04.000Z"
   },
   {
@@ -892,8 +891,8 @@
    "t": "Muse Wonder",
    "url": "https://news.ycombinator.com/item?id=50059115",
    "link": "https://research.meta.ai/blog/muse-wonder",
-   "up": 568,
-   "com": 311,
+   "up": 574,
+   "com": 313,
    "at": "2026-10-12T16:48:01.000Z"
   },
   {
@@ -901,8 +900,8 @@
    "t": "AI is a tool and using it well takes skill",
    "url": "https://news.ycombinator.com/item?id=50063427",
    "link": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
-   "up": 281,
-   "com": 235,
+   "up": 290,
+   "com": 239,
    "at": "2026-10-12T21:40:18.000Z"
   },
   {
@@ -910,8 +909,8 @@
    "t": "GLM-Legal",
    "url": "https://news.ycombinator.com/item?id=50058507",
    "link": "https://z.ai/blog/glm-legal",
-   "up": 479,
-   "com": 275,
+   "up": 488,
+   "com": 286,
    "at": "2026-10-12T16:11:45.000Z"
   },
   {
@@ -919,18 +918,18 @@
    "t": "Hackers activate automatic defrosting in supermarket fridges across Europe",
    "url": "https://news.ycombinator.com/item?id=50055304",
    "link": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
-   "up": 511,
-   "com": 704,
+   "up": 524,
+   "com": 712,
    "at": "2026-10-12T12:16:42.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "AI coding agents generate more code, but not more software",
-   "url": "https://news.ycombinator.com/item?id=50059523",
-   "link": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
-   "up": 320,
-   "com": 276,
-   "at": "2026-10-12T17:14:01.000Z"
+   "t": "A look at OpenAI’s math that’s claimed computes faster Fourier transforms",
+   "url": "https://news.ycombinator.com/item?id=50065932",
+   "link": "https://www.argmin.net/p/faster-fourier-transforms",
+   "up": 62,
+   "com": 37,
+   "at": "2026-10-13T02:46:43.000Z"
   }
  ]
 }
