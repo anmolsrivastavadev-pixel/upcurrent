@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-13T20:30:55.031Z"
+  "updated": "2026-10-13T21:01:05.994Z"
  },
  "pulse": {
   "trending": 78,
   "accelerating": 2,
   "newModels": 7,
-  "discussions": 60,
-  "stars": 3479
+  "discussions": 52,
+  "stars": 3898
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 38,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 1,466",
-    "+839 in 24h",
+    "★ 1,472",
+    "+816 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -41,8 +41,8 @@
    "grow": 23,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 8,019",
-    "+2,114 in 24h",
+    "★ 8,039",
+    "+2,080 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -75,7 +75,7 @@
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
     "★ 3,866",
-    "+244 in 24h",
+    "+234 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -121,7 +121,7 @@
    "cat": "Vision",
    "score": 87,
    "grow": 280,
-   "desc": "Vision on Hugging Face · open source · ♥ 451",
+   "desc": "Vision on Hugging Face · open source · ♥ 453",
    "meta": [
     "630 downloads",
     "Released 7 days ago"
@@ -153,7 +153,7 @@
    "cat": "Agents",
    "score": 86,
    "grow": 11,
-   "desc": "Model on Hugging Face · open source · ♥ 415",
+   "desc": "Model on Hugging Face · open source · ♥ 418",
    "meta": [
     "270K downloads",
     "Released 6 days ago"
@@ -183,7 +183,7 @@
   {
    "key": "gemini 4",
    "label": "Gemini 4",
-   "n": 5,
+   "n": 4,
    "sources": [
     {
      "src": "Hacker News",
@@ -204,11 +204,6 @@
      "src": "Techmeme",
      "t": "Google rolls out Gemini 4 Argon globally via the Gemini API and to Google AI Pro subscribers in the Gemini app and AI Mode, and in Antigravity for Ultra users",
      "url": "https://www.techmeme.com/261013/p30#a261013p30"
-    },
-    {
-     "src": "YouTube",
-     "t": "Claude Opus 6 LEAKED, Gemini 4 Carbon Leaks, HUGE OpenAI Update, Claude 24/7 Agent, & More! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=4iKUaUmeoWk"
     }
    ],
    "since": "2026-10-01T18:14:41.538Z"
@@ -235,6 +230,29 @@
     }
    ],
    "since": "2026-10-03T21:01:33.129Z"
+  },
+  {
+   "key": "muse wonder",
+   "label": "Muse Wonder",
+   "n": 3,
+   "sources": [
+    {
+     "src": "Product Hunt",
+     "t": "Muse Wonder",
+     "url": "https://www.producthunt.com/products/meta-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
+    },
+    {
+     "src": "Forkast.news",
+     "t": "Meta Ships Muse Wonder, Its First Frontier Model — and Leaves the Research Blog Empty",
+     "url": "https://forkast.news/meta-ships-muse-wonder-its-first-frontier-model-and-leaves-the-research-blog-empty/"
+    },
+    {
+     "src": "Decrypt",
+     "t": "Meta's New Muse Wonder Finally Puts Zuckerberg in the Frontier AI Race",
+     "url": "https://decrypt.co/380768/meta-muse-wonder-zuckerberg-frontier-ai-race"
+    }
+   ],
+   "since": "2026-10-13T07:01:06.070Z"
   }
  ],
  "hype": [
@@ -265,14 +283,9 @@
      "src": "Techmeme",
      "t": "Google rolls out Gemini 4 Argon globally via the Gemini API and to Google AI Pro subscribers in the Gemini app and AI Mode, and in Antigravity for Ultra users",
      "url": "https://www.techmeme.com/261013/p30#a261013p30"
-    },
-    {
-     "src": "YouTube",
-     "t": "Claude Opus 6 LEAKED, Gemini 4 Carbon Leaks, HUGE OpenAI Update, Claude 24/7 Agent, & More! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=4iKUaUmeoWk"
     }
    ],
-   "buzz": 5,
+   "buzz": 4,
    "verdict": "Talk only, no public usage numbers"
   },
   {
@@ -298,28 +311,11 @@
    "verdict": "Talk only, no public usage numbers"
   },
   {
-   "name": "solidcraft",
-   "url": "https://github.com/bherbruck/solidcraft",
-   "from": "GitHub",
-   "use": 282,
-   "useLabel": "~282 stars/day",
-   "usePct": 0.3333333333333333,
-   "talk": [
-    {
-     "src": "Hacker News",
-     "t": "Show HN: SolidCraft – Open-Source Parametric CAD in Rust (With MCP Support)",
-     "url": "https://news.ycombinator.com/item?id=50064840"
-    }
-   ],
-   "buzz": 1,
-   "verdict": "More talk than use"
-  },
-  {
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 2114,
-   "useLabel": "+2,114 stars/day",
+   "use": 2080,
+   "useLabel": "+2,080 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -433,17 +429,17 @@
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 8019,
-   "d24": 2114,
+   "stars": 8039,
+   "d24": 2080,
    "est": false,
-   "forks": 574,
+   "forks": 575,
    "contrib": 8,
    "score": 94
   },
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 1466,
-   "d24": 839,
+   "stars": 1472,
+   "d24": 816,
    "est": false,
    "forks": 185,
    "contrib": null,
@@ -451,17 +447,17 @@
   },
   {
    "repo": "bherbruck/solidcraft",
-   "stars": 1711,
-   "d24": 282,
-   "est": true,
-   "forks": 157,
+   "stars": 1730,
+   "d24": 768,
+   "est": false,
+   "forks": 161,
    "contrib": null,
    "score": 79
   },
   {
    "repo": "mhtsec/ARTEX",
    "stars": 3866,
-   "d24": 244,
+   "d24": 234,
    "est": false,
    "forks": 6196,
    "contrib": null,
@@ -500,7 +496,7 @@
    "grow": null,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1481
+   "likes": 1489
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -512,7 +508,7 @@
    "grow": 280,
    "score": 87,
    "cat": "Vision",
-   "likes": 451
+   "likes": 453
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-Quantized",
@@ -535,7 +531,7 @@
    "grow": 11,
    "score": 86,
    "cat": "Agents",
-   "likes": 415
+   "likes": 418
   }
  ],
  "free": [
@@ -840,7 +836,28 @@
  },
  "headlines": [
   {
-   "t": "OpenAI says the FBI arrested one of its staffers after the company found a hidden recording device in its offices and used its models to identify who placed it",
+   "t": "AI in your oven? Anthropic warns models ‘months away’ from self-replication on smart devices",
+   "url": "https://www.theguardian.com/technology/2026/oct/13/anthropic-ai-replicators-warning",
+   "at": "2026-10-13T20:55:04Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "Xbox CEO Asha Sharma announces Xbox Labs, a small team to test emerging ideas, citing recent game ports and mashups, many of them built with AI tools",
+   "url": "https://www.techmeme.com/261013/p42#a261013p42",
+   "at": "2026-10-13T20:40:59.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Federal prosecutors say a Saudi national was arrested over bugging an OpenAI executive conference room; OpenAI found the audio recorder around September 30",
+   "url": "https://www.techmeme.com/261013/p41#a261013p41",
+   "at": "2026-10-13T20:34:10.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "OpenAI says the FBI arrested one of its staffers after the company found a hidden recording device in its offices and used its models to understand the device",
    "url": "https://www.techmeme.com/261013/p40#a261013p40",
    "at": "2026-10-13T20:02:14.000Z",
    "src": "Techmeme",
@@ -929,27 +946,6 @@
    "at": "2026-10-13T16:01:52.000Z",
    "src": "Google DeepMind",
    "kind": "Lab blog"
-  },
-  {
-   "t": "Anthropic co-founder Jack Clark says \"I now think it's more likely we'll see full RSI become possible in 2027\", earlier than his previous prediction of 2028",
-   "url": "https://www.techmeme.com/261013/p29#a261013p29",
-   "at": "2026-10-13T15:55:44.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Chip stocks slide after Broadcom boss likens AI investing to ‘casino’",
-   "url": "https://www.theguardian.com/business/2026/oct/13/chip-stocks-broadcom-ai-samsung-shares-cxmt",
-   "at": "2026-10-13T15:51:54Z",
-   "src": "The Guardian",
-   "kind": "News"
-  },
-  {
-   "t": "Scuba, which is building a \"context engine\" designed to serve as a shared memory hub for human workers and AI agents, raised $34M across pre-seed and seed",
-   "url": "https://www.techmeme.com/261013/p28#a261013p28",
-   "at": "2026-10-13T15:10:55.000Z",
-   "src": "Techmeme",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -958,26 +954,26 @@
    "t": "Gemini 4 Argon",
    "url": "https://news.ycombinator.com/item?id=50073879",
    "link": "https://deepmind.google/models/gemini/",
-   "up": 697,
-   "com": 573,
+   "up": 741,
+   "com": 593,
    "at": "2026-10-13T16:03:16.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "11 year old unsoundness bugs found in Rust borrow checker",
-   "url": "https://news.ycombinator.com/item?id=50069499",
-   "link": "https://github.com/rust-lang/rust/issues/164250",
-   "up": 612,
-   "com": 344,
-   "at": "2026-10-13T10:27:00.000Z"
+   "t": "OpenAI finds recording device in one of their offices",
+   "url": "https://news.ycombinator.com/item?id=50077703",
+   "link": "https://twitter.com/OpenAINewsroom/status/2110095403198849132",
+   "up": 63,
+   "com": 35,
+   "at": "2026-10-13T19:55:31.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Gemini 4 Argon for Robotics",
    "url": "https://news.ycombinator.com/item?id=50074869",
    "link": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
-   "up": 136,
-   "com": 31,
+   "up": 143,
+   "com": 37,
    "at": "2026-10-13T16:55:47.000Z"
   },
   {
@@ -985,27 +981,26 @@
    "t": "I posted to HN, and then my website was flooded with AI bot traffic",
    "url": "https://news.ycombinator.com/item?id=50073221",
    "link": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
-   "up": 177,
-   "com": 100,
+   "up": 186,
+   "com": 112,
    "at": "2026-10-13T15:25:50.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "OpenAI finds recording device in one of their offices",
-   "url": "https://news.ycombinator.com/item?id=50077703",
-   "link": "https://twitter.com/OpenAINewsroom/status/2110095403198849132",
-   "up": 28,
-   "com": 7,
-   "at": "2026-10-13T19:55:31.000Z"
   },
   {
    "src": "Hacker News",
    "t": "AI is a tool and using it well takes skill",
    "url": "https://news.ycombinator.com/item?id=50063427",
    "link": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
-   "up": 625,
-   "com": 490,
+   "up": 627,
+   "com": 497,
    "at": "2026-10-12T21:40:18.000Z"
+  },
+  {
+   "src": "Mastodon",
+   "t": "spellingmistakescostlives.com/ product-page/ai-slop-is-not-art-chatbots-are-not-your-friends-iron-on-patch/ # tech # technology # BigTech # IT # AI # Artific…",
+   "url": "https://graphics.social/@metin/117434400485802774",
+   "up": 128,
+   "com": 2,
+   "at": "2026-10-13T15:52:25.000Z"
   }
  ]
 }
