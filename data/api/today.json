@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-13T03:01:07.685Z"
+  "updated": "2026-10-13T03:30:57.724Z"
  },
  "pulse": {
   "trending": 76,
   "accelerating": 0,
   "newModels": 6,
-  "discussions": 51,
-  "stars": 4022
+  "discussions": 52,
+  "stars": 2546
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 94,
-   "grow": 56,
+   "grow": null,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 6,471",
-    "+2,860 in 24h",
+    "★ 6,522",
+    "~1,382 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -41,8 +41,8 @@
    "grow": 5,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 3,629",
-    "+261 in 24h",
+    "★ 3,637",
+    "+265 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -56,7 +56,7 @@
    "cat": "Vision",
    "score": 92,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 642",
+   "desc": "Vision on Hugging Face · open weights · ♥ 643",
    "meta": [
     "6.8K downloads",
     "Released 4 days ago"
@@ -106,8 +106,8 @@
    "grow": null,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 2,928",
-    "~466 in 24h",
+    "★ 2,942",
+    "~467 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -121,7 +121,7 @@
    "cat": "Agents",
    "score": 87,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 375",
+   "desc": "Model on Hugging Face · open source · ♥ 378",
    "meta": [
     "242K downloads",
     "Released 5 days ago"
@@ -136,7 +136,7 @@
    "src": "hf",
    "cat": "Infrastructure",
    "score": 86,
-   "grow": 0,
+   "grow": null,
    "desc": "Model on Hugging Face · open weights · ♥ 4.1K",
    "meta": [
     "2.2M downloads",
@@ -147,19 +147,19 @@
    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized"
   },
   {
-   "name": "Humanity's Sixth Sense: Benchmarking Intuitive Visual Reasoning in Multimodal Models",
+   "name": "Scaling Agentic Data for Long-Horizon Terminal Intelligence",
    "owner": "Paper",
    "src": "paper",
-   "url": "https://huggingface.co/papers/2610.08966",
+   "url": "https://huggingface.co/papers/2610.13166",
    "cat": "Research",
    "score": 85,
    "grow": null,
-   "desc": "Humans perceive far more in a scene than what is explicitly depicted: a single glance captures past causes and future trajectories; a quick peek determines if a vehicle can fit between two parked cars; a few seconds of video reveals who holds authority in a room; and a fleeting clip highlights subtle abstract patterns like unwritten rules or hidden labels.",
+   "desc": "Terminal agents are moving beyond local operations toward completing real-world professional tasks.",
    "meta": [
-    "▲ 14 upvotes",
+    "▲ 21 upvotes",
     "Hugging Face Papers"
    ],
-   "at": "2026-10-07T20:00:00.000Z",
+   "at": "2026-10-08T20:00:00.000Z",
    "breakout": null
   },
   {
@@ -242,8 +242,8 @@
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 2860,
-   "useLabel": "+2,860 stars/day",
+   "use": 1382,
+   "useLabel": "~1,382 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -357,26 +357,26 @@
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 6471,
-   "d24": 2860,
-   "est": false,
-   "forks": 460,
+   "stars": 6522,
+   "d24": 1382,
+   "est": true,
+   "forks": 466,
    "contrib": 8,
    "score": 94
   },
   {
    "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 2928,
-   "d24": 466,
+   "stars": 2942,
+   "d24": 467,
    "est": true,
-   "forks": 380,
+   "forks": 381,
    "contrib": null,
    "score": 87
   },
   {
    "repo": "bherbruck/solidcraft",
-   "stars": 1118,
-   "d24": 435,
+   "stars": 1126,
+   "d24": 432,
    "est": false,
    "forks": 113,
    "contrib": null,
@@ -384,10 +384,10 @@
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 3629,
-   "d24": 261,
+   "stars": 3637,
+   "d24": 265,
    "est": false,
-   "forks": 6019,
+   "forks": 6029,
    "contrib": null,
    "score": 93
   }
@@ -402,7 +402,7 @@
    "grow": null,
    "score": 92,
    "cat": "Vision",
-   "likes": 642
+   "likes": 643
   },
   {
    "name": "embeddinggemma-2",
@@ -413,7 +413,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 1951
+   "likes": 1956
   },
   {
    "name": "humanizer",
@@ -424,7 +424,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1334
+   "likes": 1339
   },
   {
    "name": "Underdog-Saluki-27B-1.0",
@@ -436,7 +436,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Agents",
-   "likes": 375
+   "likes": 378
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-Quantized",
@@ -444,10 +444,10 @@
    "lic": "Open weights",
    "at": "2026-09-20T15:51:13.000Z",
    "dl": 2188658,
-   "grow": 0,
+   "grow": null,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 4103
+   "likes": 4108
   },
   {
    "name": "clef",
@@ -458,7 +458,7 @@
    "grow": 0,
    "score": 84,
    "cat": "Coding",
-   "likes": 2097
+   "likes": 2098
   }
  ],
  "free": [
@@ -755,6 +755,20 @@
  },
  "headlines": [
   {
+   "t": "Threat of AI share crash puts world financial stability at risk, says IMF",
+   "url": "https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks",
+   "at": "2026-10-13T03:15:12Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "Sources: NTT Data is in advanced talks to build a data center for Anthropic in Osaka of up to 500 MW, among Japan's largest, potentially costing $6.3B",
+   "url": "https://www.techmeme.com/261012/p45#a261012p45",
+   "at": "2026-10-13T03:15:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Q&A with Mark Zuckerberg and Alexandr Wang on the Muse app, Muse Wonder, the risks of committing $100B+ to AI, rebooting Meta's AI team, agentic commerce, more",
    "url": "https://www.techmeme.com/261012/p44#a261012p44",
    "at": "2026-10-13T02:50:01.000Z",
@@ -851,20 +865,6 @@
    "at": "2026-10-12T17:00:13.000Z",
    "src": "Techmeme",
    "kind": "News"
-  },
-  {
-   "t": "No Subscription Costs: Adobe Creative Cloud Free Clones Created With AI",
-   "url": "https://www.ubergizmo.com/2026/10/adobe-creative-suite-free-clones/",
-   "at": "2026-10-12T15:00:32Z",
-   "src": "Ubergizmo",
-   "kind": "News"
-  },
-  {
-   "t": "OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide",
-   "url": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
-   "at": "2026-10-12T15:00:25.000Z",
-   "src": "NVIDIA",
-   "kind": "Lab blog"
   }
  ],
  "discussions": [
@@ -873,8 +873,8 @@
    "t": "Codex CLI installs a persistent, self-updating background daemon by default",
    "url": "https://news.ycombinator.com/item?id=50060694",
    "link": "https://github.com/openai/codex/issues/48195",
-   "up": 484,
-   "com": 245,
+   "up": 488,
+   "com": 251,
    "at": "2026-10-12T18:29:04.000Z"
   },
   {
@@ -882,8 +882,8 @@
    "t": "Muse Wonder",
    "url": "https://news.ycombinator.com/item?id=50059115",
    "link": "https://research.meta.ai/blog/muse-wonder",
-   "up": 544,
-   "com": 302,
+   "up": 554,
+   "com": 305,
    "at": "2026-10-12T16:48:01.000Z"
   },
   {
@@ -891,8 +891,8 @@
    "t": "AI is a tool and using it well takes skill",
    "url": "https://news.ycombinator.com/item?id=50063427",
    "link": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
-   "up": 251,
-   "com": 218,
+   "up": 259,
+   "com": 224,
    "at": "2026-10-12T21:40:18.000Z"
   },
   {
@@ -900,27 +900,27 @@
    "t": "GLM-Legal",
    "url": "https://news.ycombinator.com/item?id=50058507",
    "link": "https://z.ai/blog/glm-legal",
-   "up": 460,
-   "com": 259,
+   "up": 470,
+   "com": 262,
    "at": "2026-10-12T16:11:45.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "I turned my unused Kindle into a photo frame with GPT-6 Astra",
-   "url": "https://news.ycombinator.com/item?id=50064318",
-   "link": "https://nirajrajgor.com/blog/kindle-photo-frame-with-ai",
-   "up": 129,
-   "com": 83,
-   "at": "2026-10-12T23:07:25.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Hackers activate automatic defrosting in supermarket fridges across Europe",
    "url": "https://news.ycombinator.com/item?id=50055304",
    "link": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
-   "up": 476,
-   "com": 680,
+   "up": 489,
+   "com": 690,
    "at": "2026-10-12T12:16:42.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "AI coding agents generate more code, but not more software",
+   "url": "https://news.ycombinator.com/item?id=50059523",
+   "link": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+   "up": 318,
+   "com": 275,
+   "at": "2026-10-12T17:14:01.000Z"
   }
  ]
 }
