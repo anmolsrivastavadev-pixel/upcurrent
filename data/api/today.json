@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-13T11:30:57.963Z"
+  "updated": "2026-10-13T12:01:06.340Z"
  },
  "pulse": {
-  "trending": 78,
+  "trending": 77,
   "accelerating": 2,
   "newModels": 6,
   "discussions": 57,
-  "stars": 4809
+  "stars": 4813
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 94,
-   "grow": 12,
+   "grow": 13,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 7,295",
-    "+2,319 in 24h",
+    "★ 7,352",
+    "+2,343 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -41,8 +41,8 @@
    "grow": null,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 1,173",
-    "~698 in 24h",
+    "★ 1,182",
+    "~695 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -58,8 +58,8 @@
    "grow": null,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 3,796",
-    "~723 in 24h",
+    "★ 3,802",
+    "~722 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -73,7 +73,7 @@
    "cat": "Vision",
    "score": 92,
    "grow": 42,
-   "desc": "Vision on Hugging Face · open weights · ♥ 675",
+   "desc": "Vision on Hugging Face · open weights · ♥ 676",
    "meta": [
     "9.7K downloads",
     "Released 4 days ago"
@@ -115,22 +115,6 @@
    "url": "https://huggingface.co/jialinyyzz/humanizer"
   },
   {
-   "name": "Underdog-Saluki-27B-1.0",
-   "owner": "ConwayResearch",
-   "src": "hf",
-   "cat": "Agents",
-   "score": 87,
-   "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 393",
-   "meta": [
-    "270K downloads",
-    "Released 5 days ago"
-   ],
-   "at": "2026-10-08T01:47:26.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0"
-  },
-  {
    "name": "aurelio-finance",
    "owner": "LosaLosSantos",
    "src": "gh",
@@ -139,8 +123,8 @@
    "grow": 8,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 3,064",
-    "+449 in 24h",
+    "★ 3,067",
+    "+436 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -162,6 +146,22 @@
    "at": "2026-09-20T15:51:13.000Z",
    "breakout": null,
    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized"
+  },
+  {
+   "name": "Underdog-Saluki-27B-1.0",
+   "owner": "ConwayResearch",
+   "src": "hf",
+   "cat": "Agents",
+   "score": 86,
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 393",
+   "meta": [
+    "270K downloads",
+    "Released 5 days ago"
+   ],
+   "at": "2026-10-08T01:47:26.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0"
   },
   {
    "name": "Qwen-Image-2.1-Turbo-Uncensored-GGUF",
@@ -265,8 +265,8 @@
    "name": "solidcraft",
    "url": "https://github.com/bherbruck/solidcraft",
    "from": "GitHub",
-   "use": 620,
-   "useLabel": "+620 stars/day",
+   "use": 617,
+   "useLabel": "+617 stars/day",
    "usePct": 0.25,
    "talk": [
     {
@@ -282,19 +282,8 @@
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 2319,
-   "useLabel": "+2,319 stars/day",
-   "usePct": 1,
-   "talk": [],
-   "buzz": 0,
-   "verdict": "Used a lot, hardly talked about"
-  },
-  {
-   "name": "Qwen-Image-2.1",
-   "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1",
-   "from": "Hugging Face",
-   "use": 9400716,
-   "useLabel": "9.4M downloads",
+   "use": 2343,
+   "useLabel": "+2,343 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -306,7 +295,18 @@
    "from": "Hugging Face",
    "use": 4686252,
    "useLabel": "4.7M downloads",
-   "usePct": 0.96875,
+   "usePct": 1,
+   "talk": [],
+   "buzz": 0,
+   "verdict": "Used a lot, hardly talked about"
+  },
+  {
+   "name": "Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
+   "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
+   "from": "Hugging Face",
+   "use": 4675423,
+   "useLabel": "4.7M downloads",
+   "usePct": 0.967741935483871,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -397,46 +397,46 @@
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 7295,
-   "d24": 2319,
+   "stars": 7352,
+   "d24": 2343,
    "est": false,
-   "forks": 520,
+   "forks": 524,
    "contrib": 8,
    "score": 94
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 3796,
-   "d24": 723,
+   "stars": 3802,
+   "d24": 722,
    "est": true,
-   "forks": 6144,
+   "forks": 6150,
    "contrib": null,
    "score": 92
   },
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 1173,
-   "d24": 698,
+   "stars": 1182,
+   "d24": 695,
    "est": true,
-   "forks": 139,
+   "forks": 140,
    "contrib": null,
    "score": 94
   },
   {
    "repo": "bherbruck/solidcraft",
-   "stars": 1403,
-   "d24": 620,
+   "stars": 1414,
+   "d24": 617,
    "est": false,
-   "forks": 131,
+   "forks": 132,
    "contrib": null,
    "score": 80
   },
   {
    "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 3064,
-   "d24": 449,
+   "stars": 3067,
+   "d24": 436,
    "est": false,
-   "forks": 394,
+   "forks": 397,
    "contrib": null,
    "score": 86
   }
@@ -451,7 +451,7 @@
    "grow": 42,
    "score": 92,
    "cat": "Vision",
-   "likes": 675
+   "likes": 676
   },
   {
    "name": "embeddinggemma-2",
@@ -462,7 +462,7 @@
    "grow": 8,
    "score": 90,
    "cat": "Vision",
-   "likes": 2021
+   "likes": 2026
   },
   {
    "name": "humanizer",
@@ -473,19 +473,7 @@
    "grow": 17,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1390
-  },
-  {
-   "name": "Underdog-Saluki-27B-1.0",
-   "org": "ConwayResearch",
-   "size": "27B",
-   "lic": "Open source",
-   "at": "2026-10-08T01:47:26.000Z",
-   "dl": 269829,
-   "grow": null,
-   "score": 87,
-   "cat": "Agents",
-   "likes": 393
+   "likes": 1393
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-Quantized",
@@ -496,7 +484,19 @@
    "grow": 3,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 4161
+   "likes": 4165
+  },
+  {
+   "name": "Underdog-Saluki-27B-1.0",
+   "org": "ConwayResearch",
+   "size": "27B",
+   "lic": "Open source",
+   "at": "2026-10-08T01:47:26.000Z",
+   "dl": 269829,
+   "grow": null,
+   "score": 86,
+   "cat": "Agents",
+   "likes": 393
   },
   {
    "name": "Qwen-Image-2.1-Turbo-Uncensored-GGUF",
@@ -820,6 +820,13 @@
  },
  "headlines": [
   {
+   "t": "Sources: Anthropic and OpenAI have pushed for substantial control over what external AI evaluators can publish, out of concern that trade secrets could leak",
+   "url": "https://www.techmeme.com/261013/p17#a261013p17",
+   "at": "2026-10-13T11:45:00.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Sources: US banking regulators are questioning banks about their deployment of agentic AI, use of Chinese-developed AI models, and autonomous system safeguards",
    "url": "https://www.techmeme.com/261013/p16#a261013p16",
    "at": "2026-10-13T11:20:08.000Z",
@@ -869,7 +876,7 @@
    "kind": "News"
   },
   {
-   "t": "AI godfather Geoffrey Hinton: ‘We’re creating alien beings. I’m willing to be selfish and choose humans’",
+   "t": "AI godfather Geoffrey Hinton: Trump is ‘corrupt, senile felon’ who knows nothing about AI",
    "url": "https://www.theguardian.com/us-news/2026/oct/13/geoffrey-hinton-trump-ai-tech",
    "at": "2026-10-13T09:00:20Z",
    "src": "The Guardian",
@@ -893,13 +900,6 @@
    "t": "Character.AI files for Chapter 11 bankruptcy in the US, agrees to sell some assets to Disney for $20M, and plans to keep operating as it completes the sale",
    "url": "https://www.techmeme.com/261013/p3#a261013p3",
    "at": "2026-10-13T04:55:02.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "IDC: Nvidia's AI chip shipments in China fell 44% YoY to 678K in H1 2026, as its market share slid to 34% amid US export curbs and rising domestic competition",
-   "url": "https://www.techmeme.com/261013/p2#a261013p2",
-   "at": "2026-10-13T04:45:01.000Z",
    "src": "Techmeme",
    "kind": "News"
   },
@@ -938,17 +938,26 @@
    "t": "11 year old unsoundness bugs found in Rust borrow checker",
    "url": "https://news.ycombinator.com/item?id=50069499",
    "link": "https://github.com/rust-lang/rust/issues/164250",
-   "up": 102,
-   "com": 26,
+   "up": 157,
+   "com": 53,
    "at": "2026-10-13T10:27:00.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "An hour of audio transcribed in about 13s on MacBook Air",
+   "url": "https://news.ycombinator.com/item?id=50069971",
+   "link": "https://eg2.haku.sh/",
+   "up": 37,
+   "com": 9,
+   "at": "2026-10-13T11:27:14.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Muse Wonder",
    "url": "https://news.ycombinator.com/item?id=50059115",
    "link": "https://research.meta.ai/blog/muse-wonder",
-   "up": 641,
-   "com": 351,
+   "up": 642,
+   "com": 352,
    "at": "2026-10-12T16:48:01.000Z"
   },
   {
@@ -956,26 +965,17 @@
    "t": "Codex CLI installs a persistent, self-updating background daemon by default",
    "url": "https://news.ycombinator.com/item?id=50060694",
    "link": "https://github.com/openai/codex/issues/48195",
-   "up": 570,
+   "up": 574,
    "com": 276,
    "at": "2026-10-12T18:29:04.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Were Software Engineers blue-collar workers all along?",
-   "url": "https://news.ycombinator.com/item?id=50068946",
-   "link": "https://ptrbrynt.com/posts/were-we-blue-collar-workers-all-along",
-   "up": 70,
-   "com": 144,
-   "at": "2026-10-13T09:25:10.000Z"
   },
   {
    "src": "Hacker News",
    "t": "AI is a tool and using it well takes skill",
    "url": "https://news.ycombinator.com/item?id=50063427",
    "link": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
-   "up": 439,
-   "com": 354,
+   "up": 453,
+   "com": 360,
    "at": "2026-10-12T21:40:18.000Z"
   },
   {
@@ -983,8 +983,8 @@
    "t": "Hackers activate automatic defrosting in supermarket fridges across Europe",
    "url": "https://news.ycombinator.com/item?id=50055304",
    "link": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
-   "up": 733,
-   "com": 850,
+   "up": 747,
+   "com": 859,
    "at": "2026-10-12T12:16:42.000Z"
   }
  ]
