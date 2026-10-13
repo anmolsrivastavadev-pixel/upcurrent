@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-13T16:01:10.336Z"
+  "updated": "2026-10-13T16:30:54.518Z"
  },
  "pulse": {
   "trending": 79,
   "accelerating": 2,
   "newModels": 8,
   "discussions": 60,
-  "stars": 4414
+  "stars": 4402
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 96,
-   "grow": 28,
+   "grow": 31,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 1,365",
-    "+1,032 in 24h",
+    "★ 1,389",
+    "+1,040 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 94,
-   "grow": 19,
+   "grow": 20,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 7,773",
-    "+2,401 in 24h",
+    "★ 7,814",
+    "+2,385 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -56,7 +56,7 @@
    "cat": "Vision",
    "score": 92,
    "grow": 42,
-   "desc": "Vision on Hugging Face · open weights · ♥ 687",
+   "desc": "Vision on Hugging Face · open weights · ♥ 688",
    "meta": [
     "9.7K downloads",
     "Released 4 days ago"
@@ -70,11 +70,11 @@
    "owner": "mhtsec",
    "src": "gh",
    "cat": "Agents",
-   "score": 91,
+   "score": 90,
    "grow": 3,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 3,850",
+    "★ 3,857",
     "+339 in 24h",
     "Created 5 days ago"
    ],
@@ -121,7 +121,7 @@
    "cat": "Agents",
    "score": 87,
    "grow": 11,
-   "desc": "Model on Hugging Face · open source · ♥ 399",
+   "desc": "Model on Hugging Face · open source · ♥ 400",
    "meta": [
     "270K downloads",
     "Released 6 days ago"
@@ -139,8 +139,8 @@
    "grow": 9,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 3,098",
-    "+373 in 24h",
+    "★ 3,102",
+    "+368 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -182,6 +182,34 @@
  ],
  "breakouts": [
   {
+   "key": "gemini 4",
+   "label": "Gemini 4",
+   "n": 4,
+   "sources": [
+    {
+     "src": "Hacker News",
+     "t": "Gemini 4 Argon",
+     "url": "https://news.ycombinator.com/item?id=50073879"
+    },
+    {
+     "src": "Google DeepMind blog",
+     "t": "Gemini 4 Argon for Robotics",
+     "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/"
+    },
+    {
+     "src": "Techmeme",
+     "t": "Google rolls out Gemini 4 Argon globally via the Gemini API and to Google AI Pro subscribers in the Gemini app and AI Mode, and in Antigravity for Ultra users",
+     "url": "https://www.techmeme.com/261013/p30#a261013p30"
+    },
+    {
+     "src": "YouTube",
+     "t": "Claude Opus 6 LEAKED, Gemini 4 Carbon Leaks, HUGE OpenAI Update, Claude 24/7 Agent, & More! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=4iKUaUmeoWk"
+    }
+   ],
+   "since": "2026-10-01T18:14:41.538Z"
+  },
+  {
    "key": "opus 5.5",
    "label": "Opus 5.5",
    "n": 3,
@@ -203,9 +231,64 @@
     }
    ],
    "since": "2026-10-03T21:01:33.129Z"
+  },
+  {
+   "key": "muse wonder",
+   "label": "Muse Wonder",
+   "n": 3,
+   "sources": [
+    {
+     "src": "Product Hunt",
+     "t": "Muse Wonder",
+     "url": "https://www.producthunt.com/products/meta-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
+    },
+    {
+     "src": "Hacker News",
+     "t": "Muse Wonder",
+     "url": "https://news.ycombinator.com/item?id=50059115"
+    },
+    {
+     "src": "India Today",
+     "t": "Meta launches Muse Wonder, Mark Zuckerberg says it's now at AI frontier like Anthropic",
+     "url": "https://www.indiatoday.in/technology/news/story/meta-launches-muse-wonder-mark-zuckerberg-says-its-now-at-ai-frontier-like-anthropic-3016094-2026-10-13"
+    }
+   ],
+   "since": "2026-10-13T07:01:06.070Z"
   }
  ],
  "hype": [
+  {
+   "name": "Gemini 4",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "Hacker News",
+     "t": "Gemini 4 Argon",
+     "url": "https://news.ycombinator.com/item?id=50073879"
+    },
+    {
+     "src": "Google DeepMind blog",
+     "t": "Gemini 4 Argon for Robotics",
+     "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/"
+    },
+    {
+     "src": "Techmeme",
+     "t": "Google rolls out Gemini 4 Argon globally via the Gemini API and to Google AI Pro subscribers in the Gemini app and AI Mode, and in Antigravity for Ultra users",
+     "url": "https://www.techmeme.com/261013/p30#a261013p30"
+    },
+    {
+     "src": "YouTube",
+     "t": "Claude Opus 6 LEAKED, Gemini 4 Carbon Leaks, HUGE OpenAI Update, Claude 24/7 Agent, & More! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=4iKUaUmeoWk"
+    }
+   ],
+   "buzz": 4,
+   "verdict": "Talk only, no public usage numbers"
+  },
   {
    "name": "Opus 5.5",
    "url": null,
@@ -232,8 +315,8 @@
    "name": "solidcraft",
    "url": "https://github.com/bherbruck/solidcraft",
    "from": "GitHub",
-   "use": 269,
-   "useLabel": "~269 stars/day",
+   "use": 270,
+   "useLabel": "~270 stars/day",
    "usePct": 0,
    "talk": [
     {
@@ -249,8 +332,8 @@
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 2401,
-   "useLabel": "+2,401 stars/day",
+   "use": 2385,
+   "useLabel": "+2,385 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -364,46 +447,46 @@
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 7773,
-   "d24": 2401,
+   "stars": 7814,
+   "d24": 2385,
    "est": false,
-   "forks": 551,
+   "forks": 556,
    "contrib": 8,
    "score": 94
   },
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 1365,
-   "d24": 1032,
+   "stars": 1389,
+   "d24": 1040,
    "est": false,
-   "forks": 169,
+   "forks": 173,
    "contrib": null,
    "score": 96
   },
   {
    "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 3098,
-   "d24": 373,
+   "stars": 3102,
+   "d24": 368,
    "est": false,
-   "forks": 434,
+   "forks": 441,
    "contrib": null,
    "score": 86
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 3850,
+   "stars": 3857,
    "d24": 339,
    "est": false,
-   "forks": 6184,
+   "forks": 6186,
    "contrib": null,
-   "score": 91
+   "score": 90
   },
   {
    "repo": "bherbruck/solidcraft",
-   "stars": 1580,
-   "d24": 269,
+   "stars": 1592,
+   "d24": 270,
    "est": true,
-   "forks": 146,
+   "forks": 149,
    "contrib": null,
    "score": 79
   }
@@ -418,7 +501,7 @@
    "grow": 42,
    "score": 92,
    "cat": "Vision",
-   "likes": 687
+   "likes": 688
   },
   {
    "name": "embeddinggemma-2",
@@ -429,7 +512,7 @@
    "grow": 8,
    "score": 90,
    "cat": "Vision",
-   "likes": 2057
+   "likes": 2060
   },
   {
    "name": "humanizer",
@@ -440,7 +523,7 @@
    "grow": 17,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1428
+   "likes": 1433
   },
   {
    "name": "Underdog-Saluki-27B-1.0",
@@ -452,7 +535,7 @@
    "grow": 11,
    "score": 87,
    "cat": "Agents",
-   "likes": 399
+   "likes": 400
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-Quantized",
@@ -463,7 +546,7 @@
    "grow": 3,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 4178
+   "likes": 4183
   },
   {
    "name": "clef",
@@ -787,6 +870,41 @@
  },
  "headlines": [
   {
+   "t": "Apple unveils new smart home devices that showcase upgraded Siri AI ",
+   "url": "https://www.theguardian.com/technology/2026/oct/13/apple-new-smart-home-device-ai",
+   "at": "2026-10-13T16:25:22Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "Apple says HomeView's facial recognition works only if users have a \"registered personal device\" with Apple Intelligence and Siri AI on the same Wi-Fi network",
+   "url": "https://www.techmeme.com/261013/p31#a261013p31",
+   "at": "2026-10-13T16:20:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Google rolls out Gemini 4 Argon globally via the Gemini API and to Google AI Pro subscribers in the Gemini app and AI Mode, and in Antigravity for Ultra users",
+   "url": "https://www.techmeme.com/261013/p30#a261013p30",
+   "at": "2026-10-13T16:08:15.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Gemini 4 Argon for Robotics",
+   "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+   "at": "2026-10-13T16:01:58.000Z",
+   "src": "Google DeepMind",
+   "kind": "Lab blog"
+  },
+  {
+   "t": "Gemini 4 Argon: Built to solve your hardest problems",
+   "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+   "at": "2026-10-13T16:01:52.000Z",
+   "src": "Google DeepMind",
+   "kind": "Lab blog"
+  },
+  {
    "t": "Anthropic co-founder Jack Clark says \"I now think it's more likely we'll see full RSI become possible in 2027\", earlier than his previous prediction of 2028",
    "url": "https://www.techmeme.com/261013/p29#a261013p29",
    "at": "2026-10-13T15:55:44.000Z",
@@ -862,60 +980,43 @@
    "at": "2026-10-13T12:00:49.000Z",
    "src": "NVIDIA",
    "kind": "Lab blog"
-  },
-  {
-   "t": "Sources: Anthropic and OpenAI have pushed for substantial control over what external AI evaluators can publish, out of concern that trade secrets could leak",
-   "url": "https://www.techmeme.com/261013/p17#a261013p17",
-   "at": "2026-10-13T11:45:00.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Sources: US banking regulators are questioning banks about their deployment of agentic AI, use of Chinese-developed AI models, and autonomous system safeguards",
-   "url": "https://www.techmeme.com/261013/p16#a261013p16",
-   "at": "2026-10-13T11:20:08.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "The IMF lifts its 2026 global GDP growth forecast to 3.1%, up from 3% in July, citing an AI boom that offsets Middle East war disruptions and high energy costs",
-   "url": "https://www.techmeme.com/261013/p15#a261013p15",
-   "at": "2026-10-13T11:00:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "The people who don’t want their AI chatbots to die when they do: ‘I can’t have the switch turned off’",
-   "url": "https://www.theguardian.com/technology/ng-interactive/2026/oct/13/ai-chatbot-death-plans",
-   "at": "2026-10-13T10:00:04Z",
-   "src": "The Guardian",
-   "kind": "News"
-  },
-  {
-   "t": "AI godfather Geoffrey Hinton: ‘We’re creating alien beings. I’m willing to be selfish and choose humans’",
-   "url": "https://www.theguardian.com/us-news/2026/oct/13/geoffrey-hinton-trump-ai-tech",
-   "at": "2026-10-13T09:00:20Z",
-   "src": "The Guardian",
-   "kind": "News"
   }
  ],
  "discussions": [
   {
    "src": "Hacker News",
+   "t": "Gemini 4 Argon",
+   "url": "https://news.ycombinator.com/item?id=50073879",
+   "link": "https://deepmind.google/models/gemini/",
+   "up": 137,
+   "com": 111,
+   "at": "2026-10-13T16:03:16.000Z"
+  },
+  {
+   "src": "Hacker News",
    "t": "11 year old unsoundness bugs found in Rust borrow checker",
    "url": "https://news.ycombinator.com/item?id=50069499",
    "link": "https://github.com/rust-lang/rust/issues/164250",
-   "up": 473,
-   "com": 270,
+   "up": 490,
+   "com": 279,
    "at": "2026-10-13T10:27:00.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "I posted to HN, and then my website was flooded with AI bot traffic",
+   "url": "https://news.ycombinator.com/item?id=50073221",
+   "link": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
+   "up": 42,
+   "com": 22,
+   "at": "2026-10-13T15:25:50.000Z"
   },
   {
    "src": "Hacker News",
    "t": "A Dynamic and Distributed Virtual GPU Cloud Built on Idle Apple Silicon Devices",
    "url": "https://news.ycombinator.com/item?id=50070593",
    "link": "https://machinelearning.apple.com/research/distributed-gpu-cloud",
-   "up": 145,
-   "com": 55,
+   "up": 156,
+   "com": 61,
    "at": "2026-10-13T12:26:36.000Z"
   },
   {
@@ -923,36 +1024,17 @@
    "t": "AI is a tool and using it well takes skill",
    "url": "https://news.ycombinator.com/item?id=50063427",
    "link": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
-   "up": 549,
-   "com": 441,
+   "up": 561,
+   "com": 449,
    "at": "2026-10-12T21:40:18.000Z"
   },
   {
-   "src": "Hacker News",
-   "t": "Character.ai Files for Bankruptcy",
-   "url": "https://news.ycombinator.com/item?id=50069942",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney",
-   "up": 138,
-   "com": 106,
-   "at": "2026-10-13T11:24:08.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Muse Wonder",
-   "url": "https://news.ycombinator.com/item?id=50059115",
-   "link": "https://research.meta.ai/blog/muse-wonder",
-   "up": 653,
-   "com": 364,
-   "at": "2026-10-12T16:48:01.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Codex CLI installs a persistent, self-updating background daemon by default",
-   "url": "https://news.ycombinator.com/item?id=50060694",
-   "link": "https://github.com/openai/codex/issues/48195",
-   "up": 589,
-   "com": 285,
-   "at": "2026-10-12T18:29:04.000Z"
+   "src": "Mastodon",
+   "t": "spellingmistakescostlives.com/ product-page/ai-slop-is-not-art-chatbots-are-not-your-friends-iron-on-patch/ # tech # technology # BigTech # IT # AI # Artific…",
+   "url": "https://graphics.social/@metin/117434400485802774",
+   "up": 28,
+   "com": 1,
+   "at": "2026-10-13T15:52:25.000Z"
   }
  ]
 }
