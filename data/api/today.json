@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-13T05:01:06.126Z"
+  "updated": "2026-10-13T05:30:56.807Z"
  },
  "pulse": {
   "trending": 76,
   "accelerating": 0,
   "newModels": 7,
   "discussions": 52,
-  "stars": 2559
+  "stars": 2580
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 6,631",
-    "~1,386 in 24h",
+    "★ 6,673",
+    "~1,389 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -41,8 +41,8 @@
    "grow": 6,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 3,660",
-    "+274 in 24h",
+    "★ 3,667",
+    "+276 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -106,8 +106,8 @@
    "grow": null,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 2,984",
-    "~469 in 24h",
+    "★ 2,999",
+    "~470 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -163,19 +163,19 @@
    "url": "https://huggingface.co/AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF"
   },
   {
-   "name": "Multi-Stream Attention Residuals",
+   "name": "GroundingPI: A Grounding Foundation Model towards Physical Intelligence with Visual Primitives",
    "owner": "Paper",
    "src": "paper",
-   "url": "https://huggingface.co/papers/2610.13630",
+   "url": "https://huggingface.co/papers/2609.39601",
    "cat": "Research",
    "score": 85,
    "grow": null,
-   "desc": "Attention Residuals (AttnRes) enables content-dependent retrieval over network depth, which can be viewed as single-stream softmax attention along the depth axis.",
+   "desc": "Precise grounding matters.",
    "meta": [
-    "▲ 30 upvotes",
+    "▲ 33 upvotes",
     "Hugging Face Papers"
    ],
-   "at": "2026-10-08T20:00:00.000Z",
+   "at": "2026-09-29T20:00:00.000Z",
    "breakout": null
   }
  ],
@@ -248,11 +248,28 @@
    "verdict": "Talk only, no public usage numbers"
   },
   {
+   "name": "solidcraft",
+   "url": "https://github.com/bherbruck/solidcraft",
+   "from": "GitHub",
+   "use": 445,
+   "useLabel": "+445 stars/day",
+   "usePct": 0.3333333333333333,
+   "talk": [
+    {
+     "src": "Hacker News",
+     "t": "Show HN: SolidCraft – Open-Source Parametric CAD in Rust (With MCP Support)",
+     "url": "https://news.ycombinator.com/item?id=50064840"
+    }
+   ],
+   "buzz": 1,
+   "verdict": "More talk than use"
+  },
+  {
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 1386,
-   "useLabel": "~1,386 stars/day",
+   "use": 1389,
+   "useLabel": "~1,389 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -282,6 +299,16 @@
   }
  ],
  "receipts": [
+  {
+   "name": "Louis-CFM/coucou",
+   "url": "https://github.com/Louis-CFM/coucou",
+   "kind": "stars",
+   "first": "2026-10-01T17:48:04.617Z",
+   "firstV": 2307,
+   "m": 5000,
+   "at": "2026-10-13T05:30:56.807Z",
+   "lead": 275.71449722222223
+  },
   {
    "name": "wheresryan22/anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
@@ -351,32 +378,22 @@
    "m": 2500,
    "at": "2026-10-12T09:01:13.742Z",
    "lead": 66.00143305555555
-  },
-  {
-   "name": "Jakeschincariol/instagram-agent-skill",
-   "url": "https://github.com/Jakeschincariol/instagram-agent-skill",
-   "kind": "stars",
-   "first": "2026-10-12T00:01:08.750Z",
-   "firstV": 964,
-   "m": 1000,
-   "at": "2026-10-12T08:01:06.796Z",
-   "lead": 7.999457222222222
   }
  ],
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 6631,
-   "d24": 1386,
+   "stars": 6673,
+   "d24": 1389,
    "est": true,
-   "forks": 480,
+   "forks": 486,
    "contrib": 8,
    "score": 94
   },
   {
    "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 2984,
-   "d24": 469,
+   "stars": 2999,
+   "d24": 470,
    "est": true,
    "forks": 381,
    "contrib": null,
@@ -384,19 +401,19 @@
   },
   {
    "repo": "bherbruck/solidcraft",
-   "stars": 1152,
-   "d24": 430,
+   "stars": 1168,
+   "d24": 445,
    "est": false,
-   "forks": 115,
+   "forks": 116,
    "contrib": null,
    "score": 78
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 3660,
-   "d24": 274,
+   "stars": 3667,
+   "d24": 276,
    "est": false,
-   "forks": 6044,
+   "forks": 6054,
    "contrib": null,
    "score": 92
   }
@@ -422,7 +439,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 1961
+   "likes": 1964
   },
   {
    "name": "humanizer",
@@ -433,7 +450,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1345
+   "likes": 1347
   },
   {
    "name": "Underdog-Saluki-27B-1.0",
@@ -456,7 +473,7 @@
    "grow": null,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 4116
+   "likes": 4119
   },
   {
    "name": "Qwen-Image-2.1-Turbo-Uncensored-GGUF",
@@ -478,6 +495,14 @@
    "url": null,
    "caps": [],
    "added": false
+  },
+  {
+   "name": "cat-jam",
+   "prov": "OpenCode Zen",
+   "ctx": null,
+   "url": null,
+   "caps": [],
+   "added": true
   },
   {
    "name": "mimo-v2.6-flash",
@@ -760,9 +785,31 @@
  ],
  "freeChanges": {
   "since": "2026-10-01T17:48:04.617Z",
-  "events": []
+  "events": [
+   {
+    "type": "added",
+    "name": "cat-jam",
+    "prov": "OpenCode Zen",
+    "url": null,
+    "at": "2026-10-13T05:30:56.807Z"
+   }
+  ]
  },
  "headlines": [
+  {
+   "t": "A global chip stock sell-off deepens after Broadcom's CEO likened AI investing to a casino, with Samsung down as much as 8.8%, SK Hynix 9.2%, and Micron 4%",
+   "url": "https://www.techmeme.com/261013/p4#a261013p4",
+   "at": "2026-10-13T05:05:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "From Earth to Orbit, France’s Ecosystem Delivers Agentic Computing at Scale With NVIDIA",
+   "url": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/",
+   "at": "2026-10-13T05:00:31.000Z",
+   "src": "NVIDIA",
+   "kind": "Lab blog"
+  },
   {
    "t": "Character.AI files for Chapter 11 bankruptcy in the US, agrees to sell some assets to Disney for $20M, and plans to keep operating as it completes the sale",
    "url": "https://www.techmeme.com/261013/p3#a261013p3",
@@ -848,31 +895,17 @@
    "kind": "News"
   },
   {
+   "t": "Anthropic's New Claude NEXT Leak Exposes a MAJOR Breakthrough",
+   "url": "https://www.youtube.com/watch?v=efjJH2rVykc",
+   "at": "2026-10-12T21:26:22Z",
+   "src": "AI Revolution",
+   "kind": "Video"
+  },
+  {
    "t": "Sources: Epic has delayed the release of an upcoming game, instructing developers to implement an \"AI first\" production model with \"no more hand-written code\"",
    "url": "https://www.techmeme.com/261012/p39#a261012p39",
    "at": "2026-10-12T20:25:00.000Z",
    "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Suki, an AI ambient scribe for healthcare providers, raised a $90M Series E led by Healthier Capital; a source says it projects $60M-$80M in revenue this year",
-   "url": "https://www.techmeme.com/261012/p38#a261012p38",
-   "at": "2026-10-12T20:00:48.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Burnham says ‘public will be the boss’ in any future decision about closer relationship with the EU – as it happened",
-   "url": "https://www.theguardian.com/politics/live/2026/oct/12/uk-politics-live-tories-andy-burnham-russian-interference-brexit-eu-latest",
-   "at": "2026-10-12T17:34:40Z",
-   "src": "The Guardian",
-   "kind": "News"
-  },
-  {
-   "t": "Nicolas Cage Says He Refused To Sign Amazon's AI Waiver For 'Spider-Noir'",
-   "url": "https://www.huffpost.com/entry/nicolas-cage-work-amazon-ai-spider-noir_n_6acce899e4b0ec20eb6b47c4",
-   "at": "2026-10-12T16:57:19Z",
-   "src": "HuffPost",
    "kind": "News"
   }
  ],
@@ -882,8 +915,8 @@
    "t": "Codex CLI installs a persistent, self-updating background daemon by default",
    "url": "https://news.ycombinator.com/item?id=50060694",
    "link": "https://github.com/openai/codex/issues/48195",
-   "up": 502,
-   "com": 256,
+   "up": 509,
+   "com": 260,
    "at": "2026-10-12T18:29:04.000Z"
   },
   {
@@ -891,8 +924,8 @@
    "t": "Muse Wonder",
    "url": "https://news.ycombinator.com/item?id=50059115",
    "link": "https://research.meta.ai/blog/muse-wonder",
-   "up": 574,
-   "com": 313,
+   "up": 577,
+   "com": 319,
    "at": "2026-10-12T16:48:01.000Z"
   },
   {
@@ -900,8 +933,8 @@
    "t": "AI is a tool and using it well takes skill",
    "url": "https://news.ycombinator.com/item?id=50063427",
    "link": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
-   "up": 290,
-   "com": 239,
+   "up": 304,
+   "com": 248,
    "at": "2026-10-12T21:40:18.000Z"
   },
   {
@@ -909,8 +942,8 @@
    "t": "GLM-Legal",
    "url": "https://news.ycombinator.com/item?id=50058507",
    "link": "https://z.ai/blog/glm-legal",
-   "up": 488,
-   "com": 286,
+   "up": 498,
+   "com": 290,
    "at": "2026-10-12T16:11:45.000Z"
   },
   {
@@ -918,8 +951,8 @@
    "t": "Hackers activate automatic defrosting in supermarket fridges across Europe",
    "url": "https://news.ycombinator.com/item?id=50055304",
    "link": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
-   "up": 524,
-   "com": 712,
+   "up": 545,
+   "com": 717,
    "at": "2026-10-12T12:16:42.000Z"
   },
   {
@@ -927,8 +960,8 @@
    "t": "A look at OpenAI’s math that’s claimed computes faster Fourier transforms",
    "url": "https://news.ycombinator.com/item?id=50065932",
    "link": "https://www.argmin.net/p/faster-fourier-transforms",
-   "up": 62,
-   "com": 37,
+   "up": 78,
+   "com": 44,
    "at": "2026-10-13T02:46:43.000Z"
   }
  ]
