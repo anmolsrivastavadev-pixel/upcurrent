@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-13T13:01:09.236Z"
+  "updated": "2026-10-13T13:30:54.899Z"
  },
  "pulse": {
   "trending": 78,
-  "accelerating": 2,
+  "accelerating": 3,
   "newModels": 6,
   "discussions": 59,
-  "stars": 4806
+  "stars": 4836
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 94,
-   "grow": 14,
+   "grow": 15,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 7,447",
-    "+2,336 in 24h",
+    "★ 7,505",
+    "+2,359 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -41,8 +41,8 @@
    "grow": null,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 1,213",
-    "~696 in 24h",
+    "★ 1,239",
+    "~702 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -58,8 +58,8 @@
    "grow": null,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 3,809",
-    "~717 in 24h",
+    "★ 3,817",
+    "~716 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -73,7 +73,7 @@
    "cat": "Vision",
    "score": 92,
    "grow": 42,
-   "desc": "Vision on Hugging Face · open weights · ♥ 678",
+   "desc": "Vision on Hugging Face · open weights · ♥ 680",
    "meta": [
     "9.7K downloads",
     "Released 4 days ago"
@@ -115,22 +115,6 @@
    "url": "https://huggingface.co/jialinyyzz/humanizer"
   },
   {
-   "name": "Underdog-Saluki-27B-1.0",
-   "owner": "ConwayResearch",
-   "src": "hf",
-   "cat": "Agents",
-   "score": 87,
-   "grow": 11,
-   "desc": "Model on Hugging Face · open source · ♥ 397",
-   "meta": [
-    "270K downloads",
-    "Released 5 days ago"
-   ],
-   "at": "2026-10-08T01:47:26.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0"
-  },
-  {
    "name": "aurelio-finance",
    "owner": "LosaLosSantos",
    "src": "gh",
@@ -139,8 +123,8 @@
    "grow": 8,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 3,076",
-    "+419 in 24h",
+    "★ 3,078",
+    "+407 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -164,13 +148,29 @@
    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized"
   },
   {
+   "name": "Underdog-Saluki-27B-1.0",
+   "owner": "ConwayResearch",
+   "src": "hf",
+   "cat": "Agents",
+   "score": 86,
+   "grow": 11,
+   "desc": "Model on Hugging Face · open source · ♥ 398",
+   "meta": [
+    "270K downloads",
+    "Released 5 days ago"
+   ],
+   "at": "2026-10-08T01:47:26.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0"
+  },
+  {
    "name": "Qwen-Image-2.1-Turbo-Uncensored-GGUF",
    "owner": "AtomicChat",
    "src": "hf",
    "cat": "Coding",
    "score": 85,
    "grow": 29,
-   "desc": "Model on Hugging Face · open source · ♥ 389",
+   "desc": "Model on Hugging Face · open source · ♥ 391",
    "meta": [
     "209K downloads",
     "Released 4 days ago"
@@ -265,8 +265,8 @@
    "name": "solidcraft",
    "url": "https://github.com/bherbruck/solidcraft",
    "from": "GitHub",
-   "use": 638,
-   "useLabel": "+638 stars/day",
+   "use": 652,
+   "useLabel": "+652 stars/day",
    "usePct": 0.25,
    "talk": [
     {
@@ -282,8 +282,8 @@
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 2336,
-   "useLabel": "+2,336 stars/day",
+   "use": 2359,
+   "useLabel": "+2,359 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -397,46 +397,46 @@
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 7447,
-   "d24": 2336,
+   "stars": 7505,
+   "d24": 2359,
    "est": false,
-   "forks": 526,
+   "forks": 528,
    "contrib": 8,
    "score": 94
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 3809,
-   "d24": 717,
+   "stars": 3817,
+   "d24": 716,
    "est": true,
-   "forks": 6159,
+   "forks": 6166,
    "contrib": null,
    "score": 92
   },
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 1213,
-   "d24": 696,
+   "stars": 1239,
+   "d24": 702,
    "est": true,
-   "forks": 147,
+   "forks": 152,
    "contrib": null,
    "score": 94
   },
   {
    "repo": "bherbruck/solidcraft",
-   "stars": 1456,
-   "d24": 638,
+   "stars": 1480,
+   "d24": 652,
    "est": false,
-   "forks": 132,
+   "forks": 133,
    "contrib": null,
-   "score": 80
+   "score": 79
   },
   {
    "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 3076,
-   "d24": 419,
+   "stars": 3078,
+   "d24": 407,
    "est": false,
-   "forks": 402,
+   "forks": 407,
    "contrib": null,
    "score": 86
   }
@@ -451,7 +451,7 @@
    "grow": 42,
    "score": 92,
    "cat": "Vision",
-   "likes": 678
+   "likes": 680
   },
   {
    "name": "embeddinggemma-2",
@@ -462,7 +462,7 @@
    "grow": 8,
    "score": 90,
    "cat": "Vision",
-   "likes": 2033
+   "likes": 2035
   },
   {
    "name": "humanizer",
@@ -473,19 +473,7 @@
    "grow": 17,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1394
-  },
-  {
-   "name": "Underdog-Saluki-27B-1.0",
-   "org": "ConwayResearch",
-   "size": "27B",
-   "lic": "Open source",
-   "at": "2026-10-08T01:47:26.000Z",
-   "dl": 269829,
-   "grow": 11,
-   "score": 87,
-   "cat": "Agents",
-   "likes": 397
+   "likes": 1396
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-Quantized",
@@ -496,7 +484,19 @@
    "grow": 3,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 4168
+   "likes": 4170
+  },
+  {
+   "name": "Underdog-Saluki-27B-1.0",
+   "org": "ConwayResearch",
+   "size": "27B",
+   "lic": "Open source",
+   "at": "2026-10-08T01:47:26.000Z",
+   "dl": 269829,
+   "grow": 11,
+   "score": 86,
+   "cat": "Agents",
+   "likes": 398
   },
   {
    "name": "Qwen-Image-2.1-Turbo-Uncensored-GGUF",
@@ -507,7 +507,7 @@
    "grow": 29,
    "score": 85,
    "cat": "Coding",
-   "likes": 389
+   "likes": 391
   }
  ],
  "free": [
@@ -820,6 +820,27 @@
  },
  "headlines": [
   {
+   "t": "Apple HomeView demo: a square screen with a personalized, iPhone-like experience based on facial recognition, up to six users, Siri AI, and a closed ecosystem",
+   "url": "https://www.techmeme.com/261013/p22#a261013p22",
+   "at": "2026-10-13T13:25:31.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Apple unveils the fourth-gen Apple TV 4K, with Siri AI, an A19 chip, 128GB of storage, far-field mics, Wi-Fi 7, and Bluetooth 6, shipping November 13 for $299",
+   "url": "https://www.techmeme.com/261013/p21#a261013p21",
+   "at": "2026-10-13T13:08:38.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Apple unveils the $149 HomePod mini 2, with an S10 chip, \"Sound Glow\" interactive lighting, and Siri AI via a future update, in five colors, shipping October 30",
+   "url": "https://www.techmeme.com/261013/p20#a261013p20",
+   "at": "2026-10-13T13:05:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Threat of AI share crash puts world financial stability at risk, says IMF",
    "url": "https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks",
    "at": "2026-10-13T12:30:01Z",
@@ -897,13 +918,6 @@
    "kind": "News"
   },
   {
-   "t": "A global chip stock sell-off deepens after Broadcom's CEO likened AI investing to a casino, with Samsung down as much as 8.8%, SK Hynix down 9.2%, and Micron 4%",
-   "url": "https://www.techmeme.com/261013/p4#a261013p4",
-   "at": "2026-10-13T05:05:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "From Earth to Orbit, France’s Ecosystem Delivers Agentic Computing at Scale With NVIDIA",
    "url": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/",
    "at": "2026-10-13T05:00:31.000Z",
@@ -916,20 +930,6 @@
    "at": "2026-10-13T02:30:38Z",
    "src": "Masth Magaa",
    "kind": "Video"
-  },
-  {
-   "t": "IMF warns global economy ‘could soon test the limits of resilience’",
-   "url": "https://www.theguardian.com/business/2026/oct/13/imf-global-economy-world-economic-outlook-uk-gdp-forecast-2026",
-   "at": "2026-10-13T02:00:11Z",
-   "src": "The Guardian",
-   "kind": "News"
-  },
-  {
-   "t": "Prime Minister’s Office accused of ‘heavily’ vetting AI letter to Albanese",
-   "url": "https://www.perthnow.com.au/news/technology/prime-ministers-office-accused-of-heavily-vetting-ai-letter-to-albanese-c-23009173",
-   "at": "2026-10-13T00:53:26Z",
-   "src": "PerthNow",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -938,8 +938,8 @@
    "t": "11 year old unsoundness bugs found in Rust borrow checker",
    "url": "https://news.ycombinator.com/item?id=50069499",
    "link": "https://github.com/rust-lang/rust/issues/164250",
-   "up": 248,
-   "com": 127,
+   "up": 289,
+   "com": 157,
    "at": "2026-10-13T10:27:00.000Z"
   },
   {
@@ -947,8 +947,8 @@
    "t": "An hour of audio transcribed in about 13s on MacBook Air",
    "url": "https://news.ycombinator.com/item?id=50069971",
    "link": "https://eg2.haku.sh/",
-   "up": 107,
-   "com": 31,
+   "up": 140,
+   "com": 40,
    "at": "2026-10-13T11:27:14.000Z"
   },
   {
@@ -956,8 +956,8 @@
    "t": "Character.ai Files for Bankruptcy",
    "url": "https://news.ycombinator.com/item?id=50069942",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney",
-   "up": 60,
-   "com": 29,
+   "up": 90,
+   "com": 50,
    "at": "2026-10-13T11:24:08.000Z"
   },
   {
@@ -965,8 +965,8 @@
    "t": "Muse Wonder",
    "url": "https://news.ycombinator.com/item?id=50059115",
    "link": "https://research.meta.ai/blog/muse-wonder",
-   "up": 646,
-   "com": 353,
+   "up": 648,
+   "com": 354,
    "at": "2026-10-12T16:48:01.000Z"
   },
   {
@@ -974,8 +974,8 @@
    "t": "Codex CLI installs a persistent, self-updating background daemon by default",
    "url": "https://news.ycombinator.com/item?id=50060694",
    "link": "https://github.com/openai/codex/issues/48195",
-   "up": 578,
-   "com": 277,
+   "up": 580,
+   "com": 279,
    "at": "2026-10-12T18:29:04.000Z"
   },
   {
@@ -983,8 +983,8 @@
    "t": "AI is a tool and using it well takes skill",
    "url": "https://news.ycombinator.com/item?id=50063427",
    "link": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
-   "up": 474,
-   "com": 376,
+   "up": 479,
+   "com": 389,
    "at": "2026-10-12T21:40:18.000Z"
   }
  ]
