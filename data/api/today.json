@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-13T04:01:07.232Z"
+  "updated": "2026-10-13T04:30:54.641Z"
  },
  "pulse": {
   "trending": 76,
   "accelerating": 0,
   "newModels": 7,
-  "discussions": 54,
-  "stars": 2545
+  "discussions": 53,
+  "stars": 2548
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 6,566",
-    "~1,385 in 24h",
+    "★ 6,593",
+    "~1,384 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -41,8 +41,8 @@
    "grow": 5,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 3,645",
-    "+269 in 24h",
+    "★ 3,654",
+    "+274 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -106,8 +106,8 @@
    "grow": null,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 2,956",
-    "~467 in 24h",
+    "★ 2,971",
+    "~468 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -121,7 +121,7 @@
    "cat": "Agents",
    "score": 87,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 378",
+   "desc": "Model on Hugging Face · open source · ♥ 379",
    "meta": [
     "242K downloads",
     "Released 5 days ago"
@@ -147,16 +147,16 @@
    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized"
   },
   {
-   "name": "Scaling Agentic Data for Long-Horizon Terminal Intelligence",
+   "name": "Multi-Stream Attention Residuals",
    "owner": "Paper",
    "src": "paper",
-   "url": "https://huggingface.co/papers/2610.13166",
+   "url": "https://huggingface.co/papers/2610.13630",
    "cat": "Research",
    "score": 85,
    "grow": null,
-   "desc": "Terminal agents are moving beyond local operations toward completing real-world professional tasks.",
+   "desc": "Attention Residuals (AttnRes) enables content-dependent retrieval over network depth, which can be viewed as single-stream softmax attention along the depth axis.",
    "meta": [
-    "▲ 28 upvotes",
+    "▲ 29 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-08T20:00:00.000Z",
@@ -172,7 +172,7 @@
    "grow": null,
    "desc": "End-to-end sales workspace with unified context",
    "meta": [
-    "▲ 276 votes",
+    "▲ 277 votes",
     "57 comments",
     "Launched 2 days ago"
    ],
@@ -252,8 +252,8 @@
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 1385,
-   "useLabel": "~1,385 stars/day",
+   "use": 1384,
+   "useLabel": "~1,384 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -367,17 +367,17 @@
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 6566,
-   "d24": 1385,
+   "stars": 6593,
+   "d24": 1384,
    "est": true,
-   "forks": 474,
+   "forks": 479,
    "contrib": 8,
    "score": 94
   },
   {
    "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 2956,
-   "d24": 467,
+   "stars": 2971,
+   "d24": 468,
    "est": true,
    "forks": 381,
    "contrib": null,
@@ -385,8 +385,8 @@
   },
   {
    "repo": "bherbruck/solidcraft",
-   "stars": 1132,
-   "d24": 424,
+   "stars": 1140,
+   "d24": 422,
    "est": false,
    "forks": 113,
    "contrib": null,
@@ -394,10 +394,10 @@
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 3645,
-   "d24": 269,
+   "stars": 3654,
+   "d24": 274,
    "est": false,
-   "forks": 6037,
+   "forks": 6043,
    "contrib": null,
    "score": 93
   }
@@ -434,7 +434,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1342
+   "likes": 1343
   },
   {
    "name": "Underdog-Saluki-27B-1.0",
@@ -446,7 +446,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Agents",
-   "likes": 378
+   "likes": 379
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-Quantized",
@@ -457,7 +457,7 @@
    "grow": null,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 4110
+   "likes": 4111
   },
   {
    "name": "clef",
@@ -468,7 +468,7 @@
    "grow": 0,
    "score": 84,
    "cat": "Coding",
-   "likes": 2099
+   "likes": 2101
   }
  ],
  "free": [
@@ -870,10 +870,10 @@
    "kind": "News"
   },
   {
-   "t": "An interview with Mark Zuckerberg, who says Meta has caught up with rivals at the frontier of AI with its Wonder model and rejects calls for a slowdown",
-   "url": "https://www.techmeme.com/261012/p32#a261012p32",
-   "at": "2026-10-12T17:15:01.000Z",
-   "src": "Techmeme",
+   "t": "Meta launches advanced Muse Wonder AI models",
+   "url": "https://www.socialmediatoday.com/news/meta-launches-advanced-muse-wonder-ai-models/832795/",
+   "at": "2026-10-12T16:21:58Z",
+   "src": "Social Media Today",
    "kind": "News"
   }
  ],
@@ -883,8 +883,8 @@
    "t": "Codex CLI installs a persistent, self-updating background daemon by default",
    "url": "https://news.ycombinator.com/item?id=50060694",
    "link": "https://github.com/openai/codex/issues/48195",
-   "up": 492,
-   "com": 253,
+   "up": 497,
+   "com": 255,
    "at": "2026-10-12T18:29:04.000Z"
   },
   {
@@ -892,8 +892,8 @@
    "t": "Muse Wonder",
    "url": "https://news.ycombinator.com/item?id=50059115",
    "link": "https://research.meta.ai/blog/muse-wonder",
-   "up": 562,
-   "com": 309,
+   "up": 568,
+   "com": 311,
    "at": "2026-10-12T16:48:01.000Z"
   },
   {
@@ -901,8 +901,8 @@
    "t": "AI is a tool and using it well takes skill",
    "url": "https://news.ycombinator.com/item?id=50063427",
    "link": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
-   "up": 272,
-   "com": 229,
+   "up": 281,
+   "com": 235,
    "at": "2026-10-12T21:40:18.000Z"
   },
   {
@@ -910,8 +910,8 @@
    "t": "GLM-Legal",
    "url": "https://news.ycombinator.com/item?id=50058507",
    "link": "https://z.ai/blog/glm-legal",
-   "up": 475,
-   "com": 268,
+   "up": 479,
+   "com": 275,
    "at": "2026-10-12T16:11:45.000Z"
   },
   {
@@ -919,18 +919,18 @@
    "t": "Hackers activate automatic defrosting in supermarket fridges across Europe",
    "url": "https://news.ycombinator.com/item?id=50055304",
    "link": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
-   "up": 502,
-   "com": 695,
+   "up": 511,
+   "com": 704,
    "at": "2026-10-12T12:16:42.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "OpenAI algorithm for the FFT is less a breakthrough and more a malicious exploit",
-   "url": "https://news.ycombinator.com/item?id=50065932",
-   "link": "https://www.argmin.net/p/faster-fourier-transforms",
-   "up": 37,
-   "com": 12,
-   "at": "2026-10-13T02:46:43.000Z"
+   "t": "AI coding agents generate more code, but not more software",
+   "url": "https://news.ycombinator.com/item?id=50059523",
+   "link": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+   "up": 320,
+   "com": 276,
+   "at": "2026-10-12T17:14:01.000Z"
   }
  ]
 }
