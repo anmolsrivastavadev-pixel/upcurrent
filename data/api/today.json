@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-13T05:30:56.807Z"
+  "updated": "2026-10-13T06:01:07.638Z"
  },
  "pulse": {
   "trending": 76,
   "accelerating": 0,
   "newModels": 7,
-  "discussions": 52,
-  "stars": 2580
+  "discussions": 47,
+  "stars": 2608
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 6,673",
-    "~1,389 in 24h",
+    "★ 6,720",
+    "~1,393 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -41,8 +41,8 @@
    "grow": 6,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 3,667",
-    "+276 in 24h",
+    "★ 3,681",
+    "+287 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -56,7 +56,7 @@
    "cat": "Vision",
    "score": 92,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 650",
+   "desc": "Vision on Hugging Face · open weights · ♥ 655",
    "meta": [
     "6.8K downloads",
     "Released 4 days ago"
@@ -88,7 +88,7 @@
    "cat": "Infrastructure",
    "score": 89,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 1.3K",
+   "desc": "Model on Hugging Face · open source · ♥ 1.4K",
    "meta": [
     "46K downloads",
     "Released 32 days ago"
@@ -106,8 +106,8 @@
    "grow": null,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 2,999",
-    "~470 in 24h",
+    "★ 3,018",
+    "~471 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -121,7 +121,7 @@
    "cat": "Agents",
    "score": 87,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 379",
+   "desc": "Model on Hugging Face · open source · ♥ 381",
    "meta": [
     "242K downloads",
     "Released 5 days ago"
@@ -172,7 +172,7 @@
    "grow": null,
    "desc": "Precise grounding matters.",
    "meta": [
-    "▲ 33 upvotes",
+    "▲ 39 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-09-29T20:00:00.000Z",
@@ -248,28 +248,11 @@
    "verdict": "Talk only, no public usage numbers"
   },
   {
-   "name": "solidcraft",
-   "url": "https://github.com/bherbruck/solidcraft",
-   "from": "GitHub",
-   "use": 445,
-   "useLabel": "+445 stars/day",
-   "usePct": 0.3333333333333333,
-   "talk": [
-    {
-     "src": "Hacker News",
-     "t": "Show HN: SolidCraft – Open-Source Parametric CAD in Rust (With MCP Support)",
-     "url": "https://news.ycombinator.com/item?id=50064840"
-    }
-   ],
-   "buzz": 1,
-   "verdict": "More talk than use"
-  },
-  {
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 1389,
-   "useLabel": "~1,389 stars/day",
+   "use": 1393,
+   "useLabel": "~1,393 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -383,17 +366,17 @@
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 6673,
-   "d24": 1389,
+   "stars": 6720,
+   "d24": 1393,
    "est": true,
-   "forks": 486,
+   "forks": 488,
    "contrib": 8,
    "score": 94
   },
   {
    "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 2999,
-   "d24": 470,
+   "stars": 3018,
+   "d24": 471,
    "est": true,
    "forks": 381,
    "contrib": null,
@@ -401,19 +384,19 @@
   },
   {
    "repo": "bherbruck/solidcraft",
-   "stars": 1168,
-   "d24": 445,
+   "stars": 1183,
+   "d24": 457,
    "est": false,
-   "forks": 116,
+   "forks": 117,
    "contrib": null,
    "score": 78
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 3667,
-   "d24": 276,
+   "stars": 3681,
+   "d24": 287,
    "est": false,
-   "forks": 6054,
+   "forks": 6062,
    "contrib": null,
    "score": 92
   }
@@ -428,7 +411,7 @@
    "grow": null,
    "score": 92,
    "cat": "Vision",
-   "likes": 650
+   "likes": 655
   },
   {
    "name": "embeddinggemma-2",
@@ -439,7 +422,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 1964
+   "likes": 1973
   },
   {
    "name": "humanizer",
@@ -450,7 +433,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1347
+   "likes": 1351
   },
   {
    "name": "Underdog-Saluki-27B-1.0",
@@ -462,7 +445,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Agents",
-   "likes": 379
+   "likes": 381
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-Quantized",
@@ -473,7 +456,7 @@
    "grow": null,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 4119
+   "likes": 4122
   },
   {
    "name": "Qwen-Image-2.1-Turbo-Uncensored-GGUF",
@@ -915,8 +898,8 @@
    "t": "Codex CLI installs a persistent, self-updating background daemon by default",
    "url": "https://news.ycombinator.com/item?id=50060694",
    "link": "https://github.com/openai/codex/issues/48195",
-   "up": 509,
-   "com": 260,
+   "up": 520,
+   "com": 265,
    "at": "2026-10-12T18:29:04.000Z"
   },
   {
@@ -924,8 +907,8 @@
    "t": "Muse Wonder",
    "url": "https://news.ycombinator.com/item?id=50059115",
    "link": "https://research.meta.ai/blog/muse-wonder",
-   "up": 577,
-   "com": 319,
+   "up": 589,
+   "com": 323,
    "at": "2026-10-12T16:48:01.000Z"
   },
   {
@@ -933,8 +916,8 @@
    "t": "AI is a tool and using it well takes skill",
    "url": "https://news.ycombinator.com/item?id=50063427",
    "link": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
-   "up": 304,
-   "com": 248,
+   "up": 319,
+   "com": 265,
    "at": "2026-10-12T21:40:18.000Z"
   },
   {
@@ -942,8 +925,8 @@
    "t": "GLM-Legal",
    "url": "https://news.ycombinator.com/item?id=50058507",
    "link": "https://z.ai/blog/glm-legal",
-   "up": 498,
-   "com": 290,
+   "up": 506,
+   "com": 293,
    "at": "2026-10-12T16:11:45.000Z"
   },
   {
@@ -951,18 +934,18 @@
    "t": "Hackers activate automatic defrosting in supermarket fridges across Europe",
    "url": "https://news.ycombinator.com/item?id=50055304",
    "link": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
-   "up": 545,
-   "com": 717,
+   "up": 568,
+   "com": 738,
    "at": "2026-10-12T12:16:42.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "A look at OpenAI’s math that’s claimed computes faster Fourier transforms",
-   "url": "https://news.ycombinator.com/item?id=50065932",
-   "link": "https://www.argmin.net/p/faster-fourier-transforms",
-   "up": 78,
-   "com": 44,
-   "at": "2026-10-13T02:46:43.000Z"
+   "t": "AI Models Can Provably Hide Arbitrary Capabilities",
+   "url": "https://news.ycombinator.com/item?id=50065692",
+   "link": "https://arxiv.org/abs/2610.13928",
+   "up": 103,
+   "com": 50,
+   "at": "2026-10-13T02:07:08.000Z"
   }
  ]
 }
