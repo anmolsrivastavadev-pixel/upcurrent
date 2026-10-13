@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-13T11:01:05.530Z"
+  "updated": "2026-10-13T11:30:57.963Z"
  },
  "pulse": {
-  "trending": 77,
+  "trending": 78,
   "accelerating": 2,
   "newModels": 6,
-  "discussions": 54,
-  "stars": 4757
+  "discussions": 57,
+  "stars": 4809
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 94,
-   "grow": 11,
+   "grow": 12,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 7,232",
-    "+2,271 in 24h",
+    "★ 7,295",
+    "+2,319 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -41,8 +41,8 @@
    "grow": null,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 1,156",
-    "~696 in 24h",
+    "★ 1,173",
+    "~698 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -58,8 +58,8 @@
    "grow": null,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 3,789",
-    "~725 in 24h",
+    "★ 3,796",
+    "~723 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -73,7 +73,7 @@
    "cat": "Vision",
    "score": 92,
    "grow": 42,
-   "desc": "Vision on Hugging Face · open weights · ♥ 674",
+   "desc": "Vision on Hugging Face · open weights · ♥ 675",
    "meta": [
     "9.7K downloads",
     "Released 4 days ago"
@@ -115,16 +115,32 @@
    "url": "https://huggingface.co/jialinyyzz/humanizer"
   },
   {
+   "name": "Underdog-Saluki-27B-1.0",
+   "owner": "ConwayResearch",
+   "src": "hf",
+   "cat": "Agents",
+   "score": 87,
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 393",
+   "meta": [
+    "270K downloads",
+    "Released 5 days ago"
+   ],
+   "at": "2026-10-08T01:47:26.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0"
+  },
+  {
    "name": "aurelio-finance",
    "owner": "LosaLosSantos",
    "src": "gh",
    "cat": "LLMs",
    "score": 86,
-   "grow": 7,
+   "grow": 8,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 3,061",
-    "+463 in 24h",
+    "★ 3,064",
+    "+449 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -146,22 +162,6 @@
    "at": "2026-09-20T15:51:13.000Z",
    "breakout": null,
    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized"
-  },
-  {
-   "name": "Underdog-Saluki-27B-1.0",
-   "owner": "ConwayResearch",
-   "src": "hf",
-   "cat": "Agents",
-   "score": 86,
-   "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 393",
-   "meta": [
-    "270K downloads",
-    "Released 5 days ago"
-   ],
-   "at": "2026-10-08T01:47:26.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0"
   },
   {
    "name": "Qwen-Image-2.1-Turbo-Uncensored-GGUF",
@@ -197,9 +197,9 @@
      "url": "https://tldr.nettime.org/@remixtures/117427110761117205"
     },
     {
-     "src": "Techmeme",
-     "t": "Anthropic says new measures like preserved thinking in Fable 5.1 and Opus 5.5 have reduced data harvesting through distillation attacks by about 90% to 99%",
-     "url": "https://www.techmeme.com/261012/p46#a261012p46"
+     "src": "YouTube",
+     "t": "How To Make Edits With Claude Opus 5.5 + Higgsfield Katana",
+     "url": "https://www.youtube.com/watch?v=rZvF_EWZoHw"
     },
     {
      "src": "GitHub",
@@ -208,6 +208,29 @@
     }
    ],
    "since": "2026-10-03T21:01:33.129Z"
+  },
+  {
+   "key": "muse wonder",
+   "label": "Muse Wonder",
+   "n": 3,
+   "sources": [
+    {
+     "src": "Product Hunt",
+     "t": "Muse Wonder",
+     "url": "https://www.producthunt.com/products/meta-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
+    },
+    {
+     "src": "Hacker News",
+     "t": "Muse Wonder",
+     "url": "https://news.ycombinator.com/item?id=50059115"
+    },
+    {
+     "src": "The Star",
+     "t": "Meta releases Muse Wonder AI models to challenge Anthropic and OpenAI",
+     "url": "https://www.thestar.com.my/tech/tech-news/2026/10/13/meta-releases-muse-wonder-ai-models-to-challenge-anthropic-and-openai"
+    }
+   ],
+   "since": "2026-10-13T07:01:06.070Z"
   }
  ],
  "hype": [
@@ -230,9 +253,9 @@
      "url": "https://tldr.nettime.org/@remixtures/117427110761117205"
     },
     {
-     "src": "Techmeme",
-     "t": "Anthropic says new measures like preserved thinking in Fable 5.1 and Opus 5.5 have reduced data harvesting through distillation attacks by about 90% to 99%",
-     "url": "https://www.techmeme.com/261012/p46#a261012p46"
+     "src": "YouTube",
+     "t": "How To Make Edits With Claude Opus 5.5 + Higgsfield Katana",
+     "url": "https://www.youtube.com/watch?v=rZvF_EWZoHw"
     }
    ],
    "buzz": 3,
@@ -242,8 +265,8 @@
    "name": "solidcraft",
    "url": "https://github.com/bherbruck/solidcraft",
    "from": "GitHub",
-   "use": 602,
-   "useLabel": "+602 stars/day",
+   "use": 620,
+   "useLabel": "+620 stars/day",
    "usePct": 0.25,
    "talk": [
     {
@@ -259,8 +282,19 @@
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 2271,
-   "useLabel": "+2,271 stars/day",
+   "use": 2319,
+   "useLabel": "+2,319 stars/day",
+   "usePct": 1,
+   "talk": [],
+   "buzz": 0,
+   "verdict": "Used a lot, hardly talked about"
+  },
+  {
+   "name": "Qwen-Image-2.1",
+   "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1",
+   "from": "Hugging Face",
+   "use": 9400716,
+   "useLabel": "9.4M downloads",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -272,18 +306,7 @@
    "from": "Hugging Face",
    "use": 4686252,
    "useLabel": "4.7M downloads",
-   "usePct": 1,
-   "talk": [],
-   "buzz": 0,
-   "verdict": "Used a lot, hardly talked about"
-  },
-  {
-   "name": "Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
-   "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
-   "from": "Hugging Face",
-   "use": 4675423,
-   "useLabel": "4.7M downloads",
-   "usePct": 0.967741935483871,
+   "usePct": 0.96875,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -374,46 +397,46 @@
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 7232,
-   "d24": 2271,
+   "stars": 7295,
+   "d24": 2319,
    "est": false,
-   "forks": 518,
+   "forks": 520,
    "contrib": 8,
    "score": 94
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 3789,
-   "d24": 725,
+   "stars": 3796,
+   "d24": 723,
    "est": true,
-   "forks": 6139,
+   "forks": 6144,
    "contrib": null,
    "score": 92
   },
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 1156,
-   "d24": 696,
+   "stars": 1173,
+   "d24": 698,
    "est": true,
-   "forks": 138,
+   "forks": 139,
    "contrib": null,
    "score": 94
   },
   {
    "repo": "bherbruck/solidcraft",
-   "stars": 1378,
-   "d24": 602,
+   "stars": 1403,
+   "d24": 620,
    "est": false,
    "forks": 131,
    "contrib": null,
-   "score": 78
+   "score": 80
   },
   {
    "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 3061,
-   "d24": 463,
+   "stars": 3064,
+   "d24": 449,
    "est": false,
-   "forks": 388,
+   "forks": 394,
    "contrib": null,
    "score": 86
   }
@@ -428,7 +451,7 @@
    "grow": 42,
    "score": 92,
    "cat": "Vision",
-   "likes": 674
+   "likes": 675
   },
   {
    "name": "embeddinggemma-2",
@@ -439,7 +462,7 @@
    "grow": 8,
    "score": 90,
    "cat": "Vision",
-   "likes": 2015
+   "likes": 2021
   },
   {
    "name": "humanizer",
@@ -450,7 +473,19 @@
    "grow": 17,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1389
+   "likes": 1390
+  },
+  {
+   "name": "Underdog-Saluki-27B-1.0",
+   "org": "ConwayResearch",
+   "size": "27B",
+   "lic": "Open source",
+   "at": "2026-10-08T01:47:26.000Z",
+   "dl": 269829,
+   "grow": null,
+   "score": 87,
+   "cat": "Agents",
+   "likes": 393
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-Quantized",
@@ -461,19 +496,7 @@
    "grow": 3,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 4159
-  },
-  {
-   "name": "Underdog-Saluki-27B-1.0",
-   "org": "ConwayResearch",
-   "size": "27B",
-   "lic": "Open source",
-   "at": "2026-10-08T01:47:26.000Z",
-   "dl": 269829,
-   "grow": null,
-   "score": 86,
-   "cat": "Agents",
-   "likes": 393
+   "likes": 4161
   },
   {
    "name": "Qwen-Image-2.1-Turbo-Uncensored-GGUF",
@@ -797,6 +820,20 @@
  },
  "headlines": [
   {
+   "t": "Sources: US banking regulators are questioning banks about their deployment of agentic AI, use of Chinese-developed AI models, and autonomous system safeguards",
+   "url": "https://www.techmeme.com/261013/p16#a261013p16",
+   "at": "2026-10-13T11:20:08.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "The IMF lifts its 2026 global GDP growth forecast to 3.1%, up from 3% in July, citing an AI boom that offsets Middle East war disruptions and high energy costs",
+   "url": "https://www.techmeme.com/261013/p15#a261013p15",
+   "at": "2026-10-13T11:00:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Accenture's market cap rebounded from $76B in June to ~$130B ahead of its investor day, where it seeks to reassure investors that AI won't threaten its business",
    "url": "https://www.techmeme.com/261013/p13#a261013p13",
    "at": "2026-10-13T10:35:02.000Z",
@@ -867,18 +904,18 @@
    "kind": "News"
   },
   {
-   "t": "Anthropic says new measures like preserved thinking in Fable 5.1 and Opus 5.5 have reduced data harvesting through distillation attacks by about 90% to 99%",
-   "url": "https://www.techmeme.com/261012/p46#a261012p46",
-   "at": "2026-10-13T03:45:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Threat of AI share crash puts world financial stability at risk, says IMF",
    "url": "https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks",
    "at": "2026-10-13T03:15:12Z",
    "src": "The Guardian",
    "kind": "News"
+  },
+  {
+   "t": "ಭಾರತಕ್ಕೆ ದೊಡ್ಡ ಲಾಭ! | AI Debt Crisis | Bubble Burst | RBI Warn | OpenAI | Masth Magaa | Amar Prasad",
+   "url": "https://www.youtube.com/watch?v=LQ-x6bgU3rg",
+   "at": "2026-10-13T02:30:38Z",
+   "src": "Masth Magaa",
+   "kind": "Video"
   },
   {
    "t": "IMF warns global economy ‘could soon test the limits of resilience’",
@@ -893,39 +930,25 @@
    "at": "2026-10-13T00:03:19Z",
    "src": "The Guardian",
    "kind": "News"
-  },
-  {
-   "t": "Startups are betting on AI to predict the future",
-   "url": "https://www.malaymail.com/news/money/2026/10/13/startups-are-betting-on-ai-to-predict-the-future/238787",
-   "at": "2026-10-12T23:00:00Z",
-   "src": "Malay Mail",
-   "kind": "News"
-  },
-  {
-   "t": "Contractor Pleads Guilty in Scheme to Divert AI Servers With Nvidia Chips to China",
-   "url": "https://www.naturalnews.com/2026-10-12-contractor-guilty-divert-ai-servers-nvidia-chips-china.html",
-   "at": "2026-10-12T22:49:49Z",
-   "src": "Natural News",
-   "kind": "News"
   }
  ],
  "discussions": [
   {
    "src": "Hacker News",
-   "t": "Were Software Engineers blue-collar workers all along?",
-   "url": "https://news.ycombinator.com/item?id=50068946",
-   "link": "https://ptrbrynt.com/posts/were-we-blue-collar-workers-all-along",
-   "up": 69,
-   "com": 139,
-   "at": "2026-10-13T09:25:10.000Z"
+   "t": "11 year old unsoundness bugs found in Rust borrow checker",
+   "url": "https://news.ycombinator.com/item?id=50069499",
+   "link": "https://github.com/rust-lang/rust/issues/164250",
+   "up": 102,
+   "com": 26,
+   "at": "2026-10-13T10:27:00.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Muse Wonder",
    "url": "https://news.ycombinator.com/item?id=50059115",
    "link": "https://research.meta.ai/blog/muse-wonder",
-   "up": 640,
-   "com": 347,
+   "up": 641,
+   "com": 351,
    "at": "2026-10-12T16:48:01.000Z"
   },
   {
@@ -933,17 +956,26 @@
    "t": "Codex CLI installs a persistent, self-updating background daemon by default",
    "url": "https://news.ycombinator.com/item?id=50060694",
    "link": "https://github.com/openai/codex/issues/48195",
-   "up": 568,
+   "up": 570,
    "com": 276,
    "at": "2026-10-12T18:29:04.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Were Software Engineers blue-collar workers all along?",
+   "url": "https://news.ycombinator.com/item?id=50068946",
+   "link": "https://ptrbrynt.com/posts/were-we-blue-collar-workers-all-along",
+   "up": 70,
+   "com": 144,
+   "at": "2026-10-13T09:25:10.000Z"
   },
   {
    "src": "Hacker News",
    "t": "AI is a tool and using it well takes skill",
    "url": "https://news.ycombinator.com/item?id=50063427",
    "link": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
-   "up": 432,
-   "com": 344,
+   "up": 439,
+   "com": 354,
    "at": "2026-10-12T21:40:18.000Z"
   },
   {
@@ -951,18 +983,9 @@
    "t": "Hackers activate automatic defrosting in supermarket fridges across Europe",
    "url": "https://news.ycombinator.com/item?id=50055304",
    "link": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
-   "up": 718,
-   "com": 840,
+   "up": 733,
+   "com": 850,
    "at": "2026-10-12T12:16:42.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "GLM-Legal",
-   "url": "https://news.ycombinator.com/item?id=50058507",
-   "link": "https://z.ai/blog/glm-legal",
-   "up": 576,
-   "com": 327,
-   "at": "2026-10-12T16:11:45.000Z"
   }
  ]
 }
