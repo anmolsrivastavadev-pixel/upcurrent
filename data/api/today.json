@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-13T01:01:05.326Z"
+  "updated": "2026-10-13T01:30:55.019Z"
  },
  "pulse": {
   "trending": 76,
   "accelerating": 0,
-  "newModels": 5,
-  "discussions": 51,
-  "stars": 4022
+  "newModels": 6,
+  "discussions": 52,
+  "stars": 4010
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 94,
-   "grow": 51,
+   "grow": 52,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 6,257",
-    "+2,893 in 24h",
+    "★ 6,304",
+    "+2,876 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 93,
-   "grow": 3,
+   "grow": 4,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 3,575",
-    "+201 in 24h",
+    "★ 3,590",
+    "+221 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -56,7 +56,7 @@
    "cat": "Vision",
    "score": 92,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 633",
+   "desc": "Vision on Hugging Face · open weights · ♥ 636",
    "meta": [
     "6.8K downloads",
     "Released 4 days ago"
@@ -106,8 +106,8 @@
    "grow": null,
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "meta": [
-    "★ 2,872",
-    "~463 in 24h",
+    "★ 2,886",
+    "~464 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-06T20:14:19Z",
@@ -172,7 +172,7 @@
    "grow": null,
    "desc": "End-to-end sales workspace with unified context",
    "meta": [
-    "▲ 273 votes",
+    "▲ 275 votes",
     "57 comments",
     "Launched 2 days ago"
    ],
@@ -232,19 +232,8 @@
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 2893,
-   "useLabel": "+2,893 stars/day",
-   "usePct": 1,
-   "talk": [],
-   "buzz": 0,
-   "verdict": "Used a lot, hardly talked about"
-  },
-  {
-   "name": "Qwen-Image-2.1",
-   "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1",
-   "from": "Hugging Face",
-   "use": 9090866,
-   "useLabel": "9.1M downloads",
+   "use": 2876,
+   "useLabel": "+2,876 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -256,6 +245,17 @@
    "from": "Hugging Face",
    "use": 4615462,
    "useLabel": "4.6M downloads",
+   "usePct": 1,
+   "talk": [],
+   "buzz": 0,
+   "verdict": "Used a lot, hardly talked about"
+  },
+  {
+   "name": "Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
+   "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
+   "from": "Hugging Face",
+   "use": 4413142,
+   "useLabel": "4.4M downloads",
    "usePct": 0.967741935483871,
    "talk": [],
    "buzz": 0,
@@ -347,37 +347,37 @@
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 6257,
-   "d24": 2893,
+   "stars": 6304,
+   "d24": 2876,
    "est": false,
-   "forks": 441,
+   "forks": 446,
    "contrib": 8,
    "score": 94
   },
   {
-   "repo": "bherbruck/solidcraft",
-   "stars": 1090,
-   "d24": 465,
-   "est": false,
-   "forks": 108,
-   "contrib": null,
-   "score": 78
-  },
-  {
    "repo": "LosaLosSantos/aurelio-finance",
-   "stars": 2872,
-   "d24": 463,
+   "stars": 2886,
+   "d24": 464,
    "est": true,
    "forks": 380,
    "contrib": null,
    "score": 87
   },
   {
-   "repo": "mhtsec/ARTEX",
-   "stars": 3575,
-   "d24": 201,
+   "repo": "bherbruck/solidcraft",
+   "stars": 1095,
+   "d24": 449,
    "est": false,
-   "forks": 5976,
+   "forks": 109,
+   "contrib": null,
+   "score": 78
+  },
+  {
+   "repo": "mhtsec/ARTEX",
+   "stars": 3590,
+   "d24": 221,
+   "est": false,
+   "forks": 5989,
    "contrib": null,
    "score": 93
   }
@@ -392,7 +392,7 @@
    "grow": null,
    "score": 92,
    "cat": "Vision",
-   "likes": 633
+   "likes": 636
   },
   {
    "name": "embeddinggemma-2",
@@ -403,7 +403,7 @@
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 1938
+   "likes": 1939
   },
   {
    "name": "humanizer",
@@ -414,7 +414,7 @@
    "grow": null,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1322
+   "likes": 1324
   },
   {
    "name": "Underdog-Saluki-27B-1.0",
@@ -437,7 +437,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 4096
+   "likes": 4098
   },
   {
    "name": "clef",
@@ -448,7 +448,7 @@
    "grow": null,
    "score": 84,
    "cat": "Coding",
-   "likes": 2093
+   "likes": 2096
   }
  ],
  "free": [
@@ -829,7 +829,7 @@
    "kind": "Lab blog"
   },
   {
-   "t": "How the Chinese scam industry is spreading beyond Asia's fortified compounds as AI makes it cheaper and easier to run fake investment schemes and other scams",
+   "t": "How the Chinese scam industry is spreading beyond Asia's fortified compounds as AI makes it easier to run fake scams on sites like Facebook and Instagram",
    "url": "https://www.techmeme.com/261012/p28#a261012p28",
    "at": "2026-10-12T14:50:00.000Z",
    "src": "Techmeme",
@@ -850,10 +850,10 @@
    "kind": "News"
   },
   {
-   "t": "The good, the bad and the generated: How AI use among patients, doctors and researchers is changing healthcare",
-   "url": "https://www.alligator.org/article/2026/10/the-good-the-bad-and-the-generated-how-ai-use-among-patients-doctors-and-researchers-is-changing-healthcare",
-   "at": "2026-10-12T13:00:00Z",
-   "src": "The Independent Florida Alligator",
+   "t": "‘The usual red flags weren’t there’: How AI-linked job scam offering twice the usual salary almost fooled a jobseeker",
+   "url": "https://timesofindia.indiatimes.com/education/news/the-usual-red-flags-werent-there-how-ai-linked-job-scam-offering-twice-the-usual-salary-almost-fooled-a-jobseeker/articleshow/134893295.cms",
+   "at": "2026-10-12T13:29:00Z",
+   "src": "Times of India",
    "kind": "News"
   }
  ],
@@ -863,8 +863,8 @@
    "t": "Codex CLI installs a persistent, self-updating background daemon by default",
    "url": "https://news.ycombinator.com/item?id=50060694",
    "link": "https://github.com/openai/codex/issues/48195",
-   "up": 448,
-   "com": 229,
+   "up": 453,
+   "com": 237,
    "at": "2026-10-12T18:29:04.000Z"
   },
   {
@@ -872,8 +872,8 @@
    "t": "Muse Wonder",
    "url": "https://news.ycombinator.com/item?id=50059115",
    "link": "https://research.meta.ai/blog/muse-wonder",
-   "up": 516,
-   "com": 283,
+   "up": 520,
+   "com": 294,
    "at": "2026-10-12T16:48:01.000Z"
   },
   {
@@ -881,8 +881,8 @@
    "t": "AI is a tool and using it well takes skill",
    "url": "https://news.ycombinator.com/item?id=50063427",
    "link": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
-   "up": 206,
-   "com": 189,
+   "up": 226,
+   "com": 205,
    "at": "2026-10-12T21:40:18.000Z"
   },
   {
@@ -890,8 +890,8 @@
    "t": "GLM-Legal",
    "url": "https://news.ycombinator.com/item?id=50058507",
    "link": "https://z.ai/blog/glm-legal",
-   "up": 417,
-   "com": 240,
+   "up": 423,
+   "com": 247,
    "at": "2026-10-12T16:11:45.000Z"
   },
   {
@@ -899,18 +899,18 @@
    "t": "AI coding agents generate more code, but not more software",
    "url": "https://news.ycombinator.com/item?id=50059523",
    "link": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
-   "up": 307,
-   "com": 266,
+   "up": 308,
+   "com": 269,
    "at": "2026-10-12T17:14:01.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "OpenFatigue™ – Open is the new closed",
-   "url": "https://news.ycombinator.com/item?id=50061278",
-   "link": "https://openfatigue.ai/",
-   "up": 196,
-   "com": 45,
-   "at": "2026-10-12T19:08:21.000Z"
+   "t": "GPT-6 Astra Helped Me Jailbreak My Kindle",
+   "url": "https://news.ycombinator.com/item?id=50064318",
+   "link": "https://nirajrajgor.com/blog/kindle-photo-frame-with-ai",
+   "up": 88,
+   "com": 46,
+   "at": "2026-10-12T23:07:25.000Z"
   }
  ]
 }
