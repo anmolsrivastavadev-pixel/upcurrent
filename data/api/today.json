@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-14T19:01:09.468Z"
+  "updated": "2026-10-14T19:30:54.347Z"
  },
  "pulse": {
   "trending": 79,
   "accelerating": 2,
   "newModels": 7,
-  "discussions": 55,
-  "stars": 3392
+  "discussions": 56,
+  "stars": 3348
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 9,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 1,217",
-    "+355 in 24h",
+    "★ 1,221",
+    "+344 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 93,
-   "grow": 19,
+   "grow": 20,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 9,720",
-    "+1,970 in 24h",
+    "★ 9,755",
+    "+1,963 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -58,8 +58,8 @@
    "grow": 21,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 2,051",
-    "+636 in 24h",
+    "★ 2,053",
+    "+617 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -73,7 +73,7 @@
    "cat": "Vision",
    "score": 91,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 762",
+   "desc": "Vision on Hugging Face · open weights · ♥ 765",
    "meta": [
     "13K downloads",
     "Released 6 days ago"
@@ -108,7 +108,7 @@
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
     "★ 4,064",
-    "+228 in 24h",
+    "+221 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -170,10 +170,10 @@
    "cat": "Vision",
    "score": 86,
    "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 564",
+   "desc": "Vision on Hugging Face · open source · ♥ 570",
    "meta": [
     "4.2K downloads",
-    "Released 7 days ago"
+    "Released 8 days ago"
    ],
    "at": "2026-10-07T07:07:30.000Z",
    "breakout": null,
@@ -182,6 +182,28 @@
  ],
  "breakouts": [],
  "hype": [
+  {
+   "name": "Gemini 4",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "Google DeepMind blog",
+     "t": "Developing Gemini 4 Argon responsibly and safely",
+     "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/"
+    },
+    {
+     "src": "YouTube",
+     "t": "Claude Opus 6 LEAKED, Gemini 4 Carbon Leaks, HUGE OpenAI Update, Claude 24/7 Agent, & More! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=4iKUaUmeoWk"
+    }
+   ],
+   "buzz": 2,
+   "verdict": "Talk only, no public usage numbers"
+  },
   {
    "name": "LFM2.5-24B-A2B",
    "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B",
@@ -203,8 +225,8 @@
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 1970,
-   "useLabel": "+1,970 stars/day",
+   "use": 1963,
+   "useLabel": "+1,963 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -318,26 +340,26 @@
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 9720,
-   "d24": 1970,
+   "stars": 9755,
+   "d24": 1963,
    "est": false,
-   "forks": 699,
+   "forks": 702,
    "contrib": 8,
    "score": 93
   },
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2051,
-   "d24": 636,
+   "stars": 2053,
+   "d24": 617,
    "est": false,
-   "forks": 273,
+   "forks": 274,
    "contrib": null,
    "score": 93
   },
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 1217,
-   "d24": 355,
+   "stars": 1221,
+   "d24": 344,
    "est": false,
    "forks": 274,
    "contrib": null,
@@ -346,9 +368,9 @@
   {
    "repo": "mhtsec/ARTEX",
    "stars": 4064,
-   "d24": 228,
+   "d24": 221,
    "est": false,
-   "forks": 6358,
+   "forks": 6360,
    "contrib": null,
    "score": 89
   },
@@ -372,7 +394,7 @@
    "grow": null,
    "score": 91,
    "cat": "Vision",
-   "likes": 762
+   "likes": 765
   },
   {
    "name": "embeddinggemma-2",
@@ -383,7 +405,7 @@
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 2232
+   "likes": 2233
   },
   {
    "name": "humanizer",
@@ -394,7 +416,7 @@
    "grow": null,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1608
+   "likes": 1614
   },
   {
    "name": "JEV-35B",
@@ -417,7 +439,7 @@
    "grow": 3,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 4285
+   "likes": 4289
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -429,7 +451,7 @@
    "grow": null,
    "score": 86,
    "cat": "Vision",
-   "likes": 564
+   "likes": 570
   }
  ],
  "free": [
@@ -719,9 +741,16 @@
  },
  "headlines": [
   {
+   "t": "OpenAI’s London staff receive average of £2.3m per person annually",
+   "url": "https://www.theguardian.com/technology/2026/oct/14/openai-london-staff-earnings-2million-per-person",
+   "at": "2026-10-14T19:15:14Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
    "t": "Zimbabwean author Simbarashe Kundizeza denies using AI to write prize-winning story",
    "url": "https://www.theguardian.com/technology/2026/oct/14/zimbabwean-author-simbarashe-kundizeza-denies-ai-story",
-   "at": "2026-10-14T19:00:46Z",
+   "at": "2026-10-14T19:01:29Z",
    "src": "The Guardian",
    "kind": "News"
   },
@@ -822,13 +851,6 @@
    "at": "2026-10-14T14:00:41.000Z",
    "src": "Techmeme",
    "kind": "News"
-  },
-  {
-   "t": "Jensen Huang announces $2B in new European Nvidia investments, including in French startups Doctolib and Genesis AI, adding to $8B invested over the past year",
-   "url": "https://www.techmeme.com/261014/p23#a261014p23",
-   "at": "2026-10-14T13:35:00.000Z",
-   "src": "Techmeme",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -837,17 +859,26 @@
    "t": "AI agents aren't 'going rogue.' Frontier labs are skipping security basics",
    "url": "https://news.ycombinator.com/item?id=50091788",
    "link": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
-   "up": 366,
-   "com": 156,
+   "up": 481,
+   "com": 193,
    "at": "2026-10-14T17:45:23.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Banks are now trying to offload the AI data center debt they just underwrote",
+   "url": "https://news.ycombinator.com/item?id=50092664",
+   "link": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
+   "up": 67,
+   "com": 24,
+   "at": "2026-10-14T18:32:52.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Why do LLM pelicans look like this?",
    "url": "https://news.ycombinator.com/item?id=50090443",
    "link": "https://arcfu.com/post/the-emperor-pelican-has-no-clothes/",
-   "up": 133,
-   "com": 120,
+   "up": 138,
+   "com": 123,
    "at": "2026-10-14T16:33:34.000Z"
   },
   {
@@ -855,8 +886,8 @@
    "t": "Linus Torvalds's first LLM-assisted patch series",
    "url": "https://news.ycombinator.com/item?id=50090842",
    "link": "https://lwn.net/Articles/1100449/",
-   "up": 100,
-   "com": 63,
+   "up": 105,
+   "com": 75,
    "at": "2026-10-14T16:55:07.000Z"
   },
   {
@@ -865,7 +896,7 @@
    "url": "https://news.ycombinator.com/item?id=50083130",
    "link": "https://github.com/android/ndk/issues/2260",
    "up": 463,
-   "com": 226,
+   "com": 230,
    "at": "2026-10-14T06:18:01.000Z"
   },
   {
@@ -873,18 +904,9 @@
    "t": "ASML's strong orders ease fears AI spending boom is running out of steam",
    "url": "https://news.ycombinator.com/item?id=50088430",
    "link": "https://www.reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14/",
-   "up": 154,
-   "com": 149,
+   "up": 157,
+   "com": 154,
    "at": "2026-10-14T14:38:55.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Banks are now trying to offload the AI data center debt they just underwrote",
-   "url": "https://news.ycombinator.com/item?id=50092664",
-   "link": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
-   "up": 31,
-   "com": 6,
-   "at": "2026-10-14T18:32:52.000Z"
   }
  ]
 }
