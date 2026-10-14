@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-14T00:01:07.994Z"
+  "updated": "2026-10-14T00:30:50.109Z"
  },
  "pulse": {
   "trending": 79,
   "accelerating": 1,
   "newModels": 8,
-  "discussions": 43,
-  "stars": 3308
+  "discussions": 51,
+  "stars": 3277
  },
  "rising": [
   {
@@ -20,12 +20,12 @@
    "owner": "onehumanbeing",
    "src": "gh",
    "cat": "Agents",
-   "score": 95,
-   "grow": 41,
+   "score": 94,
+   "grow": 42,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 1,504",
-    "+704 in 24h",
+    "★ 1,516",
+    "+700 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -41,8 +41,8 @@
    "grow": null,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 8,160",
-    "~1,464 in 24h",
+    "★ 8,186",
+    "~1,463 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -56,7 +56,7 @@
    "cat": "Vision",
    "score": 91,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 708",
+   "desc": "Vision on Hugging Face · open weights · ♥ 709",
    "meta": [
     "9.7K downloads",
     "Released 5 days ago"
@@ -74,8 +74,8 @@
    "grow": 3,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 3,870",
-    "+195 in 24h",
+    "★ 3,871",
+    "+191 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -121,7 +121,7 @@
    "cat": "Vision",
    "score": 87,
    "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 458",
+   "desc": "Vision on Hugging Face · open source · ♥ 460",
    "meta": [
     "630 downloads",
     "Released 7 days ago"
@@ -253,8 +253,8 @@
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 1464,
-   "useLabel": "~1,464 stars/day",
+   "use": 1463,
+   "useLabel": "~1,463 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -368,35 +368,35 @@
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 8160,
-   "d24": 1464,
+   "stars": 8186,
+   "d24": 1463,
    "est": true,
-   "forks": 584,
+   "forks": 586,
    "contrib": 8,
    "score": 93
   },
   {
    "repo": "bherbruck/solidcraft",
-   "stars": 1810,
-   "d24": 727,
+   "stars": 1815,
+   "d24": 703,
    "est": false,
-   "forks": 171,
+   "forks": 172,
    "contrib": null,
    "score": 81
   },
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 1504,
-   "d24": 704,
+   "stars": 1516,
+   "d24": 700,
    "est": false,
-   "forks": 192,
+   "forks": 194,
    "contrib": null,
-   "score": 95
+   "score": 94
   },
   {
    "repo": "trhhubsd/ARTEXX",
-   "stars": 1119,
-   "d24": 218,
+   "stars": 1134,
+   "d24": 220,
    "est": true,
    "forks": 10,
    "contrib": null,
@@ -404,10 +404,10 @@
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 3870,
-   "d24": 195,
+   "stars": 3871,
+   "d24": 191,
    "est": false,
-   "forks": 6197,
+   "forks": 6198,
    "contrib": null,
    "score": 90
   }
@@ -422,7 +422,7 @@
    "grow": null,
    "score": 91,
    "cat": "Vision",
-   "likes": 708
+   "likes": 709
   },
   {
    "name": "embeddinggemma-2",
@@ -433,7 +433,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 2102
+   "likes": 2104
   },
   {
    "name": "humanizer",
@@ -444,7 +444,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1511
+   "likes": 1515
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -456,7 +456,7 @@
    "grow": null,
    "score": 87,
    "cat": "Vision",
-   "likes": 458
+   "likes": 460
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-Quantized",
@@ -467,7 +467,7 @@
    "grow": null,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 4201
+   "likes": 4202
   },
   {
    "name": "Underdog-Saluki-27B-1.0",
@@ -784,6 +784,13 @@
  },
  "headlines": [
   {
+   "t": "Albert Invent, which launched an AI model trained on chemical patents and data about 15M molecules, raised a $55M Series B, a source says at a $340M valuation",
+   "url": "https://www.techmeme.com/261013/p48#a261013p48",
+   "at": "2026-10-14T00:05:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Sources: OpenAI is in early talks to buy Trail of Bits, which finds and fixes vulnerabilities in open-source software; founded in 2012, it has 40+ employees",
    "url": "https://www.techmeme.com/261013/p47#a261013p47",
    "at": "2026-10-13T23:20:01.000Z",
@@ -882,13 +889,6 @@
    "kind": "News"
   },
   {
-   "t": "Meta expands its AI-powered \"Your Algorithm\" feature from Instagram to Facebook and Facebook Reels and says it is using LLMs more in its ranking systems",
-   "url": "https://www.techmeme.com/261013/p33#a261013p33",
-   "at": "2026-10-13T17:25:51.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Run fast, private agents on-device with LFM2.5-24B-A2B",
    "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
    "at": "2026-10-13T17:05:48.000Z",
@@ -902,8 +902,8 @@
    "t": "Gemini 4 Argon",
    "url": "https://news.ycombinator.com/item?id=50073879",
    "link": "https://deepmind.google/models/gemini/",
-   "up": 918,
-   "com": 705,
+   "up": 942,
+   "com": 729,
    "at": "2026-10-13T16:03:16.000Z"
   },
   {
@@ -911,17 +911,26 @@
    "t": "OpenAI engineer arrested in bugging of executive conference room",
    "url": "https://news.ycombinator.com/item?id=50078141",
    "link": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
-   "up": 345,
-   "com": 309,
+   "up": 361,
+   "com": 334,
    "at": "2026-10-13T20:23:55.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "11 year old unsoundness bugs found in Rust borrow checker",
+   "url": "https://news.ycombinator.com/item?id=50069499",
+   "link": "https://github.com/rust-lang/rust/issues/164250",
+   "up": 664,
+   "com": 370,
+   "at": "2026-10-13T10:27:00.000Z"
   },
   {
    "src": "Hacker News",
    "t": "I posted to HN, and then my website was flooded with AI bot traffic",
    "url": "https://news.ycombinator.com/item?id=50073221",
    "link": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
-   "up": 228,
-   "com": 142,
+   "up": 231,
+   "com": 143,
    "at": "2026-10-13T15:25:50.000Z"
   },
   {
@@ -929,26 +938,18 @@
    "t": "Gemini 4 Argon for Robotics",
    "url": "https://news.ycombinator.com/item?id=50074869",
    "link": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
-   "up": 175,
-   "com": 42,
+   "up": 181,
+   "com": 44,
    "at": "2026-10-13T16:55:47.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "OpenAI finds recording device in one of their offices",
-   "url": "https://news.ycombinator.com/item?id=50077703",
-   "link": "https://twitter.com/OpenAINewsroom/status/2110095403198849132",
-   "up": 82,
-   "com": 2,
-   "at": "2026-10-13T19:55:31.000Z"
-  },
-  {
-   "src": "Mastodon",
-   "t": "spellingmistakescostlives.com/ product-page/ai-slop-is-not-art-chatbots-are-not-your-friends-iron-on-patch/ # tech # technology # BigTech # IT # AI # Artific…",
-   "url": "https://graphics.social/@metin/117434400485802774",
-   "up": 147,
-   "com": 2,
-   "at": "2026-10-13T15:52:25.000Z"
+   "t": "A Dynamic and Distributed Virtual GPU Cloud Built on Idle Apple Silicon Devices",
+   "url": "https://news.ycombinator.com/item?id=50070593",
+   "link": "https://machinelearning.apple.com/research/distributed-gpu-cloud",
+   "up": 216,
+   "com": 91,
+   "at": "2026-10-13T12:26:36.000Z"
   }
  ]
 }
