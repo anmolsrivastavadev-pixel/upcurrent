@@ -5,32 +5,32 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-14T12:01:09.889Z"
+  "updated": "2026-10-14T12:24:09.786Z"
  },
  "pulse": {
-  "trending": 79,
+  "trending": 80,
   "accelerating": 3,
   "newModels": 7,
-  "discussions": 51,
-  "stars": 3534
+  "discussions": 55,
+  "stars": 4330
  },
  "rising": [
   {
-   "name": "esp32-iphone-agent",
-   "owner": "onehumanbeing",
+   "name": "qwen21-nsfw-pose-skill",
+   "owner": "Arekejoker",
    "src": "gh",
    "cat": "Agents",
-   "score": 94,
-   "grow": 14,
-   "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
+   "score": 96,
+   "grow": null,
+   "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 1,926",
-    "+860 in 24h",
-    "Created 3 days ago"
+    "★ 1,119",
+    "~808 in 24h",
+    "Created yesterday"
    ],
-   "at": "2026-10-11T19:10:25Z",
+   "at": "2026-10-13T03:09:42Z",
    "breakout": null,
-   "url": "https://github.com/onehumanbeing/esp32-iphone-agent"
+   "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill"
   },
   {
    "name": "anatomy",
@@ -38,16 +38,33 @@
    "src": "gh",
    "cat": "Agents",
    "score": 93,
-   "grow": 11,
+   "grow": 12,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 9,080",
-    "+1,840 in 24h",
+    "★ 9,111",
+    "+1,843 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
    "breakout": null,
    "url": "https://github.com/wheresryan22/anatomy"
+  },
+  {
+   "name": "esp32-iphone-agent",
+   "owner": "onehumanbeing",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 93,
+   "grow": 15,
+   "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
+   "meta": [
+    "★ 1,939",
+    "+857 in 24h",
+    "Created 3 days ago"
+   ],
+   "at": "2026-10-11T19:10:25Z",
+   "breakout": null,
+   "url": "https://github.com/onehumanbeing/esp32-iphone-agent"
   },
   {
    "name": "Qwen-Image-2.1-Turbo",
@@ -56,7 +73,7 @@
    "cat": "Vision",
    "score": 91,
    "grow": 31,
-   "desc": "Vision on Hugging Face · open weights · ♥ 740",
+   "desc": "Vision on Hugging Face · open weights · ♥ 741",
    "meta": [
     "13K downloads",
     "Released 5 days ago"
@@ -64,23 +81,6 @@
    "at": "2026-10-09T04:50:01.000Z",
    "breakout": null,
    "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo"
-  },
-  {
-   "name": "ARTEX",
-   "owner": "mhtsec",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 90,
-   "grow": 2,
-   "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
-   "meta": [
-    "★ 4,021",
-    "+304 in 24h",
-    "Created 6 days ago"
-   ],
-   "at": "2026-10-08T05:33:06Z",
-   "breakout": null,
-   "url": "https://github.com/mhtsec/ARTEX"
   },
   {
    "name": "embeddinggemma-2",
@@ -97,6 +97,23 @@
    "at": "2026-09-14T14:53:42.000Z",
    "breakout": null,
    "url": "https://huggingface.co/google/embeddinggemma-2"
+  },
+  {
+   "name": "ARTEX",
+   "owner": "mhtsec",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 89,
+   "grow": 2,
+   "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
+   "meta": [
+    "★ 4,024",
+    "+298 in 24h",
+    "Created 6 days ago"
+   ],
+   "at": "2026-10-08T05:33:06Z",
+   "breakout": null,
+   "url": "https://github.com/mhtsec/ARTEX"
   },
   {
    "name": "humanizer",
@@ -161,29 +178,13 @@
    "at": "2026-10-07T07:07:30.000Z",
    "breakout": null,
    "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B"
-  },
-  {
-   "name": "Qwen-Image-2.1-Turbo-Uncensored-GGUF",
-   "owner": "AtomicChat",
-   "src": "hf",
-   "cat": "Coding",
-   "score": 85,
-   "grow": 24,
-   "desc": "Model on Hugging Face · open source · ♥ 433",
-   "meta": [
-    "258K downloads",
-    "Released 5 days ago"
-   ],
-   "at": "2026-10-09T16:30:48.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF"
   }
  ],
  "breakouts": [
   {
    "key": "gemini 4",
    "label": "Gemini 4",
-   "n": 3,
+   "n": 4,
    "sources": [
     {
      "src": "Hacker News",
@@ -194,6 +195,11 @@
      "src": "Google DeepMind blog",
      "t": "Developing Gemini 4 Argon responsibly and safely",
      "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/"
+    },
+    {
+     "src": "The Verge",
+     "t": "Google finally releases Gemini 4 Argon",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon"
     },
     {
      "src": "YouTube",
@@ -224,12 +230,17 @@
      "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/"
     },
     {
+     "src": "The Verge",
+     "t": "Google finally releases Gemini 4 Argon",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon"
+    },
+    {
      "src": "YouTube",
      "t": "Claude Opus 6 LEAKED, Gemini 4 Carbon Leaks, HUGE OpenAI Update, Claude 24/7 Agent, & More! AI NEWS",
      "url": "https://www.youtube.com/watch?v=4iKUaUmeoWk"
     }
    ],
-   "buzz": 3,
+   "buzz": 4,
    "verdict": "Talk only, no public usage numbers"
   },
   {
@@ -253,8 +264,8 @@
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 1840,
-   "useLabel": "+1,840 stars/day",
+   "use": 1843,
+   "useLabel": "+1,843 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -368,48 +379,57 @@
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 9080,
-   "d24": 1840,
+   "stars": 9111,
+   "d24": 1843,
    "est": false,
-   "forks": 653,
+   "forks": 656,
    "contrib": 8,
    "score": 93
   },
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 1926,
-   "d24": 860,
+   "stars": 1939,
+   "d24": 857,
    "est": false,
-   "forks": 254,
+   "forks": 255,
    "contrib": null,
-   "score": 94
+   "score": 93
+  },
+  {
+   "repo": "Arekejoker/qwen21-nsfw-pose-skill",
+   "stars": 1119,
+   "d24": 808,
+   "est": true,
+   "forks": 255,
+   "contrib": null,
+   "score": 96
   },
   {
    "repo": "bherbruck/solidcraft",
-   "stars": 2095,
+   "stars": 2099,
    "d24": 312,
    "est": true,
-   "forks": 198,
+   "forks": 199,
    "contrib": null,
    "score": 82
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 4021,
-   "d24": 304,
+   "stars": 4024,
+   "d24": 298,
    "est": false,
-   "forks": 6332,
+   "forks": 6337,
    "contrib": null,
-   "score": 90
+   "score": 89
   },
   {
    "repo": "trhhubsd/ARTEXX",
    "stars": 1207,
-   "d24": 218,
+   "d24": 212,
    "est": false,
    "forks": 11,
    "contrib": null,
-   "score": 77
+   "score": 76
   }
  ],
  "models": [
@@ -422,7 +442,7 @@
    "grow": 31,
    "score": 91,
    "cat": "Vision",
-   "likes": 740
+   "likes": 741
   },
   {
    "name": "embeddinggemma-2",
@@ -433,7 +453,7 @@
    "grow": 8,
    "score": 90,
    "cat": "Vision",
-   "likes": 2174
+   "likes": 2181
   },
   {
    "name": "humanizer",
@@ -444,7 +464,7 @@
    "grow": 21,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1576
+   "likes": 1578
   },
   {
    "name": "JEV-35B",
@@ -467,7 +487,7 @@
    "grow": 3,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 4250
+   "likes": 4252
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -777,6 +797,20 @@
  },
  "headlines": [
   {
+   "t": "The EU Commission's AI Office launches formal AI Act probes into OpenAI and Anthropic over AI agent hacks; experts say the AI Act includes an R&D exemption",
+   "url": "https://www.techmeme.com/261014/p15#a261014p15",
+   "at": "2026-10-14T12:15:14.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Bengaluru-based Scimplify, which uses AI agents and 500+ partner manufacturing facilities to accelerate chemical production, raised $25M led by Hitachi Ventures",
+   "url": "https://www.techmeme.com/261014/p14#a261014p14",
+   "at": "2026-10-14T12:00:53.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Analysis: AI safety groups and individual donors have spent $48M in the midterm election cycle across bipartisan races to back candidates favoring AI regulation",
    "url": "https://www.techmeme.com/261014/p12#a261014p12",
    "at": "2026-10-14T11:00:43.000Z",
@@ -854,20 +888,6 @@
    "kind": "Lab blog"
   },
   {
-   "t": "Open letter: Geoffrey Hinton, Yoshua Bengio, and over 400 scientists call for an international body to oversee AI containment standards and incident reporting",
-   "url": "https://www.techmeme.com/261013/p53#a261013p53",
-   "at": "2026-10-14T03:55:00.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Delaware-based Causa Prima, which develops an agent-to-agent AI platform for managing B2B payments, resolving billing disputes, and more, raised a $20M seed",
-   "url": "https://www.techmeme.com/261013/p52#a261013p52",
-   "at": "2026-10-14T03:10:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
    "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
    "at": "2026-10-14T02:00:14.000Z",
@@ -875,17 +895,17 @@
    "kind": "Lab blog"
   },
   {
-   "t": "The EU’s next chapter in AI is agentic",
-   "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
-   "at": "2026-10-14T00:00:00.000Z",
-   "src": "OpenAI",
-   "kind": "Lab blog"
+   "t": "A $29 Billion Manager Tips Nigerian Stocks Over South Korea’s Kospi",
+   "url": "https://www.livemint.com/market/a-29-billion-manager-tips-nigerian-stocks-over-south-korea-s-kospi-11791937391049.html",
+   "at": "2026-10-14T00:23:10Z",
+   "src": "Livemint",
+   "kind": "News"
   },
   {
-   "t": "FBI arrests OpenAI engineer over covert recording device",
-   "url": "https://www.straitstimes.com/world/united-states/fbi-arrests-saudi-openai-engineer-over-covert-recording-device-doj-says",
-   "at": "2026-10-14T00:00:00Z",
-   "src": "The Straits Times",
+   "t": "\"Commitment to conclude CEPA negotiations at earliest opportunity\": PM Modi, Carney discuss bilateral ties",
+   "url": "https://www.tribuneindia.com/news/world/commitment-to-conclude-cepa-negotiations-at-earliest-opportunity-pm-modi-carney-discuss-bilateral-ties/",
+   "at": "2026-10-14T00:20:56Z",
+   "src": "The Tribune",
    "kind": "News"
   }
  ],
@@ -895,8 +915,8 @@
    "t": "Gemini 4 Argon",
    "url": "https://news.ycombinator.com/item?id=50073879",
    "link": "https://deepmind.google/models/gemini/",
-   "up": 1338,
-   "com": 933,
+   "up": 1347,
+   "com": 939,
    "at": "2026-10-13T16:03:16.000Z"
   },
   {
@@ -904,8 +924,8 @@
    "t": "AOSP Source Releases Are So Late Developers Disassemble Libraries to Report Bugs",
    "url": "https://news.ycombinator.com/item?id=50083130",
    "link": "https://github.com/android/ndk/issues/2260",
-   "up": 315,
-   "com": 144,
+   "up": 324,
+   "com": 145,
    "at": "2026-10-14T06:18:01.000Z"
   },
   {
@@ -914,7 +934,7 @@
    "url": "https://news.ycombinator.com/item?id=50078141",
    "link": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
    "up": 604,
-   "com": 501,
+   "com": 500,
    "at": "2026-10-13T20:23:55.000Z"
   },
   {
@@ -922,27 +942,27 @@
    "t": "I let an AI run my startup for a week",
    "url": "https://news.ycombinator.com/item?id=50085296",
    "link": "https://daily.tinyprojects.dev/221",
-   "up": 45,
-   "com": 47,
+   "up": 46,
+   "com": 48,
    "at": "2026-10-14T10:25:48.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Agent erased full season of \"The Challenge Swe\": \"Hundreds of days of work gone\"",
-   "url": "https://news.ycombinator.com/item?id=50085259",
-   "link": "https://www.aviaduct.com/?l=og+en&u=https%3A%2F%2Fwww.aftonbladet.se%2Fnojesbladet%2Fa%2F31oE8A%2Fthe-challenge-sverige-raderad-av-ai-bara-veckor-innan-premiaren",
-   "up": 42,
-   "com": 44,
-   "at": "2026-10-14T10:21:13.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Starlink limit hits Ukraine's drones. The battlefield depends on SpaceX",
    "url": "https://news.ycombinator.com/item?id=50084622",
    "link": "https://defence24.com/geopolitics/starlink-limit-hits-ukraines-drones-the-battlefield-depends-on-spacex",
-   "up": 68,
-   "com": 75,
+   "up": 71,
+   "com": 81,
    "at": "2026-10-14T09:10:37.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Agent erased full season of \"The Challenge Swe\": \"Hundreds of days of work gone\"",
+   "url": "https://news.ycombinator.com/item?id=50085259",
+   "link": "https://www.aviaduct.com/?l=og+en&u=https%3A%2F%2Fwww.aftonbladet.se%2Fnojesbladet%2Fa%2F31oE8A%2Fthe-challenge-sverige-raderad-av-ai-bara-veckor-innan-premiaren",
+   "up": 43,
+   "com": 44,
+   "at": "2026-10-14T10:21:13.000Z"
   }
  ]
 }
