@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-14T09:01:10.700Z"
+  "updated": "2026-10-14T09:30:53.141Z"
  },
  "pulse": {
   "trending": 79,
   "accelerating": 0,
   "newModels": 7,
-  "discussions": 51,
-  "stars": 4080
+  "discussions": 49,
+  "stars": 4044
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 1,827",
-    "~709 in 24h",
+    "★ 1,840",
+    "~708 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 93,
-   "grow": 8,
+   "grow": 9,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 8,835",
-    "+1,800 in 24h",
+    "★ 8,866",
+    "+1,784 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -56,7 +56,7 @@
    "cat": "Vision",
    "score": 91,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 732",
+   "desc": "Vision on Hugging Face · open weights · ♥ 733",
    "meta": [
     "9.7K downloads",
     "Released 5 days ago"
@@ -74,8 +74,8 @@
    "grow": null,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 3,997",
-    "~651 in 24h",
+    "★ 4,000",
+    "~649 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -89,7 +89,7 @@
    "cat": "Vision",
    "score": 90,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open source · ♥ 2.1K",
+   "desc": "Vision on Hugging Face · open source · ♥ 2.2K",
    "meta": [
     "125K downloads",
     "Released 30 days ago"
@@ -121,7 +121,7 @@
    "cat": "Infrastructure",
    "score": 89,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 685",
+   "desc": "Model on Hugging Face · open source · ♥ 697",
    "meta": [
     "17K downloads",
     "Released 3 days ago"
@@ -153,7 +153,7 @@
    "cat": "Vision",
    "score": 86,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open source · ♥ 522",
+   "desc": "Vision on Hugging Face · open source · ♥ 523",
    "meta": [
     "630 downloads",
     "Released 7 days ago"
@@ -163,20 +163,20 @@
    "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B"
   },
   {
-   "name": "Underdog-Saluki-27B-1.0",
-   "owner": "ConwayResearch",
+   "name": "Qwen-Image-2.1-Turbo-Uncensored-GGUF",
+   "owner": "AtomicChat",
    "src": "hf",
-   "cat": "Agents",
+   "cat": "Coding",
    "score": 85,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 436",
+   "desc": "Model on Hugging Face · open source · ♥ 430",
    "meta": [
-    "270K downloads",
-    "Released 6 days ago"
+    "209K downloads",
+    "Released 5 days ago"
    ],
-   "at": "2026-10-08T01:47:26.000Z",
+   "at": "2026-10-09T16:30:48.000Z",
    "breakout": null,
-   "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0"
+   "url": "https://huggingface.co/AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF"
   }
  ],
  "breakouts": [
@@ -253,8 +253,8 @@
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 1800,
-   "useLabel": "+1,800 stars/day",
+   "use": 1784,
+   "useLabel": "+1,784 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -368,44 +368,44 @@
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 8835,
-   "d24": 1800,
+   "stars": 8866,
+   "d24": 1784,
    "est": false,
-   "forks": 642,
+   "forks": 643,
    "contrib": 8,
    "score": 93
   },
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 1827,
-   "d24": 709,
+   "stars": 1840,
+   "d24": 708,
    "est": true,
-   "forks": 240,
+   "forks": 242,
    "contrib": null,
    "score": 94
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 3997,
-   "d24": 651,
+   "stars": 4000,
+   "d24": 649,
    "est": true,
-   "forks": 6312,
+   "forks": 6315,
    "contrib": null,
    "score": 90
   },
   {
    "repo": "bherbruck/solidcraft",
-   "stars": 2013,
-   "d24": 637,
+   "stars": 2023,
+   "d24": 633,
    "est": false,
-   "forks": 189,
+   "forks": 191,
    "contrib": null,
    "score": 81
   },
   {
    "repo": "trhhubsd/ARTEXX",
    "stars": 1207,
-   "d24": 283,
+   "d24": 270,
    "est": false,
    "forks": 11,
    "contrib": null,
@@ -422,7 +422,7 @@
    "grow": 0,
    "score": 91,
    "cat": "Vision",
-   "likes": 732
+   "likes": 733
   },
   {
    "name": "embeddinggemma-2",
@@ -433,7 +433,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 2148
+   "likes": 2155
   },
   {
    "name": "humanizer",
@@ -444,7 +444,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1561
+   "likes": 1568
   },
   {
    "name": "JEV-35B",
@@ -456,7 +456,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 685
+   "likes": 697
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-Quantized",
@@ -467,7 +467,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 4238
+   "likes": 4239
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -479,7 +479,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Vision",
-   "likes": 522
+   "likes": 523
   }
  ],
  "free": [
@@ -777,6 +777,13 @@
  },
  "headlines": [
   {
+   "t": "Bank of England and IMF bosses issue stark warning on cyber threat to trust",
+   "url": "https://www.theguardian.com/business/2026/oct/14/bank-of-england-imf-bosses-warning-cyber-threat-to-trust",
+   "at": "2026-10-14T09:07:59Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
    "t": "Google DeepMind and Google Cloud plan to provide up to 200 European scientific researchers with access to their frontier AI models and $3M in compute credits",
    "url": "https://www.techmeme.com/261014/p6#a261014p6",
    "at": "2026-10-14T08:15:02.000Z",
@@ -840,6 +847,13 @@
    "kind": "News"
   },
   {
+   "t": "The EU’s next chapter in AI is agentic",
+   "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+   "at": "2026-10-14T00:00:00.000Z",
+   "src": "OpenAI",
+   "kind": "Lab blog"
+  },
+  {
    "t": "Sources: OpenAI is in early talks to buy Trail of Bits, which finds and fixes vulnerabilities in open-source software; founded in 2012, it has 40+ employees",
    "url": "https://www.techmeme.com/261013/p47#a261013p47",
    "at": "2026-10-13T23:20:01.000Z",
@@ -861,31 +875,17 @@
    "kind": "News"
   },
   {
-   "t": "Unitree CEO says robotics breakthrough could happen in 2027 — with the 'ChatGPT moment' for embodied intelligence being powered by OpenAI's GPT-7 model",
-   "url": "https://www.techradar.com/ai-platforms-assistants/unitree-ceo-says-robotics-breakthrough-could-happen-in-2027-with-the-chatgpt-moment-for-embodied-intelligence-being-powered-by-openais-gpt-7-model",
-   "at": "2026-10-13T21:00:00Z",
-   "src": "TechRadar",
+   "t": "Tech Down on China Memory Chip Competition Fears - Tech Roundup",
+   "url": "https://www.marketscreener.com/news/tech-down-on-china-memory-chip-competition-fears-tech-roundup-ce785dd2d981f02c",
+   "at": "2026-10-13T21:24:38Z",
+   "src": "MarketScreener",
    "kind": "News"
   },
   {
-   "t": "FBI arrests OpenAI employee accused of planting hidden recording device in conference room",
-   "url": "https://techcrunch.com/2026/10/13/fbi-arrests-openai-employee-accused-of-planting-hidden-recording-device-in-conference-room/",
-   "at": "2026-10-13T20:59:11Z",
-   "src": "TechCrunch",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI employee arrested after recording device planted in office",
-   "url": "https://www.cnbc.com/2026/10/13/openai-employee-arrested-recording-device.html",
-   "at": "2026-10-13T20:55:12Z",
-   "src": "CNBC",
-   "kind": "News"
-  },
-  {
-   "t": "AI in your oven? Anthropic warns models ‘months away’ from self-replication on smart devices",
-   "url": "https://www.theguardian.com/technology/2026/oct/13/anthropic-ai-replicators-warning",
-   "at": "2026-10-13T20:55:04Z",
-   "src": "The Guardian",
+   "t": "Employee arrested after listening device found in OpenAI conference room, FBI and the company say",
+   "url": "https://www.bostonherald.com/2026/10/13/ai-engineer-arrested/",
+   "at": "2026-10-13T21:24:33Z",
+   "src": "The Boston Herald",
    "kind": "News"
   }
  ],
@@ -895,8 +895,8 @@
    "t": "AOSP Source Releases Are So Late Developers Disassemble Libraries to Report Bugs",
    "url": "https://news.ycombinator.com/item?id=50083130",
    "link": "https://github.com/android/ndk/issues/2260",
-   "up": 221,
-   "com": 99,
+   "up": 239,
+   "com": 110,
    "at": "2026-10-14T06:18:01.000Z"
   },
   {
@@ -904,8 +904,8 @@
    "t": "Gemini 4 Argon",
    "url": "https://news.ycombinator.com/item?id=50073879",
    "link": "https://deepmind.google/models/gemini/",
-   "up": 1272,
-   "com": 891,
+   "up": 1292,
+   "com": 899,
    "at": "2026-10-13T16:03:16.000Z"
   },
   {
@@ -913,8 +913,8 @@
    "t": "OpenAI engineer arrested in bugging of executive conference room",
    "url": "https://news.ycombinator.com/item?id=50078141",
    "link": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
-   "up": 566,
-   "com": 471,
+   "up": 577,
+   "com": 477,
    "at": "2026-10-13T20:23:55.000Z"
   },
   {
@@ -928,21 +928,21 @@
   },
   {
    "src": "Hacker News",
+   "t": "I posted to HN, and then my website was flooded with AI bot traffic",
+   "url": "https://news.ycombinator.com/item?id=50073221",
+   "link": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
+   "up": 324,
+   "com": 171,
+   "at": "2026-10-13T15:25:50.000Z"
+  },
+  {
+   "src": "Hacker News",
    "t": "Anthropic conjures threat that doesn't exist yet to stoke fears of AI apocalypse",
    "url": "https://news.ycombinator.com/item?id=50082962",
    "link": "https://www.theregister.com/ai-and-ml/2026/10/13/anthropic-conjures-another-threat-that-doesnt-exist-yet-to-stoke-fears-of-ai-apocalypse/5302866",
    "up": 64,
-   "com": 63,
+   "com": 64,
    "at": "2026-10-14T05:53:36.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "I posted to HN, and then my website was flooded with AI bot traffic",
-   "url": "https://news.ycombinator.com/item?id=50073221",
-   "link": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
-   "up": 322,
-   "com": 171,
-   "at": "2026-10-13T15:25:50.000Z"
   }
  ]
 }
