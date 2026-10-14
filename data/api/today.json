@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-14T21:30:55.355Z"
+  "updated": "2026-10-14T22:01:04.084Z"
  },
  "pulse": {
   "trending": 79,
   "accelerating": 2,
   "newModels": 7,
-  "discussions": 53,
-  "stars": 2775
+  "discussions": 54,
+  "stars": 2742
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 10,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 1,230",
-    "+292 in 24h",
+    "★ 1,232",
+    "+282 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -41,8 +41,8 @@
    "grow": null,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 9,886",
-    "~1,528 in 24h",
+    "★ 9,906",
+    "~1,526 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -58,8 +58,8 @@
    "grow": 22,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 2,061",
-    "+552 in 24h",
+    "★ 2,063",
+    "+538 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -108,7 +108,7 @@
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
     "★ 4,070",
-    "+203 in 24h",
+    "+197 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -170,7 +170,7 @@
    "cat": "Vision",
    "score": 86,
    "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 588",
+   "desc": "Vision on Hugging Face · open source · ♥ 592",
    "meta": [
     "4.2K downloads",
     "Released 8 days ago"
@@ -203,8 +203,8 @@
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 1528,
-   "useLabel": "~1,528 stars/day",
+   "use": 1526,
+   "useLabel": "~1,526 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -318,48 +318,48 @@
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 9886,
-   "d24": 1528,
+   "stars": 9906,
+   "d24": 1526,
    "est": true,
-   "forks": 712,
+   "forks": 715,
    "contrib": 8,
    "score": 93
   },
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2061,
-   "d24": 552,
+   "stars": 2063,
+   "d24": 538,
    "est": false,
-   "forks": 275,
+   "forks": 276,
    "contrib": null,
    "score": 93
   },
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 1230,
-   "d24": 292,
+   "stars": 1232,
+   "d24": 282,
    "est": false,
    "forks": 276,
    "contrib": null,
    "score": 95
   },
   {
-   "repo": "mhtsec/ARTEX",
-   "stars": 4070,
-   "d24": 203,
-   "est": false,
-   "forks": 6363,
-   "contrib": null,
-   "score": 89
-  },
-  {
    "repo": "trhhubsd/ARTEXX",
-   "stars": 1205,
-   "d24": 200,
+   "stars": 1206,
+   "d24": 199,
    "est": true,
    "forks": 11,
    "contrib": null,
    "score": 75
+  },
+  {
+   "repo": "mhtsec/ARTEX",
+   "stars": 4070,
+   "d24": 197,
+   "est": false,
+   "forks": 6364,
+   "contrib": null,
+   "score": 89
   }
  ],
  "models": [
@@ -383,7 +383,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 2247
+   "likes": 2249
   },
   {
    "name": "humanizer",
@@ -394,7 +394,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1620
+   "likes": 1623
   },
   {
    "name": "JEV-35B",
@@ -417,7 +417,7 @@
    "grow": null,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 4296
+   "likes": 4298
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -429,7 +429,7 @@
    "grow": null,
    "score": 86,
    "cat": "Vision",
-   "likes": 588
+   "likes": 592
   }
  ],
  "free": [
@@ -712,17 +712,24 @@
  },
  "headlines": [
   {
-   "t": "YouTube Music rolls out labels for songs created with the help of AI; Spotify has AI labels, and Apple Music plans to add \"Made With AI\" labels later this year",
-   "url": "https://www.techmeme.com/261014/p41#a261014p41",
-   "at": "2026-10-14T21:15:03.000Z",
+   "t": "Eight states accuse OpenAI of coaching children to harm themselves in lawsuit",
+   "url": "https://www.theguardian.com/technology/2026/oct/14/openai-child-self-harm-lawsuit",
+   "at": "2026-10-14T21:50:29Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "Zenzap, a private messenger with AI agents that aims to replace apps like WhatsApp in the workplace, raised $44M from Bessemer, Lightspeed, and others",
+   "url": "https://www.techmeme.com/261014/p42#a261014p42",
+   "at": "2026-10-14T21:40:01.000Z",
    "src": "Techmeme",
    "kind": "News"
   },
   {
-   "t": "Eight states accuse OpenAI of coaching children to harm themselves in lawsuit",
-   "url": "https://www.theguardian.com/technology/2026/oct/14/openai-child-self-harm-lawsuit",
-   "at": "2026-10-14T20:26:30Z",
-   "src": "The Guardian",
+   "t": "YouTube Music rolls out labels for songs created with the help of AI; Spotify has AI labels, and Apple Music plans to add \"Made With AI\" labels later this year",
+   "url": "https://www.techmeme.com/261014/p41#a261014p41",
+   "at": "2026-10-14T21:15:03.000Z",
+   "src": "Techmeme",
    "kind": "News"
   },
   {
@@ -815,13 +822,6 @@
    "at": "2026-10-14T15:45:01.000Z",
    "src": "Techmeme",
    "kind": "News"
-  },
-  {
-   "t": "Researchers say they discovered and communicated with Chinese AI agents that were trying to bypass security controls on websites and were traced to Tencent",
-   "url": "https://www.techmeme.com/261014/p31#a261014p31",
-   "at": "2026-10-14T15:25:02.000Z",
-   "src": "Techmeme",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -830,8 +830,8 @@
    "t": "Containment and monitoring failures are to blame for AI hacking reports: experts",
    "url": "https://news.ycombinator.com/item?id=50091788",
    "link": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
-   "up": 768,
-   "com": 364,
+   "up": 777,
+   "com": 376,
    "at": "2026-10-14T17:45:23.000Z"
   },
   {
@@ -839,8 +839,8 @@
    "t": "Things to know when you get cancer – 2026 Edition",
    "url": "https://news.ycombinator.com/item?id=50093568",
    "link": "https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/",
-   "up": 362,
-   "com": 75,
+   "up": 443,
+   "com": 105,
    "at": "2026-10-14T19:26:30.000Z"
   },
   {
@@ -848,16 +848,25 @@
    "t": "Banks are now trying to offload the AI data center debt they just underwrote",
    "url": "https://news.ycombinator.com/item?id=50092664",
    "link": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
-   "up": 196,
-   "com": 147,
+   "up": 214,
+   "com": 166,
    "at": "2026-10-14T18:32:52.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "We’re releasing Jev 1.14.0 along with experimental features for dreamers",
+   "url": "https://news.ycombinator.com/item?id=50095353",
+   "link": "https://typesafe.ai/blog/jev-1-14",
+   "up": 54,
+   "com": 19,
+   "at": "2026-10-14T21:11:03.000Z"
   },
   {
    "src": "Hacker News",
    "t": "AOSP Source Releases Are So Late Developers Disassemble Libraries to Report Bugs",
    "url": "https://news.ycombinator.com/item?id=50083130",
    "link": "https://github.com/android/ndk/issues/2260",
-   "up": 469,
+   "up": 473,
    "com": 233,
    "at": "2026-10-14T06:18:01.000Z"
   },
@@ -866,18 +875,9 @@
    "t": "Why do LLM pelicans look like this?",
    "url": "https://news.ycombinator.com/item?id=50090443",
    "link": "https://arcfu.com/post/the-emperor-pelican-has-no-clothes/",
-   "up": 146,
-   "com": 127,
+   "up": 147,
+   "com": 129,
    "at": "2026-10-14T16:33:34.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "ASML's strong orders ease fears AI spending boom is running out of steam",
-   "url": "https://news.ycombinator.com/item?id=50088430",
-   "link": "https://www.reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14/",
-   "up": 167,
-   "com": 164,
-   "at": "2026-10-14T14:38:55.000Z"
   }
  ]
 }
