@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-14T00:30:50.109Z"
+  "updated": "2026-10-14T01:01:05.858Z"
  },
  "pulse": {
   "trending": 79,
   "accelerating": 1,
   "newModels": 8,
-  "discussions": 51,
-  "stars": 3277
+  "discussions": 52,
+  "stars": 3248
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 94,
-   "grow": 42,
+   "grow": 43,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 1,516",
-    "+700 in 24h",
+    "★ 1,525",
+    "+692 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -41,8 +41,8 @@
    "grow": null,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 8,186",
-    "~1,463 in 24h",
+    "★ 8,227",
+    "~1,465 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -74,8 +74,8 @@
    "grow": 3,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 3,871",
-    "+191 in 24h",
+    "★ 3,872",
+    "+186 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -121,7 +121,7 @@
    "cat": "Vision",
    "score": 87,
    "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 460",
+   "desc": "Vision on Hugging Face · open source · ♥ 464",
    "meta": [
     "630 downloads",
     "Released 7 days ago"
@@ -153,7 +153,7 @@
    "cat": "Agents",
    "score": 86,
    "grow": 11,
-   "desc": "Model on Hugging Face · open source · ♥ 421",
+   "desc": "Model on Hugging Face · open source · ♥ 423",
    "meta": [
     "270K downloads",
     "Released 6 days ago"
@@ -179,31 +179,7 @@
    "breakout": null
   }
  ],
- "breakouts": [
-  {
-   "key": "gemini 4",
-   "label": "Gemini 4",
-   "n": 3,
-   "sources": [
-    {
-     "src": "Hacker News",
-     "t": "Gemini 4 Argon",
-     "url": "https://news.ycombinator.com/item?id=50073879"
-    },
-    {
-     "src": "Google DeepMind blog",
-     "t": "Developing Gemini 4 Argon responsibly and safely",
-     "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/"
-    },
-    {
-     "src": "YouTube",
-     "t": "Claude Opus 6 LEAKED, Gemini 4 Carbon Leaks, HUGE OpenAI Update, Claude 24/7 Agent, & More! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=4iKUaUmeoWk"
-    }
-   ],
-   "since": "2026-10-01T18:14:41.538Z"
-  }
- ],
+ "breakouts": [],
  "hype": [
   {
    "name": "Gemini 4",
@@ -222,14 +198,9 @@
      "src": "Google DeepMind blog",
      "t": "Developing Gemini 4 Argon responsibly and safely",
      "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/"
-    },
-    {
-     "src": "YouTube",
-     "t": "Claude Opus 6 LEAKED, Gemini 4 Carbon Leaks, HUGE OpenAI Update, Claude 24/7 Agent, & More! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=4iKUaUmeoWk"
     }
    ],
-   "buzz": 3,
+   "buzz": 2,
    "verdict": "Talk only, no public usage numbers"
   },
   {
@@ -253,8 +224,8 @@
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 1463,
-   "useLabel": "~1,463 stars/day",
+   "use": 1465,
+   "useLabel": "~1,465 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -368,35 +339,35 @@
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 8186,
-   "d24": 1463,
+   "stars": 8227,
+   "d24": 1465,
    "est": true,
-   "forks": 586,
+   "forks": 589,
    "contrib": 8,
    "score": 93
   },
   {
-   "repo": "bherbruck/solidcraft",
-   "stars": 1815,
-   "d24": 703,
-   "est": false,
-   "forks": 172,
-   "contrib": null,
-   "score": 81
-  },
-  {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 1516,
-   "d24": 700,
+   "stars": 1525,
+   "d24": 692,
    "est": false,
-   "forks": 194,
+   "forks": 195,
    "contrib": null,
    "score": 94
   },
   {
+   "repo": "bherbruck/solidcraft",
+   "stars": 1821,
+   "d24": 683,
+   "est": false,
+   "forks": 173,
+   "contrib": null,
+   "score": 81
+  },
+  {
    "repo": "trhhubsd/ARTEXX",
-   "stars": 1134,
-   "d24": 220,
+   "stars": 1150,
+   "d24": 222,
    "est": true,
    "forks": 10,
    "contrib": null,
@@ -404,10 +375,10 @@
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 3871,
-   "d24": 191,
+   "stars": 3872,
+   "d24": 186,
    "est": false,
-   "forks": 6198,
+   "forks": 6200,
    "contrib": null,
    "score": 90
   }
@@ -433,7 +404,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 2104
+   "likes": 2107
   },
   {
    "name": "humanizer",
@@ -444,7 +415,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1515
+   "likes": 1518
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -456,7 +427,7 @@
    "grow": null,
    "score": 87,
    "cat": "Vision",
-   "likes": 460
+   "likes": 464
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-Quantized",
@@ -467,7 +438,7 @@
    "grow": null,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 4202
+   "likes": 4204
   },
   {
    "name": "Underdog-Saluki-27B-1.0",
@@ -479,7 +450,7 @@
    "grow": 11,
    "score": 86,
    "cat": "Agents",
-   "likes": 421
+   "likes": 423
   }
  ],
  "free": [
@@ -784,6 +755,13 @@
  },
  "headlines": [
   {
+   "t": "Filing: Abdulrahman Alfozan, the OpenAI staffer charged with bugging a conference room, used a Seeed Xiao ESP32-S3 Sense dev board; a website sells it for $14",
+   "url": "https://www.techmeme.com/261013/p49#a261013p49",
+   "at": "2026-10-14T00:35:02.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Albert Invent, which launched an AI model trained on chemical patents and data about 15M molecules, raised a $55M Series B, a source says at a $340M valuation",
    "url": "https://www.techmeme.com/261013/p48#a261013p48",
    "at": "2026-10-14T00:05:01.000Z",
@@ -882,13 +860,6 @@
    "kind": "News"
   },
   {
-   "t": "Google says users with a standard account can now build personal Android apps for free in AI Studio and will be able to share them with friends in coming months",
-   "url": "https://www.techmeme.com/261013/p34#a261013p34",
-   "at": "2026-10-13T17:35:02.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Run fast, private agents on-device with LFM2.5-24B-A2B",
    "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
    "at": "2026-10-13T17:05:48.000Z",
@@ -902,8 +873,8 @@
    "t": "Gemini 4 Argon",
    "url": "https://news.ycombinator.com/item?id=50073879",
    "link": "https://deepmind.google/models/gemini/",
-   "up": 942,
-   "com": 729,
+   "up": 966,
+   "com": 736,
    "at": "2026-10-13T16:03:16.000Z"
   },
   {
@@ -911,8 +882,8 @@
    "t": "OpenAI engineer arrested in bugging of executive conference room",
    "url": "https://news.ycombinator.com/item?id=50078141",
    "link": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
-   "up": 361,
-   "com": 334,
+   "up": 384,
+   "com": 347,
    "at": "2026-10-13T20:23:55.000Z"
   },
   {
@@ -920,8 +891,8 @@
    "t": "11 year old unsoundness bugs found in Rust borrow checker",
    "url": "https://news.ycombinator.com/item?id=50069499",
    "link": "https://github.com/rust-lang/rust/issues/164250",
-   "up": 664,
-   "com": 370,
+   "up": 669,
+   "com": 373,
    "at": "2026-10-13T10:27:00.000Z"
   },
   {
@@ -929,8 +900,8 @@
    "t": "I posted to HN, and then my website was flooded with AI bot traffic",
    "url": "https://news.ycombinator.com/item?id=50073221",
    "link": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
-   "up": 231,
-   "com": 143,
+   "up": 238,
+   "com": 146,
    "at": "2026-10-13T15:25:50.000Z"
   },
   {
@@ -938,8 +909,8 @@
    "t": "Gemini 4 Argon for Robotics",
    "url": "https://news.ycombinator.com/item?id=50074869",
    "link": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
-   "up": 181,
-   "com": 44,
+   "up": 193,
+   "com": 45,
    "at": "2026-10-13T16:55:47.000Z"
   },
   {
@@ -947,8 +918,8 @@
    "t": "A Dynamic and Distributed Virtual GPU Cloud Built on Idle Apple Silicon Devices",
    "url": "https://news.ycombinator.com/item?id=50070593",
    "link": "https://machinelearning.apple.com/research/distributed-gpu-cloud",
-   "up": 216,
-   "com": 91,
+   "up": 218,
+   "com": 93,
    "at": "2026-10-13T12:26:36.000Z"
   }
  ]
