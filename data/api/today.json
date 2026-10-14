@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-14T02:01:06.417Z"
+  "updated": "2026-10-14T02:30:54.588Z"
  },
  "pulse": {
   "trending": 79,
   "accelerating": 1,
   "newModels": 8,
-  "discussions": 52,
-  "stars": 3246
+  "discussions": 51,
+  "stars": 3254
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 94,
-   "grow": 47,
+   "grow": 49,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 1,560",
-    "+700 in 24h",
+    "★ 1,581",
+    "+709 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -41,8 +41,8 @@
    "grow": null,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 8,309",
-    "~1,468 in 24h",
+    "★ 8,351",
+    "~1,470 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -55,8 +55,8 @@
    "src": "hf",
    "cat": "Vision",
    "score": 91,
-   "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 710",
+   "grow": 0,
+   "desc": "Vision on Hugging Face · open weights · ♥ 712",
    "meta": [
     "9.7K downloads",
     "Released 5 days ago"
@@ -74,8 +74,8 @@
    "grow": 4,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 3,881",
-    "+188 in 24h",
+    "★ 3,896",
+    "+203 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -121,7 +121,7 @@
    "cat": "Vision",
    "score": 87,
    "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 468",
+   "desc": "Vision on Hugging Face · open source · ♥ 473",
    "meta": [
     "630 downloads",
     "Released 7 days ago"
@@ -153,7 +153,7 @@
    "cat": "Agents",
    "score": 86,
    "grow": 11,
-   "desc": "Model on Hugging Face · open source · ♥ 425",
+   "desc": "Model on Hugging Face · open source · ♥ 426",
    "meta": [
     "270K downloads",
     "Released 6 days ago"
@@ -163,19 +163,19 @@
    "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0"
   },
   {
-   "name": "GroundingPI: A Grounding Foundation Model towards Physical Intelligence with Visual Primitives",
+   "name": "VIS-Ground: Video Interactive Storytelling with Contextual Grounding",
    "owner": "Paper",
    "src": "paper",
-   "url": "https://huggingface.co/papers/2609.39601",
+   "url": "https://huggingface.co/papers/2610.09326",
    "cat": "Research",
    "score": 85,
    "grow": null,
-   "desc": "Precise grounding matters.",
+   "desc": "Video interactive storytelling enables viewers to actively steer how a video unfolds.",
    "meta": [
-    "▲ 248 upvotes",
+    "▲ 79 upvotes",
     "Hugging Face Papers"
    ],
-   "at": "2026-09-29T20:00:00.000Z",
+   "at": "2026-10-06T20:00:00.000Z",
    "breakout": null
   }
  ],
@@ -183,12 +183,17 @@
   {
    "key": "gemini 4",
    "label": "Gemini 4",
-   "n": 3,
+   "n": 4,
    "sources": [
     {
      "src": "Hacker News",
      "t": "Gemini 4 Argon",
      "url": "https://news.ycombinator.com/item?id=50073879"
+    },
+    {
+     "src": "DEV",
+     "t": "LangChainJS and Gemini 4 Argon: What's here and what's coming?",
+     "url": "https://dev.to/gde/langchainjs-and-gemini-4-argon-whats-here-and-whats-coming-2kod"
     },
     {
      "src": "Google DeepMind blog",
@@ -219,6 +224,11 @@
      "url": "https://news.ycombinator.com/item?id=50073879"
     },
     {
+     "src": "DEV",
+     "t": "LangChainJS and Gemini 4 Argon: What's here and what's coming?",
+     "url": "https://dev.to/gde/langchainjs-and-gemini-4-argon-whats-here-and-whats-coming-2kod"
+    },
+    {
      "src": "Google DeepMind blog",
      "t": "Developing Gemini 4 Argon responsibly and safely",
      "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/"
@@ -229,7 +239,7 @@
      "url": "https://www.youtube.com/watch?v=4iKUaUmeoWk"
     }
    ],
-   "buzz": 3,
+   "buzz": 4,
    "verdict": "Talk only, no public usage numbers"
   },
   {
@@ -253,8 +263,8 @@
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 1468,
-   "useLabel": "~1,468 stars/day",
+   "use": 1470,
+   "useLabel": "~1,470 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -368,35 +378,35 @@
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 8309,
-   "d24": 1468,
+   "stars": 8351,
+   "d24": 1470,
    "est": true,
-   "forks": 598,
+   "forks": 604,
    "contrib": 8,
    "score": 93
   },
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 1560,
-   "d24": 700,
+   "stars": 1581,
+   "d24": 709,
    "est": false,
-   "forks": 195,
+   "forks": 197,
    "contrib": null,
    "score": 94
   },
   {
    "repo": "bherbruck/solidcraft",
-   "stars": 1840,
-   "d24": 664,
+   "stars": 1844,
+   "d24": 644,
    "est": false,
-   "forks": 173,
+   "forks": 175,
    "contrib": null,
    "score": 81
   },
   {
    "repo": "trhhubsd/ARTEXX",
-   "stars": 1182,
-   "d24": 226,
+   "stars": 1196,
+   "d24": 228,
    "est": true,
    "forks": 10,
    "contrib": null,
@@ -404,10 +414,10 @@
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 3881,
-   "d24": 188,
+   "stars": 3896,
+   "d24": 203,
    "est": false,
-   "forks": 6210,
+   "forks": 6223,
    "contrib": null,
    "score": 90
   }
@@ -419,10 +429,10 @@
    "lic": "Open weights",
    "at": "2026-10-09T04:50:01.000Z",
    "dl": 9665,
-   "grow": null,
+   "grow": 0,
    "score": 91,
    "cat": "Vision",
-   "likes": 710
+   "likes": 712
   },
   {
    "name": "embeddinggemma-2",
@@ -433,7 +443,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 2112
+   "likes": 2113
   },
   {
    "name": "humanizer",
@@ -456,7 +466,7 @@
    "grow": null,
    "score": 87,
    "cat": "Vision",
-   "likes": 468
+   "likes": 473
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-Quantized",
@@ -467,7 +477,7 @@
    "grow": null,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 4208
+   "likes": 4210
   },
   {
    "name": "Underdog-Saluki-27B-1.0",
@@ -479,7 +489,7 @@
    "grow": 11,
    "score": 86,
    "cat": "Agents",
-   "likes": 425
+   "likes": 426
   }
  ],
  "free": [
@@ -882,18 +892,18 @@
    "kind": "News"
   },
   {
-   "t": "Sources: Decagon, which offers AI customer service agents and was last valued at $4.5B, hired a bank and is in early talks with buyers, including ServiceNow",
-   "url": "https://www.techmeme.com/261013/p36#a261013p36",
-   "at": "2026-10-13T17:55:52.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Run fast, private agents on-device with LFM2.5-24B-A2B",
    "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
    "at": "2026-10-13T17:05:48.000Z",
    "src": "Hugging Face",
    "kind": "Lab blog"
+  },
+  {
+   "t": "Apple unveils new smart home devices that showcase upgraded Siri AI ",
+   "url": "https://www.theguardian.com/technology/2026/oct/13/apple-new-smart-home-device-ai",
+   "at": "2026-10-13T16:25:22Z",
+   "src": "The Guardian",
+   "kind": "News"
   }
  ],
  "discussions": [
@@ -902,8 +912,8 @@
    "t": "Gemini 4 Argon",
    "url": "https://news.ycombinator.com/item?id=50073879",
    "link": "https://deepmind.google/models/gemini/",
-   "up": 1012,
-   "com": 761,
+   "up": 1043,
+   "com": 769,
    "at": "2026-10-13T16:03:16.000Z"
   },
   {
@@ -911,8 +921,8 @@
    "t": "OpenAI engineer arrested in bugging of executive conference room",
    "url": "https://news.ycombinator.com/item?id=50078141",
    "link": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
-   "up": 415,
-   "com": 366,
+   "up": 430,
+   "com": 374,
    "at": "2026-10-13T20:23:55.000Z"
   },
   {
@@ -920,8 +930,8 @@
    "t": "11 year old unsoundness bugs found in Rust borrow checker",
    "url": "https://news.ycombinator.com/item?id=50069499",
    "link": "https://github.com/rust-lang/rust/issues/164250",
-   "up": 682,
-   "com": 379,
+   "up": 689,
+   "com": 381,
    "at": "2026-10-13T10:27:00.000Z"
   },
   {
@@ -929,8 +939,8 @@
    "t": "I posted to HN, and then my website was flooded with AI bot traffic",
    "url": "https://news.ycombinator.com/item?id=50073221",
    "link": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
-   "up": 256,
-   "com": 148,
+   "up": 264,
+   "com": 149,
    "at": "2026-10-13T15:25:50.000Z"
   },
   {
@@ -938,8 +948,8 @@
    "t": "Gemini 4 Argon for Robotics",
    "url": "https://news.ycombinator.com/item?id=50074869",
    "link": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
-   "up": 201,
-   "com": 45,
+   "up": 203,
+   "com": 46,
    "at": "2026-10-13T16:55:47.000Z"
   },
   {
@@ -947,8 +957,8 @@
    "t": "Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine",
    "url": "https://news.ycombinator.com/item?id=50080275",
    "link": "https://pulseos.finance",
-   "up": 54,
-   "com": 29,
+   "up": 61,
+   "com": 31,
    "at": "2026-10-13T23:13:23.000Z"
   }
  ]
