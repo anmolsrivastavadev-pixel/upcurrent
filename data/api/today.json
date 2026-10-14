@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-13T23:30:52.733Z"
+  "updated": "2026-10-14T00:01:07.994Z"
  },
  "pulse": {
   "trending": 79,
   "accelerating": 1,
   "newModels": 8,
-  "discussions": 54,
-  "stars": 3789
+  "discussions": 43,
+  "stars": 3308
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 41,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 1,495",
-    "+714 in 24h",
+    "★ 1,504",
+    "+704 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 93,
-   "grow": 25,
+   "grow": null,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 8,130",
-    "+1,930 in 24h",
+    "★ 8,160",
+    "~1,464 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -75,7 +75,7 @@
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
     "★ 3,870",
-    "+202 in 24h",
+    "+195 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -136,7 +136,7 @@
    "src": "hf",
    "cat": "Infrastructure",
    "score": 86,
-   "grow": 3,
+   "grow": null,
    "desc": "Model on Hugging Face · open weights · ♥ 4.2K",
    "meta": [
     "2.2M downloads",
@@ -153,7 +153,7 @@
    "cat": "Agents",
    "score": 86,
    "grow": 11,
-   "desc": "Model on Hugging Face · open source · ♥ 420",
+   "desc": "Model on Hugging Face · open source · ♥ 421",
    "meta": [
     "270K downloads",
     "Released 6 days ago"
@@ -233,23 +233,6 @@
    "verdict": "Talk only, no public usage numbers"
   },
   {
-   "name": "solidcraft",
-   "url": "https://github.com/bherbruck/solidcraft",
-   "from": "GitHub",
-   "use": 728,
-   "useLabel": "+728 stars/day",
-   "usePct": 0.75,
-   "talk": [
-    {
-     "src": "Hacker News",
-     "t": "Show HN: SolidCraft – Open-Source Parametric CAD in Rust (With MCP Support)",
-     "url": "https://news.ycombinator.com/item?id=50064840"
-    }
-   ],
-   "buzz": 1,
-   "verdict": "The hype matches real use"
-  },
-  {
    "name": "LFM2.5-24B-A2B",
    "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B",
    "from": "Hugging Face",
@@ -270,8 +253,8 @@
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 1930,
-   "useLabel": "+1,930 stars/day",
+   "use": 1464,
+   "useLabel": "~1,464 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -385,35 +368,35 @@
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 8130,
-   "d24": 1930,
-   "est": false,
-   "forks": 580,
+   "stars": 8160,
+   "d24": 1464,
+   "est": true,
+   "forks": 584,
    "contrib": 8,
    "score": 93
   },
   {
    "repo": "bherbruck/solidcraft",
-   "stars": 1795,
-   "d24": 728,
+   "stars": 1810,
+   "d24": 727,
    "est": false,
-   "forks": 169,
+   "forks": 171,
    "contrib": null,
    "score": 81
   },
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 1495,
-   "d24": 714,
+   "stars": 1504,
+   "d24": 704,
    "est": false,
-   "forks": 191,
+   "forks": 192,
    "contrib": null,
    "score": 95
   },
   {
    "repo": "trhhubsd/ARTEXX",
-   "stars": 1103,
-   "d24": 215,
+   "stars": 1119,
+   "d24": 218,
    "est": true,
    "forks": 10,
    "contrib": null,
@@ -422,7 +405,7 @@
   {
    "repo": "mhtsec/ARTEX",
    "stars": 3870,
-   "d24": 202,
+   "d24": 195,
    "est": false,
    "forks": 6197,
    "contrib": null,
@@ -450,7 +433,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 2101
+   "likes": 2102
   },
   {
    "name": "humanizer",
@@ -461,7 +444,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1510
+   "likes": 1511
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -481,7 +464,7 @@
    "lic": "Open weights",
    "at": "2026-09-20T15:51:13.000Z",
    "dl": 2247929,
-   "grow": 3,
+   "grow": null,
    "score": 86,
    "cat": "Infrastructure",
    "likes": 4201
@@ -496,7 +479,7 @@
    "grow": 11,
    "score": 86,
    "cat": "Agents",
-   "likes": 420
+   "likes": 421
   }
  ],
  "free": [
@@ -919,8 +902,8 @@
    "t": "Gemini 4 Argon",
    "url": "https://news.ycombinator.com/item?id=50073879",
    "link": "https://deepmind.google/models/gemini/",
-   "up": 888,
-   "com": 697,
+   "up": 918,
+   "com": 705,
    "at": "2026-10-13T16:03:16.000Z"
   },
   {
@@ -928,26 +911,17 @@
    "t": "OpenAI engineer arrested in bugging of executive conference room",
    "url": "https://news.ycombinator.com/item?id=50078141",
    "link": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
-   "up": 326,
-   "com": 279,
+   "up": 345,
+   "com": 309,
    "at": "2026-10-13T20:23:55.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "11 year old unsoundness bugs found in Rust borrow checker",
-   "url": "https://news.ycombinator.com/item?id=50069499",
-   "link": "https://github.com/rust-lang/rust/issues/164250",
-   "up": 649,
-   "com": 362,
-   "at": "2026-10-13T10:27:00.000Z"
   },
   {
    "src": "Hacker News",
    "t": "I posted to HN, and then my website was flooded with AI bot traffic",
    "url": "https://news.ycombinator.com/item?id=50073221",
    "link": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
-   "up": 223,
-   "com": 139,
+   "up": 228,
+   "com": 142,
    "at": "2026-10-13T15:25:50.000Z"
   },
   {
@@ -955,8 +929,8 @@
    "t": "Gemini 4 Argon for Robotics",
    "url": "https://news.ycombinator.com/item?id=50074869",
    "link": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
-   "up": 173,
-   "com": 40,
+   "up": 175,
+   "com": 42,
    "at": "2026-10-13T16:55:47.000Z"
   },
   {
@@ -964,9 +938,17 @@
    "t": "OpenAI finds recording device in one of their offices",
    "url": "https://news.ycombinator.com/item?id=50077703",
    "link": "https://twitter.com/OpenAINewsroom/status/2110095403198849132",
-   "up": 81,
+   "up": 82,
    "com": 2,
    "at": "2026-10-13T19:55:31.000Z"
+  },
+  {
+   "src": "Mastodon",
+   "t": "spellingmistakescostlives.com/ product-page/ai-slop-is-not-art-chatbots-are-not-your-friends-iron-on-patch/ # tech # technology # BigTech # IT # AI # Artific…",
+   "url": "https://graphics.social/@metin/117434400485802774",
+   "up": 147,
+   "com": 2,
+   "at": "2026-10-13T15:52:25.000Z"
   }
  ]
 }
