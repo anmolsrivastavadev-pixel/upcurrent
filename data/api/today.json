@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-14T04:01:04.615Z"
+  "updated": "2026-10-14T04:31:05.373Z"
  },
  "pulse": {
   "trending": 79,
   "accelerating": 0,
   "newModels": 8,
-  "discussions": 53,
-  "stars": 3289
+  "discussions": 54,
+  "stars": 3713
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 94,
-   "grow": 55,
+   "grow": 56,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 1,646",
-    "+735 in 24h",
+    "★ 1,656",
+    "+729 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -41,8 +41,8 @@
    "grow": null,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 8,466",
-    "~1,474 in 24h",
+    "★ 8,501",
+    "~1,475 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -71,11 +71,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 90,
-   "grow": 5,
+   "grow": null,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 3,923",
-    "+220 in 24h",
+    "★ 3,926",
+    "~659 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -121,7 +121,7 @@
    "cat": "Vision",
    "score": 87,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open source · ♥ 477",
+   "desc": "Vision on Hugging Face · open source · ♥ 480",
    "meta": [
     "630 downloads",
     "Released 7 days ago"
@@ -163,20 +163,20 @@
    "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0"
   },
   {
-   "name": "Vela: User Behavior as Supervision Sparks LLM Intelligence",
-   "owner": "Paper",
-   "src": "paper",
-   "url": "https://huggingface.co/papers/2610.14709",
-   "cat": "Research",
-   "score": 85,
-   "grow": null,
-   "desc": "Large language models are increasingly deployed in applications that act on users' long-term behavior histories, from personal assistants to recommendation and advertising systems.",
+   "name": "JEV-35B",
+   "owner": "autotrust",
+   "src": "hf",
+   "cat": "Infrastructure",
+   "score": 86,
+   "grow": 0,
+   "desc": "Model on Hugging Face · open source · ♥ 576",
    "meta": [
-    "▲ 18 upvotes",
-    "Hugging Face Papers"
+    "17K downloads",
+    "Released 3 days ago"
    ],
-   "at": "2026-10-09T20:00:00.000Z",
-   "breakout": null
+   "at": "2026-10-11T01:22:03.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/autotrust/JEV-35B"
   }
  ],
  "breakouts": [
@@ -191,19 +191,19 @@
      "url": "https://news.ycombinator.com/item?id=50073879"
     },
     {
-     "src": "DEV",
-     "t": "LangChainJS and Gemini 4 Argon: What's here and what's coming?",
-     "url": "https://dev.to/gde/langchainjs-and-gemini-4-argon-whats-here-and-whats-coming-2kod"
-    },
-    {
      "src": "Google DeepMind blog",
      "t": "Developing Gemini 4 Argon responsibly and safely",
      "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/"
     },
     {
-     "src": "The Verge",
-     "t": "Google finally releases Gemini 4 Argon",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon"
+     "src": "The Star",
+     "t": "Google launches flagship AI model Gemini 4 Argon for developers, businesses",
+     "url": "https://www.thestar.com.my/tech/tech-news/2026/10/14/google-launches-flagship-ai-model-gemini-4-argon-for-developers-businesses"
+    },
+    {
+     "src": "YouTube",
+     "t": "Claude Opus 6 LEAKED, Gemini 4 Carbon Leaks, HUGE OpenAI Update, Claude 24/7 Agent, & More! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=4iKUaUmeoWk"
     }
    ],
    "since": "2026-10-01T18:14:41.538Z"
@@ -224,19 +224,19 @@
      "url": "https://news.ycombinator.com/item?id=50073879"
     },
     {
-     "src": "DEV",
-     "t": "LangChainJS and Gemini 4 Argon: What's here and what's coming?",
-     "url": "https://dev.to/gde/langchainjs-and-gemini-4-argon-whats-here-and-whats-coming-2kod"
-    },
-    {
      "src": "Google DeepMind blog",
      "t": "Developing Gemini 4 Argon responsibly and safely",
      "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/"
     },
     {
-     "src": "The Verge",
-     "t": "Google finally releases Gemini 4 Argon",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon"
+     "src": "The Star",
+     "t": "Google launches flagship AI model Gemini 4 Argon for developers, businesses",
+     "url": "https://www.thestar.com.my/tech/tech-news/2026/10/14/google-launches-flagship-ai-model-gemini-4-argon-for-developers-businesses"
+    },
+    {
+     "src": "YouTube",
+     "t": "Claude Opus 6 LEAKED, Gemini 4 Carbon Leaks, HUGE OpenAI Update, Claude 24/7 Agent, & More! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=4iKUaUmeoWk"
     }
    ],
    "buzz": 4,
@@ -248,7 +248,7 @@
    "from": "Hugging Face",
    "use": 2565,
    "useLabel": "2.6K downloads",
-   "usePct": 0.12121212121212122,
+   "usePct": 0.15151515151515152,
    "talk": [
     {
      "src": "Hugging Face blog",
@@ -263,19 +263,8 @@
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 1474,
-   "useLabel": "~1,474 stars/day",
-   "usePct": 1,
-   "talk": [],
-   "buzz": 0,
-   "verdict": "Used a lot, hardly talked about"
-  },
-  {
-   "name": "Qwen-Image-2.1",
-   "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1",
-   "from": "Hugging Face",
-   "use": 9400716,
-   "useLabel": "9.4M downloads",
+   "use": 1475,
+   "useLabel": "~1,475 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -286,6 +275,17 @@
    "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
    "from": "Hugging Face",
    "use": 4686252,
+   "useLabel": "4.7M downloads",
+   "usePct": 1,
+   "talk": [],
+   "buzz": 0,
+   "verdict": "Used a lot, hardly talked about"
+  },
+  {
+   "name": "Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
+   "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
+   "from": "Hugging Face",
+   "use": 4675423,
    "useLabel": "4.7M downloads",
    "usePct": 0.9696969696969697,
    "talk": [],
@@ -378,48 +378,48 @@
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 8466,
-   "d24": 1474,
+   "stars": 8501,
+   "d24": 1475,
    "est": true,
-   "forks": 612,
+   "forks": 616,
    "contrib": 8,
    "score": 93
   },
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 1646,
-   "d24": 735,
+   "stars": 1656,
+   "d24": 729,
    "est": false,
-   "forks": 208,
+   "forks": 210,
    "contrib": null,
    "score": 94
   },
   {
+   "repo": "mhtsec/ARTEX",
+   "stars": 3926,
+   "d24": 659,
+   "est": true,
+   "forks": 6254,
+   "contrib": null,
+   "score": 90
+  },
+  {
    "repo": "bherbruck/solidcraft",
-   "stars": 1878,
-   "d24": 633,
+   "stars": 1886,
+   "d24": 624,
    "est": false,
-   "forks": 181,
+   "forks": 182,
    "contrib": null,
    "score": 81
   },
   {
    "repo": "trhhubsd/ARTEXX",
    "stars": 1207,
-   "d24": 227,
+   "d24": 226,
    "est": true,
-   "forks": 10,
+   "forks": 11,
    "contrib": null,
    "score": 77
-  },
-  {
-   "repo": "mhtsec/ARTEX",
-   "stars": 3923,
-   "d24": 220,
-   "est": false,
-   "forks": 6252,
-   "contrib": null,
-   "score": 90
   }
  ],
  "models": [
@@ -443,7 +443,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 2116
+   "likes": 2119
   },
   {
    "name": "humanizer",
@@ -454,7 +454,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1535
+   "likes": 1539
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -466,7 +466,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Vision",
-   "likes": 477
+   "likes": 480
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-Quantized",
@@ -477,7 +477,7 @@
    "grow": null,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 4215
+   "likes": 4218
   },
   {
    "name": "Underdog-Saluki-27B-1.0",
@@ -912,8 +912,8 @@
    "t": "Gemini 4 Argon",
    "url": "https://news.ycombinator.com/item?id=50073879",
    "link": "https://deepmind.google/models/gemini/",
-   "up": 1108,
-   "com": 806,
+   "up": 1126,
+   "com": 813,
    "at": "2026-10-13T16:03:16.000Z"
   },
   {
@@ -921,8 +921,8 @@
    "t": "OpenAI engineer arrested in bugging of executive conference room",
    "url": "https://news.ycombinator.com/item?id=50078141",
    "link": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
-   "up": 467,
-   "com": 405,
+   "up": 476,
+   "com": 413,
    "at": "2026-10-13T20:23:55.000Z"
   },
   {
@@ -930,7 +930,7 @@
    "t": "11 year old unsoundness bugs found in Rust borrow checker",
    "url": "https://news.ycombinator.com/item?id=50069499",
    "link": "https://github.com/rust-lang/rust/issues/164250",
-   "up": 693,
+   "up": 694,
    "com": 386,
    "at": "2026-10-13T10:27:00.000Z"
   },
@@ -939,8 +939,8 @@
    "t": "I posted to HN, and then my website was flooded with AI bot traffic",
    "url": "https://news.ycombinator.com/item?id=50073221",
    "link": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
-   "up": 280,
-   "com": 157,
+   "up": 286,
+   "com": 159,
    "at": "2026-10-13T15:25:50.000Z"
   },
   {
@@ -948,7 +948,7 @@
    "t": "Gemini 4 Argon for Robotics",
    "url": "https://news.ycombinator.com/item?id=50074869",
    "link": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
-   "up": 205,
+   "up": 206,
    "com": 48,
    "at": "2026-10-13T16:55:47.000Z"
   },
@@ -957,8 +957,8 @@
    "t": "Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine",
    "url": "https://news.ycombinator.com/item?id=50080275",
    "link": "https://pulseos.finance",
-   "up": 79,
-   "com": 45,
+   "up": 80,
+   "com": 47,
    "at": "2026-10-13T23:13:23.000Z"
   }
  ]
