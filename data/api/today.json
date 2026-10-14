@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-14T23:01:03.462Z"
+  "updated": "2026-10-14T23:30:53.424Z"
  },
  "pulse": {
   "trending": 79,
   "accelerating": 2,
   "newModels": 7,
-  "discussions": 51,
-  "stars": 2693
+  "discussions": 50,
+  "stars": 2671
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 11,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 1,239",
-    "+271 in 24h",
+    "★ 1,242",
+    "+266 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -41,8 +41,8 @@
    "grow": 22,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 2,065",
-    "+510 in 24h",
+    "★ 2,068",
+    "+500 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -58,29 +58,13 @@
    "grow": null,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 9,952",
-    "~1,523 in 24h",
+    "★ 9,973",
+    "~1,522 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
    "breakout": null,
    "url": "https://github.com/wheresryan22/anatomy"
-  },
-  {
-   "name": "Qwen-Image-2.1-Turbo",
-   "owner": "Qwen",
-   "src": "hf",
-   "cat": "Vision",
-   "score": 91,
-   "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 769",
-   "meta": [
-    "13K downloads",
-    "Released 6 days ago"
-   ],
-   "at": "2026-10-09T04:50:01.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo"
   },
   {
    "name": "embeddinggemma-2",
@@ -97,6 +81,22 @@
    "at": "2026-09-14T14:53:42.000Z",
    "breakout": null,
    "url": "https://huggingface.co/google/embeddinggemma-2"
+  },
+  {
+   "name": "Qwen-Image-2.1-Turbo",
+   "owner": "Qwen",
+   "src": "hf",
+   "cat": "Vision",
+   "score": 90,
+   "grow": 0,
+   "desc": "Vision on Hugging Face · open weights · ♥ 771",
+   "meta": [
+    "13K downloads",
+    "Released 6 days ago"
+   ],
+   "at": "2026-10-09T04:50:01.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo"
   },
   {
    "name": "humanizer",
@@ -123,8 +123,8 @@
    "grow": 4,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 4,073",
-    "+191 in 24h",
+    "★ 4,074",
+    "+187 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -148,11 +148,27 @@
    "url": "https://huggingface.co/autotrust/JEV-35B"
   },
   {
+   "name": "MiniCPM-V-4.7-35B-A3B",
+   "owner": "openbmb",
+   "src": "hf",
+   "cat": "Vision",
+   "score": 86,
+   "grow": null,
+   "desc": "Vision on Hugging Face · open source · ♥ 607",
+   "meta": [
+    "4.2K downloads",
+    "Released 8 days ago"
+   ],
+   "at": "2026-10-07T07:07:30.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B"
+  },
+  {
    "name": "Qwen-Image-2.1-Uncensored-Quantized",
    "owner": "abenzerps",
    "src": "hf",
    "cat": "Infrastructure",
-   "score": 86,
+   "score": 85,
    "grow": null,
    "desc": "Model on Hugging Face · open weights · ♥ 4.3K",
    "meta": [
@@ -162,22 +178,6 @@
    "at": "2026-09-20T15:51:13.000Z",
    "breakout": null,
    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized"
-  },
-  {
-   "name": "MiniCPM-V-4.7-35B-A3B",
-   "owner": "openbmb",
-   "src": "hf",
-   "cat": "Vision",
-   "score": 86,
-   "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 602",
-   "meta": [
-    "4.2K downloads",
-    "Released 8 days ago"
-   ],
-   "at": "2026-10-07T07:07:30.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B"
   }
  ],
  "breakouts": [],
@@ -203,8 +203,8 @@
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 1523,
-   "useLabel": "~1,523 stars/day",
+   "use": 1522,
+   "useLabel": "~1,522 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -318,17 +318,17 @@
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 9952,
-   "d24": 1523,
+   "stars": 9973,
+   "d24": 1522,
    "est": true,
-   "forks": 716,
+   "forks": 718,
    "contrib": 9,
    "score": 92
   },
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2065,
-   "d24": 510,
+   "stars": 2068,
+   "d24": 500,
    "est": false,
    "forks": 276,
    "contrib": null,
@@ -336,8 +336,8 @@
   },
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 1239,
-   "d24": 271,
+   "stars": 1242,
+   "d24": 266,
    "est": false,
    "forks": 277,
    "contrib": null,
@@ -345,8 +345,8 @@
   },
   {
    "repo": "trhhubsd/ARTEXX",
-   "stars": 1206,
-   "d24": 198,
+   "stars": 1201,
+   "d24": 196,
    "est": true,
    "forks": 11,
    "contrib": null,
@@ -354,8 +354,8 @@
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 4073,
-   "d24": 191,
+   "stars": 4074,
+   "d24": 187,
    "est": false,
    "forks": 6364,
    "contrib": null,
@@ -363,17 +363,6 @@
   }
  ],
  "models": [
-  {
-   "name": "Qwen-Image-2.1-Turbo",
-   "org": "Qwen",
-   "lic": "Open weights",
-   "at": "2026-10-09T04:50:01.000Z",
-   "dl": 12704,
-   "grow": 0,
-   "score": 91,
-   "cat": "Vision",
-   "likes": 769
-  },
   {
    "name": "embeddinggemma-2",
    "org": "google",
@@ -383,7 +372,18 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 2254
+   "likes": 2257
+  },
+  {
+   "name": "Qwen-Image-2.1-Turbo",
+   "org": "Qwen",
+   "lic": "Open weights",
+   "at": "2026-10-09T04:50:01.000Z",
+   "dl": 12704,
+   "grow": 0,
+   "score": 90,
+   "cat": "Vision",
+   "likes": 771
   },
   {
    "name": "humanizer",
@@ -394,7 +394,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1630
+   "likes": 1632
   },
   {
    "name": "JEV-35B",
@@ -409,17 +409,6 @@
    "likes": 717
   },
   {
-   "name": "Qwen-Image-2.1-Uncensored-Quantized",
-   "org": "abenzerps",
-   "lic": "Open weights",
-   "at": "2026-09-20T15:51:13.000Z",
-   "dl": 2315771,
-   "grow": null,
-   "score": 86,
-   "cat": "Infrastructure",
-   "likes": 4301
-  },
-  {
    "name": "MiniCPM-V-4.7-35B-A3B",
    "org": "openbmb",
    "size": "35B",
@@ -429,7 +418,18 @@
    "grow": null,
    "score": 86,
    "cat": "Vision",
-   "likes": 602
+   "likes": 607
+  },
+  {
+   "name": "Qwen-Image-2.1-Uncensored-Quantized",
+   "org": "abenzerps",
+   "lic": "Open weights",
+   "at": "2026-09-20T15:51:13.000Z",
+   "dl": 2315771,
+   "grow": null,
+   "score": 85,
+   "cat": "Infrastructure",
+   "likes": 4302
   }
  ],
  "free": [
@@ -789,7 +789,7 @@
    "kind": "Video"
   },
   {
-   "t": "CoreWeave stock drops 15%+ and its bond yields near 15%, over concerns that some tech companies are borrowing too heavily for the AI build-out; ORCL drops 8%+",
+   "t": "CoreWeave closed down 15.5% as yields on its bonds near 15% amid concern over tech companies' heavy AI borrowing; Oracle dropped 8.8%, Nebius 10%, Dell 11.3%",
    "url": "https://www.techmeme.com/261014/p36#a261014p36",
    "at": "2026-10-14T16:45:02.000Z",
    "src": "Techmeme",
@@ -830,8 +830,8 @@
    "t": "Things to know when you get cancer – 2026 Edition",
    "url": "https://news.ycombinator.com/item?id=50093568",
    "link": "https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/",
-   "up": 546,
-   "com": 151,
+   "up": 599,
+   "com": 158,
    "at": "2026-10-14T19:26:30.000Z"
   },
   {
@@ -839,8 +839,8 @@
    "t": "Containment and monitoring failures are to blame for AI hacking reports: experts",
    "url": "https://news.ycombinator.com/item?id=50091788",
    "link": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
-   "up": 795,
-   "com": 411,
+   "up": 807,
+   "com": 431,
    "at": "2026-10-14T17:45:23.000Z"
   },
   {
@@ -848,8 +848,8 @@
    "t": "We’re releasing Jev 1.14.0 along with experimental features for dreamers",
    "url": "https://news.ycombinator.com/item?id=50095353",
    "link": "https://typesafe.ai/blog/jev-1-14",
-   "up": 105,
-   "com": 37,
+   "up": 126,
+   "com": 48,
    "at": "2026-10-14T21:11:03.000Z"
   },
   {
@@ -857,8 +857,8 @@
    "t": "Banks are now trying to offload the AI data center debt they just underwrote",
    "url": "https://news.ycombinator.com/item?id=50092664",
    "link": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
-   "up": 235,
-   "com": 180,
+   "up": 241,
+   "com": 193,
    "at": "2026-10-14T18:32:52.000Z"
   },
   {
@@ -866,7 +866,7 @@
    "t": "AOSP Source Releases Are So Late Developers Disassemble Libraries to Report Bugs",
    "url": "https://news.ycombinator.com/item?id=50083130",
    "link": "https://github.com/android/ndk/issues/2260",
-   "up": 477,
+   "up": 479,
    "com": 234,
    "at": "2026-10-14T06:18:01.000Z"
   },
