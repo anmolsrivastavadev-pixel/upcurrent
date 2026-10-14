@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-14T14:30:55.508Z"
+  "updated": "2026-10-14T15:01:38.769Z"
  },
  "pulse": {
   "trending": 80,
   "accelerating": 3,
   "newModels": 7,
   "discussions": 53,
-  "stars": 4302
+  "stars": 4282
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 1,151",
-    "~781 in 24h",
+    "★ 1,163",
+    "~778 in 24h",
     "Created yesterday"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 93,
-   "grow": 14,
+   "grow": 15,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 9,337",
-    "+1,949 in 24h",
+    "★ 9,392",
+    "+1,970 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -58,8 +58,8 @@
    "grow": 18,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 1,993",
-    "+800 in 24h",
+    "★ 1,999",
+    "+772 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -73,7 +73,7 @@
    "cat": "Vision",
    "score": 91,
    "grow": 31,
-   "desc": "Vision on Hugging Face · open weights · ♥ 748",
+   "desc": "Vision on Hugging Face · open weights · ♥ 751",
    "meta": [
     "13K downloads",
     "Released 5 days ago"
@@ -107,8 +107,8 @@
    "grow": 3,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 4,039",
-    "+271 in 24h",
+    "★ 4,043",
+    "+267 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -138,7 +138,7 @@
    "cat": "Infrastructure",
    "score": 89,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 712",
+   "desc": "Model on Hugging Face · open source · ♥ 713",
    "meta": [
     "28K downloads",
     "Released 4 days ago"
@@ -170,7 +170,7 @@
    "cat": "Vision",
    "score": 86,
    "grow": 560,
-   "desc": "Vision on Hugging Face · open source · ♥ 532",
+   "desc": "Vision on Hugging Face · open source · ♥ 535",
    "meta": [
     "4.2K downloads",
     "Released 7 days ago"
@@ -239,7 +239,7 @@
    "from": "Hugging Face",
    "use": 4067,
    "useLabel": "4.1K downloads",
-   "usePct": 0.12121212121212122,
+   "usePct": 0.15151515151515152,
    "talk": [
     {
      "src": "Hugging Face blog",
@@ -254,8 +254,8 @@
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 1949,
-   "useLabel": "+1,949 stars/day",
+   "use": 1970,
+   "useLabel": "+1,970 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -369,53 +369,53 @@
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 9337,
-   "d24": 1949,
+   "stars": 9392,
+   "d24": 1970,
    "est": false,
-   "forks": 667,
+   "forks": 674,
    "contrib": 8,
    "score": 93
   },
   {
-   "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 1993,
-   "d24": 800,
-   "est": false,
-   "forks": 263,
-   "contrib": null,
-   "score": 93
-  },
-  {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 1151,
-   "d24": 781,
+   "stars": 1163,
+   "d24": 778,
    "est": true,
-   "forks": 264,
+   "forks": 265,
    "contrib": null,
    "score": 95
   },
   {
+   "repo": "onehumanbeing/esp32-iphone-agent",
+   "stars": 1999,
+   "d24": 772,
+   "est": false,
+   "forks": 264,
+   "contrib": null,
+   "score": 93
+  },
+  {
    "repo": "bherbruck/solidcraft",
-   "stars": 2165,
+   "stars": 2177,
    "d24": 318,
    "est": true,
    "forks": 205,
    "contrib": null,
-   "score": 82
+   "score": 81
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 4039,
-   "d24": 271,
+   "stars": 4043,
+   "d24": 267,
    "est": false,
-   "forks": 6343,
+   "forks": 6346,
    "contrib": null,
    "score": 89
   },
   {
    "repo": "trhhubsd/ARTEXX",
    "stars": 1207,
-   "d24": 183,
+   "d24": 177,
    "est": false,
    "forks": 11,
    "contrib": null,
@@ -432,7 +432,7 @@
    "grow": 31,
    "score": 91,
    "cat": "Vision",
-   "likes": 748
+   "likes": 751
   },
   {
    "name": "embeddinggemma-2",
@@ -443,7 +443,7 @@
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 2195
+   "likes": 2199
   },
   {
    "name": "humanizer",
@@ -454,7 +454,7 @@
    "grow": null,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1592
+   "likes": 1596
   },
   {
    "name": "JEV-35B",
@@ -466,7 +466,7 @@
    "grow": null,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 712
+   "likes": 713
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-Quantized",
@@ -477,7 +477,7 @@
    "grow": 3,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 4270
+   "likes": 4271
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -489,7 +489,7 @@
    "grow": 560,
    "score": 86,
    "cat": "Vision",
-   "likes": 532
+   "likes": 535
   }
  ],
  "free": [
@@ -786,6 +786,13 @@
  },
  "headlines": [
   {
+   "t": "A profile of Abdulrahman Alfozan, a Saudi national who the FBI arrested after OpenAI discovered a recording device and who has deep connections in Saudi Arabia",
+   "url": "https://www.techmeme.com/261014/p29#a261014p29",
+   "at": "2026-10-14T14:40:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Salience Labs, which develops specialized all-optical circuit switching tech for AI data centers, raised a $125M Series B led by Bullhound Capital",
    "url": "https://www.techmeme.com/261014/p27#a261014p27",
    "at": "2026-10-14T14:10:02.000Z",
@@ -835,13 +842,6 @@
    "kind": "News"
   },
   {
-   "t": "Bengaluru-based Scimplify, which uses AI agents and 500+ partner manufacturing facilities to accelerate chemical production, raised $25M led by Hitachi Ventures",
-   "url": "https://www.techmeme.com/261014/p14#a261014p14",
-   "at": "2026-10-14T12:00:53.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Nvidia, worth $5.5tn, donates $250m to UK for AI safety research",
    "url": "https://www.theguardian.com/technology/2026/oct/14/nvidia-donates-to-uk-ai-safety-research",
    "at": "2026-10-14T10:10:37Z",
@@ -849,15 +849,15 @@
    "kind": "News"
   },
   {
-   "t": "AI overlords say they want to democratise their technology. Here’s how | Richard Wilson and Clara Long",
-   "url": "https://www.theguardian.com/commentisfree/2026/oct/14/ai-overlords-democratise-technology",
+   "t": "Tool and target: US law enforcement grapple with AI-enabled terrorism and anti-tech extremism",
+   "url": "https://www.theguardian.com/technology/ng-interactive/2026/oct/14/ai-terror-plots-fbi-extremism",
    "at": "2026-10-14T10:00:03Z",
    "src": "The Guardian",
    "kind": "News"
   },
   {
-   "t": "Tool and target: US law enforcement grapple with AI-enabled terrorism and anti-tech extremism",
-   "url": "https://www.theguardian.com/technology/ng-interactive/2026/oct/14/ai-terror-plots-fbi-extremism",
+   "t": "AI overlords say they want to democratise their technology. Here’s how | Richard Wilson and Clara Long",
+   "url": "https://www.theguardian.com/commentisfree/2026/oct/14/ai-overlords-democratise-technology",
    "at": "2026-10-14T10:00:03Z",
    "src": "The Guardian",
    "kind": "News"
@@ -891,9 +891,9 @@
    "kind": "Video"
   },
   {
-   "t": "Saudi Engineer Arrested For Allegedly Planting Recording Device In OpenAI Executive Conference Room, Faces Up To Five Years In Prison",
-   "url": "https://www.freepressjournal.in/tech/saudi-engineer-arrested-for-allegedly-planting-recording-device-in-openai-executive-conference-room-faces-up-to-five-years-in-prison",
-   "at": "2026-10-14T02:29:40Z",
+   "t": "Who Is Abdulrahman Alfozan? What We Know About The Saudi Engineer Arrested For Allegedly Bugging OpenAI Office",
+   "url": "https://www.freepressjournal.in/tech/who-is-abdulrahman-alfozan-what-we-know-about-the-saudi-engineer-arrested-for-allegedly-bugging-openai-office",
+   "at": "2026-10-14T02:58:45Z",
    "src": "Free Press Journal",
    "kind": "News"
   }
@@ -904,8 +904,8 @@
    "t": "Gemini 4 Argon",
    "url": "https://news.ycombinator.com/item?id=50073879",
    "link": "https://deepmind.google/models/gemini/",
-   "up": 1371,
-   "com": 975,
+   "up": 1382,
+   "com": 986,
    "at": "2026-10-13T16:03:16.000Z"
   },
   {
@@ -913,8 +913,8 @@
    "t": "AOSP Source Releases Are So Late Developers Disassemble Libraries to Report Bugs",
    "url": "https://news.ycombinator.com/item?id=50083130",
    "link": "https://github.com/android/ndk/issues/2260",
-   "up": 391,
-   "com": 185,
+   "up": 410,
+   "com": 192,
    "at": "2026-10-14T06:18:01.000Z"
   },
   {
@@ -922,8 +922,8 @@
    "t": "OpenAI engineer arrested in bugging of executive conference room",
    "url": "https://news.ycombinator.com/item?id=50078141",
    "link": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
-   "up": 613,
-   "com": 512,
+   "up": 619,
+   "com": 515,
    "at": "2026-10-13T20:23:55.000Z"
   },
   {
@@ -931,27 +931,27 @@
    "t": "Pg_vectorsearch: An index that is faster than pgvector's IVFFlat and HNSW",
    "url": "https://news.ycombinator.com/item?id=50086165",
    "link": "https://github.com/timescale/pg_vectorsearch",
-   "up": 82,
-   "com": 28,
+   "up": 89,
+   "com": 33,
    "at": "2026-10-14T11:47:53.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "ASML's strong orders ease fears AI spending boom is running out of steam",
+   "url": "https://news.ycombinator.com/item?id=50088430",
+   "link": "https://www.reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14/",
+   "up": 25,
+   "com": 5,
+   "at": "2026-10-14T14:38:55.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Starlink limit hits Ukraine's drones. The battlefield depends on SpaceX",
    "url": "https://news.ycombinator.com/item?id=50084622",
    "link": "https://defence24.com/geopolitics/starlink-limit-hits-ukraines-drones-the-battlefield-depends-on-spacex",
-   "up": 89,
-   "com": 98,
+   "up": 97,
+   "com": 103,
    "at": "2026-10-14T09:10:37.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "TV4 postpones show after AI agent erases edited material",
-   "url": "https://news.ycombinator.com/item?id=50085323",
-   "link": "https://swedenherald.com/article/tv4-postpones-the-challenge-until-2027-after-technical-failure-erases-edited-footage",
-   "up": 59,
-   "com": 30,
-   "at": "2026-10-14T10:28:26.000Z"
   }
  ]
 }
