@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-14T05:01:06.176Z"
+  "updated": "2026-10-14T05:30:52.748Z"
  },
  "pulse": {
   "trending": 79,
   "accelerating": 0,
   "newModels": 8,
-  "discussions": 53,
-  "stars": 3959
+  "discussions": 54,
+  "stars": 3889
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 94,
-   "grow": 57,
+   "grow": null,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 1,674",
-    "+732 in 24h",
+    "★ 1,693",
+    "~696 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -41,7 +41,7 @@
    "grow": null,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 8,531",
+    "★ 8,563",
     "~1,475 in 24h",
     "Created 6 days ago"
    ],
@@ -56,7 +56,7 @@
    "cat": "Vision",
    "score": 91,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 714",
+   "desc": "Vision on Hugging Face · open weights · ♥ 718",
    "meta": [
     "9.7K downloads",
     "Released 5 days ago"
@@ -74,8 +74,8 @@
    "grow": null,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 3,931",
-    "~658 in 24h",
+    "★ 3,935",
+    "~656 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -121,7 +121,7 @@
    "cat": "Infrastructure",
    "score": 88,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 592",
+   "desc": "Model on Hugging Face · open source · ♥ 602",
    "meta": [
     "17K downloads",
     "Released 3 days ago"
@@ -137,7 +137,7 @@
    "cat": "Vision",
    "score": 87,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open source · ♥ 481",
+   "desc": "Vision on Hugging Face · open source · ♥ 483",
    "meta": [
     "630 downloads",
     "Released 7 days ago"
@@ -169,7 +169,7 @@
    "cat": "Agents",
    "score": 86,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 429",
+   "desc": "Model on Hugging Face · open source · ♥ 430",
    "meta": [
     "270K downloads",
     "Released 6 days ago"
@@ -183,7 +183,7 @@
   {
    "key": "gemini 4",
    "label": "Gemini 4",
-   "n": 3,
+   "n": 4,
    "sources": [
     {
      "src": "Hacker News",
@@ -196,9 +196,14 @@
      "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/"
     },
     {
-     "src": "Times of India",
-     "t": "Google Gemini 4 Argon rolls out for developers, enterprises, Google AI subscribers in Antigravity, Gemini app and AI Mode in Search",
-     "url": "https://timesofindia.indiatimes.com/technology/tech-news/google-gemini-4-argon-rolls-out-for-developers-enterprises-google-ai-subscribers-in-antigravity-gemini-app-and-ai-mode-in-search/articleshow/134922523.cms"
+     "src": "The News International",
+     "t": "Google’s flagship AI model Gemini 4 Argon is here: What developers need to know",
+     "url": "https://www.thenews.com.pk/latest/1419816-googles-flagship-ai-model-gemini-4-argon-is-here-what-developers-need-to-know"
+    },
+    {
+     "src": "YouTube",
+     "t": "Claude Opus 6 LEAKED, Gemini 4 Carbon Leaks, HUGE OpenAI Update, Claude 24/7 Agent, & More! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=4iKUaUmeoWk"
     }
    ],
    "since": "2026-10-01T18:14:41.538Z"
@@ -224,12 +229,17 @@
      "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/"
     },
     {
-     "src": "Times of India",
-     "t": "Google Gemini 4 Argon rolls out for developers, enterprises, Google AI subscribers in Antigravity, Gemini app and AI Mode in Search",
-     "url": "https://timesofindia.indiatimes.com/technology/tech-news/google-gemini-4-argon-rolls-out-for-developers-enterprises-google-ai-subscribers-in-antigravity-gemini-app-and-ai-mode-in-search/articleshow/134922523.cms"
+     "src": "The News International",
+     "t": "Google’s flagship AI model Gemini 4 Argon is here: What developers need to know",
+     "url": "https://www.thenews.com.pk/latest/1419816-googles-flagship-ai-model-gemini-4-argon-is-here-what-developers-need-to-know"
+    },
+    {
+     "src": "YouTube",
+     "t": "Claude Opus 6 LEAKED, Gemini 4 Carbon Leaks, HUGE OpenAI Update, Claude 24/7 Agent, & More! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=4iKUaUmeoWk"
     }
    ],
-   "buzz": 3,
+   "buzz": 4,
    "verdict": "Talk only, no public usage numbers"
   },
   {
@@ -368,35 +378,35 @@
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 8531,
+   "stars": 8563,
    "d24": 1475,
    "est": true,
-   "forks": 620,
+   "forks": 622,
    "contrib": 8,
    "score": 93
   },
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 1674,
-   "d24": 732,
-   "est": false,
-   "forks": 211,
+   "stars": 1693,
+   "d24": 696,
+   "est": true,
+   "forks": 212,
    "contrib": null,
    "score": 94
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 3931,
-   "d24": 658,
+   "stars": 3935,
+   "d24": 656,
    "est": true,
-   "forks": 6256,
+   "forks": 6260,
    "contrib": null,
    "score": 90
   },
   {
    "repo": "bherbruck/solidcraft",
-   "stars": 1898,
-   "d24": 622,
+   "stars": 1913,
+   "d24": 626,
    "est": false,
    "forks": 182,
    "contrib": null,
@@ -405,7 +415,7 @@
   {
    "repo": "trhhubsd/ARTEXX",
    "stars": 1207,
-   "d24": 472,
+   "d24": 436,
    "est": false,
    "forks": 11,
    "contrib": null,
@@ -422,7 +432,7 @@
    "grow": 0,
    "score": 91,
    "cat": "Vision",
-   "likes": 714
+   "likes": 718
   },
   {
    "name": "embeddinggemma-2",
@@ -433,7 +443,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 2121
+   "likes": 2122
   },
   {
    "name": "humanizer",
@@ -444,7 +454,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1540
+   "likes": 1543
   },
   {
    "name": "JEV-35B",
@@ -456,7 +466,7 @@
    "grow": 0,
    "score": 88,
    "cat": "Infrastructure",
-   "likes": 592
+   "likes": 602
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -468,7 +478,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Vision",
-   "likes": 481
+   "likes": 483
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-Quantized",
@@ -479,7 +489,7 @@
    "grow": null,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 4221
+   "likes": 4222
   }
  ],
  "free": [
@@ -889,11 +899,11 @@
    "kind": "Lab blog"
   },
   {
-   "t": "Run fast, private agents on-device with LFM2.5-24B-A2B",
-   "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
-   "at": "2026-10-13T17:05:48.000Z",
-   "src": "Hugging Face",
-   "kind": "Lab blog"
+   "t": "Anthropic warns of AI ‘worms’ spreading across smart gadgets",
+   "url": "https://www.nzherald.co.nz/world/anthropic-warns-of-ai-worms-spreading-across-smart-gadgets/BF34TKTMY5ASHHAGXKTIZZRDAI/",
+   "at": "2026-10-13T17:28:00Z",
+   "src": "The New Zealand Herald",
+   "kind": "News"
   }
  ],
  "discussions": [
@@ -902,8 +912,8 @@
    "t": "Gemini 4 Argon",
    "url": "https://news.ycombinator.com/item?id=50073879",
    "link": "https://deepmind.google/models/gemini/",
-   "up": 1137,
-   "com": 821,
+   "up": 1153,
+   "com": 825,
    "at": "2026-10-13T16:03:16.000Z"
   },
   {
@@ -911,8 +921,8 @@
    "t": "OpenAI engineer arrested in bugging of executive conference room",
    "url": "https://news.ycombinator.com/item?id=50078141",
    "link": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
-   "up": 486,
-   "com": 420,
+   "up": 496,
+   "com": 428,
    "at": "2026-10-13T20:23:55.000Z"
   },
   {
@@ -920,7 +930,7 @@
    "t": "11 year old unsoundness bugs found in Rust borrow checker",
    "url": "https://news.ycombinator.com/item?id=50069499",
    "link": "https://github.com/rust-lang/rust/issues/164250",
-   "up": 696,
+   "up": 702,
    "com": 386,
    "at": "2026-10-13T10:27:00.000Z"
   },
@@ -929,8 +939,8 @@
    "t": "I posted to HN, and then my website was flooded with AI bot traffic",
    "url": "https://news.ycombinator.com/item?id=50073221",
    "link": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
-   "up": 294,
-   "com": 160,
+   "up": 305,
+   "com": 161,
    "at": "2026-10-13T15:25:50.000Z"
   },
   {
@@ -947,7 +957,7 @@
    "t": "Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine",
    "url": "https://news.ycombinator.com/item?id=50080275",
    "link": "https://pulseos.finance",
-   "up": 85,
+   "up": 90,
    "com": 49,
    "at": "2026-10-13T23:13:23.000Z"
   }
