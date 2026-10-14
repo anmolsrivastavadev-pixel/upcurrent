@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-14T16:01:08.548Z"
+  "updated": "2026-10-14T16:30:58.198Z"
  },
  "pulse": {
   "trending": 80,
   "accelerating": 3,
   "newModels": 7,
   "discussions": 48,
-  "stars": 4248
+  "stars": 4218
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 1,177",
-    "~766 in 24h",
+    "★ 1,188",
+    "~763 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -38,10 +38,10 @@
    "src": "gh",
    "cat": "Agents",
    "score": 93,
-   "grow": 16,
+   "grow": 17,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 9,488",
+    "★ 9,529",
     "+1,992 in 24h",
     "Created 6 days ago"
    ],
@@ -55,11 +55,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 93,
-   "grow": 19,
+   "grow": 20,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 2,018",
-    "+743 in 24h",
+    "★ 2,027",
+    "+729 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -72,7 +72,7 @@
    "src": "hf",
    "cat": "Vision",
    "score": 91,
-   "grow": 31,
+   "grow": null,
    "desc": "Vision on Hugging Face · open weights · ♥ 754",
    "meta": [
     "13K downloads",
@@ -107,8 +107,8 @@
    "grow": 3,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 4,050",
-    "+259 in 24h",
+    "★ 4,051",
+    "+250 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -170,7 +170,7 @@
    "cat": "Vision",
    "score": 86,
    "grow": 560,
-   "desc": "Vision on Hugging Face · open source · ♥ 538",
+   "desc": "Vision on Hugging Face · open source · ♥ 539",
    "meta": [
     "4.2K downloads",
     "Released 7 days ago"
@@ -184,12 +184,12 @@
   {
    "key": "gemini 4",
    "label": "Gemini 4",
-   "n": 5,
+   "n": 3,
    "sources": [
     {
      "src": "Hacker News",
-     "t": "Gemini 4 Argon",
-     "url": "https://news.ycombinator.com/item?id=50073879"
+     "t": "Gemini 4 Argon for Robotics",
+     "url": "https://news.ycombinator.com/item?id=50074869"
     },
     {
      "src": "Google DeepMind blog",
@@ -197,19 +197,9 @@
      "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/"
     },
     {
-     "src": "The Tribune",
+     "src": "Devdiscourse",
      "t": "Google launches Gemini 4 Argon, targets complex coding, cybersecurity and scientific research",
-     "url": "https://www.tribuneindia.com/news/business/google-launches-gemini-4-argon-targets-complex-coding-cybersecurity-and-scientific-research/"
-    },
-    {
-     "src": "ANI (Asian News International)",
-     "t": "Google launches Gemini 4 Argon, targets complex coding, cybersecurity and scientific research",
-     "url": "https://www.aninews.in/news/business/google-launches-gemini-4-argon-targets-complex-coding-cybersecurity-and-scientific-research20261014083715/"
-    },
-    {
-     "src": "Business Insider",
-     "t": "Google says Gemini 4 Argon is a 'powerhouse' AI model — and it's rolling out now",
-     "url": "https://www.businessinsider.com/google-gemini-4-argon-ai-model-public-release-cost-2026-10#article"
+     "url": "https://www.devdiscourse.com/article/business/3991909-google-launches-gemini-4-argon-targets-complex-coding-cybersecurity-and-scientific-research"
     }
    ],
    "since": "2026-10-01T18:14:41.538Z"
@@ -226,8 +216,8 @@
    "talk": [
     {
      "src": "Hacker News",
-     "t": "Gemini 4 Argon",
-     "url": "https://news.ycombinator.com/item?id=50073879"
+     "t": "Gemini 4 Argon for Robotics",
+     "url": "https://news.ycombinator.com/item?id=50074869"
     },
     {
      "src": "Google DeepMind blog",
@@ -235,22 +225,12 @@
      "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/"
     },
     {
-     "src": "The Tribune",
+     "src": "Devdiscourse",
      "t": "Google launches Gemini 4 Argon, targets complex coding, cybersecurity and scientific research",
-     "url": "https://www.tribuneindia.com/news/business/google-launches-gemini-4-argon-targets-complex-coding-cybersecurity-and-scientific-research/"
-    },
-    {
-     "src": "ANI (Asian News International)",
-     "t": "Google launches Gemini 4 Argon, targets complex coding, cybersecurity and scientific research",
-     "url": "https://www.aninews.in/news/business/google-launches-gemini-4-argon-targets-complex-coding-cybersecurity-and-scientific-research20261014083715/"
-    },
-    {
-     "src": "Business Insider",
-     "t": "Google says Gemini 4 Argon is a 'powerhouse' AI model — and it's rolling out now",
-     "url": "https://www.businessinsider.com/google-gemini-4-argon-ai-model-public-release-cost-2026-10#article"
+     "url": "https://www.devdiscourse.com/article/business/3991909-google-launches-gemini-4-argon-targets-complex-coding-cybersecurity-and-scientific-research"
     }
    ],
-   "buzz": 5,
+   "buzz": 3,
    "verdict": "Talk only, no public usage numbers"
   },
   {
@@ -305,6 +285,16 @@
   }
  ],
  "receipts": [
+  {
+   "name": "CopilotKit/openmuse",
+   "url": "https://github.com/CopilotKit/openmuse",
+   "kind": "stars",
+   "first": "2026-10-01T17:48:04.617Z",
+   "firstV": 3527,
+   "m": 5000,
+   "at": "2026-10-14T16:30:58.198Z",
+   "lead": 310.71488361111113
+  },
   {
    "name": "Jakeschincariol/replica-skill",
    "url": "https://github.com/Jakeschincariol/replica-skill",
@@ -374,32 +364,22 @@
    "m": 2500,
    "at": "2026-10-13T08:30:54.744Z",
    "lead": 264.0888
-  },
-  {
-   "name": "Louis-CFM/coucou",
-   "url": "https://github.com/Louis-CFM/coucou",
-   "kind": "stars",
-   "first": "2026-10-01T17:48:04.617Z",
-   "firstV": 2307,
-   "m": 5000,
-   "at": "2026-10-13T05:30:56.807Z",
-   "lead": 275.71449722222223
   }
  ],
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 9488,
+   "stars": 9529,
    "d24": 1992,
    "est": false,
-   "forks": 677,
+   "forks": 679,
    "contrib": 8,
    "score": 93
   },
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 1177,
-   "d24": 766,
+   "stars": 1188,
+   "d24": 763,
    "est": true,
    "forks": 271,
    "contrib": null,
@@ -407,35 +387,35 @@
   },
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2018,
-   "d24": 743,
+   "stars": 2027,
+   "d24": 729,
    "est": false,
-   "forks": 268,
+   "forks": 269,
    "contrib": null,
    "score": 93
   },
   {
    "repo": "bherbruck/solidcraft",
-   "stars": 2201,
-   "d24": 320,
+   "stars": 2211,
+   "d24": 321,
    "est": true,
-   "forks": 212,
+   "forks": 214,
    "contrib": null,
    "score": 81
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 4050,
-   "d24": 259,
+   "stars": 4051,
+   "d24": 250,
    "est": false,
-   "forks": 6349,
+   "forks": 6351,
    "contrib": null,
    "score": 89
   },
   {
    "repo": "trhhubsd/ARTEXX",
    "stars": 1208,
-   "d24": 168,
+   "d24": 163,
    "est": false,
    "forks": 11,
    "contrib": null,
@@ -449,7 +429,7 @@
    "lic": "Open weights",
    "at": "2026-10-09T04:50:01.000Z",
    "dl": 12704,
-   "grow": 31,
+   "grow": null,
    "score": 91,
    "cat": "Vision",
    "likes": 754
@@ -463,7 +443,7 @@
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 2210
+   "likes": 2214
   },
   {
    "name": "humanizer",
@@ -474,7 +454,7 @@
    "grow": null,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1600
+   "likes": 1601
   },
   {
    "name": "JEV-35B",
@@ -497,7 +477,7 @@
    "grow": 3,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 4276
+   "likes": 4279
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -509,7 +489,7 @@
    "grow": 560,
    "score": 86,
    "cat": "Vision",
-   "likes": 538
+   "likes": 539
   }
  ],
  "free": [
@@ -806,6 +786,62 @@
  },
  "headlines": [
   {
+   "t": "To unlock Britain’s innovation potential, Labour needs to think outside the box | Letters",
+   "url": "https://www.theguardian.com/education/2026/oct/14/to-unlock-britains-innovation-potential-labour-needs-to-think-outside-the-box",
+   "at": "2026-10-14T16:19:16Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "OpenAI's head of computing capacity Sachin Katti is leaving the company next month after about a year and is expected to stay on as an adviser",
+   "url": "https://www.techmeme.com/261014/p34#a261014p34",
+   "at": "2026-10-14T16:15:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Putting Earth AI to work: Geospatial agents for our planet's biggest challenges",
+   "url": "https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/",
+   "at": "2026-10-14T16:14:38.000Z",
+   "src": "Google Research",
+   "kind": "Lab blog"
+  },
+  {
+   "t": "Analyzing technical documents with Deep Review",
+   "url": "https://research.google/blog/analyzing-technical-documents-with-deep-review/",
+   "at": "2026-10-14T16:14:37.000Z",
+   "src": "Google Research",
+   "kind": "Lab blog"
+  },
+  {
+   "t": "Research@ 2026: 10 ways we're amplifying human ingenuity",
+   "url": "https://research.google/blog/research-2026-10-ways-were-amplifying-human-ingenuity/",
+   "at": "2026-10-14T16:14:34.000Z",
+   "src": "Google Research",
+   "kind": "Lab blog"
+  },
+  {
+   "t": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
+   "url": "https://huggingface.co/blog/allenai/hiro-acev2",
+   "at": "2026-10-14T16:12:42.000Z",
+   "src": "Hugging Face",
+   "kind": "Lab blog"
+  },
+  {
+   "t": "Palantir and Sadiq Khan drop legal battle over Met contract",
+   "url": "https://www.theguardian.com/technology/2026/oct/14/palantir-and-sadiq-khan-drop-legal-battle-over-met-contract",
+   "at": "2026-10-14T16:05:22Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "OpenAI names Uday Ruddarraju, who joined OpenAI last year and was promoted as CTO for compute in July, to lead its infrastructure and compute businesses",
+   "url": "https://www.techmeme.com/261014/p33#a261014p33",
+   "at": "2026-10-14T16:05:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Filing: OpenAI says a staffer who joined Apple sent 100+ files to a personal account and made a presentation about an unreleased product to Apple leadership",
    "url": "https://www.techmeme.com/261014/p32#a261014p32",
    "at": "2026-10-14T15:45:01.000Z",
@@ -860,81 +896,16 @@
    "at": "2026-10-14T13:25:01.000Z",
    "src": "Techmeme",
    "kind": "News"
-  },
-  {
-   "t": "Nvidia, worth $5.5tn, donates $250m to UK for AI safety research",
-   "url": "https://www.theguardian.com/technology/2026/oct/14/nvidia-donates-to-uk-ai-safety-research",
-   "at": "2026-10-14T10:10:37Z",
-   "src": "The Guardian",
-   "kind": "News"
-  },
-  {
-   "t": "AI overlords say they want to democratise their technology. Here’s how | Richard Wilson and Clara Long",
-   "url": "https://www.theguardian.com/commentisfree/2026/oct/14/ai-overlords-democratise-technology",
-   "at": "2026-10-14T10:00:03Z",
-   "src": "The Guardian",
-   "kind": "News"
-  },
-  {
-   "t": "Tool and target: US law enforcement grapple with AI-enabled terrorism and anti-tech extremism",
-   "url": "https://www.theguardian.com/technology/ng-interactive/2026/oct/14/ai-terror-plots-fbi-extremism",
-   "at": "2026-10-14T10:00:03Z",
-   "src": "The Guardian",
-   "kind": "News"
-  },
-  {
-   "t": "Bank of England and IMF bosses warn of cyber threat to trust in financial system",
-   "url": "https://www.theguardian.com/business/2026/oct/14/bank-of-england-imf-bosses-warning-cyber-threat-to-trust",
-   "at": "2026-10-14T09:07:59Z",
-   "src": "The Guardian",
-   "kind": "News"
-  },
-  {
-   "t": "How Third Moment Research runs 10,000 agents for 36+ hours",
-   "url": "https://openai.com/index/third-moment-research",
-   "at": "2026-10-14T07:00:00.000Z",
-   "src": "OpenAI",
-   "kind": "Lab blog"
-  },
-  {
-   "t": "From Enterprise to Earthshot: UK’s Ecosystem Moves From Ambition to Application With NVIDIA",
-   "url": "https://blogs.nvidia.com/blog/uk-ecosystem-deployment/",
-   "at": "2026-10-14T06:04:15.000Z",
-   "src": "NVIDIA",
-   "kind": "Lab blog"
-  },
-  {
-   "t": "European Cities Deploy NVIDIA-Powered AI Agents to Run Smarter Urban Operations",
-   "url": "https://blogs.nvidia.com/blog/european-cities-agents-urban-operations/",
-   "at": "2026-10-14T06:00:28.000Z",
-   "src": "NVIDIA",
-   "kind": "Lab blog"
-  },
-  {
-   "t": "जयपुर एयरपोर्ट पर विमान हाईजैक! | AI 2030 Flight | Flight Hijack | Jaipur Airport | NSG | Air India",
-   "url": "https://www.youtube.com/watch?v=njAwxIa75p0",
-   "at": "2026-10-14T05:38:20Z",
-   "src": "First India News",
-   "kind": "Video"
   }
  ],
  "discussions": [
   {
    "src": "Hacker News",
-   "t": "Gemini 4 Argon",
-   "url": "https://news.ycombinator.com/item?id=50073879",
-   "link": "https://deepmind.google/models/gemini/",
-   "up": 1394,
-   "com": 998,
-   "at": "2026-10-13T16:03:16.000Z"
-  },
-  {
-   "src": "Hacker News",
    "t": "ASML's strong orders ease fears AI spending boom is running out of steam",
    "url": "https://news.ycombinator.com/item?id=50088430",
    "link": "https://www.reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14/",
-   "up": 76,
-   "com": 58,
+   "up": 98,
+   "com": 78,
    "at": "2026-10-14T14:38:55.000Z"
   },
   {
@@ -942,17 +913,35 @@
    "t": "AOSP Source Releases Are So Late Developers Disassemble Libraries to Report Bugs",
    "url": "https://news.ycombinator.com/item?id=50083130",
    "link": "https://github.com/android/ndk/issues/2260",
-   "up": 431,
-   "com": 207,
+   "up": 438,
+   "com": 211,
    "at": "2026-10-14T06:18:01.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "AI is mass decompiling games. That's both awesome and scary",
+   "url": "https://news.ycombinator.com/item?id=50088534",
+   "link": "https://popcar.bearblog.dev/ai-is-mass-decompiling-games-thats-both-awesome-and-scary/",
+   "up": 66,
+   "com": 59,
+   "at": "2026-10-14T14:47:44.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Character.ai's Bankruptcy Documents Show the Economics of AI Don't Work",
+   "url": "https://news.ycombinator.com/item?id=50089395",
+   "link": "https://www.404media.co/character-ais-bankruptcy-documents-show-the-economics-of-ai-dont-work/",
+   "up": 38,
+   "com": 19,
+   "at": "2026-10-14T15:39:45.000Z"
   },
   {
    "src": "Hacker News",
    "t": "OpenAI engineer arrested in bugging of executive conference room",
    "url": "https://news.ycombinator.com/item?id=50078141",
    "link": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
-   "up": 621,
-   "com": 518,
+   "up": 623,
+   "com": 519,
    "at": "2026-10-13T20:23:55.000Z"
   },
   {
@@ -960,18 +949,9 @@
    "t": "Pg_vectorsearch: An index that is faster than pgvector's IVFFlat and HNSW",
    "url": "https://news.ycombinator.com/item?id=50086165",
    "link": "https://github.com/timescale/pg_vectorsearch",
-   "up": 111,
-   "com": 34,
+   "up": 122,
+   "com": 35,
    "at": "2026-10-14T11:47:53.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "TV4 postpones show after AI agent erases edited material",
-   "url": "https://news.ycombinator.com/item?id=50085323",
-   "link": "https://swedenherald.com/article/tv4-postpones-the-challenge-until-2027-after-technical-failure-erases-edited-footage",
-   "up": 88,
-   "com": 56,
-   "at": "2026-10-14T10:28:26.000Z"
   }
  ]
 }
