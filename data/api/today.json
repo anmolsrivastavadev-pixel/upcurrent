@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-14T19:30:54.347Z"
+  "updated": "2026-10-14T20:01:05.540Z"
  },
  "pulse": {
   "trending": 79,
   "accelerating": 2,
   "newModels": 7,
-  "discussions": 56,
-  "stars": 3348
+  "discussions": 54,
+  "stars": 3298
  },
  "rising": [
   {
@@ -25,7 +25,7 @@
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
     "★ 1,221",
-    "+344 in 24h",
+    "+321 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -41,8 +41,8 @@
    "grow": 20,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 9,755",
-    "+1,963 in 24h",
+    "★ 9,790",
+    "+1,956 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -58,8 +58,8 @@
    "grow": 21,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 2,053",
-    "+617 in 24h",
+    "★ 2,055",
+    "+599 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -73,7 +73,7 @@
    "cat": "Vision",
    "score": 91,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 765",
+   "desc": "Vision on Hugging Face · open weights · ♥ 766",
    "meta": [
     "13K downloads",
     "Released 6 days ago"
@@ -88,7 +88,7 @@
    "src": "hf",
    "cat": "Vision",
    "score": 90,
-   "grow": null,
+   "grow": 0,
    "desc": "Vision on Hugging Face · open source · ♥ 2.2K",
    "meta": [
     "135K downloads",
@@ -107,8 +107,8 @@
    "grow": 4,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 4,064",
-    "+221 in 24h",
+    "★ 4,068",
+    "+220 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -121,7 +121,7 @@
    "src": "hf",
    "cat": "Infrastructure",
    "score": 89,
-   "grow": null,
+   "grow": 0,
    "desc": "Model on Hugging Face · open source · ♥ 1.6K",
    "meta": [
     "66K downloads",
@@ -170,7 +170,7 @@
    "cat": "Vision",
    "score": 86,
    "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 570",
+   "desc": "Vision on Hugging Face · open source · ♥ 575",
    "meta": [
     "4.2K downloads",
     "Released 8 days ago"
@@ -182,28 +182,6 @@
  ],
  "breakouts": [],
  "hype": [
-  {
-   "name": "Gemini 4",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
-    {
-     "src": "Google DeepMind blog",
-     "t": "Developing Gemini 4 Argon responsibly and safely",
-     "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/"
-    },
-    {
-     "src": "YouTube",
-     "t": "Claude Opus 6 LEAKED, Gemini 4 Carbon Leaks, HUGE OpenAI Update, Claude 24/7 Agent, & More! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=4iKUaUmeoWk"
-    }
-   ],
-   "buzz": 2,
-   "verdict": "Talk only, no public usage numbers"
-  },
   {
    "name": "LFM2.5-24B-A2B",
    "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B",
@@ -225,8 +203,8 @@
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 1963,
-   "useLabel": "+1,963 stars/day",
+   "use": 1956,
+   "useLabel": "+1,956 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -340,17 +318,17 @@
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 9755,
-   "d24": 1963,
+   "stars": 9790,
+   "d24": 1956,
    "est": false,
-   "forks": 702,
+   "forks": 703,
    "contrib": 8,
    "score": 93
   },
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2053,
-   "d24": 617,
+   "stars": 2055,
+   "d24": 599,
    "est": false,
    "forks": 274,
    "contrib": null,
@@ -359,29 +337,29 @@
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
    "stars": 1221,
-   "d24": 344,
+   "d24": 321,
    "est": false,
-   "forks": 274,
+   "forks": 275,
    "contrib": null,
    "score": 95
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 4064,
-   "d24": 221,
+   "stars": 4068,
+   "d24": 220,
    "est": false,
-   "forks": 6360,
+   "forks": 6362,
    "contrib": null,
    "score": 89
   },
   {
    "repo": "trhhubsd/ARTEXX",
-   "stars": 1207,
-   "d24": 203,
+   "stars": 1205,
+   "d24": 202,
    "est": true,
    "forks": 11,
    "contrib": null,
-   "score": 76
+   "score": 75
   }
  ],
  "models": [
@@ -394,7 +372,7 @@
    "grow": null,
    "score": 91,
    "cat": "Vision",
-   "likes": 765
+   "likes": 766
   },
   {
    "name": "embeddinggemma-2",
@@ -402,10 +380,10 @@
    "lic": "Open source",
    "at": "2026-09-14T14:53:42.000Z",
    "dl": 135175,
-   "grow": null,
+   "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 2233
+   "likes": 2238
   },
   {
    "name": "humanizer",
@@ -413,10 +391,10 @@
    "lic": "Open source",
    "at": "2026-09-11T05:00:16.000Z",
    "dl": 65616,
-   "grow": null,
+   "grow": 0,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1614
+   "likes": 1615
   },
   {
    "name": "JEV-35B",
@@ -451,7 +429,7 @@
    "grow": null,
    "score": 86,
    "cat": "Vision",
-   "likes": 570
+   "likes": 575
   }
  ],
  "free": [
@@ -729,13 +707,6 @@
     "prov": "OpenCode Zen",
     "url": null,
     "at": "2026-10-14T14:30:55.508Z"
-   },
-   {
-    "type": "removed",
-    "name": "Apodex 1.1 Mini",
-    "prov": "OpenRouter",
-    "url": "https://openrouter.ai/apodex/apodex-1.1-mini:free",
-    "at": "2026-10-13T19:30:55.296Z"
    }
   ]
  },
@@ -859,8 +830,8 @@
    "t": "AI agents aren't 'going rogue.' Frontier labs are skipping security basics",
    "url": "https://news.ycombinator.com/item?id=50091788",
    "link": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
-   "up": 481,
-   "com": 193,
+   "up": 623,
+   "com": 256,
    "at": "2026-10-14T17:45:23.000Z"
   },
   {
@@ -868,8 +839,8 @@
    "t": "Banks are now trying to offload the AI data center debt they just underwrote",
    "url": "https://news.ycombinator.com/item?id=50092664",
    "link": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
-   "up": 67,
-   "com": 24,
+   "up": 103,
+   "com": 64,
    "at": "2026-10-14T18:32:52.000Z"
   },
   {
@@ -877,8 +848,8 @@
    "t": "Why do LLM pelicans look like this?",
    "url": "https://news.ycombinator.com/item?id=50090443",
    "link": "https://arcfu.com/post/the-emperor-pelican-has-no-clothes/",
-   "up": 138,
-   "com": 123,
+   "up": 141,
+   "com": 124,
    "at": "2026-10-14T16:33:34.000Z"
   },
   {
@@ -886,8 +857,8 @@
    "t": "Linus Torvalds's first LLM-assisted patch series",
    "url": "https://news.ycombinator.com/item?id=50090842",
    "link": "https://lwn.net/Articles/1100449/",
-   "up": 105,
-   "com": 75,
+   "up": 107,
+   "com": 77,
    "at": "2026-10-14T16:55:07.000Z"
   },
   {
@@ -895,8 +866,8 @@
    "t": "AOSP Source Releases Are So Late Developers Disassemble Libraries to Report Bugs",
    "url": "https://news.ycombinator.com/item?id=50083130",
    "link": "https://github.com/android/ndk/issues/2260",
-   "up": 463,
-   "com": 230,
+   "up": 465,
+   "com": 231,
    "at": "2026-10-14T06:18:01.000Z"
   },
   {
@@ -904,8 +875,8 @@
    "t": "ASML's strong orders ease fears AI spending boom is running out of steam",
    "url": "https://news.ycombinator.com/item?id=50088430",
    "link": "https://www.reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14/",
-   "up": 157,
-   "com": 154,
+   "up": 159,
+   "com": 160,
    "at": "2026-10-14T14:38:55.000Z"
   }
  ]
