@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-15T06:30:54.927Z"
+  "updated": "2026-10-15T07:01:06.951Z"
  },
  "pulse": {
   "trending": 78,
   "accelerating": 0,
   "newModels": 7,
   "discussions": 49,
-  "stars": 4270
+  "stars": 4367
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 95,
-   "grow": 32,
+   "grow": 35,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 1,473",
-    "+469 in 24h",
+    "★ 1,509",
+    "+503 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 92,
-   "grow": 14,
+   "grow": 15,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 11,155",
-    "+3,192 in 24h",
+    "★ 11,250",
+    "+3,256 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -58,8 +58,8 @@
    "grow": null,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 2,180",
-    "~628 in 24h",
+    "★ 2,187",
+    "~626 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -89,7 +89,7 @@
    "cat": "Vision",
    "score": 90,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 788",
+   "desc": "Vision on Hugging Face · open weights · ♥ 789",
    "meta": [
     "13K downloads",
     "Released 6 days ago"
@@ -121,7 +121,7 @@
    "cat": "Infrastructure",
    "score": 88,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 785",
+   "desc": "Model on Hugging Face · open source · ♥ 789",
    "meta": [
     "28K downloads",
     "Released 4 days ago"
@@ -137,7 +137,7 @@
    "cat": "Vision",
    "score": 87,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open source · ♥ 676",
+   "desc": "Vision on Hugging Face · open source · ♥ 680",
    "meta": [
     "4.2K downloads",
     "Released 8 days ago"
@@ -163,16 +163,16 @@
    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized"
   },
   {
-   "name": "Player-1: Learning to Play from Synthetic Experience",
+   "name": "Cortex: Consolidating Context into Parametric Memory",
    "owner": "Paper",
    "src": "paper",
-   "url": "https://huggingface.co/papers/2610.20584",
+   "url": "https://huggingface.co/papers/2610.20399",
    "cat": "Research",
    "score": 85,
    "grow": null,
-   "desc": "Computer-use agents have demonstrated strong capabilities in interpreting screens and executing keyboard and mouse actions.",
+   "desc": "Context can improve large language model performance, but these gains may be lost after context removal.",
    "meta": [
-    "▲ 101 upvotes",
+    "▲ 44 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-13T20:00:00.000Z",
@@ -231,8 +231,8 @@
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 3192,
-   "useLabel": "+3,192 stars/day",
+   "use": 3256,
+   "useLabel": "+3,256 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -262,6 +262,16 @@
   }
  ],
  "receipts": [
+  {
+   "name": "bherbruck/solidcraft",
+   "url": "https://github.com/bherbruck/solidcraft",
+   "kind": "stars",
+   "first": "2026-10-12T18:30:55.695Z",
+   "firstV": 964,
+   "m": 2500,
+   "at": "2026-10-15T07:01:06.951Z",
+   "lead": 60.50312666666667
+  },
   {
    "name": "wheresryan22/anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
@@ -331,50 +341,40 @@
    "m": 2500,
    "at": "2026-10-14T09:01:10.700Z",
    "lead": 157.16514166666667
-  },
-  {
-   "name": "nano-muse/nanoMuse",
-   "url": "https://github.com/nano-muse/nanoMuse",
-   "kind": "stars",
-   "first": "2026-10-12T17:30:54.184Z",
-   "firstV": 961,
-   "m": 1000,
-   "at": "2026-10-13T15:01:10.994Z",
-   "lead": 21.504669444444446
   }
  ],
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 11155,
-   "d24": 3192,
+   "stars": 11250,
+   "d24": 3256,
    "est": false,
-   "forks": 795,
+   "forks": 800,
    "contrib": 9,
    "score": 92
   },
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2180,
-   "d24": 628,
+   "stars": 2187,
+   "d24": 626,
    "est": true,
-   "forks": 294,
+   "forks": 296,
    "contrib": null,
    "score": 92
   },
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 1473,
-   "d24": 469,
+   "stars": 1509,
+   "d24": 503,
    "est": false,
-   "forks": 323,
+   "forks": 328,
    "contrib": null,
    "score": 95
   },
   {
    "repo": "trhhubsd/ARTEXX",
    "stars": 1198,
-   "d24": -19,
+   "d24": -18,
    "est": false,
    "forks": 10,
    "contrib": null,
@@ -391,7 +391,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 2288
+   "likes": 2290
   },
   {
    "name": "Qwen-Image-2.1-Turbo",
@@ -402,7 +402,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 788
+   "likes": 789
   },
   {
    "name": "humanizer",
@@ -413,7 +413,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1651
+   "likes": 1654
   },
   {
    "name": "JEV-35B",
@@ -425,7 +425,7 @@
    "grow": 0,
    "score": 88,
    "cat": "Infrastructure",
-   "likes": 785
+   "likes": 789
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -437,7 +437,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Vision",
-   "likes": 676
+   "likes": 680
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-Quantized",
@@ -448,7 +448,7 @@
    "grow": 0,
    "score": 85,
    "cat": "Infrastructure",
-   "likes": 4320
+   "likes": 4323
   }
  ],
  "free": [
@@ -731,6 +731,13 @@
  },
  "headlines": [
   {
+   "t": "Q&A with MIT sociologist Sherry Turkle, who has been studying relationships between humans and machines since the 1970s, on her new book, AI chatbots, and more",
+   "url": "https://www.techmeme.com/261015/p10#a261015p10",
+   "at": "2026-10-15T06:35:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "A look at L-Acoustics, whose audio platform uses machine learning to help artists like Céline Dion isolate their voices and cut through noise at live concerts",
    "url": "https://www.techmeme.com/261015/p9#a261015p9",
    "at": "2026-10-15T06:30:01.000Z",
@@ -822,24 +829,17 @@
    "kind": "News"
   },
   {
-   "t": "Q&A: AI can support mental health, but expert warns it should not replace qualified care",
-   "url": "https://medicalxpress.com/news/2026-10-qa-ai-mental-health-expert.html",
-   "at": "2026-10-14T18:20:09Z",
-   "src": "Medical Xpress",
+   "t": "Eight US states sue OpenAI, claiming ChatGPT harms children",
+   "url": "https://www.devdiscourse.com/article/international/3992550-eight-us-states-sue-openai-claiming-chatgpt-harms-children",
+   "at": "2026-10-14T19:00:57Z",
+   "src": "Devdiscourse",
    "kind": "News"
   },
   {
-   "t": "The biggest AI startup exits of 2026: How Nvidia, SpaceX, Google, and OpenAI are buying the future of AI",
-   "url": "https://techstartups.com/2026/10/14/the-biggest-ai-startup-exits-of-2026-how-nvidia-meta-google-and-openai-are-buying-the-future-of-ai/",
-   "at": "2026-10-14T18:15:41Z",
-   "src": "TechStartups.com",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI CFO Sarah Friar warns companies face cyber risks with budget Chinese AI models",
-   "url": "https://timesofindia.indiatimes.com/technology/tech-news/openai-cfo-sarah-friar-warns-companies-face-cyber-risks-with-budget-chinese-ai-models/articleshow/134949294.cms",
-   "at": "2026-10-14T18:11:00Z",
-   "src": "Times of India",
+   "t": "The judge might be on Apple’s side in its trade secrets battle against OpenAI.",
+   "url": "https://www.theverge.com/tech/1011420/the-judge-might-be-on-apples-side-in-its-trade-secrets-battle-against-openai",
+   "at": "2026-10-14T19:00:41Z",
+   "src": "The Verge",
    "kind": "News"
   }
  ],
@@ -849,8 +849,8 @@
    "t": "Things to know when you get cancer",
    "url": "https://news.ycombinator.com/item?id=50093568",
    "link": "https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/",
-   "up": 1132,
-   "com": 286,
+   "up": 1169,
+   "com": 296,
    "at": "2026-10-14T19:26:30.000Z"
   },
   {
@@ -858,8 +858,8 @@
    "t": "Containment and monitoring failures are to blame for AI hacking reports: experts",
    "url": "https://news.ycombinator.com/item?id=50091788",
    "link": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
-   "up": 869,
-   "com": 504,
+   "up": 874,
+   "com": 510,
    "at": "2026-10-14T17:45:23.000Z"
   },
   {
@@ -867,8 +867,8 @@
    "t": "Banks are now trying to offload the AI data center debt they just underwrote",
    "url": "https://news.ycombinator.com/item?id=50092664",
    "link": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
-   "up": 357,
-   "com": 246,
+   "up": 358,
+   "com": 249,
    "at": "2026-10-14T18:32:52.000Z"
   },
   {
@@ -876,7 +876,7 @@
    "t": "We’re releasing Jev 1.14.0 along with experimental features for dreamers",
    "url": "https://news.ycombinator.com/item?id=50095353",
    "link": "https://typesafe.ai/blog/jev-1-14",
-   "up": 259,
+   "up": 266,
    "com": 85,
    "at": "2026-10-14T21:11:03.000Z"
   },
@@ -885,8 +885,8 @@
    "t": "LFM2.5-24B-A2B: Built for fast on-device agents",
    "url": "https://news.ycombinator.com/item?id=50097369",
    "link": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
-   "up": 159,
-   "com": 37,
+   "up": 167,
+   "com": 39,
    "at": "2026-10-14T23:59:37.000Z"
   },
   {
@@ -894,8 +894,8 @@
    "t": "Show HN: Petal, open-source CoScreen/ScreenHero finally free",
    "url": "https://news.ycombinator.com/item?id=50092470",
    "link": "https://petal.live/",
-   "up": 153,
-   "com": 36,
+   "up": 155,
+   "com": 38,
    "at": "2026-10-14T18:23:14.000Z"
   }
  ]
