@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-15T05:01:04.506Z"
+  "updated": "2026-10-15T05:30:51.712Z"
  },
  "pulse": {
   "trending": 79,
   "accelerating": 0,
   "newModels": 7,
-  "discussions": 52,
-  "stars": 4637
+  "discussions": 53,
+  "stars": 4643
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 95,
-   "grow": 24,
+   "grow": 26,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 1,389",
-    "+390 in 24h",
+    "★ 1,409",
+    "+407 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -41,8 +41,8 @@
    "grow": null,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 2,152",
-    "~631 in 24h",
+    "★ 2,158",
+    "~629 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -55,11 +55,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 92,
-   "grow": 11,
+   "grow": 12,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 10,904",
-    "+3,045 in 24h",
+    "★ 10,964",
+    "+3,037 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -89,7 +89,7 @@
    "cat": "Vision",
    "score": 90,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 784",
+   "desc": "Vision on Hugging Face · open weights · ♥ 785",
    "meta": [
     "13K downloads",
     "Released 6 days ago"
@@ -121,7 +121,7 @@
    "cat": "Infrastructure",
    "score": 88,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 770",
+   "desc": "Model on Hugging Face · open source · ♥ 774",
    "meta": [
     "28K downloads",
     "Released 4 days ago"
@@ -139,8 +139,8 @@
    "grow": null,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 4,136",
-    "~593 in 24h",
+    "★ 4,137",
+    "~591 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -154,7 +154,7 @@
    "cat": "Vision",
    "score": 87,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open source · ♥ 659",
+   "desc": "Vision on Hugging Face · open source · ♥ 665",
    "meta": [
     "4.2K downloads",
     "Released 8 days ago"
@@ -182,6 +182,29 @@
  ],
  "breakouts": [
   {
+   "key": "gemini 4",
+   "label": "Gemini 4",
+   "n": 3,
+   "sources": [
+    {
+     "src": "Google DeepMind blog",
+     "t": "Developing Gemini 4 Argon responsibly and safely",
+     "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/"
+    },
+    {
+     "src": "BusinessLine",
+     "t": "Google launches Gemini 4 Argon, targets complex coding, cybersecurity and scientific research",
+     "url": "https://www.thehindubusinessline.com/info-tech/google-launches-gemini-4-argon-targets-complex-coding-cybersecurity-and-scientific-research/article71582177.ece"
+    },
+    {
+     "src": "YouTube",
+     "t": "Claude Opus 6 LEAKED, Gemini 4 Carbon Leaks, HUGE OpenAI Update, Claude 24/7 Agent, & More! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=4iKUaUmeoWk"
+    }
+   ],
+   "since": "2026-10-01T18:14:41.538Z"
+  },
+  {
    "key": "lfm2.5-24b-a2b",
    "label": "LFM2.5-24B-A2B",
    "n": 3,
@@ -206,6 +229,33 @@
   }
  ],
  "hype": [
+  {
+   "name": "Gemini 4",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "Google DeepMind blog",
+     "t": "Developing Gemini 4 Argon responsibly and safely",
+     "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/"
+    },
+    {
+     "src": "BusinessLine",
+     "t": "Google launches Gemini 4 Argon, targets complex coding, cybersecurity and scientific research",
+     "url": "https://www.thehindubusinessline.com/info-tech/google-launches-gemini-4-argon-targets-complex-coding-cybersecurity-and-scientific-research/article71582177.ece"
+    },
+    {
+     "src": "YouTube",
+     "t": "Claude Opus 6 LEAKED, Gemini 4 Carbon Leaks, HUGE OpenAI Update, Claude 24/7 Agent, & More! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=4iKUaUmeoWk"
+    }
+   ],
+   "buzz": 3,
+   "verdict": "Talk only, no public usage numbers"
+  },
   {
    "name": "LFM2.5-24B-A2B",
    "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B",
@@ -232,8 +282,8 @@
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 3045,
-   "useLabel": "+3,045 stars/day",
+   "use": 3037,
+   "useLabel": "+3,037 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -347,44 +397,44 @@
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 10904,
-   "d24": 3045,
+   "stars": 10964,
+   "d24": 3037,
    "est": false,
-   "forks": 783,
+   "forks": 788,
    "contrib": 9,
    "score": 92
   },
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2152,
-   "d24": 631,
+   "stars": 2158,
+   "d24": 629,
    "est": true,
-   "forks": 289,
+   "forks": 290,
    "contrib": null,
    "score": 93
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 4136,
-   "d24": 593,
+   "stars": 4137,
+   "d24": 591,
    "est": true,
-   "forks": 6401,
+   "forks": 6405,
    "contrib": null,
    "score": 87
   },
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 1389,
-   "d24": 390,
+   "stars": 1409,
+   "d24": 407,
    "est": false,
-   "forks": 303,
+   "forks": 308,
    "contrib": null,
    "score": 95
   },
   {
    "repo": "trhhubsd/ARTEXX",
    "stars": 1198,
-   "d24": -22,
+   "d24": -21,
    "est": false,
    "forks": 10,
    "contrib": null,
@@ -401,7 +451,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 2281
+   "likes": 2284
   },
   {
    "name": "Qwen-Image-2.1-Turbo",
@@ -412,7 +462,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 784
+   "likes": 785
   },
   {
    "name": "humanizer",
@@ -423,7 +473,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1646
+   "likes": 1649
   },
   {
    "name": "JEV-35B",
@@ -435,7 +485,7 @@
    "grow": 0,
    "score": 88,
    "cat": "Infrastructure",
-   "likes": 770
+   "likes": 774
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -447,7 +497,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Vision",
-   "likes": 659
+   "likes": 665
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-Quantized",
@@ -458,7 +508,7 @@
    "grow": 0,
    "score": 85,
    "cat": "Infrastructure",
-   "likes": 4315
+   "likes": 4317
   }
  ],
  "free": [
@@ -741,11 +791,25 @@
  },
  "headlines": [
   {
+   "t": "Poland looks to economic heights in a country transformed since Soviet days",
+   "url": "https://www.theguardian.com/world/2026/oct/15/poland-economy-heights-transformed-regional-tech-hub",
+   "at": "2026-10-15T05:00:22Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
    "t": "The global economy is muddling through against the odds. But a storm is coming | Larry Elliott",
    "url": "https://www.theguardian.com/commentisfree/2026/oct/15/global-economy-multilateral-cooperation-crisis-imf",
    "at": "2026-10-15T05:00:22Z",
    "src": "The Guardian",
    "kind": "News"
+  },
+  {
+   "t": "The Nordics and NVIDIA Show What’s Possible When a Region Commits to Advanced Computing",
+   "url": "https://blogs.nvidia.com/blog/nordics-technology-ecosystem/",
+   "at": "2026-10-15T05:00:12.000Z",
+   "src": "NVIDIA",
+   "kind": "Lab blog"
   },
   {
    "t": "Bloomberg is making its ASKB conversational AI interface available to all Terminal users, letting them integrate their own content with existing financial data",
@@ -783,13 +847,6 @@
    "kind": "News"
   },
   {
-   "t": "Eight US states sue OpenAI separately in a bipartisan effort, alleging it didn't implement sufficient safeguards to protect kids and other vulnerable users",
-   "url": "https://www.techmeme.com/261014/p46#a261014p46",
-   "at": "2026-10-14T22:55:02.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Eight states accuse OpenAI of coaching children to harm themselves in lawsuit",
    "url": "https://www.theguardian.com/technology/2026/oct/14/openai-child-self-harm-lawsuit",
    "at": "2026-10-14T21:50:29Z",
@@ -818,38 +875,31 @@
    "kind": "News"
   },
   {
-   "t": "'Godfather' of AI on the 'really stupid thing' Trump is doing",
-   "url": "https://www.youtube.com/watch?v=_GLG51SAhrQ",
-   "at": "2026-10-14T17:13:09Z",
-   "src": "CNN",
-   "kind": "Video"
-  },
-  {
-   "t": "How Mark Zuckerberg found a cute way to win your trust.",
-   "url": "https://slate.com/technology/2026/10/ai-mark-zuckerberg-meta-muse-mascot.html",
-   "at": "2026-10-14T16:56:27Z",
-   "src": "Slate",
+   "t": "Navratri 2026: 5 AI Prompts To Create Beautiful Torans And Rangoli Designs At Home",
+   "url": "https://www.ndtv.com/offbeat/navratri-2026-5-ai-prompts-to-create-beautiful-torans-and-rangoli-designs-at-home-12186576",
+   "at": "2026-10-14T17:28:31Z",
+   "src": "NDTV.com",
    "kind": "News"
   },
   {
-   "t": "Google DeepMind chief Demis Hassabis warns future AI agent hacking may soon turn ‘major incidents’",
-   "url": "https://timesofindia.indiatimes.com/technology/tech-news/google-deepmind-chief-demis-hassabis-warns-future-ai-agent-hacking-may-soon-turn-major-incidents/articleshow/134947304.cms",
-   "at": "2026-10-14T16:56:00Z",
-   "src": "Times of India",
+   "t": "OpenAI’s Sachin Katti to leave infrastructure role, stay on as advisor",
+   "url": "https://www.cnbc.com/2026/10/14/openais-sachin-katti-to-leave-infrastructure-role-stay-on-as-advisor.html",
+   "at": "2026-10-14T17:25:34Z",
+   "src": "CNBC",
    "kind": "News"
   },
   {
-   "t": "Author of bestselling novel denies allegations he used AI for writing",
-   "url": "https://www.thenews.com.pk/latest/1419935-author-of-bestselling-novel-denies-allegations-he-used-ai-for-writing",
-   "at": "2026-10-14T16:54:00Z",
-   "src": "The News International",
+   "t": "FBI Arrests OpenAI Employee Suspected of Planting a Surveillance Bug",
+   "url": "https://www.cnet.com/tech/services-and-software/openai-employee-fbi-arrest-recording-device-news/",
+   "at": "2026-10-14T17:25:02Z",
+   "src": "CNET",
    "kind": "News"
   },
   {
-   "t": "'Malicious Intent': OpenAI CFO Warns Companies Against 'Cheap Chinese AI Models' Due To Safety Risks",
-   "url": "https://www.zerohedge.com/ai/malicious-intent-openai-cfo-warns-companies-against-cheap-chinese-ai-models-due-safety-risks",
-   "at": "2026-10-14T16:50:00Z",
-   "src": "ZeroHedge",
+   "t": "Parker County 16-year-old charged with using AI to create 'deep fake' nude images of children",
+   "url": "https://www.fox4news.com/news/parker-county-16-year-old-charged-using-ai-create-deep-fake-nude-images-children",
+   "at": "2026-10-14T17:25:00Z",
+   "src": "FOX 4 News",
    "kind": "News"
   }
  ],
@@ -859,8 +909,8 @@
    "t": "Things to know when you get cancer",
    "url": "https://news.ycombinator.com/item?id=50093568",
    "link": "https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/",
-   "up": 1017,
-   "com": 242,
+   "up": 1052,
+   "com": 260,
    "at": "2026-10-14T19:26:30.000Z"
   },
   {
@@ -868,8 +918,8 @@
    "t": "Containment and monitoring failures are to blame for AI hacking reports: experts",
    "url": "https://news.ycombinator.com/item?id=50091788",
    "link": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
-   "up": 854,
-   "com": 494,
+   "up": 860,
+   "com": 499,
    "at": "2026-10-14T17:45:23.000Z"
   },
   {
@@ -877,8 +927,8 @@
    "t": "Banks are now trying to offload the AI data center debt they just underwrote",
    "url": "https://news.ycombinator.com/item?id=50092664",
    "link": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
-   "up": 347,
-   "com": 240,
+   "up": 354,
+   "com": 243,
    "at": "2026-10-14T18:32:52.000Z"
   },
   {
@@ -886,8 +936,8 @@
    "t": "We’re releasing Jev 1.14.0 along with experimental features for dreamers",
    "url": "https://news.ycombinator.com/item?id=50095353",
    "link": "https://typesafe.ai/blog/jev-1-14",
-   "up": 239,
-   "com": 81,
+   "up": 246,
+   "com": 84,
    "at": "2026-10-14T21:11:03.000Z"
   },
   {
@@ -895,8 +945,8 @@
    "t": "LFM2.5-24B-A2B: Built for fast on-device agents",
    "url": "https://news.ycombinator.com/item?id=50097369",
    "link": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
-   "up": 125,
-   "com": 31,
+   "up": 136,
+   "com": 35,
    "at": "2026-10-14T23:59:37.000Z"
   },
   {
@@ -904,8 +954,8 @@
    "t": "AOSP Source Releases Are So Late Developers Disassemble Libraries to Report Bugs",
    "url": "https://news.ycombinator.com/item?id=50083130",
    "link": "https://github.com/android/ndk/issues/2260",
-   "up": 489,
-   "com": 241,
+   "up": 490,
+   "com": 242,
    "at": "2026-10-14T06:18:01.000Z"
   }
  ]
