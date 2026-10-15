@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-15T15:30:59.130Z"
+  "updated": "2026-10-15T16:01:10.725Z"
  },
  "pulse": {
   "trending": 77,
   "accelerating": 4,
   "newModels": 8,
-  "discussions": 32,
-  "stars": 1467
+  "discussions": 35,
+  "stars": 1449
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 17,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 1,854",
-    "+902 in 24h",
+    "★ 1,868",
+    "+886 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 91,
-   "grow": 10,
+   "grow": 11,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 2,322",
-    "+388 in 24h",
+    "★ 2,330",
+    "+387 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -72,7 +72,7 @@
    "cat": "Vision",
    "score": 90,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 854",
+   "desc": "Vision on Hugging Face · open weights · ♥ 857",
    "meta": [
     "15K downloads",
     "Released 6 days ago"
@@ -104,7 +104,7 @@
    "cat": "Infrastructure",
    "score": 89,
    "grow": 50,
-   "desc": "Model on Hugging Face · open source · ♥ 940",
+   "desc": "Model on Hugging Face · open source · ♥ 942",
    "meta": [
     "42K downloads",
     "Released 5 days ago"
@@ -231,8 +231,8 @@
    "name": "qwen21-nsfw-pose-skill",
    "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
    "from": "GitHub",
-   "use": 902,
-   "useLabel": "+902 stars/day",
+   "use": 886,
+   "useLabel": "+886 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -346,26 +346,26 @@
  "github": [
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 1854,
-   "d24": 902,
+   "stars": 1868,
+   "d24": 886,
    "est": false,
-   "forks": 384,
+   "forks": 393,
    "contrib": null,
    "score": 94
   },
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2322,
-   "d24": 388,
+   "stars": 2330,
+   "d24": 387,
    "est": false,
-   "forks": 312,
+   "forks": 313,
    "contrib": null,
    "score": 91
   },
   {
    "repo": "trhhubsd/ARTEXX",
-   "stars": 1199,
-   "d24": 177,
+   "stars": 1201,
+   "d24": 176,
    "est": true,
    "forks": 12,
    "contrib": null,
@@ -382,7 +382,7 @@
    "grow": 7,
    "score": 90,
    "cat": "Vision",
-   "likes": 2356
+   "likes": 2361
   },
   {
    "name": "Qwen-Image-2.1-Turbo",
@@ -393,7 +393,7 @@
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 854
+   "likes": 857
   },
   {
    "name": "humanizer",
@@ -404,7 +404,7 @@
    "grow": 15,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1699
+   "likes": 1700
   },
   {
    "name": "JEV-35B",
@@ -416,7 +416,7 @@
    "grow": 50,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 940
+   "likes": 942
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -439,7 +439,7 @@
    "grow": 4,
    "score": 83,
    "cat": "Infrastructure",
-   "likes": 4360
+   "likes": 4363
   }
  ],
  "free": [
@@ -771,7 +771,7 @@
    "kind": "Lab blog"
   },
   {
-   "t": "Documents: Nvidia and Apple each committed $25M, the top contribution amount, to Trump's WH ballroom; Microsoft and Palantir committed $10M, Meta and Amazon $5M",
+   "t": "Docs: Nvidia and Apple each committed $25M, the top amount, to Trump's White House ballroom; Microsoft and Palantir each committed $10M, and Meta and Amazon $5M",
    "url": "https://www.techmeme.com/261015/p32#a261015p32",
    "at": "2026-10-15T14:40:01.000Z",
    "src": "Techmeme",
@@ -795,6 +795,13 @@
    "t": "North.cloud, which helps companies watch their cloud, AI and data spend, raised a $60M Series B led by PeakSpan Capital, taking its total funding to $67M",
    "url": "https://www.techmeme.com/261015/p30#a261015p30",
    "at": "2026-10-15T13:30:02.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "John Ternus discusses the iPhone Duo, memory shortages, AI, and more; he says \"all options should be on the table\" after reports that Apple tested Chinese chips",
+   "url": "https://www.techmeme.com/261015/p29#a261015p29",
+   "at": "2026-10-15T13:20:06.000Z",
    "src": "Techmeme",
    "kind": "News"
   },
@@ -867,13 +874,6 @@
    "at": "2026-10-15T10:00:12.000Z",
    "src": "NVIDIA",
    "kind": "Lab blog"
-  },
-  {
-   "t": "Apertus 1.5 Release Notes",
-   "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
-   "at": "2026-10-15T09:08:45.000Z",
-   "src": "Hugging Face",
-   "kind": "Lab blog"
   }
  ],
  "discussions": [
@@ -882,8 +882,8 @@
    "t": "Things to know when you get cancer",
    "url": "https://news.ycombinator.com/item?id=50093568",
    "link": "https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/",
-   "up": 1731,
-   "com": 411,
+   "up": 1754,
+   "com": 416,
    "at": "2026-10-14T19:26:30.000Z"
   },
   {
@@ -891,35 +891,35 @@
    "t": "Wayland desktop for Linux with skeuomorphic design",
    "url": "https://news.ycombinator.com/item?id=50103338",
    "link": "https://github.com/fyzugx/DEsk",
-   "up": 123,
-   "com": 33,
+   "up": 173,
+   "com": 61,
    "at": "2026-10-15T13:23:44.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Containment and monitoring failures are to blame for AI hacking reports: experts",
-   "url": "https://news.ycombinator.com/item?id=50091788",
-   "link": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
-   "up": 930,
-   "com": 583,
-   "at": "2026-10-14T17:45:23.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Simons Foundation Launches $15M Effort to Help Mathematicians Navigate AI Era",
    "url": "https://news.ycombinator.com/item?id=50104654",
    "link": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
-   "up": 22,
-   "com": 9,
+   "up": 66,
+   "com": 33,
    "at": "2026-10-15T14:58:48.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Containment and monitoring failures are to blame for AI hacking reports: experts",
+   "url": "https://news.ycombinator.com/item?id=50091788",
+   "link": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
+   "up": 933,
+   "com": 584,
+   "at": "2026-10-14T17:45:23.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Using AI to reverse engineer hardware",
    "url": "https://news.ycombinator.com/item?id=50104299",
    "link": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/",
-   "up": 21,
-   "com": 8,
+   "up": 36,
+   "com": 21,
    "at": "2026-10-15T14:35:15.000Z"
   },
   {
@@ -927,7 +927,7 @@
    "t": "Banks are now trying to offload the AI data center debt they just underwrote",
    "url": "https://news.ycombinator.com/item?id=50092664",
    "link": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
-   "up": 373,
+   "up": 374,
    "com": 264,
    "at": "2026-10-14T18:32:52.000Z"
   }
