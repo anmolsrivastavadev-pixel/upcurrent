@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-15T01:30:50.363Z"
+  "updated": "2026-10-15T02:01:01.173Z"
  },
  "pulse": {
   "trending": 79,
   "accelerating": 0,
-  "newModels": 7,
-  "discussions": 51,
-  "stars": 2845
+  "newModels": 6,
+  "discussions": 52,
+  "stars": 3031
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 95,
-   "grow": 12,
+   "grow": 13,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 1,257",
-    "+253 in 24h",
+    "★ 1,268",
+    "+263 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 93,
-   "grow": 24,
+   "grow": null,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 2,092",
-    "+479 in 24h",
+    "★ 2,104",
+    "~640 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -58,8 +58,8 @@
    "grow": null,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 10,274",
-    "~1,548 in 24h",
+    "★ 10,393",
+    "~1,561 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -89,7 +89,7 @@
    "cat": "Vision",
    "score": 90,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 775",
+   "desc": "Vision on Hugging Face · open weights · ♥ 777",
    "meta": [
     "13K downloads",
     "Released 6 days ago"
@@ -123,7 +123,7 @@
    "grow": null,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 4,085",
+    "★ 4,096",
     "~598 in 24h",
     "Created 7 days ago"
    ],
@@ -138,7 +138,7 @@
    "cat": "Infrastructure",
    "score": 88,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 725",
+   "desc": "Model on Hugging Face · open source · ♥ 736",
    "meta": [
     "28K downloads",
     "Released 4 days ago"
@@ -154,7 +154,7 @@
    "cat": "Vision",
    "score": 87,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open source · ♥ 624",
+   "desc": "Vision on Hugging Face · open source · ♥ 630",
    "meta": [
     "4.2K downloads",
     "Released 8 days ago"
@@ -229,33 +229,11 @@
    "verdict": "More talk than use"
   },
   {
-   "name": "Gemini 4",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
-    {
-     "src": "Google DeepMind blog",
-     "t": "Developing Gemini 4 Argon responsibly and safely",
-     "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/"
-    },
-    {
-     "src": "YouTube",
-     "t": "Claude Opus 6 LEAKED, Gemini 4 Carbon Leaks, HUGE OpenAI Update, Claude 24/7 Agent, & More! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=4iKUaUmeoWk"
-    }
-   ],
-   "buzz": 2,
-   "verdict": "Talk only, no public usage numbers"
-  },
-  {
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 1548,
-   "useLabel": "~1,548 stars/day",
+   "use": 1561,
+   "useLabel": "~1,561 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -369,44 +347,44 @@
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 10274,
-   "d24": 1548,
+   "stars": 10393,
+   "d24": 1561,
    "est": true,
-   "forks": 738,
+   "forks": 748,
    "contrib": 9,
    "score": 92
   },
   {
-   "repo": "mhtsec/ARTEX",
-   "stars": 4085,
-   "d24": 598,
-   "est": true,
-   "forks": 6373,
-   "contrib": null,
-   "score": 88
-  },
-  {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2092,
-   "d24": 479,
-   "est": false,
-   "forks": 279,
+   "stars": 2104,
+   "d24": 640,
+   "est": true,
+   "forks": 280,
    "contrib": null,
    "score": 93
   },
   {
+   "repo": "mhtsec/ARTEX",
+   "stars": 4096,
+   "d24": 598,
+   "est": true,
+   "forks": 6378,
+   "contrib": null,
+   "score": 88
+  },
+  {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 1257,
-   "d24": 253,
+   "stars": 1268,
+   "d24": 263,
    "est": false,
-   "forks": 280,
+   "forks": 284,
    "contrib": null,
    "score": 95
   },
   {
    "repo": "trhhubsd/ARTEXX",
    "stars": 1198,
-   "d24": -33,
+   "d24": -31,
    "est": false,
    "forks": 10,
    "contrib": null,
@@ -423,7 +401,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 2265
+   "likes": 2267
   },
   {
    "name": "Qwen-Image-2.1-Turbo",
@@ -434,7 +412,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 775
+   "likes": 777
   },
   {
    "name": "humanizer",
@@ -445,7 +423,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1637
+   "likes": 1638
   },
   {
    "name": "JEV-35B",
@@ -457,7 +435,7 @@
    "grow": 0,
    "score": 88,
    "cat": "Infrastructure",
-   "likes": 725
+   "likes": 736
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -469,7 +447,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Vision",
-   "likes": 624
+   "likes": 630
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-Quantized",
@@ -480,7 +458,7 @@
    "grow": null,
    "score": 85,
    "cat": "Infrastructure",
-   "likes": 4308
+   "likes": 4310
   }
  ],
  "free": [
@@ -854,25 +832,25 @@
    "kind": "News"
   },
   {
-   "t": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
-   "url": "https://huggingface.co/blog/allenai/hiro-acev2",
-   "at": "2026-10-14T16:12:42.000Z",
-   "src": "Hugging Face",
+   "t": "Research@ 2026: 10 ways we're amplifying human ingenuity",
+   "url": "https://research.google/blog/research-2026-10-ways-were-amplifying-human-ingenuity/",
+   "at": "2026-10-14T16:14:34.000Z",
+   "src": "Google Research",
    "kind": "Lab blog"
   },
   {
-   "t": "Grimes is keeping her upcoming album ‘Psy Opera’ about AI rather than Elon Musk: ‘I really didn’t want any of this…’",
-   "url": "https://timesofindia.indiatimes.com/entertainment/english/music/news/grimes-is-keeping-her-upcoming-album-psy-opera-about-ai-rather-than-elon-musk-i-really-didnt-want-any-of-this/articleshow/134934703.cms",
-   "at": "2026-10-14T13:30:00Z",
-   "src": "Times of India",
-   "kind": "News"
+   "t": "Putting Earth AI to work: Geospatial agents for our planet's biggest challenges",
+   "url": "https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/",
+   "at": "2026-10-14T16:14:00.000Z",
+   "src": "Google Research",
+   "kind": "Lab blog"
   },
   {
-   "t": "Lonely brickie blows life savings travelling to meet 'dream woman'",
-   "url": "https://www.dailystar.co.uk/news/latest-news/lonely-brickie-blows-life-savings-37771572",
-   "at": "2026-10-14T13:17:24Z",
-   "src": "The daily Star",
-   "kind": "News"
+   "t": "Analyzing technical documents with Deep Review",
+   "url": "https://research.google/blog/analyzing-technical-documents-with-deep-review/",
+   "at": "2026-10-14T16:14:00.000Z",
+   "src": "Google Research",
+   "kind": "Lab blog"
   }
  ],
  "discussions": [
@@ -881,8 +859,8 @@
    "t": "Things to know when you get cancer – 2026 Edition",
    "url": "https://news.ycombinator.com/item?id=50093568",
    "link": "https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/",
-   "up": 771,
-   "com": 199,
+   "up": 803,
+   "com": 207,
    "at": "2026-10-14T19:26:30.000Z"
   },
   {
@@ -890,8 +868,8 @@
    "t": "Containment and monitoring failures are to blame for AI hacking reports: experts",
    "url": "https://news.ycombinator.com/item?id=50091788",
    "link": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
-   "up": 835,
-   "com": 444,
+   "up": 839,
+   "com": 450,
    "at": "2026-10-14T17:45:23.000Z"
   },
   {
@@ -899,8 +877,8 @@
    "t": "We’re releasing Jev 1.14.0 along with experimental features for dreamers",
    "url": "https://news.ycombinator.com/item?id=50095353",
    "link": "https://typesafe.ai/blog/jev-1-14",
-   "up": 181,
-   "com": 57,
+   "up": 189,
+   "com": 61,
    "at": "2026-10-14T21:11:03.000Z"
   },
   {
@@ -908,8 +886,8 @@
    "t": "Banks are now trying to offload the AI data center debt they just underwrote",
    "url": "https://news.ycombinator.com/item?id=50092664",
    "link": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
-   "up": 280,
-   "com": 211,
+   "up": 290,
+   "com": 218,
    "at": "2026-10-14T18:32:52.000Z"
   },
   {
@@ -917,8 +895,8 @@
    "t": "LFM2.5-24B-A2B: Built for fast on-device agents",
    "url": "https://news.ycombinator.com/item?id=50097369",
    "link": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
-   "up": 61,
-   "com": 16,
+   "up": 75,
+   "com": 18,
    "at": "2026-10-14T23:59:37.000Z"
   },
   {
@@ -926,8 +904,8 @@
    "t": "AOSP Source Releases Are So Late Developers Disassemble Libraries to Report Bugs",
    "url": "https://news.ycombinator.com/item?id=50083130",
    "link": "https://github.com/android/ndk/issues/2260",
-   "up": 484,
-   "com": 236,
+   "up": 486,
+   "com": 238,
    "at": "2026-10-14T06:18:01.000Z"
   }
  ]
