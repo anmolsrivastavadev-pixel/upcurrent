@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-15T00:01:10.459Z"
+  "updated": "2026-10-15T00:30:53.512Z"
  },
  "pulse": {
   "trending": 79,
   "accelerating": 1,
   "newModels": 7,
-  "discussions": 48,
-  "stars": 2655
+  "discussions": 51,
+  "stars": 2637
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 95,
-   "grow": 11,
+   "grow": 12,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 1,246",
-    "+262 in 24h",
+    "★ 1,249",
+    "+258 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -41,8 +41,8 @@
    "grow": 23,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 2,074",
-    "+494 in 24h",
+    "★ 2,076",
+    "+484 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -58,8 +58,8 @@
    "grow": null,
    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
    "meta": [
-    "★ 9,987",
-    "~1,519 in 24h",
+    "★ 10,029",
+    "~1,520 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-08T10:12:49Z",
@@ -89,7 +89,7 @@
    "cat": "Vision",
    "score": 90,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 771",
+   "desc": "Vision on Hugging Face · open weights · ♥ 773",
    "meta": [
     "13K downloads",
     "Released 6 days ago"
@@ -123,8 +123,8 @@
    "grow": 4,
    "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
    "meta": [
-    "★ 4,076",
-    "+185 in 24h",
+    "★ 4,077",
+    "+181 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-08T05:33:06Z",
@@ -154,7 +154,7 @@
    "cat": "Vision",
    "score": 87,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open source · ♥ 612",
+   "desc": "Vision on Hugging Face · open source · ♥ 615",
    "meta": [
     "4.2K downloads",
     "Released 8 days ago"
@@ -203,8 +203,8 @@
    "name": "anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
    "from": "GitHub",
-   "use": 1519,
-   "useLabel": "~1,519 stars/day",
+   "use": 1520,
+   "useLabel": "~1,520 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -234,6 +234,16 @@
   }
  ],
  "receipts": [
+  {
+   "name": "wheresryan22/anatomy",
+   "url": "https://github.com/wheresryan22/anatomy",
+   "kind": "stars",
+   "first": "2026-10-11T11:30:51.880Z",
+   "firstV": 1020,
+   "m": 10000,
+   "at": "2026-10-15T00:30:53.512Z",
+   "lead": 85.00045333333334
+  },
   {
    "name": "yihui-dev/awesome-opus5-5-videos",
    "url": "https://github.com/yihui-dev/awesome-opus5-5-videos",
@@ -303,50 +313,40 @@
    "m": 1000,
    "at": "2026-10-13T15:01:10.994Z",
    "lead": 21.504669444444446
-  },
-  {
-   "name": "autotrust/JEV-35B",
-   "url": "https://huggingface.co/autotrust/JEV-35B",
-   "kind": "downloads",
-   "first": "2026-10-12T18:30:55.695Z",
-   "firstV": 6262,
-   "m": 10000,
-   "at": "2026-10-13T10:01:10.192Z",
-   "lead": 15.504026944444444
   }
  ],
  "github": [
   {
    "repo": "wheresryan22/anatomy",
-   "stars": 9987,
-   "d24": 1519,
+   "stars": 10029,
+   "d24": 1520,
    "est": true,
-   "forks": 718,
+   "forks": 722,
    "contrib": 9,
    "score": 92
   },
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2074,
-   "d24": 494,
+   "stars": 2076,
+   "d24": 484,
    "est": false,
-   "forks": 276,
+   "forks": 277,
    "contrib": null,
    "score": 93
   },
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 1246,
-   "d24": 262,
+   "stars": 1249,
+   "d24": 258,
    "est": false,
-   "forks": 277,
+   "forks": 278,
    "contrib": null,
    "score": 95
   },
   {
    "repo": "trhhubsd/ARTEXX",
    "stars": 1198,
-   "d24": 195,
+   "d24": 194,
    "est": true,
    "forks": 11,
    "contrib": null,
@@ -354,10 +354,10 @@
   },
   {
    "repo": "mhtsec/ARTEX",
-   "stars": 4076,
-   "d24": 185,
+   "stars": 4077,
+   "d24": 181,
    "est": false,
-   "forks": 6365,
+   "forks": 6366,
    "contrib": null,
    "score": 88
   }
@@ -372,7 +372,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 2259
+   "likes": 2262
   },
   {
    "name": "Qwen-Image-2.1-Turbo",
@@ -383,7 +383,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 771
+   "likes": 773
   },
   {
    "name": "humanizer",
@@ -394,7 +394,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1632
+   "likes": 1633
   },
   {
    "name": "JEV-35B",
@@ -418,7 +418,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Vision",
-   "likes": 612
+   "likes": 615
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-Quantized",
@@ -429,7 +429,7 @@
    "grow": null,
    "score": 85,
    "cat": "Infrastructure",
-   "likes": 4305
+   "likes": 4307
   }
  ],
  "free": [
@@ -803,13 +803,6 @@
    "kind": "News"
   },
   {
-   "t": "OpenAI's head of computing capacity Sachin Katti is leaving the company next month after about a year and is expected to stay on as an adviser",
-   "url": "https://www.techmeme.com/261014/p34#a261014p34",
-   "at": "2026-10-14T16:15:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Research@ 2026: 10 ways we're amplifying human ingenuity",
    "url": "https://research.google/blog/research-2026-10-ways-were-amplifying-human-ingenuity/",
    "at": "2026-10-14T16:14:34.000Z",
@@ -822,6 +815,13 @@
    "at": "2026-10-14T16:14:00.000Z",
    "src": "Google Research",
    "kind": "Lab blog"
+  },
+  {
+   "t": "Analyzing technical documents with Deep Review",
+   "url": "https://research.google/blog/analyzing-technical-documents-with-deep-review/",
+   "at": "2026-10-14T16:14:00.000Z",
+   "src": "Google Research",
+   "kind": "Lab blog"
   }
  ],
  "discussions": [
@@ -830,8 +830,8 @@
    "t": "Things to know when you get cancer – 2026 Edition",
    "url": "https://news.ycombinator.com/item?id=50093568",
    "link": "https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/",
-   "up": 641,
-   "com": 171,
+   "up": 679,
+   "com": 178,
    "at": "2026-10-14T19:26:30.000Z"
   },
   {
@@ -839,8 +839,8 @@
    "t": "Containment and monitoring failures are to blame for AI hacking reports: experts",
    "url": "https://news.ycombinator.com/item?id=50091788",
    "link": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
-   "up": 815,
-   "com": 437,
+   "up": 820,
+   "com": 442,
    "at": "2026-10-14T17:45:23.000Z"
   },
   {
@@ -848,8 +848,8 @@
    "t": "We’re releasing Jev 1.14.0 along with experimental features for dreamers",
    "url": "https://news.ycombinator.com/item?id=50095353",
    "link": "https://typesafe.ai/blog/jev-1-14",
-   "up": 137,
-   "com": 52,
+   "up": 151,
+   "com": 53,
    "at": "2026-10-14T21:11:03.000Z"
   },
   {
@@ -857,8 +857,8 @@
    "t": "Banks are now trying to offload the AI data center debt they just underwrote",
    "url": "https://news.ycombinator.com/item?id=50092664",
    "link": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
-   "up": 248,
-   "com": 200,
+   "up": 261,
+   "com": 204,
    "at": "2026-10-14T18:32:52.000Z"
   },
   {
@@ -867,7 +867,7 @@
    "url": "https://news.ycombinator.com/item?id=50083130",
    "link": "https://github.com/android/ndk/issues/2260",
    "up": 480,
-   "com": 234,
+   "com": 235,
    "at": "2026-10-14T06:18:01.000Z"
   },
   {
