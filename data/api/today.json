@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-15T20:30:57.218Z"
+  "updated": "2026-10-15T21:01:08.415Z"
  },
  "pulse": {
-  "trending": 78,
+  "trending": 77,
   "accelerating": 3,
   "newModels": 9,
-  "discussions": 30,
-  "stars": 1503
+  "discussions": 31,
+  "stars": 1300
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 24,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 1,975",
-    "+768 in 24h",
+    "★ 1,976",
+    "+739 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -41,8 +41,8 @@
    "grow": 13,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 2,379",
-    "+357 in 24h",
+    "★ 2,386",
+    "+356 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -104,7 +104,7 @@
    "cat": "Vision",
    "score": 86,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open source · ♥ 786",
+   "desc": "Vision on Hugging Face · open source · ♥ 788",
    "meta": [
     "9.3K downloads",
     "Released 9 days ago"
@@ -120,7 +120,7 @@
    "cat": "LLMs",
    "score": 86,
    "grow": 0,
-   "desc": "Model on Hugging Face · open weights · ♥ 382",
+   "desc": "Model on Hugging Face · open weights · ♥ 383",
    "meta": [
     "6.3K downloads",
     "Released 4 days ago"
@@ -227,11 +227,33 @@
    "verdict": "More talk than use"
   },
   {
+   "name": "Gemini 4",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "Google DeepMind blog",
+     "t": "Developing Gemini 4 Argon responsibly and safely",
+     "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/"
+    },
+    {
+     "src": "The Economic Times",
+     "t": "Google’s Gemini 4 Argon takes on OpenAI, Anthropic with focus on coding, research and reasoning",
+     "url": "https://economictimes.indiatimes.com/ai/ai-insights/google-gemini-4-argon-openai-gpt-6-astra-anthropic-claude-opus-5-5-coding-research-and-reasoning/articleshow/134962138.cms"
+    }
+   ],
+   "buzz": 2,
+   "verdict": "Talk only, no public usage numbers"
+  },
+  {
    "name": "qwen21-nsfw-pose-skill",
    "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
    "from": "GitHub",
-   "use": 768,
-   "useLabel": "+768 stars/day",
+   "use": 739,
+   "useLabel": "+739 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -345,8 +367,8 @@
  "github": [
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 1975,
-   "d24": 768,
+   "stars": 1976,
+   "d24": 739,
    "est": false,
    "forks": 408,
    "contrib": null,
@@ -354,30 +376,21 @@
   },
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2379,
-   "d24": 357,
+   "stars": 2386,
+   "d24": 356,
    "est": false,
-   "forks": 317,
+   "forks": 320,
    "contrib": null,
    "score": 91
   },
   {
    "repo": "rociiu/talorys",
    "stars": 1120,
-   "d24": 206,
+   "d24": 205,
    "est": true,
    "forks": 99,
    "contrib": null,
    "score": 76
-  },
-  {
-   "repo": "trhhubsd/ARTEXX",
-   "stars": 1201,
-   "d24": 172,
-   "est": true,
-   "forks": 12,
-   "contrib": null,
-   "score": 71
   }
  ],
  "models": [
@@ -390,7 +403,7 @@
    "grow": 7,
    "score": 90,
    "cat": "Vision",
-   "likes": 2386
+   "likes": 2389
   },
   {
    "name": "Qwen-Image-2.1-Turbo",
@@ -412,7 +425,7 @@
    "grow": 15,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1720
+   "likes": 1722
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -424,7 +437,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Vision",
-   "likes": 786
+   "likes": 788
   },
   {
    "name": "LFM2.5-24B-A2B",
@@ -436,7 +449,7 @@
    "grow": 0,
    "score": 86,
    "cat": "LLMs",
-   "likes": 382
+   "likes": 383
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-Quantized",
@@ -447,7 +460,7 @@
    "grow": null,
    "score": 85,
    "cat": "Infrastructure",
-   "likes": 4378
+   "likes": 4377
   }
  ],
  "free": [
@@ -772,6 +785,20 @@
  },
  "headlines": [
   {
+   "t": "A researcher says modern neural networks are far more interpretable than believed, with most neurons understandable in models up to trillions of parameters",
+   "url": "https://www.techmeme.com/261015/p48#a261015p48",
+   "at": "2026-10-15T20:36:10.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+   "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+   "at": "2026-10-15T20:34:01.000Z",
+   "src": "Hugging Face",
+   "kind": "Lab blog"
+  },
+  {
    "t": "Perplexity open sources SPACE, its AI agent sandbox, and says partners including CoreWeave, Akamai, and Crusoe agreed to offer SPACE to customers",
    "url": "https://www.techmeme.com/261015/p47#a261015p47",
    "at": "2026-10-15T20:00:13.000Z",
@@ -828,13 +855,6 @@
    "kind": "News"
   },
   {
-   "t": "Nvidia launches Nemotron 3.5 Super VL, a 120B-parameter open model for enterprise agents, and says it outperforms frontier models on specialized benchmarks",
-   "url": "https://www.techmeme.com/261015/p34#a261015p34",
-   "at": "2026-10-15T16:20:26.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Accelerating the search for antimicrobial peptides with Google Antigravity",
    "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
    "at": "2026-10-15T16:08:03.000Z",
@@ -875,13 +895,6 @@
    "at": "2026-10-15T10:00:12.000Z",
    "src": "NVIDIA",
    "kind": "Lab blog"
-  },
-  {
-   "t": "Apertus 1.5 Release Notes",
-   "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
-   "at": "2026-10-15T09:08:45.000Z",
-   "src": "Hugging Face",
-   "kind": "Lab blog"
   }
  ],
  "discussions": [
@@ -890,8 +903,8 @@
    "t": "Muse Spark Open",
    "url": "https://news.ycombinator.com/item?id=50107379",
    "link": "https://research.meta.ai/blog/muse-spark-open",
-   "up": 397,
-   "com": 250,
+   "up": 433,
+   "com": 266,
    "at": "2026-10-15T17:47:39.000Z"
   },
   {
@@ -899,8 +912,8 @@
    "t": "Why We're Banning AI",
    "url": "https://news.ycombinator.com/item?id=50108131",
    "link": "https://www.currentaffairs.org/news/why-were-banning-ai",
-   "up": 190,
-   "com": 145,
+   "up": 196,
+   "com": 155,
    "at": "2026-10-15T18:32:29.000Z"
   },
   {
@@ -908,8 +921,8 @@
    "t": "Wayland desktop for Linux with skeuomorphic design",
    "url": "https://news.ycombinator.com/item?id=50103338",
    "link": "https://github.com/fyzugx/DEsk",
-   "up": 405,
-   "com": 165,
+   "up": 421,
+   "com": 173,
    "at": "2026-10-15T13:23:44.000Z"
   },
   {
@@ -917,8 +930,8 @@
    "t": "Krea 3 – An image model built for editing at scale",
    "url": "https://news.ycombinator.com/item?id=50105648",
    "link": "https://www.krea.ai/krea-3",
-   "up": 184,
-   "com": 67,
+   "up": 193,
+   "com": 71,
    "at": "2026-10-15T16:04:05.000Z"
   },
   {
@@ -926,8 +939,8 @@
    "t": "Simons Foundation launches $15M effort to help mathematicians navigate AI era",
    "url": "https://news.ycombinator.com/item?id=50104654",
    "link": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
-   "up": 195,
-   "com": 171,
+   "up": 200,
+   "com": 173,
    "at": "2026-10-15T14:58:48.000Z"
   },
   {
