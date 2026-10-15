@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-15T17:30:55.588Z"
+  "updated": "2026-10-15T18:01:13.586Z"
  },
  "pulse": {
   "trending": 77,
   "accelerating": 4,
-  "newModels": 7,
-  "discussions": 33,
-  "stars": 1420
+  "newModels": 8,
+  "discussions": 31,
+  "stars": 1404
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 94,
-   "grow": 20,
+   "grow": 21,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 1,914",
-    "+861 in 24h",
+    "★ 1,928",
+    "+851 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -41,8 +41,8 @@
    "grow": 12,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 2,352",
-    "+384 in 24h",
+    "★ 2,357",
+    "+379 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -72,7 +72,7 @@
    "cat": "Vision",
    "score": 90,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 860",
+   "desc": "Vision on Hugging Face · open weights · ♥ 861",
    "meta": [
     "15K downloads",
     "Released 7 days ago"
@@ -104,7 +104,7 @@
    "cat": "Vision",
    "score": 86,
    "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 779",
+   "desc": "Vision on Hugging Face · open source · ♥ 780",
    "meta": [
     "9.3K downloads",
     "Released 8 days ago"
@@ -112,6 +112,22 @@
    "at": "2026-10-07T07:07:30.000Z",
    "breakout": null,
    "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B"
+  },
+  {
+   "name": "LFM2.5-24B-A2B",
+   "owner": "LiquidAI",
+   "src": "hf",
+   "cat": "LLMs",
+   "score": 86,
+   "grow": null,
+   "desc": "Model on Hugging Face · open weights · ♥ 378",
+   "meta": [
+    "6.3K downloads",
+    "Released 4 days ago"
+   ],
+   "at": "2026-10-12T05:35:46.000Z",
+   "breakout": 3,
+   "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B"
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-Quantized",
@@ -136,7 +152,7 @@
    "cat": "Coding",
    "score": 85,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 481",
+   "desc": "Model on Hugging Face · open source · ♥ 482",
    "meta": [
     "296K downloads",
     "Released 6 days ago"
@@ -146,35 +162,20 @@
    "url": "https://huggingface.co/AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF"
   },
   {
-   "name": "LFM2.5-24B-A2B",
-   "owner": "LiquidAI",
-   "src": "hf",
-   "cat": "LLMs",
+   "name": "Pancake",
+   "owner": "Product Hunt",
+   "src": "ph",
+   "url": "https://www.producthunt.com/products/pancake-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29",
+   "cat": "Tools",
    "score": 85,
    "grow": null,
-   "desc": "Model on Hugging Face · open weights · ♥ 377",
+   "desc": "The Vercel for GTM",
    "meta": [
-    "6.3K downloads",
-    "Released 3 days ago"
+    "▲ 568 votes",
+    "76 comments",
+    "Launched yesterday"
    ],
-   "at": "2026-10-12T05:35:46.000Z",
-   "breakout": 3,
-   "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B"
-  },
-  {
-   "name": "The Thinking Leakage in Reinforcement Learning for LLMs",
-   "owner": "Paper",
-   "src": "paper",
-   "url": "https://huggingface.co/papers/2610.14270",
-   "cat": "Research",
-   "score": 85,
-   "grow": null,
-   "desc": "Hybrid reasoning models such as the Qwen3 series switch between a THINK mode and a NO-THINK mode through a few chat-template tokens.",
-   "meta": [
-    "▲ 18 upvotes",
-    "Hugging Face Papers"
-   ],
-   "at": "2026-10-08T20:00:00.000Z",
+   "at": "2026-10-14T07:01:00Z",
    "breakout": null
   }
  ],
@@ -210,7 +211,7 @@
    "from": "Hugging Face",
    "use": 6286,
    "useLabel": "6.3K downloads",
-   "usePct": 0.18181818181818182,
+   "usePct": 0.21212121212121213,
    "talk": [
     {
      "src": "Hacker News",
@@ -230,8 +231,8 @@
    "name": "qwen21-nsfw-pose-skill",
    "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
    "from": "GitHub",
-   "use": 861,
-   "useLabel": "+861 stars/day",
+   "use": 851,
+   "useLabel": "+851 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -345,30 +346,30 @@
  "github": [
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 1914,
-   "d24": 861,
+   "stars": 1928,
+   "d24": 851,
    "est": false,
-   "forks": 400,
+   "forks": 403,
    "contrib": null,
    "score": 94
   },
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2352,
-   "d24": 384,
+   "stars": 2357,
+   "d24": 379,
    "est": false,
-   "forks": 315,
+   "forks": 316,
    "contrib": null,
    "score": 91
   },
   {
    "repo": "trhhubsd/ARTEXX",
    "stars": 1201,
-   "d24": 175,
+   "d24": 174,
    "est": true,
    "forks": 12,
    "contrib": null,
-   "score": 73
+   "score": 72
   }
  ],
  "models": [
@@ -381,7 +382,7 @@
    "grow": 7,
    "score": 90,
    "cat": "Vision",
-   "likes": 2370
+   "likes": 2372
   },
   {
    "name": "Qwen-Image-2.1-Turbo",
@@ -392,7 +393,7 @@
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 860
+   "likes": 861
   },
   {
    "name": "humanizer",
@@ -403,7 +404,7 @@
    "grow": 15,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1707
+   "likes": 1709
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -415,7 +416,19 @@
    "grow": null,
    "score": 86,
    "cat": "Vision",
-   "likes": 779
+   "likes": 780
+  },
+  {
+   "name": "LFM2.5-24B-A2B",
+   "org": "LiquidAI",
+   "size": "24B",
+   "lic": "Open weights",
+   "at": "2026-10-12T05:35:46.000Z",
+   "dl": 6286,
+   "grow": null,
+   "score": 86,
+   "cat": "LLMs",
+   "likes": 378
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-Quantized",
@@ -426,18 +439,7 @@
    "grow": null,
    "score": 85,
    "cat": "Infrastructure",
-   "likes": 4365
-  },
-  {
-   "name": "Qwen-Image-2.1-Turbo-Uncensored-GGUF",
-   "org": "AtomicChat",
-   "lic": "Open source",
-   "at": "2026-10-09T16:30:48.000Z",
-   "dl": 296253,
-   "grow": null,
-   "score": 85,
-   "cat": "Coding",
-   "likes": 481
+   "likes": 4366
   }
  ],
  "free": [
@@ -762,6 +764,27 @@
  },
  "headlines": [
   {
+   "t": "Volvo says it will use Nvidia's Hyperion platform to launch a Level 2++ hands-free, point-to-point automated driving system by 2030",
+   "url": "https://www.techmeme.com/261015/p43#a261015p43",
+   "at": "2026-10-15T17:55:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Memo: Accenture has told many employees, some of whom had been spending as much as $1,000 monthly, that it will now only spend $29 a month per person on Claude",
+   "url": "https://www.techmeme.com/261015/p42#a261015p42",
+   "at": "2026-10-15T17:50:39.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Anthropic says it is giving employee-like access to METR as part of its pledge to partner with evaluators for assessment of its models and safety practices",
+   "url": "https://www.techmeme.com/261015/p41#a261015p41",
+   "at": "2026-10-15T17:46:31.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Meta releases Muse Spark Open, saying it is the most capable US open-weight model, with 816B total and 42B active parameters and a 1M-token context window",
    "url": "https://www.techmeme.com/261015/p37#a261015p37",
    "at": "2026-10-15T17:10:01.000Z",
@@ -839,13 +862,6 @@
    "kind": "News"
   },
   {
-   "t": "Q&A with Dwarkesh Patel on his podcast, lessons from history, AGI, the mood in San Francisco, the Hugging Face hack, Chinese AI, pacing the frontier, and more",
-   "url": "https://www.techmeme.com/261015/p28#a261015p28",
-   "at": "2026-10-15T13:15:09.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Dial Up the Cloud: NVIDIA DLSS 4.5 Controls Arrive on GeForce NOW",
    "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-enshrouded-update/",
    "at": "2026-10-15T13:00:59.000Z",
@@ -858,20 +874,6 @@
    "at": "2026-10-15T13:00:00.000Z",
    "src": "OpenAI",
    "kind": "Lab blog"
-  },
-  {
-   "t": "BofA says it hired 1,000 contractors in Q2 to support 3,000 internal staff in patching proprietary and vendor software flaws exposed by AI models like Mythos",
-   "url": "https://www.techmeme.com/261015/p27#a261015p27",
-   "at": "2026-10-15T12:55:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Nvidia's RTX Spark Superchip in the Surface Laptop Ultra outperforms Apple's M5 Max MacBook Pro by ~25% in agentic AI completion benchmarks using Qwen models",
-   "url": "https://www.techmeme.com/261015/p26#a261015p26",
-   "at": "2026-10-15T12:45:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -880,17 +882,26 @@
    "t": "Things to know when you get cancer",
    "url": "https://news.ycombinator.com/item?id=50093568",
    "link": "https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/",
-   "up": 1795,
+   "up": 1809,
    "com": 425,
    "at": "2026-10-14T19:26:30.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Muse Spark Open, the Most Capable US Open‑Weight Model to Date",
+   "url": "https://news.ycombinator.com/item?id=50106620",
+   "link": "https://research.meta.ai/blog/muse-spark-open",
+   "up": 70,
+   "com": 1,
+   "at": "2026-10-15T16:58:30.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Wayland desktop for Linux with skeuomorphic design",
    "url": "https://news.ycombinator.com/item?id=50103338",
    "link": "https://github.com/fyzugx/DEsk",
-   "up": 271,
-   "com": 111,
+   "up": 300,
+   "com": 123,
    "at": "2026-10-15T13:23:44.000Z"
   },
   {
@@ -898,8 +909,8 @@
    "t": "Simons Foundation launches $15M effort to help mathematicians navigate AI era",
    "url": "https://news.ycombinator.com/item?id=50104654",
    "link": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
-   "up": 147,
-   "com": 106,
+   "up": 164,
+   "com": 135,
    "at": "2026-10-15T14:58:48.000Z"
   },
   {
@@ -907,27 +918,18 @@
    "t": "Krea 3 – Frontier Image Model 4× faster than Nano Banana Pro",
    "url": "https://news.ycombinator.com/item?id=50105648",
    "link": "https://www.krea.ai/krea-3",
-   "up": 58,
-   "com": 27,
+   "up": 91,
+   "com": 47,
    "at": "2026-10-15T16:04:05.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Containment and monitoring failures are to blame for AI hacking reports: experts",
-   "url": "https://news.ycombinator.com/item?id=50091788",
-   "link": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
-   "up": 933,
-   "com": 597,
-   "at": "2026-10-14T17:45:23.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Market selloff, rising rates test AI data centre deal boom",
-   "url": "https://news.ycombinator.com/item?id=50105900",
-   "link": "https://www.reuters.com/business/finance/market-selloff-rising-rates-test-ai-data-centre-deal-boom-2026-10-15/",
-   "up": 38,
-   "com": 25,
-   "at": "2026-10-15T16:17:40.000Z"
+   "t": "Muse Spark Open",
+   "url": "https://news.ycombinator.com/item?id=50107379",
+   "link": "https://research.meta.ai/blog/muse-spark-open",
+   "up": 41,
+   "com": 16,
+   "at": "2026-10-15T17:47:39.000Z"
   }
  ]
 }
