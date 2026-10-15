@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-15T10:30:58.447Z"
+  "updated": "2026-10-15T11:01:16.676Z"
  },
  "pulse": {
   "trending": 77,
   "accelerating": 3,
   "newModels": 8,
   "discussions": 47,
-  "stars": 1098
+  "stars": 1088
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 1,682",
-    "~729 in 24h",
+    "★ 1,693",
+    "~727 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 92,
-   "grow": 6,
+   "grow": 7,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 2,239",
-    "+381 in 24h",
+    "★ 2,244",
+    "+373 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -72,7 +72,7 @@
    "cat": "Vision",
    "score": 90,
    "grow": 21,
-   "desc": "Vision on Hugging Face · open weights · ♥ 803",
+   "desc": "Vision on Hugging Face · open weights · ♥ 805",
    "meta": [
     "15K downloads",
     "Released 6 days ago"
@@ -104,7 +104,7 @@
    "cat": "Infrastructure",
    "score": 89,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 872",
+   "desc": "Model on Hugging Face · open source · ♥ 882",
    "meta": [
     "42K downloads",
     "Released 4 days ago"
@@ -120,7 +120,7 @@
    "cat": "Vision",
    "score": 87,
    "grow": 123,
-   "desc": "Vision on Hugging Face · open source · ♥ 742",
+   "desc": "Vision on Hugging Face · open source · ♥ 749",
    "meta": [
     "9.3K downloads",
     "Released 8 days ago"
@@ -139,7 +139,7 @@
    "grow": null,
    "desc": "Large language models (LLMs) increasingly tackle complex real-world tasks in specialized domains.",
    "meta": [
-    "▲ 51 upvotes",
+    "▲ 54 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-13T20:00:00.000Z",
@@ -155,7 +155,7 @@
    "grow": null,
    "desc": "The Vercel for GTM",
    "meta": [
-    "▲ 550 votes",
+    "▲ 557 votes",
     "77 comments",
     "Launched yesterday"
    ],
@@ -169,7 +169,7 @@
    "cat": "Coding",
    "score": 84,
    "grow": 15,
-   "desc": "Model on Hugging Face · open source · ♥ 462",
+   "desc": "Model on Hugging Face · open source · ♥ 463",
    "meta": [
     "296K downloads",
     "Released 6 days ago"
@@ -231,8 +231,8 @@
    "name": "qwen21-nsfw-pose-skill",
    "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
    "from": "GitHub",
-   "use": 729,
-   "useLabel": "~729 stars/day",
+   "use": 727,
+   "useLabel": "~727 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -346,17 +346,17 @@
  "github": [
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 1682,
-   "d24": 729,
+   "stars": 1693,
+   "d24": 727,
    "est": true,
-   "forks": 363,
+   "forks": 364,
    "contrib": null,
    "score": 94
   },
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2239,
-   "d24": 381,
+   "stars": 2244,
+   "d24": 373,
    "est": false,
    "forks": 300,
    "contrib": null,
@@ -382,7 +382,7 @@
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 2316
+   "likes": 2322
   },
   {
    "name": "Qwen-Image-2.1-Turbo",
@@ -393,7 +393,7 @@
    "grow": 21,
    "score": 90,
    "cat": "Vision",
-   "likes": 803
+   "likes": 805
   },
   {
    "name": "humanizer",
@@ -404,7 +404,7 @@
    "grow": null,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1667
+   "likes": 1669
   },
   {
    "name": "JEV-35B",
@@ -416,7 +416,7 @@
    "grow": null,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 872
+   "likes": 882
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -428,7 +428,7 @@
    "grow": 123,
    "score": 87,
    "cat": "Vision",
-   "likes": 742
+   "likes": 749
   },
   {
    "name": "Qwen-Image-2.1-Turbo-Uncensored-GGUF",
@@ -439,7 +439,7 @@
    "grow": 15,
    "score": 84,
    "cat": "Coding",
-   "likes": 462
+   "likes": 463
   }
  ],
  "free": [
@@ -739,7 +739,7 @@
   {
    "t": "Tech market sell-off deepens amid fears over US inflation and AI debt",
    "url": "https://www.theguardian.com/business/2026/oct/15/tech-market-sell-off-deepens-amid-fears-over-us-inflation-and-ai-debt",
-   "at": "2026-10-15T10:24:34Z",
+   "at": "2026-10-15T10:38:26Z",
    "src": "The Guardian",
    "kind": "News"
   },
@@ -800,17 +800,31 @@
    "kind": "Lab blog"
   },
   {
-   "t": "Bloomberg is making its ASKB conversational AI interface available to all Terminal users, letting them integrate their own content with existing financial data",
-   "url": "https://www.techmeme.com/261015/p3#a261015p3",
-   "at": "2026-10-15T04:35:04.000Z",
-   "src": "Techmeme",
+   "t": "World-leading NHS genomics lab launches to improve care for cancer patients",
+   "url": "https://www.standard.co.uk/news/health/nhs-institute-of-cancer-research-sutton-london-dna-b1300911.html",
+   "at": "2026-10-14T23:01:00Z",
+   "src": "Evening Standard",
    "kind": "News"
   },
   {
-   "t": "Asian chipmakers extend Wall Street losses as US Fed rate hike fears and AI funding worries mount; SK Hynix falls 10%+ on the KRX, while Samsung drops ~10%",
-   "url": "https://www.techmeme.com/261015/p1#a261015p1",
-   "at": "2026-10-15T04:05:01.000Z",
-   "src": "Techmeme",
+   "t": "What’s likely to move the market",
+   "url": "https://www.cnbc.com/2026/10/14/thursdays-big-stock-stories-whats-likely-to-move-the-market.html",
+   "at": "2026-10-14T22:52:30Z",
+   "src": "CNBC",
+   "kind": "News"
+  },
+  {
+   "t": "The OpenAI engineer accused of planting a bug allegedly had a one-way ticket booked to Saudi Arabia.",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1011616/the-openai-engineer-accused-of-planting-a-bug-allegedly-had-a-one-way-ticket-booked-to-saudi-arabia",
+   "at": "2026-10-14T22:44:01Z",
+   "src": "The Verge",
+   "kind": "News"
+  },
+  {
+   "t": "San Diego Police Department Seeks Information on AI Report",
+   "url": "https://www.naturalnews.com/2026-10-14-san-diego-police-ai-writing-tools.html",
+   "at": "2026-10-14T22:37:26Z",
+   "src": "Natural News",
    "kind": "News"
   },
   {
@@ -833,20 +847,6 @@
    "at": "2026-10-14T22:04:00Z",
    "src": "Bangkok Post",
    "kind": "News"
-  },
-  {
-   "t": "OpenAI Sued Over Children’s Data Used to Train ChatGPT",
-   "url": "https://www.cnet.com/tech/services-and-software/chatgpt-accused-using-childrens-data/",
-   "at": "2026-10-14T22:01:26Z",
-   "src": "CNET",
-   "kind": "News"
-  },
-  {
-   "t": "Letters for Oct. 15: Government should control AI’s powerful technology",
-   "url": "https://www.pilotonline.com/2026/10/14/letters-for-oct-15-government-should-control-ais-powerful-technology/",
-   "at": "2026-10-14T22:00:22Z",
-   "src": "Norfolk Virginian-Pilot",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -855,8 +855,8 @@
    "t": "Things to know when you get cancer",
    "url": "https://news.ycombinator.com/item?id=50093568",
    "link": "https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/",
-   "up": 1394,
-   "com": 348,
+   "up": 1420,
+   "com": 351,
    "at": "2026-10-14T19:26:30.000Z"
   },
   {
@@ -864,8 +864,8 @@
    "t": "Containment and monitoring failures are to blame for AI hacking reports: experts",
    "url": "https://news.ycombinator.com/item?id=50091788",
    "link": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
-   "up": 903,
-   "com": 534,
+   "up": 909,
+   "com": 540,
    "at": "2026-10-14T17:45:23.000Z"
   },
   {
@@ -873,8 +873,8 @@
    "t": "AI was great until it was not",
    "url": "https://news.ycombinator.com/item?id=50100791",
    "link": "https://thetheorygirlie.substack.com/p/ai-was-great-until-it-was-not",
-   "up": 68,
-   "com": 45,
+   "up": 77,
+   "com": 56,
    "at": "2026-10-15T08:18:38.000Z"
   },
   {
@@ -891,18 +891,18 @@
    "t": "We’re releasing Jev 1.14.0 along with experimental features for dreamers",
    "url": "https://news.ycombinator.com/item?id=50095353",
    "link": "https://typesafe.ai/blog/jev-1-14",
-   "up": 298,
-   "com": 92,
+   "up": 302,
+   "com": 93,
    "at": "2026-10-14T21:11:03.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "LFM2.5-24B-A2B: Built for fast on-device agents",
-   "url": "https://news.ycombinator.com/item?id=50097369",
-   "link": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
-   "up": 213,
-   "com": 46,
-   "at": "2026-10-14T23:59:37.000Z"
+   "t": "The cost of getting a job today",
+   "url": "https://news.ycombinator.com/item?id=50101149",
+   "link": "https://weli.dev/blog/the-cost-of-getting-a-job-today/",
+   "up": 37,
+   "com": 51,
+   "at": "2026-10-15T09:13:20.000Z"
   }
  ]
 }
