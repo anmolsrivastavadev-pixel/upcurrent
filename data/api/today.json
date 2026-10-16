@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-16T09:42:55.039Z"
+  "updated": "2026-10-16T10:01:08.835Z"
  },
  "pulse": {
   "trending": 79,
   "accelerating": 0,
   "newModels": 7,
-  "discussions": 32,
-  "stars": 2333
+  "discussions": 31,
+  "stars": 2307
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 2,298",
-    "~702 in 24h",
+    "★ 2,310",
+    "~703 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -38,10 +38,10 @@
    "src": "gh",
    "cat": "Agents",
    "score": 91,
-   "grow": 13,
+   "grow": 14,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 2,718",
+    "★ 2,726",
     "+650 in 24h",
     "Created 5 days ago"
    ],
@@ -88,7 +88,7 @@
    "cat": "Vision",
    "score": 89,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 903",
+   "desc": "Vision on Hugging Face · open weights · ♥ 904",
    "meta": [
     "15K downloads",
     "Released 7 days ago"
@@ -106,8 +106,8 @@
    "grow": 19,
    "desc": "A design system for AI applications. Material, physical, tactile, technical.",
    "meta": [
-    "★ 1,242",
-    "+710 in 24h",
+    "★ 1,244",
+    "+686 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-12T09:19:02Z",
@@ -137,7 +137,7 @@
    "cat": "Tools",
    "score": 85,
    "grow": 0,
-   "desc": "Model on Hugging Face · open weights · ♥ 506",
+   "desc": "Model on Hugging Face · open weights · ♥ 507",
    "meta": [
     "4K downloads",
     "Released 15 days ago"
@@ -153,7 +153,7 @@
    "cat": "LLMs",
    "score": 85,
    "grow": null,
-   "desc": "Model on Hugging Face · open weights · ♥ 398",
+   "desc": "Model on Hugging Face · open weights · ♥ 400",
    "meta": [
     "6.3K downloads",
     "Released 4 days ago"
@@ -163,20 +163,19 @@
    "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B"
   },
   {
-   "name": "Navige",
-   "owner": "Product Hunt",
-   "src": "ph",
-   "url": "https://www.producthunt.com/products/navige?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29",
-   "cat": "Agents",
+   "name": "MJev-Spatial: System One Spatial Intelligence via Native Attention Matching",
+   "owner": "Paper",
+   "src": "paper",
+   "url": "https://huggingface.co/papers/2610.22276",
+   "cat": "Research",
    "score": 85,
    "grow": null,
-   "desc": "Cut AI agent costs and control runaway spending",
+   "desc": "Spatial intelligence lets an agent perceive and act in the physical world, and many of its judgments must be made at interaction rates: which spatial relation holds, how far an object is, or where to place it.",
    "meta": [
-    "▲ 246 votes",
-    "54 comments",
-    "Launched yesterday"
+    "▲ 46 upvotes",
+    "Hugging Face Papers"
    ],
-   "at": "2026-10-15T07:01:00Z",
+   "at": "2026-10-14T20:00:00.000Z",
    "breakout": null
   }
  ],
@@ -200,11 +199,11 @@
    "verdict": "More talk than use"
   },
   {
-   "name": "solid-glass",
-   "url": "https://github.com/deeplethe/solid-glass",
+   "name": "qwen21-nsfw-pose-skill",
+   "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
    "from": "GitHub",
-   "use": 710,
-   "useLabel": "+710 stars/day",
+   "use": 703,
+   "useLabel": "~703 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -317,36 +316,36 @@
  ],
  "github": [
   {
+   "repo": "Arekejoker/qwen21-nsfw-pose-skill",
+   "stars": 2310,
+   "d24": 703,
+   "est": true,
+   "forks": 461,
+   "contrib": null,
+   "score": 94
+  },
+  {
    "repo": "deeplethe/solid-glass",
-   "stars": 1242,
-   "d24": 710,
+   "stars": 1244,
+   "d24": 686,
    "est": false,
    "forks": 19,
    "contrib": null,
    "score": 86
   },
   {
-   "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2298,
-   "d24": 702,
-   "est": true,
-   "forks": 460,
-   "contrib": null,
-   "score": 94
-  },
-  {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2718,
+   "stars": 2726,
    "d24": 650,
    "est": false,
-   "forks": 350,
+   "forks": 351,
    "contrib": null,
    "score": 91
   },
   {
    "repo": "rociiu/talorys",
-   "stars": 1219,
-   "d24": 172,
+   "stars": 1220,
+   "d24": 170,
    "est": false,
    "forks": 108,
    "contrib": null,
@@ -354,8 +353,8 @@
   },
   {
    "repo": "marclou/mailcheap",
-   "stars": 1091,
-   "d24": 99,
+   "stars": 1092,
+   "d24": 98,
    "est": false,
    "forks": 284,
    "contrib": null,
@@ -372,7 +371,7 @@
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 2445
+   "likes": 2447
   },
   {
    "name": "humanizer",
@@ -383,7 +382,7 @@
    "grow": null,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1776
+   "likes": 1778
   },
   {
    "name": "Qwen-Image-2.1-Turbo",
@@ -394,7 +393,7 @@
    "grow": null,
    "score": 89,
    "cat": "Vision",
-   "likes": 903
+   "likes": 904
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -417,7 +416,7 @@
    "grow": 0,
    "score": 85,
    "cat": "Tools",
-   "likes": 506
+   "likes": 507
   },
   {
    "name": "LFM2.5-24B-A2B",
@@ -429,7 +428,7 @@
    "grow": null,
    "score": 85,
    "cat": "LLMs",
-   "likes": 398
+   "likes": 400
   }
  ],
  "free": [
@@ -846,6 +845,27 @@
    "kind": "Video"
   },
   {
+   "t": "‘AI lowers the capital needed’: India’s drug discovery push faces test of human trials",
+   "url": "https://www.channelnewsasia.com/asia/ai-lowers-capital-needed-indias-drug-discovery-push-faces-test-human-trials-6462176",
+   "at": "2026-10-15T22:00:00Z",
+   "src": "CNA",
+   "kind": "News"
+  },
+  {
+   "t": "New Amazon Bee Personal AI Devices Will Listen and Record You",
+   "url": "https://www.cnet.com/tech/mobile/amazon-bee-personal-ai-device-always-listening-and-recording/",
+   "at": "2026-10-15T21:52:44Z",
+   "src": "CNET",
+   "kind": "News"
+  },
+  {
+   "t": "Tech Down on AI Credit Fears -- Tech Roundup",
+   "url": "https://www.marketscreener.com/news/tech-down-on-ai-credit-fears-tech-roundup-ce785dd3d089f52d",
+   "at": "2026-10-15T21:52:21Z",
+   "src": "MarketScreener",
+   "kind": "News"
+  },
+  {
    "t": "Bluesky expands Attie, its AI tool for building custom feeds, with a \"social vibe coding\" feature to create sites, games, quizzes, and more on the AT Protocol",
    "url": "https://www.techmeme.com/261015/p53#a261015p53",
    "at": "2026-10-15T21:35:04.000Z",
@@ -865,27 +885,6 @@
    "at": "2026-10-15T21:20:01.000Z",
    "src": "Techmeme",
    "kind": "News"
-  },
-  {
-   "t": "States sue AI giant OpenAI, saying its popular chatbot is hurting children and deceiving adults",
-   "url": "https://www.breitbart.com/news/states-sue-ai-giant-openai-saying-its-popular-chatbot-is-hurting-children-and-deceiving-adults/",
-   "at": "2026-10-15T21:00:55Z",
-   "src": "Breitbart News Network",
-   "kind": "News"
-  },
-  {
-   "t": "States sue AI giant OpenAI, saying ChatGPT is hurting children and deceiving adults",
-   "url": "https://www.weau.com/2026/10/15/states-sue-ai-giant-openai-saying-chatgpt-is-hurting-children-deceiving-adults/",
-   "at": "2026-10-15T21:00:37Z",
-   "src": "WEAU",
-   "kind": "News"
-  },
-  {
-   "t": "ChronoScale Reports Fiscal First Quarter 2027 Results",
-   "url": "https://www.manilatimes.net/2026/10/16/tmt-newswire/globenewswire/chronoscale-reports-fiscal-first-quarter-2027-results/2447083",
-   "at": "2026-10-15T20:34:05Z",
-   "src": "The Manila Times",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -894,8 +893,8 @@
    "t": "Muse Spark Open",
    "url": "https://news.ycombinator.com/item?id=50107379",
    "link": "https://research.meta.ai/blog/muse-spark-open",
-   "up": 811,
-   "com": 402,
+   "up": 816,
+   "com": 405,
    "at": "2026-10-15T17:47:39.000Z"
   },
   {
@@ -903,8 +902,8 @@
    "t": "Wayland desktop for Linux with skeuomorphic design",
    "url": "https://news.ycombinator.com/item?id=50103338",
    "link": "https://github.com/fyzugx/DEsk",
-   "up": 609,
-   "com": 237,
+   "up": 612,
+   "com": 238,
    "at": "2026-10-15T13:23:44.000Z"
   },
   {
@@ -912,8 +911,8 @@
    "t": "Any window from your Mac, on your iPhone and iPad",
    "url": "https://news.ycombinator.com/item?id=50112739",
    "link": "https://github.com/Saffsanity/sill",
-   "up": 145,
-   "com": 33,
+   "up": 148,
+   "com": 34,
    "at": "2026-10-16T01:43:17.000Z"
   },
   {
@@ -921,7 +920,7 @@
    "t": "Krea 3 – An image model built for editing at scale",
    "url": "https://news.ycombinator.com/item?id=50105648",
    "link": "https://www.krea.ai/krea-3",
-   "up": 308,
+   "up": 311,
    "com": 99,
    "at": "2026-10-15T16:04:05.000Z"
   },
@@ -930,7 +929,7 @@
    "t": "Why We're Banning AI",
    "url": "https://news.ycombinator.com/item?id=50108131",
    "link": "https://www.currentaffairs.org/news/why-were-banning-ai",
-   "up": 238,
+   "up": 239,
    "com": 185,
    "at": "2026-10-15T18:32:29.000Z"
   },
