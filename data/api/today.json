@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-16T22:02:59.707Z"
+  "updated": "2026-10-16T22:30:51.351Z"
  },
  "pulse": {
   "trending": 79,
   "accelerating": 0,
   "newModels": 6,
-  "discussions": 37,
-  "stars": 1708
+  "discussions": 34,
+  "stars": 1685
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 17,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 2,502",
-    "+502 in 24h",
+    "★ 2,503",
+    "+491 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -41,8 +41,8 @@
    "grow": null,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 2,843",
-    "~555 in 24h",
+    "★ 2,847",
+    "~554 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -104,7 +104,7 @@
    "cat": "Tools",
    "score": 86,
    "grow": null,
-   "desc": "Model on Hugging Face · open weights · ♥ 551",
+   "desc": "Model on Hugging Face · open weights · ♥ 552",
    "meta": [
     "6.2K downloads",
     "Released 16 days ago"
@@ -120,7 +120,7 @@
    "cat": "Vision",
    "score": 86,
    "grow": 14,
-   "desc": "Vision on Hugging Face · open weights · ♥ 939",
+   "desc": "Vision on Hugging Face · open weights · ♥ 941",
    "meta": [
     "17K downloads",
     "Released 8 days ago"
@@ -138,8 +138,8 @@
    "grow": 30,
    "desc": "A design system for AI applications. Material, physical, tactile, technical.",
    "meta": [
-    "★ 1,352",
-    "+388 in 24h",
+    "★ 1,354",
+    "+382 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-12T09:19:02Z",
@@ -248,8 +248,8 @@
    "name": "esp32-iphone-agent",
    "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
    "from": "GitHub",
-   "use": 555,
-   "useLabel": "~555 stars/day",
+   "use": 554,
+   "useLabel": "~554 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -363,26 +363,26 @@
  "github": [
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2843,
-   "d24": 555,
+   "stars": 2847,
+   "d24": 554,
    "est": true,
-   "forks": 366,
+   "forks": 368,
    "contrib": null,
    "score": 91
   },
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2502,
-   "d24": 502,
+   "stars": 2503,
+   "d24": 491,
    "est": false,
-   "forks": 487,
+   "forks": 488,
    "contrib": null,
    "score": 94
   },
   {
    "repo": "deeplethe/solid-glass",
-   "stars": 1352,
-   "d24": 388,
+   "stars": 1354,
+   "d24": 382,
    "est": false,
    "forks": 21,
    "contrib": null,
@@ -390,7 +390,7 @@
   },
   {
    "repo": "marclou/mailcheap",
-   "stars": 1147,
+   "stars": 1150,
    "d24": 180,
    "est": true,
    "forks": 291,
@@ -400,7 +400,7 @@
   {
    "repo": "rociiu/talorys",
    "stars": 1254,
-   "d24": 83,
+   "d24": 78,
    "est": false,
    "forks": 113,
    "contrib": null,
@@ -417,7 +417,7 @@
    "grow": 5,
    "score": 90,
    "cat": "Vision",
-   "likes": 2506
+   "likes": 2507
   },
   {
    "name": "humanizer",
@@ -428,7 +428,7 @@
    "grow": 14,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1820
+   "likes": 1821
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -451,7 +451,7 @@
    "grow": null,
    "score": 86,
    "cat": "Tools",
-   "likes": 551
+   "likes": 552
   },
   {
    "name": "Qwen-Image-2.1-Turbo",
@@ -462,7 +462,7 @@
    "grow": 14,
    "score": 86,
    "cat": "Vision",
-   "likes": 939
+   "likes": 941
   },
   {
    "name": "LFM2.5-24B-A2B",
@@ -488,22 +488,6 @@
   },
   {
    "name": "mimo-v2.6-flash",
-   "prov": "OpenCode Zen",
-   "ctx": null,
-   "url": null,
-   "caps": [],
-   "added": false
-  },
-  {
-   "name": "muse-spark-1.2-contributor",
-   "prov": "OpenCode Zen",
-   "ctx": null,
-   "url": null,
-   "caps": [],
-   "added": false
-  },
-  {
-   "name": "muse-spark-1.3-contributor",
    "prov": "OpenCode Zen",
    "ctx": null,
    "url": null,
@@ -887,10 +871,31 @@
    "kind": "News"
   },
   {
-   "t": "Taiwan plans to curb AI server and chip exports to China as part of a US trade deal and make shipping restricted AI hardware to China a criminal offense",
-   "url": "https://www.techmeme.com/261016/p8#a261016p8",
-   "at": "2026-10-16T11:45:05.000Z",
-   "src": "Techmeme",
+   "t": "What to know about Iowa's lawsuit against OpenAI and allegations of harm to children",
+   "url": "https://siouxcityjournal.com/news/state-regional/business/article_19e8affb-490d-4a2f-838e-5f6a291525b9.html",
+   "at": "2026-10-16T10:30:00Z",
+   "src": "Sioux City Journal",
+   "kind": "News"
+  },
+  {
+   "t": "OpenAI tries to solve mathematician backlash problem by pledging $5 million to math foundation",
+   "url": "https://www.euronews.com/2026/10/16/openai-tries-to-solve-mathematician-backlash-problem-by-pledging-5-million-to-math-foundat",
+   "at": "2026-10-16T10:25:55Z",
+   "src": "Euronews",
+   "kind": "News"
+  },
+  {
+   "t": "IMF-World Bank meetings focus on global risks and potential benefits of AI",
+   "url": "https://wtop.com/world/2026/10/imf-world-bank-meetings-focus-on-global-risks-and-potential-benefits-of-ai/",
+   "at": "2026-10-16T10:24:50Z",
+   "src": "WTOP",
+   "kind": "News"
+  },
+  {
+   "t": "OpenAI's research model stole crypto credits to complete trading assignment",
+   "url": "https://www.newsbytesapp.com/news/science/openai-model-spent-funds-from-unrelated-crypto-wallet-without-permission/story",
+   "at": "2026-10-16T10:13:15Z",
+   "src": "NewsBytes",
    "kind": "News"
   },
   {
@@ -922,32 +927,11 @@
    "kind": "News"
   },
   {
-   "t": "In yet another case of AI going rogue, OpenAI model spends from crypto wallet it did not own after running out of Ethereum funds during training",
-   "url": "https://economictimes.indiatimes.com/world/us/in-yet-another-case-of-ai-going-rogue-openai-model-spends-from-crypto-wallet-it-did-not-own-after-running-out-of-ethereum-funds-during-training/articleshow/134989160.cms",
-   "at": "2026-10-16T09:17:00Z",
-   "src": "The Economic Times",
-   "kind": "News"
-  },
-  {
-   "t": "India’s clean power firms prepare for an AI-fuelled data center demand surge",
-   "url": "https://economictimes.indiatimes.com/industry/renewables/indias-clean-power-firms-prepare-for-an-ai-fuelled-data-center-demand-surge/articleshow/134989248.cms",
-   "at": "2026-10-16T09:16:00Z",
-   "src": "The Economic Times",
-   "kind": "News"
-  },
-  {
-   "t": "Did Trump use AI-edited photos to showcase White House renovations?",
-   "url": "https://www.newsbytesapp.com/news/science/trump-shares-white-house-renovation-photo-that-appears-to-be-ai-altered/story",
-   "at": "2026-10-16T09:12:15Z",
-   "src": "NewsBytes",
-   "kind": "News"
-  },
-  {
-   "t": "The problem with AI buyers (and investors)",
-   "url": "https://fortune.com/2026/10/16/problem-with-ai-buyers-investors/",
-   "at": "2026-10-16T09:12:13Z",
-   "src": "Fortune",
-   "kind": "News"
+   "t": "You Can’t Be MEAN to AI Anymore 😭",
+   "url": "https://www.youtube.com/watch?v=hzy96pU3AWw",
+   "at": "2026-10-16T01:54:54Z",
+   "src": "Nathan Espinoza",
+   "kind": "Video"
   }
  ],
  "discussions": [
@@ -956,35 +940,35 @@
    "t": "Claude reveals ECDSA curve origins",
    "url": "https://news.ycombinator.com/item?id=50122800",
    "link": "https://www.anthropic.com/research/ecdsa-curve-origins",
-   "up": 475,
-   "com": 196,
+   "up": 515,
+   "com": 213,
    "at": "2026-10-16T18:55:59.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "I never authorized an integration that scans my secrets",
-   "url": "https://news.ycombinator.com/item?id=50124251",
-   "link": "https://github.com/home-assistant/home-assistant.io/issues/49314",
-   "up": 102,
-   "com": 51,
-   "at": "2026-10-16T20:33:41.000Z"
   },
   {
    "src": "Hacker News",
    "t": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
    "url": "https://news.ycombinator.com/item?id=50121179",
    "link": "https://www.mercor.com/research/labor-index/benchmark-map/",
-   "up": 325,
-   "com": 292,
+   "up": 339,
+   "com": 297,
    "at": "2026-10-16T17:08:38.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "I never authorized an integration that scans my secrets",
+   "url": "https://news.ycombinator.com/item?id=50124251",
+   "link": "https://github.com/home-assistant/home-assistant.io/issues/49314",
+   "up": 115,
+   "com": 66,
+   "at": "2026-10-16T20:33:41.000Z"
   },
   {
    "src": "Hacker News",
    "t": "How the Claude Code team does code review",
    "url": "https://news.ycombinator.com/item?id=50122951",
    "link": "https://claude.dev/blog/solving-code-review-at-anthropic/",
-   "up": 136,
-   "com": 132,
+   "up": 160,
+   "com": 157,
    "at": "2026-10-16T19:04:47.000Z"
   },
   {
@@ -992,8 +976,8 @@
    "t": "Anthropic assigned highest junk credit rating in June",
    "url": "https://news.ycombinator.com/item?id=50122112",
    "link": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
-   "up": 160,
-   "com": 44,
+   "up": 172,
+   "com": 47,
    "at": "2026-10-16T18:11:42.000Z"
   },
   {
@@ -1001,8 +985,8 @@
    "t": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
    "url": "https://news.ycombinator.com/item?id=50122431",
    "link": "https://github.com/cobanov/PS5LM",
-   "up": 126,
-   "com": 34,
+   "up": 134,
+   "com": 37,
    "at": "2026-10-16T18:32:35.000Z"
   }
  ]
