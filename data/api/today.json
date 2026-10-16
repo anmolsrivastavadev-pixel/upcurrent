@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-16T07:01:09.290Z"
+  "updated": "2026-10-16T07:30:54.456Z"
  },
  "pulse": {
   "trending": 79,
   "accelerating": 0,
   "newModels": 7,
-  "discussions": 33,
-  "stars": 1948
+  "discussions": 37,
+  "stars": 1954
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 2,219",
-    "~702 in 24h",
+    "★ 2,231",
+    "~701 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -41,9 +41,9 @@
    "grow": 11,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 2,654",
-    "+675 in 24h",
-    "Created 4 days ago"
+    "★ 2,667",
+    "+672 in 24h",
+    "Created 5 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
    "breakout": null,
@@ -88,7 +88,7 @@
    "cat": "Vision",
    "score": 89,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 897",
+   "desc": "Vision on Hugging Face · open weights · ♥ 899",
    "meta": [
     "15K downloads",
     "Released 7 days ago"
@@ -104,7 +104,7 @@
    "cat": "Vision",
    "score": 86,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open source · ♥ 804",
+   "desc": "Vision on Hugging Face · open source · ♥ 805",
    "meta": [
     "9.3K downloads",
     "Released 9 days ago"
@@ -112,6 +112,23 @@
    "at": "2026-10-07T07:07:30.000Z",
    "breakout": null,
    "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B"
+  },
+  {
+   "name": "solid-glass",
+   "owner": "deeplethe",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 85,
+   "grow": null,
+   "desc": "A design system for AI applications. Material, physical, tactile, technical.",
+   "meta": [
+    "★ 1,166",
+    "~297 in 24h",
+    "Created 4 days ago"
+   ],
+   "at": "2026-10-12T09:19:02Z",
+   "breakout": null,
+   "url": "https://github.com/deeplethe/solid-glass"
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-Quantized",
@@ -136,7 +153,7 @@
    "cat": "LLMs",
    "score": 85,
    "grow": 0,
-   "desc": "Model on Hugging Face · open weights · ♥ 396",
+   "desc": "Model on Hugging Face · open weights · ♥ 397",
    "meta": [
     "6.3K downloads",
     "Released 4 days ago"
@@ -155,27 +172,10 @@
    "grow": null,
    "desc": "Policy-shift distillation reuses the difference between a teacher's log probabilities before and after reinforcement learning (RL) as supervision on student-generated trajectories.",
    "meta": [
-    "▲ 104 upvotes",
+    "▲ 125 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-14T20:00:00.000Z",
-   "breakout": null
-  },
-  {
-   "name": "Navige",
-   "owner": "Product Hunt",
-   "src": "ph",
-   "url": "https://www.producthunt.com/products/navige?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29",
-   "cat": "Agents",
-   "score": 85,
-   "grow": null,
-   "desc": "Cut AI agent costs and control runaway spending",
-   "meta": [
-    "▲ 242 votes",
-    "53 comments",
-    "Launched yesterday"
-   ],
-   "at": "2026-10-15T07:01:00Z",
    "breakout": null
   }
  ],
@@ -248,8 +248,8 @@
    "name": "qwen21-nsfw-pose-skill",
    "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
    "from": "GitHub",
-   "use": 702,
-   "useLabel": "~702 stars/day",
+   "use": 701,
+   "useLabel": "~701 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -363,35 +363,35 @@
  "github": [
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2219,
-   "d24": 702,
+   "stars": 2231,
+   "d24": 701,
    "est": true,
-   "forks": 445,
+   "forks": 448,
    "contrib": null,
    "score": 94
   },
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2654,
-   "d24": 675,
+   "stars": 2667,
+   "d24": 672,
    "est": false,
-   "forks": 347,
+   "forks": 348,
    "contrib": null,
    "score": 91
   },
   {
    "repo": "deeplethe/solid-glass",
-   "stars": 1148,
-   "d24": 294,
+   "stars": 1166,
+   "d24": 297,
    "est": true,
    "forks": 17,
    "contrib": null,
-   "score": 84
+   "score": 85
   },
   {
    "repo": "rociiu/talorys",
-   "stars": 1206,
-   "d24": 184,
+   "stars": 1210,
+   "d24": 185,
    "est": false,
    "forks": 106,
    "contrib": null,
@@ -399,10 +399,10 @@
   },
   {
    "repo": "marclou/mailcheap",
-   "stars": 1078,
-   "d24": 93,
+   "stars": 1082,
+   "d24": 99,
    "est": false,
-   "forks": 281,
+   "forks": 283,
    "contrib": null,
    "score": 75
   }
@@ -417,7 +417,7 @@
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 2431
+   "likes": 2434
   },
   {
    "name": "humanizer",
@@ -428,7 +428,7 @@
    "grow": null,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1766
+   "likes": 1768
   },
   {
    "name": "Qwen-Image-2.1-Turbo",
@@ -439,7 +439,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Vision",
-   "likes": 897
+   "likes": 899
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -451,7 +451,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Vision",
-   "likes": 804
+   "likes": 805
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-Quantized",
@@ -462,7 +462,7 @@
    "grow": 0,
    "score": 85,
    "cat": "Infrastructure",
-   "likes": 4399
+   "likes": 4400
   },
   {
    "name": "LFM2.5-24B-A2B",
@@ -474,7 +474,7 @@
    "grow": 0,
    "score": 85,
    "cat": "LLMs",
-   "likes": 396
+   "likes": 397
   }
  ],
  "free": [
@@ -919,25 +919,25 @@
    "kind": "Video"
   },
   {
-   "t": "Bringing GPT-Rosalind to academic research labs",
-   "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
-   "at": "2026-10-15T19:00:00.000Z",
-   "src": "OpenAI",
-   "kind": "Lab blog"
-  },
-  {
-   "t": "Stock Takes: Anthropic IPO seen as key test for AI market after Firmus listing collapse",
-   "url": "https://www.nzherald.co.nz/business/markets/stock-takes/stock-takes-anthropic-ipo-seen-as-key-test-for-ai-market-after-firmus-listing-collapse/premium/SUHS5TNFAFGCJL2AB2GEVCQYIE/",
-   "at": "2026-10-15T19:00:00Z",
-   "src": "The New Zealand Herald",
+   "t": "FTC Subpoenas OpenAI And Anthropic Following Safety Failures",
+   "url": "https://www.engadget.com/2288104/ftc-subpoenas-open-ai-and-anthropic-following-safety-failures/",
+   "at": "2026-10-15T19:28:53Z",
+   "src": "Engadget",
    "kind": "News"
   },
   {
-   "t": "The AI trade in focus: Altimeter's Brad Gerstner joins 'Halftime Report' live in San Francisco",
-   "url": "https://www.youtube.com/watch?v=s-h4NpYmVBU",
-   "at": "2026-10-15T18:55:27Z",
-   "src": "CNBC Television",
-   "kind": "Video"
+   "t": "Treasury haven trade bounces back as technology stocks slump",
+   "url": "https://financialpost.com/investing/treasury-haven-trade-bounces-back-technology-stocks-slump",
+   "at": "2026-10-15T19:08:46Z",
+   "src": "Financial Post",
+   "kind": "News"
+  },
+  {
+   "t": "Eight states sue OpenAI saying ChatGPT hurt kids and lied to adults",
+   "url": "https://fortune.com/2026/10/15/eight-states-sue-openai-saying-chatgpt-hurt-kids-and-lied-to-adults/",
+   "at": "2026-10-15T19:07:11Z",
+   "src": "Fortune",
+   "kind": "News"
   }
  ],
  "discussions": [
@@ -946,17 +946,35 @@
    "t": "Muse Spark Open",
    "url": "https://news.ycombinator.com/item?id=50107379",
    "link": "https://research.meta.ai/blog/muse-spark-open",
-   "up": 758,
-   "com": 388,
+   "up": 771,
+   "com": 390,
    "at": "2026-10-15T17:47:39.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Wayland desktop for Linux with skeuomorphic design",
+   "url": "https://news.ycombinator.com/item?id=50103338",
+   "link": "https://github.com/fyzugx/DEsk",
+   "up": 586,
+   "com": 230,
+   "at": "2026-10-15T13:23:44.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Any window from your Mac, on your iPhone and iPad",
+   "url": "https://news.ycombinator.com/item?id=50112739",
+   "link": "https://github.com/Saffsanity/sill",
+   "up": 128,
+   "com": 27,
+   "at": "2026-10-16T01:43:17.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Krea 3 – An image model built for editing at scale",
    "url": "https://news.ycombinator.com/item?id=50105648",
    "link": "https://www.krea.ai/krea-3",
-   "up": 289,
-   "com": 91,
+   "up": 294,
+   "com": 95,
    "at": "2026-10-15T16:04:05.000Z"
   },
   {
@@ -964,8 +982,8 @@
    "t": "Why We're Banning AI",
    "url": "https://news.ycombinator.com/item?id=50108131",
    "link": "https://www.currentaffairs.org/news/why-were-banning-ai",
-   "up": 234,
-   "com": 181,
+   "up": 235,
+   "com": 183,
    "at": "2026-10-15T18:32:29.000Z"
   },
   {
@@ -976,24 +994,6 @@
    "up": 237,
    "com": 192,
    "at": "2026-10-15T14:58:48.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Using AI to reverse engineer hardware",
-   "url": "https://news.ycombinator.com/item?id=50104299",
-   "link": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/",
-   "up": 167,
-   "com": 147,
-   "at": "2026-10-15T14:35:15.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "AI was great until it was not",
-   "url": "https://news.ycombinator.com/item?id=50100791",
-   "link": "https://thetheorygirlie.substack.com/p/ai-was-great-until-it-was-not",
-   "up": 119,
-   "com": 77,
-   "at": "2026-10-15T08:18:38.000Z"
   }
  ]
 }
