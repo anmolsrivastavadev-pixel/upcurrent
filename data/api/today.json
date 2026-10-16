@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-16T19:30:52.734Z"
+  "updated": "2026-10-16T20:01:04.130Z"
  },
  "pulse": {
   "trending": 80,
   "accelerating": 0,
-  "newModels": 5,
-  "discussions": 34,
-  "stars": 1857
+  "newModels": 6,
+  "discussions": 33,
+  "stars": 1835
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 94,
-   "grow": 16,
+   "grow": 17,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 2,483",
-    "+557 in 24h",
+    "★ 2,488",
+    "+546 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -41,8 +41,8 @@
    "grow": null,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 2,835",
-    "~565 in 24h",
+    "★ 2,838",
+    "~564 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -88,7 +88,7 @@
    "cat": "Vision",
    "score": 87,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open source · ♥ 837",
+   "desc": "Vision on Hugging Face · open source · ♥ 840",
    "meta": [
     "18K downloads",
     "Released 10 days ago"
@@ -104,7 +104,7 @@
    "cat": "Vision",
    "score": 87,
    "grow": 14,
-   "desc": "Vision on Hugging Face · open weights · ♥ 933",
+   "desc": "Vision on Hugging Face · open weights · ♥ 934",
    "meta": [
     "17K downloads",
     "Released 8 days ago"
@@ -122,8 +122,8 @@
    "grow": 29,
    "desc": "A design system for AI applications. Material, physical, tactile, technical.",
    "meta": [
-    "★ 1,349",
-    "+444 in 24h",
+    "★ 1,351",
+    "+433 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-12T09:19:02Z",
@@ -137,7 +137,7 @@
    "cat": "Tools",
    "score": 85,
    "grow": null,
-   "desc": "Model on Hugging Face · open weights · ♥ 544",
+   "desc": "Model on Hugging Face · open weights · ♥ 547",
    "meta": [
     "6.2K downloads",
     "Released 16 days ago"
@@ -153,7 +153,7 @@
    "cat": "LLMs",
    "score": 85,
    "grow": 49,
-   "desc": "Model on Hugging Face · open weights · ♥ 423",
+   "desc": "Model on Hugging Face · open weights · ♥ 424",
    "meta": [
     "9.4K downloads",
     "Released 5 days ago"
@@ -169,7 +169,7 @@
    "cat": "Vision",
    "score": 85,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 412",
+   "desc": "Vision on Hugging Face · open weights · ♥ 417",
    "meta": [
     "74K downloads",
     "Released 2 days ago"
@@ -183,7 +183,7 @@
   {
    "key": "gemini 4",
    "label": "Gemini 4",
-   "n": 4,
+   "n": 3,
    "sources": [
     {
      "src": "Hacker News",
@@ -191,14 +191,9 @@
      "url": "https://news.ycombinator.com/item?id=50118688"
     },
     {
-     "src": "Google DeepMind blog",
-     "t": "Developing Gemini 4 Argon responsibly and safely",
-     "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/"
-    },
-    {
      "src": "YouTube",
-     "t": "Google Gemini 4 Argon Is Here. We Tested It (+11 AI Updates)",
-     "url": "https://www.youtube.com/watch?v=2XpIMa1BSPc"
+     "t": "Gemini 4 Argon vs Claude Opus 5.5: Who Wins? #gemini4 #claudeopus #ai",
+     "url": "https://www.youtube.com/watch?v=-o6h0Uq67nQ"
     },
     {
      "src": "arXiv",
@@ -224,25 +219,20 @@
      "url": "https://news.ycombinator.com/item?id=50118688"
     },
     {
-     "src": "Google DeepMind blog",
-     "t": "Developing Gemini 4 Argon responsibly and safely",
-     "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/"
-    },
-    {
      "src": "YouTube",
-     "t": "Google Gemini 4 Argon Is Here. We Tested It (+11 AI Updates)",
-     "url": "https://www.youtube.com/watch?v=2XpIMa1BSPc"
+     "t": "Gemini 4 Argon vs Claude Opus 5.5: Who Wins? #gemini4 #claudeopus #ai",
+     "url": "https://www.youtube.com/watch?v=-o6h0Uq67nQ"
     }
    ],
-   "buzz": 3,
+   "buzz": 2,
    "verdict": "Talk only, no public usage numbers"
   },
   {
    "name": "esp32-iphone-agent",
    "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
    "from": "GitHub",
-   "use": 565,
-   "useLabel": "~565 stars/day",
+   "use": 564,
+   "useLabel": "~564 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -356,8 +346,8 @@
  "github": [
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2835,
-   "d24": 565,
+   "stars": 2838,
+   "d24": 564,
    "est": true,
    "forks": 366,
    "contrib": null,
@@ -365,17 +355,17 @@
   },
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2483,
-   "d24": 557,
+   "stars": 2488,
+   "d24": 546,
    "est": false,
-   "forks": 484,
+   "forks": 486,
    "contrib": null,
    "score": 94
   },
   {
    "repo": "deeplethe/solid-glass",
-   "stars": 1349,
-   "d24": 444,
+   "stars": 1351,
+   "d24": 433,
    "est": false,
    "forks": 21,
    "contrib": null,
@@ -392,10 +382,10 @@
   },
   {
    "repo": "marclou/mailcheap",
-   "stars": 1130,
-   "d24": 97,
+   "stars": 1133,
+   "d24": 98,
    "est": false,
-   "forks": 290,
+   "forks": 291,
    "contrib": null,
    "score": 74
   }
@@ -410,7 +400,7 @@
    "grow": 5,
    "score": 90,
    "cat": "Vision",
-   "likes": 2499
+   "likes": 2500
   },
   {
    "name": "humanizer",
@@ -421,7 +411,7 @@
    "grow": 14,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1815
+   "likes": 1817
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -433,7 +423,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Vision",
-   "likes": 837
+   "likes": 840
   },
   {
    "name": "Qwen-Image-2.1-Turbo",
@@ -444,7 +434,7 @@
    "grow": 14,
    "score": 87,
    "cat": "Vision",
-   "likes": 933
+   "likes": 934
   },
   {
    "name": "drama-3",
@@ -455,7 +445,7 @@
    "grow": null,
    "score": 85,
    "cat": "Tools",
-   "likes": 544
+   "likes": 547
   },
   {
    "name": "LFM2.5-24B-A2B",
@@ -467,7 +457,7 @@
    "grow": 49,
    "score": 85,
    "cat": "LLMs",
-   "likes": 423
+   "likes": 424
   }
  ],
  "free": [
@@ -832,6 +822,13 @@
  },
  "headlines": [
   {
+   "t": "Sources: SoftBank weighs buying US security services giant Allied Universal at an ~$18B equity valuation, as Masayoshi Son explores deploying AI-powered robots",
+   "url": "https://www.techmeme.com/261016/p19#a261016p19",
+   "at": "2026-10-16T19:50:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "The PostgreSQL Global Development Group delays the general availability of PostgreSQL 19 after LLM-assisted code reviews uncovered architectural defects",
    "url": "https://www.techmeme.com/261016/p17#a261016p17",
    "at": "2026-10-16T18:45:00.000Z",
@@ -888,10 +885,38 @@
    "kind": "News"
   },
   {
-   "t": "OpenAI says its model paid for a deployment on an Ethereum test network with a wallet it did not own, after obtaining keys from public recovery phrases",
-   "url": "https://www.techmeme.com/261016/p4#a261016p4",
-   "at": "2026-10-16T10:10:22.000Z",
-   "src": "Techmeme",
+   "t": "OpenAI AI Model Used Testnet Crypto, Prompting Questions Over Disclosure",
+   "url": "https://www.cryptobreaking.com/openai-ai-model-used-testnet/",
+   "at": "2026-10-16T07:44:50Z",
+   "src": "Crypto Breaking News",
+   "kind": "News"
+  },
+  {
+   "t": "After OpenAI’s Australia hack, India’s cyber agency says AI agents breached systems",
+   "url": "https://www.thehindu.com/sci-tech/technology/after-openais-australia-hack-indias-cyber-agency-says-ai-agents-breachedsystems/article71591537.ece",
+   "at": "2026-10-16T07:44:48Z",
+   "src": "The Hindu",
+   "kind": "News"
+  },
+  {
+   "t": "Anthropic opens applications for 2027 STEM & conceptual reasoning fellowships. How to apply?",
+   "url": "https://www.businesstoday.in/technology/story/anthropic-opens-applications-for-2027-stem-conceptual-reasoning-fellowships-how-to-apply-562044-2026-10-16",
+   "at": "2026-10-16T07:40:14Z",
+   "src": "Business Today",
+   "kind": "News"
+  },
+  {
+   "t": "ChatGPT Ads concerns: How advertisers could target you using your email address",
+   "url": "https://www.firstpost.com/tech/chatgpt-ads-concerns-how-advertisers-could-target-you-using-your-email-address-14053318.html",
+   "at": "2026-10-16T07:35:42Z",
+   "src": "Firstpost",
+   "kind": "News"
+  },
+  {
+   "t": "Who is Uday Ruddarraju: OpenAI’s CTO leading its data centre and computing operations",
+   "url": "https://www.cnbctv18.com/technology/who-is-uday-ruddarraju-openais-cto-leading-its-data-centre-and-computing-operations-20013474.htm",
+   "at": "2026-10-16T07:31:29Z",
+   "src": "CNBC TV18",
    "kind": "News"
   },
   {
@@ -907,41 +932,6 @@
    "at": "2026-10-16T07:28:09Z",
    "src": "CNA",
    "kind": "News"
-  },
-  {
-   "t": "Preparing Tomorrow's Digital Workforce: A Look at Symbiosis Centre for Information Technology Specialised M.B.A. Programmes",
-   "url": "https://www.tribuneindia.com/news/business/preparing-tomorrows-digital-workforce-a-look-at-symbiosis-centre-for-information-technology-specialised-m-b-a-programmes/",
-   "at": "2026-10-16T07:26:27Z",
-   "src": "The Tribune",
-   "kind": "News"
-  },
-  {
-   "t": "AI stocks earnings grAI stocks' earnings growth set to slow sharply, Jefferies urges diversificationowth set to slow sharply, Jefferies urges diversification",
-   "url": "https://www.tribuneindia.com/news/business/ai-stocks-earnings-grai-stocks-earnings-growth-set-to-slow-sharply-jefferies-urges-diversificationowth-set-to-slow-sharply-jefferies-urges-diversification/",
-   "at": "2026-10-16T07:26:21Z",
-   "src": "The Tribune",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI Agent Involved in Crypto Security Incident",
-   "url": "https://u.today/openai-agent-involved-in-crypto-security-incident",
-   "at": "2026-10-16T07:16:17Z",
-   "src": "U.Today",
-   "kind": "News"
-  },
-  {
-   "t": "CERT-In issues 'critical' alert as AI agents access 'confidential' data of Indian firms'",
-   "url": "https://timesofindia.indiatimes.com/business/india-business/cert-in-issues-critical-alert-as-ai-agents-access-confidential-data-of-indian-firms/articleshow/134985798.cms",
-   "at": "2026-10-16T07:10:00Z",
-   "src": "Times of India",
-   "kind": "News"
-  },
-  {
-   "t": "Rs 142 crore for maths: OpenAI, Anthropic and Simons Foundation fuel research push",
-   "url": "https://www.indiatoday.in/education-today/news/story/ai-in-mathematics-research-openai-anthropic-simons-foundation-announce-rs-142-crore-funding-3018642-2026-10-16",
-   "at": "2026-10-16T07:05:35Z",
-   "src": "India Today",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -950,8 +940,8 @@
    "t": "Claude reveals ECDSA curve origins",
    "url": "https://news.ycombinator.com/item?id=50122800",
    "link": "https://www.anthropic.com/research/ecdsa-curve-origins",
-   "up": 119,
-   "com": 43,
+   "up": 223,
+   "com": 92,
    "at": "2026-10-16T18:55:59.000Z"
   },
   {
@@ -959,17 +949,26 @@
    "t": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
    "url": "https://news.ycombinator.com/item?id=50121179",
    "link": "https://www.mercor.com/research/labor-index/benchmark-map/",
-   "up": 220,
-   "com": 194,
+   "up": 249,
+   "com": 212,
    "at": "2026-10-16T17:08:38.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "How the Claude Code team does code review",
+   "url": "https://news.ycombinator.com/item?id=50122951",
+   "link": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+   "up": 46,
+   "com": 41,
+   "at": "2026-10-16T19:04:47.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
    "url": "https://news.ycombinator.com/item?id=50122431",
    "link": "https://github.com/cobanov/PS5LM",
-   "up": 39,
-   "com": 6,
+   "up": 56,
+   "com": 9,
    "at": "2026-10-16T18:32:35.000Z"
   },
   {
@@ -977,8 +976,8 @@
    "t": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
    "url": "https://news.ycombinator.com/item?id=50119991",
    "link": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
-   "up": 135,
-   "com": 46,
+   "up": 145,
+   "com": 53,
    "at": "2026-10-16T15:55:40.000Z"
   },
   {
@@ -986,18 +985,9 @@
    "t": "Show HN: Gemini 4 Argon plays StarCraft",
    "url": "https://news.ycombinator.com/item?id=50118688",
    "link": "https://starskirmish.com/bench/v0-2/",
-   "up": 140,
-   "com": 67,
+   "up": 148,
+   "com": 69,
    "at": "2026-10-16T14:18:44.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Anthropic Console overcharged my card 100x due to internationalization input bug",
-   "url": "https://news.ycombinator.com/item?id=50121562",
-   "link": "",
-   "up": 43,
-   "com": 8,
-   "at": "2026-10-16T17:31:42.000Z"
   }
  ]
 }
