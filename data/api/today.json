@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-16T14:48:00.010Z"
+  "updated": "2026-10-16T15:01:09.154Z"
  },
  "pulse": {
   "trending": 80,
   "accelerating": 2,
   "newModels": 7,
-  "discussions": 35,
-  "stars": 2064
+  "discussions": 38,
+  "stars": 2059
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 13,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 2,417",
-    "+658 in 24h",
+    "★ 2,421",
+    "+653 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -41,7 +41,7 @@
    "grow": 16,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 2,780",
+    "★ 2,785",
     "+542 in 24h",
     "Created 5 days ago"
    ],
@@ -86,9 +86,9 @@
    "owner": "Qwen",
    "src": "hf",
    "cat": "Vision",
-   "score": 89,
-   "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 920",
+   "score": 88,
+   "grow": 14,
+   "desc": "Vision on Hugging Face · open weights · ♥ 921",
    "meta": [
     "17K downloads",
     "Released 7 days ago"
@@ -96,6 +96,22 @@
    "at": "2026-10-09T04:50:01.000Z",
    "breakout": null,
    "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo"
+  },
+  {
+   "name": "MiniCPM-V-4.7-35B-A3B",
+   "owner": "openbmb",
+   "src": "hf",
+   "cat": "Vision",
+   "score": 87,
+   "grow": null,
+   "desc": "Vision on Hugging Face · open source · ♥ 822",
+   "meta": [
+    "18K downloads",
+    "Released 9 days ago"
+   ],
+   "at": "2026-10-07T07:07:30.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B"
   },
   {
    "name": "solid-glass",
@@ -106,29 +122,13 @@
    "grow": 27,
    "desc": "A design system for AI applications. Material, physical, tactile, technical.",
    "meta": [
-    "★ 1,325",
-    "+572 in 24h",
+    "★ 1,328",
+    "+568 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-12T09:19:02Z",
    "breakout": null,
    "url": "https://github.com/deeplethe/solid-glass"
-  },
-  {
-   "name": "MiniCPM-V-4.7-35B-A3B",
-   "owner": "openbmb",
-   "src": "hf",
-   "cat": "Vision",
-   "score": 86,
-   "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 820",
-   "meta": [
-    "18K downloads",
-    "Released 9 days ago"
-   ],
-   "at": "2026-10-07T07:07:30.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B"
   },
   {
    "name": "drama-3",
@@ -137,7 +137,7 @@
    "cat": "Tools",
    "score": 85,
    "grow": 52,
-   "desc": "Model on Hugging Face · open weights · ♥ 525",
+   "desc": "Model on Hugging Face · open weights · ♥ 526",
    "meta": [
     "6.2K downloads",
     "Released 15 days ago"
@@ -153,7 +153,7 @@
    "cat": "LLMs",
    "score": 85,
    "grow": null,
-   "desc": "Model on Hugging Face · open weights · ♥ 411",
+   "desc": "Model on Hugging Face · open weights · ♥ 412",
    "meta": [
     "9.4K downloads",
     "Released 4 days ago"
@@ -172,7 +172,7 @@
    "grow": null,
    "desc": "Existing agent benchmarks typically evaluate agents on well-specified tasks defined by issue reports, specifications, or task tickets.",
    "meta": [
-    "▲ 163 upvotes",
+    "▲ 169 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-14T20:00:00.000Z",
@@ -187,8 +187,8 @@
    "sources": [
     {
      "src": "DEV",
-     "t": "Gemini 4 Argon API and Android NDK #2260: Google at two speeds",
-     "url": "https://dev.to/axrisi/gemini-4-argon-api-and-android-ndk-2260-google-at-two-speeds-3oom"
+     "t": "[AI in Practice] Upgrading from Gemini 3.5/3.6 to Gemini 4 Argon: Migration Notes and Pitfalls for LINE Bot Developers",
+     "url": "https://dev.to/gde/ai-in-practice-upgrading-from-gemini-3536-to-gemini-4-argon-migration-notes-and-pitfalls-for-hli"
     },
     {
      "src": "Google DeepMind blog",
@@ -220,8 +220,8 @@
    "talk": [
     {
      "src": "DEV",
-     "t": "Gemini 4 Argon API and Android NDK #2260: Google at two speeds",
-     "url": "https://dev.to/axrisi/gemini-4-argon-api-and-android-ndk-2260-google-at-two-speeds-3oom"
+     "t": "[AI in Practice] Upgrading from Gemini 3.5/3.6 to Gemini 4 Argon: Migration Notes and Pitfalls for LINE Bot Developers",
+     "url": "https://dev.to/gde/ai-in-practice-upgrading-from-gemini-3536-to-gemini-4-argon-migration-notes-and-pitfalls-for-hli"
     },
     {
      "src": "Google DeepMind blog",
@@ -258,8 +258,8 @@
    "name": "qwen21-nsfw-pose-skill",
    "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
    "from": "GitHub",
-   "use": 658,
-   "useLabel": "+658 stars/day",
+   "use": 653,
+   "useLabel": "+653 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -373,8 +373,8 @@
  "github": [
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2417,
-   "d24": 658,
+   "stars": 2421,
+   "d24": 653,
    "est": false,
    "forks": 473,
    "contrib": null,
@@ -382,8 +382,8 @@
   },
   {
    "repo": "deeplethe/solid-glass",
-   "stars": 1325,
-   "d24": 572,
+   "stars": 1328,
+   "d24": 568,
    "est": false,
    "forks": 20,
    "contrib": null,
@@ -391,10 +391,10 @@
   },
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2780,
+   "stars": 2785,
    "d24": 542,
    "est": false,
-   "forks": 357,
+   "forks": 359,
    "contrib": null,
    "score": 91
   },
@@ -409,8 +409,8 @@
   },
   {
    "repo": "marclou/mailcheap",
-   "stars": 1109,
-   "d24": 94,
+   "stars": 1112,
+   "d24": 98,
    "est": false,
    "forks": 288,
    "contrib": null,
@@ -446,10 +446,10 @@
    "lic": "Open weights",
    "at": "2026-10-09T04:50:01.000Z",
    "dl": 17421,
-   "grow": null,
-   "score": 89,
+   "grow": 14,
+   "score": 88,
    "cat": "Vision",
-   "likes": 920
+   "likes": 921
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -459,9 +459,9 @@
    "at": "2026-10-07T07:07:30.000Z",
    "dl": 17553,
    "grow": null,
-   "score": 86,
+   "score": 87,
    "cat": "Vision",
-   "likes": 820
+   "likes": 822
   },
   {
    "name": "drama-3",
@@ -472,7 +472,7 @@
    "grow": 52,
    "score": 85,
    "cat": "Tools",
-   "likes": 525
+   "likes": 526
   },
   {
    "name": "LFM2.5-24B-A2B",
@@ -484,7 +484,7 @@
    "grow": null,
    "score": 85,
    "cat": "LLMs",
-   "likes": 411
+   "likes": 412
   }
  ],
  "free": [
@@ -845,6 +845,13 @@
  },
  "headlines": [
   {
+   "t": "In its first meeting, Trump's Super Intelligence Force says it plans to commission a report on AI risks and develop protocols for labs to provide early warnings",
+   "url": "https://www.techmeme.com/261016/p14#a261016p14",
+   "at": "2026-10-16T14:55:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Taiwan plans to curb AI server and chip exports to China as part of a US trade deal and make shipping restricted AI hardware to China a criminal offense",
    "url": "https://www.techmeme.com/261016/p8#a261016p8",
    "at": "2026-10-16T11:45:05.000Z",
@@ -908,6 +915,27 @@
    "kind": "News"
   },
   {
+   "t": "[INTERVIEW] Korean startup targets 'legal AI music' via copyright tracking",
+   "url": "https://www.koreatimes.co.kr/entertainment/music/20261016/korean-startup-targets-legal-ai-music-via-copyright-tracking",
+   "at": "2026-10-16T03:00:05Z",
+   "src": "The Korea Times",
+   "kind": "News"
+  },
+  {
+   "t": "Simons Foundation, Anthropic, OpenAI Commit Rs 142 Crore To Help Mathematicians Navigate AI",
+   "url": "https://www.ndtv.com/education/simons-foundation-anthropic-openai-commit-rs-142-crore-to-help-mathematicians-navigate-ai-12192888",
+   "at": "2026-10-16T02:59:13Z",
+   "src": "NDTV.com",
+   "kind": "News"
+  },
+  {
+   "t": "Google boosts news and link visibility in AI mode",
+   "url": "https://economictimes.indiatimes.com/tech/technology/google-boosts-news-and-link-visibility-in-ai-mode/articleshow/134980737.cms",
+   "at": "2026-10-16T02:53:04Z",
+   "src": "The Economic Times",
+   "kind": "News"
+  },
+  {
    "t": "Asia Stocks Rebound After Tech Selloff",
    "url": "https://www.marketscreener.com/news/asia-stocks-rebound-after-tech-selloff-ce785dd3d080f527",
    "at": "2026-10-16T02:42:22Z",
@@ -927,34 +955,6 @@
    "at": "2026-10-16T02:12:00Z",
    "src": "The Economic Times",
    "kind": "News"
-  },
-  {
-   "t": "'India's dynamic market': Canada Trade Minister Sidhu highlights opportunities for Canadian firms",
-   "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/indias-dynamic-market-canada-trade-minister-sidhu-highlights-opportunities-for-canadian-firms/articleshow/134980414.cms",
-   "at": "2026-10-16T02:12:00Z",
-   "src": "The Economic Times",
-   "kind": "News"
-  },
-  {
-   "t": "'AI artists' perform improvised music at Jarasum Jazz Festival",
-   "url": "https://www.koreatimes.co.kr/business/tech-science/20261016/ai-artists-perform-improvised-music-at-jarasum-jazz-festival",
-   "at": "2026-10-16T02:05:03Z",
-   "src": "The Korea Times",
-   "kind": "News"
-  },
-  {
-   "t": "'AI artists' perform improvised jazz at Jarasum Jazz Festival",
-   "url": "https://www.koreatimes.co.kr/business/tech-science/20261016/ai-artists-perform-improvised-jazz-at-jarasum-jazz-festival",
-   "at": "2026-10-16T02:05:03Z",
-   "src": "The Korea Times",
-   "kind": "News"
-  },
-  {
-   "t": "Google boosts news and link visibility in AI mode",
-   "url": "https://www.manilatimes.net/2026/10/16/world/americas-emea/google-boosts-news-and-link-visibility-in-ai-mode/2447172",
-   "at": "2026-10-16T02:04:00Z",
-   "src": "The Manila Times",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -963,8 +963,8 @@
    "t": "Muse Spark Open",
    "url": "https://news.ycombinator.com/item?id=50107379",
    "link": "https://research.meta.ai/blog/muse-spark-open",
-   "up": 879,
-   "com": 439,
+   "up": 881,
+   "com": 442,
    "at": "2026-10-15T17:47:39.000Z"
   },
   {
@@ -972,7 +972,7 @@
    "t": "Any window from your Mac, on your iPhone and iPad",
    "url": "https://news.ycombinator.com/item?id=50112739",
    "link": "https://github.com/Saffsanity/sill",
-   "up": 209,
+   "up": 212,
    "com": 54,
    "at": "2026-10-16T01:43:17.000Z"
   },
@@ -981,7 +981,7 @@
    "t": "Krea 3 – An image model built for editing at scale",
    "url": "https://news.ycombinator.com/item?id=50105648",
    "link": "https://www.krea.ai/krea-3",
-   "up": 330,
+   "up": 333,
    "com": 106,
    "at": "2026-10-15T16:04:05.000Z"
   },
@@ -991,17 +991,8 @@
    "url": "https://news.ycombinator.com/item?id=50108131",
    "link": "https://www.currentaffairs.org/news/why-were-banning-ai",
    "up": 245,
-   "com": 192,
+   "com": 193,
    "at": "2026-10-15T18:32:29.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Simons Foundation launches $15M effort to help mathematicians navigate AI era",
-   "url": "https://news.ycombinator.com/item?id=50104654",
-   "link": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
-   "up": 243,
-   "com": 196,
-   "at": "2026-10-15T14:58:48.000Z"
   },
   {
    "src": "DEV",
@@ -1010,6 +1001,15 @@
    "up": 15,
    "com": 0,
    "at": "2026-10-16T12:53:17Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Geoffrey Hinton: 'We're creating alien beings. I'm willing to choose humans'",
+   "url": "https://news.ycombinator.com/item?id=50116031",
+   "link": "https://www.theguardian.com/us-news/2026/oct/13/geoffrey-hinton-trump-ai-tech",
+   "up": 31,
+   "com": 11,
+   "at": "2026-10-16T09:13:43.000Z"
   }
  ]
 }
