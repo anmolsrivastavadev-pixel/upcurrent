@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-16T21:30:51.910Z"
+  "updated": "2026-10-16T22:01:02.513Z"
  },
  "pulse": {
-  "trending": 80,
+  "trending": 79,
   "accelerating": 0,
   "newModels": 6,
   "discussions": 37,
-  "stars": 1735
+  "stars": 1712
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 17,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 2,500",
-    "+515 in 24h",
+    "★ 2,503",
+    "+505 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -41,8 +41,8 @@
    "grow": null,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 2,842",
-    "~558 in 24h",
+    "★ 2,843",
+    "~555 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -98,13 +98,29 @@
    "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B"
   },
   {
+   "name": "drama-3",
+   "owner": "fishaudio",
+   "src": "hf",
+   "cat": "Tools",
+   "score": 86,
+   "grow": null,
+   "desc": "Model on Hugging Face · open weights · ♥ 551",
+   "meta": [
+    "6.2K downloads",
+    "Released 16 days ago"
+   ],
+   "at": "2026-10-01T04:34:57.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/fishaudio/drama-3"
+  },
+  {
    "name": "Qwen-Image-2.1-Turbo",
    "owner": "Qwen",
    "src": "hf",
    "cat": "Vision",
    "score": 86,
    "grow": 14,
-   "desc": "Vision on Hugging Face · open weights · ♥ 937",
+   "desc": "Vision on Hugging Face · open weights · ♥ 939",
    "meta": [
     "17K downloads",
     "Released 8 days ago"
@@ -123,28 +139,12 @@
    "desc": "A design system for AI applications. Material, physical, tactile, technical.",
    "meta": [
     "★ 1,352",
-    "+400 in 24h",
+    "+389 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-12T09:19:02Z",
    "breakout": null,
    "url": "https://github.com/deeplethe/solid-glass"
-  },
-  {
-   "name": "drama-3",
-   "owner": "fishaudio",
-   "src": "hf",
-   "cat": "Tools",
-   "score": 85,
-   "grow": null,
-   "desc": "Model on Hugging Face · open weights · ♥ 550",
-   "meta": [
-    "6.2K downloads",
-    "Released 16 days ago"
-   ],
-   "at": "2026-10-01T04:34:57.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/fishaudio/drama-3"
   },
   {
    "name": "LFM2.5-24B-A2B",
@@ -153,7 +153,7 @@
    "cat": "LLMs",
    "score": 85,
    "grow": 49,
-   "desc": "Model on Hugging Face · open weights · ♥ 425",
+   "desc": "Model on Hugging Face · open weights · ♥ 426",
    "meta": [
     "9.4K downloads",
     "Released 5 days ago"
@@ -163,20 +163,20 @@
    "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B"
   },
   {
-   "name": "flux-3-image-klein-comfy",
-   "owner": "black-forest-labs",
-   "src": "hf",
-   "cat": "Vision",
+   "name": "Can World and Action Modeling Benefit Each Other under Unified Causal Training?",
+   "owner": "Paper",
+   "src": "paper",
+   "url": "https://huggingface.co/papers/2610.21095",
+   "cat": "Research",
    "score": 85,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 431",
+   "desc": "World and action modeling are closely related, yet their reciprocal benefits under unified causal training remain unclear.",
    "meta": [
-    "74K downloads",
-    "Released 2 days ago"
+    "▲ 31 upvotes",
+    "Hugging Face Papers"
    ],
-   "at": "2026-10-14T12:00:13.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy"
+   "at": "2026-10-14T20:00:00.000Z",
+   "breakout": null
   }
  ],
  "breakouts": [
@@ -233,11 +233,11 @@
    "from": "Hugging Face",
    "use": 22790,
    "useLabel": "23K downloads",
-   "usePct": 0.4411764705882353,
+   "usePct": 0.45454545454545453,
    "talk": [
     {
      "src": "Hacker News",
-     "t": "Flux 3 Image Klein: open weights, 5.6B parameters",
+     "t": "FLUX 3 Image Klein",
      "url": "https://news.ycombinator.com/item?id=50123580"
     }
    ],
@@ -248,8 +248,8 @@
    "name": "esp32-iphone-agent",
    "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
    "from": "GitHub",
-   "use": 558,
-   "useLabel": "~558 stars/day",
+   "use": 555,
+   "useLabel": "~555 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -272,7 +272,7 @@
    "from": "Hugging Face",
    "use": 2477554,
    "useLabel": "2.5M downloads",
-   "usePct": 0.9705882352941176,
+   "usePct": 0.9696969696969697,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -363,8 +363,8 @@
  "github": [
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2842,
-   "d24": 558,
+   "stars": 2843,
+   "d24": 555,
    "est": true,
    "forks": 366,
    "contrib": null,
@@ -372,8 +372,8 @@
   },
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2500,
-   "d24": 515,
+   "stars": 2503,
+   "d24": 505,
    "est": false,
    "forks": 487,
    "contrib": null,
@@ -382,7 +382,7 @@
   {
    "repo": "deeplethe/solid-glass",
    "stars": 1352,
-   "d24": 400,
+   "d24": 389,
    "est": false,
    "forks": 21,
    "contrib": null,
@@ -390,7 +390,7 @@
   },
   {
    "repo": "marclou/mailcheap",
-   "stars": 1142,
+   "stars": 1147,
    "d24": 180,
    "est": true,
    "forks": 291,
@@ -399,8 +399,8 @@
   },
   {
    "repo": "rociiu/talorys",
-   "stars": 1252,
-   "d24": 82,
+   "stars": 1254,
+   "d24": 83,
    "est": false,
    "forks": 113,
    "contrib": null,
@@ -417,7 +417,7 @@
    "grow": 5,
    "score": 90,
    "cat": "Vision",
-   "likes": 2505
+   "likes": 2506
   },
   {
    "name": "humanizer",
@@ -443,6 +443,17 @@
    "likes": 843
   },
   {
+   "name": "drama-3",
+   "org": "fishaudio",
+   "lic": "Open weights",
+   "at": "2026-10-01T04:34:57.000Z",
+   "dl": 6158,
+   "grow": null,
+   "score": 86,
+   "cat": "Tools",
+   "likes": 551
+  },
+  {
    "name": "Qwen-Image-2.1-Turbo",
    "org": "Qwen",
    "lic": "Open weights",
@@ -451,18 +462,7 @@
    "grow": 14,
    "score": 86,
    "cat": "Vision",
-   "likes": 937
-  },
-  {
-   "name": "drama-3",
-   "org": "fishaudio",
-   "lic": "Open weights",
-   "at": "2026-10-01T04:34:57.000Z",
-   "dl": 6158,
-   "grow": null,
-   "score": 85,
-   "cat": "Tools",
-   "likes": 550
+   "likes": 939
   },
   {
    "name": "LFM2.5-24B-A2B",
@@ -474,7 +474,7 @@
    "grow": 49,
    "score": 85,
    "cat": "LLMs",
-   "likes": 425
+   "likes": 426
   }
  ],
  "free": [
@@ -786,6 +786,13 @@
   "since": "2026-10-01T17:48:04.617Z",
   "events": [
    {
+    "type": "removed",
+    "name": "ll-alpha",
+    "prov": "OpenCode Zen",
+    "url": null,
+    "at": "2026-10-16T22:01:02.513Z"
+   },
+   {
     "type": "added",
     "name": "Xing4.0 29B A4B",
     "prov": "OpenRouter",
@@ -830,6 +837,13 @@
   ]
  },
  "headlines": [
+  {
+   "t": "Filings: Meta reduced its $65M midterms budget by $25M through refunds, primarily from a super PAC it launched in 2025 with $45M to fight state AI bills",
+   "url": "https://www.techmeme.com/261016/p21#a261016p21",
+   "at": "2026-10-16T21:35:00.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
   {
    "t": "Anthropic says Claude traced NIST's ECDSA curve seeds to a pseudorandom number generator, challenging decades-old suspicions of an NSA backdoor in the algorithm",
    "url": "https://www.techmeme.com/261016/p20#a261016p20",
@@ -887,17 +901,31 @@
    "kind": "News"
   },
   {
-   "t": "India's cyber agency says AI agents broke into Indian organizations' systems and read confidential files undetected; AI model providers flagged the incidents",
-   "url": "https://www.techmeme.com/261016/p6#a261016p6",
-   "at": "2026-10-16T10:40:01.000Z",
-   "src": "Techmeme",
+   "t": "Anthropic co-founder renews call for robust regulation of frontier AI",
+   "url": "https://www.malaymail.com/news/world/2026/10/16/anthropic-co-founder-renews-call-for-robust-regulation-of-frontier-ai/239365",
+   "at": "2026-10-16T09:58:40Z",
+   "src": "Malay Mail",
+   "kind": "News"
+  },
+  {
+   "t": "Global Market: European shares set for biggest weekly gain since August on earnings optimism",
+   "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-european-shares-set-for-biggest-weekly-gain-since-august-on-earnings-optimism/articleshow/134990268.cms",
+   "at": "2026-10-16T09:49:00Z",
+   "src": "The Economic Times",
+   "kind": "News"
+  },
+  {
+   "t": "Dr Doom, who predicted global financial crisis, has a forecast for India",
+   "url": "https://economictimes.indiatimes.com/news/economy/indicators/nouriel-roubini-india-growth-outlook-american-tariffs-trade-agreement-china-manufacturing-investment-employment-artificial-intelligence/articleshow/134989388.cms",
+   "at": "2026-10-16T09:43:00Z",
+   "src": "The Economic Times",
    "kind": "News"
   },
   {
    "t": "Only 6% of companies see significant financial gains from AI: McKinsey survey",
-   "url": "https://www.aninews.in/news/business/only-6-of-companies-see-significant-financial-gains-from-ai-mckinsey-survey20261016150038/",
-   "at": "2026-10-16T09:30:39Z",
-   "src": "ANI (Asian News International)",
+   "url": "https://www.tribuneindia.com/news/business/only-6-of-companies-see-significant-financial-gains-from-ai-mckinsey-survey/",
+   "at": "2026-10-16T09:36:37Z",
+   "src": "The Tribune",
    "kind": "News"
   },
   {
@@ -920,27 +948,6 @@
    "at": "2026-10-16T09:12:15Z",
    "src": "NewsBytes",
    "kind": "News"
-  },
-  {
-   "t": "The problem with AI buyers (and investors)",
-   "url": "https://fortune.com/2026/10/16/problem-with-ai-buyers-investors/",
-   "at": "2026-10-16T09:12:13Z",
-   "src": "Fortune",
-   "kind": "News"
-  },
-  {
-   "t": "IMF chief says AI risks may exceed opportunities without safeguards and ethical framework",
-   "url": "https://www.bangkokpost.com/business/general/3338284/imf-chief-says-ai-risks-may-exceed-opportunities-without-safeguards-and-ethical-framework",
-   "at": "2026-10-16T09:07:00Z",
-   "src": "Bangkok Post",
-   "kind": "News"
-  },
-  {
-   "t": "IMF chief says AI risks may exceed opportunities without safeguards",
-   "url": "https://www.bangkokpost.com/business/general/3338284/imf-chief-says-ai-risks-may-exceed-opportunities-without-safeguards",
-   "at": "2026-10-16T09:07:00Z",
-   "src": "Bangkok Post",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -949,8 +956,8 @@
    "t": "Claude reveals ECDSA curve origins",
    "url": "https://news.ycombinator.com/item?id=50122800",
    "link": "https://www.anthropic.com/research/ecdsa-curve-origins",
-   "up": 421,
-   "com": 175,
+   "up": 471,
+   "com": 194,
    "at": "2026-10-16T18:55:59.000Z"
   },
   {
@@ -958,8 +965,8 @@
    "t": "I never authorized an integration that scans my secrets",
    "url": "https://news.ycombinator.com/item?id=50124251",
    "link": "https://github.com/home-assistant/home-assistant.io/issues/49314",
-   "up": 78,
-   "com": 31,
+   "up": 102,
+   "com": 51,
    "at": "2026-10-16T20:33:41.000Z"
   },
   {
@@ -967,8 +974,8 @@
    "t": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
    "url": "https://news.ycombinator.com/item?id=50121179",
    "link": "https://www.mercor.com/research/labor-index/benchmark-map/",
-   "up": 304,
-   "com": 280,
+   "up": 325,
+   "com": 291,
    "at": "2026-10-16T17:08:38.000Z"
   },
   {
@@ -976,27 +983,27 @@
    "t": "How the Claude Code team does code review",
    "url": "https://news.ycombinator.com/item?id=50122951",
    "link": "https://claude.dev/blog/solving-code-review-at-anthropic/",
-   "up": 120,
-   "com": 116,
+   "up": 136,
+   "com": 129,
    "at": "2026-10-16T19:04:47.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Anthropic assigned highest junk credit rating in June",
+   "url": "https://news.ycombinator.com/item?id=50122112",
+   "link": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
+   "up": 160,
+   "com": 44,
+   "at": "2026-10-16T18:11:42.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
    "url": "https://news.ycombinator.com/item?id=50122431",
    "link": "https://github.com/cobanov/PS5LM",
-   "up": 114,
-   "com": 32,
+   "up": 126,
+   "com": 34,
    "at": "2026-10-16T18:32:35.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
-   "url": "https://news.ycombinator.com/item?id=50119991",
-   "link": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
-   "up": 161,
-   "com": 62,
-   "at": "2026-10-16T15:55:40.000Z"
   }
  ]
 }
