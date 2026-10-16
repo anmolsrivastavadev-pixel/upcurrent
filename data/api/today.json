@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-16T13:01:13.668Z"
+  "updated": "2026-10-16T13:30:56.197Z"
  },
  "pulse": {
   "trending": 80,
   "accelerating": 3,
   "newModels": 7,
-  "discussions": 38,
-  "stars": 2147
+  "discussions": 34,
+  "stars": 2107
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 94,
-   "grow": 11,
+   "grow": 12,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 2,370",
-    "+663 in 24h",
+    "★ 2,384",
+    "+664 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -41,8 +41,8 @@
    "grow": 15,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 2,764",
-    "+581 in 24h",
+    "★ 2,771",
+    "+573 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -88,7 +88,7 @@
    "cat": "Vision",
    "score": 89,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 914",
+   "desc": "Vision on Hugging Face · open weights · ♥ 916",
    "meta": [
     "17K downloads",
     "Released 7 days ago"
@@ -106,8 +106,8 @@
    "grow": 26,
    "desc": "A design system for AI applications. Material, physical, tactile, technical.",
    "meta": [
-    "★ 1,317",
-    "+655 in 24h",
+    "★ 1,318",
+    "+627 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-12T09:19:02Z",
@@ -121,7 +121,7 @@
    "cat": "Vision",
    "score": 86,
    "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 813",
+   "desc": "Vision on Hugging Face · open source · ♥ 814",
    "meta": [
     "18K downloads",
     "Released 9 days ago"
@@ -137,7 +137,7 @@
    "cat": "Tools",
    "score": 85,
    "grow": 52,
-   "desc": "Model on Hugging Face · open weights · ♥ 514",
+   "desc": "Model on Hugging Face · open weights · ♥ 516",
    "meta": [
     "6.2K downloads",
     "Released 15 days ago"
@@ -172,7 +172,7 @@
    "grow": null,
    "desc": "Spatial intelligence lets an agent perceive and act in the physical world, and many of its judgments must be made at interaction rates: which spatial relation holds, how far an object is, or where to place it.",
    "meta": [
-    "▲ 109 upvotes",
+    "▲ 120 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-14T20:00:00.000Z",
@@ -248,8 +248,8 @@
    "name": "qwen21-nsfw-pose-skill",
    "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
    "from": "GitHub",
-   "use": 663,
-   "useLabel": "+663 stars/day",
+   "use": 664,
+   "useLabel": "+664 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -363,17 +363,17 @@
  "github": [
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2370,
-   "d24": 663,
+   "stars": 2384,
+   "d24": 664,
    "est": false,
-   "forks": 466,
+   "forks": 467,
    "contrib": null,
    "score": 94
   },
   {
    "repo": "deeplethe/solid-glass",
-   "stars": 1317,
-   "d24": 655,
+   "stars": 1318,
+   "d24": 627,
    "est": false,
    "forks": 20,
    "contrib": null,
@@ -381,17 +381,17 @@
   },
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2764,
-   "d24": 581,
+   "stars": 2771,
+   "d24": 573,
    "est": false,
-   "forks": 356,
+   "forks": 357,
    "contrib": null,
    "score": 91
   },
   {
    "repo": "rociiu/talorys",
    "stars": 1226,
-   "d24": 150,
+   "d24": 147,
    "est": false,
    "forks": 108,
    "contrib": null,
@@ -399,8 +399,8 @@
   },
   {
    "repo": "marclou/mailcheap",
-   "stars": 1104,
-   "d24": 98,
+   "stars": 1105,
+   "d24": 96,
    "est": false,
    "forks": 286,
    "contrib": null,
@@ -417,7 +417,7 @@
    "grow": 5,
    "score": 90,
    "cat": "Vision",
-   "likes": 2466
+   "likes": 2470
   },
   {
    "name": "humanizer",
@@ -428,7 +428,7 @@
    "grow": 14,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1785
+   "likes": 1787
   },
   {
    "name": "Qwen-Image-2.1-Turbo",
@@ -439,7 +439,7 @@
    "grow": null,
    "score": 89,
    "cat": "Vision",
-   "likes": 914
+   "likes": 916
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -451,7 +451,7 @@
    "grow": null,
    "score": 86,
    "cat": "Vision",
-   "likes": 813
+   "likes": 814
   },
   {
    "name": "drama-3",
@@ -462,7 +462,7 @@
    "grow": 52,
    "score": 85,
    "cat": "Tools",
-   "likes": 514
+   "likes": 516
   },
   {
    "name": "LFM2.5-24B-A2B",
@@ -905,31 +905,31 @@
    "kind": "News"
   },
   {
-   "t": "The White House's AI task force begins its 120-day window to evaluate AI, including producing a risk report, implementing the White House Accord on SI, and more",
-   "url": "https://www.techmeme.com/261015/p57#a261015p57",
-   "at": "2026-10-16T01:00:14.000Z",
-   "src": "Techmeme",
+   "t": "Quote of the day by Satya Nadella: I believe in a world that will have an abundance of...",
+   "url": "https://www.indiatoday.in/education-today/gk-current-affairs/story/quote-of-the-day-by-satya-nadella-i-believe-in-a-world-that-will-have-an-abundance-of-3018193-2026-10-16",
+   "at": "2026-10-16T01:30:00Z",
+   "src": "India Today",
    "kind": "News"
   },
   {
-   "t": "Meta claims to have caught the AI leaders, but can it be trusted?",
-   "url": "https://www.afr.com/technology/meta-claims-to-have-caught-the-ai-leaders-but-can-it-be-trusted-20261016-p615fw",
-   "at": "2026-10-16T01:00:00Z",
+   "t": "\"India’s dynamic market\": Canada Trade Minister Sidhu highlights opportunities for Canadian firms",
+   "url": "https://www.tribuneindia.com/news/world/indias-dynamic-market-canada-trade-minister-sidhu-highlights-opportunities-for-canadian-firms/",
+   "at": "2026-10-16T01:25:11Z",
+   "src": "The Tribune",
+   "kind": "News"
+  },
+  {
+   "t": "New Jersey deputy attorney general used AI to generate child sexual abuse material, authorities say",
+   "url": "https://www.nj.com/news/2026/10/nj-deputy-attorney-general-charged-with-using-ai-to-create-child-sex-abuse-material-officials-say.html",
+   "at": "2026-10-16T01:07:15Z",
+   "src": "NJ.com",
+   "kind": "News"
+  },
+  {
+   "t": "Rise of the rogue AI bots a horror show for retail, banking and travel",
+   "url": "https://www.afr.com/companies/financial-services/rise-of-the-rogue-ai-bots-a-horror-show-for-retail-banking-and-travel-20261016-p615ln",
+   "at": "2026-10-16T01:07:15Z",
    "src": "Australian Financial Review",
-   "kind": "News"
-  },
-  {
-   "t": "Maritime surveillance company lists on stock exchange",
-   "url": "https://www.perthnow.com.au/news/politics/maritime-surveillance-company-lists-on-stock-exchange-c-23028201",
-   "at": "2026-10-16T00:46:37Z",
-   "src": "PerthNow",
-   "kind": "News"
-  },
-  {
-   "t": "Microsoft launches project to enhance AI skills and jobs",
-   "url": "https://www.bangkokpost.com/business/general/3338000/microsoft-launches-project-to-enhance-ai-skills-and-jobs",
-   "at": "2026-10-16T00:35:00Z",
-   "src": "Bangkok Post",
    "kind": "News"
   }
  ],
@@ -939,25 +939,16 @@
    "t": "Muse Spark Open",
    "url": "https://news.ycombinator.com/item?id=50107379",
    "link": "https://research.meta.ai/blog/muse-spark-open",
-   "up": 854,
-   "com": 427,
+   "up": 856,
+   "com": 428,
    "at": "2026-10-15T17:47:39.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Wayland desktop for Linux with skeuomorphic design",
-   "url": "https://news.ycombinator.com/item?id=50103338",
-   "link": "https://github.com/fyzugx/DEsk",
-   "up": 639,
-   "com": 259,
-   "at": "2026-10-15T13:23:44.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Any window from your Mac, on your iPhone and iPad",
    "url": "https://news.ycombinator.com/item?id=50112739",
    "link": "https://github.com/Saffsanity/sill",
-   "up": 189,
+   "up": 194,
    "com": 48,
    "at": "2026-10-16T01:43:17.000Z"
   },
@@ -966,8 +957,8 @@
    "t": "Krea 3 – An image model built for editing at scale",
    "url": "https://news.ycombinator.com/item?id=50105648",
    "link": "https://www.krea.ai/krea-3",
-   "up": 321,
-   "com": 104,
+   "up": 324,
+   "com": 105,
    "at": "2026-10-15T16:04:05.000Z"
   },
   {
@@ -976,7 +967,7 @@
    "url": "https://news.ycombinator.com/item?id=50108131",
    "link": "https://www.currentaffairs.org/news/why-were-banning-ai",
    "up": 245,
-   "com": 189,
+   "com": 190,
    "at": "2026-10-15T18:32:29.000Z"
   },
   {
@@ -987,6 +978,15 @@
    "up": 242,
    "com": 195,
    "at": "2026-10-15T14:58:48.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Using AI to reverse engineer hardware",
+   "url": "https://news.ycombinator.com/item?id=50104299",
+   "link": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/",
+   "up": 220,
+   "com": 194,
+   "at": "2026-10-15T14:35:15.000Z"
   }
  ]
 }
