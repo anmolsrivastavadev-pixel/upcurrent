@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-16T02:30:57.726Z"
+  "updated": "2026-10-16T03:01:09.354Z"
  },
  "pulse": {
-  "trending": 78,
+  "trending": 79,
   "accelerating": 1,
   "newModels": 9,
-  "discussions": 35,
-  "stars": 1595
+  "discussions": 34,
+  "stars": 1894
  },
  "rising": [
   {
@@ -20,12 +20,12 @@
    "owner": "Arekejoker",
    "src": "gh",
    "cat": "Agents",
-   "score": 95,
-   "grow": 31,
+   "score": 94,
+   "grow": 32,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 2,080",
-    "+652 in 24h",
+    "★ 2,096",
+    "+655 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -41,8 +41,8 @@
    "grow": null,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 2,518",
-    "~585 in 24h",
+    "★ 2,539",
+    "~587 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -59,7 +59,7 @@
    "desc": "Vision on Hugging Face · open source · ♥ 2.4K",
    "meta": [
     "144K downloads",
-    "Released 31 days ago"
+    "Released 32 days ago"
    ],
    "at": "2026-09-14T14:53:42.000Z",
    "breakout": null,
@@ -88,7 +88,7 @@
    "cat": "Vision",
    "score": 89,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 883",
+   "desc": "Vision on Hugging Face · open weights · ♥ 886",
    "meta": [
     "15K downloads",
     "Released 7 days ago"
@@ -104,7 +104,7 @@
    "cat": "Vision",
    "score": 86,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open source · ♥ 796",
+   "desc": "Vision on Hugging Face · open source · ♥ 798",
    "meta": [
     "9.3K downloads",
     "Released 9 days ago"
@@ -146,19 +146,19 @@
    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized"
   },
   {
-   "name": "Speculative Forcing for Efficient Autoregressive Video Generation",
+   "name": "OmniCompass: A Holistic Benchmark for Omni-Modal Video Grounding and Understanding",
    "owner": "Paper",
    "src": "paper",
-   "url": "https://huggingface.co/papers/2610.22347",
+   "url": "https://huggingface.co/papers/2610.18829",
    "cat": "Research",
    "score": 85,
    "grow": null,
-   "desc": "Few-step autoregressive video generators enable streaming generation, yet they run every token through the final denoising step, regardless of how much refinement it needs.",
+   "desc": "With the rapid development of multimodal large language models (MLLMs), evaluating their video understanding capabilities has become increasingly important.",
    "meta": [
-    "▲ 30 upvotes",
+    "▲ 44 upvotes",
     "Hugging Face Papers"
    ],
-   "at": "2026-10-14T20:00:00.000Z",
+   "at": "2026-10-12T20:00:00.000Z",
    "breakout": null
   },
   {
@@ -202,8 +202,8 @@
    "name": "qwen21-nsfw-pose-skill",
    "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
    "from": "GitHub",
-   "use": 652,
-   "useLabel": "+652 stars/day",
+   "use": 655,
+   "useLabel": "+655 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -317,35 +317,44 @@
  "github": [
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2080,
-   "d24": 652,
+   "stars": 2096,
+   "d24": 655,
    "est": false,
-   "forks": 423,
+   "forks": 427,
    "contrib": null,
-   "score": 95
+   "score": 94
   },
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2518,
-   "d24": 585,
+   "stars": 2539,
+   "d24": 587,
    "est": true,
-   "forks": 332,
+   "forks": 333,
    "contrib": null,
    "score": 92
   },
   {
+   "repo": "deeplethe/solid-glass",
+   "stars": 1044,
+   "d24": 279,
+   "est": true,
+   "forks": 16,
+   "contrib": null,
+   "score": 82
+  },
+  {
    "repo": "marclou/mailcheap",
-   "stars": 1057,
+   "stars": 1060,
    "d24": 190,
    "est": true,
-   "forks": 275,
+   "forks": 277,
    "contrib": null,
-   "score": 76
+   "score": 75
   },
   {
    "repo": "rociiu/talorys",
-   "stars": 1166,
-   "d24": 168,
+   "stars": 1175,
+   "d24": 183,
    "est": false,
    "forks": 104,
    "contrib": null,
@@ -362,7 +371,7 @@
    "grow": 7,
    "score": 90,
    "cat": "Vision",
-   "likes": 2411
+   "likes": 2413
   },
   {
    "name": "humanizer",
@@ -373,7 +382,7 @@
    "grow": 15,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1742
+   "likes": 1746
   },
   {
    "name": "Qwen-Image-2.1-Turbo",
@@ -384,7 +393,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Vision",
-   "likes": 883
+   "likes": 886
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -396,7 +405,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Vision",
-   "likes": 796
+   "likes": 798
   },
   {
    "name": "LFM2.5-24B-A2B",
@@ -419,7 +428,7 @@
    "grow": 0,
    "score": 85,
    "cat": "Infrastructure",
-   "likes": 4391
+   "likes": 4392
   }
  ],
  "free": [
@@ -861,8 +870,8 @@
    "t": "Muse Spark Open",
    "url": "https://news.ycombinator.com/item?id=50107379",
    "link": "https://research.meta.ai/blog/muse-spark-open",
-   "up": 640,
-   "com": 360,
+   "up": 653,
+   "com": 361,
    "at": "2026-10-15T17:47:39.000Z"
   },
   {
@@ -870,8 +879,8 @@
    "t": "Wayland desktop for Linux with skeuomorphic design",
    "url": "https://news.ycombinator.com/item?id=50103338",
    "link": "https://github.com/fyzugx/DEsk",
-   "up": 519,
-   "com": 205,
+   "up": 526,
+   "com": 206,
    "at": "2026-10-15T13:23:44.000Z"
   },
   {
@@ -879,7 +888,7 @@
    "t": "Why We're Banning AI",
    "url": "https://news.ycombinator.com/item?id=50108131",
    "link": "https://www.currentaffairs.org/news/why-were-banning-ai",
-   "up": 223,
+   "up": 224,
    "com": 178,
    "at": "2026-10-15T18:32:29.000Z"
   },
@@ -888,8 +897,8 @@
    "t": "Krea 3 – An image model built for editing at scale",
    "url": "https://news.ycombinator.com/item?id=50105648",
    "link": "https://www.krea.ai/krea-3",
-   "up": 258,
-   "com": 83,
+   "up": 259,
+   "com": 84,
    "at": "2026-10-15T16:04:05.000Z"
   },
   {
@@ -898,7 +907,7 @@
    "url": "https://news.ycombinator.com/item?id=50104654",
    "link": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
    "up": 232,
-   "com": 188,
+   "com": 189,
    "at": "2026-10-15T14:58:48.000Z"
   },
   {
@@ -906,8 +915,8 @@
    "t": "Using AI to reverse engineer hardware",
    "url": "https://news.ycombinator.com/item?id=50104299",
    "link": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/",
-   "up": 123,
-   "com": 112,
+   "up": 126,
+   "com": 113,
    "at": "2026-10-15T14:35:15.000Z"
   }
  ]
