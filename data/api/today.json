@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-16T18:01:06.767Z"
+  "updated": "2026-10-16T18:30:56.577Z"
  },
  "pulse": {
-  "trending": 79,
+  "trending": 80,
   "accelerating": 0,
-  "newModels": 6,
-  "discussions": 34,
-  "stars": 1871
+  "newModels": 5,
+  "discussions": 33,
+  "stars": 1910
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 16,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 2,466",
-    "+588 in 24h",
+    "★ 2,474",
+    "+581 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 91,
-   "grow": 18,
+   "grow": null,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 2,825",
-    "+509 in 24h",
+    "★ 2,829",
+    "~569 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -88,7 +88,7 @@
    "cat": "Vision",
    "score": 87,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open source · ♥ 832",
+   "desc": "Vision on Hugging Face · open source · ♥ 835",
    "meta": [
     "18K downloads",
     "Released 9 days ago"
@@ -104,7 +104,7 @@
    "cat": "Vision",
    "score": 87,
    "grow": 14,
-   "desc": "Vision on Hugging Face · open weights · ♥ 930",
+   "desc": "Vision on Hugging Face · open weights · ♥ 931",
    "meta": [
     "17K downloads",
     "Released 8 days ago"
@@ -122,8 +122,8 @@
    "grow": 29,
    "desc": "A design system for AI applications. Material, physical, tactile, technical.",
    "meta": [
-    "★ 1,343",
-    "+478 in 24h",
+    "★ 1,345",
+    "+466 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-12T09:19:02Z",
@@ -137,7 +137,7 @@
    "cat": "Tools",
    "score": 85,
    "grow": null,
-   "desc": "Model on Hugging Face · open weights · ♥ 537",
+   "desc": "Model on Hugging Face · open weights · ♥ 539",
    "meta": [
     "6.2K downloads",
     "Released 16 days ago"
@@ -153,7 +153,7 @@
    "cat": "LLMs",
    "score": 85,
    "grow": 49,
-   "desc": "Model on Hugging Face · open weights · ♥ 418",
+   "desc": "Model on Hugging Face · open weights · ♥ 419",
    "meta": [
     "9.4K downloads",
     "Released 5 days ago"
@@ -163,20 +163,20 @@
    "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B"
   },
   {
-   "name": "FDE-Gym: The Last Mile of AI Delivery",
-   "owner": "Paper",
-   "src": "paper",
-   "url": "https://huggingface.co/papers/2610.22350",
-   "cat": "Research",
+   "name": "flux-3-image-klein-comfy",
+   "owner": "black-forest-labs",
+   "src": "hf",
+   "cat": "Vision",
    "score": 85,
    "grow": null,
-   "desc": "Existing agent benchmarks typically evaluate agents on well-specified tasks defined by issue reports, specifications, or task tickets.",
+   "desc": "Vision on Hugging Face · open weights · ♥ 403",
    "meta": [
-    "▲ 228 upvotes",
-    "Hugging Face Papers"
+    "74K downloads",
+    "Released 2 days ago"
    ],
-   "at": "2026-10-14T20:00:00.000Z",
-   "breakout": null
+   "at": "2026-10-14T12:00:13.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy"
   }
  ],
  "breakouts": [
@@ -197,8 +197,8 @@
     },
     {
      "src": "YouTube",
-     "t": "Gemini 4 Argon vs Claude Opus 5.5: Who Wins? #gemini4 #claudeopus #ai",
-     "url": "https://www.youtube.com/watch?v=-o6h0Uq67nQ"
+     "t": "Google Gemini 4 Argon Is Here. We Tested It (+11 AI Updates)",
+     "url": "https://www.youtube.com/watch?v=2XpIMa1BSPc"
     },
     {
      "src": "arXiv",
@@ -230,8 +230,8 @@
     },
     {
      "src": "YouTube",
-     "t": "Gemini 4 Argon vs Claude Opus 5.5: Who Wins? #gemini4 #claudeopus #ai",
-     "url": "https://www.youtube.com/watch?v=-o6h0Uq67nQ"
+     "t": "Google Gemini 4 Argon Is Here. We Tested It (+11 AI Updates)",
+     "url": "https://www.youtube.com/watch?v=2XpIMa1BSPc"
     }
    ],
    "buzz": 3,
@@ -241,8 +241,8 @@
    "name": "qwen21-nsfw-pose-skill",
    "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
    "from": "GitHub",
-   "use": 588,
-   "useLabel": "+588 stars/day",
+   "use": 581,
+   "useLabel": "+581 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -265,7 +265,7 @@
    "from": "Hugging Face",
    "use": 2477554,
    "useLabel": "2.5M downloads",
-   "usePct": 0.9696969696969697,
+   "usePct": 0.9705882352941176,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -356,26 +356,26 @@
  "github": [
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2466,
-   "d24": 588,
+   "stars": 2474,
+   "d24": 581,
    "est": false,
-   "forks": 482,
+   "forks": 484,
    "contrib": null,
    "score": 94
   },
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2825,
-   "d24": 509,
-   "est": false,
+   "stars": 2829,
+   "d24": 569,
+   "est": true,
    "forks": 366,
    "contrib": null,
    "score": 91
   },
   {
    "repo": "deeplethe/solid-glass",
-   "stars": 1343,
-   "d24": 478,
+   "stars": 1345,
+   "d24": 466,
    "est": false,
    "forks": 21,
    "contrib": null,
@@ -384,7 +384,7 @@
   {
    "repo": "rociiu/talorys",
    "stars": 1242,
-   "d24": 196,
+   "d24": 195,
    "est": true,
    "forks": 112,
    "contrib": null,
@@ -392,8 +392,8 @@
   },
   {
    "repo": "marclou/mailcheap",
-   "stars": 1126,
-   "d24": 100,
+   "stars": 1127,
+   "d24": 99,
    "est": false,
    "forks": 290,
    "contrib": null,
@@ -410,7 +410,7 @@
    "grow": 5,
    "score": 90,
    "cat": "Vision",
-   "likes": 2495
+   "likes": 2496
   },
   {
    "name": "humanizer",
@@ -421,7 +421,7 @@
    "grow": 14,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1806
+   "likes": 1810
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -433,7 +433,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Vision",
-   "likes": 832
+   "likes": 835
   },
   {
    "name": "Qwen-Image-2.1-Turbo",
@@ -444,7 +444,7 @@
    "grow": 14,
    "score": 87,
    "cat": "Vision",
-   "likes": 930
+   "likes": 931
   },
   {
    "name": "drama-3",
@@ -455,7 +455,7 @@
    "grow": null,
    "score": 85,
    "cat": "Tools",
-   "likes": 537
+   "likes": 539
   },
   {
    "name": "LFM2.5-24B-A2B",
@@ -467,7 +467,7 @@
    "grow": 49,
    "score": 85,
    "cat": "LLMs",
-   "likes": 418
+   "likes": 419
   }
  ],
  "free": [
@@ -814,6 +814,13 @@
  },
  "headlines": [
   {
+   "t": "Grounding AI agents in biological reality: Building blocks for autonomous wet labs",
+   "url": "https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs/",
+   "at": "2026-10-16T18:11:34.000Z",
+   "src": "Google Research",
+   "kind": "Lab blog"
+  },
+  {
    "t": "Reflection AI releases Apache 2.0-licensed weights for Beam, a 501B-parameter model, trained with RL that penalized unnecessary tokens",
    "url": "https://www.techmeme.com/261016/p15#a261016p15",
    "at": "2026-10-16T16:40:02.000Z",
@@ -870,6 +877,41 @@
    "kind": "News"
   },
   {
+   "t": "US states sue OpenAI, saying its popular chatbot is hurting children and deceiving adults",
+   "url": "https://www.thestar.com.my/tech/tech-news/2026/10/16/us-states-sue-openai-saying-its-popular-chatbot-is-hurting-children-and-deceiving-adults",
+   "at": "2026-10-16T06:30:00Z",
+   "src": "The Star",
+   "kind": "News"
+  },
+  {
+   "t": "AI-driven workplace surveillance sparks rights warning",
+   "url": "https://www.canberratimes.com.au/story/9369564/ai-driven-workplace-surveillance-sparks-rights-warning/",
+   "at": "2026-10-16T06:28:38Z",
+   "src": "The Canberra Times",
+   "kind": "News"
+  },
+  {
+   "t": "ChatGPT can now work across your open Chrome tabs",
+   "url": "https://www.newsbytesapp.com/news/science/openai-lets-chatgpt-work-across-your-open-chrome-tabs/story",
+   "at": "2026-10-16T06:19:46Z",
+   "src": "NewsBytes",
+   "kind": "News"
+  },
+  {
+   "t": "OpenAI AI model used another person’s crypto wallet to complete coding task after running out of funds",
+   "url": "https://www.firstpost.com/tech/openai-ai-model-used-another-persons-crypto-wallet-to-complete-coding-task-after-running-out-of-funds-14053286.html",
+   "at": "2026-10-16T06:16:23Z",
+   "src": "Firstpost",
+   "kind": "News"
+  },
+  {
+   "t": "OpenAI Model Spent Testnet ETH Without Authorization",
+   "url": "https://cointelegraph.com/news/openai-model-spent-testnet-eth-without-authorization",
+   "at": "2026-10-16T06:11:22Z",
+   "src": "Cointelegraph",
+   "kind": "News"
+  },
+  {
    "t": "Chinese state media: during an interview, Tim Cook says China has approved Apple Intelligence, and a test version will arrive in late October without Siri AI",
    "url": "https://www.techmeme.com/261016/p2#a261016p2",
    "at": "2026-10-16T06:05:01.000Z",
@@ -882,48 +924,6 @@
    "at": "2026-10-16T05:54:28Z",
    "src": "Times Now",
    "kind": "News"
-  },
-  {
-   "t": "AI glasses raise cheating fears ahead of CSAT, putting teachers under pressure",
-   "url": "https://www.koreatimes.co.kr/southkorea/education/20261016/ai-glasses-raise-cheating-fears-ahead-of-csat-putting-teachers-under-pressure",
-   "at": "2026-10-16T05:54:02Z",
-   "src": "The Korea Times",
-   "kind": "News"
-  },
-  {
-   "t": "“Not going to prejudge\": Fed Chair keeps rate outlook open; calls AI \"positive supply shock\"",
-   "url": "https://www.tribuneindia.com/news/business/not-going-to-prejudge-fed-chair-keeps-rate-outlook-open-calls-ai-positive-supply-shock/",
-   "at": "2026-10-16T05:51:48Z",
-   "src": "The Tribune",
-   "kind": "News"
-  },
-  {
-   "t": "‘We don’t feel threatened’: Apple’s Greg Joswiak responds to OpenAI’s hardware ambitions",
-   "url": "https://www.businesstoday.in/technology/news/story/we-dont-feel-threatened-apples-greg-joswiak-responds-to-openais-hardware-ambitions-561992-2026-10-16",
-   "at": "2026-10-16T05:47:52Z",
-   "src": "Business Today",
-   "kind": "News"
-  },
-  {
-   "t": "Fed Chair keeps rate outlook open; calls AI \"positive supply shock\"",
-   "url": "https://www.aninews.in/news/business/8220not-going-to-prejudge-fed-chair-keeps-rate-outlook-open-calls-ai-positive-supply-shock20261016111226/",
-   "at": "2026-10-16T05:42:26Z",
-   "src": "ANI (Asian News International)",
-   "kind": "News"
-  },
-  {
-   "t": "Meta releases Muse Spark Open AI model with 816 billion parameters; runs on two Apple Mac Studios",
-   "url": "https://timesofindia.indiatimes.com/technology/tech-news/meta-releases-muse-spark-open-ai-model-with-816-billion-parameters-runs-on-two-apple-mac-studios/articleshow/134983442.cms",
-   "at": "2026-10-16T05:26:00Z",
-   "src": "Times of India",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI agent spends Ethereum from wallet it did not own",
-   "url": "https://crypto.news/openai-spends-ethereum-from-wallet-it-did-not-own/",
-   "at": "2026-10-16T05:23:09Z",
-   "src": "Crypto News",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -932,8 +932,8 @@
    "t": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
    "url": "https://news.ycombinator.com/item?id=50121179",
    "link": "https://www.mercor.com/research/labor-index/benchmark-map/",
-   "up": 57,
-   "com": 30,
+   "up": 134,
+   "com": 95,
    "at": "2026-10-16T17:08:38.000Z"
   },
   {
@@ -941,8 +941,8 @@
    "t": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
    "url": "https://news.ycombinator.com/item?id=50119991",
    "link": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
-   "up": 85,
-   "com": 19,
+   "up": 107,
+   "com": 33,
    "at": "2026-10-16T15:55:40.000Z"
   },
   {
@@ -950,8 +950,8 @@
    "t": "Show HN: Gemini 4 Argon plays StarCraft",
    "url": "https://news.ycombinator.com/item?id=50118688",
    "link": "https://starskirmish.com/bench/v0-2/",
-   "up": 106,
-   "com": 50,
+   "up": 118,
+   "com": 57,
    "at": "2026-10-16T14:18:44.000Z"
   },
   {
@@ -959,26 +959,27 @@
    "t": "Any window from your Mac, on your iPhone and iPad",
    "url": "https://news.ycombinator.com/item?id=50112739",
    "link": "https://github.com/Saffsanity/sill",
-   "up": 231,
-   "com": 69,
+   "up": 232,
+   "com": 73,
    "at": "2026-10-16T01:43:17.000Z"
-  },
-  {
-   "src": "DEV",
-   "t": "Help Your Coding Assistant Find the Right Code in Large Repos",
-   "url": "https://dev.to/raabdahl/help-your-coding-assistant-find-the-right-code-in-large-repos-20e3",
-   "up": 13,
-   "com": 2,
-   "at": "2026-10-16T16:53:48Z"
   },
   {
    "src": "Hacker News",
    "t": "Why We're Banning AI",
    "url": "https://news.ycombinator.com/item?id=50108131",
    "link": "https://www.currentaffairs.org/news/why-were-banning-ai",
-   "up": 249,
-   "com": 196,
+   "up": 250,
+   "com": 197,
    "at": "2026-10-15T18:32:29.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Show HN: rStation – A shared research lab for your AI agents",
+   "url": "https://news.ycombinator.com/item?id=50118876",
+   "link": "https://rstation.ai/",
+   "up": 33,
+   "com": 18,
+   "at": "2026-10-16T14:35:43.000Z"
   }
  ]
 }
