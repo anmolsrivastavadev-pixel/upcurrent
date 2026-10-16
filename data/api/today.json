@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-16T16:30:56.454Z"
+  "updated": "2026-10-16T17:01:06.795Z"
  },
  "pulse": {
-  "trending": 80,
+  "trending": 79,
   "accelerating": 0,
   "newModels": 6,
-  "discussions": 32,
-  "stars": 1959
+  "discussions": 34,
+  "stars": 1937
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 15,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 2,448",
-    "+626 in 24h",
+    "★ 2,456",
+    "+616 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -41,8 +41,8 @@
    "grow": 17,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 2,802",
-    "+520 in 24h",
+    "★ 2,812",
+    "+519 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -75,27 +75,11 @@
    "desc": "Model on Hugging Face · open source · ♥ 1.8K",
    "meta": [
     "86K downloads",
-    "Released 35 days ago"
+    "Released 36 days ago"
    ],
    "at": "2026-09-11T05:00:16.000Z",
    "breakout": null,
    "url": "https://huggingface.co/jialinyyzz/humanizer"
-  },
-  {
-   "name": "Qwen-Image-2.1-Turbo",
-   "owner": "Qwen",
-   "src": "hf",
-   "cat": "Vision",
-   "score": 88,
-   "grow": 14,
-   "desc": "Vision on Hugging Face · open weights · ♥ 925",
-   "meta": [
-    "17K downloads",
-    "Released 7 days ago"
-   ],
-   "at": "2026-10-09T04:50:01.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo"
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -114,6 +98,22 @@
    "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B"
   },
   {
+   "name": "Qwen-Image-2.1-Turbo",
+   "owner": "Qwen",
+   "src": "hf",
+   "cat": "Vision",
+   "score": 87,
+   "grow": 14,
+   "desc": "Vision on Hugging Face · open weights · ♥ 925",
+   "meta": [
+    "17K downloads",
+    "Released 8 days ago"
+   ],
+   "at": "2026-10-09T04:50:01.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo"
+  },
+  {
    "name": "solid-glass",
    "owner": "deeplethe",
    "src": "gh",
@@ -122,8 +122,8 @@
    "grow": 28,
    "desc": "A design system for AI applications. Material, physical, tactile, technical.",
    "meta": [
-    "★ 1,334",
-    "+516 in 24h",
+    "★ 1,339",
+    "+506 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-12T09:19:02Z",
@@ -137,10 +137,10 @@
    "cat": "Tools",
    "score": 85,
    "grow": 52,
-   "desc": "Model on Hugging Face · open weights · ♥ 529",
+   "desc": "Model on Hugging Face · open weights · ♥ 531",
    "meta": [
     "6.2K downloads",
-    "Released 15 days ago"
+    "Released 16 days ago"
    ],
    "at": "2026-10-01T04:34:57.000Z",
    "breakout": null,
@@ -172,7 +172,7 @@
    "grow": null,
    "desc": "Existing agent benchmarks typically evaluate agents on well-specified tasks defined by issue reports, specifications, or task tickets.",
    "meta": [
-    "▲ 201 upvotes",
+    "▲ 215 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-14T20:00:00.000Z",
@@ -183,7 +183,7 @@
   {
    "key": "gemini 4",
    "label": "Gemini 4",
-   "n": 4,
+   "n": 5,
    "sources": [
     {
      "src": "Hacker News",
@@ -199,6 +199,11 @@
      "src": "Google DeepMind blog",
      "t": "Developing Gemini 4 Argon responsibly and safely",
      "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/"
+    },
+    {
+     "src": "YouTube",
+     "t": "Gemini 4 Argon vs Claude Opus 5.5: Who Wins? #gemini4 #claudeopus #ai",
+     "url": "https://www.youtube.com/watch?v=-o6h0Uq67nQ"
     },
     {
      "src": "arXiv",
@@ -232,9 +237,14 @@
      "src": "Google DeepMind blog",
      "t": "Developing Gemini 4 Argon responsibly and safely",
      "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/"
+    },
+    {
+     "src": "YouTube",
+     "t": "Gemini 4 Argon vs Claude Opus 5.5: Who Wins? #gemini4 #claudeopus #ai",
+     "url": "https://www.youtube.com/watch?v=-o6h0Uq67nQ"
     }
    ],
-   "buzz": 3,
+   "buzz": 4,
    "verdict": "Talk only, no public usage numbers"
   },
   {
@@ -243,7 +253,7 @@
    "from": "Hugging Face",
    "use": 9356,
    "useLabel": "9.4K downloads",
-   "usePct": 0.23529411764705882,
+   "usePct": 0.24242424242424243,
    "talk": [
     {
      "src": "Hugging Face blog",
@@ -258,19 +268,8 @@
    "name": "qwen21-nsfw-pose-skill",
    "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
    "from": "GitHub",
-   "use": 626,
-   "useLabel": "+626 stars/day",
-   "usePct": 1,
-   "talk": [],
-   "buzz": 0,
-   "verdict": "Used a lot, hardly talked about"
-  },
-  {
-   "name": "Qwen-Image-2.1",
-   "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1",
-   "from": "Hugging Face",
-   "use": 10584606,
-   "useLabel": "11M downloads",
+   "use": 616,
+   "useLabel": "+616 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -282,7 +281,18 @@
    "from": "Hugging Face",
    "use": 5349998,
    "useLabel": "5.3M downloads",
-   "usePct": 0.9705882352941176,
+   "usePct": 1,
+   "talk": [],
+   "buzz": 0,
+   "verdict": "Used a lot, hardly talked about"
+  },
+  {
+   "name": "Qwen-Image-2.1-Uncensored-Quantized",
+   "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+   "from": "Hugging Face",
+   "use": 2477554,
+   "useLabel": "2.5M downloads",
+   "usePct": 0.9696969696969697,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -373,28 +383,28 @@
  "github": [
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2448,
-   "d24": 626,
+   "stars": 2456,
+   "d24": 616,
    "est": false,
-   "forks": 478,
+   "forks": 481,
    "contrib": null,
    "score": 94
   },
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2802,
-   "d24": 520,
+   "stars": 2812,
+   "d24": 519,
    "est": false,
-   "forks": 363,
+   "forks": 364,
    "contrib": null,
    "score": 91
   },
   {
    "repo": "deeplethe/solid-glass",
-   "stars": 1334,
-   "d24": 516,
+   "stars": 1339,
+   "d24": 506,
    "est": false,
-   "forks": 20,
+   "forks": 21,
    "contrib": null,
    "score": 86
   },
@@ -409,10 +419,10 @@
   },
   {
    "repo": "marclou/mailcheap",
-   "stars": 1120,
-   "d24": 100,
+   "stars": 1121,
+   "d24": 99,
    "est": false,
-   "forks": 288,
+   "forks": 289,
    "contrib": null,
    "score": 75
   }
@@ -427,7 +437,7 @@
    "grow": 5,
    "score": 90,
    "cat": "Vision",
-   "likes": 2486
+   "likes": 2491
   },
   {
    "name": "humanizer",
@@ -438,18 +448,7 @@
    "grow": 14,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1801
-  },
-  {
-   "name": "Qwen-Image-2.1-Turbo",
-   "org": "Qwen",
-   "lic": "Open weights",
-   "at": "2026-10-09T04:50:01.000Z",
-   "dl": 17421,
-   "grow": 14,
-   "score": 88,
-   "cat": "Vision",
-   "likes": 925
+   "likes": 1803
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -464,6 +463,17 @@
    "likes": 827
   },
   {
+   "name": "Qwen-Image-2.1-Turbo",
+   "org": "Qwen",
+   "lic": "Open weights",
+   "at": "2026-10-09T04:50:01.000Z",
+   "dl": 17421,
+   "grow": 14,
+   "score": 87,
+   "cat": "Vision",
+   "likes": 925
+  },
+  {
    "name": "drama-3",
    "org": "fishaudio",
    "lic": "Open weights",
@@ -472,7 +482,7 @@
    "grow": 52,
    "score": 85,
    "cat": "Tools",
-   "likes": 529
+   "likes": 531
   },
   {
    "name": "LFM2.5-24B-A2B",
@@ -831,6 +841,13 @@
  },
  "headlines": [
   {
+   "t": "Reflection AI releases Apache 2.0-licensed weights for Beam, a 501B-parameter model, trained with RL that penalized unnecessary tokens",
+   "url": "https://www.techmeme.com/261016/p15#a261016p15",
+   "at": "2026-10-16T16:40:02.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "In its first meeting, Trump's Super Intelligence Force says it plans to commission a report on AI risks and develop protocols for labs to provide early warnings",
    "url": "https://www.techmeme.com/261016/p14#a261016p14",
    "at": "2026-10-16T14:55:01.000Z",
@@ -887,10 +904,38 @@
    "kind": "News"
   },
   {
+   "t": "After my friend lost his job, he asked AI what came next",
+   "url": "https://www.irishtimes.com/world/asia-pacific/2026/10/16/my-friend-lost-his-job-and-then-he-asked-ai-what-came-next/",
+   "at": "2026-10-16T05:00:00Z",
+   "src": "The Irish Times",
+   "kind": "News"
+  },
+  {
    "t": "Taiwan plans US industrial parks costing $2B to $4B each, starting with a Texas complex costing up to $4B, to build a supply chain for Nvidia, TSMC, and Foxconn",
    "url": "https://www.techmeme.com/261016/p1#a261016p1",
    "at": "2026-10-16T04:55:00.000Z",
    "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Fired Power Capacity, Analysis Says – NaturalNews.com",
+   "url": "https://www.naturalnews.com/2026-10-16-data-center-boom-drives-increase-gas-power.html",
+   "at": "2026-10-16T04:47:20Z",
+   "src": "Natural News",
+   "kind": "News"
+  },
+  {
+   "t": "Taiwan Eyes Multiple US Projects for AI Supply Chain",
+   "url": "https://www.marketscreener.com/news/taiwan-eyes-multiple-us-projects-for-ai-supply-chain-ce785cdad98bff25",
+   "at": "2026-10-16T04:41:19Z",
+   "src": "MarketScreener",
+   "kind": "News"
+  },
+  {
+   "t": "Study: AI coding tools do not write accessible code",
+   "url": "https://abc17news.com/stacker-ai/2026/10/15/study-ai-coding-tools-do-not-write-accessible-code/",
+   "at": "2026-10-16T04:39:38Z",
+   "src": "ABC17News.com",
    "kind": "News"
   },
   {
@@ -906,41 +951,6 @@
    "at": "2026-10-16T04:25:07Z",
    "src": "News18",
    "kind": "News"
-  },
-  {
-   "t": "Amazon expands hardware footprint with Bee Frontier and Bee Eclipse, personal AI devices starting at USD 74.99",
-   "url": "https://www.devdiscourse.com/article/business/3993396-amazon-expands-hardware-footprint-with-bee-frontier-and-bee-eclipse-personal-ai-devices-starting-at-usd-7499",
-   "at": "2026-10-16T04:24:49Z",
-   "src": "Devdiscourse",
-   "kind": "News"
-  },
-  {
-   "t": "Trump’s AI Task Force to Commission Report on Technology’s Risks",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-16/trump-s-ai-task-force-to-commission-report-on-technology-s-risks",
-   "at": "2026-10-16T04:22:18Z",
-   "src": "Bloomberg",
-   "kind": "News"
-  },
-  {
-   "t": "Elon Musk's 'China prediction' may add to the pain of 20 of the most valuable global technology companies across US and Europe that have lost over $1 trillion dollars in less than 5 days",
-   "url": "https://timesofindia.indiatimes.com/technology/tech-news/elon-musks-china-prediction-may-add-to-the-pain-of-20-of-the-most-valuable-global-technology-companies-across-us-and-europe-that-have-lost-over-1-trillion-dollars-in-less-than-5-days/articleshow/134982259.cms",
-   "at": "2026-10-16T04:17:00Z",
-   "src": "Times of India",
-   "kind": "News"
-  },
-  {
-   "t": "New York City pension fund asks Anthropic to delay IPO",
-   "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/new-york-city-pension-fund-asks-anthropic-to-delay-ipo/articleshow/134982189.cms",
-   "at": "2026-10-16T04:12:45Z",
-   "src": "The Economic Times",
-   "kind": "News"
-  },
-  {
-   "t": "Malaysia's economy grows 5.3% year-on-year in Q3: Advance estimate",
-   "url": "https://www.channelnewsasia.com/business/malaysia-economy-growth-q3-official-advance-estimate-6464966",
-   "at": "2026-10-16T04:06:00Z",
-   "src": "CNA",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -949,17 +959,26 @@
    "t": "Muse Spark Open",
    "url": "https://news.ycombinator.com/item?id=50107379",
    "link": "https://research.meta.ai/blog/muse-spark-open",
-   "up": 888,
-   "com": 448,
+   "up": 889,
+   "com": 450,
    "at": "2026-10-15T17:47:39.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
+   "url": "https://news.ycombinator.com/item?id=50119991",
+   "link": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
+   "up": 29,
+   "com": 4,
+   "at": "2026-10-16T15:55:40.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Show HN: Gemini 4 Argon plays StarCraft",
    "url": "https://news.ycombinator.com/item?id=50118688",
    "link": "https://starskirmish.com/bench/v0-2/",
-   "up": 59,
-   "com": 40,
+   "up": 69,
+   "com": 42,
    "at": "2026-10-16T14:18:44.000Z"
   },
   {
@@ -968,7 +987,7 @@
    "url": "https://news.ycombinator.com/item?id=50112739",
    "link": "https://github.com/Saffsanity/sill",
    "up": 224,
-   "com": 60,
+   "com": 62,
    "at": "2026-10-16T01:43:17.000Z"
   },
   {
@@ -977,26 +996,17 @@
    "url": "https://news.ycombinator.com/item?id=50108131",
    "link": "https://www.currentaffairs.org/news/why-were-banning-ai",
    "up": 247,
-   "com": 194,
+   "com": 196,
    "at": "2026-10-15T18:32:29.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Geoffrey Hinton: 'We're creating alien beings. I'm willing to choose humans'",
-   "url": "https://news.ycombinator.com/item?id=50116031",
-   "link": "https://www.theguardian.com/us-news/2026/oct/13/geoffrey-hinton-trump-ai-tech",
-   "up": 37,
-   "com": 17,
-   "at": "2026-10-16T09:13:43.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "BeBox is a Haiku application that emulates Be Inc.'s BeBox",
-   "url": "https://news.ycombinator.com/item?id=50111742",
-   "link": "https://github.com/johnrash/bebox",
-   "up": 81,
-   "com": 30,
-   "at": "2026-10-15T23:22:53.000Z"
+   "t": "$137M in A.I.-Generated Ads Flood the Midterms",
+   "url": "https://news.ycombinator.com/item?id=50118701",
+   "link": "https://www.nytimes.com/2026/10/16/us/politics/midterm-elections-ai-generated-ads.html",
+   "up": 21,
+   "com": 2,
+   "at": "2026-10-16T14:20:32.000Z"
   }
  ]
 }
