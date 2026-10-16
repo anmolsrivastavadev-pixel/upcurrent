@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-16T10:01:08.835Z"
+  "updated": "2026-10-16T10:30:55.385Z"
  },
  "pulse": {
   "trending": 79,
-  "accelerating": 0,
+  "accelerating": 3,
   "newModels": 7,
-  "discussions": 31,
-  "stars": 2307
+  "discussions": 32,
+  "stars": 2346
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 94,
-   "grow": null,
+   "grow": 9,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 2,310",
-    "~703 in 24h",
+    "★ 2,319",
+    "+736 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -41,8 +41,8 @@
    "grow": 14,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 2,726",
-    "+650 in 24h",
+    "★ 2,730",
+    "+632 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -58,7 +58,7 @@
    "grow": null,
    "desc": "Vision on Hugging Face · open source · ♥ 2.4K",
    "meta": [
-    "144K downloads",
+    "151K downloads",
     "Released 32 days ago"
    ],
    "at": "2026-09-14T14:53:42.000Z",
@@ -74,7 +74,7 @@
    "grow": null,
    "desc": "Model on Hugging Face · open source · ♥ 1.8K",
    "meta": [
-    "75K downloads",
+    "86K downloads",
     "Released 35 days ago"
    ],
    "at": "2026-09-11T05:00:16.000Z",
@@ -90,7 +90,7 @@
    "grow": null,
    "desc": "Vision on Hugging Face · open weights · ♥ 904",
    "meta": [
-    "15K downloads",
+    "17K downloads",
     "Released 7 days ago"
    ],
    "at": "2026-10-09T04:50:01.000Z",
@@ -102,12 +102,12 @@
    "owner": "deeplethe",
    "src": "gh",
    "cat": "Agents",
-   "score": 86,
-   "grow": 19,
+   "score": 87,
+   "grow": 21,
    "desc": "A design system for AI applications. Material, physical, tactile, technical.",
    "meta": [
-    "★ 1,244",
-    "+686 in 24h",
+    "★ 1,268",
+    "+717 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-12T09:19:02Z",
@@ -120,10 +120,10 @@
    "src": "hf",
    "cat": "Vision",
    "score": 86,
-   "grow": 0,
-   "desc": "Vision on Hugging Face · open source · ♥ 810",
+   "grow": null,
+   "desc": "Vision on Hugging Face · open source · ♥ 811",
    "meta": [
-    "9.3K downloads",
+    "18K downloads",
     "Released 9 days ago"
    ],
    "at": "2026-10-07T07:07:30.000Z",
@@ -136,10 +136,10 @@
    "src": "hf",
    "cat": "Tools",
    "score": 85,
-   "grow": 0,
-   "desc": "Model on Hugging Face · open weights · ♥ 507",
+   "grow": 52,
+   "desc": "Model on Hugging Face · open weights · ♥ 510",
    "meta": [
-    "4K downloads",
+    "6.2K downloads",
     "Released 15 days ago"
    ],
    "at": "2026-10-01T04:34:57.000Z",
@@ -153,9 +153,9 @@
    "cat": "LLMs",
    "score": 85,
    "grow": null,
-   "desc": "Model on Hugging Face · open weights · ♥ 400",
+   "desc": "Model on Hugging Face · open weights · ♥ 402",
    "meta": [
-    "6.3K downloads",
+    "9.4K downloads",
     "Released 4 days ago"
    ],
    "at": "2026-10-12T05:35:46.000Z",
@@ -172,7 +172,7 @@
    "grow": null,
    "desc": "Spatial intelligence lets an agent perceive and act in the physical world, and many of its judgments must be made at interaction rates: which spatial relation holds, how far an object is, or where to place it.",
    "meta": [
-    "▲ 46 upvotes",
+    "▲ 56 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-14T20:00:00.000Z",
@@ -185,9 +185,9 @@
    "name": "LFM2.5-24B-A2B",
    "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B",
    "from": "Hugging Face",
-   "use": 6286,
-   "useLabel": "6.3K downloads",
-   "usePct": 0.24242424242424243,
+   "use": 9356,
+   "useLabel": "9.4K downloads",
+   "usePct": 0.21212121212121213,
    "talk": [
     {
      "src": "Hugging Face blog",
@@ -202,8 +202,8 @@
    "name": "qwen21-nsfw-pose-skill",
    "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
    "from": "GitHub",
-   "use": 703,
-   "useLabel": "~703 stars/day",
+   "use": 736,
+   "useLabel": "+736 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -213,8 +213,8 @@
    "name": "Qwen-Image-2.1",
    "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1",
    "from": "Hugging Face",
-   "use": 10250615,
-   "useLabel": "10M downloads",
+   "use": 10584606,
+   "useLabel": "11M downloads",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -224,8 +224,8 @@
    "name": "Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
    "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
    "from": "Hugging Face",
-   "use": 5183346,
-   "useLabel": "5.2M downloads",
+   "use": 5349998,
+   "useLabel": "5.3M downloads",
    "usePct": 0.9696969696969697,
    "talk": [],
    "buzz": 0,
@@ -233,6 +233,46 @@
   }
  ],
  "receipts": [
+  {
+   "name": "feitangyuan/onetake",
+   "url": "https://github.com/feitangyuan/onetake",
+   "kind": "stars",
+   "first": "2026-10-01T17:48:04.617Z",
+   "firstV": 1116,
+   "m": 2500,
+   "at": "2026-10-16T10:30:55.385Z",
+   "lead": 352.7141022222222
+  },
+  {
+   "name": "openbmb/MiniCPM-V-4.7-35B-A3B",
+   "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B",
+   "kind": "downloads",
+   "first": "2026-10-13T01:30:55.019Z",
+   "firstV": 166,
+   "m": 10000,
+   "at": "2026-10-16T10:30:55.385Z",
+   "lead": 81.00010166666667
+  },
+  {
+   "name": "black-forest-labs/flux-3-image-klein",
+   "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein",
+   "kind": "downloads",
+   "first": "2026-10-15T18:01:13.586Z",
+   "firstV": 3241,
+   "m": 10000,
+   "at": "2026-10-16T10:30:55.385Z",
+   "lead": 16.494944166666667
+  },
+  {
+   "name": "black-forest-labs/flux-3-image-klein-comfy",
+   "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
+   "kind": "downloads",
+   "first": "2026-10-15T19:01:09.678Z",
+   "firstV": 39,
+   "m": 10000,
+   "at": "2026-10-16T10:30:55.385Z",
+   "lead": 15.496029722222222
+  },
   {
    "name": "lemomo-ai/lemo-opuscar",
    "url": "https://github.com/lemomo-ai/lemo-opuscar",
@@ -272,80 +312,40 @@
    "m": 2500,
    "at": "2026-10-15T07:01:06.951Z",
    "lead": 60.50312666666667
-  },
-  {
-   "name": "wheresryan22/anatomy",
-   "url": "https://github.com/wheresryan22/anatomy",
-   "kind": "stars",
-   "first": "2026-10-11T11:30:51.880Z",
-   "firstV": 1020,
-   "m": 10000,
-   "at": "2026-10-15T00:30:53.512Z",
-   "lead": 85.00045333333334
-  },
-  {
-   "name": "yihui-dev/awesome-opus5-5-videos",
-   "url": "https://github.com/yihui-dev/awesome-opus5-5-videos",
-   "kind": "stars",
-   "first": "2026-10-01T17:48:04.617Z",
-   "firstV": 1221,
-   "m": 5000,
-   "at": "2026-10-14T17:30:56.790Z",
-   "lead": 311.7144925
-  },
-  {
-   "name": "CopilotKit/openmuse",
-   "url": "https://github.com/CopilotKit/openmuse",
-   "kind": "stars",
-   "first": "2026-10-01T17:48:04.617Z",
-   "firstV": 3527,
-   "m": 5000,
-   "at": "2026-10-14T16:30:58.198Z",
-   "lead": 310.71488361111113
-  },
-  {
-   "name": "Jakeschincariol/replica-skill",
-   "url": "https://github.com/Jakeschincariol/replica-skill",
-   "kind": "stars",
-   "first": "2026-10-08T09:30:50.498Z",
-   "firstV": 938,
-   "m": 2500,
-   "at": "2026-10-14T11:01:09.471Z",
-   "lead": 145.50527027777778
   }
  ],
  "github": [
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2310,
-   "d24": 703,
-   "est": true,
-   "forks": 461,
+   "stars": 2319,
+   "d24": 736,
+   "est": false,
+   "forks": 463,
    "contrib": null,
    "score": 94
   },
   {
    "repo": "deeplethe/solid-glass",
-   "stars": 1244,
-   "d24": 686,
+   "stars": 1268,
+   "d24": 717,
    "est": false,
    "forks": 19,
    "contrib": null,
-   "score": 86
+   "score": 87
   },
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2726,
-   "d24": 650,
+   "stars": 2730,
+   "d24": 632,
    "est": false,
-   "forks": 351,
+   "forks": 352,
    "contrib": null,
    "score": 91
   },
   {
    "repo": "rociiu/talorys",
-   "stars": 1220,
-   "d24": 170,
+   "stars": 1221,
+   "d24": 167,
    "est": false,
    "forks": 108,
    "contrib": null,
@@ -354,7 +354,7 @@
   {
    "repo": "marclou/mailcheap",
    "stars": 1092,
-   "d24": 98,
+   "d24": 94,
    "est": false,
    "forks": 284,
    "contrib": null,
@@ -367,29 +367,29 @@
    "org": "google",
    "lic": "Open source",
    "at": "2026-09-14T14:53:42.000Z",
-   "dl": 144280,
+   "dl": 151258,
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 2447
+   "likes": 2448
   },
   {
    "name": "humanizer",
    "org": "jialinyyzz",
    "lic": "Open source",
    "at": "2026-09-11T05:00:16.000Z",
-   "dl": 75253,
+   "dl": 85612,
    "grow": null,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1778
+   "likes": 1781
   },
   {
    "name": "Qwen-Image-2.1-Turbo",
    "org": "Qwen",
    "lic": "Open weights",
    "at": "2026-10-09T04:50:01.000Z",
-   "dl": 15315,
+   "dl": 17421,
    "grow": null,
    "score": 89,
    "cat": "Vision",
@@ -401,22 +401,22 @@
    "size": "35B",
    "lic": "Open source",
    "at": "2026-10-07T07:07:30.000Z",
-   "dl": 9278,
-   "grow": 0,
+   "dl": 17553,
+   "grow": null,
    "score": 86,
    "cat": "Vision",
-   "likes": 810
+   "likes": 811
   },
   {
    "name": "drama-3",
    "org": "fishaudio",
    "lic": "Open weights",
    "at": "2026-10-01T04:34:57.000Z",
-   "dl": 4048,
-   "grow": 0,
+   "dl": 6158,
+   "grow": 52,
    "score": 85,
    "cat": "Tools",
-   "likes": 507
+   "likes": 510
   },
   {
    "name": "LFM2.5-24B-A2B",
@@ -424,11 +424,11 @@
    "size": "24B",
    "lic": "Open weights",
    "at": "2026-10-12T05:35:46.000Z",
-   "dl": 6286,
+   "dl": 9356,
    "grow": null,
    "score": 85,
    "cat": "LLMs",
-   "likes": 400
+   "likes": 402
   }
  ],
  "free": [
@@ -775,6 +775,13 @@
  },
  "headlines": [
   {
+   "t": "OpenAI says its model paid for a deployment on an Ethereum test network with a wallet it did not own, after obtaining keys from public recovery phrases",
+   "url": "https://www.techmeme.com/261016/p4#a261016p4",
+   "at": "2026-10-16T10:10:22.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "A look at China's AI learning frenzy, as economic anxiety and fear of being left behind fuel a booming market for courses promising prosperity through AI",
    "url": "https://www.techmeme.com/261016/p3#a261016p3",
    "at": "2026-10-16T08:30:01.000Z",
@@ -845,45 +852,38 @@
    "kind": "Video"
   },
   {
-   "t": "‘AI lowers the capital needed’: India’s drug discovery push faces test of human trials",
-   "url": "https://www.channelnewsasia.com/asia/ai-lowers-capital-needed-indias-drug-discovery-push-faces-test-human-trials-6462176",
-   "at": "2026-10-15T22:00:00Z",
-   "src": "CNA",
+   "t": "OpenAI's Dots Head Says AI Lets Workers Do Either Less or More",
+   "url": "https://www.businessinsider.com/openai-dots-head-ai-lets-workers-do-less-or-more-2026-10",
+   "at": "2026-10-15T22:20:25Z",
+   "src": "Business Insider",
+   "kind": "News"
+  },
+  {
+   "t": "OpenAI engineer booked Saudi Arabia flight before federal custody: DOJ",
+   "url": "https://www.foxnews.com/us/ex-openai-engineer-charged-planting-recording-device-one-way-flight-booked-saudi-arabia-doj",
+   "at": "2026-10-15T22:15:40Z",
+   "src": "Fox News",
    "kind": "News"
   },
   {
    "t": "New Amazon Bee Personal AI Devices Will Listen and Record You",
-   "url": "https://www.cnet.com/tech/mobile/amazon-bee-personal-ai-device-always-listening-and-recording/",
-   "at": "2026-10-15T21:52:44Z",
+   "url": "https://www.cnet.com/tech/mobile/amazon-bee-personal-ai-device-always-listening-and-recording-2/",
+   "at": "2026-10-15T22:14:16Z",
    "src": "CNET",
    "kind": "News"
   },
   {
-   "t": "Tech Down on AI Credit Fears -- Tech Roundup",
-   "url": "https://www.marketscreener.com/news/tech-down-on-ai-credit-fears-tech-roundup-ce785dd3d089f52d",
-   "at": "2026-10-15T21:52:21Z",
-   "src": "MarketScreener",
+   "t": "Farm raising beef for tables around the world faces threat from data center construction",
+   "url": "https://www.koreatimes.co.kr/southkorea/20261016/farm-raising-beef-for-tables-around-the-world-faces-threat-from-data-center-construction",
+   "at": "2026-10-15T22:05:04Z",
+   "src": "The Korea Times",
    "kind": "News"
   },
   {
-   "t": "Bluesky expands Attie, its AI tool for building custom feeds, with a \"social vibe coding\" feature to create sites, games, quizzes, and more on the AT Protocol",
-   "url": "https://www.techmeme.com/261015/p53#a261015p53",
-   "at": "2026-10-15T21:35:04.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Meta Releases Open-Weight Muse Spark Model For Coding, Agentic Tasks",
-   "url": "https://www.ndtv.com/artificial-intelligence/meta-releases-open-weight-muse-spark-model-for-coding-agentic-tasks-12192439",
-   "at": "2026-10-15T21:20:15Z",
-   "src": "NDTV.com",
-   "kind": "News"
-  },
-  {
-   "t": "Sources: some Anthropic investors discussed a ~$1.5T valuation for its IPO, down from ~$2T they had expected, after disclosures showed slowing Q3 revenue growth",
-   "url": "https://www.techmeme.com/261015/p52#a261015p52",
-   "at": "2026-10-15T21:20:01.000Z",
-   "src": "Techmeme",
+   "t": "‘AI lowers the capital needed’: India’s drug discovery push faces test of human trials",
+   "url": "https://www.channelnewsasia.com/asia/ai-lowers-capital-needed-indias-drug-discovery-push-faces-test-human-trials-6462176",
+   "at": "2026-10-15T22:00:00Z",
+   "src": "CNA",
    "kind": "News"
   }
  ],
@@ -893,8 +893,8 @@
    "t": "Muse Spark Open",
    "url": "https://news.ycombinator.com/item?id=50107379",
    "link": "https://research.meta.ai/blog/muse-spark-open",
-   "up": 816,
-   "com": 405,
+   "up": 823,
+   "com": 412,
    "at": "2026-10-15T17:47:39.000Z"
   },
   {
@@ -902,8 +902,8 @@
    "t": "Wayland desktop for Linux with skeuomorphic design",
    "url": "https://news.ycombinator.com/item?id=50103338",
    "link": "https://github.com/fyzugx/DEsk",
-   "up": 612,
-   "com": 238,
+   "up": 616,
+   "com": 241,
    "at": "2026-10-15T13:23:44.000Z"
   },
   {
@@ -911,8 +911,8 @@
    "t": "Any window from your Mac, on your iPhone and iPad",
    "url": "https://news.ycombinator.com/item?id=50112739",
    "link": "https://github.com/Saffsanity/sill",
-   "up": 148,
-   "com": 34,
+   "up": 157,
+   "com": 37,
    "at": "2026-10-16T01:43:17.000Z"
   },
   {
@@ -920,8 +920,8 @@
    "t": "Krea 3 – An image model built for editing at scale",
    "url": "https://news.ycombinator.com/item?id=50105648",
    "link": "https://www.krea.ai/krea-3",
-   "up": 311,
-   "com": 99,
+   "up": 313,
+   "com": 100,
    "at": "2026-10-15T16:04:05.000Z"
   },
   {
@@ -929,8 +929,8 @@
    "t": "Why We're Banning AI",
    "url": "https://news.ycombinator.com/item?id=50108131",
    "link": "https://www.currentaffairs.org/news/why-were-banning-ai",
-   "up": 239,
-   "com": 185,
+   "up": 243,
+   "com": 186,
    "at": "2026-10-15T18:32:29.000Z"
   },
   {
@@ -938,7 +938,7 @@
    "t": "Simons Foundation launches $15M effort to help mathematicians navigate AI era",
    "url": "https://news.ycombinator.com/item?id=50104654",
    "link": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
-   "up": 239,
+   "up": 240,
    "com": 193,
    "at": "2026-10-15T14:58:48.000Z"
   }
