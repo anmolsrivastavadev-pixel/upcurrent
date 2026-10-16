@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-16T05:01:09.705Z"
+  "updated": "2026-10-16T05:30:54.859Z"
  },
  "pulse": {
   "trending": 79,
   "accelerating": 0,
   "newModels": 7,
-  "discussions": 37,
-  "stars": 1993
+  "discussions": 40,
+  "stars": 1992
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 2,140",
-    "~695 in 24h",
+    "★ 2,157",
+    "~696 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -41,8 +41,8 @@
    "grow": 8,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 2,592",
-    "+655 in 24h",
+    "★ 2,603",
+    "+647 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -88,7 +88,7 @@
    "cat": "Vision",
    "score": 89,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 890",
+   "desc": "Vision on Hugging Face · open weights · ♥ 893",
    "meta": [
     "15K downloads",
     "Released 7 days ago"
@@ -104,7 +104,7 @@
    "cat": "Vision",
    "score": 86,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open source · ♥ 802",
+   "desc": "Vision on Hugging Face · open source · ♥ 803",
    "meta": [
     "9.3K downloads",
     "Released 9 days ago"
@@ -146,19 +146,19 @@
    "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B"
   },
   {
-   "name": "Routing Policy Optimization for Online Diffusion Reinforcement Learning",
+   "name": "Self-Evolving Agent Harness",
    "owner": "Paper",
    "src": "paper",
-   "url": "https://huggingface.co/papers/2610.22282",
+   "url": "https://huggingface.co/papers/2610.18813",
    "cat": "Research",
    "score": 85,
    "grow": null,
-   "desc": "Reinforcement learning can align visual generators with reward signals beyond their pretraining objectives, but existing score-function methods typically introduce stochasticity by perturbing the reverse denoising trajectory, leading to costly rollout-based optimization.",
+   "desc": "Harness self-evolution revises an agent's software scaffolding, including prompts, memory, workflows, and executable components, while keeping model weights fixed.",
    "meta": [
-    "▲ 17 upvotes",
+    "▲ 28 upvotes",
     "Hugging Face Papers"
    ],
-   "at": "2026-10-14T20:00:00.000Z",
+   "at": "2026-10-12T20:00:00.000Z",
    "breakout": null
   },
   {
@@ -202,8 +202,8 @@
    "name": "qwen21-nsfw-pose-skill",
    "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
    "from": "GitHub",
-   "use": 695,
-   "useLabel": "~695 stars/day",
+   "use": 696,
+   "useLabel": "~696 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -233,6 +233,16 @@
   }
  ],
  "receipts": [
+  {
+   "name": "lemomo-ai/lemo-opuscar",
+   "url": "https://github.com/lemomo-ai/lemo-opuscar",
+   "kind": "stars",
+   "first": "2026-10-01T17:48:04.617Z",
+   "firstV": 756,
+   "m": 2500,
+   "at": "2026-10-16T05:30:54.859Z",
+   "lead": 347.7139561111111
+  },
   {
    "name": "onehumanbeing/esp32-iphone-agent",
    "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
@@ -302,41 +312,31 @@
    "m": 2500,
    "at": "2026-10-14T11:01:09.471Z",
    "lead": 145.50527027777778
-  },
-  {
-   "name": "Qwen/Qwen-Image-2.1-Turbo",
-   "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo",
-   "kind": "downloads",
-   "first": "2026-10-09T15:01:08.583Z",
-   "firstV": 0,
-   "m": 10000,
-   "at": "2026-10-14T10:01:06.363Z",
-   "lead": 114.99938333333333
   }
  ],
  "github": [
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2140,
-   "d24": 695,
+   "stars": 2157,
+   "d24": 696,
    "est": true,
-   "forks": 436,
+   "forks": 439,
    "contrib": null,
    "score": 94
   },
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2592,
-   "d24": 655,
+   "stars": 2603,
+   "d24": 647,
    "est": false,
-   "forks": 341,
+   "forks": 342,
    "contrib": null,
    "score": 92
   },
   {
    "repo": "deeplethe/solid-glass",
-   "stars": 1094,
-   "d24": 286,
+   "stars": 1111,
+   "d24": 289,
    "est": true,
    "forks": 16,
    "contrib": null,
@@ -344,7 +344,7 @@
   },
   {
    "repo": "marclou/mailcheap",
-   "stars": 1066,
+   "stars": 1070,
    "d24": 188,
    "est": true,
    "forks": 279,
@@ -353,8 +353,8 @@
   },
   {
    "repo": "rociiu/talorys",
-   "stars": 1184,
-   "d24": 169,
+   "stars": 1189,
+   "d24": 172,
    "est": false,
    "forks": 104,
    "contrib": null,
@@ -371,7 +371,7 @@
    "grow": 7,
    "score": 90,
    "cat": "Vision",
-   "likes": 2421
+   "likes": 2425
   },
   {
    "name": "humanizer",
@@ -382,7 +382,7 @@
    "grow": 15,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1757
+   "likes": 1758
   },
   {
    "name": "Qwen-Image-2.1-Turbo",
@@ -393,7 +393,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Vision",
-   "likes": 890
+   "likes": 893
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -405,7 +405,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Vision",
-   "likes": 802
+   "likes": 803
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-Quantized",
@@ -416,7 +416,7 @@
    "grow": 0,
    "score": 85,
    "cat": "Infrastructure",
-   "likes": 4396
+   "likes": 4397
   },
   {
    "name": "LFM2.5-24B-A2B",
@@ -850,17 +850,17 @@
    "kind": "Lab blog"
   },
   {
-   "t": "Be There for the Beginning: Celebrate the Launch of NVIDIA RTX Spark",
-   "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite/",
-   "at": "2026-10-15T17:00:23.000Z",
-   "src": "NVIDIA",
-   "kind": "Lab blog"
+   "t": "FTC Subpoenas OpenAI and Anthropic Over AI Safety Concerns",
+   "url": "https://gizmodo.com/ftc-subpoenas-openai-and-anthropic-over-ai-safety-concerns-2000826413",
+   "at": "2026-10-15T17:25:12Z",
+   "src": "Gizmodo",
+   "kind": "News"
   },
   {
-   "t": "Meta Releases Open AI Model While Keeping Its Best Tech Closed",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-15/meta-releases-open-ai-model-while-keeping-its-best-tech-closed",
-   "at": "2026-10-15T17:00:00Z",
-   "src": "Bloomberg",
+   "t": "States sue AI giant OpenAI, saying its popular chatbot is hurting children and deceiving adults",
+   "url": "https://www.ajc.com/news/2026/10/states-sue-ai-giant-openai-saying-its-popular-chatbot-is-hurting-children-and-deceiving-adults/",
+   "at": "2026-10-15T17:13:26Z",
+   "src": "The Atlanta Journal-Constitution",
    "kind": "News"
   }
  ],
@@ -870,8 +870,8 @@
    "t": "Muse Spark Open",
    "url": "https://news.ycombinator.com/item?id=50107379",
    "link": "https://research.meta.ai/blog/muse-spark-open",
-   "up": 704,
-   "com": 376,
+   "up": 713,
+   "com": 378,
    "at": "2026-10-15T17:47:39.000Z"
   },
   {
@@ -879,8 +879,8 @@
    "t": "Wayland desktop for Linux with skeuomorphic design",
    "url": "https://news.ycombinator.com/item?id=50103338",
    "link": "https://github.com/fyzugx/DEsk",
-   "up": 552,
-   "com": 220,
+   "up": 555,
+   "com": 221,
    "at": "2026-10-15T13:23:44.000Z"
   },
   {
@@ -888,7 +888,7 @@
    "t": "Any window from your Mac, on your iPhone and iPad",
    "url": "https://news.ycombinator.com/item?id=50112739",
    "link": "https://github.com/Saffsanity/sill",
-   "up": 80,
+   "up": 91,
    "com": 10,
    "at": "2026-10-16T01:43:17.000Z"
   },
@@ -898,7 +898,7 @@
    "url": "https://news.ycombinator.com/item?id=50108131",
    "link": "https://www.currentaffairs.org/news/why-were-banning-ai",
    "up": 230,
-   "com": 180,
+   "com": 181,
    "at": "2026-10-15T18:32:29.000Z"
   },
   {
@@ -906,7 +906,7 @@
    "t": "Krea 3 – An image model built for editing at scale",
    "url": "https://news.ycombinator.com/item?id=50105648",
    "link": "https://www.krea.ai/krea-3",
-   "up": 279,
+   "up": 280,
    "com": 87,
    "at": "2026-10-15T16:04:05.000Z"
   },
