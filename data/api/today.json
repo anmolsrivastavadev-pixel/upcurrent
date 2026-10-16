@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-16T20:30:56.495Z"
+  "updated": "2026-10-16T21:01:06.631Z"
  },
  "pulse": {
   "trending": 80,
   "accelerating": 0,
   "newModels": 6,
-  "discussions": 34,
-  "stars": 1890
+  "discussions": 37,
+  "stars": 1747
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 17,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 2,492",
-    "+535 in 24h",
+    "★ 2,493",
+    "+521 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -41,8 +41,8 @@
    "grow": null,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 2,840",
-    "~562 in 24h",
+    "★ 2,841",
+    "~560 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -88,7 +88,7 @@
    "cat": "Vision",
    "score": 87,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open source · ♥ 841",
+   "desc": "Vision on Hugging Face · open source · ♥ 842",
    "meta": [
     "18K downloads",
     "Released 10 days ago"
@@ -104,7 +104,7 @@
    "cat": "Vision",
    "score": 87,
    "grow": 14,
-   "desc": "Vision on Hugging Face · open weights · ♥ 935",
+   "desc": "Vision on Hugging Face · open weights · ♥ 936",
    "meta": [
     "17K downloads",
     "Released 8 days ago"
@@ -123,7 +123,7 @@
    "desc": "A design system for AI applications. Material, physical, tactile, technical.",
    "meta": [
     "★ 1,351",
-    "+421 in 24h",
+    "+409 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-12T09:19:02Z",
@@ -137,7 +137,7 @@
    "cat": "Tools",
    "score": 85,
    "grow": null,
-   "desc": "Model on Hugging Face · open weights · ♥ 549",
+   "desc": "Model on Hugging Face · open weights · ♥ 550",
    "meta": [
     "6.2K downloads",
     "Released 16 days ago"
@@ -153,7 +153,7 @@
    "cat": "LLMs",
    "score": 85,
    "grow": 49,
-   "desc": "Model on Hugging Face · open weights · ♥ 424",
+   "desc": "Model on Hugging Face · open weights · ♥ 425",
    "meta": [
     "9.4K downloads",
     "Released 5 days ago"
@@ -169,7 +169,7 @@
    "cat": "Vision",
    "score": 85,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 421",
+   "desc": "Vision on Hugging Face · open weights · ♥ 425",
    "meta": [
     "74K downloads",
     "Released 2 days ago"
@@ -192,8 +192,8 @@
     },
     {
      "src": "YouTube",
-     "t": "Gemini 4 Argon vs Claude Opus 5.5: Who Wins? #gemini4 #claudeopus #ai",
-     "url": "https://www.youtube.com/watch?v=-o6h0Uq67nQ"
+     "t": "Google Gemini 4 Argon Is Here. We Tested It (+11 AI Updates)",
+     "url": "https://www.youtube.com/watch?v=2XpIMa1BSPc"
     },
     {
      "src": "arXiv",
@@ -220,19 +220,36 @@
     },
     {
      "src": "YouTube",
-     "t": "Gemini 4 Argon vs Claude Opus 5.5: Who Wins? #gemini4 #claudeopus #ai",
-     "url": "https://www.youtube.com/watch?v=-o6h0Uq67nQ"
+     "t": "Google Gemini 4 Argon Is Here. We Tested It (+11 AI Updates)",
+     "url": "https://www.youtube.com/watch?v=2XpIMa1BSPc"
     }
    ],
    "buzz": 2,
    "verdict": "Talk only, no public usage numbers"
   },
   {
+   "name": "flux-3-image-klein",
+   "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein",
+   "from": "Hugging Face",
+   "use": 22790,
+   "useLabel": "23K downloads",
+   "usePct": 0.4411764705882353,
+   "talk": [
+    {
+     "src": "Hacker News",
+     "t": "Flux 3 Image Klein: open weights, 5.6B parameters",
+     "url": "https://news.ycombinator.com/item?id=50123580"
+    }
+   ],
+   "buzz": 1,
+   "verdict": "More talk than use"
+  },
+  {
    "name": "esp32-iphone-agent",
    "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
    "from": "GitHub",
-   "use": 562,
-   "useLabel": "~562 stars/day",
+   "use": 560,
+   "useLabel": "~560 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -346,8 +363,8 @@
  "github": [
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2840,
-   "d24": 562,
+   "stars": 2841,
+   "d24": 560,
    "est": true,
    "forks": 366,
    "contrib": null,
@@ -355,8 +372,8 @@
   },
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2492,
-   "d24": 535,
+   "stars": 2493,
+   "d24": 521,
    "est": false,
    "forks": 486,
    "contrib": null,
@@ -365,29 +382,29 @@
   {
    "repo": "deeplethe/solid-glass",
    "stars": 1351,
-   "d24": 421,
+   "d24": 409,
    "est": false,
    "forks": 21,
    "contrib": null,
    "score": 85
   },
   {
-   "repo": "rociiu/talorys",
-   "stars": 1244,
-   "d24": 193,
+   "repo": "marclou/mailcheap",
+   "stars": 1135,
+   "d24": 179,
    "est": true,
+   "forks": 291,
+   "contrib": null,
+   "score": 74
+  },
+  {
+   "repo": "rociiu/talorys",
+   "stars": 1249,
+   "d24": 78,
+   "est": false,
    "forks": 113,
    "contrib": null,
    "score": 76
-  },
-  {
-   "repo": "marclou/mailcheap",
-   "stars": 1133,
-   "d24": 179,
-   "est": true,
-   "forks": 292,
-   "contrib": null,
-   "score": 74
   }
  ],
  "models": [
@@ -400,7 +417,7 @@
    "grow": 5,
    "score": 90,
    "cat": "Vision",
-   "likes": 2501
+   "likes": 2504
   },
   {
    "name": "humanizer",
@@ -411,7 +428,7 @@
    "grow": 14,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1819
+   "likes": 1820
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -423,7 +440,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Vision",
-   "likes": 841
+   "likes": 842
   },
   {
    "name": "Qwen-Image-2.1-Turbo",
@@ -434,7 +451,7 @@
    "grow": 14,
    "score": 87,
    "cat": "Vision",
-   "likes": 935
+   "likes": 936
   },
   {
    "name": "drama-3",
@@ -445,7 +462,7 @@
    "grow": null,
    "score": 85,
    "cat": "Tools",
-   "likes": 549
+   "likes": 550
   },
   {
    "name": "LFM2.5-24B-A2B",
@@ -457,7 +474,7 @@
    "grow": 49,
    "score": 85,
    "cat": "LLMs",
-   "likes": 424
+   "likes": 425
   }
  ],
  "free": [
@@ -885,6 +902,41 @@
    "kind": "News"
   },
   {
+   "t": "Amazon debuts revamped Bee AI wearables, US$12-a-month subscription plan",
+   "url": "https://www.thestar.com.my/tech/tech-news/2026/10/16/amazon-debuts-revamped-bee-ai-wearables-us12-a-month-subscription-plan",
+   "at": "2026-10-16T09:00:00Z",
+   "src": "The Star",
+   "kind": "News"
+  },
+  {
+   "t": "Sex, Spies and Silicon Valley: OpenAI Warns Staff About \"Honey Pots\"",
+   "url": "https://www.ndtv.com/artificial-intelligence/sex-spies-and-silicon-valley-openai-warns-staff-about-honey-pots-12194237",
+   "at": "2026-10-16T08:57:00Z",
+   "src": "NDTV.com",
+   "kind": "News"
+  },
+  {
+   "t": "AI cost savings may be offset by rising verification expenses: Deutsche Bank",
+   "url": "https://www.devdiscourse.com/article/business/3993533-ai-cost-savings-may-be-offset-by-rising-verification-expenses-deutsche-bank",
+   "at": "2026-10-16T08:56:43Z",
+   "src": "Devdiscourse",
+   "kind": "News"
+  },
+  {
+   "t": "India sixth among major investment partners in Trump's $11.3 trillion US investment push: White House",
+   "url": "https://economictimes.indiatimes.com/news/india/india-sixth-among-major-investment-partners-in-trumps-11-3-trillion-us-investment-push-white-house/articleshow/134988384.cms",
+   "at": "2026-10-16T08:47:00Z",
+   "src": "The Economic Times",
+   "kind": "News"
+  },
+  {
+   "t": "Eight US States Sue OpenAI Over ChatGPT's Child Safety Failures and Harmful Advice",
+   "url": "https://www.outlookindia.com/international/eight-us-states-sue-openai-over-chatgpts-child-safety-failures-and-harmful-advice",
+   "at": "2026-10-16T08:36:24Z",
+   "src": "Outlook India",
+   "kind": "News"
+  },
+  {
    "t": "IMF chief says AI risks may exceed opportunities without safeguards and ethical framework",
    "url": "https://www.marketscreener.com/news/imf-chief-says-ai-risks-may-exceed-opportunities-without-safeguards-and-ethical-framework-ce785cdad88cfe27",
    "at": "2026-10-16T08:18:18Z",
@@ -897,41 +949,6 @@
    "at": "2026-10-16T08:15:21Z",
    "src": "Devdiscourse",
    "kind": "News"
-  },
-  {
-   "t": "AI stocks earnings grAI stocks' earnings growth set to slow sharply, Jefferies urges diversification",
-   "url": "https://www.devdiscourse.com/article/business/3993502-ai-stocks-earnings-grai-stocks-earnings-growth-set-to-slow-sharply-jefferies-urges-diversification",
-   "at": "2026-10-16T08:12:44Z",
-   "src": "Devdiscourse",
-   "kind": "News"
-  },
-  {
-   "t": "MIB accelerates, Buzzi targets third bullish candle",
-   "url": "https://www.marketscreener.com/news/mib-accelerates-buzzi-targets-third-bullish-candle-ce785cdad88cf42d",
-   "at": "2026-10-16T08:08:45Z",
-   "src": "MarketScreener",
-   "kind": "News"
-  },
-  {
-   "t": "ChatGPT can now access your Google Chrome tabs to complete tasks",
-   "url": "https://www.indiatoday.in/technology/news/story/chatgpt-can-now-access-your-google-chrome-tabs-to-complete-tasks-3018735-2026-10-16",
-   "at": "2026-10-16T08:08:38Z",
-   "src": "India Today",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI AI Model Used Testnet Crypto, Prompting Questions Over Disclosure",
-   "url": "https://www.cryptobreaking.com/openai-ai-model-used-testnet/",
-   "at": "2026-10-16T07:44:50Z",
-   "src": "Crypto Breaking News",
-   "kind": "News"
-  },
-  {
-   "t": "After OpenAI’s Australia hack, India’s cyber agency says AI agents breached systems",
-   "url": "https://www.thehindu.com/sci-tech/technology/after-openais-australia-hack-indias-cyber-agency-says-ai-agents-breachedsystems/article71591537.ece",
-   "at": "2026-10-16T07:44:48Z",
-   "src": "The Hindu",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -940,8 +957,8 @@
    "t": "Claude reveals ECDSA curve origins",
    "url": "https://news.ycombinator.com/item?id=50122800",
    "link": "https://www.anthropic.com/research/ecdsa-curve-origins",
-   "up": 307,
-   "com": 119,
+   "up": 365,
+   "com": 145,
    "at": "2026-10-16T18:55:59.000Z"
   },
   {
@@ -949,17 +966,26 @@
    "t": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
    "url": "https://news.ycombinator.com/item?id=50121179",
    "link": "https://www.mercor.com/research/labor-index/benchmark-map/",
-   "up": 272,
-   "com": 236,
+   "up": 290,
+   "com": 263,
    "at": "2026-10-16T17:08:38.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "I never authorized an integration that scans my secrets",
+   "url": "https://news.ycombinator.com/item?id=50124251",
+   "link": "https://github.com/home-assistant/home-assistant.io/issues/49314",
+   "up": 51,
+   "com": 9,
+   "at": "2026-10-16T20:33:41.000Z"
   },
   {
    "src": "Hacker News",
    "t": "How the Claude Code team does code review",
    "url": "https://news.ycombinator.com/item?id=50122951",
    "link": "https://claude.dev/blog/solving-code-review-at-anthropic/",
-   "up": 64,
-   "com": 57,
+   "up": 98,
+   "com": 89,
    "at": "2026-10-16T19:04:47.000Z"
   },
   {
@@ -967,8 +993,8 @@
    "t": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
    "url": "https://news.ycombinator.com/item?id=50122431",
    "link": "https://github.com/cobanov/PS5LM",
-   "up": 74,
-   "com": 21,
+   "up": 93,
+   "com": 25,
    "at": "2026-10-16T18:32:35.000Z"
   },
   {
@@ -976,18 +1002,9 @@
    "t": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
    "url": "https://news.ycombinator.com/item?id=50119991",
    "link": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
-   "up": 152,
-   "com": 59,
+   "up": 158,
+   "com": 61,
    "at": "2026-10-16T15:55:40.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Show HN: Gemini 4 Argon plays StarCraft",
-   "url": "https://news.ycombinator.com/item?id=50118688",
-   "link": "https://starskirmish.com/bench/v0-2/",
-   "up": 153,
-   "com": 72,
-   "at": "2026-10-16T14:18:44.000Z"
   }
  ]
 }
