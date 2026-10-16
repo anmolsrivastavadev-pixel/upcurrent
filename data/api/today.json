@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-16T15:01:09.154Z"
+  "updated": "2026-10-16T15:30:56.142Z"
  },
  "pulse": {
   "trending": 80,
-  "accelerating": 2,
+  "accelerating": 0,
   "newModels": 7,
   "discussions": 38,
-  "stars": 2059
+  "stars": 2022
  },
  "rising": [
   {
@@ -21,12 +21,12 @@
    "src": "gh",
    "cat": "Agents",
    "score": 94,
-   "grow": 13,
+   "grow": 14,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 2,421",
-    "+653 in 24h",
-    "Created 3 days ago"
+    "★ 2,433",
+    "+650 in 24h",
+    "Created 4 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
    "breakout": null,
@@ -41,8 +41,8 @@
    "grow": 16,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 2,785",
-    "+542 in 24h",
+    "★ 2,790",
+    "+534 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -104,7 +104,7 @@
    "cat": "Vision",
    "score": 87,
    "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 822",
+   "desc": "Vision on Hugging Face · open source · ♥ 823",
    "meta": [
     "18K downloads",
     "Released 9 days ago"
@@ -123,7 +123,7 @@
    "desc": "A design system for AI applications. Material, physical, tactile, technical.",
    "meta": [
     "★ 1,328",
-    "+568 in 24h",
+    "+545 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-12T09:19:02Z",
@@ -137,7 +137,7 @@
    "cat": "Tools",
    "score": 85,
    "grow": 52,
-   "desc": "Model on Hugging Face · open weights · ♥ 526",
+   "desc": "Model on Hugging Face · open weights · ♥ 527",
    "meta": [
     "6.2K downloads",
     "Released 15 days ago"
@@ -153,7 +153,7 @@
    "cat": "LLMs",
    "score": 85,
    "grow": null,
-   "desc": "Model on Hugging Face · open weights · ♥ 412",
+   "desc": "Model on Hugging Face · open weights · ♥ 413",
    "meta": [
     "9.4K downloads",
     "Released 4 days ago"
@@ -172,7 +172,7 @@
    "grow": null,
    "desc": "Existing agent benchmarks typically evaluate agents on well-specified tasks defined by issue reports, specifications, or task tickets.",
    "meta": [
-    "▲ 169 upvotes",
+    "▲ 176 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-14T20:00:00.000Z",
@@ -186,6 +186,11 @@
    "n": 4,
    "sources": [
     {
+     "src": "Hacker News",
+     "t": "Show HN: Gemini 4 Argon plays StarCraft",
+     "url": "https://news.ycombinator.com/item?id=50118688"
+    },
+    {
      "src": "DEV",
      "t": "[AI in Practice] Upgrading from Gemini 3.5/3.6 to Gemini 4 Argon: Migration Notes and Pitfalls for LINE Bot Developers",
      "url": "https://dev.to/gde/ai-in-practice-upgrading-from-gemini-3536-to-gemini-4-argon-migration-notes-and-pitfalls-for-hli"
@@ -194,11 +199,6 @@
      "src": "Google DeepMind blog",
      "t": "Developing Gemini 4 Argon responsibly and safely",
      "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/"
-    },
-    {
-     "src": "YouTube",
-     "t": "Gemini 4 Argon vs Claude Opus 5.5: Who Wins? #gemini4 #claudeopus #ai",
-     "url": "https://www.youtube.com/watch?v=-o6h0Uq67nQ"
     },
     {
      "src": "arXiv",
@@ -219,6 +219,11 @@
    "usePct": null,
    "talk": [
     {
+     "src": "Hacker News",
+     "t": "Show HN: Gemini 4 Argon plays StarCraft",
+     "url": "https://news.ycombinator.com/item?id=50118688"
+    },
+    {
      "src": "DEV",
      "t": "[AI in Practice] Upgrading from Gemini 3.5/3.6 to Gemini 4 Argon: Migration Notes and Pitfalls for LINE Bot Developers",
      "url": "https://dev.to/gde/ai-in-practice-upgrading-from-gemini-3536-to-gemini-4-argon-migration-notes-and-pitfalls-for-hli"
@@ -227,11 +232,6 @@
      "src": "Google DeepMind blog",
      "t": "Developing Gemini 4 Argon responsibly and safely",
      "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/"
-    },
-    {
-     "src": "YouTube",
-     "t": "Gemini 4 Argon vs Claude Opus 5.5: Who Wins? #gemini4 #claudeopus #ai",
-     "url": "https://www.youtube.com/watch?v=-o6h0Uq67nQ"
     }
    ],
    "buzz": 3,
@@ -258,8 +258,8 @@
    "name": "qwen21-nsfw-pose-skill",
    "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
    "from": "GitHub",
-   "use": 653,
-   "useLabel": "+653 stars/day",
+   "use": 650,
+   "useLabel": "+650 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -373,8 +373,8 @@
  "github": [
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2421,
-   "d24": 653,
+   "stars": 2433,
+   "d24": 650,
    "est": false,
    "forks": 473,
    "contrib": null,
@@ -383,7 +383,7 @@
   {
    "repo": "deeplethe/solid-glass",
    "stars": 1328,
-   "d24": 568,
+   "d24": 545,
    "est": false,
    "forks": 20,
    "contrib": null,
@@ -391,8 +391,8 @@
   },
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2785,
-   "d24": 542,
+   "stars": 2790,
+   "d24": 534,
    "est": false,
    "forks": 359,
    "contrib": null,
@@ -400,17 +400,17 @@
   },
   {
    "repo": "rociiu/talorys",
-   "stars": 1229,
-   "d24": 198,
+   "stars": 1230,
+   "d24": 197,
    "est": true,
-   "forks": 109,
+   "forks": 110,
    "contrib": null,
    "score": 76
   },
   {
    "repo": "marclou/mailcheap",
-   "stars": 1112,
-   "d24": 98,
+   "stars": 1113,
+   "d24": 96,
    "est": false,
    "forks": 288,
    "contrib": null,
@@ -427,7 +427,7 @@
    "grow": 5,
    "score": 90,
    "cat": "Vision",
-   "likes": 2480
+   "likes": 2483
   },
   {
    "name": "humanizer",
@@ -438,7 +438,7 @@
    "grow": 14,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1796
+   "likes": 1797
   },
   {
    "name": "Qwen-Image-2.1-Turbo",
@@ -461,7 +461,7 @@
    "grow": null,
    "score": 87,
    "cat": "Vision",
-   "likes": 822
+   "likes": 823
   },
   {
    "name": "drama-3",
@@ -472,7 +472,7 @@
    "grow": 52,
    "score": 85,
    "cat": "Tools",
-   "likes": 526
+   "likes": 527
   },
   {
    "name": "LFM2.5-24B-A2B",
@@ -484,7 +484,7 @@
    "grow": null,
    "score": 85,
    "cat": "LLMs",
-   "likes": 412
+   "likes": 413
   }
  ],
  "free": [
@@ -915,6 +915,27 @@
    "kind": "News"
   },
   {
+   "t": "ChatGPT voice gets a Hindi-focused upgrade",
+   "url": "https://www.newsbytesapp.com/news/science/openai-rolls-out-gpt-live-1-1-with-support-for-hindi-other-languages/story",
+   "at": "2026-10-16T03:22:55Z",
+   "src": "NewsBytes",
+   "kind": "News"
+  },
+  {
+   "t": "US stocks end higher as AI shares stabilize",
+   "url": "https://www.manilatimes.net/2026/10/16/world/americas-emea/us-stocks-end-higher-as-ai-shares-stabilize/2447186",
+   "at": "2026-10-16T03:17:00Z",
+   "src": "The Manila Times",
+   "kind": "News"
+  },
+  {
+   "t": "IMF warns AI boom could spark market turmoil",
+   "url": "https://www.lokmattimes.com/international/imf-warns-ai-boom-could-spark-market-turmoil/",
+   "at": "2026-10-16T03:12:56Z",
+   "src": "Lokmat Times",
+   "kind": "News"
+  },
+  {
    "t": "[INTERVIEW] Korean startup targets 'legal AI music' via copyright tracking",
    "url": "https://www.koreatimes.co.kr/entertainment/music/20261016/korean-startup-targets-legal-ai-music-via-copyright-tracking",
    "at": "2026-10-16T03:00:05Z",
@@ -934,27 +955,6 @@
    "at": "2026-10-16T02:53:04Z",
    "src": "The Economic Times",
    "kind": "News"
-  },
-  {
-   "t": "Asia Stocks Rebound After Tech Selloff",
-   "url": "https://www.marketscreener.com/news/asia-stocks-rebound-after-tech-selloff-ce785dd3d080f527",
-   "at": "2026-10-16T02:42:22Z",
-   "src": "MarketScreener",
-   "kind": "News"
-  },
-  {
-   "t": "Indian Software Stocks Set to Beat AI Peers by Most in Decades",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-16/indian-software-stocks-set-to-beat-ai-peers-by-most-in-decades",
-   "at": "2026-10-16T02:41:13Z",
-   "src": "Bloomberg",
-   "kind": "News"
-  },
-  {
-   "t": "US states sue AI giant OpenAI, saying its popular chatbot is hurting children and deceiving adults",
-   "url": "https://economictimes.indiatimes.com/news/international/business/us-states-sue-ai-giant-openai-saying-its-popular-chatbot-is-hurting-children-and-deceiving-adults/articleshow/134980232.cms",
-   "at": "2026-10-16T02:12:00Z",
-   "src": "The Economic Times",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -964,16 +964,25 @@
    "url": "https://news.ycombinator.com/item?id=50107379",
    "link": "https://research.meta.ai/blog/muse-spark-open",
    "up": 881,
-   "com": 442,
+   "com": 445,
    "at": "2026-10-15T17:47:39.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Show HN: Gemini 4 Argon plays StarCraft",
+   "url": "https://news.ycombinator.com/item?id=50118688",
+   "link": "https://starskirmish.com/bench/v0-2/",
+   "up": 25,
+   "com": 9,
+   "at": "2026-10-16T14:18:44.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Any window from your Mac, on your iPhone and iPad",
    "url": "https://news.ycombinator.com/item?id=50112739",
    "link": "https://github.com/Saffsanity/sill",
-   "up": 212,
-   "com": 54,
+   "up": 215,
+   "com": 56,
    "at": "2026-10-16T01:43:17.000Z"
   },
   {
@@ -981,7 +990,7 @@
    "t": "Krea 3 – An image model built for editing at scale",
    "url": "https://news.ycombinator.com/item?id=50105648",
    "link": "https://www.krea.ai/krea-3",
-   "up": 333,
+   "up": 336,
    "com": 106,
    "at": "2026-10-15T16:04:05.000Z"
   },
@@ -1001,15 +1010,6 @@
    "up": 15,
    "com": 0,
    "at": "2026-10-16T12:53:17Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Geoffrey Hinton: 'We're creating alien beings. I'm willing to choose humans'",
-   "url": "https://news.ycombinator.com/item?id=50116031",
-   "link": "https://www.theguardian.com/us-news/2026/oct/13/geoffrey-hinton-trump-ai-tech",
-   "up": 31,
-   "com": 11,
-   "at": "2026-10-16T09:13:43.000Z"
   }
  ]
 }
