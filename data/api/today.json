@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-17T18:48:30.636Z"
+  "updated": "2026-10-17T19:01:00.634Z"
  },
  "pulse": {
   "trending": 81,
   "accelerating": 4,
   "newModels": 7,
-  "discussions": 36,
-  "stars": 1287
+  "discussions": 33,
+  "stars": 1281
  },
  "rising": [
   {
@@ -22,7 +22,7 @@
    "cat": "Vision",
    "score": 96,
    "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 820",
+   "desc": "Vision on Hugging Face · open source · ♥ 830",
    "meta": [
     "0 downloads",
     "Released 16h ago"
@@ -41,7 +41,7 @@
    "desc": "Git designed for AI agents.",
    "meta": [
     "★ 1,119",
-    "+79 in 24h",
+    "+78 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -57,7 +57,7 @@
    "grow": 4,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 2,620",
+    "★ 2,621",
     "+136 in 24h",
     "Created 5 days ago"
    ],
@@ -91,7 +91,7 @@
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
     "★ 2,980",
-    "~498 in 24h",
+    "~497 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -121,7 +121,7 @@
    "cat": "Vision",
    "score": 89,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 619",
+   "desc": "Vision on Hugging Face · open weights · ♥ 622",
    "meta": [
     "224K downloads",
     "Released 3 days ago"
@@ -139,7 +139,7 @@
    "grow": 10,
    "desc": "基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。还原 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分析手册。",
    "meta": [
-    "★ 1,126",
+    "★ 1,127",
     "+147 in 24h",
     "Created 3 days ago"
    ],
@@ -173,7 +173,7 @@
    "desc": "A design system for AI applications. Material, physical, tactile, technical.",
    "meta": [
     "★ 1,685",
-    "+409 in 24h",
+    "+405 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-12T09:19:02Z",
@@ -183,6 +183,23 @@
  ],
  "breakouts": [],
  "hype": [
+  {
+   "name": "git-ai",
+   "url": "https://github.com/feder-cr/git-ai",
+   "from": "GitHub",
+   "use": 78,
+   "useLabel": "+78 stars/day",
+   "usePct": 0.2,
+   "talk": [
+    {
+     "src": "Pypi.org",
+     "t": "waxmard-git-ai 6.12.0",
+     "url": "https://pypi.org/project/waxmard-git-ai/6.12.0/"
+    }
+   ],
+   "buzz": 1,
+   "verdict": "More talk than use"
+  },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
@@ -238,8 +255,8 @@
    "name": "esp32-iphone-agent",
    "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
    "from": "GitHub",
-   "use": 498,
-   "useLabel": "~498 stars/day",
+   "use": 497,
+   "useLabel": "~497 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -354,7 +371,7 @@
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
    "stars": 2980,
-   "d24": 498,
+   "d24": 497,
    "est": true,
    "forks": 387,
    "contrib": null,
@@ -363,7 +380,7 @@
   {
    "repo": "deeplethe/solid-glass",
    "stars": 1685,
-   "d24": 409,
+   "d24": 405,
    "est": false,
    "forks": 21,
    "contrib": null,
@@ -371,7 +388,7 @@
   },
   {
    "repo": "Caho1/open-claude-ui",
-   "stars": 1126,
+   "stars": 1127,
    "d24": 147,
    "est": false,
    "forks": 247,
@@ -380,7 +397,7 @@
   },
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2620,
+   "stars": 2621,
    "d24": 136,
    "est": false,
    "forks": 504,
@@ -390,7 +407,7 @@
   {
    "repo": "feder-cr/git-ai",
    "stars": 1119,
-   "d24": 79,
+   "d24": 78,
    "est": false,
    "forks": 117,
    "contrib": null,
@@ -416,7 +433,7 @@
    "grow": null,
    "score": 96,
    "cat": "Vision",
-   "likes": 820
+   "likes": 830
   },
   {
    "name": "embeddinggemma-2",
@@ -438,7 +455,7 @@
    "grow": 12,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1883
+   "likes": 1886
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -449,7 +466,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Vision",
-   "likes": 619
+   "likes": 622
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -848,6 +865,13 @@
    "kind": "News"
   },
   {
+   "t": "Parents urge police action over alleged explicit deepfakes at Seremban school",
+   "url": "https://www.thestar.com.my/news/nation/2026/10/17/parents-urge-police-action-over-alleged-explicit-deepfakes-at-seremban-school",
+   "at": "2026-10-17T07:00:00Z",
+   "src": "The Star",
+   "kind": "News"
+  },
+  {
    "t": "A profile of Alexandr Wang, who sources say is \"an operator\", had \"all\" of Zuckerberg's support during Meta's AI revamp, and is being touted as his successor",
    "url": "https://www.techmeme.com/261017/p8#a261017p8",
    "at": "2026-10-17T06:35:01.000Z",
@@ -902,13 +926,6 @@
    "at": "2026-10-17T05:10:00Z",
    "src": "The Economic Times",
    "kind": "News"
-  },
-  {
-   "t": "Mistlabs, which develops Ambi, an ambient AI app for iPhone, Apple Watch, and Mac that learns about users from conversations, raised a $26M pre-Series A",
-   "url": "https://www.techmeme.com/261017/p2#a261017p2",
-   "at": "2026-10-17T05:05:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -926,8 +943,8 @@
    "t": "DeepSeek-v4.1-Flash-1017",
    "url": "https://news.ycombinator.com/item?id=50129045",
    "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-   "up": 489,
-   "com": 475,
+   "up": 500,
+   "com": 479,
    "at": "2026-10-17T08:21:25.000Z"
   },
   {
@@ -935,26 +952,17 @@
    "t": "Amazon uses AI to monitor union risk in UK warehouses",
    "url": "https://news.ycombinator.com/item?id=50132278",
    "link": "https://www.opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield/",
-   "up": 116,
-   "com": 41,
+   "up": 117,
+   "com": 44,
    "at": "2026-10-17T16:04:23.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Claude reveals ECDSA curve origins",
-   "url": "https://news.ycombinator.com/item?id=50122800",
-   "link": "https://www.anthropic.com/research/ecdsa-curve-origins",
-   "up": 996,
-   "com": 370,
-   "at": "2026-10-16T18:55:59.000Z"
   },
   {
    "src": "Hacker News",
    "t": "OpenAI discloses four more rogue incidents",
    "url": "https://news.ycombinator.com/item?id=50132502",
    "link": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/",
-   "up": 86,
-   "com": 58,
+   "up": 94,
+   "com": 79,
    "at": "2026-10-17T16:31:12.000Z"
   },
   {
@@ -965,6 +973,15 @@
    "up": 445,
    "com": 436,
    "at": "2026-10-16T19:04:47.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "You could have invented transformers from memory",
+   "url": "https://news.ycombinator.com/item?id=50122878",
+   "link": "https://alexwang.ai/posts/associative-memory/",
+   "up": 435,
+   "com": 102,
+   "at": "2026-10-16T19:01:17.000Z"
   }
  ]
 }
