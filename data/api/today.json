@@ -5,11 +5,11 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-17T09:01:01.702Z"
+  "updated": "2026-10-17T09:16:53.895Z"
  },
  "pulse": {
   "trending": 83,
-  "accelerating": 0,
+  "accelerating": 6,
   "newModels": 9,
   "discussions": 36,
   "stars": 1324
@@ -25,7 +25,7 @@
    "desc": "Git designed for AI agents.",
    "meta": [
     "★ 1,085",
-    "+75 in 24h",
+    "+73 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -41,13 +41,29 @@
    "grow": 2,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 2,567",
-    "+144 in 24h",
+    "★ 2,569",
+    "+145 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
    "breakout": null,
    "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill"
+  },
+  {
+   "name": "flux-3-image-klein-comfy",
+   "owner": "black-forest-labs",
+   "src": "hf",
+   "cat": "Vision",
+   "score": 91,
+   "grow": 204,
+   "desc": "Vision on Hugging Face · open weights · ♥ 520",
+   "meta": [
+    "224K downloads",
+    "Released 3 days ago"
+   ],
+   "at": "2026-10-14T12:00:13.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy"
   },
   {
    "name": "esp32-iphone-agent",
@@ -58,8 +74,8 @@
    "grow": 3,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 2,926",
-    "+161 in 24h",
+    "★ 2,927",
+    "+159 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -75,8 +91,8 @@
    "grow": 4,
    "desc": "基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。还原 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分析手册。",
    "meta": [
-    "★ 1,071",
-    "+166 in 24h",
+    "★ 1,072",
+    "+163 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-14T14:05:05Z",
@@ -89,10 +105,10 @@
    "src": "hf",
    "cat": "Vision",
    "score": 90,
-   "grow": 0,
+   "grow": 5,
    "desc": "Vision on Hugging Face · open source · ♥ 2.5K",
    "meta": [
-    "151K downloads",
+    "158K downloads",
     "Released 33 days ago"
    ],
    "at": "2026-09-14T14:53:42.000Z",
@@ -100,31 +116,15 @@
    "url": "https://huggingface.co/google/embeddinggemma-2"
   },
   {
-   "name": "flux-3-image-klein-comfy",
-   "owner": "black-forest-labs",
-   "src": "hf",
-   "cat": "Vision",
-   "score": 90,
-   "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 519",
-   "meta": [
-    "74K downloads",
-    "Released 3 days ago"
-   ],
-   "at": "2026-10-14T12:00:13.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy"
-  },
-  {
    "name": "humanizer",
    "owner": "jialinyyzz",
    "src": "hf",
    "cat": "Infrastructure",
    "score": 89,
-   "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 1.8K",
+   "grow": 12,
+   "desc": "Model on Hugging Face · open source · ♥ 1.9K",
    "meta": [
-    "86K downloads",
+    "96K downloads",
     "Released 36 days ago"
    ],
    "at": "2026-09-11T05:00:16.000Z",
@@ -138,9 +138,9 @@
    "cat": "Vision",
    "score": 87,
    "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 862",
+   "desc": "Vision on Hugging Face · open source · ♥ 863",
    "meta": [
-    "18K downloads",
+    "36K downloads",
     "Released 10 days ago"
    ],
    "at": "2026-10-07T07:07:30.000Z",
@@ -156,8 +156,8 @@
    "grow": 18,
    "desc": "A design system for AI applications. Material, physical, tactile, technical.",
    "meta": [
-    "★ 1,594",
-    "+601 in 24h",
+    "★ 1,603",
+    "+607 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-12T09:19:02Z",
@@ -170,10 +170,10 @@
    "src": "hf",
    "cat": "Tools",
    "score": 86,
-   "grow": 0,
-   "desc": "Model on Hugging Face · open weights · ♥ 572",
+   "grow": 33,
+   "desc": "Model on Hugging Face · open weights · ♥ 574",
    "meta": [
-    "6.2K downloads",
+    "8.2K downloads",
     "Released 16 days ago"
    ],
    "at": "2026-10-01T04:34:57.000Z",
@@ -233,8 +233,8 @@
    "name": "flux-3-image-klein",
    "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein",
    "from": "Hugging Face",
-   "use": 22790,
-   "useLabel": "23K downloads",
+   "use": 46123,
+   "useLabel": "46K downloads",
    "usePct": 0.5294117647058824,
    "talk": [
     {
@@ -252,7 +252,7 @@
    "from": "Hugging Face",
    "use": 0,
    "useLabel": "0 downloads",
-   "usePct": 0.029411764705882353,
+   "usePct": 0,
    "talk": [
     {
      "src": "Hacker News",
@@ -267,7 +267,7 @@
    "name": "DeepSeek-V4.1-Flash",
    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
    "from": "Hugging Face",
-   "use": 1276459,
+   "use": 1306744,
    "useLabel": "1.3M downloads",
    "usePct": 0.8823529411764706,
    "talk": [
@@ -284,8 +284,8 @@
    "name": "solid-glass",
    "url": "https://github.com/deeplethe/solid-glass",
    "from": "GitHub",
-   "use": 601,
-   "useLabel": "+601 stars/day",
+   "use": 607,
+   "useLabel": "+607 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -295,8 +295,8 @@
    "name": "Qwen-Image-2.1-Uncensored-Quantized",
    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
    "from": "Hugging Face",
-   "use": 2477554,
-   "useLabel": "2.5M downloads",
+   "use": 2571722,
+   "useLabel": "2.6M downloads",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -315,6 +315,36 @@
   }
  ],
  "receipts": [
+  {
+   "name": "openbmb/MiniCPM-V-4.7-1B",
+   "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-1B",
+   "kind": "downloads",
+   "first": "2026-10-13T07:30:53.421Z",
+   "firstV": 14,
+   "m": 10000,
+   "at": "2026-10-17T09:16:53.895Z",
+   "lead": 97.76679833333333
+  },
+  {
+   "name": "LiquidAI/LFM2.5-24B-A2B",
+   "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B",
+   "kind": "downloads",
+   "first": "2026-10-13T21:30:54.332Z",
+   "firstV": 2565,
+   "m": 10000,
+   "at": "2026-10-17T09:16:53.895Z",
+   "lead": 83.76654527777778
+  },
+  {
+   "name": "black-forest-labs/flux-3-image-klein-comfy",
+   "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
+   "kind": "downloads",
+   "first": "2026-10-15T19:01:09.678Z",
+   "firstV": 39,
+   "m": 100000,
+   "at": "2026-10-17T09:16:53.895Z",
+   "lead": 38.2622825
+  },
   {
    "name": "Arekejoker/qwen21-nsfw-pose-skill",
    "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
@@ -356,16 +386,6 @@
    "lead": 16.494944166666667
   },
   {
-   "name": "black-forest-labs/flux-3-image-klein-comfy",
-   "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
-   "kind": "downloads",
-   "first": "2026-10-15T19:01:09.678Z",
-   "firstV": 39,
-   "m": 10000,
-   "at": "2026-10-16T10:30:55.385Z",
-   "lead": 15.496029722222222
-  },
-  {
    "name": "lemomo-ai/lemo-opuscar",
    "url": "https://github.com/lemomo-ai/lemo-opuscar",
    "kind": "stars",
@@ -374,33 +394,13 @@
    "m": 2500,
    "at": "2026-10-16T05:30:54.859Z",
    "lead": 347.7139561111111
-  },
-  {
-   "name": "onehumanbeing/esp32-iphone-agent",
-   "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
-   "kind": "stars",
-   "first": "2026-10-13T09:01:06.224Z",
-   "firstV": 1064,
-   "m": 2500,
-   "at": "2026-10-16T02:30:57.726Z",
-   "lead": 65.49763944444445
-  },
-  {
-   "name": "Comfy-Org/Qwen-Image-2.1",
-   "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1",
-   "kind": "downloads",
-   "first": "2026-10-01T17:48:04.617Z",
-   "firstV": 5376977,
-   "m": 10000000,
-   "at": "2026-10-15T10:01:09.175Z",
-   "lead": 328.2179327777778
   }
  ],
  "github": [
   {
    "repo": "deeplethe/solid-glass",
-   "stars": 1594,
-   "d24": 601,
+   "stars": 1603,
+   "d24": 607,
    "est": false,
    "forks": 21,
    "contrib": null,
@@ -408,8 +408,8 @@
   },
   {
    "repo": "Caho1/open-claude-ui",
-   "stars": 1071,
-   "d24": 166,
+   "stars": 1072,
+   "d24": 163,
    "est": false,
    "forks": 236,
    "contrib": null,
@@ -417,8 +417,8 @@
   },
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2926,
-   "d24": 161,
+   "stars": 2927,
+   "d24": 159,
    "est": false,
    "forks": 376,
    "contrib": null,
@@ -426,17 +426,17 @@
   },
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2567,
-   "d24": 144,
+   "stars": 2569,
+   "d24": 145,
    "est": false,
-   "forks": 498,
+   "forks": 499,
    "contrib": null,
    "score": 92
   },
   {
    "repo": "marclou/mailcheap",
-   "stars": 1186,
-   "d24": 102,
+   "stars": 1188,
+   "d24": 103,
    "est": false,
    "forks": 296,
    "contrib": null,
@@ -445,7 +445,7 @@
   {
    "repo": "feder-cr/git-ai",
    "stars": 1085,
-   "d24": 75,
+   "d24": 73,
    "est": false,
    "forks": 116,
    "contrib": null,
@@ -453,7 +453,7 @@
   },
   {
    "repo": "rociiu/talorys",
-   "stars": 1271,
+   "stars": 1272,
    "d24": 56,
    "est": false,
    "forks": 112,
@@ -463,7 +463,7 @@
   {
    "repo": "zhuyansen/new-term-radar",
    "stars": 1072,
-   "d24": 19,
+   "d24": 18,
    "est": false,
    "forks": 422,
    "contrib": null,
@@ -472,37 +472,37 @@
  ],
  "models": [
   {
-   "name": "embeddinggemma-2",
-   "org": "google",
-   "lic": "Open source",
-   "at": "2026-09-14T14:53:42.000Z",
-   "dl": 151258,
-   "grow": 0,
-   "score": 90,
-   "cat": "Vision",
-   "likes": 2537
-  },
-  {
    "name": "flux-3-image-klein-comfy",
    "org": "black-forest-labs",
    "lic": "Open weights",
    "at": "2026-10-14T12:00:13.000Z",
-   "dl": 73767,
-   "grow": 0,
+   "dl": 224108,
+   "grow": 204,
+   "score": 91,
+   "cat": "Vision",
+   "likes": 520
+  },
+  {
+   "name": "embeddinggemma-2",
+   "org": "google",
+   "lic": "Open source",
+   "at": "2026-09-14T14:53:42.000Z",
+   "dl": 158490,
+   "grow": 5,
    "score": 90,
    "cat": "Vision",
-   "likes": 519
+   "likes": 2538
   },
   {
    "name": "humanizer",
    "org": "jialinyyzz",
    "lic": "Open source",
    "at": "2026-09-11T05:00:16.000Z",
-   "dl": 85612,
-   "grow": 0,
+   "dl": 95870,
+   "grow": 12,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1849
+   "likes": 1850
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -510,33 +510,33 @@
    "size": "35B",
    "lic": "Open source",
    "at": "2026-10-07T07:07:30.000Z",
-   "dl": 17553,
+   "dl": 36252,
    "grow": null,
    "score": 87,
    "cat": "Vision",
-   "likes": 862
+   "likes": 863
   },
   {
    "name": "drama-3",
    "org": "fishaudio",
    "lic": "Open weights",
    "at": "2026-10-01T04:34:57.000Z",
-   "dl": 6158,
-   "grow": 0,
+   "dl": 8193,
+   "grow": 33,
    "score": 86,
    "cat": "Tools",
-   "likes": 572
+   "likes": 574
   },
   {
-   "name": "Qwen-Image-2.1-Turbo",
-   "org": "Qwen",
+   "name": "Qwen-Image-2.1-Uncensored-Quantized",
+   "org": "abenzerps",
    "lic": "Open weights",
-   "at": "2026-10-09T04:50:01.000Z",
-   "dl": 17421,
+   "at": "2026-09-20T15:51:13.000Z",
+   "dl": 2571722,
    "grow": null,
-   "score": 84,
-   "cat": "Vision",
-   "likes": 950
+   "score": 83,
+   "cat": "Infrastructure",
+   "likes": 4458
   }
  ],
  "free": [
@@ -961,6 +961,13 @@
    "kind": "News"
   },
   {
+   "t": "NY Stocks Fall on AI Investment Jitters; Crude Oil Tops $100 for First Time in a Month - BigGo Finance",
+   "url": "https://www.europesays.com/3314118/",
+   "at": "2026-10-16T21:12:16Z",
+   "src": "EUROPE SAYS",
+   "kind": "News"
+  },
+  {
    "t": "OpenAI models hacked a crypto wallet and breached more websites",
    "url": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
    "at": "2026-10-16T20:59:01Z",
@@ -980,50 +987,52 @@
    "at": "2026-10-16T20:01:20Z",
    "src": "XDA Developers",
    "kind": "News"
-  },
-  {
-   "t": "up call for India’s cybersecurity ecosystem",
-   "url": "https://www.tribuneindia.com/news/editorials/rogue-ai-agents-wake-up-call-for-indias-cybersecurity-ecosystem/",
-   "at": "2026-10-16T19:40:07Z",
-   "src": "The Tribune",
-   "kind": "News"
   }
  ],
  "discussions": [
   {
    "src": "Hacker News",
+   "t": "DeepSeek-v4.1-Flash-1017",
+   "url": "https://news.ycombinator.com/item?id=50129045",
+   "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "up": 66,
+   "com": 20,
+   "at": "2026-10-17T08:21:25.000Z"
+  },
+  {
+   "src": "Hacker News",
    "t": "Claude reveals ECDSA curve origins",
    "url": "https://news.ycombinator.com/item?id=50122800",
    "link": "https://www.anthropic.com/research/ecdsa-curve-origins",
-   "up": 858,
-   "com": 317,
+   "up": 862,
+   "com": 321,
    "at": "2026-10-16T18:55:59.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "DeepSeek: DeepSeek v4.1 Flash 1017",
+   "url": "https://news.ycombinator.com/item?id=50129121",
+   "link": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+   "up": 37,
+   "com": 1,
+   "at": "2026-10-17T08:37:46.000Z"
   },
   {
    "src": "Hacker News",
    "t": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
    "url": "https://news.ycombinator.com/item?id=50121179",
    "link": "https://www.mercor.com/research/labor-index/benchmark-map/",
-   "up": 496,
-   "com": 416,
+   "up": 499,
+   "com": 417,
    "at": "2026-10-16T17:08:38.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "DeepSeek-v4.1-Flash-1017",
-   "url": "https://news.ycombinator.com/item?id=50129045",
-   "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-   "up": 29,
-   "com": 10,
-   "at": "2026-10-17T08:21:25.000Z"
   },
   {
    "src": "Hacker News",
    "t": "How the Claude Code team does code review",
    "url": "https://news.ycombinator.com/item?id=50122951",
    "link": "https://claude.dev/blog/solving-code-review-at-anthropic/",
-   "up": 340,
-   "com": 313,
+   "up": 344,
+   "com": 317,
    "at": "2026-10-16T19:04:47.000Z"
   },
   {
@@ -1031,18 +1040,9 @@
    "t": "You could have invented transformers from memory",
    "url": "https://news.ycombinator.com/item?id=50122878",
    "link": "https://alexwang.ai/posts/associative-memory/",
-   "up": 288,
-   "com": 67,
+   "up": 295,
+   "com": 68,
    "at": "2026-10-16T19:01:17.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
-   "url": "https://news.ycombinator.com/item?id=50122431",
-   "link": "https://github.com/cobanov/PS5LM",
-   "up": 284,
-   "com": 72,
-   "at": "2026-10-16T18:32:35.000Z"
   }
  ]
 }
