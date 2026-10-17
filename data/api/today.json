@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-17T02:30:49.017Z"
+  "updated": "2026-10-17T03:01:01.782Z"
  },
  "pulse": {
   "trending": 83,
   "accelerating": 0,
-  "newModels": 7,
+  "newModels": 8,
   "discussions": 32,
-  "stars": 2612
+  "stars": 2573
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "Git designed for AI agents.",
    "meta": [
-    "★ 1,064",
-    "~684 in 24h",
+    "★ 1,066",
+    "~677 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -41,8 +41,8 @@
    "grow": null,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 2,531",
-    "~637 in 24h",
+    "★ 2,537",
+    "~635 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -55,11 +55,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 90,
-   "grow": 1,
+   "grow": 2,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 2,871",
-    "+126 in 24h",
+    "★ 2,878",
+    "+138 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -75,8 +75,8 @@
    "grow": null,
    "desc": "基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。还原 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分析手册。",
    "meta": [
-    "★ 1,026",
-    "~407 in 24h",
+    "★ 1,035",
+    "~408 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-14T14:05:05Z",
@@ -93,7 +93,7 @@
    "desc": "Vision on Hugging Face · open source · ♥ 2.5K",
    "meta": [
     "151K downloads",
-    "Released 32 days ago"
+    "Released 33 days ago"
    ],
    "at": "2026-09-14T14:53:42.000Z",
    "breakout": null,
@@ -122,7 +122,7 @@
    "cat": "Vision",
    "score": 87,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open source · ♥ 848",
+   "desc": "Vision on Hugging Face · open source · ♥ 850",
    "meta": [
     "18K downloads",
     "Released 10 days ago"
@@ -138,7 +138,7 @@
    "cat": "Tools",
    "score": 86,
    "grow": 0,
-   "desc": "Model on Hugging Face · open weights · ♥ 558",
+   "desc": "Model on Hugging Face · open weights · ♥ 559",
    "meta": [
     "6.2K downloads",
     "Released 16 days ago"
@@ -164,20 +164,20 @@
    "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo"
   },
   {
-   "name": "LFM2.5-24B-A2B",
-   "owner": "LiquidAI",
+   "name": "flux-3-image-klein-comfy",
+   "owner": "black-forest-labs",
    "src": "hf",
-   "cat": "LLMs",
-   "score": 85,
-   "grow": 49,
-   "desc": "Model on Hugging Face · open weights · ♥ 431",
+   "cat": "Vision",
+   "score": 86,
+   "grow": 0,
+   "desc": "Vision on Hugging Face · open weights · ♥ 460",
    "meta": [
-    "9.4K downloads",
-    "Released 5 days ago"
+    "74K downloads",
+    "Released 3 days ago"
    ],
-   "at": "2026-10-12T05:35:46.000Z",
+   "at": "2026-10-14T12:00:13.000Z",
    "breakout": null,
-   "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B"
+   "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy"
   }
  ],
  "breakouts": [
@@ -234,7 +234,7 @@
    "from": "Hugging Face",
    "use": 22790,
    "useLabel": "23K downloads",
-   "usePct": 0.5,
+   "usePct": 0.5294117647058824,
    "talk": [
     {
      "src": "Hacker News",
@@ -249,19 +249,8 @@
    "name": "git-ai",
    "url": "https://github.com/feder-cr/git-ai",
    "from": "GitHub",
-   "use": 684,
-   "useLabel": "~684 stars/day",
-   "usePct": 1,
-   "talk": [],
-   "buzz": 0,
-   "verdict": "Used a lot, hardly talked about"
-  },
-  {
-   "name": "Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
-   "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
-   "from": "Hugging Face",
-   "use": 5349998,
-   "useLabel": "5.3M downloads",
+   "use": 677,
+   "useLabel": "~677 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -273,6 +262,17 @@
    "from": "Hugging Face",
    "use": 2477554,
    "useLabel": "2.5M downloads",
+   "usePct": 1,
+   "talk": [],
+   "buzz": 0,
+   "verdict": "Used a lot, hardly talked about"
+  },
+  {
+   "name": "Qwen3.8-Flash-Next",
+   "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+   "from": "Hugging Face",
+   "use": 2379596,
+   "useLabel": "2.4M downloads",
    "usePct": 0.9705882352941176,
    "talk": [],
    "buzz": 0,
@@ -364,8 +364,8 @@
  "github": [
   {
    "repo": "feder-cr/git-ai",
-   "stars": 1064,
-   "d24": 684,
+   "stars": 1066,
+   "d24": 677,
    "est": true,
    "forks": 112,
    "contrib": null,
@@ -373,17 +373,17 @@
   },
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2531,
-   "d24": 637,
+   "stars": 2537,
+   "d24": 635,
    "est": true,
-   "forks": 494,
+   "forks": 495,
    "contrib": null,
    "score": 93
   },
   {
    "repo": "Caho1/open-claude-ui",
-   "stars": 1026,
-   "d24": 407,
+   "stars": 1035,
+   "d24": 408,
    "est": true,
    "forks": 229,
    "contrib": null,
@@ -391,8 +391,8 @@
   },
   {
    "repo": "deeplethe/solid-glass",
-   "stars": 1426,
-   "d24": 302,
+   "stars": 1435,
+   "d24": 303,
    "est": true,
    "forks": 21,
    "contrib": null,
@@ -400,35 +400,35 @@
   },
   {
    "repo": "zhuyansen/new-term-radar",
-   "stars": 1066,
-   "d24": 222,
+   "stars": 1067,
+   "d24": 221,
    "est": true,
    "forks": 418,
    "contrib": null,
    "score": 79
   },
   {
-   "repo": "marclou/mailcheap",
-   "stars": 1167,
-   "d24": 178,
-   "est": true,
-   "forks": 294,
-   "contrib": null,
-   "score": 73
-  },
-  {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2871,
-   "d24": 126,
+   "stars": 2878,
+   "d24": 138,
    "est": false,
    "forks": 371,
    "contrib": null,
    "score": 90
   },
   {
+   "repo": "marclou/mailcheap",
+   "stars": 1170,
+   "d24": 137,
+   "est": false,
+   "forks": 294,
+   "contrib": null,
+   "score": 73
+  },
+  {
    "repo": "rociiu/talorys",
    "stars": 1256,
-   "d24": 56,
+   "d24": 54,
    "est": false,
    "forks": 112,
    "contrib": null,
@@ -456,7 +456,7 @@
    "grow": null,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1832
+   "likes": 1834
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -468,7 +468,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Vision",
-   "likes": 848
+   "likes": 850
   },
   {
    "name": "drama-3",
@@ -479,7 +479,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Tools",
-   "likes": 558
+   "likes": 559
   },
   {
    "name": "Qwen-Image-2.1-Turbo",
@@ -493,16 +493,15 @@
    "likes": 946
   },
   {
-   "name": "LFM2.5-24B-A2B",
-   "org": "LiquidAI",
-   "size": "24B",
+   "name": "flux-3-image-klein-comfy",
+   "org": "black-forest-labs",
    "lic": "Open weights",
-   "at": "2026-10-12T05:35:46.000Z",
-   "dl": 9356,
-   "grow": 49,
-   "score": 85,
-   "cat": "LLMs",
-   "likes": 431
+   "at": "2026-10-14T12:00:13.000Z",
+   "dl": 73767,
+   "grow": 0,
+   "score": 86,
+   "cat": "Vision",
+   "likes": 460
   }
  ],
  "free": [
@@ -948,24 +947,24 @@
    "kind": "Lab blog"
   },
   {
-   "t": "Beyond AI: IndusGuru data shows what technology skills Indian companies are hiring for",
-   "url": "https://www.newsx.com/business/beyond-ai-indusguru-data-shows-what-technology-skills-indian-companies-are-hiring-for-284249/",
-   "at": "2026-10-16T14:08:10Z",
-   "src": "NewsX",
+   "t": "How Water Intelligence Could Be India's Next Industrial Advantage",
+   "url": "https://www.outlookbusiness.com/planet/business-of-sustainability/how-water-intelligence-could-be-indias-next-industrial-advantage",
+   "at": "2026-10-16T14:59:27Z",
+   "src": "Outlook Business",
    "kind": "News"
   },
   {
-   "t": "Pitched 2 ideas to PM Modi in 90 seconds on Chennai Metro: Who is AI startup founder Tejas Sudarshan & what did he propose?",
-   "url": "https://economictimes.indiatimes.com/news/new-updates/pitched-2-ideas-to-pm-modi-in-90-seconds-on-chennai-metro-who-is-ai-startup-founder-tejas-sudarshan-what-did-he-propose/articleshow/134996863.cms",
-   "at": "2026-10-16T14:07:00Z",
-   "src": "The Economic Times",
+   "t": "The IMF is less worried about jobs than about the payroll",
+   "url": "https://www.marketscreener.com/news/the-imf-is-less-worried-about-jobs-than-about-the-payroll-ce785cdadd8ef223",
+   "at": "2026-10-16T14:52:49Z",
+   "src": "MarketScreener",
    "kind": "News"
   },
   {
-   "t": "OpenAI Research Model Spent 3rd-Party Test ETH Without Permission to Deploy Smart Contract",
-   "url": "https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html",
-   "at": "2026-10-16T14:03:00Z",
-   "src": "The Hacker News",
+   "t": "Apple Stock Called Top Defensive Play Amid AI Sell-Off",
+   "url": "https://www.investors.com/news/technology/apple-stock-top-defensive-play-amid-ai-sell-off/",
+   "at": "2026-10-16T14:37:31Z",
+   "src": "Investor's Business Daily",
    "kind": "News"
   }
  ],
@@ -975,8 +974,8 @@
    "t": "Claude reveals ECDSA curve origins",
    "url": "https://news.ycombinator.com/item?id=50122800",
    "link": "https://www.anthropic.com/research/ecdsa-curve-origins",
-   "up": 702,
-   "com": 274,
+   "up": 717,
+   "com": 277,
    "at": "2026-10-16T18:55:59.000Z"
   },
   {
@@ -984,8 +983,8 @@
    "t": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
    "url": "https://news.ycombinator.com/item?id=50121179",
    "link": "https://www.mercor.com/research/labor-index/benchmark-map/",
-   "up": 413,
-   "com": 350,
+   "up": 419,
+   "com": 356,
    "at": "2026-10-16T17:08:38.000Z"
   },
   {
@@ -993,8 +992,8 @@
    "t": "How the Claude Code team does code review",
    "url": "https://news.ycombinator.com/item?id=50122951",
    "link": "https://claude.dev/blog/solving-code-review-at-anthropic/",
-   "up": 250,
-   "com": 232,
+   "up": 256,
+   "com": 241,
    "at": "2026-10-16T19:04:47.000Z"
   },
   {
@@ -1002,8 +1001,8 @@
    "t": "I never authorized an integration that scans my secrets",
    "url": "https://news.ycombinator.com/item?id=50124251",
    "link": "https://github.com/home-assistant/home-assistant.io/issues/49314",
-   "up": 196,
-   "com": 149,
+   "up": 202,
+   "com": 154,
    "at": "2026-10-16T20:33:41.000Z"
   },
   {
@@ -1011,8 +1010,8 @@
    "t": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
    "url": "https://news.ycombinator.com/item?id=50122431",
    "link": "https://github.com/cobanov/PS5LM",
-   "up": 210,
-   "com": 54,
+   "up": 215,
+   "com": 57,
    "at": "2026-10-16T18:32:35.000Z"
   },
   {
@@ -1020,7 +1019,7 @@
    "t": "Anthropic assigned highest junk credit rating in June",
    "url": "https://news.ycombinator.com/item?id=50122112",
    "link": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
-   "up": 219,
+   "up": 222,
    "com": 70,
    "at": "2026-10-16T18:11:42.000Z"
   }
