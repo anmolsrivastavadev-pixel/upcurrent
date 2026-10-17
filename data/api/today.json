@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-17T08:01:02.712Z"
+  "updated": "2026-10-17T08:30:50.016Z"
  },
  "pulse": {
   "trending": 83,
   "accelerating": 0,
   "newModels": 8,
-  "discussions": 34,
-  "stars": 1549
+  "discussions": 35,
+  "stars": 1335
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 94,
-   "grow": 2,
+   "grow": 3,
    "desc": "Git designed for AI agents.",
    "meta": [
-    "★ 1,082",
-    "+75 in 24h",
+    "★ 1,084",
+    "+76 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -37,11 +37,11 @@
    "owner": "Arekejoker",
    "src": "gh",
    "cat": "Agents",
-   "score": 93,
+   "score": 92,
    "grow": 2,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 2,564",
+    "★ 2,567",
     "+154 in 24h",
     "Created 4 days ago"
    ],
@@ -58,8 +58,8 @@
    "grow": 3,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 2,914",
-    "+151 in 24h",
+    "★ 2,919",
+    "+154 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -72,11 +72,11 @@
    "src": "gh",
    "cat": "Tools",
    "score": 90,
-   "grow": null,
+   "grow": 4,
    "desc": "基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。还原 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分析手册。",
    "meta": [
-    "★ 1,065",
-    "~388 in 24h",
+    "★ 1,066",
+    "+160 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-14T14:05:05Z",
@@ -89,7 +89,7 @@
    "src": "hf",
    "cat": "Vision",
    "score": 90,
-   "grow": null,
+   "grow": 0,
    "desc": "Vision on Hugging Face · open source · ♥ 2.5K",
    "meta": [
     "151K downloads",
@@ -105,7 +105,7 @@
    "src": "hf",
    "cat": "Infrastructure",
    "score": 89,
-   "grow": null,
+   "grow": 0,
    "desc": "Model on Hugging Face · open source · ♥ 1.8K",
    "meta": [
     "86K downloads",
@@ -116,29 +116,13 @@
    "url": "https://huggingface.co/jialinyyzz/humanizer"
   },
   {
-   "name": "MiniCPM-V-4.7-35B-A3B",
-   "owner": "openbmb",
-   "src": "hf",
-   "cat": "Vision",
-   "score": 87,
-   "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 860",
-   "meta": [
-    "18K downloads",
-    "Released 10 days ago"
-   ],
-   "at": "2026-10-07T07:07:30.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B"
-  },
-  {
    "name": "flux-3-image-klein-comfy",
    "owner": "black-forest-labs",
    "src": "hf",
    "cat": "Vision",
-   "score": 87,
+   "score": 88,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 503",
+   "desc": "Vision on Hugging Face · open weights · ♥ 510",
    "meta": [
     "74K downloads",
     "Released 3 days ago"
@@ -148,16 +132,32 @@
    "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy"
   },
   {
+   "name": "MiniCPM-V-4.7-35B-A3B",
+   "owner": "openbmb",
+   "src": "hf",
+   "cat": "Vision",
+   "score": 87,
+   "grow": null,
+   "desc": "Vision on Hugging Face · open source · ♥ 861",
+   "meta": [
+    "18K downloads",
+    "Released 10 days ago"
+   ],
+   "at": "2026-10-07T07:07:30.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B"
+  },
+  {
    "name": "solid-glass",
    "owner": "deeplethe",
    "src": "gh",
    "cat": "Agents",
    "score": 86,
-   "grow": 16,
+   "grow": 17,
    "desc": "A design system for AI applications. Material, physical, tactile, technical.",
    "meta": [
-    "★ 1,567",
-    "+596 in 24h",
+    "★ 1,585",
+    "+611 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-12T09:19:02Z",
@@ -171,7 +171,7 @@
    "cat": "Tools",
    "score": 86,
    "grow": 0,
-   "desc": "Model on Hugging Face · open weights · ♥ 568",
+   "desc": "Model on Hugging Face · open weights · ♥ 571",
    "meta": [
     "6.2K downloads",
     "Released 16 days ago"
@@ -181,8 +181,54 @@
    "url": "https://huggingface.co/fishaudio/drama-3"
   }
  ],
- "breakouts": [],
+ "breakouts": [
+  {
+   "key": "gemini 4",
+   "label": "Gemini 4",
+   "n": 3,
+   "sources": [
+    {
+     "src": "Hacker News",
+     "t": "Show HN: Gemini 4 Argon plays StarCraft",
+     "url": "https://news.ycombinator.com/item?id=50118688"
+    },
+    {
+     "src": "YouTube",
+     "t": "Gemini 4 Argon vs Claude Opus 5.5: Who Wins? #gemini4 #claudeopus #ai",
+     "url": "https://www.youtube.com/watch?v=-o6h0Uq67nQ"
+    },
+    {
+     "src": "arXiv",
+     "t": "A team of Gemini 4 Argon agents beats Minecraft",
+     "url": "https://arxiv.org/abs/2610.22319v1"
+    }
+   ],
+   "since": "2026-10-01T18:14:41.538Z"
+  }
+ ],
  "hype": [
+  {
+   "name": "Gemini 4",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "Hacker News",
+     "t": "Show HN: Gemini 4 Argon plays StarCraft",
+     "url": "https://news.ycombinator.com/item?id=50118688"
+    },
+    {
+     "src": "YouTube",
+     "t": "Gemini 4 Argon vs Claude Opus 5.5: Who Wins? #gemini4 #claudeopus #ai",
+     "url": "https://www.youtube.com/watch?v=-o6h0Uq67nQ"
+    }
+   ],
+   "buzz": 2,
+   "verdict": "Talk only, no public usage numbers"
+  },
   {
    "name": "flux-3-image-klein",
    "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein",
@@ -204,8 +250,8 @@
    "name": "solid-glass",
    "url": "https://github.com/deeplethe/solid-glass",
    "from": "GitHub",
-   "use": 596,
-   "useLabel": "+596 stars/day",
+   "use": 611,
+   "useLabel": "+611 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -319,8 +365,8 @@
  "github": [
   {
    "repo": "deeplethe/solid-glass",
-   "stars": 1567,
-   "d24": 596,
+   "stars": 1585,
+   "d24": 611,
    "est": false,
    "forks": 21,
    "contrib": null,
@@ -328,35 +374,35 @@
   },
   {
    "repo": "Caho1/open-claude-ui",
-   "stars": 1065,
-   "d24": 388,
-   "est": true,
+   "stars": 1066,
+   "d24": 160,
+   "est": false,
    "forks": 236,
    "contrib": null,
    "score": 90
   },
   {
-   "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2564,
-   "d24": 154,
-   "est": false,
-   "forks": 498,
-   "contrib": null,
-   "score": 93
-  },
-  {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2914,
-   "d24": 151,
+   "stars": 2919,
+   "d24": 154,
    "est": false,
    "forks": 376,
    "contrib": null,
    "score": 90
   },
   {
+   "repo": "Arekejoker/qwen21-nsfw-pose-skill",
+   "stars": 2567,
+   "d24": 154,
+   "est": false,
+   "forks": 498,
+   "contrib": null,
+   "score": 92
+  },
+  {
    "repo": "marclou/mailcheap",
    "stars": 1185,
-   "d24": 109,
+   "d24": 104,
    "est": false,
    "forks": 296,
    "contrib": null,
@@ -364,8 +410,8 @@
   },
   {
    "repo": "feder-cr/git-ai",
-   "stars": 1082,
-   "d24": 75,
+   "stars": 1084,
+   "d24": 76,
    "est": false,
    "forks": 116,
    "contrib": null,
@@ -373,8 +419,8 @@
   },
   {
    "repo": "rociiu/talorys",
-   "stars": 1268,
-   "d24": 55,
+   "stars": 1270,
+   "d24": 56,
    "est": false,
    "forks": 112,
    "contrib": null,
@@ -383,9 +429,9 @@
   {
    "repo": "zhuyansen/new-term-radar",
    "stars": 1072,
-   "d24": 21,
+   "d24": 20,
    "est": false,
-   "forks": 420,
+   "forks": 422,
    "contrib": null,
    "score": 78
   }
@@ -397,10 +443,10 @@
    "lic": "Open source",
    "at": "2026-09-14T14:53:42.000Z",
    "dl": 151258,
-   "grow": null,
+   "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 2531
+   "likes": 2533
   },
   {
    "name": "humanizer",
@@ -408,10 +454,21 @@
    "lic": "Open source",
    "at": "2026-09-11T05:00:16.000Z",
    "dl": 85612,
-   "grow": null,
+   "grow": 0,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1846
+   "likes": 1847
+  },
+  {
+   "name": "flux-3-image-klein-comfy",
+   "org": "black-forest-labs",
+   "lic": "Open weights",
+   "at": "2026-10-14T12:00:13.000Z",
+   "dl": 73767,
+   "grow": 0,
+   "score": 88,
+   "cat": "Vision",
+   "likes": 510
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -423,18 +480,7 @@
    "grow": null,
    "score": 87,
    "cat": "Vision",
-   "likes": 860
-  },
-  {
-   "name": "flux-3-image-klein-comfy",
-   "org": "black-forest-labs",
-   "lic": "Open weights",
-   "at": "2026-10-14T12:00:13.000Z",
-   "dl": 73767,
-   "grow": 0,
-   "score": 87,
-   "cat": "Vision",
-   "likes": 503
+   "likes": 861
   },
   {
    "name": "drama-3",
@@ -445,7 +491,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Tools",
-   "likes": 568
+   "likes": 571
   },
   {
    "name": "Qwen-Image-2.1-Turbo",
@@ -456,7 +502,7 @@
    "grow": null,
    "score": 86,
    "cat": "Vision",
-   "likes": 948
+   "likes": 949
   }
  ],
  "free": [
@@ -881,6 +927,20 @@
    "kind": "News"
   },
   {
+   "t": "Microsoft’s (MSFT) Free Cash Flow Expected to Remain Positive Despite Heavy AI Spending",
+   "url": "https://markets.businessinsider.com/news/stocks/microsoft-s-msft-free-cash-flow-expected-to-remain-positive-despite-heavy-ai-spending-1036636148",
+   "at": "2026-10-16T20:17:35Z",
+   "src": "Markets Insider",
+   "kind": "News"
+  },
+  {
+   "t": "I put all of Wikipedia on my home server, and it still answers when the internet is down",
+   "url": "https://www.xda-developers.com/put-all-wikipedia-home-server-still-answers-questions-when-internet-down/",
+   "at": "2026-10-16T20:01:20Z",
+   "src": "XDA Developers",
+   "kind": "News"
+  },
+  {
    "t": "up call for India’s cybersecurity ecosystem",
    "url": "https://www.tribuneindia.com/news/editorials/rogue-ai-agents-wake-up-call-for-indias-cybersecurity-ecosystem/",
    "at": "2026-10-16T19:40:07Z",
@@ -893,20 +953,6 @@
    "at": "2026-10-16T19:17:04Z",
    "src": "Cointelegraph",
    "kind": "News"
-  },
-  {
-   "t": "Automated essay assessment can grade writing more accurately across topics, study finds",
-   "url": "https://phys.org/news/2026-10-automated-essay-grade-accurately-topics.html",
-   "at": "2026-10-16T19:00:22Z",
-   "src": "Phys.org",
-   "kind": "News"
-  },
-  {
-   "t": "How Itaú is building generative AI for its entire customer base",
-   "url": "https://openai.com/index/itau-generative-ai",
-   "at": "2026-10-16T19:00:00.000Z",
-   "src": "OpenAI",
-   "kind": "Lab blog"
   }
  ],
  "discussions": [
@@ -915,8 +961,8 @@
    "t": "Claude reveals ECDSA curve origins",
    "url": "https://news.ycombinator.com/item?id=50122800",
    "link": "https://www.anthropic.com/research/ecdsa-curve-origins",
-   "up": 841,
-   "com": 315,
+   "up": 852,
+   "com": 317,
    "at": "2026-10-16T18:55:59.000Z"
   },
   {
@@ -924,8 +970,8 @@
    "t": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
    "url": "https://news.ycombinator.com/item?id=50121179",
    "link": "https://www.mercor.com/research/labor-index/benchmark-map/",
-   "up": 486,
-   "com": 408,
+   "up": 491,
+   "com": 413,
    "at": "2026-10-16T17:08:38.000Z"
   },
   {
@@ -933,8 +979,8 @@
    "t": "How the Claude Code team does code review",
    "url": "https://news.ycombinator.com/item?id=50122951",
    "link": "https://claude.dev/blog/solving-code-review-at-anthropic/",
-   "up": 325,
-   "com": 302,
+   "up": 332,
+   "com": 308,
    "at": "2026-10-16T19:04:47.000Z"
   },
   {
@@ -942,8 +988,8 @@
    "t": "You could have invented transformers from memory",
    "url": "https://news.ycombinator.com/item?id=50122878",
    "link": "https://alexwang.ai/posts/associative-memory/",
-   "up": 271,
-   "com": 64,
+   "up": 281,
+   "com": 67,
    "at": "2026-10-16T19:01:17.000Z"
   },
   {
@@ -951,8 +997,8 @@
    "t": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
    "url": "https://news.ycombinator.com/item?id=50122431",
    "link": "https://github.com/cobanov/PS5LM",
-   "up": 272,
-   "com": 66,
+   "up": 279,
+   "com": 68,
    "at": "2026-10-16T18:32:35.000Z"
   },
   {
@@ -960,8 +1006,8 @@
    "t": "I never authorized an integration that scans my secrets",
    "url": "https://news.ycombinator.com/item?id=50124251",
    "link": "https://github.com/home-assistant/home-assistant.io/issues/49314",
-   "up": 215,
-   "com": 181,
+   "up": 217,
+   "com": 183,
    "at": "2026-10-16T20:33:41.000Z"
   }
  ]
