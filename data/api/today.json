@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-17T05:01:18.016Z"
+  "updated": "2026-10-17T05:30:48.840Z"
  },
  "pulse": {
   "trending": 83,
   "accelerating": 0,
   "newModels": 8,
   "discussions": 31,
-  "stars": 2522
+  "stars": 2513
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "Git designed for AI agents.",
    "meta": [
-    "★ 1,070",
-    "~645 in 24h",
+    "★ 1,071",
+    "~638 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -41,8 +41,8 @@
    "grow": null,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 2,550",
-    "~625 in 24h",
+    "★ 2,553",
+    "~623 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -58,8 +58,8 @@
    "grow": 2,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 2,893",
-    "+146 in 24h",
+    "★ 2,899",
+    "+153 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -75,8 +75,8 @@
    "grow": null,
    "desc": "基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。还原 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分析手册。",
    "meta": [
-    "★ 1,046",
-    "~399 in 24h",
+    "★ 1,050",
+    "~397 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-14T14:05:05Z",
@@ -122,7 +122,7 @@
    "cat": "Vision",
    "score": 87,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open source · ♥ 856",
+   "desc": "Vision on Hugging Face · open source · ♥ 858",
    "meta": [
     "18K downloads",
     "Released 10 days ago"
@@ -138,7 +138,7 @@
    "cat": "Tools",
    "score": 86,
    "grow": 0,
-   "desc": "Model on Hugging Face · open weights · ♥ 562",
+   "desc": "Model on Hugging Face · open weights · ♥ 563",
    "meta": [
     "6.2K downloads",
     "Released 16 days ago"
@@ -170,7 +170,7 @@
    "cat": "Vision",
    "score": 86,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 473",
+   "desc": "Vision on Hugging Face · open weights · ♥ 479",
    "meta": [
     "74K downloads",
     "Released 3 days ago"
@@ -234,7 +234,7 @@
    "from": "Hugging Face",
    "use": 22790,
    "useLabel": "23K downloads",
-   "usePct": 0.5,
+   "usePct": 0.5294117647058824,
    "talk": [
     {
      "src": "Hacker News",
@@ -249,19 +249,8 @@
    "name": "git-ai",
    "url": "https://github.com/feder-cr/git-ai",
    "from": "GitHub",
-   "use": 645,
-   "useLabel": "~645 stars/day",
-   "usePct": 1,
-   "talk": [],
-   "buzz": 0,
-   "verdict": "Used a lot, hardly talked about"
-  },
-  {
-   "name": "Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
-   "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
-   "from": "Hugging Face",
-   "use": 5349998,
-   "useLabel": "5.3M downloads",
+   "use": 638,
+   "useLabel": "~638 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -273,6 +262,17 @@
    "from": "Hugging Face",
    "use": 2477554,
    "useLabel": "2.5M downloads",
+   "usePct": 1,
+   "talk": [],
+   "buzz": 0,
+   "verdict": "Used a lot, hardly talked about"
+  },
+  {
+   "name": "Qwen3.8-Flash-Next",
+   "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+   "from": "Hugging Face",
+   "use": 2379596,
+   "useLabel": "2.4M downloads",
    "usePct": 0.9705882352941176,
    "talk": [],
    "buzz": 0,
@@ -364,8 +364,8 @@
  "github": [
   {
    "repo": "feder-cr/git-ai",
-   "stars": 1070,
-   "d24": 645,
+   "stars": 1071,
+   "d24": 638,
    "est": true,
    "forks": 115,
    "contrib": null,
@@ -373,8 +373,8 @@
   },
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2550,
-   "d24": 625,
+   "stars": 2553,
+   "d24": 623,
    "est": true,
    "forks": 497,
    "contrib": null,
@@ -382,8 +382,8 @@
   },
   {
    "repo": "Caho1/open-claude-ui",
-   "stars": 1046,
-   "d24": 399,
+   "stars": 1050,
+   "d24": 397,
    "est": true,
    "forks": 234,
    "contrib": null,
@@ -391,8 +391,8 @@
   },
   {
    "repo": "deeplethe/solid-glass",
-   "stars": 1490,
-   "d24": 309,
+   "stars": 1507,
+   "d24": 311,
    "est": true,
    "forks": 21,
    "contrib": null,
@@ -401,7 +401,7 @@
   {
    "repo": "zhuyansen/new-term-radar",
    "stars": 1067,
-   "d24": 217,
+   "d24": 216,
    "est": true,
    "forks": 418,
    "contrib": null,
@@ -409,17 +409,17 @@
   },
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2893,
-   "d24": 146,
+   "stars": 2899,
+   "d24": 153,
    "est": false,
-   "forks": 371,
+   "forks": 372,
    "contrib": null,
    "score": 90
   },
   {
    "repo": "marclou/mailcheap",
-   "stars": 1179,
-   "d24": 130,
+   "stars": 1180,
+   "d24": 125,
    "est": false,
    "forks": 295,
    "contrib": null,
@@ -428,7 +428,7 @@
   {
    "repo": "rociiu/talorys",
    "stars": 1259,
-   "d24": 51,
+   "d24": 50,
    "est": false,
    "forks": 112,
    "contrib": null,
@@ -445,7 +445,7 @@
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 2518
+   "likes": 2520
   },
   {
    "name": "humanizer",
@@ -456,7 +456,7 @@
    "grow": null,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1837
+   "likes": 1838
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -468,7 +468,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Vision",
-   "likes": 856
+   "likes": 858
   },
   {
    "name": "drama-3",
@@ -479,7 +479,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Tools",
-   "likes": 562
+   "likes": 563
   },
   {
    "name": "Qwen-Image-2.1-Turbo",
@@ -501,7 +501,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Vision",
-   "likes": 473
+   "likes": 479
   }
  ],
  "free": [
@@ -856,6 +856,13 @@
  },
  "headlines": [
   {
+   "t": "Mistlabs, which develops Ambi, an ambient AI app for iPhone, Apple Watch, and Mac that learns about users from conversations, raised a $26M pre-Series A",
+   "url": "https://www.techmeme.com/261017/p2#a261017p2",
+   "at": "2026-10-17T05:05:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Workday agrees to acquire C1.ai, formerly known as ConductorOne, which develops enterprise software to manage human and AI agent identities and has raised $111M",
    "url": "https://www.techmeme.com/261017/p1#a261017p1",
    "at": "2026-10-17T04:50:01.000Z",
@@ -940,13 +947,6 @@
    "kind": "Lab blog"
   },
   {
-   "t": "The PostgreSQL Global Development Group delays the general availability of PostgreSQL 19 after LLM-assisted code reviews uncovered architectural defects",
-   "url": "https://www.techmeme.com/261016/p17#a261016p17",
-   "at": "2026-10-16T18:45:00.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Grounding AI agents in biological reality: Building blocks for autonomous wet labs",
    "url": "https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs/",
    "at": "2026-10-16T18:11:34.000Z",
@@ -954,17 +954,17 @@
    "kind": "Lab blog"
   },
   {
-   "t": "Internet mocks Saudi OpenAI 'spy' over startled-looking surveillance photo",
-   "url": "https://nypost.com/2026/10/16/business/internet-mocks-saudi-openai-spy-over-startled-looking-surveillance-photo/",
-   "at": "2026-10-16T16:59:17Z",
-   "src": "New York Post",
+   "t": "AI Agent Hacked Into Crypto Wallet and Stole Funds, OpenAI Says",
+   "url": "https://gizmodo.com/ai-agent-hacked-into-crypto-wallet-and-stole-funds-openai-says-2000826980",
+   "at": "2026-10-16T17:20:51Z",
+   "src": "Gizmodo",
    "kind": "News"
   },
   {
-   "t": "Former Yahoo CEO and Google executive urges industry to acknowledge that things may not go well with AI: ‘What that really means is…’",
-   "url": "https://timesofindia.indiatimes.com/technology/tech-news/former-yahoo-ceo-and-google-executive-urges-industry-to-acknowledge-that-things-may-not-go-well-what-that-really-means-is/articleshow/134999574.cms",
-   "at": "2026-10-16T16:46:00Z",
-   "src": "Times of India",
+   "t": "Valuation of businesses run by under-35s rises 23% to Rs 48 lakh crore: Hurun report",
+   "url": "https://economictimes.indiatimes.com/news/company/corporate-trends/valuation-of-businesses-run-by-under-35s-rises-23-to-rs-48-lakh-crore-hurun-report/articleshow/134999635.cms",
+   "at": "2026-10-16T17:11:00Z",
+   "src": "The Economic Times",
    "kind": "News"
   }
  ],
@@ -974,8 +974,8 @@
    "t": "Claude reveals ECDSA curve origins",
    "url": "https://news.ycombinator.com/item?id=50122800",
    "link": "https://www.anthropic.com/research/ecdsa-curve-origins",
-   "up": 773,
-   "com": 295,
+   "up": 785,
+   "com": 297,
    "at": "2026-10-16T18:55:59.000Z"
   },
   {
@@ -983,8 +983,8 @@
    "t": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
    "url": "https://news.ycombinator.com/item?id=50121179",
    "link": "https://www.mercor.com/research/labor-index/benchmark-map/",
-   "up": 445,
-   "com": 390,
+   "up": 453,
+   "com": 392,
    "at": "2026-10-16T17:08:38.000Z"
   },
   {
@@ -992,8 +992,8 @@
    "t": "How the Claude Code team does code review",
    "url": "https://news.ycombinator.com/item?id=50122951",
    "link": "https://claude.dev/blog/solving-code-review-at-anthropic/",
-   "up": 282,
-   "com": 259,
+   "up": 290,
+   "com": 267,
    "at": "2026-10-16T19:04:47.000Z"
   },
   {
@@ -1002,7 +1002,7 @@
    "url": "https://news.ycombinator.com/item?id=50124251",
    "link": "https://github.com/home-assistant/home-assistant.io/issues/49314",
    "up": 209,
-   "com": 170,
+   "com": 172,
    "at": "2026-10-16T20:33:41.000Z"
   },
   {
@@ -1010,7 +1010,7 @@
    "t": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
    "url": "https://news.ycombinator.com/item?id=50122431",
    "link": "https://github.com/cobanov/PS5LM",
-   "up": 231,
+   "up": 241,
    "com": 62,
    "at": "2026-10-16T18:32:35.000Z"
   },
@@ -1019,8 +1019,8 @@
    "t": "Anthropic assigned highest junk credit rating in June",
    "url": "https://news.ycombinator.com/item?id=50122112",
    "link": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
-   "up": 234,
-   "com": 72,
+   "up": 235,
+   "com": 74,
    "at": "2026-10-16T18:11:42.000Z"
   }
  ]
