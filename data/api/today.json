@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-17T20:01:00.828Z"
+  "updated": "2026-10-17T20:30:50.163Z"
  },
  "pulse": {
   "trending": 81,
-  "accelerating": 3,
+  "accelerating": 2,
   "newModels": 7,
-  "discussions": 31,
-  "stars": 1172
+  "discussions": 34,
+  "stars": 1752
  },
  "rising": [
   {
@@ -22,10 +22,10 @@
    "cat": "Vision",
    "score": 97,
    "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 862",
+   "desc": "Vision on Hugging Face · open source · ♥ 876",
    "meta": [
     "0 downloads",
-    "Released 17h ago"
+    "Released 18h ago"
    ],
    "at": "2026-10-17T02:40:38.000Z",
    "breakout": null,
@@ -37,11 +37,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 93,
-   "grow": 6,
+   "grow": null,
    "desc": "Git designed for AI agents.",
    "meta": [
-    "★ 1,122",
-    "+78 in 24h",
+    "★ 1,123",
+    "~487 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -57,8 +57,8 @@
    "grow": 4,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 2,625",
-    "+134 in 24h",
+    "★ 2,626",
+    "+132 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -75,7 +75,7 @@
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
     "★ 2,985",
-    "~495 in 24h",
+    "~493 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -105,7 +105,7 @@
    "cat": "Vision",
    "score": 89,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 628",
+   "desc": "Vision on Hugging Face · open weights · ♥ 630",
    "meta": [
     "224K downloads",
     "Released 3 days ago"
@@ -123,8 +123,8 @@
    "grow": 10,
    "desc": "基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。还原 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分析手册。",
    "meta": [
-    "★ 1,127",
-    "+138 in 24h",
+    "★ 1,129",
+    "+137 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-14T14:05:05Z",
@@ -154,7 +154,7 @@
    "cat": "Vision",
    "score": 86,
    "grow": 107,
-   "desc": "Vision on Hugging Face · open source · ♥ 893",
+   "desc": "Vision on Hugging Face · open source · ♥ 894",
    "meta": [
     "36K downloads",
     "Released 11 days ago"
@@ -172,8 +172,8 @@
    "grow": null,
    "desc": "A design system for AI applications. Material, physical, tactile, technical.",
    "meta": [
-    "★ 1,686",
-    "~310 in 24h",
+    "★ 1,687",
+    "~309 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-12T09:19:02Z",
@@ -201,23 +201,6 @@
    "verdict": "More talk than use"
   },
   {
-   "name": "flux-3-image-klein",
-   "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein",
-   "from": "Hugging Face",
-   "use": 46123,
-   "useLabel": "46K downloads",
-   "usePct": 0.5294117647058824,
-   "talk": [
-    {
-     "src": "Bfl.ai",
-     "t": "Flux 3 Image Klein: open weights, 5.6B parameters",
-     "url": "https://bfl.ai/blog/flux-3-image-klein"
-    }
-   ],
-   "buzz": 1,
-   "verdict": "The hype matches real use"
-  },
-  {
    "name": "DeepSeek-V4.1-Flash",
    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
    "from": "Hugging Face",
@@ -238,8 +221,8 @@
    "name": "esp32-iphone-agent",
    "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
    "from": "GitHub",
-   "use": 495,
-   "useLabel": "~495 stars/day",
+   "use": 493,
+   "useLabel": "~493 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -354,25 +337,43 @@
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
    "stars": 2985,
-   "d24": 495,
+   "d24": 493,
    "est": true,
    "forks": 387,
    "contrib": null,
    "score": 90
   },
   {
+   "repo": "feder-cr/git-ai",
+   "stars": 1123,
+   "d24": 487,
+   "est": true,
+   "forks": 119,
+   "contrib": null,
+   "score": 93
+  },
+  {
    "repo": "deeplethe/solid-glass",
-   "stars": 1686,
-   "d24": 310,
+   "stars": 1687,
+   "d24": 309,
    "est": true,
    "forks": 21,
    "contrib": null,
    "score": 85
   },
   {
+   "repo": "zhuyansen/new-term-radar",
+   "stars": 1079,
+   "d24": 194,
+   "est": true,
+   "forks": 422,
+   "contrib": null,
+   "score": 77
+  },
+  {
    "repo": "Caho1/open-claude-ui",
-   "stars": 1127,
-   "d24": 138,
+   "stars": 1129,
+   "d24": 137,
    "est": false,
    "forks": 248,
    "contrib": null,
@@ -380,30 +381,12 @@
   },
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2625,
-   "d24": 134,
+   "stars": 2626,
+   "d24": 132,
    "est": false,
    "forks": 504,
    "contrib": null,
    "score": 92
-  },
-  {
-   "repo": "feder-cr/git-ai",
-   "stars": 1122,
-   "d24": 78,
-   "est": false,
-   "forks": 118,
-   "contrib": null,
-   "score": 93
-  },
-  {
-   "repo": "zhuyansen/new-term-radar",
-   "stars": 1079,
-   "d24": 17,
-   "est": false,
-   "forks": 422,
-   "contrib": null,
-   "score": 77
   }
  ],
  "models": [
@@ -416,7 +399,7 @@
    "grow": null,
    "score": 97,
    "cat": "Vision",
-   "likes": 862
+   "likes": 876
   },
   {
    "name": "embeddinggemma-2",
@@ -427,7 +410,7 @@
    "grow": 5,
    "score": 90,
    "cat": "Vision",
-   "likes": 2581
+   "likes": 2583
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -438,7 +421,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Vision",
-   "likes": 628
+   "likes": 630
   },
   {
    "name": "humanizer",
@@ -461,7 +444,7 @@
    "grow": 107,
    "score": 86,
    "cat": "Vision",
-   "likes": 893
+   "likes": 894
   },
   {
    "name": "drama-3",
@@ -469,7 +452,7 @@
    "lic": "Open weights",
    "at": "2026-10-01T04:34:57.000Z",
    "dl": 8193,
-   "grow": null,
+   "grow": 0,
    "score": 85,
    "cat": "Tools",
    "likes": 612
@@ -841,6 +824,20 @@
    "kind": "News"
   },
   {
+   "t": "Anthropic proposes law regulating AI to US lawmakers",
+   "url": "https://www.manilatimes.net/2026/10/17/world/americas-emea/anthropic-proposes-law-regulating-ai-to-us-lawmakers/2447878",
+   "at": "2026-10-17T08:30:00Z",
+   "src": "The Manila Times",
+   "kind": "News"
+  },
+  {
+   "t": "AI tools like ChatGPT opening new opportunities for businesses: Sunil Bharti Mittal",
+   "url": "https://www.tribuneindia.com/news/business/ai-tools-like-chatgpt-opening-new-opportunities-for-businesses-sunil-bharti-mittal/",
+   "at": "2026-10-17T08:21:10Z",
+   "src": "The Tribune",
+   "kind": "News"
+  },
+  {
    "t": "AI risks could outweigh benefits, need ethical framework: IMF chief",
    "url": "https://www.newsbytesapp.com/news/business/imf-chief-is-worried-about-ai-risks/story",
    "at": "2026-10-17T07:40:13Z",
@@ -888,20 +885,6 @@
    "at": "2026-10-17T05:30:01.000Z",
    "src": "Techmeme",
    "kind": "News"
-  },
-  {
-   "t": "16-year-old Ethan Yan wins $50,000 scholarship for developing an affordable AI system to detect leukaemia cells",
-   "url": "https://timesofindia.indiatimes.com/science/discovery/16-year-old-ethan-yan-wins-50000-scholarship-for-developing-an-affordable-ai-system-to-detect-leukaemia-cells/articleshow/134893127.cms",
-   "at": "2026-10-17T05:30:00Z",
-   "src": "Times of India",
-   "kind": "News"
-  },
-  {
-   "t": "The Future is Now! EdTek Con 2026",
-   "url": "https://www.manilatimes.net/2026/10/17/tmt-newswire/the-future-is-now-edtek-con-2026/2447860",
-   "at": "2026-10-17T05:22:00Z",
-   "src": "The Manila Times",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -910,8 +893,8 @@
    "t": "DeepSeek-v4.1-Flash-1017",
    "url": "https://news.ycombinator.com/item?id=50129045",
    "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-   "up": 541,
-   "com": 495,
+   "up": 560,
+   "com": 502,
    "at": "2026-10-17T08:21:25.000Z"
   },
   {
@@ -928,8 +911,8 @@
    "t": "Israeli settlers attack European diplomatic cars in West Bank beat French mayor",
    "url": "https://news.ycombinator.com/item?id=50133274",
    "link": "https://www.lemonde.fr/en/international/article/2026/10/17/israeli-settlers-attack-european-diplomatic-cars-in-west-bank-beat-french-mayor-say-witnesses_6758711_4.html",
-   "up": 88,
-   "com": 12,
+   "up": 94,
+   "com": 14,
    "at": "2026-10-17T17:49:10.000Z"
   },
   {
@@ -937,8 +920,8 @@
    "t": "Amazon uses AI to monitor union risk in UK warehouses",
    "url": "https://news.ycombinator.com/item?id=50132278",
    "link": "https://www.opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield/",
-   "up": 122,
-   "com": 48,
+   "up": 129,
+   "com": 51,
    "at": "2026-10-17T16:04:23.000Z"
   },
   {
@@ -946,8 +929,8 @@
    "t": "OpenAI discloses four more rogue incidents",
    "url": "https://news.ycombinator.com/item?id=50132502",
    "link": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/",
-   "up": 104,
-   "com": 111,
+   "up": 109,
+   "com": 118,
    "at": "2026-10-17T16:31:12.000Z"
   },
   {
@@ -955,8 +938,8 @@
    "t": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
    "url": "https://news.ycombinator.com/item?id=50127979",
    "link": "https://llmspeed.dev/",
-   "up": 215,
-   "com": 68,
+   "up": 218,
+   "com": 73,
    "at": "2026-10-17T04:36:53.000Z"
   }
  ]
