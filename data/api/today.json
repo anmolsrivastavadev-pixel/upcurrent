@@ -5,41 +5,24 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-17T13:30:55.083Z"
+  "updated": "2026-10-17T14:01:01.616Z"
  },
  "pulse": {
   "trending": 81,
-  "accelerating": 5,
+  "accelerating": 4,
   "newModels": 8,
-  "discussions": 41,
-  "stars": 1088
+  "discussions": 42,
+  "stars": 1072
  },
  "rising": [
-  {
-   "name": "git-ai",
-   "owner": "feder-cr",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 94,
-   "grow": 4,
-   "desc": "Git designed for AI agents.",
-   "meta": [
-    "★ 1,102",
-    "+80 in 24h",
-    "Created 2 days ago"
-   ],
-   "at": "2026-10-15T13:12:02Z",
-   "breakout": null,
-   "url": "https://github.com/feder-cr/git-ai"
-  },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
    "owner": "deepseek-ai",
    "src": "hf",
    "cat": "Vision",
-   "score": 93,
+   "score": 95,
    "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 549",
+   "desc": "Vision on Hugging Face · open source · ♥ 575",
    "meta": [
     "0 downloads",
     "Released 11h ago"
@@ -47,6 +30,23 @@
    "at": "2026-10-17T02:40:38.000Z",
    "breakout": null,
    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+  },
+  {
+   "name": "git-ai",
+   "owner": "feder-cr",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 94,
+   "grow": 5,
+   "desc": "Git designed for AI agents.",
+   "meta": [
+    "★ 1,105",
+    "+82 in 24h",
+    "Created 2 days ago"
+   ],
+   "at": "2026-10-15T13:12:02Z",
+   "breakout": null,
+   "url": "https://github.com/feder-cr/git-ai"
   },
   {
    "name": "qwen21-nsfw-pose-skill",
@@ -57,8 +57,8 @@
    "grow": 3,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 2,586",
-    "+129 in 24h",
+    "★ 2,590",
+    "+131 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -90,30 +90,13 @@
    "grow": 4,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 2,950",
-    "+153 in 24h",
+    "★ 2,954",
+    "+154 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
    "breakout": null,
    "url": "https://github.com/onehumanbeing/esp32-iphone-agent"
-  },
-  {
-   "name": "open-claude-ui",
-   "owner": "Caho1",
-   "src": "gh",
-   "cat": "Tools",
-   "score": 89,
-   "grow": 7,
-   "desc": "基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。还原 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分析手册。",
-   "meta": [
-    "★ 1,095",
-    "+151 in 24h",
-    "Created 3 days ago"
-   ],
-   "at": "2026-10-14T14:05:05Z",
-   "breakout": null,
-   "url": "https://github.com/Caho1/open-claude-ui"
   },
   {
    "name": "humanizer",
@@ -138,7 +121,7 @@
    "cat": "Vision",
    "score": 89,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 560",
+   "desc": "Vision on Hugging Face · open weights · ♥ 568",
    "meta": [
     "224K downloads",
     "Released 3 days ago"
@@ -148,13 +131,30 @@
    "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy"
   },
   {
+   "name": "open-claude-ui",
+   "owner": "Caho1",
+   "src": "gh",
+   "cat": "Tools",
+   "score": 88,
+   "grow": 7,
+   "desc": "基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。还原 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分析手册。",
+   "meta": [
+    "★ 1,097",
+    "+148 in 24h",
+    "Created 3 days ago"
+   ],
+   "at": "2026-10-14T14:05:05Z",
+   "breakout": null,
+   "url": "https://github.com/Caho1/open-claude-ui"
+  },
+  {
    "name": "MiniCPM-V-4.7-35B-A3B",
    "owner": "openbmb",
    "src": "hf",
    "cat": "Vision",
    "score": 87,
    "grow": 107,
-   "desc": "Vision on Hugging Face · open source · ♥ 877",
+   "desc": "Vision on Hugging Face · open source · ♥ 879",
    "meta": [
     "36K downloads",
     "Released 10 days ago"
@@ -164,70 +164,25 @@
    "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B"
   },
   {
-   "name": "drama-3",
-   "owner": "fishaudio",
-   "src": "hf",
-   "cat": "Tools",
-   "score": 86,
-   "grow": 33,
-   "desc": "Model on Hugging Face · open weights · ♥ 584",
+   "name": "solid-glass",
+   "owner": "deeplethe",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 85,
+   "grow": 24,
+   "desc": "A design system for AI applications. Material, physical, tactile, technical.",
    "meta": [
-    "8.2K downloads",
-    "Released 16 days ago"
+    "★ 1,680",
+    "+536 in 24h",
+    "Created 5 days ago"
    ],
-   "at": "2026-10-01T04:34:57.000Z",
+   "at": "2026-10-12T09:19:02Z",
    "breakout": null,
-   "url": "https://huggingface.co/fishaudio/drama-3"
+   "url": "https://github.com/deeplethe/solid-glass"
   }
  ],
- "breakouts": [
-  {
-   "key": "gemini 4",
-   "label": "Gemini 4",
-   "n": 3,
-   "sources": [
-    {
-     "src": "Hacker News",
-     "t": "Show HN: Gemini 4 Argon plays StarCraft",
-     "url": "https://news.ycombinator.com/item?id=50118688"
-    },
-    {
-     "src": "YouTube",
-     "t": "Gemini 4 Argon vs Claude Opus 5.5: Who Wins? #gemini4 #claudeopus #ai",
-     "url": "https://www.youtube.com/watch?v=-o6h0Uq67nQ"
-    },
-    {
-     "src": "arXiv",
-     "t": "A team of Gemini 4 Argon agents beats Minecraft",
-     "url": "https://arxiv.org/abs/2610.22319v1"
-    }
-   ],
-   "since": "2026-10-01T18:14:41.538Z"
-  }
- ],
+ "breakouts": [],
  "hype": [
-  {
-   "name": "Gemini 4",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
-    {
-     "src": "Hacker News",
-     "t": "Show HN: Gemini 4 Argon plays StarCraft",
-     "url": "https://news.ycombinator.com/item?id=50118688"
-    },
-    {
-     "src": "YouTube",
-     "t": "Gemini 4 Argon vs Claude Opus 5.5: Who Wins? #gemini4 #claudeopus #ai",
-     "url": "https://www.youtube.com/watch?v=-o6h0Uq67nQ"
-    }
-   ],
-   "buzz": 2,
-   "verdict": "Talk only, no public usage numbers"
-  },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
@@ -283,8 +238,8 @@
    "name": "solid-glass",
    "url": "https://github.com/deeplethe/solid-glass",
    "from": "GitHub",
-   "use": 555,
-   "useLabel": "+555 stars/day",
+   "use": 536,
+   "useLabel": "+536 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -399,7 +354,7 @@
   {
    "repo": "deeplethe/solid-glass",
    "stars": 1680,
-   "d24": 555,
+   "d24": 536,
    "est": false,
    "forks": 21,
    "contrib": null,
@@ -407,26 +362,26 @@
   },
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2950,
-   "d24": 153,
+   "stars": 2954,
+   "d24": 154,
    "est": false,
-   "forks": 383,
+   "forks": 385,
    "contrib": null,
    "score": 89
   },
   {
    "repo": "Caho1/open-claude-ui",
-   "stars": 1095,
-   "d24": 151,
+   "stars": 1097,
+   "d24": 148,
    "est": false,
    "forks": 243,
    "contrib": null,
-   "score": 89
+   "score": 88
   },
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2586,
-   "d24": 129,
+   "stars": 2590,
+   "d24": 131,
    "est": false,
    "forks": 501,
    "contrib": null,
@@ -434,8 +389,8 @@
   },
   {
    "repo": "feder-cr/git-ai",
-   "stars": 1102,
-   "d24": 80,
+   "stars": 1105,
+   "d24": 82,
    "est": false,
    "forks": 117,
    "contrib": null,
@@ -443,8 +398,8 @@
   },
   {
    "repo": "zhuyansen/new-term-radar",
-   "stars": 1076,
-   "d24": 20,
+   "stars": 1077,
+   "d24": 21,
    "est": false,
    "forks": 422,
    "contrib": null,
@@ -459,9 +414,9 @@
    "at": "2026-10-17T02:40:38.000Z",
    "dl": 0,
    "grow": null,
-   "score": 93,
+   "score": 95,
    "cat": "Vision",
-   "likes": 549
+   "likes": 575
   },
   {
    "name": "embeddinggemma-2",
@@ -472,7 +427,7 @@
    "grow": 5,
    "score": 90,
    "cat": "Vision",
-   "likes": 2560
+   "likes": 2561
   },
   {
    "name": "humanizer",
@@ -494,7 +449,7 @@
    "grow": null,
    "score": 89,
    "cat": "Vision",
-   "likes": 560
+   "likes": 568
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -506,7 +461,7 @@
    "grow": 107,
    "score": 87,
    "cat": "Vision",
-   "likes": 877
+   "likes": 879
   },
   {
    "name": "drama-3",
@@ -514,10 +469,10 @@
    "lic": "Open weights",
    "at": "2026-10-01T04:34:57.000Z",
    "dl": 8193,
-   "grow": 33,
-   "score": 86,
+   "grow": null,
+   "score": 85,
    "cat": "Tools",
-   "likes": 584
+   "likes": 586
   }
  ],
  "free": [
@@ -858,6 +813,13 @@
  },
  "headlines": [
   {
+   "t": "As AI giants rack up potential legal liabilities of tens of billions amid safety incidents, insurers worry claims may outpace limits on existing coverage",
+   "url": "https://www.techmeme.com/261017/p11#a261017p11",
+   "at": "2026-10-17T13:45:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Inside the long, bitter fight over one man’s quest to build the biggest AI datacenter in California",
    "url": "https://www.theguardian.com/us-news/ng-interactive/2026/oct/17/california-datacenter-imperial",
    "at": "2026-10-17T13:00:31Z",
@@ -898,13 +860,6 @@
    "at": "2026-10-17T06:35:01.000Z",
    "src": "Techmeme",
    "kind": "News"
-  },
-  {
-   "t": "Claude Fable 5.5 Is BABY AGI?! NEW EAP LEAKS, GLM 5.5, GPT-6 Astra Pro Upgrade & More! AI NEWS",
-   "url": "https://www.youtube.com/watch?v=hZPs633_58Q",
-   "at": "2026-10-17T06:15:17Z",
-   "src": "WorldofAI",
-   "kind": "Video"
   },
   {
    "t": "Reach Security, which develops AI-powered exposure management tools for securing enterprise systems, raised a $50M+ Series B led by Top Tier Capital Partners",
@@ -976,8 +931,8 @@
    "t": "DeepSeek: DeepSeek v4.1 Flash 1017",
    "url": "https://news.ycombinator.com/item?id=50129121",
    "link": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
-   "up": 329,
-   "com": 131,
+   "up": 368,
+   "com": 151,
    "at": "2026-10-17T08:37:46.000Z"
   },
   {
@@ -985,8 +940,8 @@
    "t": "DeepSeek-v4.1-Flash-1017",
    "url": "https://news.ycombinator.com/item?id=50129045",
    "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-   "up": 262,
-   "com": 102,
+   "up": 280,
+   "com": 107,
    "at": "2026-10-17T08:21:25.000Z"
   },
   {
@@ -994,8 +949,8 @@
    "t": "Claude reveals ECDSA curve origins",
    "url": "https://news.ycombinator.com/item?id=50122800",
    "link": "https://www.anthropic.com/research/ecdsa-curve-origins",
-   "up": 923,
-   "com": 339,
+   "up": 931,
+   "com": 340,
    "at": "2026-10-16T18:55:59.000Z"
   },
   {
@@ -1003,8 +958,8 @@
    "t": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
    "url": "https://news.ycombinator.com/item?id=50121179",
    "link": "https://www.mercor.com/research/labor-index/benchmark-map/",
-   "up": 540,
-   "com": 467,
+   "up": 547,
+   "com": 478,
    "at": "2026-10-16T17:08:38.000Z"
   },
   {
@@ -1012,8 +967,8 @@
    "t": "How the Claude Code team does code review",
    "url": "https://news.ycombinator.com/item?id=50122951",
    "link": "https://claude.dev/blog/solving-code-review-at-anthropic/",
-   "up": 391,
-   "com": 365,
+   "up": 400,
+   "com": 378,
    "at": "2026-10-16T19:04:47.000Z"
   },
   {
@@ -1021,8 +976,8 @@
    "t": "You could have invented transformers from memory",
    "url": "https://news.ycombinator.com/item?id=50122878",
    "link": "https://alexwang.ai/posts/associative-memory/",
-   "up": 346,
-   "com": 80,
+   "up": 361,
+   "com": 83,
    "at": "2026-10-16T19:01:17.000Z"
   }
  ]
