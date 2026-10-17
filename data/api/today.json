@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-17T09:30:48.864Z"
+  "updated": "2026-10-17T10:01:01.075Z"
  },
  "pulse": {
-  "trending": 83,
+  "trending": 82,
   "accelerating": 6,
-  "newModels": 9,
-  "discussions": 37,
-  "stars": 1332
+  "newModels": 8,
+  "discussions": 38,
+  "stars": 1265
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 3,
    "desc": "Git designed for AI agents.",
    "meta": [
-    "★ 1,088",
-    "+78 in 24h",
+    "★ 1,092",
+    "+84 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -41,8 +41,8 @@
    "grow": 2,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 2,569",
-    "+141 in 24h",
+    "★ 2,570",
+    "+136 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -56,7 +56,7 @@
    "cat": "Vision",
    "score": 91,
    "grow": 204,
-   "desc": "Vision on Hugging Face · open weights · ♥ 525",
+   "desc": "Vision on Hugging Face · open weights · ♥ 528",
    "meta": [
     "224K downloads",
     "Released 3 days ago"
@@ -74,8 +74,8 @@
    "grow": 4,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 2,929",
-    "+160 in 24h",
+    "★ 2,932",
+    "+159 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -88,11 +88,11 @@
    "src": "gh",
    "cat": "Tools",
    "score": 90,
-   "grow": 4,
+   "grow": 5,
    "desc": "基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。还原 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分析手册。",
    "meta": [
-    "★ 1,072",
-    "+158 in 24h",
+    "★ 1,077",
+    "+163 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-14T14:05:05Z",
@@ -138,7 +138,7 @@
    "cat": "Vision",
    "score": 87,
    "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 864",
+   "desc": "Vision on Hugging Face · open source · ♥ 866",
    "meta": [
     "36K downloads",
     "Released 10 days ago"
@@ -153,11 +153,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 86,
-   "grow": 19,
+   "grow": 20,
    "desc": "A design system for AI applications. Material, physical, tactile, technical.",
    "meta": [
-    "★ 1,613",
-    "+617 in 24h",
+    "★ 1,621",
+    "+606 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-12T09:19:02Z",
@@ -171,7 +171,7 @@
    "cat": "Tools",
    "score": 86,
    "grow": 33,
-   "desc": "Model on Hugging Face · open weights · ♥ 574",
+   "desc": "Model on Hugging Face · open weights · ♥ 575",
    "meta": [
     "8.2K downloads",
     "Released 16 days ago"
@@ -230,23 +230,6 @@
    "verdict": "Talk only, no public usage numbers"
   },
   {
-   "name": "flux-3-image-klein",
-   "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein",
-   "from": "Hugging Face",
-   "use": 46123,
-   "useLabel": "46K downloads",
-   "usePct": 0.5294117647058824,
-   "talk": [
-    {
-     "src": "Hacker News",
-     "t": "FLUX 3 Image Klein",
-     "url": "https://news.ycombinator.com/item?id=50123580"
-    }
-   ],
-   "buzz": 1,
-   "verdict": "The hype matches real use"
-  },
-  {
    "name": "DeepSeek-V4.1-Flash-1017",
    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
    "from": "Hugging Face",
@@ -262,6 +245,23 @@
    ],
    "buzz": 1,
    "verdict": "More talk than use"
+  },
+  {
+   "name": "flux-3-image-klein",
+   "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein",
+   "from": "Hugging Face",
+   "use": 46123,
+   "useLabel": "46K downloads",
+   "usePct": 0.5294117647058824,
+   "talk": [
+    {
+     "src": "Hacker News",
+     "t": "FLUX 3 Image Klein",
+     "url": "https://news.ycombinator.com/item?id=50123580"
+    }
+   ],
+   "buzz": 1,
+   "verdict": "The hype matches real use"
   },
   {
    "name": "DeepSeek-V4.1-Flash",
@@ -284,8 +284,8 @@
    "name": "solid-glass",
    "url": "https://github.com/deeplethe/solid-glass",
    "from": "GitHub",
-   "use": 617,
-   "useLabel": "+617 stars/day",
+   "use": 606,
+   "useLabel": "+606 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -399,71 +399,62 @@
  "github": [
   {
    "repo": "deeplethe/solid-glass",
-   "stars": 1613,
-   "d24": 617,
+   "stars": 1621,
+   "d24": 606,
    "est": false,
    "forks": 21,
    "contrib": null,
    "score": 86
   },
   {
-   "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2929,
-   "d24": 160,
+   "repo": "Caho1/open-claude-ui",
+   "stars": 1077,
+   "d24": 163,
    "est": false,
-   "forks": 376,
+   "forks": 238,
    "contrib": null,
    "score": 90
   },
   {
-   "repo": "Caho1/open-claude-ui",
-   "stars": 1072,
-   "d24": 158,
+   "repo": "onehumanbeing/esp32-iphone-agent",
+   "stars": 2932,
+   "d24": 159,
    "est": false,
-   "forks": 236,
+   "forks": 377,
    "contrib": null,
    "score": 90
   },
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2569,
-   "d24": 141,
+   "stars": 2570,
+   "d24": 136,
    "est": false,
-   "forks": 499,
+   "forks": 500,
    "contrib": null,
    "score": 92
   },
   {
    "repo": "marclou/mailcheap",
-   "stars": 1188,
-   "d24": 102,
+   "stars": 1189,
+   "d24": 100,
    "est": false,
-   "forks": 296,
+   "forks": 297,
    "contrib": null,
    "score": 73
   },
   {
    "repo": "feder-cr/git-ai",
-   "stars": 1088,
-   "d24": 78,
+   "stars": 1092,
+   "d24": 84,
    "est": false,
    "forks": 117,
    "contrib": null,
    "score": 94
   },
   {
-   "repo": "rociiu/talorys",
-   "stars": 1274,
-   "d24": 58,
-   "est": false,
-   "forks": 112,
-   "contrib": null,
-   "score": 74
-  },
-  {
    "repo": "zhuyansen/new-term-radar",
    "stars": 1072,
-   "d24": 18,
+   "d24": 17,
    "est": false,
    "forks": 422,
    "contrib": null,
@@ -480,7 +471,7 @@
    "grow": 204,
    "score": 91,
    "cat": "Vision",
-   "likes": 525
+   "likes": 528
   },
   {
    "name": "embeddinggemma-2",
@@ -502,7 +493,7 @@
    "grow": 12,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1851
+   "likes": 1852
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -514,7 +505,7 @@
    "grow": null,
    "score": 87,
    "cat": "Vision",
-   "likes": 864
+   "likes": 866
   },
   {
    "name": "drama-3",
@@ -525,18 +516,18 @@
    "grow": 33,
    "score": 86,
    "cat": "Tools",
-   "likes": 574
+   "likes": 575
   },
   {
-   "name": "Qwen-Image-2.1-Uncensored-Quantized",
-   "org": "abenzerps",
-   "lic": "Open weights",
-   "at": "2026-09-20T15:51:13.000Z",
-   "dl": 2571722,
+   "name": "DeepSeek-V4.1-Flash-1017",
+   "org": "deepseek-ai",
+   "lic": "Open source",
+   "at": "2026-10-17T02:40:38.000Z",
+   "dl": 0,
    "grow": null,
-   "score": 83,
-   "cat": "Infrastructure",
-   "likes": 4459
+   "score": 84,
+   "cat": "Vision",
+   "likes": 304
   }
  ],
  "free": [
@@ -877,6 +868,13 @@
  },
  "headlines": [
   {
+   "t": "‘Resilience’ is the buzzword, but the scale of subsidies to weather chaos is untenable, warns IMF",
+   "url": "https://www.theguardian.com/business/2026/oct/17/imf-warns-scale-subsidies-weather-global-chaos-untenable",
+   "at": "2026-10-17T10:00:27Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
    "t": "A profile of Alexandr Wang, who sources say is \"an operator\", had \"all\" of Zuckerberg's support during Meta's AI revamp, and is being touted as his successor",
    "url": "https://www.techmeme.com/261017/p8#a261017p8",
    "at": "2026-10-17T06:35:01.000Z",
@@ -954,38 +952,31 @@
    "kind": "News"
   },
   {
-   "t": "CEO Amjad Masad says Replit is no longer working with Anthropic, citing cost and saying \"ChatGPT is better now\"; source: the partnership is still in place",
-   "url": "https://www.techmeme.com/261016/p24#a261016p24",
-   "at": "2026-10-16T22:45:01.000Z",
-   "src": "Techmeme",
+   "t": "Quote of the day by OpenAI co-founder Andrej Karpathy: 'The hottest new programming language is English' — signalling the shift to natural language dominance in the AI era",
+   "url": "https://www.techradar.com/pro/quote-of-the-day-by-openai-co-founder-andrej-karpathy-the-hottest-new-programming-language-is-english-signalling-the-shift-to-natural-language-dominance-in-the-ai-era",
+   "at": "2026-10-16T22:00:00Z",
+   "src": "TechRadar",
    "kind": "News"
   },
   {
-   "t": "NY Stocks Fall on AI Investment Jitters; Crude Oil Tops $100 for First Time in a Month - BigGo Finance",
-   "url": "https://www.europesays.com/3314118/",
-   "at": "2026-10-16T21:12:16Z",
-   "src": "EUROPE SAYS",
+   "t": "Tech Slides on CoreWeave Credit Fears -- Tech Roundup",
+   "url": "https://www.marketscreener.com/news/tech-slides-on-coreweave-credit-fears-tech-roundup-ce785cdadf81f72d",
+   "at": "2026-10-16T21:58:20Z",
+   "src": "MarketScreener",
    "kind": "News"
   },
   {
-   "t": "OpenAI models hacked a crypto wallet and breached more websites",
-   "url": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
-   "at": "2026-10-16T20:59:01Z",
-   "src": "Ars Technica",
+   "t": "Materials Up as Dollar Falls -- Materials Roundup",
+   "url": "https://www.marketscreener.com/news/materials-up-as-dollar-falls-materials-roundup-ce785cdadf8ef12d",
+   "at": "2026-10-16T21:47:26Z",
+   "src": "MarketScreener",
    "kind": "News"
   },
   {
-   "t": "Microsoft’s (MSFT) Free Cash Flow Expected to Remain Positive Despite Heavy AI Spending",
-   "url": "https://markets.businessinsider.com/news/stocks/microsoft-s-msft-free-cash-flow-expected-to-remain-positive-despite-heavy-ai-spending-1036636148",
-   "at": "2026-10-16T20:17:35Z",
+   "t": "CoreWeave Stock (CRWV) Plunges Another 12% as the AI Trade Unwinds",
+   "url": "https://markets.businessinsider.com/news/stocks/coreweave-stock-crwv-plunges-another-12-as-the-ai-trade-unwinds-1036636181",
+   "at": "2026-10-16T21:37:30Z",
    "src": "Markets Insider",
-   "kind": "News"
-  },
-  {
-   "t": "I put all of Wikipedia on my home server, and it still answers when the internet is down",
-   "url": "https://www.xda-developers.com/put-all-wikipedia-home-server-still-answers-questions-when-internet-down/",
-   "at": "2026-10-16T20:01:20Z",
-   "src": "XDA Developers",
    "kind": "News"
   }
  ],
@@ -995,8 +986,8 @@
    "t": "DeepSeek-v4.1-Flash-1017",
    "url": "https://news.ycombinator.com/item?id=50129045",
    "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-   "up": 97,
-   "com": 33,
+   "up": 130,
+   "com": 53,
    "at": "2026-10-17T08:21:25.000Z"
   },
   {
@@ -1004,8 +995,8 @@
    "t": "DeepSeek: DeepSeek v4.1 Flash 1017",
    "url": "https://news.ycombinator.com/item?id=50129121",
    "link": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
-   "up": 65,
-   "com": 3,
+   "up": 106,
+   "com": 7,
    "at": "2026-10-17T08:37:46.000Z"
   },
   {
@@ -1013,8 +1004,8 @@
    "t": "Claude reveals ECDSA curve origins",
    "url": "https://news.ycombinator.com/item?id=50122800",
    "link": "https://www.anthropic.com/research/ecdsa-curve-origins",
-   "up": 865,
-   "com": 323,
+   "up": 872,
+   "com": 324,
    "at": "2026-10-16T18:55:59.000Z"
   },
   {
@@ -1022,8 +1013,8 @@
    "t": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
    "url": "https://news.ycombinator.com/item?id=50121179",
    "link": "https://www.mercor.com/research/labor-index/benchmark-map/",
-   "up": 500,
-   "com": 419,
+   "up": 502,
+   "com": 424,
    "at": "2026-10-16T17:08:38.000Z"
   },
   {
@@ -1031,8 +1022,8 @@
    "t": "How the Claude Code team does code review",
    "url": "https://news.ycombinator.com/item?id=50122951",
    "link": "https://claude.dev/blog/solving-code-review-at-anthropic/",
-   "up": 345,
-   "com": 324,
+   "up": 349,
+   "com": 329,
    "at": "2026-10-16T19:04:47.000Z"
   },
   {
@@ -1040,8 +1031,8 @@
    "t": "You could have invented transformers from memory",
    "url": "https://news.ycombinator.com/item?id=50122878",
    "link": "https://alexwang.ai/posts/associative-memory/",
-   "up": 299,
-   "com": 69,
+   "up": 307,
+   "com": 72,
    "at": "2026-10-16T19:01:17.000Z"
   }
  ]
