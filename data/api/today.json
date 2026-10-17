@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-17T00:30:51.692Z"
+  "updated": "2026-10-17T01:01:01.213Z"
  },
  "pulse": {
   "trending": 82,
   "accelerating": 0,
   "newModels": 7,
   "discussions": 33,
-  "stars": 2485
+  "stars": 2223
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "Git designed for AI agents.",
    "meta": [
-    "★ 1,058",
-    "~719 in 24h",
+    "★ 1,060",
+    "~710 in 24h",
     "Created yesterday"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 93,
-   "grow": 18,
+   "grow": null,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 2,517",
-    "+458 in 24h",
+    "★ 2,519",
+    "~644 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -55,11 +55,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 90,
-   "grow": null,
+   "grow": 1,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 2,854",
-    "~546 in 24h",
+    "★ 2,858",
+    "+107 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -169,7 +169,7 @@
    "cat": "Vision",
    "score": 85,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 443",
+   "desc": "Vision on Hugging Face · open weights · ♥ 446",
    "meta": [
     "74K downloads",
     "Released 3 days ago"
@@ -183,12 +183,17 @@
   {
    "key": "gemini 4",
    "label": "Gemini 4",
-   "n": 3,
+   "n": 4,
    "sources": [
     {
      "src": "Hacker News",
      "t": "Show HN: Gemini 4 Argon plays StarCraft",
      "url": "https://news.ycombinator.com/item?id=50118688"
+    },
+    {
+     "src": "Biztoc.com",
+     "t": "Meta Raises Its AI Game as Google Opens Gemini 4 Argon",
+     "url": "https://biztoc.com/x/e38d71e837caf0b9"
     },
     {
      "src": "YouTube",
@@ -219,9 +224,36 @@
      "url": "https://news.ycombinator.com/item?id=50118688"
     },
     {
+     "src": "Biztoc.com",
+     "t": "Meta Raises Its AI Game as Google Opens Gemini 4 Argon",
+     "url": "https://biztoc.com/x/e38d71e837caf0b9"
+    },
+    {
      "src": "YouTube",
      "t": "Gemini 4 Argon vs Claude Opus 5.5: Who Wins? #gemini4 #claudeopus #ai",
      "url": "https://www.youtube.com/watch?v=-o6h0Uq67nQ"
+    }
+   ],
+   "buzz": 3,
+   "verdict": "Talk only, no public usage numbers"
+  },
+  {
+   "name": "Gemma 4",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "DEV",
+     "t": "Gemma 4's MTP Drafter, Explained: Speculative Decoding and a 4-Bit Drafter at 60% of the Size",
+     "url": "https://dev.to/gde/gemma-4s-mtp-drafter-explained-speculative-decoding-and-a-4-bit-drafter-at-60-of-the-size-1oc0"
+    },
+    {
+     "src": "Pypi.org",
+     "t": "ai-parrot-client-gemma4 0.4.3",
+     "url": "https://pypi.org/project/ai-parrot-client-gemma4/0.4.3/"
     }
    ],
    "buzz": 2,
@@ -248,8 +280,8 @@
    "name": "git-ai",
    "url": "https://github.com/feder-cr/git-ai",
    "from": "GitHub",
-   "use": 719,
-   "useLabel": "~719 stars/day",
+   "use": 710,
+   "useLabel": "~710 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -363,35 +395,26 @@
  "github": [
   {
    "repo": "feder-cr/git-ai",
-   "stars": 1058,
-   "d24": 719,
+   "stars": 1060,
+   "d24": 710,
    "est": true,
-   "forks": 111,
+   "forks": 112,
    "contrib": null,
    "score": 96
   },
   {
-   "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2854,
-   "d24": 546,
-   "est": true,
-   "forks": 369,
-   "contrib": null,
-   "score": 90
-  },
-  {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2517,
-   "d24": 458,
-   "est": false,
+   "stars": 2519,
+   "d24": 644,
+   "est": true,
    "forks": 493,
    "contrib": null,
    "score": 93
   },
   {
    "repo": "deeplethe/solid-glass",
-   "stars": 1373,
-   "d24": 296,
+   "stars": 1384,
+   "d24": 297,
    "est": true,
    "forks": 21,
    "contrib": null,
@@ -399,8 +422,8 @@
   },
   {
    "repo": "zhuyansen/new-term-radar",
-   "stars": 1065,
-   "d24": 226,
+   "stars": 1066,
+   "d24": 225,
    "est": true,
    "forks": 418,
    "contrib": null,
@@ -408,7 +431,7 @@
   },
   {
    "repo": "marclou/mailcheap",
-   "stars": 1157,
+   "stars": 1158,
    "d24": 178,
    "est": true,
    "forks": 293,
@@ -416,8 +439,17 @@
    "score": 73
   },
   {
+   "repo": "onehumanbeing/esp32-iphone-agent",
+   "stars": 2858,
+   "d24": 107,
+   "est": false,
+   "forks": 370,
+   "contrib": null,
+   "score": 90
+  },
+  {
    "repo": "rociiu/talorys",
-   "stars": 1254,
+   "stars": 1255,
    "d24": 62,
    "est": false,
    "forks": 113,
@@ -446,7 +478,7 @@
    "grow": 14,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1826
+   "likes": 1827
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -931,6 +963,20 @@
    "kind": "News"
   },
   {
+   "t": "AI cracks Napoleon’s 200-year-old secret code in just six hours",
+   "url": "https://www.malaymail.com/news/tech-gadgets/2026/10/16/ai-cracks-napoleons-200-year-old-secret-code-in-just-six-hours/239301",
+   "at": "2026-10-16T13:00:00Z",
+   "src": "Malay Mail",
+   "kind": "News"
+  },
+  {
+   "t": "An OpenAI Research Agent 'Stole' Test Ethereum To Finish A Coding Task",
+   "url": "https://www.engadget.com/2288645/an-openai-test-agent-stole-test-ethereum-to-finish-a-coding-task/",
+   "at": "2026-10-16T12:50:24Z",
+   "src": "Engadget",
+   "kind": "News"
+  },
+  {
    "t": "U.S. futures mostly higher",
    "url": "https://www.bnnbloomberg.ca/markets/dow-jones/2026/10/16/us-futures-mostly-higher-with-the-feds-warsh-touting-ai/",
    "at": "2026-10-16T12:30:20Z",
@@ -943,20 +989,6 @@
    "at": "2026-10-16T12:30:00Z",
    "src": "Los Angeles Times",
    "kind": "News"
-  },
-  {
-   "t": "China moves to curb tech exports, including AI, citing national security risks",
-   "url": "https://wtop.com/world/2026/10/china-moves-to-curb-tech-exports-including-ai-citing-national-security-risks/",
-   "at": "2026-10-16T12:20:52Z",
-   "src": "WTOP",
-   "kind": "News"
-  },
-  {
-   "t": "Sex, Bribes And Spies: OpenAI Warns Employees Of 'Honey Traps' Targeting AI Secrets",
-   "url": "https://www.ndtvprofit.com/technology/sex-bribes-and-spies-openai-warns-employees-of-honey-traps-targeting-ai-secrets-12194964",
-   "at": "2026-10-16T12:08:35Z",
-   "src": "NDTV Profit",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -965,8 +997,8 @@
    "t": "Claude reveals ECDSA curve origins",
    "url": "https://news.ycombinator.com/item?id=50122800",
    "link": "https://www.anthropic.com/research/ecdsa-curve-origins",
-   "up": 627,
-   "com": 259,
+   "up": 649,
+   "com": 263,
    "at": "2026-10-16T18:55:59.000Z"
   },
   {
@@ -974,8 +1006,8 @@
    "t": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
    "url": "https://news.ycombinator.com/item?id=50121179",
    "link": "https://www.mercor.com/research/labor-index/benchmark-map/",
-   "up": 378,
-   "com": 324,
+   "up": 390,
+   "com": 325,
    "at": "2026-10-16T17:08:38.000Z"
   },
   {
@@ -983,8 +1015,8 @@
    "t": "I never authorized an integration that scans my secrets",
    "url": "https://news.ycombinator.com/item?id=50124251",
    "link": "https://github.com/home-assistant/home-assistant.io/issues/49314",
-   "up": 167,
-   "com": 118,
+   "up": 177,
+   "com": 131,
    "at": "2026-10-16T20:33:41.000Z"
   },
   {
@@ -992,8 +1024,8 @@
    "t": "How the Claude Code team does code review",
    "url": "https://news.ycombinator.com/item?id=50122951",
    "link": "https://claude.dev/blog/solving-code-review-at-anthropic/",
-   "up": 210,
-   "com": 196,
+   "up": 225,
+   "com": 207,
    "at": "2026-10-16T19:04:47.000Z"
   },
   {
@@ -1001,8 +1033,8 @@
    "t": "Anthropic assigned highest junk credit rating in June",
    "url": "https://news.ycombinator.com/item?id=50122112",
    "link": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
-   "up": 202,
-   "com": 60,
+   "up": 207,
+   "com": 65,
    "at": "2026-10-16T18:11:42.000Z"
   },
   {
@@ -1010,8 +1042,8 @@
    "t": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
    "url": "https://news.ycombinator.com/item?id=50122431",
    "link": "https://github.com/cobanov/PS5LM",
-   "up": 168,
-   "com": 44,
+   "up": 182,
+   "com": 47,
    "at": "2026-10-16T18:32:35.000Z"
   }
  ]
