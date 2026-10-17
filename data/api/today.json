@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-17T02:00:59.444Z"
+  "updated": "2026-10-17T02:30:49.017Z"
  },
  "pulse": {
-  "trending": 82,
+  "trending": 83,
   "accelerating": 0,
   "newModels": 7,
   "discussions": 32,
-  "stars": 2202
+  "stars": 2612
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "Git designed for AI agents.",
    "meta": [
-    "★ 1,062",
-    "~692 in 24h",
+    "★ 1,064",
+    "~684 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -41,8 +41,8 @@
    "grow": null,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 2,526",
-    "~639 in 24h",
+    "★ 2,531",
+    "~637 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -58,8 +58,8 @@
    "grow": 1,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 2,864",
-    "+112 in 24h",
+    "★ 2,871",
+    "+126 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -67,12 +67,29 @@
    "url": "https://github.com/onehumanbeing/esp32-iphone-agent"
   },
   {
+   "name": "open-claude-ui",
+   "owner": "Caho1",
+   "src": "gh",
+   "cat": "Tools",
+   "score": 90,
+   "grow": null,
+   "desc": "基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。还原 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分析手册。",
+   "meta": [
+    "★ 1,026",
+    "~407 in 24h",
+    "Created 3 days ago"
+   ],
+   "at": "2026-10-14T14:05:05Z",
+   "breakout": null,
+   "url": "https://github.com/Caho1/open-claude-ui"
+  },
+  {
    "name": "embeddinggemma-2",
    "owner": "google",
    "src": "hf",
    "cat": "Vision",
    "score": 90,
-   "grow": 5,
+   "grow": null,
    "desc": "Vision on Hugging Face · open source · ♥ 2.5K",
    "meta": [
     "151K downloads",
@@ -88,7 +105,7 @@
    "src": "hf",
    "cat": "Infrastructure",
    "score": 89,
-   "grow": 14,
+   "grow": null,
    "desc": "Model on Hugging Face · open source · ♥ 1.8K",
    "meta": [
     "86K downloads",
@@ -137,7 +154,7 @@
    "cat": "Vision",
    "score": 86,
    "grow": 14,
-   "desc": "Vision on Hugging Face · open weights · ♥ 945",
+   "desc": "Vision on Hugging Face · open weights · ♥ 946",
    "meta": [
     "17K downloads",
     "Released 8 days ago"
@@ -161,22 +178,6 @@
    "at": "2026-10-12T05:35:46.000Z",
    "breakout": null,
    "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B"
-  },
-  {
-   "name": "flux-3-image-klein-comfy",
-   "owner": "black-forest-labs",
-   "src": "hf",
-   "cat": "Vision",
-   "score": 85,
-   "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 452",
-   "meta": [
-    "74K downloads",
-    "Released 3 days ago"
-   ],
-   "at": "2026-10-14T12:00:13.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy"
   }
  ],
  "breakouts": [
@@ -248,8 +249,8 @@
    "name": "git-ai",
    "url": "https://github.com/feder-cr/git-ai",
    "from": "GitHub",
-   "use": 692,
-   "useLabel": "~692 stars/day",
+   "use": 684,
+   "useLabel": "~684 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -363,8 +364,8 @@
  "github": [
   {
    "repo": "feder-cr/git-ai",
-   "stars": 1062,
-   "d24": 692,
+   "stars": 1064,
+   "d24": 684,
    "est": true,
    "forks": 112,
    "contrib": null,
@@ -372,17 +373,26 @@
   },
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2526,
-   "d24": 639,
+   "stars": 2531,
+   "d24": 637,
    "est": true,
    "forks": 494,
    "contrib": null,
    "score": 93
   },
   {
+   "repo": "Caho1/open-claude-ui",
+   "stars": 1026,
+   "d24": 407,
+   "est": true,
+   "forks": 229,
+   "contrib": null,
+   "score": 90
+  },
+  {
    "repo": "deeplethe/solid-glass",
-   "stars": 1410,
-   "d24": 300,
+   "stars": 1426,
+   "d24": 302,
    "est": true,
    "forks": 21,
    "contrib": null,
@@ -391,7 +401,7 @@
   {
    "repo": "zhuyansen/new-term-radar",
    "stars": 1066,
-   "d24": 223,
+   "d24": 222,
    "est": true,
    "forks": 418,
    "contrib": null,
@@ -399,26 +409,26 @@
   },
   {
    "repo": "marclou/mailcheap",
-   "stars": 1163,
+   "stars": 1167,
    "d24": 178,
    "est": true,
-   "forks": 293,
+   "forks": 294,
    "contrib": null,
    "score": 73
   },
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2864,
-   "d24": 112,
+   "stars": 2871,
+   "d24": 126,
    "est": false,
-   "forks": 370,
+   "forks": 371,
    "contrib": null,
    "score": 90
   },
   {
    "repo": "rociiu/talorys",
    "stars": 1256,
-   "d24": 58,
+   "d24": 56,
    "est": false,
    "forks": 112,
    "contrib": null,
@@ -432,10 +442,10 @@
    "lic": "Open source",
    "at": "2026-09-14T14:53:42.000Z",
    "dl": 151258,
-   "grow": 5,
+   "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 2515
+   "likes": 2516
   },
   {
    "name": "humanizer",
@@ -443,10 +453,10 @@
    "lic": "Open source",
    "at": "2026-09-11T05:00:16.000Z",
    "dl": 85612,
-   "grow": 14,
+   "grow": null,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1830
+   "likes": 1832
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -480,7 +490,7 @@
    "grow": 14,
    "score": 86,
    "cat": "Vision",
-   "likes": 945
+   "likes": 946
   },
   {
    "name": "LFM2.5-24B-A2B",
@@ -938,24 +948,24 @@
    "kind": "Lab blog"
   },
   {
-   "t": "Nova Scotia to host massive data centre to power Anthropic's AI assistant Claude",
-   "url": "https://www.cbc.ca/news/canada/nova-scotia/nova-scotia-to-host-massive-data-centre-to-power-anthropic-s-ai-assistant-claude-9.7383129",
-   "at": "2026-10-16T14:00:00Z",
-   "src": "CBC.ca",
+   "t": "Beyond AI: IndusGuru data shows what technology skills Indian companies are hiring for",
+   "url": "https://www.newsx.com/business/beyond-ai-indusguru-data-shows-what-technology-skills-indian-companies-are-hiring-for-284249/",
+   "at": "2026-10-16T14:08:10Z",
+   "src": "NewsX",
    "kind": "News"
   },
   {
-   "t": "IMF chief warns AI risks could outweigh benefits without proper safeguards",
-   "url": "https://www.thenews.com.pk/latest/1420202-imf-chief-warns-ai-risks-could-outweigh-benefits-without-proper-safeguards",
-   "at": "2026-10-16T13:58:00Z",
-   "src": "The News International",
+   "t": "Pitched 2 ideas to PM Modi in 90 seconds on Chennai Metro: Who is AI startup founder Tejas Sudarshan & what did he propose?",
+   "url": "https://economictimes.indiatimes.com/news/new-updates/pitched-2-ideas-to-pm-modi-in-90-seconds-on-chennai-metro-who-is-ai-startup-founder-tejas-sudarshan-what-did-he-propose/articleshow/134996863.cms",
+   "at": "2026-10-16T14:07:00Z",
+   "src": "The Economic Times",
    "kind": "News"
   },
   {
-   "t": "China moves to curb tech exports, including AI, citing national security risks",
-   "url": "https://www.manilatimes.net/2026/10/16/world/asia-oceania/china-moves-to-curb-tech-exports-including-ai-citing-national-security-risks/2447607",
-   "at": "2026-10-16T13:55:00Z",
-   "src": "The Manila Times",
+   "t": "OpenAI Research Model Spent 3rd-Party Test ETH Without Permission to Deploy Smart Contract",
+   "url": "https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html",
+   "at": "2026-10-16T14:03:00Z",
+   "src": "The Hacker News",
    "kind": "News"
   }
  ],
@@ -965,8 +975,8 @@
    "t": "Claude reveals ECDSA curve origins",
    "url": "https://news.ycombinator.com/item?id=50122800",
    "link": "https://www.anthropic.com/research/ecdsa-curve-origins",
-   "up": 689,
-   "com": 273,
+   "up": 702,
+   "com": 274,
    "at": "2026-10-16T18:55:59.000Z"
   },
   {
@@ -974,45 +984,45 @@
    "t": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
    "url": "https://news.ycombinator.com/item?id=50121179",
    "link": "https://www.mercor.com/research/labor-index/benchmark-map/",
-   "up": 405,
-   "com": 336,
+   "up": 413,
+   "com": 350,
    "at": "2026-10-16T17:08:38.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "I never authorized an integration that scans my secrets",
-   "url": "https://news.ycombinator.com/item?id=50124251",
-   "link": "https://github.com/home-assistant/home-assistant.io/issues/49314",
-   "up": 193,
-   "com": 146,
-   "at": "2026-10-16T20:33:41.000Z"
   },
   {
    "src": "Hacker News",
    "t": "How the Claude Code team does code review",
    "url": "https://news.ycombinator.com/item?id=50122951",
    "link": "https://claude.dev/blog/solving-code-review-at-anthropic/",
-   "up": 239,
-   "com": 228,
+   "up": 250,
+   "com": 232,
    "at": "2026-10-16T19:04:47.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Anthropic assigned highest junk credit rating in June",
-   "url": "https://news.ycombinator.com/item?id=50122112",
-   "link": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
-   "up": 217,
-   "com": 70,
-   "at": "2026-10-16T18:11:42.000Z"
+   "t": "I never authorized an integration that scans my secrets",
+   "url": "https://news.ycombinator.com/item?id=50124251",
+   "link": "https://github.com/home-assistant/home-assistant.io/issues/49314",
+   "up": 196,
+   "com": 149,
+   "at": "2026-10-16T20:33:41.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
    "url": "https://news.ycombinator.com/item?id=50122431",
    "link": "https://github.com/cobanov/PS5LM",
-   "up": 204,
-   "com": 53,
+   "up": 210,
+   "com": 54,
    "at": "2026-10-16T18:32:35.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Anthropic assigned highest junk credit rating in June",
+   "url": "https://news.ycombinator.com/item?id=50122112",
+   "link": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
+   "up": 219,
+   "com": 70,
+   "at": "2026-10-16T18:11:42.000Z"
   }
  ]
 }
