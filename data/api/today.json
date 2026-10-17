@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-17T21:01:00.262Z"
+  "updated": "2026-10-17T21:24:58.024Z"
  },
  "pulse": {
   "trending": 81,
   "accelerating": 2,
   "newModels": 7,
-  "discussions": 36,
-  "stars": 1740
+  "discussions": 34,
+  "stars": 1738
  },
  "rising": [
   {
@@ -22,10 +22,10 @@
    "cat": "Vision",
    "score": 97,
    "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 877",
+   "desc": "Vision on Hugging Face · open source · ♥ 884",
    "meta": [
     "0 downloads",
-    "Released 18h ago"
+    "Released 19h ago"
    ],
    "at": "2026-10-17T02:40:38.000Z",
    "breakout": null,
@@ -40,8 +40,8 @@
    "grow": null,
    "desc": "Git designed for AI agents.",
    "meta": [
-    "★ 1,126",
-    "~484 in 24h",
+    "★ 1,127",
+    "~481 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -54,11 +54,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 92,
-   "grow": 4,
+   "grow": null,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
     "★ 2,628",
-    "+131 in 24h",
+    "~552 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -71,11 +71,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 90,
-   "grow": null,
+   "grow": 1,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
     "★ 2,986",
-    "~491 in 24h",
+    "+75 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -105,7 +105,7 @@
    "cat": "Vision",
    "score": 89,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 631",
+   "desc": "Vision on Hugging Face · open weights · ♥ 635",
    "meta": [
     "224K downloads",
     "Released 3 days ago"
@@ -124,7 +124,7 @@
    "desc": "基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。还原 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分析手册。",
    "meta": [
     "★ 1,129",
-    "+134 in 24h",
+    "+131 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-14T14:05:05Z",
@@ -173,8 +173,8 @@
    "desc": "A design system for AI applications. Material, physical, tactile, technical.",
    "meta": [
     "★ 1,687",
-    "~307 in 24h",
-    "Created 5 days ago"
+    "~306 in 24h",
+    "Created 6 days ago"
    ],
    "at": "2026-10-12T09:19:02Z",
    "breakout": null,
@@ -218,11 +218,11 @@
    "verdict": "The hype matches real use"
   },
   {
-   "name": "esp32-iphone-agent",
-   "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
+   "name": "qwen21-nsfw-pose-skill",
+   "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
    "from": "GitHub",
-   "use": 491,
-   "useLabel": "~491 stars/day",
+   "use": 552,
+   "useLabel": "~552 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -335,27 +335,27 @@
  ],
  "github": [
   {
-   "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2986,
-   "d24": 491,
+   "repo": "Arekejoker/qwen21-nsfw-pose-skill",
+   "stars": 2628,
+   "d24": 552,
    "est": true,
-   "forks": 387,
+   "forks": 504,
    "contrib": null,
-   "score": 90
+   "score": 92
   },
   {
    "repo": "feder-cr/git-ai",
-   "stars": 1126,
-   "d24": 484,
+   "stars": 1127,
+   "d24": 481,
    "est": true,
-   "forks": 119,
+   "forks": 120,
    "contrib": null,
    "score": 93
   },
   {
    "repo": "deeplethe/solid-glass",
    "stars": 1687,
-   "d24": 307,
+   "d24": 306,
    "est": true,
    "forks": 21,
    "contrib": null,
@@ -373,20 +373,20 @@
   {
    "repo": "Caho1/open-claude-ui",
    "stars": 1129,
-   "d24": 134,
+   "d24": 131,
    "est": false,
    "forks": 248,
    "contrib": null,
    "score": 88
   },
   {
-   "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2628,
-   "d24": 131,
+   "repo": "onehumanbeing/esp32-iphone-agent",
+   "stars": 2986,
+   "d24": 75,
    "est": false,
-   "forks": 504,
+   "forks": 387,
    "contrib": null,
-   "score": 92
+   "score": 90
   }
  ],
  "models": [
@@ -399,7 +399,7 @@
    "grow": null,
    "score": 97,
    "cat": "Vision",
-   "likes": 877
+   "likes": 884
   },
   {
    "name": "embeddinggemma-2",
@@ -410,7 +410,7 @@
    "grow": 5,
    "score": 90,
    "cat": "Vision",
-   "likes": 2583
+   "likes": 2584
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -421,7 +421,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Vision",
-   "likes": 631
+   "likes": 635
   },
   {
    "name": "humanizer",
@@ -455,7 +455,7 @@
    "grow": 0,
    "score": 85,
    "cat": "Tools",
-   "likes": 614
+   "likes": 616
   }
  ],
  "free": [
@@ -775,6 +775,13 @@
  },
  "headlines": [
   {
+   "t": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
+   "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/",
+   "at": "2026-10-17T21:00:13.000Z",
+   "src": "NVIDIA",
+   "kind": "Lab blog"
+  },
+  {
    "t": "Anomaly Innovations, behind coding agent OpenCode, says a breach hit ~1.4% of OpenCode Console users and their API keys, in a \"large scale distillation attack\"",
    "url": "https://www.techmeme.com/261017/p18#a261017p18",
    "at": "2026-10-17T20:50:01.000Z",
@@ -831,60 +838,53 @@
    "kind": "News"
   },
   {
-   "t": "High interest rates aren’t slowing the AI boom. That’s a problem for the Fed.",
-   "url": "https://www.inquirer.com/business/ai-data-centers-federal-reserve-inflation-interest-rates-20261017.html",
-   "at": "2026-10-17T09:01:00Z",
-   "src": "The Philadelphia Inquirer",
+   "t": "Not just Amazon, top banks across America are also 'banning' AI agents from accessing customer accounts",
+   "url": "https://timesofindia.indiatimes.com/technology/tech-news/not-just-amazon-top-banks-across-america-are-also-banning-ai-agents-from-accessing-customer-accounts/articleshow/135011085.cms",
+   "at": "2026-10-17T09:21:00Z",
+   "src": "Times of India",
    "kind": "News"
   },
   {
-   "t": "N.Y. must shield kids from unsafe AI threats",
-   "url": "https://www.nydailynews.com/2026/10/17/n-y-must-shield-kids-from-unsafe-ai-threats/",
-   "at": "2026-10-17T09:00:55Z",
-   "src": "New York Daily News",
+   "t": "Anthropic's Clark says AI's impact accelerating quickly and could vastly boost US GDP",
+   "url": "https://www.thestar.com.my/tech/tech-news/2026/10/17/anthropic039s-clark-says-ai039s-impact-accelerating-quickly-and-could-vastly-boost-us-gdp",
+   "at": "2026-10-17T09:18:00Z",
+   "src": "The Star",
    "kind": "News"
   },
   {
-   "t": "Expert calls for urgent action to make PH global AI hub",
-   "url": "https://www.manilatimes.net/2026/10/17/news/expert-calls-for-urgent-action-to-make-ph-global-ai-hub/2447903",
-   "at": "2026-10-17T09:00:00Z",
-   "src": "The Manila Times",
+   "t": "AI rapidly improving, could vastly boost US GDP, Anthropic's Clark tells policymakers",
+   "url": "https://www.reuters.com/world/china/anthropics-clark-says-ais-impact-accelerating-quickly-could-vastly-boost-us-gdp-2026-10-17/",
+   "at": "2026-10-17T09:15:02Z",
+   "src": "Reuters",
    "kind": "News"
   },
   {
    "t": "AI could give small businesses competitive edge over large firms: Former UK PM Rishi Sunak",
-   "url": "https://www.livemint.com/technology/ai-could-give-small-businesses-competitive-edge-over-large-firms-former-uk-pm-rishi-sunak-11792226876294.html",
-   "at": "2026-10-17T08:47:55Z",
-   "src": "Livemint",
+   "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-could-give-small-businesses-competitive-edge-over-large-firms-former-uk-pm-rishi-sunak/articleshow/135011045.cms",
+   "at": "2026-10-17T09:14:00Z",
+   "src": "The Economic Times",
    "kind": "News"
   },
   {
-   "t": "Anthropic proposes law regulating AI to US lawmakers",
-   "url": "https://www.manilatimes.net/2026/10/17/world/americas-emea/anthropic-proposes-law-regulating-ai-to-us-lawmakers/2447878",
-   "at": "2026-10-17T08:30:00Z",
-   "src": "The Manila Times",
+   "t": "\"Shouldn't Accept\": Nvidia CEO Disagrees With OpenAI CEO On AI Incidents",
+   "url": "https://www.ndtv.com/world-news/shouldnt-accept-nvidia-ceo-jensen-huang-disagrees-with-openai-ceo-sam-altman-on-ai-incidents-12198721",
+   "at": "2026-10-17T09:09:35Z",
+   "src": "NDTV.com",
    "kind": "News"
   },
   {
-   "t": "AI tools like ChatGPT opening new opportunities for businesses: Sunil Bharti Mittal",
-   "url": "https://www.tribuneindia.com/news/business/ai-tools-like-chatgpt-opening-new-opportunities-for-businesses-sunil-bharti-mittal/",
-   "at": "2026-10-17T08:21:10Z",
-   "src": "The Tribune",
+   "t": "Mourinho clashes with journalists: You make my job harder, and this is our position on the transfer market",
+   "url": "https://www.yardbarker.com/soccer/articles/mourinho_clashes_with_journalists_you_make_my_job_harder_and_this_is_our_position_on_the_transfer_market/s1_17790_44438620",
+   "at": "2026-10-17T09:07:29Z",
+   "src": "Yardbarker",
    "kind": "News"
   },
   {
-   "t": "A profile of Alexandr Wang, who sources say is \"an operator\", had \"all\" of Zuckerberg's support during Meta's AI revamp, and is being touted as his successor",
-   "url": "https://www.techmeme.com/261017/p8#a261017p8",
-   "at": "2026-10-17T06:35:01.000Z",
-   "src": "Techmeme",
+   "t": "Rappler’s Gelo Gonzales named 2026 East-West Center Jefferson Fellow",
+   "url": "https://www.rappler.com/technology/gelo-gonzales-2026-east-west-center-jefferson-fellow/",
+   "at": "2026-10-17T09:02:09Z",
+   "src": "Rappler",
    "kind": "News"
-  },
-  {
-   "t": "Claude Fable 5.5 Is BABY AGI?! NEW EAP LEAKS, GLM 5.5, GPT-6 Astra Pro Upgrade & More! AI NEWS",
-   "url": "https://www.youtube.com/watch?v=hZPs633_58Q",
-   "at": "2026-10-17T06:15:17Z",
-   "src": "WorldofAI",
-   "kind": "Video"
   }
  ],
  "discussions": [
@@ -893,8 +893,8 @@
    "t": "DeepSeek-v4.1-Flash-1017",
    "url": "https://news.ycombinator.com/item?id=50129045",
    "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-   "up": 577,
-   "com": 514,
+   "up": 589,
+   "com": 526,
    "at": "2026-10-17T08:21:25.000Z"
   },
   {
@@ -911,7 +911,7 @@
    "t": "Israeli settlers attack European diplomatic cars in West Bank beat French mayor",
    "url": "https://news.ycombinator.com/item?id=50133274",
    "link": "https://www.lemonde.fr/en/international/article/2026/10/17/israeli-settlers-attack-european-diplomatic-cars-in-west-bank-beat-french-mayor-say-witnesses_6758711_4.html",
-   "up": 96,
+   "up": 99,
    "com": 13,
    "at": "2026-10-17T17:49:10.000Z"
   },
@@ -921,7 +921,7 @@
    "url": "https://news.ycombinator.com/item?id=50132278",
    "link": "https://www.opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield/",
    "up": 133,
-   "com": 53,
+   "com": 54,
    "at": "2026-10-17T16:04:23.000Z"
   },
   {
@@ -930,7 +930,7 @@
    "url": "https://news.ycombinator.com/item?id=50132502",
    "link": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/",
    "up": 111,
-   "com": 127,
+   "com": 133,
    "at": "2026-10-17T16:31:12.000Z"
   },
   {
@@ -938,7 +938,7 @@
    "t": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
    "url": "https://news.ycombinator.com/item?id=50127979",
    "link": "https://llmspeed.dev/",
-   "up": 220,
+   "up": 223,
    "com": 75,
    "at": "2026-10-17T04:36:53.000Z"
   }
