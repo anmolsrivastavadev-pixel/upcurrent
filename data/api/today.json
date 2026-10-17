@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-17T19:01:00.634Z"
+  "updated": "2026-10-17T19:30:51.417Z"
  },
  "pulse": {
   "trending": 81,
-  "accelerating": 4,
+  "accelerating": 3,
   "newModels": 7,
-  "discussions": 33,
-  "stars": 1281
+  "discussions": 32,
+  "stars": 1181
  },
  "rising": [
   {
@@ -20,12 +20,12 @@
    "owner": "deepseek-ai",
    "src": "hf",
    "cat": "Vision",
-   "score": 96,
+   "score": 97,
    "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 830",
+   "desc": "Vision on Hugging Face · open source · ♥ 847",
    "meta": [
     "0 downloads",
-    "Released 16h ago"
+    "Released 17h ago"
    ],
    "at": "2026-10-17T02:40:38.000Z",
    "breakout": null,
@@ -36,12 +36,12 @@
    "owner": "feder-cr",
    "src": "gh",
    "cat": "Agents",
-   "score": 94,
+   "score": 93,
    "grow": 6,
    "desc": "Git designed for AI agents.",
    "meta": [
-    "★ 1,119",
-    "+78 in 24h",
+    "★ 1,121",
+    "+79 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -57,13 +57,30 @@
    "grow": 4,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 2,621",
-    "+136 in 24h",
+    "★ 2,623",
+    "+135 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
    "breakout": null,
    "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill"
+  },
+  {
+   "name": "esp32-iphone-agent",
+   "owner": "onehumanbeing",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 90,
+   "grow": null,
+   "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
+   "meta": [
+    "★ 2,983",
+    "~496 in 24h",
+    "Created 6 days ago"
+   ],
+   "at": "2026-10-11T19:10:25Z",
+   "breakout": null,
+   "url": "https://github.com/onehumanbeing/esp32-iphone-agent"
   },
   {
    "name": "embeddinggemma-2",
@@ -82,46 +99,13 @@
    "url": "https://huggingface.co/google/embeddinggemma-2"
   },
   {
-   "name": "esp32-iphone-agent",
-   "owner": "onehumanbeing",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 89,
-   "grow": null,
-   "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
-   "meta": [
-    "★ 2,980",
-    "~497 in 24h",
-    "Created 6 days ago"
-   ],
-   "at": "2026-10-11T19:10:25Z",
-   "breakout": null,
-   "url": "https://github.com/onehumanbeing/esp32-iphone-agent"
-  },
-  {
-   "name": "humanizer",
-   "owner": "jialinyyzz",
-   "src": "hf",
-   "cat": "Infrastructure",
-   "score": 89,
-   "grow": 12,
-   "desc": "Model on Hugging Face · open source · ♥ 1.9K",
-   "meta": [
-    "96K downloads",
-    "Released 37 days ago"
-   ],
-   "at": "2026-09-11T05:00:16.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/jialinyyzz/humanizer"
-  },
-  {
    "name": "flux-3-image-klein-comfy",
    "owner": "black-forest-labs",
    "src": "hf",
    "cat": "Vision",
    "score": 89,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 622",
+   "desc": "Vision on Hugging Face · open weights · ♥ 625",
    "meta": [
     "224K downloads",
     "Released 3 days ago"
@@ -140,12 +124,28 @@
    "desc": "基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。还原 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分析手册。",
    "meta": [
     "★ 1,127",
-    "+147 in 24h",
+    "+143 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-14T14:05:05Z",
    "breakout": null,
    "url": "https://github.com/Caho1/open-claude-ui"
+  },
+  {
+   "name": "humanizer",
+   "owner": "jialinyyzz",
+   "src": "hf",
+   "cat": "Infrastructure",
+   "score": 87,
+   "grow": 12,
+   "desc": "Model on Hugging Face · open source · ♥ 1.9K",
+   "meta": [
+    "96K downloads",
+    "Released 37 days ago"
+   ],
+   "at": "2026-09-11T05:00:16.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/jialinyyzz/humanizer"
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -157,7 +157,7 @@
    "desc": "Vision on Hugging Face · open source · ♥ 893",
    "meta": [
     "36K downloads",
-    "Released 10 days ago"
+    "Released 11 days ago"
    ],
    "at": "2026-10-07T07:07:30.000Z",
    "breakout": null,
@@ -169,11 +169,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 85,
-   "grow": 24,
+   "grow": null,
    "desc": "A design system for AI applications. Material, physical, tactile, technical.",
    "meta": [
-    "★ 1,685",
-    "+405 in 24h",
+    "★ 1,686",
+    "~311 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-12T09:19:02Z",
@@ -183,23 +183,6 @@
  ],
  "breakouts": [],
  "hype": [
-  {
-   "name": "git-ai",
-   "url": "https://github.com/feder-cr/git-ai",
-   "from": "GitHub",
-   "use": 78,
-   "useLabel": "+78 stars/day",
-   "usePct": 0.2,
-   "talk": [
-    {
-     "src": "Pypi.org",
-     "t": "waxmard-git-ai 6.12.0",
-     "url": "https://pypi.org/project/waxmard-git-ai/6.12.0/"
-    }
-   ],
-   "buzz": 1,
-   "verdict": "More talk than use"
-  },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
@@ -255,8 +238,8 @@
    "name": "esp32-iphone-agent",
    "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
    "from": "GitHub",
-   "use": 497,
-   "useLabel": "~497 stars/day",
+   "use": 496,
+   "useLabel": "~496 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -370,18 +353,18 @@
  "github": [
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2980,
-   "d24": 497,
+   "stars": 2983,
+   "d24": 496,
    "est": true,
    "forks": 387,
    "contrib": null,
-   "score": 89
+   "score": 90
   },
   {
    "repo": "deeplethe/solid-glass",
-   "stars": 1685,
-   "d24": 405,
-   "est": false,
+   "stars": 1686,
+   "d24": 311,
+   "est": true,
    "forks": 21,
    "contrib": null,
    "score": 85
@@ -389,7 +372,7 @@
   {
    "repo": "Caho1/open-claude-ui",
    "stars": 1127,
-   "d24": 147,
+   "d24": 143,
    "est": false,
    "forks": 247,
    "contrib": null,
@@ -397,8 +380,8 @@
   },
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2621,
-   "d24": 136,
+   "stars": 2623,
+   "d24": 135,
    "est": false,
    "forks": 504,
    "contrib": null,
@@ -406,17 +389,17 @@
   },
   {
    "repo": "feder-cr/git-ai",
-   "stars": 1119,
-   "d24": 78,
+   "stars": 1121,
+   "d24": 79,
    "est": false,
    "forks": 117,
    "contrib": null,
-   "score": 94
+   "score": 93
   },
   {
    "repo": "zhuyansen/new-term-radar",
    "stars": 1079,
-   "d24": 18,
+   "d24": 17,
    "est": false,
    "forks": 422,
    "contrib": null,
@@ -431,9 +414,9 @@
    "at": "2026-10-17T02:40:38.000Z",
    "dl": 0,
    "grow": null,
-   "score": 96,
+   "score": 97,
    "cat": "Vision",
-   "likes": 830
+   "likes": 847
   },
   {
    "name": "embeddinggemma-2",
@@ -444,18 +427,7 @@
    "grow": 5,
    "score": 90,
    "cat": "Vision",
-   "likes": 2579
-  },
-  {
-   "name": "humanizer",
-   "org": "jialinyyzz",
-   "lic": "Open source",
-   "at": "2026-09-11T05:00:16.000Z",
-   "dl": 95870,
-   "grow": 12,
-   "score": 89,
-   "cat": "Infrastructure",
-   "likes": 1886
+   "likes": 2581
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -466,7 +438,18 @@
    "grow": 0,
    "score": 89,
    "cat": "Vision",
-   "likes": 622
+   "likes": 625
+  },
+  {
+   "name": "humanizer",
+   "org": "jialinyyzz",
+   "lic": "Open source",
+   "at": "2026-09-11T05:00:16.000Z",
+   "dl": 95870,
+   "grow": 12,
+   "score": 87,
+   "cat": "Infrastructure",
+   "likes": 1887
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -489,7 +472,7 @@
    "grow": null,
    "score": 85,
    "cat": "Tools",
-   "likes": 609
+   "likes": 610
   }
  ],
  "free": [
@@ -931,6 +914,15 @@
  "discussions": [
   {
    "src": "Hacker News",
+   "t": "DeepSeek-v4.1-Flash-1017",
+   "url": "https://news.ycombinator.com/item?id=50129045",
+   "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "up": 524,
+   "com": 487,
+   "at": "2026-10-17T08:21:25.000Z"
+  },
+  {
+   "src": "Hacker News",
    "t": "DeepSeek: DeepSeek v4.1 Flash 1017",
    "url": "https://news.ycombinator.com/item?id=50129121",
    "link": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
@@ -940,20 +932,11 @@
   },
   {
    "src": "Hacker News",
-   "t": "DeepSeek-v4.1-Flash-1017",
-   "url": "https://news.ycombinator.com/item?id=50129045",
-   "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-   "up": 500,
-   "com": 479,
-   "at": "2026-10-17T08:21:25.000Z"
-  },
-  {
-   "src": "Hacker News",
    "t": "Amazon uses AI to monitor union risk in UK warehouses",
    "url": "https://news.ycombinator.com/item?id=50132278",
    "link": "https://www.opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield/",
-   "up": 117,
-   "com": 44,
+   "up": 121,
+   "com": 45,
    "at": "2026-10-17T16:04:23.000Z"
   },
   {
@@ -961,27 +944,27 @@
    "t": "OpenAI discloses four more rogue incidents",
    "url": "https://news.ycombinator.com/item?id=50132502",
    "link": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/",
-   "up": 94,
-   "com": 79,
+   "up": 101,
+   "com": 106,
    "at": "2026-10-17T16:31:12.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "How the Claude Code team does code review",
-   "url": "https://news.ycombinator.com/item?id=50122951",
-   "link": "https://claude.dev/blog/solving-code-review-at-anthropic/",
-   "up": 445,
-   "com": 436,
-   "at": "2026-10-16T19:04:47.000Z"
+   "t": "Israeli settlers attack European diplomatic cars in West Bank beat French mayor",
+   "url": "https://news.ycombinator.com/item?id=50133274",
+   "link": "https://www.lemonde.fr/en/international/article/2026/10/17/israeli-settlers-attack-european-diplomatic-cars-in-west-bank-beat-french-mayor-say-witnesses_6758711_4.html",
+   "up": 33,
+   "com": 2,
+   "at": "2026-10-17T17:49:10.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "You could have invented transformers from memory",
-   "url": "https://news.ycombinator.com/item?id=50122878",
-   "link": "https://alexwang.ai/posts/associative-memory/",
-   "up": 435,
-   "com": 102,
-   "at": "2026-10-16T19:01:17.000Z"
+   "t": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+   "url": "https://news.ycombinator.com/item?id=50127979",
+   "link": "https://llmspeed.dev/",
+   "up": 211,
+   "com": 67,
+   "at": "2026-10-17T04:36:53.000Z"
   }
  ]
 }
