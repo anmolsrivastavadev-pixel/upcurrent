@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-17T06:01:03.336Z"
+  "updated": "2026-10-17T06:30:49.558Z"
  },
  "pulse": {
   "trending": 83,
   "accelerating": 0,
   "newModels": 8,
   "discussions": 32,
-  "stars": 2011
+  "stars": 2015
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 2,
    "desc": "Git designed for AI agents.",
    "meta": [
-    "★ 1,074",
-    "+68 in 24h",
+    "★ 1,076",
+    "+70 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -41,8 +41,8 @@
    "grow": null,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 2,557",
-    "~621 in 24h",
+    "★ 2,559",
+    "~618 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -58,8 +58,8 @@
    "grow": 3,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 2,903",
-    "+154 in 24h",
+    "★ 2,905",
+    "+152 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -75,8 +75,8 @@
    "grow": null,
    "desc": "基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。还原 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分析手册。",
    "meta": [
-    "★ 1,054",
-    "~396 in 24h",
+    "★ 1,057",
+    "~394 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-14T14:05:05Z",
@@ -132,13 +132,30 @@
    "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B"
   },
   {
+   "name": "solid-glass",
+   "owner": "deeplethe",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 86,
+   "grow": 13,
+   "desc": "A design system for AI applications. Material, physical, tactile, technical.",
+   "meta": [
+    "★ 1,531",
+    "+600 in 24h",
+    "Created 5 days ago"
+   ],
+   "at": "2026-10-12T09:19:02Z",
+   "breakout": null,
+   "url": "https://github.com/deeplethe/solid-glass"
+  },
+  {
    "name": "drama-3",
    "owner": "fishaudio",
    "src": "hf",
    "cat": "Tools",
    "score": 86,
    "grow": 0,
-   "desc": "Model on Hugging Face · open weights · ♥ 563",
+   "desc": "Model on Hugging Face · open weights · ♥ 564",
    "meta": [
     "6.2K downloads",
     "Released 16 days ago"
@@ -162,22 +179,6 @@
    "at": "2026-10-09T04:50:01.000Z",
    "breakout": null,
    "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo"
-  },
-  {
-   "name": "flux-3-image-klein-comfy",
-   "owner": "black-forest-labs",
-   "src": "hf",
-   "cat": "Vision",
-   "score": 86,
-   "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 481",
-   "meta": [
-    "74K downloads",
-    "Released 3 days ago"
-   ],
-   "at": "2026-10-14T12:00:13.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy"
   }
  ],
  "breakouts": [],
@@ -186,8 +187,8 @@
    "name": "esp32-iphone-agent",
    "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
    "from": "GitHub",
-   "use": 154,
-   "useLabel": "+154 stars/day",
+   "use": 152,
+   "useLabel": "+152 stars/day",
    "usePct": 0.5714285714285714,
    "talk": [
     {
@@ -220,8 +221,8 @@
    "name": "qwen21-nsfw-pose-skill",
    "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
    "from": "GitHub",
-   "use": 621,
-   "useLabel": "~621 stars/day",
+   "use": 618,
+   "useLabel": "~618 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -335,8 +336,8 @@
  "github": [
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2557,
-   "d24": 621,
+   "stars": 2559,
+   "d24": 618,
    "est": true,
    "forks": 497,
    "contrib": null,
@@ -344,26 +345,26 @@
   },
   {
    "repo": "deeplethe/solid-glass",
-   "stars": 1516,
-   "d24": 590,
+   "stars": 1531,
+   "d24": 600,
    "est": false,
    "forks": 21,
    "contrib": null,
-   "score": 85
+   "score": 86
   },
   {
    "repo": "Caho1/open-claude-ui",
-   "stars": 1054,
-   "d24": 396,
+   "stars": 1057,
+   "d24": 394,
    "est": true,
-   "forks": 234,
+   "forks": 236,
    "contrib": null,
    "score": 90
   },
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2903,
-   "d24": 154,
+   "stars": 2905,
+   "d24": 152,
    "est": false,
    "forks": 372,
    "contrib": null,
@@ -372,7 +373,7 @@
   {
    "repo": "marclou/mailcheap",
    "stars": 1183,
-   "d24": 126,
+   "d24": 120,
    "est": false,
    "forks": 295,
    "contrib": null,
@@ -380,8 +381,8 @@
   },
   {
    "repo": "feder-cr/git-ai",
-   "stars": 1074,
-   "d24": 68,
+   "stars": 1076,
+   "d24": 70,
    "est": false,
    "forks": 115,
    "contrib": null,
@@ -389,8 +390,8 @@
   },
   {
    "repo": "rociiu/talorys",
-   "stars": 1259,
-   "d24": 48,
+   "stars": 1261,
+   "d24": 50,
    "est": false,
    "forks": 112,
    "contrib": null,
@@ -398,12 +399,12 @@
   },
   {
    "repo": "zhuyansen/new-term-radar",
-   "stars": 1067,
-   "d24": 8,
+   "stars": 1068,
+   "d24": 11,
    "est": false,
    "forks": 418,
    "contrib": null,
-   "score": 79
+   "score": 78
   }
  ],
  "models": [
@@ -416,7 +417,7 @@
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 2520
+   "likes": 2524
   },
   {
    "name": "humanizer",
@@ -427,7 +428,7 @@
    "grow": null,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1841
+   "likes": 1842
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -450,7 +451,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Tools",
-   "likes": 563
+   "likes": 564
   },
   {
    "name": "Qwen-Image-2.1-Turbo",
@@ -472,7 +473,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Vision",
-   "likes": 481
+   "likes": 486
   }
  ],
  "free": [
@@ -827,6 +828,13 @@
  },
  "headlines": [
   {
+   "t": "Reach Security, which develops AI-powered exposure management tools for securing enterprise systems, raised a $50M+ Series B led by Top Tier Capital Partners",
+   "url": "https://www.techmeme.com/261017/p7#a261017p7",
+   "at": "2026-10-17T06:15:02.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "London-based Scarlet, which certifies AI and software for medical devices, raised a $50M Series B led by Headline to support its US and Asia-Pacific expansion",
    "url": "https://www.techmeme.com/261017/p4#a261017p4",
    "at": "2026-10-17T05:30:01.000Z",
@@ -897,18 +905,18 @@
    "kind": "News"
   },
   {
-   "t": "Filings: Meta reduced its $65M midterms budget by $25M through refunds, primarily from a super PAC it launched in 2025 with $45M to fight state AI bills",
-   "url": "https://www.techmeme.com/261016/p21#a261016p21",
-   "at": "2026-10-16T21:35:00.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "How Itaú is building generative AI for its entire customer base",
    "url": "https://openai.com/index/itau-generative-ai",
    "at": "2026-10-16T19:00:00.000Z",
    "src": "OpenAI",
    "kind": "Lab blog"
+  },
+  {
+   "t": "Ex-OpenAI engineer charged with spy device booked Saudi Arabia flight",
+   "url": "https://www.foxnews.com/tech/fox-news-ai-newsletter-ai-engineer-accused-bugging-conference-room",
+   "at": "2026-10-16T18:18:30Z",
+   "src": "Fox News",
+   "kind": "News"
   },
   {
    "t": "Grounding AI agents in biological reality: Building blocks for autonomous wet labs",
@@ -930,13 +938,6 @@
    "at": "2026-10-16T17:49:51Z",
    "src": "Reuters",
    "kind": "News"
-  },
-  {
-   "t": "Millions of dollars spent on AI-generated political ads as midterms approach",
-   "url": "https://wjla.com/news/nation-world/millions-of-dollars-spent-on-ai-generated-political-ads-as-midterms-approach-thomas-massie-ilhan-omar-zohran-mamdani",
-   "at": "2026-10-16T17:41:42Z",
-   "src": "WJLA",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -945,8 +946,8 @@
    "t": "Claude reveals ECDSA curve origins",
    "url": "https://news.ycombinator.com/item?id=50122800",
    "link": "https://www.anthropic.com/research/ecdsa-curve-origins",
-   "up": 794,
-   "com": 302,
+   "up": 806,
+   "com": 306,
    "at": "2026-10-16T18:55:59.000Z"
   },
   {
@@ -954,8 +955,8 @@
    "t": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
    "url": "https://news.ycombinator.com/item?id=50121179",
    "link": "https://www.mercor.com/research/labor-index/benchmark-map/",
-   "up": 458,
-   "com": 397,
+   "up": 461,
+   "com": 400,
    "at": "2026-10-16T17:08:38.000Z"
   },
   {
@@ -963,9 +964,18 @@
    "t": "How the Claude Code team does code review",
    "url": "https://news.ycombinator.com/item?id=50122951",
    "link": "https://claude.dev/blog/solving-code-review-at-anthropic/",
-   "up": 297,
-   "com": 277,
+   "up": 308,
+   "com": 280,
    "at": "2026-10-16T19:04:47.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+   "url": "https://news.ycombinator.com/item?id=50122431",
+   "link": "https://github.com/cobanov/PS5LM",
+   "up": 258,
+   "com": 64,
+   "at": "2026-10-16T18:32:35.000Z"
   },
   {
    "src": "Hacker News",
@@ -973,24 +983,15 @@
    "url": "https://news.ycombinator.com/item?id=50124251",
    "link": "https://github.com/home-assistant/home-assistant.io/issues/49314",
    "up": 210,
-   "com": 174,
+   "com": 177,
    "at": "2026-10-16T20:33:41.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
-   "url": "https://news.ycombinator.com/item?id=50122431",
-   "link": "https://github.com/cobanov/PS5LM",
-   "up": 249,
-   "com": 63,
-   "at": "2026-10-16T18:32:35.000Z"
   },
   {
    "src": "Hacker News",
    "t": "You could have invented transformers from memory",
    "url": "https://news.ycombinator.com/item?id=50122878",
    "link": "https://alexwang.ai/posts/associative-memory/",
-   "up": 226,
+   "up": 234,
    "com": 61,
    "at": "2026-10-16T19:01:17.000Z"
   }
