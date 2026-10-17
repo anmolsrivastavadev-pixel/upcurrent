@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-17T14:30:49.851Z"
+  "updated": "2026-10-17T15:01:04.354Z"
  },
  "pulse": {
   "trending": 81,
-  "accelerating": 4,
+  "accelerating": 5,
   "newModels": 7,
-  "discussions": 37,
-  "stars": 1066
+  "discussions": 36,
+  "stars": 1395
  },
  "rising": [
   {
@@ -22,7 +22,7 @@
    "cat": "Vision",
    "score": 95,
    "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 620",
+   "desc": "Vision on Hugging Face · open source · ♥ 651",
    "meta": [
     "0 downloads",
     "Released 12h ago"
@@ -40,8 +40,8 @@
    "grow": 5,
    "desc": "Git designed for AI agents.",
    "meta": [
-    "★ 1,106",
-    "+81 in 24h",
+    "★ 1,108",
+    "+82 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -57,8 +57,8 @@
    "grow": 3,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 2,596",
-    "+137 in 24h",
+    "★ 2,597",
+    "+134 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -87,11 +87,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 89,
-   "grow": 5,
+   "grow": null,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 2,961",
-    "+158 in 24h",
+    "★ 2,966",
+    "~509 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -121,7 +121,7 @@
    "cat": "Vision",
    "score": 89,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 572",
+   "desc": "Vision on Hugging Face · open weights · ♥ 576",
    "meta": [
     "224K downloads",
     "Released 3 days ago"
@@ -139,8 +139,8 @@
    "grow": 7,
    "desc": "基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。还原 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分析手册。",
    "meta": [
-    "★ 1,100",
-    "+148 in 24h",
+    "★ 1,102",
+    "+146 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-14T14:05:05Z",
@@ -173,7 +173,7 @@
    "desc": "A design system for AI applications. Material, physical, tactile, technical.",
    "meta": [
     "★ 1,682",
-    "+522 in 24h",
+    "+505 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-12T09:19:02Z",
@@ -235,11 +235,11 @@
    "verdict": "The hype matches real use"
   },
   {
-   "name": "solid-glass",
-   "url": "https://github.com/deeplethe/solid-glass",
+   "name": "esp32-iphone-agent",
+   "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
    "from": "GitHub",
-   "use": 522,
-   "useLabel": "+522 stars/day",
+   "use": 509,
+   "useLabel": "~509 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -352,27 +352,27 @@
  ],
  "github": [
   {
+   "repo": "onehumanbeing/esp32-iphone-agent",
+   "stars": 2966,
+   "d24": 509,
+   "est": true,
+   "forks": 386,
+   "contrib": null,
+   "score": 89
+  },
+  {
    "repo": "deeplethe/solid-glass",
    "stars": 1682,
-   "d24": 522,
+   "d24": 505,
    "est": false,
    "forks": 21,
    "contrib": null,
    "score": 85
   },
   {
-   "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2961,
-   "d24": 158,
-   "est": false,
-   "forks": 385,
-   "contrib": null,
-   "score": 89
-  },
-  {
    "repo": "Caho1/open-claude-ui",
-   "stars": 1100,
-   "d24": 148,
+   "stars": 1102,
+   "d24": 146,
    "est": false,
    "forks": 243,
    "contrib": null,
@@ -380,8 +380,8 @@
   },
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2596,
-   "d24": 137,
+   "stars": 2597,
+   "d24": 134,
    "est": false,
    "forks": 502,
    "contrib": null,
@@ -389,8 +389,8 @@
   },
   {
    "repo": "feder-cr/git-ai",
-   "stars": 1106,
-   "d24": 81,
+   "stars": 1108,
+   "d24": 82,
    "est": false,
    "forks": 117,
    "contrib": null,
@@ -399,7 +399,7 @@
   {
    "repo": "zhuyansen/new-term-radar",
    "stars": 1077,
-   "d24": 20,
+   "d24": 19,
    "est": false,
    "forks": 422,
    "contrib": null,
@@ -416,7 +416,7 @@
    "grow": null,
    "score": 95,
    "cat": "Vision",
-   "likes": 620
+   "likes": 651
   },
   {
    "name": "embeddinggemma-2",
@@ -427,7 +427,7 @@
    "grow": 5,
    "score": 90,
    "cat": "Vision",
-   "likes": 2564
+   "likes": 2566
   },
   {
    "name": "humanizer",
@@ -438,7 +438,7 @@
    "grow": 12,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1870
+   "likes": 1872
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -449,7 +449,7 @@
    "grow": null,
    "score": 89,
    "cat": "Vision",
-   "likes": 572
+   "likes": 576
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -472,7 +472,7 @@
    "grow": null,
    "score": 85,
    "cat": "Tools",
-   "likes": 589
+   "likes": 592
   }
  ],
  "free": [
@@ -482,7 +482,7 @@
    "ctx": null,
    "url": null,
    "caps": [],
-   "added": true
+   "added": false
   },
   {
    "name": "mimo-v2.6-flash",
@@ -794,20 +794,6 @@
     "prov": "OpenRouter",
     "url": "https://openrouter.ai/xingchen-agi/xing4.0-29b-a4b:free",
     "at": "2026-10-16T19:30:52.734Z"
-   },
-   {
-    "type": "removed",
-    "name": "cat-jam",
-    "prov": "OpenCode Zen",
-    "url": null,
-    "at": "2026-10-16T14:48:00.010Z"
-   },
-   {
-    "type": "added",
-    "name": "beam",
-    "prov": "OpenCode Zen",
-    "url": null,
-    "at": "2026-10-16T14:30:59.810Z"
    }
   ]
  },
@@ -862,6 +848,13 @@
    "kind": "News"
   },
   {
+   "t": "Claude Fable 5.5 Is BABY AGI?! NEW EAP LEAKS, GLM 5.5, GPT-6 Astra Pro Upgrade & More! AI NEWS",
+   "url": "https://www.youtube.com/watch?v=hZPs633_58Q",
+   "at": "2026-10-17T06:15:17Z",
+   "src": "WorldofAI",
+   "kind": "Video"
+  },
+  {
    "t": "Reach Security, which develops AI-powered exposure management tools for securing enterprise systems, raised a $50M+ Series B led by Top Tier Capital Partners",
    "url": "https://www.techmeme.com/261017/p7#a261017p7",
    "at": "2026-10-17T06:15:02.000Z",
@@ -890,6 +883,20 @@
    "kind": "News"
   },
   {
+   "t": "Nvidia CEO Jensen Huang ‘strongly’ disagrees with OpenAI’s Sam Altman on AI agents hacking websites, ‘I’m willing to accept no…’",
+   "url": "https://timesofindia.indiatimes.com/technology/tech-news/nvidia-ceo-jensen-huang-strongly-disagrees-with-openais-sam-altman-on-ai-agents-hacking-websites-im-willing-to-accept-no/articleshow/135006398.cms",
+   "at": "2026-10-17T02:57:00Z",
+   "src": "Times of India",
+   "kind": "News"
+  },
+  {
+   "t": "North Korea reports test of AI-assisted torpedo system",
+   "url": "https://www.bangkokpost.com/world/3338750/north-korea-reports-test-of-aiassisted-torpedo-system",
+   "at": "2026-10-17T02:45:00Z",
+   "src": "Bangkok Post",
+   "kind": "News"
+  },
+  {
    "t": "AI agents accessing corp data undetected: CERT-In",
    "url": "https://timesofindia.indiatimes.com/business/india-business/ai-agents-accessing-corp-data-undetected-cert-in/articleshow/135006013.cms",
    "at": "2026-10-17T02:04:00Z",
@@ -902,27 +909,6 @@
    "at": "2026-10-17T01:45:01.000Z",
    "src": "Techmeme",
    "kind": "News"
-  },
-  {
-   "t": "Sources: Anthropic is offering Blackstone a 10%+ yield to help finance Anthropic's $60B debt package to buy Google TPUs; Blackstone would invest $9B in the debt",
-   "url": "https://www.techmeme.com/261016/p29#a261016p29",
-   "at": "2026-10-17T01:35:02.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Survey of Anthropic staffers and US adults: 39% of US adults vs. 91% of staffers expect AI will be able to make a Nobel-level discovery by 2030, and more",
-   "url": "https://www.techmeme.com/261016/p28#a261016p28",
-   "at": "2026-10-17T01:00:12.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "North Korea advances AI weapons programme with new precision-guided torpedo",
-   "url": "https://www.malaymail.com/news/world/2026/10/17/north-korea-advances-ai-weapons-programme-with-new-precision-guided-torpedo/239390",
-   "at": "2026-10-17T00:58:22Z",
-   "src": "Malay Mail",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -931,35 +917,35 @@
    "t": "DeepSeek: DeepSeek v4.1 Flash 1017",
    "url": "https://news.ycombinator.com/item?id=50129121",
    "link": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
-   "up": 391,
-   "com": 180,
+   "up": 425,
+   "com": 198,
    "at": "2026-10-17T08:37:46.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "DeepSeek-v4.1-Flash-1017",
-   "url": "https://news.ycombinator.com/item?id=50129045",
-   "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-   "up": 297,
-   "com": 114,
-   "at": "2026-10-17T08:21:25.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Claude reveals ECDSA curve origins",
    "url": "https://news.ycombinator.com/item?id=50122800",
    "link": "https://www.anthropic.com/research/ecdsa-curve-origins",
-   "up": 940,
-   "com": 340,
+   "up": 949,
+   "com": 343,
    "at": "2026-10-16T18:55:59.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "DeepSeek-v4.1-Flash-1017",
+   "url": "https://news.ycombinator.com/item?id=50129045",
+   "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "up": 307,
+   "com": 121,
+   "at": "2026-10-17T08:21:25.000Z"
   },
   {
    "src": "Hacker News",
    "t": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
    "url": "https://news.ycombinator.com/item?id=50121179",
    "link": "https://www.mercor.com/research/labor-index/benchmark-map/",
-   "up": 552,
-   "com": 486,
+   "up": 554,
+   "com": 490,
    "at": "2026-10-16T17:08:38.000Z"
   },
   {
@@ -967,8 +953,8 @@
    "t": "How the Claude Code team does code review",
    "url": "https://news.ycombinator.com/item?id=50122951",
    "link": "https://claude.dev/blog/solving-code-review-at-anthropic/",
-   "up": 406,
-   "com": 383,
+   "up": 414,
+   "com": 387,
    "at": "2026-10-16T19:04:47.000Z"
   },
   {
@@ -976,8 +962,8 @@
    "t": "You could have invented transformers from memory",
    "url": "https://news.ycombinator.com/item?id=50122878",
    "link": "https://alexwang.ai/posts/associative-memory/",
-   "up": 372,
-   "com": 84,
+   "up": 379,
+   "com": 87,
    "at": "2026-10-16T19:01:17.000Z"
   }
  ]
