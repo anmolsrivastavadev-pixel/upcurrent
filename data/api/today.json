@@ -5,41 +5,24 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-17T16:30:49.540Z"
+  "updated": "2026-10-17T17:01:05.697Z"
  },
  "pulse": {
   "trending": 81,
   "accelerating": 4,
   "newModels": 7,
-  "discussions": 36,
-  "stars": 1351
+  "discussions": 33,
+  "stars": 1345
  },
  "rising": [
-  {
-   "name": "git-ai",
-   "owner": "feder-cr",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 94,
-   "grow": 5,
-   "desc": "Git designed for AI agents.",
-   "meta": [
-    "★ 1,114",
-    "+83 in 24h",
-    "Created 2 days ago"
-   ],
-   "at": "2026-10-15T13:12:02Z",
-   "breakout": null,
-   "url": "https://github.com/feder-cr/git-ai"
-  },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
    "owner": "deepseek-ai",
    "src": "hf",
    "cat": "Vision",
-   "score": 94,
+   "score": 96,
    "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 742",
+   "desc": "Vision on Hugging Face · open source · ♥ 762",
    "meta": [
     "0 downloads",
     "Released 14h ago"
@@ -49,16 +32,33 @@
    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
   },
   {
+   "name": "git-ai",
+   "owner": "feder-cr",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 94,
+   "grow": 6,
+   "desc": "Git designed for AI agents.",
+   "meta": [
+    "★ 1,116",
+    "+83 in 24h",
+    "Created 2 days ago"
+   ],
+   "at": "2026-10-15T13:12:02Z",
+   "breakout": null,
+   "url": "https://github.com/feder-cr/git-ai"
+  },
+  {
    "name": "qwen21-nsfw-pose-skill",
    "owner": "Arekejoker",
    "src": "gh",
    "cat": "Agents",
    "score": 92,
-   "grow": 3,
+   "grow": 4,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 2,607",
-    "+136 in 24h",
+    "★ 2,612",
+    "+139 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -90,8 +90,8 @@
    "grow": null,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 2,974",
-    "~505 in 24h",
+    "★ 2,975",
+    "~503 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -108,7 +108,7 @@
    "desc": "Model on Hugging Face · open source · ♥ 1.9K",
    "meta": [
     "96K downloads",
-    "Released 36 days ago"
+    "Released 37 days ago"
    ],
    "at": "2026-09-11T05:00:16.000Z",
    "breakout": null,
@@ -121,7 +121,7 @@
    "cat": "Vision",
    "score": 89,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 597",
+   "desc": "Vision on Hugging Face · open weights · ♥ 605",
    "meta": [
     "224K downloads",
     "Released 3 days ago"
@@ -136,11 +136,11 @@
    "src": "gh",
    "cat": "Tools",
    "score": 88,
-   "grow": 8,
+   "grow": 9,
    "desc": "基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。还原 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分析手册。",
    "meta": [
-    "★ 1,110",
-    "+144 in 24h",
+    "★ 1,117",
+    "+151 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-14T14:05:05Z",
@@ -152,9 +152,9 @@
    "owner": "openbmb",
    "src": "hf",
    "cat": "Vision",
-   "score": 87,
+   "score": 86,
    "grow": 107,
-   "desc": "Vision on Hugging Face · open source · ♥ 886",
+   "desc": "Vision on Hugging Face · open source · ♥ 888",
    "meta": [
     "36K downloads",
     "Released 10 days ago"
@@ -173,7 +173,7 @@
    "desc": "A design system for AI applications. Material, physical, tactile, technical.",
    "meta": [
     "★ 1,685",
-    "+464 in 24h",
+    "+451 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-12T09:19:02Z",
@@ -238,8 +238,8 @@
    "name": "esp32-iphone-agent",
    "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
    "from": "GitHub",
-   "use": 505,
-   "useLabel": "~505 stars/day",
+   "use": 503,
+   "useLabel": "~503 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -353,8 +353,8 @@
  "github": [
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 2974,
-   "d24": 505,
+   "stars": 2975,
+   "d24": 503,
    "est": true,
    "forks": 386,
    "contrib": null,
@@ -363,7 +363,7 @@
   {
    "repo": "deeplethe/solid-glass",
    "stars": 1685,
-   "d24": 464,
+   "d24": 451,
    "est": false,
    "forks": 21,
    "contrib": null,
@@ -371,8 +371,8 @@
   },
   {
    "repo": "Caho1/open-claude-ui",
-   "stars": 1110,
-   "d24": 144,
+   "stars": 1117,
+   "d24": 151,
    "est": false,
    "forks": 244,
    "contrib": null,
@@ -380,8 +380,8 @@
   },
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2607,
-   "d24": 136,
+   "stars": 2612,
+   "d24": 139,
    "est": false,
    "forks": 504,
    "contrib": null,
@@ -389,7 +389,7 @@
   },
   {
    "repo": "feder-cr/git-ai",
-   "stars": 1114,
+   "stars": 1116,
    "d24": 83,
    "est": false,
    "forks": 117,
@@ -399,11 +399,11 @@
   {
    "repo": "zhuyansen/new-term-radar",
    "stars": 1078,
-   "d24": 19,
+   "d24": 18,
    "est": false,
    "forks": 422,
    "contrib": null,
-   "score": 78
+   "score": 77
   }
  ],
  "models": [
@@ -414,9 +414,9 @@
    "at": "2026-10-17T02:40:38.000Z",
    "dl": 0,
    "grow": null,
-   "score": 94,
+   "score": 96,
    "cat": "Vision",
-   "likes": 742
+   "likes": 762
   },
   {
    "name": "embeddinggemma-2",
@@ -427,7 +427,7 @@
    "grow": 5,
    "score": 90,
    "cat": "Vision",
-   "likes": 2572
+   "likes": 2573
   },
   {
    "name": "humanizer",
@@ -449,7 +449,7 @@
    "grow": null,
    "score": 89,
    "cat": "Vision",
-   "likes": 597
+   "likes": 605
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -459,9 +459,9 @@
    "at": "2026-10-07T07:07:30.000Z",
    "dl": 36252,
    "grow": 107,
-   "score": 87,
+   "score": 86,
    "cat": "Vision",
-   "likes": 886
+   "likes": 888
   },
   {
    "name": "drama-3",
@@ -855,6 +855,13 @@
    "kind": "News"
   },
   {
+   "t": "Claude Fable 5.5 Is BABY AGI?! NEW EAP LEAKS, GLM 5.5, GPT-6 Astra Pro Upgrade & More! AI NEWS",
+   "url": "https://www.youtube.com/watch?v=hZPs633_58Q",
+   "at": "2026-10-17T06:15:17Z",
+   "src": "WorldofAI",
+   "kind": "Video"
+  },
+  {
    "t": "Reach Security, which develops AI-powered exposure management tools for securing enterprise systems, raised a $50M+ Series B led by Top Tier Capital Partners",
    "url": "https://www.techmeme.com/261017/p7#a261017p7",
    "at": "2026-10-17T06:15:02.000Z",
@@ -876,6 +883,13 @@
    "kind": "News"
   },
   {
+   "t": "OpenAI poaches another SpaceX sales lead focused on AI",
+   "url": "https://www.thehindubusinessline.com/info-tech/openai-poaches-another-spacex-sales-lead-focused-on-ai/article71595298.ece",
+   "at": "2026-10-17T04:50:31Z",
+   "src": "The Hindu Business Line",
+   "kind": "News"
+  },
+  {
    "t": "Workday agrees to acquire C1.ai, formerly known as ConductorOne, which develops enterprise software to manage human and AI agent identities and has raised $111M",
    "url": "https://www.techmeme.com/261017/p1#a261017p1",
    "at": "2026-10-17T04:50:01.000Z",
@@ -883,31 +897,17 @@
    "kind": "News"
   },
   {
-   "t": "AI bubble burst may trigger 2008-like banking crisis, says Gary Marcus",
-   "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/ai-bubble-burst-may-trigger-2008-like-banking-crisis-says-gary-marcus/articleshow/135007219.cms",
-   "at": "2026-10-17T04:26:00Z",
-   "src": "The Economic Times",
+   "t": "Trump's AI Task Force To Commission Report On Technology's Risks",
+   "url": "https://www.ndtv.com/world-news/trumps-ai-task-force-to-commission-report-on-technologys-risks-12197951",
+   "at": "2026-10-17T04:45:59Z",
+   "src": "NDTV.com",
    "kind": "News"
   },
   {
-   "t": "Global equities may regain momentum as strong earnings offset concerns over rising bond yields: Morgan Stanley",
-   "url": "https://www.devdiscourse.com/article/business/3993971-global-equities-may-regain-momentum-as-strong-earnings-offset-concerns-over-rising-bond-yields-morgan-stanley",
-   "at": "2026-10-17T04:11:44Z",
-   "src": "Devdiscourse",
-   "kind": "News"
-  },
-  {
-   "t": "North Korea says tested AI-assisted torpedo system",
-   "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/north-korea-says-tested-ai-assisted-torpedo-system/articleshow/135007073.cms",
-   "at": "2026-10-17T04:08:36Z",
-   "src": "The Economic Times",
-   "kind": "News"
-  },
-  {
-   "t": "North Korea says it tested new torpedo system with AI capabilities",
-   "url": "https://www.ajc.com/news/2026/10/north-korea-says-it-tested-new-torpedo-system-with-ai-capabilities/",
-   "at": "2026-10-17T03:53:09Z",
-   "src": "The Atlanta Journal-Constitution",
+   "t": "OpenAI Sued By Eight U.S. States Over ChatGPT’s Toxic Influence on Teens",
+   "url": "https://www.naturalnews.com/2026-10-17-openai-sued-over-chatgpt-toxic-influence-teens.html",
+   "at": "2026-10-17T04:40:45Z",
+   "src": "Natural News",
    "kind": "News"
   }
  ],
@@ -917,35 +917,35 @@
    "t": "DeepSeek: DeepSeek v4.1 Flash 1017",
    "url": "https://news.ycombinator.com/item?id=50129121",
    "link": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
-   "up": 507,
-   "com": 4,
+   "up": 509,
+   "com": 5,
    "at": "2026-10-17T08:37:46.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Claude reveals ECDSA curve origins",
-   "url": "https://news.ycombinator.com/item?id=50122800",
-   "link": "https://www.anthropic.com/research/ecdsa-curve-origins",
-   "up": 969,
-   "com": 353,
-   "at": "2026-10-16T18:55:59.000Z"
   },
   {
    "src": "Hacker News",
    "t": "DeepSeek-v4.1-Flash-1017",
    "url": "https://news.ycombinator.com/item?id=50129045",
    "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-   "up": 359,
-   "com": 397,
+   "up": 393,
+   "com": 410,
    "at": "2026-10-17T08:21:25.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Claude reveals ECDSA curve origins",
+   "url": "https://news.ycombinator.com/item?id=50122800",
+   "link": "https://www.anthropic.com/research/ecdsa-curve-origins",
+   "up": 978,
+   "com": 355,
+   "at": "2026-10-16T18:55:59.000Z"
   },
   {
    "src": "Hacker News",
    "t": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
    "url": "https://news.ycombinator.com/item?id=50121179",
    "link": "https://www.mercor.com/research/labor-index/benchmark-map/",
-   "up": 562,
-   "com": 507,
+   "up": 567,
+   "com": 508,
    "at": "2026-10-16T17:08:38.000Z"
   },
   {
@@ -953,8 +953,8 @@
    "t": "How the Claude Code team does code review",
    "url": "https://news.ycombinator.com/item?id=50122951",
    "link": "https://claude.dev/blog/solving-code-review-at-anthropic/",
-   "up": 428,
-   "com": 407,
+   "up": 436,
+   "com": 412,
    "at": "2026-10-16T19:04:47.000Z"
   },
   {
@@ -962,8 +962,8 @@
    "t": "You could have invented transformers from memory",
    "url": "https://news.ycombinator.com/item?id=50122878",
    "link": "https://alexwang.ai/posts/associative-memory/",
-   "up": 402,
-   "com": 96,
+   "up": 410,
+   "com": 98,
    "at": "2026-10-16T19:01:17.000Z"
   }
  ]
