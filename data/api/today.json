@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-18T20:30:52.436Z"
+  "updated": "2026-10-18T20:35:34.533Z"
  },
  "pulse": {
   "trending": 81,
   "accelerating": 1,
   "newModels": 8,
-  "discussions": 27,
-  "stars": 4042
+  "discussions": 28,
+  "stars": 4060
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 97,
-   "grow": 56,
+   "grow": 57,
    "desc": "Your TV, minus the ads. Debloat any Android TV over ADB and give it a clean, tvOS-inspired launcher. Built in an afternoon with Claude Code.",
    "meta": [
-    "★ 1,626",
-    "+2,328 in 24h",
+    "★ 1,638",
+    "+2,345 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-17T08:12:35Z",
@@ -53,12 +53,12 @@
    "owner": "feder-cr",
    "src": "gh",
    "cat": "Agents",
-   "score": 91,
+   "score": 92,
    "grow": null,
    "desc": "Git designed for AI agents.",
    "meta": [
-    "★ 1,574",
-    "~476 in 24h",
+    "★ 1,578",
+    "~477 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -185,8 +185,8 @@
    "name": "tv-vibehack",
    "url": "https://github.com/Gathin23/tv-vibehack",
    "from": "GitHub",
-   "use": 2328,
-   "useLabel": "+2,328 stars/day",
+   "use": 2345,
+   "useLabel": "+2,345 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -300,12 +300,21 @@
  "github": [
   {
    "repo": "Gathin23/tv-vibehack",
-   "stars": 1626,
-   "d24": 2328,
+   "stars": 1638,
+   "d24": 2345,
    "est": false,
    "forks": 192,
    "contrib": null,
    "score": 97
+  },
+  {
+   "repo": "feder-cr/git-ai",
+   "stars": 1578,
+   "d24": 477,
+   "est": true,
+   "forks": 242,
+   "contrib": null,
+   "score": 92
   },
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
@@ -315,15 +324,6 @@
    "forks": 522,
    "contrib": null,
    "score": 89
-  },
-  {
-   "repo": "feder-cr/git-ai",
-   "stars": 1574,
-   "d24": 476,
-   "est": true,
-   "forks": 236,
-   "contrib": null,
-   "score": 91
   },
   {
    "repo": "deeplethe/solid-glass",
@@ -835,7 +835,7 @@
    "t": "RepRapMicron",
    "url": "https://news.ycombinator.com/item?id=50141076",
    "link": "https://github.com/VikOlliver/RepRapMicron/wiki",
-   "up": 287,
+   "up": 288,
    "com": 43,
    "at": "2026-10-18T13:48:48.000Z"
   },
@@ -845,8 +845,17 @@
    "url": "https://news.ycombinator.com/item?id=50143218",
    "link": "https://liveandletsfly.com/british-airways-meta-smart-glasses-filming/",
    "up": 83,
-   "com": 137,
+   "com": 138,
    "at": "2026-10-18T17:27:30.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Free Pascal compiler now supports dynamic packages",
+   "url": "https://news.ycombinator.com/item?id=50144066",
+   "link": "https://www.getlazarus.org/dynamic/",
+   "up": 43,
+   "com": 11,
+   "at": "2026-10-18T18:48:04.000Z"
   },
   {
    "src": "Hacker News",
@@ -859,15 +868,6 @@
   },
   {
    "src": "Hacker News",
-   "t": "Free Pascal compiler now supports dynamic packages",
-   "url": "https://news.ycombinator.com/item?id=50144066",
-   "link": "https://www.getlazarus.org/dynamic/",
-   "up": 41,
-   "com": 10,
-   "at": "2026-10-18T18:48:04.000Z"
-  },
-  {
-   "src": "Hacker News",
    "t": "Websites are closing their doors to AI agents",
    "url": "https://news.ycombinator.com/item?id=50141657",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
@@ -877,12 +877,12 @@
   },
   {
    "src": "Hacker News",
-   "t": "Show HN: The Zelda timeline to catch up before the Ocarina of Time remake",
-   "url": "https://news.ycombinator.com/item?id=50140769",
-   "link": "https://legendofhyrule.com/",
-   "up": 130,
-   "com": 70,
-   "at": "2026-10-18T13:06:54.000Z"
+   "t": "PalmOS Lemmings",
+   "url": "https://news.ycombinator.com/item?id=50143536",
+   "link": "https://github.com/ardiri/palmos-lemmings",
+   "up": 46,
+   "com": 8,
+   "at": "2026-10-18T17:56:59.000Z"
   }
  ]
 }
