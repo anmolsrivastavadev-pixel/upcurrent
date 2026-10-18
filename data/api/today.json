@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-18T14:50:30.061Z"
+  "updated": "2026-10-18T15:01:04.544Z"
  },
  "pulse": {
   "trending": 82,
   "accelerating": 2,
   "newModels": 7,
   "discussions": 25,
-  "stars": 2286
+  "stars": 2328
  },
  "rising": [
   {
@@ -40,8 +40,8 @@
    "grow": null,
    "desc": "Your TV, minus the ads. Debloat any Android TV over ADB and give it a clean, tvOS-inspired launcher. Built in an afternoon with Claude Code.",
    "meta": [
-    "★ 1,076",
-    "~843 in 24h",
+    "★ 1,101",
+    "~858 in 24h",
     "Created yesterday"
    ],
    "at": "2026-10-17T08:12:35Z",
@@ -53,12 +53,12 @@
    "owner": "feder-cr",
    "src": "gh",
    "cat": "Agents",
-   "score": 91,
-   "grow": 25,
+   "score": 92,
+   "grow": 27,
    "desc": "Git designed for AI agents.",
    "meta": [
-    "★ 1,404",
-    "+368 in 24h",
+    "★ 1,428",
+    "+396 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -74,8 +74,8 @@
    "grow": 3,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 2,708",
-    "+110 in 24h",
+    "★ 2,710",
+    "+112 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -105,7 +105,7 @@
    "cat": "Vision",
    "score": 88,
    "grow": 51,
-   "desc": "Vision on Hugging Face · open weights · ♥ 749",
+   "desc": "Vision on Hugging Face · open weights · ♥ 751",
    "meta": [
     "338K downloads",
     "Released 4 days ago"
@@ -115,11 +115,27 @@
    "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy"
   },
   {
+   "name": "MiniCPM-V-4.7-35B-A3B",
+   "owner": "openbmb",
+   "src": "hf",
+   "cat": "Vision",
+   "score": 87,
+   "grow": 60,
+   "desc": "Vision on Hugging Face · open source · ♥ 951",
+   "meta": [
+    "58K downloads",
+    "Released 11 days ago"
+   ],
+   "at": "2026-10-07T07:07:30.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B"
+  },
+  {
    "name": "esp32-iphone-agent",
    "owner": "onehumanbeing",
    "src": "gh",
    "cat": "Agents",
-   "score": 87,
+   "score": 86,
    "grow": null,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
@@ -132,22 +148,6 @@
    "url": "https://github.com/onehumanbeing/esp32-iphone-agent"
   },
   {
-   "name": "MiniCPM-V-4.7-35B-A3B",
-   "owner": "openbmb",
-   "src": "hf",
-   "cat": "Vision",
-   "score": 87,
-   "grow": 60,
-   "desc": "Vision on Hugging Face · open source · ♥ 949",
-   "meta": [
-    "58K downloads",
-    "Released 11 days ago"
-   ],
-   "at": "2026-10-07T07:07:30.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B"
-  },
-  {
    "name": "open-claude-ui",
    "owner": "Caho1",
    "src": "gh",
@@ -157,7 +157,7 @@
    "desc": "基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。还原 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分析手册。",
    "meta": [
     "★ 1,196",
-    "+97 in 24h",
+    "+96 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-14T14:05:05Z",
@@ -187,8 +187,8 @@
    "name": "tv-vibehack",
    "url": "https://github.com/Gathin23/tv-vibehack",
    "from": "GitHub",
-   "use": 843,
-   "useLabel": "~843 stars/day",
+   "use": 858,
+   "useLabel": "~858 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -218,6 +218,16 @@
   }
  ],
  "receipts": [
+  {
+   "name": "tangency-labs/solidcraft",
+   "url": "https://github.com/tangency-labs/solidcraft",
+   "kind": "stars",
+   "first": "2026-10-16T17:01:06.795Z",
+   "firstV": 3005,
+   "m": 5000,
+   "at": "2026-10-18T15:01:04.544Z",
+   "lead": 45.99937472222222
+  },
   {
    "name": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
@@ -287,25 +297,15 @@
    "m": 100000,
    "at": "2026-10-17T09:16:53.895Z",
    "lead": 38.2622825
-  },
-  {
-   "name": "Arekejoker/qwen21-nsfw-pose-skill",
-   "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
-   "kind": "stars",
-   "first": "2026-10-14T12:24:09.786Z",
-   "firstV": 1119,
-   "m": 2500,
-   "at": "2026-10-16T21:30:51.910Z",
-   "lead": 57.11170111111111
   }
  ],
  "github": [
   {
    "repo": "Gathin23/tv-vibehack",
-   "stars": 1076,
-   "d24": 843,
+   "stars": 1101,
+   "d24": 858,
    "est": true,
-   "forks": 121,
+   "forks": 124,
    "contrib": null,
    "score": 96
   },
@@ -316,39 +316,39 @@
    "est": true,
    "forks": 399,
    "contrib": null,
-   "score": 87
+   "score": 86
+  },
+  {
+   "repo": "feder-cr/git-ai",
+   "stars": 1428,
+   "d24": 396,
+   "est": false,
+   "forks": 162,
+   "contrib": null,
+   "score": 92
   },
   {
    "repo": "deeplethe/solid-glass",
    "stars": 2002,
-   "d24": 392,
+   "d24": 389,
    "est": false,
    "forks": 25,
    "contrib": null,
    "score": 84
   },
   {
-   "repo": "feder-cr/git-ai",
-   "stars": 1404,
-   "d24": 368,
-   "est": false,
-   "forks": 159,
-   "contrib": null,
-   "score": 91
-  },
-  {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2708,
-   "d24": 110,
+   "stars": 2710,
+   "d24": 112,
    "est": false,
-   "forks": 521,
+   "forks": 522,
    "contrib": null,
    "score": 90
   },
   {
    "repo": "Caho1/open-claude-ui",
    "stars": 1196,
-   "d24": 97,
+   "d24": 96,
    "est": false,
    "forks": 258,
    "contrib": null,
@@ -356,8 +356,8 @@
   },
   {
    "repo": "zhuyansen/new-term-radar",
-   "stars": 1098,
-   "d24": 25,
+   "stars": 1099,
+   "d24": 26,
    "est": false,
    "forks": 422,
    "contrib": null,
@@ -396,7 +396,7 @@
    "grow": 51,
    "score": 88,
    "cat": "Vision",
-   "likes": 749
+   "likes": 751
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -408,7 +408,7 @@
    "grow": 60,
    "score": 87,
    "cat": "Vision",
-   "likes": 949
+   "likes": 951
   },
   {
    "name": "humanizer",
@@ -430,7 +430,7 @@
    "grow": null,
    "score": 85,
    "cat": "Tools",
-   "likes": 661
+   "likes": 662
   }
  ],
  "free": [
@@ -798,6 +798,13 @@
    "kind": "News"
   },
   {
+   "t": "AI reshapes labour demand across Asia, posing challenges for job creation and skills development: Report",
+   "url": "https://www.aninews.in/news/business/ai-reshapes-labour-demand-across-asia-posing-challenges-for-job-creation-and-skills-development-report20261018082955/",
+   "at": "2026-10-18T02:59:55Z",
+   "src": "ANI (Asian News International)",
+   "kind": "News"
+  },
+  {
    "t": "'We will have a cool demo in 2027': What Sam Altman said about OpenAI's humanoid robot and the challenges",
    "url": "https://www.livemint.com/ai/artificial-intelligence/we-will-have-a-cool-demo-in-2027-what-sam-altman-said-about-openais-humanoid-robot-and-the-challenges-11792290751495.html",
    "at": "2026-10-18T02:46:02Z",
@@ -831,13 +838,6 @@
    "at": "2026-10-18T00:44:20Z",
    "src": "Livemint",
    "kind": "News"
-  },
-  {
-   "t": "US state attorney general sues ChatGPT founders over child safety",
-   "url": "https://www.thestar.com.my/tech/tech-news/2026/10/18/us-state-attorney-general-sues-chatgpt-founders-over-child-safety",
-   "at": "2026-10-18T00:00:00Z",
-   "src": "The Star",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -846,8 +846,8 @@
    "t": "RepRapMicron",
    "url": "https://news.ycombinator.com/item?id=50141076",
    "link": "https://github.com/VikOlliver/RepRapMicron/wiki",
-   "up": 56,
-   "com": 7,
+   "up": 77,
+   "com": 10,
    "at": "2026-10-18T13:48:48.000Z"
   },
   {
@@ -855,8 +855,8 @@
    "t": "Open MicroManipulator – A sub-micrometer 3D motion control plattform",
    "url": "https://news.ycombinator.com/item?id=50140001",
    "link": "https://github.com/0x23/MicroManipulatorStepper",
-   "up": 69,
-   "com": 5,
+   "up": 76,
+   "com": 6,
    "at": "2026-10-18T11:16:22.000Z"
   },
   {
@@ -864,8 +864,8 @@
    "t": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
    "url": "https://news.ycombinator.com/item?id=50137950",
    "link": "https://sphinx-six-theta.vercel.app/",
-   "up": 191,
-   "com": 60,
+   "up": 193,
+   "com": 61,
    "at": "2026-10-18T04:33:49.000Z"
   },
   {
@@ -874,7 +874,7 @@
    "url": "https://news.ycombinator.com/item?id=50133231",
    "link": "https://github.com/openai/codex/issues/25921",
    "up": 156,
-   "com": 70,
+   "com": 73,
    "at": "2026-10-17T17:45:08.000Z"
   },
   {
