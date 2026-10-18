@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-18T16:30:52.679Z"
+  "updated": "2026-10-18T17:01:01.513Z"
  },
  "pulse": {
   "trending": 82,
   "accelerating": 1,
   "newModels": 7,
-  "discussions": 29,
-  "stars": 2576
+  "discussions": 30,
+  "stars": 2595
  },
  "rising": [
   {
@@ -22,7 +22,7 @@
    "cat": "Vision",
    "score": 97,
    "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 1.2K",
+   "desc": "Vision on Hugging Face · open source · ♥ 1.3K",
    "meta": [
     "10K downloads",
     "Released 2 days ago"
@@ -40,8 +40,8 @@
    "grow": null,
    "desc": "Your TV, minus the ads. Debloat any Android TV over ADB and give it a clean, tvOS-inspired launcher. Built in an afternoon with Claude Code.",
    "meta": [
-    "★ 1,273",
-    "~946 in 24h",
+    "★ 1,330",
+    "~973 in 24h",
     "Created yesterday"
    ],
    "at": "2026-10-17T08:12:35Z",
@@ -58,7 +58,7 @@
    "desc": "Git designed for AI agents.",
    "meta": [
     "★ 1,498",
-    "~477 in 24h",
+    "~474 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -74,8 +74,8 @@
    "grow": 4,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 2,720",
-    "+116 in 24h",
+    "★ 2,722",
+    "+115 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -105,7 +105,7 @@
    "cat": "Vision",
    "score": 88,
    "grow": 51,
-   "desc": "Vision on Hugging Face · open weights · ♥ 759",
+   "desc": "Vision on Hugging Face · open weights · ♥ 765",
    "meta": [
     "338K downloads",
     "Released 4 days ago"
@@ -121,7 +121,7 @@
    "cat": "Vision",
    "score": 87,
    "grow": 60,
-   "desc": "Vision on Hugging Face · open source · ♥ 964",
+   "desc": "Vision on Hugging Face · open source · ♥ 969",
    "meta": [
     "58K downloads",
     "Released 11 days ago"
@@ -139,30 +139,13 @@
    "grow": null,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 3,093",
-    "~449 in 24h",
+    "★ 3,094",
+    "~448 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
    "breakout": null,
    "url": "https://github.com/onehumanbeing/esp32-iphone-agent"
-  },
-  {
-   "name": "open-claude-ui",
-   "owner": "Caho1",
-   "src": "gh",
-   "cat": "Tools",
-   "score": 86,
-   "grow": 6,
-   "desc": "基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。还原 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分析手册。",
-   "meta": [
-    "★ 1,202",
-    "+96 in 24h",
-    "Created 4 days ago"
-   ],
-   "at": "2026-10-14T14:05:05Z",
-   "breakout": null,
-   "url": "https://github.com/Caho1/open-claude-ui"
   },
   {
    "name": "humanizer",
@@ -174,11 +157,28 @@
    "desc": "Model on Hugging Face · open source · ♥ 1.9K",
    "meta": [
     "104K downloads",
-    "Released 37 days ago"
+    "Released 38 days ago"
    ],
    "at": "2026-09-11T05:00:16.000Z",
    "breakout": null,
    "url": "https://huggingface.co/jialinyyzz/humanizer"
+  },
+  {
+   "name": "open-claude-ui",
+   "owner": "Caho1",
+   "src": "gh",
+   "cat": "Tools",
+   "score": 85,
+   "grow": 6,
+   "desc": "基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。还原 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分析手册。",
+   "meta": [
+    "★ 1,203",
+    "+95 in 24h",
+    "Created 4 days ago"
+   ],
+   "at": "2026-10-14T14:05:05Z",
+   "breakout": null,
+   "url": "https://github.com/Caho1/open-claude-ui"
   }
  ],
  "breakouts": [],
@@ -187,8 +187,8 @@
    "name": "tv-vibehack",
    "url": "https://github.com/Gathin23/tv-vibehack",
    "from": "GitHub",
-   "use": 946,
-   "useLabel": "~946 stars/day",
+   "use": 973,
+   "useLabel": "~973 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -302,17 +302,17 @@
  "github": [
   {
    "repo": "Gathin23/tv-vibehack",
-   "stars": 1273,
-   "d24": 946,
+   "stars": 1330,
+   "d24": 973,
    "est": true,
-   "forks": 144,
+   "forks": 149,
    "contrib": null,
    "score": 96
   },
   {
    "repo": "feder-cr/git-ai",
    "stars": 1498,
-   "d24": 477,
+   "d24": 474,
    "est": true,
    "forks": 173,
    "contrib": null,
@@ -320,17 +320,17 @@
   },
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 3093,
-   "d24": 449,
+   "stars": 3094,
+   "d24": 448,
    "est": true,
-   "forks": 402,
+   "forks": 403,
    "contrib": null,
    "score": 86
   },
   {
    "repo": "deeplethe/solid-glass",
    "stars": 2008,
-   "d24": 319,
+   "d24": 318,
    "est": true,
    "forks": 25,
    "contrib": null,
@@ -338,8 +338,8 @@
   },
   {
    "repo": "zhuyansen/new-term-radar",
-   "stars": 1104,
-   "d24": 173,
+   "stars": 1105,
+   "d24": 172,
    "est": true,
    "forks": 422,
    "contrib": null,
@@ -347,8 +347,8 @@
   },
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2720,
-   "d24": 116,
+   "stars": 2722,
+   "d24": 115,
    "est": false,
    "forks": 522,
    "contrib": null,
@@ -356,12 +356,12 @@
   },
   {
    "repo": "Caho1/open-claude-ui",
-   "stars": 1202,
-   "d24": 96,
+   "stars": 1203,
+   "d24": 95,
    "est": false,
    "forks": 258,
    "contrib": null,
-   "score": 86
+   "score": 85
   }
  ],
  "models": [
@@ -374,7 +374,7 @@
    "grow": null,
    "score": 97,
    "cat": "Vision",
-   "likes": 1248
+   "likes": 1251
   },
   {
    "name": "embeddinggemma-2",
@@ -385,7 +385,7 @@
    "grow": 4,
    "score": 89,
    "cat": "Vision",
-   "likes": 2640
+   "likes": 2642
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -396,7 +396,7 @@
    "grow": 51,
    "score": 88,
    "cat": "Vision",
-   "likes": 759
+   "likes": 765
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -408,7 +408,7 @@
    "grow": 60,
    "score": 87,
    "cat": "Vision",
-   "likes": 964
+   "likes": 969
   },
   {
    "name": "humanizer",
@@ -791,6 +791,20 @@
    "kind": "News"
   },
   {
+   "t": "AI is changing Asia’s jobs market: What it means for India",
+   "url": "https://timesofindia.indiatimes.com/business/india-business/ai-is-changing-asias-jobs-market-what-it-means-for-india/articleshow/135023824.cms",
+   "at": "2026-10-18T04:39:00Z",
+   "src": "Times of India",
+   "kind": "News"
+  },
+  {
+   "t": "AI cuts job demand in exposed occupations by nearly 10% across Asia: IMF report",
+   "url": "https://timesofindia.indiatimes.com/india/ai-cuts-job-demand-in-exposed-occupations-by-nearly-10-across-asia-imf-report/articleshow/135023753.cms",
+   "at": "2026-10-18T04:37:00Z",
+   "src": "Times of India",
+   "kind": "News"
+  },
+  {
    "t": "Singing, dancing and getting dumped by AI on Korean TV",
    "url": "https://www.bangkokpost.com/life/tech/3339230/singing-dancing-and-getting-dumped-by-ai-on-korean-tv",
    "at": "2026-10-18T04:23:00Z",
@@ -824,20 +838,6 @@
    "at": "2026-10-18T03:50:01.000Z",
    "src": "Techmeme",
    "kind": "News"
-  },
-  {
-   "t": "AI Investment boom raises cross-asset risks as capex cycle matures, says BCA research strategist",
-   "url": "https://www.aninews.in/news/business/ai-investment-boom-raises-cross-asset-risks-as-capex-cycle-matures-says-bca-research-strategist20261018084322/",
-   "at": "2026-10-18T03:13:22Z",
-   "src": "ANI (Asian News International)",
-   "kind": "News"
-  },
-  {
-   "t": "AI reshapes labour demand across Asia, posing challenges for job creation and skills development: Report",
-   "url": "https://www.aninews.in/news/business/ai-reshapes-labour-demand-across-asia-posing-challenges-for-job-creation-and-skills-development-report20261018082955/",
-   "at": "2026-10-18T02:59:55Z",
-   "src": "ANI (Asian News International)",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -846,8 +846,8 @@
    "t": "RepRapMicron",
    "url": "https://news.ycombinator.com/item?id=50141076",
    "link": "https://github.com/VikOlliver/RepRapMicron/wiki",
-   "up": 172,
-   "com": 24,
+   "up": 184,
+   "com": 28,
    "at": "2026-10-18T13:48:48.000Z"
   },
   {
@@ -855,8 +855,8 @@
    "t": "Websites are closing their doors to AI agents",
    "url": "https://news.ycombinator.com/item?id=50141657",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
-   "up": 73,
-   "com": 51,
+   "up": 93,
+   "com": 69,
    "at": "2026-10-18T14:58:10.000Z"
   },
   {
@@ -864,8 +864,8 @@
    "t": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
    "url": "https://news.ycombinator.com/item?id=50141429",
    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
-   "up": 84,
-   "com": 89,
+   "up": 103,
+   "com": 110,
    "at": "2026-10-18T14:30:27.000Z"
   },
   {
@@ -873,8 +873,8 @@
    "t": "Tesla 'Cannot Guarantee' Roadster Reservation Holders Will Ever Get a Car",
    "url": "https://news.ycombinator.com/item?id=50141295",
    "link": "https://www.thedrive.com/news/tesla-cannot-guarantee-roadster-reservation-holders-will-ever-get-a-car",
-   "up": 67,
-   "com": 77,
+   "up": 76,
+   "com": 94,
    "at": "2026-10-18T14:16:41.000Z"
   },
   {
@@ -882,7 +882,7 @@
    "t": "Open MicroManipulator – A sub-micrometer 3D motion control plattform",
    "url": "https://news.ycombinator.com/item?id=50140001",
    "link": "https://github.com/0x23/MicroManipulatorStepper",
-   "up": 115,
+   "up": 120,
    "com": 10,
    "at": "2026-10-18T11:16:22.000Z"
   },
@@ -891,8 +891,8 @@
    "t": "Show HN: The Zelda timeline to catch up before the Ocarina of Time remake",
    "url": "https://news.ycombinator.com/item?id=50140769",
    "link": "https://legendofhyrule.com/",
-   "up": 61,
-   "com": 20,
+   "up": 78,
+   "com": 25,
    "at": "2026-10-18T13:06:54.000Z"
   }
  ]
