@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-18T08:01:05.688Z"
+  "updated": "2026-10-18T08:30:52.988Z"
  },
  "pulse": {
   "trending": 81,
   "accelerating": 0,
   "newModels": 6,
-  "discussions": 33,
-  "stars": 769
+  "discussions": 34,
+  "stars": 790
  },
  "rising": [
   {
@@ -28,7 +28,7 @@
     "Released yesterday"
    ],
    "at": "2026-10-17T02:40:38.000Z",
-   "breakout": null,
+   "breakout": 3,
    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
   },
   {
@@ -36,12 +36,12 @@
    "owner": "Arekejoker",
    "src": "gh",
    "cat": "Agents",
-   "score": 92,
+   "score": 91,
    "grow": 2,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 2,677",
-    "+111 in 24h",
+    "★ 2,680",
+    "+112 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -57,8 +57,8 @@
    "grow": 3,
    "desc": "Git designed for AI agents.",
    "meta": [
-    "★ 1,156",
-    "+69 in 24h",
+    "★ 1,157",
+    "+68 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -74,8 +74,8 @@
    "grow": 2,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 3,035",
-    "+97 in 24h",
+    "★ 3,039",
+    "+100 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -105,7 +105,7 @@
    "cat": "Vision",
    "score": 89,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 706",
+   "desc": "Vision on Hugging Face · open weights · ♥ 708",
    "meta": [
     "224K downloads",
     "Released 4 days ago"
@@ -120,11 +120,11 @@
    "src": "gh",
    "cat": "Tools",
    "score": 87,
-   "grow": 2,
+   "grow": 3,
    "desc": "基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。还原 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分析手册。",
    "meta": [
-    "★ 1,157",
-    "+68 in 24h",
+    "★ 1,159",
+    "+70 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-14T14:05:05Z",
@@ -169,11 +169,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 85,
-   "grow": 12,
+   "grow": 13,
    "desc": "A design system for AI applications. Material, physical, tactile, technical.",
    "meta": [
-    "★ 1,895",
-    "+401 in 24h",
+    "★ 1,910",
+    "+414 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-12T09:19:02Z",
@@ -181,7 +181,77 @@
    "url": "https://github.com/deeplethe/solid-glass"
   }
  ],
- "breakouts": [],
+ "breakouts": [
+  {
+   "key": "deepseek 4.1",
+   "label": "Deepseek 4.1",
+   "n": 3,
+   "sources": [
+    {
+     "src": "Hacker News",
+     "t": "DeepSeek: DeepSeek v4.1 Flash 1017",
+     "url": "https://news.ycombinator.com/item?id=50129121"
+    },
+    {
+     "src": "Huggingface.co",
+     "t": "DeepSeek-v4.1-Flash-1017",
+     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+    },
+    {
+     "src": "GitHub",
+     "t": "Ebony-Vinyl/dsh-our-free-model",
+     "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model"
+    }
+   ],
+   "since": "2026-10-18T08:30:52.988Z"
+  },
+  {
+   "key": "deepseek-v4.1-flash-1017",
+   "label": "DeepSeek-V4.1-Flash-1017",
+   "n": 3,
+   "sources": [
+    {
+     "src": "Hugging Face",
+     "t": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+    },
+    {
+     "src": "Hacker News",
+     "t": "DeepSeek: DeepSeek v4.1 Flash 1017",
+     "url": "https://news.ycombinator.com/item?id=50129121"
+    },
+    {
+     "src": "Huggingface.co",
+     "t": "DeepSeek-v4.1-Flash-1017",
+     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+    }
+   ],
+   "since": "2026-10-18T08:30:52.988Z"
+  },
+  {
+   "key": "deepseek-v4.1-flash",
+   "label": "DeepSeek-V4.1-Flash",
+   "n": 3,
+   "sources": [
+    {
+     "src": "Hugging Face",
+     "t": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+    },
+    {
+     "src": "Hacker News",
+     "t": "DeepSeek: DeepSeek v4.1 Flash 1017",
+     "url": "https://news.ycombinator.com/item?id=50129121"
+    },
+    {
+     "src": "Huggingface.co",
+     "t": "DeepSeek-v4.1-Flash-1017",
+     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+    }
+   ],
+   "since": "2026-10-18T08:30:52.988Z"
+  }
+ ],
  "hype": [
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -193,11 +263,16 @@
    "talk": [
     {
      "src": "Hacker News",
+     "t": "DeepSeek: DeepSeek v4.1 Flash 1017",
+     "url": "https://news.ycombinator.com/item?id=50129121"
+    },
+    {
+     "src": "Huggingface.co",
      "t": "DeepSeek-v4.1-Flash-1017",
-     "url": "https://news.ycombinator.com/item?id=50129045"
+     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
     }
    ],
-   "buzz": 1,
+   "buzz": 2,
    "verdict": "More talk than use"
   },
   {
@@ -210,19 +285,46 @@
    "talk": [
     {
      "src": "Hacker News",
+     "t": "DeepSeek: DeepSeek v4.1 Flash 1017",
+     "url": "https://news.ycombinator.com/item?id=50129121"
+    },
+    {
+     "src": "Huggingface.co",
      "t": "DeepSeek-v4.1-Flash-1017",
-     "url": "https://news.ycombinator.com/item?id=50129045"
+     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
     }
    ],
-   "buzz": 1,
+   "buzz": 2,
    "verdict": "The hype matches real use"
+  },
+  {
+   "name": "Deepseek 4.1",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "Hacker News",
+     "t": "DeepSeek: DeepSeek v4.1 Flash 1017",
+     "url": "https://news.ycombinator.com/item?id=50129121"
+    },
+    {
+     "src": "Huggingface.co",
+     "t": "DeepSeek-v4.1-Flash-1017",
+     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+    }
+   ],
+   "buzz": 2,
+   "verdict": "Talk only, no public usage numbers"
   },
   {
    "name": "solid-glass",
    "url": "https://github.com/deeplethe/solid-glass",
    "from": "GitHub",
-   "use": 401,
-   "useLabel": "+401 stars/day",
+   "use": 414,
+   "useLabel": "+414 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -336,8 +438,8 @@
  "github": [
   {
    "repo": "deeplethe/solid-glass",
-   "stars": 1895,
-   "d24": 401,
+   "stars": 1910,
+   "d24": 414,
    "est": false,
    "forks": 25,
    "contrib": null,
@@ -345,44 +447,44 @@
   },
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2677,
-   "d24": 111,
+   "stars": 2680,
+   "d24": 112,
    "est": false,
    "forks": 512,
-   "contrib": null,
-   "score": 92
-  },
-  {
-   "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 3035,
-   "d24": 97,
-   "est": false,
-   "forks": 391,
-   "contrib": null,
-   "score": 89
-  },
-  {
-   "repo": "feder-cr/git-ai",
-   "stars": 1156,
-   "d24": 69,
-   "est": false,
-   "forks": 124,
    "contrib": null,
    "score": 91
   },
   {
+   "repo": "onehumanbeing/esp32-iphone-agent",
+   "stars": 3039,
+   "d24": 100,
+   "est": false,
+   "forks": 392,
+   "contrib": null,
+   "score": 89
+  },
+  {
    "repo": "Caho1/open-claude-ui",
-   "stars": 1157,
-   "d24": 68,
+   "stars": 1159,
+   "d24": 70,
    "est": false,
    "forks": 255,
    "contrib": null,
    "score": 87
   },
   {
+   "repo": "feder-cr/git-ai",
+   "stars": 1157,
+   "d24": 68,
+   "est": false,
+   "forks": 124,
+   "contrib": null,
+   "score": 91
+  },
+  {
    "repo": "zhuyansen/new-term-radar",
-   "stars": 1090,
-   "d24": 23,
+   "stars": 1092,
+   "d24": 26,
    "est": false,
    "forks": 422,
    "contrib": null,
@@ -399,7 +501,7 @@
    "grow": null,
    "score": 98,
    "cat": "Vision",
-   "likes": 1120
+   "likes": 1130
   },
   {
    "name": "embeddinggemma-2",
@@ -410,7 +512,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Vision",
-   "likes": 2619
+   "likes": 2621
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -421,7 +523,7 @@
    "grow": null,
    "score": 89,
    "cat": "Vision",
-   "likes": 706
+   "likes": 708
   },
   {
    "name": "humanizer",
@@ -432,7 +534,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Infrastructure",
-   "likes": 1911
+   "likes": 1914
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -809,6 +911,13 @@
    "kind": "News"
   },
   {
+   "t": "World Bank Meetings Focus on Global Risks and Potential Benefits of AI",
+   "url": "https://www.europesays.com/3316180/",
+   "at": "2026-10-17T20:27:14Z",
+   "src": "EUROPE SAYS",
+   "kind": "News"
+  },
+  {
    "t": "I tried Claude Code, VS Code, and a local LLM as a note-taking app, and only one worked",
    "url": "https://www.xda-developers.com/tried-claude-code-vs-code-local-llm-as-note-taking-app-only-one-worked/",
    "at": "2026-10-17T20:00:20Z",
@@ -856,32 +965,16 @@
    "at": "2026-10-17T18:30:19Z",
    "src": "XDA Developers",
    "kind": "News"
-  },
-  {
-   "t": "Claude Just Ended a 25-Year NSA Conspiracy Theory #nsa #cryptography #ai",
-   "url": "https://www.youtube.com/watch?v=j3Z1n5Gx7RY",
-   "at": "2026-10-17T18:30:03Z",
-   "src": "Better Stack",
-   "kind": "Video"
   }
  ],
  "discussions": [
   {
    "src": "Hacker News",
-   "t": "DeepSeek-v4.1-Flash-1017",
-   "url": "https://news.ycombinator.com/item?id=50129045",
-   "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-   "up": 833,
-   "com": 640,
-   "at": "2026-10-17T08:21:25.000Z"
-  },
-  {
-   "src": "Hacker News",
    "t": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
    "url": "https://news.ycombinator.com/item?id=50137950",
    "link": "https://sphinx-six-theta.vercel.app/",
-   "up": 95,
-   "com": 26,
+   "up": 100,
+   "com": 30,
    "at": "2026-10-18T04:33:49.000Z"
   },
   {
@@ -898,8 +991,8 @@
    "t": "A Princeton PhD Applied to 2,300 Jobs. He Still Can't Get One",
    "url": "https://news.ycombinator.com/item?id=50138462",
    "link": "https://www.wsj.com/lifestyle/careers/labor-market-freeze-phd-graduate-f8e17d7c",
-   "up": 21,
-   "com": 13,
+   "up": 27,
+   "com": 16,
    "at": "2026-10-18T06:36:48.000Z"
   },
   {
@@ -907,7 +1000,7 @@
    "t": "Show HN: 500 clocks in one 6.3 MB HTML file by Opus 5.5",
    "url": "https://news.ycombinator.com/item?id=50137820",
    "link": "https://tkgally.github.io/500-clocks/",
-   "up": 43,
+   "up": 46,
    "com": 16,
    "at": "2026-10-18T04:04:58.000Z"
   },
@@ -919,6 +1012,15 @@
    "up": 162,
    "com": 58,
    "at": "2026-10-17T16:04:23.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Israeli settlers attack European diplomatic cars in West Bank beat French mayor",
+   "url": "https://news.ycombinator.com/item?id=50133274",
+   "link": "https://www.lemonde.fr/en/international/article/2026/10/17/israeli-settlers-attack-european-diplomatic-cars-in-west-bank-beat-french-mayor-say-witnesses_6758711_4.html",
+   "up": 128,
+   "com": 18,
+   "at": "2026-10-17T17:49:10.000Z"
   }
  ]
 }
