@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-18T03:01:01.699Z"
+  "updated": "2026-10-18T03:30:50.794Z"
  },
  "pulse": {
   "trending": 81,
-  "accelerating": 2,
+  "accelerating": 1,
   "newModels": 7,
-  "discussions": 34,
-  "stars": 1274
+  "discussions": 32,
+  "stars": 884
  },
  "rising": [
   {
@@ -37,11 +37,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 92,
-   "grow": null,
+   "grow": 1,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 2,649",
-    "~530 in 24h",
+    "★ 2,655",
+    "+106 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -57,8 +57,8 @@
    "grow": 2,
    "desc": "Git designed for AI agents.",
    "meta": [
-    "★ 1,140",
-    "+63 in 24h",
+    "★ 1,143",
+    "+69 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -71,11 +71,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 90,
-   "grow": 1,
+   "grow": 2,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 3,010",
-    "+88 in 24h",
+    "★ 3,013",
+    "+90 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -105,7 +105,7 @@
    "cat": "Vision",
    "score": 89,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 663",
+   "desc": "Vision on Hugging Face · open weights · ♥ 668",
    "meta": [
     "224K downloads",
     "Released 4 days ago"
@@ -123,8 +123,8 @@
    "grow": null,
    "desc": "基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。还原 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分析手册。",
    "meta": [
-    "★ 1,139",
-    "~322 in 24h",
+    "★ 1,140",
+    "~320 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-14T14:05:05Z",
@@ -153,7 +153,7 @@
    "src": "hf",
    "cat": "Vision",
    "score": 86,
-   "grow": 107,
+   "grow": null,
    "desc": "Vision on Hugging Face · open source · ♥ 908",
    "meta": [
     "36K downloads",
@@ -169,11 +169,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 85,
-   "grow": 5,
+   "grow": 6,
    "desc": "A design system for AI applications. Material, physical, tactile, technical.",
    "meta": [
-    "★ 1,765",
-    "+253 in 24h",
+    "★ 1,780",
+    "+282 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-12T09:19:02Z",
@@ -218,11 +218,11 @@
    "verdict": "The hype matches real use"
   },
   {
-   "name": "qwen21-nsfw-pose-skill",
-   "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
+   "name": "open-claude-ui",
+   "url": "https://github.com/Caho1/open-claude-ui",
    "from": "GitHub",
-   "use": 530,
-   "useLabel": "~530 stars/day",
+   "use": 320,
+   "useLabel": "~320 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -335,36 +335,36 @@
  ],
  "github": [
   {
-   "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2649,
-   "d24": 530,
-   "est": true,
-   "forks": 509,
-   "contrib": null,
-   "score": 92
-  },
-  {
    "repo": "Caho1/open-claude-ui",
-   "stars": 1139,
-   "d24": 322,
+   "stars": 1140,
+   "d24": 320,
    "est": true,
-   "forks": 253,
+   "forks": 254,
    "contrib": null,
    "score": 88
   },
   {
    "repo": "deeplethe/solid-glass",
-   "stars": 1765,
-   "d24": 253,
+   "stars": 1780,
+   "d24": 282,
    "est": false,
    "forks": 22,
    "contrib": null,
    "score": 85
   },
   {
+   "repo": "Arekejoker/qwen21-nsfw-pose-skill",
+   "stars": 2655,
+   "d24": 106,
+   "est": false,
+   "forks": 510,
+   "contrib": null,
+   "score": 92
+  },
+  {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 3010,
-   "d24": 88,
+   "stars": 3013,
+   "d24": 90,
    "est": false,
    "forks": 391,
    "contrib": null,
@@ -372,17 +372,17 @@
   },
   {
    "repo": "feder-cr/git-ai",
-   "stars": 1140,
-   "d24": 63,
+   "stars": 1143,
+   "d24": 69,
    "est": false,
-   "forks": 123,
+   "forks": 124,
    "contrib": null,
    "score": 92
   },
   {
    "repo": "zhuyansen/new-term-radar",
    "stars": 1084,
-   "d24": 18,
+   "d24": 17,
    "est": false,
    "forks": 422,
    "contrib": null,
@@ -399,7 +399,7 @@
    "grow": null,
    "score": 98,
    "cat": "Vision",
-   "likes": 1001
+   "likes": 1011
   },
   {
    "name": "embeddinggemma-2",
@@ -421,7 +421,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Vision",
-   "likes": 663
+   "likes": 668
   },
   {
    "name": "humanizer",
@@ -441,7 +441,7 @@
    "lic": "Open source",
    "at": "2026-10-07T07:07:30.000Z",
    "dl": 36252,
-   "grow": 107,
+   "grow": null,
    "score": 86,
    "cat": "Vision",
    "likes": 908
@@ -455,7 +455,7 @@
    "grow": 0,
    "score": 85,
    "cat": "Tools",
-   "likes": 624
+   "likes": 626
   }
  ],
  "free": [
@@ -774,6 +774,13 @@
    "kind": "News"
   },
   {
+   "t": "Elon Musk to share key message on solving US national debt in ‘The Builders with Walter Isaacson’ podcast soon",
+   "url": "https://www.thenews.com.pk/latest/1420310-elon-musk-to-share-key-message-on-solving-us-national-debt-in-the-builders-with-walter-isaacson-podcast-soon",
+   "at": "2026-10-17T15:28:00Z",
+   "src": "The News International",
+   "kind": "News"
+  },
+  {
    "t": "Why Britain should reject the lure of cheap – and  scary – Chinese AI",
    "url": "https://www.theguardian.com/business/2026/oct/17/why-britain-should-reject-the-lure-of-cheap-and-scary-chinese-ai",
    "at": "2026-10-17T15:00:33Z",
@@ -851,13 +858,6 @@
    "kind": "News"
   },
   {
-   "t": "Who was the OpenAI engineer who allegedly bugged a company conference room?",
-   "url": "https://www.latimes.com/california/story/2026-10-17/who-was-openai-engineer-who-allegedly-bugged-company-conference-room",
-   "at": "2026-10-17T13:00:00Z",
-   "src": "Los Angeles Times",
-   "kind": "News"
-  },
-  {
    "t": "A profile of Blackstone President Jon Gray, who is making AI his biggest bet, has built a $200B data center empire, and is building a cloud venture with Google",
    "url": "https://www.techmeme.com/261017/p10#a261017p10",
    "at": "2026-10-17T12:35:02.000Z",
@@ -871,8 +871,8 @@
    "t": "DeepSeek-v4.1-Flash-1017",
    "url": "https://news.ycombinator.com/item?id=50129045",
    "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-   "up": 728,
-   "com": 601,
+   "up": 739,
+   "com": 606,
    "at": "2026-10-17T08:21:25.000Z"
   },
   {
@@ -880,7 +880,7 @@
    "t": "DeepSeek: DeepSeek v4.1 Flash 1017",
    "url": "https://news.ycombinator.com/item?id=50129121",
    "link": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
-   "up": 511,
+   "up": 512,
    "com": 5,
    "at": "2026-10-17T08:37:46.000Z"
   },
@@ -898,7 +898,7 @@
    "t": "Israeli settlers attack European diplomatic cars in West Bank beat French mayor",
    "url": "https://news.ycombinator.com/item?id=50133274",
    "link": "https://www.lemonde.fr/en/international/article/2026/10/17/israeli-settlers-attack-european-diplomatic-cars-in-west-bank-beat-french-mayor-say-witnesses_6758711_4.html",
-   "up": 122,
+   "up": 123,
    "com": 16,
    "at": "2026-10-17T17:49:10.000Z"
   },
@@ -907,7 +907,7 @@
    "t": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
    "url": "https://news.ycombinator.com/item?id=50127979",
    "link": "https://llmspeed.dev/",
-   "up": 258,
+   "up": 261,
    "com": 77,
    "at": "2026-10-17T04:36:53.000Z"
   },
@@ -916,7 +916,7 @@
    "t": "OpenAI discloses four more rogue incidents",
    "url": "https://news.ycombinator.com/item?id=50132502",
    "link": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/",
-   "up": 120,
+   "up": 121,
    "com": 145,
    "at": "2026-10-17T16:31:12.000Z"
   }
