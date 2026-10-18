@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-18T05:30:49.984Z"
+  "updated": "2026-10-18T06:01:02.178Z"
  },
  "pulse": {
   "trending": 82,
   "accelerating": 0,
   "newModels": 8,
-  "discussions": 34,
-  "stars": 694
+  "discussions": 31,
+  "stars": 705
  },
  "rising": [
   {
@@ -40,8 +40,8 @@
    "grow": 1,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 2,663",
-    "+104 in 24h",
+    "★ 2,665",
+    "+103 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -53,12 +53,12 @@
    "owner": "feder-cr",
    "src": "gh",
    "cat": "Agents",
-   "score": 92,
+   "score": 91,
    "grow": 2,
    "desc": "Git designed for AI agents.",
    "meta": [
-    "★ 1,148",
-    "+67 in 24h",
+    "★ 1,150",
+    "+68 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -70,11 +70,11 @@
    "owner": "onehumanbeing",
    "src": "gh",
    "cat": "Agents",
-   "score": 90,
+   "score": 89,
    "grow": 2,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 3,021",
+    "★ 3,023",
     "+91 in 24h",
     "Created 6 days ago"
    ],
@@ -105,7 +105,7 @@
    "cat": "Vision",
    "score": 89,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 683",
+   "desc": "Vision on Hugging Face · open weights · ♥ 688",
    "meta": [
     "224K downloads",
     "Released 4 days ago"
@@ -119,12 +119,12 @@
    "owner": "Caho1",
    "src": "gh",
    "cat": "Tools",
-   "score": 88,
-   "grow": 1,
+   "score": 87,
+   "grow": 2,
    "desc": "基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。还原 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分析手册。",
    "meta": [
-    "★ 1,146",
-    "+55 in 24h",
+    "★ 1,149",
+    "+61 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-14T14:05:05Z",
@@ -148,6 +148,23 @@
    "url": "https://huggingface.co/jialinyyzz/humanizer"
   },
   {
+   "name": "solid-glass",
+   "owner": "deeplethe",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 86,
+   "grow": 9,
+   "desc": "A design system for AI applications. Material, physical, tactile, technical.",
+   "meta": [
+    "★ 1,843",
+    "+359 in 24h",
+    "Created 6 days ago"
+   ],
+   "at": "2026-10-12T09:19:02Z",
+   "breakout": null,
+   "url": "https://github.com/deeplethe/solid-glass"
+  },
+  {
    "name": "MiniCPM-V-4.7-35B-A3B",
    "owner": "openbmb",
    "src": "hf",
@@ -162,23 +179,6 @@
    "at": "2026-10-07T07:07:30.000Z",
    "breakout": null,
    "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B"
-  },
-  {
-   "name": "solid-glass",
-   "owner": "deeplethe",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 85,
-   "grow": 9,
-   "desc": "A design system for AI applications. Material, physical, tactile, technical.",
-   "meta": [
-    "★ 1,835",
-    "+358 in 24h",
-    "Created 6 days ago"
-   ],
-   "at": "2026-10-12T09:19:02Z",
-   "breakout": null,
-   "url": "https://github.com/deeplethe/solid-glass"
   }
  ],
  "breakouts": [],
@@ -221,8 +221,8 @@
    "name": "solid-glass",
    "url": "https://github.com/deeplethe/solid-glass",
    "from": "GitHub",
-   "use": 358,
-   "useLabel": "+358 stars/day",
+   "use": 359,
+   "useLabel": "+359 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -336,53 +336,53 @@
  "github": [
   {
    "repo": "deeplethe/solid-glass",
-   "stars": 1835,
-   "d24": 358,
+   "stars": 1843,
+   "d24": 359,
    "est": false,
-   "forks": 22,
+   "forks": 23,
    "contrib": null,
-   "score": 85
+   "score": 86
   },
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2663,
-   "d24": 104,
+   "stars": 2665,
+   "d24": 103,
    "est": false,
-   "forks": 510,
+   "forks": 511,
    "contrib": null,
    "score": 92
   },
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 3021,
+   "stars": 3023,
    "d24": 91,
    "est": false,
    "forks": 391,
    "contrib": null,
-   "score": 90
+   "score": 89
   },
   {
    "repo": "feder-cr/git-ai",
-   "stars": 1148,
-   "d24": 67,
+   "stars": 1150,
+   "d24": 68,
    "est": false,
    "forks": 124,
    "contrib": null,
-   "score": 92
+   "score": 91
   },
   {
    "repo": "Caho1/open-claude-ui",
-   "stars": 1146,
-   "d24": 55,
+   "stars": 1149,
+   "d24": 61,
    "est": false,
    "forks": 253,
    "contrib": null,
-   "score": 88
+   "score": 87
   },
   {
    "repo": "zhuyansen/new-term-radar",
-   "stars": 1086,
-   "d24": 19,
+   "stars": 1088,
+   "d24": 23,
    "est": false,
    "forks": 422,
    "contrib": null,
@@ -399,7 +399,7 @@
    "grow": null,
    "score": 98,
    "cat": "Vision",
-   "likes": 1057
+   "likes": 1070
   },
   {
    "name": "embeddinggemma-2",
@@ -410,7 +410,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Vision",
-   "likes": 2608
+   "likes": 2609
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -421,7 +421,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Vision",
-   "likes": 683
+   "likes": 688
   },
   {
    "name": "humanizer",
@@ -432,7 +432,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Infrastructure",
-   "likes": 1907
+   "likes": 1908
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -455,7 +455,7 @@
    "grow": 0,
    "score": 85,
    "cat": "Tools",
-   "likes": 630
+   "likes": 632
   }
  ],
  "free": [
@@ -753,6 +753,13 @@
  },
  "headlines": [
   {
+   "t": "Holyvolt, which develops AI tools for making and testing new battery materials, raised $45M from Zone II, CC.VC, and others, a source says at a $245M valuation",
+   "url": "https://www.techmeme.com/261018/p3#a261018p3",
+   "at": "2026-10-18T05:40:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Sources: Anthropic is consulting law firms on deal negotiation tactics as it develops AI agents to negotiate on humans' behalf and interact with AI counterparts",
    "url": "https://www.techmeme.com/261018/p2#a261018p2",
    "at": "2026-10-18T05:10:01.000Z",
@@ -785,6 +792,13 @@
    "url": "https://www.techmeme.com/261017/p18#a261017p18",
    "at": "2026-10-17T20:50:01.000Z",
    "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "FTC subpoenas OpenAI and Anthropic over AI safety incidents",
+   "url": "https://thenextweb.com/news/ftc-subpoenas-openai-anthropic-ai-safety-incidents",
+   "at": "2026-10-17T17:51:58Z",
+   "src": "TNW",
    "kind": "News"
   },
   {
@@ -849,20 +863,6 @@
    "at": "2026-10-17T15:28:00Z",
    "src": "The News International",
    "kind": "News"
-  },
-  {
-   "t": "Why Britain should reject the lure of cheap – and  scary – Chinese AI",
-   "url": "https://www.theguardian.com/business/2026/oct/17/why-britain-should-reject-the-lure-of-cheap-and-scary-chinese-ai",
-   "at": "2026-10-17T15:00:33Z",
-   "src": "The Guardian",
-   "kind": "News"
-  },
-  {
-   "t": "EU investigates OpenAI and Anthropic over agent hacks, Euronews reports",
-   "url": "https://www.europesays.com/3315692/",
-   "at": "2026-10-17T14:45:16Z",
-   "src": "EUROPE SAYS",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -871,9 +871,18 @@
    "t": "DeepSeek-v4.1-Flash-1017",
    "url": "https://news.ycombinator.com/item?id=50129045",
    "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-   "up": 776,
-   "com": 618,
+   "up": 791,
+   "com": 623,
    "at": "2026-10-17T08:21:25.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Show HN: Sphinx – a hook that quizzes you on your AI's code before shipping",
+   "url": "https://news.ycombinator.com/item?id=50137950",
+   "link": "https://sphinx-six-theta.vercel.app/",
+   "up": 45,
+   "com": 11,
+   "at": "2026-10-18T04:33:49.000Z"
   },
   {
    "src": "Hacker News",
@@ -889,7 +898,7 @@
    "t": "Amazon uses AI to monitor union risk in UK warehouses",
    "url": "https://news.ycombinator.com/item?id=50132278",
    "link": "https://www.opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield/",
-   "up": 157,
+   "up": 158,
    "com": 58,
    "at": "2026-10-17T16:04:23.000Z"
   },
@@ -898,26 +907,17 @@
    "t": "Israeli settlers attack European diplomatic cars in West Bank beat French mayor",
    "url": "https://news.ycombinator.com/item?id=50133274",
    "link": "https://www.lemonde.fr/en/international/article/2026/10/17/israeli-settlers-attack-european-diplomatic-cars-in-west-bank-beat-french-mayor-say-witnesses_6758711_4.html",
-   "up": 124,
+   "up": 125,
    "com": 16,
    "at": "2026-10-17T17:49:10.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "OpenAI discloses four more rogue incidents",
-   "url": "https://news.ycombinator.com/item?id=50132502",
-   "link": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/",
-   "up": 123,
-   "com": 148,
-   "at": "2026-10-17T16:31:12.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Codex Desktop continuously generates Crashpad pending dumps",
    "url": "https://news.ycombinator.com/item?id=50133231",
    "link": "https://github.com/openai/codex/issues/25921",
-   "up": 111,
-   "com": 39,
+   "up": 115,
+   "com": 41,
    "at": "2026-10-17T17:45:08.000Z"
   }
  ]
