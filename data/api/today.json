@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-18T15:01:04.544Z"
+  "updated": "2026-10-18T15:30:52.054Z"
  },
  "pulse": {
   "trending": 82,
-  "accelerating": 2,
+  "accelerating": 1,
   "newModels": 7,
-  "discussions": 25,
-  "stars": 2328
+  "discussions": 29,
+  "stars": 2362
  },
  "rising": [
   {
@@ -40,8 +40,8 @@
    "grow": null,
    "desc": "Your TV, minus the ads. Debloat any Android TV over ADB and give it a clean, tvOS-inspired launcher. Built in an afternoon with Claude Code.",
    "meta": [
-    "★ 1,101",
-    "~858 in 24h",
+    "★ 1,163",
+    "~892 in 24h",
     "Created yesterday"
    ],
    "at": "2026-10-17T08:12:35Z",
@@ -54,11 +54,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 92,
-   "grow": 27,
+   "grow": 33,
    "desc": "Git designed for AI agents.",
    "meta": [
-    "★ 1,428",
-    "+396 in 24h",
+    "★ 1,489",
+    "+462 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -74,9 +74,9 @@
    "grow": 3,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 2,710",
-    "+112 in 24h",
-    "Created 5 days ago"
+    "★ 2,714",
+    "+114 in 24h",
+    "Created 6 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
    "breakout": null,
@@ -121,7 +121,7 @@
    "cat": "Vision",
    "score": 87,
    "grow": 60,
-   "desc": "Vision on Hugging Face · open source · ♥ 951",
+   "desc": "Vision on Hugging Face · open source · ♥ 956",
    "meta": [
     "58K downloads",
     "Released 11 days ago"
@@ -139,8 +139,8 @@
    "grow": null,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 3,079",
-    "~451 in 24h",
+    "★ 3,082",
+    "~450 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -156,7 +156,7 @@
    "grow": 6,
    "desc": "基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。还原 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分析手册。",
    "meta": [
-    "★ 1,196",
+    "★ 1,198",
     "+96 in 24h",
     "Created 4 days ago"
    ],
@@ -187,8 +187,8 @@
    "name": "tv-vibehack",
    "url": "https://github.com/Gathin23/tv-vibehack",
    "from": "GitHub",
-   "use": 858,
-   "useLabel": "~858 stars/day",
+   "use": 892,
+   "useLabel": "~892 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -302,44 +302,44 @@
  "github": [
   {
    "repo": "Gathin23/tv-vibehack",
-   "stars": 1101,
-   "d24": 858,
+   "stars": 1163,
+   "d24": 892,
    "est": true,
-   "forks": 124,
+   "forks": 134,
    "contrib": null,
    "score": 96
   },
   {
+   "repo": "feder-cr/git-ai",
+   "stars": 1489,
+   "d24": 462,
+   "est": false,
+   "forks": 167,
+   "contrib": null,
+   "score": 92
+  },
+  {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 3079,
-   "d24": 451,
+   "stars": 3082,
+   "d24": 450,
    "est": true,
    "forks": 399,
    "contrib": null,
    "score": 86
   },
   {
-   "repo": "feder-cr/git-ai",
-   "stars": 1428,
-   "d24": 396,
-   "est": false,
-   "forks": 162,
-   "contrib": null,
-   "score": 92
-  },
-  {
    "repo": "deeplethe/solid-glass",
-   "stars": 2002,
-   "d24": 389,
-   "est": false,
+   "stars": 2003,
+   "d24": 320,
+   "est": true,
    "forks": 25,
    "contrib": null,
    "score": 84
   },
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2710,
-   "d24": 112,
+   "stars": 2714,
+   "d24": 114,
    "est": false,
    "forks": 522,
    "contrib": null,
@@ -347,7 +347,7 @@
   },
   {
    "repo": "Caho1/open-claude-ui",
-   "stars": 1196,
+   "stars": 1198,
    "d24": 96,
    "est": false,
    "forks": 258,
@@ -356,8 +356,8 @@
   },
   {
    "repo": "zhuyansen/new-term-radar",
-   "stars": 1099,
-   "d24": 26,
+   "stars": 1101,
+   "d24": 28,
    "est": false,
    "forks": 422,
    "contrib": null,
@@ -374,7 +374,7 @@
    "grow": null,
    "score": 97,
    "cat": "Vision",
-   "likes": 1227
+   "likes": 1233
   },
   {
    "name": "embeddinggemma-2",
@@ -385,7 +385,7 @@
    "grow": 4,
    "score": 89,
    "cat": "Vision",
-   "likes": 2636
+   "likes": 2638
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -408,7 +408,7 @@
    "grow": 60,
    "score": 87,
    "cat": "Vision",
-   "likes": 951
+   "likes": 956
   },
   {
    "name": "humanizer",
@@ -419,7 +419,7 @@
    "grow": 8,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 1927
+   "likes": 1929
   },
   {
    "name": "drama-3",
@@ -430,7 +430,7 @@
    "grow": null,
    "score": 85,
    "cat": "Tools",
-   "likes": 662
+   "likes": 664
   }
  ],
  "free": [
@@ -798,6 +798,13 @@
    "kind": "News"
   },
   {
+   "t": "AI Investment boom raises cross-asset risks as capex cycle matures, says BCA research strategist",
+   "url": "https://www.aninews.in/news/business/ai-investment-boom-raises-cross-asset-risks-as-capex-cycle-matures-says-bca-research-strategist20261018084322/",
+   "at": "2026-10-18T03:13:22Z",
+   "src": "ANI (Asian News International)",
+   "kind": "News"
+  },
+  {
    "t": "AI reshapes labour demand across Asia, posing challenges for job creation and skills development: Report",
    "url": "https://www.aninews.in/news/business/ai-reshapes-labour-demand-across-asia-posing-challenges-for-job-creation-and-skills-development-report20261018082955/",
    "at": "2026-10-18T02:59:55Z",
@@ -831,13 +838,6 @@
    "at": "2026-10-18T01:20:02.000Z",
    "src": "Techmeme",
    "kind": "News"
-  },
-  {
-   "t": "AI Trade Reversal Pierces Asia’s Star Picks-and-Shovels Stocks",
-   "url": "https://www.livemint.com/market/ai-trade-reversal-pierces-asia-s-star-picks-and-shovels-stocks-11792284261229.html",
-   "at": "2026-10-18T00:44:20Z",
-   "src": "Livemint",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -846,17 +846,44 @@
    "t": "RepRapMicron",
    "url": "https://news.ycombinator.com/item?id=50141076",
    "link": "https://github.com/VikOlliver/RepRapMicron/wiki",
-   "up": 77,
-   "com": 10,
+   "up": 107,
+   "com": 19,
    "at": "2026-10-18T13:48:48.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
+   "url": "https://news.ycombinator.com/item?id=50141429",
+   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
+   "up": 48,
+   "com": 38,
+   "at": "2026-10-18T14:30:27.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Websites are closing their doors to AI agents",
+   "url": "https://news.ycombinator.com/item?id=50141657",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+   "up": 25,
+   "com": 17,
+   "at": "2026-10-18T14:58:10.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Tesla 'Cannot Guarantee' Roadster Reservation Holders Will Ever Get a Car",
+   "url": "https://news.ycombinator.com/item?id=50141295",
+   "link": "https://www.thedrive.com/news/tesla-cannot-guarantee-roadster-reservation-holders-will-ever-get-a-car",
+   "up": 29,
+   "com": 20,
+   "at": "2026-10-18T14:16:41.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Open MicroManipulator – A sub-micrometer 3D motion control plattform",
    "url": "https://news.ycombinator.com/item?id=50140001",
    "link": "https://github.com/0x23/MicroManipulatorStepper",
-   "up": 76,
-   "com": 6,
+   "up": 90,
+   "com": 7,
    "at": "2026-10-18T11:16:22.000Z"
   },
   {
@@ -864,36 +891,9 @@
    "t": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
    "url": "https://news.ycombinator.com/item?id=50137950",
    "link": "https://sphinx-six-theta.vercel.app/",
-   "up": 193,
+   "up": 201,
    "com": 61,
    "at": "2026-10-18T04:33:49.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Codex Desktop continuously generates Crashpad pending dumps",
-   "url": "https://news.ycombinator.com/item?id=50133231",
-   "link": "https://github.com/openai/codex/issues/25921",
-   "up": 156,
-   "com": 73,
-   "at": "2026-10-17T17:45:08.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Amazon uses AI to monitor union risk in UK warehouses",
-   "url": "https://news.ycombinator.com/item?id=50132278",
-   "link": "https://www.opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield/",
-   "up": 168,
-   "com": 58,
-   "at": "2026-10-17T16:04:23.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Israeli settlers attack European diplomatic cars in West Bank beat French mayor",
-   "url": "https://news.ycombinator.com/item?id=50133274",
-   "link": "https://www.lemonde.fr/en/international/article/2026/10/17/israeli-settlers-attack-european-diplomatic-cars-in-west-bank-beat-french-mayor-say-witnesses_6758711_4.html",
-   "up": 134,
-   "com": 19,
-   "at": "2026-10-17T17:49:10.000Z"
   }
  ]
 }
