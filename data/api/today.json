@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-18T22:35:11.722Z"
+  "updated": "2026-10-18T23:01:06.435Z"
  },
  "pulse": {
   "trending": 81,
   "accelerating": 1,
   "newModels": 8,
   "discussions": 31,
-  "stars": 5124
+  "stars": 5369
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 97,
-   "grow": 71,
+   "grow": 75,
    "desc": "Your TV, minus the ads. Debloat any Android TV over ADB and give it a clean, tvOS-inspired launcher. Built in an afternoon with Claude Code.",
    "meta": [
-    "★ 1,787",
-    "+2,209 in 24h",
+    "★ 1,832",
+    "+2,224 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-17T08:12:35Z",
@@ -54,11 +54,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 93,
-   "grow": 36,
+   "grow": 42,
    "desc": "Git designed for AI agents.",
    "meta": [
-    "★ 2,032",
-    "+2,111 in 24h",
+    "★ 2,134",
+    "+2,347 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -75,7 +75,7 @@
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
     "★ 2,731",
-    "~470 in 24h",
+    "~469 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -105,7 +105,7 @@
    "cat": "Vision",
    "score": 88,
    "grow": 51,
-   "desc": "Vision on Hugging Face · open weights · ♥ 799",
+   "desc": "Vision on Hugging Face · open weights · ♥ 804",
    "meta": [
     "338K downloads",
     "Released 4 days ago"
@@ -153,7 +153,7 @@
    "cat": "Tools",
    "score": 85,
    "grow": 0,
-   "desc": "Model on Hugging Face · open weights · ♥ 686",
+   "desc": "Model on Hugging Face · open weights · ♥ 688",
    "meta": [
     "9.6K downloads",
     "Released 18 days ago"
@@ -182,11 +182,11 @@
  "breakouts": [],
  "hype": [
   {
-   "name": "tv-vibehack",
-   "url": "https://github.com/Gathin23/tv-vibehack",
+   "name": "git-ai",
+   "url": "https://github.com/feder-cr/git-ai",
    "from": "GitHub",
-   "use": 2209,
-   "useLabel": "+2,209 stars/day",
+   "use": 2347,
+   "useLabel": "+2,347 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -299,27 +299,27 @@
  ],
  "github": [
   {
-   "repo": "Gathin23/tv-vibehack",
-   "stars": 1787,
-   "d24": 2209,
-   "est": false,
-   "forks": 217,
-   "contrib": null,
-   "score": 97
-  },
-  {
    "repo": "feder-cr/git-ai",
-   "stars": 2032,
-   "d24": 2111,
+   "stars": 2134,
+   "d24": 2347,
    "est": false,
    "forks": 257,
    "contrib": null,
    "score": 93
   },
   {
+   "repo": "Gathin23/tv-vibehack",
+   "stars": 1832,
+   "d24": 2224,
+   "est": false,
+   "forks": 221,
+   "contrib": null,
+   "score": 97
+  },
+  {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
    "stars": 2731,
-   "d24": 470,
+   "d24": 469,
    "est": true,
    "forks": 522,
    "contrib": null,
@@ -328,7 +328,7 @@
   {
    "repo": "Caho1/open-claude-ui",
    "stars": 1206,
-   "d24": 277,
+   "d24": 276,
    "est": true,
    "forks": 259,
    "contrib": null,
@@ -337,7 +337,7 @@
   {
    "repo": "deeplethe/solid-glass",
    "stars": 2015,
-   "d24": 41,
+   "d24": 38,
    "est": false,
    "forks": 27,
    "contrib": null,
@@ -346,7 +346,7 @@
   {
    "repo": "zhuyansen/new-term-radar",
    "stars": 1108,
-   "d24": 16,
+   "d24": 15,
    "est": false,
    "forks": 422,
    "contrib": null,
@@ -363,7 +363,7 @@
    "grow": null,
    "score": 97,
    "cat": "Vision",
-   "likes": 1319
+   "likes": 1321
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -375,7 +375,7 @@
    "grow": 60,
    "score": 89,
    "cat": "Vision",
-   "likes": 1005
+   "likes": 1006
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -386,7 +386,7 @@
    "grow": 51,
    "score": 88,
    "cat": "Vision",
-   "likes": 799
+   "likes": 804
   },
   {
    "name": "embeddinggemma-2",
@@ -397,7 +397,7 @@
    "grow": null,
    "score": 87,
    "cat": "Vision",
-   "likes": 2659
+   "likes": 2660
   },
   {
    "name": "humanizer",
@@ -408,7 +408,7 @@
    "grow": null,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 1943
+   "likes": 1944
   },
   {
    "name": "drama-3",
@@ -419,7 +419,7 @@
    "grow": 0,
    "score": 85,
    "cat": "Tools",
-   "likes": 686
+   "likes": 688
   }
  ],
  "free": [
@@ -766,6 +766,20 @@
    "kind": "News"
   },
   {
+   "t": "IMF and World Bank meetings leave developing countries with more questions than answers",
+   "url": "https://economictimes.indiatimes.com/news/international/world-news/imf-and-world-bank-meetings-leave-developing-countries-with-more-questions-than-answers/articleshow/135027567.cms",
+   "at": "2026-10-18T11:01:00Z",
+   "src": "The Economic Times",
+   "kind": "News"
+  },
+  {
+   "t": "The language of extermination: NAZA, Artificial Intelligence and Gaza",
+   "url": "https://www.middleeastmonitor.com/20261018-the-language-of-extermination-naza-artificial-intelligence-and-gaza/",
+   "at": "2026-10-18T10:51:04Z",
+   "src": "Middle East Monitor",
+   "kind": "News"
+  },
+  {
    "t": "AI robots are roaming LA grocery store aisles. Shoppers and workers are worried",
    "url": "https://www.spokesman.com/stories/2026/oct/18/ai-robots-are-roaming-la-grocery-store-aisles-shop/",
    "at": "2026-10-18T10:30:00Z",
@@ -808,20 +822,6 @@
    "kind": "News"
   },
   {
-   "t": "How Artificial Intelligence Is Changing the Way We Work and Live",
-   "url": "https://techbullion.com/how-artificial-intelligence-is-changing-the-way-we-work-and-live/",
-   "at": "2026-10-18T08:08:18Z",
-   "src": "TechBullion",
-   "kind": "News"
-  },
-  {
-   "t": "US-based TN techie uses AI to send threats to Kerala airport, CM’s home and temples for years, then tracks impact through news reports. Now held from airport after 1,500 hoax bomb threats across India",
-   "url": "https://timesofindia.indiatimes.com/city/chennai/us-based-tn-techie-uses-ai-to-send-threats-to-kerala-airport-cms-home-and-temples-for-years-then-tracks-impact-through-news-reports-now-held-from-airport-after-1500-hoax-bomb-threats-across-india/articleshow/135025738.cms",
-   "at": "2026-10-18T07:58:00Z",
-   "src": "Times of India",
-   "kind": "News"
-  },
-  {
    "t": "AI debt worries mount as CoreWeave's bond yield tops 15%, insuring SoftBank debt gets pricier, and some Oracle debt trades near 80 to 90 cents on the dollar",
    "url": "https://www.techmeme.com/261018/p5#a261018p5",
    "at": "2026-10-18T06:10:04.000Z",
@@ -835,8 +835,8 @@
    "t": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
    "url": "https://news.ycombinator.com/item?id=50145337",
    "link": "https://arxiv.org/abs/2610.18861",
-   "up": 96,
-   "com": 36,
+   "up": 114,
+   "com": 58,
    "at": "2026-10-18T20:48:14.000Z"
   },
   {
@@ -844,8 +844,8 @@
    "t": "RepRapMicron",
    "url": "https://news.ycombinator.com/item?id=50141076",
    "link": "https://github.com/VikOlliver/RepRapMicron/wiki",
-   "up": 307,
-   "com": 47,
+   "up": 312,
+   "com": 48,
    "at": "2026-10-18T13:48:48.000Z"
   },
   {
@@ -853,8 +853,8 @@
    "t": "Free Pascal compiler now supports dynamic packages",
    "url": "https://news.ycombinator.com/item?id=50144066",
    "link": "https://www.getlazarus.org/dynamic/",
-   "up": 86,
-   "com": 13,
+   "up": 93,
+   "com": 12,
    "at": "2026-10-18T18:48:04.000Z"
   },
   {
@@ -880,8 +880,8 @@
    "t": "British Airways: Filming Crew W Meta Glasses Could Get Your Tickets Cancelled",
    "url": "https://news.ycombinator.com/item?id=50143218",
    "link": "https://liveandletsfly.com/british-airways-meta-smart-glasses-filming/",
-   "up": 85,
-   "com": 140,
+   "up": 86,
+   "com": 142,
    "at": "2026-10-18T17:27:30.000Z"
   }
  ]
