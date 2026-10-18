@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-18T17:01:01.513Z"
+  "updated": "2026-10-18T17:30:51.455Z"
  },
  "pulse": {
   "trending": 82,
   "accelerating": 1,
   "newModels": 7,
-  "discussions": 30,
-  "stars": 2595
+  "discussions": 29,
+  "stars": 2985
  },
  "rising": [
   {
@@ -40,8 +40,8 @@
    "grow": null,
    "desc": "Your TV, minus the ads. Debloat any Android TV over ADB and give it a clean, tvOS-inspired launcher. Built in an afternoon with Claude Code.",
    "meta": [
-    "★ 1,330",
-    "~973 in 24h",
+    "★ 1,387",
+    "~1,000 in 24h",
     "Created yesterday"
    ],
    "at": "2026-10-17T08:12:35Z",
@@ -53,12 +53,12 @@
    "owner": "feder-cr",
    "src": "gh",
    "cat": "Agents",
-   "score": 92,
+   "score": 91,
    "grow": null,
    "desc": "Git designed for AI agents.",
    "meta": [
-    "★ 1,498",
-    "~474 in 24h",
+    "★ 1,499",
+    "~471 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -71,11 +71,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 90,
-   "grow": 4,
+   "grow": null,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 2,722",
-    "+115 in 24h",
+    "★ 2,723",
+    "~486 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -105,7 +105,7 @@
    "cat": "Vision",
    "score": 88,
    "grow": 51,
-   "desc": "Vision on Hugging Face · open weights · ♥ 765",
+   "desc": "Vision on Hugging Face · open weights · ♥ 766",
    "meta": [
     "338K downloads",
     "Released 4 days ago"
@@ -121,7 +121,7 @@
    "cat": "Vision",
    "score": 87,
    "grow": 60,
-   "desc": "Vision on Hugging Face · open source · ♥ 969",
+   "desc": "Vision on Hugging Face · open source · ♥ 973",
    "meta": [
     "58K downloads",
     "Released 11 days ago"
@@ -139,8 +139,8 @@
    "grow": null,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 3,094",
-    "~448 in 24h",
+    "★ 3,095",
+    "~447 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -173,7 +173,7 @@
    "desc": "基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。还原 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分析手册。",
    "meta": [
     "★ 1,203",
-    "+95 in 24h",
+    "+92 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-14T14:05:05Z",
@@ -187,8 +187,8 @@
    "name": "tv-vibehack",
    "url": "https://github.com/Gathin23/tv-vibehack",
    "from": "GitHub",
-   "use": 973,
-   "useLabel": "~973 stars/day",
+   "use": 1000,
+   "useLabel": "~1,000 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -302,26 +302,35 @@
  "github": [
   {
    "repo": "Gathin23/tv-vibehack",
-   "stars": 1330,
-   "d24": 973,
+   "stars": 1387,
+   "d24": 1000,
    "est": true,
-   "forks": 149,
+   "forks": 153,
    "contrib": null,
    "score": 96
   },
   {
+   "repo": "Arekejoker/qwen21-nsfw-pose-skill",
+   "stars": 2723,
+   "d24": 486,
+   "est": true,
+   "forks": 522,
+   "contrib": null,
+   "score": 90
+  },
+  {
    "repo": "feder-cr/git-ai",
-   "stars": 1498,
-   "d24": 474,
+   "stars": 1499,
+   "d24": 471,
    "est": true,
    "forks": 173,
    "contrib": null,
-   "score": 92
+   "score": 91
   },
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 3094,
-   "d24": 448,
+   "stars": 3095,
+   "d24": 447,
    "est": true,
    "forks": 403,
    "contrib": null,
@@ -329,10 +338,10 @@
   },
   {
    "repo": "deeplethe/solid-glass",
-   "stars": 2008,
-   "d24": 318,
+   "stars": 2009,
+   "d24": 317,
    "est": true,
-   "forks": 25,
+   "forks": 27,
    "contrib": null,
    "score": 84
   },
@@ -346,18 +355,9 @@
    "score": 74
   },
   {
-   "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2722,
-   "d24": 115,
-   "est": false,
-   "forks": 522,
-   "contrib": null,
-   "score": 90
-  },
-  {
    "repo": "Caho1/open-claude-ui",
    "stars": 1203,
-   "d24": 95,
+   "d24": 92,
    "est": false,
    "forks": 258,
    "contrib": null,
@@ -374,7 +374,7 @@
    "grow": null,
    "score": 97,
    "cat": "Vision",
-   "likes": 1251
+   "likes": 1257
   },
   {
    "name": "embeddinggemma-2",
@@ -396,7 +396,7 @@
    "grow": 51,
    "score": 88,
    "cat": "Vision",
-   "likes": 765
+   "likes": 766
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -408,7 +408,7 @@
    "grow": 60,
    "score": 87,
    "cat": "Vision",
-   "likes": 969
+   "likes": 973
   },
   {
    "name": "humanizer",
@@ -430,7 +430,7 @@
    "grow": 0,
    "score": 85,
    "cat": "Tools",
-   "likes": 671
+   "likes": 672
   }
  ],
  "free": [
@@ -846,7 +846,7 @@
    "t": "RepRapMicron",
    "url": "https://news.ycombinator.com/item?id=50141076",
    "link": "https://github.com/VikOlliver/RepRapMicron/wiki",
-   "up": 184,
+   "up": 195,
    "com": 28,
    "at": "2026-10-18T13:48:48.000Z"
   },
@@ -855,8 +855,8 @@
    "t": "Websites are closing their doors to AI agents",
    "url": "https://news.ycombinator.com/item?id=50141657",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
-   "up": 93,
-   "com": 69,
+   "up": 106,
+   "com": 86,
    "at": "2026-10-18T14:58:10.000Z"
   },
   {
@@ -864,8 +864,8 @@
    "t": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
    "url": "https://news.ycombinator.com/item?id=50141429",
    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
-   "up": 103,
-   "com": 110,
+   "up": 116,
+   "com": 132,
    "at": "2026-10-18T14:30:27.000Z"
   },
   {
@@ -873,27 +873,27 @@
    "t": "Tesla 'Cannot Guarantee' Roadster Reservation Holders Will Ever Get a Car",
    "url": "https://news.ycombinator.com/item?id=50141295",
    "link": "https://www.thedrive.com/news/tesla-cannot-guarantee-roadster-reservation-holders-will-ever-get-a-car",
-   "up": 76,
-   "com": 94,
+   "up": 84,
+   "com": 103,
    "at": "2026-10-18T14:16:41.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Open MicroManipulator – A sub-micrometer 3D motion control plattform",
-   "url": "https://news.ycombinator.com/item?id=50140001",
-   "link": "https://github.com/0x23/MicroManipulatorStepper",
-   "up": 120,
-   "com": 10,
-   "at": "2026-10-18T11:16:22.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Show HN: The Zelda timeline to catch up before the Ocarina of Time remake",
    "url": "https://news.ycombinator.com/item?id=50140769",
    "link": "https://legendofhyrule.com/",
-   "up": 78,
-   "com": 25,
+   "up": 86,
+   "com": 35,
    "at": "2026-10-18T13:06:54.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Open MicroManipulator – A sub-micrometer 3D motion control plattform",
+   "url": "https://news.ycombinator.com/item?id=50140001",
+   "link": "https://github.com/0x23/MicroManipulatorStepper",
+   "up": 121,
+   "com": 10,
+   "at": "2026-10-18T11:16:22.000Z"
   }
  ]
 }
