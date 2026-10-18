@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-18T14:30:52.211Z"
+  "updated": "2026-10-18T14:50:30.061Z"
  },
  "pulse": {
   "trending": 82,
   "accelerating": 2,
   "newModels": 7,
-  "discussions": 26,
-  "stars": 2230
+  "discussions": 25,
+  "stars": 2286
  },
  "rising": [
   {
@@ -20,12 +20,12 @@
    "owner": "deepseek-ai",
    "src": "hf",
    "cat": "Vision",
-   "score": 98,
+   "score": 97,
    "grow": null,
    "desc": "Vision on Hugging Face · open source · ♥ 1.2K",
    "meta": [
     "10K downloads",
-    "Released yesterday"
+    "Released 2 days ago"
    ],
    "at": "2026-10-17T02:40:38.000Z",
    "breakout": null,
@@ -40,13 +40,30 @@
    "grow": null,
    "desc": "Your TV, minus the ads. Debloat any Android TV over ADB and give it a clean, tvOS-inspired launcher. Built in an afternoon with Claude Code.",
    "meta": [
-    "★ 1,044",
-    "~827 in 24h",
+    "★ 1,076",
+    "~843 in 24h",
     "Created yesterday"
    ],
    "at": "2026-10-17T08:12:35Z",
    "breakout": null,
    "url": "https://github.com/Gathin23/tv-vibehack"
+  },
+  {
+   "name": "git-ai",
+   "owner": "feder-cr",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 91,
+   "grow": 25,
+   "desc": "Git designed for AI agents.",
+   "meta": [
+    "★ 1,404",
+    "+368 in 24h",
+    "Created 3 days ago"
+   ],
+   "at": "2026-10-15T13:12:02Z",
+   "breakout": null,
+   "url": "https://github.com/feder-cr/git-ai"
   },
   {
    "name": "qwen21-nsfw-pose-skill",
@@ -57,30 +74,13 @@
    "grow": 3,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 2,707",
-    "+111 in 24h",
+    "★ 2,708",
+    "+110 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
    "breakout": null,
    "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill"
-  },
-  {
-   "name": "git-ai",
-   "owner": "feder-cr",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 90,
-   "grow": 21,
-   "desc": "Git designed for AI agents.",
-   "meta": [
-    "★ 1,362",
-    "+319 in 24h",
-    "Created 3 days ago"
-   ],
-   "at": "2026-10-15T13:12:02Z",
-   "breakout": null,
-   "url": "https://github.com/feder-cr/git-ai"
   },
   {
    "name": "embeddinggemma-2",
@@ -99,30 +99,13 @@
    "url": "https://huggingface.co/google/embeddinggemma-2"
   },
   {
-   "name": "esp32-iphone-agent",
-   "owner": "onehumanbeing",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 88,
-   "grow": null,
-   "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
-   "meta": [
-    "★ 3,077",
-    "~452 in 24h",
-    "Created 7 days ago"
-   ],
-   "at": "2026-10-11T19:10:25Z",
-   "breakout": null,
-   "url": "https://github.com/onehumanbeing/esp32-iphone-agent"
-  },
-  {
    "name": "flux-3-image-klein-comfy",
    "owner": "black-forest-labs",
    "src": "hf",
    "cat": "Vision",
    "score": 88,
    "grow": 51,
-   "desc": "Vision on Hugging Face · open weights · ♥ 747",
+   "desc": "Vision on Hugging Face · open weights · ♥ 749",
    "meta": [
     "338K downloads",
     "Released 4 days ago"
@@ -132,13 +115,30 @@
    "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy"
   },
   {
+   "name": "esp32-iphone-agent",
+   "owner": "onehumanbeing",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 87,
+   "grow": null,
+   "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
+   "meta": [
+    "★ 3,079",
+    "~451 in 24h",
+    "Created 7 days ago"
+   ],
+   "at": "2026-10-11T19:10:25Z",
+   "breakout": null,
+   "url": "https://github.com/onehumanbeing/esp32-iphone-agent"
+  },
+  {
    "name": "MiniCPM-V-4.7-35B-A3B",
    "owner": "openbmb",
    "src": "hf",
    "cat": "Vision",
    "score": 87,
    "grow": 60,
-   "desc": "Vision on Hugging Face · open source · ♥ 947",
+   "desc": "Vision on Hugging Face · open source · ♥ 949",
    "meta": [
     "58K downloads",
     "Released 11 days ago"
@@ -156,7 +156,7 @@
    "grow": 6,
    "desc": "基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。还原 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分析手册。",
    "meta": [
-    "★ 1,195",
+    "★ 1,196",
     "+97 in 24h",
     "Created 4 days ago"
    ],
@@ -187,8 +187,8 @@
    "name": "tv-vibehack",
    "url": "https://github.com/Gathin23/tv-vibehack",
    "from": "GitHub",
-   "use": 827,
-   "useLabel": "~827 stars/day",
+   "use": 843,
+   "useLabel": "~843 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -302,26 +302,26 @@
  "github": [
   {
    "repo": "Gathin23/tv-vibehack",
-   "stars": 1044,
-   "d24": 827,
+   "stars": 1076,
+   "d24": 843,
    "est": true,
-   "forks": 116,
+   "forks": 121,
    "contrib": null,
    "score": 96
   },
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 3077,
-   "d24": 452,
+   "stars": 3079,
+   "d24": 451,
    "est": true,
-   "forks": 400,
+   "forks": 399,
    "contrib": null,
-   "score": 88
+   "score": 87
   },
   {
    "repo": "deeplethe/solid-glass",
    "stars": 2002,
-   "d24": 399,
+   "d24": 392,
    "est": false,
    "forks": 25,
    "contrib": null,
@@ -329,17 +329,17 @@
   },
   {
    "repo": "feder-cr/git-ai",
-   "stars": 1362,
-   "d24": 319,
+   "stars": 1404,
+   "d24": 368,
    "est": false,
-   "forks": 158,
+   "forks": 159,
    "contrib": null,
-   "score": 90
+   "score": 91
   },
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2707,
-   "d24": 111,
+   "stars": 2708,
+   "d24": 110,
    "est": false,
    "forks": 521,
    "contrib": null,
@@ -347,7 +347,7 @@
   },
   {
    "repo": "Caho1/open-claude-ui",
-   "stars": 1195,
+   "stars": 1196,
    "d24": 97,
    "est": false,
    "forks": 258,
@@ -372,9 +372,9 @@
    "at": "2026-10-17T02:40:38.000Z",
    "dl": 10233,
    "grow": null,
-   "score": 98,
+   "score": 97,
    "cat": "Vision",
-   "likes": 1223
+   "likes": 1227
   },
   {
    "name": "embeddinggemma-2",
@@ -385,7 +385,7 @@
    "grow": 4,
    "score": 89,
    "cat": "Vision",
-   "likes": 2634
+   "likes": 2636
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -396,7 +396,7 @@
    "grow": 51,
    "score": 88,
    "cat": "Vision",
-   "likes": 747
+   "likes": 749
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -408,7 +408,7 @@
    "grow": 60,
    "score": 87,
    "cat": "Vision",
-   "likes": 947
+   "likes": 949
   },
   {
    "name": "humanizer",
@@ -419,7 +419,7 @@
    "grow": 8,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 1926
+   "likes": 1927
   },
   {
    "name": "drama-3",
@@ -430,7 +430,7 @@
    "grow": null,
    "score": 85,
    "cat": "Tools",
-   "likes": 659
+   "likes": 661
   }
  ],
  "free": [
@@ -798,6 +798,20 @@
    "kind": "News"
   },
   {
+   "t": "'We will have a cool demo in 2027': What Sam Altman said about OpenAI's humanoid robot and the challenges",
+   "url": "https://www.livemint.com/ai/artificial-intelligence/we-will-have-a-cool-demo-in-2027-what-sam-altman-said-about-openais-humanoid-robot-and-the-challenges-11792290751495.html",
+   "at": "2026-10-18T02:46:02Z",
+   "src": "Livemint",
+   "kind": "News"
+  },
+  {
+   "t": "Meet Vijaye Raji: Statsig founder and OpenAI CTO now joining Amplitude’s board of directors",
+   "url": "https://www.livemint.com/companies/people/meet-vijaye-raji-statsig-founder-and-openai-cto-now-joining-amplitude-s-board-of-directors-11792285217627.html",
+   "at": "2026-10-18T02:37:18Z",
+   "src": "Livemint",
+   "kind": "News"
+  },
+  {
    "t": "Anthropic pitches own AI Safety Bill",
    "url": "https://timesofindia.indiatimes.com/world/us/anthropic-pitches-own-ai-safety-bill/articleshow/135022899.cms",
    "at": "2026-10-18T02:02:00Z",
@@ -824,20 +838,6 @@
    "at": "2026-10-18T00:00:00Z",
    "src": "The Star",
    "kind": "News"
-  },
-  {
-   "t": "OpenAI Is Building A Humanoid Robot, But The Body Isn't The Real Challenge",
-   "url": "https://www.engadget.com/2285040/openai-humanoid-robot-sam-altman-statement-real-challenge/",
-   "at": "2026-10-17T23:45:00Z",
-   "src": "Engadget",
-   "kind": "News"
-  },
-  {
-   "t": "Covering AI is a journalistic imperative, and a fast moving target",
-   "url": "https://www.npr.org/2026/10/17/nx-s1-6006834/covering-ai-is-a-journalistic-imperative-and-a-fast-moving-target",
-   "at": "2026-10-17T23:32:58Z",
-   "src": "NPR",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -846,27 +846,36 @@
    "t": "RepRapMicron",
    "url": "https://news.ycombinator.com/item?id=50141076",
    "link": "https://github.com/VikOlliver/RepRapMicron/wiki",
-   "up": 31,
-   "com": 4,
+   "up": 56,
+   "com": 7,
    "at": "2026-10-18T13:48:48.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
-   "url": "https://news.ycombinator.com/item?id=50137950",
-   "link": "https://sphinx-six-theta.vercel.app/",
-   "up": 186,
-   "com": 58,
-   "at": "2026-10-18T04:33:49.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Open MicroManipulator – A sub-micrometer 3D motion control plattform",
    "url": "https://news.ycombinator.com/item?id=50140001",
    "link": "https://github.com/0x23/MicroManipulatorStepper",
-   "up": 59,
+   "up": 69,
    "com": 5,
    "at": "2026-10-18T11:16:22.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
+   "url": "https://news.ycombinator.com/item?id=50137950",
+   "link": "https://sphinx-six-theta.vercel.app/",
+   "up": 191,
+   "com": 60,
+   "at": "2026-10-18T04:33:49.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Codex Desktop continuously generates Crashpad pending dumps",
+   "url": "https://news.ycombinator.com/item?id=50133231",
+   "link": "https://github.com/openai/codex/issues/25921",
+   "up": 156,
+   "com": 70,
+   "at": "2026-10-17T17:45:08.000Z"
   },
   {
    "src": "Hacker News",
@@ -876,15 +885,6 @@
    "up": 168,
    "com": 58,
    "at": "2026-10-17T16:04:23.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Codex Desktop continuously generates Crashpad pending dumps",
-   "url": "https://news.ycombinator.com/item?id=50133231",
-   "link": "https://github.com/openai/codex/issues/25921",
-   "up": 151,
-   "com": 70,
-   "at": "2026-10-17T17:45:08.000Z"
   },
   {
    "src": "Hacker News",
