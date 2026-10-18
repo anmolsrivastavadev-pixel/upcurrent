@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-18T16:01:03.598Z"
+  "updated": "2026-10-18T16:30:52.679Z"
  },
  "pulse": {
   "trending": 82,
   "accelerating": 1,
   "newModels": 7,
   "discussions": 29,
-  "stars": 2382
+  "stars": 2576
  },
  "rising": [
   {
@@ -40,8 +40,8 @@
    "grow": null,
    "desc": "Your TV, minus the ads. Debloat any Android TV over ADB and give it a clean, tvOS-inspired launcher. Built in an afternoon with Claude Code.",
    "meta": [
-    "★ 1,207",
-    "~911 in 24h",
+    "★ 1,273",
+    "~946 in 24h",
     "Created yesterday"
    ],
    "at": "2026-10-17T08:12:35Z",
@@ -54,11 +54,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 92,
-   "grow": 33,
+   "grow": null,
    "desc": "Git designed for AI agents.",
    "meta": [
-    "★ 1,495",
-    "+458 in 24h",
+    "★ 1,498",
+    "~477 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -71,11 +71,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 90,
-   "grow": 3,
+   "grow": 4,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 2,719",
-    "+117 in 24h",
+    "★ 2,720",
+    "+116 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -105,7 +105,7 @@
    "cat": "Vision",
    "score": 88,
    "grow": 51,
-   "desc": "Vision on Hugging Face · open weights · ♥ 754",
+   "desc": "Vision on Hugging Face · open weights · ♥ 759",
    "meta": [
     "338K downloads",
     "Released 4 days ago"
@@ -121,7 +121,7 @@
    "cat": "Vision",
    "score": 87,
    "grow": 60,
-   "desc": "Vision on Hugging Face · open source · ♥ 960",
+   "desc": "Vision on Hugging Face · open source · ♥ 964",
    "meta": [
     "58K downloads",
     "Released 11 days ago"
@@ -139,8 +139,8 @@
    "grow": null,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 3,089",
-    "~450 in 24h",
+    "★ 3,093",
+    "~449 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -156,8 +156,8 @@
    "grow": 6,
    "desc": "基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。还原 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分析手册。",
    "meta": [
-    "★ 1,201",
-    "+97 in 24h",
+    "★ 1,202",
+    "+96 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-14T14:05:05Z",
@@ -187,8 +187,8 @@
    "name": "tv-vibehack",
    "url": "https://github.com/Gathin23/tv-vibehack",
    "from": "GitHub",
-   "use": 911,
-   "useLabel": "~911 stars/day",
+   "use": 946,
+   "useLabel": "~946 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -302,34 +302,34 @@
  "github": [
   {
    "repo": "Gathin23/tv-vibehack",
-   "stars": 1207,
-   "d24": 911,
+   "stars": 1273,
+   "d24": 946,
    "est": true,
-   "forks": 137,
+   "forks": 144,
    "contrib": null,
    "score": 96
   },
   {
    "repo": "feder-cr/git-ai",
-   "stars": 1495,
-   "d24": 458,
-   "est": false,
+   "stars": 1498,
+   "d24": 477,
+   "est": true,
    "forks": 173,
    "contrib": null,
    "score": 92
   },
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 3089,
-   "d24": 450,
+   "stars": 3093,
+   "d24": 449,
    "est": true,
-   "forks": 401,
+   "forks": 402,
    "contrib": null,
    "score": 86
   },
   {
    "repo": "deeplethe/solid-glass",
-   "stars": 2005,
+   "stars": 2008,
    "d24": 319,
    "est": true,
    "forks": 25,
@@ -337,9 +337,18 @@
    "score": 84
   },
   {
+   "repo": "zhuyansen/new-term-radar",
+   "stars": 1104,
+   "d24": 173,
+   "est": true,
+   "forks": 422,
+   "contrib": null,
+   "score": 74
+  },
+  {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2719,
-   "d24": 117,
+   "stars": 2720,
+   "d24": 116,
    "est": false,
    "forks": 522,
    "contrib": null,
@@ -347,21 +356,12 @@
   },
   {
    "repo": "Caho1/open-claude-ui",
-   "stars": 1201,
-   "d24": 97,
+   "stars": 1202,
+   "d24": 96,
    "est": false,
    "forks": 258,
    "contrib": null,
    "score": 86
-  },
-  {
-   "repo": "zhuyansen/new-term-radar",
-   "stars": 1103,
-   "d24": 30,
-   "est": false,
-   "forks": 422,
-   "contrib": null,
-   "score": 74
   }
  ],
  "models": [
@@ -374,7 +374,7 @@
    "grow": null,
    "score": 97,
    "cat": "Vision",
-   "likes": 1241
+   "likes": 1248
   },
   {
    "name": "embeddinggemma-2",
@@ -396,7 +396,7 @@
    "grow": 51,
    "score": 88,
    "cat": "Vision",
-   "likes": 754
+   "likes": 759
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -408,7 +408,7 @@
    "grow": 60,
    "score": 87,
    "cat": "Vision",
-   "likes": 960
+   "likes": 964
   },
   {
    "name": "humanizer",
@@ -419,7 +419,7 @@
    "grow": 8,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 1930
+   "likes": 1931
   },
   {
    "name": "drama-3",
@@ -427,10 +427,10 @@
    "lic": "Open weights",
    "at": "2026-10-01T04:34:57.000Z",
    "dl": 9620,
-   "grow": null,
+   "grow": 0,
    "score": 85,
    "cat": "Tools",
-   "likes": 667
+   "likes": 671
   }
  ],
  "free": [
@@ -791,6 +791,27 @@
    "kind": "News"
   },
   {
+   "t": "Singing, dancing and getting dumped by AI on Korean TV",
+   "url": "https://www.bangkokpost.com/life/tech/3339230/singing-dancing-and-getting-dumped-by-ai-on-korean-tv",
+   "at": "2026-10-18T04:23:00Z",
+   "src": "Bangkok Post",
+   "kind": "News"
+  },
+  {
+   "t": "[COVER STORY] Korea focuses on AI majors while global universities rewrite rules of education",
+   "url": "https://www.koreatimes.co.kr/southkorea/education/k-universities/policy-trends/20261018/cover-story-korea-focuses-on-ai-majors-while-global-universities-rewrite-rules-of-education",
+   "at": "2026-10-18T04:16:03Z",
+   "src": "The Korea Times",
+   "kind": "News"
+  },
+  {
+   "t": "The future of workspaces in Asia will depend not simply on how rapidly artificial intelligence (AI) advances.",
+   "url": "https://www.thehindubusinessline.com/info-tech/ai-reshapes-labour-demand-across-asia-posing-challenges-for-job-creation-and-skills-development-report/article71599064.ece",
+   "at": "2026-10-18T04:14:04Z",
+   "src": "The Hindu Business Line",
+   "kind": "News"
+  },
+  {
    "t": "AI boom sustains S. Korea's growth despite global headwinds: IMF official",
    "url": "https://www.lokmattimes.com/business/ai-boom-sustains-s-koreas-growth-despite-global-headwinds-imf-official/",
    "at": "2026-10-18T03:55:47Z",
@@ -817,27 +838,6 @@
    "at": "2026-10-18T02:59:55Z",
    "src": "ANI (Asian News International)",
    "kind": "News"
-  },
-  {
-   "t": "'We will have a cool demo in 2027': What Sam Altman said about OpenAI's humanoid robot and the challenges",
-   "url": "https://www.livemint.com/ai/artificial-intelligence/we-will-have-a-cool-demo-in-2027-what-sam-altman-said-about-openais-humanoid-robot-and-the-challenges-11792290751495.html",
-   "at": "2026-10-18T02:46:02Z",
-   "src": "Livemint",
-   "kind": "News"
-  },
-  {
-   "t": "Meet Vijaye Raji: Statsig founder and OpenAI CTO now joining Amplitude’s board of directors",
-   "url": "https://www.livemint.com/companies/people/meet-vijaye-raji-statsig-founder-and-openai-cto-now-joining-amplitude-s-board-of-directors-11792285217627.html",
-   "at": "2026-10-18T02:37:18Z",
-   "src": "Livemint",
-   "kind": "News"
-  },
-  {
-   "t": "Anthropic pitches own AI Safety Bill",
-   "url": "https://timesofindia.indiatimes.com/world/us/anthropic-pitches-own-ai-safety-bill/articleshow/135022899.cms",
-   "at": "2026-10-18T02:02:00Z",
-   "src": "Times of India",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -846,35 +846,35 @@
    "t": "RepRapMicron",
    "url": "https://news.ycombinator.com/item?id=50141076",
    "link": "https://github.com/VikOlliver/RepRapMicron/wiki",
-   "up": 135,
-   "com": 19,
+   "up": 172,
+   "com": 24,
    "at": "2026-10-18T13:48:48.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
-   "url": "https://news.ycombinator.com/item?id=50141429",
-   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
-   "up": 74,
-   "com": 65,
-   "at": "2026-10-18T14:30:27.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Websites are closing their doors to AI agents",
    "url": "https://news.ycombinator.com/item?id=50141657",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
-   "up": 45,
-   "com": 30,
+   "up": 73,
+   "com": 51,
    "at": "2026-10-18T14:58:10.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
+   "url": "https://news.ycombinator.com/item?id=50141429",
+   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
+   "up": 84,
+   "com": 89,
+   "at": "2026-10-18T14:30:27.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Tesla 'Cannot Guarantee' Roadster Reservation Holders Will Ever Get a Car",
    "url": "https://news.ycombinator.com/item?id=50141295",
    "link": "https://www.thedrive.com/news/tesla-cannot-guarantee-roadster-reservation-holders-will-ever-get-a-car",
-   "up": 46,
-   "com": 52,
+   "up": 67,
+   "com": 77,
    "at": "2026-10-18T14:16:41.000Z"
   },
   {
@@ -882,8 +882,8 @@
    "t": "Open MicroManipulator – A sub-micrometer 3D motion control plattform",
    "url": "https://news.ycombinator.com/item?id=50140001",
    "link": "https://github.com/0x23/MicroManipulatorStepper",
-   "up": 106,
-   "com": 8,
+   "up": 115,
+   "com": 10,
    "at": "2026-10-18T11:16:22.000Z"
   },
   {
@@ -891,8 +891,8 @@
    "t": "Show HN: The Zelda timeline to catch up before the Ocarina of Time remake",
    "url": "https://news.ycombinator.com/item?id=50140769",
    "link": "https://legendofhyrule.com/",
-   "up": 52,
-   "com": 16,
+   "up": 61,
+   "com": 20,
    "at": "2026-10-18T13:06:54.000Z"
   }
  ]
