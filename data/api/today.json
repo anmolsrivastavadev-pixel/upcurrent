@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-18T21:01:02.199Z"
+  "updated": "2026-10-18T21:30:52.715Z"
  },
  "pulse": {
   "trending": 81,
   "accelerating": 1,
   "newModels": 8,
-  "discussions": 27,
-  "stars": 4008
+  "discussions": 30,
+  "stars": 3744
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 97,
-   "grow": 59,
+   "grow": 63,
    "desc": "Your TV, minus the ads. Debloat any Android TV over ADB and give it a clean, tvOS-inspired launcher. Built in an afternoon with Claude Code.",
    "meta": [
-    "★ 1,662",
-    "+2,281 in 24h",
+    "★ 1,702",
+    "+2,256 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-17T08:12:35Z",
@@ -53,12 +53,12 @@
    "owner": "feder-cr",
    "src": "gh",
    "cat": "Agents",
-   "score": 92,
+   "score": 93,
    "grow": null,
    "desc": "Git designed for AI agents.",
    "meta": [
-    "★ 1,638",
-    "~493 in 24h",
+    "★ 1,764",
+    "~527 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -74,8 +74,8 @@
    "grow": null,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 2,728",
-    "~475 in 24h",
+    "★ 2,729",
+    "~473 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -105,7 +105,7 @@
    "cat": "Vision",
    "score": 88,
    "grow": 51,
-   "desc": "Vision on Hugging Face · open weights · ♥ 790",
+   "desc": "Vision on Hugging Face · open weights · ♥ 792",
    "meta": [
     "338K downloads",
     "Released 4 days ago"
@@ -153,7 +153,7 @@
    "cat": "Tools",
    "score": 85,
    "grow": 0,
-   "desc": "Model on Hugging Face · open weights · ♥ 683",
+   "desc": "Model on Hugging Face · open weights · ♥ 684",
    "meta": [
     "9.6K downloads",
     "Released 18 days ago"
@@ -185,8 +185,8 @@
    "name": "tv-vibehack",
    "url": "https://github.com/Gathin23/tv-vibehack",
    "from": "GitHub",
-   "use": 2281,
-   "useLabel": "+2,281 stars/day",
+   "use": 2256,
+   "useLabel": "+2,256 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -300,44 +300,35 @@
  "github": [
   {
    "repo": "Gathin23/tv-vibehack",
-   "stars": 1662,
-   "d24": 2281,
+   "stars": 1702,
+   "d24": 2256,
    "est": false,
-   "forks": 196,
+   "forks": 200,
    "contrib": null,
    "score": 97
   },
   {
    "repo": "feder-cr/git-ai",
-   "stars": 1638,
-   "d24": 493,
+   "stars": 1764,
+   "d24": 527,
    "est": true,
-   "forks": 256,
+   "forks": 257,
    "contrib": null,
-   "score": 92
+   "score": 93
   },
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2728,
-   "d24": 475,
+   "stars": 2729,
+   "d24": 473,
    "est": true,
    "forks": 522,
    "contrib": null,
    "score": 89
   },
   {
-   "repo": "deeplethe/solid-glass",
-   "stars": 2012,
-   "d24": 310,
-   "est": true,
-   "forks": 27,
-   "contrib": null,
-   "score": 84
-  },
-  {
    "repo": "Caho1/open-claude-ui",
    "stars": 1206,
-   "d24": 281,
+   "d24": 280,
    "est": true,
    "forks": 259,
    "contrib": null,
@@ -351,6 +342,15 @@
    "forks": 422,
    "contrib": null,
    "score": 74
+  },
+  {
+   "repo": "deeplethe/solid-glass",
+   "stars": 2013,
+   "d24": 40,
+   "est": false,
+   "forks": 27,
+   "contrib": null,
+   "score": 84
   }
  ],
  "models": [
@@ -363,7 +363,7 @@
    "grow": null,
    "score": 97,
    "cat": "Vision",
-   "likes": 1302
+   "likes": 1308
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -375,7 +375,7 @@
    "grow": 60,
    "score": 89,
    "cat": "Vision",
-   "likes": 1001
+   "likes": 1002
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -386,7 +386,7 @@
    "grow": 51,
    "score": 88,
    "cat": "Vision",
-   "likes": 790
+   "likes": 792
   },
   {
    "name": "embeddinggemma-2",
@@ -408,7 +408,7 @@
    "grow": null,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 1939
+   "likes": 1940
   },
   {
    "name": "drama-3",
@@ -419,7 +419,7 @@
    "grow": 0,
    "score": 85,
    "cat": "Tools",
-   "likes": 683
+   "likes": 684
   }
  ],
  "free": [
@@ -835,8 +835,8 @@
    "t": "RepRapMicron",
    "url": "https://news.ycombinator.com/item?id=50141076",
    "link": "https://github.com/VikOlliver/RepRapMicron/wiki",
-   "up": 288,
-   "com": 44,
+   "up": 293,
+   "com": 46,
    "at": "2026-10-18T13:48:48.000Z"
   },
   {
@@ -844,9 +844,18 @@
    "t": "Free Pascal compiler now supports dynamic packages",
    "url": "https://news.ycombinator.com/item?id=50144066",
    "link": "https://www.getlazarus.org/dynamic/",
-   "up": 57,
+   "up": 67,
    "com": 13,
    "at": "2026-10-18T18:48:04.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
+   "url": "https://news.ycombinator.com/item?id=50141429",
+   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
+   "up": 147,
+   "com": 160,
+   "at": "2026-10-18T14:30:27.000Z"
   },
   {
    "src": "Hacker News",
@@ -859,30 +868,21 @@
   },
   {
    "src": "Hacker News",
-   "t": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
-   "url": "https://news.ycombinator.com/item?id=50141429",
-   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
-   "up": 146,
-   "com": 159,
-   "at": "2026-10-18T14:30:27.000Z"
-  },
-  {
-   "src": "Hacker News",
    "t": "Websites are closing their doors to AI agents",
    "url": "https://news.ycombinator.com/item?id=50141657",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
-   "up": 127,
+   "up": 129,
    "com": 121,
    "at": "2026-10-18T14:58:10.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "PalmOS Lemmings",
-   "url": "https://news.ycombinator.com/item?id=50143536",
-   "link": "https://github.com/ardiri/palmos-lemmings",
-   "up": 55,
-   "com": 12,
-   "at": "2026-10-18T17:56:59.000Z"
+   "t": "Show HN: The Zelda timeline to catch up before the Ocarina of Time remake",
+   "url": "https://news.ycombinator.com/item?id=50140769",
+   "link": "https://legendofhyrule.com/",
+   "up": 143,
+   "com": 80,
+   "at": "2026-10-18T13:06:54.000Z"
   }
  ]
 }
