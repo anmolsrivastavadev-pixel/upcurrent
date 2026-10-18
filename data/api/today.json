@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-18T12:30:56.016Z"
+  "updated": "2026-10-18T13:01:03.792Z"
  },
  "pulse": {
   "trending": 81,
   "accelerating": 2,
-  "newModels": 6,
-  "discussions": 26,
-  "stars": 1190
+  "newModels": 7,
+  "discussions": 27,
+  "stars": 1204
  },
  "rising": [
   {
@@ -40,7 +40,7 @@
    "grow": 3,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 2,700",
+    "★ 2,702",
     "+114 in 24h",
     "Created 5 days ago"
    ],
@@ -54,11 +54,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 90,
-   "grow": 4,
+   "grow": 5,
    "desc": "Git designed for AI agents.",
    "meta": [
-    "★ 1,165",
-    "+63 in 24h",
+    "★ 1,184",
+    "+89 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -74,8 +74,8 @@
    "grow": null,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 3,060",
-    "~455 in 24h",
+    "★ 3,061",
+    "~454 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
@@ -105,7 +105,7 @@
    "cat": "Vision",
    "score": 88,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 731",
+   "desc": "Vision on Hugging Face · open weights · ♥ 735",
    "meta": [
     "338K downloads",
     "Released 4 days ago"
@@ -120,11 +120,11 @@
    "src": "gh",
    "cat": "Tools",
    "score": 87,
-   "grow": 4,
+   "grow": 5,
    "desc": "基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。还原 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分析手册。",
    "meta": [
-    "★ 1,180",
-    "+86 in 24h",
+    "★ 1,184",
+    "+89 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-14T14:05:05Z",
@@ -132,11 +132,27 @@
    "url": "https://github.com/Caho1/open-claude-ui"
   },
   {
+   "name": "MiniCPM-V-4.7-35B-A3B",
+   "owner": "openbmb",
+   "src": "hf",
+   "cat": "Vision",
+   "score": 87,
+   "grow": 60,
+   "desc": "Vision on Hugging Face · open source · ♥ 932",
+   "meta": [
+    "58K downloads",
+    "Released 11 days ago"
+   ],
+   "at": "2026-10-07T07:07:30.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B"
+  },
+  {
    "name": "humanizer",
    "owner": "jialinyyzz",
    "src": "hf",
    "cat": "Infrastructure",
-   "score": 87,
+   "score": 86,
    "grow": 8,
    "desc": "Model on Hugging Face · open source · ♥ 1.9K",
    "meta": [
@@ -148,22 +164,6 @@
    "url": "https://huggingface.co/jialinyyzz/humanizer"
   },
   {
-   "name": "MiniCPM-V-4.7-35B-A3B",
-   "owner": "openbmb",
-   "src": "hf",
-   "cat": "Vision",
-   "score": 86,
-   "grow": 60,
-   "desc": "Vision on Hugging Face · open source · ♥ 926",
-   "meta": [
-    "58K downloads",
-    "Released 11 days ago"
-   ],
-   "at": "2026-10-07T07:07:30.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B"
-  },
-  {
    "name": "solid-glass",
    "owner": "deeplethe",
    "src": "gh",
@@ -173,7 +173,7 @@
    "desc": "A design system for AI applications. Material, physical, tactile, technical.",
    "meta": [
     "★ 2,001",
-    "+445 in 24h",
+    "+432 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-12T09:19:02Z",
@@ -187,8 +187,8 @@
    "name": "esp32-iphone-agent",
    "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
    "from": "GitHub",
-   "use": 455,
-   "useLabel": "~455 stars/day",
+   "use": 454,
+   "useLabel": "~454 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -302,17 +302,17 @@
  "github": [
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 3060,
-   "d24": 455,
+   "stars": 3061,
+   "d24": 454,
    "est": true,
-   "forks": 396,
+   "forks": 397,
    "contrib": null,
    "score": 89
   },
   {
    "repo": "deeplethe/solid-glass",
    "stars": 2001,
-   "d24": 445,
+   "d24": 432,
    "est": false,
    "forks": 25,
    "contrib": null,
@@ -320,35 +320,35 @@
   },
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2700,
+   "stars": 2702,
    "d24": 114,
    "est": false,
-   "forks": 519,
+   "forks": 520,
    "contrib": null,
    "score": 91
   },
   {
+   "repo": "feder-cr/git-ai",
+   "stars": 1184,
+   "d24": 89,
+   "est": false,
+   "forks": 138,
+   "contrib": null,
+   "score": 90
+  },
+  {
    "repo": "Caho1/open-claude-ui",
-   "stars": 1180,
-   "d24": 86,
+   "stars": 1184,
+   "d24": 89,
    "est": false,
    "forks": 257,
    "contrib": null,
    "score": 87
   },
   {
-   "repo": "feder-cr/git-ai",
-   "stars": 1165,
-   "d24": 63,
-   "est": false,
-   "forks": 126,
-   "contrib": null,
-   "score": 90
-  },
-  {
    "repo": "zhuyansen/new-term-radar",
    "stars": 1097,
-   "d24": 27,
+   "d24": 26,
    "est": false,
    "forks": 422,
    "contrib": null,
@@ -365,7 +365,7 @@
    "grow": null,
    "score": 98,
    "cat": "Vision",
-   "likes": 1196
+   "likes": 1203
   },
   {
    "name": "embeddinggemma-2",
@@ -376,7 +376,7 @@
    "grow": 4,
    "score": 89,
    "cat": "Vision",
-   "likes": 2631
+   "likes": 2633
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -387,18 +387,7 @@
    "grow": null,
    "score": 88,
    "cat": "Vision",
-   "likes": 731
-  },
-  {
-   "name": "humanizer",
-   "org": "jialinyyzz",
-   "lic": "Open source",
-   "at": "2026-09-11T05:00:16.000Z",
-   "dl": 103709,
-   "grow": 8,
-   "score": 87,
-   "cat": "Infrastructure",
-   "likes": 1920
+   "likes": 735
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -408,9 +397,20 @@
    "at": "2026-10-07T07:07:30.000Z",
    "dl": 57935,
    "grow": 60,
-   "score": 86,
+   "score": 87,
    "cat": "Vision",
-   "likes": 926
+   "likes": 932
+  },
+  {
+   "name": "humanizer",
+   "org": "jialinyyzz",
+   "lic": "Open source",
+   "at": "2026-09-11T05:00:16.000Z",
+   "dl": 103709,
+   "grow": 8,
+   "score": 86,
+   "cat": "Infrastructure",
+   "likes": 1920
   },
   {
    "name": "drama-3",
@@ -421,7 +421,7 @@
    "grow": null,
    "score": 85,
    "cat": "Tools",
-   "likes": 647
+   "likes": 652
   }
  ],
  "free": [
@@ -719,7 +719,7 @@
  },
  "headlines": [
   {
-   "t": "Microsoft drops huge AI datacentre project in Essex over power supply concerns",
+   "t": "Microsoft pulls out of AI datacentre project in Essex over power supply concerns",
    "url": "https://www.theguardian.com/uk-news/2026/oct/18/microsoft-drops-huge-ai-datacentre-project-in-essex-over-power-supply-concerns",
    "at": "2026-10-18T12:28:45Z",
    "src": "The Guardian",
@@ -747,7 +747,7 @@
    "kind": "News"
   },
   {
-   "t": "Microsoft cancels its deal with Nscale to serve as the anchor tenant and rent 23K Nvidia AI chips at a planned data center facing repeated delays in Essex, UK",
+   "t": "Microsoft cancels its deal to be the anchor tenant and rent 23K Nvidia AI chips at Nscale's Essex, UK, data center, which may not get grid power until the 2030s",
    "url": "https://www.techmeme.com/261018/p4#a261018p4",
    "at": "2026-10-18T06:05:00.000Z",
    "src": "Techmeme",
@@ -782,17 +782,17 @@
    "kind": "News"
   },
   {
+   "t": "AI Trade Reversal Pierces Asia’s Star Picks-and-Shovels Stocks",
+   "url": "https://www.livemint.com/market/ai-trade-reversal-pierces-asia-s-star-picks-and-shovels-stocks-11792284261229.html",
+   "at": "2026-10-18T00:44:20Z",
+   "src": "Livemint",
+   "kind": "News"
+  },
+  {
    "t": "US state attorney general sues ChatGPT founders over child safety",
    "url": "https://www.thestar.com.my/tech/tech-news/2026/10/18/us-state-attorney-general-sues-chatgpt-founders-over-child-safety",
    "at": "2026-10-18T00:00:00Z",
    "src": "The Star",
-   "kind": "News"
-  },
-  {
-   "t": "AI Trade Reversal Pierces Asia’s Star Picks-and-Shovels Stocks",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-18/ai-trade-reversal-pierces-asia-s-star-picks-and-shovels-stocks",
-   "at": "2026-10-18T00:00:00Z",
-   "src": "Bloomberg",
    "kind": "News"
   },
   {
@@ -837,25 +837,25 @@
    "t": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
    "url": "https://news.ycombinator.com/item?id=50137950",
    "link": "https://sphinx-six-theta.vercel.app/",
-   "up": 160,
-   "com": 47,
+   "up": 168,
+   "com": 50,
    "at": "2026-10-18T04:33:49.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "A Princeton PhD Applied to 2,300 Jobs. He Still Can't Get One",
-   "url": "https://news.ycombinator.com/item?id=50138462",
-   "link": "https://www.wsj.com/lifestyle/careers/labor-market-freeze-phd-graduate-f8e17d7c",
-   "up": 48,
-   "com": 59,
-   "at": "2026-10-18T06:36:48.000Z"
+   "t": "Open MicroManipulator – A sub-micrometer 3D motion control plattform",
+   "url": "https://news.ycombinator.com/item?id=50140001",
+   "link": "https://github.com/0x23/MicroManipulatorStepper",
+   "up": 21,
+   "com": 2,
+   "at": "2026-10-18T11:16:22.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Amazon uses AI to monitor union risk in UK warehouses",
    "url": "https://news.ycombinator.com/item?id=50132278",
    "link": "https://www.opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield/",
-   "up": 166,
+   "up": 167,
    "com": 58,
    "at": "2026-10-17T16:04:23.000Z"
   },
@@ -870,21 +870,21 @@
   },
   {
    "src": "Hacker News",
-   "t": "Codex Desktop continuously generates Crashpad pending dumps",
-   "url": "https://news.ycombinator.com/item?id=50133231",
-   "link": "https://github.com/openai/codex/issues/25921",
-   "up": 141,
-   "com": 66,
-   "at": "2026-10-17T17:45:08.000Z"
+   "t": "A Princeton PhD Applied to 2,300 Jobs. He Still Can't Get One",
+   "url": "https://news.ycombinator.com/item?id=50138462",
+   "link": "https://www.wsj.com/lifestyle/careers/labor-market-freeze-phd-graduate-f8e17d7c",
+   "up": 48,
+   "com": 59,
+   "at": "2026-10-18T06:36:48.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Israeli settlers attack European diplomatic cars in West Bank beat French mayor",
-   "url": "https://news.ycombinator.com/item?id=50133274",
-   "link": "https://www.lemonde.fr/en/international/article/2026/10/17/israeli-settlers-attack-european-diplomatic-cars-in-west-bank-beat-french-mayor-say-witnesses_6758711_4.html",
-   "up": 132,
-   "com": 19,
-   "at": "2026-10-17T17:49:10.000Z"
+   "t": "Codex Desktop continuously generates Crashpad pending dumps",
+   "url": "https://news.ycombinator.com/item?id=50133231",
+   "link": "https://github.com/openai/codex/issues/25921",
+   "up": 143,
+   "com": 67,
+   "at": "2026-10-17T17:45:08.000Z"
   }
  ]
 }
