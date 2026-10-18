@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-18T07:01:00.660Z"
+  "updated": "2026-10-18T07:30:48.184Z"
  },
  "pulse": {
   "trending": 81,
   "accelerating": 0,
-  "newModels": 7,
+  "newModels": 6,
   "discussions": 34,
-  "stars": 748
+  "stars": 765
  },
  "rising": [
   {
@@ -40,8 +40,8 @@
    "grow": 2,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 2,672",
-    "+110 in 24h",
+    "★ 2,674",
+    "+109 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -57,8 +57,8 @@
    "grow": 3,
    "desc": "Git designed for AI agents.",
    "meta": [
-    "★ 1,154",
-    "+71 in 24h",
+    "★ 1,155",
+    "+70 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -74,9 +74,9 @@
    "grow": 2,
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "meta": [
-    "★ 3,029",
-    "+95 in 24h",
-    "Created 6 days ago"
+    "★ 3,034",
+    "+99 in 24h",
+    "Created 7 days ago"
    ],
    "at": "2026-10-11T19:10:25Z",
    "breakout": null,
@@ -105,7 +105,7 @@
    "cat": "Vision",
    "score": 89,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 697",
+   "desc": "Vision on Hugging Face · open weights · ♥ 700",
    "meta": [
     "224K downloads",
     "Released 4 days ago"
@@ -124,7 +124,7 @@
    "desc": "基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。还原 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分析手册。",
    "meta": [
     "★ 1,156",
-    "+73 in 24h",
+    "+69 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-14T14:05:05Z",
@@ -169,11 +169,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 85,
-   "grow": 11,
+   "grow": 12,
    "desc": "A design system for AI applications. Material, physical, tactile, technical.",
    "meta": [
-    "★ 1,866",
-    "+376 in 24h",
+    "★ 1,884",
+    "+396 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-12T09:19:02Z",
@@ -221,8 +221,8 @@
    "name": "solid-glass",
    "url": "https://github.com/deeplethe/solid-glass",
    "from": "GitHub",
-   "use": 376,
-   "useLabel": "+376 stars/day",
+   "use": 396,
+   "useLabel": "+396 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -336,17 +336,17 @@
  "github": [
   {
    "repo": "deeplethe/solid-glass",
-   "stars": 1866,
-   "d24": 376,
+   "stars": 1884,
+   "d24": 396,
    "est": false,
-   "forks": 23,
+   "forks": 25,
    "contrib": null,
    "score": 85
   },
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2672,
-   "d24": 110,
+   "stars": 2674,
+   "d24": 109,
    "est": false,
    "forks": 511,
    "contrib": null,
@@ -354,35 +354,35 @@
   },
   {
    "repo": "onehumanbeing/esp32-iphone-agent",
-   "stars": 3029,
-   "d24": 95,
+   "stars": 3034,
+   "d24": 99,
    "est": false,
    "forks": 391,
    "contrib": null,
    "score": 89
   },
   {
-   "repo": "Caho1/open-claude-ui",
-   "stars": 1156,
-   "d24": 73,
-   "est": false,
-   "forks": 254,
-   "contrib": null,
-   "score": 87
-  },
-  {
    "repo": "feder-cr/git-ai",
-   "stars": 1154,
-   "d24": 71,
+   "stars": 1155,
+   "d24": 70,
    "est": false,
    "forks": 124,
    "contrib": null,
    "score": 91
   },
   {
+   "repo": "Caho1/open-claude-ui",
+   "stars": 1156,
+   "d24": 69,
+   "est": false,
+   "forks": 255,
+   "contrib": null,
+   "score": 87
+  },
+  {
    "repo": "zhuyansen/new-term-radar",
    "stars": 1089,
-   "d24": 23,
+   "d24": 22,
    "est": false,
    "forks": 422,
    "contrib": null,
@@ -399,7 +399,7 @@
    "grow": null,
    "score": 98,
    "cat": "Vision",
-   "likes": 1102
+   "likes": 1112
   },
   {
    "name": "embeddinggemma-2",
@@ -410,7 +410,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Vision",
-   "likes": 2614
+   "likes": 2615
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -421,7 +421,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Vision",
-   "likes": 697
+   "likes": 700
   },
   {
    "name": "humanizer",
@@ -809,6 +809,20 @@
    "kind": "News"
   },
   {
+   "t": "OpenAI: AI-Generated Deepfakes Will Become Impossible to Verify",
+   "url": "https://www.breitbart.com/tech/2026/10/17/openai-ai-generated-deepfakes-will-become-impossible-to-verify/",
+   "at": "2026-10-17T19:04:02Z",
+   "src": "Breitbart News Network",
+   "kind": "News"
+  },
+  {
+   "t": "DeepSeek's Post-Training Lead Declares \"Entering the Era of Democratized Wish-Driven Coding\" As V4.1-Flash-1017 Model Smokes OpenAI's GPT-5.5 Sol",
+   "url": "https://wccftech.com/deepseeks-post-training-lead-declares-entering-the-era-of-democratized-wish-driven-coding-as-v4-1-flash-1017-model-smokes-openais-gpt-5-5-sol/",
+   "at": "2026-10-17T19:01:05Z",
+   "src": "Wccftech",
+   "kind": "News"
+  },
+  {
    "t": "Replit is no longer working with Anthropic, CEO says",
    "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
    "at": "2026-10-17T18:48:08Z",
@@ -849,20 +863,6 @@
    "at": "2026-10-17T17:51:58Z",
    "src": "TNW",
    "kind": "News"
-  },
-  {
-   "t": "Nicolet nursing faculty member speaks on AI in healthcare at state capitol",
-   "url": "https://www.europesays.com/3315892/",
-   "at": "2026-10-17T17:20:21Z",
-   "src": "EUROPE SAYS",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI’s London staff averaged £2.3m each in 2025, Guardian reports",
-   "url": "https://thenextweb.com/news/openai-london-staff-pay-2-3m-accounts",
-   "at": "2026-10-17T16:53:05Z",
-   "src": "TNW",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -871,8 +871,8 @@
    "t": "DeepSeek-v4.1-Flash-1017",
    "url": "https://news.ycombinator.com/item?id=50129045",
    "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-   "up": 808,
-   "com": 633,
+   "up": 819,
+   "com": 636,
    "at": "2026-10-17T08:21:25.000Z"
   },
   {
@@ -880,8 +880,8 @@
    "t": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
    "url": "https://news.ycombinator.com/item?id=50137950",
    "link": "https://sphinx-six-theta.vercel.app/",
-   "up": 72,
-   "com": 19,
+   "up": 86,
+   "com": 25,
    "at": "2026-10-18T04:33:49.000Z"
   },
   {
@@ -898,26 +898,27 @@
    "t": "Show HN: 500 clocks in one 6.3 MB HTML file by Opus 5.5",
    "url": "https://news.ycombinator.com/item?id=50137820",
    "link": "https://tkgally.github.io/500-clocks/",
-   "up": 37,
-   "com": 9,
+   "up": 41,
+   "com": 15,
    "at": "2026-10-18T04:04:58.000Z"
-  },
-  {
-   "src": "DEV",
-   "t": "One Rust Unicode Bug, Three Coding Models: A Reproducible Comparison",
-   "url": "https://dev.to/lovestaco/one-rust-unicode-bug-three-coding-models-a-reproducible-comparison-48ae",
-   "up": 20,
-   "com": 0,
-   "at": "2026-10-18T05:10:27Z"
   },
   {
    "src": "Hacker News",
    "t": "Amazon uses AI to monitor union risk in UK warehouses",
    "url": "https://news.ycombinator.com/item?id=50132278",
    "link": "https://www.opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield/",
-   "up": 160,
+   "up": 161,
    "com": 58,
    "at": "2026-10-17T16:04:23.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Israeli settlers attack European diplomatic cars in West Bank beat French mayor",
+   "url": "https://news.ycombinator.com/item?id=50133274",
+   "link": "https://www.lemonde.fr/en/international/article/2026/10/17/israeli-settlers-attack-european-diplomatic-cars-in-west-bank-beat-french-mayor-say-witnesses_6758711_4.html",
+   "up": 127,
+   "com": 18,
+   "at": "2026-10-17T17:49:10.000Z"
   }
  ]
 }
