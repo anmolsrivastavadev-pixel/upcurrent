@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-19T03:01:02.968Z"
+  "updated": "2026-10-19T03:30:50.932Z"
  },
  "pulse": {
   "trending": 81,
   "accelerating": 1,
   "newModels": 8,
   "discussions": 29,
-  "stars": 4893
+  "stars": 4909
  },
  "rising": [
   {
@@ -37,11 +37,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 96,
-   "grow": 110,
+   "grow": 116,
    "desc": "Your TV, minus the ads. Debloat any Android TV over ADB and give it a clean, tvOS-inspired launcher. Built in an afternoon with Claude Code.",
    "meta": [
-    "★ 2,196",
-    "+2,211 in 24h",
+    "★ 2,253",
+    "+2,232 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-17T08:12:35Z",
@@ -57,8 +57,8 @@
    "grow": 54,
    "desc": "Git designed for AI agents.",
    "meta": [
-    "★ 2,309",
-    "+1,853 in 24h",
+    "★ 2,310",
+    "+1,772 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -87,11 +87,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 88,
-   "grow": 9,
+   "grow": 10,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 2,962",
-    "+604 in 24h",
+    "★ 2,993",
+    "+648 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -105,7 +105,7 @@
    "cat": "Vision",
    "score": 88,
    "grow": 51,
-   "desc": "Vision on Hugging Face · open weights · ♥ 821",
+   "desc": "Vision on Hugging Face · open weights · ♥ 824",
    "meta": [
     "338K downloads",
     "Released 5 days ago"
@@ -131,11 +131,27 @@
    "url": "https://huggingface.co/google/embeddinggemma-2"
   },
   {
+   "name": "drama-3",
+   "owner": "fishaudio",
+   "src": "hf",
+   "cat": "Tools",
+   "score": 86,
+   "grow": 0,
+   "desc": "Model on Hugging Face · open weights · ♥ 705",
+   "meta": [
+    "9.6K downloads",
+    "Released 18 days ago"
+   ],
+   "at": "2026-10-01T04:34:57.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/fishaudio/drama-3"
+  },
+  {
    "name": "humanizer",
    "owner": "jialinyyzz",
    "src": "hf",
    "cat": "Infrastructure",
-   "score": 86,
+   "score": 85,
    "grow": 0,
    "desc": "Model on Hugging Face · open source · ♥ 2K",
    "meta": [
@@ -147,35 +163,19 @@
    "url": "https://huggingface.co/jialinyyzz/humanizer"
   },
   {
-   "name": "drama-3",
-   "owner": "fishaudio",
-   "src": "hf",
-   "cat": "Tools",
-   "score": 85,
-   "grow": 0,
-   "desc": "Model on Hugging Face · open weights · ♥ 703",
-   "meta": [
-    "9.6K downloads",
-    "Released 18 days ago"
-   ],
-   "at": "2026-10-01T04:34:57.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/fishaudio/drama-3"
-  },
-  {
-   "name": "Behavioral Compositionality of Sparse Autoencoder Representations",
+   "name": "Pack Light, CarryOn: Building Object-Oriented Context for Long-Horizon Agents",
    "owner": "Paper",
    "src": "paper",
-   "url": "https://huggingface.co/papers/2610.21261",
+   "url": "https://huggingface.co/papers/2610.18784",
    "cat": "Research",
    "score": 85,
    "grow": null,
-   "desc": "Sparse autoencoders (SAEs) represent model activations with sparse, linearly decoded features, but the downstream effects of those features need not compose additively.",
+   "desc": "Long-horizon agents accumulate progress in persistent task state, yet repeatedly process interaction histories describing how that progress was achieved.",
    "meta": [
-    "▲ 107 upvotes",
+    "▲ 62 upvotes",
     "Hugging Face Papers"
    ],
-   "at": "2026-10-14T20:00:00.000Z",
+   "at": "2026-10-13T13:35:27.000Z",
    "breakout": null
   }
  ],
@@ -197,8 +197,8 @@
     },
     {
      "src": "arXiv",
-     "t": "Untrained CNN and coefficient-space regularization for joint reconstruction in photoacoustic tomography",
-     "url": "https://arxiv.org/abs/2610.23315v1"
+     "t": "Rethinking the design space of Vanilla Pixel Diffusion Transformers",
+     "url": "https://arxiv.org/abs/2610.23854v1"
     }
    ],
    "since": "2026-10-19T00:27:53.628Z"
@@ -209,8 +209,8 @@
    "name": "tv-vibehack",
    "url": "https://github.com/Gathin23/tv-vibehack",
    "from": "GitHub",
-   "use": 2211,
-   "useLabel": "+2,211 stars/day",
+   "use": 2232,
+   "useLabel": "+2,232 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -324,17 +324,17 @@
  "github": [
   {
    "repo": "Gathin23/tv-vibehack",
-   "stars": 2196,
-   "d24": 2211,
+   "stars": 2253,
+   "d24": 2232,
    "est": false,
-   "forks": 260,
+   "forks": 267,
    "contrib": null,
    "score": 96
   },
   {
    "repo": "feder-cr/git-ai",
-   "stars": 2309,
-   "d24": 1853,
+   "stars": 2310,
+   "d24": 1772,
    "est": false,
    "forks": 259,
    "contrib": null,
@@ -342,17 +342,17 @@
   },
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2962,
-   "d24": 604,
+   "stars": 2993,
+   "d24": 648,
    "est": false,
-   "forks": 547,
+   "forks": 553,
    "contrib": null,
    "score": 88
   },
   {
    "repo": "deeplethe/solid-glass",
-   "stars": 2092,
-   "d24": 186,
+   "stars": 2108,
+   "d24": 210,
    "est": false,
    "forks": 27,
    "contrib": null,
@@ -360,8 +360,8 @@
   },
   {
    "repo": "Caho1/open-claude-ui",
-   "stars": 1211,
-   "d24": 23,
+   "stars": 1215,
+   "d24": 32,
    "est": false,
    "forks": 260,
    "contrib": null,
@@ -370,11 +370,11 @@
   {
    "repo": "zhuyansen/new-term-radar",
    "stars": 1111,
-   "d24": 16,
+   "d24": 15,
    "est": false,
-   "forks": 424,
+   "forks": 425,
    "contrib": null,
-   "score": 74
+   "score": 73
   }
  ],
  "models": [
@@ -387,7 +387,7 @@
    "grow": null,
    "score": 97,
    "cat": "Vision",
-   "likes": 1371
+   "likes": 1383
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -399,7 +399,7 @@
    "grow": null,
    "score": 89,
    "cat": "Vision",
-   "likes": 1010
+   "likes": 1013
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -410,7 +410,7 @@
    "grow": 51,
    "score": 88,
    "cat": "Vision",
-   "likes": 821
+   "likes": 824
   },
   {
    "name": "embeddinggemma-2",
@@ -424,26 +424,26 @@
    "likes": 2668
   },
   {
-   "name": "humanizer",
-   "org": "jialinyyzz",
-   "lic": "Open source",
-   "at": "2026-09-11T05:00:16.000Z",
-   "dl": 103709,
-   "grow": 0,
-   "score": 86,
-   "cat": "Infrastructure",
-   "likes": 1951
-  },
-  {
    "name": "drama-3",
    "org": "fishaudio",
    "lic": "Open weights",
    "at": "2026-10-01T04:34:57.000Z",
    "dl": 9620,
    "grow": 0,
-   "score": 85,
+   "score": 86,
    "cat": "Tools",
-   "likes": 703
+   "likes": 705
+  },
+  {
+   "name": "humanizer",
+   "org": "jialinyyzz",
+   "lic": "Open source",
+   "at": "2026-09-11T05:00:16.000Z",
+   "dl": 103709,
+   "grow": 0,
+   "score": 85,
+   "cat": "Infrastructure",
+   "likes": 1951
   }
  ],
  "free": [
@@ -741,6 +741,20 @@
  },
  "headlines": [
   {
+   "t": "China's GDP is set to grow 4.5% YoY in Q3, up from Q2's three-year-low growth rate of 4.3%, as AI-driven exports helped offset weak domestic spending",
+   "url": "https://www.techmeme.com/261018/p17#a261018p17",
+   "at": "2026-10-19T03:30:00.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Sam Altman's World launches a World ID verification suite for banks, bundling tools to verify human and agent identities, its first industry-specific offering",
+   "url": "https://www.techmeme.com/261018/p16#a261018p16",
+   "at": "2026-10-19T03:10:02.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Europe's three biggest industrial companies are cashing in on the AI boom, as Schneider and Siemens expand further into software, while ABB focuses on equipment",
    "url": "https://www.techmeme.com/261018/p14#a261018p14",
    "at": "2026-10-19T01:40:00.000Z",
@@ -773,6 +787,27 @@
    "url": "https://www.techmeme.com/261018/p9#a261018p9",
    "at": "2026-10-18T18:10:01.000Z",
    "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Trump's intel chief warns AI companies over rogue agents hacking websites",
+   "url": "https://www.foxnews.com/media/trump-intel-chief-warns-ai-firms-hacks-says-new-department-cop-beat",
+   "at": "2026-10-18T15:20:02Z",
+   "src": "Fox News",
+   "kind": "News"
+  },
+  {
+   "t": "Anthropic sees junior tech hires' share fall from 27% to 9% amid growing AI adoption",
+   "url": "https://www.aninews.in/news/business/anthropic-sees-junior-tech-hires-share-fall-from-27-to-9-amid-growing-ai-adoption20261018203944/",
+   "at": "2026-10-18T15:09:44Z",
+   "src": "ANI (Asian News International)",
+   "kind": "News"
+  },
+  {
+   "t": "Apple and OpenAI Trade Allegations in AI Secret",
+   "url": "https://www.europesays.com/3317823/",
+   "at": "2026-10-18T15:09:26Z",
+   "src": "EUROPE SAYS",
    "kind": "News"
   },
   {
@@ -816,41 +851,6 @@
    "at": "2026-10-18T13:16:05Z",
    "src": "The Economic Times",
    "kind": "News"
-  },
-  {
-   "t": "RTX 3090’s Token Generation Speed Gets Up To A 4.6x Boost Running A 27B LLM Through Just Inference Optimizations, Opening New Doors For Older GPUs",
-   "url": "https://wccftech.com/rtx-3090-4-6x-token-generation-27b-llm-inference-optimizations/",
-   "at": "2026-10-18T13:13:10Z",
-   "src": "Wccftech",
-   "kind": "News"
-  },
-  {
-   "t": "Microsoft pulls out of AI datacentre project in Essex over power supply concerns",
-   "url": "https://www.theguardian.com/uk-news/2026/oct/18/microsoft-drops-huge-ai-datacentre-project-in-essex-over-power-supply-concerns",
-   "at": "2026-10-18T13:05:14Z",
-   "src": "The Guardian",
-   "kind": "News"
-  },
-  {
-   "t": "Morgan Stanley–Oliver Wyman",
-   "url": "https://www.aninews.in/news/business/only-8-of-fund-managers-report-improved-investment-returns-from-ai-adoption-morgan-stanley8211oliver-wyman20261018183208/",
-   "at": "2026-10-18T13:02:08Z",
-   "src": "ANI (Asian News International)",
-   "kind": "News"
-  },
-  {
-   "t": "Nitin Gadkari's village to become a textile hub? How a handloom project aims to employ 5,000 women and take sarees global",
-   "url": "https://economictimes.indiatimes.com/industry/cons-products/garments-/-textiles/nitin-gadkaris-village-to-become-a-textile-hub-how-a-handloom-project-aims-to-employ-5000-women-and-take-sarees-global/articleshow/135029066.cms",
-   "at": "2026-10-18T12:59:00Z",
-   "src": "The Economic Times",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI Staffer Accused Of Planting Recording Device Says He Had No Plan To Flee US",
-   "url": "https://www.timesnownews.com/technology-science/openai-staffer-accused-of-planting-recording-device-says-he-had-no-plan-to-flee-us-article-156362161",
-   "at": "2026-10-18T12:50:35Z",
-   "src": "Times Now",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -859,8 +859,8 @@
    "t": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
    "url": "https://news.ycombinator.com/item?id=50145337",
    "link": "https://arxiv.org/abs/2610.18861",
-   "up": 242,
-   "com": 148,
+   "up": 257,
+   "com": 152,
    "at": "2026-10-18T20:48:14.000Z"
   },
   {
@@ -868,7 +868,7 @@
    "t": "RepRapMicron",
    "url": "https://news.ycombinator.com/item?id=50141076",
    "link": "https://github.com/VikOlliver/RepRapMicron/wiki",
-   "up": 339,
+   "up": 345,
    "com": 55,
    "at": "2026-10-18T13:48:48.000Z"
   },
@@ -877,7 +877,7 @@
    "t": "Free Pascal compiler now supports dynamic packages",
    "url": "https://news.ycombinator.com/item?id=50144066",
    "link": "https://www.getlazarus.org/dynamic/",
-   "up": 117,
+   "up": 119,
    "com": 24,
    "at": "2026-10-18T18:48:04.000Z"
   },
@@ -895,7 +895,7 @@
    "t": "Show HN: The Zelda timeline to catch up before the Ocarina of Time remake",
    "url": "https://news.ycombinator.com/item?id=50140769",
    "link": "https://legendofhyrule.com/",
-   "up": 167,
+   "up": 172,
    "com": 102,
    "at": "2026-10-18T13:06:54.000Z"
   },
@@ -904,7 +904,7 @@
    "t": "Open MicroManipulator – A sub-micrometer 3D motion control plattform",
    "url": "https://news.ycombinator.com/item?id=50140001",
    "link": "https://github.com/0x23/MicroManipulatorStepper",
-   "up": 177,
+   "up": 179,
    "com": 13,
    "at": "2026-10-18T11:16:22.000Z"
   }
