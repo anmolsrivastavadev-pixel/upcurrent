@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-19T17:01:12.578Z"
+  "updated": "2026-10-19T17:30:54.749Z"
  },
  "pulse": {
   "trending": 79,
   "accelerating": 0,
   "newModels": 8,
-  "discussions": 43,
-  "stars": 2299
+  "discussions": 46,
+  "stars": 2279
  },
  "rising": [
   {
@@ -40,8 +40,8 @@
    "grow": null,
    "desc": "Git designed for AI agents.",
    "meta": [
-    "★ 2,419",
-    "~582 in 24h",
+    "★ 2,420",
+    "~579 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -55,7 +55,7 @@
    "cat": "Vision",
    "score": 90,
    "grow": 16,
-   "desc": "Vision on Hugging Face · open weights · ♥ 914",
+   "desc": "Vision on Hugging Face · open weights · ♥ 917",
    "meta": [
     "393K downloads",
     "Released 5 days ago"
@@ -73,8 +73,8 @@
    "grow": null,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 3,344",
-    "~508 in 24h",
+    "★ 3,346",
+    "~507 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -102,12 +102,12 @@
    "owner": "Leonxlnx",
    "src": "gh",
    "cat": "Agents",
-   "score": 87,
-   "grow": 28,
+   "score": 88,
+   "grow": 30,
    "desc": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
    "meta": [
-    "★ 1,370",
-    "+966 in 24h",
+    "★ 1,385",
+    "+951 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-15T06:52:46Z",
@@ -121,7 +121,7 @@
    "cat": "Tools",
    "score": 87,
    "grow": 23,
-   "desc": "Model on Hugging Face · open weights · ♥ 745",
+   "desc": "Model on Hugging Face · open weights · ♥ 748",
    "meta": [
     "12K downloads",
     "Released 19 days ago"
@@ -254,8 +254,8 @@
    "name": "earshot",
    "url": "https://github.com/Leonxlnx/earshot",
    "from": "GitHub",
-   "use": 966,
-   "useLabel": "+966 stars/day",
+   "use": 951,
+   "useLabel": "+951 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -285,6 +285,16 @@
   }
  ],
  "receipts": [
+  {
+   "name": "omlahore/RemoveMacAI",
+   "url": "https://github.com/omlahore/RemoveMacAI",
+   "kind": "stars",
+   "first": "2026-10-05T09:30:52.147Z",
+   "firstV": 887,
+   "m": 5000,
+   "at": "2026-10-19T17:30:54.749Z",
+   "lead": 344.00072277777775
+  },
   {
    "name": "fishaudio/drama-3",
    "url": "https://huggingface.co/fishaudio/drama-3",
@@ -354,50 +364,40 @@
    "m": 5000,
    "at": "2026-10-17T18:48:30.636Z",
    "lead": 263.29360555555553
-  },
-  {
-   "name": "openbmb/MiniCPM-V-4.7-1B",
-   "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-1B",
-   "kind": "downloads",
-   "first": "2026-10-13T07:30:53.421Z",
-   "firstV": 14,
-   "m": 10000,
-   "at": "2026-10-17T09:16:53.895Z",
-   "lead": 97.76679833333333
   }
  ],
  "github": [
   {
    "repo": "Leonxlnx/earshot",
-   "stars": 1370,
-   "d24": 966,
+   "stars": 1385,
+   "d24": 951,
    "est": false,
    "forks": 77,
    "contrib": null,
-   "score": 87
+   "score": 88
   },
   {
    "repo": "feder-cr/git-ai",
-   "stars": 2419,
-   "d24": 582,
+   "stars": 2420,
+   "d24": 579,
    "est": true,
-   "forks": 265,
+   "forks": 266,
    "contrib": null,
    "score": 93
   },
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 3344,
-   "d24": 508,
+   "stars": 3346,
+   "d24": 507,
    "est": true,
-   "forks": 606,
+   "forks": 607,
    "contrib": null,
    "score": 89
   },
   {
    "repo": "Caho1/open-claude-ui",
    "stars": 1245,
-   "d24": 243,
+   "d24": 242,
    "est": true,
    "forks": 263,
    "contrib": null,
@@ -414,7 +414,7 @@
    "grow": 75,
    "score": 96,
    "cat": "Vision",
-   "likes": 1617
+   "likes": 1625
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -425,7 +425,7 @@
    "grow": 16,
    "score": 90,
    "cat": "Vision",
-   "likes": 914
+   "likes": 917
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -448,7 +448,7 @@
    "grow": 23,
    "score": 87,
    "cat": "Tools",
-   "likes": 745
+   "likes": 748
   },
   {
    "name": "embeddinggemma-2",
@@ -459,7 +459,7 @@
    "grow": null,
    "score": 85,
    "cat": "Vision",
-   "likes": 2706
+   "likes": 2709
   },
   {
    "name": "humanizer",
@@ -802,6 +802,27 @@
  },
  "headlines": [
   {
+   "t": "We need to stop disinformation in UK political adverts. Here’s a chance to do so | Letter",
+   "url": "https://www.theguardian.com/politics/2026/oct/19/we-need-to-stop-disinformation-in-uk-political-adverts-heres-a-chance-to-do-so",
+   "at": "2026-10-19T17:17:33Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "Tolan, an AI assistant focused on users that are not tech-savvy, raised $30M from USV, Khosla Ventures, and Homebrew, and says 70% of its users are women",
+   "url": "https://www.techmeme.com/261019/p36#a261019p36",
+   "at": "2026-10-19T17:15:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Sources: DeepSeek and Huawei are collaborating on future AI chip designs; DeepSeek plans to start using Ascend 950DT for pre-training as soon as 2026's end",
+   "url": "https://www.techmeme.com/261019/p35#a261019p35",
+   "at": "2026-10-19T17:05:07.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "AI infrastructure startup Modal says it plans to start using Nvidia's Vera CPUs for the first time for hosting agents, alongside its current Intel and AMD chips",
    "url": "https://www.techmeme.com/261019/p31#a261019p31",
    "at": "2026-10-19T15:40:02.000Z",
@@ -865,13 +886,6 @@
    "kind": "News"
   },
   {
-   "t": "Tel Aviv-based doubleAI releases a code execution model for improving GPU and CPU performance; doubleAI raised $220M, using ~50% to buy 1,000 Nvidia B300 chips",
-   "url": "https://www.techmeme.com/261019/p21#a261019p21",
-   "at": "2026-10-19T12:20:02.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "US teens can access ‘nudify’ apps despite Apple and Google’s parental controls, report finds",
    "url": "https://www.theguardian.com/technology/2026/oct/19/us-teens-nudify-apps-apple-google-parental-controls",
    "at": "2026-10-19T10:00:05Z",
@@ -886,70 +900,65 @@
    "kind": "Video"
   },
   {
-   "t": "Anthropic’s Claude AI to Draw Election Data Ahead of November Midterms",
-   "url": "https://www.naturalnews.com/2026-10-19-anthropic-claude-ai-draw-election-data-midterms.html",
-   "at": "2026-10-19T05:00:01Z",
-   "src": "Natural News",
+   "t": "Anthropic commits 5% of its stock to new 'public benefit' fund",
+   "url": "https://www.thehindubusinessline.com/info-tech/anthropic-commits-5-of-its-stock-to-new-public-benefit-fund/article71602058.ece",
+   "at": "2026-10-19T05:22:09Z",
+   "src": "The Hindu Business Line",
    "kind": "News"
   },
   {
-   "t": "Beyond doom: Why the AI ‘utopia’ presents its own crisis",
-   "url": "https://www.afr.com/technology/beyond-doom-why-the-ai-utopia-presents-its-own-crisis-20261019-p616ln",
-   "at": "2026-10-19T05:00:00Z",
-   "src": "Australian Financial Review",
-   "kind": "News"
-  },
-  {
-   "t": "China moves to curb tech exports, including AI, citing national security risks",
-   "url": "https://www.thestar.com.my/tech/tech-news/2026/10/19/china-moves-to-curb-tech-exports-including-ai-citing-national-security-risks",
-   "at": "2026-10-19T05:00:00Z",
-   "src": "The Star",
-   "kind": "News"
-  },
-  {
-   "t": "Who was George Gabriel Stokes? The Irish mathematician whose 180-year-old puzzle has AI giants at war",
-   "url": "https://www.irishtimes.com/science/2026/10/19/who-was-george-gabriel-stokes-the-irish-mathematician-whose-180-year-old-puzzle-has-ai-giants-at-war/",
-   "at": "2026-10-19T05:00:00Z",
-   "src": "The Irish Times",
+   "t": "‘Faster and leaner’: DeepSeek rolls out upgraded AI model after recent service disruptions",
+   "url": "https://www.malaymail.com/news/tech-gadgets/2026/10/19/faster-and-leaner-deepseek-rolls-out-upgraded-ai-model-after-recent-service-disruptions/239703",
+   "at": "2026-10-19T05:18:30Z",
+   "src": "Malay Mail",
    "kind": "News"
   }
  ],
  "discussions": [
   {
    "src": "Hacker News",
-   "t": "Another day another GitHub incident",
+   "t": "Degraded availability for GitHub Actions, GitHub Pages and Webhooks",
    "url": "https://news.ycombinator.com/item?id=50153934",
    "link": "https://www.githubstatus.com/incidents/8tzbpcnl75jp",
-   "up": 93,
-   "com": 63,
+   "up": 107,
+   "com": 81,
    "at": "2026-10-19T15:52:26.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Timestral: Mistral release time-series foundation models",
-   "url": "https://news.ycombinator.com/item?id=50150434",
-   "link": "https://mistral.ai/news/timestral/",
-   "up": 362,
-   "com": 62,
-   "at": "2026-10-19T09:59:32.000Z"
   },
   {
    "src": "Hacker News",
    "t": "CERN and Mistral join forces to accelerate AI for science",
    "url": "https://news.ycombinator.com/item?id=50153630",
    "link": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
-   "up": 78,
-   "com": 6,
+   "up": 126,
+   "com": 18,
    "at": "2026-10-19T15:28:24.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Timestral: Mistral release time-series foundation models",
+   "url": "https://news.ycombinator.com/item?id=50150434",
+   "link": "https://mistral.ai/news/timestral/",
+   "up": 379,
+   "com": 68,
+   "at": "2026-10-19T09:59:32.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Show HN: Qwen3-4B with the AI writing tics trained out",
    "url": "https://news.ycombinator.com/item?id=50151928",
    "link": "https://100toolkit.com/blog/deslop-model/",
-   "up": 114,
-   "com": 87,
+   "up": 121,
+   "com": 92,
    "at": "2026-10-19T13:00:47.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+   "url": "https://news.ycombinator.com/item?id=50145337",
+   "link": "https://arxiv.org/abs/2610.18861",
+   "up": 491,
+   "com": 231,
+   "at": "2026-10-18T20:48:14.000Z"
   },
   {
    "src": "Hacker News",
@@ -957,17 +966,8 @@
    "url": "https://news.ycombinator.com/item?id=50151390",
    "link": "https://github.com/IsuruMaduranga/harness-engineering-101",
    "up": 126,
-   "com": 60,
+   "com": 61,
    "at": "2026-10-19T12:07:41.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "AI lab offers free plumbing and HVAC repairs across three cities to train robots",
-   "url": "https://news.ycombinator.com/item?id=50154060",
-   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-lab-offers-free-plumbing-and-hvac-repairs-across-three-cities-to-train-ai-robots-wearable-sensors-record-video-of-repair-work-for-robotics-training-free-services-also-include-electrical-work-air-duct-cleaning-and-carpet-cleaning",
-   "up": 25,
-   "com": 54,
-   "at": "2026-10-19T16:03:29.000Z"
   }
  ]
 }
