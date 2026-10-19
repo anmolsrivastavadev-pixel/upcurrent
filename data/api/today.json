@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-19T11:30:56.433Z"
+  "updated": "2026-10-19T12:01:08.586Z"
  },
  "pulse": {
   "trending": 79,
   "accelerating": 0,
   "newModels": 8,
-  "discussions": 36,
-  "stars": 2141
+  "discussions": 38,
+  "stars": 2113
  },
  "rising": [
   {
@@ -40,8 +40,8 @@
    "grow": 58,
    "desc": "Git designed for AI agents.",
    "meta": [
-    "★ 2,370",
-    "+1,101 in 24h",
+    "★ 2,374",
+    "+1,078 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -57,8 +57,8 @@
    "grow": 20,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 3,270",
-    "+729 in 24h",
+    "★ 3,278",
+    "+720 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -88,7 +88,7 @@
    "cat": "Vision",
    "score": 89,
    "grow": 16,
-   "desc": "Vision on Hugging Face · open weights · ♥ 870",
+   "desc": "Vision on Hugging Face · open weights · ♥ 873",
    "meta": [
     "393K downloads",
     "Released 5 days ago"
@@ -103,8 +103,8 @@
    "src": "hf",
    "cat": "Tools",
    "score": 87,
-   "grow": null,
-   "desc": "Model on Hugging Face · open weights · ♥ 726",
+   "grow": 23,
+   "desc": "Model on Hugging Face · open weights · ♥ 729",
    "meta": [
     "12K downloads",
     "Released 18 days ago"
@@ -139,7 +139,7 @@
    "grow": null,
    "desc": "We study how vision-language models (VLMs) can learn to think and actively explore in 3D space.",
    "meta": [
-    "▲ 105 upvotes",
+    "▲ 110 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-14T20:00:00.000Z",
@@ -155,7 +155,7 @@
    "grow": null,
    "desc": "Open-source Superhuman alternative",
    "meta": [
-    "▲ 336 votes",
+    "▲ 338 votes",
     "29 comments",
     "Launched yesterday"
    ],
@@ -163,21 +163,20 @@
    "breakout": null
   },
   {
-   "name": "earshot",
-   "owner": "Leonxlnx",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 83,
-   "grow": null,
-   "desc": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
+   "name": "flux-3-image-klein",
+   "owner": "black-forest-labs",
+   "src": "hf",
+   "cat": "Vision",
+   "score": 84,
+   "grow": 19,
+   "desc": "Vision on Hugging Face · open weights · ♥ 512",
    "meta": [
-    "★ 1,138",
-    "~271 in 24h",
-    "Created 4 days ago"
+    "62K downloads",
+    "Released 6 days ago"
    ],
-   "at": "2026-10-15T06:52:46Z",
+   "at": "2026-10-13T10:58:40.000Z",
    "breakout": null,
-   "url": "https://github.com/Leonxlnx/earshot"
+   "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein"
   }
  ],
  "breakouts": [
@@ -232,8 +231,8 @@
    "name": "git-ai",
    "url": "https://github.com/feder-cr/git-ai",
    "from": "GitHub",
-   "use": 1101,
-   "useLabel": "+1,101 stars/day",
+   "use": 1078,
+   "useLabel": "+1,078 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -347,8 +346,8 @@
  "github": [
   {
    "repo": "feder-cr/git-ai",
-   "stars": 2370,
-   "d24": 1101,
+   "stars": 2374,
+   "d24": 1078,
    "est": false,
    "forks": 264,
    "contrib": null,
@@ -356,26 +355,26 @@
   },
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 3270,
-   "d24": 729,
+   "stars": 3278,
+   "d24": 720,
    "est": false,
-   "forks": 594,
+   "forks": 595,
    "contrib": null,
    "score": 89
   },
   {
    "repo": "Leonxlnx/earshot",
-   "stars": 1138,
-   "d24": 271,
+   "stars": 1154,
+   "d24": 274,
    "est": true,
-   "forks": 61,
+   "forks": 62,
    "contrib": null,
    "score": 83
   },
   {
    "repo": "Caho1/open-claude-ui",
-   "stars": 1231,
-   "d24": 40,
+   "stars": 1233,
+   "d24": 41,
    "est": false,
    "forks": 263,
    "contrib": null,
@@ -392,7 +391,7 @@
    "grow": 75,
    "score": 97,
    "cat": "Vision",
-   "likes": 1536
+   "likes": 1544
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -404,7 +403,7 @@
    "grow": 32,
    "score": 89,
    "cat": "Vision",
-   "likes": 1031
+   "likes": 1032
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -415,7 +414,7 @@
    "grow": 16,
    "score": 89,
    "cat": "Vision",
-   "likes": 870
+   "likes": 873
   },
   {
    "name": "drama-3",
@@ -423,10 +422,10 @@
    "lic": "Open weights",
    "at": "2026-10-01T04:34:57.000Z",
    "dl": 11795,
-   "grow": null,
+   "grow": 23,
    "score": 87,
    "cat": "Tools",
-   "likes": 726
+   "likes": 729
   },
   {
    "name": "embeddinggemma-2",
@@ -440,15 +439,15 @@
    "likes": 2689
   },
   {
-   "name": "humanizer",
-   "org": "jialinyyzz",
-   "lic": "Open source",
-   "at": "2026-09-11T05:00:16.000Z",
-   "dl": 109937,
-   "grow": 6,
-   "score": 83,
-   "cat": "Infrastructure",
-   "likes": 1969
+   "name": "flux-3-image-klein",
+   "org": "black-forest-labs",
+   "lic": "Open weights",
+   "at": "2026-10-13T10:58:40.000Z",
+   "dl": 62006,
+   "grow": 19,
+   "score": 84,
+   "cat": "Vision",
+   "likes": 512
   }
  ],
  "free": [
@@ -523,6 +522,26 @@
    "url": null,
    "caps": [],
    "added": false
+  },
+  {
+   "name": "minimax-m3.1-flash",
+   "prov": "OpenCode Zen",
+   "ctx": null,
+   "url": null,
+   "caps": [],
+   "added": true
+  },
+  {
+   "name": "MiniMax M3.1 Flash",
+   "prov": "OpenRouter",
+   "ctx": 1000000,
+   "url": "https://openrouter.ai/minimax/minimax-m3.1-flash:free",
+   "caps": [
+    "image/video",
+    "reasoning",
+    "tools"
+   ],
+   "added": true
   },
   {
    "name": "Xing4.0 29B A4B",
@@ -742,9 +761,31 @@
  ],
  "freeChanges": {
   "since": "2026-10-01T17:48:04.617Z",
-  "events": []
+  "events": [
+   {
+    "type": "added",
+    "name": "minimax-m3.1-flash",
+    "prov": "OpenCode Zen",
+    "url": null,
+    "at": "2026-10-19T12:01:08.586Z"
+   },
+   {
+    "type": "added",
+    "name": "MiniMax M3.1 Flash",
+    "prov": "OpenRouter",
+    "url": "https://openrouter.ai/minimax/minimax-m3.1-flash:free",
+    "at": "2026-10-19T12:01:08.586Z"
+   }
+  ]
  },
  "headlines": [
+  {
+   "t": "AI chip startup Tenstorrent raised a $1.5B Series E led by Trace Capital and Innovation X at a $6.2B valuation, up from $2.6B after raising $700M in 2024",
+   "url": "https://www.techmeme.com/261019/p18#a261019p18",
+   "at": "2026-10-19T11:45:00.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
   {
    "t": "AI firm Anthropic to commit 5% of shares to fund for ‘public good’",
    "url": "https://www.theguardian.com/technology/2026/oct/19/ai-firm-anthropic-to-commit-shares-to-fund-for-public-good",
@@ -816,13 +857,6 @@
    "kind": "News"
   },
   {
-   "t": "Survey of 94 economists: 54% expect AI's gains to spread across the G20 over the next decade, not just the US and China; 32 see African countries falling behind",
-   "url": "https://www.techmeme.com/261019/p4#a261019p4",
-   "at": "2026-10-19T05:45:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Kylie Minogue songs already used to train AI as tech firms ‘strong-arm’ Australian government, music body warns",
    "url": "https://www.theguardian.com/music/2026/oct/19/australia-music-global-copywright-outlier-ai-music-body-warnsns",
    "at": "2026-10-19T00:57:46Z",
@@ -837,6 +871,13 @@
    "kind": "Video"
   },
   {
+   "t": "Army officer’s wife booked in J&K for alleged espionage-related activities",
+   "url": "https://www.thehitavada.com/Encyc/2026/10/19/army-officers-wife-booked-in-jk-for-alleged-espionage-related-activities.html",
+   "at": "2026-10-19T00:00:00Z",
+   "src": "The Hitavada",
+   "kind": "News"
+  },
+  {
    "t": "Taiwan Dollar Bulls Look Past AI-Led Selloff to Year-End Rally",
    "url": "https://www.livemint.com/market/taiwan-dollar-bulls-look-past-ai-led-selloff-to-year-end-rally-11792366166745.html",
    "at": "2026-10-18T23:29:26Z",
@@ -849,23 +890,25 @@
    "at": "2026-10-18T22:22:13Z",
    "src": "New York Post",
    "kind": "News"
-  },
-  {
-   "t": "Computer price hikes continue into 2027",
-   "url": "https://www.bangkokpost.com/business/general/3339568/computer-price-hikes-continue-into-2027",
-   "at": "2026-10-18T22:21:00Z",
-   "src": "Bangkok Post",
-   "kind": "News"
   }
  ],
  "discussions": [
   {
    "src": "Hacker News",
+   "t": "Timestral: Mistral release time-series foundation models",
+   "url": "https://news.ycombinator.com/item?id=50150434",
+   "link": "https://mistral.ai/news/timestral/",
+   "up": 58,
+   "com": 11,
+   "at": "2026-10-19T09:59:32.000Z"
+  },
+  {
+   "src": "Hacker News",
    "t": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
    "url": "https://news.ycombinator.com/item?id=50145337",
    "link": "https://arxiv.org/abs/2610.18861",
-   "up": 422,
-   "com": 205,
+   "up": 428,
+   "com": 214,
    "at": "2026-10-18T20:48:14.000Z"
   },
   {
@@ -873,8 +916,8 @@
    "t": "DeepSeek V4.1 Flash 1017 (Max)",
    "url": "https://news.ycombinator.com/item?id=50148452",
    "link": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
-   "up": 159,
-   "com": 58,
+   "up": 161,
+   "com": 60,
    "at": "2026-10-19T04:41:46.000Z"
   },
   {
@@ -882,7 +925,7 @@
    "t": "RepRapMicron",
    "url": "https://news.ycombinator.com/item?id=50141076",
    "link": "https://github.com/VikOlliver/RepRapMicron/wiki",
-   "up": 401,
+   "up": 405,
    "com": 64,
    "at": "2026-10-18T13:48:48.000Z"
   },
@@ -891,8 +934,8 @@
    "t": "If you don't run your own LLM proxy, how do you know whats going on?",
    "url": "https://news.ycombinator.com/item?id=50145507",
    "link": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
-   "up": 192,
-   "com": 138,
+   "up": 203,
+   "com": 149,
    "at": "2026-10-18T21:09:12.000Z"
   },
   {
@@ -900,18 +943,9 @@
    "t": "Free Pascal compiler now supports dynamic packages",
    "url": "https://news.ycombinator.com/item?id=50144066",
    "link": "https://www.getlazarus.org/dynamic/",
-   "up": 166,
-   "com": 39,
+   "up": 168,
+   "com": 41,
    "at": "2026-10-18T18:48:04.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling",
-   "url": "https://news.ycombinator.com/item?id=50148855",
-   "link": "https://crystl.dev/guides/tmux-for-ai-agents/",
-   "up": 52,
-   "com": 26,
-   "at": "2026-10-19T05:55:31.000Z"
   }
  ]
 }
