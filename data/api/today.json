@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-19T18:01:09.747Z"
+  "updated": "2026-10-19T18:31:01.886Z"
  },
  "pulse": {
   "trending": 79,
   "accelerating": 0,
   "newModels": 8,
-  "discussions": 48,
-  "stars": 2255
+  "discussions": 49,
+  "stars": 1851
  },
  "rising": [
   {
@@ -36,12 +36,12 @@
    "owner": "feder-cr",
    "src": "gh",
    "cat": "Agents",
-   "score": 93,
-   "grow": null,
+   "score": 92,
+   "grow": 2,
    "desc": "Git designed for AI agents.",
    "meta": [
-    "★ 2,424",
-    "~577 in 24h",
+    "★ 2,426",
+    "+184 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -55,7 +55,7 @@
    "cat": "Vision",
    "score": 90,
    "grow": 16,
-   "desc": "Vision on Hugging Face · open weights · ♥ 922",
+   "desc": "Vision on Hugging Face · open weights · ♥ 925",
    "meta": [
     "393K downloads",
     "Released 5 days ago"
@@ -73,8 +73,8 @@
    "grow": null,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 3,348",
-    "~506 in 24h",
+    "★ 3,347",
+    "~504 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -103,11 +103,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 88,
-   "grow": 31,
+   "grow": 32,
    "desc": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
    "meta": [
-    "★ 1,398",
-    "+931 in 24h",
+    "★ 1,414",
+    "+922 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-15T06:52:46Z",
@@ -121,7 +121,7 @@
    "cat": "Tools",
    "score": 86,
    "grow": 23,
-   "desc": "Model on Hugging Face · open weights · ♥ 750",
+   "desc": "Model on Hugging Face · open weights · ♥ 751",
    "meta": [
     "12K downloads",
     "Released 19 days ago"
@@ -147,19 +147,19 @@
    "url": "https://huggingface.co/google/embeddinggemma-2"
   },
   {
-   "name": "Learning to Think and Explore in 3D World",
+   "name": "LiveMACE: Process-Aware Evaluation of LLM Agent Capabilities in Evolving Markets",
    "owner": "Paper",
    "src": "paper",
-   "url": "https://huggingface.co/papers/2610.21783",
+   "url": "https://huggingface.co/papers/2610.09872",
    "cat": "Research",
    "score": 85,
    "grow": null,
-   "desc": "We study how vision-language models (VLMs) can learn to think and actively explore in 3D space.",
+   "desc": "Evaluating agents by outcomes alone can obscure the capabilities that produce them.",
    "meta": [
-    "▲ 140 upvotes",
+    "▲ 110 upvotes",
     "Hugging Face Papers"
    ],
-   "at": "2026-10-14T20:00:00.000Z",
+   "at": "2026-10-06T20:00:00.000Z",
    "breakout": null
   },
   {
@@ -230,8 +230,8 @@
    "name": "earshot",
    "url": "https://github.com/Leonxlnx/earshot",
    "from": "GitHub",
-   "use": 931,
-   "useLabel": "+931 stars/day",
+   "use": 922,
+   "useLabel": "+922 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -345,39 +345,39 @@
  "github": [
   {
    "repo": "Leonxlnx/earshot",
-   "stars": 1398,
-   "d24": 931,
+   "stars": 1414,
+   "d24": 922,
    "est": false,
    "forks": 78,
    "contrib": null,
    "score": 88
   },
   {
-   "repo": "feder-cr/git-ai",
-   "stars": 2424,
-   "d24": 577,
-   "est": true,
-   "forks": 266,
-   "contrib": null,
-   "score": 93
-  },
-  {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 3348,
-   "d24": 506,
+   "stars": 3347,
+   "d24": 504,
    "est": true,
-   "forks": 607,
+   "forks": 608,
    "contrib": null,
    "score": 89
   },
   {
    "repo": "Caho1/open-claude-ui",
-   "stars": 1246,
+   "stars": 1247,
    "d24": 241,
    "est": true,
    "forks": 263,
    "contrib": null,
    "score": 79
+  },
+  {
+   "repo": "feder-cr/git-ai",
+   "stars": 2426,
+   "d24": 184,
+   "est": false,
+   "forks": 267,
+   "contrib": null,
+   "score": 92
   }
  ],
  "models": [
@@ -390,7 +390,7 @@
    "grow": 75,
    "score": 96,
    "cat": "Vision",
-   "likes": 1635
+   "likes": 1639
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -401,7 +401,7 @@
    "grow": 16,
    "score": 90,
    "cat": "Vision",
-   "likes": 922
+   "likes": 925
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -413,7 +413,7 @@
    "grow": 32,
    "score": 89,
    "cat": "Vision",
-   "likes": 1044
+   "likes": 1047
   },
   {
    "name": "drama-3",
@@ -424,7 +424,7 @@
    "grow": 23,
    "score": 86,
    "cat": "Tools",
-   "likes": 750
+   "likes": 751
   },
   {
    "name": "embeddinggemma-2",
@@ -435,7 +435,7 @@
    "grow": null,
    "score": 85,
    "cat": "Vision",
-   "likes": 2711
+   "likes": 2713
   },
   {
    "name": "humanizer",
@@ -446,7 +446,7 @@
    "grow": null,
    "score": 83,
    "cat": "Infrastructure",
-   "likes": 1973
+   "likes": 1976
   }
  ],
  "free": [
@@ -778,6 +778,20 @@
  },
  "headlines": [
   {
+   "t": "Town, which develops enterprise AI assistants, raised a $108M Series B at a $1B valuation, after announcing a $55M Series A in June",
+   "url": "https://www.techmeme.com/261019/p39#a261019p39",
+   "at": "2026-10-19T18:20:00.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Developers and vibe coders are using AI tools like Claude Code to get rid of sponsored ads on their smart TVs, disable tracking features, and more",
+   "url": "https://www.techmeme.com/261019/p38#a261019p38",
+   "at": "2026-10-19T18:05:02.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "We need to stop disinformation in UK political adverts. Here’s a chance to do so | Letter",
    "url": "https://www.theguardian.com/politics/2026/oct/19/we-need-to-stop-disinformation-in-uk-political-adverts-heres-a-chance-to-do-so",
    "at": "2026-10-19T17:17:33Z",
@@ -813,23 +827,9 @@
    "kind": "Lab blog"
   },
   {
-   "t": "Hace cosas bien locas :O #minecraft #minecraftshorts #humor #humorviral #mods #eda #claude",
-   "url": "https://www.youtube.com/watch?v=BJMCF2zOnAM",
-   "at": "2026-10-19T15:00:30Z",
-   "src": "EdaEsvila",
-   "kind": "Video"
-  },
-  {
    "t": "Filing: US prosecutors say OpenAI suspect Abdulrahman Alfozan maintained frequent WhatsApp contact in 2025 and 2026 with an unnamed Saudi Royal Family member",
    "url": "https://www.techmeme.com/261019/p26#a261019p26",
    "at": "2026-10-19T14:25:00.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Source: Anthropic is preparing a model with better intuition and reasoning that can discern underlying intentions and is better at thinking outside of the box",
-   "url": "https://www.techmeme.com/261019/p25#a261019p25",
-   "at": "2026-10-19T14:15:01.000Z",
    "src": "Techmeme",
    "kind": "News"
   },
@@ -838,20 +838,6 @@
    "url": "https://www.theguardian.com/technology/2026/oct/20/workplace-privacy-concerns-employers-use-ai-to-monitor-staff",
    "at": "2026-10-19T14:00:03Z",
    "src": "The Guardian",
-   "kind": "News"
-  },
-  {
-   "t": "Microsoft debuts new security tools in Microsoft 365 E7 and its Project Perception system that treat AI agents as potential insider threats via risk assessments",
-   "url": "https://www.techmeme.com/261019/p24#a261019p24",
-   "at": "2026-10-19T13:25:02.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "How Democrats, who polls predict will flip at least one chamber of Congress in the midterm elections, are preparing to aggressively scrutinize the AI industry",
-   "url": "https://www.techmeme.com/261019/p23#a261019p23",
-   "at": "2026-10-19T13:05:04.000Z",
-   "src": "Techmeme",
    "kind": "News"
   },
   {
@@ -869,71 +855,85 @@
    "kind": "News"
   },
   {
-   "t": "Anthropic's UBI PLAN?! NEW OpenAI Aurora Models, Fable 5.5 UPGRADE, & OpenCode HACK! AI NEWS",
-   "url": "https://www.youtube.com/watch?v=24j6YmsTVng",
-   "at": "2026-10-19T06:33:58Z",
-   "src": "WorldofAI",
-   "kind": "Video"
-  },
-  {
-   "t": "HKU and Global Cybersecurity Alliance jointly establish Centre for AI and Cybersecurity Research",
-   "url": "https://www.manilatimes.net/2026/10/19/tmt-newswire/pr-newswire/hku-and-global-cybersecurity-alliance-jointly-establish-centre-for-ai-and-cybersecurity-research/2448348",
-   "at": "2026-10-19T05:55:37Z",
-   "src": "The Manila Times",
+   "t": "An alleged spy device was hidden at OpenAI. Check this overlooked spot in your office today",
+   "url": "https://www.thestar.com.my/tech/tech-news/2026/10/19/an-alleged-spy-device-was-hidden-at-openai-check-this-overlooked-spot-in-your-office-today",
+   "at": "2026-10-19T06:30:00Z",
+   "src": "The Star",
    "kind": "News"
   },
   {
-   "t": "KSLU result 2026 declared for LLB, BA LLB, BBA LLB and LLM exams: Direct link to download scorecards here",
-   "url": "https://timesofindia.indiatimes.com/education/news/kslu-result-2026-declared-for-llb-ba-llb-bba-llb-and-llm-exams-direct-link-to-download-scorecards-here/articleshow/135040699.cms",
-   "at": "2026-10-19T05:51:00Z",
-   "src": "Times of India",
+   "t": "China's AI data centre boom faces Return-on-Investment test as financing costs rise: Goldman Sachs",
+   "url": "https://www.aninews.in/news/business/chinas-ai-data-centre-boom-faces-return-on-investment-test-as-financing-costs-rise-goldman-sachs20261019115650/",
+   "at": "2026-10-19T06:26:50Z",
+   "src": "ANI (Asian News International)",
+   "kind": "News"
+  },
+  {
+   "t": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
+   "url": "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html",
+   "at": "2026-10-19T06:07:00Z",
+   "src": "The Hacker News",
+   "kind": "News"
+  },
+  {
+   "t": "Alfozan in contact with Saudi royal before arrest",
+   "url": "https://www.cnbc.com/2026/10/19/openai-bugging-suspect-alfozan-saudi-royal-family.html",
+   "at": "2026-10-19T06:03:03Z",
+   "src": "CNBC",
+   "kind": "News"
+  },
+  {
+   "t": "Asian shares are mixed with tech stocks volatile, and oil falls on Trump's Russian sanctions waiver",
+   "url": "https://www.ajc.com/news/2026/10/asian-shares-are-mixed-with-tech-stocks-volatile-and-oil-falls-on-trumps-russian-sanctions-waiver/",
+   "at": "2026-10-19T06:02:24Z",
+   "src": "The Atlanta Journal-Constitution",
    "kind": "News"
   }
  ],
  "discussions": [
   {
    "src": "Hacker News",
-   "t": "CERN and Mistral sign a statement of intent to establish a strategic partnership",
-   "url": "https://news.ycombinator.com/item?id=50153630",
-   "link": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
-   "up": 195,
-   "com": 39,
-   "at": "2026-10-19T15:28:24.000Z"
-  },
-  {
-   "src": "Hacker News",
    "t": "Mercury 3: Diffusion at scale",
    "url": "https://news.ycombinator.com/item?id=50155245",
    "link": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
-   "up": 69,
-   "com": 21,
+   "up": 94,
+   "com": 38,
    "at": "2026-10-19T17:27:11.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Degraded availability for GitHub Actions, GitHub Pages and Webhooks",
-   "url": "https://news.ycombinator.com/item?id=50153934",
-   "link": "https://www.githubstatus.com/incidents/8tzbpcnl75jp",
-   "up": 122,
-   "com": 88,
-   "at": "2026-10-19T15:52:26.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Europe EV sales rose 70.3% in September, 32.6% of market share",
    "url": "https://news.ycombinator.com/item?id=50155291",
    "link": "https://www.reuters.com/business/europe-ev-sales-rose-70-september-almost-30-market-share-2026-10-19/",
-   "up": 51,
-   "com": 16,
+   "up": 83,
+   "com": 55,
    "at": "2026-10-19T17:30:26.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "CERN and Mistral sign a statement of intent to establish a strategic partnership",
+   "url": "https://news.ycombinator.com/item?id=50153630",
+   "link": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
+   "up": 215,
+   "com": 43,
+   "at": "2026-10-19T15:28:24.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Degraded availability for GitHub Actions, GitHub Pages and Webhooks",
+   "url": "https://news.ycombinator.com/item?id=50153934",
+   "link": "https://www.githubstatus.com/incidents/8tzbpcnl75jp",
+   "up": 131,
+   "com": 102,
+   "at": "2026-10-19T15:52:26.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Timestral: Mistral's time-series foundation models",
    "url": "https://news.ycombinator.com/item?id=50150434",
    "link": "https://mistral.ai/news/timestral/",
-   "up": 395,
-   "com": 75,
+   "up": 414,
+   "com": 79,
    "at": "2026-10-19T09:59:32.000Z"
   },
   {
@@ -941,7 +941,7 @@
    "t": "Show HN: Qwen3-4B with the AI writing tics trained out",
    "url": "https://news.ycombinator.com/item?id=50151928",
    "link": "https://100toolkit.com/blog/deslop-model/",
-   "up": 128,
+   "up": 135,
    "com": 95,
    "at": "2026-10-19T13:00:47.000Z"
   }
