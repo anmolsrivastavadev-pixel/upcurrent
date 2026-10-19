@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-19T14:01:10.459Z"
+  "updated": "2026-10-19T14:30:59.762Z"
  },
  "pulse": {
   "trending": 79,
   "accelerating": 0,
   "newModels": 9,
-  "discussions": 42,
-  "stars": 1437
+  "discussions": 38,
+  "stars": 1639
  },
  "rising": [
   {
@@ -40,8 +40,8 @@
    "grow": null,
    "desc": "Git designed for AI agents.",
    "meta": [
-    "★ 2,395",
-    "~594 in 24h",
+    "★ 2,398",
+    "~591 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -55,7 +55,7 @@
    "cat": "Vision",
    "score": 90,
    "grow": 16,
-   "desc": "Vision on Hugging Face · open weights · ♥ 882",
+   "desc": "Vision on Hugging Face · open weights · ♥ 891",
    "meta": [
     "393K downloads",
     "Released 5 days ago"
@@ -73,8 +73,8 @@
    "grow": null,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 3,310",
-    "~513 in 24h",
+    "★ 3,317",
+    "~512 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -104,7 +104,7 @@
    "cat": "Tools",
    "score": 87,
    "grow": 23,
-   "desc": "Model on Hugging Face · open weights · ♥ 735",
+   "desc": "Model on Hugging Face · open weights · ♥ 736",
    "meta": [
     "12K downloads",
     "Released 18 days ago"
@@ -122,8 +122,8 @@
    "grow": null,
    "desc": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
    "meta": [
-    "★ 1,236",
-    "~288 in 24h",
+    "★ 1,249",
+    "~289 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-15T06:52:46Z",
@@ -136,7 +136,7 @@
    "src": "hf",
    "cat": "Vision",
    "score": 85,
-   "grow": 2,
+   "grow": null,
    "desc": "Vision on Hugging Face · open source · ♥ 2.7K",
    "meta": [
     "168K downloads",
@@ -172,7 +172,7 @@
    "grow": null,
    "desc": "Open-source Superhuman alternative",
    "meta": [
-    "▲ 340 votes",
+    "▲ 341 votes",
     "29 comments",
     "Launched yesterday"
    ],
@@ -282,8 +282,8 @@
    "name": "git-ai",
    "url": "https://github.com/feder-cr/git-ai",
    "from": "GitHub",
-   "use": 594,
-   "useLabel": "~594 stars/day",
+   "use": 591,
+   "useLabel": "~591 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -397,8 +397,8 @@
  "github": [
   {
    "repo": "feder-cr/git-ai",
-   "stars": 2395,
-   "d24": 594,
+   "stars": 2398,
+   "d24": 591,
    "est": true,
    "forks": 264,
    "contrib": null,
@@ -406,8 +406,8 @@
   },
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 3310,
-   "d24": 513,
+   "stars": 3317,
+   "d24": 512,
    "est": true,
    "forks": 599,
    "contrib": null,
@@ -415,21 +415,21 @@
   },
   {
    "repo": "Leonxlnx/earshot",
-   "stars": 1236,
-   "d24": 288,
+   "stars": 1249,
+   "d24": 289,
    "est": true,
-   "forks": 66,
+   "forks": 69,
    "contrib": null,
    "score": 86
   },
   {
    "repo": "Caho1/open-claude-ui",
-   "stars": 1237,
-   "d24": 42,
-   "est": false,
+   "stars": 1238,
+   "d24": 247,
+   "est": true,
    "forks": 263,
    "contrib": null,
-   "score": 80
+   "score": 79
   }
  ],
  "models": [
@@ -442,7 +442,7 @@
    "grow": 75,
    "score": 97,
    "cat": "Vision",
-   "likes": 1577
+   "likes": 1581
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -453,7 +453,7 @@
    "grow": 16,
    "score": 90,
    "cat": "Vision",
-   "likes": 882
+   "likes": 891
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -465,7 +465,7 @@
    "grow": 32,
    "score": 89,
    "cat": "Vision",
-   "likes": 1034
+   "likes": 1035
   },
   {
    "name": "drama-3",
@@ -476,7 +476,7 @@
    "grow": 23,
    "score": 87,
    "cat": "Tools",
-   "likes": 735
+   "likes": 736
   },
   {
    "name": "embeddinggemma-2",
@@ -484,10 +484,10 @@
    "lic": "Open source",
    "at": "2026-09-14T14:53:42.000Z",
    "dl": 167750,
-   "grow": 2,
+   "grow": null,
    "score": 85,
    "cat": "Vision",
-   "likes": 2694
+   "likes": 2696
   },
   {
    "name": "flux-3-image-klein",
@@ -830,6 +830,20 @@
  },
  "headlines": [
   {
+   "t": "Filing: US prosecutors say OpenAI suspect Abdulrahman Alfozan maintained frequent WhatsApp contact in 2025 and 2026 with an unnamed Saudi Royal Family member",
+   "url": "https://www.techmeme.com/261019/p26#a261019p26",
+   "at": "2026-10-19T14:25:00.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Source: Anthropic is preparing a model with superior intuition and reasoning that can discern unstated intentions and is better at thinking outside of the box",
+   "url": "https://www.techmeme.com/261019/p25#a261019p25",
+   "at": "2026-10-19T14:15:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Calls to strengthen workplace privacy in Australia as employers turn to AI to track staff",
    "url": "https://www.theguardian.com/technology/2026/oct/20/workplace-privacy-concerns-employers-use-ai-to-monitor-staff",
    "at": "2026-10-19T14:00:03Z",
@@ -837,7 +851,7 @@
    "kind": "News"
   },
   {
-   "t": "Microsoft unveils new security tools in its 365 E7 bundle and Project Perception system to treat AI agents as potential insider threats via risk assessments",
+   "t": "Microsoft debuts new security tools in Microsoft 365 E7 and its Project Perception system that treat AI agents as potential insider threats via risk assessments",
    "url": "https://www.techmeme.com/261019/p24#a261019p24",
    "at": "2026-10-19T13:25:02.000Z",
    "src": "Techmeme",
@@ -858,14 +872,14 @@
    "kind": "News"
   },
   {
-   "t": "Researcher: a Chinese-speaking hacker used AI agents to target 1,200+ websites and breach 100+ entities, including Deere and SharkNinja, spending ~$5,000 total",
+   "t": "Researcher: a Chinese-speaking hacker used AI agents to target 1,200+ websites and breach 100+ entities, like Deere and SharkNinja, spending ~$5,000 in tokens",
    "url": "https://www.techmeme.com/261019/p22#a261019p22",
    "at": "2026-10-19T12:30:10.000Z",
    "src": "Techmeme",
    "kind": "News"
   },
   {
-   "t": "Tel Aviv-based doubleAI releases its debut code execution model to optimize GPU and CPU performance; doubleAI raised $220M and acquired 1,000 Nvidia B300 chips",
+   "t": "Tel Aviv-based doubleAI releases a code execution model for improving GPU and CPU performance; doubleAI raised $220M, using ~50% to buy 1,000 Nvidia B300 chips",
    "url": "https://www.techmeme.com/261019/p21#a261019p21",
    "at": "2026-10-19T12:20:02.000Z",
    "src": "Techmeme",
@@ -879,7 +893,7 @@
    "kind": "News"
   },
   {
-   "t": "Character.AI's Chapter 11 court filings indicate a two-part deal with Disney to transfer talent and tech while insulating Disney from mounting legal liabilities",
+   "t": "Character.AI's Chapter 11 court filings indicate a two-part deal with Disney to transfer talent and tech, shielding Disney from Character.AI's legal liabilities",
    "url": "https://www.techmeme.com/261019/p16#a261019p16",
    "at": "2026-10-19T11:10:02.000Z",
    "src": "Techmeme",
@@ -914,31 +928,17 @@
    "kind": "News"
   },
   {
-   "t": "Elon Musk says \"I will give one of my SpaceX shares to every kid in America\" in 2027, a gift worth ~$10.5B, after Anthropic committed 5% of its shares to APBF",
-   "url": "https://www.techmeme.com/261019/p11#a261019p11",
-   "at": "2026-10-19T09:40:03.000Z",
-   "src": "Techmeme",
+   "t": "Terence Tao on AI’s threat to mathematics",
+   "url": "https://www.straitstimes.com/world/why-one-of-the-worlds-greatest-mathematicians-is-on-a-war-footing",
+   "at": "2026-10-19T02:30:00Z",
+   "src": "The Straits Times",
    "kind": "News"
   },
   {
-   "t": "Q&A with Nvidia's Vera team on agentic AI driving CPU demands and forcing CPU design priority back to single-threaded performance over core counts, and more",
-   "url": "https://www.techmeme.com/261019/p10#a261019p10",
-   "at": "2026-10-19T09:15:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Anthropic to commit 5% stake to new ‘public benefit fund’",
-   "url": "https://www.japantimes.co.jp/business/2026/10/19/anthropic-public-benefit-fund-ai/",
-   "at": "2026-10-19T01:14:25Z",
-   "src": "The Japan Times ",
-   "kind": "News"
-  },
-  {
-   "t": "The AI stock market wobble is a reminder: This time isn’t different",
-   "url": "https://www.livemint.com/global/the-ai-stock-market-wobble-is-a-reminder-this-time-isn-t-different-11792372220378.html",
-   "at": "2026-10-19T01:11:44Z",
-   "src": "Livemint",
+   "t": "Asian Equities Fall as Unease Over AI Spending Builds",
+   "url": "https://www.marketscreener.com/news/asian-equities-fall-as-unease-over-ai-spending-builds-ce785cdad181f420",
+   "at": "2026-10-19T02:23:27Z",
+   "src": "MarketScreener",
    "kind": "News"
   }
  ],
@@ -948,8 +948,8 @@
    "t": "Timestral: Mistral release time-series foundation models",
    "url": "https://news.ycombinator.com/item?id=50150434",
    "link": "https://mistral.ai/news/timestral/",
-   "up": 193,
-   "com": 39,
+   "up": 216,
+   "com": 43,
    "at": "2026-10-19T09:59:32.000Z"
   },
   {
@@ -957,8 +957,8 @@
    "t": "Show HN: Qwen3-4B with the AI writing tics trained out",
    "url": "https://news.ycombinator.com/item?id=50151928",
    "link": "https://100toolkit.com/blog/deslop-model/",
-   "up": 46,
-   "com": 18,
+   "up": 66,
+   "com": 35,
    "at": "2026-10-19T13:00:47.000Z"
   },
   {
@@ -966,26 +966,17 @@
    "t": "Harness Engineering 101: The LLM is the brain, the harness is the body",
    "url": "https://news.ycombinator.com/item?id=50151390",
    "link": "https://github.com/IsuruMaduranga/harness-engineering-101",
-   "up": 77,
-   "com": 34,
+   "up": 96,
+   "com": 45,
    "at": "2026-10-19T12:07:41.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Stripe will acquire OpenRouter for $7.5B",
-   "url": "https://news.ycombinator.com/item?id=50152207",
-   "link": "https://startupfortune.com/stripe-will-pay-75-billion-for-openrouter-the-ai-model-traffic-cop/",
-   "up": 37,
-   "com": 4,
-   "at": "2026-10-19T13:27:49.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
    "url": "https://news.ycombinator.com/item?id=50145337",
    "link": "https://arxiv.org/abs/2610.18861",
-   "up": 454,
-   "com": 222,
+   "up": 463,
+   "com": 224,
    "at": "2026-10-18T20:48:14.000Z"
   },
   {
@@ -993,9 +984,18 @@
    "t": "DeepSeek V4.1 Flash 1017 (Max)",
    "url": "https://news.ycombinator.com/item?id=50148452",
    "link": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
-   "up": 169,
-   "com": 67,
+   "up": 170,
+   "com": 69,
    "at": "2026-10-19T04:41:46.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "If you don't run your own LLM proxy, how do you know whats going on?",
+   "url": "https://news.ycombinator.com/item?id=50145507",
+   "link": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
+   "up": 244,
+   "com": 162,
+   "at": "2026-10-18T21:09:12.000Z"
   }
  ]
 }
