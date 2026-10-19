@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-19T08:01:07.952Z"
+  "updated": "2026-10-19T08:30:55.469Z"
  },
  "pulse": {
   "trending": 79,
   "accelerating": 0,
   "newModels": 7,
-  "discussions": 34,
-  "stars": 2392
+  "discussions": 37,
+  "stars": 2391
  },
  "rising": [
   {
@@ -40,8 +40,8 @@
    "grow": 56,
    "desc": "Git designed for AI agents.",
    "meta": [
-    "★ 2,331",
-    "+1,289 in 24h",
+    "★ 2,335",
+    "+1,255 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -54,11 +54,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 89,
-   "grow": 17,
+   "grow": 18,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 3,180",
-    "+756 in 24h",
+    "★ 3,208",
+    "+776 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -86,9 +86,9 @@
    "owner": "black-forest-labs",
    "src": "hf",
    "cat": "Vision",
-   "score": 88,
+   "score": 89,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 846",
+   "desc": "Vision on Hugging Face · open weights · ♥ 847",
    "meta": [
     "338K downloads",
     "Released 5 days ago"
@@ -120,7 +120,7 @@
    "cat": "Tools",
    "score": 86,
    "grow": null,
-   "desc": "Model on Hugging Face · open weights · ♥ 718",
+   "desc": "Model on Hugging Face · open weights · ♥ 719",
    "meta": [
     "9.6K downloads",
     "Released 18 days ago"
@@ -135,32 +135,16 @@
    "src": "gh",
    "cat": "Agents",
    "score": 85,
-   "grow": 11,
+   "grow": 12,
    "desc": "A design system for AI applications. Material, physical, tactile, technical.",
    "meta": [
-    "★ 2,223",
-    "+320 in 24h",
+    "★ 2,239",
+    "+333 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-12T09:19:02Z",
    "breakout": null,
    "url": "https://github.com/deeplethe/solid-glass"
-  },
-  {
-   "name": "humanizer",
-   "owner": "jialinyyzz",
-   "src": "hf",
-   "cat": "Infrastructure",
-   "score": 85,
-   "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 2K",
-   "meta": [
-    "104K downloads",
-    "Released 38 days ago"
-   ],
-   "at": "2026-09-11T05:00:16.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/jialinyyzz/humanizer"
   },
   {
    "name": "Learning to Think and Explore in 3D World",
@@ -172,10 +156,27 @@
    "grow": null,
    "desc": "We study how vision-language models (VLMs) can learn to think and actively explore in 3D space.",
    "meta": [
-    "▲ 69 upvotes",
+    "▲ 73 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-14T20:00:00.000Z",
+   "breakout": null
+  },
+  {
+   "name": "Inbox Zero",
+   "owner": "Product Hunt",
+   "src": "ph",
+   "url": "https://www.producthunt.com/products/inbox-zero-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29",
+   "cat": "Tools",
+   "score": 85,
+   "grow": null,
+   "desc": "Open-source Superhuman alternative",
+   "meta": [
+    "▲ 331 votes",
+    "30 comments",
+    "Launched yesterday"
+   ],
+   "at": "2026-10-18T07:01:00Z",
    "breakout": null
   }
  ],
@@ -209,8 +210,8 @@
    "name": "git-ai",
    "url": "https://github.com/feder-cr/git-ai",
    "from": "GitHub",
-   "use": 1289,
-   "useLabel": "+1,289 stars/day",
+   "use": 1255,
+   "useLabel": "+1,255 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -324,8 +325,8 @@
  "github": [
   {
    "repo": "feder-cr/git-ai",
-   "stars": 2331,
-   "d24": 1289,
+   "stars": 2335,
+   "d24": 1255,
    "est": false,
    "forks": 261,
    "contrib": null,
@@ -333,17 +334,17 @@
   },
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 3180,
-   "d24": 756,
+   "stars": 3208,
+   "d24": 776,
    "est": false,
-   "forks": 580,
+   "forks": 583,
    "contrib": null,
    "score": 89
   },
   {
    "repo": "deeplethe/solid-glass",
-   "stars": 2223,
-   "d24": 320,
+   "stars": 2239,
+   "d24": 333,
    "est": false,
    "forks": 27,
    "contrib": null,
@@ -351,7 +352,7 @@
   },
   {
    "repo": "Caho1/open-claude-ui",
-   "stars": 1218,
+   "stars": 1219,
    "d24": 27,
    "est": false,
    "forks": 262,
@@ -369,7 +370,7 @@
    "grow": 0,
    "score": 97,
    "cat": "Vision",
-   "likes": 1471
+   "likes": 1487
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -390,9 +391,9 @@
    "at": "2026-10-14T12:00:13.000Z",
    "dl": 338036,
    "grow": null,
-   "score": 88,
+   "score": 89,
    "cat": "Vision",
-   "likes": 846
+   "likes": 847
   },
   {
    "name": "embeddinggemma-2",
@@ -403,7 +404,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Vision",
-   "likes": 2675
+   "likes": 2678
   },
   {
    "name": "drama-3",
@@ -414,7 +415,7 @@
    "grow": null,
    "score": 86,
    "cat": "Tools",
-   "likes": 718
+   "likes": 719
   },
   {
    "name": "humanizer",
@@ -423,9 +424,9 @@
    "at": "2026-09-11T05:00:16.000Z",
    "dl": 103709,
    "grow": 0,
-   "score": 85,
+   "score": 83,
    "cat": "Infrastructure",
-   "likes": 1961
+   "likes": 1962
   }
  ],
  "free": [
@@ -723,7 +724,14 @@
  },
  "headlines": [
   {
-   "t": "AI's ability to forecast extreme weather faces a major test in the coming months amid a historic El Niño, as some scientists question the technology's accuracy",
+   "t": "CyberSN: US cybersecurity job postings fell 26.4% YoY to a four-year low of ~236K roles from January to September; AI security engineer demand soared by 200%+",
+   "url": "https://www.techmeme.com/261019/p7#a261019p7",
+   "at": "2026-10-19T08:00:46.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "AI's ability to forecast extreme weather faces a major test in the coming months amid a historic El Niño, as some scientists question the tech's accuracy",
    "url": "https://www.techmeme.com/261019/p5#a261019p5",
    "at": "2026-10-19T06:25:00.000Z",
    "src": "Techmeme",
@@ -779,20 +787,6 @@
    "kind": "Video"
   },
   {
-   "t": "Sources: industry execs expect only 7-10 of hundreds of neoclouds to survive, as Nvidia supports them with easier credit terms, site finding, and $20B in leases",
-   "url": "https://www.techmeme.com/261018/p11#a261018p11",
-   "at": "2026-10-18T19:55:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Anthropic says it's committing 5% of its shares to a Public Benefit Fund, for a total of ~20% with co-founder and staff pledges, plus 2% per 50% valuation rise",
-   "url": "https://www.techmeme.com/261018/p10#a261018p10",
-   "at": "2026-10-18T19:10:00.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Can Artificial Intelligence Help Sweden Predict Disasters and Protect Its Critical Services?",
    "url": "https://www.devdiscourse.com/article/science-environment/3993949-can-artificial-intelligence-help-sweden-predict-disasters-and-protect-its-critical-services",
    "at": "2026-10-18T18:16:06Z",
@@ -833,6 +827,13 @@
    "at": "2026-10-18T16:40:58Z",
    "src": "Social Media Today",
    "kind": "News"
+  },
+  {
+   "t": "AI customer service giving consumers an error message",
+   "url": "https://www.perthnow.com.au/news/politics/ai-customer-service-giving-consumers-an-error-message-c-23039536",
+   "at": "2026-10-18T16:33:29Z",
+   "src": "PerthNow",
+   "kind": "News"
   }
  ],
  "discussions": [
@@ -841,8 +842,8 @@
    "t": "DeepSeek V4.1 Flash 1017 (Max)",
    "url": "https://news.ycombinator.com/item?id=50148452",
    "link": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
-   "up": 116,
-   "com": 38,
+   "up": 124,
+   "com": 40,
    "at": "2026-10-19T04:41:46.000Z"
   },
   {
@@ -850,8 +851,8 @@
    "t": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
    "url": "https://news.ycombinator.com/item?id=50145337",
    "link": "https://arxiv.org/abs/2610.18861",
-   "up": 369,
-   "com": 173,
+   "up": 376,
+   "com": 180,
    "at": "2026-10-18T20:48:14.000Z"
   },
   {
@@ -859,8 +860,8 @@
    "t": "RepRapMicron",
    "url": "https://news.ycombinator.com/item?id=50141076",
    "link": "https://github.com/VikOlliver/RepRapMicron/wiki",
-   "up": 382,
-   "com": 60,
+   "up": 385,
+   "com": 63,
    "at": "2026-10-18T13:48:48.000Z"
   },
   {
@@ -868,8 +869,8 @@
    "t": "If you don't run your own LLM proxy, how do you know whats going on?",
    "url": "https://news.ycombinator.com/item?id=50145507",
    "link": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
-   "up": 139,
-   "com": 89,
+   "up": 148,
+   "com": 94,
    "at": "2026-10-18T21:09:12.000Z"
   },
   {
@@ -877,8 +878,8 @@
    "t": "Free Pascal compiler now supports dynamic packages",
    "url": "https://news.ycombinator.com/item?id=50144066",
    "link": "https://www.getlazarus.org/dynamic/",
-   "up": 156,
-   "com": 37,
+   "up": 159,
+   "com": 38,
    "at": "2026-10-18T18:48:04.000Z"
   },
   {
@@ -886,7 +887,7 @@
    "t": "Show HN: The Zelda timeline to catch up before the Ocarina of Time remake",
    "url": "https://news.ycombinator.com/item?id=50140769",
    "link": "https://legendofhyrule.com/",
-   "up": 179,
+   "up": 181,
    "com": 108,
    "at": "2026-10-18T13:06:54.000Z"
   }
