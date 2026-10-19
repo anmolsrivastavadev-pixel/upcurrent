@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-19T12:01:08.586Z"
+  "updated": "2026-10-19T12:30:55.487Z"
  },
  "pulse": {
   "trending": 79,
   "accelerating": 0,
-  "newModels": 8,
+  "newModels": 9,
   "discussions": 38,
-  "stars": 2113
+  "stars": 1620
  },
  "rising": [
   {
@@ -37,11 +37,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 93,
-   "grow": 58,
+   "grow": null,
    "desc": "Git designed for AI agents.",
    "meta": [
-    "★ 2,374",
-    "+1,078 in 24h",
+    "★ 2,380",
+    "~599 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -57,8 +57,8 @@
    "grow": 20,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 3,278",
-    "+720 in 24h",
+    "★ 3,281",
+    "+705 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -104,7 +104,7 @@
    "cat": "Tools",
    "score": 87,
    "grow": 23,
-   "desc": "Model on Hugging Face · open weights · ♥ 729",
+   "desc": "Model on Hugging Face · open weights · ♥ 731",
    "meta": [
     "12K downloads",
     "Released 18 days ago"
@@ -139,7 +139,7 @@
    "grow": null,
    "desc": "We study how vision-language models (VLMs) can learn to think and actively explore in 3D space.",
    "meta": [
-    "▲ 110 upvotes",
+    "▲ 116 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-14T20:00:00.000Z",
@@ -163,20 +163,21 @@
    "breakout": null
   },
   {
-   "name": "flux-3-image-klein",
-   "owner": "black-forest-labs",
-   "src": "hf",
-   "cat": "Vision",
+   "name": "earshot",
+   "owner": "Leonxlnx",
+   "src": "gh",
+   "cat": "Agents",
    "score": 84,
-   "grow": 19,
-   "desc": "Vision on Hugging Face · open weights · ♥ 512",
+   "grow": null,
+   "desc": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
    "meta": [
-    "62K downloads",
-    "Released 6 days ago"
+    "★ 1,170",
+    "~276 in 24h",
+    "Created 4 days ago"
    ],
-   "at": "2026-10-13T10:58:40.000Z",
+   "at": "2026-10-15T06:52:46Z",
    "breakout": null,
-   "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein"
+   "url": "https://github.com/Leonxlnx/earshot"
   }
  ],
  "breakouts": [
@@ -228,11 +229,11 @@
    "verdict": "Talk only, no public usage numbers"
   },
   {
-   "name": "git-ai",
-   "url": "https://github.com/feder-cr/git-ai",
+   "name": "qwen21-nsfw-pose-skill",
+   "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
    "from": "GitHub",
-   "use": 1078,
-   "useLabel": "+1,078 stars/day",
+   "use": 705,
+   "useLabel": "+705 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -345,36 +346,36 @@
  ],
  "github": [
   {
-   "repo": "feder-cr/git-ai",
-   "stars": 2374,
-   "d24": 1078,
-   "est": false,
-   "forks": 264,
-   "contrib": null,
-   "score": 93
-  },
-  {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 3278,
-   "d24": 720,
+   "stars": 3281,
+   "d24": 705,
    "est": false,
    "forks": 595,
    "contrib": null,
    "score": 89
   },
   {
-   "repo": "Leonxlnx/earshot",
-   "stars": 1154,
-   "d24": 274,
+   "repo": "feder-cr/git-ai",
+   "stars": 2380,
+   "d24": 599,
    "est": true,
-   "forks": 62,
+   "forks": 264,
    "contrib": null,
-   "score": 83
+   "score": 93
+  },
+  {
+   "repo": "Leonxlnx/earshot",
+   "stars": 1170,
+   "d24": 276,
+   "est": true,
+   "forks": 64,
+   "contrib": null,
+   "score": 84
   },
   {
    "repo": "Caho1/open-claude-ui",
    "stars": 1233,
-   "d24": 41,
+   "d24": 40,
    "est": false,
    "forks": 263,
    "contrib": null,
@@ -391,7 +392,7 @@
    "grow": 75,
    "score": 97,
    "cat": "Vision",
-   "likes": 1544
+   "likes": 1548
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -403,7 +404,7 @@
    "grow": 32,
    "score": 89,
    "cat": "Vision",
-   "likes": 1032
+   "likes": 1033
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -425,7 +426,7 @@
    "grow": 23,
    "score": 87,
    "cat": "Tools",
-   "likes": 729
+   "likes": 731
   },
   {
    "name": "embeddinggemma-2",
@@ -436,7 +437,7 @@
    "grow": 2,
    "score": 86,
    "cat": "Vision",
-   "likes": 2689
+   "likes": 2692
   },
   {
    "name": "flux-3-image-klein",
@@ -447,7 +448,7 @@
    "grow": 19,
    "score": 84,
    "cat": "Vision",
-   "likes": 512
+   "likes": 514
   }
  ],
  "free": [
@@ -509,14 +510,6 @@
   },
   {
    "name": "glm-5.3-flash",
-   "prov": "OpenCode Zen",
-   "ctx": null,
-   "url": null,
-   "caps": [],
-   "added": false
-  },
-  {
-   "name": "space-bunny",
    "prov": "OpenCode Zen",
    "ctx": null,
    "url": null,
@@ -780,6 +773,20 @@
  },
  "headlines": [
   {
+   "t": "Researcher: a Chinese-speaking hacker used AI agents to target 1,200+ websites and breach 100+ entities, including Deere and SharkNinja, spending ~$5,000 total",
+   "url": "https://www.techmeme.com/261019/p22#a261019p22",
+   "at": "2026-10-19T12:30:10.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Tel Aviv-based doubleAI releases its debut code execution model to optimize GPU and CPU performance; doubleAI raised $220M and acquired 1,000 Nvidia B300 chips",
+   "url": "https://www.techmeme.com/261019/p21#a261019p21",
+   "at": "2026-10-19T12:20:02.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "AI chip startup Tenstorrent raised a $1.5B Series E led by Trace Capital and Innovation X at a $6.2B valuation, up from $2.6B after raising $700M in 2024",
    "url": "https://www.techmeme.com/261019/p18#a261019p18",
    "at": "2026-10-19T11:45:00.000Z",
@@ -843,20 +850,6 @@
    "kind": "News"
   },
   {
-   "t": "CyberSN: US cybersecurity job postings fell 26.4% YoY to a four-year low of ~236K roles from January to September; AI security engineer demand soared by 200%+",
-   "url": "https://www.techmeme.com/261019/p7#a261019p7",
-   "at": "2026-10-19T08:00:46.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "AI's ability to forecast extreme weather faces a major test in the coming months amid a historic El Niño, as some scientists question the tech's accuracy",
-   "url": "https://www.techmeme.com/261019/p5#a261019p5",
-   "at": "2026-10-19T06:25:00.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Kylie Minogue songs already used to train AI as tech firms ‘strong-arm’ Australian government, music body warns",
    "url": "https://www.theguardian.com/music/2026/oct/19/australia-music-global-copywright-outlier-ai-music-body-warnsns",
    "at": "2026-10-19T00:57:46Z",
@@ -898,8 +891,8 @@
    "t": "Timestral: Mistral release time-series foundation models",
    "url": "https://news.ycombinator.com/item?id=50150434",
    "link": "https://mistral.ai/news/timestral/",
-   "up": 58,
-   "com": 11,
+   "up": 95,
+   "com": 20,
    "at": "2026-10-19T09:59:32.000Z"
   },
   {
@@ -907,8 +900,8 @@
    "t": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
    "url": "https://news.ycombinator.com/item?id=50145337",
    "link": "https://arxiv.org/abs/2610.18861",
-   "up": 428,
-   "com": 214,
+   "up": 435,
+   "com": 215,
    "at": "2026-10-18T20:48:14.000Z"
   },
   {
@@ -916,7 +909,7 @@
    "t": "DeepSeek V4.1 Flash 1017 (Max)",
    "url": "https://news.ycombinator.com/item?id=50148452",
    "link": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
-   "up": 161,
+   "up": 162,
    "com": 60,
    "at": "2026-10-19T04:41:46.000Z"
   },
@@ -925,8 +918,8 @@
    "t": "RepRapMicron",
    "url": "https://news.ycombinator.com/item?id=50141076",
    "link": "https://github.com/VikOlliver/RepRapMicron/wiki",
-   "up": 405,
-   "com": 64,
+   "up": 408,
+   "com": 65,
    "at": "2026-10-18T13:48:48.000Z"
   },
   {
@@ -934,18 +927,18 @@
    "t": "If you don't run your own LLM proxy, how do you know whats going on?",
    "url": "https://news.ycombinator.com/item?id=50145507",
    "link": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
-   "up": 203,
-   "com": 149,
+   "up": 208,
+   "com": 150,
    "at": "2026-10-18T21:09:12.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Free Pascal compiler now supports dynamic packages",
-   "url": "https://news.ycombinator.com/item?id=50144066",
-   "link": "https://www.getlazarus.org/dynamic/",
-   "up": 168,
-   "com": 41,
-   "at": "2026-10-18T18:48:04.000Z"
+   "t": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling",
+   "url": "https://news.ycombinator.com/item?id=50148855",
+   "link": "https://crystl.dev/guides/tmux-for-ai-agents/",
+   "up": 69,
+   "com": 39,
+   "at": "2026-10-19T05:55:31.000Z"
   }
  ]
 }
