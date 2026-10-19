@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-19T05:01:05.221Z"
+  "updated": "2026-10-19T05:17:10.626Z"
  },
  "pulse": {
   "trending": 80,
   "accelerating": 0,
   "newModels": 8,
-  "discussions": 29,
-  "stars": 2545
+  "discussions": 30,
+  "stars": 2528
  },
  "rising": [
   {
@@ -41,7 +41,7 @@
    "desc": "Git designed for AI agents.",
    "meta": [
     "★ 2,316",
-    "+1,570 in 24h",
+    "+1,537 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -57,8 +57,8 @@
    "grow": 12,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 3,048",
-    "+678 in 24h",
+    "★ 3,061",
+    "+689 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -138,8 +138,8 @@
    "grow": 7,
    "desc": "A design system for AI applications. Material, physical, tactile, technical.",
    "meta": [
-    "★ 2,145",
-    "+252 in 24h",
+    "★ 2,151",
+    "+258 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-12T09:19:02Z",
@@ -163,19 +163,19 @@
    "url": "https://huggingface.co/jialinyyzz/humanizer"
   },
   {
-   "name": "OpenMobile-2: Building Versatile Mobile Agents with Scalable Environments and App-Native Tools",
+   "name": "Execution Before Memory: Diagnosing Memory Failures in Video World Models",
    "owner": "Paper",
    "src": "paper",
-   "url": "https://huggingface.co/papers/2610.14157",
+   "url": "https://huggingface.co/papers/2610.23542",
    "cat": "Research",
    "score": 85,
    "grow": null,
-   "desc": "We introduce OpenMobile-2, a near-frontier mobile agent with fully open training environments and recipes.",
+   "desc": "A memory test for a video world model should say whether the scene was set, whether the asked change was carried out, and whether the last frame shows the result.",
    "meta": [
-    "▲ 20 upvotes",
+    "▲ 13 upvotes",
     "Hugging Face Papers"
    ],
-   "at": "2026-10-08T20:00:00.000Z",
+   "at": "2026-10-15T20:00:00.000Z",
    "breakout": null
   }
  ],
@@ -209,8 +209,8 @@
    "name": "git-ai",
    "url": "https://github.com/feder-cr/git-ai",
    "from": "GitHub",
-   "use": 1570,
-   "useLabel": "+1,570 stars/day",
+   "use": 1537,
+   "useLabel": "+1,537 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -325,7 +325,7 @@
   {
    "repo": "feder-cr/git-ai",
    "stars": 2316,
-   "d24": 1570,
+   "d24": 1537,
    "est": false,
    "forks": 259,
    "contrib": null,
@@ -333,17 +333,17 @@
   },
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 3048,
-   "d24": 678,
+   "stars": 3061,
+   "d24": 689,
    "est": false,
-   "forks": 564,
+   "forks": 566,
    "contrib": null,
    "score": 89
   },
   {
    "repo": "deeplethe/solid-glass",
-   "stars": 2145,
-   "d24": 252,
+   "stars": 2151,
+   "d24": 258,
    "est": false,
    "forks": 27,
    "contrib": null,
@@ -352,9 +352,9 @@
   {
    "repo": "Caho1/open-claude-ui",
    "stars": 1216,
-   "d24": 30,
+   "d24": 29,
    "est": false,
-   "forks": 260,
+   "forks": 261,
    "contrib": null,
    "score": 83
   },
@@ -378,7 +378,7 @@
    "grow": null,
    "score": 97,
    "cat": "Vision",
-   "likes": 1410
+   "likes": 1412
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -390,7 +390,7 @@
    "grow": null,
    "score": 89,
    "cat": "Vision",
-   "likes": 1017
+   "likes": 1019
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -788,6 +788,13 @@
    "kind": "News"
   },
   {
+   "t": "AI Stock Selloff Accelerates as Investors Rotate to Treasury Bonds, Defensive Sectors",
+   "url": "https://www.naturalnews.com/2026-10-18-ai-stock-selloff-accelerates-investors-treasuries-defensive.html",
+   "at": "2026-10-18T17:10:42Z",
+   "src": "Natural News",
+   "kind": "News"
+  },
+  {
    "t": "Y Combinator Startup Outlit Pitches AI Agents to Monitor Every Customer",
    "url": "https://www.naturalnews.com/2026-10-18-outlit-pitches-ai-agents-monitor-every-customer.html",
    "at": "2026-10-18T16:50:24Z",
@@ -835,13 +842,6 @@
    "at": "2026-10-18T15:20:02Z",
    "src": "Fox News",
    "kind": "News"
-  },
-  {
-   "t": "Anthropic sees junior tech hires' share fall from 27% to 9% amid growing AI adoption",
-   "url": "https://www.aninews.in/news/business/anthropic-sees-junior-tech-hires-share-fall-from-27-to-9-amid-growing-ai-adoption20261018203944/",
-   "at": "2026-10-18T15:09:44Z",
-   "src": "ANI (Asian News International)",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -850,8 +850,8 @@
    "t": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
    "url": "https://news.ycombinator.com/item?id=50145337",
    "link": "https://arxiv.org/abs/2610.18861",
-   "up": 292,
-   "com": 158,
+   "up": 297,
+   "com": 160,
    "at": "2026-10-18T20:48:14.000Z"
   },
   {
@@ -859,45 +859,45 @@
    "t": "RepRapMicron",
    "url": "https://news.ycombinator.com/item?id=50141076",
    "link": "https://github.com/VikOlliver/RepRapMicron/wiki",
-   "up": 354,
+   "up": 357,
    "com": 56,
    "at": "2026-10-18T13:48:48.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "DeepSeek v4.1 Flash 1017 scores 45 in Artificial Analysis",
+   "url": "https://news.ycombinator.com/item?id=50148452",
+   "link": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
+   "up": 22,
+   "com": 4,
+   "at": "2026-10-19T04:41:46.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Free Pascal compiler now supports dynamic packages",
    "url": "https://news.ycombinator.com/item?id=50144066",
    "link": "https://www.getlazarus.org/dynamic/",
-   "up": 132,
+   "up": 133,
    "com": 29,
    "at": "2026-10-18T18:48:04.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
-   "url": "https://news.ycombinator.com/item?id=50141429",
-   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
-   "up": 158,
-   "com": 162,
-   "at": "2026-10-18T14:30:27.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Show HN: The Zelda timeline to catch up before the Ocarina of Time remake",
-   "url": "https://news.ycombinator.com/item?id=50140769",
-   "link": "https://legendofhyrule.com/",
-   "up": 172,
-   "com": 105,
-   "at": "2026-10-18T13:06:54.000Z"
   },
   {
    "src": "Hacker News",
    "t": "If you don't run your own LLM proxy, how do you know whats going on?",
    "url": "https://news.ycombinator.com/item?id=50145507",
    "link": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
-   "up": 85,
-   "com": 66,
+   "up": 88,
+   "com": 69,
    "at": "2026-10-18T21:09:12.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Show HN: The Zelda timeline to catch up before the Ocarina of Time remake",
+   "url": "https://news.ycombinator.com/item?id=50140769",
+   "link": "https://legendofhyrule.com/",
+   "up": 173,
+   "com": 105,
+   "at": "2026-10-18T13:06:54.000Z"
   }
  ]
 }
