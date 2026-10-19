@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-19T04:31:00.170Z"
+  "updated": "2026-10-19T05:01:05.221Z"
  },
  "pulse": {
-  "trending": 81,
-  "accelerating": 1,
+  "trending": 80,
+  "accelerating": 0,
   "newModels": 8,
-  "discussions": 31,
-  "stars": 4847
+  "discussions": 29,
+  "stars": 2545
  },
  "rising": [
   {
@@ -32,38 +32,38 @@
    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
   },
   {
-   "name": "tv-vibehack",
-   "owner": "Gathin23",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 96,
-   "grow": 125,
-   "desc": "Your TV, minus the ads. Debloat any Android TV over ADB and give it a clean, tvOS-inspired launcher. Built in an afternoon with Claude Code.",
-   "meta": [
-    "★ 2,345",
-    "+2,230 in 24h",
-    "Created 2 days ago"
-   ],
-   "at": "2026-10-17T08:12:35Z",
-   "breakout": null,
-   "url": "https://github.com/Gathin23/tv-vibehack"
-  },
-  {
    "name": "git-ai",
    "owner": "feder-cr",
    "src": "gh",
    "cat": "Agents",
-   "score": 92,
-   "grow": 54,
+   "score": 93,
+   "grow": 55,
    "desc": "Git designed for AI agents.",
    "meta": [
-    "★ 2,312",
-    "+1,628 in 24h",
+    "★ 2,316",
+    "+1,570 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
    "breakout": null,
    "url": "https://github.com/feder-cr/git-ai"
+  },
+  {
+   "name": "qwen21-nsfw-pose-skill",
+   "owner": "Arekejoker",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 89,
+   "grow": 12,
+   "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
+   "meta": [
+    "★ 3,048",
+    "+678 in 24h",
+    "Created 6 days ago"
+   ],
+   "at": "2026-10-13T03:09:42Z",
+   "breakout": null,
+   "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill"
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -82,30 +82,13 @@
    "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B"
   },
   {
-   "name": "qwen21-nsfw-pose-skill",
-   "owner": "Arekejoker",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 88,
-   "grow": 12,
-   "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
-   "meta": [
-    "★ 3,043",
-    "+698 in 24h",
-    "Created 6 days ago"
-   ],
-   "at": "2026-10-13T03:09:42Z",
-   "breakout": null,
-   "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill"
-  },
-  {
    "name": "flux-3-image-klein-comfy",
    "owner": "black-forest-labs",
    "src": "hf",
    "cat": "Vision",
    "score": 88,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 831",
+   "desc": "Vision on Hugging Face · open weights · ♥ 833",
    "meta": [
     "338K downloads",
     "Released 5 days ago"
@@ -137,7 +120,7 @@
    "cat": "Tools",
    "score": 86,
    "grow": 0,
-   "desc": "Model on Hugging Face · open weights · ♥ 706",
+   "desc": "Model on Hugging Face · open weights · ♥ 708",
    "meta": [
     "9.6K downloads",
     "Released 18 days ago"
@@ -145,6 +128,23 @@
    "at": "2026-10-01T04:34:57.000Z",
    "breakout": null,
    "url": "https://huggingface.co/fishaudio/drama-3"
+  },
+  {
+   "name": "solid-glass",
+   "owner": "deeplethe",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 85,
+   "grow": 7,
+   "desc": "A design system for AI applications. Material, physical, tactile, technical.",
+   "meta": [
+    "★ 2,145",
+    "+252 in 24h",
+    "Created 7 days ago"
+   ],
+   "at": "2026-10-12T09:19:02Z",
+   "breakout": null,
+   "url": "https://github.com/deeplethe/solid-glass"
   },
   {
    "name": "humanizer",
@@ -163,19 +163,19 @@
    "url": "https://huggingface.co/jialinyyzz/humanizer"
   },
   {
-   "name": "Has GPT-6-Astra Achieved Embodied Intelligence?",
+   "name": "OpenMobile-2: Building Versatile Mobile Agents with Scalable Environments and App-Native Tools",
    "owner": "Paper",
    "src": "paper",
-   "url": "https://huggingface.co/papers/2610.22471",
+   "url": "https://huggingface.co/papers/2610.14157",
    "cat": "Research",
    "score": 85,
    "grow": null,
-   "desc": "GPT-6-Astra demonstrates a level of competence in robotic manipulation and navigation that challenges the conventional paradigm of building specialized models for individual tasks and embodiments.",
+   "desc": "We introduce OpenMobile-2, a near-frontier mobile agent with fully open training environments and recipes.",
    "meta": [
-    "▲ 53 upvotes",
+    "▲ 20 upvotes",
     "Hugging Face Papers"
    ],
-   "at": "2026-10-14T20:00:00.000Z",
+   "at": "2026-10-08T20:00:00.000Z",
    "breakout": null
   }
  ],
@@ -206,11 +206,11 @@
  ],
  "hype": [
   {
-   "name": "tv-vibehack",
-   "url": "https://github.com/Gathin23/tv-vibehack",
+   "name": "git-ai",
+   "url": "https://github.com/feder-cr/git-ai",
    "from": "GitHub",
-   "use": 2230,
-   "useLabel": "+2,230 stars/day",
+   "use": 1570,
+   "useLabel": "+1,570 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -323,58 +323,49 @@
  ],
  "github": [
   {
-   "repo": "Gathin23/tv-vibehack",
-   "stars": 2345,
-   "d24": 2230,
-   "est": false,
-   "forks": 276,
-   "contrib": null,
-   "score": 96
-  },
-  {
    "repo": "feder-cr/git-ai",
-   "stars": 2312,
-   "d24": 1628,
+   "stars": 2316,
+   "d24": 1570,
    "est": false,
    "forks": 259,
    "contrib": null,
-   "score": 92
+   "score": 93
   },
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 3043,
-   "d24": 698,
+   "stars": 3048,
+   "d24": 678,
    "est": false,
-   "forks": 563,
+   "forks": 564,
    "contrib": null,
-   "score": 88
+   "score": 89
   },
   {
    "repo": "deeplethe/solid-glass",
-   "stars": 2135,
-   "d24": 244,
+   "stars": 2145,
+   "d24": 252,
    "est": false,
    "forks": 27,
    "contrib": null,
-   "score": 84
+   "score": 85
   },
   {
    "repo": "Caho1/open-claude-ui",
    "stars": 1216,
-   "d24": 31,
+   "d24": 30,
    "est": false,
    "forks": 260,
    "contrib": null,
-   "score": 82
+   "score": 83
   },
   {
    "repo": "zhuyansen/new-term-radar",
    "stars": 1112,
-   "d24": 16,
+   "d24": 15,
    "est": false,
    "forks": 425,
    "contrib": null,
-   "score": 73
+   "score": 74
   }
  ],
  "models": [
@@ -387,7 +378,7 @@
    "grow": null,
    "score": 97,
    "cat": "Vision",
-   "likes": 1401
+   "likes": 1410
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -399,7 +390,7 @@
    "grow": null,
    "score": 89,
    "cat": "Vision",
-   "likes": 1015
+   "likes": 1017
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -410,7 +401,7 @@
    "grow": null,
    "score": 88,
    "cat": "Vision",
-   "likes": 831
+   "likes": 833
   },
   {
    "name": "embeddinggemma-2",
@@ -421,7 +412,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Vision",
-   "likes": 2670
+   "likes": 2672
   },
   {
    "name": "drama-3",
@@ -432,7 +423,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Tools",
-   "likes": 706
+   "likes": 708
   },
   {
    "name": "humanizer",
@@ -741,6 +732,13 @@
  },
  "headlines": [
   {
+   "t": "Abby Care, which runs a clinically led, AI-powered platform to train and certify family caregivers, raised an $82M Series C led by Transformation Capital",
+   "url": "https://www.techmeme.com/261019/p2#a261019p2",
+   "at": "2026-10-19T04:40:02.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "China's GDP is set to grow 4.5% YoY in Q3, up from Q2's three-year-low growth rate of 4.3%, as AI-driven exports helped offset weak domestic spending",
    "url": "https://www.techmeme.com/261018/p17#a261018p17",
    "at": "2026-10-19T03:30:00.000Z",
@@ -790,6 +788,27 @@
    "kind": "News"
   },
   {
+   "t": "Y Combinator Startup Outlit Pitches AI Agents to Monitor Every Customer",
+   "url": "https://www.naturalnews.com/2026-10-18-outlit-pitches-ai-agents-monitor-every-customer.html",
+   "at": "2026-10-18T16:50:24Z",
+   "src": "Natural News",
+   "kind": "News"
+  },
+  {
+   "t": "YouTube tests AI replies in searches",
+   "url": "https://www.socialmediatoday.com/news/youtube-tests-ai-replies-in-searches/833307/",
+   "at": "2026-10-18T16:40:58Z",
+   "src": "Social Media Today",
+   "kind": "News"
+  },
+  {
+   "t": "AI customer service giving consumers an error message",
+   "url": "https://www.perthnow.com.au/news/politics/ai-customer-service-giving-consumers-an-error-message-c-23039536",
+   "at": "2026-10-18T16:33:29Z",
+   "src": "PerthNow",
+   "kind": "News"
+  },
+  {
    "t": "Anthropic’s Clark sees AI boosting US GDP",
    "url": "https://www.manilatimes.net/2026/10/19/business/foreign-business/anthropics-clark-seesai-boosting-us-gdp/2448172",
    "at": "2026-10-18T16:03:00Z",
@@ -823,34 +842,6 @@
    "at": "2026-10-18T15:09:44Z",
    "src": "ANI (Asian News International)",
    "kind": "News"
-  },
-  {
-   "t": "Apple and OpenAI Trade Allegations in AI Secret",
-   "url": "https://www.europesays.com/3317823/",
-   "at": "2026-10-18T15:09:26Z",
-   "src": "EUROPE SAYS",
-   "kind": "News"
-  },
-  {
-   "t": "Salesforce (CRM) Is Turning the AI Threat into an Opportunity",
-   "url": "https://markets.businessinsider.com/news/stocks/salesforce-crm-is-turning-the-ai-threat-into-an-opportunity-1036636917",
-   "at": "2026-10-18T14:29:00Z",
-   "src": "Markets Insider",
-   "kind": "News"
-  },
-  {
-   "t": "‘Not our friends’: Victorian Coalition warns Advance’s ‘bizarre’ AI campaign may cost it majority government",
-   "url": "https://www.theguardian.com/australia-news/2026/oct/19/victorian-election-advance-campaign-undermining-liberal-national-ntwnfb",
-   "at": "2026-10-18T14:00:02Z",
-   "src": "The Guardian",
-   "kind": "News"
-  },
-  {
-   "t": "Peter Morici: The best antidote to AI hysteria - do nothing",
-   "url": "https://triblive.com/opinion/peter-morici-the-best-antidote-to-ai-hysteria-do-nothing/",
-   "at": "2026-10-18T14:00:00Z",
-   "src": "Pittsburgh Tribune-Review",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -859,8 +850,8 @@
    "t": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
    "url": "https://news.ycombinator.com/item?id=50145337",
    "link": "https://arxiv.org/abs/2610.18861",
-   "up": 280,
-   "com": 155,
+   "up": 292,
+   "com": 158,
    "at": "2026-10-18T20:48:14.000Z"
   },
   {
@@ -868,7 +859,7 @@
    "t": "RepRapMicron",
    "url": "https://news.ycombinator.com/item?id=50141076",
    "link": "https://github.com/VikOlliver/RepRapMicron/wiki",
-   "up": 352,
+   "up": 354,
    "com": 56,
    "at": "2026-10-18T13:48:48.000Z"
   },
@@ -877,8 +868,8 @@
    "t": "Free Pascal compiler now supports dynamic packages",
    "url": "https://news.ycombinator.com/item?id=50144066",
    "link": "https://www.getlazarus.org/dynamic/",
-   "up": 130,
-   "com": 28,
+   "up": 132,
+   "com": 29,
    "at": "2026-10-18T18:48:04.000Z"
   },
   {
@@ -887,7 +878,7 @@
    "url": "https://news.ycombinator.com/item?id=50141429",
    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
    "up": 158,
-   "com": 161,
+   "com": 162,
    "at": "2026-10-18T14:30:27.000Z"
   },
   {
@@ -896,7 +887,7 @@
    "url": "https://news.ycombinator.com/item?id=50140769",
    "link": "https://legendofhyrule.com/",
    "up": 172,
-   "com": 104,
+   "com": 105,
    "at": "2026-10-18T13:06:54.000Z"
   },
   {
@@ -904,8 +895,8 @@
    "t": "If you don't run your own LLM proxy, how do you know whats going on?",
    "url": "https://news.ycombinator.com/item?id=50145507",
    "link": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
-   "up": 79,
-   "com": 58,
+   "up": 85,
+   "com": 66,
    "at": "2026-10-18T21:09:12.000Z"
   }
  ]
