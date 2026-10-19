@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-19T13:01:12.345Z"
+  "updated": "2026-10-19T13:30:58.733Z"
  },
  "pulse": {
   "trending": 79,
   "accelerating": 0,
   "newModels": 9,
   "discussions": 41,
-  "stars": 1614
+  "stars": 1431
  },
  "rising": [
   {
@@ -40,8 +40,8 @@
    "grow": null,
    "desc": "Git designed for AI agents.",
    "meta": [
-    "★ 2,387",
-    "~598 in 24h",
+    "★ 2,393",
+    "~596 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -55,7 +55,7 @@
    "cat": "Vision",
    "score": 90,
    "grow": 16,
-   "desc": "Vision on Hugging Face · open weights · ♥ 874",
+   "desc": "Vision on Hugging Face · open weights · ♥ 880",
    "meta": [
     "393K downloads",
     "Released 5 days ago"
@@ -70,11 +70,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 89,
-   "grow": 21,
+   "grow": null,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 3,288",
-    "+695 in 24h",
+    "★ 3,302",
+    "~513 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -104,7 +104,7 @@
    "cat": "Tools",
    "score": 87,
    "grow": 23,
-   "desc": "Model on Hugging Face · open weights · ♥ 731",
+   "desc": "Model on Hugging Face · open weights · ♥ 734",
    "meta": [
     "12K downloads",
     "Released 18 days ago"
@@ -112,6 +112,23 @@
    "at": "2026-10-01T04:34:57.000Z",
    "breakout": null,
    "url": "https://huggingface.co/fishaudio/drama-3"
+  },
+  {
+   "name": "earshot",
+   "owner": "Leonxlnx",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 86,
+   "grow": null,
+   "desc": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
+   "meta": [
+    "★ 1,210",
+    "~283 in 24h",
+    "Created 4 days ago"
+   ],
+   "at": "2026-10-15T06:52:46Z",
+   "breakout": null,
+   "url": "https://github.com/Leonxlnx/earshot"
   },
   {
    "name": "embeddinggemma-2",
@@ -139,7 +156,7 @@
    "grow": null,
    "desc": "We study how vision-language models (VLMs) can learn to think and actively explore in 3D space.",
    "meta": [
-    "▲ 126 upvotes",
+    "▲ 132 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-14T20:00:00.000Z",
@@ -161,23 +178,6 @@
    ],
    "at": "2026-10-18T07:01:00Z",
    "breakout": null
-  },
-  {
-   "name": "earshot",
-   "owner": "Leonxlnx",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 84,
-   "grow": null,
-   "desc": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
-   "meta": [
-    "★ 1,195",
-    "~281 in 24h",
-    "Created 4 days ago"
-   ],
-   "at": "2026-10-15T06:52:46Z",
-   "breakout": null,
-   "url": "https://github.com/Leonxlnx/earshot"
   }
  ],
  "breakouts": [
@@ -257,11 +257,33 @@
    "verdict": "Talk only, no public usage numbers"
   },
   {
-   "name": "qwen21-nsfw-pose-skill",
-   "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
+   "name": "Qwen 3",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "Hacker News",
+     "t": "Show HN: Qwen3-4B with the AI writing tics trained out",
+     "url": "https://news.ycombinator.com/item?id=50151928"
+    },
+    {
+     "src": "DEV",
+     "t": "Fine-Tuning Qwen3-8B with Tinker: From 50% to 76% Accuracy, and Burning Through My Budget",
+     "url": "https://dev.to/gramli/fine-tuning-qwen3-8b-with-tinker-from-50-to-76-accuracy-and-burning-through-my-budget-48mh"
+    }
+   ],
+   "buzz": 2,
+   "verdict": "Talk only, no public usage numbers"
+  },
+  {
+   "name": "git-ai",
+   "url": "https://github.com/feder-cr/git-ai",
    "from": "GitHub",
-   "use": 695,
-   "useLabel": "+695 stars/day",
+   "use": 596,
+   "useLabel": "~596 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -374,38 +396,38 @@
  ],
  "github": [
   {
-   "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 3288,
-   "d24": 695,
-   "est": false,
-   "forks": 595,
-   "contrib": null,
-   "score": 89
-  },
-  {
    "repo": "feder-cr/git-ai",
-   "stars": 2387,
-   "d24": 598,
+   "stars": 2393,
+   "d24": 596,
    "est": true,
    "forks": 264,
    "contrib": null,
    "score": 93
   },
   {
-   "repo": "Leonxlnx/earshot",
-   "stars": 1195,
-   "d24": 281,
+   "repo": "Arekejoker/qwen21-nsfw-pose-skill",
+   "stars": 3302,
+   "d24": 513,
    "est": true,
-   "forks": 65,
+   "forks": 597,
    "contrib": null,
-   "score": 84
+   "score": 89
+  },
+  {
+   "repo": "Leonxlnx/earshot",
+   "stars": 1210,
+   "d24": 283,
+   "est": true,
+   "forks": 66,
+   "contrib": null,
+   "score": 86
   },
   {
    "repo": "Caho1/open-claude-ui",
    "stars": 1234,
-   "d24": 40,
+   "d24": 39,
    "est": false,
-   "forks": 264,
+   "forks": 263,
    "contrib": null,
    "score": 80
   }
@@ -420,7 +442,7 @@
    "grow": 75,
    "score": 97,
    "cat": "Vision",
-   "likes": 1558
+   "likes": 1572
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -431,7 +453,7 @@
    "grow": 16,
    "score": 90,
    "cat": "Vision",
-   "likes": 874
+   "likes": 880
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -454,7 +476,7 @@
    "grow": 23,
    "score": 87,
    "cat": "Tools",
-   "likes": 731
+   "likes": 734
   },
   {
    "name": "embeddinggemma-2",
@@ -465,7 +487,7 @@
    "grow": 2,
    "score": 85,
    "cat": "Vision",
-   "likes": 2692
+   "likes": 2693
   },
   {
    "name": "flux-3-image-klein",
@@ -476,7 +498,7 @@
    "grow": 19,
    "score": 84,
    "cat": "Vision",
-   "likes": 515
+   "likes": 516
   }
  ],
  "free": [
@@ -808,6 +830,20 @@
  },
  "headlines": [
   {
+   "t": "Microsoft unveils new security tools in its 365 E7 bundle and Project Perception system to treat AI agents as potential insider threats via risk assessments",
+   "url": "https://www.techmeme.com/261019/p24#a261019p24",
+   "at": "2026-10-19T13:25:02.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "How Democrats, who polls predict will flip at least one chamber of Congress in the midterm elections, are preparing to aggressively scrutinize the AI industry",
+   "url": "https://www.techmeme.com/261019/p23#a261019p23",
+   "at": "2026-10-19T13:05:04.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "AI firm Anthropic to commit 5% of shares to fund for ‘public good’",
    "url": "https://www.theguardian.com/technology/2026/oct/19/ai-firm-anthropic-to-commit-shares-to-fund-for-public-good",
    "at": "2026-10-19T12:51:04Z",
@@ -885,38 +921,24 @@
    "kind": "News"
   },
   {
+   "t": "Anthropic to commit 5% stake to new ‘public benefit fund’",
+   "url": "https://www.japantimes.co.jp/business/2026/10/19/anthropic-public-benefit-fund-ai/",
+   "at": "2026-10-19T01:14:25Z",
+   "src": "The Japan Times ",
+   "kind": "News"
+  },
+  {
+   "t": "The AI stock market wobble is a reminder: This time isn’t different",
+   "url": "https://www.livemint.com/global/the-ai-stock-market-wobble-is-a-reminder-this-time-isn-t-different-11792372220378.html",
+   "at": "2026-10-19T01:11:44Z",
+   "src": "Livemint",
+   "kind": "News"
+  },
+  {
    "t": "AI is blowing apart the case for net zero",
    "url": "https://spectator.com/article/ai-is-blowing-apart-the-case-for-net-zero/",
    "at": "2026-10-19T01:00:00Z",
    "src": "The Spectator",
-   "kind": "News"
-  },
-  {
-   "t": "Kylie Minogue songs already used to train AI as tech firms ‘strong-arm’ Australian government, music body warns",
-   "url": "https://www.theguardian.com/music/2026/oct/19/australia-music-global-copywright-outlier-ai-music-body-warnsns",
-   "at": "2026-10-19T00:57:46Z",
-   "src": "The Guardian",
-   "kind": "News"
-  },
-  {
-   "t": "Mutual fund holdings of IT stocks sink to record low in September",
-   "url": "https://economictimes.indiatimes.com/mf/mf-news/mutual-fund-holdings-of-it-stocks-sink-to-record-low-in-september/articleshow/135037293.cms",
-   "at": "2026-10-19T00:40:00Z",
-   "src": "The Economic Times",
-   "kind": "News"
-  },
-  {
-   "t": "【台風30号】大型で非常に強い勢力で西北進　週末は先島諸島周辺で暴風域か※19日6時更新",
-   "url": "https://www.youtube.com/watch?v=rV1ZbgqhyIs",
-   "at": "2026-10-19T00:07:31Z",
-   "src": "ウェザーニュース",
-   "kind": "Video"
-  },
-  {
-   "t": "Army officer’s wife booked in J&K for alleged espionage-related activities",
-   "url": "https://www.thehitavada.com/Encyc/2026/10/19/army-officers-wife-booked-in-jk-for-alleged-espionage-related-activities.html",
-   "at": "2026-10-19T00:00:00Z",
-   "src": "The Hitavada",
    "kind": "News"
   }
  ],
@@ -926,8 +948,8 @@
    "t": "Timestral: Mistral release time-series foundation models",
    "url": "https://news.ycombinator.com/item?id=50150434",
    "link": "https://mistral.ai/news/timestral/",
-   "up": 135,
-   "com": 26,
+   "up": 170,
+   "com": 30,
    "at": "2026-10-19T09:59:32.000Z"
   },
   {
@@ -935,8 +957,8 @@
    "t": "Harness Engineering 101: The LLM is the brain, the harness is the body",
    "url": "https://news.ycombinator.com/item?id=50151390",
    "link": "https://github.com/IsuruMaduranga/harness-engineering-101",
-   "up": 35,
-   "com": 15,
+   "up": 58,
+   "com": 27,
    "at": "2026-10-19T12:07:41.000Z"
   },
   {
@@ -944,17 +966,26 @@
    "t": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
    "url": "https://news.ycombinator.com/item?id=50145337",
    "link": "https://arxiv.org/abs/2610.18861",
-   "up": 442,
-   "com": 216,
+   "up": 448,
+   "com": 218,
    "at": "2026-10-18T20:48:14.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Show HN: Qwen3-4B with the AI writing tics trained out",
+   "url": "https://news.ycombinator.com/item?id=50151928",
+   "link": "https://100toolkit.com/blog/deslop-model/",
+   "up": 23,
+   "com": 6,
+   "at": "2026-10-19T13:00:47.000Z"
   },
   {
    "src": "Hacker News",
    "t": "DeepSeek V4.1 Flash 1017 (Max)",
    "url": "https://news.ycombinator.com/item?id=50148452",
    "link": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
-   "up": 165,
-   "com": 62,
+   "up": 167,
+   "com": 64,
    "at": "2026-10-19T04:41:46.000Z"
   },
   {
@@ -962,18 +993,9 @@
    "t": "RepRapMicron",
    "url": "https://news.ycombinator.com/item?id=50141076",
    "link": "https://github.com/VikOlliver/RepRapMicron/wiki",
-   "up": 411,
-   "com": 65,
+   "up": 414,
+   "com": 66,
    "at": "2026-10-18T13:48:48.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "If you don't run your own LLM proxy, how do you know whats going on?",
-   "url": "https://news.ycombinator.com/item?id=50145507",
-   "link": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
-   "up": 211,
-   "com": 152,
-   "at": "2026-10-18T21:09:12.000Z"
   }
  ]
 }
