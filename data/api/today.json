@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-19T16:40:53.679Z"
+  "updated": "2026-10-19T17:01:12.578Z"
  },
  "pulse": {
   "trending": 79,
   "accelerating": 0,
   "newModels": 8,
-  "discussions": 44,
-  "stars": 2304
+  "discussions": 43,
+  "stars": 2299
  },
  "rising": [
   {
@@ -40,8 +40,8 @@
    "grow": null,
    "desc": "Git designed for AI agents.",
    "meta": [
-    "★ 2,417",
-    "~583 in 24h",
+    "★ 2,419",
+    "~582 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -55,7 +55,7 @@
    "cat": "Vision",
    "score": 90,
    "grow": 16,
-   "desc": "Vision on Hugging Face · open weights · ♥ 910",
+   "desc": "Vision on Hugging Face · open weights · ♥ 914",
    "meta": [
     "393K downloads",
     "Released 5 days ago"
@@ -73,8 +73,8 @@
    "grow": null,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 3,343",
-    "~509 in 24h",
+    "★ 3,344",
+    "~508 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -98,6 +98,23 @@
    "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B"
   },
   {
+   "name": "earshot",
+   "owner": "Leonxlnx",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 87,
+   "grow": 28,
+   "desc": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
+   "meta": [
+    "★ 1,370",
+    "+966 in 24h",
+    "Created 4 days ago"
+   ],
+   "at": "2026-10-15T06:52:46Z",
+   "breakout": null,
+   "url": "https://github.com/Leonxlnx/earshot"
+  },
+  {
    "name": "drama-3",
    "owner": "fishaudio",
    "src": "hf",
@@ -112,23 +129,6 @@
    "at": "2026-10-01T04:34:57.000Z",
    "breakout": null,
    "url": "https://huggingface.co/fishaudio/drama-3"
-  },
-  {
-   "name": "earshot",
-   "owner": "Leonxlnx",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 86,
-   "grow": 27,
-   "desc": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
-   "meta": [
-    "★ 1,357",
-    "+968 in 24h",
-    "Created 4 days ago"
-   ],
-   "at": "2026-10-15T06:52:46Z",
-   "breakout": null,
-   "url": "https://github.com/Leonxlnx/earshot"
   },
   {
    "name": "embeddinggemma-2",
@@ -172,7 +172,7 @@
    "grow": null,
    "desc": "Open-source Superhuman alternative",
    "meta": [
-    "▲ 351 votes",
+    "▲ 353 votes",
     "30 comments",
     "Launched yesterday"
    ],
@@ -254,8 +254,8 @@
    "name": "earshot",
    "url": "https://github.com/Leonxlnx/earshot",
    "from": "GitHub",
-   "use": 968,
-   "useLabel": "+968 stars/day",
+   "use": 966,
+   "useLabel": "+966 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -369,35 +369,35 @@
  "github": [
   {
    "repo": "Leonxlnx/earshot",
-   "stars": 1357,
-   "d24": 968,
+   "stars": 1370,
+   "d24": 966,
    "est": false,
    "forks": 77,
    "contrib": null,
-   "score": 86
+   "score": 87
   },
   {
    "repo": "feder-cr/git-ai",
-   "stars": 2417,
-   "d24": 583,
+   "stars": 2419,
+   "d24": 582,
    "est": true,
-   "forks": 264,
+   "forks": 265,
    "contrib": null,
    "score": 93
   },
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 3343,
-   "d24": 509,
+   "stars": 3344,
+   "d24": 508,
    "est": true,
-   "forks": 604,
+   "forks": 606,
    "contrib": null,
    "score": 89
   },
   {
    "repo": "Caho1/open-claude-ui",
    "stars": 1245,
-   "d24": 244,
+   "d24": 243,
    "est": true,
    "forks": 263,
    "contrib": null,
@@ -414,7 +414,7 @@
    "grow": 75,
    "score": 96,
    "cat": "Vision",
-   "likes": 1611
+   "likes": 1617
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -425,7 +425,7 @@
    "grow": 16,
    "score": 90,
    "cat": "Vision",
-   "likes": 910
+   "likes": 914
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -437,7 +437,7 @@
    "grow": 32,
    "score": 89,
    "cat": "Vision",
-   "likes": 1040
+   "likes": 1042
   },
   {
    "name": "drama-3",
@@ -459,7 +459,7 @@
    "grow": null,
    "score": 85,
    "cat": "Vision",
-   "likes": 2705
+   "likes": 2706
   },
   {
    "name": "humanizer",
@@ -823,7 +823,7 @@
    "kind": "News"
   },
   {
-   "t": "Source: Anthropic is preparing a model with superior intuition and reasoning that can discern unstated intentions and is better at thinking outside of the box",
+   "t": "Source: Anthropic is preparing a model with better intuition and reasoning that can discern underlying intentions and is better at thinking outside of the box",
    "url": "https://www.techmeme.com/261019/p25#a261019p25",
    "at": "2026-10-19T14:15:01.000Z",
    "src": "Techmeme",
@@ -886,31 +886,31 @@
    "kind": "Video"
   },
   {
-   "t": "Anthropics IPO Dreams May Be Eclipsed By the Cloud",
-   "url": "https://www.livemint.com/market/anthropics-ipo-dreams-may-be-eclipsed-by-thecloud-11792383878872.html",
-   "at": "2026-10-19T04:24:38Z",
-   "src": "Livemint",
+   "t": "Anthropic’s Claude AI to Draw Election Data Ahead of November Midterms",
+   "url": "https://www.naturalnews.com/2026-10-19-anthropic-claude-ai-draw-election-data-midterms.html",
+   "at": "2026-10-19T05:00:01Z",
+   "src": "Natural News",
    "kind": "News"
   },
   {
-   "t": "CUHK president puts independent thinking at heart of AI education",
-   "url": "https://www.koreatimes.co.kr/southkorea/education/20261019/scientist-turned-cuhk-president-puts-independent-thinking-at-heart-of-ai-education",
-   "at": "2026-10-19T04:07:03Z",
-   "src": "The Korea Times",
+   "t": "Beyond doom: Why the AI ‘utopia’ presents its own crisis",
+   "url": "https://www.afr.com/technology/beyond-doom-why-the-ai-utopia-presents-its-own-crisis-20261019-p616ln",
+   "at": "2026-10-19T05:00:00Z",
+   "src": "Australian Financial Review",
    "kind": "News"
   },
   {
-   "t": "Anthropic proposes law regulating AI to US lawmakers",
-   "url": "https://www.thestar.com.my/tech/tech-news/2026/10/19/anthropic-proposes-law-regulating-ai-to-us-lawmakers",
-   "at": "2026-10-19T04:00:00Z",
+   "t": "China moves to curb tech exports, including AI, citing national security risks",
+   "url": "https://www.thestar.com.my/tech/tech-news/2026/10/19/china-moves-to-curb-tech-exports-including-ai-citing-national-security-risks",
+   "at": "2026-10-19T05:00:00Z",
    "src": "The Star",
    "kind": "News"
   },
   {
-   "t": "OpenAI is building humanoid robots, Sam Altman teases demo timeline",
-   "url": "https://www.indiatoday.in/technology/news/story/openai-is-building-humanoid-robots-sam-altman-teases-demo-timeline-3020468-2026-10-19",
-   "at": "2026-10-19T03:37:31Z",
-   "src": "India Today",
+   "t": "Who was George Gabriel Stokes? The Irish mathematician whose 180-year-old puzzle has AI giants at war",
+   "url": "https://www.irishtimes.com/science/2026/10/19/who-was-george-gabriel-stokes-the-irish-mathematician-whose-180-year-old-puzzle-has-ai-giants-at-war/",
+   "at": "2026-10-19T05:00:00Z",
+   "src": "The Irish Times",
    "kind": "News"
   }
  ],
@@ -920,8 +920,8 @@
    "t": "Another day another GitHub incident",
    "url": "https://news.ycombinator.com/item?id=50153934",
    "link": "https://www.githubstatus.com/incidents/8tzbpcnl75jp",
-   "up": 75,
-   "com": 47,
+   "up": 93,
+   "com": 63,
    "at": "2026-10-19T15:52:26.000Z"
   },
   {
@@ -929,17 +929,26 @@
    "t": "Timestral: Mistral release time-series foundation models",
    "url": "https://news.ycombinator.com/item?id=50150434",
    "link": "https://mistral.ai/news/timestral/",
-   "up": 347,
-   "com": 59,
+   "up": 362,
+   "com": 62,
    "at": "2026-10-19T09:59:32.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "CERN and Mistral join forces to accelerate AI for science",
+   "url": "https://news.ycombinator.com/item?id=50153630",
+   "link": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
+   "up": 78,
+   "com": 6,
+   "at": "2026-10-19T15:28:24.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Show HN: Qwen3-4B with the AI writing tics trained out",
    "url": "https://news.ycombinator.com/item?id=50151928",
    "link": "https://100toolkit.com/blog/deslop-model/",
-   "up": 105,
-   "com": 85,
+   "up": 114,
+   "com": 87,
    "at": "2026-10-19T13:00:47.000Z"
   },
   {
@@ -948,26 +957,17 @@
    "url": "https://news.ycombinator.com/item?id=50151390",
    "link": "https://github.com/IsuruMaduranga/harness-engineering-101",
    "up": 126,
-   "com": 58,
+   "com": 60,
    "at": "2026-10-19T12:07:41.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "CERN and Mistral join forces to accelerate AI for science",
-   "url": "https://news.ycombinator.com/item?id=50153630",
-   "link": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
-   "up": 31,
-   "com": 3,
-   "at": "2026-10-19T15:28:24.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
-   "url": "https://news.ycombinator.com/item?id=50145337",
-   "link": "https://arxiv.org/abs/2610.18861",
-   "up": 483,
-   "com": 227,
-   "at": "2026-10-18T20:48:14.000Z"
+   "t": "AI lab offers free plumbing and HVAC repairs across three cities to train robots",
+   "url": "https://news.ycombinator.com/item?id=50154060",
+   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-lab-offers-free-plumbing-and-hvac-repairs-across-three-cities-to-train-ai-robots-wearable-sensors-record-video-of-repair-work-for-robotics-training-free-services-also-include-electrical-work-air-duct-cleaning-and-carpet-cleaning",
+   "up": 25,
+   "com": 54,
+   "at": "2026-10-19T16:03:29.000Z"
   }
  ]
 }
