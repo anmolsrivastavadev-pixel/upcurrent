@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-19T22:30:50.292Z"
+  "updated": "2026-10-19T23:01:01.435Z"
  },
  "pulse": {
   "trending": 79,
   "accelerating": 0,
-  "newModels": 8,
-  "discussions": 52,
-  "stars": 1127
+  "newModels": 9,
+  "discussions": 51,
+  "stars": 1100
  },
  "rising": [
   {
@@ -40,8 +40,8 @@
    "grow": 3,
    "desc": "Git designed for AI agents.",
    "meta": [
-    "★ 2,446",
-    "+158 in 24h",
+    "★ 2,447",
+    "+153 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -55,7 +55,7 @@
    "cat": "Vision",
    "score": 91,
    "grow": 16,
-   "desc": "Vision on Hugging Face · open weights · ♥ 954",
+   "desc": "Vision on Hugging Face · open weights · ♥ 956",
    "meta": [
     "393K downloads",
     "Released 5 days ago"
@@ -90,7 +90,7 @@
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
     "★ 3,361",
-    "+157 in 24h",
+    "+149 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -103,11 +103,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 87,
-   "grow": 40,
+   "grow": 41,
    "desc": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
    "meta": [
-    "★ 1,495",
-    "+788 in 24h",
+    "★ 1,504",
+    "+775 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-15T06:52:46Z",
@@ -230,8 +230,8 @@
    "name": "earshot",
    "url": "https://github.com/Leonxlnx/earshot",
    "from": "GitHub",
-   "use": 788,
-   "useLabel": "+788 stars/day",
+   "use": 775,
+   "useLabel": "+775 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -345,26 +345,26 @@
  "github": [
   {
    "repo": "Leonxlnx/earshot",
-   "stars": 1495,
-   "d24": 788,
+   "stars": 1504,
+   "d24": 775,
    "est": false,
-   "forks": 85,
+   "forks": 86,
    "contrib": null,
    "score": 87
   },
   {
    "repo": "feder-cr/git-ai",
-   "stars": 2446,
-   "d24": 158,
+   "stars": 2447,
+   "d24": 153,
    "est": false,
-   "forks": 268,
+   "forks": 270,
    "contrib": null,
    "score": 92
   },
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
    "stars": 3361,
-   "d24": 157,
+   "d24": 149,
    "est": false,
    "forks": 609,
    "contrib": null,
@@ -373,7 +373,7 @@
   {
    "repo": "Caho1/open-claude-ui",
    "stars": 1246,
-   "d24": 24,
+   "d24": 23,
    "est": false,
    "forks": 263,
    "contrib": null,
@@ -390,7 +390,7 @@
    "grow": null,
    "score": 96,
    "cat": "Vision",
-   "likes": 1674
+   "likes": 1678
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -401,7 +401,7 @@
    "grow": 16,
    "score": 91,
    "cat": "Vision",
-   "likes": 954
+   "likes": 956
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -413,7 +413,7 @@
    "grow": null,
    "score": 89,
    "cat": "Vision",
-   "likes": 1060
+   "likes": 1062
   },
   {
    "name": "drama-3",
@@ -435,7 +435,7 @@
    "grow": 0,
    "score": 85,
    "cat": "Vision",
-   "likes": 2724
+   "likes": 2725
   },
   {
    "name": "humanizer",
@@ -778,6 +778,20 @@
  },
  "headlines": [
   {
+   "t": "Sources: Eric Schmidt, who owns ~1% of Anthropic after investing tens of millions in its Series A, is poised to have one of the largest windfalls from its IPO",
+   "url": "https://www.techmeme.com/261019/p46#a261019p46",
+   "at": "2026-10-19T22:40:03.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Cloudflare debuts Clairic, a System One-class extraction model it says processes unstructured data faster, more cheaply, and more accurately than normal LLMs",
+   "url": "https://www.techmeme.com/261019/p45#a261019p45",
+   "at": "2026-10-19T22:35:00.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "New AI tool can predict cancer survival by a single patient selfie, study suggests",
    "url": "https://www.theguardian.com/technology/2026/oct/19/ai-tool-predict-cancer-survival-patient-selfie",
    "at": "2026-10-19T22:30:08Z",
@@ -834,18 +848,18 @@
    "kind": "News"
   },
   {
-   "t": "AI infrastructure startup Modal says it plans to start using Nvidia's Vera CPUs for the first time for hosting agents, alongside its current Intel and AMD chips",
-   "url": "https://www.techmeme.com/261019/p31#a261019p31",
-   "at": "2026-10-19T15:40:02.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production",
    "url": "https://blogs.nvidia.com/blog/media-agentic-security-european-public-service-broadcasting-global-content-production/",
    "at": "2026-10-19T15:00:31.000Z",
    "src": "NVIDIA",
    "kind": "Lab blog"
+  },
+  {
+   "t": "Hace cosas bien locas :O #minecraft #minecraftshorts #humor #humorviral #mods #eda #claude",
+   "url": "https://www.youtube.com/watch?v=BJMCF2zOnAM",
+   "at": "2026-10-19T15:00:30Z",
+   "src": "EdaEsvila",
+   "kind": "Video"
   },
   {
    "t": "Calls to strengthen workplace privacy in Australia as employers turn to AI to track staff",
@@ -869,53 +883,39 @@
    "kind": "Lab blog"
   },
   {
-   "t": "Elon Musk says he will give a SpaceX share to ‘every kid in America’",
-   "url": "https://abc17news.com/money/cnn-business-consumer/2026/10/19/elon-musk-says-he-will-give-a-spacex-share-to-every-kid-in-america/",
-   "at": "2026-10-19T10:26:20Z",
-   "src": "ABC17News.com",
-   "kind": "News"
-  },
-  {
-   "t": "Research on children's use of AI reveals that many 10- to 17-year-olds ask chatbots for social advice and support; experts reveal what parents should do rather than just banning these tools",
-   "url": "https://timesofindia.indiatimes.com/life-style/parenting/teen/research-on-childrens-use-of-ai-reveals-that-many-10-to-17-year-olds-ask-chatbots-for-social-advice-and-support-experts-reveal-what-parents-should-do-rather-than-just-banning-these-tools/articleshow/135045541.cms",
-   "at": "2026-10-19T10:11:00Z",
-   "src": "Times of India",
-   "kind": "News"
-  },
-  {
-   "t": "Anthropic to allocate 5% stake to public benefit fund, stake may rise with valuation growth",
-   "url": "https://www.aninews.in/news/business/anthropic-to-allocate-5-stake-to-public-benefit-fund-stake-may-rise-with-valuation-growth20261019153835/",
-   "at": "2026-10-19T10:08:35Z",
-   "src": "ANI (Asian News International)",
+   "t": "Musk Says He’ll Gift SpaceX Shares to ‘Every Kid in America’",
+   "url": "https://www.spokesman.com/stories/2026/oct/19/musk-says-hell-gift-spacex-shares-to-every-kid-in-/",
+   "at": "2026-10-19T11:00:00Z",
+   "src": "Spokane Spokesman-Review",
    "kind": "News"
   }
  ],
  "discussions": [
   {
    "src": "Hacker News",
-   "t": "CERN and Mistral sign a statement of intent to establish a strategic partnership",
-   "url": "https://news.ycombinator.com/item?id=50153630",
-   "link": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
-   "up": 292,
-   "com": 55,
-   "at": "2026-10-19T15:28:24.000Z"
-  },
-  {
-   "src": "Hacker News",
    "t": "Timestral: Mistral's time-series foundation models",
    "url": "https://news.ycombinator.com/item?id=50150434",
    "link": "https://mistral.ai/news/timestral/",
-   "up": 513,
-   "com": 96,
+   "up": 520,
+   "com": 97,
    "at": "2026-10-19T09:59:32.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "CERN and Mistral sign a statement of intent to establish a strategic partnership",
+   "url": "https://news.ycombinator.com/item?id=50153630",
+   "link": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
+   "up": 299,
+   "com": 57,
+   "at": "2026-10-19T15:28:24.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Mercury 3: Diffusion at scale",
    "url": "https://news.ycombinator.com/item?id=50155245",
    "link": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
-   "up": 203,
-   "com": 79,
+   "up": 206,
+   "com": 80,
    "at": "2026-10-19T17:27:11.000Z"
   },
   {
@@ -923,8 +923,8 @@
    "t": "Android apps running native on macOS",
    "url": "https://news.ycombinator.com/item?id=50154624",
    "link": "https://github.com/kksimp/Mac.apk",
-   "up": 213,
-   "com": 95,
+   "up": 224,
+   "com": 106,
    "at": "2026-10-19T16:45:30.000Z"
   },
   {
@@ -941,8 +941,8 @@
    "t": "Degraded availability for GitHub Actions, GitHub Pages and Webhooks",
    "url": "https://news.ycombinator.com/item?id=50153934",
    "link": "https://www.githubstatus.com/incidents/8tzbpcnl75jp",
-   "up": 146,
-   "com": 119,
+   "up": 148,
+   "com": 124,
    "at": "2026-10-19T15:52:26.000Z"
   }
  ]
