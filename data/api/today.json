@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-19T05:17:10.626Z"
+  "updated": "2026-10-19T05:30:52.932Z"
  },
  "pulse": {
   "trending": 80,
   "accelerating": 0,
   "newModels": 8,
-  "discussions": 30,
-  "stars": 2528
+  "discussions": 31,
+  "stars": 2508
  },
  "rising": [
   {
@@ -40,8 +40,8 @@
    "grow": 55,
    "desc": "Git designed for AI agents.",
    "meta": [
-    "★ 2,316",
-    "+1,537 in 24h",
+    "★ 2,318",
+    "+1,514 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -54,11 +54,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 89,
-   "grow": 12,
+   "grow": 13,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 3,061",
-    "+689 in 24h",
+    "★ 3,064",
+    "+682 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -135,11 +135,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 85,
-   "grow": 7,
+   "grow": 8,
    "desc": "A design system for AI applications. Material, physical, tactile, technical.",
    "meta": [
-    "★ 2,151",
-    "+258 in 24h",
+    "★ 2,160",
+    "+269 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-12T09:19:02Z",
@@ -163,19 +163,19 @@
    "url": "https://huggingface.co/jialinyyzz/humanizer"
   },
   {
-   "name": "Execution Before Memory: Diagnosing Memory Failures in Video World Models",
+   "name": "BridgeWAM: Bridging Video and Action Experts via Latent Bridge Queries",
    "owner": "Paper",
    "src": "paper",
-   "url": "https://huggingface.co/papers/2610.23542",
+   "url": "https://huggingface.co/papers/2610.14746",
    "cat": "Research",
    "score": 85,
    "grow": null,
-   "desc": "A memory test for a video world model should say whether the scene was set, whether the asked change was carried out, and whether the last frame shows the result.",
+   "desc": "World Action Models (WAMs) commonly couple video and action experts through dense, layer-wise Mixture-of-Transformers (MoT) attention, exposing action prediction to irrelevant visual features while enforcing matched expert depths.",
    "meta": [
-    "▲ 13 upvotes",
+    "▲ 16 upvotes",
     "Hugging Face Papers"
    ],
-   "at": "2026-10-15T20:00:00.000Z",
+   "at": "2026-10-09T20:00:00.000Z",
    "breakout": null
   }
  ],
@@ -209,8 +209,8 @@
    "name": "git-ai",
    "url": "https://github.com/feder-cr/git-ai",
    "from": "GitHub",
-   "use": 1537,
-   "useLabel": "+1,537 stars/day",
+   "use": 1514,
+   "useLabel": "+1,514 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -324,26 +324,26 @@
  "github": [
   {
    "repo": "feder-cr/git-ai",
-   "stars": 2316,
-   "d24": 1537,
+   "stars": 2318,
+   "d24": 1514,
    "est": false,
-   "forks": 259,
+   "forks": 260,
    "contrib": null,
    "score": 93
   },
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 3061,
-   "d24": 689,
+   "stars": 3064,
+   "d24": 682,
    "est": false,
-   "forks": 566,
+   "forks": 567,
    "contrib": null,
    "score": 89
   },
   {
    "repo": "deeplethe/solid-glass",
-   "stars": 2151,
-   "d24": 258,
+   "stars": 2160,
+   "d24": 269,
    "est": false,
    "forks": 27,
    "contrib": null,
@@ -352,7 +352,7 @@
   {
    "repo": "Caho1/open-claude-ui",
    "stars": 1216,
-   "d24": 29,
+   "d24": 28,
    "est": false,
    "forks": 261,
    "contrib": null,
@@ -412,7 +412,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Vision",
-   "likes": 2672
+   "likes": 2673
   },
   {
    "name": "drama-3",
@@ -788,6 +788,13 @@
    "kind": "News"
   },
   {
+   "t": "Bill Gates Warns of “Grim” Cyberattack Surprises, Citing AI Risks",
+   "url": "https://www.naturalnews.com/2026-10-18-bill-gates-warns-grim-cyberattack-surprises-ai.html",
+   "at": "2026-10-18T17:20:25Z",
+   "src": "Natural News",
+   "kind": "News"
+  },
+  {
    "t": "AI Stock Selloff Accelerates as Investors Rotate to Treasury Bonds, Defensive Sectors",
    "url": "https://www.naturalnews.com/2026-10-18-ai-stock-selloff-accelerates-investors-treasuries-defensive.html",
    "at": "2026-10-18T17:10:42Z",
@@ -835,23 +842,25 @@
    "at": "2026-10-18T15:31:21Z",
    "src": "Mash Viral",
    "kind": "News"
-  },
-  {
-   "t": "Trump's intel chief warns AI companies over rogue agents hacking websites",
-   "url": "https://www.foxnews.com/media/trump-intel-chief-warns-ai-firms-hacks-says-new-department-cop-beat",
-   "at": "2026-10-18T15:20:02Z",
-   "src": "Fox News",
-   "kind": "News"
   }
  ],
  "discussions": [
   {
    "src": "Hacker News",
+   "t": "DeepSeek v4.1 Flash 1017 scores 45 in Artificial Analysis",
+   "url": "https://news.ycombinator.com/item?id=50148452",
+   "link": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
+   "up": 52,
+   "com": 15,
+   "at": "2026-10-19T04:41:46.000Z"
+  },
+  {
+   "src": "Hacker News",
    "t": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
    "url": "https://news.ycombinator.com/item?id=50145337",
    "link": "https://arxiv.org/abs/2610.18861",
-   "up": 297,
-   "com": 160,
+   "up": 300,
+   "com": 161,
    "at": "2026-10-18T20:48:14.000Z"
   },
   {
@@ -859,25 +868,16 @@
    "t": "RepRapMicron",
    "url": "https://news.ycombinator.com/item?id=50141076",
    "link": "https://github.com/VikOlliver/RepRapMicron/wiki",
-   "up": 357,
+   "up": 358,
    "com": 56,
    "at": "2026-10-18T13:48:48.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "DeepSeek v4.1 Flash 1017 scores 45 in Artificial Analysis",
-   "url": "https://news.ycombinator.com/item?id=50148452",
-   "link": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
-   "up": 22,
-   "com": 4,
-   "at": "2026-10-19T04:41:46.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Free Pascal compiler now supports dynamic packages",
    "url": "https://news.ycombinator.com/item?id=50144066",
    "link": "https://www.getlazarus.org/dynamic/",
-   "up": 133,
+   "up": 135,
    "com": 29,
    "at": "2026-10-18T18:48:04.000Z"
   },
@@ -886,8 +886,8 @@
    "t": "If you don't run your own LLM proxy, how do you know whats going on?",
    "url": "https://news.ycombinator.com/item?id=50145507",
    "link": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
-   "up": 88,
-   "com": 69,
+   "up": 94,
+   "com": 70,
    "at": "2026-10-18T21:09:12.000Z"
   },
   {
@@ -895,7 +895,7 @@
    "t": "Show HN: The Zelda timeline to catch up before the Ocarina of Time remake",
    "url": "https://news.ycombinator.com/item?id=50140769",
    "link": "https://legendofhyrule.com/",
-   "up": 173,
+   "up": 174,
    "com": 105,
    "at": "2026-10-18T13:06:54.000Z"
   }
