@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-19T10:30:58.332Z"
+  "updated": "2026-10-19T11:01:08.082Z"
  },
  "pulse": {
   "trending": 79,
   "accelerating": 0,
   "newModels": 8,
-  "discussions": 40,
-  "stars": 2210
+  "discussions": 39,
+  "stars": 2175
  },
  "rising": [
   {
@@ -37,11 +37,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 93,
-   "grow": 57,
+   "grow": 58,
    "desc": "Git designed for AI agents.",
    "meta": [
-    "★ 2,359",
-    "+1,148 in 24h",
+    "★ 2,367",
+    "+1,127 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -57,8 +57,8 @@
    "grow": 20,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 3,261",
-    "+759 in 24h",
+    "★ 3,265",
+    "+743 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -87,8 +87,8 @@
    "src": "hf",
    "cat": "Vision",
    "score": 89,
-   "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 864",
+   "grow": 16,
+   "desc": "Vision on Hugging Face · open weights · ♥ 869",
    "meta": [
     "393K downloads",
     "Released 5 days ago"
@@ -139,7 +139,7 @@
    "grow": null,
    "desc": "We study how vision-language models (VLMs) can learn to think and actively explore in 3D space.",
    "meta": [
-    "▲ 92 upvotes",
+    "▲ 97 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-14T20:00:00.000Z",
@@ -155,7 +155,7 @@
    "grow": null,
    "desc": "Open-source Superhuman alternative",
    "meta": [
-    "▲ 333 votes",
+    "▲ 334 votes",
     "29 comments",
     "Launched yesterday"
    ],
@@ -169,7 +169,7 @@
    "cat": "Vision",
    "score": 84,
    "grow": 19,
-   "desc": "Vision on Hugging Face · open weights · ♥ 508",
+   "desc": "Vision on Hugging Face · open weights · ♥ 509",
    "meta": [
     "62K downloads",
     "Released 6 days ago"
@@ -231,8 +231,8 @@
    "name": "git-ai",
    "url": "https://github.com/feder-cr/git-ai",
    "from": "GitHub",
-   "use": 1148,
-   "useLabel": "+1,148 stars/day",
+   "use": 1127,
+   "useLabel": "+1,127 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -346,26 +346,26 @@
  "github": [
   {
    "repo": "feder-cr/git-ai",
-   "stars": 2359,
-   "d24": 1148,
+   "stars": 2367,
+   "d24": 1127,
    "est": false,
-   "forks": 262,
+   "forks": 263,
    "contrib": null,
    "score": 93
   },
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 3261,
-   "d24": 759,
+   "stars": 3265,
+   "d24": 743,
    "est": false,
-   "forks": 592,
+   "forks": 594,
    "contrib": null,
    "score": 89
   },
   {
    "repo": "Leonxlnx/earshot",
-   "stars": 1108,
-   "d24": 267,
+   "stars": 1121,
+   "d24": 269,
    "est": true,
    "forks": 60,
    "contrib": null,
@@ -373,7 +373,7 @@
   },
   {
    "repo": "Caho1/open-claude-ui",
-   "stars": 1227,
+   "stars": 1228,
    "d24": 36,
    "est": false,
    "forks": 263,
@@ -391,7 +391,7 @@
    "grow": 75,
    "score": 97,
    "cat": "Vision",
-   "likes": 1524
+   "likes": 1529
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -403,7 +403,7 @@
    "grow": 32,
    "score": 89,
    "cat": "Vision",
-   "likes": 1025
+   "likes": 1029
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -411,10 +411,10 @@
    "lic": "Open weights",
    "at": "2026-10-14T12:00:13.000Z",
    "dl": 393062,
-   "grow": null,
+   "grow": 16,
    "score": 89,
    "cat": "Vision",
-   "likes": 864
+   "likes": 869
   },
   {
    "name": "drama-3",
@@ -436,7 +436,7 @@
    "grow": 2,
    "score": 86,
    "cat": "Vision",
-   "likes": 2685
+   "likes": 2686
   },
   {
    "name": "flux-3-image-klein",
@@ -447,7 +447,7 @@
    "grow": 19,
    "score": 84,
    "cat": "Vision",
-   "likes": 508
+   "likes": 509
   }
  ],
  "free": [
@@ -745,6 +745,20 @@
  },
  "headlines": [
   {
+   "t": "A look at Anthropic's Long-Term Benefit Trust, an unusual, opaque five-member trust whose trustees own no equity and hold enormous sway over the company",
+   "url": "https://www.techmeme.com/261019/p15#a261019p15",
+   "at": "2026-10-19T10:50:02.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "AI firm Anthropic to commit 5% of shares to fund for ‘public good’",
+   "url": "https://www.theguardian.com/technology/2026/oct/19/ai-firm-anthropic-to-commit-shares-to-fund-for-public-good",
+   "at": "2026-10-19T10:47:49Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
    "t": "Google DeepMind says four Gemini 4 Argon agents beat Minecraft without any human help in 27 hours and 14 minutes, costing $1,620 at Argon's planned 2027 price",
    "url": "https://www.techmeme.com/261019/p14#a261019p14",
    "at": "2026-10-19T10:30:01.000Z",
@@ -808,13 +822,6 @@
    "kind": "News"
   },
   {
-   "t": "Anthropic Just Shocked The World... AI SINGULARITY Is Here!",
-   "url": "https://www.youtube.com/watch?v=wS3lJpOs9Uw",
-   "at": "2026-10-19T00:51:38Z",
-   "src": "AI Revolution",
-   "kind": "Video"
-  },
-  {
    "t": "【台風30号】大型で非常に強い勢力で西北進　週末は先島諸島周辺で暴風域か※19日6時更新",
    "url": "https://www.youtube.com/watch?v=rV1ZbgqhyIs",
    "at": "2026-10-19T00:07:31Z",
@@ -848,13 +855,6 @@
    "at": "2026-10-18T21:04:44Z",
    "src": "EUROPE SAYS",
    "kind": "News"
-  },
-  {
-   "t": "Can Artificial Intelligence Help Sweden Predict Disasters and Protect Its Critical Services?",
-   "url": "https://www.devdiscourse.com/article/science-environment/3993949-can-artificial-intelligence-help-sweden-predict-disasters-and-protect-its-critical-services",
-   "at": "2026-10-18T18:16:06Z",
-   "src": "Devdiscourse",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -863,8 +863,8 @@
    "t": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
    "url": "https://news.ycombinator.com/item?id=50145337",
    "link": "https://arxiv.org/abs/2610.18861",
-   "up": 401,
-   "com": 195,
+   "up": 407,
+   "com": 199,
    "at": "2026-10-18T20:48:14.000Z"
   },
   {
@@ -872,8 +872,8 @@
    "t": "DeepSeek V4.1 Flash 1017 (Max)",
    "url": "https://news.ycombinator.com/item?id=50148452",
    "link": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
-   "up": 146,
-   "com": 48,
+   "up": 152,
+   "com": 54,
    "at": "2026-10-19T04:41:46.000Z"
   },
   {
@@ -881,7 +881,7 @@
    "t": "RepRapMicron",
    "url": "https://news.ycombinator.com/item?id=50141076",
    "link": "https://github.com/VikOlliver/RepRapMicron/wiki",
-   "up": 396,
+   "up": 397,
    "com": 64,
    "at": "2026-10-18T13:48:48.000Z"
   },
@@ -890,8 +890,8 @@
    "t": "If you don't run your own LLM proxy, how do you know whats going on?",
    "url": "https://news.ycombinator.com/item?id=50145507",
    "link": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
-   "up": 171,
-   "com": 119,
+   "up": 180,
+   "com": 127,
    "at": "2026-10-18T21:09:12.000Z"
   },
   {
@@ -899,18 +899,18 @@
    "t": "Free Pascal compiler now supports dynamic packages",
    "url": "https://news.ycombinator.com/item?id=50144066",
    "link": "https://www.getlazarus.org/dynamic/",
-   "up": 165,
+   "up": 166,
    "com": 38,
    "at": "2026-10-18T18:48:04.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Open MicroManipulator – A sub-micrometer 3D motion control plattform",
-   "url": "https://news.ycombinator.com/item?id=50140001",
-   "link": "https://github.com/0x23/MicroManipulatorStepper",
-   "up": 203,
-   "com": 16,
-   "at": "2026-10-18T11:16:22.000Z"
+   "t": "Show HN: The Zelda timeline to catch up before the Ocarina of Time remake",
+   "url": "https://news.ycombinator.com/item?id=50140769",
+   "link": "https://legendofhyrule.com/",
+   "up": 189,
+   "com": 111,
+   "at": "2026-10-18T13:06:54.000Z"
   }
  ]
 }
