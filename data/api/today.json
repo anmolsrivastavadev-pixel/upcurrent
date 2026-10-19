@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-19T06:30:54.258Z"
+  "updated": "2026-10-19T07:01:06.533Z"
  },
  "pulse": {
   "trending": 80,
   "accelerating": 0,
   "newModels": 7,
-  "discussions": 33,
-  "stars": 2458
+  "discussions": 32,
+  "stars": 2440
  },
  "rising": [
   {
@@ -40,8 +40,8 @@
    "grow": 55,
    "desc": "Git designed for AI agents.",
    "meta": [
-    "★ 2,321",
-    "+1,411 in 24h",
+    "★ 2,323",
+    "+1,365 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -54,11 +54,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 89,
-   "grow": 14,
+   "grow": 15,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 3,102",
-    "+700 in 24h",
+    "★ 3,131",
+    "+725 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -88,7 +88,7 @@
    "cat": "Vision",
    "score": 88,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 836",
+   "desc": "Vision on Hugging Face · open weights · ♥ 838",
    "meta": [
     "338K downloads",
     "Released 5 days ago"
@@ -120,7 +120,7 @@
    "cat": "Tools",
    "score": 86,
    "grow": null,
-   "desc": "Model on Hugging Face · open weights · ♥ 710",
+   "desc": "Model on Hugging Face · open weights · ♥ 713",
    "meta": [
     "9.6K downloads",
     "Released 18 days ago"
@@ -128,6 +128,23 @@
    "at": "2026-10-01T04:34:57.000Z",
    "breakout": null,
    "url": "https://huggingface.co/fishaudio/drama-3"
+  },
+  {
+   "name": "solid-glass",
+   "owner": "deeplethe",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 85,
+   "grow": 10,
+   "desc": "A design system for AI applications. Material, physical, tactile, technical.",
+   "meta": [
+    "★ 2,199",
+    "+303 in 24h",
+    "Created 7 days ago"
+   ],
+   "at": "2026-10-12T09:19:02Z",
+   "breakout": null,
+   "url": "https://github.com/deeplethe/solid-glass"
   },
   {
    "name": "humanizer",
@@ -155,27 +172,10 @@
    "grow": null,
    "desc": "We study how vision-language models (VLMs) can learn to think and actively explore in 3D space.",
    "meta": [
-    "▲ 30 upvotes",
+    "▲ 36 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-14T20:00:00.000Z",
-   "breakout": null
-  },
-  {
-   "name": "Inbox Zero",
-   "owner": "Product Hunt",
-   "src": "ph",
-   "url": "https://www.producthunt.com/products/inbox-zero-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29",
-   "cat": "Tools",
-   "score": 85,
-   "grow": null,
-   "desc": "Open-source Superhuman alternative",
-   "meta": [
-    "▲ 321 votes",
-    "30 comments",
-    "Launched 23h ago"
-   ],
-   "at": "2026-10-18T07:01:00Z",
    "breakout": null
   }
  ],
@@ -209,8 +209,8 @@
    "name": "git-ai",
    "url": "https://github.com/feder-cr/git-ai",
    "from": "GitHub",
-   "use": 1411,
-   "useLabel": "+1,411 stars/day",
+   "use": 1365,
+   "useLabel": "+1,365 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -324,8 +324,8 @@
  "github": [
   {
    "repo": "feder-cr/git-ai",
-   "stars": 2321,
-   "d24": 1411,
+   "stars": 2323,
+   "d24": 1365,
    "est": false,
    "forks": 260,
    "contrib": null,
@@ -333,35 +333,35 @@
   },
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 3102,
-   "d24": 700,
+   "stars": 3131,
+   "d24": 725,
    "est": false,
-   "forks": 571,
+   "forks": 575,
    "contrib": null,
    "score": 89
   },
   {
    "repo": "deeplethe/solid-glass",
-   "stars": 2189,
-   "d24": 298,
+   "stars": 2199,
+   "d24": 303,
    "est": false,
    "forks": 27,
    "contrib": null,
-   "score": 84
+   "score": 85
   },
   {
    "repo": "Caho1/open-claude-ui",
-   "stars": 1219,
-   "d24": 32,
+   "stars": 1218,
+   "d24": 29,
    "est": false,
    "forks": 262,
    "contrib": null,
-   "score": 83
+   "score": 81
   },
   {
    "repo": "zhuyansen/new-term-radar",
-   "stars": 1114,
-   "d24": 17,
+   "stars": 1115,
+   "d24": 18,
    "est": false,
    "forks": 425,
    "contrib": null,
@@ -378,7 +378,7 @@
    "grow": null,
    "score": 97,
    "cat": "Vision",
-   "likes": 1433
+   "likes": 1444
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -390,7 +390,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Vision",
-   "likes": 1021
+   "likes": 1022
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -401,7 +401,7 @@
    "grow": null,
    "score": 88,
    "cat": "Vision",
-   "likes": 836
+   "likes": 838
   },
   {
    "name": "embeddinggemma-2",
@@ -412,7 +412,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Vision",
-   "likes": 2673
+   "likes": 2674
   },
   {
    "name": "drama-3",
@@ -423,7 +423,7 @@
    "grow": null,
    "score": 86,
    "cat": "Tools",
-   "likes": 710
+   "likes": 713
   },
   {
    "name": "humanizer",
@@ -850,8 +850,8 @@
    "t": "DeepSeek V4.1 Flash 1017 (Max)",
    "url": "https://news.ycombinator.com/item?id=50148452",
    "link": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
-   "up": 89,
-   "com": 24,
+   "up": 101,
+   "com": 31,
    "at": "2026-10-19T04:41:46.000Z"
   },
   {
@@ -859,7 +859,7 @@
    "t": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
    "url": "https://news.ycombinator.com/item?id=50145337",
    "link": "https://arxiv.org/abs/2610.18861",
-   "up": 334,
+   "up": 340,
    "com": 163,
    "at": "2026-10-18T20:48:14.000Z"
   },
@@ -868,8 +868,8 @@
    "t": "RepRapMicron",
    "url": "https://news.ycombinator.com/item?id=50141076",
    "link": "https://github.com/VikOlliver/RepRapMicron/wiki",
-   "up": 367,
-   "com": 56,
+   "up": 371,
+   "com": 57,
    "at": "2026-10-18T13:48:48.000Z"
   },
   {
@@ -877,27 +877,27 @@
    "t": "Free Pascal compiler now supports dynamic packages",
    "url": "https://news.ycombinator.com/item?id=50144066",
    "link": "https://www.getlazarus.org/dynamic/",
-   "up": 143,
+   "up": 147,
    "com": 36,
    "at": "2026-10-18T18:48:04.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Show HN: Strot – Compile an LLM's intent once, run decisions locally",
-   "url": "https://news.ycombinator.com/item?id=50148396",
-   "link": "https://github.com/strot-ai/Project-STROT",
-   "up": 23,
-   "com": 10,
-   "at": "2026-10-19T04:32:07.000Z"
   },
   {
    "src": "Hacker News",
    "t": "If you don't run your own LLM proxy, how do you know whats going on?",
    "url": "https://news.ycombinator.com/item?id=50145507",
    "link": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
-   "up": 107,
-   "com": 77,
+   "up": 114,
+   "com": 79,
    "at": "2026-10-18T21:09:12.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Show HN: The Zelda timeline to catch up before the Ocarina of Time remake",
+   "url": "https://news.ycombinator.com/item?id=50140769",
+   "link": "https://legendofhyrule.com/",
+   "up": 175,
+   "com": 107,
+   "at": "2026-10-18T13:06:54.000Z"
   }
  ]
 }
