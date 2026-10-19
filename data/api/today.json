@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-19T16:19:10.580Z"
+  "updated": "2026-10-19T16:40:53.679Z"
  },
  "pulse": {
   "trending": 79,
   "accelerating": 0,
   "newModels": 8,
-  "discussions": 42,
-  "stars": 2297
+  "discussions": 44,
+  "stars": 2304
  },
  "rising": [
   {
@@ -40,8 +40,8 @@
    "grow": null,
    "desc": "Git designed for AI agents.",
    "meta": [
-    "★ 2,413",
-    "~584 in 24h",
+    "★ 2,417",
+    "~583 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -55,7 +55,7 @@
    "cat": "Vision",
    "score": 90,
    "grow": 16,
-   "desc": "Vision on Hugging Face · open weights · ♥ 907",
+   "desc": "Vision on Hugging Face · open weights · ♥ 910",
    "meta": [
     "393K downloads",
     "Released 5 days ago"
@@ -73,8 +73,8 @@
    "grow": null,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 3,339",
-    "~510 in 24h",
+    "★ 3,343",
+    "~509 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -107,7 +107,7 @@
    "desc": "Model on Hugging Face · open weights · ♥ 745",
    "meta": [
     "12K downloads",
-    "Released 18 days ago"
+    "Released 19 days ago"
    ],
    "at": "2026-10-01T04:34:57.000Z",
    "breakout": null,
@@ -119,11 +119,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 86,
-   "grow": 25,
+   "grow": 27,
    "desc": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
    "meta": [
-    "★ 1,340",
-    "+959 in 24h",
+    "★ 1,357",
+    "+968 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-15T06:52:46Z",
@@ -172,7 +172,7 @@
    "grow": null,
    "desc": "Open-source Superhuman alternative",
    "meta": [
-    "▲ 348 votes",
+    "▲ 351 votes",
     "30 comments",
     "Launched yesterday"
    ],
@@ -254,8 +254,8 @@
    "name": "earshot",
    "url": "https://github.com/Leonxlnx/earshot",
    "from": "GitHub",
-   "use": 959,
-   "useLabel": "+959 stars/day",
+   "use": 968,
+   "useLabel": "+968 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -369,8 +369,8 @@
  "github": [
   {
    "repo": "Leonxlnx/earshot",
-   "stars": 1340,
-   "d24": 959,
+   "stars": 1357,
+   "d24": 968,
    "est": false,
    "forks": 77,
    "contrib": null,
@@ -378,8 +378,8 @@
   },
   {
    "repo": "feder-cr/git-ai",
-   "stars": 2413,
-   "d24": 584,
+   "stars": 2417,
+   "d24": 583,
    "est": true,
    "forks": 264,
    "contrib": null,
@@ -387,8 +387,8 @@
   },
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 3339,
-   "d24": 510,
+   "stars": 3343,
+   "d24": 509,
    "est": true,
    "forks": 604,
    "contrib": null,
@@ -396,7 +396,7 @@
   },
   {
    "repo": "Caho1/open-claude-ui",
-   "stars": 1244,
+   "stars": 1245,
    "d24": 244,
    "est": true,
    "forks": 263,
@@ -414,7 +414,7 @@
    "grow": 75,
    "score": 96,
    "cat": "Vision",
-   "likes": 1606
+   "likes": 1611
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -425,7 +425,7 @@
    "grow": 16,
    "score": 90,
    "cat": "Vision",
-   "likes": 907
+   "likes": 910
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -459,18 +459,18 @@
    "grow": null,
    "score": 85,
    "cat": "Vision",
-   "likes": 2702
+   "likes": 2705
   },
   {
-   "name": "flux-3-image-klein",
-   "org": "black-forest-labs",
-   "lic": "Open weights",
-   "at": "2026-10-13T10:58:40.000Z",
-   "dl": 62006,
-   "grow": 19,
-   "score": 84,
-   "cat": "Vision",
-   "likes": 521
+   "name": "humanizer",
+   "org": "jialinyyzz",
+   "lic": "Open source",
+   "at": "2026-09-11T05:00:16.000Z",
+   "dl": 109937,
+   "grow": null,
+   "score": 83,
+   "cat": "Infrastructure",
+   "likes": 1972
   }
  ],
  "free": [
@@ -802,7 +802,7 @@
  },
  "headlines": [
   {
-   "t": "AI infrastructure startup Modal says it plans to start using Nvidia's Vera CPUs for the first time for hosting agents, alongside existing Intel and AMD chips",
+   "t": "AI infrastructure startup Modal says it plans to start using Nvidia's Vera CPUs for the first time for hosting agents, alongside its current Intel and AMD chips",
    "url": "https://www.techmeme.com/261019/p31#a261019p31",
    "at": "2026-10-19T15:40:02.000Z",
    "src": "Techmeme",
@@ -886,6 +886,13 @@
    "kind": "Video"
   },
   {
+   "t": "Anthropics IPO Dreams May Be Eclipsed By the Cloud",
+   "url": "https://www.livemint.com/market/anthropics-ipo-dreams-may-be-eclipsed-by-thecloud-11792383878872.html",
+   "at": "2026-10-19T04:24:38Z",
+   "src": "Livemint",
+   "kind": "News"
+  },
+  {
    "t": "CUHK president puts independent thinking at heart of AI education",
    "url": "https://www.koreatimes.co.kr/southkorea/education/20261019/scientist-turned-cuhk-president-puts-independent-thinking-at-heart-of-ai-education",
    "at": "2026-10-19T04:07:03Z",
@@ -905,23 +912,25 @@
    "at": "2026-10-19T03:37:31Z",
    "src": "India Today",
    "kind": "News"
-  },
-  {
-   "t": "Bond Market's Big Short Bet Gets Wakeup Call As AI Trade Wobbles",
-   "url": "https://www.ndtvprofit.com/markets/bond-markets-big-short-bet-gets-wakeup-call-as-ai-trade-wobbles-12204429",
-   "at": "2026-10-19T03:30:12Z",
-   "src": "NDTV Profit",
-   "kind": "News"
   }
  ],
  "discussions": [
   {
    "src": "Hacker News",
+   "t": "Another day another GitHub incident",
+   "url": "https://news.ycombinator.com/item?id=50153934",
+   "link": "https://www.githubstatus.com/incidents/8tzbpcnl75jp",
+   "up": 75,
+   "com": 47,
+   "at": "2026-10-19T15:52:26.000Z"
+  },
+  {
+   "src": "Hacker News",
    "t": "Timestral: Mistral release time-series foundation models",
    "url": "https://news.ycombinator.com/item?id=50150434",
    "link": "https://mistral.ai/news/timestral/",
-   "up": 326,
-   "com": 52,
+   "up": 347,
+   "com": 59,
    "at": "2026-10-19T09:59:32.000Z"
   },
   {
@@ -929,8 +938,8 @@
    "t": "Show HN: Qwen3-4B with the AI writing tics trained out",
    "url": "https://news.ycombinator.com/item?id=50151928",
    "link": "https://100toolkit.com/blog/deslop-model/",
-   "up": 102,
-   "com": 83,
+   "up": 105,
+   "com": 85,
    "at": "2026-10-19T13:00:47.000Z"
   },
   {
@@ -939,35 +948,26 @@
    "url": "https://news.ycombinator.com/item?id=50151390",
    "link": "https://github.com/IsuruMaduranga/harness-engineering-101",
    "up": 126,
-   "com": 57,
+   "com": 58,
    "at": "2026-10-19T12:07:41.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Another day another GitHub incident",
-   "url": "https://news.ycombinator.com/item?id=50153934",
-   "link": "https://www.githubstatus.com/incidents/8tzbpcnl75jp",
-   "up": 29,
-   "com": 2,
-   "at": "2026-10-19T15:52:26.000Z"
+   "t": "CERN and Mistral join forces to accelerate AI for science",
+   "url": "https://news.ycombinator.com/item?id=50153630",
+   "link": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
+   "up": 31,
+   "com": 3,
+   "at": "2026-10-19T15:28:24.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
    "url": "https://news.ycombinator.com/item?id=50145337",
    "link": "https://arxiv.org/abs/2610.18861",
-   "up": 481,
-   "com": 226,
+   "up": 483,
+   "com": 227,
    "at": "2026-10-18T20:48:14.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Big Tech Oligarchs Have a Terrible Plan for Humanity",
-   "url": "https://news.ycombinator.com/item?id=50153403",
-   "link": "https://www.theatlantic.com/ideas/2026/10/ai-regulation-transhumanism-oligarchs/689013/",
-   "up": 26,
-   "com": 0,
-   "at": "2026-10-19T15:07:11.000Z"
   }
  ]
 }
