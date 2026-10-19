@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-19T21:30:50.019Z"
+  "updated": "2026-10-19T22:01:04.235Z"
  },
  "pulse": {
   "trending": 79,
   "accelerating": 0,
   "newModels": 8,
-  "discussions": 55,
-  "stars": 1199
+  "discussions": 52,
+  "stars": 1157
  },
  "rising": [
   {
@@ -21,7 +21,7 @@
    "src": "hf",
    "cat": "Vision",
    "score": 96,
-   "grow": 75,
+   "grow": null,
    "desc": "Vision on Hugging Face · open source · ♥ 1.7K",
    "meta": [
     "18K downloads",
@@ -41,7 +41,7 @@
    "desc": "Git designed for AI agents.",
    "meta": [
     "★ 2,443",
-    "+168 in 24h",
+    "+159 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -55,7 +55,7 @@
    "cat": "Vision",
    "score": 91,
    "grow": 16,
-   "desc": "Vision on Hugging Face · open weights · ♥ 949",
+   "desc": "Vision on Hugging Face · open weights · ♥ 953",
    "meta": [
     "393K downloads",
     "Released 5 days ago"
@@ -90,7 +90,7 @@
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
     "★ 3,358",
-    "+168 in 24h",
+    "+158 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -103,11 +103,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 88,
-   "grow": 39,
+   "grow": 40,
    "desc": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
    "meta": [
-    "★ 1,486",
-    "+836 in 24h",
+    "★ 1,492",
+    "+814 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-15T06:52:46Z",
@@ -121,7 +121,7 @@
    "cat": "Tools",
    "score": 86,
    "grow": 23,
-   "desc": "Model on Hugging Face · open weights · ♥ 762",
+   "desc": "Model on Hugging Face · open weights · ♥ 765",
    "meta": [
     "12K downloads",
     "Released 19 days ago"
@@ -230,8 +230,8 @@
    "name": "earshot",
    "url": "https://github.com/Leonxlnx/earshot",
    "from": "GitHub",
-   "use": 836,
-   "useLabel": "+836 stars/day",
+   "use": 814,
+   "useLabel": "+814 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -345,35 +345,35 @@
  "github": [
   {
    "repo": "Leonxlnx/earshot",
-   "stars": 1486,
-   "d24": 836,
+   "stars": 1492,
+   "d24": 814,
    "est": false,
    "forks": 85,
    "contrib": null,
    "score": 88
   },
   {
-   "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 3358,
-   "d24": 168,
-   "est": false,
-   "forks": 608,
-   "contrib": null,
-   "score": 88
-  },
-  {
    "repo": "feder-cr/git-ai",
    "stars": 2443,
-   "d24": 168,
+   "d24": 159,
    "est": false,
    "forks": 268,
    "contrib": null,
    "score": 92
   },
   {
+   "repo": "Arekejoker/qwen21-nsfw-pose-skill",
+   "stars": 3358,
+   "d24": 158,
+   "est": false,
+   "forks": 609,
+   "contrib": null,
+   "score": 88
+  },
+  {
    "repo": "Caho1/open-claude-ui",
    "stars": 1246,
-   "d24": 27,
+   "d24": 26,
    "est": false,
    "forks": 263,
    "contrib": null,
@@ -387,10 +387,10 @@
    "lic": "Open source",
    "at": "2026-10-17T02:40:38.000Z",
    "dl": 17924,
-   "grow": 75,
+   "grow": null,
    "score": 96,
    "cat": "Vision",
-   "likes": 1664
+   "likes": 1669
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -401,7 +401,7 @@
    "grow": 16,
    "score": 91,
    "cat": "Vision",
-   "likes": 949
+   "likes": 953
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -413,7 +413,7 @@
    "grow": null,
    "score": 89,
    "cat": "Vision",
-   "likes": 1058
+   "likes": 1060
   },
   {
    "name": "drama-3",
@@ -424,7 +424,7 @@
    "grow": 23,
    "score": 86,
    "cat": "Tools",
-   "likes": 762
+   "likes": 765
   },
   {
    "name": "embeddinggemma-2",
@@ -435,7 +435,7 @@
    "grow": 0,
    "score": 85,
    "cat": "Vision",
-   "likes": 2723
+   "likes": 2724
   },
   {
    "name": "humanizer",
@@ -446,7 +446,7 @@
    "grow": 0,
    "score": 83,
    "cat": "Infrastructure",
-   "likes": 1982
+   "likes": 1983
   }
  ],
  "free": [
@@ -855,6 +855,20 @@
    "kind": "News"
   },
   {
+   "t": "Compass Datacenters says AI boom is creating blue-collar jobs in Texas",
+   "url": "https://www.foxnews.com/politics/took-3-months-get-inside-massive-texas-data-center-heres-what-we-saw",
+   "at": "2026-10-19T10:00:25Z",
+   "src": "Fox News",
+   "kind": "News"
+  },
+  {
+   "t": "Clarence Page: Beware the charm of our rising chatbots",
+   "url": "https://www.chicagotribune.com/2026/10/19/opinion-artificial-intelligence-ai-chatbots-risks-page/",
+   "at": "2026-10-19T10:00:25Z",
+   "src": "Chicago Tribune",
+   "kind": "News"
+  },
+  {
    "t": "US teens can access ‘nudify’ apps despite Apple and Google’s parental controls, report finds",
    "url": "https://www.theguardian.com/technology/2026/oct/19/us-teens-nudify-apps-apple-google-parental-controls",
    "at": "2026-10-19T10:00:05Z",
@@ -862,31 +876,17 @@
    "kind": "News"
   },
   {
-   "t": "Realme phones getting Android 17 update with Living Flow UI",
-   "url": "https://www.deccanherald.com/technology/coloros-17-list-of-realme-phones-eligible-for-android-17-update-4187896",
-   "at": "2026-10-19T09:21:35Z",
-   "src": "Deccan Herald",
+   "t": "Will the Anthropic and OpenAI IPOs follow SpaceX in upending the underwriting market?",
+   "url": "https://www.theglobeandmail.com/business/commentary/article-will-the-anthropic-and-openai-ipos-follow-spacex-in-upending-the/",
+   "at": "2026-10-19T10:00:00Z",
+   "src": "The Globe and Mail",
    "kind": "News"
   },
   {
-   "t": "Yokohama Rubber and dotData begin joint development of a manufacturing AI agent",
-   "url": "https://rubberworld.com/yokohama-rubber-and-dotdata-begin-joint-development-of-a-manufacturing-ai-agent/",
-   "at": "2026-10-19T09:02:00Z",
-   "src": "RubberWorld",
-   "kind": "News"
-  },
-  {
-   "t": "Why AI fearmongering distracts from the real human oversight debate",
-   "url": "https://www.foxnews.com/opinion/no-ai-armageddon-artificial-intelligence-tool-not-apocalypse",
-   "at": "2026-10-19T09:00:38Z",
-   "src": "Fox News",
-   "kind": "News"
-  },
-  {
-   "t": "ISB programme explores AI’s growing role in the future of digital finance",
-   "url": "https://economictimes.indiatimes.com/tech/technology/isb-programme-explores-ais-growing-role-in-the-future-of-digital-finance/articleshow/135044413.cms",
-   "at": "2026-10-19T08:56:22Z",
-   "src": "The Economic Times",
+   "t": "Musk pledges to give a share of his SpaceX company to 'every kid in America' next year",
+   "url": "https://www.pbs.org/newshour/nation/musk-pledges-to-give-a-share-of-his-spacex-company-to-every-kid-in-america-next-year",
+   "at": "2026-10-19T09:55:29Z",
+   "src": "PBS News",
    "kind": "News"
   }
  ],
@@ -896,8 +896,8 @@
    "t": "Mercury 3: Diffusion at scale",
    "url": "https://news.ycombinator.com/item?id=50155245",
    "link": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
-   "up": 188,
-   "com": 75,
+   "up": 198,
+   "com": 78,
    "at": "2026-10-19T17:27:11.000Z"
   },
   {
@@ -905,8 +905,8 @@
    "t": "CERN and Mistral sign a statement of intent to establish a strategic partnership",
    "url": "https://news.ycombinator.com/item?id=50153630",
    "link": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
-   "up": 274,
-   "com": 53,
+   "up": 283,
+   "com": 54,
    "at": "2026-10-19T15:28:24.000Z"
   },
   {
@@ -914,8 +914,8 @@
    "t": "Timestral: Mistral's time-series foundation models",
    "url": "https://news.ycombinator.com/item?id=50150434",
    "link": "https://mistral.ai/news/timestral/",
-   "up": 498,
-   "com": 93,
+   "up": 506,
+   "com": 95,
    "at": "2026-10-19T09:59:32.000Z"
   },
   {
@@ -923,8 +923,8 @@
    "t": "Android apps running native on macOS",
    "url": "https://news.ycombinator.com/item?id=50154624",
    "link": "https://github.com/kksimp/Mac.apk",
-   "up": 195,
-   "com": 73,
+   "up": 204,
+   "com": 81,
    "at": "2026-10-19T16:45:30.000Z"
   },
   {
@@ -932,8 +932,8 @@
    "t": "Europe EV sales rose 70.3% in September, 32.6% of market share",
    "url": "https://news.ycombinator.com/item?id=50155291",
    "link": "https://www.reuters.com/business/europe-ev-sales-rose-70-september-almost-30-market-share-2026-10-19/",
-   "up": 128,
-   "com": 125,
+   "up": 133,
+   "com": 127,
    "at": "2026-10-19T17:30:26.000Z"
   },
   {
@@ -941,8 +941,8 @@
    "t": "Degraded availability for GitHub Actions, GitHub Pages and Webhooks",
    "url": "https://news.ycombinator.com/item?id=50153934",
    "link": "https://www.githubstatus.com/incidents/8tzbpcnl75jp",
-   "up": 145,
-   "com": 117,
+   "up": 146,
+   "com": 118,
    "at": "2026-10-19T15:52:26.000Z"
   }
  ]
