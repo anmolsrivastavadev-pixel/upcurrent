@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-19T00:01:03.739Z"
+  "updated": "2026-10-19T00:27:53.628Z"
  },
  "pulse": {
   "trending": 81,
   "accelerating": 1,
   "newModels": 8,
-  "discussions": 28,
-  "stars": 5125
+  "discussions": 27,
+  "stars": 5059
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 97,
-   "grow": 84,
+   "grow": 87,
    "desc": "Your TV, minus the ads. Debloat any Android TV over ADB and give it a clean, tvOS-inspired launcher. Built in an afternoon with Claude Code.",
    "meta": [
-    "★ 1,920",
-    "+2,212 in 24h",
+    "★ 1,955",
+    "+2,197 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-17T08:12:35Z",
@@ -57,8 +57,8 @@
    "grow": 53,
    "desc": "Git designed for AI agents.",
    "meta": [
-    "★ 2,294",
-    "+2,546 in 24h",
+    "★ 2,297",
+    "+2,412 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -71,11 +71,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 89,
-   "grow": 0,
+   "grow": 1,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 2,735",
-    "+44 in 24h",
+    "★ 2,747",
+    "+83 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -105,7 +105,7 @@
    "cat": "Vision",
    "score": 88,
    "grow": 51,
-   "desc": "Vision on Hugging Face · open weights · ♥ 807",
+   "desc": "Vision on Hugging Face · open weights · ♥ 809",
    "meta": [
     "338K downloads",
     "Released 5 days ago"
@@ -153,7 +153,7 @@
    "cat": "Tools",
    "score": 85,
    "grow": 0,
-   "desc": "Model on Hugging Face · open weights · ♥ 691",
+   "desc": "Model on Hugging Face · open weights · ♥ 692",
    "meta": [
     "9.6K downloads",
     "Released 18 days ago"
@@ -179,14 +179,38 @@
    "breakout": null
   }
  ],
- "breakouts": [],
+ "breakouts": [
+  {
+   "key": "space",
+   "label": "SPACE",
+   "n": 3,
+   "sources": [
+    {
+     "src": "GitHub",
+     "t": "Inkloom-art/inkloom",
+     "url": "https://github.com/Inkloom-art/inkloom"
+    },
+    {
+     "src": "Hacker News",
+     "t": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+     "url": "https://news.ycombinator.com/item?id=50145337"
+    },
+    {
+     "src": "Livemint",
+     "t": "Jeff Bezos predicts millions will live in space by 2045, says robots will take over work on the Moon",
+     "url": "https://www.livemint.com/news/trends/jeff-bezos-predicts-millions-will-live-in-space-by-2045-says-robots-will-take-over-work-on-the-moon-11792324624515.html"
+    }
+   ],
+   "since": "2026-10-19T00:27:53.628Z"
+  }
+ ],
  "hype": [
   {
    "name": "git-ai",
    "url": "https://github.com/feder-cr/git-ai",
    "from": "GitHub",
-   "use": 2546,
-   "useLabel": "+2,546 stars/day",
+   "use": 2412,
+   "useLabel": "+2,412 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -300,8 +324,8 @@
  "github": [
   {
    "repo": "feder-cr/git-ai",
-   "stars": 2294,
-   "d24": 2546,
+   "stars": 2297,
+   "d24": 2412,
    "est": false,
    "forks": 257,
    "contrib": null,
@@ -309,17 +333,17 @@
   },
   {
    "repo": "Gathin23/tv-vibehack",
-   "stars": 1920,
-   "d24": 2212,
+   "stars": 1955,
+   "d24": 2197,
    "est": false,
-   "forks": 229,
+   "forks": 235,
    "contrib": null,
    "score": 97
   },
   {
    "repo": "Caho1/open-claude-ui",
-   "stars": 1206,
-   "d24": 273,
+   "stars": 1207,
+   "d24": 272,
    "est": true,
    "forks": 259,
    "contrib": null,
@@ -327,8 +351,8 @@
   },
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2735,
-   "d24": 44,
+   "stars": 2747,
+   "d24": 83,
    "est": false,
    "forks": 522,
    "contrib": null,
@@ -336,8 +360,8 @@
   },
   {
    "repo": "deeplethe/solid-glass",
-   "stars": 2016,
-   "d24": 37,
+   "stars": 2033,
+   "d24": 80,
    "est": false,
    "forks": 27,
    "contrib": null,
@@ -345,8 +369,8 @@
   },
   {
    "repo": "zhuyansen/new-term-radar",
-   "stars": 1108,
-   "d24": 13,
+   "stars": 1109,
+   "d24": 15,
    "est": false,
    "forks": 422,
    "contrib": null,
@@ -363,7 +387,7 @@
    "grow": null,
    "score": 97,
    "cat": "Vision",
-   "likes": 1331
+   "likes": 1333
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -375,7 +399,7 @@
    "grow": null,
    "score": 89,
    "cat": "Vision",
-   "likes": 1007
+   "likes": 1008
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -386,7 +410,7 @@
    "grow": 51,
    "score": 88,
    "cat": "Vision",
-   "likes": 807
+   "likes": 809
   },
   {
    "name": "embeddinggemma-2",
@@ -419,7 +443,7 @@
    "grow": 0,
    "score": 85,
    "cat": "Tools",
-   "likes": 691
+   "likes": 692
   }
  ],
  "free": [
@@ -759,6 +783,20 @@
    "kind": "News"
   },
   {
+   "t": "J-K: Army officer’s wife booked for alleged espionage-related activities",
+   "url": "https://theprint.in/india/j-k-army-officers-wife-booked-for-alleged-espionage-related-activities/3075326/",
+   "at": "2026-10-18T12:16:44Z",
+   "src": "ThePrint",
+   "kind": "News"
+  },
+  {
+   "t": "Jeff Bezos predicts millions will live in space by 2045, says robots will take over work on the Moon",
+   "url": "https://www.livemint.com/news/trends/jeff-bezos-predicts-millions-will-live-in-space-by-2045-says-robots-will-take-over-work-on-the-moon-11792324624515.html",
+   "at": "2026-10-18T12:09:16Z",
+   "src": "Livemint",
+   "kind": "News"
+  },
+  {
    "t": "World leaders must wise up to threat of cyber-attacks or rogue fridges will be least of their worries | Heather Stewart",
    "url": "https://www.theguardian.com/business/2026/oct/18/world-leaders-threat-cyber-attacks-rogue-fridges-financial-system",
    "at": "2026-10-18T11:46:50Z",
@@ -808,20 +846,6 @@
    "kind": "News"
   },
   {
-   "t": "LLM, RAG, AI Agents and MCP. What's the Difference?",
-   "url": "https://www.news18.com/tech/llm-rag-ai-agents-and-mcp-whats-the-difference-ws-e-10385138.html",
-   "at": "2026-10-18T10:00:47Z",
-   "src": "News18",
-   "kind": "News"
-  },
-  {
-   "t": "AdaniConneX's Vizag data centres to use air cooling, cut freshwater consumption",
-   "url": "https://www.newindianexpress.com/business/2026/Oct/18/adaniconnexs-vizag-data-centres-to-use-air-cooling-cut-freshwater-consumption",
-   "at": "2026-10-18T08:51:58Z",
-   "src": "The New Indian Express",
-   "kind": "News"
-  },
-  {
    "t": "AI debt worries mount as CoreWeave's bond yield tops 15%, insuring SoftBank debt gets pricier, and some Oracle debt trades near 80 to 90 cents on the dollar",
    "url": "https://www.techmeme.com/261018/p5#a261018p5",
    "at": "2026-10-18T06:10:04.000Z",
@@ -835,8 +859,8 @@
    "t": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
    "url": "https://news.ycombinator.com/item?id=50145337",
    "link": "https://arxiv.org/abs/2610.18861",
-   "up": 155,
-   "com": 91,
+   "up": 169,
+   "com": 104,
    "at": "2026-10-18T20:48:14.000Z"
   },
   {
@@ -844,7 +868,7 @@
    "t": "RepRapMicron",
    "url": "https://news.ycombinator.com/item?id=50141076",
    "link": "https://github.com/VikOlliver/RepRapMicron/wiki",
-   "up": 321,
+   "up": 324,
    "com": 51,
    "at": "2026-10-18T13:48:48.000Z"
   },
@@ -853,8 +877,8 @@
    "t": "Free Pascal compiler now supports dynamic packages",
    "url": "https://news.ycombinator.com/item?id=50144066",
    "link": "https://www.getlazarus.org/dynamic/",
-   "up": 101,
-   "com": 14,
+   "up": 102,
+   "com": 17,
    "at": "2026-10-18T18:48:04.000Z"
   },
   {
@@ -862,7 +886,7 @@
    "t": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
    "url": "https://news.ycombinator.com/item?id=50141429",
    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
-   "up": 152,
+   "up": 153,
    "com": 161,
    "at": "2026-10-18T14:30:27.000Z"
   },
@@ -880,8 +904,8 @@
    "t": "Show HN: The Zelda timeline to catch up before the Ocarina of Time remake",
    "url": "https://news.ycombinator.com/item?id=50140769",
    "link": "https://legendofhyrule.com/",
-   "up": 156,
-   "com": 93,
+   "up": 158,
+   "com": 95,
    "at": "2026-10-18T13:06:54.000Z"
   }
  ]
