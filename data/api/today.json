@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-19T04:01:03.527Z"
+  "updated": "2026-10-19T04:31:00.170Z"
  },
  "pulse": {
   "trending": 81,
   "accelerating": 1,
   "newModels": 8,
-  "discussions": 29,
-  "stars": 4911
+  "discussions": 31,
+  "stars": 4847
  },
  "rising": [
   {
@@ -37,11 +37,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 96,
-   "grow": 121,
+   "grow": 125,
    "desc": "Your TV, minus the ads. Debloat any Android TV over ADB and give it a clean, tvOS-inspired launcher. Built in an afternoon with Claude Code.",
    "meta": [
-    "★ 2,306",
-    "+2,243 in 24h",
+    "★ 2,345",
+    "+2,230 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-17T08:12:35Z",
@@ -53,12 +53,12 @@
    "owner": "feder-cr",
    "src": "gh",
    "cat": "Agents",
-   "score": 93,
+   "score": 92,
    "grow": 54,
    "desc": "Git designed for AI agents.",
    "meta": [
-    "★ 2,310",
-    "+1,694 in 24h",
+    "★ 2,312",
+    "+1,628 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -87,11 +87,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 88,
-   "grow": 11,
+   "grow": 12,
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "meta": [
-    "★ 3,033",
-    "+708 in 24h",
+    "★ 3,043",
+    "+698 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-13T03:09:42Z",
@@ -104,8 +104,8 @@
    "src": "hf",
    "cat": "Vision",
    "score": 88,
-   "grow": 51,
-   "desc": "Vision on Hugging Face · open weights · ♥ 829",
+   "grow": null,
+   "desc": "Vision on Hugging Face · open weights · ♥ 831",
    "meta": [
     "338K downloads",
     "Released 5 days ago"
@@ -172,7 +172,7 @@
    "grow": null,
    "desc": "GPT-6-Astra demonstrates a level of competence in robotic manipulation and navigation that challenges the conventional paradigm of building specialized models for individual tasks and embodiments.",
    "meta": [
-    "▲ 45 upvotes",
+    "▲ 53 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-14T20:00:00.000Z",
@@ -209,8 +209,8 @@
    "name": "tv-vibehack",
    "url": "https://github.com/Gathin23/tv-vibehack",
    "from": "GitHub",
-   "use": 2243,
-   "useLabel": "+2,243 stars/day",
+   "use": 2230,
+   "useLabel": "+2,230 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -324,35 +324,35 @@
  "github": [
   {
    "repo": "Gathin23/tv-vibehack",
-   "stars": 2306,
-   "d24": 2243,
+   "stars": 2345,
+   "d24": 2230,
    "est": false,
-   "forks": 272,
+   "forks": 276,
    "contrib": null,
    "score": 96
   },
   {
    "repo": "feder-cr/git-ai",
-   "stars": 2310,
-   "d24": 1694,
+   "stars": 2312,
+   "d24": 1628,
    "est": false,
    "forks": 259,
    "contrib": null,
-   "score": 93
+   "score": 92
   },
   {
    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 3033,
-   "d24": 708,
+   "stars": 3043,
+   "d24": 698,
    "est": false,
-   "forks": 561,
+   "forks": 563,
    "contrib": null,
    "score": 88
   },
   {
    "repo": "deeplethe/solid-glass",
-   "stars": 2117,
-   "d24": 219,
+   "stars": 2135,
+   "d24": 244,
    "est": false,
    "forks": 27,
    "contrib": null,
@@ -360,8 +360,8 @@
   },
   {
    "repo": "Caho1/open-claude-ui",
-   "stars": 1215,
-   "d24": 30,
+   "stars": 1216,
+   "d24": 31,
    "est": false,
    "forks": 260,
    "contrib": null,
@@ -370,7 +370,7 @@
   {
    "repo": "zhuyansen/new-term-radar",
    "stars": 1112,
-   "d24": 17,
+   "d24": 16,
    "est": false,
    "forks": 425,
    "contrib": null,
@@ -387,7 +387,7 @@
    "grow": null,
    "score": 97,
    "cat": "Vision",
-   "likes": 1391
+   "likes": 1401
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -399,7 +399,7 @@
    "grow": null,
    "score": 89,
    "cat": "Vision",
-   "likes": 1014
+   "likes": 1015
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -407,10 +407,10 @@
    "lic": "Open weights",
    "at": "2026-10-14T12:00:13.000Z",
    "dl": 338036,
-   "grow": 51,
+   "grow": null,
    "score": 88,
    "cat": "Vision",
-   "likes": 829
+   "likes": 831
   },
   {
    "name": "embeddinggemma-2",
@@ -421,7 +421,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Vision",
-   "likes": 2668
+   "likes": 2670
   },
   {
    "name": "drama-3",
@@ -443,7 +443,7 @@
    "grow": 0,
    "score": 85,
    "cat": "Infrastructure",
-   "likes": 1953
+   "likes": 1954
   }
  ],
  "free": [
@@ -790,6 +790,13 @@
    "kind": "News"
   },
   {
+   "t": "Anthropic’s Clark sees AI boosting US GDP",
+   "url": "https://www.manilatimes.net/2026/10/19/business/foreign-business/anthropics-clark-seesai-boosting-us-gdp/2448172",
+   "at": "2026-10-18T16:03:00Z",
+   "src": "The Manila Times",
+   "kind": "News"
+  },
+  {
    "t": "SUN: As AI use grows, many Maryland colleges are letting instructors set the rules",
    "url": "https://foxbaltimore.com/news/local/sun-as-ai-use-grows-many-maryland-colleges-are-letting-instructors-set-the-rules",
    "at": "2026-10-18T15:49:03Z",
@@ -844,13 +851,6 @@
    "at": "2026-10-18T14:00:00Z",
    "src": "Pittsburgh Tribune-Review",
    "kind": "News"
-  },
-  {
-   "t": "Broadcom: Market Misunderstanding Is Baffling, But Don't Be Fooled",
-   "url": "https://seekingalpha.com/article/4955057-broadcom-market-misunderstanding-is-baffling-but-dont-be-fooled",
-   "at": "2026-10-18T13:54:33Z",
-   "src": "Seeking Alpha",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -859,8 +859,8 @@
    "t": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
    "url": "https://news.ycombinator.com/item?id=50145337",
    "link": "https://arxiv.org/abs/2610.18861",
-   "up": 270,
-   "com": 153,
+   "up": 280,
+   "com": 155,
    "at": "2026-10-18T20:48:14.000Z"
   },
   {
@@ -868,7 +868,7 @@
    "t": "RepRapMicron",
    "url": "https://news.ycombinator.com/item?id=50141076",
    "link": "https://github.com/VikOlliver/RepRapMicron/wiki",
-   "up": 351,
+   "up": 352,
    "com": 56,
    "at": "2026-10-18T13:48:48.000Z"
   },
@@ -877,8 +877,8 @@
    "t": "Free Pascal compiler now supports dynamic packages",
    "url": "https://news.ycombinator.com/item?id=50144066",
    "link": "https://www.getlazarus.org/dynamic/",
-   "up": 123,
-   "com": 25,
+   "up": 130,
+   "com": 28,
    "at": "2026-10-18T18:48:04.000Z"
   },
   {
@@ -896,7 +896,7 @@
    "url": "https://news.ycombinator.com/item?id=50140769",
    "link": "https://legendofhyrule.com/",
    "up": 172,
-   "com": 102,
+   "com": 104,
    "at": "2026-10-18T13:06:54.000Z"
   },
   {
@@ -904,8 +904,8 @@
    "t": "If you don't run your own LLM proxy, how do you know whats going on?",
    "url": "https://news.ycombinator.com/item?id=50145507",
    "link": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
-   "up": 74,
-   "com": 54,
+   "up": 79,
+   "com": 58,
    "at": "2026-10-18T21:09:12.000Z"
   }
  ]
