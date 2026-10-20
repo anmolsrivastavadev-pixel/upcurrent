@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-20T09:30:59.658Z"
+  "updated": "2026-10-20T10:01:07.872Z"
  },
  "pulse": {
   "trending": 78,
   "accelerating": 0,
   "newModels": 12,
-  "discussions": 48,
-  "stars": 888
+  "discussions": 49,
+  "stars": 889
  },
  "rising": [
   {
@@ -21,10 +21,10 @@
    "src": "hf",
    "cat": "Vision",
    "score": 96,
-   "grow": 0,
+   "grow": 55,
    "desc": "Vision on Hugging Face · open source · ♥ 1.8K",
    "meta": [
-    "18K downloads",
+    "28K downloads",
     "Released 3 days ago"
    ],
    "at": "2026-10-17T02:40:38.000Z",
@@ -37,10 +37,10 @@
    "src": "hf",
    "cat": "Vision",
    "score": 92,
-   "grow": 0,
+   "grow": 12,
    "desc": "Vision on Hugging Face · open weights · ♥ 1K",
    "meta": [
-    "393K downloads",
+    "440K downloads",
     "Released 6 days ago"
    ],
    "at": "2026-10-14T12:00:13.000Z",
@@ -57,7 +57,7 @@
    "desc": "Git designed for AI agents.",
    "meta": [
     "★ 2,486",
-    "~513 in 24h",
+    "~511 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -73,8 +73,8 @@
    "grow": null,
    "desc": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
    "meta": [
-    "★ 1,702",
-    "~333 in 24h",
+    "★ 1,717",
+    "~335 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-15T06:52:46Z",
@@ -87,10 +87,10 @@
    "src": "hf",
    "cat": "Tools",
    "score": 87,
-   "grow": 0,
+   "grow": 14,
    "desc": "Model on Hugging Face · open weights · ♥ 790",
    "meta": [
-    "12K downloads",
+    "13K downloads",
     "Released 19 days ago"
    ],
    "at": "2026-10-01T04:34:57.000Z",
@@ -103,10 +103,10 @@
    "src": "hf",
    "cat": "Vision",
    "score": 86,
-   "grow": 0,
+   "grow": 3,
    "desc": "Vision on Hugging Face · open source · ♥ 2.7K",
    "meta": [
-    "168K downloads",
+    "172K downloads",
     "Released 36 days ago"
    ],
    "at": "2026-09-14T14:53:42.000Z",
@@ -119,10 +119,10 @@
    "src": "hf",
    "cat": "Infrastructure",
    "score": 85,
-   "grow": 0,
+   "grow": 5,
    "desc": "Model on Hugging Face · open source · ♥ 2K",
    "meta": [
-    "110K downloads",
+    "115K downloads",
     "Released 39 days ago"
    ],
    "at": "2026-09-11T05:00:16.000Z",
@@ -139,7 +139,7 @@
    "grow": null,
    "desc": "Memory-native evolution requires making memory an intrinsic capability of foundation models, enabling them to continuously accumulate and utilize information.",
    "meta": [
-    "▲ 117 upvotes",
+    "▲ 121 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-18T20:00:00.000Z",
@@ -155,7 +155,7 @@
    "grow": null,
    "desc": "Run AI agents on one Mac and use its windows on another",
    "meta": [
-    "▲ 356 votes",
+    "▲ 354 votes",
     "49 comments",
     "Launched yesterday"
    ],
@@ -168,10 +168,10 @@
    "src": "hf",
    "cat": "Infrastructure",
    "score": 83,
-   "grow": 0,
+   "grow": 23,
    "desc": "Model on Hugging Face · open weights · ♥ 592",
    "meta": [
-    "2.1K downloads",
+    "2.6K downloads",
     "Released 35 days ago"
    ],
    "at": "2026-09-15T19:23:19.000Z",
@@ -207,8 +207,8 @@
    "name": "git-ai",
    "url": "https://github.com/feder-cr/git-ai",
    "from": "GitHub",
-   "use": 513,
-   "useLabel": "~513 stars/day",
+   "use": 511,
+   "useLabel": "~511 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -218,8 +218,8 @@
    "name": "Qwen-Image-2.1-Uncensored-Quantized",
    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
    "from": "Hugging Face",
-   "use": 2739572,
-   "useLabel": "2.7M downloads",
+   "use": 2788283,
+   "useLabel": "2.8M downloads",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -238,6 +238,16 @@
   }
  ],
  "receipts": [
+  {
+   "name": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4",
+   "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4",
+   "kind": "downloads",
+   "first": "2026-10-18T13:01:03.792Z",
+   "firstV": 7599,
+   "m": 10000,
+   "at": "2026-10-20T10:01:07.872Z",
+   "lead": 45.001133333333335
+  },
   {
    "name": "omlahore/RemoveMacAI",
    "url": "https://github.com/omlahore/RemoveMacAI",
@@ -307,23 +317,13 @@
    "m": 100000,
    "at": "2026-10-18T09:01:02.233Z",
    "lead": 74.50202944444445
-  },
-  {
-   "name": "shader-effects-inc/shaders",
-   "url": "https://github.com/shader-effects-inc/shaders",
-   "kind": "stars",
-   "first": "2026-10-06T19:30:53.656Z",
-   "firstV": 931,
-   "m": 5000,
-   "at": "2026-10-17T18:48:30.636Z",
-   "lead": 263.29360555555553
   }
  ],
  "github": [
   {
    "repo": "feder-cr/git-ai",
    "stars": 2486,
-   "d24": 513,
+   "d24": 511,
    "est": true,
    "forks": 276,
    "contrib": null,
@@ -331,8 +331,8 @@
   },
   {
    "repo": "Leonxlnx/earshot",
-   "stars": 1702,
-   "d24": 333,
+   "stars": 1717,
+   "d24": 335,
    "est": true,
    "forks": 101,
    "contrib": null,
@@ -340,8 +340,8 @@
   },
   {
    "repo": "Caho1/open-claude-ui",
-   "stars": 1271,
-   "d24": 42,
+   "stars": 1273,
+   "d24": 43,
    "est": false,
    "forks": 265,
    "contrib": null,
@@ -354,30 +354,30 @@
    "org": "deepseek-ai",
    "lic": "Open source",
    "at": "2026-10-17T02:40:38.000Z",
-   "dl": 17924,
-   "grow": 0,
+   "dl": 27737,
+   "grow": 55,
    "score": 96,
    "cat": "Vision",
-   "likes": 1793
+   "likes": 1800
   },
   {
    "name": "flux-3-image-klein-comfy",
    "org": "black-forest-labs",
    "lic": "Open weights",
    "at": "2026-10-14T12:00:13.000Z",
-   "dl": 393062,
-   "grow": 0,
+   "dl": 439528,
+   "grow": 12,
    "score": 92,
    "cat": "Vision",
-   "likes": 1019
+   "likes": 1022
   },
   {
    "name": "drama-3",
    "org": "fishaudio",
    "lic": "Open weights",
    "at": "2026-10-01T04:34:57.000Z",
-   "dl": 11795,
-   "grow": 0,
+   "dl": 13495,
+   "grow": 14,
    "score": 87,
    "cat": "Tools",
    "likes": 790
@@ -387,8 +387,8 @@
    "org": "google",
    "lic": "Open source",
    "at": "2026-09-14T14:53:42.000Z",
-   "dl": 167750,
-   "grow": 0,
+   "dl": 172474,
+   "grow": 3,
    "score": 86,
    "cat": "Vision",
    "likes": 2736
@@ -398,8 +398,8 @@
    "org": "jialinyyzz",
    "lic": "Open source",
    "at": "2026-09-11T05:00:16.000Z",
-   "dl": 109937,
-   "grow": 0,
+   "dl": 115341,
+   "grow": 5,
    "score": 85,
    "cat": "Infrastructure",
    "likes": 2009
@@ -410,8 +410,8 @@
    "size": "816B",
    "lic": "Open weights",
    "at": "2026-09-15T19:23:19.000Z",
-   "dl": 2109,
-   "grow": 0,
+   "dl": 2592,
+   "grow": 23,
    "score": 83,
    "cat": "Infrastructure",
    "likes": 592
@@ -746,6 +746,20 @@
  },
  "headlines": [
   {
+   "t": "OpenAI says its new models show major performance leaps in low-resource legacy languages like COBOL, Fortran, and Visual Basic, used by banks and governments",
+   "url": "https://www.techmeme.com/261020/p5#a261020p5",
+   "at": "2026-10-20T09:50:04.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "The US sanctions MiraclePlus, a Chinese VC firm founded by ex-Microsoft executive Lu Qi, over alleged ties to Zhisuan, accused of stealing Google's AI secrets",
+   "url": "https://www.techmeme.com/261020/p4#a261020p4",
+   "at": "2026-10-20T09:40:02.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Leaked documents detail ECHOTRIBBLE, a nascent US Army Cyber Command program for agentic AI to autonomously spread across networks to find and eliminate targets",
    "url": "https://www.techmeme.com/261020/p2#a261020p2",
    "at": "2026-10-20T06:15:01.000Z",
@@ -816,6 +830,20 @@
    "kind": "News"
   },
   {
+   "t": "Ex-OpenAI engineer accused of bugging office stays in jail as prosecutors allege Saudi ties: ‘Once he leaves, there’s no getting him back’",
+   "url": "https://www.newsbreak.com/fortune-561435/4955372712093-ex-openai-engineer-accused-of-bugging-office-stays-in-jail-as-prosecutors-allege-saudi-ties-once-he-leaves-there-s-no-getting-him-back",
+   "at": "2026-10-19T21:51:44Z",
+   "src": "NewsBreak",
+   "kind": "News"
+  },
+  {
+   "t": "Tech Up as AI Credit Fears Subside - Tech Roundup",
+   "url": "https://www.marketscreener.com/news/tech-up-as-ai-credit-fears-subside-tech-roundup-ce785cdbdf8bf127",
+   "at": "2026-10-19T21:44:19Z",
+   "src": "MarketScreener",
+   "kind": "News"
+  },
+  {
    "t": "Percival AI can uncover unseen health issues in CT scans",
    "url": "https://medicalxpress.com/news/2026-10-percival-ai-uncover-unseen-health.html",
    "at": "2026-10-19T21:30:02Z",
@@ -828,34 +856,6 @@
    "at": "2026-10-19T21:14:12Z",
    "src": "Hartford Courant",
    "kind": "News"
-  },
-  {
-   "t": "Germany Wants to Lead the World in Industrial AI: How NVIDIA Will Help",
-   "url": "https://blogs.nvidia.com/blog/germany-wants-to-lead-the-world-in-industrial-ai-how-nvidia-will-help/",
-   "at": "2026-10-19T19:27:08.000Z",
-   "src": "NVIDIA",
-   "kind": "Lab blog"
-  },
-  {
-   "t": "The AI crash is coming SOONER than you think, warns former US financial regulator",
-   "url": "https://www.youtube.com/watch?v=7C9vYzzgrI0",
-   "at": "2026-10-19T17:38:17Z",
-   "src": "Channel 4 News",
-   "kind": "Video"
-  },
-  {
-   "t": "We need to stop disinformation in UK political adverts. Here’s a chance to do so | Letter",
-   "url": "https://www.theguardian.com/politics/2026/oct/19/we-need-to-stop-disinformation-in-uk-political-adverts-heres-a-chance-to-do-so",
-   "at": "2026-10-19T17:17:33Z",
-   "src": "The Guardian",
-   "kind": "News"
-  },
-  {
-   "t": "NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production",
-   "url": "https://blogs.nvidia.com/blog/media-agentic-security-european-public-service-broadcasting-global-content-production/",
-   "at": "2026-10-19T15:00:31.000Z",
-   "src": "NVIDIA",
-   "kind": "Lab blog"
   }
  ],
  "discussions": [
@@ -864,27 +864,36 @@
    "t": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
    "url": "https://news.ycombinator.com/item?id=50159341",
    "link": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
-   "up": 422,
-   "com": 114,
+   "up": 439,
+   "com": 126,
    "at": "2026-10-19T23:22:18.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Timestral: Mistral's time-series foundation models",
-   "url": "https://news.ycombinator.com/item?id=50150434",
-   "link": "https://mistral.ai/news/timestral/",
-   "up": 586,
-   "com": 111,
-   "at": "2026-10-19T09:59:32.000Z"
+   "t": "DeepSeek just open-sourced its inference engine",
+   "url": "https://news.ycombinator.com/item?id=50163277",
+   "link": "https://github.com/deepseek-ai/DeepInfer",
+   "up": 31,
+   "com": 3,
+   "at": "2026-10-20T09:08:54.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Ask HN: How to deal with shipping AI-written code you don't understand?",
    "url": "https://news.ycombinator.com/item?id=50151036",
    "link": "",
-   "up": 441,
-   "com": 586,
+   "up": 453,
+   "com": 599,
    "at": "2026-10-19T11:24:34.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "CERN and Mistral sign a statement of intent to establish a strategic partnership",
+   "url": "https://news.ycombinator.com/item?id=50153630",
+   "link": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
+   "up": 341,
+   "com": 58,
+   "at": "2026-10-19T15:28:24.000Z"
   },
   {
    "src": "Hacker News",
@@ -897,19 +906,10 @@
   },
   {
    "src": "Hacker News",
-   "t": "CERN and Mistral sign a statement of intent to establish a strategic partnership",
-   "url": "https://news.ycombinator.com/item?id=50153630",
-   "link": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
-   "up": 340,
-   "com": 58,
-   "at": "2026-10-19T15:28:24.000Z"
-  },
-  {
-   "src": "Hacker News",
    "t": "Mercury 3: Diffusion at scale",
    "url": "https://news.ycombinator.com/item?id=50155245",
    "link": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
-   "up": 246,
+   "up": 247,
    "com": 87,
    "at": "2026-10-19T17:27:11.000Z"
   }
