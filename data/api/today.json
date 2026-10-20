@@ -5,13 +5,13 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-20T07:30:48.999Z"
+  "updated": "2026-10-20T08:01:03.511Z"
  },
  "pulse": {
   "trending": 78,
   "accelerating": 0,
   "newModels": 10,
-  "discussions": 46,
+  "discussions": 51,
   "stars": 501
  },
  "rising": [
@@ -56,8 +56,8 @@
    "grow": 4,
    "desc": "Git designed for AI agents.",
    "meta": [
-    "★ 2,482",
-    "+129 in 24h",
+    "★ 2,483",
+    "+127 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -73,7 +73,7 @@
    "grow": null,
    "desc": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
    "meta": [
-    "★ 1,663",
+    "★ 1,672",
     "~331 in 24h",
     "Created 5 days ago"
    ],
@@ -139,7 +139,7 @@
    "grow": null,
    "desc": "Experience generated during deployment offers an opportunity for robots to improve policy reliability through learning from their own executions.",
    "meta": [
-    "▲ 85 upvotes",
+    "▲ 87 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-18T20:00:00.000Z",
@@ -155,7 +155,7 @@
    "grow": null,
    "desc": "Run AI agents on one Mac and use its windows on another",
    "meta": [
-    "▲ 353 votes",
+    "▲ 355 votes",
     "49 comments",
     "Launched yesterday"
    ],
@@ -181,28 +181,6 @@
  ],
  "breakouts": [],
  "hype": [
-  {
-   "name": "Qwen 3",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
-    {
-     "src": "Hacker News",
-     "t": "Show HN: Qwen3-4B with the AI writing tics trained out",
-     "url": "https://news.ycombinator.com/item?id=50151928"
-    },
-    {
-     "src": "DEV",
-     "t": "🔬 J'ai mappé les offres d'emploi public de l'OPT-NC avec le référentiel ESCO à l'aide d'embeddings et de Qwen3-32B-AWQ avec 2xT4 sur Kaggle",
-     "url": "https://dev.to/adriens/jai-mappe-les-offres-demploi-public-de-lopt-nc-avec-le-referentiel-esco-a-laide-dembeddings-5765"
-    }
-   ],
-   "buzz": 2,
-   "verdict": "Talk only, no public usage numbers"
-  },
   {
    "name": "Gemini 4",
    "url": null,
@@ -344,17 +322,17 @@
  "github": [
   {
    "repo": "Leonxlnx/earshot",
-   "stars": 1663,
+   "stars": 1672,
    "d24": 331,
    "est": true,
-   "forks": 99,
+   "forks": 100,
    "contrib": null,
    "score": 87
   },
   {
    "repo": "feder-cr/git-ai",
-   "stars": 2482,
-   "d24": 129,
+   "stars": 2483,
+   "d24": 127,
    "est": false,
    "forks": 275,
    "contrib": null,
@@ -362,8 +340,8 @@
   },
   {
    "repo": "Caho1/open-claude-ui",
-   "stars": 1267,
-   "d24": 41,
+   "stars": 1269,
+   "d24": 43,
    "est": false,
    "forks": 266,
    "contrib": null,
@@ -380,7 +358,7 @@
    "grow": 0,
    "score": 96,
    "cat": "Vision",
-   "likes": 1762
+   "likes": 1770
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -391,7 +369,7 @@
    "grow": 0,
    "score": 92,
    "cat": "Vision",
-   "likes": 1005
+   "likes": 1007
   },
   {
    "name": "drama-3",
@@ -436,7 +414,7 @@
    "grow": 0,
    "score": 83,
    "cat": "Infrastructure",
-   "likes": 2001
+   "likes": 2004
   }
  ],
  "free": [
@@ -838,6 +816,13 @@
    "kind": "News"
   },
   {
+   "t": "Questrade is offering some Canadian investors a way to buy stakes in OpenAI before its IPO",
+   "url": "https://www.theglobeandmail.com/investing/personal-finance/article-questrade-is-offering-some-canadian-investors-a-way-buy-stakes-in/",
+   "at": "2026-10-19T20:01:00Z",
+   "src": "The Globe and Mail",
+   "kind": "News"
+  },
+  {
    "t": "Sources: Nscale is in talks for a second deal with Anthropic worth ~$45B to deliver 460MW of computing power at its West Virginia campus using Vera Rubin chips",
    "url": "https://www.techmeme.com/261019/p41#a261019p41",
    "at": "2026-10-19T19:55:03.000Z",
@@ -845,38 +830,31 @@
    "kind": "News"
   },
   {
-   "t": "Nvidia CEO Urges German Manufacturers to Adopt AI, Saying Digital Tech Won't Replace Heavy Industry",
-   "url": "https://www.usnews.com/news/business/articles/2026-10-19/nvidia-ceo-urges-german-manufacturers-to-adopt-ai-saying-digital-tech-wont-replace-heavy-industry",
-   "at": "2026-10-19T19:28:00Z",
-   "src": "U.S. News & World Report",
+   "t": "OpenAI Engineer Accused of Spying on Executives Ordered to Remain in Custody",
+   "url": "https://www.wired.com/story/openai-engineer-accused-of-spying-on-executives-ordered-to-remain-in-custody/",
+   "at": "2026-10-19T19:49:17Z",
+   "src": "WIRED",
    "kind": "News"
   },
   {
-   "t": "Germany's Merz urges AI investment ahead of Nvidia deal",
-   "url": "https://www.marketscreener.com/news/germany-s-merz-urges-ai-investment-ahead-of-nvidia-deal-ce785cdbdb8cf527",
-   "at": "2026-10-19T19:27:18Z",
-   "src": "MarketScreener",
+   "t": "CPA Industry Offers AI Assurance Framework as Tech Fears Grow",
+   "url": "https://news.bloombergtax.com/daily-tax-report/cpa-industry-offers-ai-assurance-framework-as-tech-fears-grow",
+   "at": "2026-10-19T19:46:15Z",
+   "src": "Bloomberg Tax News",
    "kind": "News"
   },
   {
-   "t": "Germany Wants to Lead the World in Industrial AI: How NVIDIA Will Help",
-   "url": "https://blogs.nvidia.com/blog/germany-wants-to-lead-the-world-in-industrial-ai-how-nvidia-will-help/",
-   "at": "2026-10-19T19:27:08.000Z",
-   "src": "NVIDIA",
-   "kind": "Lab blog"
-  },
-  {
-   "t": "ServiceNow cuts San Diego sales jobs in third round of layoffs this year",
-   "url": "https://www.sandiegouniontribune.com/2026/10/19/servicenow-cuts-san-diego-sales-jobs-in-third-round-of-layoffs-this-year/",
-   "at": "2026-10-19T18:55:02Z",
-   "src": "San Diego Union-Tribune",
+   "t": "OpenAI Bugging Case: Arrested Ex-Engineer Had Ties To Saudi Royals, US Prosecutors Say",
+   "url": "https://www.news18.com/world/openai-bugging-case-arrested-ex-engineer-had-ties-to-saudi-royals-us-prosecutors-say-ws-l-10389420.html",
+   "at": "2026-10-19T19:42:39Z",
+   "src": "News18",
    "kind": "News"
   },
   {
-   "t": "US orders immediate removal of DeepSeek AI from federal systems over national security risks",
-   "url": "https://www.thenews.com.pk/latest/1420568-us-orders-immediate-removal-of-deepseek-ai-from-federal-systems-over-national-security-risks",
-   "at": "2026-10-19T18:50:00Z",
-   "src": "The News International",
+   "t": "Nvidia CEO urges German manufacturers to adopt AI",
+   "url": "https://www.bnnbloomberg.ca/business/company-news/2026/10/19/nvidia-ceo-urges-german-manufacturers-to-adopt-ai-saying-digital-tech-wont-replace-heavy-industry/",
+   "at": "2026-10-19T19:39:21Z",
+   "src": "Bnn Bloomberg",
    "kind": "News"
   }
  ],
@@ -886,8 +864,8 @@
    "t": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
    "url": "https://news.ycombinator.com/item?id=50159341",
    "link": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
-   "up": 326,
-   "com": 77,
+   "up": 353,
+   "com": 84,
    "at": "2026-10-19T23:22:18.000Z"
   },
   {
@@ -895,45 +873,45 @@
    "t": "Timestral: Mistral's time-series foundation models",
    "url": "https://news.ycombinator.com/item?id=50150434",
    "link": "https://mistral.ai/news/timestral/",
-   "up": 579,
-   "com": 108,
+   "up": 580,
+   "com": 109,
    "at": "2026-10-19T09:59:32.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "CERN and Mistral sign a statement of intent to establish a strategic partnership",
-   "url": "https://news.ycombinator.com/item?id=50153630",
-   "link": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
-   "up": 334,
-   "com": 57,
-   "at": "2026-10-19T15:28:24.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Android apps running native on macOS",
    "url": "https://news.ycombinator.com/item?id=50154624",
    "link": "https://github.com/kksimp/Mac.apk",
-   "up": 307,
-   "com": 164,
+   "up": 309,
+   "com": 166,
    "at": "2026-10-19T16:45:30.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "CERN and Mistral sign a statement of intent to establish a strategic partnership",
+   "url": "https://news.ycombinator.com/item?id=50153630",
+   "link": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
+   "up": 335,
+   "com": 58,
+   "at": "2026-10-19T15:28:24.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Ask HN: How to deal with shipping AI-written code you don't understand?",
    "url": "https://news.ycombinator.com/item?id=50151036",
    "link": "",
-   "up": 391,
-   "com": 538,
+   "up": 408,
+   "com": 547,
    "at": "2026-10-19T11:24:34.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Mercury 3: Diffusion at scale",
-   "url": "https://news.ycombinator.com/item?id=50155245",
-   "link": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
-   "up": 239,
-   "com": 85,
-   "at": "2026-10-19T17:27:11.000Z"
+   "t": "Vite+ an excellent toolchain for AI agent development",
+   "url": "https://news.ycombinator.com/item?id=50162198",
+   "link": "https://janmichalek.com/blog/vite-plus-agentni-vyvoj?lang=en",
+   "up": 23,
+   "com": 17,
+   "at": "2026-10-20T06:40:49.000Z"
   }
  ]
 }
