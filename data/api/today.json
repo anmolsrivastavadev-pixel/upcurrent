@@ -5,13 +5,13 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-20T08:30:59.980Z"
+  "updated": "2026-10-20T09:01:03.121Z"
  },
  "pulse": {
   "trending": 78,
   "accelerating": 0,
-  "newModels": 10,
-  "discussions": 53,
+  "newModels": 11,
+  "discussions": 50,
   "stars": 889
  },
  "rising": [
@@ -56,8 +56,8 @@
    "grow": null,
    "desc": "Git designed for AI agents.",
    "meta": [
-    "★ 2,484",
-    "~517 in 24h",
+    "★ 2,486",
+    "~515 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -73,8 +73,8 @@
    "grow": null,
    "desc": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
    "meta": [
-    "★ 1,679",
-    "~331 in 24h",
+    "★ 1,689",
+    "~332 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-15T06:52:46Z",
@@ -139,7 +139,7 @@
    "grow": null,
    "desc": "Memory-native evolution requires making memory an intrinsic capability of foundation models, enabling them to continuously accumulate and utilize information.",
    "meta": [
-    "▲ 109 upvotes",
+    "▲ 115 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-18T20:00:00.000Z",
@@ -155,7 +155,7 @@
    "grow": null,
    "desc": "Run AI agents on one Mac and use its windows on another",
    "meta": [
-    "▲ 354 votes",
+    "▲ 356 votes",
     "49 comments",
     "Launched yesterday"
    ],
@@ -207,8 +207,8 @@
    "name": "git-ai",
    "url": "https://github.com/feder-cr/git-ai",
    "from": "GitHub",
-   "use": 517,
-   "useLabel": "~517 stars/day",
+   "use": 515,
+   "useLabel": "~515 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -322,17 +322,17 @@
  "github": [
   {
    "repo": "feder-cr/git-ai",
-   "stars": 2484,
-   "d24": 517,
+   "stars": 2486,
+   "d24": 515,
    "est": true,
-   "forks": 275,
+   "forks": 276,
    "contrib": null,
    "score": 91
   },
   {
    "repo": "Leonxlnx/earshot",
-   "stars": 1679,
-   "d24": 331,
+   "stars": 1689,
+   "d24": 332,
    "est": true,
    "forks": 100,
    "contrib": null,
@@ -340,8 +340,8 @@
   },
   {
    "repo": "Caho1/open-claude-ui",
-   "stars": 1269,
-   "d24": 41,
+   "stars": 1270,
+   "d24": 42,
    "est": false,
    "forks": 265,
    "contrib": null,
@@ -358,7 +358,7 @@
    "grow": 0,
    "score": 96,
    "cat": "Vision",
-   "likes": 1775
+   "likes": 1782
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -369,7 +369,7 @@
    "grow": 0,
    "score": 92,
    "cat": "Vision",
-   "likes": 1010
+   "likes": 1015
   },
   {
    "name": "drama-3",
@@ -392,7 +392,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Vision",
-   "likes": 1072
+   "likes": 1073
   },
   {
    "name": "embeddinggemma-2",
@@ -414,7 +414,7 @@
    "grow": 0,
    "score": 83,
    "cat": "Infrastructure",
-   "likes": 2006
+   "likes": 2008
   }
  ],
  "free": [
@@ -816,6 +816,34 @@
    "kind": "News"
   },
   {
+   "t": "As AI dominates conversations, here are key terms to know",
+   "url": "https://www.cbsnews.com/news/ai-artificial-intelligence-terms-definitions/",
+   "at": "2026-10-19T20:53:44Z",
+   "src": "CBS News",
+   "kind": "News"
+  },
+  {
+   "t": "Ex-OpenAI engineer accused of spying had Saudi royal links: US prosecutors",
+   "url": "https://www.indiatoday.in/world/story/openai-recording-device-case-ex-engineer-saudi-royal-contacts-3021101-2026-10-20",
+   "at": "2026-10-19T20:50:26Z",
+   "src": "India Today",
+   "kind": "News"
+  },
+  {
+   "t": "Ex-OpenAI worker accused of bugging conference room planned to fly to Saudi Arabia, prosecutors say",
+   "url": "https://www.pbs.org/newshour/world/ex-openai-worker-accused-of-bugging-conference-room-planned-to-fly-to-saudi-arabia-prosecutors-say",
+   "at": "2026-10-19T20:35:15Z",
+   "src": "PBS News",
+   "kind": "News"
+  },
+  {
+   "t": "US Court Orders Fired Saudi Engineer To Remain In Custody In OpenAI Case",
+   "url": "https://www.ndtv.com/world-news/us-court-orders-fired-saudi-engineer-to-remain-in-custody-in-openai-case-12208529",
+   "at": "2026-10-19T20:33:52Z",
+   "src": "NDTV.com",
+   "kind": "News"
+  },
+  {
    "t": "Nvidia CEO urges German manufacturers to adopt AI, saying digital tech won't replace heavy industry",
    "url": "https://www.breitbart.com/news/nvidia-ceo-urges-german-manufacturers-to-adopt-ai-saying-digital-tech-wont-replace-heavy-industry/",
    "at": "2026-10-19T20:30:46Z",
@@ -828,34 +856,6 @@
    "at": "2026-10-19T20:21:53Z",
    "src": "Ars Technica",
    "kind": "News"
-  },
-  {
-   "t": "Judge Detains Fired OpenAI Engineer Over Concerns on Saudi Arabia Ties",
-   "url": "https://www.businessinsider.com/judge-detains-fired-openai-engineer-abdulrahman-alfozan-concerns-saudi-arabia-2026-10",
-   "at": "2026-10-19T20:05:58Z",
-   "src": "Business Insider",
-   "kind": "News"
-  },
-  {
-   "t": "Questrade is offering some Canadian investors a way to buy stakes in OpenAI before its IPO",
-   "url": "https://www.theglobeandmail.com/investing/personal-finance/article-questrade-is-offering-some-canadian-investors-a-way-buy-stakes-in/",
-   "at": "2026-10-19T20:01:00Z",
-   "src": "The Globe and Mail",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI Engineer Accused of Spying on Executives Ordered to Remain in Custody",
-   "url": "https://www.wired.com/story/openai-engineer-accused-of-spying-on-executives-ordered-to-remain-in-custody/",
-   "at": "2026-10-19T19:49:17Z",
-   "src": "WIRED",
-   "kind": "News"
-  },
-  {
-   "t": "CPA Industry Offers AI Assurance Framework as Tech Fears Grow",
-   "url": "https://news.bloombergtax.com/daily-tax-report/cpa-industry-offers-ai-assurance-framework-as-tech-fears-grow",
-   "at": "2026-10-19T19:46:15Z",
-   "src": "Bloomberg Tax News",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -864,8 +864,8 @@
    "t": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
    "url": "https://news.ycombinator.com/item?id=50159341",
    "link": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
-   "up": 384,
-   "com": 96,
+   "up": 401,
+   "com": 106,
    "at": "2026-10-19T23:22:18.000Z"
   },
   {
@@ -873,25 +873,17 @@
    "t": "Timestral: Mistral's time-series foundation models",
    "url": "https://news.ycombinator.com/item?id=50150434",
    "link": "https://mistral.ai/news/timestral/",
-   "up": 582,
-   "com": 109,
+   "up": 584,
+   "com": 111,
    "at": "2026-10-19T09:59:32.000Z"
-  },
-  {
-   "src": "Mastodon",
-   "t": "Procession of Fools \\\\ HAPPY BIRTHDAY, # OPENBSD ! # unix_surrealism # technomage # comic # analognowhere # phone_bad_book_good # mobilek # ai",
-   "url": "https://merveilles.town/@prahou/117472188059500061",
-   "up": 21,
-   "com": 1,
-   "at": "2026-10-20T08:02:18.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Ask HN: How to deal with shipping AI-written code you don't understand?",
    "url": "https://news.ycombinator.com/item?id=50151036",
    "link": "",
-   "up": 420,
-   "com": 558,
+   "up": 429,
+   "com": 571,
    "at": "2026-10-19T11:24:34.000Z"
   },
   {
@@ -899,8 +891,8 @@
    "t": "Android apps running native on macOS",
    "url": "https://news.ycombinator.com/item?id=50154624",
    "link": "https://github.com/kksimp/Mac.apk",
-   "up": 312,
-   "com": 168,
+   "up": 317,
+   "com": 169,
    "at": "2026-10-19T16:45:30.000Z"
   },
   {
@@ -908,9 +900,18 @@
    "t": "CERN and Mistral sign a statement of intent to establish a strategic partnership",
    "url": "https://news.ycombinator.com/item?id=50153630",
    "link": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
-   "up": 335,
+   "up": 337,
    "com": 58,
    "at": "2026-10-19T15:28:24.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Mercury 3: Diffusion at scale",
+   "url": "https://news.ycombinator.com/item?id=50155245",
+   "link": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
+   "up": 245,
+   "com": 87,
+   "at": "2026-10-19T17:27:11.000Z"
   }
  ]
 }
