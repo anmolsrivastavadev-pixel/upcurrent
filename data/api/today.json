@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-20T16:57:26.793Z"
+  "updated": "2026-10-20T17:01:07.329Z"
  },
  "pulse": {
   "trending": 80,
   "accelerating": 1,
   "newModels": 10,
-  "discussions": 40,
-  "stars": 2535
+  "discussions": 38,
+  "stars": 2361
  },
  "rising": [
   {
@@ -24,9 +24,9 @@
    "grow": null,
    "desc": "A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo.",
    "meta": [
-    "★ 1,233",
-    "~1,378 in 24h",
-    "Created 21h ago"
+    "★ 1,239",
+    "~1,381 in 24h",
+    "Created 22h ago"
    ],
    "at": "2026-10-19T19:29:01Z",
    "breakout": null,
@@ -74,7 +74,7 @@
    "desc": "Git designed for AI agents.",
    "meta": [
     "★ 2,534",
-    "+142 in 24h",
+    "+141 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -90,7 +90,7 @@
    "grow": null,
    "desc": "One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper.",
    "meta": [
-    "★ 1,143",
+    "★ 1,144",
     "~319 in 24h",
     "Created 4 days ago"
    ],
@@ -124,7 +124,7 @@
    "desc": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
    "meta": [
     "★ 1,862",
-    "+487 in 24h",
+    "+484 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-15T06:52:46Z",
@@ -153,7 +153,7 @@
    "src": "hf",
    "cat": "Vision",
    "score": 85,
-   "grow": null,
+   "grow": 0,
    "desc": "Vision on Hugging Face · open source · ♥ 2.8K",
    "meta": [
     "172K downloads",
@@ -225,8 +225,8 @@
    "name": "free-my-tv",
    "url": "https://github.com/simbasjungles/free-my-tv",
    "from": "GitHub",
-   "use": 1378,
-   "useLabel": "~1,378 stars/day",
+   "use": 1381,
+   "useLabel": "~1,381 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -340,8 +340,8 @@
  "github": [
   {
    "repo": "simbasjungles/free-my-tv",
-   "stars": 1233,
-   "d24": 1378,
+   "stars": 1239,
+   "d24": 1381,
    "est": true,
    "forks": 131,
    "contrib": null,
@@ -350,7 +350,7 @@
   {
    "repo": "Leonxlnx/earshot",
    "stars": 1862,
-   "d24": 487,
+   "d24": 484,
    "est": false,
    "forks": 107,
    "contrib": null,
@@ -358,7 +358,7 @@
   },
   {
    "repo": "aicodeking/leanrea",
-   "stars": 1143,
+   "stars": 1144,
    "d24": 319,
    "est": true,
    "forks": 172,
@@ -366,22 +366,22 @@
    "score": 87
   },
   {
-   "repo": "Caho1/open-claude-ui",
-   "stars": 1282,
-   "d24": 209,
-   "est": true,
-   "forks": 265,
-   "contrib": null,
-   "score": 76
-  },
-  {
    "repo": "feder-cr/git-ai",
    "stars": 2534,
-   "d24": 142,
+   "d24": 141,
    "est": false,
    "forks": 302,
    "contrib": null,
    "score": 90
+  },
+  {
+   "repo": "Caho1/open-claude-ui",
+   "stars": 1282,
+   "d24": 36,
+   "est": false,
+   "forks": 265,
+   "contrib": null,
+   "score": 76
   }
  ],
  "models": [
@@ -394,7 +394,7 @@
    "grow": 55,
    "score": 95,
    "cat": "Vision",
-   "likes": 1885
+   "likes": 1886
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -436,10 +436,10 @@
    "lic": "Open source",
    "at": "2026-09-14T14:53:42.000Z",
    "dl": 172474,
-   "grow": null,
+   "grow": 0,
    "score": 85,
    "cat": "Vision",
-   "likes": 2752
+   "likes": 2753
   },
   {
    "name": "flux-3-image-klein",
@@ -858,18 +858,18 @@
    "kind": "News"
   },
   {
+   "t": "Ex-OpenAI Engineer Charged With Bugging Office Allegedly Had Saudi Backing, Say US Prosecutors",
+   "url": "https://www.freepressjournal.in/tech/ex-openai-engineer-charged-with-bugging-office-allegedly-had-saudi-backing-say-us-prosecutors",
+   "at": "2026-10-20T05:00:46Z",
+   "src": "Free Press Journal",
+   "kind": "News"
+  },
+  {
    "t": "Don’t be fooled. The AI that was supposed to save us time is doing just the opposite | Gaby Hinsliff",
    "url": "https://www.theguardian.com/commentisfree/2026/oct/20/ai-supposed-to-save-time-opposite-government-uk",
    "at": "2026-10-20T05:00:17Z",
    "src": "The Guardian",
    "kind": "News"
-  },
-  {
-   "t": "Why AI could overwhelm Britain's public services",
-   "url": "https://www.youtube.com/watch?v=N_0Q2jBV0ns",
-   "at": "2026-10-20T05:00:14Z",
-   "src": "Sky News",
-   "kind": "Video"
   }
  ],
  "discussions": [
@@ -878,8 +878,8 @@
    "t": "DeepSeek just open-sourced its inference engine",
    "url": "https://news.ycombinator.com/item?id=50163277",
    "link": "https://github.com/deepseek-ai/DeepInfer",
-   "up": 1749,
-   "com": 631,
+   "up": 1759,
+   "com": 637,
    "at": "2026-10-20T09:08:54.000Z"
   },
   {
@@ -887,8 +887,8 @@
    "t": "Voxtral 3",
    "url": "https://news.ycombinator.com/item?id=50168396",
    "link": "https://mistral.ai/news/voxtral-3/",
-   "up": 80,
-   "com": 17,
+   "up": 84,
+   "com": 18,
    "at": "2026-10-20T16:02:07.000Z"
   },
   {
@@ -905,8 +905,8 @@
    "t": "Publish fake stats, get cited in LLMs",
    "url": "https://news.ycombinator.com/item?id=50165801",
    "link": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
-   "up": 173,
-   "com": 99,
+   "up": 177,
+   "com": 100,
    "at": "2026-10-20T13:06:22.000Z"
   },
   {
@@ -914,8 +914,8 @@
    "t": "How I got over 300 Tor exit nodes removed",
    "url": "https://news.ycombinator.com/item?id=50166257",
    "link": "https://kaba.cx/posts/20261020_Tor/",
-   "up": 136,
-   "com": 34,
+   "up": 137,
+   "com": 35,
    "at": "2026-10-20T13:39:24.000Z"
   },
   {
@@ -924,7 +924,7 @@
    "url": "https://news.ycombinator.com/item?id=50159341",
    "link": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
    "up": 676,
-   "com": 192,
+   "com": 195,
    "at": "2026-10-19T23:22:18.000Z"
   }
  ]
