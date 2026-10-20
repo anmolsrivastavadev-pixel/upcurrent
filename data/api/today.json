@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-20T13:01:05.354Z"
+  "updated": "2026-10-20T13:30:57.277Z"
  },
  "pulse": {
-  "trending": 79,
+  "trending": 80,
   "accelerating": 0,
   "newModels": 10,
   "discussions": 45,
-  "stars": 1559
+  "stars": 2078
  },
  "rising": [
   {
@@ -30,6 +30,23 @@
    "at": "2026-10-17T02:40:38.000Z",
    "breakout": null,
    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+  },
+  {
+   "name": "huashu-motion",
+   "owner": "alchaincyf",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 94,
+   "grow": null,
+   "desc": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
+   "meta": [
+    "★ 1,099",
+    "~536 in 24h",
+    "Created 2 days ago"
+   ],
+   "at": "2026-10-18T12:19:27Z",
+   "breakout": null,
+   "url": "https://github.com/alchaincyf/huashu-motion"
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -52,12 +69,12 @@
    "owner": "feder-cr",
    "src": "gh",
    "cat": "Agents",
-   "score": 91,
+   "score": 90,
    "grow": null,
    "desc": "Git designed for AI agents.",
    "meta": [
-    "★ 2,544",
-    "~510 in 24h",
+    "★ 2,574",
+    "~513 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -69,34 +86,17 @@
    "owner": "aicodeking",
    "src": "gh",
    "cat": "Agents",
-   "score": 88,
+   "score": 87,
    "grow": null,
    "desc": "One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper.",
    "meta": [
-    "★ 1,110",
-    "~324 in 24h",
+    "★ 1,120",
+    "~325 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-17T02:53:24Z",
    "breakout": null,
    "url": "https://github.com/aicodeking/leanrea"
-  },
-  {
-   "name": "earshot",
-   "owner": "Leonxlnx",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 87,
-   "grow": 9,
-   "desc": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
-   "meta": [
-    "★ 1,789",
-    "+511 in 24h",
-    "Created 5 days ago"
-   ],
-   "at": "2026-10-15T06:52:46Z",
-   "breakout": null,
-   "url": "https://github.com/Leonxlnx/earshot"
   },
   {
    "name": "drama-3",
@@ -113,6 +113,23 @@
    "at": "2026-10-01T04:34:57.000Z",
    "breakout": null,
    "url": "https://huggingface.co/fishaudio/drama-3"
+  },
+  {
+   "name": "earshot",
+   "owner": "Leonxlnx",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 86,
+   "grow": 9,
+   "desc": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
+   "meta": [
+    "★ 1,793",
+    "+490 in 24h",
+    "Created 5 days ago"
+   ],
+   "at": "2026-10-15T06:52:46Z",
+   "breakout": null,
+   "url": "https://github.com/Leonxlnx/earshot"
   },
   {
    "name": "embeddinggemma-2",
@@ -156,27 +173,10 @@
    "grow": null,
    "desc": "Memory-native evolution requires making memory an intrinsic capability of foundation models, enabling them to continuously accumulate and utilize information.",
    "meta": [
-    "▲ 130 upvotes",
+    "▲ 132 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-18T20:00:00.000Z",
-   "breakout": null
-  },
-  {
-   "name": "Beam.win",
-   "owner": "Product Hunt",
-   "src": "ph",
-   "url": "https://www.producthunt.com/products/beam-win?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29",
-   "cat": "Agents",
-   "score": 85,
-   "grow": null,
-   "desc": "Run AI agents on one Mac and use its windows on another",
-   "meta": [
-    "▲ 355 votes",
-    "49 comments",
-    "Launched yesterday"
-   ],
-   "at": "2026-10-19T07:01:00Z",
    "breakout": null
   }
  ],
@@ -222,11 +222,11 @@
    "verdict": "The hype matches real use"
   },
   {
-   "name": "earshot",
-   "url": "https://github.com/Leonxlnx/earshot",
+   "name": "huashu-motion",
+   "url": "https://github.com/alchaincyf/huashu-motion",
    "from": "GitHub",
-   "use": 511,
-   "useLabel": "+511 stars/day",
+   "use": 536,
+   "useLabel": "~536 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -339,40 +339,49 @@
  ],
  "github": [
   {
+   "repo": "alchaincyf/huashu-motion",
+   "stars": 1099,
+   "d24": 536,
+   "est": true,
+   "forks": 114,
+   "contrib": null,
+   "score": 94
+  },
+  {
+   "repo": "feder-cr/git-ai",
+   "stars": 2574,
+   "d24": 513,
+   "est": true,
+   "forks": 353,
+   "contrib": null,
+   "score": 90
+  },
+  {
    "repo": "Leonxlnx/earshot",
-   "stars": 1789,
-   "d24": 511,
+   "stars": 1793,
+   "d24": 490,
    "est": false,
    "forks": 103,
+   "contrib": null,
+   "score": 86
+  },
+  {
+   "repo": "aicodeking/leanrea",
+   "stars": 1120,
+   "d24": 325,
+   "est": true,
+   "forks": 167,
    "contrib": null,
    "score": 87
   },
   {
-   "repo": "feder-cr/git-ai",
-   "stars": 2544,
-   "d24": 510,
-   "est": true,
-   "forks": 328,
-   "contrib": null,
-   "score": 91
-  },
-  {
-   "repo": "aicodeking/leanrea",
-   "stars": 1110,
-   "d24": 324,
-   "est": true,
-   "forks": 166,
-   "contrib": null,
-   "score": 88
-  },
-  {
    "repo": "Caho1/open-claude-ui",
-   "stars": 1274,
+   "stars": 1276,
    "d24": 214,
    "est": true,
    "forks": 264,
    "contrib": null,
-   "score": 77
+   "score": 76
   }
  ],
  "models": [
@@ -385,7 +394,7 @@
    "grow": 55,
    "score": 96,
    "cat": "Vision",
-   "likes": 1838
+   "likes": 1846
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -396,7 +405,7 @@
    "grow": 12,
    "score": 92,
    "cat": "Vision",
-   "likes": 1034
+   "likes": 1037
   },
   {
    "name": "drama-3",
@@ -418,7 +427,7 @@
    "grow": null,
    "score": 86,
    "cat": "Vision",
-   "likes": 2742
+   "likes": 2744
   },
   {
    "name": "humanizer",
@@ -429,7 +438,7 @@
    "grow": null,
    "score": 85,
    "cat": "Infrastructure",
-   "likes": 2013
+   "likes": 2014
   },
   {
    "name": "flux-3-image-klein",
@@ -746,17 +755,23 @@
  ],
  "freeChanges": {
   "since": "2026-10-01T17:48:04.617Z",
-  "events": [
-   {
-    "type": "removed",
-    "name": "space-bunny",
-    "prov": "OpenCode Zen",
-    "url": null,
-    "at": "2026-10-19T13:01:12.345Z"
-   }
-  ]
+  "events": []
  },
  "headlines": [
+  {
+   "t": "Arda, which develops AI software and agents to accelerate assembly line programming and manufacturing automation, raised $230M at a $1.5B valuation",
+   "url": "https://www.techmeme.com/261020/p23#a261020p23",
+   "at": "2026-10-20T13:25:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Eka Robotics, which is developing a \"vision-force-action\" architecture for its physical AI models, raised a $150M Series A at a $1.45B post-money valuation",
+   "url": "https://www.techmeme.com/261020/p22#a261020p22",
+   "at": "2026-10-20T13:15:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
   {
    "t": "Salesforce agrees to acquire AI-powered marketing platform Braze for nearly $5.7B in enterprise value, paying $47.50 per share, set to close from February 2027",
    "url": "https://www.techmeme.com/261020/p20#a261020p20",
@@ -793,13 +808,6 @@
    "kind": "News"
   },
   {
-   "t": "Amazon pledges to spend €16B+ in Germany in 2027 on AWS and AI data centers, its Leo satellite program, Prime Video media production, and a Berlin robotics lab",
-   "url": "https://www.techmeme.com/261020/p7#a261020p7",
-   "at": "2026-10-20T10:10:02.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Hollywood AI-listers: is the technology ready to rival flesh-and-blood film stars?",
    "url": "https://www.theguardian.com/film/2026/oct/20/ai-actors-val-kilmer-as-deep-as-the-grave-tilly-norwood",
    "at": "2026-10-20T06:00:18Z",
@@ -814,13 +822,6 @@
    "kind": "News"
   },
   {
-   "t": "Why AI could overwhelm Britain's public services",
-   "url": "https://www.youtube.com/watch?v=N_0Q2jBV0ns",
-   "at": "2026-10-20T05:00:14Z",
-   "src": "Sky News",
-   "kind": "Video"
-  },
-  {
    "t": "Spain-Based Startups Advance Regional Innovation With Barcelona Supercomputing Center",
    "url": "https://blogs.nvidia.com/blog/spain-startups-barcelona-supercomputing-center/",
    "at": "2026-10-20T05:00:00.000Z",
@@ -832,6 +833,20 @@
    "url": "https://www.theguardian.com/business/2026/oct/20/ai-stock-market-boom-beginning-of-the-end-imf-wallstreet-nasdaq",
    "at": "2026-10-20T02:29:19Z",
    "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "World Bank Launches First Digital Strategy: AI, Affordable Internet to Create 1.2 Billion Jobs",
+   "url": "https://www.lokmattimes.com/international/world-bank-launches-first-digital-strategy-ai-affordable-internet-to-create-12-billion-jobs/",
+   "at": "2026-10-20T01:03:59Z",
+   "src": "Lokmat Times",
+   "kind": "News"
+  },
+  {
+   "t": "'Catastrophic': watchdog warns of risks from untamed AI",
+   "url": "https://www.canberratimes.com.au/story/9371506/catastrophic-watchdog-warns-of-risks-from-untamed-ai/",
+   "at": "2026-10-20T01:02:28Z",
+   "src": "The Canberra Times",
    "kind": "News"
   },
   {
@@ -854,20 +869,6 @@
    "at": "2026-10-20T00:21:00Z",
    "src": "The Star",
    "kind": "News"
-  },
-  {
-   "t": "Globe at a glance: From Trump’s readiness to meet Putin and Xi to France’s curfews after protest violence",
-   "url": "https://www.firstpost.com/world/globe-at-a-glance-from-trumps-readiness-to-meet-putin-and-xi-to-frances-curfews-after-protest-violence-14053968.html",
-   "at": "2026-10-20T00:15:24Z",
-   "src": "Firstpost",
-   "kind": "News"
-  },
-  {
-   "t": "Sunlight AI launches with $17.4M in seed funding to help independent physicians cut administrative costs",
-   "url": "https://techstartups.com/2026/10/19/sunlight-ai-launches-with-17-4m-in-seed-funding-to-help-independent-physicians-cut-administrative-costs/",
-   "at": "2026-10-20T00:13:25Z",
-   "src": "TechStartups.com",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -876,8 +877,8 @@
    "t": "DeepSeek just open-sourced its inference engine",
    "url": "https://news.ycombinator.com/item?id=50163277",
    "link": "https://github.com/deepseek-ai/DeepInfer",
-   "up": 838,
-   "com": 281,
+   "up": 966,
+   "com": 333,
    "at": "2026-10-20T09:08:54.000Z"
   },
   {
@@ -885,8 +886,8 @@
    "t": "Google cloud outage takes down banks",
    "url": "https://news.ycombinator.com/item?id=50163961",
    "link": "https://www.neowin.net/news/google-cloud-outage-takes-down-hsbc-revolut-bank-of-scotland-llyods-equifax-more/",
-   "up": 109,
-   "com": 42,
+   "up": 131,
+   "com": 54,
    "at": "2026-10-20T10:26:02.000Z"
   },
   {
@@ -894,8 +895,8 @@
    "t": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
    "url": "https://news.ycombinator.com/item?id=50159341",
    "link": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
-   "up": 559,
-   "com": 158,
+   "up": 582,
+   "com": 163,
    "at": "2026-10-19T23:22:18.000Z"
   },
   {
@@ -903,7 +904,7 @@
    "t": "MicroG: Free-libre re-implementation of Google's proprietary Android user space",
    "url": "https://news.ycombinator.com/item?id=50162177",
    "link": "https://github.com/microg/GmsCore/wiki",
-   "up": 168,
+   "up": 190,
    "com": 18,
    "at": "2026-10-20T06:37:07.000Z"
   },
@@ -912,18 +913,18 @@
    "t": "DeepSeek banned from U.S. federal civilian agencies under new DHS order",
    "url": "https://news.ycombinator.com/item?id=50154244",
    "link": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/",
-   "up": 357,
-   "com": 315,
+   "up": 383,
+   "com": 326,
    "at": "2026-10-19T16:16:46.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "There is no official XScreenSaver GitHub repository",
-   "url": "https://news.ycombinator.com/item?id=50163142",
-   "link": "https://github.com/xscreensaver-official/xscreensaver",
-   "up": 69,
-   "com": 48,
-   "at": "2026-10-20T08:51:31.000Z"
+   "t": "Android apps running native on macOS",
+   "url": "https://news.ycombinator.com/item?id=50154624",
+   "link": "https://github.com/kksimp/Mac.apk",
+   "up": 333,
+   "com": 180,
+   "at": "2026-10-19T16:45:30.000Z"
   }
  ]
 }
