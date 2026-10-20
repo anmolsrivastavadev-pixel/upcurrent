@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-20T08:01:03.511Z"
+  "updated": "2026-10-20T08:30:59.980Z"
  },
  "pulse": {
   "trending": 78,
   "accelerating": 0,
   "newModels": 10,
-  "discussions": 51,
-  "stars": 501
+  "discussions": 53,
+  "stars": 889
  },
  "rising": [
   {
@@ -53,11 +53,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 91,
-   "grow": 4,
+   "grow": null,
    "desc": "Git designed for AI agents.",
    "meta": [
-    "★ 2,483",
-    "+127 in 24h",
+    "★ 2,484",
+    "~517 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -73,7 +73,7 @@
    "grow": null,
    "desc": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
    "meta": [
-    "★ 1,672",
+    "★ 1,679",
     "~331 in 24h",
     "Created 5 days ago"
    ],
@@ -87,7 +87,7 @@
    "src": "hf",
    "cat": "Tools",
    "score": 87,
-   "grow": null,
+   "grow": 0,
    "desc": "Model on Hugging Face · open weights · ♥ 787",
    "meta": [
     "12K downloads",
@@ -130,16 +130,16 @@
    "url": "https://huggingface.co/google/embeddinggemma-2"
   },
   {
-   "name": "Learning from Fleet Experience: A Collective Learning Paradigm for Robots",
+   "name": "MemT-1.0: Towards Memory-Native Evolution",
    "owner": "Paper",
    "src": "paper",
-   "url": "https://huggingface.co/papers/2610.25736",
+   "url": "https://huggingface.co/papers/2610.26825",
    "cat": "Research",
    "score": 85,
    "grow": null,
-   "desc": "Experience generated during deployment offers an opportunity for robots to improve policy reliability through learning from their own executions.",
+   "desc": "Memory-native evolution requires making memory an intrinsic capability of foundation models, enabling them to continuously accumulate and utilize information.",
    "meta": [
-    "▲ 87 upvotes",
+    "▲ 109 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-18T20:00:00.000Z",
@@ -155,7 +155,7 @@
    "grow": null,
    "desc": "Run AI agents on one Mac and use its windows on another",
    "meta": [
-    "▲ 355 votes",
+    "▲ 354 votes",
     "49 comments",
     "Launched yesterday"
    ],
@@ -204,11 +204,11 @@
    "verdict": "Talk only, no public usage numbers"
   },
   {
-   "name": "earshot",
-   "url": "https://github.com/Leonxlnx/earshot",
+   "name": "git-ai",
+   "url": "https://github.com/feder-cr/git-ai",
    "from": "GitHub",
-   "use": 331,
-   "useLabel": "~331 stars/day",
+   "use": 517,
+   "useLabel": "~517 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -321,8 +321,17 @@
  ],
  "github": [
   {
+   "repo": "feder-cr/git-ai",
+   "stars": 2484,
+   "d24": 517,
+   "est": true,
+   "forks": 275,
+   "contrib": null,
+   "score": 91
+  },
+  {
    "repo": "Leonxlnx/earshot",
-   "stars": 1672,
+   "stars": 1679,
    "d24": 331,
    "est": true,
    "forks": 100,
@@ -330,20 +339,11 @@
    "score": 87
   },
   {
-   "repo": "feder-cr/git-ai",
-   "stars": 2483,
-   "d24": 127,
-   "est": false,
-   "forks": 275,
-   "contrib": null,
-   "score": 91
-  },
-  {
    "repo": "Caho1/open-claude-ui",
    "stars": 1269,
-   "d24": 43,
+   "d24": 41,
    "est": false,
-   "forks": 266,
+   "forks": 265,
    "contrib": null,
    "score": 79
   }
@@ -358,7 +358,7 @@
    "grow": 0,
    "score": 96,
    "cat": "Vision",
-   "likes": 1770
+   "likes": 1775
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -369,7 +369,7 @@
    "grow": 0,
    "score": 92,
    "cat": "Vision",
-   "likes": 1007
+   "likes": 1010
   },
   {
    "name": "drama-3",
@@ -377,7 +377,7 @@
    "lic": "Open weights",
    "at": "2026-10-01T04:34:57.000Z",
    "dl": 11795,
-   "grow": null,
+   "grow": 0,
    "score": 87,
    "cat": "Tools",
    "likes": 787
@@ -403,7 +403,7 @@
    "grow": 0,
    "score": 85,
    "cat": "Vision",
-   "likes": 2735
+   "likes": 2736
   },
   {
    "name": "humanizer",
@@ -414,7 +414,7 @@
    "grow": 0,
    "score": 83,
    "cat": "Infrastructure",
-   "likes": 2004
+   "likes": 2006
   }
  ],
  "free": [
@@ -781,14 +781,14 @@
    "kind": "News"
   },
   {
-   "t": "Inception launches Mercury 3, a diffusion LLM it claims tops GPT-6 Luna, Claude Haiku 5.5, and GLM-5.3 Flash on agentic benchmarks while being 4x to 8x faster",
+   "t": "Inception debuts Mercury 3, a diffusion LLM that it says tops GPT-6 Luna, Claude Haiku 5.5, and GLM-5.3 Flash on agentic benchmarks while being 4x to 8x faster",
    "url": "https://www.techmeme.com/261019/p51#a261019p51",
    "at": "2026-10-20T01:45:01.000Z",
    "src": "Techmeme",
    "kind": "News"
   },
   {
-   "t": "Sources: OpenAI is racing to secure investor commitments before Anthropic's expected IPO in mid-Nov. and aims to raise ~$30B; the round could value it at $1.4T+",
+   "t": "Sources: OpenAI is racing to secure investor commitments before Anthropic's planned IPO in mid-November, aiming to raise ~$30B; the round may value it at $1.4T+",
    "url": "https://www.techmeme.com/261019/p49#a261019p49",
    "at": "2026-10-19T23:38:29.000Z",
    "src": "Techmeme",
@@ -816,17 +816,31 @@
    "kind": "News"
   },
   {
+   "t": "Nvidia CEO urges German manufacturers to adopt AI, saying digital tech won't replace heavy industry",
+   "url": "https://www.breitbart.com/news/nvidia-ceo-urges-german-manufacturers-to-adopt-ai-saying-digital-tech-wont-replace-heavy-industry/",
+   "at": "2026-10-19T20:30:46Z",
+   "src": "Breitbart News Network",
+   "kind": "News"
+  },
+  {
+   "t": "Accused OpenAI spy had folder called “Saudi Gov Docs,” FBI says",
+   "url": "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/",
+   "at": "2026-10-19T20:21:53Z",
+   "src": "Ars Technica",
+   "kind": "News"
+  },
+  {
+   "t": "Judge Detains Fired OpenAI Engineer Over Concerns on Saudi Arabia Ties",
+   "url": "https://www.businessinsider.com/judge-detains-fired-openai-engineer-abdulrahman-alfozan-concerns-saudi-arabia-2026-10",
+   "at": "2026-10-19T20:05:58Z",
+   "src": "Business Insider",
+   "kind": "News"
+  },
+  {
    "t": "Questrade is offering some Canadian investors a way to buy stakes in OpenAI before its IPO",
    "url": "https://www.theglobeandmail.com/investing/personal-finance/article-questrade-is-offering-some-canadian-investors-a-way-buy-stakes-in/",
    "at": "2026-10-19T20:01:00Z",
    "src": "The Globe and Mail",
-   "kind": "News"
-  },
-  {
-   "t": "Sources: Nscale is in talks for a second deal with Anthropic worth ~$45B to deliver 460MW of computing power at its West Virginia campus using Vera Rubin chips",
-   "url": "https://www.techmeme.com/261019/p41#a261019p41",
-   "at": "2026-10-19T19:55:03.000Z",
-   "src": "Techmeme",
    "kind": "News"
   },
   {
@@ -842,20 +856,6 @@
    "at": "2026-10-19T19:46:15Z",
    "src": "Bloomberg Tax News",
    "kind": "News"
-  },
-  {
-   "t": "OpenAI Bugging Case: Arrested Ex-Engineer Had Ties To Saudi Royals, US Prosecutors Say",
-   "url": "https://www.news18.com/world/openai-bugging-case-arrested-ex-engineer-had-ties-to-saudi-royals-us-prosecutors-say-ws-l-10389420.html",
-   "at": "2026-10-19T19:42:39Z",
-   "src": "News18",
-   "kind": "News"
-  },
-  {
-   "t": "Nvidia CEO urges German manufacturers to adopt AI",
-   "url": "https://www.bnnbloomberg.ca/business/company-news/2026/10/19/nvidia-ceo-urges-german-manufacturers-to-adopt-ai-saying-digital-tech-wont-replace-heavy-industry/",
-   "at": "2026-10-19T19:39:21Z",
-   "src": "Bnn Bloomberg",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -864,8 +864,8 @@
    "t": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
    "url": "https://news.ycombinator.com/item?id=50159341",
    "link": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
-   "up": 353,
-   "com": 84,
+   "up": 384,
+   "com": 96,
    "at": "2026-10-19T23:22:18.000Z"
   },
   {
@@ -873,17 +873,34 @@
    "t": "Timestral: Mistral's time-series foundation models",
    "url": "https://news.ycombinator.com/item?id=50150434",
    "link": "https://mistral.ai/news/timestral/",
-   "up": 580,
+   "up": 582,
    "com": 109,
    "at": "2026-10-19T09:59:32.000Z"
+  },
+  {
+   "src": "Mastodon",
+   "t": "Procession of Fools \\\\ HAPPY BIRTHDAY, # OPENBSD ! # unix_surrealism # technomage # comic # analognowhere # phone_bad_book_good # mobilek # ai",
+   "url": "https://merveilles.town/@prahou/117472188059500061",
+   "up": 21,
+   "com": 1,
+   "at": "2026-10-20T08:02:18.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Ask HN: How to deal with shipping AI-written code you don't understand?",
+   "url": "https://news.ycombinator.com/item?id=50151036",
+   "link": "",
+   "up": 420,
+   "com": 558,
+   "at": "2026-10-19T11:24:34.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Android apps running native on macOS",
    "url": "https://news.ycombinator.com/item?id=50154624",
    "link": "https://github.com/kksimp/Mac.apk",
-   "up": 309,
-   "com": 166,
+   "up": 312,
+   "com": 168,
    "at": "2026-10-19T16:45:30.000Z"
   },
   {
@@ -894,24 +911,6 @@
    "up": 335,
    "com": 58,
    "at": "2026-10-19T15:28:24.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Ask HN: How to deal with shipping AI-written code you don't understand?",
-   "url": "https://news.ycombinator.com/item?id=50151036",
-   "link": "",
-   "up": 408,
-   "com": 547,
-   "at": "2026-10-19T11:24:34.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Vite+ an excellent toolchain for AI agent development",
-   "url": "https://news.ycombinator.com/item?id=50162198",
-   "link": "https://janmichalek.com/blog/vite-plus-agentni-vyvoj?lang=en",
-   "up": 23,
-   "com": 17,
-   "at": "2026-10-20T06:40:49.000Z"
   }
  ]
 }
