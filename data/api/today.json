@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-20T06:34:13.855Z"
+  "updated": "2026-10-20T07:01:04.215Z"
  },
  "pulse": {
   "trending": 78,
   "accelerating": 0,
   "newModels": 10,
   "discussions": 45,
-  "stars": 502
+  "stars": 500
  },
  "rising": [
   {
@@ -37,8 +37,8 @@
    "src": "hf",
    "cat": "Vision",
    "score": 92,
-   "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 996",
+   "grow": 0,
+   "desc": "Vision on Hugging Face · open weights · ♥ 1K",
    "meta": [
     "393K downloads",
     "Released 6 days ago"
@@ -56,8 +56,8 @@
    "grow": 4,
    "desc": "Git designed for AI agents.",
    "meta": [
-    "★ 2,478",
-    "+130 in 24h",
+    "★ 2,481",
+    "+131 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -73,7 +73,7 @@
    "grow": null,
    "desc": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
    "meta": [
-    "★ 1,647",
+    "★ 1,650",
     "~330 in 24h",
     "Created 5 days ago"
    ],
@@ -88,7 +88,7 @@
    "cat": "Tools",
    "score": 87,
    "grow": null,
-   "desc": "Model on Hugging Face · open weights · ♥ 784",
+   "desc": "Model on Hugging Face · open weights · ♥ 787",
    "meta": [
     "12K downloads",
     "Released 19 days ago"
@@ -139,27 +139,27 @@
    "grow": null,
    "desc": "Experience generated during deployment offers an opportunity for robots to improve policy reliability through learning from their own executions.",
    "meta": [
-    "▲ 82 upvotes",
+    "▲ 84 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-18T20:00:00.000Z",
    "breakout": null
   },
   {
-   "name": "Inbox Zero",
+   "name": "Beam.win",
    "owner": "Product Hunt",
    "src": "ph",
-   "url": "https://www.producthunt.com/products/inbox-zero-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29",
-   "cat": "Tools",
+   "url": "https://www.producthunt.com/products/beam-win?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29",
+   "cat": "Agents",
    "score": 85,
    "grow": null,
-   "desc": "Open-source Superhuman alternative",
+   "desc": "Run AI agents on one Mac and use its windows on another",
    "meta": [
-    "▲ 361 votes",
-    "30 comments",
-    "Launched 2 days ago"
+    "▲ 353 votes",
+    "49 comments",
+    "Launched yesterday"
    ],
-   "at": "2026-10-18T07:01:00Z",
+   "at": "2026-10-19T07:01:00Z",
    "breakout": null
   },
   {
@@ -344,17 +344,17 @@
  "github": [
   {
    "repo": "Leonxlnx/earshot",
-   "stars": 1647,
+   "stars": 1650,
    "d24": 330,
    "est": true,
-   "forks": 95,
+   "forks": 96,
    "contrib": null,
    "score": 87
   },
   {
    "repo": "feder-cr/git-ai",
-   "stars": 2478,
-   "d24": 130,
+   "stars": 2481,
+   "d24": 131,
    "est": false,
    "forks": 275,
    "contrib": null,
@@ -362,8 +362,8 @@
   },
   {
    "repo": "Caho1/open-claude-ui",
-   "stars": 1266,
-   "d24": 42,
+   "stars": 1265,
+   "d24": 39,
    "est": false,
    "forks": 266,
    "contrib": null,
@@ -380,7 +380,7 @@
    "grow": 0,
    "score": 96,
    "cat": "Vision",
-   "likes": 1750
+   "likes": 1756
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -388,10 +388,10 @@
    "lic": "Open weights",
    "at": "2026-10-14T12:00:13.000Z",
    "dl": 393062,
-   "grow": null,
+   "grow": 0,
    "score": 92,
    "cat": "Vision",
-   "likes": 996
+   "likes": 1001
   },
   {
    "name": "drama-3",
@@ -402,7 +402,7 @@
    "grow": null,
    "score": 87,
    "cat": "Tools",
-   "likes": 784
+   "likes": 787
   },
   {
    "name": "MiniCPM-V-4.7-35B-A3B",
@@ -425,7 +425,7 @@
    "grow": 0,
    "score": 85,
    "cat": "Vision",
-   "likes": 2733
+   "likes": 2734
   },
   {
    "name": "humanizer",
@@ -436,7 +436,7 @@
    "grow": 0,
    "score": 83,
    "cat": "Infrastructure",
-   "likes": 1998
+   "likes": 1999
   }
  ],
  "free": [
@@ -852,31 +852,31 @@
    "kind": "Lab blog"
   },
   {
-   "t": "Ex-OpenAI worker accused of bugging conference room planned to fly to Saudi Arabia, prosecutors say",
-   "url": "https://www.ajc.com/news/2026/10/ex-openai-worker-accused-of-bugging-conference-room-planned-to-fly-to-saudi-arabia-prosecutors-say/",
-   "at": "2026-10-19T18:32:48Z",
-   "src": "The Atlanta Journal-Constitution",
+   "t": "ServiceNow cuts San Diego sales jobs in third round of layoffs this year",
+   "url": "https://www.sandiegouniontribune.com/2026/10/19/servicenow-cuts-san-diego-sales-jobs-in-third-round-of-layoffs-this-year/",
+   "at": "2026-10-19T18:55:02Z",
+   "src": "San Diego Union-Tribune",
    "kind": "News"
   },
   {
-   "t": "OpenAI worker accused of bugging conference room planned to fly to Saudi Arabia, prosecutors say",
-   "url": "https://www.breitbart.com/news/ex-openai-worker-accused-of-bugging-conference-room-planned-to-fly-to-saudi-arabia-prosecutors-say/",
-   "at": "2026-10-19T18:30:35Z",
-   "src": "Breitbart News Network",
+   "t": "US orders immediate removal of DeepSeek AI from federal systems over national security risks",
+   "url": "https://www.thenews.com.pk/latest/1420568-us-orders-immediate-removal-of-deepseek-ai-from-federal-systems-over-national-security-risks",
+   "at": "2026-10-19T18:50:00Z",
+   "src": "The News International",
    "kind": "News"
   },
   {
-   "t": "Ex-OpenAI employee accused of planting device has Saudi backing: Prosecutor",
-   "url": "https://www.aljazeera.com/economy/2026/10/19/ex-openai-employee-accused-of-planting-device-has-saudi-backing-prosecutor",
-   "at": "2026-10-19T18:23:55Z",
-   "src": "Al Jazeera",
+   "t": "Ex-OpenAI worker allegedly planned to flee after tapping room",
+   "url": "https://www.cp24.com/news/world/2026/10/19/ex-openai-worker-accused-of-bugging-conference-room-planned-to-fly-to-saudi-arabia-prosecutors-say/",
+   "at": "2026-10-19T18:40:21Z",
+   "src": "CP24 Toronto",
    "kind": "News"
   },
   {
-   "t": "ASML's Fiscal Q3 Results Show AI Infrastructure Demand Strengthening, Citrini Research Says",
-   "url": "https://www.marketscreener.com/news/asml-s-fiscal-q3-results-show-ai-infrastructure-demand-strengthening-citrini-research-says-ce785cdbdc8af623",
-   "at": "2026-10-19T18:23:22Z",
-   "src": "MarketScreener",
+   "t": "Pinterest adds Barbie pink to Restyle",
+   "url": "https://www.socialmediatoday.com/news/pinterest-adds-barbie-pink-to-restyle/833419/",
+   "at": "2026-10-19T18:36:37Z",
+   "src": "Social Media Today",
    "kind": "News"
   }
  ],
@@ -886,8 +886,8 @@
    "t": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
    "url": "https://news.ycombinator.com/item?id=50159341",
    "link": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
-   "up": 257,
-   "com": 54,
+   "up": 292,
+   "com": 63,
    "at": "2026-10-19T23:22:18.000Z"
   },
   {
@@ -895,8 +895,8 @@
    "t": "Timestral: Mistral's time-series foundation models",
    "url": "https://news.ycombinator.com/item?id=50150434",
    "link": "https://mistral.ai/news/timestral/",
-   "up": 576,
-   "com": 106,
+   "up": 577,
+   "com": 107,
    "at": "2026-10-19T09:59:32.000Z"
   },
   {
@@ -913,8 +913,8 @@
    "t": "Android apps running native on macOS",
    "url": "https://news.ycombinator.com/item?id=50154624",
    "link": "https://github.com/kksimp/Mac.apk",
-   "up": 302,
-   "com": 160,
+   "up": 304,
+   "com": 161,
    "at": "2026-10-19T16:45:30.000Z"
   },
   {
@@ -922,18 +922,18 @@
    "t": "Ask HN: How to deal with shipping AI-written code you don't understand?",
    "url": "https://news.ycombinator.com/item?id=50151036",
    "link": "",
-   "up": 373,
-   "com": 517,
+   "up": 382,
+   "com": 531,
    "at": "2026-10-19T11:24:34.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Mercury 3: Diffusion at scale",
-   "url": "https://news.ycombinator.com/item?id=50155245",
-   "link": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
-   "up": 236,
-   "com": 85,
-   "at": "2026-10-19T17:27:11.000Z"
+   "t": "Show HN: Death Plan Switch, a self-hosted dead man's switch for solo devs",
+   "url": "https://news.ycombinator.com/item?id=50161408",
+   "link": "https://deathplanswitch.com/",
+   "up": 44,
+   "com": 27,
+   "at": "2026-10-20T04:37:43.000Z"
   }
  ]
 }
