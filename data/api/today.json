@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-20T12:07:30.331Z"
+  "updated": "2026-10-20T12:30:50.638Z"
  },
  "pulse": {
-  "trending": 78,
+  "trending": 79,
   "accelerating": 0,
-  "newModels": 9,
-  "discussions": 40,
-  "stars": 1231
+  "newModels": 10,
+  "discussions": 48,
+  "stars": 1545
  },
  "rising": [
   {
@@ -56,13 +56,30 @@
    "grow": null,
    "desc": "Git designed for AI agents.",
    "meta": [
-    "★ 2,504",
-    "~505 in 24h",
+    "★ 2,517",
+    "~506 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
    "breakout": null,
    "url": "https://github.com/feder-cr/git-ai"
+  },
+  {
+   "name": "leanrea",
+   "owner": "aicodeking",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 88,
+   "grow": null,
+   "desc": "One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper.",
+   "meta": [
+    "★ 1,096",
+    "~322 in 24h",
+    "Created 3 days ago"
+   ],
+   "at": "2026-10-17T02:53:24Z",
+   "breakout": null,
+   "url": "https://github.com/aicodeking/leanrea"
   },
   {
    "name": "earshot",
@@ -73,8 +90,8 @@
    "grow": 8,
    "desc": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
    "meta": [
-    "★ 1,770",
-    "+511 in 24h",
+    "★ 1,776",
+    "+502 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-15T06:52:46Z",
@@ -88,7 +105,7 @@
    "cat": "Tools",
    "score": 87,
    "grow": 14,
-   "desc": "Model on Hugging Face · open weights · ♥ 798",
+   "desc": "Model on Hugging Face · open weights · ♥ 801",
    "meta": [
     "13K downloads",
     "Released 19 days ago"
@@ -161,22 +178,6 @@
    ],
    "at": "2026-10-19T07:01:00Z",
    "breakout": null
-  },
-  {
-   "name": "flux-3-image-klein",
-   "owner": "black-forest-labs",
-   "src": "hf",
-   "cat": "Vision",
-   "score": 84,
-   "grow": 27,
-   "desc": "Vision on Hugging Face · open weights · ♥ 545",
-   "meta": [
-    "79K downloads",
-    "Released 7 days ago"
-   ],
-   "at": "2026-10-13T10:58:40.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein"
   }
  ],
  "breakouts": [],
@@ -221,11 +222,11 @@
    "verdict": "The hype matches real use"
   },
   {
-   "name": "earshot",
-   "url": "https://github.com/Leonxlnx/earshot",
+   "name": "git-ai",
+   "url": "https://github.com/feder-cr/git-ai",
    "from": "GitHub",
-   "use": 511,
-   "useLabel": "+511 stars/day",
+   "use": 506,
+   "useLabel": "~506 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -338,22 +339,31 @@
  ],
  "github": [
   {
+   "repo": "feder-cr/git-ai",
+   "stars": 2517,
+   "d24": 506,
+   "est": true,
+   "forks": 303,
+   "contrib": null,
+   "score": 91
+  },
+  {
    "repo": "Leonxlnx/earshot",
-   "stars": 1770,
-   "d24": 511,
+   "stars": 1776,
+   "d24": 502,
    "est": false,
    "forks": 102,
    "contrib": null,
    "score": 87
   },
   {
-   "repo": "feder-cr/git-ai",
-   "stars": 2504,
-   "d24": 505,
+   "repo": "aicodeking/leanrea",
+   "stars": 1096,
+   "d24": 322,
    "est": true,
-   "forks": 287,
+   "forks": 165,
    "contrib": null,
-   "score": 91
+   "score": 88
   },
   {
    "repo": "Caho1/open-claude-ui",
@@ -362,7 +372,7 @@
    "est": true,
    "forks": 264,
    "contrib": null,
-   "score": 79
+   "score": 78
   }
  ],
  "models": [
@@ -375,7 +385,7 @@
    "grow": 55,
    "score": 96,
    "cat": "Vision",
-   "likes": 1829
+   "likes": 1834
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -386,7 +396,7 @@
    "grow": 12,
    "score": 92,
    "cat": "Vision",
-   "likes": 1029
+   "likes": 1031
   },
   {
    "name": "drama-3",
@@ -397,7 +407,7 @@
    "grow": 14,
    "score": 87,
    "cat": "Tools",
-   "likes": 798
+   "likes": 801
   },
   {
    "name": "embeddinggemma-2",
@@ -408,7 +418,7 @@
    "grow": null,
    "score": 86,
    "cat": "Vision",
-   "likes": 2740
+   "likes": 2741
   },
   {
    "name": "humanizer",
@@ -790,13 +800,6 @@
    "kind": "News"
   },
   {
-   "t": "The US sanctions MiraclePlus, a Chinese VC firm founded by ex-Microsoft executive Lu Qi, over alleged ties to Zhisuan, accused of stealing Google's AI secrets",
-   "url": "https://www.techmeme.com/261020/p4#a261020p4",
-   "at": "2026-10-20T09:40:02.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "HUGE GPT-6.5 LEAK! NEW Claude Fable 5.5, Gemini 4 Carbon, MiniMax M3.1 Flash & Kimi K3.1! AI NEWS",
    "url": "https://www.youtube.com/watch?v=2BXktpaCEN4",
    "at": "2026-10-20T07:01:16Z",
@@ -809,13 +812,6 @@
    "at": "2026-10-20T06:00:18Z",
    "src": "The Guardian",
    "kind": "News"
-  },
-  {
-   "t": "'Gutfeld!': Bricklayer DUPED by AI girlfriend",
-   "url": "https://www.youtube.com/watch?v=55YheVIFwrM",
-   "at": "2026-10-20T05:30:08Z",
-   "src": "Fox News",
-   "kind": "Video"
   },
   {
    "t": "Don’t be fooled. The AI that was supposed to save us time is doing just the opposite | Gaby Hinsliff",
@@ -839,24 +835,38 @@
    "kind": "News"
   },
   {
-   "t": "Banking stocks, high oil prices drag Indian markets lower",
-   "url": "https://economictimes.indiatimes.com/markets/stocks/news/banking-stocks-high-oil-prices-drag-indian-markets-lower/articleshow/135058914.cms",
-   "at": "2026-10-20T00:05:00Z",
-   "src": "The Economic Times",
+   "t": "Seoul stocks extend losses late Tuesday morning amid AI concerns",
+   "url": "https://www.koreatimes.co.kr/economy/20261020/seoul-stocks-extend-losses-late-tuesday-morning-amid-ai-concerns",
+   "at": "2026-10-20T00:25:03Z",
+   "src": "The Korea Times",
    "kind": "News"
   },
   {
-   "t": "MPS in PyTorch 2.15",
-   "url": "https://huggingface.co/blog/mps-pytorch-2-15",
-   "at": "2026-10-20T00:00:00.000Z",
-   "src": "Hugging Face",
-   "kind": "Lab blog"
+   "t": "OpenAI seeks $1.4 trillion valuation in $30 billion funding push ahead of Anthropic IPO",
+   "url": "https://techstartups.com/2026/10/19/openai-seeks-1-4-trillion-valuation-in-30-billion-funding-push-ahead-of-anthropic-ipo/",
+   "at": "2026-10-20T00:22:42Z",
+   "src": "TechStartups.com",
+   "kind": "News"
   },
   {
-   "t": "Nvidia CEO urges German manufacturers to adopt AI, saying digital tech won't replace heavy industry",
-   "url": "https://www.thestar.com.my/tech/tech-news/2026/10/20/nvidia-ceo-urges-german-manufacturers-to-adopt-ai-saying-digital-tech-won039t-replace-heavy-industry",
-   "at": "2026-10-20T00:00:00Z",
+   "t": "Exclusive-OpenAI seeks to accelerate fundraising ahead of Anthropic IPO, sources say",
+   "url": "https://www.thestar.com.my/tech/tech-news/2026/10/20/exclusive-openai-seeks-to-accelerate-fundraising-ahead-of-anthropic-ipo-sources-say",
+   "at": "2026-10-20T00:21:00Z",
    "src": "The Star",
+   "kind": "News"
+  },
+  {
+   "t": "Globe at a glance: From Trump’s readiness to meet Putin and Xi to France’s curfews after protest violence",
+   "url": "https://www.firstpost.com/world/globe-at-a-glance-from-trumps-readiness-to-meet-putin-and-xi-to-frances-curfews-after-protest-violence-14053968.html",
+   "at": "2026-10-20T00:15:24Z",
+   "src": "Firstpost",
+   "kind": "News"
+  },
+  {
+   "t": "Sunlight AI launches with $17.4M in seed funding to help independent physicians cut administrative costs",
+   "url": "https://techstartups.com/2026/10/19/sunlight-ai-launches-with-17-4m-in-seed-funding-to-help-independent-physicians-cut-administrative-costs/",
+   "at": "2026-10-20T00:13:25Z",
+   "src": "TechStartups.com",
    "kind": "News"
   }
  ],
@@ -866,8 +876,8 @@
    "t": "DeepSeek just open-sourced its inference engine",
    "url": "https://news.ycombinator.com/item?id=50163277",
    "link": "https://github.com/deepseek-ai/DeepInfer",
-   "up": 609,
-   "com": 208,
+   "up": 709,
+   "com": 242,
    "at": "2026-10-20T09:08:54.000Z"
   },
   {
@@ -875,8 +885,8 @@
    "t": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
    "url": "https://news.ycombinator.com/item?id=50159341",
    "link": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
-   "up": 514,
-   "com": 147,
+   "up": 533,
+   "com": 152,
    "at": "2026-10-19T23:22:18.000Z"
   },
   {
@@ -884,36 +894,36 @@
    "t": "Google cloud outage takes down banks",
    "url": "https://news.ycombinator.com/item?id=50163961",
    "link": "https://www.neowin.net/news/google-cloud-outage-takes-down-hsbc-revolut-bank-of-scotland-llyods-equifax-more/",
-   "up": 59,
-   "com": 22,
+   "up": 83,
+   "com": 29,
    "at": "2026-10-20T10:26:02.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "CERN and Mistral sign a statement of intent to establish a strategic partnership",
-   "url": "https://news.ycombinator.com/item?id=50153630",
-   "link": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
-   "up": 346,
-   "com": 58,
-   "at": "2026-10-19T15:28:24.000Z"
+   "t": "MicroG: Free-libre re-implementation of Google's proprietary Android user space",
+   "url": "https://news.ycombinator.com/item?id=50162177",
+   "link": "https://github.com/microg/GmsCore/wiki",
+   "up": 137,
+   "com": 11,
+   "at": "2026-10-20T06:37:07.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "There is no official XScreenSaver GitHub repository",
+   "url": "https://news.ycombinator.com/item?id=50163142",
+   "link": "https://github.com/xscreensaver-official/xscreensaver",
+   "up": 65,
+   "com": 40,
+   "at": "2026-10-20T08:51:31.000Z"
   },
   {
    "src": "Hacker News",
    "t": "DeepSeek banned from U.S. federal civilian agencies under new DHS order",
    "url": "https://news.ycombinator.com/item?id=50154244",
    "link": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/",
-   "up": 322,
-   "com": 287,
+   "up": 338,
+   "com": 299,
    "at": "2026-10-19T16:16:46.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Mercury 3: Diffusion at scale",
-   "url": "https://news.ycombinator.com/item?id=50155245",
-   "link": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
-   "up": 249,
-   "com": 89,
-   "at": "2026-10-19T17:27:11.000Z"
   }
  ]
 }
