@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-20T15:01:06.230Z"
+  "updated": "2026-10-20T15:31:02.564Z"
  },
  "pulse": {
   "trending": 80,
-  "accelerating": 0,
+  "accelerating": 1,
   "newModels": 10,
-  "discussions": 42,
-  "stars": 3071
+  "discussions": 38,
+  "stars": 3369
  },
  "rising": [
   {
@@ -40,8 +40,8 @@
    "grow": null,
    "desc": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
    "meta": [
-    "★ 1,115",
-    "~528 in 24h",
+    "★ 1,119",
+    "~525 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-18T12:19:27Z",
@@ -70,11 +70,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 91,
-   "grow": 16,
+   "grow": 21,
    "desc": "Git designed for AI agents.",
    "meta": [
-    "★ 2,893",
-    "+1,510 in 24h",
+    "★ 3,013",
+    "+1,814 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -90,8 +90,8 @@
    "grow": null,
    "desc": "One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper.",
    "meta": [
-    "★ 1,130",
-    "~322 in 24h",
+    "★ 1,133",
+    "~321 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-17T02:53:24Z",
@@ -105,7 +105,7 @@
    "cat": "Tools",
    "score": 87,
    "grow": 14,
-   "desc": "Model on Hugging Face · open weights · ♥ 805",
+   "desc": "Model on Hugging Face · open weights · ♥ 807",
    "meta": [
     "13K downloads",
     "Released 19 days ago"
@@ -120,11 +120,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 86,
-   "grow": 11,
+   "grow": 12,
    "desc": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
    "meta": [
-    "★ 1,827",
-    "+499 in 24h",
+    "★ 1,837",
+    "+498 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-15T06:52:46Z",
@@ -132,29 +132,13 @@
    "url": "https://github.com/Leonxlnx/earshot"
   },
   {
-   "name": "humanizer",
-   "owner": "jialinyyzz",
-   "src": "hf",
-   "cat": "Infrastructure",
-   "score": 86,
-   "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 2K",
-   "meta": [
-    "115K downloads",
-    "Released 39 days ago"
-   ],
-   "at": "2026-09-11T05:00:16.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/jialinyyzz/humanizer"
-  },
-  {
    "name": "embeddinggemma-2",
    "owner": "google",
    "src": "hf",
    "cat": "Vision",
-   "score": 85,
+   "score": 86,
    "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 2.7K",
+   "desc": "Vision on Hugging Face · open source · ♥ 2.8K",
    "meta": [
     "172K downloads",
     "Released 36 days ago"
@@ -162,6 +146,22 @@
    "at": "2026-09-14T14:53:42.000Z",
    "breakout": null,
    "url": "https://huggingface.co/google/embeddinggemma-2"
+  },
+  {
+   "name": "Muse-Spark-Open-816B-A42B",
+   "owner": "meta-models",
+   "src": "hf",
+   "cat": "Infrastructure",
+   "score": 85,
+   "grow": 23,
+   "desc": "Model on Hugging Face · open weights · ♥ 596",
+   "meta": [
+    "2.6K downloads",
+    "Released 35 days ago"
+   ],
+   "at": "2026-09-15T19:23:19.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B"
   },
   {
    "name": "MemT-1.0: Towards Memory-Native Evolution",
@@ -225,8 +225,8 @@
    "name": "git-ai",
    "url": "https://github.com/feder-cr/git-ai",
    "from": "GitHub",
-   "use": 1510,
-   "useLabel": "+1,510 stars/day",
+   "use": 1814,
+   "useLabel": "+1,814 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -340,8 +340,8 @@
  "github": [
   {
    "repo": "feder-cr/git-ai",
-   "stars": 2893,
-   "d24": 1510,
+   "stars": 3013,
+   "d24": 1814,
    "est": false,
    "forks": 376,
    "contrib": null,
@@ -349,26 +349,26 @@
   },
   {
    "repo": "alchaincyf/huashu-motion",
-   "stars": 1115,
-   "d24": 528,
+   "stars": 1119,
+   "d24": 525,
    "est": true,
-   "forks": 114,
+   "forks": 115,
    "contrib": null,
    "score": 93
   },
   {
    "repo": "Leonxlnx/earshot",
-   "stars": 1827,
-   "d24": 499,
+   "stars": 1837,
+   "d24": 498,
    "est": false,
-   "forks": 104,
+   "forks": 105,
    "contrib": null,
    "score": 86
   },
   {
    "repo": "aicodeking/leanrea",
-   "stars": 1130,
-   "d24": 322,
+   "stars": 1133,
+   "d24": 321,
    "est": true,
    "forks": 169,
    "contrib": null,
@@ -376,8 +376,8 @@
   },
   {
    "repo": "Caho1/open-claude-ui",
-   "stars": 1279,
-   "d24": 212,
+   "stars": 1280,
+   "d24": 211,
    "est": true,
    "forks": 264,
    "contrib": null,
@@ -394,7 +394,7 @@
    "grow": 55,
    "score": 95,
    "cat": "Vision",
-   "likes": 1865
+   "likes": 1873
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -405,7 +405,7 @@
    "grow": 12,
    "score": 92,
    "cat": "Vision",
-   "likes": 1042
+   "likes": 1049
   },
   {
    "name": "drama-3",
@@ -416,18 +416,7 @@
    "grow": 14,
    "score": 87,
    "cat": "Tools",
-   "likes": 805
-  },
-  {
-   "name": "humanizer",
-   "org": "jialinyyzz",
-   "lic": "Open source",
-   "at": "2026-09-11T05:00:16.000Z",
-   "dl": 115341,
-   "grow": null,
-   "score": 86,
-   "cat": "Infrastructure",
-   "likes": 2018
+   "likes": 807
   },
   {
    "name": "embeddinggemma-2",
@@ -436,9 +425,21 @@
    "at": "2026-09-14T14:53:42.000Z",
    "dl": 172474,
    "grow": null,
-   "score": 85,
+   "score": 86,
    "cat": "Vision",
-   "likes": 2749
+   "likes": 2750
+  },
+  {
+   "name": "Muse-Spark-Open-816B-A42B",
+   "org": "meta-models",
+   "size": "816B",
+   "lic": "Open weights",
+   "at": "2026-09-15T19:23:19.000Z",
+   "dl": 2592,
+   "grow": 23,
+   "score": 85,
+   "cat": "Infrastructure",
+   "likes": 596
   },
   {
    "name": "flux-3-image-klein",
@@ -449,7 +450,7 @@
    "grow": 27,
    "score": 84,
    "cat": "Vision",
-   "likes": 548
+   "likes": 550
   }
  ],
  "free": [
@@ -759,6 +760,27 @@
  },
  "headlines": [
   {
+   "t": "Could this be a Deep Blue moment for the cryptic crossword?",
+   "url": "https://www.theguardian.com/puzzles/crossword-blog/2026/oct/20/could-this-be-a-deep-blue-moment-for-the-cryptic-crossword",
+   "at": "2026-10-20T15:27:50Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
+   "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+   "at": "2026-10-20T15:19:48.000Z",
+   "src": "Hugging Face",
+   "kind": "Lab blog"
+  },
+  {
+   "t": "Daytona, which is building cloud infrastructure for AI agents, raised a $60M Series B led by FirstMark at a $1B valuation, bringing its total funding to $91M",
+   "url": "https://www.techmeme.com/261020/p27#a261020p27",
+   "at": "2026-10-20T15:00:48.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Firefly, whose AI software connects with existing cameras, radios, and sensors to detect incidents and coordinate real-time responses, raised a $20M Series A",
    "url": "https://www.techmeme.com/261020/p26#a261020p26",
    "at": "2026-10-20T14:35:03.000Z",
@@ -780,7 +802,7 @@
    "kind": "News"
   },
   {
-   "t": "Arda, which develops AI software and agents to accelerate assembly line programming and manufacturing automation, raised $230M at a $1.5B valuation",
+   "t": "Arda, which builds AI software and agents to accelerate assembly lines and manufacturing, raised $230M at a $1.5B valuation led by Altimeter, Accel, and Khosla",
    "url": "https://www.techmeme.com/261020/p23#a261020p23",
    "at": "2026-10-20T13:25:01.000Z",
    "src": "Techmeme",
@@ -815,20 +837,6 @@
    "kind": "News"
   },
   {
-   "t": "Anthropic's leaked federal AI bill draws widespread criticism from AI safety advocates for being significantly weaker than the bipartisan FRONTIER Act",
-   "url": "https://www.techmeme.com/261020/p12#a261020p12",
-   "at": "2026-10-20T10:55:00.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "HUGE GPT-6.5 LEAK! NEW Claude Fable 5.5, Gemini 4 Carbon, MiniMax M3.1 Flash & Kimi K3.1! AI NEWS",
-   "url": "https://www.youtube.com/watch?v=2BXktpaCEN4",
-   "at": "2026-10-20T07:01:16Z",
-   "src": "WorldofAI",
-   "kind": "Video"
-  },
-  {
    "t": "Hollywood AI-listers: is the technology ready to rival flesh-and-blood film stars?",
    "url": "https://www.theguardian.com/film/2026/oct/20/ai-actors-val-kilmer-as-deep-as-the-grave-tilly-norwood",
    "at": "2026-10-20T06:00:18Z",
@@ -857,17 +865,10 @@
    "kind": "Lab blog"
   },
   {
-   "t": "Is this the beginning of the end of the AI stock market boom? ",
-   "url": "https://www.theguardian.com/business/2026/oct/20/ai-stock-market-boom-beginning-of-the-end-imf-wallstreet-nasdaq",
-   "at": "2026-10-20T02:29:19Z",
-   "src": "The Guardian",
-   "kind": "News"
-  },
-  {
-   "t": "Asian Stocks Fall, Bucking U.S. Tech Rebound",
-   "url": "https://www.marketscreener.com/news/asian-stocks-fall-bucking-u-s-tech-rebound-ce785cdbde8af227",
-   "at": "2026-10-20T02:15:17Z",
-   "src": "MarketScreener",
+   "t": "OpenAI staffer accused of planting recording device in office denied bail",
+   "url": "https://www.business-standard.com/world-news/openai-staffer-accused-of-planting-recording-device-in-office-denied-bail-126102000113_1.html",
+   "at": "2026-10-20T03:31:02Z",
+   "src": "Business Standard",
    "kind": "News"
   }
  ],
@@ -877,17 +878,26 @@
    "t": "DeepSeek just open-sourced its inference engine",
    "url": "https://news.ycombinator.com/item?id=50163277",
    "link": "https://github.com/deepseek-ai/DeepInfer",
-   "up": 1344,
-   "com": 468,
+   "up": 1461,
+   "com": 521,
    "at": "2026-10-20T09:08:54.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Show HN: VoidAccess – open-source dark web OSINT, from query to a graph",
+   "url": "https://news.ycombinator.com/item?id=50167286",
+   "link": "https://github.com/KatrielMoses/voidaccess",
+   "up": 54,
+   "com": 4,
+   "at": "2026-10-20T14:49:33.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Publish fake stats, get cited in LLMs",
    "url": "https://news.ycombinator.com/item?id=50165801",
    "link": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
-   "up": 95,
-   "com": 51,
+   "up": 123,
+   "com": 70,
    "at": "2026-10-20T13:06:22.000Z"
   },
   {
@@ -895,8 +905,8 @@
    "t": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
    "url": "https://news.ycombinator.com/item?id=50159341",
    "link": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
-   "up": 636,
-   "com": 180,
+   "up": 648,
+   "com": 181,
    "at": "2026-10-19T23:22:18.000Z"
   },
   {
@@ -904,26 +914,17 @@
    "t": "Google cloud outage takes down banks",
    "url": "https://news.ycombinator.com/item?id=50163961",
    "link": "https://www.neowin.net/news/google-cloud-outage-takes-down-hsbc-revolut-bank-of-scotland-llyods-equifax-more/",
-   "up": 180,
-   "com": 79,
+   "up": 193,
+   "com": 84,
    "at": "2026-10-20T10:26:02.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "MicroG: Free-libre re-implementation of Google's proprietary Android user space",
-   "url": "https://news.ycombinator.com/item?id=50162177",
-   "link": "https://github.com/microg/GmsCore/wiki",
-   "up": 246,
-   "com": 20,
-   "at": "2026-10-20T06:37:07.000Z"
   },
   {
    "src": "Hacker News",
    "t": "How I got over 300 Tor exit nodes removed",
    "url": "https://news.ycombinator.com/item?id=50166257",
    "link": "https://kaba.cx/posts/20261020_Tor/",
-   "up": 33,
-   "com": 8,
+   "up": 66,
+   "com": 19,
    "at": "2026-10-20T13:39:24.000Z"
   }
  ]
