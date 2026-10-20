@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-20T04:30:50.976Z"
+  "updated": "2026-10-20T05:01:03.081Z"
  },
  "pulse": {
   "trending": 78,
   "accelerating": 0,
   "newModels": 9,
-  "discussions": 46,
-  "stars": 853
+  "discussions": 48,
+  "stars": 843
  },
  "rising": [
   {
@@ -38,7 +38,7 @@
    "cat": "Vision",
    "score": 92,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 981",
+   "desc": "Vision on Hugging Face · open weights · ♥ 982",
    "meta": [
     "393K downloads",
     "Released 6 days ago"
@@ -57,7 +57,7 @@
    "desc": "Git designed for AI agents.",
    "meta": [
     "★ 2,469",
-    "+134 in 24h",
+    "+129 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -70,11 +70,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 87,
-   "grow": 51,
+   "grow": 52,
    "desc": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
    "meta": [
-    "★ 1,610",
-    "+685 in 24h",
+    "★ 1,620",
+    "+679 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-15T06:52:46Z",
@@ -139,7 +139,7 @@
    "grow": null,
    "desc": "Multimodal large language models (MLLMs) have made rapid progress on visual reasoning, yet many tasks require evidence that is difficult to obtain through internal reasoning alone: our controlled study on 22 benchmarks shows that simply increasing the inference budget of the base model yields only modest gains.",
    "meta": [
-    "▲ 19 upvotes",
+    "▲ 36 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-18T20:00:00.000Z",
@@ -226,11 +226,33 @@
    "verdict": "Talk only, no public usage numbers"
   },
   {
+   "name": "GPT-6",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "Techmeme",
+     "t": "Inception launches Mercury 3, a diffusion-based LLM that it claims outperforms GPT-6 Luna, Claude Haiku 5.5, and GLM-5.3 Flash while being 4x to 8x faster",
+     "url": "https://www.techmeme.com/261019/p51#a261019p51"
+    },
+    {
+     "src": "YouTube",
+     "t": "Claude Fable 5.5 Is BABY AGI?! NEW EAP LEAKS, GLM 5.5, GPT-6 Astra Pro Upgrade & More! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=hZPs633_58Q"
+    }
+   ],
+   "buzz": 2,
+   "verdict": "Talk only, no public usage numbers"
+  },
+  {
    "name": "earshot",
    "url": "https://github.com/Leonxlnx/earshot",
    "from": "GitHub",
-   "use": 685,
-   "useLabel": "+685 stars/day",
+   "use": 679,
+   "useLabel": "+679 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -344,8 +366,8 @@
  "github": [
   {
    "repo": "Leonxlnx/earshot",
-   "stars": 1610,
-   "d24": 685,
+   "stars": 1620,
+   "d24": 679,
    "est": false,
    "forks": 94,
    "contrib": null,
@@ -354,16 +376,16 @@
   {
    "repo": "feder-cr/git-ai",
    "stars": 2469,
-   "d24": 134,
+   "d24": 129,
    "est": false,
-   "forks": 271,
+   "forks": 272,
    "contrib": null,
    "score": 91
   },
   {
    "repo": "Caho1/open-claude-ui",
-   "stars": 1258,
-   "d24": 34,
+   "stars": 1259,
+   "d24": 35,
    "est": false,
    "forks": 266,
    "contrib": null,
@@ -380,7 +402,7 @@
    "grow": 0,
    "score": 96,
    "cat": "Vision",
-   "likes": 1726
+   "likes": 1729
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -391,7 +413,7 @@
    "grow": null,
    "score": 92,
    "cat": "Vision",
-   "likes": 981
+   "likes": 982
   },
   {
    "name": "drama-3",
@@ -414,7 +436,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Vision",
-   "likes": 1069
+   "likes": 1070
   },
   {
    "name": "embeddinggemma-2",
@@ -768,6 +790,13 @@
  },
  "headlines": [
   {
+   "t": "Don’t be fooled. The AI that was supposed to save us time is doing just the opposite | Gaby Hinsliff",
+   "url": "https://www.theguardian.com/commentisfree/2026/oct/20/ai-supposed-to-save-time-opposite-government-uk",
+   "at": "2026-10-20T05:00:17Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
    "t": "Is this the beginning of the end of the AI stock market boom? ",
    "url": "https://www.theguardian.com/business/2026/oct/20/ai-stock-market-boom-beginning-of-the-end-imf-wallstreet-nasdaq",
    "at": "2026-10-20T02:29:19Z",
@@ -775,7 +804,7 @@
    "kind": "News"
   },
   {
-   "t": "Inception launches Mercury 3, a diffusion-based LLM it claims is \"comparable to Luna and Haiku models\" but 4x to 8x faster, generating ~1,000 tokens per second",
+   "t": "Inception launches Mercury 3, a diffusion-based LLM that it claims outperforms GPT-6 Luna, Claude Haiku 5.5, and GLM-5.3 Flash while being 4x to 8x faster",
    "url": "https://www.techmeme.com/261019/p51#a261019p51",
    "at": "2026-10-20T01:45:01.000Z",
    "src": "Techmeme",
@@ -824,13 +853,6 @@
    "kind": "Lab blog"
   },
   {
-   "t": "Town, which develops enterprise AI assistants, raised a $108M Series B at a $1B valuation, after announcing a $55M Series A in June",
-   "url": "https://www.techmeme.com/261019/p39#a261019p39",
-   "at": "2026-10-19T18:20:00.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "The AI crash is coming SOONER than you think, warns former US financial regulator",
    "url": "https://www.youtube.com/watch?v=7C9vYzzgrI0",
    "at": "2026-10-19T17:38:17Z",
@@ -845,38 +867,38 @@
    "kind": "News"
   },
   {
-   "t": "Byron Allen buys 51% of BuzzFeed for $120 million: What the deal means for free streaming and artificial intelligence",
-   "url": "https://timesofindia.indiatimes.com/entertainment/english/hollywood/news/byron-allen-buys-51-of-buzzfeed-for-120-million-what-the-deal-means-for-free-streaming-and-artificial-intelligence/articleshow/135042789.cms",
-   "at": "2026-10-19T16:30:00Z",
-   "src": "Times of India",
+   "t": "Consumer apprehension grows as US retailers adopt AI-assisted pricing tools",
+   "url": "https://dailyinterlake.com/news/2026/oct/19/consumer-apprehension-grows-as-us-retailers-adopt-ai-assisted-pricing-tools/",
+   "at": "2026-10-19T17:00:00Z",
+   "src": "Kalispell Inter Lake",
    "kind": "News"
   },
   {
-   "t": "An OpenAI agent questioned whether stealing crypto was ethical - then did it anyway",
-   "url": "https://www.tomsguide.com/ai/an-openai-agent-questioned-whether-stealing-crypto-was-ethical-then-did-it-anyway",
-   "at": "2026-10-19T16:20:57Z",
-   "src": "Tom's Guide",
+   "t": "OpenAI's Former Engineer Faces DOJ Opposition to Bail Request",
+   "url": "https://www.marketscreener.com/news/openai-s-former-engineer-faces-doj-opposition-to-bail-request-ce785cdbdd81fe23",
+   "at": "2026-10-19T16:54:51Z",
+   "src": "MarketScreener",
    "kind": "News"
   },
   {
-   "t": "Giving AI a 'crystal clear' view of the materials world by mapping geometry to text",
-   "url": "https://phys.org/news/2026-10-ai-crystal-view-materials-world.html",
-   "at": "2026-10-19T16:20:01Z",
+   "t": "AI agents can pose insider security risks even without being hacked: Microsoft",
+   "url": "https://www.tribuneindia.com/news/business/ai-agents-can-pose-insider-security-risks-even-without-being-hacked-microsoft/",
+   "at": "2026-10-19T16:49:38Z",
+   "src": "The Tribune",
+   "kind": "News"
+  },
+  {
+   "t": "Ex-OpenAI Employee Accused of Planting Device Had Saudi Backing: US Prosecutors",
+   "url": "https://www.deccanchronicle.com/world/ex-openai-employee-accused-of-planting-device-had-saudi-backing-us-prosecutors-1997249",
+   "at": "2026-10-19T16:44:23Z",
+   "src": "Deccan Chronicle",
+   "kind": "News"
+  },
+  {
+   "t": "Why the ugly history of IQ testing matters for AI and education",
+   "url": "https://phys.org/news/2026-10-ugly-history-iq-ai.html",
+   "at": "2026-10-19T16:40:13Z",
    "src": "Phys.org",
-   "kind": "News"
-  },
-  {
-   "t": "Saudi Links, Secret Recordings: What US Court Filing Says About Ex-OpenAI Employee",
-   "url": "https://www.ndtvprofit.com/technology/saudi-links-secret-recordings-what-us-court-filing-says-about-ex-openai-employee-12207873",
-   "at": "2026-10-19T16:18:20Z",
-   "src": "NDTV Profit",
-   "kind": "News"
-  },
-  {
-   "t": "Wired, but tired: Gen Dwivedi urges students to step back from digital overload",
-   "url": "https://www.indiatoday.in/education-today/news/story/operation-sindoor-general-upendra-dwivedi-discipline-human-judgement-ai-3021019-2026-10-19",
-   "at": "2026-10-19T16:15:20Z",
-   "src": "India Today",
    "kind": "News"
   }
  ],
@@ -886,16 +908,25 @@
    "t": "Timestral: Mistral's time-series foundation models",
    "url": "https://news.ycombinator.com/item?id=50150434",
    "link": "https://mistral.ai/news/timestral/",
-   "up": 565,
+   "up": 566,
    "com": 105,
    "at": "2026-10-19T09:59:32.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+   "url": "https://news.ycombinator.com/item?id=50159341",
+   "link": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+   "up": 150,
+   "com": 22,
+   "at": "2026-10-19T23:22:18.000Z"
   },
   {
    "src": "Hacker News",
    "t": "CERN and Mistral sign a statement of intent to establish a strategic partnership",
    "url": "https://news.ycombinator.com/item?id=50153630",
    "link": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
-   "up": 324,
+   "up": 326,
    "com": 57,
    "at": "2026-10-19T15:28:24.000Z"
   },
@@ -904,25 +935,16 @@
    "t": "Android apps running native on macOS",
    "url": "https://news.ycombinator.com/item?id=50154624",
    "link": "https://github.com/kksimp/Mac.apk",
-   "up": 284,
-   "com": 153,
+   "up": 287,
+   "com": 155,
    "at": "2026-10-19T16:45:30.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
-   "url": "https://news.ycombinator.com/item?id=50159341",
-   "link": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
-   "up": 118,
-   "com": 17,
-   "at": "2026-10-19T23:22:18.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Mercury 3: Diffusion at scale",
    "url": "https://news.ycombinator.com/item?id=50155245",
    "link": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
-   "up": 229,
+   "up": 232,
    "com": 85,
    "at": "2026-10-19T17:27:11.000Z"
   },
@@ -931,8 +953,8 @@
    "t": "Ask HN: How to deal with shipping AI-written code you don't understand?",
    "url": "https://news.ycombinator.com/item?id=50151036",
    "link": "",
-   "up": 322,
-   "com": 465,
+   "up": 331,
+   "com": 477,
    "at": "2026-10-19T11:24:34.000Z"
   }
  ]
