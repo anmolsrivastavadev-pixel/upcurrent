@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-20T19:30:53.243Z"
+  "updated": "2026-10-20T20:01:02.077Z"
  },
  "pulse": {
   "trending": 80,
   "accelerating": 1,
   "newModels": 10,
-  "discussions": 42,
-  "stars": 929
+  "discussions": 43,
+  "stars": 115
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo.",
    "meta": [
-    "★ 1,467",
-    "~1,465 in 24h",
+    "★ 1,509",
+    "~1,476 in 24h",
     "Created yesterday"
    ],
    "at": "2026-10-19T19:29:01Z",
@@ -65,38 +65,38 @@
    "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy"
   },
   {
-   "name": "git-ai",
-   "owner": "feder-cr",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 87,
-   "grow": -23,
-   "desc": "Git designed for AI agents.",
-   "meta": [
-    "★ 1,919",
-    "+-1,233 in 24h",
-    "Created 5 days ago"
-   ],
-   "at": "2026-10-15T13:12:02Z",
-   "breakout": null,
-   "url": "https://github.com/feder-cr/git-ai"
-  },
-  {
    "name": "leanrea",
    "owner": "aicodeking",
    "src": "gh",
    "cat": "Agents",
-   "score": 87,
+   "score": 88,
    "grow": 6,
    "desc": "One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper.",
    "meta": [
-    "★ 1,159",
-    "+216 in 24h",
+    "★ 1,161",
+    "+208 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-17T02:53:24Z",
    "breakout": null,
    "url": "https://github.com/aicodeking/leanrea"
+  },
+  {
+   "name": "earshot",
+   "owner": "Leonxlnx",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 87,
+   "grow": 16,
+   "desc": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
+   "meta": [
+    "★ 1,904",
+    "+453 in 24h",
+    "Created 6 days ago"
+   ],
+   "at": "2026-10-15T06:52:46Z",
+   "breakout": null,
+   "url": "https://github.com/Leonxlnx/earshot"
   },
   {
    "name": "drama-3",
@@ -105,7 +105,7 @@
    "cat": "Tools",
    "score": 87,
    "grow": 14,
-   "desc": "Model on Hugging Face · open weights · ♥ 821",
+   "desc": "Model on Hugging Face · open weights · ♥ 822",
    "meta": [
     "13K downloads",
     "Released 20 days ago"
@@ -113,23 +113,6 @@
    "at": "2026-10-01T04:34:57.000Z",
    "breakout": null,
    "url": "https://huggingface.co/fishaudio/drama-3"
-  },
-  {
-   "name": "earshot",
-   "owner": "Leonxlnx",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 86,
-   "grow": 16,
-   "desc": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
-   "meta": [
-    "★ 1,895",
-    "+453 in 24h",
-    "Created 6 days ago"
-   ],
-   "at": "2026-10-15T06:52:46Z",
-   "breakout": null,
-   "url": "https://github.com/Leonxlnx/earshot"
   },
   {
    "name": "Muse-Spark-Open-816B-A42B",
@@ -146,6 +129,23 @@
    "at": "2026-09-15T19:23:19.000Z",
    "breakout": null,
    "url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B"
+  },
+  {
+   "name": "git-ai",
+   "owner": "feder-cr",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 85,
+   "grow": -40,
+   "desc": "Git designed for AI agents.",
+   "meta": [
+    "★ 1,502",
+    "+-2,049 in 24h",
+    "Created 5 days ago"
+   ],
+   "at": "2026-10-15T13:12:02Z",
+   "breakout": null,
+   "url": "https://github.com/feder-cr/git-ai"
   },
   {
    "name": "embeddinggemma-2",
@@ -169,7 +169,7 @@
    "src": "hf",
    "cat": "Vision",
    "score": 85,
-   "grow": 27,
+   "grow": null,
    "desc": "Vision on Hugging Face · open weights · ♥ 558",
    "meta": [
     "79K downloads",
@@ -225,8 +225,8 @@
    "name": "free-my-tv",
    "url": "https://github.com/simbasjungles/free-my-tv",
    "from": "GitHub",
-   "use": 1465,
-   "useLabel": "~1,465 stars/day",
+   "use": 1476,
+   "useLabel": "~1,476 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -340,35 +340,35 @@
  "github": [
   {
    "repo": "simbasjungles/free-my-tv",
-   "stars": 1467,
-   "d24": 1465,
+   "stars": 1509,
+   "d24": 1476,
    "est": true,
-   "forks": 153,
+   "forks": 159,
    "contrib": null,
    "score": 98
   },
   {
    "repo": "Leonxlnx/earshot",
-   "stars": 1895,
+   "stars": 1904,
    "d24": 453,
    "est": false,
    "forks": 109,
    "contrib": null,
-   "score": 86
+   "score": 87
   },
   {
    "repo": "aicodeking/leanrea",
-   "stars": 1159,
-   "d24": 216,
+   "stars": 1161,
+   "d24": 208,
    "est": false,
-   "forks": 172,
+   "forks": 173,
    "contrib": null,
-   "score": 87
+   "score": 88
   },
   {
    "repo": "Caho1/open-claude-ui",
    "stars": 1283,
-   "d24": 28,
+   "d24": 27,
    "est": false,
    "forks": 265,
    "contrib": null,
@@ -376,12 +376,12 @@
   },
   {
    "repo": "feder-cr/git-ai",
-   "stars": 1919,
-   "d24": -1233,
+   "stars": 1502,
+   "d24": -2049,
    "est": false,
    "forks": 298,
    "contrib": null,
-   "score": 87
+   "score": 85
   }
  ],
  "models": [
@@ -394,7 +394,7 @@
    "grow": null,
    "score": 95,
    "cat": "Vision",
-   "likes": 1912
+   "likes": 1919
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -416,7 +416,7 @@
    "grow": 14,
    "score": 87,
    "cat": "Tools",
-   "likes": 821
+   "likes": 822
   },
   {
    "name": "Muse-Spark-Open-816B-A42B",
@@ -447,7 +447,7 @@
    "lic": "Open weights",
    "at": "2026-10-13T10:58:40.000Z",
    "dl": 78897,
-   "grow": 27,
+   "grow": null,
    "score": 85,
    "cat": "Vision",
    "likes": 558
@@ -760,6 +760,13 @@
  },
  "headlines": [
   {
+   "t": "Anthropic's IPO prospectus: H1 2026 revenue of $16.3B, ~20% from two customers, vs. $1.1B in H1 2025, and an $80.7B net loss driven by accounting charges",
+   "url": "https://www.techmeme.com/261020/p40#a261020p40",
+   "at": "2026-10-20T19:46:50.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Americans, this is your chance to slap down the tech broligarchs",
    "url": "https://www.theguardian.com/global/2026/oct/19/midterm-elections-tech-broligarchs",
    "at": "2026-10-20T19:16:05Z",
@@ -851,13 +858,6 @@
    "kind": "News"
   },
   {
-   "t": "Sources: OpenAI has retreated from advocating for strict export controls on US chipmakers selling to China, a boon for Nvidia and aligning with President Trump",
-   "url": "https://www.techmeme.com/261020/p25#a261020p25",
-   "at": "2026-10-20T13:55:03.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
    "url": "https://openai.com/index/ted-taylor-restaurant",
    "at": "2026-10-20T10:00:00.000Z",
@@ -865,10 +865,10 @@
    "kind": "Lab blog"
   },
   {
-   "t": "America's largest bank CEO Jamie Dimon makes it clear at earnings call that not giving AI Agents access to bank's data; calls it too risky for clients and JPMorgan",
-   "url": "https://timesofindia.indiatimes.com/technology/tech-news/americas-largest-bank-ceo-jamie-dimon-makes-it-clear-at-earnings-call-that-not-giving-ai-agents-access-to-banks-data-calls-it-too-risky-for-clients-and-jpmorgan/articleshow/135063165.cms",
-   "at": "2026-10-20T06:53:00Z",
-   "src": "Times of India",
+   "t": "ABB CEO sees no slowdown in demand or customer hesitation in data centres",
+   "url": "https://www.marketscreener.com/news/abb-ceo-sees-no-slowdown-in-demand-or-customer-hesitation-in-data-centres-ce785cdbd088f227",
+   "at": "2026-10-20T07:54:22Z",
+   "src": "MarketScreener",
    "kind": "News"
   }
  ],
@@ -878,8 +878,8 @@
    "t": "DeepInfer: High-performance inference framework for DeepSeek models",
    "url": "https://news.ycombinator.com/item?id=50163277",
    "link": "https://github.com/deepseek-ai/DeepInfer",
-   "up": 1948,
-   "com": 755,
+   "up": 1970,
+   "com": 765,
    "at": "2026-10-20T09:08:54.000Z"
   },
   {
@@ -887,8 +887,8 @@
    "t": "Voxtral 3",
    "url": "https://news.ycombinator.com/item?id=50168396",
    "link": "https://mistral.ai/news/voxtral-3/",
-   "up": 339,
-   "com": 89,
+   "up": 364,
+   "com": 99,
    "at": "2026-10-20T16:02:07.000Z"
   },
   {
@@ -896,8 +896,8 @@
    "t": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
    "url": "https://news.ycombinator.com/item?id=50169053",
    "link": "https://github.com/google-pytorch/torch_tpu",
-   "up": 136,
-   "com": 40,
+   "up": 157,
+   "com": 44,
    "at": "2026-10-20T16:40:24.000Z"
   },
   {
@@ -905,8 +905,8 @@
    "t": "Publish fake stats, get cited in LLMs",
    "url": "https://news.ycombinator.com/item?id=50165801",
    "link": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
-   "up": 265,
-   "com": 145,
+   "up": 272,
+   "com": 154,
    "at": "2026-10-20T13:06:22.000Z"
   },
   {
@@ -914,8 +914,8 @@
    "t": "How I got over 300 Tor exit nodes removed",
    "url": "https://news.ycombinator.com/item?id=50166257",
    "link": "https://kaba.cx/posts/20261020_Tor/",
-   "up": 223,
-   "com": 57,
+   "up": 233,
+   "com": 58,
    "at": "2026-10-20T13:39:24.000Z"
   },
   {
@@ -923,8 +923,8 @@
    "t": "Steam Users Beg for \"No AI\" Filter as Vibecoders Flood Next Fest",
    "url": "https://news.ycombinator.com/item?id=50168190",
    "link": "https://www.ign.com/articles/steam-fans-are-begging-for-a-no-ai-filter-as-steam-next-fest-is-filled-with-slop",
-   "up": 138,
-   "com": 151,
+   "up": 145,
+   "com": 156,
    "at": "2026-10-20T15:48:26.000Z"
   }
  ]
