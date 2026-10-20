@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-20T19:01:01.151Z"
+  "updated": "2026-10-20T19:30:53.243Z"
  },
  "pulse": {
   "trending": 80,
   "accelerating": 1,
   "newModels": 10,
-  "discussions": 43,
-  "stars": 2270
+  "discussions": 42,
+  "stars": 929
  },
  "rising": [
   {
@@ -24,9 +24,9 @@
    "grow": null,
    "desc": "A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo.",
    "meta": [
-    "★ 1,405",
-    "~1,433 in 24h",
-    "Created 24h ago"
+    "★ 1,467",
+    "~1,465 in 24h",
+    "Created yesterday"
    ],
    "at": "2026-10-19T19:29:01Z",
    "breakout": null,
@@ -69,12 +69,12 @@
    "owner": "feder-cr",
    "src": "gh",
    "cat": "Agents",
-   "score": 90,
-   "grow": 2,
+   "score": 87,
+   "grow": -23,
    "desc": "Git designed for AI agents.",
    "meta": [
-    "★ 2,542",
-    "+133 in 24h",
+    "★ 1,919",
+    "+-1,233 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -87,11 +87,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 87,
-   "grow": 5,
+   "grow": 6,
    "desc": "One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper.",
    "meta": [
-    "★ 1,154",
-    "+214 in 24h",
+    "★ 1,159",
+    "+216 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-17T02:53:24Z",
@@ -105,7 +105,7 @@
    "cat": "Tools",
    "score": 87,
    "grow": 14,
-   "desc": "Model on Hugging Face · open weights · ♥ 820",
+   "desc": "Model on Hugging Face · open weights · ♥ 821",
    "meta": [
     "13K downloads",
     "Released 20 days ago"
@@ -120,11 +120,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 86,
-   "grow": 15,
+   "grow": 16,
    "desc": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
    "meta": [
-    "★ 1,889",
-    "+460 in 24h",
+    "★ 1,895",
+    "+453 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-15T06:52:46Z",
@@ -138,7 +138,7 @@
    "cat": "Infrastructure",
    "score": 86,
    "grow": 23,
-   "desc": "Model on Hugging Face · open weights · ♥ 603",
+   "desc": "Model on Hugging Face · open weights · ♥ 604",
    "meta": [
     "2.6K downloads",
     "Released 35 days ago"
@@ -170,7 +170,7 @@
    "cat": "Vision",
    "score": 85,
    "grow": 27,
-   "desc": "Vision on Hugging Face · open weights · ♥ 557",
+   "desc": "Vision on Hugging Face · open weights · ♥ 558",
    "meta": [
     "79K downloads",
     "Released 7 days ago"
@@ -225,8 +225,8 @@
    "name": "free-my-tv",
    "url": "https://github.com/simbasjungles/free-my-tv",
    "from": "GitHub",
-   "use": 1433,
-   "useLabel": "~1,433 stars/day",
+   "use": 1465,
+   "useLabel": "~1,465 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -340,48 +340,48 @@
  "github": [
   {
    "repo": "simbasjungles/free-my-tv",
-   "stars": 1405,
-   "d24": 1433,
+   "stars": 1467,
+   "d24": 1465,
    "est": true,
-   "forks": 146,
+   "forks": 153,
    "contrib": null,
    "score": 98
   },
   {
    "repo": "Leonxlnx/earshot",
-   "stars": 1889,
-   "d24": 460,
+   "stars": 1895,
+   "d24": 453,
    "est": false,
-   "forks": 108,
+   "forks": 109,
    "contrib": null,
    "score": 86
   },
   {
    "repo": "aicodeking/leanrea",
-   "stars": 1154,
-   "d24": 214,
+   "stars": 1159,
+   "d24": 216,
    "est": false,
    "forks": 172,
    "contrib": null,
    "score": 87
   },
   {
-   "repo": "feder-cr/git-ai",
-   "stars": 2542,
-   "d24": 133,
-   "est": false,
-   "forks": 298,
-   "contrib": null,
-   "score": 90
-  },
-  {
    "repo": "Caho1/open-claude-ui",
    "stars": 1283,
-   "d24": 30,
+   "d24": 28,
    "est": false,
    "forks": 265,
    "contrib": null,
-   "score": 76
+   "score": 77
+  },
+  {
+   "repo": "feder-cr/git-ai",
+   "stars": 1919,
+   "d24": -1233,
+   "est": false,
+   "forks": 298,
+   "contrib": null,
+   "score": 87
   }
  ],
  "models": [
@@ -394,7 +394,7 @@
    "grow": null,
    "score": 95,
    "cat": "Vision",
-   "likes": 1908
+   "likes": 1912
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -405,7 +405,7 @@
    "grow": 12,
    "score": 91,
    "cat": "Vision",
-   "likes": 1069
+   "likes": 1072
   },
   {
    "name": "drama-3",
@@ -416,7 +416,7 @@
    "grow": 14,
    "score": 87,
    "cat": "Tools",
-   "likes": 820
+   "likes": 821
   },
   {
    "name": "Muse-Spark-Open-816B-A42B",
@@ -428,7 +428,7 @@
    "grow": 23,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 603
+   "likes": 604
   },
   {
    "name": "embeddinggemma-2",
@@ -450,7 +450,7 @@
    "grow": 27,
    "score": 85,
    "cat": "Vision",
-   "likes": 557
+   "likes": 558
   }
  ],
  "free": [
@@ -760,6 +760,20 @@
  },
  "headlines": [
   {
+   "t": "Americans, this is your chance to slap down the tech broligarchs",
+   "url": "https://www.theguardian.com/global/2026/oct/19/midterm-elections-tech-broligarchs",
+   "at": "2026-10-20T19:16:05Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "Google launches TorchTPU, an open-source version of PyTorch to let AI apps run on TPUs and Google Cloud via simple configuration changes without rewriting code",
+   "url": "https://www.techmeme.com/261020/p37#a261020p37",
+   "at": "2026-10-20T19:00:58.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "OpenAI acquires Orchestra Bio, which builds AI agents for managing drug development, and plans to integrate its tech into OpenAI life sciences suite Rosalind",
    "url": "https://www.techmeme.com/261020/p34#a261020p34",
    "at": "2026-10-20T18:20:01.000Z",
@@ -844,20 +858,6 @@
    "kind": "News"
   },
   {
-   "t": "Arda, which builds AI software and agents to accelerate assembly lines and manufacturing, raised $230M at a $1.5B valuation led by Altimeter, Accel, and Khosla",
-   "url": "https://www.techmeme.com/261020/p23#a261020p23",
-   "at": "2026-10-20T13:25:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Eka Robotics, which is developing a \"vision-force-action\" architecture for its physical AI models, raised a $150M Series A at a $1.45B post-money valuation",
-   "url": "https://www.techmeme.com/261020/p22#a261020p22",
-   "at": "2026-10-20T13:15:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
    "url": "https://openai.com/index/ted-taylor-restaurant",
    "at": "2026-10-20T10:00:00.000Z",
@@ -865,11 +865,11 @@
    "kind": "Lab blog"
   },
   {
-   "t": "HUGE GPT-6.5 LEAK! NEW Claude Fable 5.5, Gemini 4 Carbon, MiniMax M3.1 Flash & Kimi K3.1! AI NEWS",
-   "url": "https://www.youtube.com/watch?v=2BXktpaCEN4",
-   "at": "2026-10-20T07:01:16Z",
-   "src": "WorldofAI",
-   "kind": "Video"
+   "t": "America's largest bank CEO Jamie Dimon makes it clear at earnings call that not giving AI Agents access to bank's data; calls it too risky for clients and JPMorgan",
+   "url": "https://timesofindia.indiatimes.com/technology/tech-news/americas-largest-bank-ceo-jamie-dimon-makes-it-clear-at-earnings-call-that-not-giving-ai-agents-access-to-banks-data-calls-it-too-risky-for-clients-and-jpmorgan/articleshow/135063165.cms",
+   "at": "2026-10-20T06:53:00Z",
+   "src": "Times of India",
+   "kind": "News"
   }
  ],
  "discussions": [
@@ -878,8 +878,8 @@
    "t": "DeepInfer: High-performance inference framework for DeepSeek models",
    "url": "https://news.ycombinator.com/item?id=50163277",
    "link": "https://github.com/deepseek-ai/DeepInfer",
-   "up": 1920,
-   "com": 747,
+   "up": 1948,
+   "com": 755,
    "at": "2026-10-20T09:08:54.000Z"
   },
   {
@@ -887,8 +887,8 @@
    "t": "Voxtral 3",
    "url": "https://news.ycombinator.com/item?id=50168396",
    "link": "https://mistral.ai/news/voxtral-3/",
-   "up": 297,
-   "com": 77,
+   "up": 339,
+   "com": 89,
    "at": "2026-10-20T16:02:07.000Z"
   },
   {
@@ -896,8 +896,8 @@
    "t": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
    "url": "https://news.ycombinator.com/item?id=50169053",
    "link": "https://github.com/google-pytorch/torch_tpu",
-   "up": 115,
-   "com": 30,
+   "up": 136,
+   "com": 40,
    "at": "2026-10-20T16:40:24.000Z"
   },
   {
@@ -905,27 +905,27 @@
    "t": "Publish fake stats, get cited in LLMs",
    "url": "https://news.ycombinator.com/item?id=50165801",
    "link": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
-   "up": 258,
-   "com": 139,
+   "up": 265,
+   "com": 145,
    "at": "2026-10-20T13:06:22.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Steam Users Beg for \"No AI\" Filter as Vibecoders Flood Next Fest",
-   "url": "https://news.ycombinator.com/item?id=50168190",
-   "link": "https://www.ign.com/articles/steam-fans-are-begging-for-a-no-ai-filter-as-steam-next-fest-is-filled-with-slop",
-   "up": 130,
-   "com": 127,
-   "at": "2026-10-20T15:48:26.000Z"
   },
   {
    "src": "Hacker News",
    "t": "How I got over 300 Tor exit nodes removed",
    "url": "https://news.ycombinator.com/item?id=50166257",
    "link": "https://kaba.cx/posts/20261020_Tor/",
-   "up": 214,
-   "com": 55,
+   "up": 223,
+   "com": 57,
    "at": "2026-10-20T13:39:24.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Steam Users Beg for \"No AI\" Filter as Vibecoders Flood Next Fest",
+   "url": "https://news.ycombinator.com/item?id=50168190",
+   "link": "https://www.ign.com/articles/steam-fans-are-begging-for-a-no-ai-filter-as-steam-next-fest-is-filled-with-slop",
+   "up": 138,
+   "com": 151,
+   "at": "2026-10-20T15:48:26.000Z"
   }
  ]
 }
