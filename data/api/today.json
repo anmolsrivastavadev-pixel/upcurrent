@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-20T11:30:51.480Z"
+  "updated": "2026-10-20T12:01:08.631Z"
  },
  "pulse": {
   "trending": 78,
   "accelerating": 0,
   "newModels": 9,
-  "discussions": 50,
-  "stars": 1058
+  "discussions": 51,
+  "stars": 1237
  },
  "rising": [
   {
@@ -56,8 +56,8 @@
    "grow": null,
    "desc": "Git designed for AI agents.",
    "meta": [
-    "★ 2,491",
-    "~505 in 24h",
+    "★ 2,503",
+    "~506 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -70,11 +70,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 87,
-   "grow": null,
+   "grow": 8,
    "desc": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
    "meta": [
-    "★ 1,752",
-    "~337 in 24h",
+    "★ 1,769",
+    "+516 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-15T06:52:46Z",
@@ -88,7 +88,7 @@
    "cat": "Tools",
    "score": 87,
    "grow": 14,
-   "desc": "Model on Hugging Face · open weights · ♥ 796",
+   "desc": "Model on Hugging Face · open weights · ♥ 797",
    "meta": [
     "13K downloads",
     "Released 19 days ago"
@@ -139,7 +139,7 @@
    "grow": null,
    "desc": "Memory-native evolution requires making memory an intrinsic capability of foundation models, enabling them to continuously accumulate and utilize information.",
    "meta": [
-    "▲ 127 upvotes",
+    "▲ 128 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-18T20:00:00.000Z",
@@ -169,7 +169,7 @@
    "cat": "Vision",
    "score": 84,
    "grow": 27,
-   "desc": "Vision on Hugging Face · open weights · ♥ 544",
+   "desc": "Vision on Hugging Face · open weights · ♥ 545",
    "meta": [
     "79K downloads",
     "Released 7 days ago"
@@ -204,11 +204,28 @@
    "verdict": "Talk only, no public usage numbers"
   },
   {
-   "name": "git-ai",
-   "url": "https://github.com/feder-cr/git-ai",
+   "name": "Qwen3.8-Flash-Next",
+   "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+   "from": "Hugging Face",
+   "use": 2530599,
+   "useLabel": "2.5M downloads",
+   "usePct": 0.9705882352941176,
+   "talk": [
+    {
+     "src": "DEV",
+     "t": "Qwen3.8-Flash-Next vs Claude Opus 5.5: Six-way benchmark on a real Rust feature",
+     "url": "https://dev.to/deepu105/qwen38-flash-next-vs-claude-opus-55-six-way-benchmark-on-a-real-rust-feature-1n98"
+    }
+   ],
+   "buzz": 1,
+   "verdict": "The hype matches real use"
+  },
+  {
+   "name": "earshot",
+   "url": "https://github.com/Leonxlnx/earshot",
    "from": "GitHub",
-   "use": 505,
-   "useLabel": "~505 stars/day",
+   "use": 516,
+   "useLabel": "+516 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -226,18 +243,28 @@
    "verdict": "Used a lot, hardly talked about"
   },
   {
-   "name": "Qwen3.8-Flash-Next",
-   "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+   "name": "Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+   "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
    "from": "Hugging Face",
-   "use": 2530599,
-   "useLabel": "2.5M downloads",
-   "usePct": 0.9705882352941176,
+   "use": 1737441,
+   "useLabel": "1.7M downloads",
+   "usePct": 0.9411764705882353,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
   }
  ],
  "receipts": [
+  {
+   "name": "feder-cr/git-ai",
+   "url": "https://github.com/feder-cr/git-ai",
+   "kind": "stars",
+   "first": "2026-10-17T00:01:02.417Z",
+   "firstV": 1057,
+   "m": 2500,
+   "at": "2026-10-20T12:01:08.631Z",
+   "lead": 84.00172611111111
+  },
   {
    "name": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4",
    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4",
@@ -307,41 +334,31 @@
    "m": 100000,
    "at": "2026-10-18T09:01:02.233Z",
    "lead": 314.0000347222222
-  },
-  {
-   "name": "LiquidAI/LFM2.5-24B-A2B-GGUF",
-   "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B-GGUF",
-   "kind": "downloads",
-   "first": "2026-10-15T06:30:54.927Z",
-   "firstV": 17807,
-   "m": 100000,
-   "at": "2026-10-18T09:01:02.233Z",
-   "lead": 74.50202944444445
   }
  ],
  "github": [
   {
-   "repo": "feder-cr/git-ai",
-   "stars": 2491,
-   "d24": 505,
-   "est": true,
-   "forks": 279,
-   "contrib": null,
-   "score": 91
-  },
-  {
    "repo": "Leonxlnx/earshot",
-   "stars": 1752,
-   "d24": 337,
-   "est": true,
+   "stars": 1769,
+   "d24": 516,
+   "est": false,
    "forks": 102,
    "contrib": null,
    "score": 87
   },
   {
+   "repo": "feder-cr/git-ai",
+   "stars": 2503,
+   "d24": 506,
+   "est": true,
+   "forks": 282,
+   "contrib": null,
+   "score": 91
+  },
+  {
    "repo": "Caho1/open-claude-ui",
-   "stars": 1273,
-   "d24": 216,
+   "stars": 1274,
+   "d24": 215,
    "est": true,
    "forks": 265,
    "contrib": null,
@@ -358,7 +375,7 @@
    "grow": 55,
    "score": 96,
    "cat": "Vision",
-   "likes": 1818
+   "likes": 1827
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -380,7 +397,7 @@
    "grow": 14,
    "score": 87,
    "cat": "Tools",
-   "likes": 796
+   "likes": 797
   },
   {
    "name": "embeddinggemma-2",
@@ -402,7 +419,7 @@
    "grow": null,
    "score": 85,
    "cat": "Infrastructure",
-   "likes": 2012
+   "likes": 2013
   },
   {
    "name": "flux-3-image-klein",
@@ -413,7 +430,7 @@
    "grow": 27,
    "score": 84,
    "cat": "Vision",
-   "likes": 544
+   "likes": 545
   }
  ],
  "free": [
@@ -487,7 +504,7 @@
    "ctx": null,
    "url": null,
    "caps": [],
-   "added": true
+   "added": false
   },
   {
    "name": "MiniMax M3.1 Flash",
@@ -499,7 +516,7 @@
     "reasoning",
     "tools"
    ],
-   "added": true
+   "added": false
   },
   {
    "name": "Xing4.0 29B A4B",
@@ -726,24 +743,24 @@
     "prov": "OpenCode Zen",
     "url": null,
     "at": "2026-10-19T13:01:12.345Z"
-   },
-   {
-    "type": "added",
-    "name": "minimax-m3.1-flash",
-    "prov": "OpenCode Zen",
-    "url": null,
-    "at": "2026-10-19T12:01:08.586Z"
-   },
-   {
-    "type": "added",
-    "name": "MiniMax M3.1 Flash",
-    "prov": "OpenRouter",
-    "url": "https://openrouter.ai/minimax/minimax-m3.1-flash:free",
-    "at": "2026-10-19T12:01:08.586Z"
    }
   ]
  },
  "headlines": [
+  {
+   "t": "Note-taking tool Otter.ai raised $320M in non-dilutive capital from General Catalyst's Customer Value Fund; PitchBook says it raised $50M prior to this round",
+   "url": "https://www.techmeme.com/261020/p16#a261020p16",
+   "at": "2026-10-20T11:55:02.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Four Z.ai founders participated in a 2018 to 2021 research project co-funded by CGTRI, which the UK's MI5 said had \"very strong ties\" to China's main spy agency",
+   "url": "https://www.techmeme.com/261020/p15#a261020p15",
+   "at": "2026-10-20T11:35:03.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
   {
    "t": "Anthropic's leaked federal AI bill draws widespread criticism from AI safety advocates for being significantly weaker than the bipartisan FRONTIER Act",
    "url": "https://www.techmeme.com/261020/p12#a261020p12",
@@ -780,6 +797,13 @@
    "kind": "News"
   },
   {
+   "t": "HUGE GPT-6.5 LEAK! NEW Claude Fable 5.5, Gemini 4 Carbon, MiniMax M3.1 Flash & Kimi K3.1! AI NEWS",
+   "url": "https://www.youtube.com/watch?v=2BXktpaCEN4",
+   "at": "2026-10-20T07:01:16Z",
+   "src": "WorldofAI",
+   "kind": "Video"
+  },
+  {
    "t": "Leaked documents detail ECHOTRIBBLE, a nascent US Army Cyber Command program for agentic AI to autonomously spread across networks to find and eliminate targets",
    "url": "https://www.techmeme.com/261020/p2#a261020p2",
    "at": "2026-10-20T06:15:01.000Z",
@@ -792,13 +816,6 @@
    "at": "2026-10-20T06:00:18Z",
    "src": "The Guardian",
    "kind": "News"
-  },
-  {
-   "t": "'Gutfeld!': Bricklayer DUPED by AI girlfriend",
-   "url": "https://www.youtube.com/watch?v=55YheVIFwrM",
-   "at": "2026-10-20T05:30:08Z",
-   "src": "Fox News",
-   "kind": "Video"
   },
   {
    "t": "Don’t be fooled. The AI that was supposed to save us time is doing just the opposite | Gaby Hinsliff",
@@ -829,31 +846,17 @@
    "kind": "Lab blog"
   },
   {
-   "t": "Leadership will determine the next AI dividend",
-   "url": "https://www.afr.com/companies/financial-services/leadership-will-determine-the-next-ai-dividend-20261020-p613my",
-   "at": "2026-10-19T23:30:30Z",
-   "src": "Australian Financial Review",
+   "t": "Nvidia CEO urges German manufacturers to adopt AI, saying digital tech won't replace heavy industry",
+   "url": "https://www.thestar.com.my/tech/tech-news/2026/10/20/nvidia-ceo-urges-german-manufacturers-to-adopt-ai-saying-digital-tech-won039t-replace-heavy-industry",
+   "at": "2026-10-20T00:00:00Z",
+   "src": "The Star",
    "kind": "News"
   },
   {
-   "t": "AI agents are rewriting the rules of zero trust",
-   "url": "https://itwire.com/guest-articles/guest-opinion/ai-agents-are-rewriting-the-rules-of-zero-trust",
-   "at": "2026-10-19T23:18:17Z",
-   "src": "iTWire",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI seeks to accelerate fundraising ahead of Anthropic IPO, sources say",
-   "url": "https://www.marketscreener.com/news/openai-seeks-to-accelerate-fundraising-ahead-of-anthropic-ipo-sources-say-ce785cdbdf8cf321",
-   "at": "2026-10-19T23:16:00Z",
-   "src": "MarketScreener",
-   "kind": "News"
-  },
-  {
-   "t": "Musk pledges a share of his SpaceX company to 'every kid in America'",
-   "url": "https://www.dailyexcelsior.com/musk-pledges-a-share-of-his-spacex-company-to-every-kid-in-america/",
-   "at": "2026-10-19T22:54:44Z",
-   "src": "Daily Excelsior",
+   "t": "What’s likely to move the market",
+   "url": "https://www.cnbc.com/2026/10/19/tuesdays-big-stock-stories-whats-likely-to-move-the-market.html",
+   "at": "2026-10-19T23:43:14Z",
+   "src": "CNBC",
    "kind": "News"
   }
  ],
@@ -863,8 +866,8 @@
    "t": "DeepSeek just open-sourced its inference engine",
    "url": "https://news.ycombinator.com/item?id=50163277",
    "link": "https://github.com/deepseek-ai/DeepInfer",
-   "up": 445,
-   "com": 150,
+   "up": 588,
+   "com": 203,
    "at": "2026-10-20T09:08:54.000Z"
   },
   {
@@ -872,8 +875,8 @@
    "t": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
    "url": "https://news.ycombinator.com/item?id=50159341",
    "link": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
-   "up": 484,
-   "com": 143,
+   "up": 513,
+   "com": 146,
    "at": "2026-10-19T23:22:18.000Z"
   },
   {
@@ -881,8 +884,8 @@
    "t": "Google cloud outage takes down banks",
    "url": "https://news.ycombinator.com/item?id=50163961",
    "link": "https://www.neowin.net/news/google-cloud-outage-takes-down-hsbc-revolut-bank-of-scotland-llyods-equifax-more/",
-   "up": 32,
-   "com": 9,
+   "up": 56,
+   "com": 21,
    "at": "2026-10-20T10:26:02.000Z"
   },
   {
@@ -890,27 +893,27 @@
    "t": "MicroG: Free-libre re-implementation of Google's proprietary Android user space",
    "url": "https://news.ycombinator.com/item?id=50162177",
    "link": "https://github.com/microg/GmsCore/wiki",
-   "up": 90,
-   "com": 5,
+   "up": 120,
+   "com": 7,
    "at": "2026-10-20T06:37:07.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "CERN and Mistral sign a statement of intent to establish a strategic partnership",
-   "url": "https://news.ycombinator.com/item?id=50153630",
-   "link": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
-   "up": 345,
-   "com": 58,
-   "at": "2026-10-19T15:28:24.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Android apps running native on macOS",
    "url": "https://news.ycombinator.com/item?id=50154624",
    "link": "https://github.com/kksimp/Mac.apk",
-   "up": 321,
-   "com": 174,
+   "up": 329,
+   "com": 177,
    "at": "2026-10-19T16:45:30.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "CERN and Mistral sign a statement of intent to establish a strategic partnership",
+   "url": "https://news.ycombinator.com/item?id=50153630",
+   "link": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
+   "up": 346,
+   "com": 58,
+   "at": "2026-10-19T15:28:24.000Z"
   }
  ]
 }
