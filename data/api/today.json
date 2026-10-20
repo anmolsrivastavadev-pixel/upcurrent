@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-20T11:01:06.694Z"
+  "updated": "2026-10-20T11:30:51.480Z"
  },
  "pulse": {
   "trending": 78,
   "accelerating": 0,
-  "newModels": 10,
+  "newModels": 9,
   "discussions": 50,
-  "stars": 1060
+  "stars": 1058
  },
  "rising": [
   {
@@ -56,8 +56,8 @@
    "grow": null,
    "desc": "Git designed for AI agents.",
    "meta": [
-    "★ 2,490",
-    "~507 in 24h",
+    "★ 2,491",
+    "~505 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -73,8 +73,8 @@
    "grow": null,
    "desc": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
    "meta": [
-    "★ 1,736",
-    "~336 in 24h",
+    "★ 1,752",
+    "~337 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-15T06:52:46Z",
@@ -88,7 +88,7 @@
    "cat": "Tools",
    "score": 87,
    "grow": 14,
-   "desc": "Model on Hugging Face · open weights · ♥ 795",
+   "desc": "Model on Hugging Face · open weights · ♥ 796",
    "meta": [
     "13K downloads",
     "Released 19 days ago"
@@ -139,7 +139,7 @@
    "grow": null,
    "desc": "Memory-native evolution requires making memory an intrinsic capability of foundation models, enabling them to continuously accumulate and utilize information.",
    "meta": [
-    "▲ 126 upvotes",
+    "▲ 127 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-18T20:00:00.000Z",
@@ -155,7 +155,7 @@
    "grow": null,
    "desc": "Run AI agents on one Mac and use its windows on another",
    "meta": [
-    "▲ 354 votes",
+    "▲ 355 votes",
     "49 comments",
     "Launched yesterday"
    ],
@@ -169,7 +169,7 @@
    "cat": "Vision",
    "score": 84,
    "grow": 27,
-   "desc": "Vision on Hugging Face · open weights · ♥ 543",
+   "desc": "Vision on Hugging Face · open weights · ♥ 544",
    "meta": [
     "79K downloads",
     "Released 7 days ago"
@@ -179,31 +179,7 @@
    "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein"
   }
  ],
- "breakouts": [
-  {
-   "key": "space",
-   "label": "SPACE",
-   "n": 3,
-   "sources": [
-    {
-     "src": "GitHub",
-     "t": "perplexityai/SPACE",
-     "url": "https://github.com/perplexityai/SPACE"
-    },
-    {
-     "src": "Hacker News",
-     "t": "MicroG: Free-libre re-implementation of Google's proprietary Android user space",
-     "url": "https://news.ycombinator.com/item?id=50162177"
-    },
-    {
-     "src": "Foreign Policy",
-     "t": "China Is a Peer Competitor in a Dangerous Space Race",
-     "url": "http://foreignpolicy.com/2026/10/19/china-space-musk-race-satellites-moon/"
-    }
-   ],
-   "since": "2026-10-19T00:27:53.628Z"
-  }
- ],
+ "breakouts": [],
  "hype": [
   {
    "name": "Gemini 4",
@@ -231,8 +207,8 @@
    "name": "git-ai",
    "url": "https://github.com/feder-cr/git-ai",
    "from": "GitHub",
-   "use": 507,
-   "useLabel": "~507 stars/day",
+   "use": 505,
+   "useLabel": "~505 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -346,17 +322,17 @@
  "github": [
   {
    "repo": "feder-cr/git-ai",
-   "stars": 2490,
-   "d24": 507,
+   "stars": 2491,
+   "d24": 505,
    "est": true,
-   "forks": 277,
+   "forks": 279,
    "contrib": null,
    "score": 91
   },
   {
    "repo": "Leonxlnx/earshot",
-   "stars": 1736,
-   "d24": 336,
+   "stars": 1752,
+   "d24": 337,
    "est": true,
    "forks": 102,
    "contrib": null,
@@ -365,7 +341,7 @@
   {
    "repo": "Caho1/open-claude-ui",
    "stars": 1273,
-   "d24": 217,
+   "d24": 216,
    "est": true,
    "forks": 265,
    "contrib": null,
@@ -382,7 +358,7 @@
    "grow": 55,
    "score": 96,
    "cat": "Vision",
-   "likes": 1806
+   "likes": 1818
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -393,7 +369,7 @@
    "grow": 12,
    "score": 92,
    "cat": "Vision",
-   "likes": 1026
+   "likes": 1029
   },
   {
    "name": "drama-3",
@@ -404,7 +380,7 @@
    "grow": 14,
    "score": 87,
    "cat": "Tools",
-   "likes": 795
+   "likes": 796
   },
   {
    "name": "embeddinggemma-2",
@@ -415,7 +391,7 @@
    "grow": null,
    "score": 86,
    "cat": "Vision",
-   "likes": 2737
+   "likes": 2740
   },
   {
    "name": "humanizer",
@@ -426,7 +402,7 @@
    "grow": null,
    "score": 85,
    "cat": "Infrastructure",
-   "likes": 2011
+   "likes": 2012
   },
   {
    "name": "flux-3-image-klein",
@@ -437,7 +413,7 @@
    "grow": 27,
    "score": 84,
    "cat": "Vision",
-   "likes": 543
+   "likes": 544
   }
  ],
  "free": [
@@ -846,10 +822,31 @@
    "kind": "News"
   },
   {
-   "t": "Inception debuts Mercury 3, a diffusion LLM that it says tops GPT-6 Luna, Claude Haiku 5.5, and GLM-5.3 Flash on agentic benchmarks while being 4x to 8x faster",
-   "url": "https://www.techmeme.com/261019/p51#a261019p51",
-   "at": "2026-10-20T01:45:01.000Z",
-   "src": "Techmeme",
+   "t": "MPS in PyTorch 2.15",
+   "url": "https://huggingface.co/blog/mps-pytorch-2-15",
+   "at": "2026-10-20T00:00:00.000Z",
+   "src": "Hugging Face",
+   "kind": "Lab blog"
+  },
+  {
+   "t": "Leadership will determine the next AI dividend",
+   "url": "https://www.afr.com/companies/financial-services/leadership-will-determine-the-next-ai-dividend-20261020-p613my",
+   "at": "2026-10-19T23:30:30Z",
+   "src": "Australian Financial Review",
+   "kind": "News"
+  },
+  {
+   "t": "AI agents are rewriting the rules of zero trust",
+   "url": "https://itwire.com/guest-articles/guest-opinion/ai-agents-are-rewriting-the-rules-of-zero-trust",
+   "at": "2026-10-19T23:18:17Z",
+   "src": "iTWire",
+   "kind": "News"
+  },
+  {
+   "t": "OpenAI seeks to accelerate fundraising ahead of Anthropic IPO, sources say",
+   "url": "https://www.marketscreener.com/news/openai-seeks-to-accelerate-fundraising-ahead-of-anthropic-ipo-sources-say-ce785cdbdf8cf321",
+   "at": "2026-10-19T23:16:00Z",
+   "src": "MarketScreener",
    "kind": "News"
   },
   {
@@ -857,27 +854,6 @@
    "url": "https://www.dailyexcelsior.com/musk-pledges-a-share-of-his-spacex-company-to-every-kid-in-america/",
    "at": "2026-10-19T22:54:44Z",
    "src": "Daily Excelsior",
-   "kind": "News"
-  },
-  {
-   "t": "'Once He Leaves, The Case Is Over': Judge Jails OpenAI Bugging Suspect After Saudi Consulate Offers 'Blank-Check' Bail",
-   "url": "https://www.zerohedge.com/geopolitical/once-he-leaves-case-over-judge-jails-openai-bugging-suspect-after-saudi-consulate",
-   "at": "2026-10-19T22:50:00Z",
-   "src": "ZeroHedge",
-   "kind": "News"
-  },
-  {
-   "t": "New AI tool can predict cancer survival by a single patient selfie, study suggests",
-   "url": "https://www.theguardian.com/technology/2026/oct/19/ai-tool-predict-cancer-survival-patient-selfie",
-   "at": "2026-10-19T22:30:08Z",
-   "src": "The Guardian",
-   "kind": "News"
-  },
-  {
-   "t": "AI facial health recognition tools help physicians assess age and survival risk to guide personalized treatment",
-   "url": "https://medicalxpress.com/news/2026-10-ai-facial-health-recognition-tools.html",
-   "at": "2026-10-19T22:30:02Z",
-   "src": "Medical Xpress",
    "kind": "News"
   }
  ],
@@ -887,8 +863,8 @@
    "t": "DeepSeek just open-sourced its inference engine",
    "url": "https://news.ycombinator.com/item?id=50163277",
    "link": "https://github.com/deepseek-ai/DeepInfer",
-   "up": 312,
-   "com": 105,
+   "up": 445,
+   "com": 150,
    "at": "2026-10-20T09:08:54.000Z"
   },
   {
@@ -896,25 +872,34 @@
    "t": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
    "url": "https://news.ycombinator.com/item?id=50159341",
    "link": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
-   "up": 466,
-   "com": 137,
+   "up": 484,
+   "com": 143,
    "at": "2026-10-19T23:22:18.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Ask HN: How to deal with shipping AI-written code you don't understand?",
-   "url": "https://news.ycombinator.com/item?id=50151036",
-   "link": "",
-   "up": 470,
-   "com": 610,
-   "at": "2026-10-19T11:24:34.000Z"
+   "t": "Google cloud outage takes down banks",
+   "url": "https://news.ycombinator.com/item?id=50163961",
+   "link": "https://www.neowin.net/news/google-cloud-outage-takes-down-hsbc-revolut-bank-of-scotland-llyods-equifax-more/",
+   "up": 32,
+   "com": 9,
+   "at": "2026-10-20T10:26:02.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "MicroG: Free-libre re-implementation of Google's proprietary Android user space",
+   "url": "https://news.ycombinator.com/item?id=50162177",
+   "link": "https://github.com/microg/GmsCore/wiki",
+   "up": 90,
+   "com": 5,
+   "at": "2026-10-20T06:37:07.000Z"
   },
   {
    "src": "Hacker News",
    "t": "CERN and Mistral sign a statement of intent to establish a strategic partnership",
    "url": "https://news.ycombinator.com/item?id=50153630",
    "link": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
-   "up": 344,
+   "up": 345,
    "com": 58,
    "at": "2026-10-19T15:28:24.000Z"
   },
@@ -923,18 +908,9 @@
    "t": "Android apps running native on macOS",
    "url": "https://news.ycombinator.com/item?id=50154624",
    "link": "https://github.com/kksimp/Mac.apk",
-   "up": 319,
-   "com": 173,
+   "up": 321,
+   "com": 174,
    "at": "2026-10-19T16:45:30.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "MicroG: Free-libre re-implementation of Google's proprietary Android user space",
-   "url": "https://news.ycombinator.com/item?id=50162177",
-   "link": "https://github.com/microg/GmsCore/wiki",
-   "up": 68,
-   "com": 4,
-   "at": "2026-10-20T06:37:07.000Z"
   }
  ]
 }
