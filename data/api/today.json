@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-20T18:30:53.961Z"
+  "updated": "2026-10-20T19:01:01.151Z"
  },
  "pulse": {
   "trending": 80,
   "accelerating": 1,
   "newModels": 10,
-  "discussions": 39,
-  "stars": 2272
+  "discussions": 43,
+  "stars": 2270
  },
  "rising": [
   {
@@ -20,13 +20,13 @@
    "owner": "simbasjungles",
    "src": "gh",
    "cat": "Agents",
-   "score": 97,
+   "score": 98,
    "grow": null,
    "desc": "A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo.",
    "meta": [
-    "★ 1,354",
-    "~1,411 in 24h",
-    "Created 23h ago"
+    "★ 1,405",
+    "~1,433 in 24h",
+    "Created 24h ago"
    ],
    "at": "2026-10-19T19:29:01Z",
    "breakout": null,
@@ -73,8 +73,8 @@
    "grow": 2,
    "desc": "Git designed for AI agents.",
    "meta": [
-    "★ 2,539",
-    "+132 in 24h",
+    "★ 2,542",
+    "+133 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -90,8 +90,8 @@
    "grow": 5,
    "desc": "One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper.",
    "meta": [
-    "★ 1,153",
-    "+228 in 24h",
+    "★ 1,154",
+    "+214 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-17T02:53:24Z",
@@ -123,9 +123,9 @@
    "grow": 15,
    "desc": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
    "meta": [
-    "★ 1,886",
-    "+472 in 24h",
-    "Created 5 days ago"
+    "★ 1,889",
+    "+460 in 24h",
+    "Created 6 days ago"
    ],
    "at": "2026-10-15T06:52:46Z",
    "breakout": null,
@@ -138,7 +138,7 @@
    "cat": "Infrastructure",
    "score": 86,
    "grow": 23,
-   "desc": "Model on Hugging Face · open weights · ♥ 601",
+   "desc": "Model on Hugging Face · open weights · ♥ 603",
    "meta": [
     "2.6K downloads",
     "Released 35 days ago"
@@ -164,20 +164,20 @@
    "url": "https://huggingface.co/google/embeddinggemma-2"
   },
   {
-   "name": "RoboValue: A Fine-Grained Sim-and-Real Benchmark for Unified Evaluation of Robotic Value Models",
-   "owner": "Paper",
-   "src": "paper",
-   "url": "https://huggingface.co/papers/2610.26663",
-   "cat": "Research",
+   "name": "flux-3-image-klein",
+   "owner": "black-forest-labs",
+   "src": "hf",
+   "cat": "Vision",
    "score": 85,
-   "grow": null,
-   "desc": "Robotic value models assess task execution from visual observations and instructions, providing feedback for policy learning and execution monitoring.",
+   "grow": 27,
+   "desc": "Vision on Hugging Face · open weights · ♥ 557",
    "meta": [
-    "▲ 23 upvotes",
-    "Hugging Face Papers"
+    "79K downloads",
+    "Released 7 days ago"
    ],
-   "at": "2026-10-18T20:00:00.000Z",
-   "breakout": null
+   "at": "2026-10-13T10:58:40.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein"
   }
  ],
  "breakouts": [],
@@ -225,8 +225,8 @@
    "name": "free-my-tv",
    "url": "https://github.com/simbasjungles/free-my-tv",
    "from": "GitHub",
-   "use": 1411,
-   "useLabel": "~1,411 stars/day",
+   "use": 1433,
+   "useLabel": "~1,433 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -340,17 +340,17 @@
  "github": [
   {
    "repo": "simbasjungles/free-my-tv",
-   "stars": 1354,
-   "d24": 1411,
+   "stars": 1405,
+   "d24": 1433,
    "est": true,
-   "forks": 140,
+   "forks": 146,
    "contrib": null,
-   "score": 97
+   "score": 98
   },
   {
    "repo": "Leonxlnx/earshot",
-   "stars": 1886,
-   "d24": 472,
+   "stars": 1889,
+   "d24": 460,
    "est": false,
    "forks": 108,
    "contrib": null,
@@ -358,8 +358,8 @@
   },
   {
    "repo": "aicodeking/leanrea",
-   "stars": 1153,
-   "d24": 228,
+   "stars": 1154,
+   "d24": 214,
    "est": false,
    "forks": 172,
    "contrib": null,
@@ -367,8 +367,8 @@
   },
   {
    "repo": "feder-cr/git-ai",
-   "stars": 2539,
-   "d24": 132,
+   "stars": 2542,
+   "d24": 133,
    "est": false,
    "forks": 298,
    "contrib": null,
@@ -376,8 +376,8 @@
   },
   {
    "repo": "Caho1/open-claude-ui",
-   "stars": 1282,
-   "d24": 29,
+   "stars": 1283,
+   "d24": 30,
    "est": false,
    "forks": 265,
    "contrib": null,
@@ -394,7 +394,7 @@
    "grow": null,
    "score": 95,
    "cat": "Vision",
-   "likes": 1902
+   "likes": 1908
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -405,7 +405,7 @@
    "grow": 12,
    "score": 91,
    "cat": "Vision",
-   "likes": 1065
+   "likes": 1069
   },
   {
    "name": "drama-3",
@@ -428,7 +428,7 @@
    "grow": 23,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 601
+   "likes": 603
   },
   {
    "name": "embeddinggemma-2",
@@ -439,7 +439,7 @@
    "grow": 0,
    "score": 85,
    "cat": "Vision",
-   "likes": 2755
+   "likes": 2758
   },
   {
    "name": "flux-3-image-klein",
@@ -448,7 +448,7 @@
    "at": "2026-10-13T10:58:40.000Z",
    "dl": 78897,
    "grow": 27,
-   "score": 84,
+   "score": 85,
    "cat": "Vision",
    "likes": 557
   }
@@ -858,18 +858,18 @@
    "kind": "News"
   },
   {
-   "t": "Salesforce agrees to acquire AI-powered marketing platform Braze for nearly $5.7B in enterprise value, paying $47.50 per share, set to close from February 2027",
-   "url": "https://www.techmeme.com/261020/p20#a261020p20",
-   "at": "2026-10-20T12:35:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
    "url": "https://openai.com/index/ted-taylor-restaurant",
    "at": "2026-10-20T10:00:00.000Z",
    "src": "OpenAI",
    "kind": "Lab blog"
+  },
+  {
+   "t": "HUGE GPT-6.5 LEAK! NEW Claude Fable 5.5, Gemini 4 Carbon, MiniMax M3.1 Flash & Kimi K3.1! AI NEWS",
+   "url": "https://www.youtube.com/watch?v=2BXktpaCEN4",
+   "at": "2026-10-20T07:01:16Z",
+   "src": "WorldofAI",
+   "kind": "Video"
   }
  ],
  "discussions": [
@@ -878,8 +878,8 @@
    "t": "DeepInfer: High-performance inference framework for DeepSeek models",
    "url": "https://news.ycombinator.com/item?id=50163277",
    "link": "https://github.com/deepseek-ai/DeepInfer",
-   "up": 1906,
-   "com": 729,
+   "up": 1920,
+   "com": 747,
    "at": "2026-10-20T09:08:54.000Z"
   },
   {
@@ -887,8 +887,8 @@
    "t": "Voxtral 3",
    "url": "https://news.ycombinator.com/item?id=50168396",
    "link": "https://mistral.ai/news/voxtral-3/",
-   "up": 254,
-   "com": 65,
+   "up": 297,
+   "com": 77,
    "at": "2026-10-20T16:02:07.000Z"
   },
   {
@@ -896,8 +896,8 @@
    "t": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
    "url": "https://news.ycombinator.com/item?id=50169053",
    "link": "https://github.com/google-pytorch/torch_tpu",
-   "up": 86,
-   "com": 25,
+   "up": 115,
+   "com": 30,
    "at": "2026-10-20T16:40:24.000Z"
   },
   {
@@ -905,8 +905,8 @@
    "t": "Publish fake stats, get cited in LLMs",
    "url": "https://news.ycombinator.com/item?id=50165801",
    "link": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
-   "up": 243,
-   "com": 128,
+   "up": 258,
+   "com": 139,
    "at": "2026-10-20T13:06:22.000Z"
   },
   {
@@ -914,8 +914,8 @@
    "t": "Steam Users Beg for \"No AI\" Filter as Vibecoders Flood Next Fest",
    "url": "https://news.ycombinator.com/item?id=50168190",
    "link": "https://www.ign.com/articles/steam-fans-are-begging-for-a-no-ai-filter-as-steam-next-fest-is-filled-with-slop",
-   "up": 115,
-   "com": 94,
+   "up": 130,
+   "com": 127,
    "at": "2026-10-20T15:48:26.000Z"
   },
   {
@@ -923,8 +923,8 @@
    "t": "How I got over 300 Tor exit nodes removed",
    "url": "https://news.ycombinator.com/item?id=50166257",
    "link": "https://kaba.cx/posts/20261020_Tor/",
-   "up": 197,
-   "com": 53,
+   "up": 214,
+   "com": 55,
    "at": "2026-10-20T13:39:24.000Z"
   }
  ]
