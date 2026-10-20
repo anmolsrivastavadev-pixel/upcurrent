@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-20T14:01:08.272Z"
+  "updated": "2026-10-20T14:30:54.844Z"
  },
  "pulse": {
   "trending": 80,
   "accelerating": 0,
   "newModels": 10,
-  "discussions": 42,
-  "stars": 2078
+  "discussions": 41,
+  "stars": 2109
  },
  "rising": [
   {
@@ -36,12 +36,12 @@
    "owner": "alchaincyf",
    "src": "gh",
    "cat": "Agents",
-   "score": 94,
+   "score": 93,
    "grow": null,
    "desc": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
    "meta": [
-    "★ 1,106",
-    "~534 in 24h",
+    "★ 1,110",
+    "~531 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-18T12:19:27Z",
@@ -69,12 +69,12 @@
    "owner": "feder-cr",
    "src": "gh",
    "cat": "Agents",
-   "score": 90,
+   "score": 91,
    "grow": null,
    "desc": "Git designed for AI agents.",
    "meta": [
-    "★ 2,628",
-    "~522 in 24h",
+    "★ 2,759",
+    "~546 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -90,7 +90,7 @@
    "grow": null,
    "desc": "One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper.",
    "meta": [
-    "★ 1,120",
+    "★ 1,125",
     "~323 in 24h",
     "Created 3 days ago"
    ],
@@ -105,7 +105,7 @@
    "cat": "Tools",
    "score": 87,
    "grow": 14,
-   "desc": "Model on Hugging Face · open weights · ♥ 802",
+   "desc": "Model on Hugging Face · open weights · ♥ 803",
    "meta": [
     "13K downloads",
     "Released 19 days ago"
@@ -120,11 +120,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 86,
-   "grow": 10,
+   "grow": 11,
    "desc": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
    "meta": [
-    "★ 1,802",
-    "+486 in 24h",
+    "★ 1,816",
+    "+497 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-15T06:52:46Z",
@@ -132,27 +132,11 @@
    "url": "https://github.com/Leonxlnx/earshot"
   },
   {
-   "name": "embeddinggemma-2",
-   "owner": "google",
-   "src": "hf",
-   "cat": "Vision",
-   "score": 86,
-   "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 2.7K",
-   "meta": [
-    "172K downloads",
-    "Released 36 days ago"
-   ],
-   "at": "2026-09-14T14:53:42.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/google/embeddinggemma-2"
-  },
-  {
    "name": "humanizer",
    "owner": "jialinyyzz",
    "src": "hf",
    "cat": "Infrastructure",
-   "score": 85,
+   "score": 86,
    "grow": null,
    "desc": "Model on Hugging Face · open source · ♥ 2K",
    "meta": [
@@ -164,6 +148,22 @@
    "url": "https://huggingface.co/jialinyyzz/humanizer"
   },
   {
+   "name": "embeddinggemma-2",
+   "owner": "google",
+   "src": "hf",
+   "cat": "Vision",
+   "score": 85,
+   "grow": null,
+   "desc": "Vision on Hugging Face · open source · ♥ 2.7K",
+   "meta": [
+    "172K downloads",
+    "Released 36 days ago"
+   ],
+   "at": "2026-09-14T14:53:42.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/google/embeddinggemma-2"
+  },
+  {
    "name": "MemT-1.0: Towards Memory-Native Evolution",
    "owner": "Paper",
    "src": "paper",
@@ -173,7 +173,7 @@
    "grow": null,
    "desc": "Memory-native evolution requires making memory an intrinsic capability of foundation models, enabling them to continuously accumulate and utilize information.",
    "meta": [
-    "▲ 132 upvotes",
+    "▲ 135 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-18T20:00:00.000Z",
@@ -222,11 +222,11 @@
    "verdict": "The hype matches real use"
   },
   {
-   "name": "huashu-motion",
-   "url": "https://github.com/alchaincyf/huashu-motion",
+   "name": "git-ai",
+   "url": "https://github.com/feder-cr/git-ai",
    "from": "GitHub",
-   "use": 534,
-   "useLabel": "~534 stars/day",
+   "use": 546,
+   "useLabel": "~546 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -339,27 +339,27 @@
  ],
  "github": [
   {
-   "repo": "alchaincyf/huashu-motion",
-   "stars": 1106,
-   "d24": 534,
-   "est": true,
-   "forks": 114,
-   "contrib": null,
-   "score": 94
-  },
-  {
    "repo": "feder-cr/git-ai",
-   "stars": 2628,
-   "d24": 522,
+   "stars": 2759,
+   "d24": 546,
    "est": true,
    "forks": 376,
    "contrib": null,
-   "score": 90
+   "score": 91
+  },
+  {
+   "repo": "alchaincyf/huashu-motion",
+   "stars": 1110,
+   "d24": 531,
+   "est": true,
+   "forks": 114,
+   "contrib": null,
+   "score": 93
   },
   {
    "repo": "Leonxlnx/earshot",
-   "stars": 1802,
-   "d24": 486,
+   "stars": 1816,
+   "d24": 497,
    "est": false,
    "forks": 104,
    "contrib": null,
@@ -367,17 +367,17 @@
   },
   {
    "repo": "aicodeking/leanrea",
-   "stars": 1120,
+   "stars": 1125,
    "d24": 323,
    "est": true,
-   "forks": 167,
+   "forks": 168,
    "contrib": null,
    "score": 87
   },
   {
    "repo": "Caho1/open-claude-ui",
-   "stars": 1277,
-   "d24": 213,
+   "stars": 1278,
+   "d24": 212,
    "est": true,
    "forks": 264,
    "contrib": null,
@@ -394,7 +394,7 @@
    "grow": 55,
    "score": 96,
    "cat": "Vision",
-   "likes": 1850
+   "likes": 1855
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -416,18 +416,7 @@
    "grow": 14,
    "score": 87,
    "cat": "Tools",
-   "likes": 802
-  },
-  {
-   "name": "embeddinggemma-2",
-   "org": "google",
-   "lic": "Open source",
-   "at": "2026-09-14T14:53:42.000Z",
-   "dl": 172474,
-   "grow": null,
-   "score": 86,
-   "cat": "Vision",
-   "likes": 2745
+   "likes": 803
   },
   {
    "name": "humanizer",
@@ -436,9 +425,20 @@
    "at": "2026-09-11T05:00:16.000Z",
    "dl": 115341,
    "grow": null,
-   "score": 85,
+   "score": 86,
    "cat": "Infrastructure",
-   "likes": 2014
+   "likes": 2015
+  },
+  {
+   "name": "embeddinggemma-2",
+   "org": "google",
+   "lic": "Open source",
+   "at": "2026-09-14T14:53:42.000Z",
+   "dl": 172474,
+   "grow": null,
+   "score": 85,
+   "cat": "Vision",
+   "likes": 2748
   },
   {
    "name": "flux-3-image-klein",
@@ -808,13 +808,6 @@
    "kind": "News"
   },
   {
-   "t": "HUGE GPT-6.5 LEAK! NEW Claude Fable 5.5, Gemini 4 Carbon, MiniMax M3.1 Flash & Kimi K3.1! AI NEWS",
-   "url": "https://www.youtube.com/watch?v=2BXktpaCEN4",
-   "at": "2026-10-20T07:01:16Z",
-   "src": "WorldofAI",
-   "kind": "Video"
-  },
-  {
    "t": "Hollywood AI-listers: is the technology ready to rival flesh-and-blood film stars?",
    "url": "https://www.theguardian.com/film/2026/oct/20/ai-actors-val-kilmer-as-deep-as-the-grave-tilly-norwood",
    "at": "2026-10-20T06:00:18Z",
@@ -850,24 +843,31 @@
    "kind": "News"
   },
   {
-   "t": "South Korea’s $1 trillion chip bet to revive left-behind region risks Trump’s ire",
-   "url": "https://www.japantimes.co.jp/business/2026/10/20/south-korea-gwangju-chip-plans/",
-   "at": "2026-10-20T01:49:16Z",
-   "src": "The Japan Times ",
+   "t": "Asian Stocks Fall, Bucking U.S. Tech Rebound",
+   "url": "https://www.marketscreener.com/news/asian-stocks-fall-bucking-u-s-tech-rebound-ce785cdbde8af227",
+   "at": "2026-10-20T02:15:17Z",
+   "src": "MarketScreener",
    "kind": "News"
   },
   {
-   "t": "OpenAI seeks to accelerate fundraising ahead of Anthropic IPO: Report",
-   "url": "https://www.cnbctv18.com/technology/openai-seeks-to-accelerate-fundraising-ahead-of-anthropic-ipo-report-20015427.htm",
-   "at": "2026-10-20T01:37:17Z",
-   "src": "CNBC TV18",
+   "t": "OpenAI seeks to accelerate fundraising ahead of Anthropic IPO, sources say",
+   "url": "https://economictimes.indiatimes.com/ai/ai-insights/openai-seeks-to-accelerate-fundraising-ahead-of-anthropic-ipo-sources-say/articleshow/135059775.cms",
+   "at": "2026-10-20T02:10:00Z",
+   "src": "The Economic Times",
    "kind": "News"
   },
   {
-   "t": "Links to Saudi royal family, plans to leave US: What filing against ex-OpenAI engineer who planted device revealed",
-   "url": "https://www.livemint.com/news/us-news/links-to-saudi-royal-family-plans-to-leave-us-what-filing-against-ex-openai-engineer-who-planted-device-revealed-11792459417732.html",
-   "at": "2026-10-20T01:33:59Z",
-   "src": "Livemint",
+   "t": "OpenAI seeks $30 billion funding at $1.4 trillion valuation ahead of Anthropic IPO",
+   "url": "https://www.thehindubusinessline.com/info-tech/openai-seeks-30-billion-funding-at-14-trillion-valuation-ahead-of-anthropic-ipo/article71603118.ece",
+   "at": "2026-10-20T02:03:32Z",
+   "src": "The Hindu Business Line",
+   "kind": "News"
+  },
+  {
+   "t": "China’s ecoonomy picks up pace with 4.5% growth in Q3",
+   "url": "https://timesofindia.indiatimes.com/business/international-business/chinas-ecoonomy-picks-up-pace-with-4-5-growth-in-q3/articleshow/135059663.cms",
+   "at": "2026-10-20T02:02:00Z",
+   "src": "Times of India",
    "kind": "News"
   }
  ],
@@ -877,35 +877,44 @@
    "t": "DeepSeek just open-sourced its inference engine",
    "url": "https://news.ycombinator.com/item?id=50163277",
    "link": "https://github.com/deepseek-ai/DeepInfer",
-   "up": 1098,
-   "com": 382,
+   "up": 1205,
+   "com": 436,
    "at": "2026-10-20T09:08:54.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
-   "url": "https://news.ycombinator.com/item?id=50159341",
-   "link": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
-   "up": 609,
-   "com": 174,
-   "at": "2026-10-19T23:22:18.000Z"
+   "t": "Publish fake stats, get cited in LLMs",
+   "url": "https://news.ycombinator.com/item?id=50165801",
+   "link": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
+   "up": 65,
+   "com": 29,
+   "at": "2026-10-20T13:06:22.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Google cloud outage takes down banks",
    "url": "https://news.ycombinator.com/item?id=50163961",
    "link": "https://www.neowin.net/news/google-cloud-outage-takes-down-hsbc-revolut-bank-of-scotland-llyods-equifax-more/",
-   "up": 148,
-   "com": 63,
+   "up": 170,
+   "com": 71,
    "at": "2026-10-20T10:26:02.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+   "url": "https://news.ycombinator.com/item?id=50159341",
+   "link": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+   "up": 623,
+   "com": 176,
+   "at": "2026-10-19T23:22:18.000Z"
   },
   {
    "src": "Hacker News",
    "t": "MicroG: Free-libre re-implementation of Google's proprietary Android user space",
    "url": "https://news.ycombinator.com/item?id=50162177",
    "link": "https://github.com/microg/GmsCore/wiki",
-   "up": 212,
-   "com": 19,
+   "up": 227,
+   "com": 20,
    "at": "2026-10-20T06:37:07.000Z"
   },
   {
@@ -913,18 +922,9 @@
    "t": "DeepSeek banned from U.S. federal civilian agencies under new DHS order",
    "url": "https://news.ycombinator.com/item?id=50154244",
    "link": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/",
-   "up": 403,
-   "com": 341,
+   "up": 429,
+   "com": 354,
    "at": "2026-10-19T16:16:46.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Android apps running native on macOS",
-   "url": "https://news.ycombinator.com/item?id=50154624",
-   "link": "https://github.com/kksimp/Mac.apk",
-   "up": 334,
-   "com": 180,
-   "at": "2026-10-19T16:45:30.000Z"
   }
  ]
 }
