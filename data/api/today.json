@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-20T09:01:03.121Z"
+  "updated": "2026-10-20T09:30:59.658Z"
  },
  "pulse": {
   "trending": 78,
   "accelerating": 0,
-  "newModels": 11,
-  "discussions": 50,
-  "stars": 889
+  "newModels": 12,
+  "discussions": 48,
+  "stars": 888
  },
  "rising": [
   {
@@ -57,7 +57,7 @@
    "desc": "Git designed for AI agents.",
    "meta": [
     "★ 2,486",
-    "~515 in 24h",
+    "~513 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-15T13:12:02Z",
@@ -73,8 +73,8 @@
    "grow": null,
    "desc": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
    "meta": [
-    "★ 1,689",
-    "~332 in 24h",
+    "★ 1,702",
+    "~333 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-15T06:52:46Z",
@@ -88,7 +88,7 @@
    "cat": "Tools",
    "score": 87,
    "grow": 0,
-   "desc": "Model on Hugging Face · open weights · ♥ 787",
+   "desc": "Model on Hugging Face · open weights · ♥ 790",
    "meta": [
     "12K downloads",
     "Released 19 days ago"
@@ -98,27 +98,11 @@
    "url": "https://huggingface.co/fishaudio/drama-3"
   },
   {
-   "name": "MiniCPM-V-4.7-35B-A3B",
-   "owner": "openbmb",
-   "src": "hf",
-   "cat": "Vision",
-   "score": 86,
-   "grow": 0,
-   "desc": "Vision on Hugging Face · open source · ♥ 1.1K",
-   "meta": [
-    "76K downloads",
-    "Released 13 days ago"
-   ],
-   "at": "2026-10-07T07:07:30.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B"
-  },
-  {
    "name": "embeddinggemma-2",
    "owner": "google",
    "src": "hf",
    "cat": "Vision",
-   "score": 85,
+   "score": 86,
    "grow": 0,
    "desc": "Vision on Hugging Face · open source · ♥ 2.7K",
    "meta": [
@@ -130,6 +114,22 @@
    "url": "https://huggingface.co/google/embeddinggemma-2"
   },
   {
+   "name": "humanizer",
+   "owner": "jialinyyzz",
+   "src": "hf",
+   "cat": "Infrastructure",
+   "score": 85,
+   "grow": 0,
+   "desc": "Model on Hugging Face · open source · ♥ 2K",
+   "meta": [
+    "110K downloads",
+    "Released 39 days ago"
+   ],
+   "at": "2026-09-11T05:00:16.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/jialinyyzz/humanizer"
+  },
+  {
    "name": "MemT-1.0: Towards Memory-Native Evolution",
    "owner": "Paper",
    "src": "paper",
@@ -139,7 +139,7 @@
    "grow": null,
    "desc": "Memory-native evolution requires making memory an intrinsic capability of foundation models, enabling them to continuously accumulate and utilize information.",
    "meta": [
-    "▲ 115 upvotes",
+    "▲ 117 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-18T20:00:00.000Z",
@@ -163,20 +163,20 @@
    "breakout": null
   },
   {
-   "name": "humanizer",
-   "owner": "jialinyyzz",
+   "name": "Muse-Spark-Open-816B-A42B",
+   "owner": "meta-models",
    "src": "hf",
    "cat": "Infrastructure",
    "score": 83,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 2K",
+   "desc": "Model on Hugging Face · open weights · ♥ 592",
    "meta": [
-    "110K downloads",
-    "Released 39 days ago"
+    "2.1K downloads",
+    "Released 35 days ago"
    ],
-   "at": "2026-09-11T05:00:16.000Z",
+   "at": "2026-09-15T19:23:19.000Z",
    "breakout": null,
-   "url": "https://huggingface.co/jialinyyzz/humanizer"
+   "url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B"
   }
  ],
  "breakouts": [],
@@ -207,8 +207,8 @@
    "name": "git-ai",
    "url": "https://github.com/feder-cr/git-ai",
    "from": "GitHub",
-   "use": 515,
-   "useLabel": "~515 stars/day",
+   "use": 513,
+   "useLabel": "~513 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -229,7 +229,7 @@
    "name": "Qwen3.8-Flash-Next",
    "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
    "from": "Hugging Face",
-   "use": 2494099,
+   "use": 2530599,
    "useLabel": "2.5M downloads",
    "usePct": 0.9705882352941176,
    "talk": [],
@@ -323,7 +323,7 @@
   {
    "repo": "feder-cr/git-ai",
    "stars": 2486,
-   "d24": 515,
+   "d24": 513,
    "est": true,
    "forks": 276,
    "contrib": null,
@@ -331,16 +331,16 @@
   },
   {
    "repo": "Leonxlnx/earshot",
-   "stars": 1689,
-   "d24": 332,
+   "stars": 1702,
+   "d24": 333,
    "est": true,
-   "forks": 100,
+   "forks": 101,
    "contrib": null,
    "score": 87
   },
   {
    "repo": "Caho1/open-claude-ui",
-   "stars": 1270,
+   "stars": 1271,
    "d24": 42,
    "est": false,
    "forks": 265,
@@ -358,7 +358,7 @@
    "grow": 0,
    "score": 96,
    "cat": "Vision",
-   "likes": 1782
+   "likes": 1793
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -369,7 +369,7 @@
    "grow": 0,
    "score": 92,
    "cat": "Vision",
-   "likes": 1015
+   "likes": 1019
   },
   {
    "name": "drama-3",
@@ -380,19 +380,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Tools",
-   "likes": 787
-  },
-  {
-   "name": "MiniCPM-V-4.7-35B-A3B",
-   "org": "openbmb",
-   "size": "35B",
-   "lic": "Open source",
-   "at": "2026-10-07T07:07:30.000Z",
-   "dl": 76410,
-   "grow": 0,
-   "score": 86,
-   "cat": "Vision",
-   "likes": 1073
+   "likes": 790
   },
   {
    "name": "embeddinggemma-2",
@@ -401,7 +389,7 @@
    "at": "2026-09-14T14:53:42.000Z",
    "dl": 167750,
    "grow": 0,
-   "score": 85,
+   "score": 86,
    "cat": "Vision",
    "likes": 2736
   },
@@ -412,9 +400,21 @@
    "at": "2026-09-11T05:00:16.000Z",
    "dl": 109937,
    "grow": 0,
+   "score": 85,
+   "cat": "Infrastructure",
+   "likes": 2009
+  },
+  {
+   "name": "Muse-Spark-Open-816B-A42B",
+   "org": "meta-models",
+   "size": "816B",
+   "lic": "Open weights",
+   "at": "2026-09-15T19:23:19.000Z",
+   "dl": 2109,
+   "grow": 0,
    "score": 83,
    "cat": "Infrastructure",
-   "likes": 2008
+   "likes": 592
   }
  ],
  "free": [
@@ -816,46 +816,46 @@
    "kind": "News"
   },
   {
-   "t": "As AI dominates conversations, here are key terms to know",
-   "url": "https://www.cbsnews.com/news/ai-artificial-intelligence-terms-definitions/",
-   "at": "2026-10-19T20:53:44Z",
-   "src": "CBS News",
-   "kind": "News"
-  },
-  {
-   "t": "Ex-OpenAI engineer accused of spying had Saudi royal links: US prosecutors",
-   "url": "https://www.indiatoday.in/world/story/openai-recording-device-case-ex-engineer-saudi-royal-contacts-3021101-2026-10-20",
-   "at": "2026-10-19T20:50:26Z",
-   "src": "India Today",
+   "t": "Percival AI can uncover unseen health issues in CT scans",
+   "url": "https://medicalxpress.com/news/2026-10-percival-ai-uncover-unseen-health.html",
+   "at": "2026-10-19T21:30:02Z",
+   "src": "Medical Xpress",
    "kind": "News"
   },
   {
    "t": "Ex-OpenAI worker accused of bugging conference room planned to fly to Saudi Arabia, prosecutors say",
-   "url": "https://www.pbs.org/newshour/world/ex-openai-worker-accused-of-bugging-conference-room-planned-to-fly-to-saudi-arabia-prosecutors-say",
-   "at": "2026-10-19T20:35:15Z",
-   "src": "PBS News",
+   "url": "https://www.courant.com/2026/10/19/ai-engineer-arrested-saudi-arabia-plan/",
+   "at": "2026-10-19T21:14:12Z",
+   "src": "Hartford Courant",
    "kind": "News"
   },
   {
-   "t": "US Court Orders Fired Saudi Engineer To Remain In Custody In OpenAI Case",
-   "url": "https://www.ndtv.com/world-news/us-court-orders-fired-saudi-engineer-to-remain-in-custody-in-openai-case-12208529",
-   "at": "2026-10-19T20:33:52Z",
-   "src": "NDTV.com",
+   "t": "Germany Wants to Lead the World in Industrial AI: How NVIDIA Will Help",
+   "url": "https://blogs.nvidia.com/blog/germany-wants-to-lead-the-world-in-industrial-ai-how-nvidia-will-help/",
+   "at": "2026-10-19T19:27:08.000Z",
+   "src": "NVIDIA",
+   "kind": "Lab blog"
+  },
+  {
+   "t": "The AI crash is coming SOONER than you think, warns former US financial regulator",
+   "url": "https://www.youtube.com/watch?v=7C9vYzzgrI0",
+   "at": "2026-10-19T17:38:17Z",
+   "src": "Channel 4 News",
+   "kind": "Video"
+  },
+  {
+   "t": "We need to stop disinformation in UK political adverts. Here’s a chance to do so | Letter",
+   "url": "https://www.theguardian.com/politics/2026/oct/19/we-need-to-stop-disinformation-in-uk-political-adverts-heres-a-chance-to-do-so",
+   "at": "2026-10-19T17:17:33Z",
+   "src": "The Guardian",
    "kind": "News"
   },
   {
-   "t": "Nvidia CEO urges German manufacturers to adopt AI, saying digital tech won't replace heavy industry",
-   "url": "https://www.breitbart.com/news/nvidia-ceo-urges-german-manufacturers-to-adopt-ai-saying-digital-tech-wont-replace-heavy-industry/",
-   "at": "2026-10-19T20:30:46Z",
-   "src": "Breitbart News Network",
-   "kind": "News"
-  },
-  {
-   "t": "Accused OpenAI spy had folder called “Saudi Gov Docs,” FBI says",
-   "url": "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/",
-   "at": "2026-10-19T20:21:53Z",
-   "src": "Ars Technica",
-   "kind": "News"
+   "t": "NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production",
+   "url": "https://blogs.nvidia.com/blog/media-agentic-security-european-public-service-broadcasting-global-content-production/",
+   "at": "2026-10-19T15:00:31.000Z",
+   "src": "NVIDIA",
+   "kind": "Lab blog"
   }
  ],
  "discussions": [
@@ -864,8 +864,8 @@
    "t": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
    "url": "https://news.ycombinator.com/item?id=50159341",
    "link": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
-   "up": 401,
-   "com": 106,
+   "up": 422,
+   "com": 114,
    "at": "2026-10-19T23:22:18.000Z"
   },
   {
@@ -873,7 +873,7 @@
    "t": "Timestral: Mistral's time-series foundation models",
    "url": "https://news.ycombinator.com/item?id=50150434",
    "link": "https://mistral.ai/news/timestral/",
-   "up": 584,
+   "up": 586,
    "com": 111,
    "at": "2026-10-19T09:59:32.000Z"
   },
@@ -882,8 +882,8 @@
    "t": "Ask HN: How to deal with shipping AI-written code you don't understand?",
    "url": "https://news.ycombinator.com/item?id=50151036",
    "link": "",
-   "up": 429,
-   "com": 571,
+   "up": 441,
+   "com": 586,
    "at": "2026-10-19T11:24:34.000Z"
   },
   {
@@ -892,7 +892,7 @@
    "url": "https://news.ycombinator.com/item?id=50154624",
    "link": "https://github.com/kksimp/Mac.apk",
    "up": 317,
-   "com": 169,
+   "com": 170,
    "at": "2026-10-19T16:45:30.000Z"
   },
   {
@@ -900,7 +900,7 @@
    "t": "CERN and Mistral sign a statement of intent to establish a strategic partnership",
    "url": "https://news.ycombinator.com/item?id=50153630",
    "link": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
-   "up": 337,
+   "up": 340,
    "com": 58,
    "at": "2026-10-19T15:28:24.000Z"
   },
@@ -909,7 +909,7 @@
    "t": "Mercury 3: Diffusion at scale",
    "url": "https://news.ycombinator.com/item?id=50155245",
    "link": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
-   "up": 245,
+   "up": 246,
    "com": 87,
    "at": "2026-10-19T17:27:11.000Z"
   }
