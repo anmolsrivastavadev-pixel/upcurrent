@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-21T07:32:11.533Z"
+  "updated": "2026-10-21T08:01:05.090Z"
  },
  "pulse": {
   "trending": 79,
   "accelerating": 0,
   "newModels": 10,
-  "discussions": 46,
-  "stars": 2491
+  "discussions": 44,
+  "stars": 2340
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 97,
-   "grow": 84,
+   "grow": 86,
    "desc": "A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo.",
    "meta": [
-    "★ 2,093",
-    "+1,474 in 24h",
+    "★ 2,120",
+    "+1,470 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-19T19:29:01Z",
@@ -57,8 +57,8 @@
    "grow": 9,
    "desc": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
    "meta": [
-    "★ 1,195",
-    "+128 in 24h",
+    "★ 1,197",
+    "+127 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-18T12:19:27Z",
@@ -106,8 +106,8 @@
    "grow": 10,
    "desc": "One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper.",
    "meta": [
-    "★ 1,205",
-    "+138 in 24h",
+    "★ 1,211",
+    "+142 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-17T02:53:24Z",
@@ -131,11 +131,28 @@
    "url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B"
   },
   {
+   "name": "earshot",
+   "owner": "Leonxlnx",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 85,
+   "grow": 2,
+   "desc": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
+   "meta": [
+    "★ 2,006",
+    "+184 in 24h",
+    "Created 6 days ago"
+   ],
+   "at": "2026-10-15T06:52:46Z",
+   "breakout": null,
+   "url": "https://github.com/Leonxlnx/earshot"
+  },
+  {
    "name": "flux-3-image-klein",
    "owner": "black-forest-labs",
    "src": "hf",
    "cat": "Vision",
-   "score": 86,
+   "score": 85,
    "grow": 0,
    "desc": "Vision on Hugging Face · open weights · ♥ 574",
    "meta": [
@@ -147,33 +164,16 @@
    "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein"
   },
   {
-   "name": "earshot",
-   "owner": "Leonxlnx",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 85,
-   "grow": null,
-   "desc": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
-   "meta": [
-    "★ 2,000",
-    "~332 in 24h",
-    "Created 6 days ago"
-   ],
-   "at": "2026-10-15T06:52:46Z",
-   "breakout": null,
-   "url": "https://github.com/Leonxlnx/earshot"
-  },
-  {
-   "name": "PAR: Progress-Aligned Recurrence for Length Generalization in State Tracking",
+   "name": "S-Agent 2.0: Spatial Reasoning with a General Coding Agent",
    "owner": "Paper",
    "src": "paper",
-   "url": "https://huggingface.co/papers/2610.27628",
+   "url": "https://huggingface.co/papers/2610.28354",
    "cat": "Research",
    "score": 85,
    "grow": null,
-   "desc": "Looped language models can run more iterations at test time, but additional iterations need not help them solve longer problems.",
+   "desc": "Spatial reasoning asks a model to work out where objects are in 3D space, how they relate to one another, and how they move.",
    "meta": [
-    "▲ 64 upvotes",
+    "▲ 56 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-19T20:00:00.000Z",
@@ -247,8 +247,8 @@
    "name": "free-my-tv",
    "url": "https://github.com/simbasjungles/free-my-tv",
    "from": "GitHub",
-   "use": 1474,
-   "useLabel": "+1,474 stars/day",
+   "use": 1470,
+   "useLabel": "+1,470 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -362,44 +362,44 @@
  "github": [
   {
    "repo": "simbasjungles/free-my-tv",
-   "stars": 2093,
-   "d24": 1474,
+   "stars": 2120,
+   "d24": 1470,
    "est": false,
    "forks": 215,
    "contrib": null,
    "score": 97
   },
   {
-   "repo": "Leonxlnx/earshot",
-   "stars": 2000,
-   "d24": 332,
-   "est": true,
-   "forks": 114,
-   "contrib": null,
-   "score": 85
-  },
-  {
    "repo": "feder-cr/git-ai",
-   "stars": 1302,
-   "d24": 226,
+   "stars": 1304,
+   "d24": 225,
    "est": true,
    "forks": 127,
    "contrib": null,
-   "score": 80
+   "score": 79
   },
   {
    "repo": "Caho1/open-claude-ui",
    "stars": 1295,
-   "d24": 193,
+   "d24": 192,
    "est": true,
    "forks": 267,
    "contrib": null,
    "score": 76
   },
   {
+   "repo": "Leonxlnx/earshot",
+   "stars": 2006,
+   "d24": 184,
+   "est": false,
+   "forks": 114,
+   "contrib": null,
+   "score": 85
+  },
+  {
    "repo": "aicodeking/leanrea",
-   "stars": 1205,
-   "d24": 138,
+   "stars": 1211,
+   "d24": 142,
    "est": false,
    "forks": 183,
    "contrib": null,
@@ -407,8 +407,8 @@
   },
   {
    "repo": "alchaincyf/huashu-motion",
-   "stars": 1195,
-   "d24": 128,
+   "stars": 1197,
+   "d24": 127,
    "est": false,
    "forks": 120,
    "contrib": null,
@@ -425,7 +425,7 @@
    "grow": 0,
    "score": 95,
    "cat": "Vision",
-   "likes": 2028
+   "likes": 2032
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -436,7 +436,7 @@
    "grow": 0,
    "score": 91,
    "cat": "Vision",
-   "likes": 1113
+   "likes": 1114
   },
   {
    "name": "drama-3",
@@ -468,7 +468,7 @@
    "at": "2026-10-13T10:58:40.000Z",
    "dl": 78897,
    "grow": 0,
-   "score": 86,
+   "score": 85,
    "cat": "Vision",
    "likes": 574
   },
@@ -481,7 +481,7 @@
    "grow": null,
    "score": 83,
    "cat": "Vision",
-   "likes": 2777
+   "likes": 2781
   }
  ],
  "free": [
@@ -847,6 +847,20 @@
    "kind": "News"
   },
   {
+   "t": "King Charles 'delighted' with Prince William’s key role as Harry goes unmentioned in State Banquet speech",
+   "url": "https://www.gbnews.com/royal/king-charles-prince-william-key-role-state-banquet-speech",
+   "at": "2026-10-20T19:51:13Z",
+   "src": "GB News",
+   "kind": "News"
+  },
+  {
+   "t": "China slams US ban on DeepSeek AI over security concerns",
+   "url": "https://www.europesays.com/3322400/",
+   "at": "2026-10-20T19:43:23Z",
+   "src": "EUROPE SAYS",
+   "kind": "News"
+  },
+  {
    "t": "OpenAI has acquired Orchestra Bio, a biotech startup.",
    "url": "https://www.theverge.com/news/1014718/openai-has-acquired-orchestra-bio-a-biotech-startup",
    "at": "2026-10-20T19:29:51Z",
@@ -887,20 +901,6 @@
    "at": "2026-10-20T19:00:08Z",
    "src": "Medical Xpress",
    "kind": "News"
-  },
-  {
-   "t": "Anthropic's public benefit fund and how it compares with other big philanthropic efforts",
-   "url": "https://www.marketscreener.com/news/anthropic-s-public-benefit-fund-and-how-it-compares-with-other-big-philanthropic-efforts-ce785cd8dd8df122",
-   "at": "2026-10-20T18:41:40Z",
-   "src": "MarketScreener",
-   "kind": "News"
-  },
-  {
-   "t": "Nvidia co-founder drops $75M to power N.J.’s $125M supercomputer",
-   "url": "https://www.nj.com/politics/2026/10/nvidia-co-founder-drops-75m-to-power-njs-125m-supercomputer.html",
-   "at": "2026-10-20T18:30:36Z",
-   "src": "NJ.com",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -909,7 +909,7 @@
    "t": "DeepInfer: High-performance inference framework for DeepSeek models",
    "url": "https://news.ycombinator.com/item?id=50163277",
    "link": "https://github.com/deepseek-ai/DeepInfer",
-   "up": 2222,
+   "up": 2230,
    "com": 853,
    "at": "2026-10-20T09:08:54.000Z"
   },
@@ -918,8 +918,8 @@
    "t": "Voxtral 3",
    "url": "https://news.ycombinator.com/item?id=50168396",
    "link": "https://mistral.ai/news/voxtral-3/",
-   "up": 628,
-   "com": 157,
+   "up": 636,
+   "com": 164,
    "at": "2026-10-20T16:02:07.000Z"
   },
   {
@@ -927,7 +927,7 @@
    "t": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
    "url": "https://news.ycombinator.com/item?id=50169053",
    "link": "https://github.com/google-pytorch/torch_tpu",
-   "up": 324,
+   "up": 327,
    "com": 74,
    "at": "2026-10-20T16:40:24.000Z"
   },
@@ -936,7 +936,7 @@
    "t": "How I got over 300 Tor exit nodes removed",
    "url": "https://news.ycombinator.com/item?id=50166257",
    "link": "https://kaba.cx/posts/20261020_Tor/",
-   "up": 355,
+   "up": 357,
    "com": 91,
    "at": "2026-10-20T13:39:24.000Z"
   },
@@ -945,8 +945,8 @@
    "t": "The Other Epidemic: Trying to get off benzodiazepines",
    "url": "https://news.ycombinator.com/item?id=50173891",
    "link": "https://www.thebeliever.net/the-other-epidemic/",
-   "up": 162,
-   "com": 120,
+   "up": 169,
+   "com": 124,
    "at": "2026-10-20T23:04:09.000Z"
   },
   {
