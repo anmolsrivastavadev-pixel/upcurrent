@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-21T22:01:08.653Z"
+  "updated": "2026-10-21T22:30:55.170Z"
  },
  "pulse": {
   "trending": 80,
   "accelerating": 1,
   "newModels": 12,
-  "discussions": 39,
-  "stars": 1703
+  "discussions": 40,
+  "stars": 1691
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 96,
-   "grow": 17,
+   "grow": 18,
    "desc": "A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo.",
    "meta": [
-    "★ 2,659",
-    "+985 in 24h",
+    "★ 2,677",
+    "+979 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-19T19:29:01Z",
@@ -54,10 +54,10 @@
    "src": "gh",
    "cat": "Agents",
    "score": 90,
-   "grow": 3,
+   "grow": 4,
    "desc": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
    "meta": [
-    "★ 1,254",
+    "★ 1,256",
     "+79 in 24h",
     "Created 3 days ago"
    ],
@@ -90,8 +90,8 @@
    "grow": 12,
    "desc": "Make an old Android TV fast again with Claude Code or Codex: a tiny ad-free home screen plus the prompt to clean it up",
    "meta": [
-    "★ 1,152",
-    "+227 in 24h",
+    "★ 1,155",
+    "+224 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-18T06:42:29Z",
@@ -137,7 +137,7 @@
    "cat": "Vision",
    "score": 85,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 597",
+   "desc": "Vision on Hugging Face · open weights · ♥ 598",
    "meta": [
     "93K downloads",
     "Released 8 days ago"
@@ -183,23 +183,6 @@
  "breakouts": [],
  "hype": [
   {
-   "name": "flint",
-   "url": "https://huggingface.co/RecursiveSI/flint",
-   "from": "Hugging Face",
-   "use": 0,
-   "useLabel": "0 downloads",
-   "usePct": 0,
-   "talk": [
-    {
-     "src": "Techmeme",
-     "t": "Recursive releases Flint, an open-weight, 40B-parameter coding model developed with its Eureka Machine AI system, which automated most of the development",
-     "url": "https://www.techmeme.com/261021/p39#a261021p39"
-    }
-   ],
-   "buzz": 1,
-   "verdict": "More talk than use"
-  },
-  {
    "name": "Qwen3.8-Flash-Next",
    "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
    "from": "Hugging Face",
@@ -220,8 +203,8 @@
    "name": "free-my-tv",
    "url": "https://github.com/simbasjungles/free-my-tv",
    "from": "GitHub",
-   "use": 985,
-   "useLabel": "+985 stars/day",
+   "use": 979,
+   "useLabel": "+979 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -335,17 +318,17 @@
  "github": [
   {
    "repo": "simbasjungles/free-my-tv",
-   "stars": 2659,
-   "d24": 985,
+   "stars": 2677,
+   "d24": 979,
    "est": false,
-   "forks": 321,
+   "forks": 324,
    "contrib": null,
    "score": 96
   },
   {
    "repo": "Leonxlnx/earshot",
    "stars": 2049,
-   "d24": 309,
+   "d24": 308,
    "est": true,
    "forks": 116,
    "contrib": null,
@@ -353,8 +336,8 @@
   },
   {
    "repo": "Ansub/tv-detox",
-   "stars": 1152,
-   "d24": 227,
+   "stars": 1155,
+   "d24": 224,
    "est": false,
    "forks": 116,
    "contrib": null,
@@ -362,8 +345,8 @@
   },
   {
    "repo": "aicodeking/leanrea",
-   "stars": 1274,
-   "d24": 103,
+   "stars": 1275,
+   "d24": 101,
    "est": false,
    "forks": 191,
    "contrib": null,
@@ -371,7 +354,7 @@
   },
   {
    "repo": "alchaincyf/huashu-motion",
-   "stars": 1254,
+   "stars": 1256,
    "d24": 79,
    "est": false,
    "forks": 125,
@@ -389,7 +372,7 @@
    "grow": 0,
    "score": 94,
    "cat": "Vision",
-   "likes": 2148
+   "likes": 2149
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -400,7 +383,7 @@
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 1182
+   "likes": 1184
   },
   {
    "name": "Muse-Spark-Open-816B-A42B",
@@ -434,7 +417,7 @@
    "grow": 0,
    "score": 85,
    "cat": "Vision",
-   "likes": 597
+   "likes": 598
   },
   {
    "name": "MOSS-Image-SFT",
@@ -796,6 +779,13 @@
    "kind": "News"
   },
   {
+   "t": "Broad access through consistent standards",
+   "url": "https://openai.com/index/broad-access-through-consistent-standards",
+   "at": "2026-10-21T21:00:00.000Z",
+   "src": "OpenAI",
+   "kind": "Lab blog"
+  },
+  {
    "t": "Meta says it will create a new class of nonvoting stock to raise the capital it needs for developing AI models, with an effective date in January 2027",
    "url": "https://www.techmeme.com/261021/p47#a261021p47",
    "at": "2026-10-21T20:20:01.000Z",
@@ -838,13 +828,6 @@
    "kind": "Lab blog"
   },
   {
-   "t": "Recursive releases Flint, an open-weight, 40B-parameter coding model developed with its Eureka Machine AI system, which automated most of the development",
-   "url": "https://www.techmeme.com/261021/p39#a261021p39",
-   "at": "2026-10-21T16:35:02.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "In the age of AI, learning maths is even more vital | Letters",
    "url": "https://www.theguardian.com/education/2026/oct/21/in-the-age-of-ai-learning-maths-is-even-more-vital",
    "at": "2026-10-21T16:33:12Z",
@@ -857,13 +840,6 @@
    "at": "2026-10-21T16:23:53.000Z",
    "src": "Google Research",
    "kind": "Lab blog"
-  },
-  {
-   "t": "Watchtower, which uses AI and simulation software to help the US Armed Forces make logistical decisions, emerges from stealth with a $35M seed",
-   "url": "https://www.techmeme.com/261021/p38#a261021p38",
-   "at": "2026-10-21T16:10:19.000Z",
-   "src": "Techmeme",
-   "kind": "News"
   },
   {
    "t": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
@@ -899,61 +875,68 @@
    "at": "2026-10-21T13:00:00.000Z",
    "src": "OpenAI",
    "kind": "Lab blog"
+  },
+  {
+   "t": "OpenAI models are coming to Google Cloud",
+   "url": "https://openai.com/index/openai-models-google-cloud",
+   "at": "2026-10-21T12:00:00.000Z",
+   "src": "OpenAI",
+   "kind": "Lab blog"
   }
  ],
  "discussions": [
   {
    "src": "Hacker News",
-   "t": "Mistral Large 4",
-   "url": "https://news.ycombinator.com/item?id=50186129",
-   "link": "https://mistral.ai/news/mistral-large-4/",
-   "up": 312,
-   "com": 91,
-   "at": "2026-10-21T19:20:55.000Z"
-  },
-  {
-   "src": "Hacker News",
    "t": "PHP 8.2.35",
    "url": "https://news.ycombinator.com/item?id=50180873",
    "link": "https://github.com/php/php-src/releases/tag/php-8.2.35",
-   "up": 929,
-   "com": 520,
+   "up": 942,
+   "com": 522,
    "at": "2026-10-21T13:45:33.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Mistral Large 4",
+   "url": "https://news.ycombinator.com/item?id=50186129",
+   "link": "https://mistral.ai/news/mistral-large-4/",
+   "up": 315,
+   "com": 92,
+   "at": "2026-10-21T19:20:55.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Claude Duet",
    "url": "https://news.ycombinator.com/item?id=50186037",
    "link": "https://claude.com/product/claude-duet",
-   "up": 215,
-   "com": 183,
+   "up": 241,
+   "com": 205,
    "at": "2026-10-21T19:14:01.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "PHP2Shell: AI uncovers critical RCE in PHP",
-   "url": "https://news.ycombinator.com/item?id=50180836",
-   "link": "https://www.wiz.io/blog/php2shell-php-rce",
-   "up": 422,
-   "com": 167,
-   "at": "2026-10-21T13:43:19.000Z"
   },
   {
    "src": "Hacker News",
    "t": "GitLab Critical Patch Release",
    "url": "https://news.ycombinator.com/item?id=50185869",
    "link": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/",
-   "up": 145,
-   "com": 31,
+   "up": 171,
+   "com": 38,
    "at": "2026-10-21T19:01:12.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "PHP2Shell: AI uncovers critical RCE in PHP",
+   "url": "https://news.ycombinator.com/item?id=50180836",
+   "link": "https://www.wiz.io/blog/php2shell-php-rce",
+   "up": 426,
+   "com": 167,
+   "at": "2026-10-21T13:43:19.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Google's Rust Style Guide",
    "url": "https://news.ycombinator.com/item?id=50186010",
    "link": "https://google.github.io/styleguide/rustguide.html",
-   "up": 110,
-   "com": 80,
+   "up": 123,
+   "com": 85,
    "at": "2026-10-21T19:11:57.000Z"
   }
  ]
