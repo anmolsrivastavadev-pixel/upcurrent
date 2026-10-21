@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-21T18:15:07.979Z"
+  "updated": "2026-10-21T18:30:58.253Z"
  },
  "pulse": {
   "trending": 80,
   "accelerating": 1,
   "newModels": 11,
-  "discussions": 35,
-  "stars": 1868
+  "discussions": 33,
+  "stars": 1861
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo.",
    "meta": [
-    "★ 2,497",
-    "~1,281 in 24h",
+    "★ 2,514",
+    "~1,283 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-19T19:29:01Z",
@@ -58,7 +58,7 @@
    "desc": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
    "meta": [
     "★ 1,251",
-    "+104 in 24h",
+    "+101 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-18T12:19:27Z",
@@ -90,8 +90,8 @@
    "grow": 9,
    "desc": "Make an old Android TV fast again with Claude Code or Codex: a tiny ad-free home screen plus the prompt to clean it up",
    "meta": [
-    "★ 1,121",
-    "+239 in 24h",
+    "★ 1,123",
+    "+238 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-18T06:42:29Z",
@@ -225,8 +225,8 @@
    "name": "free-my-tv",
    "url": "https://github.com/simbasjungles/free-my-tv",
    "from": "GitHub",
-   "use": 1281,
-   "useLabel": "~1,281 stars/day",
+   "use": 1283,
+   "useLabel": "~1,283 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -256,6 +256,16 @@
   }
  ],
  "receipts": [
+  {
+   "name": "simbasjungles/free-my-tv",
+   "url": "https://github.com/simbasjungles/free-my-tv",
+   "kind": "stars",
+   "first": "2026-10-20T16:01:08.589Z",
+   "firstV": 1140,
+   "m": 2500,
+   "at": "2026-10-21T18:30:58.253Z",
+   "lead": 26.497128888888888
+  },
   {
    "name": "Comfy-Org/MOSS-Image",
    "url": "https://huggingface.co/Comfy-Org/MOSS-Image",
@@ -325,32 +335,22 @@
    "m": 25000,
    "at": "2026-10-19T02:30:51.553Z",
    "lead": 332.4975011111111
-  },
-  {
-   "name": "tangency-labs/solidcraft",
-   "url": "https://github.com/tangency-labs/solidcraft",
-   "kind": "stars",
-   "first": "2026-10-16T17:01:06.795Z",
-   "firstV": 3005,
-   "m": 5000,
-   "at": "2026-10-18T15:01:04.544Z",
-   "lead": 45.99937472222222
   }
  ],
  "github": [
   {
    "repo": "simbasjungles/free-my-tv",
-   "stars": 2497,
-   "d24": 1281,
+   "stars": 2514,
+   "d24": 1283,
    "est": true,
-   "forks": 288,
+   "forks": 293,
    "contrib": null,
    "score": 96
   },
   {
    "repo": "Ansub/tv-detox",
-   "stars": 1121,
-   "d24": 239,
+   "stars": 1123,
+   "d24": 238,
    "est": false,
    "forks": 115,
    "contrib": null,
@@ -359,7 +359,7 @@
   {
    "repo": "Leonxlnx/earshot",
    "stars": 2045,
-   "d24": 126,
+   "d24": 124,
    "est": false,
    "forks": 116,
    "contrib": null,
@@ -368,7 +368,7 @@
   {
    "repo": "aicodeking/leanrea",
    "stars": 1264,
-   "d24": 118,
+   "d24": 115,
    "est": false,
    "forks": 190,
    "contrib": null,
@@ -377,7 +377,7 @@
   {
    "repo": "alchaincyf/huashu-motion",
    "stars": 1251,
-   "d24": 104,
+   "d24": 101,
    "est": false,
    "forks": 125,
    "contrib": null,
@@ -394,7 +394,7 @@
    "grow": null,
    "score": 94,
    "cat": "Vision",
-   "likes": 2128
+   "likes": 2133
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -405,7 +405,7 @@
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 1161
+   "likes": 1162
   },
   {
    "name": "Muse-Spark-Open-816B-A42B",
@@ -776,14 +776,14 @@
  },
  "headlines": [
   {
-   "t": "Train in Simulation, Deploy on a Real Robot: Microduck with Isaac Lab 3.0",
-   "url": "https://huggingface.co/blog/nvidia/microduck-isaac-lab-sim-to-real",
-   "at": "2026-10-21T17:58:42.000Z",
+   "t": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
+   "url": "https://huggingface.co/blog/nvidia/kumo-relational",
+   "at": "2026-10-21T18:26:30.000Z",
    "src": "Hugging Face",
    "kind": "Lab blog"
   },
   {
-   "t": "Flapping Airplanes, which is working on methods to train AI models on less data and compute and make the chips more efficient, raised $1B at a $6B valuation",
+   "t": "Flapping Airplanes, which is working on methods to train AI models using less data and compute and make the chips more efficient, raised $1B at a $6B valuation",
    "url": "https://www.techmeme.com/261021/p43#a261021p43",
    "at": "2026-10-21T17:45:08.000Z",
    "src": "Techmeme",
@@ -794,6 +794,13 @@
    "url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
    "at": "2026-10-21T17:35:36.000Z",
    "src": "Hugging Face",
+   "kind": "Lab blog"
+  },
+  {
+   "t": "How AT&T is rethinking in-house legal work with OpenAI",
+   "url": "https://openai.com/index/att-legal",
+   "at": "2026-10-21T17:00:00.000Z",
+   "src": "OpenAI",
    "kind": "Lab blog"
   },
   {
@@ -879,13 +886,6 @@
    "at": "2026-10-21T14:06:37.000Z",
    "src": "Techmeme",
    "kind": "News"
-  },
-  {
-   "t": "As fans reject AI-generated music, even boosters are drawing the line",
-   "url": "https://www.theguardian.com/music/2026/oct/21/artificial-intelligence-music-grimes-asap-rocky",
-   "at": "2026-10-21T13:22:51Z",
-   "src": "The Guardian",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -894,8 +894,8 @@
    "t": "PHP 8.2.35",
    "url": "https://news.ycombinator.com/item?id=50180873",
    "link": "https://github.com/php/php-src/releases/tag/php-8.2.35",
-   "up": 792,
-   "com": 456,
+   "up": 819,
+   "com": 466,
    "at": "2026-10-21T13:45:33.000Z"
   },
   {
@@ -903,8 +903,8 @@
    "t": "PHP2Shell: AI uncovers critical RCE in PHP",
    "url": "https://news.ycombinator.com/item?id=50180836",
    "link": "https://www.wiz.io/blog/php2shell-php-rce",
-   "up": 396,
-   "com": 149,
+   "up": 399,
+   "com": 151,
    "at": "2026-10-21T13:43:19.000Z"
   },
   {
@@ -912,8 +912,8 @@
    "t": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
    "url": "https://news.ycombinator.com/item?id=50181175",
    "link": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
-   "up": 163,
-   "com": 96,
+   "up": 169,
+   "com": 98,
    "at": "2026-10-21T14:03:43.000Z"
   },
   {
@@ -921,27 +921,27 @@
    "t": "Rust off Rails: The opinionated web stack for the AI era",
    "url": "https://news.ycombinator.com/item?id=50183727",
    "link": "https://rustoffrails.org/",
-   "up": 53,
-   "com": 45,
+   "up": 55,
+   "com": 48,
    "at": "2026-10-21T16:34:16.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Using thousands of AI agents to uncover new leads in biological data",
-   "url": "https://news.ycombinator.com/item?id=50180752",
-   "link": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
-   "up": 84,
-   "com": 28,
-   "at": "2026-10-21T13:37:00.000Z"
   },
   {
    "src": "Hacker News",
    "t": "OpenAI models are coming to Google Cloud",
    "url": "https://news.ycombinator.com/item?id=50180079",
    "link": "https://openai.com/index/openai-models-google-cloud/",
-   "up": 93,
-   "com": 25,
+   "up": 108,
+   "com": 32,
    "at": "2026-10-21T12:53:11.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Using thousands of AI agents to uncover new leads in biological data",
+   "url": "https://news.ycombinator.com/item?id=50180752",
+   "link": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
+   "up": 87,
+   "com": 36,
+   "at": "2026-10-21T13:37:00.000Z"
   }
  ]
 }
