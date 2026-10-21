@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-21T11:01:06.900Z"
+  "updated": "2026-10-21T11:30:55.318Z"
  },
  "pulse": {
   "trending": 79,
   "accelerating": 0,
   "newModels": 9,
   "discussions": 41,
-  "stars": 2758
+  "stars": 2741
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 97,
-   "grow": 95,
+   "grow": 97,
    "desc": "A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo.",
    "meta": [
-    "★ 2,224",
-    "+1,369 in 24h",
+    "★ 2,245",
+    "+1,360 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-19T19:29:01Z",
@@ -57,8 +57,8 @@
    "grow": null,
    "desc": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
    "meta": [
-    "★ 1,225",
-    "~416 in 24h",
+    "★ 1,228",
+    "~414 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-18T12:19:27Z",
@@ -90,8 +90,8 @@
    "grow": null,
    "desc": "Make an old Android TV fast again with Claude Code or Codex: a tiny ad-free home screen plus the prompt to clean it up",
    "meta": [
-    "★ 1,049",
-    "~330 in 24h",
+    "★ 1,054",
+    "~329 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-18T06:42:29Z",
@@ -105,7 +105,7 @@
    "cat": "Tools",
    "score": 87,
    "grow": 13,
-   "desc": "Model on Hugging Face · open weights · ♥ 858",
+   "desc": "Model on Hugging Face · open weights · ♥ 861",
    "meta": [
     "15K downloads",
     "Released 20 days ago"
@@ -121,7 +121,7 @@
    "cat": "Infrastructure",
    "score": 86,
    "grow": 12,
-   "desc": "Model on Hugging Face · open weights · ♥ 617",
+   "desc": "Model on Hugging Face · open weights · ♥ 618",
    "meta": [
     "2.9K downloads",
     "Released 36 days ago"
@@ -139,8 +139,8 @@
    "grow": null,
    "desc": "One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper.",
    "meta": [
-    "★ 1,226",
-    "~283 in 24h",
+    "★ 1,229",
+    "~282 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-17T02:53:24Z",
@@ -164,19 +164,19 @@
    "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein"
   },
   {
-   "name": "CoEvo-RSI: When Harnesses Evolve, Which Models Should Follow?",
+   "name": "LLM2R: From Large Language Models to 3D Reassemblers",
    "owner": "Paper",
    "src": "paper",
-   "url": "https://huggingface.co/papers/2610.25078",
+   "url": "https://huggingface.co/papers/2610.18604",
    "cat": "Research",
    "score": 85,
    "grow": null,
-   "desc": "Model--harness co-evolution has emerged as a prominent paradigm for recursive self-improving (RSI) agents, jointly evolving their execution scaffolds and intrinsic capabilities.",
+   "desc": "3D part assembly aims to reconstruct a complete shape from a set of unassembled parts by predicting a rigid SE(3) transformation for each part.",
    "meta": [
-    "▲ 55 upvotes",
+    "▲ 19 upvotes",
     "Hugging Face Papers"
    ],
-   "at": "2026-10-17T20:00:00.000Z",
+   "at": "2026-10-12T20:00:00.000Z",
    "breakout": null
   }
  ],
@@ -205,28 +205,6 @@
    "verdict": "Talk only, no public usage numbers"
   },
   {
-   "name": "GPT-6.1",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
-    {
-     "src": "OpenAI blog",
-     "t": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
-     "url": "https://openai.com/index/terminal-x"
-    },
-    {
-     "src": "Techmeme",
-     "t": "OpenAI says two agents, one GPT-6.1 Sol and one GPT-6 Astra, weakened misalignment monitoring while making requested changes during two internal coding tasks",
-     "url": "https://www.techmeme.com/261020/p60#a261020p60"
-    }
-   ],
-   "buzz": 2,
-   "verdict": "Talk only, no public usage numbers"
-  },
-  {
    "name": "Qwen3.8-Flash-Next",
    "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
    "from": "Hugging Face",
@@ -247,8 +225,8 @@
    "name": "free-my-tv",
    "url": "https://github.com/simbasjungles/free-my-tv",
    "from": "GitHub",
-   "use": 1369,
-   "useLabel": "+1,369 stars/day",
+   "use": 1360,
+   "useLabel": "+1,360 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -362,17 +340,17 @@
  "github": [
   {
    "repo": "simbasjungles/free-my-tv",
-   "stars": 2224,
-   "d24": 1369,
+   "stars": 2245,
+   "d24": 1360,
    "est": false,
-   "forks": 234,
+   "forks": 237,
    "contrib": null,
    "score": 97
   },
   {
    "repo": "alchaincyf/huashu-motion",
-   "stars": 1225,
-   "d24": 416,
+   "stars": 1228,
+   "d24": 414,
    "est": true,
    "forks": 121,
    "contrib": null,
@@ -380,8 +358,8 @@
   },
   {
    "repo": "Ansub/tv-detox",
-   "stars": 1049,
-   "d24": 330,
+   "stars": 1054,
+   "d24": 329,
    "est": true,
    "forks": 107,
    "contrib": null,
@@ -389,8 +367,8 @@
   },
   {
    "repo": "aicodeking/leanrea",
-   "stars": 1226,
-   "d24": 283,
+   "stars": 1229,
+   "d24": 282,
    "est": true,
    "forks": 188,
    "contrib": null,
@@ -398,7 +376,7 @@
   },
   {
    "repo": "Caho1/open-claude-ui",
-   "stars": 1301,
+   "stars": 1304,
    "d24": 189,
    "est": true,
    "forks": 267,
@@ -407,8 +385,8 @@
   },
   {
    "repo": "Leonxlnx/earshot",
-   "stars": 2024,
-   "d24": 171,
+   "stars": 2026,
+   "d24": 167,
    "est": false,
    "forks": 115,
    "contrib": null,
@@ -425,7 +403,7 @@
    "grow": 52,
    "score": 95,
    "cat": "Vision",
-   "likes": 2065
+   "likes": 2069
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -436,7 +414,7 @@
    "grow": 12,
    "score": 91,
    "cat": "Vision",
-   "likes": 1126
+   "likes": 1128
   },
   {
    "name": "drama-3",
@@ -447,7 +425,7 @@
    "grow": 13,
    "score": 87,
    "cat": "Tools",
-   "likes": 858
+   "likes": 861
   },
   {
    "name": "Muse-Spark-Open-816B-A42B",
@@ -459,7 +437,7 @@
    "grow": 12,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 617
+   "likes": 618
   },
   {
    "name": "flux-3-image-klein",
@@ -791,6 +769,13 @@
  },
  "headlines": [
   {
+   "t": "Coherence Neuro, which is developing AI models and brain implants to help combat brain tumors, raised a $45M seed from the OpenAI Startup Fund and Founders Fund",
+   "url": "https://www.techmeme.com/261021/p15#a261021p15",
+   "at": "2026-10-21T11:05:22.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Announcing SimReady Central: An Open Library of Simulation-Ready 3D Assets for Robotics and AI Factories",
    "url": "https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-factories",
    "at": "2026-10-21T10:59:42.000Z",
@@ -894,13 +879,6 @@
    "at": "2026-10-21T06:40:01.000Z",
    "src": "Techmeme",
    "kind": "News"
-  },
-  {
-   "t": "OpenEvidence says nearly two-thirds of ~1M US physicians use its AI search engine; a source says it is on track to generate $400M-$500M in 2026 ad revenue",
-   "url": "https://www.techmeme.com/261021/p6#a261021p6",
-   "at": "2026-10-21T06:25:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -909,7 +887,7 @@
    "t": "Voxtral 3",
    "url": "https://news.ycombinator.com/item?id=50168396",
    "link": "https://mistral.ai/news/voxtral-3/",
-   "up": 690,
+   "up": 698,
    "com": 172,
    "at": "2026-10-20T16:02:07.000Z"
   },
@@ -918,7 +896,7 @@
    "t": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
    "url": "https://news.ycombinator.com/item?id=50169053",
    "link": "https://github.com/google-pytorch/torch_tpu",
-   "up": 345,
+   "up": 349,
    "com": 73,
    "at": "2026-10-20T16:40:24.000Z"
   },
@@ -927,7 +905,7 @@
    "t": "How I got over 300 Tor exit nodes removed",
    "url": "https://news.ycombinator.com/item?id=50166257",
    "link": "https://kaba.cx/posts/20261020_Tor/",
-   "up": 370,
+   "up": 371,
    "com": 96,
    "at": "2026-10-20T13:39:24.000Z"
   },
@@ -936,8 +914,8 @@
    "t": "The Other Epidemic: Trying to get off benzodiazepines",
    "url": "https://news.ycombinator.com/item?id=50173891",
    "link": "https://www.thebeliever.net/the-other-epidemic/",
-   "up": 203,
-   "com": 153,
+   "up": 206,
+   "com": 156,
    "at": "2026-10-20T23:04:09.000Z"
   },
   {
@@ -945,7 +923,7 @@
    "t": "Publish fake stats, get cited in LLMs",
    "url": "https://news.ycombinator.com/item?id=50165801",
    "link": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
-   "up": 343,
+   "up": 344,
    "com": 198,
    "at": "2026-10-20T13:06:22.000Z"
   },
@@ -954,8 +932,8 @@
    "t": "C# now beats Rust on WASM size",
    "url": "https://news.ycombinator.com/item?id=50175510",
    "link": "https://github.com/zion-sati/NetWasm",
-   "up": 78,
-   "com": 29,
+   "up": 85,
+   "com": 31,
    "at": "2026-10-21T02:53:47.000Z"
   }
  ]
