@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-21T13:01:09.428Z"
+  "updated": "2026-10-21T13:12:29.278Z"
  },
  "pulse": {
   "trending": 79,
   "accelerating": 1,
   "newModels": 8,
-  "discussions": 41,
-  "stars": 2670
+  "discussions": 40,
+  "stars": 2663
  },
  "rising": [
   {
@@ -20,12 +20,12 @@
    "owner": "simbasjungles",
    "src": "gh",
    "cat": "Agents",
-   "score": 97,
+   "score": 96,
    "grow": null,
    "desc": "A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo.",
    "meta": [
-    "★ 2,287",
-    "~1,321 in 24h",
+    "★ 2,291",
+    "~1,318 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-19T19:29:01Z",
@@ -57,7 +57,7 @@
    "grow": null,
    "desc": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
    "meta": [
-    "★ 1,234",
+    "★ 1,235",
     "~407 in 24h",
     "Created 3 days ago"
    ],
@@ -90,7 +90,7 @@
    "grow": null,
    "desc": "Make an old Android TV fast again with Claude Code or Codex: a tiny ad-free home screen plus the prompt to clean it up",
    "meta": [
-    "★ 1,063",
+    "★ 1,067",
     "~326 in 24h",
     "Created 3 days ago"
    ],
@@ -140,7 +140,7 @@
    "desc": "One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper.",
    "meta": [
     "★ 1,238",
-    "~280 in 24h",
+    "~279 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-17T02:53:24Z",
@@ -154,7 +154,7 @@
    "cat": "Vision",
    "score": 85,
    "grow": 17,
-   "desc": "Vision on Hugging Face · open weights · ♥ 587",
+   "desc": "Vision on Hugging Face · open weights · ♥ 588",
    "meta": [
     "93K downloads",
     "Released 8 days ago"
@@ -203,8 +203,8 @@
    "name": "free-my-tv",
    "url": "https://github.com/simbasjungles/free-my-tv",
    "from": "GitHub",
-   "use": 1321,
-   "useLabel": "~1,321 stars/day",
+   "use": 1318,
+   "useLabel": "~1,318 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -318,16 +318,16 @@
  "github": [
   {
    "repo": "simbasjungles/free-my-tv",
-   "stars": 2287,
-   "d24": 1321,
+   "stars": 2291,
+   "d24": 1318,
    "est": true,
-   "forks": 248,
+   "forks": 250,
    "contrib": null,
-   "score": 97
+   "score": 96
   },
   {
    "repo": "alchaincyf/huashu-motion",
-   "stars": 1234,
+   "stars": 1235,
    "d24": 407,
    "est": true,
    "forks": 124,
@@ -336,7 +336,7 @@
   },
   {
    "repo": "Ansub/tv-detox",
-   "stars": 1063,
+   "stars": 1067,
    "d24": 326,
    "est": true,
    "forks": 111,
@@ -346,16 +346,16 @@
   {
    "repo": "aicodeking/leanrea",
    "stars": 1238,
-   "d24": 280,
+   "d24": 279,
    "est": true,
-   "forks": 188,
+   "forks": 189,
    "contrib": null,
    "score": 85
   },
   {
    "repo": "Caho1/open-claude-ui",
    "stars": 1305,
-   "d24": 188,
+   "d24": 187,
    "est": true,
    "forks": 267,
    "contrib": null,
@@ -364,7 +364,7 @@
   {
    "repo": "Leonxlnx/earshot",
    "stars": 2028,
-   "d24": 148,
+   "d24": 146,
    "est": false,
    "forks": 116,
    "contrib": null,
@@ -381,7 +381,7 @@
    "grow": 52,
    "score": 95,
    "cat": "Vision",
-   "likes": 2084
+   "likes": 2087
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -426,7 +426,7 @@
    "grow": 17,
    "score": 85,
    "cat": "Vision",
-   "likes": 587
+   "likes": 588
   },
   {
    "name": "MOSS-Image-SFT",
@@ -782,6 +782,13 @@
    "kind": "News"
   },
   {
+   "t": "OpenAI models are coming to Google Cloud",
+   "url": "https://openai.com/index/openai-models-google-cloud",
+   "at": "2026-10-21T12:00:00.000Z",
+   "src": "OpenAI",
+   "kind": "Lab blog"
+  },
+  {
    "t": "AI code-testing startup Blacksmith raised a $66M Series C led by Sequoia Capital at a $1B valuation, up from $550M after raising a $45M Series B in August",
    "url": "https://www.techmeme.com/261021/p17#a261021p17",
    "at": "2026-10-21T11:30:01.000Z",
@@ -850,13 +857,6 @@
    "at": "2026-10-21T10:30:02.000Z",
    "src": "NVIDIA",
    "kind": "Lab blog"
-  },
-  {
-   "t": "Nvidia unveils the DSX POD, a modular containerized version of its Vera Rubin reference architecture to cut data center deployment from six months to 14 days",
-   "url": "https://www.techmeme.com/261021/p12#a261021p12",
-   "at": "2026-10-21T10:20:18.000Z",
-   "src": "Techmeme",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -865,7 +865,7 @@
    "t": "Voxtral 3",
    "url": "https://news.ycombinator.com/item?id=50168396",
    "link": "https://mistral.ai/news/voxtral-3/",
-   "up": 719,
+   "up": 720,
    "com": 175,
    "at": "2026-10-20T16:02:07.000Z"
   },
@@ -874,7 +874,7 @@
    "t": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
    "url": "https://news.ycombinator.com/item?id=50169053",
    "link": "https://github.com/google-pytorch/torch_tpu",
-   "up": 357,
+   "up": 359,
    "com": 76,
    "at": "2026-10-20T16:40:24.000Z"
   },
@@ -883,7 +883,7 @@
    "t": "How I got over 300 Tor exit nodes removed",
    "url": "https://news.ycombinator.com/item?id=50166257",
    "link": "https://kaba.cx/posts/20261020_Tor/",
-   "up": 375,
+   "up": 376,
    "com": 97,
    "at": "2026-10-20T13:39:24.000Z"
   },
@@ -892,27 +892,27 @@
    "t": "The Other Epidemic: Trying to get off benzodiazepines",
    "url": "https://news.ycombinator.com/item?id=50173891",
    "link": "https://www.thebeliever.net/the-other-epidemic/",
-   "up": 217,
-   "com": 175,
+   "up": 221,
+   "com": 177,
    "at": "2026-10-20T23:04:09.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Publish fake stats, get cited in LLMs",
-   "url": "https://news.ycombinator.com/item?id=50165801",
-   "link": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
-   "up": 348,
-   "com": 199,
-   "at": "2026-10-20T13:06:22.000Z"
   },
   {
    "src": "Hacker News",
    "t": "C# now beats Rust on WASM size",
    "url": "https://news.ycombinator.com/item?id=50175510",
    "link": "https://github.com/zion-sati/NetWasm",
-   "up": 110,
-   "com": 49,
+   "up": 113,
+   "com": 55,
    "at": "2026-10-21T02:53:47.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Steam Users Beg for \"No AI\" Filter as Vibecoders Flood Next Fest",
+   "url": "https://news.ycombinator.com/item?id=50168190",
+   "link": "https://www.ign.com/articles/steam-fans-are-begging-for-a-no-ai-filter-as-steam-next-fest-is-filled-with-slop",
+   "up": 180,
+   "com": 213,
+   "at": "2026-10-20T15:48:26.000Z"
   }
  ]
 }
