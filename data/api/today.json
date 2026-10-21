@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-21T03:01:05.213Z"
+  "updated": "2026-10-21T03:30:52.072Z"
  },
  "pulse": {
   "trending": 81,
   "accelerating": 1,
   "newModels": 10,
-  "discussions": 47,
-  "stars": 704
+  "discussions": 45,
+  "stars": 727
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 98,
-   "grow": 66,
+   "grow": 68,
    "desc": "A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo.",
    "meta": [
-    "★ 1,890",
-    "+1,637 in 24h",
+    "★ 1,914",
+    "+1,616 in 24h",
     "Created yesterday"
    ],
    "at": "2026-10-19T19:29:01Z",
@@ -57,8 +57,8 @@
    "grow": 6,
    "desc": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
    "meta": [
-    "★ 1,165",
-    "+117 in 24h",
+    "★ 1,169",
+    "+120 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-18T12:19:27Z",
@@ -106,7 +106,7 @@
    "grow": null,
    "desc": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
    "meta": [
-    "★ 1,970",
+    "★ 1,972",
     "~337 in 24h",
     "Created 6 days ago"
    ],
@@ -123,8 +123,8 @@
    "grow": 8,
    "desc": "One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper.",
    "meta": [
-    "★ 1,186",
-    "+149 in 24h",
+    "★ 1,188",
+    "+147 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-17T02:53:24Z",
@@ -148,29 +148,13 @@
    "url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B"
   },
   {
-   "name": "embeddinggemma-2",
-   "owner": "google",
-   "src": "hf",
-   "cat": "Vision",
-   "score": 85,
-   "grow": 0,
-   "desc": "Vision on Hugging Face · open source · ♥ 2.8K",
-   "meta": [
-    "172K downloads",
-    "Released 37 days ago"
-   ],
-   "at": "2026-09-14T14:53:42.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/google/embeddinggemma-2"
-  },
-  {
    "name": "flux-3-image-klein",
    "owner": "black-forest-labs",
    "src": "hf",
    "cat": "Vision",
    "score": 85,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 569",
+   "desc": "Vision on Hugging Face · open weights · ♥ 570",
    "meta": [
     "79K downloads",
     "Released 8 days ago"
@@ -178,6 +162,22 @@
    "at": "2026-10-13T10:58:40.000Z",
    "breakout": null,
    "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein"
+  },
+  {
+   "name": "Focused Omni-Modal GUI Agents",
+   "owner": "Paper",
+   "src": "paper",
+   "url": "https://huggingface.co/papers/2610.26203",
+   "cat": "Research",
+   "score": 85,
+   "grow": null,
+   "desc": "Graphical User Interface (GUI) agents increasingly act over streaming omni-modal observations spanning screenshots, audio, video, interaction history, and device states.",
+   "meta": [
+    "▲ 34 upvotes",
+    "Hugging Face Papers"
+   ],
+   "at": "2026-10-18T20:00:00.000Z",
+   "breakout": null
   }
  ],
  "breakouts": [],
@@ -197,8 +197,8 @@
     },
     {
      "src": "YouTube",
-     "t": "Quantum breakthrough, Gemini 4 Argon, MOSS Image, KLING 4, OpenAI spy, Muse Wonder: AI NEWS",
-     "url": "https://www.youtube.com/watch?v=tDWtcyeNNew"
+     "t": "HUGE GPT-6.5 LEAK! NEW Claude Fable 5.5, Gemini 4 Carbon, MiniMax M3.1 Flash & Kimi K3.1! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=2BXktpaCEN4"
     }
    ],
    "buzz": 2,
@@ -225,8 +225,8 @@
    "name": "free-my-tv",
    "url": "https://github.com/simbasjungles/free-my-tv",
    "from": "GitHub",
-   "use": 1637,
-   "useLabel": "+1,637 stars/day",
+   "use": 1616,
+   "useLabel": "+1,616 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -340,16 +340,16 @@
  "github": [
   {
    "repo": "simbasjungles/free-my-tv",
-   "stars": 1890,
-   "d24": 1637,
+   "stars": 1914,
+   "d24": 1616,
    "est": false,
-   "forks": 194,
+   "forks": 197,
    "contrib": null,
    "score": 98
   },
   {
    "repo": "Leonxlnx/earshot",
-   "stars": 1970,
+   "stars": 1972,
    "d24": 337,
    "est": true,
    "forks": 113,
@@ -358,8 +358,8 @@
   },
   {
    "repo": "aicodeking/leanrea",
-   "stars": 1186,
-   "d24": 149,
+   "stars": 1188,
+   "d24": 147,
    "est": false,
    "forks": 178,
    "contrib": null,
@@ -367,8 +367,8 @@
   },
   {
    "repo": "alchaincyf/huashu-motion",
-   "stars": 1165,
-   "d24": 117,
+   "stars": 1169,
+   "d24": 120,
    "est": false,
    "forks": 119,
    "contrib": null,
@@ -377,18 +377,18 @@
   {
    "repo": "Caho1/open-claude-ui",
    "stars": 1290,
-   "d24": 26,
+   "d24": 25,
    "est": false,
-   "forks": 266,
+   "forks": 267,
    "contrib": null,
    "score": 76
   },
   {
    "repo": "feder-cr/git-ai",
-   "stars": 1280,
-   "d24": -1562,
+   "stars": 1282,
+   "d24": -1518,
    "est": false,
-   "forks": 124,
+   "forks": 125,
    "contrib": null,
    "score": 80
   }
@@ -403,7 +403,7 @@
    "grow": 0,
    "score": 95,
    "cat": "Vision",
-   "likes": 1980
+   "likes": 1983
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -414,7 +414,7 @@
    "grow": 0,
    "score": 91,
    "cat": "Vision",
-   "likes": 1100
+   "likes": 1102
   },
   {
    "name": "drama-3",
@@ -440,17 +440,6 @@
    "likes": 612
   },
   {
-   "name": "embeddinggemma-2",
-   "org": "google",
-   "lic": "Open source",
-   "at": "2026-09-14T14:53:42.000Z",
-   "dl": 172474,
-   "grow": 0,
-   "score": 85,
-   "cat": "Vision",
-   "likes": 2771
-  },
-  {
    "name": "flux-3-image-klein",
    "org": "black-forest-labs",
    "lic": "Open weights",
@@ -459,7 +448,18 @@
    "grow": 0,
    "score": 85,
    "cat": "Vision",
-   "likes": 569
+   "likes": 570
+  },
+  {
+   "name": "embeddinggemma-2",
+   "org": "google",
+   "lic": "Open source",
+   "at": "2026-09-14T14:53:42.000Z",
+   "dl": 172474,
+   "grow": 0,
+   "score": 83,
+   "cat": "Vision",
+   "likes": 2773
   }
  ],
  "free": [
@@ -839,10 +839,24 @@
    "kind": "Lab blog"
   },
   {
+   "t": "Why Reliable Healthcare Data Infrastructure Is Becoming Essential to Responsible AI",
+   "url": "https://techbullion.com/why-reliable-healthcare-data-infrastructure-is-becoming-essential-to-responsible-ai/",
+   "at": "2026-10-20T15:28:48Z",
+   "src": "TechBullion",
+   "kind": "News"
+  },
+  {
    "t": "Could this be a Deep Blue moment for the cryptic crossword?",
    "url": "https://www.theguardian.com/puzzles/crossword-blog/2026/oct/20/could-this-be-a-deep-blue-moment-for-the-cryptic-crossword",
    "at": "2026-10-20T15:27:50Z",
    "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "China defends DeepSeek after US ban of its AI from government systems",
+   "url": "https://www.bnnbloomberg.ca/business/2026/10/20/china-defends-deepseek-after-us-ban-of-its-ai-from-government-systems/",
+   "at": "2026-10-20T15:23:45Z",
+   "src": "Bnn Bloomberg",
    "kind": "News"
   },
   {
@@ -853,31 +867,17 @@
    "kind": "Lab blog"
   },
   {
-   "t": "OpenAI Announces Humanoid Robot Debut For 2027",
-   "url": "https://www.ubergizmo.com/2026/10/openai-announces-humanoid-robot-debut-for-2027/",
-   "at": "2026-10-20T15:00:39Z",
-   "src": "Ubergizmo",
+   "t": "OpenAI pulls back from China chip controls, Politico reports",
+   "url": "https://thenextweb.com/news/openai-china-chip-export-controls-retreat-nvidia",
+   "at": "2026-10-20T15:12:26Z",
+   "src": "TNW",
    "kind": "News"
   },
   {
-   "t": "His prediction was correct in 2025: artificial intelligence picks its candidate for the Ballon d'Or",
-   "url": "https://www.yardbarker.com/soccer/articles/his_prediction_was_correct_in_2025_artificial_intelligence_picks_its_candidate_for_the_ballon_dor/s1_17790_44451049",
-   "at": "2026-10-20T14:56:26Z",
-   "src": "Yardbarker",
-   "kind": "News"
-  },
-  {
-   "t": "'The Network Is Our Technology': Akash Ambani Outlines Jio's Growth Plans Ahead Of India's Biggest IPO",
-   "url": "https://www.freepressjournal.in/business/the-network-is-our-technology-akash-ambani-outlines-jios-growth-plans-ahead-of-indias-biggest-ipo",
-   "at": "2026-10-20T14:35:50Z",
-   "src": "Free Press Journal",
-   "kind": "News"
-  },
-  {
-   "t": "Mathematicians fret as AI solves the unsolvable",
-   "url": "https://www.bangkokpost.com/life/tech/3340428/mathematicians-fret-as-ai-solves-the-unsolvable",
-   "at": "2026-10-20T14:35:00Z",
-   "src": "Bangkok Post",
+   "t": "Sam Altman wins dismisal of sister's sexual abuse lawsuit",
+   "url": "https://nypost.com/2026/10/20/business/sam-altman-wins-dismisal-of-sisters-sexual-abuse-lawsuit/",
+   "at": "2026-10-20T15:06:07Z",
+   "src": "New York Post",
    "kind": "News"
   }
  ],
@@ -887,8 +887,8 @@
    "t": "DeepInfer: High-performance inference framework for DeepSeek models",
    "url": "https://news.ycombinator.com/item?id=50163277",
    "link": "https://github.com/deepseek-ai/DeepInfer",
-   "up": 2153,
-   "com": 838,
+   "up": 2162,
+   "com": 840,
    "at": "2026-10-20T09:08:54.000Z"
   },
   {
@@ -896,8 +896,8 @@
    "t": "Voxtral 3",
    "url": "https://news.ycombinator.com/item?id=50168396",
    "link": "https://mistral.ai/news/voxtral-3/",
-   "up": 544,
-   "com": 144,
+   "up": 553,
+   "com": 146,
    "at": "2026-10-20T16:02:07.000Z"
   },
   {
@@ -905,7 +905,7 @@
    "t": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
    "url": "https://news.ycombinator.com/item?id=50169053",
    "link": "https://github.com/google-pytorch/torch_tpu",
-   "up": 276,
+   "up": 279,
    "com": 64,
    "at": "2026-10-20T16:40:24.000Z"
   },
@@ -914,8 +914,8 @@
    "t": "How I got over 300 Tor exit nodes removed",
    "url": "https://news.ycombinator.com/item?id=50166257",
    "link": "https://kaba.cx/posts/20261020_Tor/",
-   "up": 330,
-   "com": 79,
+   "up": 334,
+   "com": 80,
    "at": "2026-10-20T13:39:24.000Z"
   },
   {
@@ -923,18 +923,18 @@
    "t": "Publish fake stats, get cited in LLMs",
    "url": "https://news.ycombinator.com/item?id=50165801",
    "link": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
-   "up": 324,
-   "com": 191,
+   "up": 326,
+   "com": 192,
    "at": "2026-10-20T13:06:22.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "The Other Epidemic: Trying to get off benzodiazepines",
-   "url": "https://news.ycombinator.com/item?id=50173891",
-   "link": "https://www.thebeliever.net/the-other-epidemic/",
-   "up": 86,
-   "com": 59,
-   "at": "2026-10-20T23:04:09.000Z"
+   "t": "Google Cloud outage affects almost all banking and other operations in Europe",
+   "url": "https://news.ycombinator.com/item?id=50163961",
+   "link": "https://www.neowin.net/news/google-cloud-outage-takes-down-hsbc-revolut-bank-of-scotland-llyods-equifax-more/",
+   "up": 351,
+   "com": 175,
+   "at": "2026-10-20T10:26:02.000Z"
   }
  ]
 }
