@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-21T09:30:58.237Z"
+  "updated": "2026-10-21T10:01:05.922Z"
  },
  "pulse": {
-  "trending": 80,
+  "trending": 79,
   "accelerating": 0,
   "newModels": 9,
-  "discussions": 41,
-  "stars": 3035
+  "discussions": 42,
+  "stars": 2813
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 97,
-   "grow": 91,
+   "grow": 92,
    "desc": "A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo.",
    "meta": [
-    "★ 2,176",
-    "+1,421 in 24h",
+    "★ 2,193",
+    "+1,404 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-19T19:29:01Z",
@@ -39,7 +39,7 @@
    "cat": "Vision",
    "score": 95,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open source · ♥ 2K",
+   "desc": "Vision on Hugging Face · open source · ♥ 2.1K",
    "meta": [
     "28K downloads",
     "Released 4 days ago"
@@ -57,8 +57,8 @@
    "grow": null,
    "desc": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
    "meta": [
-    "★ 1,213",
-    "~421 in 24h",
+    "★ 1,219",
+    "~420 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-18T12:19:27Z",
@@ -90,8 +90,8 @@
    "grow": null,
    "desc": "Make an old Android TV fast again with Claude Code or Codex: a tiny ad-free home screen plus the prompt to clean it up",
    "meta": [
-    "★ 1,034",
-    "~332 in 24h",
+    "★ 1,038",
+    "~331 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-18T06:42:29Z",
@@ -104,10 +104,10 @@
    "src": "hf",
    "cat": "Tools",
    "score": 87,
-   "grow": 0,
-   "desc": "Model on Hugging Face · open weights · ♥ 855",
+   "grow": 13,
+   "desc": "Model on Hugging Face · open weights · ♥ 856",
    "meta": [
-    "13K downloads",
+    "15K downloads",
     "Released 20 days ago"
    ],
    "at": "2026-10-01T04:34:57.000Z",
@@ -120,32 +120,15 @@
    "src": "hf",
    "cat": "Infrastructure",
    "score": 86,
-   "grow": 0,
+   "grow": 12,
    "desc": "Model on Hugging Face · open weights · ♥ 615",
    "meta": [
-    "2.6K downloads",
+    "2.9K downloads",
     "Released 36 days ago"
    ],
    "at": "2026-09-15T19:23:19.000Z",
    "breakout": null,
    "url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B"
-  },
-  {
-   "name": "earshot",
-   "owner": "Leonxlnx",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 85,
-   "grow": 3,
-   "desc": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
-   "meta": [
-    "★ 2,020",
-    "+192 in 24h",
-    "Created 6 days ago"
-   ],
-   "at": "2026-10-15T06:52:46Z",
-   "breakout": null,
-   "url": "https://github.com/Leonxlnx/earshot"
   },
   {
    "name": "leanrea",
@@ -156,7 +139,7 @@
    "grow": null,
    "desc": "One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper.",
    "meta": [
-    "★ 1,220",
+    "★ 1,223",
     "~285 in 24h",
     "Created 4 days ago"
    ],
@@ -171,7 +154,7 @@
    "cat": "Vision",
    "score": 85,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 577",
+   "desc": "Vision on Hugging Face · open weights · ♥ 579",
    "meta": [
     "79K downloads",
     "Released 8 days ago"
@@ -179,6 +162,22 @@
    "at": "2026-10-13T10:58:40.000Z",
    "breakout": null,
    "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein"
+  },
+  {
+   "name": "CoEvo-RSI: When Harnesses Evolve, Which Models Should Follow?",
+   "owner": "Paper",
+   "src": "paper",
+   "url": "https://huggingface.co/papers/2610.25078",
+   "cat": "Research",
+   "score": 85,
+   "grow": null,
+   "desc": "Model--harness co-evolution has emerged as a prominent paradigm for recursive self-improving (RSI) agents, jointly evolving their execution scaffolds and intrinsic capabilities.",
+   "meta": [
+    "▲ 51 upvotes",
+    "Hugging Face Papers"
+   ],
+   "at": "2026-10-17T20:00:00.000Z",
+   "breakout": null
   }
  ],
  "breakouts": [],
@@ -231,8 +230,8 @@
    "name": "Qwen3.8-Flash-Next",
    "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
    "from": "Hugging Face",
-   "use": 2530599,
-   "useLabel": "2.5M downloads",
+   "use": 2633567,
+   "useLabel": "2.6M downloads",
    "usePct": 0.96875,
    "talk": [
     {
@@ -248,8 +247,8 @@
    "name": "free-my-tv",
    "url": "https://github.com/simbasjungles/free-my-tv",
    "from": "GitHub",
-   "use": 1421,
-   "useLabel": "+1,421 stars/day",
+   "use": 1404,
+   "useLabel": "+1,404 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -259,8 +258,8 @@
    "name": "Qwen-Image-2.1-Uncensored-Quantized",
    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
    "from": "Hugging Face",
-   "use": 2788283,
-   "useLabel": "2.8M downloads",
+   "use": 2738344,
+   "useLabel": "2.7M downloads",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -270,7 +269,7 @@
    "name": "Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
    "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
    "from": "Hugging Face",
-   "use": 1737441,
+   "use": 1726519,
    "useLabel": "1.7M downloads",
    "usePct": 0.9375,
    "talk": [],
@@ -363,17 +362,17 @@
  "github": [
   {
    "repo": "simbasjungles/free-my-tv",
-   "stars": 2176,
-   "d24": 1421,
+   "stars": 2193,
+   "d24": 1404,
    "est": false,
-   "forks": 225,
+   "forks": 226,
    "contrib": null,
    "score": 97
   },
   {
    "repo": "alchaincyf/huashu-motion",
-   "stars": 1213,
-   "d24": 421,
+   "stars": 1219,
+   "d24": 420,
    "est": true,
    "forks": 121,
    "contrib": null,
@@ -381,8 +380,8 @@
   },
   {
    "repo": "Ansub/tv-detox",
-   "stars": 1034,
-   "d24": 332,
+   "stars": 1038,
+   "d24": 331,
    "est": true,
    "forks": 105,
    "contrib": null,
@@ -390,7 +389,7 @@
   },
   {
    "repo": "aicodeking/leanrea",
-   "stars": 1220,
+   "stars": 1223,
    "d24": 285,
    "est": true,
    "forks": 185,
@@ -398,31 +397,22 @@
    "score": 85
   },
   {
-   "repo": "feder-cr/git-ai",
-   "stars": 1126,
-   "d24": 193,
-   "est": true,
-   "forks": 128,
-   "contrib": null,
-   "score": 77
-  },
-  {
-   "repo": "Leonxlnx/earshot",
-   "stars": 2020,
-   "d24": 192,
-   "est": false,
-   "forks": 115,
-   "contrib": null,
-   "score": 85
-  },
-  {
    "repo": "Caho1/open-claude-ui",
-   "stars": 1298,
-   "d24": 191,
+   "stars": 1300,
+   "d24": 190,
    "est": true,
    "forks": 267,
    "contrib": null,
-   "score": 75
+   "score": 76
+  },
+  {
+   "repo": "Leonxlnx/earshot",
+   "stars": 2021,
+   "d24": 183,
+   "est": false,
+   "forks": 115,
+   "contrib": null,
+   "score": 84
   }
  ],
  "models": [
@@ -435,7 +425,7 @@
    "grow": 0,
    "score": 95,
    "cat": "Vision",
-   "likes": 2049
+   "likes": 2052
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -446,18 +436,18 @@
    "grow": 0,
    "score": 91,
    "cat": "Vision",
-   "likes": 1119
+   "likes": 1121
   },
   {
    "name": "drama-3",
    "org": "fishaudio",
    "lic": "Open weights",
    "at": "2026-10-01T04:34:57.000Z",
-   "dl": 13495,
-   "grow": 0,
+   "dl": 15274,
+   "grow": 13,
    "score": 87,
    "cat": "Tools",
-   "likes": 855
+   "likes": 856
   },
   {
    "name": "Muse-Spark-Open-816B-A42B",
@@ -465,8 +455,8 @@
    "size": "816B",
    "lic": "Open weights",
    "at": "2026-09-15T19:23:19.000Z",
-   "dl": 2592,
-   "grow": 0,
+   "dl": 2891,
+   "grow": 12,
    "score": 86,
    "cat": "Infrastructure",
    "likes": 615
@@ -480,18 +470,18 @@
    "grow": 0,
    "score": 85,
    "cat": "Vision",
-   "likes": 577
+   "likes": 579
   },
   {
    "name": "embeddinggemma-2",
    "org": "google",
    "lic": "Open source",
    "at": "2026-09-14T14:53:42.000Z",
-   "dl": 172474,
+   "dl": 179734,
    "grow": null,
    "score": 83,
    "cat": "Vision",
-   "likes": 2784
+   "likes": 2785
   }
  ],
  "free": [
@@ -801,6 +791,27 @@
  },
  "headlines": [
   {
+   "t": "NVIDIA Open Models Advance Europe’s Sovereign Intelligence Across Industries",
+   "url": "https://blogs.nvidia.com/blog/open-models-europe-industry/",
+   "at": "2026-10-21T10:00:07.000Z",
+   "src": "NVIDIA",
+   "kind": "Lab blog"
+  },
+  {
+   "t": "Anthropic and Citrini Research use an internal Claude model to autonomously generate protein minibinders against five scorpion neurotoxins, testing 211 designs",
+   "url": "https://www.techmeme.com/261021/p10#a261021p10",
+   "at": "2026-10-21T09:55:03.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "GTC Berlin 2026: Live Updates From NVIDIA CEO Jensen Huang’s Keynote",
+   "url": "https://blogs.nvidia.com/blog/gtc-berlin-2026-keynote/",
+   "at": "2026-10-21T09:30:16.000Z",
+   "src": "NVIDIA",
+   "kind": "Lab blog"
+  },
+  {
    "t": "A look at Chinese philosophical views on AI; one says aligning AI to human values may be a \"suicidal mistake\" and another fears the \"machinization of humans\"",
    "url": "https://www.techmeme.com/261021/p7#a261021p7",
    "at": "2026-10-21T06:40:01.000Z",
@@ -850,6 +861,34 @@
    "kind": "News"
   },
   {
+   "t": "Stigmatizing patient details can push AI to deprioritize high-risk emergency cases",
+   "url": "https://medicalxpress.com/news/2026-10-stigmatizing-patient-ai-deprioritize-high.html",
+   "at": "2026-10-20T22:00:13Z",
+   "src": "Medical Xpress",
+   "kind": "News"
+  },
+  {
+   "t": "OpenAI Buys Orchestra Bio to Put AI Agents in Charge of Drug Development Grunt Work",
+   "url": "https://decrypt.co/381467/openai-buys-orchestra-bio-ai-agents-drug-development",
+   "at": "2026-10-20T21:46:04Z",
+   "src": "Decrypt",
+   "kind": "News"
+  },
+  {
+   "t": "Tech Slips as AI Sustainability Fears Linger - Tech Roundup",
+   "url": "https://www.marketscreener.com/news/tech-slips-as-ai-sustainability-fears-linger-tech-roundup-ce785cd8dc8af125",
+   "at": "2026-10-20T21:43:24Z",
+   "src": "MarketScreener",
+   "kind": "News"
+  },
+  {
+   "t": "Financials Up as AI Debt Concerns Percolate - Financials Roundup",
+   "url": "https://www.marketscreener.com/news/financials-up-as-ai-debt-concerns-percolate-financials-roundup-ce785cd8dc8af222",
+   "at": "2026-10-20T21:42:23Z",
+   "src": "MarketScreener",
+   "kind": "News"
+  },
+  {
    "t": "Musk's SpaceX turns profit thanks to computing cloud deals",
    "url": "https://www.manilatimes.net/2026/10/21/world/americas-emea/musks-spacex-turns-profit-thanks-to-computing-cloud-deals/2450286",
    "at": "2026-10-20T21:22:00Z",
@@ -862,55 +901,6 @@
    "at": "2026-10-20T21:05:00Z",
    "src": "Engadget",
    "kind": "News"
-  },
-  {
-   "t": "Ex-OpenAI research chief Bob McGrew’s Arda raises $232M for US factories",
-   "url": "https://thenextweb.com/news/arda-bob-mcgrew-232m-1-5bn-ai-manufacturing",
-   "at": "2026-10-20T20:55:10Z",
-   "src": "TNW",
-   "kind": "News"
-  },
-  {
-   "t": "Judge Tosses Sexual Abuse Lawsuit From Sam Altman's Sister",
-   "url": "https://www.engadget.com/2292346/judge-tosses-sexual-abuse-lawsuit-from-sam-altmans-sister/",
-   "at": "2026-10-20T20:53:25Z",
-   "src": "Engadget",
-   "kind": "News"
-  },
-  {
-   "t": "Elon Musk's SpaceX reports a profit and he hints at a possible merger with Tesla",
-   "url": "https://www.itv.com/news/2026-10-20/elon-musks-spacex-reports-a-profit-and-he-hints-at-a-possible-merger-with-tesla",
-   "at": "2026-10-20T20:49:00Z",
-   "src": "ITV News",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI Says Its Models Can Give the Financial Sector a Coding Makeover",
-   "url": "https://gizmodo.com/openai-says-its-models-can-give-the-financial-sector-a-coding-makeover-2000828398",
-   "at": "2026-10-20T20:45:10Z",
-   "src": "Gizmodo",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI acquires startup Orchestra Bio⁠ to beef up its biotech business",
-   "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/",
-   "at": "2026-10-20T20:35:10Z",
-   "src": "TechCrunch",
-   "kind": "News"
-  },
-  {
-   "t": "New microscopy technology may help detect neurological diseases before neurons die",
-   "url": "https://medicalxpress.com/news/2026-10-microscopy-technology-neurological-diseases-neurons.html",
-   "at": "2026-10-20T20:20:09Z",
-   "src": "Medical Xpress",
-   "kind": "News"
-  },
-  {
-   "t": "AI Start-Ups Keep Soaring Higher",
-   "url": "https://www.kiplinger.com/business/ai-start-ups-keep-soaring-higher",
-   "at": "2026-10-20T20:10:00Z",
-   "src": "Kiplinger",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -919,8 +909,8 @@
    "t": "Voxtral 3",
    "url": "https://news.ycombinator.com/item?id=50168396",
    "link": "https://mistral.ai/news/voxtral-3/",
-   "up": 665,
-   "com": 166,
+   "up": 675,
+   "com": 169,
    "at": "2026-10-20T16:02:07.000Z"
   },
   {
@@ -928,7 +918,7 @@
    "t": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
    "url": "https://news.ycombinator.com/item?id=50169053",
    "link": "https://github.com/google-pytorch/torch_tpu",
-   "up": 336,
+   "up": 342,
    "com": 73,
    "at": "2026-10-20T16:40:24.000Z"
   },
@@ -937,8 +927,8 @@
    "t": "The Other Epidemic: Trying to get off benzodiazepines",
    "url": "https://news.ycombinator.com/item?id=50173891",
    "link": "https://www.thebeliever.net/the-other-epidemic/",
-   "up": 194,
-   "com": 145,
+   "up": 199,
+   "com": 146,
    "at": "2026-10-20T23:04:09.000Z"
   },
   {
@@ -946,7 +936,7 @@
    "t": "How I got over 300 Tor exit nodes removed",
    "url": "https://news.ycombinator.com/item?id=50166257",
    "link": "https://kaba.cx/posts/20261020_Tor/",
-   "up": 363,
+   "up": 366,
    "com": 96,
    "at": "2026-10-20T13:39:24.000Z"
   },
@@ -955,7 +945,7 @@
    "t": "Google Cloud outage affects almost all banking and other operations in Europe",
    "url": "https://news.ycombinator.com/item?id=50163961",
    "link": "https://www.neowin.net/news/google-cloud-outage-takes-down-hsbc-revolut-bank-of-scotland-llyods-equifax-more/",
-   "up": 388,
+   "up": 389,
    "com": 195,
    "at": "2026-10-20T10:26:02.000Z"
   },
@@ -964,8 +954,8 @@
    "t": "Publish fake stats, get cited in LLMs",
    "url": "https://news.ycombinator.com/item?id=50165801",
    "link": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
-   "up": 341,
-   "com": 197,
+   "up": 343,
+   "com": 198,
    "at": "2026-10-20T13:06:22.000Z"
   }
  ]
