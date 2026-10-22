@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-22T16:01:10.969Z"
+  "updated": "2026-10-22T16:40:34.292Z"
  },
  "pulse": {
-  "trending": 80,
+  "trending": 79,
   "accelerating": 1,
   "newModels": 12,
-  "discussions": 44,
-  "stars": 1232
+  "discussions": 42,
+  "stars": 1258
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 7,
    "desc": "A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo.",
    "meta": [
-    "★ 3,138",
-    "+665 in 24h",
+    "★ 3,162",
+    "+683 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-19T19:29:01Z",
@@ -38,7 +38,7 @@
    "src": "hf",
    "cat": "Vision",
    "score": 93,
-   "grow": null,
+   "grow": 0,
    "desc": "Vision on Hugging Face · open source · ♥ 2.3K",
    "meta": [
     "52K downloads",
@@ -49,11 +49,27 @@
    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
   },
   {
+   "name": "flint",
+   "owner": "RecursiveSI",
+   "src": "hf",
+   "cat": "LLMs",
+   "score": 91,
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 460",
+   "meta": [
+    "420 downloads",
+    "Released yesterday"
+   ],
+   "at": "2026-10-21T14:20:58.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/RecursiveSI/flint"
+  },
+  {
    "name": "flux-3-image-klein-comfy",
    "owner": "black-forest-labs",
    "src": "hf",
    "cat": "Vision",
-   "score": 90,
+   "score": 89,
    "grow": null,
    "desc": "Vision on Hugging Face · open weights · ♥ 1.3K",
    "meta": [
@@ -65,22 +81,6 @@
    "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy"
   },
   {
-   "name": "flint",
-   "owner": "RecursiveSI",
-   "src": "hf",
-   "cat": "LLMs",
-   "score": 89,
-   "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 450",
-   "meta": [
-    "420 downloads",
-    "Released yesterday"
-   ],
-   "at": "2026-10-21T14:20:58.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/RecursiveSI/flint"
-  },
-  {
    "name": "huashu-motion",
    "owner": "alchaincyf",
    "src": "gh",
@@ -89,8 +89,8 @@
    "grow": 6,
    "desc": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
    "meta": [
-    "★ 1,392",
-    "+175 in 24h",
+    "★ 1,399",
+    "+180 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-18T12:19:27Z",
@@ -104,7 +104,7 @@
    "cat": "Infrastructure",
    "score": 87,
    "grow": null,
-   "desc": "Model on Hugging Face · open weights · ♥ 651",
+   "desc": "Model on Hugging Face · open weights · ♥ 653",
    "meta": [
     "3.2K downloads",
     "Released 37 days ago"
@@ -120,7 +120,7 @@
    "cat": "Vision",
    "score": 86,
    "grow": 18,
-   "desc": "Vision on Hugging Face · open source · ♥ 555",
+   "desc": "Vision on Hugging Face · open source · ♥ 557",
    "meta": [
     "6.9K downloads",
     "Released 11 days ago"
@@ -135,11 +135,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 85,
-   "grow": 5,
+   "grow": 6,
    "desc": "Make an old Android TV fast again with Claude Code or Codex: a tiny ad-free home screen plus the prompt to clean it up",
    "meta": [
-    "★ 1,242",
-    "+128 in 24h",
+    "★ 1,252",
+    "+142 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-18T06:42:29Z",
@@ -153,7 +153,7 @@
    "cat": "Vision",
    "score": 85,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 625",
+   "desc": "Vision on Hugging Face · open weights · ♥ 627",
    "meta": [
     "103K downloads",
     "Released 9 days ago"
@@ -179,14 +179,65 @@
    "breakout": null
   }
  ],
- "breakouts": [],
+ "breakouts": [
+  {
+   "key": "claude duet",
+   "label": "Claude Duet",
+   "n": 4,
+   "sources": [
+    {
+     "src": "Product Hunt",
+     "t": "Claude Duet",
+     "url": "https://www.producthunt.com/products/claude?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
+    },
+    {
+     "src": "Hacker News",
+     "t": "Claude Duet",
+     "url": "https://news.ycombinator.com/item?id=50186037"
+    },
+    {
+     "src": "Times Now",
+     "t": "Anthropic Introduces New Claude Duet AI Agent That Can Work Even When Your Phone Is Off",
+     "url": "https://www.timesnownews.com/technology-science/anthropic-introduces-new-claude-duet-ai-agent-that-can-work-even-when-your-phone-is-off-article-156382347"
+    },
+    {
+     "src": "NewsBytes",
+     "t": "Anthropic's Claude Duet takes on Meta's Muse and OpenAI's Dots",
+     "url": "https://www.newsbytesapp.com/news/science/anthropic-unveils-claude-duet-ai-agent/story"
+    }
+   ],
+   "since": "2026-10-22T08:30:56.595Z"
+  }
+ ],
  "hype": [
+  {
+   "name": "Gemini 4",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "DEV",
+     "t": "Scaling stateful Gemini 4 Argon agent sessions on GKE: Connection draining, startup boost, and session persistence",
+     "url": "https://dev.to/googlecloud/scaling-stateful-gemini-4-argon-agent-sessions-on-gke-connection-draining-startup-boost-and-13ln"
+    },
+    {
+     "src": "YouTube",
+     "t": "HUGE GPT-6.5 LEAK! NEW Claude Fable 5.5, Gemini 4 Carbon, MiniMax M3.1 Flash & Kimi K3.1! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=2BXktpaCEN4"
+    }
+   ],
+   "buzz": 2,
+   "verdict": "Talk only, no public usage numbers"
+  },
   {
    "name": "free-my-tv",
    "url": "https://github.com/simbasjungles/free-my-tv",
    "from": "GitHub",
-   "use": 665,
-   "useLabel": "+665 stars/day",
+   "use": 683,
+   "useLabel": "+683 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -209,7 +260,7 @@
    "from": "Hugging Face",
    "use": 2665585,
    "useLabel": "2.7M downloads",
-   "usePct": 0.9705882352941176,
+   "usePct": 0.9696969696969697,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -300,35 +351,35 @@
  "github": [
   {
    "repo": "simbasjungles/free-my-tv",
-   "stars": 3138,
-   "d24": 665,
+   "stars": 3162,
+   "d24": 683,
    "est": false,
-   "forks": 405,
+   "forks": 410,
    "contrib": null,
    "score": 95
   },
   {
    "repo": "alchaincyf/huashu-motion",
-   "stars": 1392,
-   "d24": 175,
+   "stars": 1399,
+   "d24": 180,
    "est": false,
-   "forks": 138,
+   "forks": 139,
    "contrib": null,
    "score": 88
   },
   {
    "repo": "reason-machines/reason-network",
-   "stars": 1035,
-   "d24": 172,
-   "est": true,
-   "forks": 83,
+   "stars": 1040,
+   "d24": 160,
+   "est": false,
+   "forks": 84,
    "contrib": null,
    "score": 76
   },
   {
    "repo": "Ansub/tv-detox",
-   "stars": 1242,
-   "d24": 128,
+   "stars": 1252,
+   "d24": 142,
    "est": false,
    "forks": 129,
    "contrib": null,
@@ -336,10 +387,10 @@
   },
   {
    "repo": "aicodeking/leanrea",
-   "stars": 1352,
-   "d24": 92,
+   "stars": 1355,
+   "d24": 93,
    "est": false,
-   "forks": 204,
+   "forks": 205,
    "contrib": null,
    "score": 82
   }
@@ -351,21 +402,10 @@
    "lic": "Open source",
    "at": "2026-10-17T02:40:38.000Z",
    "dl": 51911,
-   "grow": null,
+   "grow": 0,
    "score": 93,
    "cat": "Vision",
-   "likes": 2309
-  },
-  {
-   "name": "flux-3-image-klein-comfy",
-   "org": "black-forest-labs",
-   "lic": "Open weights",
-   "at": "2026-10-14T12:00:13.000Z",
-   "dl": 512524,
-   "grow": null,
-   "score": 90,
-   "cat": "Vision",
-   "likes": 1261
+   "likes": 2315
   },
   {
    "name": "flint",
@@ -374,9 +414,20 @@
    "at": "2026-10-21T14:20:58.000Z",
    "dl": 420,
    "grow": null,
-   "score": 89,
+   "score": 91,
    "cat": "LLMs",
-   "likes": 450
+   "likes": 460
+  },
+  {
+   "name": "flux-3-image-klein-comfy",
+   "org": "black-forest-labs",
+   "lic": "Open weights",
+   "at": "2026-10-14T12:00:13.000Z",
+   "dl": 512524,
+   "grow": null,
+   "score": 89,
+   "cat": "Vision",
+   "likes": 1263
   },
   {
    "name": "Muse-Spark-Open-816B-A42B",
@@ -388,7 +439,7 @@
    "grow": null,
    "score": 87,
    "cat": "Infrastructure",
-   "likes": 651
+   "likes": 653
   },
   {
    "name": "MOSS-Image-SFT",
@@ -399,7 +450,7 @@
    "grow": 18,
    "score": 86,
    "cat": "Vision",
-   "likes": 555
+   "likes": 557
   },
   {
    "name": "flux-3-image-klein",
@@ -410,7 +461,7 @@
    "grow": null,
    "score": 85,
    "cat": "Vision",
-   "likes": 625
+   "likes": 627
   }
  ],
  "free": [
@@ -747,6 +798,34 @@
  },
  "headlines": [
   {
+   "t": "Atlanta-based Tractian, which uses AI and sensors to predict machine failures and recommend maintenance, raised a $130M Series D at a $1.4B valuation",
+   "url": "https://www.techmeme.com/261022/p39#a261022p39",
+   "at": "2026-10-22T16:35:08.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "METR says a pilot test of OpenAI's monitoring system found vulnerabilities, including an exploit that could have let AI agents hide hundreds of recent actions",
+   "url": "https://www.techmeme.com/261022/p38#a261022p38",
+   "at": "2026-10-22T16:25:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
+   "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
+   "at": "2026-10-22T16:11:31.000Z",
+   "src": "Hugging Face",
+   "kind": "Lab blog"
+  },
+  {
+   "t": "Warp Sciences, founded by ex-OpenAI product chief Kevin Weil to speed up AI drug development, emerges from stealth with $215M at an $865M post-money valuation",
+   "url": "https://www.techmeme.com/261022/p36#a261022p36",
+   "at": "2026-10-22T16:00:15.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Sources: US banks are restricting third-party AI agents from accessing customer accounts, after some agents appeared to act independently of user instructions",
    "url": "https://www.techmeme.com/261022/p35#a261022p35",
    "at": "2026-10-22T15:45:00.000Z",
@@ -796,7 +875,7 @@
    "kind": "News"
   },
   {
-   "t": "1Password passes $500M in ARR, up from $400M in November 2025, driven by enterprise AI coding assistants and agents, and announces 1Password for Agents",
+   "t": "1Password passes $500M in ARR, up from $400M in November 2025, driven by enterprise AI coding assistants and agents, and launches 1Password for Agents",
    "url": "https://www.techmeme.com/261022/p26#a261022p26",
    "at": "2026-10-22T13:05:01.000Z",
    "src": "Techmeme",
@@ -808,20 +887,6 @@
    "at": "2026-10-22T13:00:20.000Z",
    "src": "NVIDIA",
    "kind": "Lab blog"
-  },
-  {
-   "t": "Enact, which develops full-stack tech for general-purpose robots, emerges from stealth with a $30M pre-seed from Mistral CEO Arthur Mensch, Yann LeCun, and more",
-   "url": "https://www.techmeme.com/261022/p24#a261022p24",
-   "at": "2026-10-22T12:50:02.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Israeli security company Lava finds 32 Nvidia Blackwell Ultra B300 chips connected to systems linked to state-owned operator China Telecom, despite US controls",
-   "url": "https://www.techmeme.com/261022/p22#a261022p22",
-   "at": "2026-10-22T12:35:08.000Z",
-   "src": "Techmeme",
-   "kind": "News"
   },
   {
    "t": "‘The tech bro fight club is real!’ The titans of AI get the Succession treatment in a wild new TV show",
@@ -843,20 +908,6 @@
    "at": "2026-10-22T11:22:23Z",
    "src": "The Guardian",
    "kind": "News"
-  },
-  {
-   "t": "Ensemble forecasting with IBM Granite time-series models",
-   "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
-   "at": "2026-10-22T07:51:31.000Z",
-   "src": "Hugging Face",
-   "kind": "Lab blog"
-  },
-  {
-   "t": "What FDE means at OpenAI",
-   "url": "https://openai.com/index/forward-deployed-engineering-means",
-   "at": "2026-10-22T06:00:00.000Z",
-   "src": "OpenAI",
-   "kind": "Lab blog"
   }
  ],
  "discussions": [
@@ -865,17 +916,26 @@
    "t": "What's Getting Pwned",
    "url": "https://news.ycombinator.com/item?id=50195543",
    "link": "https://pwn.watch/",
-   "up": 111,
-   "com": 73,
+   "up": 142,
+   "com": 90,
    "at": "2026-10-22T14:08:12.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Show HN: Run full iOS 16.5 firmware on Android Devices",
+   "url": "https://news.ycombinator.com/item?id=50196718",
+   "link": "https://github.com/oosexgang/hackios-xnu-kernel",
+   "up": 48,
+   "com": 17,
+   "at": "2026-10-22T15:26:22.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Several Linux kernel vulnerabilities accidentally posted to public mailing list",
    "url": "https://news.ycombinator.com/item?id=50193804",
    "link": "https://www.phoronix.com/news/LKML-New-Trend-Vulnerabilities",
-   "up": 187,
-   "com": 51,
+   "up": 198,
+   "com": 59,
    "at": "2026-10-22T11:12:37.000Z"
   },
   {
@@ -883,8 +943,8 @@
    "t": "mitmproxy adds --emudhra option",
    "url": "https://news.ycombinator.com/item?id=50189232",
    "link": "https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b",
-   "up": 558,
-   "com": 137,
+   "up": 564,
+   "com": 138,
    "at": "2026-10-21T23:51:37.000Z"
   },
   {
@@ -892,8 +952,8 @@
    "t": "Claude Duet",
    "url": "https://news.ycombinator.com/item?id=50186037",
    "link": "https://claude.com/product/claude-duet",
-   "up": 501,
-   "com": 459,
+   "up": 509,
+   "com": 469,
    "at": "2026-10-21T19:14:01.000Z"
   },
   {
@@ -901,18 +961,9 @@
    "t": "OpenAI CLI",
    "url": "https://news.ycombinator.com/item?id=50191507",
    "link": "https://github.com/openai/openai-cli",
-   "up": 206,
-   "com": 96,
+   "up": 209,
+   "com": 98,
    "at": "2026-10-22T05:23:11.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "GitLab critical patch release",
-   "url": "https://news.ycombinator.com/item?id=50185869",
-   "link": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/",
-   "up": 393,
-   "com": 89,
-   "at": "2026-10-21T19:01:12.000Z"
   }
  ]
 }
