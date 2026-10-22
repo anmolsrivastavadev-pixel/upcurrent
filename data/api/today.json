@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-22T03:30:54.606Z"
+  "updated": "2026-10-22T04:01:02.512Z"
  },
  "pulse": {
   "trending": 80,
   "accelerating": 0,
   "newModels": 13,
   "discussions": 38,
-  "stars": 1564
+  "stars": 1558
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 95,
-   "grow": 23,
+   "grow": 24,
    "desc": "A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo.",
    "meta": [
-    "★ 2,797",
-    "+845 in 24h",
+    "★ 2,812",
+    "+841 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-19T19:29:01Z",
@@ -73,8 +73,8 @@
    "grow": 7,
    "desc": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
    "meta": [
-    "★ 1,296",
-    "+111 in 24h",
+    "★ 1,302",
+    "+115 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-18T12:19:27Z",
@@ -91,7 +91,7 @@
    "desc": "Make an old Android TV fast again with Claude Code or Codex: a tiny ad-free home screen plus the prompt to clean it up",
    "meta": [
     "★ 1,181",
-    "+197 in 24h",
+    "+192 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-18T06:42:29Z",
@@ -105,7 +105,7 @@
    "cat": "Infrastructure",
    "score": 87,
    "grow": 0,
-   "desc": "Model on Hugging Face · open weights · ♥ 639",
+   "desc": "Model on Hugging Face · open weights · ♥ 640",
    "meta": [
     "2.9K downloads",
     "Released 36 days ago"
@@ -137,7 +137,7 @@
    "cat": "Tools",
    "score": 85,
    "grow": 0,
-   "desc": "Model on Hugging Face · open weights · ♥ 891",
+   "desc": "Model on Hugging Face · open weights · ♥ 893",
    "meta": [
     "15K downloads",
     "Released 21 days ago"
@@ -145,6 +145,22 @@
    "at": "2026-10-01T04:34:57.000Z",
    "breakout": null,
    "url": "https://huggingface.co/fishaudio/drama-3"
+  },
+  {
+   "name": "Agent World Model in the Wild: Computer-Use Agent Environment Synthesis",
+   "owner": "Paper",
+   "src": "paper",
+   "url": "https://huggingface.co/papers/2610.26828",
+   "cat": "Research",
+   "score": 85,
+   "grow": null,
+   "desc": "Agent learning is shifting from learning from human data toward learning through interaction with the world.",
+   "meta": [
+    "▲ 38 upvotes",
+    "Hugging Face Papers"
+   ],
+   "at": "2026-10-18T20:00:00.000Z",
+   "breakout": null
   },
   {
    "name": "Composio Instant",
@@ -162,23 +178,6 @@
    ],
    "at": "2026-10-20T07:01:00Z",
    "breakout": null
-  },
-  {
-   "name": "earshot",
-   "owner": "Leonxlnx",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 83,
-   "grow": null,
-   "desc": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
-   "meta": [
-    "★ 2,059",
-    "~300 in 24h",
-    "Created 7 days ago"
-   ],
-   "at": "2026-10-15T06:52:46Z",
-   "breakout": null,
-   "url": "https://github.com/Leonxlnx/earshot"
   }
  ],
  "breakouts": [],
@@ -204,8 +203,8 @@
    "name": "free-my-tv",
    "url": "https://github.com/simbasjungles/free-my-tv",
    "from": "GitHub",
-   "use": 845,
-   "useLabel": "+845 stars/day",
+   "use": 841,
+   "useLabel": "+841 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -319,16 +318,16 @@
  "github": [
   {
    "repo": "simbasjungles/free-my-tv",
-   "stars": 2797,
-   "d24": 845,
+   "stars": 2812,
+   "d24": 841,
    "est": false,
-   "forks": 345,
+   "forks": 348,
    "contrib": null,
    "score": 95
   },
   {
    "repo": "Leonxlnx/earshot",
-   "stars": 2059,
+   "stars": 2061,
    "d24": 300,
    "est": true,
    "forks": 117,
@@ -338,29 +337,29 @@
   {
    "repo": "Ansub/tv-detox",
    "stars": 1181,
-   "d24": 197,
+   "d24": 192,
    "est": false,
    "forks": 117,
    "contrib": null,
    "score": 87
   },
   {
-   "repo": "aicodeking/leanrea",
-   "stars": 1304,
-   "d24": 111,
-   "est": false,
-   "forks": 195,
-   "contrib": null,
-   "score": 83
-  },
-  {
    "repo": "alchaincyf/huashu-motion",
-   "stars": 1296,
-   "d24": 111,
+   "stars": 1302,
+   "d24": 115,
    "est": false,
    "forks": 127,
    "contrib": null,
    "score": 89
+  },
+  {
+   "repo": "aicodeking/leanrea",
+   "stars": 1305,
+   "d24": 110,
+   "est": false,
+   "forks": 195,
+   "contrib": null,
+   "score": 83
   }
  ],
  "models": [
@@ -373,7 +372,7 @@
    "grow": 0,
    "score": 94,
    "cat": "Vision",
-   "likes": 2191
+   "likes": 2196
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -384,7 +383,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 1198
+   "likes": 1200
   },
   {
    "name": "Muse-Spark-Open-816B-A42B",
@@ -396,7 +395,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Infrastructure",
-   "likes": 639
+   "likes": 640
   },
   {
    "name": "flux-3-image-klein",
@@ -418,7 +417,7 @@
    "grow": 0,
    "score": 85,
    "cat": "Tools",
-   "likes": 891
+   "likes": 893
   },
   {
    "name": "MOSS-Image-SFT",
@@ -429,7 +428,7 @@
    "grow": null,
    "score": 83,
    "cat": "Vision",
-   "likes": 537
+   "likes": 539
   }
  ],
  "free": [
@@ -772,6 +771,13 @@
  },
  "headlines": [
   {
+   "t": "Walmart unveils its Agent Gateway, a new MCP server to help users' approved AI agents shop its website, and dedicated Agent Profiles with special \"terms\" for AI",
+   "url": "https://www.techmeme.com/261021/p62#a261021p62",
+   "at": "2026-10-22T03:50:03.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "GM says it plans to debut OnStar AI, an in-car assistant that can execute vehicle functions and run diagnostics via voice commands, in the 2027 Cadillac Lyriq",
    "url": "https://www.techmeme.com/261021/p59#a261021p59",
    "at": "2026-10-22T02:00:47.000Z",
@@ -798,13 +804,6 @@
    "at": "2026-10-21T21:00:00.000Z",
    "src": "OpenAI",
    "kind": "Lab blog"
-  },
-  {
-   "t": "Meta says it will create a new class of nonvoting stock to raise the capital it needs for developing AI models, with an effective date in January 2027",
-   "url": "https://www.techmeme.com/261021/p47#a261021p47",
-   "at": "2026-10-21T20:20:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
   },
   {
    "t": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
@@ -849,38 +848,38 @@
    "kind": "Lab blog"
   },
   {
-   "t": "OpenAI says its AI agents disabled their own safety monitors",
-   "url": "https://www.koreatimes.co.kr/world/20261022/openai-says-its-ai-agents-disabled-their-own-safety-monitors",
-   "at": "2026-10-21T15:28:02Z",
-   "src": "The Korea Times",
+   "t": "OpenAI says its AI agents weakened internal monitoring system",
+   "url": "https://www.manilatimes.net/2026/10/22/business/foreign-business/openai-says-its-ai-agents-weakened-internal-monitoring-system/2451336",
+   "at": "2026-10-21T16:01:00Z",
+   "src": "The Manila Times",
    "kind": "News"
   },
   {
-   "t": "PHP rushes out emergency patches for two critical bugs AI found first",
-   "url": "https://thenextweb.com/news/php2shell-php-rce-ai-openai-wiz",
-   "at": "2026-10-21T15:25:13Z",
-   "src": "TNW",
+   "t": "YouTube shares data on how creators are using AI",
+   "url": "https://www.socialmediatoday.com/news/youtube-shares-data-on-how-creators-are-using-ai/833657/",
+   "at": "2026-10-21T16:00:56Z",
+   "src": "Social Media Today",
    "kind": "News"
   },
   {
-   "t": "Super Micro Computer Sees Rising AI Demand but Faces Margin Pressure, BofA Says",
-   "url": "https://www.marketscreener.com/news/super-micro-computer-sees-rising-ai-demand-but-faces-margin-pressure-bofa-says-ce785cd9da89f222",
-   "at": "2026-10-21T15:23:49Z",
-   "src": "MarketScreener",
+   "t": "Tech News Today, October 21, 2026: Anthropic, eMudhra, OpenAI, Microsoft, Nvidia, SpaceX & More",
+   "url": "https://techstartups.com/2026/10/21/tech-news-today-october-21-2026-anthropic-emudhra-openai-nvidia-spacex-more/",
+   "at": "2026-10-21T15:59:47Z",
+   "src": "TechStartups.com",
    "kind": "News"
   },
   {
-   "t": "OpenAI to bring AI models to Google's cloud, says Microsoft remains primary partner",
-   "url": "https://timesofindia.indiatimes.com/technology/tech-news/openai-to-bring-ai-models-to-googles-cloud-says-microsoft-remains-primary-partner/articleshow/135095615.cms",
-   "at": "2026-10-21T15:22:00Z",
-   "src": "Times of India",
+   "t": "US, allies warn of critical vulnerabilities in programming underlying 70% of the internet",
+   "url": "https://www.politico.com/news/2026/10/21/php-cyber-vulnerability-openai-warning-01129058",
+   "at": "2026-10-21T15:55:00Z",
+   "src": "POLITICO",
    "kind": "News"
   },
   {
-   "t": "OpenAI To Bring AI Models To Google Cloud As It Expands Beyond Microsoft",
-   "url": "https://coingape.com/openai-to-bring-ai-models-to-google-cloud-as-it-expands-beyond-microsoft/",
-   "at": "2026-10-21T15:20:21Z",
-   "src": "CoinGape",
+   "t": "Eternal to launch privacy-focused AI platform Dark.ai globally in 2026",
+   "url": "https://www.devdiscourse.com/article/business/3995893-eternal-to-launch-privacy-focused-ai-platform-darkai-globally-in-2026",
+   "at": "2026-10-21T15:49:34Z",
+   "src": "Devdiscourse",
    "kind": "News"
   }
  ],
@@ -890,8 +889,8 @@
    "t": "mitmproxy adds --emudhra option",
    "url": "https://news.ycombinator.com/item?id=50189232",
    "link": "https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b",
-   "up": 293,
-   "com": 76,
+   "up": 317,
+   "com": 83,
    "at": "2026-10-21T23:51:37.000Z"
   },
   {
@@ -899,7 +898,7 @@
    "t": "PHP 8.2.35",
    "url": "https://news.ycombinator.com/item?id=50180873",
    "link": "https://github.com/php/php-src/releases/tag/php-8.2.35",
-   "up": 983,
+   "up": 984,
    "com": 535,
    "at": "2026-10-21T13:45:33.000Z"
   },
@@ -908,8 +907,8 @@
    "t": "Claude Duet",
    "url": "https://news.ycombinator.com/item?id=50186037",
    "link": "https://claude.com/product/claude-duet",
-   "up": 327,
-   "com": 295,
+   "up": 329,
+   "com": 296,
    "at": "2026-10-21T19:14:01.000Z"
   },
   {
@@ -926,8 +925,8 @@
    "t": "Airbnb bans making guests do dishes and take out the trash",
    "url": "https://news.ycombinator.com/item?id=50189150",
    "link": "https://www.theverge.com/tech/1015844/airbnb-chores-house-rules-update",
-   "up": 139,
-   "com": 120,
+   "up": 142,
+   "com": 129,
    "at": "2026-10-21T23:38:32.000Z"
   },
   {
@@ -935,8 +934,8 @@
    "t": "PHP2Shell: AI uncovers critical RCE in PHP",
    "url": "https://news.ycombinator.com/item?id=50180836",
    "link": "https://www.wiz.io/blog/php2shell-php-rce",
-   "up": 438,
-   "com": 172,
+   "up": 439,
+   "com": 173,
    "at": "2026-10-21T13:43:19.000Z"
   }
  ]
