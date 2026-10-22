@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-22T17:30:55.561Z"
+  "updated": "2026-10-22T18:01:16.571Z"
  },
  "pulse": {
   "trending": 80,
   "accelerating": 1,
   "newModels": 12,
-  "discussions": 43,
-  "stars": 1264
+  "discussions": 47,
+  "stars": 1239
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 95,
-   "grow": 8,
+   "grow": 9,
    "desc": "A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo.",
    "meta": [
-    "★ 3,192",
-    "+701 in 24h",
+    "★ 3,202",
+    "+688 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-19T19:29:01Z",
@@ -55,7 +55,7 @@
    "cat": "LLMs",
    "score": 93,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 468",
+   "desc": "Model on Hugging Face · open source · ♥ 475",
    "meta": [
     "420 downloads",
     "Released yesterday"
@@ -86,11 +86,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 88,
-   "grow": 6,
+   "grow": 7,
    "desc": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
    "meta": [
-    "★ 1,404",
-    "+177 in 24h",
+    "★ 1,406",
+    "+174 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-18T12:19:27Z",
@@ -104,7 +104,7 @@
    "cat": "Infrastructure",
    "score": 87,
    "grow": null,
-   "desc": "Model on Hugging Face · open weights · ♥ 653",
+   "desc": "Model on Hugging Face · open weights · ♥ 655",
    "meta": [
     "3.2K downloads",
     "Released 37 days ago"
@@ -120,7 +120,7 @@
    "cat": "Vision",
    "score": 86,
    "grow": 18,
-   "desc": "Vision on Hugging Face · open source · ♥ 560",
+   "desc": "Vision on Hugging Face · open source · ♥ 562",
    "meta": [
     "6.9K downloads",
     "Released 11 days ago"
@@ -138,8 +138,8 @@
    "grow": 6,
    "desc": "Make an old Android TV fast again with Claude Code or Codex: a tiny ad-free home screen plus the prompt to clean it up",
    "meta": [
-    "★ 1,258",
-    "+144 in 24h",
+    "★ 1,260",
+    "+142 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-18T06:42:29Z",
@@ -172,7 +172,7 @@
    "grow": null,
    "desc": "Your AI design agent for real, editable project files.",
    "meta": [
-    "▲ 332 votes",
+    "▲ 333 votes",
     "28 comments",
     "Launched yesterday"
    ],
@@ -180,7 +180,31 @@
    "breakout": null
   }
  ],
- "breakouts": [],
+ "breakouts": [
+  {
+   "key": "claude duet",
+   "label": "Claude Duet",
+   "n": 3,
+   "sources": [
+    {
+     "src": "Product Hunt",
+     "t": "Claude Duet",
+     "url": "https://www.producthunt.com/products/claude?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
+    },
+    {
+     "src": "Hacker News",
+     "t": "Claude Duet",
+     "url": "https://news.ycombinator.com/item?id=50186037"
+    },
+    {
+     "src": "YouTube",
+     "t": "Gemini 4 Carbon Is INSANE! OPUS 5.5 LEVEL?! Claude Duet, Kimi K3.1, OpenAI Agents & More! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=egh6GlvyD1g"
+    }
+   ],
+   "since": "2026-10-22T08:30:56.595Z"
+  }
+ ],
  "hype": [
   {
    "name": "Gemini 4",
@@ -208,8 +232,8 @@
    "name": "free-my-tv",
    "url": "https://github.com/simbasjungles/free-my-tv",
    "from": "GitHub",
-   "use": 701,
-   "useLabel": "+701 stars/day",
+   "use": 688,
+   "useLabel": "+688 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -323,17 +347,17 @@
  "github": [
   {
    "repo": "simbasjungles/free-my-tv",
-   "stars": 3192,
-   "d24": 701,
+   "stars": 3202,
+   "d24": 688,
    "est": false,
-   "forks": 416,
+   "forks": 417,
    "contrib": null,
    "score": 95
   },
   {
    "repo": "alchaincyf/huashu-motion",
-   "stars": 1404,
-   "d24": 177,
+   "stars": 1406,
+   "d24": 174,
    "est": false,
    "forks": 139,
    "contrib": null,
@@ -341,8 +365,8 @@
   },
   {
    "repo": "reason-machines/reason-network",
-   "stars": 1044,
-   "d24": 154,
+   "stars": 1046,
+   "d24": 150,
    "est": false,
    "forks": 84,
    "contrib": null,
@@ -350,8 +374,8 @@
   },
   {
    "repo": "Ansub/tv-detox",
-   "stars": 1258,
-   "d24": 144,
+   "stars": 1260,
+   "d24": 142,
    "est": false,
    "forks": 130,
    "contrib": null,
@@ -360,7 +384,7 @@
   {
    "repo": "aicodeking/leanrea",
    "stars": 1356,
-   "d24": 88,
+   "d24": 85,
    "est": false,
    "forks": 205,
    "contrib": null,
@@ -377,7 +401,7 @@
    "grow": 0,
    "score": 93,
    "cat": "Vision",
-   "likes": 2323
+   "likes": 2328
   },
   {
    "name": "flint",
@@ -388,7 +412,7 @@
    "grow": null,
    "score": 93,
    "cat": "LLMs",
-   "likes": 468
+   "likes": 475
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -399,7 +423,7 @@
    "grow": null,
    "score": 89,
    "cat": "Vision",
-   "likes": 1272
+   "likes": 1275
   },
   {
    "name": "Muse-Spark-Open-816B-A42B",
@@ -411,7 +435,7 @@
    "grow": null,
    "score": 87,
    "cat": "Infrastructure",
-   "likes": 653
+   "likes": 655
   },
   {
    "name": "MOSS-Image-SFT",
@@ -422,7 +446,7 @@
    "grow": 18,
    "score": 86,
    "cat": "Vision",
-   "likes": 560
+   "likes": 562
   },
   {
    "name": "MOSS-Image-Base",
@@ -433,7 +457,7 @@
    "grow": 15,
    "score": 83,
    "cat": "Vision",
-   "likes": 483
+   "likes": 484
   }
  ],
  "free": [
@@ -881,8 +905,8 @@
    "t": "What's Getting Pwned",
    "url": "https://news.ycombinator.com/item?id=50195543",
    "link": "https://pwn.watch/",
-   "up": 179,
-   "com": 109,
+   "up": 201,
+   "com": 111,
    "at": "2026-10-22T14:08:12.000Z"
   },
   {
@@ -890,8 +914,8 @@
    "t": "Show HN: Run full iOS 16.5 firmware on Android Devices",
    "url": "https://news.ycombinator.com/item?id=50196718",
    "link": "https://github.com/oosexgang/hackios-xnu-kernel",
-   "up": 93,
-   "com": 36,
+   "up": 123,
+   "com": 46,
    "at": "2026-10-22T15:26:22.000Z"
   },
   {
@@ -899,8 +923,8 @@
    "t": "Several Linux kernel vulnerabilities accidentally posted to public mailing list",
    "url": "https://news.ycombinator.com/item?id=50193804",
    "link": "https://www.phoronix.com/news/LKML-New-Trend-Vulnerabilities",
-   "up": 215,
-   "com": 66,
+   "up": 221,
+   "com": 71,
    "at": "2026-10-22T11:12:37.000Z"
   },
   {
@@ -908,7 +932,7 @@
    "t": "mitmproxy adds --emudhra option",
    "url": "https://news.ycombinator.com/item?id=50189232",
    "link": "https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b",
-   "up": 570,
+   "up": 573,
    "com": 138,
    "at": "2026-10-21T23:51:37.000Z"
   },
@@ -917,8 +941,8 @@
    "t": "Getting ready to operate GNU Taler in Germany",
    "url": "https://news.ycombinator.com/item?id=50197404",
    "link": "https://www.taler.net/en/news/2026-13.html",
-   "up": 36,
-   "com": 10,
+   "up": 51,
+   "com": 20,
    "at": "2026-10-22T16:14:31.000Z"
   },
   {
@@ -926,8 +950,8 @@
    "t": "Claude Duet",
    "url": "https://news.ycombinator.com/item?id=50186037",
    "link": "https://claude.com/product/claude-duet",
-   "up": 516,
-   "com": 477,
+   "up": 523,
+   "com": 484,
    "at": "2026-10-21T19:14:01.000Z"
   }
  ]
