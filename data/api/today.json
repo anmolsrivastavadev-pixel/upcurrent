@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-22T21:01:13.085Z"
+  "updated": "2026-10-22T21:30:55.734Z"
  },
  "pulse": {
   "trending": 79,
   "accelerating": 1,
   "newModels": 13,
-  "discussions": 43,
-  "stars": 1288
+  "discussions": 39,
+  "stars": 1281
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 94,
-   "grow": 13,
+   "grow": 14,
    "desc": "A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo.",
    "meta": [
-    "★ 3,329",
-    "+770 in 24h",
+    "★ 3,344",
+    "+768 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-19T19:29:01Z",
@@ -39,7 +39,7 @@
    "cat": "LLMs",
    "score": 94,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 503",
+   "desc": "Model on Hugging Face · open source · ♥ 511",
    "meta": [
     "420 downloads",
     "Released yesterday"
@@ -89,8 +89,8 @@
    "grow": 8,
    "desc": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
    "meta": [
-    "★ 1,428",
-    "+174 in 24h",
+    "★ 1,429",
+    "+170 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-18T12:19:27Z",
@@ -119,11 +119,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 85,
-   "grow": 7,
+   "grow": 8,
    "desc": "Make an old Android TV fast again with Claude Code or Codex: a tiny ad-free home screen plus the prompt to clean it up",
    "meta": [
-    "★ 1,273",
-    "+135 in 24h",
+    "★ 1,277",
+    "+137 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-18T06:42:29Z",
@@ -180,7 +180,31 @@
    "breakout": null
   }
  ],
- "breakouts": [],
+ "breakouts": [
+  {
+   "key": "claude duet",
+   "label": "Claude Duet",
+   "n": 3,
+   "sources": [
+    {
+     "src": "Product Hunt",
+     "t": "Claude Duet",
+     "url": "https://www.producthunt.com/products/claude?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
+    },
+    {
+     "src": "Slashdot.org",
+     "t": "Claude Duet is Anthropic's answer to Meta Muse and OpenAI Dots",
+     "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186398912"
+    },
+    {
+     "src": "YouTube",
+     "t": "Gemini 4 Carbon Is INSANE! OPUS 5.5 LEVEL?! Claude Duet, Kimi K3.1, OpenAI Agents & More! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=egh6GlvyD1g"
+    }
+   ],
+   "since": "2026-10-22T08:30:56.595Z"
+  }
+ ],
  "hype": [
   {
    "name": "Gemini 4",
@@ -208,8 +232,8 @@
    "name": "free-my-tv",
    "url": "https://github.com/simbasjungles/free-my-tv",
    "from": "GitHub",
-   "use": 770,
-   "useLabel": "+770 stars/day",
+   "use": 768,
+   "useLabel": "+768 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -323,17 +347,17 @@
  "github": [
   {
    "repo": "simbasjungles/free-my-tv",
-   "stars": 3329,
-   "d24": 770,
+   "stars": 3344,
+   "d24": 768,
    "est": false,
-   "forks": 447,
+   "forks": 452,
    "contrib": null,
    "score": 94
   },
   {
    "repo": "alchaincyf/huashu-motion",
-   "stars": 1428,
-   "d24": 174,
+   "stars": 1429,
+   "d24": 170,
    "est": false,
    "forks": 139,
    "contrib": null,
@@ -341,8 +365,8 @@
   },
   {
    "repo": "Ansub/tv-detox",
-   "stars": 1273,
-   "d24": 135,
+   "stars": 1277,
+   "d24": 137,
    "est": false,
    "forks": 131,
    "contrib": null,
@@ -350,8 +374,8 @@
   },
   {
    "repo": "reason-machines/reason-network",
-   "stars": 1056,
-   "d24": 130,
+   "stars": 1057,
+   "d24": 127,
    "est": false,
    "forks": 86,
    "contrib": null,
@@ -359,12 +383,12 @@
   },
   {
    "repo": "aicodeking/leanrea",
-   "stars": 1363,
+   "stars": 1364,
    "d24": 79,
    "est": false,
-   "forks": 205,
+   "forks": 206,
    "contrib": null,
-   "score": 82
+   "score": 81
   }
  ],
  "models": [
@@ -377,7 +401,7 @@
    "grow": null,
    "score": 94,
    "cat": "LLMs",
-   "likes": 503
+   "likes": 511
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -388,7 +412,7 @@
    "grow": 0,
    "score": 93,
    "cat": "Vision",
-   "likes": 2342
+   "likes": 2344
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -424,16 +448,15 @@
    "likes": 484
   },
   {
-   "name": "Muse-Spark-Open-816B-A42B",
-   "org": "meta-models",
-   "size": "816B",
+   "name": "drama-3",
+   "org": "fishaudio",
    "lic": "Open weights",
-   "at": "2026-09-15T19:23:19.000Z",
-   "dl": 3163,
+   "at": "2026-10-01T04:34:57.000Z",
+   "dl": 16305,
    "grow": 0,
    "score": 83,
-   "cat": "Infrastructure",
-   "likes": 659
+   "cat": "Tools",
+   "likes": 908
   }
  ],
  "free": [
@@ -874,35 +897,35 @@
    "t": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
    "url": "https://news.ycombinator.com/item?id=50198675",
    "link": "https://github.com/NVIDIA/OpenShell",
-   "up": 172,
-   "com": 90,
+   "up": 201,
+   "com": 103,
    "at": "2026-10-22T17:44:06.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "What’s getting pwned right now",
-   "url": "https://news.ycombinator.com/item?id=50195543",
-   "link": "https://pwn.watch/",
-   "up": 296,
-   "com": 139,
-   "at": "2026-10-22T14:08:12.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Show HN: Run full iOS 16.5 firmware on Android Devices",
    "url": "https://news.ycombinator.com/item?id=50196718",
    "link": "https://github.com/oosexgang/hackios-xnu-kernel",
-   "up": 234,
-   "com": 78,
+   "up": 253,
+   "com": 84,
    "at": "2026-10-22T15:26:22.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "What’s getting pwned right now",
+   "url": "https://news.ycombinator.com/item?id=50195543",
+   "link": "https://pwn.watch/",
+   "up": 301,
+   "com": 143,
+   "at": "2026-10-22T14:08:12.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Getting ready to operate GNU Taler in Germany",
    "url": "https://news.ycombinator.com/item?id=50197404",
    "link": "https://www.taler.net/en/news/2026-13.html",
-   "up": 150,
-   "com": 49,
+   "up": 163,
+   "com": 56,
    "at": "2026-10-22T16:14:31.000Z"
   },
   {
@@ -919,8 +942,8 @@
    "t": "Hedra is a 3D open world game I wrote from scratch while in highschool",
    "url": "https://news.ycombinator.com/item?id=50199389",
    "link": "https://github.com/maxilevi/project-hedra/tree/pre-ai",
-   "up": 60,
-   "com": 14,
+   "up": 66,
+   "com": 15,
    "at": "2026-10-22T18:44:36.000Z"
   }
  ]
