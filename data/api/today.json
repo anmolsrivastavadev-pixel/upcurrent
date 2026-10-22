@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-22T22:01:07.969Z"
+  "updated": "2026-10-22T22:30:55.721Z"
  },
  "pulse": {
   "trending": 79,
   "accelerating": 1,
   "newModels": 13,
-  "discussions": 42,
-  "stars": 1285
+  "discussions": 40,
+  "stars": 1277
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 94,
-   "grow": 14,
+   "grow": 15,
    "desc": "A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo.",
    "meta": [
-    "★ 3,366",
-    "+779 in 24h",
+    "★ 3,383",
+    "+781 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-19T19:29:01Z",
@@ -38,8 +38,8 @@
    "src": "hf",
    "cat": "LLMs",
    "score": 94,
-   "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 515",
+   "grow": 0,
+   "desc": "Model on Hugging Face · open source · ♥ 520",
    "meta": [
     "420 downloads",
     "Released yesterday"
@@ -89,8 +89,8 @@
    "grow": 9,
    "desc": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
    "meta": [
-    "★ 1,432",
-    "+169 in 24h",
+    "★ 1,433",
+    "+166 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-18T12:19:27Z",
@@ -104,7 +104,7 @@
    "cat": "Vision",
    "score": 87,
    "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 571",
+   "desc": "Vision on Hugging Face · open source · ♥ 573",
    "meta": [
     "6.9K downloads",
     "Released 12 days ago"
@@ -122,7 +122,7 @@
    "grow": 8,
    "desc": "Make an old Android TV fast again with Claude Code or Codex: a tiny ad-free home screen plus the prompt to clean it up",
    "meta": [
-    "★ 1,278",
+    "★ 1,281",
     "+134 in 24h",
     "Created 5 days ago"
    ],
@@ -180,7 +180,31 @@
    "breakout": null
   }
  ],
- "breakouts": [],
+ "breakouts": [
+  {
+   "key": "claude duet",
+   "label": "Claude Duet",
+   "n": 3,
+   "sources": [
+    {
+     "src": "Product Hunt",
+     "t": "Claude Duet",
+     "url": "https://www.producthunt.com/products/claude?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
+    },
+    {
+     "src": "Business Today",
+     "t": "Anthropic launches Claude Duet AI agent to manage work in the background: Challenges OpenAI and Meta",
+     "url": "https://www.businesstoday.in/technology/news/story/anthropic-launches-claude-duet-ai-agent-to-manage-work-in-the-background-challenges-openai-and-meta-563054-2026-10-22"
+    },
+    {
+     "src": "Thurrott.com",
+     "t": "Anthropic Announces Claude Duet, a Personal AI Agent",
+     "url": "https://www.thurrott.com/a-i/anthropic/343121/anthropic-announces-claude-duet-a-personal-ai-agent"
+    }
+   ],
+   "since": "2026-10-22T08:30:56.595Z"
+  }
+ ],
  "hype": [
   {
    "name": "Gemini 4",
@@ -208,8 +232,8 @@
    "name": "free-my-tv",
    "url": "https://github.com/simbasjungles/free-my-tv",
    "from": "GitHub",
-   "use": 779,
-   "useLabel": "+779 stars/day",
+   "use": 781,
+   "useLabel": "+781 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -323,17 +347,17 @@
  "github": [
   {
    "repo": "simbasjungles/free-my-tv",
-   "stars": 3366,
-   "d24": 779,
+   "stars": 3383,
+   "d24": 781,
    "est": false,
-   "forks": 457,
+   "forks": 466,
    "contrib": null,
    "score": 94
   },
   {
    "repo": "alchaincyf/huashu-motion",
-   "stars": 1432,
-   "d24": 169,
+   "stars": 1433,
+   "d24": 166,
    "est": false,
    "forks": 139,
    "contrib": null,
@@ -341,7 +365,7 @@
   },
   {
    "repo": "Ansub/tv-detox",
-   "stars": 1278,
+   "stars": 1281,
    "d24": 134,
    "est": false,
    "forks": 131,
@@ -351,7 +375,7 @@
   {
    "repo": "reason-machines/reason-network",
    "stars": 1060,
-   "d24": 127,
+   "d24": 122,
    "est": false,
    "forks": 86,
    "contrib": null,
@@ -360,7 +384,7 @@
   {
    "repo": "aicodeking/leanrea",
    "stars": 1364,
-   "d24": 76,
+   "d24": 74,
    "est": false,
    "forks": 206,
    "contrib": null,
@@ -374,10 +398,10 @@
    "lic": "Open source",
    "at": "2026-10-21T14:20:58.000Z",
    "dl": 420,
-   "grow": null,
+   "grow": 0,
    "score": 94,
    "cat": "LLMs",
-   "likes": 515
+   "likes": 520
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -388,7 +412,7 @@
    "grow": 0,
    "score": 93,
    "cat": "Vision",
-   "likes": 2346
+   "likes": 2348
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -399,7 +423,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Vision",
-   "likes": 1289
+   "likes": 1293
   },
   {
    "name": "MOSS-Image-SFT",
@@ -410,7 +434,7 @@
    "grow": null,
    "score": 87,
    "cat": "Vision",
-   "likes": 571
+   "likes": 573
   },
   {
    "name": "MOSS-Image-Base",
@@ -432,7 +456,7 @@
    "grow": 0,
    "score": 83,
    "cat": "Tools",
-   "likes": 912
+   "likes": 914
   }
  ],
  "free": [
@@ -755,6 +779,13 @@
  },
  "headlines": [
   {
+   "t": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+   "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+   "at": "2026-10-22T22:24:34.000Z",
+   "src": "Hugging Face",
+   "kind": "Lab blog"
+  },
+  {
    "t": "Anthropic donates the Agent Skills open standard to the Agentic AI Foundation and says 70+ platforms have integrated it, after donating MCP to the AAIF in 2025",
    "url": "https://www.techmeme.com/261022/p53#a261022p53",
    "at": "2026-10-22T20:40:10.000Z",
@@ -818,13 +849,6 @@
    "kind": "News"
   },
   {
-   "t": "Atlanta-based Tractian, which uses AI and sensors to predict machine failures and recommend maintenance plans, raised a $130M Series D at a $1.4B valuation",
-   "url": "https://www.techmeme.com/261022/p39#a261022p39",
-   "at": "2026-10-22T16:35:08.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
    "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
    "at": "2026-10-22T16:11:31.000Z",
@@ -873,8 +897,8 @@
    "t": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
    "url": "https://news.ycombinator.com/item?id=50198675",
    "link": "https://github.com/NVIDIA/OpenShell",
-   "up": 220,
-   "com": 116,
+   "up": 236,
+   "com": 125,
    "at": "2026-10-22T17:44:06.000Z"
   },
   {
@@ -882,8 +906,8 @@
    "t": "Show HN: Run full iOS 16.5 firmware on Android Devices",
    "url": "https://news.ycombinator.com/item?id=50196718",
    "link": "https://github.com/oosexgang/hackios-xnu-kernel",
-   "up": 269,
-   "com": 93,
+   "up": 276,
+   "com": 100,
    "at": "2026-10-22T15:26:22.000Z"
   },
   {
@@ -891,17 +915,26 @@
    "t": "What’s getting pwned right now",
    "url": "https://news.ycombinator.com/item?id=50195543",
    "link": "https://pwn.watch/",
-   "up": 309,
-   "com": 147,
+   "up": 317,
+   "com": 149,
    "at": "2026-10-22T14:08:12.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
+   "url": "https://news.ycombinator.com/item?id=50200997",
+   "link": "",
+   "up": 47,
+   "com": 41,
+   "at": "2026-10-22T21:03:55.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Getting ready to operate GNU Taler in Germany",
    "url": "https://news.ycombinator.com/item?id=50197404",
    "link": "https://www.taler.net/en/news/2026-13.html",
-   "up": 175,
-   "com": 61,
+   "up": 187,
+   "com": 68,
    "at": "2026-10-22T16:14:31.000Z"
   },
   {
@@ -912,15 +945,6 @@
    "up": 585,
    "com": 139,
    "at": "2026-10-21T23:51:37.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Hedra is a 3D open world game I wrote from scratch while in highschool",
-   "url": "https://news.ycombinator.com/item?id=50199389",
-   "link": "https://github.com/maxilevi/project-hedra/tree/pre-ai",
-   "up": 76,
-   "com": 16,
-   "at": "2026-10-22T18:44:36.000Z"
   }
  ]
 }
