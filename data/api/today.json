@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-22T10:01:09.447Z"
+  "updated": "2026-10-22T10:30:55.751Z"
  },
  "pulse": {
-  "trending": 79,
+  "trending": 80,
   "accelerating": 4,
   "newModels": 11,
   "discussions": 44,
-  "stars": 2030
+  "stars": 2195
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo.",
    "meta": [
-    "★ 2,975",
-    "~1,142 in 24h",
+    "★ 2,987",
+    "~1,137 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-19T19:29:01Z",
@@ -73,13 +73,29 @@
    "grow": null,
    "desc": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
    "meta": [
-    "★ 1,351",
-    "~346 in 24h",
+    "★ 1,354",
+    "~345 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-18T12:19:27Z",
    "breakout": null,
    "url": "https://github.com/alchaincyf/huashu-motion"
+  },
+  {
+   "name": "flint",
+   "owner": "RecursiveSI",
+   "src": "hf",
+   "cat": "LLMs",
+   "score": 88,
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 366",
+   "meta": [
+    "420 downloads",
+    "Released 20h ago"
+   ],
+   "at": "2026-10-21T14:20:58.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/RecursiveSI/flint"
   },
   {
    "name": "Muse-Spark-Open-816B-A42B",
@@ -106,8 +122,8 @@
    "grow": null,
    "desc": "Make an old Android TV fast again with Claude Code or Codex: a tiny ad-free home screen plus the prompt to clean it up",
    "meta": [
-    "★ 1,207",
-    "~292 in 24h",
+    "★ 1,208",
+    "~290 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-18T06:42:29Z",
@@ -121,7 +137,7 @@
    "cat": "Vision",
    "score": 86,
    "grow": 11,
-   "desc": "Vision on Hugging Face · open weights · ♥ 616",
+   "desc": "Vision on Hugging Face · open weights · ♥ 617",
    "meta": [
     "103K downloads",
     "Released 9 days ago"
@@ -129,22 +145,6 @@
    "at": "2026-10-13T10:58:40.000Z",
    "breakout": null,
    "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein"
-  },
-  {
-   "name": "flint",
-   "owner": "RecursiveSI",
-   "src": "hf",
-   "cat": "LLMs",
-   "score": 86,
-   "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 357",
-   "meta": [
-    "420 downloads",
-    "Released 20h ago"
-   ],
-   "at": "2026-10-21T14:20:58.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/RecursiveSI/flint"
   },
   {
    "name": "MOSS-Image-SFT",
@@ -172,7 +172,7 @@
    "grow": null,
    "desc": "Spatial intelligence requires agents to actively acquire visual evidence and integrate observations into a coherent representation of the three-dimensional world.",
    "meta": [
-    "▲ 66 upvotes",
+    "▲ 70 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-18T20:00:00.000Z",
@@ -183,7 +183,7 @@
   {
    "key": "claude duet",
    "label": "Claude Duet",
-   "n": 6,
+   "n": 4,
    "sources": [
     {
      "src": "Product Hunt",
@@ -204,16 +204,6 @@
      "src": "Engadget",
      "t": "Claude Duet Is Anthropic's Answer To Meta Muse And OpenAI Dots",
      "url": "https://www.engadget.com/2293646/claude-duet-is-anthropics-answer-to-meta-muse-and-openai-dots/"
-    },
-    {
-     "src": "MacRumors",
-     "t": "Anthropic Launches Claude Duet, a Proactive AI Agent",
-     "url": "https://www.macrumors.com/2026/10/21/anthropic-claude-duet/"
-    },
-    {
-     "src": "9to5Google",
-     "t": "Claude Duet is Anthropic's proactive AI agent",
-     "url": "https://9to5google.com/2026/10/21/claude-duet-anthropic-ai-agent-waitlist/"
     }
    ],
    "since": "2026-10-22T08:30:56.595Z"
@@ -264,8 +254,8 @@
    "name": "free-my-tv",
    "url": "https://github.com/simbasjungles/free-my-tv",
    "from": "GitHub",
-   "use": 1142,
-   "useLabel": "~1,142 stars/day",
+   "use": 1137,
+   "useLabel": "~1,137 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -379,8 +369,8 @@
  "github": [
   {
    "repo": "simbasjungles/free-my-tv",
-   "stars": 2975,
-   "d24": 1142,
+   "stars": 2987,
+   "d24": 1137,
    "est": true,
    "forks": 378,
    "contrib": null,
@@ -388,8 +378,8 @@
   },
   {
    "repo": "alchaincyf/huashu-motion",
-   "stars": 1351,
-   "d24": 346,
+   "stars": 1354,
+   "d24": 345,
    "est": true,
    "forks": 132,
    "contrib": null,
@@ -397,21 +387,30 @@
   },
   {
    "repo": "Ansub/tv-detox",
-   "stars": 1207,
-   "d24": 292,
+   "stars": 1208,
+   "d24": 290,
    "est": true,
-   "forks": 121,
+   "forks": 122,
    "contrib": null,
    "score": 86
   },
   {
    "repo": "aicodeking/leanrea",
-   "stars": 1325,
+   "stars": 1327,
    "d24": 250,
    "est": true,
    "forks": 201,
    "contrib": null,
    "score": 82
+  },
+  {
+   "repo": "reason-machines/reason-network",
+   "stars": 999,
+   "d24": 173,
+   "est": true,
+   "forks": 82,
+   "contrib": null,
+   "score": 76
   }
  ],
  "models": [
@@ -424,7 +423,7 @@
    "grow": 23,
    "score": 94,
    "cat": "Vision",
-   "likes": 2250
+   "likes": 2251
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -435,7 +434,18 @@
    "grow": 5,
    "score": 90,
    "cat": "Vision",
-   "likes": 1229
+   "likes": 1231
+  },
+  {
+   "name": "flint",
+   "org": "RecursiveSI",
+   "lic": "Open source",
+   "at": "2026-10-21T14:20:58.000Z",
+   "dl": 420,
+   "grow": null,
+   "score": 88,
+   "cat": "LLMs",
+   "likes": 366
   },
   {
    "name": "Muse-Spark-Open-816B-A42B",
@@ -458,18 +468,7 @@
    "grow": 11,
    "score": 86,
    "cat": "Vision",
-   "likes": 616
-  },
-  {
-   "name": "flint",
-   "org": "RecursiveSI",
-   "lic": "Open source",
-   "at": "2026-10-21T14:20:58.000Z",
-   "dl": 420,
-   "grow": null,
-   "score": 86,
-   "cat": "LLMs",
-   "likes": 357
+   "likes": 617
   },
   {
    "name": "MOSS-Image-SFT",
@@ -928,10 +927,10 @@
    "kind": "Video"
   },
   {
-   "t": "Tech Up After SpaceX Earnings - Tech Roundup",
-   "url": "https://www.marketscreener.com/news/tech-up-after-spacex-earnings-tech-roundup-ce785cd9dc8af522",
-   "at": "2026-10-21T21:43:24Z",
-   "src": "MarketScreener",
+   "t": "​US Vultr plans AMD AI cluster in Chennai",
+   "url": "https://timesofindia.indiatimes.com/business/india-business/us-vultr-plans-amd-ai-cluster-in-chennai/articleshow/135096078.cms",
+   "at": "2026-10-21T22:30:00Z",
+   "src": "Times of India",
    "kind": "News"
   }
  ],
@@ -941,7 +940,7 @@
    "t": "PHP 8.2.35",
    "url": "https://news.ycombinator.com/item?id=50180873",
    "link": "https://github.com/php/php-src/releases/tag/php-8.2.35",
-   "up": 1034,
+   "up": 1036,
    "com": 547,
    "at": "2026-10-21T13:45:33.000Z"
   },
@@ -950,7 +949,7 @@
    "t": "mitmproxy adds --emudhra option",
    "url": "https://news.ycombinator.com/item?id=50189232",
    "link": "https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b",
-   "up": 478,
+   "up": 484,
    "com": 115,
    "at": "2026-10-21T23:51:37.000Z"
   },
@@ -959,8 +958,8 @@
    "t": "Claude Duet",
    "url": "https://news.ycombinator.com/item?id=50186037",
    "link": "https://claude.com/product/claude-duet",
-   "up": 380,
-   "com": 345,
+   "up": 392,
+   "com": 357,
    "at": "2026-10-21T19:14:01.000Z"
   },
   {
@@ -968,8 +967,8 @@
    "t": "OpenAI CLI",
    "url": "https://news.ycombinator.com/item?id=50191507",
    "link": "https://github.com/openai/openai-cli",
-   "up": 119,
-   "com": 70,
+   "up": 125,
+   "com": 72,
    "at": "2026-10-22T05:23:11.000Z"
   },
   {
@@ -977,18 +976,18 @@
    "t": "GitLab critical patch release",
    "url": "https://news.ycombinator.com/item?id=50185869",
    "link": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/",
-   "up": 352,
+   "up": 355,
    "com": 82,
    "at": "2026-10-21T19:01:12.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Mistral Large 4",
-   "url": "https://news.ycombinator.com/item?id=50186129",
-   "link": "https://mistral.ai/news/mistral-large-4/",
-   "up": 320,
-   "com": 98,
-   "at": "2026-10-21T19:20:55.000Z"
+   "t": "PHP2Shell: AI uncovers critical RCE in PHP",
+   "url": "https://news.ycombinator.com/item?id=50180836",
+   "link": "https://www.wiz.io/blog/php2shell-php-rce",
+   "up": 441,
+   "com": 177,
+   "at": "2026-10-21T13:43:19.000Z"
   }
  ]
 }
