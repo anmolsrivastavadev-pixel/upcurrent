@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-22T00:01:07.436Z"
+  "updated": "2026-10-22T00:30:52.038Z"
  },
  "pulse": {
   "trending": 80,
   "accelerating": 1,
   "newModels": 12,
-  "discussions": 36,
-  "stars": 1633
+  "discussions": 38,
+  "stars": 1636
  },
  "rising": [
   {
@@ -20,12 +20,12 @@
    "owner": "simbasjungles",
    "src": "gh",
    "cat": "Agents",
-   "score": 96,
-   "grow": 19,
+   "score": 95,
+   "grow": 20,
    "desc": "A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo.",
    "meta": [
-    "★ 2,711",
-    "+922 in 24h",
+    "★ 2,729",
+    "+920 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-19T19:29:01Z",
@@ -70,12 +70,12 @@
    "src": "gh",
    "cat": "Agents",
    "score": 89,
-   "grow": 4,
+   "grow": 5,
    "desc": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
    "meta": [
-    "★ 1,265",
-    "+86 in 24h",
-    "Created 3 days ago"
+    "★ 1,269",
+    "+90 in 24h",
+    "Created 4 days ago"
    ],
    "at": "2026-10-18T12:19:27Z",
    "breakout": null,
@@ -90,8 +90,8 @@
    "grow": 13,
    "desc": "Make an old Android TV fast again with Claude Code or Codex: a tiny ad-free home screen plus the prompt to clean it up",
    "meta": [
-    "★ 1,162",
-    "+213 in 24h",
+    "★ 1,165",
+    "+211 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-18T06:42:29Z",
@@ -147,19 +147,19 @@
    "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein"
   },
   {
-   "name": "LLM2R: From Large Language Models to 3D Reassemblers",
+   "name": "FlowState: Execution State as Memory for Long-Horizon LLM Agents",
    "owner": "Paper",
    "src": "paper",
-   "url": "https://huggingface.co/papers/2610.18604",
+   "url": "https://huggingface.co/papers/2609.34565",
    "cat": "Research",
    "score": 85,
    "grow": null,
-   "desc": "3D part assembly aims to reconstruct a complete shape from a set of unassembled parts by predicting a rigid SE(3) transformation for each part.",
+   "desc": "Long-horizon tasks require LLM agents to continually draw on information from earlier interactions.",
    "meta": [
-    "▲ 20 upvotes",
+    "▲ 15 upvotes",
     "Hugging Face Papers"
    ],
-   "at": "2026-10-12T20:00:00.000Z",
+   "at": "2026-10-07T20:00:00.000Z",
    "breakout": null
   },
   {
@@ -203,8 +203,8 @@
    "name": "free-my-tv",
    "url": "https://github.com/simbasjungles/free-my-tv",
    "from": "GitHub",
-   "use": 922,
-   "useLabel": "+922 stars/day",
+   "use": 920,
+   "useLabel": "+920 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -318,16 +318,16 @@
  "github": [
   {
    "repo": "simbasjungles/free-my-tv",
-   "stars": 2711,
-   "d24": 922,
+   "stars": 2729,
+   "d24": 920,
    "est": false,
-   "forks": 329,
+   "forks": 332,
    "contrib": null,
-   "score": 96
+   "score": 95
   },
   {
    "repo": "Leonxlnx/earshot",
-   "stars": 2050,
+   "stars": 2051,
    "d24": 305,
    "est": true,
    "forks": 116,
@@ -336,8 +336,8 @@
   },
   {
    "repo": "Ansub/tv-detox",
-   "stars": 1162,
-   "d24": 213,
+   "stars": 1165,
+   "d24": 211,
    "est": false,
    "forks": 116,
    "contrib": null,
@@ -345,19 +345,19 @@
   },
   {
    "repo": "aicodeking/leanrea",
-   "stars": 1285,
-   "d24": 107,
+   "stars": 1289,
+   "d24": 110,
    "est": false,
-   "forks": 192,
+   "forks": 194,
    "contrib": null,
    "score": 84
   },
   {
    "repo": "alchaincyf/huashu-motion",
-   "stars": 1265,
-   "d24": 86,
+   "stars": 1269,
+   "d24": 90,
    "est": false,
-   "forks": 125,
+   "forks": 126,
    "contrib": null,
    "score": 89
   }
@@ -372,7 +372,7 @@
    "grow": 0,
    "score": 94,
    "cat": "Vision",
-   "likes": 2160
+   "likes": 2163
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -383,7 +383,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 1186
+   "likes": 1187
   },
   {
    "name": "Muse-Spark-Open-816B-A42B",
@@ -425,7 +425,7 @@
    "lic": "Open source",
    "at": "2026-10-11T07:01:17.000Z",
    "dl": 5840,
-   "grow": 28,
+   "grow": null,
    "score": 83,
    "cat": "Vision",
    "likes": 533
@@ -474,14 +474,6 @@
   },
   {
    "name": "jev-1.13",
-   "prov": "OpenCode Zen",
-   "ctx": null,
-   "url": null,
-   "caps": [],
-   "added": false
-  },
-  {
-   "name": "longcat-2.5-preview",
    "prov": "OpenCode Zen",
    "ctx": null,
    "url": null,
@@ -890,8 +882,8 @@
    "t": "PHP 8.2.35",
    "url": "https://news.ycombinator.com/item?id=50180873",
    "link": "https://github.com/php/php-src/releases/tag/php-8.2.35",
-   "up": 955,
-   "com": 529,
+   "up": 959,
+   "com": 532,
    "at": "2026-10-21T13:45:33.000Z"
   },
   {
@@ -900,7 +892,7 @@
    "url": "https://news.ycombinator.com/item?id=50186129",
    "link": "https://mistral.ai/news/mistral-large-4/",
    "up": 315,
-   "com": 92,
+   "com": 93,
    "at": "2026-10-21T19:20:55.000Z"
   },
   {
@@ -908,17 +900,26 @@
    "t": "Claude Duet",
    "url": "https://news.ycombinator.com/item?id=50186037",
    "link": "https://claude.com/product/claude-duet",
-   "up": 288,
-   "com": 245,
+   "up": 298,
+   "com": 254,
    "at": "2026-10-21T19:14:01.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "mitmproxy adds --emudhra option",
+   "url": "https://news.ycombinator.com/item?id=50189232",
+   "link": "https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b",
+   "up": 46,
+   "com": 10,
+   "at": "2026-10-21T23:51:37.000Z"
   },
   {
    "src": "Hacker News",
    "t": "GitLab Critical Patch Release",
    "url": "https://news.ycombinator.com/item?id=50185869",
    "link": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/",
-   "up": 221,
-   "com": 52,
+   "up": 229,
+   "com": 58,
    "at": "2026-10-21T19:01:12.000Z"
   },
   {
@@ -926,18 +927,9 @@
    "t": "PHP2Shell: AI uncovers critical RCE in PHP",
    "url": "https://news.ycombinator.com/item?id=50180836",
    "link": "https://www.wiz.io/blog/php2shell-php-rce",
-   "up": 429,
-   "com": 171,
+   "up": 432,
+   "com": 172,
    "at": "2026-10-21T13:43:19.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Google's Rust Style Guide",
-   "url": "https://news.ycombinator.com/item?id=50186010",
-   "link": "https://google.github.io/styleguide/rustguide.html",
-   "up": 163,
-   "com": 104,
-   "at": "2026-10-21T19:11:57.000Z"
   }
  ]
 }
