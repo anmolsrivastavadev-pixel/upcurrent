@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-22T12:31:00.605Z"
+  "updated": "2026-10-22T13:01:17.173Z"
  },
  "pulse": {
   "trending": 80,
-  "accelerating": 3,
+  "accelerating": 2,
   "newModels": 11,
-  "discussions": 47,
-  "stars": 1688
+  "discussions": 44,
+  "stars": 1666
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo.",
    "meta": [
-    "★ 3,046",
-    "~1,124 in 24h",
+    "★ 3,056",
+    "~1,119 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-19T19:29:01Z",
@@ -54,7 +54,7 @@
    "src": "hf",
    "cat": "Vision",
    "score": 90,
-   "grow": 5,
+   "grow": null,
    "desc": "Vision on Hugging Face · open weights · ♥ 1.2K",
    "meta": [
     "513K downloads",
@@ -71,10 +71,10 @@
    "cat": "LLMs",
    "score": 89,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 390",
+   "desc": "Model on Hugging Face · open source · ♥ 393",
    "meta": [
     "420 downloads",
-    "Released 22h ago"
+    "Released 23h ago"
    ],
    "at": "2026-10-21T14:20:58.000Z",
    "breakout": null,
@@ -89,8 +89,8 @@
    "grow": 4,
    "desc": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
    "meta": [
-    "★ 1,369",
-    "+185 in 24h",
+    "★ 1,370",
+    "+175 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-18T12:19:27Z",
@@ -103,7 +103,7 @@
    "src": "hf",
    "cat": "Infrastructure",
    "score": 87,
-   "grow": 9,
+   "grow": null,
    "desc": "Model on Hugging Face · open weights · ♥ 651",
    "meta": [
     "3.2K downloads",
@@ -122,8 +122,8 @@
    "grow": 3,
    "desc": "Make an old Android TV fast again with Claude Code or Codex: a tiny ad-free home screen plus the prompt to clean it up",
    "meta": [
-    "★ 1,219",
-    "+114 in 24h",
+    "★ 1,220",
+    "+110 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-18T06:42:29Z",
@@ -137,7 +137,7 @@
    "cat": "Vision",
    "score": 86,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 618",
+   "desc": "Vision on Hugging Face · open weights · ♥ 620",
    "meta": [
     "103K downloads",
     "Released 9 days ago"
@@ -172,45 +172,21 @@
    "grow": null,
    "desc": "Spatial intelligence requires agents to actively acquire visual evidence and integrate observations into a coherent representation of the three-dimensional world.",
    "meta": [
-    "▲ 97 upvotes",
+    "▲ 104 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-18T20:00:00.000Z",
    "breakout": null
   }
  ],
- "breakouts": [
-  {
-   "key": "claude duet",
-   "label": "Claude Duet",
-   "n": 3,
-   "sources": [
-    {
-     "src": "Product Hunt",
-     "t": "Claude Duet",
-     "url": "https://www.producthunt.com/products/claude?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
-    },
-    {
-     "src": "Hacker News",
-     "t": "Claude Duet",
-     "url": "https://news.ycombinator.com/item?id=50186037"
-    },
-    {
-     "src": "CNBC",
-     "t": "Anthropic preview of Claude Duet, personal AI agent take on Muse, Dots",
-     "url": "https://www.cnbc.com/2026/10/21/anthropic-preview-of-claude-duet-personal-ai-agent-take-on-muse-dots.html"
-    }
-   ],
-   "since": "2026-10-22T08:30:56.595Z"
-  }
- ],
+ "breakouts": [],
  "hype": [
   {
    "name": "free-my-tv",
    "url": "https://github.com/simbasjungles/free-my-tv",
    "from": "GitHub",
-   "use": 1124,
-   "useLabel": "~1,124 stars/day",
+   "use": 1119,
+   "useLabel": "~1,119 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -324,17 +300,17 @@
  "github": [
   {
    "repo": "simbasjungles/free-my-tv",
-   "stars": 3046,
-   "d24": 1124,
+   "stars": 3056,
+   "d24": 1119,
    "est": true,
-   "forks": 387,
+   "forks": 391,
    "contrib": null,
    "score": 95
   },
   {
    "repo": "alchaincyf/huashu-motion",
-   "stars": 1369,
-   "d24": 185,
+   "stars": 1370,
+   "d24": 175,
    "est": false,
    "forks": 135,
    "contrib": null,
@@ -342,7 +318,7 @@
   },
   {
    "repo": "reason-machines/reason-network",
-   "stars": 1013,
+   "stars": 1016,
    "d24": 172,
    "est": true,
    "forks": 82,
@@ -351,19 +327,19 @@
   },
   {
    "repo": "Ansub/tv-detox",
-   "stars": 1219,
-   "d24": 114,
+   "stars": 1220,
+   "d24": 110,
    "est": false,
-   "forks": 125,
+   "forks": 126,
    "contrib": null,
    "score": 86
   },
   {
    "repo": "aicodeking/leanrea",
-   "stars": 1339,
-   "d24": 93,
+   "stars": 1340,
+   "d24": 90,
    "est": false,
-   "forks": 203,
+   "forks": 204,
    "contrib": null,
    "score": 82
   }
@@ -378,7 +354,7 @@
    "grow": null,
    "score": 94,
    "cat": "Vision",
-   "likes": 2271
+   "likes": 2279
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -386,10 +362,10 @@
    "lic": "Open weights",
    "at": "2026-10-14T12:00:13.000Z",
    "dl": 512524,
-   "grow": 5,
+   "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 1244
+   "likes": 1246
   },
   {
    "name": "flint",
@@ -400,7 +376,7 @@
    "grow": null,
    "score": 89,
    "cat": "LLMs",
-   "likes": 390
+   "likes": 393
   },
   {
    "name": "Muse-Spark-Open-816B-A42B",
@@ -409,7 +385,7 @@
    "lic": "Open weights",
    "at": "2026-09-15T19:23:19.000Z",
    "dl": 3163,
-   "grow": 9,
+   "grow": null,
    "score": 87,
    "cat": "Infrastructure",
    "likes": 651
@@ -423,7 +399,7 @@
    "grow": null,
    "score": 86,
    "cat": "Vision",
-   "likes": 618
+   "likes": 620
   },
   {
    "name": "MOSS-Image-SFT",
@@ -777,6 +753,27 @@
  },
  "headlines": [
   {
+   "t": "Enact, which develops full-stack tech for general-purpose robots, emerges from stealth with a $30M pre-seed from Mistral CEO Arthur Mensch, Yann LeCun, and more",
+   "url": "https://www.techmeme.com/261022/p24#a261022p24",
+   "at": "2026-10-22T12:50:02.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Israeli security company Lava finds 32 Nvidia Blackwell Ultra B300 chips connected to systems linked to state-owned operator China Telecom, despite US controls",
+   "url": "https://www.techmeme.com/261022/p22#a261022p22",
+   "at": "2026-10-22T12:35:08.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "‘The tech bro fight club is real!’ The titans of AI get the Succession treatment in a wild new TV show",
+   "url": "https://www.theguardian.com/tv-and-radio/2026/oct/22/the-audacity-hbo-max-billionaires-succession-treatment",
+   "at": "2026-10-22T12:34:33Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
    "t": "How tech became the villain of the US midterms ",
    "url": "https://www.theguardian.com/us-news/ng-interactive/2026/oct/22/us-midterms-tech-datacenters-ai",
    "at": "2026-10-22T12:00:44Z",
@@ -826,20 +823,6 @@
    "kind": "Lab blog"
   },
   {
-   "t": "How AI is an inherently imperial technology, and how the US and China are building rival \"AI empires\" with different approaches to extend their power",
-   "url": "https://www.techmeme.com/261022/p9#a261022p9",
-   "at": "2026-10-22T07:15:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Pressure to back promising AI startups is upending the VC investment process, with investors willing to buy into the same round at rapidly escalating valuations",
-   "url": "https://www.techmeme.com/261022/p8#a261022p8",
-   "at": "2026-10-22T06:50:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Leading European Financial Services Organizations Embrace Open Models to Build Proprietary Intelligence",
    "url": "https://blogs.nvidia.com/blog/european-financial-services-organizations-open-models-proprietary-intelligence/",
    "at": "2026-10-22T05:00:56.000Z",
@@ -880,13 +863,6 @@
    "at": "2026-10-22T05:00:08Z",
    "src": "The Guardian",
    "kind": "News"
-  },
-  {
-   "t": "NVIDIA Open Models Power a New Wave of European Public Sector Projects",
-   "url": "https://blogs.nvidia.com/blog/european-public-sector-open-models/",
-   "at": "2026-10-22T05:00:02.000Z",
-   "src": "NVIDIA",
-   "kind": "Lab blog"
   }
  ],
  "discussions": [
@@ -895,8 +871,8 @@
    "t": "Several Linux kernel vulnerabilities accidentally posted to public mailing list",
    "url": "https://news.ycombinator.com/item?id=50193804",
    "link": "https://www.phoronix.com/news/LKML-New-Trend-Vulnerabilities",
-   "up": 72,
-   "com": 15,
+   "up": 93,
+   "com": 19,
    "at": "2026-10-22T11:12:37.000Z"
   },
   {
@@ -904,8 +880,8 @@
    "t": "PHP 8.2.35",
    "url": "https://news.ycombinator.com/item?id=50180873",
    "link": "https://github.com/php/php-src/releases/tag/php-8.2.35",
-   "up": 1044,
-   "com": 553,
+   "up": 1045,
+   "com": 552,
    "at": "2026-10-21T13:45:33.000Z"
   },
   {
@@ -913,8 +889,8 @@
    "t": "mitmproxy adds --emudhra option",
    "url": "https://news.ycombinator.com/item?id=50189232",
    "link": "https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b",
-   "up": 520,
-   "com": 124,
+   "up": 531,
+   "com": 130,
    "at": "2026-10-21T23:51:37.000Z"
   },
   {
@@ -922,8 +898,8 @@
    "t": "Claude Duet",
    "url": "https://news.ycombinator.com/item?id=50186037",
    "link": "https://claude.com/product/claude-duet",
-   "up": 436,
-   "com": 396,
+   "up": 446,
+   "com": 409,
    "at": "2026-10-21T19:14:01.000Z"
   },
   {
@@ -931,8 +907,8 @@
    "t": "OpenAI CLI",
    "url": "https://news.ycombinator.com/item?id=50191507",
    "link": "https://github.com/openai/openai-cli",
-   "up": 157,
-   "com": 82,
+   "up": 165,
+   "com": 83,
    "at": "2026-10-22T05:23:11.000Z"
   },
   {
@@ -940,7 +916,7 @@
    "t": "GitLab critical patch release",
    "url": "https://news.ycombinator.com/item?id=50185869",
    "link": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/",
-   "up": 365,
+   "up": 370,
    "com": 86,
    "at": "2026-10-21T19:01:12.000Z"
   }
