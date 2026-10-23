@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-23T22:30:50.078Z"
+  "updated": "2026-10-23T23:01:06.024Z"
  },
  "pulse": {
   "trending": 76,
   "accelerating": 3,
   "newModels": 10,
-  "discussions": 44,
-  "stars": 611
+  "discussions": 42,
+  "stars": 790
  },
  "rising": [
   {
@@ -22,7 +22,7 @@
    "cat": "LLMs",
    "score": 95,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 676",
+   "desc": "Model on Hugging Face · open source · ♥ 678",
    "meta": [
     "1.9K downloads",
     "Released 2 days ago"
@@ -69,11 +69,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 87,
-   "grow": 6,
+   "grow": null,
    "desc": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
    "meta": [
     "★ 1,536",
-    "+104 in 24h",
+    "~282 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-18T12:19:27Z",
@@ -102,8 +102,8 @@
    "src": "hf",
    "cat": "Vision",
    "score": 86,
-   "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 646",
+   "grow": 0,
+   "desc": "Vision on Hugging Face · open source · ♥ 647",
    "meta": [
     "7.7K downloads",
     "Released 13 days ago"
@@ -121,8 +121,8 @@
    "grow": null,
    "desc": "One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper.",
    "meta": [
-    "★ 1,800",
-    "~264 in 24h",
+    "★ 1,810",
+    "~265 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-17T02:53:24Z",
@@ -171,7 +171,7 @@
    "grow": null,
    "desc": "Make an old Android TV fast again with Claude Code or Codex: a tiny ad-free home screen plus the prompt to clean it up",
    "meta": [
-    "★ 1,377",
+    "★ 1,378",
     "~243 in 24h",
     "Created 6 days ago"
    ],
@@ -183,11 +183,11 @@
  "breakouts": [],
  "hype": [
   {
-   "name": "leanrea",
-   "url": "https://github.com/aicodeking/leanrea",
+   "name": "huashu-motion",
+   "url": "https://github.com/alchaincyf/huashu-motion",
    "from": "GitHub",
-   "use": 264,
-   "useLabel": "~264 stars/day",
+   "use": 282,
+   "useLabel": "~282 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -300,31 +300,31 @@
  ],
  "github": [
   {
-   "repo": "aicodeking/leanrea",
-   "stars": 1800,
-   "d24": 264,
+   "repo": "alchaincyf/huashu-motion",
+   "stars": 1536,
+   "d24": 282,
    "est": true,
-   "forks": 267,
+   "forks": 149,
+   "contrib": null,
+   "score": 87
+  },
+  {
+   "repo": "aicodeking/leanrea",
+   "stars": 1810,
+   "d24": 265,
+   "est": true,
+   "forks": 268,
    "contrib": null,
    "score": 85
   },
   {
    "repo": "Ansub/tv-detox",
-   "stars": 1377,
+   "stars": 1378,
    "d24": 243,
    "est": true,
    "forks": 137,
    "contrib": null,
    "score": 83
-  },
-  {
-   "repo": "alchaincyf/huashu-motion",
-   "stars": 1536,
-   "d24": 104,
-   "est": false,
-   "forks": 149,
-   "contrib": null,
-   "score": 87
   }
  ],
  "models": [
@@ -337,7 +337,7 @@
    "grow": 0,
    "score": 95,
    "cat": "LLMs",
-   "likes": 676
+   "likes": 678
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -348,7 +348,7 @@
    "grow": 11,
    "score": 92,
    "cat": "Vision",
-   "likes": 2573
+   "likes": 2576
   },
   {
    "name": "Spark-X2.6-4B",
@@ -371,7 +371,7 @@
    "grow": 4,
    "score": 87,
    "cat": "Vision",
-   "likes": 1400
+   "likes": 1401
   },
   {
    "name": "MOSS-Image-SFT",
@@ -379,10 +379,10 @@
    "lic": "Open source",
    "at": "2026-10-11T07:01:17.000Z",
    "dl": 7658,
-   "grow": null,
+   "grow": 0,
    "score": 86,
    "cat": "Vision",
-   "likes": 646
+   "likes": 647
   },
   {
    "name": "MOSS-Image-Base",
@@ -393,7 +393,7 @@
    "grow": null,
    "score": 83,
    "cat": "Vision",
-   "likes": 519
+   "likes": 520
   }
  ],
  "free": [
@@ -785,24 +785,24 @@
    "kind": "News"
   },
   {
-   "t": "AI-discovered bugs may soon trigger fresh disruptions, cyber experts say",
-   "url": "https://www.straitstimes.com/world/ai-discovered-bugs-may-soon-trigger-fresh-disruptions-cyber-experts-say",
-   "at": "2026-10-23T10:26:46Z",
-   "src": "The Straits Times",
+   "t": "Fired OpenAI researchers give their first interview since their dramatic dismissal",
+   "url": "https://www.npr.org/2026/10/23/nx-s1-6012298/fired-openai-researchers-give-their-first-interview-since-their-dramatic-dismissal",
+   "at": "2026-10-23T11:00:00Z",
+   "src": "NPR",
    "kind": "News"
   },
   {
-   "t": "Major U.S. Banks Detect Unauthorized AI Agents in Customer Accounts",
-   "url": "https://www.naturalnews.com/2026-10-23-banks-detect-unathorized-ai-agents-customer-accounts.html",
-   "at": "2026-10-23T10:24:59Z",
-   "src": "Natural News",
+   "t": "Wall Street is urging Anthropic, OpenAI to do their IPOs in a hurry - here's why",
+   "url": "https://nypost.com/2026/10/23/business/wall-street-is-urging-anthropic-openai-to-do-their-ipos-in-a-hurry-heres-why/",
+   "at": "2026-10-23T11:00:00Z",
+   "src": "New York Post",
    "kind": "News"
   },
   {
-   "t": "China urges government agencies to mitigate AI job displacement",
-   "url": "https://www.marketscreener.com/news/china-urges-government-agencies-to-mitigate-ai-job-displacement-ce785cdfd98ef224",
-   "at": "2026-10-23T10:23:37Z",
-   "src": "MarketScreener",
+   "t": "Ringgit ends easier against US dollar, mixed versus major currencies amid AI, bond yield concerns",
+   "url": "https://www.malaymail.com/news/money/2026/10/23/ringgit-ends-easier-against-us-dollar-mixed-versus-major-currencies-amid-ai-bond-yield-concerns/240354",
+   "at": "2026-10-23T10:57:22Z",
+   "src": "Malay Mail",
    "kind": "News"
   }
  ],
@@ -812,8 +812,8 @@
    "t": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
    "url": "https://news.ycombinator.com/item?id=50212065",
    "link": "https://www.kimi.ai/blog/kimi-k3-1-pro",
-   "up": 599,
-   "com": 364,
+   "up": 624,
+   "com": 388,
    "at": "2026-10-23T16:59:08.000Z"
   },
   {
@@ -830,25 +830,16 @@
    "t": "Kimi K3.1 scores 55 on Artificial Analysis, placed on the Pareto line",
    "url": "https://news.ycombinator.com/item?id=50213337",
    "link": "https://artificialanalysis.ai/models/kimi-k3-1-pro",
-   "up": 114,
+   "up": 115,
    "com": 38,
    "at": "2026-10-23T18:24:54.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "LLMs are making formal software verification feasible at a much larger scale",
-   "url": "https://news.ycombinator.com/item?id=50202217",
-   "link": "https://www.anthropic.com/research/formal-verification",
-   "up": 437,
-   "com": 280,
-   "at": "2026-10-22T22:54:43.000Z"
   },
   {
    "src": "Hacker News",
    "t": "OpenSSL 4.1.0",
    "url": "https://news.ycombinator.com/item?id=50208099",
    "link": "https://github.com/openssl/openssl/releases/tag/openssl-4.1.0",
-   "up": 178,
+   "up": 179,
    "com": 58,
    "at": "2026-10-23T12:42:44.000Z"
   },
@@ -857,9 +848,18 @@
    "t": "OpenAI: Securing our frontier model training environment",
    "url": "https://news.ycombinator.com/item?id=50214416",
    "link": "https://openai.com/index/securing-our-frontier-model-training-environment/",
-   "up": 44,
-   "com": 38,
+   "up": 52,
+   "com": 60,
    "at": "2026-10-23T19:50:56.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Remove pgrust: the entry is cheating (per-query kernels and result caching)",
+   "url": "https://news.ycombinator.com/item?id=50205816",
+   "link": "https://github.com/ClickHouse/ClickBench/pull/2165",
+   "up": 180,
+   "com": 135,
+   "at": "2026-10-23T08:05:33.000Z"
   }
  ]
 }
