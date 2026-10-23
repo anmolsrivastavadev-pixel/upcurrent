@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-23T16:01:12.858Z"
+  "updated": "2026-10-23T16:30:56.724Z"
  },
  "pulse": {
   "trending": 76,
   "accelerating": 4,
   "newModels": 11,
-  "discussions": 41,
-  "stars": 730
+  "discussions": 39,
+  "stars": 727
  },
  "rising": [
   {
@@ -22,7 +22,7 @@
    "cat": "LLMs",
    "score": 94,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 641",
+   "desc": "Model on Hugging Face · open source · ♥ 643",
    "meta": [
     "1.9K downloads",
     "Released 2 days ago"
@@ -72,8 +72,8 @@
    "grow": 5,
    "desc": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
    "meta": [
-    "★ 1,519",
-    "+124 in 24h",
+    "★ 1,520",
+    "+122 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-18T12:19:27Z",
@@ -87,7 +87,7 @@
    "cat": "Vision",
    "score": 86,
    "grow": 11,
-   "desc": "Vision on Hugging Face · open source · ♥ 626",
+   "desc": "Vision on Hugging Face · open source · ♥ 630",
    "meta": [
     "7.7K downloads",
     "Released 12 days ago"
@@ -103,7 +103,7 @@
    "cat": "LLMs",
    "score": 86,
    "grow": 120,
-   "desc": "Model on Hugging Face · open source · ♥ 395",
+   "desc": "Model on Hugging Face · open source · ♥ 398",
    "meta": [
     "1.1K downloads",
     "Released 5 days ago"
@@ -121,8 +121,8 @@
    "grow": 23,
    "desc": "One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper.",
    "meta": [
-    "★ 1,680",
-    "+512 in 24h",
+    "★ 1,690",
+    "+511 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-17T02:53:24Z",
@@ -135,10 +135,10 @@
    "src": "gh",
    "cat": "Agents",
    "score": 85,
-   "grow": 4,
+   "grow": 5,
    "desc": "Make an old Android TV fast again with Claude Code or Codex: a tiny ad-free home screen plus the prompt to clean it up",
    "meta": [
-    "★ 1,347",
+    "★ 1,349",
     "+94 in 24h",
     "Created 5 days ago"
    ],
@@ -156,7 +156,7 @@
    "grow": null,
    "desc": "Existing vision-language models (VLMs) remain unreliable for fine-grained visual perception.",
    "meta": [
-    "▲ 218 upvotes",
+    "▲ 219 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-21T20:00:00.000Z",
@@ -186,8 +186,8 @@
    "name": "leanrea",
    "url": "https://github.com/aicodeking/leanrea",
    "from": "GitHub",
-   "use": 512,
-   "useLabel": "+512 stars/day",
+   "use": 511,
+   "useLabel": "+511 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -217,6 +217,16 @@
   }
  ],
  "receipts": [
+  {
+   "name": "Tejashmakwana/motionmaxxing",
+   "url": "https://github.com/Tejashmakwana/motionmaxxing",
+   "kind": "stars",
+   "first": "2026-10-23T00:01:07.549Z",
+   "firstV": 986,
+   "m": 1000,
+   "at": "2026-10-23T16:30:56.724Z",
+   "lead": 16.496993055555556
+  },
   {
    "name": "ornith-ai/Ornith-1.5-122B",
    "url": "https://huggingface.co/ornith-ai/Ornith-1.5-122B",
@@ -286,32 +296,22 @@
    "m": 100000,
    "at": "2026-10-22T10:01:09.447Z",
    "lead": 69.50387777777777
-  },
-  {
-   "name": "lemomo-ai/lemo-opuscar",
-   "url": "https://github.com/lemomo-ai/lemo-opuscar",
-   "kind": "stars",
-   "first": "2026-10-01T17:48:04.617Z",
-   "firstV": 756,
-   "m": 5000,
-   "at": "2026-10-22T05:22:04.450Z",
-   "lead": 491.56662027777776
   }
  ],
  "github": [
   {
    "repo": "aicodeking/leanrea",
-   "stars": 1680,
-   "d24": 512,
+   "stars": 1690,
+   "d24": 511,
    "est": false,
-   "forks": 253,
+   "forks": 254,
    "contrib": null,
    "score": 85
   },
   {
    "repo": "alchaincyf/huashu-motion",
-   "stars": 1519,
-   "d24": 124,
+   "stars": 1520,
+   "d24": 122,
    "est": false,
    "forks": 147,
    "contrib": null,
@@ -319,7 +319,7 @@
   },
   {
    "repo": "Ansub/tv-detox",
-   "stars": 1347,
+   "stars": 1349,
    "d24": 94,
    "est": false,
    "forks": 136,
@@ -337,7 +337,7 @@
    "grow": null,
    "score": 94,
    "cat": "LLMs",
-   "likes": 641
+   "likes": 643
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -348,7 +348,7 @@
    "grow": 11,
    "score": 92,
    "cat": "Vision",
-   "likes": 2519
+   "likes": 2523
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -359,7 +359,7 @@
    "grow": 4,
    "score": 89,
    "cat": "Vision",
-   "likes": 1376
+   "likes": 1382
   },
   {
    "name": "MOSS-Image-SFT",
@@ -370,7 +370,7 @@
    "grow": 11,
    "score": 86,
    "cat": "Vision",
-   "likes": 626
+   "likes": 630
   },
   {
    "name": "Spark-X2.6-4B",
@@ -382,7 +382,7 @@
    "grow": 120,
    "score": 86,
    "cat": "LLMs",
-   "likes": 395
+   "likes": 398
   },
   {
    "name": "MOSS-Image-Base",
@@ -393,7 +393,7 @@
    "grow": 12,
    "score": 84,
    "cat": "Vision",
-   "likes": 512
+   "likes": 513
   }
  ],
  "free": [
@@ -694,6 +694,20 @@
  },
  "headlines": [
   {
+   "t": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+   "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+   "at": "2026-10-23T17:00:00.000Z",
+   "src": "OpenAI",
+   "kind": "Lab blog"
+  },
+  {
+   "t": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
+   "url": "https://huggingface.co/blog/allenai/litpivot",
+   "at": "2026-10-23T16:15:50.000Z",
+   "src": "Hugging Face",
+   "kind": "Lab blog"
+  },
+  {
    "t": "Modern life is stuck in a sea of sameness. The pursuit of beauty is a necessary antidote | Brigid Delaney",
    "url": "https://www.theguardian.com/world/2026/oct/24/modern-life-is-stuck-in-a-sea-of-sameness-the-pursuit-of-beauty-is-a-necessary-antidote",
    "at": "2026-10-23T14:00:30Z",
@@ -750,6 +764,13 @@
    "kind": "News"
   },
   {
+   "t": "ON ALERT: Rogue AI bots reportedly discovered in customer accounts at major banks",
+   "url": "https://www.youtube.com/watch?v=AkYzDGtB69A",
+   "at": "2026-10-23T06:30:12Z",
+   "src": "Fox Business",
+   "kind": "Video"
+  },
+  {
    "t": "Chinese state media: DeepSeek and MiniMax completed registration and won approval to open-source and deploy AI models overseas under proposed export controls",
    "url": "https://www.techmeme.com/261023/p2#a261023p2",
    "at": "2026-10-23T04:50:55.000Z",
@@ -757,52 +778,31 @@
    "kind": "News"
   },
   {
-   "t": "Asian shares slip as sharp drops for AI stocks overwhelm markets worldwide and oil prices jump",
-   "url": "https://wtop.com/national/2026/10/asian-shares-slip-as-sharp-drops-for-ai-stocks-overwhelm-markets-worldwide-and-oil-prices-jump/",
-   "at": "2026-10-23T04:00:26Z",
-   "src": "WTOP",
+   "t": "India’s Eternal unveils AI assistant built for privacy",
+   "url": "https://www.thestar.com.my/tech/tech-news/2026/10/23/indias-eternal-unveils-ai-assistant-built-for-privacy",
+   "at": "2026-10-23T04:30:00Z",
+   "src": "The Star",
    "kind": "News"
   },
   {
-   "t": "Korean Stocks Hit Over Six-Month Low as AI Concerns Grow",
-   "url": "https://www.marketscreener.com/news/korean-stocks-hit-over-six-month-low-as-ai-concerns-grow-ce785cdede8ef525",
-   "at": "2026-10-23T03:59:22Z",
-   "src": "MarketScreener",
+   "t": "Canva launches its 1st image generation model",
+   "url": "https://www.newsbytesapp.com/news/science/canva-launches-its-first-image-generation-model-to-rival-openai-google/story",
+   "at": "2026-10-23T04:25:37Z",
+   "src": "NewsBytes",
    "kind": "News"
   },
   {
-   "t": "SpaceX targets 13 GW of AI computing capacity by 2027 as demand surges: UBS",
-   "url": "https://www.tribuneindia.com/news/business/spacex-targets-13-gw-of-ai-computing-capacity-by-2027-as-demand-surges-ubs/",
-   "at": "2026-10-23T03:12:27Z",
-   "src": "The Tribune",
+   "t": "Why is OpenAI lowering its valuation to $1.25 trn ahead of potential IPO?",
+   "url": "https://www.business-standard.com/technology/artificial-intelligence/why-is-openai-lowering-its-valuation-to-1-25-trn-ahead-of-potential-ipo-126102300220_1.html",
+   "at": "2026-10-23T04:22:57Z",
+   "src": "Business Standard",
    "kind": "News"
   },
   {
-   "t": "SEA’s digital economy races towards US$1 trillion as AI takes the wheel",
-   "url": "https://www.marketing-interactive.com/sea-s-digital-economy-races-towards-us-1-trillion-as-ai-takes-the-wheel",
-   "at": "2026-10-23T03:12:11Z",
-   "src": "Marketing Interactive",
-   "kind": "News"
-  },
-  {
-   "t": "AI scoring tool may guide skin biopsy decision",
-   "url": "https://www.news-medical.net/news/20261022/AI-scoring-tool-may-guide-skin-biopsy-decision.aspx",
-   "at": "2026-10-23T02:56:00Z",
-   "src": "News-Medical.net",
-   "kind": "News"
-  },
-  {
-   "t": "Globe Business brings the autonomous enterprise to life with interactive tech zones",
-   "url": "https://www.marketing-interactive.com/globe-business-brings-the-autonomous-enterprise-to-life-with-interactive-tech-zones",
-   "at": "2026-10-23T02:54:40Z",
-   "src": "Marketing Interactive",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI suspected the three fired researchers of leaking internal model designs to AI safety researcher Ryan Greenblatt, including via disappearing Signal chats",
-   "url": "https://www.techmeme.com/261022/p61#a261022p61",
-   "at": "2026-10-23T02:50:50.000Z",
-   "src": "Techmeme",
+   "t": "Sam Altman outlines three possible futures for AI, calls compute monopoly ‘terrible’",
+   "url": "https://timesofindia.indiatimes.com/education/news/sam-altman-outlines-three-possible-futures-for-ai-calls-compute-monopoly-terrible/articleshow/135134180.cms",
+   "at": "2026-10-23T04:22:00Z",
+   "src": "Times of India",
    "kind": "News"
   }
  ],
@@ -812,8 +812,8 @@
    "t": "Swedish government offices to ban ChatGPT and Claude",
    "url": "https://news.ycombinator.com/item?id=50207405",
    "link": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
-   "up": 295,
-   "com": 106,
+   "up": 298,
+   "com": 110,
    "at": "2026-10-23T11:39:54.000Z"
   },
   {
@@ -821,34 +821,17 @@
    "t": "OpenSSL 4.1.0",
    "url": "https://news.ycombinator.com/item?id=50208099",
    "link": "https://github.com/openssl/openssl/releases/tag/openssl-4.1.0",
-   "up": 133,
-   "com": 36,
+   "up": 147,
+   "com": 42,
    "at": "2026-10-23T12:42:44.000Z"
-  },
-  {
-   "src": "DEV",
-   "t": "Building Digital Trust Into AI and Blockchain Architecture",
-   "url": "https://dev.to/aonica_/building-digital-trust-into-ai-and-blockchain-architecture-pop",
-   "up": 39,
-   "com": 1,
-   "at": "2026-10-23T14:30:31Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Every AI model has the same \"controversial\" take on humans",
-   "url": "https://news.ycombinator.com/item?id=50197313",
-   "link": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
-   "up": 565,
-   "com": 542,
-   "at": "2026-10-22T16:08:00.000Z"
   },
   {
    "src": "Hacker News",
    "t": "LLMs are making formal software verification feasible at a much larger scale",
    "url": "https://news.ycombinator.com/item?id=50202217",
    "link": "https://www.anthropic.com/research/formal-verification",
-   "up": 397,
-   "com": 242,
+   "up": 404,
+   "com": 249,
    "at": "2026-10-22T22:54:43.000Z"
   },
   {
@@ -856,9 +839,27 @@
    "t": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
    "url": "https://news.ycombinator.com/item?id=50198675",
    "link": "https://github.com/NVIDIA/OpenShell",
-   "up": 461,
+   "up": 470,
    "com": 205,
    "at": "2026-10-22T17:44:06.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
+   "url": "https://news.ycombinator.com/item?id=50200997",
+   "link": "",
+   "up": 380,
+   "com": 411,
+   "at": "2026-10-22T21:03:55.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Remove pgrust: the entry is cheating (per-query kernels and result caching)",
+   "url": "https://news.ycombinator.com/item?id=50205816",
+   "link": "https://github.com/ClickHouse/ClickBench/pull/2165",
+   "up": 157,
+   "com": 93,
+   "at": "2026-10-23T08:05:33.000Z"
   }
  ]
 }
