@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-23T12:30:59.175Z"
+  "updated": "2026-10-23T13:01:07.515Z"
  },
  "pulse": {
   "trending": 78,
   "accelerating": 1,
-  "newModels": 12,
+  "newModels": 11,
   "discussions": 44,
-  "stars": 1282
+  "stars": 1233
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 4,
    "desc": "A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo.",
    "meta": [
-    "★ 3,693",
-    "+480 in 24h",
+    "★ 3,707",
+    "+493 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-19T19:29:01Z",
@@ -39,7 +39,7 @@
    "cat": "LLMs",
    "score": 94,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 613",
+   "desc": "Model on Hugging Face · open source · ♥ 616",
    "meta": [
     "1.9K downloads",
     "Released 2 days ago"
@@ -54,7 +54,7 @@
    "src": "hf",
    "cat": "Vision",
    "score": 93,
-   "grow": null,
+   "grow": 11,
    "desc": "Vision on Hugging Face · open source · ♥ 2.5K",
    "meta": [
     "58K downloads",
@@ -89,8 +89,8 @@
    "grow": 4,
    "desc": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
    "meta": [
-    "★ 1,500",
-    "+122 in 24h",
+    "★ 1,503",
+    "+123 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-18T12:19:27Z",
@@ -123,7 +123,7 @@
    "desc": "Make an old Android TV fast again with Claude Code or Codex: a tiny ad-free home screen plus the prompt to clean it up",
    "meta": [
     "★ 1,334",
-    "+95 in 24h",
+    "+91 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-18T06:42:29Z",
@@ -137,7 +137,7 @@
    "cat": "LLMs",
    "score": 85,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 388",
+   "desc": "Model on Hugging Face · open source · ♥ 390",
    "meta": [
     "1.1K downloads",
     "Released 4 days ago"
@@ -156,7 +156,7 @@
    "grow": null,
    "desc": "Existing vision-language models (VLMs) remain unreliable for fine-grained visual perception.",
    "meta": [
-    "▲ 142 upvotes",
+    "▲ 196 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-21T20:00:00.000Z",
@@ -180,38 +180,14 @@
    "breakout": null
   }
  ],
- "breakouts": [
-  {
-   "key": "claude duet",
-   "label": "Claude Duet",
-   "n": 3,
-   "sources": [
-    {
-     "src": "Product Hunt",
-     "t": "Claude Duet",
-     "url": "https://www.producthunt.com/products/claude?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
-    },
-    {
-     "src": "Biztoc.com",
-     "t": "Anthropic launches Claude Duet AI agent to compete with META, OpenAI in consumer market",
-     "url": "https://biztoc.com/x/65798999f14e2349"
-    },
-    {
-     "src": "YouTube",
-     "t": "Gemini 4 Carbon Is INSANE! OPUS 5.5 LEVEL?! Claude Duet, Kimi K3.1, OpenAI Agents & More! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=egh6GlvyD1g"
-    }
-   ],
-   "since": "2026-10-22T08:30:56.595Z"
-  }
- ],
+ "breakouts": [],
  "hype": [
   {
    "name": "free-my-tv",
    "url": "https://github.com/simbasjungles/free-my-tv",
    "from": "GitHub",
-   "use": 480,
-   "useLabel": "+480 stars/day",
+   "use": 493,
+   "useLabel": "+493 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -325,35 +301,26 @@
  "github": [
   {
    "repo": "simbasjungles/free-my-tv",
-   "stars": 3693,
-   "d24": 480,
+   "stars": 3707,
+   "d24": 493,
    "est": false,
-   "forks": 536,
+   "forks": 540,
    "contrib": null,
    "score": 94
   },
   {
    "repo": "aicodeking/leanrea",
-   "stars": 1564,
-   "d24": 423,
+   "stars": 1582,
+   "d24": 442,
    "est": false,
-   "forks": 241,
+   "forks": 243,
    "contrib": null,
-   "score": 82
-  },
-  {
-   "repo": "reason-machines/reason-network",
-   "stars": 1116,
-   "d24": 162,
-   "est": true,
-   "forks": 91,
-   "contrib": null,
-   "score": 76
+   "score": 83
   },
   {
    "repo": "alchaincyf/huashu-motion",
-   "stars": 1500,
-   "d24": 122,
+   "stars": 1503,
+   "d24": 123,
    "est": false,
    "forks": 146,
    "contrib": null,
@@ -362,11 +329,20 @@
   {
    "repo": "Ansub/tv-detox",
    "stars": 1334,
-   "d24": 95,
+   "d24": 91,
    "est": false,
    "forks": 133,
    "contrib": null,
    "score": 85
+  },
+  {
+   "repo": "reason-machines/reason-network",
+   "stars": 1119,
+   "d24": 84,
+   "est": false,
+   "forks": 91,
+   "contrib": null,
+   "score": 76
   }
  ],
  "models": [
@@ -379,7 +355,7 @@
    "grow": null,
    "score": 94,
    "cat": "LLMs",
-   "likes": 613
+   "likes": 616
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -387,10 +363,10 @@
    "lic": "Open source",
    "at": "2026-10-17T02:40:38.000Z",
    "dl": 57715,
-   "grow": null,
+   "grow": 11,
    "score": 93,
    "cat": "Vision",
-   "likes": 2475
+   "likes": 2479
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -401,7 +377,7 @@
    "grow": null,
    "score": 89,
    "cat": "Vision",
-   "likes": 1346
+   "likes": 1349
   },
   {
    "name": "MOSS-Image-SFT",
@@ -424,7 +400,7 @@
    "grow": null,
    "score": 85,
    "cat": "LLMs",
-   "likes": 388
+   "likes": 390
   },
   {
    "name": "MOSS-Image-Base",
@@ -435,7 +411,7 @@
    "grow": 12,
    "score": 84,
    "cat": "Vision",
-   "likes": 508
+   "likes": 510
   }
  ],
  "free": [
@@ -751,6 +727,13 @@
  },
  "headlines": [
   {
+   "t": "Pathos AI, which uses AI to develop oncology drugs, raised a $237M Series E at a $3B post-money valuation, up from a $1.6B valuation in May 2025",
+   "url": "https://www.techmeme.com/261023/p9#a261023p9",
+   "at": "2026-10-23T12:40:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "An interview with Intel's leadership, including CTO Pushkar Ranade, on AI chip demand, lessons from 10nm, whether Intel can catch up to TSMC, Terafab, and more",
    "url": "https://www.techmeme.com/261023/p8#a261023p8",
    "at": "2026-10-23T11:45:14.000Z",
@@ -807,6 +790,34 @@
    "kind": "News"
   },
   {
+   "t": "Websites down: what is PHP and how has it raised AI hacking fears?",
+   "url": "https://www.thestar.com.my/tech/tech-news/2026/10/23/websites-down-what-is-php-and-how-has-it-raised-ai-hacking-fears",
+   "at": "2026-10-23T01:00:00Z",
+   "src": "The Star",
+   "kind": "News"
+  },
+  {
+   "t": "China AI Model Stocks’ $150 Billion Drop Shows No Sign of Easing",
+   "url": "https://www.livemint.com/market/china-ai-model-stocks-150-billion-drop-shows-no-sign-of-easing-11792716837317.html",
+   "at": "2026-10-23T00:53:56Z",
+   "src": "Livemint",
+   "kind": "News"
+  },
+  {
+   "t": "Report: OpenAI closing on $30B 'bridge' funding round to tide it over before IPO",
+   "url": "https://siliconangle.com/2026/10/22/report-openai-closing-on-30b-bridge-funding-round-to-tide-it-over-before-ipo/",
+   "at": "2026-10-23T00:47:28Z",
+   "src": "SiliconANGLE News",
+   "kind": "News"
+  },
+  {
+   "t": "can artificial intelligence win literary prizes?",
+   "url": "https://indianexpress.com/article/opinion/editorials/ai-written-books-literary-awards-10932899/",
+   "at": "2026-10-23T00:45:20Z",
+   "src": "The Indian Express",
+   "kind": "News"
+  },
+  {
    "t": "Stock Futures Are Little Changed After Nasdaq Drops Nearly 700 Points",
    "url": "https://markets.businessinsider.com/news/stocks/stock-futures-are-little-changed-after-nasdaq-drops-nearly-700-points-1036657561",
    "at": "2026-10-23T00:20:58Z",
@@ -826,41 +837,6 @@
    "at": "2026-10-23T00:06:36Z",
    "src": "Crypto Breaking News",
    "kind": "News"
-  },
-  {
-   "t": "I let a local LLM control my Home Assistant automations, and it took a wrong turn before I added guardrails",
-   "url": "https://www.xda-developers.com/local-llm-control-home-assistant-automations-wrong-turn-added-guardrails/",
-   "at": "2026-10-23T00:00:20Z",
-   "src": "XDA Developers",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI and Poland’s NASK partner to advance AI safety and security",
-   "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
-   "at": "2026-10-23T00:00:00.000Z",
-   "src": "OpenAI",
-   "kind": "Lab blog"
-  },
-  {
-   "t": "Nvidia boss criticises 'cheap' AI doomsday warnings",
-   "url": "https://www.thestar.com.my/tech/tech-news/2026/10/23/nvidia-boss-criticises-039cheap039-ai-doomsday-warnings",
-   "at": "2026-10-23T00:00:00Z",
-   "src": "The Star",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI's Own AI Agents Disabled Safety Monitoring Systems During Coding Tasks, One Even Denied Doing So",
-   "url": "https://wccftech.com/openais-own-ai-agents-disabled-safety-monitoring-systems-during-coding-tasks-one-even-denied-doing-so/",
-   "at": "2026-10-23T00:00:00Z",
-   "src": "Wccftech",
-   "kind": "News"
-  },
-  {
-   "t": "What’s likely to move the market",
-   "url": "https://www.cnbc.com/2026/10/22/fridays-big-stock-stories-whats-likely-to-move-the-market.html",
-   "at": "2026-10-22T23:26:43Z",
-   "src": "CNBC",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -869,8 +845,8 @@
    "t": "Swedish government offices to ban ChatGPT and Claude",
    "url": "https://news.ycombinator.com/item?id=50207405",
    "link": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
-   "up": 46,
-   "com": 17,
+   "up": 91,
+   "com": 41,
    "at": "2026-10-23T11:39:54.000Z"
   },
   {
@@ -878,8 +854,8 @@
    "t": "LLMs are making formal software verification feasible at a much larger scale",
    "url": "https://news.ycombinator.com/item?id=50202217",
    "link": "https://www.anthropic.com/research/formal-verification",
-   "up": 370,
-   "com": 225,
+   "up": 375,
+   "com": 228,
    "at": "2026-10-22T22:54:43.000Z"
   },
   {
@@ -887,8 +863,8 @@
    "t": "Every AI model has the same \"controversial\" take on humans",
    "url": "https://news.ycombinator.com/item?id=50197313",
    "link": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
-   "up": 476,
-   "com": 480,
+   "up": 492,
+   "com": 497,
    "at": "2026-10-22T16:08:00.000Z"
   },
   {
@@ -896,8 +872,8 @@
    "t": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
    "url": "https://news.ycombinator.com/item?id=50198675",
    "link": "https://github.com/NVIDIA/OpenShell",
-   "up": 424,
-   "com": 197,
+   "up": 429,
+   "com": 198,
    "at": "2026-10-22T17:44:06.000Z"
   },
   {
@@ -905,8 +881,8 @@
    "t": "Run full iOS 16.5 firmware on Android Devices",
    "url": "https://news.ycombinator.com/item?id=50196718",
    "link": "https://github.com/oosexgang/hackios-xnu-kernel",
-   "up": 460,
-   "com": 170,
+   "up": 466,
+   "com": 172,
    "at": "2026-10-22T15:26:22.000Z"
   },
   {
@@ -914,8 +890,8 @@
    "t": "The same AI request emits 8.5 times more CO2 in Texas than in Sweden",
    "url": "https://news.ycombinator.com/item?id=50205229",
    "link": "https://berget.ai/en/blog/per-request-co2-press-release",
-   "up": 124,
-   "com": 135,
+   "up": 127,
+   "com": 137,
    "at": "2026-10-23T06:41:11.000Z"
   }
  ]
