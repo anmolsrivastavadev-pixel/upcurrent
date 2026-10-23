@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-23T14:30:57.870Z"
+  "updated": "2026-10-23T15:01:10.972Z"
  },
  "pulse": {
   "trending": 77,
-  "accelerating": 2,
+  "accelerating": 3,
   "newModels": 11,
   "discussions": 45,
-  "stars": 784
+  "stars": 798
  },
  "rising": [
   {
@@ -22,7 +22,7 @@
    "cat": "LLMs",
    "score": 94,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 627",
+   "desc": "Model on Hugging Face · open source · ♥ 634",
    "meta": [
     "1.9K downloads",
     "Released 2 days ago"
@@ -36,12 +36,12 @@
    "owner": "deepseek-ai",
    "src": "hf",
    "cat": "Vision",
-   "score": 93,
+   "score": 92,
    "grow": 11,
    "desc": "Vision on Hugging Face · open source · ♥ 2.5K",
    "meta": [
     "58K downloads",
-    "Released 6 days ago"
+    "Released 7 days ago"
    ],
    "at": "2026-10-17T02:40:38.000Z",
    "breakout": null,
@@ -69,33 +69,16 @@
    "src": "gh",
    "cat": "Agents",
    "score": 88,
-   "grow": 4,
+   "grow": 5,
    "desc": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
    "meta": [
-    "★ 1,511",
-    "+124 in 24h",
+    "★ 1,515",
+    "+127 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-18T12:19:27Z",
    "breakout": null,
    "url": "https://github.com/alchaincyf/huashu-motion"
-  },
-  {
-   "name": "tv-detox",
-   "owner": "Ansub",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 86,
-   "grow": 4,
-   "desc": "Make an old Android TV fast again with Claude Code or Codex: a tiny ad-free home screen plus the prompt to clean it up",
-   "meta": [
-    "★ 1,343",
-    "+97 in 24h",
-    "Created 5 days ago"
-   ],
-   "at": "2026-10-18T06:42:29Z",
-   "breakout": null,
-   "url": "https://github.com/Ansub/tv-detox"
   },
   {
    "name": "MOSS-Image-SFT",
@@ -104,7 +87,7 @@
    "cat": "Vision",
    "score": 86,
    "grow": 11,
-   "desc": "Vision on Hugging Face · open source · ♥ 624",
+   "desc": "Vision on Hugging Face · open source · ♥ 625",
    "meta": [
     "7.7K downloads",
     "Released 12 days ago"
@@ -119,8 +102,8 @@
    "src": "hf",
    "cat": "LLMs",
    "score": 86,
-   "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 392",
+   "grow": 120,
+   "desc": "Model on Hugging Face · open source · ♥ 393",
    "meta": [
     "1.1K downloads",
     "Released 4 days ago"
@@ -128,6 +111,40 @@
    "at": "2026-10-19T03:19:51.000Z",
    "breakout": null,
    "url": "https://huggingface.co/XHToken/Spark-X2.6-4B"
+  },
+  {
+   "name": "leanrea",
+   "owner": "aicodeking",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 85,
+   "grow": 21,
+   "desc": "One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper.",
+   "meta": [
+    "★ 1,653",
+    "+502 in 24h",
+    "Created 7 days ago"
+   ],
+   "at": "2026-10-17T02:53:24Z",
+   "breakout": null,
+   "url": "https://github.com/aicodeking/leanrea"
+  },
+  {
+   "name": "tv-detox",
+   "owner": "Ansub",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 85,
+   "grow": 4,
+   "desc": "Make an old Android TV fast again with Claude Code or Codex: a tiny ad-free home screen plus the prompt to clean it up",
+   "meta": [
+    "★ 1,345",
+    "+97 in 24h",
+    "Created 5 days ago"
+   ],
+   "at": "2026-10-18T06:42:29Z",
+   "breakout": null,
+   "url": "https://github.com/Ansub/tv-detox"
   },
   {
    "name": "WeVisOne-VL: Unified Visual Perception from Objects to Pixels",
@@ -139,7 +156,7 @@
    "grow": null,
    "desc": "Existing vision-language models (VLMs) remain unreliable for fine-grained visual perception.",
    "meta": [
-    "▲ 212 upvotes",
+    "▲ 213 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-21T20:00:00.000Z",
@@ -161,23 +178,6 @@
    ],
    "at": "2026-10-22T07:01:00Z",
    "breakout": null
-  },
-  {
-   "name": "leanrea",
-   "owner": "aicodeking",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 84,
-   "grow": 19,
-   "desc": "One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper.",
-   "meta": [
-    "★ 1,634",
-    "+486 in 24h",
-    "Created 6 days ago"
-   ],
-   "at": "2026-10-17T02:53:24Z",
-   "breakout": null,
-   "url": "https://github.com/aicodeking/leanrea"
   }
  ],
  "breakouts": [],
@@ -186,8 +186,8 @@
    "name": "leanrea",
    "url": "https://github.com/aicodeking/leanrea",
    "from": "GitHub",
-   "use": 486,
-   "useLabel": "+486 stars/day",
+   "use": 502,
+   "useLabel": "+502 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -301,17 +301,17 @@
  "github": [
   {
    "repo": "aicodeking/leanrea",
-   "stars": 1634,
-   "d24": 486,
+   "stars": 1653,
+   "d24": 502,
    "est": false,
-   "forks": 248,
+   "forks": 252,
    "contrib": null,
-   "score": 84
+   "score": 85
   },
   {
    "repo": "alchaincyf/huashu-motion",
-   "stars": 1511,
-   "d24": 124,
+   "stars": 1515,
+   "d24": 127,
    "est": false,
    "forks": 147,
    "contrib": null,
@@ -319,17 +319,17 @@
   },
   {
    "repo": "Ansub/tv-detox",
-   "stars": 1343,
+   "stars": 1345,
    "d24": 97,
    "est": false,
-   "forks": 135,
+   "forks": 136,
    "contrib": null,
-   "score": 86
+   "score": 85
   },
   {
    "repo": "reason-machines/reason-network",
    "stars": 1122,
-   "d24": 77,
+   "d24": 72,
    "est": false,
    "forks": 92,
    "contrib": null,
@@ -346,7 +346,7 @@
    "grow": null,
    "score": 94,
    "cat": "LLMs",
-   "likes": 627
+   "likes": 634
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -355,9 +355,9 @@
    "at": "2026-10-17T02:40:38.000Z",
    "dl": 57715,
    "grow": 11,
-   "score": 93,
+   "score": 92,
    "cat": "Vision",
-   "likes": 2499
+   "likes": 2505
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -368,7 +368,7 @@
    "grow": null,
    "score": 89,
    "cat": "Vision",
-   "likes": 1357
+   "likes": 1363
   },
   {
    "name": "MOSS-Image-SFT",
@@ -379,7 +379,7 @@
    "grow": 11,
    "score": 86,
    "cat": "Vision",
-   "likes": 624
+   "likes": 625
   },
   {
    "name": "Spark-X2.6-4B",
@@ -388,10 +388,10 @@
    "lic": "Open source",
    "at": "2026-10-19T03:19:51.000Z",
    "dl": 1060,
-   "grow": null,
+   "grow": 120,
    "score": 86,
    "cat": "LLMs",
-   "likes": 392
+   "likes": 393
   },
   {
    "name": "MOSS-Image-Base",
@@ -774,10 +774,38 @@
    "kind": "News"
   },
   {
+   "t": "AI scoring tool may guide skin biopsy decision",
+   "url": "https://www.news-medical.net/news/20261022/AI-scoring-tool-may-guide-skin-biopsy-decision.aspx",
+   "at": "2026-10-23T02:56:00Z",
+   "src": "News-Medical.net",
+   "kind": "News"
+  },
+  {
+   "t": "Globe Business brings the autonomous enterprise to life with interactive tech zones",
+   "url": "https://www.marketing-interactive.com/globe-business-brings-the-autonomous-enterprise-to-life-with-interactive-tech-zones",
+   "at": "2026-10-23T02:54:40Z",
+   "src": "Marketing Interactive",
+   "kind": "News"
+  },
+  {
    "t": "OpenAI suspected the three fired researchers of leaking internal model designs to AI safety researcher Ryan Greenblatt, including via disappearing Signal chats",
    "url": "https://www.techmeme.com/261022/p61#a261022p61",
    "at": "2026-10-23T02:50:50.000Z",
    "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Websites go dark as AI exposes critical security flaws",
+   "url": "https://www.breitbart.com/news/websites-go-dark-worldwide-as-ai-exposes-critical-security-flaws/",
+   "at": "2026-10-23T02:45:32Z",
+   "src": "Breitbart News Network",
+   "kind": "News"
+  },
+  {
+   "t": "Why US banks, including JPMorgan and Morgan Stanley, are blocking AI agents from customer accounts",
+   "url": "https://timesofindia.indiatimes.com/world/us/why-us-banks-including-jpmorgan-and-morgan-stanley-are-blocking-ai-agents-from-customer-accounts/articleshow/135131817.cms",
+   "at": "2026-10-23T02:41:00Z",
+   "src": "Times of India",
    "kind": "News"
   },
   {
@@ -793,34 +821,6 @@
    "at": "2026-10-23T02:19:17Z",
    "src": "Livemint",
    "kind": "News"
-  },
-  {
-   "t": "Google’s Ex-CEO Eric Schmidt sees China behind the US in the AI race by at least 6 months, but is still impressed by Chinese …",
-   "url": "https://timesofindia.indiatimes.com/technology/tech-news/googles-ex-ceo-eric-schmidt-sees-china-behind-the-us-in-the-ai-race-by-at-least-6-months-but-is-still-impressed-by-chinese-/articleshow/135131842.cms",
-   "at": "2026-10-23T02:18:00Z",
-   "src": "Times of India",
-   "kind": "News"
-  },
-  {
-   "t": "Dragon enters bear cave with $2.4 trillion lost since May peak",
-   "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/dragon-enters-bear-cave-with-2-4-trillion-lost-since-may-peak/articleshow/135131775.cms",
-   "at": "2026-10-23T02:15:00Z",
-   "src": "The Economic Times",
-   "kind": "News"
-  },
-  {
-   "t": "Kazakhstan Expands Compute for Its AI Future",
-   "url": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem/",
-   "at": "2026-10-23T02:00:13.000Z",
-   "src": "NVIDIA",
-   "kind": "Lab blog"
-  },
-  {
-   "t": "AI just found a giant hole in PHP, and the internet is scrambling",
-   "url": "https://www.malaymail.com/news/tech-gadgets/2026/10/23/ai-just-found-a-giant-hole-in-php-and-the-internet-is-scrambling/240248",
-   "at": "2026-10-23T01:49:00Z",
-   "src": "Malay Mail",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -829,8 +829,8 @@
    "t": "Swedish government offices to ban ChatGPT and Claude",
    "url": "https://news.ycombinator.com/item?id=50207405",
    "link": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
-   "up": 197,
-   "com": 80,
+   "up": 228,
+   "com": 86,
    "at": "2026-10-23T11:39:54.000Z"
   },
   {
@@ -838,8 +838,8 @@
    "t": "OpenSSL 4.1.0",
    "url": "https://news.ycombinator.com/item?id=50208099",
    "link": "https://github.com/openssl/openssl/releases/tag/openssl-4.1.0",
-   "up": 76,
-   "com": 11,
+   "up": 91,
+   "com": 15,
    "at": "2026-10-23T12:42:44.000Z"
   },
   {
@@ -847,8 +847,8 @@
    "t": "LLMs are making formal software verification feasible at a much larger scale",
    "url": "https://news.ycombinator.com/item?id=50202217",
    "link": "https://www.anthropic.com/research/formal-verification",
-   "up": 383,
-   "com": 238,
+   "up": 389,
+   "com": 239,
    "at": "2026-10-22T22:54:43.000Z"
   },
   {
@@ -856,8 +856,8 @@
    "t": "Every AI model has the same \"controversial\" take on humans",
    "url": "https://news.ycombinator.com/item?id=50197313",
    "link": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
-   "up": 528,
-   "com": 522,
+   "up": 537,
+   "com": 531,
    "at": "2026-10-22T16:08:00.000Z"
   },
   {
@@ -865,8 +865,8 @@
    "t": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
    "url": "https://news.ycombinator.com/item?id=50198675",
    "link": "https://github.com/NVIDIA/OpenShell",
-   "up": 445,
-   "com": 202,
+   "up": 452,
+   "com": 203,
    "at": "2026-10-22T17:44:06.000Z"
   },
   {
@@ -874,7 +874,7 @@
    "t": "Run full iOS 16.5 firmware on Android Devices",
    "url": "https://news.ycombinator.com/item?id=50196718",
    "link": "https://github.com/oosexgang/hackios-xnu-kernel",
-   "up": 476,
+   "up": 479,
    "com": 177,
    "at": "2026-10-22T15:26:22.000Z"
   }
