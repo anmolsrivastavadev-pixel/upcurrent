@@ -5,32 +5,16 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-23T06:30:53.953Z"
+  "updated": "2026-10-23T07:01:05.205Z"
  },
  "pulse": {
   "trending": 78,
   "accelerating": 0,
   "newModels": 14,
-  "discussions": 41,
-  "stars": 1947
+  "discussions": 38,
+  "stars": 1997
  },
  "rising": [
-  {
-   "name": "flint",
-   "owner": "RecursiveSI",
-   "src": "hf",
-   "cat": "LLMs",
-   "score": 95,
-   "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 580",
-   "meta": [
-    "420 downloads",
-    "Released 2 days ago"
-   ],
-   "at": "2026-10-21T14:20:58.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/RecursiveSI/flint"
-  },
   {
    "name": "free-my-tv",
    "owner": "simbasjungles",
@@ -40,8 +24,8 @@
    "grow": null,
    "desc": "A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo.",
    "meta": [
-    "★ 3,575",
-    "~1,033 in 24h",
+    "★ 3,588",
+    "~1,031 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-19T19:29:01Z",
@@ -49,12 +33,28 @@
    "url": "https://github.com/simbasjungles/free-my-tv"
   },
   {
+   "name": "flint",
+   "owner": "RecursiveSI",
+   "src": "hf",
+   "cat": "LLMs",
+   "score": 94,
+   "grow": 0,
+   "desc": "Model on Hugging Face · open source · ♥ 584",
+   "meta": [
+    "420 downloads",
+    "Released 2 days ago"
+   ],
+   "at": "2026-10-21T14:20:58.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/RecursiveSI/flint"
+  },
+  {
    "name": "DeepSeek-V4.1-Flash-1017",
    "owner": "deepseek-ai",
    "src": "hf",
    "cat": "Vision",
    "score": 93,
-   "grow": 0,
+   "grow": null,
    "desc": "Vision on Hugging Face · open source · ♥ 2.4K",
    "meta": [
     "52K downloads",
@@ -89,7 +89,7 @@
    "grow": null,
    "desc": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
    "meta": [
-    "★ 1,473",
+    "★ 1,482",
     "~310 in 24h",
     "Created 5 days ago"
    ],
@@ -106,7 +106,7 @@
    "grow": null,
    "desc": "Make an old Android TV fast again with Claude Code or Codex: a tiny ad-free home screen plus the prompt to clean it up",
    "meta": [
-    "★ 1,313",
+    "★ 1,316",
     "~263 in 24h",
     "Created 5 days ago"
    ],
@@ -121,7 +121,7 @@
    "cat": "Vision",
    "score": 86,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open source · ♥ 600",
+   "desc": "Vision on Hugging Face · open source · ♥ 602",
    "meta": [
     "6.9K downloads",
     "Released 12 days ago"
@@ -129,6 +129,22 @@
    "at": "2026-10-11T07:01:17.000Z",
    "breakout": null,
    "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT"
+  },
+  {
+   "name": "Spark-X2.6-4B",
+   "owner": "XHToken",
+   "src": "hf",
+   "cat": "LLMs",
+   "score": 85,
+   "grow": 0,
+   "desc": "Model on Hugging Face · open source · ♥ 358",
+   "meta": [
+    "482 downloads",
+    "Released 4 days ago"
+   ],
+   "at": "2026-10-19T03:19:51.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/XHToken/Spark-X2.6-4B"
   },
   {
    "name": "Deep Search in Real-World Web Environments",
@@ -140,7 +156,7 @@
    "grow": null,
    "desc": "Despite substantial progress in Deep Search agents, their ability to conduct end-to-end research in real-world open Web environments remains insufficiently evaluated.",
    "meta": [
-    "▲ 82 upvotes",
+    "▲ 90 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-18T20:00:00.000Z",
@@ -157,27 +173,11 @@
    "desc": "Your deadline survival kit for office work",
    "meta": [
     "▲ 330 votes",
-    "71 comments",
-    "Launched 23h ago"
+    "73 comments",
+    "Launched yesterday"
    ],
    "at": "2026-10-22T07:01:00Z",
    "breakout": null
-  },
-  {
-   "name": "MOSS-Image-Base",
-   "owner": "OpenMOSS-Team",
-   "src": "hf",
-   "cat": "Vision",
-   "score": 84,
-   "grow": 0,
-   "desc": "Vision on Hugging Face · open source · ♥ 499",
-   "meta": [
-    "5K downloads",
-    "Released 12 days ago"
-   ],
-   "at": "2026-10-11T06:49:17.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-Base"
   }
  ],
  "breakouts": [],
@@ -208,8 +208,8 @@
    "name": "free-my-tv",
    "url": "https://github.com/simbasjungles/free-my-tv",
    "from": "GitHub",
-   "use": 1033,
-   "useLabel": "~1,033 stars/day",
+   "use": 1031,
+   "useLabel": "~1,031 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -239,6 +239,16 @@
   }
  ],
  "receipts": [
+  {
+   "name": "hujjun/mcd-saver-strategist",
+   "url": "https://github.com/hujjun/mcd-saver-strategist",
+   "kind": "stars",
+   "first": "2026-10-23T00:01:07.549Z",
+   "firstV": 990,
+   "m": 1000,
+   "at": "2026-10-23T07:01:05.205Z",
+   "lead": 6.999348888888889
+  },
   {
    "name": "Folkbench/folkbench",
    "url": "https://github.com/Folkbench/folkbench",
@@ -308,40 +318,30 @@
    "m": 1000000,
    "at": "2026-10-21T10:31:03.309Z",
    "lead": 77.00370138888889
-  },
-  {
-   "name": "lodestones/Kromoss",
-   "url": "https://huggingface.co/lodestones/Kromoss",
-   "kind": "downloads",
-   "first": "2026-10-20T09:30:59.658Z",
-   "firstV": 264,
-   "m": 10000,
-   "at": "2026-10-21T10:31:03.309Z",
-   "lead": 25.001014166666668
   }
  ],
  "github": [
   {
    "repo": "simbasjungles/free-my-tv",
-   "stars": 3575,
-   "d24": 1033,
+   "stars": 3588,
+   "d24": 1031,
    "est": true,
-   "forks": 511,
+   "forks": 512,
    "contrib": null,
    "score": 94
   },
   {
    "repo": "alchaincyf/huashu-motion",
-   "stars": 1473,
+   "stars": 1482,
    "d24": 310,
    "est": true,
-   "forks": 143,
+   "forks": 144,
    "contrib": null,
    "score": 87
   },
   {
    "repo": "Ansub/tv-detox",
-   "stars": 1313,
+   "stars": 1316,
    "d24": 263,
    "est": true,
    "forks": 132,
@@ -350,18 +350,18 @@
   },
   {
    "repo": "aicodeking/leanrea",
-   "stars": 1399,
-   "d24": 227,
+   "stars": 1410,
+   "d24": 228,
    "est": true,
-   "forks": 209,
+   "forks": 211,
    "contrib": null,
    "score": 81
   },
   {
    "repo": "reason-machines/reason-network",
-   "stars": 1094,
-   "d24": 114,
-   "est": false,
+   "stars": 1098,
+   "d24": 165,
+   "est": true,
    "forks": 89,
    "contrib": null,
    "score": 76
@@ -375,9 +375,9 @@
    "at": "2026-10-21T14:20:58.000Z",
    "dl": 420,
    "grow": 0,
-   "score": 95,
+   "score": 94,
    "cat": "LLMs",
-   "likes": 580
+   "likes": 584
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -385,10 +385,10 @@
    "lic": "Open source",
    "at": "2026-10-17T02:40:38.000Z",
    "dl": 51911,
-   "grow": 0,
+   "grow": null,
    "score": 93,
    "cat": "Vision",
-   "likes": 2414
+   "likes": 2420
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -399,7 +399,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Vision",
-   "likes": 1323
+   "likes": 1325
   },
   {
    "name": "MOSS-Image-SFT",
@@ -410,7 +410,19 @@
    "grow": 0,
    "score": 86,
    "cat": "Vision",
-   "likes": 600
+   "likes": 602
+  },
+  {
+   "name": "Spark-X2.6-4B",
+   "org": "XHToken",
+   "size": "4B",
+   "lic": "Open source",
+   "at": "2026-10-19T03:19:51.000Z",
+   "dl": 482,
+   "grow": 0,
+   "score": 85,
+   "cat": "LLMs",
+   "likes": 358
   },
   {
    "name": "MOSS-Image-Base",
@@ -421,18 +433,7 @@
    "grow": 0,
    "score": 84,
    "cat": "Vision",
-   "likes": 499
-  },
-  {
-   "name": "MOSS-Image",
-   "org": "Comfy-Org",
-   "lic": "Open source",
-   "at": "2026-10-16T12:42:32.000Z",
-   "dl": 1463386,
-   "grow": 0,
-   "score": 84,
-   "cat": "Vision",
-   "likes": 376
+   "likes": 500
   }
  ],
  "free": [
@@ -832,32 +833,32 @@
    "kind": "Lab blog"
   },
   {
-   "t": "Pa. ‘influencer’ sentenced to jail for stalking, harassing women",
-   "url": "https://www.pennlive.com/crime/2026/10/pa-influencer-sentenced-to-jail-for-stalking-harassing-women.html",
-   "at": "2026-10-22T18:19:27Z",
-   "src": "Mechanicsburg Patriot News ",
+   "t": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
+   "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
+   "at": "2026-10-22T19:00:00Z",
+   "src": "TechCrunch",
    "kind": "News"
   },
   {
-   "t": "year yield falls below 5% as investors flock to havens",
-   "url": "https://www.cnbctv18.com/market/us-10-year-yield-falls-below-5-as-investors-flock-to-havens-20017473.htm",
-   "at": "2026-10-22T18:02:46Z",
-   "src": "CNBC TV18",
+   "t": "Canva reveals new AI image tool in race against Google and OpenAI",
+   "url": "https://www.afr.com/technology/canva-reveals-new-ai-image-tool-as-it-races-to-beat-google-openai-20261023-p617xj",
+   "at": "2026-10-22T19:00:00Z",
+   "src": "Australian Financial Review",
    "kind": "News"
   },
   {
-   "t": "The PHP internet crisis could just be the beginning",
-   "url": "https://www.youtube.com/watch?v=BpyQtylJqnE",
-   "at": "2026-10-22T18:00:37Z",
-   "src": "Sky News",
-   "kind": "Video"
+   "t": "Former OpenAI science lead launches Warp Science to automate wet labs with robots",
+   "url": "https://techcrunch.com/2026/10/22/former-openai-science-lead-launches-warp-science-to-automate-wet-labs-with-robots/",
+   "at": "2026-10-22T18:38:47Z",
+   "src": "TechCrunch",
+   "kind": "News"
   },
   {
-   "t": "A flaw in PHP is taking down websites. Is the internet at risk? | BBC News",
-   "url": "https://www.youtube.com/watch?v=Ubl1mxoYe64",
-   "at": "2026-10-22T17:47:26Z",
-   "src": "BBC News",
-   "kind": "Video"
+   "t": "AI agents accessing US bank accounts is budding 'nightmare' for banking industry: report",
+   "url": "https://nypost.com/2026/10/22/business/ai-agents-accessing-us-bank-accounts-is-budding-nightmare-for-banking-industry-report/",
+   "at": "2026-10-22T18:38:41Z",
+   "src": "New York Post",
+   "kind": "News"
   }
  ],
  "discussions": [
@@ -866,8 +867,8 @@
    "t": "LLMs are making formal software verification feasible at a much larger scale",
    "url": "https://news.ycombinator.com/item?id=50202217",
    "link": "https://www.anthropic.com/research/formal-verification",
-   "up": 262,
-   "com": 146,
+   "up": 289,
+   "com": 157,
    "at": "2026-10-22T22:54:43.000Z"
   },
   {
@@ -875,7 +876,7 @@
    "t": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
    "url": "https://news.ycombinator.com/item?id=50198675",
    "link": "https://github.com/NVIDIA/OpenShell",
-   "up": 358,
+   "up": 366,
    "com": 187,
    "at": "2026-10-22T17:44:06.000Z"
   },
@@ -884,7 +885,7 @@
    "t": "Run full iOS 16.5 firmware on Android Devices",
    "url": "https://news.ycombinator.com/item?id=50196718",
    "link": "https://github.com/oosexgang/hackios-xnu-kernel",
-   "up": 386,
+   "up": 396,
    "com": 137,
    "at": "2026-10-22T15:26:22.000Z"
   },
@@ -893,8 +894,8 @@
    "t": "Every AI model has the same \"controversial\" take on humans",
    "url": "https://news.ycombinator.com/item?id=50197313",
    "link": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
-   "up": 336,
-   "com": 369,
+   "up": 353,
+   "com": 382,
    "at": "2026-10-22T16:08:00.000Z"
   },
   {
@@ -902,8 +903,8 @@
    "t": "What’s getting pwned right now",
    "url": "https://news.ycombinator.com/item?id=50195543",
    "link": "https://pwn.watch/",
-   "up": 359,
-   "com": 164,
+   "up": 361,
+   "com": 165,
    "at": "2026-10-22T14:08:12.000Z"
   },
   {
@@ -911,8 +912,8 @@
    "t": "Getting ready to operate GNU Taler in Germany",
    "url": "https://news.ycombinator.com/item?id=50197404",
    "link": "https://www.taler.net/en/news/2026-13.html",
-   "up": 251,
-   "com": 101,
+   "up": 261,
+   "com": 105,
    "at": "2026-10-22T16:14:31.000Z"
   }
  ]
