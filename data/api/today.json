@@ -5,13 +5,13 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-24T22:30:51.284Z"
+  "updated": "2026-10-24T23:01:04.997Z"
  },
  "pulse": {
   "trending": 75,
-  "accelerating": 7,
+  "accelerating": 6,
   "newModels": 11,
-  "discussions": 33,
+  "discussions": 24,
   "stars": 718
  },
  "rising": [
@@ -22,7 +22,7 @@
    "cat": "LLMs",
    "score": 94,
    "grow": 152,
-   "desc": "Model on Hugging Face · open source · ♥ 768",
+   "desc": "Model on Hugging Face · open source · ♥ 770",
    "meta": [
     "4.8K downloads",
     "Released 3 days ago"
@@ -56,7 +56,7 @@
    "grow": null,
    "desc": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
    "meta": [
-    "★ 1,081",
+    "★ 1,087",
     "~249 in 24h",
     "Created 4 days ago"
    ],
@@ -87,7 +87,7 @@
    "cat": "LLMs",
    "score": 87,
    "grow": 139,
-   "desc": "Model on Hugging Face · open source · ♥ 442",
+   "desc": "Model on Hugging Face · open source · ♥ 443",
    "meta": [
     "2.5K downloads",
     "Released 6 days ago"
@@ -103,7 +103,7 @@
    "cat": "Vision",
    "score": 86,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open source · ♥ 685",
+   "desc": "Vision on Hugging Face · open source · ♥ 686",
    "meta": [
     "9.7K downloads",
     "Released 14 days ago"
@@ -317,10 +317,10 @@
  "github": [
   {
    "repo": "Jakeschincariol/day-trader-skill",
-   "stars": 1081,
+   "stars": 1087,
    "d24": 249,
    "est": true,
-   "forks": 249,
+   "forks": 251,
    "contrib": null,
    "score": 88
   },
@@ -335,7 +335,7 @@
   },
   {
    "repo": "Ansub/tv-detox",
-   "stars": 1479,
+   "stars": 1483,
    "d24": 222,
    "est": true,
    "forks": 153,
@@ -353,7 +353,7 @@
    "grow": 152,
    "score": 94,
    "cat": "LLMs",
-   "likes": 768
+   "likes": 770
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -364,7 +364,7 @@
    "grow": 27,
    "score": 91,
    "cat": "Vision",
-   "likes": 2760
+   "likes": 2764
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -375,7 +375,7 @@
    "grow": 10,
    "score": 87,
    "cat": "Vision",
-   "likes": 1493
+   "likes": 1494
   },
   {
    "name": "Spark-X2.6-4B",
@@ -387,7 +387,7 @@
    "grow": 139,
    "score": 87,
    "cat": "LLMs",
-   "likes": 442
+   "likes": 443
   },
   {
    "name": "MOSS-Image-SFT",
@@ -398,7 +398,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Vision",
-   "likes": 685
+   "likes": 686
   },
   {
    "name": "drama-3",
@@ -752,17 +752,38 @@
    "kind": "News"
   },
   {
-   "t": "The end of data centres? Apple and Meta’s bet against the cloud | AI Decoded",
-   "url": "https://www.youtube.com/watch?v=2Q1UG9wYgc0",
-   "at": "2026-10-24T14:00:35Z",
-   "src": "BBC News",
-   "kind": "Video"
-  },
-  {
    "t": "The datacentre next door: on the frontline of tech’s latest David v Goliath battle",
    "url": "https://www.theguardian.com/technology/2026/oct/24/the-datacentre-next-door-on-the-frontline-of-techs-latest-david-v-goliath-battle",
    "at": "2026-10-24T11:00:32Z",
    "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "UK funds £100m AI biosecurity lab with OpenAI and Anthropic",
+   "url": "https://thenextweb.com/news/uk-funds-100m-ai-biosecurity-lab-with-openai-and-anthropic",
+   "at": "2026-10-24T10:59:22Z",
+   "src": "TNW",
+   "kind": "News"
+  },
+  {
+   "t": "Parliamentary Committee On Finance To Examine 46 Economic Issues, Including Crypto, AI In FY27",
+   "url": "https://www.ndtvprofit.com/india/parliamentary-committee-on-finance-to-examine-46-economic-issues-including-crypto-ai-in-fy27-12229785",
+   "at": "2026-10-24T10:53:00Z",
+   "src": "NDTV Profit",
+   "kind": "News"
+  },
+  {
+   "t": "AI tools may flag H-1B visa filings discrepancies as US immigration checks get more stringent",
+   "url": "https://timesofindia.indiatimes.com/world/us/ai-tools-may-flag-h-1b-visa-filings-discrepancies-as-us-immigration-checks-get-more-stringent/articleshow/135168275.cms",
+   "at": "2026-10-24T10:51:00Z",
+   "src": "Times of India",
+   "kind": "News"
+  },
+  {
+   "t": "OpenAI resumes frontier AI training after security overhaul, discloses flaw",
+   "url": "https://indianexpress.com/shorts/technology/artificial-intelligence/openai-resumes-ai-training-security-overhaul-brotli-flaw-10935166/",
+   "at": "2026-10-24T10:44:51Z",
+   "src": "The Indian Express",
    "kind": "News"
   },
   {
@@ -799,27 +820,6 @@
    "at": "2026-10-24T10:00:00Z",
    "src": "Spokane Spokesman-Review",
    "kind": "News"
-  },
-  {
-   "t": "Texan Senate Candidate Sues OpenAI Before Midterms, Accuses Altman Of 'Lying To Users And Harming Texans'",
-   "url": "https://www.ibtimes.com/texan-senate-candidate-sues-openai-before-midterms-accuses-altman-lying-users-harming-texans-3808959",
-   "at": "2026-10-24T09:57:26Z",
-   "src": "International Business Times",
-   "kind": "News"
-  },
-  {
-   "t": "Talking your language: UAE unveils AI tool designed to master Arabic dialects",
-   "url": "https://www.thenationalnews.com/news/uae/2026/10/24/talking-your-language-uae-unveils-ai-tool-designed-to-master-arabic-dialects/",
-   "at": "2026-10-24T09:57:25Z",
-   "src": "The National",
-   "kind": "News"
-  },
-  {
-   "t": "UK pledges more funding to guard against artificial intelligence risks",
-   "url": "https://www.marketscreener.com/news/uk-pledges-more-funding-to-guard-against-artificial-intelligence-risks-ce785cdfde89f225",
-   "at": "2026-10-24T09:54:17Z",
-   "src": "MarketScreener",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -828,54 +828,54 @@
    "t": "No signs of AI payoff outside the tech sector",
    "url": "https://news.ycombinator.com/item?id=50224463",
    "link": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
-   "up": 373,
-   "com": 354,
+   "up": 407,
+   "com": 374,
    "at": "2026-10-24T19:47:19.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "The Goose Programming Language",
-   "url": "https://news.ycombinator.com/item?id=50224300",
-   "link": "https://aardappel.github.io/goose/",
-   "up": 166,
-   "com": 1,
-   "at": "2026-10-24T19:27:41.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Elon Musk Just Gave Europe a Reason to Replace American Technology",
-   "url": "https://news.ycombinator.com/item?id=50220913",
-   "link": "https://steveblank.com/2026/10/24/europe-gets-a-wake-up-call/",
-   "up": 406,
-   "com": 433,
-   "at": "2026-10-24T13:09:28.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "The Goose Programming Language",
-   "url": "https://news.ycombinator.com/item?id=50224100",
-   "link": "https://aardappel.github.io/goose/",
-   "up": 134,
-   "com": 111,
-   "at": "2026-10-24T19:06:55.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Roku developer repositories moved from GitHub to GitLab",
-   "url": "https://news.ycombinator.com/item?id=50222622",
-   "link": "https://blog.roku.com/developer/gitlab-move",
-   "up": 225,
-   "com": 148,
-   "at": "2026-10-24T16:06:26.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Dream-1",
    "url": "https://news.ycombinator.com/item?id=50223785",
    "link": "https://dreamlabs.ai/research/dream-1/",
-   "up": 134,
-   "com": 67,
+   "up": 144,
+   "com": 69,
    "at": "2026-10-24T18:23:24.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Why is AI generated language so hard to understand?",
+   "url": "https://news.ycombinator.com/item?id=50223647",
+   "link": "https://arxiv.org/abs/2610.29162",
+   "up": 137,
+   "com": 133,
+   "at": "2026-10-24T18:04:57.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps",
+   "url": "https://news.ycombinator.com/item?id=50219177",
+   "link": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497",
+   "up": 262,
+   "com": 129,
+   "at": "2026-10-24T08:06:39.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "AI-Assisted Paper on Z-Library Cites a TorrentFreak Article That Doesn't Exist",
+   "url": "https://news.ycombinator.com/item?id=50220204",
+   "link": "https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist/",
+   "up": 93,
+   "com": 49,
+   "at": "2026-10-24T11:18:54.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Evolving Threat: http2shell is an RCE in Node, Python, and more",
+   "url": "https://news.ycombinator.com/item?id=50216791",
+   "link": "https://nitter.click/AikidoSecurity/status/2113759110625906950?__galadriel=lPmlGl9id4oAd5UeBwMhlYKArHyr6lR2IDGujPwB5HV2kQ1aLoPWFd5A9sGuzNcmrp8fUso8qygmHcKTDZ8MNHWqQ3bDJcycV87xp_0VypzQLYj6O_RRHlZuQqj33oASGY2YLSoAiMjeOZN40h7Stf8AG7DPrGZbAPVKUXy36HoMudRbvwF3_r2uYNmfJMhpKzywQDM6Ab8",
+   "up": 182,
+   "com": 97,
+   "at": "2026-10-23T23:30:17.000Z"
   }
  ]
 }
