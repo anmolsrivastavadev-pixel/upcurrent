@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-24T14:30:54.446Z"
+  "updated": "2026-10-24T15:01:06.728Z"
  },
  "pulse": {
   "trending": 74,
   "accelerating": 7,
   "newModels": 12,
-  "discussions": 34,
-  "stars": 160
+  "discussions": 36,
+  "stars": 164
  },
  "rising": [
   {
@@ -22,7 +22,7 @@
    "cat": "LLMs",
    "score": 95,
    "grow": 152,
-   "desc": "Model on Hugging Face · open source · ♥ 738",
+   "desc": "Model on Hugging Face · open source · ♥ 740",
    "meta": [
     "4.8K downloads",
     "Released 3 days ago"
@@ -36,12 +36,12 @@
    "owner": "deepseek-ai",
    "src": "hf",
    "cat": "Vision",
-   "score": 92,
+   "score": 91,
    "grow": 27,
    "desc": "Vision on Hugging Face · open source · ♥ 2.7K",
    "meta": [
     "73K downloads",
-    "Released 7 days ago"
+    "Released 8 days ago"
    ],
    "at": "2026-10-17T02:40:38.000Z",
    "breakout": null,
@@ -88,7 +88,7 @@
    "grow": 3,
    "desc": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
    "meta": [
-    "★ 1,579",
+    "★ 1,581",
     "+67 in 24h",
     "Created 6 days ago"
    ],
@@ -103,7 +103,7 @@
    "cat": "Vision",
    "score": 86,
    "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 674",
+   "desc": "Vision on Hugging Face · open source · ♥ 677",
    "meta": [
     "9.7K downloads",
     "Released 13 days ago"
@@ -152,7 +152,7 @@
    "cat": "Tools",
    "score": 83,
    "grow": 17,
-   "desc": "Model on Hugging Face · open weights · ♥ 964",
+   "desc": "Model on Hugging Face · open weights · ♥ 965",
    "meta": [
     "20K downloads",
     "Released 23 days ago"
@@ -171,7 +171,7 @@
    "grow": null,
    "desc": "We present IQuest-Q1, a sparse Mixture-of-Experts (MoE) agentic foundation model with 320B total parameters (15B activated).",
    "meta": [
-    "▲ 78 upvotes",
+    "▲ 81 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-21T20:00:00.000Z",
@@ -181,11 +181,28 @@
  "breakouts": [],
  "hype": [
   {
+   "name": "humanizer",
+   "url": "https://huggingface.co/jialinyyzz/humanizer",
+   "from": "Hugging Face",
+   "use": 138556,
+   "useLabel": "139K downloads",
+   "usePct": 0.8064516129032258,
+   "talk": [
+    {
+     "src": "DEV",
+     "t": "Humanizer has about 60,000 stars. On 12 public tasks my linter plugin scored 2.67 higher",
+     "url": "https://dev.to/efe_genc/humanizer-has-about-60000-stars-on-12-public-tasks-my-linter-plugin-scored-267-higher-2cdg"
+    }
+   ],
+   "buzz": 1,
+   "verdict": "The hype matches real use"
+  },
+  {
    "name": "tv-detox",
    "url": "https://github.com/Ansub/tv-detox",
    "from": "GitHub",
-   "use": 93,
-   "useLabel": "+93 stars/day",
+   "use": 97,
+   "useLabel": "+97 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -299,16 +316,16 @@
  "github": [
   {
    "repo": "Ansub/tv-detox",
-   "stars": 1437,
-   "d24": 93,
+   "stars": 1442,
+   "d24": 97,
    "est": false,
-   "forks": 149,
+   "forks": 151,
    "contrib": null,
    "score": 82
   },
   {
    "repo": "alchaincyf/huashu-motion",
-   "stars": 1579,
+   "stars": 1581,
    "d24": 67,
    "est": false,
    "forks": 155,
@@ -326,7 +343,7 @@
    "grow": 152,
    "score": 95,
    "cat": "LLMs",
-   "likes": 738
+   "likes": 740
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -335,9 +352,9 @@
    "at": "2026-10-17T02:40:38.000Z",
    "dl": 73215,
    "grow": 27,
-   "score": 92,
+   "score": 91,
    "cat": "Vision",
-   "likes": 2698
+   "likes": 2700
   },
   {
    "name": "Spark-X2.6-4B",
@@ -360,7 +377,7 @@
    "grow": 10,
    "score": 87,
    "cat": "Vision",
-   "likes": 1460
+   "likes": 1462
   },
   {
    "name": "MOSS-Image-SFT",
@@ -371,7 +388,7 @@
    "grow": null,
    "score": 86,
    "cat": "Vision",
-   "likes": 674
+   "likes": 677
   },
   {
    "name": "drama-3",
@@ -382,7 +399,7 @@
    "grow": 17,
    "score": 83,
    "cat": "Tools",
-   "likes": 964
+   "likes": 965
   }
  ],
  "free": [
@@ -683,6 +700,13 @@
  },
  "headlines": [
   {
+   "t": "Block unveils Dessa, a \"true speech-to-speech\" AI model trained on \"nothing but human conversation\" that it says runs locally on a MacBook Pro M4 Max or newer",
+   "url": "https://www.techmeme.com/261024/p5#a261024p5",
+   "at": "2026-10-24T14:30:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "The datacentre next door: on the frontline of tech’s latest David v Goliath battle",
    "url": "https://www.theguardian.com/technology/2026/oct/24/the-datacentre-next-door-on-the-frontline-of-techs-latest-david-v-goliath-battle",
    "at": "2026-10-24T11:00:32Z",
@@ -725,10 +749,24 @@
    "kind": "News"
   },
   {
+   "t": "SpaceX’s $40 billion AI debt plan faces market turmoil. Can investors stomach the growing borrowing risks?",
+   "url": "https://www.livemint.com/companies/news/spacexs-40-billion-ai-debt-plan-faces-market-turmoil-can-investors-stomach-the-growing-borrowing-risks-11792809682686.html",
+   "at": "2026-10-24T02:52:14Z",
+   "src": "Livemint",
+   "kind": "News"
+  },
+  {
    "t": "OpenAI resumes frontier AI training after security overhaul, discloses flaw in widely used software",
-   "url": "https://economictimes.indiatimes.com/ai/ai-insights/openai-resumes-frontier-ai-training-after-security-overhaul-discloses-flaw-in-widely-used-software/articleshow/135159680.cms",
-   "at": "2026-10-24T01:52:00Z",
-   "src": "The Economic Times",
+   "url": "https://www.rappler.com/technology/openai-resumes-frontier-ai-training-discloses-software-flaw/",
+   "at": "2026-10-24T02:43:41Z",
+   "src": "Rappler",
+   "kind": "News"
+  },
+  {
+   "t": "Indian-origin Cisco president discovers he spends $9,000 a year on subscriptions after asking AI to check his emails",
+   "url": "https://www.hindustantimes.com/trending/indianorigin-cisco-president-discovers-he-spends-9-000-a-year-on-subscriptions-after-asking-ai-to-check-his-emails-101792808591927.html",
+   "at": "2026-10-24T02:36:25Z",
+   "src": "Hindustan Times",
    "kind": "News"
   },
   {
@@ -772,27 +810,6 @@
    "at": "2026-10-24T00:48:00Z",
    "src": "The Star",
    "kind": "News"
-  },
-  {
-   "t": "Shalaan Umar is America’s Top Young Innovator 2026 as Young Inventors Earn Global Recognition for Breakthrough Innovations",
-   "url": "https://www.manilatimes.net/2026/10/24/tmt-newswire/globenewswire/shalaan-umar-is-americas-top-young-innovator-2026-as-young-inventors-earn-global-recognition-for-breakthrough-innovations/2453137",
-   "at": "2026-10-24T00:47:46Z",
-   "src": "The Manila Times",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI says it built an \"offline world\" from cached web content to train isolated frontier models to browse, search for information, and use web apps",
-   "url": "https://www.techmeme.com/261023/p25#a261023p25",
-   "at": "2026-10-24T00:30:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI resumes frontier AI training with enhanced security, no internet access",
-   "url": "https://www.thestar.com.my/tech/tech-news/2026/10/24/openai-resumes-frontier-ai-training-with-enhanced-security-no-internet-access",
-   "at": "2026-10-23T23:35:00Z",
-   "src": "The Star",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -801,8 +818,8 @@
    "t": "Elon Musk Just Gave Europe a Reason to Replace American Technology",
    "url": "https://news.ycombinator.com/item?id=50220913",
    "link": "https://steveblank.com/2026/10/24/europe-gets-a-wake-up-call/",
-   "up": 210,
-   "com": 189,
+   "up": 260,
+   "com": 255,
    "at": "2026-10-24T13:09:28.000Z"
   },
   {
@@ -810,8 +827,8 @@
    "t": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
    "url": "https://news.ycombinator.com/item?id=50212065",
    "link": "https://www.kimi.ai/blog/kimi-k3-1-pro",
-   "up": 987,
-   "com": 586,
+   "up": 995,
+   "com": 596,
    "at": "2026-10-23T16:59:08.000Z"
   },
   {
@@ -819,35 +836,35 @@
    "t": "Hacker reverses Samsung TV, finds on-board AI listening OpenAI account suspended",
    "url": "https://news.ycombinator.com/item?id=50218633",
    "link": "https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/",
-   "up": 329,
-   "com": 100,
+   "up": 353,
+   "com": 114,
    "at": "2026-10-24T05:49:57.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "OBS Studio 33",
-   "url": "https://news.ycombinator.com/item?id=50218430",
-   "link": "https://github.com/obsproject/obs-studio/releases/tag/33.0.0",
-   "up": 282,
-   "com": 82,
-   "at": "2026-10-24T04:49:58.000Z"
   },
   {
    "src": "Hacker News",
    "t": "One Must Fall 2097 Remastered",
    "url": "https://news.ycombinator.com/item?id=50221179",
    "link": "https://github.com/Jared-woodruff/OMF-2097-Remastered/",
-   "up": 22,
-   "com": 6,
+   "up": 39,
+   "com": 22,
    "at": "2026-10-24T13:47:07.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "OBS Studio 33",
+   "url": "https://news.ycombinator.com/item?id=50218430",
+   "link": "https://github.com/obsproject/obs-studio/releases/tag/33.0.0",
+   "up": 307,
+   "com": 93,
+   "at": "2026-10-24T04:49:58.000Z"
   },
   {
    "src": "Hacker News",
    "t": "AI-Assisted Paper on Z-Library Cites a TorrentFreak Article That Doesn't Exist",
    "url": "https://news.ycombinator.com/item?id=50220204",
    "link": "https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist/",
-   "up": 56,
-   "com": 14,
+   "up": 62,
+   "com": 20,
    "at": "2026-10-24T11:18:54.000Z"
   }
  ]
