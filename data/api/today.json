@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-25T01:30:50.191Z"
+  "updated": "2026-10-25T01:40:04.876Z"
  },
  "pulse": {
   "trending": 76,
-  "accelerating": 5,
+  "accelerating": 4,
   "newModels": 12,
   "discussions": 37,
-  "stars": 671
+  "stars": 445
  },
  "rising": [
   {
@@ -53,7 +53,7 @@
    "src": "hf",
    "cat": "LLMs",
    "score": 89,
-   "grow": 139,
+   "grow": null,
    "desc": "Model on Hugging Face · open source · ♥ 454",
    "meta": [
     "2.5K downloads",
@@ -72,8 +72,8 @@
    "grow": 9,
    "desc": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
    "meta": [
-    "★ 1,117",
-    "+338 in 24h",
+    "★ 1,119",
+    "+337 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-20T14:17:54Z",
@@ -135,11 +135,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 84,
-   "grow": null,
+   "grow": 0,
    "desc": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
    "meta": [
-    "★ 1,593",
-    "~243 in 24h",
+    "★ 1,594",
+    "+20 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-18T12:19:27Z",
@@ -202,8 +202,8 @@
    "name": "day-trader-skill",
    "url": "https://github.com/Jakeschincariol/day-trader-skill",
    "from": "GitHub",
-   "use": 338,
-   "useLabel": "+338 stars/day",
+   "use": 337,
+   "useLabel": "+337 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -317,30 +317,30 @@
  "github": [
   {
    "repo": "Jakeschincariol/day-trader-skill",
-   "stars": 1117,
-   "d24": 338,
+   "stars": 1119,
+   "d24": 337,
    "est": false,
    "forks": 255,
    "contrib": null,
    "score": 88
   },
   {
-   "repo": "alchaincyf/huashu-motion",
-   "stars": 1593,
-   "d24": 243,
-   "est": true,
-   "forks": 156,
-   "contrib": null,
-   "score": 84
-  },
-  {
    "repo": "Ansub/tv-detox",
    "stars": 1488,
-   "d24": 90,
+   "d24": 88,
    "est": false,
    "forks": 154,
    "contrib": null,
    "score": 81
+  },
+  {
+   "repo": "alchaincyf/huashu-motion",
+   "stars": 1594,
+   "d24": 20,
+   "est": false,
+   "forks": 157,
+   "contrib": null,
+   "score": 84
   }
  ],
  "models": [
@@ -364,7 +364,7 @@
    "grow": null,
    "score": 91,
    "cat": "Vision",
-   "likes": 2789
+   "likes": 2790
   },
   {
    "name": "Spark-X2.6-4B",
@@ -373,7 +373,7 @@
    "lic": "Open source",
    "at": "2026-10-19T03:19:51.000Z",
    "dl": 2537,
-   "grow": 139,
+   "grow": null,
    "score": 89,
    "cat": "LLMs",
    "likes": 454
@@ -759,6 +759,27 @@
    "kind": "Video"
   },
   {
+   "t": "Anwar says 'global investor' has chosen Malaysia for US$50bil tech sector investment",
+   "url": "https://www.thestar.com.my/news/nation/2026/10/24/anwar-says-039global-investor039-has-chosen-malaysia-for-us50bil-tech-sector-investment",
+   "at": "2026-10-24T13:40:00Z",
+   "src": "The Star",
+   "kind": "News"
+  },
+  {
+   "t": "NCERT Introduces 20-Hour AI Module For Classes 9 To 12; Deepfakes, Data Privacy And Ethical Use In Focus",
+   "url": "https://www.freepressjournal.in/education/ncert-introduces-20-hour-ai-module-for-classes-9-to-12-deepfakes-data-privacy-and-ethical-use-in-focus",
+   "at": "2026-10-24T13:33:28Z",
+   "src": "Free Press Journal",
+   "kind": "News"
+  },
+  {
+   "t": "Anthropic's AI Hid a Secret Message in the Stars. OpenAI's Bot Found It.",
+   "url": "https://gizmodo.com/anthropics-ai-hid-a-secret-message-in-the-stars-openais-ai-found-it-2000830047",
+   "at": "2026-10-24T13:31:26Z",
+   "src": "Gizmodo",
+   "kind": "News"
+  },
+  {
    "t": "OpenAI acquired his startup in 2024. Now Alexander Embiricos leads a new AI product",
    "url": "https://economictimes.indiatimes.com/world/people/openai-acquired-his-startup-in-2024-now-alexander-embiricos-leads-a-new-ai-product/articleshow/135170364.cms",
    "at": "2026-10-24T13:01:00Z",
@@ -799,27 +820,6 @@
    "at": "2026-10-24T12:17:54Z",
    "src": "The Tribune",
    "kind": "News"
-  },
-  {
-   "t": "AI-powered platforms can help rice traders access transparent prices, navigate global market volatility: AgriGuru founder",
-   "url": "https://www.aninews.in/news/business/ai-powered-platforms-can-help-rice-traders-access-transparent-prices-navigate-global-market-volatility-agriguru-founder20261024174344/",
-   "at": "2026-10-24T12:13:44Z",
-   "src": "ANI (Asian News International)",
-   "kind": "News"
-  },
-  {
-   "t": "H-1B holders, employers face tighter scrutiny as US authorities turn to AI",
-   "url": "https://www.firstpost.com/world/united-states/h-1b-holders-employers-face-tighter-scrutiny-as-us-authorities-turn-to-ai-14055073.html",
-   "at": "2026-10-24T12:09:00Z",
-   "src": "Firstpost",
-   "kind": "News"
-  },
-  {
-   "t": "World’s first AI-powered lab aims to prevent future pandemics",
-   "url": "https://www.thenews.com.pk/latest/1421134-worlds-first-ai-powered-lab-aims-to-prevent-future-pandemics",
-   "at": "2026-10-24T12:07:00Z",
-   "src": "The News International",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -828,8 +828,8 @@
    "t": "No signs of AI payoff outside the tech sector",
    "url": "https://news.ycombinator.com/item?id=50224463",
    "link": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
-   "up": 472,
-   "com": 470,
+   "up": 476,
+   "com": 473,
    "at": "2026-10-24T19:47:19.000Z"
   },
   {
@@ -837,8 +837,8 @@
    "t": "America Has Lost 200k of Jobs in Media, Film and the Arts. How Much Is AI?",
    "url": "https://news.ycombinator.com/item?id=50226419",
    "link": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
-   "up": 128,
-   "com": 108,
+   "up": 144,
+   "com": 120,
    "at": "2026-10-24T23:11:54.000Z"
   },
   {
@@ -846,8 +846,8 @@
    "t": "The Goose Programming Language",
    "url": "https://news.ycombinator.com/item?id=50224100",
    "link": "https://aardappel.github.io/goose/",
-   "up": 236,
-   "com": 158,
+   "up": 237,
+   "com": 162,
    "at": "2026-10-24T19:06:55.000Z"
   },
   {
@@ -855,9 +855,18 @@
    "t": "Elon Musk Just Gave Europe a Reason to Replace American Technology",
    "url": "https://news.ycombinator.com/item?id=50220913",
    "link": "https://steveblank.com/2026/10/24/europe-gets-a-wake-up-call/",
-   "up": 418,
-   "com": 448,
+   "up": 419,
+   "com": 449,
    "at": "2026-10-24T13:09:28.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Roku developer repositories moved from GitHub to GitLab",
+   "url": "https://news.ycombinator.com/item?id=50222622",
+   "link": "https://blog.roku.com/developer/gitlab-move",
+   "up": 263,
+   "com": 173,
+   "at": "2026-10-24T16:06:26.000Z"
   },
   {
    "src": "Hacker News",
@@ -867,15 +876,6 @@
    "up": 170,
    "com": 1,
    "at": "2026-10-24T19:27:41.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Roku developer repositories moved from GitHub to GitLab",
-   "url": "https://news.ycombinator.com/item?id=50222622",
-   "link": "https://blog.roku.com/developer/gitlab-move",
-   "up": 259,
-   "com": 169,
-   "at": "2026-10-24T16:06:26.000Z"
   }
  ]
 }
