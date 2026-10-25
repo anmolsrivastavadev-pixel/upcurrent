@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-25T14:30:52.761Z"
+  "updated": "2026-10-25T15:01:06.380Z"
  },
  "pulse": {
-  "trending": 74,
+  "trending": 73,
   "accelerating": 2,
   "newModels": 11,
-  "discussions": 33,
-  "stars": 425
+  "discussions": 34,
+  "stars": 275
  },
  "rising": [
   {
@@ -22,7 +22,7 @@
    "cat": "LLMs",
    "score": 94,
    "grow": 34,
-   "desc": "Model on Hugging Face · open source · ♥ 817",
+   "desc": "Model on Hugging Face · open source · ♥ 819",
    "meta": [
     "6.4K downloads",
     "Released 4 days ago"
@@ -36,12 +36,12 @@
    "owner": "deepseek-ai",
    "src": "hf",
    "cat": "Vision",
-   "score": 91,
+   "score": 90,
    "grow": 16,
    "desc": "Vision on Hugging Face · open source · ♥ 2.9K",
    "meta": [
     "85K downloads",
-    "Released 8 days ago"
+    "Released 9 days ago"
    ],
    "at": "2026-10-17T02:40:38.000Z",
    "breakout": null,
@@ -53,11 +53,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 88,
-   "grow": 34,
+   "grow": null,
    "desc": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
    "meta": [
-    "★ 1,371",
-    "+425 in 24h",
+    "★ 1,382",
+    "~275 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-20T14:17:54Z",
@@ -71,7 +71,7 @@
    "cat": "LLMs",
    "score": 88,
    "grow": 37,
-   "desc": "Model on Hugging Face · open source · ♥ 481",
+   "desc": "Model on Hugging Face · open source · ♥ 482",
    "meta": [
     "3.5K downloads",
     "Released 6 days ago"
@@ -122,8 +122,8 @@
    "grow": null,
    "desc": "Let AI agents sign in for you without seeing your passwords",
    "meta": [
-    "▲ 239 votes",
-    "6 comments",
+    "▲ 240 votes",
+    "7 comments",
     "Launched yesterday"
    ],
    "at": "2026-10-24T07:01:00Z",
@@ -136,7 +136,7 @@
    "cat": "Vision",
    "score": 84,
    "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 716",
+   "desc": "Vision on Hugging Face · open source · ♥ 717",
    "meta": [
     "11K downloads",
     "Released 14 days ago"
@@ -150,7 +150,7 @@
    "owner": "MiniMaxAI",
    "src": "hf",
    "cat": "Agents",
-   "score": 84,
+   "score": 83,
    "grow": 27,
    "desc": "Model on Hugging Face · open weights · ♥ 335",
    "meta": [
@@ -186,7 +186,7 @@
    "from": "Hugging Face",
    "use": 143152,
    "useLabel": "143K downloads",
-   "usePct": 0.78125,
+   "usePct": 0.7741935483870968,
    "talk": [
     {
      "src": "DEV",
@@ -201,8 +201,8 @@
    "name": "day-trader-skill",
    "url": "https://github.com/Jakeschincariol/day-trader-skill",
    "from": "GitHub",
-   "use": 425,
-   "useLabel": "+425 stars/day",
+   "use": 275,
+   "useLabel": "~275 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -225,7 +225,7 @@
    "from": "Hugging Face",
    "use": 2161961,
    "useLabel": "2.2M downloads",
-   "usePct": 0.96875,
+   "usePct": 0.967741935483871,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -316,10 +316,10 @@
  "github": [
   {
    "repo": "Jakeschincariol/day-trader-skill",
-   "stars": 1371,
-   "d24": 425,
-   "est": false,
-   "forks": 309,
+   "stars": 1382,
+   "d24": 275,
+   "est": true,
+   "forks": 312,
    "contrib": null,
    "score": 88
   }
@@ -334,7 +334,7 @@
    "grow": 34,
    "score": 94,
    "cat": "LLMs",
-   "likes": 817
+   "likes": 819
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -343,9 +343,9 @@
    "at": "2026-10-17T02:40:38.000Z",
    "dl": 85275,
    "grow": 16,
-   "score": 91,
+   "score": 90,
    "cat": "Vision",
-   "likes": 2900
+   "likes": 2905
   },
   {
    "name": "Spark-X2.6-4B",
@@ -357,7 +357,7 @@
    "grow": 37,
    "score": 88,
    "cat": "LLMs",
-   "likes": 481
+   "likes": 482
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -368,7 +368,7 @@
    "grow": 12,
    "score": 87,
    "cat": "Vision",
-   "likes": 1566
+   "likes": 1567
   },
   {
    "name": "MOSS-Image-SFT",
@@ -379,7 +379,7 @@
    "grow": null,
    "score": 84,
    "cat": "Vision",
-   "likes": 716
+   "likes": 717
   },
   {
    "name": "MiniMax-M3.1-Flash",
@@ -388,7 +388,7 @@
    "at": "2026-10-17T06:37:50.000Z",
    "dl": 7355,
    "grow": 27,
-   "score": 84,
+   "score": 83,
    "cat": "Agents",
    "likes": 335
   }
@@ -719,6 +719,13 @@
    "kind": "Video"
   },
   {
+   "t": "Your parents may be asking AI health questions. Here’s what you should know",
+   "url": "https://www.thestar.com.my/tech/tech-news/2026/10/25/your-parents-may-be-asking-ai-health-questions-heres-what-you-should-know",
+   "at": "2026-10-25T03:00:00Z",
+   "src": "The Star",
+   "kind": "News"
+  },
+  {
    "t": "OpenAI Finds Its AI Agents Can Secretly Communicate Even Without Internet",
    "url": "https://www.timesnownews.com/technology-science/openai-finds-its-ai-agents-can-secretly-communicate-even-without-internet-article-156399273",
    "at": "2026-10-25T02:30:00Z",
@@ -789,13 +796,6 @@
    "kind": "News"
   },
   {
-   "t": "I tried turning my old Samsung Galaxy into a local LLM-hosting machine, and it worked better than I expected",
-   "url": "https://www.xda-developers.com/tried-old-samsung-galaxy-local-llm-hosting-machine-worked-better-expected/",
-   "at": "2026-10-24T20:00:20Z",
-   "src": "XDA Developers",
-   "kind": "News"
-  },
-  {
    "t": "Source: Replit recently moved most AI spend from Anthropic to OpenAI, which gave 30%+ off in a deal worth $100M+/year, after Anthropic discontinued its discount",
    "url": "https://www.techmeme.com/261024/p8#a261024p8",
    "at": "2026-10-24T19:45:01.000Z",
@@ -806,11 +806,20 @@
  "discussions": [
   {
    "src": "Hacker News",
+   "t": "R/open source bans all solo projects and projects using LLMs",
+   "url": "https://news.ycombinator.com/item?id=50231722",
+   "link": "https://www.reddit.com/r/opensource/comments/1xelcuf/your_tokens_arent_valuable_no_more_ai",
+   "up": 38,
+   "com": 13,
+   "at": "2026-10-25T14:05:03.000Z"
+  },
+  {
+   "src": "Hacker News",
    "t": "No signs of AI payoff outside the tech sector",
    "url": "https://news.ycombinator.com/item?id=50224463",
    "link": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
-   "up": 579,
-   "com": 609,
+   "up": 583,
+   "com": 610,
    "at": "2026-10-24T19:47:19.000Z"
   },
   {
@@ -818,45 +827,36 @@
    "t": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
    "url": "https://news.ycombinator.com/item?id=50226419",
    "link": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
-   "up": 414,
-   "com": 444,
+   "up": 422,
+   "com": 453,
    "at": "2026-10-24T23:11:54.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "fheroes2: A recreation of Heroes of Might and Magic II game engine",
-   "url": "https://news.ycombinator.com/item?id=50230384",
-   "link": "https://github.com/ihhub/fheroes2",
-   "up": 86,
-   "com": 25,
-   "at": "2026-10-25T11:09:12.000Z"
   },
   {
    "src": "Hacker News",
    "t": "The Goose Programming Language",
    "url": "https://news.ycombinator.com/item?id=50224100",
    "link": "https://aardappel.github.io/goose/",
-   "up": 479,
-   "com": 288,
+   "up": 485,
+   "com": 296,
    "at": "2026-10-24T19:06:55.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "fheroes2: A recreation of Heroes of Might and Magic II game engine",
+   "url": "https://news.ycombinator.com/item?id=50230384",
+   "link": "https://github.com/ihhub/fheroes2",
+   "up": 94,
+   "com": 29,
+   "at": "2026-10-25T11:09:12.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Cerebras Deploys Trillion-Parameter AI Models",
    "url": "https://news.ycombinator.com/item?id=50227356",
    "link": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
-   "up": 244,
-   "com": 80,
+   "up": 254,
+   "com": 84,
    "at": "2026-10-25T01:33:49.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Five Qwen3.8-27B models match Fable 5 Using GVS5H Harness",
-   "url": "https://news.ycombinator.com/item?id=50228167",
-   "link": "https://github.com/slee-persis/GVS5H",
-   "up": 171,
-   "com": 60,
-   "at": "2026-10-25T03:56:01.000Z"
   }
  ]
 }
