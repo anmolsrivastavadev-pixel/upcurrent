@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-25T13:01:04.470Z"
+  "updated": "2026-10-25T13:30:52.761Z"
  },
  "pulse": {
   "trending": 73,
-  "accelerating": 1,
+  "accelerating": 2,
   "newModels": 11,
-  "discussions": 35,
-  "stars": 402
+  "discussions": 36,
+  "stars": 410
  },
  "rising": [
   {
@@ -53,11 +53,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 88,
-   "grow": 29,
+   "grow": 31,
    "desc": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
    "meta": [
-    "★ 1,327",
-    "+402 in 24h",
+    "★ 1,342",
+    "+410 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-20T14:17:54Z",
@@ -71,7 +71,7 @@
    "cat": "LLMs",
    "score": 88,
    "grow": 37,
-   "desc": "Model on Hugging Face · open source · ♥ 474",
+   "desc": "Model on Hugging Face · open source · ♥ 476",
    "meta": [
     "3.5K downloads",
     "Released 6 days ago"
@@ -122,7 +122,7 @@
    "grow": null,
    "desc": "Let AI agents sign in for you without seeing your passwords",
    "meta": [
-    "▲ 235 votes",
+    "▲ 236 votes",
     "6 comments",
     "Launched yesterday"
    ],
@@ -136,7 +136,7 @@
    "cat": "Vision",
    "score": 84,
    "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 708",
+   "desc": "Vision on Hugging Face · open source · ♥ 711",
    "meta": [
     "11K downloads",
     "Released 14 days ago"
@@ -201,8 +201,8 @@
    "name": "day-trader-skill",
    "url": "https://github.com/Jakeschincariol/day-trader-skill",
    "from": "GitHub",
-   "use": 402,
-   "useLabel": "+402 stars/day",
+   "use": 410,
+   "useLabel": "+410 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -232,6 +232,16 @@
   }
  ],
  "receipts": [
+  {
+   "name": "shinshin86/mesh-avatar-studio",
+   "url": "https://github.com/shinshin86/mesh-avatar-studio",
+   "kind": "stars",
+   "first": "2026-10-23T00:01:07.549Z",
+   "firstV": 976,
+   "m": 1000,
+   "at": "2026-10-25T13:30:52.761Z",
+   "lead": 61.495892222222224
+  },
   {
    "name": "OpenMOSS-Team/MOSS-Image-SFT",
    "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT",
@@ -301,25 +311,15 @@
    "m": 100000,
    "at": "2026-10-24T10:01:05.366Z",
    "lead": 136.00011444444445
-  },
-  {
-   "name": "Comfy-Org/Fibo-2.0",
-   "url": "https://huggingface.co/Comfy-Org/Fibo-2.0",
-   "kind": "downloads",
-   "first": "2026-10-22T03:30:54.606Z",
-   "firstV": 12913,
-   "m": 100000,
-   "at": "2026-10-24T10:01:05.366Z",
-   "lead": 54.502988888888886
   }
  ],
  "github": [
   {
    "repo": "Jakeschincariol/day-trader-skill",
-   "stars": 1327,
-   "d24": 402,
+   "stars": 1342,
+   "d24": 410,
    "est": false,
-   "forks": 301,
+   "forks": 302,
    "contrib": null,
    "score": 88
   }
@@ -345,7 +345,7 @@
    "grow": 16,
    "score": 91,
    "cat": "Vision",
-   "likes": 2889
+   "likes": 2893
   },
   {
    "name": "Spark-X2.6-4B",
@@ -357,7 +357,7 @@
    "grow": 37,
    "score": 88,
    "cat": "LLMs",
-   "likes": 474
+   "likes": 476
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -368,7 +368,7 @@
    "grow": 12,
    "score": 87,
    "cat": "Vision",
-   "likes": 1556
+   "likes": 1561
   },
   {
    "name": "MOSS-Image-SFT",
@@ -379,7 +379,7 @@
    "grow": null,
    "score": 84,
    "cat": "Vision",
-   "likes": 708
+   "likes": 711
   },
   {
    "name": "drama-3",
@@ -390,7 +390,7 @@
    "grow": 8,
    "score": 83,
    "cat": "Tools",
-   "likes": 1003
+   "likes": 1004
   }
  ],
  "free": [
@@ -698,6 +698,13 @@
    "kind": "News"
   },
   {
+   "t": "HUGE GPT-7 BEL UPDATE! Claude REA BANNED, Gemini 4 Carbon Is INSANE, Qwen 4 LEAKS, & More! AI NEWS",
+   "url": "https://www.youtube.com/watch?v=aZMKzHhlTh8",
+   "at": "2026-10-25T07:03:15Z",
+   "src": "WorldofAI",
+   "kind": "Video"
+  },
+  {
    "t": "Baba, which develops AI tools to help Medicare and Medicaid patients connect to care teams and handle advocacy tasks, raised a $40M Series A led by FirstMark",
    "url": "https://www.techmeme.com/261025/p5#a261025p5",
    "at": "2026-10-25T05:40:00.000Z",
@@ -710,6 +717,13 @@
    "at": "2026-10-25T03:29:04Z",
    "src": "AI Search",
    "kind": "Video"
+  },
+  {
+   "t": "Fed Set To Lead G7 Trio In Hawkish Rate Pause: Eco Week Ahead",
+   "url": "https://www.ndtvprofit.com/economy/fed-set-to-lead-g7-trio-in-hawkish-rate-pause-eco-week-ahead-12231773",
+   "at": "2026-10-25T01:22:37Z",
+   "src": "NDTV Profit",
+   "kind": "News"
   },
   {
    "t": "Scientists are finding AI may make us remember things that never happened",
@@ -787,20 +801,6 @@
    "at": "2026-10-24T17:30:05Z",
    "src": "Gizmodo",
    "kind": "News"
-  },
-  {
-   "t": "Parliamentary Committee on Finance to examine 46 economic issues, including crypto, AI, in FY'27",
-   "url": "https://www.dailyexcelsior.com/parliamentary-committee-on-finance-to-examine-46-economic-issues-including-crypto-ai-in-fy27/",
-   "at": "2026-10-24T17:25:58Z",
-   "src": "Daily Excelsior",
-   "kind": "News"
-  },
-  {
-   "t": "A look at Alpha School, a network of private schools that claims to teach kids 2x as fast using AI; data shows ~50% of K-8 students missed this goal in math",
-   "url": "https://www.techmeme.com/261024/p7#a261024p7",
-   "at": "2026-10-24T17:25:04.000Z",
-   "src": "Techmeme",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -809,8 +809,8 @@
    "t": "No signs of AI payoff outside the tech sector",
    "url": "https://news.ycombinator.com/item?id=50224463",
    "link": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
-   "up": 566,
-   "com": 598,
+   "up": 573,
+   "com": 604,
    "at": "2026-10-24T19:47:19.000Z"
   },
   {
@@ -818,45 +818,45 @@
    "t": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
    "url": "https://news.ycombinator.com/item?id=50226419",
    "link": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
-   "up": 396,
-   "com": 409,
+   "up": 403,
+   "com": 420,
    "at": "2026-10-24T23:11:54.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "The Goose Programming Language",
-   "url": "https://news.ycombinator.com/item?id=50224100",
-   "link": "https://aardappel.github.io/goose/",
-   "up": 453,
-   "com": 276,
-   "at": "2026-10-24T19:06:55.000Z"
   },
   {
    "src": "Hacker News",
    "t": "fheroes2: A recreation of Heroes of Might and Magic II game engine",
    "url": "https://news.ycombinator.com/item?id=50230384",
    "link": "https://github.com/ihhub/fheroes2",
-   "up": 45,
-   "com": 14,
+   "up": 61,
+   "com": 22,
    "at": "2026-10-25T11:09:12.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "The Goose Programming Language",
+   "url": "https://news.ycombinator.com/item?id=50224100",
+   "link": "https://aardappel.github.io/goose/",
+   "up": 462,
+   "com": 280,
+   "at": "2026-10-24T19:06:55.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Cerebras Deploys Trillion-Parameter AI Models",
    "url": "https://news.ycombinator.com/item?id=50227356",
    "link": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
-   "up": 218,
-   "com": 68,
+   "up": 225,
+   "com": 69,
    "at": "2026-10-25T01:33:49.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Elon Musk Just Gave Europe a Reason to Replace American Technology",
-   "url": "https://news.ycombinator.com/item?id=50220913",
-   "link": "https://steveblank.com/2026/10/24/europe-gets-a-wake-up-call/",
-   "up": 451,
-   "com": 479,
-   "at": "2026-10-24T13:09:28.000Z"
+   "t": "Five Qwen3.8-27B models match Fable 5 Using GVS5H Harness",
+   "url": "https://news.ycombinator.com/item?id=50228167",
+   "link": "https://github.com/slee-persis/GVS5H",
+   "up": 168,
+   "com": 57,
+   "at": "2026-10-25T03:56:01.000Z"
   }
  ]
 }
