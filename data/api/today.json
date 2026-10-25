@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-25T14:01:02.770Z"
+  "updated": "2026-10-25T14:30:52.761Z"
  },
  "pulse": {
-  "trending": 73,
+  "trending": 74,
   "accelerating": 2,
-  "newModels": 10,
+  "newModels": 11,
   "discussions": 33,
-  "stars": 418
+  "stars": 425
  },
  "rising": [
   {
@@ -22,7 +22,7 @@
    "cat": "LLMs",
    "score": 94,
    "grow": 34,
-   "desc": "Model on Hugging Face · open source · ♥ 814",
+   "desc": "Model on Hugging Face · open source · ♥ 817",
    "meta": [
     "6.4K downloads",
     "Released 4 days ago"
@@ -53,11 +53,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 88,
-   "grow": 32,
+   "grow": 34,
    "desc": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
    "meta": [
-    "★ 1,357",
-    "+418 in 24h",
+    "★ 1,371",
+    "+425 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-20T14:17:54Z",
@@ -71,7 +71,7 @@
    "cat": "LLMs",
    "score": 88,
    "grow": 37,
-   "desc": "Model on Hugging Face · open source · ♥ 478",
+   "desc": "Model on Hugging Face · open source · ♥ 481",
    "meta": [
     "3.5K downloads",
     "Released 6 days ago"
@@ -136,7 +136,7 @@
    "cat": "Vision",
    "score": 84,
    "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 713",
+   "desc": "Vision on Hugging Face · open source · ♥ 716",
    "meta": [
     "11K downloads",
     "Released 14 days ago"
@@ -146,20 +146,20 @@
    "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT"
   },
   {
-   "name": "drama-3",
-   "owner": "fishaudio",
+   "name": "MiniMax-M3.1-Flash",
+   "owner": "MiniMaxAI",
    "src": "hf",
-   "cat": "Tools",
-   "score": 83,
-   "grow": 8,
-   "desc": "Model on Hugging Face · open weights · ♥ 1K",
+   "cat": "Agents",
+   "score": 84,
+   "grow": 27,
+   "desc": "Model on Hugging Face · open weights · ♥ 335",
    "meta": [
-    "21K downloads",
-    "Released 24 days ago"
+    "7.4K downloads",
+    "Released 8 days ago"
    ],
-   "at": "2026-10-01T04:34:57.000Z",
+   "at": "2026-10-17T06:37:50.000Z",
    "breakout": null,
-   "url": "https://huggingface.co/fishaudio/drama-3"
+   "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash"
   },
   {
    "name": "IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems",
@@ -186,7 +186,7 @@
    "from": "Hugging Face",
    "use": 143152,
    "useLabel": "143K downloads",
-   "usePct": 0.7741935483870968,
+   "usePct": 0.78125,
    "talk": [
     {
      "src": "DEV",
@@ -201,8 +201,8 @@
    "name": "day-trader-skill",
    "url": "https://github.com/Jakeschincariol/day-trader-skill",
    "from": "GitHub",
-   "use": 418,
-   "useLabel": "+418 stars/day",
+   "use": 425,
+   "useLabel": "+425 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -225,7 +225,7 @@
    "from": "Hugging Face",
    "use": 2161961,
    "useLabel": "2.2M downloads",
-   "usePct": 0.967741935483871,
+   "usePct": 0.96875,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -316,10 +316,10 @@
  "github": [
   {
    "repo": "Jakeschincariol/day-trader-skill",
-   "stars": 1357,
-   "d24": 418,
+   "stars": 1371,
+   "d24": 425,
    "est": false,
-   "forks": 305,
+   "forks": 309,
    "contrib": null,
    "score": 88
   }
@@ -334,7 +334,7 @@
    "grow": 34,
    "score": 94,
    "cat": "LLMs",
-   "likes": 814
+   "likes": 817
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -345,7 +345,7 @@
    "grow": 16,
    "score": 91,
    "cat": "Vision",
-   "likes": 2899
+   "likes": 2900
   },
   {
    "name": "Spark-X2.6-4B",
@@ -357,7 +357,7 @@
    "grow": 37,
    "score": 88,
    "cat": "LLMs",
-   "likes": 478
+   "likes": 481
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -368,7 +368,7 @@
    "grow": 12,
    "score": 87,
    "cat": "Vision",
-   "likes": 1564
+   "likes": 1566
   },
   {
    "name": "MOSS-Image-SFT",
@@ -379,18 +379,18 @@
    "grow": null,
    "score": 84,
    "cat": "Vision",
-   "likes": 713
+   "likes": 716
   },
   {
-   "name": "drama-3",
-   "org": "fishaudio",
+   "name": "MiniMax-M3.1-Flash",
+   "org": "MiniMaxAI",
    "lic": "Open weights",
-   "at": "2026-10-01T04:34:57.000Z",
-   "dl": 21375,
-   "grow": 8,
-   "score": 83,
-   "cat": "Tools",
-   "likes": 1005
+   "at": "2026-10-17T06:37:50.000Z",
+   "dl": 7355,
+   "grow": 27,
+   "score": 84,
+   "cat": "Agents",
+   "likes": 335
   }
  ],
  "free": [
@@ -691,18 +691,18 @@
  },
  "headlines": [
   {
+   "t": "‘Extremely disappointed’: WA government seeks reimbursement from Deloitte over flawed university report ",
+   "url": "https://www.theguardian.com/australia-news/2026/oct/26/deloitte-report-wa-university-mergers-260m-discrepancy-ai",
+   "at": "2026-10-25T14:00:06Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
    "t": "Lawmakers and Hill staffers in both parties say AI leaders are becoming a political liability as they swing between claims of prosperity and existential dangers",
    "url": "https://www.techmeme.com/261025/p7#a261025p7",
    "at": "2026-10-25T11:00:54.000Z",
    "src": "Techmeme",
    "kind": "News"
-  },
-  {
-   "t": "HUGE GPT-7 BEL UPDATE! Claude REA BANNED, Gemini 4 Carbon Is INSANE, Qwen 4 LEAKS, & More! AI NEWS",
-   "url": "https://www.youtube.com/watch?v=aZMKzHhlTh8",
-   "at": "2026-10-25T07:03:15Z",
-   "src": "WorldofAI",
-   "kind": "Video"
   },
   {
    "t": "Baba, which develops AI tools to help Medicare and Medicaid patients connect to care teams and handle advocacy tasks, raised a $40M Series A led by FirstMark",
@@ -717,6 +717,34 @@
    "at": "2026-10-25T03:29:04Z",
    "src": "AI Search",
    "kind": "Video"
+  },
+  {
+   "t": "OpenAI Finds Its AI Agents Can Secretly Communicate Even Without Internet",
+   "url": "https://www.timesnownews.com/technology-science/openai-finds-its-ai-agents-can-secretly-communicate-even-without-internet-article-156399273",
+   "at": "2026-10-25T02:30:00Z",
+   "src": "Times Now",
+   "kind": "News"
+  },
+  {
+   "t": "‘Tech debt coming due’: AI-found flaw signals chaos ahead",
+   "url": "https://www.japantimes.co.jp/business/2026/10/25/tech/ai-flaw-tech-debt/",
+   "at": "2026-10-25T02:27:34Z",
+   "src": "The Japan Times ",
+   "kind": "News"
+  },
+  {
+   "t": "Google Brain cofounder and AI pioneer Andrew Ng tells ‘one of the most disgusting things’ he has seen that AI is being used for",
+   "url": "https://timesofindia.indiatimes.com/technology/tech-news/google-brain-cofounder-and-ai-pioneer-andrew-ng-tells-one-of-the-most-disgusting-things-he-has-seen-that-ai-is-being-used-for/articleshow/135181819.cms",
+   "at": "2026-10-25T02:24:00Z",
+   "src": "Times of India",
+   "kind": "News"
+  },
+  {
+   "t": "Mumbai's air quality turns ‘very poor’ as AQI surpasses 322; Delhi records cleanest air in 10 years",
+   "url": "https://www.india.com/news/india/delhi-air-quality-mumbai-aqi-national-capital-maharashtra-bombay-high-court-weather-update-palam-safdarjung-lodhi-garden-nagpur-pune-nashik-8539019/",
+   "at": "2026-10-25T02:09:39Z",
+   "src": "India.com",
+   "kind": "News"
   },
   {
    "t": "Don’t chase votes by exploiting race, religion or royalty, Teo tells parties",
@@ -773,34 +801,6 @@
    "at": "2026-10-24T19:45:01.000Z",
    "src": "Techmeme",
    "kind": "News"
-  },
-  {
-   "t": "‘Synthetic twin’: Why Socceroo Cristian Volpato is the latest footballer to license his AI clone",
-   "url": "https://www.theguardian.com/technology/2026/oct/25/synthetic-twin-why-socceroo-cristian-volpato-is-the-latest-footballer-to-license-his-ai-clone",
-   "at": "2026-10-24T19:00:40Z",
-   "src": "The Guardian",
-   "kind": "News"
-  },
-  {
-   "t": "The AI graveyard: a running list of projects and startups that didn't make it",
-   "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
-   "at": "2026-10-24T19:00:00Z",
-   "src": "TechCrunch",
-   "kind": "News"
-  },
-  {
-   "t": "NVIDIA RTX 30 GPUs Get Impressively Fast In AI LLMs With New Unlock Tool But Prices Surge Too",
-   "url": "https://wccftech.com/nvidia-rtx-30-gpus-get-faster-in-ai-llms-with-new-unlock-tool-but-prices-surge-too/",
-   "at": "2026-10-24T18:55:32Z",
-   "src": "Wccftech",
-   "kind": "News"
-  },
-  {
-   "t": "NVIDIA RTX 30 & RTX 40 GPUs Get Impressively Fast In AI LLMs As Compute Doubles With New Unlock Tool But Prices Surge Too",
-   "url": "https://wccftech.com/nvidia-rtx-30-40-gpus-get-faster-in-ai-llms-with-new-unlock-tool-but-prices-surge-too/",
-   "at": "2026-10-24T18:55:32Z",
-   "src": "Wccftech",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -809,35 +809,35 @@
    "t": "No signs of AI payoff outside the tech sector",
    "url": "https://news.ycombinator.com/item?id=50224463",
    "link": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
-   "up": 576,
-   "com": 605,
+   "up": 579,
+   "com": 609,
    "at": "2026-10-24T19:47:19.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "fheroes2: A recreation of Heroes of Might and Magic II game engine",
-   "url": "https://news.ycombinator.com/item?id=50230384",
-   "link": "https://github.com/ihhub/fheroes2",
-   "up": 81,
-   "com": 25,
-   "at": "2026-10-25T11:09:12.000Z"
   },
   {
    "src": "Hacker News",
    "t": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
    "url": "https://news.ycombinator.com/item?id=50226419",
    "link": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
-   "up": 408,
-   "com": 436,
+   "up": 414,
+   "com": 444,
    "at": "2026-10-24T23:11:54.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "fheroes2: A recreation of Heroes of Might and Magic II game engine",
+   "url": "https://news.ycombinator.com/item?id=50230384",
+   "link": "https://github.com/ihhub/fheroes2",
+   "up": 86,
+   "com": 25,
+   "at": "2026-10-25T11:09:12.000Z"
   },
   {
    "src": "Hacker News",
    "t": "The Goose Programming Language",
    "url": "https://news.ycombinator.com/item?id=50224100",
    "link": "https://aardappel.github.io/goose/",
-   "up": 470,
-   "com": 283,
+   "up": 479,
+   "com": 288,
    "at": "2026-10-24T19:06:55.000Z"
   },
   {
@@ -845,8 +845,8 @@
    "t": "Cerebras Deploys Trillion-Parameter AI Models",
    "url": "https://news.ycombinator.com/item?id=50227356",
    "link": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
-   "up": 233,
-   "com": 73,
+   "up": 244,
+   "com": 80,
    "at": "2026-10-25T01:33:49.000Z"
   },
   {
@@ -855,7 +855,7 @@
    "url": "https://news.ycombinator.com/item?id=50228167",
    "link": "https://github.com/slee-persis/GVS5H",
    "up": 171,
-   "com": 57,
+   "com": 60,
    "at": "2026-10-25T03:56:01.000Z"
   }
  ]
