@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-25T21:01:05.798Z"
+  "updated": "2026-10-25T21:30:51.427Z"
  },
  "pulse": {
   "trending": 74,
   "accelerating": 2,
   "newModels": 12,
-  "discussions": 34,
-  "stars": 292
+  "discussions": 36,
+  "stars": 643
  },
  "rising": [
   {
@@ -22,7 +22,7 @@
    "cat": "LLMs",
    "score": 93,
    "grow": 34,
-   "desc": "Model on Hugging Face · open source · ♥ 844",
+   "desc": "Model on Hugging Face · open source · ♥ 848",
    "meta": [
     "6.4K downloads",
     "Released 4 days ago"
@@ -37,11 +37,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 90,
-   "grow": null,
+   "grow": 13,
    "desc": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
    "meta": [
-    "★ 1,544",
-    "~292 in 24h",
+    "★ 1,556",
+    "+643 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-20T14:17:54Z",
@@ -65,13 +65,29 @@
    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
   },
   {
+   "name": "Nanbeige4.3-33B",
+   "owner": "Nanbeige",
+   "src": "hf",
+   "cat": "Infrastructure",
+   "score": 89,
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 328",
+   "meta": [
+    "0 downloads",
+    "Released 2 days ago"
+   ],
+   "at": "2026-10-24T02:49:18.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B"
+  },
+  {
    "name": "Spark-X2.6-4B",
    "owner": "XHToken",
    "src": "hf",
    "cat": "LLMs",
    "score": 88,
    "grow": 37,
-   "desc": "Model on Hugging Face · open source · ♥ 490",
+   "desc": "Model on Hugging Face · open source · ♥ 491",
    "meta": [
     "3.5K downloads",
     "Released 7 days ago"
@@ -95,22 +111,6 @@
    "at": "2026-10-14T12:00:13.000Z",
    "breakout": null,
    "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy"
-  },
-  {
-   "name": "Nanbeige4.3-33B",
-   "owner": "Nanbeige",
-   "src": "hf",
-   "cat": "Infrastructure",
-   "score": 87,
-   "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 318",
-   "meta": [
-    "0 downloads",
-    "Released 2 days ago"
-   ],
-   "at": "2026-10-24T02:49:18.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B"
   },
   {
    "name": "WeVisOne-VL: Unified Visual Perception from Objects to Pixels",
@@ -138,7 +138,7 @@
    "grow": null,
    "desc": "Let AI agents sign in for you without seeing your passwords",
    "meta": [
-    "▲ 248 votes",
+    "▲ 251 votes",
     "7 comments",
     "Launched 2 days ago"
    ],
@@ -152,7 +152,7 @@
    "cat": "Vision",
    "score": 84,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open source · ♥ 724",
+   "desc": "Vision on Hugging Face · open source · ♥ 725",
    "meta": [
     "11K downloads",
     "Released 15 days ago"
@@ -168,7 +168,7 @@
    "cat": "Agents",
    "score": 83,
    "grow": null,
-   "desc": "Model on Hugging Face · open weights · ♥ 345",
+   "desc": "Model on Hugging Face · open weights · ♥ 346",
    "meta": [
     "7.4K downloads",
     "Released 9 days ago"
@@ -201,8 +201,8 @@
    "name": "day-trader-skill",
    "url": "https://github.com/Jakeschincariol/day-trader-skill",
    "from": "GitHub",
-   "use": 292,
-   "useLabel": "~292 stars/day",
+   "use": 643,
+   "useLabel": "+643 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -316,10 +316,10 @@
  "github": [
   {
    "repo": "Jakeschincariol/day-trader-skill",
-   "stars": 1544,
-   "d24": 292,
-   "est": true,
-   "forks": 345,
+   "stars": 1556,
+   "d24": 643,
+   "est": false,
+   "forks": 346,
    "contrib": null,
    "score": 90
   }
@@ -334,7 +334,7 @@
    "grow": 34,
    "score": 93,
    "cat": "LLMs",
-   "likes": 844
+   "likes": 848
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -345,7 +345,19 @@
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 2961
+   "likes": 2964
+  },
+  {
+   "name": "Nanbeige4.3-33B",
+   "org": "Nanbeige",
+   "size": "33B",
+   "lic": "Open source",
+   "at": "2026-10-24T02:49:18.000Z",
+   "dl": 0,
+   "grow": null,
+   "score": 89,
+   "cat": "Infrastructure",
+   "likes": 328
   },
   {
    "name": "Spark-X2.6-4B",
@@ -357,7 +369,7 @@
    "grow": 37,
    "score": 88,
    "cat": "LLMs",
-   "likes": 490
+   "likes": 491
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -371,18 +383,6 @@
    "likes": 1593
   },
   {
-   "name": "Nanbeige4.3-33B",
-   "org": "Nanbeige",
-   "size": "33B",
-   "lic": "Open source",
-   "at": "2026-10-24T02:49:18.000Z",
-   "dl": 0,
-   "grow": null,
-   "score": 87,
-   "cat": "Infrastructure",
-   "likes": 318
-  },
-  {
    "name": "MOSS-Image-SFT",
    "org": "OpenMOSS-Team",
    "lic": "Open source",
@@ -391,7 +391,7 @@
    "grow": 0,
    "score": 84,
    "cat": "Vision",
-   "likes": 724
+   "likes": 725
   }
  ],
  "free": [
@@ -713,6 +713,20 @@
    "kind": "News"
   },
   {
+   "t": "OpenAI Resumes Training AI, But Without Internet Access",
+   "url": "https://www.deccanchronicle.com/technology/openai-resumes-training-ai-but-without-internet-access-1998706",
+   "at": "2026-10-25T09:29:32Z",
+   "src": "Deccan Chronicle",
+   "kind": "News"
+  },
+  {
+   "t": "AI to Revolutionize Tech, Future Belongs to Adaptable Firms: HCLTech CEO",
+   "url": "https://www.lokmattimes.com/business/ai-to-revolutionize-tech-future-belongs-to-adaptable-firms-hcltech-ceo-a001-w03/",
+   "at": "2026-10-25T09:19:05Z",
+   "src": "Lokmat Times",
+   "kind": "News"
+  },
+  {
    "t": "One-man AI lab: IIM alumnus builds 5 open AI models in just 13 days",
    "url": "https://www.indiatoday.in/education-today/news/story/small-ai-models-jitesh-prasad-udgam-labs-low-cost-open-results-3024600-2026-10-25",
    "at": "2026-10-25T08:24:40Z",
@@ -769,20 +783,6 @@
    "kind": "News"
   },
   {
-   "t": "Nearly half of new Korean AI services based on Chinese foundation models",
-   "url": "https://www.koreatimes.co.kr/business/tech-science/20261025/nearly-half-of-new-korean-ai-services-based-on-chinese-foundation-models",
-   "at": "2026-10-25T06:22:03Z",
-   "src": "The Korea Times",
-   "kind": "News"
-  },
-  {
-   "t": "Global asset management industry to expand through 2030, profitability remains a challenge: Morgan Stanley",
-   "url": "https://economictimes.indiatimes.com/industry/banking/finance/global-asset-management-industry-to-expand-through-2030-profitability-remains-a-challenge-morgan-stanley/articleshow/135184618.cms",
-   "at": "2026-10-25T06:09:00Z",
-   "src": "The Economic Times",
-   "kind": "News"
-  },
-  {
    "t": "Baba, which develops AI tools to help Medicare and Medicaid patients connect to care teams and handle advocacy tasks, raised a $40M Series A led by FirstMark",
    "url": "https://www.techmeme.com/261025/p5#a261025p5",
    "at": "2026-10-25T05:40:00.000Z",
@@ -810,8 +810,8 @@
    "t": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
    "url": "https://news.ycombinator.com/item?id=50233779",
    "link": "https://lynchlab.net/llm-skin-cancer",
-   "up": 289,
-   "com": 145,
+   "up": 306,
+   "com": 158,
    "at": "2026-10-25T17:15:38.000Z"
   },
   {
@@ -819,35 +819,35 @@
    "t": "AI use leads UC Berkeley math professor to see 'no point' in grading homework",
    "url": "https://news.ycombinator.com/item?id=50233304",
    "link": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
-   "up": 143,
-   "com": 227,
+   "up": 154,
+   "com": 236,
    "at": "2026-10-25T16:28:26.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
-   "url": "https://news.ycombinator.com/item?id=50226419",
-   "link": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
-   "up": 489,
-   "com": 524,
-   "at": "2026-10-24T23:11:54.000Z"
   },
   {
    "src": "Hacker News",
    "t": "JetBrains Thinkrail",
    "url": "https://news.ycombinator.com/item?id=50233294",
    "link": "https://github.com/JetBrains/thinkrail",
-   "up": 102,
-   "com": 60,
+   "up": 114,
+   "com": 75,
    "at": "2026-10-25T16:27:12.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
+   "url": "https://news.ycombinator.com/item?id=50226419",
+   "link": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+   "up": 492,
+   "com": 527,
+   "at": "2026-10-24T23:11:54.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Eunice is almost here",
    "url": "https://news.ycombinator.com/item?id=50235316",
    "link": "https://armincat.com/articles/eunice-is-almost-here",
-   "up": 26,
-   "com": 22,
+   "up": 34,
+   "com": 28,
    "at": "2026-10-25T19:40:27.000Z"
   },
   {
@@ -855,8 +855,8 @@
    "t": "fheroes2: A recreation of Heroes of Might and Magic II game engine",
    "url": "https://news.ycombinator.com/item?id=50230384",
    "link": "https://github.com/ihhub/fheroes2",
-   "up": 185,
-   "com": 65,
+   "up": 187,
+   "com": 66,
    "at": "2026-10-25T11:09:12.000Z"
   }
  ]
