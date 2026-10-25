@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-25T18:01:06.851Z"
+  "updated": "2026-10-25T18:30:54.744Z"
  },
  "pulse": {
-  "trending": 74,
+  "trending": 75,
   "accelerating": 3,
   "newModels": 12,
-  "discussions": 42,
-  "stars": 284
+  "discussions": 38,
+  "stars": 286
  },
  "rising": [
   {
@@ -22,7 +22,7 @@
    "cat": "LLMs",
    "score": 93,
    "grow": 34,
-   "desc": "Model on Hugging Face · open source · ♥ 834",
+   "desc": "Model on Hugging Face · open source · ♥ 835",
    "meta": [
     "6.4K downloads",
     "Released 4 days ago"
@@ -52,12 +52,12 @@
    "owner": "Jakeschincariol",
    "src": "gh",
    "cat": "Agents",
-   "score": 89,
+   "score": 88,
    "grow": null,
    "desc": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
    "meta": [
-    "★ 1,466",
-    "~284 in 24h",
+    "★ 1,482",
+    "~286 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-20T14:17:54Z",
@@ -97,6 +97,22 @@
    "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy"
   },
   {
+   "name": "MOSS-Image-SFT",
+   "owner": "OpenMOSS-Team",
+   "src": "hf",
+   "cat": "Vision",
+   "score": 85,
+   "grow": 0,
+   "desc": "Vision on Hugging Face · open source · ♥ 722",
+   "meta": [
+    "11K downloads",
+    "Released 14 days ago"
+   ],
+   "at": "2026-10-11T07:01:17.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT"
+  },
+  {
    "name": "WeVisOne-VL: Unified Visual Perception from Objects to Pixels",
    "owner": "Paper",
    "src": "paper",
@@ -122,7 +138,7 @@
    "grow": null,
    "desc": "Let AI agents sign in for you without seeing your passwords",
    "meta": [
-    "▲ 241 votes",
+    "▲ 242 votes",
     "7 comments",
     "Launched yesterday"
    ],
@@ -130,27 +146,11 @@
    "breakout": null
   },
   {
-   "name": "MOSS-Image-SFT",
-   "owner": "OpenMOSS-Team",
-   "src": "hf",
-   "cat": "Vision",
-   "score": 84,
-   "grow": 0,
-   "desc": "Vision on Hugging Face · open source · ♥ 721",
-   "meta": [
-    "11K downloads",
-    "Released 14 days ago"
-   ],
-   "at": "2026-10-11T07:01:17.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT"
-  },
-  {
    "name": "MiniMax-M3.1-Flash",
    "owner": "MiniMaxAI",
    "src": "hf",
    "cat": "Agents",
-   "score": 83,
+   "score": 84,
    "grow": 27,
    "desc": "Model on Hugging Face · open weights · ♥ 338",
    "meta": [
@@ -162,20 +162,20 @@
    "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash"
   },
   {
-   "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
-   "owner": "ISTA-DASLab",
+   "name": "Nanbeige4.3-33B",
+   "owner": "Nanbeige",
    "src": "hf",
    "cat": "Infrastructure",
-   "score": 83,
-   "grow": 1170,
-   "desc": "Model on Hugging Face · open source · ♥ 271",
+   "score": 84,
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 264",
    "meta": [
-    "412K downloads",
+    "0 downloads",
     "Released 2 days ago"
    ],
-   "at": "2026-10-23T09:43:05.000Z",
+   "at": "2026-10-24T02:49:18.000Z",
    "breakout": null,
-   "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF"
+   "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B"
   }
  ],
  "breakouts": [],
@@ -186,7 +186,7 @@
    "from": "Hugging Face",
    "use": 143152,
    "useLabel": "143K downloads",
-   "usePct": 0.78125,
+   "usePct": 0.7878787878787878,
    "talk": [
     {
      "src": "DEV",
@@ -201,8 +201,8 @@
    "name": "day-trader-skill",
    "url": "https://github.com/Jakeschincariol/day-trader-skill",
    "from": "GitHub",
-   "use": 284,
-   "useLabel": "~284 stars/day",
+   "use": 286,
+   "useLabel": "~286 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -225,7 +225,7 @@
    "from": "Hugging Face",
    "use": 2161961,
    "useLabel": "2.2M downloads",
-   "usePct": 0.96875,
+   "usePct": 0.9696969696969697,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -316,12 +316,12 @@
  "github": [
   {
    "repo": "Jakeschincariol/day-trader-skill",
-   "stars": 1466,
-   "d24": 284,
+   "stars": 1482,
+   "d24": 286,
    "est": true,
-   "forks": 326,
+   "forks": 329,
    "contrib": null,
-   "score": 89
+   "score": 88
   }
  ],
  "models": [
@@ -334,7 +334,7 @@
    "grow": 34,
    "score": 93,
    "cat": "LLMs",
-   "likes": 834
+   "likes": 835
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -345,7 +345,7 @@
    "grow": 16,
    "score": 90,
    "cat": "Vision",
-   "likes": 2938
+   "likes": 2940
   },
   {
    "name": "Spark-X2.6-4B",
@@ -368,7 +368,7 @@
    "grow": 12,
    "score": 87,
    "cat": "Vision",
-   "likes": 1579
+   "likes": 1582
   },
   {
    "name": "MOSS-Image-SFT",
@@ -377,9 +377,9 @@
    "at": "2026-10-11T07:01:17.000Z",
    "dl": 10757,
    "grow": 0,
-   "score": 84,
+   "score": 85,
    "cat": "Vision",
-   "likes": 721
+   "likes": 722
   },
   {
    "name": "MiniMax-M3.1-Flash",
@@ -388,7 +388,7 @@
    "at": "2026-10-17T06:37:50.000Z",
    "dl": 7355,
    "grow": 27,
-   "score": 83,
+   "score": 84,
    "cat": "Agents",
    "likes": 338
   }
@@ -691,6 +691,13 @@
  },
  "headlines": [
   {
+   "t": "Anthropic sued for allegedly using 274 Elvis Presley songs to train AI models",
+   "url": "https://www.theguardian.com/us-news/2026/oct/25/elvis-presley-anthropic-lawsuit-ai-models-music",
+   "at": "2026-10-25T18:25:59Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
    "t": "‘Extremely disappointed’: WA government seeks reimbursement from Deloitte over flawed university report ",
    "url": "https://www.theguardian.com/australia-news/2026/oct/26/deloitte-report-wa-university-mergers-260m-discrepancy-ai",
    "at": "2026-10-25T14:00:06Z",
@@ -705,24 +712,24 @@
    "kind": "News"
   },
   {
-   "t": "HUGE GPT-7 BEL UPDATE! Claude REA BANNED, Gemini 4 Carbon Is INSANE, Qwen 4 LEAKS, & More! AI NEWS",
-   "url": "https://www.youtube.com/watch?v=aZMKzHhlTh8",
-   "at": "2026-10-25T07:03:15Z",
-   "src": "WorldofAI",
-   "kind": "Video"
+   "t": "Nearly half of new Korean AI services based on Chinese foundation models",
+   "url": "https://www.koreatimes.co.kr/business/tech-science/20261025/nearly-half-of-new-korean-ai-services-based-on-chinese-foundation-models",
+   "at": "2026-10-25T06:22:03Z",
+   "src": "The Korea Times",
+   "kind": "News"
+  },
+  {
+   "t": "Global asset management industry to expand through 2030, profitability remains a challenge: Morgan Stanley",
+   "url": "https://economictimes.indiatimes.com/industry/banking/finance/global-asset-management-industry-to-expand-through-2030-profitability-remains-a-challenge-morgan-stanley/articleshow/135184618.cms",
+   "at": "2026-10-25T06:09:00Z",
+   "src": "The Economic Times",
+   "kind": "News"
   },
   {
    "t": "Baba, which develops AI tools to help Medicare and Medicaid patients connect to care teams and handle advocacy tasks, raised a $40M Series A led by FirstMark",
    "url": "https://www.techmeme.com/261025/p5#a261025p5",
    "at": "2026-10-25T05:40:00.000Z",
    "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Global asset management industry to expand through 2030, profitability remains a challenge: Morgan Stanley",
-   "url": "https://www.tribuneindia.com/news/business/global-asset-management-industry-to-expand-through-2030-profitability-remains-a-challenge-morgan-stanley/",
-   "at": "2026-10-25T05:37:26Z",
-   "src": "The Tribune",
    "kind": "News"
   },
   {
@@ -775,20 +782,6 @@
    "kind": "News"
   },
   {
-   "t": "Google Brain cofounder and AI pioneer Andrew Ng tells ‘one of the most disgusting things’ he has seen that AI is being used for",
-   "url": "https://timesofindia.indiatimes.com/technology/tech-news/google-brain-cofounder-and-ai-pioneer-andrew-ng-tells-one-of-the-most-disgusting-things-he-has-seen-that-ai-is-being-used-for/articleshow/135181819.cms",
-   "at": "2026-10-25T02:24:00Z",
-   "src": "Times of India",
-   "kind": "News"
-  },
-  {
-   "t": "Mumbai's air quality turns ‘very poor’ as AQI surpasses 322; Delhi records cleanest air in 10 years",
-   "url": "https://www.india.com/news/india/delhi-air-quality-mumbai-aqi-national-capital-maharashtra-bombay-high-court-weather-update-palam-safdarjung-lodhi-garden-nagpur-pune-nashik-8539019/",
-   "at": "2026-10-25T02:09:39Z",
-   "src": "India.com",
-   "kind": "News"
-  },
-  {
    "t": "Outside of tech there has been no financial payoff to US companies for using AI, now viewed as a margin-hurting cost center, as VC-backed firms burn more tokens",
    "url": "https://www.techmeme.com/261024/p9#a261024p9",
    "at": "2026-10-24T21:30:01.000Z",
@@ -801,6 +794,13 @@
    "at": "2026-10-24T19:45:01.000Z",
    "src": "Techmeme",
    "kind": "News"
+  },
+  {
+   "t": "‘Synthetic twin’: Why Socceroo Cristian Volpato is the latest footballer to license his AI clone",
+   "url": "https://www.theguardian.com/technology/2026/oct/25/synthetic-twin-why-socceroo-cristian-volpato-is-the-latest-footballer-to-license-his-ai-clone",
+   "at": "2026-10-24T19:00:40Z",
+   "src": "The Guardian",
+   "kind": "News"
   }
  ],
  "discussions": [
@@ -809,54 +809,54 @@
    "t": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
    "url": "https://news.ycombinator.com/item?id=50233779",
    "link": "https://lynchlab.net/llm-skin-cancer",
-   "up": 36,
-   "com": 6,
+   "up": 104,
+   "com": 56,
    "at": "2026-10-25T17:15:38.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "AI use leads UC Berkeley math professor to see 'no point' in grading homework",
+   "url": "https://news.ycombinator.com/item?id=50233304",
+   "link": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
+   "up": 58,
+   "com": 85,
+   "at": "2026-10-25T16:28:26.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Sabre Wulf Remastered",
    "url": "https://news.ycombinator.com/item?id=50233775",
    "link": "https://gp-64.com/swr/",
-   "up": 28,
+   "up": 33,
    "com": 4,
    "at": "2026-10-25T17:15:16.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "What Adobe v ArtCraft teaches us",
-   "url": "https://news.ycombinator.com/item?id=50232682",
-   "link": "https://techbronerd.substack.com/p/openai-and-anthropic-wanted-to-replace",
-   "up": 68,
-   "com": 46,
-   "at": "2026-10-25T15:34:44.000Z"
   },
   {
    "src": "Hacker News",
    "t": "No signs of AI payoff outside the tech sector",
    "url": "https://news.ycombinator.com/item?id=50224463",
    "link": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
-   "up": 591,
-   "com": 632,
+   "up": 593,
+   "com": 634,
    "at": "2026-10-24T19:47:19.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "What Adobe v ArtCraft teaches us",
+   "url": "https://news.ycombinator.com/item?id=50232682",
+   "link": "https://techbronerd.substack.com/p/openai-and-anthropic-wanted-to-replace",
+   "up": 76,
+   "com": 67,
+   "at": "2026-10-25T15:34:44.000Z"
   },
   {
    "src": "Hacker News",
    "t": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
    "url": "https://news.ycombinator.com/item?id=50226419",
    "link": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
-   "up": 472,
-   "com": 494,
+   "up": 480,
+   "com": 505,
    "at": "2026-10-24T23:11:54.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "fheroes2: A recreation of Heroes of Might and Magic II game engine",
-   "url": "https://news.ycombinator.com/item?id=50230384",
-   "link": "https://github.com/ihhub/fheroes2",
-   "up": 172,
-   "com": 57,
-   "at": "2026-10-25T11:09:12.000Z"
   }
  ]
 }
