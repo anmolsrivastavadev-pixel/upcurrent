@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-25T16:01:05.594Z"
+  "updated": "2026-10-25T16:30:53.928Z"
  },
  "pulse": {
   "trending": 73,
   "accelerating": 2,
   "newModels": 11,
-  "discussions": 36,
-  "stars": 278
+  "discussions": 34,
+  "stars": 279
  },
  "rising": [
   {
@@ -22,7 +22,7 @@
    "cat": "LLMs",
    "score": 93,
    "grow": 34,
-   "desc": "Model on Hugging Face · open source · ♥ 826",
+   "desc": "Model on Hugging Face · open source · ♥ 828",
    "meta": [
     "6.4K downloads",
     "Released 4 days ago"
@@ -52,12 +52,12 @@
    "owner": "Jakeschincariol",
    "src": "gh",
    "cat": "Agents",
-   "score": 88,
+   "score": 89,
    "grow": null,
    "desc": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
    "meta": [
-    "★ 1,412",
-    "~278 in 24h",
+    "★ 1,422",
+    "~279 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-20T14:17:54Z",
@@ -71,7 +71,7 @@
    "cat": "LLMs",
    "score": 88,
    "grow": 37,
-   "desc": "Model on Hugging Face · open source · ♥ 485",
+   "desc": "Model on Hugging Face · open source · ♥ 486",
    "meta": [
     "3.5K downloads",
     "Released 7 days ago"
@@ -181,6 +181,28 @@
  "breakouts": [],
  "hype": [
   {
+   "name": "Gemini 4",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "InfoQ.com",
+     "t": "Google Optimizes Agent Development Kit's 200K-line Python Codebase Overnight with Gemini 4 Argon",
+     "url": "https://www.infoq.com/news/2026/10/google-argon-optimizes-adk/"
+    },
+    {
+     "src": "YouTube",
+     "t": "HUGE GPT-7 BEL UPDATE! Claude REA BANNED, Gemini 4 Carbon Is INSANE, Qwen 4 LEAKS, & More! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=aZMKzHhlTh8"
+    }
+   ],
+   "buzz": 2,
+   "verdict": "Talk only, no public usage numbers"
+  },
+  {
    "name": "humanizer",
    "url": "https://huggingface.co/jialinyyzz/humanizer",
    "from": "Hugging Face",
@@ -201,8 +223,8 @@
    "name": "day-trader-skill",
    "url": "https://github.com/Jakeschincariol/day-trader-skill",
    "from": "GitHub",
-   "use": 278,
-   "useLabel": "~278 stars/day",
+   "use": 279,
+   "useLabel": "~279 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -316,12 +338,12 @@
  "github": [
   {
    "repo": "Jakeschincariol/day-trader-skill",
-   "stars": 1412,
-   "d24": 278,
+   "stars": 1422,
+   "d24": 279,
    "est": true,
-   "forks": 316,
+   "forks": 318,
    "contrib": null,
-   "score": 88
+   "score": 89
   }
  ],
  "models": [
@@ -334,7 +356,7 @@
    "grow": 34,
    "score": 93,
    "cat": "LLMs",
-   "likes": 826
+   "likes": 828
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -345,7 +367,7 @@
    "grow": 16,
    "score": 90,
    "cat": "Vision",
-   "likes": 2914
+   "likes": 2921
   },
   {
    "name": "Spark-X2.6-4B",
@@ -357,7 +379,7 @@
    "grow": 37,
    "score": 88,
    "cat": "LLMs",
-   "likes": 485
+   "likes": 486
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -368,7 +390,7 @@
    "grow": 12,
    "score": 87,
    "cat": "Vision",
-   "likes": 1569
+   "likes": 1573
   },
   {
    "name": "MOSS-Image-SFT",
@@ -705,10 +727,24 @@
    "kind": "News"
   },
   {
+   "t": "HUGE GPT-7 BEL UPDATE! Claude REA BANNED, Gemini 4 Carbon Is INSANE, Qwen 4 LEAKS, & More! AI NEWS",
+   "url": "https://www.youtube.com/watch?v=aZMKzHhlTh8",
+   "at": "2026-10-25T07:03:15Z",
+   "src": "WorldofAI",
+   "kind": "Video"
+  },
+  {
    "t": "Baba, which develops AI tools to help Medicare and Medicaid patients connect to care teams and handle advocacy tasks, raised a $40M Series A led by FirstMark",
    "url": "https://www.techmeme.com/261025/p5#a261025p5",
    "at": "2026-10-25T05:40:00.000Z",
    "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "NAB must come clean on the role of AI in its job losses",
+   "url": "https://www.afr.com/companies/financial-services/nab-must-come-clean-on-the-role-of-ai-in-its-job-losses-20261025-p617bu",
+   "at": "2026-10-25T04:04:12Z",
+   "src": "Australian Financial Review",
    "kind": "News"
   },
   {
@@ -782,23 +818,9 @@
    "kind": "News"
   },
   {
-   "t": "Trump AI push faces voter backlash over data centers: CNBC survey",
-   "url": "https://www.europesays.com/3330078/",
-   "at": "2026-10-25T00:00:37Z",
-   "src": "EUROPE SAYS",
-   "kind": "News"
-  },
-  {
    "t": "Outside of tech there has been no financial payoff to US companies for using AI, now viewed as a margin-hurting cost center, as VC-backed firms burn more tokens",
    "url": "https://www.techmeme.com/261024/p9#a261024p9",
    "at": "2026-10-24T21:30:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Source: Replit recently moved most AI spend from Anthropic to OpenAI, which gave 30%+ off in a deal worth $100M+/year, after Anthropic discontinued its discount",
-   "url": "https://www.techmeme.com/261024/p8#a261024p8",
-   "at": "2026-10-24T19:45:01.000Z",
    "src": "Techmeme",
    "kind": "News"
   }
@@ -806,29 +828,29 @@
  "discussions": [
   {
    "src": "Hacker News",
-   "t": "R/open source bans all solo projects and projects using LLMs",
-   "url": "https://news.ycombinator.com/item?id=50231722",
-   "link": "https://www.reddit.com/r/opensource/comments/1xelcuf/your_tokens_arent_valuable_no_more_ai",
-   "up": 61,
-   "com": 78,
-   "at": "2026-10-25T14:05:03.000Z"
-  },
-  {
-   "src": "Hacker News",
    "t": "No signs of AI payoff outside the tech sector",
    "url": "https://news.ycombinator.com/item?id=50224463",
    "link": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
-   "up": 587,
-   "com": 623,
+   "up": 588,
+   "com": 625,
    "at": "2026-10-24T19:47:19.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "R/open source bans all solo projects and projects using LLMs",
+   "url": "https://news.ycombinator.com/item?id=50231722",
+   "link": "https://www.reddit.com/r/opensource/comments/1xelcuf/your_tokens_arent_valuable_no_more_ai",
+   "up": 64,
+   "com": 85,
+   "at": "2026-10-25T14:05:03.000Z"
   },
   {
    "src": "Hacker News",
    "t": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
    "url": "https://news.ycombinator.com/item?id=50226419",
    "link": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
-   "up": 442,
-   "com": 459,
+   "up": 448,
+   "com": 471,
    "at": "2026-10-24T23:11:54.000Z"
   },
   {
@@ -836,8 +858,8 @@
    "t": "fheroes2: A recreation of Heroes of Might and Magic II game engine",
    "url": "https://news.ycombinator.com/item?id=50230384",
    "link": "https://github.com/ihhub/fheroes2",
-   "up": 118,
-   "com": 38,
+   "up": 131,
+   "com": 43,
    "at": "2026-10-25T11:09:12.000Z"
   },
   {
@@ -845,8 +867,8 @@
    "t": "The Goose Programming Language",
    "url": "https://news.ycombinator.com/item?id=50224100",
    "link": "https://aardappel.github.io/goose/",
-   "up": 505,
-   "com": 306,
+   "up": 509,
+   "com": 310,
    "at": "2026-10-24T19:06:55.000Z"
   },
   {
@@ -854,8 +876,8 @@
    "t": "Cerebras Deploys Trillion-Parameter AI Models",
    "url": "https://news.ycombinator.com/item?id=50227356",
    "link": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
-   "up": 272,
-   "com": 93,
+   "up": 282,
+   "com": 95,
    "at": "2026-10-25T01:33:49.000Z"
   }
  ]
