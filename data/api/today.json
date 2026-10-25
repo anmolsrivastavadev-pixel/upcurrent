@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-25T12:01:02.671Z"
+  "updated": "2026-10-25T12:30:52.681Z"
  },
  "pulse": {
-  "trending": 74,
+  "trending": 73,
   "accelerating": 1,
   "newModels": 11,
   "discussions": 35,
-  "stars": 445
+  "stars": 394
  },
  "rising": [
   {
@@ -22,7 +22,7 @@
    "cat": "LLMs",
    "score": 94,
    "grow": 34,
-   "desc": "Model on Hugging Face · open source · ♥ 807",
+   "desc": "Model on Hugging Face · open source · ♥ 811",
    "meta": [
     "6.4K downloads",
     "Released 4 days ago"
@@ -53,11 +53,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 88,
-   "grow": 27,
+   "grow": 28,
    "desc": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
    "meta": [
-    "★ 1,304",
-    "+393 in 24h",
+    "★ 1,313",
+    "+394 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-20T14:17:54Z",
@@ -71,7 +71,7 @@
    "cat": "LLMs",
    "score": 88,
    "grow": 37,
-   "desc": "Model on Hugging Face · open source · ♥ 471",
+   "desc": "Model on Hugging Face · open source · ♥ 473",
    "meta": [
     "3.5K downloads",
     "Released 6 days ago"
@@ -87,7 +87,7 @@
    "cat": "Vision",
    "score": 87,
    "grow": 12,
-   "desc": "Vision on Hugging Face · open weights · ♥ 1.5K",
+   "desc": "Vision on Hugging Face · open weights · ♥ 1.6K",
    "meta": [
     "661K downloads",
     "Released 11 days ago"
@@ -136,7 +136,7 @@
    "cat": "Vision",
    "score": 84,
    "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 707",
+   "desc": "Vision on Hugging Face · open source · ♥ 708",
    "meta": [
     "11K downloads",
     "Released 14 days ago"
@@ -144,23 +144,6 @@
    "at": "2026-10-11T07:01:17.000Z",
    "breakout": null,
    "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT"
-  },
-  {
-   "name": "huashu-motion",
-   "owner": "alchaincyf",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 83,
-   "grow": 2,
-   "desc": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
-   "meta": [
-    "★ 1,625",
-    "+52 in 24h",
-    "Created 7 days ago"
-   ],
-   "at": "2026-10-18T12:19:27Z",
-   "breakout": null,
-   "url": "https://github.com/alchaincyf/huashu-motion"
   },
   {
    "name": "drama-3",
@@ -177,6 +160,22 @@
    "at": "2026-10-01T04:34:57.000Z",
    "breakout": null,
    "url": "https://huggingface.co/fishaudio/drama-3"
+  },
+  {
+   "name": "IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems",
+   "owner": "Paper",
+   "src": "paper",
+   "url": "https://huggingface.co/papers/2610.30949",
+   "cat": "Research",
+   "score": 83,
+   "grow": null,
+   "desc": "We present IQuest-Q1, a sparse Mixture-of-Experts (MoE) agentic foundation model with 320B total parameters (15B activated).",
+   "meta": [
+    "▲ 96 upvotes",
+    "Hugging Face Papers"
+   ],
+   "at": "2026-10-21T20:00:00.000Z",
+   "breakout": null
   }
  ],
  "breakouts": [],
@@ -202,8 +201,8 @@
    "name": "day-trader-skill",
    "url": "https://github.com/Jakeschincariol/day-trader-skill",
    "from": "GitHub",
-   "use": 393,
-   "useLabel": "+393 stars/day",
+   "use": 394,
+   "useLabel": "+394 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -317,21 +316,12 @@
  "github": [
   {
    "repo": "Jakeschincariol/day-trader-skill",
-   "stars": 1304,
-   "d24": 393,
+   "stars": 1313,
+   "d24": 394,
    "est": false,
    "forks": 300,
    "contrib": null,
    "score": 88
-  },
-  {
-   "repo": "alchaincyf/huashu-motion",
-   "stars": 1625,
-   "d24": 52,
-   "est": false,
-   "forks": 160,
-   "contrib": null,
-   "score": 83
   }
  ],
  "models": [
@@ -344,7 +334,7 @@
    "grow": 34,
    "score": 94,
    "cat": "LLMs",
-   "likes": 807
+   "likes": 811
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -355,7 +345,7 @@
    "grow": 16,
    "score": 91,
    "cat": "Vision",
-   "likes": 2873
+   "likes": 2883
   },
   {
    "name": "Spark-X2.6-4B",
@@ -367,7 +357,7 @@
    "grow": 37,
    "score": 88,
    "cat": "LLMs",
-   "likes": 471
+   "likes": 473
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -378,7 +368,7 @@
    "grow": 12,
    "score": 87,
    "cat": "Vision",
-   "likes": 1548
+   "likes": 1552
   },
   {
    "name": "MOSS-Image-SFT",
@@ -389,7 +379,7 @@
    "grow": null,
    "score": 84,
    "cat": "Vision",
-   "likes": 707
+   "likes": 708
   },
   {
    "name": "drama-3",
@@ -400,7 +390,7 @@
    "grow": 8,
    "score": 83,
    "cat": "Tools",
-   "likes": 1000
+   "likes": 1001
   }
  ],
  "free": [
@@ -708,18 +698,18 @@
    "kind": "News"
   },
   {
-   "t": "HUGE GPT-7 BEL UPDATE! Claude REA BANNED, Gemini 4 Carbon Is INSANE, Qwen 4 LEAKS, & More! AI NEWS",
-   "url": "https://www.youtube.com/watch?v=aZMKzHhlTh8",
-   "at": "2026-10-25T07:03:15Z",
-   "src": "WorldofAI",
-   "kind": "Video"
-  },
-  {
    "t": "Baba, which develops AI tools to help Medicare and Medicaid patients connect to care teams and handle advocacy tasks, raised a $40M Series A led by FirstMark",
    "url": "https://www.techmeme.com/261025/p5#a261025p5",
    "at": "2026-10-25T05:40:00.000Z",
    "src": "Techmeme",
    "kind": "News"
+  },
+  {
+   "t": "Cybersecurity chaos, AI for DNA, Kimi K3.1, Claude Duet, Dessa, Fibo 2, Minimax 3.1: AI NEWS",
+   "url": "https://www.youtube.com/watch?v=EfyQOAJjx1A",
+   "at": "2026-10-25T03:29:04Z",
+   "src": "AI Search",
+   "kind": "Video"
   },
   {
    "t": "Trump AI push faces voter backlash over data centers: CNBC survey",
@@ -819,25 +809,17 @@
    "t": "No signs of AI payoff outside the tech sector",
    "url": "https://news.ycombinator.com/item?id=50224463",
    "link": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
-   "up": 562,
+   "up": 566,
    "com": 596,
    "at": "2026-10-24T19:47:19.000Z"
-  },
-  {
-   "src": "Mastodon",
-   "t": "BOMBSHELL TAPE STUNS THE PRESIDENCY # content_review # omarchy # linux # runbsd # freebsd # comic # art # fediverse # programming # ai # neverslop",
-   "url": "https://merveilles.town/@prahou/117501303459299869",
-   "up": 33,
-   "com": 3,
-   "at": "2026-10-25T11:26:44.000Z"
   },
   {
    "src": "Hacker News",
    "t": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
    "url": "https://news.ycombinator.com/item?id=50226419",
    "link": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
-   "up": 384,
-   "com": 396,
+   "up": 390,
+   "com": 404,
    "at": "2026-10-24T23:11:54.000Z"
   },
   {
@@ -845,27 +827,36 @@
    "t": "The Goose Programming Language",
    "url": "https://news.ycombinator.com/item?id=50224100",
    "link": "https://aardappel.github.io/goose/",
-   "up": 436,
-   "com": 267,
+   "up": 444,
+   "com": 271,
    "at": "2026-10-24T19:06:55.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "fheroes2: A recreation of Heroes of Might and Magic II game engine",
+   "url": "https://news.ycombinator.com/item?id=50230384",
+   "link": "https://github.com/ihhub/fheroes2",
+   "up": 30,
+   "com": 6,
+   "at": "2026-10-25T11:09:12.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Five Qwen3.8-27B models match Fable 5 Using GVS5H Harness",
    "url": "https://news.ycombinator.com/item?id=50228167",
    "link": "https://github.com/slee-persis/GVS5H",
-   "up": 167,
+   "up": 168,
    "com": 57,
    "at": "2026-10-25T03:56:01.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Elon Musk Just Gave Europe a Reason to Replace American Technology",
-   "url": "https://news.ycombinator.com/item?id=50220913",
-   "link": "https://steveblank.com/2026/10/24/europe-gets-a-wake-up-call/",
-   "up": 450,
-   "com": 479,
-   "at": "2026-10-24T13:09:28.000Z"
+   "t": "Cerebras Deploys Trillion-Parameter AI Models",
+   "url": "https://news.ycombinator.com/item?id=50227356",
+   "link": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+   "up": 214,
+   "com": 67,
+   "at": "2026-10-25T01:33:49.000Z"
   }
  ]
 }
