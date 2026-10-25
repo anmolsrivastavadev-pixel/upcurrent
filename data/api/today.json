@@ -5,13 +5,13 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-25T20:30:58.602Z"
+  "updated": "2026-10-25T21:01:05.798Z"
  },
  "pulse": {
   "trending": 74,
   "accelerating": 2,
   "newModels": 12,
-  "discussions": 33,
+  "discussions": 34,
   "stars": 292
  },
  "rising": [
@@ -22,7 +22,7 @@
    "cat": "LLMs",
    "score": 93,
    "grow": 34,
-   "desc": "Model on Hugging Face · open source · ♥ 842",
+   "desc": "Model on Hugging Face · open source · ♥ 844",
    "meta": [
     "6.4K downloads",
     "Released 4 days ago"
@@ -30,6 +30,23 @@
    "at": "2026-10-21T14:20:58.000Z",
    "breakout": null,
    "url": "https://huggingface.co/RecursiveSI/flint"
+  },
+  {
+   "name": "day-trader-skill",
+   "owner": "Jakeschincariol",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 90,
+   "grow": null,
+   "desc": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
+   "meta": [
+    "★ 1,544",
+    "~292 in 24h",
+    "Created 5 days ago"
+   ],
+   "at": "2026-10-20T14:17:54Z",
+   "breakout": null,
+   "url": "https://github.com/Jakeschincariol/day-trader-skill"
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -48,30 +65,13 @@
    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
   },
   {
-   "name": "day-trader-skill",
-   "owner": "Jakeschincariol",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 89,
-   "grow": null,
-   "desc": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
-   "meta": [
-    "★ 1,535",
-    "~292 in 24h",
-    "Created 5 days ago"
-   ],
-   "at": "2026-10-20T14:17:54Z",
-   "breakout": null,
-   "url": "https://github.com/Jakeschincariol/day-trader-skill"
-  },
-  {
    "name": "Spark-X2.6-4B",
    "owner": "XHToken",
    "src": "hf",
    "cat": "LLMs",
    "score": 88,
    "grow": 37,
-   "desc": "Model on Hugging Face · open source · ♥ 488",
+   "desc": "Model on Hugging Face · open source · ♥ 490",
    "meta": [
     "3.5K downloads",
     "Released 7 days ago"
@@ -103,7 +103,7 @@
    "cat": "Infrastructure",
    "score": 87,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 305",
+   "desc": "Model on Hugging Face · open source · ♥ 318",
    "meta": [
     "0 downloads",
     "Released 2 days ago"
@@ -152,7 +152,7 @@
    "cat": "Vision",
    "score": 84,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open source · ♥ 723",
+   "desc": "Vision on Hugging Face · open source · ♥ 724",
    "meta": [
     "11K downloads",
     "Released 15 days ago"
@@ -168,7 +168,7 @@
    "cat": "Agents",
    "score": 83,
    "grow": null,
-   "desc": "Model on Hugging Face · open weights · ♥ 344",
+   "desc": "Model on Hugging Face · open weights · ♥ 345",
    "meta": [
     "7.4K downloads",
     "Released 9 days ago"
@@ -316,12 +316,12 @@
  "github": [
   {
    "repo": "Jakeschincariol/day-trader-skill",
-   "stars": 1535,
+   "stars": 1544,
    "d24": 292,
    "est": true,
-   "forks": 344,
+   "forks": 345,
    "contrib": null,
-   "score": 89
+   "score": 90
   }
  ],
  "models": [
@@ -334,7 +334,7 @@
    "grow": 34,
    "score": 93,
    "cat": "LLMs",
-   "likes": 842
+   "likes": 844
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -345,7 +345,7 @@
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 2959
+   "likes": 2961
   },
   {
    "name": "Spark-X2.6-4B",
@@ -357,7 +357,7 @@
    "grow": 37,
    "score": 88,
    "cat": "LLMs",
-   "likes": 488
+   "likes": 490
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -368,7 +368,7 @@
    "grow": 12,
    "score": 87,
    "cat": "Vision",
-   "likes": 1591
+   "likes": 1593
   },
   {
    "name": "Nanbeige4.3-33B",
@@ -380,7 +380,7 @@
    "grow": null,
    "score": 87,
    "cat": "Infrastructure",
-   "likes": 305
+   "likes": 318
   },
   {
    "name": "MOSS-Image-SFT",
@@ -391,7 +391,7 @@
    "grow": 0,
    "score": 84,
    "cat": "Vision",
-   "likes": 723
+   "likes": 724
   }
  ],
  "free": [
@@ -810,8 +810,8 @@
    "t": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
    "url": "https://news.ycombinator.com/item?id=50233779",
    "link": "https://lynchlab.net/llm-skin-cancer",
-   "up": 262,
-   "com": 123,
+   "up": 289,
+   "com": 145,
    "at": "2026-10-25T17:15:38.000Z"
   },
   {
@@ -819,8 +819,8 @@
    "t": "AI use leads UC Berkeley math professor to see 'no point' in grading homework",
    "url": "https://news.ycombinator.com/item?id=50233304",
    "link": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
-   "up": 127,
-   "com": 205,
+   "up": 143,
+   "com": 227,
    "at": "2026-10-25T16:28:26.000Z"
   },
   {
@@ -828,36 +828,36 @@
    "t": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
    "url": "https://news.ycombinator.com/item?id=50226419",
    "link": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
-   "up": 487,
-   "com": 521,
+   "up": 489,
+   "com": 524,
    "at": "2026-10-24T23:11:54.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "fheroes2: A recreation of Heroes of Might and Magic II game engine",
-   "url": "https://news.ycombinator.com/item?id=50230384",
-   "link": "https://github.com/ihhub/fheroes2",
-   "up": 184,
-   "com": 65,
-   "at": "2026-10-25T11:09:12.000Z"
   },
   {
    "src": "Hacker News",
    "t": "JetBrains Thinkrail",
    "url": "https://news.ycombinator.com/item?id=50233294",
    "link": "https://github.com/JetBrains/thinkrail",
-   "up": 79,
-   "com": 31,
+   "up": 102,
+   "com": 60,
    "at": "2026-10-25T16:27:12.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Cerebras Deploys Trillion-Parameter AI Models",
-   "url": "https://news.ycombinator.com/item?id=50227356",
-   "link": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
-   "up": 336,
-   "com": 119,
-   "at": "2026-10-25T01:33:49.000Z"
+   "t": "Eunice is almost here",
+   "url": "https://news.ycombinator.com/item?id=50235316",
+   "link": "https://armincat.com/articles/eunice-is-almost-here",
+   "up": 26,
+   "com": 22,
+   "at": "2026-10-25T19:40:27.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "fheroes2: A recreation of Heroes of Might and Magic II game engine",
+   "url": "https://news.ycombinator.com/item?id=50230384",
+   "link": "https://github.com/ihhub/fheroes2",
+   "up": 185,
+   "com": 65,
+   "at": "2026-10-25T11:09:12.000Z"
   }
  ]
 }
