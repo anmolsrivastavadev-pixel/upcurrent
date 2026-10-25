@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-25T01:40:04.876Z"
+  "updated": "2026-10-25T02:01:08.238Z"
  },
  "pulse": {
   "trending": 76,
-  "accelerating": 4,
+  "accelerating": 3,
   "newModels": 12,
-  "discussions": 37,
-  "stars": 445
+  "discussions": 38,
+  "stars": 450
  },
  "rising": [
   {
@@ -69,10 +69,10 @@
    "src": "gh",
    "cat": "Agents",
    "score": 88,
-   "grow": 9,
+   "grow": 10,
    "desc": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
    "meta": [
-    "★ 1,119",
+    "★ 1,124",
     "+337 in 24h",
     "Created 4 days ago"
    ],
@@ -86,7 +86,7 @@
    "src": "hf",
    "cat": "Vision",
    "score": 87,
-   "grow": 10,
+   "grow": null,
    "desc": "Vision on Hugging Face · open weights · ♥ 1.5K",
    "meta": [
     "591K downloads",
@@ -138,8 +138,8 @@
    "grow": 0,
    "desc": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
    "meta": [
-    "★ 1,594",
-    "+20 in 24h",
+    "★ 1,596",
+    "+26 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-18T12:19:27Z",
@@ -153,7 +153,7 @@
    "cat": "Vision",
    "score": 84,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open source · ♥ 697",
+   "desc": "Vision on Hugging Face · open source · ♥ 698",
    "meta": [
     "9.7K downloads",
     "Released 14 days ago"
@@ -169,7 +169,7 @@
    "cat": "Tools",
    "score": 83,
    "grow": 17,
-   "desc": "Model on Hugging Face · open weights · ♥ 989",
+   "desc": "Model on Hugging Face · open weights · ♥ 990",
    "meta": [
     "20K downloads",
     "Released 24 days ago"
@@ -317,26 +317,26 @@
  "github": [
   {
    "repo": "Jakeschincariol/day-trader-skill",
-   "stars": 1119,
+   "stars": 1124,
    "d24": 337,
    "est": false,
-   "forks": 255,
+   "forks": 259,
    "contrib": null,
    "score": 88
   },
   {
    "repo": "Ansub/tv-detox",
-   "stars": 1488,
-   "d24": 88,
+   "stars": 1489,
+   "d24": 87,
    "est": false,
-   "forks": 154,
+   "forks": 155,
    "contrib": null,
    "score": 81
   },
   {
    "repo": "alchaincyf/huashu-motion",
-   "stars": 1594,
-   "d24": 20,
+   "stars": 1596,
+   "d24": 26,
    "est": false,
    "forks": 157,
    "contrib": null,
@@ -364,7 +364,7 @@
    "grow": null,
    "score": 91,
    "cat": "Vision",
-   "likes": 2790
+   "likes": 2794
   },
   {
    "name": "Spark-X2.6-4B",
@@ -384,7 +384,7 @@
    "lic": "Open weights",
    "at": "2026-10-14T12:00:13.000Z",
    "dl": 590742,
-   "grow": 10,
+   "grow": null,
    "score": 87,
    "cat": "Vision",
    "likes": 1506
@@ -398,7 +398,7 @@
    "grow": 0,
    "score": 84,
    "cat": "Vision",
-   "likes": 697
+   "likes": 698
   },
   {
    "name": "drama-3",
@@ -409,7 +409,7 @@
    "grow": 17,
    "score": 83,
    "cat": "Tools",
-   "likes": 989
+   "likes": 990
   }
  ],
  "free": [
@@ -828,17 +828,17 @@
    "t": "No signs of AI payoff outside the tech sector",
    "url": "https://news.ycombinator.com/item?id=50224463",
    "link": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
-   "up": 476,
-   "com": 473,
+   "up": 483,
+   "com": 486,
    "at": "2026-10-24T19:47:19.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "America Has Lost 200k of Jobs in Media, Film and the Arts. How Much Is AI?",
+   "t": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
    "url": "https://news.ycombinator.com/item?id=50226419",
    "link": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
-   "up": 144,
-   "com": 120,
+   "up": 169,
+   "com": 138,
    "at": "2026-10-24T23:11:54.000Z"
   },
   {
@@ -846,8 +846,8 @@
    "t": "The Goose Programming Language",
    "url": "https://news.ycombinator.com/item?id=50224100",
    "link": "https://aardappel.github.io/goose/",
-   "up": 237,
-   "com": 162,
+   "up": 245,
+   "com": 167,
    "at": "2026-10-24T19:06:55.000Z"
   },
   {
@@ -864,8 +864,8 @@
    "t": "Roku developer repositories moved from GitHub to GitLab",
    "url": "https://news.ycombinator.com/item?id=50222622",
    "link": "https://blog.roku.com/developer/gitlab-move",
-   "up": 263,
-   "com": 173,
+   "up": 267,
+   "com": 176,
    "at": "2026-10-24T16:06:26.000Z"
   },
   {
