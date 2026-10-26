@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-26T07:30:52.781Z"
+  "updated": "2026-10-26T08:01:06.339Z"
  },
  "pulse": {
   "trending": 76,
   "accelerating": 0,
   "newModels": 10,
-  "discussions": 41,
-  "stars": 1137
+  "discussions": 42,
+  "stars": 1143
  },
  "rising": [
   {
@@ -20,12 +20,12 @@
    "owner": "rddmwmddr",
    "src": "gh",
    "cat": "Agents",
-   "score": 95,
+   "score": 96,
    "grow": null,
    "desc": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
    "meta": [
-    "★ 1,179",
-    "~567 in 24h",
+    "★ 1,215",
+    "~578 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-24T05:35:47Z",
@@ -39,7 +39,7 @@
    "cat": "LLMs",
    "score": 93,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 874",
+   "desc": "Model on Hugging Face · open source · ♥ 876",
    "meta": [
     "6.4K downloads",
     "Released 5 days ago"
@@ -55,7 +55,7 @@
    "cat": "Infrastructure",
    "score": 91,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 455",
+   "desc": "Model on Hugging Face · open source · ♥ 460",
    "meta": [
     "0 downloads",
     "Released 2 days ago"
@@ -86,11 +86,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 89,
-   "grow": 28,
+   "grow": 29,
    "desc": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
    "meta": [
-    "★ 1,774",
-    "+570 in 24h",
+    "★ 1,782",
+    "+565 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-20T14:17:54Z",
@@ -130,16 +130,16 @@
    "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy"
   },
   {
-   "name": "UserArena: Benchmarking Interactive User Simulation for Long-Horizon Shopping Agents",
+   "name": "HiSTEVE 1.0: Harnessing Human-Interface VLA Agents for Open-World Games",
    "owner": "Paper",
    "src": "paper",
-   "url": "https://huggingface.co/papers/2610.30932",
+   "url": "https://huggingface.co/papers/2610.31162",
    "cat": "Research",
    "score": 85,
    "grow": null,
-   "desc": "Agentic recommendation pursues shopper goals through sequences of context-dependent decisions.",
+   "desc": "Building virtual embodied agents that operate in open-ended games like human players is a long-standing goal requiring both long-horizon autonomy and reliable native-interface control.",
    "meta": [
-    "▲ 31 upvotes",
+    "▲ 28 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-21T20:00:00.000Z",
@@ -155,7 +155,7 @@
    "grow": null,
    "desc": "The fastest headless browser for agents and harnesses",
    "meta": [
-    "▲ 280 votes",
+    "▲ 282 votes",
     "67 comments",
     "Launched yesterday"
    ],
@@ -169,7 +169,7 @@
    "cat": "Infrastructure",
    "score": 84,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 300",
+   "desc": "Model on Hugging Face · open source · ♥ 301",
    "meta": [
     "412K downloads",
     "Released 3 days ago"
@@ -199,11 +199,11 @@
    "verdict": "The hype matches real use"
   },
   {
-   "name": "day-trader-skill",
-   "url": "https://github.com/Jakeschincariol/day-trader-skill",
+   "name": "android-ad-cleaner",
+   "url": "https://github.com/rddmwmddr/android-ad-cleaner",
    "from": "GitHub",
-   "use": 570,
-   "useLabel": "+570 stars/day",
+   "use": 578,
+   "useLabel": "~578 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -316,22 +316,22 @@
  ],
  "github": [
   {
+   "repo": "rddmwmddr/android-ad-cleaner",
+   "stars": 1215,
+   "d24": 578,
+   "est": true,
+   "forks": 100,
+   "contrib": null,
+   "score": 96
+  },
+  {
    "repo": "Jakeschincariol/day-trader-skill",
-   "stars": 1774,
-   "d24": 570,
+   "stars": 1782,
+   "d24": 565,
    "est": false,
    "forks": 380,
    "contrib": null,
    "score": 89
-  },
-  {
-   "repo": "rddmwmddr/android-ad-cleaner",
-   "stars": 1179,
-   "d24": 567,
-   "est": true,
-   "forks": 96,
-   "contrib": null,
-   "score": 95
   }
  ],
  "models": [
@@ -344,7 +344,7 @@
    "grow": 0,
    "score": 93,
    "cat": "LLMs",
-   "likes": 874
+   "likes": 876
   },
   {
    "name": "Nanbeige4.3-33B",
@@ -356,7 +356,7 @@
    "grow": null,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 455
+   "likes": 460
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -367,7 +367,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 3042
+   "likes": 3044
   },
   {
    "name": "Spark-X2.6-4B",
@@ -390,7 +390,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Vision",
-   "likes": 1625
+   "likes": 1629
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
@@ -401,7 +401,7 @@
    "grow": null,
    "score": 84,
    "cat": "Infrastructure",
-   "likes": 300
+   "likes": 301
   }
  ],
  "free": [
@@ -702,6 +702,20 @@
  },
  "headlines": [
   {
+   "t": "AI cloud computing companies face ‘guppy-level death’, Elon Musk warns, as funding dries up – business live",
+   "url": "https://www.theguardian.com/business/live/2026/oct/26/ai-cloud-computing-companies-guppy-level-death-elon-musk-stock-markets-dollar-oil-bond-yieds-latest-news-updates",
+   "at": "2026-10-26T07:57:40Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "A profile of former Google VP and Yahoo CEO Marissa Mayer, whose startup Dazzle is building an AI assistant to help non-tech enthusiasts with mundane tasks",
+   "url": "https://www.techmeme.com/261026/p4#a261026p4",
+   "at": "2026-10-26T07:55:08.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Amazon Bee Frontier review: a simple $75 AI wearable that excels at always-on listening, summarizing conversations, and suggesting follow-up actions",
    "url": "https://www.techmeme.com/261026/p2#a261026p2",
    "at": "2026-10-26T05:05:00.000Z",
@@ -727,6 +741,20 @@
    "url": "https://www.techmeme.com/261025/p11#a261025p11",
    "at": "2026-10-25T21:35:01.000Z",
    "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Congress questions Election Commission's secrecy over software used for SIR",
+   "url": "https://www.tribuneindia.com/news/india/congress-questions-election-commissions-secrecy-over-software-used-for-sir/",
+   "at": "2026-10-25T19:54:10Z",
+   "src": "The Tribune",
+   "kind": "News"
+  },
+  {
+   "t": "Nearly half of Canadians use AI to self-diagnose: survey",
+   "url": "https://torontosun.com/news/nearly-half-of-canadians-have-either-gone-online-or-used-artificial-intelligence-to-self-diagnose-report",
+   "at": "2026-10-25T19:48:40Z",
+   "src": "Toronto Sun",
    "kind": "News"
   },
   {
@@ -784,34 +812,6 @@
    "at": "2026-10-25T17:01:00Z",
    "src": "The Philadelphia Inquirer",
    "kind": "News"
-  },
-  {
-   "t": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
-   "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
-   "at": "2026-10-25T16:57:32Z",
-   "src": "TechCrunch",
-   "kind": "News"
-  },
-  {
-   "t": "NSA Urges Organizations to Patch “Catastrophic” Flaws in PHP Code",
-   "url": "https://www.naturalnews.com/2026-10-25-nsa-urges-organizations-patch-flaws-php-code.html",
-   "at": "2026-10-25T16:40:25Z",
-   "src": "Natural News",
-   "kind": "News"
-  },
-  {
-   "t": "Artificial intelligence's next big bottleneck in India is a very small chip",
-   "url": "https://www.business-standard.com/technology/artificial-intelligence/artificial-intelligence-s-next-big-bottleneck-in-india-is-a-very-small-chip-126102500573_1.html",
-   "at": "2026-10-25T16:40:09Z",
-   "src": "Business Standard",
-   "kind": "News"
-  },
-  {
-   "t": "‘Extremely disappointed’: WA government seeks reimbursement from Deloitte over flawed university report ",
-   "url": "https://www.theguardian.com/australia-news/2026/oct/26/deloitte-report-wa-university-mergers-260m-discrepancy-ai",
-   "at": "2026-10-25T14:00:06Z",
-   "src": "The Guardian",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -820,8 +820,8 @@
    "t": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
    "url": "https://news.ycombinator.com/item?id=50233779",
    "link": "https://lynchlab.net/llm-skin-cancer",
-   "up": 527,
-   "com": 230,
+   "up": 531,
+   "com": 234,
    "at": "2026-10-25T17:15:38.000Z"
   },
   {
@@ -829,8 +829,8 @@
    "t": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
    "url": "https://news.ycombinator.com/item?id=50236102",
    "link": "https://minimaxir.com/2026/10/cheap-llms/",
-   "up": 263,
-   "com": 278,
+   "up": 274,
+   "com": 281,
    "at": "2026-10-25T21:11:31.000Z"
   },
   {
@@ -838,8 +838,8 @@
    "t": "PaperPilot – Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
    "url": "https://news.ycombinator.com/item?id=50238739",
    "link": "https://github.com/KrushnaVardhanReddy/PaperPilot",
-   "up": 85,
-   "com": 20,
+   "up": 101,
+   "com": 25,
    "at": "2026-10-26T03:29:05.000Z"
   },
   {
@@ -847,8 +847,8 @@
    "t": "Removing Next.js Got My Blog to 100 on Every Lighthouse Category",
    "url": "https://news.ycombinator.com/item?id=50237712",
    "link": "https://korindiehacker.bloffy.blog/en/removing-nextjs-got-my-blog-to-100-on-every-lighthouse-category",
-   "up": 107,
-   "com": 62,
+   "up": 114,
+   "com": 63,
    "at": "2026-10-26T01:03:39.000Z"
   },
   {
@@ -856,8 +856,8 @@
    "t": "Cognitive Mercantilism: AI panic resembles fears of early capitalism",
    "url": "https://news.ycombinator.com/item?id=50239027",
    "link": "https://contraptions.venkateshrao.com/p/cognitive-mercantilism",
-   "up": 55,
-   "com": 44,
+   "up": 59,
+   "com": 54,
    "at": "2026-10-26T04:11:40.000Z"
   },
   {
@@ -865,7 +865,7 @@
    "t": "AI use leads UC Berkeley math professor to see 'no point' in grading homework",
    "url": "https://news.ycombinator.com/item?id=50233304",
    "link": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
-   "up": 214,
+   "up": 215,
    "com": 312,
    "at": "2026-10-25T16:28:26.000Z"
   }
