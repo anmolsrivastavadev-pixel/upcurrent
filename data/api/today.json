@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-26T18:30:55.273Z"
+  "updated": "2026-10-26T19:01:07.748Z"
  },
  "pulse": {
   "trending": 79,
   "accelerating": 2,
   "newModels": 9,
-  "discussions": 44,
-  "stars": 2577
+  "discussions": 46,
+  "stars": 2568
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 96,
-   "grow": 73,
+   "grow": 74,
    "desc": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
    "meta": [
-    "★ 1,802",
-    "+1,306 in 24h",
+    "★ 1,810",
+    "+1,274 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-24T05:35:47Z",
@@ -41,8 +41,8 @@
    "grow": null,
    "desc": "The agent skills I use every day. Works with Claude Code and Codex.",
    "meta": [
-    "★ 1,301",
-    "~508 in 24h",
+    "★ 1,331",
+    "~515 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-24T05:00:20Z",
@@ -56,7 +56,7 @@
    "cat": "Infrastructure",
    "score": 94,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 568",
+   "desc": "Model on Hugging Face · open source · ♥ 572",
    "meta": [
     "2.8K downloads",
     "Released 3 days ago"
@@ -70,9 +70,9 @@
    "owner": "RecursiveSI",
    "src": "hf",
    "cat": "LLMs",
-   "score": 93,
+   "score": 92,
    "grow": 31,
-   "desc": "Model on Hugging Face · open source · ♥ 903",
+   "desc": "Model on Hugging Face · open source · ♥ 905",
    "meta": [
     "8.5K downloads",
     "Released 5 days ago"
@@ -86,12 +86,12 @@
    "owner": "morganlinton",
    "src": "gh",
    "cat": "Agents",
-   "score": 91,
+   "score": 90,
    "grow": null,
    "desc": "Agent Skills that teach coding agents to write, review, and port idiomatic Rust, plus a tested clippy config. Works with Claude Code, Codex, Copilot, Cursor, and Gemini CLI.",
    "meta": [
-    "★ 1,172",
-    "~321 in 24h",
+    "★ 1,179",
+    "~322 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-23T03:01:11Z",
@@ -115,6 +115,23 @@
    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
   },
   {
+   "name": "day-trader-skill",
+   "owner": "Jakeschincariol",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 88,
+   "grow": 8,
+   "desc": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
+   "meta": [
+    "★ 1,995",
+    "+457 in 24h",
+    "Created 6 days ago"
+   ],
+   "at": "2026-10-20T14:17:54Z",
+   "breakout": null,
+   "url": "https://github.com/Jakeschincariol/day-trader-skill"
+  },
+  {
    "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
    "owner": "ISTA-DASLab",
    "src": "hf",
@@ -131,30 +148,13 @@
    "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF"
   },
   {
-   "name": "day-trader-skill",
-   "owner": "Jakeschincariol",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 87,
-   "grow": 7,
-   "desc": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
-   "meta": [
-    "★ 1,981",
-    "+442 in 24h",
-    "Created 6 days ago"
-   ],
-   "at": "2026-10-20T14:17:54Z",
-   "breakout": null,
-   "url": "https://github.com/Jakeschincariol/day-trader-skill"
-  },
-  {
    "name": "Spark-X2.6-4B",
    "owner": "XHToken",
    "src": "hf",
    "cat": "LLMs",
    "score": 87,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 630",
+   "desc": "Model on Hugging Face · open source · ♥ 632",
    "meta": [
     "4.7K downloads",
     "Released 8 days ago"
@@ -208,8 +208,8 @@
    "name": "android-ad-cleaner",
    "url": "https://github.com/rddmwmddr/android-ad-cleaner",
    "from": "GitHub",
-   "use": 1306,
-   "useLabel": "+1,306 stars/day",
+   "use": 1274,
+   "useLabel": "+1,274 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -323,8 +323,8 @@
  "github": [
   {
    "repo": "rddmwmddr/android-ad-cleaner",
-   "stars": 1802,
-   "d24": 1306,
+   "stars": 1810,
+   "d24": 1274,
    "est": false,
    "forks": 148,
    "contrib": null,
@@ -332,30 +332,30 @@
   },
   {
    "repo": "t3dotgg/tstack",
-   "stars": 1301,
-   "d24": 508,
+   "stars": 1331,
+   "d24": 515,
    "est": true,
-   "forks": 63,
+   "forks": 66,
    "contrib": null,
    "score": 94
   },
   {
    "repo": "Jakeschincariol/day-trader-skill",
-   "stars": 1981,
-   "d24": 442,
+   "stars": 1995,
+   "d24": 457,
    "est": false,
-   "forks": 414,
+   "forks": 415,
    "contrib": null,
-   "score": 87
+   "score": 88
   },
   {
    "repo": "morganlinton/BeautifulRust",
-   "stars": 1172,
-   "d24": 321,
+   "stars": 1179,
+   "d24": 322,
    "est": true,
-   "forks": 49,
+   "forks": 50,
    "contrib": null,
-   "score": 91
+   "score": 90
   }
  ],
  "models": [
@@ -369,7 +369,7 @@
    "grow": 0,
    "score": 94,
    "cat": "Infrastructure",
-   "likes": 568
+   "likes": 572
   },
   {
    "name": "flint",
@@ -378,9 +378,9 @@
    "at": "2026-10-21T14:20:58.000Z",
    "dl": 8470,
    "grow": 31,
-   "score": 93,
+   "score": 92,
    "cat": "LLMs",
-   "likes": 903
+   "likes": 905
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -391,7 +391,7 @@
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 3154
+   "likes": 3155
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
@@ -414,7 +414,7 @@
    "grow": null,
    "score": 87,
    "cat": "LLMs",
-   "likes": 630
+   "likes": 632
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -425,7 +425,7 @@
    "grow": null,
    "score": 85,
    "cat": "Vision",
-   "likes": 1676
+   "likes": 1677
   }
  ],
  "free": [
@@ -726,6 +726,13 @@
  },
  "headlines": [
   {
+   "t": "Microsoft to reportedly offer buyouts to 60,000 employees in latest cuts",
+   "url": "https://www.theguardian.com/technology/2026/oct/26/microsoft-buyout-offers-ai-cuts",
+   "at": "2026-10-26T18:44:31Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
    "t": "OpenAI releases GPT-6.1 Terra, touting \"fast and capable computer use at scale\" and clearer, more natural writing, priced at $1/1M input and $5/1M output tokens",
    "url": "https://www.techmeme.com/261026/p40#a261026p40",
    "at": "2026-10-26T18:20:02.000Z",
@@ -829,13 +836,6 @@
    "at": "2026-10-26T13:37:26Z",
    "src": "The Guardian",
    "kind": "News"
-  },
-  {
-   "t": "Anthropic’s Claude AI model accessed Georgia voter data in US",
-   "url": "https://www.theguardian.com/technology/2026/oct/26/anthropics-claude-ai-model-accessed-georgia-voter-data-in-us",
-   "at": "2026-10-26T11:03:33Z",
-   "src": "The Guardian",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -844,8 +844,8 @@
    "t": "GPT-6.1 Terra",
    "url": "https://news.ycombinator.com/item?id=50248124",
    "link": "https://openai.com/index/introducing-gpt-6-1-terra/",
-   "up": 77,
-   "com": 25,
+   "up": 145,
+   "com": 69,
    "at": "2026-10-26T18:01:17.000Z"
   },
   {
@@ -853,44 +853,45 @@
    "t": "Concerning behavior from a popular open-weight AI model",
    "url": "https://news.ycombinator.com/item?id=50246658",
    "link": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
-   "up": 92,
-   "com": 31,
+   "up": 118,
+   "com": 42,
    "at": "2026-10-26T16:35:44.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "The Git Forge for Agent-Human Collaboration",
-   "url": "https://news.ycombinator.com/item?id=50247453",
-   "link": "https://entire.com/blog/the-git-forge-for-agent-human-collaboration",
-   "up": 37,
-   "com": 17,
-   "at": "2026-10-26T17:23:11.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Brown student maps the hidden global labor powering AI",
-   "url": "https://news.ycombinator.com/item?id=50242843",
-   "link": "https://www.brown.edu/news/2026-10-26/ai-data-workers",
-   "up": 147,
-   "com": 119,
-   "at": "2026-10-26T12:58:27.000Z"
-  },
-  {
-   "src": "Mastodon",
-   "t": "# rave # llm # ai # aibubble",
-   "url": "https://archaeo.social/@mrundkvist/117508169680867429",
-   "up": 51,
-   "com": 2,
-   "at": "2026-10-26T16:32:54.000Z"
+   "t": "Microsoft Announces Type Server Protocol, Extension of Language Server Protocol",
+   "url": "https://news.ycombinator.com/item?id=50248371",
+   "link": "https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md",
+   "up": 31,
+   "com": 7,
+   "at": "2026-10-26T18:14:49.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Retrieval's bottleneck is moving from finding to selecting",
    "url": "https://news.ycombinator.com/item?id=50248422",
    "link": "https://www.kapa.ai/blog/retrieval-bottleneck",
-   "up": 24,
+   "up": 29,
    "com": 0,
    "at": "2026-10-26T18:18:15.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Brown student maps the hidden global labor powering AI",
+   "url": "https://news.ycombinator.com/item?id=50242843",
+   "link": "https://www.brown.edu/news/2026-10-26/ai-data-workers",
+   "up": 153,
+   "com": 130,
+   "at": "2026-10-26T12:58:27.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "The Git Forge for Agent-Human Collaboration",
+   "url": "https://news.ycombinator.com/item?id=50247453",
+   "link": "https://entire.com/blog/the-git-forge-for-agent-human-collaboration",
+   "up": 41,
+   "com": 22,
+   "at": "2026-10-26T17:23:11.000Z"
   }
  ]
 }
