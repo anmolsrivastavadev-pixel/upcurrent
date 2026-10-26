@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-26T03:01:07.472Z"
+  "updated": "2026-10-26T03:30:55.784Z"
  },
  "pulse": {
   "trending": 74,
-  "accelerating": 2,
-  "newModels": 11,
-  "discussions": 37,
-  "stars": 568
+  "accelerating": 1,
+  "newModels": 10,
+  "discussions": 41,
+  "stars": 576
  },
  "rising": [
   {
@@ -38,7 +38,7 @@
    "cat": "Infrastructure",
    "score": 91,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 396",
+   "desc": "Model on Hugging Face · open source · ♥ 400",
    "meta": [
     "0 downloads",
     "Released 2 days ago"
@@ -53,11 +53,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 90,
-   "grow": 21,
+   "grow": 22,
    "desc": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
    "meta": [
-    "★ 1,666",
-    "+568 in 24h",
+    "★ 1,682",
+    "+576 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-20T14:17:54Z",
@@ -87,7 +87,7 @@
    "cat": "LLMs",
    "score": 88,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 525",
+   "desc": "Model on Hugging Face · open source · ♥ 530",
    "meta": [
     "3.5K downloads",
     "Released 7 days ago"
@@ -113,36 +113,20 @@
    "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy"
   },
   {
-   "name": "FilmFlow: Agentic System for 3D Virtual Film Cinematography",
-   "owner": "Paper",
-   "src": "paper",
-   "url": "https://huggingface.co/papers/2610.30753",
-   "cat": "Research",
-   "score": 85,
-   "grow": null,
-   "desc": "Complex camera motion is central to visual storytelling, yet translating cinematographic intent into controllable, executable camera trajectories remains challenging.",
-   "meta": [
-    "▲ 31 upvotes",
-    "Hugging Face Papers"
-   ],
-   "at": "2026-10-21T20:00:00.000Z",
-   "breakout": null
-  },
-  {
-   "name": "1Password for Agents",
+   "name": "Moli by Lexmount",
    "owner": "Product Hunt",
    "src": "ph",
-   "url": "https://www.producthunt.com/products/1password?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29",
+   "url": "https://www.producthunt.com/products/lexmount-browser?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29",
    "cat": "Agents",
    "score": 85,
    "grow": null,
-   "desc": "Let AI agents sign in for you without seeing your passwords",
+   "desc": "The fastest headless browser for agents and harnesses",
    "meta": [
-    "▲ 255 votes",
-    "7 comments",
-    "Launched 2 days ago"
+    "▲ 256 votes",
+    "61 comments",
+    "Launched 20h ago"
    ],
-   "at": "2026-10-24T07:01:00Z",
+   "at": "2026-10-25T07:01:00Z",
    "breakout": null
   },
   {
@@ -162,20 +146,35 @@
    "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash"
   },
   {
-   "name": "Moli by Lexmount",
-   "owner": "Product Hunt",
-   "src": "ph",
-   "url": "https://www.producthunt.com/products/lexmount-browser?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29",
-   "cat": "Agents",
+   "name": "Different Tasks, Different Timesteps: Temporal Task-Aware Quantization for Diffusion Language Models",
+   "owner": "Paper",
+   "src": "paper",
+   "url": "https://huggingface.co/papers/2610.31198",
+   "cat": "Research",
    "score": 83,
    "grow": null,
-   "desc": "The fastest headless browser for agents and harnesses",
+   "desc": "Diffusion Language Models (DLMs) introduce unique quantization challenges due to their iterative denoising process.",
    "meta": [
-    "▲ 250 votes",
-    "58 comments",
-    "Launched 20h ago"
+    "▲ 23 upvotes",
+    "Hugging Face Papers"
    ],
-   "at": "2026-10-25T07:01:00Z",
+   "at": "2026-10-21T20:00:00.000Z",
+   "breakout": null
+  },
+  {
+   "name": "Agent Mosaic: Recognizing Confidentiality Leaks in Agentic LLM Systems",
+   "owner": "Paper",
+   "src": "paper",
+   "url": "https://huggingface.co/papers/2610.30418",
+   "cat": "Research",
+   "score": 83,
+   "grow": null,
+   "desc": "Modern LLM agents can retrieve information from accessible documents, and then disclose a sensitive conclusion assembled from them.",
+   "meta": [
+    "▲ 23 upvotes",
+    "Hugging Face Papers"
+   ],
+   "at": "2026-10-20T20:00:00.000Z",
    "breakout": null
   }
  ],
@@ -202,8 +201,8 @@
    "name": "day-trader-skill",
    "url": "https://github.com/Jakeschincariol/day-trader-skill",
    "from": "GitHub",
-   "use": 568,
-   "useLabel": "+568 stars/day",
+   "use": 576,
+   "useLabel": "+576 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -317,10 +316,10 @@
  "github": [
   {
    "repo": "Jakeschincariol/day-trader-skill",
-   "stars": 1666,
-   "d24": 568,
+   "stars": 1682,
+   "d24": 576,
    "est": false,
-   "forks": 362,
+   "forks": 364,
    "contrib": null,
    "score": 90
   }
@@ -347,7 +346,7 @@
    "grow": null,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 396
+   "likes": 400
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -358,7 +357,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 3002
+   "likes": 3009
   },
   {
    "name": "Spark-X2.6-4B",
@@ -370,7 +369,7 @@
    "grow": null,
    "score": 88,
    "cat": "LLMs",
-   "likes": 525
+   "likes": 530
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -381,7 +380,7 @@
    "grow": null,
    "score": 87,
    "cat": "Vision",
-   "likes": 1609
+   "likes": 1611
   },
   {
    "name": "MiniMax-M3.1-Flash",
@@ -721,6 +720,20 @@
    "kind": "News"
   },
   {
+   "t": "Google, OpenAI and Anthropic back £100m UK AI biosecurity lab",
+   "url": "https://www.cityam.com/google-openai-and-anthropic-back-100m-uk-ai-biosecurity-lab/",
+   "at": "2026-10-25T15:29:45Z",
+   "src": "City A.M.",
+   "kind": "News"
+  },
+  {
+   "t": "Tech leaders want to use religion to teach AI right from wrong. But that can distort traditions",
+   "url": "https://fortune.com/2026/10/25/tech-leaders-religion-ai-morality-traditions-anthropic-openai/",
+   "at": "2026-10-25T15:22:28Z",
+   "src": "Fortune",
+   "kind": "News"
+  },
+  {
    "t": "The biggest wealth giveaway in modern history aims to transform the world",
    "url": "https://www.inquirer.com/business/openai-anthropic-elon-musk-philanthropy-ai-technology-public-society-20261025.html",
    "at": "2026-10-25T15:01:00Z",
@@ -784,20 +797,6 @@
    "kind": "News"
   },
   {
-   "t": "AI Could Generate $2.5 Trillion Annually, But Rising Costs a Concern: Report",
-   "url": "https://www.lokmattimes.com/technology/ai-could-generate-25-trillion-annually-but-rising-costs-a-concern-report-a001-w02/",
-   "at": "2026-10-25T12:55:37Z",
-   "src": "Lokmat Times",
-   "kind": "News"
-  },
-  {
-   "t": "Assam CM Himanta Biswa Sarma and Cabinet Goes Viral with Hilarious AI 'Gangnam Style' Video | WATCH",
-   "url": "https://www.republicworld.com/viral/assam-cm-himanta-biswa-sarma-and-cabinet-goes-viral-with-hilarious-ai-gangnam-style-video-watch-2026-10-25-139639",
-   "at": "2026-10-25T12:39:59Z",
-   "src": "Republic World",
-   "kind": "News"
-  },
-  {
    "t": "Lawmakers and Hill staffers in both parties say AI leaders are becoming a political liability as they swing between claims of prosperity and existential dangers",
    "url": "https://www.techmeme.com/261025/p7#a261025p7",
    "at": "2026-10-25T11:00:54.000Z",
@@ -811,7 +810,7 @@
    "t": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
    "url": "https://news.ycombinator.com/item?id=50233779",
    "link": "https://lynchlab.net/llm-skin-cancer",
-   "up": 463,
+   "up": 476,
    "com": 216,
    "at": "2026-10-25T17:15:38.000Z"
   },
@@ -820,8 +819,8 @@
    "t": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
    "url": "https://news.ycombinator.com/item?id=50236102",
    "link": "https://minimaxir.com/2026/10/cheap-llms/",
-   "up": 181,
-   "com": 206,
+   "up": 194,
+   "com": 217,
    "at": "2026-10-25T21:11:31.000Z"
   },
   {
@@ -829,16 +828,25 @@
    "t": "Meet NEXI: A Windows Focus Companion Built with Python and AdaL",
    "url": "https://dev.to/abdullah_haroon_092cf10d3/meet-nexi-a-windows-focus-companion-built-with-python-and-adal-252l",
    "up": 30,
-   "com": 3,
+   "com": 4,
    "at": "2026-10-26T02:09:50Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Removing Next.js Got My Blog to 100 on Every Lighthouse Category",
+   "url": "https://news.ycombinator.com/item?id=50237712",
+   "link": "https://korindiehacker.bloffy.blog/en/removing-nextjs-got-my-blog-to-100-on-every-lighthouse-category",
+   "up": 49,
+   "com": 13,
+   "at": "2026-10-26T01:03:39.000Z"
   },
   {
    "src": "Hacker News",
    "t": "AI use leads UC Berkeley math professor to see 'no point' in grading homework",
    "url": "https://news.ycombinator.com/item?id=50233304",
    "link": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
-   "up": 204,
-   "com": 297,
+   "up": 206,
+   "com": 299,
    "at": "2026-10-25T16:28:26.000Z"
   },
   {
@@ -846,18 +854,9 @@
    "t": "JetBrains Thinkrail",
    "url": "https://news.ycombinator.com/item?id=50233294",
    "link": "https://github.com/JetBrains/thinkrail",
-   "up": 189,
+   "up": 191,
    "com": 141,
    "at": "2026-10-25T16:27:12.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "fheroes2: A recreation of Heroes of Might and Magic II game engine",
-   "url": "https://news.ycombinator.com/item?id=50230384",
-   "link": "https://github.com/ihhub/fheroes2",
-   "up": 204,
-   "com": 71,
-   "at": "2026-10-25T11:09:12.000Z"
   }
  ]
 }
