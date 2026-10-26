@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-26T13:01:12.917Z"
+  "updated": "2026-10-26T13:30:58.956Z"
  },
  "pulse": {
-  "trending": 76,
+  "trending": 77,
   "accelerating": 2,
   "newModels": 9,
-  "discussions": 43,
-  "stars": 1722
+  "discussions": 41,
+  "stars": 2017
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 96,
-   "grow": 48,
+   "grow": 50,
    "desc": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
    "meta": [
-    "★ 1,538",
-    "+1,405 in 24h",
+    "★ 1,563",
+    "+1,394 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-24T05:35:47Z",
@@ -39,7 +39,7 @@
    "cat": "LLMs",
    "score": 93,
    "grow": 31,
-   "desc": "Model on Hugging Face · open source · ♥ 889",
+   "desc": "Model on Hugging Face · open source · ♥ 891",
    "meta": [
     "8.5K downloads",
     "Released 5 days ago"
@@ -55,7 +55,7 @@
    "cat": "Infrastructure",
    "score": 92,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 524",
+   "desc": "Model on Hugging Face · open source · ♥ 527",
    "meta": [
     "2.8K downloads",
     "Released 2 days ago"
@@ -63,6 +63,23 @@
    "at": "2026-10-24T02:49:18.000Z",
    "breakout": null,
    "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B"
+  },
+  {
+   "name": "BeautifulRust",
+   "owner": "morganlinton",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 90,
+   "grow": null,
+   "desc": "Agent Skills that teach coding agents to write, review, and port idiomatic Rust, plus a tested clippy config. Works with Claude Code, Codex, Copilot, Cursor, and Gemini CLI.",
+   "meta": [
+    "★ 1,052",
+    "~306 in 24h",
+    "Created 3 days ago"
+   ],
+   "at": "2026-10-23T03:01:11Z",
+   "breakout": null,
+   "url": "https://github.com/morganlinton/BeautifulRust"
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -89,7 +106,7 @@
    "grow": null,
    "desc": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
    "meta": [
-    "★ 1,885",
+    "★ 1,890",
     "~317 in 24h",
     "Created 6 days ago"
    ],
@@ -104,7 +121,7 @@
    "cat": "LLMs",
    "score": 89,
    "grow": 35,
-   "desc": "Model on Hugging Face · open source · ♥ 610",
+   "desc": "Model on Hugging Face · open source · ♥ 613",
    "meta": [
     "4.7K downloads",
     "Released 7 days ago"
@@ -136,7 +153,7 @@
    "cat": "Infrastructure",
    "score": 85,
    "grow": 116,
-   "desc": "Model on Hugging Face · open source · ♥ 320",
+   "desc": "Model on Hugging Face · open source · ♥ 321",
    "meta": [
     "891K downloads",
     "Released 3 days ago"
@@ -155,27 +172,10 @@
    "grow": null,
    "desc": "Video foundation models have advanced rapidly in understanding and generating visual sequences, while video world models seek to capture the underlying dynamics of the world they depict.",
    "meta": [
-    "▲ 194 upvotes",
+    "▲ 217 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-21T20:00:00.000Z",
-   "breakout": null
-  },
-  {
-   "name": "Moli by Lexmount",
-   "owner": "Product Hunt",
-   "src": "ph",
-   "url": "https://www.producthunt.com/products/lexmount-browser?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29",
-   "cat": "Agents",
-   "score": 85,
-   "grow": null,
-   "desc": "The fastest headless browser for agents and harnesses",
-   "meta": [
-    "▲ 285 votes",
-    "68 comments",
-    "Launched yesterday"
-   ],
-   "at": "2026-10-25T07:01:00Z",
    "breakout": null
   }
  ],
@@ -185,8 +185,8 @@
    "name": "android-ad-cleaner",
    "url": "https://github.com/rddmwmddr/android-ad-cleaner",
    "from": "GitHub",
-   "use": 1405,
-   "useLabel": "+1,405 stars/day",
+   "use": 1394,
+   "useLabel": "+1,394 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -300,21 +300,30 @@
  "github": [
   {
    "repo": "rddmwmddr/android-ad-cleaner",
-   "stars": 1538,
-   "d24": 1405,
+   "stars": 1563,
+   "d24": 1394,
    "est": false,
-   "forks": 131,
+   "forks": 133,
    "contrib": null,
    "score": 96
   },
   {
    "repo": "Jakeschincariol/day-trader-skill",
-   "stars": 1885,
+   "stars": 1890,
    "d24": 317,
    "est": true,
-   "forks": 394,
+   "forks": 396,
    "contrib": null,
    "score": 89
+  },
+  {
+   "repo": "morganlinton/BeautifulRust",
+   "stars": 1052,
+   "d24": 306,
+   "est": true,
+   "forks": 45,
+   "contrib": null,
+   "score": 90
   }
  ],
  "models": [
@@ -327,7 +336,7 @@
    "grow": 31,
    "score": 93,
    "cat": "LLMs",
-   "likes": 889
+   "likes": 891
   },
   {
    "name": "Nanbeige4.3-33B",
@@ -339,7 +348,7 @@
    "grow": null,
    "score": 92,
    "cat": "Infrastructure",
-   "likes": 524
+   "likes": 527
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -350,7 +359,7 @@
    "grow": 12,
    "score": 90,
    "cat": "Vision",
-   "likes": 3096
+   "likes": 3099
   },
   {
    "name": "Spark-X2.6-4B",
@@ -362,7 +371,7 @@
    "grow": 35,
    "score": 89,
    "cat": "LLMs",
-   "likes": 610
+   "likes": 613
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -373,7 +382,7 @@
    "grow": 6,
    "score": 85,
    "cat": "Vision",
-   "likes": 1647
+   "likes": 1649
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
@@ -384,7 +393,7 @@
    "grow": 116,
    "score": 85,
    "cat": "Infrastructure",
-   "likes": 320
+   "likes": 321
   }
  ],
  "free": [
@@ -685,10 +694,45 @@
  },
  "headlines": [
   {
-   "t": "Meta announces $95bn fundraising drive to pay for AI expansion – business live",
+   "t": "Anthropic S-1: of its $80.7B net loss in H1 2026, nearly $9B came from computing power and infrastructure, and it has nearly $800B in commitments over 10 years",
+   "url": "https://www.techmeme.com/261026/p23#a261026p23",
+   "at": "2026-10-26T13:30:05.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Anthropic S-1: an $80.7B net loss on revenue of $16.3B in H1 2026, up from a $13B net loss on revenue of $1.2B in H1 2025, and a net revenue retention of 900%",
+   "url": "https://www.techmeme.com/261026/p22#a261026p22",
+   "at": "2026-10-26T13:30:05.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Anthropic files for stock market IPO; Meta announces $95bn fundraising drive to pay for AI expansion – business live",
    "url": "https://www.theguardian.com/business/live/2026/oct/26/ai-cloud-computing-companies-guppy-level-death-elon-musk-stock-markets-dollar-oil-bond-yieds-latest-news-updates",
-   "at": "2026-10-26T12:35:29Z",
+   "at": "2026-10-26T13:20:04Z",
    "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "Anthropic's co-founders say they \"believe that AI is one of the most consequential technologies in human history\", detail its scientific potential, and more",
+   "url": "https://www.techmeme.com/261026/p21#a261026p21",
+   "at": "2026-10-26T13:18:35.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Anthropic files for listing on US stock market with valuation of more than $1.5tn",
+   "url": "https://www.theguardian.com/technology/2026/oct/26/anthropic-files-listing-stock-market",
+   "at": "2026-10-26T13:12:59Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "Anthropic files for an IPO on the Nasdaq under the symbol ANT; the number of Class A shares to be offered and the price range is yet to be determined",
+   "url": "https://www.techmeme.com/261026/p20#a261026p20",
+   "at": "2026-10-26T13:11:40.000Z",
+   "src": "Techmeme",
    "kind": "News"
   },
   {
@@ -713,7 +757,7 @@
    "kind": "News"
   },
   {
-   "t": "The public internet model is effectively dead due to saturation, algorithmic aggregators, and AI security vulnerabilities, and that may open new possibilities",
+   "t": "The public internet model is dying from too much content, algorithmic aggregators, and vulnerabilities found with AI, and that may bring new possibilities",
    "url": "https://www.techmeme.com/261026/p14#a261026p14",
    "at": "2026-10-26T11:20:01.000Z",
    "src": "Techmeme",
@@ -734,7 +778,7 @@
    "kind": "News"
   },
   {
-   "t": "Modern AI panic reflects \"cognitive mercantilism\", a zero-sum worldview where intelligence is hoarded as a scarce supply-side commodity managed by elites",
+   "t": "Modern AI panic reflects \"cognitive mercantilism\", a zero-sum worldview where intelligence is a scarce, dangerous supply-side resource that elites must manage",
    "url": "https://www.techmeme.com/261026/p12#a261026p12",
    "at": "2026-10-26T10:55:18.000Z",
    "src": "Techmeme",
@@ -744,27 +788,6 @@
    "t": "A look at OpenAI's and Anthropic's aggressive price cuts from June through September, driven by low switching costs and pricing pressure from open-weight models",
    "url": "https://www.techmeme.com/261026/p10#a261026p10",
    "at": "2026-10-26T10:15:02.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Elvis Presley's rightsholders sue Anthropic over 274 songs allegedly used to train its models, seeking $41M+; Anthropic says it disagrees and will defend itself",
-   "url": "https://www.techmeme.com/261026/p7#a261026p7",
-   "at": "2026-10-26T08:55:10.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Alphabet, Amazon, and Microsoft are expected to report double-digit gains in revenue this week, as investors grow impatient with AI capex and seek returns",
-   "url": "https://www.techmeme.com/261026/p6#a261026p6",
-   "at": "2026-10-26T08:35:04.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "A profile of former Google VP and Yahoo CEO Marissa Mayer, whose startup Dazzle is building an AI assistant to help non-tech enthusiasts with mundane tasks",
-   "url": "https://www.techmeme.com/261026/p4#a261026p4",
-   "at": "2026-10-26T07:55:08.000Z",
    "src": "Techmeme",
    "kind": "News"
   },
@@ -781,20 +804,6 @@
    "at": "2026-10-25T23:52:02Z",
    "src": "Markets Insider",
    "kind": "News"
-  },
-  {
-   "t": "4 Best AI Tools in 2026: ChatGPT, Claude, Perplexity & CapCut (Full Guide)",
-   "url": "https://www.youtube.com/watch?v=NyPxzJbBrhg",
-   "at": "2026-10-25T23:02:06Z",
-   "src": "Eren AI",
-   "kind": "Video"
-  },
-  {
-   "t": "PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI",
-   "url": "https://www.europesays.com/3331849/",
-   "at": "2026-10-25T22:17:24Z",
-   "src": "EUROPE SAYS",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -803,8 +812,8 @@
    "t": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
    "url": "https://news.ycombinator.com/item?id=50233779",
    "link": "https://lynchlab.net/llm-skin-cancer",
-   "up": 594,
-   "com": 251,
+   "up": 609,
+   "com": 256,
    "at": "2026-10-25T17:15:38.000Z"
   },
   {
@@ -812,8 +821,8 @@
    "t": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
    "url": "https://news.ycombinator.com/item?id=50236102",
    "link": "https://minimaxir.com/2026/10/cheap-llms/",
-   "up": 367,
-   "com": 354,
+   "up": 376,
+   "com": 367,
    "at": "2026-10-25T21:11:31.000Z"
   },
   {
@@ -821,7 +830,7 @@
    "t": "PaperPilot – Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
    "url": "https://news.ycombinator.com/item?id=50238739",
    "link": "https://github.com/KrushnaVardhanReddy/PaperPilot",
-   "up": 177,
+   "up": 184,
    "com": 66,
    "at": "2026-10-26T03:29:05.000Z"
   },
@@ -830,27 +839,27 @@
    "t": "Removing Next.js Got My Blog to 100 on Every Lighthouse Category",
    "url": "https://news.ycombinator.com/item?id=50237712",
    "link": "https://korindiehacker.bloffy.blog/en/removing-nextjs-got-my-blog-to-100-on-every-lighthouse-category",
-   "up": 167,
-   "com": 101,
+   "up": 172,
+   "com": 105,
    "at": "2026-10-26T01:03:39.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Steal My Bitcoin CTF PoC",
-   "url": "https://news.ycombinator.com/item?id=50237379",
-   "link": "https://github.com/KillaBoi/StealMyBitcoin-PoC",
-   "up": 138,
-   "com": 36,
-   "at": "2026-10-26T00:15:17.000Z"
   },
   {
    "src": "Hacker News",
    "t": "AI use leads UC Berkeley math professor to see 'no point' in grading homework",
    "url": "https://news.ycombinator.com/item?id=50233304",
    "link": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
-   "up": 221,
+   "up": 225,
    "com": 320,
    "at": "2026-10-25T16:28:26.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Steal My Bitcoin CTF PoC",
+   "url": "https://news.ycombinator.com/item?id=50237379",
+   "link": "https://github.com/KillaBoi/StealMyBitcoin-PoC",
+   "up": 140,
+   "com": 36,
+   "at": "2026-10-26T00:15:17.000Z"
   }
  ]
 }
