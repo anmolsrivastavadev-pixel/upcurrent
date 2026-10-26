@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-26T05:01:04.414Z"
+  "updated": "2026-10-26T05:15:03.354Z"
  },
  "pulse": {
   "trending": 76,
   "accelerating": 0,
   "newModels": 10,
-  "discussions": 30,
-  "stars": 1096
+  "discussions": 41,
+  "stars": 1104
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
    "meta": [
-    "★ 1,057",
-    "~535 in 24h",
+    "★ 1,071",
+    "~539 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-24T05:35:47Z",
@@ -55,7 +55,7 @@
    "cat": "Infrastructure",
    "score": 91,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 423",
+   "desc": "Model on Hugging Face · open source · ♥ 424",
    "meta": [
     "0 downloads",
     "Released 2 days ago"
@@ -89,8 +89,8 @@
    "grow": 24,
    "desc": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
    "meta": [
-    "★ 1,709",
-    "+561 in 24h",
+    "★ 1,717",
+    "+565 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-20T14:17:54Z",
@@ -104,7 +104,7 @@
    "cat": "LLMs",
    "score": 88,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 532",
+   "desc": "Model on Hugging Face · open source · ♥ 533",
    "meta": [
     "3.5K downloads",
     "Released 7 days ago"
@@ -130,6 +130,22 @@
    "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy"
   },
   {
+   "name": "UserArena: Benchmarking Interactive User Simulation for Long-Horizon Shopping Agents",
+   "owner": "Paper",
+   "src": "paper",
+   "url": "https://huggingface.co/papers/2610.30932",
+   "cat": "Research",
+   "score": 85,
+   "grow": null,
+   "desc": "Agentic recommendation pursues shopper goals through sequences of context-dependent decisions.",
+   "meta": [
+    "▲ 24 upvotes",
+    "Hugging Face Papers"
+   ],
+   "at": "2026-10-21T20:00:00.000Z",
+   "breakout": null
+  },
+  {
    "name": "Moli by Lexmount",
    "owner": "Product Hunt",
    "src": "ph",
@@ -139,7 +155,7 @@
    "grow": null,
    "desc": "The fastest headless browser for agents and harnesses",
    "meta": [
-    "▲ 261 votes",
+    "▲ 268 votes",
     "63 comments",
     "Launched 22h ago"
    ],
@@ -153,7 +169,7 @@
    "cat": "Agents",
    "score": 83,
    "grow": 0,
-   "desc": "Model on Hugging Face · open weights · ♥ 355",
+   "desc": "Model on Hugging Face · open weights · ♥ 356",
    "meta": [
     "7.4K downloads",
     "Released 9 days ago"
@@ -161,22 +177,6 @@
    "at": "2026-10-17T06:37:50.000Z",
    "breakout": null,
    "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash"
-  },
-  {
-   "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
-   "owner": "ISTA-DASLab",
-   "src": "hf",
-   "cat": "Infrastructure",
-   "score": 83,
-   "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 293",
-   "meta": [
-    "412K downloads",
-    "Released 3 days ago"
-   ],
-   "at": "2026-10-23T09:43:05.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF"
   }
  ],
  "breakouts": [],
@@ -202,8 +202,8 @@
    "name": "day-trader-skill",
    "url": "https://github.com/Jakeschincariol/day-trader-skill",
    "from": "GitHub",
-   "use": 561,
-   "useLabel": "+561 stars/day",
+   "use": 565,
+   "useLabel": "+565 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -317,19 +317,19 @@
  "github": [
   {
    "repo": "Jakeschincariol/day-trader-skill",
-   "stars": 1709,
-   "d24": 561,
+   "stars": 1717,
+   "d24": 565,
    "est": false,
-   "forks": 367,
+   "forks": 368,
    "contrib": null,
    "score": 89
   },
   {
    "repo": "rddmwmddr/android-ad-cleaner",
-   "stars": 1057,
-   "d24": 535,
+   "stars": 1071,
+   "d24": 539,
    "est": true,
-   "forks": 86,
+   "forks": 87,
    "contrib": null,
    "score": 95
   }
@@ -356,7 +356,7 @@
    "grow": null,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 423
+   "likes": 424
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -367,7 +367,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 3019
+   "likes": 3020
   },
   {
    "name": "Spark-X2.6-4B",
@@ -379,7 +379,7 @@
    "grow": 0,
    "score": 88,
    "cat": "LLMs",
-   "likes": 532
+   "likes": 533
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -390,7 +390,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Vision",
-   "likes": 1613
+   "likes": 1614
   },
   {
    "name": "MiniMax-M3.1-Flash",
@@ -401,7 +401,7 @@
    "grow": 0,
    "score": 83,
    "cat": "Agents",
-   "likes": 355
+   "likes": 356
   }
  ],
  "free": [
@@ -702,6 +702,13 @@
  },
  "headlines": [
   {
+   "t": "Amazon Bee Frontier review: a simple $75 AI wearable that excels at always-on listening, summarizing conversations, and suggesting follow-up actions",
+   "url": "https://www.techmeme.com/261026/p2#a261026p2",
+   "at": "2026-10-26T05:05:00.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "High-frequency trading firms such as Jane Street are investing in AI and chip startups and neoclouds, and building data centers to gain an edge in the AI era",
    "url": "https://www.techmeme.com/261025/p15#a261025p15",
    "at": "2026-10-26T02:50:02.000Z",
@@ -805,13 +812,6 @@
    "at": "2026-10-25T14:00:06Z",
    "src": "The Guardian",
    "kind": "News"
-  },
-  {
-   "t": "Lawmakers and Hill staffers in both parties say AI leaders are becoming a political liability as they swing between claims of prosperity and existential dangers",
-   "url": "https://www.techmeme.com/261025/p7#a261025p7",
-   "at": "2026-10-25T11:00:54.000Z",
-   "src": "Techmeme",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -820,8 +820,8 @@
    "t": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
    "url": "https://news.ycombinator.com/item?id=50233779",
    "link": "https://lynchlab.net/llm-skin-cancer",
-   "up": 494,
-   "com": 225,
+   "up": 498,
+   "com": 226,
    "at": "2026-10-25T17:15:38.000Z"
   },
   {
@@ -829,9 +829,27 @@
    "t": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
    "url": "https://news.ycombinator.com/item?id=50236102",
    "link": "https://minimaxir.com/2026/10/cheap-llms/",
-   "up": 218,
-   "com": 246,
+   "up": 222,
+   "com": 252,
    "at": "2026-10-25T21:11:31.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Removing Next.js Got My Blog to 100 on Every Lighthouse Category",
+   "url": "https://news.ycombinator.com/item?id=50237712",
+   "link": "https://korindiehacker.bloffy.blog/en/removing-nextjs-got-my-blog-to-100-on-every-lighthouse-category",
+   "up": 88,
+   "com": 44,
+   "at": "2026-10-26T01:03:39.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "PaperPilot – Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
+   "url": "https://news.ycombinator.com/item?id=50238739",
+   "link": "https://github.com/KrushnaVardhanReddy/PaperPilot",
+   "up": 31,
+   "com": 3,
+   "at": "2026-10-26T03:29:05.000Z"
   },
   {
    "src": "Hacker News",
@@ -839,34 +857,17 @@
    "url": "https://news.ycombinator.com/item?id=50233304",
    "link": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
    "up": 210,
-   "com": 306,
+   "com": 307,
    "at": "2026-10-25T16:28:26.000Z"
   },
   {
-   "src": "DEV",
-   "t": "Meet NEXI: A Windows Focus Companion Built with Python and AdaL",
-   "url": "https://dev.to/abdullah_haroon_092cf10d3/meet-nexi-a-windows-focus-companion-built-with-python-and-adal-252l",
-   "up": 30,
-   "com": 4,
-   "at": "2026-10-26T02:09:50Z"
-  },
-  {
    "src": "Hacker News",
-   "t": "If AI displaces human workers, they will lose more than just pay",
-   "url": "https://news.ycombinator.com/item?id=50238351",
-   "link": "https://www.economist.com/business/2026/10/22/if-ai-displaces-human-workers-they-will-lose-more-than-just-pay",
-   "up": 23,
-   "com": 31,
-   "at": "2026-10-26T02:22:38.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Eunice is almost here",
-   "url": "https://news.ycombinator.com/item?id=50235316",
-   "link": "https://armincat.com/articles/eunice-is-almost-here",
-   "up": 71,
-   "com": 69,
-   "at": "2026-10-25T19:40:27.000Z"
+   "t": "JetBrains Thinkrail",
+   "url": "https://news.ycombinator.com/item?id=50233294",
+   "link": "https://github.com/JetBrains/thinkrail",
+   "up": 196,
+   "com": 146,
+   "at": "2026-10-25T16:27:12.000Z"
   }
  ]
 }
