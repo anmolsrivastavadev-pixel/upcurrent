@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-26T03:30:55.784Z"
+  "updated": "2026-10-26T04:01:01.621Z"
  },
  "pulse": {
-  "trending": 74,
+  "trending": 75,
   "accelerating": 1,
   "newModels": 10,
-  "discussions": 41,
-  "stars": 576
+  "discussions": 40,
+  "stars": 567
  },
  "rising": [
   {
@@ -38,7 +38,7 @@
    "cat": "Infrastructure",
    "score": 91,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 400",
+   "desc": "Model on Hugging Face · open source · ♥ 408",
    "meta": [
     "0 downloads",
     "Released 2 days ago"
@@ -56,8 +56,8 @@
    "grow": 22,
    "desc": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
    "meta": [
-    "★ 1,682",
-    "+576 in 24h",
+    "★ 1,689",
+    "+567 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-20T14:17:54Z",
@@ -87,7 +87,7 @@
    "cat": "LLMs",
    "score": 88,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 530",
+   "desc": "Model on Hugging Face · open source · ♥ 531",
    "meta": [
     "3.5K downloads",
     "Released 7 days ago"
@@ -122,9 +122,9 @@
    "grow": null,
    "desc": "The fastest headless browser for agents and harnesses",
    "meta": [
-    "▲ 256 votes",
-    "61 comments",
-    "Launched 20h ago"
+    "▲ 259 votes",
+    "62 comments",
+    "Launched 21h ago"
    ],
    "at": "2026-10-25T07:01:00Z",
    "breakout": null
@@ -146,6 +146,22 @@
    "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash"
   },
   {
+   "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+   "owner": "ISTA-DASLab",
+   "src": "hf",
+   "cat": "Infrastructure",
+   "score": 83,
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 291",
+   "meta": [
+    "412K downloads",
+    "Released 3 days ago"
+   ],
+   "at": "2026-10-23T09:43:05.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF"
+  },
+  {
    "name": "Different Tasks, Different Timesteps: Temporal Task-Aware Quantization for Diffusion Language Models",
    "owner": "Paper",
    "src": "paper",
@@ -160,22 +176,6 @@
    ],
    "at": "2026-10-21T20:00:00.000Z",
    "breakout": null
-  },
-  {
-   "name": "Agent Mosaic: Recognizing Confidentiality Leaks in Agentic LLM Systems",
-   "owner": "Paper",
-   "src": "paper",
-   "url": "https://huggingface.co/papers/2610.30418",
-   "cat": "Research",
-   "score": 83,
-   "grow": null,
-   "desc": "Modern LLM agents can retrieve information from accessible documents, and then disclose a sensitive conclusion assembled from them.",
-   "meta": [
-    "▲ 23 upvotes",
-    "Hugging Face Papers"
-   ],
-   "at": "2026-10-20T20:00:00.000Z",
-   "breakout": null
   }
  ],
  "breakouts": [],
@@ -186,7 +186,7 @@
    "from": "Hugging Face",
    "use": 143152,
    "useLabel": "143K downloads",
-   "usePct": 0.78125,
+   "usePct": 0.7878787878787878,
    "talk": [
     {
      "src": "DEV",
@@ -201,8 +201,8 @@
    "name": "day-trader-skill",
    "url": "https://github.com/Jakeschincariol/day-trader-skill",
    "from": "GitHub",
-   "use": 576,
-   "useLabel": "+576 stars/day",
+   "use": 567,
+   "useLabel": "+567 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -225,7 +225,7 @@
    "from": "Hugging Face",
    "use": 2161961,
    "useLabel": "2.2M downloads",
-   "usePct": 0.96875,
+   "usePct": 0.9696969696969697,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -316,10 +316,10 @@
  "github": [
   {
    "repo": "Jakeschincariol/day-trader-skill",
-   "stars": 1682,
-   "d24": 576,
+   "stars": 1689,
+   "d24": 567,
    "est": false,
-   "forks": 364,
+   "forks": 365,
    "contrib": null,
    "score": 90
   }
@@ -346,7 +346,7 @@
    "grow": null,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 400
+   "likes": 408
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -357,7 +357,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 3009
+   "likes": 3013
   },
   {
    "name": "Spark-X2.6-4B",
@@ -369,7 +369,7 @@
    "grow": null,
    "score": 88,
    "cat": "LLMs",
-   "likes": 530
+   "likes": 531
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -380,7 +380,7 @@
    "grow": null,
    "score": 87,
    "cat": "Vision",
-   "likes": 1611
+   "likes": 1612
   },
   {
    "name": "MiniMax-M3.1-Flash",
@@ -720,6 +720,13 @@
    "kind": "News"
   },
   {
+   "t": "Strengthening competitive edge",
+   "url": "https://www.thestar.com.my/business/business-news/2026/10/26/strengthening-competitive-edge",
+   "at": "2026-10-25T16:00:00Z",
+   "src": "The Star",
+   "kind": "News"
+  },
+  {
    "t": "Google, OpenAI and Anthropic back £100m UK AI biosecurity lab",
    "url": "https://www.cityam.com/google-openai-and-anthropic-back-100m-uk-ai-biosecurity-lab/",
    "at": "2026-10-25T15:29:45Z",
@@ -790,13 +797,6 @@
    "kind": "News"
   },
   {
-   "t": "UK Launches £100 Million AI Biosecurity Lab with Google, OpenAI, and Anthropic",
-   "url": "https://markets.businessinsider.com/news/stocks/uk-launches-100-million-ai-biosecurity-lab-with-google-openai-and-anthropic-1036662703",
-   "at": "2026-10-25T13:03:15Z",
-   "src": "Markets Insider",
-   "kind": "News"
-  },
-  {
    "t": "Lawmakers and Hill staffers in both parties say AI leaders are becoming a political liability as they swing between claims of prosperity and existential dangers",
    "url": "https://www.techmeme.com/261025/p7#a261025p7",
    "at": "2026-10-25T11:00:54.000Z",
@@ -810,8 +810,8 @@
    "t": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
    "url": "https://news.ycombinator.com/item?id=50233779",
    "link": "https://lynchlab.net/llm-skin-cancer",
-   "up": 476,
-   "com": 216,
+   "up": 485,
+   "com": 220,
    "at": "2026-10-25T17:15:38.000Z"
   },
   {
@@ -819,9 +819,36 @@
    "t": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
    "url": "https://news.ycombinator.com/item?id=50236102",
    "link": "https://minimaxir.com/2026/10/cheap-llms/",
-   "up": 194,
-   "com": 217,
+   "up": 205,
+   "com": 232,
    "at": "2026-10-25T21:11:31.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Removing Next.js Got My Blog to 100 on Every Lighthouse Category",
+   "url": "https://news.ycombinator.com/item?id=50237712",
+   "link": "https://korindiehacker.bloffy.blog/en/removing-nextjs-got-my-blog-to-100-on-every-lighthouse-category",
+   "up": 74,
+   "com": 27,
+   "at": "2026-10-26T01:03:39.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "AI use leads UC Berkeley math professor to see 'no point' in grading homework",
+   "url": "https://news.ycombinator.com/item?id=50233304",
+   "link": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
+   "up": 208,
+   "com": 304,
+   "at": "2026-10-25T16:28:26.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "JetBrains Thinkrail",
+   "url": "https://news.ycombinator.com/item?id=50233294",
+   "link": "https://github.com/JetBrains/thinkrail",
+   "up": 192,
+   "com": 144,
+   "at": "2026-10-25T16:27:12.000Z"
   },
   {
    "src": "DEV",
@@ -830,33 +857,6 @@
    "up": 30,
    "com": 4,
    "at": "2026-10-26T02:09:50Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Removing Next.js Got My Blog to 100 on Every Lighthouse Category",
-   "url": "https://news.ycombinator.com/item?id=50237712",
-   "link": "https://korindiehacker.bloffy.blog/en/removing-nextjs-got-my-blog-to-100-on-every-lighthouse-category",
-   "up": 49,
-   "com": 13,
-   "at": "2026-10-26T01:03:39.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "AI use leads UC Berkeley math professor to see 'no point' in grading homework",
-   "url": "https://news.ycombinator.com/item?id=50233304",
-   "link": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
-   "up": 206,
-   "com": 299,
-   "at": "2026-10-25T16:28:26.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "JetBrains Thinkrail",
-   "url": "https://news.ycombinator.com/item?id=50233294",
-   "link": "https://github.com/JetBrains/thinkrail",
-   "up": 191,
-   "com": 141,
-   "at": "2026-10-25T16:27:12.000Z"
   }
  ]
 }
