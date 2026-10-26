@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-26T01:01:02.836Z"
+  "updated": "2026-10-26T01:30:48.783Z"
  },
  "pulse": {
   "trending": 74,
   "accelerating": 2,
   "newModels": 12,
-  "discussions": 37,
-  "stars": 569
+  "discussions": 36,
+  "stars": 572
  },
  "rising": [
   {
@@ -21,8 +21,8 @@
    "src": "hf",
    "cat": "LLMs",
    "score": 93,
-   "grow": 34,
-   "desc": "Model on Hugging Face · open source · ♥ 858",
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 859",
    "meta": [
     "6.4K downloads",
     "Released 4 days ago"
@@ -38,7 +38,7 @@
    "cat": "Infrastructure",
    "score": 91,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 374",
+   "desc": "Model on Hugging Face · open source · ♥ 382",
    "meta": [
     "0 downloads",
     "Released 2 days ago"
@@ -53,11 +53,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 90,
-   "grow": 17,
+   "grow": 18,
    "desc": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
    "meta": [
-    "★ 1,619",
-    "+569 in 24h",
+    "★ 1,632",
+    "+572 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-20T14:17:54Z",
@@ -87,7 +87,7 @@
    "cat": "LLMs",
    "score": 88,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 495",
+   "desc": "Model on Hugging Face · open source · ♥ 504",
    "meta": [
     "3.5K downloads",
     "Released 7 days ago"
@@ -201,8 +201,8 @@
    "name": "day-trader-skill",
    "url": "https://github.com/Jakeschincariol/day-trader-skill",
    "from": "GitHub",
-   "use": 569,
-   "useLabel": "+569 stars/day",
+   "use": 572,
+   "useLabel": "+572 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -316,10 +316,10 @@
  "github": [
   {
    "repo": "Jakeschincariol/day-trader-skill",
-   "stars": 1619,
-   "d24": 569,
+   "stars": 1632,
+   "d24": 572,
    "est": false,
-   "forks": 359,
+   "forks": 360,
    "contrib": null,
    "score": 90
   }
@@ -331,10 +331,10 @@
    "lic": "Open source",
    "at": "2026-10-21T14:20:58.000Z",
    "dl": 6444,
-   "grow": 34,
+   "grow": null,
    "score": 93,
    "cat": "LLMs",
-   "likes": 858
+   "likes": 859
   },
   {
    "name": "Nanbeige4.3-33B",
@@ -346,7 +346,7 @@
    "grow": null,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 374
+   "likes": 382
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -357,7 +357,7 @@
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 2982
+   "likes": 2987
   },
   {
    "name": "Spark-X2.6-4B",
@@ -369,7 +369,7 @@
    "grow": null,
    "score": 88,
    "cat": "LLMs",
-   "likes": 495
+   "likes": 504
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -380,7 +380,7 @@
    "grow": null,
    "score": 87,
    "cat": "Vision",
-   "likes": 1604
+   "likes": 1605
   },
   {
    "name": "MOSS-Image-SFT",
@@ -720,6 +720,27 @@
    "kind": "News"
   },
   {
+   "t": "Rogue Chinese bots: Why AI doesn't have to be evil to cause chaos-and why that's a global problem",
+   "url": "https://www.livemint.com/opinion/online-views/rogue-chinese-bots-why-ai-doesnt-have-to-be-evil-chaos-why-thats-a-global-problem-11792674313323.html",
+   "at": "2026-10-25T13:30:25Z",
+   "src": "Livemint",
+   "kind": "News"
+  },
+  {
+   "t": "OpenAI, Anthropic and other tech firms turn to religion to guide AI ethics, but some say it isn't that simple",
+   "url": "https://www.cnbctv18.com/technology/ai-companies-religion-chatbots-ethics-anthropic-openai-20018796.htm",
+   "at": "2026-10-25T13:05:58Z",
+   "src": "CNBC TV18",
+   "kind": "News"
+  },
+  {
+   "t": "UK Launches £100 Million AI Biosecurity Lab with Google, OpenAI, and Anthropic",
+   "url": "https://markets.businessinsider.com/news/stocks/uk-launches-100-million-ai-biosecurity-lab-with-google-openai-and-anthropic-1036662703",
+   "at": "2026-10-25T13:03:15Z",
+   "src": "Markets Insider",
+   "kind": "News"
+  },
+  {
    "t": "AI Could Generate $2.5 Trillion Annually, But Rising Costs a Concern: Report",
    "url": "https://www.lokmattimes.com/technology/ai-could-generate-25-trillion-annually-but-rising-costs-a-concern-report-a001-w02/",
    "at": "2026-10-25T12:55:37Z",
@@ -769,27 +790,6 @@
    "kind": "News"
   },
   {
-   "t": "NCERT develops AI module for Classes 9-12: Data privacy, ethical use and critical thinking in focus",
-   "url": "https://www.livemint.com/ai/artificial-intelligence/ncert-develops-ai-module-for-classes-9-12-data-privacy-ethical-use-and-critical-thinking-in-focus-11792927358273.html",
-   "at": "2026-10-25T11:45:08Z",
-   "src": "Livemint",
-   "kind": "News"
-  },
-  {
-   "t": "AI companies turn to religion for moral guidance, but experts warn of oversimplification",
-   "url": "https://economictimes.indiatimes.com/ai/ai-insights/ai-companies-turn-to-religion-for-moral-guidance-but-experts-warn-of-oversimplification/articleshow/135189602.cms",
-   "at": "2026-10-25T11:19:00Z",
-   "src": "The Economic Times",
-   "kind": "News"
-  },
-  {
-   "t": "Massive manipulation: Congress targets EC over refusal to disclose ECINET details",
-   "url": "https://www.indiatoday.in/india/story/congress-accuses-election-commission-of-hiding-ecinet-software-details-alleges-massive-manipulation-3024622-2026-10-25",
-   "at": "2026-10-25T11:05:16Z",
-   "src": "India Today",
-   "kind": "News"
-  },
-  {
    "t": "Lawmakers and Hill staffers in both parties say AI leaders are becoming a political liability as they swing between claims of prosperity and existential dangers",
    "url": "https://www.techmeme.com/261025/p7#a261025p7",
    "at": "2026-10-25T11:00:54.000Z",
@@ -797,10 +797,10 @@
    "kind": "News"
   },
   {
-   "t": "HUGE GPT-7 BEL UPDATE! Claude REA BANNED, Gemini 4 Carbon Is INSANE, Qwen 4 LEAKS, & More! AI NEWS",
-   "url": "https://www.youtube.com/watch?v=aZMKzHhlTh8",
-   "at": "2026-10-25T07:03:15Z",
-   "src": "WorldofAI",
+   "t": "Claude 2.0 is Insane (All Updates Explained)",
+   "url": "https://www.youtube.com/watch?v=J5EbL1UaqG8",
+   "at": "2026-10-25T09:45:01Z",
+   "src": "Ben AI",
    "kind": "Video"
   }
  ],
@@ -810,8 +810,8 @@
    "t": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
    "url": "https://news.ycombinator.com/item?id=50233779",
    "link": "https://lynchlab.net/llm-skin-cancer",
-   "up": 412,
-   "com": 200,
+   "up": 426,
+   "com": 204,
    "at": "2026-10-25T17:15:38.000Z"
   },
   {
@@ -819,8 +819,8 @@
    "t": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
    "url": "https://news.ycombinator.com/item?id=50236102",
    "link": "https://minimaxir.com/2026/10/cheap-llms/",
-   "up": 120,
-   "com": 138,
+   "up": 134,
+   "com": 156,
    "at": "2026-10-25T21:11:31.000Z"
   },
   {
@@ -828,8 +828,8 @@
    "t": "AI use leads UC Berkeley math professor to see 'no point' in grading homework",
    "url": "https://news.ycombinator.com/item?id=50233304",
    "link": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
-   "up": 196,
-   "com": 278,
+   "up": 200,
+   "com": 290,
    "at": "2026-10-25T16:28:26.000Z"
   },
   {
@@ -837,8 +837,8 @@
    "t": "JetBrains Thinkrail",
    "url": "https://news.ycombinator.com/item?id=50233294",
    "link": "https://github.com/JetBrains/thinkrail",
-   "up": 178,
-   "com": 121,
+   "up": 180,
+   "com": 128,
    "at": "2026-10-25T16:27:12.000Z"
   },
   {
@@ -846,8 +846,8 @@
    "t": "Cerebras Deploys Trillion-Parameter AI Models",
    "url": "https://news.ycombinator.com/item?id=50227356",
    "link": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
-   "up": 351,
-   "com": 127,
+   "up": 352,
+   "com": 128,
    "at": "2026-10-25T01:33:49.000Z"
   },
   {
