@@ -5,16 +5,33 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-26T08:30:53.553Z"
+  "updated": "2026-10-26T09:01:12.338Z"
  },
  "pulse": {
-  "trending": 75,
+  "trending": 76,
   "accelerating": 0,
   "newModels": 10,
-  "discussions": 42,
-  "stars": 558
+  "discussions": 43,
+  "stars": 1144
  },
  "rising": [
+  {
+   "name": "android-ad-cleaner",
+   "owner": "rddmwmddr",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 96,
+   "grow": null,
+   "desc": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
+   "meta": [
+    "★ 1,274",
+    "~595 in 24h",
+    "Created 2 days ago"
+   ],
+   "at": "2026-10-24T05:35:47Z",
+   "breakout": null,
+   "url": "https://github.com/rddmwmddr/android-ad-cleaner"
+  },
   {
    "name": "flint",
    "owner": "RecursiveSI",
@@ -22,7 +39,7 @@
    "cat": "LLMs",
    "score": 93,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 877",
+   "desc": "Model on Hugging Face · open source · ♥ 878",
    "meta": [
     "6.4K downloads",
     "Released 5 days ago"
@@ -38,7 +55,7 @@
    "cat": "Infrastructure",
    "score": 91,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 469",
+   "desc": "Model on Hugging Face · open source · ♥ 474",
    "meta": [
     "0 downloads",
     "Released 2 days ago"
@@ -54,7 +71,7 @@
    "cat": "Vision",
    "score": 90,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open source · ♥ 3K",
+   "desc": "Vision on Hugging Face · open source · ♥ 3.1K",
    "meta": [
     "85K downloads",
     "Released 9 days ago"
@@ -68,12 +85,12 @@
    "owner": "Jakeschincariol",
    "src": "gh",
    "cat": "Agents",
-   "score": 88,
-   "grow": 29,
+   "score": 89,
+   "grow": 30,
    "desc": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
    "meta": [
-    "★ 1,789",
-    "+558 in 24h",
+    "★ 1,794",
+    "+549 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-20T14:17:54Z",
@@ -113,6 +130,22 @@
    "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy"
   },
   {
+   "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+   "owner": "ISTA-DASLab",
+   "src": "hf",
+   "cat": "Infrastructure",
+   "score": 85,
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 305",
+   "meta": [
+    "412K downloads",
+    "Released 3 days ago"
+   ],
+   "at": "2026-10-23T09:43:05.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF"
+  },
+  {
    "name": "HiSTEVE 1.0: Harnessing Human-Interface VLA Agents for Open-World Games",
    "owner": "Paper",
    "src": "paper",
@@ -138,44 +171,12 @@
    "grow": null,
    "desc": "The fastest headless browser for agents and harnesses",
    "meta": [
-    "▲ 282 votes",
+    "▲ 283 votes",
     "67 comments",
     "Launched yesterday"
    ],
    "at": "2026-10-25T07:01:00Z",
    "breakout": null
-  },
-  {
-   "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
-   "owner": "ISTA-DASLab",
-   "src": "hf",
-   "cat": "Infrastructure",
-   "score": 84,
-   "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 302",
-   "meta": [
-    "412K downloads",
-    "Released 3 days ago"
-   ],
-   "at": "2026-10-23T09:43:05.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF"
-  },
-  {
-   "name": "MiniMax-M3.1-Flash",
-   "owner": "MiniMaxAI",
-   "src": "hf",
-   "cat": "Agents",
-   "score": 83,
-   "grow": 0,
-   "desc": "Model on Hugging Face · open weights · ♥ 360",
-   "meta": [
-    "7.4K downloads",
-    "Released 9 days ago"
-   ],
-   "at": "2026-10-17T06:37:50.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash"
   }
  ],
  "breakouts": [],
@@ -198,11 +199,11 @@
    "verdict": "The hype matches real use"
   },
   {
-   "name": "day-trader-skill",
-   "url": "https://github.com/Jakeschincariol/day-trader-skill",
+   "name": "android-ad-cleaner",
+   "url": "https://github.com/rddmwmddr/android-ad-cleaner",
    "from": "GitHub",
-   "use": 558,
-   "useLabel": "+558 stars/day",
+   "use": 595,
+   "useLabel": "~595 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -315,13 +316,22 @@
  ],
  "github": [
   {
+   "repo": "rddmwmddr/android-ad-cleaner",
+   "stars": 1274,
+   "d24": 595,
+   "est": true,
+   "forks": 103,
+   "contrib": null,
+   "score": 96
+  },
+  {
    "repo": "Jakeschincariol/day-trader-skill",
-   "stars": 1789,
-   "d24": 558,
+   "stars": 1794,
+   "d24": 549,
    "est": false,
-   "forks": 382,
-   "contrib": 1,
-   "score": 88
+   "forks": 384,
+   "contrib": null,
+   "score": 89
   }
  ],
  "models": [
@@ -334,7 +344,7 @@
    "grow": 0,
    "score": 93,
    "cat": "LLMs",
-   "likes": 877
+   "likes": 878
   },
   {
    "name": "Nanbeige4.3-33B",
@@ -346,7 +356,7 @@
    "grow": null,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 469
+   "likes": 474
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -357,7 +367,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 3050
+   "likes": 3056
   },
   {
    "name": "Spark-X2.6-4B",
@@ -380,7 +390,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Vision",
-   "likes": 1630
+   "likes": 1633
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
@@ -389,9 +399,9 @@
    "at": "2026-10-23T09:43:05.000Z",
    "dl": 412392,
    "grow": null,
-   "score": 84,
+   "score": 85,
    "cat": "Infrastructure",
-   "likes": 302
+   "likes": 305
   }
  ],
  "free": [
@@ -692,10 +702,24 @@
  },
  "headlines": [
   {
-   "t": "AI cloud computing companies face ‘guppy-level death’, Elon Musk warns, as funding dries up – business live",
+   "t": "AI cloud computing firms face ‘guppy-level death’, Elon Musk warns; French bonds rally after avoiding downgrade – business live",
    "url": "https://www.theguardian.com/business/live/2026/oct/26/ai-cloud-computing-companies-guppy-level-death-elon-musk-stock-markets-dollar-oil-bond-yieds-latest-news-updates",
-   "at": "2026-10-26T08:15:54Z",
+   "at": "2026-10-26T08:58:29Z",
    "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "Elvis Presley's rightsholders sue Anthropic over 274 songs allegedly used to train its models, seeking $41M+; Anthropic says it disagrees and will defend itself",
+   "url": "https://www.techmeme.com/261026/p7#a261026p7",
+   "at": "2026-10-26T08:55:10.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Alphabet, Amazon, and Microsoft are expected to report double-digit gains in revenue this week, as investors grow impatient with AI capex and seek returns",
+   "url": "https://www.techmeme.com/261026/p6#a261026p6",
+   "at": "2026-10-26T08:35:04.000Z",
+   "src": "Techmeme",
    "kind": "News"
   },
   {
@@ -725,6 +749,13 @@
    "at": "2026-10-25T23:35:01.000Z",
    "src": "Techmeme",
    "kind": "News"
+  },
+  {
+   "t": "4 Best AI Tools in 2026: ChatGPT, Claude, Perplexity & CapCut (Full Guide)",
+   "url": "https://www.youtube.com/watch?v=NyPxzJbBrhg",
+   "at": "2026-10-25T23:02:06Z",
+   "src": "Eren AI",
+   "kind": "Video"
   },
   {
    "t": "Elon Musk says SpaceX closed $40B in GPU debt, debt markets have shut off credit for AI data center companies, and 200+ neoclouds face \"death and consolidation\"",
@@ -781,27 +812,6 @@
    "at": "2026-10-25T18:00:00Z",
    "src": "Australian Financial Review",
    "kind": "News"
-  },
-  {
-   "t": "Japan's SoftBank plans to join $50 billion AI investment in Malaysia, Nikkei reports",
-   "url": "https://www.marketscreener.com/news/japan-s-softbank-plans-to-join-50-billion-ai-investment-in-malaysia-nikkei-reports-ce785cdfd18df426",
-   "at": "2026-10-25T17:34:24Z",
-   "src": "MarketScreener",
-   "kind": "News"
-  },
-  {
-   "t": "Wikipedia's origin story, warts and all",
-   "url": "https://www.business-standard.com/book/wikipedia-s-origin-story-warts-and-all-126102500769_1.html",
-   "at": "2026-10-25T17:24:49Z",
-   "src": "Business Standard",
-   "kind": "News"
-  },
-  {
-   "t": "This used to be a cornerstone of every job application. Not anymore.",
-   "url": "https://www.inquirer.com/business/resume-cover-letter-job-application-hiring-company-managers-ai-20261024.html",
-   "at": "2026-10-25T17:01:00Z",
-   "src": "The Philadelphia Inquirer",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -810,7 +820,7 @@
    "t": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
    "url": "https://news.ycombinator.com/item?id=50233779",
    "link": "https://lynchlab.net/llm-skin-cancer",
-   "up": 539,
+   "up": 546,
    "com": 235,
    "at": "2026-10-25T17:15:38.000Z"
   },
@@ -819,8 +829,8 @@
    "t": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
    "url": "https://news.ycombinator.com/item?id=50236102",
    "link": "https://minimaxir.com/2026/10/cheap-llms/",
-   "up": 288,
-   "com": 285,
+   "up": 296,
+   "com": 292,
    "at": "2026-10-25T21:11:31.000Z"
   },
   {
@@ -828,8 +838,8 @@
    "t": "PaperPilot – Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
    "url": "https://news.ycombinator.com/item?id=50238739",
    "link": "https://github.com/KrushnaVardhanReddy/PaperPilot",
-   "up": 116,
-   "com": 28,
+   "up": 125,
+   "com": 29,
    "at": "2026-10-26T03:29:05.000Z"
   },
   {
@@ -837,8 +847,8 @@
    "t": "Removing Next.js Got My Blog to 100 on Every Lighthouse Category",
    "url": "https://news.ycombinator.com/item?id=50237712",
    "link": "https://korindiehacker.bloffy.blog/en/removing-nextjs-got-my-blog-to-100-on-every-lighthouse-category",
-   "up": 123,
-   "com": 65,
+   "up": 124,
+   "com": 68,
    "at": "2026-10-26T01:03:39.000Z"
   },
   {
@@ -846,8 +856,8 @@
    "t": "Cognitive Mercantilism: AI panic resembles fears of early capitalism",
    "url": "https://news.ycombinator.com/item?id=50239027",
    "link": "https://contraptions.venkateshrao.com/p/cognitive-mercantilism",
-   "up": 62,
-   "com": 62,
+   "up": 65,
+   "com": 69,
    "at": "2026-10-26T04:11:40.000Z"
   },
   {
@@ -855,8 +865,8 @@
    "t": "AI use leads UC Berkeley math professor to see 'no point' in grading homework",
    "url": "https://news.ycombinator.com/item?id=50233304",
    "link": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
-   "up": 216,
-   "com": 315,
+   "up": 217,
+   "com": 319,
    "at": "2026-10-25T16:28:26.000Z"
   }
  ]
