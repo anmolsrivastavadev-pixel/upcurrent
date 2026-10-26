@@ -5,16 +5,33 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-26T04:01:01.621Z"
+  "updated": "2026-10-26T04:30:49.796Z"
  },
  "pulse": {
-  "trending": 75,
+  "trending": 76,
   "accelerating": 1,
   "newModels": 10,
-  "discussions": 40,
-  "stars": 567
+  "discussions": 39,
+  "stars": 1098
  },
  "rising": [
+  {
+   "name": "android-ad-cleaner",
+   "owner": "rddmwmddr",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 96,
+   "grow": null,
+   "desc": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
+   "meta": [
+    "★ 1,040",
+    "~532 in 24h",
+    "Created 2 days ago"
+   ],
+   "at": "2026-10-24T05:35:47Z",
+   "breakout": null,
+   "url": "https://github.com/rddmwmddr/android-ad-cleaner"
+  },
   {
    "name": "flint",
    "owner": "RecursiveSI",
@@ -38,7 +55,7 @@
    "cat": "Infrastructure",
    "score": 91,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 408",
+   "desc": "Model on Hugging Face · open source · ♥ 410",
    "meta": [
     "0 downloads",
     "Released 2 days ago"
@@ -46,23 +63,6 @@
    "at": "2026-10-24T02:49:18.000Z",
    "breakout": null,
    "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B"
-  },
-  {
-   "name": "day-trader-skill",
-   "owner": "Jakeschincariol",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 90,
-   "grow": 22,
-   "desc": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
-   "meta": [
-    "★ 1,689",
-    "+567 in 24h",
-    "Created 6 days ago"
-   ],
-   "at": "2026-10-20T14:17:54Z",
-   "breakout": null,
-   "url": "https://github.com/Jakeschincariol/day-trader-skill"
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -81,13 +81,30 @@
    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
   },
   {
+   "name": "day-trader-skill",
+   "owner": "Jakeschincariol",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 89,
+   "grow": 23,
+   "desc": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
+   "meta": [
+    "★ 1,700",
+    "+566 in 24h",
+    "Created 6 days ago"
+   ],
+   "at": "2026-10-20T14:17:54Z",
+   "breakout": null,
+   "url": "https://github.com/Jakeschincariol/day-trader-skill"
+  },
+  {
    "name": "Spark-X2.6-4B",
    "owner": "XHToken",
    "src": "hf",
    "cat": "LLMs",
    "score": 88,
-   "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 531",
+   "grow": 0,
+   "desc": "Model on Hugging Face · open source · ♥ 532",
    "meta": [
     "3.5K downloads",
     "Released 7 days ago"
@@ -102,7 +119,7 @@
    "src": "hf",
    "cat": "Vision",
    "score": 87,
-   "grow": null,
+   "grow": 0,
    "desc": "Vision on Hugging Face · open weights · ♥ 1.6K",
    "meta": [
     "661K downloads",
@@ -122,8 +139,8 @@
    "grow": null,
    "desc": "The fastest headless browser for agents and harnesses",
    "meta": [
-    "▲ 259 votes",
-    "62 comments",
+    "▲ 260 votes",
+    "63 comments",
     "Launched 21h ago"
    ],
    "at": "2026-10-25T07:01:00Z",
@@ -160,22 +177,6 @@
    "at": "2026-10-23T09:43:05.000Z",
    "breakout": null,
    "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF"
-  },
-  {
-   "name": "Different Tasks, Different Timesteps: Temporal Task-Aware Quantization for Diffusion Language Models",
-   "owner": "Paper",
-   "src": "paper",
-   "url": "https://huggingface.co/papers/2610.31198",
-   "cat": "Research",
-   "score": 83,
-   "grow": null,
-   "desc": "Diffusion Language Models (DLMs) introduce unique quantization challenges due to their iterative denoising process.",
-   "meta": [
-    "▲ 23 upvotes",
-    "Hugging Face Papers"
-   ],
-   "at": "2026-10-21T20:00:00.000Z",
-   "breakout": null
   }
  ],
  "breakouts": [],
@@ -201,8 +202,8 @@
    "name": "day-trader-skill",
    "url": "https://github.com/Jakeschincariol/day-trader-skill",
    "from": "GitHub",
-   "use": 567,
-   "useLabel": "+567 stars/day",
+   "use": 566,
+   "useLabel": "+566 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -316,12 +317,21 @@
  "github": [
   {
    "repo": "Jakeschincariol/day-trader-skill",
-   "stars": 1689,
-   "d24": 567,
+   "stars": 1700,
+   "d24": 566,
    "est": false,
-   "forks": 365,
+   "forks": 366,
    "contrib": null,
-   "score": 90
+   "score": 89
+  },
+  {
+   "repo": "rddmwmddr/android-ad-cleaner",
+   "stars": 1040,
+   "d24": 532,
+   "est": true,
+   "forks": 84,
+   "contrib": null,
+   "score": 96
   }
  ],
  "models": [
@@ -346,7 +356,7 @@
    "grow": null,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 408
+   "likes": 410
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -357,7 +367,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 3013
+   "likes": 3015
   },
   {
    "name": "Spark-X2.6-4B",
@@ -366,10 +376,10 @@
    "lic": "Open source",
    "at": "2026-10-19T03:19:51.000Z",
    "dl": 3488,
-   "grow": null,
+   "grow": 0,
    "score": 88,
    "cat": "LLMs",
-   "likes": 531
+   "likes": 532
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -377,10 +387,10 @@
    "lic": "Open weights",
    "at": "2026-10-14T12:00:13.000Z",
    "dl": 660874,
-   "grow": null,
+   "grow": 0,
    "score": 87,
    "cat": "Vision",
-   "likes": 1612
+   "likes": 1613
   },
   {
    "name": "MiniMax-M3.1-Flash",
@@ -720,6 +730,13 @@
    "kind": "News"
   },
   {
+   "t": "OpenAI Discloses Two Incidents of AI Agents Weakening Monitoring Systems",
+   "url": "https://www.naturalnews.com/2026-10-25-openai-discloses-incidents-agents-weakening-monitoring-systems.html",
+   "at": "2026-10-25T16:30:27Z",
+   "src": "Natural News",
+   "kind": "News"
+  },
+  {
    "t": "Strengthening competitive edge",
    "url": "https://www.thestar.com.my/business/business-news/2026/10/26/strengthening-competitive-edge",
    "at": "2026-10-25T16:00:00Z",
@@ -790,13 +807,6 @@
    "kind": "News"
   },
   {
-   "t": "OpenAI, Anthropic and other tech firms turn to religion to guide AI ethics, but some say it isn't that simple",
-   "url": "https://www.cnbctv18.com/technology/ai-companies-religion-chatbots-ethics-anthropic-openai-20018796.htm",
-   "at": "2026-10-25T13:05:58Z",
-   "src": "CNBC TV18",
-   "kind": "News"
-  },
-  {
    "t": "Lawmakers and Hill staffers in both parties say AI leaders are becoming a political liability as they swing between claims of prosperity and existential dangers",
    "url": "https://www.techmeme.com/261025/p7#a261025p7",
    "at": "2026-10-25T11:00:54.000Z",
@@ -810,8 +820,8 @@
    "t": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
    "url": "https://news.ycombinator.com/item?id=50233779",
    "link": "https://lynchlab.net/llm-skin-cancer",
-   "up": 485,
-   "com": 220,
+   "up": 491,
+   "com": 221,
    "at": "2026-10-25T17:15:38.000Z"
   },
   {
@@ -819,8 +829,8 @@
    "t": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
    "url": "https://news.ycombinator.com/item?id=50236102",
    "link": "https://minimaxir.com/2026/10/cheap-llms/",
-   "up": 205,
-   "com": 232,
+   "up": 213,
+   "com": 239,
    "at": "2026-10-25T21:11:31.000Z"
   },
   {
@@ -828,8 +838,8 @@
    "t": "Removing Next.js Got My Blog to 100 on Every Lighthouse Category",
    "url": "https://news.ycombinator.com/item?id=50237712",
    "link": "https://korindiehacker.bloffy.blog/en/removing-nextjs-got-my-blog-to-100-on-every-lighthouse-category",
-   "up": 74,
-   "com": 27,
+   "up": 80,
+   "com": 33,
    "at": "2026-10-26T01:03:39.000Z"
   },
   {
@@ -837,8 +847,8 @@
    "t": "AI use leads UC Berkeley math professor to see 'no point' in grading homework",
    "url": "https://news.ycombinator.com/item?id=50233304",
    "link": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
-   "up": 208,
-   "com": 304,
+   "up": 209,
+   "com": 305,
    "at": "2026-10-25T16:28:26.000Z"
   },
   {
@@ -846,7 +856,7 @@
    "t": "JetBrains Thinkrail",
    "url": "https://news.ycombinator.com/item?id=50233294",
    "link": "https://github.com/JetBrains/thinkrail",
-   "up": 192,
+   "up": 195,
    "com": 144,
    "at": "2026-10-25T16:27:12.000Z"
   },
