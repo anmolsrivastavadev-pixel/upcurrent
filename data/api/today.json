@@ -5,50 +5,16 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-27T14:31:01.544Z"
+  "updated": "2026-10-27T15:01:48.575Z"
  },
  "pulse": {
-  "trending": 78,
+  "trending": 75,
   "accelerating": 0,
   "newModels": 10,
-  "discussions": 46,
-  "stars": 2714
+  "discussions": 45,
+  "stars": 0
  },
  "rising": [
-  {
-   "name": "android-ad-cleaner",
-   "owner": "rddmwmddr",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 95,
-   "grow": 59,
-   "desc": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
-   "meta": [
-    "★ 2,981",
-    "+1,890 in 24h",
-    "Created 3 days ago"
-   ],
-   "at": "2026-10-24T05:35:47Z",
-   "breakout": null,
-   "url": "https://github.com/rddmwmddr/android-ad-cleaner"
-  },
-  {
-   "name": "tstack",
-   "owner": "t3dotgg",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 93,
-   "grow": null,
-   "desc": "The agent skills I use every day. Works with Claude Code and Codex.",
-   "meta": [
-    "★ 1,829",
-    "~539 in 24h",
-    "Created 3 days ago"
-   ],
-   "at": "2026-10-24T05:00:20Z",
-   "breakout": null,
-   "url": "https://github.com/t3dotgg/tstack"
-  },
   {
    "name": "Nanbeige4.3-33B",
    "owner": "Nanbeige",
@@ -56,10 +22,10 @@
    "cat": "Infrastructure",
    "score": 93,
    "grow": 72,
-   "desc": "Model on Hugging Face · open source · ♥ 638",
+   "desc": "Model on Hugging Face · open source · ♥ 640",
    "meta": [
     "4.8K downloads",
-    "Released 3 days ago"
+    "Released 4 days ago"
    ],
    "at": "2026-10-24T02:49:18.000Z",
    "breakout": null,
@@ -72,7 +38,7 @@
    "cat": "LLMs",
    "score": 92,
    "grow": 25,
-   "desc": "Model on Hugging Face · open source · ♥ 949",
+   "desc": "Model on Hugging Face · open source · ♥ 951",
    "meta": [
     "11K downloads",
     "Released 6 days ago"
@@ -91,28 +57,11 @@
    "desc": "Vision on Hugging Face · open source · ♥ 3.3K",
    "meta": [
     "106K downloads",
-    "Released 10 days ago"
+    "Released 11 days ago"
    ],
    "at": "2026-10-17T02:40:38.000Z",
    "breakout": null,
    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
-  },
-  {
-   "name": "BeautifulRust",
-   "owner": "morganlinton",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 88,
-   "grow": null,
-   "desc": "Agent Skills that teach coding agents to write, review, and port idiomatic Rust, plus a tested clippy config. Works with Claude Code, Codex, Copilot, Cursor, and Gemini CLI.",
-   "meta": [
-    "★ 1,276",
-    "~285 in 24h",
-    "Created 4 days ago"
-   ],
-   "at": "2026-10-23T03:01:11Z",
-   "breakout": null,
-   "url": "https://github.com/morganlinton/BeautifulRust"
   },
   {
    "name": "Spark-X2.6-4B",
@@ -172,10 +121,59 @@
    "grow": null,
    "desc": "Localized AI manipulations in long-form videos often affect brief events within otherwise authentic content, making video-level classification insufficient for forensic analysis.",
    "meta": [
-    "▲ 25 upvotes",
+    "▲ 27 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-23T20:00:00.000Z",
+   "breakout": null
+  },
+  {
+   "name": "Strawberry 1.0",
+   "owner": "Product Hunt",
+   "src": "ph",
+   "url": "https://www.producthunt.com/products/strawberry?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29",
+   "cat": "Tools",
+   "score": 85,
+   "grow": null,
+   "desc": "AI Browser that saves your team >100h/week",
+   "meta": [
+    "▲ 338 votes",
+    "64 comments",
+    "Launched yesterday"
+   ],
+   "at": "2026-10-26T07:01:00Z",
+   "breakout": null
+  },
+  {
+   "name": "MiniMax-M3.1-Flash",
+   "owner": "MiniMaxAI",
+   "src": "hf",
+   "cat": "Agents",
+   "score": 83,
+   "grow": null,
+   "desc": "Model on Hugging Face · open weights · ♥ 400",
+   "meta": [
+    "11K downloads",
+    "Released 10 days ago"
+   ],
+   "at": "2026-10-17T06:37:50.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash"
+  },
+  {
+   "name": "Evolving to Match Capabilities: Improving Harness Self-Evolution via Skill Adaptation",
+   "owner": "Paper",
+   "src": "paper",
+   "url": "https://huggingface.co/papers/2610.33024",
+   "cat": "Research",
+   "score": 83,
+   "grow": null,
+   "desc": "Harness self-evolution offers a practical route for LLM agents to improve from execution experience without updating model parameters.",
+   "meta": [
+    "▲ 10 upvotes",
+    "Hugging Face Papers"
+   ],
+   "at": "2026-10-09T20:00:00.000Z",
    "breakout": null
   }
  ],
@@ -196,9 +194,9 @@
      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security"
     },
     {
-     "src": "Firstpost",
-     "t": "OpenAI GPT-6.1 Terra launched with 50% lower pricing, improved computer-use capabilities",
-     "url": "https://www.firstpost.com/tech/openai-gpt-6-1-terra-launched-with-50-lower-pricing-improved-computer-use-capabilities-14055564.html"
+     "src": "YouTube",
+     "t": "HUGE ANTHROPIC BOMBSHELL! Claude REA UNBANNED?! GPT-6.1 Terra, Qwen 4 27B, & Fable 5.5! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=SyUjFWgqDNo"
     }
    ],
    "since": "2026-10-26T19:30:56.131Z"
@@ -224,24 +222,13 @@
      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security"
     },
     {
-     "src": "Firstpost",
-     "t": "OpenAI GPT-6.1 Terra launched with 50% lower pricing, improved computer-use capabilities",
-     "url": "https://www.firstpost.com/tech/openai-gpt-6-1-terra-launched-with-50-lower-pricing-improved-computer-use-capabilities-14055564.html"
+     "src": "YouTube",
+     "t": "HUGE ANTHROPIC BOMBSHELL! Claude REA UNBANNED?! GPT-6.1 Terra, Qwen 4 27B, & Fable 5.5! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=SyUjFWgqDNo"
     }
    ],
    "buzz": 3,
    "verdict": "Talk only, no public usage numbers"
-  },
-  {
-   "name": "android-ad-cleaner",
-   "url": "https://github.com/rddmwmddr/android-ad-cleaner",
-   "from": "GitHub",
-   "use": 1890,
-   "useLabel": "+1,890 stars/day",
-   "usePct": 1,
-   "talk": [],
-   "buzz": 0,
-   "verdict": "Used a lot, hardly talked about"
   },
   {
    "name": "MOSS-Image",
@@ -261,6 +248,17 @@
    "use": 2201569,
    "useLabel": "2.2M downloads",
    "usePct": 0.9705882352941176,
+   "talk": [],
+   "buzz": 0,
+   "verdict": "Used a lot, hardly talked about"
+  },
+  {
+   "name": "Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+   "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+   "from": "Hugging Face",
+   "use": 1713544,
+   "useLabel": "1.7M downloads",
+   "usePct": 0.9411764705882353,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -348,35 +346,7 @@
    "lead": 55.497297777777774
   }
  ],
- "github": [
-  {
-   "repo": "rddmwmddr/android-ad-cleaner",
-   "stars": 2981,
-   "d24": 1890,
-   "est": false,
-   "forks": 252,
-   "contrib": null,
-   "score": 95
-  },
-  {
-   "repo": "t3dotgg/tstack",
-   "stars": 1829,
-   "d24": 539,
-   "est": true,
-   "forks": 104,
-   "contrib": null,
-   "score": 93
-  },
-  {
-   "repo": "morganlinton/BeautifulRust",
-   "stars": 1276,
-   "d24": 285,
-   "est": true,
-   "forks": 57,
-   "contrib": null,
-   "score": 88
-  }
- ],
+ "github": [],
  "models": [
   {
    "name": "Nanbeige4.3-33B",
@@ -388,7 +358,7 @@
    "grow": 72,
    "score": 93,
    "cat": "Infrastructure",
-   "likes": 638
+   "likes": 640
   },
   {
    "name": "flint",
@@ -399,7 +369,7 @@
    "grow": 25,
    "score": 92,
    "cat": "LLMs",
-   "likes": 949
+   "likes": 951
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -410,7 +380,7 @@
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 3314
+   "likes": 3315
   },
   {
    "name": "Spark-X2.6-4B",
@@ -444,7 +414,7 @@
    "grow": null,
    "score": 85,
    "cat": "Vision",
-   "likes": 1812
+   "likes": 1815
   }
  ],
  "free": [
@@ -742,6 +712,13 @@
  },
  "headlines": [
   {
+   "t": "London-based Machenta, which is building an AI model that can teach robots new physical tasks after seeing them performed just once, raised a $40M seed",
+   "url": "https://www.techmeme.com/261027/p21#a261027p21",
+   "at": "2026-10-27T14:35:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Apple adds a beta AI assistant built on Apple and OpenAI models to Keynote, Pages, Numbers, and Logic Pro, plus MCP support to Keynote, Pages, and Numbers",
    "url": "https://www.techmeme.com/261027/p20#a261027p20",
    "at": "2026-10-27T14:10:01.000Z",
@@ -826,6 +803,13 @@
    "kind": "News"
   },
   {
+   "t": "HUGE ANTHROPIC BOMBSHELL! Claude REA UNBANNED?! GPT-6.1 Terra, Qwen 4 27B, & Fable 5.5! AI NEWS",
+   "url": "https://www.youtube.com/watch?v=SyUjFWgqDNo",
+   "at": "2026-10-27T06:15:05Z",
+   "src": "WorldofAI",
+   "kind": "Video"
+  },
+  {
    "t": "Four takeaways from Anthropic’s potentially record-breaking stock market filing",
    "url": "https://www.theguardian.com/technology/2026/oct/26/anthropic-stock-market-filing-takeaways",
    "at": "2026-10-27T05:00:04Z",
@@ -838,20 +822,6 @@
    "at": "2026-10-27T04:42:50Z",
    "src": "The Guardian",
    "kind": "News"
-  },
-  {
-   "t": "Bank of Korea warns country's chip exports could fall by up to $100 billion if AI spending slows",
-   "url": "https://www.thestar.com.my/tech/tech-news/2026/10/27/bank-of-korea-warns-country039s-chip-exports-could-fall-by-up-to-100-billion-if-ai-spending-slows",
-   "at": "2026-10-27T02:31:00Z",
-   "src": "The Star",
-   "kind": "News"
-  },
-  {
-   "t": "Anthropic model accessed publicly available Georgia voter data; no human authorization",
-   "url": "https://foxbaltimore.com/news/nation-world/anthropic-model-accessed-publicly-available-georgia-voter-data-no-human-authorization-artificial-intelligence",
-   "at": "2026-10-27T02:25:47Z",
-   "src": "Baltimore News",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -860,8 +830,8 @@
    "t": "AI promised less work. I've never worked more",
    "url": "https://news.ycombinator.com/item?id=50257325",
    "link": "https://oioannou.com/blog/ai-promised-less-work/",
-   "up": 300,
-   "com": 264,
+   "up": 356,
+   "com": 315,
    "at": "2026-10-27T11:08:14.000Z"
   },
   {
@@ -869,17 +839,26 @@
    "t": "Three new discoveries in mathematics, computer science, and physics",
    "url": "https://news.ycombinator.com/item?id=50251344",
    "link": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
-   "up": 1027,
-   "com": 569,
+   "up": 1040,
+   "com": 577,
    "at": "2026-10-26T21:35:28.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Giving chat feedback gives Anthropic your data",
+   "url": "https://news.ycombinator.com/item?id=50259406",
+   "link": "https://privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training",
+   "up": 55,
+   "com": 28,
+   "at": "2026-10-27T13:56:15.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Software may be getting worse, but it used to be horrible",
    "url": "https://news.ycombinator.com/item?id=50257548",
    "link": "https://www.bitlog.com/2026/10/27/software-may-be-getting-worse-but-it-used-to-be-horrible/",
-   "up": 159,
-   "com": 119,
+   "up": 176,
+   "com": 132,
    "at": "2026-10-27T11:30:35.000Z"
   },
   {
@@ -887,8 +866,8 @@
    "t": "Wikipedia's Cleanup of AI-Generated Content",
    "url": "https://news.ycombinator.com/item?id=50257326",
    "link": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
-   "up": 147,
-   "com": 69,
+   "up": 174,
+   "com": 82,
    "at": "2026-10-27T11:08:15.000Z"
   },
   {
@@ -896,18 +875,9 @@
    "t": "The Exponential Time Hypothesis Is False [pdf]",
    "url": "https://news.ycombinator.com/item?id=50251661",
    "link": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
-   "up": 705,
-   "com": 256,
+   "up": 718,
+   "com": 258,
    "at": "2026-10-26T21:59:15.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "The Mythical Man-Month in the Age of AI",
-   "url": "https://news.ycombinator.com/item?id=50255298",
-   "link": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
-   "up": 295,
-   "com": 189,
-   "at": "2026-10-27T06:25:37.000Z"
   }
  ]
 }
