@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-27T18:30:57.045Z"
+  "updated": "2026-10-27T18:41:20.505Z"
  },
  "pulse": {
-  "trending": 79,
+  "trending": 78,
   "accelerating": 0,
   "newModels": 11,
-  "discussions": 44,
-  "stars": 2293
+  "discussions": 42,
+  "stars": 2281
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 67,
    "desc": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
    "meta": [
-    "★ 3,135",
-    "+1,676 in 24h",
+    "★ 3,136",
+    "+1,661 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-24T05:35:47Z",
@@ -41,8 +41,8 @@
    "grow": 8,
    "desc": "The agent skills I use every day. Works with Claude Code and Codex.",
    "meta": [
-    "★ 1,916",
-    "+513 in 24h",
+    "★ 1,921",
+    "+518 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-24T05:00:20Z",
@@ -56,7 +56,7 @@
    "cat": "Infrastructure",
    "score": 93,
    "grow": 72,
-   "desc": "Model on Hugging Face · open source · ♥ 649",
+   "desc": "Model on Hugging Face · open source · ♥ 651",
    "meta": [
     "4.8K downloads",
     "Released 4 days ago"
@@ -70,7 +70,7 @@
    "owner": "RecursiveSI",
    "src": "hf",
    "cat": "LLMs",
-   "score": 92,
+   "score": 91,
    "grow": null,
    "desc": "Model on Hugging Face · open source · ♥ 953",
    "meta": [
@@ -107,28 +107,12 @@
    "desc": "Agent Skills that teach coding agents to write, review, and port idiomatic Rust, plus a tested clippy config. Works with Claude Code, Codex, Copilot, Cursor, and Gemini CLI.",
    "meta": [
     "★ 1,295",
-    "+104 in 24h",
+    "+102 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-23T03:01:11Z",
    "breakout": null,
    "url": "https://github.com/morganlinton/BeautifulRust"
-  },
-  {
-   "name": "Spark-X2.6-4B",
-   "owner": "XHToken",
-   "src": "hf",
-   "cat": "LLMs",
-   "score": 87,
-   "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 776",
-   "meta": [
-    "6.2K downloads",
-    "Released 9 days ago"
-   ],
-   "at": "2026-10-19T03:19:51.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/XHToken/Spark-X2.6-4B"
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
@@ -145,6 +129,22 @@
    "at": "2026-10-23T09:43:05.000Z",
    "breakout": null,
    "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF"
+  },
+  {
+   "name": "Spark-X2.6-4B",
+   "owner": "XHToken",
+   "src": "hf",
+   "cat": "LLMs",
+   "score": 86,
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 776",
+   "meta": [
+    "6.2K downloads",
+    "Released 9 days ago"
+   ],
+   "at": "2026-10-19T03:19:51.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/XHToken/Spark-X2.6-4B"
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -183,7 +183,7 @@
   {
    "key": "gpt 6.1",
    "label": "GPT-6.1",
-   "n": 6,
+   "n": 5,
    "sources": [
     {
      "src": "Hacker News",
@@ -201,19 +201,14 @@
      "url": "https://www.timesnownews.com/technology-science/openai-launches-gpt-6-1-terra-to-make-ai-agents-better-at-doing-your-work-article-156412659"
     },
     {
+     "src": "Biztoc.com",
+     "t": "OpenAI launches GPT-6.1 Terra",
+     "url": "https://biztoc.com/x/8a6c4b7df988876b"
+    },
+    {
      "src": "Amazon.com",
      "t": "OpenAI GPT-6.1 Terra is now generally available on Amazon Bedrock",
      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/openai-gpt-6-1-terra-on-amazon-bedrock/"
-    },
-    {
-     "src": "9to5Mac",
-     "t": "OpenAI upgrades ChatGPT and Codex with new GPT-6.1 Terra model",
-     "url": "https://9to5mac.com/2026/10/26/openai-upgrades-chatgpt-and-codex-with-new-gpt-6-1-terra-model/"
-    },
-    {
-     "src": "Crypto Briefing",
-     "t": "OpenAI puts GPT-6.1 Terra into Agent Arena and Code Arena for public testing",
-     "url": "https://cryptobriefing.com/openai-gpt-6-1-terra-agent-arena/"
     }
    ],
    "since": "2026-10-26T19:30:56.131Z"
@@ -267,22 +262,17 @@
      "url": "https://www.timesnownews.com/technology-science/openai-launches-gpt-6-1-terra-to-make-ai-agents-better-at-doing-your-work-article-156412659"
     },
     {
+     "src": "Biztoc.com",
+     "t": "OpenAI launches GPT-6.1 Terra",
+     "url": "https://biztoc.com/x/8a6c4b7df988876b"
+    },
+    {
      "src": "Amazon.com",
      "t": "OpenAI GPT-6.1 Terra is now generally available on Amazon Bedrock",
      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/openai-gpt-6-1-terra-on-amazon-bedrock/"
-    },
-    {
-     "src": "9to5Mac",
-     "t": "OpenAI upgrades ChatGPT and Codex with new GPT-6.1 Terra model",
-     "url": "https://9to5mac.com/2026/10/26/openai-upgrades-chatgpt-and-codex-with-new-gpt-6-1-terra-model/"
-    },
-    {
-     "src": "Crypto Briefing",
-     "t": "OpenAI puts GPT-6.1 Terra into Agent Arena and Code Arena for public testing",
-     "url": "https://cryptobriefing.com/openai-gpt-6-1-terra-agent-arena/"
     }
    ],
-   "buzz": 6,
+   "buzz": 5,
    "verdict": "Talk only, no public usage numbers"
   },
   {
@@ -311,8 +301,8 @@
    "name": "android-ad-cleaner",
    "url": "https://github.com/rddmwmddr/android-ad-cleaner",
    "from": "GitHub",
-   "use": 1676,
-   "useLabel": "+1,676 stars/day",
+   "use": 1661,
+   "useLabel": "+1,661 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -335,7 +325,7 @@
    "from": "Hugging Face",
    "use": 2201569,
    "useLabel": "2.2M downloads",
-   "usePct": 0.9714285714285714,
+   "usePct": 0.9705882352941176,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -426,17 +416,17 @@
  "github": [
   {
    "repo": "rddmwmddr/android-ad-cleaner",
-   "stars": 3135,
-   "d24": 1676,
+   "stars": 3136,
+   "d24": 1661,
    "est": false,
-   "forks": 263,
+   "forks": 264,
    "contrib": null,
    "score": 95
   },
   {
    "repo": "t3dotgg/tstack",
-   "stars": 1916,
-   "d24": 513,
+   "stars": 1921,
+   "d24": 518,
    "est": false,
    "forks": 110,
    "contrib": null,
@@ -445,7 +435,7 @@
   {
    "repo": "morganlinton/BeautifulRust",
    "stars": 1295,
-   "d24": 104,
+   "d24": 102,
    "est": false,
    "forks": 57,
    "contrib": null,
@@ -463,7 +453,7 @@
    "grow": 72,
    "score": 93,
    "cat": "Infrastructure",
-   "likes": 649
+   "likes": 651
   },
   {
    "name": "flint",
@@ -472,7 +462,7 @@
    "at": "2026-10-21T14:20:58.000Z",
    "dl": 10574,
    "grow": null,
-   "score": 92,
+   "score": 91,
    "cat": "LLMs",
    "likes": 953
   },
@@ -488,18 +478,6 @@
    "likes": 3337
   },
   {
-   "name": "Spark-X2.6-4B",
-   "org": "XHToken",
-   "size": "4B",
-   "lic": "Open source",
-   "at": "2026-10-19T03:19:51.000Z",
-   "dl": 6191,
-   "grow": null,
-   "score": 87,
-   "cat": "LLMs",
-   "likes": 776
-  },
-  {
    "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
    "org": "ISTA-DASLab",
    "lic": "Open source",
@@ -511,6 +489,18 @@
    "likes": 384
   },
   {
+   "name": "Spark-X2.6-4B",
+   "org": "XHToken",
+   "size": "4B",
+   "lic": "Open source",
+   "at": "2026-10-19T03:19:51.000Z",
+   "dl": 6191,
+   "grow": null,
+   "score": 86,
+   "cat": "LLMs",
+   "likes": 776
+  },
+  {
    "name": "flux-3-image-klein-comfy",
    "org": "black-forest-labs",
    "lic": "Open weights",
@@ -519,7 +509,7 @@
    "grow": null,
    "score": 85,
    "cat": "Vision",
-   "likes": 1824
+   "likes": 1826
   }
  ],
  "free": [
@@ -935,8 +925,8 @@
    "t": "Police Are Using AI to Pull over Drivers for 'Suspicious' Behavior",
    "url": "https://news.ycombinator.com/item?id=50261819",
    "link": "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220",
-   "up": 160,
-   "com": 86,
+   "up": 178,
+   "com": 104,
    "at": "2026-10-27T16:40:15.000Z"
   },
   {
@@ -945,7 +935,7 @@
    "url": "https://news.ycombinator.com/item?id=50257325",
    "link": "https://oioannou.com/blog/ai-promised-less-work/",
    "up": 586,
-   "com": 557,
+   "com": 559,
    "at": "2026-10-27T11:08:14.000Z"
   },
   {
@@ -953,8 +943,8 @@
    "t": "A 28-Year-Old DOGE Operative Gutted USAID. HR Had No Record of Him Working There",
    "url": "https://news.ycombinator.com/item?id=50261784",
    "link": "https://www.wired.com/story/a-28-year-old-doge-operative-gutted-usaid-hr-had-no-record-of-him-working-there/",
-   "up": 129,
-   "com": 52,
+   "up": 132,
+   "com": 55,
    "at": "2026-10-27T16:38:08.000Z"
   },
   {
@@ -962,8 +952,8 @@
    "t": "Anthropic trained Claude on illegally obtained Stanford professors' books",
    "url": "https://news.ycombinator.com/item?id=50260814",
    "link": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
-   "up": 168,
-   "com": 83,
+   "up": 175,
+   "com": 86,
    "at": "2026-10-27T15:28:26.000Z"
   },
   {
@@ -971,7 +961,7 @@
    "t": "Three new discoveries in mathematics, computer science, and physics",
    "url": "https://news.ycombinator.com/item?id=50251344",
    "link": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
-   "up": 1097,
+   "up": 1098,
    "com": 637,
    "at": "2026-10-26T21:35:28.000Z"
   },
@@ -980,8 +970,8 @@
    "t": "Wikipedia's Cleanup of AI-Generated Content",
    "url": "https://news.ycombinator.com/item?id=50257326",
    "link": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
-   "up": 330,
-   "com": 155,
+   "up": 335,
+   "com": 157,
    "at": "2026-10-27T11:08:15.000Z"
   }
  ]
