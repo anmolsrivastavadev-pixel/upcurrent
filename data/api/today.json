@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-27T12:30:56.561Z"
+  "updated": "2026-10-27T13:01:08.180Z"
  },
  "pulse": {
   "trending": 79,
   "accelerating": 0,
-  "newModels": 9,
-  "discussions": 52,
-  "stars": 3108
+  "newModels": 10,
+  "discussions": 44,
+  "stars": 3085
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 95,
-   "grow": 52,
+   "grow": 54,
    "desc": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
    "meta": [
-    "★ 2,860",
-    "+1,964 in 24h",
+    "★ 2,890",
+    "+1,942 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-24T05:35:47Z",
@@ -41,7 +41,7 @@
    "grow": null,
    "desc": "The agent skills I use every day. Works with Claude Code and Codex.",
    "meta": [
-    "★ 1,785",
+    "★ 1,796",
     "~539 in 24h",
     "Created 3 days ago"
    ],
@@ -72,7 +72,7 @@
    "cat": "LLMs",
    "score": 92,
    "grow": 25,
-   "desc": "Model on Hugging Face · open source · ♥ 943",
+   "desc": "Model on Hugging Face · open source · ♥ 945",
    "meta": [
     "11K downloads",
     "Released 6 days ago"
@@ -98,23 +98,6 @@
    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
   },
   {
-   "name": "BeautifulRust",
-   "owner": "morganlinton",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 89,
-   "grow": null,
-   "desc": "Agent Skills that teach coding agents to write, review, and port idiomatic Rust, plus a tested clippy config. Works with Claude Code, Codex, Copilot, Cursor, and Gemini CLI.",
-   "meta": [
-    "★ 1,267",
-    "~288 in 24h",
-    "Created 4 days ago"
-   ],
-   "at": "2026-10-23T03:01:11Z",
-   "breakout": null,
-   "url": "https://github.com/morganlinton/BeautifulRust"
-  },
-  {
    "name": "day-trader-skill",
    "owner": "Jakeschincariol",
    "src": "gh",
@@ -123,7 +106,7 @@
    "grow": null,
    "desc": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
    "meta": [
-    "★ 2,197",
+    "★ 2,201",
     "~317 in 24h",
     "Created 7 days ago"
    ],
@@ -132,13 +115,30 @@
    "url": "https://github.com/Jakeschincariol/day-trader-skill"
   },
   {
+   "name": "BeautifulRust",
+   "owner": "morganlinton",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 88,
+   "grow": null,
+   "desc": "Agent Skills that teach coding agents to write, review, and port idiomatic Rust, plus a tested clippy config. Works with Claude Code, Codex, Copilot, Cursor, and Gemini CLI.",
+   "meta": [
+    "★ 1,267",
+    "~287 in 24h",
+    "Created 4 days ago"
+   ],
+   "at": "2026-10-23T03:01:11Z",
+   "breakout": null,
+   "url": "https://github.com/morganlinton/BeautifulRust"
+  },
+  {
    "name": "Spark-X2.6-4B",
    "owner": "XHToken",
    "src": "hf",
    "cat": "LLMs",
    "score": 87,
    "grow": 31,
-   "desc": "Model on Hugging Face · open source · ♥ 743",
+   "desc": "Model on Hugging Face · open source · ♥ 744",
    "meta": [
     "6.2K downloads",
     "Released 8 days ago"
@@ -208,8 +208,8 @@
    "name": "android-ad-cleaner",
    "url": "https://github.com/rddmwmddr/android-ad-cleaner",
    "from": "GitHub",
-   "use": 1964,
-   "useLabel": "+1,964 stars/day",
+   "use": 1942,
+   "useLabel": "+1,942 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -323,16 +323,16 @@
  "github": [
   {
    "repo": "rddmwmddr/android-ad-cleaner",
-   "stars": 2860,
-   "d24": 1964,
+   "stars": 2890,
+   "d24": 1942,
    "est": false,
-   "forks": 241,
+   "forks": 243,
    "contrib": null,
    "score": 95
   },
   {
    "repo": "t3dotgg/tstack",
-   "stars": 1785,
+   "stars": 1796,
    "d24": 539,
    "est": true,
    "forks": 103,
@@ -341,21 +341,21 @@
   },
   {
    "repo": "Jakeschincariol/day-trader-skill",
-   "stars": 2197,
+   "stars": 2201,
    "d24": 317,
    "est": true,
-   "forks": 460,
+   "forks": 461,
    "contrib": null,
    "score": 88
   },
   {
    "repo": "morganlinton/BeautifulRust",
    "stars": 1267,
-   "d24": 288,
+   "d24": 287,
    "est": true,
    "forks": 56,
    "contrib": null,
-   "score": 89
+   "score": 88
   }
  ],
  "models": [
@@ -380,7 +380,7 @@
    "grow": 25,
    "score": 92,
    "cat": "LLMs",
-   "likes": 943
+   "likes": 945
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -391,7 +391,7 @@
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 3292
+   "likes": 3298
   },
   {
    "name": "Spark-X2.6-4B",
@@ -403,7 +403,7 @@
    "grow": 31,
    "score": 87,
    "cat": "LLMs",
-   "likes": 743
+   "likes": 744
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
@@ -425,7 +425,7 @@
    "grow": 7,
    "score": 85,
    "cat": "Vision",
-   "likes": 1786
+   "likes": 1791
   }
  ],
  "free": [
@@ -723,6 +723,13 @@
  },
  "headlines": [
   {
+   "t": "Study: non-English languages can consume far more AI tokens, with the most expensive using 1.5x-5x more than the cheapest, resulting in a \"tokenizer tax\"",
+   "url": "https://www.techmeme.com/261027/p13#a261027p13",
+   "at": "2026-10-27T12:30:19.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Hyphenate, which develops reinforcement-learning-driven AI agents to automate corporate finance tasks, raised a $45M Series A, taking its total funding to $54M",
    "url": "https://www.techmeme.com/261027/p10#a261027p10",
    "at": "2026-10-27T11:10:03.000Z",
@@ -807,10 +814,10 @@
    "kind": "News"
   },
   {
-   "t": "Ahead of US midterms, ChatGPT draws images \"depicting election interference or that may discourage voting\" in a cartoon style, ignoring photorealism requests",
-   "url": "https://www.techmeme.com/261026/p50#a261026p50",
-   "at": "2026-10-27T01:45:07.000Z",
-   "src": "Techmeme",
+   "t": "performing AI agents at half the price",
+   "url": "https://siliconangle.com/2026/10/26/openai-launches-gpt-6-1-terra-for-faster-better-performing-ai-agents-at-half-the-price/",
+   "at": "2026-10-27T00:39:34Z",
+   "src": "SiliconANGLE News",
    "kind": "News"
   },
   {
@@ -826,13 +833,6 @@
    "at": "2026-10-27T00:13:11Z",
    "src": "Gizmodo",
    "kind": "News"
-  },
-  {
-   "t": "OpenAI announces three ‘major’ science discoveries in math, computer science and physics",
-   "url": "https://www.hindustantimes.com/world-news/openai-announces-three-major-science-discoveries-in-math-computer-science-and-physics-101793057796185.html",
-   "at": "2026-10-27T00:07:31Z",
-   "src": "Hindustan Times",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -841,8 +841,8 @@
    "t": "Software may be getting worse, but it used to be horrible",
    "url": "https://news.ycombinator.com/item?id=50257548",
    "link": "https://www.bitlog.com/2026/10/27/software-may-be-getting-worse-but-it-used-to-be-horrible/",
-   "up": 69,
-   "com": 34,
+   "up": 103,
+   "com": 75,
    "at": "2026-10-27T11:30:35.000Z"
   },
   {
@@ -850,8 +850,8 @@
    "t": "Three new discoveries in mathematics, computer science, and physics",
    "url": "https://news.ycombinator.com/item?id=50251344",
    "link": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
-   "up": 972,
-   "com": 516,
+   "up": 983,
+   "com": 533,
    "at": "2026-10-26T21:35:28.000Z"
   },
   {
@@ -859,36 +859,36 @@
    "t": "The Exponential Time Hypothesis Is False [pdf]",
    "url": "https://news.ycombinator.com/item?id=50251661",
    "link": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
-   "up": 670,
-   "com": 250,
+   "up": 676,
+   "com": 252,
    "at": "2026-10-26T21:59:15.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "The Mythical Man-Month in the Age of AI",
-   "url": "https://news.ycombinator.com/item?id=50255298",
-   "link": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
-   "up": 233,
-   "com": 158,
-   "at": "2026-10-27T06:25:37.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Wikipedia's Cleanup of AI-Generated Content",
    "url": "https://news.ycombinator.com/item?id=50257326",
    "link": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
-   "up": 47,
-   "com": 19,
+   "up": 72,
+   "com": 29,
    "at": "2026-10-27T11:08:15.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "GPT-6.1 Terra",
-   "url": "https://news.ycombinator.com/item?id=50248124",
-   "link": "https://openai.com/index/introducing-gpt-6-1-terra/",
-   "up": 601,
-   "com": 380,
-   "at": "2026-10-26T18:01:17.000Z"
+   "t": "The Mythical Man-Month in the Age of AI",
+   "url": "https://news.ycombinator.com/item?id=50255298",
+   "link": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
+   "up": 246,
+   "com": 163,
+   "at": "2026-10-27T06:25:37.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "AI promised less work. I've never worked more",
+   "url": "https://news.ycombinator.com/item?id=50257325",
+   "link": "https://oioannou.com/blog/ai-promised-less-work/",
+   "up": 61,
+   "com": 39,
+   "at": "2026-10-27T11:08:14.000Z"
   }
  ]
 }
