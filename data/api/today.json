@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-27T22:01:05.521Z"
+  "updated": "2026-10-27T22:30:49.927Z"
  },
  "pulse": {
-  "trending": 78,
+  "trending": 77,
   "accelerating": 0,
   "newModels": 10,
-  "discussions": 37,
-  "stars": 1416
+  "discussions": 36,
+  "stars": 1412
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
    "meta": [
-    "★ 3,170",
-    "~860 in 24h",
+    "★ 3,176",
+    "~857 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-24T05:35:47Z",
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 93,
-   "grow": 11,
+   "grow": 12,
    "desc": "The agent skills I use every day. Works with Claude Code and Codex.",
    "meta": [
-    "★ 1,972",
-    "+468 in 24h",
+    "★ 1,982",
+    "+469 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-24T05:00:20Z",
@@ -54,9 +54,9 @@
    "owner": "Nanbeige",
    "src": "hf",
    "cat": "Infrastructure",
-   "score": 93,
+   "score": 92,
    "grow": 72,
-   "desc": "Model on Hugging Face · open source · ♥ 662",
+   "desc": "Model on Hugging Face · open source · ♥ 663",
    "meta": [
     "4.8K downloads",
     "Released 4 days ago"
@@ -72,7 +72,7 @@
    "cat": "LLMs",
    "score": 91,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 963",
+   "desc": "Model on Hugging Face · open source · ♥ 966",
    "meta": [
     "11K downloads",
     "Released 6 days ago"
@@ -103,11 +103,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 87,
-   "grow": 3,
+   "grow": 4,
    "desc": "Agent Skills that teach coding agents to write, review, and port idiomatic Rust, plus a tested clippy config. Works with Claude Code, Codex, Copilot, Cursor, and Gemini CLI.",
    "meta": [
-    "★ 1,302",
-    "+88 in 24h",
+    "★ 1,303",
+    "+86 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-23T03:01:11Z",
@@ -115,11 +115,27 @@
    "url": "https://github.com/morganlinton/BeautifulRust"
   },
   {
+   "name": "Spark-X2.6-4B",
+   "owner": "XHToken",
+   "src": "hf",
+   "cat": "LLMs",
+   "score": 86,
+   "grow": 0,
+   "desc": "Model on Hugging Face · open source · ♥ 781",
+   "meta": [
+    "6.2K downloads",
+    "Released 9 days ago"
+   ],
+   "at": "2026-10-19T03:19:51.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/XHToken/Spark-X2.6-4B"
+  },
+  {
    "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
    "owner": "ISTA-DASLab",
    "src": "hf",
    "cat": "Infrastructure",
-   "score": 87,
+   "score": 86,
    "grow": null,
    "desc": "Model on Hugging Face · open source · ♥ 390",
    "meta": [
@@ -131,29 +147,13 @@
    "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF"
   },
   {
-   "name": "Spark-X2.6-4B",
-   "owner": "XHToken",
-   "src": "hf",
-   "cat": "LLMs",
-   "score": 86,
-   "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 780",
-   "meta": [
-    "6.2K downloads",
-    "Released 9 days ago"
-   ],
-   "at": "2026-10-19T03:19:51.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/XHToken/Spark-X2.6-4B"
-  },
-  {
    "name": "flux-3-image-klein-comfy",
    "owner": "black-forest-labs",
    "src": "hf",
    "cat": "Vision",
    "score": 85,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 1.8K",
+   "desc": "Vision on Hugging Face · open weights · ♥ 1.9K",
    "meta": [
     "751K downloads",
     "Released 13 days ago"
@@ -163,19 +163,19 @@
    "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy"
   },
   {
-   "name": "AV-FABLE: Audio-Visual Manipulation Forensics in Long-Form Videos",
+   "name": "Evolving to Match Capabilities: Improving Harness Self-Evolution via Skill Adaptation",
    "owner": "Paper",
    "src": "paper",
-   "url": "https://huggingface.co/papers/2610.33413",
+   "url": "https://huggingface.co/papers/2610.33024",
    "cat": "Research",
    "score": 85,
    "grow": null,
-   "desc": "Localized AI manipulations in long-form videos often affect brief events within otherwise authentic content, making video-level classification insufficient for forensic analysis.",
+   "desc": "Harness self-evolution offers a practical route for LLM agents to improve from execution experience without updating model parameters.",
    "meta": [
-    "▲ 33 upvotes",
+    "▲ 12 upvotes",
     "Hugging Face Papers"
    ],
-   "at": "2026-10-23T20:00:00.000Z",
+   "at": "2026-10-09T20:00:00.000Z",
    "breakout": null
   }
  ],
@@ -183,7 +183,7 @@
   {
    "key": "gpt 6.1",
    "label": "GPT-6.1",
-   "n": 8,
+   "n": 4,
    "sources": [
     {
      "src": "OpenAI blog",
@@ -201,55 +201,12 @@
      "url": "https://timesofindia.indiatimes.com/technology/tech-news/openai-launches-gpt-6-1-terra-sam-altman-says-we-are-especially-excited-for-/articleshow/135229840.cms"
     },
     {
-     "src": "News18",
-     "t": "OpenAI Launches GPT-6.1 Terra: What's New In OpenAI's Latest AI Model?",
-     "url": "https://www.news18.com/tech/openai-launches-gpt-6-1-terra-whats-new-in-openais-latest-ai-model-10399658.html"
-    },
-    {
-     "src": "Classmethod.jp",
-     "t": "Amazon Bedrock で GPT-6.1 の新モデル「Terra」を試してみた",
-     "url": "https://dev.classmethod.jp/articles/bedrock-openai-gpt61-terra/"
-    },
-    {
-     "src": "Online-tech-tips.com",
-     "t": "OpenAI releases GPT-6.1 Terra model upgrade with improved speed and lower cost",
-     "url": "https://www.online-tech-tips.com/openai-gpt-6-1-terra-release-speed-lower-cost/#article"
-    },
-    {
-     "src": "Decrypt",
-     "t": "OpenAI Launches GPT-6.1 Terra, Its Half-Good AI Model at Half the Price",
-     "url": "https://decrypt.co/381883/openai-launches-gpt-6-1-terra-half-good-half-price"
-    },
-    {
      "src": "YouTube",
      "t": "HUGE ANTHROPIC BOMBSHELL! Claude REA UNBANNED?! GPT-6.1 Terra, Qwen 4 27B, & Fable 5.5! AI NEWS",
      "url": "https://www.youtube.com/watch?v=SyUjFWgqDNo"
     }
    ],
    "since": "2026-10-26T19:30:56.131Z"
-  },
-  {
-   "key": "space",
-   "label": "SPACE",
-   "n": 3,
-   "sources": [
-    {
-     "src": "GitHub",
-     "t": "perplexityai/SPACE",
-     "url": "https://github.com/perplexityai/SPACE"
-    },
-    {
-     "src": "Savannah Morning News",
-     "t": "OpenAI's Project Camellia team has opened an office space in Rincon",
-     "url": "https://www.savannahnow.com/story/news/2026/10/27/openais-project-camellia-team-has-opened-an-office-space-in-rincon/92442978007/"
-    },
-    {
-     "src": "Biztoc.com",
-     "t": "Anthropic acquires more S.F. office space from Meta ahead of potential record IPO",
-     "url": "https://biztoc.com/x/6d3266af5cc16054"
-    }
-   ],
-   "since": "2026-10-19T00:27:53.628Z"
   }
  ],
  "hype": [
@@ -277,40 +234,20 @@
      "url": "https://timesofindia.indiatimes.com/technology/tech-news/openai-launches-gpt-6-1-terra-sam-altman-says-we-are-especially-excited-for-/articleshow/135229840.cms"
     },
     {
-     "src": "News18",
-     "t": "OpenAI Launches GPT-6.1 Terra: What's New In OpenAI's Latest AI Model?",
-     "url": "https://www.news18.com/tech/openai-launches-gpt-6-1-terra-whats-new-in-openais-latest-ai-model-10399658.html"
-    },
-    {
-     "src": "Classmethod.jp",
-     "t": "Amazon Bedrock で GPT-6.1 の新モデル「Terra」を試してみた",
-     "url": "https://dev.classmethod.jp/articles/bedrock-openai-gpt61-terra/"
-    },
-    {
-     "src": "Online-tech-tips.com",
-     "t": "OpenAI releases GPT-6.1 Terra model upgrade with improved speed and lower cost",
-     "url": "https://www.online-tech-tips.com/openai-gpt-6-1-terra-release-speed-lower-cost/#article"
-    },
-    {
-     "src": "Decrypt",
-     "t": "OpenAI Launches GPT-6.1 Terra, Its Half-Good AI Model at Half the Price",
-     "url": "https://decrypt.co/381883/openai-launches-gpt-6-1-terra-half-good-half-price"
-    },
-    {
      "src": "YouTube",
      "t": "HUGE ANTHROPIC BOMBSHELL! Claude REA UNBANNED?! GPT-6.1 Terra, Qwen 4 27B, & Fable 5.5! AI NEWS",
      "url": "https://www.youtube.com/watch?v=SyUjFWgqDNo"
     }
    ],
-   "buzz": 8,
+   "buzz": 4,
    "verdict": "Talk only, no public usage numbers"
   },
   {
    "name": "android-ad-cleaner",
    "url": "https://github.com/rddmwmddr/android-ad-cleaner",
    "from": "GitHub",
-   "use": 860,
-   "useLabel": "~860 stars/day",
+   "use": 857,
+   "useLabel": "~857 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -333,7 +270,7 @@
    "from": "Hugging Face",
    "use": 2760550,
    "useLabel": "2.8M downloads",
-   "usePct": 0.9705882352941176,
+   "usePct": 0.9696969696969697,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -424,28 +361,28 @@
  "github": [
   {
    "repo": "rddmwmddr/android-ad-cleaner",
-   "stars": 3170,
-   "d24": 860,
+   "stars": 3176,
+   "d24": 857,
    "est": true,
-   "forks": 267,
+   "forks": 268,
    "contrib": null,
    "score": 95
   },
   {
    "repo": "t3dotgg/tstack",
-   "stars": 1972,
-   "d24": 468,
+   "stars": 1982,
+   "d24": 469,
    "est": false,
-   "forks": 115,
+   "forks": 116,
    "contrib": null,
    "score": 93
   },
   {
    "repo": "morganlinton/BeautifulRust",
-   "stars": 1302,
-   "d24": 88,
+   "stars": 1303,
+   "d24": 86,
    "est": false,
-   "forks": 57,
+   "forks": 58,
    "contrib": null,
    "score": 87
   }
@@ -459,9 +396,9 @@
    "at": "2026-10-24T02:49:18.000Z",
    "dl": 4785,
    "grow": 72,
-   "score": 93,
+   "score": 92,
    "cat": "Infrastructure",
-   "likes": 662
+   "likes": 663
   },
   {
    "name": "flint",
@@ -472,7 +409,7 @@
    "grow": null,
    "score": 91,
    "cat": "LLMs",
-   "likes": 963
+   "likes": 966
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -483,18 +420,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 3359
-  },
-  {
-   "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
-   "org": "ISTA-DASLab",
-   "lic": "Open source",
-   "at": "2026-10-23T09:43:05.000Z",
-   "dl": 1105751,
-   "grow": null,
-   "score": 87,
-   "cat": "Infrastructure",
-   "likes": 390
+   "likes": 3361
   },
   {
    "name": "Spark-X2.6-4B",
@@ -506,7 +432,18 @@
    "grow": 0,
    "score": 86,
    "cat": "LLMs",
-   "likes": 780
+   "likes": 781
+  },
+  {
+   "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+   "org": "ISTA-DASLab",
+   "lic": "Open source",
+   "at": "2026-10-23T09:43:05.000Z",
+   "dl": 1105751,
+   "grow": null,
+   "score": 86,
+   "cat": "Infrastructure",
+   "likes": 390
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -517,7 +454,7 @@
    "grow": 0,
    "score": 85,
    "cat": "Vision",
-   "likes": 1847
+   "likes": 1850
   }
  ],
  "free": [
@@ -815,6 +752,13 @@
  },
  "headlines": [
   {
+   "t": "AI bots flooded 2023 UK government consultation on disposable vapes ban",
+   "url": "https://www.theguardian.com/society/2026/oct/27/ai-bots-flooded-2023-uk-government-consultation-disposable-vapes-ban",
+   "at": "2026-10-27T22:30:45Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
    "t": "Anthropic details early drug development work with six partners and says it has acquired Mithril, a one-person company working on muscular dystrophy",
    "url": "https://www.techmeme.com/261027/p31#a261027p31",
    "at": "2026-10-27T21:45:39.000Z",
@@ -918,13 +862,6 @@
    "at": "2026-10-27T15:00:20.000Z",
    "src": "NVIDIA",
    "kind": "Lab blog"
-  },
-  {
-   "t": "London-based Machenta, which is building an AI model that can teach robots new physical tasks after seeing them performed just once, raised a $40M seed",
-   "url": "https://www.techmeme.com/261027/p21#a261027p21",
-   "at": "2026-10-27T14:35:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -933,8 +870,8 @@
    "t": "Anthropic trained Claude on illegally obtained Stanford professors' books",
    "url": "https://news.ycombinator.com/item?id=50260814",
    "link": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
-   "up": 369,
-   "com": 202,
+   "up": 384,
+   "com": 221,
    "at": "2026-10-27T15:28:26.000Z"
   },
   {
@@ -943,7 +880,7 @@
    "url": "https://news.ycombinator.com/item?id=50257325",
    "link": "https://oioannou.com/blog/ai-promised-less-work/",
    "up": 609,
-   "com": 593,
+   "com": 598,
    "at": "2026-10-27T11:08:14.000Z"
   },
   {
@@ -951,8 +888,8 @@
    "t": "Police are using AI to pull over drivers for 'suspicious' behavior",
    "url": "https://news.ycombinator.com/item?id=50261819",
    "link": "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220",
-   "up": 298,
-   "com": 232,
+   "up": 310,
+   "com": 237,
    "at": "2026-10-27T16:40:15.000Z"
   },
   {
@@ -960,8 +897,8 @@
    "t": "Survival LLM: AI assistant and emergency library that runs on your own computer",
    "url": "https://news.ycombinator.com/item?id=50264853",
    "link": "https://www.brangus.io/survival-llm",
-   "up": 87,
-   "com": 58,
+   "up": 106,
+   "com": 65,
    "at": "2026-10-27T19:55:06.000Z"
   },
   {
@@ -969,8 +906,8 @@
    "t": "Wikipedia's Cleanup of AI-Generated Content",
    "url": "https://news.ycombinator.com/item?id=50257326",
    "link": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
-   "up": 406,
-   "com": 184,
+   "up": 414,
+   "com": 187,
    "at": "2026-10-27T11:08:15.000Z"
   },
   {
@@ -978,8 +915,8 @@
    "t": "Early progress on accelerating drug development with Claude",
    "url": "https://news.ycombinator.com/item?id=50265609",
    "link": "https://www.anthropic.com/research/early-progress-drug-development",
-   "up": 43,
-   "com": 24,
+   "up": 56,
+   "com": 40,
    "at": "2026-10-27T20:50:42.000Z"
   }
  ]
