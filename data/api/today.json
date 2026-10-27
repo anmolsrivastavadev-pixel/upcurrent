@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-27T12:01:05.900Z"
+  "updated": "2026-10-27T12:30:56.561Z"
  },
  "pulse": {
   "trending": 79,
   "accelerating": 0,
   "newModels": 9,
-  "discussions": 51,
-  "stars": 3132
+  "discussions": 52,
+  "stars": 3108
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 95,
-   "grow": 51,
+   "grow": 52,
    "desc": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
    "meta": [
-    "★ 2,830",
-    "+1,986 in 24h",
+    "★ 2,860",
+    "+1,964 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-24T05:35:47Z",
@@ -41,8 +41,8 @@
    "grow": null,
    "desc": "The agent skills I use every day. Works with Claude Code and Codex.",
    "meta": [
-    "★ 1,777",
-    "~540 in 24h",
+    "★ 1,785",
+    "~539 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-24T05:00:20Z",
@@ -55,7 +55,7 @@
    "src": "hf",
    "cat": "Infrastructure",
    "score": 93,
-   "grow": null,
+   "grow": 72,
    "desc": "Model on Hugging Face · open source · ♥ 626",
    "meta": [
     "4.8K downloads",
@@ -87,7 +87,7 @@
    "src": "hf",
    "cat": "Vision",
    "score": 90,
-   "grow": 10,
+   "grow": null,
    "desc": "Vision on Hugging Face · open source · ♥ 3.3K",
    "meta": [
     "106K downloads",
@@ -106,8 +106,8 @@
    "grow": null,
    "desc": "Agent Skills that teach coding agents to write, review, and port idiomatic Rust, plus a tested clippy config. Works with Claude Code, Codex, Copilot, Cursor, and Gemini CLI.",
    "meta": [
-    "★ 1,264",
-    "~289 in 24h",
+    "★ 1,267",
+    "~288 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-23T03:01:11Z",
@@ -123,7 +123,7 @@
    "grow": null,
    "desc": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
    "meta": [
-    "★ 2,192",
+    "★ 2,197",
     "~317 in 24h",
     "Created 7 days ago"
    ],
@@ -154,7 +154,7 @@
    "cat": "Infrastructure",
    "score": 87,
    "grow": 24,
-   "desc": "Model on Hugging Face · open source · ♥ 368",
+   "desc": "Model on Hugging Face · open source · ♥ 371",
    "meta": [
     "1.1M downloads",
     "Released 4 days ago"
@@ -208,8 +208,8 @@
    "name": "android-ad-cleaner",
    "url": "https://github.com/rddmwmddr/android-ad-cleaner",
    "from": "GitHub",
-   "use": 1986,
-   "useLabel": "+1,986 stars/day",
+   "use": 1964,
+   "useLabel": "+1,964 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -323,17 +323,17 @@
  "github": [
   {
    "repo": "rddmwmddr/android-ad-cleaner",
-   "stars": 2830,
-   "d24": 1986,
+   "stars": 2860,
+   "d24": 1964,
    "est": false,
-   "forks": 239,
+   "forks": 241,
    "contrib": null,
    "score": 95
   },
   {
    "repo": "t3dotgg/tstack",
-   "stars": 1777,
-   "d24": 540,
+   "stars": 1785,
+   "d24": 539,
    "est": true,
    "forks": 103,
    "contrib": null,
@@ -341,17 +341,17 @@
   },
   {
    "repo": "Jakeschincariol/day-trader-skill",
-   "stars": 2192,
+   "stars": 2197,
    "d24": 317,
    "est": true,
-   "forks": 458,
+   "forks": 460,
    "contrib": null,
    "score": 88
   },
   {
    "repo": "morganlinton/BeautifulRust",
-   "stars": 1264,
-   "d24": 289,
+   "stars": 1267,
+   "d24": 288,
    "est": true,
    "forks": 56,
    "contrib": null,
@@ -366,7 +366,7 @@
    "lic": "Open source",
    "at": "2026-10-24T02:49:18.000Z",
    "dl": 4785,
-   "grow": null,
+   "grow": 72,
    "score": 93,
    "cat": "Infrastructure",
    "likes": 626
@@ -388,10 +388,10 @@
    "lic": "Open source",
    "at": "2026-10-17T02:40:38.000Z",
    "dl": 105667,
-   "grow": 10,
+   "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 3289
+   "likes": 3292
   },
   {
    "name": "Spark-X2.6-4B",
@@ -414,7 +414,7 @@
    "grow": 24,
    "score": 87,
    "cat": "Infrastructure",
-   "likes": 368
+   "likes": 371
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -425,7 +425,7 @@
    "grow": 7,
    "score": 85,
    "cat": "Vision",
-   "likes": 1785
+   "likes": 1786
   }
  ],
  "free": [
@@ -814,35 +814,44 @@
    "kind": "News"
   },
   {
-   "t": "‘Digital hostile environment’: AI secretly being embedded across Home Office, report claims",
-   "url": "https://www.theguardian.com/politics/2026/oct/27/digital-hostile-environment-ai-secretly-embedded-home-office-report",
-   "at": "2026-10-27T00:01:02Z",
-   "src": "The Guardian",
-   "kind": "News"
-  },
-  {
    "t": "Australia warns of 'unprecedented' AI threat",
-   "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/27/australia-warns-of-039unprecedented039-ai-threat",
-   "at": "2026-10-27T00:00:00Z",
-   "src": "The Star",
+   "url": "https://www.manilatimes.net/2026/10/27/world/asia-oceania/australia-warns-of-unprecedented-ai-threat/2454541",
+   "at": "2026-10-27T00:21:00Z",
+   "src": "The Manila Times",
    "kind": "News"
   },
   {
-   "t": "The Anthropic IPO by the numbers, from a possible valuation in the trillions to surging revenue",
-   "url": "https://wtop.com/national/2026/10/the-anthropic-ipo-by-the-numbers-from-a-possible-valuation-in-the-trillions-to-surging-revenue/",
-   "at": "2026-10-26T23:54:29Z",
-   "src": "WTOP",
+   "t": "OpenAI Trumpets 3 More Math and Science Results, Along With a New Plan for Publishing Them",
+   "url": "https://gizmodo.com/openai-trumpets-3-more-math-and-science-results-along-with-a-new-plan-for-publishing-them-2000830956",
+   "at": "2026-10-27T00:13:11Z",
+   "src": "Gizmodo",
+   "kind": "News"
+  },
+  {
+   "t": "OpenAI announces three ‘major’ science discoveries in math, computer science and physics",
+   "url": "https://www.hindustantimes.com/world-news/openai-announces-three-major-science-discoveries-in-math-computer-science-and-physics-101793057796185.html",
+   "at": "2026-10-27T00:07:31Z",
+   "src": "Hindustan Times",
    "kind": "News"
   }
  ],
  "discussions": [
   {
    "src": "Hacker News",
+   "t": "Software may be getting worse, but it used to be horrible",
+   "url": "https://news.ycombinator.com/item?id=50257548",
+   "link": "https://www.bitlog.com/2026/10/27/software-may-be-getting-worse-but-it-used-to-be-horrible/",
+   "up": 69,
+   "com": 34,
+   "at": "2026-10-27T11:30:35.000Z"
+  },
+  {
+   "src": "Hacker News",
    "t": "Three new discoveries in mathematics, computer science, and physics",
    "url": "https://news.ycombinator.com/item?id=50251344",
    "link": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
-   "up": 965,
-   "com": 501,
+   "up": 972,
+   "com": 516,
    "at": "2026-10-26T21:35:28.000Z"
   },
   {
@@ -850,7 +859,7 @@
    "t": "The Exponential Time Hypothesis Is False [pdf]",
    "url": "https://news.ycombinator.com/item?id=50251661",
    "link": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
-   "up": 661,
+   "up": 670,
    "com": 250,
    "at": "2026-10-26T21:59:15.000Z"
   },
@@ -859,36 +868,27 @@
    "t": "The Mythical Man-Month in the Age of AI",
    "url": "https://news.ycombinator.com/item?id=50255298",
    "link": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
-   "up": 215,
-   "com": 152,
+   "up": 233,
+   "com": 158,
    "at": "2026-10-27T06:25:37.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "GPT-6.1 Terra",
-   "url": "https://news.ycombinator.com/item?id=50248124",
-   "link": "https://openai.com/index/introducing-gpt-6-1-terra/",
-   "up": 600,
-   "com": 379,
-   "at": "2026-10-26T18:01:17.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Software may be getting worse, but it used to be horrible",
-   "url": "https://news.ycombinator.com/item?id=50257548",
-   "link": "https://www.bitlog.com/2026/10/27/software-may-be-getting-worse-but-it-used-to-be-horrible/",
-   "up": 29,
-   "com": 7,
-   "at": "2026-10-27T11:30:35.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Wikipedia's Cleanup of AI-Generated Content",
    "url": "https://news.ycombinator.com/item?id=50257326",
    "link": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
-   "up": 22,
-   "com": 6,
+   "up": 47,
+   "com": 19,
    "at": "2026-10-27T11:08:15.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "GPT-6.1 Terra",
+   "url": "https://news.ycombinator.com/item?id=50248124",
+   "link": "https://openai.com/index/introducing-gpt-6-1-terra/",
+   "up": 601,
+   "com": 380,
+   "at": "2026-10-26T18:01:17.000Z"
   }
  ]
 }
