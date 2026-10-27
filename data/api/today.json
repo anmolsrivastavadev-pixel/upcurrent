@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-27T09:30:54.677Z"
+  "updated": "2026-10-27T10:01:04.719Z"
  },
  "pulse": {
   "trending": 79,
   "accelerating": 0,
   "newModels": 7,
   "discussions": 51,
-  "stars": 3486
+  "stars": 3510
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 95,
-   "grow": 42,
+   "grow": 44,
    "desc": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
    "meta": [
-    "★ 2,659",
-    "+2,082 in 24h",
+    "★ 2,698",
+    "+2,071 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-24T05:35:47Z",
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 94,
-   "grow": 57,
+   "grow": 58,
    "desc": "The agent skills I use every day. Works with Claude Code and Codex.",
    "meta": [
-    "★ 1,737",
-    "+845 in 24h",
+    "★ 1,742",
+    "+829 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-24T05:00:20Z",
@@ -56,7 +56,7 @@
    "cat": "Infrastructure",
    "score": 93,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 622",
+   "desc": "Model on Hugging Face · open source · ♥ 624",
    "meta": [
     "2.8K downloads",
     "Released 3 days ago"
@@ -72,7 +72,7 @@
    "cat": "LLMs",
    "score": 92,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 937",
+   "desc": "Model on Hugging Face · open source · ♥ 938",
    "meta": [
     "8.5K downloads",
     "Released 6 days ago"
@@ -87,10 +87,10 @@
    "src": "hf",
    "cat": "Vision",
    "score": 90,
-   "grow": 0,
+   "grow": 10,
    "desc": "Vision on Hugging Face · open source · ♥ 3.3K",
    "meta": [
-    "96K downloads",
+    "106K downloads",
     "Released 10 days ago"
    ],
    "at": "2026-10-17T02:40:38.000Z",
@@ -103,11 +103,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 89,
-   "grow": 19,
+   "grow": null,
    "desc": "Agent Skills that teach coding agents to write, review, and port idiomatic Rust, plus a tested clippy config. Works with Claude Code, Codex, Copilot, Cursor, and Gemini CLI.",
    "meta": [
-    "★ 1,254",
-    "+242 in 24h",
+    "★ 1,258",
+    "~293 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-23T03:01:11Z",
@@ -123,7 +123,7 @@
    "grow": null,
    "desc": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
    "meta": [
-    "★ 2,158",
+    "★ 2,163",
     "~317 in 24h",
     "Created 7 days ago"
    ],
@@ -137,10 +137,10 @@
    "src": "hf",
    "cat": "LLMs",
    "score": 87,
-   "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 730",
+   "grow": 31,
+   "desc": "Model on Hugging Face · open source · ♥ 732",
    "meta": [
-    "4.7K downloads",
+    "6.2K downloads",
     "Released 8 days ago"
    ],
    "at": "2026-10-19T03:19:51.000Z",
@@ -169,10 +169,10 @@
    "src": "hf",
    "cat": "Vision",
    "score": 85,
-   "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 1.7K",
+   "grow": 7,
+   "desc": "Vision on Hugging Face · open weights · ♥ 1.8K",
    "meta": [
-    "701K downloads",
+    "751K downloads",
     "Released 13 days ago"
    ],
    "at": "2026-10-14T12:00:13.000Z",
@@ -180,31 +180,7 @@
    "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy"
   }
  ],
- "breakouts": [
-  {
-   "key": "gpt 6.1",
-   "label": "GPT-6.1",
-   "n": 3,
-   "sources": [
-    {
-     "src": "Hacker News",
-     "t": "GPT-6.1 Terra (Max) Scores 48 on Artificial Analysis",
-     "url": "https://news.ycombinator.com/item?id=50249076"
-    },
-    {
-     "src": "OpenAI blog",
-     "t": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
-     "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security"
-    },
-    {
-     "src": "Techmeme",
-     "t": "OpenAI releases GPT-6.1 Terra, touting \"fast and capable computer use at scale\" and clearer, more natural writing, priced at $1/1M input and $5/1M output tokens",
-     "url": "https://www.techmeme.com/261026/p40#a261026p40"
-    }
-   ],
-   "since": "2026-10-26T19:30:56.131Z"
-  }
- ],
+ "breakouts": [],
  "hype": [
   {
    "name": "GPT-6.1",
@@ -223,22 +199,17 @@
      "src": "OpenAI blog",
      "t": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security"
-    },
-    {
-     "src": "Techmeme",
-     "t": "OpenAI releases GPT-6.1 Terra, touting \"fast and capable computer use at scale\" and clearer, more natural writing, priced at $1/1M input and $5/1M output tokens",
-     "url": "https://www.techmeme.com/261026/p40#a261026p40"
     }
    ],
-   "buzz": 3,
+   "buzz": 2,
    "verdict": "Talk only, no public usage numbers"
   },
   {
    "name": "android-ad-cleaner",
    "url": "https://github.com/rddmwmddr/android-ad-cleaner",
    "from": "GitHub",
-   "use": 2082,
-   "useLabel": "+2,082 stars/day",
+   "use": 2071,
+   "useLabel": "+2,071 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -248,8 +219,8 @@
    "name": "MOSS-Image",
    "url": "https://huggingface.co/Comfy-Org/MOSS-Image",
    "from": "Hugging Face",
-   "use": 2442344,
-   "useLabel": "2.4M downloads",
+   "use": 2760550,
+   "useLabel": "2.8M downloads",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -259,7 +230,7 @@
    "name": "Qwen-Image-2.1-Uncensored-Quantized",
    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
    "from": "Hugging Face",
-   "use": 2207486,
+   "use": 2201569,
    "useLabel": "2.2M downloads",
    "usePct": 0.9705882352941176,
    "talk": [],
@@ -268,6 +239,36 @@
   }
  ],
  "receipts": [
+  {
+   "name": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "kind": "downloads",
+   "first": "2026-10-17T09:01:01.702Z",
+   "firstV": 0,
+   "m": 100000,
+   "at": "2026-10-27T10:01:04.719Z",
+   "lead": 241.00083805555556
+  },
+  {
+   "name": "MiniMaxAI/MiniMax-M3.1-Flash",
+   "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash",
+   "kind": "downloads",
+   "first": "2026-10-23T07:31:13.190Z",
+   "firstV": 357,
+   "m": 10000,
+   "at": "2026-10-27T10:01:04.719Z",
+   "lead": 98.49764694444444
+  },
+  {
+   "name": "XHToken/Spark-X2.6-4B-GGUF",
+   "url": "https://huggingface.co/XHToken/Spark-X2.6-4B-GGUF",
+   "kind": "downloads",
+   "first": "2026-10-25T09:01:04.191Z",
+   "firstV": 18556,
+   "m": 100000,
+   "at": "2026-10-27T10:01:04.719Z",
+   "lead": 49.000146666666666
+  },
   {
    "name": "rddmwmddr/android-ad-cleaner",
    "url": "https://github.com/rddmwmddr/android-ad-cleaner",
@@ -317,71 +318,41 @@
    "m": 1000,
    "at": "2026-10-25T13:30:52.761Z",
    "lead": 61.495892222222224
-  },
-  {
-   "name": "OpenMOSS-Team/MOSS-Image-SFT",
-   "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT",
-   "kind": "downloads",
-   "first": "2026-10-16T23:01:02.055Z",
-   "firstV": 54,
-   "m": 10000,
-   "at": "2026-10-25T09:30:50.273Z",
-   "lead": 202.49672722222223
-  },
-  {
-   "name": "unsloth/flint-GGUF",
-   "url": "https://huggingface.co/unsloth/flint-GGUF",
-   "kind": "downloads",
-   "first": "2026-10-22T15:07:10.368Z",
-   "firstV": 7401,
-   "m": 100000,
-   "at": "2026-10-25T09:30:50.273Z",
-   "lead": 66.39441805555556
-  },
-  {
-   "name": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
-   "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
-   "kind": "downloads",
-   "first": "2026-10-24T11:01:06.678Z",
-   "firstV": 32479,
-   "m": 100000,
-   "at": "2026-10-25T09:30:50.273Z",
-   "lead": 22.495443055555555
   }
  ],
  "github": [
   {
    "repo": "rddmwmddr/android-ad-cleaner",
-   "stars": 2659,
-   "d24": 2082,
+   "stars": 2698,
+   "d24": 2071,
    "est": false,
-   "forks": 220,
+   "forks": 224,
    "contrib": null,
    "score": 95
   },
   {
    "repo": "t3dotgg/tstack",
-   "stars": 1737,
-   "d24": 845,
+   "stars": 1742,
+   "d24": 829,
    "est": false,
-   "forks": 101,
+   "forks": 102,
    "contrib": null,
    "score": 94
   },
   {
    "repo": "Jakeschincariol/day-trader-skill",
-   "stars": 2158,
+   "stars": 2163,
    "d24": 317,
    "est": true,
-   "forks": 451,
+   "forks": 452,
    "contrib": null,
    "score": 88
   },
   {
    "repo": "morganlinton/BeautifulRust",
-   "stars": 1254,
-   "d24": 242,
-   "est": false,
+   "stars": 1258,
+   "d24": 293,
+   "est": true,
    "forks": 56,
    "contrib": null,
    "score": 89
@@ -398,7 +369,7 @@
    "grow": null,
    "score": 93,
    "cat": "Infrastructure",
-   "likes": 622
+   "likes": 624
   },
   {
    "name": "flint",
@@ -409,18 +380,18 @@
    "grow": 0,
    "score": 92,
    "cat": "LLMs",
-   "likes": 937
+   "likes": 938
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
    "org": "deepseek-ai",
    "lic": "Open source",
    "at": "2026-10-17T02:40:38.000Z",
-   "dl": 95889,
-   "grow": 0,
+   "dl": 105667,
+   "grow": 10,
    "score": 90,
    "cat": "Vision",
-   "likes": 3273
+   "likes": 3278
   },
   {
    "name": "Spark-X2.6-4B",
@@ -428,11 +399,11 @@
    "size": "4B",
    "lic": "Open source",
    "at": "2026-10-19T03:19:51.000Z",
-   "dl": 4726,
-   "grow": 0,
+   "dl": 6191,
+   "grow": 31,
    "score": 87,
    "cat": "LLMs",
-   "likes": 730
+   "likes": 732
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
@@ -450,11 +421,11 @@
    "org": "black-forest-labs",
    "lic": "Open weights",
    "at": "2026-10-14T12:00:13.000Z",
-   "dl": 700652,
-   "grow": 0,
+   "dl": 750694,
+   "grow": 7,
    "score": 85,
    "cat": "Vision",
-   "likes": 1724
+   "likes": 1781
   }
  ],
  "free": [
@@ -740,9 +711,31 @@
  ],
  "freeChanges": {
   "since": "2026-10-01T17:48:04.617Z",
-  "events": []
+  "events": [
+   {
+    "type": "removed",
+    "name": "Nemotron 3 Super",
+    "prov": "OpenRouter",
+    "url": "https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b:free",
+    "at": "2026-10-27T10:01:04.719Z"
+   }
+  ]
  },
  "headlines": [
+  {
+   "t": "S-1: Anthropic spent ~$2.50 on compute and infrastructure for every $1 of revenue in Q1 2025, falling to under 50 cents in Q2 2026, as it seeks profitability",
+   "url": "https://www.techmeme.com/261027/p5#a261027p5",
+   "at": "2026-10-27T09:55:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Sources: Broadcom CEO Hock Tan held 11th-hour talks and agreed to higher rates and loan guarantees to secure bank participation in the $63B Anthropic debt deal",
+   "url": "https://www.techmeme.com/261027/p4#a261027p4",
+   "at": "2026-10-27T09:40:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
   {
    "t": "Nvidia and Meta expand their Muse partnership, including Meta deploying more Vera Rubin and Vera CPUs; Nvidia will invest $3B in Meta's planned equity fundraise",
    "url": "https://www.techmeme.com/261027/p3#a261027p3",
@@ -800,6 +793,13 @@
    "kind": "News"
   },
   {
+   "t": "led growth, AI erode youth job quality: BOK",
+   "url": "https://www.koreatimes.co.kr/economy/others/20261027/chip-led-growth-ai-erode-youth-job-quality-bok",
+   "at": "2026-10-26T22:00:07Z",
+   "src": "The Korea Times",
+   "kind": "News"
+  },
+  {
    "t": "Greptile takes bug detection beyond code review with GPT-6 Astra",
    "url": "https://openai.com/index/greptile-code-review-codex-astra",
    "at": "2026-10-26T22:00:00.000Z",
@@ -811,6 +811,13 @@
    "url": "https://www.techmeme.com/261026/p48#a261026p48",
    "at": "2026-10-26T21:55:02.000Z",
    "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Good AI Model at Half the Price",
+   "url": "https://decrypt.co/381883/openai-launches-gpt-6-1-terra-half-good-half-price",
+   "at": "2026-10-26T21:46:02Z",
+   "src": "Decrypt",
    "kind": "News"
   },
   {
@@ -826,34 +833,6 @@
    "at": "2026-10-26T21:16:03Z",
    "src": "Decrypt",
    "kind": "News"
-  },
-  {
-   "t": "Anthropic Board Member Reed Hastings Says \"Creative Destruction\" Is The Main AI Risk",
-   "url": "https://deadline.com/2026/10/anthropic-ipo-reed-hastings-ai-creative-destruction-1237197156/",
-   "at": "2026-10-26T21:08:57Z",
-   "src": "Deadline",
-   "kind": "News"
-  },
-  {
-   "t": "Workers at OpenAI, Anthropic made to ditch company logos as it makes them targets for spies, seduction",
-   "url": "https://nypost.com/2026/10/26/tech/workers-at-openai-anthropic-made-to-ditch-company-logos-as-it-makes-them-targets-for-spies-seduction/",
-   "at": "2026-10-26T21:07:23Z",
-   "src": "New York Post",
-   "kind": "News"
-  },
-  {
-   "t": "Banks, Blackstone Form $63 Billion Financing Vehicle for Broadcom AI Tech",
-   "url": "https://www.marketscreener.com/news/banks-blackstone-form-63-billion-financing-vehicle-for-broadcom-ai-tech-ce785cdcde8ff42c",
-   "at": "2026-10-26T20:56:17Z",
-   "src": "MarketScreener",
-   "kind": "News"
-  },
-  {
-   "t": "Anthropic files for potentially the biggest IPO ever as CEO warns of risk to humanity from AI",
-   "url": "https://www.shawlocal.com/news/2026/10/26/anthropic-files-for-potentially-the-biggest-ipo-ever-as-ceo-warns-of-risk-to-humanity-from-ai/",
-   "at": "2026-10-26T20:55:27Z",
-   "src": "Shaw Local Enewspapers",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -862,8 +841,8 @@
    "t": "Three new discoveries in mathematics, computer science, and physics",
    "url": "https://news.ycombinator.com/item?id=50251344",
    "link": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
-   "up": 877,
-   "com": 404,
+   "up": 899,
+   "com": 424,
    "at": "2026-10-26T21:35:28.000Z"
   },
   {
@@ -871,8 +850,8 @@
    "t": "The Exponential Time Hypothesis Is False [pdf]",
    "url": "https://news.ycombinator.com/item?id=50251661",
    "link": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
-   "up": 617,
-   "com": 222,
+   "up": 621,
+   "com": 226,
    "at": "2026-10-26T21:59:15.000Z"
   },
   {
@@ -881,7 +860,7 @@
    "url": "https://news.ycombinator.com/item?id=50248124",
    "link": "https://openai.com/index/introducing-gpt-6-1-terra/",
    "up": 588,
-   "com": 372,
+   "com": 376,
    "at": "2026-10-26T18:01:17.000Z"
   },
   {
@@ -889,8 +868,8 @@
    "t": "The Mythical Man-Month in the Age of AI",
    "url": "https://news.ycombinator.com/item?id=50255298",
    "link": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
-   "up": 108,
-   "com": 89,
+   "up": 131,
+   "com": 102,
    "at": "2026-10-27T06:25:37.000Z"
   },
   {
@@ -898,7 +877,7 @@
    "t": "Concerning behavior from a popular open-weight AI model",
    "url": "https://news.ycombinator.com/item?id=50246658",
    "link": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
-   "up": 298,
+   "up": 301,
    "com": 118,
    "at": "2026-10-26T16:35:44.000Z"
   },
@@ -908,7 +887,7 @@
    "url": "https://news.ycombinator.com/item?id=50248371",
    "link": "https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md",
    "up": 242,
-   "com": 158,
+   "com": 159,
    "at": "2026-10-26T18:14:49.000Z"
   }
  ]
