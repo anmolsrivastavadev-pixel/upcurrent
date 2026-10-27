@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-27T15:30:56.377Z"
+  "updated": "2026-10-27T16:01:08.651Z"
  },
  "pulse": {
   "trending": 78,
   "accelerating": 0,
   "newModels": 10,
-  "discussions": 44,
-  "stars": 2673
+  "discussions": 42,
+  "stars": 2469
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 95,
-   "grow": 62,
+   "grow": 63,
    "desc": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
    "meta": [
-    "★ 3,035",
-    "+1,851 in 24h",
+    "★ 3,058",
+    "+1,827 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-24T05:35:47Z",
@@ -41,7 +41,7 @@
    "grow": null,
    "desc": "The agent skills I use every day. Works with Claude Code and Codex.",
    "meta": [
-    "★ 1,851",
+    "★ 1,862",
     "~538 in 24h",
     "Created 3 days ago"
    ],
@@ -56,7 +56,7 @@
    "cat": "Infrastructure",
    "score": 93,
    "grow": 72,
-   "desc": "Model on Hugging Face · open source · ♥ 640",
+   "desc": "Model on Hugging Face · open source · ♥ 642",
    "meta": [
     "4.8K downloads",
     "Released 4 days ago"
@@ -103,11 +103,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 88,
-   "grow": null,
+   "grow": 2,
    "desc": "Agent Skills that teach coding agents to write, review, and port idiomatic Rust, plus a tested clippy config. Works with Claude Code, Codex, Copilot, Cursor, and Gemini CLI.",
    "meta": [
-    "★ 1,282",
-    "~284 in 24h",
+    "★ 1,284",
+    "+104 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-23T03:01:11Z",
@@ -121,7 +121,7 @@
    "cat": "LLMs",
    "score": 87,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 749",
+   "desc": "Model on Hugging Face · open source · ♥ 754",
    "meta": [
     "6.2K downloads",
     "Released 9 days ago"
@@ -137,7 +137,7 @@
    "cat": "Infrastructure",
    "score": 87,
    "grow": 24,
-   "desc": "Model on Hugging Face · open source · ♥ 375",
+   "desc": "Model on Hugging Face · open source · ♥ 378",
    "meta": [
     "1.1M downloads",
     "Released 4 days ago"
@@ -172,7 +172,7 @@
    "grow": null,
    "desc": "Localized AI manipulations in long-form videos often affect brief events within otherwise authentic content, making video-level classification insufficient for forensic analysis.",
    "meta": [
-    "▲ 27 upvotes",
+    "▲ 29 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-23T20:00:00.000Z",
@@ -180,6 +180,29 @@
   }
  ],
  "breakouts": [
+  {
+   "key": "glm 5.3",
+   "label": "GLM-5.3",
+   "n": 3,
+   "sources": [
+    {
+     "src": "Hacker News",
+     "t": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
+     "url": "https://news.ycombinator.com/item?id=50252159"
+    },
+    {
+     "src": "DEV",
+     "t": "155 responses leaked between AI customers: the GLM-5.3 KV cache bug — and the canary test for YOUR provider",
+     "url": "https://dev.to/slabb/155-responses-leaked-between-ai-customers-the-glm-53-kv-cache-bug-and-the-canary-test-for-your-59n8"
+    },
+    {
+     "src": "GitHub",
+     "t": "mw00/project-maya",
+     "url": "https://github.com/mw00/project-maya"
+    }
+   ],
+   "since": "2026-10-27T16:01:08.651Z"
+  },
   {
    "key": "gpt 6.1",
    "label": "GPT-6.1",
@@ -233,11 +256,33 @@
    "verdict": "Talk only, no public usage numbers"
   },
   {
+   "name": "GLM-5.3",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "Hacker News",
+     "t": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
+     "url": "https://news.ycombinator.com/item?id=50252159"
+    },
+    {
+     "src": "DEV",
+     "t": "155 responses leaked between AI customers: the GLM-5.3 KV cache bug — and the canary test for YOUR provider",
+     "url": "https://dev.to/slabb/155-responses-leaked-between-ai-customers-the-glm-53-kv-cache-bug-and-the-canary-test-for-your-59n8"
+    }
+   ],
+   "buzz": 2,
+   "verdict": "Talk only, no public usage numbers"
+  },
+  {
    "name": "android-ad-cleaner",
    "url": "https://github.com/rddmwmddr/android-ad-cleaner",
    "from": "GitHub",
-   "use": 1851,
-   "useLabel": "+1,851 stars/day",
+   "use": 1827,
+   "useLabel": "+1,827 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -351,27 +396,27 @@
  "github": [
   {
    "repo": "rddmwmddr/android-ad-cleaner",
-   "stars": 3035,
-   "d24": 1851,
+   "stars": 3058,
+   "d24": 1827,
    "est": false,
-   "forks": 255,
+   "forks": 260,
    "contrib": null,
    "score": 95
   },
   {
    "repo": "t3dotgg/tstack",
-   "stars": 1851,
+   "stars": 1862,
    "d24": 538,
    "est": true,
-   "forks": 105,
+   "forks": 108,
    "contrib": null,
    "score": 93
   },
   {
    "repo": "morganlinton/BeautifulRust",
-   "stars": 1282,
-   "d24": 284,
-   "est": true,
+   "stars": 1284,
+   "d24": 104,
+   "est": false,
    "forks": 57,
    "contrib": null,
    "score": 88
@@ -388,7 +433,7 @@
    "grow": 72,
    "score": 93,
    "cat": "Infrastructure",
-   "likes": 640
+   "likes": 642
   },
   {
    "name": "flint",
@@ -422,7 +467,7 @@
    "grow": null,
    "score": 87,
    "cat": "LLMs",
-   "likes": 749
+   "likes": 754
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
@@ -433,7 +478,7 @@
    "grow": 24,
    "score": 87,
    "cat": "Infrastructure",
-   "likes": 375
+   "likes": 378
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -770,7 +815,7 @@
    "kind": "News"
   },
   {
-   "t": "Apple adds a beta AI assistant built on Apple and OpenAI models to Keynote, Pages, Numbers, and Logic Pro, plus MCP support to Keynote, Pages, and Numbers",
+   "t": "Apple adds a beta AI assistant built on Apple's and OpenAI's models to Keynote, Pages, Numbers, and Logic Pro, plus MCP support to Keynote, Pages, and Numbers",
    "url": "https://www.techmeme.com/261027/p20#a261027p20",
    "at": "2026-10-27T14:10:01.000Z",
    "src": "Techmeme",
@@ -791,7 +836,7 @@
    "kind": "News"
   },
   {
-   "t": "Apple updates the 24-inch iMac with an M6 chip, with up to a 12-core CPU, up to a 12-core GPU, and a dual 16-core Neural Engine, from $1,499 on November 6",
+   "t": "Apple updates the 24-inch iMac with an M6, which has up to a 12-core CPU and up to a 12-core GPU, and a dual 16-core Neural Engine, for $1,499+ from November 6",
    "url": "https://www.techmeme.com/261027/p16#a261027p16",
    "at": "2026-10-27T13:10:01.000Z",
    "src": "Techmeme",
@@ -805,7 +850,7 @@
    "kind": "News"
   },
   {
-   "t": "Study: non-English languages can consume far more AI tokens, with the most expensive using 1.5x-5x more than the cheapest, resulting in a \"tokenizer tax\"",
+   "t": "Study: non-English languages can consume far more AI tokens, with the most expensive language using 1.5x to 5x more than the cheapest, causing a \"tokenizer tax\"",
    "url": "https://www.techmeme.com/261027/p13#a261027p13",
    "at": "2026-10-27T12:30:19.000Z",
    "src": "Techmeme",
@@ -860,8 +905,8 @@
    "t": "AI promised less work. I've never worked more",
    "url": "https://news.ycombinator.com/item?id=50257325",
    "link": "https://oioannou.com/blog/ai-promised-less-work/",
-   "up": 416,
-   "com": 368,
+   "up": 478,
+   "com": 423,
    "at": "2026-10-27T11:08:14.000Z"
   },
   {
@@ -869,8 +914,8 @@
    "t": "Three new discoveries in mathematics, computer science, and physics",
    "url": "https://news.ycombinator.com/item?id=50251344",
    "link": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
-   "up": 1053,
-   "com": 593,
+   "up": 1064,
+   "com": 604,
    "at": "2026-10-26T21:35:28.000Z"
   },
   {
@@ -878,35 +923,35 @@
    "t": "Giving chat feedback gives Anthropic your data",
    "url": "https://news.ycombinator.com/item?id=50259406",
    "link": "https://privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training",
-   "up": 81,
-   "com": 42,
+   "up": 110,
+   "com": 56,
    "at": "2026-10-27T13:56:15.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Software may be getting worse, but it used to be horrible",
-   "url": "https://news.ycombinator.com/item?id=50257548",
-   "link": "https://www.bitlog.com/2026/10/27/software-may-be-getting-worse-but-it-used-to-be-horrible/",
-   "up": 201,
-   "com": 154,
-   "at": "2026-10-27T11:30:35.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Wikipedia's Cleanup of AI-Generated Content",
    "url": "https://news.ycombinator.com/item?id=50257326",
    "link": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
-   "up": 205,
-   "com": 86,
+   "up": 233,
+   "com": 94,
    "at": "2026-10-27T11:08:15.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Software may be getting worse, but it used to be horrible",
+   "url": "https://news.ycombinator.com/item?id=50257548",
+   "link": "https://www.bitlog.com/2026/10/27/software-may-be-getting-worse-but-it-used-to-be-horrible/",
+   "up": 214,
+   "com": 169,
+   "at": "2026-10-27T11:30:35.000Z"
   },
   {
    "src": "Hacker News",
    "t": "The Exponential Time Hypothesis Is False [pdf]",
    "url": "https://news.ycombinator.com/item?id=50251661",
    "link": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
-   "up": 730,
-   "com": 260,
+   "up": 736,
+   "com": 265,
    "at": "2026-10-26T21:59:15.000Z"
   }
  ]
