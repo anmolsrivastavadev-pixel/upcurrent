@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-27T11:30:55.019Z"
+  "updated": "2026-10-27T12:01:05.900Z"
  },
  "pulse": {
   "trending": 79,
   "accelerating": 0,
   "newModels": 9,
-  "discussions": 50,
-  "stars": 3411
+  "discussions": 51,
+  "stars": 3132
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 95,
-   "grow": 49,
+   "grow": 51,
    "desc": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
    "meta": [
-    "★ 2,797",
-    "+2,005 in 24h",
+    "★ 2,830",
+    "+1,986 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-24T05:35:47Z",
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 93,
-   "grow": 60,
+   "grow": null,
    "desc": "The agent skills I use every day. Works with Claude Code and Codex.",
    "meta": [
-    "★ 1,769",
-    "+799 in 24h",
+    "★ 1,777",
+    "~540 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-24T05:00:20Z",
@@ -56,7 +56,7 @@
    "cat": "Infrastructure",
    "score": 93,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 625",
+   "desc": "Model on Hugging Face · open source · ♥ 626",
    "meta": [
     "4.8K downloads",
     "Released 3 days ago"
@@ -72,7 +72,7 @@
    "cat": "LLMs",
    "score": 92,
    "grow": 25,
-   "desc": "Model on Hugging Face · open source · ♥ 940",
+   "desc": "Model on Hugging Face · open source · ♥ 943",
    "meta": [
     "11K downloads",
     "Released 6 days ago"
@@ -106,8 +106,8 @@
    "grow": null,
    "desc": "Agent Skills that teach coding agents to write, review, and port idiomatic Rust, plus a tested clippy config. Works with Claude Code, Codex, Copilot, Cursor, and Gemini CLI.",
    "meta": [
-    "★ 1,261",
-    "~290 in 24h",
+    "★ 1,264",
+    "~289 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-23T03:01:11Z",
@@ -123,7 +123,7 @@
    "grow": null,
    "desc": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
    "meta": [
-    "★ 2,182",
+    "★ 2,192",
     "~317 in 24h",
     "Created 7 days ago"
    ],
@@ -138,7 +138,7 @@
    "cat": "LLMs",
    "score": 87,
    "grow": 31,
-   "desc": "Model on Hugging Face · open source · ♥ 739",
+   "desc": "Model on Hugging Face · open source · ♥ 743",
    "meta": [
     "6.2K downloads",
     "Released 8 days ago"
@@ -154,7 +154,7 @@
    "cat": "Infrastructure",
    "score": 87,
    "grow": 24,
-   "desc": "Model on Hugging Face · open source · ♥ 367",
+   "desc": "Model on Hugging Face · open source · ♥ 368",
    "meta": [
     "1.1M downloads",
     "Released 4 days ago"
@@ -180,31 +180,7 @@
    "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy"
   }
  ],
- "breakouts": [
-  {
-   "key": "gpt 6.1",
-   "label": "GPT-6.1",
-   "n": 3,
-   "sources": [
-    {
-     "src": "Hacker News",
-     "t": "GPT-6.1 Terra (Max) Scores 48 on Artificial Analysis",
-     "url": "https://news.ycombinator.com/item?id=50249076"
-    },
-    {
-     "src": "OpenAI blog",
-     "t": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
-     "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security"
-    },
-    {
-     "src": "NewsBytes",
-     "t": "OpenAI launches GPT-6.1 Terra with faster performance, 50% lower pricing",
-     "url": "https://www.newsbytesapp.com/news/science/openai-launches-gpt-6-1-terra-with-faster-performance-and-improved-reasoning/story"
-    }
-   ],
-   "since": "2026-10-26T19:30:56.131Z"
-  }
- ],
+ "breakouts": [],
  "hype": [
   {
    "name": "GPT-6.1",
@@ -223,22 +199,17 @@
      "src": "OpenAI blog",
      "t": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security"
-    },
-    {
-     "src": "NewsBytes",
-     "t": "OpenAI launches GPT-6.1 Terra with faster performance, 50% lower pricing",
-     "url": "https://www.newsbytesapp.com/news/science/openai-launches-gpt-6-1-terra-with-faster-performance-and-improved-reasoning/story"
     }
    ],
-   "buzz": 3,
+   "buzz": 2,
    "verdict": "Talk only, no public usage numbers"
   },
   {
    "name": "android-ad-cleaner",
    "url": "https://github.com/rddmwmddr/android-ad-cleaner",
    "from": "GitHub",
-   "use": 2005,
-   "useLabel": "+2,005 stars/day",
+   "use": 1986,
+   "useLabel": "+1,986 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -352,35 +323,35 @@
  "github": [
   {
    "repo": "rddmwmddr/android-ad-cleaner",
-   "stars": 2797,
-   "d24": 2005,
+   "stars": 2830,
+   "d24": 1986,
    "est": false,
-   "forks": 236,
+   "forks": 239,
    "contrib": null,
    "score": 95
   },
   {
    "repo": "t3dotgg/tstack",
-   "stars": 1769,
-   "d24": 799,
-   "est": false,
+   "stars": 1777,
+   "d24": 540,
+   "est": true,
    "forks": 103,
    "contrib": null,
    "score": 93
   },
   {
    "repo": "Jakeschincariol/day-trader-skill",
-   "stars": 2182,
+   "stars": 2192,
    "d24": 317,
    "est": true,
-   "forks": 456,
+   "forks": 458,
    "contrib": null,
    "score": 88
   },
   {
    "repo": "morganlinton/BeautifulRust",
-   "stars": 1261,
-   "d24": 290,
+   "stars": 1264,
+   "d24": 289,
    "est": true,
    "forks": 56,
    "contrib": null,
@@ -398,7 +369,7 @@
    "grow": null,
    "score": 93,
    "cat": "Infrastructure",
-   "likes": 625
+   "likes": 626
   },
   {
    "name": "flint",
@@ -409,7 +380,7 @@
    "grow": 25,
    "score": 92,
    "cat": "LLMs",
-   "likes": 940
+   "likes": 943
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -420,7 +391,7 @@
    "grow": 10,
    "score": 90,
    "cat": "Vision",
-   "likes": 3287
+   "likes": 3289
   },
   {
    "name": "Spark-X2.6-4B",
@@ -432,7 +403,7 @@
    "grow": 31,
    "score": 87,
    "cat": "LLMs",
-   "likes": 739
+   "likes": 743
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
@@ -443,7 +414,7 @@
    "grow": 24,
    "score": 87,
    "cat": "Infrastructure",
-   "likes": 367
+   "likes": 368
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -454,7 +425,7 @@
    "grow": 7,
    "score": 85,
    "cat": "Vision",
-   "likes": 1782
+   "likes": 1785
   }
  ],
  "free": [
@@ -850,17 +821,17 @@
    "kind": "News"
   },
   {
-   "t": "Meta plans $95bn stock offering to help cover AI expansion",
-   "url": "https://www.theguardian.com/technology/2026/oct/26/meta-plans-95bn-stock-offering-to-help-cover-ai-expansion",
-   "at": "2026-10-26T23:33:19Z",
-   "src": "The Guardian",
+   "t": "Australia warns of 'unprecedented' AI threat",
+   "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/27/australia-warns-of-039unprecedented039-ai-threat",
+   "at": "2026-10-27T00:00:00Z",
+   "src": "The Star",
    "kind": "News"
   },
   {
-   "t": "Funding the infrastructure that drives the AI economy",
-   "url": "https://www.afr.com/companies/financial-services/funding-the-infrastructure-that-drives-the-ai-economy-20261027-p60z8q",
-   "at": "2026-10-26T23:17:12Z",
-   "src": "Australian Financial Review",
+   "t": "The Anthropic IPO by the numbers, from a possible valuation in the trillions to surging revenue",
+   "url": "https://wtop.com/national/2026/10/the-anthropic-ipo-by-the-numbers-from-a-possible-valuation-in-the-trillions-to-surging-revenue/",
+   "at": "2026-10-26T23:54:29Z",
+   "src": "WTOP",
    "kind": "News"
   }
  ],
@@ -870,8 +841,8 @@
    "t": "Three new discoveries in mathematics, computer science, and physics",
    "url": "https://news.ycombinator.com/item?id=50251344",
    "link": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
-   "up": 951,
-   "com": 481,
+   "up": 965,
+   "com": 501,
    "at": "2026-10-26T21:35:28.000Z"
   },
   {
@@ -879,8 +850,8 @@
    "t": "The Exponential Time Hypothesis Is False [pdf]",
    "url": "https://news.ycombinator.com/item?id=50251661",
    "link": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
-   "up": 650,
-   "com": 242,
+   "up": 661,
+   "com": 250,
    "at": "2026-10-26T21:59:15.000Z"
   },
   {
@@ -888,8 +859,8 @@
    "t": "The Mythical Man-Month in the Age of AI",
    "url": "https://news.ycombinator.com/item?id=50255298",
    "link": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
-   "up": 188,
-   "com": 135,
+   "up": 215,
+   "com": 152,
    "at": "2026-10-27T06:25:37.000Z"
   },
   {
@@ -897,27 +868,27 @@
    "t": "GPT-6.1 Terra",
    "url": "https://news.ycombinator.com/item?id=50248124",
    "link": "https://openai.com/index/introducing-gpt-6-1-terra/",
-   "up": 597,
-   "com": 377,
+   "up": 600,
+   "com": 379,
    "at": "2026-10-26T18:01:17.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Concerning behavior from a popular open-weight AI model",
-   "url": "https://news.ycombinator.com/item?id=50246658",
-   "link": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
-   "up": 306,
-   "com": 120,
-   "at": "2026-10-26T16:35:44.000Z"
+   "t": "Software may be getting worse, but it used to be horrible",
+   "url": "https://news.ycombinator.com/item?id=50257548",
+   "link": "https://www.bitlog.com/2026/10/27/software-may-be-getting-worse-but-it-used-to-be-horrible/",
+   "up": 29,
+   "com": 7,
+   "at": "2026-10-27T11:30:35.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Type Server Protocol",
-   "url": "https://news.ycombinator.com/item?id=50248371",
-   "link": "https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md",
-   "up": 248,
-   "com": 166,
-   "at": "2026-10-26T18:14:49.000Z"
+   "t": "Wikipedia's Cleanup of AI-Generated Content",
+   "url": "https://news.ycombinator.com/item?id=50257326",
+   "link": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
+   "up": 22,
+   "com": 6,
+   "at": "2026-10-27T11:08:15.000Z"
   }
  ]
 }
