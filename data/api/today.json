@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-27T21:01:06.043Z"
+  "updated": "2026-10-27T21:30:54.592Z"
  },
  "pulse": {
-  "trending": 78,
+  "trending": 77,
   "accelerating": 0,
-  "newModels": 10,
-  "discussions": 40,
-  "stars": 1455
+  "newModels": 9,
+  "discussions": 38,
+  "stars": 1440
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
    "meta": [
-    "★ 3,160",
-    "~868 in 24h",
+    "★ 3,167",
+    "~865 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-24T05:35:47Z",
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 93,
-   "grow": 10,
+   "grow": 11,
    "desc": "The agent skills I use every day. Works with Claude Code and Codex.",
    "meta": [
-    "★ 1,962",
-    "+493 in 24h",
+    "★ 1,968",
+    "+483 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-24T05:00:20Z",
@@ -54,9 +54,9 @@
    "owner": "Nanbeige",
    "src": "hf",
    "cat": "Infrastructure",
-   "score": 93,
+   "score": 92,
    "grow": 72,
-   "desc": "Model on Hugging Face · open source · ♥ 657",
+   "desc": "Model on Hugging Face · open source · ♥ 662",
    "meta": [
     "4.8K downloads",
     "Released 4 days ago"
@@ -72,7 +72,7 @@
    "cat": "LLMs",
    "score": 91,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 960",
+   "desc": "Model on Hugging Face · open source · ♥ 961",
    "meta": [
     "11K downloads",
     "Released 6 days ago"
@@ -106,29 +106,13 @@
    "grow": 3,
    "desc": "Agent Skills that teach coding agents to write, review, and port idiomatic Rust, plus a tested clippy config. Works with Claude Code, Codex, Copilot, Cursor, and Gemini CLI.",
    "meta": [
-    "★ 1,301",
-    "+94 in 24h",
+    "★ 1,302",
+    "+92 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-23T03:01:11Z",
    "breakout": null,
    "url": "https://github.com/morganlinton/BeautifulRust"
-  },
-  {
-   "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
-   "owner": "ISTA-DASLab",
-   "src": "hf",
-   "cat": "Infrastructure",
-   "score": 87,
-   "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 387",
-   "meta": [
-    "1.1M downloads",
-    "Released 4 days ago"
-   ],
-   "at": "2026-10-23T09:43:05.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF"
   },
   {
    "name": "Spark-X2.6-4B",
@@ -145,6 +129,22 @@
    "at": "2026-10-19T03:19:51.000Z",
    "breakout": null,
    "url": "https://huggingface.co/XHToken/Spark-X2.6-4B"
+  },
+  {
+   "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+   "owner": "ISTA-DASLab",
+   "src": "hf",
+   "cat": "Infrastructure",
+   "score": 86,
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 388",
+   "meta": [
+    "1.1M downloads",
+    "Released 4 days ago"
+   ],
+   "at": "2026-10-23T09:43:05.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF"
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -179,54 +179,8 @@
    "breakout": null
   }
  ],
- "breakouts": [
-  {
-   "key": "glm 5.3",
-   "label": "GLM-5.3",
-   "n": 3,
-   "sources": [
-    {
-     "src": "Hacker News",
-     "t": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
-     "url": "https://news.ycombinator.com/item?id=50252159"
-    },
-    {
-     "src": "DEV",
-     "t": "155 responses leaked between AI customers: the GLM-5.3 KV cache bug — and the canary test for YOUR provider",
-     "url": "https://dev.to/slabb/155-responses-leaked-between-ai-customers-the-glm-53-kv-cache-bug-and-the-canary-test-for-your-59n8"
-    },
-    {
-     "src": "GitHub",
-     "t": "mw00/project-maya",
-     "url": "https://github.com/mw00/project-maya"
-    }
-   ],
-   "since": "2026-10-27T16:01:08.651Z"
-  }
- ],
+ "breakouts": [],
  "hype": [
-  {
-   "name": "GLM-5.3",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
-    {
-     "src": "Hacker News",
-     "t": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
-     "url": "https://news.ycombinator.com/item?id=50252159"
-    },
-    {
-     "src": "DEV",
-     "t": "155 responses leaked between AI customers: the GLM-5.3 KV cache bug — and the canary test for YOUR provider",
-     "url": "https://dev.to/slabb/155-responses-leaked-between-ai-customers-the-glm-53-kv-cache-bug-and-the-canary-test-for-your-59n8"
-    }
-   ],
-   "buzz": 2,
-   "verdict": "Talk only, no public usage numbers"
-  },
   {
    "name": "GPT-6.1",
    "url": null,
@@ -241,9 +195,9 @@
      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security"
     },
     {
-     "src": "BleepingComputer",
-     "t": "OpenAI launches GPT-6.1 Terra with 3x faster AI agents, 50% lower pricing",
-     "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/"
+     "src": "News18",
+     "t": "OpenAI Launches GPT-6.1 Terra: What's New In OpenAI's Latest AI Model?",
+     "url": "https://www.news18.com/tech/openai-launches-gpt-6-1-terra-whats-new-in-openais-latest-ai-model-10399658.html"
     }
    ],
    "buzz": 2,
@@ -253,8 +207,8 @@
    "name": "android-ad-cleaner",
    "url": "https://github.com/rddmwmddr/android-ad-cleaner",
    "from": "GitHub",
-   "use": 868,
-   "useLabel": "~868 stars/day",
+   "use": 865,
+   "useLabel": "~865 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -277,7 +231,7 @@
    "from": "Hugging Face",
    "use": 2760550,
    "useLabel": "2.8M downloads",
-   "usePct": 0.9705882352941176,
+   "usePct": 0.9696969696969697,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -368,8 +322,8 @@
  "github": [
   {
    "repo": "rddmwmddr/android-ad-cleaner",
-   "stars": 3160,
-   "d24": 868,
+   "stars": 3167,
+   "d24": 865,
    "est": true,
    "forks": 267,
    "contrib": null,
@@ -377,8 +331,8 @@
   },
   {
    "repo": "t3dotgg/tstack",
-   "stars": 1962,
-   "d24": 493,
+   "stars": 1968,
+   "d24": 483,
    "est": false,
    "forks": 116,
    "contrib": null,
@@ -386,8 +340,8 @@
   },
   {
    "repo": "morganlinton/BeautifulRust",
-   "stars": 1301,
-   "d24": 94,
+   "stars": 1302,
+   "d24": 92,
    "est": false,
    "forks": 57,
    "contrib": null,
@@ -403,9 +357,9 @@
    "at": "2026-10-24T02:49:18.000Z",
    "dl": 4785,
    "grow": 72,
-   "score": 93,
+   "score": 92,
    "cat": "Infrastructure",
-   "likes": 657
+   "likes": 662
   },
   {
    "name": "flint",
@@ -416,7 +370,7 @@
    "grow": null,
    "score": 91,
    "cat": "LLMs",
-   "likes": 960
+   "likes": 961
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -427,18 +381,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 3354
-  },
-  {
-   "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
-   "org": "ISTA-DASLab",
-   "lic": "Open source",
-   "at": "2026-10-23T09:43:05.000Z",
-   "dl": 1105751,
-   "grow": null,
-   "score": 87,
-   "cat": "Infrastructure",
-   "likes": 387
+   "likes": 3357
   },
   {
    "name": "Spark-X2.6-4B",
@@ -453,6 +396,17 @@
    "likes": 779
   },
   {
+   "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+   "org": "ISTA-DASLab",
+   "lic": "Open source",
+   "at": "2026-10-23T09:43:05.000Z",
+   "dl": 1105751,
+   "grow": null,
+   "score": 86,
+   "cat": "Infrastructure",
+   "likes": 388
+  },
+  {
    "name": "flux-3-image-klein-comfy",
    "org": "black-forest-labs",
    "lic": "Open weights",
@@ -461,7 +415,7 @@
    "grow": 0,
    "score": 85,
    "cat": "Vision",
-   "likes": 1839
+   "likes": 1845
   }
  ],
  "free": [
@@ -877,8 +831,8 @@
    "t": "Police are using AI to pull over drivers for 'suspicious' behavior",
    "url": "https://news.ycombinator.com/item?id=50261819",
    "link": "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220",
-   "up": 277,
-   "com": 211,
+   "up": 291,
+   "com": 221,
    "at": "2026-10-27T16:40:15.000Z"
   },
   {
@@ -886,8 +840,8 @@
    "t": "AI promised less work. I've never worked more",
    "url": "https://news.ycombinator.com/item?id=50257325",
    "link": "https://oioannou.com/blog/ai-promised-less-work/",
-   "up": 604,
-   "com": 584,
+   "up": 607,
+   "com": 592,
    "at": "2026-10-27T11:08:14.000Z"
   },
   {
@@ -895,8 +849,8 @@
    "t": "Anthropic trained Claude on illegally obtained Stanford professors' books",
    "url": "https://news.ycombinator.com/item?id=50260814",
    "link": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
-   "up": 323,
-   "com": 175,
+   "up": 353,
+   "com": 184,
    "at": "2026-10-27T15:28:26.000Z"
   },
   {
@@ -904,8 +858,8 @@
    "t": "Three new discoveries in mathematics, computer science, and physics",
    "url": "https://news.ycombinator.com/item?id=50251344",
    "link": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
-   "up": 1116,
-   "com": 649,
+   "up": 1117,
+   "com": 652,
    "at": "2026-10-26T21:35:28.000Z"
   },
   {
@@ -913,18 +867,18 @@
    "t": "Survival LLM: AI assistant and emergency library that runs on your own computer",
    "url": "https://news.ycombinator.com/item?id=50264853",
    "link": "https://www.brangus.io/survival-llm",
-   "up": 45,
-   "com": 28,
+   "up": 65,
+   "com": 45,
    "at": "2026-10-27T19:55:06.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "A 28-Year-Old DOGE Operative Gutted USAID. HR Had No Record of Him Working There",
-   "url": "https://news.ycombinator.com/item?id=50261784",
-   "link": "https://www.wired.com/story/a-28-year-old-doge-operative-gutted-usaid-hr-had-no-record-of-him-working-there/",
-   "up": 176,
-   "com": 89,
-   "at": "2026-10-27T16:38:08.000Z"
+   "t": "Wikipedia's Cleanup of AI-Generated Content",
+   "url": "https://news.ycombinator.com/item?id=50257326",
+   "link": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
+   "up": 400,
+   "com": 182,
+   "at": "2026-10-27T11:08:15.000Z"
   }
  ]
 }
