@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-28T14:30:55.105Z"
+  "updated": "2026-10-28T15:01:10.713Z"
  },
  "pulse": {
   "trending": 79,
-  "accelerating": 1,
+  "accelerating": 2,
   "newModels": 10,
-  "discussions": 41,
-  "stars": 3426
+  "discussions": 42,
+  "stars": 3750
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Vision",
    "score": 98,
-   "grow": null,
+   "grow": 39,
    "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
    "meta": [
-    "★ 1,565",
-    "~1,439 in 24h",
+    "★ 1,601",
+    "+1,784 in 24h",
     "Created yesterday"
    ],
    "at": "2026-10-27T12:24:37Z",
@@ -41,8 +41,8 @@
    "grow": 13,
    "desc": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …",
    "meta": [
-    "★ 1,255",
-    "+292 in 24h",
+    "★ 1,263",
+    "+296 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-26T04:34:09Z",
@@ -58,8 +58,8 @@
    "grow": 32,
    "desc": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
    "meta": [
-    "★ 4,154",
-    "+1,328 in 24h",
+    "★ 4,171",
+    "+1,314 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-24T05:35:47Z",
@@ -92,7 +92,7 @@
    "desc": "Model on Hugging Face · open source · ♥ 701",
    "meta": [
     "7.4K downloads",
-    "Released 4 days ago"
+    "Released 5 days ago"
    ],
    "at": "2026-10-24T02:49:18.000Z",
    "breakout": null,
@@ -107,8 +107,8 @@
    "grow": 4,
    "desc": "The agent skills I use every day. Works with Claude Code and Codex.",
    "meta": [
-    "★ 2,176",
-    "+310 in 24h",
+    "★ 2,180",
+    "+302 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-24T05:00:20Z",
@@ -121,11 +121,11 @@
    "src": "hf",
    "cat": "Vision",
    "score": 89,
-   "grow": null,
+   "grow": 11,
    "desc": "Vision on Hugging Face · open source · ♥ 3.5K",
    "meta": [
     "117K downloads",
-    "Released 11 days ago"
+    "Released 12 days ago"
    ],
    "at": "2026-10-17T02:40:38.000Z",
    "breakout": null,
@@ -164,24 +164,51 @@
    "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF"
   },
   {
-   "name": "BeautifulRust",
-   "owner": "morganlinton",
-   "src": "gh",
-   "cat": "Agents",
+   "name": "flux-3-image-klein-comfy",
+   "owner": "black-forest-labs",
+   "src": "hf",
+   "cat": "Vision",
    "score": 85,
-   "grow": 1,
-   "desc": "Agent Skills that teach coding agents to write, review, and port idiomatic Rust, plus a tested clippy config. Works with Claude Code, Codex, Copilot, Cursor, and Gemini CLI.",
+   "grow": null,
+   "desc": "Vision on Hugging Face · open weights · ♥ 1.9K",
    "meta": [
-    "★ 1,352",
-    "+57 in 24h",
-    "Created 5 days ago"
+    "799K downloads",
+    "Released 14 days ago"
    ],
-   "at": "2026-10-23T03:01:11Z",
+   "at": "2026-10-14T12:00:13.000Z",
    "breakout": null,
-   "url": "https://github.com/morganlinton/BeautifulRust"
+   "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy"
   }
  ],
  "breakouts": [
+  {
+   "key": "gpt 6.1",
+   "label": "GPT-6.1",
+   "n": 4,
+   "sources": [
+    {
+     "src": "OpenAI blog",
+     "t": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+     "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security"
+    },
+    {
+     "src": "Ubergizmo",
+     "t": "Meet GPT-6.1 Terra: OpenAI’s New High-Performance, Low-Cost AI",
+     "url": "https://www.ubergizmo.com/2026/10/gpt-6-1-terra/"
+    },
+    {
+     "src": "YouTube",
+     "t": "HUGE ANTHROPIC BOMBSHELL! Claude REA UNBANNED?! GPT-6.1 Terra, Qwen 4 27B, & Fable 5.5! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=SyUjFWgqDNo"
+    },
+    {
+     "src": "Product Hunt",
+     "t": "GPT-6.1 Terra",
+     "url": "https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
+    }
+   ],
+   "since": "2026-10-26T19:30:56.131Z"
+  },
   {
    "key": "opus 5.5",
    "label": "Opus 5.5",
@@ -204,9 +231,59 @@
     }
    ],
    "since": "2026-10-03T21:01:33.129Z"
+  },
+  {
+   "key": "gpt-6.1 terra",
+   "label": "GPT-6.1 Terra",
+   "n": 3,
+   "sources": [
+    {
+     "src": "Product Hunt",
+     "t": "GPT-6.1 Terra",
+     "url": "https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
+    },
+    {
+     "src": "Ubergizmo",
+     "t": "Meet GPT-6.1 Terra: OpenAI’s New High-Performance, Low-Cost AI",
+     "url": "https://www.ubergizmo.com/2026/10/gpt-6-1-terra/"
+    },
+    {
+     "src": "YouTube",
+     "t": "HUGE ANTHROPIC BOMBSHELL! Claude REA UNBANNED?! GPT-6.1 Terra, Qwen 4 27B, & Fable 5.5! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=SyUjFWgqDNo"
+    }
+   ],
+   "since": "2026-10-28T05:01:05.117Z"
   }
  ],
  "hype": [
+  {
+   "name": "GPT-6.1",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "OpenAI blog",
+     "t": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+     "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security"
+    },
+    {
+     "src": "Ubergizmo",
+     "t": "Meet GPT-6.1 Terra: OpenAI’s New High-Performance, Low-Cost AI",
+     "url": "https://www.ubergizmo.com/2026/10/gpt-6-1-terra/"
+    },
+    {
+     "src": "YouTube",
+     "t": "HUGE ANTHROPIC BOMBSHELL! Claude REA UNBANNED?! GPT-6.1 Terra, Qwen 4 27B, & Fable 5.5! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=SyUjFWgqDNo"
+    }
+   ],
+   "buzz": 3,
+   "verdict": "Talk only, no public usage numbers"
+  },
   {
    "name": "Opus 5.5",
    "url": null,
@@ -230,11 +307,33 @@
    "verdict": "Talk only, no public usage numbers"
   },
   {
+   "name": "GPT-6.1 Terra",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "Ubergizmo",
+     "t": "Meet GPT-6.1 Terra: OpenAI’s New High-Performance, Low-Cost AI",
+     "url": "https://www.ubergizmo.com/2026/10/gpt-6-1-terra/"
+    },
+    {
+     "src": "YouTube",
+     "t": "HUGE ANTHROPIC BOMBSHELL! Claude REA UNBANNED?! GPT-6.1 Terra, Qwen 4 27B, & Fable 5.5! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=SyUjFWgqDNo"
+    }
+   ],
+   "buzz": 2,
+   "verdict": "Talk only, no public usage numbers"
+  },
+  {
    "name": "ai-pose-gallery-zh",
    "url": "https://github.com/anhao/ai-pose-gallery-zh",
    "from": "GitHub",
-   "use": 1439,
-   "useLabel": "~1,439 stars/day",
+   "use": 1784,
+   "useLabel": "+1,784 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -348,35 +447,35 @@
  "github": [
   {
    "repo": "anhao/ai-pose-gallery-zh",
-   "stars": 1565,
-   "d24": 1439,
-   "est": true,
-   "forks": 421,
+   "stars": 1601,
+   "d24": 1784,
+   "est": false,
+   "forks": 431,
    "contrib": null,
    "score": 98
   },
   {
    "repo": "rddmwmddr/android-ad-cleaner",
-   "stars": 4154,
-   "d24": 1328,
+   "stars": 4171,
+   "d24": 1314,
    "est": false,
-   "forks": 375,
+   "forks": 376,
    "contrib": 11,
    "score": 92
   },
   {
    "repo": "t3dotgg/tstack",
-   "stars": 2176,
-   "d24": 310,
+   "stars": 2180,
+   "d24": 302,
    "est": false,
-   "forks": 132,
+   "forks": 133,
    "contrib": null,
    "score": 90
   },
   {
    "repo": "andyhuo520/digital-human-koubo",
-   "stars": 1255,
-   "d24": 292,
+   "stars": 1263,
+   "d24": 296,
    "est": false,
    "forks": 294,
    "contrib": null,
@@ -385,11 +484,11 @@
   {
    "repo": "morganlinton/BeautifulRust",
    "stars": 1352,
-   "d24": 57,
+   "d24": 54,
    "est": false,
    "forks": 60,
    "contrib": null,
-   "score": 85
+   "score": 84
   }
  ],
  "models": [
@@ -402,7 +501,7 @@
    "grow": null,
    "score": 92,
    "cat": "LLMs",
-   "likes": 1129
+   "likes": 1131
   },
   {
    "name": "Nanbeige4.3-33B",
@@ -422,10 +521,10 @@
    "lic": "Open source",
    "at": "2026-10-17T02:40:38.000Z",
    "dl": 116770,
-   "grow": null,
+   "grow": 11,
    "score": 89,
    "cat": "Vision",
-   "likes": 3484
+   "likes": 3485
   },
   {
    "name": "Spark-X2.6-4B",
@@ -459,7 +558,7 @@
    "grow": null,
    "score": 85,
    "cat": "Vision",
-   "likes": 1913
+   "likes": 1916
   }
  ],
  "free": [
@@ -749,6 +848,20 @@
  },
  "headlines": [
   {
+   "t": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
+   "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+   "at": "2026-10-28T14:58:17.000Z",
+   "src": "Hugging Face",
+   "kind": "Lab blog"
+  },
+  {
+   "t": "Foundry, a manufacturing-as-a-service startup that builds factories with robots powered by physical AI models, raised a $100M Series A led by Marlinspike",
+   "url": "https://www.techmeme.com/261028/p32#a261028p32",
+   "at": "2026-10-28T14:40:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Castle Walls review – Prime’s first fully AI-generated show is here, and it’s a Vaseline-smeared mess",
    "url": "https://www.theguardian.com/tv-and-radio/2026/oct/29/castle-walls-review-prime-first-fully-ai-generated-tv-show",
    "at": "2026-10-28T14:00:05Z",
@@ -826,38 +939,24 @@
    "kind": "Lab blog"
   },
   {
-   "t": "Anthropic diversifies AI chips, OpenAI turns to Google: Can Nvidia lose its dominance? What investors need to know",
-   "url": "https://www.livemint.com/companies/news/anthropic-diversifies-ai-chips-openai-turns-to-google-can-nvidia-lose-its-dominance-what-investors-need-to-know-11793148904527.html",
-   "at": "2026-10-28T02:30:19Z",
+   "t": "AI token use may jump 78% as falling prices fail to guarantee lower costs: Accenture",
+   "url": "https://www.livemint.com/technology/ai-token-use-may-jump-78-as-falling-prices-fail-to-guarantee-lower-costs-accenture-11793156289140.html",
+   "at": "2026-10-28T02:58:08Z",
    "src": "Livemint",
    "kind": "News"
   },
   {
-   "t": "OpenAI plans to buy Google chips for AI build-out",
-   "url": "https://www.straitstimes.com/world/united-states/openai-plans-to-buy-googles-chips-as-part-of-its-ai-build-out",
-   "at": "2026-10-28T02:28:00Z",
-   "src": "The Straits Times",
+   "t": "Anthropic's record IPO faces some big questions",
+   "url": "https://www.bangkokpost.com/business/investment/3345085/anthropics-record-ipo-faces-some-big-questions",
+   "at": "2026-10-28T02:45:00Z",
+   "src": "Bangkok Post",
    "kind": "News"
   },
   {
-   "t": "Asian Stocks Gain as AI Optimism Returns",
-   "url": "https://www.marketscreener.com/news/asian-stocks-gain-as-ai-optimism-returns-ce785cd2d98bf225",
-   "at": "2026-10-28T02:23:23Z",
-   "src": "MarketScreener",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI turns to Google’s AI chips amid race to challenge Nvidia",
-   "url": "https://www.livemint.com/companies/news/openai-turns-to-google-s-ai-chips-amid-race-to-challenge-nvidia-11793152095673.html",
-   "at": "2026-10-28T02:17:21Z",
-   "src": "Livemint",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI plans to buy Google's AI chips, The Information reports",
-   "url": "https://www.devdiscourse.com/article/international/3998389-openai-plans-to-buy-googles-ai-chips-the-information-reports",
-   "at": "2026-10-28T02:12:36Z",
-   "src": "Devdiscourse",
+   "t": "Nitesh Tiwari clarifies AI use in 'Ramayana: Rise of a Legend' at LA world premiere; says 'No AI has been used in dubbing'",
+   "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/nitesh-tiwari-clarifies-ai-use-in-ramayana-rise-of-a-legend-at-la-world-premiere-clarifies-no-ai-has-been-used-in-dubbing/articleshow/135249421.cms",
+   "at": "2026-10-28T02:42:00Z",
+   "src": "Times of India",
    "kind": "News"
   }
  ],
@@ -867,8 +966,8 @@
    "t": "Ten days later, Git on macOS still trusts the compromised eMudhra certificates",
    "url": "https://news.ycombinator.com/item?id=50271640",
    "link": "https://emudhra.we-have-a-problem.com/apple.html",
-   "up": 425,
-   "com": 166,
+   "up": 492,
+   "com": 186,
    "at": "2026-10-28T11:03:40.000Z"
   },
   {
@@ -876,8 +975,8 @@
    "t": "Kentucky man becomes the first humanist granted religious exemption from AI",
    "url": "https://news.ycombinator.com/item?id=50273396",
    "link": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/",
-   "up": 67,
-   "com": 65,
+   "up": 105,
+   "com": 118,
    "at": "2026-10-28T13:41:30.000Z"
   },
   {
@@ -885,8 +984,8 @@
    "t": "Harvey raised 500M for legal AI, I built the same and open sourced it",
    "url": "https://news.ycombinator.com/item?id=50273623",
    "link": "https://github.com/thomasunise/casecite",
-   "up": 65,
-   "com": 19,
+   "up": 67,
+   "com": 26,
    "at": "2026-10-28T13:56:21.000Z"
   },
   {
@@ -894,8 +993,8 @@
    "t": "Git for the US Code",
    "url": "https://news.ycombinator.com/item?id=50268380",
    "link": "https://lexifina.com/blog/git-for-the-us-code",
-   "up": 350,
-   "com": 180,
+   "up": 361,
+   "com": 184,
    "at": "2026-10-28T01:47:50.000Z"
   },
   {
@@ -903,7 +1002,7 @@
    "t": "Anthropic trained Claude on illegally obtained Stanford professors' books",
    "url": "https://news.ycombinator.com/item?id=50260814",
    "link": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
-   "up": 542,
+   "up": 545,
    "com": 280,
    "at": "2026-10-27T15:28:26.000Z"
   },
@@ -912,8 +1011,8 @@
    "t": "Survival LLM: AI assistant and emergency library that runs on your own computer",
    "url": "https://news.ycombinator.com/item?id=50264853",
    "link": "https://www.brangus.io/survival-llm",
-   "up": 427,
-   "com": 164,
+   "up": 440,
+   "com": 166,
    "at": "2026-10-27T19:55:06.000Z"
   }
  ]
