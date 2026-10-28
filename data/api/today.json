@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-28T17:01:09.058Z"
+  "updated": "2026-10-28T17:30:56.061Z"
  },
  "pulse": {
   "trending": 79,
   "accelerating": 2,
   "newModels": 9,
-  "discussions": 39,
-  "stars": 3271
+  "discussions": 42,
+  "stars": 3202
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Vision",
    "score": 98,
-   "grow": 49,
+   "grow": 51,
    "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
    "meta": [
-    "★ 1,723",
-    "+1,704 in 24h",
+    "★ 1,740",
+    "+1,653 in 24h",
     "Created yesterday"
    ],
    "at": "2026-10-27T12:24:37Z",
@@ -42,7 +42,7 @@
    "desc": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …",
    "meta": [
     "★ 1,282",
-    "+286 in 24h",
+    "+276 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-26T04:34:09Z",
@@ -58,8 +58,8 @@
    "grow": null,
    "desc": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
    "meta": [
-    "★ 4,223",
-    "~943 in 24h",
+    "★ 4,229",
+    "~940 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-24T05:35:47Z",
@@ -107,8 +107,8 @@
    "grow": 5,
    "desc": "The agent skills I use every day. Works with Claude Code and Codex.",
    "meta": [
-    "★ 2,200",
-    "+288 in 24h",
+    "★ 2,204",
+    "+283 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-24T05:00:20Z",
@@ -138,7 +138,7 @@
    "cat": "LLMs",
    "score": 86,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 841",
+   "desc": "Model on Hugging Face · open source · ♥ 844",
    "meta": [
     "8.2K downloads",
     "Released 10 days ago"
@@ -148,13 +148,29 @@
    "url": "https://huggingface.co/XHToken/Spark-X2.6-4B"
   },
   {
+   "name": "flux-3-image-klein-comfy",
+   "owner": "black-forest-labs",
+   "src": "hf",
+   "cat": "Vision",
+   "score": 85,
+   "grow": 0,
+   "desc": "Vision on Hugging Face · open weights · ♥ 1.9K",
+   "meta": [
+    "799K downloads",
+    "Released 14 days ago"
+   ],
+   "at": "2026-10-14T12:00:13.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy"
+  },
+  {
    "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
    "owner": "ISTA-DASLab",
    "src": "hf",
    "cat": "Infrastructure",
-   "score": 86,
+   "score": 85,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 427",
+   "desc": "Model on Hugging Face · open source · ♥ 428",
    "meta": [
     "1.4M downloads",
     "Released 5 days ago"
@@ -162,39 +178,41 @@
    "at": "2026-10-23T09:43:05.000Z",
    "breakout": null,
    "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF"
-  },
-  {
-   "name": "LFM3-1.7B",
-   "owner": "LiquidAI",
-   "src": "hf",
-   "cat": "LLMs",
-   "score": 85,
-   "grow": 41,
-   "desc": "Model on Hugging Face · open weights · ♥ 334",
-   "meta": [
-    "8.9K downloads",
-    "Released 5 days ago"
-   ],
-   "at": "2026-10-23T21:35:42.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/LiquidAI/LFM3-1.7B"
   }
  ],
  "breakouts": [
   {
+   "key": "gemini 4",
+   "label": "Gemini 4",
+   "n": 3,
+   "sources": [
+    {
+     "src": "Hacker News",
+     "t": "Gemini 4 Carbon",
+     "url": "https://news.ycombinator.com/item?id=50276792"
+    },
+    {
+     "src": "Google DeepMind blog",
+     "t": "Gemini 4 Carbon: Our next frontier model",
+     "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
+    },
+    {
+     "src": "Techmeme",
+     "t": "Google unveils Gemini 4 Carbon, its \"strongest model with state-of-the-art cybersecurity\" capabilities, ranked #1 on Artificial Analysis' new Intelligence Index",
+     "url": "https://www.techmeme.com/261028/p38#a261028p38"
+    }
+   ],
+   "since": "2026-10-01T18:14:41.538Z"
+  },
+  {
    "key": "gpt 6.1",
    "label": "GPT-6.1",
-   "n": 4,
+   "n": 3,
    "sources": [
     {
      "src": "OpenAI blog",
      "t": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security"
-    },
-    {
-     "src": "Crypto Briefing",
-     "t": "OpenAI’s GPT-6.1 Terra ranks #14 in Code Arena WebDev with 1,671 points",
-     "url": "https://cryptobriefing.com/openai-gpt-6-1-terra-code-arena-webdev/"
     },
     {
      "src": "YouTube",
@@ -233,30 +251,57 @@
    "since": "2026-10-03T21:01:33.129Z"
   },
   {
-   "key": "gpt-6.1 terra",
-   "label": "GPT-6.1 Terra",
+   "key": "space",
+   "label": "SPACE",
    "n": 3,
    "sources": [
     {
-     "src": "Product Hunt",
-     "t": "GPT-6.1 Terra",
-     "url": "https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
+     "src": "GitHub",
+     "t": "perplexityai/SPACE",
+     "url": "https://github.com/perplexityai/SPACE"
     },
     {
-     "src": "Crypto Briefing",
-     "t": "OpenAI’s GPT-6.1 Terra ranks #14 in Code Arena WebDev with 1,671 points",
-     "url": "https://cryptobriefing.com/openai-gpt-6-1-terra-code-arena-webdev/"
+     "src": "The Economic Times",
+     "t": "Akash Ambani announces Jio’s next big mission after data: Bring AI, cloud and space connectivity to every Indian",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/news/akash-ambani-announces-jios-next-big-mission-after-data-bring-ai-cloud-and-space-connectivity-to-every-indian/articleshow/135252824.cms"
     },
     {
-     "src": "YouTube",
-     "t": "HUGE ANTHROPIC BOMBSHELL! Claude REA UNBANNED?! GPT-6.1 Terra, Qwen 4 27B, & Fable 5.5! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=SyUjFWgqDNo"
+     "src": "HF Papers",
+     "t": "Beyond the Estimate: Wiener-Informed Decoding for Easier Training of Pixel-Space Flow Models",
+     "url": "https://huggingface.co/papers/2610.36192"
     }
    ],
-   "since": "2026-10-28T05:01:05.117Z"
+   "since": "2026-10-19T00:27:53.628Z"
   }
  ],
  "hype": [
+  {
+   "name": "Gemini 4",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "Hacker News",
+     "t": "Gemini 4 Carbon",
+     "url": "https://news.ycombinator.com/item?id=50276792"
+    },
+    {
+     "src": "Google DeepMind blog",
+     "t": "Gemini 4 Carbon: Our next frontier model",
+     "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
+    },
+    {
+     "src": "Techmeme",
+     "t": "Google unveils Gemini 4 Carbon, its \"strongest model with state-of-the-art cybersecurity\" capabilities, ranked #1 on Artificial Analysis' new Intelligence Index",
+     "url": "https://www.techmeme.com/261028/p38#a261028p38"
+    }
+   ],
+   "buzz": 3,
+   "verdict": "Talk only, no public usage numbers"
+  },
   {
    "name": "GPT-6.1",
    "url": null,
@@ -271,36 +316,9 @@
      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security"
     },
     {
-     "src": "Crypto Briefing",
-     "t": "OpenAI’s GPT-6.1 Terra ranks #14 in Code Arena WebDev with 1,671 points",
-     "url": "https://cryptobriefing.com/openai-gpt-6-1-terra-code-arena-webdev/"
-    },
-    {
      "src": "YouTube",
      "t": "HUGE ANTHROPIC BOMBSHELL! Claude REA UNBANNED?! GPT-6.1 Terra, Qwen 4 27B, & Fable 5.5! AI NEWS",
      "url": "https://www.youtube.com/watch?v=SyUjFWgqDNo"
-    }
-   ],
-   "buzz": 3,
-   "verdict": "Talk only, no public usage numbers"
-  },
-  {
-   "name": "Gemini 4",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
-    {
-     "src": "DEV",
-     "t": "Google’s Genie Research Hints at Simulation Uses, Separate From Gemini 4 Argon",
-     "url": "https://dev.to/alifar/googles-genie-research-hints-at-simulation-uses-separate-from-gemini-4-argon-3h0e"
-    },
-    {
-     "src": "Google DeepMind blog",
-     "t": "Gemini 4 Carbon: Our next frontier model",
-     "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
     }
    ],
    "buzz": 2,
@@ -351,33 +369,11 @@
    "verdict": "Talk only, no public usage numbers"
   },
   {
-   "name": "GPT-6.1 Terra",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
-    {
-     "src": "Crypto Briefing",
-     "t": "OpenAI’s GPT-6.1 Terra ranks #14 in Code Arena WebDev with 1,671 points",
-     "url": "https://cryptobriefing.com/openai-gpt-6-1-terra-code-arena-webdev/"
-    },
-    {
-     "src": "YouTube",
-     "t": "HUGE ANTHROPIC BOMBSHELL! Claude REA UNBANNED?! GPT-6.1 Terra, Qwen 4 27B, & Fable 5.5! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=SyUjFWgqDNo"
-    }
-   ],
-   "buzz": 2,
-   "verdict": "Talk only, no public usage numbers"
-  },
-  {
    "name": "ai-pose-gallery-zh",
    "url": "https://github.com/anhao/ai-pose-gallery-zh",
    "from": "GitHub",
-   "use": 1704,
-   "useLabel": "+1,704 stars/day",
+   "use": 1653,
+   "useLabel": "+1,653 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -491,35 +487,35 @@
  "github": [
   {
    "repo": "anhao/ai-pose-gallery-zh",
-   "stars": 1723,
-   "d24": 1704,
+   "stars": 1740,
+   "d24": 1653,
    "est": false,
-   "forks": 454,
+   "forks": 460,
    "contrib": null,
    "score": 98
   },
   {
    "repo": "rddmwmddr/android-ad-cleaner",
-   "stars": 4223,
-   "d24": 943,
+   "stars": 4229,
+   "d24": 940,
    "est": true,
-   "forks": 380,
+   "forks": 381,
    "contrib": 11,
    "score": 92
   },
   {
    "repo": "t3dotgg/tstack",
-   "stars": 2200,
-   "d24": 288,
+   "stars": 2204,
+   "d24": 283,
    "est": false,
-   "forks": 135,
+   "forks": 137,
    "contrib": null,
    "score": 90
   },
   {
    "repo": "andyhuo520/digital-human-koubo",
    "stars": 1282,
-   "d24": 286,
+   "d24": 276,
    "est": false,
    "forks": 296,
    "contrib": null,
@@ -527,12 +523,12 @@
   },
   {
    "repo": "morganlinton/BeautifulRust",
-   "stars": 1355,
+   "stars": 1356,
    "d24": 50,
    "est": false,
    "forks": 60,
    "contrib": null,
-   "score": 84
+   "score": 83
   }
  ],
  "models": [
@@ -545,7 +541,7 @@
    "grow": null,
    "score": 92,
    "cat": "LLMs",
-   "likes": 1141
+   "likes": 1142
   },
   {
    "name": "Nanbeige4.3-33B",
@@ -568,7 +564,7 @@
    "grow": 11,
    "score": 89,
    "cat": "Vision",
-   "likes": 3499
+   "likes": 3502
   },
   {
    "name": "Spark-X2.6-4B",
@@ -580,7 +576,18 @@
    "grow": 0,
    "score": 86,
    "cat": "LLMs",
-   "likes": 841
+   "likes": 844
+  },
+  {
+   "name": "flux-3-image-klein-comfy",
+   "org": "black-forest-labs",
+   "lic": "Open weights",
+   "at": "2026-10-14T12:00:13.000Z",
+   "dl": 798943,
+   "grow": 0,
+   "score": 85,
+   "cat": "Vision",
+   "likes": 1936
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
@@ -589,21 +596,9 @@
    "at": "2026-10-23T09:43:05.000Z",
    "dl": 1377570,
    "grow": null,
-   "score": 86,
-   "cat": "Infrastructure",
-   "likes": 427
-  },
-  {
-   "name": "LFM3-1.7B",
-   "org": "LiquidAI",
-   "size": "1.7B",
-   "lic": "Open weights",
-   "at": "2026-10-23T21:35:42.000Z",
-   "dl": 8892,
-   "grow": 41,
    "score": 85,
-   "cat": "LLMs",
-   "likes": 334
+   "cat": "Infrastructure",
+   "likes": 428
   }
  ],
  "free": [
@@ -893,6 +888,13 @@
  },
  "headlines": [
   {
+   "t": "Google unveils Gemini 4 Carbon, its \"strongest model with state-of-the-art cybersecurity\" capabilities, ranked #1 on Artificial Analysis' new Intelligence Index",
+   "url": "https://www.techmeme.com/261028/p38#a261028p38",
+   "at": "2026-10-28T17:09:07.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Gemini 4 Carbon: Our next frontier model",
    "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
    "at": "2026-10-28T17:00:58.000Z",
@@ -970,13 +972,6 @@
    "kind": "News"
   },
   {
-   "t": "Samsung unveils the $229 Galaxy Buds On, its first open-fit, C-shaped cuff earbuds to compete with Sony and Bose, designed with AI's help, shipping November 6",
-   "url": "https://www.techmeme.com/261028/p25#a261028p25",
-   "at": "2026-10-28T12:25:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "‘There is no inevitable dystopia’: Jeanette Winterson on AI and the future of humanity",
    "url": "https://www.theguardian.com/books/2026/oct/28/no-inevitable-dystopia-jeanette-winterson-ai-future-of-humanity",
    "at": "2026-10-28T10:00:05Z",
@@ -991,28 +986,37 @@
    "kind": "Lab blog"
   },
   {
-   "t": "Artificial intelligence use doubles in rural Nebraska",
-   "url": "https://journalstar.com/news/community/article_a937f9e8-5824-5df8-ad50-d7f64a0c6e72.html",
-   "at": "2026-10-28T05:00:00Z",
-   "src": "Lincoln Journal Star",
+   "t": "Pennsylvania Senate bill aims to keep teachers, not AI, at forefront of classroom learning",
+   "url": "https://triblive.com/local/valley-news-dispatch/pennsylvania-senate-bill-aims-to-keep-teachers-not-ai-at-forefront-of-classroom-learning/",
+   "at": "2026-10-28T05:30:00Z",
+   "src": "Pittsburgh Tribune-Review",
    "kind": "News"
   },
   {
-   "t": "NxtGen Named an OpenAI Select Partner within the OpenAI Partner Network",
-   "url": "https://www.aninews.in/news/business/nxtgen-named-an-openai-select-partner-within-the-openai-partner-network20261028102807/",
-   "at": "2026-10-28T04:58:07Z",
-   "src": "ANI (Asian News International)",
+   "t": "Anthropic uses Claude to generate 35,000 antibody designs for food allergy treatment, targets faster drug development",
+   "url": "https://www.devdiscourse.com/article/business/3998467-anthropic-uses-claude-to-generate-35000-antibody-designs-for-food-allergy-treatment-targets-faster-drug-development",
+   "at": "2026-10-28T05:29:11Z",
+   "src": "Devdiscourse",
    "kind": "News"
   }
  ],
  "discussions": [
   {
    "src": "Hacker News",
-   "t": "Ten days later, Git on macOS still trusts the compromised eMudhra certificates",
+   "t": "Gemini 4 Carbon",
+   "url": "https://news.ycombinator.com/item?id=50276792",
+   "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+   "up": 140,
+   "com": 89,
+   "at": "2026-10-28T17:01:23.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Apple's git still trusts the compromised eMudhra certificates",
    "url": "https://news.ycombinator.com/item?id=50271640",
    "link": "https://emudhra.we-have-a-problem.com/apple.html",
-   "up": 761,
-   "com": 292,
+   "up": 797,
+   "com": 307,
    "at": "2026-10-28T11:03:40.000Z"
   },
   {
@@ -1020,8 +1024,8 @@
    "t": "Kentucky man becomes the first humanist granted religious exemption from AI",
    "url": "https://news.ycombinator.com/item?id=50273396",
    "link": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/",
-   "up": 234,
-   "com": 260,
+   "up": 256,
+   "com": 292,
    "at": "2026-10-28T13:41:30.000Z"
   },
   {
@@ -1029,8 +1033,8 @@
    "t": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
    "url": "https://news.ycombinator.com/item?id=50275626",
    "link": "https://surgehq.ai/blog/dayjob-tax",
-   "up": 39,
-   "com": 24,
+   "up": 60,
+   "com": 36,
    "at": "2026-10-28T15:46:30.000Z"
   },
   {
@@ -1038,7 +1042,7 @@
    "t": "Git for the US Code",
    "url": "https://news.ycombinator.com/item?id=50268380",
    "link": "https://lexifina.com/blog/git-for-the-us-code",
-   "up": 375,
+   "up": 380,
    "com": 199,
    "at": "2026-10-28T01:47:50.000Z"
   },
@@ -1047,18 +1051,9 @@
    "t": "Survival LLM: AI assistant and emergency library that runs on your own computer",
    "url": "https://news.ycombinator.com/item?id=50264853",
    "link": "https://www.brangus.io/survival-llm",
-   "up": 470,
-   "com": 174,
+   "up": 479,
+   "com": 175,
    "at": "2026-10-27T19:55:06.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Harvey raised 500M for legal AI, I built the same and open sourced it",
-   "url": "https://news.ycombinator.com/item?id=50273623",
-   "link": "https://github.com/thomasunise/casecite",
-   "up": 68,
-   "com": 32,
-   "at": "2026-10-28T13:56:21.000Z"
   }
  ]
 }
