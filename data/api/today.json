@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-28T20:01:06.147Z"
+  "updated": "2026-10-28T20:30:53.321Z"
  },
  "pulse": {
-  "trending": 80,
+  "trending": 79,
   "accelerating": 2,
   "newModels": 9,
-  "discussions": 38,
-  "stars": 2899
+  "discussions": 39,
+  "stars": 2838
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Vision",
    "score": 98,
-   "grow": 55,
+   "grow": 56,
    "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
    "meta": [
-    "★ 1,794",
-    "+1,394 in 24h",
+    "★ 1,798",
+    "+1,342 in 24h",
     "Created yesterday"
    ],
    "at": "2026-10-27T12:24:37Z",
@@ -42,7 +42,7 @@
    "desc": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …",
    "meta": [
     "★ 1,296",
-    "+256 in 24h",
+    "+248 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-26T04:34:09Z",
@@ -58,8 +58,8 @@
    "grow": null,
    "desc": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
    "meta": [
-    "★ 4,246",
-    "~923 in 24h",
+    "★ 4,250",
+    "~920 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-24T05:35:47Z",
@@ -73,7 +73,7 @@
    "cat": "Infrastructure",
    "score": 92,
    "grow": 55,
-   "desc": "Model on Hugging Face · open source · ♥ 712",
+   "desc": "Model on Hugging Face · open source · ♥ 716",
    "meta": [
     "7.4K downloads",
     "Released 5 days ago"
@@ -91,7 +91,7 @@
    "grow": 7,
    "desc": "The agent skills I use every day. Works with Claude Code and Codex.",
    "meta": [
-    "★ 2,232",
+    "★ 2,238",
     "+280 in 24h",
     "Created 5 days ago"
    ],
@@ -138,7 +138,7 @@
    "cat": "LLMs",
    "score": 86,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 845",
+   "desc": "Model on Hugging Face · open source · ♥ 849",
    "meta": [
     "8.2K downloads",
     "Released 10 days ago"
@@ -148,29 +148,13 @@
    "url": "https://huggingface.co/XHToken/Spark-X2.6-4B"
   },
   {
-   "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
-   "owner": "ISTA-DASLab",
-   "src": "hf",
-   "cat": "Infrastructure",
-   "score": 86,
-   "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 430",
-   "meta": [
-    "1.4M downloads",
-    "Released 5 days ago"
-   ],
-   "at": "2026-10-23T09:43:05.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF"
-  },
-  {
    "name": "MiniMax-M3.1-Flash",
    "owner": "MiniMaxAI",
    "src": "hf",
    "cat": "Agents",
    "score": 85,
    "grow": 20,
-   "desc": "Model on Hugging Face · open weights · ♥ 446",
+   "desc": "Model on Hugging Face · open weights · ♥ 447",
    "meta": [
     "13K downloads",
     "Released 12 days ago"
@@ -178,6 +162,22 @@
    "at": "2026-10-17T06:37:50.000Z",
    "breakout": null,
    "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash"
+  },
+  {
+   "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+   "owner": "ISTA-DASLab",
+   "src": "hf",
+   "cat": "Infrastructure",
+   "score": 85,
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 431",
+   "meta": [
+    "1.4M downloads",
+    "Released 5 days ago"
+   ],
+   "at": "2026-10-23T09:43:05.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF"
   }
  ],
  "breakouts": [
@@ -203,29 +203,6 @@
     }
    ],
    "since": "2026-10-01T18:14:41.538Z"
-  },
-  {
-   "key": "gpt 6.1",
-   "label": "GPT-6.1",
-   "n": 3,
-   "sources": [
-    {
-     "src": "OpenAI blog",
-     "t": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
-     "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security"
-    },
-    {
-     "src": "YouTube",
-     "t": "HUGE ANTHROPIC BOMBSHELL! Claude REA UNBANNED?! GPT-6.1 Terra, Qwen 4 27B, & Fable 5.5! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=SyUjFWgqDNo"
-    },
-    {
-     "src": "Product Hunt",
-     "t": "GPT-6.1 Terra",
-     "url": "https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
-    }
-   ],
-   "since": "2026-10-26T19:30:56.131Z"
   }
  ],
  "hype": [
@@ -257,55 +234,11 @@
    "verdict": "Talk only, no public usage numbers"
   },
   {
-   "name": "GPT-6.1",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
-    {
-     "src": "OpenAI blog",
-     "t": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
-     "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security"
-    },
-    {
-     "src": "YouTube",
-     "t": "HUGE ANTHROPIC BOMBSHELL! Claude REA UNBANNED?! GPT-6.1 Terra, Qwen 4 27B, & Fable 5.5! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=SyUjFWgqDNo"
-    }
-   ],
-   "buzz": 2,
-   "verdict": "Talk only, no public usage numbers"
-  },
-  {
-   "name": "Nemotron 3.5",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
-    {
-     "src": "Hugging Face blog",
-     "t": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
-     "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary"
-    },
-    {
-     "src": "Techmeme",
-     "t": "Nvidia debuts Nemotron 3.5 Transcribe, an open-weight model for multilingual audio transcription and translation, and Granary v2, its open-source speech dataset",
-     "url": "https://www.techmeme.com/261028/p33#a261028p33"
-    }
-   ],
-   "buzz": 2,
-   "verdict": "Talk only, no public usage numbers"
-  },
-  {
    "name": "ai-pose-gallery-zh",
    "url": "https://github.com/anhao/ai-pose-gallery-zh",
    "from": "GitHub",
-   "use": 1394,
-   "useLabel": "+1,394 stars/day",
+   "use": 1342,
+   "useLabel": "+1,342 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -328,7 +261,7 @@
    "from": "Hugging Face",
    "use": 2921615,
    "useLabel": "2.9M downloads",
-   "usePct": 0.9705882352941176,
+   "usePct": 0.9696969696969697,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -419,17 +352,17 @@
  "github": [
   {
    "repo": "anhao/ai-pose-gallery-zh",
-   "stars": 1794,
-   "d24": 1394,
+   "stars": 1798,
+   "d24": 1342,
    "est": false,
-   "forks": 464,
+   "forks": 465,
    "contrib": null,
    "score": 98
   },
   {
    "repo": "rddmwmddr/android-ad-cleaner",
-   "stars": 4246,
-   "d24": 923,
+   "stars": 4250,
+   "d24": 920,
    "est": true,
    "forks": 381,
    "contrib": 11,
@@ -437,7 +370,7 @@
   },
   {
    "repo": "t3dotgg/tstack",
-   "stars": 2232,
+   "stars": 2238,
    "d24": 280,
    "est": false,
    "forks": 137,
@@ -447,7 +380,7 @@
   {
    "repo": "andyhuo520/digital-human-koubo",
    "stars": 1296,
-   "d24": 256,
+   "d24": 248,
    "est": false,
    "forks": 296,
    "contrib": null,
@@ -455,8 +388,8 @@
   },
   {
    "repo": "morganlinton/BeautifulRust",
-   "stars": 1359,
-   "d24": 46,
+   "stars": 1361,
+   "d24": 48,
    "est": false,
    "forks": 60,
    "contrib": null,
@@ -474,7 +407,7 @@
    "grow": 55,
    "score": 92,
    "cat": "Infrastructure",
-   "likes": 712
+   "likes": 716
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -485,7 +418,7 @@
    "grow": 11,
    "score": 90,
    "cat": "Vision",
-   "likes": 3517
+   "likes": 3522
   },
   {
    "name": "flint",
@@ -496,7 +429,7 @@
    "grow": 0,
    "score": 90,
    "cat": "LLMs",
-   "likes": 1145
+   "likes": 1148
   },
   {
    "name": "Spark-X2.6-4B",
@@ -508,18 +441,7 @@
    "grow": 0,
    "score": 86,
    "cat": "LLMs",
-   "likes": 845
-  },
-  {
-   "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
-   "org": "ISTA-DASLab",
-   "lic": "Open source",
-   "at": "2026-10-23T09:43:05.000Z",
-   "dl": 1377570,
-   "grow": null,
-   "score": 86,
-   "cat": "Infrastructure",
-   "likes": 430
+   "likes": 849
   },
   {
    "name": "MiniMax-M3.1-Flash",
@@ -530,7 +452,18 @@
    "grow": 20,
    "score": 85,
    "cat": "Agents",
-   "likes": 446
+   "likes": 447
+  },
+  {
+   "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+   "org": "ISTA-DASLab",
+   "lic": "Open source",
+   "at": "2026-10-23T09:43:05.000Z",
+   "dl": 1377570,
+   "grow": null,
+   "score": 85,
+   "cat": "Infrastructure",
+   "likes": 431
   }
  ],
  "free": [
@@ -848,24 +781,10 @@
    "kind": "News"
   },
   {
-   "t": "OpenAI says it's launching an election \"war room\" ahead of the US midterms to identify potential spread of misinfo or other efforts to disrupt the elections",
-   "url": "https://www.techmeme.com/261028/p34#a261028p34",
-   "at": "2026-10-28T15:35:17.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "‘Elonville’: US residents say Musk’s xAI offered to buy homes if they don’t sue over datacenter noise",
    "url": "https://www.theguardian.com/us-news/2026/oct/28/datacenter-noise-lawsuit-elon-musk-mississippi",
    "at": "2026-10-28T15:32:41Z",
    "src": "The Guardian",
-   "kind": "News"
-  },
-  {
-   "t": "Nvidia debuts Nemotron 3.5 Transcribe, an open-weight model for multilingual audio transcription and translation, and Granary v2, its open-source speech dataset",
-   "url": "https://www.techmeme.com/261028/p33#a261028p33",
-   "at": "2026-10-28T15:20:02.000Z",
-   "src": "Techmeme",
    "kind": "News"
   },
   {
@@ -897,6 +816,13 @@
    "kind": "News"
   },
   {
+   "t": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+   "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+   "at": "2026-10-28T13:15:00.000Z",
+   "src": "OpenAI",
+   "kind": "Lab blog"
+  },
+  {
    "t": "‘There is no inevitable dystopia’: Jeanette Winterson on AI and the future of humanity",
    "url": "https://www.theguardian.com/books/2026/oct/28/no-inevitable-dystopia-jeanette-winterson-ai-future-of-humanity",
    "at": "2026-10-28T10:00:05Z",
@@ -918,17 +844,24 @@
    "kind": "Lab blog"
   },
   {
-   "t": "Deakin University GIFT City Campus launches Master of Applied Artificial Intelligence (Professional) with Industry Roundtable in Bengaluru",
-   "url": "https://www.aninews.in/news/business/deakin-university-gift-city-campus-launches-master-of-applied-artificial-intelligence-professional-with-industry-roundtable-in-bengaluru20261028132608/",
-   "at": "2026-10-28T07:56:08Z",
-   "src": "ANI (Asian News International)",
+   "t": "Malaysia cannot build a high-tech nation with low confidence in maths and science - Marini Kasim and Muhammad Noor Abdul Aziz",
+   "url": "https://www.malaymail.com/news/what-you-think/2026/10/28/malaysia-cannot-build-a-high-tech-nation-with-low-confidence-in-maths-and-science-marini-kasim-and-muhammad-noor-abdul-aziz/240988",
+   "at": "2026-10-28T08:26:25Z",
+   "src": "Malay Mail",
    "kind": "News"
   },
   {
-   "t": "OpenAI faces lawsuit over claims ChatGPT advised Amazon engineer to stop seizure medication: All details",
-   "url": "https://www.businesstoday.in/technology/news/story/openai-faces-lawsuit-over-claims-chatgpt-advised-amazon-engineer-to-stop-seizure-medication-all-details-564223-2026-10-28",
-   "at": "2026-10-28T07:55:59Z",
-   "src": "Business Today",
+   "t": "Risks spelled out for Anthropic investors include blowback from runaway AI",
+   "url": "https://triblive.com/news/world/risks-spelled-out-for-anthropic-investors-include-blowback-from-runaway-ai/",
+   "at": "2026-10-28T08:22:32Z",
+   "src": "Pittsburgh Tribune-Review",
+   "kind": "News"
+  },
+  {
+   "t": "OpenAI Plans to Buy Google’s Chips as Part of Its AI Build-Out",
+   "url": "https://www.deccanchronicle.com/technology/openai-plans-to-buy-googles-chips-as-part-of-its-ai-build-out-1999574",
+   "at": "2026-10-28T08:07:07Z",
+   "src": "Deccan Chronicle",
    "kind": "News"
   }
  ],
@@ -938,8 +871,8 @@
    "t": "Gemini 4 Carbon",
    "url": "https://news.ycombinator.com/item?id=50276792",
    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
-   "up": 534,
-   "com": 449,
+   "up": 574,
+   "com": 479,
    "at": "2026-10-28T17:01:23.000Z"
   },
   {
@@ -947,8 +880,8 @@
    "t": "Apple's git still trusts the compromised eMudhra certificates",
    "url": "https://news.ycombinator.com/item?id=50271640",
    "link": "https://emudhra.we-have-a-problem.com/apple.html",
-   "up": 903,
-   "com": 344,
+   "up": 933,
+   "com": 357,
    "at": "2026-10-28T11:03:40.000Z"
   },
   {
@@ -956,8 +889,8 @@
    "t": "Kentucky man becomes the first humanist granted religious exemption from AI",
    "url": "https://news.ycombinator.com/item?id=50273396",
    "link": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/",
-   "up": 334,
-   "com": 397,
+   "up": 350,
+   "com": 409,
    "at": "2026-10-28T13:41:30.000Z"
   },
   {
@@ -965,8 +898,8 @@
    "t": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
    "url": "https://news.ycombinator.com/item?id=50275626",
    "link": "https://surgehq.ai/blog/dayjob-tax",
-   "up": 125,
-   "com": 76,
+   "up": 135,
+   "com": 75,
    "at": "2026-10-28T15:46:30.000Z"
   },
   {
@@ -974,18 +907,18 @@
    "t": "Git for the US Code",
    "url": "https://news.ycombinator.com/item?id=50268380",
    "link": "https://lexifina.com/blog/git-for-the-us-code",
-   "up": 408,
-   "com": 219,
+   "up": 415,
+   "com": 226,
    "at": "2026-10-28T01:47:50.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Early progress on accelerating drug development with Claude",
-   "url": "https://news.ycombinator.com/item?id=50265609",
-   "link": "https://www.anthropic.com/research/early-progress-drug-development",
-   "up": 311,
-   "com": 312,
-   "at": "2026-10-27T20:50:42.000Z"
+   "t": "Big Tech's thirst for water is sparking a global resistance",
+   "url": "https://news.ycombinator.com/item?id=50278754",
+   "link": "https://restofworld.org/2026/ai-datacenters-water-resistance-global/",
+   "up": 30,
+   "com": 13,
+   "at": "2026-10-28T18:34:51.000Z"
   }
  ]
 }
