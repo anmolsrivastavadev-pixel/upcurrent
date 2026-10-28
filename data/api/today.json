@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-28T00:30:52.564Z"
+  "updated": "2026-10-28T01:01:06.534Z"
  },
  "pulse": {
   "trending": 77,
   "accelerating": 0,
   "newModels": 10,
-  "discussions": 32,
-  "stars": 1370
+  "discussions": 34,
+  "stars": 1378
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
    "meta": [
-    "★ 3,268",
-    "~863 in 24h",
+    "★ 3,313",
+    "~870 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-24T05:35:47Z",
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 92,
-   "grow": 12,
+   "grow": 13,
    "desc": "The agent skills I use every day. Works with Claude Code and Codex.",
    "meta": [
-    "★ 1,998",
-    "+424 in 24h",
+    "★ 2,007",
+    "+425 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-24T05:00:20Z",
@@ -56,7 +56,7 @@
    "cat": "Infrastructure",
    "score": 92,
    "grow": 72,
-   "desc": "Model on Hugging Face · open source · ♥ 668",
+   "desc": "Model on Hugging Face · open source · ♥ 676",
    "meta": [
     "4.8K downloads",
     "Released 4 days ago"
@@ -72,7 +72,7 @@
    "cat": "LLMs",
    "score": 91,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 972",
+   "desc": "Model on Hugging Face · open source · ♥ 982",
    "meta": [
     "11K downloads",
     "Released 6 days ago"
@@ -106,7 +106,7 @@
    "grow": 4,
    "desc": "Agent Skills that teach coding agents to write, review, and port idiomatic Rust, plus a tested clippy config. Works with Claude Code, Codex, Copilot, Cursor, and Gemini CLI.",
    "meta": [
-    "★ 1,308",
+    "★ 1,310",
     "+83 in 24h",
     "Created 5 days ago"
    ],
@@ -121,7 +121,7 @@
    "cat": "LLMs",
    "score": 86,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 782",
+   "desc": "Model on Hugging Face · open source · ♥ 791",
    "meta": [
     "6.2K downloads",
     "Released 9 days ago"
@@ -137,7 +137,7 @@
    "cat": "Infrastructure",
    "score": 86,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 392",
+   "desc": "Model on Hugging Face · open source · ♥ 401",
    "meta": [
     "1.1M downloads",
     "Released 5 days ago"
@@ -172,14 +172,38 @@
    "grow": null,
    "desc": "Harness self-evolution offers a practical route for LLM agents to improve from execution experience without updating model parameters.",
    "meta": [
-    "▲ 12 upvotes",
+    "▲ 17 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-09T20:00:00.000Z",
    "breakout": null
   }
  ],
- "breakouts": [],
+ "breakouts": [
+  {
+   "key": "gpt 6.1",
+   "label": "GPT-6.1",
+   "n": 3,
+   "sources": [
+    {
+     "src": "OpenAI blog",
+     "t": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+     "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security"
+    },
+    {
+     "src": "SiliconANGLE News",
+     "t": "OpenAI launches GPT-6.1 Terra for faster, better-performing AI agents at half the price",
+     "url": "https://siliconangle.com/2026/10/26/openai-launches-gpt-6-1-terra-for-faster-better-performing-ai-agents-at-half-the-price/"
+    },
+    {
+     "src": "YouTube",
+     "t": "HUGE ANTHROPIC BOMBSHELL! Claude REA UNBANNED?! GPT-6.1 Terra, Qwen 4 27B, & Fable 5.5! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=SyUjFWgqDNo"
+    }
+   ],
+   "since": "2026-10-26T19:30:56.131Z"
+  }
+ ],
  "hype": [
   {
    "name": "GPT-6.1",
@@ -195,20 +219,25 @@
      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security"
     },
     {
+     "src": "SiliconANGLE News",
+     "t": "OpenAI launches GPT-6.1 Terra for faster, better-performing AI agents at half the price",
+     "url": "https://siliconangle.com/2026/10/26/openai-launches-gpt-6-1-terra-for-faster-better-performing-ai-agents-at-half-the-price/"
+    },
+    {
      "src": "YouTube",
      "t": "HUGE ANTHROPIC BOMBSHELL! Claude REA UNBANNED?! GPT-6.1 Terra, Qwen 4 27B, & Fable 5.5! AI NEWS",
      "url": "https://www.youtube.com/watch?v=SyUjFWgqDNo"
     }
    ],
-   "buzz": 2,
+   "buzz": 3,
    "verdict": "Talk only, no public usage numbers"
   },
   {
    "name": "android-ad-cleaner",
    "url": "https://github.com/rddmwmddr/android-ad-cleaner",
    "from": "GitHub",
-   "use": 863,
-   "useLabel": "~863 stars/day",
+   "use": 870,
+   "useLabel": "~870 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -322,25 +351,25 @@
  "github": [
   {
    "repo": "rddmwmddr/android-ad-cleaner",
-   "stars": 3268,
-   "d24": 863,
+   "stars": 3313,
+   "d24": 870,
    "est": true,
-   "forks": 274,
+   "forks": 278,
    "contrib": null,
    "score": 94
   },
   {
    "repo": "t3dotgg/tstack",
-   "stars": 1998,
-   "d24": 424,
+   "stars": 2007,
+   "d24": 425,
    "est": false,
-   "forks": 117,
+   "forks": 120,
    "contrib": null,
    "score": 92
   },
   {
    "repo": "morganlinton/BeautifulRust",
-   "stars": 1308,
+   "stars": 1310,
    "d24": 83,
    "est": false,
    "forks": 58,
@@ -359,7 +388,7 @@
    "grow": 72,
    "score": 92,
    "cat": "Infrastructure",
-   "likes": 668
+   "likes": 676
   },
   {
    "name": "flint",
@@ -370,7 +399,7 @@
    "grow": 0,
    "score": 91,
    "cat": "LLMs",
-   "likes": 972
+   "likes": 982
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -381,7 +410,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 3378
+   "likes": 3391
   },
   {
    "name": "Spark-X2.6-4B",
@@ -393,7 +422,7 @@
    "grow": 0,
    "score": 86,
    "cat": "LLMs",
-   "likes": 782
+   "likes": 791
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
@@ -404,7 +433,7 @@
    "grow": null,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 392
+   "likes": 401
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -415,7 +444,7 @@
    "grow": 0,
    "score": 85,
    "cat": "Vision",
-   "likes": 1853
+   "likes": 1863
   }
  ],
  "free": [
@@ -831,8 +860,8 @@
    "t": "Anthropic trained Claude on illegally obtained Stanford professors' books",
    "url": "https://news.ycombinator.com/item?id=50260814",
    "link": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
-   "up": 438,
-   "com": 251,
+   "up": 452,
+   "com": 260,
    "at": "2026-10-27T15:28:26.000Z"
   },
   {
@@ -840,8 +869,8 @@
    "t": "AI promised less work. I've never worked more",
    "url": "https://news.ycombinator.com/item?id=50257325",
    "link": "https://oioannou.com/blog/ai-promised-less-work/",
-   "up": 613,
-   "com": 611,
+   "up": 614,
+   "com": 612,
    "at": "2026-10-27T11:08:14.000Z"
   },
   {
@@ -849,8 +878,8 @@
    "t": "Police are using AI to pull over drivers for 'suspicious' behavior",
    "url": "https://news.ycombinator.com/item?id=50261819",
    "link": "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220",
-   "up": 334,
-   "com": 267,
+   "up": 337,
+   "com": 270,
    "at": "2026-10-27T16:40:15.000Z"
   },
   {
@@ -858,8 +887,8 @@
    "t": "Survival LLM: AI assistant and emergency library that runs on your own computer",
    "url": "https://news.ycombinator.com/item?id=50264853",
    "link": "https://www.brangus.io/survival-llm",
-   "up": 153,
-   "com": 93,
+   "up": 167,
+   "com": 96,
    "at": "2026-10-27T19:55:06.000Z"
   },
   {
@@ -867,8 +896,8 @@
    "t": "Wikipedia's Cleanup of AI-Generated Content",
    "url": "https://news.ycombinator.com/item?id=50257326",
    "link": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
-   "up": 438,
-   "com": 201,
+   "up": 444,
+   "com": 203,
    "at": "2026-10-27T11:08:15.000Z"
   },
   {
@@ -876,8 +905,8 @@
    "t": "Amazon Is Gutting Its AI Division After Sustained Failure",
    "url": "https://news.ycombinator.com/item?id=50261589",
    "link": "https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova",
-   "up": 233,
-   "com": 139,
+   "up": 246,
+   "com": 154,
    "at": "2026-10-27T16:25:30.000Z"
   }
  ]
