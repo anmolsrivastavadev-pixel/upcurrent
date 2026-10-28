@@ -5,27 +5,44 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-28T02:30:53.139Z"
+  "updated": "2026-10-28T03:01:05.378Z"
  },
  "pulse": {
-  "trending": 77,
+  "trending": 78,
   "accelerating": 0,
   "newModels": 11,
   "discussions": 33,
-  "stars": 1379
+  "stars": 2218
  },
  "rising": [
+  {
+   "name": "digital-human-koubo",
+   "owner": "andyhuo520",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 95,
+   "grow": null,
+   "desc": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …",
+   "meta": [
+    "★ 1,115",
+    "~576 in 24h",
+    "Created 2 days ago"
+   ],
+   "at": "2026-10-26T04:34:09Z",
+   "breakout": null,
+   "url": "https://github.com/andyhuo520/digital-human-koubo"
+  },
   {
    "name": "android-ad-cleaner",
    "owner": "rddmwmddr",
    "src": "gh",
    "cat": "Agents",
    "score": 94,
-   "grow": null,
+   "grow": 10,
    "desc": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
    "meta": [
-    "★ 3,440",
-    "~889 in 24h",
+    "★ 3,472",
+    "+1,159 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-24T05:35:47Z",
@@ -33,29 +50,12 @@
    "url": "https://github.com/rddmwmddr/android-ad-cleaner"
   },
   {
-   "name": "tstack",
-   "owner": "t3dotgg",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 92,
-   "grow": 14,
-   "desc": "The agent skills I use every day. Works with Claude Code and Codex.",
-   "meta": [
-    "★ 2,021",
-    "+404 in 24h",
-    "Created 4 days ago"
-   ],
-   "at": "2026-10-24T05:00:20Z",
-   "breakout": null,
-   "url": "https://github.com/t3dotgg/tstack"
-  },
-  {
    "name": "Nanbeige4.3-33B",
    "owner": "Nanbeige",
    "src": "hf",
    "cat": "Infrastructure",
    "score": 92,
-   "grow": 72,
+   "grow": null,
    "desc": "Model on Hugging Face · open source · ♥ 676",
    "meta": [
     "4.8K downloads",
@@ -66,13 +66,30 @@
    "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B"
   },
   {
+   "name": "tstack",
+   "owner": "t3dotgg",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 91,
+   "grow": 14,
+   "desc": "The agent skills I use every day. Works with Claude Code and Codex.",
+   "meta": [
+    "★ 2,025",
+    "+397 in 24h",
+    "Created 4 days ago"
+   ],
+   "at": "2026-10-24T05:00:20Z",
+   "breakout": null,
+   "url": "https://github.com/t3dotgg/tstack"
+  },
+  {
    "name": "flint",
    "owner": "RecursiveSI",
    "src": "hf",
    "cat": "LLMs",
    "score": 91,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 984",
+   "desc": "Model on Hugging Face · open source · ♥ 985",
    "meta": [
     "11K downloads",
     "Released 7 days ago"
@@ -102,11 +119,11 @@
    "owner": "morganlinton",
    "src": "gh",
    "cat": "Agents",
-   "score": 87,
+   "score": 86,
    "grow": 5,
    "desc": "Agent Skills that teach coding agents to write, review, and port idiomatic Rust, plus a tested clippy config. Works with Claude Code, Codex, Copilot, Cursor, and Gemini CLI.",
    "meta": [
-    "★ 1,317",
+    "★ 1,319",
     "+86 in 24h",
     "Created 5 days ago"
    ],
@@ -121,7 +138,7 @@
    "cat": "LLMs",
    "score": 86,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 800",
+   "desc": "Model on Hugging Face · open source · ♥ 803",
    "meta": [
     "6.2K downloads",
     "Released 9 days ago"
@@ -136,7 +153,7 @@
    "src": "hf",
    "cat": "Infrastructure",
    "score": 86,
-   "grow": null,
+   "grow": 0,
    "desc": "Model on Hugging Face · open source · ♥ 403",
    "meta": [
     "1.1M downloads",
@@ -161,22 +178,6 @@
    "at": "2026-10-14T12:00:13.000Z",
    "breakout": null,
    "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy"
-  },
-  {
-   "name": "Rollback: Experience Backtracking in World Models for Policy Improvement",
-   "owner": "Paper",
-   "src": "paper",
-   "url": "https://huggingface.co/papers/2610.36068",
-   "cat": "Research",
-   "score": 85,
-   "grow": null,
-   "desc": "Action-conditioned world models offer a scalable alternative to costly real-world interaction for improving robot policies.",
-   "meta": [
-    "▲ 26 upvotes",
-    "Hugging Face Papers"
-   ],
-   "at": "2026-10-25T20:00:00.000Z",
-   "breakout": null
   }
  ],
  "breakouts": [
@@ -191,9 +192,9 @@
      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security"
     },
     {
-     "src": "Biztoc.com",
-     "t": "OpenAI upgrades ChatGPT and Codex with new GPT-6.1 Terra model",
-     "url": "https://biztoc.com/x/ebd20c1a2a6e888b"
+     "src": "Slashdot.org",
+     "t": "OpenAI rolls out budget-priced mid-tier GPT-6.1 Terra",
+     "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186469376"
     },
     {
      "src": "YouTube",
@@ -219,9 +220,9 @@
      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security"
     },
     {
-     "src": "Biztoc.com",
-     "t": "OpenAI upgrades ChatGPT and Codex with new GPT-6.1 Terra model",
-     "url": "https://biztoc.com/x/ebd20c1a2a6e888b"
+     "src": "Slashdot.org",
+     "t": "OpenAI rolls out budget-priced mid-tier GPT-6.1 Terra",
+     "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186469376"
     },
     {
      "src": "YouTube",
@@ -236,8 +237,8 @@
    "name": "android-ad-cleaner",
    "url": "https://github.com/rddmwmddr/android-ad-cleaner",
    "from": "GitHub",
-   "use": 889,
-   "useLabel": "~889 stars/day",
+   "use": 1159,
+   "useLabel": "+1,159 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -351,30 +352,39 @@
  "github": [
   {
    "repo": "rddmwmddr/android-ad-cleaner",
-   "stars": 3440,
-   "d24": 889,
-   "est": true,
-   "forks": 290,
+   "stars": 3472,
+   "d24": 1159,
+   "est": false,
+   "forks": 295,
    "contrib": null,
    "score": 94
   },
   {
+   "repo": "andyhuo520/digital-human-koubo",
+   "stars": 1115,
+   "d24": 576,
+   "est": true,
+   "forks": 265,
+   "contrib": null,
+   "score": 95
+  },
+  {
    "repo": "t3dotgg/tstack",
-   "stars": 2021,
-   "d24": 404,
+   "stars": 2025,
+   "d24": 397,
    "est": false,
    "forks": 121,
    "contrib": null,
-   "score": 92
+   "score": 91
   },
   {
    "repo": "morganlinton/BeautifulRust",
-   "stars": 1317,
+   "stars": 1319,
    "d24": 86,
    "est": false,
    "forks": 58,
    "contrib": null,
-   "score": 87
+   "score": 86
   }
  ],
  "models": [
@@ -385,7 +395,7 @@
    "lic": "Open source",
    "at": "2026-10-24T02:49:18.000Z",
    "dl": 4785,
-   "grow": 72,
+   "grow": null,
    "score": 92,
    "cat": "Infrastructure",
    "likes": 676
@@ -399,7 +409,7 @@
    "grow": 0,
    "score": 91,
    "cat": "LLMs",
-   "likes": 984
+   "likes": 985
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -410,7 +420,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 3395
+   "likes": 3403
   },
   {
    "name": "Spark-X2.6-4B",
@@ -422,7 +432,7 @@
    "grow": 0,
    "score": 86,
    "cat": "LLMs",
-   "likes": 800
+   "likes": 803
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
@@ -430,7 +440,7 @@
    "lic": "Open source",
    "at": "2026-10-23T09:43:05.000Z",
    "dl": 1105751,
-   "grow": null,
+   "grow": 0,
    "score": 86,
    "cat": "Infrastructure",
    "likes": 403
@@ -444,7 +454,7 @@
    "grow": 0,
    "score": 85,
    "cat": "Vision",
-   "likes": 1868
+   "likes": 1869
   }
  ],
  "free": [
@@ -798,20 +808,6 @@
    "kind": "News"
   },
   {
-   "t": "Sources: Meta's $25B share sale was oversubscribed 5x as it seeks $98B for AI spending; the 15 largest investors in the sale accounted for ~70% of shares",
-   "url": "https://www.techmeme.com/261027/p28#a261027p28",
-   "at": "2026-10-27T20:02:31.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Memo: Amazon says measuring AI adoption solely by token usage or code generation is \"deeply flawed,\" as it discourages staff from tokenmaxxing",
-   "url": "https://www.techmeme.com/261027/p27#a261027p27",
-   "at": "2026-10-27T19:15:34.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "The sleep framework: A new way for LLMs to retain knowledge in continual learning",
    "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
    "at": "2026-10-27T17:35:00.000Z",
@@ -852,6 +848,20 @@
    "at": "2026-10-27T15:00:20.000Z",
    "src": "NVIDIA",
    "kind": "Lab blog"
+  },
+  {
+   "t": "Retell uses OpenAI models to help power 100M monthly calls",
+   "url": "https://openai.com/index/retell-ai",
+   "at": "2026-10-27T15:00:00.000Z",
+   "src": "OpenAI",
+   "kind": "Lab blog"
+  },
+  {
+   "t": "Arab alliance accuses Netanyahu of using fake image to exaggerate voter turnout",
+   "url": "https://www.middleeastmonitor.com/20261027-arab-alliance-accuses-netanyahu-of-using-fake-image-to-exaggerate-voter-turnout/",
+   "at": "2026-10-27T14:47:38Z",
+   "src": "Middle East Monitor",
+   "kind": "News"
   }
  ],
  "discussions": [
@@ -860,8 +870,8 @@
    "t": "Anthropic trained Claude on illegally obtained Stanford professors' books",
    "url": "https://news.ycombinator.com/item?id=50260814",
    "link": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
-   "up": 479,
-   "com": 265,
+   "up": 483,
+   "com": 266,
    "at": "2026-10-27T15:28:26.000Z"
   },
   {
@@ -869,8 +879,8 @@
    "t": "AI promised less work. I've never worked more",
    "url": "https://news.ycombinator.com/item?id=50257325",
    "link": "https://oioannou.com/blog/ai-promised-less-work/",
-   "up": 620,
-   "com": 617,
+   "up": 622,
+   "com": 618,
    "at": "2026-10-27T11:08:14.000Z"
   },
   {
@@ -878,35 +888,35 @@
    "t": "Police are using AI to pull over drivers for 'suspicious' behavior",
    "url": "https://news.ycombinator.com/item?id=50261819",
    "link": "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220",
-   "up": 343,
+   "up": 347,
    "com": 277,
    "at": "2026-10-27T16:40:15.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Wikipedia's Cleanup of AI-Generated Content",
-   "url": "https://news.ycombinator.com/item?id=50257326",
-   "link": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
-   "up": 458,
-   "com": 211,
-   "at": "2026-10-27T11:08:15.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Survival LLM: AI assistant and emergency library that runs on your own computer",
    "url": "https://news.ycombinator.com/item?id=50264853",
    "link": "https://www.brangus.io/survival-llm",
-   "up": 196,
-   "com": 104,
+   "up": 211,
+   "com": 108,
    "at": "2026-10-27T19:55:06.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Wikipedia's Cleanup of AI-Generated Content",
+   "url": "https://news.ycombinator.com/item?id=50257326",
+   "link": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
+   "up": 460,
+   "com": 211,
+   "at": "2026-10-27T11:08:15.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Amazon Is Gutting Its AI Division After Sustained Failure",
    "url": "https://news.ycombinator.com/item?id=50261589",
    "link": "https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova",
-   "up": 276,
-   "com": 195,
+   "up": 282,
+   "com": 198,
    "at": "2026-10-27T16:25:30.000Z"
   }
  ]
