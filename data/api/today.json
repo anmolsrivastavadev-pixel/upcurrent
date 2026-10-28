@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-28T23:01:03.596Z"
+  "updated": "2026-10-28T23:30:54.124Z"
  },
  "pulse": {
   "trending": 80,
   "accelerating": 2,
   "newModels": 9,
-  "discussions": 40,
-  "stars": 1868
+  "discussions": 39,
+  "stars": 2087
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Vision",
    "score": 98,
-   "grow": 59,
+   "grow": 60,
    "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
    "meta": [
-    "★ 1,841",
-    "+1,176 in 24h",
+    "★ 1,850",
+    "+1,151 in 24h",
     "Created yesterday"
    ],
    "at": "2026-10-27T12:24:37Z",
@@ -41,8 +41,8 @@
    "grow": 1,
    "desc": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
    "meta": [
-    "★ 4,264",
-    "+177 in 24h",
+    "★ 4,267",
+    "+175 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-24T05:35:47Z",
@@ -55,11 +55,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 92,
-   "grow": 17,
+   "grow": null,
    "desc": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …",
    "meta": [
-    "★ 1,299",
-    "+221 in 24h",
+    "★ 1,302",
+    "~467 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-26T04:34:09Z",
@@ -71,9 +71,9 @@
    "owner": "Nanbeige",
    "src": "hf",
    "cat": "Infrastructure",
-   "score": 92,
-   "grow": 55,
-   "desc": "Model on Hugging Face · open source · ♥ 719",
+   "score": 91,
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 721",
    "meta": [
     "7.4K downloads",
     "Released 5 days ago"
@@ -88,11 +88,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 90,
-   "grow": 7,
+   "grow": 8,
    "desc": "The agent skills I use every day. Works with Claude Code and Codex.",
    "meta": [
-    "★ 2,248",
-    "+250 in 24h",
+    "★ 2,253",
+    "+249 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-24T05:00:20Z",
@@ -154,7 +154,7 @@
    "cat": "LLMs",
    "score": 86,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 851",
+   "desc": "Model on Hugging Face · open source · ♥ 853",
    "meta": [
     "8.2K downloads",
     "Released 10 days ago"
@@ -180,54 +180,7 @@
    "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash"
   }
  ],
- "breakouts": [
-  {
-   "key": "gpt 6.1",
-   "label": "GPT-6.1",
-   "n": 3,
-   "sources": [
-    {
-     "src": "BleepingComputer",
-     "t": "OpenAI's GPT-6.1 Terra is safer overall, but shows more destructive-action flags in tests",
-     "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-gpt-61-terra-is-safer-overall-but-shows-more-destructive-action-flags-in-tests/"
-    },
-    {
-     "src": "YouTube",
-     "t": "HUGE ANTHROPIC BOMBSHELL! Claude REA UNBANNED?! GPT-6.1 Terra, Qwen 4 27B, & Fable 5.5! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=SyUjFWgqDNo"
-    },
-    {
-     "src": "Product Hunt",
-     "t": "GPT-6.1 Terra",
-     "url": "https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
-    }
-   ],
-   "since": "2026-10-26T19:30:56.131Z"
-  },
-  {
-   "key": "gpt-6.1 terra",
-   "label": "GPT-6.1 Terra",
-   "n": 3,
-   "sources": [
-    {
-     "src": "Product Hunt",
-     "t": "GPT-6.1 Terra",
-     "url": "https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
-    },
-    {
-     "src": "BleepingComputer",
-     "t": "OpenAI's GPT-6.1 Terra is safer overall, but shows more destructive-action flags in tests",
-     "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-gpt-61-terra-is-safer-overall-but-shows-more-destructive-action-flags-in-tests/"
-    },
-    {
-     "src": "YouTube",
-     "t": "HUGE ANTHROPIC BOMBSHELL! Claude REA UNBANNED?! GPT-6.1 Terra, Qwen 4 27B, & Fable 5.5! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=SyUjFWgqDNo"
-    }
-   ],
-   "since": "2026-10-28T05:01:05.117Z"
-  }
- ],
+ "breakouts": [],
  "hype": [
   {
    "name": "Gemini 4",
@@ -252,55 +205,11 @@
    "verdict": "Talk only, no public usage numbers"
   },
   {
-   "name": "GPT-6.1",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
-    {
-     "src": "BleepingComputer",
-     "t": "OpenAI's GPT-6.1 Terra is safer overall, but shows more destructive-action flags in tests",
-     "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-gpt-61-terra-is-safer-overall-but-shows-more-destructive-action-flags-in-tests/"
-    },
-    {
-     "src": "YouTube",
-     "t": "HUGE ANTHROPIC BOMBSHELL! Claude REA UNBANNED?! GPT-6.1 Terra, Qwen 4 27B, & Fable 5.5! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=SyUjFWgqDNo"
-    }
-   ],
-   "buzz": 2,
-   "verdict": "Talk only, no public usage numbers"
-  },
-  {
-   "name": "GPT-6.1 Terra",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
-    {
-     "src": "BleepingComputer",
-     "t": "OpenAI's GPT-6.1 Terra is safer overall, but shows more destructive-action flags in tests",
-     "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-gpt-61-terra-is-safer-overall-but-shows-more-destructive-action-flags-in-tests/"
-    },
-    {
-     "src": "YouTube",
-     "t": "HUGE ANTHROPIC BOMBSHELL! Claude REA UNBANNED?! GPT-6.1 Terra, Qwen 4 27B, & Fable 5.5! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=SyUjFWgqDNo"
-    }
-   ],
-   "buzz": 2,
-   "verdict": "Talk only, no public usage numbers"
-  },
-  {
    "name": "ai-pose-gallery-zh",
    "url": "https://github.com/anhao/ai-pose-gallery-zh",
    "from": "GitHub",
-   "use": 1176,
-   "useLabel": "+1,176 stars/day",
+   "use": 1151,
+   "useLabel": "+1,151 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -414,44 +323,44 @@
  "github": [
   {
    "repo": "anhao/ai-pose-gallery-zh",
-   "stars": 1841,
-   "d24": 1176,
+   "stars": 1850,
+   "d24": 1151,
    "est": false,
-   "forks": 472,
+   "forks": 473,
    "contrib": null,
    "score": 98
   },
   {
+   "repo": "andyhuo520/digital-human-koubo",
+   "stars": 1302,
+   "d24": 467,
+   "est": true,
+   "forks": 298,
+   "contrib": null,
+   "score": 92
+  },
+  {
    "repo": "t3dotgg/tstack",
-   "stars": 2248,
-   "d24": 250,
+   "stars": 2253,
+   "d24": 249,
    "est": false,
    "forks": 138,
    "contrib": null,
    "score": 90
   },
   {
-   "repo": "andyhuo520/digital-human-koubo",
-   "stars": 1299,
-   "d24": 221,
-   "est": false,
-   "forks": 298,
-   "contrib": null,
-   "score": 92
-  },
-  {
    "repo": "rddmwmddr/android-ad-cleaner",
-   "stars": 4264,
-   "d24": 177,
+   "stars": 4267,
+   "d24": 175,
    "est": false,
-   "forks": 381,
+   "forks": 382,
    "contrib": 11,
    "score": 92
   },
   {
    "repo": "morganlinton/BeautifulRust",
-   "stars": 1363,
-   "d24": 44,
+   "stars": 1365,
+   "d24": 45,
    "est": false,
    "forks": 61,
    "contrib": null,
@@ -466,10 +375,10 @@
    "lic": "Open source",
    "at": "2026-10-24T02:49:18.000Z",
    "dl": 7412,
-   "grow": 55,
-   "score": 92,
+   "grow": null,
+   "score": 91,
    "cat": "Infrastructure",
-   "likes": 719
+   "likes": 721
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -480,7 +389,7 @@
    "grow": 11,
    "score": 90,
    "cat": "Vision",
-   "likes": 3536
+   "likes": 3538
   },
   {
    "name": "flint",
@@ -514,7 +423,7 @@
    "grow": 0,
    "score": 86,
    "cat": "LLMs",
-   "likes": 851
+   "likes": 853
   },
   {
    "name": "MiniMax-M3.1-Flash",
@@ -815,6 +724,13 @@
  },
  "headlines": [
   {
+   "t": "Sources: the US DOJ has inquired about the impact of Nvidia's Hugging Face deal on AI competition, as antitrust enforcers continue to probe Nvidia's conduct",
+   "url": "https://www.techmeme.com/261028/p57#a261028p57",
+   "at": "2026-10-28T23:00:49.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Filing: Microsoft recorded $10B in revenue from OpenAI in Q1, nearly 11% of its total quarterly revenue, and has $7.2B in outstanding receivables from OpenAI",
    "url": "https://www.techmeme.com/261028/p53#a261028p53",
    "at": "2026-10-28T22:10:05.000Z",
@@ -878,6 +794,27 @@
    "kind": "Lab blog"
   },
   {
+   "t": "Ringgit ends higher against greenback amid confidence in Malaysia’s economic fundamentals",
+   "url": "https://www.thestar.com.my/business/business-news/2026/10/28/ringgit-ends-higher-against-greenback-amid-confidence-in-malaysias-economic-fundamentals",
+   "at": "2026-10-28T11:18:00Z",
+   "src": "The Star",
+   "kind": "News"
+  },
+  {
+   "t": "China could surpass US in AI by 2030: 8 industries at stake",
+   "url": "https://www.thenews.com.pk/latest/1421611-china-could-surpass-us-in-ai-by-2030-8-industries-at-stake",
+   "at": "2026-10-28T11:04:00Z",
+   "src": "The News International",
+   "kind": "News"
+  },
+  {
+   "t": "AI to help Indian military identify target, make battlefield decisions? Here’s what the new defence deal with Sarvam offers",
+   "url": "https://www.theweek.in/news/defence/2026/10/28/ai-to-help-indian-military-identify-target-make-battlefield-decisions-heres-what-the-new-defence-deal-with-sarvam-offers.html",
+   "at": "2026-10-28T11:04:00Z",
+   "src": "THE WEEK",
+   "kind": "News"
+  },
+  {
    "t": "AIEAT, TILSNA to host Global Medical AI Summit 2026",
    "url": "https://www.bangkokpost.com/business/general/3345095/aieat-tilsna-to-host-global-medical-ai-summit-2026",
    "at": "2026-10-28T11:00:00Z",
@@ -897,34 +834,6 @@
    "at": "2026-10-28T10:44:00Z",
    "src": "Times of India",
    "kind": "News"
-  },
-  {
-   "t": "Malaysia seizes servers with advanced AI chips suspected of violating export controls",
-   "url": "https://wtop.com/world/2026/10/malaysia-seizes-servers-with-advanced-ai-chips-suspected-of-violating-export-controls/",
-   "at": "2026-10-28T10:23:40Z",
-   "src": "WTOP",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI plans to buy Google AI chips to expand computing capacity and strengthen AI infrastructure: Report",
-   "url": "https://www.hindustantimes.com/business/openai-plans-to-buy-google-ai-chips-to-expand-computing-capacity-and-strengthen-ai-infrastructure-report-101793181258667.html",
-   "at": "2026-10-28T10:21:34Z",
-   "src": "Hindustan Times",
-   "kind": "News"
-  },
-  {
-   "t": "\"OpenAI Has Been Very Bad For The World\": Ex-Google Researcher",
-   "url": "https://www.ndtv.com/artificial-intelligence/openai-has-been-very-bad-for-the-world-ex-google-researcher-12248042",
-   "at": "2026-10-28T10:14:39Z",
-   "src": "NDTV.com",
-   "kind": "News"
-  },
-  {
-   "t": "Maharashtra On Track To Become $1 Trillion Economy By 2030 Despite Rupee Volatility: Devendra Fadnavis",
-   "url": "https://www.freepressjournal.in/business/maharashtra-on-track-to-become-1-trillion-economy-by-2030-despite-rupee-volatility-devendra-fadnavis",
-   "at": "2026-10-28T10:11:44Z",
-   "src": "Free Press Journal",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -933,8 +842,8 @@
    "t": "Gemini 4 Carbon",
    "url": "https://news.ycombinator.com/item?id=50276792",
    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
-   "up": 729,
-   "com": 594,
+   "up": 749,
+   "com": 607,
    "at": "2026-10-28T17:01:23.000Z"
   },
   {
@@ -942,7 +851,7 @@
    "t": "Apple's git still trusts the compromised eMudhra certificates",
    "url": "https://news.ycombinator.com/item?id=50271640",
    "link": "https://emudhra.we-have-a-problem.com/apple.html",
-   "up": 999,
+   "up": 1011,
    "com": 373,
    "at": "2026-10-28T11:03:40.000Z"
   },
@@ -951,8 +860,8 @@
    "t": "Kentucky man becomes the first humanist granted religious exemption from AI",
    "url": "https://news.ycombinator.com/item?id=50273396",
    "link": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/",
-   "up": 401,
-   "com": 448,
+   "up": 406,
+   "com": 449,
    "at": "2026-10-28T13:41:30.000Z"
   },
   {
@@ -960,8 +869,8 @@
    "t": "Google AI gets cagey when asked who won the 2020 elections",
    "url": "https://news.ycombinator.com/item?id=50280178",
    "link": "https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/",
-   "up": 109,
-   "com": 55,
+   "up": 116,
+   "com": 56,
    "at": "2026-10-28T20:10:16.000Z"
   },
   {
@@ -969,18 +878,18 @@
    "t": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
    "url": "https://news.ycombinator.com/item?id=50275626",
    "link": "https://surgehq.ai/blog/dayjob-tax",
-   "up": 175,
-   "com": 105,
+   "up": 182,
+   "com": 107,
    "at": "2026-10-28T15:46:30.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Claude Code found 145K photos I deleted from my iPhone sitting in a hidden cache",
-   "url": "https://news.ycombinator.com/item?id=50281902",
-   "link": "https://twitter.com/coolerwave/status/2114088769112477849",
-   "up": 23,
-   "com": 0,
-   "at": "2026-10-28T22:34:30.000Z"
+   "t": "Git for the US Code",
+   "url": "https://news.ycombinator.com/item?id=50268380",
+   "link": "https://lexifina.com/blog/git-for-the-us-code",
+   "up": 425,
+   "com": 249,
+   "at": "2026-10-28T01:47:50.000Z"
   }
  ]
 }
