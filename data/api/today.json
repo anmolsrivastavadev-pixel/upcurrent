@@ -5,32 +5,32 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-28T08:30:54.032Z"
+  "updated": "2026-10-28T09:01:09.988Z"
  },
  "pulse": {
-  "trending": 78,
+  "trending": 79,
   "accelerating": 0,
   "newModels": 11,
-  "discussions": 35,
-  "stars": 2718
+  "discussions": 36,
+  "stars": 3851
  },
  "rising": [
   {
-   "name": "digital-human-koubo",
-   "owner": "andyhuo520",
+   "name": "ai-pose-gallery-zh",
+   "owner": "anhao",
    "src": "gh",
-   "cat": "Agents",
-   "score": 94,
+   "cat": "Vision",
+   "score": 98,
    "grow": null,
-   "desc": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …",
+   "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
    "meta": [
-    "★ 1,191",
-    "~550 in 24h",
-    "Created 2 days ago"
+    "★ 1,155",
+    "~1,345 in 24h",
+    "Created 21h ago"
    ],
-   "at": "2026-10-26T04:34:09Z",
+   "at": "2026-10-27T12:24:37Z",
    "breakout": null,
-   "url": "https://github.com/andyhuo520/digital-human-koubo"
+   "url": "https://github.com/anhao/ai-pose-gallery-zh"
   },
   {
    "name": "android-ad-cleaner",
@@ -38,16 +38,33 @@
    "src": "gh",
    "cat": "Agents",
    "score": 93,
-   "grow": 22,
+   "grow": 23,
    "desc": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
    "meta": [
-    "★ 3,860",
-    "+1,404 in 24h",
+    "★ 3,887",
+    "+1,399 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-24T05:35:47Z",
    "breakout": null,
    "url": "https://github.com/rddmwmddr/android-ad-cleaner"
+  },
+  {
+   "name": "digital-human-koubo",
+   "owner": "andyhuo520",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 93,
+   "grow": 8,
+   "desc": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …",
+   "meta": [
+    "★ 1,201",
+    "+344 in 24h",
+    "Created 2 days ago"
+   ],
+   "at": "2026-10-26T04:34:09Z",
+   "breakout": null,
+   "url": "https://github.com/andyhuo520/digital-human-koubo"
   },
   {
    "name": "flint",
@@ -71,8 +88,8 @@
    "src": "hf",
    "cat": "Infrastructure",
    "score": 92,
-   "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 684",
+   "grow": 0,
+   "desc": "Model on Hugging Face · open source · ♥ 686",
    "meta": [
     "4.8K downloads",
     "Released 4 days ago"
@@ -86,12 +103,12 @@
    "owner": "t3dotgg",
    "src": "gh",
    "cat": "Agents",
-   "score": 91,
+   "score": 90,
    "grow": null,
    "desc": "The agent skills I use every day. Works with Claude Code and Codex.",
    "meta": [
-    "★ 2,105",
-    "~508 in 24h",
+    "★ 2,113",
+    "~507 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-24T05:00:20Z",
@@ -104,7 +121,7 @@
    "src": "hf",
    "cat": "Vision",
    "score": 89,
-   "grow": 0,
+   "grow": null,
    "desc": "Vision on Hugging Face · open source · ♥ 3.5K",
    "meta": [
     "106K downloads",
@@ -115,30 +132,13 @@
    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
   },
   {
-   "name": "BeautifulRust",
-   "owner": "morganlinton",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 86,
-   "grow": null,
-   "desc": "Agent Skills that teach coding agents to write, review, and port idiomatic Rust, plus a tested clippy config. Works with Claude Code, Codex, Copilot, Cursor, and Gemini CLI.",
-   "meta": [
-    "★ 1,339",
-    "~256 in 24h",
-    "Created 5 days ago"
-   ],
-   "at": "2026-10-23T03:01:11Z",
-   "breakout": null,
-   "url": "https://github.com/morganlinton/BeautifulRust"
-  },
-  {
    "name": "Spark-X2.6-4B",
    "owner": "XHToken",
    "src": "hf",
    "cat": "LLMs",
    "score": 86,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 820",
+   "desc": "Model on Hugging Face · open source · ♥ 822",
    "meta": [
     "6.2K downloads",
     "Released 9 days ago"
@@ -154,7 +154,7 @@
    "cat": "Infrastructure",
    "score": 86,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 408",
+   "desc": "Model on Hugging Face · open source · ♥ 410",
    "meta": [
     "1.1M downloads",
     "Released 5 days ago"
@@ -164,20 +164,21 @@
    "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF"
   },
   {
-   "name": "flux-3-image-klein-comfy",
-   "owner": "black-forest-labs",
-   "src": "hf",
-   "cat": "Vision",
+   "name": "BeautifulRust",
+   "owner": "morganlinton",
+   "src": "gh",
+   "cat": "Agents",
    "score": 85,
-   "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 1.9K",
+   "grow": null,
+   "desc": "Agent Skills that teach coding agents to write, review, and port idiomatic Rust, plus a tested clippy config. Works with Claude Code, Codex, Copilot, Cursor, and Gemini CLI.",
    "meta": [
-    "751K downloads",
-    "Released 14 days ago"
+    "★ 1,342",
+    "~256 in 24h",
+    "Created 5 days ago"
    ],
-   "at": "2026-10-14T12:00:13.000Z",
+   "at": "2026-10-23T03:01:11Z",
    "breakout": null,
-   "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy"
+   "url": "https://github.com/morganlinton/BeautifulRust"
   }
  ],
  "breakouts": [
@@ -207,28 +208,6 @@
  ],
  "hype": [
   {
-   "name": "GPT-6",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
-    {
-     "src": "OpenAI blog",
-     "t": "Greptile takes bug detection beyond code review with GPT-6 Astra",
-     "url": "https://openai.com/index/greptile-code-review-codex-astra"
-    },
-    {
-     "src": "The National",
-     "t": "OpenAI’s Sam Altman urges companies to focus on AI security threat as GPT-6 adoption soars",
-     "url": "https://www.thenationalnews.com/business/2026/10/27/openais-sam-altman-urges-companies-to-focus-on-ai-security-threat-as-gpt-6-adoption-soars/"
-    }
-   ],
-   "buzz": 2,
-   "verdict": "Talk only, no public usage numbers"
-  },
-  {
    "name": "GPT-6.1",
    "url": null,
    "from": null,
@@ -254,8 +233,8 @@
    "name": "android-ad-cleaner",
    "url": "https://github.com/rddmwmddr/android-ad-cleaner",
    "from": "GitHub",
-   "use": 1404,
-   "useLabel": "+1,404 stars/day",
+   "use": 1399,
+   "useLabel": "+1,399 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -369,39 +348,48 @@
  "github": [
   {
    "repo": "rddmwmddr/android-ad-cleaner",
-   "stars": 3860,
-   "d24": 1404,
+   "stars": 3887,
+   "d24": 1399,
    "est": false,
-   "forks": 344,
+   "forks": 346,
    "contrib": 11,
    "score": 93
   },
   {
-   "repo": "andyhuo520/digital-human-koubo",
-   "stars": 1191,
-   "d24": 550,
+   "repo": "anhao/ai-pose-gallery-zh",
+   "stars": 1155,
+   "d24": 1345,
    "est": true,
-   "forks": 283,
+   "forks": 316,
    "contrib": null,
-   "score": 94
+   "score": 98
   },
   {
    "repo": "t3dotgg/tstack",
-   "stars": 2105,
-   "d24": 508,
+   "stars": 2113,
+   "d24": 507,
    "est": true,
    "forks": 124,
    "contrib": null,
-   "score": 91
+   "score": 90
+  },
+  {
+   "repo": "andyhuo520/digital-human-koubo",
+   "stars": 1201,
+   "d24": 344,
+   "est": false,
+   "forks": 285,
+   "contrib": null,
+   "score": 93
   },
   {
    "repo": "morganlinton/BeautifulRust",
-   "stars": 1339,
+   "stars": 1342,
    "d24": 256,
    "est": true,
    "forks": 60,
    "contrib": null,
-   "score": 86
+   "score": 85
   }
  ],
  "models": [
@@ -414,7 +402,7 @@
    "grow": 0,
    "score": 92,
    "cat": "LLMs",
-   "likes": 1093
+   "likes": 1097
   },
   {
    "name": "Nanbeige4.3-33B",
@@ -423,10 +411,10 @@
    "lic": "Open source",
    "at": "2026-10-24T02:49:18.000Z",
    "dl": 4785,
-   "grow": null,
+   "grow": 0,
    "score": 92,
    "cat": "Infrastructure",
-   "likes": 684
+   "likes": 686
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -434,10 +422,10 @@
    "lic": "Open source",
    "at": "2026-10-17T02:40:38.000Z",
    "dl": 105667,
-   "grow": 0,
+   "grow": null,
    "score": 89,
    "cat": "Vision",
-   "likes": 3451
+   "likes": 3453
   },
   {
    "name": "Spark-X2.6-4B",
@@ -449,7 +437,7 @@
    "grow": 0,
    "score": 86,
    "cat": "LLMs",
-   "likes": 820
+   "likes": 822
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
@@ -460,7 +448,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 408
+   "likes": 410
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -471,7 +459,7 @@
    "grow": 0,
    "score": 85,
    "cat": "Vision",
-   "likes": 1889
+   "likes": 1894
   }
  ],
  "free": [
@@ -804,6 +792,48 @@
    "kind": "News"
   },
   {
+   "t": "NYS court system tells attorneys they can use AI in legal filings without disclosing it but have ‘obligation’ to confirm accuracy",
+   "url": "https://www.amny.com/law/nys-court-system-ai-attorney-guide/",
+   "at": "2026-10-27T21:00:47Z",
+   "src": "AM New York",
+   "kind": "News"
+  },
+  {
+   "t": "OpenAI’s math claim and Bitcoin security",
+   "url": "https://cryptoslate.com/openai-claims-a-math-breakthrough-does-that-threaten-bitcoin/",
+   "at": "2026-10-27T21:00:20Z",
+   "src": "CryptoSlate",
+   "kind": "News"
+  },
+  {
+   "t": "Trump Declares War on Two Words in Bizarre Spat With Murdoch Paper",
+   "url": "https://www.thedailybeast.com/trump-declares-war-on-two-words-in-bizarre-spat-with-the-wall-street-journal",
+   "at": "2026-10-27T20:57:20Z",
+   "src": "The Daily Beast",
+   "kind": "News"
+  },
+  {
+   "t": "Bill Gates Predicts Some People Will Reject A.I. for Amish Lifestyle",
+   "url": "https://www.tmz.com/2026/10/27/bill-gates-ai-predictions/",
+   "at": "2026-10-27T20:54:32Z",
+   "src": "TMZ",
+   "kind": "News"
+  },
+  {
+   "t": "Researchers are getting tired of OpenAI gatekeeping its breakthroughs",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics",
+   "at": "2026-10-27T20:48:58Z",
+   "src": "The Verge",
+   "kind": "News"
+  },
+  {
+   "t": "Seagate Posts Soaring 1Q Profit on Continued Data-Storage Demand",
+   "url": "https://www.marketscreener.com/news/seagate-posts-soaring-1q-profit-on-continued-data-storage-demand-ce785cddd18df125",
+   "at": "2026-10-27T20:48:22Z",
+   "src": "MarketScreener",
+   "kind": "News"
+  },
+  {
    "t": "Walmart says AI training is boosting worker confidence",
    "url": "https://www.cnbc.com/2026/10/27/walmart-ai-training-workers.html",
    "at": "2026-10-27T20:30:01Z",
@@ -832,52 +862,10 @@
    "kind": "News"
   },
   {
-   "t": "Anthropic warns of losing control of AI as it races toward historic IPO",
-   "url": "https://foxbaltimore.com/news/nation-world/anthropic-warns-of-losing-control-of-ai-as-it-races-toward-historic-ipo",
-   "at": "2026-10-27T20:11:41Z",
-   "src": "Baltimore News",
-   "kind": "News"
-  },
-  {
-   "t": "ChatGPT Can Now Access Your iCloud Mail and Calendar",
-   "url": "https://www.macrumors.com/2026/10/27/chatgpt-icloud-mail-calendar-plugin/",
-   "at": "2026-10-27T19:51:19Z",
-   "src": "MacRumors",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI’s Sam Altman urges companies to focus on AI security threat as GPT-6 adoption soars",
-   "url": "https://www.thenationalnews.com/business/2026/10/27/openais-sam-altman-urges-companies-to-focus-on-ai-security-threat-as-gpt-6-adoption-soars/",
-   "at": "2026-10-27T19:49:30Z",
-   "src": "The National",
-   "kind": "News"
-  },
-  {
-   "t": "Read Atlantic City Council's agenda for Wednesday",
-   "url": "https://pressofatlanticcity.com/news/local/government-politics/article_e0d0a423-7a14-48b8-827e-204acdad5485.html",
-   "at": "2026-10-27T19:45:00Z",
-   "src": "Press of Atlantic City",
-   "kind": "News"
-  },
-  {
-   "t": "Oracle expands OpenAI partnership to bring ChatGPT and Codex into business applications",
-   "url": "https://www.firstpost.com/tech/oracle-expands-openai-partnership-to-bring-chatgpt-and-codex-into-business-applications-14055826.html",
-   "at": "2026-10-27T19:40:05Z",
-   "src": "Firstpost",
-   "kind": "News"
-  },
-  {
    "t": "The sleep framework: A new way for LLMs to retain knowledge in continual learning",
    "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
    "at": "2026-10-27T17:35:00.000Z",
    "src": "Google Research",
-   "kind": "Lab blog"
-  },
-  {
-   "t": "Build specialized multimodal models with LFM3",
-   "url": "https://huggingface.co/blog/LiquidAI/lfm3",
-   "at": "2026-10-27T17:16:52.000Z",
-   "src": "Hugging Face",
    "kind": "Lab blog"
   }
  ],
@@ -887,8 +875,8 @@
    "t": "Git for the US Code",
    "url": "https://news.ycombinator.com/item?id=50268380",
    "link": "https://lexifina.com/blog/git-for-the-us-code",
-   "up": 229,
-   "com": 116,
+   "up": 241,
+   "com": 119,
    "at": "2026-10-28T01:47:50.000Z"
   },
   {
@@ -896,7 +884,7 @@
    "t": "Anthropic trained Claude on illegally obtained Stanford professors' books",
    "url": "https://news.ycombinator.com/item?id=50260814",
    "link": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
-   "up": 519,
+   "up": 520,
    "com": 274,
    "at": "2026-10-27T15:28:26.000Z"
   },
@@ -905,7 +893,7 @@
    "t": "AI promised less work. I've never worked more",
    "url": "https://news.ycombinator.com/item?id=50257325",
    "link": "https://oioannou.com/blog/ai-promised-less-work/",
-   "up": 634,
+   "up": 637,
    "com": 629,
    "at": "2026-10-27T11:08:14.000Z"
   },
@@ -914,8 +902,8 @@
    "t": "Survival LLM: AI assistant and emergency library that runs on your own computer",
    "url": "https://news.ycombinator.com/item?id=50264853",
    "link": "https://www.brangus.io/survival-llm",
-   "up": 324,
-   "com": 136,
+   "up": 333,
+   "com": 138,
    "at": "2026-10-27T19:55:06.000Z"
   },
   {
@@ -924,7 +912,7 @@
    "url": "https://news.ycombinator.com/item?id=50261819",
    "link": "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220",
    "up": 370,
-   "com": 283,
+   "com": 287,
    "at": "2026-10-27T16:40:15.000Z"
   },
   {
@@ -932,7 +920,7 @@
    "t": "Wikipedia's Cleanup of AI-Generated Content",
    "url": "https://news.ycombinator.com/item?id=50257326",
    "link": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
-   "up": 475,
+   "up": 477,
    "com": 216,
    "at": "2026-10-27T11:08:15.000Z"
   }
