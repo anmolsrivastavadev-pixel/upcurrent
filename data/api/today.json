@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-28T04:31:04.944Z"
+  "updated": "2026-10-28T05:01:05.117Z"
  },
  "pulse": {
   "trending": 78,
   "accelerating": 0,
   "newModels": 11,
-  "discussions": 36,
-  "stars": 2385
+  "discussions": 37,
+  "stars": 2413
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …",
    "meta": [
-    "★ 1,142",
-    "~572 in 24h",
+    "★ 1,147",
+    "~568 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-26T04:34:09Z",
@@ -37,12 +37,12 @@
    "owner": "rddmwmddr",
    "src": "gh",
    "cat": "Agents",
-   "score": 94,
-   "grow": 14,
+   "score": 93,
+   "grow": 15,
    "desc": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
    "meta": [
-    "★ 3,605",
-    "+1,340 in 24h",
+    "★ 3,646",
+    "+1,377 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-24T05:35:47Z",
@@ -74,8 +74,8 @@
    "grow": 15,
    "desc": "The agent skills I use every day. Works with Claude Code and Codex.",
    "meta": [
-    "★ 2,042",
-    "+385 in 24h",
+    "★ 2,047",
+    "+381 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-24T05:00:20Z",
@@ -123,8 +123,8 @@
    "grow": 5,
    "desc": "Agent Skills that teach coding agents to write, review, and port idiomatic Rust, plus a tested clippy config. Works with Claude Code, Codex, Copilot, Cursor, and Gemini CLI.",
    "meta": [
-    "★ 1,326",
-    "+88 in 24h",
+    "★ 1,327",
+    "+87 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-23T03:01:11Z",
@@ -154,7 +154,7 @@
    "cat": "Infrastructure",
    "score": 86,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 405",
+   "desc": "Model on Hugging Face · open source · ♥ 406",
    "meta": [
     "1.1M downloads",
     "Released 5 days ago"
@@ -184,12 +184,17 @@
   {
    "key": "gpt 6.1",
    "label": "GPT-6.1",
-   "n": 3,
+   "n": 4,
    "sources": [
     {
      "src": "OpenAI blog",
      "t": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security"
+    },
+    {
+     "src": "Help Net Security",
+     "t": "GPT-6.1 Terra meets OpenAI’s Critical cyber threshold, and it’s cheaper than GPT-5.6 Terra",
+     "url": "https://www.helpnetsecurity.com/2026/10/27/gpt-6-1-terra-released/"
     },
     {
      "src": "YouTube",
@@ -203,6 +208,29 @@
     }
    ],
    "since": "2026-10-26T19:30:56.131Z"
+  },
+  {
+   "key": "gpt-6.1 terra",
+   "label": "GPT-6.1 Terra",
+   "n": 3,
+   "sources": [
+    {
+     "src": "Product Hunt",
+     "t": "GPT-6.1 Terra",
+     "url": "https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
+    },
+    {
+     "src": "Help Net Security",
+     "t": "GPT-6.1 Terra meets OpenAI’s Critical cyber threshold, and it’s cheaper than GPT-5.6 Terra",
+     "url": "https://www.helpnetsecurity.com/2026/10/27/gpt-6-1-terra-released/"
+    },
+    {
+     "src": "YouTube",
+     "t": "HUGE ANTHROPIC BOMBSHELL! Claude REA UNBANNED?! GPT-6.1 Terra, Qwen 4 27B, & Fable 5.5! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=SyUjFWgqDNo"
+    }
+   ],
+   "since": "2026-10-28T05:01:05.117Z"
   }
  ],
  "hype": [
@@ -220,6 +248,33 @@
      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security"
     },
     {
+     "src": "Help Net Security",
+     "t": "GPT-6.1 Terra meets OpenAI’s Critical cyber threshold, and it’s cheaper than GPT-5.6 Terra",
+     "url": "https://www.helpnetsecurity.com/2026/10/27/gpt-6-1-terra-released/"
+    },
+    {
+     "src": "YouTube",
+     "t": "HUGE ANTHROPIC BOMBSHELL! Claude REA UNBANNED?! GPT-6.1 Terra, Qwen 4 27B, & Fable 5.5! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=SyUjFWgqDNo"
+    }
+   ],
+   "buzz": 3,
+   "verdict": "Talk only, no public usage numbers"
+  },
+  {
+   "name": "GPT-6.1 Terra",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "Help Net Security",
+     "t": "GPT-6.1 Terra meets OpenAI’s Critical cyber threshold, and it’s cheaper than GPT-5.6 Terra",
+     "url": "https://www.helpnetsecurity.com/2026/10/27/gpt-6-1-terra-released/"
+    },
+    {
      "src": "YouTube",
      "t": "HUGE ANTHROPIC BOMBSHELL! Claude REA UNBANNED?! GPT-6.1 Terra, Qwen 4 27B, & Fable 5.5! AI NEWS",
      "url": "https://www.youtube.com/watch?v=SyUjFWgqDNo"
@@ -232,8 +287,8 @@
    "name": "android-ad-cleaner",
    "url": "https://github.com/rddmwmddr/android-ad-cleaner",
    "from": "GitHub",
-   "use": 1340,
-   "useLabel": "+1,340 stars/day",
+   "use": 1377,
+   "useLabel": "+1,377 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -347,17 +402,17 @@
  "github": [
   {
    "repo": "rddmwmddr/android-ad-cleaner",
-   "stars": 3605,
-   "d24": 1340,
+   "stars": 3646,
+   "d24": 1377,
    "est": false,
-   "forks": 310,
+   "forks": 315,
    "contrib": null,
-   "score": 94
+   "score": 93
   },
   {
    "repo": "andyhuo520/digital-human-koubo",
-   "stars": 1142,
-   "d24": 572,
+   "stars": 1147,
+   "d24": 568,
    "est": true,
    "forks": 272,
    "contrib": null,
@@ -365,8 +420,8 @@
   },
   {
    "repo": "t3dotgg/tstack",
-   "stars": 2042,
-   "d24": 385,
+   "stars": 2047,
+   "d24": 381,
    "est": false,
    "forks": 121,
    "contrib": null,
@@ -374,8 +429,8 @@
   },
   {
    "repo": "morganlinton/BeautifulRust",
-   "stars": 1326,
-   "d24": 88,
+   "stars": 1327,
+   "d24": 87,
    "est": false,
    "forks": 59,
    "contrib": null,
@@ -415,7 +470,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 3417
+   "likes": 3419
   },
   {
    "name": "Spark-X2.6-4B",
@@ -438,7 +493,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 405
+   "likes": 406
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -449,7 +504,7 @@
    "grow": 0,
    "score": 85,
    "cat": "Vision",
-   "likes": 1873
+   "likes": 1875
   }
  ],
  "free": [
@@ -747,6 +802,13 @@
  },
  "headlines": [
   {
+   "t": "Sources: Fujifilm plans to increase magnetic tape production capacity fivefold to meet AI-driven storage demand, its biggest production expansion in ~20 years",
+   "url": "https://www.techmeme.com/261028/p3#a261028p3",
+   "at": "2026-10-28T04:40:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Anthropic's S-1 implies a $40T+ annual TAM based on the economic value of knowledge work in 2025, topping SpaceX's $28.5T estimate, without explicitly naming it",
    "url": "https://www.techmeme.com/261028/p2#a261028p2",
    "at": "2026-10-28T04:15:47.000Z",
@@ -810,81 +872,74 @@
    "kind": "Lab blog"
   },
   {
-   "t": "Artificial Intelligence 'singer' in Chinese pop band quits because she's pregnant: report",
-   "url": "https://foxbaltimore.com/news/nation-world/artificial-intelligence-singer-in-chinese-pop-band-quits-because-shes-pregnant-report-k-pop-entertainment",
-   "at": "2026-10-27T16:30:42Z",
-   "src": "Baltimore News",
+   "t": "Billionaire Perot Says Largest Warehouses Are in Short Supply",
+   "url": "https://news.bloombergtax.com/daily-tax-report/billionaire-perot-says-largest-warehouses-are-in-short-supply",
+   "at": "2026-10-27T16:59:28Z",
+   "src": "Bloomberg Tax News",
    "kind": "News"
   },
   {
-   "t": "Senators cite civic groups’ budget review role",
-   "url": "https://www.manilatimes.net/2026/10/28/news/senators-cite-civic-groups-budget-review-role/2455318",
-   "at": "2026-10-27T16:17:00Z",
-   "src": "The Manila Times",
+   "t": "Wall Street closes higher on revived AI momentum",
+   "url": "https://www.perthnow.com.au/news/business/markets/wall-st-advances-as-oil-eases-ahead-of-fed-decision-c-23081045",
+   "at": "2026-10-27T16:54:33Z",
+   "src": "PerthNow",
    "kind": "News"
   },
   {
-   "t": "Can we trust LLMs to judge whether a research idea is novel?",
-   "url": "https://huggingface.co/blog/allenai/novelty-bench",
-   "at": "2026-10-27T16:12:42.000Z",
-   "src": "Hugging Face",
-   "kind": "Lab blog"
-  },
-  {
-   "t": "Microsoft offers exit packages to 60,000 staff",
-   "url": "https://www.manilatimes.net/2026/10/28/business/foreign-business/microsoft-offers-exit-packages-to-60000-staff/2455413",
-   "at": "2026-10-27T16:09:00Z",
-   "src": "The Manila Times",
+   "t": "OpenAI Proves ETH Is False, and Crypto Twitter Has Questions",
+   "url": "https://decrypt.co/381956/opena-eth-false-crypto-twitter-has-questions",
+   "at": "2026-10-27T16:53:13Z",
+   "src": "Decrypt",
    "kind": "News"
   },
   {
-   "t": "Wall St banks, Blackstone line up $63B for Anthropic",
-   "url": "https://www.manilatimes.net/2026/10/28/business/foreign-business/wall-st-banks-blackstone-line-up-63b-for-anthropic/2455400",
-   "at": "2026-10-27T16:08:00Z",
-   "src": "The Manila Times",
+   "t": "AI stocks lift Wall Street closer to its record",
+   "url": "https://www.bnnbloomberg.ca/markets/2026/10/27/broadcom-and-other-ai-stocks-lift-wall-street-closer-to-its-record/",
+   "at": "2026-10-27T16:50:52Z",
+   "src": "Bnn Bloomberg",
    "kind": "News"
   },
   {
-   "t": "The AI bubble has already burst in China",
-   "url": "https://www.manilatimes.net/2026/10/28/business/foreign-business/the-ai-bubble-has-already-burst-in-china/2455390",
-   "at": "2026-10-27T16:05:00Z",
-   "src": "The Manila Times",
+   "t": "Trump wants everyone to stop saying ‘AI.’",
+   "url": "https://www.theverge.com/policy/1019628/trump-wants-everyone-to-stop-saying-ai",
+   "at": "2026-10-27T16:46:41Z",
+   "src": "The Verge",
    "kind": "News"
   },
   {
-   "t": "Beijing issues guidelines to boost employment",
-   "url": "https://www.manilatimes.net/2026/10/28/business/foreign-business/beijing-issues-guidelines-to-boost-employment/2455347",
-   "at": "2026-10-27T16:03:00Z",
-   "src": "The Manila Times",
+   "t": "Hacks, Hurricanes and Hound Dogs: The Latest From the AI Frontier",
+   "url": "https://www.usnews.com/news/u-s-news-decision-points/articles/2026-10-27/hacks-hurricanes-and-hound-dogs-the-latest-from-the-ai-frontier",
+   "at": "2026-10-27T16:43:00Z",
+   "src": "U.S. News & World Report",
    "kind": "News"
   }
  ],
  "discussions": [
   {
    "src": "Hacker News",
-   "t": "Anthropic trained Claude on illegally obtained Stanford professors' books",
-   "url": "https://news.ycombinator.com/item?id=50260814",
-   "link": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
-   "up": 494,
-   "com": 269,
-   "at": "2026-10-27T15:28:26.000Z"
-  },
-  {
-   "src": "Hacker News",
    "t": "Git for US Legislation",
    "url": "https://news.ycombinator.com/item?id=50268380",
    "link": "https://lexifina.com/blog/git-for-the-us-code",
-   "up": 103,
-   "com": 45,
+   "up": 128,
+   "com": 54,
    "at": "2026-10-28T01:47:50.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Anthropic trained Claude on illegally obtained Stanford professors' books",
+   "url": "https://news.ycombinator.com/item?id=50260814",
+   "link": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
+   "up": 496,
+   "com": 269,
+   "at": "2026-10-27T15:28:26.000Z"
   },
   {
    "src": "Hacker News",
    "t": "AI promised less work. I've never worked more",
    "url": "https://news.ycombinator.com/item?id=50257325",
    "link": "https://oioannou.com/blog/ai-promised-less-work/",
-   "up": 625,
-   "com": 620,
+   "up": 626,
+   "com": 621,
    "at": "2026-10-27T11:08:14.000Z"
   },
   {
@@ -892,8 +947,8 @@
    "t": "Police are using AI to pull over drivers for 'suspicious' behavior",
    "url": "https://news.ycombinator.com/item?id=50261819",
    "link": "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220",
-   "up": 357,
-   "com": 277,
+   "up": 360,
+   "com": 278,
    "at": "2026-10-27T16:40:15.000Z"
   },
   {
@@ -901,8 +956,8 @@
    "t": "Survival LLM: AI assistant and emergency library that runs on your own computer",
    "url": "https://news.ycombinator.com/item?id=50264853",
    "link": "https://www.brangus.io/survival-llm",
-   "up": 237,
-   "com": 117,
+   "up": 248,
+   "com": 120,
    "at": "2026-10-27T19:55:06.000Z"
   },
   {
@@ -911,7 +966,7 @@
    "url": "https://news.ycombinator.com/item?id=50257326",
    "link": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
    "up": 466,
-   "com": 211,
+   "com": 213,
    "at": "2026-10-27T11:08:15.000Z"
   }
  ]
