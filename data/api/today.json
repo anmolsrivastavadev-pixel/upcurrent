@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-28T12:01:06.042Z"
+  "updated": "2026-10-28T12:30:55.722Z"
  },
  "pulse": {
   "trending": 79,
   "accelerating": 0,
   "newModels": 10,
-  "discussions": 31,
-  "stars": 3817
+  "discussions": 32,
+  "stars": 3811
  },
  "rising": [
   {
@@ -24,9 +24,9 @@
    "grow": null,
    "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
    "meta": [
-    "★ 1,363",
-    "~1,386 in 24h",
-    "Created 24h ago"
+    "★ 1,400",
+    "~1,394 in 24h",
+    "Created yesterday"
    ],
    "at": "2026-10-27T12:24:37Z",
    "breakout": null,
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 93,
-   "grow": 10,
+   "grow": 11,
    "desc": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …",
    "meta": [
-    "★ 1,232",
-    "+312 in 24h",
+    "★ 1,238",
+    "+311 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-26T04:34:09Z",
@@ -55,11 +55,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 92,
-   "grow": 28,
+   "grow": 29,
    "desc": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
    "meta": [
-    "★ 4,042",
-    "+1,368 in 24h",
+    "★ 4,063",
+    "+1,357 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-24T05:35:47Z",
@@ -89,7 +89,7 @@
    "cat": "Infrastructure",
    "score": 92,
    "grow": 55,
-   "desc": "Model on Hugging Face · open source · ♥ 694",
+   "desc": "Model on Hugging Face · open source · ♥ 696",
    "meta": [
     "7.4K downloads",
     "Released 4 days ago"
@@ -107,8 +107,8 @@
    "grow": null,
    "desc": "The agent skills I use every day. Works with Claude Code and Codex.",
    "meta": [
-    "★ 2,146",
-    "~500 in 24h",
+    "★ 2,152",
+    "~499 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-24T05:00:20Z",
@@ -138,7 +138,7 @@
    "cat": "LLMs",
    "score": 86,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 828",
+   "desc": "Model on Hugging Face · open source · ♥ 829",
    "meta": [
     "8.2K downloads",
     "Released 9 days ago"
@@ -154,7 +154,7 @@
    "cat": "Infrastructure",
    "score": 86,
    "grow": 25,
-   "desc": "Model on Hugging Face · open source · ♥ 415",
+   "desc": "Model on Hugging Face · open source · ♥ 416",
    "meta": [
     "1.4M downloads",
     "Released 5 days ago"
@@ -173,7 +173,7 @@
    "desc": "Agent Skills that teach coding agents to write, review, and port idiomatic Rust, plus a tested clippy config. Works with Claude Code, Codex, Copilot, Cursor, and Gemini CLI.",
    "meta": [
     "★ 1,349",
-    "~251 in 24h",
+    "~250 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-23T03:01:11Z",
@@ -181,14 +181,60 @@
    "url": "https://github.com/morganlinton/BeautifulRust"
   }
  ],
- "breakouts": [],
+ "breakouts": [
+  {
+   "key": "gpt 6.1",
+   "label": "GPT-6.1",
+   "n": 3,
+   "sources": [
+    {
+     "src": "OpenAI blog",
+     "t": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+     "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security"
+    },
+    {
+     "src": "YouTube",
+     "t": "HUGE ANTHROPIC BOMBSHELL! Claude REA UNBANNED?! GPT-6.1 Terra, Qwen 4 27B, & Fable 5.5! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=SyUjFWgqDNo"
+    },
+    {
+     "src": "Product Hunt",
+     "t": "GPT-6.1 Terra",
+     "url": "https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
+    }
+   ],
+   "since": "2026-10-26T19:30:56.131Z"
+  }
+ ],
  "hype": [
+  {
+   "name": "GPT-6.1",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "OpenAI blog",
+     "t": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+     "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security"
+    },
+    {
+     "src": "YouTube",
+     "t": "HUGE ANTHROPIC BOMBSHELL! Claude REA UNBANNED?! GPT-6.1 Terra, Qwen 4 27B, & Fable 5.5! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=SyUjFWgqDNo"
+    }
+   ],
+   "buzz": 2,
+   "verdict": "Talk only, no public usage numbers"
+  },
   {
    "name": "ai-pose-gallery-zh",
    "url": "https://github.com/anhao/ai-pose-gallery-zh",
    "from": "GitHub",
-   "use": 1386,
-   "useLabel": "~1,386 stars/day",
+   "use": 1394,
+   "useLabel": "~1,394 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -302,35 +348,35 @@
  "github": [
   {
    "repo": "anhao/ai-pose-gallery-zh",
-   "stars": 1363,
-   "d24": 1386,
+   "stars": 1400,
+   "d24": 1394,
    "est": true,
-   "forks": 366,
+   "forks": 379,
    "contrib": null,
    "score": 98
   },
   {
    "repo": "rddmwmddr/android-ad-cleaner",
-   "stars": 4042,
-   "d24": 1368,
+   "stars": 4063,
+   "d24": 1357,
    "est": false,
-   "forks": 366,
+   "forks": 367,
    "contrib": 11,
    "score": 92
   },
   {
    "repo": "t3dotgg/tstack",
-   "stars": 2146,
-   "d24": 500,
+   "stars": 2152,
+   "d24": 499,
    "est": true,
-   "forks": 129,
+   "forks": 130,
    "contrib": null,
    "score": 90
   },
   {
    "repo": "andyhuo520/digital-human-koubo",
-   "stars": 1232,
-   "d24": 312,
+   "stars": 1238,
+   "d24": 311,
    "est": false,
    "forks": 290,
    "contrib": null,
@@ -339,7 +385,7 @@
   {
    "repo": "morganlinton/BeautifulRust",
    "stars": 1349,
-   "d24": 251,
+   "d24": 250,
    "est": true,
    "forks": 60,
    "contrib": null,
@@ -356,7 +402,7 @@
    "grow": 33,
    "score": 92,
    "cat": "LLMs",
-   "likes": 1115
+   "likes": 1119
   },
   {
    "name": "Nanbeige4.3-33B",
@@ -368,7 +414,7 @@
    "grow": 55,
    "score": 92,
    "cat": "Infrastructure",
-   "likes": 694
+   "likes": 696
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -379,7 +425,7 @@
    "grow": null,
    "score": 89,
    "cat": "Vision",
-   "likes": 3475
+   "likes": 3478
   },
   {
    "name": "Spark-X2.6-4B",
@@ -391,7 +437,7 @@
    "grow": null,
    "score": 86,
    "cat": "LLMs",
-   "likes": 828
+   "likes": 829
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
@@ -402,7 +448,7 @@
    "grow": 25,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 415
+   "likes": 416
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -413,7 +459,7 @@
    "grow": null,
    "score": 85,
    "cat": "Vision",
-   "likes": 1901
+   "likes": 1905
   }
  ],
  "free": [
@@ -703,6 +749,20 @@
  },
  "headlines": [
   {
+   "t": "Samsung unveils the $229 Galaxy Buds On, its first open-fit, C-shaped cuff earbuds to compete with Sony and Bose, designed with AI's help, shipping November 6",
+   "url": "https://www.techmeme.com/261028/p25#a261028p25",
+   "at": "2026-10-28T12:25:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Meta quietly launched Waddle World, a Tamagotchi-like, AI pet-rearing game, in the Philippines in September, calling it a \"daily journal disguised as a pet\"",
+   "url": "https://www.techmeme.com/261028/p22#a261028p22",
+   "at": "2026-10-28T12:05:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Chinese AI chipmaker Moore Threads reports Q3 revenue up 1,774% YoY to ~$240M and a ~$7.4M net profit; Moore is building a domestic 100K-GPU cluster with JD.com",
    "url": "https://www.techmeme.com/261028/p21#a261028p21",
    "at": "2026-10-28T11:55:01.000Z",
@@ -724,7 +784,7 @@
    "kind": "News"
   },
   {
-   "t": "‘Elonville’: Mississippi residents say Musk’s xAI is buying up homes if they don’t sue over noise",
+   "t": "Mississippi residents say Musk’s xAI offered to buy homes if they don’t sue over datacenter noise",
    "url": "https://www.theguardian.com/us-news/2026/oct/28/datacenter-noise-lawsuit-elon-musk-mississippi",
    "at": "2026-10-28T11:30:01Z",
    "src": "The Guardian",
@@ -780,66 +840,52 @@
    "kind": "Lab blog"
   },
   {
-   "t": "IPO-bound Anthropic warns of ‘risks to humanity’",
-   "url": "https://www.thehitavada.com/Encyc/2026/10/28/-ipo-bound-anthropic-warns-of-risks-to-humanity.html",
-   "at": "2026-10-28T00:00:00Z",
-   "src": "The Hitavada",
+   "t": "Seoul stocks open sharply higher on revived AI optimism, SK hynix earnings",
+   "url": "https://www.koreatimes.co.kr/economy/20261028/seoul-stocks-open-sharply-higher-on-revived-ai-optimism-sk-hynix-earnings",
+   "at": "2026-10-28T00:30:03Z",
+   "src": "The Korea Times",
    "kind": "News"
   },
   {
-   "t": "Royal Bank of Canada to block AI agents, calling out ‘unacceptable’ client risk",
-   "url": "https://www.thestar.com.my/tech/tech-news/2026/10/28/rbc-to-block-ai-agents-calling-out-unacceptable-client-risk",
-   "at": "2026-10-28T00:00:00Z",
-   "src": "The Star",
+   "t": "Disinformation videos, likely from Russia, are exploiting real people to malign Senate candidates",
+   "url": "https://www.ajc.com/news/2026/10/disinformation-videos-likely-from-russia-are-exploiting-real-people-to-malign-senate-candidates/",
+   "at": "2026-10-28T00:22:19Z",
+   "src": "The Atlanta Journal-Constitution",
    "kind": "News"
   },
   {
-   "t": "Elon Musk reveals AI ‘Odyssey' to rival Christopher Nolan. Is it any good?",
-   "url": "https://www.europesays.com/3336192/",
-   "at": "2026-10-27T23:34:49Z",
-   "src": "EUROPE SAYS",
-   "kind": "News"
-  },
-  {
-   "t": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
-   "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
-   "at": "2026-10-27T23:34:27Z",
-   "src": "TechCrunch",
-   "kind": "News"
-  },
-  {
-   "t": "State Tax Agencies Look to AI to Target Audits, Combat Fraud",
-   "url": "https://news.bloombergtax.com/daily-tax-report/state-tax-agencies-look-to-ai-to-target-audits-combat-fraud",
-   "at": "2026-10-27T23:29:54Z",
-   "src": "Bloomberg Tax News",
+   "t": "OpenAI plans to buy Google's AI chips, The Information reports",
+   "url": "https://www.marketscreener.com/news/openai-plans-to-buy-google-s-ai-chips-the-information-reports-ce785cddd08cf721",
+   "at": "2026-10-28T00:14:34Z",
+   "src": "MarketScreener",
    "kind": "News"
   }
  ],
  "discussions": [
   {
    "src": "Hacker News",
-   "t": "Git for the US Code",
-   "url": "https://news.ycombinator.com/item?id=50268380",
-   "link": "https://lexifina.com/blog/git-for-the-us-code",
-   "up": 300,
-   "com": 145,
-   "at": "2026-10-28T01:47:50.000Z"
-  },
-  {
-   "src": "Hacker News",
    "t": "Ten days later, Git on macOS still trusts the compromised eMudhra certificates",
    "url": "https://news.ycombinator.com/item?id=50271640",
    "link": "https://emudhra.we-have-a-problem.com/apple.html",
-   "up": 26,
-   "com": 7,
+   "up": 114,
+   "com": 49,
    "at": "2026-10-28T11:03:40.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Git for the US Code",
+   "url": "https://news.ycombinator.com/item?id=50268380",
+   "link": "https://lexifina.com/blog/git-for-the-us-code",
+   "up": 310,
+   "com": 158,
+   "at": "2026-10-28T01:47:50.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Anthropic trained Claude on illegally obtained Stanford professors' books",
    "url": "https://news.ycombinator.com/item?id=50260814",
    "link": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
-   "up": 529,
+   "up": 533,
    "com": 277,
    "at": "2026-10-27T15:28:26.000Z"
   },
@@ -848,7 +894,7 @@
    "t": "Survival LLM: AI assistant and emergency library that runs on your own computer",
    "url": "https://news.ycombinator.com/item?id=50264853",
    "link": "https://www.brangus.io/survival-llm",
-   "up": 384,
+   "up": 391,
    "com": 148,
    "at": "2026-10-27T19:55:06.000Z"
   },
@@ -857,7 +903,7 @@
    "t": "Police are using AI to pull over drivers for 'suspicious' behavior",
    "url": "https://news.ycombinator.com/item?id=50261819",
    "link": "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220",
-   "up": 374,
+   "up": 376,
    "com": 295,
    "at": "2026-10-27T16:40:15.000Z"
   },
@@ -866,8 +912,8 @@
    "t": "Amazon Is Gutting Its AI Division After Sustained Failure",
    "url": "https://news.ycombinator.com/item?id=50261589",
    "link": "https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova",
-   "up": 326,
-   "com": 253,
+   "up": 328,
+   "com": 257,
    "at": "2026-10-27T16:25:30.000Z"
   }
  ]
