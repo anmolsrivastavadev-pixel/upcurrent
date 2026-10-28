@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-28T21:30:50.876Z"
+  "updated": "2026-10-28T22:01:01.381Z"
  },
  "pulse": {
   "trending": 80,
   "accelerating": 2,
   "newModels": 9,
   "discussions": 40,
-  "stars": 2724
+  "stars": 2669
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 57,
    "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
    "meta": [
-    "★ 1,811",
-    "+1,260 in 24h",
+    "★ 1,818",
+    "+1,224 in 24h",
     "Created yesterday"
    ],
    "at": "2026-10-27T12:24:37Z",
@@ -41,8 +41,8 @@
    "grow": null,
    "desc": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
    "meta": [
-    "★ 4,254",
-    "~912 in 24h",
+    "★ 4,257",
+    "~909 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-24T05:35:47Z",
@@ -55,11 +55,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 92,
-   "grow": 16,
+   "grow": 17,
    "desc": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …",
    "meta": [
-    "★ 1,298",
-    "+237 in 24h",
+    "★ 1,299",
+    "+232 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-26T04:34:09Z",
@@ -92,7 +92,7 @@
    "desc": "The agent skills I use every day. Works with Claude Code and Codex.",
    "meta": [
     "★ 2,244",
-    "+270 in 24h",
+    "+261 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-24T05:00:20Z",
@@ -132,22 +132,6 @@
    "url": "https://huggingface.co/RecursiveSI/flint"
   },
   {
-   "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
-   "owner": "ISTA-DASLab",
-   "src": "hf",
-   "cat": "Infrastructure",
-   "score": 87,
-   "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 431",
-   "meta": [
-    "1.4M downloads",
-    "Released 5 days ago"
-   ],
-   "at": "2026-10-23T09:43:05.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF"
-  },
-  {
    "name": "Spark-X2.6-4B",
    "owner": "XHToken",
    "src": "hf",
@@ -164,13 +148,29 @@
    "url": "https://huggingface.co/XHToken/Spark-X2.6-4B"
   },
   {
+   "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+   "owner": "ISTA-DASLab",
+   "src": "hf",
+   "cat": "Infrastructure",
+   "score": 86,
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 431",
+   "meta": [
+    "1.4M downloads",
+    "Released 6 days ago"
+   ],
+   "at": "2026-10-23T09:43:05.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF"
+  },
+  {
    "name": "MiniMax-M3.1-Flash",
    "owner": "MiniMaxAI",
    "src": "hf",
    "cat": "Agents",
    "score": 85,
    "grow": 20,
-   "desc": "Model on Hugging Face · open weights · ♥ 448",
+   "desc": "Model on Hugging Face · open weights · ♥ 449",
    "meta": [
     "13K downloads",
     "Released 12 days ago"
@@ -237,8 +237,8 @@
    "name": "ai-pose-gallery-zh",
    "url": "https://github.com/anhao/ai-pose-gallery-zh",
    "from": "GitHub",
-   "use": 1260,
-   "useLabel": "+1,260 stars/day",
+   "use": 1224,
+   "useLabel": "+1,224 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -352,17 +352,17 @@
  "github": [
   {
    "repo": "anhao/ai-pose-gallery-zh",
-   "stars": 1811,
-   "d24": 1260,
+   "stars": 1818,
+   "d24": 1224,
    "est": false,
-   "forks": 469,
+   "forks": 472,
    "contrib": null,
    "score": 98
   },
   {
    "repo": "rddmwmddr/android-ad-cleaner",
-   "stars": 4254,
-   "d24": 912,
+   "stars": 4257,
+   "d24": 909,
    "est": true,
    "forks": 381,
    "contrib": 11,
@@ -371,16 +371,16 @@
   {
    "repo": "t3dotgg/tstack",
    "stars": 2244,
-   "d24": 270,
+   "d24": 261,
    "est": false,
-   "forks": 137,
+   "forks": 138,
    "contrib": null,
    "score": 90
   },
   {
    "repo": "andyhuo520/digital-human-koubo",
-   "stars": 1298,
-   "d24": 237,
+   "stars": 1299,
+   "d24": 232,
    "est": false,
    "forks": 298,
    "contrib": null,
@@ -389,7 +389,7 @@
   {
    "repo": "morganlinton/BeautifulRust",
    "stars": 1361,
-   "d24": 45,
+   "d24": 43,
    "est": false,
    "forks": 60,
    "contrib": null,
@@ -418,7 +418,7 @@
    "grow": 11,
    "score": 90,
    "cat": "Vision",
-   "likes": 3527
+   "likes": 3530
   },
   {
    "name": "flint",
@@ -429,18 +429,7 @@
    "grow": 0,
    "score": 90,
    "cat": "LLMs",
-   "likes": 1149
-  },
-  {
-   "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
-   "org": "ISTA-DASLab",
-   "lic": "Open source",
-   "at": "2026-10-23T09:43:05.000Z",
-   "dl": 1377570,
-   "grow": null,
-   "score": 87,
-   "cat": "Infrastructure",
-   "likes": 431
+   "likes": 1150
   },
   {
    "name": "Spark-X2.6-4B",
@@ -455,6 +444,17 @@
    "likes": 851
   },
   {
+   "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+   "org": "ISTA-DASLab",
+   "lic": "Open source",
+   "at": "2026-10-23T09:43:05.000Z",
+   "dl": 1377570,
+   "grow": null,
+   "score": 86,
+   "cat": "Infrastructure",
+   "likes": 431
+  },
+  {
    "name": "MiniMax-M3.1-Flash",
    "org": "MiniMaxAI",
    "lic": "Open weights",
@@ -463,7 +463,7 @@
    "grow": 20,
    "score": 85,
    "cat": "Agents",
-   "likes": 448
+   "likes": 449
   }
  ],
  "free": [
@@ -830,38 +830,38 @@
    "kind": "Lab blog"
   },
   {
-   "t": "Legora is building the agentic operating system for legal work",
-   "url": "https://openai.com/index/legora",
-   "at": "2026-10-28T09:30:00.000Z",
-   "src": "OpenAI",
-   "kind": "Lab blog"
-  },
-  {
-   "t": "Civil rights era surveillance threatened dissent. AI is a bigger threat.",
-   "url": "https://www.ajc.com/opinion/2026/10/surveillance-artificial-intelligence-civil-rights/",
-   "at": "2026-10-28T09:30:00Z",
-   "src": "The Atlanta Journal-Constitution",
+   "t": "New York just banned AI chatbots from pretending to be human, or your kid’s boyfriend",
+   "url": "https://fortune.com/2026/10/28/new-york-state-kathy-hochul-bans-ai-chatbots-romantic-baby-monitors/",
+   "at": "2026-10-28T10:00:00Z",
+   "src": "Fortune",
    "kind": "News"
   },
   {
-   "t": "OpenAI Sued Over ChatGPT’s Alleged Role in Woman’s Death Af",
-   "url": "https://analyticsindiamag.com/ai-news/openai-sued-over-chatgpts-alleged-role-in-womans-death-after-seizure-medication-taper",
-   "at": "2026-10-28T09:29:11Z",
-   "src": "Analytics India Magazine",
+   "t": "‘As New York’s mom Governor, I’m taking action’: Kathy Hochul bans bots from cozying up to kids, cracks down on baby monitors",
+   "url": "https://www.newsbreak.com/fortune-561435/4971657140143-as-new-york-s-mom-governor-i-m-taking-action-kathy-hochul-bans-bots-from-cozying-up-to-kids-cracks-down-on-baby-monitors",
+   "at": "2026-10-28T10:00:00Z",
+   "src": "NewsBreak",
    "kind": "News"
   },
   {
-   "t": "OpenAI Sued By Parents Of Amazon Engineer With Epilepsy Who Died After Alleged ChatGPT Medication Advice",
-   "url": "https://www.freepressjournal.in/tech/openai-sued-by-parents-of-amazon-engineer-with-epilepsy-who-died-after-alleged-chatgpt-medication-advice",
-   "at": "2026-10-28T09:28:51Z",
-   "src": "Free Press Journal",
+   "t": "AMCAP GLOBAL Concludes Landmark Intelligent Finance Summit in New York, Charting Next Frontier of Autonomous Wealth Management",
+   "url": "https://www.manilatimes.net/2026/10/28/tmt-newswire/globenewswire/amcap-global-concludes-landmark-intelligent-finance-summit-in-new-york-charting-next-frontier-of-autonomous-wealth-management/2455867",
+   "at": "2026-10-28T09:49:15Z",
+   "src": "The Manila Times",
    "kind": "News"
   },
   {
-   "t": "Alphabet swaps buybacks for data centers. Wall Street is getting nervous",
-   "url": "https://www.livemint.com/global/alphabet-swaps-buybacks-for-data-centers-wall-street-is-getting-nervous-11793177651999.html",
-   "at": "2026-10-28T09:27:13Z",
-   "src": "Livemint",
+   "t": "Introspecting AI-based answer book evaluation",
+   "url": "https://timesofindia.indiatimes.com/toi-blogs/digital-life/introspecting-ai-based-answer-book-evaluation/articleshow/135259974.cms",
+   "at": "2026-10-28T09:49:00Z",
+   "src": "Times of India",
+   "kind": "News"
+  },
+  {
+   "t": "AI Can Drive Economic Equality, Says Google India's Preeti Lobana",
+   "url": "https://www.lokmattimes.com/business/ai-can-drive-economic-equality-says-google-indias-preeti-lobana-a001-w03/",
+   "at": "2026-10-28T09:40:58Z",
+   "src": "Lokmat Times",
    "kind": "News"
   }
  ],
@@ -871,8 +871,8 @@
    "t": "Gemini 4 Carbon",
    "url": "https://news.ycombinator.com/item?id=50276792",
    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
-   "up": 649,
-   "com": 530,
+   "up": 677,
+   "com": 552,
    "at": "2026-10-28T17:01:23.000Z"
   },
   {
@@ -880,8 +880,8 @@
    "t": "Apple's git still trusts the compromised eMudhra certificates",
    "url": "https://news.ycombinator.com/item?id=50271640",
    "link": "https://emudhra.we-have-a-problem.com/apple.html",
-   "up": 960,
-   "com": 364,
+   "up": 974,
+   "com": 366,
    "at": "2026-10-28T11:03:40.000Z"
   },
   {
@@ -889,27 +889,27 @@
    "t": "Kentucky man becomes the first humanist granted religious exemption from AI",
    "url": "https://news.ycombinator.com/item?id=50273396",
    "link": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/",
-   "up": 366,
-   "com": 424,
+   "up": 380,
+   "com": 430,
    "at": "2026-10-28T13:41:30.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
-   "url": "https://news.ycombinator.com/item?id=50275626",
-   "link": "https://surgehq.ai/blog/dayjob-tax",
-   "up": 157,
-   "com": 83,
-   "at": "2026-10-28T15:46:30.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Google AI gets cagey when asked who won the 2020 elections",
    "url": "https://news.ycombinator.com/item?id=50280178",
    "link": "https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/",
-   "up": 31,
-   "com": 19,
+   "up": 66,
+   "com": 36,
    "at": "2026-10-28T20:10:16.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
+   "url": "https://news.ycombinator.com/item?id=50275626",
+   "link": "https://surgehq.ai/blog/dayjob-tax",
+   "up": 164,
+   "com": 93,
+   "at": "2026-10-28T15:46:30.000Z"
   },
   {
    "src": "Hacker News",
@@ -917,7 +917,7 @@
    "url": "https://news.ycombinator.com/item?id=50268380",
    "link": "https://lexifina.com/blog/git-for-the-us-code",
    "up": 422,
-   "com": 237,
+   "com": 241,
    "at": "2026-10-28T01:47:50.000Z"
   }
  ]
