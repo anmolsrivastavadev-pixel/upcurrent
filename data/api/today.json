@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-28T16:01:05.600Z"
+  "updated": "2026-10-28T16:30:55.344Z"
  },
  "pulse": {
   "trending": 79,
   "accelerating": 2,
   "newModels": 10,
-  "discussions": 43,
-  "stars": 3677
+  "discussions": 39,
+  "stars": 3308
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Vision",
    "score": 98,
-   "grow": 45,
+   "grow": 47,
    "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
    "meta": [
-    "★ 1,669",
-    "+1,763 in 24h",
+    "★ 1,696",
+    "+1,732 in 24h",
     "Created yesterday"
    ],
    "at": "2026-10-27T12:24:37Z",
@@ -41,8 +41,8 @@
    "grow": 14,
    "desc": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …",
    "meta": [
-    "★ 1,269",
-    "+284 in 24h",
+    "★ 1,274",
+    "+283 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-26T04:34:09Z",
@@ -55,11 +55,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 92,
-   "grow": 33,
+   "grow": null,
    "desc": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
    "meta": [
-    "★ 4,197",
-    "+1,279 in 24h",
+    "★ 4,216",
+    "~946 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-24T05:35:47Z",
@@ -107,8 +107,8 @@
    "grow": 5,
    "desc": "The agent skills I use every day. Works with Claude Code and Codex.",
    "meta": [
-    "★ 2,192",
-    "+300 in 24h",
+    "★ 2,197",
+    "+297 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-24T05:00:20Z",
@@ -138,7 +138,7 @@
    "cat": "LLMs",
    "score": 86,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 837",
+   "desc": "Model on Hugging Face · open source · ♥ 840",
    "meta": [
     "8.2K downloads",
     "Released 10 days ago"
@@ -153,7 +153,7 @@
    "src": "hf",
    "cat": "Infrastructure",
    "score": 86,
-   "grow": 25,
+   "grow": null,
    "desc": "Model on Hugging Face · open source · ♥ 425",
    "meta": [
     "1.4M downloads",
@@ -164,20 +164,20 @@
    "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF"
   },
   {
-   "name": "flux-3-image-klein-comfy",
-   "owner": "black-forest-labs",
+   "name": "MiniMax-M3.1-Flash",
+   "owner": "MiniMaxAI",
    "src": "hf",
-   "cat": "Vision",
+   "cat": "Agents",
    "score": 85,
-   "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 1.9K",
+   "grow": 20,
+   "desc": "Model on Hugging Face · open weights · ♥ 443",
    "meta": [
-    "799K downloads",
-    "Released 14 days ago"
+    "13K downloads",
+    "Released 11 days ago"
    ],
-   "at": "2026-10-14T12:00:13.000Z",
+   "at": "2026-10-17T06:37:50.000Z",
    "breakout": null,
-   "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy"
+   "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash"
   }
  ],
  "breakouts": [
@@ -226,6 +226,29 @@
     }
    ],
    "since": "2026-10-03T21:01:33.129Z"
+  },
+  {
+   "key": "genie 4",
+   "label": "Genie 4",
+   "n": 3,
+   "sources": [
+    {
+     "src": "Product Hunt",
+     "t": "Genie 4",
+     "url": "https://www.producthunt.com/products/gemini-1-5-pro?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
+    },
+    {
+     "src": "Google DeepMind blog",
+     "t": "Genie 4: A new generation of world simulation",
+     "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
+    },
+    {
+     "src": "Crypto Briefing",
+     "t": "Google DeepMind unveils Genie 4, advancing interactive world models",
+     "url": "https://cryptobriefing.com/google-deepmind-unveils-genie-4-advancing-interactive-world-models/"
+    }
+   ],
+   "since": "2026-10-28T16:30:55.344Z"
   }
  ],
  "hype": [
@@ -296,11 +319,33 @@
    "verdict": "Talk only, no public usage numbers"
   },
   {
+   "name": "Genie 4",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "Google DeepMind blog",
+     "t": "Genie 4: A new generation of world simulation",
+     "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
+    },
+    {
+     "src": "Crypto Briefing",
+     "t": "Google DeepMind unveils Genie 4, advancing interactive world models",
+     "url": "https://cryptobriefing.com/google-deepmind-unveils-genie-4-advancing-interactive-world-models/"
+    }
+   ],
+   "buzz": 2,
+   "verdict": "Talk only, no public usage numbers"
+  },
+  {
    "name": "ai-pose-gallery-zh",
    "url": "https://github.com/anhao/ai-pose-gallery-zh",
    "from": "GitHub",
-   "use": 1763,
-   "useLabel": "+1,763 stars/day",
+   "use": 1732,
+   "useLabel": "+1,732 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -330,6 +375,16 @@
   }
  ],
  "receipts": [
+  {
+   "name": "AienTech/dossier",
+   "url": "https://github.com/AienTech/dossier",
+   "kind": "stars",
+   "first": "2026-10-27T19:01:12.491Z",
+   "firstV": 1128,
+   "m": 2500,
+   "at": "2026-10-28T16:30:55.344Z",
+   "lead": 21.495236944444443
+  },
   {
    "name": "Jakeschincariol/day-trader-skill",
    "url": "https://github.com/Jakeschincariol/day-trader-skill",
@@ -399,41 +454,31 @@
    "m": 10000,
    "at": "2026-10-27T10:01:04.719Z",
    "lead": 98.49764694444444
-  },
-  {
-   "name": "XHToken/Spark-X2.6-4B-GGUF",
-   "url": "https://huggingface.co/XHToken/Spark-X2.6-4B-GGUF",
-   "kind": "downloads",
-   "first": "2026-10-25T09:01:04.191Z",
-   "firstV": 18556,
-   "m": 100000,
-   "at": "2026-10-27T10:01:04.719Z",
-   "lead": 49.000146666666666
   }
  ],
  "github": [
   {
    "repo": "anhao/ai-pose-gallery-zh",
-   "stars": 1669,
-   "d24": 1763,
+   "stars": 1696,
+   "d24": 1732,
    "est": false,
-   "forks": 446,
+   "forks": 452,
    "contrib": null,
    "score": 98
   },
   {
    "repo": "rddmwmddr/android-ad-cleaner",
-   "stars": 4197,
-   "d24": 1279,
-   "est": false,
+   "stars": 4216,
+   "d24": 946,
+   "est": true,
    "forks": 378,
    "contrib": 11,
    "score": 92
   },
   {
    "repo": "t3dotgg/tstack",
-   "stars": 2192,
-   "d24": 300,
+   "stars": 2197,
+   "d24": 297,
    "est": false,
    "forks": 134,
    "contrib": null,
@@ -441,8 +486,8 @@
   },
   {
    "repo": "andyhuo520/digital-human-koubo",
-   "stars": 1269,
-   "d24": 284,
+   "stars": 1274,
+   "d24": 283,
    "est": false,
    "forks": 295,
    "contrib": null,
@@ -450,8 +495,8 @@
   },
   {
    "repo": "morganlinton/BeautifulRust",
-   "stars": 1353,
-   "d24": 51,
+   "stars": 1354,
+   "d24": 50,
    "est": false,
    "forks": 60,
    "contrib": null,
@@ -468,7 +513,7 @@
    "grow": null,
    "score": 92,
    "cat": "LLMs",
-   "likes": 1135
+   "likes": 1139
   },
   {
    "name": "Nanbeige4.3-33B",
@@ -491,7 +536,7 @@
    "grow": 11,
    "score": 89,
    "cat": "Vision",
-   "likes": 3490
+   "likes": 3497
   },
   {
    "name": "Spark-X2.6-4B",
@@ -503,7 +548,7 @@
    "grow": null,
    "score": 86,
    "cat": "LLMs",
-   "likes": 837
+   "likes": 840
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
@@ -511,21 +556,21 @@
    "lic": "Open source",
    "at": "2026-10-23T09:43:05.000Z",
    "dl": 1377570,
-   "grow": 25,
+   "grow": null,
    "score": 86,
    "cat": "Infrastructure",
    "likes": 425
   },
   {
-   "name": "flux-3-image-klein-comfy",
-   "org": "black-forest-labs",
+   "name": "MiniMax-M3.1-Flash",
+   "org": "MiniMaxAI",
    "lic": "Open weights",
-   "at": "2026-10-14T12:00:13.000Z",
-   "dl": 798943,
-   "grow": null,
+   "at": "2026-10-17T06:37:50.000Z",
+   "dl": 13247,
+   "grow": 20,
    "score": 85,
-   "cat": "Vision",
-   "likes": 1924
+   "cat": "Agents",
+   "likes": 443
   }
  ],
  "free": [
@@ -815,6 +860,13 @@
  },
  "headlines": [
   {
+   "t": "GitHub says Copilot Fusion, which handles model selection and orchestration, is now generally available, releases the GitHub Copilot app, and more",
+   "url": "https://www.techmeme.com/261028/p36#a261028p36",
+   "at": "2026-10-28T16:30:04.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "OpenAI says it's launching an election \"war room\" ahead of the US midterms to identify potential spread of misinfo or other efforts to disrupt the elections",
    "url": "https://www.techmeme.com/261028/p34#a261028p34",
    "at": "2026-10-28T15:35:17.000Z",
@@ -892,20 +944,6 @@
    "kind": "News"
   },
   {
-   "t": "Chinese AI chipmaker Moore Threads reports Q3 revenue up 1,774% YoY to ~$240M and a ~$7.4M net profit; Moore is building a domestic 100K-GPU cluster with JD.com",
-   "url": "https://www.techmeme.com/261028/p21#a261028p21",
-   "at": "2026-10-28T11:55:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Sources: Anthropic's seven cofounders remain extremely influential and personally tight; Daniela Amodei, who runs operations, is seen as a good balance to Dario",
-   "url": "https://www.techmeme.com/261028/p20#a261028p20",
-   "at": "2026-10-28T11:45:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "‘There is no inevitable dystopia’: Jeanette Winterson on AI and the future of humanity",
    "url": "https://www.theguardian.com/books/2026/oct/28/no-inevitable-dystopia-jeanette-winterson-ai-future-of-humanity",
    "at": "2026-10-28T10:00:05Z",
@@ -920,10 +958,17 @@
    "kind": "Lab blog"
   },
   {
-   "t": "OpenAI plans to buy Google's AI chips: Report",
-   "url": "https://www.thehindu.com/sci-tech/technology/openai-plans-to-buy-googles-ai-chips-report/article71634170.ece",
-   "at": "2026-10-28T03:45:41Z",
-   "src": "The Hindu",
+   "t": "'Stop epilepsy medicine': OpenAI sued after Amazon engineer's death linked to ChatGPT medication advice",
+   "url": "https://www.firstpost.com/tech/chatgpt-ask-amazon-engineer-to-stop-epilepsy-medication-before-her-death-parents-sue-openai-14055884.html",
+   "at": "2026-10-28T04:27:35Z",
+   "src": "Firstpost",
+   "kind": "News"
+  },
+  {
+   "t": "Shares in Asia rise after a rally on Wall Street, and oil prices gain more than 1%",
+   "url": "https://www.ajc.com/news/2026/10/asian-stocks-rise-after-a-rally-on-wall-street-while-oil-prices-edge-higher/",
+   "at": "2026-10-28T04:03:13Z",
+   "src": "The Atlanta Journal-Constitution",
    "kind": "News"
   }
  ],
@@ -933,8 +978,8 @@
    "t": "Ten days later, Git on macOS still trusts the compromised eMudhra certificates",
    "url": "https://news.ycombinator.com/item?id=50271640",
    "link": "https://emudhra.we-have-a-problem.com/apple.html",
-   "up": 634,
-   "com": 236,
+   "up": 701,
+   "com": 264,
    "at": "2026-10-28T11:03:40.000Z"
   },
   {
@@ -942,8 +987,8 @@
    "t": "Kentucky man becomes the first humanist granted religious exemption from AI",
    "url": "https://news.ycombinator.com/item?id=50273396",
    "link": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/",
-   "up": 182,
-   "com": 197,
+   "up": 210,
+   "com": 230,
    "at": "2026-10-28T13:41:30.000Z"
   },
   {
@@ -952,7 +997,7 @@
    "url": "https://news.ycombinator.com/item?id=50273623",
    "link": "https://github.com/thomasunise/casecite",
    "up": 68,
-   "com": 31,
+   "com": 32,
    "at": "2026-10-28T13:56:21.000Z"
   },
   {
@@ -960,8 +1005,8 @@
    "t": "Git for the US Code",
    "url": "https://news.ycombinator.com/item?id=50268380",
    "link": "https://lexifina.com/blog/git-for-the-us-code",
-   "up": 372,
-   "com": 190,
+   "up": 373,
+   "com": 195,
    "at": "2026-10-28T01:47:50.000Z"
   },
   {
@@ -969,8 +1014,8 @@
    "t": "Survival LLM: AI assistant and emergency library that runs on your own computer",
    "url": "https://news.ycombinator.com/item?id=50264853",
    "link": "https://www.brangus.io/survival-llm",
-   "up": 456,
-   "com": 170,
+   "up": 467,
+   "com": 174,
    "at": "2026-10-27T19:55:06.000Z"
   },
   {
@@ -978,8 +1023,8 @@
    "t": "Valve Responds to Developers Fearing AI Slop and Clones",
    "url": "https://news.ycombinator.com/item?id=50273192",
    "link": "https://www.invenglobal.com/articles/27761/valve-responds-to-developers-fearing-ai-slop-and-clones",
-   "up": 49,
-   "com": 50,
+   "up": 51,
+   "com": 58,
    "at": "2026-10-28T13:27:24.000Z"
   }
  ]
