@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-29T14:01:08.437Z"
+  "updated": "2026-10-29T14:30:55.884Z"
  },
  "pulse": {
   "trending": 80,
   "accelerating": 4,
   "newModels": 9,
-  "discussions": 37,
-  "stars": 3028
+  "discussions": 38,
+  "stars": 3037
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Vision",
    "score": 97,
-   "grow": 28,
+   "grow": 29,
    "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
    "meta": [
-    "★ 2,774",
-    "+1,693 in 24h",
+    "★ 2,812",
+    "+1,701 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-27T12:24:37Z",
@@ -39,7 +39,7 @@
    "cat": "Infrastructure",
    "score": 92,
    "grow": 30,
-   "desc": "Model on Hugging Face · open source · ♥ 751",
+   "desc": "Model on Hugging Face · open source · ♥ 753",
    "meta": [
     "9.7K downloads",
     "Released 5 days ago"
@@ -57,8 +57,8 @@
    "grow": null,
    "desc": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
    "meta": [
-    "★ 4,639",
-    "~867 in 24h",
+    "★ 4,645",
+    "~865 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-24T05:35:47Z",
@@ -71,11 +71,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 91,
-   "grow": 9,
+   "grow": 10,
    "desc": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …",
    "meta": [
-    "★ 1,425",
-    "+204 in 24h",
+    "★ 1,429",
+    "+203 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-26T04:34:09Z",
@@ -88,11 +88,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 90,
-   "grow": 2,
+   "grow": 3,
    "desc": "The agent skills I use every day. Works with Claude Code and Codex.",
    "meta": [
-    "★ 2,338",
-    "+139 in 24h",
+    "★ 2,342",
+    "+142 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-24T05:00:20Z",
@@ -140,8 +140,8 @@
    "grow": 4,
    "desc": "Evidence-first genealogy skill for AI agents (Codex, Claude Code): church books, civil, military, deportation and repression records across the former USSR. Replies in your language.",
    "meta": [
-    "★ 1,226",
-    "+77 in 24h",
+    "★ 1,228",
+    "+78 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-25T10:05:56Z",
@@ -155,7 +155,7 @@
    "cat": "LLMs",
    "score": 86,
    "grow": 24,
-   "desc": "Model on Hugging Face · open source · ♥ 893",
+   "desc": "Model on Hugging Face · open source · ♥ 895",
    "meta": [
     "10K downloads",
     "Released 10 days ago"
@@ -171,7 +171,7 @@
    "cat": "LLMs",
    "score": 86,
    "grow": 140,
-   "desc": "Model on Hugging Face · open source · ♥ 454",
+   "desc": "Model on Hugging Face · open source · ♥ 455",
    "meta": [
     "396 downloads",
     "Released 7 days ago"
@@ -185,7 +185,7 @@
   {
    "key": "gemini 4",
    "label": "Gemini 4",
-   "n": 3,
+   "n": 5,
    "sources": [
     {
      "src": "Hacker News",
@@ -198,12 +198,55 @@
      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
     },
     {
+     "src": "The Tribune",
+     "t": "Google unveils Gemini 4 Carbon with top AI benchmark score, expands focus on cybersecurity",
+     "url": "https://www.tribuneindia.com/news/business/google-unveils-gemini-4-carbon-with-top-ai-benchmark-score-expands-focus-on-cybersecurity/"
+    },
+    {
+     "src": "ANI (Asian News International)",
+     "t": "Google unveils Gemini 4 Carbon with top AI benchmark score, expands focus on cybersecurity",
+     "url": "https://www.aninews.in/news/business/google-unveils-gemini-4-carbon-with-top-ai-benchmark-score-expands-focus-on-cybersecurity20261029075428/"
+    },
+    {
      "src": "Product Hunt",
      "t": "Gemini 4 Carbon",
      "url": "https://www.producthunt.com/products/gemini-4-carbon?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
     }
    ],
    "since": "2026-10-01T18:14:41.538Z"
+  },
+  {
+   "key": "gemini 4 carbon",
+   "label": "Gemini 4 Carbon",
+   "n": 5,
+   "sources": [
+    {
+     "src": "Product Hunt",
+     "t": "Gemini 4 Carbon",
+     "url": "https://www.producthunt.com/products/gemini-4-carbon?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
+    },
+    {
+     "src": "Hacker News",
+     "t": "Gemini 4 Carbon",
+     "url": "https://news.ycombinator.com/item?id=50276792"
+    },
+    {
+     "src": "Google DeepMind blog",
+     "t": "Gemini 4 Carbon: Our next frontier model",
+     "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
+    },
+    {
+     "src": "The Tribune",
+     "t": "Google unveils Gemini 4 Carbon with top AI benchmark score, expands focus on cybersecurity",
+     "url": "https://www.tribuneindia.com/news/business/google-unveils-gemini-4-carbon-with-top-ai-benchmark-score-expands-focus-on-cybersecurity/"
+    },
+    {
+     "src": "ANI (Asian News International)",
+     "t": "Google unveils Gemini 4 Carbon with top AI benchmark score, expands focus on cybersecurity",
+     "url": "https://www.aninews.in/news/business/google-unveils-gemini-4-carbon-with-top-ai-benchmark-score-expands-focus-on-cybersecurity20261029075428/"
+    }
+   ],
+   "since": "2026-10-29T09:01:09.805Z"
   },
   {
    "key": "gpt 6",
@@ -227,40 +270,17 @@
     }
    ],
    "since": "2026-10-29T13:30:52.696Z"
-  },
+  }
+ ],
+ "hype": [
   {
-   "key": "genie 4",
-   "label": "Genie 4",
-   "n": 3,
-   "sources": [
-    {
-     "src": "Product Hunt",
-     "t": "Genie 4",
-     "url": "https://www.producthunt.com/products/gemini-1-5-pro?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
-    },
-    {
-     "src": "Google DeepMind blog",
-     "t": "Genie 4: A new generation of world simulation",
-     "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
-    },
-    {
-     "src": "Online-tech-tips.com",
-     "t": "Google announces Genie 4 world model with native audio simulation",
-     "url": "https://www.online-tech-tips.com/google-genie-4-world-model-native-audio/#article"
-    }
-   ],
-   "since": "2026-10-28T16:30:55.344Z"
-  },
-  {
-   "key": "gemini 4 carbon",
-   "label": "Gemini 4 Carbon",
-   "n": 3,
-   "sources": [
-    {
-     "src": "Product Hunt",
-     "t": "Gemini 4 Carbon",
-     "url": "https://www.producthunt.com/products/gemini-4-carbon?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
-    },
+   "name": "Gemini 4",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
     {
      "src": "Hacker News",
      "t": "Gemini 4 Carbon",
@@ -270,12 +290,53 @@
      "src": "Google DeepMind blog",
      "t": "Gemini 4 Carbon: Our next frontier model",
      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
+    },
+    {
+     "src": "The Tribune",
+     "t": "Google unveils Gemini 4 Carbon with top AI benchmark score, expands focus on cybersecurity",
+     "url": "https://www.tribuneindia.com/news/business/google-unveils-gemini-4-carbon-with-top-ai-benchmark-score-expands-focus-on-cybersecurity/"
+    },
+    {
+     "src": "ANI (Asian News International)",
+     "t": "Google unveils Gemini 4 Carbon with top AI benchmark score, expands focus on cybersecurity",
+     "url": "https://www.aninews.in/news/business/google-unveils-gemini-4-carbon-with-top-ai-benchmark-score-expands-focus-on-cybersecurity20261029075428/"
     }
    ],
-   "since": "2026-10-29T09:01:09.805Z"
-  }
- ],
- "hype": [
+   "buzz": 4,
+   "verdict": "Talk only, no public usage numbers"
+  },
+  {
+   "name": "Gemini 4 Carbon",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "Hacker News",
+     "t": "Gemini 4 Carbon",
+     "url": "https://news.ycombinator.com/item?id=50276792"
+    },
+    {
+     "src": "Google DeepMind blog",
+     "t": "Gemini 4 Carbon: Our next frontier model",
+     "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
+    },
+    {
+     "src": "The Tribune",
+     "t": "Google unveils Gemini 4 Carbon with top AI benchmark score, expands focus on cybersecurity",
+     "url": "https://www.tribuneindia.com/news/business/google-unveils-gemini-4-carbon-with-top-ai-benchmark-score-expands-focus-on-cybersecurity/"
+    },
+    {
+     "src": "ANI (Asian News International)",
+     "t": "Google unveils Gemini 4 Carbon with top AI benchmark score, expands focus on cybersecurity",
+     "url": "https://www.aninews.in/news/business/google-unveils-gemini-4-carbon-with-top-ai-benchmark-score-expands-focus-on-cybersecurity20261029075428/"
+    }
+   ],
+   "buzz": 4,
+   "verdict": "Talk only, no public usage numbers"
+  },
   {
    "name": "GPT-6",
    "url": null,
@@ -304,77 +365,11 @@
    "verdict": "Talk only, no public usage numbers"
   },
   {
-   "name": "Gemini 4",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
-    {
-     "src": "Hacker News",
-     "t": "Gemini 4 Carbon",
-     "url": "https://news.ycombinator.com/item?id=50276792"
-    },
-    {
-     "src": "Google DeepMind blog",
-     "t": "Gemini 4 Carbon: Our next frontier model",
-     "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
-    }
-   ],
-   "buzz": 2,
-   "verdict": "Talk only, no public usage numbers"
-  },
-  {
-   "name": "Genie 4",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
-    {
-     "src": "Google DeepMind blog",
-     "t": "Genie 4: A new generation of world simulation",
-     "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
-    },
-    {
-     "src": "Online-tech-tips.com",
-     "t": "Google announces Genie 4 world model with native audio simulation",
-     "url": "https://www.online-tech-tips.com/google-genie-4-world-model-native-audio/#article"
-    }
-   ],
-   "buzz": 2,
-   "verdict": "Talk only, no public usage numbers"
-  },
-  {
-   "name": "Gemini 4 Carbon",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
-    {
-     "src": "Hacker News",
-     "t": "Gemini 4 Carbon",
-     "url": "https://news.ycombinator.com/item?id=50276792"
-    },
-    {
-     "src": "Google DeepMind blog",
-     "t": "Gemini 4 Carbon: Our next frontier model",
-     "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
-    }
-   ],
-   "buzz": 2,
-   "verdict": "Talk only, no public usage numbers"
-  },
-  {
    "name": "ai-pose-gallery-zh",
    "url": "https://github.com/anhao/ai-pose-gallery-zh",
    "from": "GitHub",
-   "use": 1693,
-   "useLabel": "+1,693 stars/day",
+   "use": 1701,
+   "useLabel": "+1,701 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -488,35 +483,35 @@
  "github": [
   {
    "repo": "anhao/ai-pose-gallery-zh",
-   "stars": 2774,
-   "d24": 1693,
+   "stars": 2812,
+   "d24": 1701,
    "est": false,
-   "forks": 734,
+   "forks": 742,
    "contrib": null,
    "score": 97
   },
   {
    "repo": "rddmwmddr/android-ad-cleaner",
-   "stars": 4639,
-   "d24": 867,
+   "stars": 4645,
+   "d24": 865,
    "est": true,
-   "forks": 417,
+   "forks": 419,
    "contrib": 19,
    "score": 91
   },
   {
    "repo": "andyhuo520/digital-human-koubo",
-   "stars": 1425,
-   "d24": 204,
+   "stars": 1429,
+   "d24": 203,
    "est": false,
-   "forks": 328,
+   "forks": 329,
    "contrib": null,
    "score": 91
   },
   {
    "repo": "t3dotgg/tstack",
-   "stars": 2338,
-   "d24": 139,
+   "stars": 2342,
+   "d24": 142,
    "est": false,
    "forks": 145,
    "contrib": null,
@@ -524,8 +519,8 @@
   },
   {
    "repo": "DenisSergeevitch/ex-ussr-kinship-research",
-   "stars": 1226,
-   "d24": 77,
+   "stars": 1228,
+   "d24": 78,
    "est": false,
    "forks": 131,
    "contrib": null,
@@ -533,7 +528,7 @@
   },
   {
    "repo": "morganlinton/BeautifulRust",
-   "stars": 1391,
+   "stars": 1392,
    "d24": 48,
    "est": false,
    "forks": 64,
@@ -552,7 +547,7 @@
    "grow": 30,
    "score": 92,
    "cat": "Infrastructure",
-   "likes": 751
+   "likes": 753
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -563,7 +558,7 @@
    "grow": 12,
    "score": 90,
    "cat": "Vision",
-   "likes": 3693
+   "likes": 3697
   },
   {
    "name": "flint",
@@ -574,7 +569,7 @@
    "grow": null,
    "score": 88,
    "cat": "LLMs",
-   "likes": 1226
+   "likes": 1227
   },
   {
    "name": "Spark-X2.6-4B",
@@ -586,7 +581,7 @@
    "grow": 24,
    "score": 86,
    "cat": "LLMs",
-   "likes": 893
+   "likes": 895
   },
   {
    "name": "Hy-SimulMT-30B-A3B-FP8",
@@ -598,7 +593,7 @@
    "grow": 140,
    "score": 86,
    "cat": "LLMs",
-   "likes": 454
+   "likes": 455
   },
   {
    "name": "LFM3-1.7B",
@@ -610,7 +605,7 @@
    "grow": null,
    "score": 86,
    "cat": "LLMs",
-   "likes": 445
+   "likes": 447
   }
  ],
  "free": [
@@ -900,6 +895,13 @@
  },
  "headlines": [
   {
+   "t": "Mistral releases the weights for Mistral Large 4, or Le Chonk, and says it rivals top open models such as GLM-5.3 on the Artificial Analysis Coding Agent Index",
+   "url": "https://www.techmeme.com/261029/p30#a261029p30",
+   "at": "2026-10-29T14:30:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Serval, which offers AI agents for enterprise IT operations like access management, raised $150M led by Sequoia at a $3B valuation, up from $1B in December 2025",
    "url": "https://www.techmeme.com/261029/p29#a261029p29",
    "at": "2026-10-29T13:55:01.000Z",
@@ -984,31 +986,24 @@
    "kind": "News"
   },
   {
+   "t": "Google unveils Gemini 4 Carbon with top AI benchmark score, expands focus on cybersecurity",
+   "url": "https://www.tribuneindia.com/news/business/google-unveils-gemini-4-carbon-with-top-ai-benchmark-score-expands-focus-on-cybersecurity/",
+   "at": "2026-10-29T02:27:35Z",
+   "src": "The Tribune",
+   "kind": "News"
+  },
+  {
+   "t": "DeepSeek, Moonshot Used OpenAI'sGPT-6 Astra To Train Latest Models: Report",
+   "url": "https://www.ndtv.com/artificial-intelligence/deepseek-moonshot-used-openais-gpt-6-astra-to-train-latest-models-the-information-reports-12251432",
+   "at": "2026-10-29T02:12:10Z",
+   "src": "NDTV.com",
+   "kind": "News"
+  },
+  {
    "t": "Students are warned against AI but who is checking their lecturers? - Hasniza Nordin and Muhammad Noor Abdul Aziz",
    "url": "https://www.malaymail.com/news/what-you-think/2026/10/29/students-are-warned-against-ai-but-who-is-checking-their-lecturers-hasniza-nordin-and-muhammad-noor-abdul-aziz/241073",
    "at": "2026-10-29T01:59:35Z",
    "src": "Malay Mail",
-   "kind": "News"
-  },
-  {
-   "t": "US Fed holds interest rates steady, plans reduced rate setting meetings by 2027",
-   "url": "https://www.businesstoday.in/world/story/us-fed-holds-interest-rates-steady-plans-reduced-rate-setting-meetings-by-2027-564414-2026-10-29",
-   "at": "2026-10-29T01:41:49Z",
-   "src": "Business Today",
-   "kind": "News"
-  },
-  {
-   "t": "Kinetic IT urges AI continuity plans for critical sectors",
-   "url": "https://www.europesays.com/3338577/",
-   "at": "2026-10-29T01:37:20Z",
-   "src": "EUROPE SAYS",
-   "kind": "News"
-  },
-  {
-   "t": "ChatGPT Told Her What To Do With Her Medication. She Trusted It-And Paid Heavy Price: Report",
-   "url": "https://www.ndtvprofit.com/world/chatgpt-told-her-what-to-do-with-her-medication-she-trusted-it-and-paid-heavy-price-report-12251333",
-   "at": "2026-10-29T01:26:22Z",
-   "src": "NDTV Profit",
    "kind": "News"
   }
  ],
@@ -1018,17 +1013,26 @@
    "t": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5",
    "url": "https://news.ycombinator.com/item?id=50288019",
    "link": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
-   "up": 112,
-   "com": 74,
+   "up": 168,
+   "com": 120,
    "at": "2026-10-29T12:41:56.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Mistral Large 4 (Le Chonk) is now Open Weight",
+   "url": "https://news.ycombinator.com/item?id=50289418",
+   "link": "https://mistral.ai/news/mistral-large-4-oss/",
+   "up": 64,
+   "com": 8,
+   "at": "2026-10-29T14:13:21.000Z"
   },
   {
    "src": "Hacker News",
    "t": "If IPv4 Were Land",
    "url": "https://news.ycombinator.com/item?id=50287775",
    "link": "https://iptrust.co/blog/if-ipv4-were-land",
-   "up": 105,
-   "com": 83,
+   "up": 116,
+   "com": 94,
    "at": "2026-10-29T12:19:00.000Z"
   },
   {
@@ -1036,8 +1040,8 @@
    "t": "Gemini 4 Carbon",
    "url": "https://news.ycombinator.com/item?id=50276792",
    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
-   "up": 971,
-   "com": 774,
+   "up": 975,
+   "com": 777,
    "at": "2026-10-28T17:01:23.000Z"
   },
   {
@@ -1045,8 +1049,8 @@
    "t": "Claude Code regularly sends each background agent’s transcript to its model",
    "url": "https://news.ycombinator.com/item?id=50284255",
    "link": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
-   "up": 481,
-   "com": 193,
+   "up": 492,
+   "com": 200,
    "at": "2026-10-29T03:33:42.000Z"
   },
   {
@@ -1054,18 +1058,9 @@
    "t": "StackOverflow now gets fewer than 1000 questions a month",
    "url": "https://news.ycombinator.com/item?id=50282454",
    "link": "https://data.stackexchange.com/stackoverflow/query/1926661#graph?t=1",
-   "up": 603,
-   "com": 509,
+   "up": 624,
+   "com": 523,
    "at": "2026-10-28T23:35:02.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "GitLab Security Incident: Attempted Exploitation of CVE-2026-97229",
-   "url": "https://news.ycombinator.com/item?id=50282544",
-   "link": "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html",
-   "up": 210,
-   "com": 99,
-   "at": "2026-10-28T23:45:46.000Z"
   }
  ]
 }
