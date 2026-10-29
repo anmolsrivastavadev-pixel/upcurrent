@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-29T14:30:55.884Z"
+  "updated": "2026-10-29T15:01:09.063Z"
  },
  "pulse": {
-  "trending": 80,
+  "trending": 81,
   "accelerating": 4,
   "newModels": 9,
-  "discussions": 38,
-  "stars": 3037
+  "discussions": 37,
+  "stars": 3071
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Vision",
    "score": 97,
-   "grow": 29,
+   "grow": 32,
    "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
    "meta": [
-    "★ 2,812",
-    "+1,701 in 24h",
+    "★ 2,859",
+    "+1,729 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-27T12:24:37Z",
@@ -39,10 +39,10 @@
    "cat": "Infrastructure",
    "score": 92,
    "grow": 30,
-   "desc": "Model on Hugging Face · open source · ♥ 753",
+   "desc": "Model on Hugging Face · open source · ♥ 754",
    "meta": [
     "9.7K downloads",
-    "Released 5 days ago"
+    "Released 6 days ago"
    ],
    "at": "2026-10-24T02:49:18.000Z",
    "breakout": null,
@@ -57,8 +57,8 @@
    "grow": null,
    "desc": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
    "meta": [
-    "★ 4,645",
-    "~865 in 24h",
+    "★ 4,649",
+    "~862 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-24T05:35:47Z",
@@ -74,8 +74,8 @@
    "grow": 10,
    "desc": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …",
    "meta": [
-    "★ 1,429",
-    "+203 in 24h",
+    "★ 1,435",
+    "+206 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-26T04:34:09Z",
@@ -91,8 +91,8 @@
    "grow": 3,
    "desc": "The agent skills I use every day. Works with Claude Code and Codex.",
    "meta": [
-    "★ 2,342",
-    "+142 in 24h",
+    "★ 2,347",
+    "+146 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-24T05:00:20Z",
@@ -109,7 +109,7 @@
    "desc": "Vision on Hugging Face · open source · ♥ 3.7K",
    "meta": [
     "131K downloads",
-    "Released 12 days ago"
+    "Released 13 days ago"
    ],
    "at": "2026-10-17T02:40:38.000Z",
    "breakout": null,
@@ -140,13 +140,29 @@
    "grow": 4,
    "desc": "Evidence-first genealogy skill for AI agents (Codex, Claude Code): church books, civil, military, deportation and repression records across the former USSR. Replies in your language.",
    "meta": [
-    "★ 1,228",
-    "+78 in 24h",
+    "★ 1,232",
+    "+82 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-25T10:05:56Z",
    "breakout": null,
    "url": "https://github.com/DenisSergeevitch/ex-ussr-kinship-research"
+  },
+  {
+   "name": "LFM3-1.7B",
+   "owner": "LiquidAI",
+   "src": "hf",
+   "cat": "LLMs",
+   "score": 87,
+   "grow": null,
+   "desc": "Model on Hugging Face · open weights · ♥ 449",
+   "meta": [
+    "16K downloads",
+    "Released 6 days ago"
+   ],
+   "at": "2026-10-23T21:35:42.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/LiquidAI/LFM3-1.7B"
   },
   {
    "name": "Spark-X2.6-4B",
@@ -163,22 +179,6 @@
    "at": "2026-10-19T03:19:51.000Z",
    "breakout": null,
    "url": "https://huggingface.co/XHToken/Spark-X2.6-4B"
-  },
-  {
-   "name": "Hy-SimulMT-30B-A3B-FP8",
-   "owner": "tencent",
-   "src": "hf",
-   "cat": "LLMs",
-   "score": 86,
-   "grow": 140,
-   "desc": "Model on Hugging Face · open source · ♥ 455",
-   "meta": [
-    "396 downloads",
-    "Released 7 days ago"
-   ],
-   "at": "2026-10-22T07:29:37.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/tencent/Hy-SimulMT-30B-A3B-FP8"
   }
  ],
  "breakouts": [
@@ -247,29 +247,6 @@
     }
    ],
    "since": "2026-10-29T09:01:09.805Z"
-  },
-  {
-   "key": "gpt 6",
-   "label": "GPT-6",
-   "n": 3,
-   "sources": [
-    {
-     "src": "OpenAI blog",
-     "t": "Greptile takes bug detection beyond code review with GPT-6 Astra",
-     "url": "https://openai.com/index/greptile-code-review-codex-astra"
-    },
-    {
-     "src": "Techmeme",
-     "t": "Sources: DeepSeek and Moonshot AI heavily relied on GPT-6 Astra distillation to train models like Kimi K3.1 Pro and V4.1-Flash 1017, after Anthropic's crackdown",
-     "url": "https://www.techmeme.com/261029/p19#a261029p19"
-    },
-    {
-     "src": "MarketScreener",
-     "t": "DeepSeek, Moonshot used OpenAI's GPT-6 Astra to train models, The Information reports",
-     "url": "https://www.marketscreener.com/news/deepseek-moonshot-used-openai-s-gpt-6-astra-to-train-models-the-information-reports-ce785cd3da89f427"
-    }
-   ],
-   "since": "2026-10-29T13:30:52.696Z"
   }
  ],
  "hype": [
@@ -354,22 +331,39 @@
      "src": "Techmeme",
      "t": "Sources: DeepSeek and Moonshot AI heavily relied on GPT-6 Astra distillation to train models like Kimi K3.1 Pro and V4.1-Flash 1017, after Anthropic's crackdown",
      "url": "https://www.techmeme.com/261029/p19#a261029p19"
-    },
-    {
-     "src": "MarketScreener",
-     "t": "DeepSeek, Moonshot used OpenAI's GPT-6 Astra to train models, The Information reports",
-     "url": "https://www.marketscreener.com/news/deepseek-moonshot-used-openai-s-gpt-6-astra-to-train-models-the-information-reports-ce785cd3da89f427"
     }
    ],
-   "buzz": 3,
+   "buzz": 2,
+   "verdict": "Talk only, no public usage numbers"
+  },
+  {
+   "name": "Nemotron 3.5",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "Hugging Face blog",
+     "t": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
+     "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary"
+    },
+    {
+     "src": "SiliconANGLE News",
+     "t": "Nvidia releases all-in-one adaptable Nemotron 3.5 audio transcription and translation model",
+     "url": "https://siliconangle.com/2026/10/28/nvidia-releases-all-in-one-adaptable-nemotron-3-5-audio-transcription-and-translation-model/"
+    }
+   ],
+   "buzz": 2,
    "verdict": "Talk only, no public usage numbers"
   },
   {
    "name": "ai-pose-gallery-zh",
    "url": "https://github.com/anhao/ai-pose-gallery-zh",
    "from": "GitHub",
-   "use": 1701,
-   "useLabel": "+1,701 stars/day",
+   "use": 1729,
+   "useLabel": "+1,729 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -392,7 +386,7 @@
    "from": "Hugging Face",
    "use": 3046274,
    "useLabel": "3M downloads",
-   "usePct": 0.9696969696969697,
+   "usePct": 0.9705882352941176,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -483,17 +477,17 @@
  "github": [
   {
    "repo": "anhao/ai-pose-gallery-zh",
-   "stars": 2812,
-   "d24": 1701,
+   "stars": 2859,
+   "d24": 1729,
    "est": false,
-   "forks": 742,
+   "forks": 751,
    "contrib": null,
    "score": 97
   },
   {
    "repo": "rddmwmddr/android-ad-cleaner",
-   "stars": 4645,
-   "d24": 865,
+   "stars": 4649,
+   "d24": 862,
    "est": true,
    "forks": 419,
    "contrib": 19,
@@ -501,8 +495,8 @@
   },
   {
    "repo": "andyhuo520/digital-human-koubo",
-   "stars": 1429,
-   "d24": 203,
+   "stars": 1435,
+   "d24": 206,
    "est": false,
    "forks": 329,
    "contrib": null,
@@ -510,8 +504,8 @@
   },
   {
    "repo": "t3dotgg/tstack",
-   "stars": 2342,
-   "d24": 142,
+   "stars": 2347,
+   "d24": 146,
    "est": false,
    "forks": 145,
    "contrib": null,
@@ -519,8 +513,8 @@
   },
   {
    "repo": "DenisSergeevitch/ex-ussr-kinship-research",
-   "stars": 1228,
-   "d24": 78,
+   "stars": 1232,
+   "d24": 82,
    "est": false,
    "forks": 131,
    "contrib": null,
@@ -529,7 +523,7 @@
   {
    "repo": "morganlinton/BeautifulRust",
    "stars": 1392,
-   "d24": 48,
+   "d24": 46,
    "est": false,
    "forks": 64,
    "contrib": null,
@@ -547,7 +541,7 @@
    "grow": 30,
    "score": 92,
    "cat": "Infrastructure",
-   "likes": 753
+   "likes": 754
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -558,7 +552,7 @@
    "grow": 12,
    "score": 90,
    "cat": "Vision",
-   "likes": 3697
+   "likes": 3706
   },
   {
    "name": "flint",
@@ -569,7 +563,19 @@
    "grow": null,
    "score": 88,
    "cat": "LLMs",
-   "likes": 1227
+   "likes": 1228
+  },
+  {
+   "name": "LFM3-1.7B",
+   "org": "LiquidAI",
+   "size": "1.7B",
+   "lic": "Open weights",
+   "at": "2026-10-23T21:35:42.000Z",
+   "dl": 15885,
+   "grow": null,
+   "score": 87,
+   "cat": "LLMs",
+   "likes": 449
   },
   {
    "name": "Spark-X2.6-4B",
@@ -593,19 +599,7 @@
    "grow": 140,
    "score": 86,
    "cat": "LLMs",
-   "likes": 455
-  },
-  {
-   "name": "LFM3-1.7B",
-   "org": "LiquidAI",
-   "size": "1.7B",
-   "lic": "Open weights",
-   "at": "2026-10-23T21:35:42.000Z",
-   "dl": 15885,
-   "grow": null,
-   "score": 86,
-   "cat": "LLMs",
-   "likes": 447
+   "likes": 456
   }
  ],
  "free": [
@@ -986,53 +980,53 @@
    "kind": "News"
   },
   {
-   "t": "Google unveils Gemini 4 Carbon with top AI benchmark score, expands focus on cybersecurity",
-   "url": "https://www.tribuneindia.com/news/business/google-unveils-gemini-4-carbon-with-top-ai-benchmark-score-expands-focus-on-cybersecurity/",
-   "at": "2026-10-29T02:27:35Z",
-   "src": "The Tribune",
+   "t": "Over 329,000 teachers have received AI training, says Fadhlina",
+   "url": "https://www.thestar.com.my/news/nation/2026/10/29/over-329000-teachers-have-received-ai-training-says-fadhlina",
+   "at": "2026-10-29T03:01:00Z",
+   "src": "The Star",
    "kind": "News"
   },
   {
-   "t": "DeepSeek, Moonshot Used OpenAI'sGPT-6 Astra To Train Latest Models: Report",
-   "url": "https://www.ndtv.com/artificial-intelligence/deepseek-moonshot-used-openais-gpt-6-astra-to-train-latest-models-the-information-reports-12251432",
-   "at": "2026-10-29T02:12:10Z",
-   "src": "NDTV.com",
+   "t": "New York enacts ban on 'unsafe' chatbot behaviour with kids as states push AI regulation boundaries",
+   "url": "https://www.thestar.com.my/tech/tech-news/2026/10/29/new-york-enacts-ban-on-039unsafe039-chatbot-behaviour-with-kids-as-states-push-ai-regulation-boundaries",
+   "at": "2026-10-29T03:00:00Z",
+   "src": "The Star",
    "kind": "News"
   },
   {
-   "t": "Students are warned against AI but who is checking their lecturers? - Hasniza Nordin and Muhammad Noor Abdul Aziz",
-   "url": "https://www.malaymail.com/news/what-you-think/2026/10/29/students-are-warned-against-ai-but-who-is-checking-their-lecturers-hasniza-nordin-and-muhammad-noor-abdul-aziz/241073",
-   "at": "2026-10-29T01:59:35Z",
-   "src": "Malay Mail",
+   "t": "Samsung Keeps Shattering Profit Records as AI Boom Lifts Chip Demand",
+   "url": "https://www.usnews.com/news/business/articles/2026-10-28/samsung-keeps-shattering-profit-records-as-ai-boom-lifts-chip-demand",
+   "at": "2026-10-29T02:57:00Z",
+   "src": "U.S. News & World Report",
    "kind": "News"
   }
  ],
  "discussions": [
   {
    "src": "Hacker News",
-   "t": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5",
-   "url": "https://news.ycombinator.com/item?id=50288019",
-   "link": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
-   "up": 168,
-   "com": 120,
-   "at": "2026-10-29T12:41:56.000Z"
-  },
-  {
-   "src": "Hacker News",
    "t": "Mistral Large 4 (Le Chonk) is now Open Weight",
    "url": "https://news.ycombinator.com/item?id=50289418",
    "link": "https://mistral.ai/news/mistral-large-4-oss/",
-   "up": 64,
-   "com": 8,
+   "up": 225,
+   "com": 51,
    "at": "2026-10-29T14:13:21.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5",
+   "url": "https://news.ycombinator.com/item?id=50288019",
+   "link": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+   "up": 198,
+   "com": 153,
+   "at": "2026-10-29T12:41:56.000Z"
   },
   {
    "src": "Hacker News",
    "t": "If IPv4 Were Land",
    "url": "https://news.ycombinator.com/item?id=50287775",
    "link": "https://iptrust.co/blog/if-ipv4-were-land",
-   "up": 116,
-   "com": 94,
+   "up": 121,
+   "com": 100,
    "at": "2026-10-29T12:19:00.000Z"
   },
   {
@@ -1040,8 +1034,8 @@
    "t": "Gemini 4 Carbon",
    "url": "https://news.ycombinator.com/item?id=50276792",
    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
-   "up": 975,
-   "com": 777,
+   "up": 979,
+   "com": 779,
    "at": "2026-10-28T17:01:23.000Z"
   },
   {
@@ -1049,8 +1043,8 @@
    "t": "Claude Code regularly sends each background agent’s transcript to its model",
    "url": "https://news.ycombinator.com/item?id=50284255",
    "link": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
-   "up": 492,
-   "com": 200,
+   "up": 506,
+   "com": 206,
    "at": "2026-10-29T03:33:42.000Z"
   },
   {
@@ -1058,8 +1052,8 @@
    "t": "StackOverflow now gets fewer than 1000 questions a month",
    "url": "https://news.ycombinator.com/item?id=50282454",
    "link": "https://data.stackexchange.com/stackoverflow/query/1926661#graph?t=1",
-   "up": 624,
-   "com": 523,
+   "up": 645,
+   "com": 537,
    "at": "2026-10-28T23:35:02.000Z"
   }
  ]
