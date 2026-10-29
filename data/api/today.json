@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-29T01:01:05.737Z"
+  "updated": "2026-10-29T01:30:51.534Z"
  },
  "pulse": {
   "trending": 79,
   "accelerating": 2,
   "newModels": 9,
-  "discussions": 40,
-  "stars": 2424
+  "discussions": 42,
+  "stars": 2487
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Vision",
    "score": 97,
-   "grow": 65,
+   "grow": 67,
    "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
    "meta": [
-    "★ 1,900",
-    "+1,118 in 24h",
+    "★ 1,934",
+    "+1,133 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-27T12:24:37Z",
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 92,
-   "grow": 2,
+   "grow": 3,
    "desc": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
    "meta": [
-    "★ 4,299",
-    "+234 in 24h",
+    "★ 4,322",
+    "+283 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-24T05:35:47Z",
@@ -58,8 +58,8 @@
    "grow": null,
    "desc": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …",
    "meta": [
-    "★ 1,309",
-    "~459 in 24h",
+    "★ 1,317",
+    "~458 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-26T04:34:09Z",
@@ -73,7 +73,7 @@
    "cat": "Infrastructure",
    "score": 91,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 722",
+   "desc": "Model on Hugging Face · open source · ♥ 723",
    "meta": [
     "7.4K downloads",
     "Released 5 days ago"
@@ -88,11 +88,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 90,
-   "grow": 8,
+   "grow": 9,
    "desc": "The agent skills I use every day. Works with Claude Code and Codex.",
    "meta": [
-    "★ 2,265",
-    "+244 in 24h",
+    "★ 2,271",
+    "+246 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-24T05:00:20Z",
@@ -108,8 +108,8 @@
    "grow": null,
    "desc": "Evidence-first genealogy skill for AI agents (Codex, Claude Code): church books, civil, military, deportation and repression records across the former USSR. Replies in your language.",
    "meta": [
-    "★ 1,182",
-    "~326 in 24h",
+    "★ 1,183",
+    "~325 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-25T10:05:56Z",
@@ -123,7 +123,7 @@
    "cat": "Vision",
    "score": 90,
    "grow": 11,
-   "desc": "Vision on Hugging Face · open source · ♥ 3.5K",
+   "desc": "Vision on Hugging Face · open source · ♥ 3.6K",
    "meta": [
     "117K downloads",
     "Released 12 days ago"
@@ -155,7 +155,7 @@
    "cat": "LLMs",
    "score": 86,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 857",
+   "desc": "Model on Hugging Face · open source · ♥ 858",
    "meta": [
     "8.2K downloads",
     "Released 10 days ago"
@@ -171,7 +171,7 @@
    "cat": "Infrastructure",
    "score": 86,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 437",
+   "desc": "Model on Hugging Face · open source · ♥ 439",
    "meta": [
     "1.4M downloads",
     "Released 6 days ago"
@@ -181,7 +181,31 @@
    "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF"
   }
  ],
- "breakouts": [],
+ "breakouts": [
+  {
+   "key": "genie 4",
+   "label": "Genie 4",
+   "n": 3,
+   "sources": [
+    {
+     "src": "Product Hunt",
+     "t": "Genie 4",
+     "url": "https://www.producthunt.com/products/gemini-1-5-pro?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
+    },
+    {
+     "src": "Google DeepMind blog",
+     "t": "Genie 4: A new generation of world simulation",
+     "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
+    },
+    {
+     "src": "SiliconANGLE News",
+     "t": "Google introduces cutting-edge Genie 4 world model",
+     "url": "https://siliconangle.com/2026/10/27/google-introduces-cutting-edge-genie-4-world-model/"
+    }
+   ],
+   "since": "2026-10-28T16:30:55.344Z"
+  }
+ ],
  "hype": [
   {
    "name": "Gemini 4",
@@ -206,11 +230,33 @@
    "verdict": "Talk only, no public usage numbers"
   },
   {
+   "name": "Genie 4",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "Google DeepMind blog",
+     "t": "Genie 4: A new generation of world simulation",
+     "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
+    },
+    {
+     "src": "SiliconANGLE News",
+     "t": "Google introduces cutting-edge Genie 4 world model",
+     "url": "https://siliconangle.com/2026/10/27/google-introduces-cutting-edge-genie-4-world-model/"
+    }
+   ],
+   "buzz": 2,
+   "verdict": "Talk only, no public usage numbers"
+  },
+  {
    "name": "ai-pose-gallery-zh",
    "url": "https://github.com/anhao/ai-pose-gallery-zh",
    "from": "GitHub",
-   "use": 1118,
-   "useLabel": "+1,118 stars/day",
+   "use": 1133,
+   "useLabel": "+1,133 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -324,53 +370,53 @@
  "github": [
   {
    "repo": "anhao/ai-pose-gallery-zh",
-   "stars": 1900,
-   "d24": 1118,
+   "stars": 1934,
+   "d24": 1133,
    "est": false,
-   "forks": 489,
+   "forks": 500,
    "contrib": null,
    "score": 97
   },
   {
    "repo": "andyhuo520/digital-human-koubo",
-   "stars": 1309,
-   "d24": 459,
+   "stars": 1317,
+   "d24": 458,
    "est": true,
-   "forks": 298,
+   "forks": 300,
    "contrib": null,
    "score": 92
   },
   {
    "repo": "DenisSergeevitch/ex-ussr-kinship-research",
-   "stars": 1182,
-   "d24": 326,
+   "stars": 1183,
+   "d24": 325,
    "est": true,
    "forks": 128,
    "contrib": null,
    "score": 90
   },
   {
+   "repo": "rddmwmddr/android-ad-cleaner",
+   "stars": 4322,
+   "d24": 283,
+   "est": false,
+   "forks": 390,
+   "contrib": 11,
+   "score": 92
+  },
+  {
    "repo": "t3dotgg/tstack",
-   "stars": 2265,
-   "d24": 244,
+   "stars": 2271,
+   "d24": 246,
    "est": false,
    "forks": 138,
    "contrib": null,
    "score": 90
   },
   {
-   "repo": "rddmwmddr/android-ad-cleaner",
-   "stars": 4299,
-   "d24": 234,
-   "est": false,
-   "forks": 389,
-   "contrib": 11,
-   "score": 92
-  },
-  {
    "repo": "morganlinton/BeautifulRust",
    "stars": 1366,
-   "d24": 43,
+   "d24": 42,
    "est": false,
    "forks": 61,
    "contrib": null,
@@ -388,7 +434,7 @@
    "grow": null,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 722
+   "likes": 723
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -399,7 +445,7 @@
    "grow": 11,
    "score": 90,
    "cat": "Vision",
-   "likes": 3547
+   "likes": 3552
   },
   {
    "name": "flint",
@@ -422,7 +468,7 @@
    "grow": 0,
    "score": 86,
    "cat": "LLMs",
-   "likes": 857
+   "likes": 858
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
@@ -433,7 +479,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 437
+   "likes": 439
   },
   {
    "name": "MiniMax-M3.1-Flash",
@@ -444,7 +490,7 @@
    "grow": 20,
    "score": 84,
    "cat": "Agents",
-   "likes": 454
+   "likes": 455
   }
  ],
  "free": [
@@ -762,13 +808,6 @@
    "kind": "News"
   },
   {
-   "t": "NY Gov. Kathy Hochul signs bills banning AI chatbots from using \"unsafe features\" for minors and requiring security features in internet-connected baby monitors",
-   "url": "https://www.techmeme.com/261028/p46#a261028p46",
-   "at": "2026-10-28T19:10:00.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Gemini 4 Carbon: Our next frontier model",
    "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
    "at": "2026-10-28T17:00:58.000Z",
@@ -811,39 +850,46 @@
    "kind": "News"
   },
   {
+   "t": "Researchers develop privacy-friendly, secure and sustainable AI techniques for medical imaging",
+   "url": "https://medicalxpress.com/news/2026-10-privacy-friendly-sustainable-ai-techniques.html",
+   "at": "2026-10-28T13:30:01Z",
+   "src": "Medical Xpress",
+   "kind": "News"
+  },
+  {
+   "t": "UK's Healey offers grid access incentives for critical data centres",
+   "url": "https://www.marketscreener.com/news/uk-s-healey-offers-grid-access-incentives-for-critical-data-centres-ce785cd2df8bf02c",
+   "at": "2026-10-28T13:29:43Z",
+   "src": "MarketScreener",
+   "kind": "News"
+  },
+  {
+   "t": "Goa’s Next Big Economic Leap: Sunil Kumar Gupta And Sarc Bring Investment, Green Energy And Ai Into Focus",
+   "url": "https://www.tribuneindia.com/news/business/goas-next-big-economic-leap-sunil-kumar-gupta-and-sarc-bring-investment-green-energy-and-ai-into-focus/",
+   "at": "2026-10-28T13:27:31Z",
+   "src": "The Tribune",
+   "kind": "News"
+  },
+  {
+   "t": "Using artificial intelligence to step up the fight against doping",
+   "url": "https://www.euronews.com/2026/10/28/using-artificial-intelligence-to-step-up-the-fight-against-doping",
+   "at": "2026-10-28T13:23:05Z",
+   "src": "Euronews",
+   "kind": "News"
+  },
+  {
+   "t": "Sunil Kumar Gupta And Sarc Bring Investment, Green Energy And Ai Into Focus",
+   "url": "https://www.aninews.in/news/business/goa8217s-next-big-economic-leap-sunil-kumar-gupta-and-sarc-bring-investment-green-energy-and-ai-into-focus20261028185257/",
+   "at": "2026-10-28T13:22:57Z",
+   "src": "ANI (Asian News International)",
+   "kind": "News"
+  },
+  {
    "t": "OpenAI and ServiceNow expand partnership across enterprise workflows",
    "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
    "at": "2026-10-28T13:15:00.000Z",
    "src": "OpenAI",
    "kind": "Lab blog"
-  },
-  {
-   "t": "AI leader Anthropic reveals explosive growth, steep losses - and lots of risks",
-   "url": "https://www.courant.com/2026/10/28/ai-leader-anthropic-reveals-explosive-growth-steep-losses-and-lots-of-risks-3/",
-   "at": "2026-10-28T13:00:41Z",
-   "src": "Hartford Courant",
-   "kind": "News"
-  },
-  {
-   "t": "The Latest: Trump pushing to keep red-state Senate seats in GOP hands",
-   "url": "https://www.ajc.com/news/2026/10/the-latest-trump-pushing-to-keep-red-state-senate-seats-in-gop-hands/",
-   "at": "2026-10-28T12:52:43Z",
-   "src": "The Atlanta Journal-Constitution",
-   "kind": "News"
-  },
-  {
-   "t": "The AI payoff is real. The timeline is the problem",
-   "url": "https://fortune.com/2026/10/28/will-ai-pay-off-when-bubble-risk-anthropic-ipo/",
-   "at": "2026-10-28T12:51:58Z",
-   "src": "Fortune",
-   "kind": "News"
-  },
-  {
-   "t": "Jio Platforms soars in market debut",
-   "url": "https://www.channelnewsasia.com/watch/jio-platforms-soars-in-market-debut-6499896",
-   "at": "2026-10-28T12:43:15Z",
-   "src": "CNA",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -852,8 +898,8 @@
    "t": "Gemini 4 Carbon",
    "url": "https://news.ycombinator.com/item?id=50276792",
    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
-   "up": 791,
-   "com": 651,
+   "up": 804,
+   "com": 661,
    "at": "2026-10-28T17:01:23.000Z"
   },
   {
@@ -861,8 +907,8 @@
    "t": "Apple's git still trusts the compromised eMudhra certificates",
    "url": "https://news.ycombinator.com/item?id=50271640",
    "link": "https://emudhra.we-have-a-problem.com/apple.html",
-   "up": 1036,
-   "com": 377,
+   "up": 1037,
+   "com": 378,
    "at": "2026-10-28T11:03:40.000Z"
   },
   {
@@ -870,8 +916,8 @@
    "t": "StackOverflow now gets fewer than 1000 questions a month",
    "url": "https://news.ycombinator.com/item?id=50282454",
    "link": "https://data.stackexchange.com/stackoverflow/query/1926661#graph?t=1",
-   "up": 72,
-   "com": 61,
+   "up": 89,
+   "com": 91,
    "at": "2026-10-28T23:35:02.000Z"
   },
   {
@@ -879,8 +925,8 @@
    "t": "GitLab Security Incident: Attempted Exploitation of CVE-2026-97229",
    "url": "https://news.ycombinator.com/item?id=50282544",
    "link": "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html",
-   "up": 57,
-   "com": 7,
+   "up": 68,
+   "com": 19,
    "at": "2026-10-28T23:45:46.000Z"
   },
   {
@@ -888,8 +934,8 @@
    "t": "Kentucky man becomes the first humanist granted religious exemption from AI",
    "url": "https://news.ycombinator.com/item?id=50273396",
    "link": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/",
-   "up": 426,
-   "com": 473,
+   "up": 430,
+   "com": 472,
    "at": "2026-10-28T13:41:30.000Z"
   },
   {
@@ -897,8 +943,8 @@
    "t": "Google AI gets cagey when asked who won the 2020 elections",
    "url": "https://news.ycombinator.com/item?id=50280178",
    "link": "https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/",
-   "up": 126,
-   "com": 60,
+   "up": 129,
+   "com": 63,
    "at": "2026-10-28T20:10:16.000Z"
   }
  ]
