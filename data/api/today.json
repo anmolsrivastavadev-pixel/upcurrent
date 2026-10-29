@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-29T08:30:52.940Z"
+  "updated": "2026-10-29T09:01:09.805Z"
  },
  "pulse": {
   "trending": 80,
   "accelerating": 0,
   "newModels": 8,
   "discussions": 38,
-  "stars": 2649
+  "stars": 2516
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
    "meta": [
-    "★ 2,363",
-    "~1,286 in 24h",
+    "★ 2,408",
+    "~1,296 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-27T12:24:37Z",
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 92,
-   "grow": 7,
+   "grow": 8,
    "desc": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
    "meta": [
-    "★ 4,525",
-    "+464 in 24h",
+    "★ 4,544",
+    "+477 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-24T05:35:47Z",
@@ -56,7 +56,7 @@
    "cat": "Infrastructure",
    "score": 92,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 745",
+   "desc": "Model on Hugging Face · open source · ♥ 746",
    "meta": [
     "7.4K downloads",
     "Released 5 days ago"
@@ -71,11 +71,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 91,
-   "grow": 5,
+   "grow": 6,
    "desc": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …",
    "meta": [
-    "★ 1,373",
-    "+189 in 24h",
+    "★ 1,380",
+    "+197 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-26T04:34:09Z",
@@ -91,8 +91,8 @@
    "grow": null,
    "desc": "The agent skills I use every day. Works with Claude Code and Codex.",
    "meta": [
-    "★ 2,303",
-    "~448 in 24h",
+    "★ 2,305",
+    "~446 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-24T05:00:20Z",
@@ -106,7 +106,7 @@
    "cat": "Vision",
    "score": 90,
    "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 3.6K",
+   "desc": "Vision on Hugging Face · open source · ♥ 3.7K",
    "meta": [
     "117K downloads",
     "Released 12 days ago"
@@ -116,11 +116,28 @@
    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
   },
   {
+   "name": "ex-ussr-kinship-research",
+   "owner": "DenisSergeevitch",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 88,
+   "grow": 2,
+   "desc": "Evidence-first genealogy skill for AI agents (Codex, Claude Code): church books, civil, military, deportation and repression records across the former USSR. Replies in your language.",
+   "meta": [
+    "★ 1,199",
+    "+48 in 24h",
+    "Created 4 days ago"
+   ],
+   "at": "2026-10-25T10:05:56Z",
+   "breakout": null,
+   "url": "https://github.com/DenisSergeevitch/ex-ussr-kinship-research"
+  },
+  {
    "name": "flint",
    "owner": "RecursiveSI",
    "src": "hf",
    "cat": "LLMs",
-   "score": 89,
+   "score": 88,
    "grow": 0,
    "desc": "Model on Hugging Face · open source · ♥ 1.2K",
    "meta": [
@@ -130,39 +147,6 @@
    "at": "2026-10-21T14:20:58.000Z",
    "breakout": null,
    "url": "https://huggingface.co/RecursiveSI/flint"
-  },
-  {
-   "name": "ex-ussr-kinship-research",
-   "owner": "DenisSergeevitch",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 88,
-   "grow": 1,
-   "desc": "Evidence-first genealogy skill for AI agents (Codex, Claude Code): church books, civil, military, deportation and repression records across the former USSR. Replies in your language.",
-   "meta": [
-    "★ 1,195",
-    "+40 in 24h",
-    "Created 4 days ago"
-   ],
-   "at": "2026-10-25T10:05:56Z",
-   "breakout": null,
-   "url": "https://github.com/DenisSergeevitch/ex-ussr-kinship-research"
-  },
-  {
-   "name": "Hy-SimulMT-30B-A3B-FP8",
-   "owner": "tencent",
-   "src": "hf",
-   "cat": "LLMs",
-   "score": 87,
-   "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 439",
-   "meta": [
-    "165 downloads",
-    "Released 7 days ago"
-   ],
-   "at": "2026-10-22T07:29:37.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/tencent/Hy-SimulMT-30B-A3B-FP8"
   },
   {
    "name": "LFM3-1.7B",
@@ -179,14 +163,63 @@
    "at": "2026-10-23T21:35:42.000Z",
    "breakout": null,
    "url": "https://huggingface.co/LiquidAI/LFM3-1.7B"
+  },
+  {
+   "name": "Spark-X2.6-4B",
+   "owner": "XHToken",
+   "src": "hf",
+   "cat": "LLMs",
+   "score": 86,
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 881",
+   "meta": [
+    "8.2K downloads",
+    "Released 10 days ago"
+   ],
+   "at": "2026-10-19T03:19:51.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/XHToken/Spark-X2.6-4B"
   }
  ],
  "breakouts": [
   {
    "key": "gemini 4",
    "label": "Gemini 4",
-   "n": 3,
+   "n": 4,
    "sources": [
+    {
+     "src": "Hacker News",
+     "t": "Gemini 4 Carbon",
+     "url": "https://news.ycombinator.com/item?id=50276792"
+    },
+    {
+     "src": "Google DeepMind blog",
+     "t": "Gemini 4 Carbon: Our next frontier model",
+     "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
+    },
+    {
+     "src": "Techmeme",
+     "t": "Google is rolling out Gemini 4 Carbon to selected cybersecurity defenders through Fairwind at $2/1M input and $10/1M output tokens, rising to $4 and $20 later",
+     "url": "https://www.techmeme.com/261028/p63#a261028p63"
+    },
+    {
+     "src": "Product Hunt",
+     "t": "Gemini 4 Carbon",
+     "url": "https://www.producthunt.com/products/gemini-4-carbon?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
+    }
+   ],
+   "since": "2026-10-01T18:14:41.538Z"
+  },
+  {
+   "key": "gemini 4 carbon",
+   "label": "Gemini 4 Carbon",
+   "n": 4,
+   "sources": [
+    {
+     "src": "Product Hunt",
+     "t": "Gemini 4 Carbon",
+     "url": "https://www.producthunt.com/products/gemini-4-carbon?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
+    },
     {
      "src": "Hacker News",
      "t": "Gemini 4 Carbon",
@@ -203,7 +236,7 @@
      "url": "https://www.techmeme.com/261028/p63#a261028p63"
     }
    ],
-   "since": "2026-10-01T18:14:41.538Z"
+   "since": "2026-10-29T09:01:09.805Z"
   }
  ],
  "hype": [
@@ -235,11 +268,38 @@
    "verdict": "Talk only, no public usage numbers"
   },
   {
+   "name": "Gemini 4 Carbon",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "Hacker News",
+     "t": "Gemini 4 Carbon",
+     "url": "https://news.ycombinator.com/item?id=50276792"
+    },
+    {
+     "src": "Google DeepMind blog",
+     "t": "Gemini 4 Carbon: Our next frontier model",
+     "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
+    },
+    {
+     "src": "Techmeme",
+     "t": "Google is rolling out Gemini 4 Carbon to selected cybersecurity defenders through Fairwind at $2/1M input and $10/1M output tokens, rising to $4 and $20 later",
+     "url": "https://www.techmeme.com/261028/p63#a261028p63"
+    }
+   ],
+   "buzz": 3,
+   "verdict": "Talk only, no public usage numbers"
+  },
+  {
    "name": "ai-pose-gallery-zh",
    "url": "https://github.com/anhao/ai-pose-gallery-zh",
    "from": "GitHub",
-   "use": 1286,
-   "useLabel": "~1,286 stars/day",
+   "use": 1296,
+   "useLabel": "~1,296 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -353,17 +413,17 @@
  "github": [
   {
    "repo": "anhao/ai-pose-gallery-zh",
-   "stars": 2363,
-   "d24": 1286,
+   "stars": 2408,
+   "d24": 1296,
    "est": true,
-   "forks": 619,
+   "forks": 634,
    "contrib": null,
    "score": 97
   },
   {
    "repo": "rddmwmddr/android-ad-cleaner",
-   "stars": 4525,
-   "d24": 464,
+   "stars": 4544,
+   "d24": 477,
    "est": false,
    "forks": 408,
    "contrib": 19,
@@ -371,35 +431,35 @@
   },
   {
    "repo": "t3dotgg/tstack",
-   "stars": 2303,
-   "d24": 448,
+   "stars": 2305,
+   "d24": 446,
    "est": true,
-   "forks": 141,
+   "forks": 142,
    "contrib": null,
    "score": 90
   },
   {
+   "repo": "andyhuo520/digital-human-koubo",
+   "stars": 1380,
+   "d24": 197,
+   "est": false,
+   "forks": 319,
+   "contrib": null,
+   "score": 91
+  },
+  {
    "repo": "morganlinton/BeautifulRust",
-   "stars": 1381,
-   "d24": 222,
-   "est": true,
+   "stars": 1382,
+   "d24": 52,
+   "est": false,
    "forks": 63,
    "contrib": null,
    "score": 81
   },
   {
-   "repo": "andyhuo520/digital-human-koubo",
-   "stars": 1373,
-   "d24": 189,
-   "est": false,
-   "forks": 316,
-   "contrib": null,
-   "score": 91
-  },
-  {
    "repo": "DenisSergeevitch/ex-ussr-kinship-research",
-   "stars": 1195,
-   "d24": 40,
+   "stars": 1199,
+   "d24": 48,
    "est": false,
    "forks": 129,
    "contrib": null,
@@ -417,7 +477,7 @@
    "grow": 0,
    "score": 92,
    "cat": "Infrastructure",
-   "likes": 745
+   "likes": 746
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -428,7 +488,7 @@
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 3650
+   "likes": 3659
   },
   {
    "name": "flint",
@@ -437,21 +497,9 @@
    "at": "2026-10-21T14:20:58.000Z",
    "dl": 14047,
    "grow": 0,
-   "score": 89,
+   "score": 88,
    "cat": "LLMs",
-   "likes": 1213
-  },
-  {
-   "name": "Hy-SimulMT-30B-A3B-FP8",
-   "org": "tencent",
-   "size": "30B",
-   "lic": "Open source",
-   "at": "2026-10-22T07:29:37.000Z",
-   "dl": 165,
-   "grow": 0,
-   "score": 87,
-   "cat": "LLMs",
-   "likes": 439
+   "likes": 1216
   },
   {
    "name": "LFM3-1.7B",
@@ -476,6 +524,18 @@
    "score": 86,
    "cat": "LLMs",
    "likes": 881
+  },
+  {
+   "name": "Hy-SimulMT-30B-A3B-FP8",
+   "org": "tencent",
+   "size": "30B",
+   "lic": "Open source",
+   "at": "2026-10-22T07:29:37.000Z",
+   "dl": 165,
+   "grow": 0,
+   "score": 86,
+   "cat": "LLMs",
+   "likes": 443
   }
  ],
  "free": [
@@ -779,14 +839,14 @@
    "kind": "News"
   },
   {
-   "t": "Google announces the expansion of ads in AI Mode into international markets, as growth in its core search advertising business slows",
+   "t": "Google plans to expand \"high-quality ads within AI Overviews in AI Mode\" into international markets, as growth in its core search ad business slows",
    "url": "https://www.techmeme.com/261029/p6#a261029p6",
    "at": "2026-10-29T05:30:11.000Z",
    "src": "Techmeme",
    "kind": "News"
   },
   {
-   "t": "Google's search revenue rose 12% YoY to $63.25B in Q3 2026, down from 14.5% in Q3 2025, with Google attributing the slowdown to \"lower monetization\" in AI Mode",
+   "t": "Google reports Search revenue up 12% YoY to $63.25B in Q3 2026, down from 14.5% in Q3 2025, and attributes the slowdown to \"lower monetization\" in AI Mode",
    "url": "https://www.techmeme.com/261029/p3#a261029p3",
    "at": "2026-10-29T05:10:01.000Z",
    "src": "Techmeme",
@@ -814,7 +874,7 @@
    "kind": "News"
   },
   {
-   "t": "The personal data of 41,000+ DHS employees and contractors, including CBP and ICE agents, leaks online after hackers claim they breached DHS' Okta login system",
+   "t": "Hackers leak the personal data of 41,000+ DHS employees and contractors, including CBP and ICE agents; DDoSecrets says the data came from DHS' Okta login system",
    "url": "https://www.techmeme.com/261028/p62#a261028p62",
    "at": "2026-10-29T01:55:02.000Z",
    "src": "Techmeme",
@@ -883,8 +943,8 @@
    "t": "Claude Code regularly sends each background agent’s transcript to its model",
    "url": "https://news.ycombinator.com/item?id=50284255",
    "link": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
-   "up": 320,
-   "com": 100,
+   "up": 338,
+   "com": 103,
    "at": "2026-10-29T03:33:42.000Z"
   },
   {
@@ -892,8 +952,8 @@
    "t": "Gemini 4 Carbon",
    "url": "https://news.ycombinator.com/item?id=50276792",
    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
-   "up": 912,
-   "com": 738,
+   "up": 924,
+   "com": 741,
    "at": "2026-10-28T17:01:23.000Z"
   },
   {
@@ -901,8 +961,8 @@
    "t": "Apple's git still trusts the compromised eMudhra certificates",
    "url": "https://news.ycombinator.com/item?id=50271640",
    "link": "https://emudhra.we-have-a-problem.com/apple.html",
-   "up": 1118,
-   "com": 393,
+   "up": 1126,
+   "com": 395,
    "at": "2026-10-28T11:03:40.000Z"
   },
   {
@@ -910,8 +970,8 @@
    "t": "StackOverflow now gets fewer than 1000 questions a month",
    "url": "https://news.ycombinator.com/item?id=50282454",
    "link": "https://data.stackexchange.com/stackoverflow/query/1926661#graph?t=1",
-   "up": 378,
-   "com": 318,
+   "up": 402,
+   "com": 337,
    "at": "2026-10-28T23:35:02.000Z"
   },
   {
@@ -919,7 +979,7 @@
    "t": "Kentucky man becomes the first humanist granted religious exemption from AI",
    "url": "https://news.ycombinator.com/item?id=50273396",
    "link": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/",
-   "up": 456,
+   "up": 458,
    "com": 503,
    "at": "2026-10-28T13:41:30.000Z"
   },
@@ -928,8 +988,8 @@
    "t": "GitLab Security Incident: Attempted Exploitation of CVE-2026-97229",
    "url": "https://news.ycombinator.com/item?id=50282544",
    "link": "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html",
-   "up": 166,
-   "com": 77,
+   "up": 174,
+   "com": 79,
    "at": "2026-10-28T23:45:46.000Z"
   }
  ]
