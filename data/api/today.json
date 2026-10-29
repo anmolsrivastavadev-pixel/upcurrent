@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-29T00:01:09.247Z"
+  "updated": "2026-10-29T00:22:24.107Z"
  },
  "pulse": {
-  "trending": 81,
+  "trending": 79,
   "accelerating": 2,
   "newModels": 9,
-  "discussions": 40,
-  "stars": 2403
+  "discussions": 39,
+  "stars": 2399
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Vision",
    "score": 98,
-   "grow": 61,
+   "grow": 62,
    "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
    "meta": [
-    "★ 1,860",
-    "+1,128 in 24h",
+    "★ 1,874",
+    "+1,124 in 24h",
     "Created yesterday"
    ],
    "at": "2026-10-27T12:24:37Z",
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 92,
-   "grow": 1,
+   "grow": 2,
    "desc": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
    "meta": [
-    "★ 4,276",
-    "+192 in 24h",
+    "★ 4,280",
+    "+195 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-24T05:35:47Z",
@@ -58,8 +58,8 @@
    "grow": null,
    "desc": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …",
    "meta": [
-    "★ 1,302",
-    "~463 in 24h",
+    "★ 1,303",
+    "~461 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-26T04:34:09Z",
@@ -73,7 +73,7 @@
    "cat": "Infrastructure",
    "score": 91,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 720",
+   "desc": "Model on Hugging Face · open source · ♥ 721",
    "meta": [
     "7.4K downloads",
     "Released 5 days ago"
@@ -91,8 +91,8 @@
    "grow": 8,
    "desc": "The agent skills I use every day. Works with Claude Code and Codex.",
    "meta": [
-    "★ 2,256",
-    "+246 in 24h",
+    "★ 2,260",
+    "+247 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-24T05:00:20Z",
@@ -109,7 +109,7 @@
    "desc": "Evidence-first genealogy skill for AI agents (Codex, Claude Code): church books, civil, military, deportation and repression records across the former USSR. Replies in your language.",
    "meta": [
     "★ 1,181",
-    "~330 in 24h",
+    "~329 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-25T10:05:56Z",
@@ -149,29 +149,13 @@
    "url": "https://huggingface.co/RecursiveSI/flint"
   },
   {
-   "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
-   "owner": "ISTA-DASLab",
-   "src": "hf",
-   "cat": "Infrastructure",
-   "score": 87,
-   "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 432",
-   "meta": [
-    "1.4M downloads",
-    "Released 6 days ago"
-   ],
-   "at": "2026-10-23T09:43:05.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF"
-  },
-  {
    "name": "Spark-X2.6-4B",
    "owner": "XHToken",
    "src": "hf",
    "cat": "LLMs",
    "score": 86,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 854",
+   "desc": "Model on Hugging Face · open source · ♥ 856",
    "meta": [
     "8.2K downloads",
     "Released 10 days ago"
@@ -179,6 +163,22 @@
    "at": "2026-10-19T03:19:51.000Z",
    "breakout": null,
    "url": "https://huggingface.co/XHToken/Spark-X2.6-4B"
+  },
+  {
+   "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+   "owner": "ISTA-DASLab",
+   "src": "hf",
+   "cat": "Infrastructure",
+   "score": 86,
+   "grow": 0,
+   "desc": "Model on Hugging Face · open source · ♥ 434",
+   "meta": [
+    "1.4M downloads",
+    "Released 6 days ago"
+   ],
+   "at": "2026-10-23T09:43:05.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF"
   }
  ],
  "breakouts": [],
@@ -209,8 +209,8 @@
    "name": "ai-pose-gallery-zh",
    "url": "https://github.com/anhao/ai-pose-gallery-zh",
    "from": "GitHub",
-   "use": 1128,
-   "useLabel": "+1,128 stars/day",
+   "use": 1124,
+   "useLabel": "+1,124 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -233,7 +233,7 @@
    "from": "Hugging Face",
    "use": 2921615,
    "useLabel": "2.9M downloads",
-   "usePct": 0.9705882352941176,
+   "usePct": 0.96875,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -324,17 +324,17 @@
  "github": [
   {
    "repo": "anhao/ai-pose-gallery-zh",
-   "stars": 1860,
-   "d24": 1128,
+   "stars": 1874,
+   "d24": 1124,
    "est": false,
-   "forks": 476,
+   "forks": 480,
    "contrib": null,
    "score": 98
   },
   {
    "repo": "andyhuo520/digital-human-koubo",
-   "stars": 1302,
-   "d24": 463,
+   "stars": 1303,
+   "d24": 461,
    "est": true,
    "forks": 298,
    "contrib": null,
@@ -343,16 +343,16 @@
   {
    "repo": "DenisSergeevitch/ex-ussr-kinship-research",
    "stars": 1181,
-   "d24": 330,
+   "d24": 329,
    "est": true,
-   "forks": 127,
+   "forks": 128,
    "contrib": null,
    "score": 90
   },
   {
    "repo": "t3dotgg/tstack",
-   "stars": 2256,
-   "d24": 246,
+   "stars": 2260,
+   "d24": 247,
    "est": false,
    "forks": 138,
    "contrib": null,
@@ -360,8 +360,8 @@
   },
   {
    "repo": "rddmwmddr/android-ad-cleaner",
-   "stars": 4276,
-   "d24": 192,
+   "stars": 4280,
+   "d24": 195,
    "est": false,
    "forks": 383,
    "contrib": 11,
@@ -370,7 +370,7 @@
   {
    "repo": "morganlinton/BeautifulRust",
    "stars": 1365,
-   "d24": 44,
+   "d24": 43,
    "est": false,
    "forks": 61,
    "contrib": null,
@@ -388,7 +388,7 @@
    "grow": null,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 720
+   "likes": 721
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -399,7 +399,7 @@
    "grow": 11,
    "score": 90,
    "cat": "Vision",
-   "likes": 3542
+   "likes": 3544
   },
   {
    "name": "flint",
@@ -413,17 +413,6 @@
    "likes": 1154
   },
   {
-   "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
-   "org": "ISTA-DASLab",
-   "lic": "Open source",
-   "at": "2026-10-23T09:43:05.000Z",
-   "dl": 1377570,
-   "grow": 0,
-   "score": 87,
-   "cat": "Infrastructure",
-   "likes": 432
-  },
-  {
    "name": "Spark-X2.6-4B",
    "org": "XHToken",
    "size": "4B",
@@ -433,7 +422,18 @@
    "grow": 0,
    "score": 86,
    "cat": "LLMs",
-   "likes": 854
+   "likes": 856
+  },
+  {
+   "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+   "org": "ISTA-DASLab",
+   "lic": "Open source",
+   "at": "2026-10-23T09:43:05.000Z",
+   "dl": 1377570,
+   "grow": 0,
+   "score": 86,
+   "cat": "Infrastructure",
+   "likes": 434
   },
   {
    "name": "MiniMax-M3.1-Flash",
@@ -442,7 +442,7 @@
    "at": "2026-10-17T06:37:50.000Z",
    "dl": 13247,
    "grow": 20,
-   "score": 85,
+   "score": 84,
    "cat": "Agents",
    "likes": 451
   }
@@ -734,6 +734,13 @@
  },
  "headlines": [
   {
+   "t": "Sources: AI coding startup Cognition weighs a new funding round before year's end after receiving offers valuing it at $70B-$80B, up from $48B in September",
+   "url": "https://www.techmeme.com/261028/p59#a261028p59",
+   "at": "2026-10-29T00:20:23.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Seoul-based AI chip startup FuriosaAI raised a $620M Series D at a $2.9B valuation, up from $735M in 2025; South Korea's National Growth Fund contributed $280M",
    "url": "https://www.techmeme.com/261028/p58#a261028p58",
    "at": "2026-10-28T23:45:01.000Z",
@@ -811,39 +818,32 @@
    "kind": "Lab blog"
   },
   {
-   "t": "UEM Group Signs MoU with Invariz Private Limited to Accelerate AI",
-   "url": "https://www.tribuneindia.com/news/business/iem-uem-group-signs-mou-with-invariz-private-limited-to-accelerate-ai-led-education-research-and-industry-innovation/",
-   "at": "2026-10-28T11:52:28Z",
-   "src": "The Tribune",
-   "kind": "News"
-  },
-  {
-   "t": "IEM-UEM Group Signs MoU with Invariz Private Limited to Accelerate AI-Led Education, Research and Industry Innovation",
-   "url": "https://www.aninews.in/news/business/iem-uem-group-signs-mou-with-invariz-private-limited-to-accelerate-ai-led-education-research-and-industry-innovation20261028171913/",
-   "at": "2026-10-28T11:49:13Z",
+   "t": "Google Cloud showcases AI tools to help Indian SMBs boost productivity, automate operations",
+   "url": "https://www.aninews.in/news/business/google-cloud-showcases-ai-tools-to-help-indian-smbs-boost-productivity-automate-operations20261028175112/",
+   "at": "2026-10-28T12:21:12Z",
    "src": "ANI (Asian News International)",
    "kind": "News"
   },
   {
-   "t": "Fibe bets on AI as profit doubles ahead of ₹1000+ crore IPO",
-   "url": "https://www.livemint.com/companies/news/fibe-bets-on-ai-as-profit-doubles-ahead-of-1000-crore-ipo-11793187673629.html",
-   "at": "2026-10-28T11:49:04Z",
-   "src": "Livemint",
+   "t": "Nurses say technology is making their jobs and patient care worse",
+   "url": "https://www.pressdemocrat.com/2026/10/28/nurses-technology-worsening-patient-care/",
+   "at": "2026-10-28T12:15:11Z",
+   "src": "Santa Rosa Press Democrat",
    "kind": "News"
   },
   {
-   "t": "Tech advancement must not sideline faith, morals and culture, says PM",
-   "url": "https://www.thestar.com.my/news/nation/2026/10/28/tech-advancement-must-not-sideline-faith-morals-and-culture-says-pm",
-   "at": "2026-10-28T11:49:00Z",
-   "src": "The Star",
+   "t": "‘There is no inevitable dystopia’: Jeanette Winterson on AI and the future of humanity",
+   "url": "https://www.theguardian.com/books/2026/oct/28/no-inevitable-dystopia-jeanette-winterson-ai-future-of-humanity",
+   "at": "2026-10-28T10:00:05Z",
+   "src": "The Guardian",
    "kind": "News"
   },
   {
-   "t": "Parents sue OpenAI over ChatGPT advice to cut daughter’s seizure drug",
-   "url": "https://thenextweb.com/news/parents-sue-openai-chatgpt-seizure-medication",
-   "at": "2026-10-28T11:46:03Z",
-   "src": "TNW",
-   "kind": "News"
+   "t": "The future of the firm",
+   "url": "https://openai.com/index/the-future-of-the-firm",
+   "at": "2026-10-28T10:00:00.000Z",
+   "src": "OpenAI",
+   "kind": "Lab blog"
   }
  ],
  "discussions": [
@@ -852,8 +852,8 @@
    "t": "Gemini 4 Carbon",
    "url": "https://news.ycombinator.com/item?id=50276792",
    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
-   "up": 763,
-   "com": 625,
+   "up": 774,
+   "com": 631,
    "at": "2026-10-28T17:01:23.000Z"
   },
   {
@@ -861,8 +861,8 @@
    "t": "Apple's git still trusts the compromised eMudhra certificates",
    "url": "https://news.ycombinator.com/item?id=50271640",
    "link": "https://emudhra.we-have-a-problem.com/apple.html",
-   "up": 1021,
-   "com": 375,
+   "up": 1026,
+   "com": 376,
    "at": "2026-10-28T11:03:40.000Z"
   },
   {
@@ -870,16 +870,25 @@
    "t": "Kentucky man becomes the first humanist granted religious exemption from AI",
    "url": "https://news.ycombinator.com/item?id=50273396",
    "link": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/",
-   "up": 412,
-   "com": 456,
+   "up": 419,
+   "com": 459,
    "at": "2026-10-28T13:41:30.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "GitLab Security Incident: Attempted Exploitation of CVE-2026-97229",
+   "url": "https://news.ycombinator.com/item?id=50282544",
+   "link": "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html",
+   "up": 36,
+   "com": 2,
+   "at": "2026-10-28T23:45:46.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Google AI gets cagey when asked who won the 2020 elections",
    "url": "https://news.ycombinator.com/item?id=50280178",
    "link": "https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/",
-   "up": 119,
+   "up": 122,
    "com": 59,
    "at": "2026-10-28T20:10:16.000Z"
   },
@@ -888,18 +897,9 @@
    "t": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
    "url": "https://news.ycombinator.com/item?id=50275626",
    "link": "https://surgehq.ai/blog/dayjob-tax",
-   "up": 190,
-   "com": 113,
+   "up": 192,
+   "com": 118,
    "at": "2026-10-28T15:46:30.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Git for the US Code",
-   "url": "https://news.ycombinator.com/item?id=50268380",
-   "link": "https://lexifina.com/blog/git-for-the-us-code",
-   "up": 425,
-   "com": 252,
-   "at": "2026-10-28T01:47:50.000Z"
   }
  ]
 }
