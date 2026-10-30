@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-30T10:30:56.485Z"
+  "updated": "2026-10-30T11:01:11.030Z"
  },
  "pulse": {
   "trending": 82,
-  "accelerating": 2,
-  "newModels": 11,
-  "discussions": 48,
-  "stars": 2795
+  "accelerating": 1,
+  "newModels": 10,
+  "discussions": 47,
+  "stars": 2797
  },
  "rising": [
   {
@@ -24,30 +24,13 @@
    "grow": 15,
    "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
    "meta": [
-    "★ 3,656",
-    "+1,235 in 24h",
+    "★ 3,679",
+    "+1,227 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-27T12:24:37Z",
    "breakout": null,
    "url": "https://github.com/anhao/ai-pose-gallery-zh"
-  },
-  {
-   "name": "android-ad-cleaner",
-   "owner": "rddmwmddr",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 91,
-   "grow": null,
-   "desc": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
-   "meta": [
-    "★ 4,926",
-    "~794 in 24h",
-    "Created 6 days ago"
-   ],
-   "at": "2026-10-24T05:35:47Z",
-   "breakout": null,
-   "url": "https://github.com/rddmwmddr/android-ad-cleaner"
   },
   {
    "name": "Nanbeige4.3-33B",
@@ -56,7 +39,7 @@
    "cat": "Infrastructure",
    "score": 91,
    "grow": 26,
-   "desc": "Model on Hugging Face · open source · ♥ 786",
+   "desc": "Model on Hugging Face · open source · ♥ 787",
    "meta": [
     "12K downloads",
     "Released 6 days ago"
@@ -64,6 +47,23 @@
    "at": "2026-10-24T02:49:18.000Z",
    "breakout": null,
    "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B"
+  },
+  {
+   "name": "android-ad-cleaner",
+   "owner": "rddmwmddr",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 90,
+   "grow": null,
+   "desc": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
+   "meta": [
+    "★ 4,937",
+    "~793 in 24h",
+    "Created 6 days ago"
+   ],
+   "at": "2026-10-24T05:35:47Z",
+   "breakout": null,
+   "url": "https://github.com/rddmwmddr/android-ad-cleaner"
   },
   {
    "name": "digital-human-koubo",
@@ -74,8 +74,8 @@
    "grow": 5,
    "desc": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …",
    "meta": [
-    "★ 1,530",
-    "+120 in 24h",
+    "★ 1,534",
+    "+122 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-26T04:34:09Z",
@@ -105,7 +105,7 @@
    "cat": "LLMs",
    "score": 90,
    "grow": null,
-   "desc": "Model on Hugging Face · open weights · ♥ 512",
+   "desc": "Model on Hugging Face · open weights · ♥ 518",
    "meta": [
     "24K downloads",
     "Released 7 days ago"
@@ -124,7 +124,7 @@
    "desc": "The agent skills I use every day. Works with Claude Code and Codex.",
    "meta": [
     "★ 2,428",
-    "+83 in 24h",
+    "+79 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-24T05:00:20Z",
@@ -140,8 +140,8 @@
    "grow": null,
    "desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
    "meta": [
-    "★ 1,468",
-    "~288 in 24h",
+    "★ 1,548",
+    "~302 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-25T08:09:52Z",
@@ -155,7 +155,7 @@
    "cat": "Infrastructure",
    "score": 87,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 489",
+   "desc": "Model on Hugging Face · open source · ♥ 490",
    "meta": [
     "1.7M downloads",
     "Released 7 days ago"
@@ -321,8 +321,8 @@
    "name": "ai-pose-gallery-zh",
    "url": "https://github.com/anhao/ai-pose-gallery-zh",
    "from": "GitHub",
-   "use": 1235,
-   "useLabel": "+1,235 stars/day",
+   "use": 1227,
+   "useLabel": "+1,227 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -436,62 +436,62 @@
  "github": [
   {
    "repo": "anhao/ai-pose-gallery-zh",
-   "stars": 3656,
-   "d24": 1235,
+   "stars": 3679,
+   "d24": 1227,
    "est": false,
-   "forks": 946,
-   "contrib": null,
+   "forks": 951,
+   "contrib": 2,
    "score": 96
   },
   {
    "repo": "rddmwmddr/android-ad-cleaner",
-   "stars": 4926,
-   "d24": 794,
+   "stars": 4937,
+   "d24": 793,
    "est": true,
-   "forks": 441,
-   "contrib": 21,
-   "score": 91
+   "forks": 442,
+   "contrib": 30,
+   "score": 90
   },
   {
    "repo": "ccch1mneyyy/dsh-Go",
-   "stars": 1468,
-   "d24": 288,
+   "stars": 1548,
+   "d24": 302,
    "est": true,
-   "forks": 65,
+   "forks": 67,
    "contrib": null,
    "score": 87
   },
   {
    "repo": "qybaihe/bla",
-   "stars": 1134,
-   "d24": 218,
+   "stars": 1145,
+   "d24": 219,
    "est": true,
-   "forks": 152,
+   "forks": 153,
    "contrib": null,
    "score": 82
   },
   {
    "repo": "andyhuo520/digital-human-koubo",
-   "stars": 1530,
-   "d24": 120,
+   "stars": 1534,
+   "d24": 122,
    "est": false,
-   "forks": 345,
+   "forks": 346,
    "contrib": null,
    "score": 90
   },
   {
    "repo": "t3dotgg/tstack",
    "stars": 2428,
-   "d24": 83,
+   "d24": 79,
    "est": false,
-   "forks": 149,
+   "forks": 150,
    "contrib": null,
    "score": 89
   },
   {
    "repo": "DenisSergeevitch/ex-ussr-kinship-research",
    "stars": 1284,
-   "d24": 57,
+   "d24": 55,
    "est": false,
    "forks": 135,
    "contrib": null,
@@ -509,7 +509,7 @@
    "grow": 26,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 786
+   "likes": 787
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -520,7 +520,7 @@
    "grow": 11,
    "score": 90,
    "cat": "Vision",
-   "likes": 3922
+   "likes": 3926
   },
   {
    "name": "LFM3-1.7B",
@@ -532,7 +532,7 @@
    "grow": null,
    "score": 90,
    "cat": "LLMs",
-   "likes": 512
+   "likes": 518
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
@@ -543,7 +543,7 @@
    "grow": null,
    "score": 87,
    "cat": "Infrastructure",
-   "likes": 489
+   "likes": 490
   },
   {
    "name": "Unlimited-OCR-2",
@@ -1024,13 +1024,6 @@
    "kind": "News"
   },
   {
-   "t": "Google's New CARBON is Now the Most Powerful AI in the World",
-   "url": "https://www.youtube.com/watch?v=XAfxi-Xo_sk",
-   "at": "2026-10-29T23:38:21Z",
-   "src": "AI Revolution",
-   "kind": "Video"
-  },
-  {
    "t": "More than half of Victorian lawyers use AI – but only a quarter have cut client fees as a result",
    "url": "https://www.theguardian.com/law/2026/oct/30/victorian-lawyers-ai-clients-fees",
    "at": "2026-10-29T23:00:37Z",
@@ -1071,34 +1064,41 @@
    "at": "2026-10-29T20:47:19Z",
    "src": "EUROPE SAYS",
    "kind": "News"
+  },
+  {
+   "t": "Google went to Finland for its AI expansion. Now a cleared forest and a police probe threaten to overshadow its $15 billion investment",
+   "url": "https://economictimes.indiatimes.com/news/international/world-news/google-went-to-finland-for-its-ai-expansion-now-a-cleared-forest-and-a-police-probe-threaten-to-overshadow-its-15-billion-investment/articleshow/135328274.cms",
+   "at": "2026-10-29T20:47:00Z",
+   "src": "The Economic Times",
+   "kind": "News"
   }
  ],
  "discussions": [
   {
    "src": "Hacker News",
-   "t": "Ask HN: Are you tired too in this AI era?",
-   "url": "https://news.ycombinator.com/item?id=50301479",
-   "link": "",
-   "up": 91,
-   "com": 75,
-   "at": "2026-10-30T09:17:43.000Z"
-  },
-  {
-   "src": "Hacker News",
    "t": "We're releasing the weights of Mistral Large 4",
    "url": "https://news.ycombinator.com/item?id=50289418",
    "link": "https://mistral.ai/news/mistral-large-4-oss/",
-   "up": 1490,
-   "com": 398,
+   "up": 1508,
+   "com": 399,
    "at": "2026-10-29T14:13:21.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Ask HN: Are you tired too in this AI era?",
+   "url": "https://news.ycombinator.com/item?id=50301479",
+   "link": "",
+   "up": 94,
+   "com": 85,
+   "at": "2026-10-30T09:17:43.000Z"
   },
   {
    "src": "Hacker News",
    "t": "LLM Voice",
    "url": "https://news.ycombinator.com/item?id=50290177",
    "link": "https://martinfowler.com/bliki/LLM-Voice.html",
-   "up": 483,
-   "com": 255,
+   "up": 492,
+   "com": 258,
    "at": "2026-10-29T14:57:55.000Z"
   },
   {
@@ -1106,8 +1106,8 @@
    "t": "We ran AI agent swarms in Minecraft and Mindustry",
    "url": "https://news.ycombinator.com/item?id=50296486",
    "link": "https://labs.ycombinator.com/projects/games/index.html",
-   "up": 293,
-   "com": 101,
+   "up": 299,
+   "com": 109,
    "at": "2026-10-29T21:40:28.000Z"
   },
   {
@@ -1115,8 +1115,8 @@
    "t": "Herdr has released native app",
    "url": "https://news.ycombinator.com/item?id=50298436",
    "link": "https://github.com/herdrdev/herdr-app",
-   "up": 212,
-   "com": 138,
+   "up": 223,
+   "com": 144,
    "at": "2026-10-30T00:42:41.000Z"
   },
   {
@@ -1124,8 +1124,8 @@
    "t": "Pico CSS is no longer maintained",
    "url": "https://news.ycombinator.com/item?id=50298964",
    "link": "https://github.com/picocss/pico/discussions/754",
-   "up": 144,
-   "com": 61,
+   "up": 149,
+   "com": 67,
    "at": "2026-10-30T01:58:44.000Z"
   }
  ]
