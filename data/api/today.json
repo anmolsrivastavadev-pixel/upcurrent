@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-30T18:05:34.396Z"
+  "updated": "2026-10-30T18:30:52.483Z"
  },
  "pulse": {
-  "trending": 83,
+  "trending": 82,
   "accelerating": 0,
-  "newModels": 12,
-  "discussions": 45,
-  "stars": 5380
+  "newModels": 11,
+  "discussions": 46,
+  "stars": 5267
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 22,
    "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
    "meta": [
-    "★ 3,905",
-    "+1,031 in 24h",
+    "★ 3,909",
+    "+1,011 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-27T12:24:37Z",
@@ -57,8 +57,8 @@
    "grow": 3,
    "desc": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
    "meta": [
-    "★ 5,027",
-    "+333 in 24h",
+    "★ 5,033",
+    "+334 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-24T05:35:47Z",
@@ -71,11 +71,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 90,
-   "grow": 76,
+   "grow": 77,
    "desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
    "meta": [
-    "★ 2,303",
-    "+2,775 in 24h",
+    "★ 2,320",
+    "+2,691 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-25T08:09:52Z",
@@ -103,9 +103,9 @@
    "owner": "LiquidAI",
    "src": "hf",
    "cat": "LLMs",
-   "score": 90,
+   "score": 89,
    "grow": 0,
-   "desc": "Model on Hugging Face · open weights · ♥ 537",
+   "desc": "Model on Hugging Face · open weights · ♥ 539",
    "meta": [
     "24K downloads",
     "Released 7 days ago"
@@ -124,7 +124,7 @@
    "desc": "The agent skills I use every day. Works with Claude Code and Codex.",
    "meta": [
     "★ 2,454",
-    "+83 in 24h",
+    "+81 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-24T05:00:20Z",
@@ -141,7 +141,7 @@
    "desc": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …",
    "meta": [
     "★ 1,547",
-    "~339 in 24h",
+    "~338 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-26T04:34:09Z",
@@ -149,29 +149,13 @@
    "url": "https://github.com/andyhuo520/digital-human-koubo"
   },
   {
-   "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
-   "owner": "ISTA-DASLab",
-   "src": "hf",
-   "cat": "Infrastructure",
-   "score": 87,
-   "grow": 11,
-   "desc": "Model on Hugging Face · open source · ♥ 499",
-   "meta": [
-    "1.7M downloads",
-    "Released 7 days ago"
-   ],
-   "at": "2026-10-23T09:43:05.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF"
-  },
-  {
    "name": "Unlimited-OCR-2",
    "owner": "baidu",
    "src": "hf",
    "cat": "Vision",
-   "score": 87,
+   "score": 88,
    "grow": 34,
-   "desc": "Vision on Hugging Face · open source · ♥ 437",
+   "desc": "Vision on Hugging Face · open source · ♥ 440",
    "meta": [
     "24K downloads",
     "Released 5 days ago"
@@ -179,6 +163,22 @@
    "at": "2026-10-26T03:57:46.000Z",
    "breakout": null,
    "url": "https://huggingface.co/baidu/Unlimited-OCR-2"
+  },
+  {
+   "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+   "owner": "nvidia",
+   "src": "hf",
+   "cat": "Coding",
+   "score": 86,
+   "grow": null,
+   "desc": "Model on Hugging Face · open weights · ♥ 479",
+   "meta": [
+    "16K downloads",
+    "Released 23 days ago"
+   ],
+   "at": "2026-10-07T22:50:21.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B"
   }
  ],
  "breakouts": [
@@ -321,8 +321,8 @@
    "name": "dsh-Go",
    "url": "https://github.com/ccch1mneyyy/dsh-Go",
    "from": "GitHub",
-   "use": 2775,
-   "useLabel": "+2,775 stars/day",
+   "use": 2691,
+   "useLabel": "+2,691 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -345,7 +345,7 @@
    "from": "Hugging Face",
    "use": 2516721,
    "useLabel": "2.5M downloads",
-   "usePct": 0.9714285714285714,
+   "usePct": 0.9705882352941176,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -436,35 +436,35 @@
  "github": [
   {
    "repo": "ccch1mneyyy/dsh-Go",
-   "stars": 2303,
-   "d24": 2775,
+   "stars": 2320,
+   "d24": 2691,
    "est": false,
-   "forks": 96,
+   "forks": 97,
    "contrib": null,
    "score": 90
   },
   {
    "repo": "anhao/ai-pose-gallery-zh",
-   "stars": 3905,
-   "d24": 1031,
+   "stars": 3909,
+   "d24": 1011,
    "est": false,
-   "forks": 1004,
+   "forks": 1005,
    "contrib": 2,
    "score": 96
   },
   {
    "repo": "qybaihe/bla",
-   "stars": 1312,
-   "d24": 574,
+   "stars": 1320,
+   "d24": 568,
    "est": false,
-   "forks": 176,
+   "forks": 177,
    "contrib": null,
    "score": 84
   },
   {
    "repo": "andyhuo520/digital-human-koubo",
    "stars": 1547,
-   "d24": 339,
+   "d24": 338,
    "est": true,
    "forks": 353,
    "contrib": null,
@@ -472,8 +472,8 @@
   },
   {
    "repo": "rddmwmddr/android-ad-cleaner",
-   "stars": 5027,
-   "d24": 333,
+   "stars": 5033,
+   "d24": 334,
    "est": false,
    "forks": 457,
    "contrib": 30,
@@ -481,8 +481,8 @@
   },
   {
    "repo": "DenisSergeevitch/ex-ussr-kinship-research",
-   "stars": 1306,
-   "d24": 245,
+   "stars": 1308,
+   "d24": 244,
    "est": true,
    "forks": 136,
    "contrib": null,
@@ -491,7 +491,7 @@
   {
    "repo": "t3dotgg/tstack",
    "stars": 2454,
-   "d24": 83,
+   "d24": 81,
    "est": false,
    "forks": 152,
    "contrib": null,
@@ -520,7 +520,7 @@
    "grow": 11,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 3978
+   "likes": 3979
   },
   {
    "name": "LFM3-1.7B",
@@ -530,20 +530,9 @@
    "at": "2026-10-23T21:35:42.000Z",
    "dl": 23694,
    "grow": 0,
-   "score": 90,
+   "score": 89,
    "cat": "LLMs",
-   "likes": 537
-  },
-  {
-   "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
-   "org": "ISTA-DASLab",
-   "lic": "Open source",
-   "at": "2026-10-23T09:43:05.000Z",
-   "dl": 1747945,
-   "grow": 11,
-   "score": 87,
-   "cat": "Infrastructure",
-   "likes": 499
+   "likes": 539
   },
   {
    "name": "Unlimited-OCR-2",
@@ -552,9 +541,9 @@
    "at": "2026-10-26T03:57:46.000Z",
    "dl": 24276,
    "grow": 34,
-   "score": 87,
+   "score": 88,
    "cat": "Vision",
-   "likes": 437
+   "likes": 440
   },
   {
    "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
@@ -566,7 +555,18 @@
    "grow": null,
    "score": 86,
    "cat": "Coding",
-   "likes": 476
+   "likes": 479
+  },
+  {
+   "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+   "org": "ISTA-DASLab",
+   "lic": "Open source",
+   "at": "2026-10-23T09:43:05.000Z",
+   "dl": 1747945,
+   "grow": 11,
+   "score": 86,
+   "cat": "Infrastructure",
+   "likes": 501
   }
  ],
  "free": [
@@ -962,18 +962,18 @@
  },
  "headlines": [
   {
+   "t": "Salesforce acquires Rune, which makes AI military logistics software, sources say for $375M in cash and stock; Rune raised $30m from a16z and others",
+   "url": "https://www.techmeme.com/261030/p17#a261030p17",
+   "at": "2026-10-30T18:20:05.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "nemotron-halloween",
    "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
    "at": "2026-10-30T17:57:24.000Z",
    "src": "Hugging Face",
    "kind": "Lab blog"
-  },
-  {
-   "t": "Salesforce agrees to acquire Rune, which raised ~$30M to make AI military logistics software, as it expands its year-old Missionforce defense business",
-   "url": "https://www.techmeme.com/261030/p16#a261030p16",
-   "at": "2026-10-30T17:10:36.000Z",
-   "src": "Techmeme",
-   "kind": "News"
   },
   {
    "t": "Credit where it’s due to AI for uncovering the PHP flaw – and discredit to the leaker | Letters",
@@ -988,6 +988,13 @@
    "at": "2026-10-30T17:10:03Z",
    "src": "The Guardian",
    "kind": "News"
+  },
+  {
+   "t": "Investors in AI race spooked after Google value drops $500bn | BBC News",
+   "url": "https://www.youtube.com/watch?v=A-dxxTV1b_o",
+   "at": "2026-10-30T16:30:25Z",
+   "src": "BBC News",
+   "kind": "Video"
   },
   {
    "t": "How do we make new economic ideas a reality? – Aditya Chakrabortty answered your questions",
@@ -1039,6 +1046,13 @@
    "kind": "News"
   },
   {
+   "t": "Making it easier for websites to express AI training preferences",
+   "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+   "at": "2026-10-30T09:30:00.000Z",
+   "src": "OpenAI",
+   "kind": "Lab blog"
+  },
+  {
    "t": "Community safety report and new protections for teens",
    "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
    "at": "2026-10-30T09:00:00.000Z",
@@ -1058,20 +1072,6 @@
    "at": "2026-10-30T07:39:47Z",
    "src": "WorldofAI",
    "kind": "Video"
-  },
-  {
-   "t": "How a wave of startups are betting on AI to make formal software verification practical and essential, including &Truth, which launches with a $70M seed",
-   "url": "https://www.techmeme.com/261030/p4#a261030p4",
-   "at": "2026-10-30T06:30:03.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Defenders of Digital Bharat: Navigating Cybersecurity in India's Evolving Artificial Intelligence Landscape",
-   "url": "https://www.firstpost.com/brand-connect/defenders-of-digital-bharat-navigating-cybersecurity-in-indias-evolving-artificial-intelligence-landscape-14056515.html",
-   "at": "2026-10-30T06:02:38Z",
-   "src": "Firstpost",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -1080,9 +1080,18 @@
    "t": "AI isn't replacing SREs, it's deskilling them",
    "url": "https://news.ycombinator.com/item?id=50305693",
    "link": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
-   "up": 264,
-   "com": 197,
+   "up": 292,
+   "com": 217,
    "at": "2026-10-30T15:52:18.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Proton's CEO Cancels AI 'Re-Interviews'",
+   "url": "https://news.ycombinator.com/item?id=50307183",
+   "link": "https://www.404media.co/protons-ceo-cancels-ai-re-interviews/",
+   "up": 97,
+   "com": 54,
+   "at": "2026-10-30T17:24:45.000Z"
   },
   {
    "src": "Hacker News",
@@ -1098,8 +1107,8 @@
    "t": "US tech stocks see sharp falls over AI cost fears",
    "url": "https://news.ycombinator.com/item?id=50306008",
    "link": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo",
-   "up": 140,
-   "com": 95,
+   "up": 173,
+   "com": 150,
    "at": "2026-10-30T16:13:02.000Z"
   },
   {
@@ -1113,20 +1122,11 @@
   },
   {
    "src": "Hacker News",
-   "t": "Proton's CEO Cancels AI 'Re-Interviews'",
-   "url": "https://news.ycombinator.com/item?id=50307183",
-   "link": "https://www.404media.co/protons-ceo-cancels-ai-re-interviews/",
-   "up": 50,
-   "com": 11,
-   "at": "2026-10-30T17:24:45.000Z"
-  },
-  {
-   "src": "Hacker News",
    "t": "A Working Nintendo in ~1GB of Qwen Weights",
    "url": "https://news.ycombinator.com/item?id=50306442",
    "link": "https://github.com/dbreunig/nesformer",
-   "up": 66,
-   "com": 57,
+   "up": 83,
+   "com": 68,
    "at": "2026-10-30T16:40:22.000Z"
   }
  ]
