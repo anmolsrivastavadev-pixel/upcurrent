@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-30T04:01:03.647Z"
+  "updated": "2026-10-30T04:30:50.447Z"
  },
  "pulse": {
   "trending": 80,
   "accelerating": 2,
   "newModels": 11,
   "discussions": 52,
-  "stars": 2124
+  "stars": 2116
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
    "meta": [
-    "★ 3,327",
-    "~1,255 in 24h",
+    "★ 3,337",
+    "~1,249 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-27T12:24:37Z",
@@ -57,8 +57,8 @@
    "grow": 4,
    "desc": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
    "meta": [
-    "★ 4,795",
-    "+290 in 24h",
+    "★ 4,799",
+    "+287 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-24T05:35:47Z",
@@ -74,7 +74,7 @@
    "grow": 3,
    "desc": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …",
    "meta": [
-    "★ 1,493",
+    "★ 1,495",
     "+107 in 24h",
     "Created 4 days ago"
    ],
@@ -99,6 +99,22 @@
    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
   },
   {
+   "name": "LFM3-1.7B",
+   "owner": "LiquidAI",
+   "src": "hf",
+   "cat": "LLMs",
+   "score": 90,
+   "grow": 0,
+   "desc": "Model on Hugging Face · open weights · ♥ 493",
+   "meta": [
+    "16K downloads",
+    "Released 6 days ago"
+   ],
+   "at": "2026-10-23T21:35:42.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/LiquidAI/LFM3-1.7B"
+  },
+  {
    "name": "tstack",
    "owner": "t3dotgg",
    "src": "gh",
@@ -107,29 +123,13 @@
    "grow": null,
    "desc": "The agent skills I use every day. Works with Claude Code and Codex.",
    "meta": [
-    "★ 2,411",
-    "~405 in 24h",
+    "★ 2,413",
+    "~404 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-24T05:00:20Z",
    "breakout": null,
    "url": "https://github.com/t3dotgg/tstack"
-  },
-  {
-   "name": "LFM3-1.7B",
-   "owner": "LiquidAI",
-   "src": "hf",
-   "cat": "LLMs",
-   "score": 89,
-   "grow": 0,
-   "desc": "Model on Hugging Face · open weights · ♥ 490",
-   "meta": [
-    "16K downloads",
-    "Released 6 days ago"
-   ],
-   "at": "2026-10-23T21:35:42.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/LiquidAI/LFM3-1.7B"
   },
   {
    "name": "ex-ussr-kinship-research",
@@ -140,8 +140,8 @@
    "grow": 2,
    "desc": "Evidence-first genealogy skill for AI agents (Codex, Claude Code): church books, civil, military, deportation and repression records across the former USSR. Replies in your language.",
    "meta": [
-    "★ 1,272",
-    "+67 in 24h",
+    "★ 1,274",
+    "+69 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-25T10:05:56Z",
@@ -171,7 +171,7 @@
    "cat": "Infrastructure",
    "score": 86,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 478",
+   "desc": "Model on Hugging Face · open source · ♥ 479",
    "meta": [
     "1.6M downloads",
     "Released 7 days ago"
@@ -298,8 +298,8 @@
    "name": "ai-pose-gallery-zh",
    "url": "https://github.com/anhao/ai-pose-gallery-zh",
    "from": "GitHub",
-   "use": 1255,
-   "useLabel": "~1,255 stars/day",
+   "use": 1249,
+   "useLabel": "~1,249 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -413,17 +413,17 @@
  "github": [
   {
    "repo": "anhao/ai-pose-gallery-zh",
-   "stars": 3327,
-   "d24": 1255,
+   "stars": 3337,
+   "d24": 1249,
    "est": true,
-   "forks": 865,
+   "forks": 869,
    "contrib": null,
    "score": 96
   },
   {
    "repo": "t3dotgg/tstack",
-   "stars": 2411,
-   "d24": 405,
+   "stars": 2413,
+   "d24": 404,
    "est": true,
    "forks": 149,
    "contrib": null,
@@ -431,8 +431,8 @@
   },
   {
    "repo": "rddmwmddr/android-ad-cleaner",
-   "stars": 4795,
-   "d24": 290,
+   "stars": 4799,
+   "d24": 287,
    "est": false,
    "forks": 435,
    "contrib": 19,
@@ -440,7 +440,7 @@
   },
   {
    "repo": "andyhuo520/digital-human-koubo",
-   "stars": 1493,
+   "stars": 1495,
    "d24": 107,
    "est": false,
    "forks": 339,
@@ -449,8 +449,8 @@
   },
   {
    "repo": "DenisSergeevitch/ex-ussr-kinship-research",
-   "stars": 1272,
-   "d24": 67,
+   "stars": 1274,
+   "d24": 69,
    "est": false,
    "forks": 133,
    "contrib": null,
@@ -479,7 +479,7 @@
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 3887
+   "likes": 3888
   },
   {
    "name": "LFM3-1.7B",
@@ -489,9 +489,9 @@
    "at": "2026-10-23T21:35:42.000Z",
    "dl": 15885,
    "grow": 0,
-   "score": 89,
+   "score": 90,
    "cat": "LLMs",
-   "likes": 490
+   "likes": 493
   },
   {
    "name": "flint",
@@ -513,7 +513,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 478
+   "likes": 479
   },
   {
    "name": "Unlimited-OCR-2",
@@ -920,6 +920,13 @@
  },
  "headlines": [
   {
+   "t": "CrowdStrike: China-linked hackers used AI tool ARTEX with a DeepSeek LLM and another model to target 200+ organizations in 11 days, compromising at least nine",
+   "url": "https://www.techmeme.com/261030/p1#a261030p1",
+   "at": "2026-10-30T04:01:16.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Sources: DeepSeek doubled its latest round's size due to surging black market Nvidia Blackwell chip prices, with Chinese state-owned investors representing 27%",
    "url": "https://www.techmeme.com/261029/p71#a261029p71",
    "at": "2026-10-30T03:35:00.000Z",
@@ -983,6 +990,34 @@
    "kind": "Lab blog"
   },
   {
+   "t": "AI adoption: Why most businesses struggle to turn pilots into measurable value",
+   "url": "https://timesofindia.indiatimes.com/technology/aiq/ai-adoption-why-most-businesses-struggle-to-turn-pilots-into-measurable-value/articleshow/135323222.cms",
+   "at": "2026-10-29T16:15:00Z",
+   "src": "Times of India",
+   "kind": "News"
+  },
+  {
+   "t": "Conservative groups warn letting AI giants 'recklessly crawl the internet' would jeopardize news outlets, national security: court",
+   "url": "https://nypost.com/2026/10/29/business/conservative-groups-warn-letting-ai-giants-recklessly-crawl-the-internet-would-jeopardize-news-outlets-national-security-court/",
+   "at": "2026-10-29T16:13:06Z",
+   "src": "New York Post",
+   "kind": "News"
+  },
+  {
+   "t": "How to get started with AI agents, and which are best for specific tasks",
+   "url": "https://www.manilatimes.net/2026/10/30/news/national/how-to-get-started-with-ai-agents-and-which-are-best-for-specific-tasks/2457569",
+   "at": "2026-10-29T16:13:00Z",
+   "src": "The Manila Times",
+   "kind": "News"
+  },
+  {
+   "t": "Hungry Workhorse, ClickUp accelerate enterprise productivity",
+   "url": "https://www.manilatimes.net/2026/10/30/tmt-newswire/hungry-workhorse-clickup-accelerate-enterprise-productivity/2457026",
+   "at": "2026-10-29T16:04:00Z",
+   "src": "The Manila Times",
+   "kind": "News"
+  },
+  {
    "t": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
    "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
    "at": "2026-10-29T16:00:35.000Z",
@@ -995,41 +1030,6 @@
    "at": "2026-10-29T16:00:00Z",
    "src": "The Star",
    "kind": "News"
-  },
-  {
-   "t": "The unseen hands training the machine",
-   "url": "https://www.manilatimes.net/2026/10/30/business/sunday-business-it/the-unseen-hands-training-the-machine/2457804",
-   "at": "2026-10-29T16:00:00Z",
-   "src": "The Manila Times",
-   "kind": "News"
-  },
-  {
-   "t": "Media advisory - Minister Solomon and Executive Vice-President Virkkunen to announce new partnership at Canada-European Union Summit",
-   "url": "https://www.brantfordexpositor.ca/press-releases/pr-newswire/media-advisory-minister-solomon-and-executive-vice-president-virkkunen-to-announce-new-partnership-at-canada-european-union-summit/",
-   "at": "2026-10-29T15:33:50Z",
-   "src": "The Expositor",
-   "kind": "News"
-  },
-  {
-   "t": "Reader Q&A: Send a question to Guardian columnist Aditya Chakrabortty",
-   "url": "https://www.theguardian.com/community/live/2026/oct/29/reader-qa-aditya-chakrabortty-answers-your-questions",
-   "at": "2026-10-29T15:31:25Z",
-   "src": "The Guardian",
-   "kind": "News"
-  },
-  {
-   "t": "What is it like to work when your co-workers are AI agents?",
-   "url": "https://www.theguardian.com/technology/2026/oct/29/ai-agent-coworker",
-   "at": "2026-10-29T15:00:46Z",
-   "src": "The Guardian",
-   "kind": "News"
-  },
-  {
-   "t": "Steve Eisman gets more conservative with portfolio as AI trade nears 'tipping point'",
-   "url": "https://www.europesays.com/3339815/",
-   "at": "2026-10-29T14:59:27Z",
-   "src": "EUROPE SAYS",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -1038,8 +1038,8 @@
    "t": "We're releasing the weights of Mistral Large 4",
    "url": "https://news.ycombinator.com/item?id=50289418",
    "link": "https://mistral.ai/news/mistral-large-4-oss/",
-   "up": 1260,
-   "com": 355,
+   "up": 1270,
+   "com": 357,
    "at": "2026-10-29T14:13:21.000Z"
   },
   {
@@ -1047,8 +1047,8 @@
    "t": "We ran AI agent swarms in Minecraft and Mindustry",
    "url": "https://news.ycombinator.com/item?id=50296486",
    "link": "https://labs.ycombinator.com/projects/games/index.html",
-   "up": 212,
-   "com": 68,
+   "up": 219,
+   "com": 70,
    "at": "2026-10-29T21:40:28.000Z"
   },
   {
@@ -1056,8 +1056,8 @@
    "t": "LLM Voice",
    "url": "https://news.ycombinator.com/item?id=50290177",
    "link": "https://martinfowler.com/bliki/LLM-Voice.html",
-   "up": 378,
-   "com": 200,
+   "up": 385,
+   "com": 204,
    "at": "2026-10-29T14:57:55.000Z"
   },
   {
@@ -1065,8 +1065,8 @@
    "t": "Pico CSS is no longer maintained",
    "url": "https://news.ycombinator.com/item?id=50298964",
    "link": "https://github.com/picocss/pico/discussions/754",
-   "up": 59,
-   "com": 20,
+   "up": 69,
+   "com": 21,
    "at": "2026-10-30T01:58:44.000Z"
   },
   {
@@ -1075,17 +1075,17 @@
    "url": "https://news.ycombinator.com/item?id=50290668",
    "link": "https://www.washingtonpost.com/climate-environment/2026/10/27/i-saw-future-driving-mexico-its-off-limits-americans/",
    "up": 289,
-   "com": 333,
+   "com": 336,
    "at": "2026-10-29T15:30:22.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "A tiny world model running games on a Raspberry Pi Pico 2 W",
-   "url": "https://news.ycombinator.com/item?id=50295450",
-   "link": "https://github.com/SheepSeb/tinyworldformer",
-   "up": 163,
-   "com": 9,
-   "at": "2026-10-29T20:32:28.000Z"
+   "t": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5",
+   "url": "https://news.ycombinator.com/item?id=50288019",
+   "link": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+   "up": 329,
+   "com": 240,
+   "at": "2026-10-29T12:41:56.000Z"
   }
  ]
 }
