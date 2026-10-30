@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-30T21:01:00.310Z"
+  "updated": "2026-10-30T21:03:25.278Z"
  },
  "pulse": {
   "trending": 82,
   "accelerating": 0,
   "newModels": 12,
   "discussions": 39,
-  "stars": 4582
+  "stars": 4867
  },
  "rising": [
   {
@@ -25,7 +25,7 @@
    "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
    "meta": [
     "★ 3,923",
-    "+898 in 24h",
+    "+897 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-27T12:24:37Z",
@@ -58,7 +58,7 @@
    "desc": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
    "meta": [
     "★ 5,039",
-    "+276 in 24h",
+    "+275 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-24T05:35:47Z",
@@ -75,7 +75,7 @@
    "desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
    "meta": [
     "★ 2,376",
-    "+2,222 in 24h",
+    "+2,214 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-25T08:09:52Z",
@@ -120,11 +120,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 88,
-   "grow": 3,
+   "grow": null,
    "desc": "The agent skills I use every day. Works with Claude Code and Codex.",
    "meta": [
     "★ 2,456",
-    "+73 in 24h",
+    "~368 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-24T05:00:20Z",
@@ -183,6 +183,34 @@
  ],
  "breakouts": [
   {
+   "key": "gemini 4",
+   "label": "Gemini 4",
+   "n": 4,
+   "sources": [
+    {
+     "src": "DEV",
+     "t": "Gemini 4 Carbon and an anti-LLM script: what each one actually says",
+     "url": "https://dev.to/axrisi/gemini-4-carbon-and-an-anti-llm-script-what-each-one-actually-says-5d3d"
+    },
+    {
+     "src": "Google DeepMind blog",
+     "t": "Gemini 4 Carbon: Our next frontier model",
+     "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
+    },
+    {
+     "src": "YouTube",
+     "t": "HUGE GPT-6.2 BEL LEAK! Opus 6, Gemini 4 Carbon First Look, Claude Fable 5.5, Qwen 4 & More! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=GlRVbIdc_Mk"
+    },
+    {
+     "src": "Product Hunt",
+     "t": "Gemini 4 Carbon",
+     "url": "https://www.producthunt.com/products/gemini-4-carbon?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
+    }
+   ],
+   "since": "2026-10-01T18:14:41.538Z"
+  },
+  {
    "key": "space",
    "label": "SPACE",
    "n": 4,
@@ -211,32 +239,9 @@
    "since": "2026-10-19T00:27:53.628Z"
   },
   {
-   "key": "gemini 4",
-   "label": "Gemini 4",
-   "n": 3,
-   "sources": [
-    {
-     "src": "DEV",
-     "t": "Gemini 4 Carbon and an anti-LLM script: what each one actually says",
-     "url": "https://dev.to/axrisi/gemini-4-carbon-and-an-anti-llm-script-what-each-one-actually-says-5d3d"
-    },
-    {
-     "src": "Google DeepMind blog",
-     "t": "Gemini 4 Carbon: Our next frontier model",
-     "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
-    },
-    {
-     "src": "Product Hunt",
-     "t": "Gemini 4 Carbon",
-     "url": "https://www.producthunt.com/products/gemini-4-carbon?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
-    }
-   ],
-   "since": "2026-10-01T18:14:41.538Z"
-  },
-  {
    "key": "gemini 4 carbon",
    "label": "Gemini 4 Carbon",
-   "n": 3,
+   "n": 4,
    "sources": [
     {
      "src": "Product Hunt",
@@ -252,6 +257,11 @@
      "src": "Google DeepMind blog",
      "t": "Gemini 4 Carbon: Our next frontier model",
      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
+    },
+    {
+     "src": "YouTube",
+     "t": "HUGE GPT-6.2 BEL LEAK! Opus 6, Gemini 4 Carbon First Look, Claude Fable 5.5, Qwen 4 & More! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=GlRVbIdc_Mk"
     }
    ],
    "since": "2026-10-29T09:01:09.805Z"
@@ -275,9 +285,14 @@
      "src": "Google DeepMind blog",
      "t": "Gemini 4 Carbon: Our next frontier model",
      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
+    },
+    {
+     "src": "YouTube",
+     "t": "HUGE GPT-6.2 BEL LEAK! Opus 6, Gemini 4 Carbon First Look, Claude Fable 5.5, Qwen 4 & More! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=GlRVbIdc_Mk"
     }
    ],
-   "buzz": 2,
+   "buzz": 3,
    "verdict": "Talk only, no public usage numbers"
   },
   {
@@ -297,17 +312,22 @@
      "src": "Google DeepMind blog",
      "t": "Gemini 4 Carbon: Our next frontier model",
      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
+    },
+    {
+     "src": "YouTube",
+     "t": "HUGE GPT-6.2 BEL LEAK! Opus 6, Gemini 4 Carbon First Look, Claude Fable 5.5, Qwen 4 & More! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=GlRVbIdc_Mk"
     }
    ],
-   "buzz": 2,
+   "buzz": 3,
    "verdict": "Talk only, no public usage numbers"
   },
   {
    "name": "dsh-Go",
    "url": "https://github.com/ccch1mneyyy/dsh-Go",
    "from": "GitHub",
-   "use": 2222,
-   "useLabel": "+2,222 stars/day",
+   "use": 2214,
+   "useLabel": "+2,214 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -422,7 +442,7 @@
   {
    "repo": "ccch1mneyyy/dsh-Go",
    "stars": 2376,
-   "d24": 2222,
+   "d24": 2214,
    "est": false,
    "forks": 100,
    "contrib": null,
@@ -431,7 +451,7 @@
   {
    "repo": "anhao/ai-pose-gallery-zh",
    "stars": 3923,
-   "d24": 898,
+   "d24": 897,
    "est": false,
    "forks": 1008,
    "contrib": 2,
@@ -439,12 +459,21 @@
   },
   {
    "repo": "qybaihe/bla",
-   "stars": 1367,
+   "stars": 1368,
    "d24": 541,
    "est": false,
    "forks": 186,
    "contrib": null,
    "score": 83
+  },
+  {
+   "repo": "t3dotgg/tstack",
+   "stars": 2456,
+   "d24": 368,
+   "est": true,
+   "forks": 152,
+   "contrib": null,
+   "score": 88
   },
   {
    "repo": "andyhuo520/digital-human-koubo",
@@ -458,7 +487,7 @@
   {
    "repo": "rddmwmddr/android-ad-cleaner",
    "stars": 5039,
-   "d24": 276,
+   "d24": 275,
    "est": false,
    "forks": 458,
    "contrib": 30,
@@ -472,15 +501,6 @@
    "forks": 137,
    "contrib": null,
    "score": 84
-  },
-  {
-   "repo": "t3dotgg/tstack",
-   "stars": 2456,
-   "d24": 73,
-   "est": false,
-   "forks": 152,
-   "contrib": null,
-   "score": 88
   }
  ],
  "models": [
@@ -1017,13 +1037,6 @@
    "kind": "News"
   },
   {
-   "t": "Jon Stewart & The News Team Tackle AI’s Looming Threat, Rebrand & Lax Regulations | The Daily Show",
-   "url": "https://www.youtube.com/watch?v=tOeFyixOgD0",
-   "at": "2026-10-30T15:00:32Z",
-   "src": "The Daily Show",
-   "kind": "Video"
-  },
-  {
    "t": "Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
    "url": "https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/",
    "at": "2026-10-30T15:00:10.000Z",
@@ -1057,6 +1070,13 @@
    "at": "2026-10-30T09:00:00.000Z",
    "src": "OpenAI",
    "kind": "Lab blog"
+  },
+  {
+   "t": "How Can the Public Shape the Future of AI?",
+   "url": "https://www.swissinfo.ch/eng/research-frontiers/science-podcast-how-to-open-up-public-debate-on-ai/92192218",
+   "at": "2026-10-30T09:00:00Z",
+   "src": "Swissinfo (EN)",
+   "kind": "News"
   }
  ],
  "discussions": [
@@ -1066,7 +1086,7 @@
    "url": "https://news.ycombinator.com/item?id=50305693",
    "link": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
    "up": 396,
-   "com": 300,
+   "com": 301,
    "at": "2026-10-30T15:52:18.000Z"
   },
   {
@@ -1092,8 +1112,8 @@
    "t": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
    "url": "https://news.ycombinator.com/item?id=50300683",
    "link": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
-   "up": 627,
-   "com": 420,
+   "up": 629,
+   "com": 422,
    "at": "2026-10-30T07:09:12.000Z"
   },
   {
@@ -1107,12 +1127,12 @@
   },
   {
    "src": "Hacker News",
-   "t": "GitHub Incident with Actions, Pages, and Webhooks",
-   "url": "https://news.ycombinator.com/item?id=50307723",
-   "link": "https://www.githubstatus.com/incidents/pwxsjgnvrk6b",
-   "up": 115,
-   "com": 44,
-   "at": "2026-10-30T17:57:35.000Z"
+   "t": "Claude Code VS Code extension with backdoor released on Cursor marketplace",
+   "url": "https://news.ycombinator.com/item?id=50301983",
+   "link": "https://doublepulsar.com/anthropic-hacked-to-deliver-remote-access-trojan-to-claude-developer-laptops-worldwide-1148a92baae2",
+   "up": 397,
+   "com": 1,
+   "at": "2026-10-30T10:22:51.000Z"
   }
  ]
 }
