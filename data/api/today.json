@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-30T01:30:52.842Z"
+  "updated": "2026-10-30T02:01:01.838Z"
  },
  "pulse": {
   "trending": 81,
   "accelerating": 2,
-  "newModels": 11,
+  "newModels": 10,
   "discussions": 50,
-  "stars": 2762
+  "stars": 2461
  },
  "rising": [
   {
@@ -24,7 +24,7 @@
    "grow": null,
    "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
    "meta": [
-    "★ 3,193",
+    "★ 3,219",
     "~1,254 in 24h",
     "Created 3 days ago"
    ],
@@ -38,8 +38,8 @@
    "src": "hf",
    "cat": "Infrastructure",
    "score": 92,
-   "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 778",
+   "grow": 0,
+   "desc": "Model on Hugging Face · open source · ♥ 777",
    "meta": [
     "9.7K downloads",
     "Released 6 days ago"
@@ -57,8 +57,8 @@
    "grow": 3,
    "desc": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
    "meta": [
-    "★ 4,739",
-    "+242 in 24h",
+    "★ 4,752",
+    "+256 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-24T05:35:47Z",
@@ -71,11 +71,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 91,
-   "grow": null,
+   "grow": 1,
    "desc": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …",
    "meta": [
-    "★ 1,469",
-    "~379 in 24h",
+    "★ 1,473",
+    "+66 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-26T04:34:09Z",
@@ -107,8 +107,8 @@
    "grow": null,
    "desc": "The agent skills I use every day. Works with Claude Code and Codex.",
    "meta": [
-    "★ 2,399",
-    "~410 in 24h",
+    "★ 2,402",
+    "~409 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-24T05:00:20Z",
@@ -122,7 +122,7 @@
    "cat": "LLMs",
    "score": 89,
    "grow": 0,
-   "desc": "Model on Hugging Face · open weights · ♥ 484",
+   "desc": "Model on Hugging Face · open weights · ♥ 485",
    "meta": [
     "16K downloads",
     "Released 6 days ago"
@@ -156,8 +156,8 @@
    "grow": null,
    "desc": "Evidence-first genealogy skill for AI agents (Codex, Claude Code): church books, civil, military, deportation and repression records across the former USSR. Replies in your language.",
    "meta": [
-    "★ 1,269",
-    "~273 in 24h",
+    "★ 1,270",
+    "~272 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-25T10:05:56Z",
@@ -171,7 +171,7 @@
    "cat": "Infrastructure",
    "score": 86,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 471",
+   "desc": "Model on Hugging Face · open source · ♥ 473",
    "meta": [
     "1.6M downloads",
     "Released 7 days ago"
@@ -185,7 +185,7 @@
   {
    "key": "gemini 4",
    "label": "Gemini 4",
-   "n": 4,
+   "n": 5,
    "sources": [
     {
      "src": "Hacker News",
@@ -201,6 +201,11 @@
      "src": "Google DeepMind blog",
      "t": "Gemini 4 Carbon: Our next frontier model",
      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
+    },
+    {
+     "src": "The Indian Express",
+     "t": "What is Gemini 4 Carbon, Google’s new AI model for finding, fixing security flaws?",
+     "url": "https://indianexpress.com/article/technology/artificial-intelligence/what-is-gemini-carbon-4-google-ai-model-explained-10942297/"
     },
     {
      "src": "Product Hunt",
@@ -213,7 +218,7 @@
   {
    "key": "gemini 4 carbon",
    "label": "Gemini 4 Carbon",
-   "n": 4,
+   "n": 5,
    "sources": [
     {
      "src": "Product Hunt",
@@ -234,6 +239,11 @@
      "src": "Google DeepMind blog",
      "t": "Gemini 4 Carbon: Our next frontier model",
      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
+    },
+    {
+     "src": "The Indian Express",
+     "t": "What is Gemini 4 Carbon, Google’s new AI model for finding, fixing security flaws?",
+     "url": "https://indianexpress.com/article/technology/artificial-intelligence/what-is-gemini-carbon-4-google-ai-model-explained-10942297/"
     }
    ],
    "since": "2026-10-29T09:01:09.805Z"
@@ -262,9 +272,14 @@
      "src": "Google DeepMind blog",
      "t": "Gemini 4 Carbon: Our next frontier model",
      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
+    },
+    {
+     "src": "The Indian Express",
+     "t": "What is Gemini 4 Carbon, Google’s new AI model for finding, fixing security flaws?",
+     "url": "https://indianexpress.com/article/technology/artificial-intelligence/what-is-gemini-carbon-4-google-ai-model-explained-10942297/"
     }
    ],
-   "buzz": 3,
+   "buzz": 4,
    "verdict": "Talk only, no public usage numbers"
   },
   {
@@ -289,9 +304,14 @@
      "src": "Google DeepMind blog",
      "t": "Gemini 4 Carbon: Our next frontier model",
      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
+    },
+    {
+     "src": "The Indian Express",
+     "t": "What is Gemini 4 Carbon, Google’s new AI model for finding, fixing security flaws?",
+     "url": "https://indianexpress.com/article/technology/artificial-intelligence/what-is-gemini-carbon-4-google-ai-model-explained-10942297/"
     }
    ],
-   "buzz": 3,
+   "buzz": 4,
    "verdict": "Talk only, no public usage numbers"
   },
   {
@@ -329,6 +349,16 @@
   }
  ],
  "receipts": [
+  {
+   "name": "SoMarkAI/OXR",
+   "url": "https://github.com/SoMarkAI/OXR",
+   "kind": "stars",
+   "first": "2026-10-27T04:01:04.784Z",
+   "firstV": 1047,
+   "m": 2500,
+   "at": "2026-10-30T02:01:01.838Z",
+   "lead": 69.99918166666667
+  },
   {
    "name": "XHToken/Spark-X2.6-4B",
    "url": "https://huggingface.co/XHToken/Spark-X2.6-4B",
@@ -398,50 +428,31 @@
    "m": 2500,
    "at": "2026-10-28T15:25:10.018Z",
    "lead": 92.4447475
-  },
-  {
-   "name": "Vincentwei1021/mg-styles-15",
-   "url": "https://github.com/Vincentwei1021/mg-styles-15",
-   "kind": "stars",
-   "first": "2026-10-18T02:30:49.857Z",
-   "firstV": 1001,
-   "m": 2500,
-   "at": "2026-10-28T13:30:55.757Z",
-   "lead": 251.0016388888889
   }
  ],
  "github": [
   {
    "repo": "anhao/ai-pose-gallery-zh",
-   "stars": 3193,
+   "stars": 3219,
    "d24": 1254,
    "est": true,
-   "forks": 822,
+   "forks": 827,
    "contrib": null,
    "score": 96
   },
   {
    "repo": "t3dotgg/tstack",
-   "stars": 2399,
-   "d24": 410,
+   "stars": 2402,
+   "d24": 409,
    "est": true,
    "forks": 147,
    "contrib": null,
    "score": 89
   },
   {
-   "repo": "andyhuo520/digital-human-koubo",
-   "stars": 1469,
-   "d24": 379,
-   "est": true,
-   "forks": 335,
-   "contrib": null,
-   "score": 91
-  },
-  {
    "repo": "DenisSergeevitch/ex-ussr-kinship-research",
-   "stars": 1269,
-   "d24": 273,
+   "stars": 1270,
+   "d24": 272,
    "est": true,
    "forks": 133,
    "contrib": null,
@@ -449,21 +460,30 @@
   },
   {
    "repo": "rddmwmddr/android-ad-cleaner",
-   "stars": 4739,
-   "d24": 242,
+   "stars": 4752,
+   "d24": 256,
    "est": false,
-   "forks": 426,
+   "forks": 428,
    "contrib": 19,
    "score": 91
   },
   {
    "repo": "morganlinton/BeautifulRust",
-   "stars": 1417,
+   "stars": 1418,
    "d24": 204,
    "est": true,
    "forks": 68,
    "contrib": null,
    "score": 81
+  },
+  {
+   "repo": "andyhuo520/digital-human-koubo",
+   "stars": 1473,
+   "d24": 66,
+   "est": false,
+   "forks": 337,
+   "contrib": null,
+   "score": 91
   }
  ],
  "models": [
@@ -474,10 +494,10 @@
    "lic": "Open source",
    "at": "2026-10-24T02:49:18.000Z",
    "dl": 9655,
-   "grow": null,
+   "grow": 0,
    "score": 92,
    "cat": "Infrastructure",
-   "likes": 778
+   "likes": 777
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -488,7 +508,7 @@
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 3778
+   "likes": 3783
   },
   {
    "name": "LFM3-1.7B",
@@ -500,7 +520,7 @@
    "grow": 0,
    "score": 89,
    "cat": "LLMs",
-   "likes": 484
+   "likes": 485
   },
   {
    "name": "flint",
@@ -522,7 +542,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 471
+   "likes": 473
   },
   {
    "name": "Spark-X2.6-4B",
@@ -852,6 +872,13 @@
    "kind": "News"
   },
   {
+   "t": "Bill Gates: 20 Years Of CHAOS COMING From AI",
+   "url": "https://www.youtube.com/watch?v=Ku3hwyd51aw",
+   "at": "2026-10-29T18:30:34Z",
+   "src": "Breaking Points",
+   "kind": "Video"
+  },
+  {
    "t": "An updated Model Spec for more capable and beneficial AI",
    "url": "https://openai.com/index/updated-model-spec",
    "at": "2026-10-29T17:00:00.000Z",
@@ -880,60 +907,53 @@
    "kind": "News"
   },
   {
+   "t": "First AI Game Index: Claude Dominates Game Development, but OpenAI Captures the Players",
+   "url": "https://techbullion.com/first-ai-game-index-claude-dominates-game-development-but-openai-captures-the-players/",
+   "at": "2026-10-29T14:00:08Z",
+   "src": "TechBullion",
+   "kind": "News"
+  },
+  {
+   "t": "If you’d invested $1,000 in Oracle stock 20 years ago, here’s how much you’d have today",
+   "url": "https://economictimes.indiatimes.com/world/business/if-youd-invested-1000-in-oracle-stock-20-years-ago-heres-how-much-youd-have-today/articleshow/135308776.cms",
+   "at": "2026-10-29T14:00:00Z",
+   "src": "The Economic Times",
+   "kind": "News"
+  },
+  {
+   "t": "Months after release of GPT-6 Astra, report says two top Chinese AI companies ‘copied’ what OpenAI called ‘world’s most intelligent and aligned model’",
+   "url": "https://timesofindia.indiatimes.com/technology/tech-news/months-after-release-of-gpt-6-astra-report-says-two-top-chinese-ai-companies-copied-what-openai-called-worlds-most-intelligent-and-aligned-model/articleshow/135318341.cms",
+   "at": "2026-10-29T14:00:00Z",
+   "src": "Times of India",
+   "kind": "News"
+  },
+  {
+   "t": "AI and data analytics to power next phase of government audits, says CAG",
+   "url": "https://economictimes.indiatimes.com/news/economy/policy/ai-and-data-analytics-to-power-next-phase-of-government-audits-says-cag/articleshow/135318524.cms",
+   "at": "2026-10-29T13:58:00Z",
+   "src": "The Economic Times",
+   "kind": "News"
+  },
+  {
+   "t": "AI Stocks Fall After Alphabet Earnings Disappoint, U.S. Growth Tops Forecasts -- Update",
+   "url": "https://www.marketscreener.com/news/ai-stocks-fall-after-alphabet-earnings-disappoint-u-s-growth-tops-forecasts-update-ce785fdad98ff62d",
+   "at": "2026-10-29T13:52:30Z",
+   "src": "MarketScreener",
+   "kind": "News"
+  },
+  {
+   "t": "What is Gemini 4 Carbon, Google’s new AI model for finding, fixing security flaws?",
+   "url": "https://indianexpress.com/article/technology/artificial-intelligence/what-is-gemini-carbon-4-google-ai-model-explained-10942297/",
+   "at": "2026-10-29T13:40:58Z",
+   "src": "The Indian Express",
+   "kind": "News"
+  },
+  {
    "t": "Granite Switch 4.1.1 — Update models like you update software",
    "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
    "at": "2026-10-29T13:37:07.000Z",
    "src": "Hugging Face",
    "kind": "Lab blog"
-  },
-  {
-   "t": "Why it should be used as a friend, companion, therapist",
-   "url": "https://www.cp24.com/news/canada/2026/10/29/the-problems-with-viewing-ai-as-a-friend-companion-or-therapist/",
-   "at": "2026-10-29T13:28:26Z",
-   "src": "CP24 Toronto",
-   "kind": "News"
-  },
-  {
-   "t": "Could Abdul El-Sayed’s plan for AI companies stave off catastrophe? | Jerel Ezell",
-   "url": "https://www.theguardian.com/commentisfree/2026/oct/29/abdul-el-sayed-ai-companies-public-ownership",
-   "at": "2026-10-29T13:00:44Z",
-   "src": "The Guardian",
-   "kind": "News"
-  },
-  {
-   "t": "Slice Into GFN Thursday: ‘Phantom Blade Zero’ Launches on GeForce NOW",
-   "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-phantom-blade-zero/",
-   "at": "2026-10-29T13:00:16.000Z",
-   "src": "NVIDIA",
-   "kind": "Lab blog"
-  },
-  {
-   "t": "US economy grows at brisk 3.4% pace in third quarter on strong consumer spending and AI investment",
-   "url": "https://www.ajc.com/news/2026/10/us-economy-grows-at-brisk-34-pace-in-third-quarter-on-strong-consumer-spending-and-ai-investment/",
-   "at": "2026-10-29T12:43:26Z",
-   "src": "The Atlanta Journal-Constitution",
-   "kind": "News"
-  },
-  {
-   "t": "Nearly half of severely distressed generative AI users turn to chatbots for emotional support, study finds",
-   "url": "https://medicalxpress.com/news/2026-10-severely-distressed-generative-ai-users.html",
-   "at": "2026-10-29T12:40:07Z",
-   "src": "Medical Xpress",
-   "kind": "News"
-  },
-  {
-   "t": "MEDIA ADVISORY - BMO Hosts Inaugural Technology and Innovation Leaders Conference in New York",
-   "url": "https://www.brantfordexpositor.ca/press-releases/pr-newswire/media-advisory-bmo-hosts-inaugural-technology-and-innovation-leaders-conference-in-new-york/",
-   "at": "2026-10-29T12:34:31Z",
-   "src": "The Expositor",
-   "kind": "News"
-  },
-  {
-   "t": "Adgully to Host FINIXX Summit & Awards 2026 on the Future of Finance, AI and Trust",
-   "url": "https://www.aninews.in/news/business/adgully-to-host-finixx-summit-amp-awards-2026-on-the-future-of-finance-ai-and-trust20261029175949/",
-   "at": "2026-10-29T12:29:49Z",
-   "src": "ANI (Asian News International)",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -942,8 +962,8 @@
    "t": "We're releasing the weights of Mistral Large 4",
    "url": "https://news.ycombinator.com/item?id=50289418",
    "link": "https://mistral.ai/news/mistral-large-4-oss/",
-   "up": 1189,
-   "com": 338,
+   "up": 1210,
+   "com": 340,
    "at": "2026-10-29T14:13:21.000Z"
   },
   {
@@ -951,8 +971,8 @@
    "t": "We ran AI agent swarms in Minecraft and Mindustry",
    "url": "https://news.ycombinator.com/item?id=50296486",
    "link": "https://labs.ycombinator.com/projects/games/index.html",
-   "up": 149,
-   "com": 57,
+   "up": 163,
+   "com": 62,
    "at": "2026-10-29T21:40:28.000Z"
   },
   {
@@ -960,8 +980,8 @@
    "t": "LLM Voice",
    "url": "https://news.ycombinator.com/item?id=50290177",
    "link": "https://martinfowler.com/bliki/LLM-Voice.html",
-   "up": 338,
-   "com": 178,
+   "up": 346,
+   "com": 180,
    "at": "2026-10-29T14:57:55.000Z"
   },
   {
@@ -969,9 +989,18 @@
    "t": "I went to Mexico to test-drive the cars Americans can’t buy",
    "url": "https://news.ycombinator.com/item?id=50290668",
    "link": "https://www.washingtonpost.com/climate-environment/2026/10/27/i-saw-future-driving-mexico-its-off-limits-americans/",
-   "up": 279,
-   "com": 323,
+   "up": 282,
+   "com": 324,
    "at": "2026-10-29T15:30:22.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Claude Code regularly sends each background agent’s transcript to its model",
+   "url": "https://news.ycombinator.com/item?id=50284255",
+   "link": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+   "up": 561,
+   "com": 225,
+   "at": "2026-10-29T03:33:42.000Z"
   },
   {
    "src": "Hacker News",
@@ -981,15 +1010,6 @@
    "up": 328,
    "com": 240,
    "at": "2026-10-29T12:41:56.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Claude Code regularly sends each background agent’s transcript to its model",
-   "url": "https://news.ycombinator.com/item?id=50284255",
-   "link": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
-   "up": 560,
-   "com": 225,
-   "at": "2026-10-29T03:33:42.000Z"
   }
  ]
 }
