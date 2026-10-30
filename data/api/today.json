@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-30T05:01:03.120Z"
+  "updated": "2026-10-30T05:30:50.216Z"
  },
  "pulse": {
-  "trending": 80,
+  "trending": 81,
   "accelerating": 2,
   "newModels": 11,
   "discussions": 52,
-  "stars": 2112
+  "stars": 2397
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
    "meta": [
-    "★ 3,354",
-    "~1,246 in 24h",
+    "★ 3,382",
+    "~1,247 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-27T12:24:37Z",
@@ -57,8 +57,8 @@
    "grow": 4,
    "desc": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
    "meta": [
-    "★ 4,800",
-    "+279 in 24h",
+    "★ 4,812",
+    "+288 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-24T05:35:47Z",
@@ -74,8 +74,8 @@
    "grow": 3,
    "desc": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …",
    "meta": [
-    "★ 1,500",
-    "+114 in 24h",
+    "★ 1,502",
+    "+113 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-26T04:34:09Z",
@@ -105,7 +105,7 @@
    "cat": "LLMs",
    "score": 90,
    "grow": 0,
-   "desc": "Model on Hugging Face · open weights · ♥ 494",
+   "desc": "Model on Hugging Face · open weights · ♥ 496",
    "meta": [
     "16K downloads",
     "Released 6 days ago"
@@ -123,8 +123,8 @@
    "grow": null,
    "desc": "The agent skills I use every day. Works with Claude Code and Codex.",
    "meta": [
-    "★ 2,413",
-    "~402 in 24h",
+    "★ 2,414",
+    "~401 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-24T05:00:20Z",
@@ -132,16 +132,33 @@
    "url": "https://github.com/t3dotgg/tstack"
   },
   {
+   "name": "claude-skill",
+   "owner": "Motionsites-AI",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 87,
+   "grow": null,
+   "desc": "Free Claude skill: make Claude build award-level, cinematic landing pages. By MotionSites.",
+   "meta": [
+    "★ 1,099",
+    "~279 in 24h",
+    "Created 4 days ago"
+   ],
+   "at": "2026-10-26T06:58:45Z",
+   "breakout": null,
+   "url": "https://github.com/Motionsites-AI/claude-skill"
+  },
+  {
    "name": "ex-ussr-kinship-research",
    "owner": "DenisSergeevitch",
    "src": "gh",
    "cat": "Agents",
-   "score": 87,
+   "score": 86,
    "grow": 2,
    "desc": "Evidence-first genealogy skill for AI agents (Codex, Claude Code): church books, civil, military, deportation and repression records across the former USSR. Replies in your language.",
    "meta": [
-    "★ 1,276",
-    "+71 in 24h",
+    "★ 1,277",
+    "+69 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-25T10:05:56Z",
@@ -163,29 +180,13 @@
    "at": "2026-10-21T14:20:58.000Z",
    "breakout": null,
    "url": "https://huggingface.co/RecursiveSI/flint"
-  },
-  {
-   "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
-   "owner": "ISTA-DASLab",
-   "src": "hf",
-   "cat": "Infrastructure",
-   "score": 86,
-   "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 479",
-   "meta": [
-    "1.6M downloads",
-    "Released 7 days ago"
-   ],
-   "at": "2026-10-23T09:43:05.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF"
   }
  ],
  "breakouts": [
   {
    "key": "gemini 4",
    "label": "Gemini 4",
-   "n": 4,
+   "n": 5,
    "sources": [
     {
      "src": "Hacker News",
@@ -201,6 +202,11 @@
      "src": "Google DeepMind blog",
      "t": "Gemini 4 Carbon: Our next frontier model",
      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
+    },
+    {
+     "src": "Theregister.com",
+     "t": "Google's Gemini 4 Carbon looks like a diamond in the rough",
+     "url": "https://www.theregister.com/ai-and-ml/2026/10/29/googles-gemini-4-carbon-looks-like-a-diamond-in-the-rough/5306149"
     },
     {
      "src": "Product Hunt",
@@ -213,7 +219,7 @@
   {
    "key": "gemini 4 carbon",
    "label": "Gemini 4 Carbon",
-   "n": 4,
+   "n": 5,
    "sources": [
     {
      "src": "Product Hunt",
@@ -234,6 +240,11 @@
      "src": "Google DeepMind blog",
      "t": "Gemini 4 Carbon: Our next frontier model",
      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
+    },
+    {
+     "src": "Theregister.com",
+     "t": "Google's Gemini 4 Carbon looks like a diamond in the rough",
+     "url": "https://www.theregister.com/ai-and-ml/2026/10/29/googles-gemini-4-carbon-looks-like-a-diamond-in-the-rough/5306149"
     }
    ],
    "since": "2026-10-29T09:01:09.805Z"
@@ -262,9 +273,14 @@
      "src": "Google DeepMind blog",
      "t": "Gemini 4 Carbon: Our next frontier model",
      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
+    },
+    {
+     "src": "Theregister.com",
+     "t": "Google's Gemini 4 Carbon looks like a diamond in the rough",
+     "url": "https://www.theregister.com/ai-and-ml/2026/10/29/googles-gemini-4-carbon-looks-like-a-diamond-in-the-rough/5306149"
     }
    ],
-   "buzz": 3,
+   "buzz": 4,
    "verdict": "Talk only, no public usage numbers"
   },
   {
@@ -289,17 +305,22 @@
      "src": "Google DeepMind blog",
      "t": "Gemini 4 Carbon: Our next frontier model",
      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
+    },
+    {
+     "src": "Theregister.com",
+     "t": "Google's Gemini 4 Carbon looks like a diamond in the rough",
+     "url": "https://www.theregister.com/ai-and-ml/2026/10/29/googles-gemini-4-carbon-looks-like-a-diamond-in-the-rough/5306149"
     }
    ],
-   "buzz": 3,
+   "buzz": 4,
    "verdict": "Talk only, no public usage numbers"
   },
   {
    "name": "ai-pose-gallery-zh",
    "url": "https://github.com/anhao/ai-pose-gallery-zh",
    "from": "GitHub",
-   "use": 1246,
-   "useLabel": "~1,246 stars/day",
+   "use": 1247,
+   "useLabel": "~1,247 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -413,17 +434,17 @@
  "github": [
   {
    "repo": "anhao/ai-pose-gallery-zh",
-   "stars": 3354,
-   "d24": 1246,
+   "stars": 3382,
+   "d24": 1247,
    "est": true,
-   "forks": 874,
+   "forks": 880,
    "contrib": null,
    "score": 96
   },
   {
    "repo": "t3dotgg/tstack",
-   "stars": 2413,
-   "d24": 402,
+   "stars": 2414,
+   "d24": 401,
    "est": true,
    "forks": 149,
    "contrib": null,
@@ -431,17 +452,26 @@
   },
   {
    "repo": "rddmwmddr/android-ad-cleaner",
-   "stars": 4800,
-   "d24": 279,
+   "stars": 4812,
+   "d24": 288,
    "est": false,
    "forks": 435,
    "contrib": 19,
    "score": 91
   },
   {
+   "repo": "Motionsites-AI/claude-skill",
+   "stars": 1099,
+   "d24": 279,
+   "est": true,
+   "forks": 115,
+   "contrib": null,
+   "score": 87
+  },
+  {
    "repo": "andyhuo520/digital-human-koubo",
-   "stars": 1500,
-   "d24": 114,
+   "stars": 1502,
+   "d24": 113,
    "est": false,
    "forks": 340,
    "contrib": null,
@@ -449,12 +479,12 @@
   },
   {
    "repo": "DenisSergeevitch/ex-ussr-kinship-research",
-   "stars": 1276,
-   "d24": 71,
+   "stars": 1277,
+   "d24": 69,
    "est": false,
    "forks": 133,
    "contrib": null,
-   "score": 87
+   "score": 86
   }
  ],
  "models": [
@@ -479,7 +509,7 @@
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 3889
+   "likes": 3891
   },
   {
    "name": "LFM3-1.7B",
@@ -491,7 +521,7 @@
    "grow": 0,
    "score": 90,
    "cat": "LLMs",
-   "likes": 494
+   "likes": 496
   },
   {
    "name": "flint",
@@ -502,7 +532,7 @@
    "grow": 18,
    "score": 86,
    "cat": "LLMs",
-   "likes": 1246
+   "likes": 1247
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
@@ -524,7 +554,7 @@
    "grow": null,
    "score": 86,
    "cat": "Vision",
-   "likes": 415
+   "likes": 417
   }
  ],
  "free": [
@@ -976,13 +1006,6 @@
    "kind": "News"
   },
   {
-   "t": "Sources: Nvidia is in talks to provide Nscale with billions of dollars in credit guarantees for debt to develop a 460MW data center that Anthropic plans to use",
-   "url": "https://www.techmeme.com/261029/p59#a261029p59",
-   "at": "2026-10-29T22:55:00.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Carney makes announcement about AI and digital sovereignty",
    "url": "https://www.youtube.com/watch?v=6ZyVwicoivM",
    "at": "2026-10-29T19:48:07Z",
@@ -990,46 +1013,53 @@
    "kind": "Video"
   },
   {
+   "t": "Robot models, Meta Glasses and AI Spon-Con: Fashion cozies up to tech",
+   "url": "https://www.mercurynews.com/2026/10/29/robot-models-meta-glasses-and-ai-spon-con-fashion-cozies-up-to-tech-2/",
+   "at": "2026-10-29T17:26:20Z",
+   "src": "The Mercury News",
+   "kind": "News"
+  },
+  {
+   "t": "related job cuts wants you back – WTOP News",
+   "url": "https://wtop.com/national/2026/10/what-to-consider-if-a-company-that-made-ai-related-job-cuts-wants-you-back/",
+   "at": "2026-10-29T17:23:50Z",
+   "src": "WTOP",
+   "kind": "News"
+  },
+  {
+   "t": "What to consider if a company that made AI-related job cuts wants you back",
+   "url": "https://www.clickondetroit.com/business/2026/10/29/what-to-consider-if-a-company-that-made-ai-related-job-cuts-wants-you-back/",
+   "at": "2026-10-29T17:22:46Z",
+   "src": "WDIV ClickOnDetroit",
+   "kind": "News"
+  },
+  {
+   "t": "Microsoft Offers Voluntary Buyouts to About 60,000 Employees as AI Spending Grows",
+   "url": "https://www.naturalnews.com/2026-10-29-microsoft-offers-voluntary-buyouts-employees-ai-spending.html",
+   "at": "2026-10-29T17:21:56Z",
+   "src": "Natural News",
+   "kind": "News"
+  },
+  {
+   "t": "Apple and OpenAI head to trial in July.",
+   "url": "https://www.theverge.com/tech/1022385/apple-and-openai-head-to-trial-in-july",
+   "at": "2026-10-29T17:19:07Z",
+   "src": "The Verge",
+   "kind": "News"
+  },
+  {
+   "t": "'I think this is a great time to go do the new thing': OpenAI CEO Sam Altman thinks Gen Z entering the workforce should throw out the rulebook and do their own thing",
+   "url": "https://www.techradar.com/pro/i-think-this-is-a-great-time-to-go-do-the-new-thing-openai-ceo-sam-altman-thinks-gen-z-entering-the-workforce-should-throw-out-the-rulebook-and-do-their-own-thing",
+   "at": "2026-10-29T17:05:00Z",
+   "src": "TechRadar",
+   "kind": "News"
+  },
+  {
    "t": "An updated Model Spec for more capable and beneficial AI",
    "url": "https://openai.com/index/updated-model-spec",
    "at": "2026-10-29T17:00:00.000Z",
    "src": "OpenAI",
    "kind": "Lab blog"
-  },
-  {
-   "t": "Canada announces landmark investment in Cohere to scale secure, sovereign AI",
-   "url": "https://www.brantfordexpositor.ca/press-releases/pr-newswire/canada-announces-landmark-investment-in-cohere-to-scale-secure-sovereign-ai/",
-   "at": "2026-10-29T16:55:16Z",
-   "src": "The Expositor",
-   "kind": "News"
-  },
-  {
-   "t": "India, Armenia review bilateral ties during Foreign Office Consultations: MEA",
-   "url": "https://www.tribuneindia.com/news/world/india-armenia-review-bilateral-ties-during-foreign-office-consultations-mea/",
-   "at": "2026-10-29T16:38:10Z",
-   "src": "The Tribune",
-   "kind": "News"
-  },
-  {
-   "t": "AI adoption: Why most businesses struggle to turn pilots into measurable value",
-   "url": "https://timesofindia.indiatimes.com/technology/aiq/ai-adoption-why-most-businesses-struggle-to-turn-pilots-into-measurable-value/articleshow/135323222.cms",
-   "at": "2026-10-29T16:15:00Z",
-   "src": "Times of India",
-   "kind": "News"
-  },
-  {
-   "t": "Conservative groups warn letting AI giants 'recklessly crawl the internet' would jeopardize news outlets, national security: court",
-   "url": "https://nypost.com/2026/10/29/business/conservative-groups-warn-letting-ai-giants-recklessly-crawl-the-internet-would-jeopardize-news-outlets-national-security-court/",
-   "at": "2026-10-29T16:13:06Z",
-   "src": "New York Post",
-   "kind": "News"
-  },
-  {
-   "t": "How to get started with AI agents, and which are best for specific tasks",
-   "url": "https://www.manilatimes.net/2026/10/30/news/national/how-to-get-started-with-ai-agents-and-which-are-best-for-specific-tasks/2457569",
-   "at": "2026-10-29T16:13:00Z",
-   "src": "The Manila Times",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -1038,8 +1068,8 @@
    "t": "We're releasing the weights of Mistral Large 4",
    "url": "https://news.ycombinator.com/item?id=50289418",
    "link": "https://mistral.ai/news/mistral-large-4-oss/",
-   "up": 1281,
-   "com": 358,
+   "up": 1291,
+   "com": 359,
    "at": "2026-10-29T14:13:21.000Z"
   },
   {
@@ -1047,8 +1077,8 @@
    "t": "We ran AI agent swarms in Minecraft and Mindustry",
    "url": "https://news.ycombinator.com/item?id=50296486",
    "link": "https://labs.ycombinator.com/projects/games/index.html",
-   "up": 225,
-   "com": 72,
+   "up": 231,
+   "com": 75,
    "at": "2026-10-29T21:40:28.000Z"
   },
   {
@@ -1056,8 +1086,8 @@
    "t": "LLM Voice",
    "url": "https://news.ycombinator.com/item?id=50290177",
    "link": "https://martinfowler.com/bliki/LLM-Voice.html",
-   "up": 389,
-   "com": 208,
+   "up": 398,
+   "com": 210,
    "at": "2026-10-29T14:57:55.000Z"
   },
   {
@@ -1065,8 +1095,8 @@
    "t": "Pico CSS is no longer maintained",
    "url": "https://news.ycombinator.com/item?id=50298964",
    "link": "https://github.com/picocss/pico/discussions/754",
-   "up": 73,
-   "com": 21,
+   "up": 80,
+   "com": 22,
    "at": "2026-10-30T01:58:44.000Z"
   },
   {
@@ -1074,8 +1104,8 @@
    "t": "I went to Mexico to test-drive the cars Americans can’t buy",
    "url": "https://news.ycombinator.com/item?id=50290668",
    "link": "https://www.washingtonpost.com/climate-environment/2026/10/27/i-saw-future-driving-mexico-its-off-limits-americans/",
-   "up": 290,
-   "com": 337,
+   "up": 291,
+   "com": 339,
    "at": "2026-10-29T15:30:22.000Z"
   },
   {
