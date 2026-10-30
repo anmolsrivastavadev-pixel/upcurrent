@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-30T00:30:49.643Z"
+  "updated": "2026-10-30T01:01:09.474Z"
  },
  "pulse": {
   "trending": 81,
   "accelerating": 2,
   "newModels": 11,
-  "discussions": 47,
-  "stars": 2441
+  "discussions": 51,
+  "stars": 2727
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Vision",
    "score": 96,
-   "grow": 44,
+   "grow": 45,
    "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
    "meta": [
-    "★ 3,136",
-    "+1,215 in 24h",
+    "★ 3,163",
+    "+1,217 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-27T12:24:37Z",
@@ -39,7 +39,7 @@
    "cat": "Infrastructure",
    "score": 92,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 774",
+   "desc": "Model on Hugging Face · open source · ♥ 776",
    "meta": [
     "9.7K downloads",
     "Released 6 days ago"
@@ -57,8 +57,8 @@
    "grow": 3,
    "desc": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
    "meta": [
-    "★ 4,724",
-    "+232 in 24h",
+    "★ 4,733",
+    "+240 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-24T05:35:47Z",
@@ -75,7 +75,7 @@
    "desc": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …",
    "meta": [
     "★ 1,464",
-    "~382 in 24h",
+    "~380 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-26T04:34:09Z",
@@ -104,11 +104,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 89,
-   "grow": 5,
+   "grow": null,
    "desc": "The agent skills I use every day. Works with Claude Code and Codex.",
    "meta": [
-    "★ 2,393",
-    "+132 in 24h",
+    "★ 2,395",
+    "~411 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-24T05:00:20Z",
@@ -122,7 +122,7 @@
    "cat": "LLMs",
    "score": 89,
    "grow": 0,
-   "desc": "Model on Hugging Face · open weights · ♥ 480",
+   "desc": "Model on Hugging Face · open weights · ♥ 483",
    "meta": [
     "16K downloads",
     "Released 6 days ago"
@@ -157,7 +157,7 @@
    "desc": "Evidence-first genealogy skill for AI agents (Codex, Claude Code): church books, civil, military, deportation and repression records across the former USSR. Replies in your language.",
    "meta": [
     "★ 1,266",
-    "~275 in 24h",
+    "~274 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-25T10:05:56Z",
@@ -171,7 +171,7 @@
    "cat": "LLMs",
    "score": 85,
    "grow": 24,
-   "desc": "Model on Hugging Face · open source · ♥ 905",
+   "desc": "Model on Hugging Face · open source · ♥ 906",
    "meta": [
     "10K downloads",
     "Released 11 days ago"
@@ -298,8 +298,8 @@
    "name": "ai-pose-gallery-zh",
    "url": "https://github.com/anhao/ai-pose-gallery-zh",
    "from": "GitHub",
-   "use": 1215,
-   "useLabel": "+1,215 stars/day",
+   "use": 1217,
+   "useLabel": "+1,217 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -413,17 +413,26 @@
  "github": [
   {
    "repo": "anhao/ai-pose-gallery-zh",
-   "stars": 3136,
-   "d24": 1215,
+   "stars": 3163,
+   "d24": 1217,
    "est": false,
-   "forks": 811,
+   "forks": 813,
    "contrib": null,
    "score": 96
   },
   {
+   "repo": "t3dotgg/tstack",
+   "stars": 2395,
+   "d24": 411,
+   "est": true,
+   "forks": 146,
+   "contrib": null,
+   "score": 89
+  },
+  {
    "repo": "andyhuo520/digital-human-koubo",
    "stars": 1464,
-   "d24": 382,
+   "d24": 380,
    "est": true,
    "forks": 334,
    "contrib": null,
@@ -432,7 +441,7 @@
   {
    "repo": "DenisSergeevitch/ex-ussr-kinship-research",
    "stars": 1266,
-   "d24": 275,
+   "d24": 274,
    "est": true,
    "forks": 133,
    "contrib": null,
@@ -440,8 +449,8 @@
   },
   {
    "repo": "rddmwmddr/android-ad-cleaner",
-   "stars": 4724,
-   "d24": 232,
+   "stars": 4733,
+   "d24": 240,
    "est": false,
    "forks": 425,
    "contrib": 19,
@@ -455,15 +464,6 @@
    "forks": 68,
    "contrib": null,
    "score": 81
-  },
-  {
-   "repo": "t3dotgg/tstack",
-   "stars": 2393,
-   "d24": 132,
-   "est": false,
-   "forks": 146,
-   "contrib": null,
-   "score": 89
   }
  ],
  "models": [
@@ -477,7 +477,7 @@
    "grow": null,
    "score": 92,
    "cat": "Infrastructure",
-   "likes": 774
+   "likes": 776
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -488,7 +488,7 @@
    "grow": 12,
    "score": 90,
    "cat": "Vision",
-   "likes": 3771
+   "likes": 3776
   },
   {
    "name": "LFM3-1.7B",
@@ -500,7 +500,7 @@
    "grow": 0,
    "score": 89,
    "cat": "LLMs",
-   "likes": 480
+   "likes": 483
   },
   {
    "name": "flint",
@@ -511,7 +511,7 @@
    "grow": 18,
    "score": 88,
    "cat": "LLMs",
-   "likes": 1242
+   "likes": 1244
   },
   {
    "name": "Spark-X2.6-4B",
@@ -523,7 +523,7 @@
    "grow": 24,
    "score": 85,
    "cat": "LLMs",
-   "likes": 905
+   "likes": 906
   },
   {
    "name": "Unlimited-OCR-2",
@@ -534,7 +534,7 @@
    "grow": null,
    "score": 85,
    "cat": "Vision",
-   "likes": 381
+   "likes": 382
   }
  ],
  "free": [
@@ -824,6 +824,13 @@
  },
  "headlines": [
   {
+   "t": "Meta quietly launches Style Sketch, an AI fashion app that helps users put together outfit ideas using clothes they own, in Indonesia, Singapore, and Thailand",
+   "url": "https://www.techmeme.com/261029/p64#a261029p64",
+   "at": "2026-10-30T00:40:02.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "On Amazon's earnings call, Andy Jassy says outside AI shopping agents are \"still not great, nor more convenient than coming to a retailer directly\"",
    "url": "https://www.techmeme.com/261029/p63#a261029p63",
    "at": "2026-10-30T00:20:02.000Z",
@@ -901,38 +908,31 @@
    "kind": "Lab blog"
   },
   {
+   "t": "US economy grows at brisk 3.4% pace in third quarter on strong consumer spending and AI investment",
+   "url": "https://www.ajc.com/news/2026/10/us-economy-grows-at-brisk-34-pace-in-third-quarter-on-strong-consumer-spending-and-ai-investment/",
+   "at": "2026-10-29T12:43:26Z",
+   "src": "The Atlanta Journal-Constitution",
+   "kind": "News"
+  },
+  {
+   "t": "Nearly half of severely distressed generative AI users turn to chatbots for emotional support, study finds",
+   "url": "https://medicalxpress.com/news/2026-10-severely-distressed-generative-ai-users.html",
+   "at": "2026-10-29T12:40:07Z",
+   "src": "Medical Xpress",
+   "kind": "News"
+  },
+  {
+   "t": "MEDIA ADVISORY - BMO Hosts Inaugural Technology and Innovation Leaders Conference in New York",
+   "url": "https://www.brantfordexpositor.ca/press-releases/pr-newswire/media-advisory-bmo-hosts-inaugural-technology-and-innovation-leaders-conference-in-new-york/",
+   "at": "2026-10-29T12:34:31Z",
+   "src": "The Expositor",
+   "kind": "News"
+  },
+  {
    "t": "Adgully to Host FINIXX Summit & Awards 2026 on the Future of Finance, AI and Trust",
    "url": "https://www.aninews.in/news/business/adgully-to-host-finixx-summit-amp-awards-2026-on-the-future-of-finance-ai-and-trust20261029175949/",
    "at": "2026-10-29T12:29:49Z",
    "src": "ANI (Asian News International)",
-   "kind": "News"
-  },
-  {
-   "t": "New Trent Chairman: Who is Bahram Vakil? Meet Columbia University LLM holder and co-founder of AZB & Partners",
-   "url": "https://www.livemint.com/companies/people/trent-appoints-bahram-vakil-as-chairman-with-effect-from-nov-12-who-is-he-and-what-to-know-about-noel-tata-s-successor-11793273831485.html",
-   "at": "2026-10-29T12:25:50Z",
-   "src": "Livemint",
-   "kind": "News"
-  },
-  {
-   "t": "Powered Research and Drafting to Lawyers and Law Students",
-   "url": "https://www.tribuneindia.com/news/business/ai-legal-by-uwo-brings-ai-powered-research-and-drafting-to-lawyers-and-law-students/",
-   "at": "2026-10-29T12:17:57Z",
-   "src": "The Tribune",
-   "kind": "News"
-  },
-  {
-   "t": "AI Legal by UWO Brings AI-Powered Research and Drafting to Lawyers and Law Students",
-   "url": "https://www.aninews.in/news/business/ai-legal-by-uwo-brings-ai-powered-research-and-drafting-to-lawyers-and-law-students20261029174224/",
-   "at": "2026-10-29T12:12:24Z",
-   "src": "ANI (Asian News International)",
-   "kind": "News"
-  },
-  {
-   "t": "Why Sam Altman is disappointed with MBA students",
-   "url": "https://www.newsbytesapp.com/news/business/sam-altman-to-mba-grads-don-t-follow-outdated-trends/story",
-   "at": "2026-10-29T12:05:27Z",
-   "src": "NewsBytes",
    "kind": "News"
   }
  ],
@@ -942,8 +942,8 @@
    "t": "We're releasing the weights of Mistral Large 4",
    "url": "https://news.ycombinator.com/item?id=50289418",
    "link": "https://mistral.ai/news/mistral-large-4-oss/",
-   "up": 1155,
-   "com": 330,
+   "up": 1173,
+   "com": 335,
    "at": "2026-10-29T14:13:21.000Z"
   },
   {
@@ -951,8 +951,8 @@
    "t": "We ran AI agent swarms in Minecraft and Mindustry",
    "url": "https://news.ycombinator.com/item?id=50296486",
    "link": "https://labs.ycombinator.com/projects/games/index.html",
-   "up": 118,
-   "com": 44,
+   "up": 137,
+   "com": 53,
    "at": "2026-10-29T21:40:28.000Z"
   },
   {
@@ -960,8 +960,8 @@
    "t": "LLM Voice",
    "url": "https://news.ycombinator.com/item?id=50290177",
    "link": "https://martinfowler.com/bliki/LLM-Voice.html",
-   "up": 326,
-   "com": 168,
+   "up": 334,
+   "com": 174,
    "at": "2026-10-29T14:57:55.000Z"
   },
   {
@@ -969,8 +969,8 @@
    "t": "I went to Mexico to test-drive the cars Americans can’t buy",
    "url": "https://news.ycombinator.com/item?id=50290668",
    "link": "https://www.washingtonpost.com/climate-environment/2026/10/27/i-saw-future-driving-mexico-its-off-limits-americans/",
-   "up": 276,
-   "com": 321,
+   "up": 278,
+   "com": 322,
    "at": "2026-10-29T15:30:22.000Z"
   },
   {
@@ -988,7 +988,7 @@
    "url": "https://news.ycombinator.com/item?id=50284255",
    "link": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
    "up": 558,
-   "com": 224,
+   "com": 225,
    "at": "2026-10-29T03:33:42.000Z"
   }
  ]
