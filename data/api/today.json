@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-30T22:30:48.735Z"
+  "updated": "2026-10-30T23:01:01.938Z"
  },
  "pulse": {
-  "trending": 81,
+  "trending": 82,
   "accelerating": 0,
   "newModels": 11,
-  "discussions": 33,
-  "stars": 4536
+  "discussions": 35,
+  "stars": 4479
  },
  "rising": [
   {
@@ -25,7 +25,7 @@
    "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
    "meta": [
     "★ 3,930",
-    "~1,149 in 24h",
+    "~1,142 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-27T12:24:37Z",
@@ -57,8 +57,8 @@
    "grow": 3,
    "desc": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
    "meta": [
-    "★ 5,044",
-    "+254 in 24h",
+    "★ 5,045",
+    "+247 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-24T05:35:47Z",
@@ -71,11 +71,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 90,
-   "grow": 83,
+   "grow": 84,
    "desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
    "meta": [
-    "★ 2,405",
-    "+2,020 in 24h",
+    "★ 2,416",
+    "+1,964 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-25T08:09:52Z",
@@ -105,7 +105,7 @@
    "cat": "LLMs",
    "score": 89,
    "grow": 0,
-   "desc": "Model on Hugging Face · open weights · ♥ 556",
+   "desc": "Model on Hugging Face · open weights · ♥ 559",
    "meta": [
     "24K downloads",
     "Released 7 days ago"
@@ -123,8 +123,8 @@
    "grow": null,
    "desc": "The agent skills I use every day. Works with Claude Code and Codex.",
    "meta": [
-    "★ 2,462",
-    "~366 in 24h",
+    "★ 2,464",
+    "~365 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-24T05:00:20Z",
@@ -140,8 +140,8 @@
    "grow": 0,
    "desc": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …",
    "meta": [
-    "★ 1,548",
-    "+11 in 24h",
+    "★ 1,549",
+    "+14 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-26T04:34:09Z",
@@ -155,7 +155,7 @@
    "cat": "Vision",
    "score": 87,
    "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 449",
+   "desc": "Vision on Hugging Face · open source · ♥ 450",
    "meta": [
     "24K downloads",
     "Released 5 days ago"
@@ -165,27 +165,28 @@
    "url": "https://huggingface.co/baidu/Unlimited-OCR-2"
   },
   {
-   "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
-   "owner": "nvidia",
-   "src": "hf",
-   "cat": "Coding",
+   "name": "claude-skill",
+   "owner": "Motionsites-AI",
+   "src": "gh",
+   "cat": "Agents",
    "score": 86,
-   "grow": 0,
-   "desc": "Model on Hugging Face · open weights · ♥ 495",
+   "grow": 7,
+   "desc": "Free Claude skill: make Claude build award-level, cinematic landing pages. By MotionSites.",
    "meta": [
-    "16K downloads",
-    "Released 23 days ago"
+    "★ 1,181",
+    "+112 in 24h",
+    "Created 5 days ago"
    ],
-   "at": "2026-10-07T22:50:21.000Z",
+   "at": "2026-10-26T06:58:45Z",
    "breakout": null,
-   "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B"
+   "url": "https://github.com/Motionsites-AI/claude-skill"
   }
  ],
  "breakouts": [
   {
    "key": "gemini 4",
    "label": "Gemini 4",
-   "n": 4,
+   "n": 3,
    "sources": [
     {
      "src": "DEV",
@@ -196,11 +197,6 @@
      "src": "Google DeepMind blog",
      "t": "Gemini 4 Carbon: Our next frontier model",
      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
-    },
-    {
-     "src": "YouTube",
-     "t": "HUGE GPT-6.2 BEL LEAK! Opus 6, Gemini 4 Carbon First Look, Claude Fable 5.5, Qwen 4 & More! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=GlRVbIdc_Mk"
     },
     {
      "src": "Product Hunt",
@@ -209,34 +205,6 @@
     }
    ],
    "since": "2026-10-01T18:14:41.538Z"
-  },
-  {
-   "key": "gemini 4 carbon",
-   "label": "Gemini 4 Carbon",
-   "n": 4,
-   "sources": [
-    {
-     "src": "Product Hunt",
-     "t": "Gemini 4 Carbon",
-     "url": "https://www.producthunt.com/products/gemini-4-carbon?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
-    },
-    {
-     "src": "DEV",
-     "t": "Gemini 4 Carbon and an anti-LLM script: what each one actually says",
-     "url": "https://dev.to/axrisi/gemini-4-carbon-and-an-anti-llm-script-what-each-one-actually-says-5d3d"
-    },
-    {
-     "src": "Google DeepMind blog",
-     "t": "Gemini 4 Carbon: Our next frontier model",
-     "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
-    },
-    {
-     "src": "YouTube",
-     "t": "HUGE GPT-6.2 BEL LEAK! Opus 6, Gemini 4 Carbon First Look, Claude Fable 5.5, Qwen 4 & More! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=GlRVbIdc_Mk"
-    }
-   ],
-   "since": "2026-10-29T09:01:09.805Z"
   },
   {
    "key": "space",
@@ -260,6 +228,29 @@
     }
    ],
    "since": "2026-10-19T00:27:53.628Z"
+  },
+  {
+   "key": "gemini 4 carbon",
+   "label": "Gemini 4 Carbon",
+   "n": 3,
+   "sources": [
+    {
+     "src": "Product Hunt",
+     "t": "Gemini 4 Carbon",
+     "url": "https://www.producthunt.com/products/gemini-4-carbon?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
+    },
+    {
+     "src": "DEV",
+     "t": "Gemini 4 Carbon and an anti-LLM script: what each one actually says",
+     "url": "https://dev.to/axrisi/gemini-4-carbon-and-an-anti-llm-script-what-each-one-actually-says-5d3d"
+    },
+    {
+     "src": "Google DeepMind blog",
+     "t": "Gemini 4 Carbon: Our next frontier model",
+     "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
+    }
+   ],
+   "since": "2026-10-29T09:01:09.805Z"
   }
  ],
  "hype": [
@@ -280,14 +271,9 @@
      "src": "Google DeepMind blog",
      "t": "Gemini 4 Carbon: Our next frontier model",
      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
-    },
-    {
-     "src": "YouTube",
-     "t": "HUGE GPT-6.2 BEL LEAK! Opus 6, Gemini 4 Carbon First Look, Claude Fable 5.5, Qwen 4 & More! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=GlRVbIdc_Mk"
     }
    ],
-   "buzz": 3,
+   "buzz": 2,
    "verdict": "Talk only, no public usage numbers"
   },
   {
@@ -307,22 +293,17 @@
      "src": "Google DeepMind blog",
      "t": "Gemini 4 Carbon: Our next frontier model",
      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
-    },
-    {
-     "src": "YouTube",
-     "t": "HUGE GPT-6.2 BEL LEAK! Opus 6, Gemini 4 Carbon First Look, Claude Fable 5.5, Qwen 4 & More! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=GlRVbIdc_Mk"
     }
    ],
-   "buzz": 3,
+   "buzz": 2,
    "verdict": "Talk only, no public usage numbers"
   },
   {
    "name": "dsh-Go",
    "url": "https://github.com/ccch1mneyyy/dsh-Go",
    "from": "GitHub",
-   "use": 2020,
-   "useLabel": "+2,020 stars/day",
+   "use": 1964,
+   "useLabel": "+1,964 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -436,8 +417,8 @@
  "github": [
   {
    "repo": "ccch1mneyyy/dsh-Go",
-   "stars": 2405,
-   "d24": 2020,
+   "stars": 2416,
+   "d24": 1964,
    "est": false,
    "forks": 100,
    "contrib": null,
@@ -446,7 +427,7 @@
   {
    "repo": "anhao/ai-pose-gallery-zh",
    "stars": 3930,
-   "d24": 1149,
+   "d24": 1142,
    "est": true,
    "forks": 1008,
    "contrib": 2,
@@ -454,8 +435,8 @@
   },
   {
    "repo": "qybaihe/bla",
-   "stars": 1377,
-   "d24": 495,
+   "stars": 1383,
+   "d24": 487,
    "est": false,
    "forks": 188,
    "contrib": null,
@@ -463,8 +444,8 @@
   },
   {
    "repo": "t3dotgg/tstack",
-   "stars": 2462,
-   "d24": 366,
+   "stars": 2464,
+   "d24": 365,
    "est": true,
    "forks": 153,
    "contrib": null,
@@ -472,8 +453,8 @@
   },
   {
    "repo": "rddmwmddr/android-ad-cleaner",
-   "stars": 5044,
-   "d24": 254,
+   "stars": 5045,
+   "d24": 247,
    "est": false,
    "forks": 458,
    "contrib": 30,
@@ -481,17 +462,26 @@
   },
   {
    "repo": "DenisSergeevitch/ex-ussr-kinship-research",
-   "stars": 1332,
-   "d24": 241,
-   "est": true,
+   "stars": 1336,
+   "d24": 148,
+   "est": false,
    "forks": 138,
    "contrib": null,
-   "score": 84
+   "score": 83
+  },
+  {
+   "repo": "Motionsites-AI/claude-skill",
+   "stars": 1181,
+   "d24": 112,
+   "est": false,
+   "forks": 124,
+   "contrib": null,
+   "score": 86
   },
   {
    "repo": "andyhuo520/digital-human-koubo",
-   "stars": 1548,
-   "d24": 11,
+   "stars": 1549,
+   "d24": 14,
    "est": false,
    "forks": 353,
    "contrib": null,
@@ -520,7 +510,7 @@
    "grow": null,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 4001
+   "likes": 4003
   },
   {
    "name": "LFM3-1.7B",
@@ -532,7 +522,7 @@
    "grow": 0,
    "score": 89,
    "cat": "LLMs",
-   "likes": 556
+   "likes": 559
   },
   {
    "name": "Unlimited-OCR-2",
@@ -543,7 +533,7 @@
    "grow": null,
    "score": 87,
    "cat": "Vision",
-   "likes": 449
+   "likes": 450
   },
   {
    "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
@@ -555,7 +545,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Coding",
-   "likes": 495
+   "likes": 496
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
@@ -1060,17 +1050,17 @@
    "kind": "Lab blog"
   },
   {
-   "t": "FEC data: AI-oriented PACs spent nearly $80M on the 2026 US elections, mostly before the primaries; pro-regulatory PACs outspent Leading the Future's network",
-   "url": "https://www.techmeme.com/261030/p13#a261030p13",
-   "at": "2026-10-30T13:10:01.000Z",
-   "src": "Techmeme",
+   "t": "What’s Good for AI May Not Be Good for the US Economy",
+   "url": "https://www.bloomberg.com/opinion/articles/2026-10-30/ai-labs-cybersecurity-gains-come-at-the-economy-s-expense",
+   "at": "2026-10-30T11:00:16Z",
+   "src": "Bloomberg",
    "kind": "News"
   },
   {
-   "t": "Artificial intelligence issues impact trading",
-   "url": "https://www.cp24.com/news/money/2026/10/30/global-trading-is-mixed-as-worries-about-ai-related-issues-grow/",
-   "at": "2026-10-30T10:29:58Z",
-   "src": "CP24 Toronto",
+   "t": "Tech needs legacy businesses to grow trillions into AI buildout",
+   "url": "https://www.cnbc.com/2026/10/30/tech-giants-alphabet-meta-microsoft-amazon-ai-buildouts.html",
+   "at": "2026-10-30T11:00:01Z",
+   "src": "CNBC",
    "kind": "News"
   }
  ],
@@ -1080,8 +1070,8 @@
    "t": "AI isn't replacing SREs, it's deskilling them",
    "url": "https://news.ycombinator.com/item?id=50305693",
    "link": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
-   "up": 448,
-   "com": 330,
+   "up": 461,
+   "com": 337,
    "at": "2026-10-30T15:52:18.000Z"
   },
   {
@@ -1098,8 +1088,8 @@
    "t": "Proton's CEO Cancels AI 'Re-Interviews'",
    "url": "https://news.ycombinator.com/item?id=50307183",
    "link": "https://www.404media.co/protons-ceo-cancels-ai-re-interviews/",
-   "up": 245,
-   "com": 201,
+   "up": 247,
+   "com": 205,
    "at": "2026-10-30T17:24:45.000Z"
   },
   {
@@ -1107,8 +1097,8 @@
    "t": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
    "url": "https://news.ycombinator.com/item?id=50300683",
    "link": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
-   "up": 685,
-   "com": 435,
+   "up": 696,
+   "com": 439,
    "at": "2026-10-30T07:09:12.000Z"
   },
   {
@@ -1116,8 +1106,8 @@
    "t": "US tech stocks see sharp falls over AI cost fears",
    "url": "https://news.ycombinator.com/item?id=50306008",
    "link": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo",
-   "up": 226,
-   "com": 251,
+   "up": 229,
+   "com": 253,
    "at": "2026-10-30T16:13:02.000Z"
   },
   {
