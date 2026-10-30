@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-30T10:01:01.019Z"
+  "updated": "2026-10-30T10:30:56.485Z"
  },
  "pulse": {
   "trending": 82,
   "accelerating": 2,
   "newModels": 11,
-  "discussions": 49,
-  "stars": 2815
+  "discussions": 48,
+  "stars": 2795
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Vision",
    "score": 96,
-   "grow": 14,
+   "grow": 15,
    "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
    "meta": [
-    "★ 3,641",
-    "+1,265 in 24h",
+    "★ 3,656",
+    "+1,235 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-27T12:24:37Z",
@@ -41,8 +41,8 @@
    "grow": null,
    "desc": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
    "meta": [
-    "★ 4,918",
-    "~795 in 24h",
+    "★ 4,926",
+    "~794 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-24T05:35:47Z",
@@ -56,7 +56,7 @@
    "cat": "Infrastructure",
    "score": 91,
    "grow": 26,
-   "desc": "Model on Hugging Face · open source · ♥ 785",
+   "desc": "Model on Hugging Face · open source · ♥ 786",
    "meta": [
     "12K downloads",
     "Released 6 days ago"
@@ -74,8 +74,8 @@
    "grow": 5,
    "desc": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …",
    "meta": [
-    "★ 1,527",
-    "+119 in 24h",
+    "★ 1,530",
+    "+120 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-26T04:34:09Z",
@@ -104,8 +104,8 @@
    "src": "hf",
    "cat": "LLMs",
    "score": 90,
-   "grow": 49,
-   "desc": "Model on Hugging Face · open weights · ♥ 510",
+   "grow": null,
+   "desc": "Model on Hugging Face · open weights · ♥ 512",
    "meta": [
     "24K downloads",
     "Released 7 days ago"
@@ -124,12 +124,29 @@
    "desc": "The agent skills I use every day. Works with Claude Code and Codex.",
    "meta": [
     "★ 2,428",
-    "+88 in 24h",
+    "+83 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-24T05:00:20Z",
    "breakout": null,
    "url": "https://github.com/t3dotgg/tstack"
+  },
+  {
+   "name": "dsh-Go",
+   "owner": "ccch1mneyyy",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 87,
+   "grow": null,
+   "desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+   "meta": [
+    "★ 1,468",
+    "~288 in 24h",
+    "Created 5 days ago"
+   ],
+   "at": "2026-10-25T08:09:52Z",
+   "breakout": null,
+   "url": "https://github.com/ccch1mneyyy/dsh-Go"
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
@@ -138,7 +155,7 @@
    "cat": "Infrastructure",
    "score": 87,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 488",
+   "desc": "Model on Hugging Face · open source · ♥ 489",
    "meta": [
     "1.7M downloads",
     "Released 7 days ago"
@@ -162,23 +179,6 @@
    "at": "2026-10-26T03:57:46.000Z",
    "breakout": null,
    "url": "https://huggingface.co/baidu/Unlimited-OCR-2"
-  },
-  {
-   "name": "dsh-Go",
-   "owner": "ccch1mneyyy",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 86,
-   "grow": null,
-   "desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
-   "meta": [
-    "★ 1,398",
-    "~275 in 24h",
-    "Created 5 days ago"
-   ],
-   "at": "2026-10-25T08:09:52Z",
-   "breakout": null,
-   "url": "https://github.com/ccch1mneyyy/dsh-Go"
   }
  ],
  "breakouts": [
@@ -321,8 +321,8 @@
    "name": "ai-pose-gallery-zh",
    "url": "https://github.com/anhao/ai-pose-gallery-zh",
    "from": "GitHub",
-   "use": 1265,
-   "useLabel": "+1,265 stars/day",
+   "use": 1235,
+   "useLabel": "+1,235 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -436,17 +436,17 @@
  "github": [
   {
    "repo": "anhao/ai-pose-gallery-zh",
-   "stars": 3641,
-   "d24": 1265,
+   "stars": 3656,
+   "d24": 1235,
    "est": false,
-   "forks": 943,
+   "forks": 946,
    "contrib": null,
    "score": 96
   },
   {
    "repo": "rddmwmddr/android-ad-cleaner",
-   "stars": 4918,
-   "d24": 795,
+   "stars": 4926,
+   "d24": 794,
    "est": true,
    "forks": 441,
    "contrib": 21,
@@ -454,26 +454,26 @@
   },
   {
    "repo": "ccch1mneyyy/dsh-Go",
-   "stars": 1398,
-   "d24": 275,
+   "stars": 1468,
+   "d24": 288,
    "est": true,
-   "forks": 59,
+   "forks": 65,
    "contrib": null,
-   "score": 86
+   "score": 87
   },
   {
    "repo": "qybaihe/bla",
-   "stars": 1119,
-   "d24": 216,
+   "stars": 1134,
+   "d24": 218,
    "est": true,
-   "forks": 150,
+   "forks": 152,
    "contrib": null,
    "score": 82
   },
   {
    "repo": "andyhuo520/digital-human-koubo",
-   "stars": 1527,
-   "d24": 119,
+   "stars": 1530,
+   "d24": 120,
    "est": false,
    "forks": 345,
    "contrib": null,
@@ -482,7 +482,7 @@
   {
    "repo": "t3dotgg/tstack",
    "stars": 2428,
-   "d24": 88,
+   "d24": 83,
    "est": false,
    "forks": 149,
    "contrib": null,
@@ -490,7 +490,7 @@
   },
   {
    "repo": "DenisSergeevitch/ex-ussr-kinship-research",
-   "stars": 1283,
+   "stars": 1284,
    "d24": 57,
    "est": false,
    "forks": 135,
@@ -509,7 +509,7 @@
    "grow": 26,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 785
+   "likes": 786
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -520,7 +520,7 @@
    "grow": 11,
    "score": 90,
    "cat": "Vision",
-   "likes": 3917
+   "likes": 3922
   },
   {
    "name": "LFM3-1.7B",
@@ -529,10 +529,10 @@
    "lic": "Open weights",
    "at": "2026-10-23T21:35:42.000Z",
    "dl": 23694,
-   "grow": 49,
+   "grow": null,
    "score": 90,
    "cat": "LLMs",
-   "likes": 510
+   "likes": 512
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
@@ -543,7 +543,7 @@
    "grow": null,
    "score": 87,
    "cat": "Infrastructure",
-   "likes": 488
+   "likes": 489
   },
   {
    "name": "Unlimited-OCR-2",
@@ -961,6 +961,20 @@
  },
  "headlines": [
   {
+   "t": "Dream, which is training AI world models on US building data to automate construction design and engineering, emerges from stealth with a $17M seed led by a16z",
+   "url": "https://www.techmeme.com/261030/p8#a261030p8",
+   "at": "2026-10-30T10:15:00.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Ravical, whose AI-powered platform helps accounting and tax firms manage their operations, raised a $17M seed led by MMC, bringing its total funding to $25M",
+   "url": "https://www.techmeme.com/261030/p7#a261030p7",
+   "at": "2026-10-30T10:10:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Sources: Spotify aims to launch an AI product in Q1 2027 that lets subscribers create their own remixes and covers for ~$5 per month, pending licensing deals",
    "url": "https://www.techmeme.com/261030/p5#a261030p5",
    "at": "2026-10-30T08:45:02.000Z",
@@ -1010,20 +1024,6 @@
    "kind": "News"
   },
   {
-   "t": "Meta quietly launches Style Sketch, an AI fashion app that helps users put together outfit ideas using clothes they own, in Indonesia, Singapore, and Thailand",
-   "url": "https://www.techmeme.com/261029/p64#a261029p64",
-   "at": "2026-10-30T00:40:02.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "On Amazon's earnings call, Andy Jassy says outside AI shopping agents are \"still not great, nor more convenient than coming to a retailer directly\"",
-   "url": "https://www.techmeme.com/261029/p63#a261029p63",
-   "at": "2026-10-30T00:20:02.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Google's New CARBON is Now the Most Powerful AI in the World",
    "url": "https://www.youtube.com/watch?v=XAfxi-Xo_sk",
    "at": "2026-10-29T23:38:21Z",
@@ -1035,6 +1035,13 @@
    "url": "https://www.theguardian.com/law/2026/oct/30/victorian-lawyers-ai-clients-fees",
    "at": "2026-10-29T23:00:37Z",
    "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "Dartmouth provost resigns following accusations he used artificial intelligence for writing",
+   "url": "https://www.breitbart.com/news/dartmouth-provost-resigns-following-accusations-he-used-artificial-intelligence-for-writing/",
+   "at": "2026-10-29T22:15:31Z",
+   "src": "Breitbart News Network",
    "kind": "News"
   },
   {
@@ -1059,13 +1066,6 @@
    "kind": "News"
   },
   {
-   "t": "Dartmouth provost resigns following accusations he used artificial intelligence for writing",
-   "url": "https://www.latimes.com/world-nation/story/2026-10-29/dartmouth-provost-resigns-following-accusations-he-used-artificial-intelligence-for-writing",
-   "at": "2026-10-29T21:11:11Z",
-   "src": "Los Angeles Times",
-   "kind": "News"
-  },
-  {
    "t": "Mexico Leads Physical AI Development in Latin America",
    "url": "https://www.europesays.com/3340342/",
    "at": "2026-10-29T20:47:19Z",
@@ -1079,8 +1079,8 @@
    "t": "Ask HN: Are you tired too in this AI era?",
    "url": "https://news.ycombinator.com/item?id=50301479",
    "link": "",
-   "up": 80,
-   "com": 52,
+   "up": 91,
+   "com": 75,
    "at": "2026-10-30T09:17:43.000Z"
   },
   {
@@ -1088,8 +1088,8 @@
    "t": "We're releasing the weights of Mistral Large 4",
    "url": "https://news.ycombinator.com/item?id=50289418",
    "link": "https://mistral.ai/news/mistral-large-4-oss/",
-   "up": 1468,
-   "com": 396,
+   "up": 1490,
+   "com": 398,
    "at": "2026-10-29T14:13:21.000Z"
   },
   {
@@ -1097,8 +1097,8 @@
    "t": "LLM Voice",
    "url": "https://news.ycombinator.com/item?id=50290177",
    "link": "https://martinfowler.com/bliki/LLM-Voice.html",
-   "up": 479,
-   "com": 254,
+   "up": 483,
+   "com": 255,
    "at": "2026-10-29T14:57:55.000Z"
   },
   {
@@ -1106,8 +1106,8 @@
    "t": "We ran AI agent swarms in Minecraft and Mindustry",
    "url": "https://news.ycombinator.com/item?id=50296486",
    "link": "https://labs.ycombinator.com/projects/games/index.html",
-   "up": 287,
-   "com": 100,
+   "up": 293,
+   "com": 101,
    "at": "2026-10-29T21:40:28.000Z"
   },
   {
@@ -1115,8 +1115,8 @@
    "t": "Herdr has released native app",
    "url": "https://news.ycombinator.com/item?id=50298436",
    "link": "https://github.com/herdrdev/herdr-app",
-   "up": 199,
-   "com": 126,
+   "up": 212,
+   "com": 138,
    "at": "2026-10-30T00:42:41.000Z"
   },
   {
@@ -1124,8 +1124,8 @@
    "t": "Pico CSS is no longer maintained",
    "url": "https://news.ycombinator.com/item?id=50298964",
    "link": "https://github.com/picocss/pico/discussions/754",
-   "up": 135,
-   "com": 58,
+   "up": 144,
+   "com": 61,
    "at": "2026-10-30T01:58:44.000Z"
   }
  ]
