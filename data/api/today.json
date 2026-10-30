@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-30T09:54:49.448Z"
+  "updated": "2026-10-30T10:01:01.019Z"
  },
  "pulse": {
   "trending": 82,
   "accelerating": 2,
   "newModels": 11,
   "discussions": 49,
-  "stars": 2879
+  "stars": 2815
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 14,
    "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
    "meta": [
-    "★ 3,639",
-    "+1,274 in 24h",
+    "★ 3,641",
+    "+1,265 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-27T12:24:37Z",
@@ -42,7 +42,7 @@
    "desc": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
    "meta": [
     "★ 4,918",
-    "~796 in 24h",
+    "~795 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-24T05:35:47Z",
@@ -55,10 +55,10 @@
    "src": "hf",
    "cat": "Infrastructure",
    "score": 91,
-   "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 784",
+   "grow": 26,
+   "desc": "Model on Hugging Face · open source · ♥ 785",
    "meta": [
-    "9.7K downloads",
+    "12K downloads",
     "Released 6 days ago"
    ],
    "at": "2026-10-24T02:49:18.000Z",
@@ -75,7 +75,7 @@
    "desc": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …",
    "meta": [
     "★ 1,527",
-    "+120 in 24h",
+    "+119 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-26T04:34:09Z",
@@ -104,10 +104,10 @@
    "src": "hf",
    "cat": "LLMs",
    "score": 90,
-   "grow": 0,
-   "desc": "Model on Hugging Face · open weights · ♥ 509",
+   "grow": 49,
+   "desc": "Model on Hugging Face · open weights · ♥ 510",
    "meta": [
-    "16K downloads",
+    "24K downloads",
     "Released 7 days ago"
    ],
    "at": "2026-10-23T21:35:42.000Z",
@@ -124,7 +124,7 @@
    "desc": "The agent skills I use every day. Works with Claude Code and Codex.",
    "meta": [
     "★ 2,428",
-    "+89 in 24h",
+    "+88 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-24T05:00:20Z",
@@ -140,7 +140,7 @@
    "grow": null,
    "desc": "Model on Hugging Face · open source · ♥ 488",
    "meta": [
-    "1.6M downloads",
+    "1.7M downloads",
     "Released 7 days ago"
    ],
    "at": "2026-10-23T09:43:05.000Z",
@@ -153,10 +153,10 @@
    "src": "hf",
    "cat": "Vision",
    "score": 87,
-   "grow": 0,
-   "desc": "Vision on Hugging Face · open source · ♥ 427",
+   "grow": 34,
+   "desc": "Vision on Hugging Face · open source · ♥ 428",
    "meta": [
-    "18K downloads",
+    "24K downloads",
     "Released 4 days ago"
    ],
    "at": "2026-10-26T03:57:46.000Z",
@@ -172,8 +172,8 @@
    "grow": null,
    "desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
    "meta": [
-    "★ 1,382",
-    "~272 in 24h",
+    "★ 1,398",
+    "~275 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-25T08:09:52Z",
@@ -321,8 +321,8 @@
    "name": "ai-pose-gallery-zh",
    "url": "https://github.com/anhao/ai-pose-gallery-zh",
    "from": "GitHub",
-   "use": 1274,
-   "useLabel": "+1,274 stars/day",
+   "use": 1265,
+   "useLabel": "+1,265 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -352,6 +352,26 @@
   }
  ],
  "receipts": [
+  {
+   "name": "Nanbeige/Nanbeige4.3-33B",
+   "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+   "kind": "downloads",
+   "first": "2026-10-25T14:30:52.761Z",
+   "firstV": 0,
+   "m": 10000,
+   "at": "2026-10-30T10:01:01.019Z",
+   "lead": 115.50229388888889
+  },
+  {
+   "name": "unsloth/NVIDIA-Nemotron-3.5-Bolt-E4B-GGUF",
+   "url": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3.5-Bolt-E4B-GGUF",
+   "kind": "downloads",
+   "first": "2026-10-27T13:01:08.180Z",
+   "firstV": 65011,
+   "m": 100000,
+   "at": "2026-10-30T10:01:01.019Z",
+   "lead": 68.99801083333334
+  },
   {
    "name": "dealignai/DeepSeek-V4.1-Flash-1017-UNCENSORED-FP8",
    "url": "https://huggingface.co/dealignai/DeepSeek-V4.1-Flash-1017-UNCENSORED-FP8",
@@ -411,33 +431,13 @@
    "m": 10000,
    "at": "2026-10-29T11:01:08.198Z",
    "lead": 47.999431666666666
-  },
-  {
-   "name": "LiquidAI/LFM3-1.7B",
-   "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
-   "kind": "downloads",
-   "first": "2026-10-27T22:01:05.521Z",
-   "firstV": 6311,
-   "m": 10000,
-   "at": "2026-10-29T11:01:08.198Z",
-   "lead": 37.00074361111111
-  },
-  {
-   "name": "anhao/ai-pose-gallery-zh",
-   "url": "https://github.com/anhao/ai-pose-gallery-zh",
-   "kind": "stars",
-   "first": "2026-10-28T09:01:09.988Z",
-   "firstV": 1155,
-   "m": 2500,
-   "at": "2026-10-29T10:30:53.646Z",
-   "lead": 25.495460555555557
   }
  ],
  "github": [
   {
    "repo": "anhao/ai-pose-gallery-zh",
-   "stars": 3639,
-   "d24": 1274,
+   "stars": 3641,
+   "d24": 1265,
    "est": false,
    "forks": 943,
    "contrib": null,
@@ -446,7 +446,7 @@
   {
    "repo": "rddmwmddr/android-ad-cleaner",
    "stars": 4918,
-   "d24": 796,
+   "d24": 795,
    "est": true,
    "forks": 441,
    "contrib": 21,
@@ -454,26 +454,26 @@
   },
   {
    "repo": "ccch1mneyyy/dsh-Go",
-   "stars": 1382,
-   "d24": 272,
+   "stars": 1398,
+   "d24": 275,
    "est": true,
    "forks": 59,
    "contrib": null,
    "score": 86
   },
   {
-   "repo": "Motionsites-AI/claude-skill",
+   "repo": "qybaihe/bla",
    "stars": 1119,
-   "d24": 271,
+   "d24": 216,
    "est": true,
-   "forks": 115,
+   "forks": 150,
    "contrib": null,
-   "score": 86
+   "score": 82
   },
   {
    "repo": "andyhuo520/digital-human-koubo",
    "stars": 1527,
-   "d24": 120,
+   "d24": 119,
    "est": false,
    "forks": 345,
    "contrib": null,
@@ -482,7 +482,7 @@
   {
    "repo": "t3dotgg/tstack",
    "stars": 2428,
-   "d24": 89,
+   "d24": 88,
    "est": false,
    "forks": 149,
    "contrib": null,
@@ -495,7 +495,7 @@
    "est": false,
    "forks": 135,
    "contrib": null,
-   "score": 85
+   "score": 86
   }
  ],
  "models": [
@@ -505,11 +505,11 @@
    "size": "33B",
    "lic": "Open source",
    "at": "2026-10-24T02:49:18.000Z",
-   "dl": 9655,
-   "grow": 0,
+   "dl": 12178,
+   "grow": 26,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 784
+   "likes": 785
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -520,7 +520,7 @@
    "grow": 11,
    "score": 90,
    "cat": "Vision",
-   "likes": 3916
+   "likes": 3917
   },
   {
    "name": "LFM3-1.7B",
@@ -528,18 +528,18 @@
    "size": "1.7B",
    "lic": "Open weights",
    "at": "2026-10-23T21:35:42.000Z",
-   "dl": 15885,
-   "grow": 0,
+   "dl": 23694,
+   "grow": 49,
    "score": 90,
    "cat": "LLMs",
-   "likes": 509
+   "likes": 510
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
    "org": "ISTA-DASLab",
    "lic": "Open source",
    "at": "2026-10-23T09:43:05.000Z",
-   "dl": 1578937,
+   "dl": 1747945,
    "grow": null,
    "score": 87,
    "cat": "Infrastructure",
@@ -550,18 +550,18 @@
    "org": "baidu",
    "lic": "Open source",
    "at": "2026-10-26T03:57:46.000Z",
-   "dl": 18141,
-   "grow": 0,
+   "dl": 24276,
+   "grow": 34,
    "score": 87,
    "cat": "Vision",
-   "likes": 427
+   "likes": 428
   },
   {
    "name": "flint",
    "org": "RecursiveSI",
    "lic": "Open source",
    "at": "2026-10-21T14:20:58.000Z",
-   "dl": 16598,
+   "dl": 19015,
    "grow": null,
    "score": 86,
    "cat": "LLMs",
@@ -1038,6 +1038,13 @@
    "kind": "News"
   },
   {
+   "t": "Chinese hackers used DeepSeek and other AI tools in sweeping global cyberattacks, report finds",
+   "url": "https://www.newsbreak.com/nbc-news-510074/4975137119465-chinese-hackers-used-deepseek-and-other-ai-tools-in-sweeping-global-cyberattacks-report-finds",
+   "at": "2026-10-29T22:00:00Z",
+   "src": "NewsBreak",
+   "kind": "News"
+  },
+  {
    "t": "Google's direct Nvidia challenge pays off with record Cloud sales, at a heavy cost to cash flow",
    "url": "https://www.thenews.com.pk/latest/1421794-googles-direct-nvidia-challenge-pays-off-with-record-cloud-sales-at-a-heavy-cost-to-cash-flow",
    "at": "2026-10-29T21:42:00Z",
@@ -1064,13 +1071,6 @@
    "at": "2026-10-29T20:47:19Z",
    "src": "EUROPE SAYS",
    "kind": "News"
-  },
-  {
-   "t": "Google went to Finland for its AI expansion. Now a cleared forest and a police probe threaten to overshadow its $15 billion investment",
-   "url": "https://economictimes.indiatimes.com/news/international/world-news/google-went-to-finland-for-its-ai-expansion-now-a-cleared-forest-and-a-police-probe-threaten-to-overshadow-its-15-billion-investment/articleshow/135328274.cms",
-   "at": "2026-10-29T20:47:00Z",
-   "src": "The Economic Times",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -1079,8 +1079,8 @@
    "t": "Ask HN: Are you tired too in this AI era?",
    "url": "https://news.ycombinator.com/item?id=50301479",
    "link": "",
-   "up": 75,
-   "com": 37,
+   "up": 80,
+   "com": 52,
    "at": "2026-10-30T09:17:43.000Z"
   },
   {
@@ -1088,8 +1088,8 @@
    "t": "We're releasing the weights of Mistral Large 4",
    "url": "https://news.ycombinator.com/item?id=50289418",
    "link": "https://mistral.ai/news/mistral-large-4-oss/",
-   "up": 1465,
-   "com": 395,
+   "up": 1468,
+   "com": 396,
    "at": "2026-10-29T14:13:21.000Z"
   },
   {
@@ -1097,8 +1097,8 @@
    "t": "LLM Voice",
    "url": "https://news.ycombinator.com/item?id=50290177",
    "link": "https://martinfowler.com/bliki/LLM-Voice.html",
-   "up": 477,
-   "com": 252,
+   "up": 479,
+   "com": 254,
    "at": "2026-10-29T14:57:55.000Z"
   },
   {
@@ -1106,7 +1106,7 @@
    "t": "We ran AI agent swarms in Minecraft and Mindustry",
    "url": "https://news.ycombinator.com/item?id=50296486",
    "link": "https://labs.ycombinator.com/projects/games/index.html",
-   "up": 284,
+   "up": 287,
    "com": 100,
    "at": "2026-10-29T21:40:28.000Z"
   },
@@ -1116,7 +1116,7 @@
    "url": "https://news.ycombinator.com/item?id=50298436",
    "link": "https://github.com/herdrdev/herdr-app",
    "up": 199,
-   "com": 124,
+   "com": 126,
    "at": "2026-10-30T00:42:41.000Z"
   },
   {
@@ -1124,7 +1124,7 @@
    "t": "Pico CSS is no longer maintained",
    "url": "https://news.ycombinator.com/item?id=50298964",
    "link": "https://github.com/picocss/pico/discussions/754",
-   "up": 133,
+   "up": 135,
    "com": 58,
    "at": "2026-10-30T01:58:44.000Z"
   }
