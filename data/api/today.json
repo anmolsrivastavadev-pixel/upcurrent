@@ -5,13 +5,13 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-30T03:30:51.779Z"
+  "updated": "2026-10-30T04:01:03.647Z"
  },
  "pulse": {
   "trending": 80,
   "accelerating": 2,
   "newModels": 11,
-  "discussions": 54,
+  "discussions": 52,
   "stars": 2124
  },
  "rising": [
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
    "meta": [
-    "★ 3,297",
-    "~1,254 in 24h",
+    "★ 3,327",
+    "~1,255 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-27T12:24:37Z",
@@ -39,7 +39,7 @@
    "cat": "Infrastructure",
    "score": 92,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 780",
+   "desc": "Model on Hugging Face · open source · ♥ 781",
    "meta": [
     "9.7K downloads",
     "Released 6 days ago"
@@ -57,8 +57,8 @@
    "grow": 4,
    "desc": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
    "meta": [
-    "★ 4,788",
-    "+288 in 24h",
+    "★ 4,795",
+    "+290 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-24T05:35:47Z",
@@ -71,11 +71,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 90,
-   "grow": 2,
+   "grow": 3,
    "desc": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …",
    "meta": [
-    "★ 1,490",
-    "+105 in 24h",
+    "★ 1,493",
+    "+107 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-26T04:34:09Z",
@@ -107,7 +107,7 @@
    "grow": null,
    "desc": "The agent skills I use every day. Works with Claude Code and Codex.",
    "meta": [
-    "★ 2,407",
+    "★ 2,411",
     "~405 in 24h",
     "Created 6 days ago"
    ],
@@ -132,11 +132,28 @@
    "url": "https://huggingface.co/LiquidAI/LFM3-1.7B"
   },
   {
+   "name": "ex-ussr-kinship-research",
+   "owner": "DenisSergeevitch",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 87,
+   "grow": 2,
+   "desc": "Evidence-first genealogy skill for AI agents (Codex, Claude Code): church books, civil, military, deportation and repression records across the former USSR. Replies in your language.",
+   "meta": [
+    "★ 1,272",
+    "+67 in 24h",
+    "Created 5 days ago"
+   ],
+   "at": "2026-10-25T10:05:56Z",
+   "breakout": null,
+   "url": "https://github.com/DenisSergeevitch/ex-ussr-kinship-research"
+  },
+  {
    "name": "flint",
    "owner": "RecursiveSI",
    "src": "hf",
    "cat": "LLMs",
-   "score": 88,
+   "score": 86,
    "grow": 18,
    "desc": "Model on Hugging Face · open source · ♥ 1.2K",
    "meta": [
@@ -148,30 +165,13 @@
    "url": "https://huggingface.co/RecursiveSI/flint"
   },
   {
-   "name": "ex-ussr-kinship-research",
-   "owner": "DenisSergeevitch",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 87,
-   "grow": 2,
-   "desc": "Evidence-first genealogy skill for AI agents (Codex, Claude Code): church books, civil, military, deportation and repression records across the former USSR. Replies in your language.",
-   "meta": [
-    "★ 1,272",
-    "+72 in 24h",
-    "Created 5 days ago"
-   ],
-   "at": "2026-10-25T10:05:56Z",
-   "breakout": null,
-   "url": "https://github.com/DenisSergeevitch/ex-ussr-kinship-research"
-  },
-  {
    "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
    "owner": "ISTA-DASLab",
    "src": "hf",
    "cat": "Infrastructure",
    "score": 86,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 477",
+   "desc": "Model on Hugging Face · open source · ♥ 478",
    "meta": [
     "1.6M downloads",
     "Released 7 days ago"
@@ -185,7 +185,7 @@
   {
    "key": "gemini 4",
    "label": "Gemini 4",
-   "n": 5,
+   "n": 4,
    "sources": [
     {
      "src": "Hacker News",
@@ -201,11 +201,6 @@
      "src": "Google DeepMind blog",
      "t": "Gemini 4 Carbon: Our next frontier model",
      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
-    },
-    {
-     "src": "BusinessLine",
-     "t": "Google launches Gemini 4 Carbon AI model with cybersecurity focus",
-     "url": "https://www.thehindubusinessline.com/info-tech/google-launches-gemini-4-carbon-ai-model-with-cybersecurity-focus/article71638823.ece"
     },
     {
      "src": "Product Hunt",
@@ -218,7 +213,7 @@
   {
    "key": "gemini 4 carbon",
    "label": "Gemini 4 Carbon",
-   "n": 5,
+   "n": 4,
    "sources": [
     {
      "src": "Product Hunt",
@@ -239,11 +234,6 @@
      "src": "Google DeepMind blog",
      "t": "Gemini 4 Carbon: Our next frontier model",
      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
-    },
-    {
-     "src": "BusinessLine",
-     "t": "Google launches Gemini 4 Carbon AI model with cybersecurity focus",
-     "url": "https://www.thehindubusinessline.com/info-tech/google-launches-gemini-4-carbon-ai-model-with-cybersecurity-focus/article71638823.ece"
     }
    ],
    "since": "2026-10-29T09:01:09.805Z"
@@ -272,14 +262,9 @@
      "src": "Google DeepMind blog",
      "t": "Gemini 4 Carbon: Our next frontier model",
      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
-    },
-    {
-     "src": "BusinessLine",
-     "t": "Google launches Gemini 4 Carbon AI model with cybersecurity focus",
-     "url": "https://www.thehindubusinessline.com/info-tech/google-launches-gemini-4-carbon-ai-model-with-cybersecurity-focus/article71638823.ece"
     }
    ],
-   "buzz": 4,
+   "buzz": 3,
    "verdict": "Talk only, no public usage numbers"
   },
   {
@@ -304,22 +289,17 @@
      "src": "Google DeepMind blog",
      "t": "Gemini 4 Carbon: Our next frontier model",
      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
-    },
-    {
-     "src": "BusinessLine",
-     "t": "Google launches Gemini 4 Carbon AI model with cybersecurity focus",
-     "url": "https://www.thehindubusinessline.com/info-tech/google-launches-gemini-4-carbon-ai-model-with-cybersecurity-focus/article71638823.ece"
     }
    ],
-   "buzz": 4,
+   "buzz": 3,
    "verdict": "Talk only, no public usage numbers"
   },
   {
    "name": "ai-pose-gallery-zh",
    "url": "https://github.com/anhao/ai-pose-gallery-zh",
    "from": "GitHub",
-   "use": 1254,
-   "useLabel": "~1,254 stars/day",
+   "use": 1255,
+   "useLabel": "~1,255 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -433,16 +413,16 @@
  "github": [
   {
    "repo": "anhao/ai-pose-gallery-zh",
-   "stars": 3297,
-   "d24": 1254,
+   "stars": 3327,
+   "d24": 1255,
    "est": true,
-   "forks": 857,
+   "forks": 865,
    "contrib": null,
    "score": 96
   },
   {
    "repo": "t3dotgg/tstack",
-   "stars": 2407,
+   "stars": 2411,
    "d24": 405,
    "est": true,
    "forks": 149,
@@ -451,17 +431,17 @@
   },
   {
    "repo": "rddmwmddr/android-ad-cleaner",
-   "stars": 4788,
-   "d24": 288,
+   "stars": 4795,
+   "d24": 290,
    "est": false,
-   "forks": 433,
+   "forks": 435,
    "contrib": 19,
    "score": 91
   },
   {
    "repo": "andyhuo520/digital-human-koubo",
-   "stars": 1490,
-   "d24": 105,
+   "stars": 1493,
+   "d24": 107,
    "est": false,
    "forks": 339,
    "contrib": null,
@@ -470,7 +450,7 @@
   {
    "repo": "DenisSergeevitch/ex-ussr-kinship-research",
    "stars": 1272,
-   "d24": 72,
+   "d24": 67,
    "est": false,
    "forks": 133,
    "contrib": null,
@@ -488,7 +468,7 @@
    "grow": 0,
    "score": 92,
    "cat": "Infrastructure",
-   "likes": 780
+   "likes": 781
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -499,7 +479,7 @@
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 3884
+   "likes": 3887
   },
   {
    "name": "LFM3-1.7B",
@@ -520,7 +500,7 @@
    "at": "2026-10-21T14:20:58.000Z",
    "dl": 16598,
    "grow": 18,
-   "score": 88,
+   "score": 86,
    "cat": "LLMs",
    "likes": 1246
   },
@@ -533,7 +513,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 477
+   "likes": 478
   },
   {
    "name": "Unlimited-OCR-2",
@@ -544,7 +524,7 @@
    "grow": null,
    "score": 86,
    "cat": "Vision",
-   "likes": 408
+   "likes": 414
   }
  ],
  "free": [
@@ -940,6 +920,13 @@
  },
  "headlines": [
   {
+   "t": "Sources: DeepSeek doubled its latest round's size due to surging black market Nvidia Blackwell chip prices, with Chinese state-owned investors representing 27%",
+   "url": "https://www.techmeme.com/261029/p71#a261029p71",
+   "at": "2026-10-30T03:35:00.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "S-1: Anthropic says it heavily depends on TSMC chips made in Taiwan and warns of risks from \"potential disruption\" amid geopolitical tensions with China",
    "url": "https://www.techmeme.com/261029/p70#a261029p70",
    "at": "2026-10-30T03:10:00.000Z",
@@ -989,13 +976,6 @@
    "kind": "Video"
   },
   {
-   "t": "Bill Gates: 20 Years Of CHAOS COMING From AI",
-   "url": "https://www.youtube.com/watch?v=Ku3hwyd51aw",
-   "at": "2026-10-29T18:30:34Z",
-   "src": "Breaking Points",
-   "kind": "Video"
-  },
-  {
    "t": "An updated Model Spec for more capable and beneficial AI",
    "url": "https://openai.com/index/updated-model-spec",
    "at": "2026-10-29T17:00:00.000Z",
@@ -1008,6 +988,27 @@
    "at": "2026-10-29T16:00:35.000Z",
    "src": "NVIDIA",
    "kind": "Lab blog"
+  },
+  {
+   "t": "NIMBY or pension: Australia pops the data centre bubble",
+   "url": "https://www.thestar.com.my/business/insight/2026/10/30/nimby-or-pension-australia-pops-the-data-centre-bubble",
+   "at": "2026-10-29T16:00:00Z",
+   "src": "The Star",
+   "kind": "News"
+  },
+  {
+   "t": "The unseen hands training the machine",
+   "url": "https://www.manilatimes.net/2026/10/30/business/sunday-business-it/the-unseen-hands-training-the-machine/2457804",
+   "at": "2026-10-29T16:00:00Z",
+   "src": "The Manila Times",
+   "kind": "News"
+  },
+  {
+   "t": "Media advisory - Minister Solomon and Executive Vice-President Virkkunen to announce new partnership at Canada-European Union Summit",
+   "url": "https://www.brantfordexpositor.ca/press-releases/pr-newswire/media-advisory-minister-solomon-and-executive-vice-president-virkkunen-to-announce-new-partnership-at-canada-european-union-summit/",
+   "at": "2026-10-29T15:33:50Z",
+   "src": "The Expositor",
+   "kind": "News"
   },
   {
    "t": "Reader Q&A: Send a question to Guardian columnist Aditya Chakrabortty",
@@ -1029,27 +1030,6 @@
    "at": "2026-10-29T14:59:27Z",
    "src": "EUROPE SAYS",
    "kind": "News"
-  },
-  {
-   "t": "weight model with a cybersecurity focus",
-   "url": "https://techstartups.com/2026/10/29/mistral-ai-releases-large-4-a-1-trillion-parameter-open-weight-model-with-a-cybersecurity-focus/",
-   "at": "2026-10-29T14:54:29Z",
-   "src": "TechStartups.com",
-   "kind": "News"
-  },
-  {
-   "t": "California’s artificial intelligence bill has gaps. Lawmakers plan to fill them",
-   "url": "https://www.mercurynews.com/2026/10/29/californias-artificial-intelligence-bill-has-gaps-lawmakers-plan-to-fill-them-3-2/",
-   "at": "2026-10-29T14:51:59Z",
-   "src": "The Mercury News",
-   "kind": "News"
-  },
-  {
-   "t": "Anthropic Introduces New AI Spending Reports to Help Companies Measure Claude’s Business Value",
-   "url": "https://www.news18.com/tech/anthropic-introduces-new-ai-spending-reports-to-help-companies-measure-claudes-business-value-ws-l-10403906.html",
-   "at": "2026-10-29T14:45:16Z",
-   "src": "News18",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -1058,8 +1038,8 @@
    "t": "We're releasing the weights of Mistral Large 4",
    "url": "https://news.ycombinator.com/item?id=50289418",
    "link": "https://mistral.ai/news/mistral-large-4-oss/",
-   "up": 1250,
-   "com": 350,
+   "up": 1260,
+   "com": 355,
    "at": "2026-10-29T14:13:21.000Z"
   },
   {
@@ -1067,45 +1047,45 @@
    "t": "We ran AI agent swarms in Minecraft and Mindustry",
    "url": "https://news.ycombinator.com/item?id=50296486",
    "link": "https://labs.ycombinator.com/projects/games/index.html",
-   "up": 207,
+   "up": 212,
    "com": 68,
    "at": "2026-10-29T21:40:28.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Pico CSS is no longer maintained",
-   "url": "https://news.ycombinator.com/item?id=50298964",
-   "link": "https://github.com/picocss/pico/discussions/754",
-   "up": 49,
-   "com": 16,
-   "at": "2026-10-30T01:58:44.000Z"
   },
   {
    "src": "Hacker News",
    "t": "LLM Voice",
    "url": "https://news.ycombinator.com/item?id=50290177",
    "link": "https://martinfowler.com/bliki/LLM-Voice.html",
-   "up": 370,
-   "com": 199,
+   "up": 378,
+   "com": 200,
    "at": "2026-10-29T14:57:55.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Pico CSS is no longer maintained",
+   "url": "https://news.ycombinator.com/item?id=50298964",
+   "link": "https://github.com/picocss/pico/discussions/754",
+   "up": 59,
+   "com": 20,
+   "at": "2026-10-30T01:58:44.000Z"
   },
   {
    "src": "Hacker News",
    "t": "I went to Mexico to test-drive the cars Americans can’t buy",
    "url": "https://news.ycombinator.com/item?id=50290668",
    "link": "https://www.washingtonpost.com/climate-environment/2026/10/27/i-saw-future-driving-mexico-its-off-limits-americans/",
-   "up": 287,
-   "com": 330,
+   "up": 289,
+   "com": 333,
    "at": "2026-10-29T15:30:22.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Claude Code regularly sends each background agent’s transcript to its model",
-   "url": "https://news.ycombinator.com/item?id=50284255",
-   "link": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
-   "up": 562,
-   "com": 227,
-   "at": "2026-10-29T03:33:42.000Z"
+   "t": "A tiny world model running games on a Raspberry Pi Pico 2 W",
+   "url": "https://news.ycombinator.com/item?id=50295450",
+   "link": "https://github.com/SheepSeb/tinyworldformer",
+   "up": 163,
+   "com": 9,
+   "at": "2026-10-29T20:32:28.000Z"
   }
  ]
 }
