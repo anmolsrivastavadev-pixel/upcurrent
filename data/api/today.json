@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-30T21:03:25.278Z"
+  "updated": "2026-10-30T21:30:53.533Z"
  },
  "pulse": {
-  "trending": 82,
+  "trending": 81,
   "accelerating": 0,
   "newModels": 12,
-  "discussions": 39,
-  "stars": 4867
+  "discussions": 41,
+  "stars": 5036
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Vision",
    "score": 96,
-   "grow": 23,
+   "grow": null,
    "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
    "meta": [
-    "★ 3,923",
-    "+897 in 24h",
+    "★ 3,924",
+    "~1,161 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-27T12:24:37Z",
@@ -57,8 +57,8 @@
    "grow": 3,
    "desc": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
    "meta": [
-    "★ 5,039",
-    "+275 in 24h",
+    "★ 5,040",
+    "+267 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-24T05:35:47Z",
@@ -71,11 +71,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 90,
-   "grow": 81,
+   "grow": 82,
    "desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
    "meta": [
-    "★ 2,376",
-    "+2,214 in 24h",
+    "★ 2,383",
+    "+2,144 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-25T08:09:52Z",
@@ -88,7 +88,7 @@
    "src": "hf",
    "cat": "Infrastructure",
    "score": 90,
-   "grow": 11,
+   "grow": null,
    "desc": "Model on Hugging Face · open source · ♥ 4K",
    "meta": [
     "146K downloads",
@@ -105,7 +105,7 @@
    "cat": "LLMs",
    "score": 89,
    "grow": 0,
-   "desc": "Model on Hugging Face · open weights · ♥ 550",
+   "desc": "Model on Hugging Face · open weights · ♥ 553",
    "meta": [
     "24K downloads",
     "Released 7 days ago"
@@ -124,7 +124,7 @@
    "desc": "The agent skills I use every day. Works with Claude Code and Codex.",
    "meta": [
     "★ 2,456",
-    "~368 in 24h",
+    "~367 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-24T05:00:20Z",
@@ -141,7 +141,7 @@
    "desc": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …",
    "meta": [
     "★ 1,548",
-    "~330 in 24h",
+    "~329 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-26T04:34:09Z",
@@ -153,7 +153,7 @@
    "owner": "baidu",
    "src": "hf",
    "cat": "Vision",
-   "score": 88,
+   "score": 87,
    "grow": null,
    "desc": "Vision on Hugging Face · open source · ♥ 447",
    "meta": [
@@ -171,7 +171,7 @@
    "cat": "Coding",
    "score": 86,
    "grow": 0,
-   "desc": "Model on Hugging Face · open weights · ♥ 486",
+   "desc": "Model on Hugging Face · open weights · ♥ 490",
    "meta": [
     "16K downloads",
     "Released 23 days ago"
@@ -326,8 +326,8 @@
    "name": "dsh-Go",
    "url": "https://github.com/ccch1mneyyy/dsh-Go",
    "from": "GitHub",
-   "use": 2214,
-   "useLabel": "+2,214 stars/day",
+   "use": 2144,
+   "useLabel": "+2,144 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -350,7 +350,7 @@
    "from": "Hugging Face",
    "use": 2516721,
    "useLabel": "2.5M downloads",
-   "usePct": 0.9705882352941176,
+   "usePct": 0.9696969696969697,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -441,8 +441,8 @@
  "github": [
   {
    "repo": "ccch1mneyyy/dsh-Go",
-   "stars": 2376,
-   "d24": 2214,
+   "stars": 2383,
+   "d24": 2144,
    "est": false,
    "forks": 100,
    "contrib": null,
@@ -450,17 +450,17 @@
   },
   {
    "repo": "anhao/ai-pose-gallery-zh",
-   "stars": 3923,
-   "d24": 897,
-   "est": false,
+   "stars": 3924,
+   "d24": 1161,
+   "est": true,
    "forks": 1008,
    "contrib": 2,
    "score": 96
   },
   {
    "repo": "qybaihe/bla",
-   "stars": 1368,
-   "d24": 541,
+   "stars": 1371,
+   "d24": 526,
    "est": false,
    "forks": 186,
    "contrib": null,
@@ -469,7 +469,7 @@
   {
    "repo": "t3dotgg/tstack",
    "stars": 2456,
-   "d24": 368,
+   "d24": 367,
    "est": true,
    "forks": 152,
    "contrib": null,
@@ -478,7 +478,7 @@
   {
    "repo": "andyhuo520/digital-human-koubo",
    "stars": 1548,
-   "d24": 330,
+   "d24": 329,
    "est": true,
    "forks": 353,
    "contrib": null,
@@ -486,8 +486,8 @@
   },
   {
    "repo": "rddmwmddr/android-ad-cleaner",
-   "stars": 5039,
-   "d24": 275,
+   "stars": 5040,
+   "d24": 267,
    "est": false,
    "forks": 458,
    "contrib": 30,
@@ -495,7 +495,7 @@
   },
   {
    "repo": "DenisSergeevitch/ex-ussr-kinship-research",
-   "stars": 1322,
+   "stars": 1325,
    "d24": 242,
    "est": true,
    "forks": 137,
@@ -522,10 +522,10 @@
    "lic": "Open source",
    "at": "2026-10-17T02:40:38.000Z",
    "dl": 145869,
-   "grow": 11,
+   "grow": null,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 3994
+   "likes": 3997
   },
   {
    "name": "LFM3-1.7B",
@@ -537,7 +537,7 @@
    "grow": 0,
    "score": 89,
    "cat": "LLMs",
-   "likes": 550
+   "likes": 553
   },
   {
    "name": "Unlimited-OCR-2",
@@ -546,7 +546,7 @@
    "at": "2026-10-26T03:57:46.000Z",
    "dl": 24276,
    "grow": null,
-   "score": 88,
+   "score": 87,
    "cat": "Vision",
    "likes": 447
   },
@@ -560,7 +560,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Coding",
-   "likes": 486
+   "likes": 490
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
@@ -967,6 +967,13 @@
  },
  "headlines": [
   {
+   "t": "OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI across multiple crawlers",
+   "url": "https://www.techmeme.com/261030/p26#a261030p26",
+   "at": "2026-10-30T21:05:00.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "OpenAI tightens limits on the weapons-related information that ChatGPT provides teens, even when a question appears harmless, as part of new safeguards",
    "url": "https://www.techmeme.com/261030/p25#a261030p25",
    "at": "2026-10-30T20:55:37.000Z",
@@ -1037,6 +1044,13 @@
    "kind": "News"
   },
   {
+   "t": "Jon Stewart & The News Team Tackle AI’s Looming Threat, Rebrand & Lax Regulations | The Daily Show",
+   "url": "https://www.youtube.com/watch?v=tOeFyixOgD0",
+   "at": "2026-10-30T15:00:32Z",
+   "src": "The Daily Show",
+   "kind": "Video"
+  },
+  {
    "t": "Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
    "url": "https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/",
    "at": "2026-10-30T15:00:10.000Z",
@@ -1063,20 +1077,6 @@
    "at": "2026-10-30T09:30:00.000Z",
    "src": "OpenAI",
    "kind": "Lab blog"
-  },
-  {
-   "t": "Community safety report and new protections for teens",
-   "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
-   "at": "2026-10-30T09:00:00.000Z",
-   "src": "OpenAI",
-   "kind": "Lab blog"
-  },
-  {
-   "t": "How Can the Public Shape the Future of AI?",
-   "url": "https://www.swissinfo.ch/eng/research-frontiers/science-podcast-how-to-open-up-public-debate-on-ai/92192218",
-   "at": "2026-10-30T09:00:00Z",
-   "src": "Swissinfo (EN)",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -1085,8 +1085,8 @@
    "t": "AI isn't replacing SREs, it's deskilling them",
    "url": "https://news.ycombinator.com/item?id=50305693",
    "link": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
-   "up": 396,
-   "com": 301,
+   "up": 416,
+   "com": 310,
    "at": "2026-10-30T15:52:18.000Z"
   },
   {
@@ -1094,7 +1094,7 @@
    "t": "Backdoors in official Claude Code extensions",
    "url": "https://news.ycombinator.com/item?id=50302334",
    "link": "https://cyberplace.social/@GossiTheDog/117528831681803563",
-   "up": 648,
+   "up": 649,
    "com": 17,
    "at": "2026-10-30T11:05:53.000Z"
   },
@@ -1103,8 +1103,8 @@
    "t": "Proton's CEO Cancels AI 'Re-Interviews'",
    "url": "https://news.ycombinator.com/item?id=50307183",
    "link": "https://www.404media.co/protons-ceo-cancels-ai-re-interviews/",
-   "up": 224,
-   "com": 190,
+   "up": 232,
+   "com": 195,
    "at": "2026-10-30T17:24:45.000Z"
   },
   {
@@ -1112,8 +1112,8 @@
    "t": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
    "url": "https://news.ycombinator.com/item?id=50300683",
    "link": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
-   "up": 629,
-   "com": 422,
+   "up": 655,
+   "com": 425,
    "at": "2026-10-30T07:09:12.000Z"
   },
   {
@@ -1121,8 +1121,8 @@
    "t": "US tech stocks see sharp falls over AI cost fears",
    "url": "https://news.ycombinator.com/item?id=50306008",
    "link": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo",
-   "up": 213,
-   "com": 238,
+   "up": 219,
+   "com": 244,
    "at": "2026-10-30T16:13:02.000Z"
   },
   {
