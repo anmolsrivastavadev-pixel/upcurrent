@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-31T10:00:56.829Z"
+  "updated": "2026-10-31T10:30:48.395Z"
  },
  "pulse": {
   "trending": 82,
   "accelerating": 3,
   "newModels": 8,
-  "discussions": 49,
-  "stars": 6608
+  "discussions": 48,
+  "stars": 6666
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 97,
-   "grow": 70,
+   "grow": 77,
    "desc": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
    "meta": [
-    "★ 2,063",
-    "+2,048 in 24h",
+    "★ 2,138",
+    "+2,122 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-29T15:41:21Z",
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 96,
-   "grow": 69,
+   "grow": 72,
    "desc": "Mika — 你手机上的私人 AI 助理，替你操作 App、上网、把事办成。An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "meta": [
-    "★ 2,022",
-    "+1,888 in 24h",
+    "★ 2,059",
+    "+1,883 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-29T14:34:07Z",
@@ -55,11 +55,11 @@
    "src": "gh",
    "cat": "Vision",
    "score": 94,
-   "grow": 10,
+   "grow": 11,
    "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
    "meta": [
-    "★ 4,327",
-    "+774 in 24h",
+    "★ 4,349",
+    "+785 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-27T12:24:37Z",
@@ -72,11 +72,11 @@
    "src": "gh",
    "cat": "Vision",
    "score": 92,
-   "grow": 24,
+   "grow": 25,
    "desc": "1407 张 AI 女装参考图集与虚拟试穿网站，支持中英检索、OpenAI Images / Gemini / 豆包及自定义 Base URL、API Key、模型。https://github.com/paipiange/nvzhuang",
    "meta": [
-    "★ 1,486",
-    "+776 in 24h",
+    "★ 1,492",
+    "+751 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-29T06:08:00Z",
@@ -90,7 +90,7 @@
    "cat": "Infrastructure",
    "score": 92,
    "grow": 14,
-   "desc": "Model on Hugging Face · open source · ♥ 814",
+   "desc": "Model on Hugging Face · open source · ♥ 816",
    "meta": [
     "14K downloads",
     "Released 7 days ago"
@@ -122,7 +122,7 @@
    "cat": "LLMs",
    "score": 89,
    "grow": null,
-   "desc": "Model on Hugging Face · open weights · ♥ 591",
+   "desc": "Model on Hugging Face · open weights · ♥ 593",
    "meta": [
     "33K downloads",
     "Released 8 days ago"
@@ -130,22 +130,6 @@
    "at": "2026-10-23T21:35:42.000Z",
    "breakout": null,
    "url": "https://huggingface.co/LiquidAI/LFM3-1.7B"
-  },
-  {
-   "name": "Unlimited-OCR-2",
-   "owner": "baidu",
-   "src": "hf",
-   "cat": "Vision",
-   "score": 88,
-   "grow": 185,
-   "desc": "Vision on Hugging Face · open source · ♥ 465",
-   "meta": [
-    "69K downloads",
-    "Released 5 days ago"
-   ],
-   "at": "2026-10-26T03:57:46.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/baidu/Unlimited-OCR-2"
   },
   {
    "name": "dsh-Go",
@@ -156,13 +140,29 @@
    "grow": null,
    "desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
    "meta": [
-    "★ 3,093",
-    "~509 in 24h",
+    "★ 3,117",
+    "~511 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-25T08:09:52Z",
    "breakout": null,
    "url": "https://github.com/ccch1mneyyy/dsh-Go"
+  },
+  {
+   "name": "Unlimited-OCR-2",
+   "owner": "baidu",
+   "src": "hf",
+   "cat": "Vision",
+   "score": 87,
+   "grow": 185,
+   "desc": "Vision on Hugging Face · open source · ♥ 466",
+   "meta": [
+    "69K downloads",
+    "Released 5 days ago"
+   ],
+   "at": "2026-10-26T03:57:46.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/baidu/Unlimited-OCR-2"
   },
   {
    "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
@@ -171,7 +171,7 @@
    "cat": "Coding",
    "score": 86,
    "grow": null,
-   "desc": "Model on Hugging Face · open weights · ♥ 513",
+   "desc": "Model on Hugging Face · open weights · ♥ 515",
    "meta": [
     "24K downloads",
     "Released 23 days ago"
@@ -209,8 +209,8 @@
    "name": "unslop",
    "url": "https://github.com/heydamir/unslop",
    "from": "GitHub",
-   "use": 2048,
-   "useLabel": "+2,048 stars/day",
+   "use": 2122,
+   "useLabel": "+2,122 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -324,62 +324,62 @@
  "github": [
   {
    "repo": "heydamir/unslop",
-   "stars": 2063,
-   "d24": 2048,
+   "stars": 2138,
+   "d24": 2122,
    "est": false,
-   "forks": 103,
+   "forks": 106,
    "contrib": null,
    "score": 97
   },
   {
    "repo": "wangzan101/Mika",
-   "stars": 2022,
-   "d24": 1888,
+   "stars": 2059,
+   "d24": 1883,
    "est": false,
-   "forks": 323,
+   "forks": 327,
    "contrib": null,
    "score": 96
   },
   {
-   "repo": "paipiange/nvzhuang",
-   "stars": 1486,
-   "d24": 776,
-   "est": false,
-   "forks": 413,
-   "contrib": null,
-   "score": 92
-  },
-  {
    "repo": "anhao/ai-pose-gallery-zh",
-   "stars": 4327,
-   "d24": 774,
+   "stars": 4349,
+   "d24": 785,
    "est": false,
-   "forks": 1099,
+   "forks": 1101,
    "contrib": 2,
    "score": 94
   },
   {
+   "repo": "paipiange/nvzhuang",
+   "stars": 1492,
+   "d24": 751,
+   "est": false,
+   "forks": 416,
+   "contrib": null,
+   "score": 92
+  },
+  {
    "repo": "ccch1mneyyy/dsh-Go",
-   "stars": 3093,
-   "d24": 509,
+   "stars": 3117,
+   "d24": 511,
    "est": true,
-   "forks": 133,
+   "forks": 134,
    "contrib": null,
    "score": 87
   },
   {
    "repo": "qybaihe/bla",
-   "stars": 1565,
+   "stars": 1573,
    "d24": 253,
    "est": true,
-   "forks": 214,
+   "forks": 216,
    "contrib": null,
    "score": 82
   },
   {
    "repo": "Motionsites-AI/claude-skill",
    "stars": 1227,
-   "d24": 239,
+   "d24": 238,
    "est": true,
    "forks": 125,
    "contrib": null,
@@ -387,10 +387,10 @@
   },
   {
    "repo": "DenisSergeevitch/ex-ussr-kinship-research",
-   "stars": 1363,
-   "d24": 92,
+   "stars": 1366,
+   "d24": 93,
    "est": false,
-   "forks": 141,
+   "forks": 142,
    "contrib": null,
    "score": 80
   }
@@ -406,7 +406,7 @@
    "grow": 14,
    "score": 92,
    "cat": "Infrastructure",
-   "likes": 814
+   "likes": 816
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -417,7 +417,7 @@
    "grow": 7,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 4047
+   "likes": 4049
   },
   {
    "name": "LFM3-1.7B",
@@ -429,7 +429,7 @@
    "grow": null,
    "score": 89,
    "cat": "LLMs",
-   "likes": 591
+   "likes": 593
   },
   {
    "name": "Unlimited-OCR-2",
@@ -438,9 +438,9 @@
    "at": "2026-10-26T03:57:46.000Z",
    "dl": 69231,
    "grow": 185,
-   "score": 88,
+   "score": 87,
    "cat": "Vision",
-   "likes": 465
+   "likes": 466
   },
   {
    "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
@@ -452,7 +452,7 @@
    "grow": null,
    "score": 86,
    "cat": "Coding",
-   "likes": 513
+   "likes": 515
   },
   {
    "name": "Mistral-Large-4-1T-A52B",
@@ -464,7 +464,7 @@
    "grow": null,
    "score": 83,
    "cat": "Infrastructure",
-   "likes": 1364
+   "likes": 1367
   }
  ],
  "free": [
@@ -789,6 +789,13 @@
    "kind": "News"
   },
   {
+   "t": "AI’s First Brain Surgery #ai #aimedicine #aidoctor #claude #aifordoctors",
+   "url": "https://www.youtube.com/watch?v=dZUatzFQ79M",
+   "at": "2026-10-31T03:13:48Z",
+   "src": "Mayankshah",
+   "kind": "Video"
+  },
+  {
    "t": "Sources: OpenAI has secured ~$11B in commitments for its latest funding round, less than half its initial $30B target, and expects to raise more in coming weeks",
    "url": "https://www.techmeme.com/261030/p31#a261030p31",
    "at": "2026-10-31T02:30:02.000Z",
@@ -800,6 +807,27 @@
    "url": "https://www.techmeme.com/261030/p30#a261030p30",
    "at": "2026-10-31T01:00:53.000Z",
    "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "OpenAI's Sam Altman Thinks It's Great If You Can Afford RAM",
+   "url": "https://kotaku.com/sam-altman-thinks-its-good-if-you-cant-afford-ram-for-your-pc-2000751732",
+   "at": "2026-10-30T22:30:03Z",
+   "src": "Kotaku",
+   "kind": "News"
+  },
+  {
+   "t": "How AI is impacting the midterm elections",
+   "url": "https://www.weau.com/2026/10/30/how-ai-is-impacting-midterm-elections/",
+   "at": "2026-10-30T22:20:35Z",
+   "src": "WEAU",
+   "kind": "News"
+  },
+  {
+   "t": "Trai proposes draft framework for responsible use of AI in tele networks",
+   "url": "https://timesofindia.indiatimes.com/business/india-business/trai-proposes-draft-framework-for-responsible-use-of-ai-in-tele-networks/articleshow/135379126.cms",
+   "at": "2026-10-30T22:17:00Z",
+   "src": "Times of India",
    "kind": "News"
   },
   {
@@ -836,34 +864,6 @@
    "at": "2026-10-30T20:58:14Z",
    "src": "Moneycontrol",
    "kind": "News"
-  },
-  {
-   "t": "OpenAI tightens limits on the weapons-related information that ChatGPT provides teens, even when a question appears harmless, as part of new safeguards",
-   "url": "https://www.techmeme.com/261030/p25#a261030p25",
-   "at": "2026-10-30T20:55:37.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Which Workers Are Most Vulnerable to AI Disruption?",
-   "url": "https://www.europesays.com/3342572/",
-   "at": "2026-10-30T20:54:34Z",
-   "src": "EUROPE SAYS",
-   "kind": "News"
-  },
-  {
-   "t": "Sam Altman says it’s better for RAM to be in a data center than on your desk",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers",
-   "at": "2026-10-30T20:48:43Z",
-   "src": "The Verge",
-   "kind": "News"
-  },
-  {
-   "t": "The biggest names in AI are backing a new way to opt out of scraping",
-   "url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
-   "at": "2026-10-30T20:26:10Z",
-   "src": "The Verge",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -872,8 +872,8 @@
    "t": "AI isn't replacing SREs, it's deskilling them",
    "url": "https://news.ycombinator.com/item?id=50305693",
    "link": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
-   "up": 596,
-   "com": 447,
+   "up": 600,
+   "com": 450,
    "at": "2026-10-30T15:52:18.000Z"
   },
   {
@@ -890,18 +890,9 @@
    "t": "OpenAI raises less than half of $30B target",
    "url": "https://news.ycombinator.com/item?id=50312922",
    "link": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
-   "up": 151,
+   "up": 152,
    "com": 141,
    "at": "2026-10-31T03:22:44.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Claude Code VS Code extension with backdoor released on Cursor marketplace",
-   "url": "https://news.ycombinator.com/item?id=50301983",
-   "link": "https://doublepulsar.com/anthropic-hacked-to-deliver-remote-access-trojan-to-claude-developer-laptops-worldwide-1148a92baae2",
-   "up": 399,
-   "com": 1,
-   "at": "2026-10-30T10:22:51.000Z"
   },
   {
    "src": "Hacker News",
@@ -909,7 +900,7 @@
    "url": "https://news.ycombinator.com/item?id=50307183",
    "link": "https://www.404media.co/protons-ceo-cancels-ai-re-interviews/",
    "up": 275,
-   "com": 229,
+   "com": 231,
    "at": "2026-10-30T17:24:45.000Z"
   },
   {
@@ -917,9 +908,18 @@
    "t": "Florilegium: Procedural Flowers in LaTeX",
    "url": "https://news.ycombinator.com/item?id=50305637",
    "link": "https://github.com/kevinraymond/florilegium",
-   "up": 279,
+   "up": 283,
    "com": 47,
    "at": "2026-10-30T15:48:12.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Show HN: A working Nintendo in ~1GB of Qwen weights",
+   "url": "https://news.ycombinator.com/item?id=50306442",
+   "link": "https://github.com/dbreunig/nesformer",
+   "up": 254,
+   "com": 122,
+   "at": "2026-10-30T16:40:22.000Z"
   }
  ]
 }
