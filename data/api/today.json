@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-31T06:01:01.834Z"
+  "updated": "2026-10-31T06:30:52.167Z"
  },
  "pulse": {
   "trending": 84,
   "accelerating": 0,
   "newModels": 8,
-  "discussions": 42,
-  "stars": 5398
+  "discussions": 44,
+  "stars": 5802
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 97,
-   "grow": 46,
+   "grow": 48,
    "desc": "Mika — 你手机上的私人 AI 助理，替你操作 App、上网、把事办成。An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "meta": [
-    "★ 1,745",
-    "+2,026 in 24h",
+    "★ 1,775",
+    "+1,985 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-29T14:34:07Z",
@@ -41,8 +41,8 @@
    "grow": 6,
    "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
    "meta": [
-    "★ 4,142",
-    "+615 in 24h",
+    "★ 4,156",
+    "+619 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-27T12:24:37Z",
@@ -55,11 +55,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 94,
-   "grow": null,
+   "grow": 32,
    "desc": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
    "meta": [
-    "★ 1,561",
-    "~977 in 24h",
+    "★ 1,593",
+    "+1,415 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-29T15:41:21Z",
@@ -75,7 +75,7 @@
    "grow": null,
    "desc": "1407 张 AI 女装参考图集与虚拟试穿网站，支持中英检索、OpenAI Images / Gemini / 豆包及自定义 Base URL、API Key、模型。https://github.com/paipiange/nvzhuang",
    "meta": [
-    "★ 1,364",
+    "★ 1,378",
     "~684 in 24h",
     "Created 2 days ago"
    ],
@@ -90,7 +90,7 @@
    "cat": "Infrastructure",
    "score": 91,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 801",
+   "desc": "Model on Hugging Face · open source · ♥ 802",
    "meta": [
     "12K downloads",
     "Released 7 days ago"
@@ -138,7 +138,7 @@
    "cat": "Vision",
    "score": 89,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open source · ♥ 458",
+   "desc": "Vision on Hugging Face · open source · ♥ 459",
    "meta": [
     "24K downloads",
     "Released 5 days ago"
@@ -156,8 +156,8 @@
    "grow": null,
    "desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
    "meta": [
-    "★ 2,831",
-    "~479 in 24h",
+    "★ 2,860",
+    "~482 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-25T08:09:52Z",
@@ -173,8 +173,8 @@
    "grow": 1,
    "desc": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …",
    "meta": [
-    "★ 1,562",
-    "+29 in 24h",
+    "★ 1,564",
+    "+31 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-26T04:34:09Z",
@@ -182,14 +182,105 @@
    "url": "https://github.com/andyhuo520/digital-human-koubo"
   }
  ],
- "breakouts": [],
+ "breakouts": [
+  {
+   "key": "gemini 4",
+   "label": "Gemini 4",
+   "n": 3,
+   "sources": [
+    {
+     "src": "DEV",
+     "t": "Gemini 4 Carbon and an anti-LLM script: what each one actually says",
+     "url": "https://dev.to/axrisi/gemini-4-carbon-and-an-anti-llm-script-what-each-one-actually-says-5d3d"
+    },
+    {
+     "src": "Google DeepMind blog",
+     "t": "Gemini 4 Carbon: Our next frontier model",
+     "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
+    },
+    {
+     "src": "Product Hunt",
+     "t": "Gemini 4 Carbon",
+     "url": "https://www.producthunt.com/products/gemini-4-carbon?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
+    }
+   ],
+   "since": "2026-10-01T18:14:41.538Z"
+  },
+  {
+   "key": "gemini 4 carbon",
+   "label": "Gemini 4 Carbon",
+   "n": 3,
+   "sources": [
+    {
+     "src": "Product Hunt",
+     "t": "Gemini 4 Carbon",
+     "url": "https://www.producthunt.com/products/gemini-4-carbon?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
+    },
+    {
+     "src": "DEV",
+     "t": "Gemini 4 Carbon and an anti-LLM script: what each one actually says",
+     "url": "https://dev.to/axrisi/gemini-4-carbon-and-an-anti-llm-script-what-each-one-actually-says-5d3d"
+    },
+    {
+     "src": "Google DeepMind blog",
+     "t": "Gemini 4 Carbon: Our next frontier model",
+     "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
+    }
+   ],
+   "since": "2026-10-29T09:01:09.805Z"
+  }
+ ],
  "hype": [
+  {
+   "name": "Gemini 4",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "DEV",
+     "t": "Gemini 4 Carbon and an anti-LLM script: what each one actually says",
+     "url": "https://dev.to/axrisi/gemini-4-carbon-and-an-anti-llm-script-what-each-one-actually-says-5d3d"
+    },
+    {
+     "src": "Google DeepMind blog",
+     "t": "Gemini 4 Carbon: Our next frontier model",
+     "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
+    }
+   ],
+   "buzz": 2,
+   "verdict": "Talk only, no public usage numbers"
+  },
+  {
+   "name": "Gemini 4 Carbon",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "DEV",
+     "t": "Gemini 4 Carbon and an anti-LLM script: what each one actually says",
+     "url": "https://dev.to/axrisi/gemini-4-carbon-and-an-anti-llm-script-what-each-one-actually-says-5d3d"
+    },
+    {
+     "src": "Google DeepMind blog",
+     "t": "Gemini 4 Carbon: Our next frontier model",
+     "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
+    }
+   ],
+   "buzz": 2,
+   "verdict": "Talk only, no public usage numbers"
+  },
   {
    "name": "Mika",
    "url": "https://github.com/wangzan101/Mika",
    "from": "GitHub",
-   "use": 2026,
-   "useLabel": "+2,026 stars/day",
+   "use": 1985,
+   "useLabel": "+1,985 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -303,61 +394,61 @@
  "github": [
   {
    "repo": "wangzan101/Mika",
-   "stars": 1745,
-   "d24": 2026,
+   "stars": 1775,
+   "d24": 1985,
    "est": false,
-   "forks": 271,
+   "forks": 276,
    "contrib": null,
    "score": 97
   },
   {
    "repo": "heydamir/unslop",
-   "stars": 1561,
-   "d24": 977,
-   "est": true,
-   "forks": 80,
+   "stars": 1593,
+   "d24": 1415,
+   "est": false,
+   "forks": 81,
    "contrib": null,
    "score": 94
   },
   {
    "repo": "paipiange/nvzhuang",
-   "stars": 1364,
+   "stars": 1378,
    "d24": 684,
    "est": true,
-   "forks": 390,
+   "forks": 396,
    "contrib": null,
    "score": 92
   },
   {
    "repo": "anhao/ai-pose-gallery-zh",
-   "stars": 4142,
-   "d24": 615,
+   "stars": 4156,
+   "d24": 619,
    "est": false,
-   "forks": 1058,
+   "forks": 1061,
    "contrib": 2,
    "score": 95
   },
   {
    "repo": "ccch1mneyyy/dsh-Go",
-   "stars": 2831,
-   "d24": 479,
+   "stars": 2860,
+   "d24": 482,
    "est": true,
-   "forks": 121,
+   "forks": 122,
    "contrib": null,
    "score": 87
   },
   {
    "repo": "qybaihe/bla",
-   "stars": 1494,
+   "stars": 1501,
    "d24": 248,
    "est": true,
-   "forks": 201,
+   "forks": 204,
    "contrib": null,
    "score": 82
   },
   {
    "repo": "Motionsites-AI/claude-skill",
-   "stars": 1212,
+   "stars": 1214,
    "d24": 244,
    "est": true,
    "forks": 125,
@@ -366,8 +457,8 @@
   },
   {
    "repo": "DenisSergeevitch/ex-ussr-kinship-research",
-   "stars": 1350,
-   "d24": 96,
+   "stars": 1351,
+   "d24": 94,
    "est": false,
    "forks": 139,
    "contrib": null,
@@ -385,7 +476,7 @@
    "grow": 0,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 801
+   "likes": 802
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -396,7 +487,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 4027
+   "likes": 4028
   },
   {
    "name": "LFM3-1.7B",
@@ -419,7 +510,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Vision",
-   "likes": 458
+   "likes": 459
   },
   {
    "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
@@ -431,7 +522,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Coding",
-   "likes": 508
+   "likes": 509
   },
   {
    "name": "Mistral-Large-4-1T-A52B",
@@ -443,7 +534,7 @@
    "grow": 0,
    "score": 83,
    "cat": "Infrastructure",
-   "likes": 1356
+   "likes": 1358
   }
  ],
  "free": [
@@ -733,6 +824,13 @@
  },
  "headlines": [
   {
+   "t": "As AI models commoditize, lasting wealth will accrue to those controlling chokepoints like distribution, payment rails, and a stablecoin dollar, not to the labs",
+   "url": "https://www.techmeme.com/261031/p6#a261031p6",
+   "at": "2026-10-31T06:30:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Anthropic says a malicious actor used access to Cursor's marketplace to publish a \"tampered\" copy of the Claude Code extension, which it didn't build or publish",
    "url": "https://www.techmeme.com/261031/p2#a261031p2",
    "at": "2026-10-31T05:00:15.000Z",
@@ -782,10 +880,24 @@
    "kind": "News"
   },
   {
-   "t": "Alphabet, Meta, Microsoft, Amazon, and Oracle have a collective $3T+ in AI spending commitments over the coming years, including Alphabet's $1T and Meta's $800B",
-   "url": "https://www.techmeme.com/261030/p22#a261030p22",
-   "at": "2026-10-30T20:00:58.000Z",
-   "src": "Techmeme",
+   "t": "The new geopolitics of IT: Why sovereign AI is the next boardroom mandate",
+   "url": "https://www.europesays.com/3342326/",
+   "at": "2026-10-30T18:24:15Z",
+   "src": "EUROPE SAYS",
+   "kind": "News"
+  },
+  {
+   "t": "Fox News AI Newsletter: Don't want AI on your phone? What to do about it",
+   "url": "https://www.newsbreak.com/fox-news-510075/4976909905312-fox-news-ai-newsletter-don-t-want-ai-on-your-phone-what-to-do-about-it",
+   "at": "2026-10-30T18:17:54Z",
+   "src": "NewsBreak",
+   "kind": "News"
+  },
+  {
+   "t": "'Most urgent' challenge facing AI is need for ethical framework",
+   "url": "https://www.mercurynews.com/2026/10/30/pope-artificial-intelligence-ethical-framework/",
+   "at": "2026-10-30T18:16:41Z",
+   "src": "The Mercury News",
    "kind": "News"
   },
   {
@@ -796,53 +908,32 @@
    "kind": "Lab blog"
   },
   {
-   "t": "OpenAI to limit weapons information for teens on ChatGPT in violence-prevention push",
-   "url": "https://www.marketscreener.com/news/openai-to-limit-weapons-information-for-teens-on-chatgpt-in-violence-prevention-push-ce785fdbd18bfe2d",
-   "at": "2026-10-30T17:47:53Z",
-   "src": "MarketScreener",
-   "kind": "News"
-  },
-  {
-   "t": "Trump Says He Will Ban Term “Artificial Intelligence” in Official Documents",
-   "url": "https://www.naturalnews.com/2026-10-30-trump-ban-artificial-intelligence-term-official-documents.html",
-   "at": "2026-10-30T17:42:48Z",
-   "src": "Natural News",
-   "kind": "News"
-  },
-  {
-   "t": "Amazon's biggest cash burn in history: Why $42 billion vanished in just a year?",
-   "url": "https://economictimes.indiatimes.com/world/business/amazons-biggest-cash-burn-in-history-why-42-billion-vanished-in-just-a-year/articleshow/135370622.cms",
-   "at": "2026-10-30T17:42:00Z",
-   "src": "The Economic Times",
-   "kind": "News"
-  },
-  {
-   "t": "Wikimedia Steps Into NYT vs OpenAI Legal Battle - Why It Matters To India",
-   "url": "https://www.timesnownews.com/opinion/wikimedia-steps-into-nyt-vs-openai-legal-battle-why-it-matters-to-india-article-156437816",
-   "at": "2026-10-30T17:29:43Z",
-   "src": "Times Now",
-   "kind": "News"
-  },
-  {
-   "t": "Intel, Google, Amazon & Reddit Brought Pins To The LLM Bubble (NASDAQ:SMH)",
-   "url": "https://seekingalpha.com/article/4960337-intel-google-amazon-reddit-brought-pins-to-llm-bubble",
-   "at": "2026-10-30T17:20:30Z",
-   "src": "Seeking Alpha",
-   "kind": "News"
-  },
-  {
-   "t": "Nvidia to Invest $3 Billion in Meta Equity Offering as AI Agreement Expands",
-   "url": "https://www.naturalnews.com/2026-10-30-nvidia-to-invest-3b-meta-equity-offering.html",
-   "at": "2026-10-30T17:15:55Z",
-   "src": "Natural News",
-   "kind": "News"
-  },
-  {
    "t": "Credit where it’s due to AI for uncovering the PHP flaw – and discredit to the leaker | Letters",
    "url": "https://www.theguardian.com/technology/2026/oct/30/credit-where-its-due-to-ai-for-uncovering-the-php-flaw-and-discredit-to-the-leaker",
    "at": "2026-10-30T17:10:09Z",
    "src": "The Guardian",
    "kind": "News"
+  },
+  {
+   "t": "A question for those who hate datacentres",
+   "url": "https://www.theguardian.com/uk-news/2026/oct/30/a-question-for-those-who-hate-datacentres",
+   "at": "2026-10-30T17:10:03Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "How do we make new economic ideas a reality? – Aditya Chakrabortty answered your questions",
+   "url": "https://www.theguardian.com/community/live/2026/oct/29/reader-qa-aditya-chakrabortty-answers-your-questions",
+   "at": "2026-10-30T16:21:29Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "Jensen Huang Just Named the Next Wave of AI",
+   "url": "https://www.youtube.com/watch?v=oeq8PziWTeo",
+   "at": "2026-10-30T15:00:39Z",
+   "src": "Julia McCoy",
+   "kind": "Video"
   }
  ],
  "discussions": [
@@ -851,8 +942,8 @@
    "t": "OpenAI raises less than half of $30B target",
    "url": "https://news.ycombinator.com/item?id=50312922",
    "link": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
-   "up": 112,
-   "com": 61,
+   "up": 127,
+   "com": 94,
    "at": "2026-10-31T03:22:44.000Z"
   },
   {
@@ -860,8 +951,8 @@
    "t": "AI isn't replacing SREs, it's deskilling them",
    "url": "https://news.ycombinator.com/item?id=50305693",
    "link": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
-   "up": 549,
-   "com": 410,
+   "up": 558,
+   "com": 411,
    "at": "2026-10-30T15:52:18.000Z"
   },
   {
@@ -869,8 +960,8 @@
    "t": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
    "url": "https://news.ycombinator.com/item?id=50300683",
    "link": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
-   "up": 857,
-   "com": 512,
+   "up": 863,
+   "com": 513,
    "at": "2026-10-30T07:09:12.000Z"
   },
   {
@@ -887,8 +978,8 @@
    "t": "Proton's CEO Cancels AI 'Re-Interviews'",
    "url": "https://news.ycombinator.com/item?id=50307183",
    "link": "https://www.404media.co/protons-ceo-cancels-ai-re-interviews/",
-   "up": 268,
-   "com": 221,
+   "up": 270,
+   "com": 222,
    "at": "2026-10-30T17:24:45.000Z"
   },
   {
