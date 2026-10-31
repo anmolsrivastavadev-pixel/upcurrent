@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-31T00:42:49.329Z"
+  "updated": "2026-10-31T01:00:57.636Z"
  },
  "pulse": {
   "trending": 84,
   "accelerating": 0,
-  "newModels": 11,
-  "discussions": 35,
-  "stars": 6124
+  "newModels": 10,
+  "discussions": 30,
+  "stars": 6711
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
    "meta": [
-    "★ 3,951",
-    "~1,125 in 24h",
+    "★ 3,961",
+    "~1,124 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-27T12:24:37Z",
@@ -41,8 +41,8 @@
    "grow": null,
    "desc": "Mika — 你手机上的私人 AI 助理，替你操作 App、上网、把事办成。An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "meta": [
-    "★ 1,300",
-    "~914 in 24h",
+    "★ 1,330",
+    "~927 in 24h",
     "Created yesterday"
    ],
    "at": "2026-10-29T14:34:07Z",
@@ -58,13 +58,30 @@
    "grow": null,
    "desc": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
    "meta": [
-    "★ 1,249",
-    "~908 in 24h",
+    "★ 1,273",
+    "~917 in 24h",
     "Created yesterday"
    ],
    "at": "2026-10-29T15:41:21Z",
    "breakout": null,
    "url": "https://github.com/heydamir/unslop"
+  },
+  {
+   "name": "nvzhuang",
+   "owner": "paipiange",
+   "src": "gh",
+   "cat": "Vision",
+   "score": 93,
+   "grow": null,
+   "desc": "1407 张 AI 女装参考图集与虚拟试穿网站，支持中英检索、OpenAI Images / Gemini / 豆包及自定义 Base URL、API Key、模型。https://github.com/paipiange/nvzhuang",
+   "meta": [
+    "★ 1,195",
+    "~669 in 24h",
+    "Created 2 days ago"
+   ],
+   "at": "2026-10-29T06:08:00Z",
+   "breakout": null,
+   "url": "https://github.com/paipiange/nvzhuang"
   },
   {
    "name": "Nanbeige4.3-33B",
@@ -105,7 +122,7 @@
    "cat": "LLMs",
    "score": 89,
    "grow": 0,
-   "desc": "Model on Hugging Face · open weights · ♥ 564",
+   "desc": "Model on Hugging Face · open weights · ♥ 565",
    "meta": [
     "24K downloads",
     "Released 7 days ago"
@@ -123,8 +140,8 @@
    "grow": 3,
    "desc": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
    "meta": [
-    "★ 5,059",
-    "+242 in 24h",
+    "★ 5,064",
+    "+245 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-24T05:35:47Z",
@@ -136,34 +153,17 @@
    "owner": "ccch1mneyyy",
    "src": "gh",
    "cat": "Agents",
-   "score": 88,
-   "grow": 89,
+   "score": 87,
+   "grow": 91,
    "desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
    "meta": [
-    "★ 2,477",
-    "+1,841 in 24h",
+    "★ 2,506",
+    "+1,850 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-25T08:09:52Z",
    "breakout": null,
    "url": "https://github.com/ccch1mneyyy/dsh-Go"
-  },
-  {
-   "name": "digital-human-koubo",
-   "owner": "andyhuo520",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 87,
-   "grow": 0,
-   "desc": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …",
-   "meta": [
-    "★ 1,552",
-    "+19 in 24h",
-    "Created 5 days ago"
-   ],
-   "at": "2026-10-26T04:34:09Z",
-   "breakout": null,
-   "url": "https://github.com/andyhuo520/digital-human-koubo"
   },
   {
    "name": "Unlimited-OCR-2",
@@ -172,7 +172,7 @@
    "cat": "Vision",
    "score": 87,
    "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 452",
+   "desc": "Vision on Hugging Face · open source · ♥ 453",
    "meta": [
     "24K downloads",
     "Released 5 days ago"
@@ -186,7 +186,7 @@
   {
    "key": "gemini 4",
    "label": "Gemini 4",
-   "n": 5,
+   "n": 4,
    "sources": [
     {
      "src": "DEV",
@@ -202,11 +202,6 @@
      "src": "Crypto Briefing",
      "t": "Google’s Gemini 4 Carbon takes first place on Artificial Analysis Intelligence Index",
      "url": "https://cryptobriefing.com/google-gemini-4-carbon-tops-ai-index/"
-    },
-    {
-     "src": "YouTube",
-     "t": "HUGE GPT-6.2 BEL LEAK! Opus 6, Gemini 4 Carbon First Look, Claude Fable 5.5, Qwen 4 & More! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=GlRVbIdc_Mk"
     },
     {
      "src": "Product Hunt",
@@ -219,7 +214,7 @@
   {
    "key": "gemini 4 carbon",
    "label": "Gemini 4 Carbon",
-   "n": 5,
+   "n": 4,
    "sources": [
     {
      "src": "Product Hunt",
@@ -240,11 +235,6 @@
      "src": "Crypto Briefing",
      "t": "Google’s Gemini 4 Carbon takes first place on Artificial Analysis Intelligence Index",
      "url": "https://cryptobriefing.com/google-gemini-4-carbon-tops-ai-index/"
-    },
-    {
-     "src": "YouTube",
-     "t": "HUGE GPT-6.2 BEL LEAK! Opus 6, Gemini 4 Carbon First Look, Claude Fable 5.5, Qwen 4 & More! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=GlRVbIdc_Mk"
     }
    ],
    "since": "2026-10-29T09:01:09.805Z"
@@ -273,14 +263,9 @@
      "src": "Crypto Briefing",
      "t": "Google’s Gemini 4 Carbon takes first place on Artificial Analysis Intelligence Index",
      "url": "https://cryptobriefing.com/google-gemini-4-carbon-tops-ai-index/"
-    },
-    {
-     "src": "YouTube",
-     "t": "HUGE GPT-6.2 BEL LEAK! Opus 6, Gemini 4 Carbon First Look, Claude Fable 5.5, Qwen 4 & More! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=GlRVbIdc_Mk"
     }
    ],
-   "buzz": 4,
+   "buzz": 3,
    "verdict": "Talk only, no public usage numbers"
   },
   {
@@ -305,22 +290,17 @@
      "src": "Crypto Briefing",
      "t": "Google’s Gemini 4 Carbon takes first place on Artificial Analysis Intelligence Index",
      "url": "https://cryptobriefing.com/google-gemini-4-carbon-tops-ai-index/"
-    },
-    {
-     "src": "YouTube",
-     "t": "HUGE GPT-6.2 BEL LEAK! Opus 6, Gemini 4 Carbon First Look, Claude Fable 5.5, Qwen 4 & More! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=GlRVbIdc_Mk"
     }
    ],
-   "buzz": 4,
+   "buzz": 3,
    "verdict": "Talk only, no public usage numbers"
   },
   {
    "name": "dsh-Go",
    "url": "https://github.com/ccch1mneyyy/dsh-Go",
    "from": "GitHub",
-   "use": 1841,
-   "useLabel": "+1,841 stars/day",
+   "use": 1850,
+   "useLabel": "+1,850 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -350,6 +330,16 @@
   }
  ],
  "receipts": [
+  {
+   "name": "ccch1mneyyy/dsh-Go",
+   "url": "https://github.com/ccch1mneyyy/dsh-Go",
+   "kind": "stars",
+   "first": "2026-10-30T09:30:52.902Z",
+   "firstV": 1311,
+   "m": 2500,
+   "at": "2026-10-31T01:00:57.636Z",
+   "lead": 15.501315
+  },
   {
    "name": "rddmwmddr/android-ad-cleaner",
    "url": "https://github.com/rddmwmddr/android-ad-cleaner",
@@ -419,59 +409,58 @@
    "m": 10000,
    "at": "2026-10-29T11:01:08.198Z",
    "lead": 186.50406916666665
-  },
-  {
-   "name": "ccore/Qwen3.5-4B-3D-Coder",
-   "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
-   "kind": "downloads",
-   "first": "2026-10-27T10:30:55.791Z",
-   "firstV": 3544,
-   "m": 10000,
-   "at": "2026-10-29T11:01:08.198Z",
-   "lead": 48.50344638888889
   }
  ],
  "github": [
   {
    "repo": "ccch1mneyyy/dsh-Go",
-   "stars": 2477,
-   "d24": 1841,
+   "stars": 2506,
+   "d24": 1850,
    "est": false,
    "forks": 102,
    "contrib": null,
-   "score": 88
+   "score": 87
   },
   {
    "repo": "anhao/ai-pose-gallery-zh",
-   "stars": 3951,
-   "d24": 1125,
+   "stars": 3961,
+   "d24": 1124,
    "est": true,
-   "forks": 1011,
+   "forks": 1013,
    "contrib": 2,
    "score": 95
   },
   {
    "repo": "wangzan101/Mika",
-   "stars": 1300,
-   "d24": 914,
+   "stars": 1330,
+   "d24": 927,
    "est": true,
-   "forks": 213,
+   "forks": 216,
    "contrib": null,
    "score": 95
   },
   {
    "repo": "heydamir/unslop",
-   "stars": 1249,
-   "d24": 908,
+   "stars": 1273,
+   "d24": 917,
    "est": true,
-   "forks": 56,
+   "forks": 57,
    "contrib": null,
    "score": 95
   },
   {
+   "repo": "paipiange/nvzhuang",
+   "stars": 1195,
+   "d24": 669,
+   "est": true,
+   "forks": 360,
+   "contrib": null,
+   "score": 93
+  },
+  {
    "repo": "qybaihe/bla",
-   "stars": 1400,
-   "d24": 459,
+   "stars": 1404,
+   "d24": 456,
    "est": false,
    "forks": 189,
    "contrib": null,
@@ -479,30 +468,21 @@
   },
   {
    "repo": "t3dotgg/tstack",
-   "stars": 2468,
-   "d24": 362,
+   "stars": 2469,
+   "d24": 361,
    "est": true,
    "forks": 153,
    "contrib": null,
-   "score": 86
+   "score": 85
   },
   {
    "repo": "rddmwmddr/android-ad-cleaner",
-   "stars": 5059,
-   "d24": 242,
+   "stars": 5064,
+   "d24": 245,
    "est": false,
-   "forks": 459,
+   "forks": 461,
    "contrib": 30,
    "score": 88
-  },
-  {
-   "repo": "DenisSergeevitch/ex-ussr-kinship-research",
-   "stars": 1345,
-   "d24": 143,
-   "est": false,
-   "forks": 138,
-   "contrib": null,
-   "score": 81
   }
  ],
  "models": [
@@ -539,7 +519,7 @@
    "grow": 0,
    "score": 89,
    "cat": "LLMs",
-   "likes": 564
+   "likes": 565
   },
   {
    "name": "Unlimited-OCR-2",
@@ -550,7 +530,7 @@
    "grow": null,
    "score": 87,
    "cat": "Vision",
-   "likes": 452
+   "likes": 453
   },
   {
    "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
@@ -1067,17 +1047,17 @@
    "kind": "Lab blog"
   },
   {
-   "t": "Meet the trailblazing state senator pioneering AI safeguards to protect kids",
-   "url": "https://www.washingtonexaminer.com/opinion/beltway-confidential/4785639/tracy-pennycuick-pennsylvania-state-senator-ai-safeguards-protect-children/",
-   "at": "2026-10-30T12:37:14Z",
-   "src": "Washington Examiner",
+   "t": "America's AI race demands massive power grid and electricity growth",
+   "url": "https://www.foxnews.com/opinion/brian-harrell-americas-ai-revolution-cant-charge-forward-without-lots-energy",
+   "at": "2026-10-30T13:00:50Z",
+   "src": "Fox News",
    "kind": "News"
   },
   {
-   "t": "TRAI releases draft guidelines on responsible AI use in telecom networks, services",
-   "url": "https://economictimes.indiatimes.com/industry/telecom/telecom-policy/trai-releases-draft-guidelines-on-responsible-ai-use-in-telecom-networks-services/articleshow/135361926.cms",
-   "at": "2026-10-30T12:32:00Z",
-   "src": "The Economic Times",
+   "t": "Heavy hitter: Anthony Scilipoti’s next target? AI",
+   "url": "https://www.theglobeandmail.com/business/rob-magazine/article-heavy-hitter-anthony-scilipotis-next-target-ai/",
+   "at": "2026-10-30T13:00:00Z",
+   "src": "The Globe and Mail",
    "kind": "News"
   }
  ],
@@ -1087,8 +1067,8 @@
    "t": "AI isn't replacing SREs, it's deskilling them",
    "url": "https://news.ycombinator.com/item?id=50305693",
    "link": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
-   "up": 491,
-   "com": 370,
+   "up": 498,
+   "com": 376,
    "at": "2026-10-30T15:52:18.000Z"
   },
   {
@@ -1105,8 +1085,8 @@
    "t": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
    "url": "https://news.ycombinator.com/item?id=50300683",
    "link": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
-   "up": 749,
-   "com": 472,
+   "up": 759,
+   "com": 474,
    "at": "2026-10-30T07:09:12.000Z"
   },
   {
@@ -1115,26 +1095,26 @@
    "url": "https://news.ycombinator.com/item?id=50307183",
    "link": "https://www.404media.co/protons-ceo-cancels-ai-re-interviews/",
    "up": 257,
-   "com": 213,
+   "com": 214,
    "at": "2026-10-30T17:24:45.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "France is getting download tax for content providers (€0.055/GB)",
-   "url": "https://news.ycombinator.com/item?id=50310796",
-   "link": "https://www.resetera.com/threads/france-is-getting-download-tax-for-content-providers-%E2%82%AC0-055-gb-for-data-delivered-to-french-users.1675109/",
-   "up": 83,
-   "com": 71,
-   "at": "2026-10-30T22:10:12.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Claude Code VS Code extension with backdoor released on Cursor marketplace",
    "url": "https://news.ycombinator.com/item?id=50301983",
    "link": "https://doublepulsar.com/anthropic-hacked-to-deliver-remote-access-trojan-to-claude-developer-laptops-worldwide-1148a92baae2",
-   "up": 398,
+   "up": 399,
    "com": 1,
    "at": "2026-10-30T10:22:51.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "US tech stocks see sharp falls over AI cost fears",
+   "url": "https://news.ycombinator.com/item?id=50306008",
+   "link": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo",
+   "up": 234,
+   "com": 262,
+   "at": "2026-10-30T16:13:02.000Z"
   }
  ]
 }
