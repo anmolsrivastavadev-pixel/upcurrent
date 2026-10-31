@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-31T17:30:48.532Z"
+  "updated": "2026-10-31T17:54:57.826Z"
  },
  "pulse": {
-  "trending": 82,
+  "trending": 83,
   "accelerating": 5,
   "newModels": 7,
-  "discussions": 38,
-  "stars": 11089
+  "discussions": 37,
+  "stars": 11470
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "Towards a More Autonomous Agent System",
    "meta": [
-    "★ 1,567",
-    "~3,134 in 24h",
+    "★ 1,636",
+    "~3,272 in 24h",
     "Created 8h ago"
    ],
    "at": "2026-10-31T09:32:46Z",
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 96,
-   "grow": 148,
+   "grow": 152,
    "desc": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
    "meta": [
-    "★ 3,000",
-    "+2,455 in 24h",
+    "★ 3,046",
+    "+2,462 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-29T15:41:21Z",
@@ -55,11 +55,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 95,
-   "grow": 112,
+   "grow": 113,
    "desc": "Mika — 你手机上的私人 AI 助理，替你操作 App、上网、把事办成。An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "meta": [
-    "★ 2,531",
-    "+1,780 in 24h",
+    "★ 2,552",
+    "+1,768 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-29T14:34:07Z",
@@ -72,11 +72,11 @@
    "src": "gh",
    "cat": "Vision",
    "score": 92,
-   "grow": 17,
+   "grow": null,
    "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
    "meta": [
-    "★ 4,596",
-    "+806 in 24h",
+    "★ 4,604",
+    "~1,089 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-27T12:24:37Z",
@@ -89,11 +89,11 @@
    "src": "gh",
    "cat": "Vision",
    "score": 91,
-   "grow": 40,
+   "grow": 41,
    "desc": "1407 张 AI 女装参考图集与虚拟试穿网站，支持中英检索、OpenAI Images / Gemini / 豆包及自定义 Base URL、API Key、模型。https://github.com/paipiange/nvzhuang",
    "meta": [
-    "★ 1,668",
-    "+688 in 24h",
+    "★ 1,679",
+    "+687 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-29T06:08:00Z",
@@ -122,7 +122,7 @@
    "src": "hf",
    "cat": "Infrastructure",
    "score": 89,
-   "grow": 7,
+   "grow": null,
    "desc": "Model on Hugging Face · open source · ♥ 4.1K",
    "meta": [
     "156K downloads",
@@ -139,7 +139,7 @@
    "cat": "LLMs",
    "score": 88,
    "grow": 39,
-   "desc": "Model on Hugging Face · open weights · ♥ 615",
+   "desc": "Model on Hugging Face · open weights · ♥ 617",
    "meta": [
     "33K downloads",
     "Released 8 days ago"
@@ -149,37 +149,37 @@
    "url": "https://huggingface.co/LiquidAI/LFM3-1.7B"
   },
   {
+   "name": "Unlimited-OCR-2",
+   "owner": "baidu",
+   "src": "hf",
+   "cat": "Vision",
+   "score": 87,
+   "grow": null,
+   "desc": "Vision on Hugging Face · open source · ♥ 470",
+   "meta": [
+    "69K downloads",
+    "Released 6 days ago"
+   ],
+   "at": "2026-10-26T03:57:46.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/baidu/Unlimited-OCR-2"
+  },
+  {
    "name": "dsh-Go",
    "owner": "ccch1mneyyy",
    "src": "gh",
    "cat": "Agents",
-   "score": 87,
+   "score": 86,
    "grow": 23,
    "desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
    "meta": [
-    "★ 3,472",
-    "+1,338 in 24h",
+    "★ 3,484",
+    "+1,317 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-25T08:09:52Z",
    "breakout": null,
    "url": "https://github.com/ccch1mneyyy/dsh-Go"
-  },
-  {
-   "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
-   "owner": "nvidia",
-   "src": "hf",
-   "cat": "Coding",
-   "score": 86,
-   "grow": 52,
-   "desc": "Model on Hugging Face · open weights · ♥ 528",
-   "meta": [
-    "24K downloads",
-    "Released 24 days ago"
-   ],
-   "at": "2026-10-07T22:50:21.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B"
   }
  ],
  "breakouts": [],
@@ -188,8 +188,8 @@
    "name": "dsh-superagent-prototype",
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "from": "GitHub",
-   "use": 3134,
-   "useLabel": "~3,134 stars/day",
+   "use": 3272,
+   "useLabel": "~3,272 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -212,13 +212,23 @@
    "from": "Hugging Face",
    "use": 2558497,
    "useLabel": "2.6M downloads",
-   "usePct": 0.96875,
+   "usePct": 0.9696969696969697,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
   }
  ],
  "receipts": [
+  {
+   "name": "unsloth/DeepSeek-V4.1-Flash-1017-GGUF",
+   "url": "https://huggingface.co/unsloth/DeepSeek-V4.1-Flash-1017-GGUF",
+   "kind": "downloads",
+   "first": "2026-10-23T03:01:05.889Z",
+   "firstV": 24733,
+   "m": 100000,
+   "at": "2026-10-31T17:54:57.826Z",
+   "lead": 206.8977602777778
+  },
   {
    "name": "wangzan101/Mika",
    "url": "https://github.com/wangzan101/Mika",
@@ -288,77 +298,67 @@
    "m": 2500,
    "at": "2026-10-31T01:00:57.636Z",
    "lead": 15.501315
-  },
-  {
-   "name": "rddmwmddr/android-ad-cleaner",
-   "url": "https://github.com/rddmwmddr/android-ad-cleaner",
-   "kind": "stars",
-   "first": "2026-10-26T04:30:49.796Z",
-   "firstV": 1040,
-   "m": 5000,
-   "at": "2026-10-30T15:01:09.553Z",
-   "lead": 106.50548805555556
   }
  ],
  "github": [
   {
    "repo": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 1567,
-   "d24": 3134,
+   "stars": 1636,
+   "d24": 3272,
    "est": true,
-   "forks": 118,
+   "forks": 125,
    "contrib": null,
    "score": 99
   },
   {
    "repo": "heydamir/unslop",
-   "stars": 3000,
-   "d24": 2455,
+   "stars": 3046,
+   "d24": 2462,
    "est": false,
-   "forks": 149,
+   "forks": 150,
    "contrib": null,
    "score": 96
   },
   {
    "repo": "wangzan101/Mika",
-   "stars": 2531,
-   "d24": 1780,
+   "stars": 2552,
+   "d24": 1768,
    "est": false,
-   "forks": 416,
+   "forks": 420,
    "contrib": null,
    "score": 95
   },
   {
    "repo": "ccch1mneyyy/dsh-Go",
-   "stars": 3472,
-   "d24": 1338,
+   "stars": 3484,
+   "d24": 1317,
    "est": false,
-   "forks": 157,
+   "forks": 158,
    "contrib": null,
-   "score": 87
+   "score": 86
   },
   {
    "repo": "anhao/ai-pose-gallery-zh",
-   "stars": 4596,
-   "d24": 806,
-   "est": false,
-   "forks": 1166,
+   "stars": 4604,
+   "d24": 1089,
+   "est": true,
+   "forks": 1167,
    "contrib": 3,
    "score": 92
   },
   {
    "repo": "paipiange/nvzhuang",
-   "stars": 1668,
-   "d24": 688,
+   "stars": 1679,
+   "d24": 687,
    "est": false,
-   "forks": 452,
+   "forks": 454,
    "contrib": null,
    "score": 91
   },
   {
    "repo": "qybaihe/bla",
    "stars": 1677,
-   "d24": 382,
+   "d24": 369,
    "est": false,
    "forks": 230,
    "contrib": null,
@@ -366,7 +366,7 @@
   },
   {
    "repo": "andyhuo520/digital-human-koubo",
-   "stars": 1580,
+   "stars": 1581,
    "d24": 285,
    "est": true,
    "forks": 361,
@@ -393,10 +393,10 @@
    "lic": "Open source",
    "at": "2026-10-17T02:40:38.000Z",
    "dl": 156373,
-   "grow": 7,
+   "grow": null,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 4078
+   "likes": 4081
   },
   {
    "name": "LFM3-1.7B",
@@ -408,7 +408,18 @@
    "grow": 39,
    "score": 88,
    "cat": "LLMs",
-   "likes": 615
+   "likes": 617
+  },
+  {
+   "name": "Unlimited-OCR-2",
+   "org": "baidu",
+   "lic": "Open source",
+   "at": "2026-10-26T03:57:46.000Z",
+   "dl": 69231,
+   "grow": null,
+   "score": 87,
+   "cat": "Vision",
+   "likes": 470
   },
   {
    "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
@@ -420,18 +431,7 @@
    "grow": 52,
    "score": 86,
    "cat": "Coding",
-   "likes": 528
-  },
-  {
-   "name": "Unlimited-OCR-2",
-   "org": "baidu",
-   "lic": "Open source",
-   "at": "2026-10-26T03:57:46.000Z",
-   "dl": 69231,
-   "grow": null,
-   "score": 86,
-   "cat": "Vision",
-   "likes": 470
+   "likes": 531
   },
   {
    "name": "Mistral-Large-4-1T-A52B",
@@ -441,7 +441,7 @@
    "at": "2026-09-30T18:35:13.000Z",
    "dl": 2945,
    "grow": 138,
-   "score": 84,
+   "score": 85,
    "cat": "Infrastructure",
    "likes": 1389
   }
@@ -768,6 +768,20 @@
    "kind": "News"
   },
   {
+   "t": "Binance's $6.3 bn hack signals the start of a risky era for crypto security",
+   "url": "https://www.business-standard.com/markets/cryptocurrency/binance-s-6-3-bn-hack-signals-the-start-of-a-risky-era-for-crypto-security-126103100424_1.html",
+   "at": "2026-10-31T05:39:12Z",
+   "src": "Business Standard",
+   "kind": "News"
+  },
+  {
+   "t": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
+   "url": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
+   "at": "2026-10-31T05:33:00Z",
+   "src": "The Hacker News",
+   "kind": "News"
+  },
+  {
    "t": "Canada, EU Launch Alliance for Economic and Security Cooperation",
    "url": "https://www.nation.com.pk/31-Oct-2026/canada-eu-launch-alliance-strengthen-economic-defence-technology-ties",
    "at": "2026-10-31T05:23:00Z",
@@ -822,20 +836,6 @@
    "at": "2026-10-31T04:09:21Z",
    "src": "The News International",
    "kind": "News"
-  },
-  {
-   "t": "Wall Street reels from tech selloff as Nasdaq posts biggest single-day fall since June",
-   "url": "https://timesofindia.indiatimes.com/business/international-business/wall-street-reels-from-tech-selloff-as-nasdaq-posts-biggest-single-day-fall-since-june/articleshow/135386534.cms",
-   "at": "2026-10-31T04:08:00Z",
-   "src": "Times of India",
-   "kind": "News"
-  },
-  {
-   "t": "specific agentic AI liability guide, ETDatacenters",
-   "url": "https://www.europesays.com/3343175/",
-   "at": "2026-10-31T03:51:18Z",
-   "src": "EUROPE SAYS",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -844,8 +844,8 @@
    "t": "Malware uses LLMs to rank victims by how much they're worth",
    "url": "https://news.ycombinator.com/item?id=50316531",
    "link": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
-   "up": 126,
-   "com": 57,
+   "up": 157,
+   "com": 70,
    "at": "2026-10-31T14:29:03.000Z"
   },
   {
@@ -853,8 +853,8 @@
    "t": "We Took over ChatGPT Accounts",
    "url": "https://news.ycombinator.com/item?id=50314699",
    "link": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
-   "up": 219,
-   "com": 107,
+   "up": 228,
+   "com": 109,
    "at": "2026-10-31T10:30:11.000Z"
   },
   {
@@ -862,8 +862,8 @@
    "t": "Digital minimalism",
    "url": "https://news.ycombinator.com/item?id=50313661",
    "link": "https://vitalik.eth.limo/general/2026/10/31/digital_minimalism.html",
-   "up": 212,
-   "com": 154,
+   "up": 222,
+   "com": 167,
    "at": "2026-10-31T06:16:36.000Z"
   },
   {
@@ -876,22 +876,21 @@
    "at": "2026-10-31T13:25:10.000Z"
   },
   {
+   "src": "Mastodon",
+   "t": "# AI # RAM",
+   "url": "https://mstdn.social/@MaryAustinBooks/117536633282621649",
+   "up": 14,
+   "com": 1,
+   "at": "2026-10-31T17:11:34.000Z"
+  },
+  {
    "src": "Hacker News",
    "t": "OpenAI raises less than half of $30B target",
    "url": "https://news.ycombinator.com/item?id=50312922",
    "link": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
-   "up": 173,
-   "com": 168,
+   "up": 174,
+   "com": 170,
    "at": "2026-10-31T03:22:44.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Anthropic's Claude AI blocks video game cloning and reverse-engineering",
-   "url": "https://news.ycombinator.com/item?id=50315987",
-   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-ai-model-is-now-blocking-attempts-at-video-game-recreation-and-cloning-users-also-claim-non-malicious-generic-reverse-engineering-tasks-are-blocked",
-   "up": 32,
-   "com": 15,
-   "at": "2026-10-31T13:25:00.000Z"
   }
  ]
 }
