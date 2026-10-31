@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-31T05:30:48.909Z"
+  "updated": "2026-10-31T06:01:01.834Z"
  },
  "pulse": {
   "trending": 84,
-  "accelerating": 1,
+  "accelerating": 0,
   "newModels": 8,
   "discussions": 42,
-  "stars": 6420
+  "stars": 5398
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 97,
-   "grow": null,
+   "grow": 46,
    "desc": "Mika — 你手机上的私人 AI 助理，替你操作 App、上网、把事办成。An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "meta": [
-    "★ 1,709",
-    "~1,053 in 24h",
+    "★ 1,745",
+    "+2,026 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-29T14:34:07Z",
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "Vision",
    "score": 95,
-   "grow": 5,
+   "grow": 6,
    "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
    "meta": [
-    "★ 4,126",
-    "+606 in 24h",
+    "★ 4,142",
+    "+615 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-27T12:24:37Z",
@@ -58,8 +58,8 @@
    "grow": null,
    "desc": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
    "meta": [
-    "★ 1,534",
-    "~973 in 24h",
+    "★ 1,561",
+    "~977 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-29T15:41:21Z",
@@ -75,8 +75,8 @@
    "grow": null,
    "desc": "1407 张 AI 女装参考图集与虚拟试穿网站，支持中英检索、OpenAI Images / Gemini / 豆包及自定义 Base URL、API Key、模型。https://github.com/paipiange/nvzhuang",
    "meta": [
-    "★ 1,345",
-    "~681 in 24h",
+    "★ 1,364",
+    "~684 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-29T06:08:00Z",
@@ -90,7 +90,7 @@
    "cat": "Infrastructure",
    "score": 91,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 800",
+   "desc": "Model on Hugging Face · open source · ♥ 801",
    "meta": [
     "12K downloads",
     "Released 7 days ago"
@@ -122,7 +122,7 @@
    "cat": "LLMs",
    "score": 89,
    "grow": 0,
-   "desc": "Model on Hugging Face · open weights · ♥ 576",
+   "desc": "Model on Hugging Face · open weights · ♥ 578",
    "meta": [
     "24K downloads",
     "Released 7 days ago"
@@ -138,7 +138,7 @@
    "cat": "Vision",
    "score": 89,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open source · ♥ 457",
+   "desc": "Vision on Hugging Face · open source · ♥ 458",
    "meta": [
     "24K downloads",
     "Released 5 days ago"
@@ -148,139 +148,48 @@
    "url": "https://huggingface.co/baidu/Unlimited-OCR-2"
   },
   {
-   "name": "android-ad-cleaner",
-   "owner": "rddmwmddr",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 88,
-   "grow": null,
-   "desc": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
-   "meta": [
-    "★ 5,153",
-    "~737 in 24h",
-    "Created 7 days ago"
-   ],
-   "at": "2026-10-24T05:35:47Z",
-   "breakout": null,
-   "url": "https://github.com/rddmwmddr/android-ad-cleaner"
-  },
-  {
    "name": "dsh-Go",
    "owner": "ccch1mneyyy",
    "src": "gh",
    "cat": "Agents",
    "score": 87,
-   "grow": 114,
+   "grow": null,
    "desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
    "meta": [
-    "★ 2,805",
-    "+1,793 in 24h",
+    "★ 2,831",
+    "~479 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-25T08:09:52Z",
    "breakout": null,
    "url": "https://github.com/ccch1mneyyy/dsh-Go"
-  }
- ],
- "breakouts": [
-  {
-   "key": "gemini 4",
-   "label": "Gemini 4",
-   "n": 3,
-   "sources": [
-    {
-     "src": "Google DeepMind blog",
-     "t": "Gemini 4 Carbon: Our next frontier model",
-     "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
-    },
-    {
-     "src": "YouTube",
-     "t": "HUGE GPT-6.2 BEL LEAK! Opus 6, Gemini 4 Carbon First Look, Claude Fable 5.5, Qwen 4 & More! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=GlRVbIdc_Mk"
-    },
-    {
-     "src": "Product Hunt",
-     "t": "Gemini 4 Carbon",
-     "url": "https://www.producthunt.com/products/gemini-4-carbon?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
-    }
-   ],
-   "since": "2026-10-01T18:14:41.538Z"
   },
   {
-   "key": "gemini 4 carbon",
-   "label": "Gemini 4 Carbon",
-   "n": 3,
-   "sources": [
-    {
-     "src": "Product Hunt",
-     "t": "Gemini 4 Carbon",
-     "url": "https://www.producthunt.com/products/gemini-4-carbon?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
-    },
-    {
-     "src": "Google DeepMind blog",
-     "t": "Gemini 4 Carbon: Our next frontier model",
-     "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
-    },
-    {
-     "src": "YouTube",
-     "t": "HUGE GPT-6.2 BEL LEAK! Opus 6, Gemini 4 Carbon First Look, Claude Fable 5.5, Qwen 4 & More! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=GlRVbIdc_Mk"
-    }
+   "name": "digital-human-koubo",
+   "owner": "andyhuo520",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 86,
+   "grow": 1,
+   "desc": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …",
+   "meta": [
+    "★ 1,562",
+    "+29 in 24h",
+    "Created 5 days ago"
    ],
-   "since": "2026-10-29T09:01:09.805Z"
+   "at": "2026-10-26T04:34:09Z",
+   "breakout": null,
+   "url": "https://github.com/andyhuo520/digital-human-koubo"
   }
  ],
+ "breakouts": [],
  "hype": [
   {
-   "name": "Gemini 4",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
-    {
-     "src": "Google DeepMind blog",
-     "t": "Gemini 4 Carbon: Our next frontier model",
-     "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
-    },
-    {
-     "src": "YouTube",
-     "t": "HUGE GPT-6.2 BEL LEAK! Opus 6, Gemini 4 Carbon First Look, Claude Fable 5.5, Qwen 4 & More! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=GlRVbIdc_Mk"
-    }
-   ],
-   "buzz": 2,
-   "verdict": "Talk only, no public usage numbers"
-  },
-  {
-   "name": "Gemini 4 Carbon",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
-    {
-     "src": "Google DeepMind blog",
-     "t": "Gemini 4 Carbon: Our next frontier model",
-     "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
-    },
-    {
-     "src": "YouTube",
-     "t": "HUGE GPT-6.2 BEL LEAK! Opus 6, Gemini 4 Carbon First Look, Claude Fable 5.5, Qwen 4 & More! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=GlRVbIdc_Mk"
-    }
-   ],
-   "buzz": 2,
-   "verdict": "Talk only, no public usage numbers"
-  },
-  {
-   "name": "dsh-Go",
-   "url": "https://github.com/ccch1mneyyy/dsh-Go",
+   "name": "Mika",
+   "url": "https://github.com/wangzan101/Mika",
    "from": "GitHub",
-   "use": 1793,
-   "useLabel": "+1,793 stars/day",
+   "use": 2026,
+   "useLabel": "+2,026 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -393,76 +302,76 @@
  ],
  "github": [
   {
-   "repo": "ccch1mneyyy/dsh-Go",
-   "stars": 2805,
-   "d24": 1793,
-   "est": false,
-   "forks": 119,
-   "contrib": null,
-   "score": 87
-  },
-  {
    "repo": "wangzan101/Mika",
-   "stars": 1709,
-   "d24": 1053,
-   "est": true,
-   "forks": 270,
+   "stars": 1745,
+   "d24": 2026,
+   "est": false,
+   "forks": 271,
    "contrib": null,
    "score": 97
   },
   {
    "repo": "heydamir/unslop",
-   "stars": 1534,
-   "d24": 973,
+   "stars": 1561,
+   "d24": 977,
    "est": true,
    "forks": 80,
    "contrib": null,
    "score": 94
   },
   {
-   "repo": "rddmwmddr/android-ad-cleaner",
-   "stars": 5153,
-   "d24": 737,
-   "est": true,
-   "forks": 466,
-   "contrib": 30,
-   "score": 88
-  },
-  {
    "repo": "paipiange/nvzhuang",
-   "stars": 1345,
-   "d24": 681,
+   "stars": 1364,
+   "d24": 684,
    "est": true,
-   "forks": 389,
+   "forks": 390,
    "contrib": null,
    "score": 92
   },
   {
    "repo": "anhao/ai-pose-gallery-zh",
-   "stars": 4126,
-   "d24": 606,
+   "stars": 4142,
+   "d24": 615,
    "est": false,
-   "forks": 1052,
+   "forks": 1058,
    "contrib": 2,
    "score": 95
   },
   {
+   "repo": "ccch1mneyyy/dsh-Go",
+   "stars": 2831,
+   "d24": 479,
+   "est": true,
+   "forks": 121,
+   "contrib": null,
+   "score": 87
+  },
+  {
    "repo": "qybaihe/bla",
-   "stars": 1485,
-   "d24": 451,
-   "est": false,
+   "stars": 1494,
+   "d24": 248,
+   "est": true,
    "forks": 201,
    "contrib": null,
    "score": 82
   },
   {
+   "repo": "Motionsites-AI/claude-skill",
+   "stars": 1212,
+   "d24": 244,
+   "est": true,
+   "forks": 125,
+   "contrib": null,
+   "score": 83
+  },
+  {
    "repo": "DenisSergeevitch/ex-ussr-kinship-research",
-   "stars": 1349,
-   "d24": 98,
+   "stars": 1350,
+   "d24": 96,
    "est": false,
    "forks": 139,
    "contrib": null,
-   "score": 81
+   "score": 80
   }
  ],
  "models": [
@@ -476,7 +385,7 @@
    "grow": 0,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 800
+   "likes": 801
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -487,7 +396,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 4026
+   "likes": 4027
   },
   {
    "name": "LFM3-1.7B",
@@ -499,7 +408,7 @@
    "grow": 0,
    "score": 89,
    "cat": "LLMs",
-   "likes": 576
+   "likes": 578
   },
   {
    "name": "Unlimited-OCR-2",
@@ -510,7 +419,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Vision",
-   "likes": 457
+   "likes": 458
   },
   {
    "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
@@ -522,7 +431,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Coding",
-   "likes": 507
+   "likes": 508
   },
   {
    "name": "Mistral-Large-4-1T-A52B",
@@ -534,7 +443,7 @@
    "grow": 0,
    "score": 83,
    "cat": "Infrastructure",
-   "likes": 1354
+   "likes": 1356
   }
  ],
  "free": [
@@ -887,6 +796,27 @@
    "kind": "Lab blog"
   },
   {
+   "t": "OpenAI to limit weapons information for teens on ChatGPT in violence-prevention push",
+   "url": "https://www.marketscreener.com/news/openai-to-limit-weapons-information-for-teens-on-chatgpt-in-violence-prevention-push-ce785fdbd18bfe2d",
+   "at": "2026-10-30T17:47:53Z",
+   "src": "MarketScreener",
+   "kind": "News"
+  },
+  {
+   "t": "Trump Says He Will Ban Term “Artificial Intelligence” in Official Documents",
+   "url": "https://www.naturalnews.com/2026-10-30-trump-ban-artificial-intelligence-term-official-documents.html",
+   "at": "2026-10-30T17:42:48Z",
+   "src": "Natural News",
+   "kind": "News"
+  },
+  {
+   "t": "Amazon's biggest cash burn in history: Why $42 billion vanished in just a year?",
+   "url": "https://economictimes.indiatimes.com/world/business/amazons-biggest-cash-burn-in-history-why-42-billion-vanished-in-just-a-year/articleshow/135370622.cms",
+   "at": "2026-10-30T17:42:00Z",
+   "src": "The Economic Times",
+   "kind": "News"
+  },
+  {
    "t": "Wikimedia Steps Into NYT vs OpenAI Legal Battle - Why It Matters To India",
    "url": "https://www.timesnownews.com/opinion/wikimedia-steps-into-nyt-vs-openai-legal-battle-why-it-matters-to-india-article-156437816",
    "at": "2026-10-30T17:29:43Z",
@@ -913,37 +843,25 @@
    "at": "2026-10-30T17:10:09Z",
    "src": "The Guardian",
    "kind": "News"
-  },
-  {
-   "t": "A question for those who hate datacentres",
-   "url": "https://www.theguardian.com/uk-news/2026/oct/30/a-question-for-those-who-hate-datacentres",
-   "at": "2026-10-30T17:10:03Z",
-   "src": "The Guardian",
-   "kind": "News"
-  },
-  {
-   "t": "Google loses $500bn as China stocks suffer worst rout since 2016: What's happening to global AI?",
-   "url": "https://timesofindia.indiatimes.com/business/international-business/google-loses-500bn-as-china-stocks-suffer-worst-rout-since-2016-whats-happening-to-global-ai/articleshow/135369988.cms",
-   "at": "2026-10-30T17:08:00Z",
-   "src": "Times of India",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI challenging B.C. privacy order for details of Tumbler Ridge shooting",
-   "url": "https://www.baytoday.ca/national-news/openai-challenging-bc-privacy-order-for-details-of-tumbler-ridge-shooting-12960841",
-   "at": "2026-10-30T16:59:09Z",
-   "src": "BayToday",
-   "kind": "News"
   }
  ],
  "discussions": [
   {
    "src": "Hacker News",
+   "t": "OpenAI raises less than half of $30B target",
+   "url": "https://news.ycombinator.com/item?id=50312922",
+   "link": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
+   "up": 112,
+   "com": 61,
+   "at": "2026-10-31T03:22:44.000Z"
+  },
+  {
+   "src": "Hacker News",
    "t": "AI isn't replacing SREs, it's deskilling them",
    "url": "https://news.ycombinator.com/item?id=50305693",
    "link": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
-   "up": 546,
-   "com": 407,
+   "up": 549,
+   "com": 410,
    "at": "2026-10-30T15:52:18.000Z"
   },
   {
@@ -951,18 +869,9 @@
    "t": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
    "url": "https://news.ycombinator.com/item?id=50300683",
    "link": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
-   "up": 855,
+   "up": 857,
    "com": 512,
    "at": "2026-10-30T07:09:12.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "OpenAI raises less than half of $30B target",
-   "url": "https://news.ycombinator.com/item?id=50312922",
-   "link": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
-   "up": 79,
-   "com": 47,
-   "at": "2026-10-31T03:22:44.000Z"
   },
   {
    "src": "Hacker News",
@@ -978,7 +887,7 @@
    "t": "Proton's CEO Cancels AI 'Re-Interviews'",
    "url": "https://news.ycombinator.com/item?id=50307183",
    "link": "https://www.404media.co/protons-ceo-cancels-ai-re-interviews/",
-   "up": 267,
+   "up": 268,
    "com": 221,
    "at": "2026-10-30T17:24:45.000Z"
   },
