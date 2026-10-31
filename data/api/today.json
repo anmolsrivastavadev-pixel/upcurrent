@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-31T07:30:51.507Z"
+  "updated": "2026-10-31T08:00:59.377Z"
  },
  "pulse": {
-  "trending": 83,
+  "trending": 82,
   "accelerating": 0,
   "newModels": 8,
-  "discussions": 47,
-  "stars": 6048
+  "discussions": 48,
+  "stars": 6157
  },
  "rising": [
   {
@@ -21,16 +21,33 @@
    "src": "gh",
    "cat": "Agents",
    "score": 97,
-   "grow": 55,
+   "grow": 58,
    "desc": "Mika — 你手机上的私人 AI 助理，替你操作 App、上网、把事办成。An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "meta": [
-    "★ 1,852",
-    "+1,968 in 24h",
+    "★ 1,889",
+    "+1,956 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-29T14:34:07Z",
    "breakout": null,
    "url": "https://github.com/wangzan101/Mika"
+  },
+  {
+   "name": "unslop",
+   "owner": "heydamir",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 96,
+   "grow": 45,
+   "desc": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
+   "meta": [
+    "★ 1,751",
+    "+1,623 in 24h",
+    "Created 2 days ago"
+   ],
+   "at": "2026-10-29T15:41:21Z",
+   "breakout": null,
+   "url": "https://github.com/heydamir/unslop"
   },
   {
    "name": "ai-pose-gallery-zh",
@@ -41,8 +58,8 @@
    "grow": 7,
    "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
    "meta": [
-    "★ 4,191",
-    "+641 in 24h",
+    "★ 4,218",
+    "+672 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-27T12:24:37Z",
@@ -50,33 +67,16 @@
    "url": "https://github.com/anhao/ai-pose-gallery-zh"
   },
   {
-   "name": "unslop",
-   "owner": "heydamir",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 95,
-   "grow": 40,
-   "desc": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
-   "meta": [
-    "★ 1,697",
-    "+1,559 in 24h",
-    "Created 2 days ago"
-   ],
-   "at": "2026-10-29T15:41:21Z",
-   "breakout": null,
-   "url": "https://github.com/heydamir/unslop"
-  },
-  {
    "name": "nvzhuang",
    "owner": "paipiange",
    "src": "gh",
    "cat": "Vision",
    "score": 92,
-   "grow": 18,
+   "grow": 19,
    "desc": "1407 张 AI 女装参考图集与虚拟试穿网站，支持中英检索、OpenAI Images / Gemini / 豆包及自定义 Base URL、API Key、模型。https://github.com/paipiange/nvzhuang",
    "meta": [
-    "★ 1,405",
-    "+776 in 24h",
+    "★ 1,427",
+    "+795 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-29T06:08:00Z",
@@ -106,7 +106,7 @@
    "cat": "Infrastructure",
    "score": 90,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 804",
+   "desc": "Model on Hugging Face · open source · ♥ 805",
    "meta": [
     "12K downloads",
     "Released 7 days ago"
@@ -122,7 +122,7 @@
    "cat": "LLMs",
    "score": 89,
    "grow": null,
-   "desc": "Model on Hugging Face · open weights · ♥ 583",
+   "desc": "Model on Hugging Face · open weights · ♥ 585",
    "meta": [
     "24K downloads",
     "Released 7 days ago"
@@ -138,7 +138,7 @@
    "cat": "Vision",
    "score": 88,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open source · ♥ 460",
+   "desc": "Vision on Hugging Face · open source · ♥ 462",
    "meta": [
     "24K downloads",
     "Released 5 days ago"
@@ -156,8 +156,8 @@
    "grow": null,
    "desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
    "meta": [
-    "★ 2,928",
-    "~490 in 24h",
+    "★ 2,960",
+    "~494 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-25T08:09:52Z",
@@ -171,7 +171,7 @@
    "cat": "Coding",
    "score": 86,
    "grow": 0,
-   "desc": "Model on Hugging Face · open weights · ♥ 510",
+   "desc": "Model on Hugging Face · open weights · ♥ 511",
    "meta": [
     "16K downloads",
     "Released 23 days ago"
@@ -181,31 +181,7 @@
    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B"
   }
  ],
- "breakouts": [
-  {
-   "key": "gemini 4",
-   "label": "Gemini 4",
-   "n": 3,
-   "sources": [
-    {
-     "src": "DEV",
-     "t": "Gemini 4 Carbon and an anti-LLM script: what each one actually says",
-     "url": "https://dev.to/axrisi/gemini-4-carbon-and-an-anti-llm-script-what-each-one-actually-says-5d3d"
-    },
-    {
-     "src": "Google DeepMind blog",
-     "t": "Gemini 4 Carbon: Our next frontier model",
-     "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
-    },
-    {
-     "src": "YouTube",
-     "t": "HUGE GPT-6.2 BEL LEAK! Opus 6, Gemini 4 Carbon First Look, Claude Fable 5.5, Qwen 4 & More! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=GlRVbIdc_Mk"
-    }
-   ],
-   "since": "2026-10-01T18:14:41.538Z"
-  }
- ],
+ "breakouts": [],
  "hype": [
   {
    "name": "Gemini 4",
@@ -224,22 +200,17 @@
      "src": "Google DeepMind blog",
      "t": "Gemini 4 Carbon: Our next frontier model",
      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
-    },
-    {
-     "src": "YouTube",
-     "t": "HUGE GPT-6.2 BEL LEAK! Opus 6, Gemini 4 Carbon First Look, Claude Fable 5.5, Qwen 4 & More! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=GlRVbIdc_Mk"
     }
    ],
-   "buzz": 3,
+   "buzz": 2,
    "verdict": "Talk only, no public usage numbers"
   },
   {
    "name": "Mika",
    "url": "https://github.com/wangzan101/Mika",
    "from": "GitHub",
-   "use": 1968,
-   "useLabel": "+1,968 stars/day",
+   "use": 1956,
+   "useLabel": "+1,956 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -262,7 +233,7 @@
    "from": "Hugging Face",
    "use": 2516721,
    "useLabel": "2.5M downloads",
-   "usePct": 0.9696969696969697,
+   "usePct": 0.96875,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -353,62 +324,62 @@
  "github": [
   {
    "repo": "wangzan101/Mika",
-   "stars": 1852,
-   "d24": 1968,
+   "stars": 1889,
+   "d24": 1956,
    "est": false,
-   "forks": 286,
+   "forks": 298,
    "contrib": null,
    "score": 97
   },
   {
    "repo": "heydamir/unslop",
-   "stars": 1697,
-   "d24": 1559,
+   "stars": 1751,
+   "d24": 1623,
    "est": false,
-   "forks": 85,
+   "forks": 89,
    "contrib": null,
-   "score": 95
+   "score": 96
   },
   {
    "repo": "paipiange/nvzhuang",
-   "stars": 1405,
-   "d24": 776,
+   "stars": 1427,
+   "d24": 795,
    "est": false,
-   "forks": 398,
+   "forks": 399,
    "contrib": null,
    "score": 92
   },
   {
    "repo": "anhao/ai-pose-gallery-zh",
-   "stars": 4191,
-   "d24": 641,
+   "stars": 4218,
+   "d24": 672,
    "est": false,
-   "forks": 1070,
+   "forks": 1080,
    "contrib": 2,
    "score": 95
   },
   {
    "repo": "ccch1mneyyy/dsh-Go",
-   "stars": 2928,
-   "d24": 490,
+   "stars": 2960,
+   "d24": 494,
    "est": true,
-   "forks": 127,
+   "forks": 128,
    "contrib": null,
    "score": 87
   },
   {
    "repo": "qybaihe/bla",
-   "stars": 1521,
+   "stars": 1528,
    "d24": 250,
    "est": true,
-   "forks": 205,
+   "forks": 208,
    "contrib": null,
    "score": 82
   },
   {
    "repo": "Motionsites-AI/claude-skill",
-   "stars": 1218,
-   "d24": 243,
+   "stars": 1219,
+   "d24": 242,
    "est": true,
    "forks": 125,
    "contrib": null,
@@ -416,8 +387,8 @@
   },
   {
    "repo": "DenisSergeevitch/ex-ussr-kinship-research",
-   "stars": 1352,
-   "d24": 90,
+   "stars": 1356,
+   "d24": 93,
    "est": false,
    "forks": 139,
    "contrib": null,
@@ -446,7 +417,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 804
+   "likes": 805
   },
   {
    "name": "LFM3-1.7B",
@@ -458,7 +429,7 @@
    "grow": null,
    "score": 89,
    "cat": "LLMs",
-   "likes": 583
+   "likes": 585
   },
   {
    "name": "Unlimited-OCR-2",
@@ -469,7 +440,7 @@
    "grow": 0,
    "score": 88,
    "cat": "Vision",
-   "likes": 460
+   "likes": 462
   },
   {
    "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
@@ -481,7 +452,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Coding",
-   "likes": 510
+   "likes": 511
   },
   {
    "name": "Mistral-Large-4-1T-A52B",
@@ -493,7 +464,7 @@
    "grow": null,
    "score": 83,
    "cat": "Infrastructure",
-   "likes": 1360
+   "likes": 1361
   }
  ],
  "free": [
@@ -839,6 +810,13 @@
    "kind": "News"
   },
   {
+   "t": "Can courts use tech to catch fabricated evidence?",
+   "url": "https://www.cp24.com/news/canada/2026/10/30/building-tool-to-help-courts-spot-ai-generated-evidence-is-challenging-researcher/",
+   "at": "2026-10-30T19:54:12Z",
+   "src": "CP24 Toronto",
+   "kind": "News"
+  },
+  {
    "t": "Building tool to help courts spot AI-generated evidence is 'challenging': researcher",
    "url": "https://www.baytoday.ca/national-news/building-tool-to-help-courts-spot-ai-generated-evidence-is-challenging-researcher-12962116",
    "at": "2026-10-30T19:30:47Z",
@@ -886,13 +864,6 @@
    "at": "2026-10-30T18:33:44Z",
    "src": "Bloomberg",
    "kind": "News"
-  },
-  {
-   "t": "The new geopolitics of IT: Why sovereign AI is the next boardroom mandate",
-   "url": "https://www.europesays.com/3342326/",
-   "at": "2026-10-30T18:24:15Z",
-   "src": "EUROPE SAYS",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -901,18 +872,9 @@
    "t": "AI isn't replacing SREs, it's deskilling them",
    "url": "https://news.ycombinator.com/item?id=50305693",
    "link": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
-   "up": 569,
-   "com": 419,
+   "up": 575,
+   "com": 421,
    "at": "2026-10-30T15:52:18.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "OpenAI raises less than half of $30B target",
-   "url": "https://news.ycombinator.com/item?id=50312922",
-   "link": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
-   "up": 142,
-   "com": 126,
-   "at": "2026-10-31T03:22:44.000Z"
   },
   {
    "src": "Hacker News",
@@ -925,11 +887,20 @@
   },
   {
    "src": "Hacker News",
+   "t": "OpenAI raises less than half of $30B target",
+   "url": "https://news.ycombinator.com/item?id=50312922",
+   "link": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
+   "up": 145,
+   "com": 126,
+   "at": "2026-10-31T03:22:44.000Z"
+  },
+  {
+   "src": "Hacker News",
    "t": "Proton's CEO Cancels AI 'Re-Interviews'",
    "url": "https://news.ycombinator.com/item?id=50307183",
    "link": "https://www.404media.co/protons-ceo-cancels-ai-re-interviews/",
    "up": 272,
-   "com": 226,
+   "com": 227,
    "at": "2026-10-30T17:24:45.000Z"
   },
   {
@@ -943,12 +914,12 @@
   },
   {
    "src": "Hacker News",
-   "t": "US tech stocks see sharp falls over AI cost fears",
-   "url": "https://news.ycombinator.com/item?id=50306008",
-   "link": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo",
-   "up": 251,
-   "com": 283,
-   "at": "2026-10-30T16:13:02.000Z"
+   "t": "Florilegium: Procedural Flowers in LaTeX",
+   "url": "https://news.ycombinator.com/item?id=50305637",
+   "link": "https://github.com/kevinraymond/florilegium",
+   "up": 260,
+   "com": 45,
+   "at": "2026-10-30T15:48:12.000Z"
   }
  ]
 }
