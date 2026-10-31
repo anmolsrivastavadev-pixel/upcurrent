@@ -5,27 +5,44 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-31T16:00:57.255Z"
+  "updated": "2026-10-31T16:30:45.627Z"
  },
  "pulse": {
   "trending": 82,
-  "accelerating": 6,
+  "accelerating": 5,
   "newModels": 7,
-  "discussions": 43,
-  "stars": 8107
+  "discussions": 41,
+  "stars": 10665
  },
  "rising": [
+  {
+   "name": "dsh-superagent-prototype",
+   "owner": "deepseek-ai",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 99,
+   "grow": null,
+   "desc": "Towards a More Autonomous Agent System",
+   "meta": [
+    "★ 1,330",
+    "~2,660 in 24h",
+    "Created 7h ago"
+   ],
+   "at": "2026-10-31T09:32:46Z",
+   "breakout": null,
+   "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
+  },
   {
    "name": "unslop",
    "owner": "heydamir",
    "src": "gh",
    "cat": "Agents",
-   "score": 97,
-   "grow": 134,
+   "score": 96,
+   "grow": 139,
    "desc": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
    "meta": [
-    "★ 2,835",
-    "+2,438 in 24h",
+    "★ 2,892",
+    "+2,447 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-29T15:41:21Z",
@@ -37,12 +54,12 @@
    "owner": "wangzan101",
    "src": "gh",
    "cat": "Agents",
-   "score": 96,
-   "grow": 103,
+   "score": 95,
+   "grow": 106,
    "desc": "Mika — 你手机上的私人 AI 助理，替你操作 App、上网、把事办成。An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "meta": [
-    "★ 2,422",
-    "+1,783 in 24h",
+    "★ 2,462",
+    "+1,787 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-29T14:34:07Z",
@@ -58,8 +75,8 @@
    "grow": 16,
    "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
    "meta": [
-    "★ 4,558",
-    "+822 in 24h",
+    "★ 4,571",
+    "+817 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-27T12:24:37Z",
@@ -71,12 +88,12 @@
    "owner": "paipiange",
    "src": "gh",
    "cat": "Vision",
-   "score": 92,
-   "grow": 36,
+   "score": 91,
+   "grow": 37,
    "desc": "1407 张 AI 女装参考图集与虚拟试穿网站，支持中英检索、OpenAI Images / Gemini / 豆包及自定义 Base URL、API Key、模型。https://github.com/paipiange/nvzhuang",
    "meta": [
-    "★ 1,622",
-    "+683 in 24h",
+    "★ 1,638",
+    "+686 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-29T06:08:00Z",
@@ -90,7 +107,7 @@
    "cat": "Infrastructure",
    "score": 91,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 839",
+   "desc": "Model on Hugging Face · open source · ♥ 842",
    "meta": [
     "14K downloads",
     "Released 8 days ago"
@@ -122,7 +139,7 @@
    "cat": "LLMs",
    "score": 88,
    "grow": 39,
-   "desc": "Model on Hugging Face · open weights · ♥ 606",
+   "desc": "Model on Hugging Face · open weights · ♥ 608",
    "meta": [
     "33K downloads",
     "Released 8 days ago"
@@ -137,11 +154,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 87,
-   "grow": 20,
+   "grow": 21,
    "desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
    "meta": [
-    "★ 3,410",
-    "+1,390 in 24h",
+    "★ 3,433",
+    "+1,377 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-25T08:09:52Z",
@@ -155,7 +172,7 @@
    "cat": "Coding",
    "score": 86,
    "grow": 52,
-   "desc": "Model on Hugging Face · open weights · ♥ 526",
+   "desc": "Model on Hugging Face · open weights · ♥ 527",
    "meta": [
     "24K downloads",
     "Released 24 days ago"
@@ -163,25 +180,33 @@
    "at": "2026-10-07T22:50:21.000Z",
    "breakout": null,
    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B"
-  },
-  {
-   "name": "Unlimited-OCR-2",
-   "owner": "baidu",
-   "src": "hf",
-   "cat": "Vision",
-   "score": 86,
-   "grow": 185,
-   "desc": "Vision on Hugging Face · open source · ♥ 469",
-   "meta": [
-    "69K downloads",
-    "Released 6 days ago"
-   ],
-   "at": "2026-10-26T03:57:46.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/baidu/Unlimited-OCR-2"
   }
  ],
- "breakouts": [],
+ "breakouts": [
+  {
+   "key": "gemini 4",
+   "label": "Gemini 4",
+   "n": 3,
+   "sources": [
+    {
+     "src": "DEV",
+     "t": "Gemini 4 Carbon and an anti-LLM script: what each one actually says",
+     "url": "https://dev.to/axrisi/gemini-4-carbon-and-an-anti-llm-script-what-each-one-actually-says-5d3d"
+    },
+    {
+     "src": "Google DeepMind blog",
+     "t": "Gemini 4 Carbon: Our next frontier model",
+     "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
+    },
+    {
+     "src": "YouTube",
+     "t": "HUGE GPT-6.2 BEL LEAK! Opus 6, Gemini 4 Carbon First Look, Claude Fable 5.5, Qwen 4 & More! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=GlRVbIdc_Mk"
+    }
+   ],
+   "since": "2026-10-01T18:14:41.538Z"
+  }
+ ],
  "hype": [
   {
    "name": "Gemini 4",
@@ -200,17 +225,22 @@
      "src": "Google DeepMind blog",
      "t": "Gemini 4 Carbon: Our next frontier model",
      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
+    },
+    {
+     "src": "YouTube",
+     "t": "HUGE GPT-6.2 BEL LEAK! Opus 6, Gemini 4 Carbon First Look, Claude Fable 5.5, Qwen 4 & More! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=GlRVbIdc_Mk"
     }
    ],
-   "buzz": 2,
+   "buzz": 3,
    "verdict": "Talk only, no public usage numbers"
   },
   {
-   "name": "unslop",
-   "url": "https://github.com/heydamir/unslop",
+   "name": "dsh-superagent-prototype",
+   "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "from": "GitHub",
-   "use": 2438,
-   "useLabel": "+2,438 stars/day",
+   "use": 2660,
+   "useLabel": "~2,660 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -323,27 +353,36 @@
  ],
  "github": [
   {
-   "repo": "heydamir/unslop",
-   "stars": 2835,
-   "d24": 2438,
-   "est": false,
-   "forks": 140,
+   "repo": "deepseek-ai/dsh-superagent-prototype",
+   "stars": 1330,
+   "d24": 2660,
+   "est": true,
+   "forks": 100,
    "contrib": null,
-   "score": 97
+   "score": 99
   },
   {
-   "repo": "wangzan101/Mika",
-   "stars": 2422,
-   "d24": 1783,
+   "repo": "heydamir/unslop",
+   "stars": 2892,
+   "d24": 2447,
    "est": false,
-   "forks": 396,
+   "forks": 143,
    "contrib": null,
    "score": 96
   },
   {
+   "repo": "wangzan101/Mika",
+   "stars": 2462,
+   "d24": 1787,
+   "est": false,
+   "forks": 403,
+   "contrib": null,
+   "score": 95
+  },
+  {
    "repo": "ccch1mneyyy/dsh-Go",
-   "stars": 3410,
-   "d24": 1390,
+   "stars": 3433,
+   "d24": 1377,
    "est": false,
    "forks": 154,
    "contrib": null,
@@ -351,48 +390,39 @@
   },
   {
    "repo": "anhao/ai-pose-gallery-zh",
-   "stars": 4558,
-   "d24": 822,
+   "stars": 4571,
+   "d24": 817,
    "est": false,
-   "forks": 1154,
+   "forks": 1157,
    "contrib": 2,
    "score": 93
   },
   {
    "repo": "paipiange/nvzhuang",
-   "stars": 1622,
-   "d24": 683,
+   "stars": 1638,
+   "d24": 686,
    "est": false,
-   "forks": 438,
+   "forks": 443,
    "contrib": null,
-   "score": 92
+   "score": 91
   },
   {
    "repo": "qybaihe/bla",
-   "stars": 1656,
-   "d24": 389,
+   "stars": 1661,
+   "d24": 382,
    "est": false,
-   "forks": 225,
+   "forks": 227,
    "contrib": null,
-   "score": 82
+   "score": 81
   },
   {
    "repo": "andyhuo520/digital-human-koubo",
    "stars": 1579,
-   "d24": 288,
+   "d24": 287,
    "est": true,
    "forks": 360,
    "contrib": null,
    "score": 84
-  },
-  {
-   "repo": "DenisSergeevitch/ex-ussr-kinship-research",
-   "stars": 1390,
-   "d24": 223,
-   "est": true,
-   "forks": 144,
-   "contrib": null,
-   "score": 80
   }
  ],
  "models": [
@@ -406,7 +436,7 @@
    "grow": null,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 839
+   "likes": 842
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -417,7 +447,7 @@
    "grow": 7,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 4071
+   "likes": 4073
   },
   {
    "name": "LFM3-1.7B",
@@ -429,7 +459,7 @@
    "grow": 39,
    "score": 88,
    "cat": "LLMs",
-   "likes": 606
+   "likes": 608
   },
   {
    "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
@@ -441,7 +471,7 @@
    "grow": 52,
    "score": 86,
    "cat": "Coding",
-   "likes": 526
+   "likes": 527
   },
   {
    "name": "Unlimited-OCR-2",
@@ -449,7 +479,7 @@
    "lic": "Open source",
    "at": "2026-10-26T03:57:46.000Z",
    "dl": 69231,
-   "grow": 185,
+   "grow": null,
    "score": 86,
    "cat": "Vision",
    "likes": 469
@@ -464,7 +494,7 @@
    "grow": 138,
    "score": 84,
    "cat": "Infrastructure",
-   "likes": 1386
+   "likes": 1388
   }
  ],
  "free": [
@@ -747,6 +777,13 @@
  },
  "headlines": [
   {
+   "t": "A-listers and AI stylists: how high-street brands are staging a fashion comeback",
+   "url": "https://www.theguardian.com/fashion/2026/oct/31/a-listers-ai-stylists-high-street-brands-fashion-comeback",
+   "at": "2026-10-31T16:00:47Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
    "t": "How AI detectors like Pangram are changing human writing: authors drop em dashes, \"not X, but Y\" phrasing, and words like \"delve\", or add typos, to look human",
    "url": "https://www.techmeme.com/261031/p8#a261031p8",
    "at": "2026-10-31T13:40:53.000Z",
@@ -796,6 +833,20 @@
    "kind": "News"
   },
   {
+   "t": "NATO commander urges Canada to invest in drones and AI to strengthen military",
+   "url": "https://www.thenews.com.pk/latest/1421937-nato-commander-urges-canada-to-invest-in-drones-and-ai-to-strengthen-military",
+   "at": "2026-10-31T04:09:21Z",
+   "src": "The News International",
+   "kind": "News"
+  },
+  {
+   "t": "Wall Street reels from tech selloff as Nasdaq posts biggest single-day fall since June",
+   "url": "https://timesofindia.indiatimes.com/business/international-business/wall-street-reels-from-tech-selloff-as-nasdaq-posts-biggest-single-day-fall-since-june/articleshow/135386534.cms",
+   "at": "2026-10-31T04:08:00Z",
+   "src": "Times of India",
+   "kind": "News"
+  },
+  {
    "t": "specific agentic AI liability guide, ETDatacenters",
    "url": "https://www.europesays.com/3343175/",
    "at": "2026-10-31T03:51:18Z",
@@ -831,32 +882,11 @@
    "kind": "News"
   },
   {
-   "t": "Wall Street drops to its worst day since June after the sell-off for tech stocks deepens",
-   "url": "https://www.manilatimes.net/2026/10/31/business/foreign-business/wall-street-drops-to-its-worst-day-since-june-after-the-sell-off-for-tech-stocks-deepens/2458647",
-   "at": "2026-10-31T02:45:00Z",
-   "src": "The Manila Times",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI cuts funding target by $10 billion: FT",
-   "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-cuts-funding-target-by-10-billion-ft/articleshow/135384941.cms",
-   "at": "2026-10-31T02:35:12Z",
-   "src": "The Economic Times",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI cuts funding target by $10 billion, says report",
-   "url": "https://www.cnbctv18.com/business/openai-cuts-funding-target-by-usd-10-billion-chatgpt-20023854.htm",
-   "at": "2026-10-31T02:30:54Z",
-   "src": "CNBC TV18",
-   "kind": "News"
-  },
-  {
-   "t": "Sources: OpenAI has secured ~$11B in commitments for its latest funding round, less than half its initial $30B target, and expects to raise more in coming weeks",
-   "url": "https://www.techmeme.com/261030/p31#a261030p31",
-   "at": "2026-10-31T02:30:02.000Z",
-   "src": "Techmeme",
-   "kind": "News"
+   "t": "Stock Market PANIC After AI Companies Report WORRYING Earnings",
+   "url": "https://www.youtube.com/watch?v=upaSZ7QkgHo",
+   "at": "2026-10-31T03:00:29Z",
+   "src": "The Young Turks",
+   "kind": "Video"
   }
  ],
  "discussions": [
@@ -865,16 +895,25 @@
    "t": "We Took over ChatGPT Accounts",
    "url": "https://news.ycombinator.com/item?id=50314699",
    "link": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
-   "up": 175,
-   "com": 84,
+   "up": 193,
+   "com": 97,
    "at": "2026-10-31T10:30:11.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Malware uses LLMs to rank victims by how much they're worth",
+   "url": "https://news.ycombinator.com/item?id=50316531",
+   "link": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+   "up": 57,
+   "com": 2,
+   "at": "2026-10-31T14:29:03.000Z"
   },
   {
    "src": "Hacker News",
    "t": "AI startup hacks Anthropic, gains access to employee details, internal messages",
    "url": "https://news.ycombinator.com/item?id=50315990",
    "link": "https://www.indiatoday.in/technology/news/story/ai-startup-hacks-anthropic-in-12-hours-gains-access-to-employee-details-and-internal-messages-3025452-2026-10-26",
-   "up": 68,
+   "up": 70,
    "com": 17,
    "at": "2026-10-31T13:25:10.000Z"
   },
@@ -883,8 +922,8 @@
    "t": "Digital minimalism",
    "url": "https://news.ycombinator.com/item?id=50313661",
    "link": "https://vitalik.eth.limo/general/2026/10/31/digital_minimalism.html",
-   "up": 171,
-   "com": 126,
+   "up": 185,
+   "com": 135,
    "at": "2026-10-31T06:16:36.000Z"
   },
   {
@@ -892,8 +931,8 @@
    "t": "OpenAI raises less than half of $30B target",
    "url": "https://news.ycombinator.com/item?id=50312922",
    "link": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
-   "up": 168,
-   "com": 159,
+   "up": 172,
+   "com": 166,
    "at": "2026-10-31T03:22:44.000Z"
   },
   {
@@ -901,18 +940,9 @@
    "t": "Proton's CEO Cancels AI 'Re-Interviews'",
    "url": "https://news.ycombinator.com/item?id=50307183",
    "link": "https://www.404media.co/protons-ceo-cancels-ai-re-interviews/",
-   "up": 286,
-   "com": 239,
+   "up": 287,
+   "com": 242,
    "at": "2026-10-30T17:24:45.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Show HN: A working Nintendo in ~1GB of Qwen weights",
-   "url": "https://news.ycombinator.com/item?id=50306442",
-   "link": "https://github.com/dbreunig/nesformer",
-   "up": 273,
-   "com": 135,
-   "at": "2026-10-30T16:40:22.000Z"
   }
  ]
 }
