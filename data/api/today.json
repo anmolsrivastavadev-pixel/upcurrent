@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-31T14:01:00.519Z"
+  "updated": "2026-10-31T14:30:53.333Z"
  },
  "pulse": {
   "trending": 82,
-  "accelerating": 6,
+  "accelerating": 5,
   "newModels": 7,
-  "discussions": 49,
-  "stars": 7980
+  "discussions": 46,
+  "stars": 8036
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 97,
-   "grow": 114,
+   "grow": 120,
    "desc": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
    "meta": [
-    "★ 2,595",
-    "+2,374 in 24h",
+    "★ 2,668",
+    "+2,414 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-29T15:41:21Z",
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 96,
-   "grow": 88,
+   "grow": 92,
    "desc": "Mika — 你手机上的私人 AI 助理，替你操作 App、上网、把事办成。An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "meta": [
-    "★ 2,244",
-    "+1,734 in 24h",
+    "★ 2,293",
+    "+1,755 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-29T14:34:07Z",
@@ -58,8 +58,8 @@
    "grow": 14,
    "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
    "meta": [
-    "★ 4,469",
-    "+793 in 24h",
+    "★ 4,490",
+    "+799 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-27T12:24:37Z",
@@ -72,11 +72,11 @@
    "src": "gh",
    "cat": "Vision",
    "score": 92,
-   "grow": 30,
+   "grow": 31,
    "desc": "1407 张 AI 女装参考图集与虚拟试穿网站，支持中英检索、OpenAI Images / Gemini / 豆包及自定义 Base URL、API Key、模型。https://github.com/paipiange/nvzhuang",
    "meta": [
-    "★ 1,557",
-    "+668 in 24h",
+    "★ 1,568",
+    "+663 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-29T06:08:00Z",
@@ -90,7 +90,7 @@
    "cat": "Infrastructure",
    "score": 92,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 831",
+   "desc": "Model on Hugging Face · open source · ♥ 832",
    "meta": [
     "14K downloads",
     "Released 7 days ago"
@@ -120,9 +120,9 @@
    "owner": "LiquidAI",
    "src": "hf",
    "cat": "LLMs",
-   "score": 89,
+   "score": 88,
    "grow": 39,
-   "desc": "Model on Hugging Face · open weights · ♥ 600",
+   "desc": "Model on Hugging Face · open weights · ♥ 603",
    "meta": [
     "33K downloads",
     "Released 8 days ago"
@@ -137,11 +137,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 87,
-   "grow": 17,
+   "grow": 18,
    "desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
    "meta": [
-    "★ 3,299",
-    "+1,404 in 24h",
+    "★ 3,329",
+    "+1,407 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-25T08:09:52Z",
@@ -171,7 +171,7 @@
    "cat": "Coding",
    "score": 86,
    "grow": null,
-   "desc": "Model on Hugging Face · open weights · ♥ 521",
+   "desc": "Model on Hugging Face · open weights · ♥ 522",
    "meta": [
     "24K downloads",
     "Released 24 days ago"
@@ -181,7 +181,31 @@
    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B"
   }
  ],
- "breakouts": [],
+ "breakouts": [
+  {
+   "key": "gemini 4",
+   "label": "Gemini 4",
+   "n": 3,
+   "sources": [
+    {
+     "src": "DEV",
+     "t": "Gemini 4 Carbon and an anti-LLM script: what each one actually says",
+     "url": "https://dev.to/axrisi/gemini-4-carbon-and-an-anti-llm-script-what-each-one-actually-says-5d3d"
+    },
+    {
+     "src": "Google DeepMind blog",
+     "t": "Gemini 4 Carbon: Our next frontier model",
+     "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
+    },
+    {
+     "src": "YouTube",
+     "t": "HUGE GPT-6.2 BEL LEAK! Opus 6, Gemini 4 Carbon First Look, Claude Fable 5.5, Qwen 4 & More! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=GlRVbIdc_Mk"
+    }
+   ],
+   "since": "2026-10-01T18:14:41.538Z"
+  }
+ ],
  "hype": [
   {
    "name": "Gemini 4",
@@ -200,17 +224,22 @@
      "src": "Google DeepMind blog",
      "t": "Gemini 4 Carbon: Our next frontier model",
      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
+    },
+    {
+     "src": "YouTube",
+     "t": "HUGE GPT-6.2 BEL LEAK! Opus 6, Gemini 4 Carbon First Look, Claude Fable 5.5, Qwen 4 & More! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=GlRVbIdc_Mk"
     }
    ],
-   "buzz": 2,
+   "buzz": 3,
    "verdict": "Talk only, no public usage numbers"
   },
   {
    "name": "unslop",
    "url": "https://github.com/heydamir/unslop",
    "from": "GitHub",
-   "use": 2374,
-   "useLabel": "+2,374 stars/day",
+   "use": 2414,
+   "useLabel": "+2,414 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -240,6 +269,16 @@
   }
  ],
  "receipts": [
+  {
+   "name": "t3dotgg/tstack",
+   "url": "https://github.com/t3dotgg/tstack",
+   "kind": "stars",
+   "first": "2026-10-26T15:30:55.024Z",
+   "firstV": 1103,
+   "m": 2500,
+   "at": "2026-10-31T14:30:53.333Z",
+   "lead": 118.99953027777778
+  },
   {
    "name": "heydamir/unslop",
    "url": "https://github.com/heydamir/unslop",
@@ -309,76 +348,66 @@
    "m": 10000,
    "at": "2026-10-30T10:01:01.019Z",
    "lead": 115.50229388888889
-  },
-  {
-   "name": "unsloth/NVIDIA-Nemotron-3.5-Bolt-E4B-GGUF",
-   "url": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3.5-Bolt-E4B-GGUF",
-   "kind": "downloads",
-   "first": "2026-10-27T13:01:08.180Z",
-   "firstV": 65011,
-   "m": 100000,
-   "at": "2026-10-30T10:01:01.019Z",
-   "lead": 68.99801083333334
   }
  ],
  "github": [
   {
    "repo": "heydamir/unslop",
-   "stars": 2595,
-   "d24": 2374,
+   "stars": 2668,
+   "d24": 2414,
    "est": false,
-   "forks": 125,
+   "forks": 129,
    "contrib": null,
    "score": 97
   },
   {
    "repo": "wangzan101/Mika",
-   "stars": 2244,
-   "d24": 1734,
+   "stars": 2293,
+   "d24": 1755,
    "est": false,
-   "forks": 358,
+   "forks": 367,
    "contrib": null,
    "score": 96
   },
   {
    "repo": "ccch1mneyyy/dsh-Go",
-   "stars": 3299,
-   "d24": 1404,
+   "stars": 3329,
+   "d24": 1407,
    "est": false,
-   "forks": 148,
+   "forks": 150,
    "contrib": null,
    "score": 87
   },
   {
    "repo": "anhao/ai-pose-gallery-zh",
-   "stars": 4469,
-   "d24": 793,
+   "stars": 4490,
+   "d24": 799,
    "est": false,
-   "forks": 1134,
+   "forks": 1138,
    "contrib": 2,
    "score": 93
   },
   {
    "repo": "paipiange/nvzhuang",
-   "stars": 1557,
-   "d24": 668,
+   "stars": 1568,
+   "d24": 663,
    "est": false,
-   "forks": 424,
+   "forks": 426,
    "contrib": null,
    "score": 92
   },
   {
    "repo": "qybaihe/bla",
-   "stars": 1631,
-   "d24": 411,
+   "stars": 1637,
+   "d24": 404,
    "est": false,
-   "forks": 222,
+   "forks": 223,
    "contrib": null,
    "score": 82
   },
   {
    "repo": "andyhuo520/digital-human-koubo",
-   "stars": 1572,
+   "stars": 1573,
    "d24": 291,
    "est": true,
    "forks": 358,
@@ -387,10 +416,10 @@
   },
   {
    "repo": "DenisSergeevitch/ex-ussr-kinship-research",
-   "stars": 1383,
+   "stars": 1384,
    "d24": 224,
    "est": true,
-   "forks": 143,
+   "forks": 144,
    "contrib": null,
    "score": 80
   }
@@ -406,7 +435,7 @@
    "grow": null,
    "score": 92,
    "cat": "Infrastructure",
-   "likes": 831
+   "likes": 832
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -417,7 +446,7 @@
    "grow": 7,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 4063
+   "likes": 4065
   },
   {
    "name": "LFM3-1.7B",
@@ -427,9 +456,9 @@
    "at": "2026-10-23T21:35:42.000Z",
    "dl": 32933,
    "grow": 39,
-   "score": 89,
+   "score": 88,
    "cat": "LLMs",
-   "likes": 600
+   "likes": 603
   },
   {
    "name": "Unlimited-OCR-2",
@@ -452,7 +481,7 @@
    "grow": null,
    "score": 86,
    "cat": "Coding",
-   "likes": 521
+   "likes": 522
   },
   {
    "name": "Mistral-Large-4-1T-A52B",
@@ -464,7 +493,7 @@
    "grow": 138,
    "score": 84,
    "cat": "Infrastructure",
-   "likes": 1378
+   "likes": 1380
   }
  ],
  "free": [
@@ -803,10 +832,45 @@
    "kind": "Video"
   },
   {
+   "t": "OpenAI cuts funding target by $10 billion, says report",
+   "url": "https://www.cnbctv18.com/business/openai-cuts-funding-target-by-usd-10-billion-chatgpt-20023854.htm",
+   "at": "2026-10-31T02:30:54Z",
+   "src": "CNBC TV18",
+   "kind": "News"
+  },
+  {
    "t": "Sources: OpenAI has secured ~$11B in commitments for its latest funding round, less than half its initial $30B target, and expects to raise more in coming weeks",
    "url": "https://www.techmeme.com/261030/p31#a261030p31",
    "at": "2026-10-31T02:30:02.000Z",
    "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Wall Street tumbles as AI spending concerns trigger tech selloff, Nasdaq posts biggest fall since June",
+   "url": "https://www.tribuneindia.com/news/business/wall-street-tumbles-as-ai-spending-concerns-trigger-tech-selloff-nasdaq-posts-biggest-fall-since-june/",
+   "at": "2026-10-31T02:27:26Z",
+   "src": "The Tribune",
+   "kind": "News"
+  },
+  {
+   "t": "EU, Canada forge 'alliance for the future' at Montreal summit",
+   "url": "https://www.spokesman.com/stories/2026/oct/30/eu-canada-forge-alliance-for-the-future-at-montrea/",
+   "at": "2026-10-31T02:10:00Z",
+   "src": "Spokane Spokesman-Review",
+   "kind": "News"
+  },
+  {
+   "t": "AI Revolution in Punjab's Health Sector: Advanced Screening Technology Reaches Villages",
+   "url": "https://www.tribuneindia.com/news/advertorial/ai-revolution-in-punjabs-health-sector-advanced-screening-technology-reaches-villages/",
+   "at": "2026-10-31T02:07:01Z",
+   "src": "The Tribune",
+   "kind": "News"
+  },
+  {
+   "t": "TRAI wants telcos to report serious AI failures to the regulator",
+   "url": "https://www.hindustantimes.com/india-news/trai-wants-telcos-to-report-serious-ai-failures-to-the-regulator-101793385614437.html",
+   "at": "2026-10-31T02:04:30Z",
+   "src": "Hindustan Times",
    "kind": "News"
   },
   {
@@ -822,41 +886,6 @@
    "at": "2026-10-31T01:02:25Z",
    "src": "The Tribune",
    "kind": "News"
-  },
-  {
-   "t": "Sources: OpenAI now seeks ~$20B at a $1.25T valuation for its latest round, from $30B at a $1.4T valuation, as some investors cut commitments amid an AI selloff",
-   "url": "https://www.techmeme.com/261030/p30#a261030p30",
-   "at": "2026-10-31T01:00:53.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Sam Altman says OpenAI won't slow science paper blitz - even though academics are calling it a 'giant bomb'",
-   "url": "https://www.techradar.com/ai-platforms-assistants/openai/sam-altman-says-openai-wont-slow-science-paper-blitz-even-though-academics-are-calling-it-a-giant-bomb",
-   "at": "2026-10-31T01:00:00Z",
-   "src": "TechRadar",
-   "kind": "News"
-  },
-  {
-   "t": "Wall Street drops to its worst day since June after the sell-off for tech stocks deepens",
-   "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/wall-street-drops-to-its-worst-day-since-june-after-the-sell-off-for-tech-stocks-deepens/articleshow/135382776.cms",
-   "at": "2026-10-31T00:50:00Z",
-   "src": "The Economic Times",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI slashes funding target by $10 billion amid tech rout, FT reports",
-   "url": "https://www.marketscreener.com/news/openai-cuts-funding-target-by-10-billion-ft-reports-ce785fd8d98bff22",
-   "at": "2026-10-31T00:15:37Z",
-   "src": "MarketScreener",
-   "kind": "News"
-  },
-  {
-   "t": "Crown seeks 2 years in jail for coach who made deepfake child porn",
-   "url": "https://www.cp24.com/news/canada/2026/10/30/crown-seeks-2-years-jail-time-for-former-coach-who-made-deepfake-porn-of-underage-players/",
-   "at": "2026-10-30T23:39:56Z",
-   "src": "CP24 Toronto",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -865,35 +894,35 @@
    "t": "AI startup hacks Anthropic, gains access to employee details, internal messages",
    "url": "https://news.ycombinator.com/item?id=50315990",
    "link": "https://www.indiatoday.in/technology/news/story/ai-startup-hacks-anthropic-in-12-hours-gains-access-to-employee-details-and-internal-messages-3025452-2026-10-26",
-   "up": 30,
-   "com": 4,
+   "up": 45,
+   "com": 11,
    "at": "2026-10-31T13:25:10.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "We Took over ChatGPT Accounts",
-   "url": "https://news.ycombinator.com/item?id=50314699",
-   "link": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
-   "up": 97,
-   "com": 38,
-   "at": "2026-10-31T10:30:11.000Z"
   },
   {
    "src": "Hacker News",
    "t": "AI isn't replacing SREs, it's deskilling them",
    "url": "https://news.ycombinator.com/item?id=50305693",
    "link": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
-   "up": 611,
-   "com": 459,
+   "up": 615,
+   "com": 461,
    "at": "2026-10-30T15:52:18.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "We Took over ChatGPT Accounts",
+   "url": "https://news.ycombinator.com/item?id=50314699",
+   "link": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+   "up": 108,
+   "com": 48,
+   "at": "2026-10-31T10:30:11.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Digital Minimalism",
    "url": "https://news.ycombinator.com/item?id=50313661",
    "link": "https://vitalik.eth.limo/general/2026/10/31/digital_minimalism.html",
-   "up": 123,
-   "com": 78,
+   "up": 131,
+   "com": 100,
    "at": "2026-10-31T06:16:36.000Z"
   },
   {
@@ -901,8 +930,8 @@
    "t": "OpenAI raises less than half of $30B target",
    "url": "https://news.ycombinator.com/item?id=50312922",
    "link": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
-   "up": 164,
-   "com": 153,
+   "up": 165,
+   "com": 155,
    "at": "2026-10-31T03:22:44.000Z"
   },
   {
@@ -910,7 +939,7 @@
    "t": "Florilegium: Procedural Flowers in LaTeX",
    "url": "https://news.ycombinator.com/item?id=50305637",
    "link": "https://github.com/kevinraymond/florilegium",
-   "up": 323,
+   "up": 328,
    "com": 49,
    "at": "2026-10-30T15:48:12.000Z"
   }
