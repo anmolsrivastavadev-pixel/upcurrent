@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-31T23:00:56.572Z"
+  "updated": "2026-10-31T23:30:54.670Z"
  },
  "pulse": {
   "trending": 83,
   "accelerating": 2,
   "newModels": 7,
-  "discussions": 43,
-  "stars": 9410
+  "discussions": 44,
+  "stars": 9353
  },
  "rising": [
   {
@@ -21,12 +21,12 @@
    "src": "gh",
    "cat": "Agents",
    "score": 98,
-   "grow": 59,
+   "grow": 63,
    "desc": "Towards a More Autonomous Agent System",
    "meta": [
-    "★ 2,115",
-    "+2,897 in 24h",
-    "Created 13h ago"
+    "★ 2,171",
+    "+2,882 in 24h",
+    "Created 14h ago"
    ],
    "at": "2026-10-31T09:32:46Z",
    "breakout": null,
@@ -41,8 +41,8 @@
    "grow": null,
    "desc": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
    "meta": [
-    "★ 3,379",
-    "~1,466 in 24h",
+    "★ 3,399",
+    "~1,461 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-29T15:41:21Z",
@@ -58,8 +58,8 @@
    "grow": null,
    "desc": "Mika — 你手机上的私人 AI 助理，替你操作 App、上网、把事办成。An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "meta": [
-    "★ 2,672",
-    "~1,136 in 24h",
+    "★ 2,685",
+    "~1,132 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-29T14:34:07Z",
@@ -75,8 +75,8 @@
    "grow": null,
    "desc": "232 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
    "meta": [
-    "★ 1,364",
-    "~812 in 24h",
+    "★ 1,382",
+    "~813 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-30T06:43:25Z",
@@ -92,8 +92,8 @@
    "grow": null,
    "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
    "meta": [
-    "★ 4,650",
-    "~1,047 in 24h",
+    "★ 4,655",
+    "~1,043 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-27T12:24:37Z",
@@ -107,7 +107,7 @@
    "cat": "Infrastructure",
    "score": 91,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 865",
+   "desc": "Model on Hugging Face · open source · ♥ 866",
    "meta": [
     "14K downloads",
     "Released 8 days ago"
@@ -125,8 +125,8 @@
    "grow": null,
    "desc": "1407 张 AI 女装参考图集与虚拟试穿网站，支持中英检索、OpenAI Images / Gemini / 豆包及自定义 Base URL、API Key、模型。https://github.com/paipiange/nvzhuang",
    "meta": [
-    "★ 1,701",
-    "~629 in 24h",
+    "★ 1,705",
+    "~626 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-29T06:08:00Z",
@@ -156,7 +156,7 @@
    "cat": "LLMs",
    "score": 88,
    "grow": 39,
-   "desc": "Model on Hugging Face · open weights · ♥ 627",
+   "desc": "Model on Hugging Face · open weights · ♥ 630",
    "meta": [
     "33K downloads",
     "Released 8 days ago"
@@ -166,21 +166,20 @@
    "url": "https://huggingface.co/LiquidAI/LFM3-1.7B"
   },
   {
-   "name": "dsh-Go",
-   "owner": "ccch1mneyyy",
-   "src": "gh",
-   "cat": "Agents",
+   "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+   "owner": "nvidia",
+   "src": "hf",
+   "cat": "Coding",
    "score": 86,
-   "grow": 26,
-   "desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+   "grow": 52,
+   "desc": "Model on Hugging Face · open weights · ♥ 544",
    "meta": [
-    "★ 3,569",
-    "+1,042 in 24h",
-    "Created 7 days ago"
+    "24K downloads",
+    "Released 24 days ago"
    ],
-   "at": "2026-10-25T08:09:52Z",
+   "at": "2026-10-07T22:50:21.000Z",
    "breakout": null,
-   "url": "https://github.com/ccch1mneyyy/dsh-Go"
+   "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B"
   }
  ],
  "breakouts": [],
@@ -189,8 +188,8 @@
    "name": "dsh-superagent-prototype",
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "from": "GitHub",
-   "use": 2897,
-   "useLabel": "+2,897 stars/day",
+   "use": 2882,
+   "useLabel": "+2,882 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -304,62 +303,62 @@
  "github": [
   {
    "repo": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 2115,
-   "d24": 2897,
+   "stars": 2171,
+   "d24": 2882,
    "est": false,
-   "forks": 179,
+   "forks": 184,
    "contrib": null,
    "score": 98
   },
   {
    "repo": "heydamir/unslop",
-   "stars": 3379,
-   "d24": 1466,
+   "stars": 3399,
+   "d24": 1461,
    "est": true,
-   "forks": 168,
+   "forks": 169,
    "contrib": null,
    "score": 96
   },
   {
    "repo": "wangzan101/Mika",
-   "stars": 2672,
-   "d24": 1136,
+   "stars": 2685,
+   "d24": 1132,
    "est": true,
-   "forks": 433,
+   "forks": 435,
    "contrib": null,
    "score": 95
   },
   {
    "repo": "anhao/ai-pose-gallery-zh",
-   "stars": 4650,
-   "d24": 1047,
+   "stars": 4655,
+   "d24": 1043,
    "est": true,
-   "forks": 1180,
+   "forks": 1181,
    "contrib": 4,
    "score": 92
   },
   {
    "repo": "ccch1mneyyy/dsh-Go",
-   "stars": 3569,
-   "d24": 1042,
+   "stars": 3578,
+   "d24": 1025,
    "est": false,
    "forks": 163,
    "contrib": null,
-   "score": 86
+   "score": 85
   },
   {
    "repo": "patch-gg/pixelfx",
-   "stars": 1364,
-   "d24": 812,
+   "stars": 1382,
+   "d24": 813,
    "est": true,
-   "forks": 159,
+   "forks": 160,
    "contrib": null,
    "score": 93
   },
   {
    "repo": "paipiange/nvzhuang",
-   "stars": 1701,
-   "d24": 629,
+   "stars": 1705,
+   "d24": 626,
    "est": true,
    "forks": 458,
    "contrib": null,
@@ -368,7 +367,7 @@
   {
    "repo": "qybaihe/bla",
    "stars": 1704,
-   "d24": 296,
+   "d24": 288,
    "est": false,
    "forks": 231,
    "contrib": null,
@@ -386,7 +385,7 @@
    "grow": 0,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 865
+   "likes": 866
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -409,7 +408,7 @@
    "grow": 39,
    "score": 88,
    "cat": "LLMs",
-   "likes": 627
+   "likes": 630
   },
   {
    "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
@@ -421,7 +420,7 @@
    "grow": 52,
    "score": 86,
    "cat": "Coding",
-   "likes": 543
+   "likes": 544
   },
   {
    "name": "Unlimited-OCR-2",
@@ -762,6 +761,20 @@
    "kind": "News"
   },
   {
+   "t": "New technologies adoption must go hand-in-hand with sound engineering practices, worker safety: MEIL Projects’ Division president",
+   "url": "https://www.thehindu.com/news/national/telangana/new-technologies-adoption-must-go-hand-in-hand-with-sound-engineering-practices-worker-safety-meil-projects-division-president/article71649122.ece",
+   "at": "2026-10-31T11:21:50Z",
+   "src": "The Hindu",
+   "kind": "News"
+  },
+  {
+   "t": "Sam Altman says it is terrible your PC uses RAM while AI data centres run short of supply",
+   "url": "https://www.indiatoday.in/technology/news/story/sam-altman-says-it-is-terrible-your-pc-uses-ram-while-ai-data-centres-run-short-of-supply-3029322-2026-10-31",
+   "at": "2026-10-31T11:03:36Z",
+   "src": "India Today",
+   "kind": "News"
+  },
+  {
    "t": "The Intent Compression Paradox: How LLM Developers are Solving Semantic Erosion to Keep Human Intent Alive",
    "url": "https://www.techradar.com/pro/the-intent-compression-paradox-how-llm-developers-are-solving-semantic-erosion-to-keep-human-intent-alive",
    "at": "2026-10-31T11:00:00Z",
@@ -818,20 +831,6 @@
    "kind": "News"
   },
   {
-   "t": "LinkedIn cofounder Reid Hoffman defends AI datacenters; his advice to tech companies ‘make sure the…’",
-   "url": "https://timesofindia.indiatimes.com/technology/tech-news/linkedin-cofounder-reid-hoffman-defends-ai-datacenters-his-advice-to-tech-companies-make-sure-the/articleshow/135396402.cms",
-   "at": "2026-10-31T09:40:00Z",
-   "src": "Times of India",
-   "kind": "News"
-  },
-  {
-   "t": "AI answers: what is the expected result of the derby of anger?",
-   "url": "https://www.yardbarker.com/soccer/articles/ai_answers_what_is_the_expected_result_of_the_derby_of_anger/s1_17790_44496544",
-   "at": "2026-10-31T09:36:44Z",
-   "src": "Yardbarker",
-   "kind": "News"
-  },
-  {
    "t": "A look at growing bipartisan opposition to AI data centers in drought-stricken Arizona, where TSMC's chip fabs were welcomed but newer projects face backlash",
    "url": "https://www.techmeme.com/261031/p7#a261031p7",
    "at": "2026-10-31T09:25:55.000Z",
@@ -845,8 +844,8 @@
    "t": "Anthropic takes steps to block Claude from reverse-engineering video games",
    "url": "https://news.ycombinator.com/item?id=50320255",
    "link": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
-   "up": 73,
-   "com": 54,
+   "up": 85,
+   "com": 57,
    "at": "2026-10-31T21:07:58.000Z"
   },
   {
@@ -854,8 +853,8 @@
    "t": "GPT-5.6 Sol can beat Factorio on peaceful mode",
    "url": "https://news.ycombinator.com/item?id=50318871",
    "link": "https://ryanmadden.net/gpt-56-beats-factorio/",
-   "up": 141,
-   "com": 152,
+   "up": 149,
+   "com": 159,
    "at": "2026-10-31T18:50:34.000Z"
   },
   {
@@ -864,7 +863,7 @@
    "url": "https://news.ycombinator.com/item?id=50316531",
    "link": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
    "up": 225,
-   "com": 121,
+   "com": 123,
    "at": "2026-10-31T14:29:03.000Z"
   },
   {
@@ -872,8 +871,8 @@
    "t": "Do the math: How we took over ChatGPT accounts",
    "url": "https://news.ycombinator.com/item?id=50314699",
    "link": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
-   "up": 293,
-   "com": 142,
+   "up": 294,
+   "com": 143,
    "at": "2026-10-31T10:30:11.000Z"
   },
   {
@@ -881,8 +880,8 @@
    "t": "Jepsen: ParticleDB 1.1.4",
    "url": "https://news.ycombinator.com/item?id=50316100",
    "link": "https://jepsen.io/analyses/particledb-1.1.4",
-   "up": 164,
-   "com": 90,
+   "up": 171,
+   "com": 94,
    "at": "2026-10-31T13:39:52.000Z"
   },
   {
@@ -890,8 +889,8 @@
    "t": "Digital minimalism",
    "url": "https://news.ycombinator.com/item?id=50313661",
    "link": "https://vitalik.eth.limo/general/2026/10/31/digital_minimalism.html",
-   "up": 293,
-   "com": 220,
+   "up": 299,
+   "com": 224,
    "at": "2026-10-31T06:16:36.000Z"
   }
  ]
