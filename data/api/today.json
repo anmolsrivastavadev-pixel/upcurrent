@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-10-31T19:30:48.279Z"
+  "updated": "2026-10-31T20:00:55.579Z"
  },
  "pulse": {
-  "trending": 82,
-  "accelerating": 5,
+  "trending": 83,
+  "accelerating": 4,
   "newModels": 7,
-  "discussions": 36,
-  "stars": 11215
+  "discussions": 39,
+  "stars": 11500
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "Towards a More Autonomous Agent System",
    "meta": [
-    "★ 1,852",
-    "~3,704 in 24h",
+    "★ 1,883",
+    "~3,766 in 24h",
     "Created 10h ago"
    ],
    "at": "2026-10-31T09:32:46Z",
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 96,
-   "grow": 162,
+   "grow": 164,
    "desc": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
    "meta": [
-    "★ 3,167",
-    "+2,409 in 24h",
+    "★ 3,198",
+    "+2,386 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-29T15:41:21Z",
@@ -55,16 +55,33 @@
    "src": "gh",
    "cat": "Agents",
    "score": 95,
-   "grow": 118,
+   "grow": null,
    "desc": "Mika — 你手机上的私人 AI 助理，替你操作 App、上网、把事办成。An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "meta": [
-    "★ 2,607",
-    "+1,693 in 24h",
+    "★ 2,615",
+    "~1,174 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-29T14:34:07Z",
    "breakout": null,
    "url": "https://github.com/wangzan101/Mika"
+  },
+  {
+   "name": "pixelfx",
+   "owner": "patch-gg",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 93,
+   "grow": null,
+   "desc": "232 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
+   "meta": [
+    "★ 1,276",
+    "~821 in 24h",
+    "Created 2 days ago"
+   ],
+   "at": "2026-10-30T06:43:25Z",
+   "breakout": null,
+   "url": "https://github.com/patch-gg/pixelfx"
   },
   {
    "name": "ai-pose-gallery-zh",
@@ -75,30 +92,13 @@
    "grow": null,
    "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
    "meta": [
-    "★ 4,628",
-    "~1,077 in 24h",
+    "★ 4,634",
+    "~1,073 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-27T12:24:37Z",
    "breakout": null,
    "url": "https://github.com/anhao/ai-pose-gallery-zh"
-  },
-  {
-   "name": "nvzhuang",
-   "owner": "paipiange",
-   "src": "gh",
-   "cat": "Vision",
-   "score": 91,
-   "grow": 41,
-   "desc": "1407 张 AI 女装参考图集与虚拟试穿网站，支持中英检索、OpenAI Images / Gemini / 豆包及自定义 Base URL、API Key、模型。https://github.com/paipiange/nvzhuang",
-   "meta": [
-    "★ 1,686",
-    "+637 in 24h",
-    "Created 3 days ago"
-   ],
-   "at": "2026-10-29T06:08:00Z",
-   "breakout": null,
-   "url": "https://github.com/paipiange/nvzhuang"
   },
   {
    "name": "Nanbeige4.3-33B",
@@ -107,7 +107,7 @@
    "cat": "Infrastructure",
    "score": 91,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 853",
+   "desc": "Model on Hugging Face · open source · ♥ 854",
    "meta": [
     "14K downloads",
     "Released 8 days ago"
@@ -115,6 +115,23 @@
    "at": "2026-10-24T02:49:18.000Z",
    "breakout": null,
    "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B"
+  },
+  {
+   "name": "nvzhuang",
+   "owner": "paipiange",
+   "src": "gh",
+   "cat": "Vision",
+   "score": 90,
+   "grow": 41,
+   "desc": "1407 张 AI 女装参考图集与虚拟试穿网站，支持中英检索、OpenAI Images / Gemini / 豆包及自定义 Base URL、API Key、模型。https://github.com/paipiange/nvzhuang",
+   "meta": [
+    "★ 1,688",
+    "+623 in 24h",
+    "Created 3 days ago"
+   ],
+   "at": "2026-10-29T06:08:00Z",
+   "breakout": null,
+   "url": "https://github.com/paipiange/nvzhuang"
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -139,7 +156,7 @@
    "cat": "LLMs",
    "score": 88,
    "grow": 39,
-   "desc": "Model on Hugging Face · open weights · ♥ 622",
+   "desc": "Model on Hugging Face · open weights · ♥ 623",
    "meta": [
     "33K downloads",
     "Released 8 days ago"
@@ -157,29 +174,13 @@
    "grow": 25,
    "desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
    "meta": [
-    "★ 3,534",
-    "+1,250 in 24h",
+    "★ 3,542",
+    "+1,219 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-25T08:09:52Z",
    "breakout": null,
    "url": "https://github.com/ccch1mneyyy/dsh-Go"
-  },
-  {
-   "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
-   "owner": "nvidia",
-   "src": "hf",
-   "cat": "Coding",
-   "score": 86,
-   "grow": 52,
-   "desc": "Model on Hugging Face · open weights · ♥ 535",
-   "meta": [
-    "24K downloads",
-    "Released 24 days ago"
-   ],
-   "at": "2026-10-07T22:50:21.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B"
   }
  ],
  "breakouts": [],
@@ -188,8 +189,8 @@
    "name": "dsh-superagent-prototype",
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "from": "GitHub",
-   "use": 3704,
-   "useLabel": "~3,704 stars/day",
+   "use": 3766,
+   "useLabel": "~3,766 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -303,73 +304,73 @@
  "github": [
   {
    "repo": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 1852,
-   "d24": 3704,
+   "stars": 1883,
+   "d24": 3766,
    "est": true,
-   "forks": 146,
+   "forks": 150,
    "contrib": null,
    "score": 99
   },
   {
    "repo": "heydamir/unslop",
-   "stars": 3167,
-   "d24": 2409,
+   "stars": 3198,
+   "d24": 2386,
    "est": false,
-   "forks": 159,
+   "forks": 161,
    "contrib": null,
    "score": 96
   },
   {
-   "repo": "wangzan101/Mika",
-   "stars": 2607,
-   "d24": 1693,
-   "est": false,
-   "forks": 426,
-   "contrib": null,
-   "score": 95
-  },
-  {
    "repo": "ccch1mneyyy/dsh-Go",
-   "stars": 3534,
-   "d24": 1250,
+   "stars": 3542,
+   "d24": 1219,
    "est": false,
    "forks": 161,
    "contrib": null,
    "score": 86
   },
   {
-   "repo": "anhao/ai-pose-gallery-zh",
-   "stars": 4628,
-   "d24": 1077,
+   "repo": "wangzan101/Mika",
+   "stars": 2615,
+   "d24": 1174,
    "est": true,
-   "forks": 1172,
+   "forks": 426,
+   "contrib": null,
+   "score": 95
+  },
+  {
+   "repo": "anhao/ai-pose-gallery-zh",
+   "stars": 4634,
+   "d24": 1073,
+   "est": true,
+   "forks": 1175,
    "contrib": 4,
    "score": 92
   },
   {
-   "repo": "paipiange/nvzhuang",
-   "stars": 1686,
-   "d24": 637,
-   "est": false,
-   "forks": 457,
+   "repo": "patch-gg/pixelfx",
+   "stars": 1276,
+   "d24": 821,
+   "est": true,
+   "forks": 153,
    "contrib": null,
-   "score": 91
+   "score": 93
+  },
+  {
+   "repo": "paipiange/nvzhuang",
+   "stars": 1688,
+   "d24": 623,
+   "est": false,
+   "forks": 458,
+   "contrib": null,
+   "score": 90
   },
   {
    "repo": "qybaihe/bla",
-   "stars": 1688,
-   "d24": 345,
+   "stars": 1693,
+   "d24": 341,
    "est": false,
    "forks": 230,
-   "contrib": null,
-   "score": 81
-  },
-  {
-   "repo": "DenisSergeevitch/ex-ussr-kinship-research",
-   "stars": 1397,
-   "d24": 55,
-   "est": false,
-   "forks": 147,
    "contrib": null,
    "score": 80
   }
@@ -385,7 +386,7 @@
    "grow": 0,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 853
+   "likes": 854
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -396,7 +397,7 @@
    "grow": null,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 4087
+   "likes": 4090
   },
   {
    "name": "LFM3-1.7B",
@@ -408,7 +409,7 @@
    "grow": 39,
    "score": 88,
    "cat": "LLMs",
-   "likes": 622
+   "likes": 623
   },
   {
    "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
@@ -420,7 +421,7 @@
    "grow": 52,
    "score": 86,
    "cat": "Coding",
-   "likes": 535
+   "likes": 536
   },
   {
    "name": "Unlimited-OCR-2",
@@ -775,6 +776,20 @@
    "kind": "News"
   },
   {
+   "t": "What's fuelling the Nasdaq crash? AI spending fears, Intel rout and Anthropic debt concerns drive selloff",
+   "url": "https://www.moneycontrol.com/news/business/markets/what-s-causing-the-nasdaq-crash-ai-spending-fears-intel-rout-and-anthropic-debt-concerns-14065005.html",
+   "at": "2026-10-31T07:35:22Z",
+   "src": "Moneycontrol",
+   "kind": "News"
+  },
+  {
+   "t": "OpenAI funding target cut by $10 billion as AI slumps",
+   "url": "https://www.thehindubusinessline.com/info-tech/openai-funding-target-cut-by-10-billion-as-ai-slumps/article71648520.ece",
+   "at": "2026-10-31T07:32:19Z",
+   "src": "The Hindu Business Line",
+   "kind": "News"
+  },
+  {
    "t": "After scraping the Internet, AI giants pledge ‘no scraping’ tool for publishers",
    "url": "https://www.malaymail.com/news/money/2026/10/31/after-scraping-the-internet-ai-giants-pledge-no-scraping-tool-for-publishers/241430",
    "at": "2026-10-31T07:26:26Z",
@@ -822,57 +837,52 @@
    "at": "2026-10-31T06:00:00Z",
    "src": "The Irish Times",
    "kind": "News"
-  },
-  {
-   "t": "Binance's $6.3 bn hack signals the start of a risky era for crypto security",
-   "url": "https://www.business-standard.com/markets/cryptocurrency/binance-s-6-3-bn-hack-signals-the-start-of-a-risky-era-for-crypto-security-126103100424_1.html",
-   "at": "2026-10-31T05:39:12Z",
-   "src": "Business Standard",
-   "kind": "News"
-  },
-  {
-   "t": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
-   "url": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
-   "at": "2026-10-31T05:33:00Z",
-   "src": "The Hacker News",
-   "kind": "News"
   }
  ],
  "discussions": [
   {
    "src": "Hacker News",
-   "t": "Malware uses LLMs to rank victims by how much they're worth",
-   "url": "https://news.ycombinator.com/item?id=50316531",
-   "link": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
-   "up": 193,
-   "com": 103,
-   "at": "2026-10-31T14:29:03.000Z"
+   "t": "GPT-5.6 Sol can beat Factorio on peaceful mode",
+   "url": "https://news.ycombinator.com/item?id=50318871",
+   "link": "https://ryanmadden.net/gpt-56-beats-factorio/",
+   "up": 60,
+   "com": 41,
+   "at": "2026-10-31T18:50:34.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "The Impact of Generative AI on Critical Thinking: Self-Reported (2025)",
-   "url": "https://news.ycombinator.com/item?id=50318401",
-   "link": "https://dl.acm.org/doi/full/10.1145/3706598.3713778",
-   "up": 51,
-   "com": 36,
-   "at": "2026-10-31T18:02:29.000Z"
+   "t": "Malware uses LLMs to rank victims by how much they're worth",
+   "url": "https://news.ycombinator.com/item?id=50316531",
+   "link": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+   "up": 202,
+   "com": 108,
+   "at": "2026-10-31T14:29:03.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Do the math: How we took over ChatGPT accounts",
    "url": "https://news.ycombinator.com/item?id=50314699",
    "link": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
-   "up": 267,
-   "com": 122,
+   "up": 272,
+   "com": 125,
    "at": "2026-10-31T10:30:11.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "The Impact of Generative AI on Critical Thinking: Self-Reported (2025)",
+   "url": "https://news.ycombinator.com/item?id=50318401",
+   "link": "https://dl.acm.org/doi/full/10.1145/3706598.3713778",
+   "up": 55,
+   "com": 39,
+   "at": "2026-10-31T18:02:29.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Digital minimalism",
    "url": "https://news.ycombinator.com/item?id=50313661",
    "link": "https://vitalik.eth.limo/general/2026/10/31/digital_minimalism.html",
-   "up": 253,
-   "com": 187,
+   "up": 261,
+   "com": 193,
    "at": "2026-10-31T06:16:36.000Z"
   },
   {
@@ -880,18 +890,9 @@
    "t": "Jepsen: ParticleDB 1.1.4",
    "url": "https://news.ycombinator.com/item?id=50316100",
    "link": "https://jepsen.io/analyses/particledb-1.1.4",
-   "up": 90,
-   "com": 44,
+   "up": 105,
+   "com": 48,
    "at": "2026-10-31T13:39:52.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "AI startup hacks Anthropic, gains access to employee details, internal messages",
-   "url": "https://news.ycombinator.com/item?id=50315990",
-   "link": "https://www.indiatoday.in/technology/news/story/ai-startup-hacks-anthropic-in-12-hours-gains-access-to-employee-details-and-internal-messages-3025452-2026-10-26",
-   "up": 74,
-   "com": 18,
-   "at": "2026-10-31T13:25:10.000Z"
   }
  ]
 }
