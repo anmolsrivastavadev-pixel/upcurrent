@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-01T16:00:55.513Z"
+  "updated": "2026-11-01T16:30:47.273Z"
  },
  "pulse": {
   "trending": 84,
   "accelerating": 0,
   "newModels": 8,
-  "discussions": 40,
-  "stars": 10434
+  "discussions": 43,
+  "stars": 10193
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "Towards a More Autonomous Agent System",
    "meta": [
-    "★ 6,246",
-    "~4,920 in 24h",
+    "★ 6,362",
+    "~4,931 in 24h",
     "Created yesterday"
    ],
    "at": "2026-10-31T09:32:46Z",
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 95,
-   "grow": 37,
+   "grow": null,
    "desc": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
    "meta": [
-    "★ 4,429",
-    "+1,485 in 24h",
+    "★ 4,481",
+    "~1,477 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-29T15:41:21Z",
@@ -55,11 +55,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 94,
-   "grow": 37,
+   "grow": null,
    "desc": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "meta": [
-    "★ 3,575",
-    "+1,152 in 24h",
+    "★ 3,615",
+    "~1,173 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-29T14:34:07Z",
@@ -72,11 +72,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 93,
-   "grow": 81,
+   "grow": null,
    "desc": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
    "meta": [
-    "★ 2,304",
-    "+1,234 in 24h",
+    "★ 2,332",
+    "~968 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-30T06:43:25Z",
@@ -92,8 +92,8 @@
    "grow": null,
    "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
    "meta": [
-    "★ 5,074",
-    "~985 in 24h",
+    "★ 5,081",
+    "~983 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-27T12:24:37Z",
@@ -125,7 +125,7 @@
    "grow": 9,
    "desc": "1407 张 AI 女装参考图集与虚拟试穿网站，支持中英检索、OpenAI Images / Gemini / 豆包及自定义 Base URL、API Key、模型。https://github.com/paipiange/nvzhuang",
    "meta": [
-    "★ 1,848",
+    "★ 1,852",
     "+199 in 24h",
     "Created 3 days ago"
    ],
@@ -134,29 +134,13 @@
    "url": "https://github.com/paipiange/nvzhuang"
   },
   {
-   "name": "Nanbeige4.3-33B",
-   "owner": "Nanbeige",
-   "src": "hf",
-   "cat": "Infrastructure",
-   "score": 89,
-   "grow": 14,
-   "desc": "Model on Hugging Face · open source · ♥ 962",
-   "meta": [
-    "16K downloads",
-    "Released 9 days ago"
-   ],
-   "at": "2026-10-24T02:49:18.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B"
-  },
-  {
    "name": "LFM3-1.7B",
    "owner": "LiquidAI",
    "src": "hf",
    "cat": "LLMs",
-   "score": 88,
+   "score": 89,
    "grow": 14,
-   "desc": "Model on Hugging Face · open weights · ♥ 664",
+   "desc": "Model on Hugging Face · open weights · ♥ 667",
    "meta": [
     "38K downloads",
     "Released 9 days ago"
@@ -164,6 +148,22 @@
    "at": "2026-10-23T21:35:42.000Z",
    "breakout": null,
    "url": "https://huggingface.co/LiquidAI/LFM3-1.7B"
+  },
+  {
+   "name": "Nanbeige4.3-33B",
+   "owner": "Nanbeige",
+   "src": "hf",
+   "cat": "Infrastructure",
+   "score": 88,
+   "grow": 14,
+   "desc": "Model on Hugging Face · open source · ♥ 963",
+   "meta": [
+    "16K downloads",
+    "Released 9 days ago"
+   ],
+   "at": "2026-10-24T02:49:18.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B"
   },
   {
    "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
@@ -188,8 +188,8 @@
    "name": "dsh-superagent-prototype",
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "from": "GitHub",
-   "use": 4920,
-   "useLabel": "~4,920 stars/day",
+   "use": 4931,
+   "useLabel": "~4,931 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -303,61 +303,61 @@
  "github": [
   {
    "repo": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 6246,
-   "d24": 4920,
+   "stars": 6362,
+   "d24": 4931,
    "est": true,
-   "forks": 609,
+   "forks": 622,
    "contrib": 1,
    "score": 98
   },
   {
    "repo": "heydamir/unslop",
-   "stars": 4429,
-   "d24": 1485,
-   "est": false,
+   "stars": 4481,
+   "d24": 1477,
+   "est": true,
    "forks": 221,
    "contrib": 3,
    "score": 95
   },
   {
-   "repo": "patch-gg/pixelfx",
-   "stars": 2304,
-   "d24": 1234,
-   "est": false,
-   "forks": 295,
-   "contrib": null,
-   "score": 93
-  },
-  {
    "repo": "wangzan101/Mika",
-   "stars": 3575,
-   "d24": 1152,
-   "est": false,
-   "forks": 632,
+   "stars": 3615,
+   "d24": 1173,
+   "est": true,
+   "forks": 646,
    "contrib": null,
    "score": 94
   },
   {
    "repo": "anhao/ai-pose-gallery-zh",
-   "stars": 5074,
-   "d24": 985,
+   "stars": 5081,
+   "d24": 983,
    "est": true,
-   "forks": 1296,
+   "forks": 1298,
    "contrib": 5,
    "score": 92
   },
   {
-   "repo": "haydenschmitty/floorplan",
-   "stars": 1301,
-   "d24": 252,
+   "repo": "patch-gg/pixelfx",
+   "stars": 2332,
+   "d24": 968,
    "est": true,
-   "forks": 90,
+   "forks": 299,
+   "contrib": null,
+   "score": 93
+  },
+  {
+   "repo": "haydenschmitty/floorplan",
+   "stars": 1326,
+   "d24": 256,
+   "est": true,
+   "forks": 91,
    "contrib": null,
    "score": 83
   },
   {
    "repo": "paipiange/nvzhuang",
-   "stars": 1848,
+   "stars": 1852,
    "d24": 199,
    "est": false,
    "forks": 486,
@@ -366,8 +366,8 @@
   },
   {
    "repo": "Motionsites-AI/claude-skill",
-   "stars": 1372,
-   "d24": 133,
+   "stars": 1375,
+   "d24": 134,
    "est": false,
    "forks": 136,
    "contrib": null,
@@ -384,19 +384,7 @@
    "grow": null,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 4187
-  },
-  {
-   "name": "Nanbeige4.3-33B",
-   "org": "Nanbeige",
-   "size": "33B",
-   "lic": "Open source",
-   "at": "2026-10-24T02:49:18.000Z",
-   "dl": 15795,
-   "grow": 14,
-   "score": 89,
-   "cat": "Infrastructure",
-   "likes": 962
+   "likes": 4193
   },
   {
    "name": "LFM3-1.7B",
@@ -406,9 +394,21 @@
    "at": "2026-10-23T21:35:42.000Z",
    "dl": 37568,
    "grow": 14,
-   "score": 88,
+   "score": 89,
    "cat": "LLMs",
-   "likes": 664
+   "likes": 667
+  },
+  {
+   "name": "Nanbeige4.3-33B",
+   "org": "Nanbeige",
+   "size": "33B",
+   "lic": "Open source",
+   "at": "2026-10-24T02:49:18.000Z",
+   "dl": 15795,
+   "grow": 14,
+   "score": 88,
+   "cat": "Infrastructure",
+   "likes": 963
   },
   {
    "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
@@ -753,6 +753,27 @@
    "kind": "News"
   },
   {
+   "t": "HD Hyundai Robotics, Palantir to slash robot programming costs with AI",
+   "url": "https://www.koreatimes.co.kr/business/tech-science/20261101/hd-hyundai-robotics-palantir-to-slash-robot-programming-costs-with-ai",
+   "at": "2026-11-01T04:15:02Z",
+   "src": "The Korea Times",
+   "kind": "News"
+  },
+  {
+   "t": "Elon Musk says saving for retirement may become pointless. How AI and robots could change the future of money",
+   "url": "https://economictimes.indiatimes.com/magazines/panache/elon-musk-says-saving-for-retirement-may-become-pointless-how-ai-and-robots-could-change-the-future-of-money/articleshow/135417444.cms",
+   "at": "2026-11-01T04:12:00Z",
+   "src": "The Economic Times",
+   "kind": "News"
+  },
+  {
+   "t": "AI Investors Are Racing to Get Insurance on the Biggest Market Bet in History",
+   "url": "https://www.hindustantimes.com/world-news/ai-investors-are-racing-to-get-insurance-on-the-biggest-market-bet-in-history-101793502013720.html",
+   "at": "2026-11-01T04:03:03Z",
+   "src": "Hindustan Times",
+   "kind": "News"
+  },
+  {
    "t": "CodeYogi founder Prashant Chaudhary wins Rohini Nayyar Prize: A teacher’s faith in a struggling child",
    "url": "https://indianexpress.com/article/cities/delhi/prashant-chaudhary-codeyogi-rohini-nayyar-prize-rural-ai-education-10945465/",
    "at": "2026-11-01T02:11:50Z",
@@ -800,37 +821,25 @@
    "at": "2026-11-01T00:00:00Z",
    "src": "The Hitavada",
    "kind": "News"
-  },
-  {
-   "t": "Anthropic sued for allegedly using Elvis Presley’s music to train Claude AI",
-   "url": "https://www.thestar.com.my/tech/tech-news/2026/11/01/anthropic-sued-for-allegedly-using-elvis-presleys-music-to-train-claude-ai",
-   "at": "2026-11-01T00:00:00Z",
-   "src": "The Star",
-   "kind": "News"
-  },
-  {
-   "t": "Quad to step up cooperation in AI, critical minerals",
-   "url": "https://www.dailyexcelsior.com/quad-to-step-up-cooperation-in-ai-critical-minerals/",
-   "at": "2026-10-31T22:56:49Z",
-   "src": "Daily Excelsior",
-   "kind": "News"
-  },
-  {
-   "t": "Companies that had been pouring huge amounts of money into artificial intelligence (AI) investments ..",
-   "url": "https://www.europesays.com/3344737/",
-   "at": "2026-10-31T21:51:20Z",
-   "src": "EUROPE SAYS",
-   "kind": "News"
   }
  ],
  "discussions": [
   {
    "src": "Hacker News",
+   "t": "Show HN: HackerBooks – HackerTube, but for books recommended on HN",
+   "url": "https://news.ycombinator.com/item?id=50326821",
+   "link": "https://hackerbooks.org",
+   "up": 45,
+   "com": 11,
+   "at": "2026-11-01T15:58:28.000Z"
+  },
+  {
+   "src": "Hacker News",
    "t": "AI agent swarms in Minecraft fail to build civilization, drown in bureaucracy",
    "url": "https://news.ycombinator.com/item?id=50325662",
    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
-   "up": 55,
-   "com": 15,
+   "up": 65,
+   "com": 24,
    "at": "2026-11-01T13:47:24.000Z"
   },
   {
@@ -838,25 +847,17 @@
    "t": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
    "url": "https://news.ycombinator.com/item?id=50320995",
    "link": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
-   "up": 342,
-   "com": 167,
+   "up": 353,
+   "com": 173,
    "at": "2026-10-31T22:46:12.000Z"
-  },
-  {
-   "src": "DEV",
-   "t": "960P: fewer pixels than 1080P, same price, 50% more runtime",
-   "url": "https://dev.to/chet103cc/960p-fewer-pixels-than-1080p-same-price-50-more-runtime-489j",
-   "up": 53,
-   "com": 6,
-   "at": "2026-11-01T13:12:21Z"
   },
   {
    "src": "Hacker News",
    "t": "The AI cost of JavaScript frameworks",
    "url": "https://news.ycombinator.com/item?id=50323088",
    "link": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
-   "up": 183,
-   "com": 124,
+   "up": 190,
+   "com": 129,
    "at": "2026-11-01T06:06:19.000Z"
   },
   {
@@ -872,8 +873,8 @@
    "t": "ChatGPT and Codex usage limits merging",
    "url": "https://news.ycombinator.com/item?id=50320588",
    "link": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
-   "up": 198,
-   "com": 135,
+   "up": 201,
+   "com": 137,
    "at": "2026-10-31T21:49:07.000Z"
   }
  ]
