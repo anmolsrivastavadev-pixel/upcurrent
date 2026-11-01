@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-01T04:30:46.125Z"
+  "updated": "2026-11-01T05:00:57.151Z"
  },
  "pulse": {
   "trending": 85,
   "accelerating": 1,
   "newModels": 7,
-  "discussions": 42,
-  "stars": 9162
+  "discussions": 44,
+  "stars": 9234
  },
  "rising": [
   {
@@ -21,10 +21,10 @@
    "src": "gh",
    "cat": "Agents",
    "score": 98,
-   "grow": 161,
+   "grow": 168,
    "desc": "Towards a More Autonomous Agent System",
    "meta": [
-    "★ 3,476",
+    "★ 3,566",
     "+4,292 in 24h",
     "Created 19h ago"
    ],
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 96,
-   "grow": 14,
+   "grow": 15,
    "desc": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
    "meta": [
-    "★ 3,689",
-    "+1,401 in 24h",
+    "★ 3,711",
+    "+1,380 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-29T15:41:21Z",
@@ -55,33 +55,16 @@
    "src": "gh",
    "cat": "Agents",
    "score": 95,
-   "grow": 11,
+   "grow": 12,
    "desc": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "meta": [
-    "★ 2,914",
-    "+844 in 24h",
+    "★ 2,940",
+    "+867 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-29T14:34:07Z",
    "breakout": null,
    "url": "https://github.com/wangzan101/Mika"
-  },
-  {
-   "name": "pixelfx",
-   "owner": "patch-gg",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 93,
-   "grow": 25,
-   "desc": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
-   "meta": [
-    "★ 1,599",
-    "+912 in 24h",
-    "Created 2 days ago"
-   ],
-   "at": "2026-10-30T06:43:25Z",
-   "breakout": null,
-   "url": "https://github.com/patch-gg/pixelfx"
   },
   {
    "name": "ai-pose-gallery-zh",
@@ -92,13 +75,30 @@
    "grow": 4,
    "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
    "meta": [
-    "★ 4,781",
-    "+401 in 24h",
+    "★ 4,798",
+    "+419 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-27T12:24:37Z",
    "breakout": null,
    "url": "https://github.com/anhao/ai-pose-gallery-zh"
+  },
+  {
+   "name": "pixelfx",
+   "owner": "patch-gg",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 92,
+   "grow": 28,
+   "desc": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
+   "meta": [
+    "★ 1,627",
+    "+936 in 24h",
+    "Created 2 days ago"
+   ],
+   "at": "2026-10-30T06:43:25Z",
+   "breakout": null,
+   "url": "https://github.com/patch-gg/pixelfx"
   },
   {
    "name": "Nanbeige4.3-33B",
@@ -107,7 +107,7 @@
    "cat": "Infrastructure",
    "score": 91,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 899",
+   "desc": "Model on Hugging Face · open source · ♥ 905",
    "meta": [
     "14K downloads",
     "Released 8 days ago"
@@ -125,8 +125,8 @@
    "grow": 4,
    "desc": "1407 张 AI 女装参考图集与虚拟试穿网站，支持中英检索、OpenAI Images / Gemini / 豆包及自定义 Base URL、API Key、模型。https://github.com/paipiange/nvzhuang",
    "meta": [
-    "★ 1,757",
-    "+215 in 24h",
+    "★ 1,769",
+    "+239 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-29T06:08:00Z",
@@ -156,7 +156,7 @@
    "cat": "LLMs",
    "score": 88,
    "grow": null,
-   "desc": "Model on Hugging Face · open weights · ♥ 640",
+   "desc": "Model on Hugging Face · open weights · ♥ 641",
    "meta": [
     "33K downloads",
     "Released 8 days ago"
@@ -172,7 +172,7 @@
    "cat": "Coding",
    "score": 86,
    "grow": 52,
-   "desc": "Model on Hugging Face · open weights · ♥ 547",
+   "desc": "Model on Hugging Face · open weights · ♥ 548",
    "meta": [
     "24K downloads",
     "Released 24 days ago"
@@ -303,75 +303,75 @@
  "github": [
   {
    "repo": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 3476,
+   "stars": 3566,
    "d24": 4292,
    "est": false,
-   "forks": 319,
+   "forks": 329,
    "contrib": null,
    "score": 98
   },
   {
    "repo": "heydamir/unslop",
-   "stars": 3689,
-   "d24": 1401,
+   "stars": 3711,
+   "d24": 1380,
    "est": false,
-   "forks": 182,
+   "forks": 183,
    "contrib": null,
    "score": 96
   },
   {
    "repo": "patch-gg/pixelfx",
-   "stars": 1599,
-   "d24": 912,
+   "stars": 1627,
+   "d24": 936,
    "est": false,
-   "forks": 196,
+   "forks": 205,
    "contrib": null,
-   "score": 93
+   "score": 92
   },
   {
    "repo": "wangzan101/Mika",
-   "stars": 2914,
-   "d24": 844,
+   "stars": 2940,
+   "d24": 867,
    "est": false,
-   "forks": 466,
+   "forks": 473,
    "contrib": null,
    "score": 95
   },
   {
    "repo": "ccch1mneyyy/dsh-Go",
-   "stars": 3759,
-   "d24": 549,
+   "stars": 3785,
+   "d24": 551,
    "est": true,
-   "forks": 172,
+   "forks": 177,
    "contrib": null,
    "score": 85
   },
   {
    "repo": "anhao/ai-pose-gallery-zh",
-   "stars": 4781,
-   "d24": 401,
+   "stars": 4798,
+   "d24": 419,
    "est": false,
-   "forks": 1216,
+   "forks": 1220,
    "contrib": 4,
    "score": 92
   },
   {
    "repo": "qybaihe/bla",
-   "stars": 1732,
-   "d24": 249,
+   "stars": 1735,
+   "d24": 248,
    "est": true,
-   "forks": 233,
+   "forks": 234,
    "contrib": null,
    "score": 80
   },
   {
-   "repo": "Motionsites-AI/claude-skill",
-   "stars": 1307,
-   "d24": 222,
-   "est": true,
-   "forks": 132,
+   "repo": "paipiange/nvzhuang",
+   "stars": 1769,
+   "d24": 239,
+   "est": false,
+   "forks": 472,
    "contrib": null,
-   "score": 79
+   "score": 90
   }
  ],
  "models": [
@@ -385,7 +385,7 @@
    "grow": 0,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 899
+   "likes": 905
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -396,7 +396,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 4120
+   "likes": 4123
   },
   {
    "name": "LFM3-1.7B",
@@ -408,7 +408,7 @@
    "grow": null,
    "score": 88,
    "cat": "LLMs",
-   "likes": 640
+   "likes": 641
   },
   {
    "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
@@ -420,7 +420,7 @@
    "grow": 52,
    "score": 86,
    "cat": "Coding",
-   "likes": 547
+   "likes": 548
   },
   {
    "name": "Unlimited-OCR-2",
@@ -443,7 +443,7 @@
    "grow": null,
    "score": 85,
    "cat": "Infrastructure",
-   "likes": 1407
+   "likes": 1408
   }
  ],
  "free": [
@@ -726,6 +726,13 @@
  },
  "headlines": [
   {
+   "t": "Insurance software maker Guidewire agrees to acquire Hyperexponential, which makes AI-powered insurance underwriting and pricing software, for $1.7B in cash",
+   "url": "https://www.techmeme.com/261101/p1#a261101p1",
+   "at": "2026-11-01T04:50:00.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Tests: chatbots rely on three obscure AI-built voter sites for US midterm answers; Copilot cited the error-prone Ballot Brief in 75% of tests and ChatGPT in 22%",
    "url": "https://www.techmeme.com/261031/p12#a261031p12",
    "at": "2026-11-01T00:00:14.000Z",
@@ -744,6 +751,34 @@
    "url": "https://www.theguardian.com/australia-news/2026/nov/01/artists-against-ai-proposal-anthony-albanese-grayndler-sydney-inner-west",
    "at": "2026-10-31T19:00:52Z",
    "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "Poll: Majority of Americans Say AI Is Bad for Society",
+   "url": "https://www.naturalnews.com/2026-10-31-majority-americans-say-ai-bad-for-society.html",
+   "at": "2026-10-31T17:00:03Z",
+   "src": "Natural News",
+   "kind": "News"
+  },
+  {
+   "t": "Control Violation – NaturalNews.com",
+   "url": "https://www.naturalnews.com/2026-10-31-malaysia-seizes-ai-servers-export-control-violation.html",
+   "at": "2026-10-31T16:50:09Z",
+   "src": "Natural News",
+   "kind": "News"
+  },
+  {
+   "t": "AI outlook: OpenAI cuts fundraising goal while Meta gets a credit warning on cash flow and spending",
+   "url": "https://fortune.com/2026/10/31/ai-boom-bust-openai-fundraising-target-meta-credit-warning-cash-flow-capex/",
+   "at": "2026-10-31T16:41:35Z",
+   "src": "Fortune",
+   "kind": "News"
+  },
+  {
+   "t": "Quad to step up cooperation in AI, critical minerals",
+   "url": "https://www.cnbctv18.com/world/quad-to-step-up-cooperation-in-ai-critical-minerals-20024160.htm",
+   "at": "2026-10-31T16:33:18Z",
+   "src": "CNBC TV18",
    "kind": "News"
   },
   {
@@ -782,13 +817,6 @@
    "kind": "News"
   },
   {
-   "t": "AI bottleneck PH businesses may be overlooking",
-   "url": "https://www.manilatimes.net/2026/11/01/business/sunday-business-it/ai-bottleneck-ph-businesses-may-be-overlooking/2458705",
-   "at": "2026-10-31T16:01:00Z",
-   "src": "The Manila Times",
-   "kind": "News"
-  },
-  {
    "t": "ECCP 2026 AI Forum drives dialogue on responsible AI, cyber resilience and economic growth",
    "url": "https://www.manilatimes.net/2026/11/01/tmt-newswire/eccp-2026-ai-forum-drives-dialogue-on-responsible-ai-cyber-resilience-and-economic-growth/2458687",
    "at": "2026-10-31T16:01:00Z",
@@ -803,38 +831,10 @@
    "kind": "News"
   },
   {
-   "t": "\"Almost A Down Round\": OpenAI Slashes Funding Target By $10 Billion As AI Rout Spoils \"Last Chance\" Pitch",
-   "url": "https://www.zerohedge.com/markets/almost-down-round-openai-slashes-funding-target-10-billion-ai-rout-spoils-last-chance-pitch",
-   "at": "2026-10-31T15:25:00Z",
-   "src": "ZeroHedge",
-   "kind": "News"
-  },
-  {
-   "t": "IISc Director Prof. Rangarajan Flags AI’s Promise and Perils at Adani University’s Third Convocation; 374 Students Graduate",
-   "url": "https://www.republicworld.com/initiatives/iisc-director-prof-rangarajan-flags-ais-promise-and-perils-at-adani-universitys-third-convocation-374-students-graduate-2026-10-31-140146",
-   "at": "2026-10-31T15:05:38Z",
-   "src": "Republic World",
-   "kind": "News"
-  },
-  {
-   "t": "Sam Altman Wants To Take Your RAM Away",
-   "url": "https://artvoice.com/sam-altman-wants-to-take-your-ram-away",
-   "at": "2026-10-31T15:02:06Z",
-   "src": "Artvoice",
-   "kind": "News"
-  },
-  {
    "t": "How AI detectors like Pangram are changing human writing: authors drop em dashes, \"not X, but Y\" phrasing, and words like \"delve\", or add typos, to look human",
    "url": "https://www.techmeme.com/261031/p8#a261031p8",
    "at": "2026-10-31T13:40:53.000Z",
    "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Is AI your new wingman? How chatbots are transforming dating",
-   "url": "https://www.theguardian.com/lifeandstyle/2026/oct/31/ai-your-wingman-chatbots-transforming-dating",
-   "at": "2026-10-31T12:00:42Z",
-   "src": "The Guardian",
    "kind": "News"
   }
  ],
@@ -844,8 +844,8 @@
    "t": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
    "url": "https://news.ycombinator.com/item?id=50320995",
    "link": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
-   "up": 134,
-   "com": 74,
+   "up": 143,
+   "com": 78,
    "at": "2026-10-31T22:46:12.000Z"
   },
   {
@@ -854,7 +854,7 @@
    "url": "https://news.ycombinator.com/item?id=50314699",
    "link": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
    "up": 312,
-   "com": 154,
+   "com": 155,
    "at": "2026-10-31T10:30:11.000Z"
   },
   {
@@ -871,8 +871,8 @@
    "t": "GPT-5.6 Sol can beat Factorio on peaceful mode",
    "url": "https://news.ycombinator.com/item?id=50318871",
    "link": "https://ryanmadden.net/gpt-56-beats-factorio/",
-   "up": 161,
-   "com": 176,
+   "up": 162,
+   "com": 177,
    "at": "2026-10-31T18:50:34.000Z"
   },
   {
@@ -880,8 +880,8 @@
    "t": "Anthropic takes steps to block Claude from reverse-engineering video games",
    "url": "https://news.ycombinator.com/item?id=50320255",
    "link": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
-   "up": 116,
-   "com": 74,
+   "up": 121,
+   "com": 75,
    "at": "2026-10-31T21:07:58.000Z"
   },
   {
@@ -889,7 +889,7 @@
    "t": "Jepsen: ParticleDB 1.1.4",
    "url": "https://news.ycombinator.com/item?id=50316100",
    "link": "https://jepsen.io/analyses/particledb-1.1.4",
-   "up": 228,
+   "up": 230,
    "com": 123,
    "at": "2026-10-31T13:39:52.000Z"
   }
