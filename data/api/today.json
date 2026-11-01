@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-01T06:48:58.606Z"
+  "updated": "2026-11-01T07:00:58.011Z"
  },
  "pulse": {
   "trending": 84,
   "accelerating": 1,
-  "newModels": 6,
-  "discussions": 46,
-  "stars": 9321
+  "newModels": 7,
+  "discussions": 44,
+  "stars": 9364
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 98,
-   "grow": 200,
+   "grow": 204,
    "desc": "Towards a More Autonomous Agent System",
    "meta": [
-    "★ 3,986",
-    "+4,456 in 24h",
+    "★ 4,043",
+    "+4,489 in 24h",
     "Created 21h ago"
    ],
    "at": "2026-10-31T09:32:46Z",
@@ -41,8 +41,8 @@
    "grow": 18,
    "desc": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
    "meta": [
-    "★ 3,801",
-    "+1,349 in 24h",
+    "★ 3,815",
+    "+1,355 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-29T15:41:21Z",
@@ -58,8 +58,8 @@
    "grow": 16,
    "desc": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "meta": [
-    "★ 3,038",
-    "+940 in 24h",
+    "★ 3,042",
+    "+932 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-29T14:34:07Z",
@@ -75,8 +75,8 @@
    "grow": 6,
    "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
    "meta": [
-    "★ 4,859",
-    "+474 in 24h",
+    "★ 4,866",
+    "+480 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-27T12:24:37Z",
@@ -89,11 +89,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 92,
-   "grow": 35,
+   "grow": 36,
    "desc": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
    "meta": [
-    "★ 1,727",
-    "+1,002 in 24h",
+    "★ 1,736",
+    "+1,004 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-30T06:43:25Z",
@@ -107,7 +107,7 @@
    "cat": "Infrastructure",
    "score": 91,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 921",
+   "desc": "Model on Hugging Face · open source · ♥ 924",
    "meta": [
     "14K downloads",
     "Released 8 days ago"
@@ -125,8 +125,8 @@
    "grow": 6,
    "desc": "1407 张 AI 女装参考图集与虚拟试穿网站，支持中英检索、OpenAI Images / Gemini / 豆包及自定义 Base URL、API Key、模型。https://github.com/paipiange/nvzhuang",
    "meta": [
-    "★ 1,789",
-    "+244 in 24h",
+    "★ 1,793",
+    "+249 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-29T06:08:00Z",
@@ -156,7 +156,7 @@
    "cat": "LLMs",
    "score": 88,
    "grow": null,
-   "desc": "Model on Hugging Face · open weights · ♥ 644",
+   "desc": "Model on Hugging Face · open weights · ♥ 645",
    "meta": [
     "33K downloads",
     "Released 8 days ago"
@@ -172,7 +172,7 @@
    "cat": "Coding",
    "score": 86,
    "grow": null,
-   "desc": "Model on Hugging Face · open weights · ♥ 554",
+   "desc": "Model on Hugging Face · open weights · ♥ 555",
    "meta": [
     "24K downloads",
     "Released 24 days ago"
@@ -185,11 +185,33 @@
  "breakouts": [],
  "hype": [
   {
+   "name": "GPT-6.2",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "Wccftech",
+     "t": "OpenAI Teases GPT-6.1 Astra Amid Relentless Hype Around The Mysterious GPT-6.2 Betelgeuse Model, As Another Evidence Surfaces Showing Kimi K3.1 Pro And GLM-5.3 As Products Of Distillation",
+     "url": "https://wccftech.com/openai-teases-gpt-6-1-astra-amid-relentless-hype-around-the-mysterious-gpt-6-2-betelgeuse-model-as-another-evidence-surfaces-showing-kimi-k3-1-pro-and-glm-5-3-as-products-of-distillation/"
+    },
+    {
+     "src": "YouTube",
+     "t": "HUGE GPT-6.2 BEL LEAK! Opus 6, Gemini 4 Carbon First Look, Claude Fable 5.5, Qwen 4 & More! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=GlRVbIdc_Mk"
+    }
+   ],
+   "buzz": 2,
+   "verdict": "Talk only, no public usage numbers"
+  },
+  {
    "name": "dsh-superagent-prototype",
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "from": "GitHub",
-   "use": 4456,
-   "useLabel": "+4,456 stars/day",
+   "use": 4489,
+   "useLabel": "+4,489 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -303,17 +325,17 @@
  "github": [
   {
    "repo": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 3986,
-   "d24": 4456,
+   "stars": 4043,
+   "d24": 4489,
    "est": false,
-   "forks": 373,
+   "forks": 375,
    "contrib": 1,
    "score": 98
   },
   {
    "repo": "heydamir/unslop",
-   "stars": 3801,
-   "d24": 1349,
+   "stars": 3815,
+   "d24": 1355,
    "est": false,
    "forks": 189,
    "contrib": null,
@@ -321,25 +343,25 @@
   },
   {
    "repo": "patch-gg/pixelfx",
-   "stars": 1727,
-   "d24": 1002,
+   "stars": 1736,
+   "d24": 1004,
    "est": false,
-   "forks": 219,
+   "forks": 223,
    "contrib": null,
    "score": 92
   },
   {
    "repo": "wangzan101/Mika",
-   "stars": 3038,
-   "d24": 940,
+   "stars": 3042,
+   "d24": 932,
    "est": false,
-   "forks": 488,
+   "forks": 493,
    "contrib": null,
    "score": 95
   },
   {
    "repo": "ccch1mneyyy/dsh-Go",
-   "stars": 3868,
+   "stars": 3874,
    "d24": 557,
    "est": true,
    "forks": 184,
@@ -348,25 +370,25 @@
   },
   {
    "repo": "anhao/ai-pose-gallery-zh",
-   "stars": 4859,
-   "d24": 474,
+   "stars": 4866,
+   "d24": 480,
    "est": false,
-   "forks": 1238,
+   "forks": 1239,
    "contrib": 4,
    "score": 92
   },
   {
    "repo": "paipiange/nvzhuang",
-   "stars": 1789,
-   "d24": 244,
+   "stars": 1793,
+   "d24": 249,
    "est": false,
-   "forks": 477,
+   "forks": 478,
    "contrib": null,
    "score": 90
   },
   {
    "repo": "Motionsites-AI/claude-skill",
-   "stars": 1320,
+   "stars": 1321,
    "d24": 220,
    "est": true,
    "forks": 133,
@@ -385,7 +407,7 @@
    "grow": 0,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 921
+   "likes": 924
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -408,7 +430,7 @@
    "grow": null,
    "score": 88,
    "cat": "LLMs",
-   "likes": 644
+   "likes": 645
   },
   {
    "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
@@ -420,7 +442,7 @@
    "grow": null,
    "score": 86,
    "cat": "Coding",
-   "likes": 554
+   "likes": 555
   },
   {
    "name": "Unlimited-OCR-2",
@@ -431,7 +453,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Vision",
-   "likes": 482
+   "likes": 484
   },
   {
    "name": "Mistral-Large-4-1T-A52B",
@@ -775,6 +797,13 @@
    "kind": "News"
   },
   {
+   "t": "Chemists develop AI tool to convert human ingenuity into life-enhancing enzymes",
+   "url": "https://phys.org/news/2026-10-chemists-ai-tool-human-ingenuity.html",
+   "at": "2026-10-31T19:00:01Z",
+   "src": "Phys.org",
+   "kind": "News"
+  },
+  {
    "t": "We are bringing science, AI and tech into mainstream cinema: Sunil Kumar",
    "url": "https://timesofindia.indiatimes.com/entertainment/kannada/movies/news/we-are-bringing-science-ai-and-tech-into-mainstream-cinema-sunil-kumar/articleshow/135400366.cms",
    "at": "2026-10-31T18:30:00Z",
@@ -829,13 +858,6 @@
    "at": "2026-10-31T16:33:18Z",
    "src": "CNBC TV18",
    "kind": "News"
-  },
-  {
-   "t": "OpenAI reportedly lowers funding target for new round",
-   "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
-   "at": "2026-10-31T16:12:55Z",
-   "src": "TechCrunch",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -853,7 +875,7 @@
    "t": "Do the math: How we took over ChatGPT accounts",
    "url": "https://news.ycombinator.com/item?id=50314699",
    "link": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
-   "up": 318,
+   "up": 320,
    "com": 157,
    "at": "2026-10-31T10:30:11.000Z"
   },
@@ -889,7 +911,7 @@
    "t": "Anthropic takes steps to block Claude from reverse-engineering video games",
    "url": "https://news.ycombinator.com/item?id=50320255",
    "link": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
-   "up": 129,
+   "up": 131,
    "com": 79,
    "at": "2026-10-31T21:07:58.000Z"
   }
