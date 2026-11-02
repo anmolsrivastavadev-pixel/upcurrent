@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-02T12:30:51.894Z"
+  "updated": "2026-11-02T13:01:05.047Z"
  },
  "pulse": {
   "trending": 83,
   "accelerating": 1,
   "newModels": 8,
-  "discussions": 29,
-  "stars": 10423
+  "discussions": 26,
+  "stars": 10431
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "Towards a More Autonomous Agent System",
    "meta": [
-    "★ 11,303",
-    "~5,322 in 24h",
+    "★ 11,433",
+    "~5,331 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-10-31T09:32:46Z",
@@ -41,8 +41,8 @@
    "grow": null,
    "desc": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
    "meta": [
-    "★ 5,498",
-    "~1,422 in 24h",
+    "★ 5,525",
+    "~1,421 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-29T15:41:21Z",
@@ -58,7 +58,7 @@
    "grow": null,
    "desc": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "meta": [
-    "★ 4,875",
+    "★ 4,900",
     "~1,245 in 24h",
     "Created 4 days ago"
    ],
@@ -75,7 +75,7 @@
    "grow": null,
    "desc": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
    "meta": [
-    "★ 3,194",
+    "★ 3,213",
     "~985 in 24h",
     "Created 3 days ago"
    ],
@@ -106,7 +106,7 @@
    "cat": "LLMs",
    "score": 89,
    "grow": 13,
-   "desc": "Model on Hugging Face · open weights · ♥ 773",
+   "desc": "Model on Hugging Face · open weights · ♥ 776",
    "meta": [
     "42K downloads",
     "Released 10 days ago"
@@ -124,8 +124,8 @@
    "grow": null,
    "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
    "meta": [
-    "★ 5,395",
-    "~899 in 24h",
+    "★ 5,411",
+    "~898 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-27T12:24:37Z",
@@ -141,7 +141,7 @@
    "grow": 9,
    "desc": "1407 张 AI 女装参考图集与虚拟试穿网站，支持中英检索、OpenAI Images / Gemini / 豆包及自定义 Base URL、API Key、模型。https://github.com/paipiange/nvzhuang",
    "meta": [
-    "★ 2,023",
+    "★ 2,028",
     "+210 in 24h",
     "Created 4 days ago"
    ],
@@ -156,7 +156,7 @@
    "cat": "Coding",
    "score": 87,
    "grow": 10,
-   "desc": "Model on Hugging Face · open weights · ♥ 638",
+   "desc": "Model on Hugging Face · open weights · ♥ 639",
    "meta": [
     "32K downloads",
     "Released 26 days ago"
@@ -166,20 +166,20 @@
    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B"
   },
   {
-   "name": "Unlimited-OCR-2",
-   "owner": "baidu",
+   "name": "Mistral-Large-4-1T-A52B",
+   "owner": "mistralai",
    "src": "hf",
-   "cat": "Vision",
-   "score": 87,
-   "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 547",
+   "cat": "Infrastructure",
+   "score": 86,
+   "grow": 20,
+   "desc": "Model on Hugging Face · open weights · ♥ 1.5K",
    "meta": [
-    "148K downloads",
-    "Released 7 days ago"
+    "5.5K downloads",
+    "Released 33 days ago"
    ],
-   "at": "2026-10-26T03:57:46.000Z",
+   "at": "2026-09-30T18:35:13.000Z",
    "breakout": null,
-   "url": "https://huggingface.co/baidu/Unlimited-OCR-2"
+   "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B"
   }
  ],
  "breakouts": [],
@@ -188,8 +188,8 @@
    "name": "dsh-superagent-prototype",
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "from": "GitHub",
-   "use": 5322,
-   "useLabel": "~5,322 stars/day",
+   "use": 5331,
+   "useLabel": "~5,331 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -303,53 +303,53 @@
  "github": [
   {
    "repo": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 11303,
-   "d24": 5322,
+   "stars": 11433,
+   "d24": 5331,
    "est": true,
-   "forks": 1149,
+   "forks": 1175,
    "contrib": 1,
    "score": 97
   },
   {
    "repo": "heydamir/unslop",
-   "stars": 5498,
-   "d24": 1422,
+   "stars": 5525,
+   "d24": 1421,
    "est": true,
-   "forks": 269,
+   "forks": 273,
    "contrib": 3,
    "score": 94
   },
   {
    "repo": "wangzan101/Mika",
-   "stars": 4875,
+   "stars": 4900,
    "d24": 1245,
    "est": true,
-   "forks": 929,
+   "forks": 939,
    "contrib": 29,
    "score": 94
   },
   {
    "repo": "patch-gg/pixelfx",
-   "stars": 3194,
+   "stars": 3213,
    "d24": 985,
    "est": true,
-   "forks": 428,
+   "forks": 431,
    "contrib": null,
    "score": 93
   },
   {
    "repo": "anhao/ai-pose-gallery-zh",
-   "stars": 5395,
-   "d24": 899,
+   "stars": 5411,
+   "d24": 898,
    "est": true,
-   "forks": 1382,
+   "forks": 1384,
    "contrib": 5,
    "score": 88
   },
   {
    "repo": "haydenschmitty/floorplan",
-   "stars": 2045,
-   "d24": 340,
+   "stars": 2059,
+   "d24": 341,
    "est": true,
    "forks": 144,
    "contrib": null,
@@ -357,7 +357,7 @@
   },
   {
    "repo": "paipiange/nvzhuang",
-   "stars": 2023,
+   "stars": 2028,
    "d24": 210,
    "est": false,
    "forks": 520,
@@ -375,7 +375,7 @@
    "grow": null,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 4578
+   "likes": 4588
   },
   {
    "name": "LFM3-1.7B",
@@ -387,7 +387,7 @@
    "grow": 13,
    "score": 89,
    "cat": "LLMs",
-   "likes": 773
+   "likes": 776
   },
   {
    "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
@@ -399,18 +399,7 @@
    "grow": 10,
    "score": 87,
    "cat": "Coding",
-   "likes": 638
-  },
-  {
-   "name": "Unlimited-OCR-2",
-   "org": "baidu",
-   "lic": "Open source",
-   "at": "2026-10-26T03:57:46.000Z",
-   "dl": 147588,
-   "grow": null,
-   "score": 87,
-   "cat": "Vision",
-   "likes": 547
+   "likes": 639
   },
   {
    "name": "Mistral-Large-4-1T-A52B",
@@ -425,15 +414,26 @@
    "likes": 1473
   },
   {
+   "name": "Unlimited-OCR-2",
+   "org": "baidu",
+   "lic": "Open source",
+   "at": "2026-10-26T03:57:46.000Z",
+   "dl": 147588,
+   "grow": null,
+   "score": 86,
+   "cat": "Vision",
+   "likes": 548
+  },
+  {
    "name": "idol",
    "org": "speridlabs",
    "lic": "Open source",
    "at": "2026-10-28T15:55:17.000Z",
    "dl": 7787,
-   "grow": null,
+   "grow": 86,
    "score": 86,
    "cat": "Vision",
-   "likes": 364
+   "likes": 366
   }
  ],
  "free": [
@@ -701,7 +701,14 @@
  },
  "headlines": [
   {
-   "t": "Marvell agrees to acquire optical components maker Lumentum in a $115B deal, as it seeks to rival Broadcom; Nvidia invested $2B in both Marvell and Lumentum",
+   "t": "Ryanair faces clash with unions as it mulls pay freezes amid soaring fuel costs",
+   "url": "https://www.theguardian.com/business/2026/nov/02/ryanair-considers-pay-freezes-reducing-crew-on-flights-fuel-costs-soar-ai",
+   "at": "2026-11-02T12:57:53Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "Marvell agrees to buy optical components maker Lumentum in a $115B all-stock deal, as it seeks to rival Broadcom; Nvidia invested $2B in each company in 2026",
    "url": "https://www.techmeme.com/261102/p14#a261102p14",
    "at": "2026-11-02T12:20:01.000Z",
    "src": "Techmeme",
@@ -736,13 +743,6 @@
    "kind": "News"
   },
   {
-   "t": "Ryanair considers pay freezes and reducing crew on flights as fuel costs soar",
-   "url": "https://www.theguardian.com/business/2026/nov/02/ryanair-considers-pay-freezes-reducing-crew-on-flights-fuel-costs-soar-ai",
-   "at": "2026-11-02T09:06:51Z",
-   "src": "The Guardian",
-   "kind": "News"
-  },
-  {
    "t": "How SF's AI boom is reshaping dating: founders treat first dates as interviews, use tech terms like \"conversion rate\" to track dates, and pay coaches $5K/month",
    "url": "https://www.techmeme.com/261102/p5#a261102p5",
    "at": "2026-11-02T08:45:02.000Z",
@@ -764,18 +764,18 @@
    "kind": "News"
   },
   {
-   "t": "Bites, whose AI tools deliver personalized training to frontline workers via WhatsApp, SMS, Slack, and other channels, raised a $40M Series A led by PeakSpan",
-   "url": "https://www.techmeme.com/261102/p3#a261102p3",
-   "at": "2026-11-02T06:45:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Police use facial recognition to scan one million faces in WA trial leading to 122 arrests",
    "url": "https://www.theguardian.com/australia-news/2026/nov/02/wa-police-facial-recognition-technology-trial",
    "at": "2026-11-02T06:12:52Z",
    "src": "The Guardian",
    "kind": "News"
+  },
+  {
+   "t": "Что делать, если зомбиапокалипсис застал тебя в гараже?  #ai #claude #вайбкодинг #zombie #зомби",
+   "url": "https://www.youtube.com/watch?v=NqR_IG6DyEA",
+   "at": "2026-11-02T03:39:00Z",
+   "src": "m3nsory",
+   "kind": "Video"
   },
   {
    "t": "FPI buying returns to Dalal Street as global investors rethink AI bets",
@@ -819,8 +819,8 @@
    "t": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN",
    "url": "https://news.ycombinator.com/item?id=50326821",
    "link": "https://hackerbooks.org",
-   "up": 1501,
-   "com": 247,
+   "up": 1538,
+   "com": 250,
    "at": "2026-11-01T15:58:28.000Z"
   },
   {
@@ -828,17 +828,9 @@
    "t": "Show HN: Wikihack – HackerTube, but for Wikipedia articles mentioned on HN",
    "url": "https://news.ycombinator.com/item?id=50333339",
    "link": "https://wikihack.netlify.app",
-   "up": 255,
-   "com": 75,
+   "up": 270,
+   "com": 77,
    "at": "2026-11-02T05:06:30.000Z"
-  },
-  {
-   "src": "Mastodon",
-   "t": "The new # LLM debate in # Debian has made clear to me that we loose the incentives to solve a) our technical problems using deterministic and less energy-was…",
-   "url": "https://floss.social/@josch/117546165124636381",
-   "up": 51,
-   "com": 0,
-   "at": "2026-11-02T09:35:38.000Z"
   },
   {
    "src": "Hacker News",
@@ -846,26 +838,34 @@
    "url": "https://news.ycombinator.com/item?id=50330456",
    "link": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
    "up": 229,
-   "com": 229,
+   "com": 230,
    "at": "2026-11-01T22:10:45.000Z"
+  },
+  {
+   "src": "Mastodon",
+   "t": "The new # LLM debate in # Debian has made clear to me that we loose the incentives to solve a) our technical problems using deterministic and less energy-was…",
+   "url": "https://floss.social/@josch/117546165124636381",
+   "up": 52,
+   "com": 0,
+   "at": "2026-11-02T09:35:38.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Show HN: HackerHack – HackerBooks but for Posts Posted on HN",
+   "url": "https://news.ycombinator.com/item?id=50333877",
+   "link": "https://news.ycombinator.com/",
+   "up": 82,
+   "com": 14,
+   "at": "2026-11-02T06:59:40.000Z"
   },
   {
    "src": "Hacker News",
    "t": "China's First Frontier AI Export Controls: Mofcom Announcement No. 48",
    "url": "https://news.ycombinator.com/item?id=50334038",
    "link": "https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2/",
-   "up": 66,
-   "com": 40,
+   "up": 74,
+   "com": 44,
    "at": "2026-11-02T07:27:28.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Show HN: OmniDiff – Opensource, super fast, content aware Git difftool, in Rust",
-   "url": "https://news.ycombinator.com/item?id=50325253",
-   "link": "https://github.com/ivankovic/omnidiff",
-   "up": 268,
-   "com": 75,
-   "at": "2026-11-01T13:02:30.000Z"
   }
  ]
 }
