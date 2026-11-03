@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-03T08:30:53.087Z"
+  "updated": "2026-11-03T09:01:04.754Z"
  },
  "pulse": {
-  "trending": 86,
+  "trending": 85,
   "accelerating": 0,
   "newModels": 7,
-  "discussions": 55,
-  "stars": 11704
+  "discussions": 41,
+  "stars": 10918
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "Towards a More Autonomous Agent System",
    "meta": [
-    "★ 14,892",
-    "~5,036 in 24h",
+    "★ 15,014",
+    "~5,042 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-31T09:32:46Z",
@@ -41,8 +41,8 @@
    "grow": null,
    "desc": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
    "meta": [
-    "★ 6,689",
-    "~1,423 in 24h",
+    "★ 6,723",
+    "~1,424 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-29T15:41:21Z",
@@ -58,8 +58,8 @@
    "grow": null,
    "desc": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "meta": [
-    "★ 5,729",
-    "~1,207 in 24h",
+    "★ 5,753",
+    "~1,206 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-29T14:34:07Z",
@@ -71,12 +71,12 @@
    "owner": "patch-gg",
    "src": "gh",
    "cat": "Agents",
-   "score": 92,
+   "score": 91,
    "grow": null,
    "desc": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
    "meta": [
-    "★ 3,735",
-    "~917 in 24h",
+    "★ 3,749",
+    "~915 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-30T06:43:25Z",
@@ -92,8 +92,8 @@
    "grow": null,
    "desc": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
    "meta": [
-    "★ 1,324",
-    "~624 in 24h",
+    "★ 1,330",
+    "~621 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-01T05:35:12Z",
@@ -141,8 +141,8 @@
    "grow": null,
    "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
    "meta": [
-    "★ 5,656",
-    "~827 in 24h",
+    "★ 5,676",
+    "~828 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-27T12:24:37Z",
@@ -155,8 +155,8 @@
    "src": "hf",
    "cat": "Vision",
    "score": 88,
-   "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 446",
+   "grow": 0,
+   "desc": "Vision on Hugging Face · open source · ♥ 449",
    "meta": [
     "7.8K downloads",
     "Released 6 days ago"
@@ -188,8 +188,8 @@
    "name": "dsh-superagent-prototype",
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "from": "GitHub",
-   "use": 5036,
-   "useLabel": "~5,036 stars/day",
+   "use": 5042,
+   "useLabel": "~5,042 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -303,62 +303,53 @@
  "github": [
   {
    "repo": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 14892,
-   "d24": 5036,
+   "stars": 15014,
+   "d24": 5042,
    "est": true,
-   "forks": 1593,
+   "forks": 1610,
    "contrib": 1,
    "score": 96
   },
   {
    "repo": "heydamir/unslop",
-   "stars": 6689,
-   "d24": 1423,
+   "stars": 6723,
+   "d24": 1424,
    "est": true,
-   "forks": 339,
+   "forks": 340,
    "contrib": 3,
    "score": 94
   },
   {
    "repo": "wangzan101/Mika",
-   "stars": 5729,
-   "d24": 1207,
+   "stars": 5753,
+   "d24": 1206,
    "est": true,
-   "forks": 1115,
+   "forks": 1119,
    "contrib": 40,
    "score": 93
   },
   {
    "repo": "patch-gg/pixelfx",
-   "stars": 3735,
-   "d24": 917,
+   "stars": 3749,
+   "d24": 915,
    "est": true,
-   "forks": 510,
+   "forks": 514,
    "contrib": null,
-   "score": 92
+   "score": 91
   },
   {
    "repo": "anhao/ai-pose-gallery-zh",
-   "stars": 5656,
-   "d24": 827,
+   "stars": 5676,
+   "d24": 828,
    "est": true,
-   "forks": 1434,
+   "forks": 1438,
    "contrib": 5,
    "score": 88
   },
   {
-   "repo": "modelflare-ai/AnyModelBot",
-   "stars": 1896,
-   "d24": 797,
-   "est": false,
-   "forks": 19,
-   "contrib": null,
-   "score": 80
-  },
-  {
    "repo": "caru-ini/stack-diagram",
-   "stars": 1324,
-   "d24": 624,
+   "stars": 1330,
+   "d24": 621,
    "est": true,
    "forks": 58,
    "contrib": null,
@@ -366,12 +357,21 @@
   },
   {
    "repo": "elvarofficial/teardown",
-   "stars": 1404,
-   "d24": 469,
+   "stars": 1417,
+   "d24": 477,
    "est": false,
-   "forks": 213,
+   "forks": 216,
    "contrib": null,
    "score": 86
+  },
+  {
+   "repo": "haydenschmitty/floorplan",
+   "stars": 2340,
+   "d24": 340,
+   "est": true,
+   "forks": 170,
+   "contrib": null,
+   "score": 82
   }
  ],
  "models": [
@@ -385,7 +385,7 @@
    "grow": 0,
    "score": 90,
    "cat": "LLMs",
-   "likes": 1254
+   "likes": 1258
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -396,7 +396,7 @@
    "grow": null,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 4759
+   "likes": 4760
   },
   {
    "name": "idol",
@@ -404,10 +404,10 @@
    "lic": "Open source",
    "at": "2026-10-28T15:55:17.000Z",
    "dl": 7787,
-   "grow": null,
+   "grow": 0,
    "score": 88,
    "cat": "Vision",
-   "likes": 446
+   "likes": 449
   },
   {
    "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
@@ -431,7 +431,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 1514
+   "likes": 1515
   },
   {
    "name": "Pika-H3-Flex",
@@ -728,6 +728,13 @@
  },
  "headlines": [
   {
+   "t": "How Alex Bores' Who Decides seeks to make AI safety a standard Democratic position, like being pro-choice, in 2028, as tech-funded rivals vie for influence",
+   "url": "https://www.techmeme.com/261103/p3#a261103p3",
+   "at": "2026-11-03T08:40:02.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "OpenAI partners with Cathedral to test its security defenses and revamps its Security Bug Bounty program, including quadrupling rewards for critical findings",
    "url": "https://www.techmeme.com/261103/p2#a261103p2",
    "at": "2026-11-03T07:20:00.000Z",
@@ -777,7 +784,7 @@
    "kind": "News"
   },
   {
-   "t": "Salesforce announces plans to acquire Cresta, a provider of AI-powered contact center automation software; source: Salesforce agreed to pay $2.7B for Cresta",
+   "t": "Salesforce plans to acquire Cresta, a provider of AI-powered contact center automation software; a source says Salesforce agreed to pay $2.7B for Cresta",
    "url": "https://www.techmeme.com/261102/p48#a261102p48",
    "at": "2026-11-03T01:20:01.000Z",
    "src": "Techmeme",
@@ -805,7 +812,7 @@
    "kind": "Lab blog"
   },
   {
-   "t": "Anthropic S-1 claims it may \"imminently meet\" its RSI threshold and may fail to identify \"significant acceleration\" in its development until after it's occurred",
+   "t": "S-1: Anthropic says it may \"imminently meet\" its RSI threshold and may fail to identify \"significant acceleration\" in its development until after it's occurred",
    "url": "https://www.techmeme.com/261102/p44#a261102p44",
    "at": "2026-11-02T23:05:00.000Z",
    "src": "Techmeme",
@@ -819,7 +826,7 @@
    "kind": "News"
   },
   {
-   "t": "Sources: institutional investors told Anthropic that its IPO valuation should be around $1.5T to $1.6T, down from estimates of $2T, citing a tech stock selloff",
+   "t": "Sources: institutional investors told Anthropic that its IPO valuation should be ~$1.5T to $1.6T, down from estimates of $2T, citing the tech stock selloff",
    "url": "https://www.techmeme.com/261102/p42#a261102p42",
    "at": "2026-11-02T22:10:01.000Z",
    "src": "Techmeme",
@@ -831,41 +838,16 @@
    "at": "2026-11-02T20:20:07Z",
    "src": "Medical Xpress",
    "kind": "News"
-  },
-  {
-   "t": "OpenAI takes steps to widen ChatGPT's reach",
-   "url": "https://timesofindia.indiatimes.com/business/international-business/openai-takes-steps-to-widen-chatgpts-reach/articleshow/135473839.cms",
-   "at": "2026-11-02T20:18:00Z",
-   "src": "Times of India",
-   "kind": "News"
   }
  ],
  "discussions": [
   {
    "src": "Hacker News",
-   "t": "Astra can read and write weights to improve Qwen",
-   "url": "https://news.ycombinator.com/item?id=50341174",
-   "link": "https://rikiyat.github.io/blog/weight-space-programming/",
-   "up": 2499,
-   "com": 779,
-   "at": "2026-11-02T18:21:28.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "uBlock Origin filter to block autoplay videos in TechCrunch",
-   "url": "https://news.ycombinator.com/item?id=50349155",
-   "link": "https://cornfieldlabs.github.io/posts/ublock-stop-techcrunch-autoplay-video/post.html",
-   "up": 48,
-   "com": 9,
-   "at": "2026-11-03T07:36:47.000Z"
-  },
-  {
-   "src": "Hacker News",
    "t": "Show HN: Subvocal – Talk to your computer without making noise",
    "url": "https://news.ycombinator.com/item?id=50340088",
    "link": "",
-   "up": 673,
-   "com": 333,
+   "up": 677,
+   "com": 336,
    "at": "2026-11-02T17:16:17.000Z"
   },
   {
@@ -873,27 +855,44 @@
    "t": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
    "url": "https://news.ycombinator.com/item?id=50341462",
    "link": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
-   "up": 466,
-   "com": 133,
+   "up": 474,
+   "com": 137,
    "at": "2026-11-02T18:39:38.000Z"
   },
   {
-   "src": "Hacker News",
-   "t": "DiscImageStudio: burn visible artwork onto CDs, DVDs and Blu-ray discs",
-   "url": "https://news.ycombinator.com/item?id=50346849",
-   "link": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
-   "up": 166,
-   "com": 40,
-   "at": "2026-11-03T01:33:43.000Z"
+   "src": "Mastodon",
+   "t": "Can I make it anymore obvious? # unix_surrealism # computer # ai # neverslop # chatgpt # claude # mastoart # fediart # generativeai # comic # art # programming",
+   "url": "https://merveilles.town/@prahou/117551539500354736",
+   "up": 28,
+   "com": 3,
+   "at": "2026-11-03T08:22:25.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Intel stock collapse worsens as $3.5T chip rout spreads",
-   "url": "https://news.ycombinator.com/item?id=50346153",
-   "link": "https://finance.yahoo.com/markets/article/the-intel-stock-collapse-is-getting-worse--and-the-37-trillion-chip-rout-is-spreading-212154947.html",
-   "up": 197,
-   "com": 155,
-   "at": "2026-11-03T00:08:53.000Z"
+   "t": "Scaling Git at OpenAI",
+   "url": "https://news.ycombinator.com/item?id=50345924",
+   "link": "https://openai.com/index/scaling-git-at-openai/",
+   "up": 208,
+   "com": 119,
+   "at": "2026-11-02T23:47:56.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Anthropic's internal AI use, at retail prices, now exceeds its employee pay",
+   "url": "https://news.ycombinator.com/item?id=50339494",
+   "link": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
+   "up": 320,
+   "com": 248,
+   "at": "2026-11-02T16:40:29.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Oracle files to sell $20B in new stock, bonds to finance AI buildout",
+   "url": "https://news.ycombinator.com/item?id=50342284",
+   "link": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
+   "up": 186,
+   "com": 166,
+   "at": "2026-11-02T19:27:37.000Z"
   }
  ]
 }
