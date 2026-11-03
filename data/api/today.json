@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-03T17:30:54.917Z"
+  "updated": "2026-11-03T17:47:20.731Z"
  },
  "pulse": {
   "trending": 84,
   "accelerating": 1,
   "newModels": 8,
-  "discussions": 56,
-  "stars": 8151
+  "discussions": 58,
+  "stars": 8090
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 15,
    "desc": "Towards a More Autonomous Agent System",
    "meta": [
-    "★ 16,233",
-    "+4,073 in 24h",
+    "★ 16,258",
+    "+4,033 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-31T09:32:46Z",
@@ -41,8 +41,8 @@
    "grow": 8,
    "desc": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
    "meta": [
-    "★ 7,220",
-    "+1,416 in 24h",
+    "★ 7,237",
+    "+1,418 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-29T15:41:21Z",
@@ -58,8 +58,8 @@
    "grow": 5,
    "desc": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "meta": [
-    "★ 5,994",
-    "+707 in 24h",
+    "★ 5,997",
+    "+694 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-29T14:34:07Z",
@@ -75,8 +75,8 @@
    "grow": 8,
    "desc": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
    "meta": [
-    "★ 4,020",
-    "+760 in 24h",
+    "★ 4,026",
+    "+753 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-30T06:43:25Z",
@@ -92,9 +92,9 @@
    "grow": 14,
    "desc": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
    "meta": [
-    "★ 1,462",
+    "★ 1,466",
     "+363 in 24h",
-    "Created 2 days ago"
+    "Created 3 days ago"
    ],
    "at": "2026-11-01T05:35:12Z",
    "breakout": null,
@@ -123,7 +123,7 @@
    "cat": "Vision",
    "score": 88,
    "grow": 38,
-   "desc": "Vision on Hugging Face · open source · ♥ 484",
+   "desc": "Vision on Hugging Face · open source · ♥ 487",
    "meta": [
     "11K downloads",
     "Released 6 days ago"
@@ -170,10 +170,10 @@
    "src": "gh",
    "cat": "Agents",
    "score": 86,
-   "grow": 26,
+   "grow": 27,
    "desc": "A Claude Code skill that turns any machine into a 3D simulator you can take apart",
    "meta": [
-    "★ 1,563",
+    "★ 1,568",
     "+446 in 24h",
     "Created 4 days ago"
    ],
@@ -188,8 +188,8 @@
    "name": "dsh-superagent-prototype",
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "from": "GitHub",
-   "use": 4073,
-   "useLabel": "+4,073 stars/day",
+   "use": 4033,
+   "useLabel": "+4,033 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -219,6 +219,16 @@
   }
  ],
  "receipts": [
+  {
+   "name": "academa-labs/manimgx",
+   "url": "https://github.com/academa-labs/manimgx",
+   "kind": "stars",
+   "first": "2026-10-13T07:30:53.421Z",
+   "firstV": 1037,
+   "m": 2500,
+   "at": "2026-11-03T17:47:20.731Z",
+   "lead": 514.2742527777777
+  },
   {
    "name": "LiquidAI/LFM3-Omni-2B",
    "url": "https://huggingface.co/LiquidAI/LFM3-Omni-2B",
@@ -288,67 +298,57 @@
    "m": 100000,
    "at": "2026-11-02T10:30:57.277Z",
    "lead": 86.00158805555556
-  },
-  {
-   "name": "deepseek-ai/dsh-superagent-prototype",
-   "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
-   "kind": "stars",
-   "first": "2026-10-31T16:30:45.627Z",
-   "firstV": 1330,
-   "m": 10000,
-   "at": "2026-11-02T08:00:59.981Z",
-   "lead": 39.50398722222222
   }
  ],
  "github": [
   {
    "repo": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 16233,
-   "d24": 4073,
+   "stars": 16258,
+   "d24": 4033,
    "est": false,
-   "forks": 1753,
+   "forks": 1756,
    "contrib": 1,
    "score": 96
   },
   {
    "repo": "heydamir/unslop",
-   "stars": 7220,
-   "d24": 1416,
+   "stars": 7237,
+   "d24": 1418,
    "est": false,
-   "forks": 367,
+   "forks": 368,
    "contrib": 3,
    "score": 93
   },
   {
    "repo": "patch-gg/pixelfx",
-   "stars": 4020,
-   "d24": 760,
+   "stars": 4026,
+   "d24": 753,
    "est": false,
-   "forks": 548,
+   "forks": 549,
    "contrib": null,
    "score": 91
   },
   {
    "repo": "wangzan101/Mika",
-   "stars": 5994,
-   "d24": 707,
+   "stars": 5997,
+   "d24": 694,
    "est": false,
-   "forks": 1164,
+   "forks": 1166,
    "contrib": 42,
    "score": 92
   },
   {
    "repo": "elvarofficial/teardown",
-   "stars": 1563,
+   "stars": 1568,
    "d24": 446,
    "est": false,
-   "forks": 240,
+   "forks": 241,
    "contrib": null,
    "score": 86
   },
   {
    "repo": "caru-ini/stack-diagram",
-   "stars": 1462,
+   "stars": 1466,
    "d24": 363,
    "est": false,
    "forks": 60,
@@ -367,7 +367,7 @@
   {
    "repo": "paipiange/nvzhuang",
    "stars": 2117,
-   "d24": 105,
+   "d24": 102,
    "est": false,
    "forks": 543,
    "contrib": null,
@@ -385,7 +385,7 @@
    "grow": null,
    "score": 90,
    "cat": "LLMs",
-   "likes": 1376
+   "likes": 1377
   },
   {
    "name": "idol",
@@ -396,7 +396,7 @@
    "grow": 38,
    "score": 88,
    "cat": "Vision",
-   "likes": 484
+   "likes": 487
   },
   {
    "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
@@ -819,6 +819,13 @@
    "kind": "News"
   },
   {
+   "t": "Anthropic's RSI Breakthrough?! NEW Fable 5.5 Checkpoint, NEW GPT, DeepSeek Harness, & More! AI NEWS",
+   "url": "https://www.youtube.com/watch?v=i-wYjUriSzo",
+   "at": "2026-11-03T08:12:32Z",
+   "src": "WorldofAI",
+   "kind": "Video"
+  },
+  {
    "t": "Heimstaden is changing residential real estate management with AI",
    "url": "https://openai.com/index/heimstaden",
    "at": "2026-11-03T08:00:00.000Z",
@@ -831,13 +838,6 @@
    "at": "2026-11-03T07:00:12.000Z",
    "src": "NVIDIA",
    "kind": "Lab blog"
-  },
-  {
-   "t": "‘A serious failure’: CPS prosecutor cites imaginary case to high court after AI search",
-   "url": "https://www.theguardian.com/technology/2026/nov/03/a-serious-failure-cps-prosecutor-cites-imaginary-case-to-high-court-after-ai-search",
-   "at": "2026-11-03T06:00:40Z",
-   "src": "The Guardian",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -846,8 +846,8 @@
    "t": "Astra can read and write weights to improve Qwen",
    "url": "https://news.ycombinator.com/item?id=50341174",
    "link": "https://rikiyat.github.io/blog/weight-space-programming/",
-   "up": 2899,
-   "com": 874,
+   "up": 2901,
+   "com": 875,
    "at": "2026-11-02T18:21:28.000Z"
   },
   {
@@ -855,26 +855,26 @@
    "t": "Schools that block Google’s A.I. will lose student access to its search engine",
    "url": "https://news.ycombinator.com/item?id=50353192",
    "link": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html",
-   "up": 160,
-   "com": 129,
+   "up": 184,
+   "com": 158,
    "at": "2026-11-03T15:25:47.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "AI is destroying my CS degree",
-   "url": "https://news.ycombinator.com/item?id=50353300",
-   "link": "https://lordtoots.bearblog.dev/ai-is-destroying-my-cs-degree/",
-   "up": 93,
-   "com": 78,
-   "at": "2026-11-03T15:35:06.000Z"
+   "t": "Postman silently auto-installs AI plugins and attempts to share all API data",
+   "url": "https://news.ycombinator.com/item?id=50354960",
+   "link": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+   "up": 73,
+   "com": 17,
+   "at": "2026-11-03T17:22:37.000Z"
   },
   {
    "src": "Hacker News",
    "t": "OpenAI seems to be silently re-enabling model training on Codex chats",
    "url": "https://news.ycombinator.com/item?id=50352757",
    "link": "",
-   "up": 125,
-   "com": 42,
+   "up": 141,
+   "com": 49,
    "at": "2026-11-03T14:53:41.000Z"
   },
   {
@@ -882,18 +882,18 @@
    "t": "Just a little AI resistance, as a treat",
    "url": "https://news.ycombinator.com/item?id=50352257",
    "link": "https://shkspr.mobi/blog/2026/11/just-a-little-ai-resistance-as-a-treat/",
-   "up": 156,
-   "com": 101,
+   "up": 158,
+   "com": 102,
    "at": "2026-11-03T14:14:12.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Quili AI",
-   "url": "https://news.ycombinator.com/item?id=50353475",
-   "link": "https://www.quili.ai/",
-   "up": 78,
-   "com": 46,
-   "at": "2026-11-03T15:49:02.000Z"
+   "t": "AI is destroying my CS degree",
+   "url": "https://news.ycombinator.com/item?id=50353300",
+   "link": "https://lordtoots.bearblog.dev/ai-is-destroying-my-cs-degree/",
+   "up": 93,
+   "com": 82,
+   "at": "2026-11-03T15:35:06.000Z"
   }
  ]
 }
