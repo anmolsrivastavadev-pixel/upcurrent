@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-03T05:30:52.054Z"
+  "updated": "2026-11-03T06:00:59.532Z"
  },
  "pulse": {
-  "trending": 85,
+  "trending": 86,
   "accelerating": 0,
   "newModels": 7,
-  "discussions": 51,
-  "stars": 9706
+  "discussions": 49,
+  "stars": 10380
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "Towards a More Autonomous Agent System",
    "meta": [
-    "★ 14,183",
-    "~5,008 in 24h",
+    "★ 14,283",
+    "~5,006 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-31T09:32:46Z",
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 94,
-   "grow": 18,
+   "grow": 19,
    "desc": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
    "meta": [
-    "★ 6,509",
-    "+1,427 in 24h",
+    "★ 6,524",
+    "+1,407 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-29T15:41:21Z",
@@ -55,11 +55,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 93,
-   "grow": 14,
+   "grow": 15,
    "desc": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "meta": [
-    "★ 5,569",
-    "+980 in 24h",
+    "★ 5,591",
+    "+982 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-29T14:34:07Z",
@@ -72,16 +72,33 @@
    "src": "gh",
    "cat": "Agents",
    "score": 92,
-   "grow": 14,
+   "grow": 15,
    "desc": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
    "meta": [
-    "★ 3,647",
-    "+640 in 24h",
+    "★ 3,658",
+    "+636 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-30T06:43:25Z",
    "breakout": null,
    "url": "https://github.com/patch-gg/pixelfx"
+  },
+  {
+   "name": "stack-diagram",
+   "owner": "caru-ini",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 91,
+   "grow": null,
+   "desc": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
+   "meta": [
+    "★ 1,288",
+    "~638 in 24h",
+    "Created 2 days ago"
+   ],
+   "at": "2026-11-01T05:35:12Z",
+   "breakout": null,
+   "url": "https://github.com/caru-ini/stack-diagram"
   },
   {
    "name": "LFM3-1.7B",
@@ -124,30 +141,13 @@
    "grow": 4,
    "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
    "meta": [
-    "★ 5,568",
-    "+251 in 24h",
+    "★ 5,577",
+    "+256 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-27T12:24:37Z",
    "breakout": null,
    "url": "https://github.com/anhao/ai-pose-gallery-zh"
-  },
-  {
-   "name": "teardown",
-   "owner": "elvarofficial",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 87,
-   "grow": null,
-   "desc": "A Claude Code skill that turns any machine into a 3D simulator you can take apart",
-   "meta": [
-    "★ 1,346",
-    "~351 in 24h",
-    "Created 4 days ago"
-   ],
-   "at": "2026-10-30T09:29:01Z",
-   "breakout": null,
-   "url": "https://github.com/elvarofficial/teardown"
   },
   {
    "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
@@ -156,7 +156,7 @@
    "cat": "Coding",
    "score": 87,
    "grow": 0,
-   "desc": "Model on Hugging Face · open weights · ♥ 693",
+   "desc": "Model on Hugging Face · open weights · ♥ 695",
    "meta": [
     "32K downloads",
     "Released 26 days ago"
@@ -188,8 +188,8 @@
    "name": "dsh-superagent-prototype",
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "from": "GitHub",
-   "use": 5008,
-   "useLabel": "~5,008 stars/day",
+   "use": 5006,
+   "useLabel": "~5,006 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -303,75 +303,75 @@
  "github": [
   {
    "repo": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 14183,
-   "d24": 5008,
+   "stars": 14283,
+   "d24": 5006,
    "est": true,
-   "forks": 1512,
+   "forks": 1525,
    "contrib": 1,
    "score": 96
   },
   {
    "repo": "heydamir/unslop",
-   "stars": 6509,
-   "d24": 1427,
+   "stars": 6524,
+   "d24": 1407,
    "est": false,
-   "forks": 332,
+   "forks": 333,
    "contrib": 3,
    "score": 94
   },
   {
    "repo": "wangzan101/Mika",
-   "stars": 5569,
-   "d24": 980,
+   "stars": 5591,
+   "d24": 982,
    "est": false,
-   "forks": 1080,
+   "forks": 1088,
    "contrib": 40,
    "score": 93
   },
   {
-   "repo": "patch-gg/pixelfx",
-   "stars": 3647,
-   "d24": 640,
+   "repo": "modelflare-ai/AnyModelBot",
+   "stars": 1724,
+   "d24": 663,
    "est": false,
-   "forks": 495,
+   "forks": 18,
+   "contrib": null,
+   "score": 79
+  },
+  {
+   "repo": "caru-ini/stack-diagram",
+   "stars": 1288,
+   "d24": 638,
+   "est": true,
+   "forks": 57,
+   "contrib": null,
+   "score": 91
+  },
+  {
+   "repo": "patch-gg/pixelfx",
+   "stars": 3658,
+   "d24": 636,
+   "est": false,
+   "forks": 497,
    "contrib": null,
    "score": 92
   },
   {
-   "repo": "modelflare-ai/AnyModelBot",
-   "stars": 1674,
-   "d24": 607,
-   "est": false,
-   "forks": 18,
-   "contrib": null,
-   "score": 80
-  },
-  {
    "repo": "haydenschmitty/floorplan",
-   "stars": 2300,
-   "d24": 389,
+   "stars": 2305,
+   "d24": 385,
    "est": false,
-   "forks": 165,
+   "forks": 167,
    "contrib": null,
-   "score": 83
+   "score": 82
   },
   {
    "repo": "elvarofficial/teardown",
-   "stars": 1346,
-   "d24": 351,
+   "stars": 1350,
+   "d24": 350,
    "est": true,
-   "forks": 204,
+   "forks": 206,
    "contrib": null,
-   "score": 87
-  },
-  {
-   "repo": "anhao/ai-pose-gallery-zh",
-   "stars": 5568,
-   "d24": 251,
-   "est": false,
-   "forks": 1417,
-   "contrib": 5,
-   "score": 88
+   "score": 86
   }
  ],
  "models": [
@@ -385,7 +385,7 @@
    "grow": 0,
    "score": 90,
    "cat": "LLMs",
-   "likes": 1218
+   "likes": 1227
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -396,7 +396,7 @@
    "grow": 4,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 4738
+   "likes": 4741
   },
   {
    "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
@@ -408,7 +408,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Coding",
-   "likes": 693
+   "likes": 695
   },
   {
    "name": "idol",
@@ -735,6 +735,13 @@
    "kind": "News"
   },
   {
+   "t": "Sources: Huawei told some clients that a large share of its upcoming flagship AI chip, Ascend 960DT, will run largely on HBM made by Samsung and SK Hynix",
+   "url": "https://www.techmeme.com/261102/p50#a261102p50",
+   "at": "2026-11-03T03:25:00.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Larridin, which helps companies track how AI affects employee output and identifies areas for better AI adoption, raised a $30M Series A led by Pelion Ventures",
    "url": "https://www.techmeme.com/261102/p49#a261102p49",
    "at": "2026-11-03T03:10:00.000Z",
@@ -784,6 +791,20 @@
    "kind": "News"
   },
   {
+   "t": "OpenAI's Altman signs UAE energy, government deals amid Gulf funding push",
+   "url": "https://www.al-monitor.com/originals/2026/11/openais-altman-signs-uae-energy-government-deals-amid-gulf-funding-push",
+   "at": "2026-11-02T18:00:43Z",
+   "src": "Al-Monitor",
+   "kind": "News"
+  },
+  {
+   "t": "Russia kills 18 in strike on Ukraine aid centre as cyberattacks trigger fake nuclear threat alerts in both countries",
+   "url": "https://www.moneycontrol.com/news/india/russia-kills-18-in-strike-on-ukraine-aid-centre-as-cyberattacks-trigger-fake-nuclear-threat-alerts-in-both-countries-14066800.html",
+   "at": "2026-11-02T18:00:05Z",
+   "src": "Moneycontrol",
+   "kind": "News"
+  },
+  {
    "t": "Rewarding defenders with bigger bug bounties",
    "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
    "at": "2026-11-02T18:00:00.000Z",
@@ -798,45 +819,24 @@
    "kind": "Lab blog"
   },
   {
-   "t": "Elon Musk Mocks Sam Altman Over Claim Home PCs Are Wasting RAM",
-   "url": "https://decrypt.co/382345/elon-musk-mocks-sam-altman-over-claim-home-pcs-are-wasting-ram",
-   "at": "2026-11-02T17:07:28Z",
-   "src": "Decrypt",
+   "t": "\"AI must have Wisdom Quotient, not just IQ and EQ\": Experts at IIT Ropar event",
+   "url": "https://www.aninews.in/news/national/general-news/ai-must-have-wisdom-quotient-not-just-iq-and-eq-experts-at-iit-ropar-event20261102232015/",
+   "at": "2026-11-02T17:50:15Z",
+   "src": "ANI (Asian News International)",
    "kind": "News"
   },
   {
-   "t": "OpenAI says its AI is getting better at doing things humans do, like shopping and meal planning",
-   "url": "https://edition.cnn.com/2026/11/02/tech/openai-chatgpt-personal-assistant-ai",
-   "at": "2026-11-02T17:06:21Z",
-   "src": "Cable News Network",
+   "t": "Sam Altman's OpenAI Wants to Rename Data Centers \"Compute Campuses\" Ahead of Midterms",
+   "url": "https://www.breitbart.com/tech/2026/11/02/sam-altmans-openai-wants-to-rename-data-centers-compute-campuses-ahead-of-midterms/",
+   "at": "2026-11-02T17:45:14Z",
+   "src": "Breitbart News Network",
    "kind": "News"
   },
   {
-   "t": "Anthropic Posts $17B Quarterly Revenue but Losses Continue in Fresh IPO Filing",
-   "url": "https://www.usnews.com/news/business/articles/2026-11-02/anthropic-posts-17b-quarterly-revenue-but-losses-continue-in-fresh-ipo-filing",
-   "at": "2026-11-02T17:06:00Z",
-   "src": "U.S. News & World Report",
-   "kind": "News"
-  },
-  {
-   "t": "AI vibe coding changes a local man’s life path",
-   "url": "https://www.youtube.com/watch?v=qvOxAbC3d0U",
-   "at": "2026-11-02T16:52:54Z",
-   "src": "CTV News",
-   "kind": "Video"
-  },
-  {
-   "t": "OpenAI launches Grid Protectors to ease AI’s strain on power grids",
-   "url": "https://thenextweb.com/news/openai-grid-protectors-program-demand-response-georgia",
-   "at": "2026-11-02T16:48:30Z",
-   "src": "TNW",
-   "kind": "News"
-  },
-  {
-   "t": "Maintaining the ITU “Artificial Intelligence” Resolution",
-   "url": "https://www.europesays.com/3348354/",
-   "at": "2026-11-02T16:41:15Z",
-   "src": "EUROPE SAYS",
+   "t": "Anthropic says revenue surged 1,100 percent ahead of IPO",
+   "url": "https://www.bangkokpost.com/business/general/3347340/anthropic-says-revenue-surged-1100-percent-ahead-of-ipo",
+   "at": "2026-11-02T17:45:00Z",
+   "src": "Bangkok Post",
    "kind": "News"
   }
  ],
@@ -846,15 +846,15 @@
    "t": "Astra can read and write weights to improve Qwen",
    "url": "https://news.ycombinator.com/item?id=50341174",
    "link": "https://rikiyat.github.io/blog/weight-space-programming/",
-   "up": 2253,
-   "com": 724,
+   "up": 2306,
+   "com": 730,
    "at": "2026-11-02T18:21:28.000Z"
   },
   {
    "src": "Mastodon",
    "t": "Get AI agents the fuck off Fedi! They're an existential threat to small instances, and they're a primary contributor to moderator burnout. # FuckAI # IfYouSe…",
    "url": "https://lgbtqia.space/@alice/117549918931112699",
-   "up": 298,
+   "up": 325,
    "com": 9,
    "at": "2026-11-03T01:30:17.000Z"
   },
@@ -863,8 +863,8 @@
    "t": "Show HN: Subvocal – Talk to your computer without making noise",
    "url": "https://news.ycombinator.com/item?id=50340088",
    "link": "",
-   "up": 619,
-   "com": 322,
+   "up": 626,
+   "com": 324,
    "at": "2026-11-02T17:16:17.000Z"
   },
   {
@@ -872,8 +872,8 @@
    "t": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
    "url": "https://news.ycombinator.com/item?id=50341462",
    "link": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
-   "up": 399,
-   "com": 115,
+   "up": 414,
+   "com": 118,
    "at": "2026-11-02T18:39:38.000Z"
   },
   {
@@ -881,8 +881,8 @@
    "t": "Intel stock collapse worsens as $3.5T chip rout spreads",
    "url": "https://news.ycombinator.com/item?id=50346153",
    "link": "https://finance.yahoo.com/markets/article/the-intel-stock-collapse-is-getting-worse--and-the-37-trillion-chip-rout-is-spreading-212154947.html",
-   "up": 160,
-   "com": 111,
+   "up": 169,
+   "com": 119,
    "at": "2026-11-03T00:08:53.000Z"
   },
   {
@@ -890,7 +890,7 @@
    "t": "DiscImageStudio: burn visible artwork onto CDs, DVDs and Blu-ray discs",
    "url": "https://news.ycombinator.com/item?id=50346849",
    "link": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
-   "up": 102,
+   "up": 110,
    "com": 26,
    "at": "2026-11-03T01:33:43.000Z"
   }
