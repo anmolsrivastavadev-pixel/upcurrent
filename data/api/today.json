@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-03T23:01:02.288Z"
+  "updated": "2026-11-03T23:15:42.727Z"
  },
  "pulse": {
   "trending": 83,
   "accelerating": 1,
   "newModels": 7,
-  "discussions": 57,
-  "stars": 6511
+  "discussions": 58,
+  "stars": 6465
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 18,
    "desc": "Towards a More Autonomous Agent System",
    "meta": [
-    "★ 16,625",
-    "+3,351 in 24h",
+    "★ 16,640",
+    "+3,325 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-31T09:32:46Z",
@@ -41,8 +41,8 @@
    "grow": 12,
    "desc": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
    "meta": [
-    "★ 7,479",
-    "+1,307 in 24h",
+    "★ 7,490",
+    "+1,304 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-29T15:41:21Z",
@@ -58,8 +58,8 @@
    "grow": 5,
    "desc": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "meta": [
-    "★ 6,031",
-    "+500 in 24h",
+    "★ 6,032",
+    "+493 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-29T14:34:07Z",
@@ -71,12 +71,12 @@
    "owner": "patch-gg",
    "src": "gh",
    "cat": "Agents",
-   "score": 91,
+   "score": 90,
    "grow": 10,
    "desc": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
    "meta": [
-    "★ 4,090",
-    "+587 in 24h",
+    "★ 4,092",
+    "+581 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-30T06:43:25Z",
@@ -108,8 +108,8 @@
    "grow": 18,
    "desc": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
    "meta": [
-    "★ 1,514",
-    "+319 in 24h",
+    "★ 1,515",
+    "+316 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-01T05:35:12Z",
@@ -123,7 +123,7 @@
    "cat": "Coding",
    "score": 89,
    "grow": null,
-   "desc": "Model on Hugging Face · open weights · ♥ 735",
+   "desc": "Model on Hugging Face · open weights · ♥ 736",
    "meta": [
     "39K downloads",
     "Released 27 days ago"
@@ -154,8 +154,8 @@
    "src": "hf",
    "cat": "Vision",
    "score": 87,
-   "grow": 38,
-   "desc": "Vision on Hugging Face · open source · ♥ 507",
+   "grow": null,
+   "desc": "Vision on Hugging Face · open source · ♥ 508",
    "meta": [
     "11K downloads",
     "Released 6 days ago"
@@ -181,14 +181,115 @@
    "url": "https://huggingface.co/Pika-Labs/Pika-H3-Flex"
   }
  ],
- "breakouts": [],
+ "breakouts": [
+  {
+   "key": "fable 5.5",
+   "label": "Fable 5.5",
+   "n": 3,
+   "sources": [
+    {
+     "src": "Crypto Briefing",
+     "t": "Anthropic reportedly tests Fable 5.5 as OpenAI reportedly eyes GPT-6.2 Astra",
+     "url": "https://cryptobriefing.com/anthropic-fable-5-5-openai-gpt-6-2-astra/"
+    },
+    {
+     "src": "Decrypt",
+     "t": "Claude Fable 5.5, GPT 6.2 Astra Could Be Right Around the Corner, Leaks Suggest",
+     "url": "https://decrypt.co/382390/claude-mythos-fable-5-5-gpt-6-2-astra-leaks"
+    },
+    {
+     "src": "YouTube",
+     "t": "HUGE CLAUDE MYTHOS 5.5 LEAK! Fable 5.5 INSANE, GPT-6.2 Astra, Gemini 4 Xenon & Carbon-H! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=L7opnQdpdMY"
+    }
+   ],
+   "since": "2026-11-03T23:15:42.727Z"
+  },
+  {
+   "key": "gpt 6.2",
+   "label": "GPT-6.2",
+   "n": 3,
+   "sources": [
+    {
+     "src": "Crypto Briefing",
+     "t": "Anthropic reportedly tests Fable 5.5 as OpenAI reportedly eyes GPT-6.2 Astra",
+     "url": "https://cryptobriefing.com/anthropic-fable-5-5-openai-gpt-6-2-astra/"
+    },
+    {
+     "src": "Decrypt",
+     "t": "Claude Fable 5.5, GPT 6.2 Astra Could Be Right Around the Corner, Leaks Suggest",
+     "url": "https://decrypt.co/382390/claude-mythos-fable-5-5-gpt-6-2-astra-leaks"
+    },
+    {
+     "src": "YouTube",
+     "t": "HUGE CLAUDE MYTHOS 5.5 LEAK! Fable 5.5 INSANE, GPT-6.2 Astra, Gemini 4 Xenon & Carbon-H! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=L7opnQdpdMY"
+    }
+   ],
+   "since": "2026-11-03T23:15:42.727Z"
+  }
+ ],
  "hype": [
+  {
+   "name": "Fable 5.5",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "Crypto Briefing",
+     "t": "Anthropic reportedly tests Fable 5.5 as OpenAI reportedly eyes GPT-6.2 Astra",
+     "url": "https://cryptobriefing.com/anthropic-fable-5-5-openai-gpt-6-2-astra/"
+    },
+    {
+     "src": "Decrypt",
+     "t": "Claude Fable 5.5, GPT 6.2 Astra Could Be Right Around the Corner, Leaks Suggest",
+     "url": "https://decrypt.co/382390/claude-mythos-fable-5-5-gpt-6-2-astra-leaks"
+    },
+    {
+     "src": "YouTube",
+     "t": "HUGE CLAUDE MYTHOS 5.5 LEAK! Fable 5.5 INSANE, GPT-6.2 Astra, Gemini 4 Xenon & Carbon-H! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=L7opnQdpdMY"
+    }
+   ],
+   "buzz": 3,
+   "verdict": "Talk only, no public usage numbers"
+  },
+  {
+   "name": "GPT-6.2",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "Crypto Briefing",
+     "t": "Anthropic reportedly tests Fable 5.5 as OpenAI reportedly eyes GPT-6.2 Astra",
+     "url": "https://cryptobriefing.com/anthropic-fable-5-5-openai-gpt-6-2-astra/"
+    },
+    {
+     "src": "Decrypt",
+     "t": "Claude Fable 5.5, GPT 6.2 Astra Could Be Right Around the Corner, Leaks Suggest",
+     "url": "https://decrypt.co/382390/claude-mythos-fable-5-5-gpt-6-2-astra-leaks"
+    },
+    {
+     "src": "YouTube",
+     "t": "HUGE CLAUDE MYTHOS 5.5 LEAK! Fable 5.5 INSANE, GPT-6.2 Astra, Gemini 4 Xenon & Carbon-H! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=L7opnQdpdMY"
+    }
+   ],
+   "buzz": 3,
+   "verdict": "Talk only, no public usage numbers"
+  },
   {
    "name": "dsh-superagent-prototype",
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "from": "GitHub",
-   "use": 3351,
-   "useLabel": "+3,351 stars/day",
+   "use": 3325,
+   "useLabel": "+3,325 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -302,35 +403,35 @@
  "github": [
   {
    "repo": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 16625,
-   "d24": 3351,
+   "stars": 16640,
+   "d24": 3325,
    "est": false,
-   "forks": 1800,
+   "forks": 1801,
    "contrib": 1,
    "score": 95
   },
   {
    "repo": "heydamir/unslop",
-   "stars": 7479,
-   "d24": 1307,
+   "stars": 7490,
+   "d24": 1304,
    "est": false,
-   "forks": 376,
+   "forks": 377,
    "contrib": 3,
    "score": 93
   },
   {
    "repo": "patch-gg/pixelfx",
-   "stars": 4090,
-   "d24": 587,
+   "stars": 4092,
+   "d24": 581,
    "est": false,
-   "forks": 557,
+   "forks": 558,
    "contrib": null,
-   "score": 91
+   "score": 90
   },
   {
    "repo": "wangzan101/Mika",
-   "stars": 6031,
-   "d24": 500,
+   "stars": 6032,
+   "d24": 493,
    "est": false,
    "forks": 1173,
    "contrib": 42,
@@ -338,7 +439,7 @@
   },
   {
    "repo": "elvarofficial/teardown",
-   "stars": 1628,
+   "stars": 1633,
    "d24": 357,
    "est": true,
    "forks": 249,
@@ -347,8 +448,8 @@
   },
   {
    "repo": "caru-ini/stack-diagram",
-   "stars": 1514,
-   "d24": 319,
+   "stars": 1515,
+   "d24": 316,
    "est": false,
    "forks": 64,
    "contrib": null,
@@ -356,7 +457,7 @@
   },
   {
    "repo": "paipiange/nvzhuang",
-   "stars": 2119,
+   "stars": 2120,
    "d24": 66,
    "est": false,
    "forks": 545,
@@ -366,7 +467,7 @@
   {
    "repo": "lexifina/global-law",
    "stars": 1738,
-   "d24": 24,
+   "d24": 23,
    "est": false,
    "forks": 159,
    "contrib": null,
@@ -396,7 +497,7 @@
    "grow": null,
    "score": 89,
    "cat": "Coding",
-   "likes": 735
+   "likes": 736
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -415,10 +516,10 @@
    "lic": "Open source",
    "at": "2026-10-28T15:55:17.000Z",
    "dl": 10742,
-   "grow": 38,
+   "grow": null,
    "score": 87,
    "cat": "Vision",
-   "likes": 507
+   "likes": 508
   },
   {
    "name": "Pika-H3-Flex",
@@ -756,6 +857,13 @@
  },
  "headlines": [
   {
+   "t": "Traversal, which provides AI agents for site reliability engineering, raised $120M co-led by Kleiner Perkins, Redpoint, and Khosla at a $1B valuation",
+   "url": "https://www.techmeme.com/261103/p39#a261103p39",
+   "at": "2026-11-03T23:05:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "US tech stocks recover after selloff spooks investors over AI spending",
    "url": "https://www.theguardian.com/business/2026/nov/03/us-tech-stocks-recovery-ai-spending",
    "at": "2026-11-03T22:18:45Z",
@@ -826,13 +934,6 @@
    "kind": "News"
   },
   {
-   "t": "AI inference startup Fal raised $1.3B led by Bessemer at a $16B valuation, up from $8B in April; source: Fal hit $800M in annualized revenue earlier in 2026",
-   "url": "https://www.techmeme.com/261103/p24#a261103p24",
-   "at": "2026-11-03T18:10:04.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "StateBench: Testing how language models track state changes over long documents",
    "url": "https://huggingface.co/blog/allenai/statebench",
    "at": "2026-11-03T17:15:21.000Z",
@@ -874,8 +975,8 @@
    "t": "Postman silently auto-installs AI plugins and attempts to share all API data",
    "url": "https://news.ycombinator.com/item?id=50354960",
    "link": "https://github.com/postmanlabs/postman-app-support/issues/14370",
-   "up": 904,
-   "com": 296,
+   "up": 924,
+   "com": 300,
    "at": "2026-11-03T17:22:37.000Z"
   },
   {
@@ -883,8 +984,8 @@
    "t": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
    "url": "https://news.ycombinator.com/item?id=50358582",
    "link": "https://arxiv.org/abs/2605.29713",
-   "up": 97,
-   "com": 10,
+   "up": 115,
+   "com": 12,
    "at": "2026-11-03T21:40:53.000Z"
   },
   {
@@ -892,17 +993,26 @@
    "t": "Google will turn off search for schools that reject AI",
    "url": "https://news.ycombinator.com/item?id=50353192",
    "link": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html",
-   "up": 513,
-   "com": 374,
+   "up": 520,
+   "com": 378,
    "at": "2026-11-03T15:25:47.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months",
+   "url": "https://news.ycombinator.com/item?id=50358422",
+   "link": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months",
+   "up": 94,
+   "com": 27,
+   "at": "2026-11-03T21:26:44.000Z"
   },
   {
    "src": "Hacker News",
    "t": "OpenAI seems to be silently re-enabling model training on Codex chats",
    "url": "https://news.ycombinator.com/item?id=50352757",
    "link": "",
-   "up": 413,
-   "com": 131,
+   "up": 414,
+   "com": 132,
    "at": "2026-11-03T14:53:41.000Z"
   },
   {
@@ -910,18 +1020,9 @@
    "t": "Preparing for the Flipper One Kickstarter and opening pre-orders",
    "url": "https://news.ycombinator.com/item?id=50356994",
    "link": "https://flipper.net/pages/flipper-one",
-   "up": 147,
-   "com": 72,
+   "up": 152,
+   "com": 73,
    "at": "2026-11-03T19:32:13.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months",
-   "url": "https://news.ycombinator.com/item?id=50358422",
-   "link": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months",
-   "up": 65,
-   "com": 20,
-   "at": "2026-11-03T21:26:44.000Z"
   }
  ]
 }
