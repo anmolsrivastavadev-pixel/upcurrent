@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-03T00:01:01.781Z"
+  "updated": "2026-11-03T00:30:51.593Z"
  },
  "pulse": {
   "trending": 85,
   "accelerating": 0,
   "newModels": 7,
-  "discussions": 43,
-  "stars": 8373
+  "discussions": 44,
+  "stars": 8288
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 27,
    "desc": "Towards a More Autonomous Agent System",
    "meta": [
-    "★ 13,061",
-    "+4,287 in 24h",
+    "★ 13,119",
+    "+4,241 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-31T09:32:46Z",
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 94,
-   "grow": 13,
+   "grow": 14,
    "desc": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
    "meta": [
-    "★ 6,238",
-    "+1,544 in 24h",
+    "★ 6,259",
+    "+1,522 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-29T15:41:21Z",
@@ -58,8 +58,8 @@
    "grow": 8,
    "desc": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "meta": [
-    "★ 5,263",
-    "+810 in 24h",
+    "★ 5,277",
+    "+804 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-29T14:34:07Z",
@@ -75,8 +75,8 @@
    "grow": 9,
    "desc": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
    "meta": [
-    "★ 3,482",
-    "+601 in 24h",
+    "★ 3,489",
+    "+590 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-30T06:43:25Z",
@@ -90,7 +90,7 @@
    "cat": "LLMs",
    "score": 90,
    "grow": null,
-   "desc": "Model on Hugging Face · open weights · ♥ 997",
+   "desc": "Model on Hugging Face · open weights · ♥ 999",
    "meta": [
     "42K downloads",
     "Released 10 days ago"
@@ -124,9 +124,9 @@
    "grow": 2,
    "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
    "meta": [
-    "★ 5,484",
-    "+206 in 24h",
-    "Created 6 days ago"
+    "★ 5,486",
+    "+202 in 24h",
+    "Created 7 days ago"
    ],
    "at": "2026-10-27T12:24:37Z",
    "breakout": null,
@@ -141,13 +141,30 @@
    "grow": 1,
    "desc": "1407 张 AI 女装参考图集与虚拟试穿网站，支持中英检索、OpenAI Images / Gemini / 豆包及自定义 Base URL、API Key、模型。https://github.com/paipiange/nvzhuang",
    "meta": [
-    "★ 2,041",
-    "+30 in 24h",
+    "★ 2,042",
+    "+31 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-29T06:08:00Z",
    "breakout": null,
    "url": "https://github.com/paipiange/nvzhuang"
+  },
+  {
+   "name": "teardown",
+   "owner": "elvarofficial",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 87,
+   "grow": null,
+   "desc": "A Claude Code skill that turns any machine into a 3D simulator you can take apart",
+   "meta": [
+    "★ 1,255",
+    "~346 in 24h",
+    "Created 4 days ago"
+   ],
+   "at": "2026-10-30T09:29:01Z",
+   "breakout": null,
+   "url": "https://github.com/elvarofficial/teardown"
   },
   {
    "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
@@ -156,7 +173,7 @@
    "cat": "Coding",
    "score": 87,
    "grow": null,
-   "desc": "Model on Hugging Face · open weights · ♥ 679",
+   "desc": "Model on Hugging Face · open weights · ♥ 681",
    "meta": [
     "32K downloads",
     "Released 26 days ago"
@@ -164,22 +181,6 @@
    "at": "2026-10-07T22:50:21.000Z",
    "breakout": null,
    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B"
-  },
-  {
-   "name": "idol",
-   "owner": "speridlabs",
-   "src": "hf",
-   "cat": "Vision",
-   "score": 87,
-   "grow": 86,
-   "desc": "Vision on Hugging Face · open source · ♥ 414",
-   "meta": [
-    "7.8K downloads",
-    "Released 5 days ago"
-   ],
-   "at": "2026-10-28T15:55:17.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/speridlabs/idol"
   }
  ],
  "breakouts": [],
@@ -188,8 +189,8 @@
    "name": "dsh-superagent-prototype",
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "from": "GitHub",
-   "use": 4287,
-   "useLabel": "+4,287 stars/day",
+   "use": 4241,
+   "useLabel": "+4,241 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -303,62 +304,62 @@
  "github": [
   {
    "repo": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 13061,
-   "d24": 4287,
+   "stars": 13119,
+   "d24": 4241,
    "est": false,
-   "forks": 1355,
+   "forks": 1360,
    "contrib": 1,
    "score": 96
   },
   {
    "repo": "heydamir/unslop",
-   "stars": 6238,
-   "d24": 1544,
+   "stars": 6259,
+   "d24": 1522,
    "est": false,
-   "forks": 323,
+   "forks": 324,
    "contrib": 3,
    "score": 94
   },
   {
    "repo": "wangzan101/Mika",
-   "stars": 5263,
-   "d24": 810,
+   "stars": 5277,
+   "d24": 804,
    "est": false,
-   "forks": 1018,
+   "forks": 1021,
    "contrib": 40,
    "score": 93
   },
   {
    "repo": "patch-gg/pixelfx",
-   "stars": 3482,
-   "d24": 601,
+   "stars": 3489,
+   "d24": 590,
    "est": false,
-   "forks": 470,
+   "forks": 471,
    "contrib": null,
    "score": 92
   },
   {
    "repo": "haydenschmitty/floorplan",
-   "stars": 2235,
-   "d24": 434,
+   "stars": 2241,
+   "d24": 429,
    "est": false,
    "forks": 158,
    "contrib": null,
-   "score": 84
+   "score": 83
   },
   {
    "repo": "elvarofficial/teardown",
-   "stars": 1238,
-   "d24": 343,
+   "stars": 1255,
+   "d24": 346,
    "est": true,
-   "forks": 188,
+   "forks": 192,
    "contrib": null,
-   "score": 86
+   "score": 87
   },
   {
    "repo": "anhao/ai-pose-gallery-zh",
-   "stars": 5484,
-   "d24": 206,
+   "stars": 5486,
+   "d24": 202,
    "est": false,
    "forks": 1394,
    "contrib": 5,
@@ -366,8 +367,8 @@
   },
   {
    "repo": "modelflare-ai/AnyModelBot",
-   "stars": 1331,
-   "d24": 118,
+   "stars": 1336,
+   "d24": 123,
    "est": false,
    "forks": 14,
    "contrib": null,
@@ -385,7 +386,7 @@
    "grow": null,
    "score": 90,
    "cat": "LLMs",
-   "likes": 997
+   "likes": 999
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -396,7 +397,7 @@
    "grow": 4,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 4695
+   "likes": 4697
   },
   {
    "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
@@ -408,7 +409,7 @@
    "grow": null,
    "score": 87,
    "cat": "Coding",
-   "likes": 679
+   "likes": 681
   },
   {
    "name": "idol",
@@ -419,7 +420,7 @@
    "grow": 86,
    "score": 87,
    "cat": "Vision",
-   "likes": 414
+   "likes": 415
   },
   {
    "name": "Mistral-Large-4-1T-A52B",
@@ -728,6 +729,20 @@
  },
  "headlines": [
   {
+   "t": "Trajectory, which is developing AI model post-training tools for nontechnical customers, raised a $45M Series A led by Sequoia at a $300M valuation",
+   "url": "https://www.techmeme.com/261102/p45#a261102p45",
+   "at": "2026-11-03T00:05:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "AI-powered malware ‘highly likely’ to be used to hack UK infrastructure by 2028",
+   "url": "https://www.theguardian.com/technology/2026/nov/03/ai-powered-malware-artificial-intelligence-hacking-critical-uk-infrastructure",
+   "at": "2026-11-03T00:01:32Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
    "t": "Anthropic S-1 claims it may \"imminently meet\" its RSI threshold and may fail to identify \"significant acceleration\" in its development until after it's occurred",
    "url": "https://www.techmeme.com/261102/p44#a261102p44",
    "at": "2026-11-02T23:05:00.000Z",
@@ -819,24 +834,10 @@
    "kind": "News"
   },
   {
-   "t": "Virtual tourism could get more realistic: Model builds panoramas",
-   "url": "https://phys.org/news/2026-11-virtual-tourism-realistic-panoramas.html",
-   "at": "2026-11-02T12:00:10Z",
-   "src": "Phys.org",
-   "kind": "News"
-  },
-  {
-   "t": "Anthropic restricts Claude AI from cloning video games and reverse engineering",
-   "url": "https://www.businesstoday.in/technology/news/story/anthropic-restricts-claude-ai-from-cloning-video-games-and-reverse-engineering-565208-2026-11-02",
-   "at": "2026-11-02T11:57:54Z",
-   "src": "Business Today",
-   "kind": "News"
-  },
-  {
-   "t": "E2E Networks launches Blaze pay",
-   "url": "https://scanx.trade/stock-market-news/companies/e2e-networks-launches-blaze-pay-per-token-ai-inference-service/55165321",
-   "at": "2026-11-02T11:42:15Z",
-   "src": "scanx.trade",
+   "t": "My RTX Spark laptop still doesn't have Copilot+ features, so a local LLM on the same machine built its own from one prompt",
+   "url": "https://www.xda-developers.com/rtx-spark-laptop-doesnt-have-copilot-fatures-local-llm-same-machine/",
+   "at": "2026-11-02T12:30:21Z",
+   "src": "XDA Developers",
    "kind": "News"
   }
  ],
@@ -846,8 +847,8 @@
    "t": "Astra can read and write weights to improve Qwen",
    "url": "https://news.ycombinator.com/item?id=50341174",
    "link": "https://rikiyat.github.io/blog/weight-space-programming/",
-   "up": 1707,
-   "com": 550,
+   "up": 1785,
+   "com": 566,
    "at": "2026-11-02T18:21:28.000Z"
   },
   {
@@ -855,9 +856,18 @@
    "t": "Show HN: Subvocal – Talk to your computer without making noise",
    "url": "https://news.ycombinator.com/item?id=50340088",
    "link": "",
-   "up": 494,
-   "com": 269,
+   "up": 513,
+   "com": 278,
    "at": "2026-11-02T17:16:17.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
+   "url": "https://news.ycombinator.com/item?id=50341462",
+   "link": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
+   "up": 292,
+   "com": 65,
+   "at": "2026-11-02T18:39:38.000Z"
   },
   {
    "src": "Hacker News",
@@ -865,7 +875,7 @@
    "url": "https://news.ycombinator.com/item?id=50339494",
    "link": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
    "up": 281,
-   "com": 232,
+   "com": 233,
    "at": "2026-11-02T16:40:29.000Z"
   },
   {
@@ -873,8 +883,8 @@
    "t": "Oracle files to sell $20B in new stock, bonds to finance AI buildout",
    "url": "https://news.ycombinator.com/item?id=50342284",
    "link": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
-   "up": 139,
-   "com": 98,
+   "up": 144,
+   "com": 104,
    "at": "2026-11-02T19:27:37.000Z"
   },
   {
@@ -882,18 +892,9 @@
    "t": "Show HN: Warsaw in voxels – An interactive 3D map of the city centre",
    "url": "https://news.ycombinator.com/item?id=50339221",
    "link": "https://p.migdal.pl/warsaw-vibe-voxel/",
-   "up": 193,
+   "up": 202,
    "com": 35,
    "at": "2026-11-02T16:25:26.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Ask HN: Who is hiring? (November 2026)",
-   "url": "https://news.ycombinator.com/item?id=50338728",
-   "link": "",
-   "up": 163,
-   "com": 134,
-   "at": "2026-11-02T16:01:37.000Z"
   }
  ]
 }
