@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-03T12:01:04.017Z"
+  "updated": "2026-11-03T12:30:51.672Z"
  },
  "pulse": {
-  "trending": 85,
+  "trending": 83,
   "accelerating": 1,
   "newModels": 8,
-  "discussions": 57,
-  "stars": 10705
+  "discussions": 58,
+  "stars": 9442
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 10,
    "desc": "Towards a More Autonomous Agent System",
    "meta": [
-    "★ 15,517",
-    "+4,817 in 24h",
+    "★ 15,583",
+    "+4,709 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-31T09:32:46Z",
@@ -41,8 +41,8 @@
    "grow": null,
    "desc": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
    "meta": [
-    "★ 6,898",
-    "~1,423 in 24h",
+    "★ 6,936",
+    "~1,425 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-29T15:41:21Z",
@@ -58,8 +58,8 @@
    "grow": null,
    "desc": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "meta": [
-    "★ 5,844",
-    "~1,194 in 24h",
+    "★ 5,858",
+    "~1,192 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-29T14:34:07Z",
@@ -75,8 +75,8 @@
    "grow": null,
    "desc": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
    "meta": [
-    "★ 3,850",
-    "~912 in 24h",
+    "★ 3,861",
+    "~910 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-30T06:43:25Z",
@@ -92,8 +92,8 @@
    "grow": 7,
    "desc": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
    "meta": [
-    "★ 1,372",
-    "+336 in 24h",
+    "★ 1,380",
+    "+340 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-01T05:35:12Z",
@@ -122,7 +122,7 @@
    "src": "hf",
    "cat": "Infrastructure",
    "score": 89,
-   "grow": null,
+   "grow": 6,
    "desc": "Model on Hugging Face · open source · ♥ 4.8K",
    "meta": [
     "187K downloads",
@@ -139,7 +139,7 @@
    "cat": "Vision",
    "score": 88,
    "grow": 38,
-   "desc": "Vision on Hugging Face · open source · ♥ 462",
+   "desc": "Vision on Hugging Face · open source · ♥ 466",
    "meta": [
     "11K downloads",
     "Released 6 days ago"
@@ -147,23 +147,6 @@
    "at": "2026-10-28T15:55:17.000Z",
    "breakout": null,
    "url": "https://huggingface.co/speridlabs/idol"
-  },
-  {
-   "name": "ai-pose-gallery-zh",
-   "owner": "anhao",
-   "src": "gh",
-   "cat": "Vision",
-   "score": 87,
-   "grow": null,
-   "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
-   "meta": [
-    "★ 5,716",
-    "~818 in 24h",
-    "Created 7 days ago"
-   ],
-   "at": "2026-10-27T12:24:37Z",
-   "breakout": null,
-   "url": "https://github.com/anhao/ai-pose-gallery-zh"
   },
   {
    "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
@@ -180,6 +163,23 @@
    "at": "2026-10-07T22:50:21.000Z",
    "breakout": null,
    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B"
+  },
+  {
+   "name": "teardown",
+   "owner": "elvarofficial",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 86,
+   "grow": 20,
+   "desc": "A Claude Code skill that turns any machine into a 3D simulator you can take apart",
+   "meta": [
+    "★ 1,482",
+    "+469 in 24h",
+    "Created 4 days ago"
+   ],
+   "at": "2026-10-30T09:29:01Z",
+   "breakout": null,
+   "url": "https://github.com/elvarofficial/teardown"
   }
  ],
  "breakouts": [],
@@ -232,8 +232,8 @@
    "name": "dsh-superagent-prototype",
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "from": "GitHub",
-   "use": 4817,
-   "useLabel": "+4,817 stars/day",
+   "use": 4709,
+   "useLabel": "+4,709 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -347,75 +347,66 @@
  "github": [
   {
    "repo": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 15517,
-   "d24": 4817,
+   "stars": 15583,
+   "d24": 4709,
    "est": false,
-   "forks": 1660,
+   "forks": 1668,
    "contrib": 1,
    "score": 96
   },
   {
    "repo": "heydamir/unslop",
-   "stars": 6898,
-   "d24": 1423,
+   "stars": 6936,
+   "d24": 1425,
    "est": true,
-   "forks": 351,
+   "forks": 353,
    "contrib": 3,
    "score": 93
   },
   {
    "repo": "wangzan101/Mika",
-   "stars": 5844,
-   "d24": 1194,
+   "stars": 5858,
+   "d24": 1192,
    "est": true,
-   "forks": 1138,
+   "forks": 1140,
    "contrib": 42,
    "score": 93
   },
   {
    "repo": "patch-gg/pixelfx",
-   "stars": 3850,
-   "d24": 912,
+   "stars": 3861,
+   "d24": 910,
    "est": true,
-   "forks": 528,
+   "forks": 530,
    "contrib": null,
    "score": 91
   },
   {
-   "repo": "anhao/ai-pose-gallery-zh",
-   "stars": 5716,
-   "d24": 818,
-   "est": true,
-   "forks": 1459,
-   "contrib": 5,
-   "score": 87
-  },
-  {
    "repo": "elvarofficial/teardown",
-   "stars": 1472,
-   "d24": 468,
+   "stars": 1482,
+   "d24": 469,
    "est": false,
-   "forks": 222,
+   "forks": 225,
    "contrib": null,
    "score": 86
   },
   {
    "repo": "paipiange/nvzhuang",
    "stars": 2093,
-   "d24": 399,
+   "d24": 397,
    "est": true,
    "forks": 538,
    "contrib": null,
    "score": 85
   },
   {
-   "repo": "haydenschmitty/floorplan",
-   "stars": 2368,
-   "d24": 338,
-   "est": true,
-   "forks": 173,
+   "repo": "caru-ini/stack-diagram",
+   "stars": 1380,
+   "d24": 340,
+   "est": false,
+   "forks": 59,
    "contrib": null,
-   "score": 81
+   "score": 91
   }
  ],
  "models": [
@@ -429,7 +420,7 @@
    "grow": 13,
    "score": 90,
    "cat": "LLMs",
-   "likes": 1311
+   "likes": 1317
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -437,10 +428,10 @@
    "lic": "Open source",
    "at": "2026-10-17T02:40:38.000Z",
    "dl": 187260,
-   "grow": null,
+   "grow": 6,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 4783
+   "likes": 4788
   },
   {
    "name": "idol",
@@ -451,7 +442,7 @@
    "grow": 38,
    "score": 88,
    "cat": "Vision",
-   "likes": 462
+   "likes": 466
   },
   {
    "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
@@ -484,7 +475,7 @@
    "at": "2026-10-29T17:08:44.000Z",
    "dl": 633,
    "grow": null,
-   "score": 85,
+   "score": 86,
    "cat": "Vision",
    "likes": 373
   }
@@ -870,17 +861,17 @@
    "kind": "News"
   },
   {
-   "t": "Salesforce plans to acquire Cresta, a provider of AI-powered contact center automation software; a source says Salesforce agreed to pay $2.7B for Cresta",
-   "url": "https://www.techmeme.com/261102/p48#a261102p48",
-   "at": "2026-11-03T01:20:01.000Z",
-   "src": "Techmeme",
+   "t": "Seoul shares open sharply lower on AI woes ahead of US midterm elections",
+   "url": "https://www.koreatimes.co.kr/economy/20261103/seoul-shares-open-sharply-lower-on-ai-woes-ahead-of-us-midterm-elections",
+   "at": "2026-11-03T00:24:03Z",
+   "src": "The Korea Times",
    "kind": "News"
   },
   {
-   "t": "AI-powered malware ‘highly likely’ to be used to hack UK infrastructure by 2028",
-   "url": "https://www.theguardian.com/technology/2026/nov/03/ai-powered-malware-artificial-intelligence-hacking-critical-uk-infrastructure",
-   "at": "2026-11-03T00:01:32Z",
-   "src": "The Guardian",
+   "t": "UK cyber chief says the UK will face AI cyberattacks on critical infrastructure by 2028",
+   "url": "https://wtop.com/world/2026/11/uk-cyber-chief-says-the-uk-will-face-ai-cyberattacks-on-critical-infrastructure-by-2028/",
+   "at": "2026-11-03T00:08:57Z",
+   "src": "WTOP",
    "kind": "News"
   }
  ],
@@ -890,8 +881,8 @@
    "t": "Astra can read and write weights to improve Qwen",
    "url": "https://news.ycombinator.com/item?id=50341174",
    "link": "https://rikiyat.github.io/blog/weight-space-programming/",
-   "up": 2749,
-   "com": 834,
+   "up": 2779,
+   "com": 848,
    "at": "2026-11-02T18:21:28.000Z"
   },
   {
@@ -899,8 +890,8 @@
    "t": "Revolut moves to self-hosted GLM",
    "url": "https://news.ycombinator.com/item?id=50350004",
    "link": "https://twitter.com/guilleflorvs/status/2117379073785696395",
-   "up": 103,
-   "com": 68,
+   "up": 123,
+   "com": 83,
    "at": "2026-11-03T09:53:59.000Z"
   },
   {
@@ -908,8 +899,8 @@
    "t": "Show HN: Subvocal – Talk to your computer without making noise",
    "url": "https://news.ycombinator.com/item?id=50340088",
    "link": "",
-   "up": 722,
-   "com": 345,
+   "up": 729,
+   "com": 347,
    "at": "2026-11-02T17:16:17.000Z"
   },
   {
@@ -917,8 +908,8 @@
    "t": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
    "url": "https://news.ycombinator.com/item?id=50341462",
    "link": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
-   "up": 545,
-   "com": 157,
+   "up": 547,
+   "com": 161,
    "at": "2026-11-02T18:39:38.000Z"
   },
   {
@@ -926,18 +917,18 @@
    "t": "DiscImageStudio: burn visible artwork onto CDs, DVDs and Blu-ray discs",
    "url": "https://news.ycombinator.com/item?id=50346849",
    "link": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
-   "up": 253,
-   "com": 51,
+   "up": 268,
+   "com": 54,
    "at": "2026-11-03T01:33:43.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "uBlock Origin filter to block autoplay videos in TechCrunch",
-   "url": "https://news.ycombinator.com/item?id=50349155",
-   "link": "https://cornfieldlabs.github.io/posts/ublock-stop-techcrunch-autoplay-video/post.html",
-   "up": 98,
-   "com": 31,
-   "at": "2026-11-03T07:36:47.000Z"
+   "t": "Nvidia – open-source auto-ontology",
+   "url": "https://news.ycombinator.com/item?id=50348962",
+   "link": "https://github.com/NVIDIA/auto-ontology",
+   "up": 132,
+   "com": 38,
+   "at": "2026-11-03T07:04:50.000Z"
   }
  ]
 }
