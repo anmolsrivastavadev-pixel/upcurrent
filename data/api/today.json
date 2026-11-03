@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-03T06:00:59.532Z"
+  "updated": "2026-11-03T06:30:50.498Z"
  },
  "pulse": {
   "trending": 86,
   "accelerating": 0,
   "newModels": 7,
-  "discussions": 49,
-  "stars": 10380
+  "discussions": 51,
+  "stars": 11113
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "Towards a More Autonomous Agent System",
    "meta": [
-    "★ 14,283",
-    "~5,006 in 24h",
+    "★ 14,410",
+    "~5,015 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-31T09:32:46Z",
@@ -41,8 +41,8 @@
    "grow": 19,
    "desc": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
    "meta": [
-    "★ 6,524",
-    "+1,407 in 24h",
+    "★ 6,559",
+    "+1,415 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-29T15:41:21Z",
@@ -58,8 +58,8 @@
    "grow": 15,
    "desc": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "meta": [
-    "★ 5,591",
-    "+982 in 24h",
+    "★ 5,621",
+    "+995 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-29T14:34:07Z",
@@ -75,8 +75,8 @@
    "grow": 15,
    "desc": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
    "meta": [
-    "★ 3,658",
-    "+636 in 24h",
+    "★ 3,669",
+    "+633 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-30T06:43:25Z",
@@ -92,8 +92,8 @@
    "grow": null,
    "desc": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
    "meta": [
-    "★ 1,288",
-    "~638 in 24h",
+    "★ 1,295",
+    "~635 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-01T05:35:12Z",
@@ -122,7 +122,7 @@
    "src": "hf",
    "cat": "Infrastructure",
    "score": 89,
-   "grow": 4,
+   "grow": null,
    "desc": "Model on Hugging Face · open source · ♥ 4.7K",
    "meta": [
     "177K downloads",
@@ -138,11 +138,11 @@
    "src": "gh",
    "cat": "Vision",
    "score": 88,
-   "grow": 4,
+   "grow": null,
    "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
    "meta": [
-    "★ 5,577",
-    "+256 in 24h",
+    "★ 5,589",
+    "~827 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-27T12:24:37Z",
@@ -156,7 +156,7 @@
    "cat": "Coding",
    "score": 87,
    "grow": 0,
-   "desc": "Model on Hugging Face · open weights · ♥ 695",
+   "desc": "Model on Hugging Face · open weights · ♥ 697",
    "meta": [
     "32K downloads",
     "Released 26 days ago"
@@ -172,7 +172,7 @@
    "cat": "Vision",
    "score": 87,
    "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 433",
+   "desc": "Vision on Hugging Face · open source · ♥ 434",
    "meta": [
     "7.8K downloads",
     "Released 6 days ago"
@@ -188,8 +188,8 @@
    "name": "dsh-superagent-prototype",
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "from": "GitHub",
-   "use": 5006,
-   "useLabel": "~5,006 stars/day",
+   "use": 5015,
+   "useLabel": "~5,015 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -303,35 +303,44 @@
  "github": [
   {
    "repo": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 14283,
-   "d24": 5006,
+   "stars": 14410,
+   "d24": 5015,
    "est": true,
-   "forks": 1525,
+   "forks": 1541,
    "contrib": 1,
    "score": 96
   },
   {
    "repo": "heydamir/unslop",
-   "stars": 6524,
-   "d24": 1407,
+   "stars": 6559,
+   "d24": 1415,
    "est": false,
-   "forks": 333,
+   "forks": 334,
    "contrib": 3,
    "score": 94
   },
   {
    "repo": "wangzan101/Mika",
-   "stars": 5591,
-   "d24": 982,
+   "stars": 5621,
+   "d24": 995,
    "est": false,
-   "forks": 1088,
+   "forks": 1094,
    "contrib": 40,
    "score": 93
   },
   {
+   "repo": "anhao/ai-pose-gallery-zh",
+   "stars": 5589,
+   "d24": 827,
+   "est": true,
+   "forks": 1421,
+   "contrib": 5,
+   "score": 88
+  },
+  {
    "repo": "modelflare-ai/AnyModelBot",
-   "stars": 1724,
-   "d24": 663,
+   "stars": 1777,
+   "d24": 720,
    "est": false,
    "forks": 18,
    "contrib": null,
@@ -339,8 +348,8 @@
   },
   {
    "repo": "caru-ini/stack-diagram",
-   "stars": 1288,
-   "d24": 638,
+   "stars": 1295,
+   "d24": 635,
    "est": true,
    "forks": 57,
    "contrib": null,
@@ -348,28 +357,19 @@
   },
   {
    "repo": "patch-gg/pixelfx",
-   "stars": 3658,
-   "d24": 636,
+   "stars": 3669,
+   "d24": 633,
    "est": false,
-   "forks": 497,
+   "forks": 499,
    "contrib": null,
    "score": 92
   },
   {
-   "repo": "haydenschmitty/floorplan",
-   "stars": 2305,
-   "d24": 385,
-   "est": false,
-   "forks": 167,
-   "contrib": null,
-   "score": 82
-  },
-  {
    "repo": "elvarofficial/teardown",
-   "stars": 1350,
-   "d24": 350,
-   "est": true,
-   "forks": 206,
+   "stars": 1354,
+   "d24": 429,
+   "est": false,
+   "forks": 208,
    "contrib": null,
    "score": 86
   }
@@ -385,7 +385,7 @@
    "grow": 0,
    "score": 90,
    "cat": "LLMs",
-   "likes": 1227
+   "likes": 1231
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -393,10 +393,10 @@
    "lic": "Open source",
    "at": "2026-10-17T02:40:38.000Z",
    "dl": 177009,
-   "grow": 4,
+   "grow": null,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 4741
+   "likes": 4744
   },
   {
    "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
@@ -408,7 +408,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Coding",
-   "likes": 695
+   "likes": 697
   },
   {
    "name": "idol",
@@ -419,7 +419,7 @@
    "grow": null,
    "score": 87,
    "cat": "Vision",
-   "likes": 433
+   "likes": 434
   },
   {
    "name": "Mistral-Large-4-1T-A52B",
@@ -431,7 +431,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 1507
+   "likes": 1508
   },
   {
    "name": "Unlimited-OCR-2",
@@ -728,6 +728,20 @@
  },
  "headlines": [
   {
+   "t": "Sources: Nvidia verbally told cloud compute clients to sell 51%+ of their services to non-Chinese companies, imposing new limits on China's access to AI chips",
+   "url": "https://www.techmeme.com/261103/p1#a261103p1",
+   "at": "2026-11-03T06:00:40.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "‘A serious failure’: CPS prosecutor cites imaginary case to high court after AI search",
+   "url": "https://www.theguardian.com/technology/2026/nov/03/a-serious-failure-cps-prosecutor-cites-imaginary-case-to-high-court-after-ai-search",
+   "at": "2026-11-03T06:00:40Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
    "t": "Google expands Dreambeans to India, its first market outside the US, offering AI-generated visual stories from users' digital activity in 13 local languages",
    "url": "https://www.techmeme.com/261102/p51#a261102p51",
    "at": "2026-11-03T04:35:00.000Z",
@@ -791,52 +805,38 @@
    "kind": "News"
   },
   {
-   "t": "OpenAI's Altman signs UAE energy, government deals amid Gulf funding push",
-   "url": "https://www.al-monitor.com/originals/2026/11/openais-altman-signs-uae-energy-government-deals-amid-gulf-funding-push",
-   "at": "2026-11-02T18:00:43Z",
-   "src": "Al-Monitor",
-   "kind": "News"
-  },
-  {
-   "t": "Russia kills 18 in strike on Ukraine aid centre as cyberattacks trigger fake nuclear threat alerts in both countries",
-   "url": "https://www.moneycontrol.com/news/india/russia-kills-18-in-strike-on-ukraine-aid-centre-as-cyberattacks-trigger-fake-nuclear-threat-alerts-in-both-countries-14066800.html",
-   "at": "2026-11-02T18:00:05Z",
-   "src": "Moneycontrol",
-   "kind": "News"
-  },
-  {
-   "t": "Rewarding defenders with bigger bug bounties",
-   "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
-   "at": "2026-11-02T18:00:00.000Z",
-   "src": "OpenAI",
-   "kind": "Lab blog"
-  },
-  {
-   "t": "Preparing our next security sprint to harden OpenAI",
-   "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
-   "at": "2026-11-02T18:00:00.000Z",
-   "src": "OpenAI",
-   "kind": "Lab blog"
-  },
-  {
-   "t": "\"AI must have Wisdom Quotient, not just IQ and EQ\": Experts at IIT Ropar event",
-   "url": "https://www.aninews.in/news/national/general-news/ai-must-have-wisdom-quotient-not-just-iq-and-eq-experts-at-iit-ropar-event20261102232015/",
-   "at": "2026-11-02T17:50:15Z",
-   "src": "ANI (Asian News International)",
-   "kind": "News"
-  },
-  {
-   "t": "Sam Altman's OpenAI Wants to Rename Data Centers \"Compute Campuses\" Ahead of Midterms",
-   "url": "https://www.breitbart.com/tech/2026/11/02/sam-altmans-openai-wants-to-rename-data-centers-compute-campuses-ahead-of-midterms/",
-   "at": "2026-11-02T17:45:14Z",
+   "t": "Anthropic says revenue surged 1,100 percent ahead of IPO",
+   "url": "https://www.breitbart.com/news/anthropic-says-revenue-surged-1100-percent-ahead-of-ipo-2/",
+   "at": "2026-11-02T18:30:30Z",
    "src": "Breitbart News Network",
    "kind": "News"
   },
   {
-   "t": "Anthropic says revenue surged 1,100 percent ahead of IPO",
-   "url": "https://www.bangkokpost.com/business/general/3347340/anthropic-says-revenue-surged-1100-percent-ahead-of-ipo",
-   "at": "2026-11-02T17:45:00Z",
-   "src": "Bangkok Post",
+   "t": "OpenAI says ChatGPT can help with daily admin tasks",
+   "url": "https://www.cp24.com/news/world/2026/11/02/openai-says-its-ai-is-getting-better-at-doing-things-humans-do-like-shopping-and-meal-planning/",
+   "at": "2026-11-02T18:27:41Z",
+   "src": "CP24 Toronto",
+   "kind": "News"
+  },
+  {
+   "t": "ChatGPT death lawsuit: Seattle woman dies after AI chatbot advised her to stop epilepsy medication",
+   "url": "https://www.naturalnews.com/2026-11-02-seattle-woman-dies-ai-chatbot-wrong-advice.html",
+   "at": "2026-11-02T18:06:07Z",
+   "src": "Natural News",
+   "kind": "News"
+  },
+  {
+   "t": "OpenAI will merge ChatGPT's chat and work tabs",
+   "url": "https://www.zdnet.com/innovation/openai-merge-chatgpt-chat-work-tabs/",
+   "at": "2026-11-02T18:01:55Z",
+   "src": "ZDNet",
+   "kind": "News"
+  },
+  {
+   "t": "OpenAI pitches data center power plants as a way to protect nearby areas",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
+   "at": "2026-11-02T18:01:30Z",
+   "src": "The Verge",
    "kind": "News"
   }
  ],
@@ -846,15 +846,15 @@
    "t": "Astra can read and write weights to improve Qwen",
    "url": "https://news.ycombinator.com/item?id=50341174",
    "link": "https://rikiyat.github.io/blog/weight-space-programming/",
-   "up": 2306,
-   "com": 730,
+   "up": 2348,
+   "com": 738,
    "at": "2026-11-02T18:21:28.000Z"
   },
   {
    "src": "Mastodon",
    "t": "Get AI agents the fuck off Fedi! They're an existential threat to small instances, and they're a primary contributor to moderator burnout. # FuckAI # IfYouSe…",
    "url": "https://lgbtqia.space/@alice/117549918931112699",
-   "up": 325,
+   "up": 352,
    "com": 9,
    "at": "2026-11-03T01:30:17.000Z"
   },
@@ -863,7 +863,7 @@
    "t": "Show HN: Subvocal – Talk to your computer without making noise",
    "url": "https://news.ycombinator.com/item?id=50340088",
    "link": "",
-   "up": 626,
+   "up": 634,
    "com": 324,
    "at": "2026-11-02T17:16:17.000Z"
   },
@@ -872,8 +872,8 @@
    "t": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
    "url": "https://news.ycombinator.com/item?id=50341462",
    "link": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
-   "up": 414,
-   "com": 118,
+   "up": 423,
+   "com": 124,
    "at": "2026-11-02T18:39:38.000Z"
   },
   {
@@ -881,8 +881,8 @@
    "t": "Intel stock collapse worsens as $3.5T chip rout spreads",
    "url": "https://news.ycombinator.com/item?id=50346153",
    "link": "https://finance.yahoo.com/markets/article/the-intel-stock-collapse-is-getting-worse--and-the-37-trillion-chip-rout-is-spreading-212154947.html",
-   "up": 169,
-   "com": 119,
+   "up": 179,
+   "com": 126,
    "at": "2026-11-03T00:08:53.000Z"
   },
   {
@@ -890,7 +890,7 @@
    "t": "DiscImageStudio: burn visible artwork onto CDs, DVDs and Blu-ray discs",
    "url": "https://news.ycombinator.com/item?id=50346849",
    "link": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
-   "up": 110,
+   "up": 119,
    "com": 26,
    "at": "2026-11-03T01:33:43.000Z"
   }
