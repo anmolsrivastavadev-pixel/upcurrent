@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-03T15:30:54.837Z"
+  "updated": "2026-11-03T16:01:03.051Z"
  },
  "pulse": {
-  "trending": 83,
+  "trending": 84,
   "accelerating": 1,
   "newModels": 8,
-  "discussions": 55,
-  "stars": 8226
+  "discussions": 67,
+  "stars": 8474
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 96,
-   "grow": 13,
+   "grow": 14,
    "desc": "Towards a More Autonomous Agent System",
    "meta": [
-    "★ 15,992",
-    "+4,298 in 24h",
+    "★ 16,075",
+    "+4,283 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-31T09:32:46Z",
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 93,
-   "grow": 6,
+   "grow": 7,
    "desc": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
    "meta": [
-    "★ 7,108",
-    "+1,436 in 24h",
+    "★ 7,141",
+    "+1,446 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-29T15:41:21Z",
@@ -58,8 +58,8 @@
    "grow": 4,
    "desc": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "meta": [
-    "★ 5,952",
-    "+765 in 24h",
+    "★ 5,967",
+    "+761 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-29T14:34:07Z",
@@ -75,8 +75,8 @@
    "grow": 6,
    "desc": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
    "meta": [
-    "★ 3,964",
-    "+785 in 24h",
+    "★ 3,976",
+    "+771 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-30T06:43:25Z",
@@ -92,8 +92,8 @@
    "grow": 12,
    "desc": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
    "meta": [
-    "★ 1,438",
-    "+379 in 24h",
+    "★ 1,444",
+    "+374 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-01T05:35:12Z",
@@ -106,7 +106,7 @@
    "src": "hf",
    "cat": "LLMs",
    "score": 90,
-   "grow": 13,
+   "grow": null,
    "desc": "Model on Hugging Face · open weights · ♥ 1.4K",
    "meta": [
     "48K downloads",
@@ -139,7 +139,7 @@
    "cat": "Vision",
    "score": 88,
    "grow": 38,
-   "desc": "Vision on Hugging Face · open source · ♥ 472",
+   "desc": "Vision on Hugging Face · open source · ♥ 475",
    "meta": [
     "11K downloads",
     "Released 6 days ago"
@@ -155,7 +155,7 @@
    "cat": "Coding",
    "score": 87,
    "grow": 20,
-   "desc": "Model on Hugging Face · open weights · ♥ 710",
+   "desc": "Model on Hugging Face · open weights · ♥ 713",
    "meta": [
     "39K downloads",
     "Released 27 days ago"
@@ -170,11 +170,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 86,
-   "grow": 23,
+   "grow": 24,
    "desc": "A Claude Code skill that turns any machine into a 3D simulator you can take apart",
    "meta": [
-    "★ 1,524",
-    "+443 in 24h",
+    "★ 1,532",
+    "+441 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-30T09:29:01Z",
@@ -185,33 +185,11 @@
  "breakouts": [],
  "hype": [
   {
-   "name": "Gemini 4",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
-    {
-     "src": "9to5google.com",
-     "t": "Gemini 4 Carbon lags just behind Claude in benchmark, but wins in value",
-     "url": "http://9to5google.com/2026/11/02/gemini-4-carbon-benchmark/"
-    },
-    {
-     "src": "YouTube",
-     "t": "HUGE CLAUDE MYTHOS 5.5 LEAK! Fable 5.5 INSANE, GPT-6.2 Astra, Gemini 4 Xenon & Carbon-H! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=L7opnQdpdMY"
-    }
-   ],
-   "buzz": 2,
-   "verdict": "Talk only, no public usage numbers"
-  },
-  {
    "name": "dsh-superagent-prototype",
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "from": "GitHub",
-   "use": 4298,
-   "useLabel": "+4,298 stars/day",
+   "use": 4283,
+   "useLabel": "+4,283 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -325,17 +303,17 @@
  "github": [
   {
    "repo": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 15992,
-   "d24": 4298,
+   "stars": 16075,
+   "d24": 4283,
    "est": false,
-   "forks": 1719,
+   "forks": 1736,
    "contrib": 1,
    "score": 96
   },
   {
    "repo": "heydamir/unslop",
-   "stars": 7108,
-   "d24": 1436,
+   "stars": 7141,
+   "d24": 1446,
    "est": false,
    "forks": 360,
    "contrib": 3,
@@ -343,44 +321,53 @@
   },
   {
    "repo": "patch-gg/pixelfx",
-   "stars": 3964,
-   "d24": 785,
+   "stars": 3976,
+   "d24": 771,
    "est": false,
-   "forks": 542,
+   "forks": 544,
    "contrib": null,
    "score": 91
   },
   {
    "repo": "wangzan101/Mika",
-   "stars": 5952,
-   "d24": 765,
+   "stars": 5967,
+   "d24": 761,
    "est": false,
-   "forks": 1156,
+   "forks": 1159,
    "contrib": 42,
    "score": 92
   },
   {
    "repo": "elvarofficial/teardown",
-   "stars": 1524,
-   "d24": 443,
+   "stars": 1532,
+   "d24": 441,
    "est": false,
-   "forks": 234,
+   "forks": 236,
    "contrib": null,
    "score": 86
   },
   {
    "repo": "caru-ini/stack-diagram",
-   "stars": 1438,
-   "d24": 379,
+   "stars": 1444,
+   "d24": 374,
    "est": false,
    "forks": 60,
    "contrib": null,
    "score": 90
   },
   {
+   "repo": "lexifina/global-law",
+   "stars": 1731,
+   "d24": 284,
+   "est": true,
+   "forks": 158,
+   "contrib": null,
+   "score": 80
+  },
+  {
    "repo": "paipiange/nvzhuang",
-   "stars": 2112,
-   "d24": 120,
+   "stars": 2113,
+   "d24": 114,
    "est": false,
    "forks": 542,
    "contrib": null,
@@ -395,10 +382,10 @@
    "lic": "Open weights",
    "at": "2026-10-23T21:35:42.000Z",
    "dl": 47817,
-   "grow": 13,
+   "grow": null,
    "score": 90,
    "cat": "LLMs",
-   "likes": 1362
+   "likes": 1367
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -409,7 +396,7 @@
    "grow": 6,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 4810
+   "likes": 4815
   },
   {
    "name": "idol",
@@ -420,7 +407,7 @@
    "grow": 38,
    "score": 88,
    "cat": "Vision",
-   "likes": 472
+   "likes": 475
   },
   {
    "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
@@ -432,7 +419,7 @@
    "grow": 20,
    "score": 87,
    "cat": "Coding",
-   "likes": 710
+   "likes": 713
   },
   {
    "name": "Mistral-Large-4-1T-A52B",
@@ -441,10 +428,10 @@
    "lic": "Open weights",
    "at": "2026-09-30T18:35:13.000Z",
    "dl": 6556,
-   "grow": 19,
+   "grow": null,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 1527
+   "likes": 1528
   },
   {
    "name": "Pika-H3-Flex",
@@ -455,7 +442,7 @@
    "grow": null,
    "score": 86,
    "cat": "Vision",
-   "likes": 379
+   "likes": 380
   }
  ],
  "free": [
@@ -741,6 +728,27 @@
  },
  "headlines": [
   {
+   "t": "Same Model, Different Harness: CUGA, Hermes, and Deep Agents — When to Pick CUGA?",
+   "url": "https://huggingface.co/blog/ibm-research/cuga-harness",
+   "at": "2026-11-03T15:57:39.000Z",
+   "src": "Hugging Face",
+   "kind": "Lab blog"
+  },
+  {
+   "t": "ChatGPT consumer product lead Adam Fry says ChatGPT has hit 1.2B WAUs, adding 200M over the past two months, and its search volume is ~20% of Google's",
+   "url": "https://www.techmeme.com/261103/p19#a261103p19",
+   "at": "2026-11-03T15:50:00.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Google plans to make it easier to restrict its AI tools for students early next year but says schools that block AI entirely will lose student access to Search",
+   "url": "https://www.techmeme.com/261103/p18#a261103p18",
+   "at": "2026-11-03T15:45:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "CrowdStrike agrees to buy Fiddler AI, which helps monitor AI agents, for ~$400M, and Dreadnode, an automated security AI testing tool, for ~$95M, mostly in cash",
    "url": "https://www.techmeme.com/261103/p17#a261103p17",
    "at": "2026-11-03T14:50:01.000Z",
@@ -783,20 +791,6 @@
    "kind": "News"
   },
   {
-   "t": "UK energy company Drax partners with Brookfield and neocloud Radiant to develop an AI data center in North Yorkshire, targeting 100MW of capacity by Q1 2028",
-   "url": "https://www.techmeme.com/261103/p4#a261103p4",
-   "at": "2026-11-03T10:10:07.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "How Alex Bores' Who Decides seeks to make AI safety a standard Democratic position, like being pro-choice, in 2028, as tech-funded rivals vie for influence",
-   "url": "https://www.techmeme.com/261103/p3#a261103p3",
-   "at": "2026-11-03T08:40:02.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Heimstaden is changing residential real estate management with AI",
    "url": "https://openai.com/index/heimstaden",
    "at": "2026-11-03T08:00:00.000Z",
@@ -818,6 +812,20 @@
    "kind": "News"
   },
   {
+   "t": "Linked Shares Retreat; Investors Cite Bubble Concerns – NaturalNews.com",
+   "url": "https://www.naturalnews.com/2026-11-03-us-stocks-fall-sharply-ai-shares-retreat.html",
+   "at": "2026-11-03T03:54:49Z",
+   "src": "Natural News",
+   "kind": "News"
+  },
+  {
+   "t": "UK cyber chief says the UK will face AI cyberattacks on critical infrastructure by 2028",
+   "url": "https://www.manilatimes.net/2026/11/03/world/americas-emea/uk-cyber-chief-says-the-uk-will-face-ai-cyberattacks-on-critical-infrastructure-by-2028/2460205",
+   "at": "2026-11-03T03:39:00Z",
+   "src": "The Manila Times",
+   "kind": "News"
+  },
+  {
    "t": "Anthropic revenue surges 1,127% to USD 17 billion in Q3, higher computing costs weigh on margins",
    "url": "https://www.tribuneindia.com/news/business/anthropic-revenue-surges-1127-to-usd-17-billion-in-q3-higher-computing-costs-weigh-on-margins/",
    "at": "2026-11-03T03:02:30Z",
@@ -830,27 +838,6 @@
    "at": "2026-11-03T03:00:05Z",
    "src": "The Korea Times",
    "kind": "News"
-  },
-  {
-   "t": "Adani Group to seek $1.5 billion for data center financing",
-   "url": "https://economictimes.indiatimes.com/industry/banking/finance/adani-group-to-seek-1-5-billion-for-data-center-financing/articleshow/135479693.cms",
-   "at": "2026-11-03T03:00:00Z",
-   "src": "The Economic Times",
-   "kind": "News"
-  },
-  {
-   "t": "Anthropic says revenue surged 1,100% ahead of IPO",
-   "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-says-revenue-surged-1100-ahead-of-ipo/articleshow/135479762.cms",
-   "at": "2026-11-03T02:54:33Z",
-   "src": "The Economic Times",
-   "kind": "News"
-  },
-  {
-   "t": "AI hallucinations explained: Why chatbots get facts wrong and how to verify answers",
-   "url": "https://timesofindia.indiatimes.com/technology/aiq/ai-hallucinations-explained-why-chatbots-get-facts-wrong-and-how-to-verify-answers/articleshow/135468818.cms",
-   "at": "2026-11-03T02:50:00Z",
-   "src": "Times of India",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -859,7 +846,7 @@
    "t": "Astra can read and write weights to improve Qwen",
    "url": "https://news.ycombinator.com/item?id=50341174",
    "link": "https://rikiyat.github.io/blog/weight-space-programming/",
-   "up": 2880,
+   "up": 2884,
    "com": 869,
    "at": "2026-11-02T18:21:28.000Z"
   },
@@ -868,18 +855,36 @@
    "t": "Just a little AI resistance, as a treat",
    "url": "https://news.ycombinator.com/item?id=50352257",
    "link": "https://shkspr.mobi/blog/2026/11/just-a-little-ai-resistance-as-a-treat/",
-   "up": 95,
-   "com": 59,
+   "up": 138,
+   "com": 82,
    "at": "2026-11-03T14:14:12.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "AI is destroying my CS degree",
+   "url": "https://news.ycombinator.com/item?id=50353300",
+   "link": "https://lordtoots.bearblog.dev/ai-is-destroying-my-cs-degree/",
+   "up": 38,
+   "com": 11,
+   "at": "2026-11-03T15:35:06.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Show HN: Subvocal – Talk to your computer without making noise",
    "url": "https://news.ycombinator.com/item?id=50340088",
    "link": "",
-   "up": 783,
-   "com": 363,
+   "up": 788,
+   "com": 364,
    "at": "2026-11-02T17:16:17.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "The AI Bubble Monitor",
+   "url": "https://news.ycombinator.com/item?id=50352727",
+   "link": "https://cepr.net/publications/ai-bubble-monitor/",
+   "up": 36,
+   "com": 24,
+   "at": "2026-11-03T14:51:31.000Z"
   },
   {
    "src": "Hacker News",
@@ -887,26 +892,8 @@
    "url": "https://news.ycombinator.com/item?id=50350004",
    "link": "https://twitter.com/guilleflorvs/status/2117379073785696395",
    "up": 168,
-   "com": 138,
+   "com": 142,
    "at": "2026-11-03T09:53:59.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
-   "url": "https://news.ycombinator.com/item?id=50341462",
-   "link": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
-   "up": 575,
-   "com": 174,
-   "at": "2026-11-02T18:39:38.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Nvidia – open-source auto-ontology",
-   "url": "https://news.ycombinator.com/item?id=50348962",
-   "link": "https://github.com/NVIDIA/auto-ontology",
-   "up": 217,
-   "com": 79,
-   "at": "2026-11-03T07:04:50.000Z"
   }
  ]
 }
