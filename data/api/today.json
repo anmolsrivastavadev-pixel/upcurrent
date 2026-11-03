@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-03T16:01:03.051Z"
+  "updated": "2026-11-03T16:30:56.611Z"
  },
  "pulse": {
   "trending": 84,
   "accelerating": 1,
   "newModels": 8,
-  "discussions": 67,
-  "stars": 8474
+  "discussions": 59,
+  "stars": 8420
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 14,
    "desc": "Towards a More Autonomous Agent System",
    "meta": [
-    "★ 16,075",
-    "+4,283 in 24h",
+    "★ 16,140",
+    "+4,233 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-31T09:32:46Z",
@@ -41,8 +41,8 @@
    "grow": 7,
    "desc": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
    "meta": [
-    "★ 7,141",
-    "+1,446 in 24h",
+    "★ 7,170",
+    "+1,443 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-29T15:41:21Z",
@@ -58,8 +58,8 @@
    "grow": 4,
    "desc": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "meta": [
-    "★ 5,967",
-    "+761 in 24h",
+    "★ 5,984",
+    "+765 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-29T14:34:07Z",
@@ -72,11 +72,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 91,
-   "grow": 6,
+   "grow": 7,
    "desc": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
    "meta": [
-    "★ 3,976",
-    "+771 in 24h",
+    "★ 3,993",
+    "+774 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-30T06:43:25Z",
@@ -89,11 +89,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 90,
-   "grow": 12,
+   "grow": 13,
    "desc": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
    "meta": [
-    "★ 1,444",
-    "+374 in 24h",
+    "★ 1,452",
+    "+375 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-01T05:35:12Z",
@@ -139,7 +139,7 @@
    "cat": "Vision",
    "score": 88,
    "grow": 38,
-   "desc": "Vision on Hugging Face · open source · ♥ 475",
+   "desc": "Vision on Hugging Face · open source · ♥ 479",
    "meta": [
     "11K downloads",
     "Released 6 days ago"
@@ -155,7 +155,7 @@
    "cat": "Coding",
    "score": 87,
    "grow": 20,
-   "desc": "Model on Hugging Face · open weights · ♥ 713",
+   "desc": "Model on Hugging Face · open weights · ♥ 715",
    "meta": [
     "39K downloads",
     "Released 27 days ago"
@@ -173,7 +173,7 @@
    "grow": 24,
    "desc": "A Claude Code skill that turns any machine into a 3D simulator you can take apart",
    "meta": [
-    "★ 1,532",
+    "★ 1,541",
     "+441 in 24h",
     "Created 4 days ago"
    ],
@@ -182,14 +182,38 @@
    "url": "https://github.com/elvarofficial/teardown"
   }
  ],
- "breakouts": [],
+ "breakouts": [
+  {
+   "key": "lifeval",
+   "label": "LifeVal",
+   "n": 3,
+   "sources": [
+    {
+     "src": "Product Hunt",
+     "t": "LifeVal",
+     "url": "https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
+    },
+    {
+     "src": "OpenAI blog",
+     "t": "LifeVal",
+     "url": "https://openai.com/index/lifeval"
+    },
+    {
+     "src": "Firstpost",
+     "t": "OpenAI introduces LifeVal benchmark to test how well AI handles everyday tasks",
+     "url": "https://www.firstpost.com/tech/openai-introduces-a-new-tool-to-test-how-well-ai-handles-everyday-tasks-here-is-how-it-works-14057310.html"
+    }
+   ],
+   "since": "2026-11-03T16:30:56.611Z"
+  }
+ ],
  "hype": [
   {
    "name": "dsh-superagent-prototype",
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "from": "GitHub",
-   "use": 4283,
-   "useLabel": "+4,283 stars/day",
+   "use": 4233,
+   "useLabel": "+4,233 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -303,17 +327,17 @@
  "github": [
   {
    "repo": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 16075,
-   "d24": 4283,
+   "stars": 16140,
+   "d24": 4233,
    "est": false,
-   "forks": 1736,
+   "forks": 1742,
    "contrib": 1,
    "score": 96
   },
   {
    "repo": "heydamir/unslop",
-   "stars": 7141,
-   "d24": 1446,
+   "stars": 7170,
+   "d24": 1443,
    "est": false,
    "forks": 360,
    "contrib": 3,
@@ -321,35 +345,35 @@
   },
   {
    "repo": "patch-gg/pixelfx",
-   "stars": 3976,
-   "d24": 771,
+   "stars": 3993,
+   "d24": 774,
    "est": false,
-   "forks": 544,
+   "forks": 546,
    "contrib": null,
    "score": 91
   },
   {
    "repo": "wangzan101/Mika",
-   "stars": 5967,
-   "d24": 761,
+   "stars": 5984,
+   "d24": 765,
    "est": false,
-   "forks": 1159,
+   "forks": 1163,
    "contrib": 42,
    "score": 92
   },
   {
    "repo": "elvarofficial/teardown",
-   "stars": 1532,
+   "stars": 1541,
    "d24": 441,
    "est": false,
-   "forks": 236,
+   "forks": 237,
    "contrib": null,
    "score": 86
   },
   {
    "repo": "caru-ini/stack-diagram",
-   "stars": 1444,
-   "d24": 374,
+   "stars": 1452,
+   "d24": 375,
    "est": false,
    "forks": 60,
    "contrib": null,
@@ -357,8 +381,8 @@
   },
   {
    "repo": "lexifina/global-law",
-   "stars": 1731,
-   "d24": 284,
+   "stars": 1732,
+   "d24": 283,
    "est": true,
    "forks": 158,
    "contrib": null,
@@ -367,9 +391,9 @@
   {
    "repo": "paipiange/nvzhuang",
    "stars": 2113,
-   "d24": 114,
+   "d24": 106,
    "est": false,
-   "forks": 542,
+   "forks": 543,
    "contrib": null,
    "score": 85
   }
@@ -385,7 +409,7 @@
    "grow": null,
    "score": 90,
    "cat": "LLMs",
-   "likes": 1367
+   "likes": 1372
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -396,7 +420,7 @@
    "grow": 6,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 4815
+   "likes": 4821
   },
   {
    "name": "idol",
@@ -407,7 +431,7 @@
    "grow": 38,
    "score": 88,
    "cat": "Vision",
-   "likes": 475
+   "likes": 479
   },
   {
    "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
@@ -419,7 +443,7 @@
    "grow": 20,
    "score": 87,
    "cat": "Coding",
-   "likes": 713
+   "likes": 715
   },
   {
    "name": "Mistral-Large-4-1T-A52B",
@@ -442,7 +466,7 @@
    "grow": null,
    "score": 86,
    "cat": "Vision",
-   "likes": 380
+   "likes": 382
   }
  ],
  "free": [
@@ -728,6 +752,13 @@
  },
  "headlines": [
   {
+   "t": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
+   "url": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs/",
+   "at": "2026-11-03T16:00:45.000Z",
+   "src": "NVIDIA",
+   "kind": "Lab blog"
+  },
+  {
    "t": "Same Model, Different Harness: CUGA, Hermes, and Deep Agents — When to Pick CUGA?",
    "url": "https://huggingface.co/blog/ibm-research/cuga-harness",
    "at": "2026-11-03T15:57:39.000Z",
@@ -735,7 +766,7 @@
    "kind": "Lab blog"
   },
   {
-   "t": "ChatGPT consumer product lead Adam Fry says ChatGPT has hit 1.2B WAUs, adding 200M over the past two months, and its search volume is ~20% of Google's",
+   "t": "ChatGPT Consumer Product Lead Adam Fry says ChatGPT has hit 1.2B WAUs, adding 200M over the past two months, and says its search volume is now ~20% of Google's",
    "url": "https://www.techmeme.com/261103/p19#a261103p19",
    "at": "2026-11-03T15:50:00.000Z",
    "src": "Techmeme",
@@ -812,31 +843,24 @@
    "kind": "News"
   },
   {
-   "t": "Linked Shares Retreat; Investors Cite Bubble Concerns – NaturalNews.com",
-   "url": "https://www.naturalnews.com/2026-11-03-us-stocks-fall-sharply-ai-shares-retreat.html",
-   "at": "2026-11-03T03:54:49Z",
-   "src": "Natural News",
+   "t": "OpenAI partners with security firms to strengthen AI-powered cyber defence",
+   "url": "https://www.devdiscourse.com/article/business/4001024-openai-partners-with-security-firms-to-strengthen-ai-powered-cyber-defence",
+   "at": "2026-11-03T04:30:50Z",
+   "src": "Devdiscourse",
    "kind": "News"
   },
   {
-   "t": "UK cyber chief says the UK will face AI cyberattacks on critical infrastructure by 2028",
-   "url": "https://www.manilatimes.net/2026/11/03/world/americas-emea/uk-cyber-chief-says-the-uk-will-face-ai-cyberattacks-on-critical-infrastructure-by-2028/2460205",
-   "at": "2026-11-03T03:39:00Z",
-   "src": "The Manila Times",
+   "t": "Why Personalization Matters for Digital Luxury Retail Buyers",
+   "url": "https://techbullion.com/why-personalization-matters-for-digital-luxury-retail-buyers/",
+   "at": "2026-11-03T04:30:07Z",
+   "src": "TechBullion",
    "kind": "News"
   },
   {
    "t": "Anthropic revenue surges 1,127% to USD 17 billion in Q3, higher computing costs weigh on margins",
-   "url": "https://www.tribuneindia.com/news/business/anthropic-revenue-surges-1127-to-usd-17-billion-in-q3-higher-computing-costs-weigh-on-margins/",
-   "at": "2026-11-03T03:02:30Z",
-   "src": "The Tribune",
-   "kind": "News"
-  },
-  {
-   "t": "Kwangwoon University sets sights on becoming AI, robotics powerhouse",
-   "url": "https://www.koreatimes.co.kr/southkorea/education/k-universities/campus/20261103/kwangwoon-university-sets-sights-on-becoming-ai-robotics-powerhouse",
-   "at": "2026-11-03T03:00:05Z",
-   "src": "The Korea Times",
+   "url": "https://www.devdiscourse.com/article/business/4001010-anthropic-revenue-surges-1127-to-usd-17-billion-in-q3-higher-computing-costs-weigh-on-margins",
+   "at": "2026-11-03T04:25:51Z",
+   "src": "Devdiscourse",
    "kind": "News"
   }
  ],
@@ -846,54 +870,54 @@
    "t": "Astra can read and write weights to improve Qwen",
    "url": "https://news.ycombinator.com/item?id=50341174",
    "link": "https://rikiyat.github.io/blog/weight-space-programming/",
-   "up": 2884,
-   "com": 869,
+   "up": 2887,
+   "com": 870,
    "at": "2026-11-02T18:21:28.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Just a little AI resistance, as a treat",
-   "url": "https://news.ycombinator.com/item?id=50352257",
-   "link": "https://shkspr.mobi/blog/2026/11/just-a-little-ai-resistance-as-a-treat/",
-   "up": 138,
-   "com": 82,
-   "at": "2026-11-03T14:14:12.000Z"
   },
   {
    "src": "Hacker News",
    "t": "AI is destroying my CS degree",
    "url": "https://news.ycombinator.com/item?id=50353300",
    "link": "https://lordtoots.bearblog.dev/ai-is-destroying-my-cs-degree/",
-   "up": 38,
-   "com": 11,
+   "up": 76,
+   "com": 43,
    "at": "2026-11-03T15:35:06.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Just a little AI resistance, as a treat",
+   "url": "https://news.ycombinator.com/item?id=50352257",
+   "link": "https://shkspr.mobi/blog/2026/11/just-a-little-ai-resistance-as-a-treat/",
+   "up": 146,
+   "com": 90,
+   "at": "2026-11-03T14:14:12.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Quili AI",
+   "url": "https://news.ycombinator.com/item?id=50353475",
+   "link": "https://www.quili.ai/",
+   "up": 59,
+   "com": 29,
+   "at": "2026-11-03T15:49:02.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Designing responsible AI for learning",
+   "url": "https://news.ycombinator.com/item?id=50353192",
+   "link": "https://blog.google/products-and-platforms/products/education/ai-learning-era-updates-2026/",
+   "up": 62,
+   "com": 34,
+   "at": "2026-11-03T15:25:47.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Show HN: Subvocal – Talk to your computer without making noise",
    "url": "https://news.ycombinator.com/item?id=50340088",
    "link": "",
-   "up": 788,
-   "com": 364,
+   "up": 789,
+   "com": 367,
    "at": "2026-11-02T17:16:17.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "The AI Bubble Monitor",
-   "url": "https://news.ycombinator.com/item?id=50352727",
-   "link": "https://cepr.net/publications/ai-bubble-monitor/",
-   "up": 36,
-   "com": 24,
-   "at": "2026-11-03T14:51:31.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Revolut moves to self-hosted GLM",
-   "url": "https://news.ycombinator.com/item?id=50350004",
-   "link": "https://twitter.com/guilleflorvs/status/2117379073785696395",
-   "up": 168,
-   "com": 142,
-   "at": "2026-11-03T09:53:59.000Z"
   }
  ]
 }
