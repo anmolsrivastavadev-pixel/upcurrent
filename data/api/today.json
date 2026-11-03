@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-03T18:31:07.806Z"
+  "updated": "2026-11-03T19:01:03.915Z"
  },
  "pulse": {
   "trending": 84,
   "accelerating": 1,
-  "newModels": 8,
-  "discussions": 56,
-  "stars": 7895
+  "newModels": 7,
+  "discussions": 53,
+  "stars": 7749
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 16,
    "desc": "Towards a More Autonomous Agent System",
    "meta": [
-    "★ 16,322",
-    "+3,928 in 24h",
+    "★ 16,360",
+    "+3,854 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-31T09:32:46Z",
@@ -41,8 +41,8 @@
    "grow": 9,
    "desc": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
    "meta": [
-    "★ 7,279",
-    "+1,415 in 24h",
+    "★ 7,303",
+    "+1,403 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-29T15:41:21Z",
@@ -58,8 +58,8 @@
    "grow": 5,
    "desc": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "meta": [
-    "★ 6,003",
-    "+657 in 24h",
+    "★ 6,008",
+    "+638 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-29T14:34:07Z",
@@ -75,9 +75,9 @@
    "grow": 8,
    "desc": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
    "meta": [
-    "★ 4,037",
-    "+725 in 24h",
-    "Created 4 days ago"
+    "★ 4,042",
+    "+702 in 24h",
+    "Created 5 days ago"
    ],
    "at": "2026-10-30T06:43:25Z",
    "breakout": null,
@@ -89,11 +89,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 90,
-   "grow": 14,
+   "grow": 15,
    "desc": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
    "meta": [
-    "★ 1,474",
-    "+357 in 24h",
+    "★ 1,479",
+    "+353 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-01T05:35:12Z",
@@ -123,7 +123,7 @@
    "cat": "Coding",
    "score": 89,
    "grow": null,
-   "desc": "Model on Hugging Face · open weights · ♥ 722",
+   "desc": "Model on Hugging Face · open weights · ♥ 723",
    "meta": [
     "39K downloads",
     "Released 27 days ago"
@@ -139,7 +139,7 @@
    "cat": "Vision",
    "score": 88,
    "grow": 38,
-   "desc": "Vision on Hugging Face · open source · ♥ 494",
+   "desc": "Vision on Hugging Face · open source · ♥ 495",
    "meta": [
     "11K downloads",
     "Released 6 days ago"
@@ -187,8 +187,8 @@
    "name": "dsh-superagent-prototype",
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "from": "GitHub",
-   "use": 3928,
-   "useLabel": "+3,928 stars/day",
+   "use": 3854,
+   "useLabel": "+3,854 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -218,6 +218,16 @@
   }
  ],
  "receipts": [
+  {
+   "name": "haydenschmitty/floorplan",
+   "url": "https://github.com/haydenschmitty/floorplan",
+   "kind": "stars",
+   "first": "2026-11-01T15:00:58.459Z",
+   "firstV": 1255,
+   "m": 2500,
+   "at": "2026-11-03T19:01:03.915Z",
+   "lead": 52.00151555555556
+  },
   {
    "name": "academa-labs/manimgx",
    "url": "https://github.com/academa-labs/manimgx",
@@ -287,41 +297,31 @@
    "m": 10000,
    "at": "2026-11-02T10:30:57.277Z",
    "lead": 113.00033777777777
-  },
-  {
-   "name": "Efficient-Large-Model/Open-H3-Regenerate-2K",
-   "url": "https://huggingface.co/Efficient-Large-Model/Open-H3-Regenerate-2K",
-   "kind": "downloads",
-   "first": "2026-10-29T20:30:51.560Z",
-   "firstV": 0,
-   "m": 100000,
-   "at": "2026-11-02T10:30:57.277Z",
-   "lead": 86.00158805555556
   }
  ],
  "github": [
   {
    "repo": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 16322,
-   "d24": 3928,
+   "stars": 16360,
+   "d24": 3854,
    "est": false,
-   "forks": 1763,
+   "forks": 1766,
    "contrib": 1,
    "score": 96
   },
   {
    "repo": "heydamir/unslop",
-   "stars": 7279,
-   "d24": 1415,
+   "stars": 7303,
+   "d24": 1403,
    "est": false,
-   "forks": 369,
+   "forks": 371,
    "contrib": 3,
    "score": 93
   },
   {
    "repo": "patch-gg/pixelfx",
-   "stars": 4037,
-   "d24": 725,
+   "stars": 4042,
+   "d24": 702,
    "est": false,
    "forks": 552,
    "contrib": null,
@@ -329,35 +329,35 @@
   },
   {
    "repo": "wangzan101/Mika",
-   "stars": 6003,
-   "d24": 657,
+   "stars": 6008,
+   "d24": 638,
    "est": false,
-   "forks": 1167,
+   "forks": 1169,
    "contrib": 42,
    "score": 92
   },
   {
    "repo": "elvarofficial/teardown",
-   "stars": 1578,
-   "d24": 441,
+   "stars": 1581,
+   "d24": 433,
    "est": false,
-   "forks": 241,
+   "forks": 243,
    "contrib": null,
    "score": 85
   },
   {
    "repo": "caru-ini/stack-diagram",
-   "stars": 1474,
-   "d24": 357,
+   "stars": 1479,
+   "d24": 353,
    "est": false,
-   "forks": 61,
+   "forks": 62,
    "contrib": null,
    "score": 90
   },
   {
    "repo": "lexifina/global-law",
    "stars": 1734,
-   "d24": 279,
+   "d24": 278,
    "est": true,
    "forks": 158,
    "contrib": null,
@@ -366,7 +366,7 @@
   {
    "repo": "paipiange/nvzhuang",
    "stars": 2117,
-   "d24": 93,
+   "d24": 88,
    "est": false,
    "forks": 543,
    "contrib": null,
@@ -384,7 +384,7 @@
    "grow": null,
    "score": 90,
    "cat": "LLMs",
-   "likes": 1381
+   "likes": 1383
   },
   {
    "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
@@ -396,7 +396,7 @@
    "grow": null,
    "score": 89,
    "cat": "Coding",
-   "likes": 722
+   "likes": 723
   },
   {
    "name": "idol",
@@ -407,7 +407,7 @@
    "grow": 38,
    "score": 88,
    "cat": "Vision",
-   "likes": 494
+   "likes": 495
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -418,7 +418,7 @@
    "grow": 6,
    "score": 87,
    "cat": "Infrastructure",
-   "likes": 4830
+   "likes": 4832
   },
   {
    "name": "Mistral-Large-4-1T-A52B",
@@ -430,7 +430,7 @@
    "grow": null,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 1532
+   "likes": 1533
   },
   {
    "name": "Pika-H3-Flex",
@@ -441,7 +441,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Vision",
-   "likes": 384
+   "likes": 385
   }
  ],
  "free": [
@@ -797,6 +797,13 @@
    "kind": "News"
   },
   {
+   "t": "NO AI BAILOUT⚫ अमेरिका का खेल खतम?⚫Good News For Indian Stock Market⚫Democrats Resolution against Ai",
+   "url": "https://www.youtube.com/watch?v=lHlWOp9EpdM",
+   "at": "2026-11-03T15:02:35Z",
+   "src": "Stock Market का Commando",
+   "kind": "Video"
+  },
+  {
    "t": "CrowdStrike agrees to buy Fiddler AI, which helps monitor AI agents, for ~$400M, and Dreadnode, an automated security AI testing tool, for ~$95M, mostly in cash",
    "url": "https://www.techmeme.com/261103/p17#a261103p17",
    "at": "2026-11-03T14:50:01.000Z",
@@ -811,6 +818,13 @@
    "kind": "News"
   },
   {
+   "t": "Accelerating engineering for the physical world",
+   "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+   "at": "2026-11-03T12:00:00.000Z",
+   "src": "OpenAI",
+   "kind": "Lab blog"
+  },
+  {
    "t": "UK’s most polluting power plant could power country’s largest AI datacentre",
    "url": "https://www.theguardian.com/business/2026/nov/03/uk-drax-power-station-ai-datacentre",
    "at": "2026-11-03T11:55:28Z",
@@ -818,25 +832,11 @@
    "kind": "News"
   },
   {
-   "t": "Heimstaden is changing residential real estate management with AI",
-   "url": "https://openai.com/index/heimstaden",
-   "at": "2026-11-03T08:00:00.000Z",
-   "src": "OpenAI",
-   "kind": "Lab blog"
-  },
-  {
-   "t": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
-   "url": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications/",
-   "at": "2026-11-03T07:00:12.000Z",
-   "src": "NVIDIA",
-   "kind": "Lab blog"
-  },
-  {
-   "t": "founder Vinay Singh departs from company after a decade",
-   "url": "https://www.cnbctv18.com/business/fireside-ventures-co-founder-vinay-singh-departs-from-company-after-a-decade-long-stint-20025707.htm",
-   "at": "2026-11-03T06:24:02Z",
-   "src": "CNBC TV18",
-   "kind": "News"
+   "t": "Anthropic's RSI Breakthrough?! NEW Fable 5.5 Checkpoint, NEW GPT, DeepSeek Harness, & More! AI NEWS",
+   "url": "https://www.youtube.com/watch?v=i-wYjUriSzo",
+   "at": "2026-11-03T08:12:32Z",
+   "src": "WorldofAI",
+   "kind": "Video"
   }
  ],
  "discussions": [
@@ -845,8 +845,8 @@
    "t": "Postman silently auto-installs AI plugins and attempts to share all API data",
    "url": "https://news.ycombinator.com/item?id=50354960",
    "link": "https://github.com/postmanlabs/postman-app-support/issues/14370",
-   "up": 289,
-   "com": 94,
+   "up": 420,
+   "com": 130,
    "at": "2026-11-03T17:22:37.000Z"
   },
   {
@@ -854,8 +854,8 @@
    "t": "Google will turn off search for schools that reject AI",
    "url": "https://news.ycombinator.com/item?id=50353192",
    "link": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html",
-   "up": 267,
-   "com": 222,
+   "up": 306,
+   "com": 258,
    "at": "2026-11-03T15:25:47.000Z"
   },
   {
@@ -863,8 +863,8 @@
    "t": "OpenAI seems to be silently re-enabling model training on Codex chats",
    "url": "https://news.ycombinator.com/item?id=50352757",
    "link": "",
-   "up": 201,
-   "com": 66,
+   "up": 243,
+   "com": 75,
    "at": "2026-11-03T14:53:41.000Z"
   },
   {
@@ -872,8 +872,8 @@
    "t": "Google researchers demand freedom to tell the world what they know about AI",
    "url": "https://news.ycombinator.com/item?id=50355504",
    "link": "https://www.washingtonpost.com/technology/2026/11/03/google-deepmind-staff-protest-lifetime-ban-criticizing-company/",
-   "up": 40,
-   "com": 24,
+   "up": 61,
+   "com": 59,
    "at": "2026-11-03T17:55:26.000Z"
   },
   {
@@ -881,7 +881,7 @@
    "t": "Just a little AI resistance, as a treat",
    "url": "https://news.ycombinator.com/item?id=50352257",
    "link": "https://shkspr.mobi/blog/2026/11/just-a-little-ai-resistance-as-a-treat/",
-   "up": 163,
+   "up": 164,
    "com": 102,
    "at": "2026-11-03T14:14:12.000Z"
   },
@@ -890,8 +890,8 @@
    "t": "Gitbook Breached",
    "url": "https://news.ycombinator.com/item?id=50354336",
    "link": "",
-   "up": 60,
-   "com": 17,
+   "up": 76,
+   "com": 19,
    "at": "2026-11-03T16:45:49.000Z"
   }
  ]
