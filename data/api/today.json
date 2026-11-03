@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-03T10:02:50.809Z"
+  "updated": "2026-11-03T10:30:52.488Z"
  },
  "pulse": {
   "trending": 85,
   "accelerating": 0,
   "newModels": 8,
-  "discussions": 53,
-  "stars": 11242
+  "discussions": 56,
+  "stars": 11218
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "Towards a More Autonomous Agent System",
    "meta": [
-    "★ 15,227",
-    "~5,041 in 24h",
+    "★ 15,299",
+    "~5,032 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-10-31T09:32:46Z",
@@ -41,8 +41,8 @@
    "grow": null,
    "desc": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
    "meta": [
-    "★ 6,781",
-    "~1,423 in 24h",
+    "★ 6,802",
+    "~1,422 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-29T15:41:21Z",
@@ -58,8 +58,8 @@
    "grow": null,
    "desc": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "meta": [
-    "★ 5,804",
-    "~1,206 in 24h",
+    "★ 5,815",
+    "~1,204 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-29T14:34:07Z",
@@ -75,7 +75,7 @@
    "grow": null,
    "desc": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
    "meta": [
-    "★ 3,782",
+    "★ 3,799",
     "~914 in 24h",
     "Created 4 days ago"
    ],
@@ -92,8 +92,8 @@
    "grow": null,
    "desc": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
    "meta": [
-    "★ 1,348",
-    "~617 in 24h",
+    "★ 1,353",
+    "~614 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-01T05:35:12Z",
@@ -141,8 +141,8 @@
    "grow": null,
    "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
    "meta": [
-    "★ 5,699",
-    "~826 in 24h",
+    "★ 5,705",
+    "~824 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-27T12:24:37Z",
@@ -156,7 +156,7 @@
    "cat": "Vision",
    "score": 88,
    "grow": 38,
-   "desc": "Vision on Hugging Face · open source · ♥ 455",
+   "desc": "Vision on Hugging Face · open source · ♥ 456",
    "meta": [
     "11K downloads",
     "Released 6 days ago"
@@ -172,7 +172,7 @@
    "cat": "Coding",
    "score": 87,
    "grow": 20,
-   "desc": "Model on Hugging Face · open weights · ♥ 704",
+   "desc": "Model on Hugging Face · open weights · ♥ 705",
    "meta": [
     "39K downloads",
     "Released 26 days ago"
@@ -182,14 +182,38 @@
    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B"
   }
  ],
- "breakouts": [],
+ "breakouts": [
+  {
+   "key": "prism",
+   "label": "Prism",
+   "n": 3,
+   "sources": [
+    {
+     "src": "Product Hunt",
+     "t": "Prism",
+     "url": "https://www.producthunt.com/products/prism-40?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
+    },
+    {
+     "src": "The Times of India",
+     "t": "Oyo parent PRISM clocks PAT of Rs 353 crore in Q1, up 17% YoY, revenue jumps 35%",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/oyo-parent-prism-clocks-pat-of-rs-353-crore-in-q1-up-17-yoy-revenue-jumps-35/articleshow/135454425.cms"
+    },
+    {
+     "src": "Hugging Face",
+     "t": "OliviaRossi/Minimax-h3_Singularity-x-10Eros-Max_PRISM",
+     "url": "https://huggingface.co/OliviaRossi/Minimax-h3_Singularity-x-10Eros-Max_PRISM"
+    }
+   ],
+   "since": "2026-11-03T10:30:52.488Z"
+  }
+ ],
  "hype": [
   {
    "name": "dsh-superagent-prototype",
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "from": "GitHub",
-   "use": 5041,
-   "useLabel": "~5,041 stars/day",
+   "use": 5032,
+   "useLabel": "~5,032 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -303,62 +327,62 @@
  "github": [
   {
    "repo": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 15227,
-   "d24": 5041,
+   "stars": 15299,
+   "d24": 5032,
    "est": true,
-   "forks": 1626,
+   "forks": 1635,
    "contrib": 1,
    "score": 96
   },
   {
    "repo": "heydamir/unslop",
-   "stars": 6781,
-   "d24": 1423,
+   "stars": 6802,
+   "d24": 1422,
    "est": true,
-   "forks": 343,
+   "forks": 346,
    "contrib": 3,
    "score": 93
   },
   {
    "repo": "wangzan101/Mika",
-   "stars": 5804,
-   "d24": 1206,
+   "stars": 5815,
+   "d24": 1204,
    "est": true,
-   "forks": 1127,
-   "contrib": 40,
+   "forks": 1130,
+   "contrib": 42,
    "score": 93
   },
   {
    "repo": "patch-gg/pixelfx",
-   "stars": 3782,
+   "stars": 3799,
    "d24": 914,
    "est": true,
-   "forks": 518,
+   "forks": 521,
    "contrib": null,
    "score": 91
   },
   {
    "repo": "anhao/ai-pose-gallery-zh",
-   "stars": 5699,
-   "d24": 826,
+   "stars": 5705,
+   "d24": 824,
    "est": true,
-   "forks": 1450,
+   "forks": 1452,
    "contrib": 5,
    "score": 88
   },
   {
    "repo": "caru-ini/stack-diagram",
-   "stars": 1348,
-   "d24": 617,
+   "stars": 1353,
+   "d24": 614,
    "est": true,
-   "forks": 58,
+   "forks": 59,
    "contrib": null,
    "score": 91
   },
   {
    "repo": "elvarofficial/teardown",
-   "stars": 1435,
-   "d24": 471,
+   "stars": 1442,
+   "d24": 466,
    "est": false,
    "forks": 217,
    "contrib": null,
@@ -366,10 +390,10 @@
   },
   {
    "repo": "paipiange/nvzhuang",
-   "stars": 2085,
-   "d24": 404,
+   "stars": 2088,
+   "d24": 403,
    "est": true,
-   "forks": 535,
+   "forks": 536,
    "contrib": null,
    "score": 85
   }
@@ -385,7 +409,7 @@
    "grow": 13,
    "score": 90,
    "cat": "LLMs",
-   "likes": 1274
+   "likes": 1280
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -396,7 +420,7 @@
    "grow": null,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 4767
+   "likes": 4771
   },
   {
    "name": "idol",
@@ -407,7 +431,7 @@
    "grow": 38,
    "score": 88,
    "cat": "Vision",
-   "likes": 455
+   "likes": 456
   },
   {
    "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
@@ -419,7 +443,7 @@
    "grow": 20,
    "score": 87,
    "cat": "Coding",
-   "likes": 704
+   "likes": 705
   },
   {
    "name": "Mistral-Large-4-1T-A52B",
@@ -431,7 +455,7 @@
    "grow": 19,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 1516
+   "likes": 1517
   },
   {
    "name": "Pika-H3-Flex",
@@ -728,11 +752,25 @@
  },
  "headlines": [
   {
+   "t": "UK energy company Drax partners with Brookfield and neocloud Radiant to develop an AI data center in North Yorkshire, targeting 100MW of capacity by Q1 2028",
+   "url": "https://www.techmeme.com/261103/p4#a261103p4",
+   "at": "2026-11-03T10:10:07.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "How Alex Bores' Who Decides seeks to make AI safety a standard Democratic position, like being pro-choice, in 2028, as tech-funded rivals vie for influence",
    "url": "https://www.techmeme.com/261103/p3#a261103p3",
    "at": "2026-11-03T08:40:02.000Z",
    "src": "Techmeme",
    "kind": "News"
+  },
+  {
+   "t": "Heimstaden is changing residential real estate management with AI",
+   "url": "https://openai.com/index/heimstaden",
+   "at": "2026-11-03T08:00:00.000Z",
+   "src": "OpenAI",
+   "kind": "Lab blog"
   },
   {
    "t": "OpenAI partners with Cathedral to test its security defenses and revamps its Security Bug Bounty program, including quadrupling rewards for critical findings",
@@ -824,20 +862,6 @@
    "at": "2026-11-02T23:00:31Z",
    "src": "The Guardian",
    "kind": "News"
-  },
-  {
-   "t": "Sources: institutional investors told Anthropic that its IPO valuation should be ~$1.5T to $1.6T, down from estimates of $2T, citing the tech stock selloff",
-   "url": "https://www.techmeme.com/261102/p42#a261102p42",
-   "at": "2026-11-02T22:10:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI CEO Sam Altman questions why people keep so much RAM in their computers; but what happens when the internet goes down?",
-   "url": "https://economictimes.indiatimes.com/world/business/openai-ceo-sam-altman-questions-why-people-keep-so-much-ram-in-their-computers-but-what-happens-when-the-internet-goes-down/articleshow/135474208.cms",
-   "at": "2026-11-02T21:18:00Z",
-   "src": "The Economic Times",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -846,8 +870,8 @@
    "t": "Astra can read and write weights to improve Qwen",
    "url": "https://news.ycombinator.com/item?id=50341174",
    "link": "https://rikiyat.github.io/blog/weight-space-programming/",
-   "up": 2626,
-   "com": 799,
+   "up": 2658,
+   "com": 809,
    "at": "2026-11-02T18:21:28.000Z"
   },
   {
@@ -855,34 +879,34 @@
    "t": "Show HN: Subvocal – Talk to your computer without making noise",
    "url": "https://news.ycombinator.com/item?id=50340088",
    "link": "",
-   "up": 696,
-   "com": 340,
+   "up": 701,
+   "com": 341,
    "at": "2026-11-02T17:16:17.000Z"
-  },
-  {
-   "src": "Mastodon",
-   "t": "Can I make it anymore obvious? # unix_surrealism # computer # ai # neverslop # chatgpt # claude # mastoart # fediart # generativeai # comic # art # programming",
-   "url": "https://merveilles.town/@prahou/117551539500354736",
-   "up": 57,
-   "com": 3,
-   "at": "2026-11-03T08:22:25.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
    "url": "https://news.ycombinator.com/item?id=50341462",
    "link": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
-   "up": 479,
-   "com": 137,
+   "up": 518,
+   "com": 149,
    "at": "2026-11-02T18:39:38.000Z"
+  },
+  {
+   "src": "Mastodon",
+   "t": "Can I make it anymore obvious? # unix_surrealism # computer # ai # neverslop # chatgpt # claude # mastoart # fediart # generativeai # comic # art # programming",
+   "url": "https://merveilles.town/@prahou/117551539500354736",
+   "up": 65,
+   "com": 3,
+   "at": "2026-11-03T08:22:25.000Z"
   },
   {
    "src": "Hacker News",
    "t": "uBlock Origin filter to block autoplay videos in TechCrunch",
    "url": "https://news.ycombinator.com/item?id=50349155",
    "link": "https://cornfieldlabs.github.io/posts/ublock-stop-techcrunch-autoplay-video/post.html",
-   "up": 72,
-   "com": 21,
+   "up": 81,
+   "com": 22,
    "at": "2026-11-03T07:36:47.000Z"
   },
   {
@@ -890,7 +914,7 @@
    "t": "DiscImageStudio: burn visible artwork onto CDs, DVDs and Blu-ray discs",
    "url": "https://news.ycombinator.com/item?id=50346849",
    "link": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
-   "up": 205,
+   "up": 212,
    "com": 47,
    "at": "2026-11-03T01:33:43.000Z"
   }
