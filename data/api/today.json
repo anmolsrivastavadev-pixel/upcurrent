@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-04T08:30:50.766Z"
+  "updated": "2026-11-04T09:01:04.860Z"
  },
  "pulse": {
   "trending": 85,
   "accelerating": 0,
   "newModels": 7,
   "discussions": 50,
-  "stars": 9756
+  "stars": 9803
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
    "meta": [
-    "★ 1,577",
-    "~1,546 in 24h",
+    "★ 1,650",
+    "~1,585 in 24h",
     "Created yesterday"
    ],
    "at": "2026-11-03T08:02:11Z",
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 95,
-   "grow": 6,
+   "grow": 7,
    "desc": "Towards a More Autonomous Agent System",
    "meta": [
-    "★ 17,811",
-    "+3,355 in 24h",
+    "★ 17,888",
+    "+3,375 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-31T09:32:46Z",
@@ -58,7 +58,7 @@
    "grow": null,
    "desc": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
    "meta": [
-    "★ 7,822",
+    "★ 7,850",
     "~1,372 in 24h",
     "Created 6 days ago"
    ],
@@ -75,8 +75,8 @@
    "grow": null,
    "desc": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "meta": [
-    "★ 6,245",
-    "~1,087 in 24h",
+    "★ 6,264",
+    "~1,086 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-29T14:34:07Z",
@@ -84,11 +84,44 @@
    "url": "https://github.com/wangzan101/Mika"
   },
   {
+   "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+   "owner": "nvidia",
+   "src": "hf",
+   "cat": "Coding",
+   "score": 90,
+   "grow": 0,
+   "desc": "Model on Hugging Face · open weights · ♥ 748",
+   "meta": [
+    "39K downloads",
+    "Released 27 days ago"
+   ],
+   "at": "2026-10-07T22:50:21.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B"
+  },
+  {
+   "name": "pixelfx",
+   "owner": "patch-gg",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 89,
+   "grow": null,
+   "desc": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
+   "meta": [
+    "★ 4,376",
+    "~859 in 24h",
+    "Created 5 days ago"
+   ],
+   "at": "2026-10-30T06:43:25Z",
+   "breakout": null,
+   "url": "https://github.com/patch-gg/pixelfx"
+  },
+  {
    "name": "LFM3-1.7B",
    "owner": "LiquidAI",
    "src": "hf",
    "cat": "LLMs",
-   "score": 90,
+   "score": 89,
    "grow": 0,
    "desc": "Model on Hugging Face · open weights · ♥ 1.4K",
    "meta": [
@@ -100,49 +133,16 @@
    "url": "https://huggingface.co/LiquidAI/LFM3-1.7B"
   },
   {
-   "name": "pixelfx",
-   "owner": "patch-gg",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 89,
-   "grow": null,
-   "desc": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
-   "meta": [
-    "★ 4,345",
-    "~856 in 24h",
-    "Created 5 days ago"
-   ],
-   "at": "2026-10-30T06:43:25Z",
-   "breakout": null,
-   "url": "https://github.com/patch-gg/pixelfx"
-  },
-  {
-   "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
-   "owner": "nvidia",
-   "src": "hf",
-   "cat": "Coding",
-   "score": 89,
-   "grow": 0,
-   "desc": "Model on Hugging Face · open weights · ♥ 746",
-   "meta": [
-    "39K downloads",
-    "Released 27 days ago"
-   ],
-   "at": "2026-10-07T22:50:21.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B"
-  },
-  {
    "name": "stack-diagram",
    "owner": "caru-ini",
    "src": "gh",
    "cat": "Agents",
    "score": 88,
-   "grow": 6,
+   "grow": 7,
    "desc": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
    "meta": [
-    "★ 1,657",
-    "+369 in 24h",
+    "★ 1,661",
+    "+357 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-01T05:35:12Z",
@@ -158,8 +158,8 @@
    "grow": null,
    "desc": "Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion",
    "meta": [
-    "★ 1,327",
-    "~427 in 24h",
+    "★ 1,334",
+    "~426 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-01T05:50:38Z",
@@ -172,8 +172,8 @@
    "src": "hf",
    "cat": "Infrastructure",
    "score": 87,
-   "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 4.9K",
+   "grow": 0,
+   "desc": "Model on Hugging Face · open source · ♥ 5.2K",
    "meta": [
     "187K downloads",
     "Released 18 days ago"
@@ -189,8 +189,8 @@
    "name": "dsh-superagent-prototype",
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "from": "GitHub",
-   "use": 3355,
-   "useLabel": "+3,355 stars/day",
+   "use": 3375,
+   "useLabel": "+3,375 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -304,25 +304,25 @@
  "github": [
   {
    "repo": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 17811,
-   "d24": 3355,
+   "stars": 17888,
+   "d24": 3375,
    "est": false,
-   "forks": 1926,
+   "forks": 1932,
    "contrib": 1,
    "score": 95
   },
   {
    "repo": "KKKKhazix/agent-autoloop",
-   "stars": 1577,
-   "d24": 1546,
+   "stars": 1650,
+   "d24": 1585,
    "est": true,
-   "forks": 319,
+   "forks": 330,
    "contrib": null,
    "score": 97
   },
   {
    "repo": "heydamir/unslop",
-   "stars": 7822,
+   "stars": 7850,
    "d24": 1372,
    "est": true,
    "forks": 392,
@@ -331,35 +331,35 @@
   },
   {
    "repo": "wangzan101/Mika",
-   "stars": 6245,
-   "d24": 1087,
+   "stars": 6264,
+   "d24": 1086,
    "est": true,
-   "forks": 1218,
+   "forks": 1225,
    "contrib": 42,
    "score": 91
   },
   {
    "repo": "patch-gg/pixelfx",
-   "stars": 4345,
-   "d24": 856,
+   "stars": 4376,
+   "d24": 859,
    "est": true,
-   "forks": 584,
+   "forks": 588,
    "contrib": null,
    "score": 89
   },
   {
    "repo": "mromidev/claude-animated-shorts",
-   "stars": 1327,
-   "d24": 427,
+   "stars": 1334,
+   "d24": 426,
    "est": true,
-   "forks": 306,
+   "forks": 309,
    "contrib": null,
    "score": 87
   },
   {
    "repo": "caru-ini/stack-diagram",
-   "stars": 1657,
-   "d24": 369,
+   "stars": 1661,
+   "d24": 357,
    "est": false,
    "forks": 72,
    "contrib": null,
@@ -367,7 +367,7 @@
   },
   {
    "repo": "paipiange/nvzhuang",
-   "stars": 2153,
+   "stars": 2158,
    "d24": 353,
    "est": true,
    "forks": 551,
@@ -377,18 +377,6 @@
  ],
  "models": [
   {
-   "name": "LFM3-1.7B",
-   "org": "LiquidAI",
-   "size": "1.7B",
-   "lic": "Open weights",
-   "at": "2026-10-23T21:35:42.000Z",
-   "dl": 47817,
-   "grow": 0,
-   "score": 90,
-   "cat": "LLMs",
-   "likes": 1431
-  },
-  {
    "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
    "org": "nvidia",
    "size": "30B",
@@ -396,9 +384,21 @@
    "at": "2026-10-07T22:50:21.000Z",
    "dl": 38942,
    "grow": 0,
-   "score": 89,
+   "score": 90,
    "cat": "Coding",
-   "likes": 746
+   "likes": 748
+  },
+  {
+   "name": "LFM3-1.7B",
+   "org": "LiquidAI",
+   "size": "1.7B",
+   "lic": "Open weights",
+   "at": "2026-10-23T21:35:42.000Z",
+   "dl": 47817,
+   "grow": 0,
+   "score": 89,
+   "cat": "LLMs",
+   "likes": 1437
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -406,10 +406,10 @@
    "lic": "Open source",
    "at": "2026-10-17T02:40:38.000Z",
    "dl": 187260,
-   "grow": null,
+   "grow": 0,
    "score": 87,
    "cat": "Infrastructure",
-   "likes": 4925
+   "likes": 5160
   },
   {
    "name": "idol",
@@ -420,7 +420,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Vision",
-   "likes": 537
+   "likes": 542
   },
   {
    "name": "Pika-H3-Flex",
@@ -443,7 +443,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 1559
+   "likes": 1560
   }
  ],
  "free": [
@@ -849,24 +849,24 @@
    "kind": "News"
   },
   {
-   "t": "Google says there’s no way to use Search without using artificial intelligence",
-   "url": "https://www.theguardian.com/technology/2026/nov/03/google-search-artificial-intelligence",
-   "at": "2026-11-03T20:30:06Z",
-   "src": "The Guardian",
+   "t": "OpenAI's 'celebrity whisperer' reveals his masterplan for turning Sam Altman into Hollywood's new best friend",
+   "url": "https://pagesix.com/2026/11/03/celebrity-news/openais-celebrity-whisperer-reveals-his-masterplan-for-turning-sam-altman-into-hollywoods-new-best-friend/",
+   "at": "2026-11-03T20:58:41Z",
+   "src": "Page Six",
    "kind": "News"
   },
   {
-   "t": "Morocco, UAE Should Make Partnership Opportunities Visible to Smaller Firms",
-   "url": "https://www.europesays.com/3350832/",
-   "at": "2026-11-03T20:11:26Z",
-   "src": "EUROPE SAYS",
+   "t": "ChatGPT hits 20% of Google Search volume, OpenAI says",
+   "url": "https://9to5google.com/2026/11/03/chatgpt-has-hit-roughly-20-of-google-search-volume-openai-says/",
+   "at": "2026-11-03T20:55:00Z",
+   "src": "9to5Google",
    "kind": "News"
   },
   {
-   "t": "Google will cut off search access for students at schools that reject AI",
-   "url": "https://triblive.com/news/world/google-will-cut-off-search-access-for-students-at-schools-that-reject-ai/",
-   "at": "2026-11-03T20:08:24Z",
-   "src": "Pittsburgh Tribune-Review",
+   "t": "Former Trump Army secretary lands new job at tech company",
+   "url": "https://www.foxbusiness.com/politics/ex-army-secretary-dan-driscoll-lands-national-security-role-artificial-intelligence-powerhouse-openai",
+   "at": "2026-11-03T20:52:36Z",
+   "src": "Fox Business",
    "kind": "News"
   }
  ],
@@ -876,8 +876,8 @@
    "t": "Postman silently auto-installs AI plugins and attempts to share all API data",
    "url": "https://news.ycombinator.com/item?id=50354960",
    "link": "https://github.com/postmanlabs/postman-app-support/issues/14370",
-   "up": 1228,
-   "com": 400,
+   "up": 1251,
+   "com": 414,
    "at": "2026-11-03T17:22:37.000Z"
   },
   {
@@ -885,8 +885,8 @@
    "t": "Jelly Sheet",
    "url": "https://news.ycombinator.com/item?id=50361268",
    "link": "https://mrdoob.github.io/codevember-2026/01/",
-   "up": 186,
-   "com": 42,
+   "up": 220,
+   "com": 53,
    "at": "2026-11-04T03:40:50.000Z"
   },
   {
@@ -894,8 +894,8 @@
    "t": "Google will turn off search for schools that reject AI",
    "url": "https://news.ycombinator.com/item?id=50353192",
    "link": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html",
-   "up": 608,
-   "com": 429,
+   "up": 611,
+   "com": 430,
    "at": "2026-11-03T15:25:47.000Z"
   },
   {
@@ -903,8 +903,8 @@
    "t": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months",
    "url": "https://news.ycombinator.com/item?id=50358422",
    "link": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months",
-   "up": 342,
-   "com": 143,
+   "up": 346,
+   "com": 144,
    "at": "2026-11-03T21:26:44.000Z"
   },
   {
@@ -912,7 +912,7 @@
    "t": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
    "url": "https://news.ycombinator.com/item?id=50358582",
    "link": "https://arxiv.org/abs/2605.29713",
-   "up": 330,
+   "up": 332,
    "com": 51,
    "at": "2026-11-03T21:40:53.000Z"
   },
@@ -921,7 +921,7 @@
    "t": "OpenAI seems to be silently re-enabling model training on Codex chats",
    "url": "https://news.ycombinator.com/item?id=50352757",
    "link": "",
-   "up": 474,
+   "up": 475,
    "com": 144,
    "at": "2026-11-03T14:53:41.000Z"
   }
