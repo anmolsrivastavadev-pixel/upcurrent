@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-04T05:01:01.749Z"
+  "updated": "2026-11-04T05:31:01.034Z"
  },
  "pulse": {
   "trending": 83,
   "accelerating": 0,
   "newModels": 7,
-  "discussions": 52,
-  "stars": 8868
+  "discussions": 53,
+  "stars": 9137
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "Towards a More Autonomous Agent System",
    "meta": [
-    "★ 17,327",
-    "~4,546 in 24h",
+    "★ 17,386",
+    "~4,537 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-31T09:32:46Z",
@@ -41,8 +41,8 @@
    "grow": null,
    "desc": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
    "meta": [
-    "★ 7,681",
-    "~1,383 in 24h",
+    "★ 7,692",
+    "~1,379 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-29T15:41:21Z",
@@ -58,8 +58,8 @@
    "grow": null,
    "desc": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "meta": [
-    "★ 6,174",
-    "~1,102 in 24h",
+    "★ 6,180",
+    "~1,099 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-29T14:34:07Z",
@@ -75,8 +75,8 @@
    "grow": null,
    "desc": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
    "meta": [
-    "★ 4,235",
-    "~859 in 24h",
+    "★ 4,245",
+    "~858 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-30T06:43:25Z",
@@ -108,8 +108,8 @@
    "grow": null,
    "desc": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
    "meta": [
-    "★ 1,608",
-    "~540 in 24h",
+    "★ 1,614",
+    "~539 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-01T05:35:12Z",
@@ -123,7 +123,7 @@
    "cat": "Coding",
    "score": 89,
    "grow": 0,
-   "desc": "Model on Hugging Face · open weights · ♥ 742",
+   "desc": "Model on Hugging Face · open weights · ♥ 743",
    "meta": [
     "39K downloads",
     "Released 27 days ago"
@@ -154,7 +154,7 @@
    "src": "hf",
    "cat": "Vision",
    "score": 87,
-   "grow": null,
+   "grow": 0,
    "desc": "Vision on Hugging Face · open source · ♥ 527",
    "meta": [
     "11K downloads",
@@ -174,7 +174,7 @@
    "desc": "Vision on Hugging Face · open weights · ♥ 400",
    "meta": [
     "633 downloads",
-    "Released 5 days ago"
+    "Released 6 days ago"
    ],
    "at": "2026-10-29T17:08:44.000Z",
    "breakout": null,
@@ -187,8 +187,8 @@
    "name": "dsh-superagent-prototype",
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "from": "GitHub",
-   "use": 4546,
-   "useLabel": "~4,546 stars/day",
+   "use": 4537,
+   "useLabel": "~4,537 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -218,6 +218,16 @@
   }
  ],
  "receipts": [
+  {
+   "name": "Jakeschincariol/day-trader-skill",
+   "url": "https://github.com/Jakeschincariol/day-trader-skill",
+   "kind": "stars",
+   "first": "2026-10-24T18:58:28.927Z",
+   "firstV": 1025,
+   "m": 5000,
+   "at": "2026-11-04T05:31:01.034Z",
+   "lead": 250.54225194444444
+  },
   {
    "name": "openbmb/MiniCPM-OCR-1.0",
    "url": "https://huggingface.co/openbmb/MiniCPM-OCR-1.0",
@@ -287,41 +297,31 @@
    "m": 5000,
    "at": "2026-11-02T15:01:06.873Z",
    "lead": 63.504936111111114
-  },
-  {
-   "name": "black-forest-labs/flux-3-image-klein-comfy",
-   "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
-   "kind": "downloads",
-   "first": "2026-10-15T19:01:09.678Z",
-   "firstV": 39,
-   "m": 1000000,
-   "at": "2026-11-02T10:30:57.277Z",
-   "lead": 423.49655527777776
   }
  ],
  "github": [
   {
    "repo": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 17327,
-   "d24": 4546,
+   "stars": 17386,
+   "d24": 4537,
    "est": true,
-   "forks": 1877,
+   "forks": 1883,
    "contrib": 1,
    "score": 95
   },
   {
    "repo": "heydamir/unslop",
-   "stars": 7681,
-   "d24": 1383,
+   "stars": 7692,
+   "d24": 1379,
    "est": true,
-   "forks": 384,
+   "forks": 385,
    "contrib": 3,
    "score": 93
   },
   {
    "repo": "wangzan101/Mika",
-   "stars": 6174,
-   "d24": 1102,
+   "stars": 6180,
+   "d24": 1099,
    "est": true,
    "forks": 1200,
    "contrib": 42,
@@ -329,46 +329,46 @@
   },
   {
    "repo": "patch-gg/pixelfx",
-   "stars": 4235,
-   "d24": 859,
+   "stars": 4245,
+   "d24": 858,
    "est": true,
-   "forks": 572,
+   "forks": 573,
    "contrib": null,
    "score": 90
   },
   {
    "repo": "caru-ini/stack-diagram",
-   "stars": 1608,
-   "d24": 540,
+   "stars": 1614,
+   "d24": 539,
    "est": true,
    "forks": 67,
    "contrib": null,
    "score": 89
   },
   {
+   "repo": "paipiange/nvzhuang",
+   "stars": 2142,
+   "d24": 359,
+   "est": true,
+   "forks": 549,
+   "contrib": null,
+   "score": 85
+  },
+  {
    "repo": "elvarofficial/teardown",
-   "stars": 1705,
-   "d24": 309,
+   "stars": 1710,
+   "d24": 306,
    "est": false,
    "forks": 257,
    "contrib": null,
    "score": 85
   },
   {
-   "repo": "paipiange/nvzhuang",
-   "stars": 2139,
-   "d24": 70,
-   "est": false,
-   "forks": 549,
-   "contrib": null,
-   "score": 85
-  },
-  {
    "repo": "lexifina/global-law",
-   "stars": 1763,
-   "d24": 59,
+   "stars": 1765,
+   "d24": 60,
    "est": false,
-   "forks": 166,
+   "forks": 167,
    "contrib": null,
    "score": 79
   }
@@ -384,7 +384,7 @@
    "grow": 0,
    "score": 90,
    "cat": "LLMs",
-   "likes": 1416
+   "likes": 1417
   },
   {
    "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
@@ -396,7 +396,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Coding",
-   "likes": 742
+   "likes": 743
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -415,7 +415,7 @@
    "lic": "Open source",
    "at": "2026-10-28T15:55:17.000Z",
    "dl": 10742,
-   "grow": null,
+   "grow": 0,
    "score": 87,
    "cat": "Vision",
    "likes": 527
@@ -441,7 +441,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 1551
+   "likes": 1552
   }
  ],
  "free": [
@@ -854,18 +854,18 @@
    "kind": "News"
   },
   {
-   "t": "StateBench: Testing how language models track state changes over long documents",
-   "url": "https://huggingface.co/blog/allenai/statebench",
-   "at": "2026-11-03T17:15:21.000Z",
-   "src": "Hugging Face",
-   "kind": "Lab blog"
+   "t": "A US company argued that lawyers using artificial intelligence should receive lower fees after its trade-secrets lawsuit was dismissed; a federal appeals court has upheld a $114,663 award, saying no o",
+   "url": "https://timesofindia.indiatimes.com/world/us/a-us-company-argued-that-lawyers-using-artificial-intelligence-should-receive-lower-fees-after-its-trade-secrets-lawsuit-was-dismissed-a-federal-appeals-court-has-upheld-a-114663-award-saying-no-overbilling-was-shown/articleshow/135508298.cms",
+   "at": "2026-11-03T17:31:00Z",
+   "src": "Times of India",
+   "kind": "News"
   },
   {
-   "t": "Agentic cheminformatics with Google Antigravity",
-   "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
-   "at": "2026-11-03T17:01:49.000Z",
-   "src": "Google DeepMind",
-   "kind": "Lab blog"
+   "t": "CAA's Bryan Lourd Discusses AI As Agency Weighs In On NYT Vs. OpenAI Battle",
+   "url": "https://deadline.com/2026/11/bryan-lourd-caa-ai-lawsuit-1237212214/",
+   "at": "2026-11-03T17:26:49Z",
+   "src": "Deadline",
+   "kind": "News"
   }
  ],
  "discussions": [
@@ -874,17 +874,25 @@
    "t": "Postman silently auto-installs AI plugins and attempts to share all API data",
    "url": "https://news.ycombinator.com/item?id=50354960",
    "link": "https://github.com/postmanlabs/postman-app-support/issues/14370",
-   "up": 1127,
-   "com": 368,
+   "up": 1135,
+   "com": 371,
    "at": "2026-11-03T17:22:37.000Z"
+  },
+  {
+   "src": "DEV",
+   "t": "Nano Banana 2.1: fourteen references, four that matter",
+   "url": "https://dev.to/chet103cc/nano-banana-21-fourteen-references-four-that-matter-247b",
+   "up": 58,
+   "com": 4,
+   "at": "2026-11-04T04:54:21Z"
   },
   {
    "src": "Hacker News",
    "t": "Google will turn off search for schools that reject AI",
    "url": "https://news.ycombinator.com/item?id=50353192",
    "link": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html",
-   "up": 583,
-   "com": 420,
+   "up": 587,
+   "com": 422,
    "at": "2026-11-03T15:25:47.000Z"
   },
   {
@@ -892,8 +900,8 @@
    "t": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months",
    "url": "https://news.ycombinator.com/item?id=50358422",
    "link": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months",
-   "up": 311,
-   "com": 135,
+   "up": 314,
+   "com": 137,
    "at": "2026-11-03T21:26:44.000Z"
   },
   {
@@ -901,7 +909,7 @@
    "t": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
    "url": "https://news.ycombinator.com/item?id=50358582",
    "link": "https://arxiv.org/abs/2605.29713",
-   "up": 280,
+   "up": 287,
    "com": 48,
    "at": "2026-11-03T21:40:53.000Z"
   },
@@ -910,18 +918,9 @@
    "t": "OpenAI seems to be silently re-enabling model training on Codex chats",
    "url": "https://news.ycombinator.com/item?id=50352757",
    "link": "",
-   "up": 455,
-   "com": 143,
+   "up": 459,
+   "com": 144,
    "at": "2026-11-03T14:53:41.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Preparing for the Flipper One Kickstarter and opening pre-orders",
-   "url": "https://news.ycombinator.com/item?id=50356994",
-   "link": "https://flipper.net/pages/flipper-one",
-   "up": 198,
-   "com": 85,
-   "at": "2026-11-03T19:32:13.000Z"
   }
  ]
 }
