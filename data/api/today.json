@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-04T15:01:06.119Z"
+  "updated": "2026-11-04T15:31:01.873Z"
  },
  "pulse": {
   "trending": 83,
   "accelerating": 1,
   "newModels": 8,
-  "discussions": 51,
-  "stars": 8943
+  "discussions": 49,
+  "stars": 8937
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 97,
-   "grow": 63,
+   "grow": 67,
    "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
    "meta": [
-    "★ 2,168",
-    "+2,520 in 24h",
+    "★ 2,216",
+    "+2,507 in 24h",
     "Created yesterday"
    ],
    "at": "2026-11-03T08:02:11Z",
@@ -41,8 +41,8 @@
    "grow": 9,
    "desc": "Towards a More Autonomous Agent System",
    "meta": [
-    "★ 18,307",
-    "+2,647 in 24h",
+    "★ 18,334",
+    "+2,600 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-31T09:32:46Z",
@@ -54,12 +54,12 @@
    "owner": "heydamir",
    "src": "gh",
    "cat": "Agents",
-   "score": 92,
+   "score": 91,
    "grow": 7,
    "desc": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
    "meta": [
-    "★ 8,196",
-    "+1,236 in 24h",
+    "★ 8,237",
+    "+1,271 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-29T15:41:21Z",
@@ -72,11 +72,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 91,
-   "grow": 5,
+   "grow": 6,
    "desc": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "meta": [
-    "★ 6,493",
-    "+766 in 24h",
+    "★ 6,515",
+    "+779 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-29T14:34:07Z",
@@ -100,20 +100,20 @@
    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B"
   },
   {
-   "name": "LFM3-1.7B",
-   "owner": "LiquidAI",
+   "name": "DeepSeek-V4.1-Flash-1017",
+   "owner": "deepseek-ai",
    "src": "hf",
-   "cat": "LLMs",
+   "cat": "Infrastructure",
    "score": 89,
-   "grow": null,
-   "desc": "Model on Hugging Face · open weights · ♥ 1.5K",
+   "grow": 18,
+   "desc": "Model on Hugging Face · open source · ♥ 5.2K",
    "meta": [
-    "55K downloads",
-    "Released 12 days ago"
+    "222K downloads",
+    "Released 19 days ago"
    ],
-   "at": "2026-10-23T21:35:42.000Z",
+   "at": "2026-10-17T02:40:38.000Z",
    "breakout": null,
-   "url": "https://huggingface.co/LiquidAI/LFM3-1.7B"
+   "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
   },
   {
    "name": "pixelfx",
@@ -121,11 +121,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 88,
-   "grow": 7,
+   "grow": 8,
    "desc": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
    "meta": [
-    "★ 4,542",
-    "+737 in 24h",
+    "★ 4,557",
+    "+736 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-30T06:43:25Z",
@@ -138,11 +138,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 88,
-   "grow": 10,
+   "grow": 11,
    "desc": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
    "meta": [
-    "★ 1,719",
-    "+299 in 24h",
+    "★ 1,723",
+    "+295 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-01T05:35:12Z",
@@ -150,20 +150,20 @@
    "url": "https://github.com/caru-ini/stack-diagram"
   },
   {
-   "name": "DeepSeek-V4.1-Flash-1017",
-   "owner": "deepseek-ai",
+   "name": "LFM3-1.7B",
+   "owner": "LiquidAI",
    "src": "hf",
-   "cat": "Infrastructure",
+   "cat": "LLMs",
    "score": 87,
-   "grow": 18,
-   "desc": "Model on Hugging Face · open source · ♥ 5.2K",
+   "grow": null,
+   "desc": "Model on Hugging Face · open weights · ♥ 1.5K",
    "meta": [
-    "222K downloads",
-    "Released 19 days ago"
+    "55K downloads",
+    "Released 12 days ago"
    ],
-   "at": "2026-10-17T02:40:38.000Z",
+   "at": "2026-10-23T21:35:42.000Z",
    "breakout": null,
-   "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+   "url": "https://huggingface.co/LiquidAI/LFM3-1.7B"
   },
   {
    "name": "idol",
@@ -172,7 +172,7 @@
    "cat": "Vision",
    "score": 87,
    "grow": 36,
-   "desc": "Vision on Hugging Face · open source · ♥ 569",
+   "desc": "Vision on Hugging Face · open source · ♥ 572",
    "meta": [
     "15K downloads",
     "Released 7 days ago"
@@ -188,8 +188,8 @@
    "name": "dsh-superagent-prototype",
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "from": "GitHub",
-   "use": 2647,
-   "useLabel": "+2,647 stars/day",
+   "use": 2600,
+   "useLabel": "+2,600 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -303,71 +303,71 @@
  "github": [
   {
    "repo": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 18307,
-   "d24": 2647,
+   "stars": 18334,
+   "d24": 2600,
    "est": false,
-   "forks": 2007,
+   "forks": 2013,
    "contrib": 1,
    "score": 95
   },
   {
    "repo": "KKKKhazix/agent-autoloop",
-   "stars": 2168,
-   "d24": 2520,
+   "stars": 2216,
+   "d24": 2507,
    "est": false,
-   "forks": 437,
+   "forks": 449,
    "contrib": null,
    "score": 97
   },
   {
    "repo": "heydamir/unslop",
-   "stars": 8196,
-   "d24": 1236,
+   "stars": 8237,
+   "d24": 1271,
    "est": false,
-   "forks": 406,
+   "forks": 408,
    "contrib": 3,
-   "score": 92
+   "score": 91
   },
   {
    "repo": "wangzan101/Mika",
-   "stars": 6493,
-   "d24": 766,
+   "stars": 6515,
+   "d24": 779,
    "est": false,
-   "forks": 1362,
+   "forks": 1378,
    "contrib": 42,
    "score": 91
   },
   {
    "repo": "patch-gg/pixelfx",
-   "stars": 4542,
-   "d24": 737,
+   "stars": 4557,
+   "d24": 736,
    "est": false,
-   "forks": 604,
+   "forks": 607,
    "contrib": null,
    "score": 88
   },
   {
+   "repo": "mromidev/claude-animated-shorts",
+   "stars": 1422,
+   "d24": 326,
+   "est": false,
+   "forks": 331,
+   "contrib": null,
+   "score": 86
+  },
+  {
    "repo": "elvarofficial/teardown",
-   "stars": 1836,
-   "d24": 312,
+   "stars": 1843,
+   "d24": 313,
    "est": false,
    "forks": 276,
    "contrib": null,
    "score": 84
   },
   {
-   "repo": "mromidev/claude-animated-shorts",
-   "stars": 1411,
-   "d24": 310,
-   "est": false,
-   "forks": 330,
-   "contrib": null,
-   "score": 86
-  },
-  {
    "repo": "caru-ini/stack-diagram",
-   "stars": 1719,
-   "d24": 299,
+   "stars": 1723,
+   "d24": 295,
    "est": false,
    "forks": 75,
    "contrib": null,
@@ -385,7 +385,18 @@
    "grow": null,
    "score": 90,
    "cat": "Coding",
-   "likes": 1446
+   "likes": 1448
+  },
+  {
+   "name": "DeepSeek-V4.1-Flash-1017",
+   "org": "deepseek-ai",
+   "lic": "Open source",
+   "at": "2026-10-17T02:40:38.000Z",
+   "dl": 221621,
+   "grow": 18,
+   "score": 89,
+   "cat": "Infrastructure",
+   "likes": 5237
   },
   {
    "name": "LFM3-1.7B",
@@ -395,20 +406,9 @@
    "at": "2026-10-23T21:35:42.000Z",
    "dl": 54959,
    "grow": null,
-   "score": 89,
+   "score": 87,
    "cat": "LLMs",
    "likes": 1462
-  },
-  {
-   "name": "DeepSeek-V4.1-Flash-1017",
-   "org": "deepseek-ai",
-   "lic": "Open source",
-   "at": "2026-10-17T02:40:38.000Z",
-   "dl": 221621,
-   "grow": 18,
-   "score": 87,
-   "cat": "Infrastructure",
-   "likes": 5233
   },
   {
    "name": "idol",
@@ -419,7 +419,7 @@
    "grow": 36,
    "score": 87,
    "cat": "Vision",
-   "likes": 569
+   "likes": 572
   },
   {
    "name": "Mistral-Large-4-1T-A52B",
@@ -431,7 +431,7 @@
    "grow": null,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 1576
+   "likes": 1578
   },
   {
    "name": "Pika-H3-Flex",
@@ -442,7 +442,7 @@
    "grow": 18,
    "score": 86,
    "cat": "Vision",
-   "likes": 416
+   "likes": 418
   }
  ],
  "free": [
@@ -747,6 +747,20 @@
  },
  "headlines": [
   {
+   "t": "Crypto and AI super PACs spent $250M in 2026 midterms, but lost 9/12 competitive races called so far, spending $74.7M on losing candidates and $28.3M on winners",
+   "url": "https://www.techmeme.com/261104/p35#a261104p35",
+   "at": "2026-11-04T15:15:31.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "OpenAI to acquire Pierre Computer Company, Inc.",
+   "url": "https://openai.com/index/openai-to-acquire-pierre",
+   "at": "2026-11-04T14:30:00.000Z",
+   "src": "OpenAI",
+   "kind": "Lab blog"
+  },
+  {
    "t": "UK AI Minister Kanishka Narayan says AI is set to add £55B to £140B to the economy by 2030, below a £400B estimate from a Google-led report touted by officials",
    "url": "https://www.techmeme.com/261104/p32#a261104p32",
    "at": "2026-11-04T14:20:04.000Z",
@@ -796,18 +810,18 @@
    "kind": "News"
   },
   {
-   "t": "Democrats' US midterms victory is a win for hyperscalers and AI labs, a mixed bag for Nvidia, an advantage to China, and may make space data centers attractive",
-   "url": "https://www.techmeme.com/261104/p20#a261104p20",
-   "at": "2026-11-04T11:45:17.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Very good boys? The dark, dystopian rise of robot dogs | Arwa Mahwadi",
    "url": "https://www.theguardian.com/commentisfree/2026/nov/04/robot-dogs-ice-dimensional-warhound",
    "at": "2026-11-04T11:00:09Z",
    "src": "The Guardian",
    "kind": "News"
+  },
+  {
+   "t": "Daybreak Red is now available in AWS GovCloud (US-East)",
+   "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+   "at": "2026-11-04T07:00:00.000Z",
+   "src": "OpenAI",
+   "kind": "Lab blog"
   },
   {
    "t": "Что делать, если зомбиапокалипсис застал тебя в электричке?  #ai #claude #вайбкодинг #zombie",
@@ -817,45 +831,31 @@
    "kind": "Video"
   },
   {
-   "t": "Human control must set limits on superintelligence, says OpenAI's Sam Altman",
-   "url": "https://www.news18.com/agency-feeds/human-control-must-set-limits-on-superintelligence-says-openais-sam-altman-10411683.html",
-   "at": "2026-11-04T03:00:03Z",
-   "src": "News18",
+   "t": "Google will cut off search access for students at schools that reject AI",
+   "url": "https://www.thehindu.com/sci-tech/technology/google-will-cut-off-search-access-for-students-at-schools-that-reject-ai/article71663810.ece",
+   "at": "2026-11-04T03:27:36Z",
+   "src": "The Hindu",
    "kind": "News"
   },
   {
-   "t": "Google will cut off search access for students at US schools that reject AI",
-   "url": "https://www.thestar.com.my/tech/tech-news/2026/11/04/google-will-cut-off-search-access-for-students-at-us-schools-that-reject-ai",
-   "at": "2026-11-04T03:00:00Z",
+   "t": "MCMC quizzing Anthropic on voter manipulation claim, says Fahmi",
+   "url": "https://www.thestar.com.my/news/nation/2026/11/04/mcmc-quizzing-anthropic-on-voter-manipulation-claim-says-fahmi",
+   "at": "2026-11-04T03:24:00Z",
    "src": "The Star",
    "kind": "News"
   },
   {
-   "t": "OpenAI employees warned about operational security lapses for years, says report",
-   "url": "https://www.cnbctv18.com/technology/openai-employees-warned-about-operational-security-lapses-for-years-says-report-20026537.htm",
-   "at": "2026-11-04T02:52:18Z",
-   "src": "CNBC TV18",
+   "t": "millisecond response time, open weights for enterprises",
+   "url": "https://www.tribuneindia.com/news/business/sarvam-launches-ai-decision-model-with-44-millisecond-response-time-open-weights-for-enterprises/",
+   "at": "2026-11-04T03:12:46Z",
+   "src": "The Tribune",
    "kind": "News"
   },
   {
-   "t": "AlphaFold3 reveals molecular interactions driving T cell recognition",
-   "url": "https://www.news-medical.net/news/20261103/AlphaFold3-reveals-molecular-interactions-driving-T-cell-recognition.aspx",
-   "at": "2026-11-04T02:47:00Z",
-   "src": "News-Medical.net",
-   "kind": "News"
-  },
-  {
-   "t": "Why America’s AI data center companies are turning to airplane ‘graveyards’",
-   "url": "https://timesofindia.indiatimes.com/technology/tech-news/why-americas-ai-data-center-companies-are-turning-to-airplane-graveyards/articleshow/135519350.cms",
-   "at": "2026-11-04T02:40:00Z",
-   "src": "Times of India",
-   "kind": "News"
-  },
-  {
-   "t": "Nexus Mods Strengthens AI Disclosure Requirements",
-   "url": "https://www.invenglobal.com/articles/28119/nexus-mods-strengthens-ai-disclosure-requirements",
-   "at": "2026-11-04T02:35:49Z",
-   "src": "InvenGlobal",
+   "t": "Sarvam launches AI decision model with 44-millisecond response time, open weights for enterprises",
+   "url": "https://www.aninews.in/news/business/sarvam-launches-ai-decision-model-with-44-millisecond-response-time-open-weights-for-enterprises20261104084050/",
+   "at": "2026-11-04T03:10:50Z",
+   "src": "ANI (Asian News International)",
    "kind": "News"
   }
  ],
@@ -865,8 +865,8 @@
    "t": "AI is forcing us to pay off 40 years of technical debt",
    "url": "https://news.ycombinator.com/item?id=50364336",
    "link": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
-   "up": 360,
-   "com": 254,
+   "up": 422,
+   "com": 294,
    "at": "2026-11-04T11:52:17.000Z"
   },
   {
@@ -874,7 +874,7 @@
    "t": "Postman silently auto-installs AI plugins and attempts to share all API data",
    "url": "https://news.ycombinator.com/item?id=50354960",
    "link": "https://github.com/postmanlabs/postman-app-support/issues/14370",
-   "up": 1409,
+   "up": 1427,
    "com": 465,
    "at": "2026-11-03T17:22:37.000Z"
   },
@@ -883,25 +883,25 @@
    "t": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
    "url": "https://news.ycombinator.com/item?id=50363461",
    "link": "",
-   "up": 299,
-   "com": 82,
+   "up": 326,
+   "com": 88,
    "at": "2026-11-04T10:10:27.000Z"
   },
   {
    "src": "DEV",
-   "t": "Flare vs Sunburst: five prompts, rendered twice, one clear rule",
-   "url": "https://dev.to/chet103cc/flare-vs-sunburst-five-prompts-rendered-twice-one-clear-rule-1aae",
-   "up": 50,
-   "com": 0,
-   "at": "2026-11-04T14:45:02Z"
+   "t": "4K for five credits: the cheapest upgrade in my image stack",
+   "url": "https://dev.to/chet103cc/4k-for-five-credits-the-cheapest-upgrade-in-my-image-stack-40eg",
+   "up": 56,
+   "com": 3,
+   "at": "2026-11-04T14:46:38Z"
   },
   {
    "src": "Hacker News",
    "t": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
    "url": "https://news.ycombinator.com/item?id=50362905",
    "link": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
-   "up": 307,
-   "com": 159,
+   "up": 340,
+   "com": 171,
    "at": "2026-11-04T08:46:29.000Z"
   },
   {
@@ -909,8 +909,8 @@
    "t": "Geoffrey Hinton: it might turn out we were better off without AI",
    "url": "https://news.ycombinator.com/item?id=50363554",
    "link": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
-   "up": 218,
-   "com": 172,
+   "up": 236,
+   "com": 191,
    "at": "2026-11-04T10:23:34.000Z"
   }
  ]
