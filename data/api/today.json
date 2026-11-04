@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-04T00:30:49.542Z"
+  "updated": "2026-11-04T01:01:02.819Z"
  },
  "pulse": {
   "trending": 83,
-  "accelerating": 1,
+  "accelerating": 0,
   "newModels": 7,
   "discussions": 55,
-  "stars": 6280
+  "stars": 7655
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 95,
-   "grow": 18,
+   "grow": null,
    "desc": "Towards a More Autonomous Agent System",
    "meta": [
-    "★ 16,712",
-    "+3,201 in 24h",
+    "★ 16,763",
+    "~4,599 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-31T09:32:46Z",
@@ -41,8 +41,8 @@
    "grow": 13,
    "desc": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
    "meta": [
-    "★ 7,532",
-    "+1,265 in 24h",
+    "★ 7,542",
+    "+1,241 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-29T15:41:21Z",
@@ -58,8 +58,8 @@
    "grow": 6,
    "desc": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "meta": [
-    "★ 6,047",
-    "+477 in 24h",
+    "★ 6,060",
+    "+481 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-29T14:34:07Z",
@@ -75,8 +75,8 @@
    "grow": 10,
    "desc": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
    "meta": [
-    "★ 4,116",
-    "+572 in 24h",
+    "★ 4,124",
+    "+566 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-30T06:43:25Z",
@@ -105,11 +105,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 89,
-   "grow": 19,
+   "grow": 20,
    "desc": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
    "meta": [
-    "★ 1,532",
-    "+317 in 24h",
+    "★ 1,542",
+    "+321 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-01T05:35:12Z",
@@ -155,7 +155,7 @@
    "cat": "Vision",
    "score": 87,
    "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 513",
+   "desc": "Vision on Hugging Face · open source · ♥ 514",
    "meta": [
     "11K downloads",
     "Released 6 days ago"
@@ -187,8 +187,8 @@
    "name": "dsh-superagent-prototype",
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "from": "GitHub",
-   "use": 3201,
-   "useLabel": "+3,201 stars/day",
+   "use": 4599,
+   "useLabel": "~4,599 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -302,17 +302,17 @@
  "github": [
   {
    "repo": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 16712,
-   "d24": 3201,
-   "est": false,
-   "forks": 1809,
+   "stars": 16763,
+   "d24": 4599,
+   "est": true,
+   "forks": 1812,
    "contrib": 1,
    "score": 95
   },
   {
    "repo": "heydamir/unslop",
-   "stars": 7532,
-   "d24": 1265,
+   "stars": 7542,
+   "d24": 1241,
    "est": false,
    "forks": 381,
    "contrib": 3,
@@ -320,8 +320,8 @@
   },
   {
    "repo": "patch-gg/pixelfx",
-   "stars": 4116,
-   "d24": 572,
+   "stars": 4124,
+   "d24": 566,
    "est": false,
    "forks": 560,
    "contrib": null,
@@ -329,26 +329,26 @@
   },
   {
    "repo": "wangzan101/Mika",
-   "stars": 6047,
-   "d24": 477,
+   "stars": 6060,
+   "d24": 481,
    "est": false,
-   "forks": 1176,
+   "forks": 1178,
    "contrib": 42,
    "score": 92
   },
   {
    "repo": "elvarofficial/teardown",
-   "stars": 1648,
+   "stars": 1654,
    "d24": 356,
    "est": true,
-   "forks": 251,
+   "forks": 253,
    "contrib": null,
    "score": 85
   },
   {
    "repo": "caru-ini/stack-diagram",
-   "stars": 1532,
-   "d24": 317,
+   "stars": 1542,
+   "d24": 321,
    "est": false,
    "forks": 64,
    "contrib": null,
@@ -357,7 +357,7 @@
   {
    "repo": "paipiange/nvzhuang",
    "stars": 2122,
-   "d24": 64,
+   "d24": 62,
    "est": false,
    "forks": 546,
    "contrib": null,
@@ -365,8 +365,8 @@
   },
   {
    "repo": "lexifina/global-law",
-   "stars": 1741,
-   "d24": 28,
+   "stars": 1742,
+   "d24": 29,
    "est": false,
    "forks": 160,
    "contrib": null,
@@ -407,7 +407,7 @@
    "grow": 6,
    "score": 87,
    "cat": "Infrastructure",
-   "likes": 4851
+   "likes": 4854
   },
   {
    "name": "idol",
@@ -418,7 +418,7 @@
    "grow": null,
    "score": 87,
    "cat": "Vision",
-   "likes": 513
+   "likes": 514
   },
   {
    "name": "Mistral-Large-4-1T-A52B",
@@ -430,7 +430,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 1543
+   "likes": 1545
   },
   {
    "name": "Pika-H3-Flex",
@@ -756,6 +756,13 @@
  },
  "headlines": [
   {
+   "t": "Cat Wu, product lead for Claude Code and Cowork, has left Anthropic; Thariq Shihipar, who worked on Claude Code, announced his departure last month",
+   "url": "https://www.techmeme.com/261103/p43#a261103p43",
+   "at": "2026-11-04T00:40:00.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "How Nvidia uses soft power to influence customers and shape US chip policy; sources: OpenAI took no public stance on China chip exports to avoid angering Nvidia",
    "url": "https://www.techmeme.com/261103/p42#a261103p42",
    "at": "2026-11-04T00:20:01.000Z",
@@ -826,13 +833,6 @@
    "kind": "News"
   },
   {
-   "t": "CrowdStrike debuts an AI kill switch in Falcon Guardian to stop internal AI agents that go rogue, and announces a Falcon Guardian integration with Claude Cowork",
-   "url": "https://www.techmeme.com/261103/p28#a261103p28",
-   "at": "2026-11-03T20:30:02.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Hackers behind $6.3bn Binance heist ‘used malware and bogus job interviews’",
    "url": "https://www.theguardian.com/business/2026/nov/03/hackers-63bn-binance-heist-malware-bogus-job-interviews-cryptocurrency",
    "at": "2026-11-03T19:00:23Z",
@@ -874,8 +874,8 @@
    "t": "Postman silently auto-installs AI plugins and attempts to share all API data",
    "url": "https://news.ycombinator.com/item?id=50354960",
    "link": "https://github.com/postmanlabs/postman-app-support/issues/14370",
-   "up": 982,
-   "com": 324,
+   "up": 1002,
+   "com": 332,
    "at": "2026-11-03T17:22:37.000Z"
   },
   {
@@ -883,34 +883,34 @@
    "t": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
    "url": "https://news.ycombinator.com/item?id=50358582",
    "link": "https://arxiv.org/abs/2605.29713",
-   "up": 177,
-   "com": 29,
+   "up": 198,
+   "com": 32,
    "at": "2026-11-03T21:40:53.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Google will turn off search for schools that reject AI",
-   "url": "https://news.ycombinator.com/item?id=50353192",
-   "link": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html",
-   "up": 545,
-   "com": 396,
-   "at": "2026-11-03T15:25:47.000Z"
   },
   {
    "src": "Hacker News",
    "t": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months",
    "url": "https://news.ycombinator.com/item?id=50358422",
    "link": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months",
-   "up": 168,
-   "com": 55,
+   "up": 210,
+   "com": 73,
    "at": "2026-11-03T21:26:44.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Google will turn off search for schools that reject AI",
+   "url": "https://news.ycombinator.com/item?id=50353192",
+   "link": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html",
+   "up": 554,
+   "com": 397,
+   "at": "2026-11-03T15:25:47.000Z"
   },
   {
    "src": "Hacker News",
    "t": "OpenAI seems to be silently re-enabling model training on Codex chats",
    "url": "https://news.ycombinator.com/item?id=50352757",
    "link": "",
-   "up": 421,
+   "up": 430,
    "com": 134,
    "at": "2026-11-03T14:53:41.000Z"
   },
@@ -919,8 +919,8 @@
    "t": "Preparing for the Flipper One Kickstarter and opening pre-orders",
    "url": "https://news.ycombinator.com/item?id=50356994",
    "link": "https://flipper.net/pages/flipper-one",
-   "up": 167,
-   "com": 76,
+   "up": 169,
+   "com": 78,
    "at": "2026-11-03T19:32:13.000Z"
   }
  ]
