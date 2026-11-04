@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-04T22:30:50.137Z"
+  "updated": "2026-11-04T23:01:03.979Z"
  },
  "pulse": {
   "trending": 83,
-  "accelerating": 1,
+  "accelerating": 0,
   "newModels": 8,
-  "discussions": 46,
-  "stars": 9218
+  "discussions": 47,
+  "stars": 9124
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 82,
    "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
    "meta": [
-    "★ 2,414",
-    "+1,682 in 24h",
+    "★ 2,423",
+    "+1,642 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-03T08:02:11Z",
@@ -41,8 +41,8 @@
    "grow": null,
    "desc": "Towards a More Autonomous Agent System",
    "meta": [
-    "★ 18,514",
-    "~4,078 in 24h",
+    "★ 18,522",
+    "~4,061 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-31T09:32:46Z",
@@ -58,8 +58,8 @@
    "grow": 12,
    "desc": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
    "meta": [
-    "★ 8,599",
-    "+1,259 in 24h",
+    "★ 8,624",
+    "+1,257 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-29T15:41:21Z",
@@ -75,8 +75,8 @@
    "grow": 7,
    "desc": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "meta": [
-    "★ 6,601",
-    "+586 in 24h",
+    "★ 6,604",
+    "+573 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-29T14:34:07Z",
@@ -105,7 +105,7 @@
    "src": "hf",
    "cat": "Infrastructure",
    "score": 89,
-   "grow": 18,
+   "grow": null,
    "desc": "Model on Hugging Face · open source · ♥ 5.3K",
    "meta": [
     "222K downloads",
@@ -116,13 +116,29 @@
    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
   },
   {
+   "name": "idol",
+   "owner": "speridlabs",
+   "src": "hf",
+   "cat": "Vision",
+   "score": 89,
+   "grow": null,
+   "desc": "Vision on Hugging Face · open source · ♥ 612",
+   "meta": [
+    "15K downloads",
+    "Released 7 days ago"
+   ],
+   "at": "2026-10-28T15:55:17.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/speridlabs/idol"
+  },
+  {
    "name": "Kimi-K3.1-Pro",
    "owner": "moonshotai",
    "src": "hf",
    "cat": "Vision",
    "score": 89,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 451",
+   "desc": "Vision on Hugging Face · open weights · ♥ 462",
    "meta": [
     "797 downloads",
     "Released 3 days ago"
@@ -137,32 +153,16 @@
    "src": "gh",
    "cat": "Agents",
    "score": 88,
-   "grow": 10,
+   "grow": 11,
    "desc": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
    "meta": [
-    "★ 4,678",
-    "+608 in 24h",
+    "★ 4,685",
+    "+600 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-30T06:43:25Z",
    "breakout": null,
    "url": "https://github.com/patch-gg/pixelfx"
-  },
-  {
-   "name": "idol",
-   "owner": "speridlabs",
-   "src": "hf",
-   "cat": "Vision",
-   "score": 88,
-   "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 610",
-   "meta": [
-    "15K downloads",
-    "Released 7 days ago"
-   ],
-   "at": "2026-10-28T15:55:17.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/speridlabs/idol"
   },
   {
    "name": "stack-diagram",
@@ -174,7 +174,7 @@
    "desc": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
    "meta": [
     "★ 1,740",
-    "~470 in 24h",
+    "~467 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-01T05:35:12Z",
@@ -188,8 +188,8 @@
    "name": "dsh-superagent-prototype",
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "from": "GitHub",
-   "use": 4078,
-   "useLabel": "~4,078 stars/day",
+   "use": 4061,
+   "useLabel": "~4,061 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -303,17 +303,17 @@
  "github": [
   {
    "repo": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 18514,
-   "d24": 4078,
+   "stars": 18522,
+   "d24": 4061,
    "est": true,
-   "forks": 2068,
+   "forks": 2072,
    "contrib": 1,
    "score": 94
   },
   {
    "repo": "KKKKhazix/agent-autoloop",
-   "stars": 2414,
-   "d24": 1682,
+   "stars": 2423,
+   "d24": 1642,
    "est": false,
    "forks": 485,
    "contrib": null,
@@ -321,26 +321,26 @@
   },
   {
    "repo": "heydamir/unslop",
-   "stars": 8599,
-   "d24": 1259,
+   "stars": 8624,
+   "d24": 1257,
    "est": false,
-   "forks": 427,
+   "forks": 428,
    "contrib": 3,
    "score": 91
   },
   {
    "repo": "patch-gg/pixelfx",
-   "stars": 4678,
-   "d24": 608,
+   "stars": 4685,
+   "d24": 600,
    "est": false,
-   "forks": 624,
+   "forks": 625,
    "contrib": null,
    "score": 88
   },
   {
    "repo": "wangzan101/Mika",
-   "stars": 6601,
-   "d24": 586,
+   "stars": 6604,
+   "d24": 573,
    "est": false,
    "forks": 1415,
    "contrib": 44,
@@ -349,7 +349,7 @@
   {
    "repo": "caru-ini/stack-diagram",
    "stars": 1740,
-   "d24": 470,
+   "d24": 467,
    "est": true,
    "forks": 76,
    "contrib": null,
@@ -357,19 +357,19 @@
   },
   {
    "repo": "mromidev/claude-animated-shorts",
-   "stars": 1500,
-   "d24": 297,
+   "stars": 1502,
+   "d24": 290,
    "est": false,
-   "forks": 343,
+   "forks": 345,
    "contrib": null,
    "score": 86
   },
   {
    "repo": "elvarofficial/teardown",
-   "stars": 1895,
-   "d24": 167,
+   "stars": 1898,
+   "d24": 165,
    "est": false,
-   "forks": 284,
+   "forks": 286,
    "contrib": null,
    "score": 83
   }
@@ -385,7 +385,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Coding",
-   "likes": 1478
+   "likes": 1481
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -393,10 +393,21 @@
    "lic": "Open source",
    "at": "2026-10-17T02:40:38.000Z",
    "dl": 221621,
-   "grow": 18,
+   "grow": null,
    "score": 89,
    "cat": "Infrastructure",
    "likes": 5263
+  },
+  {
+   "name": "idol",
+   "org": "speridlabs",
+   "lic": "Open source",
+   "at": "2026-10-28T15:55:17.000Z",
+   "dl": 14613,
+   "grow": null,
+   "score": 89,
+   "cat": "Vision",
+   "likes": 612
   },
   {
    "name": "Kimi-K3.1-Pro",
@@ -407,18 +418,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Vision",
-   "likes": 451
-  },
-  {
-   "name": "idol",
-   "org": "speridlabs",
-   "lic": "Open source",
-   "at": "2026-10-28T15:55:17.000Z",
-   "dl": 14613,
-   "grow": null,
-   "score": 88,
-   "cat": "Vision",
-   "likes": 610
+   "likes": 462
   },
   {
    "name": "LFM3-1.7B",
@@ -428,7 +428,7 @@
    "at": "2026-10-23T21:35:42.000Z",
    "dl": 54959,
    "grow": 0,
-   "score": 87,
+   "score": 86,
    "cat": "LLMs",
    "likes": 1482
   },
@@ -442,7 +442,7 @@
    "grow": 0,
    "score": 85,
    "cat": "Infrastructure",
-   "likes": 1588
+   "likes": 1589
   }
  ],
  "free": [
@@ -824,6 +824,13 @@
    "kind": "News"
   },
   {
+   "t": "ADNOC to become first energy company to deploy OpenAI’s Frontier technology",
+   "url": "https://fortune.com/2026/11/04/adnoc-to-expand-ai-use-across-its-operations-to-strengthen-resilience/",
+   "at": "2026-11-04T11:00:33Z",
+   "src": "Fortune",
+   "kind": "News"
+  },
+  {
    "t": "Very good boys? The dark, dystopian rise of robot dogs | Arwa Mahwadi",
    "url": "https://www.theguardian.com/commentisfree/2026/nov/04/robot-dogs-ice-dimensional-warhound",
    "at": "2026-11-04T11:00:09Z",
@@ -831,17 +838,10 @@
    "kind": "News"
   },
   {
-   "t": "Google asks employees to leave voluntarily, offers severance packages in 5 countries",
-   "url": "https://www.indiatoday.in/technology/news/story/google-offers-voluntary-exits-to-employees-in-5-countries-as-ai-spending-rises-3032135-2026-11-04",
-   "at": "2026-11-04T10:25:24Z",
-   "src": "India Today",
-   "kind": "News"
-  },
-  {
-   "t": "Developments shake Serbia after election",
-   "url": "https://www.arkansasonline.com/news/2026/nov/04/developments-shake-serbia-after-election/",
-   "at": "2026-11-04T10:00:00Z",
-   "src": "Arkansas Online",
+   "t": "Annie Chestnut Tutor and Jonathan Butcher: Setting guidelines for using AI in the classroom",
+   "url": "https://triblive.com/opinion/annie-chestnut-tutor-and-jonathan-butcher-setting-guidelines-for-using-ai-in-the-classroom/",
+   "at": "2026-11-04T11:00:00Z",
+   "src": "Pittsburgh Tribune-Review",
    "kind": "News"
   }
  ],
@@ -851,8 +851,8 @@
    "t": "AI is forcing us to pay off 40 years of technical debt",
    "url": "https://news.ycombinator.com/item?id=50364336",
    "link": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
-   "up": 974,
-   "com": 592,
+   "up": 990,
+   "com": 601,
    "at": "2026-11-04T11:52:17.000Z"
   },
   {
@@ -860,8 +860,8 @@
    "t": "Everything is an AI scam now",
    "url": "https://news.ycombinator.com/item?id=50371508",
    "link": "https://www.davidralphlewis.co.uk/posts/everything-is-an-ai-scam-now/",
-   "up": 87,
-   "com": 23,
+   "up": 106,
+   "com": 31,
    "at": "2026-11-04T21:05:19.000Z"
   },
   {
@@ -869,8 +869,8 @@
    "t": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
    "url": "https://news.ycombinator.com/item?id=50363461",
    "link": "",
-   "up": 591,
-   "com": 149,
+   "up": 606,
+   "com": 153,
    "at": "2026-11-04T10:10:27.000Z"
   },
   {
@@ -878,8 +878,8 @@
    "t": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
    "url": "https://news.ycombinator.com/item?id=50362905",
    "link": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
-   "up": 567,
-   "com": 263,
+   "up": 570,
+   "com": 265,
    "at": "2026-11-04T08:46:29.000Z"
   },
   {
@@ -887,18 +887,18 @@
    "t": "BYD doubles its Brazil market share to 9.7% a year after opening its local plant",
    "url": "https://news.ycombinator.com/item?id=50369146",
    "link": "https://www.bloomberg.com/news/articles/2026-11-03/china-s-byd-doubles-market-share-in-brazil-with-new-plant-eyed",
-   "up": 121,
+   "up": 122,
    "com": 112,
    "at": "2026-11-04T17:55:29.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Qualcomm Cloud AI 100 Ultra – 150W AI Accelerator Card with 128GB at 548GB/s",
-   "url": "https://news.ycombinator.com/item?id=50370654",
-   "link": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra",
-   "up": 63,
-   "com": 30,
-   "at": "2026-11-04T19:55:14.000Z"
+   "t": "Geoffrey Hinton: it might turn out we were better off without AI",
+   "url": "https://news.ycombinator.com/item?id=50363554",
+   "link": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
+   "up": 294,
+   "com": 289,
+   "at": "2026-11-04T10:23:34.000Z"
   }
  ]
 }
