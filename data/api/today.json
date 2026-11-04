@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-04T16:37:09.396Z"
+  "updated": "2026-11-04T17:01:03.928Z"
  },
  "pulse": {
   "trending": 83,
   "accelerating": 1,
   "newModels": 8,
   "discussions": 46,
-  "stars": 8771
+  "stars": 8658
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 97,
-   "grow": 73,
+   "grow": 75,
    "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
    "meta": [
-    "★ 2,298",
-    "+2,424 in 24h",
+    "★ 2,318",
+    "+2,376 in 24h",
     "Created yesterday"
    ],
    "at": "2026-11-03T08:02:11Z",
@@ -41,8 +41,8 @@
    "grow": 10,
    "desc": "Towards a More Autonomous Agent System",
    "meta": [
-    "★ 18,391",
-    "+2,504 in 24h",
+    "★ 18,402",
+    "+2,458 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-31T09:32:46Z",
@@ -58,8 +58,8 @@
    "grow": 8,
    "desc": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
    "meta": [
-    "★ 8,301",
-    "+1,283 in 24h",
+    "★ 8,326",
+    "+1,290 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-29T15:41:21Z",
@@ -75,8 +75,8 @@
    "grow": 6,
    "desc": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "meta": [
-    "★ 6,545",
-    "+767 in 24h",
+    "★ 6,552",
+    "+756 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-29T14:34:07Z",
@@ -121,11 +121,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 88,
-   "grow": 8,
+   "grow": 9,
    "desc": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
    "meta": [
-    "★ 4,587",
-    "+728 in 24h",
+    "★ 4,595",
+    "+720 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-30T06:43:25Z",
@@ -141,8 +141,8 @@
    "grow": 11,
    "desc": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
    "meta": [
-    "★ 1,726",
-    "+278 in 24h",
+    "★ 1,728",
+    "+274 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-01T05:35:12Z",
@@ -166,20 +166,21 @@
    "url": "https://huggingface.co/LiquidAI/LFM3-1.7B"
   },
   {
-   "name": "idol",
-   "owner": "speridlabs",
-   "src": "hf",
-   "cat": "Vision",
-   "score": 87,
-   "grow": 36,
-   "desc": "Vision on Hugging Face · open source · ♥ 579",
+   "name": "claude-animated-shorts",
+   "owner": "mromidev",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 86,
+   "grow": 9,
+   "desc": "Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion",
    "meta": [
-    "15K downloads",
-    "Released 7 days ago"
+    "★ 1,447",
+    "+339 in 24h",
+    "Created 3 days ago"
    ],
-   "at": "2026-10-28T15:55:17.000Z",
+   "at": "2026-11-01T05:50:38Z",
    "breakout": null,
-   "url": "https://huggingface.co/speridlabs/idol"
+   "url": "https://github.com/mromidev/claude-animated-shorts"
   }
  ],
  "breakouts": [],
@@ -188,8 +189,8 @@
    "name": "dsh-superagent-prototype",
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "from": "GitHub",
-   "use": 2504,
-   "useLabel": "+2,504 stars/day",
+   "use": 2458,
+   "useLabel": "+2,458 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -303,53 +304,53 @@
  "github": [
   {
    "repo": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 18391,
-   "d24": 2504,
+   "stars": 18402,
+   "d24": 2458,
    "est": false,
-   "forks": 2035,
+   "forks": 2036,
    "contrib": 1,
    "score": 95
   },
   {
    "repo": "KKKKhazix/agent-autoloop",
-   "stars": 2298,
-   "d24": 2424,
+   "stars": 2318,
+   "d24": 2376,
    "est": false,
-   "forks": 464,
+   "forks": 468,
    "contrib": null,
    "score": 97
   },
   {
    "repo": "heydamir/unslop",
-   "stars": 8301,
-   "d24": 1283,
+   "stars": 8326,
+   "d24": 1290,
    "est": false,
-   "forks": 412,
+   "forks": 415,
    "contrib": 3,
    "score": 91
   },
   {
    "repo": "wangzan101/Mika",
-   "stars": 6545,
-   "d24": 767,
+   "stars": 6552,
+   "d24": 756,
    "est": false,
-   "forks": 1396,
+   "forks": 1402,
    "contrib": 42,
    "score": 91
   },
   {
    "repo": "patch-gg/pixelfx",
-   "stars": 4587,
-   "d24": 728,
+   "stars": 4595,
+   "d24": 720,
    "est": false,
-   "forks": 613,
+   "forks": 614,
    "contrib": null,
    "score": 88
   },
   {
    "repo": "elvarofficial/teardown",
    "stars": 1853,
-   "d24": 350,
+   "d24": 349,
    "est": true,
    "forks": 277,
    "contrib": null,
@@ -357,8 +358,8 @@
   },
   {
    "repo": "mromidev/claude-animated-shorts",
-   "stars": 1441,
-   "d24": 338,
+   "stars": 1447,
+   "d24": 339,
    "est": false,
    "forks": 335,
    "contrib": null,
@@ -366,8 +367,8 @@
   },
   {
    "repo": "caru-ini/stack-diagram",
-   "stars": 1726,
-   "d24": 278,
+   "stars": 1728,
+   "d24": 274,
    "est": false,
    "forks": 75,
    "contrib": null,
@@ -385,7 +386,7 @@
    "grow": null,
    "score": 90,
    "cat": "Coding",
-   "likes": 1454
+   "likes": 1455
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -396,7 +397,7 @@
    "grow": 18,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 5241
+   "likes": 5243
   },
   {
    "name": "LFM3-1.7B",
@@ -408,18 +409,7 @@
    "grow": null,
    "score": 87,
    "cat": "LLMs",
-   "likes": 1465
-  },
-  {
-   "name": "idol",
-   "org": "speridlabs",
-   "lic": "Open source",
-   "at": "2026-10-28T15:55:17.000Z",
-   "dl": 14613,
-   "grow": 36,
-   "score": 87,
-   "cat": "Vision",
-   "likes": 579
+   "likes": 1470
   },
   {
    "name": "Mistral-Large-4-1T-A52B",
@@ -432,6 +422,17 @@
    "score": 86,
    "cat": "Infrastructure",
    "likes": 1581
+  },
+  {
+   "name": "idol",
+   "org": "speridlabs",
+   "lic": "Open source",
+   "at": "2026-10-28T15:55:17.000Z",
+   "dl": 14613,
+   "grow": 36,
+   "score": 86,
+   "cat": "Vision",
+   "likes": 583
   },
   {
    "name": "Pika-H3-Flex",
@@ -796,13 +797,6 @@
    "kind": "News"
   },
   {
-   "t": "Sentra, which helps restrict and monitor data access for AI agents, raised a $150M Series C led by Capital One Ventures, taking its total funding to $250M+",
-   "url": "https://www.techmeme.com/261104/p27#a261104p27",
-   "at": "2026-11-04T13:15:20.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Very good boys? The dark, dystopian rise of robot dogs | Arwa Mahwadi",
    "url": "https://www.theguardian.com/commentisfree/2026/nov/04/robot-dogs-ice-dimensional-warhound",
    "at": "2026-11-04T11:00:09Z",
@@ -817,45 +811,52 @@
    "kind": "Lab blog"
   },
   {
-   "t": "Google researchers are fighting the company to tell the world what they know about AI",
-   "url": "https://www.nzherald.co.nz/business/google-researchers-are-fighting-the-company-to-tell-the-world-what-they-know-about-ai/XYWGEVCPEFF4PHSAH6WC533BNA/",
-   "at": "2026-11-04T04:33:06Z",
-   "src": "The New Zealand Herald",
+   "t": "US stock futures fall as early results show strong Democrats, raising concerns of policy changes",
+   "url": "https://www.aninews.in/news/business/us-stock-futures-fall-as-early-results-show-strong-democrats-raising-concerns-of-policy-changes16020261104102533/",
+   "at": "2026-11-04T04:55:33Z",
+   "src": "ANI (Asian News International)",
    "kind": "News"
   },
   {
-   "t": "Firm tied to some OpenAI, Anthropic AI hacks blames ‘error’",
-   "url": "https://www.thestar.com.my/tech/tech-news/2026/11/04/firm-tied-to-some-openai-anthropic-ai-hacks-blames-error",
-   "at": "2026-11-04T04:30:00Z",
-   "src": "The Star",
+   "t": "Michigan Prisons to Deploy AI System for Inmate Risk Classification",
+   "url": "https://www.naturalnews.com/2026-11-04-michigan-prisons-deploy-ai-inmate-risk-classification.html",
+   "at": "2026-11-04T04:55:19Z",
+   "src": "Natural News",
    "kind": "News"
   },
   {
    "t": "IndiaAI Mission's three indigenous AI models target offline mobile access, secure use in critical sectors",
-   "url": "https://www.tribuneindia.com/news/business/indiaai-missions-three-indigenous-ai-models-target-offline-mobile-access-secure-use-in-critical-sectors/",
-   "at": "2026-11-04T04:27:22Z",
-   "src": "The Tribune",
+   "url": "https://www.devdiscourse.com/article/business/4001307-indiaai-missions-three-indigenous-ai-models-target-offline-mobile-access-secure-use-in-critical-sectors",
+   "at": "2026-11-04T04:48:30Z",
+   "src": "Devdiscourse",
    "kind": "News"
   },
   {
-   "t": "World shares are mostly higher as Democrats gain majorities in both the US House and Senate",
-   "url": "https://www.ajc.com/news/2026/11/asian-shares-and-us-futures-are-mixed-as-democrats-gain-majorities-in-both-the-us-house-and-senate/",
-   "at": "2026-11-04T04:22:51Z",
-   "src": "The Atlanta Journal-Constitution",
+   "t": "After FBI arrested a Saudi National for hiding a spy device at OpenAI, employees said ‘not surprised’: Controls are so lenient that …",
+   "url": "https://timesofindia.indiatimes.com/technology/tech-news/after-fbi-arrested-a-saudi-national-for-hiding-a-spy-device-at-openai-employees-said-not-surprised-controls-are-so-lenient-that-/articleshow/135523831.cms",
+   "at": "2026-11-04T04:46:00Z",
+   "src": "Times of India",
    "kind": "News"
   },
   {
-   "t": "US futures sharply higher after Democratic route in midterm elections",
-   "url": "https://www.ajc.com/news/2026/11/world-shares-are-mostly-higher-as-democrats-gain-majorities-in-both-the-us-house-and-senate/",
-   "at": "2026-11-04T04:22:51Z",
-   "src": "The Atlanta Journal-Constitution",
+   "t": "Sarvam launches AI decision model with 44-millisecond response time, open weights for enterprises",
+   "url": "https://www.devdiscourse.com/article/business/4001287-sarvam-launches-ai-decision-model-with-44-millisecond-response-time-open-weights-for-enterprises",
+   "at": "2026-11-04T04:42:41Z",
+   "src": "Devdiscourse",
    "kind": "News"
   },
   {
-   "t": "Asian shares fall on selling of tech shares as markets watch for results of US midterm elections",
-   "url": "https://www.ajc.com/news/2026/11/asian-shares-fall-on-selling-of-tech-shares-as-markets-watch-for-results-of-us-midterm-elections/",
-   "at": "2026-11-04T04:22:51Z",
-   "src": "The Atlanta Journal-Constitution",
+   "t": "Nikkei, Kospi crash up to 4.5% as investors see Democratic win in US midterms",
+   "url": "https://www.moneycontrol.com/news/business/markets/nikkei-kospi-crash-up-to-4-5-as-investors-see-democratic-win-in-us-midterms-14068705.html",
+   "at": "2026-11-04T04:40:44Z",
+   "src": "Moneycontrol",
+   "kind": "News"
+  },
+  {
+   "t": "Human control must set limits on superintelligence, says OpenAI's Sam Altman",
+   "url": "https://www.devdiscourse.com/article/business/4001279-human-control-must-set-limits-on-superintelligence-says-openais-sam-altman",
+   "at": "2026-11-04T04:40:35Z",
+   "src": "Devdiscourse",
    "kind": "News"
   }
  ],
@@ -865,35 +866,35 @@
    "t": "AI is forcing us to pay off 40 years of technical debt",
    "url": "https://news.ycombinator.com/item?id=50364336",
    "link": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
-   "up": 558,
-   "com": 367,
+   "up": 602,
+   "com": 393,
    "at": "2026-11-04T11:52:17.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Postman silently auto-installs AI plugins and attempts to share all API data",
-   "url": "https://news.ycombinator.com/item?id=50354960",
-   "link": "https://github.com/postmanlabs/postman-app-support/issues/14370",
-   "up": 1436,
-   "com": 469,
-   "at": "2026-11-03T17:22:37.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
    "url": "https://news.ycombinator.com/item?id=50363461",
    "link": "",
-   "up": 393,
-   "com": 113,
+   "up": 418,
+   "com": 117,
    "at": "2026-11-04T10:10:27.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Postman silently auto-installs AI plugins and attempts to share all API data",
+   "url": "https://news.ycombinator.com/item?id=50354960",
+   "link": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+   "up": 1441,
+   "com": 470,
+   "at": "2026-11-03T17:22:37.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
    "url": "https://news.ycombinator.com/item?id=50362905",
    "link": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
-   "up": 403,
-   "com": 188,
+   "up": 416,
+   "com": 192,
    "at": "2026-11-04T08:46:29.000Z"
   },
   {
@@ -901,8 +902,8 @@
    "t": "Geoffrey Hinton: it might turn out we were better off without AI",
    "url": "https://news.ycombinator.com/item?id=50363554",
    "link": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
-   "up": 262,
-   "com": 220,
+   "up": 265,
+   "com": 228,
    "at": "2026-11-04T10:23:34.000Z"
   },
   {
@@ -910,8 +911,8 @@
    "t": "Debian apt security update (man-in-the-middle)",
    "url": "https://news.ycombinator.com/item?id=50366575",
    "link": "https://lists.debian.org/debian-security-announce/2026/msg00526.html?pow_referer=",
-   "up": 58,
-   "com": 8,
+   "up": 66,
+   "com": 13,
    "at": "2026-11-04T15:04:14.000Z"
   }
  ]
