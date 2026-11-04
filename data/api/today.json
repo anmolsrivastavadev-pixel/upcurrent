@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-04T14:01:03.443Z"
+  "updated": "2026-11-04T14:30:54.286Z"
  },
  "pulse": {
   "trending": 83,
   "accelerating": 1,
   "newModels": 8,
-  "discussions": 51,
-  "stars": 9115
+  "discussions": 53,
+  "stars": 9018
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 97,
-   "grow": 56,
+   "grow": 60,
    "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
    "meta": [
-    "★ 2,074",
-    "+2,557 in 24h",
+    "★ 2,128",
+    "+2,561 in 24h",
     "Created yesterday"
    ],
    "at": "2026-11-03T08:02:11Z",
@@ -41,8 +41,8 @@
    "grow": 9,
    "desc": "Towards a More Autonomous Agent System",
    "meta": [
-    "★ 18,250",
-    "+2,745 in 24h",
+    "★ 18,275",
+    "+2,688 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-31T09:32:46Z",
@@ -58,8 +58,8 @@
    "grow": 6,
    "desc": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
    "meta": [
-    "★ 8,126",
-    "+1,187 in 24h",
+    "★ 8,168",
+    "+1,231 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-29T15:41:21Z",
@@ -72,11 +72,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 91,
-   "grow": 4,
+   "grow": 5,
    "desc": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "meta": [
-    "★ 6,445",
-    "+723 in 24h",
+    "★ 6,473",
+    "+756 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-29T14:34:07Z",
@@ -124,8 +124,8 @@
    "grow": 7,
    "desc": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
    "meta": [
-    "★ 4,518",
-    "+755 in 24h",
+    "★ 4,533",
+    "+753 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-30T06:43:25Z",
@@ -141,30 +141,13 @@
    "grow": 10,
    "desc": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
    "meta": [
-    "★ 1,709",
-    "+304 in 24h",
+    "★ 1,715",
+    "+303 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-01T05:35:12Z",
    "breakout": null,
    "url": "https://github.com/caru-ini/stack-diagram"
-  },
-  {
-   "name": "claude-animated-shorts",
-   "owner": "mromidev",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 87,
-   "grow": null,
-   "desc": "Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion",
-   "meta": [
-    "★ 1,398",
-    "~418 in 24h",
-    "Created 3 days ago"
-   ],
-   "at": "2026-11-01T05:50:38Z",
-   "breakout": null,
-   "url": "https://github.com/mromidev/claude-animated-shorts"
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -181,6 +164,22 @@
    "at": "2026-10-17T02:40:38.000Z",
    "breakout": null,
    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+  },
+  {
+   "name": "idol",
+   "owner": "speridlabs",
+   "src": "hf",
+   "cat": "Vision",
+   "score": 87,
+   "grow": 36,
+   "desc": "Vision on Hugging Face · open source · ♥ 564",
+   "meta": [
+    "15K downloads",
+    "Released 7 days ago"
+   ],
+   "at": "2026-10-28T15:55:17.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/speridlabs/idol"
   }
  ],
  "breakouts": [],
@@ -189,8 +188,8 @@
    "name": "dsh-superagent-prototype",
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "from": "GitHub",
-   "use": 2745,
-   "useLabel": "+2,745 stars/day",
+   "use": 2688,
+   "useLabel": "+2,688 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -304,62 +303,53 @@
  "github": [
   {
    "repo": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 18250,
-   "d24": 2745,
+   "stars": 18275,
+   "d24": 2688,
    "est": false,
-   "forks": 1992,
+   "forks": 1996,
    "contrib": 1,
    "score": 95
   },
   {
    "repo": "KKKKhazix/agent-autoloop",
-   "stars": 2074,
-   "d24": 2557,
+   "stars": 2128,
+   "d24": 2561,
    "est": false,
-   "forks": 416,
+   "forks": 424,
    "contrib": null,
    "score": 97
   },
   {
    "repo": "heydamir/unslop",
-   "stars": 8126,
-   "d24": 1187,
+   "stars": 8168,
+   "d24": 1231,
    "est": false,
-   "forks": 405,
+   "forks": 406,
    "contrib": 3,
    "score": 92
   },
   {
-   "repo": "patch-gg/pixelfx",
-   "stars": 4518,
-   "d24": 755,
-   "est": false,
-   "forks": 601,
-   "contrib": null,
-   "score": 88
-  },
-  {
    "repo": "wangzan101/Mika",
-   "stars": 6445,
-   "d24": 723,
+   "stars": 6473,
+   "d24": 756,
    "est": false,
-   "forks": 1342,
+   "forks": 1352,
    "contrib": 42,
    "score": 91
   },
   {
-   "repo": "mromidev/claude-animated-shorts",
-   "stars": 1398,
-   "d24": 418,
-   "est": true,
-   "forks": 326,
+   "repo": "patch-gg/pixelfx",
+   "stars": 4533,
+   "d24": 753,
+   "est": false,
+   "forks": 603,
    "contrib": null,
-   "score": 87
+   "score": 88
   },
   {
    "repo": "elvarofficial/teardown",
-   "stars": 1819,
-   "d24": 307,
+   "stars": 1827,
+   "d24": 309,
    "est": false,
    "forks": 276,
    "contrib": null,
@@ -367,12 +357,21 @@
   },
   {
    "repo": "caru-ini/stack-diagram",
-   "stars": 1709,
-   "d24": 304,
+   "stars": 1715,
+   "d24": 303,
    "est": false,
    "forks": 75,
    "contrib": null,
    "score": 88
+  },
+  {
+   "repo": "mromidev/claude-animated-shorts",
+   "stars": 1402,
+   "d24": 300,
+   "est": false,
+   "forks": 328,
+   "contrib": null,
+   "score": 86
   }
  ],
  "models": [
@@ -386,7 +385,7 @@
    "grow": null,
    "score": 90,
    "cat": "Coding",
-   "likes": 1441
+   "likes": 1444
   },
   {
    "name": "LFM3-1.7B",
@@ -398,7 +397,7 @@
    "grow": null,
    "score": 89,
    "cat": "LLMs",
-   "likes": 1457
+   "likes": 1461
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -409,7 +408,7 @@
    "grow": 18,
    "score": 87,
    "cat": "Infrastructure",
-   "likes": 5229
+   "likes": 5232
   },
   {
    "name": "idol",
@@ -420,7 +419,7 @@
    "grow": 36,
    "score": 87,
    "cat": "Vision",
-   "likes": 560
+   "likes": 564
   },
   {
    "name": "Mistral-Large-4-1T-A52B",
@@ -443,7 +442,7 @@
    "grow": 18,
    "score": 86,
    "cat": "Vision",
-   "likes": 414
+   "likes": 415
   }
  ],
  "free": [
@@ -748,6 +747,27 @@
  },
  "headlines": [
   {
+   "t": "UK AI Minister Kanishka Narayan says AI is set to add £55B to £140B to the economy by 2030, below a £400B estimate from a Google-led report touted by officials",
+   "url": "https://www.techmeme.com/261104/p32#a261104p32",
+   "at": "2026-11-04T14:20:04.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Albanese government warned it’s ‘sleepwalking into another robodebt scenario’ over use of algorithms and AI",
+   "url": "https://www.theguardian.com/australia-news/2026/nov/05/albanese-government-warned-its-sleepwalking-into-another-robodebt-scenario-over-use-of-algorithms-and-ai",
+   "at": "2026-11-04T14:00:37Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "‘Discontent and distrust’: annual social cohesion checkup shows exactly what’s making Australia angry",
+   "url": "https://www.theguardian.com/australia-news/2026/nov/04/social-cohesion-report-australia-cost-of-living-economy-immigration-multiculturalism-ai-ntwnfb",
+   "at": "2026-11-04T14:00:36Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
    "t": "Sentra, which helps restrict and monitor data access for AI agents, raised a $150M Series C led by Capital One Ventures, taking its total funding to $250M+",
    "url": "https://www.techmeme.com/261104/p27#a261104p27",
    "at": "2026-11-04T13:15:20.000Z",
@@ -755,7 +775,7 @@
    "kind": "News"
   },
   {
-   "t": "AI sales automation startup Nooks secures a $500M commitment from General Catalyst's CVF, which will take a share of the returns generated by the capital",
+   "t": "AI sales automation startup Nooks secures a $500M commitment from General Catalyst's CVF, which will take a share of the returns its capital helps generate",
    "url": "https://www.techmeme.com/261104/p26#a261104p26",
    "at": "2026-11-04T13:01:11.000Z",
    "src": "Techmeme",
@@ -783,20 +803,6 @@
    "kind": "News"
   },
   {
-   "t": "Google says it expanded voluntary exit buyouts in June to employees across Canada, France, Germany, Japan, and Switzerland to manage costs amid huge AI spending",
-   "url": "https://www.techmeme.com/261104/p16#a261104p16",
-   "at": "2026-11-04T11:05:00.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Texas elects Democrats for governor and the US Senate for the first time in decades, creating uncertainty for its booming AI data center sector and Elon Musk",
-   "url": "https://www.techmeme.com/261104/p15#a261104p15",
-   "at": "2026-11-04T11:01:35.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Very good boys? The dark, dystopian rise of robot dogs | Arwa Mahwadi",
    "url": "https://www.theguardian.com/commentisfree/2026/nov/04/robot-dogs-ice-dimensional-warhound",
    "at": "2026-11-04T11:00:09Z",
@@ -811,6 +817,34 @@
    "kind": "Video"
   },
   {
+   "t": "Binance reveals fake recruitment interviews, compromised AI tool used in USD 6.34 billion cyberattack",
+   "url": "https://www.tribuneindia.com/news/business/binance-reveals-fake-recruitment-interviews-compromised-ai-tool-used-in-usd-6-34-billion-cyberattack/",
+   "at": "2026-11-04T02:27:23Z",
+   "src": "The Tribune",
+   "kind": "News"
+  },
+  {
+   "t": "AMD's OpenAI, Meta chip deals trigger $1 billion quarterly charge",
+   "url": "https://www.thestar.com.my/tech/tech-news/2026/11/04/amd039s-openai-meta-chip-deals-trigger-1-billion-quarterly-charge",
+   "at": "2026-11-04T02:18:00Z",
+   "src": "The Star",
+   "kind": "News"
+  },
+  {
+   "t": "OpenAI employees warned about operational security lapses for years, sources say",
+   "url": "https://www.japantimes.co.jp/business/2026/11/04/openai-employees-security-lapses/",
+   "at": "2026-11-04T02:13:33Z",
+   "src": "The Japan Times ",
+   "kind": "News"
+  },
+  {
+   "t": "Microsoft AI CEO Mustafa Suleyman clarifies to everyone: I stand by my view that AI does not have rights or feelings, I would change my position if ...",
+   "url": "https://timesofindia.indiatimes.com/technology/tech-news/microsoft-ai-ceo-mustafa-suleyman-clarifies-to-everyone-i-stand-by-my-view-that-ai-does-not-have-rights-or-feelings-i-would-change-my-position-if-/articleshow/135518496.cms",
+   "at": "2026-11-04T02:09:00Z",
+   "src": "Times of India",
+   "kind": "News"
+  },
+  {
    "t": "Foreign AI election interference claims under Online Safety Act probe, ministry tells Parliament",
    "url": "https://www.malaymail.com/news/malaysia/2026/11/04/foreign-ai-election-interference-claims-under-online-safety-act-probe-ministry-tells-parliament/241895",
    "at": "2026-11-04T02:00:56Z",
@@ -823,41 +857,6 @@
    "at": "2026-11-04T02:00:00Z",
    "src": "India Today",
    "kind": "News"
-  },
-  {
-   "t": "Happiest minds Q2 net profit rises 15% as AI uncertainty weighs",
-   "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/happiest-minds-q2-net-profit-rises-15-as-ai-uncertainty-weighs/articleshow/135517935.cms",
-   "at": "2026-11-04T01:48:00Z",
-   "src": "The Economic Times",
-   "kind": "News"
-  },
-  {
-   "t": "‘Schools are in control, Gemini, and Search off by default’: Google says amid controversy over Artificial Intelligence",
-   "url": "https://www.livemint.com/ai/artificial-intelligence/schools-are-in-control-gemini-and-search-off-by-default-google-says-amid-controversy-over-artificial-intelligence-11793754139400.html",
-   "at": "2026-11-04T01:18:32Z",
-   "src": "Livemint",
-   "kind": "News"
-  },
-  {
-   "t": "Google’s AI satellite sends first poem from space using onboard chip: Here’s how it worked",
-   "url": "https://www.businesstoday.in/technology/news/story/googles-ai-satellite-sends-first-poem-from-space-using-onboard-chip-heres-how-it-worked-565155-2026-11-04",
-   "at": "2026-11-04T01:00:06Z",
-   "src": "Business Today",
-   "kind": "News"
-  },
-  {
-   "t": "AI Data Centers Have a PR Problem. OpenAI Is Proposing a Rebrand",
-   "url": "https://www.cnet.com/tech/services-and-software/openai-data-centers-rebrand-midterms-pr-campaign/",
-   "at": "2026-11-04T00:22:47Z",
-   "src": "CNET",
-   "kind": "News"
-  },
-  {
-   "t": "Canva layoffs: design giant to cut or relocate more than 1,200 jobs in major restructure",
-   "url": "https://www.theguardian.com/australia-news/2026/nov/04/canva-layoffs-job-cuts-restructure",
-   "at": "2026-11-04T00:14:49Z",
-   "src": "The Guardian",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -866,8 +865,8 @@
    "t": "AI is forcing us to pay off 40 years of technical debt",
    "url": "https://news.ycombinator.com/item?id=50364336",
    "link": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
-   "up": 266,
-   "com": 152,
+   "up": 318,
+   "com": 199,
    "at": "2026-11-04T11:52:17.000Z"
   },
   {
@@ -875,8 +874,8 @@
    "t": "Postman silently auto-installs AI plugins and attempts to share all API data",
    "url": "https://news.ycombinator.com/item?id=50354960",
    "link": "https://github.com/postmanlabs/postman-app-support/issues/14370",
-   "up": 1385,
-   "com": 458,
+   "up": 1396,
+   "com": 460,
    "at": "2026-11-03T17:22:37.000Z"
   },
   {
@@ -884,8 +883,8 @@
    "t": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
    "url": "https://news.ycombinator.com/item?id=50363461",
    "link": "",
-   "up": 208,
-   "com": 55,
+   "up": 256,
+   "com": 64,
    "at": "2026-11-04T10:10:27.000Z"
   },
   {
@@ -893,27 +892,27 @@
    "t": "Geoffrey Hinton: it might turn out we were better off without AI",
    "url": "https://news.ycombinator.com/item?id=50363554",
    "link": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
-   "up": 162,
-   "com": 106,
+   "up": 192,
+   "com": 143,
    "at": "2026-11-04T10:23:34.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Debian apt security update: man-in-the-middle arbitrary code execution",
-   "url": "https://news.ycombinator.com/item?id=50364814",
-   "link": "https://lists.debian.org/debian-security-announce/2026/msg00526.html",
-   "up": 46,
-   "com": 38,
-   "at": "2026-11-04T12:46:58.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Incident with Pull Requests, Git Operations and Issues",
    "url": "https://news.ycombinator.com/item?id=50363378",
    "link": "https://www.githubstatus.com/incidents/smtdswd1h2w4",
-   "up": 136,
-   "com": 69,
+   "up": 150,
+   "com": 76,
    "at": "2026-11-04T10:00:06.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Debian apt security update: man-in-the-middle arbitrary code execution",
+   "url": "https://news.ycombinator.com/item?id=50364814",
+   "link": "https://lists.debian.org/debian-security-announce/2026/msg00526.html",
+   "up": 55,
+   "com": 50,
+   "at": "2026-11-04T12:46:58.000Z"
   }
  ]
 }
