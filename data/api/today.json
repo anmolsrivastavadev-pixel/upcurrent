@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-04T12:30:49.969Z"
+  "updated": "2026-11-04T13:01:02.063Z"
  },
  "pulse": {
   "trending": 84,
   "accelerating": 1,
-  "newModels": 7,
-  "discussions": 55,
-  "stars": 8619
+  "newModels": 8,
+  "discussions": 53,
+  "stars": 9561
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 97,
-   "grow": null,
+   "grow": 51,
    "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
    "meta": [
-    "★ 1,964",
-    "~1,655 in 24h",
+    "★ 1,999",
+    "+2,684 in 24h",
     "Created yesterday"
    ],
    "at": "2026-11-03T08:02:11Z",
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 95,
-   "grow": 8,
+   "grow": 9,
    "desc": "Towards a More Autonomous Agent System",
    "meta": [
-    "★ 18,169",
-    "+2,935 in 24h",
+    "★ 18,196",
+    "+2,866 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-31T09:32:46Z",
@@ -55,11 +55,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 92,
-   "grow": 4,
+   "grow": 5,
    "desc": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
    "meta": [
-    "★ 8,017",
-    "+1,076 in 24h",
+    "★ 8,044",
+    "+1,089 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-29T15:41:21Z",
@@ -75,8 +75,8 @@
    "grow": 4,
    "desc": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "meta": [
-    "★ 6,396",
-    "+711 in 24h",
+    "★ 6,410",
+    "+708 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-29T14:34:07Z",
@@ -90,7 +90,7 @@
    "cat": "Coding",
    "score": 90,
    "grow": 15,
-   "desc": "Model on Hugging Face · open weights · ♥ 1.2K",
+   "desc": "Model on Hugging Face · open weights · ♥ 1.3K",
    "meta": [
     "45K downloads",
     "Released 28 days ago"
@@ -124,8 +124,8 @@
    "grow": 6,
    "desc": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
    "meta": [
-    "★ 4,490",
-    "+816 in 24h",
+    "★ 4,499",
+    "+792 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-30T06:43:25Z",
@@ -141,8 +141,8 @@
    "grow": 9,
    "desc": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
    "meta": [
-    "★ 1,695",
-    "+316 in 24h",
+    "★ 1,701",
+    "+314 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-01T05:35:12Z",
@@ -158,8 +158,8 @@
    "grow": null,
    "desc": "Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion",
    "meta": [
-    "★ 1,375",
-    "~419 in 24h",
+    "★ 1,388",
+    "~421 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-01T05:50:38Z",
@@ -189,8 +189,8 @@
    "name": "dsh-superagent-prototype",
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "from": "GitHub",
-   "use": 2935,
-   "useLabel": "+2,935 stars/day",
+   "use": 2866,
+   "useLabel": "+2,866 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -220,6 +220,16 @@
   }
  ],
  "receipts": [
+  {
+   "name": "modelflare-ai/AnyModelBot",
+   "url": "https://github.com/modelflare-ai/AnyModelBot",
+   "kind": "stars",
+   "first": "2026-11-02T14:01:05.420Z",
+   "firstV": 1282,
+   "m": 2500,
+   "at": "2026-11-04T13:01:02.063Z",
+   "lead": 46.9990675
+  },
   {
    "name": "ccore/Qwen3.5-4B-3D-Coder",
    "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
@@ -289,50 +299,40 @@
    "m": 10000,
    "at": "2026-11-03T10:01:03.587Z",
    "lead": 87.92477527777778
-  },
-  {
-   "name": "amosblomqvist/learnharness",
-   "url": "https://github.com/amosblomqvist/learnharness",
-   "kind": "stars",
-   "first": "2026-10-25T00:01:06.368Z",
-   "firstV": 1032,
-   "m": 5000,
-   "at": "2026-11-03T04:30:51.550Z",
-   "lead": 220.4958838888889
   }
  ],
  "github": [
   {
    "repo": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 18169,
-   "d24": 2935,
+   "stars": 18196,
+   "d24": 2866,
    "est": false,
-   "forks": 1976,
+   "forks": 1981,
    "contrib": 1,
    "score": 95
   },
   {
    "repo": "KKKKhazix/agent-autoloop",
-   "stars": 1964,
-   "d24": 1655,
-   "est": true,
-   "forks": 394,
+   "stars": 1999,
+   "d24": 2684,
+   "est": false,
+   "forks": 402,
    "contrib": null,
    "score": 97
   },
   {
    "repo": "heydamir/unslop",
-   "stars": 8017,
-   "d24": 1076,
+   "stars": 8044,
+   "d24": 1089,
    "est": false,
-   "forks": 400,
+   "forks": 401,
    "contrib": 3,
    "score": 92
   },
   {
    "repo": "patch-gg/pixelfx",
-   "stars": 4490,
-   "d24": 816,
+   "stars": 4499,
+   "d24": 792,
    "est": false,
    "forks": 600,
    "contrib": null,
@@ -340,37 +340,37 @@
   },
   {
    "repo": "wangzan101/Mika",
-   "stars": 6396,
-   "d24": 711,
+   "stars": 6410,
+   "d24": 708,
    "est": false,
-   "forks": 1306,
+   "forks": 1318,
    "contrib": 42,
    "score": 91
   },
   {
    "repo": "mromidev/claude-animated-shorts",
-   "stars": 1375,
-   "d24": 419,
+   "stars": 1388,
+   "d24": 421,
    "est": true,
-   "forks": 318,
+   "forks": 324,
    "contrib": null,
    "score": 87
   },
   {
    "repo": "caru-ini/stack-diagram",
-   "stars": 1695,
-   "d24": 316,
+   "stars": 1701,
+   "d24": 314,
    "est": false,
-   "forks": 73,
+   "forks": 74,
    "contrib": null,
    "score": 88
   },
   {
    "repo": "elvarofficial/teardown",
-   "stars": 1801,
-   "d24": 308,
+   "stars": 1806,
+   "d24": 306,
    "est": false,
-   "forks": 272,
+   "forks": 275,
    "contrib": null,
    "score": 84
   }
@@ -386,7 +386,7 @@
    "grow": 15,
    "score": 90,
    "cat": "Coding",
-   "likes": 1172
+   "likes": 1266
   },
   {
    "name": "LFM3-1.7B",
@@ -398,7 +398,7 @@
    "grow": null,
    "score": 89,
    "cat": "LLMs",
-   "likes": 1452
+   "likes": 1453
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -409,7 +409,7 @@
    "grow": 18,
    "score": 87,
    "cat": "Infrastructure",
-   "likes": 5223
+   "likes": 5224
   },
   {
    "name": "idol",
@@ -443,7 +443,7 @@
    "grow": null,
    "score": 86,
    "cat": "Vision",
-   "likes": 410
+   "likes": 412
   }
  ],
  "free": [
@@ -807,7 +807,7 @@
    "kind": "News"
   },
   {
-   "t": "NBC exit poll: 56% said AI and data centers had been a \"crucial or a major factor\" in casting their votes for Congress, as candidates pledge to halt development",
+   "t": "NBC exit poll: 56% said AI and data centers had been a \"crucial or a major factor\" in their Congress votes, as Democratic candidates pledged to halt development",
    "url": "https://www.techmeme.com/261104/p13#a261104p13",
    "at": "2026-11-04T10:45:17.000Z",
    "src": "Techmeme",
@@ -821,18 +821,18 @@
    "kind": "News"
   },
   {
-   "t": "Industry experts warn that slow US power grid expansion could stifle its AI boom and give China an edge, as China builds power infrastructure faster",
-   "url": "https://www.techmeme.com/261104/p8#a261104p8",
-   "at": "2026-11-04T07:30:05.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Что делать, если зомбиапокалипсис застал тебя в электричке?  #ai #claude #вайбкодинг #zombie",
    "url": "https://www.youtube.com/watch?v=k1ODMaL3v0I",
    "at": "2026-11-04T03:45:02Z",
    "src": "m3nsory",
    "kind": "Video"
+  },
+  {
+   "t": "Google’s AI satellite sends first poem from space using onboard chip: Here’s how it worked",
+   "url": "https://www.businesstoday.in/technology/news/story/googles-ai-satellite-sends-first-poem-from-space-using-onboard-chip-heres-how-it-worked-565155-2026-11-04",
+   "at": "2026-11-04T01:00:06Z",
+   "src": "Business Today",
+   "kind": "News"
   },
   {
    "t": "AI Data Centers Have a PR Problem. OpenAI Is Proposing a Rebrand",
@@ -876,8 +876,8 @@
    "t": "AI is forcing us to pay off 40 years of technical debt",
    "url": "https://news.ycombinator.com/item?id=50364336",
    "link": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
-   "up": 83,
-   "com": 19,
+   "up": 157,
+   "com": 63,
    "at": "2026-11-04T11:52:17.000Z"
   },
   {
@@ -885,8 +885,8 @@
    "t": "Postman silently auto-installs AI plugins and attempts to share all API data",
    "url": "https://news.ycombinator.com/item?id=50354960",
    "link": "https://github.com/postmanlabs/postman-app-support/issues/14370",
-   "up": 1343,
-   "com": 453,
+   "up": 1356,
+   "com": 455,
    "at": "2026-11-03T17:22:37.000Z"
   },
   {
@@ -894,35 +894,35 @@
    "t": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
    "url": "https://news.ycombinator.com/item?id=50363461",
    "link": "",
-   "up": 103,
-   "com": 34,
+   "up": 131,
+   "com": 41,
    "at": "2026-11-04T10:10:27.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Incident with Pull Requests, Git Operations and Issues",
-   "url": "https://news.ycombinator.com/item?id=50363378",
-   "link": "https://www.githubstatus.com/incidents/smtdswd1h2w4",
-   "up": 104,
-   "com": 50,
-   "at": "2026-11-04T10:00:06.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Geoffrey Hinton: it might turn out we were better off without AI",
    "url": "https://news.ycombinator.com/item?id=50363554",
    "link": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
-   "up": 85,
-   "com": 57,
+   "up": 104,
+   "com": 66,
    "at": "2026-11-04T10:23:34.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Incident with Pull Requests, Git Operations and Issues",
+   "url": "https://news.ycombinator.com/item?id=50363378",
+   "link": "https://www.githubstatus.com/incidents/smtdswd1h2w4",
+   "up": 118,
+   "com": 57,
+   "at": "2026-11-04T10:00:06.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Jelly Sheet",
    "url": "https://news.ycombinator.com/item?id=50361268",
    "link": "https://mrdoob.github.io/codevember-2026/01/",
-   "up": 292,
-   "com": 76,
+   "up": 301,
+   "com": 77,
    "at": "2026-11-04T03:40:50.000Z"
   }
  ]
