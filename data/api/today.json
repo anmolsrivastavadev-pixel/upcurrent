@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-04T18:01:09.358Z"
+  "updated": "2026-11-04T18:30:52.259Z"
  },
  "pulse": {
   "trending": 83,
   "accelerating": 1,
   "newModels": 8,
-  "discussions": 51,
-  "stars": 8386
+  "discussions": 48,
+  "stars": 8187
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 97,
-   "grow": 77,
+   "grow": 78,
    "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
    "meta": [
-    "★ 2,356",
-    "+2,242 in 24h",
+    "★ 2,360",
+    "+2,154 in 24h",
     "Created yesterday"
    ],
    "at": "2026-11-03T08:02:11Z",
@@ -41,8 +41,8 @@
    "grow": 10,
    "desc": "Towards a More Autonomous Agent System",
    "meta": [
-    "★ 18,432",
-    "+2,356 in 24h",
+    "★ 18,443",
+    "+2,304 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-31T09:32:46Z",
@@ -55,11 +55,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 91,
-   "grow": 9,
+   "grow": 10,
    "desc": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
    "meta": [
-    "★ 8,399",
-    "+1,325 in 24h",
+    "★ 8,421",
+    "+1,316 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-29T15:41:21Z",
@@ -75,8 +75,8 @@
    "grow": 6,
    "desc": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "meta": [
-    "★ 6,567",
-    "+725 in 24h",
+    "★ 6,570",
+    "+704 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-29T14:34:07Z",
@@ -124,8 +124,8 @@
    "grow": 9,
    "desc": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
    "meta": [
-    "★ 4,616",
-    "+703 in 24h",
+    "★ 4,623",
+    "+690 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-30T06:43:25Z",
@@ -142,7 +142,7 @@
    "desc": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
    "meta": [
     "★ 1,730",
-    "+259 in 24h",
+    "+252 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-01T05:35:12Z",
@@ -155,7 +155,7 @@
    "src": "hf",
    "cat": "LLMs",
    "score": 87,
-   "grow": null,
+   "grow": 0,
    "desc": "Model on Hugging Face · open weights · ♥ 1.5K",
    "meta": [
     "55K downloads",
@@ -166,21 +166,20 @@
    "url": "https://huggingface.co/LiquidAI/LFM3-1.7B"
   },
   {
-   "name": "claude-animated-shorts",
-   "owner": "mromidev",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 86,
-   "grow": 10,
-   "desc": "Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion",
+   "name": "Kimi-K3.1-Pro",
+   "owner": "moonshotai",
+   "src": "hf",
+   "cat": "Vision",
+   "score": 87,
+   "grow": null,
+   "desc": "Vision on Hugging Face · open weights · ♥ 328",
    "meta": [
-    "★ 1,459",
-    "+333 in 24h",
-    "Created 4 days ago"
+    "797 downloads",
+    "Released 3 days ago"
    ],
-   "at": "2026-11-01T05:50:38Z",
+   "at": "2026-11-02T04:13:51.000Z",
    "breakout": null,
-   "url": "https://github.com/mromidev/claude-animated-shorts"
+   "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
   }
  ],
  "breakouts": [],
@@ -189,8 +188,8 @@
    "name": "dsh-superagent-prototype",
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "from": "GitHub",
-   "use": 2356,
-   "useLabel": "+2,356 stars/day",
+   "use": 2304,
+   "useLabel": "+2,304 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -304,17 +303,17 @@
  "github": [
   {
    "repo": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 18432,
-   "d24": 2356,
+   "stars": 18443,
+   "d24": 2304,
    "est": false,
-   "forks": 2044,
+   "forks": 2046,
    "contrib": 1,
    "score": 95
   },
   {
    "repo": "KKKKhazix/agent-autoloop",
-   "stars": 2356,
-   "d24": 2242,
+   "stars": 2360,
+   "d24": 2154,
    "est": false,
    "forks": 474,
    "contrib": null,
@@ -322,8 +321,8 @@
   },
   {
    "repo": "heydamir/unslop",
-   "stars": 8399,
-   "d24": 1325,
+   "stars": 8421,
+   "d24": 1316,
    "est": false,
    "forks": 419,
    "contrib": 3,
@@ -331,17 +330,17 @@
   },
   {
    "repo": "wangzan101/Mika",
-   "stars": 6567,
-   "d24": 725,
+   "stars": 6570,
+   "d24": 704,
    "est": false,
-   "forks": 1406,
+   "forks": 1408,
    "contrib": 42,
    "score": 91
   },
   {
    "repo": "patch-gg/pixelfx",
-   "stars": 4616,
-   "d24": 703,
+   "stars": 4623,
+   "d24": 690,
    "est": false,
    "forks": 617,
    "contrib": null,
@@ -349,17 +348,17 @@
   },
   {
    "repo": "elvarofficial/teardown",
-   "stars": 1867,
-   "d24": 349,
+   "stars": 1869,
+   "d24": 348,
    "est": true,
-   "forks": 278,
+   "forks": 279,
    "contrib": null,
    "score": 84
   },
   {
    "repo": "mromidev/claude-animated-shorts",
-   "stars": 1459,
-   "d24": 333,
+   "stars": 1464,
+   "d24": 329,
    "est": false,
    "forks": 338,
    "contrib": null,
@@ -368,7 +367,7 @@
   {
    "repo": "caru-ini/stack-diagram",
    "stars": 1730,
-   "d24": 259,
+   "d24": 252,
    "est": false,
    "forks": 75,
    "contrib": null,
@@ -386,7 +385,7 @@
    "grow": null,
    "score": 90,
    "cat": "Coding",
-   "likes": 1458
+   "likes": 1459
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -406,10 +405,21 @@
    "lic": "Open weights",
    "at": "2026-10-23T21:35:42.000Z",
    "dl": 54959,
-   "grow": null,
+   "grow": 0,
    "score": 87,
    "cat": "LLMs",
    "likes": 1470
+  },
+  {
+   "name": "Kimi-K3.1-Pro",
+   "org": "moonshotai",
+   "lic": "Open weights",
+   "at": "2026-11-02T04:13:51.000Z",
+   "dl": 797,
+   "grow": null,
+   "score": 87,
+   "cat": "Vision",
+   "likes": 328
   },
   {
    "name": "Mistral-Large-4-1T-A52B",
@@ -418,10 +428,10 @@
    "lic": "Open weights",
    "at": "2026-09-30T18:35:13.000Z",
    "dl": 8200,
-   "grow": null,
+   "grow": 0,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 1582
+   "likes": 1583
   },
   {
    "name": "idol",
@@ -433,17 +443,6 @@
    "score": 86,
    "cat": "Vision",
    "likes": 587
-  },
-  {
-   "name": "Pika-H3-Flex",
-   "org": "Pika-Labs",
-   "lic": "Open weights",
-   "at": "2026-10-29T17:08:44.000Z",
-   "dl": 749,
-   "grow": 18,
-   "score": 86,
-   "cat": "Vision",
-   "likes": 421
   }
  ],
  "free": [
@@ -748,6 +747,20 @@
  },
  "headlines": [
   {
+   "t": "Agile Deliberation: How AI helps humans define the gray areas",
+   "url": "https://research.google/blog/agile-deliberation-how-ai-helps-humans-define-the-gray-areas/",
+   "at": "2026-11-04T18:07:05.000Z",
+   "src": "Google Research",
+   "kind": "Lab blog"
+  },
+  {
+   "t": "Shares of US tech giants jump after Democrats' midterm sweep as investors bet that a Democrat-controlled Congress will slow AI capex that's draining cash flow",
+   "url": "https://www.techmeme.com/261104/p45#a261104p45",
+   "at": "2026-11-04T18:02:18.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
    "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
    "at": "2026-11-04T17:50:10.000Z",
@@ -839,24 +852,10 @@
    "kind": "Lab blog"
   },
   {
-   "t": "\"Global University Presidents and Leaders Summit 2026\" Concludes Successfully in Hong Kong",
-   "url": "https://www.manilatimes.net/2026/11/04/tmt-newswire/media-outreach-newswire/global-university-presidents-and-leaders-summit-2026-concludes-successfully-in-hong-kong/2461329",
-   "at": "2026-11-04T05:45:49Z",
-   "src": "The Manila Times",
-   "kind": "News"
-  },
-  {
-   "t": "Apple sends AI warning, tells it is not immune to attacks by AI Agents; they may send communication or may transactions that ...",
-   "url": "https://timesofindia.indiatimes.com/technology/tech-news/apple-sends-ai-warning-tells-it-is-not-immune-to-attacks-by-ai-agents-they-may-send-communication-or-may-transactions-that-/articleshow/135525745.cms",
-   "at": "2026-11-04T05:45:00Z",
-   "src": "Times of India",
-   "kind": "News"
-  },
-  {
-   "t": "Apple AI tools come to China after two-year delay",
-   "url": "https://www.bangkokpost.com/world/3348560/apple-ai-tools-come-to-china-after-twoyear-delay",
-   "at": "2026-11-04T05:45:00Z",
-   "src": "Bangkok Post",
+   "t": "OpenAI CEO Sam Altman Has A Warning On Superintelligence, 'People...'",
+   "url": "https://www.timesnownews.com/technology-science/openai-ceo-sam-altman-has-a-warning-on-superintelligence-people-article-156462132",
+   "at": "2026-11-04T06:12:07Z",
+   "src": "Times Now",
    "kind": "News"
   }
  ],
@@ -866,8 +865,8 @@
    "t": "AI is forcing us to pay off 40 years of technical debt",
    "url": "https://news.ycombinator.com/item?id=50364336",
    "link": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
-   "up": 693,
-   "com": 438,
+   "up": 734,
+   "com": 453,
    "at": "2026-11-04T11:52:17.000Z"
   },
   {
@@ -875,8 +874,8 @@
    "t": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
    "url": "https://news.ycombinator.com/item?id=50363461",
    "link": "",
-   "up": 462,
-   "com": 123,
+   "up": 490,
+   "com": 127,
    "at": "2026-11-04T10:10:27.000Z"
   },
   {
@@ -884,8 +883,8 @@
    "t": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
    "url": "https://news.ycombinator.com/item?id=50362905",
    "link": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
-   "up": 451,
-   "com": 198,
+   "up": 475,
+   "com": 206,
    "at": "2026-11-04T08:46:29.000Z"
   },
   {
@@ -893,26 +892,26 @@
    "t": "Geoffrey Hinton: it might turn out we were better off without AI",
    "url": "https://news.ycombinator.com/item?id=50363554",
    "link": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
-   "up": 269,
-   "com": 247,
+   "up": 275,
+   "com": 255,
    "at": "2026-11-04T10:23:34.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Debian apt security update (man-in-the-middle)",
-   "url": "https://news.ycombinator.com/item?id=50366575",
-   "link": "https://lists.debian.org/debian-security-announce/2026/msg00526.html?pow_referer=",
-   "up": 84,
-   "com": 16,
-   "at": "2026-11-04T15:04:14.000Z"
+   "t": "BYD doubles its Brazil market share to 9.7% a year after opening its local plant",
+   "url": "https://news.ycombinator.com/item?id=50369146",
+   "link": "https://www.bloomberg.com/news/articles/2026-11-03/china-s-byd-doubles-market-share-in-brazil-with-new-plant-eyed",
+   "up": 29,
+   "com": 11,
+   "at": "2026-11-04T17:55:29.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Jelly Sheet",
    "url": "https://news.ycombinator.com/item?id=50361268",
    "link": "https://mrdoob.github.io/codevember-2026/01/",
-   "up": 398,
-   "com": 104,
+   "up": 407,
+   "com": 105,
    "at": "2026-11-04T03:40:50.000Z"
   }
  ]
