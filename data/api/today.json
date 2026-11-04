@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-04T18:30:52.259Z"
+  "updated": "2026-11-04T18:51:42.043Z"
  },
  "pulse": {
   "trending": 83,
   "accelerating": 1,
   "newModels": 8,
-  "discussions": 48,
-  "stars": 8187
+  "discussions": 51,
+  "stars": 8066
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 78,
    "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
    "meta": [
-    "★ 2,360",
-    "+2,154 in 24h",
+    "★ 2,364",
+    "+2,099 in 24h",
     "Created yesterday"
    ],
    "at": "2026-11-03T08:02:11Z",
@@ -41,8 +41,8 @@
    "grow": 10,
    "desc": "Towards a More Autonomous Agent System",
    "meta": [
-    "★ 18,443",
-    "+2,304 in 24h",
+    "★ 18,449",
+    "+2,268 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-31T09:32:46Z",
@@ -58,8 +58,8 @@
    "grow": 10,
    "desc": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
    "meta": [
-    "★ 8,421",
-    "+1,316 in 24h",
+    "★ 8,435",
+    "+1,307 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-29T15:41:21Z",
@@ -75,8 +75,8 @@
    "grow": 6,
    "desc": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "meta": [
-    "★ 6,570",
-    "+704 in 24h",
+    "★ 6,573",
+    "+692 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-29T14:34:07Z",
@@ -106,7 +106,7 @@
    "cat": "Infrastructure",
    "score": 89,
    "grow": 18,
-   "desc": "Model on Hugging Face · open source · ♥ 5.2K",
+   "desc": "Model on Hugging Face · open source · ♥ 5.3K",
    "meta": [
     "222K downloads",
     "Released 19 days ago"
@@ -124,9 +124,9 @@
    "grow": 9,
    "desc": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
    "meta": [
-    "★ 4,623",
+    "★ 4,633",
     "+690 in 24h",
-    "Created 5 days ago"
+    "Created 6 days ago"
    ],
    "at": "2026-10-30T06:43:25Z",
    "breakout": null,
@@ -141,13 +141,29 @@
    "grow": 11,
    "desc": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
    "meta": [
-    "★ 1,730",
-    "+252 in 24h",
+    "★ 1,731",
+    "+248 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-01T05:35:12Z",
    "breakout": null,
    "url": "https://github.com/caru-ini/stack-diagram"
+  },
+  {
+   "name": "idol",
+   "owner": "speridlabs",
+   "src": "hf",
+   "cat": "Vision",
+   "score": 88,
+   "grow": 36,
+   "desc": "Vision on Hugging Face · open source · ♥ 590",
+   "meta": [
+    "15K downloads",
+    "Released 7 days ago"
+   ],
+   "at": "2026-10-28T15:55:17.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/speridlabs/idol"
   },
   {
    "name": "LFM3-1.7B",
@@ -164,22 +180,6 @@
    "at": "2026-10-23T21:35:42.000Z",
    "breakout": null,
    "url": "https://huggingface.co/LiquidAI/LFM3-1.7B"
-  },
-  {
-   "name": "Kimi-K3.1-Pro",
-   "owner": "moonshotai",
-   "src": "hf",
-   "cat": "Vision",
-   "score": 87,
-   "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 328",
-   "meta": [
-    "797 downloads",
-    "Released 3 days ago"
-   ],
-   "at": "2026-11-02T04:13:51.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
   }
  ],
  "breakouts": [],
@@ -188,8 +188,8 @@
    "name": "dsh-superagent-prototype",
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "from": "GitHub",
-   "use": 2304,
-   "useLabel": "+2,304 stars/day",
+   "use": 2268,
+   "useLabel": "+2,268 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -303,62 +303,62 @@
  "github": [
   {
    "repo": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 18443,
-   "d24": 2304,
+   "stars": 18449,
+   "d24": 2268,
    "est": false,
-   "forks": 2046,
+   "forks": 2050,
    "contrib": 1,
    "score": 95
   },
   {
    "repo": "KKKKhazix/agent-autoloop",
-   "stars": 2360,
-   "d24": 2154,
+   "stars": 2364,
+   "d24": 2099,
    "est": false,
-   "forks": 474,
+   "forks": 477,
    "contrib": null,
    "score": 97
   },
   {
    "repo": "heydamir/unslop",
-   "stars": 8421,
-   "d24": 1316,
+   "stars": 8435,
+   "d24": 1307,
    "est": false,
-   "forks": 419,
+   "forks": 420,
    "contrib": 3,
    "score": 91
   },
   {
    "repo": "wangzan101/Mika",
-   "stars": 6570,
-   "d24": 704,
+   "stars": 6573,
+   "d24": 692,
    "est": false,
-   "forks": 1408,
-   "contrib": 42,
+   "forks": 1409,
+   "contrib": 44,
    "score": 91
   },
   {
    "repo": "patch-gg/pixelfx",
-   "stars": 4623,
+   "stars": 4633,
    "d24": 690,
    "est": false,
-   "forks": 617,
+   "forks": 619,
    "contrib": null,
    "score": 88
   },
   {
    "repo": "elvarofficial/teardown",
-   "stars": 1869,
-   "d24": 348,
+   "stars": 1871,
+   "d24": 347,
    "est": true,
-   "forks": 279,
+   "forks": 280,
    "contrib": null,
    "score": 84
   },
   {
    "repo": "mromidev/claude-animated-shorts",
-   "stars": 1464,
-   "d24": 329,
+   "stars": 1468,
+   "d24": 327,
    "est": false,
    "forks": 338,
    "contrib": null,
@@ -366,8 +366,8 @@
   },
   {
    "repo": "caru-ini/stack-diagram",
-   "stars": 1730,
-   "d24": 252,
+   "stars": 1731,
+   "d24": 248,
    "est": false,
    "forks": 75,
    "contrib": null,
@@ -385,7 +385,7 @@
    "grow": null,
    "score": 90,
    "cat": "Coding",
-   "likes": 1459
+   "likes": 1460
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -396,7 +396,18 @@
    "grow": 18,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 5249
+   "likes": 5251
+  },
+  {
+   "name": "idol",
+   "org": "speridlabs",
+   "lic": "Open source",
+   "at": "2026-10-28T15:55:17.000Z",
+   "dl": 14613,
+   "grow": 36,
+   "score": 88,
+   "cat": "Vision",
+   "likes": 590
   },
   {
    "name": "LFM3-1.7B",
@@ -408,7 +419,7 @@
    "grow": 0,
    "score": 87,
    "cat": "LLMs",
-   "likes": 1470
+   "likes": 1472
   },
   {
    "name": "Kimi-K3.1-Pro",
@@ -419,30 +430,18 @@
    "grow": null,
    "score": 87,
    "cat": "Vision",
-   "likes": 328
+   "likes": 347
   },
   {
-   "name": "Mistral-Large-4-1T-A52B",
-   "org": "mistralai",
-   "size": "52B",
+   "name": "Pika-H3-Flex",
+   "org": "Pika-Labs",
    "lic": "Open weights",
-   "at": "2026-09-30T18:35:13.000Z",
-   "dl": 8200,
-   "grow": 0,
-   "score": 86,
-   "cat": "Infrastructure",
-   "likes": 1583
-  },
-  {
-   "name": "idol",
-   "org": "speridlabs",
-   "lic": "Open source",
-   "at": "2026-10-28T15:55:17.000Z",
-   "dl": 14613,
-   "grow": 36,
+   "at": "2026-10-29T17:08:44.000Z",
+   "dl": 749,
+   "grow": 18,
    "score": 86,
    "cat": "Vision",
-   "likes": 587
+   "likes": 421
   }
  ],
  "free": [
@@ -747,6 +746,13 @@
  },
  "headlines": [
   {
+   "t": "Meta acquires Conductor, which lets developers run multiple AI coding agents in parallel; CEO Charlie Holtz says the team will join Meta Superintelligence Labs",
+   "url": "https://www.techmeme.com/261104/p46#a261104p46",
+   "at": "2026-11-04T18:50:00.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Agile Deliberation: How AI helps humans define the gray areas",
    "url": "https://research.google/blog/agile-deliberation-how-ai-helps-humans-define-the-gray-areas/",
    "at": "2026-11-04T18:07:05.000Z",
@@ -850,13 +856,6 @@
    "at": "2026-11-04T07:00:00.000Z",
    "src": "OpenAI",
    "kind": "Lab blog"
-  },
-  {
-   "t": "OpenAI CEO Sam Altman Has A Warning On Superintelligence, 'People...'",
-   "url": "https://www.timesnownews.com/technology-science/openai-ceo-sam-altman-has-a-warning-on-superintelligence-people-article-156462132",
-   "at": "2026-11-04T06:12:07Z",
-   "src": "Times Now",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -865,8 +864,8 @@
    "t": "AI is forcing us to pay off 40 years of technical debt",
    "url": "https://news.ycombinator.com/item?id=50364336",
    "link": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
-   "up": 734,
-   "com": 453,
+   "up": 760,
+   "com": 465,
    "at": "2026-11-04T11:52:17.000Z"
   },
   {
@@ -874,17 +873,26 @@
    "t": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
    "url": "https://news.ycombinator.com/item?id=50363461",
    "link": "",
-   "up": 490,
-   "com": 127,
+   "up": 500,
+   "com": 129,
    "at": "2026-11-04T10:10:27.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "BYD doubles its Brazil market share to 9.7% a year after opening its local plant",
+   "url": "https://news.ycombinator.com/item?id=50369146",
+   "link": "https://www.bloomberg.com/news/articles/2026-11-03/china-s-byd-doubles-market-share-in-brazil-with-new-plant-eyed",
+   "up": 51,
+   "com": 21,
+   "at": "2026-11-04T17:55:29.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
    "url": "https://news.ycombinator.com/item?id=50362905",
    "link": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
-   "up": 475,
-   "com": 206,
+   "up": 485,
+   "com": 216,
    "at": "2026-11-04T08:46:29.000Z"
   },
   {
@@ -892,26 +900,17 @@
    "t": "Geoffrey Hinton: it might turn out we were better off without AI",
    "url": "https://news.ycombinator.com/item?id=50363554",
    "link": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
-   "up": 275,
-   "com": 255,
+   "up": 279,
+   "com": 256,
    "at": "2026-11-04T10:23:34.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "BYD doubles its Brazil market share to 9.7% a year after opening its local plant",
-   "url": "https://news.ycombinator.com/item?id=50369146",
-   "link": "https://www.bloomberg.com/news/articles/2026-11-03/china-s-byd-doubles-market-share-in-brazil-with-new-plant-eyed",
-   "up": 29,
-   "com": 11,
-   "at": "2026-11-04T17:55:29.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Jelly Sheet",
    "url": "https://news.ycombinator.com/item?id=50361268",
    "link": "https://mrdoob.github.io/codevember-2026/01/",
-   "up": 407,
-   "com": 105,
+   "up": 410,
+   "com": 106,
    "at": "2026-11-04T03:40:50.000Z"
   }
  ]
