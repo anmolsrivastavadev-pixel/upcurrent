@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-04T08:01:03.284Z"
+  "updated": "2026-11-04T08:30:50.766Z"
  },
  "pulse": {
-  "trending": 84,
+  "trending": 85,
   "accelerating": 0,
   "newModels": 7,
-  "discussions": 51,
-  "stars": 9424
+  "discussions": 50,
+  "stars": 9756
  },
  "rising": [
   {
@@ -24,9 +24,9 @@
    "grow": null,
    "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
    "meta": [
-    "★ 1,494",
-    "~1,495 in 24h",
-    "Created 24h ago"
+    "★ 1,577",
+    "~1,546 in 24h",
+    "Created yesterday"
    ],
    "at": "2026-11-03T08:02:11Z",
    "breakout": null,
@@ -41,8 +41,8 @@
    "grow": 6,
    "desc": "Towards a More Autonomous Agent System",
    "meta": [
-    "★ 17,737",
-    "+3,339 in 24h",
+    "★ 17,811",
+    "+3,355 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-10-31T09:32:46Z",
@@ -58,8 +58,8 @@
    "grow": null,
    "desc": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
    "meta": [
-    "★ 7,802",
-    "~1,374 in 24h",
+    "★ 7,822",
+    "~1,372 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-29T15:41:21Z",
@@ -75,8 +75,8 @@
    "grow": null,
    "desc": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "meta": [
-    "★ 6,233",
-    "~1,088 in 24h",
+    "★ 6,245",
+    "~1,087 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-29T14:34:07Z",
@@ -108,8 +108,8 @@
    "grow": null,
    "desc": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
    "meta": [
-    "★ 4,322",
-    "~855 in 24h",
+    "★ 4,345",
+    "~856 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-30T06:43:25Z",
@@ -138,16 +138,33 @@
    "src": "gh",
    "cat": "Agents",
    "score": 88,
-   "grow": null,
+   "grow": 6,
    "desc": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
    "meta": [
-    "★ 1,650",
-    "~532 in 24h",
+    "★ 1,657",
+    "+369 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-01T05:35:12Z",
    "breakout": null,
    "url": "https://github.com/caru-ini/stack-diagram"
+  },
+  {
+   "name": "claude-animated-shorts",
+   "owner": "mromidev",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 87,
+   "grow": null,
+   "desc": "Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion",
+   "meta": [
+    "★ 1,327",
+    "~427 in 24h",
+    "Created 3 days ago"
+   ],
+   "at": "2026-11-01T05:50:38Z",
+   "breakout": null,
+   "url": "https://github.com/mromidev/claude-animated-shorts"
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -164,22 +181,6 @@
    "at": "2026-10-17T02:40:38.000Z",
    "breakout": null,
    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
-  },
-  {
-   "name": "idol",
-   "owner": "speridlabs",
-   "src": "hf",
-   "cat": "Vision",
-   "score": 87,
-   "grow": 0,
-   "desc": "Vision on Hugging Face · open source · ♥ 536",
-   "meta": [
-    "11K downloads",
-    "Released 7 days ago"
-   ],
-   "at": "2026-10-28T15:55:17.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/speridlabs/idol"
   }
  ],
  "breakouts": [],
@@ -188,8 +189,8 @@
    "name": "dsh-superagent-prototype",
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "from": "GitHub",
-   "use": 3339,
-   "useLabel": "+3,339 stars/day",
+   "use": 3355,
+   "useLabel": "+3,355 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -303,75 +304,75 @@
  "github": [
   {
    "repo": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 17737,
-   "d24": 3339,
+   "stars": 17811,
+   "d24": 3355,
    "est": false,
-   "forks": 1917,
+   "forks": 1926,
    "contrib": 1,
    "score": 95
   },
   {
    "repo": "KKKKhazix/agent-autoloop",
-   "stars": 1494,
-   "d24": 1495,
+   "stars": 1577,
+   "d24": 1546,
    "est": true,
-   "forks": 303,
+   "forks": 319,
    "contrib": null,
    "score": 97
   },
   {
    "repo": "heydamir/unslop",
-   "stars": 7802,
-   "d24": 1374,
+   "stars": 7822,
+   "d24": 1372,
    "est": true,
-   "forks": 389,
+   "forks": 392,
    "contrib": 3,
    "score": 92
   },
   {
    "repo": "wangzan101/Mika",
-   "stars": 6233,
-   "d24": 1088,
+   "stars": 6245,
+   "d24": 1087,
    "est": true,
-   "forks": 1216,
+   "forks": 1218,
    "contrib": 42,
    "score": 91
   },
   {
    "repo": "patch-gg/pixelfx",
-   "stars": 4322,
-   "d24": 855,
+   "stars": 4345,
+   "d24": 856,
    "est": true,
-   "forks": 583,
+   "forks": 584,
    "contrib": null,
    "score": 89
   },
   {
-   "repo": "caru-ini/stack-diagram",
-   "stars": 1650,
-   "d24": 532,
+   "repo": "mromidev/claude-animated-shorts",
+   "stars": 1327,
+   "d24": 427,
    "est": true,
+   "forks": 306,
+   "contrib": null,
+   "score": 87
+  },
+  {
+   "repo": "caru-ini/stack-diagram",
+   "stars": 1657,
+   "d24": 369,
+   "est": false,
    "forks": 72,
    "contrib": null,
    "score": 88
   },
   {
    "repo": "paipiange/nvzhuang",
-   "stars": 2152,
-   "d24": 354,
+   "stars": 2153,
+   "d24": 353,
    "est": true,
-   "forks": 550,
+   "forks": 551,
    "contrib": null,
-   "score": 83
-  },
-  {
-   "repo": "elvarofficial/teardown",
-   "stars": 1752,
-   "d24": 326,
-   "est": false,
-   "forks": 265,
-   "contrib": null,
-   "score": 85
+   "score": 82
   }
  ],
  "models": [
@@ -385,7 +386,7 @@
    "grow": 0,
    "score": 90,
    "cat": "LLMs",
-   "likes": 1429
+   "likes": 1431
   },
   {
    "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
@@ -408,7 +409,7 @@
    "grow": null,
    "score": 87,
    "cat": "Infrastructure",
-   "likes": 4883
+   "likes": 4925
   },
   {
    "name": "idol",
@@ -419,7 +420,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Vision",
-   "likes": 536
+   "likes": 537
   },
   {
    "name": "Pika-H3-Flex",
@@ -442,7 +443,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 1556
+   "likes": 1559
   }
  ],
  "free": [
@@ -855,17 +856,17 @@
    "kind": "News"
   },
   {
-   "t": "International Experts Explore the Future of More Resilient and Competitive North American Supply Chains",
-   "url": "https://www.manilatimes.net/2026/11/04/tmt-newswire/globenewswire/international-experts-explore-the-future-of-more-resilient-and-competitive-north-american-supply-chains/2461049",
-   "at": "2026-11-03T19:48:05Z",
-   "src": "The Manila Times",
+   "t": "Morocco, UAE Should Make Partnership Opportunities Visible to Smaller Firms",
+   "url": "https://www.europesays.com/3350832/",
+   "at": "2026-11-03T20:11:26Z",
+   "src": "EUROPE SAYS",
    "kind": "News"
   },
   {
-   "t": "AI boom to drive demand for clean, affordable power: Pralhad Joshi",
-   "url": "https://economictimes.indiatimes.com/industry/energy/power/ai-boom-to-drive-demand-for-clean-affordable-power-pralhad-joshi/articleshow/135512277.cms",
-   "at": "2026-11-03T19:38:00Z",
-   "src": "The Economic Times",
+   "t": "Google will cut off search access for students at schools that reject AI",
+   "url": "https://triblive.com/news/world/google-will-cut-off-search-access-for-students-at-schools-that-reject-ai/",
+   "at": "2026-11-03T20:08:24Z",
+   "src": "Pittsburgh Tribune-Review",
    "kind": "News"
   }
  ],
@@ -875,8 +876,8 @@
    "t": "Postman silently auto-installs AI plugins and attempts to share all API data",
    "url": "https://news.ycombinator.com/item?id=50354960",
    "link": "https://github.com/postmanlabs/postman-app-support/issues/14370",
-   "up": 1207,
-   "com": 394,
+   "up": 1228,
+   "com": 400,
    "at": "2026-11-03T17:22:37.000Z"
   },
   {
@@ -884,8 +885,8 @@
    "t": "Jelly Sheet",
    "url": "https://news.ycombinator.com/item?id=50361268",
    "link": "https://mrdoob.github.io/codevember-2026/01/",
-   "up": 161,
-   "com": 37,
+   "up": 186,
+   "com": 42,
    "at": "2026-11-04T03:40:50.000Z"
   },
   {
@@ -893,7 +894,7 @@
    "t": "Google will turn off search for schools that reject AI",
    "url": "https://news.ycombinator.com/item?id=50353192",
    "link": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html",
-   "up": 605,
+   "up": 608,
    "com": 429,
    "at": "2026-11-03T15:25:47.000Z"
   },
@@ -902,8 +903,8 @@
    "t": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months",
    "url": "https://news.ycombinator.com/item?id=50358422",
    "link": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months",
-   "up": 337,
-   "com": 142,
+   "up": 342,
+   "com": 143,
    "at": "2026-11-03T21:26:44.000Z"
   },
   {
@@ -911,8 +912,8 @@
    "t": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
    "url": "https://news.ycombinator.com/item?id=50358582",
    "link": "https://arxiv.org/abs/2605.29713",
-   "up": 327,
-   "com": 50,
+   "up": 330,
+   "com": 51,
    "at": "2026-11-03T21:40:53.000Z"
   },
   {
@@ -920,7 +921,7 @@
    "t": "OpenAI seems to be silently re-enabling model training on Codex chats",
    "url": "https://news.ycombinator.com/item?id=50352757",
    "link": "",
-   "up": 469,
+   "up": 474,
    "com": 144,
    "at": "2026-11-03T14:53:41.000Z"
   }
