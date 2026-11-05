@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-05T16:01:04.791Z"
+  "updated": "2026-11-05T16:30:54.784Z"
  },
  "pulse": {
-  "trending": 80,
+  "trending": 79,
   "accelerating": 1,
   "newModels": 9,
-  "discussions": 37,
-  "stars": 6763
+  "discussions": 35,
+  "stars": 5551
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "Google_AI_Pro_2Year_ZeroCost_Auto",
    "meta": [
-    "★ 1,922",
-    "~1,838 in 24h",
+    "★ 1,971",
+    "~1,848 in 24h",
     "Created yesterday"
    ],
    "at": "2026-11-04T14:54:56Z",
@@ -37,33 +37,16 @@
    "owner": "moonshotai",
    "src": "hf",
    "cat": "Vision",
-   "score": 96,
+   "score": 95,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 809",
+   "desc": "Vision on Hugging Face · open weights · ♥ 819",
    "meta": [
     "12K downloads",
-    "Released 3 days ago"
+    "Released 4 days ago"
    ],
    "at": "2026-11-02T04:13:51.000Z",
    "breakout": null,
    "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
-  },
-  {
-   "name": "agent-autoloop",
-   "owner": "KKKKhazix",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 95,
-   "grow": 17,
-   "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
-   "meta": [
-    "★ 3,144",
-    "+877 in 24h",
-    "Created 2 days ago"
-   ],
-   "at": "2026-11-03T08:02:11Z",
-   "breakout": null,
-   "url": "https://github.com/KKKKhazix/agent-autoloop"
   },
   {
    "name": "dsh-superagent-prototype",
@@ -74,13 +57,30 @@
    "grow": 5,
    "desc": "Towards a More Autonomous Agent System",
    "meta": [
-    "★ 19,335",
-    "+1,088 in 24h",
+    "★ 19,351",
+    "+1,080 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-31T09:32:46Z",
    "breakout": null,
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
+  },
+  {
+   "name": "agent-autoloop",
+   "owner": "KKKKhazix",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 94,
+   "grow": 17,
+   "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
+   "meta": [
+    "★ 3,150",
+    "+855 in 24h",
+    "Created 2 days ago"
+   ],
+   "at": "2026-11-03T08:02:11Z",
+   "breakout": null,
+   "url": "https://github.com/KKKKhazix/agent-autoloop"
   },
   {
    "name": "idol",
@@ -89,7 +89,7 @@
    "cat": "Vision",
    "score": 89,
    "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 692",
+   "desc": "Vision on Hugging Face · open source · ♥ 697",
    "meta": [
     "17K downloads",
     "Released 8 days ago"
@@ -105,7 +105,7 @@
    "cat": "Vision",
    "score": 88,
    "grow": 15,
-   "desc": "Vision on Hugging Face · open weights · ♥ 452",
+   "desc": "Vision on Hugging Face · open weights · ♥ 453",
    "meta": [
     "863 downloads",
     "Released 7 days ago"
@@ -113,23 +113,6 @@
    "at": "2026-10-29T17:08:44.000Z",
    "breakout": null,
    "url": "https://huggingface.co/Pika-Labs/Pika-H3-Flex"
-  },
-  {
-   "name": "pixelfx",
-   "owner": "patch-gg",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 87,
-   "grow": 10,
-   "desc": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
-   "meta": [
-    "★ 5,180",
-    "+753 in 24h",
-    "Created 6 days ago"
-   ],
-   "at": "2026-10-30T06:43:25Z",
-   "breakout": null,
-   "url": "https://github.com/patch-gg/pixelfx"
   },
   {
    "name": "Mistral-Large-4-1T-A52B",
@@ -148,6 +131,23 @@
    "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B"
   },
   {
+   "name": "pixelfx",
+   "owner": "patch-gg",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 86,
+   "grow": 10,
+   "desc": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
+   "meta": [
+    "★ 5,189",
+    "+742 in 24h",
+    "Created 6 days ago"
+   ],
+   "at": "2026-10-30T06:43:25Z",
+   "breakout": null,
+   "url": "https://github.com/patch-gg/pixelfx"
+  },
+  {
    "name": "stack-diagram",
    "owner": "caru-ini",
    "src": "gh",
@@ -156,7 +156,7 @@
    "grow": 6,
    "desc": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
    "meta": [
-    "★ 1,843",
+    "★ 1,846",
     "+141 in 24h",
     "Created 4 days ago"
    ],
@@ -173,8 +173,8 @@
    "grow": 7,
    "desc": "Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion",
    "meta": [
-    "★ 1,661",
-    "+223 in 24h",
+    "★ 1,665",
+    "+222 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-01T05:50:38Z",
@@ -210,8 +210,8 @@
    "name": "Google_AI_Pro_2Year_ZeroCost_Auto",
    "url": "https://github.com/worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
    "from": "GitHub",
-   "use": 1838,
-   "useLabel": "~1,838 stars/day",
+   "use": 1848,
+   "useLabel": "~1,848 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -325,73 +325,73 @@
  "github": [
   {
    "repo": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
-   "stars": 1922,
-   "d24": 1838,
+   "stars": 1971,
+   "d24": 1848,
    "est": true,
-   "forks": 857,
+   "forks": 861,
    "contrib": null,
    "score": 97
   },
   {
-   "repo": "JuneYaooo/rea-video",
-   "stars": 1865,
-   "d24": 1178,
-   "est": false,
-   "forks": 260,
-   "contrib": null,
-   "score": 76
-  },
-  {
    "repo": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 19335,
-   "d24": 1088,
+   "stars": 19351,
+   "d24": 1080,
    "est": false,
-   "forks": 2203,
+   "forks": 2205,
    "contrib": 1,
    "score": 94
   },
   {
    "repo": "KKKKhazix/agent-autoloop",
-   "stars": 3144,
-   "d24": 877,
+   "stars": 3150,
+   "d24": 855,
    "est": false,
-   "forks": 586,
+   "forks": 587,
    "contrib": null,
-   "score": 95
+   "score": 94
   },
   {
    "repo": "patch-gg/pixelfx",
-   "stars": 5180,
-   "d24": 753,
+   "stars": 5189,
+   "d24": 742,
    "est": false,
    "forks": 690,
    "contrib": 1,
-   "score": 87
+   "score": 86
   },
   {
    "repo": "elvarofficial/teardown",
-   "stars": 2113,
-   "d24": 337,
+   "stars": 2117,
+   "d24": 336,
    "est": true,
-   "forks": 327,
+   "forks": 328,
    "contrib": null,
    "score": 81
   },
   {
    "repo": "wquguru/cicada",
-   "stars": 1453,
-   "d24": 328,
+   "stars": 1457,
+   "d24": 327,
    "est": true,
-   "forks": 261,
+   "forks": 262,
    "contrib": null,
    "score": 82
   },
   {
    "repo": "mromidev/claude-animated-shorts",
-   "stars": 1661,
-   "d24": 223,
+   "stars": 1665,
+   "d24": 222,
    "est": false,
-   "forks": 371,
+   "forks": 372,
+   "contrib": null,
+   "score": 85
+  },
+  {
+   "repo": "caru-ini/stack-diagram",
+   "stars": 1846,
+   "d24": 141,
+   "est": false,
+   "forks": 87,
    "contrib": null,
    "score": 85
   }
@@ -404,9 +404,9 @@
    "at": "2026-11-02T04:13:51.000Z",
    "dl": 11658,
    "grow": null,
-   "score": 96,
+   "score": 95,
    "cat": "Vision",
-   "likes": 809
+   "likes": 819
   },
   {
    "name": "idol",
@@ -417,7 +417,7 @@
    "grow": null,
    "score": 89,
    "cat": "Vision",
-   "likes": 692
+   "likes": 697
   },
   {
    "name": "Pika-H3-Flex",
@@ -428,7 +428,7 @@
    "grow": 15,
    "score": 88,
    "cat": "Vision",
-   "likes": 452
+   "likes": 453
   },
   {
    "name": "Mistral-Large-4-1T-A52B",
@@ -440,7 +440,7 @@
    "grow": 17,
    "score": 87,
    "cat": "Infrastructure",
-   "likes": 1605
+   "likes": 1606
   },
   {
    "name": "Qwen3.5-4B-3D-Coder",
@@ -452,7 +452,7 @@
    "grow": 27,
    "score": 84,
    "cat": "Coding",
-   "likes": 681
+   "likes": 683
   },
   {
    "name": "Sulphur-3",
@@ -463,7 +463,7 @@
    "grow": 15,
    "score": 84,
    "cat": "Tools",
-   "likes": 371
+   "likes": 373
   }
  ],
  "free": [
@@ -739,6 +739,27 @@
  },
  "headlines": [
   {
+   "t": "Detecting signs of hypertension using wearable sensors",
+   "url": "https://research.google/blog/detecting-signs-of-hypertension-using-wearable-sensors/",
+   "at": "2026-11-05T16:01:08.000Z",
+   "src": "Google Research",
+   "kind": "Lab blog"
+  },
+  {
+   "t": "The Wizard of Open Weights: Chris Alexiuk Makes AI Easy With Open Models",
+   "url": "https://blogs.nvidia.com/blog/nvidia-life-chris-alexiuk/",
+   "at": "2026-11-05T16:00:05.000Z",
+   "src": "NVIDIA",
+   "kind": "Lab blog"
+  },
+  {
+   "t": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge",
+   "url": "https://blogs.nvidia.com/blog/memory-full-stack-codesign/",
+   "at": "2026-11-05T16:00:00.000Z",
+   "src": "NVIDIA",
+   "kind": "Lab blog"
+  },
+  {
    "t": "Mercedes-Benz rolls out conversational models that run directly on its cars instead of the cloud through a partnership with MIT spinout Liquid AI",
    "url": "https://www.techmeme.com/261105/p32#a261105p32",
    "at": "2026-11-05T15:45:01.000Z",
@@ -774,13 +795,6 @@
    "kind": "News"
   },
   {
-   "t": "Study: UK consumer AI spending passes £1B annually, with 5.1% of adults paying for subscriptions as of July 2026; Claude is rapidly catching up to ChatGPT",
-   "url": "https://www.techmeme.com/261105/p18#a261105p18",
-   "at": "2026-11-05T11:40:08.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Activists across Europe prepare two days of protests against datacentres",
    "url": "https://www.theguardian.com/world/2026/nov/05/activists-across-europe-protests-ai-against-datacentres",
    "at": "2026-11-05T09:00:01Z",
@@ -792,6 +806,34 @@
    "url": "https://www.theguardian.com/world/2026/nov/05/uk-dangerously-reliant-on-china-critical-minerals-military-ai-renewable-energy",
    "at": "2026-11-05T05:00:55Z",
    "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "OpenAI says unreleased AI model exposed 948 cyber flaws in Linux, cost $1.2 million",
+   "url": "https://www.indiatoday.in/technology/news/story/openai-says-unreleased-ai-model-exposed-948-cyber-flaws-in-linux-cost-12-million-3032646-2026-11-05",
+   "at": "2026-11-05T04:28:32Z",
+   "src": "India Today",
+   "kind": "News"
+  },
+  {
+   "t": "Laos, China agree to strengthen rail links, economic corridor and AI cooperation",
+   "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/05/laos-china-agree-to-strengthen-rail-links-economic-corridor-and-ai-cooperation",
+   "at": "2026-11-05T04:24:00Z",
+   "src": "The Star",
+   "kind": "News"
+  },
+  {
+   "t": "Google extends voluntary buyout offers to employees in several countries",
+   "url": "https://www.thehindu.com/sci-tech/technology/google-extends-voluntary-buyout-offers-to-employees-in-several-countries/article71668483.ece",
+   "at": "2026-11-05T04:05:02Z",
+   "src": "The Hindu",
+   "kind": "News"
+  },
+  {
+   "t": "OpenAI Acquires Pierre Computer Company To Expand Codex AI Coding Tools & Strengthen AI-Powered Software Development",
+   "url": "https://www.freepressjournal.in/tech/openai-acquires-pierre-computer-company-to-expand-codex-ai-coding-tools-strengthen-ai-powered-software-development-2",
+   "at": "2026-11-05T04:02:23Z",
+   "src": "Free Press Journal",
    "kind": "News"
   },
   {
@@ -807,48 +849,6 @@
    "at": "2026-11-05T03:56:00Z",
    "src": "Times of India",
    "kind": "News"
-  },
-  {
-   "t": "OpenAI says ready to IPO in 2027, now counts majority of sales from enterprises",
-   "url": "https://www.thehindu.com/sci-tech/technology/openai-says-ready-to-ipo-in-2027-now-counts-majority-of-sales-from-enterprises/article71668478.ece",
-   "at": "2026-11-05T03:47:01Z",
-   "src": "The Hindu",
-   "kind": "News"
-  },
-  {
-   "t": "Anthropic executive Cat Wu joins OpenAI to lead product management for core products",
-   "url": "https://www.indiatoday.in/technology/news/story/anthropic-executive-cat-wu-joins-openai-to-lead-product-management-for-core-products-3032623-2026-11-05",
-   "at": "2026-11-05T03:32:36Z",
-   "src": "India Today",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI to acquire Pierre Computer Company to expand Codex coding tools",
-   "url": "https://www.thehindubusinessline.com/info-tech/openai-to-acquire-pierre-computer-company-to-expand-codex-coding-capabilities/article71668505.ece",
-   "at": "2026-11-05T03:30:25Z",
-   "src": "The Hindu Business Line",
-   "kind": "News"
-  },
-  {
-   "t": "Google turning off AI for schoolchildren by default",
-   "url": "https://www.bangkokpost.com/life/tech/3349121/google-turning-off-ai-for-schoolchildren-by-default",
-   "at": "2026-11-05T03:15:00Z",
-   "src": "Bangkok Post",
-   "kind": "News"
-  },
-  {
-   "t": "World shares mostly gain after US midterm elections as AI-related stocks sink",
-   "url": "https://www.ajc.com/news/2026/11/asian-shares-are-mixed-after-us-midterm-elections-as-ai-related-stocks-sink-in-japan-and-south-korea/",
-   "at": "2026-11-05T03:03:03Z",
-   "src": "The Atlanta Journal-Constitution",
-   "kind": "News"
-  },
-  {
-   "t": "MegazoneSoft Achieves Two Google Cloud Advanced Competencies Simultaneously",
-   "url": "https://www.manilatimes.net/2026/11/05/tmt-newswire/pr-newswire/megazonesoft-achieves-two-google-cloud-advanced-competencies-simultaneously/2462421",
-   "at": "2026-11-05T02:49:26Z",
-   "src": "The Manila Times",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -857,8 +857,8 @@
    "t": "Awesome repositories are no longer awesome",
    "url": "https://news.ycombinator.com/item?id=50377821",
    "link": "https://erikgahner.github.io/posts/2026/awesome-repositories-are-no-longer-awesome/",
-   "up": 172,
-   "com": 90,
+   "up": 188,
+   "com": 95,
    "at": "2026-11-05T11:16:51.000Z"
   },
   {
@@ -866,7 +866,7 @@
    "t": "Lemmings CSS Animation",
    "url": "https://news.ycombinator.com/item?id=50375354",
    "link": "https://markblah.github.io/lemmings/",
-   "up": 318,
+   "up": 330,
    "com": 64,
    "at": "2026-11-05T04:54:10.000Z"
   },
@@ -875,8 +875,8 @@
    "t": "A thousand fewer paths to root",
    "url": "https://news.ycombinator.com/item?id=50372929",
    "link": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
-   "up": 445,
-   "com": 326,
+   "up": 451,
+   "com": 330,
    "at": "2026-11-04T23:33:14.000Z"
   },
   {
@@ -884,8 +884,8 @@
    "t": "Images 2.6",
    "url": "https://news.ycombinator.com/item?id=50372945",
    "link": "https://openai.com/index/introducing-images-2-6/",
-   "up": 364,
-   "com": 218,
+   "up": 367,
+   "com": 219,
    "at": "2026-11-04T23:35:44.000Z"
   },
   {
@@ -893,8 +893,8 @@
    "t": "GPT-6 Astra covertly underperforms on safety research",
    "url": "https://news.ycombinator.com/item?id=50376313",
    "link": "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/",
-   "up": 116,
-   "com": 42,
+   "up": 132,
+   "com": 50,
    "at": "2026-11-05T07:44:30.000Z"
   },
   {
@@ -902,8 +902,8 @@
    "t": "Show HN: After a decade of reversing, I got co-op working in DOS Wing Commander",
    "url": "https://news.ycombinator.com/item?id=50369895",
    "link": "https://fireflyk64.github.io/wcmulti/",
-   "up": 236,
-   "com": 32,
+   "up": 238,
+   "com": 33,
    "at": "2026-11-04T18:51:27.000Z"
   }
  ]
