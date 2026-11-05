@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-05T09:30:50.478Z"
+  "updated": "2026-11-05T10:00:58.978Z"
  },
  "pulse": {
   "trending": 81,
   "accelerating": 0,
   "newModels": 10,
-  "discussions": 55,
-  "stars": 5726
+  "discussions": 53,
+  "stars": 5763
  },
  "rising": [
   {
@@ -21,16 +21,32 @@
    "src": "gh",
    "cat": "Agents",
    "score": 96,
-   "grow": 10,
+   "grow": 11,
    "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
    "meta": [
-    "★ 2,959",
-    "+1,088 in 24h",
+    "★ 2,979",
+    "+1,078 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-03T08:02:11Z",
    "breakout": null,
    "url": "https://github.com/KKKKhazix/agent-autoloop"
+  },
+  {
+   "name": "Kimi-K3.1-Pro",
+   "owner": "moonshotai",
+   "src": "hf",
+   "cat": "Vision",
+   "score": 96,
+   "grow": 0,
+   "desc": "Vision on Hugging Face · open weights · ♥ 684",
+   "meta": [
+    "797 downloads",
+    "Released 3 days ago"
+   ],
+   "at": "2026-11-02T04:13:51.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
   },
   {
    "name": "dsh-superagent-prototype",
@@ -41,29 +57,13 @@
    "grow": 3,
    "desc": "Towards a More Autonomous Agent System",
    "meta": [
-    "★ 19,086",
-    "+1,180 in 24h",
+    "★ 19,106",
+    "+1,171 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-31T09:32:46Z",
    "breakout": null,
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
-  },
-  {
-   "name": "Kimi-K3.1-Pro",
-   "owner": "moonshotai",
-   "src": "hf",
-   "cat": "Vision",
-   "score": 94,
-   "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 677",
-   "meta": [
-    "797 downloads",
-    "Released 3 days ago"
-   ],
-   "at": "2026-11-02T04:13:51.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
   },
   {
    "name": "unslop",
@@ -74,8 +74,8 @@
    "grow": 4,
    "desc": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
    "meta": [
-    "★ 9,029",
-    "+1,017 in 24h",
+    "★ 9,053",
+    "+1,025 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-29T15:41:21Z",
@@ -88,11 +88,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 90,
-   "grow": 3,
+   "grow": 4,
    "desc": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "meta": [
-    "★ 6,882",
-    "+687 in 24h",
+    "★ 6,897",
+    "+689 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-29T14:34:07Z",
@@ -100,20 +100,20 @@
    "url": "https://github.com/wangzan101/Mika"
   },
   {
-   "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
-   "owner": "nvidia",
+   "name": "idol",
+   "owner": "speridlabs",
    "src": "hf",
-   "cat": "Coding",
+   "cat": "Vision",
    "score": 90,
    "grow": 0,
-   "desc": "Model on Hugging Face · open weights · ♥ 3K",
+   "desc": "Vision on Hugging Face · open source · ♥ 659",
    "meta": [
-    "45K downloads",
-    "Released 28 days ago"
+    "15K downloads",
+    "Released 8 days ago"
    ],
-   "at": "2026-10-07T22:50:21.000Z",
+   "at": "2026-10-28T15:55:17.000Z",
    "breakout": null,
-   "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B"
+   "url": "https://huggingface.co/speridlabs/idol"
   },
   {
    "name": "pixelfx",
@@ -124,8 +124,8 @@
    "grow": 6,
    "desc": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
    "meta": [
-    "★ 4,987",
-    "+786 in 24h",
+    "★ 5,014",
+    "+816 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-30T06:43:25Z",
@@ -133,20 +133,36 @@
    "url": "https://github.com/patch-gg/pixelfx"
   },
   {
-   "name": "idol",
-   "owner": "speridlabs",
+   "name": "Pika-H3-Flex",
+   "owner": "Pika-Labs",
    "src": "hf",
    "cat": "Vision",
    "score": 88,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open source · ♥ 657",
+   "desc": "Vision on Hugging Face · open weights · ♥ 439",
    "meta": [
-    "15K downloads",
-    "Released 8 days ago"
+    "749 downloads",
+    "Released 7 days ago"
    ],
-   "at": "2026-10-28T15:55:17.000Z",
+   "at": "2026-10-29T17:08:44.000Z",
    "breakout": null,
-   "url": "https://huggingface.co/speridlabs/idol"
+   "url": "https://huggingface.co/Pika-Labs/Pika-H3-Flex"
+  },
+  {
+   "name": "Mistral-Large-4-1T-A52B",
+   "owner": "mistralai",
+   "src": "hf",
+   "cat": "Infrastructure",
+   "score": 87,
+   "grow": null,
+   "desc": "Model on Hugging Face · open weights · ♥ 1.6K",
+   "meta": [
+    "8.2K downloads",
+    "Released 36 days ago"
+   ],
+   "at": "2026-09-30T18:35:13.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B"
   },
   {
    "name": "stack-diagram",
@@ -157,30 +173,13 @@
    "grow": 4,
    "desc": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
    "meta": [
-    "★ 1,802",
-    "+135 in 24h",
+    "★ 1,809",
+    "+144 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-01T05:35:12Z",
    "breakout": null,
    "url": "https://github.com/caru-ini/stack-diagram"
-  },
-  {
-   "name": "claude-animated-shorts",
-   "owner": "mromidev",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 86,
-   "grow": null,
-   "desc": "Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion",
-   "meta": [
-    "★ 1,606",
-    "~387 in 24h",
-    "Created 4 days ago"
-   ],
-   "at": "2026-11-01T05:50:38Z",
-   "breakout": null,
-   "url": "https://github.com/mromidev/claude-animated-shorts"
   }
  ],
  "breakouts": [],
@@ -189,8 +188,8 @@
    "name": "dsh-superagent-prototype",
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "from": "GitHub",
-   "use": 1180,
-   "useLabel": "+1,180 stars/day",
+   "use": 1171,
+   "useLabel": "+1,171 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -220,6 +219,16 @@
   }
  ],
  "receipts": [
+  {
+   "name": "patch-gg/pixelfx",
+   "url": "https://github.com/patch-gg/pixelfx",
+   "kind": "stars",
+   "first": "2026-10-31T20:00:55.579Z",
+   "firstV": 1276,
+   "m": 5000,
+   "at": "2026-11-05T10:00:58.978Z",
+   "lead": 110.00094416666667
+  },
   {
    "name": "wheresryan22/anatomy",
    "url": "https://github.com/wheresryan22/anatomy",
@@ -289,32 +298,22 @@
    "m": 5000,
    "at": "2026-11-04T05:31:01.034Z",
    "lead": 250.54225194444444
-  },
-  {
-   "name": "openbmb/MiniCPM-OCR-1.0",
-   "url": "https://huggingface.co/openbmb/MiniCPM-OCR-1.0",
-   "kind": "downloads",
-   "first": "2026-10-28T13:01:10.926Z",
-   "firstV": 791,
-   "m": 10000,
-   "at": "2026-11-04T02:01:05.562Z",
-   "lead": 156.99851
   }
  ],
  "github": [
   {
    "repo": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 19086,
-   "d24": 1180,
+   "stars": 19106,
+   "d24": 1171,
    "est": false,
-   "forks": 2170,
+   "forks": 2173,
    "contrib": 1,
    "score": 94
   },
   {
    "repo": "KKKKhazix/agent-autoloop",
-   "stars": 2959,
-   "d24": 1088,
+   "stars": 2979,
+   "d24": 1078,
    "est": false,
    "forks": 566,
    "contrib": null,
@@ -322,35 +321,35 @@
   },
   {
    "repo": "heydamir/unslop",
-   "stars": 9029,
-   "d24": 1017,
+   "stars": 9053,
+   "d24": 1025,
    "est": false,
-   "forks": 451,
+   "forks": 453,
    "contrib": 3,
    "score": 91
   },
   {
    "repo": "patch-gg/pixelfx",
-   "stars": 4987,
-   "d24": 786,
+   "stars": 5014,
+   "d24": 816,
    "est": false,
-   "forks": 669,
+   "forks": 670,
    "contrib": 1,
    "score": 88
   },
   {
    "repo": "wangzan101/Mika",
-   "stars": 6882,
-   "d24": 687,
+   "stars": 6897,
+   "d24": 689,
    "est": false,
-   "forks": 1522,
+   "forks": 1527,
    "contrib": 44,
    "score": 90
   },
   {
    "repo": "mromidev/claude-animated-shorts",
-   "stars": 1606,
-   "d24": 387,
+   "stars": 1609,
+   "d24": 385,
    "est": true,
    "forks": 361,
    "contrib": null,
@@ -358,19 +357,19 @@
   },
   {
    "repo": "JuneYaooo/rea-video",
-   "stars": 1577,
-   "d24": 235,
+   "stars": 1600,
+   "d24": 237,
    "est": true,
-   "forks": 227,
+   "forks": 231,
    "contrib": null,
    "score": 77
   },
   {
    "repo": "elvarofficial/teardown",
-   "stars": 2003,
-   "d24": 211,
+   "stars": 2013,
+   "d24": 218,
    "est": false,
-   "forks": 310,
+   "forks": 313,
    "contrib": null,
    "score": 82
   }
@@ -383,21 +382,9 @@
    "at": "2026-11-02T04:13:51.000Z",
    "dl": 797,
    "grow": 0,
-   "score": 94,
+   "score": 96,
    "cat": "Vision",
-   "likes": 677
-  },
-  {
-   "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
-   "org": "nvidia",
-   "size": "30B",
-   "lic": "Open weights",
-   "at": "2026-10-07T22:50:21.000Z",
-   "dl": 44939,
-   "grow": 0,
-   "score": 90,
-   "cat": "Coding",
-   "likes": 3030
+   "likes": 684
   },
   {
    "name": "idol",
@@ -406,20 +393,20 @@
    "at": "2026-10-28T15:55:17.000Z",
    "dl": 14613,
    "grow": 0,
-   "score": 88,
+   "score": 90,
    "cat": "Vision",
-   "likes": 657
+   "likes": 659
   },
   {
-   "name": "DeepSeek-V4.1-Flash-1017",
-   "org": "deepseek-ai",
-   "lic": "Open source",
-   "at": "2026-10-17T02:40:38.000Z",
-   "dl": 221621,
+   "name": "Pika-H3-Flex",
+   "org": "Pika-Labs",
+   "lic": "Open weights",
+   "at": "2026-10-29T17:08:44.000Z",
+   "dl": 749,
    "grow": 0,
-   "score": 86,
-   "cat": "Infrastructure",
-   "likes": 5309
+   "score": 88,
+   "cat": "Vision",
+   "likes": 439
   },
   {
    "name": "Mistral-Large-4-1T-A52B",
@@ -429,20 +416,32 @@
    "at": "2026-09-30T18:35:13.000Z",
    "dl": 8200,
    "grow": null,
-   "score": 84,
+   "score": 87,
    "cat": "Infrastructure",
-   "likes": 1595
+   "likes": 1597
   },
   {
-   "name": "Pika-H3-Flex",
-   "org": "Pika-Labs",
+   "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+   "org": "nvidia",
+   "size": "30B",
    "lic": "Open weights",
-   "at": "2026-10-29T17:08:44.000Z",
-   "dl": 749,
-   "grow": null,
+   "at": "2026-10-07T22:50:21.000Z",
+   "dl": 44939,
+   "grow": 0,
    "score": 84,
-   "cat": "Vision",
-   "likes": 438
+   "cat": "Coding",
+   "likes": 3034
+  },
+  {
+   "name": "Sulphur-3",
+   "org": "FusionCow",
+   "lic": "Open weights",
+   "at": "2026-10-31T20:31:01.000Z",
+   "dl": 528,
+   "grow": 0,
+   "score": 84,
+   "cat": "Tools",
+   "likes": 367
   }
  ],
  "free": [
@@ -810,38 +809,38 @@
    "kind": "News"
   },
   {
-   "t": "Indra leads Spanish alliance to protect Europe's underwater critical infrastructure",
-   "url": "https://www.euronews.com/2026/11/04/indra-leads-spanish-alliance-to-protect-europes-underwater-critical-infrastructure",
-   "at": "2026-11-04T21:29:07Z",
-   "src": "Euronews",
+   "t": "ready ontology, should not end with developing models",
+   "url": "https://www.koreatimes.co.kr/business/tech-science/20261105/roundtable-korea-needs-ai-ready-ontology-should-not-end-with-developing-models",
+   "at": "2026-11-04T22:00:05Z",
+   "src": "The Korea Times",
    "kind": "News"
   },
   {
-   "t": "OpenAI is already trying to shape the 2028 election",
-   "url": "https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/",
-   "at": "2026-11-04T21:25:44Z",
-   "src": "TechCrunch",
+   "t": "AI movies make leap from short clips to big screen",
+   "url": "https://www.koreatimes.co.kr/entertainment/films/20261105/ai-movies-make-leap-from-short-clips-to-big-screen",
+   "at": "2026-11-04T22:00:04Z",
+   "src": "The Korea Times",
    "kind": "News"
   },
   {
-   "t": "Generative AI fills gaps in brain wiring maps where MRI scans lose signal",
-   "url": "https://medicalxpress.com/news/2026-11-generative-ai-gaps-brain-wiring.html",
-   "at": "2026-11-04T21:20:07Z",
-   "src": "Medical Xpress",
+   "t": "Sam Altman: You’re Completely Right About RAM. I’m Sorry for the Confusion. Here’s What Happened",
+   "url": "https://gizmodo.com/sam-altman-youre-completely-right-about-ram-im-sorry-for-the-confusion-heres-what-happened-2000835208",
+   "at": "2026-11-04T21:45:49Z",
+   "src": "Gizmodo",
    "kind": "News"
   },
   {
-   "t": "To preserve the free press, courts must protect copyright",
-   "url": "https://www.postandcourier.com/opinion/commentary/preserve-free-press-courts-must-protect-copyright/article_1c8f9288-c067-45ef-8e9e-aa5b725b926f.html",
-   "at": "2026-11-04T21:15:00Z",
-   "src": "Charleston Post and Courier",
+   "t": "Figma (FIG) Q3 earnings report 2026",
+   "url": "https://www.cnbc.com/2026/11/04/figma-fig-q3-earnings-report-2026.html",
+   "at": "2026-11-04T21:38:33Z",
+   "src": "CNBC",
    "kind": "News"
   },
   {
-   "t": "OpenAI to acquire developer tooling startup Pierre Computer",
-   "url": "https://siliconangle.com/2026/11/04/openai-to-acquire-developer-tooling-startup-pierre-computer/",
-   "at": "2026-11-04T21:14:48Z",
-   "src": "SiliconANGLE News",
+   "t": "Arm Holdings 2Q Sales Climb 27% on AI Demand",
+   "url": "https://www.marketscreener.com/news/arm-holdings-2q-sales-climb-27-on-ai-demand-ce785fdfd18aff24",
+   "at": "2026-11-04T21:32:33Z",
+   "src": "MarketScreener",
    "kind": "News"
   }
  ],
@@ -851,8 +850,8 @@
    "t": "AI is forcing us to pay off 40 years of technical debt",
    "url": "https://news.ycombinator.com/item?id=50364336",
    "link": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
-   "up": 1177,
-   "com": 685,
+   "up": 1182,
+   "com": 694,
    "at": "2026-11-04T11:52:17.000Z"
   },
   {
@@ -860,8 +859,8 @@
    "t": "Lemmings CSS Animation",
    "url": "https://news.ycombinator.com/item?id=50375354",
    "link": "https://markblah.github.io/lemmings/",
-   "up": 159,
-   "com": 33,
+   "up": 169,
+   "com": 35,
    "at": "2026-11-05T04:54:10.000Z"
   },
   {
@@ -869,8 +868,8 @@
    "t": "A thousand fewer paths to root",
    "url": "https://news.ycombinator.com/item?id=50372929",
    "link": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
-   "up": 321,
-   "com": 232,
+   "up": 330,
+   "com": 238,
    "at": "2026-11-04T23:33:14.000Z"
   },
   {
@@ -878,8 +877,8 @@
    "t": "Images 2.6",
    "url": "https://news.ycombinator.com/item?id=50372945",
    "link": "https://openai.com/index/introducing-images-2-6/",
-   "up": 286,
-   "com": 172,
+   "up": 295,
+   "com": 174,
    "at": "2026-11-04T23:35:44.000Z"
   },
   {
@@ -892,13 +891,12 @@
    "at": "2026-11-04T10:10:27.000Z"
   },
   {
-   "src": "Hacker News",
-   "t": "Ask HN: What's your current AI agentic setup?",
-   "url": "https://news.ycombinator.com/item?id=50366117",
-   "link": "",
-   "up": 319,
-   "com": 336,
-   "at": "2026-11-04T14:37:22.000Z"
+   "src": "DEV",
+   "t": "A Maintainer's Advice on Contributing to Open Source in 2026",
+   "url": "https://dev.to/wasp/a-maintainers-advice-on-contributing-to-open-source-in-2026-4ea1",
+   "up": 18,
+   "com": 1,
+   "at": "2026-11-05T09:21:35Z"
   }
  ]
 }
