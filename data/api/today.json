@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-05T21:30:51.590Z"
+  "updated": "2026-11-05T21:57:30.190Z"
  },
  "pulse": {
   "trending": 79,
   "accelerating": 0,
   "newModels": 7,
-  "discussions": 41,
-  "stars": 7917
+  "discussions": 40,
+  "stars": 7820
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Tools",
    "score": 97,
-   "grow": 55,
+   "grow": 56,
    "desc": "Google_AI_Pro_2Year_ZeroCost_Auto",
    "meta": [
-    "★ 2,241",
-    "+1,822 in 24h",
+    "★ 2,249",
+    "+1,766 in 24h",
     "Created yesterday"
    ],
    "at": "2026-11-04T14:54:56Z",
@@ -39,7 +39,7 @@
    "cat": "Vision",
    "score": 95,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 890",
+   "desc": "Vision on Hugging Face · open weights · ♥ 896",
    "meta": [
     "12K downloads",
     "Released 4 days ago"
@@ -47,23 +47,6 @@
    "at": "2026-11-02T04:13:51.000Z",
    "breakout": null,
    "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
-  },
-  {
-   "name": "dsh-superagent-prototype",
-   "owner": "deepseek-ai",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 94,
-   "grow": null,
-   "desc": "Towards a More Autonomous Agent System",
-   "meta": [
-    "★ 19,425",
-    "~3,533 in 24h",
-    "Created 5 days ago"
-   ],
-   "at": "2026-10-31T09:32:46Z",
-   "breakout": null,
-   "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
   },
   {
    "name": "agent-autoloop",
@@ -74,8 +57,8 @@
    "grow": 20,
    "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
    "meta": [
-    "★ 3,215",
-    "+704 in 24h",
+    "★ 3,217",
+    "+690 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-03T08:02:11Z",
@@ -83,13 +66,30 @@
    "url": "https://github.com/KKKKhazix/agent-autoloop"
   },
   {
+   "name": "dsh-superagent-prototype",
+   "owner": "deepseek-ai",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 93,
+   "grow": null,
+   "desc": "Towards a More Autonomous Agent System",
+   "meta": [
+    "★ 19,439",
+    "~3,523 in 24h",
+    "Created 6 days ago"
+   ],
+   "at": "2026-10-31T09:32:46Z",
+   "breakout": null,
+   "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
+  },
+  {
    "name": "idol",
    "owner": "speridlabs",
    "src": "hf",
    "cat": "Vision",
    "score": 89,
-   "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 752",
+   "grow": 0,
+   "desc": "Vision on Hugging Face · open source · ♥ 755",
    "meta": [
     "17K downloads",
     "Released 8 days ago"
@@ -123,8 +123,8 @@
    "grow": null,
    "desc": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
    "meta": [
-    "★ 5,240",
-    "~792 in 24h",
+    "★ 5,241",
+    "~790 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-30T06:43:25Z",
@@ -132,20 +132,20 @@
    "url": "https://github.com/patch-gg/pixelfx"
   },
   {
-   "name": "Mistral-Large-4-1T-A52B",
-   "owner": "mistralai",
+   "name": "Qwen3.5-4B-3D-Coder",
+   "owner": "ccore",
    "src": "hf",
-   "cat": "Infrastructure",
+   "cat": "Coding",
    "score": 86,
-   "grow": 17,
-   "desc": "Model on Hugging Face · open weights · ♥ 1.6K",
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 695",
    "meta": [
-    "9.6K downloads",
-    "Released 36 days ago"
+    "157K downloads",
+    "Released 12 days ago"
    ],
-   "at": "2026-09-30T18:35:13.000Z",
+   "at": "2026-10-25T05:43:34.000Z",
    "breakout": null,
-   "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B"
+   "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder"
   },
   {
    "name": "stack-diagram",
@@ -156,8 +156,8 @@
    "grow": null,
    "desc": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
    "meta": [
-    "★ 1,862",
-    "~399 in 24h",
+    "★ 1,863",
+    "~398 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-11-01T05:35:12Z",
@@ -174,7 +174,7 @@
    "grow": null,
    "desc": "Streaming video understanding requires models to repeatedly decide whether to respond or continue observing.",
    "meta": [
-    "▲ 112 upvotes",
+    "▲ 114 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-11-03T19:00:00.000Z",
@@ -238,8 +238,8 @@
    "name": "dsh-superagent-prototype",
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "from": "GitHub",
-   "use": 3533,
-   "useLabel": "~3,533 stars/day",
+   "use": 3523,
+   "useLabel": "~3,523 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -353,26 +353,26 @@
  "github": [
   {
    "repo": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 19425,
-   "d24": 3533,
+   "stars": 19439,
+   "d24": 3523,
    "est": true,
    "forks": 2218,
    "contrib": 1,
-   "score": 94
+   "score": 93
   },
   {
    "repo": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
-   "stars": 2241,
-   "d24": 1822,
+   "stars": 2249,
+   "d24": 1766,
    "est": false,
-   "forks": 933,
+   "forks": 936,
    "contrib": null,
    "score": 97
   },
   {
    "repo": "patch-gg/pixelfx",
-   "stars": 5240,
-   "d24": 792,
+   "stars": 5241,
+   "d24": 790,
    "est": true,
    "forks": 694,
    "contrib": 1,
@@ -380,8 +380,8 @@
   },
   {
    "repo": "KKKKhazix/agent-autoloop",
-   "stars": 3215,
-   "d24": 704,
+   "stars": 3217,
+   "d24": 690,
    "est": false,
    "forks": 594,
    "contrib": null,
@@ -389,8 +389,8 @@
   },
   {
    "repo": "caru-ini/stack-diagram",
-   "stars": 1862,
-   "d24": 399,
+   "stars": 1863,
+   "d24": 398,
    "est": true,
    "forks": 87,
    "contrib": null,
@@ -398,8 +398,8 @@
   },
   {
    "repo": "elvarofficial/teardown",
-   "stars": 2161,
-   "d24": 323,
+   "stars": 2165,
+   "d24": 318,
    "est": false,
    "forks": 334,
    "contrib": null,
@@ -407,17 +407,17 @@
   },
   {
    "repo": "mromidev/claude-animated-shorts",
-   "stars": 1710,
+   "stars": 1714,
    "d24": 220,
    "est": false,
-   "forks": 382,
+   "forks": 383,
    "contrib": null,
    "score": 84
   },
   {
    "repo": "wquguru/cicada",
    "stars": 1476,
-   "d24": 124,
+   "d24": 115,
    "est": false,
    "forks": 266,
    "contrib": null,
@@ -434,7 +434,7 @@
    "grow": 0,
    "score": 95,
    "cat": "Vision",
-   "likes": 890
+   "likes": 896
   },
   {
    "name": "idol",
@@ -442,10 +442,10 @@
    "lic": "Open source",
    "at": "2026-10-28T15:55:17.000Z",
    "dl": 17180,
-   "grow": null,
+   "grow": 0,
    "score": 89,
    "cat": "Vision",
-   "likes": 752
+   "likes": 755
   },
   {
    "name": "Pika-H3-Flex",
@@ -459,18 +459,6 @@
    "likes": 466
   },
   {
-   "name": "Mistral-Large-4-1T-A52B",
-   "org": "mistralai",
-   "size": "52B",
-   "lic": "Open weights",
-   "at": "2026-09-30T18:35:13.000Z",
-   "dl": 9592,
-   "grow": 17,
-   "score": 86,
-   "cat": "Infrastructure",
-   "likes": 1611
-  },
-  {
    "name": "Qwen3.5-4B-3D-Coder",
    "org": "ccore",
    "size": "4B",
@@ -478,9 +466,21 @@
    "at": "2026-10-25T05:43:34.000Z",
    "dl": 157157,
    "grow": null,
-   "score": 84,
+   "score": 86,
    "cat": "Coding",
-   "likes": 694
+   "likes": 695
+  },
+  {
+   "name": "Mistral-Large-4-1T-A52B",
+   "org": "mistralai",
+   "size": "52B",
+   "lic": "Open weights",
+   "at": "2026-09-30T18:35:13.000Z",
+   "dl": 9592,
+   "grow": 17,
+   "score": 84,
+   "cat": "Infrastructure",
+   "likes": 1612
   },
   {
    "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
@@ -768,6 +768,20 @@
  },
  "headlines": [
   {
+   "t": "California State Senator Scott Wiener, author of AI safety law SB 53, won Tuesday's election to succeed Pelosi in the US House, campaigning on AI regulation",
+   "url": "https://www.techmeme.com/261105/p53#a261105p53",
+   "at": "2026-11-05T21:35:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "METR: Anthropic redacted much of the \"most informative\" evidence from METR's 100-page report, so readers \"must rely on our judgment more than we consider ideal\"",
+   "url": "https://www.techmeme.com/261105/p52#a261105p52",
+   "at": "2026-11-05T21:30:03.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Nasdaq sees worst day in 18 months as investors bet on AI slowdown after Democrats’ election triumph",
    "url": "https://www.theguardian.com/business/2026/nov/05/nasdaq-heading-for-worst-day-in-18-months-as-wall-street-sustains-widespread-losses",
    "at": "2026-11-05T21:23:18Z",
@@ -845,25 +859,11 @@
    "kind": "Lab blog"
   },
   {
-   "t": "Defense tech startup Shield AI raises $2.5B to help acquire radar company Echodyne, including a $1B Series H at a $28.8B valuation, up from $12.7B in March",
-   "url": "https://www.techmeme.com/261105/p39#a261105p39",
-   "at": "2026-11-05T17:01:37.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
    "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
    "at": "2026-11-05T17:00:35.000Z",
    "src": "NVIDIA",
    "kind": "Lab blog"
-  },
-  {
-   "t": "Aina, which raised $5.5M, launches an \"AI ring\" with a screen, joystick, and mic to let users talk to their AI agents, take notes, control Apple TV, and more",
-   "url": "https://www.techmeme.com/261105/p38#a261105p38",
-   "at": "2026-11-05T16:50:12.000Z",
-   "src": "Techmeme",
-   "kind": "News"
   },
   {
    "t": "Detecting signs of hypertension using wearable sensors",
@@ -886,8 +886,8 @@
    "t": "The Hackintosh Reborn",
    "url": "https://news.ycombinator.com/item?id=50383057",
    "link": "https://www.naut.ca/blog/2026/11/05/the-hackintosh-reborn-with-ai/",
-   "up": 103,
-   "com": 28,
+   "up": 117,
+   "com": 37,
    "at": "2026-11-05T19:08:22.000Z"
   },
   {
@@ -895,8 +895,8 @@
    "t": "Nasdaq Sinks 5% as Investors Retreat from AI Trade After Election",
    "url": "https://news.ycombinator.com/item?id=50382179",
    "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026",
-   "up": 139,
-   "com": 160,
+   "up": 140,
+   "com": 163,
    "at": "2026-11-05T18:00:01.000Z"
   },
   {
@@ -904,8 +904,8 @@
    "t": "Window Sweaters",
    "url": "https://news.ycombinator.com/item?id=50381383",
    "link": "https://github.com/saragordic/window-sweaters",
-   "up": 161,
-   "com": 60,
+   "up": 173,
+   "com": 65,
    "at": "2026-11-05T16:50:14.000Z"
   },
   {
@@ -913,8 +913,8 @@
    "t": "My psychophysics as a bilateral cochlear implant user",
    "url": "https://news.ycombinator.com/item?id=50381033",
    "link": "https://claude.ai/artifact/L8qsMc3SorytGW3LA81nYf",
-   "up": 141,
-   "com": 39,
+   "up": 142,
+   "com": 41,
    "at": "2026-11-05T16:21:12.000Z"
   },
   {
@@ -928,12 +928,12 @@
   },
   {
    "src": "Hacker News",
-   "t": "Lemmings CSS Animation",
-   "url": "https://news.ycombinator.com/item?id=50375354",
-   "link": "https://markblah.github.io/lemmings/",
-   "up": 375,
-   "com": 75,
-   "at": "2026-11-05T04:54:10.000Z"
+   "t": "Tencent Launches Hy4, One of the Leading Open-Source AI Models",
+   "url": "https://news.ycombinator.com/item?id=50383963",
+   "link": "https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/",
+   "up": 36,
+   "com": 1,
+   "at": "2026-11-05T20:21:43.000Z"
   }
  ]
 }
