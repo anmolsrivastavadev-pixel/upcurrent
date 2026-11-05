@@ -5,32 +5,32 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-05T10:30:50.859Z"
+  "updated": "2026-11-05T11:01:03.168Z"
  },
  "pulse": {
   "trending": 80,
   "accelerating": 2,
-  "newModels": 10,
-  "discussions": 47,
-  "stars": 5722
+  "newModels": 9,
+  "discussions": 51,
+  "stars": 8222
  },
  "rising": [
   {
-   "name": "agent-autoloop",
-   "owner": "KKKKhazix",
+   "name": "Google_AI_Pro_2Year_ZeroCost_Auto",
+   "owner": "worldonlyu",
    "src": "gh",
-   "cat": "Agents",
-   "score": 96,
-   "grow": 11,
-   "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
+   "cat": "Tools",
+   "score": 97,
+   "grow": null,
+   "desc": "Google_AI_Pro_2Year_ZeroCost_Auto",
    "meta": [
-    "★ 2,990",
-    "+1,039 in 24h",
-    "Created 2 days ago"
+    "★ 1,444",
+    "~1,724 in 24h",
+    "Created 20h ago"
    ],
-   "at": "2026-11-03T08:02:11Z",
+   "at": "2026-11-04T14:54:56Z",
    "breakout": null,
-   "url": "https://github.com/KKKKhazix/agent-autoloop"
+   "url": "https://github.com/worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto"
   },
   {
    "name": "Kimi-K3.1-Pro",
@@ -39,7 +39,7 @@
    "cat": "Vision",
    "score": 96,
    "grow": 1363,
-   "desc": "Vision on Hugging Face · open weights · ♥ 693",
+   "desc": "Vision on Hugging Face · open weights · ♥ 711",
    "meta": [
     "12K downloads",
     "Released 3 days ago"
@@ -47,6 +47,23 @@
    "at": "2026-11-02T04:13:51.000Z",
    "breakout": null,
    "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
+  },
+  {
+   "name": "agent-autoloop",
+   "owner": "KKKKhazix",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 95,
+   "grow": 12,
+   "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
+   "meta": [
+    "★ 3,007",
+    "+1,023 in 24h",
+    "Created 2 days ago"
+   ],
+   "at": "2026-11-03T08:02:11Z",
+   "breakout": null,
+   "url": "https://github.com/KKKKhazix/agent-autoloop"
   },
   {
    "name": "dsh-superagent-prototype",
@@ -57,8 +74,8 @@
    "grow": 3,
    "desc": "Towards a More Autonomous Agent System",
    "meta": [
-    "★ 19,121",
-    "+1,154 in 24h",
+    "★ 19,135",
+    "+1,136 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-31T09:32:46Z",
@@ -70,34 +87,17 @@
    "owner": "heydamir",
    "src": "gh",
    "cat": "Agents",
-   "score": 91,
-   "grow": 4,
+   "score": 90,
+   "grow": 5,
    "desc": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
    "meta": [
-    "★ 9,076",
-    "+1,029 in 24h",
+    "★ 9,085",
+    "+997 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-29T15:41:21Z",
    "breakout": null,
    "url": "https://github.com/heydamir/unslop"
-  },
-  {
-   "name": "Mika",
-   "owner": "wangzan101",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 90,
-   "grow": 4,
-   "desc": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
-   "meta": [
-    "★ 6,913",
-    "+693 in 24h",
-    "Created 7 days ago"
-   ],
-   "at": "2026-10-29T14:34:07Z",
-   "breakout": null,
-   "url": "https://github.com/wangzan101/Mika"
   },
   {
    "name": "idol",
@@ -106,7 +106,7 @@
    "cat": "Vision",
    "score": 90,
    "grow": 18,
-   "desc": "Vision on Hugging Face · open source · ♥ 662",
+   "desc": "Vision on Hugging Face · open source · ♥ 664",
    "meta": [
     "17K downloads",
     "Released 8 days ago"
@@ -116,21 +116,21 @@
    "url": "https://huggingface.co/speridlabs/idol"
   },
   {
-   "name": "pixelfx",
-   "owner": "patch-gg",
+   "name": "Mika",
+   "owner": "wangzan101",
    "src": "gh",
    "cat": "Agents",
-   "score": 88,
-   "grow": 6,
-   "desc": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
+   "score": 89,
+   "grow": 4,
+   "desc": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "meta": [
-    "★ 5,032",
-    "+819 in 24h",
-    "Created 6 days ago"
+    "★ 6,918",
+    "+669 in 24h",
+    "Created 7 days ago"
    ],
-   "at": "2026-10-30T06:43:25Z",
+   "at": "2026-10-29T14:34:07Z",
    "breakout": null,
-   "url": "https://github.com/patch-gg/pixelfx"
+   "url": "https://github.com/wangzan101/Mika"
   },
   {
    "name": "Pika-H3-Flex",
@@ -139,7 +139,7 @@
    "cat": "Vision",
    "score": 88,
    "grow": 15,
-   "desc": "Vision on Hugging Face · open weights · ♥ 439",
+   "desc": "Vision on Hugging Face · open weights · ♥ 442",
    "meta": [
     "863 downloads",
     "Released 7 days ago"
@@ -147,6 +147,23 @@
    "at": "2026-10-29T17:08:44.000Z",
    "breakout": null,
    "url": "https://huggingface.co/Pika-Labs/Pika-H3-Flex"
+  },
+  {
+   "name": "pixelfx",
+   "owner": "patch-gg",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 87,
+   "grow": 7,
+   "desc": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
+   "meta": [
+    "★ 5,050",
+    "+821 in 24h",
+    "Created 6 days ago"
+   ],
+   "at": "2026-10-30T06:43:25Z",
+   "breakout": null,
+   "url": "https://github.com/patch-gg/pixelfx"
   },
   {
    "name": "Mistral-Large-4-1T-A52B",
@@ -163,33 +180,16 @@
    "at": "2026-09-30T18:35:13.000Z",
    "breakout": null,
    "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B"
-  },
-  {
-   "name": "stack-diagram",
-   "owner": "caru-ini",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 86,
-   "grow": 4,
-   "desc": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
-   "meta": [
-    "★ 1,812",
-    "+144 in 24h",
-    "Created 4 days ago"
-   ],
-   "at": "2026-11-01T05:35:12Z",
-   "breakout": null,
-   "url": "https://github.com/caru-ini/stack-diagram"
   }
  ],
  "breakouts": [],
  "hype": [
   {
-   "name": "dsh-superagent-prototype",
-   "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+   "name": "Google_AI_Pro_2Year_ZeroCost_Auto",
+   "url": "https://github.com/worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
    "from": "GitHub",
-   "use": 1154,
-   "useLabel": "+1,154 stars/day",
+   "use": 1724,
+   "useLabel": "~1,724 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -212,7 +212,7 @@
    "from": "Hugging Face",
    "use": 1077477,
    "useLabel": "1.1M downloads",
-   "usePct": 0.9666666666666667,
+   "usePct": 0.9655172413793104,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -302,76 +302,76 @@
  ],
  "github": [
   {
-   "repo": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 19121,
-   "d24": 1154,
+   "repo": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
+   "stars": 1444,
+   "d24": 1724,
+   "est": true,
+   "forks": 711,
+   "contrib": null,
+   "score": 97
+  },
+  {
+   "repo": "JuneYaooo/rea-video",
+   "stars": 1639,
+   "d24": 1256,
    "est": false,
-   "forks": 2175,
+   "forks": 233,
+   "contrib": null,
+   "score": 76
+  },
+  {
+   "repo": "deepseek-ai/dsh-superagent-prototype",
+   "stars": 19135,
+   "d24": 1136,
+   "est": false,
+   "forks": 2176,
    "contrib": 1,
    "score": 94
   },
   {
    "repo": "KKKKhazix/agent-autoloop",
-   "stars": 2990,
-   "d24": 1039,
+   "stars": 3007,
+   "d24": 1023,
    "est": false,
-   "forks": 567,
+   "forks": 569,
    "contrib": null,
-   "score": 96
+   "score": 95
   },
   {
    "repo": "heydamir/unslop",
-   "stars": 9076,
-   "d24": 1029,
+   "stars": 9085,
+   "d24": 997,
    "est": false,
    "forks": 453,
    "contrib": 3,
-   "score": 91
-  },
-  {
-   "repo": "patch-gg/pixelfx",
-   "stars": 5032,
-   "d24": 819,
-   "est": false,
-   "forks": 672,
-   "contrib": 1,
-   "score": 88
-  },
-  {
-   "repo": "wangzan101/Mika",
-   "stars": 6913,
-   "d24": 693,
-   "est": false,
-   "forks": 1533,
-   "contrib": 44,
    "score": 90
   },
   {
+   "repo": "patch-gg/pixelfx",
+   "stars": 5050,
+   "d24": 821,
+   "est": false,
+   "forks": 674,
+   "contrib": 1,
+   "score": 87
+  },
+  {
+   "repo": "wangzan101/Mika",
+   "stars": 6918,
+   "d24": 669,
+   "est": false,
+   "forks": 1537,
+   "contrib": 44,
+   "score": 89
+  },
+  {
    "repo": "mromidev/claude-animated-shorts",
-   "stars": 1614,
-   "d24": 385,
-   "est": true,
+   "stars": 1616,
+   "d24": 229,
+   "est": false,
    "forks": 364,
    "contrib": null,
-   "score": 86
-  },
-  {
-   "repo": "JuneYaooo/rea-video",
-   "stars": 1620,
-   "d24": 240,
-   "est": true,
-   "forks": 233,
-   "contrib": null,
-   "score": 77
-  },
-  {
-   "repo": "elvarofficial/teardown",
-   "stars": 2018,
-   "d24": 219,
-   "est": false,
-   "forks": 313,
-   "contrib": null,
-   "score": 82
+   "score": 85
   }
  ],
  "models": [
@@ -384,7 +384,7 @@
    "grow": 1363,
    "score": 96,
    "cat": "Vision",
-   "likes": 693
+   "likes": 711
   },
   {
    "name": "idol",
@@ -395,7 +395,7 @@
    "grow": 18,
    "score": 90,
    "cat": "Vision",
-   "likes": 662
+   "likes": 664
   },
   {
    "name": "Pika-H3-Flex",
@@ -406,7 +406,7 @@
    "grow": 15,
    "score": 88,
    "cat": "Vision",
-   "likes": 439
+   "likes": 442
   },
   {
    "name": "Mistral-Large-4-1T-A52B",
@@ -732,6 +732,13 @@
  },
  "headlines": [
   {
+   "t": "OpenAI pledges to change how it handles data center deals, including avoiding nondisclosure agreements and cutting power usage, after Democrats' midterm wins",
+   "url": "https://www.techmeme.com/261105/p11#a261105p11",
+   "at": "2026-11-05T10:45:37.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Activists across Europe prepare two days of protests against datacentres",
    "url": "https://www.theguardian.com/world/2026/nov/05/activists-across-europe-protests-ai-against-datacentres",
    "at": "2026-11-05T09:00:01Z",
@@ -788,18 +795,18 @@
    "kind": "News"
   },
   {
-   "t": "OpenAI details a pipeline that used an upcoming cyber model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2M in API costs",
-   "url": "https://www.techmeme.com/261104/p62#a261104p62",
-   "at": "2026-11-05T02:50:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
+   "t": "Setting a new standard for responsible AI infrastructure",
+   "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+   "at": "2026-11-05T02:00:00.000Z",
+   "src": "OpenAI",
+   "kind": "Lab blog"
   },
   {
-   "t": "Cat Wu, who left Anthropic last week, says she is joining OpenAI to lead product manangement for core products; Wu was the product lead for Claude Code",
-   "url": "https://www.techmeme.com/261104/p60#a261104p60",
-   "at": "2026-11-05T01:20:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
+   "t": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
+   "url": "https://huggingface.co/blog/phonon-tts",
+   "at": "2026-11-05T00:00:00.000Z",
+   "src": "Hugging Face",
+   "kind": "Lab blog"
   },
   {
    "t": "Scare campaigns: Victoria’s major parties trade blows over AI-generated videos of leaders in election ads",
@@ -835,13 +842,6 @@
    "at": "2026-11-04T22:20:00Z",
    "src": "The Manila Times",
    "kind": "News"
-  },
-  {
-   "t": "ChatGPT Is Getting a GIF Maker Powered by OpenAI's Unannounced Images 2.6 Model",
-   "url": "https://decrypt.co/382574/chatgpt-gif-maker-openai-unannounced-images-2-6-model",
-   "at": "2026-11-04T22:16:05Z",
-   "src": "Decrypt",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -850,8 +850,8 @@
    "t": "AI is forcing us to pay off 40 years of technical debt",
    "url": "https://news.ycombinator.com/item?id=50364336",
    "link": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
-   "up": 1192,
-   "com": 697,
+   "up": 1199,
+   "com": 699,
    "at": "2026-11-04T11:52:17.000Z"
   },
   {
@@ -859,8 +859,8 @@
    "t": "Lemmings CSS Animation",
    "url": "https://news.ycombinator.com/item?id=50375354",
    "link": "https://markblah.github.io/lemmings/",
-   "up": 186,
-   "com": 39,
+   "up": 202,
+   "com": 41,
    "at": "2026-11-05T04:54:10.000Z"
   },
   {
@@ -868,8 +868,8 @@
    "t": "A thousand fewer paths to root",
    "url": "https://news.ycombinator.com/item?id=50372929",
    "link": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
-   "up": 343,
-   "com": 245,
+   "up": 358,
+   "com": 255,
    "at": "2026-11-04T23:33:14.000Z"
   },
   {
@@ -877,8 +877,8 @@
    "t": "Images 2.6",
    "url": "https://news.ycombinator.com/item?id=50372945",
    "link": "https://openai.com/index/introducing-images-2-6/",
-   "up": 302,
-   "com": 175,
+   "up": 310,
+   "com": 179,
    "at": "2026-11-04T23:35:44.000Z"
   },
   {
@@ -886,16 +886,16 @@
    "t": "Ask HN: What's your current AI agentic setup?",
    "url": "https://news.ycombinator.com/item?id=50366117",
    "link": "",
-   "up": 336,
-   "com": 368,
+   "up": 342,
+   "com": 389,
    "at": "2026-11-04T14:37:22.000Z"
   },
   {
    "src": "DEV",
    "t": "A Maintainer's Advice on Contributing to Open Source in 2026",
    "url": "https://dev.to/wasp/a-maintainers-advice-on-contributing-to-open-source-in-2026-4ea1",
-   "up": 18,
-   "com": 1,
+   "up": 23,
+   "com": 2,
    "at": "2026-11-05T09:21:35Z"
   }
  ]
