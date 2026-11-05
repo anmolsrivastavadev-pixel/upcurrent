@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-05T05:30:47.411Z"
+  "updated": "2026-11-05T06:01:03.075Z"
  },
  "pulse": {
-  "trending": 83,
+  "trending": 82,
   "accelerating": 0,
   "newModels": 9,
   "discussions": 53,
-  "stars": 6826
+  "stars": 6813
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
    "meta": [
-    "★ 2,765",
-    "~1,459 in 24h",
+    "★ 2,793",
+    "~1,458 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-03T08:02:11Z",
@@ -41,8 +41,8 @@
    "grow": 2,
    "desc": "Towards a More Autonomous Agent System",
    "meta": [
-    "★ 18,809",
-    "+939 in 24h",
+    "★ 18,827",
+    "+934 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-31T09:32:46Z",
@@ -56,7 +56,7 @@
    "cat": "Vision",
    "score": 92,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 591",
+   "desc": "Vision on Hugging Face · open weights · ♥ 597",
    "meta": [
     "797 downloads",
     "Released 3 days ago"
@@ -74,8 +74,8 @@
    "grow": null,
    "desc": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
    "meta": [
-    "★ 8,858",
-    "~1,347 in 24h",
+    "★ 8,876",
+    "~1,345 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-29T15:41:21Z",
@@ -91,8 +91,8 @@
    "grow": null,
    "desc": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "meta": [
-    "★ 6,773",
-    "~1,023 in 24h",
+    "★ 6,790",
+    "~1,022 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-29T14:34:07Z",
@@ -116,29 +116,13 @@
    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B"
   },
   {
-   "name": "DeepSeek-V4.1-Flash-1017",
-   "owner": "deepseek-ai",
-   "src": "hf",
-   "cat": "Infrastructure",
-   "score": 89,
-   "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 5.3K",
-   "meta": [
-    "222K downloads",
-    "Released 19 days ago"
-   ],
-   "at": "2026-10-17T02:40:38.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
-  },
-  {
    "name": "idol",
    "owner": "speridlabs",
    "src": "hf",
    "cat": "Vision",
-   "score": 89,
+   "score": 90,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open source · ♥ 637",
+   "desc": "Vision on Hugging Face · open source · ♥ 640",
    "meta": [
     "15K downloads",
     "Released 8 days ago"
@@ -156,8 +140,8 @@
    "grow": null,
    "desc": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
    "meta": [
-    "★ 4,840",
-    "~814 in 24h",
+    "★ 4,854",
+    "~813 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-30T06:43:25Z",
@@ -173,13 +157,29 @@
    "grow": 2,
    "desc": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
    "meta": [
-    "★ 1,779",
-    "+134 in 24h",
+    "★ 1,781",
+    "+131 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-01T05:35:12Z",
    "breakout": null,
    "url": "https://github.com/caru-ini/stack-diagram"
+  },
+  {
+   "name": "DeepSeek-V4.1-Flash-1017",
+   "owner": "deepseek-ai",
+   "src": "hf",
+   "cat": "Infrastructure",
+   "score": 87,
+   "grow": 0,
+   "desc": "Model on Hugging Face · open source · ♥ 5.3K",
+   "meta": [
+    "222K downloads",
+    "Released 19 days ago"
+   ],
+   "at": "2026-10-17T02:40:38.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
   }
  ],
  "breakouts": [],
@@ -188,8 +188,8 @@
    "name": "agent-autoloop",
    "url": "https://github.com/KKKKhazix/agent-autoloop",
    "from": "GitHub",
-   "use": 1459,
-   "useLabel": "~1,459 stars/day",
+   "use": 1458,
+   "useLabel": "~1,458 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -212,7 +212,7 @@
    "from": "Hugging Face",
    "use": 1052684,
    "useLabel": "1.1M downloads",
-   "usePct": 0.96875,
+   "usePct": 0.967741935483871,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -303,17 +303,17 @@
  "github": [
   {
    "repo": "KKKKhazix/agent-autoloop",
-   "stars": 2765,
-   "d24": 1459,
+   "stars": 2793,
+   "d24": 1458,
    "est": true,
-   "forks": 537,
+   "forks": 540,
    "contrib": null,
    "score": 96
   },
   {
    "repo": "heydamir/unslop",
-   "stars": 8858,
-   "d24": 1347,
+   "stars": 8876,
+   "d24": 1345,
    "est": true,
    "forks": 438,
    "contrib": 3,
@@ -321,57 +321,57 @@
   },
   {
    "repo": "wangzan101/Mika",
-   "stars": 6773,
-   "d24": 1023,
+   "stars": 6790,
+   "d24": 1022,
    "est": true,
-   "forks": 1479,
+   "forks": 1484,
    "contrib": 44,
    "score": 90
   },
   {
    "repo": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 18809,
-   "d24": 939,
+   "stars": 18827,
+   "d24": 934,
    "est": false,
-   "forks": 2108,
+   "forks": 2114,
    "contrib": 1,
    "score": 94
   },
   {
    "repo": "patch-gg/pixelfx",
-   "stars": 4840,
-   "d24": 814,
+   "stars": 4854,
+   "d24": 813,
    "est": true,
-   "forks": 647,
+   "forks": 651,
    "contrib": 1,
    "score": 88
   },
   {
    "repo": "mromidev/claude-animated-shorts",
-   "stars": 1562,
+   "stars": 1570,
    "d24": 392,
    "est": true,
-   "forks": 352,
+   "forks": 353,
    "contrib": null,
    "score": 86
   },
   {
    "repo": "paipiange/nvzhuang",
-   "stars": 2223,
-   "d24": 319,
+   "stars": 2224,
+   "d24": 318,
    "est": true,
-   "forks": 561,
+   "forks": 562,
    "contrib": null,
    "score": 80
   },
   {
    "repo": "JuneYaooo/rea-video",
-   "stars": 1347,
-   "d24": 206,
+   "stars": 1375,
+   "d24": 209,
    "est": true,
-   "forks": 197,
+   "forks": 201,
    "contrib": null,
-   "score": 74
+   "score": 75
   }
  ],
  "models": [
@@ -384,7 +384,7 @@
    "grow": 0,
    "score": 92,
    "cat": "Vision",
-   "likes": 591
+   "likes": 597
   },
   {
    "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
@@ -396,18 +396,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Coding",
-   "likes": 3001
-  },
-  {
-   "name": "DeepSeek-V4.1-Flash-1017",
-   "org": "deepseek-ai",
-   "lic": "Open source",
-   "at": "2026-10-17T02:40:38.000Z",
-   "dl": 221621,
-   "grow": 0,
-   "score": 89,
-   "cat": "Infrastructure",
-   "likes": 5292
+   "likes": 3004
   },
   {
    "name": "idol",
@@ -416,9 +405,20 @@
    "at": "2026-10-28T15:55:17.000Z",
    "dl": 14613,
    "grow": 0,
-   "score": 89,
+   "score": 90,
    "cat": "Vision",
-   "likes": 637
+   "likes": 640
+  },
+  {
+   "name": "DeepSeek-V4.1-Flash-1017",
+   "org": "deepseek-ai",
+   "lic": "Open source",
+   "at": "2026-10-17T02:40:38.000Z",
+   "dl": 221621,
+   "grow": 0,
+   "score": 87,
+   "cat": "Infrastructure",
+   "likes": 5293
   },
   {
    "name": "LFM3-1.7B",
@@ -441,7 +441,7 @@
    "grow": null,
    "score": 84,
    "cat": "Vision",
-   "likes": 432
+   "likes": 433
   }
  ],
  "free": [
@@ -816,6 +816,13 @@
    "kind": "Lab blog"
   },
   {
+   "t": "I let ChatGPT run my 7 Sonos speakers",
+   "url": "https://www.zdnet.com/home-and-office/chatgpt-ai-control-sonos-system/",
+   "at": "2026-11-04T17:56:05Z",
+   "src": "ZDNet",
+   "kind": "News"
+  },
+  {
    "t": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
    "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
    "at": "2026-11-04T17:50:10.000Z",
@@ -830,16 +837,9 @@
    "kind": "News"
   },
   {
-   "t": "OpenAI's Sam Altman Briefly Changes Name to Ram Altman on X",
-   "url": "https://www.businessinsider.com/openais-sam-altman-briefly-changes-name-ram-altman-on-x-2026-11",
-   "at": "2026-11-04T17:18:12Z",
-   "src": "Business Insider",
-   "kind": "News"
-  },
-  {
-   "t": "Month Loss in Amended IPO Filing – NaturalNews.com",
-   "url": "https://www.naturalnews.com/2026-11-04-anthropic-reports-q3-revenue-nine-month-loss.html",
-   "at": "2026-11-04T17:13:57Z",
+   "t": "Stocks Face Midterm Rally History as AI Spending and Rate Risks Mount",
+   "url": "https://www.naturalnews.com/2026-11-04-stocks-midterm-rally-history-ai-spending-risks-mount.html",
+   "at": "2026-11-04T17:41:02Z",
    "src": "Natural News",
    "kind": "News"
   }
@@ -850,8 +850,8 @@
    "t": "AI is forcing us to pay off 40 years of technical debt",
    "url": "https://news.ycombinator.com/item?id=50364336",
    "link": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
-   "up": 1133,
-   "com": 659,
+   "up": 1139,
+   "com": 662,
    "at": "2026-11-04T11:52:17.000Z"
   },
   {
@@ -859,27 +859,27 @@
    "t": "A thousand fewer paths to root",
    "url": "https://news.ycombinator.com/item?id=50372929",
    "link": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
-   "up": 236,
-   "com": 131,
+   "up": 246,
+   "com": 140,
    "at": "2026-11-04T23:33:14.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
-   "url": "https://news.ycombinator.com/item?id=50363461",
-   "link": "",
-   "up": 644,
-   "com": 168,
-   "at": "2026-11-04T10:10:27.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Images 2.6",
    "url": "https://news.ycombinator.com/item?id=50372945",
    "link": "https://openai.com/index/introducing-images-2-6/",
-   "up": 194,
-   "com": 133,
+   "up": 211,
+   "com": 137,
    "at": "2026-11-04T23:35:44.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
+   "url": "https://news.ycombinator.com/item?id=50363461",
+   "link": "",
+   "up": 647,
+   "com": 168,
+   "at": "2026-11-04T10:10:27.000Z"
   },
   {
    "src": "Hacker News",
