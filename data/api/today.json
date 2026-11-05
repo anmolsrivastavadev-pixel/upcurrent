@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-05T17:01:04.609Z"
+  "updated": "2026-11-05T17:30:56.489Z"
  },
  "pulse": {
   "trending": 79,
   "accelerating": 1,
-  "newModels": 9,
+  "newModels": 8,
   "discussions": 38,
-  "stars": 5978
+  "stars": 8504
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Tools",
    "score": 97,
-   "grow": 40,
+   "grow": 43,
    "desc": "Google_AI_Pro_2Year_ZeroCost_Auto",
    "meta": [
-    "★ 2,020",
-    "+2,304 in 24h",
+    "★ 2,065",
+    "+2,294 in 24h",
     "Created yesterday"
    ],
    "at": "2026-11-04T14:54:56Z",
@@ -39,7 +39,7 @@
    "cat": "Vision",
    "score": 95,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 824",
+   "desc": "Vision on Hugging Face · open weights · ♥ 830",
    "meta": [
     "12K downloads",
     "Released 4 days ago"
@@ -54,11 +54,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 94,
-   "grow": 5,
+   "grow": null,
    "desc": "Towards a More Autonomous Agent System",
    "meta": [
-    "★ 19,360",
-    "+1,063 in 24h",
+    "★ 19,368",
+    "~3,632 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-31T09:32:46Z",
@@ -74,8 +74,8 @@
    "grow": 18,
    "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
    "meta": [
-    "★ 3,165",
-    "+849 in 24h",
+    "★ 3,170",
+    "+828 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-03T08:02:11Z",
@@ -89,7 +89,7 @@
    "cat": "Vision",
    "score": 89,
    "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 703",
+   "desc": "Vision on Hugging Face · open source · ♥ 709",
    "meta": [
     "17K downloads",
     "Released 8 days ago"
@@ -105,7 +105,7 @@
    "cat": "Vision",
    "score": 89,
    "grow": 15,
-   "desc": "Vision on Hugging Face · open weights · ♥ 453",
+   "desc": "Vision on Hugging Face · open weights · ♥ 455",
    "meta": [
     "863 downloads",
     "Released 7 days ago"
@@ -123,8 +123,8 @@
    "grow": 10,
    "desc": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
    "meta": [
-    "★ 5,198",
-    "+732 in 24h",
+    "★ 5,206",
+    "+721 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-30T06:43:25Z",
@@ -156,8 +156,8 @@
    "grow": 6,
    "desc": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
    "meta": [
-    "★ 1,850",
-    "+143 in 24h",
+    "★ 1,852",
+    "+141 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-01T05:35:12Z",
@@ -173,8 +173,8 @@
    "grow": 8,
    "desc": "Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion",
    "meta": [
-    "★ 1,671",
-    "+225 in 24h",
+    "★ 1,677",
+    "+227 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-01T05:50:38Z",
@@ -182,7 +182,31 @@
    "url": "https://github.com/mromidev/claude-animated-shorts"
   }
  ],
- "breakouts": [],
+ "breakouts": [
+  {
+   "key": "gpt 6",
+   "label": "GPT-6",
+   "n": 3,
+   "sources": [
+    {
+     "src": "Hacker News",
+     "t": "GPT-6 Astra covertly underperforms on safety research",
+     "url": "https://news.ycombinator.com/item?id=50376313"
+    },
+    {
+     "src": "Techmeme",
+     "t": "OpenAI says GPT-6 Cyber will first launch to a limited number of customers in its Daybreak Red program and has found 81+ \"novel\" vulnerabilities in Firefox",
+     "url": "https://www.techmeme.com/261105/p42#a261105p42"
+    },
+    {
+     "src": "YouTube",
+     "t": "GPT-6 Just Fixed Another AI by Editing Its Weights! #ai #openai #llm",
+     "url": "https://www.youtube.com/watch?v=jNuDdqEwI58"
+    }
+   ],
+   "since": "2026-10-29T13:30:52.696Z"
+  }
+ ],
  "hype": [
   {
    "name": "GPT-6",
@@ -198,20 +222,25 @@
      "url": "https://news.ycombinator.com/item?id=50376313"
     },
     {
+     "src": "Techmeme",
+     "t": "OpenAI says GPT-6 Cyber will first launch to a limited number of customers in its Daybreak Red program and has found 81+ \"novel\" vulnerabilities in Firefox",
+     "url": "https://www.techmeme.com/261105/p42#a261105p42"
+    },
+    {
      "src": "YouTube",
      "t": "GPT-6 Just Fixed Another AI by Editing Its Weights! #ai #openai #llm",
      "url": "https://www.youtube.com/watch?v=jNuDdqEwI58"
     }
    ],
-   "buzz": 2,
+   "buzz": 3,
    "verdict": "Talk only, no public usage numbers"
   },
   {
-   "name": "Google_AI_Pro_2Year_ZeroCost_Auto",
-   "url": "https://github.com/worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
+   "name": "dsh-superagent-prototype",
+   "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "from": "GitHub",
-   "use": 2304,
-   "useLabel": "+2,304 stars/day",
+   "use": 3632,
+   "useLabel": "~3,632 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -324,27 +353,27 @@
  ],
  "github": [
   {
-   "repo": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
-   "stars": 2020,
-   "d24": 2304,
-   "est": false,
-   "forks": 875,
-   "contrib": null,
-   "score": 97
-  },
-  {
    "repo": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 19360,
-   "d24": 1063,
-   "est": false,
+   "stars": 19368,
+   "d24": 3632,
+   "est": true,
    "forks": 2206,
    "contrib": 1,
    "score": 94
   },
   {
+   "repo": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
+   "stars": 2065,
+   "d24": 2294,
+   "est": false,
+   "forks": 882,
+   "contrib": null,
+   "score": 97
+  },
+  {
    "repo": "KKKKhazix/agent-autoloop",
-   "stars": 3165,
-   "d24": 849,
+   "stars": 3170,
+   "d24": 828,
    "est": false,
    "forks": 590,
    "contrib": null,
@@ -352,8 +381,8 @@
   },
   {
    "repo": "patch-gg/pixelfx",
-   "stars": 5198,
-   "d24": 732,
+   "stars": 5206,
+   "d24": 721,
    "est": false,
    "forks": 691,
    "contrib": 1,
@@ -361,17 +390,17 @@
   },
   {
    "repo": "elvarofficial/teardown",
-   "stars": 2124,
+   "stars": 2131,
    "d24": 336,
    "est": true,
-   "forks": 330,
+   "forks": 331,
    "contrib": null,
    "score": 81
   },
   {
    "repo": "wquguru/cicada",
-   "stars": 1460,
-   "d24": 326,
+   "stars": 1462,
+   "d24": 325,
    "est": true,
    "forks": 263,
    "contrib": null,
@@ -379,8 +408,8 @@
   },
   {
    "repo": "mromidev/claude-animated-shorts",
-   "stars": 1671,
-   "d24": 225,
+   "stars": 1677,
+   "d24": 227,
    "est": false,
    "forks": 372,
    "contrib": null,
@@ -388,8 +417,8 @@
   },
   {
    "repo": "caru-ini/stack-diagram",
-   "stars": 1850,
-   "d24": 143,
+   "stars": 1852,
+   "d24": 141,
    "est": false,
    "forks": 87,
    "contrib": null,
@@ -406,7 +435,7 @@
    "grow": null,
    "score": 95,
    "cat": "Vision",
-   "likes": 824
+   "likes": 830
   },
   {
    "name": "idol",
@@ -417,7 +446,7 @@
    "grow": null,
    "score": 89,
    "cat": "Vision",
-   "likes": 703
+   "likes": 709
   },
   {
    "name": "Pika-H3-Flex",
@@ -428,7 +457,7 @@
    "grow": 15,
    "score": 89,
    "cat": "Vision",
-   "likes": 453
+   "likes": 455
   },
   {
    "name": "Mistral-Large-4-1T-A52B",
@@ -449,7 +478,7 @@
    "lic": "Open source",
    "at": "2026-10-25T05:43:34.000Z",
    "dl": 157157,
-   "grow": 27,
+   "grow": null,
    "score": 84,
    "cat": "Coding",
    "likes": 683
@@ -460,10 +489,10 @@
    "lic": "Open weights",
    "at": "2026-10-31T20:31:01.000Z",
    "dl": 607,
-   "grow": 15,
+   "grow": null,
    "score": 84,
    "cat": "Tools",
-   "likes": 373
+   "likes": 374
   }
  ],
  "free": [
@@ -739,6 +768,41 @@
  },
  "headlines": [
   {
+   "t": "OpenAI says GPT-6 Cyber will first launch to a limited number of customers in its Daybreak Red program and has found 81+ \"novel\" vulnerabilities in Firefox",
+   "url": "https://www.techmeme.com/261105/p42#a261105p42",
+   "at": "2026-11-05T17:15:02.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "OpenAI launches GPT-6 Cyber, which it says outperforms GPT-6 Astra on cyber benchmarks, is better at finding vulnerabilities, and is less likely to go rogue",
+   "url": "https://www.techmeme.com/261105/p40#a261105p40",
+   "at": "2026-11-05T17:06:54.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+   "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+   "at": "2026-11-05T17:05:16.000Z",
+   "src": "Google DeepMind",
+   "kind": "Lab blog"
+  },
+  {
+   "t": "Defense tech startup Shield AI raises $2.5B to help acquire radar company Echodyne, including a $1B Series H at a $28.8B valuation, up from $12.7B in March",
+   "url": "https://www.techmeme.com/261105/p39#a261105p39",
+   "at": "2026-11-05T17:01:37.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+   "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+   "at": "2026-11-05T17:00:35.000Z",
+   "src": "NVIDIA",
+   "kind": "Lab blog"
+  },
+  {
    "t": "Aina, which raised $5.5M, launches an \"AI ring\" with a screen, joystick, and mic to let users talk to their AI agents, take notes, control Apple TV, and more",
    "url": "https://www.techmeme.com/261105/p38#a261105p38",
    "at": "2026-11-05T16:50:12.000Z",
@@ -802,63 +866,37 @@
    "kind": "News"
   },
   {
-   "t": "UK found to be ‘dangerously’ reliant on China for critical minerals needed for defence and AI",
-   "url": "https://www.theguardian.com/world/2026/nov/05/uk-dangerously-reliant-on-china-critical-minerals-military-ai-renewable-energy",
-   "at": "2026-11-05T05:00:55Z",
-   "src": "The Guardian",
+   "t": "AI to Boost India's Economy by $79 Billion in a Decade: Report",
+   "url": "https://www.lokmattimes.com/technology/ai-to-boost-indias-economy-by-79-billion-in-a-decade-report-a001-w02/",
+   "at": "2026-11-05T05:11:49Z",
+   "src": "Lokmat Times",
    "kind": "News"
   },
   {
-   "t": "Experts welcome push to 'tap the brakes' on school tech",
-   "url": "https://www.canberratimes.com.au/story/9386203/experts-welcome-push-to-tap-the-brakes-on-school-tech/",
-   "at": "2026-11-05T04:57:52Z",
-   "src": "The Canberra Times",
-   "kind": "News"
-  },
-  {
-   "t": "Apple AI tools arrives in China after 2-year delay",
-   "url": "https://www.bangkokpost.com/business/general/3348711/apple-ai-tools-arrives-in-china-after-2year-delay",
-   "at": "2026-11-05T04:52:00Z",
-   "src": "Bangkok Post",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI says unreleased AI model exposed 948 cyber flaws in Linux, cost $1.2 million",
-   "url": "https://www.indiatoday.in/technology/news/story/openai-says-unreleased-ai-model-exposed-948-cyber-flaws-in-linux-cost-12-million-3032646-2026-11-05",
-   "at": "2026-11-05T04:28:32Z",
-   "src": "India Today",
-   "kind": "News"
-  },
-  {
-   "t": "Laos, China agree to strengthen rail links, economic corridor and AI cooperation",
-   "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/05/laos-china-agree-to-strengthen-rail-links-economic-corridor-and-ai-cooperation",
-   "at": "2026-11-05T04:24:00Z",
-   "src": "The Star",
-   "kind": "News"
-  },
-  {
-   "t": "Google extends voluntary buyout offers to employees in several countries",
-   "url": "https://www.thehindu.com/sci-tech/technology/google-extends-voluntary-buyout-offers-to-employees-in-several-countries/article71668483.ece",
-   "at": "2026-11-05T04:05:02Z",
-   "src": "The Hindu",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI Acquires Pierre Computer Company To Expand Codex AI Coding Tools & Strengthen AI-Powered Software Development",
-   "url": "https://www.freepressjournal.in/tech/openai-acquires-pierre-computer-company-to-expand-codex-ai-coding-tools-strengthen-ai-powered-software-development-2",
-   "at": "2026-11-05T04:02:23Z",
-   "src": "Free Press Journal",
+   "t": "AI hackers use ₹1 test transactions to move bigger sums from financial firms: CERT In warns",
+   "url": "https://www.businesstoday.in/technology/news/story/ai-hackers-use-rs1-test-transactions-to-move-bigger-sums-from-financial-firms-cert-in-warns-565805-2026-11-05",
+   "at": "2026-11-05T05:07:06Z",
+   "src": "Business Today",
    "kind": "News"
   }
  ],
  "discussions": [
   {
    "src": "Hacker News",
+   "t": "My psychophysics as a bilateral cochlear implant user",
+   "url": "https://news.ycombinator.com/item?id=50381033",
+   "link": "https://claude.ai/artifact/L8qsMc3SorytGW3LA81nYf",
+   "up": 52,
+   "com": 9,
+   "at": "2026-11-05T16:21:12.000Z"
+  },
+  {
+   "src": "Hacker News",
    "t": "Awesome repositories are no longer awesome",
    "url": "https://news.ycombinator.com/item?id=50377821",
    "link": "https://erikgahner.github.io/posts/2026/awesome-repositories-are-no-longer-awesome/",
-   "up": 205,
-   "com": 101,
+   "up": 216,
+   "com": 105,
    "at": "2026-11-05T11:16:51.000Z"
   },
   {
@@ -866,7 +904,7 @@
    "t": "Lemmings CSS Animation",
    "url": "https://news.ycombinator.com/item?id=50375354",
    "link": "https://markblah.github.io/lemmings/",
-   "up": 336,
+   "up": 346,
    "com": 69,
    "at": "2026-11-05T04:54:10.000Z"
   },
@@ -875,26 +913,17 @@
    "t": "A thousand fewer paths to root",
    "url": "https://news.ycombinator.com/item?id=50372929",
    "link": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
-   "up": 456,
-   "com": 333,
+   "up": 457,
+   "com": 337,
    "at": "2026-11-04T23:33:14.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "My psychophysics as a bilateral cochlear implant user",
-   "url": "https://news.ycombinator.com/item?id=50381033",
-   "link": "https://claude.ai/artifact/L8qsMc3SorytGW3LA81nYf",
-   "up": 24,
-   "com": 5,
-   "at": "2026-11-05T16:21:12.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Images 2.6",
    "url": "https://news.ycombinator.com/item?id=50372945",
    "link": "https://openai.com/index/introducing-images-2-6/",
-   "up": 369,
-   "com": 222,
+   "up": 370,
+   "com": 224,
    "at": "2026-11-04T23:35:44.000Z"
   },
   {
@@ -902,8 +931,8 @@
    "t": "GPT-6 Astra covertly underperforms on safety research",
    "url": "https://news.ycombinator.com/item?id=50376313",
    "link": "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/",
-   "up": 155,
-   "com": 67,
+   "up": 165,
+   "com": 73,
    "at": "2026-11-05T07:44:30.000Z"
   }
  ]
