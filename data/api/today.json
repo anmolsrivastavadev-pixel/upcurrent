@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-05T15:01:03.262Z"
+  "updated": "2026-11-05T15:30:50.070Z"
  },
  "pulse": {
-  "trending": 80,
+  "trending": 81,
   "accelerating": 1,
   "newModels": 9,
-  "discussions": 48,
-  "stars": 7640
+  "discussions": 40,
+  "stars": 7969
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "Google_AI_Pro_2Year_ZeroCost_Auto",
    "meta": [
-    "★ 1,838",
-    "~1,830 in 24h",
+    "★ 1,882",
+    "~1,836 in 24h",
     "Created yesterday"
    ],
    "at": "2026-11-04T14:54:56Z",
@@ -39,7 +39,7 @@
    "cat": "Vision",
    "score": 96,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 797",
+   "desc": "Vision on Hugging Face · open weights · ♥ 802",
    "meta": [
     "12K downloads",
     "Released 3 days ago"
@@ -57,8 +57,8 @@
    "grow": 16,
    "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
    "meta": [
-    "★ 3,118",
-    "+899 in 24h",
+    "★ 3,130",
+    "+886 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-03T08:02:11Z",
@@ -74,8 +74,8 @@
    "grow": 4,
    "desc": "Towards a More Autonomous Agent System",
    "meta": [
-    "★ 19,290",
-    "+1,089 in 24h",
+    "★ 19,307",
+    "+1,081 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-31T09:32:46Z",
@@ -91,8 +91,8 @@
    "grow": 8,
    "desc": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
    "meta": [
-    "★ 9,347",
-    "+1,168 in 24h",
+    "★ 9,391",
+    "+1,202 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-29T15:41:21Z",
@@ -106,7 +106,7 @@
    "cat": "Vision",
    "score": 90,
    "grow": 18,
-   "desc": "Vision on Hugging Face · open source · ♥ 687",
+   "desc": "Vision on Hugging Face · open source · ♥ 688",
    "meta": [
     "17K downloads",
     "Released 8 days ago"
@@ -140,8 +140,8 @@
    "grow": 9,
    "desc": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
    "meta": [
-    "★ 5,160",
-    "+773 in 24h",
+    "★ 5,171",
+    "+765 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-30T06:43:25Z",
@@ -173,8 +173,8 @@
    "grow": 6,
    "desc": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
    "meta": [
-    "★ 1,836",
-    "+140 in 24h",
+    "★ 1,840",
+    "+141 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-01T05:35:12Z",
@@ -207,11 +207,28 @@
    "verdict": "Talk only, no public usage numbers"
   },
   {
+   "name": "Kimi-K3.1-Pro",
+   "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+   "from": "Hugging Face",
+   "use": 11658,
+   "useLabel": "12K downloads",
+   "usePct": 0.4,
+   "talk": [
+    {
+     "src": "Huggingface.co",
+     "t": "Kimi K3.1 Pro model weights are out",
+     "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
+    }
+   ],
+   "buzz": 1,
+   "verdict": "More talk than use"
+  },
+  {
    "name": "Google_AI_Pro_2Year_ZeroCost_Auto",
    "url": "https://github.com/worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
    "from": "GitHub",
-   "use": 1830,
-   "useLabel": "~1,830 stars/day",
+   "use": 1836,
+   "useLabel": "~1,836 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -325,53 +342,53 @@
  "github": [
   {
    "repo": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
-   "stars": 1838,
-   "d24": 1830,
+   "stars": 1882,
+   "d24": 1836,
    "est": true,
-   "forks": 839,
+   "forks": 849,
    "contrib": null,
    "score": 97
   },
   {
-   "repo": "JuneYaooo/rea-video",
-   "stars": 1815,
-   "d24": 1176,
-   "est": false,
-   "forks": 255,
-   "contrib": null,
-   "score": 77
-  },
-  {
    "repo": "heydamir/unslop",
-   "stars": 9347,
-   "d24": 1168,
+   "stars": 9391,
+   "d24": 1202,
    "est": false,
-   "forks": 475,
+   "forks": 479,
    "contrib": 3,
    "score": 90
   },
   {
-   "repo": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 19290,
-   "d24": 1089,
+   "repo": "JuneYaooo/rea-video",
+   "stars": 1835,
+   "d24": 1166,
    "est": false,
-   "forks": 2196,
+   "forks": 258,
+   "contrib": null,
+   "score": 76
+  },
+  {
+   "repo": "deepseek-ai/dsh-superagent-prototype",
+   "stars": 19307,
+   "d24": 1081,
+   "est": false,
+   "forks": 2198,
    "contrib": 1,
    "score": 94
   },
   {
    "repo": "KKKKhazix/agent-autoloop",
-   "stars": 3118,
-   "d24": 899,
+   "stars": 3130,
+   "d24": 886,
    "est": false,
-   "forks": 585,
+   "forks": 586,
    "contrib": null,
    "score": 95
   },
   {
    "repo": "patch-gg/pixelfx",
-   "stars": 5160,
-   "d24": 773,
+   "stars": 5171,
+   "d24": 765,
    "est": false,
    "forks": 690,
    "contrib": 1,
@@ -379,21 +396,21 @@
   },
   {
    "repo": "elvarofficial/teardown",
-   "stars": 2094,
-   "d24": 336,
+   "stars": 2106,
+   "d24": 337,
    "est": true,
-   "forks": 324,
+   "forks": 326,
    "contrib": null,
    "score": 81
   },
   {
-   "repo": "mromidev/claude-animated-shorts",
-   "stars": 1654,
-   "d24": 229,
-   "est": false,
-   "forks": 370,
+   "repo": "wquguru/cicada",
+   "stars": 1445,
+   "d24": 328,
+   "est": true,
+   "forks": 260,
    "contrib": null,
-   "score": 85
+   "score": 82
   }
  ],
  "models": [
@@ -406,7 +423,7 @@
    "grow": null,
    "score": 96,
    "cat": "Vision",
-   "likes": 797
+   "likes": 802
   },
   {
    "name": "idol",
@@ -417,7 +434,7 @@
    "grow": 18,
    "score": 90,
    "cat": "Vision",
-   "likes": 687
+   "likes": 688
   },
   {
    "name": "Pika-H3-Flex",
@@ -463,7 +480,7 @@
    "grow": 15,
    "score": 84,
    "cat": "Tools",
-   "likes": 368
+   "likes": 370
   }
  ],
  "free": [
@@ -774,13 +791,6 @@
    "kind": "News"
   },
   {
-   "t": "Ricursive releases Ripple-65B Preview, a general-purpose variant of its AI model for advanced chip design, under Apache 2.0, costing $0.60 per 1M output tokens",
-   "url": "https://www.techmeme.com/261105/p14#a261105p14",
-   "at": "2026-11-05T11:10:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Activists across Europe prepare two days of protests against datacentres",
    "url": "https://www.theguardian.com/world/2026/nov/05/activists-across-europe-protests-ai-against-datacentres",
    "at": "2026-11-05T09:00:01Z",
@@ -800,6 +810,27 @@
    "at": "2026-11-05T04:00:27Z",
    "src": "m3nsory",
    "kind": "Video"
+  },
+  {
+   "t": "OpenAI to acquire Pierre Computer Company to expand Codex coding tools",
+   "url": "https://www.thehindubusinessline.com/info-tech/openai-to-acquire-pierre-computer-company-to-expand-codex-coding-capabilities/article71668505.ece",
+   "at": "2026-11-05T03:30:25Z",
+   "src": "The Hindu Business Line",
+   "kind": "News"
+  },
+  {
+   "t": "Google turning off AI for schoolchildren by default",
+   "url": "https://www.bangkokpost.com/life/tech/3349121/google-turning-off-ai-for-schoolchildren-by-default",
+   "at": "2026-11-05T03:15:00Z",
+   "src": "Bangkok Post",
+   "kind": "News"
+  },
+  {
+   "t": "World shares mostly gain after US midterm elections as AI-related stocks sink",
+   "url": "https://www.ajc.com/news/2026/11/asian-shares-are-mixed-after-us-midterm-elections-as-ai-related-stocks-sink-in-japan-and-south-korea/",
+   "at": "2026-11-05T03:03:03Z",
+   "src": "The Atlanta Journal-Constitution",
+   "kind": "News"
   },
   {
    "t": "MegazoneSoft Achieves Two Google Cloud Advanced Competencies Simultaneously",
@@ -835,20 +866,6 @@
    "at": "2026-11-05T02:42:37Z",
    "src": "The Tribune",
    "kind": "News"
-  },
-  {
-   "t": "Democratic victories threaten to slow US data-centre expansion, ease bond yields: Report",
-   "url": "https://www.aninews.in/news/business/democratic-victories-threaten-to-slow-us-data-centre-expansion-ease-bond-yields-report20261105081007/",
-   "at": "2026-11-05T02:40:07Z",
-   "src": "ANI (Asian News International)",
-   "kind": "News"
-  },
-  {
-   "t": "Apple cuts employee AI budgets as token costs trigger tighter spending controls",
-   "url": "https://www.firstpost.com/tech/apple-cuts-employee-ai-budgets-as-token-costs-trigger-tighter-spending-controls-14057944.html",
-   "at": "2026-11-05T02:33:11Z",
-   "src": "Firstpost",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -857,8 +874,8 @@
    "t": "Awesome repositories are no longer awesome",
    "url": "https://news.ycombinator.com/item?id=50377821",
    "link": "https://erikgahner.github.io/posts/2026/awesome-repositories-are-no-longer-awesome/",
-   "up": 146,
-   "com": 77,
+   "up": 156,
+   "com": 81,
    "at": "2026-11-05T11:16:51.000Z"
   },
   {
@@ -866,8 +883,8 @@
    "t": "Lemmings CSS Animation",
    "url": "https://news.ycombinator.com/item?id=50375354",
    "link": "https://markblah.github.io/lemmings/",
-   "up": 297,
-   "com": 56,
+   "up": 305,
+   "com": 63,
    "at": "2026-11-05T04:54:10.000Z"
   },
   {
@@ -875,8 +892,8 @@
    "t": "A thousand fewer paths to root",
    "url": "https://news.ycombinator.com/item?id=50372929",
    "link": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
-   "up": 433,
-   "com": 317,
+   "up": 437,
+   "com": 320,
    "at": "2026-11-04T23:33:14.000Z"
   },
   {
@@ -884,27 +901,26 @@
    "t": "Images 2.6",
    "url": "https://news.ycombinator.com/item?id=50372945",
    "link": "https://openai.com/index/introducing-images-2-6/",
-   "up": 350,
-   "com": 211,
+   "up": 357,
+   "com": 215,
    "at": "2026-11-04T23:35:44.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Show HN: After a decade of reversing, I got co-op working in DOS Wing Commander",
-   "url": "https://news.ycombinator.com/item?id=50369895",
-   "link": "https://fireflyk64.github.io/wcmulti/",
-   "up": 234,
-   "com": 32,
-   "at": "2026-11-04T18:51:27.000Z"
   },
   {
    "src": "Hacker News",
    "t": "GPT-6 Astra covertly underperforms on safety research",
    "url": "https://news.ycombinator.com/item?id=50376313",
    "link": "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/",
-   "up": 80,
-   "com": 31,
+   "up": 98,
+   "com": 35,
    "at": "2026-11-05T07:44:30.000Z"
+  },
+  {
+   "src": "Mastodon",
+   "t": "I just explained to IT support that they can't hard-code # Google as search engine for everyone in a big public body, because: 1. They're forcing employees t…",
+   "url": "https://archaeo.social/@mrundkvist/117564013851678053",
+   "up": 26,
+   "com": 2,
+   "at": "2026-11-05T13:14:48.000Z"
   }
  ]
 }
