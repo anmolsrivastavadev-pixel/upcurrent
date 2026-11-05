@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-05T07:00:58.618Z"
+  "updated": "2026-11-05T07:22:01.286Z"
  },
  "pulse": {
   "trending": 81,
   "accelerating": 0,
   "newModels": 9,
-  "discussions": 40,
-  "stars": 6611
+  "discussions": 52,
+  "stars": 6634
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
    "meta": [
-    "★ 2,850",
-    "~1,456 in 24h",
+    "★ 2,876",
+    "~1,458 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-03T08:02:11Z",
@@ -41,8 +41,8 @@
    "grow": 2,
    "desc": "Towards a More Autonomous Agent System",
    "meta": [
-    "★ 18,908",
-    "+1,041 in 24h",
+    "★ 18,931",
+    "+1,060 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-31T09:32:46Z",
@@ -54,9 +54,9 @@
    "owner": "moonshotai",
    "src": "hf",
    "cat": "Vision",
-   "score": 93,
+   "score": 94,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 612",
+   "desc": "Vision on Hugging Face · open weights · ♥ 626",
    "meta": [
     "797 downloads",
     "Released 3 days ago"
@@ -74,8 +74,8 @@
    "grow": null,
    "desc": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
    "meta": [
-    "★ 8,926",
-    "~1,345 in 24h",
+    "★ 8,944",
+    "~1,344 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-29T15:41:21Z",
@@ -91,8 +91,8 @@
    "grow": null,
    "desc": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "meta": [
-    "★ 6,811",
-    "~1,019 in 24h",
+    "★ 6,822",
+    "~1,018 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-29T14:34:07Z",
@@ -116,22 +116,6 @@
    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B"
   },
   {
-   "name": "idol",
-   "owner": "speridlabs",
-   "src": "hf",
-   "cat": "Vision",
-   "score": 90,
-   "grow": 0,
-   "desc": "Vision on Hugging Face · open source · ♥ 644",
-   "meta": [
-    "15K downloads",
-    "Released 8 days ago"
-   ],
-   "at": "2026-10-28T15:55:17.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/speridlabs/idol"
-  },
-  {
    "name": "pixelfx",
    "owner": "patch-gg",
    "src": "gh",
@@ -140,13 +124,29 @@
    "grow": null,
    "desc": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
    "meta": [
-    "★ 4,889",
+    "★ 4,902",
     "~813 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-30T06:43:25Z",
    "breakout": null,
    "url": "https://github.com/patch-gg/pixelfx"
+  },
+  {
+   "name": "idol",
+   "owner": "speridlabs",
+   "src": "hf",
+   "cat": "Vision",
+   "score": 88,
+   "grow": 0,
+   "desc": "Vision on Hugging Face · open source · ♥ 648",
+   "meta": [
+    "15K downloads",
+    "Released 8 days ago"
+   ],
+   "at": "2026-10-28T15:55:17.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/speridlabs/idol"
   },
   {
    "name": "stack-diagram",
@@ -157,8 +157,8 @@
    "grow": 3,
    "desc": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
    "meta": [
-    "★ 1,788",
-    "+135 in 24h",
+    "★ 1,789",
+    "+133 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-01T05:35:12Z",
@@ -174,7 +174,7 @@
    "grow": null,
    "desc": "Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion",
    "meta": [
-    "★ 1,584",
+    "★ 1,588",
     "~391 in 24h",
     "Created 4 days ago"
    ],
@@ -189,8 +189,8 @@
    "name": "agent-autoloop",
    "url": "https://github.com/KKKKhazix/agent-autoloop",
    "from": "GitHub",
-   "use": 1456,
-   "useLabel": "~1,456 stars/day",
+   "use": 1458,
+   "useLabel": "~1,458 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -304,17 +304,17 @@
  "github": [
   {
    "repo": "KKKKhazix/agent-autoloop",
-   "stars": 2850,
-   "d24": 1456,
+   "stars": 2876,
+   "d24": 1458,
    "est": true,
-   "forks": 549,
+   "forks": 551,
    "contrib": null,
    "score": 96
   },
   {
    "repo": "heydamir/unslop",
-   "stars": 8926,
-   "d24": 1345,
+   "stars": 8944,
+   "d24": 1344,
    "est": true,
    "forks": 443,
    "contrib": 3,
@@ -322,55 +322,55 @@
   },
   {
    "repo": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 18908,
-   "d24": 1041,
+   "stars": 18931,
+   "d24": 1060,
    "est": false,
-   "forks": 2126,
+   "forks": 2130,
    "contrib": 1,
    "score": 94
   },
   {
    "repo": "wangzan101/Mika",
-   "stars": 6811,
-   "d24": 1019,
+   "stars": 6822,
+   "d24": 1018,
    "est": true,
-   "forks": 1495,
+   "forks": 1502,
    "contrib": 44,
    "score": 90
   },
   {
    "repo": "patch-gg/pixelfx",
-   "stars": 4889,
+   "stars": 4902,
    "d24": 813,
    "est": true,
-   "forks": 654,
+   "forks": 655,
    "contrib": 1,
    "score": 88
   },
   {
    "repo": "mromidev/claude-animated-shorts",
-   "stars": 1584,
+   "stars": 1588,
    "d24": 391,
    "est": true,
-   "forks": 354,
+   "forks": 355,
    "contrib": null,
    "score": 86
   },
   {
    "repo": "JuneYaooo/rea-video",
-   "stars": 1442,
-   "d24": 218,
+   "stars": 1466,
+   "d24": 221,
    "est": true,
-   "forks": 208,
+   "forks": 211,
    "contrib": null,
    "score": 76
   },
   {
    "repo": "elvarofficial/teardown",
-   "stars": 1970,
-   "d24": 193,
+   "stars": 1975,
+   "d24": 196,
    "est": false,
-   "forks": 306,
+   "forks": 307,
    "contrib": null,
    "score": 82
   }
@@ -383,9 +383,9 @@
    "at": "2026-11-02T04:13:51.000Z",
    "dl": 797,
    "grow": 0,
-   "score": 93,
+   "score": 94,
    "cat": "Vision",
-   "likes": 612
+   "likes": 626
   },
   {
    "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
@@ -397,7 +397,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Coding",
-   "likes": 3013
+   "likes": 3015
   },
   {
    "name": "idol",
@@ -406,9 +406,9 @@
    "at": "2026-10-28T15:55:17.000Z",
    "dl": 14613,
    "grow": 0,
-   "score": 90,
+   "score": 88,
    "cat": "Vision",
-   "likes": 644
+   "likes": 648
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -419,7 +419,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 5297
+   "likes": 5298
   },
   {
    "name": "Mistral-Large-4-1T-A52B",
@@ -431,7 +431,7 @@
    "grow": 0,
    "score": 84,
    "cat": "Infrastructure",
-   "likes": 1592
+   "likes": 1593
   },
   {
    "name": "Pika-H3-Flex",
@@ -442,7 +442,7 @@
    "grow": null,
    "score": 84,
    "cat": "Vision",
-   "likes": 434
+   "likes": 435
   }
  ],
  "free": [
@@ -796,6 +796,20 @@
    "kind": "News"
   },
   {
+   "t": "Instinct Founder Noah Shinn Touts AI Agents Racing to Shop",
+   "url": "https://www.businessinsider.com/instinct-founder-noah-shinn-touts-ai-agents-racing-to-shop-2026-11",
+   "at": "2026-11-04T19:20:45Z",
+   "src": "Business Insider",
+   "kind": "News"
+  },
+  {
+   "t": "AlphaFold 3 predicts complex immune interactions using protein sequences alone",
+   "url": "https://phys.org/news/2026-11-alphafold-complex-immune-interactions-protein.html",
+   "at": "2026-11-04T19:20:01Z",
+   "src": "Phys.org",
+   "kind": "News"
+  },
+  {
    "t": "AI improves questionnaire-based Parkinson's screening while working around missing answers",
    "url": "https://medicalxpress.com/news/2026-11-ai-questionnaire-based-parkinson-screening.html",
    "at": "2026-11-04T18:40:01Z",
@@ -829,20 +843,6 @@
    "at": "2026-11-04T17:41:31Z",
    "src": "The Guardian",
    "kind": "News"
-  },
-  {
-   "t": "Stocks Face Midterm Rally History as AI Spending and Rate Risks Mount",
-   "url": "https://www.naturalnews.com/2026-11-04-stocks-midterm-rally-history-ai-spending-risks-mount.html",
-   "at": "2026-11-04T17:41:02Z",
-   "src": "Natural News",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI's Sam Altman Briefly Changes Name to Ram Altman on X",
-   "url": "https://www.businessinsider.com/openais-sam-altman-briefly-changes-name-ram-altman-on-x-2026-11",
-   "at": "2026-11-04T17:18:12Z",
-   "src": "Business Insider",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -851,8 +851,8 @@
    "t": "AI is forcing us to pay off 40 years of technical debt",
    "url": "https://news.ycombinator.com/item?id=50364336",
    "link": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
-   "up": 1151,
-   "com": 666,
+   "up": 1156,
+   "com": 667,
    "at": "2026-11-04T11:52:17.000Z"
   },
   {
@@ -860,8 +860,8 @@
    "t": "A thousand fewer paths to root",
    "url": "https://news.ycombinator.com/item?id=50372929",
    "link": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
-   "up": 268,
-   "com": 163,
+   "up": 275,
+   "com": 174,
    "at": "2026-11-04T23:33:14.000Z"
   },
   {
@@ -869,7 +869,7 @@
    "t": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
    "url": "https://news.ycombinator.com/item?id=50363461",
    "link": "",
-   "up": 654,
+   "up": 656,
    "com": 168,
    "at": "2026-11-04T10:10:27.000Z"
   },
@@ -878,8 +878,8 @@
    "t": "Images 2.6",
    "url": "https://news.ycombinator.com/item?id=50372945",
    "link": "https://openai.com/index/introducing-images-2-6/",
-   "up": 227,
-   "com": 147,
+   "up": 239,
+   "com": 156,
    "at": "2026-11-04T23:35:44.000Z"
   },
   {
@@ -887,8 +887,8 @@
    "t": "Lemmings CSS Animation",
    "url": "https://news.ycombinator.com/item?id=50375354",
    "link": "https://markblah.github.io/lemmings/",
-   "up": 60,
-   "com": 10,
+   "up": 73,
+   "com": 12,
    "at": "2026-11-05T04:54:10.000Z"
   },
   {
@@ -896,7 +896,7 @@
    "t": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
    "url": "https://news.ycombinator.com/item?id=50362905",
    "link": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
-   "up": 597,
+   "up": 598,
    "com": 277,
    "at": "2026-11-04T08:46:29.000Z"
   }
