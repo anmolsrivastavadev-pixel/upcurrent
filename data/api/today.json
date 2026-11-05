@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-05T00:30:50.858Z"
+  "updated": "2026-11-05T01:00:59.625Z"
  },
  "pulse": {
-  "trending": 83,
+  "trending": 82,
   "accelerating": 0,
   "newModels": 8,
-  "discussions": 48,
-  "stars": 8921
+  "discussions": 47,
+  "stars": 8881
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 97,
-   "grow": 87,
+   "grow": 89,
    "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
    "meta": [
-    "★ 2,481",
-    "+1,582 in 24h",
+    "★ 2,506",
+    "+1,571 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-03T08:02:11Z",
@@ -41,8 +41,8 @@
    "grow": null,
    "desc": "Towards a More Autonomous Agent System",
    "meta": [
-    "★ 18,558",
-    "~4,014 in 24h",
+    "★ 18,580",
+    "~4,000 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-31T09:32:46Z",
@@ -58,8 +58,8 @@
    "grow": 13,
    "desc": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
    "meta": [
-    "★ 8,665",
-    "+1,211 in 24h",
+    "★ 8,679",
+    "+1,198 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-29T15:41:21Z",
@@ -75,8 +75,8 @@
    "grow": 7,
    "desc": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "meta": [
-    "★ 6,621",
-    "+550 in 24h",
+    "★ 6,637",
+    "+556 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-29T14:34:07Z",
@@ -138,7 +138,7 @@
    "cat": "Vision",
    "score": 89,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 489",
+   "desc": "Vision on Hugging Face · open weights · ♥ 499",
    "meta": [
     "797 downloads",
     "Released 3 days ago"
@@ -156,8 +156,8 @@
    "grow": 11,
    "desc": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
    "meta": [
-    "★ 4,713",
-    "+588 in 24h",
+    "★ 4,718",
+    "+580 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-30T06:43:25Z",
@@ -173,8 +173,8 @@
    "grow": null,
    "desc": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
    "meta": [
-    "★ 1,748",
-    "~461 in 24h",
+    "★ 1,750",
+    "~459 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-01T05:35:12Z",
@@ -188,8 +188,8 @@
    "name": "dsh-superagent-prototype",
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "from": "GitHub",
-   "use": 4014,
-   "useLabel": "~4,014 stars/day",
+   "use": 4000,
+   "useLabel": "~4,000 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -207,18 +207,28 @@
    "verdict": "Used a lot, hardly talked about"
   },
   {
-   "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
-   "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+   "name": "flux-3-image-klein-comfy",
+   "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
    "from": "Hugging Face",
-   "use": 2650934,
-   "useLabel": "2.7M downloads",
-   "usePct": 0.9696969696969697,
+   "use": 1052684,
+   "useLabel": "1.1M downloads",
+   "usePct": 0.96875,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
   }
  ],
  "receipts": [
+  {
+   "name": "KKKKhazix/agent-autoloop",
+   "url": "https://github.com/KKKKhazix/agent-autoloop",
+   "kind": "stars",
+   "first": "2026-11-04T07:01:00.857Z",
+   "firstV": 1328,
+   "m": 2500,
+   "at": "2026-11-05T01:00:59.625Z",
+   "lead": 17.999657777777777
+  },
   {
    "name": "mw00/project-maya",
    "url": "https://github.com/mw00/project-maya",
@@ -288,68 +298,58 @@
    "m": 2500,
    "at": "2026-11-03T17:47:20.731Z",
    "lead": 514.2742527777777
-  },
-  {
-   "name": "LiquidAI/LFM3-Omni-2B",
-   "url": "https://huggingface.co/LiquidAI/LFM3-Omni-2B",
-   "kind": "downloads",
-   "first": "2026-10-28T15:25:10.018Z",
-   "firstV": 714,
-   "m": 10000,
-   "at": "2026-11-03T10:01:03.587Z",
-   "lead": 138.5982136111111
   }
  ],
  "github": [
   {
    "repo": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 18558,
-   "d24": 4014,
+   "stars": 18580,
+   "d24": 4000,
    "est": true,
-   "forks": 2075,
+   "forks": 2078,
    "contrib": 1,
    "score": 94
   },
   {
    "repo": "KKKKhazix/agent-autoloop",
-   "stars": 2481,
-   "d24": 1582,
+   "stars": 2506,
+   "d24": 1571,
    "est": false,
-   "forks": 498,
+   "forks": 499,
    "contrib": null,
    "score": 97
   },
   {
    "repo": "heydamir/unslop",
-   "stars": 8665,
-   "d24": 1211,
+   "stars": 8679,
+   "d24": 1198,
    "est": false,
-   "forks": 429,
+   "forks": 431,
    "contrib": 3,
    "score": 91
   },
   {
    "repo": "patch-gg/pixelfx",
-   "stars": 4713,
-   "d24": 588,
+   "stars": 4718,
+   "d24": 580,
    "est": false,
-   "forks": 629,
+   "forks": 630,
    "contrib": null,
    "score": 88
   },
   {
    "repo": "wangzan101/Mika",
-   "stars": 6621,
-   "d24": 550,
+   "stars": 6637,
+   "d24": 556,
    "est": false,
-   "forks": 1427,
+   "forks": 1432,
    "contrib": 44,
    "score": 90
   },
   {
    "repo": "caru-ini/stack-diagram",
-   "stars": 1748,
-   "d24": 461,
+   "stars": 1750,
+   "d24": 459,
    "est": true,
    "forks": 77,
    "contrib": null,
@@ -357,8 +357,8 @@
   },
   {
    "repo": "mromidev/claude-animated-shorts",
-   "stars": 1512,
-   "d24": 277,
+   "stars": 1518,
+   "d24": 278,
    "est": false,
    "forks": 346,
    "contrib": null,
@@ -366,8 +366,8 @@
   },
   {
    "repo": "elvarofficial/teardown",
-   "stars": 1909,
-   "d24": 167,
+   "stars": 1913,
+   "d24": 169,
    "est": false,
    "forks": 287,
    "contrib": null,
@@ -385,7 +385,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Coding",
-   "likes": 1486
+   "likes": 1488
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -396,7 +396,7 @@
    "grow": null,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 5267
+   "likes": 5268
   },
   {
    "name": "idol",
@@ -418,7 +418,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Vision",
-   "likes": 489
+   "likes": 499
   },
   {
    "name": "LFM3-1.7B",
@@ -440,9 +440,9 @@
    "at": "2026-09-30T18:35:13.000Z",
    "dl": 8200,
    "grow": 0,
-   "score": 85,
+   "score": 84,
    "cat": "Infrastructure",
-   "likes": 1589
+   "likes": 1590
   }
  ],
  "free": [
@@ -733,6 +733,20 @@
  },
  "headlines": [
   {
+   "t": "Sources: Anthropic and AP struck a licensing deal just before the midterms, marking the first time Anthropic paid a digital news publisher to license content",
+   "url": "https://www.techmeme.com/261104/p58#a261104p58",
+   "at": "2026-11-05T00:55:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "OpenAI launches Images 2.6 in ChatGPT, Codex, and the API, saying it generates images 50% faster, and adds animated GIF creation from prompts or photos",
+   "url": "https://www.techmeme.com/261104/p57#a261104p57",
+   "at": "2026-11-05T00:40:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Sources: Google DeepMind spinout Isomorphic Labs is in talks to raise ~$5B at a ~$50B valuation; the AI drug discovery startup last raised $2.1B in May",
    "url": "https://www.techmeme.com/261104/p56#a261104p56",
    "at": "2026-11-05T00:15:03.000Z",
@@ -803,13 +817,6 @@
    "kind": "News"
   },
   {
-   "t": "Pangram releases Pangram Image 1.0, which it says is state-of-the-art in AI image and AI video detection, and the smaller Image Flash 1.0 for AI video detection",
-   "url": "https://www.techmeme.com/261104/p43#a261104p43",
-   "at": "2026-11-04T17:02:08.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Jeanette Winterson’s point about AI brings to mind an Isaac Asimov story | Letters",
    "url": "https://www.theguardian.com/books/2026/nov/04/jeanette-winterson-point-about-ai-brings-to-mind-an-isaac-asimov-story",
    "at": "2026-11-04T17:00:30Z",
@@ -836,13 +843,6 @@
    "at": "2026-11-04T14:00:36Z",
    "src": "The Guardian",
    "kind": "News"
-  },
-  {
-   "t": "What Disney Layoffs Tell Us About the Future of Jobs",
-   "url": "https://www.newsweek.com/what-disney-layoffs-tell-us-future-jobs-12662661",
-   "at": "2026-11-04T12:21:07Z",
-   "src": "Newsweek",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -851,26 +851,44 @@
    "t": "AI is forcing us to pay off 40 years of technical debt",
    "url": "https://news.ycombinator.com/item?id=50364336",
    "link": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
-   "up": 1030,
-   "com": 620,
+   "up": 1045,
+   "com": 624,
    "at": "2026-11-04T11:52:17.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Introducing Images 2.6",
+   "url": "https://news.ycombinator.com/item?id=50372945",
+   "link": "https://openai.com/index/introducing-images-2-6/",
+   "up": 60,
+   "com": 37,
+   "at": "2026-11-04T23:35:44.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
    "url": "https://news.ycombinator.com/item?id=50363461",
    "link": "",
-   "up": 623,
+   "up": 624,
    "com": 163,
    "at": "2026-11-04T10:10:27.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Local privilege escalation vulnerabilities in Linux",
+   "url": "https://news.ycombinator.com/item?id=50372929",
+   "link": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
+   "up": 54,
+   "com": 39,
+   "at": "2026-11-04T23:33:14.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
    "url": "https://news.ycombinator.com/item?id=50362905",
    "link": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
-   "up": 585,
-   "com": 268,
+   "up": 587,
+   "com": 271,
    "at": "2026-11-04T08:46:29.000Z"
   },
   {
@@ -878,27 +896,9 @@
    "t": "Everything is an AI scam now",
    "url": "https://news.ycombinator.com/item?id=50371508",
    "link": "https://www.davidralphlewis.co.uk/posts/everything-is-an-ai-scam-now/",
-   "up": 121,
-   "com": 40,
+   "up": 123,
+   "com": 41,
    "at": "2026-11-04T21:05:19.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Introducing Images 2.6",
-   "url": "https://news.ycombinator.com/item?id=50372945",
-   "link": "https://openai.com/index/introducing-images-2-6/",
-   "up": 31,
-   "com": 10,
-   "at": "2026-11-04T23:35:44.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Local privilege escalation vulnerabilities in Linux",
-   "url": "https://news.ycombinator.com/item?id=50372929",
-   "link": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
-   "up": 30,
-   "com": 18,
-   "at": "2026-11-04T23:33:14.000Z"
   }
  ]
 }
