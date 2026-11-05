@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-05T01:00:59.625Z"
+  "updated": "2026-11-05T01:30:48.440Z"
  },
  "pulse": {
   "trending": 82,
   "accelerating": 0,
   "newModels": 8,
-  "discussions": 47,
-  "stars": 8881
+  "discussions": 46,
+  "stars": 9745
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 97,
-   "grow": 89,
+   "grow": 92,
    "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
    "meta": [
-    "★ 2,506",
-    "+1,571 in 24h",
+    "★ 2,546",
+    "+1,580 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-03T08:02:11Z",
@@ -41,8 +41,8 @@
    "grow": null,
    "desc": "Towards a More Autonomous Agent System",
    "meta": [
-    "★ 18,580",
-    "~4,000 in 24h",
+    "★ 18,598",
+    "~3,986 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-10-31T09:32:46Z",
@@ -55,11 +55,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 91,
-   "grow": 13,
+   "grow": null,
    "desc": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
    "meta": [
-    "★ 8,679",
-    "+1,198 in 24h",
+    "★ 8,690",
+    "~1,356 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-29T15:41:21Z",
@@ -72,11 +72,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 90,
-   "grow": 7,
+   "grow": null,
    "desc": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "meta": [
-    "★ 6,637",
-    "+556 in 24h",
+    "★ 6,653",
+    "~1,031 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-29T14:34:07Z",
@@ -138,7 +138,7 @@
    "cat": "Vision",
    "score": 89,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 499",
+   "desc": "Vision on Hugging Face · open weights · ♥ 510",
    "meta": [
     "797 downloads",
     "Released 3 days ago"
@@ -153,11 +153,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 88,
-   "grow": 11,
+   "grow": null,
    "desc": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
    "meta": [
-    "★ 4,718",
-    "+580 in 24h",
+    "★ 4,725",
+    "~817 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-30T06:43:25Z",
@@ -173,8 +173,8 @@
    "grow": null,
    "desc": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
    "meta": [
-    "★ 1,750",
-    "~459 in 24h",
+    "★ 1,755",
+    "~458 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-01T05:35:12Z",
@@ -188,8 +188,8 @@
    "name": "dsh-superagent-prototype",
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "from": "GitHub",
-   "use": 4000,
-   "useLabel": "~4,000 stars/day",
+   "use": 3986,
+   "useLabel": "~3,986 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -303,53 +303,53 @@
  "github": [
   {
    "repo": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 18580,
-   "d24": 4000,
+   "stars": 18598,
+   "d24": 3986,
    "est": true,
-   "forks": 2078,
+   "forks": 2080,
    "contrib": 1,
    "score": 94
   },
   {
    "repo": "KKKKhazix/agent-autoloop",
-   "stars": 2506,
-   "d24": 1571,
+   "stars": 2546,
+   "d24": 1580,
    "est": false,
-   "forks": 499,
+   "forks": 502,
    "contrib": null,
    "score": 97
   },
   {
    "repo": "heydamir/unslop",
-   "stars": 8679,
-   "d24": 1198,
-   "est": false,
-   "forks": 431,
+   "stars": 8690,
+   "d24": 1356,
+   "est": true,
+   "forks": 432,
    "contrib": 3,
    "score": 91
   },
   {
-   "repo": "patch-gg/pixelfx",
-   "stars": 4718,
-   "d24": 580,
-   "est": false,
-   "forks": 630,
-   "contrib": null,
-   "score": 88
-  },
-  {
    "repo": "wangzan101/Mika",
-   "stars": 6637,
-   "d24": 556,
-   "est": false,
-   "forks": 1432,
+   "stars": 6653,
+   "d24": 1031,
+   "est": true,
+   "forks": 1440,
    "contrib": 44,
    "score": 90
   },
   {
+   "repo": "patch-gg/pixelfx",
+   "stars": 4725,
+   "d24": 817,
+   "est": true,
+   "forks": 633,
+   "contrib": null,
+   "score": 88
+  },
+  {
    "repo": "caru-ini/stack-diagram",
-   "stars": 1750,
-   "d24": 459,
+   "stars": 1755,
+   "d24": 458,
    "est": true,
    "forks": 77,
    "contrib": null,
@@ -357,8 +357,8 @@
   },
   {
    "repo": "mromidev/claude-animated-shorts",
-   "stars": 1518,
-   "d24": 278,
+   "stars": 1522,
+   "d24": 275,
    "est": false,
    "forks": 346,
    "contrib": null,
@@ -366,10 +366,10 @@
   },
   {
    "repo": "elvarofficial/teardown",
-   "stars": 1913,
-   "d24": 169,
+   "stars": 1917,
+   "d24": 170,
    "est": false,
-   "forks": 287,
+   "forks": 290,
    "contrib": null,
    "score": 83
   }
@@ -385,7 +385,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Coding",
-   "likes": 1488
+   "likes": 1489
   },
   {
    "name": "DeepSeek-V4.1-Flash-1017",
@@ -396,7 +396,7 @@
    "grow": null,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 5268
+   "likes": 5270
   },
   {
    "name": "idol",
@@ -418,7 +418,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Vision",
-   "likes": 499
+   "likes": 510
   },
   {
    "name": "LFM3-1.7B",
@@ -442,7 +442,7 @@
    "grow": 0,
    "score": 84,
    "cat": "Infrastructure",
-   "likes": 1590
+   "likes": 1591
   }
  ],
  "free": [
@@ -733,6 +733,13 @@
  },
  "headlines": [
   {
+   "t": "Cat Wu, who left Anthropic last week, says she is joining OpenAI to lead product manangement for core products; Wu was the product lead for Claude Code",
+   "url": "https://www.techmeme.com/261104/p60#a261104p60",
+   "at": "2026-11-05T01:20:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Sources: Anthropic and AP struck a licensing deal just before the midterms, marking the first time Anthropic paid a digital news publisher to license content",
    "url": "https://www.techmeme.com/261104/p58#a261104p58",
    "at": "2026-11-05T00:55:01.000Z",
@@ -796,13 +803,6 @@
    "kind": "Lab blog"
   },
   {
-   "t": "Shares of US tech giants jump after Democrats' midterm sweep as investors bet that a Democrat-controlled Congress will slow AI capex that's draining cash flow",
-   "url": "https://www.techmeme.com/261104/p45#a261104p45",
-   "at": "2026-11-04T18:02:18.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
    "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
    "at": "2026-11-04T17:50:10.000Z",
@@ -851,35 +851,35 @@
    "t": "AI is forcing us to pay off 40 years of technical debt",
    "url": "https://news.ycombinator.com/item?id=50364336",
    "link": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
-   "up": 1045,
-   "com": 624,
+   "up": 1056,
+   "com": 630,
    "at": "2026-11-04T11:52:17.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Introducing Images 2.6",
-   "url": "https://news.ycombinator.com/item?id=50372945",
-   "link": "https://openai.com/index/introducing-images-2-6/",
-   "up": 60,
-   "com": 37,
-   "at": "2026-11-04T23:35:44.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
    "url": "https://news.ycombinator.com/item?id=50363461",
    "link": "",
-   "up": 624,
+   "up": 628,
    "com": 163,
    "at": "2026-11-04T10:10:27.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Local privilege escalation vulnerabilities in Linux",
+   "t": "Images 2.6",
+   "url": "https://news.ycombinator.com/item?id=50372945",
+   "link": "https://openai.com/index/introducing-images-2-6/",
+   "up": 75,
+   "com": 63,
+   "at": "2026-11-04T23:35:44.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "A thousand fewer paths to root",
    "url": "https://news.ycombinator.com/item?id=50372929",
    "link": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
-   "up": 54,
-   "com": 39,
+   "up": 72,
+   "com": 50,
    "at": "2026-11-04T23:33:14.000Z"
   },
   {
@@ -887,7 +887,7 @@
    "t": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
    "url": "https://news.ycombinator.com/item?id=50362905",
    "link": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
-   "up": 587,
+   "up": 590,
    "com": 271,
    "at": "2026-11-04T08:46:29.000Z"
   },
@@ -896,8 +896,8 @@
    "t": "Everything is an AI scam now",
    "url": "https://news.ycombinator.com/item?id=50371508",
    "link": "https://www.davidralphlewis.co.uk/posts/everything-is-an-ai-scam-now/",
-   "up": 123,
-   "com": 41,
+   "up": 126,
+   "com": 42,
    "at": "2026-11-04T21:05:19.000Z"
   }
  ]
