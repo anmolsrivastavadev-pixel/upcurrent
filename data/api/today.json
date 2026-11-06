@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-06T05:01:01.526Z"
+  "updated": "2026-11-06T05:30:52.126Z"
  },
  "pulse": {
   "trending": 80,
   "accelerating": 0,
   "newModels": 7,
-  "discussions": 46,
-  "stars": 4701
+  "discussions": 45,
+  "stars": 4096
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Tools",
    "score": 97,
-   "grow": 76,
+   "grow": 77,
    "desc": "Google_AI_Pro_2Year_ZeroCost_Auto",
    "meta": [
-    "★ 2,536",
-    "+1,456 in 24h",
+    "★ 2,554",
+    "+1,440 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-04T14:54:56Z",
@@ -39,7 +39,7 @@
    "cat": "Vision",
    "score": 95,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 948",
+   "desc": "Vision on Hugging Face · open weights · ♥ 951",
    "meta": [
     "12K downloads",
     "Released 4 days ago"
@@ -54,11 +54,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 94,
-   "grow": null,
+   "grow": 4,
    "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
    "meta": [
-    "★ 3,353",
-    "~1,167 in 24h",
+    "★ 3,361",
+    "+564 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-03T08:02:11Z",
@@ -74,8 +74,8 @@
    "grow": 2,
    "desc": "Towards a More Autonomous Agent System",
    "meta": [
-    "★ 19,702",
-    "+697 in 24h",
+    "★ 19,718",
+    "+700 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-31T09:32:46Z",
@@ -89,7 +89,7 @@
    "cat": "Vision",
    "score": 89,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open source · ♥ 804",
+   "desc": "Vision on Hugging Face · open source · ♥ 809",
    "meta": [
     "17K downloads",
     "Released 9 days ago"
@@ -105,7 +105,7 @@
    "cat": "Coding",
    "score": 87,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 718",
+   "desc": "Model on Hugging Face · open source · ♥ 722",
    "meta": [
     "157K downloads",
     "Released 12 days ago"
@@ -123,8 +123,8 @@
    "grow": 2,
    "desc": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
    "meta": [
-    "★ 5,349",
-    "+349 in 24h",
+    "★ 5,361",
+    "+363 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-30T06:43:25Z",
@@ -141,7 +141,7 @@
    "desc": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
    "meta": [
     "★ 1,880",
-    "+59 in 24h",
+    "+57 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-11-01T05:35:12Z",
@@ -173,8 +173,8 @@
    "grow": null,
    "desc": "Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion",
    "meta": [
-    "★ 1,821",
-    "~367 in 24h",
+    "★ 1,827",
+    "~366 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-11-01T05:50:38Z",
@@ -182,7 +182,36 @@
    "url": "https://github.com/mromidev/claude-animated-shorts"
   }
  ],
- "breakouts": [],
+ "breakouts": [
+  {
+   "key": "gpt 6",
+   "label": "GPT-6",
+   "n": 4,
+   "sources": [
+    {
+     "src": "Hacker News",
+     "t": "GPT-6 Astra covertly underperforms on safety research",
+     "url": "https://news.ycombinator.com/item?id=50376313"
+    },
+    {
+     "src": "TNW",
+     "t": "OpenAI’s GPT-6 Cyber found 81 new Firefox flaws and is rated ‘Critical’",
+     "url": "https://thenextweb.com/news/openai-gpt-6-cyber-launch-firefox-linux-daybreak-red"
+    },
+    {
+     "src": "NDTV.com",
+     "t": "OpenAI Launches GPT-6 Cyber With 'Critical' Cybersecurity Rating",
+     "url": "https://www.ndtv.com/artificial-intelligence/openai-launches-gpt-6-cyber-with-critical-cybersecurity-rating-12289525"
+    },
+    {
+     "src": "YouTube",
+     "t": "GPT-6 Just Fixed Another AI by Editing Its Weights! #ai #openai #llm",
+     "url": "https://www.youtube.com/watch?v=jNuDdqEwI58"
+    }
+   ],
+   "since": "2026-10-29T13:30:52.696Z"
+  }
+ ],
  "hype": [
   {
    "name": "GPT-6",
@@ -198,20 +227,30 @@
      "url": "https://news.ycombinator.com/item?id=50376313"
     },
     {
+     "src": "TNW",
+     "t": "OpenAI’s GPT-6 Cyber found 81 new Firefox flaws and is rated ‘Critical’",
+     "url": "https://thenextweb.com/news/openai-gpt-6-cyber-launch-firefox-linux-daybreak-red"
+    },
+    {
+     "src": "NDTV.com",
+     "t": "OpenAI Launches GPT-6 Cyber With 'Critical' Cybersecurity Rating",
+     "url": "https://www.ndtv.com/artificial-intelligence/openai-launches-gpt-6-cyber-with-critical-cybersecurity-rating-12289525"
+    },
+    {
      "src": "YouTube",
      "t": "GPT-6 Just Fixed Another AI by Editing Its Weights! #ai #openai #llm",
      "url": "https://www.youtube.com/watch?v=jNuDdqEwI58"
     }
    ],
-   "buzz": 2,
+   "buzz": 4,
    "verdict": "Talk only, no public usage numbers"
   },
   {
    "name": "Google_AI_Pro_2Year_ZeroCost_Auto",
    "url": "https://github.com/worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
    "from": "GitHub",
-   "use": 1456,
-   "useLabel": "+1,456 stars/day",
+   "use": 1440,
+   "useLabel": "+1,440 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -241,6 +280,16 @@
   }
  ],
  "receipts": [
+  {
+   "name": "heydamir/unslop",
+   "url": "https://github.com/heydamir/unslop",
+   "kind": "stars",
+   "first": "2026-10-31T00:01:03.515Z",
+   "firstV": 1210,
+   "m": 10000,
+   "at": "2026-11-06T05:30:52.126Z",
+   "lead": 149.49683638888888
+  },
   {
    "name": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
    "url": "https://github.com/worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
@@ -310,86 +359,76 @@
    "m": 5000,
    "at": "2026-11-05T10:00:58.978Z",
    "lead": 110.00094416666667
-  },
-  {
-   "name": "wheresryan22/anatomy",
-   "url": "https://github.com/wheresryan22/anatomy",
-   "kind": "stars",
-   "first": "2026-10-11T11:30:51.880Z",
-   "firstV": 1020,
-   "m": 25000,
-   "at": "2026-11-05T07:00:58.618Z",
-   "lead": 595.5018716666667
   }
  ],
  "github": [
   {
    "repo": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
-   "stars": 2536,
-   "d24": 1456,
+   "stars": 2554,
+   "d24": 1440,
    "est": false,
-   "forks": 1014,
+   "forks": 1022,
    "contrib": null,
    "score": 97
   },
   {
-   "repo": "KKKKhazix/agent-autoloop",
-   "stars": 3353,
-   "d24": 1167,
-   "est": true,
-   "forks": 621,
-   "contrib": null,
-   "score": 94
-  },
-  {
    "repo": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 19702,
-   "d24": 697,
+   "stars": 19718,
+   "d24": 700,
    "est": false,
-   "forks": 2267,
+   "forks": 2269,
    "contrib": 1,
    "score": 93
   },
   {
+   "repo": "KKKKhazix/agent-autoloop",
+   "stars": 3361,
+   "d24": 564,
+   "est": false,
+   "forks": 624,
+   "contrib": null,
+   "score": 94
+  },
+  {
    "repo": "mromidev/claude-animated-shorts",
-   "stars": 1821,
-   "d24": 367,
+   "stars": 1827,
+   "d24": 366,
    "est": true,
-   "forks": 398,
+   "forks": 399,
    "contrib": null,
    "score": 85
   },
   {
    "repo": "patch-gg/pixelfx",
-   "stars": 5349,
-   "d24": 349,
+   "stars": 5361,
+   "d24": 363,
    "est": false,
-   "forks": 700,
+   "forks": 702,
    "contrib": 1,
    "score": 86
   },
   {
    "repo": "elvarofficial/teardown",
-   "stars": 2232,
-   "d24": 279,
+   "stars": 2241,
+   "d24": 284,
    "est": false,
    "forks": 345,
    "contrib": null,
-   "score": 82
+   "score": 81
   },
   {
    "repo": "N1nEmAn/sapper-v2",
-   "stars": 1386,
+   "stars": 1389,
    "d24": 211,
    "est": true,
-   "forks": 792,
+   "forks": 793,
    "contrib": null,
-   "score": 75
+   "score": 76
   },
   {
    "repo": "wquguru/cicada",
    "stars": 1510,
-   "d24": 116,
+   "d24": 111,
    "est": false,
    "forks": 275,
    "contrib": null,
@@ -406,7 +445,7 @@
    "grow": 0,
    "score": 95,
    "cat": "Vision",
-   "likes": 948
+   "likes": 951
   },
   {
    "name": "idol",
@@ -417,7 +456,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Vision",
-   "likes": 804
+   "likes": 809
   },
   {
    "name": "Qwen3.5-4B-3D-Coder",
@@ -429,7 +468,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Coding",
-   "likes": 718
+   "likes": 722
   },
   {
    "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
@@ -444,18 +483,6 @@
    "likes": 3061
   },
   {
-   "name": "Mistral-Large-4-1T-A52B",
-   "org": "mistralai",
-   "size": "52B",
-   "lic": "Open weights",
-   "at": "2026-09-30T18:35:13.000Z",
-   "dl": 9592,
-   "grow": null,
-   "score": 84,
-   "cat": "Infrastructure",
-   "likes": 1617
-  },
-  {
    "name": "Pika-H3-Flex",
    "org": "Pika-Labs",
    "lic": "Open weights",
@@ -464,7 +491,19 @@
    "grow": null,
    "score": 84,
    "cat": "Vision",
-   "likes": 478
+   "likes": 480
+  },
+  {
+   "name": "Mistral-Large-4-1T-A52B",
+   "org": "mistralai",
+   "size": "52B",
+   "lic": "Open weights",
+   "at": "2026-09-30T18:35:13.000Z",
+   "dl": 9592,
+   "grow": null,
+   "score": 83,
+   "cat": "Infrastructure",
+   "likes": 1617
   }
  ],
  "free": [
@@ -740,6 +779,13 @@
  },
  "headlines": [
   {
+   "t": "Potential Sciences, an AI startup building large-scale chemical data sets, secured backing from the UK's Sovereign AI Fund, as part of an eight-figure raise",
+   "url": "https://www.techmeme.com/261106/p1#a261106p1",
+   "at": "2026-11-06T05:00:13.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Google rolls out Gemini Omni 1.2 Flash, which creates clips up to 15 seconds, vs. 10 seconds with Omni 1.1, has better reference adherence, and costs 30% less",
    "url": "https://www.techmeme.com/261105/p70#a261105p70",
    "at": "2026-11-06T04:05:09.000Z",
@@ -817,39 +863,32 @@
    "kind": "News"
   },
   {
+   "t": "South Korea Sets Record AI Budget to Pursue ‘World’s Highest Performance’ Sovereign Model",
+   "url": "https://www.naturalnews.com/2026-11-05-korea-ai-budget-pursue-highest-performance-sovereign-model.html",
+   "at": "2026-11-05T17:27:09Z",
+   "src": "Natural News",
+   "kind": "News"
+  },
+  {
+   "t": "OpenAI’s GPT-6 Cyber found 81 new Firefox flaws and is rated ‘Critical’",
+   "url": "https://thenextweb.com/news/openai-gpt-6-cyber-launch-firefox-linux-daybreak-red",
+   "at": "2026-11-05T17:24:04Z",
+   "src": "TNW",
+   "kind": "News"
+  },
+  {
+   "t": "Pralhad Joshi: 26.3 GW more power needed by 2031",
+   "url": "https://www.cnbctv18.com/energy/pralhad-joshi-26-3-gw-more-power-needed-by-2031-32-due-to-data-centres-20028392.htm",
+   "at": "2026-11-05T17:06:12Z",
+   "src": "CNBC TV18",
+   "kind": "News"
+  },
+  {
    "t": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
    "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
    "at": "2026-11-05T17:05:16.000Z",
    "src": "Google DeepMind",
    "kind": "Lab blog"
-  },
-  {
-   "t": "OpenAI debuts new cybersecurity-focused AI model amid growing alarm about AI-driven cyber attacks",
-   "url": "https://fortune.com/2026/11/05/openai-debuts-new-cybersecurity-focused-ai-model-amid-growing-alarm-about-ai-driven-cyber-attacks/",
-   "at": "2026-11-05T17:01:00Z",
-   "src": "Fortune",
-   "kind": "News"
-  },
-  {
-   "t": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
-   "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
-   "at": "2026-11-05T17:00:35.000Z",
-   "src": "NVIDIA",
-   "kind": "Lab blog"
-  },
-  {
-   "t": "Australian universities are creating AI-native graduates",
-   "url": "https://openai.com/index/australian-universities-ai-native-graduates",
-   "at": "2026-11-05T17:00:00.000Z",
-   "src": "OpenAI",
-   "kind": "Lab blog"
-  },
-  {
-   "t": "OpenAI releases new data center guidelines following midterms",
-   "url": "https://www.washingtonexaminer.com/policy/technology/4794034/openai-new-data-center-guidelines-midterm-election-moratoriums/",
-   "at": "2026-11-05T16:52:34Z",
-   "src": "Washington Examiner",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -858,8 +897,8 @@
    "t": "Claude Code sends your email address to websites",
    "url": "https://news.ycombinator.com/item?id=50385272",
    "link": "https://github.com/anthropics/claude-code/issues/107757",
-   "up": 751,
-   "com": 255,
+   "up": 787,
+   "com": 267,
    "at": "2026-11-05T22:17:15.000Z"
   },
   {
@@ -867,45 +906,45 @@
    "t": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
    "url": "https://news.ycombinator.com/item?id=50385870",
    "link": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
-   "up": 192,
-   "com": 95,
+   "up": 210,
+   "com": 100,
    "at": "2026-11-05T23:09:57.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Inkling 2 Small",
-   "url": "https://news.ycombinator.com/item?id=50386338",
-   "link": "https://thinkingmachines.ai/news/inkling-2-small/",
-   "up": 130,
-   "com": 52,
-   "at": "2026-11-06T00:00:24.000Z"
   },
   {
    "src": "Hacker News",
    "t": "The Hackintosh Reborn",
    "url": "https://news.ycombinator.com/item?id=50383057",
    "link": "https://www.naut.ca/blog/2026/11/05/the-hackintosh-reborn-with-ai/",
-   "up": 255,
-   "com": 125,
+   "up": 260,
+   "com": 128,
    "at": "2026-11-05T19:08:22.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Inkling 2 Small",
+   "url": "https://news.ycombinator.com/item?id=50386338",
+   "link": "https://thinkingmachines.ai/news/inkling-2-small/",
+   "up": 132,
+   "com": 53,
+   "at": "2026-11-06T00:00:24.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Window Sweaters",
    "url": "https://news.ycombinator.com/item?id=50381383",
    "link": "https://github.com/saragordic/window-sweaters",
-   "up": 276,
-   "com": 90,
+   "up": 280,
+   "com": 92,
    "at": "2026-11-05T16:50:14.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Nvidia Kubernetes Engine (NVKE)",
-   "url": "https://news.ycombinator.com/item?id=50387738",
-   "link": "https://github.com/dsx-ai-factory/nvke",
-   "up": 29,
-   "com": 10,
-   "at": "2026-11-06T03:16:26.000Z"
+   "t": "Awesome repositories are no longer awesome",
+   "url": "https://news.ycombinator.com/item?id=50377821",
+   "link": "https://erikgahner.github.io/posts/2026/awesome-repositories-are-no-longer-awesome/",
+   "up": 283,
+   "com": 116,
+   "at": "2026-11-05T11:16:51.000Z"
   }
  ]
 }
