@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-05T23:30:48.262Z"
+  "updated": "2026-11-06T00:01:00.542Z"
  },
  "pulse": {
   "trending": 79,
   "accelerating": 0,
   "newModels": 7,
-  "discussions": 43,
-  "stars": 8108
+  "discussions": 39,
+  "stars": 4976
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Tools",
    "score": 97,
-   "grow": 58,
+   "grow": 60,
    "desc": "Google_AI_Pro_2Year_ZeroCost_Auto",
    "meta": [
-    "★ 2,288",
-    "+1,621 in 24h",
+    "★ 2,313",
+    "+1,604 in 24h",
     "Created yesterday"
    ],
    "at": "2026-11-04T14:54:56Z",
@@ -39,7 +39,7 @@
    "cat": "Vision",
    "score": 95,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 910",
+   "desc": "Vision on Hugging Face · open weights · ♥ 916",
    "meta": [
     "12K downloads",
     "Released 4 days ago"
@@ -57,8 +57,8 @@
    "grow": null,
    "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
    "meta": [
-    "★ 3,220",
-    "~1,217 in 24h",
+    "★ 3,225",
+    "~1,210 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-03T08:02:11Z",
@@ -71,11 +71,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 93,
-   "grow": null,
+   "grow": 1,
    "desc": "Towards a More Autonomous Agent System",
    "meta": [
-    "★ 19,461",
-    "~3,486 in 24h",
+    "★ 19,471",
+    "+380 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-31T09:32:46Z",
@@ -89,7 +89,7 @@
    "cat": "Vision",
    "score": 89,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open source · ♥ 765",
+   "desc": "Vision on Hugging Face · open source · ♥ 769",
    "meta": [
     "17K downloads",
     "Released 8 days ago"
@@ -104,8 +104,8 @@
    "src": "hf",
    "cat": "Vision",
    "score": 89,
-   "grow": 15,
-   "desc": "Vision on Hugging Face · open weights · ♥ 471",
+   "grow": null,
+   "desc": "Vision on Hugging Face · open weights · ♥ 473",
    "meta": [
     "863 downloads",
     "Released 7 days ago"
@@ -123,8 +123,8 @@
    "grow": null,
    "desc": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
    "meta": [
-    "★ 5,247",
-    "~783 in 24h",
+    "★ 5,251",
+    "~781 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-30T06:43:25Z",
@@ -132,12 +132,29 @@
    "url": "https://github.com/patch-gg/pixelfx"
   },
   {
+   "name": "stack-diagram",
+   "owner": "caru-ini",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 86,
+   "grow": null,
+   "desc": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
+   "meta": [
+    "★ 1,866",
+    "~391 in 24h",
+    "Created 5 days ago"
+   ],
+   "at": "2026-11-01T05:35:12Z",
+   "breakout": null,
+   "url": "https://github.com/caru-ini/stack-diagram"
+  },
+  {
    "name": "Qwen3.5-4B-3D-Coder",
    "owner": "ccore",
    "src": "hf",
    "cat": "Coding",
    "score": 86,
-   "grow": null,
+   "grow": 0,
    "desc": "Model on Hugging Face · open source · ♥ 700",
    "meta": [
     "157K downloads",
@@ -148,37 +165,21 @@
    "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder"
   },
   {
-   "name": "stack-diagram",
-   "owner": "caru-ini",
+   "name": "claude-animated-shorts",
+   "owner": "mromidev",
    "src": "gh",
    "cat": "Agents",
    "score": 85,
-   "grow": null,
-   "desc": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
+   "grow": 12,
+   "desc": "Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion",
    "meta": [
-    "★ 1,863",
-    "~392 in 24h",
+    "★ 1,736",
+    "+224 in 24h",
     "Created 5 days ago"
    ],
-   "at": "2026-11-01T05:35:12Z",
+   "at": "2026-11-01T05:50:38Z",
    "breakout": null,
-   "url": "https://github.com/caru-ini/stack-diagram"
-  },
-  {
-   "name": "Turns Matter: Advancing Streaming Video RL via Turn-Level Credit",
-   "owner": "Paper",
-   "src": "paper",
-   "url": "https://huggingface.co/papers/2611.06728",
-   "cat": "Research",
-   "score": 85,
-   "grow": null,
-   "desc": "Streaming video understanding requires models to repeatedly decide whether to respond or continue observing.",
-   "meta": [
-    "▲ 120 upvotes",
-    "Hugging Face Papers"
-   ],
-   "at": "2026-11-03T19:00:00.000Z",
-   "breakout": null
+   "url": "https://github.com/mromidev/claude-animated-shorts"
   }
  ],
  "breakouts": [],
@@ -206,11 +207,11 @@
    "verdict": "Talk only, no public usage numbers"
   },
   {
-   "name": "dsh-superagent-prototype",
-   "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+   "name": "Google_AI_Pro_2Year_ZeroCost_Auto",
+   "url": "https://github.com/worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
    "from": "GitHub",
-   "use": 3486,
-   "useLabel": "~3,486 stars/day",
+   "use": 1604,
+   "useLabel": "+1,604 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -323,36 +324,27 @@
  ],
  "github": [
   {
-   "repo": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 19461,
-   "d24": 3486,
-   "est": true,
-   "forks": 2220,
-   "contrib": 1,
-   "score": 93
-  },
-  {
    "repo": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
-   "stars": 2288,
-   "d24": 1621,
+   "stars": 2313,
+   "d24": 1604,
    "est": false,
-   "forks": 943,
+   "forks": 945,
    "contrib": null,
    "score": 97
   },
   {
    "repo": "KKKKhazix/agent-autoloop",
-   "stars": 3220,
-   "d24": 1217,
+   "stars": 3225,
+   "d24": 1210,
    "est": true,
-   "forks": 594,
+   "forks": 597,
    "contrib": null,
    "score": 94
   },
   {
    "repo": "patch-gg/pixelfx",
-   "stars": 5247,
-   "d24": 783,
+   "stars": 5251,
+   "d24": 781,
    "est": true,
    "forks": 694,
    "contrib": 1,
@@ -360,39 +352,48 @@
   },
   {
    "repo": "caru-ini/stack-diagram",
-   "stars": 1863,
-   "d24": 392,
+   "stars": 1866,
+   "d24": 391,
    "est": true,
    "forks": 87,
+   "contrib": null,
+   "score": 86
+  },
+  {
+   "repo": "deepseek-ai/dsh-superagent-prototype",
+   "stars": 19471,
+   "d24": 380,
+   "est": false,
+   "forks": 2222,
+   "contrib": 1,
+   "score": 93
+  },
+  {
+   "repo": "elvarofficial/teardown",
+   "stars": 2175,
+   "d24": 282,
+   "est": false,
+   "forks": 335,
+   "contrib": null,
+   "score": 82
+  },
+  {
+   "repo": "mromidev/claude-animated-shorts",
+   "stars": 1736,
+   "d24": 224,
+   "est": false,
+   "forks": 385,
    "contrib": null,
    "score": 85
   },
   {
-   "repo": "elvarofficial/teardown",
-   "stars": 2173,
-   "d24": 290,
-   "est": false,
-   "forks": 334,
-   "contrib": null,
-   "score": 81
-  },
-  {
-   "repo": "mromidev/claude-animated-shorts",
-   "stars": 1728,
-   "d24": 220,
-   "est": false,
-   "forks": 383,
-   "contrib": null,
-   "score": 84
-  },
-  {
    "repo": "wquguru/cicada",
-   "stars": 1478,
-   "d24": 99,
+   "stars": 1482,
+   "d24": 104,
    "est": false,
-   "forks": 266,
+   "forks": 269,
    "contrib": null,
-   "score": 81
+   "score": 82
   }
  ],
  "models": [
@@ -405,7 +406,7 @@
    "grow": 0,
    "score": 95,
    "cat": "Vision",
-   "likes": 910
+   "likes": 916
   },
   {
    "name": "idol",
@@ -416,7 +417,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Vision",
-   "likes": 765
+   "likes": 769
   },
   {
    "name": "Pika-H3-Flex",
@@ -424,10 +425,10 @@
    "lic": "Open weights",
    "at": "2026-10-29T17:08:44.000Z",
    "dl": 863,
-   "grow": 15,
+   "grow": null,
    "score": 89,
    "cat": "Vision",
-   "likes": 471
+   "likes": 473
   },
   {
    "name": "Qwen3.5-4B-3D-Coder",
@@ -436,7 +437,7 @@
    "lic": "Open source",
    "at": "2026-10-25T05:43:34.000Z",
    "dl": 157157,
-   "grow": null,
+   "grow": 0,
    "score": 86,
    "cat": "Coding",
    "likes": 700
@@ -451,7 +452,7 @@
    "grow": 17,
    "score": 84,
    "cat": "Infrastructure",
-   "likes": 1613
+   "likes": 1614
   },
   {
    "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
@@ -463,7 +464,7 @@
    "grow": 0,
    "score": 83,
    "cat": "Coding",
-   "likes": 3054
+   "likes": 3055
   }
  ],
  "free": [
@@ -809,18 +810,18 @@
    "kind": "News"
   },
   {
-   "t": "Anthropic launches Personal Finance in Claude, letting users connect bank and credit card accounts via Plaid with read-only access to analyze spending trends",
-   "url": "https://www.techmeme.com/261105/p44#a261105p44",
-   "at": "2026-11-05T18:15:04.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Winner of the Prix Goncourt literary prize admits to using AI ",
    "url": "https://www.theguardian.com/books/2026/nov/05/winner-of-the-prix-goncourt-literary-prize-admits-to-using-ai-philippe-jaenada",
    "at": "2026-11-05T18:08:58Z",
    "src": "The Guardian",
    "kind": "News"
+  },
+  {
+   "t": "Stocks Plunge as Traders Dump Everything With AI Exposure",
+   "url": "https://www.youtube.com/watch?v=t7xB-uCfeVU",
+   "at": "2026-11-05T17:38:11Z",
+   "src": "Bloomberg Podcasts",
+   "kind": "Video"
   },
   {
    "t": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
@@ -857,8 +858,8 @@
    "t": "Claude Code sends your email address to websites",
    "url": "https://news.ycombinator.com/item?id=50385272",
    "link": "https://github.com/anthropics/claude-code/issues/107757",
-   "up": 181,
-   "com": 46,
+   "up": 276,
+   "com": 78,
    "at": "2026-11-05T22:17:15.000Z"
   },
   {
@@ -866,8 +867,8 @@
    "t": "The Hackintosh Reborn",
    "url": "https://news.ycombinator.com/item?id=50383057",
    "link": "https://www.naut.ca/blog/2026/11/05/the-hackintosh-reborn-with-ai/",
-   "up": 159,
-   "com": 70,
+   "up": 164,
+   "com": 74,
    "at": "2026-11-05T19:08:22.000Z"
   },
   {
@@ -875,8 +876,8 @@
    "t": "Window Sweaters",
    "url": "https://news.ycombinator.com/item?id=50381383",
    "link": "https://github.com/saragordic/window-sweaters",
-   "up": 212,
-   "com": 75,
+   "up": 218,
+   "com": 77,
    "at": "2026-11-05T16:50:14.000Z"
   },
   {
@@ -885,7 +886,7 @@
    "url": "https://news.ycombinator.com/item?id=50382179",
    "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026",
    "up": 146,
-   "com": 175,
+   "com": 179,
    "at": "2026-11-05T18:00:01.000Z"
   },
   {
@@ -893,7 +894,7 @@
    "t": "Awesome repositories are no longer awesome",
    "url": "https://news.ycombinator.com/item?id=50377821",
    "link": "https://erikgahner.github.io/posts/2026/awesome-repositories-are-no-longer-awesome/",
-   "up": 268,
+   "up": 270,
    "com": 116,
    "at": "2026-11-05T11:16:51.000Z"
   },
@@ -902,8 +903,8 @@
    "t": "My psychophysics as a bilateral cochlear implant user",
    "url": "https://news.ycombinator.com/item?id=50381033",
    "link": "https://claude.ai/artifact/L8qsMc3SorytGW3LA81nYf",
-   "up": 149,
-   "com": 49,
+   "up": 154,
+   "com": 61,
    "at": "2026-11-05T16:21:12.000Z"
   }
  ]
