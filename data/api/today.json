@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-06T10:00:59.566Z"
+  "updated": "2026-11-06T10:30:51.420Z"
  },
  "pulse": {
   "trending": 79,
-  "accelerating": 2,
+  "accelerating": 3,
   "newModels": 7,
-  "discussions": 51,
-  "stars": 3660
+  "discussions": 49,
+  "stars": 3550
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "Google_AI_Pro_2Year_ZeroCost_Auto",
    "meta": [
-    "★ 2,697",
-    "~1,502 in 24h",
+    "★ 2,708",
+    "~1,491 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-04T14:54:56Z",
@@ -54,11 +54,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 94,
-   "grow": 7,
+   "grow": 8,
    "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
    "meta": [
-    "★ 3,460",
-    "+548 in 24h",
+    "★ 3,468",
+    "+541 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-03T08:02:11Z",
@@ -74,8 +74,8 @@
    "grow": 3,
    "desc": "Towards a More Autonomous Agent System",
    "meta": [
-    "★ 19,932",
-    "+820 in 24h",
+    "★ 19,952",
+    "+825 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-31T09:32:46Z",
@@ -89,7 +89,7 @@
    "cat": "Vision",
    "score": 89,
    "grow": 11,
-   "desc": "Vision on Hugging Face · open source · ♥ 839",
+   "desc": "Vision on Hugging Face · open source · ♥ 845",
    "meta": [
     "19K downloads",
     "Released 9 days ago"
@@ -155,8 +155,8 @@
    "grow": 9,
    "desc": "Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion",
    "meta": [
-    "★ 1,906",
-    "+408 in 24h",
+    "★ 1,912",
+    "+402 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-11-01T05:50:38Z",
@@ -172,8 +172,8 @@
    "grow": 2,
    "desc": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
    "meta": [
-    "★ 1,896",
-    "+65 in 24h",
+    "★ 1,897",
+    "+64 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-11-01T05:35:12Z",
@@ -181,7 +181,31 @@
    "url": "https://github.com/caru-ini/stack-diagram"
   }
  ],
- "breakouts": [],
+ "breakouts": [
+  {
+   "key": "gpt 6",
+   "label": "GPT-6",
+   "n": 3,
+   "sources": [
+    {
+     "src": "Hacker News",
+     "t": "GPT-6 Cyber",
+     "url": "https://news.ycombinator.com/item?id=50381914"
+    },
+    {
+     "src": "Securityweek.com",
+     "t": "OpenAI Finds GPT-6 Astra Quietly Holding Back on Internal Red-Teaming, Exploit Tasks",
+     "url": "https://www.securityweek.com/openai-finds-gpt-6-astra-quietly-holding-back-on-internal-red-teaming-exploit-tasks/"
+    },
+    {
+     "src": "YouTube",
+     "t": "GPT-6 Just Fixed Another AI by Editing Its Weights! #ai #openai #llm",
+     "url": "https://www.youtube.com/watch?v=jNuDdqEwI58"
+    }
+   ],
+   "since": "2026-10-29T13:30:52.696Z"
+  }
+ ],
  "hype": [
   {
    "name": "GPT-6",
@@ -197,20 +221,25 @@
      "url": "https://news.ycombinator.com/item?id=50381914"
     },
     {
+     "src": "Securityweek.com",
+     "t": "OpenAI Finds GPT-6 Astra Quietly Holding Back on Internal Red-Teaming, Exploit Tasks",
+     "url": "https://www.securityweek.com/openai-finds-gpt-6-astra-quietly-holding-back-on-internal-red-teaming-exploit-tasks/"
+    },
+    {
      "src": "YouTube",
      "t": "GPT-6 Just Fixed Another AI by Editing Its Weights! #ai #openai #llm",
      "url": "https://www.youtube.com/watch?v=jNuDdqEwI58"
     }
    ],
-   "buzz": 2,
+   "buzz": 3,
    "verdict": "Talk only, no public usage numbers"
   },
   {
    "name": "Google_AI_Pro_2Year_ZeroCost_Auto",
    "url": "https://github.com/worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
    "from": "GitHub",
-   "use": 1502,
-   "useLabel": "~1,502 stars/day",
+   "use": 1491,
+   "useLabel": "~1,491 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -324,35 +353,35 @@
  "github": [
   {
    "repo": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
-   "stars": 2697,
-   "d24": 1502,
+   "stars": 2708,
+   "d24": 1491,
    "est": true,
-   "forks": 1072,
+   "forks": 1076,
    "contrib": null,
    "score": 96
   },
   {
    "repo": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 19932,
-   "d24": 820,
+   "stars": 19952,
+   "d24": 825,
    "est": false,
-   "forks": 2304,
+   "forks": 2307,
    "contrib": 1,
    "score": 93
   },
   {
    "repo": "KKKKhazix/agent-autoloop",
-   "stars": 3460,
-   "d24": 548,
+   "stars": 3468,
+   "d24": 541,
    "est": false,
-   "forks": 634,
+   "forks": 638,
    "contrib": null,
    "score": 94
   },
   {
    "repo": "mromidev/claude-animated-shorts",
-   "stars": 1906,
-   "d24": 408,
+   "stars": 1912,
+   "d24": 402,
    "est": false,
    "forks": 406,
    "contrib": null,
@@ -360,26 +389,26 @@
   },
   {
    "repo": "N1nEmAn/sapper-v2",
-   "stars": 1411,
-   "d24": 208,
-   "est": true,
-   "forks": 805,
+   "stars": 1415,
+   "d24": 120,
+   "est": false,
+   "forks": 806,
    "contrib": null,
    "score": 75
   },
   {
    "repo": "wquguru/cicada",
-   "stars": 1529,
-   "d24": 109,
+   "stars": 1530,
+   "d24": 107,
    "est": false,
-   "forks": 279,
+   "forks": 280,
    "contrib": null,
    "score": 81
   },
   {
    "repo": "caru-ini/stack-diagram",
-   "stars": 1896,
-   "d24": 65,
+   "stars": 1897,
+   "d24": 64,
    "est": false,
    "forks": 87,
    "contrib": null,
@@ -396,7 +425,7 @@
    "grow": null,
    "score": 95,
    "cat": "Vision",
-   "likes": 1269
+   "likes": 1332
   },
   {
    "name": "idol",
@@ -407,7 +436,7 @@
    "grow": 11,
    "score": 89,
    "cat": "Vision",
-   "likes": 839
+   "likes": 845
   },
   {
    "name": "Qwen3.5-4B-3D-Coder",
@@ -431,7 +460,7 @@
    "grow": null,
    "score": 86,
    "cat": "Coding",
-   "likes": 3064
+   "likes": 3065
   },
   {
    "name": "Sulphur-3",
@@ -450,11 +479,11 @@
    "size": "65B",
    "lic": "Open source",
    "at": "2026-11-04T02:41:21.000Z",
-   "dl": 939,
-   "grow": 0,
+   "dl": 2013,
+   "grow": 114,
    "score": 85,
    "cat": "Tools",
-   "likes": 295
+   "likes": 297
   }
  ],
  "free": [
@@ -729,7 +758,7 @@
   {
    "t": "Global stocks tumble as AI panic grips markets after Democrats’ midterm success – business live",
    "url": "https://www.theguardian.com/business/live/2026/nov/06/global-stocks-tumble-ai-panic-markets-democrats-midterms-success-jobs-oil-dollar-latest-news-updates",
-   "at": "2026-11-06T09:59:00Z",
+   "at": "2026-11-06T10:20:19Z",
    "src": "The Guardian",
    "kind": "News"
   },
@@ -797,6 +826,20 @@
    "kind": "Lab blog"
   },
   {
+   "t": "Man claims in lawsuit that ChatGPT told him to stop paying rent and got him evicted",
+   "url": "https://www.mercurynews.com/2026/11/05/chatgpt-told-him-stop-paying-rent-evicted/",
+   "at": "2026-11-05T22:25:55Z",
+   "src": "The Mercury News",
+   "kind": "News"
+  },
+  {
+   "t": "Incoming Democratic majorities put AI giants on notice",
+   "url": "https://foxbaltimore.com/news/nation-world/incoming-democratic-majorities-put-ai-giants-on-notice-artificial-intelligence-energy-costs",
+   "at": "2026-11-05T22:20:38Z",
+   "src": "Baltimore News",
+   "kind": "News"
+  },
+  {
    "t": "Connecting artificial intelligence with the tools of astrophysical research",
    "url": "https://phys.org/news/2026-11-artificial-intelligence-tools-astrophysical.html",
    "at": "2026-11-05T22:00:07Z",
@@ -823,20 +866,6 @@
    "at": "2026-11-05T21:32:42Z",
    "src": "Bloomberg Television",
    "kind": "Video"
-  },
-  {
-   "t": "Feds to establish organization to lead AI adoption in public service",
-   "url": "https://www.cp24.com/news/canada/2026/11/05/feds-to-spend-1-billion-on-digital-transformation-of-public-service/",
-   "at": "2026-11-05T21:23:35Z",
-   "src": "CP24 Toronto",
-   "kind": "News"
-  },
-  {
-   "t": "Nasdaq sees worst day in 19 months as investors bet on AI slowdown after Democrats’ election triumph",
-   "url": "https://www.theguardian.com/business/2026/nov/05/nasdaq-heading-for-worst-day-in-18-months-as-wall-street-sustains-widespread-losses",
-   "at": "2026-11-05T21:23:18Z",
-   "src": "The Guardian",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -845,8 +874,8 @@
    "t": "Claude Code sends your email address to websites",
    "url": "https://news.ycombinator.com/item?id=50385272",
    "link": "https://github.com/anthropics/claude-code/issues/107757",
-   "up": 1136,
-   "com": 346,
+   "up": 1166,
+   "com": 360,
    "at": "2026-11-05T22:17:15.000Z"
   },
   {
@@ -854,8 +883,8 @@
    "t": "Blender's UI and Runtime: Much Faster Than GPUI",
    "url": "https://news.ycombinator.com/item?id=50389333",
    "link": "https://github.com/ppmpreetham/BUI",
-   "up": 144,
-   "com": 57,
+   "up": 179,
+   "com": 68,
    "at": "2026-11-06T07:40:35.000Z"
   },
   {
@@ -863,8 +892,8 @@
    "t": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
    "url": "https://news.ycombinator.com/item?id=50385870",
    "link": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
-   "up": 332,
-   "com": 157,
+   "up": 342,
+   "com": 162,
    "at": "2026-11-05T23:09:57.000Z"
   },
   {
@@ -872,8 +901,8 @@
    "t": "The Hackintosh Reborn",
    "url": "https://news.ycombinator.com/item?id=50383057",
    "link": "https://www.naut.ca/blog/2026/11/05/the-hackintosh-reborn-with-ai/",
-   "up": 309,
-   "com": 172,
+   "up": 312,
+   "com": 177,
    "at": "2026-11-05T19:08:22.000Z"
   },
   {
@@ -881,8 +910,8 @@
    "t": "Window Sweaters",
    "url": "https://news.ycombinator.com/item?id=50381383",
    "link": "https://github.com/saragordic/window-sweaters",
-   "up": 343,
-   "com": 106,
+   "up": 351,
+   "com": 107,
    "at": "2026-11-05T16:50:14.000Z"
   },
   {
@@ -890,8 +919,8 @@
    "t": "Inkling 2 Small",
    "url": "https://news.ycombinator.com/item?id=50386338",
    "link": "https://thinkingmachines.ai/news/inkling-2-small/",
-   "up": 198,
-   "com": 67,
+   "up": 199,
+   "com": 68,
    "at": "2026-11-06T00:00:24.000Z"
   }
  ]
