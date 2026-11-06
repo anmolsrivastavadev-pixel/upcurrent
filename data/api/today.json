@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-06T22:30:51.730Z"
+  "updated": "2026-11-06T23:01:04.576Z"
  },
  "pulse": {
   "trending": 78,
   "accelerating": 1,
   "newModels": 5,
-  "discussions": 52,
-  "stars": 2332
+  "discussions": 53,
+  "stars": 2305
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 10,
    "desc": "Google_AI_Pro_2Year_ZeroCost_Auto",
    "meta": [
-    "★ 2,871",
-    "+402 in 24h",
+    "★ 2,875",
+    "+395 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-04T14:54:56Z",
@@ -57,8 +57,8 @@
    "grow": 1,
    "desc": "Towards a More Autonomous Agent System",
    "meta": [
-    "★ 20,220",
-    "+429 in 24h",
+    "★ 20,223",
+    "+413 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-31T09:32:46Z",
@@ -74,8 +74,8 @@
    "grow": null,
    "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
    "meta": [
-    "★ 3,658",
-    "~1,015 in 24h",
+    "★ 3,660",
+    "~1,010 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-03T08:02:11Z",
@@ -89,7 +89,7 @@
    "cat": "Vision",
    "score": 89,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open source · ♥ 926",
+   "desc": "Vision on Hugging Face · open source · ♥ 931",
    "meta": [
     "19K downloads",
     "Released 9 days ago"
@@ -105,7 +105,7 @@
    "cat": "Tools",
    "score": 89,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 326",
+   "desc": "Model on Hugging Face · open source · ♥ 327",
    "meta": [
     "2K downloads",
     "Released 3 days ago"
@@ -121,7 +121,7 @@
    "cat": "Coding",
    "score": 87,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 780",
+   "desc": "Model on Hugging Face · open source · ♥ 783",
    "meta": [
     "190K downloads",
     "Released 13 days ago"
@@ -137,7 +137,7 @@
    "cat": "Tools",
    "score": 87,
    "grow": 0,
-   "desc": "Model on Hugging Face · open weights · ♥ 393",
+   "desc": "Model on Hugging Face · open weights · ♥ 394",
    "meta": [
     "950 downloads",
     "Released 6 days ago"
@@ -163,21 +163,20 @@
    "url": "https://huggingface.co/burner22/numbat"
   },
   {
-   "name": "claude-animated-shorts",
-   "owner": "mromidev",
-   "src": "gh",
-   "cat": "Agents",
+   "name": "Decoupled Predictive Decision Making: A Shared Conditional Predictor for Agents",
+   "owner": "Paper",
+   "src": "paper",
+   "url": "https://huggingface.co/papers/2611.02075",
+   "cat": "Research",
    "score": 85,
    "grow": null,
-   "desc": "Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion",
+   "desc": "Agent decisions depend on empirical relationships that deployment observations reveal and task descriptions alone may leave unresolved.",
    "meta": [
-    "★ 2,022",
-    "~355 in 24h",
-    "Created 6 days ago"
+    "▲ 113 upvotes",
+    "Hugging Face Papers"
    ],
-   "at": "2026-11-01T05:50:38Z",
-   "breakout": null,
-   "url": "https://github.com/mromidev/claude-animated-shorts"
+   "at": "2026-10-31T20:00:00.000Z",
+   "breakout": null
   }
  ],
  "breakouts": [],
@@ -186,8 +185,8 @@
    "name": "agent-autoloop",
    "url": "https://github.com/KKKKhazix/agent-autoloop",
    "from": "GitHub",
-   "use": 1015,
-   "useLabel": "~1,015 stars/day",
+   "use": 1010,
+   "useLabel": "~1,010 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -301,8 +300,8 @@
  "github": [
   {
    "repo": "KKKKhazix/agent-autoloop",
-   "stars": 3658,
-   "d24": 1015,
+   "stars": 3660,
+   "d24": 1010,
    "est": true,
    "forks": 671,
    "contrib": null,
@@ -310,8 +309,8 @@
   },
   {
    "repo": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 20220,
-   "d24": 429,
+   "stars": 20223,
+   "d24": 413,
    "est": false,
    "forks": 2351,
    "contrib": 1,
@@ -319,8 +318,8 @@
   },
   {
    "repo": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
-   "stars": 2871,
-   "d24": 402,
+   "stars": 2875,
+   "d24": 395,
    "est": false,
    "forks": 1125,
    "contrib": null,
@@ -328,17 +327,17 @@
   },
   {
    "repo": "mromidev/claude-animated-shorts",
-   "stars": 2022,
-   "d24": 355,
+   "stars": 2023,
+   "d24": 354,
    "est": true,
-   "forks": 425,
+   "forks": 426,
    "contrib": null,
-   "score": 85
+   "score": 84
   },
   {
    "repo": "caru-ini/stack-diagram",
-   "stars": 1944,
-   "d24": 90,
+   "stars": 1947,
+   "d24": 93,
    "est": false,
    "forks": 87,
    "contrib": null,
@@ -347,7 +346,7 @@
   {
    "repo": "wquguru/cicada",
    "stars": 1551,
-   "d24": 41,
+   "d24": 40,
    "est": false,
    "forks": 284,
    "contrib": null,
@@ -364,7 +363,7 @@
    "grow": 58,
    "score": 94,
    "cat": "Vision",
-   "likes": 1476
+   "likes": 1479
   },
   {
    "name": "idol",
@@ -375,7 +374,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Vision",
-   "likes": 926
+   "likes": 931
   },
   {
    "name": "Ripple-65B-Preview",
@@ -387,7 +386,7 @@
    "grow": null,
    "score": 89,
    "cat": "Tools",
-   "likes": 326
+   "likes": 327
   },
   {
    "name": "Qwen3.5-4B-3D-Coder",
@@ -399,7 +398,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Coding",
-   "likes": 780
+   "likes": 783
   },
   {
    "name": "Sulphur-3",
@@ -410,7 +409,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Tools",
-   "likes": 393
+   "likes": 394
   },
   {
    "name": "numbat",
@@ -809,8 +808,8 @@
    "t": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
    "url": "https://news.ycombinator.com/item?id=50397429",
    "link": "https://hightouch.com/blog/llm-judges-identity-resolution",
-   "up": 199,
-   "com": 43,
+   "up": 232,
+   "com": 50,
    "at": "2026-11-06T19:48:51.000Z"
   },
   {
@@ -818,8 +817,8 @@
    "t": "AI is dramatically accelerating AI research",
    "url": "https://news.ycombinator.com/item?id=50397994",
    "link": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
-   "up": 104,
-   "com": 50,
+   "up": 121,
+   "com": 70,
    "at": "2026-11-06T20:27:23.000Z"
   },
   {
@@ -827,8 +826,8 @@
    "t": "Dutch 'idealist' bank ASN blocks non-Google Android, including GrapheneOS",
    "url": "https://news.ycombinator.com/item?id=50390124",
    "link": "https://github.com/PrivSec-dev/banking-apps-compat-report/issues/105",
-   "up": 607,
-   "com": 398,
+   "up": 608,
+   "com": 399,
    "at": "2026-11-06T09:27:12.000Z"
   },
   {
@@ -836,27 +835,27 @@
    "t": "Blender's UI and Runtime: Much Faster Than GPUI",
    "url": "https://news.ycombinator.com/item?id=50389333",
    "link": "https://github.com/ppmpreetham/BUI",
-   "up": 661,
-   "com": 267,
+   "up": 670,
+   "com": 269,
    "at": "2026-11-06T07:40:35.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Gemini Omni 1.2 Flash",
-   "url": "https://news.ycombinator.com/item?id=50392118",
-   "link": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-   "up": 272,
-   "com": 208,
-   "at": "2026-11-06T13:35:27.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Anthropic IPO buyers see valuation as low as $1.1T",
    "url": "https://news.ycombinator.com/item?id=50394906",
    "link": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
-   "up": 161,
-   "com": 384,
+   "up": 183,
+   "com": 414,
    "at": "2026-11-06T16:54:36.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Gemini Omni 1.2 Flash",
+   "url": "https://news.ycombinator.com/item?id=50392118",
+   "link": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+   "up": 278,
+   "com": 211,
+   "at": "2026-11-06T13:35:27.000Z"
   }
  ]
 }
