@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-06T11:30:50.987Z"
+  "updated": "2026-11-06T12:01:01.518Z"
  },
  "pulse": {
   "trending": 79,
   "accelerating": 3,
   "newModels": 7,
-  "discussions": 41,
-  "stars": 3674
+  "discussions": 52,
+  "stars": 3640
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "Google_AI_Pro_2Year_ZeroCost_Auto",
    "meta": [
-    "★ 2,740",
-    "~1,474 in 24h",
+    "★ 2,750",
+    "~1,463 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-04T14:54:56Z",
@@ -39,7 +39,7 @@
    "cat": "Vision",
    "score": 95,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 1.3K",
+   "desc": "Vision on Hugging Face · open weights · ♥ 1.4K",
    "meta": [
     "18K downloads",
     "Released 4 days ago"
@@ -57,8 +57,8 @@
    "grow": 8,
    "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
    "meta": [
-    "★ 3,472",
-    "+504 in 24h",
+    "★ 3,476",
+    "+491 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-03T08:02:11Z",
@@ -74,8 +74,8 @@
    "grow": 3,
    "desc": "Towards a More Autonomous Agent System",
    "meta": [
-    "★ 19,978",
-    "+813 in 24h",
+    "★ 19,993",
+    "+811 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-31T09:32:46Z",
@@ -88,8 +88,8 @@
    "src": "hf",
    "cat": "Vision",
    "score": 89,
-   "grow": 11,
-   "desc": "Vision on Hugging Face · open source · ♥ 852",
+   "grow": null,
+   "desc": "Vision on Hugging Face · open source · ♥ 857",
    "meta": [
     "19K downloads",
     "Released 9 days ago"
@@ -105,7 +105,7 @@
    "cat": "Coding",
    "score": 87,
    "grow": 21,
-   "desc": "Model on Hugging Face · open source · ♥ 739",
+   "desc": "Model on Hugging Face · open source · ♥ 744",
    "meta": [
     "190K downloads",
     "Released 12 days ago"
@@ -115,20 +115,20 @@
    "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder"
   },
   {
-   "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
-   "owner": "nvidia",
+   "name": "numbat",
+   "owner": "burner22",
    "src": "hf",
-   "cat": "Coding",
+   "cat": "Tools",
    "score": 86,
-   "grow": null,
-   "desc": "Model on Hugging Face · open weights · ♥ 3.1K",
+   "grow": 3,
+   "desc": "Model on Hugging Face · open weights · ♥ 360",
    "meta": [
-    "61K downloads",
-    "Released 30 days ago"
+    "9.1K downloads",
+    "Released 14 days ago"
    ],
-   "at": "2026-10-07T22:50:21.000Z",
+   "at": "2026-10-23T01:37:02.000Z",
    "breakout": null,
-   "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B"
+   "url": "https://huggingface.co/burner22/numbat"
   },
   {
    "name": "Sulphur-3",
@@ -147,6 +147,22 @@
    "url": "https://huggingface.co/FusionCow/Sulphur-3"
   },
   {
+   "name": "Ripple-65B-Preview",
+   "owner": "ricursiveAI",
+   "src": "hf",
+   "cat": "Tools",
+   "score": 86,
+   "grow": 114,
+   "desc": "Model on Hugging Face · open source · ♥ 300",
+   "meta": [
+    "2K downloads",
+    "Released 2 days ago"
+   ],
+   "at": "2026-11-04T02:41:21.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview"
+  },
+  {
    "name": "claude-animated-shorts",
    "owner": "mromidev",
    "src": "gh",
@@ -155,30 +171,13 @@
    "grow": 10,
    "desc": "Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion",
    "meta": [
-    "★ 1,926",
-    "+396 in 24h",
+    "★ 1,934",
+    "+395 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-11-01T05:50:38Z",
    "breakout": null,
    "url": "https://github.com/mromidev/claude-animated-shorts"
-  },
-  {
-   "name": "stack-diagram",
-   "owner": "caru-ini",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 85,
-   "grow": 2,
-   "desc": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
-   "meta": [
-    "★ 1,900",
-    "+65 in 24h",
-    "Created 5 days ago"
-   ],
-   "at": "2026-11-01T05:35:12Z",
-   "breakout": null,
-   "url": "https://github.com/caru-ini/stack-diagram"
   }
  ],
  "breakouts": [],
@@ -209,8 +208,8 @@
    "name": "Google_AI_Pro_2Year_ZeroCost_Auto",
    "url": "https://github.com/worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
    "from": "GitHub",
-   "use": 1474,
-   "useLabel": "~1,474 stars/day",
+   "use": 1463,
+   "useLabel": "~1,463 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -324,17 +323,17 @@
  "github": [
   {
    "repo": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
-   "stars": 2740,
-   "d24": 1474,
+   "stars": 2750,
+   "d24": 1463,
    "est": true,
-   "forks": 1084,
+   "forks": 1086,
    "contrib": null,
    "score": 96
   },
   {
    "repo": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 19978,
-   "d24": 813,
+   "stars": 19993,
+   "d24": 811,
    "est": false,
    "forks": 2308,
    "contrib": 1,
@@ -342,17 +341,17 @@
   },
   {
    "repo": "KKKKhazix/agent-autoloop",
-   "stars": 3472,
-   "d24": 504,
+   "stars": 3476,
+   "d24": 491,
    "est": false,
-   "forks": 638,
+   "forks": 639,
    "contrib": null,
    "score": 94
   },
   {
    "repo": "mromidev/claude-animated-shorts",
-   "stars": 1926,
-   "d24": 396,
+   "stars": 1934,
+   "d24": 395,
    "est": false,
    "forks": 409,
    "contrib": null,
@@ -360,8 +359,8 @@
   },
   {
    "repo": "wquguru/cicada",
-   "stars": 1532,
-   "d24": 292,
+   "stars": 1534,
+   "d24": 291,
    "est": true,
    "forks": 280,
    "contrib": null,
@@ -369,17 +368,17 @@
   },
   {
    "repo": "N1nEmAn/sapper-v2",
-   "stars": 1423,
-   "d24": 130,
+   "stars": 1424,
+   "d24": 125,
    "est": false,
-   "forks": 807,
+   "forks": 809,
    "contrib": null,
    "score": 75
   },
   {
    "repo": "caru-ini/stack-diagram",
-   "stars": 1900,
-   "d24": 65,
+   "stars": 1901,
+   "d24": 64,
    "est": false,
    "forks": 87,
    "contrib": null,
@@ -396,7 +395,7 @@
    "grow": null,
    "score": 95,
    "cat": "Vision",
-   "likes": 1344
+   "likes": 1351
   },
   {
    "name": "idol",
@@ -404,10 +403,10 @@
    "lic": "Open source",
    "at": "2026-10-28T15:55:17.000Z",
    "dl": 19139,
-   "grow": 11,
+   "grow": null,
    "score": 89,
    "cat": "Vision",
-   "likes": 852
+   "likes": 857
   },
   {
    "name": "Qwen3.5-4B-3D-Coder",
@@ -419,19 +418,18 @@
    "grow": 21,
    "score": 87,
    "cat": "Coding",
-   "likes": 739
+   "likes": 744
   },
   {
-   "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
-   "org": "nvidia",
-   "size": "30B",
+   "name": "numbat",
+   "org": "burner22",
    "lic": "Open weights",
-   "at": "2026-10-07T22:50:21.000Z",
-   "dl": 61049,
-   "grow": null,
+   "at": "2026-10-23T01:37:02.000Z",
+   "dl": 9066,
+   "grow": 3,
    "score": 86,
-   "cat": "Coding",
-   "likes": 3067
+   "cat": "Tools",
+   "likes": 360
   },
   {
    "name": "Sulphur-3",
@@ -452,7 +450,7 @@
    "at": "2026-11-04T02:41:21.000Z",
    "dl": 2013,
    "grow": 114,
-   "score": 85,
+   "score": 86,
    "cat": "Tools",
    "likes": 300
   }
@@ -727,6 +725,13 @@
  },
  "headlines": [
   {
+   "t": "Global stocks tumble as AI panic grips markets after Democrats’ midterm success – business live",
+   "url": "https://www.theguardian.com/business/live/2026/nov/06/global-stocks-tumble-ai-panic-markets-democrats-midterms-success-jobs-oil-dollar-latest-news-updates",
+   "at": "2026-11-06T11:59:09Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
    "t": "Sources: Nvidia is requiring Southeast Asian customers seeking Nvidia Cloud Partner status to enroll in a program that tracks the locations of their AI chips",
    "url": "https://www.techmeme.com/261106/p8#a261106p8",
    "at": "2026-11-06T11:30:01.000Z",
@@ -744,13 +749,6 @@
    "t": "Nigel Farage's exit from the Telegraph may be cause for cheer. But there’s a sobering side to this story | Jane Martinson",
    "url": "https://www.theguardian.com/commentisfree/2026/nov/06/nigel-farage-telegraph-story-newspaper-ai",
    "at": "2026-11-06T11:00:51Z",
-   "src": "The Guardian",
-   "kind": "News"
-  },
-  {
-   "t": "Global stocks tumble as AI panic grips markets after Democrats’ midterm success – business live",
-   "url": "https://www.theguardian.com/business/live/2026/nov/06/global-stocks-tumble-ai-panic-markets-democrats-midterms-success-jobs-oil-dollar-latest-news-updates",
-   "at": "2026-11-06T10:59:47Z",
    "src": "The Guardian",
    "kind": "News"
   },
@@ -818,24 +816,24 @@
    "kind": "Lab blog"
   },
   {
-   "t": "6 Cyber, an Astra model built to keep vulnerability research in scope",
-   "url": "https://siliconangle.com/2026/11/05/openai-launches-gpt-6-cyber-a-gpt-6-astra-model-built-to-keep-vulnerability-research-in-scope/",
-   "at": "2026-11-05T22:52:25Z",
+   "t": "OpenAI sued over claim ChatGPT drafted lethal poisoning plan",
+   "url": "https://www.thestar.com.my/tech/tech-news/2026/11/06/openai-sued-over-claim-chatgpt-drafted-lethal-poisoning-plan",
+   "at": "2026-11-06T00:00:00Z",
+   "src": "The Star",
+   "kind": "News"
+  },
+  {
+   "t": "OpenAI makes new data center commitments, AI policy recommendations",
+   "url": "https://siliconangle.com/2026/11/05/openai-makes-new-data-center-commitments-ai-policy-recommendations/",
+   "at": "2026-11-05T23:50:52Z",
    "src": "SiliconANGLE News",
    "kind": "News"
   },
   {
-   "t": "Man claims in lawsuit that ChatGPT told him to stop paying rent and got him evicted",
-   "url": "https://www.mercurynews.com/2026/11/05/chatgpt-told-him-stop-paying-rent-evicted/",
-   "at": "2026-11-05T22:25:55Z",
-   "src": "The Mercury News",
-   "kind": "News"
-  },
-  {
-   "t": "Incoming Democratic majorities put AI giants on notice",
-   "url": "https://foxbaltimore.com/news/nation-world/incoming-democratic-majorities-put-ai-giants-on-notice-artificial-intelligence-energy-costs",
-   "at": "2026-11-05T22:20:38Z",
-   "src": "Baltimore News",
+   "t": "AI backlash could threaten Anthropic IPO timing, potential investors say",
+   "url": "https://www.marketscreener.com/news/ai-backlash-could-threaten-anthropic-ipo-timing-potential-investors-say-ce785fdddd8bf226",
+   "at": "2026-11-05T23:40:27Z",
+   "src": "MarketScreener",
    "kind": "News"
   }
  ],
@@ -845,54 +843,54 @@
    "t": "Claude Code sends your email address to websites",
    "url": "https://news.ycombinator.com/item?id=50385272",
    "link": "https://github.com/anthropics/claude-code/issues/107757",
-   "up": 1208,
-   "com": 382,
+   "up": 1221,
+   "com": 385,
    "at": "2026-11-05T22:17:15.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Blender's UI and Runtime: Much Faster Than GPUI",
+   "url": "https://news.ycombinator.com/item?id=50389333",
+   "link": "https://github.com/ppmpreetham/BUI",
+   "up": 274,
+   "com": 109,
+   "at": "2026-11-06T07:40:35.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Dutch 'idealist' bank ASN blocks non-Google Android, including GrapheneOS",
+   "url": "https://news.ycombinator.com/item?id=50390124",
+   "link": "https://github.com/PrivSec-dev/banking-apps-compat-report/issues/105",
+   "up": 154,
+   "com": 99,
+   "at": "2026-11-06T09:27:12.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
    "url": "https://news.ycombinator.com/item?id=50385870",
    "link": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
-   "up": 359,
-   "com": 172,
+   "up": 368,
+   "com": 178,
    "at": "2026-11-05T23:09:57.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Living beyond the limits of survival: wood ants trapped in a gigantic pitfall (2016)",
+   "url": "https://news.ycombinator.com/item?id=50390525",
+   "link": "https://jhr.pensoft.net/articles.php?id=9096",
+   "up": 40,
+   "com": 14,
+   "at": "2026-11-06T10:21:15.000Z"
   },
   {
    "src": "Hacker News",
    "t": "The Hackintosh Reborn",
    "url": "https://news.ycombinator.com/item?id=50383057",
    "link": "https://www.naut.ca/blog/2026/11/05/the-hackintosh-reborn-with-ai/",
-   "up": 321,
-   "com": 181,
+   "up": 325,
+   "com": 183,
    "at": "2026-11-05T19:08:22.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Inkling 2 Small",
-   "url": "https://news.ycombinator.com/item?id=50386338",
-   "link": "https://thinkingmachines.ai/news/inkling-2-small/",
-   "up": 213,
-   "com": 70,
-   "at": "2026-11-06T00:00:24.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "I struggle to believe that AI R&D is ingenious",
-   "url": "https://news.ycombinator.com/item?id=50388513",
-   "link": "https://www.lesswrong.com/posts/DALNiKBjMGMF8grme/arjun-panickssery-s-shortform?commentId=fJtaHHHfx45tD7BSL",
-   "up": 112,
-   "com": 91,
-   "at": "2026-11-06T05:19:04.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "App Store 2026 in numbers: AI, pricing, abandoned apps",
-   "url": "https://news.ycombinator.com/item?id=50389448",
-   "link": "https://obelisk.club/research/app-store-2026",
-   "up": 45,
-   "com": 39,
-   "at": "2026-11-06T07:59:19.000Z"
   }
  ]
 }
