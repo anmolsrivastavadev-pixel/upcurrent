@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-06T13:01:06.144Z"
+  "updated": "2026-11-06T13:30:50.327Z"
  },
  "pulse": {
   "trending": 79,
   "accelerating": 2,
   "newModels": 6,
-  "discussions": 49,
-  "stars": 3626
+  "discussions": 53,
+  "stars": 2746
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Tools",
    "score": 96,
-   "grow": null,
+   "grow": 5,
    "desc": "Google_AI_Pro_2Year_ZeroCost_Auto",
    "meta": [
-    "★ 2,756",
-    "~1,435 in 24h",
+    "★ 2,760",
+    "+560 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-04T14:54:56Z",
@@ -49,38 +49,38 @@
    "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
   },
   {
-   "name": "agent-autoloop",
-   "owner": "KKKKhazix",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 94,
-   "grow": 9,
-   "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
-   "meta": [
-    "★ 3,503",
-    "+503 in 24h",
-    "Created 3 days ago"
-   ],
-   "at": "2026-11-03T08:02:11Z",
-   "breakout": null,
-   "url": "https://github.com/KKKKhazix/agent-autoloop"
-  },
-  {
    "name": "dsh-superagent-prototype",
    "owner": "deepseek-ai",
    "src": "gh",
    "cat": "Agents",
    "score": 93,
-   "grow": 3,
+   "grow": 4,
    "desc": "Towards a More Autonomous Agent System",
    "meta": [
-    "★ 20,034",
-    "+820 in 24h",
+    "★ 20,050",
+    "+818 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-31T09:32:46Z",
    "breakout": null,
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
+  },
+  {
+   "name": "agent-autoloop",
+   "owner": "KKKKhazix",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 93,
+   "grow": 9,
+   "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
+   "meta": [
+    "★ 3,515",
+    "+506 in 24h",
+    "Created 3 days ago"
+   ],
+   "at": "2026-11-03T08:02:11Z",
+   "breakout": null,
+   "url": "https://github.com/KKKKhazix/agent-autoloop"
   },
   {
    "name": "idol",
@@ -99,29 +99,13 @@
    "url": "https://huggingface.co/speridlabs/idol"
   },
   {
-   "name": "Sulphur-3",
-   "owner": "FusionCow",
-   "src": "hf",
-   "cat": "Tools",
-   "score": 88,
-   "grow": 57,
-   "desc": "Model on Hugging Face · open weights · ♥ 387",
-   "meta": [
-    "950 downloads",
-    "Released 6 days ago"
-   ],
-   "at": "2026-10-31T20:31:01.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/FusionCow/Sulphur-3"
-  },
-  {
    "name": "Ripple-65B-Preview",
    "owner": "ricursiveAI",
    "src": "hf",
    "cat": "Tools",
    "score": 88,
    "grow": 114,
-   "desc": "Model on Hugging Face · open source · ♥ 302",
+   "desc": "Model on Hugging Face · open source · ♥ 303",
    "meta": [
     "2K downloads",
     "Released 2 days ago"
@@ -137,7 +121,7 @@
    "cat": "Coding",
    "score": 87,
    "grow": 21,
-   "desc": "Model on Hugging Face · open source · ♥ 746",
+   "desc": "Model on Hugging Face · open source · ♥ 748",
    "meta": [
     "190K downloads",
     "Released 12 days ago"
@@ -145,6 +129,22 @@
    "at": "2026-10-25T05:43:34.000Z",
    "breakout": null,
    "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder"
+  },
+  {
+   "name": "Sulphur-3",
+   "owner": "FusionCow",
+   "src": "hf",
+   "cat": "Tools",
+   "score": 87,
+   "grow": 57,
+   "desc": "Model on Hugging Face · open weights · ♥ 387",
+   "meta": [
+    "950 downloads",
+    "Released 6 days ago"
+   ],
+   "at": "2026-10-31T20:31:01.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/FusionCow/Sulphur-3"
   },
   {
    "name": "numbat",
@@ -171,8 +171,8 @@
    "grow": 11,
    "desc": "Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion",
    "meta": [
-    "★ 1,949",
-    "+392 in 24h",
+    "★ 1,952",
+    "+382 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-11-01T05:50:38Z",
@@ -180,31 +180,7 @@
    "url": "https://github.com/mromidev/claude-animated-shorts"
   }
  ],
- "breakouts": [
-  {
-   "key": "gpt 6",
-   "label": "GPT-6",
-   "n": 3,
-   "sources": [
-    {
-     "src": "Hacker News",
-     "t": "GPT-6 Cyber",
-     "url": "https://news.ycombinator.com/item?id=50381914"
-    },
-    {
-     "src": "VentureBeat",
-     "t": "OpenAI launches GPT-6 Cyber with stronger exploit research and higher API price than Anthropic and Google",
-     "url": "https://venturebeat.com/technology/openai-launches-gpt-6-cyber-with-stronger-exploit-research-and-higher-api-price-than-anthropic-and-google"
-    },
-    {
-     "src": "YouTube",
-     "t": "GPT-6 Just Fixed Another AI by Editing Its Weights! #ai #openai #llm",
-     "url": "https://www.youtube.com/watch?v=jNuDdqEwI58"
-    }
-   ],
-   "since": "2026-10-29T13:30:52.696Z"
-  }
- ],
+ "breakouts": [],
  "hype": [
   {
    "name": "GPT-6",
@@ -220,25 +196,20 @@
      "url": "https://news.ycombinator.com/item?id=50381914"
     },
     {
-     "src": "VentureBeat",
-     "t": "OpenAI launches GPT-6 Cyber with stronger exploit research and higher API price than Anthropic and Google",
-     "url": "https://venturebeat.com/technology/openai-launches-gpt-6-cyber-with-stronger-exploit-research-and-higher-api-price-than-anthropic-and-google"
-    },
-    {
      "src": "YouTube",
      "t": "GPT-6 Just Fixed Another AI by Editing Its Weights! #ai #openai #llm",
      "url": "https://www.youtube.com/watch?v=jNuDdqEwI58"
     }
    ],
-   "buzz": 3,
+   "buzz": 2,
    "verdict": "Talk only, no public usage numbers"
   },
   {
-   "name": "Google_AI_Pro_2Year_ZeroCost_Auto",
-   "url": "https://github.com/worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
+   "name": "dsh-superagent-prototype",
+   "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "from": "GitHub",
-   "use": 1435,
-   "useLabel": "~1,435 stars/day",
+   "use": 818,
+   "useLabel": "+818 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -268,6 +239,16 @@
   }
  ],
  "receipts": [
+  {
+   "name": "qybaihe/bla",
+   "url": "https://github.com/qybaihe/bla",
+   "kind": "stars",
+   "first": "2026-10-30T10:01:01.019Z",
+   "firstV": 1119,
+   "m": 2500,
+   "at": "2026-11-06T13:30:50.327Z",
+   "lead": 171.49703
+  },
   {
    "name": "JuneYaooo/rea-video",
    "url": "https://github.com/JuneYaooo/rea-video",
@@ -337,50 +318,40 @@
    "m": 100000,
    "at": "2026-11-05T10:30:50.859Z",
    "lead": 31.999525
-  },
-  {
-   "name": "ccore/Qwen3.5-4B-GLB-3D-Coder",
-   "url": "https://huggingface.co/ccore/Qwen3.5-4B-GLB-3D-Coder",
-   "kind": "downloads",
-   "first": "2026-11-04T13:01:02.063Z",
-   "firstV": 8652,
-   "m": 10000,
-   "at": "2026-11-05T10:30:50.859Z",
-   "lead": 21.49688777777778
   }
  ],
  "github": [
   {
-   "repo": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
-   "stars": 2756,
-   "d24": 1435,
-   "est": true,
-   "forks": 1091,
-   "contrib": null,
-   "score": 96
-  },
-  {
    "repo": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 20034,
-   "d24": 820,
+   "stars": 20050,
+   "d24": 818,
    "est": false,
-   "forks": 2317,
+   "forks": 2319,
    "contrib": 1,
    "score": 93
   },
   {
+   "repo": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
+   "stars": 2760,
+   "d24": 560,
+   "est": false,
+   "forks": 1094,
+   "contrib": null,
+   "score": 96
+  },
+  {
    "repo": "KKKKhazix/agent-autoloop",
-   "stars": 3503,
-   "d24": 503,
+   "stars": 3515,
+   "d24": 506,
    "est": false,
    "forks": 642,
    "contrib": null,
-   "score": 94
+   "score": 93
   },
   {
    "repo": "mromidev/claude-animated-shorts",
-   "stars": 1949,
-   "d24": 392,
+   "stars": 1952,
+   "d24": 382,
    "est": false,
    "forks": 409,
    "contrib": null,
@@ -388,7 +359,7 @@
   },
   {
    "repo": "wquguru/cicada",
-   "stars": 1535,
+   "stars": 1538,
    "d24": 289,
    "est": true,
    "forks": 280,
@@ -397,17 +368,17 @@
   },
   {
    "repo": "N1nEmAn/sapper-v2",
-   "stars": 1428,
-   "d24": 121,
+   "stars": 1431,
+   "d24": 123,
    "est": false,
-   "forks": 814,
+   "forks": 818,
    "contrib": null,
    "score": 75
   },
   {
    "repo": "caru-ini/stack-diagram",
-   "stars": 1905,
-   "d24": 66,
+   "stars": 1908,
+   "d24": 68,
    "est": false,
    "forks": 87,
    "contrib": null,
@@ -424,7 +395,7 @@
    "grow": null,
    "score": 95,
    "cat": "Vision",
-   "likes": 1363
+   "likes": 1372
   },
   {
    "name": "idol",
@@ -438,17 +409,6 @@
    "likes": 864
   },
   {
-   "name": "Sulphur-3",
-   "org": "FusionCow",
-   "lic": "Open weights",
-   "at": "2026-10-31T20:31:01.000Z",
-   "dl": 950,
-   "grow": 57,
-   "score": 88,
-   "cat": "Tools",
-   "likes": 387
-  },
-  {
    "name": "Ripple-65B-Preview",
    "org": "ricursiveAI",
    "size": "65B",
@@ -458,7 +418,7 @@
    "grow": 114,
    "score": 88,
    "cat": "Tools",
-   "likes": 302
+   "likes": 303
   },
   {
    "name": "Qwen3.5-4B-3D-Coder",
@@ -470,7 +430,18 @@
    "grow": 21,
    "score": 87,
    "cat": "Coding",
-   "likes": 746
+   "likes": 748
+  },
+  {
+   "name": "Sulphur-3",
+   "org": "FusionCow",
+   "lic": "Open weights",
+   "at": "2026-10-31T20:31:01.000Z",
+   "dl": 950,
+   "grow": 57,
+   "score": 87,
+   "cat": "Tools",
+   "likes": 387
   },
   {
    "name": "numbat",
@@ -756,8 +727,15 @@
   {
    "t": "Global stocks tumble as AI panic grips markets after Democrats’ midterm success – business live",
    "url": "https://www.theguardian.com/business/live/2026/nov/06/global-stocks-tumble-ai-panic-markets-democrats-midterms-success-jobs-oil-dollar-latest-news-updates",
-   "at": "2026-11-06T12:45:45Z",
+   "at": "2026-11-06T13:25:49Z",
    "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "Experts say the new Democratic congressional majority will likely seek to rebuild CISA, prioritize AI security, revive local cyber grants, probe DOGE, and more",
+   "url": "https://www.techmeme.com/261106/p11#a261106p11",
+   "at": "2026-11-06T13:20:44.000Z",
+   "src": "Techmeme",
    "kind": "News"
   },
   {
@@ -824,6 +802,27 @@
    "kind": "News"
   },
   {
+   "t": "The greatest loss of wealth in history raises doubts about the future of artificial intelligence",
+   "url": "https://www.perthnow.com.au/news/business/the-greatest-loss-of-wealth-in-history-raises-doubts-about-the-future-of-artificial-intelligence-c-23124204",
+   "at": "2026-11-06T01:29:18Z",
+   "src": "PerthNow",
+   "kind": "News"
+  },
+  {
+   "t": "Wife used ChatGPT to try and poison husband, lawsuit against OpenAI in California alleges",
+   "url": "https://www.hindustantimes.com/world-news/us-news/wife-used-chatgpt-to-try-and-poison-husband-lawsuit-against-openai-in-california-alleges-101793927002588.html",
+   "at": "2026-11-06T01:17:39Z",
+   "src": "Hindustan Times",
+   "kind": "News"
+  },
+  {
+   "t": "Major investors are skeptical Anthropic IPO can achieve $1.5 trillion valuation",
+   "url": "https://www.livemint.com/global/major-investors-are-skeptical-anthropic-ipo-can-achieve-1-5-trillion-valuation-11793927272641.html",
+   "at": "2026-11-06T01:09:01Z",
+   "src": "Livemint",
+   "kind": "News"
+  },
+  {
    "t": "Asian shares skid after AI worries send Wall Street tumbling",
    "url": "https://www.ajc.com/news/2026/11/asian-benchmarks-decline-after-ai-worries-send-wall-street-tumbling/",
    "at": "2026-11-06T00:52:33Z",
@@ -836,34 +835,6 @@
    "at": "2026-11-06T00:52:33Z",
    "src": "The Atlanta Journal-Constitution",
    "kind": "News"
-  },
-  {
-   "t": "Exclusive-AI backlash could threaten Anthropic IPO timing, potential investors say",
-   "url": "https://www.thestar.com.my/tech/tech-news/2026/11/06/exclusive-ai-backlash-could-threaten-anthropic-ipo-timing-potential-investors-say",
-   "at": "2026-11-06T00:42:00Z",
-   "src": "The Star",
-   "kind": "News"
-  },
-  {
-   "t": "Black Friday: KOSPI sinks 6%, extending slide on US AI regulation fears",
-   "url": "https://www.koreatimes.co.kr/economy/20261106/black-friday-kospi-sinks-6-extending-slide-on-us-ai-regulation-fears",
-   "at": "2026-11-06T00:40:03Z",
-   "src": "The Korea Times",
-   "kind": "News"
-  },
-  {
-   "t": "[COVER STORY] Black Friday: KOSPI sinks 6%, extending slide on US AI regulation fears",
-   "url": "https://www.koreatimes.co.kr/economy/20261106/cover-story-black-friday-kospi-sinks-6-extending-slide-on-us-ai-regulation-fears",
-   "at": "2026-11-06T00:40:03Z",
-   "src": "The Korea Times",
-   "kind": "News"
-  },
-  {
-   "t": "[BREAKING] AI investment fears spark panic selling in Samsung, SK hynix",
-   "url": "https://www.koreatimes.co.kr/economy/20261106/ai-investment-fears-spark-panic-selling-in-samsung-sk-hynix",
-   "at": "2026-11-06T00:40:03Z",
-   "src": "The Korea Times",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -872,8 +843,8 @@
    "t": "Claude Code sends your email address to websites",
    "url": "https://news.ycombinator.com/item?id=50385272",
    "link": "https://github.com/anthropics/claude-code/issues/107757",
-   "up": 1266,
-   "com": 399,
+   "up": 1290,
+   "com": 408,
    "at": "2026-11-05T22:17:15.000Z"
   },
   {
@@ -881,8 +852,8 @@
    "t": "Dutch 'idealist' bank ASN blocks non-Google Android, including GrapheneOS",
    "url": "https://news.ycombinator.com/item?id=50390124",
    "link": "https://github.com/PrivSec-dev/banking-apps-compat-report/issues/105",
-   "up": 227,
-   "com": 149,
+   "up": 277,
+   "com": 172,
    "at": "2026-11-06T09:27:12.000Z"
   },
   {
@@ -890,8 +861,8 @@
    "t": "Blender's UI and Runtime: Much Faster Than GPUI",
    "url": "https://news.ycombinator.com/item?id=50389333",
    "link": "https://github.com/ppmpreetham/BUI",
-   "up": 329,
-   "com": 135,
+   "up": 352,
+   "com": 147,
    "at": "2026-11-06T07:40:35.000Z"
   },
   {
@@ -899,8 +870,8 @@
    "t": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
    "url": "https://news.ycombinator.com/item?id=50385870",
    "link": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
-   "up": 394,
-   "com": 181,
+   "up": 410,
+   "com": 185,
    "at": "2026-11-05T23:09:57.000Z"
   },
   {
@@ -908,8 +879,8 @@
    "t": "Living beyond the limits of survival: wood ants trapped in a gigantic pitfall (2016)",
    "url": "https://news.ycombinator.com/item?id=50390525",
    "link": "https://jhr.pensoft.net/articles.php?id=9096",
-   "up": 63,
-   "com": 19,
+   "up": 67,
+   "com": 22,
    "at": "2026-11-06T10:21:15.000Z"
   },
   {
@@ -917,8 +888,8 @@
    "t": "The Hackintosh Reborn",
    "url": "https://news.ycombinator.com/item?id=50383057",
    "link": "https://www.naut.ca/blog/2026/11/05/the-hackintosh-reborn-with-ai/",
-   "up": 340,
-   "com": 188,
+   "up": 346,
+   "com": 190,
    "at": "2026-11-05T19:08:22.000Z"
   }
  ]
