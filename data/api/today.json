@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-06T09:01:02.380Z"
+  "updated": "2026-11-06T09:30:51.587Z"
  },
  "pulse": {
   "trending": 79,
   "accelerating": 0,
   "newModels": 7,
-  "discussions": 49,
-  "stars": 4024
+  "discussions": 50,
+  "stars": 3699
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "Google_AI_Pro_2Year_ZeroCost_Auto",
    "meta": [
-    "★ 2,661",
-    "~1,517 in 24h",
+    "★ 2,679",
+    "~1,509 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-04T14:54:56Z",
@@ -57,8 +57,8 @@
    "grow": 7,
    "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
    "meta": [
-    "★ 3,443",
-    "+563 in 24h",
+    "★ 3,452",
+    "+557 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-03T08:02:11Z",
@@ -74,8 +74,8 @@
    "grow": 3,
    "desc": "Towards a More Autonomous Agent System",
    "meta": [
-    "★ 19,899",
-    "+822 in 24h",
+    "★ 19,924",
+    "+834 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-31T09:32:46Z",
@@ -89,7 +89,7 @@
    "cat": "Vision",
    "score": 89,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open source · ♥ 830",
+   "desc": "Vision on Hugging Face · open source · ♥ 832",
    "meta": [
     "17K downloads",
     "Released 9 days ago"
@@ -105,7 +105,7 @@
    "cat": "Coding",
    "score": 87,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 731",
+   "desc": "Model on Hugging Face · open source · ♥ 732",
    "meta": [
     "157K downloads",
     "Released 12 days ago"
@@ -113,22 +113,6 @@
    "at": "2026-10-25T05:43:34.000Z",
    "breakout": null,
    "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder"
-  },
-  {
-   "name": "Sulphur-3",
-   "owner": "FusionCow",
-   "src": "hf",
-   "cat": "Tools",
-   "score": 87,
-   "grow": 0,
-   "desc": "Model on Hugging Face · open weights · ♥ 385",
-   "meta": [
-    "607 downloads",
-    "Released 6 days ago"
-   ],
-   "at": "2026-10-31T20:31:01.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/FusionCow/Sulphur-3"
   },
   {
    "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
@@ -147,21 +131,20 @@
    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B"
   },
   {
-   "name": "stack-diagram",
-   "owner": "caru-ini",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 85,
-   "grow": 2,
-   "desc": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
+   "name": "Sulphur-3",
+   "owner": "FusionCow",
+   "src": "hf",
+   "cat": "Tools",
+   "score": 86,
+   "grow": 0,
+   "desc": "Model on Hugging Face · open weights · ♥ 385",
    "meta": [
-    "★ 1,895",
-    "+68 in 24h",
-    "Created 5 days ago"
+    "607 downloads",
+    "Released 6 days ago"
    ],
-   "at": "2026-11-01T05:35:12Z",
+   "at": "2026-10-31T20:31:01.000Z",
    "breakout": null,
-   "url": "https://github.com/caru-ini/stack-diagram"
+   "url": "https://huggingface.co/FusionCow/Sulphur-3"
   },
   {
    "name": "claude-animated-shorts",
@@ -172,13 +155,30 @@
    "grow": 8,
    "desc": "Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion",
    "meta": [
-    "★ 1,888",
-    "+405 in 24h",
+    "★ 1,899",
+    "+412 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-11-01T05:50:38Z",
    "breakout": null,
    "url": "https://github.com/mromidev/claude-animated-shorts"
+  },
+  {
+   "name": "stack-diagram",
+   "owner": "caru-ini",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 85,
+   "grow": 2,
+   "desc": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
+   "meta": [
+    "★ 1,896",
+    "+67 in 24h",
+    "Created 5 days ago"
+   ],
+   "at": "2026-11-01T05:35:12Z",
+   "breakout": null,
+   "url": "https://github.com/caru-ini/stack-diagram"
   }
  ],
  "breakouts": [],
@@ -209,8 +209,8 @@
    "name": "Google_AI_Pro_2Year_ZeroCost_Auto",
    "url": "https://github.com/worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
    "from": "GitHub",
-   "use": 1517,
-   "useLabel": "~1,517 stars/day",
+   "use": 1509,
+   "useLabel": "~1,509 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -233,7 +233,7 @@
    "from": "Hugging Face",
    "use": 1077477,
    "useLabel": "1.1M downloads",
-   "usePct": 0.9666666666666667,
+   "usePct": 0.967741935483871,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -324,26 +324,26 @@
  "github": [
   {
    "repo": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
-   "stars": 2661,
-   "d24": 1517,
+   "stars": 2679,
+   "d24": 1509,
    "est": true,
-   "forks": 1066,
+   "forks": 1070,
    "contrib": null,
    "score": 96
   },
   {
    "repo": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 19899,
-   "d24": 822,
+   "stars": 19924,
+   "d24": 834,
    "est": false,
-   "forks": 2297,
+   "forks": 2302,
    "contrib": 1,
    "score": 93
   },
   {
    "repo": "KKKKhazix/agent-autoloop",
-   "stars": 3443,
-   "d24": 563,
+   "stars": 3452,
+   "d24": 557,
    "est": false,
    "forks": 632,
    "contrib": null,
@@ -351,35 +351,26 @@
   },
   {
    "repo": "mromidev/claude-animated-shorts",
-   "stars": 1888,
-   "d24": 405,
+   "stars": 1899,
+   "d24": 412,
    "est": false,
-   "forks": 405,
+   "forks": 407,
    "contrib": null,
    "score": 85
   },
   {
-   "repo": "elvarofficial/teardown",
-   "stars": 2296,
-   "d24": 329,
-   "est": true,
-   "forks": 351,
-   "contrib": null,
-   "score": 81
-  },
-  {
    "repo": "N1nEmAn/sapper-v2",
-   "stars": 1409,
-   "d24": 209,
+   "stars": 1410,
+   "d24": 208,
    "est": true,
-   "forks": 804,
+   "forks": 805,
    "contrib": null,
    "score": 75
   },
   {
    "repo": "wquguru/cicada",
-   "stars": 1526,
-   "d24": 111,
+   "stars": 1529,
+   "d24": 112,
    "est": false,
    "forks": 279,
    "contrib": null,
@@ -387,8 +378,8 @@
   },
   {
    "repo": "caru-ini/stack-diagram",
-   "stars": 1895,
-   "d24": 68,
+   "stars": 1896,
+   "d24": 67,
    "est": false,
    "forks": 87,
    "contrib": null,
@@ -405,7 +396,7 @@
    "grow": null,
    "score": 95,
    "cat": "Vision",
-   "likes": 1159
+   "likes": 1213
   },
   {
    "name": "idol",
@@ -416,7 +407,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Vision",
-   "likes": 830
+   "likes": 832
   },
   {
    "name": "Qwen3.5-4B-3D-Coder",
@@ -428,18 +419,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Coding",
-   "likes": 731
-  },
-  {
-   "name": "Sulphur-3",
-   "org": "FusionCow",
-   "lic": "Open weights",
-   "at": "2026-10-31T20:31:01.000Z",
-   "dl": 607,
-   "grow": 0,
-   "score": 87,
-   "cat": "Tools",
-   "likes": 385
+   "likes": 732
   },
   {
    "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
@@ -454,15 +434,27 @@
    "likes": 3064
   },
   {
-   "name": "numbat",
-   "org": "burner22",
+   "name": "Sulphur-3",
+   "org": "FusionCow",
    "lic": "Open weights",
-   "at": "2026-10-23T01:37:02.000Z",
-   "dl": 8789,
+   "at": "2026-10-31T20:31:01.000Z",
+   "dl": 607,
    "grow": 0,
-   "score": 83,
+   "score": 86,
    "cat": "Tools",
-   "likes": 357
+   "likes": 385
+  },
+  {
+   "name": "Ripple-65B-Preview",
+   "org": "ricursiveAI",
+   "size": "65B",
+   "lic": "Open source",
+   "at": "2026-11-04T02:41:21.000Z",
+   "dl": 939,
+   "grow": 0,
+   "score": 84,
+   "cat": "Tools",
+   "likes": 293
   }
  ],
  "free": [
@@ -735,16 +727,16 @@
  },
  "headlines": [
   {
-   "t": "Global stocks plunge amid AI slowdown fears after Democrats’ midterm triumph",
-   "url": "https://www.theguardian.com/business/2026/nov/06/global-stocks-plunge-amid-ai-slowdown-fears-after-democrats-midterm-triumph",
-   "at": "2026-11-06T08:58:22Z",
+   "t": "Global stocks tumble as AI panic grips markets after Democrats’ midterm success – business live",
+   "url": "https://www.theguardian.com/business/live/2026/nov/06/global-stocks-tumble-ai-panic-markets-democrats-midterms-success-jobs-oil-dollar-latest-news-updates",
+   "at": "2026-11-06T09:14:17Z",
    "src": "The Guardian",
    "kind": "News"
   },
   {
-   "t": "Global stocks tumble as AI panic grips markets after Democrats’ midterm success – business live",
-   "url": "https://www.theguardian.com/business/live/2026/nov/06/global-stocks-tumble-ai-panic-markets-democrats-midterms-success-jobs-oil-dollar-latest-news-updates",
-   "at": "2026-11-06T08:48:27Z",
+   "t": "Global stocks plunge amid AI slowdown fears after Democrats’ midterm triumph",
+   "url": "https://www.theguardian.com/business/2026/nov/06/global-stocks-plunge-amid-ai-slowdown-fears-after-democrats-midterm-triumph",
+   "at": "2026-11-06T08:58:22Z",
    "src": "The Guardian",
    "kind": "News"
   },
@@ -791,13 +783,6 @@
    "kind": "News"
   },
   {
-   "t": "Stock Market Crash! AI Bubble Has Burst As Investors Panic, Buy Signals Emerge",
-   "url": "https://www.youtube.com/watch?v=vIiBnzjhjlc",
-   "at": "2026-11-05T23:00:08Z",
-   "src": "Gareth Soloway",
-   "kind": "Video"
-  },
-  {
    "t": "Nvidia Plunges 9% as AI Selloff Wipes Out $2.3 Trillion | Closing Bell",
    "url": "https://www.youtube.com/watch?v=50V2BcYo3ew",
    "at": "2026-11-05T21:32:42Z",
@@ -805,10 +790,24 @@
    "kind": "Video"
   },
   {
+   "t": "Feds to establish organization to lead AI adoption in public service",
+   "url": "https://www.cp24.com/news/canada/2026/11/05/feds-to-spend-1-billion-on-digital-transformation-of-public-service/",
+   "at": "2026-11-05T21:23:35Z",
+   "src": "CP24 Toronto",
+   "kind": "News"
+  },
+  {
    "t": "Nasdaq sees worst day in 19 months as investors bet on AI slowdown after Democrats’ election triumph",
    "url": "https://www.theguardian.com/business/2026/nov/05/nasdaq-heading-for-worst-day-in-18-months-as-wall-street-sustains-widespread-losses",
    "at": "2026-11-05T21:23:18Z",
    "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "Man says ChatGPT helped his wife plan his poisoning in lawsuit against OpenAI",
+   "url": "https://www.latimes.com/business/story/2026-11-05/man-says-chatgpt-helped-his-wife-plan-his-poisoning-in-lawsuit-against-openai",
+   "at": "2026-11-05T21:09:29Z",
+   "src": "Los Angeles Times",
    "kind": "News"
   },
   {
@@ -838,13 +837,6 @@
    "at": "2026-11-05T20:11:43Z",
    "src": "Firstpost",
    "kind": "News"
-  },
-  {
-   "t": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
-   "url": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/",
-   "at": "2026-11-05T20:00:41.000Z",
-   "src": "NVIDIA",
-   "kind": "Lab blog"
   }
  ],
  "discussions": [
@@ -853,8 +845,8 @@
    "t": "Claude Code sends your email address to websites",
    "url": "https://news.ycombinator.com/item?id=50385272",
    "link": "https://github.com/anthropics/claude-code/issues/107757",
-   "up": 1071,
-   "com": 334,
+   "up": 1098,
+   "com": 339,
    "at": "2026-11-05T22:17:15.000Z"
   },
   {
@@ -862,8 +854,8 @@
    "t": "Blender's UI and Runtime: Much Faster Than GPUI",
    "url": "https://news.ycombinator.com/item?id=50389333",
    "link": "https://github.com/ppmpreetham/BUI",
-   "up": 69,
-   "com": 16,
+   "up": 100,
+   "com": 32,
    "at": "2026-11-06T07:40:35.000Z"
   },
   {
@@ -871,8 +863,8 @@
    "t": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
    "url": "https://news.ycombinator.com/item?id=50385870",
    "link": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
-   "up": 309,
-   "com": 143,
+   "up": 318,
+   "com": 153,
    "at": "2026-11-05T23:09:57.000Z"
   },
   {
@@ -880,8 +872,8 @@
    "t": "The Hackintosh Reborn",
    "url": "https://news.ycombinator.com/item?id=50383057",
    "link": "https://www.naut.ca/blog/2026/11/05/the-hackintosh-reborn-with-ai/",
-   "up": 305,
-   "com": 165,
+   "up": 306,
+   "com": 169,
    "at": "2026-11-05T19:08:22.000Z"
   },
   {
@@ -889,8 +881,8 @@
    "t": "Inkling 2 Small",
    "url": "https://news.ycombinator.com/item?id=50386338",
    "link": "https://thinkingmachines.ai/news/inkling-2-small/",
-   "up": 189,
-   "com": 65,
+   "up": 193,
+   "com": 67,
    "at": "2026-11-06T00:00:24.000Z"
   },
   {
@@ -898,8 +890,8 @@
    "t": "Window Sweaters",
    "url": "https://news.ycombinator.com/item?id=50381383",
    "link": "https://github.com/saragordic/window-sweaters",
-   "up": 328,
-   "com": 99,
+   "up": 335,
+   "com": 105,
    "at": "2026-11-05T16:50:14.000Z"
   }
  ]
