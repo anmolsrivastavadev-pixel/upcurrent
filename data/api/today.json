@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-06T19:01:01.902Z"
+  "updated": "2026-11-06T19:30:49.939Z"
  },
  "pulse": {
   "trending": 78,
   "accelerating": 1,
   "newModels": 5,
-  "discussions": 51,
-  "stars": 4857
+  "discussions": 54,
+  "stars": 5375
  },
  "rising": [
   {
@@ -20,12 +20,12 @@
    "owner": "worldonlyu",
    "src": "gh",
    "cat": "Tools",
-   "score": 96,
+   "score": 95,
    "grow": 9,
    "desc": "Google_AI_Pro_2Year_ZeroCost_Auto",
    "meta": [
-    "★ 2,843",
-    "+465 in 24h",
+    "★ 2,850",
+    "+460 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-04T14:54:56Z",
@@ -57,8 +57,8 @@
    "grow": null,
    "desc": "Towards a More Autonomous Agent System",
    "meta": [
-    "★ 20,188",
-    "~3,157 in 24h",
+    "★ 20,193",
+    "~3,148 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-10-31T09:32:46Z",
@@ -71,11 +71,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 93,
-   "grow": 13,
+   "grow": null,
    "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
    "meta": [
-    "★ 3,634",
-    "+509 in 24h",
+    "★ 3,637",
+    "~1,046 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-03T08:02:11Z",
@@ -89,7 +89,7 @@
    "cat": "Vision",
    "score": 89,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open source · ♥ 908",
+   "desc": "Vision on Hugging Face · open source · ♥ 913",
    "meta": [
     "19K downloads",
     "Released 9 days ago"
@@ -103,9 +103,9 @@
    "owner": "ricursiveAI",
    "src": "hf",
    "cat": "Tools",
-   "score": 88,
+   "score": 89,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 319",
+   "desc": "Model on Hugging Face · open source · ♥ 320",
    "meta": [
     "2K downloads",
     "Released 3 days ago"
@@ -121,7 +121,7 @@
    "cat": "Coding",
    "score": 87,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 772",
+   "desc": "Model on Hugging Face · open source · ♥ 773",
    "meta": [
     "190K downloads",
     "Released 13 days ago"
@@ -171,8 +171,8 @@
    "grow": 14,
    "desc": "Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion",
    "meta": [
-    "★ 1,996",
-    "+324 in 24h",
+    "★ 2,002",
+    "+323 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-11-01T05:50:38Z",
@@ -183,11 +183,33 @@
  "breakouts": [],
  "hype": [
   {
+   "name": "GPT-6",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "BleepingComputer",
+     "t": "OpenAI’s GPT-6 Astra silently obstructed safety research tasks",
+     "url": "https://www.bleepingcomputer.com/news/security/openais-gpt-6-astra-silently-obstructed-safety-research-tasks/"
+    },
+    {
+     "src": "YouTube",
+     "t": "GPT-6 Just Fixed Another AI by Editing Its Weights! #ai #openai #llm",
+     "url": "https://www.youtube.com/watch?v=jNuDdqEwI58"
+    }
+   ],
+   "buzz": 2,
+   "verdict": "Talk only, no public usage numbers"
+  },
+  {
    "name": "dsh-superagent-prototype",
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "from": "GitHub",
-   "use": 3157,
-   "useLabel": "~3,157 stars/day",
+   "use": 3148,
+   "useLabel": "~3,148 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -301,35 +323,35 @@
  "github": [
   {
    "repo": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 20188,
-   "d24": 3157,
+   "stars": 20193,
+   "d24": 3148,
    "est": true,
-   "forks": 2345,
+   "forks": 2347,
    "contrib": 1,
    "score": 93
   },
   {
    "repo": "KKKKhazix/agent-autoloop",
-   "stars": 3634,
-   "d24": 509,
-   "est": false,
-   "forks": 666,
+   "stars": 3637,
+   "d24": 1046,
+   "est": true,
+   "forks": 668,
    "contrib": null,
    "score": 93
   },
   {
    "repo": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
-   "stars": 2843,
-   "d24": 465,
+   "stars": 2850,
+   "d24": 460,
    "est": false,
-   "forks": 1116,
+   "forks": 1119,
    "contrib": null,
-   "score": 96
+   "score": 95
   },
   {
    "repo": "caru-ini/stack-diagram",
-   "stars": 1932,
-   "d24": 348,
+   "stars": 1934,
+   "d24": 347,
    "est": true,
    "forks": 87,
    "contrib": null,
@@ -337,17 +359,17 @@
   },
   {
    "repo": "mromidev/claude-animated-shorts",
-   "stars": 1996,
-   "d24": 324,
+   "stars": 2002,
+   "d24": 323,
    "est": false,
-   "forks": 420,
+   "forks": 421,
    "contrib": null,
    "score": 85
   },
   {
    "repo": "wquguru/cicada",
    "stars": 1549,
-   "d24": 54,
+   "d24": 51,
    "est": false,
    "forks": 282,
    "contrib": null,
@@ -364,7 +386,7 @@
    "grow": 58,
    "score": 94,
    "cat": "Vision",
-   "likes": 1437
+   "likes": 1442
   },
   {
    "name": "idol",
@@ -375,7 +397,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Vision",
-   "likes": 908
+   "likes": 913
   },
   {
    "name": "Ripple-65B-Preview",
@@ -385,9 +407,9 @@
    "at": "2026-11-04T02:41:21.000Z",
    "dl": 2013,
    "grow": null,
-   "score": 88,
+   "score": 89,
    "cat": "Tools",
-   "likes": 319
+   "likes": 320
   },
   {
    "name": "Qwen3.5-4B-3D-Coder",
@@ -399,7 +421,7 @@
    "grow": null,
    "score": 87,
    "cat": "Coding",
-   "likes": 772
+   "likes": 773
   },
   {
    "name": "Sulphur-3",
@@ -812,8 +834,8 @@
    "t": "Claude Code sends your email address to websites",
    "url": "https://news.ycombinator.com/item?id=50385272",
    "link": "https://github.com/anthropics/claude-code/issues/107757",
-   "up": 1516,
-   "com": 477,
+   "up": 1520,
+   "com": 478,
    "at": "2026-11-05T22:17:15.000Z"
   },
   {
@@ -821,8 +843,8 @@
    "t": "Dutch 'idealist' bank ASN blocks non-Google Android, including GrapheneOS",
    "url": "https://news.ycombinator.com/item?id=50390124",
    "link": "https://github.com/PrivSec-dev/banking-apps-compat-report/issues/105",
-   "up": 574,
-   "com": 360,
+   "up": 580,
+   "com": 369,
    "at": "2026-11-06T09:27:12.000Z"
   },
   {
@@ -830,8 +852,8 @@
    "t": "Blender's UI and Runtime: Much Faster Than GPUI",
    "url": "https://news.ycombinator.com/item?id=50389333",
    "link": "https://github.com/ppmpreetham/BUI",
-   "up": 580,
-   "com": 236,
+   "up": 590,
+   "com": 240,
    "at": "2026-11-06T07:40:35.000Z"
   },
   {
@@ -839,27 +861,27 @@
    "t": "Gemini Omni 1.2 Flash",
    "url": "https://news.ycombinator.com/item?id=50392118",
    "link": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-   "up": 230,
-   "com": 178,
+   "up": 237,
+   "com": 188,
    "at": "2026-11-06T13:35:27.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Microsoft is winding down Oracle deal to rent AI cloud capacity",
-   "url": "https://news.ycombinator.com/item?id=50395933",
-   "link": "https://www.reuters.com/business/microsoft-is-winding-down-oracle-deal-rent-ai-cloud-capacity-bloomberg-news-2026-11-06/",
-   "up": 35,
-   "com": 8,
-   "at": "2026-11-06T18:04:06.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Rune: A native GPU-rendered Rust UI framework for macOS, Windows, Linux and web",
    "url": "https://news.ycombinator.com/item?id=50394569",
    "link": "https://github.com/anomalyco/rune",
-   "up": 75,
-   "com": 46,
+   "up": 85,
+   "com": 65,
    "at": "2026-11-06T16:31:32.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Microsoft is winding down Oracle deal to rent AI cloud capacity",
+   "url": "https://news.ycombinator.com/item?id=50395933",
+   "link": "https://www.reuters.com/business/microsoft-is-winding-down-oracle-deal-rent-ai-cloud-capacity-bloomberg-news-2026-11-06/",
+   "up": 41,
+   "com": 9,
+   "at": "2026-11-06T18:04:06.000Z"
   }
  ]
 }
