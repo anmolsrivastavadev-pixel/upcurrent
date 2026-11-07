@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-07T08:01:00.419Z"
+  "updated": "2026-11-07T08:30:51.786Z"
  },
  "pulse": {
   "trending": 78,
   "accelerating": 0,
   "newModels": 5,
   "discussions": 51,
-  "stars": 2411
+  "stars": 2425
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "Google_AI_Pro_2Year_ZeroCost_Auto",
    "meta": [
-    "★ 2,948",
-    "~1,087 in 24h",
+    "★ 2,956",
+    "~1,081 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-04T14:54:56Z",
@@ -57,8 +57,8 @@
    "grow": 2,
    "desc": "Towards a More Autonomous Agent System",
    "meta": [
-    "★ 20,460",
-    "+523 in 24h",
+    "★ 20,480",
+    "+535 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-10-31T09:32:46Z",
@@ -74,8 +74,8 @@
    "grow": 4,
    "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
    "meta": [
-    "★ 3,790",
-    "+294 in 24h",
+    "★ 3,800",
+    "+301 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-03T08:02:11Z",
@@ -104,8 +104,8 @@
    "src": "hf",
    "cat": "Vision",
    "score": 89,
-   "grow": 0,
-   "desc": "Vision on Hugging Face · open source · ♥ 975",
+   "grow": null,
+   "desc": "Vision on Hugging Face · open source · ♥ 980",
    "meta": [
     "19K downloads",
     "Released 10 days ago"
@@ -121,7 +121,7 @@
    "cat": "Coding",
    "score": 87,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 808",
+   "desc": "Model on Hugging Face · open source · ♥ 810",
    "meta": [
     "190K downloads",
     "Released 13 days ago"
@@ -129,23 +129,6 @@
    "at": "2026-10-25T05:43:34.000Z",
    "breakout": null,
    "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder"
-  },
-  {
-   "name": "claude-animated-shorts",
-   "owner": "mromidev",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 85,
-   "grow": 3,
-   "desc": "Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion",
-   "meta": [
-    "★ 2,069",
-    "+131 in 24h",
-    "Created 6 days ago"
-   ],
-   "at": "2026-11-01T05:50:38Z",
-   "breakout": null,
-   "url": "https://github.com/mromidev/claude-animated-shorts"
   },
   {
    "name": "Sulphur-3",
@@ -178,6 +161,23 @@
    ],
    "at": "2026-10-31T20:00:00.000Z",
    "breakout": null
+  },
+  {
+   "name": "Tobira Site Agent",
+   "owner": "Product Hunt",
+   "src": "ph",
+   "url": "https://www.producthunt.com/products/tobira-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29",
+   "cat": "Agents",
+   "score": 85,
+   "grow": null,
+   "desc": "Turn your website into an AI agent that sells to AI agents",
+   "meta": [
+    "▲ 359 votes",
+    "107 comments",
+    "Launched yesterday"
+   ],
+   "at": "2026-11-06T08:01:00Z",
+   "breakout": null
   }
  ],
  "breakouts": [],
@@ -186,8 +186,8 @@
    "name": "Google_AI_Pro_2Year_ZeroCost_Auto",
    "url": "https://github.com/worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
    "from": "GitHub",
-   "use": 1087,
-   "useLabel": "~1,087 stars/day",
+   "use": 1081,
+   "useLabel": "~1,081 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -301,26 +301,26 @@
  "github": [
   {
    "repo": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
-   "stars": 2948,
-   "d24": 1087,
+   "stars": 2956,
+   "d24": 1081,
    "est": true,
-   "forks": 1149,
+   "forks": 1150,
    "contrib": null,
    "score": 95
   },
   {
    "repo": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 20460,
-   "d24": 523,
+   "stars": 20480,
+   "d24": 535,
    "est": false,
-   "forks": 2390,
+   "forks": 2394,
    "contrib": 1,
    "score": 92
   },
   {
    "repo": "KKKKhazix/agent-autoloop",
-   "stars": 3790,
-   "d24": 294,
+   "stars": 3800,
+   "d24": 301,
    "est": false,
    "forks": 684,
    "contrib": null,
@@ -328,7 +328,7 @@
   },
   {
    "repo": "wquguru/cicada",
-   "stars": 1581,
+   "stars": 1583,
    "d24": 259,
    "est": true,
    "forks": 288,
@@ -337,17 +337,17 @@
   },
   {
    "repo": "mromidev/claude-animated-shorts",
-   "stars": 2069,
-   "d24": 131,
+   "stars": 2074,
+   "d24": 136,
    "est": false,
    "forks": 441,
    "contrib": null,
-   "score": 85
+   "score": 84
   },
   {
    "repo": "caru-ini/stack-diagram",
    "stars": 1999,
-   "d24": 117,
+   "d24": 113,
    "est": false,
    "forks": 91,
    "contrib": null,
@@ -364,7 +364,7 @@
    "grow": null,
    "score": 94,
    "cat": "Vision",
-   "likes": 1561
+   "likes": 1566
   },
   {
    "name": "Ripple-65B-Preview",
@@ -384,10 +384,10 @@
    "lic": "Open source",
    "at": "2026-10-28T15:55:17.000Z",
    "dl": 19139,
-   "grow": 0,
+   "grow": null,
    "score": 89,
    "cat": "Vision",
-   "likes": 975
+   "likes": 980
   },
   {
    "name": "Qwen3.5-4B-3D-Coder",
@@ -399,7 +399,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Coding",
-   "likes": 808
+   "likes": 810
   },
   {
    "name": "Sulphur-3",
@@ -769,6 +769,13 @@
    "kind": "News"
   },
   {
+   "t": "Trillions lost as investors question the AI boom | DW News",
+   "url": "https://www.youtube.com/watch?v=I8LXJeDXeIU",
+   "at": "2026-11-07T05:00:16Z",
+   "src": "DW News",
+   "kind": "Video"
+  },
+  {
    "t": "Meta introduces specialized versions of its existing models, trained using Muse Wonder, bringing Active Memory and Active Focus to all Muse and Meta AI users",
    "url": "https://www.techmeme.com/261106/p28#a261106p28",
    "at": "2026-11-07T01:50:00.000Z",
@@ -818,11 +825,11 @@
    "kind": "News"
   },
   {
-   "t": "AI bubble fears prompt dramatic sell-off",
-   "url": "https://www.youtube.com/watch?v=Itr3Ld5c9yI",
-   "at": "2026-11-06T20:15:42Z",
-   "src": "Channel 4 News",
-   "kind": "Video"
+   "t": "Tumbler Ridge families argue for OpenAI lawsuits to be heard in San Francisco",
+   "url": "https://www.theglobeandmail.com/canada/article-tumbler-ridge-families-argue-openai-lawsuits-heard-san-francisco/",
+   "at": "2026-11-06T20:13:03Z",
+   "src": "The Globe and Mail",
+   "kind": "News"
   },
   {
    "t": "Man sues OpenAI alleging ChatGPT helped his wife try to murder him: it's the 10th homicide the AI chatbot has been accused of abetting in less than two years",
@@ -844,13 +851,6 @@
    "at": "2026-11-06T19:34:02Z",
    "src": "NewsBreak",
    "kind": "News"
-  },
-  {
-   "t": "OpenAI Engineer Abdulrahman Alfozan Pleads Not Guilty",
-   "url": "https://www.businessinsider.com/openai-engineer-abdulrahman-alfozan-pleads-not-guilty-2026-11",
-   "at": "2026-11-06T19:34:02Z",
-   "src": "Business Insider",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -859,8 +859,8 @@
    "t": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
    "url": "https://news.ycombinator.com/item?id=50397429",
    "link": "https://hightouch.com/blog/llm-judges-identity-resolution",
-   "up": 441,
-   "com": 99,
+   "up": 450,
+   "com": 102,
    "at": "2026-11-06T19:48:51.000Z"
   },
   {
@@ -868,7 +868,7 @@
    "t": "Dutch 'idealist' bank ASN blocks non-Google Android, including GrapheneOS",
    "url": "https://news.ycombinator.com/item?id=50390124",
    "link": "https://github.com/PrivSec-dev/banking-apps-compat-report/issues/105",
-   "up": 634,
+   "up": 635,
    "com": 413,
    "at": "2026-11-06T09:27:12.000Z"
   },
@@ -877,8 +877,8 @@
    "t": "AI is dramatically accelerating AI research",
    "url": "https://news.ycombinator.com/item?id=50397994",
    "link": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
-   "up": 282,
-   "com": 216,
+   "up": 285,
+   "com": 222,
    "at": "2026-11-06T20:27:23.000Z"
   },
   {
@@ -886,7 +886,7 @@
    "t": "Anthropic IPO buyers see valuation as low as $1.1T",
    "url": "https://news.ycombinator.com/item?id=50394906",
    "link": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
-   "up": 271,
+   "up": 274,
    "com": 544,
    "at": "2026-11-06T16:54:36.000Z"
   },
@@ -895,7 +895,7 @@
    "t": "Firecracker VM Escape: PwnEscape Part 2",
    "url": "https://news.ycombinator.com/item?id=50397219",
    "link": "https://pwn.ai/blog/firecracker-escape",
-   "up": 218,
+   "up": 223,
    "com": 105,
    "at": "2026-11-06T19:33:38.000Z"
   },
@@ -904,7 +904,7 @@
    "t": "Gemini Omni 1.2 Flash",
    "url": "https://news.ycombinator.com/item?id=50392118",
    "link": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-   "up": 321,
+   "up": 325,
    "com": 227,
    "at": "2026-11-06T13:35:27.000Z"
   }
