@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-07T12:30:50.995Z"
+  "updated": "2026-11-07T13:01:01.186Z"
  },
  "pulse": {
   "trending": 77,
   "accelerating": 0,
   "newModels": 6,
-  "discussions": 47,
-  "stars": 1295
+  "discussions": 45,
+  "stars": 1297
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 3,
    "desc": "Google_AI_Pro_2Year_ZeroCost_Auto",
    "meta": [
-    "★ 2,992",
-    "+221 in 24h",
+    "★ 2,997",
+    "+222 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-04T14:54:56Z",
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 92,
-   "grow": 6,
+   "grow": 7,
    "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
    "meta": [
-    "★ 3,867",
-    "+325 in 24h",
+    "★ 3,875",
+    "+326 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-03T08:02:11Z",
@@ -104,7 +104,7 @@
    "cat": "Coding",
    "score": 87,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 827",
+   "desc": "Model on Hugging Face · open source · ♥ 828",
    "meta": [
     "222K downloads",
     "Released 13 days ago"
@@ -155,7 +155,7 @@
    "grow": null,
    "desc": "Turn your website into an AI agent that sells to AI agents",
    "meta": [
-    "▲ 363 votes",
+    "▲ 365 votes",
     "107 comments",
     "Launched yesterday"
    ],
@@ -171,8 +171,8 @@
    "grow": 6,
    "desc": "Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion",
    "meta": [
-    "★ 2,121",
-    "+173 in 24h",
+    "★ 2,126",
+    "+175 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-11-01T05:50:38Z",
@@ -180,14 +180,38 @@
    "url": "https://github.com/mromidev/claude-animated-shorts"
   }
  ],
- "breakouts": [],
+ "breakouts": [
+  {
+   "key": "artex",
+   "label": "ARTEX",
+   "n": 3,
+   "sources": [
+    {
+     "src": "GitHub",
+     "t": "RuoJi6/ARTEX",
+     "url": "https://github.com/RuoJi6/ARTEX"
+    },
+    {
+     "src": "Techmeme",
+     "t": "Censys finds 800+ publicly exposed copies of ARTEX, a Chinese-made, AI-powered, open-source penetration testing tool linked to several cyberattacks since July",
+     "url": "https://www.techmeme.com/261107/p5#a261107p5"
+    },
+    {
+     "src": "Infosecurity Magazine",
+     "t": "ARTEX Offensive AI Tool Activity Far Exceeds Reported Campaigns, Censys Finds",
+     "url": "https://www.infosecurity-magazine.com/news/artex-activity-exceeds-reported/"
+    }
+   ],
+   "since": "2026-11-07T13:01:01.186Z"
+  }
+ ],
  "hype": [
   {
    "name": "agent-autoloop",
    "url": "https://github.com/KKKKhazix/agent-autoloop",
    "from": "GitHub",
-   "use": 325,
-   "useLabel": "+325 stars/day",
+   "use": 326,
+   "useLabel": "+326 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -301,17 +325,17 @@
  "github": [
   {
    "repo": "KKKKhazix/agent-autoloop",
-   "stars": 3867,
-   "d24": 325,
+   "stars": 3875,
+   "d24": 326,
    "est": false,
-   "forks": 701,
+   "forks": 702,
    "contrib": null,
    "score": 92
   },
   {
    "repo": "caru-ini/stack-diagram",
-   "stars": 2022,
-   "d24": 322,
+   "stars": 2024,
+   "d24": 321,
    "est": true,
    "forks": 94,
    "contrib": null,
@@ -319,8 +343,8 @@
   },
   {
    "repo": "wquguru/cicada",
-   "stars": 1597,
-   "d24": 254,
+   "stars": 1598,
+   "d24": 253,
    "est": true,
    "forks": 289,
    "contrib": null,
@@ -328,19 +352,19 @@
   },
   {
    "repo": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
-   "stars": 2992,
-   "d24": 221,
+   "stars": 2997,
+   "d24": 222,
    "est": false,
-   "forks": 1160,
+   "forks": 1161,
    "contrib": null,
    "score": 94
   },
   {
    "repo": "mromidev/claude-animated-shorts",
-   "stars": 2121,
-   "d24": 173,
+   "stars": 2126,
+   "d24": 175,
    "est": false,
-   "forks": 459,
+   "forks": 460,
    "contrib": null,
    "score": 84
   }
@@ -355,7 +379,7 @@
    "grow": 22,
    "score": 92,
    "cat": "Vision",
-   "likes": 1588
+   "likes": 1589
   },
   {
    "name": "Ripple-65B-Preview",
@@ -378,7 +402,7 @@
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 1014
+   "likes": 1018
   },
   {
    "name": "Qwen3.5-4B-3D-Coder",
@@ -390,7 +414,7 @@
    "grow": null,
    "score": 87,
    "cat": "Coding",
-   "likes": 827
+   "likes": 828
   },
   {
    "name": "Sulphur-3",
@@ -781,6 +805,13 @@
    "kind": "News"
   },
   {
+   "t": "BN candidates launch free AI workshops in Kota Laksamana, Bandar Hilir",
+   "url": "https://www.thestar.com.my/news/nation/2026/11/07/bn-candidates-launch-free-ai-workshops-in-kota-laksamana-bandar-hilir",
+   "at": "2026-11-07T00:47:00Z",
+   "src": "The Star",
+   "kind": "News"
+  },
+  {
    "t": "Delhi, Walmart Global Tech join hands for Rs 9 cr AI research initiative",
    "url": "https://www.tribuneindia.com/news/delhi/iit-delhi-walmart-global-tech-join-hands-for-9-cr-ai-research-initiative/",
    "at": "2026-11-07T00:19:18Z",
@@ -828,13 +859,6 @@
    "at": "2026-11-06T23:38:00Z",
    "src": "The Star",
    "kind": "News"
-  },
-  {
-   "t": "OpenAI to press ahead with data-center expansion despite midterm sweep, CFO tells CNBC",
-   "url": "https://www.thestar.com.my/tech/tech-news/2026/11/07/openai-to-press-ahead-with-data-center-expansion-despite-midterm-sweep-cfo-tells-cnbc",
-   "at": "2026-11-06T23:25:00Z",
-   "src": "The Star",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -843,8 +867,8 @@
    "t": "Every Mac comes with an (undocumented) family member classifier",
    "url": "https://news.ycombinator.com/item?id=50403097",
    "link": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
-   "up": 159,
-   "com": 72,
+   "up": 180,
+   "com": 97,
    "at": "2026-11-07T09:46:03.000Z"
   },
   {
@@ -852,8 +876,8 @@
    "t": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
    "url": "https://news.ycombinator.com/item?id=50397429",
    "link": "https://hightouch.com/blog/llm-judges-identity-resolution",
-   "up": 507,
-   "com": 121,
+   "up": 508,
+   "com": 122,
    "at": "2026-11-06T19:48:51.000Z"
   },
   {
@@ -861,24 +885,16 @@
    "t": "AI is dramatically accelerating AI research",
    "url": "https://news.ycombinator.com/item?id=50397994",
    "link": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
-   "up": 327,
-   "com": 287,
+   "up": 331,
+   "com": 293,
    "at": "2026-11-06T20:27:23.000Z"
-  },
-  {
-   "src": "DEV",
-   "t": "You tried git-lrc. Meet LiveReview 👀",
-   "url": "https://dev.to/lovestaco/you-tried-git-lrc-meet-livereview-7od",
-   "up": 31,
-   "com": 1,
-   "at": "2026-11-07T10:51:12Z"
   },
   {
    "src": "Hacker News",
    "t": "Gemini Omni 1.2 Flash",
    "url": "https://news.ycombinator.com/item?id=50392118",
    "link": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-   "up": 343,
+   "up": 345,
    "com": 233,
    "at": "2026-11-06T13:35:27.000Z"
   },
@@ -887,9 +903,17 @@
    "t": "Firecracker VM Escape: PwnEscape Part 2",
    "url": "https://news.ycombinator.com/item?id=50397219",
    "link": "https://pwn.ai/blog/firecracker-escape",
-   "up": 252,
-   "com": 109,
+   "up": 254,
+   "com": 110,
    "at": "2026-11-06T19:33:38.000Z"
+  },
+  {
+   "src": "DEV",
+   "t": "You tried git-lrc. Meet LiveReview 👀",
+   "url": "https://dev.to/lovestaco/you-tried-git-lrc-meet-livereview-7od",
+   "up": 31,
+   "com": 1,
+   "at": "2026-11-07T10:51:12Z"
   }
  ]
 }
