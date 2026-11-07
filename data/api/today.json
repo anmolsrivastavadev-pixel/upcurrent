@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-07T18:30:49.267Z"
+  "updated": "2026-11-07T19:01:01.919Z"
  },
  "pulse": {
   "trending": 77,
   "accelerating": 0,
-  "newModels": 7,
-  "discussions": 32,
-  "stars": 1612
+  "newModels": 6,
+  "discussions": 34,
+  "stars": 1606
  },
  "rising": [
   {
@@ -24,30 +24,13 @@
    "grow": 4,
    "desc": "Google_AI_Pro_2Year_ZeroCost_Auto",
    "meta": [
-    "★ 3,032",
+    "★ 3,036",
     "+197 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-04T14:54:56Z",
    "breakout": null,
    "url": "https://github.com/worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto"
-  },
-  {
-   "name": "agent-autoloop",
-   "owner": "KKKKhazix",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 92,
-   "grow": null,
-   "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
-   "meta": [
-    "★ 3,937",
-    "~887 in 24h",
-    "Created 4 days ago"
-   ],
-   "at": "2026-11-03T08:02:11Z",
-   "breakout": null,
-   "url": "https://github.com/KKKKhazix/agent-autoloop"
   },
   {
    "name": "Kimi-K3.1-Pro",
@@ -66,13 +49,30 @@
    "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
   },
   {
+   "name": "agent-autoloop",
+   "owner": "KKKKhazix",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 91,
+   "grow": null,
+   "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
+   "meta": [
+    "★ 3,938",
+    "~883 in 24h",
+    "Created 4 days ago"
+   ],
+   "at": "2026-11-03T08:02:11Z",
+   "breakout": null,
+   "url": "https://github.com/KKKKhazix/agent-autoloop"
+  },
+  {
    "name": "Ripple-65B-Preview",
    "owner": "ricursiveAI",
    "src": "hf",
    "cat": "Tools",
    "score": 91,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 364",
+   "desc": "Model on Hugging Face · open source · ♥ 365",
    "meta": [
     "3.8K downloads",
     "Released 4 days ago"
@@ -104,7 +104,7 @@
    "cat": "Coding",
    "score": 87,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 856",
+   "desc": "Model on Hugging Face · open source · ♥ 857",
    "meta": [
     "222K downloads",
     "Released 14 days ago"
@@ -114,20 +114,20 @@
    "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder"
   },
   {
-   "name": "Sulphur-3",
-   "owner": "FusionCow",
+   "name": "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+   "owner": "xtools-at",
    "src": "hf",
-   "cat": "Tools",
+   "cat": "Infrastructure",
    "score": 85,
-   "grow": 0,
-   "desc": "Model on Hugging Face · open weights · ♥ 403",
+   "grow": 77,
+   "desc": "Model on Hugging Face · open source · ♥ 405",
    "meta": [
-    "997 downloads",
-    "Released 7 days ago"
+    "1.4K downloads",
+    "Released 8 days ago"
    ],
-   "at": "2026-10-31T20:31:01.000Z",
+   "at": "2026-10-30T10:21:29.000Z",
    "breakout": null,
-   "url": "https://huggingface.co/FusionCow/Sulphur-3"
+   "url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic"
   },
   {
    "name": "Decoupled Predictive Decision Making: A Shared Conditional Predictor for Agents",
@@ -155,7 +155,7 @@
    "grow": null,
    "desc": "Turn your website into an AI agent that sells to AI agents",
    "meta": [
-    "▲ 370 votes",
+    "▲ 371 votes",
     "107 comments",
     "Launched yesterday"
    ],
@@ -171,8 +171,8 @@
    "grow": null,
    "desc": "Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion",
    "meta": [
-    "★ 2,185",
-    "~335 in 24h",
+    "★ 2,190",
+    "~334 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-11-01T05:50:38Z",
@@ -186,8 +186,8 @@
    "name": "agent-autoloop",
    "url": "https://github.com/KKKKhazix/agent-autoloop",
    "from": "GitHub",
-   "use": 887,
-   "useLabel": "~887 stars/day",
+   "use": 883,
+   "useLabel": "~883 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -301,35 +301,35 @@
  "github": [
   {
    "repo": "KKKKhazix/agent-autoloop",
-   "stars": 3937,
-   "d24": 887,
+   "stars": 3938,
+   "d24": 883,
    "est": true,
    "forks": 715,
    "contrib": null,
-   "score": 92
+   "score": 91
   },
   {
    "repo": "mromidev/claude-animated-shorts",
-   "stars": 2185,
-   "d24": 335,
+   "stars": 2190,
+   "d24": 334,
    "est": true,
-   "forks": 471,
+   "forks": 474,
    "contrib": null,
    "score": 84
   },
   {
    "repo": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
-   "stars": 3032,
+   "stars": 3036,
    "d24": 197,
    "est": false,
-   "forks": 1172,
+   "forks": 1173,
    "contrib": null,
    "score": 94
   },
   {
    "repo": "caru-ini/stack-diagram",
-   "stars": 2049,
-   "d24": 118,
+   "stars": 2052,
+   "d24": 120,
    "est": false,
    "forks": 97,
    "contrib": null,
@@ -338,7 +338,7 @@
   {
    "repo": "wquguru/cicada",
    "stars": 1614,
-   "d24": 75,
+   "d24": 72,
    "est": false,
    "forks": 289,
    "contrib": null,
@@ -355,7 +355,7 @@
    "grow": 22,
    "score": 92,
    "cat": "Vision",
-   "likes": 1615
+   "likes": 1616
   },
   {
    "name": "Ripple-65B-Preview",
@@ -367,7 +367,7 @@
    "grow": null,
    "score": 91,
    "cat": "Tools",
-   "likes": 364
+   "likes": 365
   },
   {
    "name": "idol",
@@ -378,7 +378,7 @@
    "grow": 8,
    "score": 90,
    "cat": "Vision",
-   "likes": 1073
+   "likes": 1076
   },
   {
    "name": "Qwen3.5-4B-3D-Coder",
@@ -390,18 +390,19 @@
    "grow": 0,
    "score": 87,
    "cat": "Coding",
-   "likes": 856
+   "likes": 857
   },
   {
-   "name": "Sulphur-3",
-   "org": "FusionCow",
-   "lic": "Open weights",
-   "at": "2026-10-31T20:31:01.000Z",
-   "dl": 997,
-   "grow": 0,
+   "name": "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+   "org": "xtools-at",
+   "size": "9B",
+   "lic": "Open source",
+   "at": "2026-10-30T10:21:29.000Z",
+   "dl": 1369,
+   "grow": 77,
    "score": 85,
-   "cat": "Tools",
-   "likes": 403
+   "cat": "Infrastructure",
+   "likes": 405
   },
   {
    "name": "numbat",
@@ -410,7 +411,7 @@
    "at": "2026-10-23T01:37:02.000Z",
    "dl": 9212,
    "grow": null,
-   "score": 84,
+   "score": 83,
    "cat": "Tools",
    "likes": 377
   }
@@ -840,11 +841,20 @@
  "discussions": [
   {
    "src": "Hacker News",
+   "t": "Microsoft Researcher John Langford Exits. AI Frontiers Group Declared Finished",
+   "url": "https://news.ycombinator.com/item?id=50406563",
+   "link": "https://businessexaminer.ca/victoria-articles/item/microsoft-researcher-john-langford-exits-as-ai-frontiers-group-is-declared/",
+   "up": 59,
+   "com": 14,
+   "at": "2026-11-07T18:02:17.000Z"
+  },
+  {
+   "src": "Hacker News",
    "t": "Every Mac comes with an (undocumented) family member classifier",
    "url": "https://news.ycombinator.com/item?id=50403097",
    "link": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
-   "up": 447,
-   "com": 251,
+   "up": 457,
+   "com": 265,
    "at": "2026-11-07T09:46:03.000Z"
   },
   {
@@ -852,44 +862,36 @@
    "t": "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller",
    "url": "https://news.ycombinator.com/item?id=50406292",
    "link": "https://github.com/hedgerow-dev/coldframe",
-   "up": 52,
-   "com": 12,
+   "up": 76,
+   "com": 21,
    "at": "2026-11-07T17:27:30.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "The End of AI Frontiers",
+   "url": "https://news.ycombinator.com/item?id=50406589",
+   "link": "https://hunch.net/?p=13764006",
+   "up": 39,
+   "com": 15,
+   "at": "2026-11-07T18:04:07.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
+   "url": "https://news.ycombinator.com/item?id=50406222",
+   "link": "https://maxxbench.unlap.ai/research/why-maxxbench/",
+   "up": 46,
+   "com": 7,
+   "at": "2026-11-07T17:19:00.000Z"
   },
   {
    "src": "Hacker News",
    "t": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
    "url": "https://news.ycombinator.com/item?id=50397429",
    "link": "https://hightouch.com/blog/llm-judges-identity-resolution",
-   "up": 555,
+   "up": 560,
    "com": 137,
    "at": "2026-11-06T19:48:51.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "AI is dramatically accelerating AI research",
-   "url": "https://news.ycombinator.com/item?id=50397994",
-   "link": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
-   "up": 350,
-   "com": 323,
-   "at": "2026-11-06T20:27:23.000Z"
-  },
-  {
-   "src": "DEV",
-   "t": "An agent told me it deployed. I asked the server, and the containers were a day old",
-   "url": "https://dev.to/chet103cc/an-agent-told-me-it-deployed-i-asked-the-server-and-the-containers-were-a-day-old-2b6i",
-   "up": 58,
-   "com": 10,
-   "at": "2026-11-07T14:18:49Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Firecracker VM Escape: PwnEscape Part 2",
-   "url": "https://news.ycombinator.com/item?id=50397219",
-   "link": "https://pwn.ai/blog/firecracker-escape",
-   "up": 274,
-   "com": 121,
-   "at": "2026-11-06T19:33:38.000Z"
   }
  ]
 }
