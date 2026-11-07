@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-07T16:01:02.441Z"
+  "updated": "2026-11-07T16:30:51.717Z"
  },
  "pulse": {
   "trending": 77,
   "accelerating": 0,
   "newModels": 6,
-  "discussions": 44,
-  "stars": 1699
+  "discussions": 42,
+  "stars": 1694
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 4,
    "desc": "Google_AI_Pro_2Year_ZeroCost_Auto",
    "meta": [
-    "★ 3,013",
-    "+200 in 24h",
+    "★ 3,018",
+    "+201 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-04T14:54:56Z",
@@ -41,8 +41,8 @@
    "grow": null,
    "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
    "meta": [
-    "★ 3,913",
-    "~903 in 24h",
+    "★ 3,918",
+    "~900 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-03T08:02:11Z",
@@ -59,7 +59,7 @@
    "desc": "Vision on Hugging Face · open weights · ♥ 1.6K",
    "meta": [
     "23K downloads",
-    "Released 5 days ago"
+    "Released 6 days ago"
    ],
    "at": "2026-11-02T04:13:51.000Z",
    "breakout": null,
@@ -72,7 +72,7 @@
    "cat": "Tools",
    "score": 91,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 357",
+   "desc": "Model on Hugging Face · open source · ♥ 361",
    "meta": [
     "3.8K downloads",
     "Released 4 days ago"
@@ -88,7 +88,7 @@
    "cat": "Vision",
    "score": 90,
    "grow": 8,
-   "desc": "Vision on Hugging Face · open source · ♥ 1K",
+   "desc": "Vision on Hugging Face · open source · ♥ 1.1K",
    "meta": [
     "21K downloads",
     "Released 10 days ago"
@@ -103,8 +103,8 @@
    "src": "hf",
    "cat": "Coding",
    "score": 87,
-   "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 843",
+   "grow": 0,
+   "desc": "Model on Hugging Face · open source · ♥ 849",
    "meta": [
     "222K downloads",
     "Released 13 days ago"
@@ -119,8 +119,8 @@
    "src": "hf",
    "cat": "Tools",
    "score": 85,
-   "grow": null,
-   "desc": "Model on Hugging Face · open weights · ♥ 402",
+   "grow": 0,
+   "desc": "Model on Hugging Face · open weights · ♥ 403",
    "meta": [
     "997 downloads",
     "Released 7 days ago"
@@ -155,7 +155,7 @@
    "grow": null,
    "desc": "Turn your website into an AI agent that sells to AI agents",
    "meta": [
-    "▲ 368 votes",
+    "▲ 369 votes",
     "107 comments",
     "Launched yesterday"
    ],
@@ -168,11 +168,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 84,
-   "grow": 7,
+   "grow": 8,
    "desc": "Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion",
    "meta": [
-    "★ 2,159",
-    "+189 in 24h",
+    "★ 2,165",
+    "+192 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-11-01T05:50:38Z",
@@ -183,11 +183,28 @@
  "breakouts": [],
  "hype": [
   {
+   "name": "DeepSeek-V4.1-Flash-1017",
+   "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "from": "Hugging Face",
+   "use": 277323,
+   "useLabel": "277K downloads",
+   "usePct": 0.8709677419354839,
+   "talk": [
+    {
+     "src": "Github.com",
+     "t": "Promethevs: Full DeepSeek-v4.1-Flash-1017, locally, on 12GB of VRAM",
+     "url": "https://github.com/Magnvs7/Promethevs"
+    }
+   ],
+   "buzz": 1,
+   "verdict": "The hype matches real use"
+  },
+  {
    "name": "agent-autoloop",
    "url": "https://github.com/KKKKhazix/agent-autoloop",
    "from": "GitHub",
-   "use": 903,
-   "useLabel": "~903 stars/day",
+   "use": 900,
+   "useLabel": "~900 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -301,8 +318,8 @@
  "github": [
   {
    "repo": "KKKKhazix/agent-autoloop",
-   "stars": 3913,
-   "d24": 903,
+   "stars": 3918,
+   "d24": 900,
    "est": true,
    "forks": 711,
    "contrib": null,
@@ -311,7 +328,7 @@
   {
    "repo": "caru-ini/stack-diagram",
    "stars": 2042,
-   "d24": 317,
+   "d24": 316,
    "est": true,
    "forks": 96,
    "contrib": null,
@@ -319,26 +336,26 @@
   },
   {
    "repo": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
-   "stars": 3013,
-   "d24": 200,
+   "stars": 3018,
+   "d24": 201,
    "est": false,
-   "forks": 1169,
+   "forks": 1170,
    "contrib": null,
    "score": 94
   },
   {
    "repo": "mromidev/claude-animated-shorts",
-   "stars": 2159,
-   "d24": 189,
+   "stars": 2165,
+   "d24": 192,
    "est": false,
-   "forks": 468,
+   "forks": 470,
    "contrib": null,
    "score": 84
   },
   {
    "repo": "wquguru/cicada",
    "stars": 1611,
-   "d24": 90,
+   "d24": 85,
    "est": false,
    "forks": 289,
    "contrib": null,
@@ -355,7 +372,7 @@
    "grow": 22,
    "score": 92,
    "cat": "Vision",
-   "likes": 1602
+   "likes": 1605
   },
   {
    "name": "Ripple-65B-Preview",
@@ -367,7 +384,7 @@
    "grow": null,
    "score": 91,
    "cat": "Tools",
-   "likes": 357
+   "likes": 361
   },
   {
    "name": "idol",
@@ -378,7 +395,7 @@
    "grow": 8,
    "score": 90,
    "cat": "Vision",
-   "likes": 1045
+   "likes": 1051
   },
   {
    "name": "Qwen3.5-4B-3D-Coder",
@@ -387,10 +404,10 @@
    "lic": "Open source",
    "at": "2026-10-25T05:43:34.000Z",
    "dl": 221506,
-   "grow": null,
+   "grow": 0,
    "score": 87,
    "cat": "Coding",
-   "likes": 843
+   "likes": 849
   },
   {
    "name": "Sulphur-3",
@@ -398,10 +415,10 @@
    "lic": "Open weights",
    "at": "2026-10-31T20:31:01.000Z",
    "dl": 997,
-   "grow": null,
+   "grow": 0,
    "score": 85,
    "cat": "Tools",
-   "likes": 402
+   "likes": 403
   },
   {
    "name": "numbat",
@@ -409,10 +426,10 @@
    "lic": "Open weights",
    "at": "2026-10-23T01:37:02.000Z",
    "dl": 9212,
-   "grow": 2,
+   "grow": null,
    "score": 84,
    "cat": "Tools",
-   "likes": 376
+   "likes": 377
   }
  ],
  "free": [
@@ -795,6 +812,27 @@
    "kind": "Video"
   },
   {
+   "t": "Microsoft offers early exit to 27% of global workforce",
+   "url": "https://www.bangkokpost.com/life/tech/3350530/microsoft-offers-early-exit-to-27-of-global-workforce",
+   "at": "2026-11-07T04:23:00Z",
+   "src": "Bangkok Post",
+   "kind": "News"
+  },
+  {
+   "t": "'Gave her everything but weapon’: Man sues OpenAI, claims ChatGPT aided wife in murder plot",
+   "url": "https://timesofindia.indiatimes.com/world/us/gave-her-everything-but-weapon-man-sues-openai-claims-chatgpt-aided-wife-in-murder-plot/articleshow/135626121.cms",
+   "at": "2026-11-07T04:06:00Z",
+   "src": "Times of India",
+   "kind": "News"
+  },
+  {
+   "t": "Nasdaq rebounds but posts fourth straight weekly decline",
+   "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/nasdaq-rebounds-but-posts-fourth-straight-weekly-decline/articleshow/135626093.cms",
+   "at": "2026-11-07T04:02:00Z",
+   "src": "The Economic Times",
+   "kind": "News"
+  },
+  {
    "t": "OpenAI raises $11 billion at $1.25 trillion valuation amid concerns over AI spending and regulation",
    "url": "https://www.livemint.com/companies/news/openai-raises-11-billion-at-1-25-trillion-valuation-amid-concerns-over-ai-spending-and-regulation-11794022360992.html",
    "at": "2026-11-07T03:41:28Z",
@@ -814,27 +852,6 @@
    "at": "2026-11-07T03:21:21Z",
    "src": "CNBC TV18",
    "kind": "News"
-  },
-  {
-   "t": "OpenAI Completes $11 Billion Portion Of Funding At $1.25 Trillion Value",
-   "url": "https://www.ndtvprofit.com/business/openai-completes-11-billion-portion-of-funding-at-1-25-trillion-value-12295436",
-   "at": "2026-11-07T02:56:59Z",
-   "src": "NDTV Profit",
-   "kind": "News"
-  },
-  {
-   "t": "Meta introduces specialized versions of its existing models, trained using Muse Wonder, bringing Active Memory and Active Focus to all Muse and Meta AI users",
-   "url": "https://www.techmeme.com/261106/p28#a261106p28",
-   "at": "2026-11-07T01:50:00.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI moves to rebuild trust after voters reject data centers in local measures",
-   "url": "https://foxbaltimore.com/news/nation-world/openai-moves-to-rebuild-trust-after-voters-reject-data-centers-in-local-measures-ai-infrastructure",
-   "at": "2026-11-07T01:04:25Z",
-   "src": "Baltimore News",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -843,8 +860,8 @@
    "t": "Every Mac comes with an (undocumented) family member classifier",
    "url": "https://news.ycombinator.com/item?id=50403097",
    "link": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
-   "up": 342,
-   "com": 194,
+   "up": 370,
+   "com": 212,
    "at": "2026-11-07T09:46:03.000Z"
   },
   {
@@ -852,7 +869,7 @@
    "t": "An agent told me it deployed. I asked the server, and the containers were a day old",
    "url": "https://dev.to/chet103cc/an-agent-told-me-it-deployed-i-asked-the-server-and-the-containers-were-a-day-old-2b6i",
    "up": 58,
-   "com": 5,
+   "com": 6,
    "at": "2026-11-07T14:18:49Z"
   },
   {
@@ -860,7 +877,7 @@
    "t": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
    "url": "https://news.ycombinator.com/item?id=50397429",
    "link": "https://hightouch.com/blog/llm-judges-identity-resolution",
-   "up": 534,
+   "up": 537,
    "com": 131,
    "at": "2026-11-06T19:48:51.000Z"
   },
@@ -869,15 +886,15 @@
    "t": "AI is dramatically accelerating AI research",
    "url": "https://news.ycombinator.com/item?id=50397994",
    "link": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
-   "up": 341,
-   "com": 320,
+   "up": 342,
+   "com": 322,
    "at": "2026-11-06T20:27:23.000Z"
   },
   {
    "src": "DEV",
    "t": "Ubuntu Core Desktop Is Coming in 27.04 - And It Kills sudo apt (But Maybe That Is the Point?)",
    "url": "https://dev.to/taqui/ubuntu-core-desktop-is-coming-in-2704-and-it-kills-sudo-apt-but-maybe-that-is-the-point-3dp1",
-   "up": 15,
+   "up": 16,
    "com": 0,
    "at": "2026-11-07T15:18:14Z"
   },
@@ -886,7 +903,7 @@
    "t": "Firecracker VM Escape: PwnEscape Part 2",
    "url": "https://news.ycombinator.com/item?id=50397219",
    "link": "https://pwn.ai/blog/firecracker-escape",
-   "up": 264,
+   "up": 265,
    "com": 114,
    "at": "2026-11-06T19:33:38.000Z"
   }
