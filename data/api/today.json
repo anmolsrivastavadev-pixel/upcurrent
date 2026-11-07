@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-07T19:30:49.858Z"
+  "updated": "2026-11-07T20:00:58.558Z"
  },
  "pulse": {
-  "trending": 76,
+  "trending": 77,
   "accelerating": 0,
   "newModels": 6,
-  "discussions": 33,
-  "stars": 1588
+  "discussions": 30,
+  "stars": 1572
  },
  "rising": [
   {
@@ -20,12 +20,12 @@
    "owner": "worldonlyu",
    "src": "gh",
    "cat": "Tools",
-   "score": 94,
+   "score": 93,
    "grow": 4,
    "desc": "Google_AI_Pro_2Year_ZeroCost_Auto",
    "meta": [
-    "★ 3,037",
-    "+192 in 24h",
+    "★ 3,038",
+    "+188 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-04T14:54:56Z",
@@ -57,29 +57,13 @@
    "grow": null,
    "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
    "meta": [
-    "★ 3,939",
-    "~880 in 24h",
+    "★ 3,940",
+    "~876 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-03T08:02:11Z",
    "breakout": null,
    "url": "https://github.com/KKKKhazix/agent-autoloop"
-  },
-  {
-   "name": "Ripple-65B-Preview",
-   "owner": "ricursiveAI",
-   "src": "hf",
-   "cat": "Tools",
-   "score": 91,
-   "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 365",
-   "meta": [
-    "3.8K downloads",
-    "Released 4 days ago"
-   ],
-   "at": "2026-11-04T02:41:21.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview"
   },
   {
    "name": "idol",
@@ -98,13 +82,29 @@
    "url": "https://huggingface.co/speridlabs/idol"
   },
   {
+   "name": "Ripple-65B-Preview",
+   "owner": "ricursiveAI",
+   "src": "hf",
+   "cat": "Tools",
+   "score": 89,
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 365",
+   "meta": [
+    "3.8K downloads",
+    "Released 4 days ago"
+   ],
+   "at": "2026-11-04T02:41:21.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview"
+  },
+  {
    "name": "Qwen3.5-4B-3D-Coder",
    "owner": "ccore",
    "src": "hf",
    "cat": "Coding",
    "score": 87,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 860",
+   "desc": "Model on Hugging Face · open source · ♥ 862",
    "meta": [
     "222K downloads",
     "Released 14 days ago"
@@ -118,9 +118,9 @@
    "owner": "xtools-at",
    "src": "hf",
    "cat": "Infrastructure",
-   "score": 85,
+   "score": 86,
    "grow": 77,
-   "desc": "Model on Hugging Face · open source · ♥ 415",
+   "desc": "Model on Hugging Face · open source · ♥ 425",
    "meta": [
     "1.4K downloads",
     "Released 8 days ago"
@@ -155,7 +155,7 @@
    "grow": null,
    "desc": "Turn your website into an AI agent that sells to AI agents",
    "meta": [
-    "▲ 374 votes",
+    "▲ 375 votes",
     "100 comments",
     "Launched yesterday"
    ],
@@ -171,8 +171,8 @@
    "grow": null,
    "desc": "Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion",
    "meta": [
-    "★ 2,194",
-    "~334 in 24h",
+    "★ 2,197",
+    "~333 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-11-01T05:50:38Z",
@@ -186,8 +186,8 @@
    "name": "agent-autoloop",
    "url": "https://github.com/KKKKhazix/agent-autoloop",
    "from": "GitHub",
-   "use": 880,
-   "useLabel": "~880 stars/day",
+   "use": 876,
+   "useLabel": "~876 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -210,7 +210,7 @@
    "from": "Hugging Face",
    "use": 1143397,
    "useLabel": "1.1M downloads",
-   "usePct": 0.9666666666666667,
+   "usePct": 0.967741935483871,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -301,8 +301,8 @@
  "github": [
   {
    "repo": "KKKKhazix/agent-autoloop",
-   "stars": 3939,
-   "d24": 880,
+   "stars": 3940,
+   "d24": 876,
    "est": true,
    "forks": 715,
    "contrib": null,
@@ -310,8 +310,8 @@
   },
   {
    "repo": "mromidev/claude-animated-shorts",
-   "stars": 2194,
-   "d24": 334,
+   "stars": 2197,
+   "d24": 333,
    "est": true,
    "forks": 475,
    "contrib": null,
@@ -319,26 +319,26 @@
   },
   {
    "repo": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
-   "stars": 3037,
-   "d24": 192,
+   "stars": 3038,
+   "d24": 188,
    "est": false,
    "forks": 1173,
    "contrib": null,
-   "score": 94
+   "score": 93
   },
   {
    "repo": "caru-ini/stack-diagram",
-   "stars": 2052,
-   "d24": 113,
+   "stars": 2053,
+   "d24": 109,
    "est": false,
    "forks": 97,
    "contrib": null,
-   "score": 83
+   "score": 82
   },
   {
    "repo": "wquguru/cicada",
    "stars": 1614,
-   "d24": 69,
+   "d24": 66,
    "est": false,
    "forks": 289,
    "contrib": null,
@@ -355,19 +355,7 @@
    "grow": 22,
    "score": 92,
    "cat": "Vision",
-   "likes": 1620
-  },
-  {
-   "name": "Ripple-65B-Preview",
-   "org": "ricursiveAI",
-   "size": "65B",
-   "lic": "Open source",
-   "at": "2026-11-04T02:41:21.000Z",
-   "dl": 3803,
-   "grow": null,
-   "score": 91,
-   "cat": "Tools",
-   "likes": 365
+   "likes": 1621
   },
   {
    "name": "idol",
@@ -378,7 +366,19 @@
    "grow": 8,
    "score": 90,
    "cat": "Vision",
-   "likes": 1081
+   "likes": 1084
+  },
+  {
+   "name": "Ripple-65B-Preview",
+   "org": "ricursiveAI",
+   "size": "65B",
+   "lic": "Open source",
+   "at": "2026-11-04T02:41:21.000Z",
+   "dl": 3803,
+   "grow": null,
+   "score": 89,
+   "cat": "Tools",
+   "likes": 365
   },
   {
    "name": "Qwen3.5-4B-3D-Coder",
@@ -390,7 +390,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Coding",
-   "likes": 860
+   "likes": 862
   },
   {
    "name": "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
@@ -400,9 +400,9 @@
    "at": "2026-10-30T10:21:29.000Z",
    "dl": 1369,
    "grow": 77,
-   "score": 85,
+   "score": 86,
    "cat": "Infrastructure",
-   "likes": 415
+   "likes": 425
   },
   {
    "name": "numbat",
@@ -775,6 +775,13 @@
    "kind": "News"
   },
   {
+   "t": "Environmental groups embrace AI, even as they warn of data center impacts",
+   "url": "https://economictimes.indiatimes.com/ai/ai-insights/environmental-groups-embrace-ai-even-as-they-warn-of-data-center-impacts/articleshow/135630457.cms",
+   "at": "2026-11-07T07:49:00Z",
+   "src": "The Economic Times",
+   "kind": "News"
+  },
+  {
    "t": "How differences in economics, public policy, and cultural patterns could explain greater pessimism about AI in the West than in Asia and emerging economies",
    "url": "https://www.techmeme.com/261107/p7#a261107p7",
    "at": "2026-11-07T07:40:01.000Z",
@@ -817,13 +824,6 @@
    "kind": "News"
   },
   {
-   "t": "Environmental groups embrace AI, even as they warn of data center impacts",
-   "url": "https://www.thestar.com.my/tech/tech-news/2026/11/07/environmental-groups-embrace-ai-even-as-they-warn-of-data-center-impacts",
-   "at": "2026-11-07T06:14:00Z",
-   "src": "The Star",
-   "kind": "News"
-  },
-  {
    "t": "Beijing-based Sand.ai, an AI startup specializing in video generation, raised a $200M Series A+, bringing its total funding over the past 10 months to $300M",
    "url": "https://www.techmeme.com/261107/p1#a261107p1",
    "at": "2026-11-07T05:45:02.000Z",
@@ -841,38 +841,38 @@
  "discussions": [
   {
    "src": "Hacker News",
-   "t": "Microsoft Researcher John Langford Exits. AI Frontiers Group Declared Finished",
+   "t": "The end of Microsoft Research's AI Frontiers group",
    "url": "https://news.ycombinator.com/item?id=50406563",
-   "link": "https://businessexaminer.ca/victoria-articles/item/microsoft-researcher-john-langford-exits-as-ai-frontiers-group-is-declared/",
-   "up": 106,
-   "com": 24,
-   "at": "2026-11-07T18:02:17.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "The End of AI Frontiers",
-   "url": "https://news.ycombinator.com/item?id=50406589",
    "link": "https://hunch.net/?p=13764006",
-   "up": 73,
-   "com": 24,
-   "at": "2026-11-07T18:04:07.000Z"
+   "up": 149,
+   "com": 69,
+   "at": "2026-11-07T18:02:17.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Every Mac comes with an (undocumented) family member classifier",
    "url": "https://news.ycombinator.com/item?id=50403097",
    "link": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
-   "up": 470,
-   "com": 272,
+   "up": 484,
+   "com": 284,
    "at": "2026-11-07T09:46:03.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "The End of AI Frontiers",
+   "url": "https://news.ycombinator.com/item?id=50406589",
+   "link": "https://hunch.net/?p=13764006",
+   "up": 80,
+   "com": 2,
+   "at": "2026-11-07T18:04:07.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller",
    "url": "https://news.ycombinator.com/item?id=50406292",
    "link": "https://github.com/hedgerow-dev/coldframe",
-   "up": 91,
-   "com": 21,
+   "up": 103,
+   "com": 26,
    "at": "2026-11-07T17:27:30.000Z"
   },
   {
@@ -880,18 +880,18 @@
    "t": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
    "url": "https://news.ycombinator.com/item?id=50406222",
    "link": "https://maxxbench.unlap.ai/research/why-maxxbench/",
-   "up": 68,
-   "com": 11,
+   "up": 82,
+   "com": 18,
    "at": "2026-11-07T17:19:00.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
-   "url": "https://news.ycombinator.com/item?id=50397429",
-   "link": "https://hightouch.com/blog/llm-judges-identity-resolution",
-   "up": 565,
-   "com": 139,
-   "at": "2026-11-06T19:48:51.000Z"
+   "t": "AI is dramatically accelerating AI research",
+   "url": "https://news.ycombinator.com/item?id=50397994",
+   "link": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+   "up": 354,
+   "com": 329,
+   "at": "2026-11-06T20:27:23.000Z"
   }
  ]
 }
