@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-07T10:00:58.277Z"
+  "updated": "2026-11-07T10:30:49.337Z"
  },
  "pulse": {
-  "trending": 78,
+  "trending": 77,
   "accelerating": 0,
   "newModels": 6,
-  "discussions": 48,
-  "stars": 1063
+  "discussions": 41,
+  "stars": 1075
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 2,
    "desc": "Google_AI_Pro_2Year_ZeroCost_Auto",
    "meta": [
-    "★ 2,966",
-    "+210 in 24h",
+    "★ 2,973",
+    "+219 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-04T14:54:56Z",
@@ -33,11 +33,28 @@
    "url": "https://github.com/worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto"
   },
   {
+   "name": "agent-autoloop",
+   "owner": "KKKKhazix",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 92,
+   "grow": 5,
+   "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
+   "meta": [
+    "★ 3,837",
+    "+320 in 24h",
+    "Created 4 days ago"
+   ],
+   "at": "2026-11-03T08:02:11Z",
+   "breakout": null,
+   "url": "https://github.com/KKKKhazix/agent-autoloop"
+  },
+  {
    "name": "Kimi-K3.1-Pro",
    "owner": "moonshotai",
    "src": "hf",
    "cat": "Vision",
-   "score": 94,
+   "score": 92,
    "grow": null,
    "desc": "Vision on Hugging Face · open weights · ♥ 1.6K",
    "meta": [
@@ -49,30 +66,13 @@
    "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
   },
   {
-   "name": "agent-autoloop",
-   "owner": "KKKKhazix",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 92,
-   "grow": 5,
-   "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
-   "meta": [
-    "★ 3,828",
-    "+316 in 24h",
-    "Created 4 days ago"
-   ],
-   "at": "2026-11-03T08:02:11Z",
-   "breakout": null,
-   "url": "https://github.com/KKKKhazix/agent-autoloop"
-  },
-  {
    "name": "Ripple-65B-Preview",
    "owner": "ricursiveAI",
    "src": "hf",
    "cat": "Tools",
    "score": 91,
    "grow": 89,
-   "desc": "Model on Hugging Face · open source · ♥ 347",
+   "desc": "Model on Hugging Face · open source · ♥ 349",
    "meta": [
     "3.8K downloads",
     "Released 3 days ago"
@@ -86,9 +86,9 @@
    "owner": "speridlabs",
    "src": "hf",
    "cat": "Vision",
-   "score": 89,
+   "score": 90,
    "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 993",
+   "desc": "Vision on Hugging Face · open source · ♥ 997",
    "meta": [
     "21K downloads",
     "Released 10 days ago"
@@ -103,8 +103,8 @@
    "src": "hf",
    "cat": "Coding",
    "score": 87,
-   "grow": 16,
-   "desc": "Model on Hugging Face · open source · ♥ 813",
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 817",
    "meta": [
     "222K downloads",
     "Released 13 days ago"
@@ -119,7 +119,7 @@
    "src": "hf",
    "cat": "Tools",
    "score": 85,
-   "grow": 5,
+   "grow": null,
    "desc": "Model on Hugging Face · open weights · ♥ 400",
    "meta": [
     "997 downloads",
@@ -139,7 +139,7 @@
    "grow": null,
    "desc": "Agent decisions depend on empirical relationships that deployment observations reveal and task descriptions alone may leave unresolved.",
    "meta": [
-    "▲ 115 upvotes",
+    "▲ 79 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-10-31T20:00:00.000Z",
@@ -168,11 +168,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 84,
-   "grow": 4,
+   "grow": 5,
    "desc": "Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion",
    "meta": [
-    "★ 2,099",
-    "+166 in 24h",
+    "★ 2,101",
+    "+164 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-11-01T05:50:38Z",
@@ -186,8 +186,8 @@
    "name": "agent-autoloop",
    "url": "https://github.com/KKKKhazix/agent-autoloop",
    "from": "GitHub",
-   "use": 316,
-   "useLabel": "+316 stars/day",
+   "use": 320,
+   "useLabel": "+320 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -210,7 +210,7 @@
    "from": "Hugging Face",
    "use": 1143397,
    "useLabel": "1.1M downloads",
-   "usePct": 0.96875,
+   "usePct": 0.967741935483871,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -301,17 +301,17 @@
  "github": [
   {
    "repo": "KKKKhazix/agent-autoloop",
-   "stars": 3828,
-   "d24": 316,
+   "stars": 3837,
+   "d24": 320,
    "est": false,
-   "forks": 689,
+   "forks": 692,
    "contrib": null,
    "score": 92
   },
   {
    "repo": "wquguru/cicada",
    "stars": 1589,
-   "d24": 257,
+   "d24": 256,
    "est": true,
    "forks": 288,
    "contrib": null,
@@ -319,8 +319,8 @@
   },
   {
    "repo": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
-   "stars": 2966,
-   "d24": 210,
+   "stars": 2973,
+   "d24": 219,
    "est": false,
    "forks": 1156,
    "contrib": null,
@@ -328,8 +328,8 @@
   },
   {
    "repo": "mromidev/claude-animated-shorts",
-   "stars": 2099,
-   "d24": 166,
+   "stars": 2101,
+   "d24": 164,
    "est": false,
    "forks": 448,
    "contrib": null,
@@ -337,8 +337,8 @@
   },
   {
    "repo": "caru-ini/stack-diagram",
-   "stars": 2007,
-   "d24": 114,
+   "stars": 2011,
+   "d24": 116,
    "est": false,
    "forks": 93,
    "contrib": null,
@@ -353,9 +353,9 @@
    "at": "2026-11-02T04:13:51.000Z",
    "dl": 22571,
    "grow": null,
-   "score": 94,
+   "score": 92,
    "cat": "Vision",
-   "likes": 1577
+   "likes": 1582
   },
   {
    "name": "Ripple-65B-Preview",
@@ -367,7 +367,7 @@
    "grow": 89,
    "score": 91,
    "cat": "Tools",
-   "likes": 347
+   "likes": 349
   },
   {
    "name": "idol",
@@ -376,9 +376,9 @@
    "at": "2026-10-28T15:55:17.000Z",
    "dl": 20689,
    "grow": null,
-   "score": 89,
+   "score": 90,
    "cat": "Vision",
-   "likes": 993
+   "likes": 997
   },
   {
    "name": "Qwen3.5-4B-3D-Coder",
@@ -387,10 +387,10 @@
    "lic": "Open source",
    "at": "2026-10-25T05:43:34.000Z",
    "dl": 221506,
-   "grow": 16,
+   "grow": null,
    "score": 87,
    "cat": "Coding",
-   "likes": 813
+   "likes": 817
   },
   {
    "name": "Sulphur-3",
@@ -398,7 +398,7 @@
    "lic": "Open weights",
    "at": "2026-10-31T20:31:01.000Z",
    "dl": 997,
-   "grow": 5,
+   "grow": null,
    "score": 85,
    "cat": "Tools",
    "likes": 400
@@ -781,6 +781,13 @@
    "kind": "News"
   },
   {
+   "t": "D St Lights Up, Ends Diwali Week with a Firecracker of a Friday",
+   "url": "https://economictimes.indiatimes.com/epaper/delhicapital/2026/nov/07/satet-front/d-st-lights-up-ends-diwali-week-with-a-firecracker-of-a-friday/articleshow/135621274.cms",
+   "at": "2026-11-06T22:18:00Z",
+   "src": "The Economic Times",
+   "kind": "News"
+  },
+  {
    "t": "The midterms didn’t stop the AI buildout. They simply repriced it-and OpenAI is the first to pay up",
    "url": "https://fortune.com/2026/11/06/midterm-elections-ai-data-center-build-out-social-license/",
    "at": "2026-11-06T21:46:57Z",
@@ -828,13 +835,6 @@
    "at": "2026-11-06T21:19:24Z",
    "src": "The North Bay Nugget",
    "kind": "News"
-  },
-  {
-   "t": "Sources: OpenAI has closed on new funding of roughly $11B at a $1.25T valuation; the round could increase to as much as $20B in total",
-   "url": "https://www.techmeme.com/261106/p22#a261106p22",
-   "at": "2026-11-06T21:15:00.000Z",
-   "src": "Techmeme",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -843,8 +843,8 @@
    "t": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
    "url": "https://news.ycombinator.com/item?id=50397429",
    "link": "https://hightouch.com/blog/llm-judges-identity-resolution",
-   "up": 471,
-   "com": 109,
+   "up": 483,
+   "com": 110,
    "at": "2026-11-06T19:48:51.000Z"
   },
   {
@@ -852,8 +852,8 @@
    "t": "AI is dramatically accelerating AI research",
    "url": "https://news.ycombinator.com/item?id=50397994",
    "link": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
-   "up": 302,
-   "com": 247,
+   "up": 308,
+   "com": 260,
    "at": "2026-11-06T20:27:23.000Z"
   },
   {
@@ -861,9 +861,18 @@
    "t": "Gemini Omni 1.2 Flash",
    "url": "https://news.ycombinator.com/item?id=50392118",
    "link": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-   "up": 336,
+   "up": 337,
    "com": 230,
    "at": "2026-11-06T13:35:27.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Firecracker VM Escape: PwnEscape Part 2",
+   "url": "https://news.ycombinator.com/item?id=50397219",
+   "link": "https://pwn.ai/blog/firecracker-escape",
+   "up": 240,
+   "com": 106,
+   "at": "2026-11-06T19:33:38.000Z"
   },
   {
    "src": "Hacker News",
@@ -871,25 +880,16 @@
    "url": "https://news.ycombinator.com/item?id=50394906",
    "link": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
    "up": 281,
-   "com": 555,
+   "com": 561,
    "at": "2026-11-06T16:54:36.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Firecracker VM Escape: PwnEscape Part 2",
-   "url": "https://news.ycombinator.com/item?id=50397219",
-   "link": "https://pwn.ai/blog/firecracker-escape",
-   "up": 236,
-   "com": 105,
-   "at": "2026-11-06T19:33:38.000Z"
   },
   {
    "src": "Hacker News",
    "t": "GitHub's new Git storage architecture",
    "url": "https://news.ycombinator.com/item?id=50397099",
    "link": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
-   "up": 146,
-   "com": 28,
+   "up": 147,
+   "com": 29,
    "at": "2026-11-06T19:24:21.000Z"
   }
  ]
