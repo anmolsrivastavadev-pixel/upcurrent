@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-07T09:30:51.126Z"
+  "updated": "2026-11-07T10:00:58.277Z"
  },
  "pulse": {
   "trending": 78,
   "accelerating": 0,
   "newModels": 6,
-  "discussions": 49,
-  "stars": 2464
+  "discussions": 48,
+  "stars": 1063
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Tools",
    "score": 95,
-   "grow": null,
+   "grow": 2,
    "desc": "Google_AI_Pro_2Year_ZeroCost_Auto",
    "meta": [
-    "★ 2,961",
-    "~1,067 in 24h",
+    "★ 2,966",
+    "+210 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-04T14:54:56Z",
@@ -41,29 +41,12 @@
    "grow": null,
    "desc": "Vision on Hugging Face · open weights · ♥ 1.6K",
    "meta": [
-    "18K downloads",
+    "23K downloads",
     "Released 5 days ago"
    ],
    "at": "2026-11-02T04:13:51.000Z",
    "breakout": null,
    "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
-  },
-  {
-   "name": "dsh-superagent-prototype",
-   "owner": "deepseek-ai",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 92,
-   "grow": 2,
-   "desc": "Towards a More Autonomous Agent System",
-   "meta": [
-    "★ 20,513",
-    "+548 in 24h",
-    "Created 7 days ago"
-   ],
-   "at": "2026-10-31T09:32:46Z",
-   "breakout": null,
-   "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
   },
   {
    "name": "agent-autoloop",
@@ -74,8 +57,8 @@
    "grow": 5,
    "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
    "meta": [
-    "★ 3,824",
-    "+321 in 24h",
+    "★ 3,828",
+    "+316 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-03T08:02:11Z",
@@ -88,10 +71,10 @@
    "src": "hf",
    "cat": "Tools",
    "score": 91,
-   "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 345",
+   "grow": 89,
+   "desc": "Model on Hugging Face · open source · ♥ 347",
    "meta": [
-    "2K downloads",
+    "3.8K downloads",
     "Released 3 days ago"
    ],
    "at": "2026-11-04T02:41:21.000Z",
@@ -105,9 +88,9 @@
    "cat": "Vision",
    "score": 89,
    "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 989",
+   "desc": "Vision on Hugging Face · open source · ♥ 993",
    "meta": [
-    "19K downloads",
+    "21K downloads",
     "Released 10 days ago"
    ],
    "at": "2026-10-28T15:55:17.000Z",
@@ -120,10 +103,10 @@
    "src": "hf",
    "cat": "Coding",
    "score": 87,
-   "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 811",
+   "grow": 16,
+   "desc": "Model on Hugging Face · open source · ♥ 813",
    "meta": [
-    "190K downloads",
+    "222K downloads",
     "Released 13 days ago"
    ],
    "at": "2026-10-25T05:43:34.000Z",
@@ -136,10 +119,10 @@
    "src": "hf",
    "cat": "Tools",
    "score": 85,
-   "grow": 0,
-   "desc": "Model on Hugging Face · open weights · ♥ 399",
+   "grow": 5,
+   "desc": "Model on Hugging Face · open weights · ♥ 400",
    "meta": [
-    "950 downloads",
+    "997 downloads",
     "Released 7 days ago"
    ],
    "at": "2026-10-31T20:31:01.000Z",
@@ -172,22 +155,39 @@
    "grow": null,
    "desc": "Turn your website into an AI agent that sells to AI agents",
    "meta": [
-    "▲ 359 votes",
+    "▲ 360 votes",
     "107 comments",
     "Launched yesterday"
    ],
    "at": "2026-11-06T08:01:00Z",
    "breakout": null
+  },
+  {
+   "name": "claude-animated-shorts",
+   "owner": "mromidev",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 84,
+   "grow": 4,
+   "desc": "Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion",
+   "meta": [
+    "★ 2,099",
+    "+166 in 24h",
+    "Created 6 days ago"
+   ],
+   "at": "2026-11-01T05:50:38Z",
+   "breakout": null,
+   "url": "https://github.com/mromidev/claude-animated-shorts"
   }
  ],
  "breakouts": [],
  "hype": [
   {
-   "name": "Google_AI_Pro_2Year_ZeroCost_Auto",
-   "url": "https://github.com/worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
+   "name": "agent-autoloop",
+   "url": "https://github.com/KKKKhazix/agent-autoloop",
    "from": "GitHub",
-   "use": 1067,
-   "useLabel": "~1,067 stars/day",
+   "use": 316,
+   "useLabel": "+316 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -197,8 +197,8 @@
    "name": "Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
    "url": "https://huggingface.co/SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
    "from": "Hugging Face",
-   "use": 4015818,
-   "useLabel": "4M downloads",
+   "use": 4132544,
+   "useLabel": "4.1M downloads",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -208,15 +208,25 @@
    "name": "flux-3-image-klein-comfy",
    "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
    "from": "Hugging Face",
-   "use": 1109078,
+   "use": 1143397,
    "useLabel": "1.1M downloads",
-   "usePct": 0.967741935483871,
+   "usePct": 0.96875,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
   }
  ],
  "receipts": [
+  {
+   "name": "webAI-Official/TwIL-8B",
+   "url": "https://huggingface.co/webAI-Official/TwIL-8B",
+   "kind": "downloads",
+   "first": "2026-11-05T21:57:30.190Z",
+   "firstV": 3563,
+   "m": 10000,
+   "at": "2026-11-07T10:00:58.277Z",
+   "lead": 36.05780194444444
+  },
   {
    "name": "qybaihe/bla",
    "url": "https://github.com/qybaihe/bla",
@@ -286,49 +296,21 @@
    "m": 10000,
    "at": "2026-11-05T10:30:50.859Z",
    "lead": 70.9996911111111
-  },
-  {
-   "name": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-Coder-GGUF",
-   "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-Coder-GGUF",
-   "kind": "downloads",
-   "first": "2026-11-04T02:30:52.569Z",
-   "firstV": 28666,
-   "m": 100000,
-   "at": "2026-11-05T10:30:50.859Z",
-   "lead": 31.999525
   }
  ],
  "github": [
   {
-   "repo": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
-   "stars": 2961,
-   "d24": 1067,
-   "est": true,
-   "forks": 1154,
-   "contrib": null,
-   "score": 95
-  },
-  {
-   "repo": "deepseek-ai/dsh-superagent-prototype",
-   "stars": 20513,
-   "d24": 548,
-   "est": false,
-   "forks": 2398,
-   "contrib": 1,
-   "score": 92
-  },
-  {
    "repo": "KKKKhazix/agent-autoloop",
-   "stars": 3824,
-   "d24": 321,
+   "stars": 3828,
+   "d24": 316,
    "est": false,
-   "forks": 687,
+   "forks": 689,
    "contrib": null,
    "score": 92
   },
   {
    "repo": "wquguru/cicada",
-   "stars": 1584,
+   "stars": 1589,
    "d24": 257,
    "est": true,
    "forks": 288,
@@ -336,17 +318,26 @@
    "score": 80
   },
   {
-   "repo": "mromidev/claude-animated-shorts",
-   "stars": 2091,
-   "d24": 157,
+   "repo": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
+   "stars": 2966,
+   "d24": 210,
    "est": false,
-   "forks": 447,
+   "forks": 1156,
+   "contrib": null,
+   "score": 95
+  },
+  {
+   "repo": "mromidev/claude-animated-shorts",
+   "stars": 2099,
+   "d24": 166,
+   "est": false,
+   "forks": 448,
    "contrib": null,
    "score": 84
   },
   {
    "repo": "caru-ini/stack-diagram",
-   "stars": 2004,
+   "stars": 2007,
    "d24": 114,
    "est": false,
    "forks": 93,
@@ -360,11 +351,11 @@
    "org": "moonshotai",
    "lic": "Open weights",
    "at": "2026-11-02T04:13:51.000Z",
-   "dl": 18432,
+   "dl": 22571,
    "grow": null,
    "score": 94,
    "cat": "Vision",
-   "likes": 1574
+   "likes": 1577
   },
   {
    "name": "Ripple-65B-Preview",
@@ -372,22 +363,22 @@
    "size": "65B",
    "lic": "Open source",
    "at": "2026-11-04T02:41:21.000Z",
-   "dl": 2013,
-   "grow": 0,
+   "dl": 3803,
+   "grow": 89,
    "score": 91,
    "cat": "Tools",
-   "likes": 345
+   "likes": 347
   },
   {
    "name": "idol",
    "org": "speridlabs",
    "lic": "Open source",
    "at": "2026-10-28T15:55:17.000Z",
-   "dl": 19139,
+   "dl": 20689,
    "grow": null,
    "score": 89,
    "cat": "Vision",
-   "likes": 989
+   "likes": 993
   },
   {
    "name": "Qwen3.5-4B-3D-Coder",
@@ -395,30 +386,30 @@
    "size": "4B",
    "lic": "Open source",
    "at": "2026-10-25T05:43:34.000Z",
-   "dl": 190243,
-   "grow": 0,
+   "dl": 221506,
+   "grow": 16,
    "score": 87,
    "cat": "Coding",
-   "likes": 811
+   "likes": 813
   },
   {
    "name": "Sulphur-3",
    "org": "FusionCow",
    "lic": "Open weights",
    "at": "2026-10-31T20:31:01.000Z",
-   "dl": 950,
-   "grow": 0,
+   "dl": 997,
+   "grow": 5,
    "score": 85,
    "cat": "Tools",
-   "likes": 399
+   "likes": 400
   },
   {
    "name": "numbat",
    "org": "burner22",
    "lic": "Open weights",
    "at": "2026-10-23T01:37:02.000Z",
-   "dl": 9066,
-   "grow": 0,
+   "dl": 9212,
+   "grow": 2,
    "score": 84,
    "cat": "Tools",
    "likes": 372
@@ -734,6 +725,13 @@
  },
  "headlines": [
   {
+   "t": "Lanarkshire AI datacentre to fully rely on National Grid despite renewables claim",
+   "url": "https://www.theguardian.com/uk-news/2026/nov/07/lanarkshire-ai-datacentre-datavita-chapelhall-national-grid-renewable-energy",
+   "at": "2026-11-07T10:00:08Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
    "t": "How differences in economics, public policy, and cultural patterns could explain greater pessimism about AI in the West than in Asia and emerging economies",
    "url": "https://www.techmeme.com/261107/p7#a261107p7",
    "at": "2026-11-07T07:40:01.000Z",
@@ -780,6 +778,13 @@
    "url": "https://www.theguardian.com/commentisfree/2026/nov/06/the-guardian-view-on-the-ai-backlash-american-voters-want-a-say-in-their-future",
    "at": "2026-11-06T23:45:52Z",
    "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "The midterms didn’t stop the AI buildout. They simply repriced it-and OpenAI is the first to pay up",
+   "url": "https://fortune.com/2026/11/06/midterm-elections-ai-data-center-build-out-social-license/",
+   "at": "2026-11-06T21:46:57Z",
+   "src": "Fortune",
    "kind": "News"
   },
   {
@@ -830,20 +835,6 @@
    "at": "2026-11-06T21:15:00.000Z",
    "src": "Techmeme",
    "kind": "News"
-  },
-  {
-   "t": "Several Democrats renew calls for datacenter pauses after blue wave",
-   "url": "https://www.theguardian.com/us-news/2026/nov/06/democrats-renew-calls-for-datacenter-pauses",
-   "at": "2026-11-06T21:14:46Z",
-   "src": "The Guardian",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI gets $11 billion funding at $1.25 trillion valuation, source says",
-   "url": "https://www.marketscreener.com/news/openai-secures-11-billion-funding-at-1-25-trillion-valuation-bloomberg-news-reports-ce785fd2dc8bf622",
-   "at": "2026-11-06T21:09:27Z",
-   "src": "MarketScreener",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -852,8 +843,8 @@
    "t": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
    "url": "https://news.ycombinator.com/item?id=50397429",
    "link": "https://hightouch.com/blog/llm-judges-identity-resolution",
-   "up": 465,
-   "com": 106,
+   "up": 471,
+   "com": 109,
    "at": "2026-11-06T19:48:51.000Z"
   },
   {
@@ -861,34 +852,34 @@
    "t": "AI is dramatically accelerating AI research",
    "url": "https://news.ycombinator.com/item?id=50397994",
    "link": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
-   "up": 301,
-   "com": 236,
+   "up": 302,
+   "com": 247,
    "at": "2026-11-06T20:27:23.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Anthropic IPO buyers see valuation as low as $1.1T",
-   "url": "https://news.ycombinator.com/item?id=50394906",
-   "link": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
-   "up": 278,
-   "com": 555,
-   "at": "2026-11-06T16:54:36.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Gemini Omni 1.2 Flash",
    "url": "https://news.ycombinator.com/item?id=50392118",
    "link": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-   "up": 333,
-   "com": 229,
+   "up": 336,
+   "com": 230,
    "at": "2026-11-06T13:35:27.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Anthropic IPO buyers see valuation as low as $1.1T",
+   "url": "https://news.ycombinator.com/item?id=50394906",
+   "link": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
+   "up": 281,
+   "com": 555,
+   "at": "2026-11-06T16:54:36.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Firecracker VM Escape: PwnEscape Part 2",
    "url": "https://news.ycombinator.com/item?id=50397219",
    "link": "https://pwn.ai/blog/firecracker-escape",
-   "up": 233,
+   "up": 236,
    "com": 105,
    "at": "2026-11-06T19:33:38.000Z"
   },
@@ -897,7 +888,7 @@
    "t": "GitHub's new Git storage architecture",
    "url": "https://news.ycombinator.com/item?id=50397099",
    "link": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
-   "up": 141,
+   "up": 146,
    "com": 28,
    "at": "2026-11-06T19:24:21.000Z"
   }
