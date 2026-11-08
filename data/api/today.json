@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-08T09:30:50.033Z"
+  "updated": "2026-11-08T10:00:58.265Z"
  },
  "pulse": {
   "trending": 74,
-  "accelerating": 0,
+  "accelerating": 2,
   "newModels": 6,
-  "discussions": 38,
-  "stars": 413
+  "discussions": 36,
+  "stars": 418
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Tools",
    "score": 92,
-   "grow": 3,
+   "grow": 4,
    "desc": "Google_AI_Pro_2Year_ZeroCost_Auto",
    "meta": [
-    "★ 3,156",
-    "+258 in 24h",
+    "★ 3,163",
+    "+262 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-04T14:54:56Z",
@@ -38,10 +38,10 @@
    "src": "hf",
    "cat": "Vision",
    "score": 91,
-   "grow": 0,
+   "grow": 13,
    "desc": "Vision on Hugging Face · open weights · ♥ 1.7K",
    "meta": [
-    "23K downloads",
+    "26K downloads",
     "Released 6 days ago"
    ],
    "at": "2026-11-02T04:13:51.000Z",
@@ -57,8 +57,8 @@
    "grow": 3,
    "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
    "meta": [
-    "★ 4,026",
-    "+155 in 24h",
+    "★ 4,030",
+    "+156 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-11-03T08:02:11Z",
@@ -74,7 +74,7 @@
    "grow": null,
    "desc": "Vision on Hugging Face · open source · ♥ 1.2K",
    "meta": [
-    "21K downloads",
+    "23K downloads",
     "Released 11 days ago"
    ],
    "at": "2026-10-28T15:55:17.000Z",
@@ -87,10 +87,10 @@
    "src": "hf",
    "cat": "Tools",
    "score": 89,
-   "grow": 0,
+   "grow": 34,
    "desc": "Model on Hugging Face · open source · ♥ 379",
    "meta": [
-    "3.8K downloads",
+    "5.1K downloads",
     "Released 4 days ago"
    ],
    "at": "2026-11-04T02:41:21.000Z",
@@ -103,10 +103,10 @@
    "src": "hf",
    "cat": "Infrastructure",
    "score": 87,
-   "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 625",
+   "grow": 418,
+   "desc": "Model on Hugging Face · open source · ♥ 638",
    "meta": [
-    "1.4K downloads",
+    "7.1K downloads",
     "Released 9 days ago"
    ],
    "at": "2026-10-30T10:21:29.000Z",
@@ -120,9 +120,9 @@
    "cat": "Coding",
    "score": 86,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 887",
+   "desc": "Model on Hugging Face · open source · ♥ 890",
    "meta": [
-    "222K downloads",
+    "254K downloads",
     "Released 14 days ago"
    ],
    "at": "2026-10-25T05:43:34.000Z",
@@ -168,10 +168,10 @@
    "src": "hf",
    "cat": "Tools",
    "score": 83,
-   "grow": 0,
+   "grow": 11,
    "desc": "Model on Hugging Face · open weights · ♥ 383",
    "meta": [
-    "9.2K downloads",
+    "10K downloads",
     "Released 16 days ago"
    ],
    "at": "2026-10-23T01:37:02.000Z",
@@ -185,8 +185,8 @@
    "name": "Google_AI_Pro_2Year_ZeroCost_Auto",
    "url": "https://github.com/worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
    "from": "GitHub",
-   "use": 258,
-   "useLabel": "+258 stars/day",
+   "use": 262,
+   "useLabel": "+262 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -196,8 +196,8 @@
    "name": "Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
    "url": "https://huggingface.co/SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
    "from": "Hugging Face",
-   "use": 4132544,
-   "useLabel": "4.1M downloads",
+   "use": 4210046,
+   "useLabel": "4.2M downloads",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -207,8 +207,8 @@
    "name": "flux-3-image-klein-comfy",
    "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
    "from": "Hugging Face",
-   "use": 1143397,
-   "useLabel": "1.1M downloads",
+   "use": 1167959,
+   "useLabel": "1.2M downloads",
    "usePct": 0.967741935483871,
    "talk": [],
    "buzz": 0,
@@ -216,6 +216,26 @@
   }
  ],
  "receipts": [
+  {
+   "name": "burner22/numbat",
+   "url": "https://huggingface.co/burner22/numbat",
+   "kind": "downloads",
+   "first": "2026-11-01T18:30:50.375Z",
+   "firstV": 5846,
+   "m": 10000,
+   "at": "2026-11-08T10:00:58.265Z",
+   "lead": 159.50219166666668
+  },
+  {
+   "name": "mradermacher/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic-i1-GGUF",
+   "url": "https://huggingface.co/mradermacher/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic-i1-GGUF",
+   "kind": "downloads",
+   "first": "2026-11-07T19:01:01.919Z",
+   "firstV": 56199,
+   "m": 100000,
+   "at": "2026-11-08T10:00:58.265Z",
+   "lead": 14.998985
+  },
   {
    "name": "benjitaylor/skills",
    "url": "https://github.com/benjitaylor/skills",
@@ -275,33 +295,13 @@
    "m": 100000,
    "at": "2026-11-06T10:00:59.566Z",
    "lead": 116.50345055555556
-  },
-  {
-   "name": "mistralai/Mistral-Large-4-1T-A52B",
-   "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B",
-   "kind": "downloads",
-   "first": "2026-10-29T15:01:09.063Z",
-   "firstV": 278,
-   "m": 10000,
-   "at": "2026-11-06T09:50:00.405Z",
-   "lead": 186.81426166666665
-  },
-  {
-   "name": "heydamir/unslop",
-   "url": "https://github.com/heydamir/unslop",
-   "kind": "stars",
-   "first": "2026-10-31T00:01:03.515Z",
-   "firstV": 1210,
-   "m": 10000,
-   "at": "2026-11-06T05:30:52.126Z",
-   "lead": 149.49683638888888
   }
  ],
  "github": [
   {
    "repo": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
-   "stars": 3156,
-   "d24": 258,
+   "stars": 3163,
+   "d24": 262,
    "est": false,
    "forks": 1193,
    "contrib": null,
@@ -309,10 +309,10 @@
   },
   {
    "repo": "KKKKhazix/agent-autoloop",
-   "stars": 4026,
-   "d24": 155,
+   "stars": 4030,
+   "d24": 156,
    "est": false,
-   "forks": 728,
+   "forks": 729,
    "contrib": null,
    "score": 90
   }
@@ -323,22 +323,22 @@
    "org": "moonshotai",
    "lic": "Open weights",
    "at": "2026-11-02T04:13:51.000Z",
-   "dl": 22571,
-   "grow": 0,
+   "dl": 25569,
+   "grow": 13,
    "score": 91,
    "cat": "Vision",
-   "likes": 1677
+   "likes": 1678
   },
   {
    "name": "idol",
    "org": "speridlabs",
    "lic": "Open source",
    "at": "2026-10-28T15:55:17.000Z",
-   "dl": 20689,
+   "dl": 22854,
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 1229
+   "likes": 1238
   },
   {
    "name": "Ripple-65B-Preview",
@@ -346,8 +346,8 @@
    "size": "65B",
    "lic": "Open source",
    "at": "2026-11-04T02:41:21.000Z",
-   "dl": 3803,
-   "grow": 0,
+   "dl": 5087,
+   "grow": 34,
    "score": 89,
    "cat": "Tools",
    "likes": 379
@@ -358,11 +358,11 @@
    "size": "9B",
    "lic": "Open source",
    "at": "2026-10-30T10:21:29.000Z",
-   "dl": 1369,
-   "grow": 0,
+   "dl": 7088,
+   "grow": 418,
    "score": 87,
    "cat": "Infrastructure",
-   "likes": 625
+   "likes": 638
   },
   {
    "name": "Qwen3.5-4B-3D-Coder",
@@ -370,19 +370,19 @@
    "size": "4B",
    "lic": "Open source",
    "at": "2026-10-25T05:43:34.000Z",
-   "dl": 221506,
+   "dl": 254053,
    "grow": null,
    "score": 86,
    "cat": "Coding",
-   "likes": 887
+   "likes": 890
   },
   {
    "name": "numbat",
    "org": "burner22",
    "lic": "Open weights",
    "at": "2026-10-23T01:37:02.000Z",
-   "dl": 9212,
-   "grow": 0,
+   "dl": 10197,
+   "grow": 11,
    "score": 83,
    "cat": "Tools",
    "likes": 383
@@ -711,6 +711,13 @@
    "kind": "News"
   },
   {
+   "t": "Gemini made my Nest speakers slower at turning on a light, so I gave the job to a voice assistant that never leaves my house",
+   "url": "https://www.xda-developers.com/gemini-nest-speakers-slow-turn-on-light-gave-voice-assistant-never-leaves/",
+   "at": "2026-11-07T22:00:20Z",
+   "src": "XDA Developers",
+   "kind": "News"
+  },
+  {
    "t": "Openai President Greg Brockman Death Will Become Optional Thanks to AI",
    "url": "https://www.breitbart.com/tech/2026/11/07/openai-president-greg-brockman-death-will-become-optional-thanks-to-ai/",
    "at": "2026-11-07T21:05:19Z",
@@ -772,13 +779,6 @@
    "at": "2026-11-07T16:57:13Z",
    "src": "Metro.co.uk",
    "kind": "News"
-  },
-  {
-   "t": "Job market dark reality: Man attends 55 interviews after applying for over 175 roles, gets no offers, says, 'Doesn't know what else to do...'",
-   "url": "https://economictimes.indiatimes.com/magazines/panache/job-market-dark-reality-man-attends-55-interviews-after-applying-for-over-175-roles-gets-no-offers-says-doesnt-know-what-else-to-do-/articleshow/135641544.cms",
-   "at": "2026-11-07T16:51:00Z",
-   "src": "The Economic Times",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -787,26 +787,17 @@
    "t": "Goodbye Claude, Hello Pi",
    "url": "https://news.ycombinator.com/item?id=50410107",
    "link": "https://caleb.software/posts/claude-to-pi.html",
-   "up": 275,
-   "com": 159,
+   "up": 303,
+   "com": 175,
    "at": "2026-11-08T03:11:48.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Every Mac comes with an (undocumented) family member classifier",
-   "url": "https://news.ycombinator.com/item?id=50403097",
-   "link": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
-   "up": 718,
-   "com": 377,
-   "at": "2026-11-07T09:46:03.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
    "url": "https://news.ycombinator.com/item?id=50407882",
    "link": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-   "up": 382,
-   "com": 264,
+   "up": 392,
+   "com": 269,
    "at": "2026-11-07T20:45:32.000Z"
   },
   {
@@ -814,8 +805,8 @@
    "t": "The end of Microsoft Research's AI Frontiers group",
    "url": "https://news.ycombinator.com/item?id=50406563",
    "link": "https://hunch.net/?p=13764006",
-   "up": 453,
-   "com": 271,
+   "up": 456,
+   "com": 276,
    "at": "2026-11-07T18:02:17.000Z"
   },
   {
@@ -831,9 +822,18 @@
    "t": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
    "url": "https://news.ycombinator.com/item?id=50406222",
    "link": "https://maxxbench.unlap.ai/research/why-maxxbench/",
-   "up": 300,
-   "com": 81,
+   "up": 309,
+   "com": 83,
    "at": "2026-11-07T17:19:00.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller",
+   "url": "https://news.ycombinator.com/item?id=50406292",
+   "link": "https://github.com/hedgerow-dev/coldframe",
+   "up": 236,
+   "com": 58,
+   "at": "2026-11-07T17:27:30.000Z"
   }
  ]
 }
