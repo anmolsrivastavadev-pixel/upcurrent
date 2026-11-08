@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-08T20:01:00.508Z"
+  "updated": "2026-11-08T20:30:49.328Z"
  },
  "pulse": {
-  "trending": 76,
+  "trending": 75,
   "accelerating": 1,
   "newModels": 7,
-  "discussions": 38,
-  "stars": 1176
+  "discussions": 39,
+  "stars": 1171
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "Google_AI_Pro_2Year_ZeroCost_Auto",
    "meta": [
-    "★ 3,229",
-    "~767 in 24h",
+    "★ 3,232",
+    "~763 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-04T14:54:56Z",
@@ -49,22 +49,6 @@
    "url": "https://huggingface.co/speridlabs/idol"
   },
   {
-   "name": "Kimi-K3.1-Pro",
-   "owner": "moonshotai",
-   "src": "hf",
-   "cat": "Vision",
-   "score": 90,
-   "grow": 13,
-   "desc": "Vision on Hugging Face · open weights · ♥ 1.7K",
-   "meta": [
-    "26K downloads",
-    "Released 7 days ago"
-   ],
-   "at": "2026-11-02T04:13:51.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
-  },
-  {
    "name": "agent-autoloop",
    "owner": "KKKKhazix",
    "src": "gh",
@@ -73,9 +57,9 @@
    "grow": 1,
    "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
    "meta": [
-    "★ 4,087",
-    "+129 in 24h",
-    "Created 5 days ago"
+    "★ 4,089",
+    "+127 in 24h",
+    "Created 6 days ago"
    ],
    "at": "2026-11-03T08:02:11Z",
    "breakout": null,
@@ -88,7 +72,7 @@
    "cat": "Infrastructure",
    "score": 89,
    "grow": 418,
-   "desc": "Model on Hugging Face · open source · ♥ 802",
+   "desc": "Model on Hugging Face · open source · ♥ 806",
    "meta": [
     "7.1K downloads",
     "Released 9 days ago"
@@ -98,11 +82,27 @@
    "url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic"
   },
   {
+   "name": "Kimi-K3.1-Pro",
+   "owner": "moonshotai",
+   "src": "hf",
+   "cat": "Vision",
+   "score": 89,
+   "grow": 13,
+   "desc": "Vision on Hugging Face · open weights · ♥ 1.7K",
+   "meta": [
+    "26K downloads",
+    "Released 7 days ago"
+   ],
+   "at": "2026-11-02T04:13:51.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
+  },
+  {
    "name": "Ripple-65B-Preview",
    "owner": "ricursiveAI",
    "src": "hf",
    "cat": "Tools",
-   "score": 89,
+   "score": 88,
    "grow": 0,
    "desc": "Model on Hugging Face · open source · ♥ 396",
    "meta": [
@@ -171,7 +171,7 @@
    "grow": null,
    "desc": "Create, edit, and animate images with AI",
    "meta": [
-    "▲ 290 votes",
+    "▲ 293 votes",
     "5 comments",
     "Launched 2 days ago"
    ],
@@ -185,8 +185,8 @@
    "name": "Google_AI_Pro_2Year_ZeroCost_Auto",
    "url": "https://github.com/worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
    "from": "GitHub",
-   "use": 767,
-   "useLabel": "~767 stars/day",
+   "use": 763,
+   "useLabel": "~763 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -209,7 +209,7 @@
    "from": "Hugging Face",
    "use": 1167959,
    "useLabel": "1.2M downloads",
-   "usePct": 0.96875,
+   "usePct": 0.967741935483871,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -300,26 +300,26 @@
  "github": [
   {
    "repo": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
-   "stars": 3229,
-   "d24": 767,
+   "stars": 3232,
+   "d24": 763,
    "est": true,
-   "forks": 1200,
+   "forks": 1201,
    "contrib": null,
    "score": 92
   },
   {
    "repo": "sarpstar/cinecode",
-   "stars": 1517,
-   "d24": 280,
+   "stars": 1525,
+   "d24": 281,
    "est": true,
-   "forks": 280,
+   "forks": 281,
    "contrib": null,
    "score": 84
   },
   {
    "repo": "KKKKhazix/agent-autoloop",
-   "stars": 4087,
-   "d24": 129,
+   "stars": 4089,
+   "d24": 127,
    "est": false,
    "forks": 745,
    "contrib": null,
@@ -336,18 +336,7 @@
    "grow": 10,
    "score": 90,
    "cat": "Vision",
-   "likes": 1339
-  },
-  {
-   "name": "Kimi-K3.1-Pro",
-   "org": "moonshotai",
-   "lic": "Open weights",
-   "at": "2026-11-02T04:13:51.000Z",
-   "dl": 25569,
-   "grow": 13,
-   "score": 90,
-   "cat": "Vision",
-   "likes": 1717
+   "likes": 1347
   },
   {
    "name": "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
@@ -359,7 +348,18 @@
    "grow": 418,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 802
+   "likes": 806
+  },
+  {
+   "name": "Kimi-K3.1-Pro",
+   "org": "moonshotai",
+   "lic": "Open weights",
+   "at": "2026-11-02T04:13:51.000Z",
+   "dl": 25569,
+   "grow": 13,
+   "score": 89,
+   "cat": "Vision",
+   "likes": 1717
   },
   {
    "name": "Ripple-65B-Preview",
@@ -369,7 +369,7 @@
    "at": "2026-11-04T02:41:21.000Z",
    "dl": 5087,
    "grow": 0,
-   "score": 89,
+   "score": 88,
    "cat": "Tools",
    "likes": 396
   },
@@ -697,6 +697,20 @@
  },
  "headlines": [
   {
+   "t": "Nvidia's board launches a probe into whether Jensen Huang was targeted by a foreign spy plot, saying it has no reason to believe Nvidia secrets were compromised",
+   "url": "https://www.techmeme.com/261108/p13#a261108p13",
+   "at": "2026-11-08T20:25:00.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "DeepSeek says its open-source agent app Harness hit 1.54M DAUs on November 4, less than three months after launch, and uses ~92T tokens a day, or ~60M per user",
+   "url": "https://www.techmeme.com/261108/p12#a261108p12",
+   "at": "2026-11-08T20:10:00.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Excluding Anthropic's IPO, AI companies sold or priced $300B+ of stock in 2026, with ~$100B more on tap, raising questions about how much the market can absorb",
    "url": "https://www.techmeme.com/261108/p10#a261108p10",
    "at": "2026-11-08T17:45:00.000Z",
@@ -729,6 +743,20 @@
    "url": "https://www.techmeme.com/261108/p7#a261108p7",
    "at": "2026-11-08T11:00:01.000Z",
    "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Staff at the US center for AI safety are reporting to the White House, raising independence concerns",
+   "url": "https://wtop.com/national/2026/11/staff-at-the-us-center-for-ai-safety-are-reporting-to-the-white-house-raising-independence-concerns/",
+   "at": "2026-11-08T08:07:45Z",
+   "src": "WTOP",
+   "kind": "News"
+  },
+  {
+   "t": "Height of tension: artificial intelligence predicts the outcome of the Atletico-Barcelona clash",
+   "url": "https://www.yardbarker.com/soccer/articles/height_of_tension_artificial_intelligence_predicts_the_outcome_of_the_atletico_barcelona_clash/s1_17790_44531571",
+   "at": "2026-11-08T08:03:25Z",
+   "src": "Yardbarker",
    "kind": "News"
   },
   {
@@ -779,34 +807,6 @@
    "at": "2026-11-08T06:22:26Z",
    "src": "The Tribune",
    "kind": "News"
-  },
-  {
-   "t": "Beijing-based GenRobot AI, which develops equipment and software for collecting human demonstrations that can be used to train robots, raised a $100M Series A+",
-   "url": "https://www.techmeme.com/261108/p2#a261108p2",
-   "at": "2026-11-08T06:05:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Hot fridges, a fake nuclear alert and a $6bn heist: are we in the foothills of a hacking epidemic?",
-   "url": "https://www.theguardian.com/news/ng-interactive/2026/nov/08/hot-fridges-a-fake-nuclear-alert-and-a-6bn-heist-are-we-in-the-foothills-of-a-hacking-epidemic",
-   "at": "2026-11-08T06:00:33Z",
-   "src": "The Guardian",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI To Press Ahead With Data-Center Expansion Despite Midterm Sweep: CFO",
-   "url": "https://www.deccanchronicle.com/technology/openai-to-press-ahead-with-data-center-expansion-despite-midterm-sweep-cfo-2002712",
-   "at": "2026-11-08T05:36:46Z",
-   "src": "Deccan Chronicle",
-   "kind": "News"
-  },
-  {
-   "t": "Samsung Electronics to become 1st local firm with cash assets of over $146.6 bil.: data",
-   "url": "https://www.koreatimes.co.kr/business/companies/20261108/samsung-electronics-to-become-1st-local-firm-with-cash-assets-of-over-1466-bil-data",
-   "at": "2026-11-08T05:34:03Z",
-   "src": "The Korea Times",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -815,8 +815,8 @@
    "t": "Goldman Sachs Is Pulling Claude Code from Its Bankers and Traders",
    "url": "https://news.ycombinator.com/item?id=50415628",
    "link": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
-   "up": 222,
-   "com": 143,
+   "up": 292,
+   "com": 176,
    "at": "2026-11-08T18:16:07.000Z"
   },
   {
@@ -824,45 +824,45 @@
    "t": "Goodbye Claude, hello Pi",
    "url": "https://news.ycombinator.com/item?id=50410107",
    "link": "https://caleb.software/posts/claude-to-pi.html",
-   "up": 605,
-   "com": 392,
+   "up": 620,
+   "com": 401,
    "at": "2026-11-08T03:11:48.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Silicon Valley Promises AI Will Cure Disease. Drugmaker CEOs Aren't Buying It",
-   "url": "https://news.ycombinator.com/item?id=50415817",
-   "link": "https://www.wsj.com/tech/ai/silicon-valley-promises-ai-will-cure-disease-drugmaker-ceos-arent-buying-it-5218511c",
-   "up": 46,
-   "com": 42,
-   "at": "2026-11-08T18:43:07.000Z"
   },
   {
    "src": "Hacker News",
    "t": "OpenAI raises $11B at a $1.25T valuation",
    "url": "https://news.ycombinator.com/item?id=50413822",
    "link": "https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought/",
-   "up": 168,
-   "com": 191,
+   "up": 171,
+   "com": 192,
    "at": "2026-11-08T14:49:23.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Silicon Valley Promises AI Will Cure Disease. Drugmaker CEOs Aren't Buying It",
+   "url": "https://news.ycombinator.com/item?id=50415817",
+   "link": "https://www.wsj.com/tech/ai/silicon-valley-promises-ai-will-cure-disease-drugmaker-ceos-arent-buying-it-5218511c",
+   "up": 53,
+   "com": 55,
+   "at": "2026-11-08T18:43:07.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
    "url": "https://news.ycombinator.com/item?id=50411961",
    "link": "https://github.com/synchopate/llama-modchip",
-   "up": 282,
-   "com": 100,
+   "up": 292,
+   "com": 104,
    "at": "2026-11-08T10:22:04.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
-   "url": "https://news.ycombinator.com/item?id=50407882",
-   "link": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-   "up": 528,
-   "com": 380,
-   "at": "2026-11-07T20:45:32.000Z"
+   "t": "How I Fight AI Brain Fry",
+   "url": "https://news.ycombinator.com/item?id=50416363",
+   "link": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
+   "up": 24,
+   "com": 10,
+   "at": "2026-11-08T19:37:42.000Z"
   }
  ]
 }
