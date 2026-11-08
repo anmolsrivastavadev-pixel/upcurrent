@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-08T14:30:49.196Z"
+  "updated": "2026-11-08T15:00:59.896Z"
  },
  "pulse": {
-  "trending": 75,
+  "trending": 76,
   "accelerating": 2,
   "newModels": 7,
-  "discussions": 40,
-  "stars": 1008
+  "discussions": 41,
+  "stars": 1271
  },
  "rising": [
   {
@@ -24,30 +24,13 @@
    "grow": 5,
    "desc": "Google_AI_Pro_2Year_ZeroCost_Auto",
    "meta": [
-    "★ 3,197",
-    "+237 in 24h",
+    "★ 3,201",
+    "+236 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-04T14:54:56Z",
    "breakout": null,
    "url": "https://github.com/worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto"
-  },
-  {
-   "name": "agent-autoloop",
-   "owner": "KKKKhazix",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 90,
-   "grow": null,
-   "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
-   "meta": [
-    "★ 4,061",
-    "~771 in 24h",
-    "Created 5 days ago"
-   ],
-   "at": "2026-11-03T08:02:11Z",
-   "breakout": null,
-   "url": "https://github.com/KKKKhazix/agent-autoloop"
   },
   {
    "name": "idol",
@@ -82,13 +65,30 @@
    "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
   },
   {
+   "name": "agent-autoloop",
+   "owner": "KKKKhazix",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 89,
+   "grow": null,
+   "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
+   "meta": [
+    "★ 4,068",
+    "~769 in 24h",
+    "Created 5 days ago"
+   ],
+   "at": "2026-11-03T08:02:11Z",
+   "breakout": null,
+   "url": "https://github.com/KKKKhazix/agent-autoloop"
+  },
+  {
    "name": "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
    "owner": "xtools-at",
    "src": "hf",
    "cat": "Infrastructure",
    "score": 89,
    "grow": 418,
-   "desc": "Model on Hugging Face · open source · ♥ 735",
+   "desc": "Model on Hugging Face · open source · ♥ 741",
    "meta": [
     "7.1K downloads",
     "Released 9 days ago"
@@ -104,10 +104,10 @@
    "cat": "Tools",
    "score": 89,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 385",
+   "desc": "Model on Hugging Face · open source · ♥ 386",
    "meta": [
     "5.1K downloads",
-    "Released 4 days ago"
+    "Released 5 days ago"
    ],
    "at": "2026-11-04T02:41:21.000Z",
    "breakout": null,
@@ -155,7 +155,7 @@
    "grow": null,
    "desc": "For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own.",
    "meta": [
-    "▲ 107 upvotes",
+    "▲ 111 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-11-03T13:59:52.000Z",
@@ -185,8 +185,8 @@
    "name": "agent-autoloop",
    "url": "https://github.com/KKKKhazix/agent-autoloop",
    "from": "GitHub",
-   "use": 771,
-   "useLabel": "~771 stars/day",
+   "use": 769,
+   "useLabel": "~769 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -300,19 +300,28 @@
  "github": [
   {
    "repo": "KKKKhazix/agent-autoloop",
-   "stars": 4061,
-   "d24": 771,
+   "stars": 4068,
+   "d24": 769,
    "est": true,
-   "forks": 736,
+   "forks": 737,
    "contrib": null,
-   "score": 90
+   "score": 89
+  },
+  {
+   "repo": "sarpstar/cinecode",
+   "stars": 1386,
+   "d24": 266,
+   "est": true,
+   "forks": 251,
+   "contrib": null,
+   "score": 82
   },
   {
    "repo": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
-   "stars": 3197,
-   "d24": 237,
+   "stars": 3201,
+   "d24": 236,
    "est": false,
-   "forks": 1194,
+   "forks": 1193,
    "contrib": null,
    "score": 92
   }
@@ -327,7 +336,7 @@
    "grow": 10,
    "score": 90,
    "cat": "Vision",
-   "likes": 1290
+   "likes": 1296
   },
   {
    "name": "Kimi-K3.1-Pro",
@@ -338,7 +347,7 @@
    "grow": 13,
    "score": 90,
    "cat": "Vision",
-   "likes": 1693
+   "likes": 1695
   },
   {
    "name": "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
@@ -350,7 +359,7 @@
    "grow": 418,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 735
+   "likes": 741
   },
   {
    "name": "Ripple-65B-Preview",
@@ -362,7 +371,7 @@
    "grow": null,
    "score": 89,
    "cat": "Tools",
-   "likes": 385
+   "likes": 386
   },
   {
    "name": "Qwen3.5-4B-3D-Coder",
@@ -719,6 +728,20 @@
    "kind": "News"
   },
   {
+   "t": "Can't cook or shower: Indonesians take aim at data centres",
+   "url": "https://www.bangkokpost.com/world/3351006/cant-cook-or-shower-indonesians-take-aim-at-data-centres",
+   "at": "2026-11-08T02:45:00Z",
+   "src": "Bangkok Post",
+   "kind": "News"
+  },
+  {
+   "t": "Jeff Bezos 'agrees' with three-day-week in AI age; says: Some people will decide, I can support my family by ...",
+   "url": "https://timesofindia.indiatimes.com/technology/tech-news/jeff-bezos-agrees-with-three-day-week-in-ai-age-says-some-people-will-decide-i-can-support-my-family-by-/articleshow/135649819.cms",
+   "at": "2026-11-08T02:37:00Z",
+   "src": "Times of India",
+   "kind": "News"
+  },
+  {
    "t": "making expertise, improve organisational efficiency: McKinsey",
    "url": "https://www.tribuneindia.com/news/business/ai-can-help-companies-preserve-ceo-decision-making-expertise-improve-organisational-efficiency-mckinsey/",
    "at": "2026-11-08T02:27:36Z",
@@ -766,20 +789,6 @@
    "at": "2026-11-07T22:15:34Z",
    "src": "CBS News",
    "kind": "News"
-  },
-  {
-   "t": "Gemini made my Nest speakers slower at turning on a light, so I gave the job to a voice assistant that never leaves my house",
-   "url": "https://www.xda-developers.com/gemini-nest-speakers-slow-turn-on-light-gave-voice-assistant-never-leaves/",
-   "at": "2026-11-07T22:00:20Z",
-   "src": "XDA Developers",
-   "kind": "News"
-  },
-  {
-   "t": "Openai President Greg Brockman Death Will Become Optional Thanks to AI",
-   "url": "https://www.breitbart.com/tech/2026/11/07/openai-president-greg-brockman-death-will-become-optional-thanks-to-ai/",
-   "at": "2026-11-07T21:05:19Z",
-   "src": "Breitbart News Network",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -788,8 +797,8 @@
    "t": "Goodbye Claude, Hello Pi",
    "url": "https://news.ycombinator.com/item?id=50410107",
    "link": "https://caleb.software/posts/claude-to-pi.html",
-   "up": 452,
-   "com": 295,
+   "up": 470,
+   "com": 313,
    "at": "2026-11-08T03:11:48.000Z"
   },
   {
@@ -797,8 +806,8 @@
    "t": "I will not be using LLMs in my coding",
    "url": "https://news.ycombinator.com/item?id=50412591",
    "link": "https://www.polso.info/why-i-will-not-be-using-llms-coding",
-   "up": 74,
-   "com": 128,
+   "up": 79,
+   "com": 144,
    "at": "2026-11-08T12:14:10.000Z"
   },
   {
@@ -806,18 +815,17 @@
    "t": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
    "url": "https://news.ycombinator.com/item?id=50407882",
    "link": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-   "up": 464,
-   "com": 327,
+   "up": 470,
+   "com": 331,
    "at": "2026-11-07T20:45:32.000Z"
   },
   {
-   "src": "Hacker News",
-   "t": "GitHub Down Again?",
-   "url": "https://news.ycombinator.com/item?id=50411818",
-   "link": "https://github.com/torvalds/linux",
-   "up": 109,
-   "com": 115,
-   "at": "2026-11-08T09:56:07.000Z"
+   "src": "Mastodon",
+   "t": "“Ram Altman” Is Now a Linux Script That Emails Sam Altman Daily to Report How Much Unused RAM Is in Your PC https:// respawnfirst.com/linux-script- emails-sa…",
+   "url": "https://mastodon.social/@Some_Emo_Chick/117581225741759661",
+   "up": 23,
+   "com": 1,
+   "at": "2026-11-08T14:12:01.306Z"
   },
   {
    "src": "Hacker News",
@@ -830,12 +838,12 @@
   },
   {
    "src": "Hacker News",
-   "t": "A lack of male protagonists is making it harder to get young boys into books",
-   "url": "https://news.ycombinator.com/item?id=50412954",
-   "link": "https://www.theatlantic.com/culture/2026/11/middle-grade-reading-male-protagonists/689285/",
-   "up": 25,
-   "com": 46,
-   "at": "2026-11-08T13:07:37.000Z"
+   "t": "GitHub Down Again?",
+   "url": "https://news.ycombinator.com/item?id=50411818",
+   "link": "https://github.com/torvalds/linux",
+   "up": 110,
+   "com": 116,
+   "at": "2026-11-08T09:56:07.000Z"
   }
  ]
 }
