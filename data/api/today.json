@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-08T10:00:58.265Z"
+  "updated": "2026-11-08T10:30:52.955Z"
  },
  "pulse": {
   "trending": 74,
   "accelerating": 2,
   "newModels": 6,
-  "discussions": 36,
-  "stars": 418
+  "discussions": 38,
+  "stars": 416
  },
  "rising": [
   {
@@ -24,29 +24,13 @@
    "grow": 4,
    "desc": "Google_AI_Pro_2Year_ZeroCost_Auto",
    "meta": [
-    "★ 3,163",
-    "+262 in 24h",
+    "★ 3,167",
+    "+259 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-04T14:54:56Z",
    "breakout": null,
    "url": "https://github.com/worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto"
-  },
-  {
-   "name": "Kimi-K3.1-Pro",
-   "owner": "moonshotai",
-   "src": "hf",
-   "cat": "Vision",
-   "score": 91,
-   "grow": 13,
-   "desc": "Vision on Hugging Face · open weights · ♥ 1.7K",
-   "meta": [
-    "26K downloads",
-    "Released 6 days ago"
-   ],
-   "at": "2026-11-02T04:13:51.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
   },
   {
    "name": "agent-autoloop",
@@ -57,8 +41,8 @@
    "grow": 3,
    "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
    "meta": [
-    "★ 4,030",
-    "+156 in 24h",
+    "★ 4,034",
+    "+157 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-11-03T08:02:11Z",
@@ -82,29 +66,29 @@
    "url": "https://huggingface.co/speridlabs/idol"
   },
   {
-   "name": "Ripple-65B-Preview",
-   "owner": "ricursiveAI",
+   "name": "Kimi-K3.1-Pro",
+   "owner": "moonshotai",
    "src": "hf",
-   "cat": "Tools",
-   "score": 89,
-   "grow": 34,
-   "desc": "Model on Hugging Face · open source · ♥ 379",
+   "cat": "Vision",
+   "score": 90,
+   "grow": 13,
+   "desc": "Vision on Hugging Face · open weights · ♥ 1.7K",
    "meta": [
-    "5.1K downloads",
-    "Released 4 days ago"
+    "26K downloads",
+    "Released 6 days ago"
    ],
-   "at": "2026-11-04T02:41:21.000Z",
+   "at": "2026-11-02T04:13:51.000Z",
    "breakout": null,
-   "url": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview"
+   "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
   },
   {
    "name": "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
    "owner": "xtools-at",
    "src": "hf",
    "cat": "Infrastructure",
-   "score": 87,
+   "score": 89,
    "grow": 418,
-   "desc": "Model on Hugging Face · open source · ♥ 638",
+   "desc": "Model on Hugging Face · open source · ♥ 649",
    "meta": [
     "7.1K downloads",
     "Released 9 days ago"
@@ -114,13 +98,29 @@
    "url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic"
   },
   {
+   "name": "Ripple-65B-Preview",
+   "owner": "ricursiveAI",
+   "src": "hf",
+   "cat": "Tools",
+   "score": 89,
+   "grow": 34,
+   "desc": "Model on Hugging Face · open source · ♥ 380",
+   "meta": [
+    "5.1K downloads",
+    "Released 4 days ago"
+   ],
+   "at": "2026-11-04T02:41:21.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview"
+  },
+  {
    "name": "Qwen3.5-4B-3D-Coder",
    "owner": "ccore",
    "src": "hf",
    "cat": "Coding",
    "score": 86,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 890",
+   "desc": "Model on Hugging Face · open source · ♥ 891",
    "meta": [
     "254K downloads",
     "Released 14 days ago"
@@ -185,8 +185,8 @@
    "name": "Google_AI_Pro_2Year_ZeroCost_Auto",
    "url": "https://github.com/worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
    "from": "GitHub",
-   "use": 262,
-   "useLabel": "+262 stars/day",
+   "use": 259,
+   "useLabel": "+259 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -300,35 +300,24 @@
  "github": [
   {
    "repo": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
-   "stars": 3163,
-   "d24": 262,
+   "stars": 3167,
+   "d24": 259,
    "est": false,
-   "forks": 1193,
+   "forks": 1194,
    "contrib": null,
    "score": 92
   },
   {
    "repo": "KKKKhazix/agent-autoloop",
-   "stars": 4030,
-   "d24": 156,
+   "stars": 4034,
+   "d24": 157,
    "est": false,
-   "forks": 729,
+   "forks": 730,
    "contrib": null,
    "score": 90
   }
  ],
  "models": [
-  {
-   "name": "Kimi-K3.1-Pro",
-   "org": "moonshotai",
-   "lic": "Open weights",
-   "at": "2026-11-02T04:13:51.000Z",
-   "dl": 25569,
-   "grow": 13,
-   "score": 91,
-   "cat": "Vision",
-   "likes": 1678
-  },
   {
    "name": "idol",
    "org": "speridlabs",
@@ -338,7 +327,30 @@
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 1238
+   "likes": 1246
+  },
+  {
+   "name": "Kimi-K3.1-Pro",
+   "org": "moonshotai",
+   "lic": "Open weights",
+   "at": "2026-11-02T04:13:51.000Z",
+   "dl": 25569,
+   "grow": 13,
+   "score": 90,
+   "cat": "Vision",
+   "likes": 1679
+  },
+  {
+   "name": "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+   "org": "xtools-at",
+   "size": "9B",
+   "lic": "Open source",
+   "at": "2026-10-30T10:21:29.000Z",
+   "dl": 7088,
+   "grow": 418,
+   "score": 89,
+   "cat": "Infrastructure",
+   "likes": 649
   },
   {
    "name": "Ripple-65B-Preview",
@@ -350,19 +362,7 @@
    "grow": 34,
    "score": 89,
    "cat": "Tools",
-   "likes": 379
-  },
-  {
-   "name": "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
-   "org": "xtools-at",
-   "size": "9B",
-   "lic": "Open source",
-   "at": "2026-10-30T10:21:29.000Z",
-   "dl": 7088,
-   "grow": 418,
-   "score": 87,
-   "cat": "Infrastructure",
-   "likes": 638
+   "likes": 380
   },
   {
    "name": "Qwen3.5-4B-3D-Coder",
@@ -374,7 +374,7 @@
    "grow": null,
    "score": 86,
    "cat": "Coding",
-   "likes": 890
+   "likes": 891
   },
   {
    "name": "numbat",
@@ -711,6 +711,13 @@
    "kind": "News"
   },
   {
+   "t": "AI platform reproduced Michigan music publishers' copyrighted works without authorization, lawsuit says",
+   "url": "https://www.cbsnews.com/detroit/news/suno-eminem-eight-mile-music-copyright-lawsuit/",
+   "at": "2026-11-07T22:15:34Z",
+   "src": "CBS News",
+   "kind": "News"
+  },
+  {
    "t": "Gemini made my Nest speakers slower at turning on a light, so I gave the job to a voice assistant that never leaves my house",
    "url": "https://www.xda-developers.com/gemini-nest-speakers-slow-turn-on-light-gave-voice-assistant-never-leaves/",
    "at": "2026-11-07T22:00:20Z",
@@ -772,13 +779,6 @@
    "at": "2026-11-07T17:00:16Z",
    "src": "Cable News Network",
    "kind": "News"
-  },
-  {
-   "t": "Man sues after ChatGPT 'encouraged' wife's plan to poison him",
-   "url": "https://metro.co.uk/2026/11/07/man-sues-chatgpt-encouraged-wifes-plan-poison-29773879/",
-   "at": "2026-11-07T16:57:13Z",
-   "src": "Metro.co.uk",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -787,17 +787,26 @@
    "t": "Goodbye Claude, Hello Pi",
    "url": "https://news.ycombinator.com/item?id=50410107",
    "link": "https://caleb.software/posts/claude-to-pi.html",
-   "up": 303,
-   "com": 175,
+   "up": 320,
+   "com": 192,
    "at": "2026-11-08T03:11:48.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "GitHub Down Again?",
+   "url": "https://news.ycombinator.com/item?id=50411818",
+   "link": "https://github.com/torvalds/linux",
+   "up": 36,
+   "com": 24,
+   "at": "2026-11-08T09:56:07.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
    "url": "https://news.ycombinator.com/item?id=50407882",
    "link": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-   "up": 392,
-   "com": 269,
+   "up": 399,
+   "com": 273,
    "at": "2026-11-07T20:45:32.000Z"
   },
   {
@@ -805,24 +814,16 @@
    "t": "The end of Microsoft Research's AI Frontiers group",
    "url": "https://news.ycombinator.com/item?id=50406563",
    "link": "https://hunch.net/?p=13764006",
-   "up": 456,
-   "com": 276,
+   "up": 457,
+   "com": 277,
    "at": "2026-11-07T18:02:17.000Z"
-  },
-  {
-   "src": "DEV",
-   "t": "Real faces on Seedance: standard vs ultra-wide, in practice",
-   "url": "https://dev.to/chet103cc/real-faces-on-seedance-standard-vs-ultra-wide-in-practice-21bd",
-   "up": 88,
-   "com": 6,
-   "at": "2026-11-08T06:25:24Z"
   },
   {
    "src": "Hacker News",
    "t": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
    "url": "https://news.ycombinator.com/item?id=50406222",
    "link": "https://maxxbench.unlap.ai/research/why-maxxbench/",
-   "up": 309,
+   "up": 313,
    "com": 83,
    "at": "2026-11-07T17:19:00.000Z"
   },
@@ -831,8 +832,8 @@
    "t": "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller",
    "url": "https://news.ycombinator.com/item?id=50406292",
    "link": "https://github.com/hedgerow-dev/coldframe",
-   "up": 236,
-   "com": 58,
+   "up": 238,
+   "com": 59,
    "at": "2026-11-07T17:27:30.000Z"
   }
  ]
