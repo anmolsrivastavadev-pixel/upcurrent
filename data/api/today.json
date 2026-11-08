@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-08T16:00:59.221Z"
+  "updated": "2026-11-08T16:30:53.221Z"
  },
  "pulse": {
   "trending": 76,
   "accelerating": 1,
   "newModels": 7,
-  "discussions": 36,
-  "stars": 1266
+  "discussions": 39,
+  "stars": 1262
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 5,
    "desc": "Google_AI_Pro_2Year_ZeroCost_Auto",
    "meta": [
-    "★ 3,207",
-    "+230 in 24h",
+    "★ 3,210",
+    "+227 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-04T14:54:56Z",
@@ -58,7 +58,7 @@
    "desc": "Vision on Hugging Face · open weights · ♥ 1.7K",
    "meta": [
     "26K downloads",
-    "Released 6 days ago"
+    "Released 7 days ago"
    ],
    "at": "2026-11-02T04:13:51.000Z",
    "breakout": null,
@@ -73,8 +73,8 @@
    "grow": null,
    "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
    "meta": [
-    "★ 4,075",
-    "~764 in 24h",
+    "★ 4,081",
+    "~762 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-11-03T08:02:11Z",
@@ -88,7 +88,7 @@
    "cat": "Infrastructure",
    "score": 89,
    "grow": 418,
-   "desc": "Model on Hugging Face · open source · ♥ 763",
+   "desc": "Model on Hugging Face · open source · ♥ 770",
    "meta": [
     "7.1K downloads",
     "Released 9 days ago"
@@ -120,7 +120,7 @@
    "cat": "Coding",
    "score": 86,
    "grow": 15,
-   "desc": "Model on Hugging Face · open source · ♥ 905",
+   "desc": "Model on Hugging Face · open source · ♥ 906",
    "meta": [
     "254K downloads",
     "Released 14 days ago"
@@ -128,6 +128,22 @@
    "at": "2026-10-25T05:43:34.000Z",
    "breakout": null,
    "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder"
+  },
+  {
+   "name": "Arete-27B",
+   "owner": "NousResearch",
+   "src": "hf",
+   "cat": "LLMs",
+   "score": 86,
+   "grow": 77,
+   "desc": "Model on Hugging Face · open source · ♥ 268",
+   "meta": [
+    "1.7K downloads",
+    "Released 2 days ago"
+   ],
+   "at": "2026-11-06T19:31:28.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/NousResearch/Arete-27B"
   },
   {
    "name": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence",
@@ -155,28 +171,12 @@
    "grow": null,
    "desc": "Create, edit, and animate images with AI",
    "meta": [
-    "▲ 282 votes",
+    "▲ 283 votes",
     "5 comments",
     "Launched yesterday"
    ],
    "at": "2026-11-07T08:01:00Z",
    "breakout": null
-  },
-  {
-   "name": "Sulphur-3",
-   "owner": "FusionCow",
-   "src": "hf",
-   "cat": "Tools",
-   "score": 84,
-   "grow": 1,
-   "desc": "Model on Hugging Face · open weights · ♥ 412",
-   "meta": [
-    "1K downloads",
-    "Released 8 days ago"
-   ],
-   "at": "2026-10-31T20:31:01.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/FusionCow/Sulphur-3"
   }
  ],
  "breakouts": [],
@@ -185,8 +185,8 @@
    "name": "agent-autoloop",
    "url": "https://github.com/KKKKhazix/agent-autoloop",
    "from": "GitHub",
-   "use": 764,
-   "useLabel": "~764 stars/day",
+   "use": 762,
+   "useLabel": "~762 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -300,28 +300,28 @@
  "github": [
   {
    "repo": "KKKKhazix/agent-autoloop",
-   "stars": 4075,
-   "d24": 764,
+   "stars": 4081,
+   "d24": 762,
    "est": true,
-   "forks": 740,
+   "forks": 741,
    "contrib": null,
    "score": 89
   },
   {
    "repo": "sarpstar/cinecode",
-   "stars": 1427,
-   "d24": 272,
+   "stars": 1440,
+   "d24": 273,
    "est": true,
-   "forks": 258,
+   "forks": 263,
    "contrib": null,
    "score": 82
   },
   {
    "repo": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
-   "stars": 3207,
-   "d24": 230,
+   "stars": 3210,
+   "d24": 227,
    "est": false,
-   "forks": 1194,
+   "forks": 1195,
    "contrib": null,
    "score": 92
   }
@@ -336,7 +336,7 @@
    "grow": 10,
    "score": 90,
    "cat": "Vision",
-   "likes": 1305
+   "likes": 1310
   },
   {
    "name": "Kimi-K3.1-Pro",
@@ -347,7 +347,7 @@
    "grow": 13,
    "score": 90,
    "cat": "Vision",
-   "likes": 1702
+   "likes": 1706
   },
   {
    "name": "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
@@ -359,7 +359,7 @@
    "grow": 418,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 763
+   "likes": 770
   },
   {
    "name": "Ripple-65B-Preview",
@@ -383,18 +383,19 @@
    "grow": 15,
    "score": 86,
    "cat": "Coding",
-   "likes": 905
+   "likes": 906
   },
   {
-   "name": "Sulphur-3",
-   "org": "FusionCow",
-   "lic": "Open weights",
-   "at": "2026-10-31T20:31:01.000Z",
-   "dl": 1003,
-   "grow": 1,
-   "score": 84,
-   "cat": "Tools",
-   "likes": 412
+   "name": "Arete-27B",
+   "org": "NousResearch",
+   "size": "27B",
+   "lic": "Open source",
+   "at": "2026-11-06T19:31:28.000Z",
+   "dl": 1747,
+   "grow": 77,
+   "score": 86,
+   "cat": "LLMs",
+   "likes": 268
   }
  ],
  "free": [
@@ -678,6 +679,13 @@
  },
  "headlines": [
   {
+   "t": "Sources: John Ternus wants more urgency in Apple's AI efforts, pushing Craig Federighi to move beyond Siri AI tweaks to agentic and other advanced capabilities",
+   "url": "https://www.techmeme.com/261108/p9#a261108p9",
+   "at": "2026-11-08T16:20:06.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Sources: Anthropic bought commitments for 1.7GW of gas-fired generators from equipment supplier OnePWR for $3.4B, the largest known such purchase by an AI lab",
    "url": "https://www.techmeme.com/261108/p8#a261108p8",
    "at": "2026-11-08T15:05:01.000Z",
@@ -727,6 +735,27 @@
    "kind": "News"
   },
   {
+   "t": "How to get better answers from generative AI tools: Key practical tips",
+   "url": "https://timesofindia.indiatimes.com/technology/aiq/how-to-get-better-answers-from-generative-ai-tools-key-practical-tips/articleshow/135650847.cms",
+   "at": "2026-11-08T04:13:00Z",
+   "src": "Times of India",
+   "kind": "News"
+  },
+  {
+   "t": "Off Makes India a Hot Favorite for Foreign Investors",
+   "url": "https://www.lokmattimes.com/technology/global-ai-sell-off-makes-india-a-hot-favorite-for-foreign-investors-a001-w02/",
+   "at": "2026-11-08T04:08:24Z",
+   "src": "Lokmat Times",
+   "kind": "News"
+  },
+  {
+   "t": "Can't cook or shower: Indonesians take aim at data centres",
+   "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/08/can039t-cook-or-shower-indonesians-take-aim-at-data-centres",
+   "at": "2026-11-08T04:04:00Z",
+   "src": "The Star",
+   "kind": "News"
+  },
+  {
    "t": "Sam Altman may have just revealed why ‘smartest people’ at OpenAI quit to build their own AI",
    "url": "https://timesofindia.indiatimes.com/technology/tech-news/sam-altman-may-have-just-revealed-why-smartest-people-at-openai-quit-to-build-their-own-ai/articleshow/135650695.cms",
    "at": "2026-11-08T03:55:00Z",
@@ -760,90 +789,62 @@
    "at": "2026-11-08T03:09:30Z",
    "src": "ANI (Asian News International)",
    "kind": "News"
-  },
-  {
-   "t": "How a small, wealthy AI-safety network that organized in Signal chats grew into a coalition that beat the $100M super PAC Leading the Future in the midterms",
-   "url": "https://www.techmeme.com/261107/p18#a261107p18",
-   "at": "2026-11-08T02:45:02.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Can't cook or shower: Indonesians take aim at data centres",
-   "url": "https://www.bangkokpost.com/world/3351006/cant-cook-or-shower-indonesians-take-aim-at-data-centres",
-   "at": "2026-11-08T02:45:00Z",
-   "src": "Bangkok Post",
-   "kind": "News"
-  },
-  {
-   "t": "Jeff Bezos 'agrees' with three-day-week in AI age; says: Some people will decide, I can support my family by ...",
-   "url": "https://timesofindia.indiatimes.com/technology/tech-news/jeff-bezos-agrees-with-three-day-week-in-ai-age-says-some-people-will-decide-i-can-support-my-family-by-/articleshow/135649819.cms",
-   "at": "2026-11-08T02:37:00Z",
-   "src": "Times of India",
-   "kind": "News"
-  },
-  {
-   "t": "making expertise, improve organisational efficiency: McKinsey",
-   "url": "https://www.tribuneindia.com/news/business/ai-can-help-companies-preserve-ceo-decision-making-expertise-improve-organisational-efficiency-mckinsey/",
-   "at": "2026-11-08T02:27:36Z",
-   "src": "The Tribune",
-   "kind": "News"
   }
  ],
  "discussions": [
   {
    "src": "Hacker News",
-   "t": "Goodbye Claude, hello Pi",
-   "url": "https://news.ycombinator.com/item?id=50410107",
-   "link": "https://caleb.software/posts/claude-to-pi.html",
-   "up": 507,
-   "com": 329,
-   "at": "2026-11-08T03:11:48.000Z"
-  },
-  {
-   "src": "Hacker News",
    "t": "OpenAI raises $11B at a $1.25T valuation",
    "url": "https://news.ycombinator.com/item?id=50413822",
    "link": "https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought/",
-   "up": 36,
-   "com": 15,
+   "up": 72,
+   "com": 59,
    "at": "2026-11-08T14:49:23.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
-   "url": "https://news.ycombinator.com/item?id=50407882",
-   "link": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-   "up": 491,
-   "com": 352,
-   "at": "2026-11-07T20:45:32.000Z"
+   "t": "Goodbye Claude, hello Pi",
+   "url": "https://news.ycombinator.com/item?id=50410107",
+   "link": "https://caleb.software/posts/claude-to-pi.html",
+   "up": 529,
+   "com": 338,
+   "at": "2026-11-08T03:11:48.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
    "url": "https://news.ycombinator.com/item?id=50411961",
    "link": "https://github.com/synchopate/llama-modchip",
-   "up": 141,
-   "com": 41,
+   "up": 156,
+   "com": 48,
    "at": "2026-11-08T10:22:04.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Why I will not be using LLMs in my coding",
-   "url": "https://news.ycombinator.com/item?id=50412591",
-   "link": "https://www.polso.info/why-i-will-not-be-using-llms-coding",
-   "up": 85,
-   "com": 169,
-   "at": "2026-11-08T12:14:10.000Z"
+   "t": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+   "url": "https://news.ycombinator.com/item?id=50407882",
+   "link": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+   "up": 494,
+   "com": 354,
+   "at": "2026-11-07T20:45:32.000Z"
   },
   {
    "src": "Hacker News",
    "t": "The end of Microsoft Research's AI Frontiers group",
    "url": "https://news.ycombinator.com/item?id=50406563",
    "link": "https://hunch.net/?p=13764006",
-   "up": 478,
-   "com": 292,
+   "up": 480,
+   "com": 293,
    "at": "2026-11-07T18:02:17.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Why I will not be using LLMs in my coding",
+   "url": "https://news.ycombinator.com/item?id=50412591",
+   "link": "https://www.polso.info/why-i-will-not-be-using-llms-coding",
+   "up": 87,
+   "com": 173,
+   "at": "2026-11-08T12:14:10.000Z"
   }
  ]
 }
