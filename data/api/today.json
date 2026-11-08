@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-08T17:30:52.498Z"
+  "updated": "2026-11-08T18:01:00.242Z"
  },
  "pulse": {
-  "trending": 75,
+  "trending": 76,
   "accelerating": 1,
-  "newModels": 6,
-  "discussions": 39,
-  "stars": 1254
+  "newModels": 7,
+  "discussions": 36,
+  "stars": 1249
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 5,
    "desc": "Google_AI_Pro_2Year_ZeroCost_Auto",
    "meta": [
-    "★ 3,215",
-    "+221 in 24h",
+    "★ 3,217",
+    "+218 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-04T14:54:56Z",
@@ -74,7 +74,7 @@
    "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
    "meta": [
     "★ 4,085",
-    "~757 in 24h",
+    "~754 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-11-03T08:02:11Z",
@@ -88,7 +88,7 @@
    "cat": "Infrastructure",
    "score": 89,
    "grow": 418,
-   "desc": "Model on Hugging Face · open source · ♥ 778",
+   "desc": "Model on Hugging Face · open source · ♥ 783",
    "meta": [
     "7.1K downloads",
     "Released 9 days ago"
@@ -114,29 +114,13 @@
    "url": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview"
   },
   {
-   "name": "Qwen3.5-4B-3D-Coder",
-   "owner": "ccore",
-   "src": "hf",
-   "cat": "Coding",
-   "score": 86,
-   "grow": 15,
-   "desc": "Model on Hugging Face · open source · ♥ 908",
-   "meta": [
-    "254K downloads",
-    "Released 14 days ago"
-   ],
-   "at": "2026-10-25T05:43:34.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder"
-  },
-  {
    "name": "Arete-27B",
    "owner": "NousResearch",
    "src": "hf",
    "cat": "LLMs",
-   "score": 85,
+   "score": 87,
    "grow": 77,
-   "desc": "Model on Hugging Face · open source · ♥ 270",
+   "desc": "Model on Hugging Face · open source · ♥ 271",
    "meta": [
     "1.7K downloads",
     "Released 2 days ago"
@@ -144,6 +128,22 @@
    "at": "2026-11-06T19:31:28.000Z",
    "breakout": null,
    "url": "https://huggingface.co/NousResearch/Arete-27B"
+  },
+  {
+   "name": "Qwen3.5-4B-3D-Coder",
+   "owner": "ccore",
+   "src": "hf",
+   "cat": "Coding",
+   "score": 86,
+   "grow": 15,
+   "desc": "Model on Hugging Face · open source · ♥ 912",
+   "meta": [
+    "254K downloads",
+    "Released 15 days ago"
+   ],
+   "at": "2026-10-25T05:43:34.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder"
   },
   {
    "name": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence",
@@ -155,7 +155,7 @@
    "grow": null,
    "desc": "For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own.",
    "meta": [
-    "▲ 115 upvotes",
+    "▲ 116 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-11-03T13:59:52.000Z",
@@ -185,8 +185,8 @@
    "name": "agent-autoloop",
    "url": "https://github.com/KKKKhazix/agent-autoloop",
    "from": "GitHub",
-   "use": 757,
-   "useLabel": "~757 stars/day",
+   "use": 754,
+   "useLabel": "~754 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -209,7 +209,7 @@
    "from": "Hugging Face",
    "use": 1167959,
    "useLabel": "1.2M downloads",
-   "usePct": 0.967741935483871,
+   "usePct": 0.96875,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -301,7 +301,7 @@
   {
    "repo": "KKKKhazix/agent-autoloop",
    "stars": 4085,
-   "d24": 757,
+   "d24": 754,
    "est": true,
    "forks": 744,
    "contrib": null,
@@ -309,17 +309,17 @@
   },
   {
    "repo": "sarpstar/cinecode",
-   "stars": 1465,
-   "d24": 276,
+   "stars": 1477,
+   "d24": 277,
    "est": true,
-   "forks": 270,
+   "forks": 271,
    "contrib": null,
    "score": 81
   },
   {
    "repo": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
-   "stars": 3215,
-   "d24": 221,
+   "stars": 3217,
+   "d24": 218,
    "est": false,
    "forks": 1195,
    "contrib": null,
@@ -336,7 +336,7 @@
    "grow": 10,
    "score": 90,
    "cat": "Vision",
-   "likes": 1324
+   "likes": 1329
   },
   {
    "name": "Kimi-K3.1-Pro",
@@ -359,7 +359,7 @@
    "grow": 418,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 778
+   "likes": 783
   },
   {
    "name": "Ripple-65B-Preview",
@@ -374,6 +374,18 @@
    "likes": 390
   },
   {
+   "name": "Arete-27B",
+   "org": "NousResearch",
+   "size": "27B",
+   "lic": "Open source",
+   "at": "2026-11-06T19:31:28.000Z",
+   "dl": 1747,
+   "grow": 77,
+   "score": 87,
+   "cat": "LLMs",
+   "likes": 271
+  },
+  {
    "name": "Qwen3.5-4B-3D-Coder",
    "org": "ccore",
    "size": "4B",
@@ -383,19 +395,7 @@
    "grow": 15,
    "score": 86,
    "cat": "Coding",
-   "likes": 908
-  },
-  {
-   "name": "Arete-27B",
-   "org": "NousResearch",
-   "size": "27B",
-   "lic": "Open source",
-   "at": "2026-11-06T19:31:28.000Z",
-   "dl": 1747,
-   "grow": 77,
-   "score": 85,
-   "cat": "LLMs",
-   "likes": 270
+   "likes": 912
   }
  ],
  "free": [
@@ -679,6 +679,13 @@
  },
  "headlines": [
   {
+   "t": "Excluding Anthropic's IPO, AI companies sold or priced $300B+ of stock in 2026, with ~$100B more on tap, raising questions about how much the market can absorb",
+   "url": "https://www.techmeme.com/261108/p10#a261108p10",
+   "at": "2026-11-08T17:45:00.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Sources: John Ternus wants more urgency in Apple's AI efforts, pushing Craig Federighi to move beyond Siri AI tweaks to agentic and other advanced capabilities",
    "url": "https://www.techmeme.com/261108/p9#a261108p9",
    "at": "2026-11-08T16:20:06.000Z",
@@ -735,6 +742,20 @@
    "kind": "News"
   },
   {
+   "t": "OpenAI To Press Ahead With Data-Center Expansion Despite Midterm Sweep: CFO",
+   "url": "https://www.deccanchronicle.com/technology/openai-to-press-ahead-with-data-center-expansion-despite-midterm-sweep-cfo-2002712",
+   "at": "2026-11-08T05:36:46Z",
+   "src": "Deccan Chronicle",
+   "kind": "News"
+  },
+  {
+   "t": "Samsung Electronics to become 1st local firm with cash assets of over $146.6 bil.: data",
+   "url": "https://www.koreatimes.co.kr/business/companies/20261108/samsung-electronics-to-become-1st-local-firm-with-cash-assets-of-over-1466-bil-data",
+   "at": "2026-11-08T05:34:03Z",
+   "src": "The Korea Times",
+   "kind": "News"
+  },
+  {
    "t": "AI to boost industrial robotics growth, but manufacturers may benefit less than customers: S&P Global",
    "url": "https://economictimes.indiatimes.com/ai/ai-insights/ai-revolutionizes-industrial-robotics-customers-set-to-gain-more-than-manufacturers-says-sp-global-report/articleshow/135651846.cms",
    "at": "2026-11-08T05:25:00Z",
@@ -768,27 +789,6 @@
    "at": "2026-11-08T04:08:24Z",
    "src": "Lokmat Times",
    "kind": "News"
-  },
-  {
-   "t": "Can't cook or shower: Indonesians take aim at data centres",
-   "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/08/can039t-cook-or-shower-indonesians-take-aim-at-data-centres",
-   "at": "2026-11-08T04:04:00Z",
-   "src": "The Star",
-   "kind": "News"
-  },
-  {
-   "t": "Sam Altman may have just revealed why ‘smartest people’ at OpenAI quit to build their own AI",
-   "url": "https://timesofindia.indiatimes.com/technology/tech-news/sam-altman-may-have-just-revealed-why-smartest-people-at-openai-quit-to-build-their-own-ai/articleshow/135650695.cms",
-   "at": "2026-11-08T03:55:00Z",
-   "src": "Times of India",
-   "kind": "News"
-  },
-  {
-   "t": "Top AI adopters in customer service gain over 50% KPI improvements, but value realization remains uneven: EY report",
-   "url": "https://www.livemint.com/technology/top-ai-adopters-in-customer-service-gain-over-50-kpi-improvements-but-value-realization-remains-uneven-ey-report-11794109806515.html",
-   "at": "2026-11-08T03:50:06Z",
-   "src": "Livemint",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -797,8 +797,8 @@
    "t": "OpenAI raises $11B at a $1.25T valuation",
    "url": "https://news.ycombinator.com/item?id=50413822",
    "link": "https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought/",
-   "up": 127,
-   "com": 114,
+   "up": 144,
+   "com": 151,
    "at": "2026-11-08T14:49:23.000Z"
   },
   {
@@ -806,8 +806,8 @@
    "t": "Goodbye Claude, hello Pi",
    "url": "https://news.ycombinator.com/item?id=50410107",
    "link": "https://caleb.software/posts/claude-to-pi.html",
-   "up": 556,
-   "com": 350,
+   "up": 568,
+   "com": 356,
    "at": "2026-11-08T03:11:48.000Z"
   },
   {
@@ -815,8 +815,8 @@
    "t": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
    "url": "https://news.ycombinator.com/item?id=50411961",
    "link": "https://github.com/synchopate/llama-modchip",
-   "up": 194,
-   "com": 62,
+   "up": 223,
+   "com": 66,
    "at": "2026-11-08T10:22:04.000Z"
   },
   {
@@ -824,8 +824,8 @@
    "t": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
    "url": "https://news.ycombinator.com/item?id=50407882",
    "link": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-   "up": 504,
-   "com": 366,
+   "up": 507,
+   "com": 370,
    "at": "2026-11-07T20:45:32.000Z"
   },
   {
@@ -842,8 +842,8 @@
    "t": "Why I will not be using LLMs in my coding",
    "url": "https://news.ycombinator.com/item?id=50412591",
    "link": "https://www.polso.info/why-i-will-not-be-using-llms-coding",
-   "up": 90,
-   "com": 180,
+   "up": 91,
+   "com": 185,
    "at": "2026-11-08T12:14:10.000Z"
   }
  ]
