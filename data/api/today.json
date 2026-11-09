@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-09T07:30:51.138Z"
+  "updated": "2026-11-09T08:01:04.088Z"
  },
  "pulse": {
   "trending": 76,
   "accelerating": 0,
   "newModels": 5,
-  "discussions": 31,
-  "stars": 1099
+  "discussions": 34,
+  "stars": 1618
  },
  "rising": [
   {
@@ -24,7 +24,7 @@
    "grow": 2,
    "desc": "Google_AI_Pro_2Year_ZeroCost_Auto",
    "meta": [
-    "★ 3,301",
+    "★ 3,304",
     "+150 in 24h",
     "Created 5 days ago"
    ],
@@ -55,7 +55,7 @@
    "cat": "Infrastructure",
    "score": 89,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 925",
+   "desc": "Model on Hugging Face · open source · ♥ 930",
    "meta": [
     "7.1K downloads",
     "Released 10 days ago"
@@ -86,7 +86,7 @@
    "src": "hf",
    "cat": "Tools",
    "score": 89,
-   "grow": 0,
+   "grow": null,
    "desc": "Model on Hugging Face · open source · ♥ 418",
    "meta": [
     "5.1K downloads",
@@ -102,11 +102,11 @@
    "src": "hf",
    "cat": "LLMs",
    "score": 89,
-   "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 312",
+   "grow": 0,
+   "desc": "Model on Hugging Face · open source · ♥ 313",
    "meta": [
     "1.7K downloads",
-    "Released 2 days ago"
+    "Released 3 days ago"
    ],
    "at": "2026-11-06T19:31:28.000Z",
    "breakout": null,
@@ -118,11 +118,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 88,
-   "grow": 3,
+   "grow": null,
    "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
    "meta": [
-    "★ 4,183",
-    "+171 in 24h",
+    "★ 4,189",
+    "~698 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-11-03T08:02:11Z",
@@ -139,27 +139,27 @@
    "grow": null,
    "desc": "We identify a key limitation of existing feed-forward 3DGS methods: Gaussian attributes are typically predicted in a radial-distance-normalized space that canonicalizes a global radial statistic of the reconstructed geometry, while the spacing between neighboring Gaussian centers can still vary substantially across scene scales and camera configurations.",
    "meta": [
-    "▲ 40 upvotes",
+    "▲ 43 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-11-05T11:37:29.000Z",
    "breakout": null
   },
   {
-   "name": "ChatGPT Images 2.6",
+   "name": "AXL",
    "owner": "Product Hunt",
    "src": "ph",
-   "url": "https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29",
-   "cat": "Vision",
+   "url": "https://www.producthunt.com/products/axl-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29",
+   "cat": "Agents",
    "score": 85,
    "grow": null,
-   "desc": "Create, edit, and animate images with AI",
+   "desc": "GTM copilot for AI product founders: 1,200+ actions via MCP",
    "meta": [
-    "▲ 294 votes",
-    "5 comments",
-    "Launched 2 days ago"
+    "▲ 249 votes",
+    "54 comments",
+    "Launched yesterday"
    ],
-   "at": "2026-11-07T08:01:00Z",
+   "at": "2026-11-08T08:01:00Z",
    "breakout": null
   },
   {
@@ -182,11 +182,11 @@
  "breakouts": [],
  "hype": [
   {
-   "name": "cinecode",
-   "url": "https://github.com/sarpstar/cinecode",
+   "name": "agent-autoloop",
+   "url": "https://github.com/KKKKhazix/agent-autoloop",
    "from": "GitHub",
-   "use": 445,
-   "useLabel": "+445 stars/day",
+   "use": 698,
+   "useLabel": "~698 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -299,38 +299,38 @@
  ],
  "github": [
   {
-   "repo": "sarpstar/cinecode",
-   "stars": 1692,
-   "d24": 445,
-   "est": false,
-   "forks": 303,
-   "contrib": null,
-   "score": 83
-  },
-  {
-   "repo": "Sandflow-ai/sand3d",
-   "stars": 1490,
-   "d24": 333,
-   "est": false,
-   "forks": 164,
-   "contrib": null,
-   "score": 79
-  },
-  {
    "repo": "KKKKhazix/agent-autoloop",
-   "stars": 4183,
-   "d24": 171,
-   "est": false,
+   "stars": 4189,
+   "d24": 698,
+   "est": true,
    "forks": 761,
    "contrib": null,
    "score": 88
   },
   {
+   "repo": "sarpstar/cinecode",
+   "stars": 1698,
+   "d24": 440,
+   "est": false,
+   "forks": 306,
+   "contrib": null,
+   "score": 82
+  },
+  {
+   "repo": "Sandflow-ai/sand3d",
+   "stars": 1496,
+   "d24": 330,
+   "est": false,
+   "forks": 167,
+   "contrib": null,
+   "score": 79
+  },
+  {
    "repo": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
-   "stars": 3301,
+   "stars": 3304,
    "d24": 150,
    "est": false,
-   "forks": 1213,
+   "forks": 1214,
    "contrib": null,
    "score": 90
   }
@@ -357,7 +357,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 925
+   "likes": 930
   },
   {
    "name": "Kimi-K3.1-Pro",
@@ -368,7 +368,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Vision",
-   "likes": 1743
+   "likes": 1745
   },
   {
    "name": "Ripple-65B-Preview",
@@ -377,7 +377,7 @@
    "lic": "Open source",
    "at": "2026-11-04T02:41:21.000Z",
    "dl": 5087,
-   "grow": 0,
+   "grow": null,
    "score": 89,
    "cat": "Tools",
    "likes": 418
@@ -389,10 +389,10 @@
    "lic": "Open source",
    "at": "2026-11-06T19:31:28.000Z",
    "dl": 1747,
-   "grow": null,
+   "grow": 0,
    "score": 89,
    "cat": "LLMs",
-   "likes": 312
+   "likes": 313
   },
   {
    "name": "Qwen3.5-4B-3D-Coder",
@@ -821,8 +821,8 @@
    "t": "Goldman Sachs is pulling Claude Code from its bankers and traders",
    "url": "https://news.ycombinator.com/item?id=50415628",
    "link": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
-   "up": 722,
-   "com": 396,
+   "up": 736,
+   "com": 398,
    "at": "2026-11-08T18:16:07.000Z"
   },
   {
@@ -830,17 +830,26 @@
    "t": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU",
    "url": "https://news.ycombinator.com/item?id=50418176",
    "link": "https://ketchup3d.github.io/app/",
-   "up": 398,
-   "com": 108,
+   "up": 426,
+   "com": 116,
    "at": "2026-11-08T22:35:35.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Being a meat proxy for AI should be grounds for getting people fired",
+   "url": "https://news.ycombinator.com/item?id=50422001",
+   "link": "https://swiftrocks.com/being-a-meat-proxy-for-ai-should-be-grounds-for-getting-people-fired",
+   "up": 36,
+   "com": 23,
+   "at": "2026-11-09T06:55:38.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Apple capped engineers at a $200 daily AI budget",
    "url": "https://news.ycombinator.com/item?id=50421426",
    "link": "https://www.stork.ai/newsletter/2026-11-08-apple-capped-engineers-at-a-200-daily-ai-budget#story-1",
-   "up": 72,
-   "com": 76,
+   "up": 76,
+   "com": 77,
    "at": "2026-11-09T05:30:11.000Z"
   },
   {
@@ -848,27 +857,18 @@
    "t": "I'm not convinced the AI bubble exists",
    "url": "https://news.ycombinator.com/item?id=50418975",
    "link": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
-   "up": 196,
-   "com": 249,
+   "up": 217,
+   "com": 303,
    "at": "2026-11-08T23:44:36.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Being a meat proxy for AI should be grounds for getting people fired",
-   "url": "https://news.ycombinator.com/item?id=50422001",
-   "link": "https://swiftrocks.com/being-a-meat-proxy-for-ai-should-be-grounds-for-getting-people-fired",
-   "up": 23,
-   "com": 6,
-   "at": "2026-11-09T06:55:38.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "A Critique of GPUI",
-   "url": "https://news.ycombinator.com/item?id=50420857",
-   "link": "https://blog.zortax.de/posts/a-critique-of-gpui",
-   "up": 72,
-   "com": 35,
-   "at": "2026-11-09T03:51:10.000Z"
+   "t": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+   "url": "https://news.ycombinator.com/item?id=50411961",
+   "link": "https://github.com/synchopate/llama-modchip",
+   "up": 412,
+   "com": 185,
+   "at": "2026-11-08T10:22:04.000Z"
   }
  ]
 }
