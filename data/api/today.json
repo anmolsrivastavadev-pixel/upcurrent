@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-09T11:01:05.827Z"
+  "updated": "2026-11-09T11:30:52.859Z"
  },
  "pulse": {
   "trending": 76,
   "accelerating": 0,
   "newModels": 6,
-  "discussions": 32,
-  "stars": 1309
+  "discussions": 35,
+  "stars": 1306
  },
  "rising": [
   {
@@ -40,8 +40,8 @@
    "grow": null,
    "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
    "meta": [
-    "★ 4,228",
-    "~690 in 24h",
+    "★ 4,232",
+    "~689 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-11-03T08:02:11Z",
@@ -55,7 +55,7 @@
    "cat": "Infrastructure",
    "score": 89,
    "grow": 66,
-   "desc": "Model on Hugging Face · open source · ♥ 957",
+   "desc": "Model on Hugging Face · open source · ♥ 959",
    "meta": [
     "12K downloads",
     "Released 10 days ago"
@@ -87,7 +87,7 @@
    "cat": "Tools",
    "score": 89,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 423",
+   "desc": "Model on Hugging Face · open source · ♥ 424",
    "meta": [
     "5.8K downloads",
     "Released 5 days ago"
@@ -103,7 +103,7 @@
    "cat": "LLMs",
    "score": 89,
    "grow": 38,
-   "desc": "Model on Hugging Face · open source · ♥ 321",
+   "desc": "Model on Hugging Face · open source · ♥ 322",
    "meta": [
     "2.4K downloads",
     "Released 3 days ago"
@@ -138,7 +138,7 @@
    "grow": null,
    "desc": "GTM copilot for AI product founders: 1,200+ actions via MCP",
    "meta": [
-    "▲ 261 votes",
+    "▲ 262 votes",
     "61 comments",
     "Launched yesterday"
    ],
@@ -154,7 +154,7 @@
    "grow": null,
    "desc": "Films made with code. Short films, long YouTube videos, ads, explainers and music videos: an AI coding agent writes the script, builds every frame in code, designs the sound and hands you an MP4.",
    "meta": [
-    "★ 1,785",
+    "★ 1,790",
     "~296 in 24h",
     "Created 6 days ago"
    ],
@@ -185,8 +185,8 @@
    "name": "agent-autoloop",
    "url": "https://github.com/KKKKhazix/agent-autoloop",
    "from": "GitHub",
-   "use": 690,
-   "useLabel": "~690 stars/day",
+   "use": 689,
+   "useLabel": "~689 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -216,6 +216,16 @@
   }
  ],
  "receipts": [
+  {
+   "name": "mromidev/claude-animated-shorts",
+   "url": "https://github.com/mromidev/claude-animated-shorts",
+   "kind": "stars",
+   "first": "2026-11-04T08:30:50.766Z",
+   "firstV": 1327,
+   "m": 2500,
+   "at": "2026-11-09T11:30:52.859Z",
+   "lead": 123.00058138888889
+  },
   {
    "name": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
    "url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
@@ -285,23 +295,13 @@
    "m": 100000,
    "at": "2026-11-08T10:00:58.265Z",
    "lead": 14.998985
-  },
-  {
-   "name": "benjitaylor/skills",
-   "url": "https://github.com/benjitaylor/skills",
-   "kind": "stars",
-   "first": "2026-11-03T23:01:02.288Z",
-   "firstV": 1407,
-   "m": 2500,
-   "at": "2026-11-08T03:01:01.146Z",
-   "lead": 99.99968277777778
   }
  ],
  "github": [
   {
    "repo": "KKKKhazix/agent-autoloop",
-   "stars": 4228,
-   "d24": 690,
+   "stars": 4232,
+   "d24": 689,
    "est": true,
    "forks": 768,
    "contrib": null,
@@ -309,8 +309,8 @@
   },
   {
    "repo": "Sandflow-ai/sand3d",
-   "stars": 1534,
-   "d24": 323,
+   "stars": 1540,
+   "d24": 321,
    "est": false,
    "forks": 171,
    "contrib": null,
@@ -318,10 +318,10 @@
   },
   {
    "repo": "sarpstar/cinecode",
-   "stars": 1785,
+   "stars": 1790,
    "d24": 296,
    "est": true,
-   "forks": 319,
+   "forks": 320,
    "contrib": null,
    "score": 84
   }
@@ -336,7 +336,7 @@
    "grow": 8,
    "score": 90,
    "cat": "Vision",
-   "likes": 1478
+   "likes": 1483
   },
   {
    "name": "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
@@ -348,7 +348,7 @@
    "grow": 66,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 957
+   "likes": 959
   },
   {
    "name": "Kimi-K3.1-Pro",
@@ -359,7 +359,7 @@
    "grow": 9,
    "score": 89,
    "cat": "Vision",
-   "likes": 1760
+   "likes": 1761
   },
   {
    "name": "Ripple-65B-Preview",
@@ -371,7 +371,7 @@
    "grow": null,
    "score": 89,
    "cat": "Tools",
-   "likes": 423
+   "likes": 424
   },
   {
    "name": "Arete-27B",
@@ -383,7 +383,7 @@
    "grow": 38,
    "score": 89,
    "cat": "LLMs",
-   "likes": 321
+   "likes": 322
   },
   {
    "name": "Qwen3.5-4B-3D-Coder",
@@ -694,6 +694,13 @@
  },
  "headlines": [
   {
+   "t": "Jensen Huang maintains deep control over Nvidia, managing 60+ direct reports and owning a 3.56% stake, presenting a challenge for Nvidia's 10-person board",
+   "url": "https://www.techmeme.com/261109/p13#a261109p13",
+   "at": "2026-11-09T11:00:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Nvidia Senior Director Madison Huang, daughter of Jensen, cancels a high-profile Seoul appearance citing a \"family matter\", throwing the event into disarray",
    "url": "https://www.techmeme.com/261109/p12#a261109p12",
    "at": "2026-11-09T10:50:00.000Z",
@@ -785,25 +792,18 @@
    "kind": "Lab blog"
   },
   {
-   "t": "Jensen Huang's scandal poses a rare crisis in US corporate history, given the national security stakes, his centrality to Nvidia, and its role in the AI race",
-   "url": "https://www.techmeme.com/261108/p23#a261108p23",
-   "at": "2026-11-09T04:25:00.000Z",
-   "src": "Techmeme",
+   "t": "Nvidia opens investigation after report CEO Jensen Huang was target of foreign intelligence",
+   "url": "https://www.theguardian.com/us-news/2026/nov/08/nvidia-jensen-huang-investigation",
+   "at": "2026-11-09T00:25:28Z",
+   "src": "The Guardian",
    "kind": "News"
   },
   {
-   "t": "An interview with Cognition CISO Alex Stamos on how AI is upending cybersecurity, AI-powered red teaming, vulnerabilities in legacy codebases, and more",
-   "url": "https://www.techmeme.com/261108/p22#a261108p22",
-   "at": "2026-11-09T04:05:00.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Tencent Chief AI Scientist Yao Shunyu says AI's bio abilities will soon make it \"possible to do harm\" and Anthropic has a \"strong argument\" for closed models",
-   "url": "https://www.techmeme.com/261108/p21#a261108p21",
-   "at": "2026-11-09T03:15:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
+   "t": "NVIDIA, chinese spy and AI #gaming #news",
+   "url": "https://www.youtube.com/watch?v=WIwu7TBoSi0",
+   "at": "2026-11-09T00:12:55Z",
+   "src": "JtheSlopFrog",
+   "kind": "Video"
   }
  ],
  "discussions": [
@@ -812,8 +812,8 @@
    "t": "Goldman Sachs is pulling Claude Code from its bankers and traders",
    "url": "https://news.ycombinator.com/item?id=50415628",
    "link": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
-   "up": 789,
-   "com": 416,
+   "up": 791,
+   "com": 418,
    "at": "2026-11-08T18:16:07.000Z"
   },
   {
@@ -821,8 +821,8 @@
    "t": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU",
    "url": "https://news.ycombinator.com/item?id=50418176",
    "link": "https://ketchup3d.github.io/app/",
-   "up": 519,
-   "com": 149,
+   "up": 533,
+   "com": 151,
    "at": "2026-11-08T22:35:35.000Z"
   },
   {
@@ -830,16 +830,25 @@
    "t": "I'm not convinced the AI bubble exists",
    "url": "https://news.ycombinator.com/item?id=50418975",
    "link": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
-   "up": 313,
-   "com": 538,
+   "up": 325,
+   "com": 553,
    "at": "2026-11-08T23:44:36.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Fun things to do with your VM/370 CE machine – Fun with big computers",
+   "url": "https://news.ycombinator.com/item?id=50423569",
+   "link": "https://rbanffy.github.io/fun-with-big-computers/fun-with-vm370/",
+   "up": 29,
+   "com": 2,
+   "at": "2026-11-09T10:11:47.000Z"
   },
   {
    "src": "Hacker News",
    "t": "How I Fight AI Brain Fry",
    "url": "https://news.ycombinator.com/item?id=50416363",
    "link": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
-   "up": 262,
+   "up": 266,
    "com": 176,
    "at": "2026-11-08T19:37:42.000Z"
   },
@@ -848,18 +857,9 @@
    "t": "Apple capped engineers at a $200 daily AI budget",
    "url": "https://news.ycombinator.com/item?id=50421426",
    "link": "https://www.stork.ai/newsletter/2026-11-08-apple-capped-engineers-at-a-200-daily-ai-budget#story-1",
-   "up": 91,
+   "up": 92,
    "com": 95,
    "at": "2026-11-09T05:30:11.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "A Critique of GPUI",
-   "url": "https://news.ycombinator.com/item?id=50420857",
-   "link": "https://blog.zortax.de/posts/a-critique-of-gpui",
-   "up": 111,
-   "com": 68,
-   "at": "2026-11-09T03:51:10.000Z"
   }
  ]
 }
