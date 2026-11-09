@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-09T16:30:54.902Z"
+  "updated": "2026-11-09T17:01:09.790Z"
  },
  "pulse": {
   "trending": 79,
   "accelerating": 1,
   "newModels": 7,
-  "discussions": 42,
-  "stars": 1251
+  "discussions": 40,
+  "stars": 1231
  },
  "rising": [
   {
@@ -22,7 +22,7 @@
    "cat": "Vision",
    "score": 90,
    "grow": 8,
-   "desc": "Vision on Hugging Face · open source · ♥ 1.5K",
+   "desc": "Vision on Hugging Face · open source · ♥ 1.6K",
    "meta": [
     "25K downloads",
     "Released 12 days ago"
@@ -40,8 +40,8 @@
    "grow": 2,
    "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
    "meta": [
-    "★ 4,262",
-    "+206 in 24h",
+    "★ 4,264",
+    "+200 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-11-03T08:02:11Z",
@@ -103,7 +103,7 @@
    "cat": "LLMs",
    "score": 89,
    "grow": 38,
-   "desc": "Model on Hugging Face · open source · ♥ 337",
+   "desc": "Model on Hugging Face · open source · ♥ 339",
    "meta": [
     "2.4K downloads",
     "Released 3 days ago"
@@ -167,11 +167,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 83,
-   "grow": null,
+   "grow": 4,
    "desc": "Films made with code. Short films, long YouTube videos, ads, explainers and music videos: an AI coding agent writes the script, builds every frame in code, designs the sound and hands you an MP4.",
    "meta": [
-    "★ 1,848",
-    "~295 in 24h",
+    "★ 1,854",
+    "+276 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-11-03T10:08:16Z",
@@ -182,11 +182,11 @@
  "breakouts": [],
  "hype": [
   {
-   "name": "cinecode",
-   "url": "https://github.com/sarpstar/cinecode",
+   "name": "sand3d",
+   "url": "https://github.com/Sandflow-ai/sand3d",
    "from": "GitHub",
-   "use": 295,
-   "useLabel": "~295 stars/day",
+   "use": 288,
+   "useLabel": "+288 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -299,45 +299,45 @@
  ],
  "github": [
   {
+   "repo": "Sandflow-ai/sand3d",
+   "stars": 1590,
+   "d24": 288,
+   "est": false,
+   "forks": 177,
+   "contrib": null,
+   "score": 78
+  },
+  {
    "repo": "sarpstar/cinecode",
-   "stars": 1848,
-   "d24": 295,
-   "est": true,
-   "forks": 332,
+   "stars": 1854,
+   "d24": 276,
+   "est": false,
+   "forks": 333,
    "contrib": null,
    "score": 83
   },
   {
-   "repo": "Sandflow-ai/sand3d",
-   "stars": 1587,
-   "d24": 292,
-   "est": false,
-   "forks": 176,
-   "contrib": null,
-   "score": 79
-  },
-  {
    "repo": "janestreet/agent_skills",
-   "stars": 1478,
-   "d24": 247,
+   "stars": 1540,
+   "d24": 256,
    "est": true,
-   "forks": 82,
+   "forks": 85,
    "contrib": null,
-   "score": 79
+   "score": 80
   },
   {
    "repo": "shanselman/gputaskman",
-   "stars": 1401,
+   "stars": 1409,
    "d24": 211,
    "est": true,
-   "forks": 67,
+   "forks": 69,
    "contrib": null,
    "score": 76
   },
   {
    "repo": "KKKKhazix/agent-autoloop",
-   "stars": 4262,
-   "d24": 206,
+   "stars": 4264,
+   "d24": 200,
    "est": false,
    "forks": 776,
    "contrib": null,
@@ -354,7 +354,7 @@
    "grow": 8,
    "score": 90,
    "cat": "Vision",
-   "likes": 1547
+   "likes": 1554
   },
   {
    "name": "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
@@ -366,7 +366,7 @@
    "grow": 66,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 1002
+   "likes": 1009
   },
   {
    "name": "Kimi-K3.1-Pro",
@@ -377,7 +377,7 @@
    "grow": 9,
    "score": 89,
    "cat": "Vision",
-   "likes": 1773
+   "likes": 1775
   },
   {
    "name": "Ripple-65B-Preview",
@@ -401,7 +401,7 @@
    "grow": 38,
    "score": 89,
    "cat": "LLMs",
-   "likes": 337
+   "likes": 339
   },
   {
    "name": "Qwen3.5-4B-3D-Coder",
@@ -729,6 +729,13 @@
  },
  "headlines": [
   {
+   "t": "Silicon Valley and Trump rally behind Nvidia CEO after his affair with alleged Chinese spy",
+   "url": "https://www.theguardian.com/technology/2026/nov/09/nvidia-jensen-huang-affair-trump-musk",
+   "at": "2026-11-09T16:42:35Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
    "t": "Sources: a Commerce Department investigation into Megaspeed for allegedly smuggling Nvidia chips to China was transferred to the DOJ after Nvidia intervened",
    "url": "https://www.techmeme.com/261109/p32#a261109p32",
    "at": "2026-11-09T16:20:00.000Z",
@@ -832,13 +839,6 @@
    "at": "2026-11-09T05:00:39.000Z",
    "src": "NVIDIA",
    "kind": "Lab blog"
-  },
-  {
-   "t": "From Chips to Skills, NVIDIA and Korea Expand Sovereign AI Collaboration",
-   "url": "https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration/",
-   "at": "2026-11-09T05:00:04.000Z",
-   "src": "NVIDIA",
-   "kind": "Lab blog"
   }
  ],
  "discussions": [
@@ -847,17 +847,26 @@
    "t": "Fold Epic Paper Airplanes",
    "url": "https://news.ycombinator.com/item?id=50424581",
    "link": "https://www.foldableflight.com",
-   "up": 420,
-   "com": 78,
+   "up": 462,
+   "com": 82,
    "at": "2026-11-09T12:19:22.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "The same H100 costs $2.69 or $12.29 an hour depending where you rent it",
+   "url": "https://news.ycombinator.com/item?id=50427085",
+   "link": "https://github.com/datareceipts/data-receipts/tree/main/109-gpu-pricing",
+   "up": 52,
+   "com": 27,
+   "at": "2026-11-09T15:39:01.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Goldman Sachs is pulling Claude Code from its bankers and traders",
    "url": "https://news.ycombinator.com/item?id=50415628",
    "link": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
-   "up": 858,
-   "com": 462,
+   "up": 859,
+   "com": 463,
    "at": "2026-11-08T18:16:07.000Z"
   },
   {
@@ -865,36 +874,27 @@
    "t": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU",
    "url": "https://news.ycombinator.com/item?id=50418176",
    "link": "https://ketchup3d.github.io/app/",
-   "up": 666,
-   "com": 196,
+   "up": 679,
+   "com": 199,
    "at": "2026-11-08T22:35:35.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Zebkit – Chromium as an embeddable library",
-   "url": "https://news.ycombinator.com/item?id=50426207",
-   "link": "https://github.com/ikey4u/zebkit",
-   "up": 55,
-   "com": 26,
-   "at": "2026-11-09T14:34:00.000Z"
   },
   {
    "src": "Hacker News",
    "t": "I'm not convinced the AI bubble exists",
    "url": "https://news.ycombinator.com/item?id=50418975",
    "link": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
-   "up": 469,
-   "com": 817,
+   "up": 484,
+   "com": 830,
    "at": "2026-11-08T23:44:36.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "The same H100 costs $2.69 or $12.29 an hour depending where you rent it",
-   "url": "https://news.ycombinator.com/item?id=50427085",
-   "link": "https://github.com/datareceipts/data-receipts/tree/main/109-gpu-pricing",
-   "up": 27,
-   "com": 9,
-   "at": "2026-11-09T15:39:01.000Z"
+   "t": "Zebkit – Chromium as an embeddable library",
+   "url": "https://news.ycombinator.com/item?id=50426207",
+   "link": "https://github.com/ikey4u/zebkit",
+   "up": 60,
+   "com": 27,
+   "at": "2026-11-09T14:34:00.000Z"
   }
  ]
 }
