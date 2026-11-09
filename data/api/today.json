@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-09T09:01:04.058Z"
+  "updated": "2026-11-09T09:30:55.415Z"
  },
  "pulse": {
   "trending": 76,
   "accelerating": 0,
   "newModels": 5,
-  "discussions": 32,
-  "stars": 1637
+  "discussions": 33,
+  "stars": 1635
  },
  "rising": [
   {
@@ -24,7 +24,7 @@
    "grow": 3,
    "desc": "Google_AI_Pro_2Year_ZeroCost_Auto",
    "meta": [
-    "★ 3,312",
+    "★ 3,315",
     "+153 in 24h",
     "Created 5 days ago"
    ],
@@ -49,13 +49,30 @@
    "url": "https://huggingface.co/speridlabs/idol"
   },
   {
+   "name": "agent-autoloop",
+   "owner": "KKKKhazix",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 89,
+   "grow": null,
+   "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
+   "meta": [
+    "★ 4,211",
+    "~695 in 24h",
+    "Created 6 days ago"
+   ],
+   "at": "2026-11-03T08:02:11Z",
+   "breakout": null,
+   "url": "https://github.com/KKKKhazix/agent-autoloop"
+  },
+  {
    "name": "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
    "owner": "xtools-at",
    "src": "hf",
    "cat": "Infrastructure",
    "score": 89,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 938",
+   "desc": "Model on Hugging Face · open source · ♥ 944",
    "meta": [
     "7.1K downloads",
     "Released 10 days ago"
@@ -103,7 +120,7 @@
    "cat": "LLMs",
    "score": 89,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 317",
+   "desc": "Model on Hugging Face · open source · ♥ 318",
    "meta": [
     "1.7K downloads",
     "Released 3 days ago"
@@ -111,23 +128,6 @@
    "at": "2026-11-06T19:31:28.000Z",
    "breakout": null,
    "url": "https://huggingface.co/NousResearch/Arete-27B"
-  },
-  {
-   "name": "agent-autoloop",
-   "owner": "KKKKhazix",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 88,
-   "grow": null,
-   "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
-   "meta": [
-    "★ 4,203",
-    "~696 in 24h",
-    "Created 6 days ago"
-   ],
-   "at": "2026-11-03T08:02:11Z",
-   "breakout": null,
-   "url": "https://github.com/KKKKhazix/agent-autoloop"
   },
   {
    "name": "SplatAnything: Gaussian Spacing Normalization for Feed-forward 3DGS across Arbitrary Scenes",
@@ -155,7 +155,7 @@
    "grow": null,
    "desc": "GTM copilot for AI product founders: 1,200+ actions via MCP",
    "meta": [
-    "▲ 254 votes",
+    "▲ 257 votes",
     "60 comments",
     "Launched yesterday"
    ],
@@ -169,7 +169,7 @@
    "cat": "Coding",
    "score": 84,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 931",
+   "desc": "Model on Hugging Face · open source · ♥ 932",
    "meta": [
     "254K downloads",
     "Released 15 days ago"
@@ -185,8 +185,8 @@
    "name": "agent-autoloop",
    "url": "https://github.com/KKKKhazix/agent-autoloop",
    "from": "GitHub",
-   "use": 696,
-   "useLabel": "~696 stars/day",
+   "use": 695,
+   "useLabel": "~695 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -300,26 +300,26 @@
  "github": [
   {
    "repo": "KKKKhazix/agent-autoloop",
-   "stars": 4203,
-   "d24": 696,
+   "stars": 4211,
+   "d24": 695,
    "est": true,
    "forks": 764,
    "contrib": null,
-   "score": 88
+   "score": 89
   },
   {
    "repo": "sarpstar/cinecode",
-   "stars": 1733,
-   "d24": 463,
+   "stars": 1749,
+   "d24": 471,
    "est": false,
-   "forks": 310,
+   "forks": 311,
    "contrib": null,
    "score": 83
   },
   {
    "repo": "Sandflow-ai/sand3d",
-   "stars": 1508,
-   "d24": 325,
+   "stars": 1511,
+   "d24": 316,
    "est": false,
    "forks": 169,
    "contrib": null,
@@ -327,7 +327,7 @@
   },
   {
    "repo": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
-   "stars": 3312,
+   "stars": 3315,
    "d24": 153,
    "est": false,
    "forks": 1217,
@@ -345,7 +345,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 1454
+   "likes": 1461
   },
   {
    "name": "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
@@ -357,7 +357,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 938
+   "likes": 944
   },
   {
    "name": "Kimi-K3.1-Pro",
@@ -368,7 +368,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Vision",
-   "likes": 1751
+   "likes": 1753
   },
   {
    "name": "Ripple-65B-Preview",
@@ -392,7 +392,7 @@
    "grow": 0,
    "score": 89,
    "cat": "LLMs",
-   "likes": 317
+   "likes": 318
   },
   {
    "name": "Qwen3.5-4B-3D-Coder",
@@ -404,7 +404,7 @@
    "grow": 0,
    "score": 84,
    "cat": "Coding",
-   "likes": 931
+   "likes": 932
   }
  ],
  "free": [
@@ -703,7 +703,14 @@
  },
  "headlines": [
   {
-   "t": "Toronto-based Ada and SF-based Dialpad, both makers of AI customer service software, agree to merge in an all-share deal valuing Ada at ~$430M, sources say",
+   "t": "As companies replace human workers with AI agents, determining managers' grade and pay is becoming harder, as both often depend on how many people they manage",
+   "url": "https://www.techmeme.com/261109/p6#a261109p6",
+   "at": "2026-11-09T09:00:13.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Toronto-based Ada and SF-based Dialpad, both makers of AI customer service software, agree to merge, sources say in an all-share deal valuing Ada at ~$430M",
    "url": "https://www.techmeme.com/261109/p5#a261109p5",
    "at": "2026-11-09T08:46:41.000Z",
    "src": "Techmeme",
@@ -717,7 +724,7 @@
    "kind": "Lab blog"
   },
   {
-   "t": "Google rolls out a Googlebook update that frees up 3GB-6GB of RAM via on-device AI optimizations, reduces Chrome crashes, patches ~60 Android flaws, and more",
+   "t": "Google rolls out a Googlebook update that frees up 3GB to 6GB of RAM via on-device AI optimizations, reduces Chrome crashes, patches ~60 Android flaws, and more",
    "url": "https://www.techmeme.com/261109/p4#a261109p4",
    "at": "2026-11-09T06:35:00.000Z",
    "src": "Techmeme",
@@ -780,14 +787,14 @@
    "kind": "News"
   },
   {
-   "t": "Tencent's chief AI scientist Yao Shunyu says AI's bio abilities will soon make it \"possible to do harm\" and Anthropic has a \"strong argument\" for closed models",
+   "t": "Tencent Chief AI Scientist Yao Shunyu says AI's bio abilities will soon make it \"possible to do harm\" and Anthropic has a \"strong argument\" for closed models",
    "url": "https://www.techmeme.com/261108/p21#a261108p21",
    "at": "2026-11-09T03:15:01.000Z",
    "src": "Techmeme",
    "kind": "News"
   },
   {
-   "t": "Trump says Jensen Huang should stay on as Nvidia CEO after affair admission, saying he is a \"fine person\" and \"I haven't heard he's done anything wrong\"",
+   "t": "President Trump says Jensen Huang should stay on as Nvidia CEO after his affair admission: he is a \"fine person\" and \"I haven't heard he's done anything wrong\"",
    "url": "https://www.techmeme.com/261108/p19#a261108p19",
    "at": "2026-11-09T01:40:00.000Z",
    "src": "Techmeme",
@@ -806,13 +813,6 @@
    "at": "2026-11-08T22:55:01.000Z",
    "src": "Techmeme",
    "kind": "News"
-  },
-  {
-   "t": "US professional services added 70K jobs in October, the most since July 2022, as AI-exposed consulting, legal, and accounting all grew despite AI job-loss fears",
-   "url": "https://www.techmeme.com/261108/p15#a261108p15",
-   "at": "2026-11-08T21:45:03.000Z",
-   "src": "Techmeme",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -821,8 +821,8 @@
    "t": "Goldman Sachs is pulling Claude Code from its bankers and traders",
    "url": "https://news.ycombinator.com/item?id=50415628",
    "link": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
-   "up": 757,
-   "com": 404,
+   "up": 767,
+   "com": 410,
    "at": "2026-11-08T18:16:07.000Z"
   },
   {
@@ -830,8 +830,8 @@
    "t": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU",
    "url": "https://news.ycombinator.com/item?id=50418176",
    "link": "https://ketchup3d.github.io/app/",
-   "up": 458,
-   "com": 129,
+   "up": 474,
+   "com": 132,
    "at": "2026-11-08T22:35:35.000Z"
   },
   {
@@ -839,8 +839,8 @@
    "t": "I'm not convinced the AI bubble exists",
    "url": "https://news.ycombinator.com/item?id=50418975",
    "link": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
-   "up": 248,
-   "com": 386,
+   "up": 264,
+   "com": 427,
    "at": "2026-11-08T23:44:36.000Z"
   },
   {
@@ -848,27 +848,27 @@
    "t": "Apple capped engineers at a $200 daily AI budget",
    "url": "https://news.ycombinator.com/item?id=50421426",
    "link": "https://www.stork.ai/newsletter/2026-11-08-apple-capped-engineers-at-a-200-daily-ai-budget#story-1",
-   "up": 81,
-   "com": 87,
+   "up": 87,
+   "com": 90,
    "at": "2026-11-09T05:30:11.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Being a meat proxy for AI should be grounds for getting people fired",
-   "url": "https://news.ycombinator.com/item?id=50422001",
-   "link": "https://swiftrocks.com/being-a-meat-proxy-for-ai-should-be-grounds-for-getting-people-fired",
-   "up": 39,
-   "com": 28,
-   "at": "2026-11-09T06:55:38.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
    "url": "https://news.ycombinator.com/item?id=50411961",
    "link": "https://github.com/synchopate/llama-modchip",
-   "up": 415,
-   "com": 187,
+   "up": 419,
+   "com": 190,
    "at": "2026-11-08T10:22:04.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "How I Fight AI Brain Fry",
+   "url": "https://news.ycombinator.com/item?id=50416363",
+   "link": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
+   "up": 244,
+   "com": 171,
+   "at": "2026-11-08T19:37:42.000Z"
   }
  ]
 }
