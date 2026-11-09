@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-09T12:30:54.011Z"
+  "updated": "2026-11-09T13:01:09.242Z"
  },
  "pulse": {
-  "trending": 76,
+  "trending": 77,
   "accelerating": 0,
-  "newModels": 6,
-  "discussions": 36,
-  "stars": 1292
+  "newModels": 7,
+  "discussions": 38,
+  "stars": 1489
  },
  "rising": [
   {
@@ -40,8 +40,8 @@
    "grow": null,
    "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
    "meta": [
-    "★ 4,235",
-    "~685 in 24h",
+    "★ 4,239",
+    "~683 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-11-03T08:02:11Z",
@@ -55,7 +55,7 @@
    "cat": "Infrastructure",
    "score": 89,
    "grow": 66,
-   "desc": "Model on Hugging Face · open source · ♥ 965",
+   "desc": "Model on Hugging Face · open source · ♥ 970",
    "meta": [
     "12K downloads",
     "Released 10 days ago"
@@ -103,7 +103,7 @@
    "cat": "LLMs",
    "score": 89,
    "grow": 38,
-   "desc": "Model on Hugging Face · open source · ♥ 323",
+   "desc": "Model on Hugging Face · open source · ♥ 326",
    "meta": [
     "2.4K downloads",
     "Released 3 days ago"
@@ -138,29 +138,12 @@
    "grow": null,
    "desc": "GTM copilot for AI product founders: 1,200+ actions via MCP",
    "meta": [
-    "▲ 263 votes",
-    "62 comments",
+    "▲ 264 votes",
+    "64 comments",
     "Launched yesterday"
    ],
    "at": "2026-11-08T08:01:00Z",
    "breakout": null
-  },
-  {
-   "name": "cinecode",
-   "owner": "sarpstar",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 84,
-   "grow": null,
-   "desc": "Films made with code. Short films, long YouTube videos, ads, explainers and music videos: an AI coding agent writes the script, builds every frame in code, designs the sound and hands you an MP4.",
-   "meta": [
-    "★ 1,805",
-    "~296 in 24h",
-    "Created 6 days ago"
-   ],
-   "at": "2026-11-03T10:08:16Z",
-   "breakout": null,
-   "url": "https://github.com/sarpstar/cinecode"
   },
   {
    "name": "Qwen3.5-4B-3D-Coder",
@@ -177,6 +160,23 @@
    "at": "2026-10-25T05:43:34.000Z",
    "breakout": null,
    "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder"
+  },
+  {
+   "name": "cinecode",
+   "owner": "sarpstar",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 83,
+   "grow": null,
+   "desc": "Films made with code. Short films, long YouTube videos, ads, explainers and music videos: an AI coding agent writes the script, builds every frame in code, designs the sound and hands you an MP4.",
+   "meta": [
+    "★ 1,811",
+    "~296 in 24h",
+    "Created 6 days ago"
+   ],
+   "at": "2026-11-03T10:08:16Z",
+   "breakout": null,
+   "url": "https://github.com/sarpstar/cinecode"
   }
  ],
  "breakouts": [],
@@ -185,8 +185,8 @@
    "name": "agent-autoloop",
    "url": "https://github.com/KKKKhazix/agent-autoloop",
    "from": "GitHub",
-   "use": 685,
-   "useLabel": "~685 stars/day",
+   "use": 683,
+   "useLabel": "~683 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -300,30 +300,39 @@
  "github": [
   {
    "repo": "KKKKhazix/agent-autoloop",
-   "stars": 4235,
-   "d24": 685,
+   "stars": 4239,
+   "d24": 683,
    "est": true,
-   "forks": 768,
+   "forks": 770,
    "contrib": null,
    "score": 89
   },
   {
    "repo": "Sandflow-ai/sand3d",
-   "stars": 1548,
-   "d24": 311,
+   "stars": 1551,
+   "d24": 305,
    "est": false,
-   "forks": 172,
+   "forks": 173,
    "contrib": null,
    "score": 79
   },
   {
    "repo": "sarpstar/cinecode",
-   "stars": 1805,
+   "stars": 1811,
    "d24": 296,
    "est": true,
    "forks": 323,
    "contrib": null,
-   "score": 84
+   "score": 83
+  },
+  {
+   "repo": "shanselman/gputaskman",
+   "stars": 1334,
+   "d24": 205,
+   "est": true,
+   "forks": 64,
+   "contrib": null,
+   "score": 76
   }
  ],
  "models": [
@@ -336,7 +345,7 @@
    "grow": 8,
    "score": 90,
    "cat": "Vision",
-   "likes": 1497
+   "likes": 1500
   },
   {
    "name": "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
@@ -348,7 +357,7 @@
    "grow": 66,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 965
+   "likes": 970
   },
   {
    "name": "Kimi-K3.1-Pro",
@@ -359,7 +368,7 @@
    "grow": 9,
    "score": 89,
    "cat": "Vision",
-   "likes": 1762
+   "likes": 1763
   },
   {
    "name": "Ripple-65B-Preview",
@@ -383,7 +392,7 @@
    "grow": 38,
    "score": 89,
    "cat": "LLMs",
-   "likes": 323
+   "likes": 326
   },
   {
    "name": "Qwen3.5-4B-3D-Coder",
@@ -694,6 +703,13 @@
  },
  "headlines": [
   {
+   "t": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
+   "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+   "at": "2026-11-09T12:34:29.000Z",
+   "src": "Hugging Face",
+   "kind": "Lab blog"
+  },
+  {
    "t": "Meta says it is globally expanding Instagram's AI age estimation tech to apply Teen Account protections to teens aged 13 to 17 who misrepresented their age",
    "url": "https://www.techmeme.com/261109/p19#a261109p19",
    "at": "2026-11-09T12:15:00.000Z",
@@ -736,13 +752,6 @@
    "kind": "News"
   },
   {
-   "t": "As companies replace human workers with AI agents, determining managers' grade and pay is becoming harder, as both often depend on how many people they manage",
-   "url": "https://www.techmeme.com/261109/p6#a261109p6",
-   "at": "2026-11-09T09:00:13.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "NVIDIA Announces New Planned Investments in Korean Startups at the MSIT-NVIDIA AI Startup Partnership Forum",
    "url": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/",
    "at": "2026-11-09T08:00:53.000Z",
@@ -778,42 +787,51 @@
    "kind": "Lab blog"
   },
   {
+   "t": "Stavian Group Showcases Its Infrastructure Vision for the AI Era at the Inaugural Fortune SEA500 Summit 2026",
+   "url": "https://www.prnewswire.co.uk/news-releases/stavian-group-showcases-its-infrastructure-vision-for-the-ai-era-at-the-inaugural-fortune-sea500-summit-2026-302932596.html",
+   "at": "2026-11-09T01:00:00Z",
+   "src": "PR Newswire UK",
+   "kind": "News"
+  },
+  {
+   "t": "Staff at the US center for AI safety are reporting to the White House, raising independence concerns",
+   "url": "https://www.adn.com/nation-world/2026/11/08/staff-at-the-us-center-for-ai-safety-are-reporting-to-the-white-house-raising-independence-concerns/",
+   "at": "2026-11-09T00:56:46Z",
+   "src": "Anchorage Daily News",
+   "kind": "News"
+  },
+  {
+   "t": "Global Market Today: Asian stocks open mostly higher, Nvidia probe looms",
+   "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-open-mostly-higher-nvidia-probe-looms/articleshow/135667316.cms",
+   "at": "2026-11-09T00:56:00Z",
+   "src": "The Economic Times",
+   "kind": "News"
+  },
+  {
    "t": "Nvidia opens investigation after report CEO Jensen Huang was target of foreign intelligence",
    "url": "https://www.theguardian.com/us-news/2026/nov/08/nvidia-jensen-huang-investigation",
    "at": "2026-11-09T00:25:28Z",
    "src": "The Guardian",
-   "kind": "News"
-  },
-  {
-   "t": "NVIDIA, chinese spy and AI #gaming #news",
-   "url": "https://www.youtube.com/watch?v=WIwu7TBoSi0",
-   "at": "2026-11-09T00:12:55Z",
-   "src": "JtheSlopFrog",
-   "kind": "Video"
-  },
-  {
-   "t": "60 Minutes Transcript: Donald Trump, the 2026 post-midterm elections interview",
-   "url": "https://www.cbsnews.com/news/donald-trump-2026-post-midterm-elections-interview-60-minutes-transcript/",
-   "at": "2026-11-09T00:00:00Z",
-   "src": "CBS News",
-   "kind": "News"
-  },
-  {
-   "t": "RBA's Hunter says AI has yet to deliver productivity boost, trigger job losses",
-   "url": "https://www.thestar.com.my/tech/tech-news/2026/11/09/rba039s-hunter-says-ai-has-yet-to-deliver-productivity-boost-trigger-job-losses",
-   "at": "2026-11-08T23:57:00Z",
-   "src": "The Star",
    "kind": "News"
   }
  ],
  "discussions": [
   {
    "src": "Hacker News",
+   "t": "Fold Epic Paper Airplanes",
+   "url": "https://news.ycombinator.com/item?id=50424581",
+   "link": "https://www.foldableflight.com",
+   "up": 70,
+   "com": 11,
+   "at": "2026-11-09T12:19:22.000Z"
+  },
+  {
+   "src": "Hacker News",
    "t": "Goldman Sachs is pulling Claude Code from its bankers and traders",
    "url": "https://news.ycombinator.com/item?id=50415628",
    "link": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
-   "up": 798,
-   "com": 424,
+   "up": 805,
+   "com": 430,
    "at": "2026-11-08T18:16:07.000Z"
   },
   {
@@ -821,8 +839,8 @@
    "t": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU",
    "url": "https://news.ycombinator.com/item?id=50418176",
    "link": "https://ketchup3d.github.io/app/",
-   "up": 557,
-   "com": 166,
+   "up": 571,
+   "com": 168,
    "at": "2026-11-08T22:35:35.000Z"
   },
   {
@@ -830,8 +848,8 @@
    "t": "I'm not convinced the AI bubble exists",
    "url": "https://news.ycombinator.com/item?id=50418975",
    "link": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
-   "up": 358,
-   "com": 603,
+   "up": 370,
+   "com": 628,
    "at": "2026-11-08T23:44:36.000Z"
   },
   {
@@ -839,27 +857,17 @@
    "t": "Fun things to do with your VM/370 CE machine – Fun with big computers",
    "url": "https://news.ycombinator.com/item?id=50423569",
    "link": "https://rbanffy.github.io/fun-with-big-computers/fun-with-vm370/",
-   "up": 45,
+   "up": 54,
    "com": 4,
    "at": "2026-11-09T10:11:47.000Z"
   },
   {
-   "src": "Hacker News",
-   "t": "How I Fight AI Brain Fry",
-   "url": "https://news.ycombinator.com/item?id=50416363",
-   "link": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
-   "up": 271,
-   "com": 182,
-   "at": "2026-11-08T19:37:42.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Ask HN: Do you still enjoy coding in C++?",
-   "url": "https://news.ycombinator.com/item?id=50423371",
-   "link": "",
-   "up": 37,
-   "com": 42,
-   "at": "2026-11-09T09:50:03.000Z"
+   "src": "Mastodon",
+   "t": "🆕 blog! “Blunt Banhammer Blocks Basic Bots Ballistically” I cut bot traffic to my site by over 80% with a simple trap. Last month, my hobby website OpenBenc…",
+   "url": "https://mastodon.social/@Edent/117586502784508240",
+   "up": 17,
+   "com": 4,
+   "at": "2026-11-09T12:34:02.587Z"
   }
  ]
 }
