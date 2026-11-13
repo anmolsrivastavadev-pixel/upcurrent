@@ -5,188 +5,317 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-09T17:30:55.005Z"
+  "updated": "2026-11-13T20:30:51.442Z"
  },
  "pulse": {
-  "trending": 79,
-  "accelerating": 1,
-  "newModels": 7,
-  "discussions": 38,
-  "stars": 1223
+  "trending": 68,
+  "accelerating": 0,
+  "newModels": 6,
+  "discussions": 48,
+  "stars": 685
  },
  "rising": [
-  {
-   "name": "idol",
-   "owner": "speridlabs",
-   "src": "hf",
-   "cat": "Vision",
-   "score": 90,
-   "grow": 8,
-   "desc": "Vision on Hugging Face · open source · ♥ 1.6K",
-   "meta": [
-    "25K downloads",
-    "Released 12 days ago"
-   ],
-   "at": "2026-10-28T15:55:17.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/speridlabs/idol"
-  },
-  {
-   "name": "agent-autoloop",
-   "owner": "KKKKhazix",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 89,
-   "grow": 2,
-   "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
-   "meta": [
-    "★ 4,266",
-    "+195 in 24h",
-    "Created 6 days ago"
-   ],
-   "at": "2026-11-03T08:02:11Z",
-   "breakout": null,
-   "url": "https://github.com/KKKKhazix/agent-autoloop"
-  },
   {
    "name": "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
    "owner": "xtools-at",
    "src": "hf",
    "cat": "Infrastructure",
-   "score": 89,
-   "grow": 66,
-   "desc": "Model on Hugging Face · open source · ♥ 1K",
+   "score": 90,
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 5.3K",
    "meta": [
-    "12K downloads",
-    "Released 10 days ago"
+    "22K downloads",
+    "Released 14 days ago"
    ],
    "at": "2026-10-30T10:21:29.000Z",
    "breakout": null,
    "url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic"
   },
   {
-   "name": "Kimi-K3.1-Pro",
-   "owner": "moonshotai",
-   "src": "hf",
-   "cat": "Vision",
+   "name": "yogurt",
+   "owner": "FrigadeHQ",
+   "src": "gh",
+   "cat": "Agents",
    "score": 89,
-   "grow": 9,
-   "desc": "Vision on Hugging Face · open weights · ♥ 1.8K",
+   "grow": null,
+   "desc": "Private AI meeting notes. Free and open source.",
    "meta": [
-    "28K downloads",
-    "Released 8 days ago"
+    "★ 1,234",
+    "~409 in 24h",
+    "Created 3 days ago"
    ],
-   "at": "2026-11-02T04:13:51.000Z",
+   "at": "2026-11-10T20:01:01Z",
    "breakout": null,
-   "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
+   "url": "https://github.com/FrigadeHQ/yogurt"
   },
   {
-   "name": "Ripple-65B-Preview",
-   "owner": "ricursiveAI",
+   "name": "MiniMax-H3-Image",
+   "owner": "MiniMaxAI",
    "src": "hf",
-   "cat": "Tools",
-   "score": 89,
-   "grow": 15,
-   "desc": "Model on Hugging Face · open source · ♥ 442",
+   "cat": "Vision",
+   "score": 88,
+   "grow": null,
+   "desc": "Vision on Hugging Face · open weights · ♥ 991",
    "meta": [
-    "5.8K downloads",
-    "Released 6 days ago"
+    "437K downloads",
+    "Released 11 days ago"
    ],
-   "at": "2026-11-04T02:41:21.000Z",
+   "at": "2026-11-03T06:34:36.000Z",
    "breakout": null,
-   "url": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview"
+   "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image"
   },
   {
    "name": "Arete-27B",
    "owner": "NousResearch",
    "src": "hf",
    "cat": "LLMs",
-   "score": 89,
-   "grow": 38,
-   "desc": "Model on Hugging Face · open source · ♥ 341",
+   "score": 88,
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 533",
    "meta": [
-    "2.4K downloads",
-    "Released 3 days ago"
+    "5.5K downloads",
+    "Released 7 days ago"
    ],
    "at": "2026-11-06T19:31:28.000Z",
    "breakout": null,
    "url": "https://huggingface.co/NousResearch/Arete-27B"
   },
   {
-   "name": "Qwen3.5-4B-3D-Coder",
-   "owner": "ccore",
+   "name": "idol",
+   "owner": "speridlabs",
    "src": "hf",
-   "cat": "Coding",
+   "cat": "Vision",
    "score": 85,
-   "grow": 14,
-   "desc": "Model on Hugging Face · open source · ♥ 940",
+   "grow": null,
+   "desc": "Vision on Hugging Face · open source · ♥ 2.3K",
    "meta": [
-    "289K downloads",
-    "Released 15 days ago"
+    "31K downloads",
+    "Released 16 days ago"
    ],
-   "at": "2026-10-25T05:43:34.000Z",
+   "at": "2026-10-28T15:55:17.000Z",
    "breakout": null,
-   "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder"
+   "url": "https://huggingface.co/speridlabs/idol"
   },
   {
-   "name": "SplatAnything: Gaussian Spacing Normalization for Feed-forward 3DGS across Arbitrary Scenes",
+   "name": "MiniMax-H3-Image",
+   "owner": "Comfy-Org",
+   "src": "hf",
+   "cat": "Vision",
+   "score": 85,
+   "grow": null,
+   "desc": "Vision on Hugging Face · open weights · ♥ 340",
+   "meta": [
+    "1.3M downloads",
+    "Released 5 days ago"
+   ],
+   "at": "2026-11-08T20:37:23.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image"
+  },
+  {
+   "name": "Actor, Judge, or Teacher? Understanding Decision Models in Long-Horizon Agents",
    "owner": "Paper",
    "src": "paper",
-   "url": "https://huggingface.co/papers/2611.08264",
+   "url": "https://huggingface.co/papers/2611.17167",
    "cat": "Research",
    "score": 85,
    "grow": null,
-   "desc": "We identify a key limitation of existing feed-forward 3DGS methods: Gaussian attributes are typically predicted in a radial-distance-normalized space that canonicalizes a global radial statistic of the reconstructed geometry, while the spacing between neighboring Gaussian centers can still vary substantially across scene scales and camera configurations.",
+   "desc": "Decision models answer a question with a typed output, such as a choice among options with a probability for each, so one model can choose an agent's actions, evaluate actions already taken, or score every action to teach a policy with reinforcement learning.",
    "meta": [
-    "▲ 59 upvotes",
+    "▲ 29 upvotes",
     "Hugging Face Papers"
    ],
-   "at": "2026-11-05T11:37:29.000Z",
+   "at": "2026-11-11T19:00:00.000Z",
    "breakout": null
   },
   {
-   "name": "AXL",
+   "name": "Plurai Simulation",
    "owner": "Product Hunt",
    "src": "ph",
-   "url": "https://www.producthunt.com/products/axl-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29",
+   "url": "https://www.producthunt.com/products/plurai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29",
    "cat": "Agents",
    "score": 85,
    "grow": null,
-   "desc": "GTM copilot for AI product founders: 1,200+ actions via MCP",
+   "desc": "A simulated world that makes your agent improve on every run",
    "meta": [
-    "▲ 271 votes",
-    "64 comments",
-    "Launched yesterday"
+    "▲ 406 votes",
+    "139 comments",
+    "Launched 2 days ago"
    ],
-   "at": "2026-11-08T08:01:00Z",
+   "at": "2026-11-12T08:01:00Z",
    "breakout": null
   },
   {
-   "name": "cinecode",
-   "owner": "sarpstar",
-   "src": "gh",
-   "cat": "Agents",
+   "name": "Kimi-K3.1-Pro",
+   "owner": "moonshotai",
+   "src": "hf",
+   "cat": "Vision",
    "score": 83,
-   "grow": 4,
-   "desc": "Films made with code. Short films, long YouTube videos, ads, explainers and music videos: an AI coding agent writes the script, builds every frame in code, designs the sound and hands you an MP4.",
+   "grow": null,
+   "desc": "Vision on Hugging Face · open weights · ♥ 2K",
    "meta": [
-    "★ 1,858",
-    "+270 in 24h",
-    "Created 6 days ago"
+    "41K downloads",
+    "Released 12 days ago"
    ],
-   "at": "2026-11-03T10:08:16Z",
+   "at": "2026-11-02T04:13:51.000Z",
    "breakout": null,
-   "url": "https://github.com/sarpstar/cinecode"
+   "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
+  },
+  {
+   "name": "Open Vision Banana: A Fully Open Recipe for Generative Visual Perception",
+   "owner": "Paper",
+   "src": "paper",
+   "url": "https://huggingface.co/papers/2611.15844",
+   "cat": "Research",
+   "score": 83,
+   "grow": null,
+   "desc": "Recent work suggests that pretrained image generators encode real-world understanding beyond image synthesis.",
+   "meta": [
+    "▲ 28 upvotes",
+    "Hugging Face Papers"
+   ],
+   "at": "2026-11-10T19:00:00.000Z",
+   "breakout": null
   }
  ],
- "breakouts": [],
+ "breakouts": [
+  {
+   "key": "gemini 4",
+   "label": "Gemini 4",
+   "n": 3,
+   "sources": [
+    {
+     "src": "Google DeepMind blog",
+     "t": "Introducing Gemini 4 Hydrogen",
+     "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
+    },
+    {
+     "src": "Times Now",
+     "t": "Google Gemini 4 Hydrogen Takes On Claude Sonnet 5.5, GPT-6.1 Terra: Features, Pricing",
+     "url": "https://www.timesnownews.com/technology-science/google-gemini-4-hydrogen-takes-on-claude-sonnet-5-5-gpt-6-1-terra-features-pricing-article-156503578"
+    },
+    {
+     "src": "Product Hunt",
+     "t": "Gemini 4 Hydrogen",
+     "url": "https://www.producthunt.com/products/gemini-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
+    }
+   ],
+   "since": "2026-10-01T18:14:41.538Z"
+  },
+  {
+   "key": "gemini 4 hydrogen",
+   "label": "Gemini 4 Hydrogen",
+   "n": 3,
+   "sources": [
+    {
+     "src": "Product Hunt",
+     "t": "Gemini 4 Hydrogen",
+     "url": "https://www.producthunt.com/products/gemini-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
+    },
+    {
+     "src": "Google DeepMind blog",
+     "t": "Introducing Gemini 4 Hydrogen",
+     "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
+    },
+    {
+     "src": "Times Now",
+     "t": "Google Gemini 4 Hydrogen Takes On Claude Sonnet 5.5, GPT-6.1 Terra: Features, Pricing",
+     "url": "https://www.timesnownews.com/technology-science/google-gemini-4-hydrogen-takes-on-claude-sonnet-5-5-gpt-6-1-terra-features-pricing-article-156503578"
+    }
+   ],
+   "since": "2026-11-13T20:30:51.442Z"
+  }
+ ],
  "hype": [
   {
-   "name": "sand3d",
-   "url": "https://github.com/Sandflow-ai/sand3d",
+   "name": "GPT-6",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "DEV",
+     "t": "Reverse Engineering GPT-6 Cyber",
+     "url": "https://dev.to/om_shree_0709/reverse-engineering-gpt-6-cyber-54gj"
+    },
+    {
+     "src": "Techmeme",
+     "t": "OpenAI disbands its standalone robotics team, moving its staff to research and Applied units, saying models like GPT-6 Astra can be directly applied to robotics",
+     "url": "https://www.techmeme.com/261113/p19#a261113p19"
+    }
+   ],
+   "buzz": 2,
+   "verdict": "Talk only, no public usage numbers"
+  },
+  {
+   "name": "Gemini 4",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "Google DeepMind blog",
+     "t": "Introducing Gemini 4 Hydrogen",
+     "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
+    },
+    {
+     "src": "Times Now",
+     "t": "Google Gemini 4 Hydrogen Takes On Claude Sonnet 5.5, GPT-6.1 Terra: Features, Pricing",
+     "url": "https://www.timesnownews.com/technology-science/google-gemini-4-hydrogen-takes-on-claude-sonnet-5-5-gpt-6-1-terra-features-pricing-article-156503578"
+    }
+   ],
+   "buzz": 2,
+   "verdict": "Talk only, no public usage numbers"
+  },
+  {
+   "name": "Gemini 4 Hydrogen",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "Google DeepMind blog",
+     "t": "Introducing Gemini 4 Hydrogen",
+     "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
+    },
+    {
+     "src": "Times Now",
+     "t": "Google Gemini 4 Hydrogen Takes On Claude Sonnet 5.5, GPT-6.1 Terra: Features, Pricing",
+     "url": "https://www.timesnownews.com/technology-science/google-gemini-4-hydrogen-takes-on-claude-sonnet-5-5-gpt-6-1-terra-features-pricing-article-156503578"
+    }
+   ],
+   "buzz": 2,
+   "verdict": "Talk only, no public usage numbers"
+  },
+  {
+   "name": "LFM3-1.7B",
+   "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
+   "from": "Hugging Face",
+   "use": 96615,
+   "useLabel": "97K downloads",
+   "usePct": 0.6,
+   "talk": [
+    {
+     "src": "DEV",
+     "t": "Build an Offline AI Study App with Local Models (Liquid AI LFM3-1.7B)",
+     "url": "https://dev.to/debs_obrien/build-an-offline-ai-study-app-with-local-models-liquid-ai-lfm3-17b-1lio"
+    }
+   ],
+   "buzz": 1,
+   "verdict": "The hype matches real use"
+  },
+  {
+   "name": "yogurt",
+   "url": "https://github.com/FrigadeHQ/yogurt",
    "from": "GitHub",
-   "use": 285,
-   "useLabel": "+285 stars/day",
+   "use": 409,
+   "useLabel": "~409 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -196,8 +325,8 @@
    "name": "Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
    "url": "https://huggingface.co/SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
    "from": "Hugging Face",
-   "use": 4215003,
-   "useLabel": "4.2M downloads",
+   "use": 4081896,
+   "useLabel": "4.1M downloads",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -207,9 +336,9 @@
    "name": "flux-3-image-klein-comfy",
    "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
    "from": "Hugging Face",
-   "use": 1203472,
-   "useLabel": "1.2M downloads",
-   "usePct": 0.9696969696969697,
+   "use": 1330289,
+   "useLabel": "1.3M downloads",
+   "usePct": 0.96,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -217,179 +346,129 @@
  ],
  "receipts": [
   {
-   "name": "mromidev/claude-animated-shorts",
-   "url": "https://github.com/mromidev/claude-animated-shorts",
+   "name": "qybaihe/bla",
+   "url": "https://github.com/qybaihe/bla",
    "kind": "stars",
-   "first": "2026-11-04T08:30:50.766Z",
-   "firstV": 1327,
-   "m": 2500,
-   "at": "2026-11-09T11:30:52.859Z",
-   "lead": 123.00058138888889
-  },
-  {
-   "name": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
-   "url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
-   "kind": "downloads",
-   "first": "2026-11-07T06:30:51.395Z",
-   "firstV": 772,
-   "m": 10000,
-   "at": "2026-11-09T10:30:53.568Z",
-   "lead": 52.00060361111111
-  },
-  {
-   "name": "JuneYaooo/rea-video",
-   "url": "https://github.com/JuneYaooo/rea-video",
-   "kind": "stars",
-   "first": "2026-11-05T05:01:00.795Z",
-   "firstV": 1325,
+   "first": "2026-10-30T10:01:01.019Z",
+   "firstV": 1119,
    "m": 5000,
-   "at": "2026-11-09T09:40:54.889Z",
-   "lead": 100.66502611111112
+   "at": "2026-11-13T20:30:51.442Z",
+   "lead": 346.49733972222225
   },
   {
-   "name": "paipiange/nvzhuang",
-   "url": "https://github.com/paipiange/nvzhuang",
+   "name": "KKKKhazix/agent-autoloop",
+   "url": "https://github.com/KKKKhazix/agent-autoloop",
    "kind": "stars",
-   "first": "2026-10-31T01:00:57.636Z",
-   "firstV": 1195,
-   "m": 2500,
-   "at": "2026-11-09T05:30:51.679Z",
-   "lead": 220.4983452777778
-  },
-  {
-   "name": "microsoft/TokenEconomizer",
-   "url": "https://github.com/microsoft/TokenEconomizer",
-   "kind": "stars",
-   "first": "2026-10-30T13:31:39.108Z",
-   "firstV": 1150,
+   "first": "2026-11-04T07:01:00.857Z",
+   "firstV": 1328,
    "m": 5000,
-   "at": "2026-11-08T13:01:01.330Z",
-   "lead": 215.4895061111111
+   "at": "2026-11-13T20:30:51.442Z",
+   "lead": 229.49738472222222
   },
   {
-   "name": "alchaincyf/huashu-motion",
-   "url": "https://github.com/alchaincyf/huashu-motion",
-   "kind": "stars",
-   "first": "2026-10-20T13:30:57.277Z",
-   "firstV": 1099,
-   "m": 2500,
-   "at": "2026-11-08T11:01:01.731Z",
-   "lead": 453.50123722222224
-  },
-  {
-   "name": "burner22/numbat",
-   "url": "https://huggingface.co/burner22/numbat",
+   "name": "Viggle/Viggle-Remake",
+   "url": "https://huggingface.co/Viggle/Viggle-Remake",
    "kind": "downloads",
-   "first": "2026-11-01T18:30:50.375Z",
-   "firstV": 5846,
-   "m": 10000,
-   "at": "2026-11-08T10:00:58.265Z",
-   "lead": 159.50219166666668
-  },
-  {
-   "name": "mradermacher/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic-i1-GGUF",
-   "url": "https://huggingface.co/mradermacher/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic-i1-GGUF",
-   "kind": "downloads",
-   "first": "2026-11-07T19:01:01.919Z",
-   "firstV": 56199,
+   "first": "2026-11-06T09:30:51.587Z",
+   "firstV": 5215,
    "m": 100000,
-   "at": "2026-11-08T10:00:58.265Z",
-   "lead": 14.998985
+   "at": "2026-11-13T20:30:51.442Z",
+   "lead": 178.99995972222223
+  },
+  {
+   "name": "reacher-z/Awesome-REA",
+   "url": "https://github.com/reacher-z/Awesome-REA",
+   "kind": "stars",
+   "first": "2026-11-07T17:01:02.267Z",
+   "firstV": 1387,
+   "m": 2500,
+   "at": "2026-11-13T20:30:51.442Z",
+   "lead": 147.49699305555555
+  },
+  {
+   "name": "Scantist/GLM-5.3-SLIM-GGUF",
+   "url": "https://huggingface.co/Scantist/GLM-5.3-SLIM-GGUF",
+   "kind": "downloads",
+   "first": "2026-11-08T19:30:49.946Z",
+   "firstV": 4938,
+   "m": 10000,
+   "at": "2026-11-13T20:30:51.442Z",
+   "lead": 121.00041555555555
+  },
+  {
+   "name": "shanselman/gputaskman",
+   "url": "https://github.com/shanselman/gputaskman",
+   "kind": "stars",
+   "first": "2026-11-09T13:01:09.242Z",
+   "firstV": 1334,
+   "m": 2500,
+   "at": "2026-11-13T20:30:51.442Z",
+   "lead": 103.49505555555555
+  },
+  {
+   "name": "VideoRebirthAI/hyperflow-h3-flash",
+   "url": "https://huggingface.co/VideoRebirthAI/hyperflow-h3-flash",
+   "kind": "downloads",
+   "first": "2026-11-09T13:01:09.242Z",
+   "firstV": 64221,
+   "m": 100000,
+   "at": "2026-11-13T20:30:51.442Z",
+   "lead": 103.49505555555555
+  },
+  {
+   "name": "janestreet/agent_skills",
+   "url": "https://github.com/janestreet/agent_skills",
+   "kind": "stars",
+   "first": "2026-11-09T16:01:05.533Z",
+   "firstV": 1423,
+   "m": 5000,
+   "at": "2026-11-13T20:30:51.442Z",
+   "lead": 100.49608583333334
   }
  ],
  "github": [
   {
-   "repo": "Sandflow-ai/sand3d",
-   "stars": 1594,
-   "d24": 285,
-   "est": false,
-   "forks": 177,
-   "contrib": null,
-   "score": 78
-  },
-  {
-   "repo": "sarpstar/cinecode",
-   "stars": 1858,
-   "d24": 270,
-   "est": false,
-   "forks": 334,
-   "contrib": null,
-   "score": 83
-  },
-  {
-   "repo": "janestreet/agent_skills",
-   "stars": 1582,
-   "d24": 262,
+   "repo": "FrigadeHQ/yogurt",
+   "stars": 1234,
+   "d24": 409,
    "est": true,
-   "forks": 86,
-   "contrib": null,
-   "score": 81
-  },
-  {
-   "repo": "shanselman/gputaskman",
-   "stars": 1416,
-   "d24": 211,
-   "est": true,
-   "forks": 69,
-   "contrib": null,
-   "score": 76
-  },
-  {
-   "repo": "KKKKhazix/agent-autoloop",
-   "stars": 4266,
-   "d24": 195,
-   "est": false,
-   "forks": 776,
+   "forks": 52,
    "contrib": null,
    "score": 89
+  },
+  {
+   "repo": "agentes-chat/agentes-chat",
+   "stars": 1330,
+   "d24": 276,
+   "est": true,
+   "forks": 224,
+   "contrib": null,
+   "score": 80
   }
  ],
  "models": [
-  {
-   "name": "idol",
-   "org": "speridlabs",
-   "lic": "Open source",
-   "at": "2026-10-28T15:55:17.000Z",
-   "dl": 24747,
-   "grow": 8,
-   "score": 90,
-   "cat": "Vision",
-   "likes": 1556
-  },
   {
    "name": "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
    "org": "xtools-at",
    "size": "9B",
    "lic": "Open source",
    "at": "2026-10-30T10:21:29.000Z",
-   "dl": 11755,
-   "grow": 66,
-   "score": 89,
+   "dl": 21586,
+   "grow": null,
+   "score": 90,
    "cat": "Infrastructure",
-   "likes": 1013
+   "likes": 5303
   },
   {
-   "name": "Kimi-K3.1-Pro",
-   "org": "moonshotai",
+   "name": "MiniMax-H3-Image",
+   "org": "MiniMaxAI",
    "lic": "Open weights",
-   "at": "2026-11-02T04:13:51.000Z",
-   "dl": 27926,
-   "grow": 9,
-   "score": 89,
+   "at": "2026-11-03T06:34:36.000Z",
+   "dl": 437039,
+   "grow": null,
+   "score": 88,
    "cat": "Vision",
-   "likes": 1775
-  },
-  {
-   "name": "Ripple-65B-Preview",
-   "org": "ricursiveAI",
-   "size": "65B",
-   "lic": "Open source",
-   "at": "2026-11-04T02:41:21.000Z",
-   "dl": 5835,
-   "grow": 15,
-   "score": 89,
-   "cat": "Tools",
-   "likes": 442
+   "likes": 991
   },
   {
    "name": "Arete-27B",
@@ -397,23 +476,44 @@
    "size": "27B",
    "lic": "Open source",
    "at": "2026-11-06T19:31:28.000Z",
-   "dl": 2407,
-   "grow": 38,
-   "score": 89,
+   "dl": 5545,
+   "grow": null,
+   "score": 88,
    "cat": "LLMs",
-   "likes": 341
+   "likes": 533
   },
   {
-   "name": "Qwen3.5-4B-3D-Coder",
-   "org": "ccore",
-   "size": "4B",
+   "name": "idol",
+   "org": "speridlabs",
    "lic": "Open source",
-   "at": "2026-10-25T05:43:34.000Z",
-   "dl": 289466,
-   "grow": 14,
+   "at": "2026-10-28T15:55:17.000Z",
+   "dl": 31367,
+   "grow": null,
    "score": 85,
-   "cat": "Coding",
-   "likes": 940
+   "cat": "Vision",
+   "likes": 2280
+  },
+  {
+   "name": "MiniMax-H3-Image",
+   "org": "Comfy-Org",
+   "lic": "Open weights",
+   "at": "2026-11-08T20:37:23.000Z",
+   "dl": 1257301,
+   "grow": null,
+   "score": 85,
+   "cat": "Vision",
+   "likes": 340
+  },
+  {
+   "name": "Kimi-K3.1-Pro",
+   "org": "moonshotai",
+   "lic": "Open weights",
+   "at": "2026-11-02T04:13:51.000Z",
+   "dl": 40953,
+   "grow": null,
+   "score": 83,
+   "cat": "Vision",
+   "likes": 2017
   }
  ],
  "free": [
@@ -448,16 +548,6 @@
    "added": false
   },
   {
-   "name": "Crouton Alpha Free",
-   "prov": "OpenCode Zen",
-   "ctx": 1048576,
-   "url": null,
-   "caps": [
-    "image/video/application/pdf"
-   ],
-   "added": false
-  },
-  {
    "name": "LongCat 2.5 Free",
    "prov": "OpenCode Zen",
    "ctx": 1000000,
@@ -465,7 +555,7 @@
    "caps": [
     "image"
    ],
-   "added": true
+   "added": false
   },
   {
    "name": "Iceman Free",
@@ -520,6 +610,51 @@
    "added": false
   },
   {
+   "name": "MiniMax M3.1 Flash Free",
+   "prov": "OpenCode Zen",
+   "ctx": 1000000,
+   "url": null,
+   "caps": [
+    "image/jpeg/image/png/image/gif/image/webp/video/mp4/video/x-msvideo/video/quicktime/video/x-matroska"
+   ],
+   "added": true
+  },
+  {
+   "name": "Ling 3.2 Flash",
+   "prov": "OpenRouter",
+   "ctx": 1048576,
+   "url": "https://openrouter.ai/inclusionai/ling-3.2-flash:free",
+   "caps": [
+    "image",
+    "reasoning",
+    "tools"
+   ],
+   "added": true
+  },
+  {
+   "name": "ERNIE-5.5-Flash-Preview",
+   "prov": "OpenRouter",
+   "ctx": 1024000,
+   "url": "https://openrouter.ai/baidu/ernie-5.5-flash-preview:free",
+   "caps": [
+    "reasoning",
+    "tools"
+   ],
+   "added": true
+  },
+  {
+   "name": "Inkling 2 Small",
+   "prov": "OpenRouter",
+   "ctx": 1048576,
+   "url": "https://openrouter.ai/thinkingmachines/inkling-2-small:free",
+   "caps": [
+    "image",
+    "reasoning",
+    "tools"
+   ],
+   "added": true
+  },
+  {
    "name": "LFM3-1.7B",
    "prov": "OpenRouter",
    "ctx": 262144,
@@ -531,33 +666,22 @@
    "added": false
   },
   {
-   "name": "Crouton Alpha",
+   "name": "Particle-1",
    "prov": "OpenRouter",
    "ctx": 1048576,
-   "url": "https://openrouter.ai/stealth/crouton-alpha",
+   "url": "https://openrouter.ai/particle-ai/particle-1:free",
    "caps": [
-    "image/video/file/audio",
+    "image",
     "reasoning",
     "tools"
    ],
-   "added": false
+   "added": true
   },
   {
    "name": "Flint",
    "prov": "OpenRouter",
    "ctx": 262144,
    "url": "https://openrouter.ai/recursive/flint-v1.0:free",
-   "caps": [
-    "reasoning",
-    "tools"
-   ],
-   "added": false
-  },
-  {
-   "name": "Xing4.0 29B A4B",
-   "prov": "OpenRouter",
-   "ctx": 262144,
-   "url": "https://openrouter.ai/xingchen-agi/xing4.0-29b-a4b:free",
    "caps": [
     "reasoning",
     "tools"
@@ -583,17 +707,6 @@
    "url": "https://openrouter.ai/dots-studio/dots-3-note-preview:free",
    "caps": [
     "image",
-    "reasoning",
-    "tools"
-   ],
-   "added": false
-  },
-  {
-   "name": "LFM2.5-2.6B",
-   "prov": "OpenRouter",
-   "ctx": 65536,
-   "url": "https://openrouter.ai/liquid/lfm-2.5-2.6b:free",
-   "caps": [
     "reasoning",
     "tools"
    ],
@@ -706,194 +819,209 @@
   "events": [
    {
     "type": "added",
-    "name": "LongCat 2.5 Free",
+    "name": "MiniMax M3.1 Flash Free",
     "prov": "OpenCode Zen",
     "url": null,
-    "at": "2026-11-09T13:30:54.277Z"
-   },
-   {
-    "type": "removed",
-    "name": "Frantic Ferret Free",
-    "prov": "OpenCode Zen",
-    "url": null,
-    "at": "2026-11-08T21:30:50.208Z"
+    "at": "2026-11-13T20:30:51.442Z"
    },
    {
     "type": "added",
-    "name": "Frantic Ferret Free",
-    "prov": "OpenCode Zen",
-    "url": null,
-    "at": "2026-11-08T19:01:00.497Z"
+    "name": "Particle-1",
+    "prov": "OpenRouter",
+    "url": "https://openrouter.ai/particle-ai/particle-1:free",
+    "at": "2026-11-13T20:30:51.442Z"
+   },
+   {
+    "type": "added",
+    "name": "Inkling 2 Small",
+    "prov": "OpenRouter",
+    "url": "https://openrouter.ai/thinkingmachines/inkling-2-small:free",
+    "at": "2026-11-13T20:30:51.442Z"
+   },
+   {
+    "type": "added",
+    "name": "ERNIE-5.5-Flash-Preview",
+    "prov": "OpenRouter",
+    "url": "https://openrouter.ai/baidu/ernie-5.5-flash-preview:free",
+    "at": "2026-11-13T20:30:51.442Z"
+   },
+   {
+    "type": "added",
+    "name": "Ling 3.2 Flash",
+    "prov": "OpenRouter",
+    "url": "https://openrouter.ai/inclusionai/ling-3.2-flash:free",
+    "at": "2026-11-13T20:30:51.442Z"
    }
   ]
  },
  "headlines": [
   {
-   "t": "Silicon Valley and Trump rally behind Nvidia CEO after his affair with alleged Chinese spy",
-   "url": "https://www.theguardian.com/technology/2026/nov/09/nvidia-jensen-huang-affair-trump-musk",
-   "at": "2026-11-09T16:42:35Z",
+   "t": "Nvidia scandal: US treasury chief blames Lutnick’s commerce department over alleged lack of action",
+   "url": "https://www.theguardian.com/technology/2026/nov/13/nvidia-scandal-sparks-us-national-security-concerns-china",
+   "at": "2026-11-13T19:51:28Z",
    "src": "The Guardian",
    "kind": "News"
   },
   {
-   "t": "Sources: a Commerce Department investigation into Megaspeed for allegedly smuggling Nvidia chips to China was transferred to the DOJ after Nvidia intervened",
-   "url": "https://www.techmeme.com/261109/p32#a261109p32",
-   "at": "2026-11-09T16:20:00.000Z",
+   "t": "Dario Amodei says figuring out how much computing is needed in a year or two is Anthropic's \"deepest business dilemma\" due to the unpredictability of revenue",
+   "url": "https://www.techmeme.com/261113/p25#a261113p25",
+   "at": "2026-11-13T19:20:01.000Z",
    "src": "Techmeme",
    "kind": "News"
   },
   {
-   "t": "In a 60 Minutes interview, Trump says the DOJ threatened a top exec at \"one of the big\" AI companies over \"bad\" activities and this \"person totally changed\"",
-   "url": "https://www.techmeme.com/261109/p31#a261109p31",
-   "at": "2026-11-09T16:10:02.000Z",
+   "t": "Some investors and founders say they lost an ally in Jensen Huang; Nvidia held $48B in 229 private companies as of July and offered $165B in cloud backstops",
+   "url": "https://www.techmeme.com/261113/p24#a261113p24",
+   "at": "2026-11-13T19:10:01.000Z",
    "src": "Techmeme",
    "kind": "News"
   },
   {
-   "t": "Disney and Adobe sign a multiyear deal to build proprietary \"artist-led\" generative AI models with Adobe Firefly Foundry to support Disney's production pipeline",
-   "url": "https://www.techmeme.com/261109/p29#a261109p29",
-   "at": "2026-11-09T15:50:01.000Z",
+   "t": "Claude Duet review: user-friendly, sends a helpful morning brief, and spots scheduling conflicts, but can feel like a neurotic personal assistant that nags",
+   "url": "https://www.techmeme.com/261113/p23#a261113p23",
+   "at": "2026-11-13T18:55:00.000Z",
    "src": "Techmeme",
    "kind": "News"
   },
   {
-   "t": "Draft law: the EU's Digital Fairness Act would require companies to let adults disable addictive features and will target AI systems that simulate relationships",
-   "url": "https://www.techmeme.com/261109/p28#a261109p28",
-   "at": "2026-11-09T15:40:00.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Medium launches TK, an AI-powered, minimalist note-taking, journaling, and private social networking app with daily prompts, its first major launch since 2017",
-   "url": "https://www.techmeme.com/261109/p27#a261109p27",
-   "at": "2026-11-09T15:15:02.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
-   "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
-   "at": "2026-11-09T15:05:57.000Z",
-   "src": "Hugging Face",
-   "kind": "Lab blog"
-  },
-  {
-   "t": "Spines, which uses AI agents to edit and proofread amateur authors' books, design their covers, and handle their layout, raised $29M in equity and $35M in debt",
-   "url": "https://www.techmeme.com/261109/p25#a261109p25",
-   "at": "2026-11-09T14:30:00.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Parents and teachers decry Google pledge to yank Search if schools block AI: ‘This threat is nothing but extortion’",
-   "url": "https://www.theguardian.com/us-news/2026/nov/09/parents-teachers-google-search-schools-ai",
-   "at": "2026-11-09T14:00:11Z",
+   "t": "The Guardian view on M John Harrison’s Booker win: a new frontier for science fiction | Editorial",
+   "url": "https://www.theguardian.com/commentisfree/2026/nov/13/the-guardian-view-on-m-john-harrisons-booker-win-a-new-frontier-for-science-fiction",
+   "at": "2026-11-13T18:00:56Z",
    "src": "The Guardian",
    "kind": "News"
   },
   {
-   "t": "Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation",
-   "url": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
-   "at": "2026-11-09T14:00:01.000Z",
-   "src": "NVIDIA",
-   "kind": "Lab blog"
-  },
-  {
-   "t": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
-   "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
-   "at": "2026-11-09T12:34:29.000Z",
+   "t": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+   "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+   "at": "2026-11-13T18:00:39.000Z",
    "src": "Hugging Face",
    "kind": "Lab blog"
   },
   {
-   "t": "NVIDIA Announces New Planned Investments in Korean Startups at the MSIT-NVIDIA AI Startup Partnership Forum",
-   "url": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/",
-   "at": "2026-11-09T08:00:53.000Z",
-   "src": "NVIDIA",
+   "t": "How it feels to battle with a flood of AI-generated complaints | Letters",
+   "url": "https://www.theguardian.com/technology/2026/nov/13/how-it-feels-to-battle-with-a-flood-of-ai-generated-complaints",
+   "at": "2026-11-13T17:53:05Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "If Gen Z are asked to go to war, it might not be in the way they expect | Brief letters",
+   "url": "https://www.theguardian.com/world/2026/nov/13/if-gen-z-are-asked-to-go-to-war-it-might-not-be-in-the-way-they-expect",
+   "at": "2026-11-13T17:52:28Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "Wall Street fears Jensen Huang's ouster will slow Nvidia's AI dealmaking; sources: its $500B lending consortium is in flux and at least one lender may exit",
+   "url": "https://www.techmeme.com/261113/p20#a261113p20",
+   "at": "2026-11-13T17:30:02.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "OpenAI disbands its standalone robotics team, moving its staff to research and Applied units, saying models like GPT-6 Astra can be directly applied to robotics",
+   "url": "https://www.techmeme.com/261113/p19#a261113p19",
+   "at": "2026-11-13T17:25:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Sources: Anthropic's IPO, like SpaceX's, is closed to institutional investors in mainland China and Hong Kong, partly due to US arms export rules",
+   "url": "https://www.techmeme.com/261113/p18#a261113p18",
+   "at": "2026-11-13T17:10:03.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Sources: Nvidia's board has approached Arm CEO Rene Haas in its search for a potential successor to Jensen Huang; Haas worked at Nvidia more than a decade ago",
+   "url": "https://www.techmeme.com/261113/p17#a261113p17",
+   "at": "2026-11-13T17:03:26.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "XYBench: Helping with the problem behind the question",
+   "url": "https://huggingface.co/blog/allenai/xybench",
+   "at": "2026-11-13T17:02:35.000Z",
+   "src": "Hugging Face",
    "kind": "Lab blog"
   },
   {
-   "t": "G7 talks in Paris to focus on unresolved global crises with questions over US approach",
-   "url": "https://www.ajc.com/news/2026/11/rubio-will-discuss-iran-ukraine-ai-and-more-with-g7-allies-in-france/",
-   "at": "2026-11-09T05:14:11Z",
-   "src": "The Atlanta Journal-Constitution",
+   "t": "‘Ahead of his time’: AI helps unlock discoveries hidden in notebooks of man who transformed maths",
+   "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+   "at": "2026-11-13T16:38:27Z",
+   "src": "The Guardian",
    "kind": "News"
   },
   {
-   "t": "G7 talks in Paris tackle unresolved global crises with questions over US approach",
-   "url": "https://www.ajc.com/news/2026/11/g7-talks-in-paris-to-focus-on-unresolved-global-crises-with-questions-over-us-approach/",
-   "at": "2026-11-09T05:14:11Z",
-   "src": "The Atlanta Journal-Constitution",
+   "t": "OpenAI announces ChatGPT Wallet, which lets its dots AI agents make purchases on behalf of users, available to ChatGPT Pro subscribers in the US who are over 18",
+   "url": "https://www.techmeme.com/261113/p15#a261113p15",
+   "at": "2026-11-13T15:35:05.000Z",
+   "src": "Techmeme",
    "kind": "News"
   },
   {
-   "t": "GreenCore Solutions Rebrands as WeFetch.ai for the AI Shopping Market: gtinfetch.ai lead product",
-   "url": "https://www.prnewswire.co.uk/news-releases/greencore-solutions-rebrands-as-wefetchai-for-the-ai-shopping-market-gtinfetchai-lead-product-302932964.html",
-   "at": "2026-11-09T05:10:00Z",
-   "src": "PR Newswire UK",
+   "t": "Sources: SpaceX laid off ~60 Grok Imagine staffers in the past week, leaving a handful to keep the product alive, as it prioritizes AI coding tools and Grok Bot",
+   "url": "https://www.techmeme.com/261113/p14#a261113p14",
+   "at": "2026-11-13T15:15:02.000Z",
+   "src": "Techmeme",
    "kind": "News"
-  },
-  {
-   "t": "Korea Advances Physical AI Across Industries With NVIDIA",
-   "url": "https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem/",
-   "at": "2026-11-09T05:00:40.000Z",
-   "src": "NVIDIA",
-   "kind": "Lab blog"
   }
  ],
  "discussions": [
   {
    "src": "Hacker News",
-   "t": "Fold Epic Paper Airplanes",
-   "url": "https://news.ycombinator.com/item?id=50424581",
-   "link": "https://www.foldableflight.com",
-   "up": 499,
-   "com": 84,
-   "at": "2026-11-09T12:19:22.000Z"
+   "t": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems",
+   "url": "https://news.ycombinator.com/item?id=50486748",
+   "link": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+   "up": 215,
+   "com": 49,
+   "at": "2026-11-13T17:30:10.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "The same H100 costs $2.69 or $12.29 an hour depending where you rent it",
-   "url": "https://news.ycombinator.com/item?id=50427085",
-   "link": "https://github.com/datareceipts/data-receipts/tree/main/109-gpu-pricing",
-   "up": 78,
-   "com": 44,
-   "at": "2026-11-09T15:39:01.000Z"
+   "t": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+   "url": "https://news.ycombinator.com/item?id=50481187",
+   "link": "https://status.claude.com/incidents/nn11wk485zfn",
+   "up": 467,
+   "com": 373,
+   "at": "2026-11-13T10:18:13.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Goldman Sachs is pulling Claude Code from its bankers and traders",
-   "url": "https://news.ycombinator.com/item?id=50415628",
-   "link": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
-   "up": 861,
-   "com": 466,
-   "at": "2026-11-08T18:16:07.000Z"
+   "t": "OpenAI disbands its robotics team as its general models start running robots",
+   "url": "https://news.ycombinator.com/item?id=50487184",
+   "link": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/",
+   "up": 86,
+   "com": 26,
+   "at": "2026-11-13T17:55:23.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU",
-   "url": "https://news.ycombinator.com/item?id=50418176",
-   "link": "https://ketchup3d.github.io/app/",
-   "up": 688,
-   "com": 201,
-   "at": "2026-11-08T22:35:35.000Z"
+   "t": "AI is destroying the trust between writers and readers",
+   "url": "https://news.ycombinator.com/item?id=50481870",
+   "link": "https://www.theatlantic.com/books/2026/11/ai-literary-scams-amazon/689391/",
+   "up": 278,
+   "com": 168,
+   "at": "2026-11-13T11:13:46.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "I'm not convinced the AI bubble exists",
-   "url": "https://news.ycombinator.com/item?id=50418975",
-   "link": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
-   "up": 496,
-   "com": 848,
-   "at": "2026-11-08T23:44:36.000Z"
+   "t": "The avalanche that hit math is coming for AI development",
+   "url": "https://news.ycombinator.com/item?id=50487854",
+   "link": "https://www.dwarkesh.com/p/rsi",
+   "up": 51,
+   "com": 78,
+   "at": "2026-11-13T18:39:42.000Z"
   },
   {
-   "src": "DEV",
-   "t": "Our Looping Factory Cut DEV Page Load Time by 75% and Counting",
-   "url": "https://dev.to/dailycontext/our-looping-factory-cut-dev-page-load-time-by-75-and-counting-1hnf",
-   "up": 34,
-   "com": 1,
-   "at": "2026-11-09T16:12:25Z"
+   "src": "Hacker News",
+   "t": "Reverse engineering my Coway air purifier to ditch the cloud",
+   "url": "https://news.ycombinator.com/item?id=50474959",
+   "link": "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/",
+   "up": 589,
+   "com": 163,
+   "at": "2026-11-12T22:03:09.000Z"
   }
  ]
 }
