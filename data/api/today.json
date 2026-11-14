@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-14T16:01:01.116Z"
+  "updated": "2026-11-14T16:30:52.116Z"
  },
  "pulse": {
   "trending": 69,
-  "accelerating": 3,
+  "accelerating": 2,
   "newModels": 5,
   "discussions": 47,
-  "stars": 260
+  "stars": 607
  },
  "rising": [
   {
@@ -21,7 +21,7 @@
    "src": "hf",
    "cat": "Infrastructure",
    "score": 90,
-   "grow": 13,
+   "grow": null,
    "desc": "Model on Hugging Face · open source · ♥ 7.3K",
    "meta": [
     "24K downloads",
@@ -37,7 +37,7 @@
    "src": "hf",
    "cat": "Vision",
    "score": 88,
-   "grow": 19,
+   "grow": null,
    "desc": "Vision on Hugging Face · open weights · ♥ 1.1K",
    "meta": [
     "518K downloads",
@@ -53,7 +53,7 @@
    "src": "hf",
    "cat": "LLMs",
    "score": 88,
-   "grow": 12,
+   "grow": null,
    "desc": "Model on Hugging Face · open source · ♥ 585",
    "meta": [
     "6.2K downloads",
@@ -69,11 +69,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 86,
-   "grow": 13,
+   "grow": null,
    "desc": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux.",
    "meta": [
-    "★ 1,397",
-    "+201 in 24h",
+    "★ 1,400",
+    "~363 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-10T20:01:01Z",
@@ -86,7 +86,7 @@
    "src": "hf",
    "cat": "Vision",
    "score": 86,
-   "grow": 28,
+   "grow": null,
    "desc": "Vision on Hugging Face · open weights · ♥ 376",
    "meta": [
     "1.6M downloads",
@@ -102,7 +102,7 @@
    "src": "hf",
    "cat": "Vision",
    "score": 85,
-   "grow": 4,
+   "grow": null,
    "desc": "Vision on Hugging Face · open source · ♥ 2.3K",
    "meta": [
     "33K downloads",
@@ -138,7 +138,7 @@
    "grow": null,
    "desc": "Add Claude to your call and get work started as you talk",
    "meta": [
-    "▲ 288 votes",
+    "▲ 289 votes",
     "15 comments",
     "Launched yesterday"
    ],
@@ -151,8 +151,8 @@
    "src": "hf",
    "cat": "LLMs",
    "score": 83,
-   "grow": 51,
-   "desc": "Model on Hugging Face · open source · ♥ 331",
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 332",
    "meta": [
     "20K downloads",
     "Released 5 days ago"
@@ -292,8 +292,8 @@
    "name": "yogurt",
    "url": "https://github.com/FrigadeHQ/yogurt",
    "from": "GitHub",
-   "use": 201,
-   "useLabel": "+201 stars/day",
+   "use": 363,
+   "useLabel": "~363 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -407,19 +407,19 @@
  "github": [
   {
    "repo": "FrigadeHQ/yogurt",
-   "stars": 1397,
-   "d24": 201,
-   "est": false,
+   "stars": 1400,
+   "d24": 363,
+   "est": true,
    "forks": 71,
    "contrib": null,
    "score": 86
   },
   {
    "repo": "agentes-chat/agentes-chat",
-   "stars": 1378,
-   "d24": 59,
-   "est": false,
-   "forks": 243,
+   "stars": 1380,
+   "d24": 244,
+   "est": true,
+   "forks": 244,
    "contrib": null,
    "score": 78
   }
@@ -432,10 +432,10 @@
    "lic": "Open source",
    "at": "2026-10-30T10:21:29.000Z",
    "dl": 24470,
-   "grow": 13,
+   "grow": null,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 7282
+   "likes": 7288
   },
   {
    "name": "MiniMax-H3-Image",
@@ -443,10 +443,10 @@
    "lic": "Open weights",
    "at": "2026-11-03T06:34:36.000Z",
    "dl": 517948,
-   "grow": 19,
+   "grow": null,
    "score": 88,
    "cat": "Vision",
-   "likes": 1091
+   "likes": 1092
   },
   {
    "name": "Arete-27B",
@@ -455,7 +455,7 @@
    "lic": "Open source",
    "at": "2026-11-06T19:31:28.000Z",
    "dl": 6191,
-   "grow": 12,
+   "grow": null,
    "score": 88,
    "cat": "LLMs",
    "likes": 585
@@ -466,7 +466,7 @@
    "lic": "Open weights",
    "at": "2026-11-08T20:37:23.000Z",
    "dl": 1615613,
-   "grow": 28,
+   "grow": null,
    "score": 86,
    "cat": "Vision",
    "likes": 376
@@ -477,10 +477,10 @@
    "lic": "Open source",
    "at": "2026-10-28T15:55:17.000Z",
    "dl": 32619,
-   "grow": 4,
+   "grow": null,
    "score": 85,
    "cat": "Vision",
-   "likes": 2330
+   "likes": 2331
   },
   {
    "name": "ZONOS3-Mini",
@@ -488,10 +488,10 @@
    "lic": "Open source",
    "at": "2026-11-09T05:03:57.000Z",
    "dl": 19743,
-   "grow": 51,
+   "grow": null,
    "score": 83,
    "cat": "LLMs",
-   "likes": 331
+   "likes": 332
   }
  ],
  "free": [
@@ -918,10 +918,38 @@
    "kind": "Video"
   },
   {
+   "t": "Moneycontrol Pro Weekender | AI=Amorous Indiscretions",
+   "url": "https://www.moneycontrol.com/news/business/markets/moneycontrol-pro-weekender-ai-amorous-indiscretions-14079736.html",
+   "at": "2026-11-14T04:30:04Z",
+   "src": "Moneycontrol",
+   "kind": "News"
+  },
+  {
    "t": "Analysis: Sam Bankman-Fried's $500M Anthropic investment in 2021 would be worth ~$37B if Anthropic lists at ~$1.5T; he relinquished his stake in 2024 for ~$1.3B",
    "url": "https://www.techmeme.com/261113/p42#a261113p42",
    "at": "2026-11-14T04:25:01.000Z",
    "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Nvidia row: Ex Nvidia CEO Jensen Huang misled company leaders on relationship with Alice Huang, claims report",
+   "url": "https://www.businesstoday.in/technology/news/story/nvidia-row-ex-nvidia-ceo-jensen-huang-misled-company-leaders-on-relationship-with-alice-huang-claims-report-567448-2026-11-14",
+   "at": "2026-11-14T04:17:29Z",
+   "src": "Business Today",
+   "kind": "News"
+  },
+  {
+   "t": "Bitcoin’s billion-dollar wipeouts are becoming a familiar sight",
+   "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/bitcoins-billion-dollar-wipeouts-are-becoming-a-familiar-sight/articleshow/135822462.cms",
+   "at": "2026-11-14T04:16:00Z",
+   "src": "The Economic Times",
+   "kind": "News"
+  },
+  {
+   "t": "Trump invested up to $5mn in Nvidia before changing US chip export rules, report finds",
+   "url": "https://www.thenews.com.pk/latest/1423546-trump-invested-up-to-5mn-in-nvidia-before-changing-us-chip-export-rules-report-finds",
+   "at": "2026-11-14T04:15:14Z",
+   "src": "The News International",
    "kind": "News"
   },
   {
@@ -944,34 +972,6 @@
    "at": "2026-11-14T03:42:27Z",
    "src": "ANI (Asian News International)",
    "kind": "News"
-  },
-  {
-   "t": "Your chatbot just got a credit card: OpenAI launches ChatGPT Wallet for autonomous shopping",
-   "url": "https://www.businesstoday.in/technology/story/your-chatbot-just-got-a-credit-card-openai-launches-chatgpt-wallet-for-autonomous-shopping-567446-2026-11-14",
-   "at": "2026-11-14T03:23:06Z",
-   "src": "Business Today",
-   "kind": "News"
-  },
-  {
-   "t": "Musk Makes MASSIVE AI Move After Midterm Disaster",
-   "url": "https://www.youtube.com/watch?v=FaErjxv_nlE",
-   "at": "2026-11-14T03:00:32Z",
-   "src": "The Young Turks",
-   "kind": "Video"
-  },
-  {
-   "t": "US to resume flights after air traffic problem sparks chaos",
-   "url": "https://www.sbs.com.au/news/article/us-to-resume-flights-after-air-traffic-problem-sparks-chaos/h2dimqrft",
-   "at": "2026-11-14T02:58:04Z",
-   "src": "SBS Australia",
-   "kind": "News"
-  },
-  {
-   "t": "Jensen Huang exit and US scrutiny imperil $3 billion in Chinese AI projects reliant on Nvidia",
-   "url": "https://economictimes.indiatimes.com/tech/technology/jensen-huang-exit-and-us-scrutiny-imperil-3-billion-in-chinese-ai-projects-reliant-on-nvidia/articleshow/135820982.cms",
-   "at": "2026-11-14T02:55:18Z",
-   "src": "The Economic Times",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -980,8 +980,8 @@
    "t": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
    "url": "https://news.ycombinator.com/item?id=50493251",
    "link": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
-   "up": 875,
-   "com": 525,
+   "up": 901,
+   "com": 540,
    "at": "2026-11-14T02:52:59.000Z"
   },
   {
@@ -989,8 +989,8 @@
    "t": "The Claude Delusion",
    "url": "https://news.ycombinator.com/item?id=50496921",
    "link": "https://www.netmeister.org/blog/claude-delusion.html",
-   "up": 118,
-   "com": 125,
+   "up": 121,
+   "com": 143,
    "at": "2026-11-14T13:36:17.000Z"
   },
   {
@@ -998,8 +998,8 @@
    "t": "Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM",
    "url": "https://news.ycombinator.com/item?id=50497155",
    "link": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
-   "up": 52,
-   "com": 30,
+   "up": 61,
+   "com": 33,
    "at": "2026-11-14T14:09:25.000Z"
   },
   {
@@ -1007,8 +1007,8 @@
    "t": "Ggml v1.0.0",
    "url": "https://news.ycombinator.com/item?id=50493062",
    "link": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0",
-   "up": 355,
-   "com": 54,
+   "up": 362,
+   "com": 56,
    "at": "2026-11-14T02:28:29.000Z"
   },
   {
@@ -1016,8 +1016,8 @@
    "t": "Show HN: A terminal-native idle factory game, written in Rust with ratatui",
    "url": "https://news.ycombinator.com/item?id=50497132",
    "link": "https://gitlab.com/snipedbywifi/terminactory",
-   "up": 46,
-   "com": 3,
+   "up": 54,
+   "com": 7,
    "at": "2026-11-14T14:05:54.000Z"
   },
   {
@@ -1025,8 +1025,8 @@
    "t": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems",
    "url": "https://news.ycombinator.com/item?id=50486748",
    "link": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
-   "up": 408,
-   "com": 103,
+   "up": 409,
+   "com": 104,
    "at": "2026-11-13T17:30:10.000Z"
   }
  ]
