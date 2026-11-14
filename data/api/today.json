@@ -5,13 +5,13 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-14T21:30:50.762Z"
+  "updated": "2026-11-14T22:00:56.670Z"
  },
  "pulse": {
   "trending": 68,
   "accelerating": 1,
   "newModels": 5,
-  "discussions": 38,
+  "discussions": 40,
   "stars": 595
  },
  "rising": [
@@ -56,7 +56,7 @@
    "grow": null,
    "desc": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux.",
    "meta": [
-    "★ 1,455",
+    "★ 1,461",
     "~358 in 24h",
     "Created 4 days ago"
    ],
@@ -65,43 +65,11 @@
    "url": "https://github.com/FrigadeHQ/yogurt"
   },
   {
-   "name": "Arete-27B",
-   "owner": "NousResearch",
-   "src": "hf",
-   "cat": "LLMs",
-   "score": 86,
-   "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 588",
-   "meta": [
-    "6.2K downloads",
-    "Released 8 days ago"
-   ],
-   "at": "2026-11-06T19:31:28.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/NousResearch/Arete-27B"
-  },
-  {
-   "name": "MiniMax-H3-Image",
-   "owner": "Comfy-Org",
-   "src": "hf",
-   "cat": "Vision",
-   "score": 86,
-   "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 381",
-   "meta": [
-    "1.6M downloads",
-    "Released 6 days ago"
-   ],
-   "at": "2026-11-08T20:37:23.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image"
-  },
-  {
    "name": "idol",
    "owner": "speridlabs",
    "src": "hf",
    "cat": "Vision",
-   "score": 85,
+   "score": 86,
    "grow": null,
    "desc": "Vision on Hugging Face · open source · ♥ 2.3K",
    "meta": [
@@ -111,6 +79,38 @@
    "at": "2026-10-28T15:55:17.000Z",
    "breakout": null,
    "url": "https://huggingface.co/speridlabs/idol"
+  },
+  {
+   "name": "MiniMax-H3-Image",
+   "owner": "Comfy-Org",
+   "src": "hf",
+   "cat": "Vision",
+   "score": 86,
+   "grow": null,
+   "desc": "Vision on Hugging Face · open weights · ♥ 382",
+   "meta": [
+    "1.6M downloads",
+    "Released 6 days ago"
+   ],
+   "at": "2026-11-08T20:37:23.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image"
+  },
+  {
+   "name": "Arete-27B",
+   "owner": "NousResearch",
+   "src": "hf",
+   "cat": "LLMs",
+   "score": 85,
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 588",
+   "meta": [
+    "6.2K downloads",
+    "Released 8 days ago"
+   ],
+   "at": "2026-11-06T19:31:28.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/NousResearch/Arete-27B"
   },
   {
    "name": "Open Vision Banana: A Fully Open Recipe for Generative Visual Perception",
@@ -138,28 +138,12 @@
    "grow": null,
    "desc": "Add Claude to your call and get work started as you talk",
    "meta": [
-    "▲ 290 votes",
+    "▲ 291 votes",
     "15 comments",
     "Launched 2 days ago"
    ],
    "at": "2026-11-13T08:00:00Z",
    "breakout": null
-  },
-  {
-   "name": "ZONOS3-Mini",
-   "owner": "Zyphra",
-   "src": "hf",
-   "cat": "LLMs",
-   "score": 83,
-   "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 341",
-   "meta": [
-    "20K downloads",
-    "Released 6 days ago"
-   ],
-   "at": "2026-11-09T05:03:57.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/Zyphra/ZONOS3-Mini"
   },
   {
    "name": "Ropedia Xperience 2: A Gold Standard for Scaling Physical AI Environments and Behaviors",
@@ -175,6 +159,23 @@
     "Hugging Face Papers"
    ],
    "at": "2026-11-11T19:00:00.000Z",
+   "breakout": null
+  },
+  {
+   "name": "HiringNow",
+   "owner": "Product Hunt",
+   "src": "ph",
+   "url": "https://www.producthunt.com/products/hiringnow?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29",
+   "cat": "Agents",
+   "score": 83,
+   "grow": null,
+   "desc": "AI job agent that finds & apply for jobs before anyone else.",
+   "meta": [
+    "▲ 215 votes",
+    "21 comments",
+    "Launched 14h ago"
+   ],
+   "at": "2026-11-14T08:01:00Z",
    "breakout": null
   }
  ],
@@ -407,7 +408,7 @@
  "github": [
   {
    "repo": "FrigadeHQ/yogurt",
-   "stars": 1455,
+   "stars": 1461,
    "d24": 358,
    "est": true,
    "forks": 75,
@@ -416,7 +417,7 @@
   },
   {
    "repo": "agentes-chat/agentes-chat",
-   "stars": 1392,
+   "stars": 1395,
    "d24": 237,
    "est": true,
    "forks": 247,
@@ -435,7 +436,7 @@
    "grow": null,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 7344
+   "likes": 7346
   },
   {
    "name": "MiniMax-H3-Image",
@@ -446,19 +447,18 @@
    "grow": null,
    "score": 88,
    "cat": "Vision",
-   "likes": 1110
+   "likes": 1112
   },
   {
-   "name": "Arete-27B",
-   "org": "NousResearch",
-   "size": "27B",
+   "name": "idol",
+   "org": "speridlabs",
    "lic": "Open source",
-   "at": "2026-11-06T19:31:28.000Z",
-   "dl": 6191,
+   "at": "2026-10-28T15:55:17.000Z",
+   "dl": 32619,
    "grow": null,
    "score": 86,
-   "cat": "LLMs",
-   "likes": 588
+   "cat": "Vision",
+   "likes": 2339
   },
   {
    "name": "MiniMax-H3-Image",
@@ -469,18 +469,19 @@
    "grow": null,
    "score": 86,
    "cat": "Vision",
-   "likes": 381
+   "likes": 382
   },
   {
-   "name": "idol",
-   "org": "speridlabs",
+   "name": "Arete-27B",
+   "org": "NousResearch",
+   "size": "27B",
    "lic": "Open source",
-   "at": "2026-10-28T15:55:17.000Z",
-   "dl": 32619,
+   "at": "2026-11-06T19:31:28.000Z",
+   "dl": 6191,
    "grow": null,
    "score": 85,
-   "cat": "Vision",
-   "likes": 2338
+   "cat": "LLMs",
+   "likes": 588
   },
   {
    "name": "ZONOS3-Mini",
@@ -489,7 +490,7 @@
    "at": "2026-11-09T05:03:57.000Z",
    "dl": 19743,
    "grow": null,
-   "score": 83,
+   "score": 82,
    "cat": "LLMs",
    "likes": 341
   }
@@ -833,10 +834,45 @@
    "kind": "News"
   },
   {
+   "t": "Is the AI party over after a week from hell? | BBC News",
+   "url": "https://www.youtube.com/watch?v=HAF50MLyERU",
+   "at": "2026-11-14T14:00:37Z",
+   "src": "BBC News",
+   "kind": "Video"
+  },
+  {
    "t": "‘The social contract is broken’: young people on feeling shut out of careers",
    "url": "https://www.theguardian.com/business/2026/nov/14/young-people-shut-out-of-work-ai",
    "at": "2026-11-14T10:00:42Z",
    "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "Experts warn about risks of AI-generated content in child sexual abuse material",
+   "url": "https://www.cbc.ca/news/canada/prince-edward-island/pei-artificial-intelligence-child-sexual-abuse-police-experts-9.7419753",
+   "at": "2026-11-14T10:00:00Z",
+   "src": "CBC.ca",
+   "kind": "News"
+  },
+  {
+   "t": "Marcos creates National Artificial Intelligence Council",
+   "url": "https://www.rappler.com/technology/marcos-jr-creates-national-artificial-intelligence-council-governance-framework/",
+   "at": "2026-11-14T09:58:52Z",
+   "src": "Rappler",
+   "kind": "News"
+  },
+  {
+   "t": "Who is Rene Haas? Arm CEO emerges as potential successor to Nvidia's Jensen Huang",
+   "url": "https://www.businesstoday.in/technology/news/story/who-is-rene-haas-arm-ceo-emerges-as-potential-successor-to-nvidias-jensen-huang-567462-2026-11-14",
+   "at": "2026-11-14T09:40:20Z",
+   "src": "Business Today",
+   "kind": "News"
+  },
+  {
+   "t": "Trump’s advisers clash over Nvidia",
+   "url": "https://www.arkansasonline.com/news/2026/nov/14/trumps-advisers-clash-over-nvidia/",
+   "at": "2026-11-14T09:33:00Z",
+   "src": "Arkansas Online",
    "kind": "News"
   },
   {
@@ -873,41 +909,6 @@
    "at": "2026-11-14T08:53:21Z",
    "src": "ThePrint",
    "kind": "News"
-  },
-  {
-   "t": "Jensen Huang’s Nvidia Exit: How The Overall AI Growth Could Be Affected",
-   "url": "https://www.timesnownews.com/technology-science/jensen-huangs-nvidia-exit-how-the-overall-ai-growth-could-be-affected-article-156508573",
-   "at": "2026-11-14T08:42:42Z",
-   "src": "Times Now",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI launches ChatGPT Wallet, lets AI agents shop using your credit card",
-   "url": "https://www.indiatoday.in/technology/news/story/openai-launches-chatgpt-wallet-lets-ai-agents-shop-using-your-credit-card-3038783-2026-11-14",
-   "at": "2026-11-14T08:26:30Z",
-   "src": "India Today",
-   "kind": "News"
-  },
-  {
-   "t": "ChatGPT can now shop for you",
-   "url": "https://www.newsbytesapp.com/news/science/openai-introduces-chatgpt-wallet-letting-ai-shop-on-users-behalf/story",
-   "at": "2026-11-14T07:50:55Z",
-   "src": "NewsBytes",
-   "kind": "News"
-  },
-  {
-   "t": "Marcos signs order adapting AI framework",
-   "url": "https://www.manilatimes.net/2026/11/14/news/marcos-signs-order-adapting-ai-framework/2470009",
-   "at": "2026-11-14T07:45:00Z",
-   "src": "The Manila Times",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI expands into payments with ChatGPT Wallet, allowing AI agents to make purchases using users' cards",
-   "url": "https://www.thehindubusinessline.com/info-tech/openai-expands-into-payments-with-chatgpt-wallet-allowing-ai-agents-to-make-purchases-using-users-cards/article71700851.ece",
-   "at": "2026-11-14T07:36:43Z",
-   "src": "The Hindu Business Line",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -916,8 +917,8 @@
    "t": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
    "url": "https://news.ycombinator.com/item?id=50493251",
    "link": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
-   "up": 1005,
-   "com": 607,
+   "up": 1007,
+   "com": 608,
    "at": "2026-11-14T02:52:59.000Z"
   },
   {
@@ -925,8 +926,8 @@
    "t": "US IRS free online tax filing open source repo (2025)",
    "url": "https://news.ycombinator.com/item?id=50499083",
    "link": "https://github.com/IRS-Public/direct-file",
-   "up": 113,
-   "com": 59,
+   "up": 122,
+   "com": 68,
    "at": "2026-11-14T17:48:20.000Z"
   },
   {
@@ -934,16 +935,25 @@
    "t": "Ggml v1.0.0",
    "url": "https://news.ycombinator.com/item?id=50493062",
    "link": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0",
-   "up": 391,
+   "up": 393,
    "com": 67,
    "at": "2026-11-14T02:28:29.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
+   "url": "https://news.ycombinator.com/item?id=50497589",
+   "link": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
+   "up": 116,
+   "com": 7,
+   "at": "2026-11-14T15:04:15.000Z"
   },
   {
    "src": "Hacker News",
    "t": "The Claude Delusion",
    "url": "https://news.ycombinator.com/item?id=50496921",
    "link": "https://www.netmeister.org/blog/claude-delusion.html",
-   "up": 139,
+   "up": 140,
    "com": 180,
    "at": "2026-11-14T13:36:17.000Z"
   },
@@ -952,18 +962,9 @@
    "t": "Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM",
    "url": "https://news.ycombinator.com/item?id=50497155",
    "link": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
-   "up": 122,
+   "up": 124,
    "com": 64,
    "at": "2026-11-14T14:09:25.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
-   "url": "https://news.ycombinator.com/item?id=50497589",
-   "link": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
-   "up": 103,
-   "com": 6,
-   "at": "2026-11-14T15:04:15.000Z"
   }
  ]
 }
