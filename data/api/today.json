@@ -5,12 +5,12 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-14T02:00:59.557Z"
+  "updated": "2026-11-14T02:30:49.674Z"
  },
  "pulse": {
-  "trending": 68,
+  "trending": 69,
   "accelerating": 0,
-  "newModels": 6,
+  "newModels": 7,
   "discussions": 51,
   "stars": 660
  },
@@ -40,8 +40,8 @@
    "grow": null,
    "desc": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux.",
    "meta": [
-    "★ 1,282",
-    "~394 in 24h",
+    "★ 1,291",
+    "~395 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-10T20:01:01Z",
@@ -103,7 +103,7 @@
    "cat": "Vision",
    "score": 85,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 345",
+   "desc": "Vision on Hugging Face · open weights · ♥ 347",
    "meta": [
     "1.3M downloads",
     "Released 5 days ago"
@@ -122,7 +122,7 @@
    "grow": null,
    "desc": "Recent work suggests that pretrained image generators encode real-world understanding beyond image synthesis.",
    "meta": [
-    "▲ 29 upvotes",
+    "▲ 30 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-11-10T19:00:00.000Z",
@@ -146,6 +146,22 @@
    "breakout": null
   },
   {
+   "name": "ZONOS3-Mini",
+   "owner": "Zyphra",
+   "src": "hf",
+   "cat": "LLMs",
+   "score": 84,
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 293",
+   "meta": [
+    "13K downloads",
+    "Released 5 days ago"
+   ],
+   "at": "2026-11-09T05:03:57.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/Zyphra/ZONOS3-Mini"
+  },
+  {
    "name": "Kimi-K3.1-Pro",
    "owner": "moonshotai",
    "src": "hf",
@@ -160,22 +176,6 @@
    "at": "2026-11-02T04:13:51.000Z",
    "breakout": null,
    "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
-  },
-  {
-   "name": "ZONOS3-Mini",
-   "owner": "Zyphra",
-   "src": "hf",
-   "cat": "LLMs",
-   "score": 83,
-   "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 291",
-   "meta": [
-    "13K downloads",
-    "Released 5 days ago"
-   ],
-   "at": "2026-11-09T05:03:57.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/Zyphra/ZONOS3-Mini"
   }
  ],
  "breakouts": [
@@ -277,7 +277,7 @@
    "from": "Hugging Face",
    "use": 96615,
    "useLabel": "97K downloads",
-   "usePct": 0.6,
+   "usePct": 0.6153846153846154,
    "talk": [
     {
      "src": "DEV",
@@ -292,8 +292,8 @@
    "name": "yogurt",
    "url": "https://github.com/FrigadeHQ/yogurt",
    "from": "GitHub",
-   "use": 394,
-   "useLabel": "~394 stars/day",
+   "use": 395,
+   "useLabel": "~395 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -316,7 +316,7 @@
    "from": "Hugging Face",
    "use": 1330289,
    "useLabel": "1.3M downloads",
-   "usePct": 0.96,
+   "usePct": 0.9615384615384616,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -407,19 +407,19 @@
  "github": [
   {
    "repo": "FrigadeHQ/yogurt",
-   "stars": 1282,
-   "d24": 394,
+   "stars": 1291,
+   "d24": 395,
    "est": true,
-   "forks": 55,
+   "forks": 57,
    "contrib": null,
    "score": 89
   },
   {
    "repo": "agentes-chat/agentes-chat",
-   "stars": 1345,
-   "d24": 266,
+   "stars": 1346,
+   "d24": 265,
    "est": true,
-   "forks": 228,
+   "forks": 231,
    "contrib": null,
    "score": 79
   }
@@ -435,7 +435,7 @@
    "grow": null,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 6073
+   "likes": 6131
   },
   {
    "name": "MiniMax-H3-Image",
@@ -446,7 +446,7 @@
    "grow": null,
    "score": 88,
    "cat": "Vision",
-   "likes": 1020
+   "likes": 1021
   },
   {
    "name": "Arete-27B",
@@ -480,18 +480,18 @@
    "grow": null,
    "score": 85,
    "cat": "Vision",
-   "likes": 345
+   "likes": 347
   },
   {
-   "name": "Kimi-K3.1-Pro",
-   "org": "moonshotai",
-   "lic": "Open weights",
-   "at": "2026-11-02T04:13:51.000Z",
-   "dl": 40953,
+   "name": "ZONOS3-Mini",
+   "org": "Zyphra",
+   "lic": "Open source",
+   "at": "2026-11-09T05:03:57.000Z",
+   "dl": 13068,
    "grow": null,
-   "score": 83,
-   "cat": "Vision",
-   "likes": 2033
+   "score": 84,
+   "cat": "LLMs",
+   "likes": 293
   }
  ],
  "free": [
@@ -953,13 +953,6 @@
    "kind": "News"
   },
   {
-   "t": "Some investors and founders say they lost an ally in Jensen Huang; Nvidia held $48B in 229 private companies as of July and offered $165B in cloud backstops",
-   "url": "https://www.techmeme.com/261113/p24#a261113p24",
-   "at": "2026-11-13T19:10:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "The Guardian view on M John Harrison’s Booker win: a new frontier for science fiction | Editorial",
    "url": "https://www.theguardian.com/commentisfree/2026/nov/13/the-guardian-view-on-m-john-harrisons-booker-win-a-new-frontier-for-science-fiction",
    "at": "2026-11-13T18:00:56Z",
@@ -972,6 +965,13 @@
    "at": "2026-11-13T18:00:39.000Z",
    "src": "Hugging Face",
    "kind": "Lab blog"
+  },
+  {
+   "t": "How it feels to battle with a flood of AI-generated complaints | Letters",
+   "url": "https://www.theguardian.com/technology/2026/nov/13/how-it-feels-to-battle-with-a-flood-of-ai-generated-complaints",
+   "at": "2026-11-13T17:53:05Z",
+   "src": "The Guardian",
+   "kind": "News"
   }
  ],
  "discussions": [
@@ -980,17 +980,25 @@
    "t": "Live airband on all frequencies from KORS. Victoria, CA also ground stopped",
    "url": "https://news.ycombinator.com/item?id=50490593",
    "link": "https://orcasairband.com/",
-   "up": 202,
-   "com": 46,
+   "up": 212,
+   "com": 48,
    "at": "2026-11-13T22:04:24.000Z"
+  },
+  {
+   "src": "Mastodon",
+   "t": "This is the website for # ASI , the company with the $3B valuation who made the # FAA 's new # AI system.",
+   "url": "https://lgbtqia.space/@alice/117612202081019685",
+   "up": 40,
+   "com": 7,
+   "at": "2026-11-14T01:29:42.000Z"
   },
   {
    "src": "Hacker News",
    "t": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems",
    "url": "https://news.ycombinator.com/item?id=50486748",
    "link": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
-   "up": 332,
-   "com": 91,
+   "up": 337,
+   "com": 93,
    "at": "2026-11-13T17:30:10.000Z"
   },
   {
@@ -1017,16 +1025,8 @@
    "url": "https://news.ycombinator.com/item?id=50488769",
    "link": "https://www.slopmanifesto.com/",
    "up": 185,
-   "com": 104,
+   "com": 106,
    "at": "2026-11-13T19:51:56.000Z"
-  },
-  {
-   "src": "Mastodon",
-   "t": "This is the website for # ASI , the company with the $3B valuation who made the # FAA 's new # AI system.",
-   "url": "https://lgbtqia.space/@alice/117612202081019685",
-   "up": 30,
-   "com": 7,
-   "at": "2026-11-14T01:29:42.000Z"
   }
  ]
 }
