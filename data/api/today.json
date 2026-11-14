@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-14T20:01:01.335Z"
+  "updated": "2026-11-14T20:31:00.306Z"
  },
  "pulse": {
   "trending": 68,
   "accelerating": 1,
   "newModels": 5,
-  "discussions": 39,
-  "stars": 601
+  "discussions": 41,
+  "stars": 599
  },
  "rising": [
   {
@@ -54,7 +54,7 @@
    "cat": "LLMs",
    "score": 87,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 586",
+   "desc": "Model on Hugging Face · open source · ♥ 588",
    "meta": [
     "6.2K downloads",
     "Released 8 days ago"
@@ -72,8 +72,8 @@
    "grow": null,
    "desc": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux.",
    "meta": [
-    "★ 1,443",
-    "~361 in 24h",
+    "★ 1,447",
+    "~360 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-10T20:01:01Z",
@@ -87,7 +87,7 @@
    "cat": "Vision",
    "score": 86,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 379",
+   "desc": "Vision on Hugging Face · open weights · ♥ 381",
    "meta": [
     "1.6M downloads",
     "Released 6 days ago"
@@ -292,8 +292,8 @@
    "name": "yogurt",
    "url": "https://github.com/FrigadeHQ/yogurt",
    "from": "GitHub",
-   "use": 361,
-   "useLabel": "~361 stars/day",
+   "use": 360,
+   "useLabel": "~360 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -407,8 +407,8 @@
  "github": [
   {
    "repo": "FrigadeHQ/yogurt",
-   "stars": 1443,
-   "d24": 361,
+   "stars": 1447,
+   "d24": 360,
    "est": true,
    "forks": 74,
    "contrib": null,
@@ -417,7 +417,7 @@
   {
    "repo": "agentes-chat/agentes-chat",
    "stars": 1390,
-   "d24": 240,
+   "d24": 239,
    "est": true,
    "forks": 247,
    "contrib": null,
@@ -435,7 +435,7 @@
    "grow": null,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 7331
+   "likes": 7337
   },
   {
    "name": "MiniMax-H3-Image",
@@ -446,7 +446,7 @@
    "grow": null,
    "score": 88,
    "cat": "Vision",
-   "likes": 1106
+   "likes": 1108
   },
   {
    "name": "Arete-27B",
@@ -458,7 +458,7 @@
    "grow": null,
    "score": 87,
    "cat": "LLMs",
-   "likes": 586
+   "likes": 588
   },
   {
    "name": "MiniMax-H3-Image",
@@ -469,7 +469,7 @@
    "grow": null,
    "score": 86,
    "cat": "Vision",
-   "likes": 379
+   "likes": 381
   },
   {
    "name": "idol",
@@ -480,7 +480,7 @@
    "grow": null,
    "score": 85,
    "cat": "Vision",
-   "likes": 2335
+   "likes": 2337
   },
   {
    "name": "ZONOS3-Mini",
@@ -595,7 +595,7 @@
    "caps": [
     "image/jpeg/image/png/image/gif/image/webp/video/mp4/video/x-msvideo/video/quicktime/video/x-matroska"
    ],
-   "added": true
+   "added": false
   },
   {
    "name": "Ling 3.2 Flash",
@@ -607,7 +607,7 @@
     "reasoning",
     "tools"
    ],
-   "added": true
+   "added": false
   },
   {
    "name": "ERNIE-5.5-Flash-Preview",
@@ -618,7 +618,7 @@
     "reasoning",
     "tools"
    ],
-   "added": true
+   "added": false
   },
   {
    "name": "Inkling 2 Small",
@@ -630,7 +630,7 @@
     "reasoning",
     "tools"
    ],
-   "added": true
+   "added": false
   },
   {
    "name": "LFM3-1.7B",
@@ -653,7 +653,7 @@
     "reasoning",
     "tools"
    ],
-   "added": true
+   "added": false
   },
   {
    "name": "Flint",
@@ -822,41 +822,6 @@
     "prov": "OpenRouter",
     "url": "https://openrouter.ai/liquid/lfm-2.5-2.6b:free",
     "at": "2026-11-13T21:01:03.049Z"
-   },
-   {
-    "type": "added",
-    "name": "MiniMax M3.1 Flash Free",
-    "prov": "OpenCode Zen",
-    "url": null,
-    "at": "2026-11-13T20:30:51.442Z"
-   },
-   {
-    "type": "added",
-    "name": "Particle-1",
-    "prov": "OpenRouter",
-    "url": "https://openrouter.ai/particle-ai/particle-1:free",
-    "at": "2026-11-13T20:30:51.442Z"
-   },
-   {
-    "type": "added",
-    "name": "Inkling 2 Small",
-    "prov": "OpenRouter",
-    "url": "https://openrouter.ai/thinkingmachines/inkling-2-small:free",
-    "at": "2026-11-13T20:30:51.442Z"
-   },
-   {
-    "type": "added",
-    "name": "ERNIE-5.5-Flash-Preview",
-    "prov": "OpenRouter",
-    "url": "https://openrouter.ai/baidu/ernie-5.5-flash-preview:free",
-    "at": "2026-11-13T20:30:51.442Z"
-   },
-   {
-    "type": "added",
-    "name": "Ling 3.2 Flash",
-    "prov": "OpenRouter",
-    "url": "https://openrouter.ai/inclusionai/ling-3.2-flash:free",
-    "at": "2026-11-13T20:30:51.442Z"
    }
   ]
  },
@@ -908,6 +873,13 @@
    "url": "https://www.theguardian.com/books/ng-interactive/2026/nov/14/its-like-the-wild-west-how-ai-has-rocked-the-literary-world",
    "at": "2026-11-14T09:00:40Z",
    "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "OpenAI launches ChatGPT Wallet, lets AI agents shop using your credit card",
+   "url": "https://www.indiatoday.in/technology/news/story/openai-launches-chatgpt-wallet-lets-ai-agents-shop-using-your-credit-card-3038783-2026-11-14",
+   "at": "2026-11-14T08:26:30Z",
+   "src": "India Today",
    "kind": "News"
   },
   {
@@ -965,13 +937,6 @@
    "at": "2026-11-14T06:55:00.000Z",
    "src": "Techmeme",
    "kind": "News"
-  },
-  {
-   "t": "Autonomous weapons revolution tests ‘moral red line’",
-   "url": "https://www.bangkokpost.com/world/3354611/autonomous-weapons-revolution-tests-moral-red-line",
-   "at": "2026-11-14T06:45:00Z",
-   "src": "Bangkok Post",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -980,17 +945,17 @@
    "t": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
    "url": "https://news.ycombinator.com/item?id=50493251",
    "link": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
-   "up": 992,
-   "com": 595,
+   "up": 995,
+   "com": 600,
    "at": "2026-11-14T02:52:59.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "US IRS free online tax filing open source repo",
+   "t": "US IRS free online tax filing open source repo (2025)",
    "url": "https://news.ycombinator.com/item?id=50499083",
    "link": "https://github.com/IRS-Public/direct-file",
-   "up": 65,
-   "com": 19,
+   "up": 99,
+   "com": 31,
    "at": "2026-11-14T17:48:20.000Z"
   },
   {
@@ -998,7 +963,7 @@
    "t": "Ggml v1.0.0",
    "url": "https://news.ycombinator.com/item?id=50493062",
    "link": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0",
-   "up": 387,
+   "up": 389,
    "com": 66,
    "at": "2026-11-14T02:28:29.000Z"
   },
@@ -1016,18 +981,18 @@
    "t": "Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM",
    "url": "https://news.ycombinator.com/item?id=50497155",
    "link": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
-   "up": 108,
-   "com": 56,
+   "up": 116,
+   "com": 57,
    "at": "2026-11-14T14:09:25.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Show HN: A terminal-native idle factory game, written in Rust with ratatui",
-   "url": "https://news.ycombinator.com/item?id=50497132",
-   "link": "https://gitlab.com/snipedbywifi/terminactory",
-   "up": 108,
-   "com": 24,
-   "at": "2026-11-14T14:05:54.000Z"
+   "t": "Silicon Valley claims to know the future. So why'd it get the midterms so wrong?",
+   "url": "https://news.ycombinator.com/item?id=50499895",
+   "link": "https://www.technologyreview.com/2026/11/13/1148498/silicon-valley-claims-to-know-the-future-so-why-did-it-get-the-midterms-so-wrong/",
+   "up": 21,
+   "com": 16,
+   "at": "2026-11-14T19:17:45.000Z"
   }
  ]
 }
