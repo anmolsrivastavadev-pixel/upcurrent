@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-14T23:01:11.064Z"
+  "updated": "2026-11-14T23:30:48.397Z"
  },
  "pulse": {
   "trending": 69,
   "accelerating": 1,
   "newModels": 6,
-  "discussions": 40,
-  "stars": 343
+  "discussions": 43,
+  "stars": 336
  },
  "rising": [
   {
@@ -22,7 +22,7 @@
    "cat": "Infrastructure",
    "score": 90,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 7.3K",
+   "desc": "Model on Hugging Face · open source · ♥ 7.4K",
    "meta": [
     "24K downloads",
     "Released 16 days ago"
@@ -69,32 +69,16 @@
    "src": "gh",
    "cat": "Agents",
    "score": 86,
-   "grow": 5,
+   "grow": 6,
    "desc": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux.",
    "meta": [
-    "★ 1,476",
-    "+280 in 24h",
+    "★ 1,478",
+    "+267 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-10T20:01:01Z",
    "breakout": null,
    "url": "https://github.com/FrigadeHQ/yogurt"
-  },
-  {
-   "name": "Arete-27B",
-   "owner": "NousResearch",
-   "src": "hf",
-   "cat": "LLMs",
-   "score": 86,
-   "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 589",
-   "meta": [
-    "6.2K downloads",
-    "Released 8 days ago"
-   ],
-   "at": "2026-11-06T19:31:28.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/NousResearch/Arete-27B"
   },
   {
    "name": "MiniMax-H3-Image",
@@ -144,6 +128,22 @@
    ],
    "at": "2026-11-13T08:00:00Z",
    "breakout": null
+  },
+  {
+   "name": "Arete-27B",
+   "owner": "NousResearch",
+   "src": "hf",
+   "cat": "LLMs",
+   "score": 84,
+   "grow": 0,
+   "desc": "Model on Hugging Face · open source · ♥ 590",
+   "meta": [
+    "6.2K downloads",
+    "Released 8 days ago"
+   ],
+   "at": "2026-11-06T19:31:28.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/NousResearch/Arete-27B"
   },
   {
    "name": "ZONOS3-Mini",
@@ -201,8 +201,8 @@
    "name": "yogurt",
    "url": "https://github.com/FrigadeHQ/yogurt",
    "from": "GitHub",
-   "use": 280,
-   "useLabel": "+280 stars/day",
+   "use": 267,
+   "useLabel": "+267 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -316,8 +316,8 @@
  "github": [
   {
    "repo": "FrigadeHQ/yogurt",
-   "stars": 1476,
-   "d24": 280,
+   "stars": 1478,
+   "d24": 267,
    "est": false,
    "forks": 77,
    "contrib": null,
@@ -325,12 +325,12 @@
   },
   {
    "repo": "agentes-chat/agentes-chat",
-   "stars": 1397,
-   "d24": 63,
+   "stars": 1400,
+   "d24": 69,
    "est": false,
    "forks": 247,
    "contrib": null,
-   "score": 78
+   "score": 77
   }
  ],
  "models": [
@@ -344,7 +344,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 7347
+   "likes": 7351
   },
   {
    "name": "MiniMax-H3-Image",
@@ -355,7 +355,7 @@
    "grow": 0,
    "score": 88,
    "cat": "Vision",
-   "likes": 1113
+   "likes": 1115
   },
   {
    "name": "idol",
@@ -366,19 +366,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Vision",
-   "likes": 2339
-  },
-  {
-   "name": "Arete-27B",
-   "org": "NousResearch",
-   "size": "27B",
-   "lic": "Open source",
-   "at": "2026-11-06T19:31:28.000Z",
-   "dl": 6191,
-   "grow": 0,
-   "score": 86,
-   "cat": "LLMs",
-   "likes": 589
+   "likes": 2340
   },
   {
    "name": "MiniMax-H3-Image",
@@ -390,6 +378,18 @@
    "score": 86,
    "cat": "Vision",
    "likes": 383
+  },
+  {
+   "name": "Arete-27B",
+   "org": "NousResearch",
+   "size": "27B",
+   "lic": "Open source",
+   "at": "2026-11-06T19:31:28.000Z",
+   "dl": 6191,
+   "grow": 0,
+   "score": 84,
+   "cat": "LLMs",
+   "likes": 590
   },
   {
    "name": "ZONOS3-Mini",
@@ -756,6 +756,34 @@
    "kind": "Video"
   },
   {
+   "t": "Malaysia probing alleged Nvidia AI chip diversion since April 2025, says Home Minister",
+   "url": "https://www.thestar.com.my/news/nation/2026/11/14/malaysia-probing-alleged-nvidia-ai-chip-diversion-since-april-2025-says-home-minister",
+   "at": "2026-11-14T11:21:00Z",
+   "src": "The Star",
+   "kind": "News"
+  },
+  {
+   "t": "As billions of dollars wipe out from market value of Microsoft, Oracle, Amazon and other IT giants spooks investors; Michael Dell, who survived two slowdowns; has tips",
+   "url": "https://timesofindia.indiatimes.com/technology/tech-news/as-billions-of-dollars-wipe-out-from-market-value-of-microsoft-oracle-amazon-and-other-it-giants-spooks-investors-michael-dell-who-survived-two-slowdowns-has-tips/articleshow/135831146.cms",
+   "at": "2026-11-14T11:21:00Z",
+   "src": "Times of India",
+   "kind": "News"
+  },
+  {
+   "t": "1 Says Natural Gas, Not Chips, Is AI’s Biggest Bottleneck. Here’s the Stock That Sells the Engines.",
+   "url": "https://www.europesays.com/3374855/",
+   "at": "2026-11-14T11:18:08Z",
+   "src": "EUROPE SAYS",
+   "kind": "News"
+  },
+  {
+   "t": "A new 'Yalta'? Trump and Putin push for a meeting that Xi is wary of hosting",
+   "url": "https://www.straitstimes.com/asia/a-new-yalta-trump-and-putin-push-for-a-meeting-that-xi-is-wary-of-hosting",
+   "at": "2026-11-14T11:09:28Z",
+   "src": "The Straits Times",
+   "kind": "News"
+  },
+  {
    "t": "It’s not just Nvidia’s spy. America’s AI secrets are leaking.",
    "url": "https://www.vox.com/future-perfect/510882/nvidia-jensen-huang-spy-ai-security-openai-anthropic",
    "at": "2026-11-14T11:00:00Z",
@@ -789,34 +817,6 @@
    "at": "2026-11-14T10:00:42Z",
    "src": "The Guardian",
    "kind": "News"
-  },
-  {
-   "t": "Experts warn about risks of AI-generated content in child sexual abuse material",
-   "url": "https://www.cbc.ca/news/canada/prince-edward-island/pei-artificial-intelligence-child-sexual-abuse-police-experts-9.7419753",
-   "at": "2026-11-14T10:00:00Z",
-   "src": "CBC.ca",
-   "kind": "News"
-  },
-  {
-   "t": "Marcos creates National Artificial Intelligence Council",
-   "url": "https://www.rappler.com/technology/marcos-jr-creates-national-artificial-intelligence-council-governance-framework/",
-   "at": "2026-11-14T09:58:52Z",
-   "src": "Rappler",
-   "kind": "News"
-  },
-  {
-   "t": "Who is Rene Haas? Arm CEO emerges as potential successor to Nvidia's Jensen Huang",
-   "url": "https://www.businesstoday.in/technology/news/story/who-is-rene-haas-arm-ceo-emerges-as-potential-successor-to-nvidias-jensen-huang-567462-2026-11-14",
-   "at": "2026-11-14T09:40:20Z",
-   "src": "Business Today",
-   "kind": "News"
-  },
-  {
-   "t": "Trump’s advisers clash over Nvidia",
-   "url": "https://www.arkansasonline.com/news/2026/nov/14/trumps-advisers-clash-over-nvidia/",
-   "at": "2026-11-14T09:33:00Z",
-   "src": "Arkansas Online",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -825,8 +825,8 @@
    "t": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
    "url": "https://news.ycombinator.com/item?id=50493251",
    "link": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
-   "up": 1017,
-   "com": 611,
+   "up": 1019,
+   "com": 613,
    "at": "2026-11-14T02:52:59.000Z"
   },
   {
@@ -834,16 +834,25 @@
    "t": "US IRS free online tax filing open source repo (2025)",
    "url": "https://news.ycombinator.com/item?id=50499083",
    "link": "https://github.com/IRS-Public/direct-file",
-   "up": 130,
-   "com": 79,
+   "up": 138,
+   "com": 82,
    "at": "2026-11-14T17:48:20.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Nvidia deliberately kept GPU prices high through circular financing deals",
+   "url": "https://news.ycombinator.com/item?id=50501631",
+   "link": "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
+   "up": 25,
+   "com": 13,
+   "at": "2026-11-14T22:26:30.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Ggml v1.0.0",
    "url": "https://news.ycombinator.com/item?id=50493062",
    "link": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0",
-   "up": 396,
+   "up": 398,
    "com": 67,
    "at": "2026-11-14T02:28:29.000Z"
   },
@@ -852,7 +861,7 @@
    "t": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
    "url": "https://news.ycombinator.com/item?id=50497589",
    "link": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
-   "up": 132,
+   "up": 137,
    "com": 7,
    "at": "2026-11-14T15:04:15.000Z"
   },
@@ -861,18 +870,9 @@
    "t": "The Claude Delusion",
    "url": "https://news.ycombinator.com/item?id=50496921",
    "link": "https://www.netmeister.org/blog/claude-delusion.html",
-   "up": 142,
+   "up": 143,
    "com": 180,
    "at": "2026-11-14T13:36:17.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM",
-   "url": "https://news.ycombinator.com/item?id=50497155",
-   "link": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
-   "up": 125,
-   "com": 64,
-   "at": "2026-11-14T14:09:25.000Z"
   }
  ]
 }
