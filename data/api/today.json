@@ -5,13 +5,13 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-14T22:00:56.670Z"
+  "updated": "2026-11-14T22:30:49.355Z"
  },
  "pulse": {
-  "trending": 68,
+  "trending": 69,
   "accelerating": 1,
-  "newModels": 5,
-  "discussions": 40,
+  "newModels": 6,
+  "discussions": 42,
   "stars": 595
  },
  "rising": [
@@ -25,7 +25,7 @@
    "desc": "Model on Hugging Face · open source · ♥ 7.3K",
    "meta": [
     "24K downloads",
-    "Released 15 days ago"
+    "Released 16 days ago"
    ],
    "at": "2026-10-30T10:21:29.000Z",
    "breakout": null,
@@ -48,28 +48,11 @@
    "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image"
   },
   {
-   "name": "yogurt",
-   "owner": "FrigadeHQ",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 86,
-   "grow": null,
-   "desc": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux.",
-   "meta": [
-    "★ 1,461",
-    "~358 in 24h",
-    "Created 4 days ago"
-   ],
-   "at": "2026-11-10T20:01:01Z",
-   "breakout": null,
-   "url": "https://github.com/FrigadeHQ/yogurt"
-  },
-  {
    "name": "idol",
    "owner": "speridlabs",
    "src": "hf",
    "cat": "Vision",
-   "score": 86,
+   "score": 87,
    "grow": null,
    "desc": "Vision on Hugging Face · open source · ♥ 2.3K",
    "meta": [
@@ -79,6 +62,39 @@
    "at": "2026-10-28T15:55:17.000Z",
    "breakout": null,
    "url": "https://huggingface.co/speridlabs/idol"
+  },
+  {
+   "name": "yogurt",
+   "owner": "FrigadeHQ",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 86,
+   "grow": null,
+   "desc": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux.",
+   "meta": [
+    "★ 1,468",
+    "~358 in 24h",
+    "Created 4 days ago"
+   ],
+   "at": "2026-11-10T20:01:01Z",
+   "breakout": null,
+   "url": "https://github.com/FrigadeHQ/yogurt"
+  },
+  {
+   "name": "Arete-27B",
+   "owner": "NousResearch",
+   "src": "hf",
+   "cat": "LLMs",
+   "score": 86,
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 588",
+   "meta": [
+    "6.2K downloads",
+    "Released 8 days ago"
+   ],
+   "at": "2026-11-06T19:31:28.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/NousResearch/Arete-27B"
   },
   {
    "name": "MiniMax-H3-Image",
@@ -97,22 +113,6 @@
    "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image"
   },
   {
-   "name": "Arete-27B",
-   "owner": "NousResearch",
-   "src": "hf",
-   "cat": "LLMs",
-   "score": 85,
-   "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 588",
-   "meta": [
-    "6.2K downloads",
-    "Released 8 days ago"
-   ],
-   "at": "2026-11-06T19:31:28.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/NousResearch/Arete-27B"
-  },
-  {
    "name": "Open Vision Banana: A Fully Open Recipe for Generative Visual Perception",
    "owner": "Paper",
    "src": "paper",
@@ -122,7 +122,7 @@
    "grow": null,
    "desc": "Recent work suggests that pretrained image generators encode real-world understanding beyond image synthesis.",
    "meta": [
-    "▲ 32 upvotes",
+    "▲ 34 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-11-10T19:00:00.000Z",
@@ -143,7 +143,23 @@
     "Launched 2 days ago"
    ],
    "at": "2026-11-13T08:00:00Z",
-   "breakout": null
+   "breakout": 3
+  },
+  {
+   "name": "ZONOS3-Mini",
+   "owner": "Zyphra",
+   "src": "hf",
+   "cat": "LLMs",
+   "score": 83,
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 342",
+   "meta": [
+    "20K downloads",
+    "Released 6 days ago"
+   ],
+   "at": "2026-11-09T05:03:57.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/Zyphra/ZONOS3-Mini"
   },
   {
    "name": "Ropedia Xperience 2: A Gold Standard for Scaling Physical AI Environments and Behaviors",
@@ -159,23 +175,6 @@
     "Hugging Face Papers"
    ],
    "at": "2026-11-11T19:00:00.000Z",
-   "breakout": null
-  },
-  {
-   "name": "HiringNow",
-   "owner": "Product Hunt",
-   "src": "ph",
-   "url": "https://www.producthunt.com/products/hiringnow?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29",
-   "cat": "Agents",
-   "score": 83,
-   "grow": null,
-   "desc": "AI job agent that finds & apply for jobs before anyone else.",
-   "meta": [
-    "▲ 215 votes",
-    "21 comments",
-    "Launched 14h ago"
-   ],
-   "at": "2026-11-14T08:01:00Z",
    "breakout": null
   }
  ],
@@ -202,6 +201,29 @@
     }
    ],
    "since": "2026-10-01T18:14:41.538Z"
+  },
+  {
+   "key": "claude meetings",
+   "label": "Claude Meetings",
+   "n": 3,
+   "sources": [
+    {
+     "src": "Product Hunt",
+     "t": "Claude Meetings",
+     "url": "https://www.producthunt.com/products/claude?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
+    },
+    {
+     "src": "Hacker News",
+     "t": "Claude Meetings",
+     "url": "https://news.ycombinator.com/item?id=50491097"
+    },
+    {
+     "src": "YouTube",
+     "t": "Claude Meetings: Anthropic porta l’intelligenza artificiale nelle riunioni di lavoro",
+     "url": "https://www.youtube.com/watch?v=BIer6by1G1s"
+    }
+   ],
+   "since": "2026-11-14T22:30:49.355Z"
   },
   {
    "key": "gemini 4 hydrogen",
@@ -278,7 +300,7 @@
    "from": "Hugging Face",
    "use": 100643,
    "useLabel": "101K downloads",
-   "usePct": 0.6,
+   "usePct": 0.5769230769230769,
    "talk": [
     {
      "src": "DEV",
@@ -317,7 +339,7 @@
    "from": "Hugging Face",
    "use": 1615613,
    "useLabel": "1.6M downloads",
-   "usePct": 0.96,
+   "usePct": 0.9615384615384616,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -408,16 +430,16 @@
  "github": [
   {
    "repo": "FrigadeHQ/yogurt",
-   "stars": 1461,
+   "stars": 1468,
    "d24": 358,
    "est": true,
-   "forks": 75,
+   "forks": 76,
    "contrib": null,
    "score": 86
   },
   {
    "repo": "agentes-chat/agentes-chat",
-   "stars": 1395,
+   "stars": 1397,
    "d24": 237,
    "est": true,
    "forks": 247,
@@ -456,9 +478,21 @@
    "at": "2026-10-28T15:55:17.000Z",
    "dl": 32619,
    "grow": null,
-   "score": 86,
+   "score": 87,
    "cat": "Vision",
    "likes": 2339
+  },
+  {
+   "name": "Arete-27B",
+   "org": "NousResearch",
+   "size": "27B",
+   "lic": "Open source",
+   "at": "2026-11-06T19:31:28.000Z",
+   "dl": 6191,
+   "grow": null,
+   "score": 86,
+   "cat": "LLMs",
+   "likes": 588
   },
   {
    "name": "MiniMax-H3-Image",
@@ -472,27 +506,15 @@
    "likes": 382
   },
   {
-   "name": "Arete-27B",
-   "org": "NousResearch",
-   "size": "27B",
-   "lic": "Open source",
-   "at": "2026-11-06T19:31:28.000Z",
-   "dl": 6191,
-   "grow": null,
-   "score": 85,
-   "cat": "LLMs",
-   "likes": 588
-  },
-  {
    "name": "ZONOS3-Mini",
    "org": "Zyphra",
    "lic": "Open source",
    "at": "2026-11-09T05:03:57.000Z",
    "dl": 19743,
    "grow": null,
-   "score": 82,
+   "score": 83,
    "cat": "LLMs",
-   "likes": 341
+   "likes": 342
   }
  ],
  "free": [
@@ -799,6 +821,13 @@
  },
  "headlines": [
   {
+   "t": "Unlike other larger-than-life tech founders, Jensen Huang lacked super-voting shares in Nvidia, making it easier for him to lose control of the company",
+   "url": "https://www.techmeme.com/261114/p20#a261114p20",
+   "at": "2026-11-14T22:05:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Letter: Altimeter's Brad Gerstner and Atreides's Gavin Baker urge Nvidia's board to consider \"the potential return of Jensen Huang\"; they own $2.13B in Nvidia",
    "url": "https://www.techmeme.com/261114/p18#a261114p18",
    "at": "2026-11-14T19:55:01.000Z",
@@ -813,7 +842,7 @@
    "kind": "News"
   },
   {
-   "t": "Art ‘must not be sacrificed on the altar of corporate profit’ Liberal senator says as AI policy debate rages",
+   "t": "Art ‘must not be sacrificed on the altar of corporate profit’, Liberal senator says as AI policy debate rages",
    "url": "https://www.theguardian.com/australia-news/2026/nov/15/art-over-profit-ai-policy-debate-andrew-mclachlan",
    "at": "2026-11-14T19:00:52Z",
    "src": "The Guardian",
@@ -839,6 +868,20 @@
    "at": "2026-11-14T14:00:37Z",
    "src": "BBC News",
    "kind": "Video"
+  },
+  {
+   "t": "YOURBACKERS AI; Where Imagination Meets the Future of Cinema",
+   "url": "https://www.tribuneindia.com/news/business/yourbackers-ai-where-imagination-meets-the-future-of-cinema/",
+   "at": "2026-11-14T10:16:56Z",
+   "src": "The Tribune",
+   "kind": "News"
+  },
+  {
+   "t": "OpenAI launches ChatGPT Wallet, allowing AI agents to shop and pay for users with biometric approval",
+   "url": "https://www.hindustantimes.com/trending/openai-launches-chatgpt-wallet-allowing-ai-agents-to-shop-and-pay-for-users-with-biometric-approval-101794650663862.html",
+   "at": "2026-11-14T10:14:37Z",
+   "src": "Hindustan Times",
+   "kind": "News"
   },
   {
    "t": "‘The social contract is broken’: young people on feeling shut out of careers",
@@ -888,27 +931,6 @@
    "at": "2026-11-14T09:26:00Z",
    "src": "The Economic Times",
    "kind": "News"
-  },
-  {
-   "t": "India may benefit as investors rethink AI bets amid falling returns: Report",
-   "url": "https://www.tribuneindia.com/news/business/india-may-benefit-as-investors-rethink-ai-bets-amid-falling-returns-report/",
-   "at": "2026-11-14T09:12:58Z",
-   "src": "The Tribune",
-   "kind": "News"
-  },
-  {
-   "t": "‘It’s like the wild west’: how AI has rocked the literary world ",
-   "url": "https://www.theguardian.com/books/ng-interactive/2026/nov/14/its-like-the-wild-west-how-ai-has-rocked-the-literary-world",
-   "at": "2026-11-14T09:00:40Z",
-   "src": "The Guardian",
-   "kind": "News"
-  },
-  {
-   "t": "Jism to Ex Machina-five films that explored the art of honey trapping",
-   "url": "https://theprint.in/feature/movies-jensen-huang-art-of-honey-trapping/3098607/",
-   "at": "2026-11-14T08:53:21Z",
-   "src": "ThePrint",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -917,7 +939,7 @@
    "t": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
    "url": "https://news.ycombinator.com/item?id=50493251",
    "link": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
-   "up": 1007,
+   "up": 1010,
    "com": 608,
    "at": "2026-11-14T02:52:59.000Z"
   },
@@ -926,8 +948,8 @@
    "t": "US IRS free online tax filing open source repo (2025)",
    "url": "https://news.ycombinator.com/item?id=50499083",
    "link": "https://github.com/IRS-Public/direct-file",
-   "up": 122,
-   "com": 68,
+   "up": 124,
+   "com": 70,
    "at": "2026-11-14T17:48:20.000Z"
   },
   {
@@ -935,7 +957,7 @@
    "t": "Ggml v1.0.0",
    "url": "https://news.ycombinator.com/item?id=50493062",
    "link": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0",
-   "up": 393,
+   "up": 394,
    "com": 67,
    "at": "2026-11-14T02:28:29.000Z"
   },
@@ -944,7 +966,7 @@
    "t": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
    "url": "https://news.ycombinator.com/item?id=50497589",
    "link": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
-   "up": 116,
+   "up": 122,
    "com": 7,
    "at": "2026-11-14T15:04:15.000Z"
   },
@@ -953,7 +975,7 @@
    "t": "The Claude Delusion",
    "url": "https://news.ycombinator.com/item?id=50496921",
    "link": "https://www.netmeister.org/blog/claude-delusion.html",
-   "up": 140,
+   "up": 141,
    "com": 180,
    "at": "2026-11-14T13:36:17.000Z"
   },
@@ -962,7 +984,7 @@
    "t": "Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM",
    "url": "https://news.ycombinator.com/item?id=50497155",
    "link": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
-   "up": 124,
+   "up": 125,
    "com": 64,
    "at": "2026-11-14T14:09:25.000Z"
   }
