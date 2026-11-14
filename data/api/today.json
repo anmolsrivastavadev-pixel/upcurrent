@@ -5,13 +5,13 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-14T15:45:09.080Z"
+  "updated": "2026-11-14T16:01:01.116Z"
  },
  "pulse": {
-  "trending": 70,
+  "trending": 69,
   "accelerating": 3,
   "newModels": 5,
-  "discussions": 49,
+  "discussions": 47,
   "stars": 260
  },
  "rising": [
@@ -64,11 +64,28 @@
    "url": "https://huggingface.co/NousResearch/Arete-27B"
   },
   {
+   "name": "yogurt",
+   "owner": "FrigadeHQ",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 86,
+   "grow": 13,
+   "desc": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux.",
+   "meta": [
+    "★ 1,397",
+    "+201 in 24h",
+    "Created 4 days ago"
+   ],
+   "at": "2026-11-10T20:01:01Z",
+   "breakout": null,
+   "url": "https://github.com/FrigadeHQ/yogurt"
+  },
+  {
    "name": "MiniMax-H3-Image",
    "owner": "Comfy-Org",
    "src": "hf",
    "cat": "Vision",
-   "score": 87,
+   "score": 86,
    "grow": 28,
    "desc": "Vision on Hugging Face · open weights · ♥ 376",
    "meta": [
@@ -78,23 +95,6 @@
    "at": "2026-11-08T20:37:23.000Z",
    "breakout": null,
    "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image"
-  },
-  {
-   "name": "yogurt",
-   "owner": "FrigadeHQ",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 86,
-   "grow": 13,
-   "desc": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux.",
-   "meta": [
-    "★ 1,395",
-    "+201 in 24h",
-    "Created 4 days ago"
-   ],
-   "at": "2026-11-10T20:01:01Z",
-   "breakout": null,
-   "url": "https://github.com/FrigadeHQ/yogurt"
   },
   {
    "name": "idol",
@@ -150,9 +150,9 @@
    "owner": "Zyphra",
    "src": "hf",
    "cat": "LLMs",
-   "score": 84,
+   "score": 83,
    "grow": 51,
-   "desc": "Model on Hugging Face · open source · ♥ 330",
+   "desc": "Model on Hugging Face · open source · ♥ 331",
    "meta": [
     "20K downloads",
     "Released 5 days ago"
@@ -277,7 +277,7 @@
    "from": "Hugging Face",
    "use": 100643,
    "useLabel": "101K downloads",
-   "usePct": 0.6296296296296297,
+   "usePct": 0.6153846153846154,
    "talk": [
     {
      "src": "DEV",
@@ -316,7 +316,7 @@
    "from": "Hugging Face",
    "use": 1615613,
    "useLabel": "1.6M downloads",
-   "usePct": 0.9629629629629629,
+   "usePct": 0.9615384615384616,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -407,7 +407,7 @@
  "github": [
   {
    "repo": "FrigadeHQ/yogurt",
-   "stars": 1395,
+   "stars": 1397,
    "d24": 201,
    "est": false,
    "forks": 71,
@@ -416,7 +416,7 @@
   },
   {
    "repo": "agentes-chat/agentes-chat",
-   "stars": 1377,
+   "stars": 1378,
    "d24": 59,
    "est": false,
    "forks": 243,
@@ -435,7 +435,7 @@
    "grow": 13,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 7277
+   "likes": 7282
   },
   {
    "name": "MiniMax-H3-Image",
@@ -446,7 +446,7 @@
    "grow": 19,
    "score": 88,
    "cat": "Vision",
-   "likes": 1090
+   "likes": 1091
   },
   {
    "name": "Arete-27B",
@@ -467,7 +467,7 @@
    "at": "2026-11-08T20:37:23.000Z",
    "dl": 1615613,
    "grow": 28,
-   "score": 87,
+   "score": 86,
    "cat": "Vision",
    "likes": 376
   },
@@ -489,9 +489,9 @@
    "at": "2026-11-09T05:03:57.000Z",
    "dl": 19743,
    "grow": 51,
-   "score": 84,
+   "score": 83,
    "cat": "LLMs",
-   "likes": 330
+   "likes": 331
   }
  ],
  "free": [
@@ -925,6 +925,20 @@
    "kind": "News"
   },
   {
+   "t": "AI rockets to top of worries about financial system in latest Fed survey",
+   "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/ai-rockets-to-top-of-worries-about-financial-system-in-latest-fed-survey/articleshow/135821841.cms",
+   "at": "2026-11-14T03:55:00Z",
+   "src": "The Economic Times",
+   "kind": "News"
+  },
+  {
+   "t": "Fed's Jefferson says he is taking his policy cues from inflation",
+   "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/feds-jefferson-says-he-is-taking-his-policy-cues-from-inflation/articleshow/135821792.cms",
+   "at": "2026-11-14T03:50:00Z",
+   "src": "The Economic Times",
+   "kind": "News"
+  },
+  {
    "t": "No evidence of cyberattack or rogue AI in FAA outage, but possibility not ruled out: US Homeland Security Secy",
    "url": "https://www.aninews.in/news/world/us/no-evidence-of-cyberattack-or-rogue-ai-in-faa-outage-but-possibility-not-ruled-out-us-homeland-security-secy20261114091227/",
    "at": "2026-11-14T03:42:27Z",
@@ -958,20 +972,6 @@
    "at": "2026-11-14T02:55:18Z",
    "src": "The Economic Times",
    "kind": "News"
-  },
-  {
-   "t": "OpenAI, Google, Anthropic hit with lawsuit to halt AI development",
-   "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/openai-google-anthropic-hit-with-lawsuit-to-halt-ai-development/articleshow/135820787.cms",
-   "at": "2026-11-14T02:44:00Z",
-   "src": "The Economic Times",
-   "kind": "News"
-  },
-  {
-   "t": "US officials raise alarm over restricted Nvidia AI chips reaching China",
-   "url": "https://wjla.com/news/nation-world/us-officials-raise-alarm-over-restricted-nvidia-ai-chips-reaching-chinaemployees",
-   "at": "2026-11-14T02:39:20Z",
-   "src": "WJLA",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -980,8 +980,8 @@
    "t": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
    "url": "https://news.ycombinator.com/item?id=50493251",
    "link": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
-   "up": 869,
-   "com": 514,
+   "up": 875,
+   "com": 525,
    "at": "2026-11-14T02:52:59.000Z"
   },
   {
@@ -989,8 +989,8 @@
    "t": "The Claude Delusion",
    "url": "https://news.ycombinator.com/item?id=50496921",
    "link": "https://www.netmeister.org/blog/claude-delusion.html",
-   "up": 117,
-   "com": 115,
+   "up": 118,
+   "com": 125,
    "at": "2026-11-14T13:36:17.000Z"
   },
   {
@@ -998,8 +998,8 @@
    "t": "Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM",
    "url": "https://news.ycombinator.com/item?id=50497155",
    "link": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
-   "up": 47,
-   "com": 23,
+   "up": 52,
+   "com": 30,
    "at": "2026-11-14T14:09:25.000Z"
   },
   {
@@ -1007,7 +1007,7 @@
    "t": "Ggml v1.0.0",
    "url": "https://news.ycombinator.com/item?id=50493062",
    "link": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0",
-   "up": 354,
+   "up": 355,
    "com": 54,
    "at": "2026-11-14T02:28:29.000Z"
   },
@@ -1016,8 +1016,8 @@
    "t": "Show HN: A terminal-native idle factory game, written in Rust with ratatui",
    "url": "https://news.ycombinator.com/item?id=50497132",
    "link": "https://gitlab.com/snipedbywifi/terminactory",
-   "up": 38,
-   "com": 2,
+   "up": 46,
+   "com": 3,
    "at": "2026-11-14T14:05:54.000Z"
   },
   {
@@ -1025,8 +1025,8 @@
    "t": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems",
    "url": "https://news.ycombinator.com/item?id=50486748",
    "link": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
-   "up": 406,
-   "com": 102,
+   "up": 408,
+   "com": 103,
    "at": "2026-11-13T17:30:10.000Z"
   }
  ]
