@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-14T12:00:59.388Z"
+  "updated": "2026-11-14T12:30:51.359Z"
  },
  "pulse": {
   "trending": 70,
   "accelerating": 2,
   "newModels": 6,
-  "discussions": 44,
-  "stars": 243
+  "discussions": 47,
+  "stars": 241
  },
  "rising": [
   {
@@ -64,6 +64,22 @@
    "url": "https://huggingface.co/NousResearch/Arete-27B"
   },
   {
+   "name": "MiniMax-H3-Image",
+   "owner": "Comfy-Org",
+   "src": "hf",
+   "cat": "Vision",
+   "score": 87,
+   "grow": 28,
+   "desc": "Vision on Hugging Face · open weights · ♥ 371",
+   "meta": [
+    "1.6M downloads",
+    "Released 6 days ago"
+   ],
+   "at": "2026-11-08T20:37:23.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image"
+  },
+  {
    "name": "yogurt",
    "owner": "FrigadeHQ",
    "src": "gh",
@@ -72,8 +88,8 @@
    "grow": 10,
    "desc": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux.",
    "meta": [
-    "★ 1,356",
-    "+189 in 24h",
+    "★ 1,359",
+    "+188 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-10T20:01:01Z",
@@ -95,22 +111,6 @@
    "at": "2026-10-28T15:55:17.000Z",
    "breakout": null,
    "url": "https://huggingface.co/speridlabs/idol"
-  },
-  {
-   "name": "MiniMax-H3-Image",
-   "owner": "Comfy-Org",
-   "src": "hf",
-   "cat": "Vision",
-   "score": 85,
-   "grow": 28,
-   "desc": "Vision on Hugging Face · open weights · ♥ 371",
-   "meta": [
-    "1.6M downloads",
-    "Released 6 days ago"
-   ],
-   "at": "2026-11-08T20:37:23.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image"
   },
   {
    "name": "Open Vision Banana: A Fully Open Recipe for Generative Visual Perception",
@@ -138,7 +138,7 @@
    "grow": null,
    "desc": "Add Claude to your call and get work started as you talk",
    "meta": [
-    "▲ 277 votes",
+    "▲ 278 votes",
     "13 comments",
     "Launched yesterday"
    ],
@@ -162,33 +162,28 @@
    "url": "https://huggingface.co/Zyphra/ZONOS3-Mini"
   },
   {
-   "name": "Kimi-K3.1-Pro",
-   "owner": "moonshotai",
-   "src": "hf",
-   "cat": "Vision",
+   "name": "Ropedia Xperience 2: A Gold Standard for Scaling Physical AI Environments and Behaviors",
+   "owner": "Paper",
+   "src": "paper",
+   "url": "https://huggingface.co/papers/2611.17060",
+   "cat": "Research",
    "score": 83,
-   "grow": 7,
-   "desc": "Vision on Hugging Face · open weights · ♥ 2.1K",
+   "grow": null,
+   "desc": "Large foundation models such as GPT-6 Astra and Claude Fable 5.1 have recently been shown to control robots directly from visual observations.",
    "meta": [
-    "44K downloads",
-    "Released 12 days ago"
+    "▲ 26 upvotes",
+    "Hugging Face Papers"
    ],
-   "at": "2026-11-02T04:13:51.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
+   "at": "2026-11-11T19:00:00.000Z",
+   "breakout": null
   }
  ],
  "breakouts": [
   {
    "key": "gemini 4",
    "label": "Gemini 4",
-   "n": 4,
+   "n": 3,
    "sources": [
-    {
-     "src": "DEV",
-     "t": "Gemini 4 Hydrogen Shows How AI Can Build Real-Time WebGL2 3D Visuals",
-     "url": "https://dev.to/alifar/gemini-4-hydrogen-shows-how-ai-can-build-real-time-webgl2-3d-visuals-5a15"
-    },
     {
      "src": "Mastodon",
      "t": "KI-Update kompakt: Wirbel um Nvidia, Grundrechte, Gemini 4 Hydrogen, Roboter Das „KI-Update“ liefert drei mal pro Woche eine Zusammenfassung der wichtigsten …",
@@ -210,17 +205,12 @@
   {
    "key": "gemini 4 hydrogen",
    "label": "Gemini 4 Hydrogen",
-   "n": 4,
+   "n": 3,
    "sources": [
     {
      "src": "Product Hunt",
      "t": "Gemini 4 Hydrogen",
      "url": "https://www.producthunt.com/products/gemini-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
-    },
-    {
-     "src": "DEV",
-     "t": "Gemini 4 Hydrogen Shows How AI Can Build Real-Time WebGL2 3D Visuals",
-     "url": "https://dev.to/alifar/gemini-4-hydrogen-shows-how-ai-can-build-real-time-webgl2-3d-visuals-5a15"
     },
     {
      "src": "Mastodon",
@@ -246,11 +236,6 @@
    "usePct": null,
    "talk": [
     {
-     "src": "DEV",
-     "t": "Gemini 4 Hydrogen Shows How AI Can Build Real-Time WebGL2 3D Visuals",
-     "url": "https://dev.to/alifar/gemini-4-hydrogen-shows-how-ai-can-build-real-time-webgl2-3d-visuals-5a15"
-    },
-    {
      "src": "Mastodon",
      "t": "KI-Update kompakt: Wirbel um Nvidia, Grundrechte, Gemini 4 Hydrogen, Roboter Das „KI-Update“ liefert drei mal pro Woche eine Zusammenfassung der wichtigsten …",
      "url": "https://social.heise.de/@heiseonline/117609505971965373"
@@ -261,7 +246,7 @@
      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
     }
    ],
-   "buzz": 3,
+   "buzz": 2,
    "verdict": "Talk only, no public usage numbers"
   },
   {
@@ -273,11 +258,6 @@
    "usePct": null,
    "talk": [
     {
-     "src": "DEV",
-     "t": "Gemini 4 Hydrogen Shows How AI Can Build Real-Time WebGL2 3D Visuals",
-     "url": "https://dev.to/alifar/gemini-4-hydrogen-shows-how-ai-can-build-real-time-webgl2-3d-visuals-5a15"
-    },
-    {
      "src": "Mastodon",
      "t": "KI-Update kompakt: Wirbel um Nvidia, Grundrechte, Gemini 4 Hydrogen, Roboter Das „KI-Update“ liefert drei mal pro Woche eine Zusammenfassung der wichtigsten …",
      "url": "https://social.heise.de/@heiseonline/117609505971965373"
@@ -288,7 +268,7 @@
      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
     }
    ],
-   "buzz": 3,
+   "buzz": 2,
    "verdict": "Talk only, no public usage numbers"
   },
   {
@@ -312,8 +292,8 @@
    "name": "yogurt",
    "url": "https://github.com/FrigadeHQ/yogurt",
    "from": "GitHub",
-   "use": 189,
-   "useLabel": "+189 stars/day",
+   "use": 188,
+   "useLabel": "+188 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -427,17 +407,17 @@
  "github": [
   {
    "repo": "FrigadeHQ/yogurt",
-   "stars": 1356,
-   "d24": 189,
+   "stars": 1359,
+   "d24": 188,
    "est": false,
-   "forks": 65,
+   "forks": 66,
    "contrib": null,
    "score": 86
   },
   {
    "repo": "agentes-chat/agentes-chat",
    "stars": 1365,
-   "d24": 54,
+   "d24": 53,
    "est": false,
    "forks": 239,
    "contrib": null,
@@ -455,7 +435,7 @@
    "grow": 13,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 7236
+   "likes": 7242
   },
   {
    "name": "MiniMax-H3-Image",
@@ -466,7 +446,7 @@
    "grow": 19,
    "score": 88,
    "cat": "Vision",
-   "likes": 1076
+   "likes": 1078
   },
   {
    "name": "Arete-27B",
@@ -481,6 +461,17 @@
    "likes": 584
   },
   {
+   "name": "MiniMax-H3-Image",
+   "org": "Comfy-Org",
+   "lic": "Open weights",
+   "at": "2026-11-08T20:37:23.000Z",
+   "dl": 1615613,
+   "grow": 28,
+   "score": 87,
+   "cat": "Vision",
+   "likes": 371
+  },
+  {
    "name": "idol",
    "org": "speridlabs",
    "lic": "Open source",
@@ -489,18 +480,7 @@
    "grow": 4,
    "score": 85,
    "cat": "Vision",
-   "likes": 2327
-  },
-  {
-   "name": "MiniMax-H3-Image",
-   "org": "Comfy-Org",
-   "lic": "Open weights",
-   "at": "2026-11-08T20:37:23.000Z",
-   "dl": 1615613,
-   "grow": 28,
-   "score": 85,
-   "cat": "Vision",
-   "likes": 371
+   "likes": 2328
   },
   {
    "name": "ZONOS3-Mini",
@@ -952,13 +932,6 @@
    "kind": "News"
   },
   {
-   "t": "Sources and messages: Jensen Huang misled several Nvidia leaders, including general counsel Tim Teter, about the nature of his relationship with Alice Huang",
-   "url": "https://www.techmeme.com/261113/p36#a261113p36",
-   "at": "2026-11-14T01:00:12.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Photos: Chaos at airports amid nationwide ground stop",
    "url": "https://www.pilotonline.com/2026/11/13/photos-chaos-at-airports-amid-nationwide-ground-stop/",
    "at": "2026-11-14T00:00:51Z",
@@ -992,6 +965,13 @@
    "at": "2026-11-13T19:51:28Z",
    "src": "The Guardian",
    "kind": "News"
+  },
+  {
+   "t": "The Guardian view on M John Harrison’s Booker win: a new frontier for science fiction | Editorial",
+   "url": "https://www.theguardian.com/commentisfree/2026/nov/13/the-guardian-view-on-m-john-harrisons-booker-win-a-new-frontier-for-science-fiction",
+   "at": "2026-11-13T18:00:56Z",
+   "src": "The Guardian",
+   "kind": "News"
   }
  ],
  "discussions": [
@@ -1000,8 +980,8 @@
    "t": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
    "url": "https://news.ycombinator.com/item?id=50493251",
    "link": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
-   "up": 656,
-   "com": 384,
+   "up": 688,
+   "com": 399,
    "at": "2026-11-14T02:52:59.000Z"
   },
   {
@@ -1009,8 +989,8 @@
    "t": "Ggml v1.0.0",
    "url": "https://news.ycombinator.com/item?id=50493062",
    "link": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0",
-   "up": 293,
-   "com": 46,
+   "up": 299,
+   "com": 47,
    "at": "2026-11-14T02:28:29.000Z"
   },
   {
@@ -1018,7 +998,7 @@
    "t": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems",
    "url": "https://news.ycombinator.com/item?id=50486748",
    "link": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
-   "up": 396,
+   "up": 397,
    "com": 101,
    "at": "2026-11-13T17:30:10.000Z"
   },
@@ -1027,8 +1007,8 @@
    "t": "Live airband on all frequencies from KORS. Victoria, CA also ground stopped",
    "url": "https://news.ycombinator.com/item?id=50490593",
    "link": "https://orcasairband.com/",
-   "up": 270,
-   "com": 63,
+   "up": 274,
+   "com": 65,
    "at": "2026-11-13T22:04:24.000Z"
   },
   {
@@ -1036,18 +1016,18 @@
    "t": "Jonathan Blow – If AI solved coding, why is my software still the same? [video]",
    "url": "https://news.ycombinator.com/item?id=50484658",
    "link": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
-   "up": 320,
-   "com": 418,
+   "up": 326,
+   "com": 439,
    "at": "2026-11-13T15:08:44.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "All US airports are currently ground stopped",
-   "url": "https://news.ycombinator.com/item?id=50489652",
-   "link": "https://twitter.com/flightradar24/status/2121347654714077605",
-   "up": 202,
-   "com": 40,
-   "at": "2026-11-13T21:06:52.000Z"
+   "t": "Unsloth Qwen3.8-27B Quantizations – Dynamic v3.1 Update",
+   "url": "https://news.ycombinator.com/item?id=50491980",
+   "link": "https://unsloth.ai/docs/models/qwen3.8",
+   "up": 171,
+   "com": 50,
+   "at": "2026-11-14T00:06:04.000Z"
   }
  ]
 }
