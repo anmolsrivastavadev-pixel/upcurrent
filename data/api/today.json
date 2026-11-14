@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-14T01:01:01.500Z"
+  "updated": "2026-11-14T01:30:51.269Z"
  },
  "pulse": {
-  "trending": 69,
+  "trending": 68,
   "accelerating": 0,
   "newModels": 6,
-  "discussions": 52,
-  "stars": 663
+  "discussions": 50,
+  "stars": 662
  },
  "rising": [
   {
@@ -22,7 +22,7 @@
    "cat": "Infrastructure",
    "score": 90,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 5.9K",
+   "desc": "Model on Hugging Face · open source · ♥ 6K",
    "meta": [
     "22K downloads",
     "Released 15 days ago"
@@ -40,7 +40,7 @@
    "grow": null,
    "desc": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux.",
    "meta": [
-    "★ 1,267",
+    "★ 1,274",
     "~395 in 24h",
     "Created 3 days ago"
    ],
@@ -71,7 +71,7 @@
    "cat": "LLMs",
    "score": 88,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 551",
+   "desc": "Model on Hugging Face · open source · ♥ 554",
    "meta": [
     "5.5K downloads",
     "Released 7 days ago"
@@ -103,7 +103,7 @@
    "cat": "Vision",
    "score": 85,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 344",
+   "desc": "Vision on Hugging Face · open weights · ♥ 345",
    "meta": [
     "1.3M downloads",
     "Released 5 days ago"
@@ -146,22 +146,6 @@
    "breakout": null
   },
   {
-   "name": "ZONOS3-Mini",
-   "owner": "Zyphra",
-   "src": "hf",
-   "cat": "LLMs",
-   "score": 84,
-   "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 288",
-   "meta": [
-    "13K downloads",
-    "Released 5 days ago"
-   ],
-   "at": "2026-11-09T05:03:57.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/Zyphra/ZONOS3-Mini"
-  },
-  {
    "name": "Kimi-K3.1-Pro",
    "owner": "moonshotai",
    "src": "hf",
@@ -176,6 +160,22 @@
    "at": "2026-11-02T04:13:51.000Z",
    "breakout": null,
    "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
+  },
+  {
+   "name": "ZONOS3-Mini",
+   "owner": "Zyphra",
+   "src": "hf",
+   "cat": "LLMs",
+   "score": 83,
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 289",
+   "meta": [
+    "13K downloads",
+    "Released 5 days ago"
+   ],
+   "at": "2026-11-09T05:03:57.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/Zyphra/ZONOS3-Mini"
   }
  ],
  "breakouts": [
@@ -277,7 +277,7 @@
    "from": "Hugging Face",
    "use": 96615,
    "useLabel": "97K downloads",
-   "usePct": 0.6153846153846154,
+   "usePct": 0.6,
    "talk": [
     {
      "src": "DEV",
@@ -316,7 +316,7 @@
    "from": "Hugging Face",
    "use": 1330289,
    "useLabel": "1.3M downloads",
-   "usePct": 0.9615384615384616,
+   "usePct": 0.96,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -407,21 +407,21 @@
  "github": [
   {
    "repo": "FrigadeHQ/yogurt",
-   "stars": 1267,
+   "stars": 1274,
    "d24": 395,
    "est": true,
-   "forks": 53,
+   "forks": 54,
    "contrib": null,
    "score": 89
   },
   {
    "repo": "agentes-chat/agentes-chat",
-   "stars": 1342,
-   "d24": 268,
+   "stars": 1344,
+   "d24": 267,
    "est": true,
    "forks": 227,
    "contrib": null,
-   "score": 80
+   "score": 79
   }
  ],
  "models": [
@@ -435,7 +435,7 @@
    "grow": null,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 5940
+   "likes": 6002
   },
   {
    "name": "MiniMax-H3-Image",
@@ -458,7 +458,7 @@
    "grow": null,
    "score": 88,
    "cat": "LLMs",
-   "likes": 551
+   "likes": 554
   },
   {
    "name": "idol",
@@ -480,18 +480,18 @@
    "grow": null,
    "score": 85,
    "cat": "Vision",
-   "likes": 344
+   "likes": 345
   },
   {
-   "name": "ZONOS3-Mini",
-   "org": "Zyphra",
-   "lic": "Open source",
-   "at": "2026-11-09T05:03:57.000Z",
-   "dl": 13068,
+   "name": "Kimi-K3.1-Pro",
+   "org": "moonshotai",
+   "lic": "Open weights",
+   "at": "2026-11-02T04:13:51.000Z",
+   "dl": 40953,
    "grow": null,
-   "score": 84,
-   "cat": "LLMs",
-   "likes": 288
+   "score": 83,
+   "cat": "Vision",
+   "likes": 2032
   }
  ],
  "free": [
@@ -862,6 +862,20 @@
  },
  "headlines": [
   {
+   "t": "Doc: Amazon, wary of AI agents favoring sites with better data, plans to gather data on nearly every product sold anywhere, including by crawling rivals' sites",
+   "url": "https://www.techmeme.com/261113/p37#a261113p37",
+   "at": "2026-11-14T01:15:03.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Sources and messages: Jensen Huang misled several Nvidia leaders, including general counsel Tim Teter, about the nature of his relationship with Alice Huang",
+   "url": "https://www.techmeme.com/261113/p36#a261113p36",
+   "at": "2026-11-14T01:00:12.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "ASI, developer of AI tool SMART, says the FAA outage \"is not based on or a result of the SMART system, any product of ASI, or our integration with FAA and ATC\"",
    "url": "https://www.techmeme.com/261113/p34#a261113p34",
    "at": "2026-11-13T23:35:00.000Z",
@@ -958,20 +972,6 @@
    "at": "2026-11-13T18:00:39.000Z",
    "src": "Hugging Face",
    "kind": "Lab blog"
-  },
-  {
-   "t": "How it feels to battle with a flood of AI-generated complaints | Letters",
-   "url": "https://www.theguardian.com/technology/2026/nov/13/how-it-feels-to-battle-with-a-flood-of-ai-generated-complaints",
-   "at": "2026-11-13T17:53:05Z",
-   "src": "The Guardian",
-   "kind": "News"
-  },
-  {
-   "t": "If Gen Z are asked to go to war, it might not be in the way they expect | Brief letters",
-   "url": "https://www.theguardian.com/world/2026/nov/13/if-gen-z-are-asked-to-go-to-war-it-might-not-be-in-the-way-they-expect",
-   "at": "2026-11-13T17:52:28Z",
-   "src": "The Guardian",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -980,35 +980,35 @@
    "t": "Live airband on all frequencies from KORS. Victoria, CA also ground stopped",
    "url": "https://news.ycombinator.com/item?id=50490593",
    "link": "https://orcasairband.com/",
-   "up": 169,
-   "com": 41,
+   "up": 188,
+   "com": 45,
    "at": "2026-11-13T22:04:24.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "First Strike",
-   "url": "https://news.ycombinator.com/item?id=50491944",
-   "link": "https://geohot.github.io//blog/jekyll/update/2026/11/13/first-strike.html",
-   "up": 54,
-   "com": 38,
-   "at": "2026-11-14T00:00:59.000Z"
   },
   {
    "src": "Hacker News",
    "t": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems",
    "url": "https://news.ycombinator.com/item?id=50486748",
    "link": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
-   "up": 319,
-   "com": 90,
+   "up": 326,
+   "com": 91,
    "at": "2026-11-13T17:30:10.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "First Strike",
+   "url": "https://news.ycombinator.com/item?id=50491944",
+   "link": "https://geohot.github.io//blog/jekyll/update/2026/11/13/first-strike.html",
+   "up": 58,
+   "com": 42,
+   "at": "2026-11-14T00:00:59.000Z"
   },
   {
    "src": "Hacker News",
    "t": "All US airports are currently ground stopped",
    "url": "https://news.ycombinator.com/item?id=50489652",
    "link": "https://twitter.com/flightradar24/status/2121347654714077605",
-   "up": 155,
-   "com": 31,
+   "up": 165,
+   "com": 32,
    "at": "2026-11-13T21:06:52.000Z"
   },
   {
@@ -1016,8 +1016,8 @@
    "t": "No AI Slop: A Manifesto",
    "url": "https://news.ycombinator.com/item?id=50488769",
    "link": "https://www.slopmanifesto.com/",
-   "up": 181,
-   "com": 99,
+   "up": 184,
+   "com": 100,
    "at": "2026-11-13T19:51:56.000Z"
   },
   {
