@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-15T06:30:50.591Z"
+  "updated": "2026-11-15T07:01:04.425Z"
  },
  "pulse": {
   "trending": 68,
   "accelerating": 0,
   "newModels": 6,
-  "discussions": 35,
-  "stars": 270
+  "discussions": 33,
+  "stars": 275
  },
  "rising": [
   {
@@ -72,7 +72,7 @@
    "grow": 9,
    "desc": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux.",
    "meta": [
-    "★ 1,521",
+    "★ 1,525",
     "+207 in 24h",
     "Created 4 days ago"
    ],
@@ -178,15 +178,61 @@
    "breakout": null
   }
  ],
- "breakouts": [],
+ "breakouts": [
+  {
+   "key": "gemini 4",
+   "label": "Gemini 4",
+   "n": 3,
+   "sources": [
+    {
+     "src": "Google DeepMind blog",
+     "t": "Introducing Gemini 4 Hydrogen",
+     "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
+    },
+    {
+     "src": "YouTube",
+     "t": "I Tested Gemini 4 Carbon vs Claude Fable 5.2 to Build a Game",
+     "url": "https://www.youtube.com/watch?v=_BjMCeHFle0"
+    },
+    {
+     "src": "Product Hunt",
+     "t": "Gemini 4 Hydrogen",
+     "url": "https://www.producthunt.com/products/gemini-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
+    }
+   ],
+   "since": "2026-10-01T18:14:41.538Z"
+  }
+ ],
  "hype": [
+  {
+   "name": "Gemini 4",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "Google DeepMind blog",
+     "t": "Introducing Gemini 4 Hydrogen",
+     "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
+    },
+    {
+     "src": "YouTube",
+     "t": "I Tested Gemini 4 Carbon vs Claude Fable 5.2 to Build a Game",
+     "url": "https://www.youtube.com/watch?v=_BjMCeHFle0"
+    }
+   ],
+   "buzz": 2,
+   "verdict": "Talk only, no public usage numbers"
+  },
   {
    "name": "LFM3-1.7B",
    "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
    "from": "Hugging Face",
    "use": 100643,
    "useLabel": "101K downloads",
-   "usePct": 0.56,
+   "usePct": 0.6,
    "talk": [
     {
      "src": "DEV",
@@ -209,22 +255,22 @@
    "verdict": "Used a lot, hardly talked about"
   },
   {
-   "name": "Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
-   "url": "https://huggingface.co/SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
+   "name": "MiniMax-H3-Image",
+   "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image",
    "from": "Hugging Face",
-   "use": 4119079,
-   "useLabel": "4.1M downloads",
+   "use": 1615613,
+   "useLabel": "1.6M downloads",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
   },
   {
-   "name": "MiniMax-H3-Image",
-   "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image",
+   "name": "flux-3-image-klein-comfy",
+   "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
    "from": "Hugging Face",
-   "use": 1615613,
-   "useLabel": "1.6M downloads",
+   "use": 1292519,
+   "useLabel": "1.3M downloads",
    "usePct": 0.96,
    "talk": [],
    "buzz": 0,
@@ -316,7 +362,7 @@
  "github": [
   {
    "repo": "FrigadeHQ/yogurt",
-   "stars": 1521,
+   "stars": 1525,
    "d24": 207,
    "est": false,
    "forks": 87,
@@ -325,10 +371,10 @@
   },
   {
    "repo": "agentes-chat/agentes-chat",
-   "stars": 1417,
-   "d24": 63,
+   "stars": 1421,
+   "d24": 68,
    "est": false,
-   "forks": 250,
+   "forks": 251,
    "contrib": null,
    "score": 77
   }
@@ -344,7 +390,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 7398
+   "likes": 7403
   },
   {
    "name": "MiniMax-H3-Image",
@@ -707,6 +753,27 @@
  },
  "headlines": [
   {
+   "t": "Nidus, which is developing AI-powered tech for manufacturing robots used by US defense industrial companies, raised $30M across a pre-seed and a seed",
+   "url": "https://www.techmeme.com/261115/p5#a261115p5",
+   "at": "2026-11-15T06:50:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "TSMC plans to set up a new $500M fund to invest in chip startups, suppliers, and other upstream partners, saying \"we also want to support the future's Nvidia\"",
+   "url": "https://www.techmeme.com/261115/p4#a261115p4",
+   "at": "2026-11-15T06:45:46.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Nebuly, whose tech helps enterprises measure the business value of AI agents by analyzing their impact on productivity and revenue, raised a $21M Series A",
+   "url": "https://www.techmeme.com/261115/p3#a261115p3",
+   "at": "2026-11-15T06:40:02.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Nvidia insiders say Jensen Huang was prone to wild office tantrums, which a source says some employees were surprised hadn't leaked before his public downfall",
    "url": "https://www.techmeme.com/261115/p2#a261115p2",
    "at": "2026-11-15T06:20:01.000Z",
@@ -763,6 +830,13 @@
    "kind": "News"
   },
   {
+   "t": "The Week Jensen Huang Fell: How a Spy Scandal Toppled Nvidia’s CEO",
+   "url": "https://www.europesays.com/3375544/",
+   "at": "2026-11-14T18:54:07Z",
+   "src": "EUROPE SAYS",
+   "kind": "News"
+  },
+  {
    "t": "Databento, which offers market data APIs and says it has contracts with five of the six largest frontier AI labs, raised a $100M Series C at a $1.1B valuation",
    "url": "https://www.techmeme.com/261114/p16#a261114p16",
    "at": "2026-11-14T18:35:04.000Z",
@@ -789,34 +863,6 @@
    "at": "2026-11-14T18:05:02.000Z",
    "src": "Techmeme",
    "kind": "News"
-  },
-  {
-   "t": "Helen Toner warns after OpenAI and Anthropic models hacked companies",
-   "url": "https://www.newsbytesapp.com/news/science/helen-toner-warns-after-openai-and-anthropic-models-hacked-companies/tldr",
-   "at": "2026-11-14T18:00:53Z",
-   "src": "NewsBytes",
-   "kind": "News"
-  },
-  {
-   "t": "Gemini made my Google Home worse at the basics, so I moved my voice control to Home Assistant",
-   "url": "https://www.xda-developers.com/gemini-made-google-home-worse-basics-moved-voice-control-home-assistant/",
-   "at": "2026-11-14T18:00:20Z",
-   "src": "XDA Developers",
-   "kind": "News"
-  },
-  {
-   "t": "The AI graveyard: a running list of projects and startups that didn't make it",
-   "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
-   "at": "2026-11-14T17:30:00Z",
-   "src": "TechCrunch",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI, Anthropic, Google and Other AI Giants Face Lawsuit Demanding Development Freeze",
-   "url": "https://decrypt.co/383270/openai-anthropic-google-ai-giants-lawsuit-development-freeze",
-   "at": "2026-11-14T17:01:02Z",
-   "src": "Decrypt",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -825,17 +871,26 @@
    "t": "Nvidia deliberately kept GPU prices high through circular financing deals",
    "url": "https://news.ycombinator.com/item?id=50501631",
    "link": "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
-   "up": 400,
-   "com": 197,
+   "up": 415,
+   "com": 206,
    "at": "2026-11-14T22:26:30.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
+   "url": "https://news.ycombinator.com/item?id=50497589",
+   "link": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
+   "up": 219,
+   "com": 19,
+   "at": "2026-11-14T15:04:15.000Z"
   },
   {
    "src": "Hacker News",
    "t": "The Single Router in Southern Arkansas That Ground Air Travel to a Halt",
    "url": "https://news.ycombinator.com/item?id=50503588",
    "link": "https://www.wsj.com/business/airlines/the-single-router-in-southern-arkansas-that-ground-air-travel-to-a-halt-eedc326c",
-   "up": 51,
-   "com": 28,
+   "up": 52,
+   "com": 33,
    "at": "2026-11-15T03:05:54.000Z"
   },
   {
@@ -843,36 +898,27 @@
    "t": "Show HN: Gawain – Require type hints on all Python variables",
    "url": "https://news.ycombinator.com/item?id=50504072",
    "link": "https://github.com/matheuzgomes/gawain",
-   "up": 26,
-   "com": 8,
+   "up": 29,
+   "com": 10,
    "at": "2026-11-15T04:39:25.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
-   "url": "https://news.ycombinator.com/item?id=50497589",
-   "link": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
-   "up": 216,
-   "com": 14,
-   "at": "2026-11-14T15:04:15.000Z"
   },
   {
    "src": "Hacker News",
    "t": "US IRS free online tax filing open source repo (2025)",
    "url": "https://news.ycombinator.com/item?id=50499083",
    "link": "https://github.com/IRS-Public/direct-file",
-   "up": 160,
+   "up": 161,
    "com": 96,
    "at": "2026-11-14T17:48:20.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Show HN: A terminal-native idle factory game, written in Rust with ratatui",
-   "url": "https://news.ycombinator.com/item?id=50497132",
-   "link": "https://gitlab.com/snipedbywifi/terminactory",
-   "up": 152,
-   "com": 37,
-   "at": "2026-11-14T14:05:54.000Z"
+   "t": "Court denies motion to dismiss DRAM price fixing case",
+   "url": "https://news.ycombinator.com/item?id=50502988",
+   "link": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
+   "up": 56,
+   "com": 7,
+   "at": "2026-11-15T01:18:36.000Z"
   }
  ]
 }
