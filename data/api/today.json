@@ -5,13 +5,13 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-15T14:30:53.021Z"
+  "updated": "2026-11-15T14:43:45.293Z"
  },
  "pulse": {
   "trending": 67,
   "accelerating": 0,
   "newModels": 6,
-  "discussions": 35,
+  "discussions": 34,
   "stars": 553
  },
  "rising": [
@@ -33,28 +33,12 @@
   },
   {
    "name": "MiniMax-H3-Image",
-   "owner": "Comfy-Org",
-   "src": "hf",
-   "cat": "Vision",
-   "score": 89,
-   "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 402",
-   "meta": [
-    "2M downloads",
-    "Released 7 days ago"
-   ],
-   "at": "2026-11-08T20:37:23.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image"
-  },
-  {
-   "name": "MiniMax-H3-Image",
    "owner": "MiniMaxAI",
    "src": "hf",
    "cat": "Vision",
    "score": 88,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 1.1K",
+   "desc": "Vision on Hugging Face · open weights · ♥ 1.2K",
    "meta": [
     "571K downloads",
     "Released 12 days ago"
@@ -64,13 +48,29 @@
    "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image"
   },
   {
+   "name": "MiniMax-H3-Image",
+   "owner": "Comfy-Org",
+   "src": "hf",
+   "cat": "Vision",
+   "score": 88,
+   "grow": null,
+   "desc": "Vision on Hugging Face · open weights · ♥ 403",
+   "meta": [
+    "2M downloads",
+    "Released 7 days ago"
+   ],
+   "at": "2026-11-08T20:37:23.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image"
+  },
+  {
    "name": "ZONOS3-Mini",
    "owner": "Zyphra",
    "src": "hf",
    "cat": "LLMs",
    "score": 87,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 371",
+   "desc": "Model on Hugging Face · open source · ♥ 372",
    "meta": [
     "40K downloads",
     "Released 6 days ago"
@@ -88,7 +88,7 @@
    "grow": null,
    "desc": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux.",
    "meta": [
-    "★ 1,575",
+    "★ 1,579",
     "~330 in 24h",
     "Created 5 days ago"
    ],
@@ -181,28 +181,6 @@
  ],
  "breakouts": [],
  "hype": [
-  {
-   "name": "Gemini 4",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
-    {
-     "src": "Google DeepMind blog",
-     "t": "Introducing Gemini 4 Hydrogen",
-     "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
-    },
-    {
-     "src": "YouTube",
-     "t": "Gemini 4 Carbon, Alpha Genome 2, realtime voices, new TTS, ACE Music, Seedream 5.5: AI NEWS",
-     "url": "https://www.youtube.com/watch?v=woWo80dPkVk"
-    }
-   ],
-   "buzz": 2,
-   "verdict": "Talk only, no public usage numbers"
-  },
   {
    "name": "yogurt",
    "url": "https://github.com/FrigadeHQ/yogurt",
@@ -322,7 +300,7 @@
  "github": [
   {
    "repo": "FrigadeHQ/yogurt",
-   "stars": 1575,
+   "stars": 1579,
    "d24": 330,
    "est": true,
    "forks": 90,
@@ -331,7 +309,7 @@
   },
   {
    "repo": "agentes-chat/agentes-chat",
-   "stars": 1466,
+   "stars": 1468,
    "d24": 223,
    "est": true,
    "forks": 260,
@@ -350,18 +328,7 @@
    "grow": null,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 7463
-  },
-  {
-   "name": "MiniMax-H3-Image",
-   "org": "Comfy-Org",
-   "lic": "Open weights",
-   "at": "2026-11-08T20:37:23.000Z",
-   "dl": 1973388,
-   "grow": null,
-   "score": 89,
-   "cat": "Vision",
-   "likes": 402
+   "likes": 7464
   },
   {
    "name": "MiniMax-H3-Image",
@@ -372,7 +339,18 @@
    "grow": null,
    "score": 88,
    "cat": "Vision",
-   "likes": 1150
+   "likes": 1151
+  },
+  {
+   "name": "MiniMax-H3-Image",
+   "org": "Comfy-Org",
+   "lic": "Open weights",
+   "at": "2026-11-08T20:37:23.000Z",
+   "dl": 1973388,
+   "grow": null,
+   "score": 88,
+   "cat": "Vision",
+   "likes": 403
   },
   {
    "name": "ZONOS3-Mini",
@@ -383,7 +361,7 @@
    "grow": null,
    "score": 87,
    "cat": "LLMs",
-   "likes": 371
+   "likes": 372
   },
   {
    "name": "idol",
@@ -782,11 +760,18 @@
    "kind": "News"
   },
   {
-   "t": "Gemini 4 Carbon, Alpha Genome 2, realtime voices, new TTS, ACE Music, Seedream 5.5: AI NEWS",
-   "url": "https://www.youtube.com/watch?v=woWo80dPkVk",
-   "at": "2026-11-15T03:25:24Z",
-   "src": "AI Search",
-   "kind": "Video"
+   "t": "How top Indian B-schools are grooming future CEOs with technology, empathy",
+   "url": "https://www.theweek.in/theweek/cover/2026/11/14/how-top-indian-b-schools-are-grooming-future-ceos-with-technology-empathy.html",
+   "at": "2026-11-15T02:41:02Z",
+   "src": "THE WEEK",
+   "kind": "News"
+  },
+  {
+   "t": "Business schools are redefining the modern MBA for the AI era",
+   "url": "https://www.theweek.in/theweek/cover/2026/11/14/business-schools-are-redefining-the-modern-mba-for-the-ai-era.html",
+   "at": "2026-11-15T02:32:00Z",
+   "src": "THE WEEK",
+   "kind": "News"
   },
   {
    "t": "Can Artificial Intelligence help with mental health issues?",
@@ -815,13 +800,6 @@
    "at": "2026-11-14T23:00:00Z",
    "src": "Malay Mail",
    "kind": "News"
-  },
-  {
-   "t": "This Staten Island exhibit lets you talk to AI through vintage rotary phones and watch your stories transform into art",
-   "url": "https://www.silive.com/news/2026/11/this-staten-island-exhibit-lets-you-talk-to-ai-through-vintage-rotary-phones-and-watch-your-stories-transform-into-art.html",
-   "at": "2026-11-14T22:52:21Z",
-   "src": "Staten Island Advance",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -839,8 +817,8 @@
    "t": "Court denies motion to dismiss DRAM price fixing case",
    "url": "https://news.ycombinator.com/item?id=50502988",
    "link": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
-   "up": 304,
-   "com": 122,
+   "up": 315,
+   "com": 126,
    "at": "2026-11-15T01:18:36.000Z"
   },
   {
@@ -848,7 +826,7 @@
    "t": "Understanding Positional Embeddings in Modern LLMs",
    "url": "https://news.ycombinator.com/item?id=50506376",
    "link": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
-   "up": 28,
+   "up": 38,
    "com": 0,
    "at": "2026-11-15T12:14:06.000Z"
   },
@@ -857,18 +835,9 @@
    "t": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
    "url": "https://news.ycombinator.com/item?id=50497589",
    "link": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
-   "up": 253,
+   "up": 254,
    "com": 23,
    "at": "2026-11-14T15:04:15.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Jensen Huang allegedly manufactured the GPU shortage",
-   "url": "https://news.ycombinator.com/item?id=50505905",
-   "link": "https://wccftech.com/jensen-huang-financed-ai-startups-absorb-excess-silicon/",
-   "up": 30,
-   "com": 16,
-   "at": "2026-11-15T10:53:50.000Z"
   },
   {
    "src": "Hacker News",
@@ -878,6 +847,15 @@
    "up": 170,
    "com": 105,
    "at": "2026-11-14T17:48:20.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Jensen Huang allegedly manufactured the GPU shortage",
+   "url": "https://news.ycombinator.com/item?id=50505905",
+   "link": "https://wccftech.com/jensen-huang-financed-ai-startups-absorb-excess-silicon/",
+   "up": 31,
+   "com": 18,
+   "at": "2026-11-15T10:53:50.000Z"
   }
  ]
 }
