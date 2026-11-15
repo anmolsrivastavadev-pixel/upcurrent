@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-15T20:21:15.062Z"
+  "updated": "2026-11-15T20:30:53.559Z"
  },
  "pulse": {
   "trending": 66,
   "accelerating": 0,
   "newModels": 5,
-  "discussions": 35,
-  "stars": 251
+  "discussions": 38,
+  "stars": 252
  },
  "rising": [
   {
@@ -85,10 +85,10 @@
    "src": "gh",
    "cat": "Agents",
    "score": 85,
-   "grow": 3,
+   "grow": 4,
    "desc": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux.",
    "meta": [
-    "★ 1,614",
+    "★ 1,615",
     "+165 in 24h",
     "Created 5 days ago"
    ],
@@ -155,7 +155,7 @@
    "grow": null,
    "desc": "The open source Grok Bot alternative you actually own",
    "meta": [
-    "▲ 274 votes",
+    "▲ 275 votes",
     "25 comments",
     "Launched 12h ago"
    ],
@@ -193,22 +193,22 @@
    "verdict": "Used a lot, hardly talked about"
   },
   {
-   "name": "Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
-   "url": "https://huggingface.co/SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
+   "name": "MiniMax-H3-Image",
+   "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image",
    "from": "Hugging Face",
-   "use": 4160399,
-   "useLabel": "4.2M downloads",
+   "use": 1973388,
+   "useLabel": "2M downloads",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
   },
   {
-   "name": "MiniMax-H3-Image",
-   "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image",
+   "name": "flux-3-image-klein-comfy",
+   "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
    "from": "Hugging Face",
-   "use": 1973388,
-   "useLabel": "2M downloads",
+   "use": 1182267,
+   "useLabel": "1.2M downloads",
    "usePct": 0.9565217391304348,
    "talk": [],
    "buzz": 0,
@@ -300,7 +300,7 @@
  "github": [
   {
    "repo": "FrigadeHQ/yogurt",
-   "stars": 1614,
+   "stars": 1615,
    "d24": 165,
    "est": false,
    "forks": 92,
@@ -309,8 +309,8 @@
   },
   {
    "repo": "agentes-chat/agentes-chat",
-   "stars": 1486,
-   "d24": 86,
+   "stars": 1487,
+   "d24": 87,
    "est": false,
    "forks": 265,
    "contrib": null,
@@ -328,7 +328,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 7502
+   "likes": 7504
   },
   {
    "name": "MiniMax-H3-Image",
@@ -808,9 +808,18 @@
    "t": "All AI-generated code should be Open Source",
    "url": "https://news.ycombinator.com/item?id=50507303",
    "link": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
-   "up": 900,
-   "com": 477,
+   "up": 908,
+   "com": 484,
    "at": "2026-11-15T14:46:58.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Parents pay $75k for Alpha's AI school. Half of its students missed math target",
+   "url": "https://news.ycombinator.com/item?id=50509953",
+   "link": "https://fortune.com/2026/11/14/alpha-school-ai-students-tuition-learning-goals/",
+   "up": 25,
+   "com": 11,
+   "at": "2026-11-15T19:39:46.000Z"
   },
   {
    "src": "Hacker News",
@@ -818,17 +827,8 @@
    "url": "https://news.ycombinator.com/item?id=50502988",
    "link": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
    "up": 448,
-   "com": 203,
+   "com": 205,
    "at": "2026-11-15T01:18:36.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Parents pay $75k for Alpha's AI school. Half of its students missed math target",
-   "url": "https://news.ycombinator.com/item?id=50509953",
-   "link": "https://fortune.com/2026/11/14/alpha-school-ai-students-tuition-learning-goals/",
-   "up": 21,
-   "com": 9,
-   "at": "2026-11-15T19:39:46.000Z"
   },
   {
    "src": "Hacker News",
@@ -836,7 +836,7 @@
    "url": "https://news.ycombinator.com/item?id=50501631",
    "link": "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
    "up": 439,
-   "com": 230,
+   "com": 231,
    "at": "2026-11-14T22:26:30.000Z"
   },
   {
@@ -844,18 +844,18 @@
    "t": "Understanding Positional Embeddings in Modern LLMs",
    "url": "https://news.ycombinator.com/item?id=50506376",
    "link": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
-   "up": 158,
-   "com": 10,
+   "up": 159,
+   "com": 11,
    "at": "2026-11-15T12:14:06.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Jensen Huang allegedly manufactured the GPU shortage",
-   "url": "https://news.ycombinator.com/item?id=50505905",
-   "link": "https://wccftech.com/jensen-huang-financed-ai-startups-absorb-excess-silicon/",
-   "up": 53,
-   "com": 53,
-   "at": "2026-11-15T10:53:50.000Z"
+   "t": "Eclipse Mosquitto – An open source MQTT broker",
+   "url": "https://news.ycombinator.com/item?id=50509416",
+   "link": "https://github.com/eclipse-mosquitto/mosquitto",
+   "up": 26,
+   "com": 8,
+   "at": "2026-11-15T18:36:40.000Z"
   }
  ]
 }
