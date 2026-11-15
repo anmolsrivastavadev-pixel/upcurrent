@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-15T13:01:00.709Z"
+  "updated": "2026-11-15T13:30:52.168Z"
  },
  "pulse": {
   "trending": 67,
   "accelerating": 0,
   "newModels": 6,
-  "discussions": 37,
-  "stars": 556
+  "discussions": 38,
+  "stars": 555
  },
  "rising": [
   {
@@ -88,8 +88,8 @@
    "grow": null,
    "desc": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux.",
    "meta": [
-    "★ 1,562",
-    "~332 in 24h",
+    "★ 1,564",
+    "~331 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-11-10T20:01:01Z",
@@ -122,7 +122,7 @@
    "grow": null,
    "desc": "AI job agent that finds & apply for jobs before anyone else.",
    "meta": [
-    "▲ 279 votes",
+    "▲ 280 votes",
     "27 comments",
     "Launched yesterday"
    ],
@@ -204,28 +204,11 @@
    "verdict": "Talk only, no public usage numbers"
   },
   {
-   "name": "LFM3-1.7B",
-   "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
-   "from": "Hugging Face",
-   "use": 103744,
-   "useLabel": "104K downloads",
-   "usePct": 0.5416666666666666,
-   "talk": [
-    {
-     "src": "DEV",
-     "t": "Build an Offline AI Study App with Local Models (Liquid AI LFM3-1.7B)",
-     "url": "https://dev.to/debs_obrien/build-an-offline-ai-study-app-with-local-models-liquid-ai-lfm3-17b-1lio"
-    }
-   ],
-   "buzz": 1,
-   "verdict": "The hype matches real use"
-  },
-  {
    "name": "yogurt",
    "url": "https://github.com/FrigadeHQ/yogurt",
    "from": "GitHub",
-   "use": 332,
-   "useLabel": "~332 stars/day",
+   "use": 331,
+   "useLabel": "~331 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -339,8 +322,8 @@
  "github": [
   {
    "repo": "FrigadeHQ/yogurt",
-   "stars": 1562,
-   "d24": 332,
+   "stars": 1564,
+   "d24": 331,
    "est": true,
    "forks": 89,
    "contrib": null,
@@ -348,10 +331,10 @@
   },
   {
    "repo": "agentes-chat/agentes-chat",
-   "stars": 1459,
+   "stars": 1460,
    "d24": 224,
    "est": true,
-   "forks": 257,
+   "forks": 258,
    "contrib": null,
    "score": 76
   }
@@ -367,7 +350,7 @@
    "grow": null,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 7455
+   "likes": 7457
   },
   {
    "name": "MiniMax-H3-Image",
@@ -389,7 +372,7 @@
    "grow": null,
    "score": 88,
    "cat": "Vision",
-   "likes": 1144
+   "likes": 1147
   },
   {
    "name": "ZONOS3-Mini",
@@ -422,7 +405,7 @@
    "grow": null,
    "score": 81,
    "cat": "Vision",
-   "likes": 330
+   "likes": 331
   }
  ],
  "free": [
@@ -847,7 +830,7 @@
    "t": "Nvidia deliberately kept GPU prices high through circular financing deals",
    "url": "https://news.ycombinator.com/item?id=50501631",
    "link": "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
-   "up": 427,
+   "up": 429,
    "com": 218,
    "at": "2026-11-14T22:26:30.000Z"
   },
@@ -856,8 +839,8 @@
    "t": "Court denies motion to dismiss DRAM price fixing case",
    "url": "https://news.ycombinator.com/item?id=50502988",
    "link": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
-   "up": 249,
-   "com": 96,
+   "up": 269,
+   "com": 100,
    "at": "2026-11-15T01:18:36.000Z"
   },
   {
@@ -865,7 +848,7 @@
    "t": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
    "url": "https://news.ycombinator.com/item?id=50497589",
    "link": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
-   "up": 246,
+   "up": 248,
    "com": 23,
    "at": "2026-11-14T15:04:15.000Z"
   },
@@ -874,18 +857,9 @@
    "t": "US IRS free online tax filing open source repo (2025)",
    "url": "https://news.ycombinator.com/item?id=50499083",
    "link": "https://github.com/IRS-Public/direct-file",
-   "up": 167,
-   "com": 101,
+   "up": 169,
+   "com": 102,
    "at": "2026-11-14T17:48:20.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Show HN: Gawain – Require type hints on all Python variables",
-   "url": "https://news.ycombinator.com/item?id=50504072",
-   "link": "https://github.com/matheuzgomes/gawain",
-   "up": 60,
-   "com": 40,
-   "at": "2026-11-15T04:39:25.000Z"
   },
   {
    "src": "Hacker News",
@@ -895,6 +869,15 @@
    "up": 159,
    "com": 39,
    "at": "2026-11-14T14:05:54.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Show HN: Gawain – Require type hints on all Python variables",
+   "url": "https://news.ycombinator.com/item?id=50504072",
+   "link": "https://github.com/matheuzgomes/gawain",
+   "up": 60,
+   "com": 42,
+   "at": "2026-11-15T04:39:25.000Z"
   }
  ]
 }
