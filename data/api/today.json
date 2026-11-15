@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-15T10:01:01.192Z"
+  "updated": "2026-11-15T10:30:52.232Z"
  },
  "pulse": {
   "trending": 67,
-  "accelerating": 0,
+  "accelerating": 2,
   "newModels": 6,
-  "discussions": 35,
-  "stars": 282
+  "discussions": 36,
+  "stars": 286
  },
  "rising": [
   {
@@ -37,10 +37,10 @@
    "src": "hf",
    "cat": "Vision",
    "score": 89,
-   "grow": 0,
+   "grow": 22,
    "desc": "Vision on Hugging Face · open weights · ♥ 393",
    "meta": [
-    "1.6M downloads",
+    "2M downloads",
     "Released 7 days ago"
    ],
    "at": "2026-11-08T20:37:23.000Z",
@@ -53,10 +53,10 @@
    "src": "hf",
    "cat": "Vision",
    "score": 88,
-   "grow": 0,
+   "grow": 10,
    "desc": "Vision on Hugging Face · open weights · ♥ 1.1K",
    "meta": [
-    "518K downloads",
+    "571K downloads",
     "Released 12 days ago"
    ],
    "at": "2026-11-03T06:34:36.000Z",
@@ -72,8 +72,8 @@
    "grow": 10,
    "desc": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux.",
    "meta": [
-    "★ 1,543",
-    "+196 in 24h",
+    "★ 1,546",
+    "+195 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-11-10T20:01:01Z",
@@ -86,10 +86,10 @@
    "src": "hf",
    "cat": "LLMs",
    "score": 85,
-   "grow": 0,
+   "grow": 102,
    "desc": "Model on Hugging Face · open source · ♥ 365",
    "meta": [
-    "20K downloads",
+    "40K downloads",
     "Released 6 days ago"
    ],
    "at": "2026-11-09T05:03:57.000Z",
@@ -122,7 +122,7 @@
    "grow": null,
    "desc": "AI job agent that finds & apply for jobs before anyone else.",
    "meta": [
-    "▲ 273 votes",
+    "▲ 274 votes",
     "27 comments",
     "Launched yesterday"
    ],
@@ -187,7 +187,7 @@
    "from": "Hugging Face",
    "use": 103744,
    "useLabel": "104K downloads",
-   "usePct": 0.5833333333333334,
+   "usePct": 0.5416666666666666,
    "talk": [
     {
      "src": "DEV",
@@ -202,8 +202,8 @@
    "name": "yogurt",
    "url": "https://github.com/FrigadeHQ/yogurt",
    "from": "GitHub",
-   "use": 196,
-   "useLabel": "+196 stars/day",
+   "use": 195,
+   "useLabel": "+195 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -213,8 +213,8 @@
    "name": "MiniMax-H3-Image",
    "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image",
    "from": "Hugging Face",
-   "use": 1615613,
-   "useLabel": "1.6M downloads",
+   "use": 1973388,
+   "useLabel": "2M downloads",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -233,6 +233,16 @@
   }
  ],
  "receipts": [
+  {
+   "name": "chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
+   "url": "https://huggingface.co/chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
+   "kind": "downloads",
+   "first": "2026-11-14T00:01:04.210Z",
+   "firstV": 68096,
+   "m": 100000,
+   "at": "2026-11-15T10:30:52.232Z",
+   "lead": 34.496672777777775
+  },
   {
    "name": "shinyobjectz/raea",
    "url": "https://github.com/shinyobjectz/raea",
@@ -302,34 +312,24 @@
    "m": 5000,
    "at": "2026-11-13T20:30:51.442Z",
    "lead": 346.49733972222225
-  },
-  {
-   "name": "KKKKhazix/agent-autoloop",
-   "url": "https://github.com/KKKKhazix/agent-autoloop",
-   "kind": "stars",
-   "first": "2026-11-04T07:01:00.857Z",
-   "firstV": 1328,
-   "m": 5000,
-   "at": "2026-11-13T20:30:51.442Z",
-   "lead": 229.49738472222222
   }
  ],
  "github": [
   {
    "repo": "FrigadeHQ/yogurt",
-   "stars": 1543,
-   "d24": 196,
+   "stars": 1546,
+   "d24": 195,
    "est": false,
-   "forks": 87,
+   "forks": 88,
    "contrib": null,
    "score": 85
   },
   {
    "repo": "agentes-chat/agentes-chat",
-   "stars": 1443,
-   "d24": 86,
+   "stars": 1448,
+   "d24": 91,
    "est": false,
-   "forks": 253,
+   "forks": 254,
    "contrib": null,
    "score": 77
   }
@@ -345,15 +345,15 @@
    "grow": 10,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 7432
+   "likes": 7436
   },
   {
    "name": "MiniMax-H3-Image",
    "org": "Comfy-Org",
    "lic": "Open weights",
    "at": "2026-11-08T20:37:23.000Z",
-   "dl": 1615613,
-   "grow": 0,
+   "dl": 1973388,
+   "grow": 22,
    "score": 89,
    "cat": "Vision",
    "likes": 393
@@ -363,19 +363,19 @@
    "org": "MiniMaxAI",
    "lic": "Open weights",
    "at": "2026-11-03T06:34:36.000Z",
-   "dl": 517948,
-   "grow": 0,
+   "dl": 571067,
+   "grow": 10,
    "score": 88,
    "cat": "Vision",
-   "likes": 1138
+   "likes": 1139
   },
   {
    "name": "ZONOS3-Mini",
    "org": "Zyphra",
    "lic": "Open source",
    "at": "2026-11-09T05:03:57.000Z",
-   "dl": 19743,
-   "grow": 0,
+   "dl": 39862,
+   "grow": 102,
    "score": 85,
    "cat": "LLMs",
    "likes": 365
@@ -397,11 +397,11 @@
    "size": "27B",
    "lic": "Open source",
    "at": "2026-11-06T19:31:28.000Z",
-   "dl": 6191,
-   "grow": 0,
+   "dl": 7497,
+   "grow": 21,
    "score": 81,
    "cat": "LLMs",
-   "likes": 603
+   "likes": 604
   }
  ],
  "free": [
@@ -827,7 +827,7 @@
    "url": "https://news.ycombinator.com/item?id=50501631",
    "link": "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
    "up": 424,
-   "com": 215,
+   "com": 216,
    "at": "2026-11-14T22:26:30.000Z"
   },
   {
@@ -835,8 +835,8 @@
    "t": "Court denies motion to dismiss DRAM price fixing case",
    "url": "https://news.ycombinator.com/item?id=50502988",
    "link": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
-   "up": 147,
-   "com": 39,
+   "up": 163,
+   "com": 44,
    "at": "2026-11-15T01:18:36.000Z"
   },
   {
@@ -844,8 +844,8 @@
    "t": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
    "url": "https://news.ycombinator.com/item?id=50497589",
    "link": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
-   "up": 233,
-   "com": 21,
+   "up": 234,
+   "com": 22,
    "at": "2026-11-14T15:04:15.000Z"
   },
   {
@@ -862,8 +862,8 @@
    "t": "Show HN: Gawain – Require type hints on all Python variables",
    "url": "https://news.ycombinator.com/item?id=50504072",
    "link": "https://github.com/matheuzgomes/gawain",
-   "up": 51,
-   "com": 24,
+   "up": 53,
+   "com": 29,
    "at": "2026-11-15T04:39:25.000Z"
   },
   {
@@ -871,7 +871,7 @@
    "t": "The Single Router in Southern Arkansas That Ground Air Travel to a Halt",
    "url": "https://news.ycombinator.com/item?id=50503588",
    "link": "https://www.wsj.com/business/airlines/the-single-router-in-southern-arkansas-that-ground-air-travel-to-a-halt-eedc326c",
-   "up": 56,
+   "up": 57,
    "com": 38,
    "at": "2026-11-15T03:05:54.000Z"
   }
