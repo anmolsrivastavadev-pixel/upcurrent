@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-15T05:01:06.632Z"
+  "updated": "2026-11-15T05:30:53.915Z"
  },
  "pulse": {
   "trending": 68,
   "accelerating": 0,
   "newModels": 6,
   "discussions": 33,
-  "stars": 288
+  "stars": 281
  },
  "rising": [
   {
@@ -72,8 +72,8 @@
    "grow": 8,
    "desc": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux.",
    "meta": [
-    "★ 1,516",
-    "+223 in 24h",
+    "★ 1,518",
+    "+218 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-10T20:01:01Z",
@@ -171,7 +171,7 @@
    "grow": null,
    "desc": "AI job agent that finds & apply for jobs before anyone else.",
    "meta": [
-    "▲ 247 votes",
+    "▲ 248 votes",
     "24 comments",
     "Launched 21h ago"
    ],
@@ -179,8 +179,54 @@
    "breakout": null
   }
  ],
- "breakouts": [],
+ "breakouts": [
+  {
+   "key": "gemini 4",
+   "label": "Gemini 4",
+   "n": 3,
+   "sources": [
+    {
+     "src": "Google DeepMind blog",
+     "t": "Introducing Gemini 4 Hydrogen",
+     "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
+    },
+    {
+     "src": "YouTube",
+     "t": "I Tested Gemini 4 Carbon vs Claude Fable 5.2 to Build a Game",
+     "url": "https://www.youtube.com/watch?v=_BjMCeHFle0"
+    },
+    {
+     "src": "Product Hunt",
+     "t": "Gemini 4 Hydrogen",
+     "url": "https://www.producthunt.com/products/gemini-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
+    }
+   ],
+   "since": "2026-10-01T18:14:41.538Z"
+  }
+ ],
  "hype": [
+  {
+   "name": "Gemini 4",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "Google DeepMind blog",
+     "t": "Introducing Gemini 4 Hydrogen",
+     "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
+    },
+    {
+     "src": "YouTube",
+     "t": "I Tested Gemini 4 Carbon vs Claude Fable 5.2 to Build a Game",
+     "url": "https://www.youtube.com/watch?v=_BjMCeHFle0"
+    }
+   ],
+   "buzz": 2,
+   "verdict": "Talk only, no public usage numbers"
+  },
   {
    "name": "LFM3-1.7B",
    "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
@@ -202,8 +248,8 @@
    "name": "yogurt",
    "url": "https://github.com/FrigadeHQ/yogurt",
    "from": "GitHub",
-   "use": 223,
-   "useLabel": "+223 stars/day",
+   "use": 218,
+   "useLabel": "+218 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -317,17 +363,17 @@
  "github": [
   {
    "repo": "FrigadeHQ/yogurt",
-   "stars": 1516,
-   "d24": 223,
+   "stars": 1518,
+   "d24": 218,
    "est": false,
-   "forks": 84,
+   "forks": 85,
    "contrib": null,
    "score": 85
   },
   {
    "repo": "agentes-chat/agentes-chat",
    "stars": 1414,
-   "d24": 65,
+   "d24": 63,
    "est": false,
    "forks": 250,
    "contrib": null,
@@ -345,7 +391,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 7388
+   "likes": 7389
   },
   {
    "name": "MiniMax-H3-Image",
@@ -367,7 +413,7 @@
    "grow": 0,
    "score": 88,
    "cat": "Vision",
-   "likes": 1126
+   "likes": 1128
   },
   {
    "name": "idol",
@@ -757,6 +803,13 @@
    "kind": "News"
   },
   {
+   "t": "The AI graveyard: a running list of projects and startups that didn't make it",
+   "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+   "at": "2026-11-14T17:30:00Z",
+   "src": "TechCrunch",
+   "kind": "News"
+  },
+  {
    "t": "OpenAI, Anthropic, Google and Other AI Giants Face Lawsuit Demanding Development Freeze",
    "url": "https://decrypt.co/383270/openai-anthropic-google-ai-giants-lawsuit-development-freeze",
    "at": "2026-11-14T17:01:02Z",
@@ -806,13 +859,6 @@
    "kind": "News"
   },
   {
-   "t": "A warning to anyone who celebrated Microsoft going down",
-   "url": "https://www.youtube.com/watch?v=EREwOH1NHbE",
-   "at": "2026-11-14T15:36:02Z",
-   "src": "LBC",
-   "kind": "Video"
-  },
-  {
    "t": "Protesters target OpenAI and Anthropic in San Francisco over AI safety fears",
    "url": "https://www.africanews.com/2026/09/18/protesters-target-openai-and-anthropic-in-san-francisco-over-ai-safety-fears/",
    "at": "2026-11-14T15:34:00Z",
@@ -826,8 +872,8 @@
    "t": "Nvidia deliberately kept GPU prices high through circular financing deals",
    "url": "https://news.ycombinator.com/item?id=50501631",
    "link": "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
-   "up": 348,
-   "com": 181,
+   "up": 367,
+   "com": 188,
    "at": "2026-11-14T22:26:30.000Z"
   },
   {
@@ -835,8 +881,8 @@
    "t": "The Single Router in Southern Arkansas That Ground Air Travel to a Halt",
    "url": "https://news.ycombinator.com/item?id=50503588",
    "link": "https://www.wsj.com/business/airlines/the-single-router-in-southern-arkansas-that-ground-air-travel-to-a-halt-eedc326c",
-   "up": 32,
-   "com": 16,
+   "up": 41,
+   "com": 19,
    "at": "2026-11-15T03:05:54.000Z"
   },
   {
@@ -844,7 +890,7 @@
    "t": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
    "url": "https://news.ycombinator.com/item?id=50497589",
    "link": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
-   "up": 204,
+   "up": 209,
    "com": 11,
    "at": "2026-11-14T15:04:15.000Z"
   },
@@ -854,26 +900,25 @@
    "url": "https://news.ycombinator.com/item?id=50499083",
    "link": "https://github.com/IRS-Public/direct-file",
    "up": 158,
-   "com": 93,
+   "com": 94,
    "at": "2026-11-14T17:48:20.000Z"
+  },
+  {
+   "src": "DEV",
+   "t": "Jira said Done. It wasn't, and the bug showed up later. So I made Jira check first.",
+   "url": "https://dev.to/wst2002rk/jira-said-done-it-wasnt-and-the-bug-showed-up-later-so-i-made-jira-check-first-9ed",
+   "up": 10,
+   "com": 0,
+   "at": "2026-11-15T05:05:40Z"
   },
   {
    "src": "Hacker News",
    "t": "Show HN: A terminal-native idle factory game, written in Rust with ratatui",
    "url": "https://news.ycombinator.com/item?id=50497132",
    "link": "https://gitlab.com/snipedbywifi/terminactory",
-   "up": 147,
-   "com": 34,
+   "up": 149,
+   "com": 36,
    "at": "2026-11-14T14:05:54.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "The Claude Delusion",
-   "url": "https://news.ycombinator.com/item?id=50496921",
-   "link": "https://www.netmeister.org/blog/claude-delusion.html",
-   "up": 146,
-   "com": 185,
-   "at": "2026-11-14T13:36:17.000Z"
   }
  ]
 }
