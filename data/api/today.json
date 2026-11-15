@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-15T08:00:59.394Z"
+  "updated": "2026-11-15T08:30:51.238Z"
  },
  "pulse": {
   "trending": 68,
   "accelerating": 0,
   "newModels": 6,
-  "discussions": 32,
-  "stars": 270
+  "discussions": 34,
+  "stars": 273
  },
  "rising": [
   {
@@ -38,7 +38,7 @@
    "cat": "Vision",
    "score": 89,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 390",
+   "desc": "Vision on Hugging Face · open weights · ♥ 391",
    "meta": [
     "1.6M downloads",
     "Released 6 days ago"
@@ -69,12 +69,12 @@
    "src": "gh",
    "cat": "Agents",
    "score": 85,
-   "grow": 9,
+   "grow": 10,
    "desc": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux.",
    "meta": [
-    "★ 1,529",
-    "+200 in 24h",
-    "Created 4 days ago"
+    "★ 1,536",
+    "+204 in 24h",
+    "Created 5 days ago"
    ],
    "at": "2026-11-10T20:01:01Z",
    "breakout": null,
@@ -124,7 +124,7 @@
    "meta": [
     "▲ 265 votes",
     "27 comments",
-    "Launched 24h ago"
+    "Launched yesterday"
    ],
    "at": "2026-11-14T08:01:00Z",
    "breakout": null
@@ -136,7 +136,7 @@
    "cat": "LLMs",
    "score": 84,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 355",
+   "desc": "Model on Hugging Face · open source · ♥ 357",
    "meta": [
     "20K downloads",
     "Released 6 days ago"
@@ -152,7 +152,7 @@
    "cat": "LLMs",
    "score": 83,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 600",
+   "desc": "Model on Hugging Face · open source · ♥ 602",
    "meta": [
     "6.2K downloads",
     "Released 9 days ago"
@@ -178,31 +178,7 @@
    "breakout": null
   }
  ],
- "breakouts": [
-  {
-   "key": "gemini 4",
-   "label": "Gemini 4",
-   "n": 3,
-   "sources": [
-    {
-     "src": "Google DeepMind blog",
-     "t": "Introducing Gemini 4 Hydrogen",
-     "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
-    },
-    {
-     "src": "YouTube",
-     "t": "I Tested Gemini 4 Carbon vs Claude Fable 5.2 to Build a Game",
-     "url": "https://www.youtube.com/watch?v=_BjMCeHFle0"
-    },
-    {
-     "src": "Product Hunt",
-     "t": "Gemini 4 Hydrogen",
-     "url": "https://www.producthunt.com/products/gemini-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
-    }
-   ],
-   "since": "2026-10-01T18:14:41.538Z"
-  }
- ],
+ "breakouts": [],
  "hype": [
   {
    "name": "Gemini 4",
@@ -247,8 +223,8 @@
    "name": "yogurt",
    "url": "https://github.com/FrigadeHQ/yogurt",
    "from": "GitHub",
-   "use": 200,
-   "useLabel": "+200 stars/day",
+   "use": 204,
+   "useLabel": "+204 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -362,8 +338,8 @@
  "github": [
   {
    "repo": "FrigadeHQ/yogurt",
-   "stars": 1529,
-   "d24": 200,
+   "stars": 1536,
+   "d24": 204,
    "est": false,
    "forks": 87,
    "contrib": null,
@@ -371,8 +347,8 @@
   },
   {
    "repo": "agentes-chat/agentes-chat",
-   "stars": 1425,
-   "d24": 70,
+   "stars": 1426,
+   "d24": 69,
    "est": false,
    "forks": 251,
    "contrib": null,
@@ -390,7 +366,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 7412
+   "likes": 7419
   },
   {
    "name": "MiniMax-H3-Image",
@@ -401,7 +377,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Vision",
-   "likes": 390
+   "likes": 391
   },
   {
    "name": "MiniMax-H3-Image",
@@ -412,7 +388,7 @@
    "grow": 0,
    "score": 88,
    "cat": "Vision",
-   "likes": 1132
+   "likes": 1134
   },
   {
    "name": "idol",
@@ -423,7 +399,7 @@
    "grow": 0,
    "score": 85,
    "cat": "Vision",
-   "likes": 2345
+   "likes": 2348
   },
   {
    "name": "ZONOS3-Mini",
@@ -434,7 +410,7 @@
    "grow": 0,
    "score": 84,
    "cat": "LLMs",
-   "likes": 355
+   "likes": 357
   },
   {
    "name": "Arete-27B",
@@ -446,7 +422,7 @@
    "grow": 0,
    "score": 83,
    "cat": "LLMs",
-   "likes": 600
+   "likes": 602
   }
  ],
  "free": [
@@ -871,36 +847,45 @@
    "t": "Nvidia deliberately kept GPU prices high through circular financing deals",
    "url": "https://news.ycombinator.com/item?id=50501631",
    "link": "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
-   "up": 418,
-   "com": 210,
+   "up": 419,
+   "com": 212,
    "at": "2026-11-14T22:26:30.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
-   "url": "https://news.ycombinator.com/item?id=50497589",
-   "link": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
-   "up": 224,
-   "com": 21,
-   "at": "2026-11-14T15:04:15.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Court denies motion to dismiss DRAM price fixing case",
    "url": "https://news.ycombinator.com/item?id=50502988",
    "link": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
-   "up": 79,
-   "com": 17,
+   "up": 96,
+   "com": 20,
    "at": "2026-11-15T01:18:36.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
+   "url": "https://news.ycombinator.com/item?id=50497589",
+   "link": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
+   "up": 226,
+   "com": 21,
+   "at": "2026-11-14T15:04:15.000Z"
   },
   {
    "src": "Hacker News",
    "t": "US IRS free online tax filing open source repo (2025)",
    "url": "https://news.ycombinator.com/item?id=50499083",
    "link": "https://github.com/IRS-Public/direct-file",
-   "up": 162,
-   "com": 98,
+   "up": 163,
+   "com": 99,
    "at": "2026-11-14T17:48:20.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Show HN: Gawain – Require type hints on all Python variables",
+   "url": "https://news.ycombinator.com/item?id=50504072",
+   "link": "https://github.com/matheuzgomes/gawain",
+   "up": 42,
+   "com": 20,
+   "at": "2026-11-15T04:39:25.000Z"
   },
   {
    "src": "Hacker News",
@@ -910,15 +895,6 @@
    "up": 55,
    "com": 37,
    "at": "2026-11-15T03:05:54.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Show HN: Gawain – Require type hints on all Python variables",
-   "url": "https://news.ycombinator.com/item?id=50504072",
-   "link": "https://github.com/matheuzgomes/gawain",
-   "up": 37,
-   "com": 15,
-   "at": "2026-11-15T04:39:25.000Z"
   }
  ]
 }
