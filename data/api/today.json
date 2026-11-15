@@ -5,13 +5,13 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-15T14:43:45.293Z"
+  "updated": "2026-11-15T15:01:03.947Z"
  },
  "pulse": {
   "trending": 67,
   "accelerating": 0,
   "newModels": 6,
-  "discussions": 34,
+  "discussions": 33,
   "stars": 553
  },
  "rising": [
@@ -88,7 +88,7 @@
    "grow": null,
    "desc": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux.",
    "meta": [
-    "★ 1,579",
+    "★ 1,581",
     "~330 in 24h",
     "Created 5 days ago"
    ],
@@ -122,7 +122,7 @@
    "grow": null,
    "desc": "AI job agent that finds & apply for jobs before anyone else.",
    "meta": [
-    "▲ 285 votes",
+    "▲ 286 votes",
     "27 comments",
     "Launched yesterday"
    ],
@@ -181,6 +181,28 @@
  ],
  "breakouts": [],
  "hype": [
+  {
+   "name": "Gemini 4",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "Google DeepMind blog",
+     "t": "Introducing Gemini 4 Hydrogen",
+     "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
+    },
+    {
+     "src": "YouTube",
+     "t": "Gemini 4 Carbon, Alpha Genome 2, realtime voices, new TTS, ACE Music, Seedream 5.5: AI NEWS",
+     "url": "https://www.youtube.com/watch?v=woWo80dPkVk"
+    }
+   ],
+   "buzz": 2,
+   "verdict": "Talk only, no public usage numbers"
+  },
   {
    "name": "yogurt",
    "url": "https://github.com/FrigadeHQ/yogurt",
@@ -300,7 +322,7 @@
  "github": [
   {
    "repo": "FrigadeHQ/yogurt",
-   "stars": 1579,
+   "stars": 1581,
    "d24": 330,
    "est": true,
    "forks": 90,
@@ -309,7 +331,7 @@
   },
   {
    "repo": "agentes-chat/agentes-chat",
-   "stars": 1468,
+   "stars": 1469,
    "d24": 223,
    "est": true,
    "forks": 260,
@@ -328,7 +350,7 @@
    "grow": null,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 7464
+   "likes": 7466
   },
   {
    "name": "MiniMax-H3-Image",
@@ -372,7 +394,7 @@
    "grow": null,
    "score": 83,
    "cat": "Vision",
-   "likes": 2355
+   "likes": 2356
   },
   {
    "name": "Inkling-2-Small",
@@ -760,6 +782,20 @@
    "kind": "News"
   },
   {
+   "t": "Gemini 4 Carbon, Alpha Genome 2, realtime voices, new TTS, ACE Music, Seedream 5.5: AI NEWS",
+   "url": "https://www.youtube.com/watch?v=woWo80dPkVk",
+   "at": "2026-11-15T03:25:24Z",
+   "src": "AI Search",
+   "kind": "Video"
+  },
+  {
+   "t": "How AI headwinds in US may reshape India’s tech landscape",
+   "url": "https://www.theweek.in/theweek/business/2026/11/14/how-ai-headwinds-in-us-may-reshape-india-tech-landscape.html",
+   "at": "2026-11-15T03:01:00Z",
+   "src": "THE WEEK",
+   "kind": "News"
+  },
+  {
    "t": "How top Indian B-schools are grooming future CEOs with technology, empathy",
    "url": "https://www.theweek.in/theweek/cover/2026/11/14/how-top-indian-b-schools-are-grooming-future-ceos-with-technology-empathy.html",
    "at": "2026-11-15T02:41:02Z",
@@ -786,20 +822,6 @@
    "at": "2026-11-15T01:51:02Z",
    "src": "The Korea Times",
    "kind": "News"
-  },
-  {
-   "t": "[BREAKING] Top tax accountant exam scorer admits to using AI to cheat",
-   "url": "https://www.koreatimes.co.kr/southkorea/law-crime/20261115/top-tax-accountant-exam-scorer-admits-to-using-ai-to-cheat",
-   "at": "2026-11-15T01:51:02Z",
-   "src": "The Korea Times",
-   "kind": "News"
-  },
-  {
-   "t": "Lethal autonomous weapons: Why the UN is scrambling to regulate ‘killer robots’",
-   "url": "https://www.malaymail.com/news/world/2026/11/15/lethal-autonomous-weapons-why-the-un-is-scrambling-to-regulate-killer-robots/243249",
-   "at": "2026-11-14T23:00:00Z",
-   "src": "Malay Mail",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -817,8 +839,8 @@
    "t": "Court denies motion to dismiss DRAM price fixing case",
    "url": "https://news.ycombinator.com/item?id=50502988",
    "link": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
-   "up": 315,
-   "com": 126,
+   "up": 324,
+   "com": 133,
    "at": "2026-11-15T01:18:36.000Z"
   },
   {
@@ -826,7 +848,7 @@
    "t": "Understanding Positional Embeddings in Modern LLMs",
    "url": "https://news.ycombinator.com/item?id=50506376",
    "link": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
-   "up": 38,
+   "up": 53,
    "com": 0,
    "at": "2026-11-15T12:14:06.000Z"
   },
@@ -841,21 +863,21 @@
   },
   {
    "src": "Hacker News",
-   "t": "US IRS free online tax filing open source repo (2025)",
-   "url": "https://news.ycombinator.com/item?id=50499083",
-   "link": "https://github.com/IRS-Public/direct-file",
-   "up": 170,
-   "com": 105,
-   "at": "2026-11-14T17:48:20.000Z"
-  },
-  {
-   "src": "Hacker News",
    "t": "Jensen Huang allegedly manufactured the GPU shortage",
    "url": "https://news.ycombinator.com/item?id=50505905",
    "link": "https://wccftech.com/jensen-huang-financed-ai-startups-absorb-excess-silicon/",
-   "up": 31,
-   "com": 18,
+   "up": 36,
+   "com": 24,
    "at": "2026-11-15T10:53:50.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "US IRS free online tax filing open source repo (2025)",
+   "url": "https://news.ycombinator.com/item?id=50499083",
+   "link": "https://github.com/IRS-Public/direct-file",
+   "up": 171,
+   "com": 105,
+   "at": "2026-11-14T17:48:20.000Z"
   }
  ]
 }
