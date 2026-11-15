@@ -5,7 +5,7 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-15T07:30:53.291Z"
+  "updated": "2026-11-15T08:00:59.394Z"
  },
  "pulse": {
   "trending": 68,
@@ -72,8 +72,8 @@
    "grow": 9,
    "desc": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux.",
    "meta": [
-    "★ 1,527",
-    "+203 in 24h",
+    "★ 1,529",
+    "+200 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-10T20:01:01Z",
@@ -113,20 +113,20 @@
    "breakout": null
   },
   {
-   "name": "Claude Meetings",
+   "name": "HiringNow",
    "owner": "Product Hunt",
    "src": "ph",
-   "url": "https://www.producthunt.com/products/claude?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29",
-   "cat": "Tools",
+   "url": "https://www.producthunt.com/products/hiringnow?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29",
+   "cat": "Agents",
    "score": 85,
    "grow": null,
-   "desc": "Add Claude to your call and get work started as you talk",
+   "desc": "AI job agent that finds & apply for jobs before anyone else.",
    "meta": [
-    "▲ 294 votes",
-    "15 comments",
-    "Launched 2 days ago"
+    "▲ 265 votes",
+    "27 comments",
+    "Launched 24h ago"
    ],
-   "at": "2026-11-13T08:00:00Z",
+   "at": "2026-11-14T08:01:00Z",
    "breakout": null
   },
   {
@@ -136,7 +136,7 @@
    "cat": "LLMs",
    "score": 84,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 354",
+   "desc": "Model on Hugging Face · open source · ♥ 355",
    "meta": [
     "20K downloads",
     "Released 6 days ago"
@@ -152,10 +152,10 @@
    "cat": "LLMs",
    "score": 83,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 599",
+   "desc": "Model on Hugging Face · open source · ♥ 600",
    "meta": [
     "6.2K downloads",
-    "Released 8 days ago"
+    "Released 9 days ago"
    ],
    "at": "2026-11-06T19:31:28.000Z",
    "breakout": null,
@@ -178,8 +178,54 @@
    "breakout": null
   }
  ],
- "breakouts": [],
+ "breakouts": [
+  {
+   "key": "gemini 4",
+   "label": "Gemini 4",
+   "n": 3,
+   "sources": [
+    {
+     "src": "Google DeepMind blog",
+     "t": "Introducing Gemini 4 Hydrogen",
+     "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
+    },
+    {
+     "src": "YouTube",
+     "t": "I Tested Gemini 4 Carbon vs Claude Fable 5.2 to Build a Game",
+     "url": "https://www.youtube.com/watch?v=_BjMCeHFle0"
+    },
+    {
+     "src": "Product Hunt",
+     "t": "Gemini 4 Hydrogen",
+     "url": "https://www.producthunt.com/products/gemini-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
+    }
+   ],
+   "since": "2026-10-01T18:14:41.538Z"
+  }
+ ],
  "hype": [
+  {
+   "name": "Gemini 4",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "Google DeepMind blog",
+     "t": "Introducing Gemini 4 Hydrogen",
+     "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
+    },
+    {
+     "src": "YouTube",
+     "t": "I Tested Gemini 4 Carbon vs Claude Fable 5.2 to Build a Game",
+     "url": "https://www.youtube.com/watch?v=_BjMCeHFle0"
+    }
+   ],
+   "buzz": 2,
+   "verdict": "Talk only, no public usage numbers"
+  },
   {
    "name": "LFM3-1.7B",
    "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
@@ -201,8 +247,8 @@
    "name": "yogurt",
    "url": "https://github.com/FrigadeHQ/yogurt",
    "from": "GitHub",
-   "use": 203,
-   "useLabel": "+203 stars/day",
+   "use": 200,
+   "useLabel": "+200 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -316,8 +362,8 @@
  "github": [
   {
    "repo": "FrigadeHQ/yogurt",
-   "stars": 1527,
-   "d24": 203,
+   "stars": 1529,
+   "d24": 200,
    "est": false,
    "forks": 87,
    "contrib": null,
@@ -325,8 +371,8 @@
   },
   {
    "repo": "agentes-chat/agentes-chat",
-   "stars": 1422,
-   "d24": 67,
+   "stars": 1425,
+   "d24": 70,
    "est": false,
    "forks": 251,
    "contrib": null,
@@ -344,7 +390,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 7405
+   "likes": 7412
   },
   {
    "name": "MiniMax-H3-Image",
@@ -366,7 +412,7 @@
    "grow": 0,
    "score": 88,
    "cat": "Vision",
-   "likes": 1130
+   "likes": 1132
   },
   {
    "name": "idol",
@@ -388,7 +434,7 @@
    "grow": 0,
    "score": 84,
    "cat": "LLMs",
-   "likes": 354
+   "likes": 355
   },
   {
    "name": "Arete-27B",
@@ -400,7 +446,7 @@
    "grow": 0,
    "score": 83,
    "cat": "LLMs",
-   "likes": 599
+   "likes": 600
   }
  ],
  "free": [
@@ -770,6 +816,13 @@
    "kind": "News"
   },
   {
+   "t": "terrorism group calls for urgent policy action to halt spread of 'rogue' AI",
+   "url": "https://www.abc.net.au/news/2026-11-15/open-source-ai-like-nazi-coach-un-backed-anti-terror-group-says/107368512",
+   "at": "2026-11-14T20:00:00Z",
+   "src": "ABC (Australian Broadcasting Corporation)",
+   "kind": "News"
+  },
+  {
    "t": "Letter: Altimeter's Brad Gerstner and Atreides's Gavin Baker urge Nvidia's board to consider \"the potential return of Jensen Huang\"; they own $2.13B in Nvidia",
    "url": "https://www.techmeme.com/261114/p18#a261114p18",
    "at": "2026-11-14T19:55:01.000Z",
@@ -810,13 +863,6 @@
    "at": "2026-11-14T18:26:17Z",
    "src": "Firstpost",
    "kind": "News"
-  },
-  {
-   "t": "Upgrade work blamed for nationwide flight shutdown, Duffy says",
-   "url": "https://www.pressdemocrat.com/2026/11/14/upgrade-work-blamed-for-nationwide-flight-shutdown-duffy-says/",
-   "at": "2026-11-14T18:24:04Z",
-   "src": "Santa Rosa Press Democrat",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -825,7 +871,7 @@
    "t": "Nvidia deliberately kept GPU prices high through circular financing deals",
    "url": "https://news.ycombinator.com/item?id=50501631",
    "link": "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
-   "up": 416,
+   "up": 418,
    "com": 210,
    "at": "2026-11-14T22:26:30.000Z"
   },
@@ -834,18 +880,18 @@
    "t": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
    "url": "https://news.ycombinator.com/item?id=50497589",
    "link": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
-   "up": 221,
+   "up": 224,
    "com": 21,
    "at": "2026-11-14T15:04:15.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "The Single Router in Southern Arkansas That Ground Air Travel to a Halt",
-   "url": "https://news.ycombinator.com/item?id=50503588",
-   "link": "https://www.wsj.com/business/airlines/the-single-router-in-southern-arkansas-that-ground-air-travel-to-a-halt-eedc326c",
-   "up": 55,
-   "com": 36,
-   "at": "2026-11-15T03:05:54.000Z"
+   "t": "Court denies motion to dismiss DRAM price fixing case",
+   "url": "https://news.ycombinator.com/item?id=50502988",
+   "link": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
+   "up": 79,
+   "com": 17,
+   "at": "2026-11-15T01:18:36.000Z"
   },
   {
    "src": "Hacker News",
@@ -853,25 +899,26 @@
    "url": "https://news.ycombinator.com/item?id=50499083",
    "link": "https://github.com/IRS-Public/direct-file",
    "up": 162,
-   "com": 96,
+   "com": 98,
    "at": "2026-11-14T17:48:20.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "The Single Router in Southern Arkansas That Ground Air Travel to a Halt",
+   "url": "https://news.ycombinator.com/item?id=50503588",
+   "link": "https://www.wsj.com/business/airlines/the-single-router-in-southern-arkansas-that-ground-air-travel-to-a-halt-eedc326c",
+   "up": 55,
+   "com": 37,
+   "at": "2026-11-15T03:05:54.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Show HN: Gawain – Require type hints on all Python variables",
    "url": "https://news.ycombinator.com/item?id=50504072",
    "link": "https://github.com/matheuzgomes/gawain",
-   "up": 32,
-   "com": 12,
+   "up": 37,
+   "com": 15,
    "at": "2026-11-15T04:39:25.000Z"
-  },
-  {
-   "src": "DEV",
-   "t": "Jira said Done. It wasn't, and the bug showed up later. So I made Jira check first.",
-   "url": "https://dev.to/wst2002rk/jira-said-done-it-wasnt-and-the-bug-showed-up-later-so-i-made-jira-check-first-9ed",
-   "up": 27,
-   "com": 1,
-   "at": "2026-11-15T05:05:40Z"
   }
  ]
 }
