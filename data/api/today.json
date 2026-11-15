@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-15T16:30:53.797Z"
+  "updated": "2026-11-15T17:01:12.072Z"
  },
  "pulse": {
   "trending": 67,
   "accelerating": 0,
-  "newModels": 6,
-  "discussions": 33,
-  "stars": 550
+  "newModels": 5,
+  "discussions": 35,
+  "stars": 549
  },
  "rising": [
   {
@@ -54,7 +54,7 @@
    "cat": "Vision",
    "score": 88,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 406",
+   "desc": "Vision on Hugging Face · open weights · ♥ 407",
    "meta": [
     "2M downloads",
     "Released 7 days ago"
@@ -70,7 +70,7 @@
    "cat": "LLMs",
    "score": 87,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 374",
+   "desc": "Model on Hugging Face · open source · ♥ 375",
    "meta": [
     "40K downloads",
     "Released 6 days ago"
@@ -88,7 +88,7 @@
    "grow": null,
    "desc": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux.",
    "meta": [
-    "★ 1,593",
+    "★ 1,598",
     "~328 in 24h",
     "Created 5 days ago"
    ],
@@ -122,12 +122,28 @@
    "grow": null,
    "desc": "AI job agent that finds & apply for jobs before anyone else.",
    "meta": [
-    "▲ 286 votes",
+    "▲ 290 votes",
     "27 comments",
     "Launched yesterday"
    ],
    "at": "2026-11-14T08:01:00Z",
    "breakout": null
+  },
+  {
+   "name": "Inkling-2-Small",
+   "owner": "thinkingmachines",
+   "src": "hf",
+   "cat": "Vision",
+   "score": 83,
+   "grow": null,
+   "desc": "Vision on Hugging Face · open source · ♥ 334",
+   "meta": [
+    "7.3K downloads",
+    "Released 11 days ago"
+   ],
+   "at": "2026-11-04T19:51:05.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/thinkingmachines/Inkling-2-Small"
   },
   {
    "name": "Ropedia Xperience 2: A Gold Standard for Scaling Physical AI Environments and Behaviors",
@@ -139,44 +155,28 @@
    "grow": null,
    "desc": "Large foundation models such as GPT-6 Astra and Claude Fable 5.1 have recently been shown to control robots directly from visual observations.",
    "meta": [
-    "▲ 29 upvotes",
+    "▲ 30 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-11-11T19:00:00.000Z",
    "breakout": null
   },
   {
-   "name": "Businesses in ChatGPT",
+   "name": "Rakazo",
    "owner": "Product Hunt",
    "src": "ph",
-   "url": "https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29",
-   "cat": "LLMs",
+   "url": "https://www.producthunt.com/products/rakazo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29",
+   "cat": "Tools",
    "score": 83,
    "grow": null,
-   "desc": "Help customers discover your business through ChatGPT",
+   "desc": "The open source Grok Bot alternative you actually own",
    "meta": [
-    "▲ 215 votes",
-    "7 comments",
-    "Launched yesterday"
+    "▲ 226 votes",
+    "20 comments",
+    "Launched 9h ago"
    ],
-   "at": "2026-11-14T08:01:00Z",
+   "at": "2026-11-15T08:01:00Z",
    "breakout": null
-  },
-  {
-   "name": "idol",
-   "owner": "speridlabs",
-   "src": "hf",
-   "cat": "Vision",
-   "score": 81,
-   "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 2.4K",
-   "meta": [
-    "33K downloads",
-    "Released 18 days ago"
-   ],
-   "at": "2026-10-28T15:55:17.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/speridlabs/idol"
   }
  ],
  "breakouts": [],
@@ -322,7 +322,7 @@
  "github": [
   {
    "repo": "FrigadeHQ/yogurt",
-   "stars": 1593,
+   "stars": 1598,
    "d24": 328,
    "est": true,
    "forks": 91,
@@ -332,7 +332,7 @@
   {
    "repo": "agentes-chat/agentes-chat",
    "stars": 1477,
-   "d24": 222,
+   "d24": 221,
    "est": true,
    "forks": 264,
    "contrib": null,
@@ -350,7 +350,7 @@
    "grow": null,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 7471
+   "likes": 7474
   },
   {
    "name": "MiniMax-H3-Image",
@@ -361,7 +361,7 @@
    "grow": null,
    "score": 88,
    "cat": "Vision",
-   "likes": 1159
+   "likes": 1161
   },
   {
    "name": "MiniMax-H3-Image",
@@ -372,7 +372,7 @@
    "grow": null,
    "score": 88,
    "cat": "Vision",
-   "likes": 406
+   "likes": 407
   },
   {
    "name": "ZONOS3-Mini",
@@ -383,7 +383,18 @@
    "grow": null,
    "score": 87,
    "cat": "LLMs",
-   "likes": 374
+   "likes": 375
+  },
+  {
+   "name": "Inkling-2-Small",
+   "org": "thinkingmachines",
+   "lic": "Open source",
+   "at": "2026-11-04T19:51:05.000Z",
+   "dl": 7329,
+   "grow": null,
+   "score": 83,
+   "cat": "Vision",
+   "likes": 334
   },
   {
    "name": "idol",
@@ -395,17 +406,6 @@
    "score": 81,
    "cat": "Vision",
    "likes": 2358
-  },
-  {
-   "name": "Inkling-2-Small",
-   "org": "thinkingmachines",
-   "lic": "Open source",
-   "at": "2026-11-04T19:51:05.000Z",
-   "dl": 7329,
-   "grow": null,
-   "score": 81,
-   "cat": "Vision",
-   "likes": 334
   }
  ],
  "free": [
@@ -712,6 +712,13 @@
  },
  "headlines": [
   {
+   "t": "Sources: Apple plans to unveil smart glasses at WWDC and ship them by the end of 2027, focusing heavily on integration of third-party iPhone apps with Siri AI",
+   "url": "https://www.techmeme.com/261115/p10#a261115p10",
+   "at": "2026-11-15T16:30:00.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Scott Bessent urges Nvidia to hire an outside CEO and wants answers within 10 days on whether it pushed \"seemingly illicit\" chip sales to China to boost revenue",
    "url": "https://www.techmeme.com/261115/p8#a261115p8",
    "at": "2026-11-15T15:50:01.000Z",
@@ -789,38 +796,31 @@
    "kind": "News"
   },
   {
+   "t": "Global economy to grow 2.8% in 2027 as AI spending, lower oil prices support outlook: Goldman Sachs",
+   "url": "https://timesofindia.indiatimes.com/business/international-business/global-economy-to-grow-2-8-in-2027-as-ai-spending-lower-oil-prices-support-outlook-goldman-sachs/articleshow/135847625.cms",
+   "at": "2026-11-15T05:00:00Z",
+   "src": "Times of India",
+   "kind": "News"
+  },
+  {
+   "t": "Nvidia CEO Resignation Adds Pressure to AI Market, Analysts Warn of Bubble Risk",
+   "url": "https://www.naturalnews.com/2026-11-15-analysts-nvidia-ceo-resignation-pressure-ai-market.html",
+   "at": "2026-11-15T04:50:08Z",
+   "src": "Natural News",
+   "kind": "News"
+  },
+  {
+   "t": "China Expands AI Data Center Construction in Inner Mongolia as U.S. Projects Face Local Opposition",
+   "url": "https://www.naturalnews.com/2026-11-15-china-expands-ai-data-center-construction-inner-mongolia.html",
+   "at": "2026-11-15T04:40:36Z",
+   "src": "Natural News",
+   "kind": "News"
+  },
+  {
    "t": "Top scorer in South Korea’s tax accountant exam admits to AI-assisted cheating",
    "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/15/top-scorer-in-south-koreas-tax-accountant-exam-admits-to-ai-assisted-cheating",
    "at": "2026-11-15T04:30:00Z",
    "src": "The Star",
-   "kind": "News"
-  },
-  {
-   "t": "ChatGPT Wallet: How AI agents can shop and pay for you and who is liable if something goes wrong",
-   "url": "https://www.cnbctv18.com/technology/chatgpt-wallet-how-ai-agents-can-shop-and-pay-for-you-and-who-is-liable-if-something-goes-wrong-20034244.htm",
-   "at": "2026-11-15T04:25:39Z",
-   "src": "CNBC TV18",
-   "kind": "News"
-  },
-  {
-   "t": "The Nvidia scandal presents a political challenge for the White House by tying together data centers, China, and corruption, all key voter issues in midterms",
-   "url": "https://www.techmeme.com/261114/p23#a261114p23",
-   "at": "2026-11-15T04:15:42.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Global economy to grow 2.8% in 2027 as lower oil prices, AI investments support expansion: Goldman Sachs",
-   "url": "https://www.tribuneindia.com/news/business/global-economy-to-grow-2-8-in-2027-as-lower-oil-prices-ai-investments-support-expansion-goldman-sachs/",
-   "at": "2026-11-15T04:07:27Z",
-   "src": "The Tribune",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI folds robotics team into research and applied AI groups",
-   "url": "https://www.newsbytesapp.com/news/science/openai-folds-robotics-team-into-research-and-applied-ai-groups/tldr",
-   "at": "2026-11-15T03:55:46Z",
-   "src": "NewsBytes",
    "kind": "News"
   }
  ],
@@ -830,8 +830,8 @@
    "t": "All AI-generated code should be Open Source",
    "url": "https://news.ycombinator.com/item?id=50507303",
    "link": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
-   "up": 250,
-   "com": 158,
+   "up": 345,
+   "com": 214,
    "at": "2026-11-15T14:46:58.000Z"
   },
   {
@@ -839,8 +839,8 @@
    "t": "Court denies motion to dismiss DRAM price fixing case",
    "url": "https://news.ycombinator.com/item?id=50502988",
    "link": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
-   "up": 366,
-   "com": 153,
+   "up": 379,
+   "com": 161,
    "at": "2026-11-15T01:18:36.000Z"
   },
   {
@@ -857,7 +857,7 @@
    "t": "Understanding Positional Embeddings in Modern LLMs",
    "url": "https://news.ycombinator.com/item?id=50506376",
    "link": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
-   "up": 91,
+   "up": 103,
    "com": 1,
    "at": "2026-11-15T12:14:06.000Z"
   },
@@ -866,8 +866,8 @@
    "t": "Jensen Huang allegedly manufactured the GPU shortage",
    "url": "https://news.ycombinator.com/item?id=50505905",
    "link": "https://wccftech.com/jensen-huang-financed-ai-startups-absorb-excess-silicon/",
-   "up": 45,
-   "com": 43,
+   "up": 46,
+   "com": 49,
    "at": "2026-11-15T10:53:50.000Z"
   },
   {
