@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-15T01:01:00.988Z"
+  "updated": "2026-11-15T01:30:52.628Z"
  },
  "pulse": {
   "trending": 69,
   "accelerating": 1,
   "newModels": 6,
-  "discussions": 36,
-  "stars": 325
+  "discussions": 37,
+  "stars": 317
  },
  "rising": [
   {
@@ -33,6 +33,22 @@
   },
   {
    "name": "MiniMax-H3-Image",
+   "owner": "Comfy-Org",
+   "src": "hf",
+   "cat": "Vision",
+   "score": 89,
+   "grow": 0,
+   "desc": "Vision on Hugging Face · open weights · ♥ 386",
+   "meta": [
+    "1.6M downloads",
+    "Released 6 days ago"
+   ],
+   "at": "2026-11-08T20:37:23.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image"
+  },
+  {
+   "name": "MiniMax-H3-Image",
    "owner": "MiniMaxAI",
    "src": "hf",
    "cat": "Vision",
@@ -48,27 +64,28 @@
    "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image"
   },
   {
-   "name": "MiniMax-H3-Image",
-   "owner": "Comfy-Org",
-   "src": "hf",
-   "cat": "Vision",
-   "score": 88,
-   "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 385",
+   "name": "yogurt",
+   "owner": "FrigadeHQ",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 86,
+   "grow": 7,
+   "desc": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux.",
    "meta": [
-    "1.6M downloads",
-    "Released 6 days ago"
+    "★ 1,495",
+    "+253 in 24h",
+    "Created 4 days ago"
    ],
-   "at": "2026-11-08T20:37:23.000Z",
+   "at": "2026-11-10T20:01:01Z",
    "breakout": null,
-   "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image"
+   "url": "https://github.com/FrigadeHQ/yogurt"
   },
   {
    "name": "idol",
    "owner": "speridlabs",
    "src": "hf",
    "cat": "Vision",
-   "score": 87,
+   "score": 85,
    "grow": 0,
    "desc": "Vision on Hugging Face · open source · ♥ 2.3K",
    "meta": [
@@ -80,23 +97,6 @@
    "url": "https://huggingface.co/speridlabs/idol"
   },
   {
-   "name": "yogurt",
-   "owner": "FrigadeHQ",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 86,
-   "grow": 7,
-   "desc": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux.",
-   "meta": [
-    "★ 1,492",
-    "+260 in 24h",
-    "Created 4 days ago"
-   ],
-   "at": "2026-11-10T20:01:01Z",
-   "breakout": null,
-   "url": "https://github.com/FrigadeHQ/yogurt"
-  },
-  {
    "name": "Open Vision Banana: A Fully Open Recipe for Generative Visual Perception",
    "owner": "Paper",
    "src": "paper",
@@ -106,7 +106,7 @@
    "grow": null,
    "desc": "Recent work suggests that pretrained image generators encode real-world understanding beyond image synthesis.",
    "meta": [
-    "▲ 34 upvotes",
+    "▲ 35 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-11-10T19:00:00.000Z",
@@ -136,7 +136,7 @@
    "cat": "LLMs",
    "score": 84,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 593",
+   "desc": "Model on Hugging Face · open source · ♥ 594",
    "meta": [
     "6.2K downloads",
     "Released 8 days ago"
@@ -152,7 +152,7 @@
    "cat": "LLMs",
    "score": 83,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 345",
+   "desc": "Model on Hugging Face · open source · ♥ 346",
    "meta": [
     "20K downloads",
     "Released 6 days ago"
@@ -201,8 +201,8 @@
    "name": "yogurt",
    "url": "https://github.com/FrigadeHQ/yogurt",
    "from": "GitHub",
-   "use": 260,
-   "useLabel": "+260 stars/day",
+   "use": 253,
+   "useLabel": "+253 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -316,8 +316,8 @@
  "github": [
   {
    "repo": "FrigadeHQ/yogurt",
-   "stars": 1492,
-   "d24": 260,
+   "stars": 1495,
+   "d24": 253,
    "est": false,
    "forks": 81,
    "contrib": null,
@@ -325,10 +325,10 @@
   },
   {
    "repo": "agentes-chat/agentes-chat",
-   "stars": 1403,
-   "d24": 65,
+   "stars": 1404,
+   "d24": 64,
    "est": false,
-   "forks": 247,
+   "forks": 248,
    "contrib": null,
    "score": 77
   }
@@ -344,7 +344,18 @@
    "grow": 0,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 7361
+   "likes": 7365
+  },
+  {
+   "name": "MiniMax-H3-Image",
+   "org": "Comfy-Org",
+   "lic": "Open weights",
+   "at": "2026-11-08T20:37:23.000Z",
+   "dl": 1615613,
+   "grow": 0,
+   "score": 89,
+   "cat": "Vision",
+   "likes": 386
   },
   {
    "name": "MiniMax-H3-Image",
@@ -358,24 +369,13 @@
    "likes": 1117
   },
   {
-   "name": "MiniMax-H3-Image",
-   "org": "Comfy-Org",
-   "lic": "Open weights",
-   "at": "2026-11-08T20:37:23.000Z",
-   "dl": 1615613,
-   "grow": 0,
-   "score": 88,
-   "cat": "Vision",
-   "likes": 385
-  },
-  {
    "name": "idol",
    "org": "speridlabs",
    "lic": "Open source",
    "at": "2026-10-28T15:55:17.000Z",
    "dl": 32619,
    "grow": 0,
-   "score": 87,
+   "score": 85,
    "cat": "Vision",
    "likes": 2341
   },
@@ -389,7 +389,7 @@
    "grow": 0,
    "score": 84,
    "cat": "LLMs",
-   "likes": 593
+   "likes": 594
   },
   {
    "name": "ZONOS3-Mini",
@@ -400,7 +400,7 @@
    "grow": 0,
    "score": 83,
    "cat": "LLMs",
-   "likes": 345
+   "likes": 346
   }
  ],
  "free": [
@@ -756,6 +756,13 @@
    "kind": "Video"
   },
   {
+   "t": "Ahead of GTA 6, Take-Two CEO calls out Anthropic and OpenAI over AI game clones as it's \"ironic\" to \"stomp on someone else's IP\"",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/ahead-of-gta-6-take-two-ceo-calls-out-anthropic-and-openai-over-ai-game-clones-as-its-ironic-to-stomp-on-someone-elses-ip/",
+   "at": "2026-11-14T13:10:08Z",
+   "src": "GamesRadar+",
+   "kind": "News"
+  },
+  {
    "t": "Could Spain follow the Netherlands? AI puts government jobs under scrutiny",
    "url": "https://euroweeklynews.com/2026/11/14/could-spain-follow-the-netherlands-ai-puts-government-jobs-under-scrutiny/",
    "at": "2026-11-14T12:37:22Z",
@@ -805,13 +812,6 @@
    "kind": "News"
   },
   {
-   "t": "Malaysia probing alleged Nvidia AI chip diversion since April 2025, says Home Minister",
-   "url": "https://www.thestar.com.my/news/nation/2026/11/14/malaysia-probing-alleged-nvidia-ai-chip-diversion-since-april-2025-says-home-minister",
-   "at": "2026-11-14T11:21:00Z",
-   "src": "The Star",
-   "kind": "News"
-  },
-  {
    "t": "As billions of dollars wipe out from market value of Microsoft, Oracle, Amazon and other IT giants spooks investors; Michael Dell, who survived two slowdowns; has tips",
    "url": "https://timesofindia.indiatimes.com/technology/tech-news/as-billions-of-dollars-wipe-out-from-market-value-of-microsoft-oracle-amazon-and-other-it-giants-spooks-investors-michael-dell-who-survived-two-slowdowns-has-tips/articleshow/135831146.cms",
    "at": "2026-11-14T11:21:00Z",
@@ -825,8 +825,8 @@
    "t": "Nvidia deliberately kept GPU prices high through circular financing deals",
    "url": "https://news.ycombinator.com/item?id=50501631",
    "link": "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
-   "up": 129,
-   "com": 67,
+   "up": 160,
+   "com": 87,
    "at": "2026-11-14T22:26:30.000Z"
   },
   {
@@ -835,7 +835,7 @@
    "url": "https://news.ycombinator.com/item?id=50493251",
    "link": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
    "up": 1032,
-   "com": 617,
+   "com": 618,
    "at": "2026-11-14T02:52:59.000Z"
   },
   {
@@ -843,8 +843,8 @@
    "t": "US IRS free online tax filing open source repo (2025)",
    "url": "https://news.ycombinator.com/item?id=50499083",
    "link": "https://github.com/IRS-Public/direct-file",
-   "up": 143,
-   "com": 87,
+   "up": 146,
+   "com": 88,
    "at": "2026-11-14T17:48:20.000Z"
   },
   {
@@ -852,7 +852,7 @@
    "t": "Ggml v1.0.0",
    "url": "https://news.ycombinator.com/item?id=50493062",
    "link": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0",
-   "up": 398,
+   "up": 399,
    "com": 67,
    "at": "2026-11-14T02:28:29.000Z"
   },
@@ -861,7 +861,7 @@
    "t": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
    "url": "https://news.ycombinator.com/item?id=50497589",
    "link": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
-   "up": 163,
+   "up": 171,
    "com": 8,
    "at": "2026-11-14T15:04:15.000Z"
   },
