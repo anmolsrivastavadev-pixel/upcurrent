@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-15T05:30:53.915Z"
+  "updated": "2026-11-15T06:00:59.762Z"
  },
  "pulse": {
   "trending": 68,
   "accelerating": 0,
   "newModels": 6,
-  "discussions": 33,
-  "stars": 281
+  "discussions": 34,
+  "stars": 277
  },
  "rising": [
   {
@@ -38,7 +38,7 @@
    "cat": "Vision",
    "score": 89,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 389",
+   "desc": "Vision on Hugging Face · open weights · ♥ 390",
    "meta": [
     "1.6M downloads",
     "Released 6 days ago"
@@ -69,11 +69,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 85,
-   "grow": 8,
+   "grow": 9,
    "desc": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux.",
    "meta": [
-    "★ 1,518",
-    "+218 in 24h",
+    "★ 1,520",
+    "+213 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-10T20:01:01Z",
@@ -171,62 +171,16 @@
    "grow": null,
    "desc": "AI job agent that finds & apply for jobs before anyone else.",
    "meta": [
-    "▲ 248 votes",
+    "▲ 249 votes",
     "24 comments",
-    "Launched 21h ago"
+    "Launched 22h ago"
    ],
    "at": "2026-11-14T08:01:00Z",
    "breakout": null
   }
  ],
- "breakouts": [
-  {
-   "key": "gemini 4",
-   "label": "Gemini 4",
-   "n": 3,
-   "sources": [
-    {
-     "src": "Google DeepMind blog",
-     "t": "Introducing Gemini 4 Hydrogen",
-     "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
-    },
-    {
-     "src": "YouTube",
-     "t": "I Tested Gemini 4 Carbon vs Claude Fable 5.2 to Build a Game",
-     "url": "https://www.youtube.com/watch?v=_BjMCeHFle0"
-    },
-    {
-     "src": "Product Hunt",
-     "t": "Gemini 4 Hydrogen",
-     "url": "https://www.producthunt.com/products/gemini-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
-    }
-   ],
-   "since": "2026-10-01T18:14:41.538Z"
-  }
- ],
+ "breakouts": [],
  "hype": [
-  {
-   "name": "Gemini 4",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
-    {
-     "src": "Google DeepMind blog",
-     "t": "Introducing Gemini 4 Hydrogen",
-     "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
-    },
-    {
-     "src": "YouTube",
-     "t": "I Tested Gemini 4 Carbon vs Claude Fable 5.2 to Build a Game",
-     "url": "https://www.youtube.com/watch?v=_BjMCeHFle0"
-    }
-   ],
-   "buzz": 2,
-   "verdict": "Talk only, no public usage numbers"
-  },
   {
    "name": "LFM3-1.7B",
    "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
@@ -248,8 +202,8 @@
    "name": "yogurt",
    "url": "https://github.com/FrigadeHQ/yogurt",
    "from": "GitHub",
-   "use": 218,
-   "useLabel": "+218 stars/day",
+   "use": 213,
+   "useLabel": "+213 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -363,8 +317,8 @@
  "github": [
   {
    "repo": "FrigadeHQ/yogurt",
-   "stars": 1518,
-   "d24": 218,
+   "stars": 1520,
+   "d24": 213,
    "est": false,
    "forks": 85,
    "contrib": null,
@@ -372,8 +326,8 @@
   },
   {
    "repo": "agentes-chat/agentes-chat",
-   "stars": 1414,
-   "d24": 63,
+   "stars": 1416,
+   "d24": 64,
    "est": false,
    "forks": 250,
    "contrib": null,
@@ -391,7 +345,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 7389
+   "likes": 7392
   },
   {
    "name": "MiniMax-H3-Image",
@@ -402,7 +356,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Vision",
-   "likes": 389
+   "likes": 390
   },
   {
    "name": "MiniMax-H3-Image",
@@ -413,7 +367,7 @@
    "grow": 0,
    "score": 88,
    "cat": "Vision",
-   "likes": 1128
+   "likes": 1129
   },
   {
    "name": "idol",
@@ -754,6 +708,13 @@
  },
  "headlines": [
   {
+   "t": "How Jensen Huang built a multibillion-dollar business to let Chinese companies access Nvidia AI chips in SE Asian data centers, exploiting a gap in US sanctions",
+   "url": "https://www.techmeme.com/261115/p1#a261115p1",
+   "at": "2026-11-15T05:55:03.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "The Nvidia scandal presents a political challenge for the White House by tying together data centers, China, and corruption, all key voter issues in midterms",
    "url": "https://www.techmeme.com/261114/p23#a261114p23",
    "at": "2026-11-15T04:15:42.000Z",
@@ -803,6 +764,20 @@
    "kind": "News"
   },
   {
+   "t": "Helen Toner warns after OpenAI and Anthropic models hacked companies",
+   "url": "https://www.newsbytesapp.com/news/science/helen-toner-warns-after-openai-and-anthropic-models-hacked-companies/tldr",
+   "at": "2026-11-14T18:00:53Z",
+   "src": "NewsBytes",
+   "kind": "News"
+  },
+  {
+   "t": "Gemini made my Google Home worse at the basics, so I moved my voice control to Home Assistant",
+   "url": "https://www.xda-developers.com/gemini-made-google-home-worse-basics-moved-voice-control-home-assistant/",
+   "at": "2026-11-14T18:00:20Z",
+   "src": "XDA Developers",
+   "kind": "News"
+  },
+  {
    "t": "The AI graveyard: a running list of projects and startups that didn't make it",
    "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
    "at": "2026-11-14T17:30:00Z",
@@ -843,27 +818,6 @@
    "at": "2026-11-14T16:07:00Z",
    "src": "The Manila Times",
    "kind": "News"
-  },
-  {
-   "t": "AI puts Philippine BPO jobs, growth under pressure",
-   "url": "https://www.manilatimes.net/2026/11/15/business/sunday-business-it/ai-puts-philippine-bpo-jobs-growth-under-pressure/2470025",
-   "at": "2026-11-14T16:04:00Z",
-   "src": "The Manila Times",
-   "kind": "News"
-  },
-  {
-   "t": "Eye On Illinois: Voters deserve to have sponsored political content identified as such",
-   "url": "https://www.shawlocal.com/opinion/2026/11/14/eye-on-illinois-voters-deserve-to-have-sponsored-political-content-identified-as-such/",
-   "at": "2026-11-14T16:00:00Z",
-   "src": "Shaw Local Enewspapers",
-   "kind": "News"
-  },
-  {
-   "t": "Protesters target OpenAI and Anthropic in San Francisco over AI safety fears",
-   "url": "https://www.africanews.com/2026/09/18/protesters-target-openai-and-anthropic-in-san-francisco-over-ai-safety-fears/",
-   "at": "2026-11-14T15:34:00Z",
-   "src": "Africanews",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -872,8 +826,8 @@
    "t": "Nvidia deliberately kept GPU prices high through circular financing deals",
    "url": "https://news.ycombinator.com/item?id=50501631",
    "link": "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
-   "up": 367,
-   "com": 188,
+   "up": 388,
+   "com": 193,
    "at": "2026-11-14T22:26:30.000Z"
   },
   {
@@ -881,8 +835,8 @@
    "t": "The Single Router in Southern Arkansas That Ground Air Travel to a Halt",
    "url": "https://news.ycombinator.com/item?id=50503588",
    "link": "https://www.wsj.com/business/airlines/the-single-router-in-southern-arkansas-that-ground-air-travel-to-a-halt-eedc326c",
-   "up": 41,
-   "com": 19,
+   "up": 43,
+   "com": 23,
    "at": "2026-11-15T03:05:54.000Z"
   },
   {
@@ -890,8 +844,8 @@
    "t": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
    "url": "https://news.ycombinator.com/item?id=50497589",
    "link": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
-   "up": 209,
-   "com": 11,
+   "up": 213,
+   "com": 12,
    "at": "2026-11-14T15:04:15.000Z"
   },
   {
@@ -900,7 +854,7 @@
    "url": "https://news.ycombinator.com/item?id=50499083",
    "link": "https://github.com/IRS-Public/direct-file",
    "up": 158,
-   "com": 94,
+   "com": 95,
    "at": "2026-11-14T17:48:20.000Z"
   },
   {
@@ -908,7 +862,7 @@
    "t": "Jira said Done. It wasn't, and the bug showed up later. So I made Jira check first.",
    "url": "https://dev.to/wst2002rk/jira-said-done-it-wasnt-and-the-bug-showed-up-later-so-i-made-jira-check-first-9ed",
    "up": 10,
-   "com": 0,
+   "com": 1,
    "at": "2026-11-15T05:05:40Z"
   },
   {
@@ -916,8 +870,8 @@
    "t": "Show HN: A terminal-native idle factory game, written in Rust with ratatui",
    "url": "https://news.ycombinator.com/item?id=50497132",
    "link": "https://gitlab.com/snipedbywifi/terminactory",
-   "up": 149,
-   "com": 36,
+   "up": 150,
+   "com": 37,
    "at": "2026-11-14T14:05:54.000Z"
   }
  ]
