@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-16T07:30:53.042Z"
+  "updated": "2026-11-16T08:01:04.396Z"
  },
  "pulse": {
   "trending": 66,
   "accelerating": 0,
   "newModels": 3,
-  "discussions": 34,
-  "stars": 697
+  "discussions": 35,
+  "stars": 2562
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 91,
-   "grow": null,
+   "grow": 53,
    "desc": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
    "meta": [
-    "★ 1,852",
-    "~500 in 24h",
+    "★ 1,857",
+    "+2,366 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-12T14:32:15Z",
@@ -71,7 +71,7 @@
    "cat": "Vision",
    "score": 88,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 423",
+   "desc": "Vision on Hugging Face · open weights · ♥ 424",
    "meta": [
     "2M downloads",
     "Released 7 days ago"
@@ -87,7 +87,7 @@
    "cat": "LLMs",
    "score": 86,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 414",
+   "desc": "Model on Hugging Face · open source · ♥ 415",
    "meta": [
     "40K downloads",
     "Released 7 days ago"
@@ -103,7 +103,7 @@
    "cat": "Tools",
    "score": 85,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 333",
+   "desc": "Model on Hugging Face · open source · ♥ 334",
    "meta": [
     "2.1K downloads",
     "Released 4 days ago"
@@ -122,7 +122,7 @@
    "grow": null,
    "desc": "We introduce Gamer, a generalist agent framework built for long-horizon tasks in complex interactive environments.",
    "meta": [
-    "▲ 49 upvotes",
+    "▲ 55 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-11-12T19:00:00.000Z",
@@ -138,9 +138,9 @@
    "grow": null,
    "desc": "The open source Grok Bot alternative you actually own",
    "meta": [
-    "▲ 365 votes",
+    "▲ 367 votes",
     "45 comments",
-    "Launched 23h ago"
+    "Launched yesterday"
    ],
    "at": "2026-11-15T08:01:00Z",
    "breakout": null
@@ -154,9 +154,9 @@
    "grow": 10,
    "desc": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux.",
    "meta": [
-    "★ 1,716",
-    "+197 in 24h",
-    "Created 5 days ago"
+    "★ 1,719",
+    "+196 in 24h",
+    "Created 6 days ago"
    ],
    "at": "2026-11-10T20:01:01Z",
    "breakout": null,
@@ -172,7 +172,7 @@
    "grow": null,
    "desc": "The release of GPT-6 Astra marks the emergence of a new paradigm in robotics: agentic robotics.",
    "meta": [
-    "▲ 45 upvotes",
+    "▲ 46 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-11-12T19:00:00.000Z",
@@ -185,8 +185,8 @@
    "name": "blender-ai-mcp-addon",
    "url": "https://github.com/hitkeeen/blender-ai-mcp-addon",
    "from": "GitHub",
-   "use": 500,
-   "useLabel": "~500 stars/day",
+   "use": 2366,
+   "useLabel": "+2,366 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -300,17 +300,17 @@
  "github": [
   {
    "repo": "hitkeeen/blender-ai-mcp-addon",
-   "stars": 1852,
-   "d24": 500,
-   "est": true,
+   "stars": 1857,
+   "d24": 2366,
+   "est": false,
    "forks": 49,
    "contrib": null,
    "score": 91
   },
   {
    "repo": "FrigadeHQ/yogurt",
-   "stars": 1716,
-   "d24": 197,
+   "stars": 1719,
+   "d24": 196,
    "est": false,
    "forks": 97,
    "contrib": null,
@@ -328,7 +328,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 7596
+   "likes": 7601
   },
   {
    "name": "MiniMax-H3-Image",
@@ -339,7 +339,7 @@
    "grow": 0,
    "score": 88,
    "cat": "Vision",
-   "likes": 1217
+   "likes": 1219
   },
   {
    "name": "MiniMax-H3-Image",
@@ -350,7 +350,7 @@
    "grow": 0,
    "score": 88,
    "cat": "Vision",
-   "likes": 423
+   "likes": 424
   },
   {
    "name": "ZONOS3-Mini",
@@ -361,7 +361,7 @@
    "grow": 0,
    "score": 86,
    "cat": "LLMs",
-   "likes": 414
+   "likes": 415
   },
   {
    "name": "Haru-4B",
@@ -373,7 +373,7 @@
    "grow": 0,
    "score": 85,
    "cat": "Tools",
-   "likes": 333
+   "likes": 334
   },
   {
    "name": "Inkling-2-Small",
@@ -384,7 +384,7 @@
    "grow": 0,
    "score": 82,
    "cat": "Vision",
-   "likes": 352
+   "likes": 353
   }
  ],
  "free": [
@@ -709,6 +709,13 @@
  },
  "headlines": [
   {
+   "t": "Zus Health, which is building an AI-native healthcare data platform, raised a $33M Series B led by Drive Capital, bringing its total funding to $100M+",
+   "url": "https://www.techmeme.com/261116/p5#a261116p5",
+   "at": "2026-11-16T07:35:02.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Copenhagen-based AI accounting software maker Sumary raised a $25M seed led by Singular, bringing total funding to $29.2M after a $4.2M pre-seed in Nov. 2025",
    "url": "https://www.techmeme.com/261116/p4#a261116p4",
    "at": "2026-11-16T06:55:04.000Z",
@@ -807,17 +814,10 @@
    "kind": "Lab blog"
   },
   {
-   "t": "US Treasury Secretary questions whether Nvidia used shell companies to bypass export restrictions",
-   "url": "https://www.hindustantimes.com/world-news/us-news/us-treasury-secretary-questions-whether-nvidia-used-shell-companies-to-bypass-export-restrictions-101794768259907.html",
-   "at": "2026-11-15T19:03:21Z",
-   "src": "Hindustan Times",
-   "kind": "News"
-  },
-  {
-   "t": "You Can Now Generate And Edit GIFs With ChatGPT",
-   "url": "https://www.engadget.com/2313818/how-to-generate-edit-gifs-with-chatgpt/",
-   "at": "2026-11-15T19:00:00Z",
-   "src": "Engadget",
+   "t": "Senate Republicans seek Lutnick testimony on Nvidia enforcement",
+   "url": "https://www.spokesman.com/stories/2026/nov/15/senate-republicans-seek-lutnick-testimony-on-nvidi/",
+   "at": "2026-11-15T19:54:00Z",
+   "src": "Spokane Spokesman-Review",
    "kind": "News"
   }
  ],
@@ -827,54 +827,54 @@
    "t": "Qwen4-Max",
    "url": "https://news.ycombinator.com/item?id=50513215",
    "link": "https://qwen.ai/blog?id=qwen4-max",
-   "up": 388,
-   "com": 136,
+   "up": 415,
+   "com": 152,
    "at": "2026-11-16T02:14:44.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "All AI-generated code should be Open Source",
-   "url": "https://news.ycombinator.com/item?id=50507303",
-   "link": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
-   "up": 1139,
-   "com": 611,
-   "at": "2026-11-15T14:46:58.000Z"
   },
   {
    "src": "Hacker News",
    "t": "How to make almost anything",
    "url": "https://news.ycombinator.com/item?id=50514470",
    "link": "https://pub.cba.mit.edu/863.26/site/",
-   "up": 106,
-   "com": 15,
+   "up": 150,
+   "com": 26,
    "at": "2026-11-16T05:50:37.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "All AI-generated code should be Open Source",
+   "url": "https://news.ycombinator.com/item?id=50507303",
+   "link": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+   "up": 1146,
+   "com": 612,
+   "at": "2026-11-15T14:46:58.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Protomaps: Self-hosting map tiles has gotten cheap and easy",
    "url": "https://news.ycombinator.com/item?id=50509837",
    "link": "https://bruceroettgers.eu/blog/protomaps/",
-   "up": 285,
-   "com": 53,
+   "up": 294,
+   "com": 54,
    "at": "2026-11-15T19:26:22.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Tell HN: HN is being scraped for emails to scam",
-   "url": "https://news.ycombinator.com/item?id=50513451",
-   "link": "",
-   "up": 83,
-   "com": 23,
-   "at": "2026-11-16T02:53:30.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Tor Project Issues Rapid-Response DoS-Defense Fix Amid Sustained DDoS Attack",
    "url": "https://news.ycombinator.com/item?id=50512441",
    "link": "https://forum.torproject.org/t/security-release-0-4-9-17/22454",
-   "up": 123,
-   "com": 29,
+   "up": 130,
+   "com": 30,
    "at": "2026-11-16T00:21:54.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Tell HN: HN is being scraped for emails to scam",
+   "url": "https://news.ycombinator.com/item?id=50513451",
+   "link": "",
+   "up": 84,
+   "com": 23,
+   "at": "2026-11-16T02:53:30.000Z"
   }
  ]
 }
