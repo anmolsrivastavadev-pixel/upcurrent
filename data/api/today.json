@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-16T03:30:58.249Z"
+  "updated": "2026-11-16T04:01:02.662Z"
  },
  "pulse": {
   "trending": 66,
   "accelerating": 0,
   "newModels": 4,
-  "discussions": 34,
-  "stars": 589
+  "discussions": 32,
+  "stars": 600
  },
  "rising": [
   {
@@ -40,8 +40,8 @@
    "grow": null,
    "desc": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
    "meta": [
-    "★ 1,444",
-    "~408 in 24h",
+    "★ 1,504",
+    "~422 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-12T14:32:15Z",
@@ -71,7 +71,7 @@
    "cat": "Vision",
    "score": 88,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 414",
+   "desc": "Vision on Hugging Face · open weights · ♥ 415",
    "meta": [
     "2M downloads",
     "Released 7 days ago"
@@ -87,7 +87,7 @@
    "cat": "LLMs",
    "score": 86,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 401",
+   "desc": "Model on Hugging Face · open source · ♥ 403",
    "meta": [
     "40K downloads",
     "Released 7 days ago"
@@ -103,7 +103,7 @@
    "cat": "Tools",
    "score": 86,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 314",
+   "desc": "Model on Hugging Face · open source · ♥ 318",
    "meta": [
     "2.1K downloads",
     "Released 4 days ago"
@@ -138,9 +138,9 @@
    "grow": null,
    "desc": "The open source Grok Bot alternative you actually own",
    "meta": [
-    "▲ 335 votes",
+    "▲ 337 votes",
     "44 comments",
-    "Launched 19h ago"
+    "Launched 20h ago"
    ],
    "at": "2026-11-15T08:01:00Z",
    "breakout": null
@@ -154,8 +154,8 @@
    "grow": 7,
    "desc": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux.",
    "meta": [
-    "★ 1,673",
-    "+181 in 24h",
+    "★ 1,675",
+    "+178 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-11-10T20:01:01Z",
@@ -163,19 +163,19 @@
    "url": "https://github.com/FrigadeHQ/yogurt"
   },
   {
-   "name": "Learning the Task or Learning the Verifier? Rethinking Criteria Exposure in Embodied Self-Improvement",
+   "name": "Unbundling Multimodal Vision Encoding",
    "owner": "Paper",
    "src": "paper",
-   "url": "https://huggingface.co/papers/2611.08318",
+   "url": "https://huggingface.co/papers/2611.17334",
    "cat": "Research",
    "score": 83,
    "grow": null,
-   "desc": "Self-improving embodied agents are increasingly being developed and compared on robot simulation benchmarks.",
+   "desc": "How multimodal language models should encode visual input remains up for debate.",
    "meta": [
-    "▲ 21 upvotes",
+    "▲ 18 upvotes",
     "Hugging Face Papers"
    ],
-   "at": "2026-11-04T19:00:00.000Z",
+   "at": "2026-11-11T19:00:00.000Z",
    "breakout": null
   }
  ],
@@ -185,8 +185,8 @@
    "name": "blender-ai-mcp-addon",
    "url": "https://github.com/hitkeeen/blender-ai-mcp-addon",
    "from": "GitHub",
-   "use": 408,
-   "useLabel": "~408 stars/day",
+   "use": 422,
+   "useLabel": "~422 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -300,8 +300,8 @@
  "github": [
   {
    "repo": "hitkeeen/blender-ai-mcp-addon",
-   "stars": 1444,
-   "d24": 408,
+   "stars": 1504,
+   "d24": 422,
    "est": true,
    "forks": 37,
    "contrib": null,
@@ -309,8 +309,8 @@
   },
   {
    "repo": "FrigadeHQ/yogurt",
-   "stars": 1673,
-   "d24": 181,
+   "stars": 1675,
+   "d24": 178,
    "est": false,
    "forks": 93,
    "contrib": null,
@@ -328,7 +328,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 7555
+   "likes": 7557
   },
   {
    "name": "MiniMax-H3-Image",
@@ -350,7 +350,7 @@
    "grow": 0,
    "score": 88,
    "cat": "Vision",
-   "likes": 414
+   "likes": 415
   },
   {
    "name": "ZONOS3-Mini",
@@ -361,7 +361,7 @@
    "grow": 0,
    "score": 86,
    "cat": "LLMs",
-   "likes": 401
+   "likes": 403
   },
   {
    "name": "Haru-4B",
@@ -373,7 +373,7 @@
    "grow": null,
    "score": 86,
    "cat": "Tools",
-   "likes": 314
+   "likes": 318
   },
   {
    "name": "Inkling-2-Small",
@@ -796,39 +796,39 @@
    "kind": "News"
   },
   {
-   "t": "Sources: Howard Lutnick is expected to join Trump on Air Force One to China this week, after clashing with Scott Bessent and others over Nvidia chip curbs",
-   "url": "https://www.techmeme.com/261115/p11#a261115p11",
-   "at": "2026-11-15T17:15:01.000Z",
-   "src": "Techmeme",
+   "t": "LinkedIn cracks down on AI-generated comments",
+   "url": "https://www.socialmediatoday.com/news/linkedin-cracks-down-on-ai-generated-comments/874707/",
+   "at": "2026-11-15T16:00:11Z",
+   "src": "Social Media Today",
    "kind": "News"
   }
  ],
  "discussions": [
   {
    "src": "Hacker News",
-   "t": "All AI-generated code should be Open Source",
-   "url": "https://news.ycombinator.com/item?id=50507303",
-   "link": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
-   "up": 1108,
-   "com": 597,
-   "at": "2026-11-15T14:46:58.000Z"
-  },
-  {
-   "src": "Hacker News",
    "t": "Qwen4-Max",
    "url": "https://news.ycombinator.com/item?id=50513215",
    "link": "https://qwen.ai/blog?id=qwen4-max",
-   "up": 107,
-   "com": 19,
+   "up": 164,
+   "com": 39,
    "at": "2026-11-16T02:14:44.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "All AI-generated code should be Open Source",
+   "url": "https://news.ycombinator.com/item?id=50507303",
+   "link": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+   "up": 1115,
+   "com": 598,
+   "at": "2026-11-15T14:46:58.000Z"
   },
   {
    "src": "Hacker News",
    "t": "\"Who is Hiring?\" postings stuck near 12-year lows as AI reaches half of all jobs",
    "url": "https://news.ycombinator.com/item?id=50512950",
    "link": "https://www.hntrends.com/2026/november.html",
-   "up": 73,
-   "com": 50,
+   "up": 76,
+   "com": 63,
    "at": "2026-11-16T01:31:30.000Z"
   },
   {
@@ -836,7 +836,7 @@
    "t": "Protomaps: Self-hosting map tiles has gotten cheap and easy",
    "url": "https://news.ycombinator.com/item?id=50509837",
    "link": "https://bruceroettgers.eu/blog/protomaps/",
-   "up": 204,
+   "up": 213,
    "com": 46,
    "at": "2026-11-15T19:26:22.000Z"
   },
@@ -846,7 +846,7 @@
    "url": "https://news.ycombinator.com/item?id=50510042",
    "link": "",
    "up": 165,
-   "com": 72,
+   "com": 73,
    "at": "2026-11-15T19:49:28.000Z"
   },
   {
@@ -854,8 +854,8 @@
    "t": "Tor Project Issues Rapid-Response DoS-Defense Fix Amid Sustained DDoS Attack",
    "url": "https://news.ycombinator.com/item?id=50512441",
    "link": "https://forum.torproject.org/t/security-release-0-4-9-17/22454",
-   "up": 58,
-   "com": 7,
+   "up": 65,
+   "com": 8,
    "at": "2026-11-16T00:21:54.000Z"
   }
  ]
