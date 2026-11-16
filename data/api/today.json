@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-16T18:31:00.163Z"
+  "updated": "2026-11-16T19:01:10.740Z"
  },
  "pulse": {
   "trending": 69,
   "accelerating": 1,
   "newModels": 4,
-  "discussions": 30,
-  "stars": 1935
+  "discussions": 33,
+  "stars": 1889
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Tools",
    "score": 92,
-   "grow": 13,
+   "grow": 14,
    "desc": "muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现）",
    "meta": [
-    "★ 1,411",
-    "+435 in 24h",
+    "★ 1,417",
+    "+427 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-14T01:24:58Z",
@@ -57,8 +57,8 @@
    "grow": 74,
    "desc": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
    "meta": [
-    "★ 2,119",
-    "+1,275 in 24h",
+    "★ 2,120",
+    "+1,239 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-12T14:32:15Z",
@@ -75,7 +75,7 @@
    "desc": "Vision on Hugging Face · open weights · ♥ 1.3K",
    "meta": [
     "609K downloads",
-    "Released 13 days ago"
+    "Released 14 days ago"
    ],
    "at": "2026-11-03T06:34:36.000Z",
    "breakout": null,
@@ -104,7 +104,7 @@
    "cat": "Tools",
    "score": 87,
    "grow": 61,
-   "desc": "Model on Hugging Face · open source · ♥ 394",
+   "desc": "Model on Hugging Face · open source · ♥ 397",
    "meta": [
     "3.4K downloads",
     "Released 4 days ago"
@@ -120,7 +120,7 @@
    "cat": "LLMs",
    "score": 86,
    "grow": 75,
-   "desc": "Model on Hugging Face · open source · ♥ 441",
+   "desc": "Model on Hugging Face · open source · ♥ 443",
    "meta": [
     "70K downloads",
     "Released 8 days ago"
@@ -163,23 +163,47 @@
    "breakout": null
   },
   {
-   "name": "Edge0-145B-NVFP4",
-   "owner": "Edge0",
-   "src": "hf",
-   "cat": "Agents",
+   "name": "MIRIX-2.0: Multi-Agent Memory System",
+   "owner": "Paper",
+   "src": "paper",
+   "url": "https://huggingface.co/papers/2611.12068",
+   "cat": "Research",
    "score": 83,
-   "grow": 33,
-   "desc": "Model on Hugging Face · open weights · ♥ 369",
+   "grow": null,
+   "desc": "Long-term memory lets LLM agents personalize, stay consistent, and reuse what worked before.",
    "meta": [
-    "55K downloads",
-    "Released 6 days ago"
+    "▲ 37 upvotes",
+    "Hugging Face Papers"
    ],
-   "at": "2026-11-11T05:22:51.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/Edge0/Edge0-145B-NVFP4"
+   "at": "2026-11-08T19:00:00.000Z",
+   "breakout": null
   }
  ],
- "breakouts": [],
+ "breakouts": [
+  {
+   "key": "chatgpt wallet",
+   "label": "ChatGPT Wallet",
+   "n": 3,
+   "sources": [
+    {
+     "src": "Product Hunt",
+     "t": "ChatGPT Wallet",
+     "url": "https://www.producthunt.com/products/chatgpt?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
+    },
+    {
+     "src": "Hacker News",
+     "t": "ChatGPT Wallet",
+     "url": "https://news.ycombinator.com/item?id=50518501"
+    },
+    {
+     "src": "Dcforecasts.com",
+     "t": "ChatGPT Wallet Brings Agentic Commerce to Card Rails, With a Fingerprint for Every Buy",
+     "url": "https://www.dcforecasts.com/blockchain-news/agentic-commerce-chatgpt-wallet-cards-not-crypto/"
+    }
+   ],
+   "since": "2026-11-16T08:30:55.941Z"
+  }
+ ],
  "hype": [
   {
    "name": "Qwen 4",
@@ -195,9 +219,9 @@
      "url": "https://news.ycombinator.com/item?id=50513215"
     },
     {
-     "src": "India Today",
-     "t": "Alibaba launches Qwen4-Max, claims it outperforms US AI rivals in coding and cybersecurity",
-     "url": "https://www.indiatoday.in/technology/news/story/alibaba-launches-qwen4-max-claims-it-outperforms-us-ai-rivals-in-coding-and-cybersecurity-3039724-2026-11-16"
+     "src": "The News International",
+     "t": "Alibaba unveils flagship AI model Qwen4-Max with safety upgrades",
+     "url": "https://www.thenews.com.pk/latest/1423766-alibaba-unveils-flagship-ai-model-qwen4-max-with-safety-upgrades"
     }
    ],
    "buzz": 2,
@@ -229,8 +253,8 @@
    "name": "blender-ai-mcp-addon",
    "url": "https://github.com/hitkeeen/blender-ai-mcp-addon",
    "from": "GitHub",
-   "use": 1275,
-   "useLabel": "+1,275 stars/day",
+   "use": 1239,
+   "useLabel": "+1,239 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -344,8 +368,8 @@
  "github": [
   {
    "repo": "hitkeeen/blender-ai-mcp-addon",
-   "stars": 2119,
-   "d24": 1275,
+   "stars": 2120,
+   "d24": 1239,
    "est": false,
    "forks": 53,
    "contrib": null,
@@ -353,8 +377,8 @@
   },
   {
    "repo": "duwqijlk/muse-protocol",
-   "stars": 1411,
-   "d24": 435,
+   "stars": 1417,
+   "d24": 427,
    "est": false,
    "forks": 558,
    "contrib": null,
@@ -362,8 +386,8 @@
   },
   {
    "repo": "FrigadeHQ/yogurt",
-   "stars": 1819,
-   "d24": 225,
+   "stars": 1823,
+   "d24": 223,
    "est": false,
    "forks": 110,
    "contrib": null,
@@ -381,7 +405,7 @@
    "grow": 9,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 8171
+   "likes": 8211
   },
   {
    "name": "MiniMax-H3-Image",
@@ -392,7 +416,7 @@
    "grow": 7,
    "score": 88,
    "cat": "Vision",
-   "likes": 1281
+   "likes": 1284
   },
   {
    "name": "MiniMax-H3-Image",
@@ -415,7 +439,7 @@
    "grow": 61,
    "score": 87,
    "cat": "Tools",
-   "likes": 394
+   "likes": 397
   },
   {
    "name": "ZONOS3-Mini",
@@ -426,19 +450,18 @@
    "grow": 75,
    "score": 86,
    "cat": "LLMs",
-   "likes": 441
+   "likes": 443
   },
   {
-   "name": "Edge0-145B-NVFP4",
-   "org": "Edge0",
-   "size": "145B",
-   "lic": "Open weights",
-   "at": "2026-11-11T05:22:51.000Z",
-   "dl": 55335,
-   "grow": 33,
-   "score": 83,
-   "cat": "Agents",
-   "likes": 369
+   "name": "Inkling-2-Small",
+   "org": "thinkingmachines",
+   "lic": "Open source",
+   "at": "2026-11-04T19:51:05.000Z",
+   "dl": 16918,
+   "grow": 131,
+   "score": 81,
+   "cat": "Vision",
+   "likes": 385
   }
  ],
  "free": [
@@ -763,6 +786,13 @@
  },
  "headlines": [
   {
+   "t": "California AG Rob Bonta sues OpenAI over the Hugging Face incident, alleging OpenAI endangered the public by testing its models without adequate safeguards",
+   "url": "https://www.techmeme.com/261116/p40#a261116p40",
+   "at": "2026-11-16T18:55:00.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Trump backs calls for reinstatement of Jensen Huang as Nvidia CEO",
    "url": "https://www.theguardian.com/technology/2026/nov/16/trump-backs-calls-for-reinstatement-of-jensen-huang-as-nvidia-ceo",
    "at": "2026-11-16T18:30:57Z",
@@ -770,7 +800,7 @@
    "kind": "News"
   },
   {
-   "t": "Anthropic recognises the risks to humanity – but is its governance really up to the job?",
+   "t": "Anthropic recognises the risks to humanity – but is its governance really up to the job? | Nils Pratley",
    "url": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/nov/16/anthropic-claude-risks-to-humanity-governance-ai",
    "at": "2026-11-16T18:18:57Z",
    "src": "The Guardian",
@@ -866,68 +896,61 @@
    "at": "2026-11-16T16:00:16.000Z",
    "src": "NVIDIA",
    "kind": "Lab blog"
-  },
-  {
-   "t": "CUDA at 20: How the Platform Transformed Scientific Computing",
-   "url": "https://blogs.nvidia.com/blog/20-years-cuda/",
-   "at": "2026-11-16T16:00:11.000Z",
-   "src": "NVIDIA",
-   "kind": "Lab blog"
   }
  ],
  "discussions": [
   {
    "src": "Hacker News",
+   "t": "How to make almost anything",
+   "url": "https://news.ycombinator.com/item?id=50514470",
+   "link": "https://pub.cba.mit.edu/863.26/site/",
+   "up": 742,
+   "com": 122,
+   "at": "2026-11-16T05:50:37.000Z"
+  },
+  {
+   "src": "Hacker News",
    "t": "Qwen4-Max",
    "url": "https://news.ycombinator.com/item?id=50513215",
    "link": "https://qwen.ai/blog?id=qwen4-max",
-   "up": 809,
-   "com": 434,
+   "up": 815,
+   "com": 436,
    "at": "2026-11-16T02:14:44.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "OpenAI: Strengthening the fight against online child sexual abuse",
+   "url": "https://news.ycombinator.com/item?id=50520804",
+   "link": "https://openai.com/index/strengthening-online-child-safety/",
+   "up": 24,
+   "com": 28,
+   "at": "2026-11-16T18:12:48.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Ask HN: If AI tools are so good, why isn't your bug backlog empty?",
    "url": "https://news.ycombinator.com/item?id=50520076",
    "link": "",
-   "up": 22,
-   "com": 31,
+   "up": 32,
+   "com": 50,
    "at": "2026-11-16T17:20:28.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Generative AI Usage in the Games Industry",
-   "url": "https://news.ycombinator.com/item?id=50519043",
-   "link": "https://www.gameworkers.co.uk/ai-manifesto/",
-   "up": 34,
-   "com": 60,
-   "at": "2026-11-16T15:59:48.000Z"
+   "t": "Protomaps: Self-hosting map tiles has gotten cheap and easy",
+   "url": "https://news.ycombinator.com/item?id=50509837",
+   "link": "https://bruceroettgers.eu/blog/protomaps/",
+   "up": 449,
+   "com": 81,
+   "at": "2026-11-15T19:26:22.000Z"
   },
   {
    "src": "DEV",
    "t": "High or Low Thinking? Gemini 4 and Gemma 4 on Hard Math, Cost First",
    "url": "https://dev.to/gde/high-or-low-thinking-gemini-4-and-gemma-4-on-hard-math-cost-first-3091",
-   "up": 13,
-   "com": 0,
+   "up": 15,
+   "com": 2,
    "at": "2026-11-16T17:56:57Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "ChatGPT Wallet",
-   "url": "https://news.ycombinator.com/item?id=50518501",
-   "link": "https://openai.com/index/introducing-chatgpt-wallet/",
-   "up": 41,
-   "com": 75,
-   "at": "2026-11-16T15:17:56.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Tor Project Issues Rapid-Response DoS-Defense Fix Amid Sustained DDoS Attack",
-   "url": "https://news.ycombinator.com/item?id=50512441",
-   "link": "https://forum.torproject.org/t/security-release-0-4-9-17/22454",
-   "up": 227,
-   "com": 62,
-   "at": "2026-11-16T00:21:54.000Z"
   }
  ]
 }
