@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-16T03:01:06.504Z"
+  "updated": "2026-11-16T03:30:58.249Z"
  },
  "pulse": {
   "trending": 66,
   "accelerating": 0,
   "newModels": 4,
-  "discussions": 36,
-  "stars": 576
+  "discussions": 34,
+  "stars": 589
  },
  "rising": [
   {
@@ -40,8 +40,8 @@
    "grow": null,
    "desc": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
    "meta": [
-    "★ 1,387",
-    "~394 in 24h",
+    "★ 1,444",
+    "~408 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-12T14:32:15Z",
@@ -87,7 +87,7 @@
    "cat": "LLMs",
    "score": 86,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 398",
+   "desc": "Model on Hugging Face · open source · ♥ 401",
    "meta": [
     "40K downloads",
     "Released 7 days ago"
@@ -103,7 +103,7 @@
    "cat": "Tools",
    "score": 86,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 312",
+   "desc": "Model on Hugging Face · open source · ♥ 314",
    "meta": [
     "2.1K downloads",
     "Released 4 days ago"
@@ -122,7 +122,7 @@
    "grow": null,
    "desc": "Recent work suggests that pretrained image generators encode real-world understanding beyond image synthesis.",
    "meta": [
-    "▲ 36 upvotes",
+    "▲ 37 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-11-10T19:00:00.000Z",
@@ -138,7 +138,7 @@
    "grow": null,
    "desc": "The open source Grok Bot alternative you actually own",
    "meta": [
-    "▲ 333 votes",
+    "▲ 335 votes",
     "44 comments",
     "Launched 19h ago"
    ],
@@ -154,8 +154,8 @@
    "grow": 7,
    "desc": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux.",
    "meta": [
-    "★ 1,670",
-    "+182 in 24h",
+    "★ 1,673",
+    "+181 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-11-10T20:01:01Z",
@@ -163,19 +163,19 @@
    "url": "https://github.com/FrigadeHQ/yogurt"
   },
   {
-   "name": "TTB: Test-time Baking for Efficient Rendering of Decoder-only View Synthesis Models",
+   "name": "Learning the Task or Learning the Verifier? Rethinking Criteria Exposure in Embodied Self-Improvement",
    "owner": "Paper",
    "src": "paper",
-   "url": "https://huggingface.co/papers/2611.17331",
+   "url": "https://huggingface.co/papers/2611.08318",
    "cat": "Research",
    "score": 83,
    "grow": null,
-   "desc": "Decoder-only Large View Synthesis Models (LVSMs) with KV-cache have recently achieved state-of-the-art quality by regressing novel views from neural networks without reconstructing 3D geometry, while Test-Time Training (TTT) layers save computation but sacrifice quality.",
+   "desc": "Self-improving embodied agents are increasingly being developed and compared on robot simulation benchmarks.",
    "meta": [
-    "▲ 25 upvotes",
+    "▲ 21 upvotes",
     "Hugging Face Papers"
    ],
-   "at": "2026-11-11T19:00:00.000Z",
+   "at": "2026-11-04T19:00:00.000Z",
    "breakout": null
   }
  ],
@@ -185,8 +185,8 @@
    "name": "blender-ai-mcp-addon",
    "url": "https://github.com/hitkeeen/blender-ai-mcp-addon",
    "from": "GitHub",
-   "use": 394,
-   "useLabel": "~394 stars/day",
+   "use": 408,
+   "useLabel": "~408 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -216,6 +216,16 @@
   }
  ],
  "receipts": [
+  {
+   "name": "vercel-labs/ui",
+   "url": "https://github.com/vercel-labs/ui",
+   "kind": "stars",
+   "first": "2026-11-13T20:30:51.442Z",
+   "firstV": 3597,
+   "m": 5000,
+   "at": "2026-11-16T03:30:58.249Z",
+   "lead": 55.001890833333334
+  },
   {
    "name": "chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
    "url": "https://huggingface.co/chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
@@ -285,32 +295,22 @@
    "m": 10000,
    "at": "2026-11-14T10:30:51.445Z",
    "lead": 224.0012625
-  },
-  {
-   "name": "qybaihe/bla",
-   "url": "https://github.com/qybaihe/bla",
-   "kind": "stars",
-   "first": "2026-10-30T10:01:01.019Z",
-   "firstV": 1119,
-   "m": 5000,
-   "at": "2026-11-13T20:30:51.442Z",
-   "lead": 346.49733972222225
   }
  ],
  "github": [
   {
    "repo": "hitkeeen/blender-ai-mcp-addon",
-   "stars": 1387,
-   "d24": 394,
+   "stars": 1444,
+   "d24": 408,
    "est": true,
-   "forks": 35,
+   "forks": 37,
    "contrib": null,
    "score": 89
   },
   {
    "repo": "FrigadeHQ/yogurt",
-   "stars": 1670,
-   "d24": 182,
+   "stars": 1673,
+   "d24": 181,
    "est": false,
    "forks": 93,
    "contrib": null,
@@ -328,7 +328,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 7552
+   "likes": 7555
   },
   {
    "name": "MiniMax-H3-Image",
@@ -339,7 +339,7 @@
    "grow": 0,
    "score": 88,
    "cat": "Vision",
-   "likes": 1195
+   "likes": 1200
   },
   {
    "name": "MiniMax-H3-Image",
@@ -361,7 +361,7 @@
    "grow": 0,
    "score": 86,
    "cat": "LLMs",
-   "likes": 398
+   "likes": 401
   },
   {
    "name": "Haru-4B",
@@ -373,7 +373,7 @@
    "grow": null,
    "score": 86,
    "cat": "Tools",
-   "likes": 312
+   "likes": 314
   },
   {
    "name": "Inkling-2-Small",
@@ -384,7 +384,7 @@
    "grow": 0,
    "score": 82,
    "cat": "Vision",
-   "likes": 344
+   "likes": 347
   }
  ],
  "free": [
@@ -691,6 +691,20 @@
  },
  "headlines": [
   {
+   "t": "Sources: Jensen Huang had planned to pull back Nvidia's aggressive financing and told neoclouds to get upfront customer payments; Colette Kress may go further",
+   "url": "https://www.techmeme.com/261115/p24#a261115p24",
+   "at": "2026-11-16T03:30:00.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Mount Thor, which is building cloud infrastructure for agentic AI on Apple silicon, raised $45M in a seed round and a Series A co-led by CRV and Conviction",
+   "url": "https://www.techmeme.com/261115/p23#a261115p23",
+   "at": "2026-11-16T03:20:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Toronto-based Blue J, which provides AI-powered tax research software, raised a $176M Series E round led by JMI Equity at a $700M+ valuation",
    "url": "https://www.techmeme.com/261115/p22#a261115p22",
    "at": "2026-11-16T02:40:01.000Z",
@@ -787,20 +801,6 @@
    "at": "2026-11-15T17:15:01.000Z",
    "src": "Techmeme",
    "kind": "News"
-  },
-  {
-   "t": "Sources: Apple plans to unveil smart glasses at WWDC and ship them by the end of 2027, focusing heavily on integration of third-party iPhone apps with Siri AI",
-   "url": "https://www.techmeme.com/261115/p10#a261115p10",
-   "at": "2026-11-15T16:30:00.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Scott Bessent urges Nvidia to hire an outside CEO and wants answers within 10 days on whether it pushed \"seemingly illicit\" chip sales to China to boost revenue",
-   "url": "https://www.techmeme.com/261115/p8#a261115p8",
-   "at": "2026-11-15T15:50:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -809,34 +809,34 @@
    "t": "All AI-generated code should be Open Source",
    "url": "https://news.ycombinator.com/item?id=50507303",
    "link": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
-   "up": 1105,
+   "up": 1108,
    "com": 597,
    "at": "2026-11-15T14:46:58.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "\"Who is Hiring?\" postings stuck near 12-year lows as AI reaches half of all jobs",
-   "url": "https://news.ycombinator.com/item?id=50512950",
-   "link": "https://www.hntrends.com/2026/november.html",
-   "up": 63,
-   "com": 31,
-   "at": "2026-11-16T01:31:30.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Qwen4-Max",
    "url": "https://news.ycombinator.com/item?id=50513215",
    "link": "https://qwen.ai/blog?id=qwen4-max",
-   "up": 33,
-   "com": 4,
+   "up": 107,
+   "com": 19,
    "at": "2026-11-16T02:14:44.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "\"Who is Hiring?\" postings stuck near 12-year lows as AI reaches half of all jobs",
+   "url": "https://news.ycombinator.com/item?id=50512950",
+   "link": "https://www.hntrends.com/2026/november.html",
+   "up": 73,
+   "com": 50,
+   "at": "2026-11-16T01:31:30.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Protomaps: Self-hosting map tiles has gotten cheap and easy",
    "url": "https://news.ycombinator.com/item?id=50509837",
    "link": "https://bruceroettgers.eu/blog/protomaps/",
-   "up": 197,
+   "up": 204,
    "com": 46,
    "at": "2026-11-15T19:26:22.000Z"
   },
@@ -854,8 +854,8 @@
    "t": "Tor Project Issues Rapid-Response DoS-Defense Fix Amid Sustained DDoS Attack",
    "url": "https://news.ycombinator.com/item?id=50512441",
    "link": "https://forum.torproject.org/t/security-release-0-4-9-17/22454",
-   "up": 47,
-   "com": 6,
+   "up": 58,
+   "com": 7,
    "at": "2026-11-16T00:21:54.000Z"
   }
  ]
