@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-16T16:31:06.631Z"
+  "updated": "2026-11-16T17:01:16.178Z"
  },
  "pulse": {
-  "trending": 70,
+  "trending": 69,
   "accelerating": 1,
   "newModels": 4,
-  "discussions": 35,
-  "stars": 2098
+  "discussions": 32,
+  "stars": 2093
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 12,
    "desc": "muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现）",
    "meta": [
-    "★ 1,393",
-    "+497 in 24h",
+    "★ 1,400",
+    "+486 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-14T01:24:58Z",
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 90,
-   "grow": 70,
+   "grow": 73,
    "desc": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
    "meta": [
-    "★ 2,067",
-    "+1,361 in 24h",
+    "★ 2,099",
+    "+1,367 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-12T14:32:15Z",
@@ -88,7 +88,7 @@
    "cat": "Vision",
    "score": 88,
    "grow": 16,
-   "desc": "Vision on Hugging Face · open weights · ♥ 449",
+   "desc": "Vision on Hugging Face · open weights · ♥ 451",
    "meta": [
     "2.3M downloads",
     "Released 8 days ago"
@@ -104,7 +104,7 @@
    "cat": "Tools",
    "score": 88,
    "grow": 61,
-   "desc": "Model on Hugging Face · open source · ♥ 385",
+   "desc": "Model on Hugging Face · open source · ♥ 386",
    "meta": [
     "3.4K downloads",
     "Released 4 days ago"
@@ -120,7 +120,7 @@
    "cat": "LLMs",
    "score": 86,
    "grow": 75,
-   "desc": "Model on Hugging Face · open source · ♥ 435",
+   "desc": "Model on Hugging Face · open source · ♥ 436",
    "meta": [
     "70K downloads",
     "Released 7 days ago"
@@ -130,19 +130,19 @@
    "url": "https://huggingface.co/Zyphra/ZONOS3-Mini"
   },
   {
-   "name": "Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent",
+   "name": "VibePrevisBench: Evaluating Agentic Coding for 4D Scene Generation in Blender",
    "owner": "Paper",
    "src": "paper",
-   "url": "https://huggingface.co/papers/2611.18397",
+   "url": "https://huggingface.co/papers/2611.15789",
    "cat": "Research",
    "score": 85,
    "grow": null,
-   "desc": "We introduce Gamer, a generalist agent framework built for long-horizon tasks in complex interactive environments.",
+   "desc": "Controllable real-world video generation models can condition on a rendered graybox proxy video, which fixes layout, motion and camera.",
    "meta": [
-    "▲ 86 upvotes",
+    "▲ 82 upvotes",
     "Hugging Face Papers"
    ],
-   "at": "2026-11-12T19:00:00.000Z",
+   "at": "2026-11-10T19:00:00.000Z",
    "breakout": null
   },
   {
@@ -169,7 +169,7 @@
    "cat": "Agents",
    "score": 83,
    "grow": 33,
-   "desc": "Model on Hugging Face · open weights · ♥ 358",
+   "desc": "Model on Hugging Face · open weights · ♥ 360",
    "meta": [
     "55K downloads",
     "Released 5 days ago"
@@ -185,8 +185,8 @@
    "name": "blender-ai-mcp-addon",
    "url": "https://github.com/hitkeeen/blender-ai-mcp-addon",
    "from": "GitHub",
-   "use": 1361,
-   "useLabel": "+1,361 stars/day",
+   "use": 1367,
+   "useLabel": "+1,367 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -209,7 +209,7 @@
    "from": "Hugging Face",
    "use": 2294065,
    "useLabel": "2.3M downloads",
-   "usePct": 0.9615384615384616,
+   "usePct": 0.96,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -300,8 +300,8 @@
  "github": [
   {
    "repo": "hitkeeen/blender-ai-mcp-addon",
-   "stars": 2067,
-   "d24": 1361,
+   "stars": 2099,
+   "d24": 1367,
    "est": false,
    "forks": 53,
    "contrib": null,
@@ -309,8 +309,8 @@
   },
   {
    "repo": "duwqijlk/muse-protocol",
-   "stars": 1393,
-   "d24": 497,
+   "stars": 1400,
+   "d24": 486,
    "est": false,
    "forks": 554,
    "contrib": null,
@@ -318,7 +318,7 @@
   },
   {
    "repo": "FrigadeHQ/yogurt",
-   "stars": 1805,
+   "stars": 1810,
    "d24": 240,
    "est": false,
    "forks": 108,
@@ -337,7 +337,7 @@
    "grow": 9,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 7961
+   "likes": 8007
   },
   {
    "name": "MiniMax-H3-Image",
@@ -348,7 +348,7 @@
    "grow": 7,
    "score": 88,
    "cat": "Vision",
-   "likes": 1268
+   "likes": 1270
   },
   {
    "name": "MiniMax-H3-Image",
@@ -359,7 +359,7 @@
    "grow": 16,
    "score": 88,
    "cat": "Vision",
-   "likes": 449
+   "likes": 451
   },
   {
    "name": "Haru-4B",
@@ -371,7 +371,7 @@
    "grow": 61,
    "score": 88,
    "cat": "Tools",
-   "likes": 385
+   "likes": 386
   },
   {
    "name": "ZONOS3-Mini",
@@ -382,7 +382,7 @@
    "grow": 75,
    "score": 86,
    "cat": "LLMs",
-   "likes": 435
+   "likes": 436
   },
   {
    "name": "Edge0-145B-NVFP4",
@@ -394,7 +394,7 @@
    "grow": 33,
    "score": 83,
    "cat": "Agents",
-   "likes": 358
+   "likes": 360
   }
  ],
  "free": [
@@ -719,6 +719,20 @@
  },
  "headlines": [
   {
+   "t": "Noeri, which is developing AI software to review and suggest improvements for its clients' AI models and tools, raised $110M led by Menlo Ventures",
+   "url": "https://www.techmeme.com/261116/p35#a261116p35",
+   "at": "2026-11-16T16:55:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Trump backs calls for reinstatement of Jensen Huang as Nvidia CEO",
+   "url": "https://www.theguardian.com/technology/2026/nov/16/trump-backs-calls-for-reinstatement-of-jensen-huang-as-nvidia-ceo",
+   "at": "2026-11-16T16:48:47Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
    "t": "OpenAI says it has signed agreements with independent assessors Apollo Research, METR, Transluce, and Goodfire for its first phase of embedded assessments",
    "url": "https://www.techmeme.com/261116/p33#a261116p33",
    "at": "2026-11-16T16:15:00.000Z",
@@ -782,7 +796,7 @@
    "kind": "News"
   },
   {
-   "t": "President Trump says he \"would not mind\" the reinstatement of Jensen Huang as Nvidia CEO and \"I don't know that she was a spy at all\", referencing Alice Huang",
+   "t": "President Trump says he \"would not mind\" if Jensen Huang was reinstated as Nvidia's CEO and \"I don't know that she was a spy at all\" in reference to Alice Huang",
    "url": "https://www.techmeme.com/261116/p31#a261116p31",
    "at": "2026-11-16T14:55:00.000Z",
    "src": "Techmeme",
@@ -815,56 +829,25 @@
    "at": "2026-11-16T13:55:01.000Z",
    "src": "Techmeme",
    "kind": "News"
-  },
-  {
-   "t": "The Jensen Huang saga is driven by elite factional conflicts: China hawks vs. doves, open vs. closed AI models, and the founder class vs. managerial class",
-   "url": "https://www.techmeme.com/261116/p25#a261116p25",
-   "at": "2026-11-16T13:40:00.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Dreamteam, which uses AI agents for CRM tasks like data capture and research, raised $53M across seed and Series A led by Together Fund and Accel, respectively",
-   "url": "https://www.techmeme.com/261116/p24#a261116p24",
-   "at": "2026-11-16T13:05:00.000Z",
-   "src": "Techmeme",
-   "kind": "News"
   }
  ],
  "discussions": [
   {
    "src": "Hacker News",
-   "t": "How to make almost anything",
-   "url": "https://news.ycombinator.com/item?id=50514470",
-   "link": "https://pub.cba.mit.edu/863.26/site/",
-   "up": 623,
-   "com": 103,
-   "at": "2026-11-16T05:50:37.000Z"
-  },
-  {
-   "src": "Hacker News",
    "t": "Qwen4-Max",
    "url": "https://news.ycombinator.com/item?id=50513215",
    "link": "https://qwen.ai/blog?id=qwen4-max",
-   "up": 754,
-   "com": 380,
+   "up": 775,
+   "com": 392,
    "at": "2026-11-16T02:14:44.000Z"
-  },
-  {
-   "src": "Mastodon",
-   "t": "Pretty much 98% of the \"tips\" we're getting to LWN now are projects that have been largely cobbled together using LLMs. Probably 75% of the project tips are …",
-   "url": "https://hachyderm.io/@jzb/117626954790249078",
-   "up": 32,
-   "com": 1,
-   "at": "2026-11-16T16:01:31.000Z"
   },
   {
    "src": "Hacker News",
    "t": "ChatGPT Wallet",
    "url": "https://news.ycombinator.com/item?id=50518501",
    "link": "https://openai.com/index/introducing-chatgpt-wallet/",
-   "up": 35,
-   "com": 71,
+   "up": 36,
+   "com": 72,
    "at": "2026-11-16T15:17:56.000Z"
   },
   {
@@ -872,8 +855,8 @@
    "t": "Protomaps: Self-hosting map tiles has gotten cheap and easy",
    "url": "https://news.ycombinator.com/item?id=50509837",
    "link": "https://bruceroettgers.eu/blog/protomaps/",
-   "up": 427,
-   "com": 75,
+   "up": 433,
+   "com": 77,
    "at": "2026-11-15T19:26:22.000Z"
   },
   {
@@ -882,8 +865,25 @@
    "url": "https://news.ycombinator.com/item?id=50517803",
    "link": "https://github.com/withcoral/coral",
    "up": 46,
-   "com": 21,
+   "com": 22,
    "at": "2026-11-16T14:14:51.000Z"
+  },
+  {
+   "src": "DEV",
+   "t": "Stratagem #34: Derek Gave Up Acceptance Sign-Off. The AI Still Can't Tell Who Won.",
+   "url": "https://dev.to/xulingfeng/stratagem-34-derek-gave-up-acceptance-sign-off-the-ai-still-cant-tell-who-won-25f8",
+   "up": 60,
+   "com": 11,
+   "at": "2026-11-16T13:08:10Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Tor Project Issues Rapid-Response DoS-Defense Fix Amid Sustained DDoS Attack",
+   "url": "https://news.ycombinator.com/item?id=50512441",
+   "link": "https://forum.torproject.org/t/security-release-0-4-9-17/22454",
+   "up": 220,
+   "com": 56,
+   "at": "2026-11-16T00:21:54.000Z"
   }
  ]
 }
