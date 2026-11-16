@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-16T15:01:08.698Z"
+  "updated": "2026-11-16T15:30:58.482Z"
  },
  "pulse": {
   "trending": 70,
-  "accelerating": 0,
+  "accelerating": 1,
   "newModels": 4,
-  "discussions": 34,
-  "stars": 2208
+  "discussions": 36,
+  "stars": 2113
  },
  "rising": [
   {
@@ -20,12 +20,12 @@
    "owner": "duwqijlk",
    "src": "gh",
    "cat": "Tools",
-   "score": 93,
-   "grow": null,
+   "score": 92,
+   "grow": 10,
    "desc": "muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现）",
    "meta": [
-    "★ 1,368",
-    "~533 in 24h",
+    "★ 1,374",
+    "+504 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-14T01:24:58Z",
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 90,
-   "grow": 63,
+   "grow": 65,
    "desc": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
    "meta": [
-    "★ 1,984",
-    "+1,365 in 24h",
+    "★ 2,010",
+    "+1,361 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-12T14:32:15Z",
@@ -55,7 +55,7 @@
    "src": "hf",
    "cat": "Infrastructure",
    "score": 90,
-   "grow": null,
+   "grow": 9,
    "desc": "Model on Hugging Face · open source · ♥ 7.8K",
    "meta": [
     "30K downloads",
@@ -71,7 +71,7 @@
    "src": "hf",
    "cat": "Vision",
    "score": 88,
-   "grow": null,
+   "grow": 7,
    "desc": "Vision on Hugging Face · open weights · ♥ 1.3K",
    "meta": [
     "609K downloads",
@@ -87,7 +87,7 @@
    "src": "hf",
    "cat": "Vision",
    "score": 88,
-   "grow": null,
+   "grow": 16,
    "desc": "Vision on Hugging Face · open weights · ♥ 448",
    "meta": [
     "2.3M downloads",
@@ -104,7 +104,7 @@
    "cat": "Tools",
    "score": 88,
    "grow": 61,
-   "desc": "Model on Hugging Face · open source · ♥ 379",
+   "desc": "Model on Hugging Face · open source · ♥ 380",
    "meta": [
     "3.4K downloads",
     "Released 4 days ago"
@@ -119,7 +119,7 @@
    "src": "hf",
    "cat": "LLMs",
    "score": 86,
-   "grow": null,
+   "grow": 75,
    "desc": "Model on Hugging Face · open source · ♥ 431",
    "meta": [
     "70K downloads",
@@ -155,7 +155,7 @@
    "grow": null,
    "desc": "The open source Grok Bot alternative you actually own",
    "meta": [
-    "▲ 386 votes",
+    "▲ 389 votes",
     "45 comments",
     "Launched yesterday"
    ],
@@ -168,11 +168,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 83,
-   "grow": null,
+   "grow": 4,
    "desc": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux.",
    "meta": [
-    "★ 1,795",
-    "~310 in 24h",
+    "★ 1,797",
+    "+248 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-11-10T20:01:01Z",
@@ -186,8 +186,8 @@
    "name": "blender-ai-mcp-addon",
    "url": "https://github.com/hitkeeen/blender-ai-mcp-addon",
    "from": "GitHub",
-   "use": 1365,
-   "useLabel": "+1,365 stars/day",
+   "use": 1361,
+   "useLabel": "+1,361 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -301,27 +301,27 @@
  "github": [
   {
    "repo": "hitkeeen/blender-ai-mcp-addon",
-   "stars": 1984,
-   "d24": 1365,
+   "stars": 2010,
+   "d24": 1361,
    "est": false,
-   "forks": 52,
+   "forks": 53,
    "contrib": null,
    "score": 90
   },
   {
    "repo": "duwqijlk/muse-protocol",
-   "stars": 1368,
-   "d24": 533,
-   "est": true,
-   "forks": 546,
+   "stars": 1374,
+   "d24": 504,
+   "est": false,
+   "forks": 549,
    "contrib": null,
-   "score": 93
+   "score": 92
   },
   {
    "repo": "FrigadeHQ/yogurt",
-   "stars": 1795,
-   "d24": 310,
-   "est": true,
+   "stars": 1797,
+   "d24": 248,
+   "est": false,
    "forks": 107,
    "contrib": null,
    "score": 83
@@ -335,10 +335,10 @@
    "lic": "Open source",
    "at": "2026-10-30T10:21:29.000Z",
    "dl": 29567,
-   "grow": null,
+   "grow": 9,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 7798
+   "likes": 7841
   },
   {
    "name": "MiniMax-H3-Image",
@@ -346,10 +346,10 @@
    "lic": "Open weights",
    "at": "2026-11-03T06:34:36.000Z",
    "dl": 609130,
-   "grow": null,
+   "grow": 7,
    "score": 88,
    "cat": "Vision",
-   "likes": 1260
+   "likes": 1262
   },
   {
    "name": "MiniMax-H3-Image",
@@ -357,7 +357,7 @@
    "lic": "Open weights",
    "at": "2026-11-08T20:37:23.000Z",
    "dl": 2294065,
-   "grow": null,
+   "grow": 16,
    "score": 88,
    "cat": "Vision",
    "likes": 448
@@ -372,7 +372,7 @@
    "grow": 61,
    "score": 88,
    "cat": "Tools",
-   "likes": 379
+   "likes": 380
   },
   {
    "name": "ZONOS3-Mini",
@@ -380,7 +380,7 @@
    "lic": "Open source",
    "at": "2026-11-09T05:03:57.000Z",
    "dl": 69946,
-   "grow": null,
+   "grow": 75,
    "score": 86,
    "cat": "LLMs",
    "likes": 431
@@ -392,10 +392,10 @@
    "lic": "Open weights",
    "at": "2026-11-11T05:22:51.000Z",
    "dl": 55335,
-   "grow": null,
+   "grow": 33,
    "score": 83,
    "cat": "Agents",
-   "likes": 350
+   "likes": 351
   }
  ],
  "free": [
@@ -720,6 +720,13 @@
  },
  "headlines": [
   {
+   "t": "Moody's: major US life insurers like Athene held $85.2B in AI debt as of June 30, up 24% from December 31, and the figure could rise to $185B by the end of 2027",
+   "url": "https://www.techmeme.com/261116/p32#a261116p32",
+   "at": "2026-11-16T15:10:04.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "President Trump says he \"would not mind\" the reinstatement of Jensen Huang as Nvidia CEO and \"I don't know that she was a spy at all\", referencing Alice Huang",
    "url": "https://www.techmeme.com/261116/p31#a261116p31",
    "at": "2026-11-16T14:55:00.000Z",
@@ -790,13 +797,6 @@
    "kind": "News"
   },
   {
-   "t": "Tech startups and VC firms are hiring for \"ecosystem\" roles, like \"startup ecosystem lead\", to prioritize in-person networking and cut through AI marketing slop",
-   "url": "https://www.techmeme.com/261116/p17#a261116p17",
-   "at": "2026-11-16T11:50:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Elon Musk joins 165,000 others calling for Nvidia to bring back Jensen Huang in open letter",
    "url": "https://www.theguardian.com/technology/2026/nov/16/elon-musk-tech-execs-open-letter-jensen-huang-return-nvidia-ceo",
    "at": "2026-11-16T11:30:35Z",
@@ -838,8 +838,8 @@
    "t": "How to make almost anything",
    "url": "https://news.ycombinator.com/item?id=50514470",
    "link": "https://pub.cba.mit.edu/863.26/site/",
-   "up": 528,
-   "com": 97,
+   "up": 562,
+   "com": 98,
    "at": "2026-11-16T05:50:37.000Z"
   },
   {
@@ -847,34 +847,34 @@
    "t": "Qwen4-Max",
    "url": "https://news.ycombinator.com/item?id=50513215",
    "link": "https://qwen.ai/blog?id=qwen4-max",
-   "up": 700,
-   "com": 335,
+   "up": 719,
+   "com": 353,
    "at": "2026-11-16T02:14:44.000Z"
-  },
-  {
-   "src": "DEV",
-   "t": "Stratagem #34: Derek Gave Up Acceptance Sign-Off. The AI Still Can't Tell Who Won.",
-   "url": "https://dev.to/xulingfeng/stratagem-34-derek-gave-up-acceptance-sign-off-the-ai-still-cant-tell-who-won-25f8",
-   "up": 49,
-   "com": 4,
-   "at": "2026-11-16T13:08:10Z"
   },
   {
    "src": "Hacker News",
    "t": "Show HN: Coral – Open-source gateway where agents write their own tools",
    "url": "https://news.ycombinator.com/item?id=50517803",
    "link": "https://github.com/withcoral/coral",
-   "up": 23,
-   "com": 8,
+   "up": 37,
+   "com": 10,
    "at": "2026-11-16T14:14:51.000Z"
+  },
+  {
+   "src": "DEV",
+   "t": "Stratagem #34: Derek Gave Up Acceptance Sign-Off. The AI Still Can't Tell Who Won.",
+   "url": "https://dev.to/xulingfeng/stratagem-34-derek-gave-up-acceptance-sign-off-the-ai-still-cant-tell-who-won-25f8",
+   "up": 54,
+   "com": 5,
+   "at": "2026-11-16T13:08:10Z"
   },
   {
    "src": "Hacker News",
    "t": "Protomaps: Self-hosting map tiles has gotten cheap and easy",
    "url": "https://news.ycombinator.com/item?id=50509837",
    "link": "https://bruceroettgers.eu/blog/protomaps/",
-   "up": 409,
-   "com": 72,
+   "up": 413,
+   "com": 73,
    "at": "2026-11-15T19:26:22.000Z"
   },
   {
@@ -882,7 +882,7 @@
    "t": "Tor Project Issues Rapid-Response DoS-Defense Fix Amid Sustained DDoS Attack",
    "url": "https://news.ycombinator.com/item?id=50512441",
    "link": "https://forum.torproject.org/t/security-release-0-4-9-17/22454",
-   "up": 201,
+   "up": 203,
    "com": 55,
    "at": "2026-11-16T00:21:54.000Z"
   }
