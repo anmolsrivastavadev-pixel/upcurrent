@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-16T01:01:03.961Z"
+  "updated": "2026-11-16T01:30:54.436Z"
  },
  "pulse": {
-  "trending": 65,
+  "trending": 66,
   "accelerating": 0,
   "newModels": 4,
-  "discussions": 37,
-  "stars": 175
+  "discussions": 34,
+  "stars": 527
  },
  "rising": [
   {
@@ -64,13 +64,30 @@
    "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image"
   },
   {
+   "name": "blender-ai-mcp-addon",
+   "owner": "hitkeeen",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 86,
+   "grow": null,
+   "desc": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
+   "meta": [
+    "★ 1,216",
+    "~352 in 24h",
+    "Created 3 days ago"
+   ],
+   "at": "2026-11-12T14:32:15Z",
+   "breakout": null,
+   "url": "https://github.com/hitkeeen/blender-ai-mcp-addon"
+  },
+  {
    "name": "ZONOS3-Mini",
    "owner": "Zyphra",
    "src": "hf",
    "cat": "LLMs",
    "score": 86,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 395",
+   "desc": "Model on Hugging Face · open source · ♥ 397",
    "meta": [
     "40K downloads",
     "Released 7 days ago"
@@ -78,23 +95,6 @@
    "at": "2026-11-09T05:03:57.000Z",
    "breakout": null,
    "url": "https://huggingface.co/Zyphra/ZONOS3-Mini"
-  },
-  {
-   "name": "yogurt",
-   "owner": "FrigadeHQ",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 85,
-   "grow": 6,
-   "desc": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux.",
-   "meta": [
-    "★ 1,651",
-    "+175 in 24h",
-    "Created 5 days ago"
-   ],
-   "at": "2026-11-10T20:01:01Z",
-   "breakout": null,
-   "url": "https://github.com/FrigadeHQ/yogurt"
   },
   {
    "name": "Open Vision Banana: A Fully Open Recipe for Generative Visual Perception",
@@ -130,6 +130,23 @@
    "breakout": null
   },
   {
+   "name": "yogurt",
+   "owner": "FrigadeHQ",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 84,
+   "grow": 6,
+   "desc": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux.",
+   "meta": [
+    "★ 1,655",
+    "+175 in 24h",
+    "Created 5 days ago"
+   ],
+   "at": "2026-11-10T20:01:01Z",
+   "breakout": null,
+   "url": "https://github.com/FrigadeHQ/yogurt"
+  },
+  {
    "name": "Haru-4B",
    "owner": "higurashi-ai",
    "src": "hf",
@@ -160,33 +177,16 @@
    ],
    "at": "2026-11-11T19:00:00.000Z",
    "breakout": null
-  },
-  {
-   "name": "HiringNow",
-   "owner": "Product Hunt",
-   "src": "ph",
-   "url": "https://www.producthunt.com/products/hiringnow?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29",
-   "cat": "Agents",
-   "score": 83,
-   "grow": null,
-   "desc": "AI job agent that finds & apply for jobs before anyone else.",
-   "meta": [
-    "▲ 302 votes",
-    "28 comments",
-    "Launched 2 days ago"
-   ],
-   "at": "2026-11-14T08:01:00Z",
-   "breakout": null
   }
  ],
  "breakouts": [],
  "hype": [
   {
-   "name": "yogurt",
-   "url": "https://github.com/FrigadeHQ/yogurt",
+   "name": "blender-ai-mcp-addon",
+   "url": "https://github.com/hitkeeen/blender-ai-mcp-addon",
    "from": "GitHub",
-   "use": 175,
-   "useLabel": "+175 stars/day",
+   "use": 352,
+   "useLabel": "~352 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -299,13 +299,22 @@
  ],
  "github": [
   {
+   "repo": "hitkeeen/blender-ai-mcp-addon",
+   "stars": 1216,
+   "d24": 352,
+   "est": true,
+   "forks": 32,
+   "contrib": null,
+   "score": 86
+  },
+  {
    "repo": "FrigadeHQ/yogurt",
-   "stars": 1651,
+   "stars": 1655,
    "d24": 175,
    "est": false,
    "forks": 93,
    "contrib": null,
-   "score": 85
+   "score": 84
   }
  ],
  "models": [
@@ -319,7 +328,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 7536
+   "likes": 7539
   },
   {
    "name": "MiniMax-H3-Image",
@@ -330,7 +339,7 @@
    "grow": 0,
    "score": 88,
    "cat": "Vision",
-   "likes": 1186
+   "likes": 1187
   },
   {
    "name": "MiniMax-H3-Image",
@@ -352,7 +361,7 @@
    "grow": 0,
    "score": 86,
    "cat": "LLMs",
-   "likes": 395
+   "likes": 397
   },
   {
    "name": "Haru-4B",
@@ -375,7 +384,7 @@
    "grow": 0,
    "score": 82,
    "cat": "Vision",
-   "likes": 343
+   "likes": 344
   }
  ],
  "free": [
@@ -682,6 +691,13 @@
  },
  "headlines": [
   {
+   "t": "How Samsung aims to be a one-stop shop that builds, runs, and powers data centers; sources: its IT arm is in early talks to sign Anthropic and OpenAI as tenants",
+   "url": "https://www.techmeme.com/261115/p19#a261115p19",
+   "at": "2026-11-16T01:15:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Reports of AI-related child sexual abuse material rise 8,400% in two years, data shows",
    "url": "https://www.theguardian.com/technology/2026/nov/16/ai-related-child-sexual-abuse-material-rise-exploitation-deepfakes",
    "at": "2026-11-16T00:01:27Z",
@@ -780,17 +796,10 @@
    "kind": "News"
   },
   {
-   "t": "Data centers, AI were factors in election results, candidates and experts say",
-   "url": "https://www.chicagotribune.com/2026/11/15/data-centers-ai-were-factors-in-election-results-candidates-and-experts-say/",
-   "at": "2026-11-15T13:00:09Z",
-   "src": "Chicago Tribune",
-   "kind": "News"
-  },
-  {
-   "t": "Bodyguards aren't enough: After Jensen Huang's exit, CEOs need counterintelligence training",
-   "url": "https://fortune.com/2026/11/15/ceo-espionage-counterintelligence-training-jensen-huang-nvidia/",
-   "at": "2026-11-15T12:57:00Z",
-   "src": "Fortune",
+   "t": "BITS Pilani raises USD 54 million through endowment drive in 23 months: Group VC V Ramgopal Rao",
+   "url": "https://indianexpress.com/article/education/bits-pilani-raises-usd-54-million-through-endowment-drive-23-months-group-vc-ramgopal-rao-10964239/",
+   "at": "2026-11-15T13:12:07Z",
+   "src": "The Indian Express",
    "kind": "News"
   }
  ],
@@ -800,8 +809,8 @@
    "t": "All AI-generated code should be Open Source",
    "url": "https://news.ycombinator.com/item?id=50507303",
    "link": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
-   "up": 1071,
-   "com": 579,
+   "up": 1080,
+   "com": 590,
    "at": "2026-11-15T14:46:58.000Z"
   },
   {
@@ -809,8 +818,8 @@
    "t": "Ask HN: Stripe closed us after one $1,500 invoice and never asked for evidence",
    "url": "https://news.ycombinator.com/item?id=50510042",
    "link": "",
-   "up": 146,
-   "com": 51,
+   "up": 160,
+   "com": 59,
    "at": "2026-11-15T19:49:28.000Z"
   },
   {
@@ -818,26 +827,17 @@
    "t": "Protomaps: Self-hosting map tiles has gotten cheap and easy",
    "url": "https://news.ycombinator.com/item?id=50509837",
    "link": "https://bruceroettgers.eu/blog/protomaps/",
-   "up": 147,
-   "com": 32,
+   "up": 157,
+   "com": 37,
    "at": "2026-11-15T19:26:22.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Court denies motion to dismiss DRAM price fixing case",
-   "url": "https://news.ycombinator.com/item?id=50502988",
-   "link": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
-   "up": 488,
-   "com": 216,
-   "at": "2026-11-15T01:18:36.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Understanding Positional Embeddings in Modern LLMs",
    "url": "https://news.ycombinator.com/item?id=50506376",
    "link": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
-   "up": 196,
-   "com": 26,
+   "up": 202,
+   "com": 27,
    "at": "2026-11-15T12:14:06.000Z"
   },
   {
@@ -848,6 +848,15 @@
    "up": 63,
    "com": 60,
    "at": "2026-11-15T19:39:46.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Eclipse Mosquitto – An open source MQTT broker",
+   "url": "https://news.ycombinator.com/item?id=50509416",
+   "link": "https://github.com/eclipse-mosquitto/mosquitto",
+   "up": 62,
+   "com": 26,
+   "at": "2026-11-15T18:36:40.000Z"
   }
  ]
 }
