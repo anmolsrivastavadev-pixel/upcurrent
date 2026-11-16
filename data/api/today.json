@@ -5,7 +5,7 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-16T00:01:03.881Z"
+  "updated": "2026-11-16T00:20:39.493Z"
  },
  "pulse": {
   "trending": 66,
@@ -88,8 +88,8 @@
    "grow": 5,
    "desc": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux.",
    "meta": [
-    "★ 1,641",
-    "+169 in 24h",
+    "★ 1,644",
+    "+170 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-11-10T20:01:01Z",
@@ -122,12 +122,28 @@
    "grow": null,
    "desc": "The open source Grok Bot alternative you actually own",
    "meta": [
-    "▲ 303 votes",
+    "▲ 304 votes",
     "42 comments",
     "Launched 16h ago"
    ],
    "at": "2026-11-15T08:01:00Z",
    "breakout": null
+  },
+  {
+   "name": "Haru-4B",
+   "owner": "higurashi-ai",
+   "src": "hf",
+   "cat": "Tools",
+   "score": 84,
+   "grow": 66,
+   "desc": "Model on Hugging Face · open source · ♥ 304",
+   "meta": [
+    "2.1K downloads",
+    "Released 4 days ago"
+   ],
+   "at": "2026-11-12T11:05:59.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/higurashi-ai/Haru-4B"
   },
   {
    "name": "Ropedia Xperience 2: A Gold Standard for Scaling Physical AI Environments and Behaviors",
@@ -161,22 +177,6 @@
    ],
    "at": "2026-11-14T08:01:00Z",
    "breakout": null
-  },
-  {
-   "name": "Inkling-2-Small",
-   "owner": "thinkingmachines",
-   "src": "hf",
-   "cat": "Vision",
-   "score": 82,
-   "grow": 0,
-   "desc": "Vision on Hugging Face · open source · ♥ 343",
-   "meta": [
-    "7.3K downloads",
-    "Released 11 days ago"
-   ],
-   "at": "2026-11-04T19:51:05.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/thinkingmachines/Inkling-2-Small"
   }
  ],
  "breakouts": [],
@@ -185,8 +185,8 @@
    "name": "yogurt",
    "url": "https://github.com/FrigadeHQ/yogurt",
    "from": "GitHub",
-   "use": 169,
-   "useLabel": "+169 stars/day",
+   "use": 170,
+   "useLabel": "+170 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -300,8 +300,8 @@
  "github": [
   {
    "repo": "FrigadeHQ/yogurt",
-   "stars": 1641,
-   "d24": 169,
+   "stars": 1644,
+   "d24": 170,
    "est": false,
    "forks": 93,
    "contrib": null,
@@ -309,8 +309,8 @@
   },
   {
    "repo": "agentes-chat/agentes-chat",
-   "stars": 1508,
-   "d24": 104,
+   "stars": 1509,
+   "d24": 103,
    "est": false,
    "forks": 268,
    "contrib": null,
@@ -328,7 +328,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 7526
+   "likes": 7528
   },
   {
    "name": "MiniMax-H3-Image",
@@ -339,7 +339,7 @@
    "grow": 0,
    "score": 88,
    "cat": "Vision",
-   "likes": 1182
+   "likes": 1183
   },
   {
    "name": "MiniMax-H3-Image",
@@ -364,6 +364,18 @@
    "likes": 392
   },
   {
+   "name": "Haru-4B",
+   "org": "higurashi-ai",
+   "size": "4B",
+   "lic": "Open source",
+   "at": "2026-11-12T11:05:59.000Z",
+   "dl": 2098,
+   "grow": 66,
+   "score": 84,
+   "cat": "Tools",
+   "likes": 304
+  },
+  {
    "name": "Inkling-2-Small",
    "org": "thinkingmachines",
    "lic": "Open source",
@@ -373,18 +385,6 @@
    "score": 82,
    "cat": "Vision",
    "likes": 343
-  },
-  {
-   "name": "Haru-4B",
-   "org": "higurashi-ai",
-   "size": "4B",
-   "lic": "Open source",
-   "at": "2026-11-12T11:05:59.000Z",
-   "dl": 2098,
-   "grow": 66,
-   "score": 82,
-   "cat": "Tools",
-   "likes": 304
   }
  ],
  "free": [
@@ -691,6 +691,20 @@
  },
  "headlines": [
   {
+   "t": "Reports of AI-related child sexual abuse material rise 8,400% in two years, data shows",
+   "url": "https://www.theguardian.com/technology/2026/nov/16/ai-related-child-sexual-abuse-material-rise-exploitation-deepfakes",
+   "at": "2026-11-16T00:01:27Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "AI Day Seoul Brings Together Korea’s Industry Leaders, Startups and Developer Communities",
+   "url": "https://blogs.nvidia.com/blog/ai-day-seoul-wrapup/",
+   "at": "2026-11-16T00:00:28.000Z",
+   "src": "NVIDIA",
+   "kind": "Lab blog"
+  },
+  {
    "t": "Sources: Anthropic's IPO is ~7x oversubscribed; Anthropic and some of its backers are seeking to raise up to $90.4B via the IPO and a separate private placement",
    "url": "https://www.techmeme.com/261115/p18#a261115p18",
    "at": "2026-11-15T23:00:00.000Z",
@@ -775,31 +789,17 @@
    "kind": "News"
   },
   {
-   "t": "Inside the first AI Music Awards in Los Angeles, featuring AI announcers, lip-syncing, and human stand-ins, as the ceremony was mired in technical issues",
-   "url": "https://www.techmeme.com/261115/p7#a261115p7",
-   "at": "2026-11-15T12:02:16.000Z",
-   "src": "Techmeme",
+   "t": "AI sets date when SpaceX will surpass Nvidia in market cap",
+   "url": "https://finbold.com/ai-sets-date-when-spacex-will-surpass-nvidia-in-market-cap/",
+   "at": "2026-11-15T12:17:16Z",
+   "src": "Finbold",
    "kind": "News"
   },
   {
-   "t": "Dead as a prank? Young South Koreans turn to AI for fake funeral portraits",
-   "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/15/dead-as-a-prank-young-south-koreans-turn-to-ai-for-fake-funeral-portraits",
-   "at": "2026-11-15T11:44:00Z",
-   "src": "The Star",
-   "kind": "News"
-  },
-  {
-   "t": "Why India’s indigenous AI models need better data for regional languages",
-   "url": "https://indianexpress.com/article/explained/explained-ai/low-resource-languages-regional-ai-models-10964089/",
-   "at": "2026-11-15T11:26:25Z",
-   "src": "The Indian Express",
-   "kind": "News"
-  },
-  {
-   "t": "International partnerships offer developing economies a path to stronger AI capabilities",
-   "url": "https://www.nation.com.pk/15-Nov-2026/international-partnerships-offer-developing-economies-path-stronger-ai-capabilities",
-   "at": "2026-11-15T11:09:21Z",
-   "src": "The Nation",
+   "t": "AI may deepen pricing pressure on Indian IT services before new demand offsets it: Report",
+   "url": "https://www.tribuneindia.com/news/business/ai-may-deepen-pricing-pressure-on-indian-it-services-before-new-demand-offsets-it-report/",
+   "at": "2026-11-15T12:07:41Z",
+   "src": "The Tribune",
    "kind": "News"
   }
  ],
@@ -809,8 +809,8 @@
    "t": "All AI-generated code should be Open Source",
    "url": "https://news.ycombinator.com/item?id=50507303",
    "link": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
-   "up": 1053,
-   "com": 573,
+   "up": 1057,
+   "com": 577,
    "at": "2026-11-15T14:46:58.000Z"
   },
   {
@@ -818,8 +818,8 @@
    "t": "Protomaps: Self-hosting map tiles has gotten cheap and easy",
    "url": "https://news.ycombinator.com/item?id=50509837",
    "link": "https://bruceroettgers.eu/blog/protomaps/",
-   "up": 115,
-   "com": 31,
+   "up": 130,
+   "com": 32,
    "at": "2026-11-15T19:26:22.000Z"
   },
   {
@@ -827,8 +827,8 @@
    "t": "Ask HN: Stripe closed us after one $1,500 invoice and never asked for evidence",
    "url": "https://news.ycombinator.com/item?id=50510042",
    "link": "",
-   "up": 99,
-   "com": 34,
+   "up": 111,
+   "com": 38,
    "at": "2026-11-15T19:49:28.000Z"
   },
   {
@@ -836,7 +836,7 @@
    "t": "Court denies motion to dismiss DRAM price fixing case",
    "url": "https://news.ycombinator.com/item?id=50502988",
    "link": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
-   "up": 484,
+   "up": 486,
    "com": 215,
    "at": "2026-11-15T01:18:36.000Z"
   },
@@ -845,7 +845,7 @@
    "t": "Understanding Positional Embeddings in Modern LLMs",
    "url": "https://news.ycombinator.com/item?id=50506376",
    "link": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
-   "up": 191,
+   "up": 192,
    "com": 26,
    "at": "2026-11-15T12:14:06.000Z"
   },
