@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-17T21:01:06.981Z"
+  "updated": "2026-11-17T21:30:57.120Z"
  },
  "pulse": {
   "trending": 74,
   "accelerating": 3,
   "newModels": 10,
-  "discussions": 49,
-  "stars": 1756
+  "discussions": 45,
+  "stars": 1768
  },
  "rising": [
   {
@@ -22,7 +22,7 @@
    "cat": "Tools",
    "score": 92,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 490",
+   "desc": "Model on Hugging Face · open source · ♥ 492",
    "meta": [
     "4.4K downloads",
     "Released 5 days ago"
@@ -40,8 +40,8 @@
    "grow": 5,
    "desc": "muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现）",
    "meta": [
-    "★ 1,575",
-    "+123 in 24h",
+    "★ 1,578",
+    "+124 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-14T01:24:58Z",
@@ -63,6 +63,22 @@
    "at": "2026-11-03T06:34:36.000Z",
    "breakout": null,
    "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image"
+  },
+  {
+   "name": "SenseNova-Loop-9B",
+   "owner": "sensenova",
+   "src": "hf",
+   "cat": "Vision",
+   "score": 88,
+   "grow": null,
+   "desc": "Vision on Hugging Face · open source · ♥ 154",
+   "meta": [
+    "0 downloads",
+    "Released 11h ago"
+   ],
+   "at": "2026-11-17T10:16:41.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B"
   },
   {
    "name": "Inkling-2-Small",
@@ -87,7 +103,7 @@
    "cat": "LLMs",
    "score": 87,
    "grow": 254,
-   "desc": "Model on Hugging Face · open source · ♥ 228",
+   "desc": "Model on Hugging Face · open source · ♥ 229",
    "meta": [
     "3K downloads",
     "Released 3 days ago"
@@ -97,29 +113,13 @@
    "url": "https://huggingface.co/n4ze3m/tiny-voca"
   },
   {
-   "name": "SenseNova-Loop-9B",
-   "owner": "sensenova",
-   "src": "hf",
-   "cat": "Vision",
-   "score": 87,
-   "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 153",
-   "meta": [
-    "0 downloads",
-    "Released 11h ago"
-   ],
-   "at": "2026-11-17T10:16:41.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B"
-  },
-  {
    "name": "MiniMax-H3-Image",
    "owner": "Comfy-Org",
    "src": "hf",
    "cat": "Vision",
    "score": 86,
    "grow": 16,
-   "desc": "Vision on Hugging Face · open weights · ♥ 517",
+   "desc": "Vision on Hugging Face · open weights · ♥ 518",
    "meta": [
     "2.7M downloads",
     "Released 9 days ago"
@@ -134,11 +134,11 @@
    "src": "gh",
    "cat": "Vision",
    "score": 85,
-   "grow": 29,
+   "grow": 32,
    "desc": "Offline knowledge AI, maps and videos for survival and rebuilding",
    "meta": [
-    "★ 1,591",
-    "+1,318 in 24h",
+    "★ 1,624",
+    "+1,337 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-11-12T23:49:03Z",
@@ -268,8 +268,8 @@
    "name": "lastbook",
    "url": "https://github.com/Immortal-Protocols/lastbook",
    "from": "GitHub",
-   "use": 1318,
-   "useLabel": "+1,318 stars/day",
+   "use": 1337,
+   "useLabel": "+1,337 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -383,17 +383,17 @@
  "github": [
   {
    "repo": "Immortal-Protocols/lastbook",
-   "stars": 1591,
-   "d24": 1318,
+   "stars": 1624,
+   "d24": 1337,
    "est": false,
-   "forks": 201,
+   "forks": 204,
    "contrib": null,
    "score": 85
   },
   {
    "repo": "ZiChuanLan/freebie-radar",
-   "stars": 1416,
-   "d24": 315,
+   "stars": 1417,
+   "d24": 307,
    "est": false,
    "forks": 239,
    "contrib": null,
@@ -401,8 +401,8 @@
   },
   {
    "repo": "duwqijlk/muse-protocol",
-   "stars": 1575,
-   "d24": 123,
+   "stars": 1578,
+   "d24": 124,
    "est": false,
    "forks": 623,
    "contrib": null,
@@ -420,7 +420,7 @@
    "grow": null,
    "score": 92,
    "cat": "Tools",
-   "likes": 490
+   "likes": 492
   },
   {
    "name": "MiniMax-H3-Image",
@@ -431,7 +431,19 @@
    "grow": 19,
    "score": 90,
    "cat": "Vision",
-   "likes": 1432
+   "likes": 1439
+  },
+  {
+   "name": "SenseNova-Loop-9B",
+   "org": "sensenova",
+   "size": "9B",
+   "lic": "Open source",
+   "at": "2026-11-17T10:16:41.000Z",
+   "dl": 0,
+   "grow": null,
+   "score": 88,
+   "cat": "Vision",
+   "likes": 154
   },
   {
    "name": "Inkling-2-Small",
@@ -454,19 +466,7 @@
    "grow": 254,
    "score": 87,
    "cat": "LLMs",
-   "likes": 228
-  },
-  {
-   "name": "SenseNova-Loop-9B",
-   "org": "sensenova",
-   "size": "9B",
-   "lic": "Open source",
-   "at": "2026-11-17T10:16:41.000Z",
-   "dl": 0,
-   "grow": null,
-   "score": 87,
-   "cat": "Vision",
-   "likes": 153
+   "likes": 229
   },
   {
    "name": "MiniMax-H3-Image",
@@ -477,7 +477,7 @@
    "grow": 16,
    "score": 86,
    "cat": "Vision",
-   "likes": 517
+   "likes": 518
   }
  ],
  "free": [
@@ -792,6 +792,27 @@
  },
  "headlines": [
   {
+   "t": "Nvidia reports Q3 revenue up 103% YoY to $115.8B, above $109.1B est., Data Center revenue up 110% to $107.6B, and net income up 105% to $65.3B",
+   "url": "https://www.techmeme.com/261117/p56#a261117p56",
+   "at": "2026-11-17T21:26:56.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Cybersecurity startup Calif says it used GPT-6 Cyber to uncover an RCE flaw in Java dubbed \"Java4Shell\"; Oracle has released a patch",
+   "url": "https://www.techmeme.com/261117/p55#a261117p55",
+   "at": "2026-11-17T21:20:04.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Sources: the US SEC is investigating Nvidia, including whether the company's disclosures misled investors",
+   "url": "https://www.techmeme.com/261117/p54#a261117p54",
+   "at": "2026-11-17T21:05:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "GPT-6.2 Astra review: frustrating to use, the model has no concept of knowledge gaps, its outputs are very hard to parse, and it runs in circles on long tasks",
    "url": "https://www.techmeme.com/261117/p49#a261117p49",
    "at": "2026-11-17T19:50:01.000Z",
@@ -855,20 +876,6 @@
    "kind": "News"
   },
   {
-   "t": "Docs: Nvidia stopped reporting Singapore unit revenue in 2025 as it accounted for nearly 50% of global revenue; the unit's revenue rose 72% YoY to $104B in 2025",
-   "url": "https://www.techmeme.com/261117/p41#a261117p41",
-   "at": "2026-11-17T17:30:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Vals: in simulated scenarios, AI models from Anthropic, Google, xAI, DeepSeek, and OpenAI identified civilians, ambulances, and a school as military targets",
-   "url": "https://www.techmeme.com/261117/p39#a261117p39",
-   "at": "2026-11-17T17:10:00.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Jensen Huang’s departure as Nvidia CEO becomes a political proxy war",
    "url": "https://www.theguardian.com/global/2026/nov/16/jensen-huang-nvidia-ceo-china",
    "at": "2026-11-17T14:50:24Z",
@@ -895,13 +902,6 @@
    "at": "2026-11-17T13:00:48Z",
    "src": "The Guardian",
    "kind": "News"
-  },
-  {
-   "t": "Actors in UK to get more rights over their ‘digital replicas’ in deal on AI protections",
-   "url": "https://www.theguardian.com/technology/2026/nov/17/actors-uk-rights-digital-replicas-ai-protections",
-   "at": "2026-11-17T09:00:08Z",
-   "src": "The Guardian",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -910,8 +910,8 @@
    "t": "GPT‑6.2 Astra and Sol",
    "url": "https://news.ycombinator.com/item?id=50535230",
    "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
-   "up": 786,
-   "com": 486,
+   "up": 848,
+   "com": 520,
    "at": "2026-11-17T17:46:43.000Z"
   },
   {
@@ -919,8 +919,8 @@
    "t": "jQuery 4.1.0",
    "url": "https://news.ycombinator.com/item?id=50537156",
    "link": "https://github.com/jquery/jquery/releases/tag/4.1.0",
-   "up": 95,
-   "com": 40,
+   "up": 137,
+   "com": 53,
    "at": "2026-11-17T19:50:40.000Z"
   },
   {
@@ -928,8 +928,8 @@
    "t": "MAI Code 2 and Code 2 Flash",
    "url": "https://news.ycombinator.com/item?id=50535885",
    "link": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
-   "up": 171,
-   "com": 82,
+   "up": 191,
+   "com": 92,
    "at": "2026-11-17T18:25:13.000Z"
   },
   {
@@ -937,7 +937,7 @@
    "t": "Optimizely compromised, served malware on Zoom, GitLab",
    "url": "https://news.ycombinator.com/item?id=50524767",
    "link": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
-   "up": 650,
+   "up": 651,
    "com": 257,
    "at": "2026-11-16T23:00:34.000Z"
   },
@@ -947,7 +947,7 @@
    "url": "https://news.ycombinator.com/item?id=50531751",
    "link": "https://www.scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns",
    "up": 177,
-   "com": 229,
+   "com": 231,
    "at": "2026-11-17T14:19:59.000Z"
   },
   {
@@ -955,8 +955,8 @@
    "t": "How the Claude Code team thinks about verification",
    "url": "https://news.ycombinator.com/item?id=50529612",
    "link": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
-   "up": 220,
-   "com": 169,
+   "up": 224,
+   "com": 176,
    "at": "2026-11-17T10:20:40.000Z"
   }
  ]
