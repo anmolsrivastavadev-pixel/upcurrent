@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-17T18:01:08.238Z"
+  "updated": "2026-11-17T18:31:00.332Z"
  },
  "pulse": {
-  "trending": 73,
+  "trending": 74,
   "accelerating": 3,
   "newModels": 9,
-  "discussions": 46,
-  "stars": 963
+  "discussions": 45,
+  "stars": 954
  },
  "rising": [
   {
@@ -22,7 +22,7 @@
    "cat": "Tools",
    "score": 92,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 481",
+   "desc": "Model on Hugging Face · open source · ♥ 484",
    "meta": [
     "4.4K downloads",
     "Released 5 days ago"
@@ -40,7 +40,7 @@
    "grow": 5,
    "desc": "muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现）",
    "meta": [
-    "★ 1,570",
+    "★ 1,573",
     "+144 in 24h",
     "Created 4 days ago"
    ],
@@ -81,20 +81,20 @@
    "url": "https://huggingface.co/thinkingmachines/Inkling-2-Small"
   },
   {
-   "name": "ZONOS3-Mini",
-   "owner": "Zyphra",
+   "name": "tiny-voca",
+   "owner": "n4ze3m",
    "src": "hf",
    "cat": "LLMs",
-   "score": 86,
-   "grow": 34,
-   "desc": "Model on Hugging Face · open source · ♥ 505",
+   "score": 87,
+   "grow": 254,
+   "desc": "Model on Hugging Face · open source · ♥ 223",
    "meta": [
-    "94K downloads",
-    "Released 9 days ago"
+    "3K downloads",
+    "Released 3 days ago"
    ],
-   "at": "2026-11-09T05:03:57.000Z",
+   "at": "2026-11-14T15:46:27.000Z",
    "breakout": null,
-   "url": "https://huggingface.co/Zyphra/ZONOS3-Mini"
+   "url": "https://huggingface.co/n4ze3m/tiny-voca"
   },
   {
    "name": "lastbook",
@@ -105,8 +105,8 @@
    "grow": null,
    "desc": "Offline knowledge AI, maps and videos for survival and rebuilding",
    "meta": [
-    "★ 1,437",
-    "~302 in 24h",
+    "★ 1,457",
+    "~305 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-11-12T23:49:03Z",
@@ -114,20 +114,20 @@
    "url": "https://github.com/Immortal-Protocols/lastbook"
   },
   {
-   "name": "tiny-voca",
-   "owner": "n4ze3m",
+   "name": "MiniMax-H3-Image",
+   "owner": "Comfy-Org",
    "src": "hf",
-   "cat": "LLMs",
+   "cat": "Vision",
    "score": 85,
-   "grow": 254,
-   "desc": "Model on Hugging Face · open source · ♥ 223",
+   "grow": 16,
+   "desc": "Vision on Hugging Face · open weights · ♥ 515",
    "meta": [
-    "3K downloads",
-    "Released 3 days ago"
+    "2.7M downloads",
+    "Released 9 days ago"
    ],
-   "at": "2026-11-14T15:46:27.000Z",
+   "at": "2026-11-08T20:37:23.000Z",
    "breakout": null,
-   "url": "https://huggingface.co/n4ze3m/tiny-voca"
+   "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image"
   },
   {
    "name": "Sage S2.1 Flash Technical Report",
@@ -163,24 +163,75 @@
    "breakout": null
   },
   {
-   "name": "MiniMax-H3-Image",
-   "owner": "Comfy-Org",
+   "name": "flux-3-image-klein-comfy",
+   "owner": "black-forest-labs",
    "src": "hf",
    "cat": "Vision",
    "score": 84,
-   "grow": 16,
-   "desc": "Vision on Hugging Face · open weights · ♥ 514",
+   "grow": -5,
+   "desc": "Vision on Hugging Face · open weights · ♥ 3.4K",
    "meta": [
-    "2.7M downloads",
-    "Released 9 days ago"
+    "1.1M downloads",
+    "Released 34 days ago"
    ],
-   "at": "2026-11-08T20:37:23.000Z",
+   "at": "2026-10-14T12:00:13.000Z",
    "breakout": null,
-   "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image"
+   "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy"
   }
  ],
- "breakouts": [],
+ "breakouts": [
+  {
+   "key": "gpt 6.2",
+   "label": "GPT-6.2",
+   "n": 3,
+   "sources": [
+    {
+     "src": "OpenAI blog",
+     "t": "Introducing GPT-6.2 Astra and Sol",
+     "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol"
+    },
+    {
+     "src": "Techmeme",
+     "t": "GPT-6.2 Astra costs $8/1M input and $40/1M output tokens, down 20% from GPT-6 Astra; GPT-6.2 Sol keeps GPT-6.1 Sol's $2/1M input and $10/1M output token pricing",
+     "url": "https://www.techmeme.com/261117/p44#a261117p44"
+    },
+    {
+     "src": "YouTube",
+     "t": "Gemini 4 Krypton BEATS FABLE 5.2!?, GPT-6.2 Preview, GLM-5.5 LEAKED & Claude Code UPDATE! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=iXvttGCoc1g"
+    }
+   ],
+   "since": "2026-11-03T23:15:42.727Z"
+  }
+ ],
  "hype": [
+  {
+   "name": "GPT-6.2",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "OpenAI blog",
+     "t": "Introducing GPT-6.2 Astra and Sol",
+     "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol"
+    },
+    {
+     "src": "Techmeme",
+     "t": "GPT-6.2 Astra costs $8/1M input and $40/1M output tokens, down 20% from GPT-6 Astra; GPT-6.2 Sol keeps GPT-6.1 Sol's $2/1M input and $10/1M output token pricing",
+     "url": "https://www.techmeme.com/261117/p44#a261117p44"
+    },
+    {
+     "src": "YouTube",
+     "t": "Gemini 4 Krypton BEATS FABLE 5.2!?, GPT-6.2 Preview, GLM-5.5 LEAKED & Claude Code UPDATE! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=iXvttGCoc1g"
+    }
+   ],
+   "buzz": 3,
+   "verdict": "Talk only, no public usage numbers"
+  },
   {
    "name": "Gemini 4",
    "url": null,
@@ -191,8 +242,8 @@
    "talk": [
     {
      "src": "DEV",
-     "t": "High or Low Thinking? Gemini 4 and Gemma 4 on Hard Math, Cost First",
-     "url": "https://dev.to/gde/high-or-low-thinking-gemini-4-and-gemma-4-on-hard-math-cost-first-3091"
+     "t": "Five Palaces, One Model: Testing Google’s Gemini 4 Hydrogen in AI Studio",
+     "url": "https://dev.to/amananandrai/i-built-5-interactive-3d-palaces-with-googles-new-gemini-4-hydrogen-in-ai-studio-5g8h"
     },
     {
      "src": "YouTube",
@@ -207,8 +258,8 @@
    "name": "freebie-radar",
    "url": "https://github.com/ZiChuanLan/freebie-radar",
    "from": "GitHub",
-   "use": 375,
-   "useLabel": "+375 stars/day",
+   "use": 363,
+   "useLabel": "+363 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -231,13 +282,23 @@
    "from": "Hugging Face",
    "use": 2660341,
    "useLabel": "2.7M downloads",
-   "usePct": 0.9642857142857143,
+   "usePct": 0.9655172413793104,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
   }
  ],
  "receipts": [
+  {
+   "name": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
+   "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
+   "kind": "downloads",
+   "first": "2026-10-26T04:01:01.621Z",
+   "firstV": 17599,
+   "m": 100000,
+   "at": "2026-11-17T18:31:00.332Z",
+   "lead": 542.4996419444444
+  },
   {
    "name": "JuneYaooo/rea-video",
    "url": "https://github.com/JuneYaooo/rea-video",
@@ -307,23 +368,13 @@
    "m": 2500,
    "at": "2026-11-15T06:30:50.591Z",
    "lead": 33.99976361111111
-  },
-  {
-   "name": "DenisSergeevitch/ex-ussr-kinship-research",
-   "url": "https://github.com/DenisSergeevitch/ex-ussr-kinship-research",
-   "kind": "stars",
-   "first": "2026-10-29T00:01:09.247Z",
-   "firstV": 1181,
-   "m": 2500,
-   "at": "2026-11-15T03:30:55.381Z",
-   "lead": 411.49614833333334
   }
  ],
  "github": [
   {
    "repo": "ZiChuanLan/freebie-radar",
-   "stars": 1409,
-   "d24": 375,
+   "stars": 1410,
+   "d24": 363,
    "est": false,
    "forks": 239,
    "contrib": null,
@@ -331,16 +382,16 @@
   },
   {
    "repo": "Immortal-Protocols/lastbook",
-   "stars": 1437,
-   "d24": 302,
+   "stars": 1457,
+   "d24": 305,
    "est": true,
-   "forks": 181,
+   "forks": 182,
    "contrib": null,
    "score": 85
   },
   {
    "repo": "duwqijlk/muse-protocol",
-   "stars": 1570,
+   "stars": 1573,
    "d24": 144,
    "est": false,
    "forks": 620,
@@ -349,7 +400,7 @@
   },
   {
    "repo": "FrigadeHQ/yogurt",
-   "stars": 1975,
+   "stars": 1978,
    "d24": 142,
    "est": false,
    "forks": 122,
@@ -368,7 +419,7 @@
    "grow": null,
    "score": 92,
    "cat": "Tools",
-   "likes": 481
+   "likes": 484
   },
   {
    "name": "MiniMax-H3-Image",
@@ -379,7 +430,7 @@
    "grow": 19,
    "score": 90,
    "cat": "Vision",
-   "likes": 1406
+   "likes": 1412
   },
   {
    "name": "Inkling-2-Small",
@@ -393,17 +444,6 @@
    "likes": 434
   },
   {
-   "name": "ZONOS3-Mini",
-   "org": "Zyphra",
-   "lic": "Open source",
-   "at": "2026-11-09T05:03:57.000Z",
-   "dl": 93909,
-   "grow": 34,
-   "score": 86,
-   "cat": "LLMs",
-   "likes": 505
-  },
-  {
    "name": "tiny-voca",
    "org": "n4ze3m",
    "size": "3m",
@@ -411,7 +451,7 @@
    "at": "2026-11-14T15:46:27.000Z",
    "dl": 3042,
    "grow": 254,
-   "score": 85,
+   "score": 87,
    "cat": "LLMs",
    "likes": 223
   },
@@ -422,9 +462,20 @@
    "at": "2026-11-08T20:37:23.000Z",
    "dl": 2660341,
    "grow": 16,
+   "score": 85,
+   "cat": "Vision",
+   "likes": 515
+  },
+  {
+   "name": "flux-3-image-klein-comfy",
+   "org": "black-forest-labs",
+   "lic": "Open weights",
+   "at": "2026-10-14T12:00:13.000Z",
+   "dl": 1062051,
+   "grow": -5,
    "score": 84,
    "cat": "Vision",
-   "likes": 514
+   "likes": 3398
   }
  ],
  "free": [
@@ -739,6 +790,27 @@
  },
  "headlines": [
   {
+   "t": "Microsoft unveils six AI models spanning coding, cybersecurity, images, and voice, saying MAI Code 2 has 98% of GPT-6.1 Sol's performance at 40% of the price",
+   "url": "https://www.techmeme.com/261117/p45#a261117p45",
+   "at": "2026-11-17T18:25:02.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "GPT-6.2 Astra costs $8/1M input and $40/1M output tokens, down 20% from GPT-6 Astra; GPT-6.2 Sol keeps GPT-6.1 Sol's $2/1M input and $10/1M output token pricing",
+   "url": "https://www.techmeme.com/261117/p44#a261117p44",
+   "at": "2026-11-17T18:15:03.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "OpenAI debuts GPT-6.2 Astra and Sol in ChatGPT Work, Codex, and API, saying Astra sets records on work and science evals at under a third of GPT-6 Astra's cost",
+   "url": "https://www.techmeme.com/261117/p43#a261117p43",
+   "at": "2026-11-17T18:00:57.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Jensen Huang to testify before Congress on ‘potential breach of national security’",
    "url": "https://www.theguardian.com/technology/2026/nov/17/jensen-huang-testify-congress-nvidia-affair-spy",
    "at": "2026-11-17T17:58:05Z",
@@ -751,6 +823,13 @@
    "at": "2026-11-17T17:50:02.000Z",
    "src": "Techmeme",
    "kind": "News"
+  },
+  {
+   "t": "Introducing GPT-6.2 Astra and Sol",
+   "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+   "at": "2026-11-17T17:45:00.000Z",
+   "src": "OpenAI",
+   "kind": "Lab blog"
   },
   {
    "t": "Jensen Huang says he would be ‘honored’ to return to Nvidia as CEO ",
@@ -795,13 +874,6 @@
    "kind": "News"
   },
   {
-   "t": "Sources: Anthropic is guiding prospective IPO investors that it expects to price its shares at or above the high end of its $70 to $78 marketed range",
-   "url": "https://www.techmeme.com/261117/p28#a261117p28",
-   "at": "2026-11-17T14:40:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents",
    "url": "https://blogs.nvidia.com/blog/ian-buck-sc26/",
    "at": "2026-11-17T14:00:10.000Z",
@@ -816,38 +888,17 @@
    "kind": "News"
   },
   {
+   "t": "GPT-6.2 Astra Is INSANE! Gemini 4 Neon, OpenAI AGI CONFIRMED?!, Claude Code UPGRADES & MORE! AI NEWS",
+   "url": "https://www.youtube.com/watch?v=WRdgKyOTPXA",
+   "at": "2026-11-17T09:16:12Z",
+   "src": "WorldofAI",
+   "kind": "Video"
+  },
+  {
    "t": "Actors in UK to get more rights over their ‘digital replicas’ in deal on AI protections",
    "url": "https://www.theguardian.com/technology/2026/nov/17/actors-uk-rights-digital-replicas-ai-protections",
    "at": "2026-11-17T09:00:08Z",
    "src": "The Guardian",
-   "kind": "News"
-  },
-  {
-   "t": "Millionaire factory: Anthropic IPO set to fuel AI gold rush in London’s high-end property market",
-   "url": "https://www.theguardian.com/business/2026/nov/17/millionaire-factory-anthropic-ipo-set-to-fuel-ai-gold-rush-in-londons-high-end-property-market",
-   "at": "2026-11-17T07:00:07Z",
-   "src": "The Guardian",
-   "kind": "News"
-  },
-  {
-   "t": "Automated warfare is already here. Now governments must restrain it | Helen Clark",
-   "url": "https://www.theguardian.com/commentisfree/2026/nov/17/automated-warfare-here-governments-restrain-ai-militaries-treaty",
-   "at": "2026-11-17T07:00:07Z",
-   "src": "The Guardian",
-   "kind": "News"
-  },
-  {
-   "t": "California sues OpenAI, seeking court-ordered changes after the Hugging Face hack",
-   "url": "https://www.thestar.com.my/tech/tech-news/2026/11/17/california-sues-openai-seeking-court-ordered-changes-after-the-hugging-face-hack",
-   "at": "2026-11-17T06:00:00Z",
-   "src": "The Star",
-   "kind": "News"
-  },
-  {
-   "t": "Nvidia issue won’t derail Malaysia’s semiconductor and AI push, says economy minister",
-   "url": "https://www.malaymail.com/news/malaysia/2026/11/17/nvidia-issue-wont-derail-malaysias-semiconductor-and-ai-push-says-economy-minister/243590",
-   "at": "2026-11-17T05:55:30Z",
-   "src": "Malay Mail",
    "kind": "News"
   }
  ],
@@ -857,35 +908,35 @@
    "t": "GPT‑6.2 Astra and Sol",
    "url": "https://news.ycombinator.com/item?id=50535230",
    "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
-   "up": 144,
-   "com": 36,
+   "up": 347,
+   "com": 165,
    "at": "2026-11-17T17:46:43.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Baidu, Xiaomi CEOs warn of growing gap between AI hype and returns",
-   "url": "https://news.ycombinator.com/item?id=50531751",
-   "link": "https://www.scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns",
-   "up": 159,
-   "com": 206,
-   "at": "2026-11-17T14:19:59.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Optimizely hack infected CNN, Fox News, BBC, Salesforce sites with malware",
    "url": "https://news.ycombinator.com/item?id=50534664",
    "link": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/",
-   "up": 31,
-   "com": 4,
+   "up": 69,
+   "com": 9,
    "at": "2026-11-17T17:13:57.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Baidu, Xiaomi CEOs warn of growing gap between AI hype and returns",
+   "url": "https://news.ycombinator.com/item?id=50531751",
+   "link": "https://www.scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns",
+   "up": 169,
+   "com": 206,
+   "at": "2026-11-17T14:19:59.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Optimizely compromised, served malware on Zoom, GitLab",
    "url": "https://news.ycombinator.com/item?id=50524767",
    "link": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
-   "up": 588,
-   "com": 237,
+   "up": 606,
+   "com": 242,
    "at": "2026-11-16T23:00:34.000Z"
   },
   {
@@ -893,8 +944,8 @@
    "t": "How the Claude Code team thinks about verification",
    "url": "https://news.ycombinator.com/item?id=50529612",
    "link": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
-   "up": 169,
-   "com": 151,
+   "up": 180,
+   "com": 153,
    "at": "2026-11-17T10:20:40.000Z"
   },
   {
@@ -902,8 +953,8 @@
    "t": "My Empire of Dirt",
    "url": "https://news.ycombinator.com/item?id=50530114",
    "link": "https://geohot.github.io//blog/jekyll/update/2026/11/17/my-empire-of-dirt.html",
-   "up": 104,
-   "com": 122,
+   "up": 105,
+   "com": 126,
    "at": "2026-11-17T11:39:20.000Z"
   }
  ]
