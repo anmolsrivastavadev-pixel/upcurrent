@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-17T02:30:52.986Z"
+  "updated": "2026-11-17T03:01:06.264Z"
  },
  "pulse": {
-  "trending": 68,
+  "trending": 69,
   "accelerating": 1,
   "newModels": 4,
-  "discussions": 42,
-  "stars": 1008
+  "discussions": 40,
+  "stars": 1004
  },
  "rising": [
   {
@@ -24,9 +24,9 @@
    "grow": null,
    "desc": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
    "meta": [
-    "★ 2,231",
+    "★ 2,240",
     "~496 in 24h",
-    "Created 4 days ago"
+    "Created 5 days ago"
    ],
    "at": "2026-11-12T14:32:15Z",
    "breakout": null,
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "Tools",
    "score": 91,
-   "grow": 17,
+   "grow": 18,
    "desc": "muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现）",
    "meta": [
-    "★ 1,461",
-    "+301 in 24h",
+    "★ 1,467",
+    "+300 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-14T01:24:58Z",
@@ -56,7 +56,7 @@
    "cat": "Infrastructure",
    "score": 90,
    "grow": 9,
-   "desc": "Model on Hugging Face · open source · ♥ 8.9K",
+   "desc": "Model on Hugging Face · open source · ♥ 9K",
    "meta": [
     "30K downloads",
     "Released 18 days ago"
@@ -88,7 +88,7 @@
    "cat": "Vision",
    "score": 87,
    "grow": 16,
-   "desc": "Vision on Hugging Face · open weights · ♥ 492",
+   "desc": "Vision on Hugging Face · open weights · ♥ 494",
    "meta": [
     "2.3M downloads",
     "Released 8 days ago"
@@ -104,7 +104,7 @@
    "cat": "Tools",
    "score": 87,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 433",
+   "desc": "Model on Hugging Face · open source · ♥ 436",
    "meta": [
     "3.4K downloads",
     "Released 5 days ago"
@@ -118,9 +118,9 @@
    "owner": "Zyphra",
    "src": "hf",
    "cat": "LLMs",
-   "score": 85,
+   "score": 86,
    "grow": 75,
-   "desc": "Model on Hugging Face · open source · ♥ 474",
+   "desc": "Model on Hugging Face · open source · ♥ 476",
    "meta": [
     "70K downloads",
     "Released 8 days ago"
@@ -171,8 +171,8 @@
    "grow": 9,
    "desc": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux.",
    "meta": [
-    "★ 1,884",
-    "+211 in 24h",
+    "★ 1,886",
+    "+208 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-11-10T20:01:01Z",
@@ -182,6 +182,28 @@
  ],
  "breakouts": [],
  "hype": [
+  {
+   "name": "Gemini 4",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "DEV",
+     "t": "High or Low Thinking? Gemini 4 and Gemma 4 on Hard Math, Cost First",
+     "url": "https://dev.to/gde/high-or-low-thinking-gemini-4-and-gemma-4-on-hard-math-cost-first-3091"
+    },
+    {
+     "src": "YouTube",
+     "t": "Gemini 4 Krypton BEATS FABLE 5.2!?, GPT-6.2 Preview, GLM-5.5 LEAKED & Claude Code UPDATE! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=iXvttGCoc1g"
+    }
+   ],
+   "buzz": 2,
+   "verdict": "Talk only, no public usage numbers"
+  },
   {
    "name": "blender-ai-mcp-addon",
    "url": "https://github.com/hitkeeen/blender-ai-mcp-addon",
@@ -210,7 +232,7 @@
    "from": "Hugging Face",
    "use": 2294065,
    "useLabel": "2.3M downloads",
-   "usePct": 0.9583333333333334,
+   "usePct": 0.96,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -301,7 +323,7 @@
  "github": [
   {
    "repo": "hitkeeen/blender-ai-mcp-addon",
-   "stars": 2231,
+   "stars": 2240,
    "d24": 496,
    "est": true,
    "forks": 54,
@@ -310,17 +332,17 @@
   },
   {
    "repo": "duwqijlk/muse-protocol",
-   "stars": 1461,
-   "d24": 301,
+   "stars": 1467,
+   "d24": 300,
    "est": false,
-   "forks": 575,
+   "forks": 577,
    "contrib": null,
    "score": 91
   },
   {
    "repo": "FrigadeHQ/yogurt",
-   "stars": 1884,
-   "d24": 211,
+   "stars": 1886,
+   "d24": 208,
    "est": false,
    "forks": 117,
    "contrib": null,
@@ -338,7 +360,7 @@
    "grow": 9,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 8902
+   "likes": 8955
   },
   {
    "name": "MiniMax-H3-Image",
@@ -349,7 +371,7 @@
    "grow": 7,
    "score": 88,
    "cat": "Vision",
-   "likes": 1324
+   "likes": 1326
   },
   {
    "name": "MiniMax-H3-Image",
@@ -360,7 +382,7 @@
    "grow": 16,
    "score": 87,
    "cat": "Vision",
-   "likes": 492
+   "likes": 494
   },
   {
    "name": "Haru-4B",
@@ -372,7 +394,7 @@
    "grow": null,
    "score": 87,
    "cat": "Tools",
-   "likes": 433
+   "likes": 436
   },
   {
    "name": "ZONOS3-Mini",
@@ -381,9 +403,9 @@
    "at": "2026-11-09T05:03:57.000Z",
    "dl": 69946,
    "grow": 75,
-   "score": 85,
+   "score": 86,
    "cat": "LLMs",
-   "likes": 474
+   "likes": 476
   },
   {
    "name": "Inkling-2-Small",
@@ -699,6 +721,13 @@
   "since": "2026-10-01T17:48:04.617Z",
   "events": [
    {
+    "type": "removed",
+    "name": "MiniMax M3.1 Flash Free",
+    "prov": "OpenCode Zen",
+    "url": null,
+    "at": "2026-11-17T03:01:06.264Z"
+   },
+   {
     "type": "added",
     "name": "Hy4 flash Free",
     "prov": "OpenCode Zen",
@@ -708,6 +737,13 @@
   ]
  },
  "headlines": [
+  {
+   "t": "macOS 27.3 beta warns if an app would get full device control, nudging users to \"Choose Apps\" for the app to control instead, brought on by AI apps' popularity",
+   "url": "https://www.techmeme.com/261116/p49#a261116p49",
+   "at": "2026-11-17T02:31:00.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
   {
    "t": "NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab",
    "url": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/",
@@ -812,41 +848,34 @@
    "at": "2026-11-16T17:00:00Z",
    "src": "BBC News",
    "kind": "Video"
-  },
-  {
-   "t": "Noeri, which is developing AI software to review and suggest improvements for its clients' AI models, coding tools, and more, raised $110M led by Menlo Ventures",
-   "url": "https://www.techmeme.com/261116/p35#a261116p35",
-   "at": "2026-11-16T16:55:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
   }
  ],
  "discussions": [
   {
    "src": "Hacker News",
-   "t": "United Airlines experiencing a widespread system outage, airline says",
-   "url": "https://news.ycombinator.com/item?id=50524165",
-   "link": "https://www.cnn.com/2026/11/16/us/united-airlines-outage",
-   "up": 179,
-   "com": 95,
-   "at": "2026-11-16T22:14:38.000Z"
-  },
-  {
-   "src": "Hacker News",
    "t": "How to make almost anything",
    "url": "https://news.ycombinator.com/item?id=50514470",
    "link": "https://pub.cba.mit.edu/863.26/site/",
-   "up": 840,
+   "up": 844,
    "com": 143,
    "at": "2026-11-16T05:50:37.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "United Airlines experiencing a widespread system outage, airline says",
+   "url": "https://news.ycombinator.com/item?id=50524165",
+   "link": "https://www.cnn.com/2026/11/16/us/united-airlines-outage",
+   "up": 183,
+   "com": 98,
+   "at": "2026-11-16T22:14:38.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Optimizely Compromised, Served Malware on Zoom, GitLab",
    "url": "https://news.ycombinator.com/item?id=50524767",
    "link": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
-   "up": 128,
-   "com": 68,
+   "up": 138,
+   "com": 75,
    "at": "2026-11-16T23:00:34.000Z"
   },
   {
@@ -863,7 +892,7 @@
    "t": "OpenCode Browse",
    "url": "https://news.ycombinator.com/item?id=50523459",
    "link": "https://opencode.ai/product/browse",
-   "up": 130,
+   "up": 138,
    "com": 62,
    "at": "2026-11-16T21:20:37.000Z"
   },
@@ -872,7 +901,7 @@
    "t": "How to Break into Security, Ptacek Edition (2012)",
    "url": "https://news.ycombinator.com/item?id=50524225",
    "link": "https://krebsonsecurity.com/2012/06/how-to-break-into-security-ptacek-edition/",
-   "up": 81,
+   "up": 85,
    "com": 20,
    "at": "2026-11-16T22:19:23.000Z"
   }
