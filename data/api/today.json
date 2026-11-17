@@ -5,16 +5,33 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-17T14:30:59.643Z"
+  "updated": "2026-11-17T15:01:13.653Z"
  },
  "pulse": {
-  "trending": 74,
+  "trending": 73,
   "accelerating": 1,
   "newModels": 10,
-  "discussions": 44,
-  "stars": 1389
+  "discussions": 45,
+  "stars": 1015
  },
  "rising": [
+  {
+   "name": "muse-protocol",
+   "owner": "duwqijlk",
+   "src": "gh",
+   "cat": "Tools",
+   "score": 91,
+   "grow": 4,
+   "desc": "muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现）",
+   "meta": [
+    "★ 1,562",
+    "+171 in 24h",
+    "Created 4 days ago"
+   ],
+   "at": "2026-11-14T01:24:58Z",
+   "breakout": null,
+   "url": "https://github.com/duwqijlk/muse-protocol"
+  },
   {
    "name": "Haru-4B",
    "owner": "higurashi-ai",
@@ -22,7 +39,7 @@
    "cat": "Tools",
    "score": 91,
    "grow": 32,
-   "desc": "Model on Hugging Face · open source · ♥ 471",
+   "desc": "Model on Hugging Face · open source · ♥ 472",
    "meta": [
     "4.4K downloads",
     "Released 5 days ago"
@@ -30,40 +47,6 @@
    "at": "2026-11-12T11:05:59.000Z",
    "breakout": null,
    "url": "https://huggingface.co/higurashi-ai/Haru-4B"
-  },
-  {
-   "name": "blender-ai-mcp-addon",
-   "owner": "hitkeeen",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 90,
-   "grow": 12,
-   "desc": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
-   "meta": [
-    "★ 2,390",
-    "+357 in 24h",
-    "Created 5 days ago"
-   ],
-   "at": "2026-11-12T14:32:15Z",
-   "breakout": null,
-   "url": "https://github.com/hitkeeen/blender-ai-mcp-addon"
-  },
-  {
-   "name": "muse-protocol",
-   "owner": "duwqijlk",
-   "src": "gh",
-   "cat": "Tools",
-   "score": 90,
-   "grow": 4,
-   "desc": "muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现）",
-   "meta": [
-    "★ 1,561",
-    "+178 in 24h",
-    "Created 4 days ago"
-   ],
-   "at": "2026-11-14T01:24:58Z",
-   "breakout": null,
-   "url": "https://github.com/duwqijlk/muse-protocol"
   },
   {
    "name": "MiniMax-H3-Image",
@@ -88,7 +71,7 @@
    "cat": "Vision",
    "score": 89,
    "grow": 16,
-   "desc": "Vision on Hugging Face · open weights · ♥ 512",
+   "desc": "Vision on Hugging Face · open weights · ♥ 513",
    "meta": [
     "2.7M downloads",
     "Released 9 days ago"
@@ -114,6 +97,22 @@
    "url": "https://huggingface.co/thinkingmachines/Inkling-2-Small"
   },
   {
+   "name": "tiny-voca",
+   "owner": "n4ze3m",
+   "src": "hf",
+   "cat": "LLMs",
+   "score": 85,
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 216",
+   "meta": [
+    "3K downloads",
+    "Released 3 days ago"
+   ],
+   "at": "2026-11-14T15:46:27.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/n4ze3m/tiny-voca"
+  },
+  {
    "name": "Sage S2.1 Flash Technical Report",
    "owner": "Paper",
    "src": "paper",
@@ -123,7 +122,7 @@
    "grow": null,
    "desc": "We introduce Sage S1.5 Flash, a 320-billion-parameter general-purpose mixture-of-experts model designed to reason over scientific evidence and act in interactive environments.",
    "meta": [
-    "▲ 68 upvotes",
+    "▲ 71 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-11-15T19:00:00.000Z",
@@ -153,7 +152,7 @@
    "cat": "LLMs",
    "score": 84,
    "grow": 34,
-   "desc": "Model on Hugging Face · open source · ♥ 501",
+   "desc": "Model on Hugging Face · open source · ♥ 504",
    "meta": [
     "94K downloads",
     "Released 8 days ago"
@@ -163,20 +162,21 @@
    "url": "https://huggingface.co/Zyphra/ZONOS3-Mini"
   },
   {
-   "name": "tiny-voca",
-   "owner": "n4ze3m",
-   "src": "hf",
-   "cat": "LLMs",
+   "name": "lastbook",
+   "owner": "Immortal-Protocols",
+   "src": "gh",
+   "cat": "Vision",
    "score": 83,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 213",
+   "desc": "Offline knowledge AI, maps and videos for survival and rebuilding",
    "meta": [
-    "3K downloads",
-    "Released 3 days ago"
+    "★ 1,265",
+    "~273 in 24h",
+    "Created 5 days ago"
    ],
-   "at": "2026-11-14T15:46:27.000Z",
+   "at": "2026-11-12T23:49:03Z",
    "breakout": null,
-   "url": "https://huggingface.co/n4ze3m/tiny-voca"
+   "url": "https://github.com/Immortal-Protocols/lastbook"
   }
  ],
  "breakouts": [],
@@ -207,8 +207,8 @@
    "name": "freebie-radar",
    "url": "https://github.com/ZiChuanLan/freebie-radar",
    "from": "GitHub",
-   "use": 427,
-   "useLabel": "+427 stars/day",
+   "use": 408,
+   "useLabel": "+408 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -322,48 +322,39 @@
  "github": [
   {
    "repo": "ZiChuanLan/freebie-radar",
-   "stars": 1375,
-   "d24": 427,
+   "stars": 1376,
+   "d24": 408,
    "est": false,
    "forks": 237,
-   "contrib": null,
-   "score": 81
-  },
-  {
-   "repo": "hitkeeen/blender-ai-mcp-addon",
-   "stars": 2390,
-   "d24": 357,
-   "est": false,
-   "forks": 59,
-   "contrib": null,
-   "score": 90
-  },
-  {
-   "repo": "Immortal-Protocols/lastbook",
-   "stars": 1234,
-   "d24": 268,
-   "est": true,
-   "forks": 151,
    "contrib": null,
    "score": 82
   },
   {
-   "repo": "duwqijlk/muse-protocol",
-   "stars": 1561,
-   "d24": 178,
-   "est": false,
-   "forks": 617,
+   "repo": "Immortal-Protocols/lastbook",
+   "stars": 1265,
+   "d24": 273,
+   "est": true,
+   "forks": 151,
    "contrib": null,
-   "score": 90
+   "score": 83
+  },
+  {
+   "repo": "duwqijlk/muse-protocol",
+   "stars": 1562,
+   "d24": 171,
+   "est": false,
+   "forks": 618,
+   "contrib": null,
+   "score": 91
   },
   {
    "repo": "FrigadeHQ/yogurt",
-   "stars": 1961,
-   "d24": 159,
+   "stars": 1966,
+   "d24": 163,
    "est": false,
    "forks": 122,
    "contrib": null,
-   "score": 81
+   "score": 82
   }
  ],
  "models": [
@@ -377,7 +368,7 @@
    "grow": 32,
    "score": 91,
    "cat": "Tools",
-   "likes": 471
+   "likes": 472
   },
   {
    "name": "MiniMax-H3-Image",
@@ -388,7 +379,7 @@
    "grow": 19,
    "score": 90,
    "cat": "Vision",
-   "likes": 1379
+   "likes": 1383
   },
   {
    "name": "MiniMax-H3-Image",
@@ -399,7 +390,7 @@
    "grow": 16,
    "score": 89,
    "cat": "Vision",
-   "likes": 512
+   "likes": 513
   },
   {
    "name": "Inkling-2-Small",
@@ -413,6 +404,18 @@
    "likes": 433
   },
   {
+   "name": "tiny-voca",
+   "org": "n4ze3m",
+   "size": "3m",
+   "lic": "Open source",
+   "at": "2026-11-14T15:46:27.000Z",
+   "dl": 3042,
+   "grow": null,
+   "score": 85,
+   "cat": "LLMs",
+   "likes": 216
+  },
+  {
    "name": "ZONOS3-Mini",
    "org": "Zyphra",
    "lic": "Open source",
@@ -421,19 +424,7 @@
    "grow": 34,
    "score": 84,
    "cat": "LLMs",
-   "likes": 501
-  },
-  {
-   "name": "tiny-voca",
-   "org": "n4ze3m",
-   "size": "3m",
-   "lic": "Open source",
-   "at": "2026-11-14T15:46:27.000Z",
-   "dl": 3042,
-   "grow": null,
-   "score": 83,
-   "cat": "LLMs",
-   "likes": 213
+   "likes": 504
   }
  ],
  "free": [
@@ -748,6 +739,20 @@
  },
  "headlines": [
   {
+   "t": "Jensen Huang’s departure as Nvidia CEO becomes a political proxy war",
+   "url": "https://www.theguardian.com/global/2026/nov/16/jensen-huang-nvidia-ceo-china",
+   "at": "2026-11-17T14:50:24Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "Sources: Anthropic is guiding prospective IPO investors that it expects to price its shares at or above the high end of its $70 to $78 marketed range",
+   "url": "https://www.techmeme.com/261117/p28#a261117p28",
+   "at": "2026-11-17T14:40:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Paris-based Genesis AI, which is building a general-purpose robot with greater dexterity for warehouses and homes, raised a $500M Series A at a $3.5B valuation",
    "url": "https://www.techmeme.com/261117/p27#a261117p27",
    "at": "2026-11-17T14:15:01.000Z",
@@ -797,18 +802,11 @@
    "kind": "News"
   },
   {
-   "t": "Model ML, which builds AI agents integrated in Excel and PowerPoint to automate pitch decks, research, and due diligence, raised $250M at a $1.5B valuation",
+   "t": "Model ML, which builds AI agents integrated in Excel or PowerPoint to automate pitch deck, research, and due diligence tasks, raised $250M at a $1.5B valuation",
    "url": "https://www.techmeme.com/261117/p15#a261117p15",
    "at": "2026-11-17T11:30:00.000Z",
    "src": "Techmeme",
    "kind": "News"
-  },
-  {
-   "t": "GPT-6.2 Astra Is INSANE! Gemini 4 Neon, OpenAI AGI CONFIRMED?!, Claude Code UPGRADES & MORE! AI NEWS",
-   "url": "https://www.youtube.com/watch?v=WRdgKyOTPXA",
-   "at": "2026-11-17T09:16:12Z",
-   "src": "WorldofAI",
-   "kind": "Video"
   },
   {
    "t": "Actors in UK to get more rights over their ‘digital replicas’ in deal on AI protections",
@@ -832,31 +830,24 @@
    "kind": "News"
   },
   {
-   "t": "Dollar Erases Liberation Day Loss as ‘Sell America’ Fear Fades",
-   "url": "https://www.livemint.com/market/dollar-erases-liberation-day-loss-as-sell-america-fear-fades-11794882621677.html",
-   "at": "2026-11-17T02:30:21Z",
-   "src": "Livemint",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI's Sam Altman acknowledges public anger over data centers",
-   "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openais-altman-acknowledges-public-anger-over-data-centers/articleshow/135907767.cms",
-   "at": "2026-11-17T02:29:58Z",
+   "t": "Singapore seeks 'trusted access' to AI chips after new US curbs",
+   "url": "https://economictimes.indiatimes.com/tech/technology/singapore-seeks-trusted-access-to-ai-chips-after-new-us-curbs/articleshow/135908229.cms",
+   "at": "2026-11-17T02:59:06Z",
    "src": "The Economic Times",
    "kind": "News"
   },
   {
-   "t": "ChatGPT users could face temporary suspensions for prompts sexualising children",
-   "url": "https://www.firstpost.com/tech/chatgpt-users-could-face-temporary-suspensions-for-prompts-sexualising-children-14060451.html",
-   "at": "2026-11-17T02:28:13Z",
-   "src": "Firstpost",
+   "t": "What issues do leaders face at the APEC summit?",
+   "url": "https://www.bangkokpost.com/world/3356220/what-issues-do-leaders-face-at-the-apec-summit",
+   "at": "2026-11-17T02:45:00Z",
+   "src": "Bangkok Post",
    "kind": "News"
   },
   {
-   "t": "98 per cent of scientists expect AI to accelerate scientific discoveries, OpenAI study finds",
-   "url": "https://www.aninews.in/news/business/98-per-cent-of-scientists-expect-ai-to-accelerate-scientific-discoveries-openai-study-finds20261117075204/",
-   "at": "2026-11-17T02:22:04Z",
-   "src": "ANI (Asian News International)",
+   "t": "California sues OpenAI over AI models' cyberattacks on Hugging Face, other companies",
+   "url": "https://www.rappler.com/technology/california-sues-openai-cyberattacks-hugging-face-other-companies/",
+   "at": "2026-11-17T02:40:29Z",
+   "src": "Rappler",
    "kind": "News"
   }
  ],
@@ -866,34 +857,44 @@
    "t": "Optimizely compromised, served malware on Zoom, GitLab",
    "url": "https://news.ycombinator.com/item?id=50524767",
    "link": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
-   "up": 480,
-   "com": 195,
+   "up": 495,
+   "com": 200,
    "at": "2026-11-16T23:00:34.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Baidu, Xiaomi CEOs warn of growing gap between AI hype and returns",
+   "url": "https://news.ycombinator.com/item?id=50531751",
+   "link": "https://www.scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns",
+   "up": 29,
+   "com": 7,
+   "at": "2026-11-17T14:19:59.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "S. Korea to send nationwide emergency alerts over college entrance exam cheating",
+   "url": "https://news.ycombinator.com/item?id=50531484",
+   "link": "https://apnews.com/article/south-korea-exam-cheating-ai-college-e25b5612dbf4bd09fdf9197254c4547e",
+   "up": 28,
+   "com": 25,
+   "at": "2026-11-17T14:00:47.000Z"
   },
   {
    "src": "Hacker News",
    "t": "My Empire of Dirt",
    "url": "https://news.ycombinator.com/item?id=50530114",
    "link": "https://geohot.github.io//blog/jekyll/update/2026/11/17/my-empire-of-dirt.html",
-   "up": 83,
-   "com": 78,
+   "up": 93,
+   "com": 104,
    "at": "2026-11-17T11:39:20.000Z"
-  },
-  {
-   "src": "DEV",
-   "t": "Stratagem #35: Lena Made the Promises Interlock. The AI Still Can't See ACL's Full Reach.",
-   "url": "https://dev.to/xulingfeng/stratagem-35-lena-made-the-promises-interlock-the-ai-still-cant-see-acls-full-reach-41i5",
-   "up": 52,
-   "com": 20,
-   "at": "2026-11-17T12:01:34Z"
   },
   {
    "src": "Hacker News",
    "t": "How the Claude Code team thinks about verification",
    "url": "https://news.ycombinator.com/item?id=50529612",
    "link": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
-   "up": 85,
-   "com": 102,
+   "up": 100,
+   "com": 109,
    "at": "2026-11-17T10:20:40.000Z"
   },
   {
@@ -901,18 +902,9 @@
    "t": "OpenCode Browse",
    "url": "https://news.ycombinator.com/item?id=50523459",
    "link": "https://opencode.ai/product/browse",
-   "up": 309,
-   "com": 188,
+   "up": 311,
+   "com": 193,
    "at": "2026-11-16T21:20:37.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "United Airlines experiencing a widespread system outage, airline says",
-   "url": "https://news.ycombinator.com/item?id=50524165",
-   "link": "https://www.cnn.com/2026/11/16/us/united-airlines-outage",
-   "up": 243,
-   "com": 125,
-   "at": "2026-11-16T22:14:38.000Z"
   }
  ]
 }
