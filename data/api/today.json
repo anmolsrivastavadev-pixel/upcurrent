@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-17T11:01:11.707Z"
+  "updated": "2026-11-17T11:30:57.312Z"
  },
  "pulse": {
-  "trending": 71,
-  "accelerating": 0,
+  "trending": 72,
+  "accelerating": 1,
   "newModels": 7,
-  "discussions": 38,
-  "stars": 1428
+  "discussions": 39,
+  "stars": 1512
  },
  "rising": [
   {
@@ -24,7 +24,7 @@
    "grow": 11,
    "desc": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
    "meta": [
-    "★ 2,373",
+    "★ 2,382",
     "+420 in 24h",
     "Created 5 days ago"
    ],
@@ -41,8 +41,8 @@
    "grow": null,
    "desc": "muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现）",
    "meta": [
-    "★ 1,545",
-    "~454 in 24h",
+    "★ 1,546",
+    "~452 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-14T01:24:58Z",
@@ -55,10 +55,10 @@
    "src": "hf",
    "cat": "Vision",
    "score": 90,
-   "grow": null,
+   "grow": 19,
    "desc": "Vision on Hugging Face · open weights · ♥ 1.4K",
    "meta": [
-    "609K downloads",
+    "727K downloads",
     "Released 14 days ago"
    ],
    "at": "2026-11-03T06:34:36.000Z",
@@ -71,10 +71,10 @@
    "src": "hf",
    "cat": "Tools",
    "score": 89,
-   "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 461",
+   "grow": 32,
+   "desc": "Model on Hugging Face · open source · ♥ 462",
    "meta": [
-    "3.4K downloads",
+    "4.4K downloads",
     "Released 5 days ago"
    ],
    "at": "2026-11-12T11:05:59.000Z",
@@ -87,10 +87,10 @@
    "src": "hf",
    "cat": "Infrastructure",
    "score": 88,
-   "grow": null,
+   "grow": 9,
    "desc": "Model on Hugging Face · open source · ♥ 9.4K",
    "meta": [
-    "30K downloads",
+    "32K downloads",
     "Released 18 days ago"
    ],
    "at": "2026-10-30T10:21:29.000Z",
@@ -103,10 +103,10 @@
    "src": "hf",
    "cat": "Vision",
    "score": 87,
-   "grow": null,
+   "grow": 16,
    "desc": "Vision on Hugging Face · open weights · ♥ 506",
    "meta": [
-    "2.3M downloads",
+    "2.7M downloads",
     "Released 9 days ago"
    ],
    "at": "2026-11-08T20:37:23.000Z",
@@ -114,19 +114,19 @@
    "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image"
   },
   {
-   "name": "AllocFlow: End-to-End Portfolio Trading Action Generation from Raw Market Data",
+   "name": "K2-Horizon: A Frontier Fleet of Open Source Language Models",
    "owner": "Paper",
    "src": "paper",
-   "url": "https://huggingface.co/papers/2611.19937",
+   "url": "https://huggingface.co/papers/2611.21003",
    "cat": "Research",
    "score": 85,
    "grow": null,
-   "desc": "Real-world portfolio management requires converting noisy market observations into coordinated, simultaneous allocations across multiple assets under shared capital constraints.",
+   "desc": "We present K2-Horizon, a fleet of six fully open language models, from a 0.9B dense model to a 375B-A23B MoE, built for general-purpose reasoning and agentic work across math and science, software engineering, deep research, office automation, and beyond.",
    "meta": [
-    "▲ 48 upvotes",
+    "▲ 50 upvotes",
     "Hugging Face Papers"
    ],
-   "at": "2026-11-14T19:00:00.000Z",
+   "at": "2026-11-15T19:00:00.000Z",
    "breakout": null
   },
   {
@@ -152,10 +152,10 @@
    "src": "hf",
    "cat": "Vision",
    "score": 83,
-   "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 431",
+   "grow": 9,
+   "desc": "Vision on Hugging Face · open source · ♥ 432",
    "meta": [
-    "17K downloads",
+    "18K downloads",
     "Released 13 days ago"
    ],
    "at": "2026-11-04T19:51:05.000Z",
@@ -163,47 +163,23 @@
    "url": "https://huggingface.co/thinkingmachines/Inkling-2-Small"
   },
   {
-   "name": "K2-Horizon: A Frontier Fleet of Open Source Language Models",
+   "name": "AllocFlow: End-to-End Portfolio Trading Action Generation from Raw Market Data",
    "owner": "Paper",
    "src": "paper",
-   "url": "https://huggingface.co/papers/2611.21003",
+   "url": "https://huggingface.co/papers/2611.19937",
    "cat": "Research",
    "score": 83,
    "grow": null,
-   "desc": "We present K2-Horizon, a fleet of six fully open language models, from a 0.9B dense model to a 375B-A23B MoE, built for general-purpose reasoning and agentic work across math and science, software engineering, deep research, office automation, and beyond.",
+   "desc": "Real-world portfolio management requires converting noisy market observations into coordinated, simultaneous allocations across multiple assets under shared capital constraints.",
    "meta": [
-    "▲ 46 upvotes",
+    "▲ 49 upvotes",
     "Hugging Face Papers"
    ],
-   "at": "2026-11-15T19:00:00.000Z",
+   "at": "2026-11-14T19:00:00.000Z",
    "breakout": null
   }
  ],
- "breakouts": [
-  {
-   "key": "chatgpt wallet",
-   "label": "ChatGPT Wallet",
-   "n": 3,
-   "sources": [
-    {
-     "src": "Product Hunt",
-     "t": "ChatGPT Wallet",
-     "url": "https://www.producthunt.com/products/chatgpt?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
-    },
-    {
-     "src": "Hacker News",
-     "t": "ChatGPT Wallet",
-     "url": "https://news.ycombinator.com/item?id=50518501"
-    },
-    {
-     "src": "Natural News",
-     "t": "OpenAI Launches ChatGPT Wallet for AI Agent Payments With Visa, Mastercard, Amex",
-     "url": "https://www.naturalnews.com/2026-11-16-openai-launches-chatgpt-wallet-ai-agent-payments.html"
-    }
-   ],
-   "since": "2026-11-16T08:30:55.941Z"
-  }
- ],
+ "breakouts": [],
  "hype": [
   {
    "name": "Gemini 4",
@@ -228,11 +204,11 @@
    "verdict": "Talk only, no public usage numbers"
   },
   {
-   "name": "muse-protocol",
-   "url": "https://github.com/duwqijlk/muse-protocol",
+   "name": "freebie-radar",
+   "url": "https://github.com/ZiChuanLan/freebie-radar",
    "from": "GitHub",
-   "use": 454,
-   "useLabel": "~454 stars/day",
+   "use": 466,
+   "useLabel": "+466 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -242,7 +218,7 @@
    "name": "Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
    "url": "https://huggingface.co/SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
    "from": "Hugging Face",
-   "use": 4164878,
+   "use": 4212417,
    "useLabel": "4.2M downloads",
    "usePct": 1,
    "talk": [],
@@ -253,15 +229,35 @@
    "name": "MiniMax-H3-Image",
    "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image",
    "from": "Hugging Face",
-   "use": 2294065,
-   "useLabel": "2.3M downloads",
-   "usePct": 0.9615384615384616,
+   "use": 2660341,
+   "useLabel": "2.7M downloads",
+   "usePct": 0.9629629629629629,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
   }
  ],
  "receipts": [
+  {
+   "name": "JuneYaooo/rea-video",
+   "url": "https://github.com/JuneYaooo/rea-video",
+   "kind": "stars",
+   "first": "2026-11-05T05:01:00.795Z",
+   "firstV": 1325,
+   "m": 10000,
+   "at": "2026-11-17T11:30:57.312Z",
+   "lead": 294.4990325
+  },
+  {
+   "name": "NousResearch/Arete-27B",
+   "url": "https://huggingface.co/NousResearch/Arete-27B",
+   "kind": "downloads",
+   "first": "2026-11-07T09:13:21.949Z",
+   "firstV": 0,
+   "m": 10000,
+   "at": "2026-11-17T11:30:57.312Z",
+   "lead": 242.2931563888889
+  },
   {
    "name": "ccch1mneyyy/dsh-Go",
    "url": "https://github.com/ccch1mneyyy/dsh-Go",
@@ -321,33 +317,22 @@
    "m": 2500,
    "at": "2026-11-15T03:30:55.381Z",
    "lead": 411.49614833333334
-  },
-  {
-   "name": "sarpstar/cinecode",
-   "url": "https://github.com/sarpstar/cinecode",
-   "kind": "stars",
-   "first": "2026-11-08T15:00:59.896Z",
-   "firstV": 1386,
-   "m": 2500,
-   "at": "2026-11-15T00:01:04.196Z",
-   "lead": 153.00119444444445
-  },
-  {
-   "name": "caru-ini/stack-diagram",
-   "url": "https://github.com/caru-ini/stack-diagram",
-   "kind": "stars",
-   "first": "2026-11-03T06:00:59.532Z",
-   "firstV": 1288,
-   "m": 2500,
-   "at": "2026-11-14T19:01:07.269Z",
-   "lead": 277.00214916666664
   }
  ],
  "github": [
   {
+   "repo": "ZiChuanLan/freebie-radar",
+   "stars": 1332,
+   "d24": 466,
+   "est": false,
+   "forks": 233,
+   "contrib": null,
+   "score": 82
+  },
+  {
    "repo": "duwqijlk/muse-protocol",
-   "stars": 1545,
-   "d24": 454,
+   "stars": 1546,
+   "d24": 452,
    "est": true,
    "forks": 614,
    "contrib": null,
@@ -355,7 +340,7 @@
   },
   {
    "repo": "hitkeeen/blender-ai-mcp-addon",
-   "stars": 2373,
+   "stars": 2382,
    "d24": 420,
    "est": false,
    "forks": 59,
@@ -364,21 +349,12 @@
   },
   {
    "repo": "FrigadeHQ/yogurt",
-   "stars": 1941,
-   "d24": 293,
-   "est": true,
+   "stars": 1945,
+   "d24": 174,
+   "est": false,
    "forks": 121,
    "contrib": null,
    "score": 81
-  },
-  {
-   "repo": "ZiChuanLan/freebie-radar",
-   "stars": 1323,
-   "d24": 261,
-   "est": true,
-   "forks": 233,
-   "contrib": null,
-   "score": 82
   }
  ],
  "models": [
@@ -387,11 +363,11 @@
    "org": "MiniMaxAI",
    "lic": "Open weights",
    "at": "2026-11-03T06:34:36.000Z",
-   "dl": 609130,
-   "grow": null,
+   "dl": 727110,
+   "grow": 19,
    "score": 90,
    "cat": "Vision",
-   "likes": 1362
+   "likes": 1366
   },
   {
    "name": "Haru-4B",
@@ -399,11 +375,11 @@
    "size": "4B",
    "lic": "Open source",
    "at": "2026-11-12T11:05:59.000Z",
-   "dl": 3372,
-   "grow": 0,
+   "dl": 4445,
+   "grow": 32,
    "score": 89,
    "cat": "Tools",
-   "likes": 461
+   "likes": 462
   },
   {
    "name": "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
@@ -411,19 +387,19 @@
    "size": "9B",
    "lic": "Open source",
    "at": "2026-10-30T10:21:29.000Z",
-   "dl": 29567,
-   "grow": null,
+   "dl": 32356,
+   "grow": 9,
    "score": 88,
    "cat": "Infrastructure",
-   "likes": 9410
+   "likes": 9414
   },
   {
    "name": "MiniMax-H3-Image",
    "org": "Comfy-Org",
    "lic": "Open weights",
    "at": "2026-11-08T20:37:23.000Z",
-   "dl": 2294065,
-   "grow": null,
+   "dl": 2660341,
+   "grow": 16,
    "score": 87,
    "cat": "Vision",
    "likes": 506
@@ -433,22 +409,22 @@
    "org": "thinkingmachines",
    "lic": "Open source",
    "at": "2026-11-04T19:51:05.000Z",
-   "dl": 16918,
-   "grow": null,
+   "dl": 18359,
+   "grow": 9,
    "score": 83,
    "cat": "Vision",
-   "likes": 431
+   "likes": 432
   },
   {
    "name": "ZONOS3-Mini",
    "org": "Zyphra",
    "lic": "Open source",
    "at": "2026-11-09T05:03:57.000Z",
-   "dl": 69946,
-   "grow": null,
+   "dl": 93909,
+   "grow": 34,
    "score": 82,
    "cat": "LLMs",
-   "likes": 498
+   "likes": 499
   }
  ],
  "free": [
@@ -763,6 +739,13 @@
  },
  "headlines": [
   {
+   "t": "Model ML, which builds AI agents integrated in Excel and PowerPoint to automate pitch decks, research, and due diligence, raised $250M at a $1.5B valuation",
+   "url": "https://www.techmeme.com/261117/p15#a261117p15",
+   "at": "2026-11-17T11:30:00.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "A look at Anthropic's data center network plans, dubbed Anthropic Direct, committing $900B+ through 2045; docs show it will lease 875K TPUs for $7.2B per year",
    "url": "https://www.techmeme.com/261117/p11#a261117p11",
    "at": "2026-11-17T10:50:00.000Z",
@@ -847,32 +830,25 @@
    "kind": "News"
   },
   {
-   "t": "Anthropic tells investors Claude Mythos Preview got its AI running on AMD GPUs in ~3 days with \"basically no human intervention\", below the usual 6 to 12 months",
-   "url": "https://www.techmeme.com/261116/p52#a261116p52",
-   "at": "2026-11-17T04:02:44.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Filing: Leopold Aschenbrenner's hedge fund Situational Awareness, after nearly blowing up, loaded back up on AI stocks at the end of Q3; all have since plunged",
-   "url": "https://www.techmeme.com/261116/p51#a261116p51",
-   "at": "2026-11-17T03:35:00.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Sources: Jensen Huang's daughter Madison remains in a senior Nvidia role; before Jensen's exit, she was his de facto chief of staff with considerable authority",
-   "url": "https://www.techmeme.com/261116/p50#a261116p50",
-   "at": "2026-11-17T03:20:00.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Strengthening NATO and allied cyber defenses with AI",
    "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
    "at": "2026-11-17T00:00:00.000Z",
    "src": "OpenAI",
    "kind": "Lab blog"
+  },
+  {
+   "t": "OpenAI introduces stricter ChatGPT interventions to prevent the misuse of AI for child exploitation",
+   "url": "https://www.newsbreak.com/news/5011112336990-openai-introduces-stricter-chatgpt-interventions-to-prevent-the-misuse-of-ai-for-child-exploitation",
+   "at": "2026-11-16T23:27:07Z",
+   "src": "NewsBreak",
+   "kind": "News"
+  },
+  {
+   "t": "California sues OpenAI over AI models’ cyberattacks on Hugging Face, other companies",
+   "url": "https://www.thestar.com.my/tech/tech-news/2026/11/17/california-sues-openai-over-ai-models-cyberattacks-on-hugging-face-other-companies",
+   "at": "2026-11-16T23:27:00Z",
+   "src": "The Star",
+   "kind": "News"
   }
  ],
  "discussions": [
@@ -881,8 +857,8 @@
    "t": "Optimizely compromised, served malware on Zoom, GitLab",
    "url": "https://news.ycombinator.com/item?id=50524767",
    "link": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
-   "up": 371,
-   "com": 156,
+   "up": 386,
+   "com": 163,
    "at": "2026-11-16T23:00:34.000Z"
   },
   {
@@ -890,8 +866,8 @@
    "t": "OpenCode Browse",
    "url": "https://news.ycombinator.com/item?id=50523459",
    "link": "https://opencode.ai/product/browse",
-   "up": 265,
-   "com": 151,
+   "up": 272,
+   "com": 156,
    "at": "2026-11-16T21:20:37.000Z"
   },
   {
@@ -899,8 +875,8 @@
    "t": "United Airlines experiencing a widespread system outage, airline says",
    "url": "https://news.ycombinator.com/item?id=50524165",
    "link": "https://www.cnn.com/2026/11/16/us/united-airlines-outage",
-   "up": 237,
-   "com": 121,
+   "up": 238,
+   "com": 122,
    "at": "2026-11-16T22:14:38.000Z"
   },
   {
@@ -925,7 +901,7 @@
    "src": "DEV",
    "t": "Once Upon Agentic AI (Part 2): Develop your own MCP server and cast its tools from Strands Agents",
    "url": "https://dev.to/aws/once-upon-agentic-ai-part-2-develop-your-own-mcp-server-and-cast-its-tools-from-strands-agents-9ob",
-   "up": 18,
+   "up": 23,
    "com": 4,
    "at": "2026-11-17T08:35:35Z"
   }
