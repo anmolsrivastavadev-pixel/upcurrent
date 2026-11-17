@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-17T18:31:39.894Z"
+  "updated": "2026-11-17T19:01:07.791Z"
  },
  "pulse": {
   "trending": 74,
   "accelerating": 3,
   "newModels": 9,
-  "discussions": 45,
-  "stars": 954
+  "discussions": 48,
+  "stars": 937
  },
  "rising": [
   {
@@ -22,7 +22,7 @@
    "cat": "Tools",
    "score": 92,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 484",
+   "desc": "Model on Hugging Face · open source · ♥ 485",
    "meta": [
     "4.4K downloads",
     "Released 5 days ago"
@@ -41,7 +41,7 @@
    "desc": "muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现）",
    "meta": [
     "★ 1,573",
-    "+144 in 24h",
+    "+138 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-14T01:24:58Z",
@@ -58,7 +58,7 @@
    "desc": "Vision on Hugging Face · open weights · ♥ 1.4K",
    "meta": [
     "727K downloads",
-    "Released 14 days ago"
+    "Released 15 days ago"
    ],
    "at": "2026-11-03T06:34:36.000Z",
    "breakout": null,
@@ -87,7 +87,7 @@
    "cat": "LLMs",
    "score": 87,
    "grow": 254,
-   "desc": "Model on Hugging Face · open source · ♥ 223",
+   "desc": "Model on Hugging Face · open source · ♥ 224",
    "meta": [
     "3K downloads",
     "Released 3 days ago"
@@ -105,8 +105,8 @@
    "grow": null,
    "desc": "Offline knowledge AI, maps and videos for survival and rebuilding",
    "meta": [
-    "★ 1,459",
-    "~305 in 24h",
+    "★ 1,479",
+    "~308 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-11-12T23:49:03Z",
@@ -120,7 +120,7 @@
    "cat": "Vision",
    "score": 85,
    "grow": 16,
-   "desc": "Vision on Hugging Face · open weights · ♥ 515",
+   "desc": "Vision on Hugging Face · open weights · ♥ 516",
    "meta": [
     "2.7M downloads",
     "Released 9 days ago"
@@ -183,8 +183,13 @@
   {
    "key": "gpt 6.2",
    "label": "GPT-6.2",
-   "n": 3,
+   "n": 4,
    "sources": [
+    {
+     "src": "Lobsters",
+     "t": "Introducing GPT-6.2 Astra and Sol",
+     "url": "https://lobste.rs/s/nozx6d/introducing_gpt_6_2_astra_sol"
+    },
     {
      "src": "OpenAI blog",
      "t": "Introducing GPT-6.2 Astra and Sol",
@@ -214,6 +219,11 @@
    "usePct": null,
    "talk": [
     {
+     "src": "Lobsters",
+     "t": "Introducing GPT-6.2 Astra and Sol",
+     "url": "https://lobste.rs/s/nozx6d/introducing_gpt_6_2_astra_sol"
+    },
+    {
      "src": "OpenAI blog",
      "t": "Introducing GPT-6.2 Astra and Sol",
      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol"
@@ -229,7 +239,7 @@
      "url": "https://www.youtube.com/watch?v=iXvttGCoc1g"
     }
    ],
-   "buzz": 3,
+   "buzz": 4,
    "verdict": "Talk only, no public usage numbers"
   },
   {
@@ -258,8 +268,8 @@
    "name": "freebie-radar",
    "url": "https://github.com/ZiChuanLan/freebie-radar",
    "from": "GitHub",
-   "use": 363,
-   "useLabel": "+363 stars/day",
+   "use": 350,
+   "useLabel": "+350 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -289,6 +299,16 @@
   }
  ],
  "receipts": [
+  {
+   "name": "ersinkoc/phonebox",
+   "url": "https://github.com/ersinkoc/phonebox",
+   "kind": "stars",
+   "first": "2026-11-15T23:01:06.473Z",
+   "firstV": 1217,
+   "m": 2500,
+   "at": "2026-11-17T19:01:07.791Z",
+   "lead": 44.00036611111111
+  },
   {
    "name": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
@@ -358,23 +378,13 @@
    "m": 100000,
    "at": "2026-11-15T10:30:52.232Z",
    "lead": 34.496672777777775
-  },
-  {
-   "name": "shinyobjectz/raea",
-   "url": "https://github.com/shinyobjectz/raea",
-   "kind": "stars",
-   "first": "2026-11-13T20:30:51.442Z",
-   "firstV": 2350,
-   "m": 2500,
-   "at": "2026-11-15T06:30:50.591Z",
-   "lead": 33.99976361111111
   }
  ],
  "github": [
   {
    "repo": "ZiChuanLan/freebie-radar",
    "stars": 1410,
-   "d24": 363,
+   "d24": 350,
    "est": false,
    "forks": 239,
    "contrib": null,
@@ -382,30 +392,30 @@
   },
   {
    "repo": "Immortal-Protocols/lastbook",
-   "stars": 1459,
-   "d24": 305,
+   "stars": 1479,
+   "d24": 308,
    "est": true,
    "forks": 183,
    "contrib": null,
    "score": 85
   },
   {
-   "repo": "duwqijlk/muse-protocol",
-   "stars": 1573,
-   "d24": 144,
-   "est": false,
-   "forks": 620,
-   "contrib": null,
-   "score": 90
-  },
-  {
    "repo": "FrigadeHQ/yogurt",
-   "stars": 1978,
-   "d24": 142,
+   "stars": 1980,
+   "d24": 141,
    "est": false,
    "forks": 122,
    "contrib": null,
    "score": 81
+  },
+  {
+   "repo": "duwqijlk/muse-protocol",
+   "stars": 1573,
+   "d24": 138,
+   "est": false,
+   "forks": 620,
+   "contrib": null,
+   "score": 90
   }
  ],
  "models": [
@@ -419,7 +429,7 @@
    "grow": null,
    "score": 92,
    "cat": "Tools",
-   "likes": 484
+   "likes": 485
   },
   {
    "name": "MiniMax-H3-Image",
@@ -430,7 +440,7 @@
    "grow": 19,
    "score": 90,
    "cat": "Vision",
-   "likes": 1412
+   "likes": 1415
   },
   {
    "name": "Inkling-2-Small",
@@ -453,7 +463,7 @@
    "grow": 254,
    "score": 87,
    "cat": "LLMs",
-   "likes": 223
+   "likes": 224
   },
   {
    "name": "MiniMax-H3-Image",
@@ -464,7 +474,7 @@
    "grow": 16,
    "score": 85,
    "cat": "Vision",
-   "likes": 515
+   "likes": 516
   },
   {
    "name": "flux-3-image-klein-comfy",
@@ -908,8 +918,8 @@
    "t": "GPT‑6.2 Astra and Sol",
    "url": "https://news.ycombinator.com/item?id=50535230",
    "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
-   "up": 351,
-   "com": 167,
+   "up": 484,
+   "com": 259,
    "at": "2026-11-17T17:46:43.000Z"
   },
   {
@@ -917,8 +927,8 @@
    "t": "Optimizely hack infected CNN, Fox News, BBC, Salesforce sites with malware",
    "url": "https://news.ycombinator.com/item?id=50534664",
    "link": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/",
-   "up": 69,
-   "com": 10,
+   "up": 71,
+   "com": 14,
    "at": "2026-11-17T17:13:57.000Z"
   },
   {
@@ -927,35 +937,34 @@
    "url": "https://news.ycombinator.com/item?id=50531751",
    "link": "https://www.scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns",
    "up": 169,
-   "com": 206,
+   "com": 210,
    "at": "2026-11-17T14:19:59.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "MAI Code 2 and Code 2 Flash",
+   "url": "https://news.ycombinator.com/item?id=50535885",
+   "link": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
+   "up": 36,
+   "com": 7,
+   "at": "2026-11-17T18:25:13.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Optimizely compromised, served malware on Zoom, GitLab",
    "url": "https://news.ycombinator.com/item?id=50524767",
    "link": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
-   "up": 606,
+   "up": 620,
    "com": 242,
    "at": "2026-11-16T23:00:34.000Z"
   },
   {
-   "src": "Hacker News",
-   "t": "How the Claude Code team thinks about verification",
-   "url": "https://news.ycombinator.com/item?id=50529612",
-   "link": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
-   "up": 180,
-   "com": 153,
-   "at": "2026-11-17T10:20:40.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "My Empire of Dirt",
-   "url": "https://news.ycombinator.com/item?id=50530114",
-   "link": "https://geohot.github.io//blog/jekyll/update/2026/11/17/my-empire-of-dirt.html",
-   "up": 105,
-   "com": 126,
-   "at": "2026-11-17T11:39:20.000Z"
+   "src": "DEV",
+   "t": "OpenAI has released 6.2 Astra and Sol",
+   "url": "https://dev.to/anthonymax/openai-has-released-62-astra-and-sol-201",
+   "up": 25,
+   "com": 1,
+   "at": "2026-11-17T18:47:55Z"
   }
  ]
 }
