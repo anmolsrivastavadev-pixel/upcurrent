@@ -5,16 +5,32 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-17T12:31:00.838Z"
+  "updated": "2026-11-17T13:01:09.812Z"
  },
  "pulse": {
-  "trending": 71,
+  "trending": 72,
   "accelerating": 1,
-  "newModels": 7,
-  "discussions": 40,
-  "stars": 1208
+  "newModels": 9,
+  "discussions": 42,
+  "stars": 1175
  },
  "rising": [
+  {
+   "name": "Haru-4B",
+   "owner": "higurashi-ai",
+   "src": "hf",
+   "cat": "Tools",
+   "score": 91,
+   "grow": 32,
+   "desc": "Model on Hugging Face · open source · ♥ 468",
+   "meta": [
+    "4.4K downloads",
+    "Released 5 days ago"
+   ],
+   "at": "2026-11-12T11:05:59.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/higurashi-ai/Haru-4B"
+  },
   {
    "name": "blender-ai-mcp-addon",
    "owner": "hitkeeen",
@@ -24,8 +40,8 @@
    "grow": 11,
    "desc": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
    "meta": [
-    "★ 2,386",
-    "+398 in 24h",
+    "★ 2,387",
+    "+387 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-11-12T14:32:15Z",
@@ -38,10 +54,10 @@
    "src": "gh",
    "cat": "Tools",
    "score": 90,
-   "grow": 3,
+   "grow": 4,
    "desc": "muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现）",
    "meta": [
-    "★ 1,548",
+    "★ 1,552",
     "+185 in 24h",
     "Created 3 days ago"
    ],
@@ -66,22 +82,6 @@
    "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image"
   },
   {
-   "name": "Haru-4B",
-   "owner": "higurashi-ai",
-   "src": "hf",
-   "cat": "Tools",
-   "score": 90,
-   "grow": 32,
-   "desc": "Model on Hugging Face · open source · ♥ 466",
-   "meta": [
-    "4.4K downloads",
-    "Released 5 days ago"
-   ],
-   "at": "2026-11-12T11:05:59.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/higurashi-ai/Haru-4B"
-  },
-  {
    "name": "MiniMax-H3-Image",
    "owner": "Comfy-Org",
    "src": "hf",
@@ -104,7 +104,7 @@
    "cat": "Vision",
    "score": 85,
    "grow": 9,
-   "desc": "Vision on Hugging Face · open source · ♥ 432",
+   "desc": "Vision on Hugging Face · open source · ♥ 433",
    "meta": [
     "18K downloads",
     "Released 13 days ago"
@@ -114,19 +114,19 @@
    "url": "https://huggingface.co/thinkingmachines/Inkling-2-Small"
   },
   {
-   "name": "K2-Horizon: A Frontier Fleet of Open Source Language Models",
+   "name": "AllocFlow: End-to-End Portfolio Trading Action Generation from Raw Market Data",
    "owner": "Paper",
    "src": "paper",
-   "url": "https://huggingface.co/papers/2611.21003",
+   "url": "https://huggingface.co/papers/2611.19937",
    "cat": "Research",
    "score": 85,
    "grow": null,
-   "desc": "We present K2-Horizon, a fleet of six fully open language models, from a 0.9B dense model to a 375B-A23B MoE, built for general-purpose reasoning and agentic work across math and science, software engineering, deep research, office automation, and beyond.",
+   "desc": "Real-world portfolio management requires converting noisy market observations into coordinated, simultaneous allocations across multiple assets under shared capital constraints.",
    "meta": [
-    "▲ 54 upvotes",
+    "▲ 58 upvotes",
     "Hugging Face Papers"
    ],
-   "at": "2026-11-15T19:00:00.000Z",
+   "at": "2026-11-14T19:00:00.000Z",
    "breakout": null
   },
   {
@@ -163,52 +163,30 @@
    "url": "https://huggingface.co/Zyphra/ZONOS3-Mini"
   },
   {
-   "name": "AllocFlow: End-to-End Portfolio Trading Action Generation from Raw Market Data",
-   "owner": "Paper",
-   "src": "paper",
-   "url": "https://huggingface.co/papers/2611.19937",
-   "cat": "Research",
+   "name": "tiny-voca",
+   "owner": "n4ze3m",
+   "src": "hf",
+   "cat": "LLMs",
    "score": 83,
    "grow": null,
-   "desc": "Real-world portfolio management requires converting noisy market observations into coordinated, simultaneous allocations across multiple assets under shared capital constraints.",
+   "desc": "Model on Hugging Face · open source · ♥ 210",
    "meta": [
-    "▲ 53 upvotes",
-    "Hugging Face Papers"
+    "3K downloads",
+    "Released 3 days ago"
    ],
-   "at": "2026-11-14T19:00:00.000Z",
-   "breakout": null
+   "at": "2026-11-14T15:46:27.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/n4ze3m/tiny-voca"
   }
  ],
  "breakouts": [],
  "hype": [
   {
-   "name": "Gemini 4",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
-    {
-     "src": "DEV",
-     "t": "High or Low Thinking? Gemini 4 and Gemma 4 on Hard Math, Cost First",
-     "url": "https://dev.to/gde/high-or-low-thinking-gemini-4-and-gemma-4-on-hard-math-cost-first-3091"
-    },
-    {
-     "src": "YouTube",
-     "t": "Gemini 4 Krypton BEATS FABLE 5.2!?, GPT-6.2 Preview, GLM-5.5 LEAKED & Claude Code UPDATE! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=iXvttGCoc1g"
-    }
-   ],
-   "buzz": 2,
-   "verdict": "Talk only, no public usage numbers"
-  },
-  {
    "name": "freebie-radar",
    "url": "https://github.com/ZiChuanLan/freebie-radar",
    "from": "GitHub",
-   "use": 458,
-   "useLabel": "+458 stars/day",
+   "use": 447,
+   "useLabel": "+447 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -231,7 +209,7 @@
    "from": "Hugging Face",
    "use": 2660341,
    "useLabel": "2.7M downloads",
-   "usePct": 0.9615384615384616,
+   "usePct": 0.9629629629629629,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -322,8 +300,8 @@
  "github": [
   {
    "repo": "ZiChuanLan/freebie-radar",
-   "stars": 1349,
-   "d24": 458,
+   "stars": 1355,
+   "d24": 447,
    "est": false,
    "forks": 235,
    "contrib": null,
@@ -331,8 +309,8 @@
   },
   {
    "repo": "hitkeeen/blender-ai-mcp-addon",
-   "stars": 2386,
-   "d24": 398,
+   "stars": 2387,
+   "d24": 387,
    "est": false,
    "forks": 59,
    "contrib": null,
@@ -340,17 +318,17 @@
   },
   {
    "repo": "duwqijlk/muse-protocol",
-   "stars": 1548,
+   "stars": 1552,
    "d24": 185,
    "est": false,
-   "forks": 614,
+   "forks": 615,
    "contrib": null,
    "score": 90
   },
   {
    "repo": "FrigadeHQ/yogurt",
    "stars": 1950,
-   "d24": 167,
+   "d24": 156,
    "est": false,
    "forks": 122,
    "contrib": null,
@@ -358,6 +336,18 @@
   }
  ],
  "models": [
+  {
+   "name": "Haru-4B",
+   "org": "higurashi-ai",
+   "size": "4B",
+   "lic": "Open source",
+   "at": "2026-11-12T11:05:59.000Z",
+   "dl": 4445,
+   "grow": 32,
+   "score": 91,
+   "cat": "Tools",
+   "likes": 468
+  },
   {
    "name": "MiniMax-H3-Image",
    "org": "MiniMaxAI",
@@ -367,19 +357,7 @@
    "grow": 19,
    "score": 90,
    "cat": "Vision",
-   "likes": 1369
-  },
-  {
-   "name": "Haru-4B",
-   "org": "higurashi-ai",
-   "size": "4B",
-   "lic": "Open source",
-   "at": "2026-11-12T11:05:59.000Z",
-   "dl": 4445,
-   "grow": 32,
-   "score": 90,
-   "cat": "Tools",
-   "likes": 466
+   "likes": 1372
   },
   {
    "name": "MiniMax-H3-Image",
@@ -401,7 +379,7 @@
    "grow": 9,
    "score": 85,
    "cat": "Vision",
-   "likes": 432
+   "likes": 433
   },
   {
    "name": "ZONOS3-Mini",
@@ -415,15 +393,16 @@
    "likes": 499
   },
   {
-   "name": "flux-3-image-klein-comfy",
-   "org": "black-forest-labs",
-   "lic": "Open weights",
-   "at": "2026-10-14T12:00:13.000Z",
-   "dl": 1062051,
-   "grow": -5,
-   "score": 81,
-   "cat": "Vision",
-   "likes": 3376
+   "name": "tiny-voca",
+   "org": "n4ze3m",
+   "size": "3m",
+   "lic": "Open source",
+   "at": "2026-11-14T15:46:27.000Z",
+   "dl": 3042,
+   "grow": null,
+   "score": 83,
+   "cat": "LLMs",
+   "likes": 210
   }
  ],
  "free": [
@@ -738,6 +717,13 @@
  },
  "headlines": [
   {
+   "t": "The Trump administration's proposal to curb China's remote access to AI chips rattles Southeast Asia, threatening a data center boom fueled by Chinese companies",
+   "url": "https://www.techmeme.com/261117/p21#a261117p21",
+   "at": "2026-11-17T12:45:03.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Hollywood VFX artists and studios are adopting AI and ML tools to streamline rotoscoping, a tedious process that can cost up to $75K for a one-minute scene",
    "url": "https://www.techmeme.com/261117/p17#a261117p17",
    "at": "2026-11-17T12:05:10.000Z",
@@ -766,14 +752,14 @@
    "kind": "News"
   },
   {
-   "t": "Sources: Nvidia Developer Tech Director Nader Khalil wrote to board arguing that failing to reinstate Jensen Huang could cost Nvidia \"irreplaceable talent\"",
+   "t": "Sources: Nvidia Director of Developer Tech Nader Khalil wrote to the board arguing that not reinstating Jensen Huang could cost Nvidia \"irreplaceable talent\"",
    "url": "https://www.techmeme.com/261117/p10#a261117p10",
    "at": "2026-11-17T10:40:00.000Z",
    "src": "Techmeme",
    "kind": "News"
   },
   {
-   "t": "Sources: Nvidia warns customers that the proposed Remote Access Security Act could subject chip buyers to US legal action if Chinese companies access AI chips",
+   "t": "Sources: Nvidia warned customers that the proposed Remote Access Security Act could expose them to US legal action if Chinese companies remotely access AI chips",
    "url": "https://www.techmeme.com/261117/p9#a261117p9",
    "at": "2026-11-17T10:32:01.000Z",
    "src": "Techmeme",
@@ -783,13 +769,6 @@
    "t": "Nvidia's board establishes a National Security and Export Control Oversight Committee to oversee national security policies, export control compliance, and more",
    "url": "https://www.techmeme.com/261117/p8#a261117p8",
    "at": "2026-11-17T10:13:45.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Oakland-based Numa, which builds an AI platform to manage car dealership customer service, raised a $45M Series C, a source says at a $500M post-money valuation",
-   "url": "https://www.techmeme.com/261117/p7#a261117p7",
-   "at": "2026-11-17T09:20:01.000Z",
    "src": "Techmeme",
    "kind": "News"
   },
@@ -815,38 +794,38 @@
    "kind": "News"
   },
   {
-   "t": "Investors cooled on data center stocks in third quarter, filings show",
-   "url": "https://www.thestar.com.my/tech/tech-news/2026/11/17/investors-cooled-on-data-center-stocks-in-third-quarter-filings-show",
-   "at": "2026-11-17T00:09:00Z",
+   "t": "Denmark is showing the world how to deal with AI job disruption",
+   "url": "https://www.thestar.com.my/tech/tech-news/2026/11/17/denmark-is-showing-the-world-how-to-deal-with-ai-job-disruption",
+   "at": "2026-11-17T01:00:00Z",
    "src": "The Star",
    "kind": "News"
   },
   {
-   "t": "Trump defends Lutnick ahead of congressional testimony over China chip controversy",
-   "url": "https://www.thenews.com.pk/latest/1423894-trump-defends-lutnick-ahead-of-congressional-testimony-over-china-chip-controversy",
-   "at": "2026-11-17T00:03:22Z",
-   "src": "The News International",
+   "t": "AI Industry ‘will be fine’ after Jensen Huang’s ouster from Nvidia, says OpenAI’s Sam Altman",
+   "url": "https://www.hindustantimes.com/world-news/ai-industry-will-be-fine-after-jensen-huang-s-ouster-from-nvidia-says-openai-s-sam-altman-101794876563128.html",
+   "at": "2026-11-17T00:59:53Z",
+   "src": "Hindustan Times",
    "kind": "News"
   },
   {
-   "t": "Strengthening NATO and allied cyber defenses with AI",
-   "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
-   "at": "2026-11-17T00:00:00.000Z",
-   "src": "OpenAI",
-   "kind": "Lab blog"
-  },
-  {
-   "t": "Nasdaq Drops 2.5% for a Third Straight Loss as AI Hardware Stocks Slide",
-   "url": "https://www.brantfordexpositor.ca/press-releases/pr-newswire/nasdaq-drops-2-5-for-a-third-straight-loss-as-ai-hardware-stocks-slide/",
-   "at": "2026-11-16T23:53:27Z",
-   "src": "The Expositor",
+   "t": "US moves to restrict remote access to advanced AI chips via third countries",
+   "url": "https://www.thestar.com.my/news/world/2026/11/17/us-moves-to-restrict-remote-access-to-advanced-ai-chips-via-third-countries",
+   "at": "2026-11-17T00:58:00Z",
+   "src": "The Star",
    "kind": "News"
   },
   {
-   "t": "Data centres in the U.S. put out more carbon emissions in a year than Denmark, says Harvard study",
-   "url": "https://www.cbc.ca/news/climate/data-centres-carbon-emissions-cop31-study-9.7424144",
-   "at": "2026-11-16T23:35:00Z",
-   "src": "CBC.ca",
+   "t": "Wall Street Highlights: S&P 500, Nasdaq Fall Before Nvidia Earnings, Anthropic IPO",
+   "url": "https://www.ndtvprofit.com/markets/wall-street-highlights-s-p-500-nasdaq-fall-before-nvidia-earnings-anthropic-ipo-12336197",
+   "at": "2026-11-17T00:54:01Z",
+   "src": "NDTV Profit",
+   "kind": "News"
+  },
+  {
+   "t": "Anwar: China to boost AI technology transfer, training for Asean",
+   "url": "https://www.malaymail.com/news/malaysia/2026/11/17/anwar-china-to-boost-ai-technology-transfer-training-for-asean/243533",
+   "at": "2026-11-17T00:39:45Z",
+   "src": "Malay Mail",
    "kind": "News"
   }
  ],
@@ -856,34 +835,34 @@
    "t": "Optimizely compromised, served malware on Zoom, GitLab",
    "url": "https://news.ycombinator.com/item?id=50524767",
    "link": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
-   "up": 417,
-   "com": 168,
+   "up": 432,
+   "com": 182,
    "at": "2026-11-16T23:00:34.000Z"
+  },
+  {
+   "src": "DEV",
+   "t": "Stratagem #35: Lena Made the Promises Interlock. The AI Still Can't See ACL's Full Reach.",
+   "url": "https://dev.to/xulingfeng/stratagem-35-lena-made-the-promises-interlock-the-ai-still-cant-see-acls-full-reach-41i5",
+   "up": 29,
+   "com": 8,
+   "at": "2026-11-17T12:01:34Z"
   },
   {
    "src": "Hacker News",
    "t": "How the Claude Code team thinks about verification",
    "url": "https://news.ycombinator.com/item?id=50529612",
    "link": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
-   "up": 55,
-   "com": 66,
+   "up": 63,
+   "com": 77,
    "at": "2026-11-17T10:20:40.000Z"
-  },
-  {
-   "src": "DEV",
-   "t": "Stratagem #35: Lena Made the Promises Interlock. The AI Still Can't See ACL's Full Reach.",
-   "url": "https://dev.to/xulingfeng/stratagem-35-lena-made-the-promises-interlock-the-ai-still-cant-see-acls-full-reach-41i5",
-   "up": 20,
-   "com": 8,
-   "at": "2026-11-17T12:01:34Z"
   },
   {
    "src": "Hacker News",
    "t": "OpenCode Browse",
    "url": "https://news.ycombinator.com/item?id=50523459",
    "link": "https://opencode.ai/product/browse",
-   "up": 291,
-   "com": 165,
+   "up": 295,
+   "com": 167,
    "at": "2026-11-16T21:20:37.000Z"
   },
   {
@@ -891,15 +870,15 @@
    "t": "United Airlines experiencing a widespread system outage, airline says",
    "url": "https://news.ycombinator.com/item?id=50524165",
    "link": "https://www.cnn.com/2026/11/16/us/united-airlines-outage",
-   "up": 239,
-   "com": 124,
+   "up": 240,
+   "com": 125,
    "at": "2026-11-16T22:14:38.000Z"
   },
   {
    "src": "DEV",
    "t": "Could I Still Do This From Scratch?",
    "url": "https://dev.to/dannwaneri/could-i-still-do-this-from-scratch-427h",
-   "up": 14,
+   "up": 21,
    "com": 1,
    "at": "2026-11-17T11:26:15Z"
   }
