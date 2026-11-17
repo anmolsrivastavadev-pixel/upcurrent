@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-17T10:01:06.693Z"
+  "updated": "2026-11-17T10:30:58.707Z"
  },
  "pulse": {
   "trending": 69,
   "accelerating": 0,
   "newModels": 5,
-  "discussions": 42,
-  "stars": 1435
+  "discussions": 41,
+  "stars": 1430
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 10,
    "desc": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
    "meta": [
-    "★ 2,357",
-    "+423 in 24h",
+    "★ 2,365",
+    "+421 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-11-12T14:32:15Z",
@@ -41,8 +41,8 @@
    "grow": null,
    "desc": "muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现）",
    "meta": [
-    "★ 1,540",
-    "~459 in 24h",
+    "★ 1,542",
+    "~456 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-14T01:24:58Z",
@@ -104,7 +104,7 @@
    "cat": "Tools",
    "score": 87,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 459",
+   "desc": "Model on Hugging Face · open source · ♥ 460",
    "meta": [
     "3.4K downloads",
     "Released 5 days ago"
@@ -120,7 +120,7 @@
    "cat": "LLMs",
    "score": 85,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 497",
+   "desc": "Model on Hugging Face · open source · ♥ 498",
    "meta": [
     "70K downloads",
     "Released 8 days ago"
@@ -139,7 +139,7 @@
    "grow": null,
    "desc": "Real-world portfolio management requires converting noisy market observations into coordinated, simultaneous allocations across multiple assets under shared capital constraints.",
    "meta": [
-    "▲ 45 upvotes",
+    "▲ 47 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-11-14T19:00:00.000Z",
@@ -163,30 +163,54 @@
    "breakout": null
   },
   {
-   "name": "InclusionMed: Benchmarking AI for Inclusive Healthcare",
+   "name": "K2-Horizon: A Frontier Fleet of Open Source Language Models",
    "owner": "Paper",
    "src": "paper",
-   "url": "https://huggingface.co/papers/2611.21218",
+   "url": "https://huggingface.co/papers/2611.21003",
    "cat": "Research",
    "score": 83,
    "grow": null,
-   "desc": "Advancing medical AI for inclusive healthcare requires evaluation across diverse healthcare roles, tasks, and care settings, but benchmark coverage remains uneven.",
+   "desc": "We present K2-Horizon, a fleet of six fully open language models, from a 0.9B dense model to a 375B-A23B MoE, built for general-purpose reasoning and agentic work across math and science, software engineering, deep research, office automation, and beyond.",
    "meta": [
-    "▲ 37 upvotes",
+    "▲ 43 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-11-15T19:00:00.000Z",
    "breakout": null
   }
  ],
- "breakouts": [],
+ "breakouts": [
+  {
+   "key": "chatgpt wallet",
+   "label": "ChatGPT Wallet",
+   "n": 3,
+   "sources": [
+    {
+     "src": "Product Hunt",
+     "t": "ChatGPT Wallet",
+     "url": "https://www.producthunt.com/products/chatgpt?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
+    },
+    {
+     "src": "Hacker News",
+     "t": "ChatGPT Wallet",
+     "url": "https://news.ycombinator.com/item?id=50518501"
+    },
+    {
+     "src": "Natural News",
+     "t": "OpenAI Launches ChatGPT Wallet for AI Agent Payments With Visa, Mastercard, Amex",
+     "url": "https://www.naturalnews.com/2026-11-16-openai-launches-chatgpt-wallet-ai-agent-payments.html"
+    }
+   ],
+   "since": "2026-11-16T08:30:55.941Z"
+  }
+ ],
  "hype": [
   {
    "name": "muse-protocol",
    "url": "https://github.com/duwqijlk/muse-protocol",
    "from": "GitHub",
-   "use": 459,
-   "useLabel": "~459 stars/day",
+   "use": 456,
+   "useLabel": "~456 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -300,8 +324,8 @@
  "github": [
   {
    "repo": "duwqijlk/muse-protocol",
-   "stars": 1540,
-   "d24": 459,
+   "stars": 1542,
+   "d24": 456,
    "est": true,
    "forks": 614,
    "contrib": null,
@@ -309,8 +333,8 @@
   },
   {
    "repo": "hitkeeen/blender-ai-mcp-addon",
-   "stars": 2357,
-   "d24": 423,
+   "stars": 2365,
+   "d24": 421,
    "est": false,
    "forks": 58,
    "contrib": null,
@@ -318,7 +342,7 @@
   },
   {
    "repo": "FrigadeHQ/yogurt",
-   "stars": 1934,
+   "stars": 1939,
    "d24": 294,
    "est": true,
    "forks": 120,
@@ -327,10 +351,10 @@
   },
   {
    "repo": "ZiChuanLan/freebie-radar",
-   "stars": 1304,
+   "stars": 1311,
    "d24": 259,
    "est": true,
-   "forks": 231,
+   "forks": 232,
    "contrib": null,
    "score": 82
   }
@@ -346,7 +370,7 @@
    "grow": null,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 9400
+   "likes": 9405
   },
   {
    "name": "MiniMax-H3-Image",
@@ -357,7 +381,7 @@
    "grow": null,
    "score": 88,
    "cat": "Vision",
-   "likes": 1358
+   "likes": 1360
   },
   {
    "name": "MiniMax-H3-Image",
@@ -380,7 +404,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Tools",
-   "likes": 459
+   "likes": 460
   },
   {
    "name": "ZONOS3-Mini",
@@ -391,7 +415,7 @@
    "grow": null,
    "score": 85,
    "cat": "LLMs",
-   "likes": 497
+   "likes": 498
   },
   {
    "name": "Inkling-2-Small",
@@ -402,7 +426,7 @@
    "grow": null,
    "score": 81,
    "cat": "Vision",
-   "likes": 429
+   "likes": 430
   }
  ],
  "free": [
@@ -717,17 +741,17 @@
  },
  "headlines": [
   {
-   "t": "Oakland-based Numa, which builds an AI platform to manage car dealership customer service, raised a $45M Series C, a source says at a $500M post-money valuation",
-   "url": "https://www.techmeme.com/261117/p7#a261117p7",
-   "at": "2026-11-17T09:20:01.000Z",
+   "t": "Nvidia's board establishes a National Security and Export Control Oversight Committee to oversee national security policies, export control compliance, and more",
+   "url": "https://www.techmeme.com/261117/p8#a261117p8",
+   "at": "2026-11-17T10:13:45.000Z",
    "src": "Techmeme",
    "kind": "News"
   },
   {
-   "t": "Tobacco group Imperial Brands to axe up to 4,600 jobs as it uses more AI",
-   "url": "https://www.theguardian.com/business/2026/nov/17/uk-tobacco-imperial-brands-cut-jobs-cigarettes-ai",
-   "at": "2026-11-17T09:01:25Z",
-   "src": "The Guardian",
+   "t": "Oakland-based Numa, which builds an AI platform to manage car dealership customer service, raised a $45M Series C, a source says at a $500M post-money valuation",
+   "url": "https://www.techmeme.com/261117/p7#a261117p7",
+   "at": "2026-11-17T09:20:01.000Z",
+   "src": "Techmeme",
    "kind": "News"
   },
   {
@@ -822,10 +846,10 @@
    "kind": "Lab blog"
   },
   {
-   "t": "Stocks slide to kick off major week for Wall Street",
-   "url": "https://edition.cnn.com/2026/11/16/business/stocks-nvidia-ai-anthropic",
-   "at": "2026-11-16T21:57:57Z",
-   "src": "Cable News Network",
+   "t": "Stocks tumble on Wall Street as Nvidia leads another sell",
+   "url": "https://wtop.com/world/2026/11/stocks-decline-in-asia-as-investor-concerns-over-nvidia-fallout-extend-into-another-week/",
+   "at": "2026-11-16T22:14:56Z",
+   "src": "WTOP",
    "kind": "News"
   }
  ],
@@ -835,35 +859,27 @@
    "t": "Optimizely compromised, served malware on Zoom, GitLab",
    "url": "https://news.ycombinator.com/item?id=50524767",
    "link": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
-   "up": 340,
-   "com": 149,
+   "up": 354,
+   "com": 151,
    "at": "2026-11-16T23:00:34.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "United Airlines experiencing a widespread system outage, airline says",
-   "url": "https://news.ycombinator.com/item?id=50524165",
-   "link": "https://www.cnn.com/2026/11/16/us/united-airlines-outage",
-   "up": 236,
-   "com": 120,
-   "at": "2026-11-16T22:14:38.000Z"
   },
   {
    "src": "Hacker News",
    "t": "OpenCode Browse",
    "url": "https://news.ycombinator.com/item?id=50523459",
    "link": "https://opencode.ai/product/browse",
-   "up": 250,
-   "com": 141,
+   "up": 258,
+   "com": 146,
    "at": "2026-11-16T21:20:37.000Z"
   },
   {
-   "src": "DEV",
-   "t": "Optmyzr Alternatives: 7 PPC Tools Compared in 2026",
-   "url": "https://dev.to/hellyeahai/optmyzr-alternatives-7-ppc-tools-compared-in-2026-3pke",
-   "up": 17,
-   "com": 2,
-   "at": "2026-11-17T09:10:18Z"
+   "src": "Hacker News",
+   "t": "United Airlines experiencing a widespread system outage, airline says",
+   "url": "https://news.ycombinator.com/item?id=50524165",
+   "link": "https://www.cnn.com/2026/11/16/us/united-airlines-outage",
+   "up": 237,
+   "com": 121,
+   "at": "2026-11-16T22:14:38.000Z"
   },
   {
    "src": "Hacker News",
@@ -875,11 +891,20 @@
    "at": "2026-11-16T21:08:38.000Z"
   },
   {
+   "src": "Hacker News",
+   "t": "How to Break into Security, Ptacek Edition (2012)",
+   "url": "https://news.ycombinator.com/item?id=50524225",
+   "link": "https://krebsonsecurity.com/2012/06/how-to-break-into-security-ptacek-edition/",
+   "up": 110,
+   "com": 27,
+   "at": "2026-11-16T22:19:23.000Z"
+  },
+  {
    "src": "DEV",
    "t": "Once Upon Agentic AI (Part 2): Develop your own MCP server and cast its tools from Strands Agents",
    "url": "https://dev.to/aws/once-upon-agentic-ai-part-2-develop-your-own-mcp-server-and-cast-its-tools-from-strands-agents-9ob",
-   "up": 16,
-   "com": 3,
+   "up": 17,
+   "com": 4,
    "at": "2026-11-17T08:35:35Z"
   }
  ]
