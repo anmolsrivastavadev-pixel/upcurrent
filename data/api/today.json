@@ -5,16 +5,32 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-17T11:30:57.312Z"
+  "updated": "2026-11-17T12:01:07.902Z"
  },
  "pulse": {
-  "trending": 72,
+  "trending": 71,
   "accelerating": 1,
   "newModels": 7,
-  "discussions": 39,
-  "stars": 1512
+  "discussions": 40,
+  "stars": 1483
  },
  "rising": [
+  {
+   "name": "Haru-4B",
+   "owner": "higurashi-ai",
+   "src": "hf",
+   "cat": "Tools",
+   "score": 91,
+   "grow": 32,
+   "desc": "Model on Hugging Face · open source · ♥ 463",
+   "meta": [
+    "4.4K downloads",
+    "Released 5 days ago"
+   ],
+   "at": "2026-11-12T11:05:59.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/higurashi-ai/Haru-4B"
+  },
   {
    "name": "blender-ai-mcp-addon",
    "owner": "hitkeeen",
@@ -24,8 +40,8 @@
    "grow": 11,
    "desc": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
    "meta": [
-    "★ 2,382",
-    "+420 in 24h",
+    "★ 2,386",
+    "+412 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-11-12T14:32:15Z",
@@ -41,8 +57,8 @@
    "grow": null,
    "desc": "muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现）",
    "meta": [
-    "★ 1,546",
-    "~452 in 24h",
+    "★ 1,548",
+    "~450 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-14T01:24:58Z",
@@ -66,43 +82,11 @@
    "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image"
   },
   {
-   "name": "Haru-4B",
-   "owner": "higurashi-ai",
-   "src": "hf",
-   "cat": "Tools",
-   "score": 89,
-   "grow": 32,
-   "desc": "Model on Hugging Face · open source · ♥ 462",
-   "meta": [
-    "4.4K downloads",
-    "Released 5 days ago"
-   ],
-   "at": "2026-11-12T11:05:59.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/higurashi-ai/Haru-4B"
-  },
-  {
-   "name": "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
-   "owner": "xtools-at",
-   "src": "hf",
-   "cat": "Infrastructure",
-   "score": 88,
-   "grow": 9,
-   "desc": "Model on Hugging Face · open source · ♥ 9.4K",
-   "meta": [
-    "32K downloads",
-    "Released 18 days ago"
-   ],
-   "at": "2026-10-30T10:21:29.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic"
-  },
-  {
    "name": "MiniMax-H3-Image",
    "owner": "Comfy-Org",
    "src": "hf",
    "cat": "Vision",
-   "score": 87,
+   "score": 89,
    "grow": 16,
    "desc": "Vision on Hugging Face · open weights · ♥ 506",
    "meta": [
@@ -114,19 +98,35 @@
    "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image"
   },
   {
-   "name": "K2-Horizon: A Frontier Fleet of Open Source Language Models",
+   "name": "Inkling-2-Small",
+   "owner": "thinkingmachines",
+   "src": "hf",
+   "cat": "Vision",
+   "score": 85,
+   "grow": 9,
+   "desc": "Vision on Hugging Face · open source · ♥ 432",
+   "meta": [
+    "18K downloads",
+    "Released 13 days ago"
+   ],
+   "at": "2026-11-04T19:51:05.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/thinkingmachines/Inkling-2-Small"
+  },
+  {
+   "name": "AllocFlow: End-to-End Portfolio Trading Action Generation from Raw Market Data",
    "owner": "Paper",
    "src": "paper",
-   "url": "https://huggingface.co/papers/2611.21003",
+   "url": "https://huggingface.co/papers/2611.19937",
    "cat": "Research",
    "score": 85,
    "grow": null,
-   "desc": "We present K2-Horizon, a fleet of six fully open language models, from a 0.9B dense model to a 375B-A23B MoE, built for general-purpose reasoning and agentic work across math and science, software engineering, deep research, office automation, and beyond.",
+   "desc": "Real-world portfolio management requires converting noisy market observations into coordinated, simultaneous allocations across multiple assets under shared capital constraints.",
    "meta": [
-    "▲ 50 upvotes",
+    "▲ 53 upvotes",
     "Hugging Face Papers"
    ],
-   "at": "2026-11-15T19:00:00.000Z",
+   "at": "2026-11-14T19:00:00.000Z",
    "breakout": null
   },
   {
@@ -147,35 +147,35 @@
    "breakout": null
   },
   {
-   "name": "Inkling-2-Small",
-   "owner": "thinkingmachines",
+   "name": "ZONOS3-Mini",
+   "owner": "Zyphra",
    "src": "hf",
-   "cat": "Vision",
-   "score": 83,
-   "grow": 9,
-   "desc": "Vision on Hugging Face · open source · ♥ 432",
+   "cat": "LLMs",
+   "score": 84,
+   "grow": 34,
+   "desc": "Model on Hugging Face · open source · ♥ 499",
    "meta": [
-    "18K downloads",
-    "Released 13 days ago"
+    "94K downloads",
+    "Released 8 days ago"
    ],
-   "at": "2026-11-04T19:51:05.000Z",
+   "at": "2026-11-09T05:03:57.000Z",
    "breakout": null,
-   "url": "https://huggingface.co/thinkingmachines/Inkling-2-Small"
+   "url": "https://huggingface.co/Zyphra/ZONOS3-Mini"
   },
   {
-   "name": "AllocFlow: End-to-End Portfolio Trading Action Generation from Raw Market Data",
+   "name": "K2-Horizon: A Frontier Fleet of Open Source Language Models",
    "owner": "Paper",
    "src": "paper",
-   "url": "https://huggingface.co/papers/2611.19937",
+   "url": "https://huggingface.co/papers/2611.21003",
    "cat": "Research",
    "score": 83,
    "grow": null,
-   "desc": "Real-world portfolio management requires converting noisy market observations into coordinated, simultaneous allocations across multiple assets under shared capital constraints.",
+   "desc": "We present K2-Horizon, a fleet of six fully open language models, from a 0.9B dense model to a 375B-A23B MoE, built for general-purpose reasoning and agentic work across math and science, software engineering, deep research, office automation, and beyond.",
    "meta": [
-    "▲ 49 upvotes",
+    "▲ 51 upvotes",
     "Hugging Face Papers"
    ],
-   "at": "2026-11-14T19:00:00.000Z",
+   "at": "2026-11-15T19:00:00.000Z",
    "breakout": null
   }
  ],
@@ -207,8 +207,8 @@
    "name": "freebie-radar",
    "url": "https://github.com/ZiChuanLan/freebie-radar",
    "from": "GitHub",
-   "use": 466,
-   "useLabel": "+466 stars/day",
+   "use": 453,
+   "useLabel": "+453 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -231,7 +231,7 @@
    "from": "Hugging Face",
    "use": 2660341,
    "useLabel": "2.7M downloads",
-   "usePct": 0.9629629629629629,
+   "usePct": 0.9615384615384616,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -322,17 +322,17 @@
  "github": [
   {
    "repo": "ZiChuanLan/freebie-radar",
-   "stars": 1332,
-   "d24": 466,
+   "stars": 1338,
+   "d24": 453,
    "est": false,
-   "forks": 233,
+   "forks": 234,
    "contrib": null,
    "score": 82
   },
   {
    "repo": "duwqijlk/muse-protocol",
-   "stars": 1546,
-   "d24": 452,
+   "stars": 1548,
+   "d24": 450,
    "est": true,
    "forks": 614,
    "contrib": null,
@@ -340,8 +340,8 @@
   },
   {
    "repo": "hitkeeen/blender-ai-mcp-addon",
-   "stars": 2382,
-   "d24": 420,
+   "stars": 2386,
+   "d24": 412,
    "est": false,
    "forks": 59,
    "contrib": null,
@@ -349,15 +349,27 @@
   },
   {
    "repo": "FrigadeHQ/yogurt",
-   "stars": 1945,
-   "d24": 174,
+   "stars": 1947,
+   "d24": 168,
    "est": false,
-   "forks": 121,
+   "forks": 122,
    "contrib": null,
    "score": 81
   }
  ],
  "models": [
+  {
+   "name": "Haru-4B",
+   "org": "higurashi-ai",
+   "size": "4B",
+   "lic": "Open source",
+   "at": "2026-11-12T11:05:59.000Z",
+   "dl": 4445,
+   "grow": 32,
+   "score": 91,
+   "cat": "Tools",
+   "likes": 463
+  },
   {
    "name": "MiniMax-H3-Image",
    "org": "MiniMaxAI",
@@ -367,31 +379,7 @@
    "grow": 19,
    "score": 90,
    "cat": "Vision",
-   "likes": 1366
-  },
-  {
-   "name": "Haru-4B",
-   "org": "higurashi-ai",
-   "size": "4B",
-   "lic": "Open source",
-   "at": "2026-11-12T11:05:59.000Z",
-   "dl": 4445,
-   "grow": 32,
-   "score": 89,
-   "cat": "Tools",
-   "likes": 462
-  },
-  {
-   "name": "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
-   "org": "xtools-at",
-   "size": "9B",
-   "lic": "Open source",
-   "at": "2026-10-30T10:21:29.000Z",
-   "dl": 32356,
-   "grow": 9,
-   "score": 88,
-   "cat": "Infrastructure",
-   "likes": 9414
+   "likes": 1367
   },
   {
    "name": "MiniMax-H3-Image",
@@ -400,7 +388,7 @@
    "at": "2026-11-08T20:37:23.000Z",
    "dl": 2660341,
    "grow": 16,
-   "score": 87,
+   "score": 89,
    "cat": "Vision",
    "likes": 506
   },
@@ -411,7 +399,7 @@
    "at": "2026-11-04T19:51:05.000Z",
    "dl": 18359,
    "grow": 9,
-   "score": 83,
+   "score": 85,
    "cat": "Vision",
    "likes": 432
   },
@@ -422,9 +410,20 @@
    "at": "2026-11-09T05:03:57.000Z",
    "dl": 93909,
    "grow": 34,
-   "score": 82,
+   "score": 84,
    "cat": "LLMs",
    "likes": 499
+  },
+  {
+   "name": "flux-3-image-klein-comfy",
+   "org": "black-forest-labs",
+   "lic": "Open weights",
+   "at": "2026-10-14T12:00:13.000Z",
+   "dl": 1062051,
+   "grow": -5,
+   "score": 81,
+   "cat": "Vision",
+   "likes": 3375
   }
  ],
  "free": [
@@ -739,6 +738,13 @@
  },
  "headlines": [
   {
+   "t": "OpenAI partners with NATO's NCIA to detect bugs, probe suspicious activity, and deploy fixes under its Daybreak program; NATO uses up to 300B tokens per month",
+   "url": "https://www.techmeme.com/261117/p16#a261117p16",
+   "at": "2026-11-17T11:55:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Model ML, which builds AI agents integrated in Excel and PowerPoint to automate pitch decks, research, and due diligence, raised $250M at a $1.5B valuation",
    "url": "https://www.techmeme.com/261117/p15#a261117p15",
    "at": "2026-11-17T11:30:00.000Z",
@@ -837,17 +843,10 @@
    "kind": "Lab blog"
   },
   {
-   "t": "OpenAI introduces stricter ChatGPT interventions to prevent the misuse of AI for child exploitation",
-   "url": "https://www.newsbreak.com/news/5011112336990-openai-introduces-stricter-chatgpt-interventions-to-prevent-the-misuse-of-ai-for-child-exploitation",
-   "at": "2026-11-16T23:27:07Z",
-   "src": "NewsBreak",
-   "kind": "News"
-  },
-  {
-   "t": "California sues OpenAI over AI models’ cyberattacks on Hugging Face, other companies",
-   "url": "https://www.thestar.com.my/tech/tech-news/2026/11/17/california-sues-openai-over-ai-models-cyberattacks-on-hugging-face-other-companies",
-   "at": "2026-11-16T23:27:00Z",
-   "src": "The Star",
+   "t": "Nasdaq Drops 2.5% for a Third Straight Loss as AI Hardware Stocks Slide",
+   "url": "https://www.brantfordexpositor.ca/press-releases/pr-newswire/nasdaq-drops-2-5-for-a-third-straight-loss-as-ai-hardware-stocks-slide/",
+   "at": "2026-11-16T23:53:27Z",
+   "src": "The Expositor",
    "kind": "News"
   }
  ],
@@ -857,17 +856,26 @@
    "t": "Optimizely compromised, served malware on Zoom, GitLab",
    "url": "https://news.ycombinator.com/item?id=50524767",
    "link": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
-   "up": 386,
-   "com": 163,
+   "up": 397,
+   "com": 165,
    "at": "2026-11-16T23:00:34.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "How the Claude Code team thinks about verification",
+   "url": "https://news.ycombinator.com/item?id=50529612",
+   "link": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
+   "up": 40,
+   "com": 43,
+   "at": "2026-11-17T10:20:40.000Z"
   },
   {
    "src": "Hacker News",
    "t": "OpenCode Browse",
    "url": "https://news.ycombinator.com/item?id=50523459",
    "link": "https://opencode.ai/product/browse",
-   "up": 272,
-   "com": 156,
+   "up": 281,
+   "com": 159,
    "at": "2026-11-16T21:20:37.000Z"
   },
   {
@@ -875,8 +883,8 @@
    "t": "United Airlines experiencing a widespread system outage, airline says",
    "url": "https://news.ycombinator.com/item?id=50524165",
    "link": "https://www.cnn.com/2026/11/16/us/united-airlines-outage",
-   "up": 238,
-   "com": 122,
+   "up": 239,
+   "com": 124,
    "at": "2026-11-16T22:14:38.000Z"
   },
   {
@@ -889,21 +897,12 @@
    "at": "2026-11-16T21:08:38.000Z"
   },
   {
-   "src": "Hacker News",
-   "t": "How to Break into Security, Ptacek Edition (2012)",
-   "url": "https://news.ycombinator.com/item?id=50524225",
-   "link": "https://krebsonsecurity.com/2012/06/how-to-break-into-security-ptacek-edition/",
-   "up": 111,
-   "com": 27,
-   "at": "2026-11-16T22:19:23.000Z"
-  },
-  {
    "src": "DEV",
-   "t": "Once Upon Agentic AI (Part 2): Develop your own MCP server and cast its tools from Strands Agents",
-   "url": "https://dev.to/aws/once-upon-agentic-ai-part-2-develop-your-own-mcp-server-and-cast-its-tools-from-strands-agents-9ob",
-   "up": 23,
-   "com": 4,
-   "at": "2026-11-17T08:35:35Z"
+   "t": "Could I Still Do This From Scratch?",
+   "url": "https://dev.to/dannwaneri/could-i-still-do-this-from-scratch-427h",
+   "up": 9,
+   "com": 1,
+   "at": "2026-11-17T11:26:15Z"
   }
  ]
 }
