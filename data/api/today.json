@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-17T13:30:57.897Z"
+  "updated": "2026-11-17T14:01:06.496Z"
  },
  "pulse": {
-  "trending": 72,
+  "trending": 73,
   "accelerating": 1,
-  "newModels": 9,
+  "newModels": 10,
   "discussions": 45,
-  "stars": 1154
+  "stars": 1148
  },
  "rising": [
   {
@@ -22,7 +22,7 @@
    "cat": "Tools",
    "score": 91,
    "grow": 32,
-   "desc": "Model on Hugging Face · open source · ♥ 469",
+   "desc": "Model on Hugging Face · open source · ♥ 471",
    "meta": [
     "4.4K downloads",
     "Released 5 days ago"
@@ -40,8 +40,8 @@
    "grow": 12,
    "desc": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
    "meta": [
-    "★ 2,389",
-    "+378 in 24h",
+    "★ 2,390",
+    "+368 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-11-12T14:32:15Z",
@@ -57,8 +57,8 @@
    "grow": 4,
    "desc": "muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现）",
    "meta": [
-    "★ 1,556",
-    "+186 in 24h",
+    "★ 1,559",
+    "+183 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-14T01:24:58Z",
@@ -114,16 +114,16 @@
    "url": "https://huggingface.co/thinkingmachines/Inkling-2-Small"
   },
   {
-   "name": "K2-Horizon: A Frontier Fleet of Open Source Language Models",
+   "name": "Sage S2.1 Flash Technical Report",
    "owner": "Paper",
    "src": "paper",
-   "url": "https://huggingface.co/papers/2611.21003",
+   "url": "https://huggingface.co/papers/2611.21072",
    "cat": "Research",
    "score": 85,
    "grow": null,
-   "desc": "We present K2-Horizon, a fleet of six fully open language models, from a 0.9B dense model to a 375B-A23B MoE, built for general-purpose reasoning and agentic work across math and science, software engineering, deep research, office automation, and beyond.",
+   "desc": "We introduce Sage S1.5 Flash, a 320-billion-parameter general-purpose mixture-of-experts model designed to reason over scientific evidence and act in interactive environments.",
    "meta": [
-    "▲ 55 upvotes",
+    "▲ 57 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-11-15T19:00:00.000Z",
@@ -169,7 +169,7 @@
    "cat": "LLMs",
    "score": 83,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 211",
+   "desc": "Model on Hugging Face · open source · ♥ 212",
    "meta": [
     "3K downloads",
     "Released 3 days ago"
@@ -207,8 +207,8 @@
    "name": "freebie-radar",
    "url": "https://github.com/ZiChuanLan/freebie-radar",
    "from": "GitHub",
-   "use": 435,
-   "useLabel": "+435 stars/day",
+   "use": 437,
+   "useLabel": "+437 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -231,7 +231,7 @@
    "from": "Hugging Face",
    "use": 2660341,
    "useLabel": "2.7M downloads",
-   "usePct": 0.9629629629629629,
+   "usePct": 0.9642857142857143,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -322,17 +322,17 @@
  "github": [
   {
    "repo": "ZiChuanLan/freebie-radar",
-   "stars": 1360,
-   "d24": 435,
+   "stars": 1370,
+   "d24": 437,
    "est": false,
-   "forks": 235,
+   "forks": 236,
    "contrib": null,
    "score": 82
   },
   {
    "repo": "hitkeeen/blender-ai-mcp-addon",
-   "stars": 2389,
-   "d24": 378,
+   "stars": 2390,
+   "d24": 368,
    "est": false,
    "forks": 59,
    "contrib": null,
@@ -340,17 +340,17 @@
   },
   {
    "repo": "duwqijlk/muse-protocol",
-   "stars": 1556,
-   "d24": 186,
+   "stars": 1559,
+   "d24": 183,
    "est": false,
-   "forks": 616,
+   "forks": 617,
    "contrib": null,
    "score": 90
   },
   {
    "repo": "FrigadeHQ/yogurt",
-   "stars": 1953,
-   "d24": 155,
+   "stars": 1958,
+   "d24": 160,
    "est": false,
    "forks": 122,
    "contrib": null,
@@ -368,7 +368,7 @@
    "grow": 32,
    "score": 91,
    "cat": "Tools",
-   "likes": 469
+   "likes": 471
   },
   {
    "name": "MiniMax-H3-Image",
@@ -379,7 +379,7 @@
    "grow": 19,
    "score": 90,
    "cat": "Vision",
-   "likes": 1374
+   "likes": 1378
   },
   {
    "name": "MiniMax-H3-Image",
@@ -424,7 +424,7 @@
    "grow": null,
    "score": 83,
    "cat": "LLMs",
-   "likes": 211
+   "likes": 212
   }
  ],
  "free": [
@@ -739,6 +739,20 @@
  },
  "headlines": [
   {
+   "t": "Tiberius Aerospace, a defense-as-a-service startup that uses AI to design long-range supersonic artillery munitions, raised an $85M Series A at a $1B+ valuation",
+   "url": "https://www.techmeme.com/261117/p26#a261117p26",
+   "at": "2026-11-17T13:55:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "SEC filing: Amazon and Google are set to hold ~15% and ~14% of Anthropic's outstanding capital stock, respectively, after its IPO and private placement",
+   "url": "https://www.techmeme.com/261117/p25#a261117p25",
+   "at": "2026-11-17T13:40:00.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Anthropic IPO: how can I buy shares, and is it worth it?",
    "url": "https://www.theguardian.com/technology/2026/nov/17/anthropic-ipo-flotation-buy-shares-stock-market-claude-ai",
    "at": "2026-11-17T13:00:48Z",
@@ -774,20 +788,6 @@
    "kind": "News"
   },
   {
-   "t": "A look at Anthropic's data center network plans, dubbed Anthropic Direct, committing $900B+ through 2045; docs show it will lease 875K TPUs for $7.2B per year",
-   "url": "https://www.techmeme.com/261117/p11#a261117p11",
-   "at": "2026-11-17T10:50:00.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Sources: Nvidia Director of Developer Tech Nader Khalil wrote to the board arguing that not reinstating Jensen Huang could cost Nvidia \"irreplaceable talent\"",
-   "url": "https://www.techmeme.com/261117/p10#a261117p10",
-   "at": "2026-11-17T10:40:00.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Actors in UK to get more rights over their ‘digital replicas’ in deal on AI protections",
    "url": "https://www.theguardian.com/technology/2026/nov/17/actors-uk-rights-digital-replicas-ai-protections",
    "at": "2026-11-17T09:00:08Z",
@@ -809,45 +809,45 @@
    "kind": "News"
   },
   {
-   "t": "OpenAI Expands ChatGPT for Healthcare With New AI Agents and Industry Integrations",
-   "url": "https://www.europesays.com/3380401/",
-   "at": "2026-11-17T01:30:14Z",
-   "src": "EUROPE SAYS",
+   "t": "OpenAI's Sam Altman says AI industry ‘will be fine’ after Huang’s ouster",
+   "url": "https://www.cnbctv18.com/technology/openais-sam-altman-says-ai-industry-will-be-fine-after-huangs-ouster-20035425.htm",
+   "at": "2026-11-17T02:00:25Z",
+   "src": "CNBC TV18",
    "kind": "News"
   },
   {
-   "t": "COP31 pushes industrial electrification, responsible AI as climate priorities",
-   "url": "https://www.hindustantimes.com/world-news/cop31-pushes-industrial-electrification-responsible-ai-as-climate-priorities-101794878882519.html",
-   "at": "2026-11-17T01:28:02Z",
-   "src": "Hindustan Times",
-   "kind": "News"
-  },
-  {
-   "t": "California sues OpenAI over safety concerns following Hugging Face cybersecurity incident",
-   "url": "https://www.thenews.com.pk/latest/1423897-california-sues-openai-over-safety-concerns-following-hugging-face-cybersecurity-incident",
-   "at": "2026-11-17T01:06:34Z",
-   "src": "The News International",
-   "kind": "News"
-  },
-  {
-   "t": "AI Boom Poses Job Displacement Risk, Warns Fed Chief",
-   "url": "https://www.lokmattimes.com/international/ai-boom-poses-job-displacement-risk-warns-fed-chief-a001-w02/",
-   "at": "2026-11-17T01:02:40Z",
-   "src": "Lokmat Times",
-   "kind": "News"
-  },
-  {
-   "t": "Denmark is showing the world how to deal with AI job disruption",
-   "url": "https://www.thestar.com.my/tech/tech-news/2026/11/17/denmark-is-showing-the-world-how-to-deal-with-ai-job-disruption",
-   "at": "2026-11-17T01:00:00Z",
+   "t": "AI cheating fears spook South Korea before high-stakes college entrance exam",
+   "url": "https://www.thestar.com.my/tech/tech-news/2026/11/17/ai-cheating-fears-spook-south-korea-before-high-stakes-college-entrance-exam",
+   "at": "2026-11-17T02:00:00Z",
    "src": "The Star",
    "kind": "News"
   },
   {
-   "t": "AI Industry ‘will be fine’ after Jensen Huang’s ouster from Nvidia, says OpenAI’s Sam Altman",
-   "url": "https://www.hindustantimes.com/world-news/ai-industry-will-be-fine-after-jensen-huang-s-ouster-from-nvidia-says-openai-s-sam-altman-101794876563128.html",
-   "at": "2026-11-17T00:59:53Z",
-   "src": "Hindustan Times",
+   "t": "Nvidia row: Board rules out Jensen Huang's return, focuses on finding his successor, claims report",
+   "url": "https://www.businesstoday.in/technology/news/story/nvidia-row-board-rules-out-jensen-huangs-return-focusing-on-finding-his-successor-claims-report-567738-2026-11-17",
+   "at": "2026-11-17T01:53:06Z",
+   "src": "Business Today",
+   "kind": "News"
+  },
+  {
+   "t": "FBI warns companies in the US and across the world; names AI hacking tool criminals are using to attack financial services; suggests dos and don'ts",
+   "url": "https://timesofindia.indiatimes.com/technology/tech-news/fbi-warns-companies-in-the-us-and-across-the-world-names-ai-hacking-tool-criminals-are-using-to-attack-financial-services-suggests-dos-and-donts/articleshow/135907239.cms",
+   "at": "2026-11-17T01:49:00Z",
+   "src": "Times of India",
+   "kind": "News"
+  },
+  {
+   "t": "Nvidia earnings to test AI boom after Huang's exit",
+   "url": "https://www.bangkokpost.com/business/general/3356211/nvidia-earnings-to-test-ai-boom-after-huangs-exit",
+   "at": "2026-11-17T01:45:00Z",
+   "src": "Bangkok Post",
+   "kind": "News"
+  },
+  {
+   "t": "Ten trends to watch in 2027",
+   "url": "https://www.afr.com/companies/telecommunications/ten-trends-to-watch-in-2027-20261117-p61eun",
+   "at": "2026-11-17T01:37:47Z",
+   "src": "Australian Financial Review",
    "kind": "News"
   }
  ],
@@ -857,16 +857,25 @@
    "t": "Optimizely compromised, served malware on Zoom, GitLab",
    "url": "https://news.ycombinator.com/item?id=50524767",
    "link": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
-   "up": 445,
-   "com": 191,
+   "up": 463,
+   "com": 193,
    "at": "2026-11-16T23:00:34.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "My Empire of Dirt",
+   "url": "https://news.ycombinator.com/item?id=50530114",
+   "link": "https://geohot.github.io//blog/jekyll/update/2026/11/17/my-empire-of-dirt.html",
+   "up": 63,
+   "com": 48,
+   "at": "2026-11-17T11:39:20.000Z"
   },
   {
    "src": "DEV",
    "t": "Stratagem #35: Lena Made the Promises Interlock. The AI Still Can't See ACL's Full Reach.",
    "url": "https://dev.to/xulingfeng/stratagem-35-lena-made-the-promises-interlock-the-ai-still-cant-see-acls-full-reach-41i5",
-   "up": 39,
-   "com": 12,
+   "up": 47,
+   "com": 14,
    "at": "2026-11-17T12:01:34Z"
   },
   {
@@ -874,8 +883,8 @@
    "t": "How the Claude Code team thinks about verification",
    "url": "https://news.ycombinator.com/item?id=50529612",
    "link": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
-   "up": 71,
-   "com": 91,
+   "up": 80,
+   "com": 95,
    "at": "2026-11-17T10:20:40.000Z"
   },
   {
@@ -883,8 +892,8 @@
    "t": "OpenCode Browse",
    "url": "https://news.ycombinator.com/item?id=50523459",
    "link": "https://opencode.ai/product/browse",
-   "up": 299,
-   "com": 175,
+   "up": 305,
+   "com": 185,
    "at": "2026-11-16T21:20:37.000Z"
   },
   {
@@ -892,18 +901,9 @@
    "t": "United Airlines experiencing a widespread system outage, airline says",
    "url": "https://news.ycombinator.com/item?id=50524165",
    "link": "https://www.cnn.com/2026/11/16/us/united-airlines-outage",
-   "up": 240,
+   "up": 241,
    "com": 125,
    "at": "2026-11-16T22:14:38.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "My Empire of Dirt",
-   "url": "https://news.ycombinator.com/item?id=50530114",
-   "link": "https://geohot.github.io//blog/jekyll/update/2026/11/17/my-empire-of-dirt.html",
-   "up": 24,
-   "com": 16,
-   "at": "2026-11-17T11:39:20.000Z"
   }
  ]
 }
