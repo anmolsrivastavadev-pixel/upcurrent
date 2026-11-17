@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-17T13:01:09.812Z"
+  "updated": "2026-11-17T13:30:57.897Z"
  },
  "pulse": {
   "trending": 72,
   "accelerating": 1,
   "newModels": 9,
-  "discussions": 42,
-  "stars": 1175
+  "discussions": 45,
+  "stars": 1154
  },
  "rising": [
   {
@@ -22,7 +22,7 @@
    "cat": "Tools",
    "score": 91,
    "grow": 32,
-   "desc": "Model on Hugging Face · open source · ♥ 468",
+   "desc": "Model on Hugging Face · open source · ♥ 469",
    "meta": [
     "4.4K downloads",
     "Released 5 days ago"
@@ -37,11 +37,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 90,
-   "grow": 11,
+   "grow": 12,
    "desc": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
    "meta": [
-    "★ 2,387",
-    "+387 in 24h",
+    "★ 2,389",
+    "+378 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-11-12T14:32:15Z",
@@ -57,9 +57,9 @@
    "grow": 4,
    "desc": "muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现）",
    "meta": [
-    "★ 1,552",
-    "+185 in 24h",
-    "Created 3 days ago"
+    "★ 1,556",
+    "+186 in 24h",
+    "Created 4 days ago"
    ],
    "at": "2026-11-14T01:24:58Z",
    "breakout": null,
@@ -88,7 +88,7 @@
    "cat": "Vision",
    "score": 89,
    "grow": 16,
-   "desc": "Vision on Hugging Face · open weights · ♥ 509",
+   "desc": "Vision on Hugging Face · open weights · ♥ 510",
    "meta": [
     "2.7M downloads",
     "Released 9 days ago"
@@ -114,19 +114,19 @@
    "url": "https://huggingface.co/thinkingmachines/Inkling-2-Small"
   },
   {
-   "name": "AllocFlow: End-to-End Portfolio Trading Action Generation from Raw Market Data",
+   "name": "K2-Horizon: A Frontier Fleet of Open Source Language Models",
    "owner": "Paper",
    "src": "paper",
-   "url": "https://huggingface.co/papers/2611.19937",
+   "url": "https://huggingface.co/papers/2611.21003",
    "cat": "Research",
    "score": 85,
    "grow": null,
-   "desc": "Real-world portfolio management requires converting noisy market observations into coordinated, simultaneous allocations across multiple assets under shared capital constraints.",
+   "desc": "We present K2-Horizon, a fleet of six fully open language models, from a 0.9B dense model to a 375B-A23B MoE, built for general-purpose reasoning and agentic work across math and science, software engineering, deep research, office automation, and beyond.",
    "meta": [
-    "▲ 58 upvotes",
+    "▲ 55 upvotes",
     "Hugging Face Papers"
    ],
-   "at": "2026-11-14T19:00:00.000Z",
+   "at": "2026-11-15T19:00:00.000Z",
    "breakout": null
   },
   {
@@ -153,7 +153,7 @@
    "cat": "LLMs",
    "score": 84,
    "grow": 34,
-   "desc": "Model on Hugging Face · open source · ♥ 499",
+   "desc": "Model on Hugging Face · open source · ♥ 500",
    "meta": [
     "94K downloads",
     "Released 8 days ago"
@@ -169,7 +169,7 @@
    "cat": "LLMs",
    "score": 83,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 210",
+   "desc": "Model on Hugging Face · open source · ♥ 211",
    "meta": [
     "3K downloads",
     "Released 3 days ago"
@@ -182,11 +182,33 @@
  "breakouts": [],
  "hype": [
   {
+   "name": "Gemini 4",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "DEV",
+     "t": "High or Low Thinking? Gemini 4 and Gemma 4 on Hard Math, Cost First",
+     "url": "https://dev.to/gde/high-or-low-thinking-gemini-4-and-gemma-4-on-hard-math-cost-first-3091"
+    },
+    {
+     "src": "YouTube",
+     "t": "Gemini 4 Krypton BEATS FABLE 5.2!?, GPT-6.2 Preview, GLM-5.5 LEAKED & Claude Code UPDATE! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=iXvttGCoc1g"
+    }
+   ],
+   "buzz": 2,
+   "verdict": "Talk only, no public usage numbers"
+  },
+  {
    "name": "freebie-radar",
    "url": "https://github.com/ZiChuanLan/freebie-radar",
    "from": "GitHub",
-   "use": 447,
-   "useLabel": "+447 stars/day",
+   "use": 435,
+   "useLabel": "+435 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -300,8 +322,8 @@
  "github": [
   {
    "repo": "ZiChuanLan/freebie-radar",
-   "stars": 1355,
-   "d24": 447,
+   "stars": 1360,
+   "d24": 435,
    "est": false,
    "forks": 235,
    "contrib": null,
@@ -309,8 +331,8 @@
   },
   {
    "repo": "hitkeeen/blender-ai-mcp-addon",
-   "stars": 2387,
-   "d24": 387,
+   "stars": 2389,
+   "d24": 378,
    "est": false,
    "forks": 59,
    "contrib": null,
@@ -318,17 +340,17 @@
   },
   {
    "repo": "duwqijlk/muse-protocol",
-   "stars": 1552,
-   "d24": 185,
+   "stars": 1556,
+   "d24": 186,
    "est": false,
-   "forks": 615,
+   "forks": 616,
    "contrib": null,
    "score": 90
   },
   {
    "repo": "FrigadeHQ/yogurt",
-   "stars": 1950,
-   "d24": 156,
+   "stars": 1953,
+   "d24": 155,
    "est": false,
    "forks": 122,
    "contrib": null,
@@ -346,7 +368,7 @@
    "grow": 32,
    "score": 91,
    "cat": "Tools",
-   "likes": 468
+   "likes": 469
   },
   {
    "name": "MiniMax-H3-Image",
@@ -357,7 +379,7 @@
    "grow": 19,
    "score": 90,
    "cat": "Vision",
-   "likes": 1372
+   "likes": 1374
   },
   {
    "name": "MiniMax-H3-Image",
@@ -368,7 +390,7 @@
    "grow": 16,
    "score": 89,
    "cat": "Vision",
-   "likes": 509
+   "likes": 510
   },
   {
    "name": "Inkling-2-Small",
@@ -390,7 +412,7 @@
    "grow": 34,
    "score": 84,
    "cat": "LLMs",
-   "likes": 499
+   "likes": 500
   },
   {
    "name": "tiny-voca",
@@ -402,7 +424,7 @@
    "grow": null,
    "score": 83,
    "cat": "LLMs",
-   "likes": 210
+   "likes": 211
   }
  ],
  "free": [
@@ -717,6 +739,13 @@
  },
  "headlines": [
   {
+   "t": "Anthropic IPO: how can I buy shares, and is it worth it?",
+   "url": "https://www.theguardian.com/technology/2026/nov/17/anthropic-ipo-flotation-buy-shares-stock-market-claude-ai",
+   "at": "2026-11-17T13:00:48Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
    "t": "The Trump administration's proposal to curb China's remote access to AI chips rattles Southeast Asia, threatening a data center boom fueled by Chinese companies",
    "url": "https://www.techmeme.com/261117/p21#a261117p21",
    "at": "2026-11-17T12:45:03.000Z",
@@ -759,20 +788,6 @@
    "kind": "News"
   },
   {
-   "t": "Sources: Nvidia warned customers that the proposed Remote Access Security Act could expose them to US legal action if Chinese companies remotely access AI chips",
-   "url": "https://www.techmeme.com/261117/p9#a261117p9",
-   "at": "2026-11-17T10:32:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Nvidia's board establishes a National Security and Export Control Oversight Committee to oversee national security policies, export control compliance, and more",
-   "url": "https://www.techmeme.com/261117/p8#a261117p8",
-   "at": "2026-11-17T10:13:45.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Actors in UK to get more rights over their ‘digital replicas’ in deal on AI protections",
    "url": "https://www.theguardian.com/technology/2026/nov/17/actors-uk-rights-digital-replicas-ai-protections",
    "at": "2026-11-17T09:00:08Z",
@@ -794,6 +809,34 @@
    "kind": "News"
   },
   {
+   "t": "OpenAI Expands ChatGPT for Healthcare With New AI Agents and Industry Integrations",
+   "url": "https://www.europesays.com/3380401/",
+   "at": "2026-11-17T01:30:14Z",
+   "src": "EUROPE SAYS",
+   "kind": "News"
+  },
+  {
+   "t": "COP31 pushes industrial electrification, responsible AI as climate priorities",
+   "url": "https://www.hindustantimes.com/world-news/cop31-pushes-industrial-electrification-responsible-ai-as-climate-priorities-101794878882519.html",
+   "at": "2026-11-17T01:28:02Z",
+   "src": "Hindustan Times",
+   "kind": "News"
+  },
+  {
+   "t": "California sues OpenAI over safety concerns following Hugging Face cybersecurity incident",
+   "url": "https://www.thenews.com.pk/latest/1423897-california-sues-openai-over-safety-concerns-following-hugging-face-cybersecurity-incident",
+   "at": "2026-11-17T01:06:34Z",
+   "src": "The News International",
+   "kind": "News"
+  },
+  {
+   "t": "AI Boom Poses Job Displacement Risk, Warns Fed Chief",
+   "url": "https://www.lokmattimes.com/international/ai-boom-poses-job-displacement-risk-warns-fed-chief-a001-w02/",
+   "at": "2026-11-17T01:02:40Z",
+   "src": "Lokmat Times",
+   "kind": "News"
+  },
+  {
    "t": "Denmark is showing the world how to deal with AI job disruption",
    "url": "https://www.thestar.com.my/tech/tech-news/2026/11/17/denmark-is-showing-the-world-how-to-deal-with-ai-job-disruption",
    "at": "2026-11-17T01:00:00Z",
@@ -806,27 +849,6 @@
    "at": "2026-11-17T00:59:53Z",
    "src": "Hindustan Times",
    "kind": "News"
-  },
-  {
-   "t": "US moves to restrict remote access to advanced AI chips via third countries",
-   "url": "https://www.thestar.com.my/news/world/2026/11/17/us-moves-to-restrict-remote-access-to-advanced-ai-chips-via-third-countries",
-   "at": "2026-11-17T00:58:00Z",
-   "src": "The Star",
-   "kind": "News"
-  },
-  {
-   "t": "Wall Street Highlights: S&P 500, Nasdaq Fall Before Nvidia Earnings, Anthropic IPO",
-   "url": "https://www.ndtvprofit.com/markets/wall-street-highlights-s-p-500-nasdaq-fall-before-nvidia-earnings-anthropic-ipo-12336197",
-   "at": "2026-11-17T00:54:01Z",
-   "src": "NDTV Profit",
-   "kind": "News"
-  },
-  {
-   "t": "Anwar: China to boost AI technology transfer, training for Asean",
-   "url": "https://www.malaymail.com/news/malaysia/2026/11/17/anwar-china-to-boost-ai-technology-transfer-training-for-asean/243533",
-   "at": "2026-11-17T00:39:45Z",
-   "src": "Malay Mail",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -835,16 +857,16 @@
    "t": "Optimizely compromised, served malware on Zoom, GitLab",
    "url": "https://news.ycombinator.com/item?id=50524767",
    "link": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
-   "up": 432,
-   "com": 182,
+   "up": 445,
+   "com": 191,
    "at": "2026-11-16T23:00:34.000Z"
   },
   {
    "src": "DEV",
    "t": "Stratagem #35: Lena Made the Promises Interlock. The AI Still Can't See ACL's Full Reach.",
    "url": "https://dev.to/xulingfeng/stratagem-35-lena-made-the-promises-interlock-the-ai-still-cant-see-acls-full-reach-41i5",
-   "up": 29,
-   "com": 8,
+   "up": 39,
+   "com": 12,
    "at": "2026-11-17T12:01:34Z"
   },
   {
@@ -852,8 +874,8 @@
    "t": "How the Claude Code team thinks about verification",
    "url": "https://news.ycombinator.com/item?id=50529612",
    "link": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
-   "up": 63,
-   "com": 77,
+   "up": 71,
+   "com": 91,
    "at": "2026-11-17T10:20:40.000Z"
   },
   {
@@ -861,8 +883,8 @@
    "t": "OpenCode Browse",
    "url": "https://news.ycombinator.com/item?id=50523459",
    "link": "https://opencode.ai/product/browse",
-   "up": 295,
-   "com": 167,
+   "up": 299,
+   "com": 175,
    "at": "2026-11-16T21:20:37.000Z"
   },
   {
@@ -875,12 +897,13 @@
    "at": "2026-11-16T22:14:38.000Z"
   },
   {
-   "src": "DEV",
-   "t": "Could I Still Do This From Scratch?",
-   "url": "https://dev.to/dannwaneri/could-i-still-do-this-from-scratch-427h",
-   "up": 21,
-   "com": 1,
-   "at": "2026-11-17T11:26:15Z"
+   "src": "Hacker News",
+   "t": "My Empire of Dirt",
+   "url": "https://news.ycombinator.com/item?id=50530114",
+   "link": "https://geohot.github.io//blog/jekyll/update/2026/11/17/my-empire-of-dirt.html",
+   "up": 24,
+   "com": 16,
+   "at": "2026-11-17T11:39:20.000Z"
   }
  ]
 }
