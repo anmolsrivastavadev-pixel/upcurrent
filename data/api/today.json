@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-17T17:01:08.854Z"
+  "updated": "2026-11-17T17:30:56.949Z"
  },
  "pulse": {
   "trending": 73,
-  "accelerating": 2,
+  "accelerating": 3,
   "newModels": 9,
-  "discussions": 43,
-  "stars": 979
+  "discussions": 44,
+  "stars": 968
  },
  "rising": [
   {
@@ -22,7 +22,7 @@
    "cat": "Tools",
    "score": 92,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 476",
+   "desc": "Model on Hugging Face · open source · ♥ 478",
    "meta": [
     "4.4K downloads",
     "Released 5 days ago"
@@ -40,8 +40,8 @@
    "grow": 5,
    "desc": "muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现）",
    "meta": [
-    "★ 1,568",
-    "+153 in 24h",
+    "★ 1,569",
+    "+148 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-14T01:24:58Z",
@@ -81,20 +81,37 @@
    "url": "https://huggingface.co/thinkingmachines/Inkling-2-Small"
   },
   {
-   "name": "MiniMax-H3-Image",
-   "owner": "Comfy-Org",
+   "name": "ZONOS3-Mini",
+   "owner": "Zyphra",
    "src": "hf",
-   "cat": "Vision",
-   "score": 85,
-   "grow": 16,
-   "desc": "Vision on Hugging Face · open weights · ♥ 514",
+   "cat": "LLMs",
+   "score": 86,
+   "grow": 34,
+   "desc": "Model on Hugging Face · open source · ♥ 505",
    "meta": [
-    "2.7M downloads",
+    "94K downloads",
     "Released 9 days ago"
    ],
-   "at": "2026-11-08T20:37:23.000Z",
+   "at": "2026-11-09T05:03:57.000Z",
    "breakout": null,
-   "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image"
+   "url": "https://huggingface.co/Zyphra/ZONOS3-Mini"
+  },
+  {
+   "name": "lastbook",
+   "owner": "Immortal-Protocols",
+   "src": "gh",
+   "cat": "Vision",
+   "score": 85,
+   "grow": null,
+   "desc": "Offline knowledge AI, maps and videos for survival and rebuilding",
+   "meta": [
+    "★ 1,413",
+    "~298 in 24h",
+    "Created 5 days ago"
+   ],
+   "at": "2026-11-12T23:49:03Z",
+   "breakout": null,
+   "url": "https://github.com/Immortal-Protocols/lastbook"
   },
   {
    "name": "tiny-voca",
@@ -103,7 +120,7 @@
    "cat": "LLMs",
    "score": 85,
    "grow": 254,
-   "desc": "Model on Hugging Face · open source · ♥ 221",
+   "desc": "Model on Hugging Face · open source · ♥ 222",
    "meta": [
     "3K downloads",
     "Released 3 days ago"
@@ -122,7 +139,7 @@
    "grow": null,
    "desc": "We introduce Sage S1.5 Flash, a 320-billion-parameter general-purpose mixture-of-experts model designed to reason over scientific evidence and act in interactive environments.",
    "meta": [
-    "▲ 81 upvotes",
+    "▲ 83 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-11-15T19:00:00.000Z",
@@ -138,7 +155,7 @@
    "grow": null,
    "desc": "Turn your Zoom meetings into ready-to-present slides",
    "meta": [
-    "▲ 297 votes",
+    "▲ 298 votes",
     "101 comments",
     "Launched yesterday"
    ],
@@ -146,37 +163,20 @@
    "breakout": null
   },
   {
-   "name": "lastbook",
-   "owner": "Immortal-Protocols",
-   "src": "gh",
+   "name": "MiniMax-H3-Image",
+   "owner": "Comfy-Org",
+   "src": "hf",
    "cat": "Vision",
    "score": 84,
-   "grow": null,
-   "desc": "Offline knowledge AI, maps and videos for survival and rebuilding",
+   "grow": 16,
+   "desc": "Vision on Hugging Face · open weights · ♥ 514",
    "meta": [
-    "★ 1,385",
-    "~294 in 24h",
-    "Created 5 days ago"
+    "2.7M downloads",
+    "Released 9 days ago"
    ],
-   "at": "2026-11-12T23:49:03Z",
+   "at": "2026-11-08T20:37:23.000Z",
    "breakout": null,
-   "url": "https://github.com/Immortal-Protocols/lastbook"
-  },
-  {
-   "name": "ZONOS3-Mini",
-   "owner": "Zyphra",
-   "src": "hf",
-   "cat": "LLMs",
-   "score": 84,
-   "grow": 34,
-   "desc": "Model on Hugging Face · open source · ♥ 505",
-   "meta": [
-    "94K downloads",
-    "Released 8 days ago"
-   ],
-   "at": "2026-11-09T05:03:57.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/Zyphra/ZONOS3-Mini"
+   "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image"
   }
  ],
  "breakouts": [],
@@ -207,8 +207,8 @@
    "name": "freebie-radar",
    "url": "https://github.com/ZiChuanLan/freebie-radar",
    "from": "GitHub",
-   "use": 388,
-   "useLabel": "+388 stars/day",
+   "use": 382,
+   "useLabel": "+382 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -322,26 +322,26 @@
  "github": [
   {
    "repo": "ZiChuanLan/freebie-radar",
-   "stars": 1400,
-   "d24": 388,
+   "stars": 1405,
+   "d24": 382,
    "est": false,
-   "forks": 238,
+   "forks": 239,
    "contrib": null,
    "score": 81
   },
   {
    "repo": "Immortal-Protocols/lastbook",
-   "stars": 1385,
-   "d24": 294,
+   "stars": 1413,
+   "d24": 298,
    "est": true,
-   "forks": 173,
+   "forks": 175,
    "contrib": null,
-   "score": 84
+   "score": 85
   },
   {
    "repo": "duwqijlk/muse-protocol",
-   "stars": 1568,
-   "d24": 153,
+   "stars": 1569,
+   "d24": 148,
    "est": false,
    "forks": 620,
    "contrib": null,
@@ -349,8 +349,8 @@
   },
   {
    "repo": "FrigadeHQ/yogurt",
-   "stars": 1970,
-   "d24": 144,
+   "stars": 1971,
+   "d24": 140,
    "est": false,
    "forks": 122,
    "contrib": null,
@@ -368,7 +368,7 @@
    "grow": null,
    "score": 92,
    "cat": "Tools",
-   "likes": 476
+   "likes": 478
   },
   {
    "name": "MiniMax-H3-Image",
@@ -379,7 +379,7 @@
    "grow": 19,
    "score": 90,
    "cat": "Vision",
-   "likes": 1401
+   "likes": 1404
   },
   {
    "name": "Inkling-2-Small",
@@ -393,15 +393,15 @@
    "likes": 434
   },
   {
-   "name": "MiniMax-H3-Image",
-   "org": "Comfy-Org",
-   "lic": "Open weights",
-   "at": "2026-11-08T20:37:23.000Z",
-   "dl": 2660341,
-   "grow": 16,
-   "score": 85,
-   "cat": "Vision",
-   "likes": 514
+   "name": "ZONOS3-Mini",
+   "org": "Zyphra",
+   "lic": "Open source",
+   "at": "2026-11-09T05:03:57.000Z",
+   "dl": 93909,
+   "grow": 34,
+   "score": 86,
+   "cat": "LLMs",
+   "likes": 505
   },
   {
    "name": "tiny-voca",
@@ -413,18 +413,18 @@
    "grow": 254,
    "score": 85,
    "cat": "LLMs",
-   "likes": 221
+   "likes": 222
   },
   {
-   "name": "ZONOS3-Mini",
-   "org": "Zyphra",
-   "lic": "Open source",
-   "at": "2026-11-09T05:03:57.000Z",
-   "dl": 93909,
-   "grow": 34,
+   "name": "MiniMax-H3-Image",
+   "org": "Comfy-Org",
+   "lic": "Open weights",
+   "at": "2026-11-08T20:37:23.000Z",
+   "dl": 2660341,
+   "grow": 16,
    "score": 84,
-   "cat": "LLMs",
-   "likes": 505
+   "cat": "Vision",
+   "likes": 514
   }
  ],
  "free": [
@@ -739,6 +739,27 @@
  },
  "headlines": [
   {
+   "t": "Docs: Nvidia stopped reporting Singapore unit revenue in 2025 as it accounted for nearly 50% of global revenue; the unit's revenue rose 72% YoY to $104B in 2025",
+   "url": "https://www.techmeme.com/261117/p41#a261117p41",
+   "at": "2026-11-17T17:30:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Vals: in simulated scenarios, AI models from Anthropic, Google, xAI, DeepSeek, and OpenAI identified civilians, ambulances, and a school as military targets",
+   "url": "https://www.techmeme.com/261117/p39#a261117p39",
+   "at": "2026-11-17T17:10:00.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Source: Nvidia's board is not considering reinstating Huang, after he released a statement saying he \"made serious mistakes\" and fell below \"the standards\"",
+   "url": "https://www.techmeme.com/261117/p38#a261117p38",
+   "at": "2026-11-17T17:00:54.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Jensen Huang says he would be ‘honored’ to return to Nvidia as CEO ",
    "url": "https://www.theguardian.com/technology/2026/nov/17/nvidia-jensen-huang-statement",
    "at": "2026-11-17T16:40:55Z",
@@ -781,20 +802,6 @@
    "kind": "Lab blog"
   },
   {
-   "t": "Tiberius Aerospace, a defense-as-a-service startup that uses AI to design long-range supersonic artillery munitions, raised an $85M Series A at a $1B+ valuation",
-   "url": "https://www.techmeme.com/261117/p26#a261117p26",
-   "at": "2026-11-17T13:55:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "SEC filing: Amazon and Google are set to hold nearly 15% and 14% of Anthropic's outstanding capital stock, respectively, after its IPO and private placement",
-   "url": "https://www.techmeme.com/261117/p25#a261117p25",
-   "at": "2026-11-17T13:40:00.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Anthropic IPO: how can I buy shares, and is it worth it?",
    "url": "https://www.theguardian.com/technology/2026/nov/17/anthropic-ipo-flotation-buy-shares-stock-market-claude-ai",
    "at": "2026-11-17T13:00:48Z",
@@ -823,31 +830,24 @@
    "kind": "News"
   },
   {
-   "t": "California sues OpenAI after its AI agents went rogue and hacked Hugging Face",
-   "url": "https://www.malaymail.com/news/tech-gadgets/2026/11/17/california-sues-openai-after-its-ai-agents-went-rogue-and-hacked-hugging-face/243580",
-   "at": "2026-11-17T04:54:52Z",
-   "src": "Malay Mail",
+   "t": "California sues OpenAI, seeking court-ordered changes after the Hugging Face hack",
+   "url": "https://www.thehindu.com/sci-tech/technology/california-sues-openai-seeking-court-ordered-changes-after-the-hugging-face-hack/article71710460.ece",
+   "at": "2026-11-17T05:30:47Z",
+   "src": "The Hindu",
    "kind": "News"
   },
   {
-   "t": "Technical hurdles complicate efforts to curb AI cheating",
-   "url": "https://www.koreatimes.co.kr/southkorea/education/20261117/technical-hurdles-complicate-efforts-to-curb-ai-cheating",
-   "at": "2026-11-17T04:50:03Z",
-   "src": "The Korea Times",
+   "t": "Forensic expert challenges Jeffrey Epstein suicide ruling, says evidence points to homicide",
+   "url": "https://www.moneycontrol.com/world/was-jeffrey-epstein-strangled-before-being-hanged-forensic-expert-challenges-suicide-finding-article-14081990.html",
+   "at": "2026-11-17T05:28:17Z",
+   "src": "Moneycontrol",
    "kind": "News"
   },
   {
-   "t": "Stocks tumble on Wall Street as Nvidia leads another sell-off in technology companies",
-   "url": "https://www.manilatimes.net/2026/11/17/business/foreign-business/stocks-tumble-on-wall-street-as-nvidia-leads-another-sell-off-in-technology-companies/2471596",
-   "at": "2026-11-17T04:46:00Z",
-   "src": "The Manila Times",
-   "kind": "News"
-  },
-  {
-   "t": "California Sues OpenAI For Cyberattack On AI Platform Hugging Face",
-   "url": "https://www.ndtv.com/world-news/california-sues-openai-for-cyberattack-on-ai-platform-hugging-face-12336735",
-   "at": "2026-11-17T04:41:54Z",
-   "src": "NDTV.com",
+   "t": "U.S. Chip Export Curbs Have Mixed Implications for China's AI Industry",
+   "url": "https://www.marketscreener.com/news/u-s-chip-export-curbs-have-mixed-implications-for-china-s-ai-industry-ce785edfde88f22d",
+   "at": "2026-11-17T05:25:26Z",
+   "src": "MarketScreener",
    "kind": "News"
   }
  ],
@@ -857,8 +857,8 @@
    "t": "Baidu, Xiaomi CEOs warn of growing gap between AI hype and returns",
    "url": "https://news.ycombinator.com/item?id=50531751",
    "link": "https://www.scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns",
-   "up": 147,
-   "com": 176,
+   "up": 153,
+   "com": 195,
    "at": "2026-11-17T14:19:59.000Z"
   },
   {
@@ -866,8 +866,8 @@
    "t": "Optimizely compromised, served malware on Zoom, GitLab",
    "url": "https://news.ycombinator.com/item?id=50524767",
    "link": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
-   "up": 556,
-   "com": 220,
+   "up": 572,
+   "com": 225,
    "at": "2026-11-16T23:00:34.000Z"
   },
   {
@@ -875,8 +875,8 @@
    "t": "How the Claude Code team thinks about verification",
    "url": "https://news.ycombinator.com/item?id=50529612",
    "link": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
-   "up": 143,
-   "com": 135,
+   "up": 158,
+   "com": 145,
    "at": "2026-11-17T10:20:40.000Z"
   },
   {
@@ -884,8 +884,8 @@
    "t": "My Empire of Dirt",
    "url": "https://news.ycombinator.com/item?id=50530114",
    "link": "https://geohot.github.io//blog/jekyll/update/2026/11/17/my-empire-of-dirt.html",
-   "up": 102,
-   "com": 117,
+   "up": 103,
+   "com": 118,
    "at": "2026-11-17T11:39:20.000Z"
   },
   {
@@ -893,18 +893,18 @@
    "t": "S. Korea to send nationwide emergency alerts over college entrance exam cheating",
    "url": "https://news.ycombinator.com/item?id=50531484",
    "link": "https://apnews.com/article/south-korea-exam-cheating-ai-college-e25b5612dbf4bd09fdf9197254c4547e",
-   "up": 53,
-   "com": 67,
+   "up": 56,
+   "com": 68,
    "at": "2026-11-17T14:00:47.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "A.I. Just Blew Up a Key Tenet of Computer Science",
-   "url": "https://news.ycombinator.com/item?id=50532786",
-   "link": "https://www.nytimes.com/2026/11/06/science/ai-exponential-time-hypothesis.html",
-   "up": 25,
-   "com": 22,
-   "at": "2026-11-17T15:33:48.000Z"
+   "t": "OpenCode Browse",
+   "url": "https://news.ycombinator.com/item?id=50523459",
+   "link": "https://opencode.ai/product/browse",
+   "up": 314,
+   "com": 202,
+   "at": "2026-11-16T21:20:37.000Z"
   }
  ]
 }
