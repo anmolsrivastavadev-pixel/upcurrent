@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-18T11:30:58.613Z"
+  "updated": "2026-11-18T12:01:04.896Z"
  },
  "pulse": {
   "trending": 75,
   "accelerating": 1,
   "newModels": 11,
-  "discussions": 49,
-  "stars": 2955
+  "discussions": 48,
+  "stars": 2961
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 96,
-   "grow": 89,
+   "grow": 93,
    "desc": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
    "meta": [
-    "★ 2,346",
-    "+2,302 in 24h",
+    "★ 2,395",
+    "+2,304 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-16T12:10:36Z",
@@ -55,7 +55,7 @@
    "cat": "Tools",
    "score": 91,
    "grow": 20,
-   "desc": "Model on Hugging Face · open source · ♥ 571",
+   "desc": "Model on Hugging Face · open source · ♥ 574",
    "meta": [
     "5.3K downloads",
     "Released 6 days ago"
@@ -71,7 +71,7 @@
    "cat": "Agents",
    "score": 91,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 262",
+   "desc": "Model on Hugging Face · open source · ♥ 269",
    "meta": [
     "377 downloads",
     "Released 2 days ago"
@@ -101,12 +101,12 @@
    "owner": "duwqijlk",
    "src": "gh",
    "cat": "Tools",
-   "score": 88,
+   "score": 87,
    "grow": 1,
    "desc": "muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现）",
    "meta": [
-    "★ 1,617",
-    "+59 in 24h",
+    "★ 1,618",
+    "+58 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-14T01:24:58Z",
@@ -120,7 +120,7 @@
    "cat": "Vision",
    "score": 87,
    "grow": 64,
-   "desc": "Vision on Hugging Face · open source · ♥ 472",
+   "desc": "Vision on Hugging Face · open source · ♥ 473",
    "meta": [
     "30K downloads",
     "Released 14 days ago"
@@ -154,9 +154,9 @@
    "grow": null,
    "desc": "Offline knowledge AI, maps and videos for survival and rebuilding",
    "meta": [
-    "★ 1,972",
-    "~359 in 24h",
-    "Created 5 days ago"
+    "★ 1,981",
+    "~360 in 24h",
+    "Created 6 days ago"
    ],
    "at": "2026-11-12T23:49:03Z",
    "breakout": null,
@@ -172,7 +172,7 @@
    "grow": null,
    "desc": "We present Xing 4, a series of large language models that extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend.",
    "meta": [
-    "▲ 143 upvotes",
+    "▲ 144 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-11-16T19:00:00.000Z",
@@ -183,7 +183,7 @@
   {
    "key": "gpt 6.2",
    "label": "GPT-6.2",
-   "n": 4,
+   "n": 3,
    "sources": [
     {
      "src": "Hacker News",
@@ -194,11 +194,6 @@
      "src": "OpenAI blog",
      "t": "Introducing GPT-6.2 Astra and Sol",
      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol"
-    },
-    {
-     "src": "VentureBeat",
-     "t": "'Essentially unusable': OpenAI launches GPT-6.2 Astra and Sol to negative reception from AI power users",
-     "url": "https://venturebeat.com/technology/essentially-unusable-openai-launches-gpt-6-2-astra-and-sol-to-negative-reception-from-ai-power-users"
     },
     {
      "src": "YouTube",
@@ -252,17 +247,12 @@
      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol"
     },
     {
-     "src": "VentureBeat",
-     "t": "'Essentially unusable': OpenAI launches GPT-6.2 Astra and Sol to negative reception from AI power users",
-     "url": "https://venturebeat.com/technology/essentially-unusable-openai-launches-gpt-6-2-astra-and-sol-to-negative-reception-from-ai-power-users"
-    },
-    {
      "src": "YouTube",
      "t": "GPT-6.2 Astra Is INSANE! Gemini 4 Neon, OpenAI AGI CONFIRMED?!, Claude Code UPGRADES & MORE! AI NEWS",
      "url": "https://www.youtube.com/watch?v=WRdgKyOTPXA"
     }
    ],
-   "buzz": 4,
+   "buzz": 3,
    "verdict": "Talk only, no public usage numbers"
   },
   {
@@ -313,8 +303,8 @@
    "name": "rust-anything",
    "url": "https://github.com/erkamyaman/rust-anything",
    "from": "GitHub",
-   "use": 2302,
-   "useLabel": "+2,302 stars/day",
+   "use": 2304,
+   "useLabel": "+2,304 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -344,6 +334,16 @@
   }
  ],
  "receipts": [
+  {
+   "name": "janestreet/agent_skills",
+   "url": "https://github.com/janestreet/agent_skills",
+   "kind": "stars",
+   "first": "2026-11-09T16:01:05.533Z",
+   "firstV": 1423,
+   "m": 10000,
+   "at": "2026-11-18T12:01:04.896Z",
+   "lead": 211.99982305555557
+  },
   {
    "name": "Zyphra/ZONOS3-Mini",
    "url": "https://huggingface.co/Zyphra/ZONOS3-Mini",
@@ -413,32 +413,22 @@
    "m": 10000,
    "at": "2026-11-16T11:01:06.420Z",
    "lead": 62.50416055555556
-  },
-  {
-   "name": "vercel-labs/ui",
-   "url": "https://github.com/vercel-labs/ui",
-   "kind": "stars",
-   "first": "2026-11-13T20:30:51.442Z",
-   "firstV": 3597,
-   "m": 5000,
-   "at": "2026-11-16T03:30:58.249Z",
-   "lead": 55.001890833333334
   }
  ],
  "github": [
   {
    "repo": "erkamyaman/rust-anything",
-   "stars": 2346,
-   "d24": 2302,
+   "stars": 2395,
+   "d24": 2304,
    "est": false,
-   "forks": 184,
+   "forks": 189,
    "contrib": null,
    "score": 96
   },
   {
    "repo": "Immortal-Protocols/lastbook",
-   "stars": 1972,
-   "d24": 359,
+   "stars": 1981,
+   "d24": 360,
    "est": true,
    "forks": 262,
    "contrib": null,
@@ -446,21 +436,21 @@
   },
   {
    "repo": "ZiChuanLan/freebie-radar",
-   "stars": 1535,
-   "d24": 235,
+   "stars": 1542,
+   "d24": 239,
    "est": false,
    "forks": 259,
    "contrib": null,
-   "score": 78
+   "score": 79
   },
   {
    "repo": "duwqijlk/muse-protocol",
-   "stars": 1617,
-   "d24": 59,
+   "stars": 1618,
+   "d24": 58,
    "est": false,
    "forks": 635,
    "contrib": null,
-   "score": 88
+   "score": 87
   }
  ],
  "models": [
@@ -486,7 +476,7 @@
    "grow": 20,
    "score": 91,
    "cat": "Tools",
-   "likes": 571
+   "likes": 574
   },
   {
    "name": "Qwen3.8-27B-pi-adapted",
@@ -498,7 +488,7 @@
    "grow": null,
    "score": 91,
    "cat": "Agents",
-   "likes": 262
+   "likes": 269
   },
   {
    "name": "MiniMax-H3-Image",
@@ -509,7 +499,7 @@
    "grow": 4,
    "score": 90,
    "cat": "Vision",
-   "likes": 1561
+   "likes": 1564
   },
   {
    "name": "Inkling-2-Small",
@@ -520,7 +510,7 @@
    "grow": 64,
    "score": 87,
    "cat": "Vision",
-   "likes": 472
+   "likes": 473
   },
   {
    "name": "tiny-voca",
@@ -837,6 +827,27 @@
  },
  "headlines": [
   {
+   "t": "Masayoshi Son says passing on investing in Anthropic in 2023 was a \"mistake\", noting that \"by that point, we had already decided to invest in OpenAI\"",
+   "url": "https://www.techmeme.com/261118/p15#a261118p15",
+   "at": "2026-11-18T11:50:49.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "A growing religious and quasi-religious revival is permeating the AI industry, featuring apocalyptic warnings, secret prophecy lectures, and fringe movements",
+   "url": "https://www.techmeme.com/261118/p14#a261118p14",
+   "at": "2026-11-18T11:40:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "‘Zero’ evidence that recent cascade of tech outages are linked, says Rubio",
+   "url": "https://www.theguardian.com/us-news/2026/nov/18/zero-evidence-recent-tech-outages-linked-marco-rubio",
+   "at": "2026-11-18T11:35:36Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
    "t": "KPMG uses 100+ AI agents to conduct a parallel audit of a FTSE 250 company in a pilot, saying the AI asked \"better questions\" and dug deeper than human staff",
    "url": "https://www.techmeme.com/261118/p8#a261118p8",
    "at": "2026-11-18T10:55:02.000Z",
@@ -893,24 +904,17 @@
    "kind": "News"
   },
   {
-   "t": "LanceDB, which makes a multimodal lakehouse for AI training, built on the open format Lance, raised a $57.5M Series B led by Bessemer and Innovation Endeavors",
-   "url": "https://www.techmeme.com/261117/p72#a261117p72",
-   "at": "2026-11-18T04:30:05.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Sources: ex-Nvidia executive Jay Puri, who oversaw clients like Alice Huang, controlled chip sales to Supermicro; Puri is married to an ex-Supermicro executive",
-   "url": "https://www.techmeme.com/261117/p71#a261117p71",
-   "at": "2026-11-18T04:15:00.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Former NSA hacker on new tech outages: ‘There’s something here’",
    "url": "https://www.youtube.com/watch?v=XRIAzcO5ia4",
    "at": "2026-11-18T01:13:08Z",
    "src": "CNN",
+   "kind": "Video"
+  },
+  {
+   "t": "everything is breaking (because of AI) #gaming #news",
+   "url": "https://www.youtube.com/watch?v=t46zrtG74-k",
+   "at": "2026-11-18T01:00:29Z",
+   "src": "JtheSlopFrog",
    "kind": "Video"
   },
   {
@@ -928,24 +932,10 @@
    "kind": "Lab blog"
   },
   {
-   "t": "Nvidia doubles revenue as board says it does not intend to reinstate Jensen Huang",
-   "url": "https://www.theguardian.com/technology/2026/nov/17/nvidia-third-quarter-revenue-jensen-huang",
-   "at": "2026-11-17T23:32:16Z",
-   "src": "The Guardian",
-   "kind": "News"
-  },
-  {
-   "t": "Microsoft unveils AI models for coding, cybersecurity as it takes on Anthropic, OpenAI",
-   "url": "https://www.thestar.com.my/tech/tech-news/2026/11/18/microsoft-unveils-ai-models-for-coding-cybersecurity-as-it-takes-on-anthropic-openai",
-   "at": "2026-11-17T23:29:00Z",
-   "src": "The Star",
-   "kind": "News"
-  },
-  {
-   "t": "driven healthcare in remote J&K areas",
-   "url": "https://www.dailyexcelsior.com/itoo-bats-for-ai-driven-healthcare-in-remote-jk-areas/",
-   "at": "2026-11-17T23:25:40Z",
-   "src": "Daily Excelsior",
+   "t": "Nvidia beats estimates after ouster of CEO Jensen Huang",
+   "url": "https://torontosun.com/business/nvidia-beats-estimates-after-huang-ouster",
+   "at": "2026-11-17T23:50:01Z",
+   "src": "Toronto Sun",
    "kind": "News"
   }
  ],
@@ -955,8 +945,8 @@
    "t": "AI is killing All About Berlin",
    "url": "https://news.ycombinator.com/item?id=50542705",
    "link": "https://nicolasbouliane.com/blog/death-by-ai",
-   "up": 375,
-   "com": 346,
+   "up": 429,
+   "com": 403,
    "at": "2026-11-18T06:47:26.000Z"
   },
   {
@@ -964,8 +954,8 @@
    "t": "GPT‑6.2 Astra and Sol",
    "url": "https://news.ycombinator.com/item?id=50535230",
    "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
-   "up": 1283,
-   "com": 798,
+   "up": 1291,
+   "com": 808,
    "at": "2026-11-17T17:46:43.000Z"
   },
   {
@@ -973,8 +963,8 @@
    "t": "Google's AI answers reducing search traffic by 40%",
    "url": "https://news.ycombinator.com/item?id=50540178",
    "link": "https://revscope.co/blog/search-seo-geo-2026/",
-   "up": 425,
-   "com": 311,
+   "up": 459,
+   "com": 339,
    "at": "2026-11-18T00:17:58.000Z"
   },
   {
@@ -982,8 +972,8 @@
    "t": "Microsoft's ONNX Runtime has disappeared from GitHub",
    "url": "https://news.ycombinator.com/item?id=50539610",
    "link": "https://github.com/microsoft/onnxruntime",
-   "up": 340,
-   "com": 73,
+   "up": 350,
+   "com": 74,
    "at": "2026-11-17T23:18:49.000Z"
   },
   {
@@ -991,7 +981,7 @@
    "t": "MAI Code 2 and Code 2 Flash",
    "url": "https://news.ycombinator.com/item?id=50535885",
    "link": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
-   "up": 367,
+   "up": 377,
    "com": 155,
    "at": "2026-11-17T18:25:13.000Z"
   },
@@ -1000,8 +990,8 @@
    "t": "jQuery 4.1.0",
    "url": "https://news.ycombinator.com/item?id=50537156",
    "link": "https://github.com/jquery/jquery/releases/tag/4.1.0",
-   "up": 329,
-   "com": 167,
+   "up": 334,
+   "com": 175,
    "at": "2026-11-17T19:50:40.000Z"
   }
  ]
