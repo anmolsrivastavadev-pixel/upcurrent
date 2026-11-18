@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-18T12:01:04.896Z"
+  "updated": "2026-11-18T12:30:58.255Z"
  },
  "pulse": {
   "trending": 75,
   "accelerating": 1,
   "newModels": 11,
-  "discussions": 48,
-  "stars": 2961
+  "discussions": 47,
+  "stars": 2940
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 96,
-   "grow": 93,
+   "grow": 96,
    "desc": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
    "meta": [
-    "★ 2,395",
-    "+2,304 in 24h",
+    "★ 2,435",
+    "+2,289 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-16T12:10:36Z",
@@ -33,29 +33,13 @@
    "url": "https://github.com/erkamyaman/rust-anything"
   },
   {
-   "name": "SenseNova-Loop-9B",
-   "owner": "sensenova",
-   "src": "hf",
-   "cat": "Vision",
-   "score": 93,
-   "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 288",
-   "meta": [
-    "964 downloads",
-    "Released yesterday"
-   ],
-   "at": "2026-11-17T10:16:41.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B"
-  },
-  {
    "name": "Haru-4B",
    "owner": "higurashi-ai",
    "src": "hf",
    "cat": "Tools",
-   "score": 91,
+   "score": 93,
    "grow": 20,
-   "desc": "Model on Hugging Face · open source · ♥ 574",
+   "desc": "Model on Hugging Face · open source · ♥ 580",
    "meta": [
     "5.3K downloads",
     "Released 6 days ago"
@@ -69,9 +53,9 @@
    "owner": "harness-hub",
    "src": "hf",
    "cat": "Agents",
-   "score": 91,
+   "score": 92,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 269",
+   "desc": "Model on Hugging Face · open source · ♥ 275",
    "meta": [
     "377 downloads",
     "Released 2 days ago"
@@ -81,46 +65,13 @@
    "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted"
   },
   {
-   "name": "MiniMax-H3-Image",
-   "owner": "MiniMaxAI",
-   "src": "hf",
-   "cat": "Vision",
-   "score": 90,
-   "grow": 4,
-   "desc": "Vision on Hugging Face · open weights · ♥ 1.6K",
-   "meta": [
-    "760K downloads",
-    "Released 15 days ago"
-   ],
-   "at": "2026-11-03T06:34:36.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image"
-  },
-  {
-   "name": "muse-protocol",
-   "owner": "duwqijlk",
-   "src": "gh",
-   "cat": "Tools",
-   "score": 87,
-   "grow": 1,
-   "desc": "muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现）",
-   "meta": [
-    "★ 1,618",
-    "+58 in 24h",
-    "Created 4 days ago"
-   ],
-   "at": "2026-11-14T01:24:58Z",
-   "breakout": null,
-   "url": "https://github.com/duwqijlk/muse-protocol"
-  },
-  {
    "name": "Inkling-2-Small",
    "owner": "thinkingmachines",
    "src": "hf",
    "cat": "Vision",
-   "score": 87,
+   "score": 89,
    "grow": 64,
-   "desc": "Vision on Hugging Face · open source · ♥ 473",
+   "desc": "Vision on Hugging Face · open source · ♥ 476",
    "meta": [
     "30K downloads",
     "Released 14 days ago"
@@ -134,7 +85,7 @@
    "owner": "n4ze3m",
    "src": "hf",
    "cat": "LLMs",
-   "score": 86,
+   "score": 88,
    "grow": null,
    "desc": "Model on Hugging Face · open source · ♥ 264",
    "meta": [
@@ -146,6 +97,55 @@
    "url": "https://huggingface.co/n4ze3m/tiny-voca"
   },
   {
+   "name": "muse-protocol",
+   "owner": "duwqijlk",
+   "src": "gh",
+   "cat": "Tools",
+   "score": 87,
+   "grow": 1,
+   "desc": "muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现）",
+   "meta": [
+    "★ 1,618",
+    "+55 in 24h",
+    "Created 4 days ago"
+   ],
+   "at": "2026-11-14T01:24:58Z",
+   "breakout": null,
+   "url": "https://github.com/duwqijlk/muse-protocol"
+  },
+  {
+   "name": "MiniMax-H3-Image",
+   "owner": "MiniMaxAI",
+   "src": "hf",
+   "cat": "Vision",
+   "score": 87,
+   "grow": 4,
+   "desc": "Vision on Hugging Face · open weights · ♥ 1.6K",
+   "meta": [
+    "760K downloads",
+    "Released 15 days ago"
+   ],
+   "at": "2026-11-03T06:34:36.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image"
+  },
+  {
+   "name": "Hy4-flash",
+   "owner": "tencent",
+   "src": "hf",
+   "cat": "Vision",
+   "score": 86,
+   "grow": null,
+   "desc": "Vision on Hugging Face · open weights · ♥ 160",
+   "meta": [
+    "159 downloads",
+    "Released yesterday"
+   ],
+   "at": "2026-11-17T03:44:46.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/tencent/Hy4-flash"
+  },
+  {
    "name": "lastbook",
    "owner": "Immortal-Protocols",
    "src": "gh",
@@ -154,8 +154,8 @@
    "grow": null,
    "desc": "Offline knowledge AI, maps and videos for survival and rebuilding",
    "meta": [
-    "★ 1,981",
-    "~360 in 24h",
+    "★ 1,986",
+    "~359 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-11-12T23:49:03Z",
@@ -183,7 +183,7 @@
   {
    "key": "gpt 6.2",
    "label": "GPT-6.2",
-   "n": 3,
+   "n": 4,
    "sources": [
     {
      "src": "Hacker News",
@@ -199,6 +199,11 @@
      "src": "YouTube",
      "t": "GPT-6.2 Astra Is INSANE! Gemini 4 Neon, OpenAI AGI CONFIRMED?!, Claude Code UPGRADES & MORE! AI NEWS",
      "url": "https://www.youtube.com/watch?v=WRdgKyOTPXA"
+    },
+    {
+     "src": "Product Hunt",
+     "t": "GPT-6.2 Astra and Sol",
+     "url": "https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
     }
    ],
    "since": "2026-11-03T23:15:42.727Z"
@@ -303,8 +308,19 @@
    "name": "rust-anything",
    "url": "https://github.com/erkamyaman/rust-anything",
    "from": "GitHub",
-   "use": 2304,
-   "useLabel": "+2,304 stars/day",
+   "use": 2289,
+   "useLabel": "+2,289 stars/day",
+   "usePct": 1,
+   "talk": [],
+   "buzz": 0,
+   "verdict": "Used a lot, hardly talked about"
+  },
+  {
+   "name": "Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
+   "url": "https://huggingface.co/SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
+   "from": "Hugging Face",
+   "use": 4217023,
+   "useLabel": "4.2M downloads",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -316,17 +332,6 @@
    "from": "Hugging Face",
    "use": 2950724,
    "useLabel": "3M downloads",
-   "usePct": 1,
-   "talk": [],
-   "buzz": 0,
-   "verdict": "Used a lot, hardly talked about"
-  },
-  {
-   "name": "flux-3-image-klein-comfy",
-   "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
-   "from": "Hugging Face",
-   "use": 1037285,
-   "useLabel": "1M downloads",
    "usePct": 0.9666666666666667,
    "talk": [],
    "buzz": 0,
@@ -334,6 +339,16 @@
   }
  ],
  "receipts": [
+  {
+   "name": "mdiri-ai/SoduWork",
+   "url": "https://github.com/mdiri-ai/SoduWork",
+   "kind": "stars",
+   "first": "2026-11-17T06:01:08.543Z",
+   "firstV": 1217,
+   "m": 2500,
+   "at": "2026-11-18T12:30:58.255Z",
+   "lead": 30.497142222222223
+  },
   {
    "name": "janestreet/agent_skills",
    "url": "https://github.com/janestreet/agent_skills",
@@ -403,41 +418,31 @@
    "m": 25000,
    "at": "2026-11-17T04:30:55.617Z",
    "lead": 427.00075416666664
-  },
-  {
-   "name": "thinkingmachines/Inkling-2-Small",
-   "url": "https://huggingface.co/thinkingmachines/Inkling-2-Small",
-   "kind": "downloads",
-   "first": "2026-11-13T20:30:51.442Z",
-   "firstV": 1064,
-   "m": 10000,
-   "at": "2026-11-16T11:01:06.420Z",
-   "lead": 62.50416055555556
   }
  ],
  "github": [
   {
    "repo": "erkamyaman/rust-anything",
-   "stars": 2395,
-   "d24": 2304,
+   "stars": 2435,
+   "d24": 2289,
    "est": false,
-   "forks": 189,
+   "forks": 195,
    "contrib": null,
    "score": 96
   },
   {
    "repo": "Immortal-Protocols/lastbook",
-   "stars": 1981,
-   "d24": 360,
+   "stars": 1986,
+   "d24": 359,
    "est": true,
-   "forks": 262,
+   "forks": 263,
    "contrib": null,
    "score": 85
   },
   {
    "repo": "ZiChuanLan/freebie-radar",
-   "stars": 1542,
-   "d24": 239,
+   "stars": 1546,
+   "d24": 237,
    "est": false,
    "forks": 259,
    "contrib": null,
@@ -446,7 +451,7 @@
   {
    "repo": "duwqijlk/muse-protocol",
    "stars": 1618,
-   "d24": 58,
+   "d24": 55,
    "est": false,
    "forks": 635,
    "contrib": null,
@@ -455,18 +460,6 @@
  ],
  "models": [
   {
-   "name": "SenseNova-Loop-9B",
-   "org": "sensenova",
-   "size": "9B",
-   "lic": "Open source",
-   "at": "2026-11-17T10:16:41.000Z",
-   "dl": 964,
-   "grow": null,
-   "score": 93,
-   "cat": "Vision",
-   "likes": 288
-  },
-  {
    "name": "Haru-4B",
    "org": "higurashi-ai",
    "size": "4B",
@@ -474,9 +467,9 @@
    "at": "2026-11-12T11:05:59.000Z",
    "dl": 5314,
    "grow": 20,
-   "score": 91,
+   "score": 93,
    "cat": "Tools",
-   "likes": 574
+   "likes": 580
   },
   {
    "name": "Qwen3.8-27B-pi-adapted",
@@ -486,20 +479,9 @@
    "at": "2026-11-16T06:52:31.000Z",
    "dl": 377,
    "grow": null,
-   "score": 91,
+   "score": 92,
    "cat": "Agents",
-   "likes": 269
-  },
-  {
-   "name": "MiniMax-H3-Image",
-   "org": "MiniMaxAI",
-   "lic": "Open weights",
-   "at": "2026-11-03T06:34:36.000Z",
-   "dl": 759661,
-   "grow": 4,
-   "score": 90,
-   "cat": "Vision",
-   "likes": 1564
+   "likes": 275
   },
   {
    "name": "Inkling-2-Small",
@@ -508,9 +490,9 @@
    "at": "2026-11-04T19:51:05.000Z",
    "dl": 30082,
    "grow": 64,
-   "score": 87,
+   "score": 89,
    "cat": "Vision",
-   "likes": 473
+   "likes": 476
   },
   {
    "name": "tiny-voca",
@@ -520,9 +502,31 @@
    "at": "2026-11-14T15:46:27.000Z",
    "dl": 4430,
    "grow": null,
-   "score": 86,
+   "score": 88,
    "cat": "LLMs",
    "likes": 264
+  },
+  {
+   "name": "MiniMax-H3-Image",
+   "org": "MiniMaxAI",
+   "lic": "Open weights",
+   "at": "2026-11-03T06:34:36.000Z",
+   "dl": 759661,
+   "grow": 4,
+   "score": 87,
+   "cat": "Vision",
+   "likes": 1566
+  },
+  {
+   "name": "Hy4-flash",
+   "org": "tencent",
+   "lic": "Open weights",
+   "at": "2026-11-17T03:44:46.000Z",
+   "dl": 159,
+   "grow": null,
+   "score": 86,
+   "cat": "Vision",
+   "likes": 160
   }
  ],
  "free": [
@@ -827,6 +831,13 @@
  },
  "headlines": [
   {
+   "t": "A look at AI-related literary disputes and debates over Pangram, which flagged Peruvian author David Silva Rojas's award-winning novel as 99% AI-generated",
+   "url": "https://www.techmeme.com/261118/p16#a261118p16",
+   "at": "2026-11-18T12:00:58.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Masayoshi Son says passing on investing in Anthropic in 2023 was a \"mistake\", noting that \"by that point, we had already decided to invest in OpenAI\"",
    "url": "https://www.techmeme.com/261118/p15#a261118p15",
    "at": "2026-11-18T11:50:49.000Z",
@@ -883,20 +894,6 @@
    "kind": "News"
   },
   {
-   "t": "Anthropic IPO is set to redraw VC power rankings, with lesser-known firms like Spark Capital poised for outsized returns compared with larger, blue-chip rivals",
-   "url": "https://www.techmeme.com/261118/p3#a261118p3",
-   "at": "2026-11-18T07:00:41.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Microsoft makes Word, Excel, and PowerPoint generally available inside Copilot, which Satya Nadella calls \"the new OS for work\" in his Ignite keynote speech",
-   "url": "https://www.techmeme.com/261118/p1#a261118p1",
-   "at": "2026-11-18T05:40:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "‘Human’ wins Cambridge dictionary’s word of the year",
    "url": "https://www.theguardian.com/science/2026/nov/18/cambridge-word-of-the-year-human",
    "at": "2026-11-18T05:00:34Z",
@@ -918,24 +915,31 @@
    "kind": "Video"
   },
   {
-   "t": "Ofqual urges ‘life-altering’ penalties for students who use tech to cheat",
-   "url": "https://www.theguardian.com/education/2026/nov/18/ofqual-urges-life-altering-penalties-for-students-who-use-tech-to",
-   "at": "2026-11-18T00:01:25Z",
-   "src": "The Guardian",
+   "t": "Nvidia rejects Jensen Huang's offer to return as CEO despite pressure from Silicon Valley",
+   "url": "https://www.thestar.com.my/news/world/2026/11/18/nvidia-rejects-jensen-huang039s-offer-to-return-as-ceo-despite-pressure-from-silicon-valley",
+   "at": "2026-11-18T00:31:00Z",
+   "src": "The Star",
    "kind": "News"
   },
   {
-   "t": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
-   "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
-   "at": "2026-11-18T00:00:00.000Z",
-   "src": "OpenAI",
-   "kind": "Lab blog"
+   "t": "Aussie firms cautioned on artificial intelligence",
+   "url": "https://www.perthnow.com.au/news/business/aussie-firms-cautioned-on-artificial-intelligence-c-23177830",
+   "at": "2026-11-18T00:29:47Z",
+   "src": "PerthNow",
+   "kind": "News"
   },
   {
-   "t": "Nvidia beats estimates after ouster of CEO Jensen Huang",
-   "url": "https://torontosun.com/business/nvidia-beats-estimates-after-huang-ouster",
-   "at": "2026-11-17T23:50:01Z",
-   "src": "Toronto Sun",
+   "t": "India Strategic Partnership Forum chief Mukesh Aghi",
+   "url": "https://www.tribuneindia.com/news/world/india-very-pivotal-to-us-companies-says-us-india-strategic-partnership-forum-chief-mukesh-aghi/",
+   "at": "2026-11-18T00:17:14Z",
+   "src": "The Tribune",
+   "kind": "News"
+  },
+  {
+   "t": "“India very pivotal to US companies,” says US",
+   "url": "https://www.aninews.in/news/world/asia/8220india-very-pivotal-to-us-companies8221-says-us-india-strategic-partnership-forum-chief-mukesh-aghi16020261118054528/",
+   "at": "2026-11-18T00:15:28Z",
+   "src": "ANI (Asian News International)",
    "kind": "News"
   }
  ],
