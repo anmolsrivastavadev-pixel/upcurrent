@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-18T06:30:53.753Z"
+  "updated": "2026-11-18T07:01:06.321Z"
  },
  "pulse": {
   "trending": 75,
-  "accelerating": 2,
-  "newModels": 10,
-  "discussions": 44,
-  "stars": 3795
+  "accelerating": 1,
+  "newModels": 11,
+  "discussions": 46,
+  "stars": 3806
  },
  "rising": [
   {
@@ -21,16 +21,32 @@
    "src": "gh",
    "cat": "Agents",
    "score": 96,
-   "grow": 47,
+   "grow": 52,
    "desc": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
    "meta": [
-    "★ 1,831",
-    "+2,172 in 24h",
+    "★ 1,886",
+    "+2,205 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-16T12:10:36Z",
    "breakout": null,
    "url": "https://github.com/erkamyaman/rust-anything"
+  },
+  {
+   "name": "SenseNova-Loop-9B",
+   "owner": "sensenova",
+   "src": "hf",
+   "cat": "Vision",
+   "score": 94,
+   "grow": null,
+   "desc": "Vision on Hugging Face · open source · ♥ 236",
+   "meta": [
+    "0 downloads",
+    "Released 21h ago"
+   ],
+   "at": "2026-11-17T10:16:41.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B"
   },
   {
    "name": "Haru-4B",
@@ -39,7 +55,7 @@
    "cat": "Tools",
    "score": 92,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 532",
+   "desc": "Model on Hugging Face · open source · ♥ 537",
    "meta": [
     "4.4K downloads",
     "Released 6 days ago"
@@ -47,22 +63,6 @@
    "at": "2026-11-12T11:05:59.000Z",
    "breakout": null,
    "url": "https://huggingface.co/higurashi-ai/Haru-4B"
-  },
-  {
-   "name": "SenseNova-Loop-9B",
-   "owner": "sensenova",
-   "src": "hf",
-   "cat": "Vision",
-   "score": 92,
-   "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 230",
-   "meta": [
-    "0 downloads",
-    "Released 20h ago"
-   ],
-   "at": "2026-11-17T10:16:41.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B"
   },
   {
    "name": "MiniMax-H3-Image",
@@ -89,8 +89,8 @@
    "grow": null,
    "desc": "muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现）",
    "meta": [
-    "★ 1,603",
-    "~381 in 24h",
+    "★ 1,605",
+    "~379 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-14T01:24:58Z",
@@ -104,7 +104,7 @@
    "cat": "Vision",
    "score": 87,
    "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 445",
+   "desc": "Vision on Hugging Face · open source · ♥ 446",
    "meta": [
     "18K downloads",
     "Released 13 days ago"
@@ -118,9 +118,9 @@
    "owner": "harness-hub",
    "src": "hf",
    "cat": "Agents",
-   "score": 87,
+   "score": 86,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 191",
+   "desc": "Model on Hugging Face · open source · ♥ 195",
    "meta": [
     "0 downloads",
     "Released 2 days ago"
@@ -130,32 +130,16 @@
    "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted"
   },
   {
-   "name": "Qwen-Image-2.1-Uncensored-Omni-Quantized",
-   "owner": "chatrlabs",
-   "src": "hf",
-   "cat": "Infrastructure",
-   "score": 86,
-   "grow": null,
-   "desc": "Model on Hugging Face · open weights · ♥ 525",
-   "meta": [
-    "161K downloads",
-    "Released 15 days ago"
-   ],
-   "at": "2026-11-03T16:13:25.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized"
-  },
-  {
    "name": "lastbook",
    "owner": "Immortal-Protocols",
    "src": "gh",
    "cat": "Vision",
    "score": 85,
-   "grow": 53,
+   "grow": 54,
    "desc": "Offline knowledge AI, maps and videos for survival and rebuilding",
    "meta": [
-    "★ 1,894",
-    "+990 in 24h",
+    "★ 1,901",
+    "+970 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-11-12T23:49:03Z",
@@ -172,10 +156,27 @@
    "grow": null,
    "desc": "We present Xing 4, a series of large language models that extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend.",
    "meta": [
-    "▲ 111 upvotes",
+    "▲ 123 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-11-16T19:00:00.000Z",
+   "breakout": null
+  },
+  {
+   "name": "Zoom Slides",
+   "owner": "Product Hunt",
+   "src": "ph",
+   "url": "https://www.producthunt.com/products/zoom?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29",
+   "cat": "Tools",
+   "score": 85,
+   "grow": null,
+   "desc": "Turn your Zoom meetings into ready-to-present slides",
+   "meta": [
+    "▲ 300 votes",
+    "101 comments",
+    "Launched 2 days ago"
+   ],
+   "at": "2026-11-16T08:01:00Z",
    "breakout": null
   }
  ],
@@ -183,7 +184,7 @@
   {
    "key": "gpt 6.2",
    "label": "GPT-6.2",
-   "n": 5,
+   "n": 6,
    "sources": [
     {
      "src": "Hacker News",
@@ -194,6 +195,11 @@
      "src": "OpenAI blog",
      "t": "Introducing GPT-6.2 Astra and Sol",
      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol"
+    },
+    {
+     "src": "NewsBytes",
+     "t": "OpenAI releases GPT-6.2 Astra, Sol to outshine Anthropic's Claude Fable",
+     "url": "https://www.newsbytesapp.com/news/science/openai-releases-gpt-62-astra-sol-to-outshine-anthropics-claude-fable/tldr"
     },
     {
      "src": "CoinGape",
@@ -257,6 +263,11 @@
      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol"
     },
     {
+     "src": "NewsBytes",
+     "t": "OpenAI releases GPT-6.2 Astra, Sol to outshine Anthropic's Claude Fable",
+     "url": "https://www.newsbytesapp.com/news/science/openai-releases-gpt-62-astra-sol-to-outshine-anthropics-claude-fable/tldr"
+    },
+    {
      "src": "CoinGape",
      "t": "OpenAI Launches GPT-6.2 Astra and Sol With Major AI Performance Upgrades",
      "url": "https://coingape.com/openai-launches-gpt-6-2-astra-and-sol-with-major-ai-performance-upgrades/"
@@ -272,7 +283,7 @@
      "url": "https://www.youtube.com/watch?v=WRdgKyOTPXA"
     }
    ],
-   "buzz": 5,
+   "buzz": 6,
    "verdict": "Talk only, no public usage numbers"
   },
   {
@@ -303,11 +314,28 @@
    "verdict": "Talk only, no public usage numbers"
   },
   {
+   "name": "Hy4-flash",
+   "url": "https://huggingface.co/tencent/Hy4-flash",
+   "from": "Hugging Face",
+   "use": 0,
+   "useLabel": "0 downloads",
+   "usePct": 0.16666666666666666,
+   "talk": [
+    {
+     "src": "Hacker News",
+     "t": "Tencent Hy4 Flash",
+     "url": "https://news.ycombinator.com/item?id=50538184"
+    }
+   ],
+   "buzz": 1,
+   "verdict": "More talk than use"
+  },
+  {
    "name": "rust-anything",
    "url": "https://github.com/erkamyaman/rust-anything",
    "from": "GitHub",
-   "use": 2172,
-   "useLabel": "+2,172 stars/day",
+   "use": 2205,
+   "useLabel": "+2,205 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -421,34 +449,34 @@
  "github": [
   {
    "repo": "erkamyaman/rust-anything",
-   "stars": 1831,
-   "d24": 2172,
+   "stars": 1886,
+   "d24": 2205,
    "est": false,
-   "forks": 135,
+   "forks": 139,
    "contrib": null,
    "score": 96
   },
   {
    "repo": "Immortal-Protocols/lastbook",
-   "stars": 1894,
-   "d24": 990,
+   "stars": 1901,
+   "d24": 970,
    "est": false,
-   "forks": 242,
+   "forks": 243,
    "contrib": null,
    "score": 85
   },
   {
    "repo": "duwqijlk/muse-protocol",
-   "stars": 1603,
-   "d24": 381,
+   "stars": 1605,
+   "d24": 379,
    "est": true,
-   "forks": 630,
+   "forks": 632,
    "contrib": null,
    "score": 88
   },
   {
    "repo": "ZiChuanLan/freebie-radar",
-   "stars": 1486,
+   "stars": 1489,
    "d24": 252,
    "est": true,
    "forks": 253,
@@ -457,6 +485,18 @@
   }
  ],
  "models": [
+  {
+   "name": "SenseNova-Loop-9B",
+   "org": "sensenova",
+   "size": "9B",
+   "lic": "Open source",
+   "at": "2026-11-17T10:16:41.000Z",
+   "dl": 0,
+   "grow": null,
+   "score": 94,
+   "cat": "Vision",
+   "likes": 236
+  },
   {
    "name": "Haru-4B",
    "org": "higurashi-ai",
@@ -467,19 +507,7 @@
    "grow": 0,
    "score": 92,
    "cat": "Tools",
-   "likes": 532
-  },
-  {
-   "name": "SenseNova-Loop-9B",
-   "org": "sensenova",
-   "size": "9B",
-   "lic": "Open source",
-   "at": "2026-11-17T10:16:41.000Z",
-   "dl": 0,
-   "grow": null,
-   "score": 92,
-   "cat": "Vision",
-   "likes": 230
+   "likes": 537
   },
   {
    "name": "MiniMax-H3-Image",
@@ -490,7 +518,7 @@
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 1511
+   "likes": 1514
   },
   {
    "name": "Inkling-2-Small",
@@ -501,7 +529,7 @@
    "grow": null,
    "score": 87,
    "cat": "Vision",
-   "likes": 445
+   "likes": 446
   },
   {
    "name": "Qwen3.8-27B-pi-adapted",
@@ -511,9 +539,9 @@
    "at": "2026-11-16T06:52:31.000Z",
    "dl": 0,
    "grow": null,
-   "score": 87,
+   "score": 86,
    "cat": "Agents",
-   "likes": 191
+   "likes": 195
   },
   {
    "name": "Qwen-Image-2.1-Uncensored-Omni-Quantized",
@@ -522,9 +550,9 @@
    "at": "2026-11-03T16:13:25.000Z",
    "dl": 160748,
    "grow": null,
-   "score": 86,
+   "score": 84,
    "cat": "Infrastructure",
-   "likes": 525
+   "likes": 528
   }
  ],
  "free": [
@@ -915,6 +943,13 @@
    "kind": "Video"
   },
   {
+   "t": "OpenAI JUST made EVERYONE MAD...",
+   "url": "https://www.youtube.com/watch?v=tEysfZGzJc8",
+   "at": "2026-11-17T20:38:00Z",
+   "src": "Wes Roth",
+   "kind": "Video"
+  },
+  {
    "t": "California SUES OpenAI after hundreds of AI agents go ROGUE",
    "url": "https://www.youtube.com/watch?v=hMsMkBQRFmo",
    "at": "2026-11-17T20:30:17Z",
@@ -922,24 +957,17 @@
    "kind": "Video"
   },
   {
-   "t": "OpenAI Launches GPT-6.2 Astra and Sol With Major AI Performance Upgrades",
-   "url": "https://coingape.com/openai-launches-gpt-6-2-astra-and-sol-with-major-ai-performance-upgrades/",
-   "at": "2026-11-17T18:27:15Z",
-   "src": "CoinGape",
+   "t": "Anthropic forges ahead with its IPO even as AI fears mount and markets wobble",
+   "url": "https://www.breitbart.com/news/anthropic-forges-ahead-with-its-ipo-even-as-ai-fears-mount-and-markets-wobble/",
+   "at": "2026-11-17T19:00:54Z",
+   "src": "Breitbart News Network",
    "kind": "News"
   },
   {
-   "t": "OpenAI releases GPT-6.2 Astra and Sol for complex projects a week after Claude 5.2",
-   "url": "https://9to5google.com/2026/11/17/openai-releases-gpt-6-2-astra-and-sol-for-complex-projects-a-week-after-claude-5-2/",
-   "at": "2026-11-17T18:20:00Z",
-   "src": "9to5Google",
-   "kind": "News"
-  },
-  {
-   "t": "Why Anthropic is obsessed with existential risk",
-   "url": "https://edition.cnn.com/2026/11/17/business/anthropic-existential-risk-obsession-ipo",
-   "at": "2026-11-17T18:18:49Z",
-   "src": "Cable News Network",
+   "t": "OpenAI releases GPT-6.2 Astra, Sol to outshine Anthropic's Claude Fable",
+   "url": "https://www.newsbytesapp.com/news/science/openai-releases-gpt-62-astra-sol-to-outshine-anthropics-claude-fable/tldr",
+   "at": "2026-11-17T18:55:56Z",
+   "src": "NewsBytes",
    "kind": "News"
   }
  ],
@@ -949,8 +977,8 @@
    "t": "GPT‑6.2 Astra and Sol",
    "url": "https://news.ycombinator.com/item?id=50535230",
    "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
-   "up": 1200,
-   "com": 751,
+   "up": 1212,
+   "com": 758,
    "at": "2026-11-17T17:46:43.000Z"
   },
   {
@@ -958,8 +986,8 @@
    "t": "Google's AI answers reducing search traffic by 40%",
    "url": "https://news.ycombinator.com/item?id=50540178",
    "link": "https://revscope.co/blog/search-seo-geo-2026/",
-   "up": 276,
-   "com": 200,
+   "up": 292,
+   "com": 220,
    "at": "2026-11-18T00:17:58.000Z"
   },
   {
@@ -967,7 +995,7 @@
    "t": "Microsoft's ONNX Runtime has disappeared from GitHub",
    "url": "https://news.ycombinator.com/item?id=50539610",
    "link": "https://github.com/microsoft/onnxruntime",
-   "up": 247,
+   "up": 258,
    "com": 59,
    "at": "2026-11-17T23:18:49.000Z"
   },
@@ -976,8 +1004,8 @@
    "t": "jQuery 4.1.0",
    "url": "https://news.ycombinator.com/item?id=50537156",
    "link": "https://github.com/jquery/jquery/releases/tag/4.1.0",
-   "up": 298,
-   "com": 158,
+   "up": 304,
+   "com": 159,
    "at": "2026-11-17T19:50:40.000Z"
   },
   {
@@ -985,8 +1013,8 @@
    "t": "MAI Code 2 and Code 2 Flash",
    "url": "https://news.ycombinator.com/item?id=50535885",
    "link": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
-   "up": 328,
-   "com": 145,
+   "up": 332,
+   "com": 148,
    "at": "2026-11-17T18:25:13.000Z"
   },
   {
@@ -994,8 +1022,8 @@
    "t": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
    "url": "https://news.ycombinator.com/item?id=50538303",
    "link": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/",
-   "up": 137,
-   "com": 185,
+   "up": 149,
+   "com": 191,
    "at": "2026-11-17T21:16:12.000Z"
   }
  ]
