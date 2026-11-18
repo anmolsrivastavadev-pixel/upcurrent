@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-18T01:17:44.111Z"
+  "updated": "2026-11-18T01:30:52.903Z"
  },
  "pulse": {
   "trending": 75,
   "accelerating": 2,
   "newModels": 10,
-  "discussions": 45,
-  "stars": 2491
+  "discussions": 44,
+  "stars": 2480
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
    "meta": [
-    "★ 1,355",
-    "~876 in 24h",
+    "★ 1,369",
+    "~880 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-16T12:10:36Z",
@@ -74,7 +74,7 @@
    "desc": "muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现）",
    "meta": [
     "★ 1,589",
-    "+113 in 24h",
+    "+112 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-14T01:24:58Z",
@@ -88,7 +88,7 @@
    "cat": "Vision",
    "score": 89,
    "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 188",
+   "desc": "Vision on Hugging Face · open source · ♥ 189",
    "meta": [
     "0 downloads",
     "Released 15h ago"
@@ -119,11 +119,11 @@
    "src": "gh",
    "cat": "Vision",
    "score": 86,
-   "grow": 45,
+   "grow": 46,
    "desc": "Offline knowledge AI, maps and videos for survival and rebuilding",
    "meta": [
-    "★ 1,795",
-    "+1,249 in 24h",
+    "★ 1,800",
+    "+1,235 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-11-12T23:49:03Z",
@@ -268,8 +268,8 @@
    "name": "lastbook",
    "url": "https://github.com/Immortal-Protocols/lastbook",
    "from": "GitHub",
-   "use": 1249,
-   "useLabel": "+1,249 stars/day",
+   "use": 1235,
+   "useLabel": "+1,235 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -383,25 +383,25 @@
  "github": [
   {
    "repo": "Immortal-Protocols/lastbook",
-   "stars": 1795,
-   "d24": 1249,
+   "stars": 1800,
+   "d24": 1235,
    "est": false,
-   "forks": 230,
+   "forks": 231,
    "contrib": null,
    "score": 86
   },
   {
    "repo": "erkamyaman/rust-anything",
-   "stars": 1355,
-   "d24": 876,
+   "stars": 1369,
+   "d24": 880,
    "est": true,
-   "forks": 88,
+   "forks": 93,
    "contrib": null,
    "score": 95
   },
   {
    "repo": "ZiChuanLan/freebie-radar",
-   "stars": 1435,
+   "stars": 1438,
    "d24": 253,
    "est": true,
    "forks": 243,
@@ -411,9 +411,9 @@
   {
    "repo": "duwqijlk/muse-protocol",
    "stars": 1589,
-   "d24": 113,
+   "d24": 112,
    "est": false,
-   "forks": 626,
+   "forks": 627,
    "contrib": null,
    "score": 89
   }
@@ -440,7 +440,7 @@
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 1461
+   "likes": 1462
   },
   {
    "name": "SenseNova-Loop-9B",
@@ -452,7 +452,7 @@
    "grow": null,
    "score": 89,
    "cat": "Vision",
-   "likes": 188
+   "likes": 189
   },
   {
    "name": "Inkling-2-Small",
@@ -871,20 +871,6 @@
    "kind": "News"
   },
   {
-   "t": "OpenAI JUST made EVERYONE MAD...",
-   "url": "https://www.youtube.com/watch?v=tEysfZGzJc8",
-   "at": "2026-11-17T20:38:00Z",
-   "src": "Wes Roth",
-   "kind": "Video"
-  },
-  {
-   "t": "California SUES OpenAI after hundreds of AI agents go ROGUE",
-   "url": "https://www.youtube.com/watch?v=hMsMkBQRFmo",
-   "at": "2026-11-17T20:30:17Z",
-   "src": "Fox News Clips",
-   "kind": "Video"
-  },
-  {
    "t": "Jensen Huang to testify before Congress on ‘potential breach of national security’",
    "url": "https://www.theguardian.com/technology/2026/nov/17/jensen-huang-testify-congress-nvidia-affair-spy",
    "at": "2026-11-17T17:58:05Z",
@@ -911,6 +897,20 @@
    "at": "2026-11-17T14:50:24Z",
    "src": "The Guardian",
    "kind": "News"
+  },
+  {
+   "t": "Elon Musk joins Trump as US-China AI battle HEATS UP",
+   "url": "https://www.youtube.com/watch?v=VV3IhP5rNgE",
+   "at": "2026-11-17T14:15:17Z",
+   "src": "Fox News",
+   "kind": "Video"
+  },
+  {
+   "t": "Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents",
+   "url": "https://blogs.nvidia.com/blog/ian-buck-sc26/",
+   "at": "2026-11-17T14:00:10.000Z",
+   "src": "NVIDIA",
+   "kind": "Lab blog"
   }
  ],
  "discussions": [
@@ -919,8 +919,8 @@
    "t": "GPT‑6.2 Astra and Sol",
    "url": "https://news.ycombinator.com/item?id=50535230",
    "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
-   "up": 1071,
-   "com": 685,
+   "up": 1075,
+   "com": 689,
    "at": "2026-11-17T17:46:43.000Z"
   },
   {
@@ -928,8 +928,8 @@
    "t": "Microsoft's ONNX Runtime has disappeared from GitHub",
    "url": "https://news.ycombinator.com/item?id=50539610",
    "link": "https://github.com/microsoft/onnxruntime",
-   "up": 97,
-   "com": 22,
+   "up": 108,
+   "com": 25,
    "at": "2026-11-17T23:18:49.000Z"
   },
   {
@@ -937,8 +937,8 @@
    "t": "jQuery 4.1.0",
    "url": "https://news.ycombinator.com/item?id=50537156",
    "link": "https://github.com/jquery/jquery/releases/tag/4.1.0",
-   "up": 249,
-   "com": 134,
+   "up": 250,
+   "com": 138,
    "at": "2026-11-17T19:50:40.000Z"
   },
   {
@@ -946,8 +946,8 @@
    "t": "MAI Code 2 and Code 2 Flash",
    "url": "https://news.ycombinator.com/item?id=50535885",
    "link": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
-   "up": 281,
-   "com": 132,
+   "up": 284,
+   "com": 134,
    "at": "2026-11-17T18:25:13.000Z"
   },
   {
@@ -955,8 +955,8 @@
    "t": "Google's AI answers reducing search traffic by 40%",
    "url": "https://news.ycombinator.com/item?id=50540178",
    "link": "https://revscope.co/blog/search-seo-geo-2026/",
-   "up": 30,
-   "com": 14,
+   "up": 43,
+   "com": 21,
    "at": "2026-11-18T00:17:58.000Z"
   },
   {
@@ -964,8 +964,8 @@
    "t": "How the Claude Code team thinks about verification",
    "url": "https://news.ycombinator.com/item?id=50529612",
    "link": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
-   "up": 261,
-   "com": 202,
+   "up": 262,
+   "com": 205,
    "at": "2026-11-17T10:20:40.000Z"
   }
  ]
