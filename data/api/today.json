@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-18T17:01:10.897Z"
+  "updated": "2026-11-18T17:31:01.069Z"
  },
  "pulse": {
-  "trending": 74,
+  "trending": 75,
   "accelerating": 5,
   "newModels": 11,
-  "discussions": 42,
-  "stars": 3093
+  "discussions": 43,
+  "stars": 3055
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 97,
-   "grow": 132,
+   "grow": 135,
    "desc": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
    "meta": [
-    "★ 2,882",
-    "+2,314 in 24h",
+    "★ 2,920",
+    "+2,300 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-16T12:10:36Z",
@@ -33,29 +33,13 @@
    "url": "https://github.com/erkamyaman/rust-anything"
   },
   {
-   "name": "Haru-4B",
-   "owner": "higurashi-ai",
-   "src": "hf",
-   "cat": "Tools",
-   "score": 93,
-   "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 626",
-   "meta": [
-    "5.3K downloads",
-    "Released 6 days ago"
-   ],
-   "at": "2026-11-12T11:05:59.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/higurashi-ai/Haru-4B"
-  },
-  {
    "name": "Qwen3.8-27B-pi-adapted",
    "owner": "harness-hub",
    "src": "hf",
    "cat": "Agents",
-   "score": 93,
+   "score": 94,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 343",
+   "desc": "Model on Hugging Face · open source · ♥ 347",
    "meta": [
     "377 downloads",
     "Released 2 days ago"
@@ -65,11 +49,43 @@
    "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted"
   },
   {
+   "name": "Haru-4B",
+   "owner": "higurashi-ai",
+   "src": "hf",
+   "cat": "Tools",
+   "score": 93,
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 629",
+   "meta": [
+    "5.3K downloads",
+    "Released 6 days ago"
+   ],
+   "at": "2026-11-12T11:05:59.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/higurashi-ai/Haru-4B"
+  },
+  {
+   "name": "Hy4-flash",
+   "owner": "tencent",
+   "src": "hf",
+   "cat": "Vision",
+   "score": 90,
+   "grow": null,
+   "desc": "Vision on Hugging Face · open weights · ♥ 206",
+   "meta": [
+    "159 downloads",
+    "Released 2 days ago"
+   ],
+   "at": "2026-11-17T03:44:46.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/tencent/Hy4-flash"
+  },
+  {
    "name": "Inkling-2-Small",
    "owner": "thinkingmachines",
    "src": "hf",
    "cat": "Vision",
-   "score": 88,
+   "score": 89,
    "grow": 64,
    "desc": "Vision on Hugging Face · open source · ♥ 483",
    "meta": [
@@ -81,29 +97,13 @@
    "url": "https://huggingface.co/thinkingmachines/Inkling-2-Small"
   },
   {
-   "name": "Hy4-flash",
-   "owner": "tencent",
-   "src": "hf",
-   "cat": "Vision",
-   "score": 88,
-   "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 202",
-   "meta": [
-    "159 downloads",
-    "Released 2 days ago"
-   ],
-   "at": "2026-11-17T03:44:46.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/tencent/Hy4-flash"
-  },
-  {
    "name": "tiny-voca",
    "owner": "n4ze3m",
    "src": "hf",
    "cat": "LLMs",
-   "score": 87,
+   "score": 89,
    "grow": 46,
-   "desc": "Model on Hugging Face · open source · ♥ 275",
+   "desc": "Model on Hugging Face · open source · ♥ 277",
    "meta": [
     "4.4K downloads",
     "Released 4 days ago"
@@ -121,8 +121,8 @@
    "grow": 6,
    "desc": "Offline knowledge AI, maps and videos for survival and rebuilding",
    "meta": [
-    "★ 2,083",
-    "+480 in 24h",
+    "★ 2,088",
+    "+462 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-11-12T23:49:03Z",
@@ -138,7 +138,7 @@
    "grow": 2,
    "desc": "muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现）",
    "meta": [
-    "★ 1,625",
+    "★ 1,626",
     "+50 in 24h",
     "Created 5 days ago"
    ],
@@ -151,7 +151,7 @@
    "owner": "MiniMaxAI",
    "src": "hf",
    "cat": "Vision",
-   "score": 85,
+   "score": 86,
    "grow": 4,
    "desc": "Vision on Hugging Face · open weights · ♥ 1.6K",
    "meta": [
@@ -172,7 +172,7 @@
    "grow": null,
    "desc": "We present Xing 4, a series of large language models that extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend.",
    "meta": [
-    "▲ 147 upvotes",
+    "▲ 148 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-11-16T19:00:00.000Z",
@@ -183,7 +183,7 @@
   {
    "key": "gpt 6.2",
    "label": "GPT-6.2",
-   "n": 4,
+   "n": 6,
    "sources": [
     {
      "src": "Hacker News",
@@ -194,6 +194,16 @@
      "src": "OpenAI blog",
      "t": "Introducing GPT-6.2 Astra and Sol",
      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol"
+    },
+    {
+     "src": "Livemint",
+     "t": "OpenAI’s GPT-6.2 Astra and Sol arrive in GitHub Copilot with smarter coding and better code reviews",
+     "url": "https://www.livemint.com/ai/openais-gpt-6-2-astra-and-sol-arrive-in-github-copilot-with-smarter-coding-and-better-code-reviews-11794977458621.html"
+    },
+    {
+     "src": "Amazon.com",
+     "t": "OpenAI GPT-6.2 Astra, and GPT-6.2 Sol are now generally available on Amazon Bedrock",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/openai-gpt-6-2-astra-sol-amazon-bedrock/"
     },
     {
      "src": "YouTube",
@@ -230,6 +240,29 @@
     }
    ],
    "since": "2026-10-01T18:14:41.538Z"
+  },
+  {
+   "key": "gpt-6.2 astra and sol",
+   "label": "GPT-6.2 Astra and Sol",
+   "n": 3,
+   "sources": [
+    {
+     "src": "Product Hunt",
+     "t": "GPT-6.2 Astra and Sol",
+     "url": "https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
+    },
+    {
+     "src": "OpenAI blog",
+     "t": "Introducing GPT-6.2 Astra and Sol",
+     "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol"
+    },
+    {
+     "src": "Livemint",
+     "t": "OpenAI’s GPT-6.2 Astra and Sol arrive in GitHub Copilot with smarter coding and better code reviews",
+     "url": "https://www.livemint.com/ai/openais-gpt-6-2-astra-and-sol-arrive-in-github-copilot-with-smarter-coding-and-better-code-reviews-11794977458621.html"
+    }
+   ],
+   "since": "2026-11-18T17:31:01.069Z"
   }
  ],
  "hype": [
@@ -252,12 +285,22 @@
      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol"
     },
     {
+     "src": "Livemint",
+     "t": "OpenAI’s GPT-6.2 Astra and Sol arrive in GitHub Copilot with smarter coding and better code reviews",
+     "url": "https://www.livemint.com/ai/openais-gpt-6-2-astra-and-sol-arrive-in-github-copilot-with-smarter-coding-and-better-code-reviews-11794977458621.html"
+    },
+    {
+     "src": "Amazon.com",
+     "t": "OpenAI GPT-6.2 Astra, and GPT-6.2 Sol are now generally available on Amazon Bedrock",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/openai-gpt-6-2-astra-sol-amazon-bedrock/"
+    },
+    {
      "src": "YouTube",
      "t": "GPT-6.2 Astra Is INSANE! Gemini 4 Neon, OpenAI AGI CONFIRMED?!, Claude Code UPGRADES & MORE! AI NEWS",
      "url": "https://www.youtube.com/watch?v=WRdgKyOTPXA"
     }
    ],
-   "buzz": 3,
+   "buzz": 5,
    "verdict": "Talk only, no public usage numbers"
   },
   {
@@ -288,12 +331,34 @@
    "verdict": "Talk only, no public usage numbers"
   },
   {
+   "name": "GPT-6.2 Astra and Sol",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "OpenAI blog",
+     "t": "Introducing GPT-6.2 Astra and Sol",
+     "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol"
+    },
+    {
+     "src": "Livemint",
+     "t": "OpenAI’s GPT-6.2 Astra and Sol arrive in GitHub Copilot with smarter coding and better code reviews",
+     "url": "https://www.livemint.com/ai/openais-gpt-6-2-astra-and-sol-arrive-in-github-copilot-with-smarter-coding-and-better-code-reviews-11794977458621.html"
+    }
+   ],
+   "buzz": 2,
+   "verdict": "Talk only, no public usage numbers"
+  },
+  {
    "name": "Hy4-flash",
    "url": "https://huggingface.co/tencent/Hy4-flash",
    "from": "Hugging Face",
    "use": 159,
    "useLabel": "159 downloads",
-   "usePct": 0.10344827586206896,
+   "usePct": 0.1,
    "talk": [
     {
      "src": "Hacker News",
@@ -308,8 +373,19 @@
    "name": "rust-anything",
    "url": "https://github.com/erkamyaman/rust-anything",
    "from": "GitHub",
-   "use": 2314,
-   "useLabel": "+2,314 stars/day",
+   "use": 2300,
+   "useLabel": "+2,300 stars/day",
+   "usePct": 1,
+   "talk": [],
+   "buzz": 0,
+   "verdict": "Used a lot, hardly talked about"
+  },
+  {
+   "name": "Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
+   "url": "https://huggingface.co/SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
+   "from": "Hugging Face",
+   "use": 4217023,
+   "useLabel": "4.2M downloads",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -321,18 +397,7 @@
    "from": "Hugging Face",
    "use": 2950724,
    "useLabel": "3M downloads",
-   "usePct": 1,
-   "talk": [],
-   "buzz": 0,
-   "verdict": "Used a lot, hardly talked about"
-  },
-  {
-   "name": "flux-3-image-klein-comfy",
-   "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
-   "from": "Hugging Face",
-   "use": 1037285,
-   "useLabel": "1M downloads",
-   "usePct": 0.9655172413793104,
+   "usePct": 0.9666666666666667,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -423,17 +488,17 @@
  "github": [
   {
    "repo": "erkamyaman/rust-anything",
-   "stars": 2882,
-   "d24": 2314,
+   "stars": 2920,
+   "d24": 2300,
    "est": false,
-   "forks": 238,
+   "forks": 239,
    "contrib": null,
    "score": 97
   },
   {
    "repo": "Immortal-Protocols/lastbook",
-   "stars": 2083,
-   "d24": 480,
+   "stars": 2088,
+   "d24": 462,
    "est": false,
    "forks": 272,
    "contrib": null,
@@ -441,8 +506,8 @@
   },
   {
    "repo": "ZiChuanLan/freebie-radar",
-   "stars": 1598,
-   "d24": 249,
+   "stars": 1599,
+   "d24": 243,
    "est": false,
    "forks": 267,
    "contrib": null,
@@ -450,15 +515,27 @@
   },
   {
    "repo": "duwqijlk/muse-protocol",
-   "stars": 1625,
+   "stars": 1626,
    "d24": 50,
    "est": false,
-   "forks": 638,
+   "forks": 639,
    "contrib": null,
    "score": 86
   }
  ],
  "models": [
+  {
+   "name": "Qwen3.8-27B-pi-adapted",
+   "org": "harness-hub",
+   "size": "27B",
+   "lic": "Open source",
+   "at": "2026-11-16T06:52:31.000Z",
+   "dl": 377,
+   "grow": null,
+   "score": 94,
+   "cat": "Agents",
+   "likes": 347
+  },
   {
    "name": "Haru-4B",
    "org": "higurashi-ai",
@@ -469,30 +546,7 @@
    "grow": null,
    "score": 93,
    "cat": "Tools",
-   "likes": 626
-  },
-  {
-   "name": "Qwen3.8-27B-pi-adapted",
-   "org": "harness-hub",
-   "size": "27B",
-   "lic": "Open source",
-   "at": "2026-11-16T06:52:31.000Z",
-   "dl": 377,
-   "grow": null,
-   "score": 93,
-   "cat": "Agents",
-   "likes": 343
-  },
-  {
-   "name": "Inkling-2-Small",
-   "org": "thinkingmachines",
-   "lic": "Open source",
-   "at": "2026-11-04T19:51:05.000Z",
-   "dl": 30082,
-   "grow": 64,
-   "score": 88,
-   "cat": "Vision",
-   "likes": 483
+   "likes": 629
   },
   {
    "name": "Hy4-flash",
@@ -501,9 +555,20 @@
    "at": "2026-11-17T03:44:46.000Z",
    "dl": 159,
    "grow": null,
-   "score": 88,
+   "score": 90,
    "cat": "Vision",
-   "likes": 202
+   "likes": 206
+  },
+  {
+   "name": "Inkling-2-Small",
+   "org": "thinkingmachines",
+   "lic": "Open source",
+   "at": "2026-11-04T19:51:05.000Z",
+   "dl": 30082,
+   "grow": 64,
+   "score": 89,
+   "cat": "Vision",
+   "likes": 483
   },
   {
    "name": "tiny-voca",
@@ -513,9 +578,9 @@
    "at": "2026-11-14T15:46:27.000Z",
    "dl": 4430,
    "grow": 46,
-   "score": 87,
+   "score": 89,
    "cat": "LLMs",
-   "likes": 275
+   "likes": 277
   },
   {
    "name": "MiniMax-H3-Image",
@@ -524,7 +589,7 @@
    "at": "2026-11-03T06:34:36.000Z",
    "dl": 759661,
    "grow": 4,
-   "score": 85,
+   "score": 86,
    "cat": "Vision",
    "likes": 1571
   }
@@ -831,6 +896,27 @@
  },
  "headlines": [
   {
+   "t": "US senators urge White House AI chief to fix vulnerabilities after mass outages",
+   "url": "https://www.theguardian.com/us-news/2026/nov/18/jay-clayton-ai-tech-outages-infrastructure",
+   "at": "2026-11-18T17:25:00Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "Why Palantir’s health tech is not the right fit for the NHS | Letter",
+   "url": "https://www.theguardian.com/technology/2026/nov/18/why-palantirs-health-tech-is-not-the-right-fit-for-the-nhs",
+   "at": "2026-11-18T17:24:21Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "Sources: Anthropic is weighing upsizing its IPO, setting the price well above $80, up from its price range of $70-$78 per share, as investor demand surges",
+   "url": "https://www.techmeme.com/261118/p34#a261118p34",
+   "at": "2026-11-18T17:15:00.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Cybersecurity company Xint says it found RCE vulnerabilities in Nginx using GPT 6.1 Sol and GPT-6 Luna; Wiz says it had separately found the same flaws",
    "url": "https://www.techmeme.com/261118/p32#a261118p32",
    "at": "2026-11-18T16:25:01.000Z",
@@ -842,13 +928,6 @@
    "url": "https://www.techmeme.com/261118/p30#a261118p30",
    "at": "2026-11-18T16:01:45.000Z",
    "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "US senators urge White House AI chief to fix vulnerabilities after mass outages",
-   "url": "https://www.theguardian.com/us-news/2026/nov/18/jay-clayton-ai-tech-outages-infrastructure",
-   "at": "2026-11-18T15:53:10Z",
-   "src": "The Guardian",
    "kind": "News"
   },
   {
@@ -922,35 +1001,30 @@
    "kind": "News"
   },
   {
-   "t": "‘Human’ wins Cambridge dictionary’s word of the year",
-   "url": "https://www.theguardian.com/science/2026/nov/18/cambridge-word-of-the-year-human",
-   "at": "2026-11-18T05:00:34Z",
-   "src": "The Guardian",
-   "kind": "News"
-  },
-  {
-   "t": "Raising thinkers, not just AI users",
-   "url": "https://www.hindustantimes.com/ht-insight/future-tech/raising-thinkers-not-just-ai-users-101794977829084.html",
-   "at": "2026-11-18T04:59:13Z",
-   "src": "Hindustan Times",
-   "kind": "News"
-  },
-  {
-   "t": "Kellton Tech, KeOS Platform, Enterprise Agentic AI, Artificial Intelligence, AI Automation",
-   "url": "https://www.newsx.com/bl-news/kellton-tech-keos-platform-enterprise-agentic-ai-artificial-intelligence-ai-automation-293101/",
-   "at": "2026-11-18T04:58:08Z",
-   "src": "NewsX",
+   "t": "OpenAI’s GPT-6.2 Astra and Sol arrive in GitHub Copilot with smarter coding and better code reviews",
+   "url": "https://www.livemint.com/ai/openais-gpt-6-2-astra-and-sol-arrive-in-github-copilot-with-smarter-coding-and-better-code-reviews-11794977458621.html",
+   "at": "2026-11-18T05:27:22Z",
+   "src": "Livemint",
    "kind": "News"
   }
  ],
  "discussions": [
   {
    "src": "Hacker News",
+   "t": "Microsoft AI: Seven new world-class models at scalable price-performance",
+   "url": "https://news.ycombinator.com/item?id=50548021",
+   "link": "https://microsoft.ai/news/microsoft-ignite-2026/",
+   "up": 98,
+   "com": 56,
+   "at": "2026-11-18T16:08:24.000Z"
+  },
+  {
+   "src": "Hacker News",
    "t": "AI is killing All About Berlin",
    "url": "https://news.ycombinator.com/item?id=50542705",
    "link": "https://nicolasbouliane.com/blog/death-by-ai",
-   "up": 677,
-   "com": 622,
+   "up": 691,
+   "com": 633,
    "at": "2026-11-18T06:47:26.000Z"
   },
   {
@@ -959,44 +1033,35 @@
    "url": "https://news.ycombinator.com/item?id=50535230",
    "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
    "up": 1326,
-   "com": 834,
+   "com": 838,
    "at": "2026-11-17T17:46:43.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Microsoft AI: Seven new world-class models at scalable price-performance",
-   "url": "https://news.ycombinator.com/item?id=50548021",
-   "link": "https://microsoft.ai/news/microsoft-ignite-2026/",
-   "up": 49,
-   "com": 22,
-   "at": "2026-11-18T16:08:24.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Google's AI answers reducing search traffic by 40%",
    "url": "https://news.ycombinator.com/item?id=50540178",
    "link": "https://revscope.co/blog/search-seo-geo-2026/",
-   "up": 650,
-   "com": 496,
+   "up": 653,
+   "com": 506,
    "at": "2026-11-18T00:17:58.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "\"Anthropic Is Not a Safe AI Company\" – Coalition Challenges Anthropic Safety",
+   "url": "https://news.ycombinator.com/item?id=50548485",
+   "link": "https://www.businesswire.com/news/home/20261118974464/en/Anthropic-is-Not-a-Safe-AI-Company---Broad-Coalition-of-Scientists-Legal-Scholars-and-Tech-Leaders-Challenge-Anthropics-Safety-Branding-Ahead-of-IPO",
+   "up": 37,
+   "com": 12,
+   "at": "2026-11-18T16:41:22.000Z"
   },
   {
    "src": "Hacker News",
    "t": "U.S. AirForce is looking for old storage Media (CF or PC cards)",
    "url": "https://news.ycombinator.com/item?id=50547583",
    "link": "https://sam.gov/workspace/contract/opp/8948e8601e964c6aba9c801eee16b1be/view",
-   "up": 51,
-   "com": 19,
+   "up": 61,
+   "com": 27,
    "at": "2026-11-18T15:35:44.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Energy-Based Reasoners: 385x more efficient inference",
-   "url": "https://news.ycombinator.com/item?id=50543989",
-   "link": "https://energy-based-reasoners.github.io/",
-   "up": 242,
-   "com": 36,
-   "at": "2026-11-18T09:29:32.000Z"
   }
  ]
 }
