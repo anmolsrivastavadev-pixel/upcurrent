@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-18T12:30:58.255Z"
+  "updated": "2026-11-18T13:01:09.210Z"
  },
  "pulse": {
-  "trending": 75,
-  "accelerating": 1,
+  "trending": 74,
+  "accelerating": 2,
   "newModels": 11,
-  "discussions": 47,
-  "stars": 2940
+  "discussions": 49,
+  "stars": 2982
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 96,
-   "grow": 96,
+   "grow": 102,
    "desc": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
    "meta": [
-    "★ 2,435",
-    "+2,289 in 24h",
+    "★ 2,505",
+    "+2,330 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-16T12:10:36Z",
@@ -38,8 +38,8 @@
    "src": "hf",
    "cat": "Tools",
    "score": 93,
-   "grow": 20,
-   "desc": "Model on Hugging Face · open source · ♥ 580",
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 590",
    "meta": [
     "5.3K downloads",
     "Released 6 days ago"
@@ -55,7 +55,7 @@
    "cat": "Agents",
    "score": 92,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 275",
+   "desc": "Model on Hugging Face · open source · ♥ 283",
    "meta": [
     "377 downloads",
     "Released 2 days ago"
@@ -69,9 +69,9 @@
    "owner": "thinkingmachines",
    "src": "hf",
    "cat": "Vision",
-   "score": 89,
+   "score": 88,
    "grow": 64,
-   "desc": "Vision on Hugging Face · open source · ♥ 476",
+   "desc": "Vision on Hugging Face · open source · ♥ 477",
    "meta": [
     "30K downloads",
     "Released 14 days ago"
@@ -79,22 +79,6 @@
    "at": "2026-11-04T19:51:05.000Z",
    "breakout": null,
    "url": "https://huggingface.co/thinkingmachines/Inkling-2-Small"
-  },
-  {
-   "name": "tiny-voca",
-   "owner": "n4ze3m",
-   "src": "hf",
-   "cat": "LLMs",
-   "score": 88,
-   "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 264",
-   "meta": [
-    "4.4K downloads",
-    "Released 4 days ago"
-   ],
-   "at": "2026-11-14T15:46:27.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/n4ze3m/tiny-voca"
   },
   {
    "name": "muse-protocol",
@@ -106,7 +90,7 @@
    "desc": "muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现）",
    "meta": [
     "★ 1,618",
-    "+55 in 24h",
+    "+53 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-14T01:24:58Z",
@@ -130,20 +114,20 @@
    "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image"
   },
   {
-   "name": "Hy4-flash",
-   "owner": "tencent",
+   "name": "tiny-voca",
+   "owner": "n4ze3m",
    "src": "hf",
-   "cat": "Vision",
-   "score": 86,
-   "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 160",
+   "cat": "LLMs",
+   "score": 87,
+   "grow": 46,
+   "desc": "Model on Hugging Face · open source · ♥ 267",
    "meta": [
-    "159 downloads",
-    "Released yesterday"
+    "4.4K downloads",
+    "Released 4 days ago"
    ],
-   "at": "2026-11-17T03:44:46.000Z",
+   "at": "2026-11-14T15:46:27.000Z",
    "breakout": null,
-   "url": "https://huggingface.co/tencent/Hy4-flash"
+   "url": "https://huggingface.co/n4ze3m/tiny-voca"
   },
   {
    "name": "lastbook",
@@ -154,13 +138,29 @@
    "grow": null,
    "desc": "Offline knowledge AI, maps and videos for survival and rebuilding",
    "meta": [
-    "★ 1,986",
+    "★ 1,994",
     "~359 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-11-12T23:49:03Z",
    "breakout": null,
    "url": "https://github.com/Immortal-Protocols/lastbook"
+  },
+  {
+   "name": "Hy4-flash",
+   "owner": "tencent",
+   "src": "hf",
+   "cat": "Vision",
+   "score": 85,
+   "grow": null,
+   "desc": "Vision on Hugging Face · open weights · ♥ 164",
+   "meta": [
+    "159 downloads",
+    "Released yesterday"
+   ],
+   "at": "2026-11-17T03:44:46.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/tencent/Hy4-flash"
   },
   {
    "name": "TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frameworks",
@@ -293,7 +293,7 @@
    "from": "Hugging Face",
    "use": 159,
    "useLabel": "159 downloads",
-   "usePct": 0.1,
+   "usePct": 0.10344827586206896,
    "talk": [
     {
      "src": "Hacker News",
@@ -308,19 +308,8 @@
    "name": "rust-anything",
    "url": "https://github.com/erkamyaman/rust-anything",
    "from": "GitHub",
-   "use": 2289,
-   "useLabel": "+2,289 stars/day",
-   "usePct": 1,
-   "talk": [],
-   "buzz": 0,
-   "verdict": "Used a lot, hardly talked about"
-  },
-  {
-   "name": "Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
-   "url": "https://huggingface.co/SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
-   "from": "Hugging Face",
-   "use": 4217023,
-   "useLabel": "4.2M downloads",
+   "use": 2330,
+   "useLabel": "+2,330 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -332,13 +321,34 @@
    "from": "Hugging Face",
    "use": 2950724,
    "useLabel": "3M downloads",
-   "usePct": 0.9666666666666667,
+   "usePct": 1,
+   "talk": [],
+   "buzz": 0,
+   "verdict": "Used a lot, hardly talked about"
+  },
+  {
+   "name": "flux-3-image-klein-comfy",
+   "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
+   "from": "Hugging Face",
+   "use": 1037285,
+   "useLabel": "1M downloads",
+   "usePct": 0.9655172413793104,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
   }
  ],
  "receipts": [
+  {
+   "name": "erkamyaman/rust-anything",
+   "url": "https://github.com/erkamyaman/rust-anything",
+   "kind": "stars",
+   "first": "2026-11-18T00:01:08.004Z",
+   "firstV": 1243,
+   "m": 2500,
+   "at": "2026-11-18T13:01:09.210Z",
+   "lead": 13.000335
+  },
   {
    "name": "mdiri-ai/SoduWork",
    "url": "https://github.com/mdiri-ai/SoduWork",
@@ -408,41 +418,31 @@
    "m": 10000,
    "at": "2026-11-17T11:30:57.312Z",
    "lead": 242.2931563888889
-  },
-  {
-   "name": "ccch1mneyyy/dsh-Go",
-   "url": "https://github.com/ccch1mneyyy/dsh-Go",
-   "kind": "stars",
-   "first": "2026-10-30T09:30:52.902Z",
-   "firstV": 1311,
-   "m": 25000,
-   "at": "2026-11-17T04:30:55.617Z",
-   "lead": 427.00075416666664
   }
  ],
  "github": [
   {
    "repo": "erkamyaman/rust-anything",
-   "stars": 2435,
-   "d24": 2289,
+   "stars": 2505,
+   "d24": 2330,
    "est": false,
-   "forks": 195,
+   "forks": 199,
    "contrib": null,
    "score": 96
   },
   {
    "repo": "Immortal-Protocols/lastbook",
-   "stars": 1986,
+   "stars": 1994,
    "d24": 359,
    "est": true,
-   "forks": 263,
+   "forks": 265,
    "contrib": null,
    "score": 85
   },
   {
    "repo": "ZiChuanLan/freebie-radar",
-   "stars": 1546,
-   "d24": 237,
+   "stars": 1552,
+   "d24": 240,
    "est": false,
    "forks": 259,
    "contrib": null,
@@ -451,7 +451,7 @@
   {
    "repo": "duwqijlk/muse-protocol",
    "stars": 1618,
-   "d24": 55,
+   "d24": 53,
    "est": false,
    "forks": 635,
    "contrib": null,
@@ -466,10 +466,10 @@
    "lic": "Open source",
    "at": "2026-11-12T11:05:59.000Z",
    "dl": 5314,
-   "grow": 20,
+   "grow": null,
    "score": 93,
    "cat": "Tools",
-   "likes": 580
+   "likes": 590
   },
   {
    "name": "Qwen3.8-27B-pi-adapted",
@@ -481,7 +481,7 @@
    "grow": null,
    "score": 92,
    "cat": "Agents",
-   "likes": 275
+   "likes": 283
   },
   {
    "name": "Inkling-2-Small",
@@ -490,21 +490,9 @@
    "at": "2026-11-04T19:51:05.000Z",
    "dl": 30082,
    "grow": 64,
-   "score": 89,
-   "cat": "Vision",
-   "likes": 476
-  },
-  {
-   "name": "tiny-voca",
-   "org": "n4ze3m",
-   "size": "3m",
-   "lic": "Open source",
-   "at": "2026-11-14T15:46:27.000Z",
-   "dl": 4430,
-   "grow": null,
    "score": 88,
-   "cat": "LLMs",
-   "likes": 264
+   "cat": "Vision",
+   "likes": 477
   },
   {
    "name": "MiniMax-H3-Image",
@@ -515,7 +503,19 @@
    "grow": 4,
    "score": 87,
    "cat": "Vision",
-   "likes": 1566
+   "likes": 1567
+  },
+  {
+   "name": "tiny-voca",
+   "org": "n4ze3m",
+   "size": "3m",
+   "lic": "Open source",
+   "at": "2026-11-14T15:46:27.000Z",
+   "dl": 4430,
+   "grow": 46,
+   "score": 87,
+   "cat": "LLMs",
+   "likes": 267
   },
   {
    "name": "Hy4-flash",
@@ -524,9 +524,9 @@
    "at": "2026-11-17T03:44:46.000Z",
    "dl": 159,
    "grow": null,
-   "score": 86,
+   "score": 85,
    "cat": "Vision",
-   "likes": 160
+   "likes": 164
   }
  ],
  "free": [
@@ -915,31 +915,31 @@
    "kind": "Video"
   },
   {
-   "t": "Nvidia rejects Jensen Huang's offer to return as CEO despite pressure from Silicon Valley",
-   "url": "https://www.thestar.com.my/news/world/2026/11/18/nvidia-rejects-jensen-huang039s-offer-to-return-as-ceo-despite-pressure-from-silicon-valley",
-   "at": "2026-11-18T00:31:00Z",
+   "t": "'Human' is Cambridge's word of the year amid rise of AI",
+   "url": "https://www.indiatoday.in/education-today/grammar-vocabulary/story/cambridge-word-of-the-year-2026-human-ai-concerns-3041000-2026-11-18",
+   "at": "2026-11-18T01:00:00Z",
+   "src": "India Today",
+   "kind": "News"
+  },
+  {
+   "t": "Trump heads to China, betting on unscripted diplomacy with Xi and Putin",
+   "url": "https://www.ajc.com/news/2026/11/trump-heads-to-china-betting-on-unscripted-diplomacy-with-xi-and-putin/",
+   "at": "2026-11-18T00:53:29Z",
+   "src": "The Atlanta Journal-Constitution",
+   "kind": "News"
+  },
+  {
+   "t": "MCMC seeks details from Anthropic over alleged AI use in political manipulation targeting M’sia, Parliament told",
+   "url": "https://www.thestar.com.my/news/nation/2026/11/18/mcmc-seeks-details-from-anthropic-over-alleged-ai-use-in-political-manipulation-targeting-msia-parliament-told",
+   "at": "2026-11-18T00:50:00Z",
    "src": "The Star",
    "kind": "News"
   },
   {
-   "t": "Aussie firms cautioned on artificial intelligence",
-   "url": "https://www.perthnow.com.au/news/business/aussie-firms-cautioned-on-artificial-intelligence-c-23177830",
-   "at": "2026-11-18T00:29:47Z",
-   "src": "PerthNow",
-   "kind": "News"
-  },
-  {
-   "t": "India Strategic Partnership Forum chief Mukesh Aghi",
-   "url": "https://www.tribuneindia.com/news/world/india-very-pivotal-to-us-companies-says-us-india-strategic-partnership-forum-chief-mukesh-aghi/",
-   "at": "2026-11-18T00:17:14Z",
-   "src": "The Tribune",
-   "kind": "News"
-  },
-  {
-   "t": "“India very pivotal to US companies,” says US",
-   "url": "https://www.aninews.in/news/world/asia/8220india-very-pivotal-to-us-companies8221-says-us-india-strategic-partnership-forum-chief-mukesh-aghi16020261118054528/",
-   "at": "2026-11-18T00:15:28Z",
-   "src": "ANI (Asian News International)",
+   "t": "Lawmakers call for national data center construction pause",
+   "url": "https://www.weau.com/2026/11/18/lawmakers-call-national-data-center-construction-pause/",
+   "at": "2026-11-18T00:44:50Z",
+   "src": "WEAU",
    "kind": "News"
   }
  ],
@@ -949,8 +949,8 @@
    "t": "AI is killing All About Berlin",
    "url": "https://news.ycombinator.com/item?id=50542705",
    "link": "https://nicolasbouliane.com/blog/death-by-ai",
-   "up": 429,
-   "com": 403,
+   "up": 471,
+   "com": 438,
    "at": "2026-11-18T06:47:26.000Z"
   },
   {
@@ -958,8 +958,8 @@
    "t": "GPT‑6.2 Astra and Sol",
    "url": "https://news.ycombinator.com/item?id=50535230",
    "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
-   "up": 1291,
-   "com": 808,
+   "up": 1298,
+   "com": 811,
    "at": "2026-11-17T17:46:43.000Z"
   },
   {
@@ -967,36 +967,36 @@
    "t": "Google's AI answers reducing search traffic by 40%",
    "url": "https://news.ycombinator.com/item?id=50540178",
    "link": "https://revscope.co/blog/search-seo-geo-2026/",
-   "up": 459,
-   "com": 339,
+   "up": 497,
+   "com": 367,
    "at": "2026-11-18T00:17:58.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Energy-Based Reasoners: 385x more efficient inference",
+   "url": "https://news.ycombinator.com/item?id=50543989",
+   "link": "https://energy-based-reasoners.github.io/",
+   "up": 100,
+   "com": 14,
+   "at": "2026-11-18T09:29:32.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Microsoft's ONNX Runtime has disappeared from GitHub",
    "url": "https://news.ycombinator.com/item?id=50539610",
    "link": "https://github.com/microsoft/onnxruntime",
-   "up": 350,
-   "com": 74,
+   "up": 364,
+   "com": 77,
    "at": "2026-11-17T23:18:49.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "MAI Code 2 and Code 2 Flash",
-   "url": "https://news.ycombinator.com/item?id=50535885",
-   "link": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
-   "up": 377,
-   "com": 155,
-   "at": "2026-11-17T18:25:13.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "jQuery 4.1.0",
-   "url": "https://news.ycombinator.com/item?id=50537156",
-   "link": "https://github.com/jquery/jquery/releases/tag/4.1.0",
-   "up": 334,
-   "com": 175,
-   "at": "2026-11-17T19:50:40.000Z"
+   "t": "GTA 6 Review: It Is a Masterpiece",
+   "url": "https://news.ycombinator.com/item?id=50545232",
+   "link": "https://www.bloomberg.com/news/features/2026-11-18/gta-6-review-rockstar-games-latest-is-a-masterpiece",
+   "up": 26,
+   "com": 25,
+   "at": "2026-11-18T11:59:57.000Z"
   }
  ]
 }
