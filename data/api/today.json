@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-18T20:31:01.416Z"
+  "updated": "2026-11-18T21:01:12.912Z"
  },
  "pulse": {
   "trending": 75,
   "accelerating": 3,
   "newModels": 11,
   "discussions": 41,
-  "stars": 2015
+  "stars": 1998
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
    "meta": [
-    "★ 3,130",
-    "~1,333 in 24h",
+    "★ 3,154",
+    "~1,332 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-16T12:10:36Z",
@@ -39,7 +39,7 @@
    "cat": "Tools",
    "score": 93,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 647",
+   "desc": "Model on Hugging Face · open source · ♥ 652",
    "meta": [
     "5.3K downloads",
     "Released 6 days ago"
@@ -55,7 +55,7 @@
    "cat": "Agents",
    "score": 93,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 377",
+   "desc": "Model on Hugging Face · open source · ♥ 378",
    "meta": [
     "377 downloads",
     "Released 3 days ago"
@@ -71,7 +71,7 @@
    "cat": "Vision",
    "score": 90,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 220",
+   "desc": "Vision on Hugging Face · open weights · ♥ 221",
    "meta": [
     "159 downloads",
     "Released 2 days ago"
@@ -87,7 +87,7 @@
    "cat": "Vision",
    "score": 89,
    "grow": 64,
-   "desc": "Vision on Hugging Face · open source · ♥ 487",
+   "desc": "Vision on Hugging Face · open source · ♥ 488",
    "meta": [
     "30K downloads",
     "Released 14 days ago"
@@ -103,7 +103,7 @@
    "cat": "LLMs",
    "score": 89,
    "grow": 46,
-   "desc": "Model on Hugging Face · open source · ♥ 283",
+   "desc": "Model on Hugging Face · open source · ♥ 284",
    "meta": [
     "4.4K downloads",
     "Released 4 days ago"
@@ -111,6 +111,22 @@
    "at": "2026-11-14T15:46:27.000Z",
    "breakout": null,
    "url": "https://huggingface.co/n4ze3m/tiny-voca"
+  },
+  {
+   "name": "FastFrames-L",
+   "owner": "apple",
+   "src": "hf",
+   "cat": "Vision",
+   "score": 88,
+   "grow": null,
+   "desc": "Vision on Hugging Face · open weights · ♥ 201",
+   "meta": [
+    "0 downloads",
+    "Released 2 days ago"
+   ],
+   "at": "2026-11-16T17:21:04.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/apple/FastFrames-L"
   },
   {
    "name": "lastbook",
@@ -121,8 +137,8 @@
    "grow": 9,
    "desc": "Offline knowledge AI, maps and videos for survival and rebuilding",
    "meta": [
-    "★ 2,130",
-    "+422 in 24h",
+    "★ 2,135",
+    "+413 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-11-12T23:49:03Z",
@@ -139,7 +155,7 @@
    "desc": "muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现）",
    "meta": [
     "★ 1,626",
-    "+41 in 24h",
+    "+40 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-11-14T01:24:58Z",
@@ -161,25 +177,42 @@
    "at": "2026-11-03T06:34:36.000Z",
    "breakout": null,
    "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image"
-  },
-  {
-   "name": "FastFrames-L",
-   "owner": "apple",
-   "src": "hf",
-   "cat": "Vision",
-   "score": 86,
-   "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 197",
-   "meta": [
-    "0 downloads",
-    "Released 2 days ago"
-   ],
-   "at": "2026-11-16T17:21:04.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/apple/FastFrames-L"
   }
  ],
  "breakouts": [
+  {
+   "key": "gpt 6.2",
+   "label": "GPT-6.2",
+   "n": 5,
+   "sources": [
+    {
+     "src": "OpenAI blog",
+     "t": "Introducing GPT-6.2 Astra and Sol",
+     "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol"
+    },
+    {
+     "src": "Deccan Chronicle",
+     "t": "OpenAI Introduces New GPT-6.2 Astra and GPT-6.2 Sol AI Models",
+     "url": "https://www.deccanchronicle.com/technology/openai-introduces-new-gpt-62-astra-and-gpt-62-sol-ai-models-2005502"
+    },
+    {
+     "src": "Digitaldrops.com.br",
+     "t": "GPT-6.2 Astra: OpenAI lança seu novo modelo flagship",
+     "url": "https://digitaldrops.com.br/2026/11/gpt-6-2-astra-openai-lanca-seu-novo-modelo-flagship.html"
+    },
+    {
+     "src": "YouTube",
+     "t": "GPT-6.2 Astra Is INSANE! Gemini 4 Neon, OpenAI AGI CONFIRMED?!, Claude Code UPGRADES & MORE! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=WRdgKyOTPXA"
+    },
+    {
+     "src": "Product Hunt",
+     "t": "GPT-6.2 Astra and Sol",
+     "url": "https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
+    }
+   ],
+   "since": "2026-11-03T23:15:42.727Z"
+  },
   {
    "key": "gemini 4",
    "label": "Gemini 4",
@@ -202,32 +235,41 @@
     }
    ],
    "since": "2026-10-01T18:14:41.538Z"
-  },
+  }
+ ],
+ "hype": [
   {
-   "key": "gpt 6.2",
-   "label": "GPT-6.2",
-   "n": 3,
-   "sources": [
+   "name": "GPT-6.2",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
     {
      "src": "OpenAI blog",
      "t": "Introducing GPT-6.2 Astra and Sol",
      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol"
     },
     {
+     "src": "Deccan Chronicle",
+     "t": "OpenAI Introduces New GPT-6.2 Astra and GPT-6.2 Sol AI Models",
+     "url": "https://www.deccanchronicle.com/technology/openai-introduces-new-gpt-62-astra-and-gpt-62-sol-ai-models-2005502"
+    },
+    {
+     "src": "Digitaldrops.com.br",
+     "t": "GPT-6.2 Astra: OpenAI lança seu novo modelo flagship",
+     "url": "https://digitaldrops.com.br/2026/11/gpt-6-2-astra-openai-lanca-seu-novo-modelo-flagship.html"
+    },
+    {
      "src": "YouTube",
      "t": "GPT-6.2 Astra Is INSANE! Gemini 4 Neon, OpenAI AGI CONFIRMED?!, Claude Code UPGRADES & MORE! AI NEWS",
      "url": "https://www.youtube.com/watch?v=WRdgKyOTPXA"
-    },
-    {
-     "src": "Product Hunt",
-     "t": "GPT-6.2 Astra and Sol",
-     "url": "https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
     }
    ],
-   "since": "2026-11-03T23:15:42.727Z"
-  }
- ],
- "hype": [
+   "buzz": 4,
+   "verdict": "Talk only, no public usage numbers"
+  },
   {
    "name": "Gemini 4",
    "url": null,
@@ -256,28 +298,6 @@
    "verdict": "Talk only, no public usage numbers"
   },
   {
-   "name": "GPT-6.2",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
-    {
-     "src": "OpenAI blog",
-     "t": "Introducing GPT-6.2 Astra and Sol",
-     "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol"
-    },
-    {
-     "src": "YouTube",
-     "t": "GPT-6.2 Astra Is INSANE! Gemini 4 Neon, OpenAI AGI CONFIRMED?!, Claude Code UPGRADES & MORE! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=WRdgKyOTPXA"
-    }
-   ],
-   "buzz": 2,
-   "verdict": "Talk only, no public usage numbers"
-  },
-  {
    "name": "Hy4-flash",
    "url": "https://huggingface.co/tencent/Hy4-flash",
    "from": "Hugging Face",
@@ -298,8 +318,8 @@
    "name": "rust-anything",
    "url": "https://github.com/erkamyaman/rust-anything",
    "from": "GitHub",
-   "use": 1333,
-   "useLabel": "~1,333 stars/day",
+   "use": 1332,
+   "useLabel": "~1,332 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -413,26 +433,26 @@
  "github": [
   {
    "repo": "erkamyaman/rust-anything",
-   "stars": 3130,
-   "d24": 1333,
+   "stars": 3154,
+   "d24": 1332,
    "est": true,
-   "forks": 249,
+   "forks": 252,
    "contrib": null,
    "score": 97
   },
   {
    "repo": "Immortal-Protocols/lastbook",
-   "stars": 2130,
-   "d24": 422,
+   "stars": 2135,
+   "d24": 413,
    "est": false,
-   "forks": 275,
+   "forks": 278,
    "contrib": null,
    "score": 86
   },
   {
    "repo": "ZiChuanLan/freebie-radar",
    "stars": 1610,
-   "d24": 219,
+   "d24": 213,
    "est": false,
    "forks": 268,
    "contrib": null,
@@ -441,9 +461,9 @@
   {
    "repo": "duwqijlk/muse-protocol",
    "stars": 1626,
-   "d24": 41,
+   "d24": 40,
    "est": false,
-   "forks": 640,
+   "forks": 641,
    "contrib": null,
    "score": 86
   }
@@ -459,7 +479,7 @@
    "grow": 0,
    "score": 93,
    "cat": "Tools",
-   "likes": 647
+   "likes": 652
   },
   {
    "name": "Qwen3.8-27B-pi-adapted",
@@ -471,7 +491,7 @@
    "grow": null,
    "score": 93,
    "cat": "Agents",
-   "likes": 377
+   "likes": 378
   },
   {
    "name": "Hy4-flash",
@@ -482,7 +502,7 @@
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 220
+   "likes": 221
   },
   {
    "name": "Inkling-2-Small",
@@ -493,7 +513,7 @@
    "grow": 64,
    "score": 89,
    "cat": "Vision",
-   "likes": 487
+   "likes": 488
   },
   {
    "name": "tiny-voca",
@@ -505,18 +525,18 @@
    "grow": 46,
    "score": 89,
    "cat": "LLMs",
-   "likes": 283
+   "likes": 284
   },
   {
-   "name": "MiniMax-H3-Image",
-   "org": "MiniMaxAI",
+   "name": "FastFrames-L",
+   "org": "apple",
    "lic": "Open weights",
-   "at": "2026-11-03T06:34:36.000Z",
-   "dl": 759661,
-   "grow": 4,
-   "score": 86,
+   "at": "2026-11-16T17:21:04.000Z",
+   "dl": 0,
+   "grow": null,
+   "score": 88,
    "cat": "Vision",
-   "likes": 1576
+   "likes": 201
   }
  ],
  "free": [
@@ -939,35 +959,35 @@
    "t": "Seven new models at scalable price-performance",
    "url": "https://news.ycombinator.com/item?id=50548021",
    "link": "https://microsoft.ai/news/microsoft-ignite-2026/",
-   "up": 312,
-   "com": 201,
+   "up": 331,
+   "com": 216,
    "at": "2026-11-18T16:08:24.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Genie 4 is now available",
-   "url": "https://news.ycombinator.com/item?id=50550415",
-   "link": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
-   "up": 96,
-   "com": 76,
-   "at": "2026-11-18T18:49:51.000Z"
   },
   {
    "src": "Hacker News",
    "t": "AI is killing All About Berlin",
    "url": "https://news.ycombinator.com/item?id=50542705",
    "link": "https://nicolasbouliane.com/blog/death-by-ai",
-   "up": 725,
-   "com": 659,
+   "up": 732,
+   "com": 664,
    "at": "2026-11-18T06:47:26.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Genie 4 is now available",
+   "url": "https://news.ycombinator.com/item?id=50550415",
+   "link": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+   "up": 112,
+   "com": 90,
+   "at": "2026-11-18T18:49:51.000Z"
   },
   {
    "src": "Hacker News",
    "t": "AI agents ask better questions than KPMG accountants in audit trial",
    "url": "https://news.ycombinator.com/item?id=50547777",
    "link": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
-   "up": 174,
-   "com": 91,
+   "up": 193,
+   "com": 100,
    "at": "2026-11-18T15:49:34.000Z"
   },
   {
@@ -975,8 +995,8 @@
    "t": "Google's AI answers reducing search traffic by 40%",
    "url": "https://news.ycombinator.com/item?id=50540178",
    "link": "https://revscope.co/blog/search-seo-geo-2026/",
-   "up": 674,
-   "com": 524,
+   "up": 676,
+   "com": 525,
    "at": "2026-11-18T00:17:58.000Z"
   },
   {
@@ -984,8 +1004,8 @@
    "t": "\"Anthropic Is Not a Safe AI Company\" – Coalition Challenges Anthropic Safety",
    "url": "https://news.ycombinator.com/item?id=50548485",
    "link": "https://www.businesswire.com/news/home/20261118974464/en/Anthropic-is-Not-a-Safe-AI-Company---Broad-Coalition-of-Scientists-Legal-Scholars-and-Tech-Leaders-Challenge-Anthropics-Safety-Branding-Ahead-of-IPO",
-   "up": 118,
-   "com": 72,
+   "up": 119,
+   "com": 75,
    "at": "2026-11-18T16:41:22.000Z"
   }
  ]
