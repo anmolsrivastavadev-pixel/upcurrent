@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-18T19:01:09.246Z"
+  "updated": "2026-11-18T19:31:01.611Z"
  },
  "pulse": {
   "trending": 74,
-  "accelerating": 5,
+  "accelerating": 4,
   "newModels": 11,
-  "discussions": 40,
-  "stars": 2995
+  "discussions": 42,
+  "stars": 2957
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 97,
-   "grow": 144,
+   "grow": 147,
    "desc": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
    "meta": [
-    "★ 3,039",
-    "+2,269 in 24h",
+    "★ 3,067",
+    "+2,245 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-16T12:10:36Z",
@@ -39,7 +39,7 @@
    "cat": "Tools",
    "score": 93,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 640",
+   "desc": "Model on Hugging Face · open source · ♥ 641",
    "meta": [
     "5.3K downloads",
     "Released 6 days ago"
@@ -55,7 +55,7 @@
    "cat": "Agents",
    "score": 93,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 367",
+   "desc": "Model on Hugging Face · open source · ♥ 371",
    "meta": [
     "377 downloads",
     "Released 3 days ago"
@@ -71,7 +71,7 @@
    "cat": "Vision",
    "score": 90,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 213",
+   "desc": "Vision on Hugging Face · open weights · ♥ 214",
    "meta": [
     "159 downloads",
     "Released 2 days ago"
@@ -121,8 +121,8 @@
    "grow": 8,
    "desc": "Offline knowledge AI, maps and videos for survival and rebuilding",
    "meta": [
-    "★ 2,112",
-    "+447 in 24h",
+    "★ 2,118",
+    "+438 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-11-12T23:49:03Z",
@@ -139,7 +139,7 @@
    "desc": "muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现）",
    "meta": [
     "★ 1,626",
-    "+45 in 24h",
+    "+44 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-11-14T01:24:58Z",
@@ -181,9 +181,32 @@
  ],
  "breakouts": [
   {
+   "key": "gemini 4",
+   "label": "Gemini 4",
+   "n": 3,
+   "sources": [
+    {
+     "src": "Hacker News",
+     "t": "Why is Gemini 4 Carbon taking so long?",
+     "url": "https://news.ycombinator.com/item?id=50541790"
+    },
+    {
+     "src": "DEV",
+     "t": "Five Palaces, One Model: Testing Google’s Gemini 4 Hydrogen in AI Studio",
+     "url": "https://dev.to/amananandrai/i-built-5-interactive-3d-palaces-with-googles-new-gemini-4-hydrogen-in-ai-studio-5g8h"
+    },
+    {
+     "src": "YouTube",
+     "t": "GPT-6.2 Astra Is INSANE! Gemini 4 Neon, OpenAI AGI CONFIRMED?!, Claude Code UPGRADES & MORE! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=WRdgKyOTPXA"
+    }
+   ],
+   "since": "2026-10-01T18:14:41.538Z"
+  },
+  {
    "key": "gpt 6.2",
    "label": "GPT-6.2",
-   "n": 4,
+   "n": 3,
    "sources": [
     {
      "src": "OpenAI blog",
@@ -191,14 +214,9 @@
      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol"
     },
     {
-     "src": "Crypto Briefing",
-     "t": "OpenAI’s GPT-6.2 Astra scores 174 on Epoch Capabilities Index, tying Claude Fable 5.2",
-     "url": "https://cryptobriefing.com/gpt-6-2-astra-epoch-capabilities-index-174/"
-    },
-    {
-     "src": "Newmobilelife.com",
-     "t": "OpenAI 推出 GPT-6.2 Astra 與 Sol　ChatGPT、Codex 及 API 即日同步上線",
-     "url": "https://www.newmobilelife.com/2026/11/18/openai-gpt-6-2-astra-sol/"
+     "src": "YouTube",
+     "t": "GPT-6.2 Astra Is INSANE! Gemini 4 Neon, OpenAI AGI CONFIRMED?!, Claude Code UPGRADES & MORE! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=WRdgKyOTPXA"
     },
     {
      "src": "Product Hunt",
@@ -210,33 +228,6 @@
   }
  ],
  "hype": [
-  {
-   "name": "GPT-6.2",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
-    {
-     "src": "OpenAI blog",
-     "t": "Introducing GPT-6.2 Astra and Sol",
-     "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol"
-    },
-    {
-     "src": "Crypto Briefing",
-     "t": "OpenAI’s GPT-6.2 Astra scores 174 on Epoch Capabilities Index, tying Claude Fable 5.2",
-     "url": "https://cryptobriefing.com/gpt-6-2-astra-epoch-capabilities-index-174/"
-    },
-    {
-     "src": "Newmobilelife.com",
-     "t": "OpenAI 推出 GPT-6.2 Astra 與 Sol　ChatGPT、Codex 及 API 即日同步上線",
-     "url": "https://www.newmobilelife.com/2026/11/18/openai-gpt-6-2-astra-sol/"
-    }
-   ],
-   "buzz": 3,
-   "verdict": "Talk only, no public usage numbers"
-  },
   {
    "name": "Gemini 4",
    "url": null,
@@ -254,6 +245,33 @@
      "src": "DEV",
      "t": "Five Palaces, One Model: Testing Google’s Gemini 4 Hydrogen in AI Studio",
      "url": "https://dev.to/amananandrai/i-built-5-interactive-3d-palaces-with-googles-new-gemini-4-hydrogen-in-ai-studio-5g8h"
+    },
+    {
+     "src": "YouTube",
+     "t": "GPT-6.2 Astra Is INSANE! Gemini 4 Neon, OpenAI AGI CONFIRMED?!, Claude Code UPGRADES & MORE! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=WRdgKyOTPXA"
+    }
+   ],
+   "buzz": 3,
+   "verdict": "Talk only, no public usage numbers"
+  },
+  {
+   "name": "GPT-6.2",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "OpenAI blog",
+     "t": "Introducing GPT-6.2 Astra and Sol",
+     "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol"
+    },
+    {
+     "src": "YouTube",
+     "t": "GPT-6.2 Astra Is INSANE! Gemini 4 Neon, OpenAI AGI CONFIRMED?!, Claude Code UPGRADES & MORE! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=WRdgKyOTPXA"
     }
    ],
    "buzz": 2,
@@ -280,8 +298,8 @@
    "name": "rust-anything",
    "url": "https://github.com/erkamyaman/rust-anything",
    "from": "GitHub",
-   "use": 2269,
-   "useLabel": "+2,269 stars/day",
+   "use": 2245,
+   "useLabel": "+2,245 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -395,17 +413,17 @@
  "github": [
   {
    "repo": "erkamyaman/rust-anything",
-   "stars": 3039,
-   "d24": 2269,
+   "stars": 3067,
+   "d24": 2245,
    "est": false,
-   "forks": 245,
+   "forks": 247,
    "contrib": null,
    "score": 97
   },
   {
    "repo": "Immortal-Protocols/lastbook",
-   "stars": 2112,
-   "d24": 447,
+   "stars": 2118,
+   "d24": 438,
    "est": false,
    "forks": 274,
    "contrib": null,
@@ -413,8 +431,8 @@
   },
   {
    "repo": "ZiChuanLan/freebie-radar",
-   "stars": 1608,
-   "d24": 234,
+   "stars": 1610,
+   "d24": 230,
    "est": false,
    "forks": 268,
    "contrib": null,
@@ -423,9 +441,9 @@
   {
    "repo": "duwqijlk/muse-protocol",
    "stars": 1626,
-   "d24": 45,
+   "d24": 44,
    "est": false,
-   "forks": 639,
+   "forks": 640,
    "contrib": null,
    "score": 86
   }
@@ -441,7 +459,7 @@
    "grow": 0,
    "score": 93,
    "cat": "Tools",
-   "likes": 640
+   "likes": 641
   },
   {
    "name": "Qwen3.8-27B-pi-adapted",
@@ -453,7 +471,7 @@
    "grow": null,
    "score": 93,
    "cat": "Agents",
-   "likes": 367
+   "likes": 371
   },
   {
    "name": "Hy4-flash",
@@ -464,7 +482,7 @@
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 213
+   "likes": 214
   },
   {
    "name": "tiny-voca",
@@ -498,7 +516,7 @@
    "grow": 4,
    "score": 85,
    "cat": "Vision",
-   "likes": 1574
+   "likes": 1575
   }
  ],
  "free": [
@@ -803,6 +821,13 @@
  },
  "headlines": [
   {
+   "t": "At Nvidia's first all-hands since Huang's ouster, Colette Kress told staff that they can expect pay raises and more equity in December, months ahead of schedule",
+   "url": "https://www.techmeme.com/261118/p38#a261118p38",
+   "at": "2026-11-18T19:25:43.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Why your fine-tuning job takes longer than the FLOPs say",
    "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
    "at": "2026-11-18T18:53:43.000Z",
@@ -906,13 +931,6 @@
    "at": "2026-11-18T14:46:49Z",
    "src": "The Guardian",
    "kind": "News"
-  },
-  {
-   "t": "Sources: the Trump administration is considering requiring US companies to disclose on their websites if they use Chinese AI models, seeking to discourage usage",
-   "url": "https://www.techmeme.com/261118/p23#a261118p23",
-   "at": "2026-11-18T14:36:07.000Z",
-   "src": "Techmeme",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -921,8 +939,8 @@
    "t": "Seven new models at scalable price-performance",
    "url": "https://news.ycombinator.com/item?id=50548021",
    "link": "https://microsoft.ai/news/microsoft-ignite-2026/",
-   "up": 235,
-   "com": 158,
+   "up": 267,
+   "com": 170,
    "at": "2026-11-18T16:08:24.000Z"
   },
   {
@@ -930,45 +948,45 @@
    "t": "AI is killing All About Berlin",
    "url": "https://news.ycombinator.com/item?id=50542705",
    "link": "https://nicolasbouliane.com/blog/death-by-ai",
-   "up": 708,
-   "com": 643,
+   "up": 714,
+   "com": 649,
    "at": "2026-11-18T06:47:26.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Genie 4 is now available",
+   "url": "https://news.ycombinator.com/item?id=50550415",
+   "link": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+   "up": 42,
+   "com": 17,
+   "at": "2026-11-18T18:49:51.000Z"
   },
   {
    "src": "Hacker News",
    "t": "\"Anthropic Is Not a Safe AI Company\" – Coalition Challenges Anthropic Safety",
    "url": "https://news.ycombinator.com/item?id=50548485",
    "link": "https://www.businesswire.com/news/home/20261118974464/en/Anthropic-is-Not-a-Safe-AI-Company---Broad-Coalition-of-Scientists-Legal-Scholars-and-Tech-Leaders-Challenge-Anthropics-Safety-Branding-Ahead-of-IPO",
-   "up": 112,
-   "com": 63,
+   "up": 113,
+   "com": 66,
    "at": "2026-11-18T16:41:22.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Google's AI answers reducing search traffic by 40%",
-   "url": "https://news.ycombinator.com/item?id=50540178",
-   "link": "https://revscope.co/blog/search-seo-geo-2026/",
-   "up": 660,
-   "com": 515,
-   "at": "2026-11-18T00:17:58.000Z"
   },
   {
    "src": "Hacker News",
    "t": "AI agents ask better questions than KPMG accountants in audit trial",
    "url": "https://news.ycombinator.com/item?id=50547777",
    "link": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
-   "up": 109,
-   "com": 55,
+   "up": 141,
+   "com": 70,
    "at": "2026-11-18T15:49:34.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "U.S. AirForce is looking for old storage Media (CF or PC cards)",
-   "url": "https://news.ycombinator.com/item?id=50547583",
-   "link": "https://sam.gov/workspace/contract/opp/8948e8601e964c6aba9c801eee16b1be/view",
-   "up": 97,
-   "com": 48,
-   "at": "2026-11-18T15:35:44.000Z"
+   "t": "Google's AI answers reducing search traffic by 40%",
+   "url": "https://news.ycombinator.com/item?id=50540178",
+   "link": "https://revscope.co/blog/search-seo-geo-2026/",
+   "up": 665,
+   "com": 518,
+   "at": "2026-11-18T00:17:58.000Z"
   }
  ]
 }
