@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-19T12:31:00.762Z"
+  "updated": "2026-11-19T13:01:09.223Z"
  },
  "pulse": {
   "trending": 73,
-  "accelerating": 4,
+  "accelerating": 5,
   "newModels": 10,
-  "discussions": 45,
-  "stars": 2101
+  "discussions": 47,
+  "stars": 2136
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 96,
-   "grow": 38,
+   "grow": 40,
    "desc": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
    "meta": [
-    "★ 4,284",
-    "+1,725 in 24h",
+    "★ 4,344",
+    "+1,759 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-16T12:10:36Z",
@@ -39,7 +39,7 @@
    "cat": "Vision",
    "score": 95,
    "grow": 1191,
-   "desc": "Vision on Hugging Face · open weights · ♥ 288",
+   "desc": "Vision on Hugging Face · open weights · ♥ 289",
    "meta": [
     "2.1K downloads",
     "Released 2 days ago"
@@ -55,7 +55,7 @@
    "cat": "Tools",
    "score": 92,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 2K",
+   "desc": "Model on Hugging Face · open source · ♥ 2.1K",
    "meta": [
     "6.3K downloads",
     "Released 7 days ago"
@@ -71,7 +71,7 @@
    "cat": "Agents",
    "score": 91,
    "grow": 250,
-   "desc": "Model on Hugging Face · open source · ♥ 662",
+   "desc": "Model on Hugging Face · open source · ♥ 664",
    "meta": [
     "1.3K downloads",
     "Released 3 days ago"
@@ -87,7 +87,7 @@
    "cat": "Vision",
    "score": 90,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 253",
+   "desc": "Vision on Hugging Face · open weights · ♥ 255",
    "meta": [
     "0 downloads",
     "Released 3 days ago"
@@ -119,7 +119,7 @@
    "cat": "LLMs",
    "score": 86,
    "grow": 44,
-   "desc": "Model on Hugging Face · open source · ♥ 311",
+   "desc": "Model on Hugging Face · open source · ♥ 312",
    "meta": [
     "6.4K downloads",
     "Released 5 days ago"
@@ -137,8 +137,8 @@
    "grow": null,
    "desc": "Offline knowledge AI, maps and videos for survival and rebuilding",
    "meta": [
-    "★ 2,264",
-    "~347 in 24h",
+    "★ 2,266",
+    "~346 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-11-12T23:49:03Z",
@@ -146,16 +146,16 @@
    "url": "https://github.com/Immortal-Protocols/lastbook"
   },
   {
-   "name": "CurvDelta: Low-Curvature Delta Modeling For Surgical Learning and Unlearning",
+   "name": "HINT-WAM: Hindsight-Informed Training for World Action Models",
    "owner": "Paper",
    "src": "paper",
-   "url": "https://huggingface.co/papers/2611.24654",
+   "url": "https://huggingface.co/papers/2611.24789",
    "cat": "Research",
    "score": 85,
    "grow": null,
-   "desc": "A central challenge in adapting large language models (LLMs) is capability preservation: an adaptation can achieve its target while degrading general capabilities.",
+   "desc": "World action models (WAMs) have shown promising generalization and data efficiency in robot manipulation by coupling action generation with predictions of future visual dynamics.",
    "meta": [
-    "▲ 19 upvotes",
+    "▲ 21 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-11-17T19:00:00.000Z",
@@ -310,8 +310,8 @@
    "name": "rust-anything",
    "url": "https://github.com/erkamyaman/rust-anything",
    "from": "GitHub",
-   "use": 1725,
-   "useLabel": "+1,725 stars/day",
+   "use": 1759,
+   "useLabel": "+1,759 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -425,26 +425,26 @@
  "github": [
   {
    "repo": "erkamyaman/rust-anything",
-   "stars": 4284,
-   "d24": 1725,
+   "stars": 4344,
+   "d24": 1759,
    "est": false,
-   "forks": 362,
+   "forks": 367,
    "contrib": null,
    "score": 96
   },
   {
    "repo": "Immortal-Protocols/lastbook",
-   "stars": 2264,
-   "d24": 347,
+   "stars": 2266,
+   "d24": 346,
    "est": true,
-   "forks": 297,
+   "forks": 298,
    "contrib": null,
    "score": 85
   },
   {
    "repo": "duwqijlk/muse-protocol",
-   "stars": 1644,
-   "d24": 29,
+   "stars": 1646,
+   "d24": 31,
    "est": false,
    "forks": 650,
    "contrib": null,
@@ -461,7 +461,7 @@
    "grow": 1191,
    "score": 95,
    "cat": "Vision",
-   "likes": 288
+   "likes": 289
   },
   {
    "name": "Haru-4B",
@@ -473,7 +473,7 @@
    "grow": null,
    "score": 92,
    "cat": "Tools",
-   "likes": 2037
+   "likes": 2136
   },
   {
    "name": "Qwen3.8-27B-pi-adapted",
@@ -485,7 +485,7 @@
    "grow": 250,
    "score": 91,
    "cat": "Agents",
-   "likes": 662
+   "likes": 664
   },
   {
    "name": "FastFrames-L",
@@ -496,7 +496,7 @@
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 253
+   "likes": 255
   },
   {
    "name": "MiniMax-H3-Image",
@@ -507,7 +507,7 @@
    "grow": 8,
    "score": 87,
    "cat": "Vision",
-   "likes": 1608
+   "likes": 1609
   },
   {
    "name": "tiny-voca",
@@ -519,7 +519,7 @@
    "grow": 44,
    "score": 86,
    "cat": "LLMs",
-   "likes": 311
+   "likes": 312
   }
  ],
  "free": [
@@ -849,6 +849,41 @@
  },
  "headlines": [
   {
+   "t": "Anthropic to float on the stock market today as it raises $81bn in record IPO – business live",
+   "url": "https://www.theguardian.com/business/live/2026/nov/19/anthropic-float-stock-market-nasdaq-raises-81bn-record-ipo-latest-news-updates",
+   "at": "2026-11-19T13:00:58Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "Canva adds a toggle to let free and paid users disable generative AI features like Magic Expand, following user frustration over the platform's AI push",
+   "url": "https://www.techmeme.com/261119/p26#a261119p26",
+   "at": "2026-11-19T12:55:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "AI demand will push up interest rates around the world, IMF head warns",
+   "url": "https://www.theguardian.com/world/2026/nov/19/imf-head-warns-ai-demand-push-up-interest-rates-apec",
+   "at": "2026-11-19T12:51:16Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "GTA VI's 5,000-strong team eschewed AI and procedural generation in favor of handcrafted \"fidelity\", with 30,000 unique NPCs and an in-game video game system",
+   "url": "https://www.techmeme.com/261119/p25#a261119p25",
+   "at": "2026-11-19T12:45:10.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "IEA expects global data center investment to hit $4T by 2030; fewer than 100 major AI projects would require a combined 50GW of power, matching peak UK demand",
+   "url": "https://www.techmeme.com/261119/p24#a261119p24",
+   "at": "2026-11-19T12:35:03.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Dustin Moskovitz, one of Anthropic's earliest investors, says he \"invested in Anthropic to promote safety, not racing\" and frontier AI labs \"should slow down\"",
    "url": "https://www.techmeme.com/261119/p23#a261119p23",
    "at": "2026-11-19T12:25:01.000Z",
@@ -860,13 +895,6 @@
    "url": "https://www.techmeme.com/261119/p22#a261119p22",
    "at": "2026-11-19T12:15:22.000Z",
    "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Anthropic to float on the stock market today as it raises $81bn in record IPO – business live",
-   "url": "https://www.theguardian.com/business/live/2026/nov/19/anthropic-float-stock-market-nasdaq-raises-81bn-record-ipo-latest-news-updates",
-   "at": "2026-11-19T12:05:09Z",
-   "src": "The Guardian",
    "kind": "News"
   },
   {
@@ -926,38 +954,10 @@
    "kind": "News"
   },
   {
-   "t": "College students are increasingly pushing back against campus AI mandates, demanding opt-outs from AI-required assignments and an end to enterprise licenses",
-   "url": "https://www.techmeme.com/261119/p9#a261119p9",
-   "at": "2026-11-19T07:45:02.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Ram through datacentres no one wants and hope the AI bubble never bursts: that’s the UK’s growth plan | George Monbiot",
    "url": "https://www.theguardian.com/commentisfree/2026/nov/19/uk-growth-plan-datacentres-ai-bubble-big-tech",
    "at": "2026-11-19T06:00:19Z",
    "src": "The Guardian",
-   "kind": "News"
-  },
-  {
-   "t": "Datacentres to create 70% more carbon emissions by 2030, IEA report warns",
-   "url": "https://www.theguardian.com/world/2026/nov/19/datacentres-to-create-70-more-carbon-emissions-by-2030-iea-report-warns",
-   "at": "2026-11-19T05:00:18Z",
-   "src": "The Guardian",
-   "kind": "News"
-  },
-  {
-   "t": "Anthropic shares to debut on Nasdaq on November 19 at IPO price of USD 83 per share",
-   "url": "https://www.tribuneindia.com/news/business/anthropic-shares-to-debut-on-nasdaq-on-november-19-at-ipo-price-of-usd-83-per-share/",
-   "at": "2026-11-19T00:28:24Z",
-   "src": "The Tribune",
-   "kind": "News"
-  },
-  {
-   "t": "US Catholic bishops' new AI task force urges regulation and worker protections",
-   "url": "https://www.clickondetroit.com/tech/2026/11/19/us-catholic-bishops-new-ai-task-force-urges-regulation-and-worker-protections/",
-   "at": "2026-11-19T00:06:20Z",
-   "src": "WDIV ClickOnDetroit",
    "kind": "News"
   }
  ],
@@ -967,8 +967,8 @@
    "t": "Gemini 4 Neon",
    "url": "https://news.ycombinator.com/item?id=50552424",
    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
-   "up": 873,
-   "com": 694,
+   "up": 883,
+   "com": 698,
    "at": "2026-11-18T21:34:07.000Z"
   },
   {
@@ -976,7 +976,7 @@
    "t": "Seven new models at scalable price-performance",
    "url": "https://news.ycombinator.com/item?id=50548021",
    "link": "https://microsoft.ai/news/microsoft-ignite-2026/",
-   "up": 555,
+   "up": 564,
    "com": 357,
    "at": "2026-11-18T16:08:24.000Z"
   },
@@ -985,24 +985,25 @@
    "t": "AI agents ask better questions than KPMG accountants in audit trial",
    "url": "https://news.ycombinator.com/item?id=50547777",
    "link": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
-   "up": 469,
+   "up": 471,
    "com": 224,
    "at": "2026-11-18T15:49:34.000Z"
   },
   {
-   "src": "DEV",
-   "t": "The Black Friday chatbot test I’d run on Shopify: Sell out the backup, too",
-   "url": "https://dev.to/rajni_walia_e6082454c67a9/the-black-friday-chatbot-test-id-run-on-shopify-sell-out-the-backup-too-26b0",
-   "up": 23,
-   "com": 2,
-   "at": "2026-11-19T11:24:33Z"
+   "src": "Hacker News",
+   "t": "The AI Superintelligence Debate Has Serious Flaws",
+   "url": "https://news.ycombinator.com/item?id=50559140",
+   "link": "https://spectrum.ieee.org/ai-superintelligence-debate",
+   "up": 22,
+   "com": 7,
+   "at": "2026-11-19T12:17:10.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Gemini 4 Neon looks like an Opus 5.5 competitor",
    "url": "https://news.ycombinator.com/item?id=50554374",
    "link": "https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/",
-   "up": 235,
+   "up": 236,
    "com": 73,
    "at": "2026-11-19T00:29:45.000Z"
   },
@@ -1011,8 +1012,8 @@
    "t": "LLM assisted reverse engineering",
    "url": "https://news.ycombinator.com/item?id=50553225",
    "link": "https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering",
-   "up": 245,
-   "com": 61,
+   "up": 252,
+   "com": 65,
    "at": "2026-11-18T22:29:13.000Z"
   }
  ]
