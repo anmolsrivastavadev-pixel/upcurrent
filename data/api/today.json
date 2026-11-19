@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-19T07:30:57.905Z"
+  "updated": "2026-11-19T07:53:35.672Z"
  },
  "pulse": {
   "trending": 77,
   "accelerating": 0,
   "newModels": 13,
-  "discussions": 49,
-  "stars": 2124
+  "discussions": 48,
+  "stars": 2126
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 96,
-   "grow": 24,
+   "grow": 25,
    "desc": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
    "meta": [
-    "★ 3,846",
-    "+1,561 in 24h",
+    "★ 3,871",
+    "+1,562 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-16T12:10:36Z",
@@ -39,7 +39,7 @@
    "cat": "Vision",
    "score": 94,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 260",
+   "desc": "Vision on Hugging Face · open weights · ♥ 261",
    "meta": [
     "159 downloads",
     "Released 2 days ago"
@@ -55,7 +55,7 @@
    "cat": "Tools",
    "score": 92,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 1.1K",
+   "desc": "Model on Hugging Face · open source · ♥ 1.2K",
    "meta": [
     "5.3K downloads",
     "Released 7 days ago"
@@ -71,7 +71,7 @@
    "cat": "Agents",
    "score": 92,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 630",
+   "desc": "Model on Hugging Face · open source · ♥ 631",
    "meta": [
     "377 downloads",
     "Released 3 days ago"
@@ -119,7 +119,7 @@
    "cat": "Vision",
    "score": 89,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 231",
+   "desc": "Vision on Hugging Face · open weights · ♥ 232",
    "meta": [
     "0 downloads",
     "Released 3 days ago"
@@ -137,7 +137,7 @@
    "grow": null,
    "desc": "Offline knowledge AI, maps and videos for survival and rebuilding",
    "meta": [
-    "★ 2,226",
+    "★ 2,230",
     "~352 in 24h",
     "Created 6 days ago"
    ],
@@ -155,7 +155,7 @@
    "grow": null,
    "desc": "System One models such as Jev return decisions through fast, parallel prediction.",
    "meta": [
-    "▲ 24 upvotes",
+    "▲ 27 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-11-17T19:00:00.000Z",
@@ -171,62 +171,15 @@
    "grow": null,
    "desc": "Your team and everyone's AI agents, in one workspace",
    "meta": [
-    "▲ 364 votes",
-    "111 comments",
-    "Launched 23h ago"
+    "▲ 368 votes",
+    "113 comments",
+    "Launched 24h ago"
    ],
    "at": "2026-11-18T08:01:00Z",
    "breakout": null
   }
  ],
- "breakouts": [
-  {
-   "key": "gemini 4",
-   "label": "Gemini 4",
-   "n": 3,
-   "sources": [
-    {
-     "src": "Hacker News",
-     "t": "Gemini 4 Neon",
-     "url": "https://news.ycombinator.com/item?id=50552424"
-    },
-    {
-     "src": "Google DeepMind blog",
-     "t": "Introducing Gemini 4 Neon",
-     "url": "https://deepmind.google/blog/introducing-gemini-4-neon/"
-    },
-    {
-     "src": "Techmeme",
-     "t": "Artificial Analysis: Gemini 4 Neon trails only Claude Fable 5.2 and GPT-6.2 Astra on the Intelligence Index and rivals Opus 5.5 on coding at a much lower cost",
-     "url": "https://www.techmeme.com/261118/p58#a261118p58"
-    }
-   ],
-   "since": "2026-10-01T18:14:41.538Z"
-  },
-  {
-   "key": "gpt 6.2",
-   "label": "GPT-6.2",
-   "n": 3,
-   "sources": [
-    {
-     "src": "OpenAI blog",
-     "t": "Introducing GPT-6.2 Astra and Sol",
-     "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol"
-    },
-    {
-     "src": "Techmeme",
-     "t": "Artificial Analysis: Gemini 4 Neon trails only Claude Fable 5.2 and GPT-6.2 Astra on the Intelligence Index and rivals Opus 5.5 on coding at a much lower cost",
-     "url": "https://www.techmeme.com/261118/p58#a261118p58"
-    },
-    {
-     "src": "Product Hunt",
-     "t": "GPT-6.2 Astra and Sol",
-     "url": "https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
-    }
-   ],
-   "since": "2026-11-03T23:15:42.727Z"
-  }
- ],
+ "breakouts": [],
  "hype": [
   {
    "name": "Gemini 4",
@@ -245,77 +198,6 @@
      "src": "Google DeepMind blog",
      "t": "Introducing Gemini 4 Neon",
      "url": "https://deepmind.google/blog/introducing-gemini-4-neon/"
-    },
-    {
-     "src": "Techmeme",
-     "t": "Artificial Analysis: Gemini 4 Neon trails only Claude Fable 5.2 and GPT-6.2 Astra on the Intelligence Index and rivals Opus 5.5 on coding at a much lower cost",
-     "url": "https://www.techmeme.com/261118/p58#a261118p58"
-    }
-   ],
-   "buzz": 3,
-   "verdict": "Talk only, no public usage numbers"
-  },
-  {
-   "name": "Fable 5.2",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
-    {
-     "src": "Hacker News",
-     "t": "Fable: Written, painted and directed by Claude Fable 5.2",
-     "url": "https://news.ycombinator.com/item?id=50554269"
-    },
-    {
-     "src": "Techmeme",
-     "t": "Artificial Analysis: Gemini 4 Neon trails only Claude Fable 5.2 and GPT-6.2 Astra on the Intelligence Index and rivals Opus 5.5 on coding at a much lower cost",
-     "url": "https://www.techmeme.com/261118/p58#a261118p58"
-    }
-   ],
-   "buzz": 2,
-   "verdict": "Talk only, no public usage numbers"
-  },
-  {
-   "name": "Opus 5.5",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
-    {
-     "src": "Hacker News",
-     "t": "Gemini 4 Neon looks like an Opus 5.5 competitor",
-     "url": "https://news.ycombinator.com/item?id=50554374"
-    },
-    {
-     "src": "Techmeme",
-     "t": "Artificial Analysis: Gemini 4 Neon trails only Claude Fable 5.2 and GPT-6.2 Astra on the Intelligence Index and rivals Opus 5.5 on coding at a much lower cost",
-     "url": "https://www.techmeme.com/261118/p58#a261118p58"
-    }
-   ],
-   "buzz": 2,
-   "verdict": "Talk only, no public usage numbers"
-  },
-  {
-   "name": "GPT-6.2",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
-    {
-     "src": "OpenAI blog",
-     "t": "Introducing GPT-6.2 Astra and Sol",
-     "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol"
-    },
-    {
-     "src": "Techmeme",
-     "t": "Artificial Analysis: Gemini 4 Neon trails only Claude Fable 5.2 and GPT-6.2 Astra on the Intelligence Index and rivals Opus 5.5 on coding at a much lower cost",
-     "url": "https://www.techmeme.com/261118/p58#a261118p58"
     }
    ],
    "buzz": 2,
@@ -359,8 +241,8 @@
    "name": "rust-anything",
    "url": "https://github.com/erkamyaman/rust-anything",
    "from": "GitHub",
-   "use": 1561,
-   "useLabel": "+1,561 stars/day",
+   "use": 1562,
+   "useLabel": "+1,562 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -474,8 +356,8 @@
  "github": [
   {
    "repo": "erkamyaman/rust-anything",
-   "stars": 3846,
-   "d24": 1561,
+   "stars": 3871,
+   "d24": 1562,
    "est": false,
    "forks": 321,
    "contrib": null,
@@ -483,7 +365,7 @@
   },
   {
    "repo": "Immortal-Protocols/lastbook",
-   "stars": 2226,
+   "stars": 2230,
    "d24": 352,
    "est": true,
    "forks": 291,
@@ -492,17 +374,17 @@
   },
   {
    "repo": "ZiChuanLan/freebie-radar",
-   "stars": 1690,
-   "d24": 190,
+   "stars": 1694,
+   "d24": 192,
    "est": false,
-   "forks": 277,
+   "forks": 278,
    "contrib": null,
    "score": 78
   },
   {
    "repo": "duwqijlk/muse-protocol",
    "stars": 1635,
-   "d24": 21,
+   "d24": 20,
    "est": false,
    "forks": 645,
    "contrib": null,
@@ -519,7 +401,7 @@
    "grow": null,
    "score": 94,
    "cat": "Vision",
-   "likes": 260
+   "likes": 261
   },
   {
    "name": "Haru-4B",
@@ -531,7 +413,7 @@
    "grow": 0,
    "score": 92,
    "cat": "Tools",
-   "likes": 1069
+   "likes": 1153
   },
   {
    "name": "Qwen3.8-27B-pi-adapted",
@@ -543,7 +425,7 @@
    "grow": 0,
    "score": 92,
    "cat": "Agents",
-   "likes": 630
+   "likes": 631
   },
   {
    "name": "MiniMax-H3-Image",
@@ -577,7 +459,7 @@
    "grow": null,
    "score": 89,
    "cat": "Vision",
-   "likes": 231
+   "likes": 232
   }
  ],
  "free": [
@@ -897,6 +779,13 @@
  },
  "headlines": [
   {
+   "t": "College students are increasingly pushing back against campus AI mandates, demanding opt-outs from AI-required assignments and an end to enterprise licenses",
+   "url": "https://www.techmeme.com/261119/p9#a261119p9",
+   "at": "2026-11-19T07:45:02.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Sources expect Anthropic's IPO allocation for retail investors to fall below 20%; retail buyers have historically received 5% to 10% of shares in large IPOs",
    "url": "https://www.techmeme.com/261119/p6#a261119p6",
    "at": "2026-11-19T07:25:29.000Z",
@@ -960,27 +849,6 @@
    "kind": "News"
   },
   {
-   "t": "Artificial Analysis: Gemini 4 Neon trails only Claude Fable 5.2 and GPT-6.2 Astra on the Intelligence Index and rivals Opus 5.5 on coding at a much lower cost",
-   "url": "https://www.techmeme.com/261118/p58#a261118p58",
-   "at": "2026-11-19T03:35:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "How Alibaba uses regional companies like Megaspeed to access Nvidia chips via offshore data centers and potentially aid a Chinese military-linked AI lab",
-   "url": "https://www.techmeme.com/261118/p57#a261118p57",
-   "at": "2026-11-19T03:15:02.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Hackers compromised Microsoft's Agent Framework Python package on PyPI, publishing two versions designed to steal cloud credentials and other information",
-   "url": "https://www.techmeme.com/261118/p56#a261118p56",
-   "at": "2026-11-19T02:50:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Four Maryland high school students sue after AI mistakes Doritos bag for gun",
    "url": "https://www.theguardian.com/us-news/2026/nov/18/maryland-baltimore-county-doritos-gun-ai-lawsuit",
    "at": "2026-11-18T23:53:51Z",
@@ -1007,6 +875,20 @@
    "at": "2026-11-18T19:54:56.000Z",
    "src": "Hugging Face",
    "kind": "Lab blog"
+  },
+  {
+   "t": "Can AI identify meaningful patterns in human experiences?",
+   "url": "https://www.futurity.org/ai-meaningful-patterns-human-experiences-3353662/",
+   "at": "2026-11-18T19:51:33Z",
+   "src": "Futurity: Research News",
+   "kind": "News"
+  },
+  {
+   "t": "Ex-OpenAI Researcher Jacob Coxon Says He'll Donate Equity to AI Safety",
+   "url": "https://www.businessinsider.com/ex-anthropic-engineer-will-donate-openai-equity-to-ai-safety-2026-11",
+   "at": "2026-11-18T19:46:02Z",
+   "src": "Business Insider",
+   "kind": "News"
   }
  ],
  "discussions": [
@@ -1015,8 +897,8 @@
    "t": "Gemini 4 Neon",
    "url": "https://news.ycombinator.com/item?id=50552424",
    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
-   "up": 720,
-   "com": 607,
+   "up": 736,
+   "com": 618,
    "at": "2026-11-18T21:34:07.000Z"
   },
   {
@@ -1024,8 +906,8 @@
    "t": "Seven new models at scalable price-performance",
    "url": "https://news.ycombinator.com/item?id=50548021",
    "link": "https://microsoft.ai/news/microsoft-ignite-2026/",
-   "up": 516,
-   "com": 340,
+   "up": 520,
+   "com": 344,
    "at": "2026-11-18T16:08:24.000Z"
   },
   {
@@ -1033,8 +915,8 @@
    "t": "Gemini 4 Neon looks like an Opus 5.5 competitor",
    "url": "https://news.ycombinator.com/item?id=50554374",
    "link": "https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/",
-   "up": 210,
-   "com": 67,
+   "up": 213,
+   "com": 68,
    "at": "2026-11-19T00:29:45.000Z"
   },
   {
@@ -1042,26 +924,25 @@
    "t": "AI agents ask better questions than KPMG accountants in audit trial",
    "url": "https://news.ycombinator.com/item?id=50547777",
    "link": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
-   "up": 441,
-   "com": 192,
+   "up": 444,
+   "com": 195,
    "at": "2026-11-18T15:49:34.000Z"
   },
   {
-   "src": "Hacker News",
-   "t": "Genie 4 is now available",
-   "url": "https://news.ycombinator.com/item?id=50550415",
-   "link": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
-   "up": 235,
-   "com": 160,
-   "at": "2026-11-18T18:49:51.000Z"
+   "src": "DEV",
+   "t": "How to Bring Your Own Key (BYOK) to Linear's Cloud Coding Agent",
+   "url": "https://dev.to/therealmrmumba/how-to-bring-your-own-key-byok-to-linears-cloud-coding-agent-1704",
+   "up": 30,
+   "com": 0,
+   "at": "2026-11-19T06:43:24Z"
   },
   {
    "src": "Hacker News",
    "t": "LLM assisted reverse engineering",
    "url": "https://news.ycombinator.com/item?id=50553225",
    "link": "https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering",
-   "up": 166,
-   "com": 42,
+   "up": 174,
+   "com": 44,
    "at": "2026-11-18T22:29:13.000Z"
   }
  ]
