@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-19T13:01:09.223Z"
+  "updated": "2026-11-19T13:30:57.335Z"
  },
  "pulse": {
   "trending": 73,
-  "accelerating": 5,
+  "accelerating": 4,
   "newModels": 10,
   "discussions": 47,
-  "stars": 2136
+  "stars": 1991
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 96,
-   "grow": 40,
+   "grow": 42,
    "desc": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
    "meta": [
-    "★ 4,344",
-    "+1,759 in 24h",
+    "★ 4,402",
+    "+1,789 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-16T12:10:36Z",
@@ -39,7 +39,7 @@
    "cat": "Vision",
    "score": 95,
    "grow": 1191,
-   "desc": "Vision on Hugging Face · open weights · ♥ 289",
+   "desc": "Vision on Hugging Face · open weights · ♥ 292",
    "meta": [
     "2.1K downloads",
     "Released 2 days ago"
@@ -49,13 +49,29 @@
    "url": "https://huggingface.co/tencent/Hy4-flash"
   },
   {
+   "name": "FastFrames-L",
+   "owner": "apple",
+   "src": "hf",
+   "cat": "Vision",
+   "score": 93,
+   "grow": null,
+   "desc": "Vision on Hugging Face · open weights · ♥ 260",
+   "meta": [
+    "0 downloads",
+    "Released 3 days ago"
+   ],
+   "at": "2026-11-16T17:21:04.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/apple/FastFrames-L"
+  },
+  {
    "name": "Haru-4B",
    "owner": "higurashi-ai",
    "src": "hf",
    "cat": "Tools",
    "score": 92,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 2.1K",
+   "desc": "Model on Hugging Face · open source · ♥ 2.2K",
    "meta": [
     "6.3K downloads",
     "Released 7 days ago"
@@ -70,8 +86,8 @@
    "src": "hf",
    "cat": "Agents",
    "score": 91,
-   "grow": 250,
-   "desc": "Model on Hugging Face · open source · ♥ 664",
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 666",
    "meta": [
     "1.3K downloads",
     "Released 3 days ago"
@@ -81,45 +97,13 @@
    "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted"
   },
   {
-   "name": "FastFrames-L",
-   "owner": "apple",
-   "src": "hf",
-   "cat": "Vision",
-   "score": 90,
-   "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 255",
-   "meta": [
-    "0 downloads",
-    "Released 3 days ago"
-   ],
-   "at": "2026-11-16T17:21:04.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/apple/FastFrames-L"
-  },
-  {
-   "name": "MiniMax-H3-Image",
-   "owner": "MiniMaxAI",
-   "src": "hf",
-   "cat": "Vision",
-   "score": 87,
-   "grow": 8,
-   "desc": "Vision on Hugging Face · open weights · ♥ 1.6K",
-   "meta": [
-    "822K downloads",
-    "Released 16 days ago"
-   ],
-   "at": "2026-11-03T06:34:36.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image"
-  },
-  {
    "name": "tiny-voca",
    "owner": "n4ze3m",
    "src": "hf",
    "cat": "LLMs",
    "score": 86,
    "grow": 44,
-   "desc": "Model on Hugging Face · open source · ♥ 312",
+   "desc": "Model on Hugging Face · open source · ♥ 313",
    "meta": [
     "6.4K downloads",
     "Released 5 days ago"
@@ -134,11 +118,11 @@
    "src": "gh",
    "cat": "Vision",
    "score": 85,
-   "grow": null,
+   "grow": 2,
    "desc": "Offline knowledge AI, maps and videos for survival and rebuilding",
    "meta": [
-    "★ 2,266",
-    "~346 in 24h",
+    "★ 2,269",
+    "+170 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-11-12T23:49:03Z",
@@ -155,7 +139,7 @@
    "grow": null,
    "desc": "World action models (WAMs) have shown promising generalization and data efficiency in robot manipulation by coupling action generation with predictions of future visual dynamics.",
    "meta": [
-    "▲ 21 upvotes",
+    "▲ 22 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-11-17T19:00:00.000Z",
@@ -172,11 +156,27 @@
    "desc": "Your team and everyone's AI agents, in one workspace",
    "meta": [
     "▲ 373 votes",
-    "113 comments",
+    "114 comments",
     "Launched yesterday"
    ],
    "at": "2026-11-18T08:01:00Z",
    "breakout": null
+  },
+  {
+   "name": "MiniMax-H3-Image",
+   "owner": "MiniMaxAI",
+   "src": "hf",
+   "cat": "Vision",
+   "score": 84,
+   "grow": 8,
+   "desc": "Vision on Hugging Face · open weights · ♥ 1.6K",
+   "meta": [
+    "822K downloads",
+    "Released 16 days ago"
+   ],
+   "at": "2026-11-03T06:34:36.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image"
   }
  ],
  "breakouts": [
@@ -310,8 +310,8 @@
    "name": "rust-anything",
    "url": "https://github.com/erkamyaman/rust-anything",
    "from": "GitHub",
-   "use": 1759,
-   "useLabel": "+1,759 stars/day",
+   "use": 1789,
+   "useLabel": "+1,789 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -425,30 +425,30 @@
  "github": [
   {
    "repo": "erkamyaman/rust-anything",
-   "stars": 4344,
-   "d24": 1759,
+   "stars": 4402,
+   "d24": 1789,
    "est": false,
-   "forks": 367,
+   "forks": 372,
    "contrib": null,
    "score": 96
   },
   {
    "repo": "Immortal-Protocols/lastbook",
-   "stars": 2266,
-   "d24": 346,
-   "est": true,
+   "stars": 2269,
+   "d24": 170,
+   "est": false,
    "forks": 298,
    "contrib": null,
    "score": 85
   },
   {
    "repo": "duwqijlk/muse-protocol",
-   "stars": 1646,
-   "d24": 31,
+   "stars": 1647,
+   "d24": 32,
    "est": false,
-   "forks": 650,
+   "forks": 651,
    "contrib": null,
-   "score": 84
+   "score": 83
   }
  ],
  "models": [
@@ -461,7 +461,18 @@
    "grow": 1191,
    "score": 95,
    "cat": "Vision",
-   "likes": 289
+   "likes": 292
+  },
+  {
+   "name": "FastFrames-L",
+   "org": "apple",
+   "lic": "Open weights",
+   "at": "2026-11-16T17:21:04.000Z",
+   "dl": 0,
+   "grow": null,
+   "score": 93,
+   "cat": "Vision",
+   "likes": 260
   },
   {
    "name": "Haru-4B",
@@ -473,7 +484,7 @@
    "grow": null,
    "score": 92,
    "cat": "Tools",
-   "likes": 2136
+   "likes": 2220
   },
   {
    "name": "Qwen3.8-27B-pi-adapted",
@@ -482,32 +493,10 @@
    "lic": "Open source",
    "at": "2026-11-16T06:52:31.000Z",
    "dl": 1320,
-   "grow": 250,
+   "grow": null,
    "score": 91,
    "cat": "Agents",
-   "likes": 664
-  },
-  {
-   "name": "FastFrames-L",
-   "org": "apple",
-   "lic": "Open weights",
-   "at": "2026-11-16T17:21:04.000Z",
-   "dl": 0,
-   "grow": null,
-   "score": 90,
-   "cat": "Vision",
-   "likes": 255
-  },
-  {
-   "name": "MiniMax-H3-Image",
-   "org": "MiniMaxAI",
-   "lic": "Open weights",
-   "at": "2026-11-03T06:34:36.000Z",
-   "dl": 821710,
-   "grow": 8,
-   "score": 87,
-   "cat": "Vision",
-   "likes": 1609
+   "likes": 666
   },
   {
    "name": "tiny-voca",
@@ -519,7 +508,18 @@
    "grow": 44,
    "score": 86,
    "cat": "LLMs",
-   "likes": 312
+   "likes": 313
+  },
+  {
+   "name": "MiniMax-H3-Image",
+   "org": "MiniMaxAI",
+   "lic": "Open weights",
+   "at": "2026-11-03T06:34:36.000Z",
+   "dl": 821710,
+   "grow": 8,
+   "score": 84,
+   "cat": "Vision",
+   "likes": 1609
   }
  ],
  "free": [
@@ -651,18 +651,6 @@
    "ctx": 1024000,
    "url": "https://openrouter.ai/baidu/ernie-5.5-flash-preview:free",
    "caps": [
-    "reasoning",
-    "tools"
-   ],
-   "added": false
-  },
-  {
-   "name": "Inkling 2 Small",
-   "prov": "OpenRouter",
-   "ctx": 1048576,
-   "url": "https://openrouter.ai/thinkingmachines/inkling-2-small:free",
-   "caps": [
-    "image",
     "reasoning",
     "tools"
    ],
@@ -849,9 +837,16 @@
  },
  "headlines": [
   {
-   "t": "Anthropic to float on the stock market today as it raises $81bn in record IPO – business live",
+   "t": "Anthropic shares expected to jump when trading begins after raising $81bn in record IPO – business live",
    "url": "https://www.theguardian.com/business/live/2026/nov/19/anthropic-float-stock-market-nasdaq-raises-81bn-record-ipo-latest-news-updates",
-   "at": "2026-11-19T13:00:58Z",
+   "at": "2026-11-19T13:24:59Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "Anthropic to begin public trading at $1.5tn valuation after largest ever IPO",
+   "url": "https://www.theguardian.com/technology/2026/nov/19/anthropic-public-trading-ipo",
+   "at": "2026-11-19T13:00:48Z",
    "src": "The Guardian",
    "kind": "News"
   },
@@ -947,13 +942,6 @@
    "kind": "News"
   },
   {
-   "t": "Filings: Anthropic sold $1.1B of stock to retail investors in the UK, the EU, Norway, and Switzerland in its record IPO; UK investors bought 3.6M+ shares",
-   "url": "https://www.techmeme.com/261119/p12#a261119p12",
-   "at": "2026-11-19T10:45:03.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Ram through datacentres no one wants and hope the AI bubble never bursts: that’s the UK’s growth plan | George Monbiot",
    "url": "https://www.theguardian.com/commentisfree/2026/nov/19/uk-growth-plan-datacentres-ai-bubble-big-tech",
    "at": "2026-11-19T06:00:19Z",
@@ -967,17 +955,26 @@
    "t": "Gemini 4 Neon",
    "url": "https://news.ycombinator.com/item?id=50552424",
    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
-   "up": 883,
-   "com": 698,
+   "up": 895,
+   "com": 704,
    "at": "2026-11-18T21:34:07.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "The AI Superintelligence Debate Has Serious Flaws",
+   "url": "https://news.ycombinator.com/item?id=50559140",
+   "link": "https://spectrum.ieee.org/ai-superintelligence-debate",
+   "up": 51,
+   "com": 31,
+   "at": "2026-11-19T12:17:10.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Seven new models at scalable price-performance",
    "url": "https://news.ycombinator.com/item?id=50548021",
    "link": "https://microsoft.ai/news/microsoft-ignite-2026/",
-   "up": 564,
-   "com": 357,
+   "up": 567,
+   "com": 359,
    "at": "2026-11-18T16:08:24.000Z"
   },
   {
@@ -985,25 +982,16 @@
    "t": "AI agents ask better questions than KPMG accountants in audit trial",
    "url": "https://news.ycombinator.com/item?id=50547777",
    "link": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
-   "up": 471,
-   "com": 224,
+   "up": 474,
+   "com": 225,
    "at": "2026-11-18T15:49:34.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "The AI Superintelligence Debate Has Serious Flaws",
-   "url": "https://news.ycombinator.com/item?id=50559140",
-   "link": "https://spectrum.ieee.org/ai-superintelligence-debate",
-   "up": 22,
-   "com": 7,
-   "at": "2026-11-19T12:17:10.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Gemini 4 Neon looks like an Opus 5.5 competitor",
    "url": "https://news.ycombinator.com/item?id=50554374",
    "link": "https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/",
-   "up": 236,
+   "up": 238,
    "com": 73,
    "at": "2026-11-19T00:29:45.000Z"
   },
@@ -1012,8 +1000,8 @@
    "t": "LLM assisted reverse engineering",
    "url": "https://news.ycombinator.com/item?id=50553225",
    "link": "https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering",
-   "up": 252,
-   "com": 65,
+   "up": 258,
+   "com": 66,
    "at": "2026-11-18T22:29:13.000Z"
   }
  ]
