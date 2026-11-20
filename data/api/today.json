@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-19T23:47:08.108Z"
+  "updated": "2026-11-20T00:01:07.397Z"
  },
  "pulse": {
   "trending": 74,
   "accelerating": 1,
   "newModels": 10,
   "discussions": 46,
-  "stars": 2524
+  "stars": 2400
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 96,
-   "grow": 10,
+   "grow": 11,
    "desc": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
    "meta": [
-    "★ 5,136",
-    "+1,489 in 24h",
+    "★ 5,149",
+    "+1,485 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-16T12:10:36Z",
@@ -87,7 +87,7 @@
    "cat": "Agents",
    "score": 91,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 736",
+   "desc": "Model on Hugging Face · open source · ♥ 738",
    "meta": [
     "1.3K downloads",
     "Released 4 days ago"
@@ -97,13 +97,30 @@
    "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted"
   },
   {
+   "name": "inference-optimisation-skill",
+   "owner": "sybil-solutions",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 90,
+   "grow": null,
+   "desc": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
+   "meta": [
+    "★ 1,258",
+    "~390 in 24h",
+    "Created 3 days ago"
+   ],
+   "at": "2026-11-16T18:40:04Z",
+   "breakout": null,
+   "url": "https://github.com/sybil-solutions/inference-optimisation-skill"
+  },
+  {
    "name": "voice-isolator",
    "owner": "inworld",
    "src": "hf",
    "cat": "Tools",
    "score": 87,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 255",
+   "desc": "Model on Hugging Face · open source · ♥ 258",
    "meta": [
     "0 downloads",
     "Released 6 days ago"
@@ -111,23 +128,6 @@
    "at": "2026-11-14T02:14:35.000Z",
    "breakout": null,
    "url": "https://huggingface.co/inworld/voice-isolator"
-  },
-  {
-   "name": "lastbook",
-   "owner": "Immortal-Protocols",
-   "src": "gh",
-   "cat": "Vision",
-   "score": 86,
-   "grow": 16,
-   "desc": "Offline knowledge AI, maps and videos for survival and rebuilding",
-   "meta": [
-    "★ 2,572",
-    "+500 in 24h",
-    "Created 7 days ago"
-   ],
-   "at": "2026-11-12T23:49:03Z",
-   "breakout": null,
-   "url": "https://github.com/Immortal-Protocols/lastbook"
   },
   {
    "name": "S.Space",
@@ -202,8 +202,8 @@
     },
     {
      "src": "YouTube",
-     "t": "Claude Fable 5.5 or Opus 5.6?! GPT-6.2 Astra & Sol, Gemini 4 Neon TODAY! & Microsoft MAI! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=q8iHsdzd94U"
+     "t": "GPT-6.2 Astra Is INSANE! Gemini 4 Neon, OpenAI AGI CONFIRMED?!, Claude Code UPGRADES & MORE! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=WRdgKyOTPXA"
     },
     {
      "src": "Product Hunt",
@@ -235,8 +235,8 @@
     },
     {
      "src": "YouTube",
-     "t": "Claude Fable 5.5 or Opus 5.6?! GPT-6.2 Astra & Sol, Gemini 4 Neon TODAY! & Microsoft MAI! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=q8iHsdzd94U"
+     "t": "GPT-6.2 Astra Is INSANE! Gemini 4 Neon, OpenAI AGI CONFIRMED?!, Claude Code UPGRADES & MORE! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=WRdgKyOTPXA"
     }
    ],
    "since": "2026-11-19T11:01:12.845Z"
@@ -253,8 +253,8 @@
     },
     {
      "src": "YouTube",
-     "t": "Claude Fable 5.5 or Opus 5.6?! GPT-6.2 Astra & Sol, Gemini 4 Neon TODAY! & Microsoft MAI! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=q8iHsdzd94U"
+     "t": "GPT-6.2 Astra Is INSANE! Gemini 4 Neon, OpenAI AGI CONFIRMED?!, Claude Code UPGRADES & MORE! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=WRdgKyOTPXA"
     },
     {
      "src": "Product Hunt",
@@ -291,8 +291,8 @@
     },
     {
      "src": "YouTube",
-     "t": "Claude Fable 5.5 or Opus 5.6?! GPT-6.2 Astra & Sol, Gemini 4 Neon TODAY! & Microsoft MAI! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=q8iHsdzd94U"
+     "t": "GPT-6.2 Astra Is INSANE! Gemini 4 Neon, OpenAI AGI CONFIRMED?!, Claude Code UPGRADES & MORE! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=WRdgKyOTPXA"
     }
    ],
    "buzz": 4,
@@ -318,8 +318,8 @@
     },
     {
      "src": "YouTube",
-     "t": "Claude Fable 5.5 or Opus 5.6?! GPT-6.2 Astra & Sol, Gemini 4 Neon TODAY! & Microsoft MAI! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=q8iHsdzd94U"
+     "t": "GPT-6.2 Astra Is INSANE! Gemini 4 Neon, OpenAI AGI CONFIRMED?!, Claude Code UPGRADES & MORE! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=WRdgKyOTPXA"
     }
    ],
    "buzz": 3,
@@ -340,8 +340,8 @@
     },
     {
      "src": "YouTube",
-     "t": "Claude Fable 5.5 or Opus 5.6?! GPT-6.2 Astra & Sol, Gemini 4 Neon TODAY! & Microsoft MAI! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=q8iHsdzd94U"
+     "t": "GPT-6.2 Astra Is INSANE! Gemini 4 Neon, OpenAI AGI CONFIRMED?!, Claude Code UPGRADES & MORE! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=WRdgKyOTPXA"
     }
    ],
    "buzz": 2,
@@ -385,8 +385,8 @@
    "name": "rust-anything",
    "url": "https://github.com/erkamyaman/rust-anything",
    "from": "GitHub",
-   "use": 1489,
-   "useLabel": "+1,489 stars/day",
+   "use": 1485,
+   "useLabel": "+1,485 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -500,21 +500,21 @@
  "github": [
   {
    "repo": "erkamyaman/rust-anything",
-   "stars": 5136,
-   "d24": 1489,
+   "stars": 5149,
+   "d24": 1485,
    "est": false,
-   "forks": 410,
+   "forks": 412,
    "contrib": null,
    "score": 96
   },
   {
-   "repo": "Immortal-Protocols/lastbook",
-   "stars": 2572,
-   "d24": 500,
-   "est": false,
-   "forks": 313,
+   "repo": "sybil-solutions/inference-optimisation-skill",
+   "stars": 1258,
+   "d24": 390,
+   "est": true,
+   "forks": 114,
    "contrib": null,
-   "score": 86
+   "score": 90
   },
   {
    "repo": "duwqijlk/muse-protocol",
@@ -523,16 +523,16 @@
    "est": true,
    "forks": 656,
    "contrib": null,
-   "score": 82
+   "score": 81
   },
   {
    "repo": "haziqahmedqasmi/PeakCut",
-   "stars": 1332,
-   "d24": 256,
+   "stars": 1331,
+   "d24": 246,
    "est": false,
    "forks": 457,
    "contrib": null,
-   "score": 78
+   "score": 77
   }
  ],
  "models": [
@@ -568,7 +568,7 @@
    "grow": 18,
    "score": 91,
    "cat": "Tools",
-   "likes": 3632
+   "likes": 3634
   },
   {
    "name": "Qwen3.8-27B-pi-adapted",
@@ -580,7 +580,7 @@
    "grow": 0,
    "score": 91,
    "cat": "Agents",
-   "likes": 736
+   "likes": 738
   },
   {
    "name": "voice-isolator",
@@ -591,7 +591,7 @@
    "grow": null,
    "score": 87,
    "cat": "Tools",
-   "likes": 255
+   "likes": 258
   },
   {
    "name": "SenseNova-Loop-9B",
@@ -1036,8 +1036,8 @@
    "t": "Anthropic’s Nasdaq debut",
    "url": "https://news.ycombinator.com/item?id=50562754",
    "link": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
-   "up": 812,
-   "com": 1549,
+   "up": 823,
+   "com": 1577,
    "at": "2026-11-19T17:02:40.000Z"
   },
   {
@@ -1045,8 +1045,8 @@
    "t": "Fuck Your AI Safeguards",
    "url": "https://news.ycombinator.com/item?id=50562262",
    "link": "https://ounapuu.ee/posts/2026/11/19/unsafeguards/",
-   "up": 449,
-   "com": 181,
+   "up": 453,
+   "com": 186,
    "at": "2026-11-19T16:30:18.000Z"
   },
   {
@@ -1054,8 +1054,8 @@
    "t": "Claude solves two open problems in the physics of black holes",
    "url": "https://news.ycombinator.com/item?id=50563148",
    "link": "https://www.anthropic.com/research/claude-black-hole-physics",
-   "up": 340,
-   "com": 154,
+   "up": 345,
+   "com": 155,
    "at": "2026-11-19T17:30:44.000Z"
   },
   {
@@ -1063,27 +1063,27 @@
    "t": "Someone reported java4shell bug in September 2026",
    "url": "https://news.ycombinator.com/item?id=50558906",
    "link": "https://github.com/openjdk/jdk/pull/32781",
-   "up": 340,
+   "up": 343,
    "com": 90,
    "at": "2026-11-19T11:47:03.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Pete warden on local AI, open models, voice interfaces, the future of hardware",
-   "url": "https://news.ycombinator.com/item?id=50561508",
-   "link": "https://thedataexchange.media/pete-warden-moonshine/",
-   "up": 201,
-   "com": 184,
-   "at": "2026-11-19T15:38:12.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Court: 4th Amendment Disallows Use Of AI-Generated 'Probable Cause'",
    "url": "https://news.ycombinator.com/item?id=50567735",
    "link": "https://www.techdirt.com/2026/11/19/court-tells-cops-that-the-4th-amendment-doesnt-cover-ai-generated-probable-cause/",
-   "up": 23,
-   "com": 7,
+   "up": 27,
+   "com": 9,
    "at": "2026-11-19T22:56:59.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Pete warden on local AI, open models, voice interfaces, the future of hardware",
+   "url": "https://news.ycombinator.com/item?id=50561508",
+   "link": "https://thedataexchange.media/pete-warden-moonshine/",
+   "up": 205,
+   "com": 186,
+   "at": "2026-11-19T15:38:12.000Z"
   }
  ]
 }
