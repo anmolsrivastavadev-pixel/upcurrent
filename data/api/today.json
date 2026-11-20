@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-20T22:30:53.003Z"
+  "updated": "2026-11-20T22:38:28.566Z"
  },
  "pulse": {
   "trending": 74,
   "accelerating": 2,
   "newModels": 10,
-  "discussions": 39,
-  "stars": 3233
+  "discussions": 38,
+  "stars": 3235
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
    "meta": [
-    "★ 1,704",
-    "~1,286 in 24h",
+    "★ 1,719",
+    "~1,292 in 24h",
     "Created yesterday"
    ],
    "at": "2026-11-19T14:43:10Z",
@@ -41,8 +41,8 @@
    "grow": 10,
    "desc": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
    "meta": [
-    "★ 6,566",
-    "+1,413 in 24h",
+    "★ 6,572",
+    "+1,410 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-16T12:10:36Z",
@@ -72,7 +72,7 @@
    "cat": "Vision",
    "score": 92,
    "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 250",
+   "desc": "Vision on Hugging Face · open source · ♥ 262",
    "meta": [
     "136 downloads",
     "Released 4 days ago"
@@ -102,9 +102,9 @@
    "owner": "tencent",
    "src": "hf",
    "cat": "Vision",
-   "score": 89,
+   "score": 90,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 538",
+   "desc": "Vision on Hugging Face · open weights · ♥ 540",
    "meta": [
     "3.9K downloads",
     "Released 4 days ago"
@@ -120,7 +120,7 @@
    "cat": "Vision",
    "score": 87,
    "grow": 13,
-   "desc": "Vision on Hugging Face · open source · ♥ 441",
+   "desc": "Vision on Hugging Face · open source · ♥ 442",
    "meta": [
     "1.6K downloads",
     "Released 4 days ago"
@@ -147,22 +147,6 @@
    "url": "https://github.com/sybil-solutions/inference-optimisation-skill"
   },
   {
-   "name": "MiniMax-H3-Image",
-   "owner": "MiniMaxAI",
-   "src": "hf",
-   "cat": "Vision",
-   "score": 85,
-   "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 1.7K",
-   "meta": [
-    "877K downloads",
-    "Released 18 days ago"
-   ],
-   "at": "2026-11-03T06:34:36.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image"
-  },
-  {
    "name": "Probing the \"Conscious\" Mind: Selective Access and Global Workspace in Vision-Language Models",
    "owner": "Paper",
    "src": "paper",
@@ -177,13 +161,30 @@
    ],
    "at": "2026-11-18T19:00:00.000Z",
    "breakout": null
+  },
+  {
+   "name": "TestSprite 4.0",
+   "owner": "Product Hunt",
+   "src": "ph",
+   "url": "https://www.producthunt.com/products/testsprite?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29",
+   "cat": "Agents",
+   "score": 85,
+   "grow": null,
+   "desc": "Fix one thing, break another? This agent checks it all",
+   "meta": [
+    "▲ 366 votes",
+    "55 comments",
+    "Launched 2 days ago"
+   ],
+   "at": "2026-11-19T08:01:00Z",
+   "breakout": null
   }
  ],
  "breakouts": [
   {
    "key": "gemini 4",
    "label": "Gemini 4",
-   "n": 6,
+   "n": 7,
    "sources": [
     {
      "src": "Hacker News",
@@ -211,6 +212,11 @@
      "url": "https://digitaldrops.com.br/2026/11/gemini-4-neon-modelo-intermediario-do-google-supera-o-flagship-carbon.html"
     },
     {
+     "src": "YouTube",
+     "t": "Claude Fable 5.5 or Opus 5.6?! GPT-6.2 Astra & Sol, Gemini 4 Neon TODAY! & Microsoft MAI! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=q8iHsdzd94U"
+    },
+    {
      "src": "Product Hunt",
      "t": "Gemini 4 Neon",
      "url": "https://www.producthunt.com/products/gemini-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
@@ -221,7 +227,7 @@
   {
    "key": "gemini 4 neon",
    "label": "Gemini 4 Neon",
-   "n": 5,
+   "n": 6,
    "sources": [
     {
      "src": "Product Hunt",
@@ -247,6 +253,11 @@
      "src": "Digitaldrops.com.br",
      "t": "Gemini 4 Neon: modelo intermediário do Google supera o flagship Carbon",
      "url": "https://digitaldrops.com.br/2026/11/gemini-4-neon-modelo-intermediario-do-google-supera-o-flagship-carbon.html"
+    },
+    {
+     "src": "YouTube",
+     "t": "Claude Fable 5.5 or Opus 5.6?! GPT-6.2 Astra & Sol, Gemini 4 Neon TODAY! & Microsoft MAI! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=q8iHsdzd94U"
     }
    ],
    "since": "2026-11-19T11:01:12.845Z"
@@ -285,9 +296,14 @@
      "src": "Digitaldrops.com.br",
      "t": "Gemini 4 Neon: modelo intermediário do Google supera o flagship Carbon",
      "url": "https://digitaldrops.com.br/2026/11/gemini-4-neon-modelo-intermediario-do-google-supera-o-flagship-carbon.html"
+    },
+    {
+     "src": "YouTube",
+     "t": "Claude Fable 5.5 or Opus 5.6?! GPT-6.2 Astra & Sol, Gemini 4 Neon TODAY! & Microsoft MAI! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=q8iHsdzd94U"
     }
    ],
-   "buzz": 5,
+   "buzz": 6,
    "verdict": "Talk only, no public usage numbers"
   },
   {
@@ -317,9 +333,14 @@
      "src": "Digitaldrops.com.br",
      "t": "Gemini 4 Neon: modelo intermediário do Google supera o flagship Carbon",
      "url": "https://digitaldrops.com.br/2026/11/gemini-4-neon-modelo-intermediario-do-google-supera-o-flagship-carbon.html"
+    },
+    {
+     "src": "YouTube",
+     "t": "Claude Fable 5.5 or Opus 5.6?! GPT-6.2 Astra & Sol, Gemini 4 Neon TODAY! & Microsoft MAI! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=q8iHsdzd94U"
     }
    ],
-   "buzz": 4,
+   "buzz": 5,
    "verdict": "Talk only, no public usage numbers"
   },
   {
@@ -377,8 +398,8 @@
    "name": "rust-anything",
    "url": "https://github.com/erkamyaman/rust-anything",
    "from": "GitHub",
-   "use": 1413,
-   "useLabel": "+1,413 stars/day",
+   "use": 1410,
+   "useLabel": "+1,410 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -492,17 +513,17 @@
  "github": [
   {
    "repo": "erkamyaman/rust-anything",
-   "stars": 6566,
-   "d24": 1413,
+   "stars": 6572,
+   "d24": 1410,
    "est": false,
-   "forks": 517,
+   "forks": 518,
    "contrib": 16,
    "score": 95
   },
   {
    "repo": "bookwjitchieni1986/blender-ai-mcp-addon",
-   "stars": 1704,
-   "d24": 1286,
+   "stars": 1719,
+   "d24": 1292,
    "est": true,
    "forks": 1,
    "contrib": null,
@@ -519,7 +540,7 @@
   },
   {
    "repo": "haziqahmedqasmi/PeakCut",
-   "stars": 1536,
+   "stars": 1537,
    "d24": 174,
    "est": false,
    "forks": 495,
@@ -529,7 +550,7 @@
   {
    "repo": "duwqijlk/muse-protocol",
    "stars": 1694,
-   "d24": 42,
+   "d24": 41,
    "est": false,
    "forks": 661,
    "contrib": null,
@@ -558,7 +579,7 @@
    "grow": null,
    "score": 92,
    "cat": "Vision",
-   "likes": 250
+   "likes": 262
   },
   {
    "name": "Haru-4B",
@@ -570,7 +591,7 @@
    "grow": 17,
    "score": 91,
    "cat": "Tools",
-   "likes": 5205
+   "likes": 5226
   },
   {
    "name": "Hy4-flash",
@@ -579,9 +600,9 @@
    "at": "2026-11-17T03:44:46.000Z",
    "dl": 3949,
    "grow": null,
-   "score": 89,
+   "score": 90,
    "cat": "Vision",
-   "likes": 538
+   "likes": 540
   },
   {
    "name": "SenseNova-Loop-9B",
@@ -593,7 +614,7 @@
    "grow": 13,
    "score": 87,
    "cat": "Vision",
-   "likes": 441
+   "likes": 442
   },
   {
    "name": "MiniMax-H3-Image",
@@ -602,7 +623,7 @@
    "at": "2026-11-03T06:34:36.000Z",
    "dl": 876986,
    "grow": 0,
-   "score": 85,
+   "score": 84,
    "cat": "Vision",
    "likes": 1699
   }
@@ -957,6 +978,27 @@
    "kind": "News"
   },
   {
+   "t": "Beyond CA, BCom: Qualifications That Can Open New Career Opportunities",
+   "url": "https://www.ndtv.com/education/beyond-ca-bcom-qualifications-that-can-open-new-career-opportunities-12354113",
+   "at": "2026-11-20T10:36:33Z",
+   "src": "NDTV.com",
+   "kind": "News"
+  },
+  {
+   "t": "Apple To Build Proactive AI Agent to Challenge Meta, OpenAI & Google",
+   "url": "https://www.freepressjournal.in/tech/apple-to-build-proactive-ai-agent-to-challenge-meta-openai-google",
+   "at": "2026-11-20T10:35:33Z",
+   "src": "Free Press Journal",
+   "kind": "News"
+  },
+  {
+   "t": "Missing for 5 years, found in Rajasthan: How AI helped UP cops trace woman using childhood photo",
+   "url": "https://timesofindia.indiatimes.com/city/lucknow/missing-for-5-years-found-in-rajasthan-how-ai-helped-up-cops-trace-woman-using-childhood-photo/articleshow/136022688.cms",
+   "at": "2026-11-20T10:31:00Z",
+   "src": "Times of India",
+   "kind": "News"
+  },
+  {
    "t": "Google Launches Gemini 4 Neon AI Model: Balancing Power and Affordability for Users",
    "url": "https://www.lokmattimes.com/technology/google-launches-gemini-4-neon-ai-model-balancing-power-and-affordability-for-users-a001-w01/",
    "at": "2026-11-20T10:27:45Z",
@@ -983,27 +1025,6 @@
    "at": "2026-11-20T10:15:42Z",
    "src": "Breitbart News Network",
    "kind": "News"
-  },
-  {
-   "t": "JudgeGPT? Artificial intelligence enters Philly judicial chambers, raising questions over accuracy",
-   "url": "https://www.inquirer.com/crime/university-pennsylvania-penn-artificial-intelligence-ai-federal-court-judges-20261120.html",
-   "at": "2026-11-20T10:01:00Z",
-   "src": "The Philadelphia Inquirer",
-   "kind": "News"
-  },
-  {
-   "t": "Combatting adversarial distillation",
-   "url": "https://openai.com/index/combatting-adversarial-distillation",
-   "at": "2026-11-20T10:00:00.000Z",
-   "src": "OpenAI",
-   "kind": "Lab blog"
-  },
-  {
-   "t": "Oxford's 2026 Word of The Year shortlists warn of AI slop, fading literacy and doom",
-   "url": "https://www.indiatoday.in/education-today/grammar-vocabulary/story/oxfords-2026-word-of-the-year-shortlists-warn-of-ai-slop-fading-literacy-and-doom-3043064-2026-11-20",
-   "at": "2026-11-20T09:51:34Z",
-   "src": "India Today",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -1012,8 +1033,8 @@
    "t": "Inkling 2 Mini",
    "url": "https://news.ycombinator.com/item?id=50581260",
    "link": "https://thinkingmachines.ai/news/inkling-2-mini/",
-   "up": 410,
-   "com": 62,
+   "up": 426,
+   "com": 63,
    "at": "2026-11-20T20:12:19.000Z"
   },
   {
@@ -1021,8 +1042,8 @@
    "t": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
    "url": "https://news.ycombinator.com/item?id=50572503",
    "link": "https://architectlabs.com/blog/frostbite",
-   "up": 589,
-   "com": 313,
+   "up": 593,
+   "com": 314,
    "at": "2026-11-20T10:01:41.000Z"
   },
   {
@@ -1030,7 +1051,7 @@
    "t": "Google Workers Tell Their Employer Not to Punish Schools That Don't Want AI",
    "url": "https://news.ycombinator.com/item?id=50577901",
    "link": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
-   "up": 216,
+   "up": 221,
    "com": 157,
    "at": "2026-11-20T16:59:27.000Z"
   },
@@ -1039,8 +1060,8 @@
    "t": "Finite-time blow-up for the Navier–Stokes equations",
    "url": "https://news.ycombinator.com/item?id=50576232",
    "link": "https://github.com/tristanbuckmaster/navier-stokes/",
-   "up": 229,
-   "com": 75,
+   "up": 231,
+   "com": 76,
    "at": "2026-11-20T15:34:31.000Z"
   },
   {
@@ -1048,18 +1069,18 @@
    "t": "If you stop writing code, you also get worse at reviewing it",
    "url": "https://news.ycombinator.com/item?id=50573886",
    "link": "https://cekrem.github.io/posts/if-you-stop-writing-code-you-also-get-worse-at-reviewing-it/",
-   "up": 312,
+   "up": 313,
    "com": 151,
    "at": "2026-11-20T12:41:38.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Global stock markets slump as Anthropic's record IPO fails to stem AI sell-off",
-   "url": "https://news.ycombinator.com/item?id=50574383",
-   "link": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
-   "up": 187,
-   "com": 222,
-   "at": "2026-11-20T13:29:59.000Z"
+   "t": "A few hours ago Google DeepMind created a math horizon repo",
+   "url": "https://news.ycombinator.com/item?id=50582629",
+   "link": "https://github.com/google-deepmind/math-horizon",
+   "up": 21,
+   "com": 3,
+   "at": "2026-11-20T21:42:21.000Z"
   }
  ]
 }
