@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-20T20:01:03.747Z"
+  "updated": "2026-11-20T20:30:57.203Z"
  },
  "pulse": {
   "trending": 72,
   "accelerating": 2,
   "newModels": 8,
-  "discussions": 32,
-  "stars": 3324
+  "discussions": 31,
+  "stars": 3554
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
    "meta": [
-    "★ 1,467",
-    "~1,202 in 24h",
+    "★ 1,510",
+    "~1,216 in 24h",
     "Created yesterday"
    ],
    "at": "2026-11-19T14:43:10Z",
@@ -41,8 +41,8 @@
    "grow": 9,
    "desc": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
    "meta": [
-    "★ 6,482",
-    "+1,602 in 24h",
+    "★ 6,506",
+    "+1,576 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-16T12:10:36Z",
@@ -56,7 +56,7 @@
    "cat": "Agents",
    "score": 93,
    "grow": 42,
-   "desc": "Model on Hugging Face · open source · ♥ 851",
+   "desc": "Model on Hugging Face · open source · ♥ 852",
    "meta": [
     "1.9K downloads",
     "Released 5 days ago"
@@ -104,7 +104,7 @@
    "cat": "Vision",
    "score": 89,
    "grow": 13,
-   "desc": "Vision on Hugging Face · open source · ♥ 437",
+   "desc": "Vision on Hugging Face · open source · ♥ 439",
    "meta": [
     "1.6K downloads",
     "Released 3 days ago"
@@ -119,7 +119,7 @@
    "src": "hf",
    "cat": "Vision",
    "score": 87,
-   "grow": null,
+   "grow": 0,
    "desc": "Vision on Hugging Face · open weights · ♥ 1.7K",
    "meta": [
     "877K downloads",
@@ -135,11 +135,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 86,
-   "grow": 5,
+   "grow": null,
    "desc": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
    "meta": [
-    "★ 1,318",
-    "+72 in 24h",
+    "★ 1,319",
+    "~324 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-16T18:40:04Z",
@@ -321,8 +321,8 @@
    "name": "rust-anything",
    "url": "https://github.com/erkamyaman/rust-anything",
    "from": "GitHub",
-   "use": 1602,
-   "useLabel": "+1,602 stars/day",
+   "use": 1576,
+   "useLabel": "+1,576 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -436,8 +436,8 @@
  "github": [
   {
    "repo": "erkamyaman/rust-anything",
-   "stars": 6482,
-   "d24": 1602,
+   "stars": 6506,
+   "d24": 1576,
    "est": false,
    "forks": 508,
    "contrib": 16,
@@ -445,17 +445,26 @@
   },
   {
    "repo": "bookwjitchieni1986/blender-ai-mcp-addon",
-   "stars": 1467,
-   "d24": 1202,
+   "stars": 1510,
+   "d24": 1216,
    "est": true,
    "forks": 1,
    "contrib": null,
    "score": 97
   },
   {
+   "repo": "sybil-solutions/inference-optimisation-skill",
+   "stars": 1319,
+   "d24": 324,
+   "est": true,
+   "forks": 117,
+   "contrib": null,
+   "score": 86
+  },
+  {
    "repo": "duwqijlk/muse-protocol",
-   "stars": 1692,
-   "d24": 250,
+   "stars": 1694,
+   "d24": 249,
    "est": true,
    "forks": 661,
    "contrib": null,
@@ -463,21 +472,12 @@
   },
   {
    "repo": "haziqahmedqasmi/PeakCut",
-   "stars": 1526,
-   "d24": 198,
+   "stars": 1527,
+   "d24": 189,
    "est": false,
    "forks": 493,
    "contrib": null,
    "score": 75
-  },
-  {
-   "repo": "sybil-solutions/inference-optimisation-skill",
-   "stars": 1318,
-   "d24": 72,
-   "est": false,
-   "forks": 117,
-   "contrib": null,
-   "score": 86
   }
  ],
  "models": [
@@ -491,7 +491,7 @@
    "grow": 42,
    "score": 93,
    "cat": "Agents",
-   "likes": 851
+   "likes": 852
   },
   {
    "name": "Haru-4B",
@@ -503,7 +503,7 @@
    "grow": 17,
    "score": 91,
    "cat": "Tools",
-   "likes": 4871
+   "likes": 4947
   },
   {
    "name": "Hy4-flash",
@@ -526,7 +526,7 @@
    "grow": 13,
    "score": 89,
    "cat": "Vision",
-   "likes": 437
+   "likes": 439
   },
   {
    "name": "MiniMax-H3-Image",
@@ -534,7 +534,7 @@
    "lic": "Open weights",
    "at": "2026-11-03T06:34:36.000Z",
    "dl": 876986,
-   "grow": null,
+   "grow": 0,
    "score": 87,
    "cat": "Vision",
    "likes": 1698
@@ -548,7 +548,7 @@
    "grow": null,
    "score": 83,
    "cat": "Vision",
-   "likes": 485
+   "likes": 486
   }
  ],
  "free": [
@@ -838,6 +838,27 @@
  },
  "headlines": [
   {
+   "t": "Sources: the US SEC is probing Nvidia's accounting practices; last year, Nvidia changed how it reports revenue, removing Singapore from geographical breakdowns",
+   "url": "https://www.techmeme.com/261120/p31#a261120p31",
+   "at": "2026-11-20T20:25:00.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Sources: Nvidia board's main reason for ousting Jensen Huang was his \"lying\" and \"lack of candor\" from October 2025 until this fall over the Alice Huang affair",
+   "url": "https://www.techmeme.com/261120/p30#a261120p30",
+   "at": "2026-11-20T20:20:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Nvidia shares fell 12% on Friday, sliding for a seventh straight day; the stock fell 44% over seven weeks, pushing the company's market cap down by $2.5T",
+   "url": "https://www.techmeme.com/261120/p29#a261120p29",
+   "at": "2026-11-20T20:10:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Trump says he \"would love to see\" Jensen Huang return as CEO, saying \"if they were smart\", Nvidia would \"accept an apology, and let him go back to work\"",
    "url": "https://www.techmeme.com/261120/p26#a261120p26",
    "at": "2026-11-20T19:35:00.000Z",
@@ -887,34 +908,6 @@
    "kind": "News"
   },
   {
-   "t": "Anthropic mathematician Levent Alpöge claims he used Claude to prove the 167-year-old Riemann hypothesis and posts the proof in the Lean programming language",
-   "url": "https://www.techmeme.com/261120/p17#a261120p17",
-   "at": "2026-11-20T15:20:00.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Anthropic stock fell as low as $87.26 in the opening hours of its second day of trading, trimming gains from the $83 IPO price to as little as 5.1%",
-   "url": "https://www.techmeme.com/261120/p16#a261120p16",
-   "at": "2026-11-20T15:10:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Anthropic raises an additional $12.2B as underwriters exercise their \"greenshoe\" overallotment of shares, bringing the total raised in its IPO to $93.5B",
-   "url": "https://www.techmeme.com/261120/p14#a261120p14",
-   "at": "2026-11-20T13:50:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Current and ex-staffers describe abusive behavior by Jensen Huang that goes back decades; Nvidia settled with two senior leaders who alleged abusive conduct",
-   "url": "https://www.techmeme.com/261120/p12#a261120p12",
-   "at": "2026-11-20T12:40:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Anthropic And OpenAI Are About To Be DESTROYED - Trump’s AI Seizure Has Begun",
    "url": "https://www.youtube.com/watch?v=f1t87I0Q4kI",
    "at": "2026-11-20T12:08:05Z",
@@ -936,17 +929,24 @@
    "kind": "Lab blog"
   },
   {
-   "t": "'Doomsday prepping' spikes as tech outages drive shopper paranoia",
-   "url": "https://www.thestar.com.my/tech/tech-news/2026/11/20/039doomsday-prepping039-spikes-as-tech-outages-drive-shopper-paranoia",
-   "at": "2026-11-20T08:00:00Z",
-   "src": "The Star",
+   "t": "OpenAI's First Smartphone May Have Got A Manufacturer: Expected Launch Date And What We Know So Far",
+   "url": "https://www.timesnownews.com/technology-science/openais-first-smartphone-may-have-got-a-manufacturer-expected-launch-date-and-what-we-know-so-far-article-156541313",
+   "at": "2026-11-20T08:18:03Z",
+   "src": "Times Now",
    "kind": "News"
   },
   {
-   "t": "NJ lawmakers weigh new limits on AI use in business decisions • Jersey Vindicator",
-   "url": "https://www.europesays.com/3387872/",
-   "at": "2026-11-20T07:44:07Z",
-   "src": "EUROPE SAYS",
+   "t": "Apple working on AI agent for device control, apps, browsing and coding",
+   "url": "https://www.japantimes.co.jp/business/2026/11/20/apple-ai-agent/",
+   "at": "2026-11-20T08:16:05Z",
+   "src": "The Japan Times ",
+   "kind": "News"
+  },
+  {
+   "t": "J.S. Held Applies Multidisciplinary Expertise to Physical AI Claims and Disputes",
+   "url": "https://www.prnewswire.co.uk/news-releases/js-held-applies-multidisciplinary-expertise-to-physical-ai-claims-and-disputes-302946094.html",
+   "at": "2026-11-20T08:07:00Z",
+   "src": "PR Newswire UK",
    "kind": "News"
   }
  ],
@@ -956,35 +956,44 @@
    "t": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
    "url": "https://news.ycombinator.com/item?id=50572503",
    "link": "https://architectlabs.com/blog/frostbite",
-   "up": 544,
-   "com": 292,
+   "up": 557,
+   "com": 297,
    "at": "2026-11-20T10:01:41.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Finite-time blow-up for the Navier–Stokes equations",
-   "url": "https://news.ycombinator.com/item?id=50576232",
-   "link": "https://github.com/tristanbuckmaster/navier-stokes/",
-   "up": 181,
-   "com": 57,
-   "at": "2026-11-20T15:34:31.000Z"
+   "t": "Inkling 2 Mini",
+   "url": "https://news.ycombinator.com/item?id=50581260",
+   "link": "https://thinkingmachines.ai/news/inkling-2-mini/",
+   "up": 43,
+   "com": 2,
+   "at": "2026-11-20T20:12:19.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Google Workers Tell Their Employer Not to Punish Schools That Don't Want AI",
    "url": "https://news.ycombinator.com/item?id=50577901",
    "link": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
-   "up": 121,
-   "com": 62,
+   "up": 149,
+   "com": 96,
    "at": "2026-11-20T16:59:27.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Finite-time blow-up for the Navier–Stokes equations",
+   "url": "https://news.ycombinator.com/item?id=50576232",
+   "link": "https://github.com/tristanbuckmaster/navier-stokes/",
+   "up": 190,
+   "com": 64,
+   "at": "2026-11-20T15:34:31.000Z"
   },
   {
    "src": "Hacker News",
    "t": "If you stop writing code, you also get worse at reviewing it",
    "url": "https://news.ycombinator.com/item?id=50573886",
    "link": "https://cekrem.github.io/posts/if-you-stop-writing-code-you-also-get-worse-at-reviewing-it/",
-   "up": 277,
-   "com": 133,
+   "up": 288,
+   "com": 136,
    "at": "2026-11-20T12:41:38.000Z"
   },
   {
@@ -992,18 +1001,9 @@
    "t": "Global stock markets slump as Anthropic's record IPO fails to stem AI sell-off",
    "url": "https://news.ycombinator.com/item?id=50574383",
    "link": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
-   "up": 177,
-   "com": 200,
+   "up": 182,
+   "com": 205,
    "at": "2026-11-20T13:29:59.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)",
-   "url": "https://news.ycombinator.com/item?id=50569226",
-   "link": "https://github.com/openssl/openssl/pull/33652",
-   "up": 356,
-   "com": 313,
-   "at": "2026-11-20T02:01:09.000Z"
   }
  ]
 }
