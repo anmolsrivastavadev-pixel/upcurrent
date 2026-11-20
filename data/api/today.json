@@ -5,59 +5,26 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-20T10:30:59.837Z"
+  "updated": "2026-11-20T11:01:14.165Z"
  },
  "pulse": {
-  "trending": 76,
-  "accelerating": 0,
+  "trending": 75,
+  "accelerating": 2,
   "newModels": 11,
-  "discussions": 40,
-  "stars": 1907
+  "discussions": 41,
+  "stars": 1921
  },
  "rising": [
-  {
-   "name": "rust-anything",
-   "owner": "erkamyaman",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 95,
-   "grow": 26,
-   "desc": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
-   "meta": [
-    "★ 5,862",
-    "+1,567 in 24h",
-    "Created 4 days ago"
-   ],
-   "at": "2026-11-16T12:10:36Z",
-   "breakout": null,
-   "url": "https://github.com/erkamyaman/rust-anything"
-  },
-  {
-   "name": "Qwen3.8-27B-pi-adapted",
-   "owner": "harness-hub",
-   "src": "hf",
-   "cat": "Agents",
-   "score": 95,
-   "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 773",
-   "meta": [
-    "1.3K downloads",
-    "Released 4 days ago"
-   ],
-   "at": "2026-11-16T06:52:31.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted"
-  },
   {
    "name": "Hy4-flash",
    "owner": "tencent",
    "src": "hf",
    "cat": "Vision",
-   "score": 94,
-   "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 392",
+   "score": 96,
+   "grow": 92,
+   "desc": "Vision on Hugging Face · open weights · ♥ 445",
    "meta": [
-    "2.1K downloads",
+    "3.9K downloads",
     "Released 3 days ago"
    ],
    "at": "2026-11-17T03:44:46.000Z",
@@ -65,13 +32,30 @@
    "url": "https://huggingface.co/tencent/Hy4-flash"
   },
   {
+   "name": "rust-anything",
+   "owner": "erkamyaman",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 95,
+   "grow": 27,
+   "desc": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
+   "meta": [
+    "★ 5,900",
+    "+1,574 in 24h",
+    "Created 4 days ago"
+   ],
+   "at": "2026-11-16T12:10:36Z",
+   "breakout": null,
+   "url": "https://github.com/erkamyaman/rust-anything"
+  },
+  {
    "name": "FastFrames-L",
    "owner": "apple",
    "src": "hf",
    "cat": "Vision",
-   "score": 91,
+   "score": 92,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 366",
+   "desc": "Vision on Hugging Face · open weights · ♥ 367",
    "meta": [
     "0 downloads",
     "Released 4 days ago"
@@ -85,11 +69,11 @@
    "owner": "higurashi-ai",
    "src": "hf",
    "cat": "Tools",
-   "score": 88,
+   "score": 90,
    "grow": null,
    "desc": "Model on Hugging Face · open source · ♥ 3.7K",
    "meta": [
-    "6.3K downloads",
+    "7.3K downloads",
     "Released 8 days ago"
    ],
    "at": "2026-11-12T11:05:59.000Z",
@@ -97,28 +81,27 @@
    "url": "https://huggingface.co/higurashi-ai/Haru-4B"
   },
   {
-   "name": "inference-optimisation-skill",
-   "owner": "sybil-solutions",
-   "src": "gh",
+   "name": "Qwen3.8-27B-pi-adapted",
+   "owner": "harness-hub",
+   "src": "hf",
    "cat": "Agents",
-   "score": 87,
-   "grow": 2,
-   "desc": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
+   "score": 89,
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 778",
    "meta": [
-    "★ 1,284",
-    "+59 in 24h",
-    "Created 4 days ago"
+    "1.9K downloads",
+    "Released 4 days ago"
    ],
-   "at": "2026-11-16T18:40:04Z",
+   "at": "2026-11-16T06:52:31.000Z",
    "breakout": null,
-   "url": "https://github.com/sybil-solutions/inference-optimisation-skill"
+   "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted"
   },
   {
    "name": "voice-isolator",
    "owner": "inworld",
    "src": "hf",
    "cat": "Tools",
-   "score": 87,
+   "score": 88,
    "grow": null,
    "desc": "Model on Hugging Face · open source · ♥ 313",
    "meta": [
@@ -130,6 +113,23 @@
    "url": "https://huggingface.co/inworld/voice-isolator"
   },
   {
+   "name": "inference-optimisation-skill",
+   "owner": "sybil-solutions",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 87,
+   "grow": 2,
+   "desc": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
+   "meta": [
+    "★ 1,285",
+    "+59 in 24h",
+    "Created 4 days ago"
+   ],
+   "at": "2026-11-16T18:40:04Z",
+   "breakout": null,
+   "url": "https://github.com/sybil-solutions/inference-optimisation-skill"
+  },
+  {
    "name": "Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation",
    "owner": "Paper",
    "src": "paper",
@@ -139,7 +139,7 @@
    "grow": null,
    "desc": "Embodied intelligence aims to let robots perform complex physical tasks with human-like adaptability and reliability, which requires three complementary capabilities: history-based cognitive reasoning, precise and timely physical execution, and the composition of reasoning and execution through environmental feedback.",
    "meta": [
-    "▲ 39 upvotes",
+    "▲ 40 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-11-18T19:00:00.000Z",
@@ -155,7 +155,7 @@
    "grow": null,
    "desc": "Fix one thing, break another? This agent checks it all",
    "meta": [
-    "▲ 358 votes",
+    "▲ 359 votes",
     "55 comments",
     "Launched yesterday"
    ],
@@ -169,9 +169,9 @@
    "cat": "Vision",
    "score": 84,
    "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 400",
+   "desc": "Vision on Hugging Face · open source · ♥ 401",
    "meta": [
-    "1.4K downloads",
+    "1.6K downloads",
     "Released 3 days ago"
    ],
    "at": "2026-11-17T10:16:41.000Z",
@@ -276,9 +276,9 @@
    "name": "Rumble-2-Flash",
    "url": "https://huggingface.co/Reson8/Rumble-2-Flash",
    "from": "Hugging Face",
-   "use": 929,
-   "useLabel": "929 downloads",
-   "usePct": 0.3225806451612903,
+   "use": 1766,
+   "useLabel": "1.8K downloads",
+   "usePct": 0.36666666666666664,
    "talk": [
     {
      "src": "Hugging Face blog",
@@ -293,9 +293,9 @@
    "name": "DaisyRose-27B",
    "url": "https://huggingface.co/RadixArk/DaisyRose-27B",
    "from": "Hugging Face",
-   "use": 166,
-   "useLabel": "166 downloads",
-   "usePct": 0.22580645161290322,
+   "use": 918,
+   "useLabel": "918 downloads",
+   "usePct": 0.23333333333333334,
    "talk": [
     {
      "src": "Hugging Face blog",
@@ -310,8 +310,8 @@
    "name": "rust-anything",
    "url": "https://github.com/erkamyaman/rust-anything",
    "from": "GitHub",
-   "use": 1567,
-   "useLabel": "+1,567 stars/day",
+   "use": 1574,
+   "useLabel": "+1,574 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -321,8 +321,8 @@
    "name": "MiniMax-H3-Image",
    "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image",
    "from": "Hugging Face",
-   "use": 3181055,
-   "useLabel": "3.2M downloads",
+   "use": 3424035,
+   "useLabel": "3.4M downloads",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -332,9 +332,9 @@
    "name": "flux-3-image-klein-comfy",
    "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
    "from": "Hugging Face",
-   "use": 1000730,
-   "useLabel": "1M downloads",
-   "usePct": 0.967741935483871,
+   "use": 981223,
+   "useLabel": "981K downloads",
+   "usePct": 0.9666666666666667,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -425,25 +425,25 @@
  "github": [
   {
    "repo": "erkamyaman/rust-anything",
-   "stars": 5862,
-   "d24": 1567,
+   "stars": 5900,
+   "d24": 1574,
    "est": false,
-   "forks": 466,
+   "forks": 469,
    "contrib": null,
    "score": 95
   },
   {
    "repo": "haziqahmedqasmi/PeakCut",
-   "stars": 1441,
-   "d24": 249,
+   "stars": 1451,
+   "d24": 255,
    "est": false,
-   "forks": 474,
+   "forks": 475,
    "contrib": null,
-   "score": 78
+   "score": 77
   },
   {
    "repo": "sybil-solutions/inference-optimisation-skill",
-   "stars": 1284,
+   "stars": 1285,
    "d24": 59,
    "est": false,
    "forks": 114,
@@ -452,8 +452,8 @@
   },
   {
    "repo": "duwqijlk/muse-protocol",
-   "stars": 1674,
-   "d24": 32,
+   "stars": 1676,
+   "d24": 33,
    "est": false,
    "forks": 660,
    "contrib": null,
@@ -462,27 +462,15 @@
  ],
  "models": [
   {
-   "name": "Qwen3.8-27B-pi-adapted",
-   "org": "harness-hub",
-   "size": "27B",
-   "lic": "Open source",
-   "at": "2026-11-16T06:52:31.000Z",
-   "dl": 1320,
-   "grow": null,
-   "score": 95,
-   "cat": "Agents",
-   "likes": 773
-  },
-  {
    "name": "Hy4-flash",
    "org": "tencent",
    "lic": "Open weights",
    "at": "2026-11-17T03:44:46.000Z",
-   "dl": 2053,
-   "grow": 0,
-   "score": 94,
+   "dl": 3949,
+   "grow": 92,
+   "score": 96,
    "cat": "Vision",
-   "likes": 392
+   "likes": 445
   },
   {
    "name": "FastFrames-L",
@@ -491,9 +479,9 @@
    "at": "2026-11-16T17:21:04.000Z",
    "dl": 0,
    "grow": null,
-   "score": 91,
+   "score": 92,
    "cat": "Vision",
-   "likes": 366
+   "likes": 367
   },
   {
    "name": "Haru-4B",
@@ -501,11 +489,23 @@
    "size": "4B",
    "lic": "Open source",
    "at": "2026-11-12T11:05:59.000Z",
-   "dl": 6266,
+   "dl": 7323,
    "grow": null,
-   "score": 88,
+   "score": 90,
    "cat": "Tools",
-   "likes": 3701
+   "likes": 3703
+  },
+  {
+   "name": "Qwen3.8-27B-pi-adapted",
+   "org": "harness-hub",
+   "size": "27B",
+   "lic": "Open source",
+   "at": "2026-11-16T06:52:31.000Z",
+   "dl": 1874,
+   "grow": null,
+   "score": 89,
+   "cat": "Agents",
+   "likes": 778
   },
   {
    "name": "voice-isolator",
@@ -514,7 +514,7 @@
    "at": "2026-11-14T02:14:35.000Z",
    "dl": 0,
    "grow": null,
-   "score": 87,
+   "score": 88,
    "cat": "Tools",
    "likes": 313
   },
@@ -524,11 +524,11 @@
    "size": "9B",
    "lic": "Open source",
    "at": "2026-11-17T10:16:41.000Z",
-   "dl": 1447,
+   "dl": 1631,
    "grow": null,
    "score": 84,
    "cat": "Vision",
-   "likes": 400
+   "likes": 401
   }
  ],
  "free": [
@@ -604,7 +604,7 @@
    "caps": [
     "image/png/image/jpeg"
    ],
-   "added": true
+   "added": false
   },
   {
    "name": "Nemotron 3.5 Lightning Free",
@@ -827,13 +827,6 @@
     "prov": "OpenRouter",
     "url": "https://openrouter.ai/thinkingmachines/inkling-2-small:free",
     "at": "2026-11-19T14:01:10.626Z"
-   },
-   {
-    "type": "added",
-    "name": "Jev 1.13 Free",
-    "prov": "OpenCode Zen",
-    "url": null,
-    "at": "2026-11-19T11:01:12.845Z"
    }
   ]
  },
@@ -954,11 +947,20 @@
  "discussions": [
   {
    "src": "Hacker News",
+   "t": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+   "url": "https://news.ycombinator.com/item?id=50572503",
+   "link": "https://architectlabs.com/blog/frostbite",
+   "up": 61,
+   "com": 42,
+   "at": "2026-11-20T10:01:41.000Z"
+  },
+  {
+   "src": "Hacker News",
    "t": "Anthropic’s Nasdaq debut",
    "url": "https://news.ycombinator.com/item?id=50562754",
    "link": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
-   "up": 1084,
-   "com": 2147,
+   "up": 1087,
+   "com": 2152,
    "at": "2026-11-19T17:02:40.000Z"
   },
   {
@@ -966,7 +968,7 @@
    "t": "Gemini 4 Neon is the new #1 on the Models Engineering Index",
    "url": "https://news.ycombinator.com/item?id=50568130",
    "link": "https://git-aarvin.github.io/mei/",
-   "up": 347,
+   "up": 350,
    "com": 222,
    "at": "2026-11-19T23:35:35.000Z"
   },
@@ -975,8 +977,8 @@
    "t": "Fuck Your AI Safeguards",
    "url": "https://news.ycombinator.com/item?id=50562262",
    "link": "https://ounapuu.ee/posts/2026/11/19/unsafeguards/",
-   "up": 557,
-   "com": 223,
+   "up": 558,
+   "com": 224,
    "at": "2026-11-19T16:30:18.000Z"
   },
   {
@@ -984,8 +986,8 @@
    "t": "OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)",
    "url": "https://news.ycombinator.com/item?id=50569226",
    "link": "https://github.com/openssl/openssl/pull/33652",
-   "up": 258,
-   "com": 205,
+   "up": 268,
+   "com": 210,
    "at": "2026-11-20T02:01:09.000Z"
   },
   {
@@ -993,18 +995,9 @@
    "t": "Claude solves two open problems in the physics of black holes",
    "url": "https://news.ycombinator.com/item?id=50563148",
    "link": "https://www.anthropic.com/research/claude-black-hole-physics",
-   "up": 501,
-   "com": 232,
+   "up": 507,
+   "com": 236,
    "at": "2026-11-19T17:30:44.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Someone reported java4shell bug in September 2026",
-   "url": "https://news.ycombinator.com/item?id=50558906",
-   "link": "https://github.com/openjdk/jdk/pull/32781",
-   "up": 428,
-   "com": 119,
-   "at": "2026-11-19T11:47:03.000Z"
   }
  ]
 }
