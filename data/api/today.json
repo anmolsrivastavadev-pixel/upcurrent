@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-20T21:30:54.812Z"
+  "updated": "2026-11-20T22:01:09.824Z"
  },
  "pulse": {
   "trending": 74,
   "accelerating": 2,
   "newModels": 10,
-  "discussions": 33,
-  "stars": 3302
+  "discussions": 38,
+  "stars": 3272
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
    "meta": [
-    "★ 1,605",
-    "~1,251 in 24h",
+    "★ 1,657",
+    "~1,271 in 24h",
     "Created yesterday"
    ],
    "at": "2026-11-19T14:43:10Z",
@@ -41,8 +41,8 @@
    "grow": 10,
    "desc": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
    "meta": [
-    "★ 6,539",
-    "+1,494 in 24h",
+    "★ 6,554",
+    "+1,454 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-16T12:10:36Z",
@@ -56,7 +56,7 @@
    "cat": "Agents",
    "score": 93,
    "grow": 42,
-   "desc": "Model on Hugging Face · open source · ♥ 853",
+   "desc": "Model on Hugging Face · open source · ♥ 857",
    "meta": [
     "1.9K downloads",
     "Released 5 days ago"
@@ -64,6 +64,22 @@
    "at": "2026-11-16T06:52:31.000Z",
    "breakout": null,
    "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted"
+  },
+  {
+   "name": "Inkling-2-Mini",
+   "owner": "thinkingmachines",
+   "src": "hf",
+   "cat": "Vision",
+   "score": 92,
+   "grow": null,
+   "desc": "Vision on Hugging Face · open source · ♥ 201",
+   "meta": [
+    "136 downloads",
+    "Released 4 days ago"
+   ],
+   "at": "2026-11-17T00:26:57.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini"
   },
   {
    "name": "Haru-4B",
@@ -86,7 +102,7 @@
    "owner": "tencent",
    "src": "hf",
    "cat": "Vision",
-   "score": 90,
+   "score": 89,
    "grow": null,
    "desc": "Vision on Hugging Face · open weights · ♥ 533",
    "meta": [
@@ -102,9 +118,9 @@
    "owner": "sensenova",
    "src": "hf",
    "cat": "Vision",
-   "score": 89,
+   "score": 87,
    "grow": 13,
-   "desc": "Vision on Hugging Face · open source · ♥ 439",
+   "desc": "Vision on Hugging Face · open source · ♥ 440",
    "meta": [
     "1.6K downloads",
     "Released 3 days ago"
@@ -112,22 +128,6 @@
    "at": "2026-11-17T10:16:41.000Z",
    "breakout": null,
    "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B"
-  },
-  {
-   "name": "MiniMax-H3-Image",
-   "owner": "MiniMaxAI",
-   "src": "hf",
-   "cat": "Vision",
-   "score": 87,
-   "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 1.7K",
-   "meta": [
-    "877K downloads",
-    "Released 18 days ago"
-   ],
-   "at": "2026-11-03T06:34:36.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image"
   },
   {
    "name": "inference-optimisation-skill",
@@ -139,12 +139,28 @@
    "desc": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
    "meta": [
     "★ 1,325",
-    "~322 in 24h",
+    "~320 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-16T18:40:04Z",
    "breakout": null,
    "url": "https://github.com/sybil-solutions/inference-optimisation-skill"
+  },
+  {
+   "name": "MiniMax-H3-Image",
+   "owner": "MiniMaxAI",
+   "src": "hf",
+   "cat": "Vision",
+   "score": 85,
+   "grow": 0,
+   "desc": "Vision on Hugging Face · open weights · ♥ 1.7K",
+   "meta": [
+    "877K downloads",
+    "Released 18 days ago"
+   ],
+   "at": "2026-11-03T06:34:36.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image"
   },
   {
    "name": "Probing the \"Conscious\" Mind: Selective Access and Global Workspace in Vision-Language Models",
@@ -161,30 +177,13 @@
    ],
    "at": "2026-11-18T19:00:00.000Z",
    "breakout": null
-  },
-  {
-   "name": "TestSprite 4.0",
-   "owner": "Product Hunt",
-   "src": "ph",
-   "url": "https://www.producthunt.com/products/testsprite?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29",
-   "cat": "Agents",
-   "score": 85,
-   "grow": null,
-   "desc": "Fix one thing, break another? This agent checks it all",
-   "meta": [
-    "▲ 364 votes",
-    "55 comments",
-    "Launched 2 days ago"
-   ],
-   "at": "2026-11-19T08:01:00Z",
-   "breakout": null
   }
  ],
  "breakouts": [
   {
    "key": "gemini 4",
    "label": "Gemini 4",
-   "n": 5,
+   "n": 4,
    "sources": [
     {
      "src": "Hacker News",
@@ -202,11 +201,6 @@
      "url": "https://deepmind.google/blog/introducing-gemini-4-neon/"
     },
     {
-     "src": "YouTube",
-     "t": "Claude Fable 5.5 or Opus 5.6?! GPT-6.2 Astra & Sol, Gemini 4 Neon TODAY! & Microsoft MAI! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=q8iHsdzd94U"
-    },
-    {
      "src": "Product Hunt",
      "t": "Gemini 4 Neon",
      "url": "https://www.producthunt.com/products/gemini-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
@@ -217,7 +211,7 @@
   {
    "key": "gemini 4 neon",
    "label": "Gemini 4 Neon",
-   "n": 4,
+   "n": 3,
    "sources": [
     {
      "src": "Product Hunt",
@@ -233,11 +227,6 @@
      "src": "Google DeepMind blog",
      "t": "Introducing Gemini 4 Neon",
      "url": "https://deepmind.google/blog/introducing-gemini-4-neon/"
-    },
-    {
-     "src": "YouTube",
-     "t": "Claude Fable 5.5 or Opus 5.6?! GPT-6.2 Astra & Sol, Gemini 4 Neon TODAY! & Microsoft MAI! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=q8iHsdzd94U"
     }
    ],
    "since": "2026-11-19T11:01:12.845Z"
@@ -266,14 +255,9 @@
      "src": "Google DeepMind blog",
      "t": "Introducing Gemini 4 Neon",
      "url": "https://deepmind.google/blog/introducing-gemini-4-neon/"
-    },
-    {
-     "src": "YouTube",
-     "t": "Claude Fable 5.5 or Opus 5.6?! GPT-6.2 Astra & Sol, Gemini 4 Neon TODAY! & Microsoft MAI! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=q8iHsdzd94U"
     }
    ],
-   "buzz": 4,
+   "buzz": 3,
    "verdict": "Talk only, no public usage numbers"
   },
   {
@@ -293,33 +277,6 @@
      "src": "Google DeepMind blog",
      "t": "Introducing Gemini 4 Neon",
      "url": "https://deepmind.google/blog/introducing-gemini-4-neon/"
-    },
-    {
-     "src": "YouTube",
-     "t": "Claude Fable 5.5 or Opus 5.6?! GPT-6.2 Astra & Sol, Gemini 4 Neon TODAY! & Microsoft MAI! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=q8iHsdzd94U"
-    }
-   ],
-   "buzz": 3,
-   "verdict": "Talk only, no public usage numbers"
-  },
-  {
-   "name": "GPT-6.2",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
-    {
-     "src": "CNET",
-     "t": "OpenAI’s GPT-6.2 and Sol Are Getting Backlash From Early Testers",
-     "url": "https://www.cnet.com/tech/openais-gpt-6-2-sol-backlash-early-testers/"
-    },
-    {
-     "src": "YouTube",
-     "t": "Claude Fable 5.5 or Opus 5.6?! GPT-6.2 Astra & Sol, Gemini 4 Neon TODAY! & Microsoft MAI! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=q8iHsdzd94U"
     }
    ],
    "buzz": 2,
@@ -380,8 +337,8 @@
    "name": "rust-anything",
    "url": "https://github.com/erkamyaman/rust-anything",
    "from": "GitHub",
-   "use": 1494,
-   "useLabel": "+1,494 stars/day",
+   "use": 1454,
+   "useLabel": "+1,454 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -495,17 +452,17 @@
  "github": [
   {
    "repo": "erkamyaman/rust-anything",
-   "stars": 6539,
-   "d24": 1494,
+   "stars": 6554,
+   "d24": 1454,
    "est": false,
-   "forks": 513,
+   "forks": 514,
    "contrib": 16,
    "score": 95
   },
   {
    "repo": "bookwjitchieni1986/blender-ai-mcp-addon",
-   "stars": 1605,
-   "d24": 1251,
+   "stars": 1657,
+   "d24": 1271,
    "est": true,
    "forks": 1,
    "contrib": null,
@@ -514,7 +471,7 @@
   {
    "repo": "sybil-solutions/inference-optimisation-skill",
    "stars": 1325,
-   "d24": 322,
+   "d24": 320,
    "est": true,
    "forks": 117,
    "contrib": null,
@@ -522,8 +479,8 @@
   },
   {
    "repo": "haziqahmedqasmi/PeakCut",
-   "stars": 1534,
-   "d24": 187,
+   "stars": 1536,
+   "d24": 182,
    "est": false,
    "forks": 495,
    "contrib": null,
@@ -532,7 +489,7 @@
   {
    "repo": "duwqijlk/muse-protocol",
    "stars": 1694,
-   "d24": 48,
+   "d24": 45,
    "est": false,
    "forks": 661,
    "contrib": null,
@@ -550,7 +507,18 @@
    "grow": 42,
    "score": 93,
    "cat": "Agents",
-   "likes": 853
+   "likes": 857
+  },
+  {
+   "name": "Inkling-2-Mini",
+   "org": "thinkingmachines",
+   "lic": "Open source",
+   "at": "2026-11-17T00:26:57.000Z",
+   "dl": 136,
+   "grow": null,
+   "score": 92,
+   "cat": "Vision",
+   "likes": 201
   },
   {
    "name": "Haru-4B",
@@ -562,7 +530,7 @@
    "grow": 17,
    "score": 91,
    "cat": "Tools",
-   "likes": 5074
+   "likes": 5146
   },
   {
    "name": "Hy4-flash",
@@ -571,7 +539,7 @@
    "at": "2026-11-17T03:44:46.000Z",
    "dl": 3949,
    "grow": null,
-   "score": 90,
+   "score": 89,
    "cat": "Vision",
    "likes": 533
   },
@@ -583,9 +551,9 @@
    "at": "2026-11-17T10:16:41.000Z",
    "dl": 1631,
    "grow": 13,
-   "score": 89,
+   "score": 87,
    "cat": "Vision",
-   "likes": 439
+   "likes": 440
   },
   {
    "name": "MiniMax-H3-Image",
@@ -594,20 +562,9 @@
    "at": "2026-11-03T06:34:36.000Z",
    "dl": 876986,
    "grow": 0,
-   "score": 87,
+   "score": 85,
    "cat": "Vision",
    "likes": 1699
-  },
-  {
-   "name": "voice-isolator",
-   "org": "inworld",
-   "lic": "Open source",
-   "at": "2026-11-14T02:14:35.000Z",
-   "dl": 0,
-   "grow": null,
-   "score": 84,
-   "cat": "Tools",
-   "likes": 491
   }
  ],
  "free": [
@@ -897,6 +854,13 @@
  },
  "headlines": [
   {
+   "t": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day of trading",
+   "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+   "at": "2026-11-20T21:38:17Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
    "t": "Many longtime Etsy sellers say they are leaving after Etsy updated its terms to say Etsy and its third-party partners can use sellers' content for AI training",
    "url": "https://www.techmeme.com/261120/p35#a261120p35",
    "at": "2026-11-20T21:30:03.000Z",
@@ -946,20 +910,6 @@
    "kind": "News"
   },
   {
-   "t": "Tom Cotton, the GOP senator who chairs the Senate Intelligence Committee, says Howard Lutnick repeatedly ignored warnings about AI chips being smuggled to China",
-   "url": "https://www.techmeme.com/261120/p21#a261120p21",
-   "at": "2026-11-20T18:10:02.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Anthropic shares slump on second day of trading as markets reel from AI sell-off",
-   "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
-   "at": "2026-11-20T16:26:07Z",
-   "src": "The Guardian",
-   "kind": "News"
-  },
-  {
    "t": "Anthropic And OpenAI Are About To Be DESTROYED - Trump’s AI Seizure Has Begun",
    "url": "https://www.youtube.com/watch?v=f1t87I0Q4kI",
    "at": "2026-11-20T12:08:05Z",
@@ -974,6 +924,13 @@
    "kind": "News"
   },
   {
+   "t": "JudgeGPT? Artificial intelligence enters Philly judicial chambers, raising questions over accuracy",
+   "url": "https://www.inquirer.com/crime/university-pennsylvania-penn-artificial-intelligence-ai-federal-court-judges-20261120.html",
+   "at": "2026-11-20T10:01:00Z",
+   "src": "The Philadelphia Inquirer",
+   "kind": "News"
+  },
+  {
    "t": "Combatting adversarial distillation",
    "url": "https://openai.com/index/combatting-adversarial-distillation",
    "at": "2026-11-20T10:00:00.000Z",
@@ -981,31 +938,31 @@
    "kind": "Lab blog"
   },
   {
+   "t": "Oxford's 2026 Word of The Year shortlists warn of AI slop, fading literacy and doom",
+   "url": "https://www.indiatoday.in/education-today/grammar-vocabulary/story/oxfords-2026-word-of-the-year-shortlists-warn-of-ai-slop-fading-literacy-and-doom-3043064-2026-11-20",
+   "at": "2026-11-20T09:51:34Z",
+   "src": "India Today",
+   "kind": "News"
+  },
+  {
+   "t": "Apple Plans to Launch Its Own AI Agent",
+   "url": "https://www.marketscreener.com/news/apple-plans-to-launch-its-own-ai-agent-ce785ed2d080f220",
+   "at": "2026-11-20T09:40:00Z",
+   "src": "MarketScreener",
+   "kind": "News"
+  },
+  {
+   "t": "ECB's Lagarde: cyber threat boosted by AI is my top worry",
+   "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ecbs-lagarde-cyber-threat-boosted-by-ai-is-my-top-worry/articleshow/136021099.cms",
+   "at": "2026-11-20T09:36:24Z",
+   "src": "The Economic Times",
+   "kind": "News"
+  },
+  {
    "t": "HMRC Explores Artificial Intelligence to Make Tax System Simpler",
    "url": "https://news.bloombergtax.com/daily-tax-report/hmrc-explores-artificial-intelligence-to-make-tax-system-simpler",
    "at": "2026-11-20T09:20:20Z",
    "src": "Bloomberg Tax News",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI Is Reportedly Making a Smartphone, and Apple’s iPhone Maker Could Build It",
-   "url": "https://in.mashable.com/tech/116396/openai-is-reportedly-making-a-smartphone-and-apples-iphone-maker-could-build-it",
-   "at": "2026-11-20T09:07:53Z",
-   "src": "Mashable India",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI is starting to bring Dots to Plus tier subscribers.",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1038370/openai-is-starting-to-bring-dots-to-plus-tier-subscribers",
-   "at": "2026-11-20T08:50:33Z",
-   "src": "The Verge",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI's First Smartphone May Have Got A Manufacturer: Expected Launch Date And What We Know So Far",
-   "url": "https://www.timesnownews.com/technology-science/openais-first-smartphone-may-have-got-a-manufacturer-expected-launch-date-and-what-we-know-so-far-article-156541313",
-   "at": "2026-11-20T08:18:03Z",
-   "src": "Times Now",
    "kind": "News"
   }
  ],
@@ -1015,8 +972,8 @@
    "t": "Inkling 2 Mini",
    "url": "https://news.ycombinator.com/item?id=50581260",
    "link": "https://thinkingmachines.ai/news/inkling-2-mini/",
-   "up": 257,
-   "com": 27,
+   "up": 337,
+   "com": 45,
    "at": "2026-11-20T20:12:19.000Z"
   },
   {
@@ -1024,8 +981,8 @@
    "t": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
    "url": "https://news.ycombinator.com/item?id=50572503",
    "link": "https://architectlabs.com/blog/frostbite",
-   "up": 570,
-   "com": 302,
+   "up": 578,
+   "com": 307,
    "at": "2026-11-20T10:01:41.000Z"
   },
   {
@@ -1033,8 +990,8 @@
    "t": "Google Workers Tell Their Employer Not to Punish Schools That Don't Want AI",
    "url": "https://news.ycombinator.com/item?id=50577901",
    "link": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
-   "up": 196,
-   "com": 135,
+   "up": 210,
+   "com": 145,
    "at": "2026-11-20T16:59:27.000Z"
   },
   {
@@ -1042,8 +999,8 @@
    "t": "Finite-time blow-up for the Navier–Stokes equations",
    "url": "https://news.ycombinator.com/item?id=50576232",
    "link": "https://github.com/tristanbuckmaster/navier-stokes/",
-   "up": 214,
-   "com": 69,
+   "up": 222,
+   "com": 71,
    "at": "2026-11-20T15:34:31.000Z"
   },
   {
@@ -1051,8 +1008,8 @@
    "t": "If you stop writing code, you also get worse at reviewing it",
    "url": "https://news.ycombinator.com/item?id=50573886",
    "link": "https://cekrem.github.io/posts/if-you-stop-writing-code-you-also-get-worse-at-reviewing-it/",
-   "up": 303,
-   "com": 148,
+   "up": 306,
+   "com": 149,
    "at": "2026-11-20T12:41:38.000Z"
   },
   {
@@ -1060,8 +1017,8 @@
    "t": "Global stock markets slump as Anthropic's record IPO fails to stem AI sell-off",
    "url": "https://news.ycombinator.com/item?id=50574383",
    "link": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
-   "up": 183,
-   "com": 220,
+   "up": 186,
+   "com": 221,
    "at": "2026-11-20T13:29:59.000Z"
   }
  ]
