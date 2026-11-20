@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-20T17:30:57.044Z"
+  "updated": "2026-11-20T18:01:13.267Z"
  },
  "pulse": {
   "trending": 73,
-  "accelerating": 3,
+  "accelerating": 2,
   "newModels": 8,
-  "discussions": 34,
-  "stars": 2064
+  "discussions": 33,
+  "stars": 2261
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 95,
-   "grow": null,
+   "grow": 7,
    "desc": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
    "meta": [
-    "★ 6,348",
-    "~1,503 in 24h",
+    "★ 6,373",
+    "+1,700 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-16T12:10:36Z",
@@ -39,7 +39,7 @@
    "cat": "Agents",
    "score": 93,
    "grow": 42,
-   "desc": "Model on Hugging Face · open source · ♥ 830",
+   "desc": "Model on Hugging Face · open source · ♥ 832",
    "meta": [
     "1.9K downloads",
     "Released 4 days ago"
@@ -55,7 +55,7 @@
    "cat": "Tools",
    "score": 91,
    "grow": 17,
-   "desc": "Model on Hugging Face · open source · ♥ 4.5K",
+   "desc": "Model on Hugging Face · open source · ♥ 4.6K",
    "meta": [
     "7.3K downloads",
     "Released 8 days ago"
@@ -71,7 +71,7 @@
    "cat": "Vision",
    "score": 91,
    "grow": 92,
-   "desc": "Vision on Hugging Face · open weights · ♥ 504",
+   "desc": "Vision on Hugging Face · open weights · ♥ 505",
    "meta": [
     "3.9K downloads",
     "Released 4 days ago"
@@ -87,7 +87,7 @@
    "cat": "Vision",
    "score": 89,
    "grow": 13,
-   "desc": "Vision on Hugging Face · open source · ♥ 425",
+   "desc": "Vision on Hugging Face · open source · ♥ 427",
    "meta": [
     "1.6K downloads",
     "Released 3 days ago"
@@ -105,8 +105,8 @@
    "grow": 4,
    "desc": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
    "meta": [
-    "★ 1,310",
-    "+71 in 24h",
+    "★ 1,312",
+    "+72 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-16T18:40:04Z",
@@ -169,7 +169,7 @@
    "cat": "Vision",
    "score": 84,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 465",
+   "desc": "Vision on Hugging Face · open weights · ♥ 466",
    "meta": [
     "0 downloads",
     "Released 4 days ago"
@@ -207,6 +207,29 @@
     }
    ],
    "since": "2026-10-01T18:14:41.538Z"
+  },
+  {
+   "key": "exact",
+   "label": "exact",
+   "n": 3,
+   "sources": [
+    {
+     "src": "GitHub",
+     "t": "expo/exact",
+     "url": "https://github.com/expo/exact"
+    },
+    {
+     "src": "Entrepreneur",
+     "t": "I Built an AI Chatbot for $0. Here’s the Exact Stack.",
+     "url": "https://www.entrepreneur.com/business-news/i-built-an-ai-chatbot-for-0-heres-the-exact-stack"
+    },
+    {
+     "src": "HF Papers",
+     "t": "A CPU Inside an LLM: Zero-Gradient Compilation of Exact Circuits into Pretrained Weights",
+     "url": "https://huggingface.co/papers/2611.26450"
+    }
+   ],
+   "since": "2026-11-20T18:01:13.267Z"
   },
   {
    "key": "gemini 4 neon",
@@ -320,8 +343,8 @@
    "name": "rust-anything",
    "url": "https://github.com/erkamyaman/rust-anything",
    "from": "GitHub",
-   "use": 1503,
-   "useLabel": "~1,503 stars/day",
+   "use": 1700,
+   "useLabel": "+1,700 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -435,16 +458,16 @@
  "github": [
   {
    "repo": "erkamyaman/rust-anything",
-   "stars": 6348,
-   "d24": 1503,
-   "est": true,
-   "forks": 499,
+   "stars": 6373,
+   "d24": 1700,
+   "est": false,
+   "forks": 501,
    "contrib": 16,
    "score": 95
   },
   {
    "repo": "duwqijlk/muse-protocol",
-   "stars": 1691,
+   "stars": 1692,
    "d24": 253,
    "est": true,
    "forks": 660,
@@ -453,17 +476,17 @@
   },
   {
    "repo": "haziqahmedqasmi/PeakCut",
-   "stars": 1518,
-   "d24": 237,
-   "est": true,
+   "stars": 1519,
+   "d24": 236,
+   "est": false,
    "forks": 492,
    "contrib": null,
    "score": 76
   },
   {
    "repo": "sybil-solutions/inference-optimisation-skill",
-   "stars": 1310,
-   "d24": 71,
+   "stars": 1312,
+   "d24": 72,
    "est": false,
    "forks": 117,
    "contrib": null,
@@ -481,7 +504,7 @@
    "grow": 42,
    "score": 93,
    "cat": "Agents",
-   "likes": 830
+   "likes": 832
   },
   {
    "name": "Haru-4B",
@@ -493,7 +516,7 @@
    "grow": 17,
    "score": 91,
    "cat": "Tools",
-   "likes": 4522
+   "likes": 4582
   },
   {
    "name": "Hy4-flash",
@@ -504,7 +527,7 @@
    "grow": 92,
    "score": 91,
    "cat": "Vision",
-   "likes": 504
+   "likes": 505
   },
   {
    "name": "SenseNova-Loop-9B",
@@ -516,7 +539,7 @@
    "grow": 13,
    "score": 89,
    "cat": "Vision",
-   "likes": 425
+   "likes": 427
   },
   {
    "name": "MiniMax-H3-Image",
@@ -527,7 +550,7 @@
    "grow": null,
    "score": 87,
    "cat": "Vision",
-   "likes": 1678
+   "likes": 1682
   },
   {
    "name": "FastFrames-L",
@@ -538,7 +561,7 @@
    "grow": null,
    "score": 84,
    "cat": "Vision",
-   "likes": 465
+   "likes": 466
   }
  ],
  "free": [
@@ -919,31 +942,31 @@
    "kind": "News"
   },
   {
-   "t": "Indian English accent faces hidden bias in AI-powered job interviews and tests, University of Washington study reveals",
-   "url": "https://timesofindia.indiatimes.com/education/news/indian-english-accent-gets-lower-ratings-than-us-uk-speech-in-ai-interviews-and-tests-us-study-raises-questions-about-hiring-and-english-tests/articleshow/136014324.cms",
-   "at": "2026-11-20T05:21:00Z",
-   "src": "Times of India",
+   "t": "Bengaluru Tech Summit Ends With Rs 1,050 Cr Deeptech Investment Pledges",
+   "url": "https://www.deccanchronicle.com/southern-states/karnataka/bengaluru-tech-summit-ends-with-rs-1050-cr-deeptech-investment-pledges-2006148",
+   "at": "2026-11-20T05:59:43Z",
+   "src": "Deccan Chronicle",
    "kind": "News"
   },
   {
-   "t": "‘We’re the most arrogant of all apes!’ A delightfully mind-expanding encounter with Peter Gabriel",
-   "url": "https://www.theguardian.com/music/2026/nov/20/peter-gabriel-interview-ai-music-bonobo-ape-duets-jurassic-park-plants",
-   "at": "2026-11-20T05:00:22Z",
-   "src": "The Guardian",
+   "t": "Anthropic's record IPO: Which Korean companies stand to gain?",
+   "url": "https://www.koreatimes.co.kr/business/20261120/anthropics-record-ipo-which-korean-companies-stand-to-gain",
+   "at": "2026-11-20T05:56:02Z",
+   "src": "The Korea Times",
    "kind": "News"
   },
   {
-   "t": "Creator All Star Summit 2026 Brings Global Technology Leaders Together to Debate the Future of Mobility",
-   "url": "https://www.tribuneindia.com/news/business/beyond-a-media-tour-vinfasts-v-creator-all-star-summit-2026-brings-global-technology-leaders-together-to-debate-the-future-of-mobility/",
-   "at": "2026-11-20T04:58:24Z",
+   "t": "Pacific portfolio as Taiwan loses ground amid AI sell",
+   "url": "https://www.tribuneindia.com/news/business/india-gains-in-jefferies-asia-pacific-portfolio-as-taiwan-loses-ground-amid-ai-sell-off/",
+   "at": "2026-11-20T05:52:58Z",
    "src": "The Tribune",
    "kind": "News"
   },
   {
-   "t": "Now people are using Claude to make scary horror websites, and they’re genuinely creepy",
-   "url": "https://www.xda-developers.com/now-people-are-using-claude-to-make-scary-horror-websites-and-theyre-genuinely-creepy/",
-   "at": "2026-11-20T04:51:44Z",
-   "src": "XDA Developers",
+   "t": "India gains in Jefferies' Asia-Pacific portfolio as Taiwan loses ground amid AI sell-off",
+   "url": "https://www.aninews.in/news/business/india-gains-in-jefferies-asia-pacific-portfolio-as-taiwan-loses-ground-amid-ai-sell-off20261120111556/",
+   "at": "2026-11-20T05:45:56Z",
+   "src": "ANI (Asian News International)",
    "kind": "News"
   }
  ],
@@ -953,8 +976,8 @@
    "t": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
    "url": "https://news.ycombinator.com/item?id=50572503",
    "link": "https://architectlabs.com/blog/frostbite",
-   "up": 471,
-   "com": 268,
+   "up": 482,
+   "com": 271,
    "at": "2026-11-20T10:01:41.000Z"
   },
   {
@@ -962,35 +985,35 @@
    "t": "If you stop writing code, you also get worse at reviewing it",
    "url": "https://news.ycombinator.com/item?id=50573886",
    "link": "https://cekrem.github.io/posts/if-you-stop-writing-code-you-also-get-worse-at-reviewing-it/",
-   "up": 192,
-   "com": 103,
+   "up": 217,
+   "com": 112,
    "at": "2026-11-20T12:41:38.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Global stock markets slump as Anthropic's record IPO fails to stem AI sell-off",
-   "url": "https://news.ycombinator.com/item?id=50574383",
-   "link": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
-   "up": 148,
-   "com": 159,
-   "at": "2026-11-20T13:29:59.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Finite-time blow-up for the Navier–Stokes equations",
    "url": "https://news.ycombinator.com/item?id=50576232",
    "link": "https://github.com/tristanbuckmaster/navier-stokes/",
-   "up": 64,
-   "com": 16,
+   "up": 94,
+   "com": 26,
    "at": "2026-11-20T15:34:31.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Global stock markets slump as Anthropic's record IPO fails to stem AI sell-off",
+   "url": "https://news.ycombinator.com/item?id=50574383",
+   "link": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+   "up": 157,
+   "com": 168,
+   "at": "2026-11-20T13:29:59.000Z"
   },
   {
    "src": "Hacker News",
    "t": "OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)",
    "url": "https://news.ycombinator.com/item?id=50569226",
    "link": "https://github.com/openssl/openssl/pull/33652",
-   "up": 341,
-   "com": 298,
+   "up": 347,
+   "com": 299,
    "at": "2026-11-20T02:01:09.000Z"
   },
   {
@@ -999,7 +1022,7 @@
    "url": "https://news.ycombinator.com/item?id=50568130",
    "link": "https://git-aarvin.github.io/mei/",
    "up": 360,
-   "com": 237,
+   "com": 238,
    "at": "2026-11-19T23:35:35.000Z"
   }
  ]
