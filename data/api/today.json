@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-20T06:01:10.513Z"
+  "updated": "2026-11-20T06:31:02.100Z"
  },
  "pulse": {
   "trending": 75,
   "accelerating": 0,
   "newModels": 10,
   "discussions": 39,
-  "stars": 1797
+  "stars": 1809
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 19,
    "desc": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
    "meta": [
-    "★ 5,520",
-    "+1,485 in 24h",
+    "★ 5,560",
+    "+1,500 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-16T12:10:36Z",
@@ -39,7 +39,7 @@
    "cat": "Vision",
    "score": 94,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 369",
+   "desc": "Vision on Hugging Face · open weights · ♥ 370",
    "meta": [
     "2.1K downloads",
     "Released 3 days ago"
@@ -55,7 +55,7 @@
    "cat": "Vision",
    "score": 92,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 353",
+   "desc": "Vision on Hugging Face · open weights · ♥ 356",
    "meta": [
     "0 downloads",
     "Released 4 days ago"
@@ -87,7 +87,7 @@
    "cat": "Agents",
    "score": 91,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 753",
+   "desc": "Model on Hugging Face · open source · ♥ 754",
    "meta": [
     "1.3K downloads",
     "Released 4 days ago"
@@ -105,8 +105,8 @@
    "grow": 1,
    "desc": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
    "meta": [
-    "★ 1,272",
-    "+56 in 24h",
+    "★ 1,274",
+    "+59 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-16T18:40:04Z",
@@ -120,7 +120,7 @@
    "cat": "Tools",
    "score": 87,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 289",
+   "desc": "Model on Hugging Face · open source · ♥ 292",
    "meta": [
     "0 downloads",
     "Released 6 days ago"
@@ -128,6 +128,22 @@
    "at": "2026-11-14T02:14:35.000Z",
    "breakout": null,
    "url": "https://huggingface.co/inworld/voice-isolator"
+  },
+  {
+   "name": "SenseNova-Loop-9B",
+   "owner": "sensenova",
+   "src": "hf",
+   "cat": "Vision",
+   "score": 86,
+   "grow": null,
+   "desc": "Vision on Hugging Face · open source · ♥ 394",
+   "meta": [
+    "1.4K downloads",
+    "Released 3 days ago"
+   ],
+   "at": "2026-11-17T10:16:41.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B"
   },
   {
    "name": "WeVisForensics: Self-Evolving Agent for Omni AI-Generated Video Detection",
@@ -139,7 +155,7 @@
    "grow": null,
    "desc": "Recent advances in video generation call for reliable detection grounded in explicit forensic evidence.",
    "meta": [
-    "▲ 18 upvotes",
+    "▲ 19 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-11-15T19:00:00.000Z",
@@ -155,28 +171,12 @@
    "grow": null,
    "desc": "Your team and everyone's AI agents, in one workspace",
    "meta": [
-    "▲ 382 votes",
+    "▲ 383 votes",
     "125 comments",
     "Launched 2 days ago"
    ],
    "at": "2026-11-18T08:01:00Z",
    "breakout": null
-  },
-  {
-   "name": "SenseNova-Loop-9B",
-   "owner": "sensenova",
-   "src": "hf",
-   "cat": "Vision",
-   "score": 84,
-   "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 392",
-   "meta": [
-    "1.4K downloads",
-    "Released 3 days ago"
-   ],
-   "at": "2026-11-17T10:16:41.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B"
   }
  ],
  "breakouts": [
@@ -310,8 +310,8 @@
    "name": "rust-anything",
    "url": "https://github.com/erkamyaman/rust-anything",
    "from": "GitHub",
-   "use": 1485,
-   "useLabel": "+1,485 stars/day",
+   "use": 1500,
+   "useLabel": "+1,500 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -425,17 +425,17 @@
  "github": [
   {
    "repo": "erkamyaman/rust-anything",
-   "stars": 5520,
-   "d24": 1485,
+   "stars": 5560,
+   "d24": 1500,
    "est": false,
-   "forks": 445,
+   "forks": 446,
    "contrib": null,
    "score": 95
   },
   {
    "repo": "haziqahmedqasmi/PeakCut",
-   "stars": 1385,
-   "d24": 233,
+   "stars": 1387,
+   "d24": 228,
    "est": false,
    "forks": 467,
    "contrib": null,
@@ -443,8 +443,8 @@
   },
   {
    "repo": "sybil-solutions/inference-optimisation-skill",
-   "stars": 1272,
-   "d24": 56,
+   "stars": 1274,
+   "d24": 59,
    "est": false,
    "forks": 114,
    "contrib": null,
@@ -453,7 +453,7 @@
   {
    "repo": "duwqijlk/muse-protocol",
    "stars": 1664,
-   "d24": 23,
+   "d24": 22,
    "est": false,
    "forks": 657,
    "contrib": null,
@@ -470,7 +470,7 @@
    "grow": 0,
    "score": 94,
    "cat": "Vision",
-   "likes": 369
+   "likes": 370
   },
   {
    "name": "FastFrames-L",
@@ -481,7 +481,7 @@
    "grow": null,
    "score": 92,
    "cat": "Vision",
-   "likes": 353
+   "likes": 356
   },
   {
    "name": "Haru-4B",
@@ -493,7 +493,7 @@
    "grow": null,
    "score": 91,
    "cat": "Tools",
-   "likes": 3665
+   "likes": 3673
   },
   {
    "name": "Qwen3.8-27B-pi-adapted",
@@ -505,7 +505,7 @@
    "grow": 0,
    "score": 91,
    "cat": "Agents",
-   "likes": 753
+   "likes": 754
   },
   {
    "name": "voice-isolator",
@@ -516,7 +516,7 @@
    "grow": null,
    "score": 87,
    "cat": "Tools",
-   "likes": 289
+   "likes": 292
   },
   {
    "name": "SenseNova-Loop-9B",
@@ -526,9 +526,9 @@
    "at": "2026-11-17T10:16:41.000Z",
    "dl": 1447,
    "grow": null,
-   "score": 84,
+   "score": 86,
    "cat": "Vision",
-   "likes": 392
+   "likes": 394
   }
  ],
  "free": [
@@ -839,6 +839,13 @@
  },
  "headlines": [
   {
+   "t": "Sources: Nscale must seek a US license to provide ByteDance remote access to Nvidia GPUs under new rules; ByteDance made up ~73% of Nscale's 2025 revenue",
+   "url": "https://www.techmeme.com/261120/p3#a261120p3",
+   "at": "2026-11-20T06:15:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "BrightAI, which uses AI to help industrial companies detect malfunctioning equipment, raised $97M led by Smith Point, bringing its total funding to $184M",
    "url": "https://www.techmeme.com/261120/p2#a261120p2",
    "at": "2026-11-20T05:55:02.000Z",
@@ -942,13 +949,6 @@
    "at": "2026-11-19T20:05:13Z",
    "src": "The Guardian",
    "kind": "News"
-  },
-  {
-   "t": "A game you cannot win unless you have a quantum computer",
-   "url": "https://research.google/blog/a-game-you-cannot-win-unless-you-have-a-quantum-computer/",
-   "at": "2026-11-19T20:03:00.000Z",
-   "src": "Google Research",
-   "kind": "Lab blog"
   }
  ],
  "discussions": [
@@ -957,8 +957,8 @@
    "t": "Anthropic’s Nasdaq debut",
    "url": "https://news.ycombinator.com/item?id=50562754",
    "link": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
-   "up": 1028,
-   "com": 2031,
+   "up": 1037,
+   "com": 2048,
    "at": "2026-11-19T17:02:40.000Z"
   },
   {
@@ -966,8 +966,8 @@
    "t": "Gemini 4 Neon is the new #1 on the Models Engineering Index",
    "url": "https://news.ycombinator.com/item?id=50568130",
    "link": "https://git-aarvin.github.io/mei/",
-   "up": 328,
-   "com": 191,
+   "up": 331,
+   "com": 196,
    "at": "2026-11-19T23:35:35.000Z"
   },
   {
@@ -975,7 +975,7 @@
    "t": "Fuck Your AI Safeguards",
    "url": "https://news.ycombinator.com/item?id=50562262",
    "link": "https://ounapuu.ee/posts/2026/11/19/unsafeguards/",
-   "up": 513,
+   "up": 519,
    "com": 206,
    "at": "2026-11-19T16:30:18.000Z"
   },
@@ -984,8 +984,8 @@
    "t": "Claude solves two open problems in the physics of black holes",
    "url": "https://news.ycombinator.com/item?id=50563148",
    "link": "https://www.anthropic.com/research/claude-black-hole-physics",
-   "up": 450,
-   "com": 208,
+   "up": 456,
+   "com": 218,
    "at": "2026-11-19T17:30:44.000Z"
   },
   {
@@ -993,8 +993,8 @@
    "t": "OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)",
    "url": "https://news.ycombinator.com/item?id=50569226",
    "link": "https://github.com/openssl/openssl/pull/33652",
-   "up": 108,
-   "com": 55,
+   "up": 119,
+   "com": 62,
    "at": "2026-11-20T02:01:09.000Z"
   },
   {
@@ -1002,8 +1002,8 @@
    "t": "Someone reported java4shell bug in September 2026",
    "url": "https://news.ycombinator.com/item?id=50558906",
    "link": "https://github.com/openjdk/jdk/pull/32781",
-   "up": 402,
-   "com": 110,
+   "up": 407,
+   "com": 111,
    "at": "2026-11-19T11:47:03.000Z"
   }
  ]
