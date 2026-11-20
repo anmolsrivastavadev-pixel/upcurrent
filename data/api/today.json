@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-20T20:30:57.203Z"
+  "updated": "2026-11-20T21:01:03.487Z"
  },
  "pulse": {
-  "trending": 72,
+  "trending": 73,
   "accelerating": 2,
-  "newModels": 8,
-  "discussions": 31,
-  "stars": 3554
+  "newModels": 9,
+  "discussions": 32,
+  "stars": 3532
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
    "meta": [
-    "★ 1,510",
-    "~1,216 in 24h",
+    "★ 1,549",
+    "~1,227 in 24h",
     "Created yesterday"
    ],
    "at": "2026-11-19T14:43:10Z",
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 95,
-   "grow": 9,
+   "grow": 10,
    "desc": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
    "meta": [
-    "★ 6,506",
-    "+1,576 in 24h",
+    "★ 6,527",
+    "+1,544 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-16T12:10:36Z",
@@ -56,7 +56,7 @@
    "cat": "Agents",
    "score": 93,
    "grow": 42,
-   "desc": "Model on Hugging Face · open source · ♥ 852",
+   "desc": "Model on Hugging Face · open source · ♥ 853",
    "meta": [
     "1.9K downloads",
     "Released 5 days ago"
@@ -72,7 +72,7 @@
    "cat": "Tools",
    "score": 91,
    "grow": 17,
-   "desc": "Model on Hugging Face · open source · ♥ 4.9K",
+   "desc": "Model on Hugging Face · open source · ♥ 5K",
    "meta": [
     "7.3K downloads",
     "Released 8 days ago"
@@ -88,7 +88,7 @@
    "cat": "Vision",
    "score": 90,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 531",
+   "desc": "Vision on Hugging Face · open weights · ♥ 533",
    "meta": [
     "3.9K downloads",
     "Released 4 days ago"
@@ -138,8 +138,8 @@
    "grow": null,
    "desc": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
    "meta": [
-    "★ 1,319",
-    "~324 in 24h",
+    "★ 1,324",
+    "~323 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-16T18:40:04Z",
@@ -172,7 +172,7 @@
    "grow": null,
    "desc": "Fix one thing, break another? This agent checks it all",
    "meta": [
-    "▲ 363 votes",
+    "▲ 364 votes",
     "55 comments",
     "Launched 2 days ago"
    ],
@@ -284,12 +284,29 @@
    "verdict": "Talk only, no public usage numbers"
   },
   {
+   "name": "Inkling-2-Mini",
+   "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+   "from": "Hugging Face",
+   "use": 136,
+   "useLabel": "136 downloads",
+   "usePct": 0.14814814814814814,
+   "talk": [
+    {
+     "src": "Hacker News",
+     "t": "Inkling 2 Mini",
+     "url": "https://news.ycombinator.com/item?id=50581260"
+    }
+   ],
+   "buzz": 1,
+   "verdict": "More talk than use"
+  },
+  {
    "name": "DaisyRose-27B",
    "url": "https://huggingface.co/RadixArk/DaisyRose-27B",
    "from": "Hugging Face",
    "use": 918,
    "useLabel": "918 downloads",
-   "usePct": 0.19230769230769232,
+   "usePct": 0.2222222222222222,
    "talk": [
     {
      "src": "Hugging Face blog",
@@ -306,7 +323,7 @@
    "from": "Hugging Face",
    "use": 1766,
    "useLabel": "1.8K downloads",
-   "usePct": 0.3076923076923077,
+   "usePct": 0.3333333333333333,
    "talk": [
     {
      "src": "Hugging Face blog",
@@ -321,8 +338,8 @@
    "name": "rust-anything",
    "url": "https://github.com/erkamyaman/rust-anything",
    "from": "GitHub",
-   "use": 1576,
-   "useLabel": "+1,576 stars/day",
+   "use": 1544,
+   "useLabel": "+1,544 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -345,7 +362,7 @@
    "from": "Hugging Face",
    "use": 981223,
    "useLabel": "981K downloads",
-   "usePct": 0.9615384615384616,
+   "usePct": 0.9629629629629629,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -436,17 +453,17 @@
  "github": [
   {
    "repo": "erkamyaman/rust-anything",
-   "stars": 6506,
-   "d24": 1576,
+   "stars": 6527,
+   "d24": 1544,
    "est": false,
-   "forks": 508,
+   "forks": 510,
    "contrib": 16,
    "score": 95
   },
   {
    "repo": "bookwjitchieni1986/blender-ai-mcp-addon",
-   "stars": 1510,
-   "d24": 1216,
+   "stars": 1549,
+   "d24": 1227,
    "est": true,
    "forks": 1,
    "contrib": null,
@@ -454,8 +471,8 @@
   },
   {
    "repo": "sybil-solutions/inference-optimisation-skill",
-   "stars": 1319,
-   "d24": 324,
+   "stars": 1324,
+   "d24": 323,
    "est": true,
    "forks": 117,
    "contrib": null,
@@ -472,10 +489,10 @@
   },
   {
    "repo": "haziqahmedqasmi/PeakCut",
-   "stars": 1527,
+   "stars": 1531,
    "d24": 189,
    "est": false,
-   "forks": 493,
+   "forks": 494,
    "contrib": null,
    "score": 75
   }
@@ -491,7 +508,7 @@
    "grow": 42,
    "score": 93,
    "cat": "Agents",
-   "likes": 852
+   "likes": 853
   },
   {
    "name": "Haru-4B",
@@ -503,7 +520,7 @@
    "grow": 17,
    "score": 91,
    "cat": "Tools",
-   "likes": 4947
+   "likes": 5016
   },
   {
    "name": "Hy4-flash",
@@ -514,7 +531,7 @@
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 531
+   "likes": 533
   },
   {
    "name": "SenseNova-Loop-9B",
@@ -537,18 +554,18 @@
    "grow": 0,
    "score": 87,
    "cat": "Vision",
-   "likes": 1698
+   "likes": 1699
   },
   {
-   "name": "FastFrames-L",
-   "org": "apple",
-   "lic": "Open weights",
-   "at": "2026-11-16T17:21:04.000Z",
+   "name": "voice-isolator",
+   "org": "inworld",
+   "lic": "Open source",
+   "at": "2026-11-14T02:14:35.000Z",
    "dl": 0,
    "grow": null,
-   "score": 83,
-   "cat": "Vision",
-   "likes": 486
+   "score": 84,
+   "cat": "Tools",
+   "likes": 489
   }
  ],
  "free": [
@@ -929,6 +946,13 @@
    "kind": "Lab blog"
   },
   {
+   "t": "OpenAI is starting to bring Dots to Plus tier subscribers.",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1038370/openai-is-starting-to-bring-dots-to-plus-tier-subscribers",
+   "at": "2026-11-20T08:50:33Z",
+   "src": "The Verge",
+   "kind": "News"
+  },
+  {
    "t": "OpenAI's First Smartphone May Have Got A Manufacturer: Expected Launch Date And What We Know So Far",
    "url": "https://www.timesnownews.com/technology-science/openais-first-smartphone-may-have-got-a-manufacturer-expected-launch-date-and-what-we-know-so-far-article-156541313",
    "at": "2026-11-20T08:18:03Z",
@@ -941,41 +965,34 @@
    "at": "2026-11-20T08:16:05Z",
    "src": "The Japan Times ",
    "kind": "News"
-  },
-  {
-   "t": "J.S. Held Applies Multidisciplinary Expertise to Physical AI Claims and Disputes",
-   "url": "https://www.prnewswire.co.uk/news-releases/js-held-applies-multidisciplinary-expertise-to-physical-ai-claims-and-disputes-302946094.html",
-   "at": "2026-11-20T08:07:00Z",
-   "src": "PR Newswire UK",
-   "kind": "News"
   }
  ],
  "discussions": [
   {
    "src": "Hacker News",
-   "t": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
-   "url": "https://news.ycombinator.com/item?id=50572503",
-   "link": "https://architectlabs.com/blog/frostbite",
-   "up": 557,
-   "com": 297,
-   "at": "2026-11-20T10:01:41.000Z"
-  },
-  {
-   "src": "Hacker News",
    "t": "Inkling 2 Mini",
    "url": "https://news.ycombinator.com/item?id=50581260",
    "link": "https://thinkingmachines.ai/news/inkling-2-mini/",
-   "up": 43,
-   "com": 2,
+   "up": 158,
+   "com": 16,
    "at": "2026-11-20T20:12:19.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+   "url": "https://news.ycombinator.com/item?id=50572503",
+   "link": "https://architectlabs.com/blog/frostbite",
+   "up": 565,
+   "com": 300,
+   "at": "2026-11-20T10:01:41.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Google Workers Tell Their Employer Not to Punish Schools That Don't Want AI",
    "url": "https://news.ycombinator.com/item?id=50577901",
    "link": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
-   "up": 149,
-   "com": 96,
+   "up": 166,
+   "com": 114,
    "at": "2026-11-20T16:59:27.000Z"
   },
   {
@@ -983,8 +1000,8 @@
    "t": "Finite-time blow-up for the Navier–Stokes equations",
    "url": "https://news.ycombinator.com/item?id=50576232",
    "link": "https://github.com/tristanbuckmaster/navier-stokes/",
-   "up": 190,
-   "com": 64,
+   "up": 199,
+   "com": 67,
    "at": "2026-11-20T15:34:31.000Z"
   },
   {
@@ -992,8 +1009,8 @@
    "t": "If you stop writing code, you also get worse at reviewing it",
    "url": "https://news.ycombinator.com/item?id=50573886",
    "link": "https://cekrem.github.io/posts/if-you-stop-writing-code-you-also-get-worse-at-reviewing-it/",
-   "up": 288,
-   "com": 136,
+   "up": 294,
+   "com": 147,
    "at": "2026-11-20T12:41:38.000Z"
   },
   {
@@ -1001,8 +1018,8 @@
    "t": "Global stock markets slump as Anthropic's record IPO fails to stem AI sell-off",
    "url": "https://news.ycombinator.com/item?id=50574383",
    "link": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
-   "up": 182,
-   "com": 205,
+   "up": 183,
+   "com": 214,
    "at": "2026-11-20T13:29:59.000Z"
   }
  ]
