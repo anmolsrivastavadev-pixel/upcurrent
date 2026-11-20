@@ -5,41 +5,24 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-20T07:04:06.866Z"
+  "updated": "2026-11-20T07:31:06.835Z"
  },
  "pulse": {
   "trending": 75,
   "accelerating": 0,
   "newModels": 10,
   "discussions": 40,
-  "stars": 1838
+  "stars": 1828
  },
  "rising": [
-  {
-   "name": "rust-anything",
-   "owner": "erkamyaman",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 95,
-   "grow": 21,
-   "desc": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
-   "meta": [
-    "★ 5,609",
-    "+1,523 in 24h",
-    "Created 4 days ago"
-   ],
-   "at": "2026-11-16T12:10:36Z",
-   "breakout": null,
-   "url": "https://github.com/erkamyaman/rust-anything"
-  },
   {
    "name": "Hy4-flash",
    "owner": "tencent",
    "src": "hf",
    "cat": "Vision",
-   "score": 94,
+   "score": 96,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 374",
+   "desc": "Vision on Hugging Face · open weights · ♥ 378",
    "meta": [
     "2.1K downloads",
     "Released 3 days ago"
@@ -49,13 +32,30 @@
    "url": "https://huggingface.co/tencent/Hy4-flash"
   },
   {
+   "name": "rust-anything",
+   "owner": "erkamyaman",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 95,
+   "grow": 21,
+   "desc": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
+   "meta": [
+    "★ 5,628",
+    "+1,508 in 24h",
+    "Created 4 days ago"
+   ],
+   "at": "2026-11-16T12:10:36Z",
+   "breakout": null,
+   "url": "https://github.com/erkamyaman/rust-anything"
+  },
+  {
    "name": "FastFrames-L",
    "owner": "apple",
    "src": "hf",
    "cat": "Vision",
    "score": 92,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 356",
+   "desc": "Vision on Hugging Face · open weights · ♥ 357",
    "meta": [
     "0 downloads",
     "Released 4 days ago"
@@ -69,7 +69,7 @@
    "owner": "higurashi-ai",
    "src": "hf",
    "cat": "Tools",
-   "score": 91,
+   "score": 90,
    "grow": null,
    "desc": "Model on Hugging Face · open source · ♥ 3.7K",
    "meta": [
@@ -87,7 +87,7 @@
    "cat": "Agents",
    "score": 90,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 758",
+   "desc": "Model on Hugging Face · open source · ♥ 763",
    "meta": [
     "1.3K downloads",
     "Released 4 days ago"
@@ -102,11 +102,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 89,
-   "grow": 1,
+   "grow": 2,
    "desc": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
    "meta": [
-    "★ 1,275",
-    "+58 in 24h",
+    "★ 1,277",
+    "+61 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-16T18:40:04Z",
@@ -120,7 +120,7 @@
    "cat": "Tools",
    "score": 87,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 295",
+   "desc": "Model on Hugging Face · open source · ♥ 298",
    "meta": [
     "0 downloads",
     "Released 6 days ago"
@@ -136,7 +136,7 @@
    "cat": "Vision",
    "score": 86,
    "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 395",
+   "desc": "Vision on Hugging Face · open source · ♥ 396",
    "meta": [
     "1.4K downloads",
     "Released 3 days ago"
@@ -146,19 +146,19 @@
    "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B"
   },
   {
-   "name": "The Mask Is Not the Object: Volumetric Supervision for 3D Gaussian Segmentation",
+   "name": "Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation",
    "owner": "Paper",
    "src": "paper",
-   "url": "https://huggingface.co/papers/2611.21383",
+   "url": "https://huggingface.co/papers/2611.26444",
    "cat": "Research",
    "score": 85,
    "grow": null,
-   "desc": "3D Gaussian Splatting enables object-level operations on Gaussian primitives, yet existing segmentation methods are largely trained and evaluated through rendered views.",
+   "desc": "Embodied intelligence aims to let robots perform complex physical tasks with human-like adaptability and reliability, which requires three complementary capabilities: history-based cognitive reasoning, precise and timely physical execution, and the composition of reasoning and execution through environmental feedback.",
    "meta": [
-    "▲ 18 upvotes",
+    "▲ 23 upvotes",
     "Hugging Face Papers"
    ],
-   "at": "2026-11-15T19:00:00.000Z",
+   "at": "2026-11-18T19:00:00.000Z",
    "breakout": null
   },
   {
@@ -273,6 +273,23 @@
    "verdict": "Talk only, no public usage numbers"
   },
   {
+   "name": "Hy4-flash",
+   "url": "https://huggingface.co/tencent/Hy4-flash",
+   "from": "Hugging Face",
+   "use": 2053,
+   "useLabel": "2.1K downloads",
+   "usePct": 0.43333333333333335,
+   "talk": [
+    {
+     "src": "TechNode",
+     "t": "Tencent says Hunyuan Hy4 flash surpasses 50 trillion tokens in first-day usage",
+     "url": "https://technode.com/2026/11/19/tencent-says-hunyuan-hy4-flash-surpasses-50-trillion-tokens-in-first-day-usage/"
+    }
+   ],
+   "buzz": 1,
+   "verdict": "More talk than use"
+  },
+  {
    "name": "Rumble-2-Flash",
    "url": "https://huggingface.co/Reson8/Rumble-2-Flash",
    "from": "Hugging Face",
@@ -310,8 +327,8 @@
    "name": "rust-anything",
    "url": "https://github.com/erkamyaman/rust-anything",
    "from": "GitHub",
-   "use": 1523,
-   "useLabel": "+1,523 stars/day",
+   "use": 1508,
+   "useLabel": "+1,508 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -425,26 +442,26 @@
  "github": [
   {
    "repo": "erkamyaman/rust-anything",
-   "stars": 5609,
-   "d24": 1523,
+   "stars": 5628,
+   "d24": 1508,
    "est": false,
-   "forks": 450,
+   "forks": 451,
    "contrib": null,
    "score": 95
   },
   {
    "repo": "haziqahmedqasmi/PeakCut",
-   "stars": 1391,
-   "d24": 226,
+   "stars": 1397,
+   "d24": 229,
    "est": false,
-   "forks": 467,
+   "forks": 468,
    "contrib": null,
    "score": 77
   },
   {
    "repo": "sybil-solutions/inference-optimisation-skill",
-   "stars": 1275,
-   "d24": 58,
+   "stars": 1277,
+   "d24": 61,
    "est": false,
    "forks": 114,
    "contrib": null,
@@ -453,7 +470,7 @@
   {
    "repo": "duwqijlk/muse-protocol",
    "stars": 1669,
-   "d24": 31,
+   "d24": 30,
    "est": false,
    "forks": 659,
    "contrib": null,
@@ -468,9 +485,9 @@
    "at": "2026-11-17T03:44:46.000Z",
    "dl": 2053,
    "grow": 0,
-   "score": 94,
+   "score": 96,
    "cat": "Vision",
-   "likes": 374
+   "likes": 378
   },
   {
    "name": "FastFrames-L",
@@ -481,7 +498,7 @@
    "grow": null,
    "score": 92,
    "cat": "Vision",
-   "likes": 356
+   "likes": 357
   },
   {
    "name": "Haru-4B",
@@ -491,9 +508,9 @@
    "at": "2026-11-12T11:05:59.000Z",
    "dl": 6266,
    "grow": null,
-   "score": 91,
+   "score": 90,
    "cat": "Tools",
-   "likes": 3677
+   "likes": 3679
   },
   {
    "name": "Qwen3.8-27B-pi-adapted",
@@ -505,7 +522,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Agents",
-   "likes": 758
+   "likes": 763
   },
   {
    "name": "voice-isolator",
@@ -516,7 +533,7 @@
    "grow": null,
    "score": 87,
    "cat": "Tools",
-   "likes": 295
+   "likes": 298
   },
   {
    "name": "SenseNova-Loop-9B",
@@ -528,7 +545,7 @@
    "grow": null,
    "score": 86,
    "cat": "Vision",
-   "likes": 395
+   "likes": 396
   }
  ],
  "free": [
@@ -839,6 +856,13 @@
  },
  "headlines": [
   {
+   "t": "Google is rolling out a collapsible sidebar on its desktop Search homepage, letting users easily find and resume recent AI searches",
+   "url": "https://www.techmeme.com/261120/p6#a261120p6",
+   "at": "2026-11-20T07:25:00.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Sources: Singapore-based DayOne pauses its US IPO plans to raise up to $5B as soon as Q4 amid market volatility and valuation concerns around AI infrastructure",
    "url": "https://www.techmeme.com/261120/p5#a261120p5",
    "at": "2026-11-20T07:00:01.000Z",
@@ -930,13 +954,6 @@
    "kind": "News"
   },
   {
-   "t": "A job listing shows Apple is developing an AI agent that can write code, browse the web, control apps, navigate devices, and coordinate subagents for users",
-   "url": "https://www.techmeme.com/261119/p52#a261119p52",
-   "at": "2026-11-19T22:30:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Anthropic shares end first day of trading at $97 as Wall Street closes sharply lower – as it happened",
    "url": "https://www.theguardian.com/business/live/2026/nov/19/anthropic-float-stock-market-nasdaq-raises-81bn-record-ipo-latest-news-updates",
    "at": "2026-11-19T22:13:52Z",
@@ -957,8 +974,8 @@
    "t": "Anthropic’s Nasdaq debut",
    "url": "https://news.ycombinator.com/item?id=50562754",
    "link": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
-   "up": 1044,
-   "com": 2061,
+   "up": 1046,
+   "com": 2073,
    "at": "2026-11-19T17:02:40.000Z"
   },
   {
@@ -966,8 +983,8 @@
    "t": "Gemini 4 Neon is the new #1 on the Models Engineering Index",
    "url": "https://news.ycombinator.com/item?id=50568130",
    "link": "https://git-aarvin.github.io/mei/",
-   "up": 334,
-   "com": 207,
+   "up": 335,
+   "com": 209,
    "at": "2026-11-19T23:35:35.000Z"
   },
   {
@@ -975,7 +992,7 @@
    "t": "Fuck Your AI Safeguards",
    "url": "https://news.ycombinator.com/item?id=50562262",
    "link": "https://ounapuu.ee/posts/2026/11/19/unsafeguards/",
-   "up": 524,
+   "up": 530,
    "com": 210,
    "at": "2026-11-19T16:30:18.000Z"
   },
@@ -984,8 +1001,8 @@
    "t": "Claude solves two open problems in the physics of black holes",
    "url": "https://news.ycombinator.com/item?id=50563148",
    "link": "https://www.anthropic.com/research/claude-black-hole-physics",
-   "up": 461,
-   "com": 218,
+   "up": 466,
+   "com": 220,
    "at": "2026-11-19T17:30:44.000Z"
   },
   {
@@ -993,8 +1010,8 @@
    "t": "OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)",
    "url": "https://news.ycombinator.com/item?id=50569226",
    "link": "https://github.com/openssl/openssl/pull/33652",
-   "up": 151,
-   "com": 82,
+   "up": 175,
+   "com": 103,
    "at": "2026-11-20T02:01:09.000Z"
   },
   {
@@ -1002,7 +1019,7 @@
    "t": "Someone reported java4shell bug in September 2026",
    "url": "https://news.ycombinator.com/item?id=50558906",
    "link": "https://github.com/openjdk/jdk/pull/32781",
-   "up": 408,
+   "up": 414,
    "com": 111,
    "at": "2026-11-19T11:47:03.000Z"
   }
