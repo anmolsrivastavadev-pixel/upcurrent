@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-20T16:04:22.252Z"
+  "updated": "2026-11-20T16:30:57.976Z"
  },
  "pulse": {
-  "trending": 74,
+  "trending": 73,
   "accelerating": 3,
-  "newModels": 9,
-  "discussions": 38,
-  "stars": 2064
+  "newModels": 8,
+  "discussions": 40,
+  "stars": 2065
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
    "meta": [
-    "★ 6,253",
-    "~1,502 in 24h",
+    "★ 6,286",
+    "~1,504 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-16T12:10:36Z",
@@ -33,29 +33,13 @@
    "url": "https://github.com/erkamyaman/rust-anything"
   },
   {
-   "name": "voice-isolator",
-   "owner": "inworld",
-   "src": "hf",
-   "cat": "Tools",
-   "score": 92,
-   "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 427",
-   "meta": [
-    "0 downloads",
-    "Released 7 days ago"
-   ],
-   "at": "2026-11-14T02:14:35.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/inworld/voice-isolator"
-  },
-  {
    "name": "Qwen3.8-27B-pi-adapted",
    "owner": "harness-hub",
    "src": "hf",
    "cat": "Agents",
-   "score": 92,
+   "score": 93,
    "grow": 42,
-   "desc": "Model on Hugging Face · open source · ♥ 817",
+   "desc": "Model on Hugging Face · open source · ♥ 821",
    "meta": [
     "1.9K downloads",
     "Released 4 days ago"
@@ -69,9 +53,9 @@
    "owner": "higurashi-ai",
    "src": "hf",
    "cat": "Tools",
-   "score": 89,
+   "score": 91,
    "grow": 17,
-   "desc": "Model on Hugging Face · open source · ♥ 4.3K",
+   "desc": "Model on Hugging Face · open source · ♥ 4.4K",
    "meta": [
     "7.3K downloads",
     "Released 8 days ago"
@@ -85,9 +69,9 @@
    "owner": "tencent",
    "src": "hf",
    "cat": "Vision",
-   "score": 88,
+   "score": 89,
    "grow": 92,
-   "desc": "Vision on Hugging Face · open weights · ♥ 496",
+   "desc": "Vision on Hugging Face · open weights · ♥ 497",
    "meta": [
     "3.9K downloads",
     "Released 4 days ago"
@@ -95,6 +79,22 @@
    "at": "2026-11-17T03:44:46.000Z",
    "breakout": null,
    "url": "https://huggingface.co/tencent/Hy4-flash"
+  },
+  {
+   "name": "SenseNova-Loop-9B",
+   "owner": "sensenova",
+   "src": "hf",
+   "cat": "Vision",
+   "score": 88,
+   "grow": 13,
+   "desc": "Vision on Hugging Face · open source · ♥ 417",
+   "meta": [
+    "1.6K downloads",
+    "Released 3 days ago"
+   ],
+   "at": "2026-11-17T10:16:41.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B"
   },
   {
    "name": "inference-optimisation-skill",
@@ -105,7 +105,7 @@
    "grow": 4,
    "desc": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
    "meta": [
-    "★ 1,305",
+    "★ 1,306",
     "+70 in 24h",
     "Created 4 days ago"
    ],
@@ -114,27 +114,11 @@
    "url": "https://github.com/sybil-solutions/inference-optimisation-skill"
   },
   {
-   "name": "SenseNova-Loop-9B",
-   "owner": "sensenova",
-   "src": "hf",
-   "cat": "Vision",
-   "score": 86,
-   "grow": 13,
-   "desc": "Vision on Hugging Face · open source · ♥ 415",
-   "meta": [
-    "1.6K downloads",
-    "Released 3 days ago"
-   ],
-   "at": "2026-11-17T10:16:41.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B"
-  },
-  {
    "name": "MiniMax-H3-Image",
    "owner": "MiniMaxAI",
    "src": "hf",
    "cat": "Vision",
-   "score": 85,
+   "score": 87,
    "grow": null,
    "desc": "Vision on Hugging Face · open weights · ♥ 1.7K",
    "meta": [
@@ -155,7 +139,7 @@
    "grow": null,
    "desc": "Embodied intelligence aims to let robots perform complex physical tasks with human-like adaptability and reliability, which requires three complementary capabilities: history-based cognitive reasoning, precise and timely physical execution, and the composition of reasoning and execution through environmental feedback.",
    "meta": [
-    "▲ 45 upvotes",
+    "▲ 46 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-11-18T19:00:00.000Z",
@@ -177,6 +161,22 @@
    ],
    "at": "2026-11-19T08:01:00Z",
    "breakout": null
+  },
+  {
+   "name": "Qwen-Image-2.1-Uncensored-Omni-Quantized",
+   "owner": "chatrlabs",
+   "src": "hf",
+   "cat": "Infrastructure",
+   "score": 84,
+   "grow": 15,
+   "desc": "Model on Hugging Face · open weights · ♥ 730",
+   "meta": [
+    "309K downloads",
+    "Released 17 days ago"
+   ],
+   "at": "2026-11-03T16:13:25.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized"
   }
  ],
  "breakouts": [
@@ -283,29 +283,12 @@
    "verdict": "Talk only, no public usage numbers"
   },
   {
-   "name": "Rumble-2-Flash",
-   "url": "https://huggingface.co/Reson8/Rumble-2-Flash",
-   "from": "Hugging Face",
-   "use": 1766,
-   "useLabel": "1.8K downloads",
-   "usePct": 0.3448275862068966,
-   "talk": [
-    {
-     "src": "Hugging Face blog",
-     "t": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
-     "url": "https://huggingface.co/blog/rumble-2-flash"
-    }
-   ],
-   "buzz": 1,
-   "verdict": "More talk than use"
-  },
-  {
    "name": "DaisyRose-27B",
    "url": "https://huggingface.co/RadixArk/DaisyRose-27B",
    "from": "Hugging Face",
    "use": 918,
    "useLabel": "918 downloads",
-   "usePct": 0.20689655172413793,
+   "usePct": 0.21428571428571427,
    "talk": [
     {
      "src": "Hugging Face blog",
@@ -317,11 +300,28 @@
    "verdict": "More talk than use"
   },
   {
+   "name": "Rumble-2-Flash",
+   "url": "https://huggingface.co/Reson8/Rumble-2-Flash",
+   "from": "Hugging Face",
+   "use": 1766,
+   "useLabel": "1.8K downloads",
+   "usePct": 0.35714285714285715,
+   "talk": [
+    {
+     "src": "Hugging Face blog",
+     "t": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
+     "url": "https://huggingface.co/blog/rumble-2-flash"
+    }
+   ],
+   "buzz": 1,
+   "verdict": "More talk than use"
+  },
+  {
    "name": "rust-anything",
    "url": "https://github.com/erkamyaman/rust-anything",
    "from": "GitHub",
-   "use": 1502,
-   "useLabel": "~1,502 stars/day",
+   "use": 1504,
+   "useLabel": "~1,504 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -344,7 +344,7 @@
    "from": "Hugging Face",
    "use": 981223,
    "useLabel": "981K downloads",
-   "usePct": 0.9655172413793104,
+   "usePct": 0.9642857142857143,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -435,17 +435,17 @@
  "github": [
   {
    "repo": "erkamyaman/rust-anything",
-   "stars": 6253,
-   "d24": 1502,
+   "stars": 6286,
+   "d24": 1504,
    "est": true,
-   "forks": 494,
-   "contrib": 15,
+   "forks": 497,
+   "contrib": 16,
    "score": 95
   },
   {
    "repo": "duwqijlk/muse-protocol",
-   "stars": 1684,
-   "d24": 255,
+   "stars": 1687,
+   "d24": 254,
    "est": true,
    "forks": 660,
    "contrib": null,
@@ -453,16 +453,16 @@
   },
   {
    "repo": "haziqahmedqasmi/PeakCut",
-   "stars": 1505,
+   "stars": 1511,
    "d24": 237,
    "est": true,
-   "forks": 489,
+   "forks": 490,
    "contrib": null,
    "score": 76
   },
   {
    "repo": "sybil-solutions/inference-optimisation-skill",
-   "stars": 1305,
+   "stars": 1306,
    "d24": 70,
    "est": false,
    "forks": 116,
@@ -472,17 +472,6 @@
  ],
  "models": [
   {
-   "name": "voice-isolator",
-   "org": "inworld",
-   "lic": "Open source",
-   "at": "2026-11-14T02:14:35.000Z",
-   "dl": 0,
-   "grow": null,
-   "score": 92,
-   "cat": "Tools",
-   "likes": 427
-  },
-  {
    "name": "Qwen3.8-27B-pi-adapted",
    "org": "harness-hub",
    "size": "27B",
@@ -490,9 +479,9 @@
    "at": "2026-11-16T06:52:31.000Z",
    "dl": 1874,
    "grow": 42,
-   "score": 92,
+   "score": 93,
    "cat": "Agents",
-   "likes": 817
+   "likes": 821
   },
   {
    "name": "Haru-4B",
@@ -502,9 +491,9 @@
    "at": "2026-11-12T11:05:59.000Z",
    "dl": 7323,
    "grow": 17,
-   "score": 89,
+   "score": 91,
    "cat": "Tools",
-   "likes": 4329
+   "likes": 4380
   },
   {
    "name": "Hy4-flash",
@@ -513,9 +502,9 @@
    "at": "2026-11-17T03:44:46.000Z",
    "dl": 3949,
    "grow": 92,
-   "score": 88,
+   "score": 89,
    "cat": "Vision",
-   "likes": 496
+   "likes": 497
   },
   {
    "name": "SenseNova-Loop-9B",
@@ -525,9 +514,9 @@
    "at": "2026-11-17T10:16:41.000Z",
    "dl": 1631,
    "grow": 13,
-   "score": 86,
+   "score": 88,
    "cat": "Vision",
-   "likes": 415
+   "likes": 417
   },
   {
    "name": "MiniMax-H3-Image",
@@ -536,9 +525,20 @@
    "at": "2026-11-03T06:34:36.000Z",
    "dl": 876986,
    "grow": null,
-   "score": 85,
+   "score": 87,
    "cat": "Vision",
    "likes": 1678
+  },
+  {
+   "name": "Qwen-Image-2.1-Uncensored-Omni-Quantized",
+   "org": "chatrlabs",
+   "lic": "Open weights",
+   "at": "2026-11-03T16:13:25.000Z",
+   "dl": 309394,
+   "grow": 15,
+   "score": 84,
+   "cat": "Infrastructure",
+   "likes": 730
   }
  ],
  "free": [
@@ -835,17 +835,17 @@
  },
  "headlines": [
   {
+   "t": "Anthropic shares slump on second day of trading as markets reel from AI sell-off",
+   "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+   "at": "2026-11-20T16:26:07Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
    "t": "Linq, which offers texting and calling infrastructure for AI agents, raised a $90M Series B led by a16z, following a $20M Series A in February",
    "url": "https://www.techmeme.com/261120/p19#a261120p19",
    "at": "2026-11-20T16:00:53.000Z",
    "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Anthropic shares slump on second day of trading as markets reel from AI sell-off",
-   "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
-   "at": "2026-11-20T15:59:08Z",
-   "src": "The Guardian",
    "kind": "News"
   },
   {
@@ -933,17 +933,17 @@
    "kind": "News"
   },
   {
+   "t": "India's AI boom is creating investment opportunities beyond technology stocks: 5 ways ordinary investors can participate",
+   "url": "https://economictimes.indiatimes.com/wealth/invest/indias-ai-boom-5-ways-ordinary-investors-can-invest-in-artificial-intelligence/slideshow/136013133.cms",
+   "at": "2026-11-20T04:24:00Z",
+   "src": "The Economic Times",
+   "kind": "News"
+  },
+  {
    "t": "Wall Street tumbles as investors seek cover amid growing uncertainty",
    "url": "https://www.tribuneindia.com/news/business/wall-street-tumbles-as-investors-seek-cover-amid-growing-uncertainty/",
    "at": "2026-11-20T04:02:40Z",
    "src": "The Tribune",
-   "kind": "News"
-  },
-  {
-   "t": "Apple develops autonomous AI agent to take on OpenAI, Anthropic and Meta",
-   "url": "https://www.thehindubusinessline.com/info-tech/apple-plans-its-own-ai-agent-to-take-on-openai-anthropic-and-meta/article71722966.ece",
-   "at": "2026-11-20T03:56:19Z",
-   "src": "The Hindu Business Line",
    "kind": "News"
   }
  ],
@@ -953,17 +953,25 @@
    "t": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
    "url": "https://news.ycombinator.com/item?id=50572503",
    "link": "https://architectlabs.com/blog/frostbite",
-   "up": 401,
-   "com": 253,
+   "up": 427,
+   "com": 260,
    "at": "2026-11-20T10:01:41.000Z"
+  },
+  {
+   "src": "Mastodon",
+   "t": "Let’s use # AI to detect and fight fires 🧯 the boss said",
+   "url": "https://mstdn.social/@stux/117649522085108315",
+   "up": 63,
+   "com": 5,
+   "at": "2026-11-20T15:40:40.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Anthropic’s Nasdaq debut",
    "url": "https://news.ycombinator.com/item?id=50562754",
    "link": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
-   "up": 1111,
-   "com": 2235,
+   "up": 1112,
+   "com": 2238,
    "at": "2026-11-19T17:02:40.000Z"
   },
   {
@@ -971,8 +979,8 @@
    "t": "Global stock markets slump as Anthropic's record IPO fails to stem AI sell-off",
    "url": "https://news.ycombinator.com/item?id=50574383",
    "link": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
-   "up": 103,
-   "com": 79,
+   "up": 124,
+   "com": 106,
    "at": "2026-11-20T13:29:59.000Z"
   },
   {
@@ -980,26 +988,17 @@
    "t": "If you stop writing code, you also get worse at reviewing it",
    "url": "https://news.ycombinator.com/item?id=50573886",
    "link": "https://cekrem.github.io/posts/if-you-stop-writing-code-you-also-get-worse-at-reviewing-it/",
-   "up": 115,
-   "com": 42,
+   "up": 135,
+   "com": 54,
    "at": "2026-11-20T12:41:38.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Fuck Your AI Safeguards",
-   "url": "https://news.ycombinator.com/item?id=50562262",
-   "link": "https://ounapuu.ee/posts/2026/11/19/unsafeguards/",
-   "up": 580,
-   "com": 236,
-   "at": "2026-11-19T16:30:18.000Z"
   },
   {
    "src": "Hacker News",
    "t": "OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)",
    "url": "https://news.ycombinator.com/item?id=50569226",
    "link": "https://github.com/openssl/openssl/pull/33652",
-   "up": 330,
-   "com": 282,
+   "up": 333,
+   "com": 284,
    "at": "2026-11-20T02:01:09.000Z"
   }
  ]
