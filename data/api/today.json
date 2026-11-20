@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-20T14:30:59.037Z"
+  "updated": "2026-11-20T15:01:07.854Z"
  },
  "pulse": {
   "trending": 73,
   "accelerating": 2,
   "newModels": 8,
-  "discussions": 39,
-  "stars": 1836
+  "discussions": 43,
+  "stars": 2065
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
    "meta": [
-    "★ 6,133",
-    "~1,497 in 24h",
+    "★ 6,179",
+    "~1,500 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-16T12:10:36Z",
@@ -55,7 +55,7 @@
    "cat": "Tools",
    "score": 91,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 337",
+   "desc": "Model on Hugging Face · open source · ♥ 343",
    "meta": [
     "0 downloads",
     "Released 7 days ago"
@@ -71,7 +71,7 @@
    "cat": "Agents",
    "score": 91,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 801",
+   "desc": "Model on Hugging Face · open source · ♥ 806",
    "meta": [
     "1.9K downloads",
     "Released 4 days ago"
@@ -81,13 +81,30 @@
    "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted"
   },
   {
+   "name": "inference-optimisation-skill",
+   "owner": "sybil-solutions",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 87,
+   "grow": 4,
+   "desc": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
+   "meta": [
+    "★ 1,303",
+    "+72 in 24h",
+    "Created 4 days ago"
+   ],
+   "at": "2026-11-16T18:40:04Z",
+   "breakout": null,
+   "url": "https://github.com/sybil-solutions/inference-optimisation-skill"
+  },
+  {
    "name": "Hy4-flash",
    "owner": "tencent",
    "src": "hf",
    "cat": "Vision",
-   "score": 88,
+   "score": 87,
    "grow": 92,
-   "desc": "Vision on Hugging Face · open weights · ♥ 492",
+   "desc": "Vision on Hugging Face · open weights · ♥ 493",
    "meta": [
     "3.9K downloads",
     "Released 3 days ago"
@@ -97,30 +114,13 @@
    "url": "https://huggingface.co/tencent/Hy4-flash"
   },
   {
-   "name": "inference-optimisation-skill",
-   "owner": "sybil-solutions",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 87,
-   "grow": 3,
-   "desc": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
-   "meta": [
-    "★ 1,299",
-    "+68 in 24h",
-    "Created 4 days ago"
-   ],
-   "at": "2026-11-16T18:40:04Z",
-   "breakout": null,
-   "url": "https://github.com/sybil-solutions/inference-optimisation-skill"
-  },
-  {
    "name": "SenseNova-Loop-9B",
    "owner": "sensenova",
    "src": "hf",
    "cat": "Vision",
    "score": 86,
    "grow": 13,
-   "desc": "Vision on Hugging Face · open source · ♥ 409",
+   "desc": "Vision on Hugging Face · open source · ♥ 412",
    "meta": [
     "1.6K downloads",
     "Released 3 days ago"
@@ -171,7 +171,7 @@
    "grow": null,
    "desc": "Fix one thing, break another? This agent checks it all",
    "meta": [
-    "▲ 361 votes",
+    "▲ 362 votes",
     "55 comments",
     "Launched yesterday"
    ],
@@ -320,8 +320,8 @@
    "name": "rust-anything",
    "url": "https://github.com/erkamyaman/rust-anything",
    "from": "GitHub",
-   "use": 1497,
-   "useLabel": "~1,497 stars/day",
+   "use": 1500,
+   "useLabel": "~1,500 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -435,39 +435,39 @@
  "github": [
   {
    "repo": "erkamyaman/rust-anything",
-   "stars": 6133,
-   "d24": 1497,
+   "stars": 6179,
+   "d24": 1500,
    "est": true,
    "forks": 488,
    "contrib": null,
    "score": 95
   },
   {
+   "repo": "duwqijlk/muse-protocol",
+   "stars": 1681,
+   "d24": 256,
+   "est": true,
+   "forks": 660,
+   "contrib": null,
+   "score": 79
+  },
+  {
    "repo": "haziqahmedqasmi/PeakCut",
-   "stars": 1492,
+   "stars": 1496,
    "d24": 237,
    "est": true,
-   "forks": 483,
+   "forks": 487,
    "contrib": null,
    "score": 76
   },
   {
    "repo": "sybil-solutions/inference-optimisation-skill",
-   "stars": 1299,
-   "d24": 68,
+   "stars": 1303,
+   "d24": 72,
    "est": false,
    "forks": 116,
    "contrib": null,
    "score": 87
-  },
-  {
-   "repo": "duwqijlk/muse-protocol",
-   "stars": 1681,
-   "d24": 34,
-   "est": false,
-   "forks": 660,
-   "contrib": null,
-   "score": 79
   }
  ],
  "models": [
@@ -481,7 +481,7 @@
    "grow": 17,
    "score": 91,
    "cat": "Tools",
-   "likes": 4164
+   "likes": 4228
   },
   {
    "name": "voice-isolator",
@@ -492,7 +492,7 @@
    "grow": null,
    "score": 91,
    "cat": "Tools",
-   "likes": 337
+   "likes": 343
   },
   {
    "name": "Qwen3.8-27B-pi-adapted",
@@ -504,7 +504,7 @@
    "grow": null,
    "score": 91,
    "cat": "Agents",
-   "likes": 801
+   "likes": 806
   },
   {
    "name": "Hy4-flash",
@@ -513,9 +513,9 @@
    "at": "2026-11-17T03:44:46.000Z",
    "dl": 3949,
    "grow": 92,
-   "score": 88,
+   "score": 87,
    "cat": "Vision",
-   "likes": 492
+   "likes": 493
   },
   {
    "name": "SenseNova-Loop-9B",
@@ -527,7 +527,7 @@
    "grow": 13,
    "score": 86,
    "cat": "Vision",
-   "likes": 409
+   "likes": 412
   },
   {
    "name": "MiniMax-H3-Image",
@@ -538,7 +538,7 @@
    "grow": null,
    "score": 85,
    "cat": "Vision",
-   "likes": 1675
+   "likes": 1676
   }
  ],
  "free": [
@@ -835,7 +835,7 @@
  },
  "headlines": [
   {
-   "t": "Global stock markets slump as Anthropic’s record IPO fails to stem AI sell-off",
+   "t": "Anthropic shares slump on second day of trading as stock markets reel from AI sell-off",
    "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
    "at": "2026-11-20T13:53:13Z",
    "src": "The Guardian",
@@ -845,6 +845,13 @@
    "t": "Anthropic raises an additional $12.2B as underwriters exercise their \"greenshoe\" overallotment of shares, bringing the total raised in its IPO to $93.5B",
    "url": "https://www.techmeme.com/261120/p14#a261120p14",
    "at": "2026-11-20T13:50:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Current and ex-staffers describe abusive behavior by Jensen Huang that goes back decades; Nvidia settled with two senior leaders who alleged abusive conduct",
+   "url": "https://www.techmeme.com/261120/p12#a261120p12",
+   "at": "2026-11-20T12:40:01.000Z",
    "src": "Techmeme",
    "kind": "News"
   },
@@ -933,17 +940,10 @@
    "kind": "News"
   },
   {
-   "t": "SoftBank shares slump 15% as AI worries drown Asian chipmaker stocks",
-   "url": "https://www.cnbctv18.com/market/softbank-shares-slump-15-as-ai-worries-drown-asian-chipmaker-stocks-20038223.htm",
-   "at": "2026-11-20T02:20:04Z",
-   "src": "CNBC TV18",
-   "kind": "News"
-  },
-  {
-   "t": "Apple's AI Agent Plans Emerge As OpenAI, Anthropic And Meta Race To Build Similar Tools",
-   "url": "https://www.ndtvprofit.com/markets/apples-ai-agent-plans-emerge-as-openai-anthropic-and-meta-race-to-build-similar-tools-12352162",
-   "at": "2026-11-20T02:19:37Z",
-   "src": "NDTV Profit",
+   "t": "AI virtual cell technology could reveal how genetic changes and drugs alter cells",
+   "url": "https://phys.org/news/2026-11-ai-virtual-cell-technology-reveal.html",
+   "at": "2026-11-20T03:00:06Z",
+   "src": "Phys.org",
    "kind": "News"
   }
  ],
@@ -953,8 +953,8 @@
    "t": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
    "url": "https://news.ycombinator.com/item?id=50572503",
    "link": "https://architectlabs.com/blog/frostbite",
-   "up": 321,
-   "com": 218,
+   "up": 353,
+   "com": 229,
    "at": "2026-11-20T10:01:41.000Z"
   },
   {
@@ -962,8 +962,8 @@
    "t": "Anthropic’s Nasdaq debut",
    "url": "https://news.ycombinator.com/item?id=50562754",
    "link": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
-   "up": 1104,
-   "com": 2213,
+   "up": 1108,
+   "com": 2218,
    "at": "2026-11-19T17:02:40.000Z"
   },
   {
@@ -971,17 +971,26 @@
    "t": "Global stock markets slump as Anthropic's record IPO fails to stem AI sell-off",
    "url": "https://news.ycombinator.com/item?id=50574383",
    "link": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
-   "up": 30,
-   "com": 7,
+   "up": 50,
+   "com": 22,
    "at": "2026-11-20T13:29:59.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "If you stop writing code, you also get worse at reviewing it",
+   "url": "https://news.ycombinator.com/item?id=50573886",
+   "link": "https://cekrem.github.io/posts/if-you-stop-writing-code-you-also-get-worse-at-reviewing-it/",
+   "up": 65,
+   "com": 13,
+   "at": "2026-11-20T12:41:38.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Fuck Your AI Safeguards",
    "url": "https://news.ycombinator.com/item?id=50562262",
    "link": "https://ounapuu.ee/posts/2026/11/19/unsafeguards/",
-   "up": 573,
-   "com": 231,
+   "up": 574,
+   "com": 233,
    "at": "2026-11-19T16:30:18.000Z"
   },
   {
@@ -989,18 +998,9 @@
    "t": "OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)",
    "url": "https://news.ycombinator.com/item?id=50569226",
    "link": "https://github.com/openssl/openssl/pull/33652",
-   "up": 317,
-   "com": 259,
+   "up": 320,
+   "com": 268,
    "at": "2026-11-20T02:01:09.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Claude solves two open problems in the physics of black holes",
-   "url": "https://news.ycombinator.com/item?id=50563148",
-   "link": "https://www.anthropic.com/research/claude-black-hole-physics",
-   "up": 518,
-   "com": 245,
-   "at": "2026-11-19T17:30:44.000Z"
   }
  ]
 }
