@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-21T17:50:38.191Z"
+  "updated": "2026-11-21T17:55:42.691Z"
  },
  "pulse": {
   "trending": 74,
   "accelerating": 1,
   "newModels": 12,
-  "discussions": 26,
-  "stars": 2768
+  "discussions": 29,
+  "stars": 2766
  },
  "rising": [
   {
@@ -40,8 +40,8 @@
    "grow": null,
    "desc": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
    "meta": [
-    "★ 2,081",
-    "~977 in 24h",
+    "★ 2,088",
+    "~979 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-19T14:43:10Z",
@@ -57,8 +57,8 @@
    "grow": 5,
    "desc": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
    "meta": [
-    "★ 7,241",
-    "+857 in 24h",
+    "★ 7,243",
+    "+854 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-11-16T12:10:36Z",
@@ -90,8 +90,8 @@
    "grow": 33,
    "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
    "meta": [
-    "★ 1,667",
-    "+644 in 24h",
+    "★ 1,669",
+    "+643 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-19T10:00:43Z",
@@ -153,7 +153,7 @@
    "cat": "Agents",
    "score": 86,
    "grow": 27,
-   "desc": "Model on Hugging Face · open source · ♥ 911",
+   "desc": "Model on Hugging Face · open source · ♥ 912",
    "meta": [
     "2.4K downloads",
     "Released 5 days ago"
@@ -241,8 +241,8 @@
    "name": "blender-ai-mcp-addon",
    "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
    "from": "GitHub",
-   "use": 977,
-   "useLabel": "~977 stars/day",
+   "use": 979,
+   "useLabel": "~979 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -356,8 +356,8 @@
  "github": [
   {
    "repo": "bookwjitchieni1986/blender-ai-mcp-addon",
-   "stars": 2081,
-   "d24": 977,
+   "stars": 2088,
+   "d24": 979,
    "est": true,
    "forks": 31,
    "contrib": null,
@@ -365,17 +365,17 @@
   },
   {
    "repo": "erkamyaman/rust-anything",
-   "stars": 7241,
-   "d24": 857,
+   "stars": 7243,
+   "d24": 854,
    "est": false,
-   "forks": 581,
+   "forks": 582,
    "contrib": 21,
    "score": 94
   },
   {
    "repo": "iamajmeena/neonclipping",
-   "stars": 1667,
-   "d24": 644,
+   "stars": 1669,
+   "d24": 643,
    "est": false,
    "forks": 81,
    "contrib": null,
@@ -412,7 +412,7 @@
    "grow": null,
    "score": 94,
    "cat": "Vision",
-   "likes": 1734
+   "likes": 1746
   },
   {
    "name": "Hy4-flash",
@@ -457,7 +457,7 @@
    "grow": 27,
    "score": 86,
    "cat": "Agents",
-   "likes": 911
+   "likes": 912
   }
  ],
  "free": [
@@ -798,10 +798,17 @@
    "kind": "News"
   },
   {
+   "t": "OpenAI makes it difficult for others to replicate GPT-6.2 Astra",
+   "url": "https://www.newsbytesapp.com/news/science/openai-tightens-gpt-6-2-astra-s-security-against-unauthorized-extraction-attempts/story",
+   "at": "2026-11-21T05:52:57Z",
+   "src": "NewsBytes",
+   "kind": "News"
+  },
+  {
    "t": "Artists eye class action over AI copyright 'theft'",
-   "url": "https://www.canberratimes.com.au/story/9395747/artists-eye-class-action-over-ai-copyright-theft/",
-   "at": "2026-11-21T05:49:38Z",
-   "src": "The Canberra Times",
+   "url": "https://www.perthnow.com.au/entertainment/art/artists-eye-class-action-over-ai-copyright-theft-c-23194637",
+   "at": "2026-11-21T05:51:17Z",
+   "src": "PerthNow",
    "kind": "News"
   },
   {
@@ -838,13 +845,6 @@
    "at": "2026-11-21T05:08:24Z",
    "src": "The Indian Express",
    "kind": "News"
-  },
-  {
-   "t": "Anthropic mathematician claims AI solved century-old problem",
-   "url": "https://www.deccanherald.com/technology/anthropic-mathematician-claims-to-have-solved-maths-most-famous-problem-riemann-hypothesis-4226294",
-   "at": "2026-11-21T04:45:39Z",
-   "src": "Deccan Herald",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -853,8 +853,8 @@
    "t": "Lean verification of the Riemann Hypothesis",
    "url": "https://news.ycombinator.com/item?id=50589618",
    "link": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
-   "up": 395,
-   "com": 305,
+   "up": 405,
+   "com": 314,
    "at": "2026-11-21T14:36:45.000Z"
   },
   {
@@ -863,7 +863,7 @@
    "url": "https://news.ycombinator.com/item?id=50581260",
    "link": "https://thinkingmachines.ai/news/inkling-2-mini/",
    "up": 1238,
-   "com": 245,
+   "com": 246,
    "at": "2026-11-20T20:12:19.000Z"
   },
   {
@@ -871,8 +871,8 @@
    "t": "Ask HN: I have been unemployed for 2y. 15 years of experience, US. What to do?",
    "url": "https://news.ycombinator.com/item?id=50583761",
    "link": "",
-   "up": 442,
-   "com": 470,
+   "up": 446,
+   "com": 474,
    "at": "2026-11-20T23:18:32.000Z"
   },
   {
@@ -880,25 +880,26 @@
    "t": "Show HN: Zero C#, Power of C# without any GC",
    "url": "https://news.ycombinator.com/item?id=50590279",
    "link": "https://onurgumus.github.io/zero-csharp/index.html",
-   "up": 47,
+   "up": 48,
    "com": 36,
    "at": "2026-11-21T15:39:09.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "PostgreSQL Extensions in Go",
+   "url": "https://news.ycombinator.com/item?id=50591260",
+   "link": "https://jespino.github.io/gopgext/",
+   "up": 21,
+   "com": 0,
+   "at": "2026-11-21T17:08:04.000Z"
   },
   {
    "src": "Mastodon",
    "t": "Tech conferences post the rise of LLMs have really transformed into emotional support groups. It’s a group of people who are both arguing in favor of their r…",
    "url": "https://c.im/@matdevdug/117655224970521704",
-   "up": 33,
+   "up": 36,
    "com": 4,
    "at": "2026-11-21T15:50:59.000Z"
-  },
-  {
-   "src": "DEV",
-   "t": "The Chairs Are Back. The Coffee Is On. ☕",
-   "url": "https://dev.to/thethirdcup/the-chairs-are-back-the-coffee-is-on-243p",
-   "up": 70,
-   "com": 29,
-   "at": "2026-11-21T11:24:29Z"
   }
  ]
 }
