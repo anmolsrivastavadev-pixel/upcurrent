@@ -236,8 +236,8 @@ ${faqHtml(qa)}`;
       if (!cur || (m.dl || 0) > (cur.dl || 0)) seen.set(k, { ...m, lastDay: d });
     }
     const models = [...seen.values()].sort((a, b) => Date.parse(b.at || 0) - Date.parse(a.at || 0));
-    const open = models.filter(m => /open/i.test(m.lic || "")).length;
-    const lead = `${models.length} newly released models were trending on Hugging Face over the last ${recent.length} days, ${open} of them open source. Newest first, with downloads so far.`;
+    const open = models.filter(m => /^open source/i.test(m.lic || "")).length;
+    const lead = `${models.length} recently released models were trending on Hugging Face over the last ${recent.length} days. ${open} are open source and the rest open weights or other licences. Newest first, with downloads so far.`;
     const qa = [
       ["What new AI models came out this week?", models.length ? `Trending new releases on Hugging Face this week include ${models.slice(0, 5).map(m => `${m.org}/${m.name}`).join(", ")}.` : "See the list on this page."],
       ["Can I download these models?", "Most are hosted on Hugging Face and can be downloaded there. Check each model's licence: open source and open weights licences allow different uses."],
