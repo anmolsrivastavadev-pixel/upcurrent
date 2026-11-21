@@ -8,7 +8,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const SITE = "https://anmolsrivastavadev-pixel.github.io/upcurrent/";
+const SITE = "https://upcurrent.dev/";
 const TZ = "Europe/London", POST_HOUR = 8, LAST_HOUR = 13;
 const dry = process.env.DRY_RUN === "1";
 

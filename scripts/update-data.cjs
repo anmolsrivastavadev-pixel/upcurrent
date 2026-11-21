@@ -6,7 +6,7 @@ const C = require("../core.js");
 
 const OUT = path.join(__dirname, "..", "data", "latest.json");
 const KEEP_STALE_HOURS = 48;
-const SITE = "https://anmolsrivastavadev-pixel.github.io/upcurrent/";
+const SITE = "https://upcurrent.dev/";
 
 // Open data: small, documented JSON files anyone can use with credit. See data.html.
 function writeOpenData(out) {

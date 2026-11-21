@@ -83,7 +83,7 @@ The docs page is `data.html`.
 ## Search engines
 Each publish also runs `scripts/build-seo.cjs`, which only changes the copy that goes to Pages:
 - `daily/YYYY-MM-DD.html` and `daily/index.html`: a plain, crawlable page per day from `data/api/daily/`.
-- `sitemap.xml` listing every page. Submit `https://anmolsrivastavadev-pixel.github.io/upcurrent/sitemap.xml`
+- `sitemap.xml` listing every page. Submit `https://upcurrent.dev/sitemap.xml`
   in Google Search Console and Bing Webmaster Tools.
 - `index.html` filled with the rendered dashboard (headless Chrome), so crawlers and link previews see
   today's content without running JavaScript. If that step fails, the plain page is published instead.
