@@ -157,6 +157,7 @@ section.block.is-empty .empty { padding: 14px 0; }
 .rank { font: 800 34px/1 var(--font-display); color: transparent; -webkit-text-stroke: 1.2px var(--faint); letter-spacing: -.04em; text-align: right; padding-top: 2px; }
 .row.lead .rank { -webkit-text-stroke: 0; color: var(--hot); }
 .row h3 { margin: 0; font: 700 19px/1.25 var(--font-display); letter-spacing: -.015em; overflow-wrap: anywhere; }
+.row h3 .wi { font: 600 13px var(--font-body); letter-spacing: 0; color: var(--link); white-space: nowrap; margin-left: 6px; }
 .row.lead h3 { font-size: 26px; }
 .tags { display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; margin-top: 5px; font-size: 13px; color: var(--faint); }
 .src { font: 600 10.5px var(--font-mono); letter-spacing: .06em; padding: 2px 6px; border-radius: 4px; background: var(--chip); color: var(--muted); }
@@ -568,6 +569,7 @@ font[style] { background: none !important; box-shadow: none !important; }
     <a href="trending-ai-github-repos/" style="text-decoration:underline">Trending AI repos this week</a>
     <a href="new-ai-models/" style="text-decoration:underline">New AI models this week</a>
     <a href="what-is/" style="text-decoration:underline">New AI projects explained</a>
+    <a href="about/" style="text-decoration:underline">About and how it works</a>
     <a href="email.html" style="text-decoration:underline">Read today's email</a>
     <p class="about">Upcurrent is a free AI trends dashboard. Every 30 minutes it checks GitHub, Hugging Face, arXiv, Hacker News, AI lab blogs, news sites and model providers, then ranks the AI repos, models, papers and stories that are picking up speed. It flags names breaking out across several sources, checks hype against real use, keeps receipts on projects it spotted early, and lists the AI models you can call for free today.</p>
   </div>
@@ -850,7 +852,7 @@ function render() {
     <article class="row${r.rank === 1 && state.cat === "all" && !state.q ? " lead" : ""}">
       <div class="rank">${r.rank}</div>
       <div style="min-width:0">
-        <h3>${NEW("r:" + r.name)}<a href="${esc(linkFor(r))}" target="_blank" rel="noopener">${esc(r.name)}</a></h3>
+        <h3>${NEW("r:" + r.name)}<a href="${esc(linkFor(r))}" target="_blank" rel="noopener">${esc(r.name)}</a>${EXPLAINED[linkFor(r)] ? ` <a class="wi" href="what-is/${esc(EXPLAINED[linkFor(r)])}/">What is it?</a>` : ""}</h3>
         <div class="tags">${r.breakout ? `<a class="badge-bo" href="#breakouts" title="Named on ${r.breakout} separate sources">BREAKOUT · ${r.breakout} SOURCES</a>` : ""}<span class="src">${SRC_LABEL[r.src] || "SOURCE"}</span>${r.owner !== "Paper" && r.owner !== "Product Hunt" ? `<span>${esc(r.owner)}</span>` : ""}<span class="cat">${r.cat}</span></div>
         <p class="desc">${esc(r.desc)}</p>
         <div class="meta">${r.meta.map(m => `<span>${esc(m)}</span>`).join("")}</div>
@@ -1089,6 +1091,9 @@ async function goLive() {
 }
 
 DATA = { ...SNAPSHOT, isSnapshot: true };
+// Which movers have a "What is it?" page (written at publish time; missing locally, which is fine).
+var EXPLAINED = {};
+fetch("what-is/map.json").then(r => r.ok ? r.json() : {}).then(m => { EXPLAINED = m || {}; if (Object.keys(EXPLAINED).length && (!DATA.isSnapshot || !document.documentElement.hasAttribute("data-prerendered"))) render(); }).catch(() => {});
 state.win = "24h";
 // A published copy already holds today's rendered dashboard, so skip the old built-in snapshot.
 if (!document.documentElement.hasAttribute("data-prerendered")) render();

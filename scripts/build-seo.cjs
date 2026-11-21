@@ -86,7 +86,7 @@ ${ld.map(ldJson).join("\n")}
 ${body}
 <section class="cta"><h2>Get this in your inbox at 7am</h2><p>One free email each morning with the AI repos, models and stories that are picking up speed. Your own time zone, no spam.</p><p><a href="${up}#signup">Sign up on the dashboard</a></p></section>
 </main>
-<footer><div class="wrap">Upcurrent tracks what is rising in AI every 30 minutes, from GitHub, Hugging Face, arXiv, Hacker News, AI lab blogs, news sites and model providers. Numbers are as recorded at the time. <a href="${up}data.html">Open data (CC BY 4.0)</a> · ${GUIDES.map(g => `<a href="${up}${g.slug}/">${esc(g.short)}</a>`).join(" · ")} · <a href="${up}what-is/">New AI projects explained</a></div></footer>
+<footer><div class="wrap">Upcurrent tracks what is rising in AI every 30 minutes, from GitHub, Hugging Face, arXiv, Hacker News, AI lab blogs, news sites and model providers. Numbers are as recorded at the time. <a href="${up}data.html">Open data (CC BY 4.0)</a> · ${GUIDES.map(g => `<a href="${up}${g.slug}/">${esc(g.short)}</a>`).join(" · ")} · <a href="${up}what-is/">New AI projects explained</a> · <a href="${up}about/">About</a></div></footer>
 <script src="${up}translate.js"></script>
 </body></html>
 `;
@@ -104,7 +104,7 @@ function dailyPage(day, d, prev, next) {
   const url = `${SITE}daily/${day}.html`;
   const rising = d.rising || [], gh = d.github || [], models = d.models || [], news = d.headlines || [], disc = d.discussions || [], bo = d.breakouts || [], rc = d.receipts || [];
   const top = rising[0];
-  const title = `AI trends on ${shortDate(day)}: rising repos, models and news | Upcurrent`;
+  const title = `AI trends ${shortDate(day)}: top repos, models, news | Upcurrent`;
   const lead = [
     top && `The fastest-rising AI project was ${top.owner ? top.owner + "/" : ""}${top.name}${top.cat ? ` (${top.cat})` : ""}.`,
     gh[0] && `The top GitHub repo gained ${fmt(gh[0].d24)} stars in 24 hours (${gh[0].repo}).`,
@@ -155,7 +155,7 @@ function archivePage(days, data) {
     { "@context": "https://schema.org", "@type": "CollectionPage", name: "Daily AI trends archive", url, description: "Every day of AI trends Upcurrent has recorded.", hasPart: days.map(day => ({ "@type": "Article", headline: `What was rising in AI on ${shortDate(day)}`, url: `${SITE}daily/${day}.html` })) },
     breadcrumb([["Upcurrent", SITE], ["Daily archive", url]])
   ];
-  return page({ title: "Daily AI trends archive: every day of rising repos, models and news | Upcurrent", description: "A day-by-day archive of the AI repos, models, papers, threads and headlines that were rising, recorded by Upcurrent every 30 minutes.", canonical: url, body, ld, ogType: "website" });
+  return page({ title: "Daily AI trends archive: rising repos, models, news | Upcurrent", description: "A day-by-day archive of the AI repos, models, papers, threads and headlines that were rising, recorded by Upcurrent every 30 minutes.", canonical: url, body, ld, ogType: "website" });
 }
 
 
@@ -340,6 +340,11 @@ function prerender(src, dumped) {
     if (/<script/i.test(inner)) throw new Error(`#${id} holds a script`);
     filled[id] = inner;
   }
+  // The dashboard was rendered before the explainer pages existed, so add their links for crawlers here.
+  filled.risingList = filled.risingList.replace(/(<a href="([^"]+)" target="_blank" rel="noopener">[^<]*<\/a>)(<\/h3>)/g, (m, a, href, end) => {
+    const slug = EXPLAIN.get(href.replace(/&amp;/g, "&"));
+    return slug && !m.includes('class="wi"') ? `${a} <a class="wi" href="what-is/${slug}/">What is it?</a>${end}` : m;
+  });
   if (!filled.headline.trim() || !filled.risingList.includes("<a")) throw new Error("the rendered page has no movers");
   if (!/Live · updated/.test(dumped)) throw new Error("the rendered page did not load live data");
   let out = src;
@@ -414,7 +419,7 @@ function explainerPage(it, all) {
   }
   const latestNums = numbersLine(it, last);
   const seen = `Upcurrent first spotted it among the fastest-rising AI projects on ${shortDate(first.day)}. It has appeared on ${it.hist.length} daily list${it.hist.length > 1 ? "s" : ""} so far, peaking at #${best}.`;
-  const title = it.src === "paper" ? `${clip(it.name, 60)}: what the paper is about | Upcurrent` : `What is ${it.name}? ${kindShort}${it.owner ? ` by ${it.owner}` : ""} | Upcurrent`;
+  const title = it.src === "paper" ? `${clip(it.name, 52)}: paper explained | Upcurrent` : (t => t.length <= 66 ? t : `What is ${it.name.length <= 40 ? it.name : it.name.slice(0, 39) + "…"}? | Upcurrent`)(`What is ${it.name}? ${kindShort}${it.owner ? ` by ${it.owner}` : ""} | Upcurrent`);
   const description = clip(`${what} ${summary ? summary + " " : ""}${latestNums ? `Latest: ${latestNums}.` : ""}`.replace(/\s+/g, " "), 160);
   const related = all.filter(o => o !== it && o.cat && o.cat === it.cat).sort((a, b) => b.hist[b.hist.length - 1].day.localeCompare(a.hist[a.hist.length - 1].day)).slice(0, 6);
   const qa = [
@@ -467,9 +472,32 @@ function explainerIndex(items) {
     { "@context": "https://schema.org", "@type": "CollectionPage", name: "New AI projects, explained", url, hasPart: sorted.slice(0, 100).map(o => ({ "@type": "Article", headline: o.src === "paper" ? clip(o.name, 110) : `What is ${o.name}?`, url: `${url}${o.slug}/` })) },
     breadcrumb([["Upcurrent", SITE], ["Explained", url]])
   ];
-  return page({ title: "New AI projects explained: what they are and how fast they grew | Upcurrent", description: "Plain explanations of the newest AI repos, models and papers that are rising fast, with real growth numbers recorded by Upcurrent.", canonical: url, body, ld, ogType: "website" });
+  return page({ title: "New AI projects explained: what they are, how they grew | Upcurrent", description: "Plain explanations of the newest AI repos, models and papers that are rising fast, with real growth numbers recorded by Upcurrent.", canonical: url, body, ld, ogType: "website" });
 }
 
+
+function aboutPage(days, data, nExplained) {
+  const url = SITE + "about/";
+  const qa = [
+    ["What is Upcurrent?", "A free dashboard of what is rising in AI. Every 30 minutes it checks public sources and ranks the AI repos, models, papers and stories that are picking up speed, with links back to each original page."],
+    ["Where does the data come from?", "GitHub, Hugging Face (models and daily papers), arXiv, Hacker News, Lobsters, DEV, Mastodon, Techmeme, AI lab blogs, news APIs (The Guardian, GNews, NewsAPI), YouTube, Product Hunt, OpenRouter and OpenCode Zen. Only official APIs and public feeds are used."],
+    ["How is the momentum score worked out?", "Each item gets a 0 to 100 score. It is ranked against other items from the same source by attention per day (GitHub stars gained, Hugging Face trending score, paper upvotes), then gets a small boost if it is less than nine days old. Scores compare items within a day, so a 95 means near the top of that day, not a grade."],
+    ["How often does it update?", "Every 30 minutes, around the clock. The morning email goes out at 7am in each reader's own time zone."],
+    ["Are the numbers real?", "Yes. Every number is what the source reported when Upcurrent checked it. Nothing is estimated except where marked with ~ (GitHub stars gained in 24 hours, when a repo is too new for an exact count). Daily pages keep the numbers as they were recorded."],
+    ["Can I use the data?", "Yes. The data is free under CC BY 4.0: credit Upcurrent with a link. See the open data page for the JSON files."]
+  ];
+  const body = `<section><div class="eyebrow">About</div><h1>About Upcurrent and how it works</h1>
+<p class="lede">${esc(qa[0][1])}</p>
+<ul class="stats"><li><b class="num">17</b> sources</li><li><b class="num">30</b> minutes between checks</li><li><b class="num">${days.length}</b> days recorded since ${esc(shortDate(days[0]))}</li><li><b class="num">${nExplained}</b> projects explained</li></ul></section>
+${qa.slice(1).map(([q, a]) => `<section><h2>${esc(q)}</h2><p>${esc(a)}</p></section>`).join("")}
+<section><h2>Who it's for</h2><p>Developers, founders, researchers and anyone curious who wants to know which AI tools and models are worth a look today, without reading twenty sites. It is built and run independently, with no paid placements in the rankings.</p></section>
+<nav class="guides" aria-label="Explore">${[["", "Live dashboard"], ["daily/", "Daily archive"], ["what-is/", "Projects explained"], ["data.html", "Open data"], ...GUIDES.map(g => [g.slug + "/", g.short])].map(([h, n]) => `<a href="../${h}">${esc(n)}</a>`).join("")}</nav>`;
+  const ld = [
+    { "@context": "https://schema.org", "@type": "AboutPage", name: "About Upcurrent", url, mainEntity: { "@type": "Organization", name: "Upcurrent", url: SITE, logo: SITE + "icon-512.png", description: qa[0][1] } },
+    faq(qa), breadcrumb([["Upcurrent", SITE], ["About", url]])
+  ];
+  return page({ title: "About Upcurrent: how the AI trends dashboard works | Upcurrent", description: "How Upcurrent tracks what is rising in AI: 17 sources checked every 30 minutes, how the momentum score works, and where every number comes from.", canonical: url, body, ld, ogType: "website" });
+}
 (async () => {
   const args = process.argv.slice(2);
   const days = fs.readdirSync(DAILY_JSON).filter(f => /^\d{4}-\d{2}-\d{2}\.json$/.test(f)).map(f => f.slice(0, 10)).sort();
@@ -486,6 +514,9 @@ function explainerIndex(items) {
   fs.rmSync(EXPLAIN_OUT, { recursive: true, force: true });
   for (const it of explained) { fs.mkdirSync(path.join(EXPLAIN_OUT, it.slug), { recursive: true }); fs.writeFileSync(path.join(EXPLAIN_OUT, it.slug, "index.html"), explainerPage(it, explained)); }
   if (explained.length) fs.writeFileSync(path.join(EXPLAIN_OUT, "index.html"), explainerIndex(explained));
+  fs.writeFileSync(path.join(EXPLAIN_OUT, "map.json"), JSON.stringify(Object.fromEntries(EXPLAIN)));
+  fs.mkdirSync(path.join(ROOT, "about"), { recursive: true });
+  fs.writeFileSync(path.join(ROOT, "about", "index.html"), aboutPage(days, data, explained.length));
   console.log(`Wrote ${explained.length} explainer pages`);
 
   const latest = days.length ? data[days[days.length - 1]].about?.updated : new Date().toISOString();
@@ -493,6 +524,7 @@ function explainerIndex(items) {
     { loc: SITE, lastmod: latest, changefreq: "hourly", priority: "1.0" },
     { loc: SITE + "daily/", lastmod: latest, changefreq: "daily", priority: "0.8" },
     ...Object.keys(guides).map(slug => ({ loc: `${SITE}${slug}/`, lastmod: latest, changefreq: "hourly", priority: "0.9" })),
+    { loc: SITE + "about/", lastmod: latest, changefreq: "monthly", priority: "0.5" },
     ...(explained.length ? [{ loc: SITE + "what-is/", lastmod: latest, changefreq: "daily", priority: "0.8" }] : []),
     ...explained.map(it => ({ loc: `${SITE}what-is/${it.slug}/`, lastmod: data[it.hist[it.hist.length - 1].day].about?.updated || latest, changefreq: "daily", priority: "0.7" })),
     { loc: SITE + "email.html", lastmod: latest, changefreq: "daily", priority: "0.6" },
