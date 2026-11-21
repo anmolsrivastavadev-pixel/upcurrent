@@ -61,6 +61,7 @@ function page({ title, description, canonical, body, ld, ogType = "article", up 
 <meta name="theme-color" content="#0f1829">
 <link rel="icon" href="${up}favicon.svg" type="image/svg+xml">
 <link rel="alternate" type="application/json" title="Upcurrent open data" href="${up}data/api/today.json">
+<link rel="alternate" type="application/rss+xml" title="Upcurrent daily AI trends" href="${up}feed.xml">
 <meta property="og:site_name" content="Upcurrent">
 <meta property="og:type" content="${ogType}">
 <meta property="og:title" content="${esc(title)}">
@@ -252,6 +253,68 @@ ${faqHtml(qa)}`;
   return out;
 }
 
+
+// Crawler helpers written at the site root: robots.txt (now that the site owns its domain), an RSS feed of the
+// daily pages, llms.txt for AI crawlers, and the email preview filled in so its text is in the HTML.
+function crawlerFiles(days, data, guides, latest) {
+  fs.writeFileSync(path.join(ROOT, "robots.txt"), `# Upcurrent: every page is open to search engines and AI crawlers.
+User-agent: *
+Allow: /
+Disallow: /scripts/
+
+Sitemap: ${SITE}sitemap.xml
+`);
+  const xmlEsc = s => esc(s).replace(/&#39;/g, "&apos;");
+  const items = [...days].reverse().slice(0, 30).map(day => {
+    const d = data[day], top = (d.rising || [])[0], gh = (d.github || [])[0];
+    const desc = [top && `Top mover: ${top.owner ? top.owner + "/" : ""}${top.name}.`, gh && `Top repo gained ${fmt(gh.d24)} stars (${gh.repo}).`].filter(Boolean).join(" ");
+    const u = `${SITE}daily/${day}.html`;
+    return `<item><title>${xmlEsc(`What was rising in AI on ${shortDate(day)}`)}</title><link>${u}</link><guid isPermaLink="true">${u}</guid><pubDate>${new Date(d.about?.updated || day).toUTCString()}</pubDate><description>${xmlEsc(desc)}</description></item>`;
+  });
+  fs.writeFileSync(path.join(ROOT, "feed.xml"), `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<title>Upcurrent: daily AI trends</title><link>${SITE}</link><description>The AI repos, models, papers and stories picking up speed, one page a day.</description><language>en</language>
+<atom:link href="${SITE}feed.xml" rel="self" type="application/rss+xml"/><lastBuildDate>${new Date(latest).toUTCString()}</lastBuildDate>
+${items.join("\n")}
+</channel></rss>
+`);
+  fs.writeFileSync(path.join(ROOT, "llms.txt"), `# Upcurrent
+
+> A free dashboard of what is rising in AI, refreshed every 30 minutes from GitHub, Hugging Face, arXiv, Hacker News, AI lab blogs, news sites and model providers. Data is CC BY 4.0: credit "Data from Upcurrent (${SITE})".
+
+## Pages
+- [Live dashboard](${SITE}): today's fastest-rising AI repos, models, papers, threads and headlines
+${GUIDES.filter(g => guides[g.slug]).map(g => `- [${g.title}](${SITE}${g.slug}/)`).join("\n")}
+- [Daily archive](${SITE}daily/): one page per day since ${shortDate(days[0])}
+- [Today's email](${SITE}email.html): the morning digest
+
+## Data
+- [today.json](${SITE}data/api/today.json): everything on the dashboard right now
+- [history.json](${SITE}data/api/history.json): tracked items, breakouts and free model changes over time
+- [Open data docs](${SITE}data.html)
+`);
+  // Email preview: same Markdown subset as email.html's script, rendered here so the words are in the page.
+  try {
+    const md = fs.readFileSync(path.join(ROOT, "data", "digest.md"), "utf8");
+    const inl = t => { const links = []; t = t.replace(/\[((?:\\.|[^\]])*)\]\((https?:\/\/[^)\s]+)\)/g, (m, a, u) => { links.push([a, u]); return `\u0000${links.length - 1}\u0000`; });
+      t = esc(t).replace(/\*\*(.+?)\*\*/g, "<b>$1</b>"); t = t.replace(/\u0000(\d+)\u0000/g, (m, i) => `<a href="${esc(links[i][1])}" target="_blank" rel="noopener">${inl(links[i][0])}</a>`); return t.replace(/\\([\\`*_[\]<>])/g, "$1"); };
+    const lines = md.split("\n"), out = []; let list = null;
+    const close = () => { if (list) { out.push(`</${list}>`); list = null; } };
+    for (const line of lines.slice(1)) { let m;
+      if (!line.trim()) { close(); continue; }
+      if ((m = line.match(/^## (.*)/))) { close(); out.push(`<h2>${inl(m[1])}</h2>`); }
+      else if ((m = line.match(/^\d+\. (.*)/))) { if (list !== "ol") { close(); out.push("<ol>"); list = "ol"; } out.push(`<li>${inl(m[1])}</li>`); }
+      else if ((m = line.match(/^- (.*)/))) { if (list !== "ul") { close(); out.push("<ul>"); list = "ul"; } out.push(`<li>${inl(m[1])}</li>`); }
+      else { close(); out.push(`<p>${inl(line)}</p>`); } }
+    close();
+    const file = path.join(ROOT, "email.html"), html = fs.readFileSync(file, "utf8");
+    const subj = esc((lines[0] || "").replace(/^# /, "").replace(/\\(.)/g, "$1"));
+    const filled = html.replace('<span class="subj" id="subj">Loading…</span>', () => `<span class="subj" id="subj">${subj}</span>`)
+      .replace('<div class="mail-body" id="mail"><p class="loading">Loading the latest email…</p></div>', () => `<div class="mail-body" id="mail">${out.join("")}</div>`);
+    if (filled !== html) { fs.writeFileSync(file, filled); console.log("Filled email.html with today's email"); }
+  } catch (e) { console.error("Skipped filling email.html:", e.message); }
+}
+
 // Copies the dashboard's rendered sections into index.html so the first byte already holds today's content.
 // The page's script re-renders the same places from data/latest.json as soon as it loads.
 const PRERENDER_IDS = ["ticker", "dateline", "headline", "brief", "pulse", "pills", "boList", "hypeList", "risingList", "rcList", "modelGrid", "ghBody", "disc", "newToday", "newsList", "freeSub", "freeBody"];
@@ -314,6 +377,8 @@ ${urls.map(u => `  <url><loc>${u.loc}</loc><lastmod>${u.lastmod}</lastmod><chang
 </urlset>
 `);
   console.log(`Wrote sitemap.xml with ${urls.length} addresses`);
+  crawlerFiles(days, data, guides, latest);
+  console.log("Wrote robots.txt, feed.xml and llms.txt");
 
   // Which addresses are new since the live site, so the publish step can tell Bing and others (IndexNow).
   if (process.env.RUNNER_TEMP) {
