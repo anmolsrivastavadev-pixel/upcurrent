@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
+      url: ${{ steps.deploy.outputs.page_url || steps.deploy_retry.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
 
@@ -60,7 +60,16 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/latest.json data/api
-          git diff --cached --quiet || { git commit -m "Update data" && git push; }
+          git diff --cached --quiet && exit 0
+          git commit -m "Update data"
+          # Another commit can land on main while this run is fetching (a code push, or an
+          # overlapping run). Rebase onto it and retry instead of failing the whole publish.
+          for i in 1 2 3 4; do
+            git push && exit 0
+            sleep $((i * 5))
+            git pull --rebase -X theirs origin main || { git rebase --abort; echo "Could not save data this time; the next run will."; exit 0; }
+          done
+          exit 1
 
       - name: Build search-engine pages
         # Daily archive pages, sitemap.xml and a pre-filled index.html for the published copy only.
@@ -88,7 +97,18 @@ jobs:
         with:
           path: .
 
+      # GitHub sometimes says the just-uploaded site "isn't there yet" (No artifacts named
+      # github-pages). That's on GitHub's side, so wait a moment and try once more.
       - id: deploy
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+
+      - name: Wait before retrying the publish
+        if: steps.deploy.outcome == 'failure'
+        run: sleep 30
+
+      - id: deploy_retry
+        if: steps.deploy.outcome == 'failure'
         uses: actions/deploy-pages@v4
 
       - name: Tell search engines about new pages
