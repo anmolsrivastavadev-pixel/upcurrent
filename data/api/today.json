@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-21T11:44:22.220Z"
+  "updated": "2026-11-21T12:01:01.761Z"
  },
  "pulse": {
   "trending": 74,
   "accelerating": 2,
   "newModels": 12,
-  "discussions": 35,
-  "stars": 3014
+  "discussions": 34,
+  "stars": 3010
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 45,
    "desc": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
    "meta": [
-    "★ 1,912",
-    "+826 in 24h",
+    "★ 1,914",
+    "+816 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-19T14:43:10Z",
@@ -57,8 +57,8 @@
    "grow": null,
    "desc": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
    "meta": [
-    "★ 7,012",
-    "~1,408 in 24h",
+    "★ 7,019",
+    "~1,406 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-11-16T12:10:36Z",
@@ -74,8 +74,8 @@
    "grow": 20,
    "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
    "meta": [
-    "★ 1,502",
-    "+640 in 24h",
+    "★ 1,511",
+    "+644 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-19T10:00:43Z",
@@ -89,7 +89,7 @@
    "cat": "Infrastructure",
    "score": 93,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 384",
+   "desc": "Model on Hugging Face · open source · ♥ 396",
    "meta": [
     "238K downloads",
     "Released 23h ago"
@@ -121,7 +121,7 @@
    "cat": "Tools",
    "score": 88,
    "grow": 11,
-   "desc": "Model on Hugging Face · open source · ♥ 808",
+   "desc": "Model on Hugging Face · open source · ♥ 809",
    "meta": [
     "8.1K downloads",
     "Released 9 days ago"
@@ -137,7 +137,7 @@
    "cat": "Vision",
    "score": 88,
    "grow": 42,
-   "desc": "Vision on Hugging Face · open weights · ♥ 558",
+   "desc": "Vision on Hugging Face · open weights · ♥ 559",
    "meta": [
     "5.6K downloads",
     "Released 4 days ago"
@@ -180,31 +180,7 @@
    "breakout": null
   }
  ],
- "breakouts": [
-  {
-   "key": "gemini 4",
-   "label": "Gemini 4",
-   "n": 3,
-   "sources": [
-    {
-     "src": "DEV",
-     "t": "Agentic engineering a smart home energy system with Antigravity and Gemini 4",
-     "url": "https://dev.to/googleai/agentic-engineering-a-smart-home-energy-system-with-antigravity-and-gemini-4-53md"
-    },
-    {
-     "src": "Google DeepMind blog",
-     "t": "Introducing Gemini 4 Neon",
-     "url": "https://deepmind.google/blog/introducing-gemini-4-neon/"
-    },
-    {
-     "src": "BusinessLine",
-     "t": "Google Gemini 4 Neon launched: Features, pricing, benchmarks and availability explained",
-     "url": "https://www.thehindubusinessline.com/info-tech/google-gemini-4-neon-launched-features-pricing-benchmarks-and-availability-explained/article71724033.ece"
-    }
-   ],
-   "since": "2026-10-01T18:14:41.538Z"
-  }
- ],
+ "breakouts": [],
  "hype": [
   {
    "name": "Gemini 4",
@@ -223,14 +199,9 @@
      "src": "Google DeepMind blog",
      "t": "Introducing Gemini 4 Neon",
      "url": "https://deepmind.google/blog/introducing-gemini-4-neon/"
-    },
-    {
-     "src": "BusinessLine",
-     "t": "Google Gemini 4 Neon launched: Features, pricing, benchmarks and availability explained",
-     "url": "https://www.thehindubusinessline.com/info-tech/google-gemini-4-neon-launched-features-pricing-benchmarks-and-availability-explained/article71724033.ece"
     }
    ],
-   "buzz": 3,
+   "buzz": 2,
    "verdict": "Talk only, no public usage numbers"
   },
   {
@@ -271,8 +242,8 @@
    "name": "rust-anything",
    "url": "https://github.com/erkamyaman/rust-anything",
    "from": "GitHub",
-   "use": 1408,
-   "useLabel": "~1,408 stars/day",
+   "use": 1406,
+   "useLabel": "~1,406 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -386,8 +357,8 @@
  "github": [
   {
    "repo": "erkamyaman/rust-anything",
-   "stars": 7012,
-   "d24": 1408,
+   "stars": 7019,
+   "d24": 1406,
    "est": true,
    "forks": 555,
    "contrib": 20,
@@ -395,8 +366,8 @@
   },
   {
    "repo": "bookwjitchieni1986/blender-ai-mcp-addon",
-   "stars": 1912,
-   "d24": 826,
+   "stars": 1914,
+   "d24": 816,
    "est": false,
    "forks": 31,
    "contrib": null,
@@ -404,8 +375,8 @@
   },
   {
    "repo": "iamajmeena/neonclipping",
-   "stars": 1502,
-   "d24": 640,
+   "stars": 1511,
+   "d24": 644,
    "est": false,
    "forks": 74,
    "contrib": null,
@@ -413,8 +384,8 @@
   },
   {
    "repo": "sybil-solutions/inference-optimisation-skill",
-   "stars": 1408,
-   "d24": 140,
+   "stars": 1412,
+   "d24": 144,
    "est": false,
    "forks": 128,
    "contrib": null,
@@ -431,7 +402,7 @@
    "grow": 5741,
    "score": 95,
    "cat": "Vision",
-   "likes": 1180
+   "likes": 1197
   },
   {
    "name": "Inkling-2-Mini-GGUF",
@@ -442,7 +413,7 @@
    "grow": null,
    "score": 93,
    "cat": "Infrastructure",
-   "likes": 384
+   "likes": 396
   },
   {
    "name": "Qwen3.8-27B-pi-adapted",
@@ -466,7 +437,7 @@
    "grow": 11,
    "score": 88,
    "cat": "Tools",
-   "likes": 808
+   "likes": 809
   },
   {
    "name": "Hy4-flash",
@@ -477,7 +448,7 @@
    "grow": 42,
    "score": 88,
    "cat": "Vision",
-   "likes": 558
+   "likes": 559
   },
   {
    "name": "voice-isolator",
@@ -822,6 +793,13 @@
    "kind": "News"
   },
   {
+   "t": "AI sell-off batters Wall Street; S&P 500 enters correction, Nasdaq turns negative for year",
+   "url": "https://timesofindia.indiatimes.com/business/international-business/ai-sell-off-batters-wall-street-sp-500-enters-correction-nasdaq-turns-negative-for-year/articleshow/136041935.cms",
+   "at": "2026-11-20T23:59:00Z",
+   "src": "Times of India",
+   "kind": "News"
+  },
+  {
    "t": "Nasdaq 100 fell 5.6% on Friday, taking its loss for the week to 10.4%, its worst run in more than six years, amid fears of a slowdown in the AI investment boom",
    "url": "https://www.techmeme.com/261120/p42#a261120p42",
    "at": "2026-11-20T23:50:00.000Z",
@@ -869,13 +847,6 @@
    "at": "2026-11-20T23:17:06Z",
    "src": "EUROPE SAYS",
    "kind": "News"
-  },
-  {
-   "t": "AI-fueled cyberattacks drive claims surge at Japan insurers",
-   "url": "https://www.japantimes.co.jp/business/2026/11/21/ai-property-insurer-claims-surge/",
-   "at": "2026-11-20T23:14:21Z",
-   "src": "The Japan Times ",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -884,16 +855,16 @@
    "t": "Inkling 2 Mini",
    "url": "https://news.ycombinator.com/item?id=50581260",
    "link": "https://thinkingmachines.ai/news/inkling-2-mini/",
-   "up": 1049,
-   "com": 195,
+   "up": 1060,
+   "com": 198,
    "at": "2026-11-20T20:12:19.000Z"
   },
   {
    "src": "DEV",
    "t": "The Chairs Are Back. The Coffee Is On. ☕",
    "url": "https://dev.to/thethirdcup/the-chairs-are-back-the-coffee-is-on-243p",
-   "up": 25,
-   "com": 2,
+   "up": 30,
+   "com": 6,
    "at": "2026-11-21T11:24:29Z"
   },
   {
@@ -901,8 +872,8 @@
    "t": "Ask HN: I have been unemployed for 2y. 15 years of experience, US. What to do?",
    "url": "https://news.ycombinator.com/item?id=50583761",
    "link": "",
-   "up": 238,
-   "com": 188,
+   "up": 247,
+   "com": 196,
    "at": "2026-11-20T23:18:32.000Z"
   },
   {
@@ -919,18 +890,18 @@
    "t": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day",
    "url": "https://news.ycombinator.com/item?id=50574383",
    "link": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
-   "up": 331,
-   "com": 613,
+   "up": 336,
+   "com": 622,
    "at": "2026-11-20T13:29:59.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Google workers tell their employer not to punish schools that don't want AI",
-   "url": "https://news.ycombinator.com/item?id=50577901",
-   "link": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
-   "up": 276,
-   "com": 214,
-   "at": "2026-11-20T16:59:27.000Z"
+   "t": "Finite-time blow-up for the Navier–Stokes equations",
+   "url": "https://news.ycombinator.com/item?id=50576232",
+   "link": "https://github.com/tristanbuckmaster/navier-stokes/",
+   "up": 298,
+   "com": 92,
+   "at": "2026-11-20T15:34:31.000Z"
   }
  ]
 }
