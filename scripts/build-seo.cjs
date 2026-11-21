@@ -81,12 +81,12 @@ function page({ title, description, canonical, body, ld, ogType = "article", up 
 <style>${CSS}</style>
 ${ld.map(ldJson).join("\n")}
 </head><body>
-<header><div class="wrap"><a class="logo notranslate" translate="no" href="${up}">Upcurrent</a><span style="display:flex;gap:14px;align-items:center;flex-wrap:wrap"><span id="langPick"></span><a href="${up}free-ai-models/">Free models</a><a href="${up}daily/">Daily archive</a><a href="${up}">Live dashboard</a></span></div></header>
+<header><div class="wrap"><a class="logo notranslate" translate="no" href="${up}">Upcurrent</a><span style="display:flex;gap:14px;align-items:center;flex-wrap:wrap"><span id="langPick"></span><a href="${up}free-ai-models/">Free models</a><a href="${up}what-is/">Explained</a><a href="${up}daily/">Daily archive</a><a href="${up}">Live dashboard</a></span></div></header>
 <main class="wrap">
 ${body}
 <section class="cta"><h2>Get this in your inbox at 7am</h2><p>One free email each morning with the AI repos, models and stories that are picking up speed. Your own time zone, no spam.</p><p><a href="${up}#signup">Sign up on the dashboard</a></p></section>
 </main>
-<footer><div class="wrap">Upcurrent tracks what is rising in AI every 30 minutes, from GitHub, Hugging Face, arXiv, Hacker News, AI lab blogs, news sites and model providers. Numbers are as recorded at the time. <a href="${up}data.html">Open data (CC BY 4.0)</a> · ${GUIDES.map(g => `<a href="${up}${g.slug}/">${esc(g.short)}</a>`).join(" · ")}</div></footer>
+<footer><div class="wrap">Upcurrent tracks what is rising in AI every 30 minutes, from GitHub, Hugging Face, arXiv, Hacker News, AI lab blogs, news sites and model providers. Numbers are as recorded at the time. <a href="${up}data.html">Open data (CC BY 4.0)</a> · ${GUIDES.map(g => `<a href="${up}${g.slug}/">${esc(g.short)}</a>`).join(" · ")} · <a href="${up}what-is/">New AI projects explained</a></div></footer>
 <script src="${up}translate.js"></script>
 </body></html>
 `;
@@ -126,7 +126,7 @@ function dailyPage(day, d, prev, next) {
   </ul>
   <p style="font-size:14px;color:var(--muted);margin-top:12px">Last recorded ${esc(new Date(d.about?.updated || day).toUTCString().replace("GMT", "UTC"))}.</p>
 </section>
-${sec("rising", "Top movers", list(rising, r => `<li><span class="t">${link(r.url, (r.owner ? r.owner + "/" : "") + r.name)}</span><span class="m">${esc([r.cat, `momentum ${r.score}`, r.grow ? `up ${r.grow}% in a day` : null, ...(r.meta || [])].filter(Boolean).join(" · "))}</span>${r.desc ? `<span class="m">${esc(r.desc)}</span>` : ""}</li>`))}
+${sec("rising", "Top movers", list(rising, r => `<li><span class="t">${link(r.url, (r.owner ? r.owner + "/" : "") + r.name)}${EXPLAIN.has(r.url) ? ` · <a href="../what-is/${EXPLAIN.get(r.url)}/">What is it?</a>` : ""}</span><span class="m">${esc([r.cat, `momentum ${r.score}`, r.grow ? `up ${r.grow}% in a day` : null, ...(r.meta || [])].filter(Boolean).join(" · "))}</span>${r.desc ? `<span class="m">${esc(r.desc)}</span>` : ""}</li>`))}
 ${sec("breakouts", "Breaking out", list(bo, b => `<li><span class="t">${esc(b.label)}</span><span class="m">Named on ${b.n} sources: ${(b.sources || []).map(s => `${esc(s.src)}: ${link(s.url, s.t)}`).join("; ")}</span></li>`, "ul"))}
 ${sec("github", "Fastest-growing AI repos on GitHub", list(gh, g => `<li><span class="t">${link("https://github.com/" + g.repo, g.repo)}</span><span class="m"><span class="num">+${fmt(g.d24)}</span> stars in 24h${g.est ? " (estimated)" : ""} · <span class="num">${fmt(g.stars)}</span> stars · ${fmt(g.forks)} forks</span></li>`))}
 ${sec("models", "Trending models on Hugging Face", list(models, m => `<li><span class="t">${link(`https://huggingface.co/${m.org}/${m.name}`, `${m.org}/${m.name}`)}</span><span class="m">${esc([m.cat, m.lic, `${fmt(m.dl)} downloads`, m.likes != null ? `${fmt(m.likes)} likes` : null].filter(Boolean).join(" · "))}</span></li>`))}
@@ -285,6 +285,7 @@ ${items.join("\n")}
 ## Pages
 - [Live dashboard](${SITE}): today's fastest-rising AI repos, models, papers, threads and headlines
 ${GUIDES.filter(g => guides[g.slug]).map(g => `- [${g.title}](${SITE}${g.slug}/)`).join("\n")}
+- [New AI projects explained](${SITE}what-is/): one page per AI repo, model or paper that reached the top ${EXPLAIN_TOP} rising
 - [Daily archive](${SITE}daily/): one page per day since ${shortDate(days[0])}
 - [Today's email](${SITE}email.html): the morning digest
 
@@ -350,10 +351,130 @@ function prerender(src, dumped) {
   return out.replace("<html lang=\"en\">", "<html lang=\"en\" data-prerendered>");
 }
 
+
+// "What is X?" pages: one per project that reached the top 5 movers on any day. Built from the saved daily
+// files only, so every number is one Upcurrent recorded. New pages appear on their own as new things rise.
+const EXPLAIN_TOP = 5;
+const EXPLAIN = new Map(); // item url -> slug, filled before the daily pages are built so they can link here
+const KIND = { gh: ["an open-source AI project on GitHub", "GitHub project", "Code on GitHub"], hf: ["an AI model on Hugging Face", "Hugging Face model", "Model page on Hugging Face"], paper: ["an AI research paper", "Research paper", "Read the paper"] };
+const slugify = s => String(s).toLowerCase().normalize("NFKD").replace(/[^\w\s-]/g, "").replace(/[\s_]+/g, "-").replace(/-+/g, "-").replace(/^-|-$/g, "").slice(0, 70).replace(/-$/, "");
+const itemLabel = r => r.src === "paper" ? r.name : `${r.owner ? r.owner + "/" : ""}${r.name}`;
+const nOf = (meta, re) => { const m = (meta || []).find(x => re.test(x)); return m ? Number(m.replace(/[^\d]/g, "")) || null : null; };
+
+function collectExplainers(days, data) {
+  const items = new Map();
+  days.forEach(day => {
+    const d = data[day];
+    (d.rising || []).forEach((r, i) => {
+      if (!r.url || !KIND[r.src]) return;
+      let it = items.get(r.url);
+      if (!it && i >= EXPLAIN_TOP) return;
+      if (!it) items.set(r.url, it = { url: r.url, src: r.src, name: r.name, owner: r.owner, cat: r.cat, desc: r.desc, at: r.at, hist: [], top: 0 });
+      Object.assign(it, { cat: r.cat || it.cat, desc: r.desc || it.desc, at: r.at || it.at });
+      if (i < EXPLAIN_TOP) it.top++;
+      const g = r.src === "gh" ? (d.github || []).find(x => x.repo === `${r.owner}/${r.name}`) : null;
+      const m = r.src === "hf" ? (d.models || []).find(x => `${x.org}/${x.name}` === `${r.owner}/${r.name}`) : null;
+      if (m?.lic) it.lic = m.lic;
+      it.hist.push({ day, rank: i + 1, score: r.score,
+        stars: g?.stars ?? nOf(r.meta, /^★/), d24: g?.d24 ?? nOf(r.meta, /in 24h/), est: g ? g.est : (r.meta || []).some(x => /^~/.test(x)),
+        dl: m?.dl ?? nOf(r.meta, /downloads/), likes: m?.likes ?? null, up: nOf(r.meta, /upvotes/) });
+    });
+  });
+  const used = new Set();
+  for (const it of items.values()) {
+    let s = slugify(it.src === "paper" ? it.name : `${it.owner}-${it.name}`) || "item", base = s, n = 2;
+    while (used.has(s)) s = `${base}-${n++}`;
+    used.add(s); it.slug = s; EXPLAIN.set(it.url, s);
+  }
+  return [...items.values()];
+}
+
+function numbersLine(it, h) {
+  if (it.src === "gh") return [h.stars != null && `★ ${fmt(h.stars)} stars`, h.d24 != null && `${h.est ? "~" : "+"}${fmt(h.d24)} in 24h`].filter(Boolean).join(", ");
+  if (it.src === "hf") return [h.dl != null && `${fmt(h.dl)} downloads`, h.likes != null && `${fmt(h.likes)} likes`].filter(Boolean).join(", ");
+  return h.up != null ? `${fmt(h.up)} upvotes` : "";
+}
+
+function explainerPage(it, all) {
+  const url = `${SITE}what-is/${it.slug}/`;
+  const [kindLong, kindShort, tryLabel] = KIND[it.src];
+  const first = it.hist[0], last = it.hist[it.hist.length - 1];
+  const best = Math.min(...it.hist.map(h => h.rank));
+  const released = it.at ? shortDate(it.at.slice(0, 10)) : null;
+  const label = itemLabel(it);
+  const isHfDesc = it.src === "hf" || /^Model on Hugging Face/.test(it.desc || "");
+  const what = it.src === "paper"
+    ? `“${it.name}” is ${kindLong}${released ? `, published on ${released}` : ""}.`
+    : `${it.name} is ${kindLong}${it.owner ? ` from ${it.owner}` : ""}${it.cat ? `, in the ${it.cat} category` : ""}.${it.lic ? ` Its licence is listed as ${it.lic.toLowerCase()}.` : ""}`;
+  const summary = !isHfDesc && it.desc ? it.desc : "";
+  let growth = "";
+  if (it.hist.length > 1) {
+    if (it.src === "gh" && first.stars != null && last.stars != null && last.stars > first.stars) growth = `Between ${shortDate(first.day)} and ${shortDate(last.day)} it went from ${fmt(first.stars)} to ${fmt(last.stars)} GitHub stars, a gain of ${fmt(last.stars - first.stars)}.`;
+    else if (it.src === "hf" && first.dl != null && last.dl != null && last.dl > first.dl) growth = `Between ${shortDate(first.day)} and ${shortDate(last.day)} its recorded downloads went from ${fmt(first.dl)} to ${fmt(last.dl)}.`;
+  }
+  const latestNums = numbersLine(it, last);
+  const seen = `Upcurrent first spotted it among the fastest-rising AI projects on ${shortDate(first.day)}. It has appeared on ${it.hist.length} daily list${it.hist.length > 1 ? "s" : ""} so far, peaking at #${best}.`;
+  const title = it.src === "paper" ? `${clip(it.name, 60)}: what the paper is about | Upcurrent` : `What is ${it.name}? ${kindShort}${it.owner ? ` by ${it.owner}` : ""} | Upcurrent`;
+  const description = clip(`${what} ${summary ? summary + " " : ""}${latestNums ? `Latest: ${latestNums}.` : ""}`.replace(/\s+/g, " "), 160);
+  const related = all.filter(o => o !== it && o.cat && o.cat === it.cat).sort((a, b) => b.hist[b.hist.length - 1].day.localeCompare(a.hist[a.hist.length - 1].day)).slice(0, 6);
+  const qa = [
+    [it.src === "paper" ? `What is the paper “${clip(it.name, 80)}” about?` : `What is ${it.name}?`, `${what}${summary ? " " + summary : ""}`],
+    ...(it.owner && it.src !== "paper" ? [[`Who made ${it.name}?`, `${it.name} is published by ${it.owner} on ${it.src === "gh" ? "GitHub" : "Hugging Face"}.`]] : []),
+    ...(latestNums ? [[`How popular is ${it.src === "paper" ? "this paper" : it.name}?`, `On ${shortDate(last.day)} Upcurrent recorded ${latestNums}. ${growth}`.trim()]] : []),
+    ...(released && it.src !== "paper" ? [[`When was ${it.name} released?`, `${it.src === "gh" ? "The repository was created" : "The model was released"} on ${released}.`]] : [])
+  ];
+  const facts = [
+    ["Type", kindShort], it.owner && it.src !== "paper" && ["Made by", it.owner], it.cat && ["Category", it.cat],
+    released && [it.src === "gh" ? "Created" : it.src === "hf" ? "Released" : "Published", released],
+    ["First spotted", `<a href="../../daily/${first.day}.html">${esc(shortDate(first.day))}</a>`, true],
+    ["Best position", `#${best} of the day's top movers`], latestNums && ["Latest numbers", `${latestNums} (${shortDate(last.day)})`]
+  ].filter(Boolean);
+  const body = `<section>
+  <div class="eyebrow">${esc(kindShort)}${it.cat ? " · " + esc(it.cat) : ""}</div>
+  <h1>${it.src === "paper" ? esc(it.name) : `What is ${esc(it.name)}?`}</h1>
+  <p class="lede">${esc(what)}</p>
+  ${summary ? `<p>${it.src === "paper" ? "From the abstract" : "In its own words"}: “${esc(summary)}”</p>` : ""}
+  <p>${esc(seen)} ${esc(growth)}</p>
+  <p><a href="${esc(it.url)}" rel="noopener"><b>${esc(tryLabel)} →</b></a></p>
+</section>
+<section><h2>Quick facts</h2><ul class="rows">${facts.map(([k, v, raw]) => `<li><span class="m">${esc(k)}</span><span class="t">${raw ? v : esc(v)}</span></li>`).join("")}</ul></section>
+<section><h2>How it rose, day by day</h2><p>Recorded by Upcurrent at the end of each day (UTC). Rank is its place among that day's fastest-rising AI projects.</p>
+<ol class="rows">${[...it.hist].reverse().map(h => `<li><span class="t"><a href="../../daily/${h.day}.html">${esc(shortDate(h.day))}</a> · #${h.rank}</span><span class="m num">${esc([numbersLine(it, h), `momentum ${h.score}`].filter(Boolean).join(" · "))}</span></li>`).join("")}</ol></section>
+${related.length ? `<section><h2>Also rising in ${esc(it.cat)}</h2><ul class="rows">${related.map(o => `<li><span class="t"><a href="../${o.slug}/">${esc(itemLabel(o))}</a></span><span class="m">${esc(KIND[o.src][1])} · last on the list ${esc(shortDate(o.hist[o.hist.length - 1].day))}</span></li>`).join("")}</ul></section>` : ""}
+${faqHtml(qa)}
+<section class="share" aria-label="Share this page"><b>Share:</b> ${shareLinks(url, it.src === "paper" ? clip(it.name, 90) : `What is ${it.name}?`)}</section>
+<nav class="pager"><a href="../">All explained projects</a><a href="../../daily/">Daily archive</a></nav>`;
+  const thing = it.src === "gh" ? { "@type": "SoftwareSourceCode", name: it.name, codeRepository: it.url, author: { "@type": "Person", name: it.owner }, description: summary || what }
+    : it.src === "hf" ? { "@type": "SoftwareApplication", name: it.name, applicationCategory: "AI model", url: it.url, author: { "@type": "Organization", name: it.owner } }
+    : { "@type": "ScholarlyArticle", headline: clip(it.name, 110), url: it.url, abstract: summary || undefined };
+  const ld = [
+    { "@context": "https://schema.org", "@type": "Article", headline: clip(it.src === "paper" ? it.name : `What is ${it.name}?`, 110), description, url, mainEntityOfPage: url, about: thing,
+      datePublished: `${first.day}T00:00:00Z`, dateModified: `${last.day}T23:59:59Z`, image: SITE + "og.png", inLanguage: "en",
+      author: { "@type": "Organization", name: "Upcurrent", url: SITE }, publisher: { "@type": "Organization", name: "Upcurrent", url: SITE, logo: { "@type": "ImageObject", url: SITE + "icon-512.png" } } },
+    faq(qa),
+    breadcrumb([["Upcurrent", SITE], ["Explained", SITE + "what-is/"], [clip(label, 60), url]])
+  ];
+  return page({ title, description, canonical: url, body, ld, up: "../../" });
+}
+
+function explainerIndex(items) {
+  const url = SITE + "what-is/";
+  const sorted = [...items].sort((a, b) => b.hist[0].day.localeCompare(a.hist[0].day) || a.hist[0].rank - b.hist[0].rank);
+  const body = `<section><div class="eyebrow">Explained</div><h1>New AI projects, explained</h1>
+<p class="lede">Every AI repo, model and paper that reached Upcurrent's top ${EXPLAIN_TOP} fastest-rising list, with what it is, who made it and how fast it grew. A new page appears as soon as something new rises.</p></section>
+<section><ol class="rows">${sorted.map(o => `<li><span class="t"><a href="${o.slug}/">${esc(itemLabel(o))}</a></span><span class="m">${esc([KIND[o.src][1], o.cat, `first spotted ${shortDate(o.hist[0].day)}`].filter(Boolean).join(" · "))}</span></li>`).join("")}</ol></section>`;
+  const ld = [
+    { "@context": "https://schema.org", "@type": "CollectionPage", name: "New AI projects, explained", url, hasPart: sorted.slice(0, 100).map(o => ({ "@type": "Article", headline: o.src === "paper" ? clip(o.name, 110) : `What is ${o.name}?`, url: `${url}${o.slug}/` })) },
+    breadcrumb([["Upcurrent", SITE], ["Explained", url]])
+  ];
+  return page({ title: "New AI projects explained: what they are and how fast they grew | Upcurrent", description: "Plain explanations of the newest AI repos, models and papers that are rising fast, with real growth numbers recorded by Upcurrent.", canonical: url, body, ld, ogType: "website" });
+}
+
 (async () => {
   const args = process.argv.slice(2);
   const days = fs.readdirSync(DAILY_JSON).filter(f => /^\d{4}-\d{2}-\d{2}\.json$/.test(f)).map(f => f.slice(0, 10)).sort();
   const data = Object.fromEntries(days.map(d => [d, JSON.parse(fs.readFileSync(path.join(DAILY_JSON, d + ".json"), "utf8"))]));
+  const explained = collectExplainers(days, data);
   fs.mkdirSync(DAILY_OUT, { recursive: true });
   days.forEach((day, i) => fs.writeFileSync(path.join(DAILY_OUT, day + ".html"), dailyPage(day, data[day], days[i - 1], days[i + 1])));
   fs.writeFileSync(path.join(DAILY_OUT, "index.html"), archivePage(days, data));
@@ -361,12 +482,19 @@ function prerender(src, dumped) {
   const guides = days.length ? guidePages(days, data) : {};
   for (const [slug, html] of Object.entries(guides)) { fs.mkdirSync(path.join(ROOT, slug), { recursive: true }); fs.writeFileSync(path.join(ROOT, slug, "index.html"), html); }
   console.log(`Wrote ${Object.keys(guides).length} guide pages`);
+  const EXPLAIN_OUT = path.join(ROOT, "what-is");
+  fs.rmSync(EXPLAIN_OUT, { recursive: true, force: true });
+  for (const it of explained) { fs.mkdirSync(path.join(EXPLAIN_OUT, it.slug), { recursive: true }); fs.writeFileSync(path.join(EXPLAIN_OUT, it.slug, "index.html"), explainerPage(it, explained)); }
+  if (explained.length) fs.writeFileSync(path.join(EXPLAIN_OUT, "index.html"), explainerIndex(explained));
+  console.log(`Wrote ${explained.length} explainer pages`);
 
   const latest = days.length ? data[days[days.length - 1]].about?.updated : new Date().toISOString();
   const urls = [
     { loc: SITE, lastmod: latest, changefreq: "hourly", priority: "1.0" },
     { loc: SITE + "daily/", lastmod: latest, changefreq: "daily", priority: "0.8" },
     ...Object.keys(guides).map(slug => ({ loc: `${SITE}${slug}/`, lastmod: latest, changefreq: "hourly", priority: "0.9" })),
+    ...(explained.length ? [{ loc: SITE + "what-is/", lastmod: latest, changefreq: "daily", priority: "0.8" }] : []),
+    ...explained.map(it => ({ loc: `${SITE}what-is/${it.slug}/`, lastmod: data[it.hist[it.hist.length - 1].day].about?.updated || latest, changefreq: "daily", priority: "0.7" })),
     { loc: SITE + "email.html", lastmod: latest, changefreq: "daily", priority: "0.6" },
     { loc: SITE + "data.html", lastmod: latest, changefreq: "weekly", priority: "0.6" },
     ...days.map(day => ({ loc: `${SITE}daily/${day}.html`, lastmod: data[day].about?.updated || day, changefreq: day === days[days.length - 1] ? "hourly" : "monthly", priority: "0.7" }))
