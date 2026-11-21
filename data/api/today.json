@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-21T02:01:07.806Z"
+  "updated": "2026-11-21T02:30:55.727Z"
  },
  "pulse": {
-  "trending": 73,
+  "trending": 74,
   "accelerating": 1,
-  "newModels": 10,
-  "discussions": 37,
-  "stars": 3236
+  "newModels": 9,
+  "discussions": 38,
+  "stars": 3881
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 36,
    "desc": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
    "meta": [
-    "★ 1,795",
-    "+1,523 in 24h",
+    "★ 1,798",
+    "+1,437 in 24h",
     "Created yesterday"
    ],
    "at": "2026-11-19T14:43:10Z",
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 94,
-   "grow": 12,
+   "grow": 13,
    "desc": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
    "meta": [
-    "★ 6,682",
-    "+1,258 in 24h",
+    "★ 6,699",
+    "+1,243 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-11-16T12:10:36Z",
@@ -56,7 +56,7 @@
    "cat": "Infrastructure",
    "score": 94,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 217",
+   "desc": "Model on Hugging Face · open source · ♥ 226",
    "meta": [
     "0 downloads",
     "Released 13h ago"
@@ -66,13 +66,30 @@
    "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF"
   },
   {
+   "name": "neonclipping",
+   "owner": "iamajmeena",
+   "src": "gh",
+   "cat": "Vision",
+   "score": 93,
+   "grow": null,
+   "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
+   "meta": [
+    "★ 1,256",
+    "~744 in 24h",
+    "Created 2 days ago"
+   ],
+   "at": "2026-11-19T10:00:43Z",
+   "breakout": null,
+   "url": "https://github.com/iamajmeena/neonclipping"
+  },
+  {
    "name": "Qwen3.8-27B-pi-adapted",
    "owner": "harness-hub",
    "src": "hf",
    "cat": "Agents",
    "score": 93,
    "grow": 42,
-   "desc": "Model on Hugging Face · open source · ♥ 865",
+   "desc": "Model on Hugging Face · open source · ♥ 866",
    "meta": [
     "1.9K downloads",
     "Released 5 days ago"
@@ -88,7 +105,7 @@
    "cat": "Vision",
    "score": 92,
    "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 691",
+   "desc": "Vision on Hugging Face · open source · ♥ 715",
    "meta": [
     "136 downloads",
     "Released 4 days ago"
@@ -120,7 +137,7 @@
    "cat": "Vision",
    "score": 89,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 549",
+   "desc": "Vision on Hugging Face · open weights · ♥ 550",
    "meta": [
     "3.9K downloads",
     "Released 4 days ago"
@@ -144,23 +161,6 @@
    "at": "2026-11-17T10:16:41.000Z",
    "breakout": null,
    "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B"
-  },
-  {
-   "name": "inference-optimisation-skill",
-   "owner": "sybil-solutions",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 85,
-   "grow": null,
-   "desc": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
-   "meta": [
-    "★ 1,340",
-    "~311 in 24h",
-    "Created 4 days ago"
-   ],
-   "at": "2026-11-16T18:40:04Z",
-   "breakout": null,
-   "url": "https://github.com/sybil-solutions/inference-optimisation-skill"
   },
   {
    "name": "AltRA-Test: An Alternative Annotator Test for LLM Judges Without Shared Annotators",
@@ -265,8 +265,8 @@
    "name": "blender-ai-mcp-addon",
    "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
    "from": "GitHub",
-   "use": 1523,
-   "useLabel": "+1,523 stars/day",
+   "use": 1437,
+   "useLabel": "+1,437 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -380,39 +380,48 @@
  "github": [
   {
    "repo": "bookwjitchieni1986/blender-ai-mcp-addon",
-   "stars": 1795,
-   "d24": 1523,
+   "stars": 1798,
+   "d24": 1437,
    "est": false,
-   "forks": 12,
+   "forks": 13,
    "contrib": null,
    "score": 97
   },
   {
    "repo": "erkamyaman/rust-anything",
-   "stars": 6682,
-   "d24": 1258,
+   "stars": 6699,
+   "d24": 1243,
    "est": false,
-   "forks": 526,
+   "forks": 531,
    "contrib": 16,
    "score": 94
   },
   {
+   "repo": "iamajmeena/neonclipping",
+   "stars": 1256,
+   "d24": 744,
+   "est": true,
+   "forks": 59,
+   "contrib": null,
+   "score": 93
+  },
+  {
    "repo": "sybil-solutions/inference-optimisation-skill",
-   "stars": 1340,
+   "stars": 1345,
    "d24": 311,
    "est": true,
    "forks": 122,
    "contrib": null,
-   "score": 85
+   "score": 84
   },
   {
    "repo": "haziqahmedqasmi/PeakCut",
-   "stars": 1544,
-   "d24": 144,
+   "stars": 1548,
+   "d24": 146,
    "est": false,
    "forks": 497,
    "contrib": null,
-   "score": 74
+   "score": 73
   }
  ],
  "models": [
@@ -425,7 +434,7 @@
    "grow": null,
    "score": 94,
    "cat": "Infrastructure",
-   "likes": 217
+   "likes": 226
   },
   {
    "name": "Qwen3.8-27B-pi-adapted",
@@ -437,7 +446,7 @@
    "grow": 42,
    "score": 93,
    "cat": "Agents",
-   "likes": 865
+   "likes": 866
   },
   {
    "name": "Inkling-2-Mini",
@@ -448,7 +457,7 @@
    "grow": null,
    "score": 92,
    "cat": "Vision",
-   "likes": 691
+   "likes": 715
   },
   {
    "name": "Haru-4B",
@@ -460,7 +469,7 @@
    "grow": null,
    "score": 90,
    "cat": "Tools",
-   "likes": 5556
+   "likes": 5627
   },
   {
    "name": "Hy4-flash",
@@ -471,7 +480,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Vision",
-   "likes": 549
+   "likes": 550
   },
   {
    "name": "SenseNova-Loop-9B",
@@ -850,6 +859,13 @@
    "kind": "News"
   },
   {
+   "t": "AI News: This Is The Make or Break Week!!",
+   "url": "https://www.youtube.com/watch?v=wqNIzUmNt9M",
+   "at": "2026-11-20T19:00:16Z",
+   "src": "Matt Wolfe",
+   "kind": "Video"
+  },
+  {
    "t": "MATHPOCALYPSE: Riemann Hypothesis \"solved\" by Claude AI and Anthropic mathematician",
    "url": "https://www.youtube.com/watch?v=bKJo5-BY-QY",
    "at": "2026-11-20T17:10:54Z",
@@ -864,24 +880,17 @@
    "kind": "Video"
   },
   {
-   "t": "Bank of Italy Official Urges AI Taxes to Levy Profits, Not Tech",
-   "url": "https://news.bloombergtax.com/daily-tax-report/bank-of-italy-official-urges-ai-taxes-to-levy-profits-not-tech",
-   "at": "2026-11-20T13:45:55Z",
-   "src": "Bloomberg Tax News",
+   "t": "Donald Trump urged senators to back an energy bill he said would lower electricity costs; the US Senate has now passed it 62-33, requiring large AI data centres to pay more of their grid-upgrade costs",
+   "url": "https://timesofindia.indiatimes.com/world/us/donald-trump-urged-senators-to-back-an-energy-bill-he-said-would-lower-electricity-costs-the-us-senate-has-now-passed-it-62-33-requiring-large-ai-data-centres-to-pay-more-of-their-grid-upgrade-costs/articleshow/136024090.cms",
+   "at": "2026-11-20T14:28:00Z",
+   "src": "Times of India",
    "kind": "News"
   },
   {
-   "t": "Tech stocks pull US markets lower early after Anthropic's debut",
-   "url": "https://www.bostonherald.com/2026/11/20/tech-stocks-us-markets/",
-   "at": "2026-11-20T13:32:15Z",
-   "src": "The Boston Herald",
-   "kind": "News"
-  },
-  {
-   "t": "America’s nuclear renaissance",
-   "url": "https://www.washingtonpost.com/ripple/2026/11/20/americas-nuclear-renaissance/",
-   "at": "2026-11-20T13:30:45Z",
-   "src": "The Washington Post",
+   "t": "With AI blamed for mass layoffs, here's how we can ensure workers get a fairer deal",
+   "url": "https://phys.org/news/2026-11-ai-blamed-mass-layoffs-workers.html",
+   "at": "2026-11-20T14:20:20Z",
+   "src": "Phys.org",
    "kind": "News"
   }
  ],
@@ -891,8 +900,8 @@
    "t": "Inkling 2 Mini",
    "url": "https://news.ycombinator.com/item?id=50581260",
    "link": "https://thinkingmachines.ai/news/inkling-2-mini/",
-   "up": 688,
-   "com": 111,
+   "up": 709,
+   "com": 117,
    "at": "2026-11-20T20:12:19.000Z"
   },
   {
@@ -909,8 +918,8 @@
    "t": "Restricting AI agents in mobile operating systems platforms from capturing data",
    "url": "https://news.ycombinator.com/item?id=50572348",
    "link": "https://signal.org/blog/protecting-your-privacy/",
-   "up": 511,
-   "com": 305,
+   "up": 512,
+   "com": 306,
    "at": "2026-11-20T09:42:16.000Z"
   },
   {
@@ -918,8 +927,8 @@
    "t": "Google workers tell their employer not to punish schools that don't want AI",
    "url": "https://news.ycombinator.com/item?id=50577901",
    "link": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
-   "up": 266,
-   "com": 196,
+   "up": 267,
+   "com": 198,
    "at": "2026-11-20T16:59:27.000Z"
   },
   {
@@ -936,8 +945,8 @@
    "t": "If you stop writing code, you also get worse at reviewing it",
    "url": "https://news.ycombinator.com/item?id=50573886",
    "link": "https://cekrem.github.io/posts/if-you-stop-writing-code-you-also-get-worse-at-reviewing-it/",
-   "up": 324,
-   "com": 159,
+   "up": 326,
+   "com": 160,
    "at": "2026-11-20T12:41:38.000Z"
   }
  ]
