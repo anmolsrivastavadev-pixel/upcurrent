@@ -4,7 +4,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const SITE = "https://anmolsrivastavadev-pixel.github.io/upcurrent/";
+const SITE = "https://upcurrent.dev/";
 const KEY = "32e13645f4000d6a81557a7f4db5e0b0";
 
 (async () => {

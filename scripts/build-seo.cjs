@@ -11,7 +11,7 @@ const fs = require("fs");
 const path = require("path");
 
 const ROOT = path.join(__dirname, "..");
-const SITE = "https://anmolsrivastavadev-pixel.github.io/upcurrent/";
+const SITE = "https://upcurrent.dev/";
 const DAILY_JSON = path.join(ROOT, "data", "api", "daily");
 const DAILY_OUT = path.join(ROOT, "daily");
 

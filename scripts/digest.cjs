@@ -4,7 +4,7 @@ const fs = require("fs");
 const path = require("path");
 const { build, comma } = require("../core.js");
 
-const SITE = "https://anmolsrivastavadev-pixel.github.io/upcurrent/";
+const SITE = "https://upcurrent.dev/";
 const root = path.join(__dirname, "..");
 const data = JSON.parse(fs.readFileSync(path.join(root, "data/latest.json"), "utf8"));
 const empty = { rising: [], activity: {}, discussions: [], freeCounts: { zen: 0, or: 0 }, free: [], pulse: {}, github: [], brief: [], models: [], newToday: [] };
