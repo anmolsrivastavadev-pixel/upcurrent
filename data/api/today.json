@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-21T17:01:07.744Z"
+  "updated": "2026-11-21T17:30:54.241Z"
  },
  "pulse": {
   "trending": 74,
   "accelerating": 1,
-  "newModels": 12,
-  "discussions": 27,
-  "stars": 2773
+  "newModels": 13,
+  "discussions": 26,
+  "stars": 2769
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
    "meta": [
-    "★ 2,039",
-    "~973 in 24h",
+    "★ 2,067",
+    "~977 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-19T14:43:10Z",
@@ -39,7 +39,7 @@
    "cat": "Infrastructure",
    "score": 95,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 487",
+   "desc": "Model on Hugging Face · open source · ♥ 498",
    "meta": [
     "238K downloads",
     "Released yesterday"
@@ -54,11 +54,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 94,
-   "grow": 4,
+   "grow": 5,
    "desc": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
    "meta": [
-    "★ 7,214",
-    "+864 in 24h",
+    "★ 7,229",
+    "+856 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-11-16T12:10:36Z",
@@ -72,7 +72,7 @@
    "cat": "Agents",
    "score": 94,
    "grow": 27,
-   "desc": "Model on Hugging Face · open source · ♥ 834",
+   "desc": "Model on Hugging Face · open source · ♥ 889",
    "meta": [
     "2.4K downloads",
     "Released 5 days ago"
@@ -87,11 +87,11 @@
    "src": "gh",
    "cat": "Vision",
    "score": 93,
-   "grow": 31,
+   "grow": 32,
    "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
    "meta": [
-    "★ 1,645",
-    "+644 in 24h",
+    "★ 1,659",
+    "+645 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-19T10:00:43Z",
@@ -137,7 +137,7 @@
    "cat": "Vision",
    "score": 86,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 462",
+   "desc": "Vision on Hugging Face · open weights · ♥ 464",
    "meta": [
     "0 downloads",
     "Released 5 days ago"
@@ -153,7 +153,7 @@
    "cat": "Tools",
    "score": 85,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 470",
+   "desc": "Model on Hugging Face · open source · ♥ 472",
    "meta": [
     "0 downloads",
     "Released 8 days ago"
@@ -241,8 +241,8 @@
    "name": "blender-ai-mcp-addon",
    "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
    "from": "GitHub",
-   "use": 973,
-   "useLabel": "~973 stars/day",
+   "use": 977,
+   "useLabel": "~977 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -356,8 +356,8 @@
  "github": [
   {
    "repo": "bookwjitchieni1986/blender-ai-mcp-addon",
-   "stars": 2039,
-   "d24": 973,
+   "stars": 2067,
+   "d24": 977,
    "est": true,
    "forks": 31,
    "contrib": null,
@@ -365,17 +365,17 @@
   },
   {
    "repo": "erkamyaman/rust-anything",
-   "stars": 7214,
-   "d24": 864,
+   "stars": 7229,
+   "d24": 856,
    "est": false,
-   "forks": 577,
+   "forks": 578,
    "contrib": 21,
    "score": 94
   },
   {
    "repo": "iamajmeena/neonclipping",
-   "stars": 1645,
-   "d24": 644,
+   "stars": 1659,
+   "d24": 645,
    "est": false,
    "forks": 80,
    "contrib": null,
@@ -383,10 +383,10 @@
   },
   {
    "repo": "sybil-solutions/inference-optimisation-skill",
-   "stars": 1439,
-   "d24": 292,
+   "stars": 1441,
+   "d24": 291,
    "est": true,
-   "forks": 132,
+   "forks": 134,
    "contrib": null,
    "score": 82
   }
@@ -401,7 +401,7 @@
    "grow": null,
    "score": 95,
    "cat": "Infrastructure",
-   "likes": 487
+   "likes": 498
   },
   {
    "name": "Qwen3.8-27B-pi-adapted",
@@ -413,7 +413,7 @@
    "grow": 27,
    "score": 94,
    "cat": "Agents",
-   "likes": 834
+   "likes": 889
   },
   {
    "name": "Inkling-2-Mini",
@@ -424,7 +424,7 @@
    "grow": null,
    "score": 93,
    "cat": "Vision",
-   "likes": 1652
+   "likes": 1683
   },
   {
    "name": "Hy4-flash",
@@ -446,7 +446,7 @@
    "grow": null,
    "score": 86,
    "cat": "Vision",
-   "likes": 462
+   "likes": 464
   },
   {
    "name": "voice-isolator",
@@ -457,7 +457,7 @@
    "grow": null,
    "score": 85,
    "cat": "Tools",
-   "likes": 470
+   "likes": 472
   }
  ],
  "free": [
@@ -798,6 +798,13 @@
    "kind": "News"
   },
   {
+   "t": "Anthropic worker claims to have solved a Holy Grail of math problems with the help of AI",
+   "url": "https://www.greaterkashmir.com/world/anthropic-worker-claims-to-have-solved-a-holy-grail-of-math-problems-with-the-help-of-ai-12828407",
+   "at": "2026-11-21T05:23:45Z",
+   "src": "Greater Kashmir",
+   "kind": "News"
+  },
+  {
    "t": "Ubisoft launches Motherbrain, a subsidiary focused on developing \"smart NPCs with memory and AI game masters that manage large-scale systemic worlds\"",
    "url": "https://www.techmeme.com/261121/p1#a261121p1",
    "at": "2026-11-21T05:15:00.000Z",
@@ -805,10 +812,10 @@
    "kind": "News"
   },
   {
-   "t": "Anthropic worker claims to have solved a Holy Grail of math problems with the help of AI",
-   "url": "https://www.breitbart.com/news/anthropic-worker-claims-to-have-solved-a-holy-grail-of-math-problems-with-the-help-of-ai/",
-   "at": "2026-11-21T05:00:38Z",
-   "src": "Breitbart News Network",
+   "t": "After NEET-UG leak, NTA turns to AI, 5,000 reviewers for exam reforms",
+   "url": "https://indianexpress.com/article/education/nta-exam-reforms-after-neet-ug-paper-leak-10972454/",
+   "at": "2026-11-21T05:08:24Z",
+   "src": "The Indian Express",
    "kind": "News"
   },
   {
@@ -833,17 +840,10 @@
    "kind": "News"
   },
   {
-   "t": "Databricks in early talks to raise funds at $225 billion valuation: WSJ",
-   "url": "https://economictimes.indiatimes.com/tech/startups/databricks-in-early-talks-to-raise-funds-at-225-billion-valuation-wsj/articleshow/136044631.cms",
-   "at": "2026-11-21T04:17:31Z",
-   "src": "The Economic Times",
-   "kind": "News"
-  },
-  {
-   "t": "In 2018, she joined OpenAI and left in 2020 to start Anthropic in 2021; five years later, she’s a billionaire after Anthropic’s historic IPO: Daniela Amodei’s journey from an English Literature Gradua",
-   "url": "https://timesofindia.indiatimes.com/life-style/people/in-2018-she-joined-openai-and-left-in-2020-to-start-anthropic-in-2021-five-years-later-shes-a-billionaire-after-anthropics-historic-ipo-daniela-amodeis-journey-from-an-english-literature-graduate-to-worlds-15th-richest-woman/articleshow/136043796.cms",
-   "at": "2026-11-21T04:07:00Z",
-   "src": "Times of India",
+   "t": "Oracle says it has secured funding for its infrastructure contract with OpenAI and \"any further private discussions with vendors are just additional options\"",
+   "url": "https://www.techmeme.com/261120/p43#a261120p43",
+   "at": "2026-11-21T00:25:00.000Z",
+   "src": "Techmeme",
    "kind": "News"
   }
  ],
@@ -853,8 +853,8 @@
    "t": "Lean Verification of the Riemann Hypothesis - Joint statement by...",
    "url": "https://news.ycombinator.com/item?id=50589618",
    "link": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
-   "up": 286,
-   "com": 207,
+   "up": 352,
+   "com": 259,
    "at": "2026-11-21T14:36:45.000Z"
   },
   {
@@ -862,25 +862,17 @@
    "t": "Inkling 2 Mini",
    "url": "https://news.ycombinator.com/item?id=50581260",
    "link": "https://thinkingmachines.ai/news/inkling-2-mini/",
-   "up": 1207,
-   "com": 234,
+   "up": 1231,
+   "com": 238,
    "at": "2026-11-20T20:12:19.000Z"
-  },
-  {
-   "src": "Mastodon",
-   "t": "Tech conferences post the rise of LLMs have really transformed into emotional support groups. It’s a group of people who are both arguing in favor of their r…",
-   "url": "https://c.im/@matdevdug/117655224970521704",
-   "up": 27,
-   "com": 4,
-   "at": "2026-11-21T15:50:59.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Ask HN: I have been unemployed for 2y. 15 years of experience, US. What to do?",
    "url": "https://news.ycombinator.com/item?id=50583761",
    "link": "",
-   "up": 406,
-   "com": 433,
+   "up": 427,
+   "com": 460,
    "at": "2026-11-20T23:18:32.000Z"
   },
   {
@@ -888,9 +880,17 @@
    "t": "Show HN: Zero C#, Power of C# without any GC",
    "url": "https://news.ycombinator.com/item?id=50590279",
    "link": "https://onurgumus.github.io/zero-csharp/index.html",
-   "up": 28,
-   "com": 19,
+   "up": 42,
+   "com": 30,
    "at": "2026-11-21T15:39:09.000Z"
+  },
+  {
+   "src": "Mastodon",
+   "t": "Tech conferences post the rise of LLMs have really transformed into emotional support groups. It’s a group of people who are both arguing in favor of their r…",
+   "url": "https://c.im/@matdevdug/117655224970521704",
+   "up": 32,
+   "com": 4,
+   "at": "2026-11-21T15:50:59.000Z"
   },
   {
    "src": "DEV",
