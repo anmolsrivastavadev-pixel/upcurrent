@@ -318,7 +318,7 @@ ${GUIDES.filter(g => guides[g.slug]).map(g => `- [${g.title}](${SITE}${g.slug}/)
 
 // Copies the dashboard's rendered sections into index.html so the first byte already holds today's content.
 // The page's script re-renders the same places from data/latest.json as soon as it loads.
-const PRERENDER_IDS = ["ticker", "dateline", "headline", "brief", "pulse", "pills", "boList", "hypeList", "risingList", "rcList", "modelGrid", "ghBody", "disc", "newToday", "newsList", "freeSub", "freeBody"];
+const PRERENDER_IDS = ["ticker", "demoTabs", "demoWin", "dateline", "headline", "brief", "pulse", "pills", "boList", "hypeList", "risingList", "rcList", "modelGrid", "ghBody", "disc", "newToday", "newsList", "freeSub", "freeBody"];
 function innerById(html, id) {
   const open = new RegExp(`<([a-zA-Z][\\w-]*)\\b[^>]*\\bid="${id}"[^>]*>`).exec(html);
   if (!open) return null;

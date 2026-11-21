@@ -348,6 +348,33 @@ footer .about { flex-basis: 100%; margin: 6px 0 0; max-width: 80ch; line-height:
 iframe.skiptranslate, .goog-te-banner-frame, #goog-gt-tt, .goog-te-balloon-frame, .VIpgJd-ZVi9od-ORHb-OEVmcd, .VIpgJd-ZVi9od-aZ2wEe-wOHMyf { display: none !important; }
 body { top: 0 !important; }
 font[style] { background: none !important; box-shadow: none !important; }
+/* how it works: three steps beside a small live window of real data */
+.demo { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); gap: 28px; align-items: start; }
+.steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
+.steps li { display: grid; grid-template-columns: 44px minmax(0, 1fr); gap: 16px; padding: 20px 22px; background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius-lg); }
+.steps .k { width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center; background: var(--chip); color: var(--hot-text); font: 700 18px/1 var(--font-display); }
+.steps h3 { margin: 2px 0 6px; font: 700 18px/1.25 var(--font-display); }
+.steps p { margin: 0; color: var(--muted); font-size: 15px; }
+.win { background: var(--paper); border: 1px solid var(--line); border-radius: 18px; overflow: hidden; box-shadow: 0 18px 50px -24px rgba(15, 24, 41, .35); }
+.win-bar { display: flex; align-items: center; gap: 7px; padding: 12px 16px; border-bottom: 1px solid var(--line); font: 500 13px var(--font-mono); color: var(--muted); }
+.win-bar i { width: 11px; height: 11px; border-radius: 50%; background: var(--hot); opacity: .75; } .win-bar i:nth-child(2) { background: var(--warm); } .win-bar i:nth-child(3) { background: var(--up); }
+.win-bar span { margin-left: 8px; }
+.win-body { display: grid; grid-template-columns: 150px minmax(0, 1fr); min-height: 380px; }
+.win-tabs { border-right: 1px solid var(--line); padding: 10px; display: grid; align-content: start; gap: 4px; }
+.win-tabs button { all: unset; cursor: pointer; padding: 9px 12px; min-height: var(--target); box-sizing: border-box; display: flex; align-items: center; border-radius: var(--radius-md); font-size: 14px; color: var(--muted); }
+.win-tabs button[aria-selected="true"] { background: var(--chip); color: var(--ink); font-weight: 600; }
+.win-tabs button:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
+.win-main { padding: 14px; display: grid; gap: 10px; align-content: start; min-width: 0; }
+.win-hit { padding: 14px 16px; border: 1px solid color-mix(in srgb, var(--hot) 45%, var(--line)); background: color-mix(in srgb, var(--hot) 8%, var(--paper)); border-radius: 12px; display: flex; justify-content: space-between; gap: 12px; align-items: start; }
+.win-hit .l { font: 600 11px var(--font-mono); letter-spacing: .12em; color: var(--hot-text); text-transform: uppercase; }
+.win-hit b { display: block; font: 700 18px/1.25 var(--font-display); margin-top: 4px; overflow-wrap: anywhere; }
+.win-hit .pill { flex: none; padding: 4px 10px; border-radius: 999px; border: 1px solid color-mix(in srgb, var(--hot) 45%, var(--line)); font-size: 13px; color: var(--hot-text); white-space: nowrap; }
+.win-ev { padding: 12px 14px; border: 1px solid var(--line); border-radius: 12px; min-width: 0; }
+.win-ev q { display: block; font-size: 14.5px; overflow-wrap: anywhere; }
+.win-ev a { font-size: 12.5px; font-weight: 600; color: var(--hot-text); text-decoration: none; }
+.win-chips { display: flex; flex-wrap: wrap; gap: 6px; } .win-chips span { padding: 4px 10px; border: 1px solid var(--line); border-radius: 999px; font-size: 13px; color: var(--muted); }
+@media (max-width: 860px) { .demo { grid-template-columns: minmax(0, 1fr); } }
+@media (max-width: 520px) { .win-body { grid-template-columns: minmax(0, 1fr); } .win-tabs { border-right: 0; border-bottom: 1px solid var(--line); grid-auto-flow: column; overflow-x: auto; } .win-tabs button { white-space: nowrap; } }
 </style>
 </head><body>
 
@@ -428,6 +455,24 @@ font[style] { background: none !important; box-shadow: none !important; }
       <summary>How the momentum score works</summary>
       <p>Each item gets a 0–100 score. It is ranked against other items from the same source by attention per day (GitHub stars, Hugging Face trending score, paper upvotes), then gets a small boost if it is less than nine days old. The colour runs from cool blue to hot red with the score. Growth % appears once the page has seen an item on an earlier visit.</p>
     </details>
+  </section>
+
+  <section class="block" id="how">
+    <div class="sec-head"><div><div class="eyebrow">How it works</div><h2>All of AI's momentum, in one place</h2></div></div>
+    <div class="demo">
+      <ol class="steps">
+        <li><span class="k">1</span><div><h3>Upcurrent checks 17 sources</h3><p>Every 30 minutes it reads GitHub, Hugging Face, arXiv, Hacker News, AI lab blogs, news sites and model providers, so you don't have to.</p></div></li>
+        <li><span class="k">2</span><div><h3>It ranks what's picking up speed</h3><p>Each repo, model and paper gets a momentum score from how fast it's growing against everything else that day, with a link back to the original page.</p></div></li>
+        <li><span class="k">3</span><div><h3>You see it in one place, or by email</h3><p>Open the dashboard any time, or get the top movers at 7am in your own time zone. Free, no account.</p></div></li>
+      </ol>
+      <div class="win" aria-label="Example: what Upcurrent found in the latest check">
+        <div class="win-bar" aria-hidden="true"><i></i><i></i><i></i><span>upcurrent.dev</span></div>
+        <div class="win-body">
+          <div class="win-tabs" role="tablist" id="demoTabs"></div>
+          <div class="win-main" role="tabpanel" id="demoWin"></div>
+        </div>
+      </div>
+    </div>
   </section>
 
   <section class="block" id="breakouts">
@@ -738,8 +783,37 @@ function sinceBaseline(D) {
 const isNew = k => !!(SINCE && SINCE.seen && !SINCE.seen.has(k));
 const NEW = k => isNew(k) ? `<span class="new-tag">NEW</span>` : "";
 
+/* ---------- how it works: a small window of real data from the latest check ---------- */
+let demoTab = 0;
+function demoTabs(D) {
+  const short = s => s.length > 70 ? s.slice(0, 69).trimEnd() + "…" : s;
+  return [
+    ["Top mover", () => { const [r, ...rest] = D.rising; return r && { label: "Rising fastest", title: r.name, pill: `score ${r.score}`,
+      ev: rest.slice(0, 3).map(x => ({ q: `${x.name}: ${(x.meta || []).slice(0, 2).join(", ")}`, src: { gh: "GitHub", hf: "Hugging Face", paper: "Paper", ph: "Product Hunt" }[x.src] || "Source",
+        url: x.url || (x.src === "gh" ? `https://github.com/${x.owner}/${x.name}` : x.src === "hf" ? `https://huggingface.co/${x.owner}/${x.name}` : ""), v: "view" })) }; }],
+    ["GitHub", () => { const [g, ...rest] = D.github; return g && { label: "Most stars today", title: g.repo.split("/")[1], pill: `+${fmt(g.d24)} stars`,
+      ev: rest.slice(0, 3).map(x => ({ q: `${x.repo.split("/")[1]}: +${fmt(x.d24)} stars in 24h`, src: "GitHub", url: "https://github.com/" + x.repo, v: "view repo" })) }; }],
+    ["Hugging Face", () => { const [m, ...rest] = D.models; return m && { label: "Trending model", title: m.name, pill: `${fmt(m.dl)} downloads`,
+      ev: rest.slice(0, 3).map(x => ({ q: `${x.name}: ${fmt(x.dl)} downloads`, src: "Hugging Face", url: `https://huggingface.co/${x.org}/${x.name}`, v: "view model" })) }; }],
+    ["Headlines", () => { const [h, ...rest] = D.headlines || []; return h && { label: "Latest headline", title: short(h.t), pill: h.src,
+      ev: rest.slice(0, 3).map(x => ({ q: short(x.t), src: x.src, url: x.url, v: "read" })) }; }]
+  ];
+}
+function renderDemo(D) {
+  const tabs = demoTabs(D);
+  $("demoTabs").innerHTML = tabs.map(([n], i) => `<button type="button" role="tab" aria-selected="${i === demoTab}" data-i="${i}">${n}</button>`).join("");
+  const v = tabs[demoTab][1]();
+  const cats = [...new Set(D.rising.slice(0, 10).map(r => r.cat).filter(Boolean))].slice(0, 3);
+  $("demoWin").innerHTML = v ? `<div class="win-hit"><div><div class="l">${esc(v.label)}</div><b>${esc(v.title)}</b></div><span class="pill">${esc(String(v.pill))}</span></div>
+    ${v.ev.map(e => `<div class="win-ev"><q>${esc(e.q)}</q>${e.url ? `<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.src)} · ${e.v} ↗</a>` : `<span>${esc(e.src)}</span>`}</div>`).join("")}
+    ${cats.length ? `<div class="win-chips">${cats.map(c => `<span>${esc(c)}</span>`).join("")}</div>` : ""}` : `<div class="empty">Loading the latest check…</div>`;
+}
+$("demoTabs").addEventListener("click", e => { const b = e.target.closest("button[data-i]"); if (!b) return; demoTab = +b.dataset.i; renderDemo(DATA); });
+$("demoTabs").addEventListener("keydown", e => { if (!/Arrow(Up|Down|Left|Right)/.test(e.key)) return; e.preventDefault(); const n = demoTabs(DATA).length; demoTab = (demoTab + (/Down|Right/.test(e.key) ? 1 : n - 1)) % n; renderDemo(DATA); $("demoTabs").querySelector(`[data-i="${demoTab}"]`).focus(); });
+
 function render() {
   const D = DATA;
+  try { renderDemo(D); } catch (e) { console.warn("demo", e); }
   sinceBaseline(D);
   const sb = $("sinceBar");
   if (SINCE && SINCE.seen) {
