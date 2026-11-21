@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-21T20:30:54.883Z"
+  "updated": "2026-11-21T21:01:02.779Z"
  },
  "pulse": {
   "trending": 73,
   "accelerating": 1,
   "newModels": 10,
-  "discussions": 30,
-  "stars": 2687
+  "discussions": 32,
+  "stars": 2675
  },
  "rising": [
   {
@@ -22,7 +22,7 @@
    "cat": "Infrastructure",
    "score": 96,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 560",
+   "desc": "Model on Hugging Face · open source · ♥ 568",
    "meta": [
     "238K downloads",
     "Released yesterday"
@@ -40,8 +40,8 @@
    "grow": 6,
    "desc": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
    "meta": [
-    "★ 7,313",
-    "+810 in 24h",
+    "★ 7,326",
+    "+803 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-11-16T12:10:36Z",
@@ -57,8 +57,8 @@
    "grow": null,
    "desc": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
    "meta": [
-    "★ 2,199",
-    "~981 in 24h",
+    "★ 2,225",
+    "~983 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-19T14:43:10Z",
@@ -72,13 +72,13 @@
    "cat": "Vision",
    "score": 94,
    "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 2.2K",
+   "desc": "Vision on Hugging Face · open source · ♥ 2.3K",
    "meta": [
     "7.9K downloads",
     "Released 5 days ago"
    ],
    "at": "2026-11-17T00:26:57.000Z",
-   "breakout": 3,
+   "breakout": null,
    "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini"
   },
   {
@@ -87,11 +87,11 @@
    "src": "gh",
    "cat": "Vision",
    "score": 93,
-   "grow": 36,
+   "grow": 37,
    "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
    "meta": [
-    "★ 1,712",
-    "+608 in 24h",
+    "★ 1,715",
+    "+595 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-19T10:00:43Z",
@@ -105,7 +105,7 @@
    "cat": "Vision",
    "score": 91,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 531",
+   "desc": "Vision on Hugging Face · open weights · ♥ 532",
    "meta": [
     "5.6K downloads",
     "Released 5 days ago"
@@ -181,52 +181,30 @@
  ],
  "breakouts": [
   {
-   "key": "inkling-2-mini",
-   "label": "Inkling-2-Mini",
+   "key": "gemini 4",
+   "label": "Gemini 4",
    "n": 3,
    "sources": [
     {
-     "src": "Hugging Face",
-     "t": "thinkingmachines/Inkling-2-Mini",
-     "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini"
+     "src": "DEV",
+     "t": "Agentic engineering a smart home energy system with Antigravity and Gemini 4",
+     "url": "https://dev.to/googleai/agentic-engineering-a-smart-home-energy-system-with-antigravity-and-gemini-4-53md"
     },
     {
-     "src": "Hacker News",
-     "t": "Inkling-2-Mini in 5.4 GB Memory",
-     "url": "https://news.ycombinator.com/item?id=50591853"
+     "src": "Google DeepMind blog",
+     "t": "Introducing Gemini 4 Neon",
+     "url": "https://deepmind.google/blog/introducing-gemini-4-neon/"
     },
     {
-     "src": "Thinkingmachines.ai",
-     "t": "Inkling 2 Mini",
-     "url": "https://thinkingmachines.ai/news/inkling-2-mini/"
+     "src": "NewsBytes",
+     "t": "Google unveils Gemini 4 Neon for coding, reasoning, enterprise workflows",
+     "url": "https://www.newsbytesapp.com/news/science/google-unveils-gemini-4-neon-for-coding-reasoning-enterprise-workflows/tldr"
     }
    ],
-   "since": "2026-11-21T20:30:54.883Z"
+   "since": "2026-10-01T18:14:41.538Z"
   }
  ],
  "hype": [
-  {
-   "name": "Inkling-2-Mini",
-   "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
-   "from": "Hugging Face",
-   "use": 7944,
-   "useLabel": "7.9K downloads",
-   "usePct": 0.5357142857142857,
-   "talk": [
-    {
-     "src": "Hacker News",
-     "t": "Inkling-2-Mini in 5.4 GB Memory",
-     "url": "https://news.ycombinator.com/item?id=50591853"
-    },
-    {
-     "src": "Thinkingmachines.ai",
-     "t": "Inkling 2 Mini",
-     "url": "https://thinkingmachines.ai/news/inkling-2-mini/"
-    }
-   ],
-   "buzz": 2,
-   "verdict": "The hype matches real use"
-  },
   {
    "name": "Gemini 4",
    "url": null,
@@ -244,17 +222,39 @@
      "src": "Google DeepMind blog",
      "t": "Introducing Gemini 4 Neon",
      "url": "https://deepmind.google/blog/introducing-gemini-4-neon/"
+    },
+    {
+     "src": "NewsBytes",
+     "t": "Google unveils Gemini 4 Neon for coding, reasoning, enterprise workflows",
+     "url": "https://www.newsbytesapp.com/news/science/google-unveils-gemini-4-neon-for-coding-reasoning-enterprise-workflows/tldr"
     }
    ],
-   "buzz": 2,
+   "buzz": 3,
    "verdict": "Talk only, no public usage numbers"
+  },
+  {
+   "name": "Inkling-2-Mini",
+   "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+   "from": "Hugging Face",
+   "use": 7944,
+   "useLabel": "7.9K downloads",
+   "usePct": 0.5357142857142857,
+   "talk": [
+    {
+     "src": "Hacker News",
+     "t": "Inkling-2-Mini in 5.4 GB Memory",
+     "url": "https://news.ycombinator.com/item?id=50591853"
+    }
+   ],
+   "buzz": 1,
+   "verdict": "The hype matches real use"
   },
   {
    "name": "blender-ai-mcp-addon",
    "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
    "from": "GitHub",
-   "use": 981,
-   "useLabel": "~981 stars/day",
+   "use": 983,
+   "useLabel": "~983 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -368,8 +368,8 @@
  "github": [
   {
    "repo": "bookwjitchieni1986/blender-ai-mcp-addon",
-   "stars": 2199,
-   "d24": 981,
+   "stars": 2225,
+   "d24": 983,
    "est": true,
    "forks": 32,
    "contrib": null,
@@ -377,8 +377,8 @@
   },
   {
    "repo": "erkamyaman/rust-anything",
-   "stars": 7313,
-   "d24": 810,
+   "stars": 7326,
+   "d24": 803,
    "est": false,
    "forks": 585,
    "contrib": 22,
@@ -386,8 +386,8 @@
   },
   {
    "repo": "iamajmeena/neonclipping",
-   "stars": 1712,
-   "d24": 608,
+   "stars": 1715,
+   "d24": 595,
    "est": false,
    "forks": 84,
    "contrib": null,
@@ -395,10 +395,10 @@
   },
   {
    "repo": "sybil-solutions/inference-optimisation-skill",
-   "stars": 1463,
-   "d24": 288,
+   "stars": 1500,
+   "d24": 294,
    "est": true,
-   "forks": 135,
+   "forks": 137,
    "contrib": null,
    "score": 82
   }
@@ -413,7 +413,7 @@
    "grow": null,
    "score": 96,
    "cat": "Infrastructure",
-   "likes": 560
+   "likes": 568
   },
   {
    "name": "Inkling-2-Mini",
@@ -424,7 +424,7 @@
    "grow": null,
    "score": 94,
    "cat": "Vision",
-   "likes": 2194
+   "likes": 2258
   },
   {
    "name": "Hy4-flash",
@@ -435,7 +435,7 @@
    "grow": null,
    "score": 91,
    "cat": "Vision",
-   "likes": 531
+   "likes": 532
   },
   {
    "name": "FastFrames-L",
@@ -803,6 +803,20 @@
    "kind": "News"
   },
   {
+   "t": "Google unveils Gemini 4 Neon for coding, reasoning, enterprise workflows",
+   "url": "https://www.newsbytesapp.com/news/science/google-unveils-gemini-4-neon-for-coding-reasoning-enterprise-workflows/tldr",
+   "at": "2026-11-21T08:48:58Z",
+   "src": "NewsBytes",
+   "kind": "News"
+  },
+  {
+   "t": "IITF 2026 introduces Playverse@Mandapam, blends gaming, AI and Indian cultural heritage",
+   "url": "https://www.devdiscourse.com/article/entertainment/4010251-iitf-2026-introduces-playversemandapam-blends-gaming-ai-and-indian-cultural-heritage",
+   "at": "2026-11-21T08:40:37Z",
+   "src": "Devdiscourse",
+   "kind": "News"
+  },
+  {
    "t": "Meesho invests $100,000 in AI subsidiary Meesho Networks LLC",
    "url": "https://scanx.trade/stock-market-news/companies/meesho-invests-100-000-ai-subsidiary-meesho-networks-llc/56795218",
    "at": "2026-11-21T08:27:07Z",
@@ -843,20 +857,6 @@
    "at": "2026-11-21T06:30:00.000Z",
    "src": "Techmeme",
    "kind": "News"
-  },
-  {
-   "t": "Year Low as AI Stock Worries Shake Risk Assets",
-   "url": "https://www.cnbctv18.com/market/cryptocurrency/bitcoin-falls-to-its-lowest-in-two-years-20039030.htm",
-   "at": "2026-11-21T06:29:23Z",
-   "src": "CNBC TV18",
-   "kind": "News"
-  },
-  {
-   "t": "Bitcoin falls to its lowest in two years",
-   "url": "https://www.thestar.com.my/tech/tech-news/2026/11/21/bitcoin-falls-to-its-lowest-in-two-years",
-   "at": "2026-11-21T06:12:00Z",
-   "src": "The Star",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -865,8 +865,8 @@
    "t": "Lean verification of the Riemann Hypothesis",
    "url": "https://news.ycombinator.com/item?id=50589618",
    "link": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
-   "up": 598,
-   "com": 457,
+   "up": 630,
+   "com": 491,
    "at": "2026-11-21T14:36:45.000Z"
   },
   {
@@ -874,8 +874,8 @@
    "t": "Inkling-2-Mini in 5.4 GB Memory",
    "url": "https://news.ycombinator.com/item?id=50591853",
    "link": "https://github.com/ShinMegamiBoson/lookatmyquant",
-   "up": 199,
-   "com": 36,
+   "up": 230,
+   "com": 44,
    "at": "2026-11-21T18:02:19.000Z"
   },
   {
@@ -883,8 +883,8 @@
    "t": "Ask HN: I have been unemployed for 2y. 15 years of experience, US. What to do?",
    "url": "https://news.ycombinator.com/item?id=50583761",
    "link": "",
-   "up": 517,
-   "com": 582,
+   "up": 532,
+   "com": 597,
    "at": "2026-11-20T23:18:32.000Z"
   },
   {
@@ -892,8 +892,8 @@
    "t": "PostgreSQL Extensions in Go",
    "url": "https://news.ycombinator.com/item?id=50591260",
    "link": "https://jespino.github.io/gopgext/",
-   "up": 72,
-   "com": 5,
+   "up": 82,
+   "com": 7,
    "at": "2026-11-21T17:08:04.000Z"
   },
   {
@@ -901,8 +901,8 @@
    "t": "Show HN: Zero C# – C# without a runtime or GC",
    "url": "https://news.ycombinator.com/item?id=50590279",
    "link": "https://onurgumus.github.io/zero-csharp/index.html",
-   "up": 81,
-   "com": 57,
+   "up": 91,
+   "com": 66,
    "at": "2026-11-21T15:39:09.000Z"
   },
   {
@@ -910,8 +910,8 @@
    "t": "Upload2Shell · CVE-2026-125396",
    "url": "https://news.ycombinator.com/item?id=50592097",
    "link": "https://pwn.ai/upload2shell",
-   "up": 23,
-   "com": 7,
+   "up": 30,
+   "com": 10,
    "at": "2026-11-21T18:29:29.000Z"
   }
  ]
