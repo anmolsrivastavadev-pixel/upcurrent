@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-21T05:01:03.257Z"
+  "updated": "2026-11-21T05:30:51.383Z"
  },
  "pulse": {
   "trending": 74,
   "accelerating": 1,
   "newModels": 9,
-  "discussions": 39,
-  "stars": 3340
+  "discussions": 41,
+  "stars": 3296
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 39,
    "desc": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
    "meta": [
-    "★ 1,830",
-    "+1,168 in 24h",
+    "★ 1,835",
+    "+1,126 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-19T14:43:10Z",
@@ -39,7 +39,7 @@
    "cat": "Vision",
    "score": 95,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open source · ♥ 835",
+   "desc": "Vision on Hugging Face · open source · ♥ 855",
    "meta": [
     "136 downloads",
     "Released 4 days ago"
@@ -57,29 +57,13 @@
    "grow": 14,
    "desc": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
    "meta": [
-    "★ 6,784",
-    "+1,180 in 24h",
+    "★ 6,804",
+    "+1,174 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-11-16T12:10:36Z",
    "breakout": null,
    "url": "https://github.com/erkamyaman/rust-anything"
-  },
-  {
-   "name": "Inkling-2-Mini-GGUF",
-   "owner": "unsloth",
-   "src": "hf",
-   "cat": "Infrastructure",
-   "score": 94,
-   "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 267",
-   "meta": [
-    "0 downloads",
-    "Released 16h ago"
-   ],
-   "at": "2026-11-20T13:09:48.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF"
   },
   {
    "name": "neonclipping",
@@ -90,13 +74,29 @@
    "grow": null,
    "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
    "meta": [
-    "★ 1,292",
-    "~721 in 24h",
+    "★ 1,310",
+    "~723 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-19T10:00:43Z",
    "breakout": null,
    "url": "https://github.com/iamajmeena/neonclipping"
+  },
+  {
+   "name": "Inkling-2-Mini-GGUF",
+   "owner": "unsloth",
+   "src": "hf",
+   "cat": "Infrastructure",
+   "score": 93,
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 277",
+   "meta": [
+    "0 downloads",
+    "Released 16h ago"
+   ],
+   "at": "2026-11-20T13:09:48.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF"
   },
   {
    "name": "Qwen3.8-27B-pi-adapted",
@@ -105,7 +105,7 @@
    "cat": "Agents",
    "score": 91,
    "grow": 42,
-   "desc": "Model on Hugging Face · open source · ♥ 869",
+   "desc": "Model on Hugging Face · open source · ♥ 871",
    "meta": [
     "1.9K downloads",
     "Released 5 days ago"
@@ -135,9 +135,9 @@
    "owner": "tencent",
    "src": "hf",
    "cat": "Vision",
-   "score": 89,
+   "score": 88,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 553",
+   "desc": "Vision on Hugging Face · open weights · ♥ 554",
    "meta": [
     "3.9K downloads",
     "Released 4 days ago"
@@ -153,7 +153,7 @@
    "cat": "Vision",
    "score": 87,
    "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 451",
+   "desc": "Vision on Hugging Face · open source · ♥ 452",
    "meta": [
     "1.6K downloads",
     "Released 4 days ago"
@@ -265,8 +265,8 @@
    "name": "rust-anything",
    "url": "https://github.com/erkamyaman/rust-anything",
    "from": "GitHub",
-   "use": 1180,
-   "useLabel": "+1,180 stars/day",
+   "use": 1174,
+   "useLabel": "+1,174 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -380,17 +380,17 @@
  "github": [
   {
    "repo": "erkamyaman/rust-anything",
-   "stars": 6784,
-   "d24": 1180,
+   "stars": 6804,
+   "d24": 1174,
    "est": false,
-   "forks": 536,
+   "forks": 537,
    "contrib": 16,
    "score": 94
   },
   {
    "repo": "bookwjitchieni1986/blender-ai-mcp-addon",
-   "stars": 1830,
-   "d24": 1168,
+   "stars": 1835,
+   "d24": 1126,
    "est": false,
    "forks": 19,
    "contrib": null,
@@ -398,8 +398,8 @@
   },
   {
    "repo": "iamajmeena/neonclipping",
-   "stars": 1292,
-   "d24": 721,
+   "stars": 1310,
+   "d24": 723,
    "est": true,
    "forks": 63,
    "contrib": null,
@@ -407,8 +407,8 @@
   },
   {
    "repo": "haziqahmedqasmi/PeakCut",
-   "stars": 1558,
-   "d24": 138,
+   "stars": 1560,
+   "d24": 137,
    "est": false,
    "forks": 499,
    "contrib": null,
@@ -416,12 +416,12 @@
   },
   {
    "repo": "sybil-solutions/inference-optimisation-skill",
-   "stars": 1366,
-   "d24": 133,
+   "stars": 1370,
+   "d24": 136,
    "est": false,
-   "forks": 123,
+   "forks": 124,
    "contrib": null,
-   "score": 84
+   "score": 83
   }
  ],
  "models": [
@@ -434,7 +434,7 @@
    "grow": 0,
    "score": 95,
    "cat": "Vision",
-   "likes": 835
+   "likes": 855
   },
   {
    "name": "Inkling-2-Mini-GGUF",
@@ -443,9 +443,9 @@
    "at": "2026-11-20T13:09:48.000Z",
    "dl": 0,
    "grow": null,
-   "score": 94,
+   "score": 93,
    "cat": "Infrastructure",
-   "likes": 267
+   "likes": 277
   },
   {
    "name": "Qwen3.8-27B-pi-adapted",
@@ -457,7 +457,7 @@
    "grow": 42,
    "score": 91,
    "cat": "Agents",
-   "likes": 869
+   "likes": 871
   },
   {
    "name": "Haru-4B",
@@ -478,9 +478,9 @@
    "at": "2026-11-17T03:44:46.000Z",
    "dl": 3949,
    "grow": 0,
-   "score": 89,
+   "score": 88,
    "cat": "Vision",
-   "likes": 553
+   "likes": 554
   },
   {
    "name": "SenseNova-Loop-9B",
@@ -492,7 +492,7 @@
    "grow": null,
    "score": 87,
    "cat": "Vision",
-   "likes": 451
+   "likes": 452
   }
  ],
  "free": [
@@ -770,6 +770,13 @@
  },
  "headlines": [
   {
+   "t": "Ubisoft launches Motherbrain, a subsidiary focused on developing \"smart NPCs with memory and AI game masters that manage large-scale systemic worlds\"",
+   "url": "https://www.techmeme.com/261121/p1#a261121p1",
+   "at": "2026-11-21T05:15:00.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Oracle says it has secured funding for its infrastructure contract with OpenAI and \"any further private discussions with vendors are just additional options\"",
    "url": "https://www.techmeme.com/261120/p43#a261120p43",
    "at": "2026-11-21T00:25:00.000Z",
@@ -826,13 +833,6 @@
    "kind": "News"
   },
   {
-   "t": "Sources: the US SEC is probing Nvidia's accounting practices; last year, Nvidia changed how it reports revenue, removing Singapore from geographical breakdowns",
-   "url": "https://www.techmeme.com/261120/p31#a261120p31",
-   "at": "2026-11-20T20:25:00.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Forget rogue robots, it’s tech billionaires and AI cricket that should really terrify us | Barney Ronay",
    "url": "https://www.theguardian.com/sport/2026/nov/20/cricket-rogue-robots-tech-billionaires-artificial-intelligence",
    "at": "2026-11-20T19:00:36Z",
@@ -840,11 +840,25 @@
    "kind": "News"
   },
   {
-   "t": "AI News: This Is The Make or Break Week!!",
-   "url": "https://www.youtube.com/watch?v=wqNIzUmNt9M",
-   "at": "2026-11-20T19:00:16Z",
-   "src": "Matt Wolfe",
-   "kind": "Video"
+   "t": "GAO Report: AI Chatbots Gave Detailed Terror Attack Plans",
+   "url": "https://www.naturalnews.com/2026-11-20-report-ai-chatbots-detailed-terror-attack-plans.html",
+   "at": "2026-11-20T17:30:47Z",
+   "src": "Natural News",
+   "kind": "News"
+  },
+  {
+   "t": "China-ASEAN Legal Forum Launches Secretariat and AI Research Alliance in Chongqing",
+   "url": "https://www.manilatimes.net/2026/11/21/tmt-newswire/pr-newswire/china-asean-legal-forum-launches-secretariat-and-ai-research-alliance-in-chongqing/2475232",
+   "at": "2026-11-20T17:16:56Z",
+   "src": "The Manila Times",
+   "kind": "News"
+  },
+  {
+   "t": "Anthropic's IPO caps an explosive growth period for the AI startup, filled with contradictions",
+   "url": "https://www.latimes.com/business/story/2026-11-20/anthropics-ipo-caps-explosive-growth-period-for-ai-startup-filled-with-contradictions",
+   "at": "2026-11-20T17:15:58Z",
+   "src": "Los Angeles Times",
+   "kind": "News"
   },
   {
    "t": "MATHPOCALYPSE: Riemann Hypothesis \"solved\" by Claude AI and Anthropic mathematician",
@@ -854,30 +868,16 @@
    "kind": "Video"
   },
   {
-   "t": "AI just solved the ‘real’ Navier-Stokes problem",
-   "url": "https://www.scientificamerican.com/article/ai-just-solved-the-real-navier-stokes-problem/",
-   "at": "2026-11-20T17:00:00Z",
-   "src": "Scientific American",
+   "t": "Fed officials sound alarm over AI boom's growing inflation risks",
+   "url": "https://wjla.com/news/nation-world/fed-officials-sound-alarm-over-ai-booms-growing-inflation-risks-interest-rates-federal-reserve-data-centers-computer-chips-economy",
+   "at": "2026-11-20T17:07:00Z",
+   "src": "WJLA",
    "kind": "News"
   },
   {
-   "t": "Trump, Xi agreed that military AI decisions should involve humans, Bessent says",
-   "url": "https://www.moneycontrol.com/world/trump-xi-agreed-that-military-ai-decisions-should-involve-humans-bessent-says-article-14085889.html",
-   "at": "2026-11-20T16:59:25Z",
-   "src": "Moneycontrol",
-   "kind": "News"
-  },
-  {
-   "t": "Trump, Xi Agree AI Should Not Be Allowed to Decide on Major Military Actions - Bessent",
-   "url": "https://sputnikglobe.com/20261120/trump-xi-agree-ai-should-not-be-allowed-to-decide-on-major-military-actions---bessent-1125124278.html",
-   "at": "2026-11-20T16:45:00Z",
-   "src": "Sputnik News",
-   "kind": "News"
-  },
-  {
-   "t": "Bitcoin price crashes to $59,000 for first time since July as AI stock rout sparks crypto selloff",
-   "url": "https://techstartups.com/2026/11/20/bitcoin-price-crashes-to-59000-for-first-time-since-july-as-ai-stock-rout-sparks-crypto-selloff/",
-   "at": "2026-11-20T16:42:55Z",
+   "t": "Anthropic stock plunges more than 11% just one day after record",
+   "url": "https://techstartups.com/2026/11/20/anthropic-stock-plunges-more-than-11-just-one-day-after-record-breaking-ipo-as-ai-selloff-deepens/",
+   "at": "2026-11-20T17:02:29Z",
    "src": "TechStartups.com",
    "kind": "News"
   }
@@ -888,8 +888,8 @@
    "t": "Inkling 2 Mini",
    "url": "https://news.ycombinator.com/item?id=50581260",
    "link": "https://thinkingmachines.ai/news/inkling-2-mini/",
-   "up": 829,
-   "com": 143,
+   "up": 843,
+   "com": 149,
    "at": "2026-11-20T20:12:19.000Z"
   },
   {
@@ -897,7 +897,7 @@
    "t": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
    "url": "https://news.ycombinator.com/item?id=50572503",
    "link": "https://architectlabs.com/blog/frostbite",
-   "up": 635,
+   "up": 637,
    "com": 332,
    "at": "2026-11-20T10:01:41.000Z"
   },
@@ -906,8 +906,8 @@
    "t": "Restricting AI agents in mobile operating systems platforms from capturing data",
    "url": "https://news.ycombinator.com/item?id=50572348",
    "link": "https://signal.org/blog/protecting-your-privacy/",
-   "up": 533,
-   "com": 311,
+   "up": 536,
+   "com": 317,
    "at": "2026-11-20T09:42:16.000Z"
   },
   {
@@ -924,8 +924,8 @@
    "t": "If you stop writing code, you also get worse at reviewing it",
    "url": "https://news.ycombinator.com/item?id=50573886",
    "link": "https://cekrem.github.io/posts/if-you-stop-writing-code-you-also-get-worse-at-reviewing-it/",
-   "up": 331,
-   "com": 161,
+   "up": 334,
+   "com": 162,
    "at": "2026-11-20T12:41:38.000Z"
   },
   {
@@ -933,7 +933,7 @@
    "t": "Finite-time blow-up for the Navier–Stokes equations",
    "url": "https://news.ycombinator.com/item?id=50576232",
    "link": "https://github.com/tristanbuckmaster/navier-stokes/",
-   "up": 269,
+   "up": 270,
    "com": 86,
    "at": "2026-11-20T15:34:31.000Z"
   }
