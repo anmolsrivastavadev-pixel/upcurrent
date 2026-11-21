@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-21T17:55:42.691Z"
+  "updated": "2026-11-21T18:01:03.128Z"
  },
  "pulse": {
   "trending": 74,
   "accelerating": 1,
   "newModels": 12,
   "discussions": 29,
-  "stars": 2766
+  "stars": 2769
  },
  "rising": [
   {
@@ -40,7 +40,7 @@
    "grow": null,
    "desc": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
    "meta": [
-    "★ 2,088",
+    "★ 2,092",
     "~979 in 24h",
     "Created 2 days ago"
    ],
@@ -57,8 +57,8 @@
    "grow": 5,
    "desc": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
    "meta": [
-    "★ 7,243",
-    "+854 in 24h",
+    "★ 7,248",
+    "+859 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-11-16T12:10:36Z",
@@ -72,7 +72,7 @@
    "cat": "Vision",
    "score": 94,
    "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 1.7K",
+   "desc": "Vision on Hugging Face · open source · ♥ 1.8K",
    "meta": [
     "7.9K downloads",
     "Released 5 days ago"
@@ -90,8 +90,8 @@
    "grow": 33,
    "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
    "meta": [
-    "★ 1,669",
-    "+643 in 24h",
+    "★ 1,670",
+    "+641 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-19T10:00:43Z",
@@ -137,7 +137,7 @@
    "cat": "Tools",
    "score": 87,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 473",
+   "desc": "Model on Hugging Face · open source · ♥ 474",
    "meta": [
     "0 downloads",
     "Released 8 days ago"
@@ -356,7 +356,7 @@
  "github": [
   {
    "repo": "bookwjitchieni1986/blender-ai-mcp-addon",
-   "stars": 2088,
+   "stars": 2092,
    "d24": 979,
    "est": true,
    "forks": 31,
@@ -365,8 +365,8 @@
   },
   {
    "repo": "erkamyaman/rust-anything",
-   "stars": 7243,
-   "d24": 854,
+   "stars": 7248,
+   "d24": 859,
    "est": false,
    "forks": 582,
    "contrib": 21,
@@ -374,8 +374,8 @@
   },
   {
    "repo": "iamajmeena/neonclipping",
-   "stars": 1669,
-   "d24": 643,
+   "stars": 1670,
+   "d24": 641,
    "est": false,
    "forks": 81,
    "contrib": null,
@@ -412,7 +412,7 @@
    "grow": null,
    "score": 94,
    "cat": "Vision",
-   "likes": 1746
+   "likes": 1759
   },
   {
    "name": "Hy4-flash",
@@ -445,7 +445,7 @@
    "grow": null,
    "score": 87,
    "cat": "Tools",
-   "likes": 473
+   "likes": 474
   },
   {
    "name": "Qwen3.8-27B-pi-adapted",
@@ -735,6 +735,13 @@
  },
  "headlines": [
   {
+   "t": "Sources: Amazon is nearing a $7.5B deal to buy AI startup Decart; talks are at an advanced stage and a deal could come together as soon as next week",
+   "url": "https://www.techmeme.com/261121/p8#a261121p8",
+   "at": "2026-11-21T17:55:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Anthropic mathematician claims he used Claude to prove 19th-century Riemann hypothesis",
    "url": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai",
    "at": "2026-11-21T16:39:49Z",
@@ -798,6 +805,20 @@
    "kind": "News"
   },
   {
+   "t": "Anthropic shares made billions, but the future of AI isn’t looking so pretty",
+   "url": "https://www.independent.co.uk/voices/anthropic-ipo-shares-ai-boom-data-centre-backlash-b3088736.html",
+   "at": "2026-11-21T06:00:00Z",
+   "src": "The Independent",
+   "kind": "News"
+  },
+  {
+   "t": "Peak AI? Anthropic’s failure to ignite Wall Street should sound alarm here",
+   "url": "https://www.irishtimes.com/business/2026/11/21/peak-ai-anthropics-failure-to-ignite-wall-street-should-sound-alarm-here/",
+   "at": "2026-11-21T06:00:00Z",
+   "src": "The Irish Times",
+   "kind": "News"
+  },
+  {
    "t": "OpenAI makes it difficult for others to replicate GPT-6.2 Astra",
    "url": "https://www.newsbytesapp.com/news/science/openai-tightens-gpt-6-2-astra-s-security-against-unauthorized-extraction-attempts/story",
    "at": "2026-11-21T05:52:57Z",
@@ -824,27 +845,6 @@
    "at": "2026-11-21T05:32:27Z",
    "src": "MarketScreener",
    "kind": "News"
-  },
-  {
-   "t": "Anthropic worker claims to have solved a Holy Grail of math problems with the help of AI",
-   "url": "https://www.greaterkashmir.com/world/anthropic-worker-claims-to-have-solved-a-holy-grail-of-math-problems-with-the-help-of-ai-12828407",
-   "at": "2026-11-21T05:23:45Z",
-   "src": "Greater Kashmir",
-   "kind": "News"
-  },
-  {
-   "t": "Ubisoft launches Motherbrain, a subsidiary focused on developing \"smart NPCs with memory and AI game masters that manage large-scale systemic worlds\"",
-   "url": "https://www.techmeme.com/261121/p1#a261121p1",
-   "at": "2026-11-21T05:15:00.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "After NEET-UG leak, NTA turns to AI, 5,000 reviewers for exam reforms",
-   "url": "https://indianexpress.com/article/education/nta-exam-reforms-after-neet-ug-paper-leak-10972454/",
-   "at": "2026-11-21T05:08:24Z",
-   "src": "The Indian Express",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -853,8 +853,8 @@
    "t": "Lean verification of the Riemann Hypothesis",
    "url": "https://news.ycombinator.com/item?id=50589618",
    "link": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
-   "up": 405,
-   "com": 314,
+   "up": 413,
+   "com": 326,
    "at": "2026-11-21T14:36:45.000Z"
   },
   {
@@ -862,17 +862,26 @@
    "t": "Inkling 2 Mini",
    "url": "https://news.ycombinator.com/item?id=50581260",
    "link": "https://thinkingmachines.ai/news/inkling-2-mini/",
-   "up": 1238,
-   "com": 246,
+   "up": 1241,
+   "com": 248,
    "at": "2026-11-20T20:12:19.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "PostgreSQL Extensions in Go",
+   "url": "https://news.ycombinator.com/item?id=50591260",
+   "link": "https://jespino.github.io/gopgext/",
+   "up": 25,
+   "com": 0,
+   "at": "2026-11-21T17:08:04.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Ask HN: I have been unemployed for 2y. 15 years of experience, US. What to do?",
    "url": "https://news.ycombinator.com/item?id=50583761",
    "link": "",
-   "up": 446,
-   "com": 474,
+   "up": 448,
+   "com": 481,
    "at": "2026-11-20T23:18:32.000Z"
   },
   {
@@ -883,15 +892,6 @@
    "up": 48,
    "com": 36,
    "at": "2026-11-21T15:39:09.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "PostgreSQL Extensions in Go",
-   "url": "https://news.ycombinator.com/item?id=50591260",
-   "link": "https://jespino.github.io/gopgext/",
-   "up": 21,
-   "com": 0,
-   "at": "2026-11-21T17:08:04.000Z"
   },
   {
    "src": "Mastodon",
