@@ -79,6 +79,8 @@ jobs:
           else
             node scripts/build-seo.cjs
           fi
+          # Today's share card (top 3 rising) for Discord, X, iMessage etc. Keeps og.png if it fails.
+          [ -n "$CHROME" ] && node scripts/og-image.cjs "$CHROME" || true
 
       - uses: actions/configure-pages@v5
 
