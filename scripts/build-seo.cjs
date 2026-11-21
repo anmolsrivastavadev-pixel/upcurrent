@@ -40,6 +40,9 @@ ol.rows,ul.rows{list-style:none;margin:0;padding:0;border-top:1px solid var(--li
 .num{font-family:var(--font-mono);font-variant-numeric:tabular-nums}
 .stats{display:flex;flex-wrap:wrap;gap:10px 22px;margin:14px 0 0;padding:0;list-style:none;color:var(--muted);font-size:15px}.stats b{color:var(--ink)}
 .share{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center}.share a{font-weight:600}
+.guides{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0 0}.guides a,.guides b{padding:6px 12px;border:1px solid var(--line);border-radius:999px;font-size:14px;text-decoration:none}.guides b{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.asof{font-size:14px;color:var(--muted);margin-top:12px}.tag{font:700 11px var(--font-mono);padding:2px 6px;border-radius:4px;background:var(--badge-up);color:#fff;vertical-align:2px}
+h3{font:700 17px/1.3 var(--font-display);margin:18px 0 6px}
 .pager{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
 .cta{padding:22px clamp(16px,4vw,30px);background:var(--band);color:var(--band-ink);border-radius:14px;display:grid;gap:10px}
 .cta h2{margin:0}.cta p{margin:0;opacity:.85}.cta a{color:var(--warm);font-weight:700}
@@ -77,12 +80,12 @@ function page({ title, description, canonical, body, ld, ogType = "article", up 
 <style>${CSS}</style>
 ${ld.map(ldJson).join("\n")}
 </head><body>
-<header><div class="wrap"><a class="logo notranslate" translate="no" href="${up}">Upcurrent</a><span style="display:flex;gap:14px;align-items:center;flex-wrap:wrap"><span id="langPick"></span><a href="${up}daily/">Daily archive</a><a href="${up}">Live dashboard</a></span></div></header>
+<header><div class="wrap"><a class="logo notranslate" translate="no" href="${up}">Upcurrent</a><span style="display:flex;gap:14px;align-items:center;flex-wrap:wrap"><span id="langPick"></span><a href="${up}free-ai-models/">Free models</a><a href="${up}daily/">Daily archive</a><a href="${up}">Live dashboard</a></span></div></header>
 <main class="wrap">
 ${body}
 <section class="cta"><h2>Get this in your inbox at 7am</h2><p>One free email each morning with the AI repos, models and stories that are picking up speed. Your own time zone, no spam.</p><p><a href="${up}#signup">Sign up on the dashboard</a></p></section>
 </main>
-<footer><div class="wrap">Upcurrent tracks what is rising in AI every 30 minutes, from GitHub, Hugging Face, arXiv, Hacker News, AI lab blogs, news sites and model providers. Numbers are as recorded at the time. <a href="${up}data.html">Open data (CC BY 4.0)</a></div></footer>
+<footer><div class="wrap">Upcurrent tracks what is rising in AI every 30 minutes, from GitHub, Hugging Face, arXiv, Hacker News, AI lab blogs, news sites and model providers. Numbers are as recorded at the time. <a href="${up}data.html">Open data (CC BY 4.0)</a> · ${GUIDES.map(g => `<a href="${up}${g.slug}/">${esc(g.short)}</a>`).join(" · ")}</div></footer>
 <script src="${up}translate.js"></script>
 </body></html>
 `;
@@ -154,6 +157,101 @@ function archivePage(days, data) {
   return page({ title: "Daily AI trends archive: every day of rising repos, models and news | Upcurrent", description: "A day-by-day archive of the AI repos, models, papers, threads and headlines that were rising, recorded by Upcurrent every 30 minutes.", canonical: url, body, ld, ogType: "website" });
 }
 
+
+// Evergreen guide pages: one stable address per question people search for, rebuilt from the latest data on
+// every publish. Each takes the last 7 daily files so the lists are fuller and steadier than a single day.
+const GUIDES = [
+  { slug: "free-ai-models", title: "Free AI models you can use right now", short: "Free AI models" },
+  { slug: "trending-ai-github-repos", title: "Trending AI GitHub repos this week", short: "Trending AI repos" },
+  { slug: "new-ai-models", title: "New AI models this week on Hugging Face", short: "New AI models" }
+];
+const capsOf = caps => {
+  const all = (caps || []).join(" ").toLowerCase(), out = [];
+  if (/image/.test(all)) out.push("images");
+  if (/audio/.test(all)) out.push("audio");
+  if (/video/.test(all)) out.push("video");
+  if (/pdf|file/.test(all)) out.push("files");
+  if (/reason/.test(all)) out.push("reasoning");
+  if (/tool/.test(all)) out.push("tool calling");
+  return out;
+};
+const ctxLabel = n => !n ? null : n >= 1e6 ? `${+(n / 1e6).toFixed(1)}M tokens` : `${Math.round(n / 1e3)}K tokens`;
+const guideNav = cur => `<nav class="guides" aria-label="Guides">${GUIDES.map(g => g.slug === cur ? `<b>${esc(g.short)}</b>` : `<a href="../${g.slug}/">${esc(g.short)}</a>`).join("")}</nav>`;
+const faq = qa => ({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: qa.map(([q, a]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } })) });
+const faqHtml = qa => `<section id="faq"><h2>Questions</h2>${qa.map(([q, a]) => `<h3>${esc(q)}</h3><p>${esc(a)}</p>`).join("")}</section>`;
+const asOf = iso => new Date(iso).toUTCString().replace(/:\d\d GMT$/, " UTC");
+
+function guidePages(days, data) {
+  const recent = days.slice(-7), last = data[days[days.length - 1]], updated = last.about?.updated || new Date().toISOString();
+  const out = {};
+
+  // 1. Free models: today's full list, newest additions first, plus every add/remove seen this week.
+  {
+    const g = GUIDES[0], url = `${SITE}${g.slug}/`, free = last.free || [];
+    const byProv = free.reduce((a, f) => (a[f.prov] = (a[f.prov] || 0) + 1, a), {});
+    const events = [...new Map(recent.flatMap(d => data[d].freeChanges?.events || []).map(e => [e.type + e.name + e.prov + e.at, e])).values()].sort((a, b) => Date.parse(b.at) - Date.parse(a.at));
+    const provs = Object.entries(byProv).map(([p, n]) => `${n} on ${p}`).join(" and ");
+    const lead = `Right now you can call ${free.length} AI models for free: ${provs}. Upcurrent checks both lists every 30 minutes, so this page shows what is actually free today, not last month.`;
+    const qa = [
+      ["Which AI models are free to use right now?", `As of ${asOf(updated)}, ${free.length} models were free to call: ${free.slice(0, 6).map(f => f.name).join(", ")}${free.length > 6 ? " and more" : ""}. The full list is on this page and updates every 30 minutes.`],
+      ["Where can I call free AI models?", `OpenRouter and OpenCode Zen both offer models at zero cost. You sign up, create an API key and pick a model marked free. Free models often have rate limits and can be removed without notice.`],
+      ["How often do free AI models change?", `Often. This week Upcurrent saw ${events.filter(e => e.type === "added").length} free models added and ${events.filter(e => e.type === "removed").length} removed across both providers.`]
+    ];
+    const body = `<section><div class="eyebrow">Guide · updated every 30 minutes</div><h1>${esc(g.title)}</h1><p class="lede">${esc(lead)}</p>${guideNav(g.slug)}<p class="asof">Last checked ${esc(asOf(updated))}.</p></section>
+<section id="list"><h2>All ${free.length} free models</h2><ol class="rows">${free.map(f => `<li><span class="t">${f.added ? `<span class="tag">New today</span> ` : ""}${link(f.url, f.name)}</span><span class="m">${esc([f.prov, ctxLabel(f.ctx) && `${ctxLabel(f.ctx)} context`, capsOf(f.caps).join(", ")].filter(Boolean).join(" · "))}</span></li>`).join("")}</ol></section>
+${events.length ? `<section id="changes"><h2>Added and removed this week</h2><ul class="rows">${events.slice(0, 30).map(e => `<li><span class="t">${e.type === "added" ? "Added" : "Removed"}: ${link(e.url, e.name)}</span><span class="m">${esc(e.prov)} · ${esc(asOf(e.at))}</span></li>`).join("")}</ul></section>` : ""}
+${faqHtml(qa)}`;
+    out[g.slug] = page({ title: `Free AI models you can use right now (${free.length} today) | Upcurrent`, description: clip(`${free.length} AI models you can call for free today on OpenRouter and OpenCode Zen, with context size and features. Checked every 30 minutes.`, 160), canonical: url, body, up: "../", ogType: "article",
+      ld: [{ "@context": "https://schema.org", "@type": "ItemList", name: g.title, url, numberOfItems: free.length, itemListElement: free.map((f, i) => ({ "@type": "ListItem", position: i + 1, name: f.name, ...(safeUrl(f.url) ? { url: f.url } : {}) })) }, faq(qa), breadcrumb([["Upcurrent", SITE], [g.short, url]])] });
+  }
+
+  // 2. Trending repos: every repo that made the daily list this week, ranked by its best day.
+  {
+    const g = GUIDES[1], url = `${SITE}${g.slug}/`, seen = new Map();
+    for (const d of recent) for (const r of data[d].github || []) {
+      const cur = seen.get(r.repo) || { repo: r.repo, best: 0, bestDay: d, days: 0, stars: 0, forks: 0 };
+      cur.days++; if (r.d24 > cur.best) { cur.best = r.d24; cur.bestDay = d; }
+      cur.stars = Math.max(cur.stars, r.stars || 0); cur.forks = Math.max(cur.forks, r.forks || 0);
+      seen.set(r.repo, cur);
+    }
+    const repos = [...seen.values()].sort((a, b) => b.best - a.best);
+    const lead = repos.length ? `${repos.length} young AI repositories were gaining GitHub stars fastest over the last ${recent.length} days. Top of the list: ${repos[0].repo}, which gained ${fmt(repos[0].best)} stars in a single day.` : "The AI repositories gaining GitHub stars fastest this week.";
+    const qa = [
+      ["What are the trending AI repos on GitHub this week?", repos.length ? `The fastest-rising this week were ${repos.slice(0, 5).map(r => r.repo).join(", ")}. Upcurrent ranks young AI repositories by stars gained per day.` : "See the list on this page."],
+      ["How does Upcurrent find trending AI repos?", "Every 30 minutes it searches GitHub for recently created AI repositories, compares their star counts with earlier readings, and ranks them by stars gained per day. A day's best gain is used here so one quiet day doesn't hide a breakout."],
+      ["Are star counts a sign of quality?", "Not on their own. Stars show attention. Check the code, licence, issues and recent commits before you rely on a project."]
+    ];
+    const body = `<section><div class="eyebrow">Guide · last ${recent.length} days</div><h1>${esc(g.title)}</h1><p class="lede">${esc(lead)}</p>${guideNav(g.slug)}<p class="asof">Last checked ${esc(asOf(updated))}.</p></section>
+<section id="list"><h2>Ranked by best day</h2><ol class="rows">${repos.map(r => `<li><span class="t">${link("https://github.com/" + r.repo, r.repo)}</span><span class="m"><span class="num">+${fmt(r.best)}</span> stars on ${esc(shortDate(r.bestDay))} · <span class="num">${fmt(r.stars)}</span> stars · ${fmt(r.forks)} forks · on the list ${r.days} ${r.days === 1 ? "day" : "days"} · <a href="../daily/${r.bestDay}.html">see that day</a></span></li>`).join("")}</ol></section>
+${faqHtml(qa)}`;
+    out[g.slug] = page({ title: `Trending AI GitHub repos this week (${shortDate(days[days.length - 1])}) | Upcurrent`, description: clip(lead, 160), canonical: url, body, up: "../",
+      ld: [{ "@context": "https://schema.org", "@type": "ItemList", name: g.title, url, numberOfItems: repos.length, itemListElement: repos.map((r, i) => ({ "@type": "ListItem", position: i + 1, name: r.repo, url: "https://github.com/" + r.repo })) }, faq(qa), breadcrumb([["Upcurrent", SITE], [g.short, url]])] });
+  }
+
+  // 3. New models: every trending Hugging Face model seen this week, newest release first.
+  {
+    const g = GUIDES[2], url = `${SITE}${g.slug}/`, seen = new Map();
+    for (const d of recent) for (const m of data[d].models || []) {
+      const k = m.org + "/" + m.name, cur = seen.get(k);
+      if (!cur || (m.dl || 0) > (cur.dl || 0)) seen.set(k, { ...m, lastDay: d });
+    }
+    const models = [...seen.values()].sort((a, b) => Date.parse(b.at || 0) - Date.parse(a.at || 0));
+    const open = models.filter(m => /open/i.test(m.lic || "")).length;
+    const lead = `${models.length} newly released models were trending on Hugging Face over the last ${recent.length} days, ${open} of them open source. Newest first, with downloads so far.`;
+    const qa = [
+      ["What new AI models came out this week?", models.length ? `Trending new releases on Hugging Face this week include ${models.slice(0, 5).map(m => `${m.org}/${m.name}`).join(", ")}.` : "See the list on this page."],
+      ["Can I download these models?", "Most are hosted on Hugging Face and can be downloaded there. Check each model's licence: open source and open weights licences allow different uses."],
+      ["How are models picked?", "Upcurrent reads Hugging Face's trending list every 30 minutes and keeps models released recently, so older popular models don't crowd out new ones."]
+    ];
+    const body = `<section><div class="eyebrow">Guide · last ${recent.length} days</div><h1>${esc(g.title)}</h1><p class="lede">${esc(lead)}</p>${guideNav(g.slug)}<p class="asof">Last checked ${esc(asOf(updated))}.</p></section>
+<section id="list"><h2>Newest first</h2><ol class="rows">${models.map(m => `<li><span class="t">${link(`https://huggingface.co/${m.org}/${m.name}`, `${m.org}/${m.name}`)}</span><span class="m">${esc([m.at && `released ${shortDate(m.at.slice(0, 10))}`, m.cat, m.lic, `${fmt(m.dl)} downloads`, m.likes != null ? `${fmt(m.likes)} likes` : null].filter(Boolean).join(" · "))}</span></li>`).join("")}</ol></section>
+${faqHtml(qa)}`;
+    out[g.slug] = page({ title: `New AI models this week: trending on Hugging Face | Upcurrent`, description: clip(lead, 160), canonical: url, body, up: "../",
+      ld: [{ "@context": "https://schema.org", "@type": "ItemList", name: g.title, url, numberOfItems: models.length, itemListElement: models.map((m, i) => ({ "@type": "ListItem", position: i + 1, name: `${m.org}/${m.name}`, url: `https://huggingface.co/${m.org}/${m.name}` })) }, faq(qa), breadcrumb([["Upcurrent", SITE], [g.short, url]])] });
+  }
+  return out;
+}
+
 // Copies the dashboard's rendered sections into index.html so the first byte already holds today's content.
 // The page's script re-renders the same places from data/latest.json as soon as it loads.
 const PRERENDER_IDS = ["ticker", "dateline", "headline", "brief", "pulse", "pills", "boList", "hypeList", "risingList", "rcList", "modelGrid", "ghBody", "disc", "newToday", "newsList", "freeSub", "freeBody"];
@@ -197,11 +295,15 @@ function prerender(src, dumped) {
   days.forEach((day, i) => fs.writeFileSync(path.join(DAILY_OUT, day + ".html"), dailyPage(day, data[day], days[i - 1], days[i + 1])));
   fs.writeFileSync(path.join(DAILY_OUT, "index.html"), archivePage(days, data));
   console.log(`Wrote ${days.length} daily pages and the archive`);
+  const guides = days.length ? guidePages(days, data) : {};
+  for (const [slug, html] of Object.entries(guides)) { fs.mkdirSync(path.join(ROOT, slug), { recursive: true }); fs.writeFileSync(path.join(ROOT, slug, "index.html"), html); }
+  console.log(`Wrote ${Object.keys(guides).length} guide pages`);
 
   const latest = days.length ? data[days[days.length - 1]].about?.updated : new Date().toISOString();
   const urls = [
     { loc: SITE, lastmod: latest, changefreq: "hourly", priority: "1.0" },
     { loc: SITE + "daily/", lastmod: latest, changefreq: "daily", priority: "0.8" },
+    ...Object.keys(guides).map(slug => ({ loc: `${SITE}${slug}/`, lastmod: latest, changefreq: "hourly", priority: "0.9" })),
     { loc: SITE + "email.html", lastmod: latest, changefreq: "daily", priority: "0.6" },
     { loc: SITE + "data.html", lastmod: latest, changefreq: "weekly", priority: "0.6" },
     ...days.map(day => ({ loc: `${SITE}daily/${day}.html`, lastmod: data[day].about?.updated || day, changefreq: day === days[days.length - 1] ? "hourly" : "monthly", priority: "0.7" }))
