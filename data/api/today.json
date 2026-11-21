@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-21T18:01:03.128Z"
+  "updated": "2026-11-21T18:10:39.977Z"
  },
  "pulse": {
   "trending": 74,
   "accelerating": 1,
   "newModels": 12,
   "discussions": 29,
-  "stars": 2769
+  "stars": 2773
  },
  "rising": [
   {
@@ -22,7 +22,7 @@
    "cat": "Infrastructure",
    "score": 96,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 502",
+   "desc": "Model on Hugging Face · open source · ♥ 503",
    "meta": [
     "238K downloads",
     "Released yesterday"
@@ -40,7 +40,7 @@
    "grow": null,
    "desc": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
    "meta": [
-    "★ 2,092",
+    "★ 2,099",
     "~979 in 24h",
     "Created 2 days ago"
    ],
@@ -57,8 +57,8 @@
    "grow": 5,
    "desc": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
    "meta": [
-    "★ 7,248",
-    "+859 in 24h",
+    "★ 7,256",
+    "+865 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-11-16T12:10:36Z",
@@ -90,8 +90,8 @@
    "grow": 33,
    "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
    "meta": [
-    "★ 1,670",
-    "+641 in 24h",
+    "★ 1,673",
+    "+639 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-19T10:00:43Z",
@@ -121,7 +121,7 @@
    "cat": "Vision",
    "score": 88,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 465",
+   "desc": "Vision on Hugging Face · open weights · ♥ 467",
    "meta": [
     "0 downloads",
     "Released 5 days ago"
@@ -356,7 +356,7 @@
  "github": [
   {
    "repo": "bookwjitchieni1986/blender-ai-mcp-addon",
-   "stars": 2092,
+   "stars": 2099,
    "d24": 979,
    "est": true,
    "forks": 31,
@@ -365,17 +365,17 @@
   },
   {
    "repo": "erkamyaman/rust-anything",
-   "stars": 7248,
-   "d24": 859,
+   "stars": 7256,
+   "d24": 865,
    "est": false,
-   "forks": 582,
+   "forks": 583,
    "contrib": 21,
    "score": 94
   },
   {
    "repo": "iamajmeena/neonclipping",
-   "stars": 1670,
-   "d24": 641,
+   "stars": 1673,
+   "d24": 639,
    "est": false,
    "forks": 81,
    "contrib": null,
@@ -383,7 +383,7 @@
   },
   {
    "repo": "sybil-solutions/inference-optimisation-skill",
-   "stars": 1442,
+   "stars": 1443,
    "d24": 290,
    "est": true,
    "forks": 134,
@@ -401,7 +401,7 @@
    "grow": null,
    "score": 96,
    "cat": "Infrastructure",
-   "likes": 502
+   "likes": 503
   },
   {
    "name": "Inkling-2-Mini",
@@ -412,7 +412,7 @@
    "grow": null,
    "score": 94,
    "cat": "Vision",
-   "likes": 1759
+   "likes": 1796
   },
   {
    "name": "Hy4-flash",
@@ -434,7 +434,7 @@
    "grow": null,
    "score": 88,
    "cat": "Vision",
-   "likes": 465
+   "likes": 467
   },
   {
    "name": "voice-isolator",
@@ -791,6 +791,13 @@
    "kind": "News"
   },
   {
+   "t": "AI to lead investment strategy in 2027; Energy and borrowing costs shape macro outlook: Barclays",
+   "url": "https://economictimes.indiatimes.com/markets/stocks/news/ai-to-lead-investment-strategy-in-2027-energy-and-borrowing-costs-shape-macro-outlook-barclays/articleshow/136046648.cms",
+   "at": "2026-11-21T06:09:00Z",
+   "src": "The Economic Times",
+   "kind": "News"
+  },
+  {
    "t": "Industry insiders say new US export rules affect a broader range of chips, including SoCs used in consumer electronics, extending beyond advanced AI chips",
    "url": "https://www.techmeme.com/261121/p2#a261121p2",
    "at": "2026-11-21T06:00:55.000Z",
@@ -838,13 +845,6 @@
    "at": "2026-11-21T05:43:59Z",
    "src": "Lokmat Times",
    "kind": "News"
-  },
-  {
-   "t": "Bitcoin falls to its lowest in two years",
-   "url": "https://www.marketscreener.com/news/bitcoin-falls-to-its-lowest-in-two-years-ce785ed3df8af326",
-   "at": "2026-11-21T05:32:27Z",
-   "src": "MarketScreener",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -853,8 +853,8 @@
    "t": "Lean verification of the Riemann Hypothesis",
    "url": "https://news.ycombinator.com/item?id=50589618",
    "link": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
-   "up": 413,
-   "com": 326,
+   "up": 433,
+   "com": 336,
    "at": "2026-11-21T14:36:45.000Z"
   },
   {
@@ -862,7 +862,7 @@
    "t": "Inkling 2 Mini",
    "url": "https://news.ycombinator.com/item?id=50581260",
    "link": "https://thinkingmachines.ai/news/inkling-2-mini/",
-   "up": 1241,
+   "up": 1242,
    "com": 248,
    "at": "2026-11-20T20:12:19.000Z"
   },
@@ -871,7 +871,7 @@
    "t": "PostgreSQL Extensions in Go",
    "url": "https://news.ycombinator.com/item?id=50591260",
    "link": "https://jespino.github.io/gopgext/",
-   "up": 25,
+   "up": 28,
    "com": 0,
    "at": "2026-11-21T17:08:04.000Z"
   },
@@ -880,8 +880,8 @@
    "t": "Ask HN: I have been unemployed for 2y. 15 years of experience, US. What to do?",
    "url": "https://news.ycombinator.com/item?id=50583761",
    "link": "",
-   "up": 448,
-   "com": 481,
+   "up": 451,
+   "com": 490,
    "at": "2026-11-20T23:18:32.000Z"
   },
   {
@@ -889,7 +889,7 @@
    "t": "Show HN: Zero C#, Power of C# without any GC",
    "url": "https://news.ycombinator.com/item?id=50590279",
    "link": "https://onurgumus.github.io/zero-csharp/index.html",
-   "up": 48,
+   "up": 50,
    "com": 36,
    "at": "2026-11-21T15:39:09.000Z"
   },
@@ -897,7 +897,7 @@
    "src": "Mastodon",
    "t": "Tech conferences post the rise of LLMs have really transformed into emotional support groups. It’s a group of people who are both arguing in favor of their r…",
    "url": "https://c.im/@matdevdug/117655224970521704",
-   "up": 36,
+   "up": 41,
    "com": 4,
    "at": "2026-11-21T15:50:59.000Z"
   }
