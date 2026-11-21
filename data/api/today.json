@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-21T01:30:55.013Z"
+  "updated": "2026-11-21T02:01:07.806Z"
  },
  "pulse": {
   "trending": 73,
   "accelerating": 1,
   "newModels": 10,
-  "discussions": 38,
-  "stars": 3349
+  "discussions": 37,
+  "stars": 3236
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 36,
    "desc": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
    "meta": [
-    "★ 1,788",
-    "+1,608 in 24h",
+    "★ 1,795",
+    "+1,523 in 24h",
     "Created yesterday"
    ],
    "at": "2026-11-19T14:43:10Z",
@@ -41,8 +41,8 @@
    "grow": 12,
    "desc": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
    "meta": [
-    "★ 6,668",
-    "+1,280 in 24h",
+    "★ 6,682",
+    "+1,258 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-11-16T12:10:36Z",
@@ -56,10 +56,10 @@
    "cat": "Infrastructure",
    "score": 94,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 205",
+   "desc": "Model on Hugging Face · open source · ♥ 217",
    "meta": [
     "0 downloads",
-    "Released 12h ago"
+    "Released 13h ago"
    ],
    "at": "2026-11-20T13:09:48.000Z",
    "breakout": null,
@@ -72,7 +72,7 @@
    "cat": "Agents",
    "score": 93,
    "grow": 42,
-   "desc": "Model on Hugging Face · open source · ♥ 864",
+   "desc": "Model on Hugging Face · open source · ♥ 865",
    "meta": [
     "1.9K downloads",
     "Released 5 days ago"
@@ -88,7 +88,7 @@
    "cat": "Vision",
    "score": 92,
    "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 646",
+   "desc": "Vision on Hugging Face · open source · ♥ 691",
    "meta": [
     "136 downloads",
     "Released 4 days ago"
@@ -103,8 +103,8 @@
    "src": "hf",
    "cat": "Tools",
    "score": 90,
-   "grow": 17,
-   "desc": "Model on Hugging Face · open source · ♥ 5.5K",
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 5.6K",
    "meta": [
     "7.3K downloads",
     "Released 9 days ago"
@@ -119,8 +119,8 @@
    "src": "hf",
    "cat": "Vision",
    "score": 89,
-   "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 547",
+   "grow": 0,
+   "desc": "Vision on Hugging Face · open weights · ♥ 549",
    "meta": [
     "3.9K downloads",
     "Released 4 days ago"
@@ -135,8 +135,8 @@
    "src": "hf",
    "cat": "Vision",
    "score": 87,
-   "grow": 13,
-   "desc": "Vision on Hugging Face · open source · ♥ 449",
+   "grow": null,
+   "desc": "Vision on Hugging Face · open source · ♥ 450",
    "meta": [
     "1.6K downloads",
     "Released 4 days ago"
@@ -154,8 +154,8 @@
    "grow": null,
    "desc": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
    "meta": [
-    "★ 1,338",
-    "~312 in 24h",
+    "★ 1,340",
+    "~311 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-16T18:40:04Z",
@@ -250,7 +250,7 @@
    "from": "Hugging Face",
    "use": 918,
    "useLabel": "918 downloads",
-   "usePct": 0.2857142857142857,
+   "usePct": 0.25,
    "talk": [
     {
      "src": "Hugging Face blog",
@@ -265,8 +265,8 @@
    "name": "blender-ai-mcp-addon",
    "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
    "from": "GitHub",
-   "use": 1608,
-   "useLabel": "+1,608 stars/day",
+   "use": 1523,
+   "useLabel": "+1,523 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -380,8 +380,8 @@
  "github": [
   {
    "repo": "bookwjitchieni1986/blender-ai-mcp-addon",
-   "stars": 1788,
-   "d24": 1608,
+   "stars": 1795,
+   "d24": 1523,
    "est": false,
    "forks": 12,
    "contrib": null,
@@ -389,17 +389,17 @@
   },
   {
    "repo": "erkamyaman/rust-anything",
-   "stars": 6668,
-   "d24": 1280,
+   "stars": 6682,
+   "d24": 1258,
    "est": false,
-   "forks": 523,
+   "forks": 526,
    "contrib": 16,
    "score": 94
   },
   {
    "repo": "sybil-solutions/inference-optimisation-skill",
-   "stars": 1338,
-   "d24": 312,
+   "stars": 1340,
+   "d24": 311,
    "est": true,
    "forks": 122,
    "contrib": null,
@@ -408,9 +408,9 @@
   {
    "repo": "haziqahmedqasmi/PeakCut",
    "stars": 1544,
-   "d24": 149,
+   "d24": 144,
    "est": false,
-   "forks": 496,
+   "forks": 497,
    "contrib": null,
    "score": 74
   }
@@ -425,7 +425,7 @@
    "grow": null,
    "score": 94,
    "cat": "Infrastructure",
-   "likes": 205
+   "likes": 217
   },
   {
    "name": "Qwen3.8-27B-pi-adapted",
@@ -437,7 +437,7 @@
    "grow": 42,
    "score": 93,
    "cat": "Agents",
-   "likes": 864
+   "likes": 865
   },
   {
    "name": "Inkling-2-Mini",
@@ -448,7 +448,7 @@
    "grow": null,
    "score": 92,
    "cat": "Vision",
-   "likes": 646
+   "likes": 691
   },
   {
    "name": "Haru-4B",
@@ -457,10 +457,10 @@
    "lic": "Open source",
    "at": "2026-11-12T11:05:59.000Z",
    "dl": 7323,
-   "grow": 17,
+   "grow": null,
    "score": 90,
    "cat": "Tools",
-   "likes": 5486
+   "likes": 5556
   },
   {
    "name": "Hy4-flash",
@@ -468,10 +468,10 @@
    "lic": "Open weights",
    "at": "2026-11-17T03:44:46.000Z",
    "dl": 3949,
-   "grow": null,
+   "grow": 0,
    "score": 89,
    "cat": "Vision",
-   "likes": 547
+   "likes": 549
   },
   {
    "name": "SenseNova-Loop-9B",
@@ -480,10 +480,10 @@
    "lic": "Open source",
    "at": "2026-11-17T10:16:41.000Z",
    "dl": 1631,
-   "grow": 13,
+   "grow": null,
    "score": 87,
    "cat": "Vision",
-   "likes": 449
+   "likes": 450
   }
  ],
  "free": [
@@ -850,13 +850,6 @@
    "kind": "News"
   },
   {
-   "t": "AI News: This Is The Make or Break Week!!",
-   "url": "https://www.youtube.com/watch?v=wqNIzUmNt9M",
-   "at": "2026-11-20T19:00:16Z",
-   "src": "Matt Wolfe",
-   "kind": "Video"
-  },
-  {
    "t": "MATHPOCALYPSE: Riemann Hypothesis \"solved\" by Claude AI and Anthropic mathematician",
    "url": "https://www.youtube.com/watch?v=bKJo5-BY-QY",
    "at": "2026-11-20T17:10:54Z",
@@ -871,17 +864,24 @@
    "kind": "Video"
   },
   {
+   "t": "Bank of Italy Official Urges AI Taxes to Levy Profits, Not Tech",
+   "url": "https://news.bloombergtax.com/daily-tax-report/bank-of-italy-official-urges-ai-taxes-to-levy-profits-not-tech",
+   "at": "2026-11-20T13:45:55Z",
+   "src": "Bloomberg Tax News",
+   "kind": "News"
+  },
+  {
+   "t": "Tech stocks pull US markets lower early after Anthropic's debut",
+   "url": "https://www.bostonherald.com/2026/11/20/tech-stocks-us-markets/",
+   "at": "2026-11-20T13:32:15Z",
+   "src": "The Boston Herald",
+   "kind": "News"
+  },
+  {
    "t": "America’s nuclear renaissance",
    "url": "https://www.washingtonpost.com/ripple/2026/11/20/americas-nuclear-renaissance/",
    "at": "2026-11-20T13:30:45Z",
    "src": "The Washington Post",
-   "kind": "News"
-  },
-  {
-   "t": "Tech stocks pull U.S. markets lower early",
-   "url": "https://www.cp24.com/news/money/2026/11/20/tech-stocks-pull-us-markets-lower-early-with-anthropics-historic-debut-doing-little-to-slow-rout/",
-   "at": "2026-11-20T13:24:37Z",
-   "src": "CP24 Toronto",
    "kind": "News"
   }
  ],
@@ -891,8 +891,8 @@
    "t": "Inkling 2 Mini",
    "url": "https://news.ycombinator.com/item?id=50581260",
    "link": "https://thinkingmachines.ai/news/inkling-2-mini/",
-   "up": 651,
-   "com": 104,
+   "up": 688,
+   "com": 111,
    "at": "2026-11-20T20:12:19.000Z"
   },
   {
@@ -900,8 +900,8 @@
    "t": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
    "url": "https://news.ycombinator.com/item?id=50572503",
    "link": "https://architectlabs.com/blog/frostbite",
-   "up": 624,
-   "com": 326,
+   "up": 629,
+   "com": 328,
    "at": "2026-11-20T10:01:41.000Z"
   },
   {
@@ -909,8 +909,8 @@
    "t": "Restricting AI agents in mobile operating systems platforms from capturing data",
    "url": "https://news.ycombinator.com/item?id=50572348",
    "link": "https://signal.org/blog/protecting-your-privacy/",
-   "up": 505,
-   "com": 301,
+   "up": 511,
+   "com": 305,
    "at": "2026-11-20T09:42:16.000Z"
   },
   {
@@ -918,27 +918,27 @@
    "t": "Google workers tell their employer not to punish schools that don't want AI",
    "url": "https://news.ycombinator.com/item?id=50577901",
    "link": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
-   "up": 263,
+   "up": 266,
    "com": 196,
    "at": "2026-11-20T16:59:27.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Help github just deleted me",
-   "url": "https://news.ycombinator.com/item?id=50583911",
-   "link": "https://nate.mecca1.net/posts/2026-11-20_help/",
-   "up": 50,
-   "com": 31,
-   "at": "2026-11-20T23:35:42.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Finite-time blow-up for the Navier–Stokes equations",
    "url": "https://news.ycombinator.com/item?id=50576232",
    "link": "https://github.com/tristanbuckmaster/navier-stokes/",
-   "up": 257,
+   "up": 260,
    "com": 82,
    "at": "2026-11-20T15:34:31.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "If you stop writing code, you also get worse at reviewing it",
+   "url": "https://news.ycombinator.com/item?id=50573886",
+   "link": "https://cekrem.github.io/posts/if-you-stop-writing-code-you-also-get-worse-at-reviewing-it/",
+   "up": 324,
+   "com": 159,
+   "at": "2026-11-20T12:41:38.000Z"
   }
  ]
 }
