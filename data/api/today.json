@@ -5,14 +5,14 @@
   "docs": "https://anmolsrivastavadev-pixel.github.io/upcurrent/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://anmolsrivastavadev-pixel.github.io/upcurrent/)",
-  "updated": "2026-11-21T14:30:55.371Z"
+  "updated": "2026-11-21T15:01:15.711Z"
  },
  "pulse": {
-  "trending": 74,
+  "trending": 75,
   "accelerating": 2,
-  "newModels": 12,
+  "newModels": 13,
   "discussions": 28,
-  "stars": 2947
+  "stars": 2609
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 95,
-   "grow": 48,
+   "grow": null,
    "desc": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
    "meta": [
-    "★ 1,946",
-    "+752 in 24h",
+    "★ 1,954",
+    "~971 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-19T14:43:10Z",
@@ -33,16 +33,32 @@
    "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon"
   },
   {
+   "name": "Inkling-2-Mini-GGUF",
+   "owner": "unsloth",
+   "src": "hf",
+   "cat": "Infrastructure",
+   "score": 95,
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 443",
+   "meta": [
+    "238K downloads",
+    "Released yesterday"
+   ],
+   "at": "2026-11-20T13:09:48.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF"
+  },
+  {
    "name": "rust-anything",
    "owner": "erkamyaman",
    "src": "gh",
    "cat": "Agents",
    "score": 94,
-   "grow": null,
+   "grow": 3,
    "desc": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
    "meta": [
-    "★ 7,124",
-    "~1,398 in 24h",
+    "★ 7,139",
+    "+852 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-11-16T12:10:36Z",
@@ -56,7 +72,7 @@
    "cat": "Vision",
    "score": 94,
    "grow": 5741,
-   "desc": "Vision on Hugging Face · open source · ♥ 1.2K",
+   "desc": "Vision on Hugging Face · open source · ♥ 1.3K",
    "meta": [
     "7.9K downloads",
     "Released 5 days ago"
@@ -71,11 +87,11 @@
    "src": "gh",
    "cat": "Vision",
    "score": 93,
-   "grow": 26,
+   "grow": 27,
    "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
    "meta": [
-    "★ 1,583",
-    "+654 in 24h",
+    "★ 1,593",
+    "+647 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-19T10:00:43Z",
@@ -83,29 +99,13 @@
    "url": "https://github.com/iamajmeena/neonclipping"
   },
   {
-   "name": "Inkling-2-Mini-GGUF",
-   "owner": "unsloth",
-   "src": "hf",
-   "cat": "Infrastructure",
-   "score": 93,
-   "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 435",
-   "meta": [
-    "238K downloads",
-    "Released yesterday"
-   ],
-   "at": "2026-11-20T13:09:48.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF"
-  },
-  {
    "name": "Qwen3.8-27B-pi-adapted",
    "owner": "harness-hub",
    "src": "hf",
    "cat": "Agents",
-   "score": 91,
+   "score": 92,
    "grow": 27,
-   "desc": "Model on Hugging Face · open source · ♥ 814",
+   "desc": "Model on Hugging Face · open source · ♥ 817",
    "meta": [
     "2.4K downloads",
     "Released 5 days ago"
@@ -115,29 +115,13 @@
    "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted"
   },
   {
-   "name": "Haru-4B",
-   "owner": "higurashi-ai",
-   "src": "hf",
-   "cat": "Tools",
-   "score": 88,
-   "grow": 11,
-   "desc": "Model on Hugging Face · open source · ♥ 814",
-   "meta": [
-    "8.1K downloads",
-    "Released 9 days ago"
-   ],
-   "at": "2026-11-12T11:05:59.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/higurashi-ai/Haru-4B"
-  },
-  {
    "name": "Hy4-flash",
    "owner": "tencent",
    "src": "hf",
    "cat": "Vision",
-   "score": 88,
+   "score": 90,
    "grow": 42,
-   "desc": "Vision on Hugging Face · open weights · ♥ 499",
+   "desc": "Vision on Hugging Face · open weights · ♥ 502",
    "meta": [
     "5.6K downloads",
     "Released 4 days ago"
@@ -151,7 +135,7 @@
    "owner": "apple",
    "src": "hf",
    "cat": "Vision",
-   "score": 85,
+   "score": 87,
    "grow": null,
    "desc": "Vision on Hugging Face · open weights · ♥ 458",
    "meta": [
@@ -161,6 +145,22 @@
    "at": "2026-11-16T17:21:04.000Z",
    "breakout": null,
    "url": "https://huggingface.co/apple/FastFrames-L"
+  },
+  {
+   "name": "voice-isolator",
+   "owner": "inworld",
+   "src": "hf",
+   "cat": "Tools",
+   "score": 85,
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 458",
+   "meta": [
+    "0 downloads",
+    "Released 8 days ago"
+   ],
+   "at": "2026-11-14T02:14:35.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/inworld/voice-isolator"
   },
   {
    "name": "AltRA-Test: An Alternative Annotator Test for LLM Judges Without Shared Annotators",
@@ -209,7 +209,7 @@
    "from": "Hugging Face",
    "use": 7944,
    "useLabel": "7.9K downloads",
-   "usePct": 0.6206896551724138,
+   "usePct": 0.6333333333333333,
    "talk": [
     {
      "src": "Hacker News",
@@ -226,7 +226,7 @@
    "from": "Hugging Face",
    "use": 1375,
    "useLabel": "1.4K downloads",
-   "usePct": 0.3448275862068966,
+   "usePct": 0.36666666666666664,
    "talk": [
     {
      "src": "Hugging Face blog",
@@ -238,11 +238,11 @@
    "verdict": "More talk than use"
   },
   {
-   "name": "rust-anything",
-   "url": "https://github.com/erkamyaman/rust-anything",
+   "name": "blender-ai-mcp-addon",
+   "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
    "from": "GitHub",
-   "use": 1398,
-   "useLabel": "~1,398 stars/day",
+   "use": 971,
+   "useLabel": "~971 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -265,7 +265,7 @@
    "from": "Hugging Face",
    "use": 916726,
    "useLabel": "917K downloads",
-   "usePct": 0.9655172413793104,
+   "usePct": 0.9666666666666667,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -355,27 +355,27 @@
  ],
  "github": [
   {
-   "repo": "erkamyaman/rust-anything",
-   "stars": 7124,
-   "d24": 1398,
-   "est": true,
-   "forks": 564,
-   "contrib": 20,
-   "score": 94
-  },
-  {
    "repo": "bookwjitchieni1986/blender-ai-mcp-addon",
-   "stars": 1946,
-   "d24": 752,
-   "est": false,
+   "stars": 1954,
+   "d24": 971,
+   "est": true,
    "forks": 31,
    "contrib": null,
    "score": 95
   },
   {
+   "repo": "erkamyaman/rust-anything",
+   "stars": 7139,
+   "d24": 852,
+   "est": false,
+   "forks": 565,
+   "contrib": 20,
+   "score": 94
+  },
+  {
    "repo": "iamajmeena/neonclipping",
-   "stars": 1583,
-   "d24": 654,
+   "stars": 1593,
+   "d24": 647,
    "est": false,
    "forks": 78,
    "contrib": null,
@@ -384,7 +384,7 @@
   {
    "repo": "sybil-solutions/inference-optimisation-skill",
    "stars": 1426,
-   "d24": 143,
+   "d24": 139,
    "est": false,
    "forks": 129,
    "contrib": null,
@@ -392,6 +392,17 @@
   }
  ],
  "models": [
+  {
+   "name": "Inkling-2-Mini-GGUF",
+   "org": "unsloth",
+   "lic": "Open source",
+   "at": "2026-11-20T13:09:48.000Z",
+   "dl": 238152,
+   "grow": null,
+   "score": 95,
+   "cat": "Infrastructure",
+   "likes": 443
+  },
   {
    "name": "Inkling-2-Mini",
    "org": "thinkingmachines",
@@ -401,18 +412,7 @@
    "grow": 5741,
    "score": 94,
    "cat": "Vision",
-   "likes": 1242
-  },
-  {
-   "name": "Inkling-2-Mini-GGUF",
-   "org": "unsloth",
-   "lic": "Open source",
-   "at": "2026-11-20T13:09:48.000Z",
-   "dl": 238152,
-   "grow": null,
-   "score": 93,
-   "cat": "Infrastructure",
-   "likes": 435
+   "likes": 1305
   },
   {
    "name": "Qwen3.8-27B-pi-adapted",
@@ -422,21 +422,9 @@
    "at": "2026-11-16T06:52:31.000Z",
    "dl": 2383,
    "grow": 27,
-   "score": 91,
+   "score": 92,
    "cat": "Agents",
-   "likes": 814
-  },
-  {
-   "name": "Haru-4B",
-   "org": "higurashi-ai",
-   "size": "4B",
-   "lic": "Open source",
-   "at": "2026-11-12T11:05:59.000Z",
-   "dl": 8120,
-   "grow": 11,
-   "score": 88,
-   "cat": "Tools",
-   "likes": 814
+   "likes": 817
   },
   {
    "name": "Hy4-flash",
@@ -445,9 +433,9 @@
    "at": "2026-11-17T03:44:46.000Z",
    "dl": 5588,
    "grow": 42,
-   "score": 88,
+   "score": 90,
    "cat": "Vision",
-   "likes": 499
+   "likes": 502
   },
   {
    "name": "FastFrames-L",
@@ -456,8 +444,19 @@
    "at": "2026-11-16T17:21:04.000Z",
    "dl": 0,
    "grow": null,
-   "score": 85,
+   "score": 87,
    "cat": "Vision",
+   "likes": 458
+  },
+  {
+   "name": "voice-isolator",
+   "org": "inworld",
+   "lic": "Open source",
+   "at": "2026-11-14T02:14:35.000Z",
+   "dl": 0,
+   "grow": null,
+   "score": 85,
+   "cat": "Tools",
    "likes": 458
   }
  ],
@@ -757,13 +756,6 @@
    "kind": "News"
   },
   {
-   "t": "How OpenAI Lost the AI Race",
-   "url": "https://www.youtube.com/watch?v=gbRxnA0KvdQ",
-   "at": "2026-11-21T11:00:20Z",
-   "src": "TLDR Business",
-   "kind": "Video"
-  },
-  {
    "t": "NYU's Tristan Buckmaster and Anthropic's Levent Alpöge publish an AI-aided proof of Navier-Stokes blowup, saying it closes a loophole in OpenAI's solution",
    "url": "https://www.techmeme.com/261121/p4#a261121p4",
    "at": "2026-11-21T06:30:00.000Z",
@@ -789,6 +781,20 @@
    "url": "https://www.techmeme.com/261121/p1#a261121p1",
    "at": "2026-11-21T05:15:00.000Z",
    "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "US Lawmakers Raise Concerns Over Reliance on Chinese AI Models",
+   "url": "https://www.lokmattimes.com/international/us-lawmakers-raise-concerns-over-reliance-on-chinese-ai-models-a001-w02/",
+   "at": "2026-11-21T02:59:45Z",
+   "src": "Lokmat Times",
+   "kind": "News"
+  },
+  {
+   "t": "China's Military Uses AI for Cyber Drills, US Report Raises Concerns",
+   "url": "https://www.lokmattimes.com/international/chinas-military-uses-ai-for-cyber-drills-us-report-raises-concerns-a001-w02/",
+   "at": "2026-11-21T02:54:00Z",
+   "src": "Lokmat Times",
    "kind": "News"
   },
   {
@@ -839,13 +845,6 @@
    "at": "2026-11-20T23:59:00Z",
    "src": "Times of India",
    "kind": "News"
-  },
-  {
-   "t": "Nasdaq 100 fell 5.6% on Friday, taking its loss for the week to 10.4%, its worst run in more than six years, amid fears of a slowdown in the AI investment boom",
-   "url": "https://www.techmeme.com/261120/p42#a261120p42",
-   "at": "2026-11-20T23:50:00.000Z",
-   "src": "Techmeme",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -854,8 +853,8 @@
    "t": "Inkling 2 Mini",
    "url": "https://news.ycombinator.com/item?id=50581260",
    "link": "https://thinkingmachines.ai/news/inkling-2-mini/",
-   "up": 1136,
-   "com": 213,
+   "up": 1147,
+   "com": 217,
    "at": "2026-11-20T20:12:19.000Z"
   },
   {
@@ -863,33 +862,25 @@
    "t": "Ask HN: I have been unemployed for 2y. 15 years of experience, US. What to do?",
    "url": "https://news.ycombinator.com/item?id=50583761",
    "link": "",
-   "up": 323,
-   "com": 325,
+   "up": 342,
+   "com": 350,
    "at": "2026-11-20T23:18:32.000Z"
   },
   {
    "src": "DEV",
    "t": "The Chairs Are Back. The Coffee Is On. ☕",
    "url": "https://dev.to/thethirdcup/the-chairs-are-back-the-coffee-is-on-243p",
-   "up": 59,
-   "com": 14,
+   "up": 60,
+   "com": 17,
    "at": "2026-11-21T11:24:29Z"
-  },
-  {
-   "src": "DEV",
-   "t": "A VS Code extension to turn ANY free chatbot website into an AI agent (kind of)",
-   "url": "https://dev.to/effessdev/a-vs-code-extension-to-turn-any-free-chatbot-website-into-an-ai-agent-kind-of-1n21",
-   "up": 36,
-   "com": 5,
-   "at": "2026-11-21T11:49:40Z"
   },
   {
    "src": "Hacker News",
    "t": "ClawDOS – An AI coding agent for DOS",
    "url": "https://news.ycombinator.com/item?id=50586292",
    "link": "http://ricapar.net/ClawDOS/",
-   "up": 118,
-   "com": 34,
+   "up": 122,
+   "com": 35,
    "at": "2026-11-21T05:38:01.000Z"
   },
   {
@@ -897,9 +888,18 @@
    "t": "Finite-time blow-up for the Navier–Stokes equations",
    "url": "https://news.ycombinator.com/item?id=50576232",
    "link": "https://github.com/tristanbuckmaster/navier-stokes/",
-   "up": 300,
-   "com": 94,
+   "up": 302,
+   "com": 95,
    "at": "2026-11-20T15:34:31.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Google workers tell their employer not to punish schools that don't want AI",
+   "url": "https://news.ycombinator.com/item?id=50577901",
+   "link": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
+   "up": 277,
+   "com": 218,
+   "at": "2026-11-20T16:59:27.000Z"
   }
  ]
 }
