@@ -135,7 +135,17 @@
       },
       async blogs() {
         // Official AI lab blogs. Each feed fails on its own without sinking the rest.
-        const res = await Promise.allSettled(FEEDS.map(([name, url]) => getText(url).then(x => parseFeed(x).slice(0, 8).map(i => ({ ...i, src: name, kind: "Lab blog" })))));
+        // Anthropic publishes no RSS feed, so its public newsroom page is read for date, title and link.
+        const anthropic = () => getText("https://www.anthropic.com/news").then(h => {
+          const re = /<time>([^<]+)<\/time>[\s\S]{0,400}?href="([^"]+)"[^>]*>\s*<h\d[^>]*>([^<]+)<\/h\d>/g, out = new Map();
+          for (let m; (m = re.exec(h));) {
+            const url = new URL(m[2], "https://www.anthropic.com").href, at = new Date(m[1]);
+            if (!out.has(url) && !isNaN(at)) out.set(url, { t: stripHtml(m[3]).replace(/&#x27;/g, "'").replace(/&amp;/g, "&").trim(), url, at: at.toISOString(), src: "Anthropic", kind: "Lab blog" });
+          }
+          if (!out.size) throw new Error("anthropic newsroom layout changed");
+          return [...out.values()].sort((a, b) => b.at.localeCompare(a.at)).slice(0, 8);
+        });
+        const res = await Promise.allSettled([...FEEDS.map(([name, url]) => getText(url).then(x => parseFeed(x).slice(0, 8).map(i => ({ ...i, src: name, kind: "Lab blog" })))), anthropic()]);
         const ok = res.filter(r => r.status === "fulfilled").flatMap(r => r.value);
         if (!ok.length) throw new Error("no lab blog feed answered");
         return ok;
