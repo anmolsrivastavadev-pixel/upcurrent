@@ -219,27 +219,8 @@ ${faqHtml(qa)}`;
       ld: [{ "@context": "https://schema.org", "@type": "ItemList", name: g.title, url, numberOfItems: repos.length, itemListElement: repos.map((r, i) => ({ "@type": "ListItem", position: i + 1, name: r.repo, url: "https://github.com/" + r.repo })) }, faq(qa), breadcrumb([["Upcurrent", SITE], [g.short, url]])] });
   }
 
-  // 3. New models: every trending Hugging Face model seen this week, newest release first.
-  {
-    const g = GUIDES[2], url = `${SITE}${g.slug}/`, seen = new Map();
-    for (const d of recent) for (const m of data[d].models || []) {
-      const k = m.org + "/" + m.name, cur = seen.get(k);
-      if (!cur || (m.dl || 0) > (cur.dl || 0)) seen.set(k, { ...m, lastDay: d });
-    }
-    const models = [...seen.values()].sort((a, b) => Date.parse(b.at || 0) - Date.parse(a.at || 0));
-    const open = models.filter(m => /^open source/i.test(m.lic || "")).length;
-    const lead = `${models.length} recently released models were trending on Hugging Face over the last ${recent.length} days. ${open} are open source and the rest open weights or other licences. Newest first, with downloads so far.`;
-    const qa = [
-      ["What new AI models came out this week?", models.length ? `Trending new releases on Hugging Face this week include ${models.slice(0, 5).map(m => `${m.org}/${m.name}`).join(", ")}.` : "See the list on this page."],
-      ["Can I download these models?", "Most are hosted on Hugging Face and can be downloaded there. Check each model's licence: open source and open weights licences allow different uses."],
-      ["How are models picked?", "Upcurrent reads Hugging Face's trending list every 30 minutes and keeps models released recently, so older popular models don't crowd out new ones."]
-    ];
-    const body = `<section><div class="eyebrow">Guide · last ${recent.length} days</div><h1>${esc(g.title)}</h1><p class="lede">${esc(lead)}</p>${guideNav(g.slug)}<p class="asof">Last checked ${esc(asOf(updated))}.</p></section>
-<section id="list"><h2>Newest first</h2><ol class="rows">${models.map(m => `<li><span class="t">${link(`https://huggingface.co/${m.org}/${m.name}`, `${m.org}/${m.name}`)}</span><span class="m">${esc([m.at && `released ${shortDate(m.at.slice(0, 10))}`, m.cat, m.lic, `${fmt(m.dl)} downloads`, m.likes != null ? `${fmt(m.likes)} likes` : null].filter(Boolean).join(" · "))}</span></li>`).join("")}</ol></section>
-${faqHtml(qa)}`;
-    out[g.slug] = page({ title: `New AI models this week: trending on Hugging Face | Upcurrent`, description: clip(lead, 160), canonical: url, body, up: "../",
-      ld: [{ "@context": "https://schema.org", "@type": "ItemList", name: g.title, url, numberOfItems: models.length, itemListElement: models.map((m, i) => ({ "@type": "ListItem", position: i + 1, name: `${m.org}/${m.name}`, url: `https://huggingface.co/${m.org}/${m.name}` })) }, faq(qa), breadcrumb([["Upcurrent", SITE], [g.short, url]])] });
-  }
+  // 3. New models: a hub page plus open source models and a release tracker.
+  Object.assign(out, modelCluster(days, data, last, updated));
   return out;
 }
 
@@ -348,7 +329,7 @@ bs.forEach(function(b){b.addEventListener("change",run)})})();</script>`;
     const ex = or.find(f => /nemotron-3-ultra/.test(modelId(f) || "")) || or.find(hasTools) || or[0];
     const id = ex ? modelId(ex) : "openrouter/free";
     const qa = [
-      ["Is there a free AI model API?", `Yes. OpenRouter offers ${or.length} models free through its API today. Model IDs end in :free, and the API works with the OpenAI SDK.`],
+      ["Is there a free AI model API?", `Yes. OpenRouter offers ${or.length} models free through its API today, with IDs ending in :free. Google Gemini, Groq, Cloudflare Workers AI and NVIDIA also have free tiers with their own limits.`],
       ["What are the free API rate limits?", "On OpenRouter, free models allow 20 requests per minute. You get 50 free requests a day, or 1,000 a day once you have bought at least 10 credits in total."],
       ["Do I need a credit card for a free LLM API key?", "No. You can create an OpenRouter account and API key without paying and use the :free models within the limits above."],
       ["Can I use OpenCode's free models through the API?", "No. OpenCode says its free chat models only work inside OpenCode. From other apps you need its paid models."]
@@ -364,6 +345,11 @@ bs.forEach(function(b){b.addEventListener("change",run)})})();</script>`;
 <p>Swap in any ID from the list. <code>openrouter/free</code> picks an available free model for you.</p></section>
 <section><h2>Free API limits</h2><ul class="rows"><li><span class="t">20 requests per minute</span><span class="m">on any :free model</span></li><li><span class="t">50 requests per day</span><span class="m">if you have bought less than 10 credits</span></li><li><span class="t">1,000 requests per day</span><span class="m">once you have bought 10 credits or more</span></li></ul>
 <p>Source: <a href="${OR_LIMITS}" rel="nofollow noopener">OpenRouter's rate limit docs</a>, checked ${esc(shortDate(lastDay))}.</p></section>
+<section id="other"><h2>Other free LLM APIs</h2><p>Upcurrent tracks OpenRouter live. These providers also have free tiers; facts below were checked on 22 November 2026 from each provider's own page.</p><ul class="rows">
+<li><span class="t"><a href="https://ai.google.dev/gemini-api/docs/pricing" rel="nofollow noopener">Google Gemini API</a></span><span class="m">Free tier on some models, such as Gemini 4 Hydrogen, Gemini 3.8 Flash and Gemini 3.5 Flash-Lite. The newest top models (Gemini 4 Carbon, Argon, Neon) are paid only. Free-tier prompts may be used to improve Google's products.</span></li>
+<li><span class="t"><a href="https://console.groq.com/docs/rate-limits" rel="nofollow noopener">Groq</a></span><span class="m">Free plan with limits per model. For example, gpt-oss-120b allows 30 requests a minute and 1,000 a day.</span></li>
+<li><span class="t"><a href="https://developers.cloudflare.com/workers-ai/platform/pricing/" rel="nofollow noopener">Cloudflare Workers AI</a></span><span class="m">10,000 Neurons a day free (its own unit of compute), across most of its models. Some newer models need a paid plan.</span></li>
+<li><span class="t"><a href="https://build.nvidia.com/" rel="nofollow noopener">NVIDIA (build.nvidia.com)</a></span><span class="m">Free inference endpoints for leading models, including Nemotron 3 Ultra and Kimi K3.1 Pro.</span></li></ul></section>
 <section id="list"><h2>${or.length} free models you can call by API</h2><ol class="rows">${or.map(f => freeRow(f)).join("")}</ol></section>`;
     mk("api/", { title: "Free AI model API: free LLMs you can call today | Upcurrent", h1: "Free AI model API: free LLMs you can call today", eyebrow: "Free AI models · API",
       lede: `You can call ${or.length} AI models for free through an API today, with no card needed. Here is how, with the exact model IDs, rate limits and an example request.`,
@@ -424,6 +410,90 @@ bs.forEach(function(b){b.addEventListener("change",run)})})();</script>`;
   return out;
 }
 
+// "New AI models" topic cluster: hub (this week), open source models, and a release tracker built from every
+// trending Hugging Face model Upcurrent has recorded. Numbers are Upcurrent's own readings.
+const MODEL_PAGES = [["", "This week"], ["open-source/", "Open source"], ["tracker/", "Release tracker"]];
+const modelNav = (cur, up) => `<nav class="guides" aria-label="New AI models guides">${MODEL_PAGES.map(([p, n]) => p === cur ? `<b>${esc(n)}</b>` : `<a href="${up}new-ai-models/${p}">${esc(n)}</a>`).join("")}<a href="${up}what-is/">Explained</a></nav>`;
+function modelHistory(days, data) {
+  const seen = new Map();
+  days.forEach(day => (data[day].models || []).forEach(m => {
+    const k = m.org + "/" + m.name, cur = seen.get(k) || { ...m, first: day, days: 0, dl: 0 };
+    cur.days++; cur.last = day; cur.dl = Math.max(cur.dl || 0, m.dl || 0); cur.likes = Math.max(cur.likes || 0, m.likes || 0);
+    cur.at = m.at || cur.at; cur.lic = m.lic || cur.lic; cur.cat = m.cat || cur.cat; seen.set(k, cur);
+  }));
+  return [...seen.values()];
+}
+const hfUrl = m => `https://huggingface.co/${m.org}/${m.name}`;
+const modelRow = (m, extra) => {
+  const slug = EXPLAIN.get(hfUrl(m));
+  return `<li><span class="t">${link(hfUrl(m), `${m.org}/${m.name}`)}${slug ? ` <a class="wi" href="/what-is/${slug}/">What is it?</a>` : ""}</span><span class="m">${esc([m.at && `released ${shortDate(m.at.slice(0, 10))}`, m.cat, m.lic, `${fmt(m.dl)} downloads`, m.likes ? `${fmt(m.likes)} likes` : null, extra].filter(Boolean).join(" · "))}</span></li>`;
+};
+function modelCluster(days, data, last, updated) {
+  const out = {}, recent = days.slice(-7), firstDay = days[0], hist = modelHistory(days, data);
+  const week = modelHistory(recent, data).sort((a, b) => Date.parse(b.at || 0) - Date.parse(a.at || 0));
+  const asof = `<p class="asof">Last checked ${esc(asOf(updated))}. Upcurrent reads Hugging Face's trending models every 30 minutes.</p>`;
+  const mk = (sub, { title, h1, eyebrow, lede, desc, body, qa, list, crumb }) => {
+    const url = `${SITE}new-ai-models/${sub}`, up = sub ? "../../" : "../";
+    const html = `<section><div class="eyebrow">${esc(eyebrow)}</div><h1>${esc(h1)}</h1><p class="lede">${esc(lede)}</p>${modelNav(sub, up)}${asof}</section>
+${body}
+${faqHtml(qa)}
+<section class="share" aria-label="Share this page"><b>Share:</b> ${shareLinks(url, h1)}</section>`;
+    const ld = [...(list ? [{ "@context": "https://schema.org", "@type": "ItemList", name: h1, url, numberOfItems: list.length, itemListElement: list.map((m, i) => ({ "@type": "ListItem", position: i + 1, name: `${m.org}/${m.name}`, url: hfUrl(m) })) }] : []),
+      faq(qa), breadcrumb([["Upcurrent", SITE], ["New AI models", SITE + "new-ai-models/"], ...(sub ? [[crumb, url]] : [])])];
+    out["new-ai-models" + (sub ? "/" + sub.replace(/\/$/, "") : "")] = page({ title, description: clip(desc, 160), canonical: url, body: html, ld, up, ogType: sub ? "article" : "website" });
+  };
+
+  {
+    const open = week.filter(m => /^open source/i.test(m.lic || "")).length;
+    const top = [...week].sort((a, b) => b.dl - a.dl)[0];
+    const qa = [
+      ["What new AI models came out this week?", week.length ? `New models trending on Hugging Face this week include ${week.slice(0, 5).map(m => `${m.org}/${m.name}`).join(", ")}.${top ? ` The most downloaded so far is ${top.org}/${top.name} with ${fmt(top.dl)} downloads.` : ""}` : "See the list on this page."],
+      ["Where can I find new AI models?", "Hugging Face hosts most new open models. Upcurrent reads its trending list every 30 minutes and keeps only recent releases, so new models aren't buried under old favourites."],
+      ["Can I download these models for free?", `Yes. Every model listed is downloadable from Hugging Face. ${open} of this week's ${week.length} are open source; the rest are open weights, which can carry use limits, so check each licence.`],
+      ["How are models picked?", "A model appears when it is trending on Hugging Face and was released recently. The list keeps each model's highest recorded download count."]
+    ];
+    const body = `<section id="list"><h2>${week.length} new AI models, newest first</h2><ol class="rows">${week.map(m => modelRow(m)).join("")}</ol></section>
+<section><h2>More on new models</h2><ul class="rows">
+<li><span class="t"><a href="open-source/">New open source AI models</a></span><span class="m">Only models you can freely use and change, with what "open source" and "open weights" mean</span></li>
+<li><span class="t"><a href="tracker/">AI model release tracker</a></span><span class="m">All ${hist.length} new models Upcurrent has seen trending since ${shortDate(firstDay)}</span></li>
+<li><span class="t"><a href="../what-is/">New AI projects explained</a></span><span class="m">A plain explanation of every model and repo that reached the top 5</span></li>
+<li><span class="t"><a href="../free-ai-models/">Free AI models to use right now</a></span><span class="m">Models you can call for free, no download needed</span></li></ul></section>`;
+    mk("", { title: `New AI models this week: ${week.length} trending releases | Upcurrent`, h1: "New AI models this week", eyebrow: "New AI models · updated every 30 minutes",
+      lede: `${week.length} recently released AI models trended on Hugging Face over the last ${recent.length} days. ${open} are open source. Newest first, with real download counts.`,
+      desc: `${week.length} new AI models released and trending this week on Hugging Face, newest first, with downloads, licence and category. Updated every 30 minutes.`, body, qa, list: week });
+  }
+  {
+    const os = [...hist].filter(m => /^open (source|weights)/i.test(m.lic || "")).sort((a, b) => Date.parse(b.at || 0) - Date.parse(a.at || 0)).slice(0, 40);
+    const n = os.filter(m => /^open source/i.test(m.lic)).length;
+    const qa = [
+      ["What are the newest open source AI models?", `The most recent open models Upcurrent has seen trending are ${os.slice(0, 5).map(m => `${m.org}/${m.name}`).join(", ")}.`],
+      ["What is the difference between open source and open weights?", "Open source models use a licence such as Apache 2.0 or MIT that lets you use, change and share them freely, including commercially. Open weights models let you download and run the model, but their licence can limit use, for example by company size or purpose."],
+      ["How do I run an open source model?", "Download it from Hugging Face and run it with a tool such as Ollama, LM Studio or llama.cpp. Smaller and quantised versions (often marked GGUF) run on a normal laptop."]
+    ];
+    const body = `<section id="list"><h2>${os.length} newest open models</h2><p>${n} are open source and ${os.length - n} open weights, as labelled on Hugging Face.</p><ol class="rows">${os.map(m => modelRow(m)).join("")}</ol></section>`;
+    mk("open-source/", { title: "New open source AI models: latest releases | Upcurrent", h1: "New open source AI models", eyebrow: "New AI models · open source",
+      lede: `The ${os.length} newest open AI models that trended on Hugging Face, with their licence, downloads and category. ${n} are fully open source.`,
+      desc: `The newest open source and open weights AI models trending on Hugging Face, with licence, downloads and how to run them. Updated every 30 minutes.`, body, qa, list: os, crumb: "Open source" });
+  }
+  {
+    const sorted = [...hist].sort((a, b) => Date.parse(b.at || b.first) - Date.parse(a.at || a.first));
+    const cats = Object.entries(hist.reduce((a, m) => (a[m.cat || "Other"] = (a[m.cat || "Other"] || 0) + 1, a), {})).sort((a, b) => b[1] - a[1]);
+    const longest = [...hist].sort((a, b) => b.days - a.days)[0], biggest = [...hist].sort((a, b) => b.dl - a.dl)[0];
+    const qa = [
+      ["How many new AI models trend each month?", `Since ${shortDate(firstDay)}, Upcurrent has recorded ${hist.length} newly released models trending on Hugging Face.`],
+      ["What kind of AI models are being released most?", `${cats.slice(0, 3).map(([c, n]) => `${c} (${n})`).join(", ")} lead the count of new trending models since ${shortDate(firstDay)}.`],
+      ["Can I use this data?", "Yes. It is part of Upcurrent's open data, licensed CC BY 4.0. Please link to this page if you cite it."]
+    ];
+    const body = `<section><h2>Key numbers</h2><ul class="stats"><li><b class="num">${hist.length}</b> new models trending since ${esc(shortDate(firstDay))}</li>${cats.slice(0, 4).map(([c, n]) => `<li><b class="num">${n}</b> ${esc(c)}</li>`).join("")}${biggest ? `<li>Most downloaded: <b>${esc(biggest.org + "/" + biggest.name)}</b> (${fmt(biggest.dl)})</li>` : ""}${longest ? `<li>Trended longest: <b>${esc(longest.org + "/" + longest.name)}</b> (${longest.days} days)</li>` : ""}</ul>
+<p>From end-of-day snapshots of Hugging Face's trending list. Cite as: Upcurrent AI model release tracker, ${esc(SITE)}new-ai-models/tracker/ (CC BY 4.0).</p></section>
+<section id="list"><h2>Every new model, newest release first</h2><ol class="rows">${sorted.map(m => modelRow(m, `trended ${m.days} ${m.days === 1 ? "day" : "days"}`)).join("")}</ol></section>`;
+    mk("tracker/", { title: "AI model release tracker: every new open model | Upcurrent", h1: "AI model release tracker", eyebrow: "New AI models · open data",
+      lede: `${hist.length} newly released AI models have trended on Hugging Face since ${shortDate(firstDay)}. Here is every one, with its release date, peak downloads and how long it stayed trending.`,
+      desc: `Every new AI model that trended on Hugging Face since ${shortDate(firstDay)} (${hist.length}), with release date, downloads, licence and days trending. CC BY 4.0.`, body, qa, list: sorted, crumb: "Release tracker" });
+  }
+  return out;
+}
+
 // Crawler helpers written at the site root: robots.txt (now that the site owns its domain), an RSS feed of the
 // daily pages, llms.txt for AI crawlers, and the email preview filled in so its text is in the HTML.
 function crawlerFiles(days, data, guides, latest) {
@@ -459,6 +529,8 @@ ${GUIDES.filter(g => guides[g.slug]).map(g => `- [${g.title}](${SITE}${g.slug}/)
 - [Free AI model API: rate limits and model IDs](${SITE}free-ai-models/api/)
 - [OpenRouter free models list](${SITE}free-ai-models/openrouter/)
 - [OpenCode free models](${SITE}free-ai-models/opencode/)
+- [New open source AI models](${SITE}new-ai-models/open-source/)
+- [AI model release tracker: every new model trending since October 2026](${SITE}new-ai-models/tracker/)
 - [Free AI model tracker: every model seen free and how long it lasted](${SITE}free-ai-models/history/)
 - [New AI projects explained](${SITE}what-is/): one page per AI repo, model or paper that reached the top ${EXPLAIN_TOP} rising
 - [Daily archive](${SITE}daily/): one page per day since ${shortDate(days[0])}
