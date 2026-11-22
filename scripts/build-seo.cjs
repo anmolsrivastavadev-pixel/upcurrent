@@ -459,6 +459,16 @@ ${faqHtml(qa)}
 <li><span class="t"><a href="opencode/">OpenCode free models</a></span><span class="m">${oc.length} models that are free inside the OpenCode coding agent</span></li>
 <li><span class="t"><a href="history/">Free AI model tracker</a></span><span class="m">All ${hist.length} models seen free since ${shortDate(firstDay)}, and how long each lasted</span></li>
 </ul></section>
+${(() => {
+  const toolBig0 = free.filter(hasTools).sort((a, b) => (b.ctx || 0) - (a.ctx || 0))[0], big = [...free].filter(f => f !== toolBig0).sort((a, b) => (b.ctx || 0) - (a.ctx || 0))[0], toolBig = free.filter(hasTools).sort((a, b) => (b.ctx || 0) - (a.ctx || 0))[0], vis = free.find(f => f !== toolBig && capsOf(f.caps).includes("images") && hasTools(f)) || free.find(f => f !== toolBig && capsOf(f.caps).includes("images"));
+  const picks = [[toolBig, "For coding agents", "has tool calling and the longest context of the free models that do"], [vis, "For reading screenshots and images", hasTools(vis || {}) ? "accepts images and can call tools" : "accepts images"], [big, "For long documents", big && big.prov === "OpenCode Zen" ? "has one of the biggest context windows on the free list (inside OpenCode only)" : "has one of the biggest context windows on the free list"]].filter(([f]) => f);
+  return `<section id="picks"><h2>Upcurrent's picks from today's list</h2><p>Picked by rule from today's data, not by hand, so they change when the list does.</p><ul class="rows">${picks.map(([f, why, how]) => `<li><span class="t">${esc(why)}: ${link(f.url, f.name)}</span><span class="m">${esc(`${f.prov} · ${ctxLabel(f.ctx) || "?"} context · it ${how}`)}</span></li>`).join("")}</ul></section>`;
+})()}
+<section id="catch"><h2>What's the catch with free AI models?</h2>
+<p><b>Your data and privacy.</b> Free models are often free because the provider wants feedback or training data. Many free OpenRouter models say prompts may be logged, and Gemini's free tier may use content to improve Google's products. Don't paste customer data or secrets into a free model.</p>
+<p><b>They disappear.</b> Since ${esc(shortDate(firstDay))} Upcurrent has seen ${hist.length} models offered free; ${gone.length} have stopped being free, half within ${median ?? "a few"} days. Only ${allTime} ${allTime === 1 ? "has" : "have"} been free every day since then. Build so you can swap models.</p>
+<p><b>Limits.</b> Free-tier limits are much lower than paid ones. OpenRouter allows 20 requests a minute and 50 a day (1,000 after buying 10 credits). OpenCode's free models only work inside OpenCode. Free OpenRouter models are called through the same OpenAI-compatible API as paid ones, so moving up later is a one-line change.</p></section>
+<section><h2>Free models from other providers</h2><ul class="rows"><li><span class="t"><a href="gemini/">Gemini API free tier</a></span><span class="m">Gemini 4 Hydrogen and Gemini 3.8 Flash, free with no billing account</span></li><li><span class="t"><a href="groq/">Groq free API</a></span><span class="m">gpt-oss-120b and qwen3.8-27b, 1,000 requests a day each</span></li><li><span class="t"><a href="cloudflare/">Cloudflare Workers AI</a></span><span class="m">10,000 Neurons a day across most of its models</span></li><li><span class="t"><a href="coding-tools/">Free AI coding tools</a></span><span class="m">GitHub Copilot Free, Cursor, Kilo Code, Antigravity and more</span></li></ul></section>
 ${events.length ? `<section id="changes"><h2>Added and removed this week</h2><ul class="rows">${events.slice(0, 30).map(e => `<li><span class="t">${e.type === "added" ? "Added" : "Removed"}: ${link(e.url, e.name)}</span><span class="m">${esc(e.prov)} · ${esc(asOf(e.at))}</span></li>`).join("")}</ul></section>` : ""}
 <script>(function(){var bs=[].slice.call(document.querySelectorAll(".finder input")),rows=[].slice.call(document.querySelectorAll("#freeList li")),c=document.getElementById("finderCount");
 function run(){var on=bs.filter(function(b){return b.checked}).map(function(b){return b.dataset.f}),n=0;rows.forEach(function(r){var caps=r.dataset.caps.split(","),ok=on.every(function(f){return f==="ctx"?+r.dataset.ctx>=1e6:f==="api"?r.dataset.prov==="OpenRouter":caps.indexOf(f)>-1});r.hidden=!ok;if(ok)n++});c.textContent=on.length?("Showing "+n+" of "+rows.length+"."):("Showing all "+rows.length+".")}
@@ -520,10 +530,32 @@ print(reply.choices[0].message.content)</code></pre>
 <li><span class="t"><a href="../gemini/">Google Gemini API</a></span><span class="m">Free tier on some models, such as Gemini 4 Hydrogen, Gemini 3.8 Flash and Gemini 3.5 Flash-Lite. The newest top models (Gemini 4 Carbon, Argon, Neon) are paid only. Free-tier prompts may be used to improve Google's products.</span></li>
 <li><span class="t"><a href="../groq/">Groq</a></span><span class="m">Free plan with limits per model. For example, gpt-oss-120b allows 30 requests a minute and 1,000 a day.</span></li>
 <li><span class="t"><a href="../cloudflare/">Cloudflare Workers AI</a></span><span class="m">10,000 Neurons a day free (its own unit of compute), across most of its models. Some newer models need a paid plan.</span></li>
-<li><span class="t"><a href="https://build.nvidia.com/" rel="nofollow noopener">NVIDIA (build.nvidia.com)</a></span><span class="m">Free inference endpoints for leading models, including Nemotron 3 Ultra and Kimi K3.1 Pro.</span></li></ul></section>
+<li><span class="t"><a href="https://build.nvidia.com/" rel="nofollow noopener">NVIDIA (build.nvidia.com)</a></span><span class="m">Free inference endpoints for leading models, including Nemotron 3 Ultra and Kimi K3.1 Pro.</span></li>
+<li><span class="t"><a href="https://docs.cohere.com/docs/rate-limits" rel="nofollow noopener">Cohere</a></span><span class="m">Free trial keys for its Command models: 1,000 API calls a month and 20 requests a minute on chat models.</span></li>
+<li><span class="t"><a href="https://mistral.ai/pricing" rel="nofollow noopener">Mistral</a></span><span class="m">Its Free plan includes access to Mistral Studio, where the API lives. The pricing page doesn't say how much free API use that includes, so check your Studio dashboard.</span></li></ul></section>
+<section id="compare"><h2>Free LLM APIs compared</h2><div class="tablewrap"><table><thead><tr><th>API</th><th>Free limits</th><th>Card?</th><th>Your data</th></tr></thead><tbody>
+${["openrouter", "gemini", "groq", "cloudflare"].map(k => API_FACTS[k]).map(p => `<tr><th scope="row"><a href="../${p.page}">${esc(p.name)}</a></th><td>${esc(p.limits)}</td><td>${esc(p.card)}</td><td>${esc(p.data)}</td></tr>`).join("")}
+</tbody></table></div><p>Side by side: <a href="../openrouter-vs-gemini/">OpenRouter vs Gemini</a> · <a href="../openrouter-vs-groq/">OpenRouter vs Groq</a> · <a href="../groq-vs-gemini/">Groq vs Gemini</a>.</p></section>
+${(() => {
+  const vis = or.filter(f => capsOf(f.caps).includes("images")).length;
+  const fam = Object.entries(or.reduce((a, f) => { const k = (f.name.split(/[\s:\/-]/)[0] || "").replace(/[^A-Za-z]/g, ""); if (k.length > 2) a[k] = (a[k] || 0) + 1; return a; }, {})).sort((a, b) => b[1] - a[1]).slice(0, 6);
+  return `<section id="more"><h2>Beyond chat: vision, speech-to-text and embeddings for free</h2><ul class="rows">
+<li><span class="t">Vision (multimodal models)</span><span class="m">${vis} of today's ${or.length} free OpenRouter models accept images as well as text. More in <a href="../image-and-speech/">free image and speech APIs</a></span></li>
+<li><span class="t">Speech-to-text</span><span class="m">Groq's free plan runs whisper-large-v3 at 20 requests a minute and 2,000 a day. Gemini 3.5 Transcribe is also on Gemini's free tier</span></li>
+<li><span class="t">Embeddings</span><span class="m">gemini-embedding-2 is free on Gemini's free tier, for search and retrieval projects</span></li>
+<li><span class="t">Tokens per minute, not just requests</span><span class="m">Some limits count tokens too. Groq's gpt-oss-120b allows 8,000 tokens per minute on the free plan, so long prompts hit the cap before the request count does</span></li>
+<li><span class="t">One SDK for all of them</span><span class="m">OpenRouter, Gemini, Groq and Cloudflare are all OpenAI-compatible, so the OpenAI SDK works with each by changing the base URL. <a href="../openai-compatible/">Base URLs here</a></span></li>
+${fam.length ? `<li><span class="t">Model families on the free list today</span><span class="m">${esc(fam.map(([k, n]) => `${k} (${n})`).join(", "))}</span></li>` : ""}</ul></section>`;
+})()}
+<section id="take"><h2>Upcurrent's take: which free API should you use?</h2>
+<p><b>Start with OpenRouter.</b> One free key reaches ${or.length} free models today, and switching model is one line. That matters more than any single model, because free models don't last: of the ${gone.length} models Upcurrent has seen stop being free since ${esc(shortDate(firstDay))}, half lasted ${median ?? "a few"} days or less (<a href="../history/">tracker</a>).</p>
+<p><b>Add a second provider as a backup.</b> Gemini's free tier for a big-context Google model, or Groq when speed matters. When one hits its limit, switch to the other instead of waiting.</p>
+<p><b>Don't send private data to any free tier.</b> Gemini says free-tier content may be used to improve Google's products, and many free OpenRouter models say prompts may be logged. Free is fine for side projects and testing; pay for anything with customer data.</p>
+<p><b>"Unlimited free" doesn't exist.</b> Every provider above caps requests or compute. Lists that promise unlimited free keys are usually out of date or reselling someone else's quota.</p></section>
+
 <section id="list"><h2>${or.length} free models you can call by API</h2><ol class="rows">${or.map(f => freeRow(f)).join("")}</ol></section>`;
     mk("api/", { title: "Free AI model API: free LLMs you can call today | Upcurrent", h1: "Free AI model API: free LLMs you can call today", eyebrow: "Free AI models · API",
-      lede: `You can call ${or.length} AI models for free through an API today, with no card needed. Here is how, with the exact model IDs, rate limits and an example request.`,
+      lede: `You can call ${or.length} AI models for free through an API today, with no card needed. Here is how, with exact model IDs, rate limits, example code, how 8 free LLM APIs compare, and which one we'd pick.`,
       desc: `How to use a free LLM API: ${or.length} free models with exact IDs, OpenRouter rate limits (20 a minute, 50 or 1,000 a day) and a copy-paste example request.`,
       body, qa, list: or, crumb: "Free API" });
   }
@@ -693,6 +725,21 @@ ${faqHtml(qa)}
 ` : "";
     if (big.length) qa.unshift(["What are the latest big AI model releases?", `In the last 14 days: ${big.slice(0, 4).map(b => `${b.t.replace(/^(Introducing|Announcing) /i, "").replace(/ is now available$/i, "")} (${b.src}, ${shortDate(b.day)})`).join("; ")}.`]);
     const body = bigHtml + `<section id="list"><h2>${week.length} new open AI models, newest first</h2><ol class="rows">${week.map(m => modelRow(m)).join("")}</ol></section>
+${(() => {
+  const byOrg = Object.entries(week.reduce((a, m) => (a[m.org] = (a[m.org] || 0) + 1, a), {})).sort((a, b) => b[1] - a[1]).slice(0, 3);
+  const quant = week.filter(m => /gguf|awq|fp8|int4|mlx/i.test(m.name)).length;
+  return `<section id="take"><h2>What stands out this week</h2><ul class="rows">${top ? `<li><span class="t">Most downloaded new model: ${link(hfUrl(top), top.org + "/" + top.name)}</span><span class="m">${fmt(top.dl)} downloads, released ${esc(shortDate((top.at || "").slice(0, 10) || recent[0]))}</span></li>` : ""}${byOrg.length && byOrg[0][1] > 1 ? `<li><span class="t">Busiest publishers: ${esc(byOrg.map(([o, n]) => `${o} (${n})`).join(", "))}</span><span class="m">Models on this week's list, by Hugging Face account</span></li>` : ""}<li><span class="t">${quant} of ${week.length} are compressed versions (GGUF, AWQ, FP8, MLX)</span><span class="m">Smaller copies of bigger models, made to run on ordinary computers with tools like Ollama or LM Studio</span></li></ul></section>`;
+})()}
+<section id="names"><h2>How to read AI model names</h2><ul class="rows">
+<li><span class="t">Version numbers (Gemini 4, GPT-6.2)</span><span class="m">A bigger first number is a new generation; the decimal is an update to it</span></li>
+<li><span class="t">Size words: Flash, Lite, Mini, Nano, Small</span><span class="m">Smaller, faster and cheaper versions of the same family</span></li>
+<li><span class="t">Pro, Ultra, Max, Large</span><span class="m">The bigger, slower, more capable versions</span></li>
+<li><span class="t">Numbers with B (27B, 120B)</span><span class="m">Billions of parameters, a rough measure of size. "A12B" means only 12 billion are active per word, which makes big models cheaper to run</span></li>
+<li><span class="t">GGUF, AWQ, FP8, MLX</span><span class="m">Compressed formats for running a model on your own machine; GGUF works with Ollama and LM Studio, MLX with Apple Silicon Macs</span></li>
+<li><span class="t">Thinking, Reasoning, R1</span><span class="m">Reasoning models that work through a problem step by step before answering: slower, but better at maths and code</span></li>
+<li><span class="t">VL, Omni, Vision</span><span class="m">Multimodal models that take images, and sometimes audio or video, as well as text</span></li>
+<li><span class="t">Instruct, Chat, Base</span><span class="m">Instruct and Chat versions are tuned to follow requests; Base versions are raw and meant for further training</span></li></ul></section>
+<section id="method"><h2>How this list is ranked</h2><p>Upcurrent ranks new models by real Hugging Face downloads and likes since release, not by benchmark scores. A model can top a benchmark leaderboard and still be little used, or the other way round. For benchmark accuracy comparisons, see <a href="https://artificialanalysis.ai/" rel="nofollow noopener">Artificial Analysis</a>. <a href="../about/">Full method</a>.</p></section>
 <section><h2>More on new models</h2><ul class="rows">
 <li><span class="t"><a href="open-source/">New open source AI models</a></span><span class="m">Only models you can freely use and change, with what "open source" and "open weights" mean</span></li>
 <li><span class="t"><a href="tracker/">AI model release tracker</a></span><span class="m">All ${hist.length} new models Upcurrent has seen trending since ${shortDate(firstDay)}</span></li>
