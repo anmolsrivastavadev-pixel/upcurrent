@@ -598,7 +598,7 @@ function explainerPage(it, all) {
   }
   const latestNums = numbersLine(it, last);
   const seen = `Upcurrent first spotted it among the fastest-rising AI projects on ${shortDate(first.day)}. It has appeared on ${it.hist.length} daily list${it.hist.length > 1 ? "s" : ""} so far, peaking at #${best}.`;
-  const title = it.src === "paper" ? `${clip(it.name, 52)}: paper explained | Upcurrent` : (t => t.length <= 66 ? t : `What is ${it.name.length <= 40 ? it.name : it.name.slice(0, 39) + "…"}? | Upcurrent`)(`What is ${it.name}? ${kindShort}${it.owner ? ` by ${it.owner}` : ""} | Upcurrent`);
+  const title = it.src === "paper" ? `${clip(it.name, 52)}: paper explained | Upcurrent` : [`What is ${it.name}? ${kindShort}${it.owner ? ` by ${it.owner}` : ""} | Upcurrent`, ...(it.owner ? [`What is ${it.name}? By ${it.owner} | Upcurrent`] : []), `What is ${it.name.length <= 40 ? it.name : it.name.slice(0, 39) + "…"}? | Upcurrent`].find(t => t.length <= 66) || `What is ${it.name.slice(0, 39)}…? | Upcurrent`;
   const description = clip(`${what} ${summary ? summary + " " : ""}${latestNums ? `Latest: ${latestNums}.` : ""}`.replace(/\s+/g, " "), 160);
   const related = all.filter(o => o !== it && o.cat && o.cat === it.cat).sort((a, b) => b.hist[b.hist.length - 1].day.localeCompare(a.hist[a.hist.length - 1].day)).slice(0, 6);
   const qa = [
@@ -651,7 +651,7 @@ function explainerIndex(items) {
     { "@context": "https://schema.org", "@type": "CollectionPage", name: "New AI projects, explained", url, hasPart: sorted.slice(0, 100).map(o => ({ "@type": "Article", headline: o.src === "paper" ? clip(o.name, 110) : `What is ${o.name}?`, url: `${url}${o.slug}/` })) },
     breadcrumb([["Upcurrent", SITE], ["Explained", url]])
   ];
-  return page({ title: "New AI projects explained: what they are, how they grew | Upcurrent", description: "Plain explanations of the newest AI repos, models and papers that are rising fast, with real growth numbers recorded by Upcurrent.", canonical: url, body, ld, ogType: "website" });
+  return page({ title: "New AI projects explained: what they are and how they grew", description: "Plain explanations of the newest AI repos, models and papers that are rising fast, with real growth numbers recorded by Upcurrent.", canonical: url, body, ld, ogType: "website" });
 }
 
 
