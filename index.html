@@ -350,6 +350,14 @@ iframe.skiptranslate, .goog-te-banner-frame, #goog-gt-tt, .goog-te-balloon-frame
 body { top: 0 !important; }
 font[style] { background: none !important; box-shadow: none !important; }
 /* how it works: three steps beside a small live window of real data */
+.qa { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+@media (max-width: 760px) { .qa { grid-template-columns: minmax(0, 1fr); } }
+.qa > div { padding: 20px 22px; background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius-lg); }
+.qa h3 { margin: 0 0 8px; font: 700 18px/1.25 var(--font-display); }
+.qa p, .qa ol { margin: 0; color: var(--muted); font-size: 15px; }
+.qa ol { padding-left: 20px; display: grid; gap: 4px; }
+.qa b { color: var(--ink); }
+.qa a { color: var(--link); text-decoration: underline; text-underline-offset: 2px; }
 .demo { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); gap: 28px; align-items: start; }
 .steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
 .steps li { display: grid; grid-template-columns: 44px minmax(0, 1fr); gap: 16px; padding: 20px 22px; background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius-lg); }
@@ -456,6 +464,11 @@ font[style] { background: none !important; box-shadow: none !important; }
       <summary>How the momentum score works</summary>
       <p>Each item gets a 0–100 score. It is ranked against other items from the same source by attention per day (GitHub stars, Hugging Face trending score, paper upvotes), then gets a small boost if it is less than nine days old. The colour runs from cool blue to hot red with the score. Growth % appears once the page has seen an item on an earlier visit.</p>
     </details>
+  </section>
+
+  <section class="block" id="answers">
+    <div class="sec-head"><div><div class="eyebrow">Quick answers · updated with every check</div><h2>What's happening in AI right now</h2></div></div>
+    <div class="qa" id="qaList"></div>
   </section>
 
   <section class="block" id="how">
@@ -813,8 +826,27 @@ function renderDemo(D) {
 $("demoTabs").addEventListener("click", e => { const b = e.target.closest("button[data-i]"); if (!b) return; demoTab = +b.dataset.i; renderDemo(DATA); });
 $("demoTabs").addEventListener("keydown", e => { if (!/Arrow(Up|Down|Left|Right)/.test(e.key)) return; e.preventDefault(); const n = demoTabs(DATA).length; demoTab = (demoTab + (/Down|Right/.test(e.key) ? 1 : n - 1)) % n; renderDemo(DATA); $("demoTabs").querySelector(`[data-i="${demoTab}"]`).focus(); });
 
+function qaItems(D) {
+  const R = D.rising || [], kind = { gh: "an open-source project on GitHub", hf: "a model on Hugging Face", paper: "a research paper", ph: "a launch on Product Hunt" };
+  const lnk = (r, t) => `<a href="${esc(linkFor(r))}" target="_blank" rel="noopener">${esc(t || r.name)}</a>`;
+  const stat = r => ((r.meta || []).find(m => /in 24h|downloads|upvotes/.test(m) && !/^0 /.test(m)) || "").replace(/ in 24h$/, " stars in 24h");
+  const out = [];
+  const top = R[0], h = (D.headlines || [])[0], nm = (D.pulse || {}).newModels;
+  if (top) out.push(["What is new in AI today?", `<p>The fastest-rising thing in AI right now is <b>${lnk(top)}</b>, ${kind[top.src] || "a new project"}${top.owner && top.src !== "paper" && top.src !== "ph" ? ` from ${esc(top.owner)}` : ""}${stat(top) ? ` (${esc(stat(top))})` : ""}.${nm ? ` ${nm} AI models were released on Hugging Face this week.` : ""}${h ? ` The latest headline: <a href="${esc(h.url)}" target="_blank" rel="noopener">${esc(h.t)}</a> (${esc(h.src)}).` : ""}</p>`]);
+  if (R.length >= 5) out.push(["What are the top 5 AI projects right now?", `<ol>${R.slice(0, 5).map(r => `<li>${lnk(r)} <span>· ${esc({ gh: "GitHub", hf: "Hugging Face", paper: "Paper", ph: "Product Hunt" }[r.src] || r.src)}${stat(r) ? " · " + esc(stat(r)) : ""}</span></li>`).join("")}</ol>`]);
+  const counts = {};
+  R.slice(0, 10).forEach(r => { if (r.cat) counts[r.cat] = (counts[r.cat] || 0) + 1; });
+  const cat = Object.keys(counts).sort((a, b) => counts[b] - counts[a])[0];
+  if (cat) { const lead = R.find(r => r.cat === cat), n = Math.min(10, R.length);
+    out.push(["What is the hottest topic in AI right now?", `<p><b>${esc(cat)}</b>. ${counts[cat]} of the ${n} fastest-rising AI projects are in that category, led by ${lnk(lead)}.</p>`]); }
+  const F = D.free || [];
+  if (F.length) out.push(["Which AI models can I use for free right now?", `<p>${F.length} AI models are free to use right now, including ${F.slice(0, 3).map(f => `<b>${esc(f.name.replace(/ ?\(?free\)?$/i, ""))}</b> (${esc(f.prov)})`).join(", ")}. <a href="free-ai-models/">See the full list</a>.</p>`]);
+  return out;
+}
+function renderQA(D) { $("qaList").innerHTML = qaItems(D).map(([q, a]) => `<div><h3>${esc(q)}</h3>${a}</div>`).join(""); }
 function render() {
   const D = DATA;
+  try { renderQA(D); } catch (e) { console.warn("qa", e); }
   try { renderDemo(D); } catch (e) { console.warn("demo", e); }
   sinceBaseline(D);
   const sb = $("sinceBar");

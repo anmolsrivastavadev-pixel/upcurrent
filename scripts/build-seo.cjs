@@ -318,7 +318,7 @@ ${GUIDES.filter(g => guides[g.slug]).map(g => `- [${g.title}](${SITE}${g.slug}/)
 
 // Copies the dashboard's rendered sections into index.html so the first byte already holds today's content.
 // The page's script re-renders the same places from data/latest.json as soon as it loads.
-const PRERENDER_IDS = ["ticker", "demoTabs", "demoWin", "dateline", "headline", "brief", "pulse", "pills", "boList", "hypeList", "risingList", "rcList", "modelGrid", "ghBody", "disc", "newToday", "newsList", "freeSub", "freeBody"];
+const PRERENDER_IDS = ["ticker", "qaList", "demoTabs", "demoWin", "dateline", "headline", "brief", "pulse", "pills", "boList", "hypeList", "risingList", "rcList", "modelGrid", "ghBody", "disc", "newToday", "newsList", "freeSub", "freeBody"];
 function innerById(html, id) {
   const open = new RegExp(`<([a-zA-Z][\\w-]*)\\b[^>]*\\bid="${id}"[^>]*>`).exec(html);
   if (!open) return null;
@@ -353,6 +353,10 @@ function prerender(src, dumped) {
     if (!re.test(out)) throw new Error(`#${id} is not empty in index.html`);
     out = out.replace(re, (_, a, _t, b) => a + filled[id].replace(/\$/g, "$$$$") + b);
   }
+  // The quick answers double as a FAQ for search engines, built from exactly what the page shows.
+  const strip = h => h.replace(/<\/li>/g, "; ").replace(/<[^>]+>/g, "").replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/\s+/g, " ").replace(/;\s*$/, "").trim();
+  const qa = [...filled.qaList.matchAll(/<h3>([\s\S]*?)<\/h3>([\s\S]*?)<\/div>/g)].map(m => [strip(m[1]), strip(m[2])]).filter(([q, a]) => q && a);
+  if (qa.length) { const ld = ldJson(faq(qa)); out = out.replace("</head>", () => ld + "\n</head>"); }
   return out.replace("<html lang=\"en\">", "<html lang=\"en\" data-prerendered>");
 }
 
