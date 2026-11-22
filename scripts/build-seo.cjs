@@ -430,7 +430,7 @@ const modelRow = (m, extra) => {
 };
 // Big model launches (GPT, Gemini, Claude...) from official lab blog posts, plus Techmeme launch headlines
 // when no lab post covers the same model. Lab posts come from the daily archive and the latest fetch.
-const BIG_MODEL = /\b(GPT|Gemini|Claude|Llama|Grok|Qwen|DeepSeek|Mistral|Kimi|Nemotron|Genie|Gemma|Sora|Veo|Phi)[- ]?\d[\w.]*/;
+const BIG_MODEL = /\b(GPT|Gemini|Claude|Llama|Grok|Qwen|DeepSeek|Mistral|Kimi|Nemotron|Genie|Gemma|Sora|Veo|Phi)(?:[- ][A-Z][a-z]+)?[- ]?\d[\w.]*/;
 function bigReleases(days, data) {
   const found = new Map(), seen = new Set();
   const take = (h, day, labPost) => {
@@ -439,7 +439,7 @@ function bigReleases(days, data) {
     const lab = labPost && /^(introducing|announcing)\b|\bis now available\b|\blaunch/i.test(t);
     const news = !labPost && /Techmeme/.test(h.src || "") && /\b(releases|launches|rolls out|unveils|debuts|introduces)\b/i.test(t) && !/\b(sources?|reportedly|report)\b/i.test(t);
     if (!lab && !news) return;
-    const key = m[0].replace(/[- ]/, " ").toLowerCase() + "|" + day;
+    const key = m[0].replace(/[- ]/g, " ").toLowerCase() + "|" + day;
     if (!found.has(h.url)) found.set(h.url, { t, url: h.url, src: h.src, day, lab, key });
   };
   days.forEach(day => (data[day].headlines || []).forEach(h => take(h, day, h.kind === "Lab blog")));
