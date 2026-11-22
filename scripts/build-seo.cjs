@@ -54,7 +54,8 @@ iframe.skiptranslate,.goog-te-banner-frame,#goog-gt-tt,.goog-te-balloon-frame,.V
 body{top:0!important}font[style]{background:none!important;box-shadow:none!important}
 .nl{display:flex;flex-wrap:wrap;gap:8px}.nl input[type=email]{flex:1 1 220px;min-width:0;font:inherit;padding:11px 14px;border-radius:10px;border:1px solid var(--line);background:var(--paper);color:var(--ink)}.nl button{font:700 15px var(--font-body);padding:11px 18px;border-radius:10px;border:0;background:var(--warm);color:#111;cursor:pointer}
 code{font:13.5px var(--font-mono);background:var(--code,var(--chip));color:var(--code-ink,var(--ink));padding:1px 5px;border-radius:4px;overflow-wrap:anywhere}pre{background:var(--code,var(--chip));padding:14px 16px;border-radius:10px;overflow-x:auto;max-width:100%}pre code{padding:0;background:none;overflow-wrap:normal}
-.finder{display:flex;flex-wrap:wrap;gap:8px}.finder label{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:6px 14px;border:1px solid var(--line);border-radius:999px;font-size:14.5px;cursor:pointer}.finder input{width:18px;height:18px;accent-color:var(--hot)}`;
+.finder{display:flex;flex-wrap:wrap;gap:8px}.finder label{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:6px 14px;border:1px solid var(--line);border-radius:999px;font-size:14.5px;cursor:pointer}.finder input{width:18px;height:18px;accent-color:var(--hot)}
+.tablewrap{overflow-x:auto;margin:12px 0}.tablewrap table{border-collapse:collapse;width:100%;font-size:14.5px}.tablewrap th,.tablewrap td{border-bottom:1px solid var(--line);padding:10px 8px;text-align:left;vertical-align:top;overflow-wrap:anywhere}.tablewrap thead th{font-weight:600}.tablewrap tbody th{font-weight:500;width:28%}`;
 
 function page({ title, description, canonical, body, ld, ogType = "article", up = "../" }) {
   return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
@@ -195,7 +196,7 @@ function guidePages(days, data) {
   const out = {};
 
   // 1. Free models: a hub page plus a cluster of pages for the longer searches around it.
-  Object.assign(out, freeCluster(days, data, last, updated), providerPages(updated));
+  Object.assign(out, freeCluster(days, data, last, updated), providerPages(updated), extraPages(last));
 
   // 2. Trending repos: every repo that made the daily list this week, ranked by its best day.
   {
@@ -232,7 +233,7 @@ ${faqHtml(qa)}`;
 // (linked on the page); everything else is what Upcurrent recorded.
 const OR_LIMITS = "https://openrouter.ai/docs/api/reference/limits", OC_DOCS = "https://opencode.ai/docs/console/models/";
 const FREE_PAGES = [
-  ["", "All free models"], ["coding/", "For coding"], ["api/", "Free API"], ["free-llm-api-key/", "Get a key"], ["no-credit-card/", "No card"], ["openrouter/", "OpenRouter"], ["opencode/", "OpenCode"], ["history/", "Tracker"]
+  ["", "All free models"], ["coding/", "For coding"], ["api/", "Free API"], ["free-llm-api-key/", "Get a key"], ["no-credit-card/", "No card"], ["coding-tools/", "Coding tools"], ["openrouter/", "OpenRouter"], ["opencode/", "OpenCode"], ["history/", "Tracker"]
 ];
 const freeNav = (cur, up) => `<nav class="guides" aria-label="Free AI models guides">${FREE_PAGES.map(([p, n]) => p === cur ? `<b>${esc(n)}</b>` : `<a href="${up}free-ai-models/${p}">${esc(n)}</a>`).join("")}</nav>`;
 const modelId = f => f.prov === "OpenRouter" ? (String(f.url || "").match(/openrouter\.ai\/([^?#]+)/) || [])[1] || null
@@ -307,6 +308,110 @@ ${faqHtml(pv.qa)}
   });
   return out;
 }
+
+// More free-tier guides from the competitor content-gap check. Hand-checked facts (CHECKED) plus Upcurrent's live
+// OpenRouter and OpenCode counts.
+const API_FACTS = {
+  openrouter: { name: "OpenRouter", page: "openrouter/", base: "https://openrouter.ai/api/v1", models: n => `${n} free models today (IDs end in :free), checked live every 30 minutes`,
+    limits: "20 requests a minute; 50 a day, or 1,000 a day after buying 10 credits", card: "No", data: "Many free models note that the provider may log prompts to improve its model",
+    docs: "https://openrouter.ai/docs/api/reference/limits" },
+  gemini: { name: "Google Gemini API", page: "gemini/", base: "https://generativelanguage.googleapis.com/v1beta/openai/", models: () => "Gemini 4 Hydrogen, Gemini 3.8 Flash, Gemini 3.6 Flash and Gemini 3.5 Flash-Lite",
+    limits: "Set per model, shown in Google AI Studio; daily limits reset at midnight Pacific time", card: "No (only an active project)", data: "Free-tier content may be used to improve Google's products",
+    docs: "https://ai.google.dev/gemini-api/docs/openai" },
+  groq: { name: "Groq", page: "groq/", base: "https://api.groq.com/openai/v1", models: () => "gpt-oss-120b, gpt-oss-20b and qwen3.8-27b",
+    limits: "30 requests a minute and 1,000 a day per model, plus token caps", card: "No (a payment method only to upgrade)", data: "Not covered on the pages we checked",
+    docs: "https://console.groq.com/docs/openai" },
+  cloudflare: { name: "Cloudflare Workers AI", page: "cloudflare/", base: "https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/v1", models: () => "Most Workers AI models, within 10,000 Neurons a day",
+    limits: "10,000 Neurons a day, reset at 00:00 UTC", card: "Not stated on the pricing page", data: "Not covered on the pages we checked",
+    docs: "https://developers.cloudflare.com/workers-ai/configuration/open-ai-compatibility/" }
+};
+const COMPARES = [["openrouter", "gemini"], ["openrouter", "groq"], ["groq", "gemini"]];
+
+function extraPages(last) {
+  const out = {}, free = (last.free || []).filter(isChat);
+  const orN = free.filter(f => f.prov === "OpenRouter").length, oc = free.filter(f => f.prov === "OpenCode Zen");
+  const shell = (slug, { title, h1, eyebrow, lede, body, qa, crumb }) => {
+    const url = `${SITE}free-ai-models/${slug}/`, up = "../../";
+    const html = `<section><div class="eyebrow">${esc(eyebrow)}</div><h1>${esc(h1)}</h1><p class="lede">${esc(lede)}</p>${freeNav(slug + "/", up)}<p class="asof">Checked ${esc(CHECKED)} from each provider's own docs. Free tiers change, so follow the source links before you build on one.</p></section>
+${body}
+<section><h2>More free AI guides</h2><ul class="rows"><li><span class="t"><a href="../api/">Free AI model API</a></span><span class="m">Every free LLM API, plus the free OpenRouter models Upcurrent checks every 30 minutes</span></li><li><span class="t"><a href="../no-credit-card/">Free LLM APIs with no credit card</a></span><span class="m">Which free tiers start without a card</span></li><li><span class="t"><a href="../free-llm-api-key/">How to get a free LLM API key</a></span><span class="m">Five steps to your first request</span></li></ul></section>
+${faqHtml(qa)}
+<section class="share" aria-label="Share this page"><b>Share:</b> ${shareLinks(url, h1)}</section>`;
+    out["free-ai-models/" + slug] = page({ title, description: clip(lede, 160), canonical: url, body: html, ld: [faq(qa), breadcrumb([["Upcurrent", SITE], ["Free AI models", SITE + "free-ai-models/"], [crumb || h1, url]])], up, ogType: "article" });
+  };
+  const rows = items => `<ul class="rows">${items.map(([t, m]) => `<li><span class="t">${t}</span><span class="m">${esc(m)}</span></li>`).join("")}</ul>`;
+
+  // OpenAI-compatible free APIs: same SDK, swap the base URL.
+  {
+    const list = ["openrouter", "gemini", "groq", "cloudflare"].map(k => API_FACTS[k]);
+    const body = `<section><h2>Swap one line, keep your code</h2><p>Each API below works with the official OpenAI libraries. Change <code>base_url</code> and the API key, and pick a model the provider offers for free.</p>
+<pre><code>from openai import OpenAI
+client = OpenAI(base_url="BASE_URL_FROM_THE_LIST", api_key="YOUR_KEY")</code></pre></section>
+<section id="list"><h2>${list.length} free OpenAI-compatible APIs</h2><ul class="rows">${list.map(p => `<li><span class="t"><a href="../${p.page}">${esc(p.name)}</a> <code>${esc(p.base)}</code></span><span class="m">${esc(`Free: ${p.models(orN)} · ${p.limits}`)} · ${link(p.docs, "docs")}</span></li>`).join("")}</ul></section>`;
+    const qa = [["Which free APIs are OpenAI-compatible?", `OpenRouter, Google's Gemini API, Groq and Cloudflare Workers AI all offer OpenAI-compatible endpoints with a free tier. OpenRouter has ${orN} free models today.`],
+      ["What is the Gemini OpenAI-compatible base URL?", "https://generativelanguage.googleapis.com/v1beta/openai/ — Google says this support is still in beta."],
+      ["What is the Groq OpenAI-compatible base URL?", "https://api.groq.com/openai/v1. Groq notes a few OpenAI fields such as logprobs and logit_bias are not supported."]];
+    shell("openai-compatible", { title: "Free OpenAI-compatible APIs: 4 that work today | Upcurrent", h1: "Free OpenAI-compatible APIs", eyebrow: "Free AI models · OpenAI-compatible",
+      lede: `Four free LLM APIs that work with the OpenAI SDK by changing one line: OpenRouter (${orN} free models), Gemini, Groq and Cloudflare, with base URLs and limits.`, body, qa, crumb: "OpenAI-compatible" });
+  }
+
+  // Free image and speech APIs.
+  {
+    const body = `<section><h2>Free speech-to-text</h2>${rows([
+      [`<a href="../groq/">Groq</a>: whisper-large-v3 and whisper-large-v3-turbo`, "Free plan: 20 requests a minute, 2,000 a day, 7,200 audio seconds an hour and 28,800 a day"],
+      [`<a href="../cloudflare/">Cloudflare Workers AI</a>: @cf/openai/whisper and whisper-large-v3-turbo`, "Inside the 10,000 free Neurons a day. Whisper costs 41.14 Neurons per audio minute, about 240 minutes a day (Upcurrent's sum from Cloudflare's price list)"],
+      [`<a href="../gemini/">Gemini API</a>: gemini-3.5-transcribe`, "Free of charge on the free tier (free-tier content may be used to improve Google's products)"]])}</section>
+<section><h2>Free text-to-speech</h2>${rows([
+      [`<a href="../groq/">Groq</a>: canopylabs/orpheus-v1-english`, "Free plan: 10 requests a minute and 100 a day"],
+      [`<a href="../cloudflare/">Cloudflare Workers AI</a>: @cf/myshell-ai/melotts`, "18.63 Neurons per audio minute, inside the free daily Neurons"],
+      [`<a href="../gemini/">Gemini API</a>: gemini-3.8-flash-tts and gemini-3.8-flash-lite-tts`, "Free of charge on the free tier, within its rate limits"]])}</section>
+<section><h2>Free image generation</h2>${rows([
+      [`<a href="../cloudflare/">Cloudflare Workers AI</a>: @cf/black-forest-labs/flux-1-schnell`, "4.80 Neurons per 512x512 tile plus 9.60 per step, inside the 10,000 free Neurons a day. Other FLUX models cost more"],
+      ["Gemini API image models (Nano Banana)", "Not on the free tier: every Gemini image model is marked \"Not available\" for free"]])}</section>
+<p>Sources: ${link("https://console.groq.com/docs/rate-limits", "Groq rate limits")}, ${link("https://developers.cloudflare.com/workers-ai/platform/pricing/", "Cloudflare Workers AI pricing")}, ${link("https://ai.google.dev/gemini-api/docs/pricing", "Gemini pricing")}.</p>`;
+    const qa = [["Is there a free speech-to-text API?", "Yes. Groq's free plan includes Whisper large v3 (2,000 requests a day), Cloudflare Workers AI runs Whisper inside its 10,000 free Neurons a day, and Gemini 3.5 Transcribe is free on Gemini's free tier."],
+      ["Is there a free image generation API?", "Yes. Cloudflare Workers AI runs FLUX.1 schnell inside its free 10,000 Neurons a day. Gemini's image models (Nano Banana) are not on its free tier."],
+      ["Is there a free text-to-speech API?", "Yes. Groq's free plan includes Orpheus English (100 requests a day), Gemini 3.8 Flash TTS is free on Gemini's free tier, and Cloudflare offers MeloTTS inside its free daily Neurons."]];
+    shell("image-and-speech", { title: "Free image and speech APIs: what's free today | Upcurrent", h1: "Free image generation and speech APIs", eyebrow: "Free AI models · image and speech",
+      lede: "Free APIs for speech-to-text, text-to-speech and image generation from Groq, Cloudflare and Google Gemini, with the free limits from each one's own docs.", body, qa, crumb: "Image and speech" });
+  }
+
+  // Free AI coding tools.
+  {
+    const tools = [
+      [`<a href="../opencode/">OpenCode</a>`, `${oc.length} chat models free inside the app today (checked live every 30 minutes)`],
+      [link("https://github.com/features/copilot/plans", "GitHub Copilot Free"), "$0. 2,000 completions a month, limited chat and agent use, models like Claude Haiku 4.5 and GPT-5 mini. No credit card"],
+      [link("https://antigravity.google/pricing", "Google Antigravity (Individual)"), "$0. A baseline agent quota refreshed weekly, with Gemini 3.8 Flash. Its Claude and GPT-OSS models leave the free plan on 30 November 2026"],
+      [link("https://kilo.ai/landing/free-models", "Kilo Code"), "Free hosted models (Nemotron 3.5 Super VL and Nemotron 3 Ultra when checked). No card or API key needed"],
+      [link("https://cursor.com/pricing", "Cursor (Free)"), "$0 with limited agent and chat requests"],
+      [`<a href="../free-llm-api-key/">Any agent that takes an OpenAI-style key</a>`, `Point it at OpenRouter's free models (${orN} today) with a free key`]];
+    const body = `<section id="list"><h2>${tools.length} free ways to code with AI</h2>${rows(tools)}</section>
+<section><h2>Which free models are best for coding?</h2><p>Coding agents need tool calling and a long context window. See the <a href="../coding/">free AI models for coding</a>, updated every 30 minutes.</p></section>`;
+    const qa = [["What is the best free AI coding tool?", `For the most free model choice, OpenCode (${oc.length} free models today) or any agent using OpenRouter's free models. GitHub Copilot Free is the easiest start inside VS Code, with 2,000 completions a month.`],
+      ["Is GitHub Copilot free?", "Yes, there is a Copilot Free plan: 2,000 completions a month and limited chat and agent use, with no credit card required."],
+      ["Is Cursor free?", "Cursor has a $0 plan with limited agent and chat requests. Paid plans add more usage."]];
+    shell("coding-tools", { title: "Free AI coding tools: 6 you can use today | Upcurrent", h1: "Free AI coding tools", eyebrow: "Free AI models · coding tools",
+      lede: `Six free ways to code with AI, from GitHub Copilot Free to OpenCode's ${oc.length} free models, with each free plan's real limits.`, body, qa, crumb: "Coding tools" });
+  }
+
+  // X vs Y comparisons built from the same facts table.
+  COMPARES.forEach(([a, b]) => {
+    const A = API_FACTS[a], B = API_FACTS[b], slug = `${a}-vs-${b}`;
+    const line = (label, f) => `<tr><th scope="row">${esc(label)}</th><td>${esc(f(A))}</td><td>${esc(f(B))}</td></tr>`;
+    const body = `<section><h2>${esc(A.name)} vs ${esc(B.name)}: free tiers side by side</h2><div class="tablewrap"><table><thead><tr><th></th><th>${esc(A.name)}</th><th>${esc(B.name)}</th></tr></thead><tbody>
+${line("Free models", p => p.models(orN))}${line("Limits", p => p.limits)}${line("Credit card needed?", p => p.card)}${line("Your data", p => p.data)}${line("OpenAI-compatible base URL", p => p.base)}
+</tbody></table></div>
+<p>Full details: <a href="../${A.page}">${esc(A.name)}</a> · <a href="../${B.page}">${esc(B.name)}</a>.</p></section>
+<section><h2>Which should you use?</h2><p>Use ${esc(A.name)} if ${esc(PICK[a])}. Use ${esc(B.name)} if ${esc(PICK[b])}. Both are free to start, so many developers keep a key for each and switch when one hits its limit.</p></section>`;
+    const qa = [[`Is ${A.name} or ${B.name} better for free?`, `${A.name}: ${PICK[a]}. ${B.name}: ${PICK[b]}. Both have free tiers with limits.`],
+      [`Do ${A.name} and ${B.name} need a credit card?`, `${A.name}: ${A.card}. ${B.name}: ${B.card}.`]];
+    shell(slug, { title: `${A.name.replace("Google ", "")} vs ${B.name.replace("Google ", "")}: free tiers compared | Upcurrent`, h1: `${A.name} vs ${B.name} (free tiers)`, eyebrow: "Free AI models · compare",
+      lede: `${A.name} and ${B.name} free tiers compared: free models, rate limits, card rules and data use, from each provider's own docs.`, body, qa, crumb: `${A.short || A.name} vs ${B.short || B.name}` });
+  });
+  return out;
+}
+const PICK = { openrouter: "you want the most free models to choose from behind one key", gemini: "you want a Google model with a big context window", groq: "you want very fast responses from open models like gpt-oss-120b", cloudflare: "you already build on Cloudflare" };
+
 
 function freeCluster(days, data, last, updated) {
   const out = {}, free = (last.free || []).filter(isChat), firstDay = days[0], lastDay = days[days.length - 1];
@@ -667,6 +772,12 @@ ${GUIDES.filter(g => guides[g.slug]).map(g => `- [${g.title}](${SITE}${g.slug}/)
 - [Gemini API free tier](${SITE}free-ai-models/gemini/)
 - [Groq free API](${SITE}free-ai-models/groq/)
 - [Cloudflare Workers AI free tier](${SITE}free-ai-models/cloudflare/)
+- [Free OpenAI-compatible APIs](${SITE}free-ai-models/openai-compatible/)
+- [Free image and speech APIs](${SITE}free-ai-models/image-and-speech/)
+- [Free AI coding tools](${SITE}free-ai-models/coding-tools/)
+- [OpenRouter vs Gemini free tiers](${SITE}free-ai-models/openrouter-vs-gemini/)
+- [OpenRouter vs Groq free tiers](${SITE}free-ai-models/openrouter-vs-groq/)
+- [Groq vs Gemini free tiers](${SITE}free-ai-models/groq-vs-gemini/)
 - [OpenRouter free models list](${SITE}free-ai-models/openrouter/)
 - [OpenCode free models](${SITE}free-ai-models/opencode/)
 - [New open source AI models](${SITE}new-ai-models/open-source/)
