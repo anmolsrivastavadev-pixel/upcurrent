@@ -257,7 +257,7 @@ ${faqHtml(qa)}`;
 // (linked on the page); everything else is what Upcurrent recorded.
 const OR_LIMITS = "https://openrouter.ai/docs/api/reference/limits", OC_DOCS = "https://opencode.ai/docs/console/models/";
 const FREE_PAGES = [
-  ["", "All free models"], ["coding/", "For coding"], ["api/", "Free API"], ["free-llm-api-key/", "Get a key"], ["no-credit-card/", "No card"], ["coding-tools/", "Coding tools"], ["calculator/", "Calculator"], ["openrouter/", "OpenRouter"], ["opencode/", "OpenCode"], ["history/", "Tracker"]
+  ["", "All free models"], ["coding/", "For coding"], ["api/", "Free API"], ["free-llm-api-key/", "Get a key"], ["no-credit-card/", "No card"], ["coding-tools/", "Coding tools"], ["calculator/", "Calculator"], ["for-students/", "Students"], ["langchain/", "LangChain"], ["n8n/", "n8n"], ["janitor-ai/", "Janitor AI"], ["openrouter/", "OpenRouter"], ["opencode/", "OpenCode"], ["history/", "Tracker"]
 ];
 const freeNav = (cur, up) => `<nav class="guides" aria-label="Free AI models guides">${FREE_PAGES.map(([p, n]) => p === cur ? `<b>${esc(n)}</b>` : `<a href="${up}free-ai-models/${p}">${esc(n)}</a>`).join("")}</nav>`;
 const modelId = f => f.prov === "OpenRouter" ? (String(f.url || "").match(/openrouter\.ai\/([^?#]+)/) || [])[1] || null
@@ -322,7 +322,9 @@ const PROVIDERS = [
     docs: [["Pricing", "https://ai.google.dev/gemini-api/docs/pricing"], ["Rate limits", "https://ai.google.dev/gemini-api/docs/rate-limits"]],
     qa: [["Is the Gemini API free?", "Yes, on some models. Gemini 4 Hydrogen, Gemini 3.8 Flash, 3.6 Flash and 3.5 Flash-Lite are free of charge on the free tier. Gemini 4 Carbon, Argon and Neon are paid only."],
       ["Do I need a credit card for the Gemini API?", "No. The free tier needs an active project but no billing account."],
-      ["Does Google train on free Gemini API data?", "On the free tier, Google says content may be used to improve its products. The paid tier does not."]] },
+      ["Does Google train on free Gemini API data?", "On the free tier, Google says content may be used to improve its products. The paid tier does not."],
+      ["What is the Gemini API free tier rate limit?", "Google sets it per model and shows your exact limits in Google AI Studio. Daily limits reset at midnight Pacific time, and preview models have tighter limits."],
+      ["Which models are on the Gemini API free tier?", "Gemini 4 Hydrogen, Gemini 3.8 Flash, Gemini 3.6 Flash and Gemini 3.5 Flash-Lite for text, plus Gemini 3.8 Flash TTS, Gemini 3.5 Transcribe and gemini-embedding-2."]] },
   { slug: "groq", name: "Groq", short: "Groq", card: true,
     title: "Groq free API: models and rate limits | Upcurrent", h1: "Groq free API",
     lede: "Groq has a free plan for its fast inference API. Here are the free models, their exact limits, and when you need to pay.",
@@ -334,7 +336,7 @@ const PROVIDERS = [
     docs: [["Rate limits", "https://console.groq.com/docs/rate-limits"], ["Billing FAQs", "https://console.groq.com/docs/billing-faqs"]],
     qa: [["Is the Groq API free?", "Yes. Groq's Free plan lets you call models like gpt-oss-120b and qwen3.8-27b at no cost, up to 30 requests a minute and 1,000 a day each."],
       ["What are Groq's free rate limits?", "For gpt-oss-120b, gpt-oss-20b and qwen3.8-27b: 30 requests per minute, 1,000 per day, 8,000 tokens per minute and 200,000 tokens per day."],
-      ["Do I need a credit card for Groq?", "No. A payment method is only needed to upgrade to the Developer plan."]] },
+      ["Do I need a credit card for Groq?", "No. A payment method is only needed to upgrade to the Developer plan."], ["Which Groq models are free?", "On the free plan you can call gpt-oss-120b, gpt-oss-20b and qwen3.8-27b for chat, whisper-large-v3 and whisper-large-v3-turbo for speech-to-text, and orpheus-v1-english for text-to-speech, each with its own limits."], ["What are the Groq free tier limits for Whisper?", "whisper-large-v3 allows 20 requests a minute, 2,000 a day and 7,200 audio seconds an hour on the free plan."]] },
   { slug: "cloudflare", name: "Cloudflare Workers AI", short: "Cloudflare", card: false,
     title: "Cloudflare Workers AI free tier: 10,000 Neurons a day | Upcurrent", h1: "Cloudflare Workers AI free tier",
     lede: "Cloudflare Workers AI gives everyone 10,000 Neurons a day for free, across most of its models. Here is what that means and which models are excluded.",
@@ -490,6 +492,114 @@ O.innerHTML="<p><b>"+(fit?fit+" free tier"+(fit>1?"s cover":" covers")+" "+f(r)+
       lede: "Enter your requests a day and prompt length to see which free LLM API tiers (OpenRouter, Groq, Cohere, Gemini, Cloudflare) cover your project.", body, qa, crumb: "Calculator" });
   }
 
+  // "Free LLM API for ___" pages: long-tail searches from Google autocomplete (22 Nov 2026). Setup steps are
+  // copied from each tool's own docs (links on each page); model lists come from today's live free list.
+  {
+    const orFree = free.filter(f => f.prov === "OpenRouter"), orTools = orFree.filter(hasTools);
+    const ids = (list, n) => `<ol class="rows">${list.slice(0, n).map(f => freeRow(f)).join("")}</ol>`;
+    const firstId = (orTools[0] && modelId(orTools[0])) || (orFree[0] && modelId(orFree[0])) || "openrouter/free";
+    const src = (u, t) => `<a href="${u}" rel="nofollow noopener">${esc(t)}</a>`;
+
+    shell("for-students", { title: "Free AI API for students: what's actually free (2026)", h1: "Free AI API for students", eyebrow: "Free AI models · students", crumb: "For students",
+      lede: "There's no special student AI API, but students get GitHub Copilot free, and four LLM APIs have free tiers that need no credit card.",
+      qa: [["Is there a free AI API for students?", "Not a student-only one among the providers Upcurrent checked. Use a general free tier instead: OpenRouter's free models, Groq's free plan or Gemini's free tier all start without a credit card."],
+        ["Can students get GitHub Copilot for free?", "Yes. Verified students on GitHub Education get Copilot Student free. GitHub checks eligibility every month."],
+        ["Which free AI API is best for a student project?", "OpenRouter, because one free key reaches many free models. Add Groq or Gemini as a backup for when you hit OpenRouter's 50 requests a day."]],
+      body: `<section><h2>Free for verified students: GitHub Copilot Student</h2><p>Verified students on GitHub Education get free access to Copilot's paid features, called Copilot Student. GitHub re-checks eligibility every month.</p><ol class="rows">
+<li><span class="t">Go to github.com/settings/education/benefits</span><span class="m">If you aren't verified yet, click Start an application and finish the verification</span></li>
+<li><span class="t">Under "Free GitHub developer resources for students and teachers", click Learn more</span><span class="m">Then follow the prompts to activate Copilot Student</span></li>
+<li><span class="t">If you only see paid options, don't pay</span><span class="m">GitHub says the benefit can take several days to apply after approval. Wait and try again</span></li></ol>
+<p>Source: ${src("https://docs.github.com/en/copilot/how-tos/copilot-on-github/set-up-copilot/enable-copilot/set-up-for-students", "GitHub Docs: Access GitHub Copilot for free as a student")}.</p></section>
+<section><h2>Free LLM APIs any student can use</h2><p>None of these needs a student account, and none asks for a credit card to start.</p><ul class="rows">
+<li><span class="t"><a href="../openrouter/">OpenRouter</a></span><span class="m">${orFree.length} free models today; 50 requests a day, 20 a minute</span></li>
+<li><span class="t"><a href="../groq/">Groq</a></span><span class="m">gpt-oss-120b at 1,000 requests a day on the free plan; fast replies</span></li>
+<li><span class="t"><a href="../gemini/">Google Gemini</a></span><span class="m">Free tier on Gemini 4 Hydrogen and Gemini 3.8 Flash; free-tier content may be used to improve Google's products</span></li>
+<li><span class="t"><a href="../cloudflare/">Cloudflare Workers AI</a></span><span class="m">10,000 Neurons a day across most of its models</span></li></ul>
+<p>Not sure which fits your project? The <a href="../calculator/">free LLM API calculator</a> checks it for you, and <a href="../free-llm-api-key/">this guide</a> gets you a key in five steps.</p></section>` });
+
+    shell("langchain", { title: "Free LLM API for LangChain: 3 that work with ChatOpenAI", h1: "Free LLM API for LangChain", eyebrow: "Free AI models · LangChain", crumb: "LangChain",
+      lede: "Groq and Gemini's free tiers work with LangChain's ChatOpenAI by changing the base URL. OpenRouter works too, with one catch LangChain warns about.",
+      qa: [["Can I use LangChain for free?", "LangChain itself is free and open source. You only pay for the model, and Groq, Gemini and OpenRouter all have free tiers you can call from LangChain."],
+        ["How do I use a free model with ChatOpenAI?", "Install langchain-openai, then pass base_url and api_key for the free provider, plus one of its model names. For Groq the base URL is https://api.groq.com/openai/v1."],
+        ["Does ChatOpenAI work with OpenRouter?", "Basic chat works, but LangChain's docs say ChatOpenAI only follows the official OpenAI format and drops extra fields such as reasoning, and recommend a provider-specific package for OpenRouter."]],
+      body: `<section><h2>Free LangChain setup with Groq</h2><p>Install the package, get a free key from <a href="../groq/">Groq</a>, then point ChatOpenAI at Groq's OpenAI-compatible endpoint:</p>
+<pre><code>pip install -U langchain-openai
+
+from langchain_openai import ChatOpenAI
+import os
+
+llm = ChatOpenAI(
+    model="openai/gpt-oss-120b",
+    base_url="https://api.groq.com/openai/v1",
+    api_key=os.environ["GROQ_API_KEY"],
+)
+print(llm.invoke("Say hi in five words").text)</code></pre>
+<p>Groq's free plan allows 1,000 requests a day and 200,000 tokens a day on gpt-oss-120b. Check the exact model name in your Groq console.</p></section>
+<section><h2>The same code with other free providers</h2><div class="tablewrap"><table><thead><tr><th>Provider</th><th>base_url</th><th>Free limit</th></tr></thead><tbody>
+<tr><th scope="row"><a href="../groq/">Groq</a></th><td><code>https://api.groq.com/openai/v1</code></td><td>1,000 requests a day per model</td></tr>
+<tr><th scope="row"><a href="../gemini/">Gemini</a></th><td><code>https://generativelanguage.googleapis.com/v1beta/openai/</code></td><td>Set per model in Google AI Studio</td></tr>
+<tr><th scope="row"><a href="../openrouter/">OpenRouter</a></th><td><code>https://openrouter.ai/api/v1</code></td><td>50 requests a day on :free models</td></tr></tbody></table></div>
+<p>With OpenRouter, use a free model ID such as <code>${esc(firstId)}</code>. LangChain's docs say ChatOpenAI drops non-standard fields (like reasoning output) from providers such as OpenRouter and suggest a provider-specific package instead (${src("https://docs.langchain.com/oss/python/integrations/chat/openai", "LangChain ChatOpenAI docs")}). For plain chat and tool calling, ChatOpenAI is enough.</p>
+<p>LangChain reads the base URL from <code>OPENAI_BASE_URL</code> too, so you can switch provider without touching code.</p></section>` });
+
+    shell("n8n", { title: "Free AI models in n8n: OpenRouter, Groq and Gemini", h1: "Free AI models in n8n", eyebrow: "Free AI models · n8n", crumb: "n8n",
+      lede: `n8n has built-in chat model nodes for OpenRouter, Groq and Google Gemini. Pick a free model in the node and your AI agent runs at no cost, within each free tier's limits.`,
+      qa: [["Which AI model is free in n8n?", `Any free model from a provider n8n supports. The OpenRouter Chat Model node lists the models your account can use, and ${orFree.length} OpenRouter models were free as of today; their IDs end in :free.`],
+        ["Does n8n have a Groq node?", "Yes. n8n has a Groq Chat Model node, and Groq's free plan allows 1,000 requests a day on gpt-oss-120b."],
+        ["Will a free model run my n8n workflow all day?", "Probably not on one provider. OpenRouter's free models allow 50 requests a day (1,000 after buying 10 credits). Each agent step can use a request, so busy workflows need a backup provider."]],
+      body: `<section><h2>Set up a free model in n8n</h2><ol class="rows">
+<li><span class="t">Get a free OpenRouter key</span><span class="m">Sign up at openrouter.ai, then open Keys and create one. <a href="../free-llm-api-key/">Step-by-step guide</a></span></li>
+<li><span class="t">Add an AI Agent node, then attach the OpenRouter Chat Model node</span><span class="m">It's a sub-node: connect it to the agent's Chat Model input</span></li>
+<li><span class="t">Create an OpenRouter credential with your key</span><span class="m">n8n then loads the models your account can use</span></li>
+<li><span class="t">Choose a model whose ID ends in :free</span><span class="m">Today's free models with tool calling (agents need it) are below</span></li></ol>
+<p>Source: ${src("https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmchatopenrouter/", "n8n docs: OpenRouter Chat Model")}. n8n also has Groq Chat Model and Google Gemini Chat Model nodes that work the same way.</p></section>
+<section><h2>Free models for n8n agents today</h2>${orTools.length ? ids(orTools, 8) : ids(orFree, 8)}<p><a href="../openrouter/">All ${orFree.length} free OpenRouter models</a> · checked every 30 minutes.</p></section>` });
+
+    shell("claude-code", { title: "Free LLM API for Claude Code: what works and what doesn't", h1: "Free LLM API for Claude Code", eyebrow: "Free AI models · Claude Code", crumb: "Claude Code",
+      lede: "Claude Code can run through OpenRouter with a few environment variables, but OpenRouter only guarantees it with Anthropic's own models, which aren't free. Here are the honest options.",
+      qa: [["Can I use Claude Code for free?", "Not reliably. Claude Code can connect to OpenRouter, but usage is billed in OpenRouter credits, and OpenRouter says Claude Code is only guaranteed to work with Anthropic's own provider. Free models may not work correctly."],
+        ["How do I connect Claude Code to OpenRouter?", "Set ANTHROPIC_BASE_URL to https://openrouter.ai/api, put your OpenRouter key in ANTHROPIC_AUTH_TOKEN, and set ANTHROPIC_API_KEY to an empty string. Then run /logout once if you were logged in to Anthropic, and restart Claude Code."],
+        ["What's a free alternative to Claude Code?", `OpenCode has ${oc.length} free models built in, and GitHub Copilot Free includes limited agent use. Both are on the free AI coding tools page.`]],
+      body: `<section><h2>Connect Claude Code to OpenRouter</h2><p>From OpenRouter's own guide. Add these lines to your shell profile, then reload it:</p>
+<pre><code>export OPENROUTER_API_KEY="&lt;your-openrouter-api-key&gt;"
+export ANTHROPIC_BASE_URL="https://openrouter.ai/api"
+export ANTHROPIC_AUTH_TOKEN="$OPENROUTER_API_KEY"
+export ANTHROPIC_API_KEY=""</code></pre>
+<p>If you were logged in to Claude Code with an Anthropic account, run <code>/logout</code> once, then restart. Check with <code>/status</code>: it should show the OpenRouter base URL. Source: ${src("https://openrouter.ai/docs/cookbook/coding-agents/claude-code-integration", "OpenRouter: Use Claude Code with OpenRouter")}.</p></section>
+<section><h2>The catch: it isn't really free</h2><h3>Usage is billed in OpenRouter credits</h3><p>Requests go through your OpenRouter account and use its credits.</p><h3>Free models may not work well</h3><p>OpenRouter says Claude Code with OpenRouter is only guaranteed to work with Anthropic's first-party provider, and that Claude Code is optimized for Anthropic models and may not work correctly with others. You can point its model settings at other models, but expect broken tool calls with many free ones.</p></section>
+<section><h2>Free alternatives that do work</h2><ul class="rows">
+<li><span class="t"><a href="../opencode/">OpenCode</a></span><span class="m">${oc.length} free models built in, no key needed</span></li>
+<li><span class="t"><a href="../coding-tools/">GitHub Copilot Free</a></span><span class="m">2,000 completions a month and limited agent use, no card</span></li>
+<li><span class="t"><a href="../coding/">Free models for coding</a></span><span class="m">Free models with tool calling, for any agent that takes an OpenAI-compatible API</span></li></ul></section>` });
+
+    shell("janitor-ai", { title: `Free API for Janitor AI: OpenRouter setup (${monthYear(new Date().toISOString().slice(0, 10))})`, h1: "Free API for Janitor AI", eyebrow: "Free AI models · Janitor AI", crumb: "Janitor AI",
+      lede: `Janitor AI works with a free OpenRouter key: add it under API Settings with a free model ID. Today ${orFree.length} OpenRouter models are free; the list below updates every 30 minutes.`,
+      qa: [["Is there a free API for Janitor AI?", "Yes. Janitor's own help guide uses OpenRouter, which has free models. You get 50 free messages a day, or 1,000 a day after a one-off purchase of 10 credits. Janitor also has its own free model, JLLM, which needs no setup."],
+        ["What proxy URL do I use for Janitor AI with OpenRouter?", "https://openrouter.ai/api/v1/chat/completions, pasted exactly as it is."],
+        ["Why did my free Janitor AI model stop working?", "Free OpenRouter models come and go. Of the models Upcurrent has seen stop being free, half lasted 12 days or less. If yours stops, swap in a model from the current list on this page."]],
+      body: `<section><h2>Set up a free API in Janitor AI</h2><p>These steps follow Janitor's own quickstart guide (${src("https://help.janitorai.com/en/article/tldr-quickstart-proxy-instructions-1x0fptu/", "Janitor help: Quickstart proxy instructions")}). Its example model is no longer free, so use one from today's list below.</p><ol class="rows">
+<li><span class="t">Sign up at openrouter.ai</span><span class="m">Free, no card</span></li>
+<li><span class="t">Create a key</span><span class="m">Profile, then Keys, then Create. Keep it private, like a password</span></li>
+<li><span class="t">In a Janitor chat, open the gear icon, then API Settings, then Add Configuration</span><span class="m">Give it any name</span></li>
+<li><span class="t">Model name: a free model ID</span><span class="m">Copy one exactly from the list below, for example ${esc(firstId)}</span></li>
+<li><span class="t">Proxy URL: https://openrouter.ai/api/v1/chat/completions</span><span class="m">Paste it exactly</span></li>
+<li><span class="t">Paste your key, save, refresh and send a test message</span><span class="m">50 free messages a day, reset at midnight UTC</span></li></ol></section>
+<section><h2>Free OpenRouter models you can use today</h2>${ids(orFree, 12)}<p>Free models change often. <a href="../history/">See how long they usually last</a>.</p></section>` });
+
+    shell("no-limit", { title: "Free LLM API with no limit: does it exist? (honest answer)", h1: "Free LLM API with no limit", eyebrow: "Free AI models · limits", crumb: "No limit",
+      lede: "No. Every free LLM API has a limit, and lists promising unlimited free keys are out of date or reselling someone's quota. Here are the real limits and how to stretch them.",
+      qa: [["Is there a free LLM API with no limit?", "No. Every provider Upcurrent checked caps free use: OpenRouter at 50 requests a day, Groq at 1,000 a day per model, Cloudflare at 10,000 Neurons a day, and Cohere at 1,000 calls a month."],
+        ["How can I get more free AI API requests?", "Combine providers. Each free tier is separate, so OpenRouter plus Groq gives you both allowances. They're all OpenAI-compatible, so switching is a change of base URL."],
+        ["Is there an unlimited free AI API key on GitHub?", "Keys shared on GitHub are other people's keys. Using them breaks the providers' terms, and they get revoked quickly. Get your own free key instead."]],
+      body: `<section><h2>The real free limits</h2><div class="tablewrap"><table><thead><tr><th>Provider</th><th>Free limit</th></tr></thead><tbody>
+<tr><th scope="row"><a href="../openrouter/">OpenRouter</a></th><td>50 requests a day (1,000 after buying 10 credits); 20 a minute</td></tr>
+<tr><th scope="row"><a href="../groq/">Groq</a></th><td>1,000 requests and 200,000 tokens a day per model (gpt-oss-120b)</td></tr>
+<tr><th scope="row"><a href="../cloudflare/">Cloudflare Workers AI</a></th><td>10,000 Neurons a day</td></tr>
+<tr><th scope="row"><a href="../gemini/">Google Gemini</a></th><td>Set per model in Google AI Studio</td></tr>
+<tr><th scope="row">Cohere</th><td>1,000 calls a month on a trial key</td></tr></tbody></table></div></section>
+<section><h2>How to get as close to unlimited as possible</h2><h3>Stack free tiers</h3><p>Use OpenRouter first and fall back to Groq, then Gemini, when one runs out. The <a href="../calculator/">free LLM API calculator</a> shows how far that stretches for your project.</p><h3>Use the router</h3><p>OpenRouter's <code>openrouter/free</code> picks an available free model for each request, so a removed model doesn't break your app.</p><h3>Run a model yourself</h3><p>Open models run on your own computer with tools like Ollama or LM Studio, with no request limit at all. See <a href="../../new-ai-models/open-source/">new open source AI models</a>.</p></section>` });
+  }
+
   // X vs Y comparisons built from the same facts table.
   COMPARES.forEach(([a, b]) => {
     const A = API_FACTS[a], B = API_FACTS[b], slug = `${a}-vs-${b}`;
@@ -578,6 +688,7 @@ ${(() => {
 ${lifeChart("history/how-long-free-ai-models-stay-free.svg")}
 <h3>Limits</h3><p>Free-tier limits are much lower than paid ones. OpenRouter allows 20 requests a minute and 50 a day (1,000 after buying 10 credits). OpenCode's free models only work inside OpenCode. Free OpenRouter models are called through the same OpenAI-compatible API as paid ones, so moving up later is a one-line change.</p></section>
 <section><h2>Free models from other providers</h2><ul class="rows"><li><span class="t"><a href="gemini/">Gemini API free tier</a></span><span class="m">Gemini 4 Hydrogen and Gemini 3.8 Flash, free with no billing account</span></li><li><span class="t"><a href="groq/">Groq free API</a></span><span class="m">gpt-oss-120b and qwen3.8-27b, 1,000 requests a day each</span></li><li><span class="t"><a href="cloudflare/">Cloudflare Workers AI</a></span><span class="m">10,000 Neurons a day across most of its models</span></li><li><span class="t"><a href="coding-tools/">Free AI coding tools</a></span><span class="m">GitHub Copilot Free, Cursor, Kilo Code, Antigravity and more</span></li></ul></section>
+<section id="by-tool"><h2>Free AI for the tool you use</h2><ul class="rows"><li><span class="t"><a href="langchain/">Free LLM API for LangChain</a></span><span class="m">Groq, Gemini and OpenRouter with ChatOpenAI</span></li><li><span class="t"><a href="n8n/">Free AI models in n8n</a></span><span class="m">Free models for n8n AI agents</span></li><li><span class="t"><a href="claude-code/">Free LLM API for Claude Code</a></span><span class="m">What works, and the free alternatives</span></li><li><span class="t"><a href="janitor-ai/">Free API for Janitor AI</a></span><span class="m">OpenRouter setup with today's free models</span></li><li><span class="t"><a href="for-students/">Free AI API for students</a></span><span class="m">GitHub Copilot Student and free API tiers</span></li><li><span class="t"><a href="no-limit/">Free LLM API with no limit?</a></span><span class="m">The honest answer, and how to stretch free tiers</span></li></ul></section>
 ${events.length ? `<section id="changes"><h2>Added and removed this week</h2><ul class="rows">${events.slice(0, 30).map(e => `<li><span class="t">${e.type === "added" ? "Added" : "Removed"}: ${link(e.url, e.name)}</span><span class="m">${esc(e.prov)} · ${esc(asOf(e.at))}</span></li>`).join("")}</ul></section>` : ""}
 <script>(function(){var bs=[].slice.call(document.querySelectorAll(".finder input")),rows=[].slice.call(document.querySelectorAll("#freeList li")),c=document.getElementById("finderCount");
 function run(){var on=bs.filter(function(b){return b.checked}).map(function(b){return b.dataset.f}),n=0;rows.forEach(function(r){var caps=r.dataset.caps.split(","),ok=on.every(function(f){return f==="ctx"?+r.dataset.ctx>=1e6:f==="api"?r.dataset.prov==="OpenRouter":caps.indexOf(f)>-1});r.hidden=!ok;if(ok)n++});c.textContent=on.length?("Showing "+n+" of "+rows.length+"."):("Showing all "+rows.length+".")}
@@ -942,6 +1053,12 @@ ${GUIDES.filter(g => guides[g.slug]).map(g => `- [${g.title}](${SITE}${g.slug}/)
 - [Free OpenAI-compatible APIs](${SITE}free-ai-models/openai-compatible/)
 - [Free image and speech APIs](${SITE}free-ai-models/image-and-speech/)
 - [Free AI coding tools](${SITE}free-ai-models/coding-tools/)
+- [Free AI API for students](${SITE}free-ai-models/for-students/)
+- [Free LLM API for LangChain](${SITE}free-ai-models/langchain/)
+- [Free AI models in n8n](${SITE}free-ai-models/n8n/)
+- [Free LLM API for Claude Code](${SITE}free-ai-models/claude-code/)
+- [Free API for Janitor AI](${SITE}free-ai-models/janitor-ai/)
+- [Free LLM API with no limit](${SITE}free-ai-models/no-limit/)
 - [Free LLM API calculator](${SITE}free-ai-models/calculator/): which free API tiers cover a given number of requests a day
 - [OpenRouter vs Gemini free tiers](${SITE}free-ai-models/openrouter-vs-gemini/)
 - [OpenRouter vs Groq free tiers](${SITE}free-ai-models/openrouter-vs-groq/)
