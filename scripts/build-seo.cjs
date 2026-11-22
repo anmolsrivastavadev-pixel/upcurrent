@@ -195,7 +195,7 @@ function guidePages(days, data) {
   const out = {};
 
   // 1. Free models: a hub page plus a cluster of pages for the longer searches around it.
-  Object.assign(out, freeCluster(days, data, last, updated));
+  Object.assign(out, freeCluster(days, data, last, updated), providerPages(updated));
 
   // 2. Trending repos: every repo that made the daily list this week, ranked by its best day.
   {
@@ -232,7 +232,7 @@ ${faqHtml(qa)}`;
 // (linked on the page); everything else is what Upcurrent recorded.
 const OR_LIMITS = "https://openrouter.ai/docs/api/reference/limits", OC_DOCS = "https://opencode.ai/docs/console/models/";
 const FREE_PAGES = [
-  ["", "All free models"], ["coding/", "For coding"], ["api/", "Free API"], ["free-llm-api-key/", "Get a key"], ["openrouter/", "OpenRouter"], ["opencode/", "OpenCode"], ["history/", "Tracker"]
+  ["", "All free models"], ["coding/", "For coding"], ["api/", "Free API"], ["free-llm-api-key/", "Get a key"], ["no-credit-card/", "No card"], ["openrouter/", "OpenRouter"], ["opencode/", "OpenCode"], ["history/", "Tracker"]
 ];
 const freeNav = (cur, up) => `<nav class="guides" aria-label="Free AI models guides">${FREE_PAGES.map(([p, n]) => p === cur ? `<b>${esc(n)}</b>` : `<a href="${up}free-ai-models/${p}">${esc(n)}</a>`).join("")}</nav>`;
 const modelId = f => f.prov === "OpenRouter" ? (String(f.url || "").match(/openrouter\.ai\/([^?#]+)/) || [])[1] || null
@@ -251,6 +251,61 @@ function freeHistory(days, data) {
   const lastDay = days[days.length - 1], all = [...seen.values()];
   all.forEach(m => { m.now = m.last === lastDay; m.span = Math.round((Date.parse(m.last) - Date.parse(m.first)) / 864e5) + 1; });
   return all;
+}
+
+// Free tiers of other LLM APIs. Upcurrent can't read these live, so every fact is hand-checked from the
+// provider's own docs; CHECKED says when. Re-check before changing the date.
+const CHECKED = "22 November 2026";
+const PROVIDERS = [
+  { slug: "gemini", name: "Google Gemini API", short: "Gemini", card: true,
+    title: "Gemini API free tier: which models are free | Upcurrent", h1: "Gemini API free tier",
+    lede: "Google's Gemini API has a free tier with no billing account. Here is which Gemini models are free, the limits, and the catch.",
+    facts: [["Free models", "Gemini 4 Hydrogen, Gemini 3.8 Flash, Gemini 3.6 Flash and Gemini 3.5 Flash-Lite are free of charge on the free tier."],
+      ["Not free", "The newest top models (Gemini 4 Carbon, Gemini 4 Argon, Gemini 4 Neon) are paid only, as are Genie 4 and Gemini Omni Flash."],
+      ["Card needed?", "No. The free tier needs only an active project. You add a billing account only to move up to Tier 1."],
+      ["Limits", "Set per model and shown in Google AI Studio. Daily limits reset at midnight Pacific time, and preview models have tighter limits."],
+      ["The catch", "On the free tier, Google may use your prompts and responses to improve its products. Don't send private data."]],
+    docs: [["Pricing", "https://ai.google.dev/gemini-api/docs/pricing"], ["Rate limits", "https://ai.google.dev/gemini-api/docs/rate-limits"]],
+    qa: [["Is the Gemini API free?", "Yes, on some models. Gemini 4 Hydrogen, Gemini 3.8 Flash, 3.6 Flash and 3.5 Flash-Lite are free of charge on the free tier. Gemini 4 Carbon, Argon and Neon are paid only."],
+      ["Do I need a credit card for the Gemini API?", "No. The free tier needs an active project but no billing account."],
+      ["Does Google train on free Gemini API data?", "On the free tier, Google says content may be used to improve its products. The paid tier does not."]] },
+  { slug: "groq", name: "Groq", short: "Groq", card: true,
+    title: "Groq free API: models and rate limits | Upcurrent", h1: "Groq free API",
+    lede: "Groq has a free plan for its fast inference API. Here are the free models, their exact limits, and when you need to pay.",
+    facts: [["Free models", "openai/gpt-oss-120b, openai/gpt-oss-20b and qwen/qwen3.8-27b, plus Whisper speech-to-text and a few others."],
+      ["Limits", "gpt-oss-120b, gpt-oss-20b and qwen3.8-27b: 30 requests a minute, 1,000 a day, 8,000 tokens a minute and 200,000 tokens a day. Limits apply to your whole organisation."],
+      ["Card needed?", "No. Groq asks for a payment method only when you upgrade to its Developer plan."],
+      ["Works with", "Groq offers OpenAI compatibility, so most OpenAI-style tools work with it."],
+      ["When you hit a limit", "Requests fail with error 429. The retry-after header says how many seconds to wait."]],
+    docs: [["Rate limits", "https://console.groq.com/docs/rate-limits"], ["Billing FAQs", "https://console.groq.com/docs/billing-faqs"]],
+    qa: [["Is the Groq API free?", "Yes. Groq's Free plan lets you call models like gpt-oss-120b and qwen3.8-27b at no cost, up to 30 requests a minute and 1,000 a day each."],
+      ["What are Groq's free rate limits?", "For gpt-oss-120b, gpt-oss-20b and qwen3.8-27b: 30 requests per minute, 1,000 per day, 8,000 tokens per minute and 200,000 tokens per day."],
+      ["Do I need a credit card for Groq?", "No. A payment method is only needed to upgrade to the Developer plan."]] },
+  { slug: "cloudflare", name: "Cloudflare Workers AI", short: "Cloudflare", card: false,
+    title: "Cloudflare Workers AI free tier: 10,000 Neurons a day | Upcurrent", h1: "Cloudflare Workers AI free tier",
+    lede: "Cloudflare Workers AI gives everyone 10,000 Neurons a day for free, across most of its models. Here is what that means and which models are excluded.",
+    facts: [["Free allowance", "10,000 Neurons a day, on both the Workers Free and Workers Paid plans. It resets at 00:00 UTC."],
+      ["What a Neuron is", "Cloudflare's own unit for the compute a request uses. Each model's price page shows how many Neurons a million tokens cost, so small models stretch the allowance much further."],
+      ["Not on the free plan", "Some newer models need a paid billing method, including kimi-k2.6, glm-5.3, deepseek-v4.1-flash and deepseek-v4-pro."],
+      ["Beyond the free allowance", "You need the Workers Paid plan, then pay $0.011 per 1,000 Neurons."],
+      ["Works with", "Cloudflare offers OpenAI-compatible API endpoints for Workers AI."]],
+    docs: [["Pricing", "https://developers.cloudflare.com/workers-ai/platform/pricing/"]],
+    qa: [["Is Cloudflare Workers AI free?", "Yes, up to 10,000 Neurons a day on any Workers plan. Above that you need Workers Paid, at $0.011 per 1,000 Neurons."],
+      ["Which Cloudflare AI models are not free?", "Some newer models need a paid billing method, including Kimi K2.6, GLM 5.3 and DeepSeek V4.1 Flash."]] }
+];
+function providerPages(updated) {
+  const out = {};
+  PROVIDERS.forEach(pv => {
+    const url = `${SITE}free-ai-models/${pv.slug}/`, up = "../../";
+    const html = `<section><div class="eyebrow">Free AI models · ${esc(pv.short)}</div><h1>${esc(pv.h1)}</h1><p class="lede">${esc(pv.lede)}</p>${freeNav(pv.slug + "/", up)}<p class="asof">Checked ${esc(CHECKED)} from ${esc(pv.name)}'s own docs. Free tiers change, so check the links below before you build on one.</p></section>
+<section><h2>${esc(pv.short)} free tier at a glance</h2><ul class="rows">${pv.facts.map(([k, v]) => `<li><span class="t">${esc(k)}</span><span class="m">${esc(v)}</span></li>`).join("")}</ul>
+<p>Sources: ${pv.docs.map(([n, u]) => link(u, `${pv.short} ${n.toLowerCase()}`)).join(", ")}.</p></section>
+<section><h2>Other free options</h2><ul class="rows"><li><span class="t"><a href="../api/">Free AI model API</a></span><span class="m">Every free LLM API compared, plus the OpenRouter models Upcurrent checks every 30 minutes</span></li><li><span class="t"><a href="../no-credit-card/">Free LLM APIs with no credit card</a></span><span class="m">Which free tiers you can start without a card</span></li>${PROVIDERS.filter(o => o !== pv).map(o => `<li><span class="t"><a href="../${o.slug}/">${esc(o.h1)}</a></span><span class="m">${esc(o.lede.split(". ")[0])}.</span></li>`).join("")}</ul></section>
+${faqHtml(pv.qa)}
+<section class="share" aria-label="Share this page"><b>Share:</b> ${shareLinks(url, pv.h1)}</section>`;
+    out["free-ai-models/" + pv.slug] = page({ title: pv.title, description: clip(pv.lede, 160), canonical: url, body: html, ld: [faq(pv.qa), breadcrumb([["Upcurrent", SITE], ["Free AI models", SITE + "free-ai-models/"], [pv.h1, url]])], up, ogType: "article" });
+  });
+  return out;
 }
 
 function freeCluster(days, data, last, updated) {
@@ -356,16 +411,35 @@ print(reply.choices[0].message.content)</code></pre>
 <p>New to this? <a href="../free-llm-api-key/">How to get a free LLM API key, step by step</a>.</p></section>
 <section><h2>Free API limits</h2><ul class="rows"><li><span class="t">20 requests per minute</span><span class="m">on any :free model</span></li><li><span class="t">50 requests per day</span><span class="m">if you have bought less than 10 credits</span></li><li><span class="t">1,000 requests per day</span><span class="m">once you have bought 10 credits or more</span></li></ul>
 <p>Source: <a href="${OR_LIMITS}" rel="nofollow noopener">OpenRouter's rate limit docs</a>, checked ${esc(shortDate(lastDay))}.</p></section>
-<section id="other"><h2>Other free LLM APIs</h2><p>Upcurrent tracks OpenRouter live. These providers also have free tiers; facts below were checked on 22 November 2026 from each provider's own page.</p><ul class="rows">
-<li><span class="t"><a href="https://ai.google.dev/gemini-api/docs/pricing" rel="nofollow noopener">Google Gemini API</a></span><span class="m">Free tier on some models, such as Gemini 4 Hydrogen, Gemini 3.8 Flash and Gemini 3.5 Flash-Lite. The newest top models (Gemini 4 Carbon, Argon, Neon) are paid only. Free-tier prompts may be used to improve Google's products.</span></li>
-<li><span class="t"><a href="https://console.groq.com/docs/rate-limits" rel="nofollow noopener">Groq</a></span><span class="m">Free plan with limits per model. For example, gpt-oss-120b allows 30 requests a minute and 1,000 a day.</span></li>
-<li><span class="t"><a href="https://developers.cloudflare.com/workers-ai/platform/pricing/" rel="nofollow noopener">Cloudflare Workers AI</a></span><span class="m">10,000 Neurons a day free (its own unit of compute), across most of its models. Some newer models need a paid plan.</span></li>
+<section id="other"><h2>Other free LLM APIs</h2><p>Upcurrent tracks OpenRouter live. These providers also have free tiers; facts below were checked on 22 November 2026 from each provider's own page. Want to skip the card? See <a href="../no-credit-card/">free LLM APIs with no credit card</a>.</p><ul class="rows">
+<li><span class="t"><a href="../gemini/">Google Gemini API</a></span><span class="m">Free tier on some models, such as Gemini 4 Hydrogen, Gemini 3.8 Flash and Gemini 3.5 Flash-Lite. The newest top models (Gemini 4 Carbon, Argon, Neon) are paid only. Free-tier prompts may be used to improve Google's products.</span></li>
+<li><span class="t"><a href="../groq/">Groq</a></span><span class="m">Free plan with limits per model. For example, gpt-oss-120b allows 30 requests a minute and 1,000 a day.</span></li>
+<li><span class="t"><a href="../cloudflare/">Cloudflare Workers AI</a></span><span class="m">10,000 Neurons a day free (its own unit of compute), across most of its models. Some newer models need a paid plan.</span></li>
 <li><span class="t"><a href="https://build.nvidia.com/" rel="nofollow noopener">NVIDIA (build.nvidia.com)</a></span><span class="m">Free inference endpoints for leading models, including Nemotron 3 Ultra and Kimi K3.1 Pro.</span></li></ul></section>
 <section id="list"><h2>${or.length} free models you can call by API</h2><ol class="rows">${or.map(f => freeRow(f)).join("")}</ol></section>`;
     mk("api/", { title: "Free AI model API: free LLMs you can call today | Upcurrent", h1: "Free AI model API: free LLMs you can call today", eyebrow: "Free AI models · API",
       lede: `You can call ${or.length} AI models for free through an API today, with no card needed. Here is how, with the exact model IDs, rate limits and an example request.`,
       desc: `How to use a free LLM API: ${or.length} free models with exact IDs, OpenRouter rate limits (20 a minute, 50 or 1,000 a day) and a copy-paste example request.`,
       body, qa, list: or, crumb: "Free API" });
+  }
+
+  // No credit card: which free tiers start without one.
+  {
+    const noCard = [["OpenRouter", "../openrouter/", `${or.length} free models today, 20 requests a minute and 50 a day (1,000 after buying 10 credits)`, "No card for :free models"]]
+      .concat(PROVIDERS.filter(p => p.card).map(p => [p.name, `../${p.slug}/`, p.facts[0][1], p.facts.find(f => f[0] === "Card needed?")[1].replace(/^No\. /, "No card: ")]));
+    const qa = [
+      ["Is there a free LLM API with no credit card?", `Yes. OpenRouter's ${or.length} free models, Google's Gemini API free tier and Groq's Free plan all start without a card. Each has its own limits.`],
+      ["Which free LLM API is best without a card?", "For the most model choice, OpenRouter. For a big-name model, Gemini's free tier. For speed, Groq. Many people sign up to two and switch when one hits its limit."],
+      ["Are no-card free APIs safe for private data?", "Be careful. Gemini's free tier and many free OpenRouter models may use or log your prompts. Don't send personal or confidential data to a free tier."]
+    ];
+    const body = `<section id="list"><h2>${noCard.length} free LLM APIs you can start without a card</h2><ul class="rows">${noCard.map(([n, href, what, card]) => `<li><span class="t"><a href="${href}">${esc(n)}</a></span><span class="m">${esc(what)} · ${esc(card)}</span></li>`).join("")}</ul>
+<p>Card rules checked ${esc(CHECKED)} from each provider's own docs. OpenRouter's free list is checked live every 30 minutes.</p></section>
+<section><h2>Free, but check the plan</h2><ul class="rows"><li><span class="t"><a href="../cloudflare/">Cloudflare Workers AI</a></span><span class="m">10,000 Neurons a day free on the Workers Free plan; some newer models need a paid billing method</span></li><li><span class="t"><a href="https://build.nvidia.com/" rel="nofollow noopener">NVIDIA (build.nvidia.com)</a></span><span class="m">Offers free inference with models like Nemotron 3 Ultra; its card and limit rules aren't stated on the page we checked</span></li></ul></section>
+<section><h2>Start in two minutes</h2><p>Follow the <a href="../free-llm-api-key/">step-by-step guide to a free LLM API key</a>. It uses OpenRouter, which needs no card.</p></section>`;
+    mk("no-credit-card/", { title: "Free LLM API with no credit card: 3 that work | Upcurrent", h1: "Free LLM APIs with no credit card",
+      eyebrow: "Free AI models · no card",
+      lede: `${noCard.length} free LLM APIs you can start using without a credit card, with their free models and limits. Checked against each provider's own docs.`,
+      desc: `Free LLM APIs with no credit card needed: OpenRouter (${or.length} free models), Gemini's free tier and Groq's free plan, with limits and the catch.`, body, qa, crumb: "No credit card" });
   }
 
   // Tutorial (top of funnel): get a free key and make a first request.
@@ -589,6 +663,10 @@ ${GUIDES.filter(g => guides[g.slug]).map(g => `- [${g.title}](${SITE}${g.slug}/)
 - [Free AI models for coding](${SITE}free-ai-models/coding/)
 - [Free AI model API: rate limits and model IDs](${SITE}free-ai-models/api/)
 - [How to get a free LLM API key, step by step](${SITE}free-ai-models/free-llm-api-key/)
+- [Free LLM APIs with no credit card](${SITE}free-ai-models/no-credit-card/)
+- [Gemini API free tier](${SITE}free-ai-models/gemini/)
+- [Groq free API](${SITE}free-ai-models/groq/)
+- [Cloudflare Workers AI free tier](${SITE}free-ai-models/cloudflare/)
 - [OpenRouter free models list](${SITE}free-ai-models/openrouter/)
 - [OpenCode free models](${SITE}free-ai-models/opencode/)
 - [New open source AI models](${SITE}new-ai-models/open-source/)
