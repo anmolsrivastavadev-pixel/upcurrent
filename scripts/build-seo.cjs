@@ -48,7 +48,7 @@ h3{font:700 17px/1.3 var(--font-display);margin:18px 0 6px}
 .cta{padding:22px clamp(16px,4vw,30px);background:var(--band);color:var(--band-ink);border-radius:14px;display:grid;gap:10px}
 .cta h2{margin:0}.cta p{margin:0;opacity:.85}.cta a{color:var(--warm);font-weight:700}
 footer{border-top:1px solid var(--line);padding-block:22px;color:var(--muted);font-size:14px}
-.lang-pick{position:relative;display:inline-flex;align-items:center;gap:6px;color:var(--muted)}.lang-pick svg{width:16px;height:16px;flex:none}
+#langPick{display:inline-flex;min-width:160px;min-height:38px}.lang-pick{position:relative;display:inline-flex;align-items:center;gap:6px;color:var(--muted)}.lang-pick svg{width:16px;height:16px;flex:none}
 .lang-pick select{appearance:none;-webkit-appearance:none;font:inherit;font-size:14px;color:var(--ink);background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:7px 10px;max-width:160px;cursor:pointer}
 iframe.skiptranslate,.goog-te-banner-frame,#goog-gt-tt,.goog-te-balloon-frame,.VIpgJd-ZVi9od-ORHb-OEVmcd,.VIpgJd-ZVi9od-aZ2wEe-wOHMyf{display:none!important}
 body{top:0!important}font[style]{background:none!important;box-shadow:none!important}
@@ -82,6 +82,7 @@ function page({ title, description, canonical, body, ld, ogType = "article", up 
   const bare = title.replace(/\s*\|\s*Upcurrent.*$/, "");
   if (title.length > 60) title = bare;
   body = body.replace(/<h1>[\s\S]*?<\/h1>/, `<h1>${esc(bare)}</h1>`);
+  body = body.replace(/(<figure class="chart"><img [^>]*?) loading="lazy"/, "$1 fetchpriority=\"high\""); // first chart is often the largest thing on screen, so load it straight away
   if (ALERT_PAGES.has(canonical.replace(SITE, "/"))) body = body.replace(/(<section id="picks"|<section id="take"|<section id="list"|<section class="share")/, `${ALERT_FORM}\n$1`);
   const rel = RELATED[canonical.replace(SITE, "/")];
   if (rel) body = body.replace(/(<section class="share"|$)/, `<section><h2>Related guides</h2><p>${rel}</p></section>\n$1`);
@@ -109,7 +110,7 @@ function page({ title, description, canonical, body, ld, ogType = "article", up 
 <meta name="twitter:image" content="${SITE}og.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Schibsted+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Schibsted+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=optional" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Schibsted+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=optional"></noscript>
 <link rel="stylesheet" href="${up}tokens.css">
 <style>${CSS}</style>
 ${ld.map(ldJson).join("\n")}
@@ -354,7 +355,10 @@ const PROVIDERS = [
       ["Works with", "Cloudflare offers OpenAI-compatible API endpoints for Workers AI."]],
     docs: [["Pricing", "https://developers.cloudflare.com/workers-ai/platform/pricing/"]],
     qa: [["Is Cloudflare Workers AI free?", "Yes, up to 10,000 Neurons a day on any Workers plan. Above that you need Workers Paid, at $0.011 per 1,000 Neurons."],
-      ["Which Cloudflare AI models are not free?", "Some newer models need a paid billing method, including Kimi K2.6, GLM 5.3 and DeepSeek V4.1 Flash."]] }
+      ["Which Cloudflare AI models are not free?", "Some newer models need a paid billing method, including Kimi K2.6, GLM 5.3 and DeepSeek V4.1 Flash."],
+      ["When does the Cloudflare Workers AI free allowance reset?", "Every day at 00:00 UTC, which is midnight in the UK in winter and 1am in summer."],
+      ["What is a Neuron in Cloudflare Workers AI?", "Cloudflare's unit for the compute a request uses. Each model's pricing shows how many Neurons a million tokens cost, so smaller models stretch the 10,000 daily Neurons further."],
+      ["Can I use the OpenAI SDK with Cloudflare Workers AI?", "Yes. Cloudflare offers OpenAI-compatible endpoints for Workers AI, so you can point the OpenAI SDK at your account's Workers AI URL."]] }
 ];
 function providerPages(updated) {
   const out = {};
@@ -603,7 +607,7 @@ export ANTHROPIC_API_KEY=""</code></pre>
 <tr><th scope="row"><a href="../groq/">Groq</a></th><td>1,000 requests and 200,000 tokens a day per model (gpt-oss-120b)</td></tr>
 <tr><th scope="row"><a href="../cloudflare/">Cloudflare Workers AI</a></th><td>10,000 Neurons a day</td></tr>
 <tr><th scope="row"><a href="../gemini/">Google Gemini</a></th><td>Set per model in Google AI Studio</td></tr>
-<tr><th scope="row">Cohere</th><td>1,000 calls a month on a trial key</td></tr></tbody></table></div></section>
+<tr><th scope="row">Cohere</th><td>1,000 calls a month on a trial key</td></tr></tbody></table></div><p class="m">Sources: <a href="https://openrouter.ai/docs/api/reference/limits" rel="noopener">OpenRouter limits</a> · <a href="https://console.groq.com/docs/rate-limits" rel="noopener">Groq rate limits</a> · <a href="https://developers.cloudflare.com/workers-ai/platform/pricing/" rel="noopener">Cloudflare Workers AI pricing</a> · <a href="https://ai.google.dev/gemini-api/docs/rate-limits" rel="noopener">Gemini rate limits</a> · <a href="https://docs.cohere.com/docs/rate-limits" rel="noopener">Cohere rate limits</a>.</p></section>
 <section><h2>How to get as close to unlimited as possible</h2><h3>Stack free tiers</h3><p>Use OpenRouter first and fall back to Groq, then Gemini, when one runs out. The <a href="../calculator/">free LLM API calculator</a> shows how far that stretches for your project.</p><h3>Use the router</h3><p>OpenRouter's <code>openrouter/free</code> picks an available free model for each request, so a removed model doesn't break your app.</p><h3>Run a model yourself</h3><p>Open models run on your own computer with tools like Ollama or LM Studio, with no request limit at all. See <a href="../../new-ai-models/open-source/">new open source AI models</a>.</p></section>` });
   }
 
@@ -614,10 +618,13 @@ export ANTHROPIC_API_KEY=""</code></pre>
     const body = `<section><h2>${esc(A.name)} vs ${esc(B.name)}: free tiers side by side</h2><div class="tablewrap"><table><thead><tr><th></th><th>${esc(A.name)}</th><th>${esc(B.name)}</th></tr></thead><tbody>
 ${line("Free models", p => p.models(orN))}${line("Limits", p => p.limits)}${line("Credit card needed?", p => p.card)}${line("Your data", p => p.data)}${line("OpenAI-compatible base URL", p => p.base)}
 </tbody></table></div>
-<p>Full details: <a href="../${A.page}">${esc(A.name)}</a> · <a href="../${B.page}">${esc(B.name)}</a>.</p></section>
+<p>Full details: <a href="../${A.page}">${esc(A.name)}</a> · <a href="../${B.page}">${esc(B.name)}</a>. Sources: <a href="${A.docs}" rel="noopener">${esc(A.name)} docs</a> · <a href="${B.docs}" rel="noopener">${esc(B.name)} docs</a>.</p></section>
 <section><h2>Which should you use?</h2><p>Use ${esc(A.name)} if ${esc(PICK[a])}. Use ${esc(B.name)} if ${esc(PICK[b])}. Both are free to start, so many developers keep a key for each and switch when one hits its limit.</p></section>`;
     const qa = [[`Is ${A.name} or ${B.name} better for free?`, `${A.name}: ${PICK[a]}. ${B.name}: ${PICK[b]}. Both have free tiers with limits.`],
-      [`Do ${A.name} and ${B.name} need a credit card?`, `${A.name}: ${A.card}. ${B.name}: ${B.card}.`]];
+      [`Do ${A.name} and ${B.name} need a credit card?`, `${A.name}: ${A.card}. ${B.name}: ${B.card}.`],
+      [`What are the free limits on ${A.name} and ${B.name}?`, `${A.name}: ${A.limits}. ${B.name}: ${B.limits}.`],
+      [`Do ${A.name} and ${B.name} use my prompts?`, `${A.name}: ${A.data}. ${B.name}: ${B.data}.`],
+      [`Can I use the OpenAI SDK with ${A.name} and ${B.name}?`, `Yes. Both accept OpenAI-style requests: point the SDK at ${A.base} for ${A.name} or ${B.base} for ${B.name}, and use that provider's own API key.`]];
     shell(slug, { title: `${A.name.replace("Google ", "")} vs ${B.name.replace("Google ", "")}: free tiers compared | Upcurrent`, h1: `${A.name} vs ${B.name} (free tiers)`, eyebrow: "Free AI models · compare",
       lede: `${A.name} and ${B.name} free tiers compared: free models, rate limits, card rules and data use, from each provider's own docs.`, body, qa, crumb: `${A.short || A.name} vs ${B.short || B.name}` });
   });

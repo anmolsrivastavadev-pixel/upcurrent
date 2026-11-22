@@ -87,6 +87,8 @@
         return [...seen.values()];
       },
       async reddit() {
+        // Browsers can't call Reddit (blocked by CORS), so this runs only in the scheduled update.
+        if (typeof document !== "undefined") return null;
         // With a Reddit app (client id + secret) use the official OAuth API; otherwise the public JSON.
         const path = "/r/OpenAI+ClaudeAI+singularity+LocalLLaMA+MachineLearning/hot.json?limit=60&raw_json=1";
         let j;
@@ -102,6 +104,8 @@
         return j.data.children.map(c => c.data).filter(d => !d.stickied).map(d => ({ src: "r/" + d.subreddit, t: d.title, url: "https://www.reddit.com" + d.permalink, up: d.ups, com: d.num_comments, at: new Date(d.created_utc * 1000).toISOString() }));
       },
       async bluesky() {
+        // Bluesky search refuses browser requests (CORS), so this runs only in the scheduled update.
+        if (typeof document !== "undefined") return null;
         // Bluesky's public search API needs no key.
         const since = new Date(Date.now() - DAY).toISOString();
         const terms = ["LLM", "Claude", "OpenAI", "Gemini", "AI agents"];

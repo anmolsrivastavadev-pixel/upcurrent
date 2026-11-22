@@ -27,7 +27,7 @@
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "@id": "https://upcurrent.dev/#org", "name": "Upcurrent", "url": "https://upcurrent.dev/", "logo": "https://upcurrent.dev/icon-512.png"}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Schibsted+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Schibsted+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=optional" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Schibsted+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=optional"></noscript>
 <link rel="stylesheet" href="tokens.css">
 <style>
 /* Layout: a morning weather report for AI. Ticker band, then a headline + live updraft chart,
@@ -73,6 +73,7 @@ nav.main a:hover { color: var(--ink); background: var(--chip); }
 .live { display: inline-flex; align-items: center; gap: 7px; font: 500 12.5px var(--font-mono); color: var(--muted); }
 .live::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--up); box-shadow: 0 0 0 0 color-mix(in srgb, var(--up) 60%, transparent); animation: pulse 2.2s ease-out infinite; }
 .live.snap::before { background: var(--faint); animation: none; }
+@media (max-width: 560px) { .dateline .live { flex-basis: 100%; min-height: 15px; } } /* own line on phones from the start, so filling it in later does not push the page down */
 @keyframes pulse { 70% { box-shadow: 0 0 0 9px transparent; } 100% { box-shadow: 0 0 0 0 transparent; } }
 .hero h1 { font: 800 clamp(34px, 5.4vw, 60px)/1.02 var(--font-display); letter-spacing: -.035em; margin: 18px 0 18px; text-wrap: balance; }
 .hero h1 .mover { background: linear-gradient(90deg, var(--warm), var(--hot)); -webkit-background-clip: text; background-clip: text; color: transparent; overflow-wrap: anywhere; }
@@ -80,7 +81,7 @@ nav.main a:hover { color: var(--ink); background: var(--chip); }
 .brief li { display: grid; grid-template-columns: 18px 1fr; gap: 8px; color: var(--muted); font-size: 16.5px; }
 .brief li::before { content: "↗"; color: var(--hot); font-weight: 700; }
 .brief li:first-child { color: var(--ink); }
-.gen { margin-top: 14px; font: 12px var(--font-mono); color: var(--faint); }
+.gen { margin-top: 14px; min-height: 28px; font: 12px var(--font-mono); color: var(--faint); }
 
 .updraft { position: relative; background: var(--paper); border: 1px solid var(--line); border-radius: 14px; padding: 18px 18px 12px; display: flex; flex-direction: column; min-height: 340px; min-width: 0; }
 .updraft header { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; flex-wrap: wrap; }
@@ -215,9 +216,9 @@ details.how summary { cursor: pointer; color: var(--ink); font-weight: 600; }
 .hy { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr) minmax(0, 1fr); gap: 10px 28px; padding: 16px 0; border-bottom: 1px solid var(--line); align-items: start; }
 .hy h3 { margin: 0; font: 800 19px/1.25 var(--font-display); letter-spacing: -.015em; overflow-wrap: anywhere; }
 .hy .verdict { display: inline-block; margin-top: 6px; font: 600 12px var(--font-mono); padding: 2px 8px; border-radius: 999px; background: var(--chip); color: var(--muted); }
-.hy .verdict.match { background: color-mix(in srgb, var(--up) 9%, transparent); color: var(--up-text); }
-.hy .verdict.talk { background: color-mix(in srgb, var(--hot) 8%, transparent); color: var(--hot-text); }
-.hy .verdict.quiet { background: color-mix(in srgb, var(--cool) 9%, transparent); color: var(--cool-text); }
+.hy .verdict.match { background: color-mix(in srgb, var(--up) 9%, transparent); color: color-mix(in srgb, var(--up-text) 82%, var(--ink, #000)); }
+.hy .verdict.talk { background: color-mix(in srgb, var(--hot) 8%, transparent); color: color-mix(in srgb, var(--hot-text) 82%, var(--ink, #000)); }
+.hy .verdict.quiet { background: color-mix(in srgb, var(--cool) 9%, transparent); color: color-mix(in srgb, var(--cool-text) 82%, var(--ink, #000)); }
 .hy .lab { font: 600 11px var(--font-mono); letter-spacing: .1em; color: var(--faint); text-transform: uppercase; }
 .hy .val { font-weight: 600; margin: 3px 0 6px; overflow-wrap: anywhere; }
 .hy .meter { height: 6px; border-radius: 3px; background: var(--chip); overflow: hidden; }
@@ -344,6 +345,7 @@ footer .about { flex-basis: 100%; margin: 6px 0 0; max-width: 80ch; line-height:
 }
 
 /* language picker + hide Google's translate banner */
+#langPick { display: inline-flex; min-width: 160px; min-height: 38px; }
 .lang-pick { position: relative; display: inline-flex; align-items: center; gap: 6px; color: var(--muted); }
 .lang-pick svg { width: 16px; height: 16px; flex: none; }
 .lang-pick select { appearance: none; -webkit-appearance: none; font: inherit; font-size: 14px; color: var(--ink); background: var(--paper); border: 1px solid var(--line); border-radius: 8px; padding: 7px 10px; max-width: 160px; cursor: pointer; }

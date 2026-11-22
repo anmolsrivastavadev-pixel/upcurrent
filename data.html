@@ -25,7 +25,7 @@
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Dataset", "name": "Upcurrent AI trends", "description": "What is rising in AI, recorded every 30 minutes since 1 October 2026: momentum-ranked GitHub repos, Hugging Face models and papers, cross-source breakouts, hype checks, milestone receipts, free LLM APIs on OpenRouter and OpenCode Zen, and AI headlines and discussions. One frozen file per day plus a long-term history.", "url": "https://upcurrent.dev/data.html", "license": "https://creativecommons.org/licenses/by/4.0/", "isAccessibleForFree": true, "creator": {"@type": "Organization", "name": "Upcurrent", "url": "https://upcurrent.dev/"}, "keywords": ["AI trends", "machine learning", "GitHub trending", "Hugging Face", "LLM", "open source AI", "free AI models"], "temporalCoverage": "2026-10-01/..", "inLanguage": "en", "distribution": [{"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://upcurrent.dev/data/api/today.json", "name": "Today"}, {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://upcurrent.dev/data/api/history.json", "name": "History"}, {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://upcurrent.dev/data/latest.json", "name": "Raw data"}]}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Schibsted+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Schibsted+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=optional" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Schibsted+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=optional"></noscript>
 <link rel="stylesheet" href="tokens.css">
 <style>
 * { box-sizing: border-box; }
@@ -61,6 +61,7 @@ td:first-child { font-family: var(--font-mono); font-size: 13.5px; white-space: 
 footer { border-top: 1px solid var(--line); padding-block: 22px; color: var(--muted); font-size: 14px; }
 
 /* language picker + hide Google's translate banner */
+#langPick { display: inline-flex; min-width: 160px; min-height: 38px; }
 .lang-pick { position: relative; display: inline-flex; align-items: center; gap: 6px; color: var(--muted); }
 .lang-pick svg { width: 16px; height: 16px; flex: none; }
 .lang-pick select { appearance: none; -webkit-appearance: none; font: inherit; font-size: 14px; color: var(--ink); background: var(--paper); border: 1px solid var(--line); border-radius: 8px; padding: 7px 10px; max-width: 160px; cursor: pointer; }
