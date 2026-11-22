@@ -243,7 +243,7 @@ function guidePages(days, data) {
     const coolMap = new Map();
     for (const d of recent) for (const r of data[d].rising || []) if (r.src === "gh" && r.desc && r.url && !/nsfw/i.test(r.name + r.desc) && (!coolMap.has(r.url) || coolMap.get(r.url).score < r.score)) coolMap.set(r.url, r);
     const cool = [...coolMap.values()].sort((a, b) => b.score - a.score).slice(0, 8);
-    const lead = repos.length ? `GitHub trending repositories for AI, updated every 30 minutes: ${repos.length} trending AI projects on GitHub gaining stars fastest over the last ${recent.length} days. Top of the list: ${repos[0].repo}, which gained ${fmt(repos[0].best)} stars in a single day.` : "GitHub trending repositories for AI: the new AI projects gaining stars fastest this week.";
+    const lead = repos.length ? `Discover GitHub projects before they blow up: GitHub trending repositories for AI, updated every 30 minutes. Not a huge list to hoard, only what's rising: ${repos.length} trending AI projects on GitHub gaining stars fastest over the last ${recent.length} days. Top of the list: ${repos[0].repo}, which gained ${fmt(repos[0].best)} stars in a single day.` : "GitHub trending repositories for AI: the new AI projects gaining stars fastest this week.";
     const qa = [
       ["How do I see GitHub trending repositories today?", `GitHub's own trending page (github.com/trending) covers every language and doesn't show numbers. This page follows only AI projects and shows how many stars each gained in a day, updated every 30 minutes.${today.length ? " Today's top trending AI repository is " + today[0].repo + "." : ""}`],
       ["Is there a GitHub trending API?", "GitHub's official API has no trending endpoint. Upcurrent publishes its trending AI repositories as free JSON (CC BY 4.0) that you can call from any app: see the free GitHub trending API page on this site."],
@@ -258,10 +258,65 @@ ${today.length ? `<section id="today"><h2>Trending today</h2><p>The AI repositor
 <section id="vs"><h2>How this differs from GitHub's trending page</h2><p><a href="https://github.com/trending" rel="noopener">GitHub's trending page</a> covers every language and topic, and doesn't say how many stars a repo gained. This list only follows new AI projects (created in the last 30 days, with 100+ stars), counts the stars each one gains per day from GitHub's official API, and keeps every day's list in the <a href="../github-trending-archive/">GitHub trending archive</a>. Want the data in your own app? Use the <a href="../github-trending-api/">free GitHub trending API</a>.</p></section>
 ${cool.length ? `<section id="cool"><h2>Cool AI GitHub projects to try this week</h2><p>Looking for cool, interesting GitHub projects rather than a leaderboard? These are the coolest open source AI projects trending on GitHub this week, with what each one actually does, in its own words.</p><ul class="rows">${cool.map(r => `<li><span class="t">${link(r.url, r.owner + "/" + r.name)}</span><span class="m">${esc(clip(r.desc, 150))}</span></li>`).join("")}</ul></section>` : ""}
 ${(() => { const u = repos.filter(r => r.stars).sort((a, b) => a.stars - b.stars).slice(0, 5); return u.length >= 3 ? `<section id="underrated"><h2>Underrated GitHub repos catching on early</h2><p>Underrated GitHub projects: the trending repos this week with the fewest total stars so far, so you can find them before everyone else does.</p><ol class="rows">${u.map(r => `<li><span class="t">${link("https://github.com/" + r.repo, r.repo)}</span><span class="m"><span class="num">+${fmt(r.best)}</span> stars on ${esc(shortDate(r.bestDay))} · <span class="num">${fmt(r.stars)}</span> stars total</span></li>`).join("")}</ol></section>` : ""; })()}
-<section id="list"><h2>Top GitHub projects this week, ranked by best day</h2><ol class="rows">${repos.map(r => `<li><span class="t">${link("https://github.com/" + r.repo, r.repo)}</span><span class="m"><span class="num">+${fmt(r.best)}</span> stars on ${esc(shortDate(r.bestDay))} · <span class="num">${fmt(r.stars)}</span> stars · ${fmt(r.forks)} forks · on the list ${r.days} ${r.days === 1 ? "day" : "days"} · <a href="../daily/${r.bestDay}.html">see that day</a></span></li>`).join("")}</ol></section>
+<section id="list"><h2>Trending GitHub repos this week, ranked by best day</h2><ol class="rows">${repos.map(r => `<li><span class="t">${link("https://github.com/" + r.repo, r.repo)}</span><span class="m"><span class="num">+${fmt(r.best)}</span> stars on ${esc(shortDate(r.bestDay))} · <span class="num">${fmt(r.stars)}</span> stars · ${fmt(r.forks)} forks · on the list ${r.days} ${r.days === 1 ? "day" : "days"} · <a href="../daily/${r.bestDay}.html">see that day</a></span></li>`).join("")}</ol></section>
 ${faqHtml(qa)}`;
-    out[g.slug] = page({ title: `GitHub Trending Repositories Today: AI (${shortDate(days[days.length - 1])})`, description: clip(lead, 160), canonical: url, body, up: "../",
+    out[g.slug] = page({ title: today.length ? `GitHub Trending Repositories Today: AI (${today[0].est ? "~" : "+"}${fmt(today[0].d24)} stars today)` : `GitHub Trending Repositories Today: AI`, description: clip(lead, 160), canonical: url, body, up: "../",
       ld: [{ "@context": "https://schema.org", "@type": "ItemList", name: g.title, url, numberOfItems: repos.length, itemListElement: repos.map((r, i) => ({ "@type": "ListItem", position: i + 1, name: r.repo, url: "https://github.com/" + r.repo })) }, faq(qa), breadcrumb([["Upcurrent", SITE], [g.short, url]])] });
+  }
+  // Content gaps: trending AI papers, MCP servers / Claude Code skills. Both read the latest raw fetch (refreshed every 30 minutes).
+  let RAW = {};
+  try { RAW = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "latest.json"), "utf8")).raw || {}; } catch {}
+  {
+    const hf = [...(RAW.hfPapers || [])].filter(p => p.id && p.title).sort((a, b) => (+b.upvotes || 0) - (+a.upvotes || 0));
+    const ax = (RAW.arxiv || []).filter(p => p.t && p.url).slice(0, 15);
+    const wk = new Map(); for (const d of recent) for (const r of data[d].rising || []) if (r.src === "paper" && r.url && !wk.has(r.url)) wk.set(r.url, { ...r, day: d });
+    if (hf.length || ax.length) {
+      const url = `${SITE}trending-ai-papers/`;
+      const lede = `Trending AI research papers today: the ${hf.length} papers getting the most upvotes on Hugging Face Daily Papers, plus the newest AI papers on arXiv. Updated every 30 minutes, with a one-line summary of each.`;
+      const qa = [
+        ["What are the trending AI papers today?", hf.length ? `On Hugging Face Daily Papers, the most upvoted right now are ${hf.slice(0, 3).map(p => `"${p.title}" (${+p.upvotes || 0} upvotes)`).join(", ")}.` : "See the list on this page."],
+        ["Where can I find trending AI research papers?", "Hugging Face Daily Papers, where researchers share new papers and the community upvotes them, and arXiv, where most AI papers are first published. This page puts both in one place."],
+        ["What are Hugging Face trending papers?", "Hugging Face Daily Papers is a feed of new research papers, mostly on AI, that people upvote. The papers with the most upvotes are the ones the community is paying most attention to."],
+        ["Which arXiv categories does this cover?", "Artificial intelligence (cs.AI), computation and language (cs.CL) and machine learning (cs.LG), newest first."],
+        ["How often is this updated?", "Every 30 minutes, from Hugging Face's and arXiv's official APIs."]
+      ];
+      const body = `<section><div class="eyebrow">Research · updated every 30 minutes</div><h1>Trending AI research papers today</h1><p class="lede">${esc(lede)}</p><p class="asof">Last checked ${esc(asOf(updated))}.</p></section>
+${hf.length ? `<section id="hf"><h2>Hugging Face trending papers</h2><p>From <a href="https://huggingface.co/papers" rel="noopener">Hugging Face Daily Papers</a>, most upvoted first.</p><ol class="rows">${hf.map(p => `<li><span class="t">${link("https://huggingface.co/papers/" + p.id, p.title)}</span><span class="m"><span class="num">▲ ${fmt(+p.upvotes || 0)}</span> upvotes · ${esc(clip(p.summary || "", 200))}</span></li>`).join("")}</ol></section>` : ""}
+${wk.size ? `<section id="week"><h2>Popular AI papers this week</h2><p>Papers that made Upcurrent's daily list of what's rising across all of AI.</p><ul class="rows">${[...wk.values()].map(p => `<li><span class="t">${link(p.url, p.name)}</span><span class="m">${esc(clip(p.desc || "", 160))} · <a href="../daily/${p.day}.html">${esc(shortDate(p.day))}</a></span></li>`).join("")}</ul></section>` : ""}
+${ax.length ? `<section id="arxiv"><h2>Newest AI papers on arXiv</h2><p>The latest submissions in cs.AI, cs.CL and cs.LG on <a href="https://arxiv.org/list/cs.AI/recent" rel="noopener">arXiv</a>.</p><ul class="rows">${ax.map(p => `<li><span class="t">${link(p.url, p.t)}</span><span class="m">${esc(shortDate((p.at || "").slice(0, 10) || days[days.length - 1]))}</span></li>`).join("")}</ul></section>` : ""}
+<section><h2>Related</h2><p>For models rather than papers, see <a href="../new-ai-models/">new AI models and Hugging Face trending models</a>. For code, see <a href="../trending-ai-github-repos/">GitHub trending repositories today</a>.</p></section>
+${faqHtml(qa)}`;
+      out["trending-ai-papers"] = page({ title: "Trending AI Research Papers Today (Hugging Face, arXiv)", description: clip(lede, 160), canonical: url, body, up: "../",
+        ld: [{ "@context": "https://schema.org", "@type": "ItemList", name: "Trending AI research papers", url, numberOfItems: hf.length, itemListElement: hf.map((p, i) => ({ "@type": "ListItem", position: i + 1, name: p.title, url: "https://huggingface.co/papers/" + p.id })) }, faq(qa), breadcrumb([["Upcurrent", SITE], ["Trending AI papers", url]])] });
+    }
+  }
+  {
+    const gh = (RAW.github || []).filter(g => g.repo && !/nsfw/i.test(g.name + g.desc));
+    const txt = g => `${g.name} ${g.desc} ${(g.topics || []).join(" ")}`.toLowerCase();
+    const nd = g => `${g.name} ${g.desc}`.toLowerCase(), tp = g => (g.topics || []).join(" ");
+    const mcp = gh.filter(g => /\bmcp\b|model.context.protocol/.test(nd(g)) || /\bmcp-server\b/.test(tp(g))).sort((a, b) => b.stars - a.stars);
+    const skills = gh.filter(g => !mcp.includes(g) && (/claude.?code|\bskills?\b|agent.?skills|\bsubagents?\b/.test(nd(g)) || /\b(agent-skills|claude-skills|claude-code-skills|claude-code-plugin)\b/.test(tp(g)))).sort((a, b) => b.stars - a.stars);
+    if (mcp.length + skills.length >= 4) {
+      const url = `${SITE}mcp-servers-claude-code-skills/`;
+      const ageD = g => Math.max(1, Math.round((Date.now() - Date.parse(g.created)) / 864e5));
+      const row = g => `<li><span class="t">${link("https://github.com/" + g.repo, g.repo)}</span><span class="m"><span class="num">★ ${fmt(g.stars)}</span> in ${ageD(g)} ${ageD(g) === 1 ? "day" : "days"}${g.lang ? ` · ${esc(g.lang)}` : ""} · ${esc(clip(g.desc || "", 150))}</span></li>`;
+      const lede = `The best new MCP servers and Claude Code skills on GitHub right now: ${mcp.length} MCP servers and ${skills.length} skills and agent add-ons from the last 30 days, ranked by GitHub stars. Updated every 30 minutes.`;
+      const qa = [
+        ["What are the best new MCP servers on GitHub?", mcp.length ? `By stars, the most popular new ones right now are ${mcp.slice(0, 3).map(g => `${g.repo} (${fmt(g.stars)} stars)`).join(", ")}. Check each repo's code and permissions before connecting it to your tools.` : "See the list on this page."],
+        ["What are the best Claude Code skills on GitHub?", skills.length ? `The most starred new skills and agent add-ons right now include ${skills.slice(0, 3).map(g => `${g.repo} (${fmt(g.stars)} stars)`).join(", ")}.` : "See the list on this page."],
+        ["What is an MCP server?", "MCP (Model Context Protocol) is an open standard for connecting AI assistants to tools and data. An MCP server gives an assistant like Claude, ChatGPT or an AI code editor a new ability, such as reading a database or controlling an app."],
+        ["What are Claude Code skills?", "Skills are folders of instructions, scripts and files that Claude loads when they're relevant to a task, so it can follow a team's workflow or use a tool the same way every time."],
+        ["Are these safe to install?", "Stars show popularity, not safety. MCP servers and skills can run code and reach your files, so read the code, check who made it, and only install ones you trust."],
+        ["How are these picked?", "Upcurrent searches GitHub's official API every 30 minutes for AI repositories created in the last 30 days with more than 100 stars, then keeps those whose name, description or topics mention MCP, Claude Code or skills."]
+      ];
+      const body = `<section><div class="eyebrow">GitHub · updated every 30 minutes</div><h1>Best new MCP servers and Claude Code skills</h1><p class="lede">${esc(lede)}</p><p class="asof">Last checked ${esc(asOf(updated))}.</p></section>
+${mcp.length ? `<section id="mcp"><h2>Best new MCP servers on GitHub</h2><p>MCP servers work with Claude Code, Claude Desktop, Cursor, OpenCode and other apps that support the <a href="https://modelcontextprotocol.io/" rel="noopener">Model Context Protocol</a>.</p><ol class="rows">${mcp.map(row).join("")}</ol></section>` : ""}
+${skills.length ? `<section id="skills"><h2>Claude Code skills and agent add-ons</h2><p>Skills, subagents and add-ons for Claude Code and other coding agents. See <a href="https://code.claude.com/docs/en/skills" rel="noopener">Anthropic's guide to skills</a> for how to install one.</p><ol class="rows">${skills.map(row).join("")}</ol></section>` : ""}
+<section><h2>Related</h2><p>Running Claude Code on a budget? See <a href="../free-ai-models/claude-code/">free models for Claude Code</a> and <a href="../free-ai-models/coding-tools/">free AI coding tools</a>. For every trending AI repo, see <a href="../trending-ai-github-repos/">GitHub trending repositories today</a>.</p></section>
+${faqHtml(qa)}`;
+      out["mcp-servers-claude-code-skills"] = page({ title: "Best New MCP Servers and Claude Code Skills on GitHub", description: clip(lede, 160), canonical: url, body, up: "../",
+        ld: [{ "@context": "https://schema.org", "@type": "ItemList", name: "Best new MCP servers and Claude Code skills", url, numberOfItems: mcp.length + skills.length, itemListElement: [...mcp, ...skills].map((g, i) => ({ "@type": "ListItem", position: i + 1, name: g.repo, url: "https://github.com/" + g.repo })) }, faq(qa), breadcrumb([["Upcurrent", SITE], ["MCP servers and Claude Code skills", url]])] });
+    }
   }
   // GitHub trending archive: every day's top AI repo since tracking began, plus a monthly best-of.
   {
@@ -631,7 +686,7 @@ print(llm.invoke("Say hi in five words").text)</code></pre>
 <p>Source: ${src("https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmchatopenrouter/", "n8n docs: OpenRouter Chat Model")}. n8n also has Groq Chat Model and Google Gemini Chat Model nodes that work the same way.</p></section>
 <section><h2>Free models for n8n agents today</h2>${orTools.length ? ids(orTools, 8) : ids(orFree, 8)}<p><a href="../openrouter/">All ${orFree.length} free OpenRouter models</a> · checked every 30 minutes.</p></section>` });
 
-    shell("claude-code", { title: "Free LLM API for Claude Code: what works and what doesn't", h1: "Free LLM API for Claude Code", eyebrow: "Free AI models · Claude Code", crumb: "Claude Code",
+    shell("claude-code", { title: "Free Claude Code? What Works With Free Models (Honest Answer)", h1: "Free LLM API for Claude Code", eyebrow: "Free AI models · Claude Code", crumb: "Claude Code",
       lede: "Claude Code can run through OpenRouter with a few environment variables, but OpenRouter only guarantees it with Anthropic's own models, which aren't free. Here are the honest options.",
       qa: [["Can I use Claude Code for free?", "Not reliably. Claude Code can connect to OpenRouter, but usage is billed in OpenRouter credits, and OpenRouter says Claude Code is only guaranteed to work with Anthropic's own provider. Free models may not work correctly."],
         ["How do I connect Claude Code to OpenRouter?", "Set ANTHROPIC_BASE_URL to https://openrouter.ai/api, put your OpenRouter key in ANTHROPIC_AUTH_TOKEN, and set ANTHROPIC_API_KEY to an empty string. Then run /logout once if you were logged in to Anthropic, and restart Claude Code."],
@@ -1098,7 +1153,10 @@ ${faqHtml(qa)}
     const bigHtml = big.length ? `<section id="big"><h2>Big model releases in the last 14 days</h2><p>Launches from the big AI labs, from their own blog posts${big.some(b => !b.lab) ? " and Techmeme" : ""}. Most of these are used through an app or API rather than downloaded.</p><ul class="rows">${big.map(b => `<li><span class="t">${link(b.url, b.t)}</span><span class="m">${esc(`${b.src} · ${shortDate(b.day)}`)}</span></li>`).join("")}</ul></section>
 ` : "";
     if (big.length) qa.unshift(["What are the latest big AI model releases?", `In the last 14 days: ${big.slice(0, 4).map(b => `${b.t.replace(/^(Introducing|Announcing) /i, "").replace(/ is now available$/i, "")} (${b.src}, ${shortDate(b.day)})`).join("; ")}.`]);
-    const body = bigHtml + `<section id="list"><h2>${week.length} new open AI models, newest first</h2><ol class="rows">${week.map(m => modelRow(m)).join("")}</ol></section>
+    let hfT = []; try { hfT = (JSON.parse(fs.readFileSync(path.join(ROOT, "data", "latest.json"), "utf8")).raw.hfModels || []).filter(m => m.id).slice(0, 10); } catch {}
+    if (hfT.length) qa.splice(1, 0, ["What are the trending models on Hugging Face right now?", `Hugging Face's trending list is led by ${hfT.slice(0, 3).map(m => m.id).join(", ")}. It counts all models, old and new, by recent likes and downloads.`]);
+    const hfHtml = hfT.length ? `<section id="hf-trending"><h2>Hugging Face trending models right now</h2><p>The top of <a href="https://huggingface.co/models?sort=trending" rel="noopener">Hugging Face's trending list</a>, which includes older models that are popular again. The list below it only keeps new releases.</p><ol class="rows">${hfT.map(m => `<li><span class="t">${link("https://huggingface.co/" + m.id, m.id)}</span><span class="m">${m.task ? esc(m.task.replace(/-/g, " ")) + " · " : ""}<span class="num">${fmt(m.downloads)}</span> downloads · ♥ ${fmt(m.likes)}</span></li>`).join("")}</ol></section>` : "";
+    const body = bigHtml + hfHtml + `<section id="list"><h2>${week.length} new open AI models, newest first</h2><ol class="rows">${week.map(m => modelRow(m)).join("")}</ol></section>
 ${(() => {
   const byOrg = Object.entries(week.reduce((a, m) => (a[m.org] = (a[m.org] || 0) + 1, a), {})).sort((a, b) => b[1] - a[1]).slice(0, 3);
   const quant = week.filter(m => /gguf|awq|fp8|int4|mlx/i.test(m.name)).length;
@@ -1125,7 +1183,7 @@ ${(() => {
 <li><span class="t"><a href="../what-is/">New AI projects explained</a></span><span class="m">A plain explanation of every model and repo that reached the top 5</span></li>
 <li><span class="t"><a href="../free-ai-models/">Free AI models to use right now</a></span><span class="m">Models you can call for free, no download needed</span></li></ul></section>`;
     mk("", { title: `New AI models this week: ${week.length} trending releases | Upcurrent`, h1: "New AI models this week", eyebrow: "New AI models · updated every 30 minutes",
-      lede: `The big model launches from AI labs, plus ${week.length} recently released open models that trended on Hugging Face over the last ${recent.length} days. Newest first, with real download counts.`,
+      lede: `The big model launches from AI labs, Hugging Face trending models right now, and ${week.length} recently released open models that trended on Hugging Face over the last ${recent.length} days. Newest first, with real download counts.`,
       desc: `New AI models this week: big launches from OpenAI, Google and other labs, plus ${week.length} new open models trending on Hugging Face. Updated every 30 minutes.`, body, qa, list: week });
   }
   {
@@ -1193,6 +1251,8 @@ ${items.join("\n")}
 ${GUIDES.filter(g => guides[g.slug]).map(g => `- [${g.title}](${SITE}${g.slug}/)`).join("\n")}
 - [Free GitHub trending API (JSON, no key)](${SITE}github-trending-api/)
 - [GitHub trending archive: every day's top AI repo](${SITE}github-trending-archive/)
+- [Trending AI research papers today (Hugging Face, arXiv)](${SITE}trending-ai-papers/)
+- [Best new MCP servers and Claude Code skills on GitHub](${SITE}mcp-servers-claude-code-skills/)
 - [Free AI models for coding](${SITE}free-ai-models/coding/)
 - [Free AI model API: rate limits and model IDs](${SITE}free-ai-models/api/)
 - [How to get a free LLM API key, step by step](${SITE}free-ai-models/free-llm-api-key/)
