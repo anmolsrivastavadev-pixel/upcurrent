@@ -50,6 +50,14 @@ jobs:
           DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
           ONLY_TZ: ${{ inputs.only_tz }}
 
+      - name: Send free model alerts
+        # Once a day, 8am-noon UTC, to people who signed up for alerts. Never blocks the email.
+        continue-on-error: true
+        run: node scripts/free-alerts.cjs
+        env:
+          BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+          DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
+
       - name: Post the top 3 to Bluesky and Mastodon
         # Once a day, 8am-1pm UK. Skips any network without secrets and never blocks the email.
         continue-on-error: true

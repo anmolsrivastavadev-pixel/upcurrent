@@ -76,6 +76,9 @@ const localHour = (tz, at) => Number(new Intl.DateTimeFormat("en-US", { timeZone
 async function main() {
   const subs = [];
   for (let url = "/subscribers?type=regular"; url; ) { const page = await api("GET", url); subs.push(...page.results); url = page.next; }
+  // People who only signed up for free model alerts (scripts/free-alerts.cjs) don't get the morning email.
+  // They have no time zone, so the time-zone filter below never reaches them; leave them out here too.
+  for (let i = subs.length - 1; i >= 0; i--) if (subs[i].metadata?.alerts_only === "yes" && !subs[i].metadata?.timezone) subs.splice(i, 1);
 
   // Give subscribers with a missing or unknown zone the default, so the filter below can reach them.
   for (const s of subs) {

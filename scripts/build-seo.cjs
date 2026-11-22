@@ -52,7 +52,7 @@ footer{border-top:1px solid var(--line);padding-block:22px;color:var(--muted);fo
 .lang-pick select{appearance:none;-webkit-appearance:none;font:inherit;font-size:14px;color:var(--ink);background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:7px 10px;max-width:160px;cursor:pointer}
 iframe.skiptranslate,.goog-te-banner-frame,#goog-gt-tt,.goog-te-balloon-frame,.VIpgJd-ZVi9od-ORHb-OEVmcd,.VIpgJd-ZVi9od-aZ2wEe-wOHMyf{display:none!important}
 body{top:0!important}font[style]{background:none!important;box-shadow:none!important}
-.nl{display:flex;flex-wrap:wrap;gap:8px}.nl input[type=email]{flex:1 1 220px;min-width:0;font:inherit;padding:11px 14px;border-radius:10px;border:1px solid var(--line);background:var(--paper);color:var(--ink)}.nl button{font:700 15px var(--font-body);padding:11px 18px;border-radius:10px;border:0;background:var(--warm);color:#111;cursor:pointer}
+.nl,.nla{display:flex;flex-wrap:wrap;gap:8px}.alertbox{border:1px solid var(--line);border-radius:14px;padding:4px 18px 18px}.nl input[type=email],.nla input[type=email]{flex:1 1 220px;min-width:0;font:inherit;padding:11px 14px;border-radius:10px;border:1px solid var(--line);background:var(--paper);color:var(--ink)}.nl button,.nla button{font:700 15px var(--font-body);padding:11px 18px;border-radius:10px;border:0;background:var(--warm);color:#111;cursor:pointer}
 code{font:13.5px var(--font-mono);background:var(--code,var(--chip));color:var(--code-ink,var(--ink));padding:1px 5px;border-radius:4px;overflow-wrap:anywhere}pre{background:var(--code,var(--chip));padding:14px 16px;border-radius:10px;overflow-x:auto;max-width:100%}pre code{padding:0;background:none;overflow-wrap:normal}
 .finder{display:flex;flex-wrap:wrap;gap:8px}.finder label{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:6px 14px;border:1px solid var(--line);border-radius:999px;font-size:14.5px;cursor:pointer}.finder input{width:18px;height:18px;accent-color:var(--hot)}
 .tablewrap{overflow-x:auto;margin:12px 0}.tablewrap table{border-collapse:collapse;width:100%;font-size:14.5px}.tablewrap th,.tablewrap td{border-bottom:1px solid var(--line);padding:10px 8px;text-align:left;vertical-align:top;overflow-wrap:anywhere}.tablewrap thead th{font-weight:600}.tablewrap tbody th{font-weight:500;width:28%}.chart{margin:16px 0}.chart img{display:block;max-width:100%;height:auto;border-radius:14px}.chart figcaption{font-size:14px;color:var(--ink-2,inherit);opacity:.8;margin-top:6px}`;
@@ -72,12 +72,17 @@ const RELATED = {
   "/new-ai-models/open-source/": `For every new release, open or not, see <a href="/new-ai-models/">new AI models this week</a> and the <a href="/new-ai-models/tracker/">AI model release tracker</a>. Many open models can also be used for free through an API: see <a href="/free-ai-models/">free AI models you can use right now</a>.`,
   "/new-ai-models/tracker/": `For this week only, see <a href="/new-ai-models/">new AI models this week</a> and <a href="/new-ai-models/open-source/">new open source AI models</a>. To find out how long free models usually stay free, check the <a href="/free-ai-models/history/">free AI model tracker</a>. All of this data is free to reuse from <a href="/data.html">Upcurrent's open data</a>.`
 };
+// Free model alerts signup (scripts/free-alerts.cjs sends them). Alert-only subscribers are marked so the
+// morning email leaves them out.
+const ALERT_PAGES = new Set(["/free-ai-models/", "/free-ai-models/history/", "/free-ai-models/openrouter/", "/free-ai-models/api/", "/free-ai-models/opencode/"]);
+const ALERT_FORM = `<section id="alerts" class="alertbox"><h2>Get an email when a new AI model goes free</h2><p>One short email on the days a model becomes free on OpenRouter or OpenCode, and nothing on other days. Free offers often end within two weeks, so alerts help you catch them. Unsubscribe any time.</p><form class="nla" action="https://buttondown.com/api/emails/embed-subscribe/anmolsrivastavadev" method="post" target="_blank" onsubmit="try{window.goatcounter&&goatcounter.count&&goatcounter.count({path:'free-alert-signup',title:'Free model alert signup',event:true})}catch(e){}"><input type="email" name="email" required placeholder="you@example.com" aria-label="Email address for free model alerts" autocomplete="email"><input type="hidden" name="metadata__free_alerts" value="yes"><input type="hidden" name="metadata__alerts_only" value="yes"><button type="submit">Alert me</button></form></section>`;
 function page({ title, description, canonical, body, ld, ogType = "article", up = "../" }) {
   // On-page rules: title under 60 characters (drop the brand suffix when it would push it over),
   // and the single H1 mirrors the title.
   const bare = title.replace(/\s*\|\s*Upcurrent.*$/, "");
   if (title.length > 60) title = bare;
   body = body.replace(/<h1>[\s\S]*?<\/h1>/, `<h1>${esc(bare)}</h1>`);
+  if (ALERT_PAGES.has(canonical.replace(SITE, "/"))) body = body.replace(/(<section id="picks"|<section id="take"|<section id="list"|<section class="share")/, `${ALERT_FORM}\n$1`);
   const rel = RELATED[canonical.replace(SITE, "/")];
   if (rel) body = body.replace(/(<section class="share"|$)/, `<section><h2>Related guides</h2><p>${rel}</p></section>\n$1`);
   return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
@@ -116,7 +121,7 @@ ${body}
 <form class="nl" action="https://buttondown.com/api/emails/embed-subscribe/anmolsrivastavadev" method="post" target="_blank"><input type="email" name="email" required placeholder="you@example.com" aria-label="Email address" autocomplete="email"><input type="hidden" name="metadata__timezone" value="Europe/London"><button type="submit">Subscribe free</button></form>
 <p><a href="${up}email.html">See today's email</a></p></section>
 </main>
-<footer><div class="wrap">Upcurrent tracks what is rising in AI every 30 minutes, from GitHub, Hugging Face, arXiv, Hacker News, AI lab blogs, news sites and model providers. Numbers are as recorded at the time. <a href="${up}data.html">Open data (CC BY 4.0)</a> · ${GUIDES.map(g => `<a href="${up}${g.slug}/">${esc(g.short)}</a>`).join(" · ")} · <a href="${up}what-is/">New AI projects explained</a> · <a href="${up}about/">About</a></div></footer>
+<footer><div class="wrap">Upcurrent tracks what is rising in AI every 30 minutes, from GitHub, Hugging Face, arXiv, Hacker News, AI lab blogs, news sites and model providers. Numbers are as recorded at the time. <a href="${up}data.html">Open data (CC BY 4.0)</a> · ${GUIDES.map(g => `<a href="${up}${g.slug}/">${esc(g.short)}</a>`).join(" · ")} · <a href="${up}what-is/">New AI projects explained</a> · <a href="${up}reports/">Weekly reports</a> · <a href="${up}about/">About</a></div></footer>
 <script>try{var z=Intl.DateTimeFormat().resolvedOptions().timeZone;if(z)document.querySelectorAll('input[name="metadata__timezone"]').forEach(function(i){i.value=z})}catch(e){}document.querySelectorAll("form.nl").forEach(function(f){f.addEventListener("submit",function(){try{window.goatcounter&&window.goatcounter.count&&window.goatcounter.count({path:"subscribe",title:"Subscribed (guide page)",event:true})}catch(e){}})})</script>
 <script src="${up}translate.js"></script>
 <script data-goatcounter="https://upcurrent.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
@@ -247,6 +252,8 @@ ${faqHtml(qa)}`;
 
   // 3. New models: a hub page plus open source models and a release tracker.
   Object.assign(out, modelCluster(days, data, last, updated));
+  // 4. Weekly "state of free AI" reports.
+  Object.assign(out, reportPages(days, data, updated));
   return out;
 }
 
@@ -688,7 +695,7 @@ ${(() => {
 ${lifeChart("history/how-long-free-ai-models-stay-free.svg")}
 <h3>Limits</h3><p>Free-tier limits are much lower than paid ones. OpenRouter allows 20 requests a minute and 50 a day (1,000 after buying 10 credits). OpenCode's free models only work inside OpenCode. Free OpenRouter models are called through the same OpenAI-compatible API as paid ones, so moving up later is a one-line change.</p></section>
 <section><h2>Free models from other providers</h2><ul class="rows"><li><span class="t"><a href="gemini/">Gemini API free tier</a></span><span class="m">Gemini 4 Hydrogen and Gemini 3.8 Flash, free with no billing account</span></li><li><span class="t"><a href="groq/">Groq free API</a></span><span class="m">gpt-oss-120b and qwen3.8-27b, 1,000 requests a day each</span></li><li><span class="t"><a href="cloudflare/">Cloudflare Workers AI</a></span><span class="m">10,000 Neurons a day across most of its models</span></li><li><span class="t"><a href="coding-tools/">Free AI coding tools</a></span><span class="m">GitHub Copilot Free, Cursor, Kilo Code, Antigravity and more</span></li></ul></section>
-<section id="by-tool"><h2>Free AI for the tool you use</h2><ul class="rows"><li><span class="t"><a href="langchain/">Free LLM API for LangChain</a></span><span class="m">Groq, Gemini and OpenRouter with ChatOpenAI</span></li><li><span class="t"><a href="n8n/">Free AI models in n8n</a></span><span class="m">Free models for n8n AI agents</span></li><li><span class="t"><a href="claude-code/">Free LLM API for Claude Code</a></span><span class="m">What works, and the free alternatives</span></li><li><span class="t"><a href="janitor-ai/">Free API for Janitor AI</a></span><span class="m">OpenRouter setup with today's free models</span></li><li><span class="t"><a href="for-students/">Free AI API for students</a></span><span class="m">GitHub Copilot Student and free API tiers</span></li><li><span class="t"><a href="no-limit/">Free LLM API with no limit?</a></span><span class="m">The honest answer, and how to stretch free tiers</span></li></ul></section>
+<section id="by-tool"><h2>Free AI for the tool you use</h2><ul class="rows"><li><span class="t"><a href="langchain/">Free LLM API for LangChain</a></span><span class="m">Groq, Gemini and OpenRouter with ChatOpenAI</span></li><li><span class="t"><a href="n8n/">Free AI models in n8n</a></span><span class="m">Free models for n8n AI agents</span></li><li><span class="t"><a href="claude-code/">Free LLM API for Claude Code</a></span><span class="m">What works, and the free alternatives</span></li><li><span class="t"><a href="janitor-ai/">Free API for Janitor AI</a></span><span class="m">OpenRouter setup with today's free models</span></li><li><span class="t"><a href="for-students/">Free AI API for students</a></span><span class="m">GitHub Copilot Student and free API tiers</span></li><li><span class="t"><a href="no-limit/">Free LLM API with no limit?</a></span><span class="m">The honest answer, and how to stretch free tiers</span></li><li><span class="t"><a href="embed/">Embed this list on your site</a></span><span class="m">A live box that updates itself, free</span></li><li><span class="t"><a href="../reports/">State of free AI: weekly reports</a></span><span class="m">Which models went free and which ended, week by week</span></li></ul></section>
 ${events.length ? `<section id="changes"><h2>Added and removed this week</h2><ul class="rows">${events.slice(0, 30).map(e => `<li><span class="t">${e.type === "added" ? "Added" : "Removed"}: ${link(e.url, e.name)}</span><span class="m">${esc(e.prov)} · ${esc(asOf(e.at))}</span></li>`).join("")}</ul></section>` : ""}
 <script>(function(){var bs=[].slice.call(document.querySelectorAll(".finder input")),rows=[].slice.call(document.querySelectorAll("#freeList li")),c=document.getElementById("finderCount");
 function run(){var on=bs.filter(function(b){return b.checked}).map(function(b){return b.dataset.f}),n=0;rows.forEach(function(r){var caps=r.dataset.caps.split(","),ok=on.every(function(f){return f==="ctx"?+r.dataset.ctx>=1e6:f==="api"?r.dataset.prov==="OpenRouter":caps.indexOf(f)>-1});r.hidden=!ok;if(ok)n++});c.textContent=on.length?("Showing "+n+" of "+rows.length+"."):("Showing all "+rows.length+".")}
@@ -875,12 +882,31 @@ ${fam.length ? `<li><span class="t">Model families on the free list today</span>
 <section id="cite"><h2>Use these numbers in your article</h2><p>Writing about free AI models? You're welcome to quote these figures and use the chart, with a link back to this page (CC BY 4.0).</p>
 <h3>Quotable facts</h3><ul class="rows"><li><span class="t">${esc(`Since ${shortDate(firstDay)}, ${hist.length} different AI models have been offered free on OpenRouter and OpenCode, and ${gone.length} of them have stopped being free.`)}</span><span class="m">Source: Upcurrent free AI model tracker</span></li>${median ? `<li><span class="t">${esc(`Half of the free AI models that stopped being free lasted ${median} days or less.`)}</span><span class="m">Source: Upcurrent free AI model tracker</span></li>` : ""}<li><span class="t">${esc(`Only ${allTime} models have been free every day since ${shortDate(firstDay)}.`)}</span><span class="m">Source: Upcurrent free AI model tracker</span></li></ul>
 <h3>Embed the chart</h3><p>Copy this into your page:</p><pre><code>${esc(`<a href="${SITE}free-ai-models/history/"><img src="${SITE}free-ai-models/history/how-long-free-ai-models-stay-free.svg" alt="How long free AI models stay free, from the Upcurrent tracker" width="800" height="420"></a>`)}</code></pre>
-<p>The chart updates every day. Raw data is in <a href="../../data.html">Upcurrent's open data</a> as JSON.</p></section>
+<p>The chart updates every day. For a live list of today's free models instead, use the <a href="../embed/">embeddable box</a>. Raw data is in <a href="../../data.html">Upcurrent's open data</a> as JSON.</p></section>
 <section id="list"><h2>Every free model Upcurrent has seen</h2><ol class="rows">${sorted.map(m => `<li><span class="t">${m.now ? `<span class="tag">Free now</span> ` : ""}${link(m.url, m.name)}</span><span class="m">${esc([m.prov, `free from ${shortDate(m.first)}${m.now ? "" : ` to ${shortDate(m.last)}`}`, `${m.span} ${m.span === 1 ? "day" : "days"}`, ctxLabel(m.ctx) && `${ctxLabel(m.ctx)} context`].filter(Boolean).join(" · "))}</span></li>`).join("")}</ol></section>`;
     mk("history/", { title: "Free AI model tracker: how long free models last | Upcurrent", h1: "Free AI model tracker", eyebrow: "Free AI models · open data",
       lede: `${hist.length} different AI models have been free on OpenRouter and OpenCode since ${shortDate(firstDay)}. ${median ? `Half of the ones that ended lasted ${median} days or less.` : ""} Here is every one, with when it was free.`.replace(/\s+/g, " "),
       desc: `${hist.length} AI models have been free since ${shortDate(firstDay)}; ${median ? `half of those that ended lasted ${median} days or less` : "see how long each lasted"}. Full history, CC BY 4.0.`,
       body, qa, list: null, crumb: "Tracker" });
+  }
+
+  // Embeddable "free AI models right now" box: a standalone page other sites can put in an iframe.
+  // The embed code also carries a plain link to the hub, which is what passes on search credit.
+  {
+    const top = free.slice(0, 8);
+    const rows = top.map(f => `<li><a href="${esc(f.url || SITE + "free-ai-models/")}" target="_blank" rel="noopener">${esc(f.name)}</a><span>${esc([f.prov.replace(" Zen", ""), ctxLabel(f.ctx)].filter(Boolean).join(" · "))}</span></li>`).join("");
+    CHART_FILES["embed/free-ai-models.html"] = `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>Free AI models right now (Upcurrent)</title><link rel="canonical" href="${SITE}free-ai-models/">
+<style>:root{--bg:#fff;--ink:#141a26;--mut:#5b6476;--line:#e3e7ee;--acc:#2f6fde}@media (prefers-color-scheme:dark){:root{--bg:#121826;--ink:#eef1f6;--mut:#9aa3b5;--line:#253047;--acc:#7aa7ff}}*{box-sizing:border-box}body{margin:0;background:transparent;color:var(--ink);font:15px/1.4 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}.w{background:var(--bg);border:1px solid var(--line);border-radius:14px;padding:14px 16px}h1{font-size:17px;margin:0 0 2px}p{margin:0 0 10px;color:var(--mut);font-size:13px}ol{list-style:none;margin:0;padding:0}li{display:flex;justify-content:space-between;gap:10px;padding:7px 0;border-top:1px solid var(--line)}li a{color:var(--ink);font-weight:600;text-decoration:none;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}li a:hover{color:var(--acc)}li span{color:var(--mut);font-size:13px;white-space:nowrap}.f{margin-top:10px;font-size:12.5px}.f a{color:var(--acc)}</style></head>
+<body><div class="w"><h1>Free AI models right now</h1><p>${free.length} free on OpenRouter and OpenCode · updated ${esc(asOf(updated))}</p><ol>${rows}</ol><div class="f"><a href="${SITE}free-ai-models/" target="_blank" rel="noopener">See all ${free.length} free models on Upcurrent →</a></div></div></body></html>`;
+    const code = `<iframe src="${SITE}embed/free-ai-models.html" title="Free AI models right now, by Upcurrent" width="100%" height="470" style="border:0;max-width:440px" loading="lazy"></iframe>\n<p><a href="${SITE}free-ai-models/">Free AI models list</a> by Upcurrent</p>`;
+    mk("embed/", { title: "Embed a live free AI models list on your site", h1: "Embed a live free AI models list", eyebrow: "Free AI models · embed", crumb: "Embed",
+      lede: "Add a box to your blog or docs that always shows today's free AI models. It updates every 30 minutes, it's free, and it needs no sign-up.",
+      desc: "Copy one snippet to show a live, auto-updating list of free AI models on your own website. Free, no sign-up, works in light and dark mode.",
+      body: `<section><h2>Preview</h2><iframe src="../../embed/free-ai-models.html" title="Free AI models right now, by Upcurrent" width="100%" height="470" style="border:0;max-width:440px" loading="lazy"></iframe></section>
+<section><h2>Copy this code</h2><p>Paste it into any page that allows HTML (WordPress Custom HTML block, Ghost HTML card, Notion embeds, Webflow embed, plain HTML):</p><pre><code>${esc(code)}</code></pre><p>Please keep the line with the link under the box. It's how readers find the full list, and it's the only thing we ask in return.</p></section>
+<section><h2>Details</h2><ul class="rows"><li><span class="t">Updates every 30 minutes</span><span class="m">From the same live data as the <a href="../">free AI models list</a></span></li><li><span class="t">Light and dark mode</span><span class="m">Follows your reader's system setting</span></li><li><span class="t">No tracking, no scripts</span><span class="m">The box is plain HTML and CSS</span></li><li><span class="t">Free to use</span><span class="m">The data is also available as JSON under CC BY 4.0 in <a href="../../data.html">Upcurrent's open data</a></span></li></ul></section>`,
+      qa: [["Can I put a list of free AI models on my website?", "Yes. Copy the embed code on this page into any page that accepts HTML. The box shows today's free models and updates itself every 30 minutes."],
+        ["Does the embed cost anything?", "No. It's free and needs no account. We only ask that you keep the link under the box."]], list: null });
   }
   return out;
 }
@@ -889,6 +915,56 @@ ${fam.length ? `<li><span class="t">Model families on the free list today</span>
 // trending Hugging Face model Upcurrent has recorded. Numbers are Upcurrent's own readings.
 const MODEL_PAGES = [["", "This week"], ["open-source/", "Open source"], ["tracker/", "Release tracker"]];
 const modelNav = (cur, up) => `<nav class="guides" aria-label="New AI models guides">${MODEL_PAGES.map(([p, n]) => p === cur ? `<b>${esc(n)}</b>` : `<a href="${up}new-ai-models/${p}">${esc(n)}</a>`).join("")}<a href="${up}what-is/">Explained</a></nav>`;
+// Weekly "state of free AI" reports: one page per complete Monday-Sunday week, built from the daily
+// snapshots, plus an index. Each has its own numbers, so no two pages say the same thing.
+function reportPages(days, data, updated) {
+  const out = {}, have = new Set(days);
+  const monday = d => { const t = new Date(d + "T12:00:00Z"); t.setUTCDate(t.getUTCDate() - ((t.getUTCDay() + 6) % 7)); return t.toISOString().slice(0, 10); };
+  const addDays = (d, n) => { const t = new Date(d + "T12:00:00Z"); t.setUTCDate(t.getUTCDate() + n); return t.toISOString().slice(0, 10); };
+  const today = days[days.length - 1];
+  const weeks = [...new Set(days.map(monday))].filter(w => addDays(w, 6) < today).map(w => ({ w, days: [0, 1, 2, 3, 4, 5, 6].map(i => addDays(w, i)).filter(d => have.has(d)) })).filter(x => x.days.length >= 4);
+  const key = f => f.prov + "|" + f.name, chat = d => (data[d].free || []).filter(isChat);
+  const reports = weeks.map(({ w, days: wd }, idx) => {
+    const prevDay = days.filter(d => d < wd[0]).pop();
+    let prev = new Set((prevDay ? chat(prevDay) : chat(wd[0])).map(key)), cur;
+    const went = new Map(), ended = new Map();
+    for (const d of wd) { cur = new Map(chat(d).map(f => [key(f), f])); for (const [k2, f] of cur) if (!prev.has(k2)) went.set(k2, { ...f, day: d }); for (const k2 of prev) if (!cur.has(k2) && !went.has(k2)) ended.set(k2, { name: k2.split("|")[1], prov: k2.split("|")[0], day: d }); prev = new Set(cur.keys()); }
+    for (const k2 of [...went.keys()]) if (ended.has(k2)) ended.delete(k2);
+    const counts = wd.map(d => [d, chat(d).length]);
+    const models = modelHistory(wd, data).filter(m => !m.at || m.at.slice(0, 10) >= addDays(w, -7)).sort((a, b) => b.dl - a.dl).slice(0, 5);
+    const repoMap = new Map();
+    for (const d of wd) for (const r of data[d].github || []) { const c = repoMap.get(r.repo) || { repo: r.repo, best: 0 }; c.best = Math.max(c.best, r.d24 || 0); repoMap.set(r.repo, c); }
+    const repos = [...repoMap.values()].sort((a, b) => b.best - a.best).slice(0, 5);
+    return { w, wd, went: [...went.values()], ended: [...ended.values()], counts, models, repos, start: counts[0][1], end: counts[counts.length - 1][1] };
+  });
+  const label = w => shortDate(w);
+  reports.forEach((r, i) => {
+    const slug = `reports/${r.w}`, url = `${SITE}${slug}/`, prevR = reports[i - 1], nextR = reports[i + 1];
+    const delta = r.end - r.start;
+    const lede = `In the week of ${label(r.w)}, ${r.went.length} AI model${r.went.length === 1 ? "" : "s"} went free and ${r.ended.length} stopped being free. The free list went from ${r.start} to ${r.end}${r.models[0] ? `, and the most downloaded new model was ${r.models[0].org}/${r.models[0].name}` : ""}.`;
+    const ch = r.counts.length > 2 ? chart(`${slug}/free-ai-models-per-day.svg`, "free-ai-models-per-day.svg", { title: `Free AI models each day, week of ${label(r.w)}`, sub: "Free chat models on OpenRouter and OpenCode at the end of each day", rows: r.counts.map(([d, n]) => [new Date(d + "T12:00:00Z").toLocaleDateString("en-GB", { weekday: "short", timeZone: "UTC" }), n]) },
+      `Bar chart of free AI models each day in the week of ${label(r.w)}: ${r.counts.map(([d, n]) => `${n} on ${shortDate(d)}`).join(", ")}.`, `End-of-day counts from Upcurrent's snapshots.`) : "";
+    const li = (t, m) => `<li><span class="t">${t}</span><span class="m">${esc(m)}</span></li>`;
+    const body = `<section><div class="eyebrow">Weekly report · ${esc(label(r.w))} to ${esc(shortDate(r.wd[r.wd.length - 1]))}</div><h1>x</h1><p class="lede">${esc(lede)}</p><p class="asof">Built from Upcurrent's daily snapshots. <a href="../">All weekly reports</a>.</p></section>
+<section><h2>The week in numbers</h2><ul class="stats"><li><b class="num">${r.went.length}</b> went free</li><li><b class="num">${r.ended.length}</b> stopped being free</li><li><b class="num">${r.end}</b> free at the end of the week (${delta >= 0 ? "+" : ""}${delta})</li></ul>${ch}</section>
+<section><h2>Went free this week</h2>${r.went.length ? `<ul class="rows">${r.went.map(f => li(f.url ? link(f.url, f.name) : esc(f.name), `${f.prov} · ${shortDate(f.day)}${f.ctx ? " · " + ctxLabel(f.ctx) + " context" : ""}`)).join("")}</ul>` : "<p>No new free models this week.</p>"}</section>
+<section><h2>Stopped being free this week</h2>${r.ended.length ? `<ul class="rows">${r.ended.map(f => li(esc(f.name), `${f.prov} · gone by ${shortDate(f.day)}`)).join("")}</ul>` : "<p>None ended this week.</p>"}</section>
+${r.models.length ? `<section><h2>Most downloaded new AI models</h2><ol class="rows">${r.models.map(m => li(link(hfUrl(m), `${m.org}/${m.name}`), `${fmt(m.dl)} downloads on Hugging Face`)).join("")}</ol></section>` : ""}
+${r.repos.length ? `<section><h2>Fastest-rising AI repos on GitHub</h2><ol class="rows">${r.repos.map(x => li(link("https://github.com/" + x.repo, x.repo), `+${fmt(x.best)} stars on its best day`)).join("")}</ol></section>` : ""}
+<section><h2>Other weeks</h2><p>${prevR ? `<a href="../${prevR.w}/">← Week of ${esc(label(prevR.w))}</a>` : ""}${prevR && nextR ? " · " : ""}${nextR ? `<a href="../${nextR.w}/">Week of ${esc(label(nextR.w))} →</a>` : ""}${!prevR && !nextR ? "This is the first report." : ""}</p><p>Want this every week? The <a href="../../email.html">free morning email</a> has the daily version, and <a href="../../free-ai-models/#alerts">free model alerts</a> tell you the day a model goes free.</p></section>
+<section class="share" aria-label="Share this page"><b>Share:</b> ${shareLinks(url, `State of free AI, week of ${label(r.w)}`)}</section>`;
+    out[slug] = page({ title: `State of free AI: week of ${label(r.w)} | Upcurrent`, description: clip(lede, 160), canonical: url, body, up: "../../",
+      ld: [{ "@context": "https://schema.org", "@type": "Article", headline: `State of free AI: week of ${label(r.w)}`, datePublished: r.wd[r.wd.length - 1], dateModified: updated, author: { "@type": "Organization", name: "Upcurrent", url: SITE }, publisher: { "@type": "Organization", name: "Upcurrent", url: SITE } }, breadcrumb([["Upcurrent", SITE], ["Weekly reports", SITE + "reports/"], [`Week of ${label(r.w)}`, url]])] });
+  });
+  if (reports.length) {
+    const L = reports[reports.length - 1];
+    out["reports"] = page({ title: "State of free AI: weekly reports | Upcurrent", description: clip(`A weekly report on free AI models: which went free, which ended, and the new models and repos that rose. Latest: week of ${label(L.w)}.`, 160), canonical: `${SITE}reports/`, up: "../",
+      body: `<section><div class="eyebrow">Weekly reports</div><h1>x</h1><p class="lede">Every Monday-to-Sunday week since ${esc(label(reports[0].w))}: which AI models went free, which stopped, and the new models and GitHub repos that rose fastest. Built automatically from Upcurrent's daily data.</p></section>
+<section><h2>All weeks</h2><ul class="rows">${[...reports].reverse().map(r => `<li><span class="t"><a href="${r.w}/">Week of ${esc(label(r.w))}</a></span><span class="m">${esc(`${r.went.length} went free · ${r.ended.length} ended · ${r.end} free at the end`)}</span></li>`).join("")}</ul></section>`,
+      ld: [breadcrumb([["Upcurrent", SITE], ["Weekly reports", SITE + "reports/"]])] });
+  }
+  return out;
+}
 function modelHistory(days, data) {
   const seen = new Map();
   days.forEach(day => (data[day].models || []).forEach(m => {
@@ -1059,6 +1135,8 @@ ${GUIDES.filter(g => guides[g.slug]).map(g => `- [${g.title}](${SITE}${g.slug}/)
 - [Free LLM API for Claude Code](${SITE}free-ai-models/claude-code/)
 - [Free API for Janitor AI](${SITE}free-ai-models/janitor-ai/)
 - [Free LLM API with no limit](${SITE}free-ai-models/no-limit/)
+- [Embed a live free AI models list](${SITE}free-ai-models/embed/)
+- [State of free AI: weekly reports](${SITE}reports/)
 - [Free LLM API calculator](${SITE}free-ai-models/calculator/): which free API tiers cover a given number of requests a day
 - [OpenRouter vs Gemini free tiers](${SITE}free-ai-models/openrouter-vs-gemini/)
 - [OpenRouter vs Groq free tiers](${SITE}free-ai-models/openrouter-vs-groq/)
