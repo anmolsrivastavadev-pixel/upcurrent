@@ -428,6 +428,25 @@ const modelRow = (m, extra) => {
   const slug = EXPLAIN.get(hfUrl(m));
   return `<li><span class="t">${link(hfUrl(m), `${m.org}/${m.name}`)}${slug ? ` <a class="wi" href="/what-is/${slug}/">What is it?</a>` : ""}</span><span class="m">${esc([m.at && `released ${shortDate(m.at.slice(0, 10))}`, m.cat, m.lic, `${fmt(m.dl)} downloads`, m.likes ? `${fmt(m.likes)} likes` : null, extra].filter(Boolean).join(" · "))}</span></li>`;
 };
+// Big model launches (GPT, Gemini, Claude...) from official lab blog posts, plus Techmeme launch headlines
+// when no lab post covers the same model. Lab posts come from the daily archive and the latest fetch.
+const BIG_MODEL = /\b(GPT|Gemini|Claude|Llama|Grok|Qwen|DeepSeek|Mistral|Kimi|Nemotron|Genie|Gemma|Sora|Veo|Phi)[- ]?\d[\w.]*/;
+function bigReleases(days, data) {
+  const found = new Map(), seen = new Set();
+  const take = (h, day, labPost) => {
+    const t = h.t || "", m = t.match(BIG_MODEL);
+    if (!m || !h.url) return;
+    const lab = labPost && /^(introducing|announcing)\b|\bis now available\b|\blaunch/i.test(t);
+    const news = !labPost && /Techmeme/.test(h.src || "") && /\b(releases|launches|rolls out|unveils|debuts|introduces)\b/i.test(t) && !/\b(sources?|reportedly|report)\b/i.test(t);
+    if (!lab && !news) return;
+    const key = m[0].replace(/[- ]/, " ").toLowerCase() + "|" + day;
+    if (!found.has(h.url)) found.set(h.url, { t, url: h.url, src: h.src, day, lab, key });
+  };
+  days.forEach(day => (data[day].headlines || []).forEach(h => take(h, day, h.kind === "Lab blog")));
+  try { (JSON.parse(fs.readFileSync(path.join(ROOT, "data", "latest.json"), "utf8")).raw.blogs || []).forEach(b => { const d = (b.at || "").slice(0, 10); if (d >= days[0]) take(b, d, true); }); } catch {}
+  const all = [...found.values()], labKeys = new Set(all.filter(x => x.lab).map(x => x.key.split("|")[0]));
+  return all.filter(x => x.lab || !labKeys.has(x.key.split("|")[0])).filter(x => !seen.has(x.url) && seen.add(x.url)).sort((a, b) => b.day.localeCompare(a.day));
+}
 function modelCluster(days, data, last, updated) {
   const out = {}, recent = days.slice(-7), firstDay = days[0], hist = modelHistory(days, data);
   const week = modelHistory(recent, data).sort((a, b) => Date.parse(b.at || 0) - Date.parse(a.at || 0));
@@ -452,15 +471,19 @@ ${faqHtml(qa)}
       ["Can I download these models for free?", `Yes. Every model listed is downloadable from Hugging Face. ${open} of this week's ${week.length} are open source; the rest are open weights, which can carry use limits, so check each licence.`],
       ["How are models picked?", "A model appears when it is trending on Hugging Face and was released recently. The list keeps each model's highest recorded download count."]
     ];
-    const body = `<section id="list"><h2>${week.length} new AI models, newest first</h2><ol class="rows">${week.map(m => modelRow(m)).join("")}</ol></section>
+    const big = bigReleases(days.slice(-14), data);
+    const bigHtml = big.length ? `<section id="big"><h2>Big model releases in the last 14 days</h2><p>Launches from the big AI labs, from their own blog posts${big.some(b => !b.lab) ? " and Techmeme" : ""}. Most of these are used through an app or API rather than downloaded.</p><ul class="rows">${big.map(b => `<li><span class="t">${link(b.url, b.t)}</span><span class="m">${esc(`${b.src} · ${shortDate(b.day)}`)}</span></li>`).join("")}</ul></section>
+` : "";
+    if (big.length) qa.unshift(["What are the latest big AI model releases?", `In the last 14 days: ${big.slice(0, 4).map(b => `${b.t.replace(/^(Introducing|Announcing) /i, "").replace(/ is now available$/i, "")} (${b.src}, ${shortDate(b.day)})`).join("; ")}.`]);
+    const body = bigHtml + `<section id="list"><h2>${week.length} new open AI models, newest first</h2><ol class="rows">${week.map(m => modelRow(m)).join("")}</ol></section>
 <section><h2>More on new models</h2><ul class="rows">
 <li><span class="t"><a href="open-source/">New open source AI models</a></span><span class="m">Only models you can freely use and change, with what "open source" and "open weights" mean</span></li>
 <li><span class="t"><a href="tracker/">AI model release tracker</a></span><span class="m">All ${hist.length} new models Upcurrent has seen trending since ${shortDate(firstDay)}</span></li>
 <li><span class="t"><a href="../what-is/">New AI projects explained</a></span><span class="m">A plain explanation of every model and repo that reached the top 5</span></li>
 <li><span class="t"><a href="../free-ai-models/">Free AI models to use right now</a></span><span class="m">Models you can call for free, no download needed</span></li></ul></section>`;
     mk("", { title: `New AI models this week: ${week.length} trending releases | Upcurrent`, h1: "New AI models this week", eyebrow: "New AI models · updated every 30 minutes",
-      lede: `${week.length} recently released AI models trended on Hugging Face over the last ${recent.length} days. ${open} are open source. Newest first, with real download counts.`,
-      desc: `${week.length} new AI models released and trending this week on Hugging Face, newest first, with downloads, licence and category. Updated every 30 minutes.`, body, qa, list: week });
+      lede: `The big model launches from AI labs, plus ${week.length} recently released open models that trended on Hugging Face over the last ${recent.length} days. Newest first, with real download counts.`,
+      desc: `New AI models this week: big launches from OpenAI, Google and other labs, plus ${week.length} new open models trending on Hugging Face. Updated every 30 minutes.`, body, qa, list: week });
   }
   {
     const os = [...hist].filter(m => /^open (source|weights)/i.test(m.lic || "")).sort((a, b) => Date.parse(b.at || 0) - Date.parse(a.at || 0)).slice(0, 40);
