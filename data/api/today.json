@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-22T04:10:52.107Z"
+  "updated": "2026-11-22T04:15:09.661Z"
  },
  "pulse": {
   "trending": 73,
   "accelerating": 0,
   "newModels": 9,
   "discussions": 25,
-  "stars": 3101
+  "stars": 3097
  },
  "rising": [
   {
@@ -37,11 +37,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 94,
-   "grow": 32,
+   "grow": 33,
    "desc": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
    "meta": [
-    "★ 2,588",
-    "+1,156 in 24h",
+    "★ 2,592",
+    "+1,157 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-19T14:43:10Z",
@@ -73,8 +73,8 @@
    "grow": 9,
    "desc": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
    "meta": [
-    "★ 7,503",
-    "+726 in 24h",
+    "★ 7,504",
+    "+725 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-11-16T12:10:36Z",
@@ -90,8 +90,8 @@
    "grow": null,
    "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
    "meta": [
-    "★ 1,766",
-    "~641 in 24h",
+    "★ 1,767",
+    "~640 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-19T10:00:43Z",
@@ -202,8 +202,8 @@
    "name": "blender-ai-mcp-addon",
    "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
    "from": "GitHub",
-   "use": 1156,
-   "useLabel": "+1,156 stars/day",
+   "use": 1157,
+   "useLabel": "+1,157 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -317,8 +317,8 @@
  "github": [
   {
    "repo": "bookwjitchieni1986/blender-ai-mcp-addon",
-   "stars": 2588,
-   "d24": 1156,
+   "stars": 2592,
+   "d24": 1157,
    "est": false,
    "forks": 35,
    "contrib": null,
@@ -326,8 +326,8 @@
   },
   {
    "repo": "erkamyaman/rust-anything",
-   "stars": 7503,
-   "d24": 726,
+   "stars": 7504,
+   "d24": 725,
    "est": false,
    "forks": 600,
    "contrib": 22,
@@ -335,8 +335,8 @@
   },
   {
    "repo": "iamajmeena/neonclipping",
-   "stars": 1766,
-   "d24": 641,
+   "stars": 1767,
+   "d24": 640,
    "est": true,
    "forks": 89,
    "contrib": null,
@@ -345,7 +345,7 @@
   {
    "repo": "sybil-solutions/inference-optimisation-skill",
    "stars": 1718,
-   "d24": 578,
+   "d24": 575,
    "est": false,
    "forks": 155,
    "contrib": null,
@@ -738,6 +738,13 @@
    "kind": "News"
   },
   {
+   "t": "DOLE to prepare workers for AI shift",
+   "url": "https://www.manilatimes.net/2026/11/22/news/national/dole-to-prepare-workers-for-ai-shift/2475544",
+   "at": "2026-11-21T16:15:00Z",
+   "src": "The Manila Times",
+   "kind": "News"
+  },
+  {
    "t": "AI cannot take jobs of skilled workers: PM Modi",
    "url": "https://www.greaterkashmir.com/national/ai-cannot-take-jobs-of-skilled-workers-pm-modi-12829934",
    "at": "2026-11-21T16:10:12Z",
@@ -794,13 +801,6 @@
    "kind": "News"
   },
   {
-   "t": "‘No student should be held guilty on word of machine alone’: CJI Surya Kant at legal education conference in Hyderabad",
-   "url": "https://timesofindia.indiatimes.com/city/hyderabad/no-student-should-be-held-guilty-on-word-of-machine-alone-cji-surya-kant-at-legal-education-conference-in-hyderabad/articleshow/136057721.cms",
-   "at": "2026-11-21T15:28:00Z",
-   "src": "Times of India",
-   "kind": "News"
-  },
-  {
    "t": "Rhodium: China's biggest tech companies are set to double capex to $139B in 2026 with AI lab revenue under 8% of it, a gap that may matter more than chip curbs",
    "url": "https://www.techmeme.com/261121/p7#a261121p7",
    "at": "2026-11-21T15:10:01.000Z",
@@ -814,8 +814,8 @@
    "t": "Lean verification of the Riemann Hypothesis",
    "url": "https://news.ycombinator.com/item?id=50589618",
    "link": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
-   "up": 898,
-   "com": 756,
+   "up": 900,
+   "com": 759,
    "at": "2026-11-21T14:36:45.000Z"
   },
   {
@@ -823,27 +823,27 @@
    "t": "Inkling-2-Mini in 5.4 GB Memory",
    "url": "https://news.ycombinator.com/item?id=50591853",
    "link": "https://github.com/ShinMegamiBoson/lookatmyquant",
-   "up": 388,
+   "up": 392,
    "com": 99,
    "at": "2026-11-21T18:02:19.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Data Processing Incidents on Inference Providers",
-   "url": "https://news.ycombinator.com/item?id=50595554",
-   "link": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
-   "up": 46,
-   "com": 14,
-   "at": "2026-11-22T02:14:14.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Leonida – PC Recompilation of the Xbox Version of GTA 6",
    "url": "https://news.ycombinator.com/item?id=50595168",
    "link": "https://github.com/ItsNotRexed/Leonida",
-   "up": 73,
+   "up": 77,
    "com": 42,
    "at": "2026-11-22T00:57:26.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Data Processing Incidents on Inference Providers",
+   "url": "https://news.ycombinator.com/item?id=50595554",
+   "link": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+   "up": 47,
+   "com": 13,
+   "at": "2026-11-22T02:14:14.000Z"
   },
   {
    "src": "Hacker News",
