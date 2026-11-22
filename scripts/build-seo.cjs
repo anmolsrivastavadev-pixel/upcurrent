@@ -492,6 +492,10 @@ ${faqHtml(qa)}`,
       body: `<section><h2>What you can ask for</h2><ul class="rows"><li><span class="t">A weekly report on your topics</span><span class="m">For example AI coding tools, agents, open models or a list of competitors, with real star and download numbers</span></li><li><span class="t">Alerts</span><span class="m">An email when a model your team uses goes free or stops being free, or when a project in your area takes off</span></li><li><span class="t">Data exports</span><span class="m">The daily history in a spreadsheet-friendly file, for your own analysis</span></li></ul></section>
 <section><h2>See a sample first</h2><p>The public <a href="../reports/">weekly reports</a> show the kind of numbers you'd get. A team report focuses only on what you care about.</p></section>`,
       qa: [["How much is a team report?", "By quote, depending on the topics and how often. Email to ask."], ["Where does the data come from?", "The same sources as the site: GitHub, Hugging Face, arXiv, OpenRouter and more, through their official APIs, updated every 30 minutes."]] });
+    // Funnel for the Promote page: guides for makers, built from Upcurrent's tracking data.
+    const PC = require("./promote-cluster.cjs")(days, data, { page, esc, link, faq, faqHtml, breadcrumb, clip, chart, fmt, SITE, ROOT });
+    Object.assign(out, PC.pages);
+    out["promote"] = out["promote"].replace('<section><h2>Get in touch</h2>', PC.moneyLinks + '\n<section><h2>Get in touch</h2>');
   }
 
   // FAQ: the questions people ask before signing up. Every answer describes what the site does today.
@@ -1470,6 +1474,9 @@ ${GUIDES.filter(g => guides[g.slug]).map(g => `- [${g.title}](${SITE}${g.slug}/)
 - [GitHub trending archive: every day's top AI repo](${SITE}github-trending-archive/)
 - [Trending AI research papers today (Hugging Face, arXiv)](${SITE}trending-ai-papers/)
 - [Trending AI agent repos on GitHub](${SITE}trending-ai-github-repos/agents/)
+- [How to get more GitHub stars: data from rising AI repos](${SITE}promote/github-stars/)
+- [How to get on GitHub trending](${SITE}promote/github-trending/)
+- [Where to launch an AI project: Product Hunt alternatives](${SITE}promote/launch-platforms/)
 - [Upcurrent FAQ: is it free, where the data comes from, what the email is](${SITE}faq/)
 - [LLM API pricing compared: live prices for every model](${SITE}llm-api-pricing/)
 - [LLM API cost calculator](${SITE}llm-api-pricing/calculator/)
