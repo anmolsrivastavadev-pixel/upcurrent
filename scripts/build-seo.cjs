@@ -57,7 +57,29 @@ code{font:13.5px var(--font-mono);background:var(--code,var(--chip));color:var(-
 .finder{display:flex;flex-wrap:wrap;gap:8px}.finder label{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:6px 14px;border:1px solid var(--line);border-radius:999px;font-size:14.5px;cursor:pointer}.finder input{width:18px;height:18px;accent-color:var(--hot)}
 .tablewrap{overflow-x:auto;margin:12px 0}.tablewrap table{border-collapse:collapse;width:100%;font-size:14.5px}.tablewrap th,.tablewrap td{border-bottom:1px solid var(--line);padding:10px 8px;text-align:left;vertical-align:top;overflow-wrap:anywhere}.tablewrap thead th{font-weight:600}.tablewrap tbody th{font-weight:500;width:28%}`;
 
+// Contextual internal links for pages whose body copy had few: each links to its cluster's hub,
+// a sibling page and the email signup (the money page).
+const RELATED = {
+  "/trending-ai-github-repos/": `Many of these repos run on free models: see <a href="/free-ai-models/">free AI models you can use right now</a> and <a href="/free-ai-models/coding-tools/">free AI coding tools</a>. For models rather than code, see <a href="/new-ai-models/">new AI models this week</a>. Each repo that reached the top 5 has its own page in <a href="/what-is/">New AI projects explained</a>, and the <a href="/email.html">free morning email</a> sends the list to you daily.`,
+  "/free-ai-models/": `To call these models from your own code, start with the <a href="/free-ai-models/api/">free LLM API guide</a> and <a href="/free-ai-models/free-llm-api-key/">how to get a free API key</a>. To see how long free models usually last, check the <a href="/free-ai-models/history/">free AI model tracker</a>. For brand-new releases, see <a href="/new-ai-models/">new AI models this week</a>, and get changes by <a href="/email.html">free morning email</a>.`,
+  "/free-ai-models/history/": `For the models that are free today, see the <a href="/free-ai-models/">free AI models list</a> or the <a href="/free-ai-models/openrouter/">OpenRouter free models list</a>. Because free models disappear, the <a href="/free-ai-models/api/">free LLM API guide</a> suggests keeping a backup provider. The same data is free to reuse under CC BY 4.0 from <a href="/data.html">Upcurrent's open data</a>.`,
+  "/free-ai-models/opencode/": `OpenCode's free models only work inside OpenCode. To call free models from your own code, see the <a href="/free-ai-models/openrouter/">OpenRouter free models list</a> and the <a href="/free-ai-models/api/">free LLM API guide</a>. Other free editors and agents are in <a href="/free-ai-models/coding-tools/">free AI coding tools</a>, and the <a href="/free-ai-models/coding/">best free models for coding</a> are ranked here.`,
+  "/free-ai-models/openrouter/": `To start calling these, follow <a href="/free-ai-models/free-llm-api-key/">how to get a free LLM API key</a>. To weigh OpenRouter against other providers, see <a href="/free-ai-models/openrouter-vs-gemini/">OpenRouter vs Gemini</a> and <a href="/free-ai-models/openrouter-vs-groq/">OpenRouter vs Groq</a>. To see how long free OpenRouter models usually stay free, check the <a href="/free-ai-models/history/">free AI model tracker</a>.`,
+  "/free-ai-models/image-and-speech/": `For text models, see the <a href="/free-ai-models/api/">free LLM API guide</a>. Provider details are on the <a href="/free-ai-models/gemini/">Gemini free tier</a>, <a href="/free-ai-models/groq/">Groq free API</a> and <a href="/free-ai-models/cloudflare/">Cloudflare Workers AI</a> pages, and new image models show up first in <a href="/new-ai-models/">new AI models this week</a>.`,
+  "/what-is/": `For the whole list as it stands today, see <a href="/trending-ai-github-repos/">trending AI GitHub repos</a> and <a href="/new-ai-models/">new AI models this week</a>. Every day's list is kept in the <a href="/daily/">daily archive</a>, and the <a href="/email.html">free morning email</a> sends the top movers to you daily.`,
+  "/daily/": `For this week's picture, see <a href="/trending-ai-github-repos/">trending AI GitHub repos</a>, <a href="/new-ai-models/">new AI models</a> and <a href="/free-ai-models/">free AI models</a>. Projects that reached the top 5 are explained one by one in <a href="/what-is/">New AI projects explained</a>. How the ranking works is on the <a href="/about/">about page</a>.`,
+  "/about/": `See the method in action on the <a href="/">live dashboard</a>, the <a href="/daily/">daily archive</a> and the <a href="/free-ai-models/history/">free AI model tracker</a>. The raw numbers are free to reuse from <a href="/data.html">Upcurrent's open data</a>, and the <a href="/email.html">free morning email</a> brings the top movers to you daily.`,
+  "/new-ai-models/open-source/": `For every new release, open or not, see <a href="/new-ai-models/">new AI models this week</a> and the <a href="/new-ai-models/tracker/">AI model release tracker</a>. Many open models can also be used for free through an API: see <a href="/free-ai-models/">free AI models you can use right now</a>.`,
+  "/new-ai-models/tracker/": `For this week only, see <a href="/new-ai-models/">new AI models this week</a> and <a href="/new-ai-models/open-source/">new open source AI models</a>. To find out how long free models usually stay free, check the <a href="/free-ai-models/history/">free AI model tracker</a>. All of this data is free to reuse from <a href="/data.html">Upcurrent's open data</a>.`
+};
 function page({ title, description, canonical, body, ld, ogType = "article", up = "../" }) {
+  // On-page rules: title under 60 characters (drop the brand suffix when it would push it over),
+  // and the single H1 mirrors the title.
+  const bare = title.replace(/\s*\|\s*Upcurrent.*$/, "");
+  if (title.length > 60) title = bare;
+  body = body.replace(/<h1>[\s\S]*?<\/h1>/, `<h1>${esc(bare)}</h1>`);
+  const rel = RELATED[canonical.replace(SITE, "/")];
+  if (rel) body = body.replace(/(<section class="share"|$)/, `<section><h2>Related guides</h2><p>${rel}</p></section>\n$1`);
   return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(description)}">
@@ -75,6 +97,7 @@ function page({ title, description, canonical, body, ld, ogType = "article", up 
 <meta property="og:image" content="${SITE}og.png">
 <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Upcurrent: what's rising in AI today">
+<meta name="twitter:image:alt" content="Upcurrent: what's rising in AI today">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="${esc(title)}">
 <meta name="twitter:description" content="${esc(description)}">
@@ -142,6 +165,7 @@ ${sec("models", "Trending models on Hugging Face", list(models, m => `<li><span 
 ${sec("receipts", "Called it", list(rc, r => `<li><span class="t">${link(r.url, r.name)}</span><span class="m">Tracked at ${fmt(r.firstV)} ${esc(r.kind)} on ${esc(new Date(r.first).toUTCString().slice(5, 22))} UTC, passed ${fmt(r.m)} on ${esc(new Date(r.at).toUTCString().slice(5, 22))} UTC</span></li>`, "ul"))}
 ${sec("discussions", "Most-discussed threads", list(disc, t => `<li><span class="t">${link(t.url, t.t)}</span><span class="m">${esc(t.src)}${t.up != null ? ` · ${fmt(t.up)} points` : ""}${t.com != null ? ` · ${fmt(t.com)} comments` : ""}</span></li>`))}
 ${sec("news", "AI headlines", list(news, h => `<li><span class="t">${link(h.url, h.t)}</span><span class="m">${esc([h.src, h.kind].filter(Boolean).join(" · "))}</span></li>`, "ul"))}
+<section><h2>Keep exploring</h2><p>Every project that reached the top 5 has its own page in <a href="../what-is/">New AI projects explained</a>. For this week's picture, see <a href="../trending-ai-github-repos/">trending AI GitHub repos</a> and <a href="../new-ai-models/">new AI models</a>, or check which <a href="../free-ai-models/">AI models are free right now</a>. Older days are in the <a href="./">daily archive</a>.</p></section>
 <section class="share" aria-label="Share this page"><b>Share this list:</b> ${shareLinks(url, `What was rising in AI on ${shortDate(day)}`)}</section>
 <nav class="pager" aria-label="Other days">${prev ? `<a href="${prev}.html" rel="prev">← ${esc(shortDate(prev))}</a>` : "<span></span>"}<a href="./">All days</a>${next ? `<a href="${next}.html" rel="next">${esc(shortDate(next))} →</a>` : "<span></span>"}</nav>`;
   const ld = [
@@ -300,7 +324,8 @@ function providerPages(updated) {
     const url = `${SITE}free-ai-models/${pv.slug}/`, up = "../../";
     const html = `<section><div class="eyebrow">Free AI models · ${esc(pv.short)}</div><h1>${esc(pv.h1)}</h1><p class="lede">${esc(pv.lede)}</p>${freeNav(pv.slug + "/", up)}<p class="asof">Checked ${esc(CHECKED)} from ${esc(pv.name)}'s own docs. Free tiers change, so check the links below before you build on one.</p></section>
 <section><h2>${esc(pv.short)} free tier at a glance</h2><ul class="rows">${pv.facts.map(([k, v]) => `<li><span class="t">${esc(k)}</span><span class="m">${esc(v)}</span></li>`).join("")}</ul>
-<p>Sources: ${pv.docs.map(([n, u]) => link(u, `${pv.short} ${n.toLowerCase()}`)).join(", ")}.</p></section>
+<p>Sources: ${pv.docs.map(([n, u]) => link(u, `${pv.short} ${n.toLowerCase()}`)).join(", ")}.</p>
+<p>To see how ${esc(pv.short)} stacks up, look at the <a href="../api/#compare">free LLM API comparison table</a>${(() => { const v = COMPARES.filter(c => c.includes(pv.slug)); return v.length ? ", or the side-by-side pages for " + v.map(([a, b]) => `<a href="../${a}-vs-${b}/">${esc(API_FACTS[a].name.replace("Google ", ""))} vs ${esc(API_FACTS[b].name.replace("Google ", ""))}</a>`).join(" and ") : ""; })()}. If you don't have a key yet, <a href="../free-llm-api-key/">here's how to get one</a>.</p></section>
 <section><h2>Other free options</h2><ul class="rows"><li><span class="t"><a href="../api/">Free AI model API</a></span><span class="m">Every free LLM API compared, plus the OpenRouter models Upcurrent checks every 30 minutes</span></li><li><span class="t"><a href="../no-credit-card/">Free LLM APIs with no credit card</a></span><span class="m">Which free tiers you can start without a card</span></li>${PROVIDERS.filter(o => o !== pv).map(o => `<li><span class="t"><a href="../${o.slug}/">${esc(o.h1)}</a></span><span class="m">${esc(o.lede.split(". ")[0])}.</span></li>`).join("")}</ul></section>
 ${faqHtml(pv.qa)}
 <section class="share" aria-label="Share this page"><b>Share:</b> ${shareLinks(url, pv.h1)}</section>`;
@@ -991,6 +1016,7 @@ function explainerPage(it, all) {
   ${summary ? `<p>${it.src === "paper" ? "From the abstract" : "In its own words"}: “${esc(summary)}”</p>` : ""}
   <p>${esc(seen)} ${esc(growth)}</p>
   <p><a href="${esc(it.url)}" rel="noopener"><b>${esc(tryLabel)} →</b></a></p>
+  <p>${it.src === "gh" ? `It sits alongside the other <a href="../../trending-ai-github-repos/">trending AI GitHub repos this week</a>.` : it.src === "hf" ? `It's one of the <a href="../../new-ai-models/">new AI models</a> Upcurrent tracks on Hugging Face${/gguf|awq|fp8|mlx/i.test(it.name) ? "" : `, alongside <a href="../../new-ai-models/open-source/">new open source releases</a>`}.` : `See what else was rising on <a href="../../daily/${last.day}.html">${esc(shortDate(last.day))}</a>, or browse <a href="../">every project explained</a>.`}</p>
 </section>
 <section><h2>Quick facts</h2><ul class="rows">${facts.map(([k, v, raw]) => `<li><span class="m">${esc(k)}</span><span class="t">${raw ? v : esc(v)}</span></li>`).join("")}</ul></section>
 <section><h2>How it rose, day by day</h2><p>Recorded by Upcurrent at the end of each day (UTC). Rank is its place among that day's fastest-rising AI projects.</p>
