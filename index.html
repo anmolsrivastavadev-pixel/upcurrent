@@ -350,6 +350,8 @@ iframe.skiptranslate, .goog-te-banner-frame, #goog-gt-tt, .goog-te-balloon-frame
 body { top: 0 !important; }
 font[style] { background: none !important; box-shadow: none !important; }
 /* how it works: three steps beside a small live window of real data */
+.more-links { margin: 14px 0 0; font-size: 14.5px; color: var(--muted); }
+.more-links a { color: var(--link); text-decoration: underline; }
 .qa { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
 @media (max-width: 760px) { .qa { grid-template-columns: minmax(0, 1fr); } }
 .qa > div { padding: 20px 22px; background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius-lg); }
@@ -540,6 +542,7 @@ font[style] { background: none !important; box-shadow: none !important; }
     <div class="free-watch" id="freeWatch" hidden></div>
     <div class="free" id="freeBody"></div>
     <div id="freeNote"></div>
+    <p class="more-links">More: <a href="free-ai-models/">full free models list</a> · <a href="free-ai-models/coding/">free models for coding</a> · <a href="free-ai-models/api/">free AI model API</a> · <a href="free-ai-models/history/">how long free models last</a></p>
   </section>
   <section class="poll" id="poll" hidden aria-labelledby="pollQ">
     <div><div class="eyebrow">One quick question</div><h2 id="pollQ">What do you come to Upcurrent for?</h2><p>One tap, no sign-up. It decides what gets built next.</p></div>

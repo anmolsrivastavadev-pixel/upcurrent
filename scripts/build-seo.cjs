@@ -50,7 +50,10 @@ footer{border-top:1px solid var(--line);padding-block:22px;color:var(--muted);fo
 .lang-pick{position:relative;display:inline-flex;align-items:center;gap:6px;color:var(--muted)}.lang-pick svg{width:16px;height:16px;flex:none}
 .lang-pick select{appearance:none;-webkit-appearance:none;font:inherit;font-size:14px;color:var(--ink);background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:7px 10px;max-width:160px;cursor:pointer}
 iframe.skiptranslate,.goog-te-banner-frame,#goog-gt-tt,.goog-te-balloon-frame,.VIpgJd-ZVi9od-ORHb-OEVmcd,.VIpgJd-ZVi9od-aZ2wEe-wOHMyf{display:none!important}
-body{top:0!important}font[style]{background:none!important;box-shadow:none!important}`;
+body{top:0!important}font[style]{background:none!important;box-shadow:none!important}
+.nl{display:flex;flex-wrap:wrap;gap:8px}.nl input[type=email]{flex:1 1 220px;min-width:0;font:inherit;padding:11px 14px;border-radius:10px;border:1px solid var(--line);background:var(--paper);color:var(--ink)}.nl button{font:700 15px var(--font-body);padding:11px 18px;border-radius:10px;border:0;background:var(--warm);color:#111;cursor:pointer}
+code{font:13.5px var(--font-mono);background:var(--code,var(--chip));color:var(--code-ink,var(--ink));padding:1px 5px;border-radius:4px;overflow-wrap:anywhere}pre{background:var(--code,var(--chip));padding:14px 16px;border-radius:10px;overflow-x:auto;max-width:100%}pre code{padding:0;background:none;overflow-wrap:normal}
+.finder{display:flex;flex-wrap:wrap;gap:8px}.finder label{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:6px 14px;border:1px solid var(--line);border-radius:999px;font-size:14.5px;cursor:pointer}.finder input{width:18px;height:18px;accent-color:var(--hot)}`;
 
 function page({ title, description, canonical, body, ld, ogType = "article", up = "../" }) {
   return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
@@ -84,10 +87,14 @@ ${ld.map(ldJson).join("\n")}
 <header><div class="wrap"><a class="logo notranslate" translate="no" href="${up}">Upcurrent</a><span style="display:flex;gap:14px;align-items:center;flex-wrap:wrap"><span id="langPick"></span><a href="${up}free-ai-models/">Free models</a><a href="${up}what-is/">Explained</a><a href="${up}daily/">Daily archive</a><a href="${up}">Live dashboard</a></span></div></header>
 <main class="wrap">
 ${body}
-<section class="cta"><h2>Get this in your inbox at 7am</h2><p>One free email each morning with the AI repos, models and stories that are picking up speed. Your own time zone, no spam.</p><p><a href="${up}#signup">Sign up on the dashboard</a></p></section>
+<section class="cta" id="signup"><h2>Get this in your inbox at 7am</h2><p>One free email each morning with the AI repos, models and stories that are picking up speed, including new free models. Your own time zone, no spam.</p>
+<form class="nl" action="https://buttondown.com/api/emails/embed-subscribe/anmolsrivastavadev" method="post" target="_blank"><input type="email" name="email" required placeholder="you@example.com" aria-label="Email address" autocomplete="email"><input type="hidden" name="metadata__timezone" value="Europe/London"><button type="submit">Subscribe free</button></form>
+<p><a href="${up}email.html">See today's email</a></p></section>
 </main>
 <footer><div class="wrap">Upcurrent tracks what is rising in AI every 30 minutes, from GitHub, Hugging Face, arXiv, Hacker News, AI lab blogs, news sites and model providers. Numbers are as recorded at the time. <a href="${up}data.html">Open data (CC BY 4.0)</a> · ${GUIDES.map(g => `<a href="${up}${g.slug}/">${esc(g.short)}</a>`).join(" · ")} · <a href="${up}what-is/">New AI projects explained</a> · <a href="${up}about/">About</a></div></footer>
+<script>try{var z=Intl.DateTimeFormat().resolvedOptions().timeZone;if(z)document.querySelectorAll('input[name="metadata__timezone"]').forEach(function(i){i.value=z})}catch(e){}document.querySelectorAll("form.nl").forEach(function(f){f.addEventListener("submit",function(){try{window.goatcounter&&window.goatcounter.count&&window.goatcounter.count({path:"subscribe",title:"Subscribed (guide page)",event:true})}catch(e){}})})</script>
 <script src="${up}translate.js"></script>
+<script data-goatcounter="https://upcurrent.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </body></html>
 `;
 }
@@ -186,25 +193,8 @@ function guidePages(days, data) {
   const recent = days.slice(-7), last = data[days[days.length - 1]], updated = last.about?.updated || new Date().toISOString();
   const out = {};
 
-  // 1. Free models: today's full list, newest additions first, plus every add/remove seen this week.
-  {
-    const g = GUIDES[0], url = `${SITE}${g.slug}/`, free = last.free || [];
-    const byProv = free.reduce((a, f) => (a[f.prov] = (a[f.prov] || 0) + 1, a), {});
-    const events = [...new Map(recent.flatMap(d => data[d].freeChanges?.events || []).map(e => [e.type + e.name + e.prov + e.at, e])).values()].sort((a, b) => Date.parse(b.at) - Date.parse(a.at));
-    const provs = Object.entries(byProv).map(([p, n]) => `${n} on ${p}`).join(" and ");
-    const lead = `Right now you can call ${free.length} AI models for free: ${provs}. Upcurrent checks both lists every 30 minutes, so this page shows what is actually free today, not last month.`;
-    const qa = [
-      ["Which AI models are free to use right now?", `As of ${asOf(updated)}, ${free.length} models were free to call: ${free.slice(0, 6).map(f => f.name).join(", ")}${free.length > 6 ? " and more" : ""}. The full list is on this page and updates every 30 minutes.`],
-      ["Where can I call free AI models?", `OpenRouter and OpenCode Zen both offer models at zero cost. You sign up, create an API key and pick a model marked free. Free models often have rate limits and can be removed without notice.`],
-      ["How often do free AI models change?", `Often. This week Upcurrent saw ${events.filter(e => e.type === "added").length} free models added and ${events.filter(e => e.type === "removed").length} removed across both providers.`]
-    ];
-    const body = `<section><div class="eyebrow">Guide · updated every 30 minutes</div><h1>${esc(g.title)}</h1><p class="lede">${esc(lead)}</p>${guideNav(g.slug)}<p class="asof">Last checked ${esc(asOf(updated))}.</p></section>
-<section id="list"><h2>All ${free.length} free models</h2><ol class="rows">${free.map(f => `<li><span class="t">${f.added ? `<span class="tag">New today</span> ` : ""}${link(f.url, f.name)}</span><span class="m">${esc([f.prov, ctxLabel(f.ctx) && `${ctxLabel(f.ctx)} context`, capsOf(f.caps).join(", ")].filter(Boolean).join(" · "))}</span></li>`).join("")}</ol></section>
-${events.length ? `<section id="changes"><h2>Added and removed this week</h2><ul class="rows">${events.slice(0, 30).map(e => `<li><span class="t">${e.type === "added" ? "Added" : "Removed"}: ${link(e.url, e.name)}</span><span class="m">${esc(e.prov)} · ${esc(asOf(e.at))}</span></li>`).join("")}</ul></section>` : ""}
-${faqHtml(qa)}`;
-    out[g.slug] = page({ title: `Free AI models you can use right now (${free.length} today) | Upcurrent`, description: clip(`${free.length} AI models you can call for free today on OpenRouter and OpenCode Zen, with context size and features. Checked every 30 minutes.`, 160), canonical: url, body, up: "../", ogType: "article",
-      ld: [{ "@context": "https://schema.org", "@type": "ItemList", name: g.title, url, numberOfItems: free.length, itemListElement: free.map((f, i) => ({ "@type": "ListItem", position: i + 1, name: f.name, ...(safeUrl(f.url) ? { url: f.url } : {}) })) }, faq(qa), breadcrumb([["Upcurrent", SITE], [g.short, url]])] });
-  }
+  // 1. Free models: a hub page plus a cluster of pages for the longer searches around it.
+  Object.assign(out, freeCluster(days, data, last, updated));
 
   // 2. Trending repos: every repo that made the daily list this week, ranked by its best day.
   {
@@ -254,6 +244,186 @@ ${faqHtml(qa)}`;
 }
 
 
+// "Free AI models" topic cluster: one hub page plus five pages for the longer searches around it
+// (coding, API, OpenRouter, OpenCode, history). Every page is rebuilt from the saved daily files on each
+// publish, links to the others and to the morning email. Facts about providers come from their own docs
+// (linked on the page); everything else is what Upcurrent recorded.
+const OR_LIMITS = "https://openrouter.ai/docs/api/reference/limits", OC_DOCS = "https://opencode.ai/docs/console/models/";
+const FREE_PAGES = [
+  ["", "All free models"], ["coding/", "For coding"], ["api/", "Free API"], ["openrouter/", "OpenRouter"], ["opencode/", "OpenCode"], ["history/", "Tracker"]
+];
+const freeNav = (cur, up) => `<nav class="guides" aria-label="Free AI models guides">${FREE_PAGES.map(([p, n]) => p === cur ? `<b>${esc(n)}</b>` : `<a href="${up}free-ai-models/${p}">${esc(n)}</a>`).join("")}</nav>`;
+const modelId = f => f.prov === "OpenRouter" ? (String(f.url || "").match(/openrouter\.ai\/([^?#]+)/) || [])[1] || null
+  : f.prov === "OpenCode Zen" ? f.name.toLowerCase().trim().replace(/\s+/g, "-") : null;
+const isChat = f => !/^(lyria|jev)\b/i.test(f.name);
+const hasTools = f => capsOf(f.caps).includes("tool calling");
+const freeRow = (f, extra) => `<li data-prov="${esc(f.prov)}" data-caps="${esc(capsOf(f.caps).join(","))}" data-ctx="${f.ctx || 0}"><span class="t">${f.added ? `<span class="tag">New today</span> ` : ""}${link(f.url, f.name)}${modelId(f) ? ` <code>${esc(modelId(f))}</code>` : ""}</span><span class="m">${esc([f.prov, ctxLabel(f.ctx) && `${ctxLabel(f.ctx)} context`, capsOf(f.caps).join(", "), extra].filter(Boolean).join(" · "))}</span></li>`;
+
+function freeHistory(days, data) {
+  const seen = new Map();
+  days.forEach(day => (data[day].free || []).forEach(f => {
+    const k = f.prov + "|" + f.name, cur = seen.get(k) || { ...f, first: day, last: day, n: 0 };
+    cur.last = day; cur.n++; cur.url = f.url || cur.url; cur.caps = f.caps || cur.caps; cur.ctx = f.ctx || cur.ctx;
+    seen.set(k, cur);
+  }));
+  const lastDay = days[days.length - 1], all = [...seen.values()];
+  all.forEach(m => { m.now = m.last === lastDay; m.span = Math.round((Date.parse(m.last) - Date.parse(m.first)) / 864e5) + 1; });
+  return all;
+}
+
+function freeCluster(days, data, last, updated) {
+  const out = {}, free = (last.free || []).filter(isChat), firstDay = days[0], lastDay = days[days.length - 1];
+  const recent = days.slice(-7), hist = freeHistory(days, data);
+  const events = [...new Map(recent.flatMap(d => data[d].freeChanges?.events || []).map(e => [e.type + e.name + e.prov + e.at, e])).values()].sort((a, b) => Date.parse(b.at) - Date.parse(a.at));
+  const byProv = p => free.filter(f => f.prov === p);
+  const or = byProv("OpenRouter"), oc = byProv("OpenCode Zen");
+  const gone = hist.filter(m => !m.now), lifespans = gone.map(m => m.span).sort((a, b) => a - b);
+  const median = lifespans.length ? lifespans[Math.floor(lifespans.length / 2)] : null;
+  const allTime = hist.filter(m => m.first === firstDay && m.now).length;
+  const asof = `<p class="asof">Last checked ${esc(asOf(updated))}. Upcurrent checks OpenRouter and OpenCode every 30 minutes.</p>`;
+  const mk = (sub, { title, h1, eyebrow, lede, desc, body, qa, list, crumb }) => {
+    const url = `${SITE}free-ai-models/${sub}`, up = sub ? "../../" : "../";
+    const html = `<section><div class="eyebrow">${esc(eyebrow)}</div><h1>${esc(h1)}</h1><p class="lede">${esc(lede)}</p>${freeNav(sub, up)}${asof}</section>
+${body}
+${faqHtml(qa)}
+<section class="share" aria-label="Share this page"><b>Share:</b> ${shareLinks(url, h1)}</section>`;
+    const ld = [...(list ? [{ "@context": "https://schema.org", "@type": "ItemList", name: h1, url, numberOfItems: list.length, itemListElement: list.map((f, i) => ({ "@type": "ListItem", position: i + 1, name: f.name, ...(safeUrl(f.url) ? { url: f.url } : {}) })) }] : []),
+      faq(qa), breadcrumb([["Upcurrent", SITE], ["Free AI models", SITE + "free-ai-models/"], ...(sub ? [[crumb, url]] : [])])];
+    out["free-ai-models" + (sub ? "/" + sub.replace(/\/$/, "") : "")] = page({ title, description: clip(desc, 160), canonical: url, body: html, ld, up, ogType: sub ? "article" : "website" });
+  };
+
+  // Hub: the full list with a filter, linked to every page in the cluster.
+  {
+    const tools = free.filter(hasTools).length, img = free.filter(f => capsOf(f.caps).includes("images")).length;
+    const qa = [
+      ["Which AI models are free to use right now?", `As of ${asOf(updated)}, ${free.length} AI models were free to use: ${free.slice(0, 6).map(f => f.name).join(", ")}${free.length > 6 ? " and more" : ""}. ${or.length} are on OpenRouter and ${oc.length} are free inside OpenCode.`],
+      ["Is there a completely free AI model with no limits?", `No. Every free model has limits. On OpenRouter, free models allow 20 requests a minute and 50 a day, or 1,000 a day once you have bought at least 10 credits. OpenCode's free models only work inside the OpenCode app.`],
+      ["How long do AI models stay free?", median ? `Not long. Since ${shortDate(firstDay)} Upcurrent has seen ${hist.length} different models offered free. ${gone.length} of them have stopped being free, and half of those lasted ${median} days or less.` : `Free offers change often, so check the date on any list you use.`],
+      ["Which free AI model is best?", `It depends on the job. For coding agents you need tool calling and a long context window; ${tools} of today's free models have tool calling. ${img} accept images. Use the filter on this page, or see the free models for coding page.`]
+    ];
+    const body = `<section id="finder"><h2>Find a free model</h2><p>Tick what you need. The list below updates as you go.</p>
+<div class="finder" role="group" aria-label="Filter free models">
+<label><input type="checkbox" data-f="tool calling"> Tool calling</label><label><input type="checkbox" data-f="reasoning"> Reasoning</label><label><input type="checkbox" data-f="images"> Reads images</label>
+<label><input type="checkbox" data-f="ctx"> 1M+ token context</label><label><input type="checkbox" data-f="api"> Works in any app (API)</label></div>
+<p class="asof" id="finderCount" aria-live="polite">Showing all ${free.length}.</p></section>
+<section id="list"><h2>All ${free.length} free AI models</h2><ol class="rows" id="freeList">${free.map(f => freeRow(f)).join("")}</ol></section>
+<section><h2>Free models by what you want to do</h2><ul class="rows">
+<li><span class="t"><a href="coding/">Free AI models for coding</a></span><span class="m">${free.filter(hasTools).length} free models with tool calling, for coding agents like OpenCode, Cline and Aider</span></li>
+<li><span class="t"><a href="api/">Free AI model API</a></span><span class="m">How to call a free LLM from your own code, with rate limits and an example request</span></li>
+<li><span class="t"><a href="openrouter/">OpenRouter free models list</a></span><span class="m">${or.length} models with their <code>:free</code> IDs</span></li>
+<li><span class="t"><a href="opencode/">OpenCode free models</a></span><span class="m">${oc.length} models that are free inside the OpenCode coding agent</span></li>
+<li><span class="t"><a href="history/">Free AI model tracker</a></span><span class="m">All ${hist.length} models seen free since ${shortDate(firstDay)}, and how long each lasted</span></li>
+</ul></section>
+${events.length ? `<section id="changes"><h2>Added and removed this week</h2><ul class="rows">${events.slice(0, 30).map(e => `<li><span class="t">${e.type === "added" ? "Added" : "Removed"}: ${link(e.url, e.name)}</span><span class="m">${esc(e.prov)} · ${esc(asOf(e.at))}</span></li>`).join("")}</ul></section>` : ""}
+<script>(function(){var bs=[].slice.call(document.querySelectorAll(".finder input")),rows=[].slice.call(document.querySelectorAll("#freeList li")),c=document.getElementById("finderCount");
+function run(){var on=bs.filter(function(b){return b.checked}).map(function(b){return b.dataset.f}),n=0;rows.forEach(function(r){var caps=r.dataset.caps.split(","),ok=on.every(function(f){return f==="ctx"?+r.dataset.ctx>=1e6:f==="api"?r.dataset.prov==="OpenRouter":caps.indexOf(f)>-1});r.hidden=!ok;if(ok)n++});c.textContent=on.length?("Showing "+n+" of "+rows.length+"."):("Showing all "+rows.length+".")}
+bs.forEach(function(b){b.addEventListener("change",run)})})();</script>`;
+    mk("", { title: `Free AI models list: ${free.length} you can use right now | Upcurrent`, h1: `Free AI models you can use right now`, eyebrow: "Free AI models · updated every 30 minutes",
+      lede: `${free.length} AI models are free to use today: ${or.length} on OpenRouter and ${oc.length} inside OpenCode. Free offers come and go every week, so this list is checked every 30 minutes, not once a month.`,
+      desc: `${free.length} AI models you can use free today, on OpenRouter and OpenCode, with model IDs, context size and features. Filter by tool calling or images. Checked every 30 minutes.`,
+      body, qa, list: free });
+  }
+
+  // Coding: free models a coding agent can use (tool calling), longest context first.
+  {
+    const pick = free.filter(f => hasTools(f) || f.prov === "OpenCode Zen").sort((a, b) => (hasTools(b) - hasTools(a)) || (b.ctx || 0) - (a.ctx || 0));
+    const qa = [
+      ["What is the best free AI model for coding right now?", `Upcurrent doesn't run its own coding benchmark, so it lists the free models that have what a coding agent needs: tool calling and a long context window. As of ${asOf(updated)} that includes ${pick.slice(0, 4).map(f => f.name).join(", ")}. Try two or three on your own project and keep the one that edits your code best.`],
+      ["Why does tool calling matter for coding?", "Coding agents such as OpenCode, Cline and Aider work by letting the model call tools: read a file, run a command, edit code. A model without tool calling can chat about code but can't act on your project."],
+      ["Can I use free models in VS Code?", "Yes. Extensions such as Cline and Continue accept an OpenRouter API key, and any OpenRouter model ending in :free costs nothing within its rate limits."],
+      ["Are free coding models safe for private code?", "Be careful. Free endpoints may log prompts or use them to improve models. Check each provider's data policy before sending code you can't share."]
+    ];
+    const body = `<section><h2>How this list is made</h2><p>Every model here is free today and either supports tool calling (needed by coding agents) or is offered free inside OpenCode, a coding agent. Models with tool calling come first, then the longest context window, because a longer window lets the model read more of your project at once.</p></section>
+<section id="list"><h2>${pick.length} free models for coding</h2><ol class="rows">${pick.map(f => freeRow(f, f.prov === "OpenCode Zen" ? "free inside OpenCode" : "")).join("")}</ol></section>
+<section><h2>How to use them</h2><h3>In OpenCode</h3><p>Run <code>/models</code> in OpenCode and pick a model marked Free. See the <a href="../opencode/">OpenCode free models</a> page for the IDs.</p>
+<h3>In VS Code, Cline, Aider or your own tools</h3><p>Create a free <a href="https://openrouter.ai" rel="nofollow noopener">OpenRouter</a> key and use a model ID ending in <code>:free</code>. The <a href="../api/">free AI model API</a> page has an example request.</p></section>`;
+    mk("coding/", { title: `Free AI models for coding: ${pick.length} options today | Upcurrent`, h1: "Free AI models for coding", eyebrow: "Free AI models · coding",
+      lede: `${pick.length} free AI models you can use for coding today, filtered for what coding agents need: tool calling and a long context window. Rebuilt every 30 minutes from live provider lists.`,
+      desc: `${pick.length} free AI models for coding today, with tool calling and context size, and how to use them in OpenCode, Cline, Aider and VS Code. Updated every 30 minutes.`,
+      body, qa, list: pick, crumb: "For coding" });
+  }
+
+  // API: how to call a free LLM from code.
+  {
+    const ex = or.find(f => /nemotron-3-ultra/.test(modelId(f) || "")) || or.find(hasTools) || or[0];
+    const id = ex ? modelId(ex) : "openrouter/free";
+    const qa = [
+      ["Is there a free AI model API?", `Yes. OpenRouter offers ${or.length} models free through its API today. Model IDs end in :free, and the API works with the OpenAI SDK.`],
+      ["What are the free API rate limits?", "On OpenRouter, free models allow 20 requests per minute. You get 50 free requests a day, or 1,000 a day once you have bought at least 10 credits in total."],
+      ["Do I need a credit card for a free LLM API key?", "No. You can create an OpenRouter account and API key without paying and use the :free models within the limits above."],
+      ["Can I use OpenCode's free models through the API?", "No. OpenCode says its free chat models only work inside OpenCode. From other apps you need its paid models."]
+    ];
+    const body = `<section><h2>The short version</h2><ol class="rows">
+<li><span class="t">1. Make a free account at <a href="https://openrouter.ai" rel="nofollow noopener">OpenRouter</a> and create an API key.</span></li>
+<li><span class="t">2. Pick a model ID ending in <code>:free</code> from the list below.</span></li>
+<li><span class="t">3. Call it like the OpenAI API, with base URL <code>https://openrouter.ai/api/v1</code>.</span></li></ol></section>
+<section><h2>Example request</h2><pre><code>curl https://openrouter.ai/api/v1/chat/completions \\
+  -H "Authorization: Bearer $OPENROUTER_API_KEY" \\
+  -H "Content-Type: application/json" \\
+  -d '{"model": "${esc(id)}", "messages": [{"role": "user", "content": "Hello"}]}'</code></pre>
+<p>Swap in any ID from the list. <code>openrouter/free</code> picks an available free model for you.</p></section>
+<section><h2>Free API limits</h2><ul class="rows"><li><span class="t">20 requests per minute</span><span class="m">on any :free model</span></li><li><span class="t">50 requests per day</span><span class="m">if you have bought less than 10 credits</span></li><li><span class="t">1,000 requests per day</span><span class="m">once you have bought 10 credits or more</span></li></ul>
+<p>Source: <a href="${OR_LIMITS}" rel="nofollow noopener">OpenRouter's rate limit docs</a>, checked ${esc(shortDate(lastDay))}.</p></section>
+<section id="list"><h2>${or.length} free models you can call by API</h2><ol class="rows">${or.map(f => freeRow(f)).join("")}</ol></section>`;
+    mk("api/", { title: "Free AI model API: free LLMs you can call today | Upcurrent", h1: "Free AI model API: free LLMs you can call today", eyebrow: "Free AI models · API",
+      lede: `You can call ${or.length} AI models for free through an API today, with no card needed. Here is how, with the exact model IDs, rate limits and an example request.`,
+      desc: `How to use a free LLM API: ${or.length} free models with exact IDs, OpenRouter rate limits (20 a minute, 50 or 1,000 a day) and a copy-paste example request.`,
+      body, qa, list: or, crumb: "Free API" });
+  }
+
+  // OpenRouter list with IDs.
+  {
+    const qa = [
+      ["Which OpenRouter models are free?", `As of ${asOf(updated)}: ${or.map(f => f.name).join(", ")}.`],
+      ["Are free OpenRouter models really free?", "Yes, within limits: 20 requests a minute and 50 a day, or 1,000 a day after buying at least 10 credits. If your account balance goes negative, free models stop working until you top up."],
+      ["How do I use free models on OpenRouter?", "Use a model ID ending in :free, or openrouter/free to let OpenRouter pick one. Free models can be removed without notice, so have a fallback."]
+    ];
+    const body = `<section id="list"><h2>${or.length} free OpenRouter models</h2><ol class="rows">${or.map(f => freeRow(f)).join("")}</ol></section>
+<section><h2>Limits</h2><p>20 requests per minute on free models. 50 requests per day, or 1,000 per day after buying 10 credits. <a href="${OR_LIMITS}" rel="nofollow noopener">OpenRouter's docs</a>.</p></section>`;
+    mk("openrouter/", { title: `OpenRouter free models list (${or.length} today) | Upcurrent`, h1: "OpenRouter free models list", eyebrow: "Free AI models · OpenRouter",
+      lede: `${or.length} models are free on OpenRouter right now. Here are their exact :free IDs, context windows and features, checked every 30 minutes.`,
+      desc: `Every free model on OpenRouter today (${or.length}), with exact :free model IDs, context size, tool calling and rate limits. Checked every 30 minutes.`,
+      body, qa, list: or, crumb: "OpenRouter" });
+  }
+
+  // OpenCode list.
+  {
+    const ocChat = oc;
+    const qa = [
+      ["Which models are free in OpenCode?", `As of ${asOf(updated)}: ${ocChat.map(f => f.name).join(", ")}.`],
+      ["How do I use free models in OpenCode?", "Run /models in OpenCode and pick a model marked Free, or set the model in opencode.json as opencode/<model-id>."],
+      ["Can I use OpenCode's free models in other apps?", "No. OpenCode's docs say free-tier chat models require OpenCode. For other apps, use OpenRouter's free models."]
+    ];
+    const body = `<section id="list"><h2>${ocChat.length} free OpenCode models</h2><ol class="rows">${ocChat.map(f => freeRow(f)).join("")}</ol></section>
+<section><h2>Setting one in opencode.json</h2><pre><code>{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "opencode/${esc(ocChat[0] ? modelId(ocChat[0]) : "model-id")}"
+}</code></pre><p>Model IDs follow <a href="${OC_DOCS}" rel="nofollow noopener">OpenCode's model list</a>. Free models only work inside OpenCode.</p></section>`;
+    mk("opencode/", { title: `OpenCode free models: ${ocChat.length} free today | Upcurrent`, h1: "OpenCode free models", eyebrow: "Free AI models · OpenCode",
+      lede: `${ocChat.length} models are free inside the OpenCode coding agent today. Here are their IDs and context windows, and how to switch to one.`,
+      desc: `The ${ocChat.length} models that are free in OpenCode today, with model IDs, context size and how to set them in opencode.json. Checked every 30 minutes.`,
+      body, qa, list: ocChat, crumb: "OpenCode" });
+  }
+
+  // History: Upcurrent's own record of every free model, the cluster's linkable data.
+  {
+    const sorted = [...hist].sort((a, b) => (b.now - a.now) || b.last.localeCompare(a.last) || a.first.localeCompare(b.first));
+    const qa = [
+      ["How many AI models have been free?", `Since ${shortDate(firstDay)}, Upcurrent has recorded ${hist.length} different models offered free on OpenRouter and OpenCode. ${free.length} are free today.`],
+      ["How long do free AI models last?", median ? `Of the ${gone.length} that are no longer free, half lasted ${median} days or less. Only ${allTime} have been free every day since ${shortDate(firstDay)}.` : "See the table on this page."],
+      ["Can I use this data?", "Yes. It comes from Upcurrent's open data, licensed CC BY 4.0. Please link to this page if you cite it."]
+    ];
+    const body = `<section><h2>Key numbers</h2><ul class="stats"><li><b class="num">${hist.length}</b> models seen free since ${esc(shortDate(firstDay))}</li><li><b class="num">${free.length}</b> free today</li><li><b class="num">${gone.length}</b> no longer free</li>${median ? `<li><b class="num">${median} days</b> median time free, for those that ended</li>` : ""}<li><b class="num">${allTime}</b> free every day since the start</li></ul>
+<p>From end-of-day snapshots, so an offer that started and ended within one day may be missing. Cite as: Upcurrent free AI model tracker, ${esc(SITE)}free-ai-models/history/ (CC BY 4.0).</p></section>
+<section id="list"><h2>Every free model Upcurrent has seen</h2><ol class="rows">${sorted.map(m => `<li><span class="t">${m.now ? `<span class="tag">Free now</span> ` : ""}${link(m.url, m.name)}</span><span class="m">${esc([m.prov, `free from ${shortDate(m.first)}${m.now ? "" : ` to ${shortDate(m.last)}`}`, `${m.span} ${m.span === 1 ? "day" : "days"}`, ctxLabel(m.ctx) && `${ctxLabel(m.ctx)} context`].filter(Boolean).join(" · "))}</span></li>`).join("")}</ol></section>`;
+    mk("history/", { title: "Free AI model tracker: how long free models last | Upcurrent", h1: "Free AI model tracker", eyebrow: "Free AI models · open data",
+      lede: `${hist.length} different AI models have been free on OpenRouter and OpenCode since ${shortDate(firstDay)}. ${median ? `Half of the ones that ended lasted ${median} days or less.` : ""} Here is every one, with when it was free.`.replace(/\s+/g, " "),
+      desc: `${hist.length} AI models have been free since ${shortDate(firstDay)}; ${median ? `half of those that ended lasted ${median} days or less` : "see how long each lasted"}. Full history, CC BY 4.0.`,
+      body, qa, list: null, crumb: "Tracker" });
+  }
+  return out;
+}
+
 // Crawler helpers written at the site root: robots.txt (now that the site owns its domain), an RSS feed of the
 // daily pages, llms.txt for AI crawlers, and the email preview filled in so its text is in the HTML.
 function crawlerFiles(days, data, guides, latest) {
@@ -285,6 +455,11 @@ ${items.join("\n")}
 ## Pages
 - [Live dashboard](${SITE}): today's fastest-rising AI repos, models, papers, threads and headlines
 ${GUIDES.filter(g => guides[g.slug]).map(g => `- [${g.title}](${SITE}${g.slug}/)`).join("\n")}
+- [Free AI models for coding](${SITE}free-ai-models/coding/)
+- [Free AI model API: rate limits and model IDs](${SITE}free-ai-models/api/)
+- [OpenRouter free models list](${SITE}free-ai-models/openrouter/)
+- [OpenCode free models](${SITE}free-ai-models/opencode/)
+- [Free AI model tracker: every model seen free and how long it lasted](${SITE}free-ai-models/history/)
 - [New AI projects explained](${SITE}what-is/): one page per AI repo, model or paper that reached the top ${EXPLAIN_TOP} rising
 - [Daily archive](${SITE}daily/): one page per day since ${shortDate(days[0])}
 - [Today's email](${SITE}email.html): the morning digest
