@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-22T17:06:51.333Z"
+  "updated": "2026-11-22T17:10:05.584Z"
  },
  "pulse": {
   "trending": 75,
   "accelerating": 1,
   "newModels": 10,
-  "discussions": 41,
-  "stars": 3556
+  "discussions": 40,
+  "stars": 3557
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
    "meta": [
-    "★ 1,419",
-    "~1,288 in 24h",
+    "★ 1,426",
+    "~1,292 in 24h",
     "Created yesterday"
    ],
    "at": "2026-11-21T14:40:27Z",
@@ -91,7 +91,7 @@
    "desc": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
    "meta": [
     "★ 7,850",
-    "+662 in 24h",
+    "+659 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-11-16T12:10:36Z",
@@ -104,10 +104,10 @@
    "src": "gh",
    "cat": "Vision",
    "score": 91,
-   "grow": 17,
+   "grow": 18,
    "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
    "meta": [
-    "★ 2,032",
+    "★ 2,033",
     "+401 in 24h",
     "Created 3 days ago"
    ],
@@ -186,8 +186,8 @@
    "name": "fast-anything",
    "url": "https://github.com/EL4CTEO/fast-anything",
    "from": "GitHub",
-   "use": 1288,
-   "useLabel": "~1,288 stars/day",
+   "use": 1292,
+   "useLabel": "~1,292 stars/day",
    "usePct": 1,
    "talk": [
     {
@@ -335,12 +335,14 @@
  "github": [
   {
    "repo": "EL4CTEO/fast-anything",
-   "stars": 1419,
-   "d24": 1288,
+   "stars": 1426,
+   "d24": 1292,
    "est": true,
    "forks": 88,
    "contrib": null,
-   "score": 98
+   "score": 98,
+   "cat": "Agents",
+   "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same."
   },
   {
    "repo": "bookwjitchieni1986/blender-ai-mcp-addon",
@@ -349,25 +351,31 @@
    "est": true,
    "forks": 38,
    "contrib": null,
-   "score": 93
+   "score": 93,
+   "cat": "Agents",
+   "desc": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration."
   },
   {
    "repo": "erkamyaman/rust-anything",
    "stars": 7850,
-   "d24": 662,
+   "d24": 659,
    "est": false,
    "forks": 626,
    "contrib": 22,
-   "score": 92
+   "score": 92,
+   "cat": "Agents",
+   "desc": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java."
   },
   {
    "repo": "iamajmeena/neonclipping",
-   "stars": 2032,
+   "stars": 2033,
    "d24": 401,
    "est": false,
    "forks": 112,
    "contrib": null,
-   "score": 91
+   "score": 91,
+   "cat": "Vision",
+   "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM)."
   },
   {
    "repo": "sybil-solutions/inference-optimisation-skill",
@@ -376,7 +384,9 @@
    "est": true,
    "forks": 177,
    "contrib": null,
-   "score": 82
+   "score": 82,
+   "cat": "Agents",
+   "desc": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization"
   }
  ],
  "models": [
@@ -400,7 +410,7 @@
    "grow": null,
    "score": 93,
    "cat": "Vision",
-   "likes": 4423
+   "likes": 4428
   },
   {
    "name": "Hy4-flash",
@@ -830,8 +840,8 @@
    "t": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
    "url": "https://news.ycombinator.com/item?id=50597612",
    "link": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
-   "up": 483,
-   "com": 571,
+   "up": 485,
+   "com": 577,
    "at": "2026-11-22T08:57:34.000Z"
   },
   {
@@ -839,8 +849,8 @@
    "t": "Europe weakens chemical rules as science links them to 'lifestyle diseases'",
    "url": "https://news.ycombinator.com/item?id=50600677",
    "link": "https://www.lemonde.fr/en/opinion/article/2026/11/22/as-science-increasingly-shows-the-role-chemical-substances-play-in-lifestyle-diseases-europe-weakens-its-regulations_6786595_23.html",
-   "up": 52,
-   "com": 14,
+   "up": 54,
+   "com": 15,
    "at": "2026-11-22T15:42:40.000Z"
   },
   {
@@ -848,8 +858,8 @@
    "t": "Show HN: I built a game where you are an LLM's subagent",
    "url": "https://news.ycombinator.com/item?id=50599762",
    "link": "https://github.com/gulivan/worker755",
-   "up": 113,
-   "com": 27,
+   "up": 117,
+   "com": 28,
    "at": "2026-11-22T13:56:58.000Z"
   },
   {
@@ -871,12 +881,13 @@
    "at": "2026-11-22T02:14:14.000Z"
   },
   {
-   "src": "DEV",
-   "t": "3Draft: Five Percent — 30 Minutes to Deadline",
-   "url": "https://dev.to/pengeszikra/3draft-five-percent-30-minutes-to-deadline-1kfk",
-   "up": 15,
-   "com": 3,
-   "at": "2026-11-22T15:53:46Z"
+   "src": "Hacker News",
+   "t": "Leonida – PC Recompilation of the Xbox Version of GTA 6",
+   "url": "https://news.ycombinator.com/item?id=50595168",
+   "link": "https://github.com/ItsNotRexed/Leonida",
+   "up": 196,
+   "com": 148,
+   "at": "2026-11-22T00:57:26.000Z"
   }
  ]
 }
