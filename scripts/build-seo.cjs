@@ -55,7 +55,7 @@ body{top:0!important}font[style]{background:none!important;box-shadow:none!impor
 .nl{display:flex;flex-wrap:wrap;gap:8px}.nl input[type=email]{flex:1 1 220px;min-width:0;font:inherit;padding:11px 14px;border-radius:10px;border:1px solid var(--line);background:var(--paper);color:var(--ink)}.nl button{font:700 15px var(--font-body);padding:11px 18px;border-radius:10px;border:0;background:var(--warm);color:#111;cursor:pointer}
 code{font:13.5px var(--font-mono);background:var(--code,var(--chip));color:var(--code-ink,var(--ink));padding:1px 5px;border-radius:4px;overflow-wrap:anywhere}pre{background:var(--code,var(--chip));padding:14px 16px;border-radius:10px;overflow-x:auto;max-width:100%}pre code{padding:0;background:none;overflow-wrap:normal}
 .finder{display:flex;flex-wrap:wrap;gap:8px}.finder label{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:6px 14px;border:1px solid var(--line);border-radius:999px;font-size:14.5px;cursor:pointer}.finder input{width:18px;height:18px;accent-color:var(--hot)}
-.tablewrap{overflow-x:auto;margin:12px 0}.tablewrap table{border-collapse:collapse;width:100%;font-size:14.5px}.tablewrap th,.tablewrap td{border-bottom:1px solid var(--line);padding:10px 8px;text-align:left;vertical-align:top;overflow-wrap:anywhere}.tablewrap thead th{font-weight:600}.tablewrap tbody th{font-weight:500;width:28%}`;
+.tablewrap{overflow-x:auto;margin:12px 0}.tablewrap table{border-collapse:collapse;width:100%;font-size:14.5px}.tablewrap th,.tablewrap td{border-bottom:1px solid var(--line);padding:10px 8px;text-align:left;vertical-align:top;overflow-wrap:anywhere}.tablewrap thead th{font-weight:600}.tablewrap tbody th{font-weight:500;width:28%}.chart{margin:16px 0}.chart img{display:block;max-width:100%;height:auto;border-radius:14px}.chart figcaption{font-size:14px;color:var(--ink-2,inherit);opacity:.8;margin-top:6px}`;
 
 // Contextual internal links for pages whose body copy had few: each links to its cluster's hub,
 // a sibling page and the email signup (the money page).
@@ -266,6 +266,35 @@ const isChat = f => !/^(lyria|jev)\b/i.test(f.name);
 const hasTools = f => capsOf(f.caps).includes("tool calling");
 const freeRow = (f, extra) => `<li data-prov="${esc(f.prov)}" data-caps="${esc(capsOf(f.caps).join(","))}" data-ctx="${f.ctx || 0}"><span class="t">${f.added ? `<span class="tag">New today</span> ` : ""}${link(f.url, f.name)}${modelId(f) ? ` <code>${esc(modelId(f))}</code>` : ""}</span><span class="m">${esc([f.prov, ctxLabel(f.ctx) && `${ctxLabel(f.ctx)} context`, capsOf(f.caps).join(", "), extra].filter(Boolean).join(" · "))}</span></li>`;
 
+// Charts: plain SVG images built from Upcurrent's own numbers on every publish. Light card with dark
+// text so they read the same in light and dark mode and in Google Images. CHART_FILES is written to disk
+// at the end of the build; each chart gets a descriptive file name and alt text that states its numbers.
+const CHART_FILES = {};
+const svgEsc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+function chartSvg({ title, sub, rows, horizontal, w = 800 }) {
+  const font = `font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif"`, max = Math.max(1, ...rows.map(r => r[1]));
+  let inner, h;
+  if (horizontal) {
+    // Label above each bar, so the chart can stay narrow and readable on phones.
+    const step = 64, top = 92, plot = w - 64 - 120;
+    h = top + rows.length * step + 20;
+    inner = rows.map(([l, v, vl], i) => { const y = top + i * step, bw = Math.max(2, v / max * plot);
+      return `<text x="32" y="${y + 4}" font-size="17" fill="#1d2433">${svgEsc(clip(l, 46))}</text><rect x="32" y="${y + 14}" width="${bw.toFixed(1)}" height="24" rx="4" fill="#2f6fde"/><text x="${(32 + bw + 10).toFixed(1)}" y="${y + 32}" font-size="17" font-weight="600" fill="#1d2433">${svgEsc(vl ?? fmt(v))}</text>`; }).join("");
+  } else {
+    const top = 96, ph = 260, left = 40, plot = w - left * 2, slot = plot / rows.length, bw = Math.min(90, slot * .62);
+    h = top + ph + 64;
+    inner = `<line x1="${left}" y1="${top + ph}" x2="${w - left}" y2="${top + ph}" stroke="#c9cfdb"/>` + rows.map(([l, v, vl], i) => { const x = left + i * slot + (slot - bw) / 2, bh = Math.max(2, v / max * (ph - 24)), y = top + ph - bh;
+      return `<rect x="${x.toFixed(1)}" y="${y.toFixed(1)}" width="${bw.toFixed(1)}" height="${bh.toFixed(1)}" rx="4" fill="${l === "Still free" ? "#1f9d6b" : "#2f6fde"}"/><text x="${(x + bw / 2).toFixed(1)}" y="${(y - 8).toFixed(1)}" text-anchor="middle" font-size="16" font-weight="600" fill="#1d2433">${svgEsc(vl ?? fmt(v))}</text><text x="${(x + bw / 2).toFixed(1)}" y="${top + ph + 24}" text-anchor="middle" font-size="14" fill="#4a5468">${svgEsc(l)}</text>`; }).join("");
+  }
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img" aria-label="${svgEsc(title)}" ${font}><title>${svgEsc(title)}</title><rect width="${w}" height="${h}" rx="14" fill="#f7f8fb"/><text x="32" y="42" font-size="22" font-weight="700" fill="#111827">${svgEsc(title)}</text><text x="32" y="68" font-size="14" fill="#4a5468">${svgEsc(sub)}</text>${inner}<text x="${w - 24}" y="${h - 14}" text-anchor="end" font-size="12" fill="#6b7385">upcurrent.dev</text></svg>`;
+}
+// file: site path of the SVG; src: path as the page links it. Returns the <figure>.
+function chart(file, src, spec, alt, caption) {
+  CHART_FILES[file] = chartSvg(spec);
+  const m = CHART_FILES[file].match(/width="(\d+)" height="(\d+)"/);
+  return `<figure class="chart"><img src="${src}" width="${m[1]}" height="${m[2]}" alt="${esc(alt)}" loading="lazy" decoding="async"><figcaption>${caption}</figcaption></figure>`;
+}
+
 function freeHistory(days, data) {
   const seen = new Map();
   days.forEach(day => (data[day].free || []).forEach(f => {
@@ -447,6 +476,18 @@ function freeCluster(days, data, last, updated) {
   const gone = hist.filter(m => !m.now), lifespans = gone.map(m => m.span).sort((a, b) => a - b);
   const median = lifespans.length ? lifespans[Math.floor(lifespans.length / 2)] : null;
   const allTime = hist.filter(m => m.first === firstDay && m.now).length;
+  const buckets = [["1-3 days", 1, 3], ["4-7 days", 4, 7], ["8-14 days", 8, 14], ["15-30 days", 15, 30], ["31+ days", 31, 1e9]].map(([l, a, b]) => [l, gone.filter(m => m.span >= a && m.span <= b).length]);
+  const lifeRows = [...buckets, ["Still free", hist.length - gone.length]];
+  const lifeChart = src => gone.length ? chart("free-ai-models/history/how-long-free-ai-models-stay-free.svg", src,
+    { title: "How long free AI models stay free", sub: `${hist.length} models seen free on OpenRouter and OpenCode since ${shortDate(firstDay)}, by how long the free offer lasted`, rows: lifeRows },
+    `Bar chart of how long free AI models stayed free. Of ${gone.length} models that stopped being free: ${buckets.map(([l, n]) => `${n} lasted ${l}`).join(", ")}. ${hist.length - gone.length} are still free.`,
+    `Of ${gone.length} models that stopped being free, half lasted ${median} days or less. "Still free" counts every model type, including a few that aren't chat models. From Upcurrent's daily snapshots, ${esc(asOf(updated))}.`) : "";
+  const perDay = days.map(d => [d, (data[d].free || []).filter(isChat).length]).filter(([, n]) => n > 0);
+  const weekly = perDay.filter((_, i) => (perDay.length - 1 - i) % 7 === 0);
+  const dayChart = src => weekly.length > 2 ? chart("free-ai-models/history/free-ai-models-count-by-week.svg", src,
+    { title: "Free AI models on offer over time", sub: `Free chat models on OpenRouter and OpenCode, counted at the end of each day shown`, rows: weekly.map(([d, n]) => [shortDate(d).replace(/ \d{4}$/, ""), n]) },
+    `Bar chart of how many free AI models were on offer over time: ${weekly.map(([d, n]) => `${n} on ${shortDate(d)}`).join(", ")}.`,
+    `The number of free models goes up and down as providers add and remove offers. ${esc(asOf(updated))}.`) : "";
   const asof = `<p class="asof">Last checked ${esc(asOf(updated))}. Upcurrent checks OpenRouter and OpenCode every 30 minutes.</p>`;
   const mk = (sub, { title, h1, eyebrow, lede, desc, body, qa, list, crumb }) => {
     const url = `${SITE}free-ai-models/${sub}`, up = sub ? "../../" : "../";
@@ -492,6 +533,7 @@ ${(() => {
 <section id="catch"><h2>What's the catch with free AI models?</h2>
 <h3>Your data and privacy</h3><p>Free models are often free because the provider wants feedback or training data. Many free OpenRouter models say prompts may be logged, and Gemini's free tier may use content to improve Google's products. Don't paste customer data or secrets into a free model.</p>
 <h3>They disappear</h3><p>Since ${esc(shortDate(firstDay))} Upcurrent has seen ${hist.length} models offered free; ${gone.length} have stopped being free, half within ${median ?? "a few"} days. Only ${allTime} ${allTime === 1 ? "has" : "have"} been free every day since then. Build so you can swap models.</p>
+${lifeChart("history/how-long-free-ai-models-stay-free.svg")}
 <h3>Limits</h3><p>Free-tier limits are much lower than paid ones. OpenRouter allows 20 requests a minute and 50 a day (1,000 after buying 10 credits). OpenCode's free models only work inside OpenCode. Free OpenRouter models are called through the same OpenAI-compatible API as paid ones, so moving up later is a one-line change.</p></section>
 <section><h2>Free models from other providers</h2><ul class="rows"><li><span class="t"><a href="gemini/">Gemini API free tier</a></span><span class="m">Gemini 4 Hydrogen and Gemini 3.8 Flash, free with no billing account</span></li><li><span class="t"><a href="groq/">Groq free API</a></span><span class="m">gpt-oss-120b and qwen3.8-27b, 1,000 requests a day each</span></li><li><span class="t"><a href="cloudflare/">Cloudflare Workers AI</a></span><span class="m">10,000 Neurons a day across most of its models</span></li><li><span class="t"><a href="coding-tools/">Free AI coding tools</a></span><span class="m">GitHub Copilot Free, Cursor, Kilo Code, Antigravity and more</span></li></ul></section>
 ${events.length ? `<section id="changes"><h2>Added and removed this week</h2><ul class="rows">${events.slice(0, 30).map(e => `<li><span class="t">${e.type === "added" ? "Added" : "Removed"}: ${link(e.url, e.name)}</span><span class="m">${esc(e.prov)} · ${esc(asOf(e.at))}</span></li>`).join("")}</ul></section>` : ""}
@@ -676,6 +718,7 @@ ${fam.length ? `<li><span class="t">Model families on the free list today</span>
     ];
     const body = `<section><h2>Key numbers</h2><ul class="stats"><li><b class="num">${hist.length}</b> models seen free since ${esc(shortDate(firstDay))}</li><li><b class="num">${free.length}</b> free today</li><li><b class="num">${gone.length}</b> no longer free</li>${median ? `<li><b class="num">${median} days</b> median time free, for those that ended</li>` : ""}<li><b class="num">${allTime}</b> free every day since the start</li></ul>
 <p>From end-of-day snapshots, so an offer that started and ended within one day may be missing. Cite as: Upcurrent free AI model tracker, ${esc(SITE)}free-ai-models/history/ (CC BY 4.0).</p></section>
+<section id="charts"><h2>Free AI models over time</h2>${lifeChart("how-long-free-ai-models-stay-free.svg")}${dayChart("free-ai-models-count-by-week.svg")}</section>
 <section id="list"><h2>Every free model Upcurrent has seen</h2><ol class="rows">${sorted.map(m => `<li><span class="t">${m.now ? `<span class="tag">Free now</span> ` : ""}${link(m.url, m.name)}</span><span class="m">${esc([m.prov, `free from ${shortDate(m.first)}${m.now ? "" : ` to ${shortDate(m.last)}`}`, `${m.span} ${m.span === 1 ? "day" : "days"}`, ctxLabel(m.ctx) && `${ctxLabel(m.ctx)} context`].filter(Boolean).join(" · "))}</span></li>`).join("")}</ol></section>`;
     mk("history/", { title: "Free AI model tracker: how long free models last | Upcurrent", h1: "Free AI model tracker", eyebrow: "Free AI models · open data",
       lede: `${hist.length} different AI models have been free on OpenRouter and OpenCode since ${shortDate(firstDay)}. ${median ? `Half of the ones that ended lasted ${median} days or less.` : ""} Here is every one, with when it was free.`.replace(/\s+/g, " "),
@@ -754,7 +797,12 @@ ${faqHtml(qa)}
 ${(() => {
   const byOrg = Object.entries(week.reduce((a, m) => (a[m.org] = (a[m.org] || 0) + 1, a), {})).sort((a, b) => b[1] - a[1]).slice(0, 3);
   const quant = week.filter(m => /gguf|awq|fp8|int4|mlx/i.test(m.name)).length;
-  return `<section id="take"><h2>What stands out this week</h2><ul class="rows">${top ? `<li><span class="t">Most downloaded new model: ${link(hfUrl(top), top.org + "/" + top.name)}</span><span class="m">${fmt(top.dl)} downloads, released ${esc(shortDate((top.at || "").slice(0, 10) || recent[0]))}</span></li>` : ""}${byOrg.length && byOrg[0][1] > 1 ? `<li><span class="t">Busiest publishers: ${esc(byOrg.map(([o, n]) => `${o} (${n})`).join(", "))}</span><span class="m">Models on this week's list, by Hugging Face account</span></li>` : ""}<li><span class="t">${quant} of ${week.length} are compressed versions (GGUF, AWQ, FP8, MLX)</span><span class="m">Smaller copies of bigger models, made to run on ordinary computers with tools like Ollama or LM Studio</span></li></ul></section>`;
+  const topDl = [...week].filter(m => m.dl > 0).sort((a, b) => b.dl - a.dl).slice(0, 8);
+  const dlChart = topDl.length > 2 ? chart("new-ai-models/new-ai-models-most-downloaded-this-week.svg", "new-ai-models-most-downloaded-this-week.svg",
+    { title: "Most downloaded new AI models this week", sub: `Hugging Face downloads, models released in the last 7 days`, rows: topDl.map(m => [`${m.org}/${m.name}`, m.dl]), horizontal: true, w: 600 },
+    `Horizontal bar chart of the most downloaded new AI models this week on Hugging Face: ${topDl.map(m => `${m.org}/${m.name} with ${fmt(m.dl)} downloads`).join(", ")}.`,
+    `Downloads since release, from Hugging Face. ${esc(asOf(updated))}.`) : "";
+  return `<section id="take"><h2>What stands out this week</h2>${dlChart}<ul class="rows">${top ? `<li><span class="t">Most downloaded new model: ${link(hfUrl(top), top.org + "/" + top.name)}</span><span class="m">${fmt(top.dl)} downloads, released ${esc(shortDate((top.at || "").slice(0, 10) || recent[0]))}</span></li>` : ""}${byOrg.length && byOrg[0][1] > 1 ? `<li><span class="t">Busiest publishers: ${esc(byOrg.map(([o, n]) => `${o} (${n})`).join(", "))}</span><span class="m">Models on this week's list, by Hugging Face account</span></li>` : ""}<li><span class="t">${quant} of ${week.length} are compressed versions (GGUF, AWQ, FP8, MLX)</span><span class="m">Smaller copies of bigger models, made to run on ordinary computers with tools like Ollama or LM Studio</span></li></ul></section>`;
 })()}
 <section id="names"><h2>How to read AI model names</h2><ul class="rows">
 <li><span class="t">Version numbers (Gemini 4, GPT-6.2)</span><span class="m">A bigger first number is a new generation; the decimal is an update to it</span></li>
@@ -1091,6 +1139,7 @@ ${qa.slice(1).map(([q, a]) => `<section><h2>${esc(q)}</h2><p>${esc(a)}</p></sect
   for (const it of explained) { fs.mkdirSync(path.join(EXPLAIN_OUT, it.slug), { recursive: true }); fs.writeFileSync(path.join(EXPLAIN_OUT, it.slug, "index.html"), explainerPage(it, explained)); }
   if (explained.length) fs.writeFileSync(path.join(EXPLAIN_OUT, "index.html"), explainerIndex(explained));
   fs.writeFileSync(path.join(EXPLAIN_OUT, "map.json"), JSON.stringify(Object.fromEntries(EXPLAIN)));
+  for (const [file, svg] of Object.entries(CHART_FILES)) { fs.mkdirSync(path.dirname(path.join(ROOT, file)), { recursive: true }); fs.writeFileSync(path.join(ROOT, file), svg); }
   fs.mkdirSync(path.join(ROOT, "about"), { recursive: true });
   fs.writeFileSync(path.join(ROOT, "about", "index.html"), aboutPage(days, data, explained.length));
   console.log(`Wrote ${explained.length} explainer pages`);
