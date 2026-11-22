@@ -202,7 +202,7 @@ function archivePage(days, data) {
 // every publish. Each takes the last 7 daily files so the lists are fuller and steadier than a single day.
 const GUIDES = [
   { slug: "free-ai-models", title: "Free AI models you can use right now", short: "Free AI models" },
-  { slug: "trending-ai-github-repos", title: "Trending AI GitHub repos this week", short: "Trending AI repos" },
+  { slug: "trending-ai-github-repos", title: "GitHub trending repositories today: AI projects", short: "GitHub trending (AI)" },
   { slug: "new-ai-models", title: "New AI models this week on Hugging Face", short: "New AI models" }
 ];
 const capsOf = caps => {
@@ -238,17 +238,51 @@ function guidePages(days, data) {
       seen.set(r.repo, cur);
     }
     const repos = [...seen.values()].sort((a, b) => b.best - a.best);
-    const lead = repos.length ? `${repos.length} young AI repositories were gaining GitHub stars fastest over the last ${recent.length} days. Top of the list: ${repos[0].repo}, which gained ${fmt(repos[0].best)} stars in a single day.` : "The AI repositories gaining GitHub stars fastest this week.";
+    const lastDay = days[days.length - 1], today = [...(data[lastDay].github || [])].sort((a, b) => b.d24 - a.d24);
+    const lead = repos.length ? `GitHub trending repositories for AI, updated every 30 minutes: ${repos.length} new AI projects gaining stars fastest over the last ${recent.length} days. Top of the list: ${repos[0].repo}, which gained ${fmt(repos[0].best)} stars in a single day.` : "GitHub trending repositories for AI: the new AI projects gaining stars fastest this week.";
     const qa = [
+      ["How do I see GitHub trending repositories today?", `GitHub's own trending page (github.com/trending) covers every language and doesn't show numbers. This page follows only AI projects and shows how many stars each gained in a day, updated every 30 minutes.${today.length ? " Today's top trending AI repository is " + today[0].repo + "." : ""}`],
+      ["Is there a GitHub trending API?", "GitHub's official API has no trending endpoint. Upcurrent publishes its trending AI repositories as free JSON (CC BY 4.0) that you can call from any app: see the free GitHub trending API page on this site."],
       ["What are the trending AI repos on GitHub this week?", repos.length ? `The fastest-rising this week were ${repos.slice(0, 5).map(r => r.repo).join(", ")}. Upcurrent ranks young AI repositories by stars gained per day.` : "See the list on this page."],
       ["How does Upcurrent find trending AI repos?", "Every 30 minutes it searches GitHub for recently created AI repositories, compares their star counts with earlier readings, and ranks them by stars gained per day. A day's best gain is used here so one quiet day doesn't hide a breakout."],
       ["Are star counts a sign of quality?", "Not on their own. Stars show attention. Check the code, licence, issues and recent commits before you rely on a project."]
     ];
     const body = `<section><div class="eyebrow">Guide · last ${recent.length} days</div><h1>${esc(g.title)}</h1><p class="lede">${esc(lead)}</p>${guideNav(g.slug)}<p class="asof">Last checked ${esc(asOf(updated))}.</p></section>
-<section id="list"><h2>Ranked by best day</h2><ol class="rows">${repos.map(r => `<li><span class="t">${link("https://github.com/" + r.repo, r.repo)}</span><span class="m"><span class="num">+${fmt(r.best)}</span> stars on ${esc(shortDate(r.bestDay))} · <span class="num">${fmt(r.stars)}</span> stars · ${fmt(r.forks)} forks · on the list ${r.days} ${r.days === 1 ? "day" : "days"} · <a href="../daily/${r.bestDay}.html">see that day</a></span></li>`).join("")}</ol></section>
+${today.length ? `<section id="today"><h2>Trending today</h2><p>The AI repositories gaining the most GitHub stars in the last 24 hours. A <b>~</b> means the number is estimated from the repo's average so far, because Upcurrent hasn't seen it for 6 hours yet.</p><ol class="rows">${today.map(r => `<li><span class="t">${link("https://github.com/" + r.repo, r.repo)}</span><span class="m"><span class="num">${r.est ? "~" : "+"}${fmt(r.d24)}</span> stars in 24h · <span class="num">${fmt(r.stars)}</span> stars · ${fmt(r.forks)} forks</span></li>`).join("")}</ol></section>` : ""}
+<section id="vs"><h2>How this differs from GitHub's trending page</h2><p><a href="https://github.com/trending" rel="noopener">GitHub's trending page</a> covers every language and topic, and doesn't say how many stars a repo gained. This list only follows new AI projects (created in the last 30 days, with 100+ stars), counts the stars each one gains per day from GitHub's official API, and keeps every day's list in the <a href="../daily/">daily archive</a>. Want the data in your own app? Use the <a href="../github-trending-api/">free GitHub trending API</a>.</p></section>
+<section id="list"><h2>This week's trending repositories, ranked by best day</h2><ol class="rows">${repos.map(r => `<li><span class="t">${link("https://github.com/" + r.repo, r.repo)}</span><span class="m"><span class="num">+${fmt(r.best)}</span> stars on ${esc(shortDate(r.bestDay))} · <span class="num">${fmt(r.stars)}</span> stars · ${fmt(r.forks)} forks · on the list ${r.days} ${r.days === 1 ? "day" : "days"} · <a href="../daily/${r.bestDay}.html">see that day</a></span></li>`).join("")}</ol></section>
 ${faqHtml(qa)}`;
-    out[g.slug] = page({ title: `Trending AI GitHub repos this week (${shortDate(days[days.length - 1])}) | Upcurrent`, description: clip(lead, 160), canonical: url, body, up: "../",
+    out[g.slug] = page({ title: `GitHub Trending Repositories Today: AI (${shortDate(days[days.length - 1])})`, description: clip(lead, 160), canonical: url, body, up: "../",
       ld: [{ "@context": "https://schema.org", "@type": "ItemList", name: g.title, url, numberOfItems: repos.length, itemListElement: repos.map((r, i) => ({ "@type": "ListItem", position: i + 1, name: r.repo, url: "https://github.com/" + r.repo })) }, faq(qa), breadcrumb([["Upcurrent", SITE], [g.short, url]])] });
+  }
+  // Free GitHub trending API: GitHub has no trending endpoint, and our open data already has one.
+  {
+    const lastDay = days[days.length - 1], top = [...(data[lastDay].github || [])].sort((a, b) => b.d24 - a.d24);
+    const url = `${SITE}github-trending-api/`, ep = `${SITE}data/api/today.json`;
+    const sample = JSON.stringify({ github: top.slice(0, 2).map(({ repo, stars, d24, est, forks }) => ({ repo, stars, d24, est, forks })) }, null, 2);
+    const lede = "GitHub's official API has no trending endpoint. Upcurrent's free GitHub trending API gives you the AI repositories gaining the most stars right now, as plain JSON: no key, no sign-up, refreshed every 30 minutes.";
+    const qa = [
+      ["Does GitHub have a trending API?", "No. GitHub's REST and GraphQL APIs have no trending endpoint, and github.com/trending is a web page, not an API. Upcurrent's JSON file is a free alternative for AI repositories."],
+      ["Is the GitHub trending API free?", "Yes. It's a static JSON file with no key, no sign-up and no rate limit of its own. The data is licensed CC BY 4.0, so you can use it anywhere, including commercially, as long as you credit Upcurrent."],
+      ["How often is the trending data updated?", "Every 30 minutes. The server lets browsers cache it for up to 10 minutes, so there's no point calling it more often than that."],
+      ["Can I call it from a website?", "Yes. The file is served with Access-Control-Allow-Origin: *, so fetch() works from any web page."],
+      ["Does it cover all GitHub repositories?", "No, only AI projects: repositories created in the last 30 days, with more than 100 stars, matching AI terms like LLM, agent, MCP, GPT or Claude. For every language, use github.com/trending."],
+      ["Can I get past days?", `Yes. Every day is saved as its own file at ${SITE}data/api/daily/YYYY-MM-DD.json, going back to 2 October 2026.`]
+    ];
+    const pre = t => `<pre><code>${esc(t)}</code></pre>`;
+    const body = `<section><div class="eyebrow">Open data · API</div><h1>Free GitHub trending API</h1><p class="lede">${esc(lede)}</p></section>
+<section id="endpoint"><h2>The endpoint</h2>${pre("GET " + ep)}<p>The trending repositories are in the <code>github</code> array: the top ${top.length || 8} AI repositories by stars gained in the last 24 hours. Every day is also kept at <code>${esc(SITE)}data/api/daily/YYYY-MM-DD.json</code>. Want to see it first? The same list is on <a href="../trending-ai-github-repos/">GitHub trending repositories today</a>.</p></section>
+<section id="fields"><h2>What each repository looks like</h2>${pre(sample)}<div class="tablewrap"><table><thead><tr><th>Field</th><th>Meaning</th></tr></thead><tbody>
+<tr><th scope="row"><code>repo</code></th><td>owner/name on GitHub</td></tr>
+<tr><th scope="row"><code>stars</code></th><td>Total stars at the last check</td></tr>
+<tr><th scope="row"><code>d24</code></th><td>Stars gained in the last 24 hours</td></tr>
+<tr><th scope="row"><code>est</code></th><td><code>true</code> if <code>d24</code> is estimated from the repo's average so far, because Upcurrent hasn't seen it for 6 hours yet</td></tr>
+<tr><th scope="row"><code>forks</code></th><td>Total forks</td></tr></tbody></table></div></section>
+<section id="examples"><h2>Examples</h2><h3>curl and jq</h3>${pre(`curl -s ${ep} | jq '.github[] | {repo, d24}'`)}<h3>JavaScript</h3>${pre(`const res = await fetch("${ep}");\nconst { github } = await res.json();\ngithub.forEach(r => console.log(r.repo, "+" + r.d24, "stars today"));`)}<h3>Python</h3>${pre(`import requests\n\nfor r in requests.get("${ep}", timeout=10).json()["github"]:\n    print(r["repo"], r["d24"])`)}</section>
+<section id="more"><h2>What else is in the file</h2><p>The same JSON has new Hugging Face models (<code>models</code>), free AI models on OpenRouter and OpenCode (<code>free</code>), cross-source breakouts and AI headlines. The full field list is in the <a href="../data.html">open data docs</a>. Please credit "Data from Upcurrent (https://upcurrent.dev/)" as the <a href="https://creativecommons.org/licenses/by/4.0/" rel="noopener">CC BY 4.0 licence</a> asks.</p><p>How the stars are counted: Upcurrent queries <a href="https://docs.github.com/en/rest/search/search#search-repositories" rel="noopener">GitHub's official search API</a> every 30 minutes and compares each repository's star count with earlier readings.</p></section>
+${faqHtml(qa)}`;
+    out["github-trending-api"] = page({ title: "Free GitHub Trending API (JSON, no key) | Upcurrent", description: clip(lede, 160), canonical: url, body, up: "../",
+      ld: [{ "@context": "https://schema.org", "@type": "TechArticle", headline: "Free GitHub trending API", url, author: { "@type": "Organization", name: "Upcurrent", url: SITE } }, faq(qa), breadcrumb([["Upcurrent", SITE], ["GitHub trending API", url]])] });
   }
 
   // 3. New models: a hub page plus open source models and a release tracker.
@@ -1126,6 +1160,7 @@ ${items.join("\n")}
 ## Pages
 - [Live dashboard](${SITE}): today's fastest-rising AI repos, models, papers, threads and headlines
 ${GUIDES.filter(g => guides[g.slug]).map(g => `- [${g.title}](${SITE}${g.slug}/)`).join("\n")}
+- [Free GitHub trending API (JSON, no key)](${SITE}github-trending-api/)
 - [Free AI models for coding](${SITE}free-ai-models/coding/)
 - [Free AI model API: rate limits and model IDs](${SITE}free-ai-models/api/)
 - [How to get a free LLM API key, step by step](${SITE}free-ai-models/free-llm-api-key/)
@@ -1313,7 +1348,7 @@ function explainerPage(it, all) {
   ${summary ? `<p>${it.src === "paper" ? "From the abstract" : "In its own words"}: “${esc(summary)}”</p>` : ""}
   <p>${esc(seen)} ${esc(growth)}</p>
   <p><a href="${esc(it.url)}" rel="noopener"><b>${esc(tryLabel)} →</b></a></p>
-  <p>${it.src === "gh" ? `It sits alongside the other <a href="../../trending-ai-github-repos/">trending AI GitHub repos this week</a>.` : it.src === "hf" ? `It's one of the <a href="../../new-ai-models/">new AI models</a> Upcurrent tracks on Hugging Face${/gguf|awq|fp8|mlx/i.test(it.name) ? "" : `, alongside <a href="../../new-ai-models/open-source/">new open source releases</a>`}.` : `See what else was rising on <a href="../../daily/${last.day}.html">${esc(shortDate(last.day))}</a>, or browse <a href="../">every project explained</a>.`}</p>
+  <p>${it.src === "gh" ? `It sits alongside the other <a href="../../trending-ai-github-repos/">GitHub trending repositories today</a>.` : it.src === "hf" ? `It's one of the <a href="../../new-ai-models/">new AI models</a> Upcurrent tracks on Hugging Face${/gguf|awq|fp8|mlx/i.test(it.name) ? "" : `, alongside <a href="../../new-ai-models/open-source/">new open source releases</a>`}.` : `See what else was rising on <a href="../../daily/${last.day}.html">${esc(shortDate(last.day))}</a>, or browse <a href="../">every project explained</a>.`}</p>
 </section>
 <section><h2>Quick facts</h2><ul class="rows">${facts.map(([k, v, raw]) => `<li><span class="m">${esc(k)}</span><span class="t">${raw ? v : esc(v)}</span></li>`).join("")}</ul></section>
 <section><h2>How it rose, day by day</h2><p>Recorded by Upcurrent at the end of each day (UTC). Rank is its place among that day's fastest-rising AI projects.</p>
