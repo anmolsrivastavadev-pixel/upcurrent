@@ -73,5 +73,16 @@ function writeOpenData(out) {
 
   console.log(`Wrote ${OUT}`);
   try { writeOpenData(out); } catch (e) { console.error("Open data files not written:", e.message); }
+  // LLM API prices for /llm-api-pricing/, from OpenRouter's public models list. OpenRouter passes provider prices through with no markup.
+  try {
+    const r = await fetch("https://openrouter.ai/api/v1/models", { headers: { "User-Agent": "upcurrent-dashboard" } });
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    const per1M = v => { const n = Number(v); return Number.isFinite(n) && n >= 0 ? +(n * 1e6).toFixed(4) : null; };
+    const models = (await r.json()).data.map(m => ({ id: m.id, name: m.name, lab: m.id.split("/")[0], in: per1M(m.pricing?.prompt), out: per1M(m.pricing?.completion), cached: per1M(m.pricing?.input_cache_read),
+      ctx: m.context_length || null, created: new Date((m.created || 0) * 1000).toISOString(), input: m.architecture?.input_modalities || [] }))
+      .filter(m => m.in != null && m.out != null && !m.id.startsWith("openrouter/") && !m.id.endsWith(":free") && (m.in > 0 || m.out > 0));
+    if (models.length > 50) fs.writeFileSync(path.join(path.dirname(OUT), "api", "llm-pricing.json"), JSON.stringify({ source: "https://openrouter.ai/api/v1/models", unit: "USD per 1 million tokens", updated: new Date(now).toISOString(), models }));
+    console.log(`LLM prices: ${models.length} models`);
+  } catch (e) { console.error("LLM prices not updated:", e.message); }
   for (const n of C.SOURCE_NAMES) console.log(`  ${n.padEnd(11)} ${raw[n] ? raw[n].length + " items" : "missing"}${stale.includes(n) ? " (kept from last run)" : ""}${errors[n] ? "  error: " + errors[n] : ""}`);
 })();
