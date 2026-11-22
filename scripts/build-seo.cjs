@@ -257,7 +257,7 @@ ${faqHtml(qa)}`;
 // (linked on the page); everything else is what Upcurrent recorded.
 const OR_LIMITS = "https://openrouter.ai/docs/api/reference/limits", OC_DOCS = "https://opencode.ai/docs/console/models/";
 const FREE_PAGES = [
-  ["", "All free models"], ["coding/", "For coding"], ["api/", "Free API"], ["free-llm-api-key/", "Get a key"], ["no-credit-card/", "No card"], ["coding-tools/", "Coding tools"], ["openrouter/", "OpenRouter"], ["opencode/", "OpenCode"], ["history/", "Tracker"]
+  ["", "All free models"], ["coding/", "For coding"], ["api/", "Free API"], ["free-llm-api-key/", "Get a key"], ["no-credit-card/", "No card"], ["coding-tools/", "Coding tools"], ["calculator/", "Calculator"], ["openrouter/", "OpenRouter"], ["opencode/", "OpenCode"], ["history/", "Tracker"]
 ];
 const freeNav = (cur, up) => `<nav class="guides" aria-label="Free AI models guides">${FREE_PAGES.map(([p, n]) => p === cur ? `<b>${esc(n)}</b>` : `<a href="${up}free-ai-models/${p}">${esc(n)}</a>`).join("")}</nav>`;
 const modelId = f => f.prov === "OpenRouter" ? (String(f.url || "").match(/openrouter\.ai\/([^?#]+)/) || [])[1] || null
@@ -448,6 +448,48 @@ client = OpenAI(base_url="BASE_URL_FROM_THE_LIST", api_key="YOUR_KEY")</code></p
       lede: `Six free ways to code with AI, from GitHub Copilot Free to OpenCode's ${oc.length} free models, with each free plan's real limits.`, body, qa, crumb: "Coding tools" });
   }
 
+  // Free LLM API calculator: a small tool (linkable asset). Every number comes from the hand-checked facts
+  // above (CHECKED date); the static table below the tool carries the same facts for readers without JS.
+  {
+    const qa = [
+      ["How many free LLM API requests can I make a day?", "On OpenRouter, 50 a day on free models, or 1,000 a day once you have bought 10 credits. On Groq's free plan, gpt-oss-120b allows 1,000 requests a day and 200,000 tokens a day. Cohere trial keys allow 1,000 calls a month. Gemini and Cloudflare limits depend on the model."],
+      ["Can I combine free API tiers?", "Yes. Each provider's free tier is separate, so using OpenRouter and Groq together gives you both allowances. Because all of them are OpenAI-compatible, switching between them is a change of base URL and model name."],
+      ["Why does my token count matter?", "Some free tiers cap tokens as well as requests. Groq's gpt-oss-120b allows 200,000 tokens a day on the free plan, so at 2,000 tokens a request you run out after 100 requests, well before the 1,000-request limit."]
+    ];
+    const body = `<section id="calc"><h2>Free LLM API calculator</h2>
+<p>Enter roughly how many requests your project makes a day and how long each one is. The calculator checks which free tiers cover it, using the limits each provider publishes.</p>
+<form class="calc" onsubmit="return false">
+<label>Requests a day <input id="cReq" type="number" min="1" step="1" value="200" inputmode="numeric"></label>
+<label>Tokens per request (prompt + reply) <input id="cTok" type="number" min="1" step="100" value="1500" inputmode="numeric"></label>
+<label class="chk"><input id="cPriv" type="checkbox"> My prompts include private or customer data</label>
+</form>
+<div id="cOut" aria-live="polite"><noscript><p>The calculator needs JavaScript. The limits it uses are in the table below.</p></noscript></div>
+</section>
+<section id="limits"><h2>The free limits it uses</h2><div class="tablewrap"><table><thead><tr><th>Provider</th><th>Free requests</th><th>Other caps</th></tr></thead><tbody>
+<tr><th scope="row"><a href="../openrouter/">OpenRouter</a></th><td>50 a day; 1,000 a day after buying 10 credits</td><td>20 requests a minute on free models</td></tr>
+<tr><th scope="row"><a href="../groq/">Groq</a> (gpt-oss-120b)</th><td>1,000 a day, per model</td><td>30 requests and 8,000 tokens a minute; 200,000 tokens a day</td></tr>
+<tr><th scope="row"><a href="https://docs.cohere.com/docs/rate-limits" rel="nofollow noopener">Cohere</a> (trial key)</th><td>1,000 a month</td><td>20 requests a minute on chat models</td></tr>
+<tr><th scope="row"><a href="../gemini/">Google Gemini</a></th><td>Set per model, shown in Google AI Studio</td><td>Free-tier content may be used to improve Google's products</td></tr>
+<tr><th scope="row"><a href="../cloudflare/">Cloudflare Workers AI</a></th><td>10,000 Neurons a day</td><td>Neurons per request depend on the model</td></tr>
+</tbody></table></div><p>Checked ${esc(CHECKED)} from each provider's docs. Linked pages list the sources.</p></section>
+<style>.calc{display:grid;gap:12px;margin:12px 0}.calc label{display:grid;gap:4px;font-weight:600}.calc input[type=number]{font:inherit;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:transparent;color:inherit;max-width:260px}.calc .chk{display:flex;gap:8px;align-items:center;font-weight:400}#cOut .rows .ok{color:#1f9d6b;font-weight:700}#cOut .rows .no{color:#c2410c;font-weight:700}#cOut .rows .maybe{font-weight:700}</style>
+<script>(function(){var R=document.getElementById("cReq"),T=document.getElementById("cTok"),P=document.getElementById("cPriv"),O=document.getElementById("cOut");
+function f(n){return Math.floor(n).toLocaleString("en-GB")}
+function run(){var r=Math.max(1,+R.value||0),t=Math.max(1,+T.value||0),rows=[],sum=0;
+var orN=r<=50?["ok","Covers it","Within the 50 free requests a day."]:r<=1000?["maybe","Covers it after a one-off top-up","Over 50 a day, so you would need to buy 10 credits to unlock 1,000 a day."]:["no","Not enough","Free models stop at 1,000 requests a day, even with credits."];
+rows.push(["OpenRouter","../openrouter/",orN]);sum+=50;
+var gMax=Math.min(1000,Math.floor(200000/t));sum+=gMax;
+rows.push(["Groq (gpt-oss-120b)","../groq/",r<=gMax?["ok","Covers it","Up to "+f(gMax)+" requests a day at "+f(t)+" tokens each."]:["no","Not enough","At "+f(t)+" tokens a request, the 200,000 tokens a day cap allows about "+f(gMax)+" requests."+(gMax<1000?" Shorter prompts would fit more.":"")+" Groq's other free models, gpt-oss-20b and qwen3.8-27b, each have the same allowance on top."]]);
+var cDay=1000/30;rows.push(["Cohere (trial key)","https://docs.cohere.com/docs/rate-limits",r<=cDay?["ok","Covers it","About 33 a day on average (1,000 a month)."]:["no","Not enough","Trial keys allow 1,000 calls a month, about 33 a day."]]);
+rows.push(["Google Gemini","../gemini/",["maybe","Check your model","Limits are set per model and shown in Google AI Studio."+(P.checked?" Free-tier content may be used to improve Google's products, so avoid it for private data.":"")]]);
+rows.push(["Cloudflare Workers AI","../cloudflare/",["maybe","Depends on the model","10,000 Neurons a day; how many requests that buys depends on the model."]]);
+var fit=rows.filter(function(x){return x[2][0]==="ok"}).length;
+O.innerHTML="<p><b>"+(fit?fit+" free tier"+(fit>1?"s cover":" covers")+" "+f(r)+" requests a day.":"No single free tier covers "+f(r)+" requests a day for nothing."+(orN[0]==="maybe"?" OpenRouter covers it after a one-off purchase of 10 credits.":""))+"</b> "+(r>50?"Using OpenRouter and Groq together gives up to about "+f(sum)+" free requests a day at this length.":"")+"</p><ul class='rows'>"+rows.map(function(x){return '<li><span class="t"><a href="'+x[1]+'">'+x[0]+'</a>: <span class="'+x[2][0]+'">'+x[2][1]+'</span></span><span class="m">'+x[2][2]+'</span></li>'}).join("")+"</ul>"+(P.checked?"<p><b>Private data:</b> don't send it to any free tier. Many free OpenRouter models say prompts may be logged, and Gemini's free tier may use content to improve Google's products. Use a paid plan for customer data.</p>":"");}
+[R,T,P].forEach(function(e){e.addEventListener("input",run)});run();})();</script>`;
+    shell("calculator", { title: "Free LLM API calculator: what can you run for free?", h1: "Free LLM API calculator", eyebrow: "Free AI models · tool",
+      lede: "Enter your requests a day and prompt length to see which free LLM API tiers (OpenRouter, Groq, Cohere, Gemini, Cloudflare) cover your project.", body, qa, crumb: "Calculator" });
+  }
+
   // X vs Y comparisons built from the same facts table.
   COMPARES.forEach(([a, b]) => {
     const A = API_FACTS[a], B = API_FACTS[b], slug = `${a}-vs-${b}`;
@@ -602,7 +644,7 @@ print(reply.choices[0].message.content)</code></pre>
 <li><span class="t"><a href="https://mistral.ai/pricing" rel="nofollow noopener">Mistral</a></span><span class="m">Its Free plan includes access to Mistral Studio, where the API lives. The pricing page doesn't say how much free API use that includes, so check your Studio dashboard.</span></li></ul></section>
 <section id="compare"><h2>Free LLM APIs compared</h2><div class="tablewrap"><table><thead><tr><th>API</th><th>Free limits</th><th>Card?</th><th>Your data</th></tr></thead><tbody>
 ${["openrouter", "gemini", "groq", "cloudflare"].map(k => API_FACTS[k]).map(p => `<tr><th scope="row"><a href="../${p.page}">${esc(p.name)}</a></th><td>${esc(p.limits)}</td><td>${esc(p.card)}</td><td>${esc(p.data)}</td></tr>`).join("")}
-</tbody></table></div><p>Side by side: <a href="../openrouter-vs-gemini/">OpenRouter vs Gemini</a> · <a href="../openrouter-vs-groq/">OpenRouter vs Groq</a> · <a href="../groq-vs-gemini/">Groq vs Gemini</a>.</p></section>
+</tbody></table></div><p>Not sure which fits your project? Try the <a href="../calculator/">free LLM API calculator</a>. Side by side: <a href="../openrouter-vs-gemini/">OpenRouter vs Gemini</a> · <a href="../openrouter-vs-groq/">OpenRouter vs Groq</a> · <a href="../groq-vs-gemini/">Groq vs Gemini</a>.</p></section>
 ${(() => {
   const vis = or.filter(f => capsOf(f.caps).includes("images")).length;
   const fam = Object.entries(or.reduce((a, f) => { const k = (f.name.split(/[\s:\/-]/)[0] || "").replace(/[^A-Za-z]/g, ""); if (k.length > 2) a[k] = (a[k] || 0) + 1; return a; }, {})).sort((a, b) => b[1] - a[1]).slice(0, 6);
@@ -719,6 +761,10 @@ ${fam.length ? `<li><span class="t">Model families on the free list today</span>
     const body = `<section><h2>Key numbers</h2><ul class="stats"><li><b class="num">${hist.length}</b> models seen free since ${esc(shortDate(firstDay))}</li><li><b class="num">${free.length}</b> free today</li><li><b class="num">${gone.length}</b> no longer free</li>${median ? `<li><b class="num">${median} days</b> median time free, for those that ended</li>` : ""}<li><b class="num">${allTime}</b> free every day since the start</li></ul>
 <p>From end-of-day snapshots, so an offer that started and ended within one day may be missing. Cite as: Upcurrent free AI model tracker, ${esc(SITE)}free-ai-models/history/ (CC BY 4.0).</p></section>
 <section id="charts"><h2>Free AI models over time</h2>${lifeChart("how-long-free-ai-models-stay-free.svg")}${dayChart("free-ai-models-count-by-week.svg")}</section>
+<section id="cite"><h2>Use these numbers in your article</h2><p>Writing about free AI models? You're welcome to quote these figures and use the chart, with a link back to this page (CC BY 4.0).</p>
+<h3>Quotable facts</h3><ul class="rows"><li><span class="t">${esc(`Since ${shortDate(firstDay)}, ${hist.length} different AI models have been offered free on OpenRouter and OpenCode, and ${gone.length} of them have stopped being free.`)}</span><span class="m">Source: Upcurrent free AI model tracker</span></li>${median ? `<li><span class="t">${esc(`Half of the free AI models that stopped being free lasted ${median} days or less.`)}</span><span class="m">Source: Upcurrent free AI model tracker</span></li>` : ""}<li><span class="t">${esc(`Only ${allTime} models have been free every day since ${shortDate(firstDay)}.`)}</span><span class="m">Source: Upcurrent free AI model tracker</span></li></ul>
+<h3>Embed the chart</h3><p>Copy this into your page:</p><pre><code>${esc(`<a href="${SITE}free-ai-models/history/"><img src="${SITE}free-ai-models/history/how-long-free-ai-models-stay-free.svg" alt="How long free AI models stay free, from the Upcurrent tracker" width="800" height="420"></a>`)}</code></pre>
+<p>The chart updates every day. Raw data is in <a href="../../data.html">Upcurrent's open data</a> as JSON.</p></section>
 <section id="list"><h2>Every free model Upcurrent has seen</h2><ol class="rows">${sorted.map(m => `<li><span class="t">${m.now ? `<span class="tag">Free now</span> ` : ""}${link(m.url, m.name)}</span><span class="m">${esc([m.prov, `free from ${shortDate(m.first)}${m.now ? "" : ` to ${shortDate(m.last)}`}`, `${m.span} ${m.span === 1 ? "day" : "days"}`, ctxLabel(m.ctx) && `${ctxLabel(m.ctx)} context`].filter(Boolean).join(" · "))}</span></li>`).join("")}</ol></section>`;
     mk("history/", { title: "Free AI model tracker: how long free models last | Upcurrent", h1: "Free AI model tracker", eyebrow: "Free AI models · open data",
       lede: `${hist.length} different AI models have been free on OpenRouter and OpenCode since ${shortDate(firstDay)}. ${median ? `Half of the ones that ended lasted ${median} days or less.` : ""} Here is every one, with when it was free.`.replace(/\s+/g, " "),
@@ -896,6 +942,7 @@ ${GUIDES.filter(g => guides[g.slug]).map(g => `- [${g.title}](${SITE}${g.slug}/)
 - [Free OpenAI-compatible APIs](${SITE}free-ai-models/openai-compatible/)
 - [Free image and speech APIs](${SITE}free-ai-models/image-and-speech/)
 - [Free AI coding tools](${SITE}free-ai-models/coding-tools/)
+- [Free LLM API calculator](${SITE}free-ai-models/calculator/): which free API tiers cover a given number of requests a day
 - [OpenRouter vs Gemini free tiers](${SITE}free-ai-models/openrouter-vs-gemini/)
 - [OpenRouter vs Groq free tiers](${SITE}free-ai-models/openrouter-vs-groq/)
 - [Groq vs Gemini free tiers](${SITE}free-ai-models/groq-vs-gemini/)
