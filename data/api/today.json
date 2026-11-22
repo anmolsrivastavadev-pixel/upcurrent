@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-22T20:01:04.380Z"
+  "updated": "2026-11-22T20:30:50.760Z"
  },
  "pulse": {
   "trending": 74,
   "accelerating": 0,
   "newModels": 10,
-  "discussions": 42,
-  "stars": 2912
+  "discussions": 47,
+  "stars": 2894
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
    "meta": [
-    "★ 1,669",
-    "~1,365 in 24h",
+    "★ 1,703",
+    "~1,370 in 24h",
     "Created yesterday"
    ],
    "at": "2026-11-21T14:40:27Z",
@@ -39,7 +39,7 @@
    "cat": "Infrastructure",
    "score": 95,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 848",
+   "desc": "Model on Hugging Face · open source · ♥ 852",
    "meta": [
     "806K downloads",
     "Released 2 days ago"
@@ -58,7 +58,7 @@
    "desc": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
    "meta": [
     "★ 2,744",
-    "+40 in 24h",
+    "+37 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-19T14:43:10Z",
@@ -72,7 +72,7 @@
    "cat": "Vision",
    "score": 93,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open source · ♥ 4.7K",
+   "desc": "Vision on Hugging Face · open source · ♥ 4.8K",
    "meta": [
     "24K downloads",
     "Released 6 days ago"
@@ -90,8 +90,8 @@
    "grow": 5,
    "desc": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
    "meta": [
-    "★ 7,904",
-    "+621 in 24h",
+    "★ 7,909",
+    "+609 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-11-16T12:10:36Z",
@@ -107,8 +107,8 @@
    "grow": null,
    "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
    "meta": [
-    "★ 2,067",
-    "~605 in 24h",
+    "★ 2,073",
+    "~603 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-19T10:00:43Z",
@@ -116,45 +116,13 @@
    "url": "https://github.com/iamajmeena/neonclipping"
   },
   {
-   "name": "Hy4-flash",
-   "owner": "tencent",
-   "src": "hf",
-   "cat": "Vision",
-   "score": 89,
-   "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 611",
-   "meta": [
-    "6.6K downloads",
-    "Released 6 days ago"
-   ],
-   "at": "2026-11-17T03:44:46.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/tencent/Hy4-flash"
-  },
-  {
-   "name": "voice-isolator",
-   "owner": "inworld",
-   "src": "hf",
-   "cat": "Tools",
-   "score": 87,
-   "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 612",
-   "meta": [
-    "0 downloads",
-    "Released 9 days ago"
-   ],
-   "at": "2026-11-14T02:14:35.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/inworld/voice-isolator"
-  },
-  {
    "name": "Inkling-2-Mini-Uncensored-GGUF",
    "owner": "AtomicChat",
    "src": "hf",
    "cat": "Infrastructure",
-   "score": 87,
+   "score": 89,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 447",
+   "desc": "Model on Hugging Face · open source · ♥ 455",
    "meta": [
     "130K downloads",
     "Released 2 days ago"
@@ -168,9 +136,9 @@
    "owner": "harness-hub",
    "src": "hf",
    "cat": "Agents",
-   "score": 86,
+   "score": 88,
    "grow": 19,
-   "desc": "Model on Hugging Face · open source · ♥ 982",
+   "desc": "Model on Hugging Face · open source · ♥ 985",
    "meta": [
     "2.8K downloads",
     "Released 7 days ago"
@@ -178,6 +146,38 @@
    "at": "2026-11-16T06:52:31.000Z",
    "breakout": null,
    "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted"
+  },
+  {
+   "name": "voice-isolator",
+   "owner": "inworld",
+   "src": "hf",
+   "cat": "Tools",
+   "score": 87,
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 614",
+   "meta": [
+    "0 downloads",
+    "Released 9 days ago"
+   ],
+   "at": "2026-11-14T02:14:35.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/inworld/voice-isolator"
+  },
+  {
+   "name": "AltRA-Test: An Alternative Annotator Test for LLM Judges Without Shared Annotators",
+   "owner": "Paper",
+   "src": "paper",
+   "url": "https://huggingface.co/papers/2611.26073",
+   "cat": "Research",
+   "score": 85,
+   "grow": null,
+   "desc": "Large language models (LLMs) are increasingly used as judges and graders to replace human annotators, raising the question of when such replacement is statistically justified.",
+   "meta": [
+    "▲ 23 upvotes",
+    "Hugging Face Papers"
+   ],
+   "at": "2026-11-18T19:00:00.000Z",
+   "breakout": null
   }
  ],
  "breakouts": [],
@@ -186,8 +186,8 @@
    "name": "fast-anything",
    "url": "https://github.com/EL4CTEO/fast-anything",
    "from": "GitHub",
-   "use": 1365,
-   "useLabel": "~1,365 stars/day",
+   "use": 1370,
+   "useLabel": "~1,370 stars/day",
    "usePct": 1,
    "talk": [
     {
@@ -318,8 +318,8 @@
  "github": [
   {
    "repo": "EL4CTEO/fast-anything",
-   "stars": 1669,
-   "d24": 1365,
+   "stars": 1703,
+   "d24": 1370,
    "est": true,
    "forks": 105,
    "contrib": null,
@@ -329,10 +329,10 @@
   },
   {
    "repo": "erkamyaman/rust-anything",
-   "stars": 7904,
-   "d24": 621,
+   "stars": 7909,
+   "d24": 609,
    "est": false,
-   "forks": 628,
+   "forks": 629,
    "contrib": 23,
    "score": 92,
    "cat": "Agents",
@@ -340,8 +340,8 @@
   },
   {
    "repo": "iamajmeena/neonclipping",
-   "stars": 2067,
-   "d24": 605,
+   "stars": 2073,
+   "d24": 603,
    "est": true,
    "forks": 115,
    "contrib": null,
@@ -351,8 +351,8 @@
   },
   {
    "repo": "sybil-solutions/inference-optimisation-skill",
-   "stars": 1926,
-   "d24": 281,
+   "stars": 1930,
+   "d24": 275,
    "est": false,
    "forks": 179,
    "contrib": null,
@@ -363,7 +363,7 @@
   {
    "repo": "bookwjitchieni1986/blender-ai-mcp-addon",
    "stars": 2744,
-   "d24": 40,
+   "d24": 37,
    "est": false,
    "forks": 38,
    "contrib": null,
@@ -382,7 +382,7 @@
    "grow": 0,
    "score": 95,
    "cat": "Infrastructure",
-   "likes": 848
+   "likes": 852
   },
   {
    "name": "Inkling-2-Mini",
@@ -393,18 +393,30 @@
    "grow": 0,
    "score": 93,
    "cat": "Vision",
-   "likes": 4737
+   "likes": 4792
   },
   {
-   "name": "Hy4-flash",
-   "org": "tencent",
-   "lic": "Open weights",
-   "at": "2026-11-17T03:44:46.000Z",
-   "dl": 6617,
+   "name": "Inkling-2-Mini-Uncensored-GGUF",
+   "org": "AtomicChat",
+   "lic": "Open source",
+   "at": "2026-11-20T20:42:23.000Z",
+   "dl": 129693,
    "grow": 0,
    "score": 89,
-   "cat": "Vision",
-   "likes": 611
+   "cat": "Infrastructure",
+   "likes": 455
+  },
+  {
+   "name": "Qwen3.8-27B-pi-adapted",
+   "org": "harness-hub",
+   "size": "27B",
+   "lic": "Open source",
+   "at": "2026-11-16T06:52:31.000Z",
+   "dl": 2831,
+   "grow": 19,
+   "score": 88,
+   "cat": "Agents",
+   "likes": 985
   },
   {
    "name": "voice-isolator",
@@ -415,30 +427,19 @@
    "grow": null,
    "score": 87,
    "cat": "Tools",
-   "likes": 612
+   "likes": 614
   },
   {
-   "name": "Inkling-2-Mini-Uncensored-GGUF",
-   "org": "AtomicChat",
+   "name": "Haru-4B",
+   "org": "higurashi-ai",
+   "size": "4B",
    "lic": "Open source",
-   "at": "2026-11-20T20:42:23.000Z",
-   "dl": 129693,
-   "grow": 0,
-   "score": 87,
-   "cat": "Infrastructure",
-   "likes": 447
-  },
-  {
-   "name": "Qwen3.8-27B-pi-adapted",
-   "org": "harness-hub",
-   "size": "27B",
-   "lic": "Open source",
-   "at": "2026-11-16T06:52:31.000Z",
-   "dl": 2831,
-   "grow": 19,
-   "score": 86,
-   "cat": "Agents",
-   "likes": 982
+   "at": "2026-11-12T11:05:59.000Z",
+   "dl": 8608,
+   "grow": null,
+   "score": 84,
+   "cat": "Tools",
+   "likes": 886
   }
  ],
  "free": [
@@ -706,17 +707,17 @@
  },
  "headlines": [
   {
+   "t": "Jensen Huang’s reported affair was ‘most expensive sex since Helen of Troy’, US senator says",
+   "url": "https://www.theguardian.com/us-news/2026/nov/22/jensen-huang-nvidia-john-kennedy",
+   "at": "2026-11-22T20:23:36Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
    "t": "A week after urging an Nvidia shake-up, Scott Bessent says Jensen Huang's return should depend on probes of its China chip sales and presses Nvidia for answers",
    "url": "https://www.techmeme.com/261122/p10#a261122p10",
    "at": "2026-11-22T19:50:01.000Z",
    "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Jensen Huang’s reported affair was ‘most expensive sex since Helen of Troy’, US senator says",
-   "url": "https://www.theguardian.com/us-news/2026/nov/22/jensen-huang-nvidia-john-kennedy",
-   "at": "2026-11-22T19:34:59Z",
-   "src": "The Guardian",
    "kind": "News"
   },
   {
@@ -746,6 +747,13 @@
    "at": "2026-11-22T17:15:01.000Z",
    "src": "Techmeme",
    "kind": "News"
+  },
+  {
+   "t": "Finally AI solved this | Riemann Hypothesis solved by Levent alpoge #claude #ai",
+   "url": "https://www.youtube.com/watch?v=7Y3IHLnKphg",
+   "at": "2026-11-22T16:27:48Z",
+   "src": "Aditya Gautam",
+   "kind": "Video"
   },
   {
    "t": "I stopped talking to my husband and let AI do it instead. He didn’t even notice | Polly Hudson",
@@ -809,13 +817,6 @@
    "at": "2026-11-22T07:00:41.000Z",
    "src": "Techmeme",
    "kind": "News"
-  },
-  {
-   "t": "Jonathan Swift foresaw the pitfalls of AI in Gulliver's Travels",
-   "url": "https://www.rte.ie/culture/2026/1122/1598685-jonathan-swift-foresaw-the-pitfalls-of-ai-in-gullivers-travels/",
-   "at": "2026-11-22T07:00:39Z",
-   "src": "RTE.ie",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -824,8 +825,8 @@
    "t": "Perplexity and Intelligence",
    "url": "https://news.ycombinator.com/item?id=50601525",
    "link": "https://openai.com/index/perplexity-and-intelligence/",
-   "up": 266,
-   "com": 179,
+   "up": 305,
+   "com": 200,
    "at": "2026-11-22T17:06:27.000Z"
   },
   {
@@ -833,8 +834,8 @@
    "t": "Canada recommits to federal funding for news",
    "url": "https://news.ycombinator.com/item?id=50602847",
    "link": "https://www.niemanlab.org/2026/11/a-government-that-gets-it-canada-recommits-to-federal-funding-for-news/",
-   "up": 80,
-   "com": 62,
+   "up": 91,
+   "com": 84,
    "at": "2026-11-22T19:10:38.000Z"
   },
   {
@@ -842,17 +843,26 @@
    "t": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
    "url": "https://news.ycombinator.com/item?id=50597612",
    "link": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
-   "up": 676,
-   "com": 733,
+   "up": 715,
+   "com": 751,
    "at": "2026-11-22T08:57:34.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "The Birds of GTA 6: A Field Guide to Vice City and Leonida's Wildlife",
+   "url": "https://news.ycombinator.com/item?id=50602843",
+   "link": "https://www.audubon.org/magazine/birds-of-gta-6-field-guide-vice-city-wildlife",
+   "up": 76,
+   "com": 9,
+   "at": "2026-11-22T19:10:34.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Show HN: I built a game where you are an LLM's subagent",
    "url": "https://news.ycombinator.com/item?id=50599762",
    "link": "https://github.com/gulivan/worker755",
-   "up": 188,
-   "com": 47,
+   "up": 210,
+   "com": 50,
    "at": "2026-11-22T13:56:58.000Z"
   },
   {
@@ -860,18 +870,9 @@
    "t": "Europe weakens chemical rules as science links them to 'lifestyle diseases'",
    "url": "https://news.ycombinator.com/item?id=50600677",
    "link": "https://www.lemonde.fr/en/opinion/article/2026/11/22/as-science-increasingly-shows-the-role-chemical-substances-play-in-lifestyle-diseases-europe-weakens-its-regulations_6786595_23.html",
-   "up": 121,
-   "com": 100,
+   "up": 132,
+   "com": 102,
    "at": "2026-11-22T15:42:40.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Data Processing Incidents on Inference Providers",
-   "url": "https://news.ycombinator.com/item?id=50595554",
-   "link": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
-   "up": 264,
-   "com": 88,
-   "at": "2026-11-22T02:14:14.000Z"
   }
  ]
 }
