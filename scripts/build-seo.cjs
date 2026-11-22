@@ -55,7 +55,7 @@ body{top:0!important}font[style]{background:none!important;box-shadow:none!impor
 .nl,.nla{display:flex;flex-wrap:wrap;gap:8px}.alertbox{border:1px solid var(--line);border-radius:14px;padding:4px 18px 18px}.nl input[type=email],.nla input[type=email]{flex:1 1 220px;min-width:0;font:inherit;padding:11px 14px;border-radius:10px;border:1px solid var(--line);background:var(--paper);color:var(--ink)}.nl button,.nla button{font:700 15px var(--font-body);padding:11px 18px;border-radius:10px;border:0;background:var(--warm);color:#111;cursor:pointer}
 code{font:13.5px var(--font-mono);background:var(--code,var(--chip));color:var(--code-ink,var(--ink));padding:1px 5px;border-radius:4px;overflow-wrap:anywhere}pre{background:var(--code,var(--chip));padding:14px 16px;border-radius:10px;overflow-x:auto;max-width:100%}pre code{padding:0;background:none;overflow-wrap:normal}
 .finder{display:flex;flex-wrap:wrap;gap:8px}.finder label{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:6px 14px;border:1px solid var(--line);border-radius:999px;font-size:14.5px;cursor:pointer}.finder input{width:18px;height:18px;accent-color:var(--hot)}
-.tablewrap{overflow-x:auto;margin:12px 0}.tablewrap table{border-collapse:collapse;width:100%;font-size:14.5px}.tablewrap th,.tablewrap td{border-bottom:1px solid var(--line);padding:10px 8px;text-align:left;vertical-align:top;overflow-wrap:anywhere}.tablewrap thead th{font-weight:600}.tablewrap tbody th{font-weight:500;width:28%}.chart{margin:16px 0}.chart img{display:block;max-width:100%;height:auto;border-radius:14px}.chart figcaption{font-size:14px;color:var(--ink-2,inherit);opacity:.8;margin-top:6px}`;
+.tablewrap{overflow-x:auto;margin:12px 0}.tablewrap td.num{white-space:nowrap;overflow-wrap:normal}.jt{min-width:600px}.jt thead th{overflow-wrap:normal}.tablewrap table{border-collapse:collapse;width:100%;font-size:14.5px}.tablewrap th,.tablewrap td{border-bottom:1px solid var(--line);padding:10px 8px;text-align:left;vertical-align:top;overflow-wrap:anywhere}.tablewrap thead th{font-weight:600}.tablewrap tbody th{font-weight:500;width:28%}.chart{margin:16px 0}.chart img{display:block;max-width:100%;height:auto;border-radius:14px}.chart figcaption{font-size:14px;color:var(--ink-2,inherit);opacity:.8;margin-top:6px}`;
 
 // Contextual internal links for pages whose body copy had few: each links to its cluster's hub,
 // a sibling page and the email signup (the money page).
@@ -122,7 +122,7 @@ ${body}
 <form class="nl" action="https://buttondown.com/api/emails/embed-subscribe/anmolsrivastavadev" method="post" target="_blank"><input type="email" name="email" required placeholder="you@example.com" aria-label="Email address" autocomplete="email"><input type="hidden" name="metadata__timezone" value="Europe/London"><button type="submit">Subscribe free</button></form>
 <p><a href="${up}email.html">See today's email</a></p></section>
 </main>
-<footer><div class="wrap">Upcurrent tracks what is rising in AI every 30 minutes, from GitHub, Hugging Face, arXiv, Hacker News, AI lab blogs, news sites and model providers. Numbers are as recorded at the time. <a href="${up}data.html">Open data (CC BY 4.0)</a> · ${GUIDES.map(g => `<a href="${up}${g.slug}/">${esc(g.short)}</a>`).join(" · ")} · <a href="${up}what-is/">New AI projects explained</a> · <a href="${up}reports/">Weekly reports</a> · <a href="${up}about/">About</a> · <a href="${up}faq/">FAQ</a> · <a href="${up}llm-api-pricing/">LLM API pricing</a> · <a href="${up}advertise/">Advertise</a></div></footer>
+<footer><div class="wrap">Upcurrent tracks what is rising in AI every 30 minutes, from GitHub, Hugging Face, arXiv, Hacker News, AI lab blogs, news sites and model providers. Numbers are as recorded at the time. <a href="${up}data.html">Open data (CC BY 4.0)</a> · ${GUIDES.map(g => `<a href="${up}${g.slug}/">${esc(g.short)}</a>`).join(" · ")} · <a href="${up}what-is/">New AI projects explained</a> · <a href="${up}reports/">Weekly reports</a> · <a href="${up}about/">About</a> · <a href="${up}faq/">FAQ</a> · <a href="${up}llm-api-pricing/">LLM API pricing</a> · <a href="${up}llm-api/">LLM API guide</a> · <a href="${up}advertise/">Advertise</a></div></footer>
 <script>try{var z=Intl.DateTimeFormat().resolvedOptions().timeZone;if(z)document.querySelectorAll('input[name="metadata__timezone"]').forEach(function(i){i.value=z})}catch(e){}document.querySelectorAll("form.nl").forEach(function(f){f.addEventListener("submit",function(){try{window.goatcounter&&window.goatcounter.count&&window.goatcounter.count({path:"subscribe",title:"Subscribed (guide page)",event:true})}catch(e){}})})</script>
 <script src="${up}translate.js"></script>
 <script data-goatcounter="https://upcurrent.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
@@ -455,6 +455,10 @@ ${faqHtml(qa)}`;
 ${faqHtml(qa)}`;
       out["llm-api-pricing"] = page({ title: `LLM API Pricing Compared: ${main.length} Models, Live Prices`, description: clip(lede, 160), canonical: url, body, up: "../",
         ld: [faq(qa), breadcrumb([["Upcurrent", SITE], ["LLM API pricing", url]])] });
+      // The rest of the funnel: lab pages, comparisons, calculator and beginner guides.
+      const C = require("./pricing-cluster.cjs")(P, { page, esc, link, faq, faqHtml, breadcrumb, clip, asOf, chart, SITE });
+      Object.assign(out, C.pages);
+      out["llm-api-pricing"] = out["llm-api-pricing"].replace('<section id="source">', C.moneyLinks + '\n<section id="source">');
     }
   }
 
@@ -1468,6 +1472,9 @@ ${GUIDES.filter(g => guides[g.slug]).map(g => `- [${g.title}](${SITE}${g.slug}/)
 - [Trending AI agent repos on GitHub](${SITE}trending-ai-github-repos/agents/)
 - [Upcurrent FAQ: is it free, where the data comes from, what the email is](${SITE}faq/)
 - [LLM API pricing compared: live prices for every model](${SITE}llm-api-pricing/)
+- [LLM API cost calculator](${SITE}llm-api-pricing/calculator/)
+- [Cheapest LLM API right now](${SITE}llm-api-pricing/cheapest/)
+- [LLM API guide for beginners: tokens, keys, Python, caching, costs](${SITE}llm-api/)
 - [Best new MCP servers and Claude Code skills on GitHub](${SITE}mcp-servers-claude-code-skills/)
 - [Free AI models for coding](${SITE}free-ai-models/coding/)
 - [Free AI model API: rate limits and model IDs](${SITE}free-ai-models/api/)
