@@ -491,7 +491,7 @@
       `You can call ${freeCounts.zen + freeCounts.or} models for free: ${freeCounts.zen} on OpenCode Zen and ${freeCounts.or} on OpenRouter.`
     ].filter(Boolean);
 
-    const github = ghRows.length ? [...ghRows].sort((a, b) => b.d24 - a.d24).slice(0, 8).map(g => ({ repo: g.repo, stars: g.stars, d24: g.d24, est: g.est, forks: g.forks, contrib: (raw.contrib || {})[g.repo] ?? null, score: g.score })) : S.github;
+    const github = ghRows.length ? [...ghRows].sort((a, b) => b.d24 - a.d24).slice(0, 20).map(g => ({ repo: g.repo, stars: g.stars, d24: g.d24, est: g.est, forks: g.forks, contrib: (raw.contrib || {})[g.repo] ?? null, score: g.score, cat: g.cat, desc: g.desc })) : S.github;
 
     return {
       updated: fetchedAt, generated: fetchedAt, live, total: counted.length, isSnapshot: false,

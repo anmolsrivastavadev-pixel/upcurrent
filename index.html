@@ -293,7 +293,7 @@ td { padding: 13px 12px 13px 0; border-bottom: 1px solid var(--line); white-spac
 .fm .ctx { grid-column: 1 / -1; display: flex; align-items: center; gap: 10px; font: 12px var(--font-mono); color: var(--muted); flex-wrap: wrap; }
 .fm .ctx .b { width: 90px; height: 4px; background: var(--chip); border-radius: 2px; overflow: hidden; }
 .fm .ctx .b i { display: block; height: 100%; background: var(--cool); }
-.cap { font-size: 11.5px; padding: 1px 7px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); font-family: var(--font-body); }
+.cap { overflow-wrap: anywhere; font-size: 11.5px; padding: 1px 7px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); font-family: var(--font-body); }
 .more-btn { margin-top: 14px; border: 1px solid var(--line); background: var(--paper); border-radius: var(--radius-md); min-height: var(--target); padding: 7px 14px; font-weight: 600; font-size: 13.5px; cursor: pointer; }
 .more-btn:hover { border-color: var(--ink); }
 
@@ -942,7 +942,7 @@ function render() {
       <div class="dlbar" title="Downloads relative to the most-downloaded model here"><i style="width:${Math.max(2, Math.sqrt((m.dl || 0) / maxDl) * 100)}%"></i></div>
     </article>`).join("") : `<div class="empty">No models match.</div>`;
 
-  const gh = D.github.filter(g => !state.q || g.repo.toLowerCase().includes(state.q));
+  const gh = D.github.filter(g => !state.q || g.repo.toLowerCase().includes(state.q)).slice(0, state.q ? 20 : 8); // 20 are saved for the guide pages; the dashboard shows 8
   const maxD = Math.max(1, ...gh.map(g => g.d24 || 0));
   $("ghBody").innerHTML = gh.map(g => { const [o, n] = g.repo.split("/"); return `<tr>
     <td class="repo">${NEW("g:" + g.repo)}<a href="https://github.com/${esc(g.repo)}" target="_blank" rel="noopener"><span class="o">${esc(o)}/</span><b>${esc(n)}</b></a></td>
@@ -980,7 +980,7 @@ function render() {
   $("freeBody").innerHTML = (showAll ? fr : fr.slice(0, 10)).map(f => `<div class="fm">
     <span class="n">${f.added ? `<span class="new-tag">NEW TODAY</span>` : ""}${f.url ? `<a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.name)}</a>` : esc(f.name)}</span>
     <span class="p">${f.prov} · ${added(f.at)}</span>
-    <span class="ctx">${f.ctx ? `<span class="b" title="Context window, log scale"><i style="width:${logC(f.ctx)}%"></i></span>${fmt(f.ctx)} context` : ""}${f.caps.map(x => `<span class="cap">${esc(x)}</span>`).join("")}</span></div>`).join("") || `<div class="empty">No models match.</div>`;
+    <span class="ctx">${f.ctx ? `<span class="b" title="Context window, log scale"><i style="width:${logC(f.ctx)}%"></i></span>${fmt(f.ctx)} context` : ""}${[...new Set(f.caps.flatMap(x => /\//.test(x) ? x.split("/").filter((_, i) => i % 2 === 0).map(t => t === "application" || t === "text" ? "files" : t) : [x]))].map(x => `<span class="cap">${esc(x)}</span>`).join("")}</span></div>`).join("") || `<div class="empty">No models match.</div>`;
   $("freeNote").innerHTML = fr.length > 10 ? `<button type="button" class="more-btn" id="freeToggle">${showAll ? "Show fewer" : `Show all ${fr.length}`}</button>` : (D.isSnapshot && fr.length < fc.zen + fc.or ? `<div class="note">The snapshot holds ${fr.length} of ${fc.zen + fc.or}. The full list loads with live data.</div>` : "");
 
   document.querySelectorAll(".chip[data-cat]").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.cat === state.cat)));

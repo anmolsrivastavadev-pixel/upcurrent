@@ -122,7 +122,7 @@ ${body}
 <form class="nl" action="https://buttondown.com/api/emails/embed-subscribe/anmolsrivastavadev" method="post" target="_blank"><input type="email" name="email" required placeholder="you@example.com" aria-label="Email address" autocomplete="email"><input type="hidden" name="metadata__timezone" value="Europe/London"><button type="submit">Subscribe free</button></form>
 <p><a href="${up}email.html">See today's email</a></p></section>
 </main>
-<footer><div class="wrap">Upcurrent tracks what is rising in AI every 30 minutes, from GitHub, Hugging Face, arXiv, Hacker News, AI lab blogs, news sites and model providers. Numbers are as recorded at the time. <a href="${up}data.html">Open data (CC BY 4.0)</a> · ${GUIDES.map(g => `<a href="${up}${g.slug}/">${esc(g.short)}</a>`).join(" · ")} · <a href="${up}what-is/">New AI projects explained</a> · <a href="${up}reports/">Weekly reports</a> · <a href="${up}about/">About</a></div></footer>
+<footer><div class="wrap">Upcurrent tracks what is rising in AI every 30 minutes, from GitHub, Hugging Face, arXiv, Hacker News, AI lab blogs, news sites and model providers. Numbers are as recorded at the time. <a href="${up}data.html">Open data (CC BY 4.0)</a> · ${GUIDES.map(g => `<a href="${up}${g.slug}/">${esc(g.short)}</a>`).join(" · ")} · <a href="${up}what-is/">New AI projects explained</a> · <a href="${up}reports/">Weekly reports</a> · <a href="${up}about/">About</a> · <a href="${up}faq/">FAQ</a></div></footer>
 <script>try{var z=Intl.DateTimeFormat().resolvedOptions().timeZone;if(z)document.querySelectorAll('input[name="metadata__timezone"]').forEach(function(i){i.value=z})}catch(e){}document.querySelectorAll("form.nl").forEach(function(f){f.addEventListener("submit",function(){try{window.goatcounter&&window.goatcounter.count&&window.goatcounter.count({path:"subscribe",title:"Subscribed (guide page)",event:true})}catch(e){}})})</script>
 <script src="${up}translate.js"></script>
 <script data-goatcounter="https://upcurrent.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
@@ -345,7 +345,7 @@ ${faqHtml(qa)}`;
   {
     const lastDay = days[days.length - 1];
     const info = new Map(); // repo -> description and topic, from the daily "rising" lists
-    for (const d of days) for (const r of data[d].rising || []) if (r.src === "gh") info.set(`${r.owner}/${r.name}`, { desc: r.desc, cat: r.cat });
+    for (const d of days) { for (const r of data[d].rising || []) if (r.src === "gh") info.set(`${r.owner}/${r.name}`, { desc: r.desc, cat: r.cat }); for (const g of data[d].github || []) if (g.cat) info.set(g.repo, { desc: g.desc || info.get(g.repo)?.desc, cat: g.cat }); }
     const monthName = m => new Date(m + "-15T12:00:00Z").toLocaleDateString("en-GB", { month: "long", year: "numeric", timeZone: "UTC" });
     const months = [...new Set(days.map(d => d.slice(0, 7)))];
     const collect = ds => { const m = new Map(); for (const d of ds) for (const r of data[d].github || []) { const c = m.get(r.repo) || { repo: r.repo, best: 0, bestDay: d, est: false, days: 0, stars: 0 }; c.days++; if (r.d24 > c.best) { c.best = r.d24; c.bestDay = d; c.est = !!r.est; } c.stars = Math.max(c.stars, r.stars || 0); m.set(r.repo, c); } return [...m.values()].sort((a, b) => b.best - a.best); };
@@ -365,7 +365,7 @@ ${faqHtml(qa)}`;
         [`What were the top trending GitHub repos in ${name}?`, `For AI projects: ${repos.slice(0, 3).map(r => `${r.repo} (${r.est ? "~" : "+"}${fmt(r.best)} stars on ${shortDate(r.bestDay)})`).join(", ")}.`],
         [`Which repo stayed trending longest in ${name}?`, `${most.repo}, on Upcurrent's daily top list for ${most.days} ${most.days === 1 ? "day" : "days"}.`],
         ...(cats.length ? [[`What kind of AI projects trended in ${name}?`, cats.map(([c, n]) => `${c}: ${n}`).join(", ") + " (for repos Upcurrent described that month)."]] : []),
-        ["How is this measured?", "Every 30 minutes Upcurrent asks GitHub's official API for AI repositories created in the last 30 days with 100+ stars, and records how many stars each gains per day. Each day's top 8 are saved; this page ranks every repo by its best single day."]
+        ["How is this measured?", "Every 30 minutes Upcurrent asks GitHub's official API for AI repositories created in the last 30 days with 100+ stars, and records how many stars each gains per day. Each day's top repos are saved (the top 8 until 22 November 2026, the top 20 since); this page ranks every repo by its best single day."]
       ];
       const prev = months[i - 1], next = months[i + 1];
       const body = `<section><div class="eyebrow">GitHub trending · ${esc(name)}${sofar ? " · so far" : ""}</div><h1>GitHub trending ${esc(name)}</h1><p class="lede">${esc(lede)}</p></section>
@@ -376,6 +376,23 @@ ${faqHtml(qa)}`;
       out[`github-trending/${m}`] = page({ title: `GitHub Trending ${name}: Top ${repos.length} AI Repos`, description: clip(lede, 160), canonical: url, body, up: "../../",
         ld: [{ "@context": "https://schema.org", "@type": "ItemList", name: `GitHub trending ${name}`, url, numberOfItems: repos.length, itemListElement: repos.map((r, k) => ({ "@type": "ListItem", position: k + 1, name: r.repo, url: "https://github.com/" + r.repo })) }, faq(qa), breadcrumb([["Upcurrent", SITE], ["GitHub trending archive", SITE + "github-trending-archive/"], [name, url]])] });
     });
+
+    // Other topics get a page only once enough repos have trended in them, so no thin pages go live.
+    const TOPICS = { Coding: ["coding", "AI coding"], Infrastructure: ["infrastructure", "AI infrastructure"], Vision: ["vision", "AI image and video"], LLMs: ["llms", "LLM"], Robotics: ["robotics", "AI robotics"], Tools: ["tools", "AI tool"] };
+    for (const [cat, [slug, label]] of Object.entries(TOPICS)) {
+      const list = collect(days).filter(r => info.get(r.repo)?.cat === cat);
+      if (list.length < 15) continue;
+      const url = `${SITE}trending-ai-github-repos/${slug}/`;
+      const lede = `Trending ${label} repos on GitHub: the ${list.length} ${label} projects that have trended since ${shortDate(days[0])}, ranked by their biggest single day of new stars. Updated every 30 minutes.`;
+      const qa = [[`What are the trending ${label} repos on GitHub?`, `The biggest so far: ${list.slice(0, 3).map(r => `${r.repo} (${r.est ? "~" : "+"}${fmt(r.best)} stars on ${shortDate(r.bestDay)})`).join(", ")}.`],
+        ["How is this measured?", "Upcurrent checks GitHub's official API every 30 minutes for AI repositories created in the last 30 days with 100+ stars, and records the stars each gains per day."]];
+      const body = `<section><div class="eyebrow">GitHub trending · topic</div><h1>Trending ${esc(label)} repos on GitHub</h1><p class="lede">${esc(lede)}</p></section>
+<section id="history"><h2>${esc(label)} repos that trended since ${esc(shortDate(days[0]))}</h2><ol class="rows">${list.map(r => rowHtml(r, "../../")).join("")}</ol></section>
+<section><h2>Related</h2><p><a href="../">GitHub trending repositories today</a> · <a href="../agents/">Trending AI agent repos</a> · <a href="../../github-trending-archive/">GitHub trending archive</a></p></section>
+${faqHtml(qa)}`;
+      out[`trending-ai-github-repos/${slug}`] = page({ title: `Trending ${label} Repos on GitHub (${monthYear(lastDay)})`, description: clip(lede, 160), canonical: url, body, up: "../../",
+        ld: [faq(qa), breadcrumb([["Upcurrent", SITE], ["GitHub trending (AI)", SITE + "trending-ai-github-repos/"], [label, url]])] });
+    }
 
     // AI agents: history (repos tagged Agents) plus the agent repos in today's raw GitHub fetch.
     const agentRe = /\bagents?\b|\bagentic\b|autonomous|multi-agent/;
@@ -399,6 +416,70 @@ ${faqHtml(qa)}`;
       out["trending-ai-github-repos/agents"] = page({ title: `Trending AI Agent Repos on GitHub (${monthYear(lastDay)})`, description: clip(lede, 160), canonical: url, body, up: "../../",
         ld: [faq(qa), breadcrumb([["Upcurrent", SITE], ["GitHub trending (AI)", SITE + "trending-ai-github-repos/"], ["AI agents", url]])] });
     }
+  }
+  // FAQ: the questions people ask before signing up. Every answer describes what the site does today.
+  {
+    const url = `${SITE}faq/`, free = (last.free || []).filter(isChat).length;
+    const groups = [
+      ["What Upcurrent is", [
+        ["What does Upcurrent actually track?", "What's rising in AI, every 30 minutes: new AI repos on GitHub, new models and papers on Hugging Face, arXiv papers, AI discussions on Hacker News, Lobsters, DEV and Mastodon, AI lab blogs and news, and which AI models are free to use right now on OpenRouter and OpenCode Zen."],
+        ["How is it different from GitHub's own Trending page?", "GitHub Trending covers every language and shows no numbers. Upcurrent only follows AI projects, shows how many stars each one gained in a day, adds models, papers and news alongside, and keeps every day in an archive. GitHub doesn't keep past trending lists."],
+        ["How is it different from an awesome list or a newsletter like TLDR?", "Awesome lists are curated by hand and grow forever. Newsletters are written by editors once a day. Upcurrent is built from live numbers, updated every 30 minutes, and only shows what is gaining attention now, so it stays short."],
+        ["Who is it for?", "Developers building with AI, AI hobbyists who want to try new tools early, and founders keeping an eye on what's taking off. You don't need to be an expert: every top project gets a plain-English explanation."],
+        ["Who built it?", "An independent developer in the UK. It is not owned by an AI company, and nobody pays to be ranked."]]],
+      ["Cost and catch", [
+        ["Is Upcurrent free?", "Yes. The website, the daily email, the free model alerts and the open data are all free."],
+        ["If it's free, what's the catch?", "There isn't one hidden in the data. Upcurrent will pay for itself with a clearly labelled sponsor message in the email. Sponsors never change the rankings, and your email address is never sold."],
+        ["Will it always be free?", "The plan is to keep the site and the daily email free, paid for by sponsors rather than by readers."],
+        ["Do I need a credit card to sign up?", "No. The email only asks for your email address. There's no account and no payment."]]],
+      ["Data quality and freshness", [
+        ["How often is the data updated?", "Every 30 minutes, around the clock. Each page shows when it was last checked."],
+        ["Where does the data come from?", "Each source's official API or feed: GitHub, Hugging Face, arXiv, Hacker News, Lobsters, DEV, Mastodon, Techmeme, AI lab blogs, news APIs, YouTube, Product Hunt, OpenRouter and OpenCode Zen."],
+        ["How do you decide a repo is rising and not just hyped?", "Rising means gaining attention fastest right now, measured by stars gained per day compared with everything else from the same source. A separate hype check compares how much a project is talked about with how much it's actually used, and says when the two don't match."],
+        ["Are star counts real, or can they be gamed?", "The numbers are real counts from GitHub's API, never edited. Stars can be bought or gamed, though, and Upcurrent doesn't detect fake stars, so treat them as a sign of attention, not quality."],
+        ["How do I know a free model is still free today?", `Upcurrent checks OpenRouter's and OpenCode Zen's model lists every 30 minutes. If a model stops being free, it disappears from the list at the next check. Right now ${free} chat models are free.`],
+        ["Do you check rate limits and quotas?", "Yes, for the free API providers: the limits for OpenRouter, Groq, Gemini and Cloudflare are taken from each provider's own docs, with the date they were last checked shown on the page."],
+        ["Can I see when a model stopped being free?", "Yes. The free AI model tracker lists every model that has been free since October 2026, the day it went free and the day it stopped."]]],
+      ["Free AI models", [
+        ["Which free models work with Claude Code, OpenCode or Cursor?", "OpenCode has free models built in, listed live on the OpenCode page. Cursor has its own free plan, covered on the free AI coding tools page. Claude Code is harder: it can connect to OpenRouter, but free models aren't guaranteed to work with it. The Claude Code page explains the honest options."],
+        ["Is there a free LLM API I can use without a credit card?", "Yes: OpenRouter, Groq and Google Gemini all have free tiers that start without a card. The no-credit-card page has the details and limits."],
+        ["Do you show model IDs and context windows?", "Yes. The free API pages list each free model's exact ID to paste into your code, and its context window where the provider gives one."],
+        ["Which providers do you cover?", "Live, every 30 minutes: OpenRouter and OpenCode Zen. Checked by hand from their docs: Groq, Google Gemini, Cloudflare Workers AI and Cohere."]]],
+      ["Filtering and noise", [
+        ["Can I filter out AI repos if I only want other tools?", "No. Upcurrent is only about AI. For everything else on GitHub, GitHub's own Trending page is the better place."],
+        ["Can I filter by language or topic?", "There's a filter box on the dashboard that searches by name or keyword, and topic pages for AI agents and for MCP servers and Claude Code skills. There's no programming-language filter yet."],
+        ["Will this become another list I bookmark and never read?", "It's built to avoid that: it only shows what's rising now, not a growing pile, and the morning email brings the top of it to you so you don't have to remember to visit."]]],
+      ["Email and alerts", [
+        ["What do I get by email, and how often?", "One email a day at 7am in your own time zone, with the AI repos, models and stories picking up speed, plus new free models. Nothing else."],
+        ["Can I get an alert only when a new model goes free?", "Yes. Free model alerts are a separate sign-up on the free AI model pages. You only get an email on mornings after a model went free."],
+        ["Is it easy to unsubscribe?", "Yes. Every email has an unsubscribe link at the bottom, and one click takes you off the list."]]],
+      ["Privacy and trust", [
+        ["What do you do with my email address?", "It's used only to send you the emails you signed up for. It's stored with Buttondown, the email service, and it's never sold or shared."],
+        ["Do I need to sign in with GitHub?", "No. There are no accounts and no sign-in. The site works without one, and the email only needs your address."]]],
+      ["Practical", [
+        ["Is there an RSS feed, API or JSON?", "Yes. There's an RSS feed of the daily pages, and all the data is free JSON under CC BY 4.0, including a GitHub trending API. No key needed."],
+        ["Can I suggest a repo or model you missed?", "Not yet: there's no suggestion form. Repos are picked up automatically: any AI repo on GitHub created in the last 30 days with more than 100 stars is tracked, and new Hugging Face models appear when they start trending."]]]
+    ];
+    const qa = groups.flatMap(g => g[1]);
+    const linkify = t => esc(t)
+      .replace("free AI model tracker", '<a href="../free-ai-models/history/">free AI model tracker</a>')
+      .replace("OpenCode page", '<a href="../free-ai-models/opencode/">OpenCode page</a>')
+      .replace("free AI coding tools page", '<a href="../free-ai-models/coding-tools/">free AI coding tools page</a>')
+      .replace("The Claude Code page", 'The <a href="../free-ai-models/claude-code/">Claude Code page</a>')
+      .replace("The no-credit-card page", 'The <a href="../free-ai-models/no-credit-card/">no-credit-card page</a>')
+      .replace("free API pages", '<a href="../free-ai-models/api/">free API pages</a>')
+      .replace("topic pages for AI agents", 'topic pages for <a href="../trending-ai-github-repos/agents/">AI agents</a>')
+      .replace("MCP servers and Claude Code skills.", '<a href="../mcp-servers-claude-code-skills/">MCP servers and Claude Code skills</a>.')
+      .replace("an RSS feed", 'an <a href="../feed.xml">RSS feed</a>')
+      .replace("free JSON under CC BY 4.0", '<a href="../data.html">free JSON under CC BY 4.0</a>')
+      .replace("a GitHub trending API", 'a <a href="../github-trending-api/">GitHub trending API</a>')
+      .replace("GitHub's own Trending page is the better place", '<a href="https://github.com/trending" rel="noopener">GitHub\'s own Trending page</a> is the better place')
+      .replace("Free model alerts are a separate sign-up on the free AI model pages", 'Free model alerts are a separate sign-up on the <a href="../free-ai-models/#alerts">free AI model pages</a>')
+      .replace("A separate hype check", 'A separate <a href="../#hype">hype check</a>');
+    const body = `<section><div class="eyebrow">Questions</div><h1>Upcurrent FAQ</h1><p class="lede">Is Upcurrent free, where does the data come from, and what do you get by email? Straight answers to the 30 questions people ask before signing up.</p><p><a href="#signup"><b>Get the free 7am email</b></a> · <a href="../">Open the live dashboard</a></p></section>
+${groups.map(([h, items]) => `<section><h2>${esc(h)}</h2>${items.map(([q, a]) => `<h3>${esc(q)}</h3><p>${linkify(a)}</p>`).join("")}</section>`).join("\n")}`;
+    out["faq"] = page({ title: "Upcurrent FAQ: Is It Free, Where the Data Comes From", description: "Is Upcurrent free? Where does the data come from, how often is it updated, and what do you get by email? 30 straight answers.", canonical: url, body, up: "../",
+      ld: [faq(qa), breadcrumb([["Upcurrent", SITE], ["FAQ", url]])] });
   }
   // Free GitHub trending API: GitHub has no trending endpoint, and our open data already has one.
   {
@@ -1312,6 +1393,7 @@ ${GUIDES.filter(g => guides[g.slug]).map(g => `- [${g.title}](${SITE}${g.slug}/)
 - [GitHub trending archive: every day's top AI repo](${SITE}github-trending-archive/)
 - [Trending AI research papers today (Hugging Face, arXiv)](${SITE}trending-ai-papers/)
 - [Trending AI agent repos on GitHub](${SITE}trending-ai-github-repos/agents/)
+- [Upcurrent FAQ: is it free, where the data comes from, what the email is](${SITE}faq/)
 - [Best new MCP servers and Claude Code skills on GitHub](${SITE}mcp-servers-claude-code-skills/)
 - [Free AI models for coding](${SITE}free-ai-models/coding/)
 - [Free AI model API: rate limits and model IDs](${SITE}free-ai-models/api/)
