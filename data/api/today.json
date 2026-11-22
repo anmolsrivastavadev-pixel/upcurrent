@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-22T14:01:00.689Z"
+  "updated": "2026-11-22T14:30:52.008Z"
  },
  "pulse": {
   "trending": 73,
   "accelerating": 1,
   "newModels": 9,
-  "discussions": 36,
-  "stars": 2294
+  "discussions": 39,
+  "stars": 2306
  },
  "rising": [
   {
@@ -22,7 +22,7 @@
    "cat": "Infrastructure",
    "score": 95,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 772",
+   "desc": "Model on Hugging Face · open source · ♥ 778",
    "meta": [
     "806K downloads",
     "Released 2 days ago"
@@ -40,8 +40,8 @@
    "grow": null,
    "desc": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
    "meta": [
-    "★ 2,740",
-    "~922 in 24h",
+    "★ 2,741",
+    "~916 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-19T14:43:10Z",
@@ -54,11 +54,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 93,
-   "grow": 3,
+   "grow": 4,
    "desc": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
    "meta": [
-    "★ 7,762",
-    "+655 in 24h",
+    "★ 7,783",
+    "+674 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-11-16T12:10:36Z",
@@ -87,11 +87,11 @@
    "src": "gh",
    "cat": "Vision",
    "score": 92,
-   "grow": 14,
+   "grow": 15,
    "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
    "meta": [
-    "★ 1,978",
-    "+397 in 24h",
+    "★ 1,986",
+    "+396 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-19T10:00:43Z",
@@ -105,7 +105,7 @@
    "cat": "Vision",
    "score": 89,
    "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 582",
+   "desc": "Vision on Hugging Face · open weights · ♥ 584",
    "meta": [
     "6.6K downloads",
     "Released 5 days ago"
@@ -124,7 +124,7 @@
    "desc": "Model on Hugging Face · open source · ♥ 576",
    "meta": [
     "0 downloads",
-    "Released 8 days ago"
+    "Released 9 days ago"
    ],
    "at": "2026-11-14T02:14:35.000Z",
    "breakout": null,
@@ -153,7 +153,7 @@
    "cat": "Infrastructure",
    "score": 86,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 376",
+   "desc": "Model on Hugging Face · open source · ♥ 383",
    "meta": [
     "130K downloads",
     "Released 2 days ago"
@@ -169,7 +169,7 @@
    "cat": "Agents",
    "score": 85,
    "grow": 19,
-   "desc": "Model on Hugging Face · open source · ♥ 954",
+   "desc": "Model on Hugging Face · open source · ♥ 955",
    "meta": [
     "2.8K downloads",
     "Released 6 days ago"
@@ -202,8 +202,8 @@
    "name": "blender-ai-mcp-addon",
    "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
    "from": "GitHub",
-   "use": 922,
-   "useLabel": "~922 stars/day",
+   "use": 916,
+   "useLabel": "~916 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -317,8 +317,8 @@
  "github": [
   {
    "repo": "bookwjitchieni1986/blender-ai-mcp-addon",
-   "stars": 2740,
-   "d24": 922,
+   "stars": 2741,
+   "d24": 916,
    "est": true,
    "forks": 37,
    "contrib": null,
@@ -326,25 +326,25 @@
   },
   {
    "repo": "erkamyaman/rust-anything",
-   "stars": 7762,
-   "d24": 655,
+   "stars": 7783,
+   "d24": 674,
    "est": false,
-   "forks": 618,
+   "forks": 621,
    "contrib": 22,
    "score": 93
   },
   {
    "repo": "iamajmeena/neonclipping",
-   "stars": 1978,
-   "d24": 397,
+   "stars": 1986,
+   "d24": 396,
    "est": false,
-   "forks": 105,
+   "forks": 106,
    "contrib": null,
    "score": 92
   },
   {
    "repo": "sybil-solutions/inference-optimisation-skill",
-   "stars": 1858,
+   "stars": 1862,
    "d24": 320,
    "est": true,
    "forks": 174,
@@ -362,7 +362,7 @@
    "grow": null,
    "score": 95,
    "cat": "Infrastructure",
-   "likes": 772
+   "likes": 778
   },
   {
    "name": "Inkling-2-Mini",
@@ -373,7 +373,7 @@
    "grow": null,
    "score": 93,
    "cat": "Vision",
-   "likes": 4071
+   "likes": 4120
   },
   {
    "name": "Hy4-flash",
@@ -384,7 +384,7 @@
    "grow": null,
    "score": 89,
    "cat": "Vision",
-   "likes": 582
+   "likes": 584
   },
   {
    "name": "voice-isolator",
@@ -417,7 +417,7 @@
    "grow": null,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 376
+   "likes": 383
   }
  ],
  "free": [
@@ -687,6 +687,13 @@
  },
  "headlines": [
   {
+   "t": "Will fragile bipartisanship on AI survive the silly season, or is parliament heading for a holiday meltdown? | Josh Butler",
+   "url": "https://www.theguardian.com/australia-news/2026/nov/23/will-fragile-bipartisanship-on-ai-survive-silly-season-or-is-parliament-heading-for-a-holiday-meltdown-the-agenda",
+   "at": "2026-11-22T14:00:32Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
    "t": "South Korean minister quits after AI cheating scandal engulfs university exams",
    "url": "https://www.theguardian.com/world/2026/nov/22/south-korea-education-minister-resigns-after-ai-cheating-scandal-engulfs-university-exams",
    "at": "2026-11-22T12:12:08Z",
@@ -750,6 +757,20 @@
    "kind": "News"
   },
   {
+   "t": "Elon Musk warns AI boom may face ‘hundreds of billions’ in cash crunch as chip demand soars",
+   "url": "https://www.hindustantimes.com/world-news/us-news/elon-musk-warns-ai-boom-may-face-hundreds-of-billions-in-cash-crunch-as-chip-demand-soars-101795312429566.html",
+   "at": "2026-11-22T02:29:02Z",
+   "src": "Hindustan Times",
+   "kind": "News"
+  },
+  {
+   "t": "State plans AI-powered CCTV upgrade for third phase, 5,000 cameras to go live in Feb",
+   "url": "https://www.hindustantimes.com/cities/mumbai-news/state-plans-ai-powered-cctv-upgrade-for-third-phase-5-000-cameras-to-go-live-in-feb-101795287411178.html",
+   "at": "2026-11-22T02:12:00Z",
+   "src": "Hindustan Times",
+   "kind": "News"
+  },
+  {
    "t": "AI, Please Write My Excuse: How Chatbots Are Helping Us Dodge Plans And Awkward Conversations",
    "url": "https://www.freepressjournal.in/lifestyle/ai-please-write-my-excuse-how-chatbots-are-helping-us-dodge-plans-and-awkward-conversations",
    "at": "2026-11-22T01:55:00Z",
@@ -776,27 +797,6 @@
    "at": "2026-11-22T00:45:00Z",
    "src": "The Manila Times",
    "kind": "News"
-  },
-  {
-   "t": "Nvidia faces US accounting probe amid deepening turmoil",
-   "url": "https://www.thestar.com.my/news/world/2026/11/22/nvidia-faces-us-accounting-probe-amid-deepening-turmoil",
-   "at": "2026-11-22T00:33:00Z",
-   "src": "The Star",
-   "kind": "News"
-  },
-  {
-   "t": "Matchmakers say more tech workers fear romantic espionage after the Jensen Huang scandal; an AI companion app pitches \"zero espionage\" executive girlfriends",
-   "url": "https://www.techmeme.com/261121/p11#a261121p11",
-   "at": "2026-11-22T00:10:02.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Rs 472 cr in revenue, Rs 3,456 cr in annual AI billings next? Meet this newly listed stock",
-   "url": "https://www.financialexpress.com/market/stock-insights/rs-472-cr-in-revenue-rs-3456-cr-in-annual-ai-billings-next-meet-this-newly-listed-stock/4390689/",
-   "at": "2026-11-22T00:00:00Z",
-   "src": "The Financial Express",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -805,8 +805,8 @@
    "t": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
    "url": "https://news.ycombinator.com/item?id=50597612",
    "link": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
-   "up": 279,
-   "com": 382,
+   "up": 303,
+   "com": 415,
    "at": "2026-11-22T08:57:34.000Z"
   },
   {
@@ -814,8 +814,8 @@
    "t": "Lean verification of the Riemann Hypothesis",
    "url": "https://news.ycombinator.com/item?id=50589618",
    "link": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
-   "up": 1101,
-   "com": 920,
+   "up": 1114,
+   "com": 928,
    "at": "2026-11-21T14:36:45.000Z"
   },
   {
@@ -823,8 +823,8 @@
    "t": "Inkling-2-Mini in 5.4 GB Memory",
    "url": "https://news.ycombinator.com/item?id=50591853",
    "link": "https://github.com/ShinMegamiBoson/lookatmyquant",
-   "up": 497,
-   "com": 124,
+   "up": 503,
+   "com": 126,
    "at": "2026-11-21T18:02:19.000Z"
   },
   {
@@ -832,7 +832,7 @@
    "t": "Data Processing Incidents on Inference Providers",
    "url": "https://news.ycombinator.com/item?id=50595554",
    "link": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
-   "up": 205,
+   "up": 215,
    "com": 72,
    "at": "2026-11-22T02:14:14.000Z"
   },
@@ -841,18 +841,18 @@
    "t": "Harsher on Male? Evaluating LLMs on Gender-Asymmetric Moral Framing in Conflicts",
    "url": "https://news.ycombinator.com/item?id=50597743",
    "link": "https://arxiv.org/abs/2606.14068",
-   "up": 78,
-   "com": 64,
+   "up": 81,
+   "com": 68,
    "at": "2026-11-22T09:18:36.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Leonida – PC Recompilation of the Xbox Version of GTA 6",
-   "url": "https://news.ycombinator.com/item?id=50595168",
-   "link": "https://github.com/ItsNotRexed/Leonida",
-   "up": 180,
-   "com": 135,
-   "at": "2026-11-22T00:57:26.000Z"
+   "t": "Prisons get OK to jam contraband phones",
+   "url": "https://news.ycombinator.com/item?id=50599313",
+   "link": "https://arstechnica.com/tech-policy/2026/11/prisons-get-ok-to-jam-contraband-phones-ctia-says-nearby-phones-will-be-jammed-too/",
+   "up": 22,
+   "com": 22,
+   "at": "2026-11-22T13:00:52.000Z"
   }
  ]
 }
