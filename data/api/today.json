@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-22T02:01:03.096Z"
+  "updated": "2026-11-22T02:30:53.764Z"
  },
  "pulse": {
   "trending": 73,
   "accelerating": 0,
   "newModels": 10,
-  "discussions": 22,
-  "stars": 3177
+  "discussions": 23,
+  "stars": 3162
  },
  "rising": [
   {
@@ -22,7 +22,7 @@
    "cat": "Infrastructure",
    "score": 96,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 627",
+   "desc": "Model on Hugging Face · open source · ♥ 636",
    "meta": [
     "238K downloads",
     "Released 2 days ago"
@@ -37,11 +37,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 94,
-   "grow": 27,
+   "grow": 28,
    "desc": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
    "meta": [
-    "★ 2,475",
-    "+1,137 in 24h",
+    "★ 2,504",
+    "+1,148 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-19T14:43:10Z",
@@ -55,7 +55,7 @@
    "cat": "Vision",
    "score": 94,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open source · ♥ 3K",
+   "desc": "Vision on Hugging Face · open source · ♥ 3.1K",
    "meta": [
     "7.9K downloads",
     "Released 5 days ago"
@@ -73,8 +73,8 @@
    "grow": 8,
    "desc": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
    "meta": [
-    "★ 7,454",
-    "+749 in 24h",
+    "★ 7,468",
+    "+747 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-11-16T12:10:36Z",
@@ -86,12 +86,12 @@
    "owner": "iamajmeena",
    "src": "gh",
    "cat": "Vision",
-   "score": 93,
+   "score": 92,
    "grow": null,
    "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
    "meta": [
-    "★ 1,743",
-    "~654 in 24h",
+    "★ 1,747",
+    "~650 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-19T10:00:43Z",
@@ -137,7 +137,7 @@
    "cat": "Tools",
    "score": 86,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 520",
+   "desc": "Model on Hugging Face · open source · ♥ 522",
    "meta": [
     "0 downloads",
     "Released 8 days ago"
@@ -202,8 +202,8 @@
    "name": "blender-ai-mcp-addon",
    "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
    "from": "GitHub",
-   "use": 1137,
-   "useLabel": "+1,137 stars/day",
+   "use": 1148,
+   "useLabel": "+1,148 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -233,6 +233,16 @@
   }
  ],
  "receipts": [
+  {
+   "name": "bookwjitchieni1986/blender-ai-mcp-addon",
+   "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
+   "kind": "stars",
+   "first": "2026-11-20T18:30:56.292Z",
+   "firstV": 1319,
+   "m": 2500,
+   "at": "2026-11-22T02:30:53.764Z",
+   "lead": 31.999297777777777
+  },
   {
    "name": "unsloth/Inkling-2-Mini-GGUF",
    "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
@@ -302,23 +312,13 @@
    "m": 5000,
    "at": "2026-11-19T21:01:08.150Z",
    "lead": 45.00004055555556
-  },
-  {
-   "name": "Immortal-Protocols/lastbook",
-   "url": "https://github.com/Immortal-Protocols/lastbook",
-   "kind": "stars",
-   "first": "2026-11-17T14:30:59.643Z",
-   "firstV": 1234,
-   "m": 2500,
-   "at": "2026-11-19T20:30:58.707Z",
-   "lead": 53.99974
   }
  ],
  "github": [
   {
    "repo": "bookwjitchieni1986/blender-ai-mcp-addon",
-   "stars": 2475,
-   "d24": 1137,
+   "stars": 2504,
+   "d24": 1148,
    "est": false,
    "forks": 34,
    "contrib": null,
@@ -326,28 +326,28 @@
   },
   {
    "repo": "erkamyaman/rust-anything",
-   "stars": 7454,
-   "d24": 749,
+   "stars": 7468,
+   "d24": 747,
    "est": false,
-   "forks": 592,
+   "forks": 595,
    "contrib": 22,
    "score": 93
   },
   {
    "repo": "iamajmeena/neonclipping",
-   "stars": 1743,
-   "d24": 654,
+   "stars": 1747,
+   "d24": 650,
    "est": true,
    "forks": 86,
    "contrib": null,
-   "score": 93
+   "score": 92
   },
   {
    "repo": "sybil-solutions/inference-optimisation-skill",
-   "stars": 1689,
-   "d24": 637,
+   "stars": 1694,
+   "d24": 617,
    "est": false,
-   "forks": 151,
+   "forks": 152,
    "contrib": null,
    "score": 84
   }
@@ -362,7 +362,7 @@
    "grow": 0,
    "score": 96,
    "cat": "Infrastructure",
-   "likes": 627
+   "likes": 636
   },
   {
    "name": "Inkling-2-Mini",
@@ -373,7 +373,7 @@
    "grow": 0,
    "score": 94,
    "cat": "Vision",
-   "likes": 3010
+   "likes": 3079
   },
   {
    "name": "Hy4-flash",
@@ -406,7 +406,7 @@
    "grow": null,
    "score": 86,
    "cat": "Tools",
-   "likes": 520
+   "likes": 522
   },
   {
    "name": "Qwen3.8-27B-pi-adapted",
@@ -745,10 +745,31 @@
    "kind": "News"
   },
   {
-   "t": "A 10% Drop for the Stock Market Is Unnerving, but It's Not That Unusual",
-   "url": "https://www.usnews.com/news/business/articles/2026-11-21/a-10-drop-for-the-stock-market-is-unnerving-but-its-not-that-unusual",
-   "at": "2026-11-21T14:01:00Z",
-   "src": "U.S. News & World Report",
+   "t": "AI Claimed the Riemann Hypothesis. A Human Had a Secret Proof.",
+   "url": "https://www.youtube.com/watch?v=vu-HmoV5goo",
+   "at": "2026-11-21T14:30:29Z",
+   "src": "Adem B10",
+   "kind": "Video"
+  },
+  {
+   "t": "Get into AI, it will help you develop future foresight: Raj Shamani's advice to aspiring content creators",
+   "url": "https://www.indiatoday.in/jobs/story/raj-shamani-ai-advice-content-creators-future-foresight-3044082-2026-11-21",
+   "at": "2026-11-21T14:23:46Z",
+   "src": "India Today",
+   "kind": "News"
+  },
+  {
+   "t": "Bedford: FAA Exploring AI for Space Launches, Certification",
+   "url": "https://www.europesays.com/3390830/",
+   "at": "2026-11-21T14:18:08Z",
+   "src": "EUROPE SAYS",
+   "kind": "News"
+  },
+  {
+   "t": "A 10% drop for the stock market is unnerving, but it's not that unusual",
+   "url": "https://www.clickondetroit.com/business/2026/11/21/a-10-drop-for-the-stock-market-is-unnerving-but-its-not-that-unusual/",
+   "at": "2026-11-21T14:01:56Z",
+   "src": "WDIV ClickOnDetroit",
    "kind": "News"
   },
   {
@@ -773,20 +794,6 @@
    "kind": "News"
   },
   {
-   "t": "Wall Street Slides Deeper Into Turmoil As AI Optimism Fades, Inflation Fears Mount",
-   "url": "https://www.europesays.com/3390725/",
-   "at": "2026-11-21T13:11:14Z",
-   "src": "EUROPE SAYS",
-   "kind": "News"
-  },
-  {
-   "t": "Afraid of AI? You’re never too old to learn something new",
-   "url": "https://www.ocregister.com/2026/11/21/afraid-of-ai-youre-never-too-old-to-learn-something-new/",
-   "at": "2026-11-21T13:00:39Z",
-   "src": "Santa Ana Orange County Register",
-   "kind": "News"
-  },
-  {
    "t": "‘Little room for error’: what a debt-laden cloud computing company says about the AI boom",
    "url": "https://www.theguardian.com/business/2026/nov/21/debt-laden-cloud-computing-company-coreweave-ai-boom",
    "at": "2026-11-21T13:00:01Z",
@@ -794,17 +801,10 @@
    "kind": "News"
   },
   {
-   "t": "A psychology PhD taught AI to hear when you're sad, stressed or happy; now Google DeepMind has hired him to bring that empathy to Gemini",
-   "url": "https://economictimes.indiatimes.com/world/business/a-psychology-phd-taught-ai-to-hear-when-youre-sad-stressed-or-happy-now-google-deepmind-has-hired-him-to-bring-that-empathy-to-gemini/articleshow/136054210.cms",
-   "at": "2026-11-21T12:35:00Z",
-   "src": "The Economic Times",
-   "kind": "News"
-  },
-  {
-   "t": "Anthropic worker claims to have solved a Holy Grail of math problems with the help of AI",
-   "url": "https://www.npr.org/2026/11/21/g-s1-154922/anthropic-worker-claims-to-have-solved-a-holy-grail-of-math-problems-with-the-help-of-ai",
-   "at": "2026-11-21T12:30:16Z",
-   "src": "NPR",
+   "t": "An interview with Google DeepMind in-house philosopher Henry Shevlin on being hired to work on machine consciousness, human-AI relationships, and AGI readiness",
+   "url": "https://www.techmeme.com/261121/p6#a261121p6",
+   "at": "2026-11-21T11:30:01.000Z",
+   "src": "Techmeme",
    "kind": "News"
   }
  ],
@@ -814,8 +814,8 @@
    "t": "Lean verification of the Riemann Hypothesis",
    "url": "https://news.ycombinator.com/item?id=50589618",
    "link": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
-   "up": 839,
-   "com": 695,
+   "up": 857,
+   "com": 712,
    "at": "2026-11-21T14:36:45.000Z"
   },
   {
@@ -823,7 +823,7 @@
    "t": "Inkling-2-Mini in 5.4 GB Memory",
    "url": "https://news.ycombinator.com/item?id=50591853",
    "link": "https://github.com/ShinMegamiBoson/lookatmyquant",
-   "up": 363,
+   "up": 367,
    "com": 94,
    "at": "2026-11-21T18:02:19.000Z"
   },
@@ -832,8 +832,8 @@
    "t": "PcapAnalyzer – self-hosted pcap analyzer with 27 problem detectors",
    "url": "https://news.ycombinator.com/item?id=50594132",
    "link": "https://github.com/sebaandrada-cell/PcapAnalyzer",
-   "up": 60,
-   "com": 5,
+   "up": 67,
+   "com": 7,
    "at": "2026-11-21T22:09:58.000Z"
   },
   {
@@ -841,27 +841,27 @@
    "t": "PostgreSQL Extensions in Go",
    "url": "https://news.ycombinator.com/item?id=50591260",
    "link": "https://jespino.github.io/gopgext/",
-   "up": 119,
-   "com": 20,
+   "up": 122,
+   "com": 21,
    "at": "2026-11-21T17:08:04.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "International UN talks on controlling use of autonomous weapons collapse",
-   "url": "https://news.ycombinator.com/item?id=50594564",
-   "link": "https://www.theguardian.com/technology/2026/nov/21/international-talks-control-ai-autonomous-weapons-collapse",
-   "up": 36,
-   "com": 16,
-   "at": "2026-11-21T23:10:21.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Show HN: Zero C# – C# without a runtime or GC",
    "url": "https://news.ycombinator.com/item?id=50590279",
    "link": "https://onurgumus.github.io/zero-csharp/index.html",
-   "up": 130,
-   "com": 98,
+   "up": 131,
+   "com": 99,
    "at": "2026-11-21T15:39:09.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "International UN talks on controlling use of autonomous weapons collapse",
+   "url": "https://news.ycombinator.com/item?id=50594564",
+   "link": "https://www.theguardian.com/technology/2026/nov/21/international-talks-control-ai-autonomous-weapons-collapse",
+   "up": 39,
+   "com": 17,
+   "at": "2026-11-21T23:10:21.000Z"
   }
  ]
 }
