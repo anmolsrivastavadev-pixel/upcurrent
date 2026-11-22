@@ -20,6 +20,7 @@ const safeUrl = u => /^https?:\/\//i.test(String(u || "")) ? u : null;
 const link = (u, text) => safeUrl(u) ? `<a href="${esc(u)}" rel="nofollow noopener">${esc(text)}</a>` : esc(text);
 const fmt = n => Number(n || 0).toLocaleString("en-GB");
 const longDate = day => new Date(day + "T12:00:00Z").toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
+const monthYear = day => new Date(day + "T12:00:00Z").toLocaleDateString("en-GB", { month: "short", year: "numeric", timeZone: "UTC" });
 const shortDate = day => new Date(day + "T12:00:00Z").toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
 const clip = (s, n) => s.length <= n ? s : s.slice(0, n - 1).replace(/\s+\S*$/, "") + "…";
 const ldJson = o => `<script type="application/ld+json">${JSON.stringify(o).replace(/</g, "\\u003c")}</script>`;
@@ -231,7 +232,7 @@ ${faqHtml(qa)}`;
 // (linked on the page); everything else is what Upcurrent recorded.
 const OR_LIMITS = "https://openrouter.ai/docs/api/reference/limits", OC_DOCS = "https://opencode.ai/docs/console/models/";
 const FREE_PAGES = [
-  ["", "All free models"], ["coding/", "For coding"], ["api/", "Free API"], ["openrouter/", "OpenRouter"], ["opencode/", "OpenCode"], ["history/", "Tracker"]
+  ["", "All free models"], ["coding/", "For coding"], ["api/", "Free API"], ["free-llm-api-key/", "Get a key"], ["openrouter/", "OpenRouter"], ["opencode/", "OpenCode"], ["history/", "Tracker"]
 ];
 const freeNav = (cur, up) => `<nav class="guides" aria-label="Free AI models guides">${FREE_PAGES.map(([p, n]) => p === cur ? `<b>${esc(n)}</b>` : `<a href="${up}free-ai-models/${p}">${esc(n)}</a>`).join("")}</nav>`;
 const modelId = f => f.prov === "OpenRouter" ? (String(f.url || "").match(/openrouter\.ai\/([^?#]+)/) || [])[1] || null
@@ -280,6 +281,8 @@ ${faqHtml(qa)}
       ["Which AI models are free to use right now?", `As of ${asOf(updated)}, ${free.length} AI models were free to use: ${free.slice(0, 6).map(f => f.name).join(", ")}${free.length > 6 ? " and more" : ""}. ${or.length} are on OpenRouter and ${oc.length} are free inside OpenCode.`],
       ["Is there a completely free AI model with no limits?", `No. Every free model has limits. On OpenRouter, free models allow 20 requests a minute and 50 a day, or 1,000 a day once you have bought at least 10 credits. OpenCode's free models only work inside the OpenCode app.`],
       ["How long do AI models stay free?", median ? `Not long. Since ${shortDate(firstDay)} Upcurrent has seen ${hist.length} different models offered free. ${gone.length} of them have stopped being free, and half of those lasted ${median} days or less.` : `Free offers change often, so check the date on any list you use.`],
+      ["How can I get an AI model for free?", `Three ways: call a free model by API (OpenRouter has ${or.length} today), use a coding app with free models built in (OpenCode has ${oc.length}), or download an open model from Hugging Face and run it on your own computer with a tool like Ollama or LM Studio.`],
+      ["What are the top 5 free AI models right now?", `Today's free list, in Upcurrent's order, starts with ${free.slice(0, 5).map(f => `${f.name} (${f.prov})`).join(", ")}. Free offers change often, so check the date.`],
       ["Which free AI model is best?", `It depends on the job. For coding agents you need tool calling and a long context window; ${tools} of today's free models have tool calling. ${img} accept images. Use the filter on this page, or see the free models for coding page.`]
     ];
     const body = `<section id="finder"><h2>Find a free model</h2><p>Tick what you need. The list below updates as you go.</p>
@@ -291,6 +294,7 @@ ${faqHtml(qa)}
 <section><h2>Free models by what you want to do</h2><ul class="rows">
 <li><span class="t"><a href="coding/">Free AI models for coding</a></span><span class="m">${free.filter(hasTools).length} free models with tool calling, for coding agents like OpenCode, Cline and Aider</span></li>
 <li><span class="t"><a href="api/">Free AI model API</a></span><span class="m">How to call a free LLM from your own code, with rate limits and an example request</span></li>
+<li><span class="t"><a href="free-llm-api-key/">How to get a free LLM API key</a></span><span class="m">Step by step, from sign-up to your first reply, no card needed</span></li>
 <li><span class="t"><a href="openrouter/">OpenRouter free models list</a></span><span class="m">${or.length} models with their <code>:free</code> IDs</span></li>
 <li><span class="t"><a href="opencode/">OpenCode free models</a></span><span class="m">${oc.length} models that are free inside the OpenCode coding agent</span></li>
 <li><span class="t"><a href="history/">Free AI model tracker</a></span><span class="m">All ${hist.length} models seen free since ${shortDate(firstDay)}, and how long each lasted</span></li>
@@ -332,7 +336,9 @@ bs.forEach(function(b){b.addEventListener("change",run)})})();</script>`;
       ["Is there a free AI model API?", `Yes. OpenRouter offers ${or.length} models free through its API today, with IDs ending in :free. Google Gemini, Groq, Cloudflare Workers AI and NVIDIA also have free tiers with their own limits.`],
       ["What are the free API rate limits?", "On OpenRouter, free models allow 20 requests per minute. You get 50 free requests a day, or 1,000 a day once you have bought at least 10 credits in total."],
       ["Do I need a credit card for a free LLM API key?", "No. You can create an OpenRouter account and API key without paying and use the :free models within the limits above."],
-      ["Can I use OpenCode's free models through the API?", "No. OpenCode says its free chat models only work inside OpenCode. From other apps you need its paid models."]
+      ["Can I use OpenCode's free models through the API?", "No. OpenCode says its free chat models only work inside OpenCode. From other apps you need its paid models."],
+      ["Which LLM API is totally free?", `None is free without limits. OpenRouter's :free models (${or.length} today) cost nothing to call, and Google Gemini, Groq, Cloudflare and NVIDIA have free tiers. Each caps how many requests you can make.`],
+      ["What is the cheapest LLM API to use?", "A free model is the cheapest: $0 per token within its limits. When you outgrow the free limits, the same OpenRouter key works with paid models, so you can compare their live prices on OpenRouter's models page and switch by changing one line."]
     ];
     const body = `<section><h2>The short version</h2><ol class="rows">
 <li><span class="t">1. Make a free account at <a href="https://openrouter.ai" rel="nofollow noopener">OpenRouter</a> and create an API key.</span></li>
@@ -342,7 +348,12 @@ bs.forEach(function(b){b.addEventListener("change",run)})})();</script>`;
   -H "Authorization: Bearer $OPENROUTER_API_KEY" \\
   -H "Content-Type: application/json" \\
   -d '{"model": "${esc(id)}", "messages": [{"role": "user", "content": "Hello"}]}'</code></pre>
-<p>Swap in any ID from the list. <code>openrouter/free</code> picks an available free model for you.</p></section>
+<p>Swap in any ID from the list. <code>openrouter/free</code> picks an available free model for you.</p>
+<p>The same call in Python, with the OpenAI library:</p><pre><code>from openai import OpenAI
+client = OpenAI(base_url="https://openrouter.ai/api/v1", api_key="YOUR_OPENROUTER_KEY")
+reply = client.chat.completions.create(model="${esc(id)}", messages=[{"role": "user", "content": "Hello"}])
+print(reply.choices[0].message.content)</code></pre>
+<p>New to this? <a href="../free-llm-api-key/">How to get a free LLM API key, step by step</a>.</p></section>
 <section><h2>Free API limits</h2><ul class="rows"><li><span class="t">20 requests per minute</span><span class="m">on any :free model</span></li><li><span class="t">50 requests per day</span><span class="m">if you have bought less than 10 credits</span></li><li><span class="t">1,000 requests per day</span><span class="m">once you have bought 10 credits or more</span></li></ul>
 <p>Source: <a href="${OR_LIMITS}" rel="nofollow noopener">OpenRouter's rate limit docs</a>, checked ${esc(shortDate(lastDay))}.</p></section>
 <section id="other"><h2>Other free LLM APIs</h2><p>Upcurrent tracks OpenRouter live. These providers also have free tiers; facts below were checked on 22 November 2026 from each provider's own page.</p><ul class="rows">
@@ -357,6 +368,32 @@ bs.forEach(function(b){b.addEventListener("change",run)})})();</script>`;
       body, qa, list: or, crumb: "Free API" });
   }
 
+  // Tutorial (top of funnel): get a free key and make a first request.
+  {
+    const ex = or.find(f => /nemotron-3-ultra/.test(modelId(f) || "")) || or.find(hasTools) || or[0];
+    const id = ex ? modelId(ex) : "openrouter/free";
+    const qa = [
+      ["How do I get a free LLM API key?", "Sign up at OpenRouter, open the Keys page in your dashboard and create a key. It is free and needs no card. Use it with any model ID ending in :free, or with openrouter/free."],
+      ["Can I use an LLM for free?", `Yes. With a free OpenRouter key you can call ${or.length} models today at no cost, up to 50 requests a day (1,000 a day once you have bought at least 10 credits).`],
+      ["Is a free LLM API key safe to use?", "Treat it like a password: keep it in an environment variable, never in code you share. On many free models the provider may log prompts to improve its model, so do not send private or sensitive data."],
+      ["What happens when I hit the free limit?", "Requests fail with error 429 until the limit resets. Wait and retry, switch to another free model, or buy 10 credits to raise the daily limit to 1,000."]
+    ];
+    const body = `<section><h2>Step 1: create a free account</h2><p>Go to <a href="https://openrouter.ai" rel="nofollow noopener">openrouter.ai</a> and sign up. No card is needed for free models.</p></section>
+<section><h2>Step 2: create an API key</h2><p>In your OpenRouter dashboard, open <b>Keys</b> and create a new key. Copy it straight away and keep it somewhere private. Then save it as an environment variable:</p><pre><code>export OPENROUTER_API_KEY=sk-or-v1-...</code></pre></section>
+<section><h2>Step 3: pick a free model</h2><p>Any model whose ID ends in <code>:free</code> costs nothing. ${or.length} are free today; a few with tool calling:</p><ol class="rows">${or.filter(hasTools).slice(0, 5).map(f => freeRow(f)).join("")}</ol><p>Or use <code>openrouter/free</code>, which picks an available free model for each request. <a href="../openrouter/">See all ${or.length} free OpenRouter models</a>.</p></section>
+<section><h2>Step 4: make your first request</h2><pre><code>curl https://openrouter.ai/api/v1/chat/completions \\
+  -H "Authorization: Bearer $OPENROUTER_API_KEY" \\
+  -H "Content-Type: application/json" \\
+  -d '{"model": "${esc(id)}", "messages": [{"role": "user", "content": "Hello"}]}'</code></pre>
+<p>OpenRouter works like the OpenAI API, so most tools only need the base URL <code>https://openrouter.ai/api/v1</code> and your key.</p></section>
+<section><h2>Step 5: know the limits</h2><ul class="rows"><li><span class="t">20 requests per minute</span><span class="m">on any :free model</span></li><li><span class="t">50 requests per day</span><span class="m">if you have bought less than 10 credits</span></li><li><span class="t">1,000 requests per day</span><span class="m">once you have bought 10 credits or more</span></li></ul>
+<p>Free models come and go: half of those that stopped being free lasted ${median ?? "a few"} days or less (<a href="../history/">tracker</a>). Have a second model ready. Source: <a href="${OR_LIMITS}" rel="nofollow noopener">OpenRouter's limits docs</a>, checked ${esc(shortDate(lastDay))}.</p></section>`;
+    mk("free-llm-api-key/", { title: "How to get a free LLM API key (step by step) | Upcurrent", h1: "How to get a free LLM API key", eyebrow: "Free AI models · guide",
+      lede: `Five steps from sign-up to your first AI reply, at no cost and with no card. Works with the ${or.length} models that are free on OpenRouter today.`,
+      desc: `Get a free LLM API key in five steps: sign up, create a key, pick one of ${or.length} free models, send your first request, and know the limits. No card needed.`,
+      body, qa, crumb: "Free LLM API key" });
+  }
+
   // OpenRouter list with IDs.
   {
     const qa = [
@@ -365,8 +402,9 @@ bs.forEach(function(b){b.addEventListener("change",run)})})();</script>`;
       ["How do I use free models on OpenRouter?", "Use a model ID ending in :free, or openrouter/free to let OpenRouter pick one. Free models can be removed without notice, so have a fallback."]
     ];
     const body = `<section id="list"><h2>${or.length} free OpenRouter models</h2><ol class="rows">${or.map(f => freeRow(f)).join("")}</ol></section>
-<section><h2>Limits</h2><p>20 requests per minute on free models. 50 requests per day, or 1,000 per day after buying 10 credits. <a href="${OR_LIMITS}" rel="nofollow noopener">OpenRouter's docs</a>.</p></section>`;
-    mk("openrouter/", { title: `OpenRouter free models list (${or.length} today) | Upcurrent`, h1: "OpenRouter free models list", eyebrow: "Free AI models · OpenRouter",
+<section><h2>OpenRouter free models limit</h2><p>20 requests per minute on free models. 50 requests per day, or 1,000 per day after buying 10 credits. <a href="${OR_LIMITS}" rel="nofollow noopener">OpenRouter's docs</a>.</p></section>
+<section><h2>Next steps</h2><ul class="rows"><li><span class="t"><a href="../free-llm-api-key/">How to use OpenRouter free models</a></span><span class="m">Get a key and make your first request, step by step</span></li><li><span class="t"><a href="../coding/">OpenRouter free models for coding</a></span><span class="m">The free models with tool calling, for coding agents</span></li></ul></section>`;
+    mk("openrouter/", { title: `OpenRouter free models: all ${or.length} listed (${monthYear(lastDay)}) | Upcurrent`, h1: "OpenRouter free models list", eyebrow: "Free AI models · OpenRouter",
       lede: `${or.length} models are free on OpenRouter right now. Here are their exact :free IDs, context windows and features, checked every 30 minutes.`,
       desc: `Every free model on OpenRouter today (${or.length}), with exact :free model IDs, context size, tool calling and rate limits. Checked every 30 minutes.`,
       body, qa, list: or, crumb: "OpenRouter" });
@@ -550,6 +588,7 @@ ${items.join("\n")}
 ${GUIDES.filter(g => guides[g.slug]).map(g => `- [${g.title}](${SITE}${g.slug}/)`).join("\n")}
 - [Free AI models for coding](${SITE}free-ai-models/coding/)
 - [Free AI model API: rate limits and model IDs](${SITE}free-ai-models/api/)
+- [How to get a free LLM API key, step by step](${SITE}free-ai-models/free-llm-api-key/)
 - [OpenRouter free models list](${SITE}free-ai-models/openrouter/)
 - [OpenCode free models](${SITE}free-ai-models/opencode/)
 - [New open source AI models](${SITE}new-ai-models/open-source/)
