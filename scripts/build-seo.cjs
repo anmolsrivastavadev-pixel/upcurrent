@@ -122,7 +122,7 @@ ${body}
 <form class="nl" action="https://buttondown.com/api/emails/embed-subscribe/anmolsrivastavadev" method="post" target="_blank"><input type="email" name="email" required placeholder="you@example.com" aria-label="Email address" autocomplete="email"><input type="hidden" name="metadata__timezone" value="Europe/London"><button type="submit">Subscribe free</button></form>
 <p><a href="${up}email.html">See today's email</a></p></section>
 </main>
-<footer><div class="wrap">Upcurrent tracks what is rising in AI every 30 minutes, from GitHub, Hugging Face, arXiv, Hacker News, AI lab blogs, news sites and model providers. Numbers are as recorded at the time. <a href="${up}data.html">Open data (CC BY 4.0)</a> · ${GUIDES.map(g => `<a href="${up}${g.slug}/">${esc(g.short)}</a>`).join(" · ")} · <a href="${up}what-is/">New AI projects explained</a> · <a href="${up}reports/">Weekly reports</a> · <a href="${up}about/">About</a> · <a href="${up}faq/">FAQ</a></div></footer>
+<footer><div class="wrap">Upcurrent tracks what is rising in AI every 30 minutes, from GitHub, Hugging Face, arXiv, Hacker News, AI lab blogs, news sites and model providers. Numbers are as recorded at the time. <a href="${up}data.html">Open data (CC BY 4.0)</a> · ${GUIDES.map(g => `<a href="${up}${g.slug}/">${esc(g.short)}</a>`).join(" · ")} · <a href="${up}what-is/">New AI projects explained</a> · <a href="${up}reports/">Weekly reports</a> · <a href="${up}about/">About</a> · <a href="${up}faq/">FAQ</a> · <a href="${up}llm-api-pricing/">LLM API pricing</a> · <a href="${up}advertise/">Advertise</a></div></footer>
 <script>try{var z=Intl.DateTimeFormat().resolvedOptions().timeZone;if(z)document.querySelectorAll('input[name="metadata__timezone"]').forEach(function(i){i.value=z})}catch(e){}document.querySelectorAll("form.nl").forEach(function(f){f.addEventListener("submit",function(){try{window.goatcounter&&window.goatcounter.count&&window.goatcounter.count({path:"subscribe",title:"Subscribed (guide page)",event:true})}catch(e){}})})</script>
 <script src="${up}translate.js"></script>
 <script data-goatcounter="https://upcurrent.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
@@ -417,6 +417,79 @@ ${faqHtml(qa)}`;
         ld: [faq(qa), breadcrumb([["Upcurrent", SITE], ["GitHub trending (AI)", SITE + "trending-ai-github-repos/"], ["AI agents", url]])] });
     }
   }
+  // LLM API pricing, from OpenRouter's public models list (saved by update-data.cjs every 30 minutes).
+  {
+    let P = null; try { P = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "api", "llm-pricing.json"), "utf8")); } catch {}
+    if (P && P.models?.length > 50) {
+      const url = `${SITE}llm-api-pricing/`, all = P.models.filter(m => !/guard/i.test(m.name));
+      const main = all.filter(m => !/\(batch\)/i.test(m.name));
+      const labOf = m => m.name.includes(":") ? m.name.split(":")[0] : m.lab;
+      const short = m => m.name.replace(/^[^:]+:\s*/, "");
+      const usd = n => n == null ? "—" : "$" + (n >= 1 ? (+n.toFixed(2)).toString() : (+n.toFixed(3)).toString());
+      const ctxS = n => !n ? "—" : n >= 1e6 ? `${+(n / 1e6).toFixed(1)}M` : `${Math.round(n / 1000)}K`;
+      const LABS = ["openai", "anthropic", "google", "x-ai", "deepseek", "mistralai", "qwen", "moonshotai", "z-ai", "meta-llama"];
+      const newest = lab => main.filter(m => m.lab === lab).sort((a, b) => b.created.localeCompare(a.created)).slice(0, 3);
+      const flag = LABS.map(newest).filter(x => x.length);
+      const row = (m, sh) => `<tr><th scope="row">${link("https://openrouter.ai/" + m.id, sh ? short(m) : m.name)}</th><td class="num">${usd(m.in)}</td><td class="num">${usd(m.out)}</td><td class="num">${ctxS(m.ctx)}</td></tr>`;
+      const thead = `<thead><tr><th>Model</th><th>Input / 1M</th><th>Output / 1M</th><th>Context</th></tr></thead>`;
+      const cheap = main.filter(m => (m.ctx || 0) >= 32000 && m.out > 0).sort((a, b) => (a.in * 3 + a.out) - (b.in * 3 + b.out)).slice(0, 10);
+      const pick = lab => newest(lab)[0];
+      const oa = pick("openai"), an = pick("anthropic"), go = pick("google"), ds = pick("deepseek");
+      const batch = all.filter(m => /\(batch\)/i.test(m.name)).length;
+      const lede = `LLM API pricing compared: input and output prices per million tokens for ${main.length} models from OpenAI, Anthropic, Google, DeepSeek, Mistral and more, refreshed every 30 minutes from OpenRouter's live price list.`;
+      const qa = [
+        ["What is the cheapest LLM API?", `Among models with at least a 32K context window, the cheapest right now are ${cheap.slice(0, 3).map(m => `${m.name} (${usd(m.in)} in, ${usd(m.out)} out per million tokens)`).join(", ")}. Several models are also completely free: see the free LLM API guide.`],
+        ...(oa ? [[`How much does the OpenAI API cost?`, `OpenAI's newest model here, ${short(oa)}, costs ${usd(oa.in)} per million input tokens and ${usd(oa.out)} per million output tokens. Smaller OpenAI models cost much less; see the table.`]] : []),
+        ...(an ? [[`How much does the Claude API cost?`, `${short(an)} costs ${usd(an.in)} per million input tokens and ${usd(an.out)} per million output tokens. The full Anthropic line-up is in the table.`]] : []),
+        ...(go ? [[`How much does the Gemini API cost?`, `${short(go)} costs ${usd(go.in)} per million input tokens and ${usd(go.out)} per million output tokens. Some Gemini models also have a free tier through Google AI Studio.`]] : []),
+        ["What does price per million tokens mean?", "A token is roughly three quarters of an English word, so a million tokens is about 750,000 words. Input tokens are what you send (your prompt and any documents); output tokens are what the model writes back, and usually cost more."],
+        ["Is OpenRouter's price the same as buying from the provider?", "OpenRouter says it passes through the underlying providers' prices with no markup on inference. It charges a 5.5% fee (minimum $0.80) when you buy credits, so the total is slightly higher than going direct."],
+        ["What are batch prices?", `${batch} models also have a batch version, usually around half price, for requests that don't need an instant answer. They're listed in the full table.`]
+      ];
+      const body = `<section><div class="eyebrow">LLM API pricing · updated every 30 minutes</div><h1>LLM API pricing compared</h1><p class="lede">${esc(lede)}</p><p class="asof">Prices in US dollars per 1 million tokens. Last checked ${esc(asOf(P.updated))}.</p></section>
+<section id="labs"><h2>Newest models from the big AI labs</h2>${flag.map(ms => `<h3>${esc(labOf(ms[0]))}</h3><div class="tablewrap"><table>${thead}<tbody>${ms.map(m => row(m, true)).join("")}</tbody></table></div>`).join("")}</section>
+<section id="cheapest"><h2>Cheapest LLM APIs right now</h2><p>The 10 lowest-priced models with at least a 32K-token context window, weighted towards input price, since most requests send more than they get back. Need it free? See the <a href="../free-ai-models/api/">free LLM API guide</a> and the <a href="../free-ai-models/calculator/">free LLM API calculator</a>.</p><div class="tablewrap"><table>${thead}<tbody>${cheap.map(m => row(m)).join("")}</tbody></table></div></section>
+<section id="all"><h2>Every model's price</h2><p><label for="pq">Filter by name: </label><input id="pq" type="search" placeholder="e.g. claude, gpt, llama" style="max-width:260px"></p><div class="tablewrap"><table id="pt">${thead}<tbody>${[...all].sort((a, b) => a.name.localeCompare(b.name)).map(m => row(m)).join("")}</tbody></table></div>
+<script>(()=>{const q=document.getElementById("pq"),rows=[...document.querySelectorAll("#pt tbody tr")];q.addEventListener("input",()=>{const v=q.value.toLowerCase();rows.forEach(r=>{r.hidden=v&&!r.textContent.toLowerCase().includes(v)})})})();</script></section>
+<section id="source"><h2>Where these prices come from</h2><p>Every price is read from <a href="https://openrouter.ai/docs/api/reference/models" rel="noopener">OpenRouter's public models API</a>, which <a href="https://openrouter.ai/docs/faq" rel="noopener">passes through each provider's own price</a> with no markup on inference. Always check the provider's pricing page before a big job. The raw prices are free JSON: <a href="../data/api/llm-pricing.json">llm-pricing.json</a> (CC BY 4.0).</p></section>
+${faqHtml(qa)}`;
+      out["llm-api-pricing"] = page({ title: `LLM API Pricing Compared: ${main.length} Models, Live Prices`, description: clip(lede, 160), canonical: url, body, up: "../",
+        ld: [faq(qa), breadcrumb([["Upcurrent", SITE], ["LLM API pricing", url]])] });
+    }
+  }
+
+  // Money pages: ways to work with Upcurrent. All enquiries go to one forwarding address; prices are by quote.
+  {
+    const MAIL = "hello@upcurrent.dev";
+    const mailto = subj => `<a class="btn" href="mailto:${MAIL}?subject=${encodeURIComponent(subj)}"><b>Email ${MAIL}</b></a>`;
+    const mkp = (slug, { title, h1, eyebrow, lede, body, qa, subj }) => {
+      const url = `${SITE}${slug}/`;
+      out[slug] = page({ title, description: clip(lede, 160), canonical: url, up: "../",
+        body: `<section><div class="eyebrow">${esc(eyebrow)}</div><h1>${esc(h1)}</h1><p class="lede">${esc(lede)}</p><p>${mailto(subj)}</p></section>
+${body}
+<section><h2>Get in touch</h2><p>Prices are by quote while Upcurrent is growing. Email <a href="mailto:${MAIL}?subject=${encodeURIComponent(subj)}">${MAIL}</a> with what you have in mind and you'll get a reply with current audience numbers and a price.</p><p>See also: ${[["advertise", "Advertise"], ["promote", "Promote your project"], ["for-teams", "Upcurrent for teams"]].filter(([s]) => s !== slug).map(([s, n]) => `<a href="../${s}/">${n}</a>`).join(" · ")}</p></section>
+${faqHtml(qa)}`,
+        ld: [faq(qa), breadcrumb([["Upcurrent", SITE], [h1, url]])] });
+    };
+    mkp("advertise", { title: "Advertise on Upcurrent: Reach AI Developers", h1: "Advertise on Upcurrent", eyebrow: "Sponsorship", subj: "Sponsoring Upcurrent",
+      lede: "Put your product in front of developers and builders who check what's rising in AI every day: one sponsor slot in the morning email, and a sponsor line on the site.",
+      body: `<section><h2>What you get</h2><ul class="rows"><li><span class="t">Email sponsor slot</span><span class="m">One short, clearly labelled sponsor message at the top of the 7am email, with your link. One sponsor per email.</span></li><li><span class="t">Site sponsor line</span><span class="m">A labelled sponsor line on the live dashboard for a week.</span></li></ul></section>
+<section><h2>Who reads Upcurrent</h2><p>Developers building with AI, people looking for free AI models and APIs, and founders keeping an eye on new tools. The audience is small and growing, and you'll get the real current numbers (email subscribers, opens and site visitors) before you pay anything. Nothing is rounded up.</p></section>
+<section><h2>The rules</h2><p>Sponsors are always labelled as sponsors. A sponsor never changes the rankings, the numbers or what gets written about, and subscriber emails are never shared.</p></section>`,
+      qa: [["How much does it cost to sponsor Upcurrent?", "Prices are by quote, based on the current audience. Email to ask."], ["Do sponsors affect the rankings?", "No. Rankings come only from public numbers like GitHub stars and downloads. Sponsor messages are separate and labelled."], ["Can I see audience numbers first?", "Yes. You'll get real subscriber, open and visitor numbers before you decide."]] });
+    mkp("promote", { title: "Promote Your AI Project on Upcurrent", h1: "Promote your AI project", eyebrow: "For makers", subj: "Featured spot on Upcurrent",
+      lede: "Launched an AI repo, model or tool? Get a clearly labelled Featured spot on Upcurrent, seen by developers looking for what's new in AI.",
+      body: `<section><h2>What a Featured spot is</h2><p>A labelled "Featured" box with your project's name, one line about it and a link, on the live dashboard and the GitHub trending page, for a set number of days.</p></section>
+<section><h2>What it's not</h2><ul class="rows"><li><span class="t">It doesn't buy a ranking</span><span class="m">The trending lists come only from real stars, downloads and upvotes. Paying never moves you up them.</span></li><li><span class="t">It doesn't buy stars</span><span class="m">Upcurrent never sells stars, upvotes or reviews.</span></li><li><span class="t">It's never hidden</span><span class="m">Featured projects are always marked "Featured".</span></li></ul></section>
+<section><h2>The free way in</h2><p>Every AI repo on GitHub created in the last 30 days with more than 100 stars is tracked automatically. If yours takes off, it shows up in the <a href="../trending-ai-github-repos/">trending list</a> for free.</p></section>`,
+      qa: [["How much is a Featured spot?", "By quote, depending on how many days you want. Email to ask."], ["Will paying get my repo into the trending list?", "No. The trending list is based only on real stars gained. A Featured spot is separate and labelled."], ["How do I get listed for free?", "Make an AI repo people star: anything created in the last 30 days with 100+ stars is tracked automatically."]] });
+    mkp("for-teams", { title: "Upcurrent for Teams: Custom AI Trend Reports", h1: "Upcurrent for teams", eyebrow: "For teams", subj: "Upcurrent for my team",
+      lede: "A weekly AI trends report made for your team: the repos, models and free APIs that matter for what you build, from the same live data that runs Upcurrent.",
+      body: `<section><h2>What you can ask for</h2><ul class="rows"><li><span class="t">A weekly report on your topics</span><span class="m">For example AI coding tools, agents, open models or a list of competitors, with real star and download numbers</span></li><li><span class="t">Alerts</span><span class="m">An email when a model your team uses goes free or stops being free, or when a project in your area takes off</span></li><li><span class="t">Data exports</span><span class="m">The daily history in a spreadsheet-friendly file, for your own analysis</span></li></ul></section>
+<section><h2>See a sample first</h2><p>The public <a href="../reports/">weekly reports</a> show the kind of numbers you'd get. A team report focuses only on what you care about.</p></section>`,
+      qa: [["How much is a team report?", "By quote, depending on the topics and how often. Email to ask."], ["Where does the data come from?", "The same sources as the site: GitHub, Hugging Face, arXiv, OpenRouter and more, through their official APIs, updated every 30 minutes."]] });
+  }
+
   // FAQ: the questions people ask before signing up. Every answer describes what the site does today.
   {
     const url = `${SITE}faq/`, free = (last.free || []).filter(isChat).length;
@@ -1394,6 +1467,7 @@ ${GUIDES.filter(g => guides[g.slug]).map(g => `- [${g.title}](${SITE}${g.slug}/)
 - [Trending AI research papers today (Hugging Face, arXiv)](${SITE}trending-ai-papers/)
 - [Trending AI agent repos on GitHub](${SITE}trending-ai-github-repos/agents/)
 - [Upcurrent FAQ: is it free, where the data comes from, what the email is](${SITE}faq/)
+- [LLM API pricing compared: live prices for every model](${SITE}llm-api-pricing/)
 - [Best new MCP servers and Claude Code skills on GitHub](${SITE}mcp-servers-claude-code-skills/)
 - [Free AI models for coding](${SITE}free-ai-models/coding/)
 - [Free AI model API: rate limits and model IDs](${SITE}free-ai-models/api/)
