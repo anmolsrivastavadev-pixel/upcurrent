@@ -335,11 +335,70 @@ ${faqHtml(qa)}`;
       ["Can I download the archive?", `Yes. Each day is a free JSON file at ${SITE}data/api/daily/YYYY-MM-DD.json (CC BY 4.0). See the free GitHub trending API page.`]
     ];
     const body = `<section><div class="eyebrow">Archive · ${n} days</div><h1>GitHub trending archive</h1><p class="lede">${esc(lede)}</p></section>
-${months.map(m => `<section id="m-${m}"><h2>GitHub trending monthly: ${esc(monthName(m))}</h2><p>${fmt(mb[m].length)} AI repositories trended on GitHub in ${esc(monthName(m))}. The 10 with the biggest one-day star gains:</p><ol class="rows">${mb[m].slice(0, 10).map(r => `<li><span class="t">${link("https://github.com/" + r.repo, r.repo)}</span><span class="m"><span class="num">${r.est ? "~" : "+"}${fmt(r.d24)}</span> stars on <a href="../daily/${r.day}.html">${esc(shortDate(r.day))}</a> · <span class="num">${fmt(r.stars)}</span> stars then</span></li>`).join("")}</ol></section>`).join("\n")}
+${months.map(m => `<section id="m-${m}"><h2>GitHub trending monthly: ${esc(monthName(m))}</h2><p><a href="../github-trending/${m}/">See every trending AI repo of ${esc(monthName(m))}</a></p><p>${fmt(mb[m].length)} AI repositories trended on GitHub in ${esc(monthName(m))}. The 10 with the biggest one-day star gains:</p><ol class="rows">${mb[m].slice(0, 10).map(r => `<li><span class="t">${link("https://github.com/" + r.repo, r.repo)}</span><span class="m"><span class="num">${r.est ? "~" : "+"}${fmt(r.d24)}</span> stars on <a href="../daily/${r.day}.html">${esc(shortDate(r.day))}</a> · <span class="num">${fmt(r.stars)}</span> stars then</span></li>`).join("")}</ol></section>`).join("\n")}
 <section id="days"><h2>Every day's top trending AI repo</h2><div class="tablewrap"><table><thead><tr><th>Day</th><th>Top repo</th><th>Stars that day</th></tr></thead><tbody>${[...rows].reverse().map(x => `<tr><th scope="row"><a href="../daily/${x.d}.html">${esc(shortDate(x.d))}</a></th><td>${link("https://github.com/" + x.top[0].repo, x.top[0].repo)}</td><td class="num">${x.top[0].est ? "~" : "+"}${fmt(x.top[0].d24)}</td></tr>`).join("")}</tbody></table></div><p>A <b>~</b> means the day's number was estimated from the repo's average, because Upcurrent hadn't seen it for 6 hours yet. For what's trending right now, see <a href="../trending-ai-github-repos/">GitHub trending repositories today</a>. To use this data in your own app, see the <a href="../github-trending-api/">free GitHub trending API</a>.</p></section>
 ${faqHtml(qa)}`;
     out["github-trending-archive"] = page({ title: "GitHub Trending Archive: Every Day's Top AI Repo", description: clip(lede, 160), canonical: url, body, up: "../",
       ld: [faq(qa), breadcrumb([["Upcurrent", SITE], ["GitHub trending archive", url]])] });
+  }
+  // One page per month of trending AI repos, and a topic page for AI agents (the only topic with enough saved history).
+  {
+    const lastDay = days[days.length - 1];
+    const info = new Map(); // repo -> description and topic, from the daily "rising" lists
+    for (const d of days) for (const r of data[d].rising || []) if (r.src === "gh") info.set(`${r.owner}/${r.name}`, { desc: r.desc, cat: r.cat });
+    const monthName = m => new Date(m + "-15T12:00:00Z").toLocaleDateString("en-GB", { month: "long", year: "numeric", timeZone: "UTC" });
+    const months = [...new Set(days.map(d => d.slice(0, 7)))];
+    const collect = ds => { const m = new Map(); for (const d of ds) for (const r of data[d].github || []) { const c = m.get(r.repo) || { repo: r.repo, best: 0, bestDay: d, est: false, days: 0, stars: 0 }; c.days++; if (r.d24 > c.best) { c.best = r.d24; c.bestDay = d; c.est = !!r.est; } c.stars = Math.max(c.stars, r.stars || 0); m.set(r.repo, c); } return [...m.values()].sort((a, b) => b.best - a.best); };
+    const rowHtml = (r, up) => `<li><span class="t">${link("https://github.com/" + r.repo, r.repo)}</span><span class="m"><span class="num">${r.est ? "~" : "+"}${fmt(r.best)}</span> stars on <a href="${up}daily/${r.bestDay}.html">${esc(shortDate(r.bestDay))}</a> · <span class="num">${fmt(r.stars)}</span> stars · on the list ${r.days} ${r.days === 1 ? "day" : "days"}${info.get(r.repo)?.desc ? " · " + esc(clip(info.get(r.repo).desc, 140)) : ""}</span></li>`;
+    months.forEach((m, i) => {
+      const ds = days.filter(d => d.startsWith(m)), repos = collect(ds);
+      if (ds.length < 7 || repos.length < 10) return;
+      const name = monthName(m), url = `${SITE}github-trending/${m}/`, sofar = m === lastDay.slice(0, 7);
+      const cats = Object.entries(repos.reduce((a, r) => { const c = info.get(r.repo)?.cat; if (c) a[c] = (a[c] || 0) + 1; return a; }, {})).sort((a, b) => b[1] - a[1]);
+      const most = [...repos].sort((a, b) => b.days - a.days)[0];
+      const top10 = repos.slice(0, 10);
+      const ch = chart(`github-trending/${m}/top-trending-ai-repos-${m}.svg`, `top-trending-ai-repos-${m}.svg`,
+        { title: `Top trending AI repos on GitHub, ${name}`, sub: "Biggest single-day star gain", rows: top10.map(r => [r.repo, r.best]), horizontal: true, w: 600 },
+        `Bar chart of the top trending AI GitHub repos in ${name} by biggest single-day star gain: ${top10.map(r => `${r.repo} ${fmt(r.best)}`).join(", ")}.`, `From Upcurrent's daily snapshots of GitHub's official API.`);
+      const lede = `GitHub trending ${name}: the ${repos.length} AI repositories that trended on GitHub ${sofar ? "so far this month" : "that month"}, across ${ds.length} days of daily snapshots. Top of the month: ${repos[0].repo}, with ${repos[0].est ? "about " : ""}${fmt(repos[0].best)} stars in one day.`;
+      const qa = [
+        [`What were the top trending GitHub repos in ${name}?`, `For AI projects: ${repos.slice(0, 3).map(r => `${r.repo} (${r.est ? "~" : "+"}${fmt(r.best)} stars on ${shortDate(r.bestDay)})`).join(", ")}.`],
+        [`Which repo stayed trending longest in ${name}?`, `${most.repo}, on Upcurrent's daily top list for ${most.days} ${most.days === 1 ? "day" : "days"}.`],
+        ...(cats.length ? [[`What kind of AI projects trended in ${name}?`, cats.map(([c, n]) => `${c}: ${n}`).join(", ") + " (for repos Upcurrent described that month)."]] : []),
+        ["How is this measured?", "Every 30 minutes Upcurrent asks GitHub's official API for AI repositories created in the last 30 days with 100+ stars, and records how many stars each gains per day. Each day's top 8 are saved; this page ranks every repo by its best single day."]
+      ];
+      const prev = months[i - 1], next = months[i + 1];
+      const body = `<section><div class="eyebrow">GitHub trending · ${esc(name)}${sofar ? " · so far" : ""}</div><h1>GitHub trending ${esc(name)}</h1><p class="lede">${esc(lede)}</p></section>
+<section id="top"><h2>Top 10 trending AI repos of ${esc(name)}</h2>${ch}</section>
+<section id="list"><h2>Every trending AI repo in ${esc(name)}</h2><ol class="rows">${repos.map(r => rowHtml(r, "../../")).join("")}</ol></section>
+<section><h2>More months</h2><p>${prev && collect(days.filter(d => d.startsWith(prev))).length >= 10 ? `<a href="../${prev}/">GitHub trending ${esc(monthName(prev))}</a> · ` : ""}${next ? `<a href="../${next}/">GitHub trending ${esc(monthName(next))}</a> · ` : ""}<a href="../../github-trending-archive/">Every day in the GitHub trending archive</a> · <a href="../../trending-ai-github-repos/">GitHub trending repositories today</a></p></section>
+${faqHtml(qa)}`;
+      out[`github-trending/${m}`] = page({ title: `GitHub Trending ${name}: Top ${repos.length} AI Repos`, description: clip(lede, 160), canonical: url, body, up: "../../",
+        ld: [{ "@context": "https://schema.org", "@type": "ItemList", name: `GitHub trending ${name}`, url, numberOfItems: repos.length, itemListElement: repos.map((r, k) => ({ "@type": "ListItem", position: k + 1, name: r.repo, url: "https://github.com/" + r.repo })) }, faq(qa), breadcrumb([["Upcurrent", SITE], ["GitHub trending archive", SITE + "github-trending-archive/"], [name, url]])] });
+    });
+
+    // AI agents: history (repos tagged Agents) plus the agent repos in today's raw GitHub fetch.
+    const agentRe = /\bagents?\b|\bagentic\b|autonomous|multi-agent/;
+    const hist = collect(days).filter(r => info.get(r.repo)?.cat === "Agents");
+    const now = (RAW.github || []).filter(g => g.repo && !/nsfw/i.test(g.name + g.desc) && agentRe.test(`${g.name} ${g.desc} ${(g.topics || []).join(" ")}`.toLowerCase())).sort((a, b) => b.stars - a.stars);
+    if (hist.length >= 10) {
+      const url = `${SITE}trending-ai-github-repos/agents/`;
+      const ageD = g => Math.max(1, Math.round((Date.now() - Date.parse(g.created)) / 864e5));
+      const lede = `Trending AI agent repos on GitHub: ${now.length} new agent projects gaining stars right now, and the ${hist.length} agent repos that have trended since ${shortDate(days[0])}. Updated every 30 minutes, from GitHub's official API.`;
+      const qa = [
+        ["What are the trending AI agent repos on GitHub right now?", now.length ? `By stars, among agent repos created in the last 30 days: ${now.slice(0, 3).map(g => `${g.repo} (${fmt(g.stars)} stars)`).join(", ")}.` : "See the list on this page."],
+        ["Which AI agent repo trended hardest since October?", `${hist[0].repo}, with ${hist[0].est ? "about " : ""}${fmt(hist[0].best)} stars in one day on ${shortDate(hist[0].bestDay)}.`],
+        ["How much of GitHub trending is AI agents?", `Of the ${info.size} AI repos Upcurrent described since ${shortDate(days[0])}, ${[...info.values()].filter(x => x.cat === "Agents").length} were agent projects, more than any other kind.`],
+        ["Are these agents safe to run?", "Agents can run commands, browse and edit files for you. Read the code and the permissions it asks for, and try new ones in a sandbox first."]
+      ];
+      const body = `<section><div class="eyebrow">GitHub trending · topic</div><h1>Trending AI agent repos on GitHub</h1><p class="lede">${esc(lede)}</p><p class="asof">Last checked ${esc(asOf(updated))}.</p></section>
+${now.length ? `<section id="now"><h2>New AI agent repos gaining stars now</h2><ol class="rows">${now.slice(0, 15).map(g => `<li><span class="t">${link("https://github.com/" + g.repo, g.repo)}</span><span class="m"><span class="num">★ ${fmt(g.stars)}</span> in ${ageD(g)} ${ageD(g) === 1 ? "day" : "days"}${g.lang ? ` · ${esc(g.lang)}` : ""} · ${esc(clip(g.desc || "", 140))}</span></li>`).join("")}</ol></section>` : ""}
+<section id="history"><h2>AI agent repos that trended since ${esc(shortDate(days[0]))}</h2><ol class="rows">${hist.map(r => rowHtml(r, "../../")).join("")}</ol></section>
+<section><h2>Related</h2><p>Tools for agents: <a href="../../mcp-servers-claude-code-skills/">best new MCP servers and Claude Code skills</a>. Free models to power them: <a href="../../free-ai-models/api/">free LLM API</a>. Everything trending: <a href="../">GitHub trending repositories today</a>.</p></section>
+${faqHtml(qa)}`;
+      out["trending-ai-github-repos/agents"] = page({ title: `Trending AI Agent Repos on GitHub (${monthYear(lastDay)})`, description: clip(lede, 160), canonical: url, body, up: "../../",
+        ld: [faq(qa), breadcrumb([["Upcurrent", SITE], ["GitHub trending (AI)", SITE + "trending-ai-github-repos/"], ["AI agents", url]])] });
+    }
   }
   // Free GitHub trending API: GitHub has no trending endpoint, and our open data already has one.
   {
@@ -1252,6 +1311,7 @@ ${GUIDES.filter(g => guides[g.slug]).map(g => `- [${g.title}](${SITE}${g.slug}/)
 - [Free GitHub trending API (JSON, no key)](${SITE}github-trending-api/)
 - [GitHub trending archive: every day's top AI repo](${SITE}github-trending-archive/)
 - [Trending AI research papers today (Hugging Face, arXiv)](${SITE}trending-ai-papers/)
+- [Trending AI agent repos on GitHub](${SITE}trending-ai-github-repos/agents/)
 - [Best new MCP servers and Claude Code skills on GitHub](${SITE}mcp-servers-claude-code-skills/)
 - [Free AI models for coding](${SITE}free-ai-models/coding/)
 - [Free AI model API: rate limits and model IDs](${SITE}free-ai-models/api/)
