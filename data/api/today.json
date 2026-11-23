@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-23T02:30:50.823Z"
+  "updated": "2026-11-23T03:01:01.592Z"
  },
  "pulse": {
-  "trending": 74,
+  "trending": 73,
   "accelerating": 0,
   "newModels": 9,
-  "discussions": 45,
-  "stars": 3094
+  "discussions": 47,
+  "stars": 3074
  },
  "rising": [
   {
@@ -20,13 +20,13 @@
    "owner": "EL4CTEO",
    "src": "gh",
    "cat": "Agents",
-   "score": 98,
-   "grow": 42,
+   "score": 97,
+   "grow": 43,
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
    "meta": [
-    "★ 2,002",
-    "+1,491 in 24h",
-    "Created yesterday"
+    "★ 2,029",
+    "+1,481 in 24h",
+    "Created 2 days ago"
    ],
    "at": "2026-11-21T14:40:27Z",
    "breakout": null,
@@ -39,7 +39,7 @@
    "cat": "Infrastructure",
    "score": 95,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 895",
+   "desc": "Model on Hugging Face · open source · ♥ 901",
    "meta": [
     "806K downloads",
     "Released 3 days ago"
@@ -73,8 +73,8 @@
    "grow": null,
    "desc": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
    "meta": [
-    "★ 8,046",
-    "~1,220 in 24h",
+    "★ 8,061",
+    "~1,218 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-11-16T12:10:36Z",
@@ -91,8 +91,8 @@
    "desc": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
    "meta": [
     "★ 2,750",
-    "+32 in 24h",
-    "Created 3 days ago"
+    "+31 in 24h",
+    "Created 4 days ago"
    ],
    "at": "2026-11-19T14:43:10Z",
    "breakout": null,
@@ -107,29 +107,13 @@
    "grow": 2,
    "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
    "meta": [
-    "★ 2,101",
-    "+134 in 24h",
+    "★ 2,103",
+    "+131 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-19T10:00:43Z",
    "breakout": null,
    "url": "https://github.com/iamajmeena/neonclipping"
-  },
-  {
-   "name": "Inkling-2-Mini-Uncensored-GGUF",
-   "owner": "AtomicChat",
-   "src": "hf",
-   "cat": "Infrastructure",
-   "score": 89,
-   "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 502",
-   "meta": [
-    "130K downloads",
-    "Released 2 days ago"
-   ],
-   "at": "2026-11-20T20:42:23.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF"
   },
   {
    "name": "Hy4-flash",
@@ -138,7 +122,7 @@
    "cat": "Vision",
    "score": 88,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 622",
+   "desc": "Vision on Hugging Face · open weights · ♥ 623",
    "meta": [
     "6.6K downloads",
     "Released 6 days ago"
@@ -148,13 +132,29 @@
    "url": "https://huggingface.co/tencent/Hy4-flash"
   },
   {
+   "name": "Inkling-2-Mini-Uncensored-GGUF",
+   "owner": "AtomicChat",
+   "src": "hf",
+   "cat": "Infrastructure",
+   "score": 88,
+   "grow": 0,
+   "desc": "Model on Hugging Face · open source · ♥ 505",
+   "meta": [
+    "130K downloads",
+    "Released 2 days ago"
+   ],
+   "at": "2026-11-20T20:42:23.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF"
+  },
+  {
    "name": "voice-isolator",
    "owner": "inworld",
    "src": "hf",
    "cat": "Tools",
    "score": 87,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 640",
+   "desc": "Model on Hugging Face · open source · ♥ 642",
    "meta": [
     "0 downloads",
     "Released 9 days ago"
@@ -168,7 +168,7 @@
    "owner": "harness-hub",
    "src": "hf",
    "cat": "Agents",
-   "score": 86,
+   "score": 85,
    "grow": null,
    "desc": "Model on Hugging Face · open source · ♥ 993",
    "meta": [
@@ -186,8 +186,8 @@
    "name": "fast-anything",
    "url": "https://github.com/EL4CTEO/fast-anything",
    "from": "GitHub",
-   "use": 1491,
-   "useLabel": "+1,491 stars/day",
+   "use": 1481,
+   "useLabel": "+1,481 stars/day",
    "usePct": 1,
    "talk": [
     {
@@ -216,7 +216,7 @@
    "from": "Hugging Face",
    "use": 950169,
    "useLabel": "950K downloads",
-   "usePct": 0.9642857142857143,
+   "usePct": 0.9629629629629629,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -227,7 +227,7 @@
    "from": "Hugging Face",
    "use": 805993,
    "useLabel": "806K downloads",
-   "usePct": 0.9285714285714286,
+   "usePct": 0.9259259259259259,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -318,21 +318,21 @@
  "github": [
   {
    "repo": "EL4CTEO/fast-anything",
-   "stars": 2002,
-   "d24": 1491,
+   "stars": 2029,
+   "d24": 1481,
    "est": false,
-   "forks": 124,
+   "forks": 126,
    "contrib": null,
-   "score": 98,
+   "score": 97,
    "cat": "Agents",
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same."
   },
   {
    "repo": "erkamyaman/rust-anything",
-   "stars": 8046,
-   "d24": 1220,
+   "stars": 8061,
+   "d24": 1218,
    "est": true,
-   "forks": 650,
+   "forks": 651,
    "contrib": 23,
    "score": 92,
    "cat": "Agents",
@@ -340,8 +340,8 @@
   },
   {
    "repo": "sybil-solutions/inference-optimisation-skill",
-   "stars": 1966,
-   "d24": 217,
+   "stars": 1968,
+   "d24": 213,
    "est": false,
    "forks": 183,
    "contrib": null,
@@ -351,10 +351,10 @@
   },
   {
    "repo": "iamajmeena/neonclipping",
-   "stars": 2101,
-   "d24": 134,
+   "stars": 2103,
+   "d24": 131,
    "est": false,
-   "forks": 119,
+   "forks": 120,
    "contrib": null,
    "score": 91,
    "cat": "Vision",
@@ -363,7 +363,7 @@
   {
    "repo": "bookwjitchieni1986/blender-ai-mcp-addon",
    "stars": 2750,
-   "d24": 32,
+   "d24": 31,
    "est": false,
    "forks": 38,
    "contrib": null,
@@ -382,7 +382,7 @@
    "grow": 0,
    "score": 95,
    "cat": "Infrastructure",
-   "likes": 895
+   "likes": 901
   },
   {
    "name": "Inkling-2-Mini",
@@ -393,18 +393,7 @@
    "grow": 0,
    "score": 93,
    "cat": "Vision",
-   "likes": 5018
-  },
-  {
-   "name": "Inkling-2-Mini-Uncensored-GGUF",
-   "org": "AtomicChat",
-   "lic": "Open source",
-   "at": "2026-11-20T20:42:23.000Z",
-   "dl": 129693,
-   "grow": 0,
-   "score": 89,
-   "cat": "Infrastructure",
-   "likes": 502
+   "likes": 5032
   },
   {
    "name": "Hy4-flash",
@@ -415,7 +404,18 @@
    "grow": 0,
    "score": 88,
    "cat": "Vision",
-   "likes": 622
+   "likes": 623
+  },
+  {
+   "name": "Inkling-2-Mini-Uncensored-GGUF",
+   "org": "AtomicChat",
+   "lic": "Open source",
+   "at": "2026-11-20T20:42:23.000Z",
+   "dl": 129693,
+   "grow": 0,
+   "score": 88,
+   "cat": "Infrastructure",
+   "likes": 505
   },
   {
    "name": "voice-isolator",
@@ -426,7 +426,7 @@
    "grow": null,
    "score": 87,
    "cat": "Tools",
-   "likes": 640
+   "likes": 642
   },
   {
    "name": "Qwen3.8-27B-pi-adapted",
@@ -436,7 +436,7 @@
    "at": "2026-11-16T06:52:31.000Z",
    "dl": 2831,
    "grow": null,
-   "score": 86,
+   "score": 85,
    "cat": "Agents",
    "likes": 993
   }
@@ -824,8 +824,8 @@
    "t": "Perplexity and Intelligence",
    "url": "https://news.ycombinator.com/item?id=50601525",
    "link": "https://openai.com/index/perplexity-and-intelligence/",
-   "up": 491,
-   "com": 342,
+   "up": 503,
+   "com": 348,
    "at": "2026-11-22T17:06:27.000Z"
   },
   {
@@ -833,8 +833,8 @@
    "t": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
    "url": "https://news.ycombinator.com/item?id=50597612",
    "link": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
-   "up": 899,
-   "com": 902,
+   "up": 905,
+   "com": 904,
    "at": "2026-11-22T08:57:34.000Z"
   },
   {
@@ -842,34 +842,34 @@
    "t": "The Birds of GTA 6: A Field Guide to Vice City and Leonida's Wildlife",
    "url": "https://news.ycombinator.com/item?id=50602843",
    "link": "https://www.audubon.org/magazine/birds-of-gta-6-field-guide-vice-city-wildlife",
-   "up": 370,
-   "com": 172,
+   "up": 379,
+   "com": 179,
    "at": "2026-11-22T19:10:34.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Progress map for the Lean formalization of Alessandro Masullo's manuscript",
-   "url": "https://news.ycombinator.com/item?id=50605045",
-   "link": "https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3",
-   "up": 161,
-   "com": 136,
-   "at": "2026-11-22T23:12:10.000Z"
   },
   {
    "src": "Hacker News",
    "t": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
    "url": "https://news.ycombinator.com/item?id=50603845",
    "link": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
-   "up": 262,
-   "com": 114,
+   "up": 274,
+   "com": 120,
    "at": "2026-11-22T21:01:16.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Progress map for the Lean formalization of Alessandro Masullo's manuscript",
+   "url": "https://news.ycombinator.com/item?id=50605045",
+   "link": "https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3",
+   "up": 167,
+   "com": 145,
+   "at": "2026-11-22T23:12:10.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Show HN: I built a game where you are an LLM's subagent",
    "url": "https://news.ycombinator.com/item?id=50599762",
    "link": "https://github.com/gulivan/worker755",
-   "up": 276,
+   "up": 279,
    "com": 65,
    "at": "2026-11-22T13:56:58.000Z"
   }
