@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-23T08:01:06.922Z"
+  "updated": "2026-11-23T08:31:08.173Z"
  },
  "pulse": {
   "trending": 74,
   "accelerating": 0,
   "newModels": 9,
   "discussions": 44,
-  "stars": 3439
+  "stars": 3429
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 97,
-   "grow": 67,
+   "grow": 70,
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
    "meta": [
-    "★ 2,362",
-    "+1,520 in 24h",
+    "★ 2,399",
+    "+1,528 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-21T14:40:27Z",
@@ -39,7 +39,7 @@
    "cat": "Infrastructure",
    "score": 95,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 945",
+   "desc": "Model on Hugging Face · open source · ♥ 947",
    "meta": [
     "806K downloads",
     "Released 3 days ago"
@@ -55,7 +55,7 @@
    "cat": "Vision",
    "score": 93,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open source · ♥ 5.1K",
+   "desc": "Vision on Hugging Face · open source · ♥ 5.2K",
    "meta": [
     "24K downloads",
     "Released 6 days ago"
@@ -73,8 +73,8 @@
    "grow": 3,
    "desc": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
    "meta": [
-    "★ 8,220",
-    "+748 in 24h",
+    "★ 8,230",
+    "+730 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-11-16T12:10:36Z",
@@ -91,7 +91,7 @@
    "desc": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
    "meta": [
     "★ 2,758",
-    "~741 in 24h",
+    "~737 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-19T14:43:10Z",
@@ -103,12 +103,12 @@
    "owner": "iamajmeena",
    "src": "gh",
    "cat": "Vision",
-   "score": 91,
+   "score": 90,
    "grow": 6,
    "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
    "meta": [
-    "★ 2,179",
-    "+225 in 24h",
+    "★ 2,187",
+    "+231 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-19T10:00:43Z",
@@ -121,8 +121,8 @@
    "src": "hf",
    "cat": "Vision",
    "score": 88,
-   "grow": 0,
-   "desc": "Vision on Hugging Face · open weights · ♥ 629",
+   "grow": null,
+   "desc": "Vision on Hugging Face · open weights · ♥ 630",
    "meta": [
     "6.6K downloads",
     "Released 6 days ago"
@@ -138,7 +138,7 @@
    "cat": "Infrastructure",
    "score": 88,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 538",
+   "desc": "Model on Hugging Face · open source · ♥ 542",
    "meta": [
     "130K downloads",
     "Released 2 days ago"
@@ -154,7 +154,7 @@
    "cat": "Tools",
    "score": 87,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 662",
+   "desc": "Model on Hugging Face · open source · ♥ 664",
    "meta": [
     "0 downloads",
     "Released 9 days ago"
@@ -186,8 +186,8 @@
    "name": "fast-anything",
    "url": "https://github.com/EL4CTEO/fast-anything",
    "from": "GitHub",
-   "use": 1520,
-   "useLabel": "+1,520 stars/day",
+   "use": 1528,
+   "useLabel": "+1,528 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -217,6 +217,16 @@
   }
  ],
  "receipts": [
+  {
+   "name": "XinaTian/MROffice",
+   "url": "https://github.com/XinaTian/MROffice",
+   "kind": "stars",
+   "first": "2026-11-21T11:01:04.442Z",
+   "firstV": 1323,
+   "m": 2500,
+   "at": "2026-11-23T08:31:08.173Z",
+   "lead": 45.50103638888889
+  },
   {
    "name": "ersinkoc/phonebox",
    "url": "https://github.com/ersinkoc/phonebox",
@@ -286,45 +296,24 @@
    "m": 100000,
    "at": "2026-11-21T10:30:53.865Z",
    "lead": 12.999736944444445
-  },
-  {
-   "name": "simplexai-labs/linger",
-   "url": "https://github.com/simplexai-labs/linger",
-   "kind": "stars",
-   "first": "2026-11-19T16:31:01.650Z",
-   "firstV": 1262,
-   "m": 2500,
-   "at": "2026-11-20T12:30:58.699Z",
-   "lead": 19.99918027777778
   }
  ],
  "github": [
   {
    "repo": "EL4CTEO/fast-anything",
-   "stars": 2362,
-   "d24": 1520,
+   "stars": 2399,
+   "d24": 1528,
    "est": false,
-   "forks": 145,
+   "forks": 150,
    "contrib": null,
    "score": 97,
    "cat": "Agents",
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same."
   },
   {
-   "repo": "erkamyaman/rust-anything",
-   "stars": 8220,
-   "d24": 748,
-   "est": false,
-   "forks": 664,
-   "contrib": 23,
-   "score": 91,
-   "cat": "Agents",
-   "desc": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java."
-  },
-  {
    "repo": "bookwjitchieni1986/blender-ai-mcp-addon",
    "stars": 2758,
-   "d24": 741,
+   "d24": 737,
    "est": true,
    "forks": 39,
    "contrib": null,
@@ -333,22 +322,33 @@
    "desc": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration."
   },
   {
+   "repo": "erkamyaman/rust-anything",
+   "stars": 8230,
+   "d24": 730,
+   "est": false,
+   "forks": 665,
+   "contrib": 23,
+   "score": 91,
+   "cat": "Agents",
+   "desc": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java."
+  },
+  {
    "repo": "iamajmeena/neonclipping",
-   "stars": 2179,
-   "d24": 225,
+   "stars": 2187,
+   "d24": 231,
    "est": false,
    "forks": 127,
    "contrib": null,
-   "score": 91,
+   "score": 90,
    "cat": "Vision",
    "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM)."
   },
   {
    "repo": "sybil-solutions/inference-optimisation-skill",
-   "stars": 2006,
-   "d24": 205,
+   "stars": 2009,
+   "d24": 203,
    "est": false,
-   "forks": 185,
+   "forks": 187,
    "contrib": null,
    "score": 82,
    "cat": "Agents",
@@ -365,7 +365,7 @@
    "grow": 0,
    "score": 95,
    "cat": "Infrastructure",
-   "likes": 945
+   "likes": 947
   },
   {
    "name": "Inkling-2-Mini",
@@ -376,7 +376,7 @@
    "grow": 0,
    "score": 93,
    "cat": "Vision",
-   "likes": 5148
+   "likes": 5166
   },
   {
    "name": "Hy4-flash",
@@ -384,10 +384,10 @@
    "lic": "Open weights",
    "at": "2026-11-17T03:44:46.000Z",
    "dl": 6617,
-   "grow": 0,
+   "grow": null,
    "score": 88,
    "cat": "Vision",
-   "likes": 629
+   "likes": 630
   },
   {
    "name": "Inkling-2-Mini-Uncensored-GGUF",
@@ -398,7 +398,7 @@
    "grow": 0,
    "score": 88,
    "cat": "Infrastructure",
-   "likes": 538
+   "likes": 542
   },
   {
    "name": "voice-isolator",
@@ -409,7 +409,7 @@
    "grow": null,
    "score": 87,
    "cat": "Tools",
-   "likes": 662
+   "likes": 664
   },
   {
    "name": "Qwen3.8-27B-pi-adapted",
@@ -421,7 +421,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Agents",
-   "likes": 1001
+   "likes": 1002
   }
  ],
  "free": [
@@ -792,31 +792,31 @@
    "kind": "News"
   },
   {
-   "t": "A week after urging an Nvidia shake-up, Scott Bessent says Jensen Huang's return should depend on probes of its China chip sales and presses Nvidia for answers",
-   "url": "https://www.techmeme.com/261122/p10#a261122p10",
-   "at": "2026-11-22T19:50:01.000Z",
-   "src": "Techmeme",
+   "t": "Asian firms urged to boost productivity",
+   "url": "https://www.bangkokpost.com/business/general/3359575/asian-firms-urged-to-boost-productivity",
+   "at": "2026-11-22T20:23:00Z",
+   "src": "Bangkok Post",
    "kind": "News"
   },
   {
-   "t": "SCO Forum backs Joint UNESCO bids, steps against heritage trafficking",
-   "url": "https://economictimes.indiatimes.com/news/india/sco-forum-backs-joint-unesco-bids-steps-against-heritage-trafficking/articleshow/136082868.cms",
-   "at": "2026-11-22T19:31:00Z",
-   "src": "The Economic Times",
+   "t": "The collapse of UN climate talks, over fossil fuels, was years in the making",
+   "url": "https://www.twincities.com/2026/11/22/the-collapse-of-un-climate-talks-over-fossil-fuels-was-years-in-the-making/",
+   "at": "2026-11-22T20:12:17Z",
+   "src": "St. Paul Pioneer Press",
    "kind": "News"
   },
   {
-   "t": "Investor Bill Miller Says Bitcoin Is Easier to Value than AI",
-   "url": "https://u.today/investor-bill-miller-says-bitcoin-is-easier-to-value-than-ai",
-   "at": "2026-11-22T19:21:25Z",
-   "src": "U.Today",
+   "t": "Analysis: The collapse of UN climate talks, over fossil fuels, was years in the making",
+   "url": "https://www.twincities.com/2026/11/22/analysis-the-collapse-of-un-climate-talks-over-fossil-fuels-was-years-in-the-making/",
+   "at": "2026-11-22T20:12:17Z",
+   "src": "St. Paul Pioneer Press",
    "kind": "News"
   },
   {
-   "t": "RAF chief Sir Harv Smyth admits next generation of manned planes could be UK's last amid drone advancements",
-   "url": "https://www.lbc.co.uk/article/raf-chief-manned-planes-drones-ai-5HjdnNt_2/",
-   "at": "2026-11-22T19:05:40Z",
-   "src": "LBC",
+   "t": "Germany tests Kamikaze drones and AI targeting technology in Lithuania",
+   "url": "https://www.euronews.com/2026/11/22/germany-tests-kamikaze-drones-and-ai-targeting-technology-in-lithuania",
+   "at": "2026-11-22T20:07:57Z",
+   "src": "Euronews",
    "kind": "News"
   }
  ],
@@ -826,8 +826,8 @@
    "t": "XNU Linux: Full OS X GUI Userspace on Linux",
    "url": "https://news.ycombinator.com/item?id=50607261",
    "link": "https://github.com/AFK-surf/xnulinux",
-   "up": 202,
-   "com": 90,
+   "up": 228,
+   "com": 101,
    "at": "2026-11-23T03:49:24.000Z"
   },
   {
@@ -835,8 +835,8 @@
    "t": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
    "url": "https://news.ycombinator.com/item?id=50597612",
    "link": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
-   "up": 954,
-   "com": 945,
+   "up": 959,
+   "com": 943,
    "at": "2026-11-22T08:57:34.000Z"
   },
   {
@@ -844,8 +844,8 @@
    "t": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
    "url": "https://news.ycombinator.com/item?id=50603845",
    "link": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
-   "up": 451,
-   "com": 182,
+   "up": 462,
+   "com": 192,
    "at": "2026-11-22T21:01:16.000Z"
   },
   {
@@ -853,8 +853,8 @@
    "t": "Perplexity and Intelligence",
    "url": "https://news.ycombinator.com/item?id=50601525",
    "link": "https://openai.com/index/perplexity-and-intelligence/",
-   "up": 562,
-   "com": 383,
+   "up": 570,
+   "com": 389,
    "at": "2026-11-22T17:06:27.000Z"
   },
   {
@@ -862,8 +862,8 @@
    "t": "The Birds of GTA 6: A Field Guide to Vice City and Leonida's Wildlife",
    "url": "https://news.ycombinator.com/item?id=50602843",
    "link": "https://www.audubon.org/magazine/birds-of-gta-6-field-guide-vice-city-wildlife",
-   "up": 465,
-   "com": 233,
+   "up": 474,
+   "com": 232,
    "at": "2026-11-22T19:10:34.000Z"
   },
   {
@@ -871,8 +871,8 @@
    "t": "Progress map for the Lean formalization of Alessandro Masullo's manuscript",
    "url": "https://news.ycombinator.com/item?id=50605045",
    "link": "https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3",
-   "up": 219,
-   "com": 159,
+   "up": 225,
+   "com": 166,
    "at": "2026-11-22T23:12:10.000Z"
   }
  ]
