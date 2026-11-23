@@ -1663,8 +1663,18 @@ function explainerPage(it, all) {
   }
   const latestNums = numbersLine(it, last);
   const seen = `Upcurrent first spotted it among the fastest-rising AI projects on ${shortDate(first.day)}. It has appeared on ${it.hist.length} daily list${it.hist.length > 1 ? "s" : ""} so far, peaking at #${best}.`;
-  const title = it.src === "paper" ? `${clip(it.name, 52)}: paper explained | Upcurrent` : [`What is ${it.name}? ${kindShort}${it.owner ? ` by ${it.owner}` : ""} | Upcurrent`, ...(it.owner ? [`What is ${it.name}? By ${it.owner} | Upcurrent`] : []), `What is ${it.name.length <= 40 ? it.name : it.name.slice(0, 39) + "…"}? | Upcurrent`].find(t => t.length <= 66) || `What is ${it.name.slice(0, 39)}…? | Upcurrent`;
-  const description = clip(`${what} ${summary ? summary + " " : ""}${latestNums ? `Latest: ${latestNums}.` : ""}`.replace(/\s+/g, " "), 160);
+  // GitHub repos: people search "<repo> github", so the title says what it is, how to install, and the star count.
+  const ghStars = it.src === "gh" && last.stars != null ? `${fmt(last.stars)}★` : "";
+  const ghTitle = it.src === "gh" ? [
+    `${it.name} on GitHub: What It Is & How to Install${ghStars ? ` (${ghStars})` : ""}`,
+    `${it.name} on GitHub: What It Is & How to Install`,
+    `${it.name} GitHub: What It Is${ghStars ? ` (${ghStars})` : ""}`,
+    `${it.name} GitHub: What It Is`
+  ].find(t => t.length <= 60) : null;
+  const title = ghTitle ? ghTitle : it.src === "paper" ? `${clip(it.name, 52)}: paper explained | Upcurrent` : [`What is ${it.name}? ${kindShort}${it.owner ? ` by ${it.owner}` : ""} | Upcurrent`, ...(it.owner ? [`What is ${it.name}? By ${it.owner} | Upcurrent`] : []), `What is ${it.name.length <= 40 ? it.name : it.name.slice(0, 39) + "…"}? | Upcurrent`].find(t => t.length <= 66) || `What is ${it.name.slice(0, 39)}…? | Upcurrent`;
+  const description = it.src === "gh" && summary
+    ? clip(`${last.stars != null ? `${fmt(last.stars)} GitHub stars${first.stars != null && last.stars > first.stars && it.hist.length > 1 ? ` (+${fmt(last.stars - first.stars)} since ${shortDate(first.day).replace(/ \d{4}$/, "")})` : ""}. ` : ""}What it does, how to install it, who made it: ${summary}`.replace(/\s+/g, " "), 160)
+    : clip(`${what} ${summary ? summary + " " : ""}${latestNums ? `Latest: ${latestNums}.` : ""}`.replace(/\s+/g, " "), 160);
   const related = all.filter(o => o !== it && o.cat && o.cat === it.cat).sort((a, b) => b.hist[b.hist.length - 1].day.localeCompare(a.hist[a.hist.length - 1].day)).slice(0, 6);
   const qa = [
     [it.src === "paper" ? `What is the paper “${clip(it.name, 80)}” about?` : `What is ${it.name}?`, `${what}${summary ? " " + summary : ""}`],
