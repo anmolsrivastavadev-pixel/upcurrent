@@ -1644,7 +1644,15 @@ function numbersLine(it, h) {
   return h.up != null ? `${fmt(h.up)} upvotes` : "";
 }
 
+let REPO_FACTS = null;
+function repoFacts(it) {
+  if (it.src !== "gh") return null;
+  if (!REPO_FACTS) { try { REPO_FACTS = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "api", "repo-facts.json"), "utf8")); } catch { REPO_FACTS = {}; } }
+  return REPO_FACTS[`${it.owner}/${it.name}`] || null;
+}
+
 function explainerPage(it, all) {
+  const F = repoFacts(it) || {};
   const url = `${SITE}what-is/${it.slug}/`;
   const [kindLong, kindShort, tryLabel] = KIND[it.src];
   const first = it.hist[0], last = it.hist[it.hist.length - 1];
@@ -1664,8 +1672,9 @@ function explainerPage(it, all) {
   const latestNums = numbersLine(it, last);
   const seen = `Upcurrent first spotted it among the fastest-rising AI projects on ${shortDate(first.day)}. It has appeared on ${it.hist.length} daily list${it.hist.length > 1 ? "s" : ""} so far, peaking at #${best}.`;
   // GitHub repos: people search "<repo> github", so the title says what it is, how to install, and the star count.
-  const ghStars = it.src === "gh" && last.stars != null ? `${fmt(last.stars)}★` : "";
-  const ghTitle = it.src === "gh" ? [
+  const nowStars = F.stars ?? last.stars;
+  const ghStars = it.src === "gh" && nowStars != null ? `${fmt(nowStars)}★` : "";
+  const ghTitle = it.src === "gh" && F.gone ? `${it.name} GitHub: What It Was (Now Removed)` : it.src === "gh" ? [
     `${it.name} GitHub: What It Is & How to Download${ghStars ? ` (${ghStars})` : ""}`,
     `${it.name} on GitHub: What It Is & How to Install${ghStars ? ` (${ghStars})` : ""}`,
     `${it.name} on GitHub: What It Is & How to Install`,
@@ -1673,21 +1682,25 @@ function explainerPage(it, all) {
     `${it.name} GitHub: What It Is`
   ].find(t => t.length <= 60) : null;
   const title = ghTitle ? ghTitle : it.src === "paper" ? `${clip(it.name, 52)}: paper explained | Upcurrent` : [`What is ${it.name}? ${kindShort}${it.owner ? ` by ${it.owner}` : ""} | Upcurrent`, ...(it.owner ? [`What is ${it.name}? By ${it.owner} | Upcurrent`] : []), `What is ${it.name.length <= 40 ? it.name : it.name.slice(0, 39) + "…"}? | Upcurrent`].find(t => t.length <= 66) || `What is ${it.name.slice(0, 39)}…? | Upcurrent`;
-  const description = it.src === "gh" && summary
-    ? clip(`${last.stars != null ? `${fmt(last.stars)} GitHub stars${first.stars != null && last.stars > first.stars && it.hist.length > 1 ? ` (+${fmt(last.stars - first.stars)} since ${shortDate(first.day).replace(/ \d{4}$/, "")})` : ""}. ` : ""}What it does, how to install it, who made it: ${summary}`.replace(/\s+/g, " "), 160)
+  const description = it.src === "gh" && F.gone ? clip(`${it.name} was a GitHub project by ${it.owner} that has since been removed or made private. ${summary}`, 160) : it.src === "gh" && summary
+    ? clip(`${nowStars != null ? `${fmt(nowStars)} GitHub stars${first.stars != null && nowStars > first.stars && it.hist.length > 1 ? ` (+${fmt(nowStars - first.stars)} since ${shortDate(first.day).replace(/ \d{4}$/, "")})` : ""}. ` : ""}What it does, how to install it, who made it: ${summary}`.replace(/\s+/g, " "), 160)
     : clip(`${what} ${summary ? summary + " " : ""}${latestNums ? `Latest: ${latestNums}.` : ""}`.replace(/\s+/g, " "), 160);
   const related = all.filter(o => o !== it && o.cat && o.cat === it.cat).sort((a, b) => b.hist[b.hist.length - 1].day.localeCompare(a.hist[a.hist.length - 1].day)).slice(0, 6);
   const qa = [
     [it.src === "paper" ? `What is the paper “${clip(it.name, 80)}” about?` : `What is ${it.name}?`, `${what}${summary ? " " + summary : ""}`],
     ...(it.owner && it.src !== "paper" ? [[`Who made ${it.name}?`, `${it.name} is published by ${it.owner} on ${it.src === "gh" ? "GitHub" : "Hugging Face"}.`]] : []),
     ...(latestNums ? [[`How popular is ${it.src === "paper" ? "this paper" : it.name}?`, `On ${shortDate(last.day)} Upcurrent recorded ${latestNums}. ${growth}`.trim()]] : []),
-    ...(it.src === "gh" && /^https:\/\/github\.com\/[^/]+\/[^/]+$/.test(it.url || "") ? [[`How do I download and install ${it.name}?`, `Download it from GitHub with git clone ${it.url}, or use the Code > Download ZIP button on its GitHub page, then follow the setup steps in its README. Read the code before you run it: new repos that gain stars fast are sometimes copies or malware.`]] : []),
+    ...(it.src === "gh" && !F.gone && /^https:\/\/github\.com\/[^/]+\/[^/]+$/.test(it.url || "") ? [[`How do I download and install ${it.name}?`, F.install ? `Its README gives these install steps: ${F.install.split("\n").filter(l => !l.startsWith("#")).map(l => l.replace(/\s+#.*$/, "")).join(", then ")}. You can also download it from GitHub with git clone ${it.url}.` : `Download it from GitHub with git clone ${it.url}, or use the Code > Download ZIP button on its GitHub page, then follow the setup steps in its README. Read the code before you run it: new repos that gain stars fast are sometimes copies or malware.`]] : []),
+    ...(F.lang ? [[`What language is ${it.name} written in?`, `${it.name} is mostly written in ${F.lang}, according to GitHub.`]] : []),
+    ...(it.src === "gh" && !F.gone ? [[`Is ${it.name} safe to use?`, `Upcurrent doesn't audit code, so check it yourself before running it. What GitHub shows: ${[F.license ? `it's released under the ${F.license} licence` : "no licence is listed", F.contributors ? `${fmt(F.contributors)} ${F.contributors === 1 ? "person has" : "people have"} contributed` : "", released ? `the repo was created on ${released}` : "", F.pushed ? `and last updated on ${shortDate(F.pushed.slice(0, 10))}` : ""].filter(Boolean).join(", ")}. Be wary of new repos that ask you to download an installer or run a script you haven't read.`]] : []),
     ...(released && it.src !== "paper" ? [[`When was ${it.name} released?`, `${it.src === "gh" ? "The repository was created" : "The model was released"} on ${released}.`]] : [])
   ];
   const facts = [
     ["Type", kindShort], it.owner && it.src !== "paper" && ["Made by", it.owner], it.cat && ["Category", it.cat],
     released && [it.src === "gh" ? "Created" : it.src === "hf" ? "Released" : "Published", released],
     ["First spotted", `<a href="../../daily/${first.day}.html">${esc(shortDate(first.day))}</a>`, true],
+    F.lang && ["Language", F.lang], F.license && ["Licence", F.license], F.forks != null && ["Forks", fmt(F.forks)], F.contributors && ["Contributors", fmt(F.contributors)],
+    F.pushed && ["Last updated", shortDate(F.pushed.slice(0, 10))], F.stars != null && ["Stars now", `★ ${fmt(F.stars)} (checked ${shortDate(F.fetched.slice(0, 10))})`],
     ["Best position", `#${best} of the day's top movers`], latestNums && ["Latest numbers", `${latestNums} (${shortDate(last.day)})`]
   ].filter(Boolean);
   const body = `<section>
@@ -1699,7 +1712,7 @@ function explainerPage(it, all) {
   <p><a href="${esc(it.url)}" rel="noopener"><b>${esc(tryLabel)} →</b></a></p>
   <p>${it.src === "gh" ? `It sits alongside the other <a href="../../trending-ai-github-repos/">GitHub trending repositories today</a>.` : it.src === "hf" ? `It's one of the <a href="../../new-ai-models/">new AI models</a> Upcurrent tracks on Hugging Face${/gguf|awq|fp8|mlx/i.test(it.name) ? "" : `, alongside <a href="../../new-ai-models/open-source/">new open source releases</a>`}.` : `See what else was rising on <a href="../../daily/${last.day}.html">${esc(shortDate(last.day))}</a>, or browse <a href="../">every project explained</a>.`}</p>
 </section>
-${it.src === "gh" && /^https:\/\/github\.com\/[^/]+\/[^/]+$/.test(it.url || "") ? `<section id="install"><h2>How to download and install ${esc(it.name)}</h2><p>Download ${esc(it.name)} from GitHub with git:</p><pre><code>git clone ${esc(it.url)}.git
+${F.gone ? `<section id="install"><h2>${esc(it.name)} is no longer on GitHub</h2><p>When Upcurrent last checked, this repository had been removed or made private, so it can't be downloaded from GitHub any more. Be careful with copies of it posted elsewhere.</p></section>` : it.src === "gh" && /^https:\/\/github\.com\/[^/]+\/[^/]+$/.test(it.url || "") ? `<section id="install"><h2>How to download and install ${esc(it.name)}</h2>${F.install ? `<p>The install steps from <a href="${esc(it.url)}#readme" rel="noopener">its README</a>:</p><pre><code>${esc(F.install)}</code></pre><p>Or download the code with git:</p>` : `<p>Download ${esc(it.name)} from GitHub with git:</p>`}<pre><code>git clone ${esc(it.url)}.git
 cd ${esc(it.url.split("/").pop())}</code></pre><p>Then follow the setup steps in <a href="${esc(it.url)}#readme" rel="noopener">its README</a>, which lists what it needs and how to run it.</p><p><b>Check before you run it.</b> Look at who made it, read the code, and be wary of repos that ask you to download a zip or run an installer: new repos that gain stars fast are sometimes copies or malware.</p></section>` : ""}
 <section><h2>Quick facts</h2><ul class="rows">${facts.map(([k, v, raw]) => `<li><span class="m">${esc(k)}</span><span class="t">${raw ? v : esc(v)}</span></li>`).join("")}</ul></section>
 <section><h2>How it rose, day by day</h2><p>Recorded by Upcurrent at the end of each day (UTC). Rank is its place among that day's fastest-rising AI projects.</p>
@@ -1708,7 +1721,7 @@ ${related.length ? `<section><h2>Also rising in ${esc(it.cat)}</h2><ul class="ro
 ${faqHtml(qa)}
 <section class="share" aria-label="Share this page"><b>Share:</b> ${shareLinks(url, it.src === "paper" ? clip(it.name, 90) : `What is ${it.name}?`)}</section>
 <nav class="pager"><a href="../">All explained projects</a><a href="../../daily/">Daily archive</a></nav>`;
-  const thing = it.src === "gh" ? { "@type": "SoftwareSourceCode", name: it.name, codeRepository: it.url, author: { "@type": "Person", name: it.owner }, description: summary || what }
+  const thing = it.src === "gh" ? { "@type": "SoftwareSourceCode", name: it.name, codeRepository: it.url, author: { "@type": "Person", name: it.owner }, description: summary || what, ...(F.lang ? { programmingLanguage: F.lang } : {}), ...(F.license ? { license: `https://spdx.org/licenses/${F.license}.html` } : {}), ...(F.pushed ? { dateModified: F.pushed } : {}) }
     : it.src === "hf" ? { "@type": "SoftwareApplication", name: it.name, applicationCategory: "AI model", url: it.url, author: { "@type": "Organization", name: it.owner } }
     : { "@type": "ScholarlyArticle", headline: clip(it.name, 110), url: it.url, abstract: summary || undefined };
   const ld = [

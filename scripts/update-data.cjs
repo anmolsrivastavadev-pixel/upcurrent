@@ -90,5 +90,6 @@ function writeOpenData(out) {
     }
     console.log(`LLM prices: ${models.length} models`);
   } catch (e) { console.error("LLM prices not updated:", e.message); }
+  try { await require("./repo-facts.cjs")(process.env.GITHUB_TOKEN); } catch (e) { console.error("Repo facts not updated:", e.message); }
   for (const n of C.SOURCE_NAMES) console.log(`  ${n.padEnd(11)} ${raw[n] ? raw[n].length + " items" : "missing"}${stale.includes(n) ? " (kept from last run)" : ""}${errors[n] ? "  error: " + errors[n] : ""}`);
 })();
