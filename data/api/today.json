@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-23T14:01:06.419Z"
+  "updated": "2026-11-23T14:30:56.856Z"
  },
  "pulse": {
   "trending": 73,
   "accelerating": 1,
   "newModels": 9,
-  "discussions": 48,
-  "stars": 1962
+  "discussions": 46,
+  "stars": 1967
  },
  "rising": [
   {
@@ -24,7 +24,7 @@
    "grow": null,
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
    "meta": [
-    "★ 2,790",
+    "★ 2,818",
     "~1,414 in 24h",
     "Created 2 days ago"
    ],
@@ -73,8 +73,8 @@
    "grow": 0,
    "desc": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
    "meta": [
-    "★ 2,760",
-    "+7 in 24h",
+    "★ 2,761",
+    "+10 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-19T14:43:10Z",
@@ -88,7 +88,7 @@
    "cat": "Infrastructure",
    "score": 91,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 583",
+   "desc": "Model on Hugging Face · open source · ♥ 588",
    "meta": [
     "329K downloads",
     "Released 3 days ago"
@@ -106,8 +106,8 @@
    "grow": 9,
    "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
    "meta": [
-    "★ 2,246",
-    "+239 in 24h",
+    "★ 2,253",
+    "+241 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-19T10:00:43Z",
@@ -121,10 +121,10 @@
    "cat": "Tools",
    "score": 87,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 696",
+   "desc": "Model on Hugging Face · open source · ♥ 697",
    "meta": [
     "0 downloads",
-    "Released 9 days ago"
+    "Released 10 days ago"
    ],
    "at": "2026-11-14T02:14:35.000Z",
    "breakout": null,
@@ -156,7 +156,7 @@
    "grow": null,
    "desc": "Manifold-constrained Hyper-Connections (mHC) extends residual connections to multiple streams and stabilizes residual propagation by constraining stream-mixing residual matrices to the Birkhoff polytope, the set of doubly stochastic matrices.",
    "meta": [
-    "▲ 80 upvotes",
+    "▲ 81 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-11-19T19:00:00.000Z",
@@ -172,7 +172,7 @@
    "grow": null,
    "desc": "Build playable stories without a game engine",
    "meta": [
-    "▲ 354 votes",
+    "▲ 355 votes",
     "34 comments",
     "Launched yesterday"
    ],
@@ -323,10 +323,10 @@
  "github": [
   {
    "repo": "EL4CTEO/fast-anything",
-   "stars": 2790,
+   "stars": 2818,
    "d24": 1414,
    "est": true,
-   "forks": 176,
+   "forks": 180,
    "contrib": null,
    "score": 97,
    "cat": "Agents",
@@ -334,10 +334,10 @@
   },
   {
    "repo": "sybil-solutions/inference-optimisation-skill",
-   "stars": 2057,
+   "stars": 2063,
    "d24": 302,
    "est": true,
-   "forks": 195,
+   "forks": 196,
    "contrib": null,
    "score": 81,
    "cat": "Agents",
@@ -345,10 +345,10 @@
   },
   {
    "repo": "iamajmeena/neonclipping",
-   "stars": 2246,
-   "d24": 239,
+   "stars": 2253,
+   "d24": 241,
    "est": false,
-   "forks": 135,
+   "forks": 136,
    "contrib": null,
    "score": 89,
    "cat": "Vision",
@@ -356,8 +356,8 @@
   },
   {
    "repo": "bookwjitchieni1986/blender-ai-mcp-addon",
-   "stars": 2760,
-   "d24": 7,
+   "stars": 2761,
+   "d24": 10,
    "est": false,
    "forks": 40,
    "contrib": null,
@@ -376,7 +376,7 @@
    "grow": null,
    "score": 94,
    "cat": "Infrastructure",
-   "likes": 1007
+   "likes": 1010
   },
   {
    "name": "Inkling-2-Mini",
@@ -387,7 +387,7 @@
    "grow": null,
    "score": 92,
    "cat": "Vision",
-   "likes": 5296
+   "likes": 5302
   },
   {
    "name": "Inkling-2-Mini-Uncensored-GGUF",
@@ -398,7 +398,7 @@
    "grow": null,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 583
+   "likes": 588
   },
   {
    "name": "voice-isolator",
@@ -409,7 +409,7 @@
    "grow": null,
    "score": 87,
    "cat": "Tools",
-   "likes": 696
+   "likes": 697
   },
   {
    "name": "Qwen3.8-27B-pi-adapted",
@@ -736,6 +736,27 @@
  },
  "headlines": [
   {
+   "t": "Nvidia's board says it voted to reinstate Jensen Huang after receiving input from \"senior levels\" of the US government; a probe into his conduct is ongoing",
+   "url": "https://www.techmeme.com/261123/p22#a261123p22",
+   "at": "2026-11-23T14:24:12.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "President Trump says Nvidia \"made the correct and proper decision\", the US \"needs Jensen's leadership\", and the US AG found no evidence of \"unlawful conduct\"",
+   "url": "https://www.techmeme.com/261123/p21#a261123p21",
+   "at": "2026-11-23T14:11:52.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Nvidia's board unanimously votes to reinstate Jensen Huang as CEO, president, and board director, after finding \"no national security risk\"; NVDA jumps 30%+",
+   "url": "https://www.techmeme.com/261123/p20#a261123p20",
+   "at": "2026-11-23T14:03:19.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "‘Pervert glasses’ named word of the year by Macquarie dictionary, ahead of ‘nudify’ and ‘AI;DR’",
    "url": "https://www.theguardian.com/science/2026/nov/23/pervert-glasses-meta-word-of-the-year-macquarie-dictionary-nudify-aidr",
    "at": "2026-11-23T13:55:40Z",
@@ -813,20 +834,6 @@
    "kind": "News"
   },
   {
-   "t": "The National Governors Association proposes a split of AI regulation roles, asking the US government to review AI models while letting states protect consumers",
-   "url": "https://www.techmeme.com/261123/p7#a261123p7",
-   "at": "2026-11-23T09:15:03.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "A look at AECJ, an Amazon employee group with over 1,000 members that is stepping up efforts to slow Amazon's data center expansion and spark debate over AI use",
-   "url": "https://www.techmeme.com/261123/p6#a261123p6",
-   "at": "2026-11-23T09:05:00.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Dapper Liam and Noel, experimental Björk, and Bowie ‘cuddling himself’: Rankin reveals his never-before-seen shots of the stars",
    "url": "https://www.theguardian.com/artanddesign/2026/nov/23/rankin-photographer-interview-contact-david-bowie-oasis",
    "at": "2026-11-23T08:00:50Z",
@@ -839,13 +846,6 @@
    "at": "2026-11-23T03:23:44Z",
    "src": "The Guardian",
    "kind": "News"
-  },
-  {
-   "t": "Oracle secures all funding needed to fulfill contract with OpenAI",
-   "url": "https://markets.businessinsider.com/news/stocks/oracle-secures-all-funding-needed-to-fulfill-contract-with-openai-1036790693",
-   "at": "2026-11-23T01:55:09Z",
-   "src": "Markets Insider",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -854,8 +854,8 @@
    "t": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
    "url": "https://news.ycombinator.com/item?id=50609685",
    "link": "https://z.ai/blog/glm-5.4",
-   "up": 400,
-   "com": 168,
+   "up": 455,
+   "com": 184,
    "at": "2026-11-23T10:06:43.000Z"
   },
   {
@@ -863,8 +863,8 @@
    "t": "XNU Linux: Full OS X GUI Userspace on Linux",
    "url": "https://news.ycombinator.com/item?id=50607261",
    "link": "https://github.com/AFK-surf/xnulinux",
-   "up": 449,
-   "com": 196,
+   "up": 457,
+   "com": 197,
    "at": "2026-11-23T03:49:24.000Z"
   },
   {
@@ -872,26 +872,17 @@
    "t": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
    "url": "https://news.ycombinator.com/item?id=50603845",
    "link": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
-   "up": 602,
-   "com": 249,
+   "up": 618,
+   "com": 254,
    "at": "2026-11-22T21:01:16.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Amodei reportedly suggested games could pacify masses after AI took their jobs",
-   "url": "https://news.ycombinator.com/item?id=50610830",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1039745/dario-amodei-video-games-ai-joblessness",
-   "up": 44,
-   "com": 53,
-   "at": "2026-11-23T12:41:14.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Perplexity and Intelligence",
    "url": "https://news.ycombinator.com/item?id=50601525",
    "link": "https://openai.com/index/perplexity-and-intelligence/",
-   "up": 631,
-   "com": 414,
+   "up": 636,
+   "com": 415,
    "at": "2026-11-22T17:06:27.000Z"
   },
   {
@@ -899,9 +890,18 @@
    "t": "The Birds of GTA 6: A Field Guide to Vice City and Leonida's Wildlife",
    "url": "https://news.ycombinator.com/item?id=50602843",
    "link": "https://www.audubon.org/magazine/birds-of-gta-6-field-guide-vice-city-wildlife",
-   "up": 558,
-   "com": 304,
+   "up": 566,
+   "com": 306,
    "at": "2026-11-22T19:10:34.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Amodei reportedly suggested games could pacify masses after AI took their jobs",
+   "url": "https://news.ycombinator.com/item?id=50610830",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1039745/dario-amodei-video-games-ai-joblessness",
+   "up": 48,
+   "com": 55,
+   "at": "2026-11-23T12:41:14.000Z"
   }
  ]
 }
