@@ -1666,6 +1666,7 @@ function explainerPage(it, all) {
   // GitHub repos: people search "<repo> github", so the title says what it is, how to install, and the star count.
   const ghStars = it.src === "gh" && last.stars != null ? `${fmt(last.stars)}★` : "";
   const ghTitle = it.src === "gh" ? [
+    `${it.name} GitHub: What It Is & How to Download${ghStars ? ` (${ghStars})` : ""}`,
     `${it.name} on GitHub: What It Is & How to Install${ghStars ? ` (${ghStars})` : ""}`,
     `${it.name} on GitHub: What It Is & How to Install`,
     `${it.name} GitHub: What It Is${ghStars ? ` (${ghStars})` : ""}`,
@@ -1680,7 +1681,7 @@ function explainerPage(it, all) {
     [it.src === "paper" ? `What is the paper “${clip(it.name, 80)}” about?` : `What is ${it.name}?`, `${what}${summary ? " " + summary : ""}`],
     ...(it.owner && it.src !== "paper" ? [[`Who made ${it.name}?`, `${it.name} is published by ${it.owner} on ${it.src === "gh" ? "GitHub" : "Hugging Face"}.`]] : []),
     ...(latestNums ? [[`How popular is ${it.src === "paper" ? "this paper" : it.name}?`, `On ${shortDate(last.day)} Upcurrent recorded ${latestNums}. ${growth}`.trim()]] : []),
-    ...(it.src === "gh" && /^https:\/\/github\.com\/[^/]+\/[^/]+$/.test(it.url || "") ? [[`How do I install ${it.name}?`, `Clone it with git clone ${it.url}, then follow the setup steps in its README on GitHub. Read the code before you run it: new repos that gain stars fast are sometimes copies or malware.`]] : []),
+    ...(it.src === "gh" && /^https:\/\/github\.com\/[^/]+\/[^/]+$/.test(it.url || "") ? [[`How do I download and install ${it.name}?`, `Download it from GitHub with git clone ${it.url}, or use the Code > Download ZIP button on its GitHub page, then follow the setup steps in its README. Read the code before you run it: new repos that gain stars fast are sometimes copies or malware.`]] : []),
     ...(released && it.src !== "paper" ? [[`When was ${it.name} released?`, `${it.src === "gh" ? "The repository was created" : "The model was released"} on ${released}.`]] : [])
   ];
   const facts = [
@@ -1698,7 +1699,7 @@ function explainerPage(it, all) {
   <p><a href="${esc(it.url)}" rel="noopener"><b>${esc(tryLabel)} →</b></a></p>
   <p>${it.src === "gh" ? `It sits alongside the other <a href="../../trending-ai-github-repos/">GitHub trending repositories today</a>.` : it.src === "hf" ? `It's one of the <a href="../../new-ai-models/">new AI models</a> Upcurrent tracks on Hugging Face${/gguf|awq|fp8|mlx/i.test(it.name) ? "" : `, alongside <a href="../../new-ai-models/open-source/">new open source releases</a>`}.` : `See what else was rising on <a href="../../daily/${last.day}.html">${esc(shortDate(last.day))}</a>, or browse <a href="../">every project explained</a>.`}</p>
 </section>
-${it.src === "gh" && /^https:\/\/github\.com\/[^/]+\/[^/]+$/.test(it.url || "") ? `<section id="install"><h2>How to install ${esc(it.name)}</h2><p>Get the code from GitHub:</p><pre><code>git clone ${esc(it.url)}.git
+${it.src === "gh" && /^https:\/\/github\.com\/[^/]+\/[^/]+$/.test(it.url || "") ? `<section id="install"><h2>How to download and install ${esc(it.name)}</h2><p>Download ${esc(it.name)} from GitHub with git:</p><pre><code>git clone ${esc(it.url)}.git
 cd ${esc(it.url.split("/").pop())}</code></pre><p>Then follow the setup steps in <a href="${esc(it.url)}#readme" rel="noopener">its README</a>, which lists what it needs and how to run it.</p><p><b>Check before you run it.</b> Look at who made it, read the code, and be wary of repos that ask you to download a zip or run an installer: new repos that gain stars fast are sometimes copies or malware.</p></section>` : ""}
 <section><h2>Quick facts</h2><ul class="rows">${facts.map(([k, v, raw]) => `<li><span class="m">${esc(k)}</span><span class="t">${raw ? v : esc(v)}</span></li>`).join("")}</ul></section>
 <section><h2>How it rose, day by day</h2><p>Recorded by Upcurrent at the end of each day (UTC). Rank is its place among that day's fastest-rising AI projects.</p>
