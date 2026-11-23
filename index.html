@@ -142,7 +142,7 @@ section.block.is-empty .empty { padding: 14px 0; }
 
 .sec-head { display: flex; justify-content: space-between; align-items: end; gap: 16px; flex-wrap: wrap; margin-bottom: 18px; }
 .sec-head h2 { margin: 6px 0 0; font: 800 clamp(24px, 3vw, 32px)/1.1 var(--font-display); letter-spacing: -.03em; text-wrap: balance; }
-.sec-head p { margin: 6px 0 0; color: var(--muted); font-size: 15px; max-width: 60ch; }
+.sec-head p { display: none; }
 
 .controls { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; }
 .seg { display: inline-flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; background: var(--paper); }
@@ -466,6 +466,7 @@ font[style] { background: none !important; box-shadow: none !important; }
       </div>
     </div>
     <div class="movers" id="risingList"></div>
+    <div id="risingNote"></div>
     <div class="note" id="winNote" hidden>Only the 24-hour ranking is in the snapshot, so 7D and 30D show the same list until live data loads.</div>
     <details class="how">
       <summary>How the momentum score works</summary>
@@ -473,9 +474,24 @@ font[style] { background: none !important; box-shadow: none !important; }
     </details>
   </section>
 
-  <section class="block" id="answers">
-    <div class="sec-head"><div><div class="eyebrow">Quick answers · updated with every check</div><h2>What's happening in AI right now</h2></div></div>
-    <div class="qa" id="qaList"></div>
+  <section class="signup" id="signup" hidden>
+    <div><h2>Get this every morning</h2><p>The 5 biggest AI moves of the day in one short email at 7am your time: new repos, models and free AI before they blow up. Free, and you can unsubscribe in one click. <a href="email.html">See today's email</a>.</p></div>
+    <form id="signupForm" class="nl-form" method="post" target="_blank">
+      <input type="email" name="email" required placeholder="you@example.com" aria-label="Email address" autocomplete="email">
+      <button type="submit">Get the 7am email</button>
+      <div class="ok" hidden>Almost done: open the email we just sent and click Confirm. Not there in a minute? Check Promotions or Spam.</div>
+    </form>
+  </section>
+  <section class="poll" id="poll" hidden aria-labelledby="pollQ">
+    <div><div class="eyebrow">One quick question</div><h2 id="pollQ">What do you come to Upcurrent for?</h2><p>One tap, no sign-up. It decides what gets built next.</p></div>
+    <div class="poll-opts" role="group" aria-labelledby="pollQ">
+      <button type="button" class="chip" data-poll="tools">Finding tools and models to use</button>
+      <button type="button" class="chip" data-poll="news">Keeping up with AI news</button>
+      <button type="button" class="chip" data-poll="building">Ideas for what to build</button>
+      <button type="button" class="chip" data-poll="work">Research or work</button>
+      <button type="button" class="chip" data-poll="curious">Just curious</button>
+    </div>
+    <p class="poll-done" hidden role="status">Thanks, that helps decide what comes next.</p>
   </section>
 
   <section class="block" id="how">
@@ -538,7 +554,8 @@ font[style] { background: none !important; box-shadow: none !important; }
   </section>
 
   <section class="block" id="news">
-    <div class="sec-head"><div><div class="eyebrow">Lab blogs · News · Video</div><h2>Headlines</h2><p>The latest announcements and stories about AI, newest first.</p></div></div>
+    <div class="sec-head"><div><div class="eyebrow">Lab blogs · News · Video</div><h2>Headlines</h2></div></div>
+    <div class="qa" id="qaList"></div>
     <ol class="news" id="newsList"></ol>
   </section>
 
@@ -548,25 +565,6 @@ font[style] { background: none !important; box-shadow: none !important; }
     <div class="free" id="freeBody"></div>
     <div id="freeNote"></div>
     <p class="more-links">More: <a href="free-ai-models/">full free models list</a> · <a href="free-ai-models/coding/">free models for coding</a> · <a href="free-ai-models/api/">free AI model API</a> · <a href="free-ai-models/history/">how long free models last</a> · <a href="llm-api-pricing/cheapest/">cheapest paid LLM APIs</a></p>
-  </section>
-  <section class="poll" id="poll" hidden aria-labelledby="pollQ">
-    <div><div class="eyebrow">One quick question</div><h2 id="pollQ">What do you come to Upcurrent for?</h2><p>One tap, no sign-up. It decides what gets built next.</p></div>
-    <div class="poll-opts" role="group" aria-labelledby="pollQ">
-      <button type="button" class="chip" data-poll="tools">Finding tools and models to use</button>
-      <button type="button" class="chip" data-poll="news">Keeping up with AI news</button>
-      <button type="button" class="chip" data-poll="building">Ideas for what to build</button>
-      <button type="button" class="chip" data-poll="work">Research or work</button>
-      <button type="button" class="chip" data-poll="curious">Just curious</button>
-    </div>
-    <p class="poll-done" hidden role="status">Thanks, that helps decide what comes next.</p>
-  </section>
-  <section class="signup" id="signup" hidden>
-    <div><h2>Get this every morning</h2><p>The 5 biggest AI moves of the day in one short email at 7am your time: new repos, models and free AI before they blow up. Free, and you can unsubscribe in one click. <a href="email.html">See today's email</a>.</p></div>
-    <form id="signupForm" class="nl-form" method="post" target="_blank">
-      <input type="email" name="email" required placeholder="you@example.com" aria-label="Email address" autocomplete="email">
-      <button type="submit">Get the 7am email</button>
-      <div class="ok" hidden>Almost done: open the email we just sent and click Confirm. Not there in a minute? Check Promotions or Spam.</div>
-    </form>
   </section>
 </main>
 
@@ -900,7 +898,9 @@ function render() {
   $("pulse").innerHTML = stats.map(([v, l]) => `<div><b class="num">${fmt(v)}</b><span>${l}</span></div>`).join("");
 
   const rows = D.rising.map((r, i) => ({ ...r, rank: i + 1 })).filter(r => matches(r.name + r.owner + r.desc, r.cat));
-  $("risingList").innerHTML = rows.length ? rows.map(r => `
+  const allRising = $("risingList").dataset.all === "1" || state.q;
+  $("risingNote").innerHTML = !state.q && rows.length > 5 ? `<button type="button" class="more-btn" id="risingToggle">${allRising ? "Show top 5" : `Show all ${rows.length}`}</button>` : "";
+  $("risingList").innerHTML = rows.length ? (allRising ? rows : rows.slice(0, 5)).map(r => `
     <article class="row${r.rank === 1 && state.cat === "all" && !state.q ? " lead" : ""}">
       <div class="rank">${r.rank}</div>
       <div style="min-width:0">
@@ -1081,6 +1081,7 @@ document.addEventListener("click", e => {
     state.win = w.dataset.w; $("winNote").hidden = w.dataset.w === "24h" || !DATA.isSnapshot;
     if (!DATA.isSnapshot && lastRaw) { rebuild(); render(); }
   }
+  if (e.target.id === "risingToggle") { $("risingList").dataset.all = $("risingList").dataset.all === "1" ? "" : "1"; render(); }
   if (e.target.id === "freeToggle") { $("freeBody").dataset.all = $("freeBody").dataset.all === "1" ? "" : "1"; render(); }
 });
 $("q").addEventListener("input", e => { state.q = e.target.value.trim().toLowerCase(); render(); });
