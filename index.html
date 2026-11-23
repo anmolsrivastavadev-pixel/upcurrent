@@ -480,9 +480,9 @@ font[style] { background: none !important; box-shadow: none !important; }
     <div class="sec-head"><div><div class="eyebrow">How it works</div><h2>All of AI's momentum, in one place</h2></div></div>
     <div class="demo">
       <ol class="steps">
-        <li><span class="k">1</span><div><h3>Upcurrent checks 17 sources</h3><p>Every 30 minutes it reads GitHub, Hugging Face, arXiv, Hacker News, AI lab blogs, news sites and model providers, so you don't have to.</p></div></li>
-        <li><span class="k">2</span><div><h3>It ranks what's picking up speed</h3><p>Each repo, model and paper gets a momentum score from how fast it's growing against everything else that day, with a link back to the original page.</p></div></li>
-        <li><span class="k">3</span><div><h3>You see it in one place, or by email</h3><p>Open the dashboard any time, or get the top movers at 7am in your own time zone. Free, no account.</p></div></li>
+        <li><span class="k">1</span><div><h3>Upcurrent checks 17 sources</h3><p>Every 30 minutes.</p></div></li>
+        <li><span class="k">2</span><div><h3>It ranks what's picking up speed</h3><p>Fastest-growing first.</p></div></li>
+        <li><span class="k">3</span><div><h3>You see it in one place, or by email</h3><p>Free, 7am your time.</p></div></li>
       </ol>
       <div class="win" aria-label="Example: what Upcurrent found in the latest check">
         <div class="win-bar" aria-hidden="true"><i></i><i></i><i></i><span>upcurrent.dev</span></div>
@@ -495,22 +495,22 @@ font[style] { background: none !important; box-shadow: none !important; }
   </section>
 
   <section class="block" id="breakouts">
-    <div class="sec-head"><div><div class="eyebrow">Named on 3 or more sources · last 3 days</div><h2>Breaking out</h2><p>The same model or project turning up on several separate sources at once, like GitHub, Hacker News and the news.</p></div></div>
+    <div class="sec-head"><div><div class="eyebrow">Named on 3 or more sources · last 3 days</div><h2>Breaking out</h2><p>Showing up everywhere at once.</p></div></div>
     <div class="bo-list" id="boList"></div>
   </section>
 
   <section class="block" id="hype">
-    <div class="sec-head"><div><div class="eyebrow">Talk vs. real use</div><h2>Hype check</h2><p>How many news sites, lab blogs and threads are talking about something, next to how much people actually use it: GitHub stars gained per day or Hugging Face downloads.</p></div></div>
+    <div class="sec-head"><div><div class="eyebrow">Talk vs. real use</div><h2>Hype check</h2><p>Buzz next to how much it's really used.</p></div></div>
     <div class="hype" id="hypeList"></div>
   </section>
 
   <section class="block" id="receipts">
-    <div class="sec-head"><div><div class="eyebrow">Receipts</div><h2>Called it</h2><p id="rcSub">Projects Upcurrent was already tracking before they passed a big milestone. Times come from our hourly records.</p></div></div>
+    <div class="sec-head"><div><div class="eyebrow">Receipts</div><h2>Called it</h2><p id="rcSub">Spotted here before they got big.</p></div></div>
     <ol class="receipts" id="rcList"></ol>
   </section>
 
   <section class="block" id="models">
-    <div class="sec-head"><div><div class="eyebrow">Hugging Face</div><h2>Models on the move</h2><p>Recently released models that are trending, with downloads to date.</p></div></div>
+    <div class="sec-head"><div><div class="eyebrow">Hugging Face</div><h2>Models on the move</h2><p>New and trending.</p></div></div>
     <div class="models" id="modelGrid"></div>
   </section>
 
@@ -525,7 +525,7 @@ font[style] { background: none !important; box-shadow: none !important; }
   <section class="block" id="threads">
     <div class="split">
       <div>
-        <div class="sec-head"><div><div class="eyebrow">Hacker News · Reddit · Lobsters · DEV · Mastodon · Bluesky · X</div><h2>Threads people are discussing</h2><p>Sorted by upvotes or likes per hour since posting.</p></div></div>
+        <div class="sec-head"><div><div class="eyebrow">Hacker News · Reddit · Lobsters · DEV · Mastodon · Bluesky · X</div><h2>Threads people are discussing</h2><p>Fastest-growing discussions.</p></div></div>
         <div class="threads" id="disc"></div>
       </div>
       <div>
@@ -596,7 +596,7 @@ font[style] { background: none !important; box-shadow: none !important; }
     <a href="promote/" style="text-decoration:underline">Get your AI project noticed</a>
     <a href="about/" style="text-decoration:underline">About and how it works</a>
     <a href="email.html" style="text-decoration:underline">Read today's email</a>
-    <p class="about">Upcurrent is a free AI trends dashboard. Every 30 minutes it checks GitHub, Hugging Face, arXiv, Hacker News, AI lab blogs, news sites and model providers, then ranks the AI repos, models, papers and stories that are picking up speed. It flags names breaking out across several sources, checks hype against real use, keeps receipts on projects it spotted early, and lists the AI models you can call for free today.</p>
+    <p class="about">Upcurrent is a free AI trends dashboard that ranks the AI repos, models and papers picking up speed. <a href="about/">How it works</a>.</p>
   </div>
 </footer>
 
@@ -960,14 +960,14 @@ function render() {
 
   const ds = D.discussions.filter(d => !state.q || d.t.toLowerCase().includes(state.q));
   const maxV = Math.max(1, ...ds.map(d => d.vel));
-  $("disc").innerHTML = ds.map(d => `<a class="thread" href="${esc(d.url)}" target="_blank" rel="noopener">
+  $("disc").innerHTML = ds.slice(0, state.q ? 99 : 6).map(d => `<a class="thread" href="${esc(d.url)}" target="_blank" rel="noopener">
     <div style="min-width:0"><div class="where"><span>${esc(d.src)}</span><span>${ago(d.at)}</span></div><div class="t">${esc(d.t)}</div><div class="stats">▲ ${fmt(d.up)} · ${fmt(d.com)} ${/^(X|Bluesky|Mastodon)$/.test(d.src) ? "replies" : "comments"}</div></div>
     <div class="vel"><b class="num">${Math.round(d.vel)}</b><span>${/^(X|Bluesky|Mastodon|DEV)$/.test(d.src) ? "likes/hr" : "upvotes/hr"}</span><div class="m"><i style="width:${d.vel / maxV * 100}%"></i></div></div></a>`).join("") || `<div class="empty">No threads match.</div>`;
 
   $("newToday").innerHTML = D.newToday.filter(n => !state.q || n.t.toLowerCase().includes(state.q)).map(n => `<li><time>${hhmm(n.at)}</time><span class="dot"></span><span>${n.url ? `<a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.t)}</a>` : esc(n.t)}</span></li>`).join("") || `<li><span></span><span></span><span class="empty">Nothing new matches.</span></li>`;
 
   const hl = (D.headlines || []).filter(h => !state.q || h.t.toLowerCase().includes(state.q));
-  $("newsList").innerHTML = hl.length ? hl.map(h => `<li><a class="h" href="${esc(h.url)}" target="_blank" rel="noopener">${NEW("h:" + h.url)}${esc(h.t)}</a><span class="w">${ago(h.at)}</span><span class="k"><span class="src">${esc((h.kind || "News").toUpperCase())}</span>${esc(h.src)}</span></li>`).join("")
+  $("newsList").innerHTML = hl.length ? hl.slice(0, state.q ? 99 : 8).map(h => `<li><a class="h" href="${esc(h.url)}" target="_blank" rel="noopener">${NEW("h:" + h.url)}${esc(h.t)}</a><span class="w">${ago(h.at)}</span><span class="k"><span class="src">${esc((h.kind || "News").toUpperCase())}</span>${esc(h.src)}</span></li>`).join("")
     : `<li class="empty">${D.isSnapshot ? "Headlines load with live data." : "No headlines match."}</li>`;
 
   const fc = D.freeCounts;
