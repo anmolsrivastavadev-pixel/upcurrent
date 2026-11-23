@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-23T17:31:02.123Z"
+  "updated": "2026-11-23T18:01:04.333Z"
  },
  "pulse": {
   "trending": 74,
-  "accelerating": 2,
+  "accelerating": 1,
   "newModels": 8,
-  "discussions": 48,
-  "stars": 2341
+  "discussions": 47,
+  "stars": 2328
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
    "meta": [
-    "★ 2,972",
-    "~1,403 in 24h",
+    "★ 2,990",
+    "~1,398 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-21T14:40:27Z",
@@ -88,7 +88,7 @@
    "cat": "Infrastructure",
    "score": 91,
    "grow": 154,
-   "desc": "Model on Hugging Face · open source · ♥ 608",
+   "desc": "Model on Hugging Face · open source · ♥ 612",
    "meta": [
     "329K downloads",
     "Released 3 days ago"
@@ -106,8 +106,8 @@
    "grow": null,
    "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
    "meta": [
-    "★ 2,277",
-    "~528 in 24h",
+    "★ 2,280",
+    "~526 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-19T10:00:43Z",
@@ -121,7 +121,7 @@
    "cat": "Tools",
    "score": 87,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 706",
+   "desc": "Model on Hugging Face · open source · ♥ 708",
    "meta": [
     "0 downloads",
     "Released 10 days ago"
@@ -208,8 +208,8 @@
    "name": "fast-anything",
    "url": "https://github.com/EL4CTEO/fast-anything",
    "from": "GitHub",
-   "use": 1403,
-   "useLabel": "~1,403 stars/day",
+   "use": 1398,
+   "useLabel": "~1,398 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -323,8 +323,8 @@
  "github": [
   {
    "repo": "EL4CTEO/fast-anything",
-   "stars": 2972,
-   "d24": 1403,
+   "stars": 2990,
+   "d24": 1398,
    "est": true,
    "forks": 192,
    "contrib": null,
@@ -334,8 +334,8 @@
   },
   {
    "repo": "iamajmeena/neonclipping",
-   "stars": 2277,
-   "d24": 528,
+   "stars": 2280,
+   "d24": 526,
    "est": true,
    "forks": 139,
    "contrib": null,
@@ -345,8 +345,8 @@
   },
   {
    "repo": "sybil-solutions/inference-optimisation-skill",
-   "stars": 2087,
-   "d24": 203,
+   "stars": 2088,
+   "d24": 195,
    "est": false,
    "forks": 198,
    "contrib": null,
@@ -356,8 +356,8 @@
   },
   {
    "repo": "pierridotite/mobile-agent-testers",
-   "stars": 1337,
-   "d24": 193,
+   "stars": 1352,
+   "d24": 195,
    "est": true,
    "forks": 129,
    "contrib": null,
@@ -387,7 +387,7 @@
    "grow": 60,
    "score": 94,
    "cat": "Infrastructure",
-   "likes": 1042
+   "likes": 1046
   },
   {
    "name": "Inkling-2-Mini",
@@ -398,7 +398,7 @@
    "grow": 78,
    "score": 92,
    "cat": "Vision",
-   "likes": 5366
+   "likes": 5372
   },
   {
    "name": "Inkling-2-Mini-Uncensored-GGUF",
@@ -409,7 +409,7 @@
    "grow": 154,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 608
+   "likes": 612
   },
   {
    "name": "voice-isolator",
@@ -420,7 +420,7 @@
    "grow": null,
    "score": 87,
    "cat": "Tools",
-   "likes": 706
+   "likes": 708
   },
   {
    "name": "Qwen3.8-27B-pi-adapted",
@@ -737,6 +737,13 @@
  },
  "headlines": [
   {
+   "t": "Sources: Musk has told employees SpaceX is falling behind in AI, making it more lucrative to rent out computing than use it to improve SpaceX's own products",
+   "url": "https://www.techmeme.com/261123/p31#a261123p31",
+   "at": "2026-11-23T17:35:00.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Supercharging transformer residual connections",
    "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
    "at": "2026-11-23T17:21:12.000Z",
@@ -835,17 +842,10 @@
    "kind": "News"
   },
   {
-   "t": "Nvidia's board unanimously votes to reinstate Jensen Huang as CEO, president, and board director, after finding \"no national security risk\"; NVDA jumps 35%+",
+   "t": "Nvidia's board unanimously votes to reinstate Jensen Huang as CEO, president, and board director, after finding \"no national security risk\"; NVDA jumps 30%+",
    "url": "https://www.techmeme.com/261123/p20#a261123p20",
    "at": "2026-11-23T14:03:19.000Z",
    "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "‘Pervert glasses’ named word of the year by Macquarie dictionary, ahead of ‘nudify’ and ‘AI;DR’",
-   "url": "https://www.theguardian.com/science/2026/nov/23/pervert-glasses-meta-word-of-the-year-macquarie-dictionary-nudify-aidr",
-   "at": "2026-11-23T13:55:40Z",
-   "src": "The Guardian",
    "kind": "News"
   }
  ],
@@ -855,8 +855,8 @@
    "t": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
    "url": "https://news.ycombinator.com/item?id=50609685",
    "link": "https://z.ai/blog/glm-5.4",
-   "up": 764,
-   "com": 268,
+   "up": 795,
+   "com": 282,
    "at": "2026-11-23T10:06:43.000Z"
   },
   {
@@ -864,8 +864,8 @@
    "t": "XNU Linux: Full OS X GUI Userspace on Linux",
    "url": "https://news.ycombinator.com/item?id=50607261",
    "link": "https://github.com/AFK-surf/xnulinux",
-   "up": 523,
-   "com": 218,
+   "up": 531,
+   "com": 221,
    "at": "2026-11-23T03:49:24.000Z"
   },
   {
@@ -873,17 +873,26 @@
    "t": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
    "url": "https://news.ycombinator.com/item?id=50603845",
    "link": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
-   "up": 678,
-   "com": 276,
+   "up": 684,
+   "com": 278,
    "at": "2026-11-22T21:01:16.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "GTA 6 Xbox executable released early by cyberleek",
+   "url": "https://news.ycombinator.com/item?id=50612686",
+   "link": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1y3jzqe/cyberleek_posted_the_gta_6_xbox_build_executable/",
+   "up": 88,
+   "com": 53,
+   "at": "2026-11-23T14:49:44.000Z"
   },
   {
    "src": "Hacker News",
    "t": "The Birds of GTA 6: A Field Guide to Vice City and Leonida's Wildlife",
    "url": "https://news.ycombinator.com/item?id=50602843",
    "link": "https://www.audubon.org/magazine/birds-of-gta-6-field-guide-vice-city-wildlife",
-   "up": 607,
-   "com": 345,
+   "up": 613,
+   "com": 347,
    "at": "2026-11-22T19:10:34.000Z"
   },
   {
@@ -891,18 +900,9 @@
    "t": "Nospeaker ─ Make your MacBook's trackpad talk using its haptic motor",
    "url": "https://news.ycombinator.com/item?id=50610318",
    "link": "https://github.com/os6/nospeaker",
-   "up": 149,
-   "com": 74,
+   "up": 163,
+   "com": 82,
    "at": "2026-11-23T11:31:54.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Win4wine – Run Windows Shell as the Linux Desktop on Wine",
-   "url": "https://news.ycombinator.com/item?id=50610743",
-   "link": "https://github.com/mikuta0407/win4wine",
-   "up": 124,
-   "com": 69,
-   "at": "2026-11-23T12:28:11.000Z"
   }
  ]
 }
