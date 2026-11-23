@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-23T04:30:57.107Z"
+  "updated": "2026-11-23T05:01:02.607Z"
  },
  "pulse": {
   "trending": 74,
   "accelerating": 0,
   "newModels": 10,
-  "discussions": 44,
-  "stars": 3035
+  "discussions": 46,
+  "stars": 3055
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 97,
-   "grow": 48,
+   "grow": 51,
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
    "meta": [
-    "★ 2,095",
-    "+1,426 in 24h",
+    "★ 2,130",
+    "+1,436 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-21T14:40:27Z",
@@ -39,7 +39,7 @@
    "cat": "Infrastructure",
    "score": 95,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 913",
+   "desc": "Model on Hugging Face · open source · ♥ 916",
    "meta": [
     "806K downloads",
     "Released 3 days ago"
@@ -73,8 +73,8 @@
    "grow": null,
    "desc": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
    "meta": [
-    "★ 8,104",
-    "~1,213 in 24h",
+    "★ 8,123",
+    "~1,212 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-11-16T12:10:36Z",
@@ -90,8 +90,8 @@
    "grow": 1,
    "desc": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
    "meta": [
-    "★ 2,753",
-    "+32 in 24h",
+    "★ 2,755",
+    "+34 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-19T14:43:10Z",
@@ -107,8 +107,8 @@
    "grow": 3,
    "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
    "meta": [
-    "★ 2,123",
-    "+163 in 24h",
+    "★ 2,131",
+    "+174 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-19T10:00:43Z",
@@ -122,7 +122,7 @@
    "cat": "Infrastructure",
    "score": 89,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 513",
+   "desc": "Model on Hugging Face · open source · ♥ 516",
    "meta": [
     "130K downloads",
     "Released 2 days ago"
@@ -154,7 +154,7 @@
    "cat": "Tools",
    "score": 87,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 647",
+   "desc": "Model on Hugging Face · open source · ♥ 650",
    "meta": [
     "0 downloads",
     "Released 9 days ago"
@@ -186,8 +186,8 @@
    "name": "fast-anything",
    "url": "https://github.com/EL4CTEO/fast-anything",
    "from": "GitHub",
-   "use": 1426,
-   "useLabel": "+1,426 stars/day",
+   "use": 1436,
+   "useLabel": "+1,436 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -301,10 +301,10 @@
  "github": [
   {
    "repo": "EL4CTEO/fast-anything",
-   "stars": 2095,
-   "d24": 1426,
+   "stars": 2130,
+   "d24": 1436,
    "est": false,
-   "forks": 130,
+   "forks": 134,
    "contrib": null,
    "score": 97,
    "cat": "Agents",
@@ -312,8 +312,8 @@
   },
   {
    "repo": "erkamyaman/rust-anything",
-   "stars": 8104,
-   "d24": 1213,
+   "stars": 8123,
+   "d24": 1212,
    "est": true,
    "forks": 655,
    "contrib": 23,
@@ -323,10 +323,10 @@
   },
   {
    "repo": "sybil-solutions/inference-optimisation-skill",
-   "stars": 1974,
-   "d24": 201,
+   "stars": 1977,
+   "d24": 199,
    "est": false,
-   "forks": 183,
+   "forks": 184,
    "contrib": null,
    "score": 82,
    "cat": "Agents",
@@ -334,10 +334,10 @@
   },
   {
    "repo": "iamajmeena/neonclipping",
-   "stars": 2123,
-   "d24": 163,
+   "stars": 2131,
+   "d24": 174,
    "est": false,
-   "forks": 121,
+   "forks": 122,
    "contrib": null,
    "score": 91,
    "cat": "Vision",
@@ -345,8 +345,8 @@
   },
   {
    "repo": "bookwjitchieni1986/blender-ai-mcp-addon",
-   "stars": 2753,
-   "d24": 32,
+   "stars": 2755,
+   "d24": 34,
    "est": false,
    "forks": 38,
    "contrib": null,
@@ -365,7 +365,7 @@
    "grow": 0,
    "score": 95,
    "cat": "Infrastructure",
-   "likes": 913
+   "likes": 916
   },
   {
    "name": "Inkling-2-Mini",
@@ -376,7 +376,7 @@
    "grow": 0,
    "score": 93,
    "cat": "Vision",
-   "likes": 5066
+   "likes": 5083
   },
   {
    "name": "Inkling-2-Mini-Uncensored-GGUF",
@@ -387,7 +387,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 513
+   "likes": 516
   },
   {
    "name": "Hy4-flash",
@@ -409,7 +409,7 @@
    "grow": null,
    "score": 87,
    "cat": "Tools",
-   "likes": 647
+   "likes": 650
   },
   {
    "name": "Qwen3.8-27B-pi-adapted",
@@ -806,18 +806,18 @@
    "kind": "News"
   },
   {
+   "t": "Domestic professional services firms eye mergers to build scale, compete with Big Six",
+   "url": "https://economictimes.indiatimes.com/industry/services/consultancy-/-audit/domestic-professional-services-firms-eye-mergers-to-build-scale-compete-with-big-six/articleshow/136079482.cms",
+   "at": "2026-11-22T16:55:00Z",
+   "src": "The Economic Times",
+   "kind": "News"
+  },
+  {
    "t": "Finally AI solved this | Riemann Hypothesis solved by Levent alpoge #claude #ai",
    "url": "https://www.youtube.com/watch?v=7Y3IHLnKphg",
    "at": "2026-11-22T16:27:48Z",
    "src": "Aditya Gautam",
    "kind": "Video"
-  },
-  {
-   "t": "The AI talent war: China is the factory, America the magnet, India an also-ran",
-   "url": "https://timesofindia.indiatimes.com/world/us/the-ai-talent-war-china-is-the-factory-america-the-magnet-india-an-also-ran/articleshow/136078837.cms",
-   "at": "2026-11-22T16:22:00Z",
-   "src": "Times of India",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -826,8 +826,8 @@
    "t": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
    "url": "https://news.ycombinator.com/item?id=50597612",
    "link": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
-   "up": 920,
-   "com": 920,
+   "up": 928,
+   "com": 923,
    "at": "2026-11-22T08:57:34.000Z"
   },
   {
@@ -835,8 +835,8 @@
    "t": "Perplexity and Intelligence",
    "url": "https://news.ycombinator.com/item?id=50601525",
    "link": "https://openai.com/index/perplexity-and-intelligence/",
-   "up": 525,
-   "com": 360,
+   "up": 528,
+   "com": 361,
    "at": "2026-11-22T17:06:27.000Z"
   },
   {
@@ -844,7 +844,7 @@
    "t": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
    "url": "https://news.ycombinator.com/item?id=50603845",
    "link": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
-   "up": 336,
+   "up": 348,
    "com": 143,
    "at": "2026-11-22T21:01:16.000Z"
   },
@@ -853,8 +853,8 @@
    "t": "The Birds of GTA 6: A Field Guide to Vice City and Leonida's Wildlife",
    "url": "https://news.ycombinator.com/item?id=50602843",
    "link": "https://www.audubon.org/magazine/birds-of-gta-6-field-guide-vice-city-wildlife",
-   "up": 405,
-   "com": 200,
+   "up": 411,
+   "com": 204,
    "at": "2026-11-22T19:10:34.000Z"
   },
   {
@@ -862,18 +862,18 @@
    "t": "Progress map for the Lean formalization of Alessandro Masullo's manuscript",
    "url": "https://news.ycombinator.com/item?id=50605045",
    "link": "https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3",
-   "up": 180,
-   "com": 151,
+   "up": 187,
+   "com": 152,
    "at": "2026-11-22T23:12:10.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Show HN: I built a game where you are an LLM's subagent",
-   "url": "https://news.ycombinator.com/item?id=50599762",
-   "link": "https://github.com/gulivan/worker755",
-   "up": 290,
-   "com": 69,
-   "at": "2026-11-22T13:56:58.000Z"
+   "t": "XNU Linux: Full OS X GUI Userspace on Linux",
+   "url": "https://news.ycombinator.com/item?id=50607261",
+   "link": "https://github.com/AFK-surf/xnulinux",
+   "up": 36,
+   "com": 9,
+   "at": "2026-11-23T03:49:24.000Z"
   }
  ]
 }
