@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-23T13:40:27.985Z"
+  "updated": "2026-11-23T14:01:06.419Z"
  },
  "pulse": {
   "trending": 73,
   "accelerating": 1,
   "newModels": 9,
-  "discussions": 49,
-  "stars": 1956
+  "discussions": 48,
+  "stars": 1962
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
    "meta": [
-    "★ 2,761",
-    "~1,410 in 24h",
+    "★ 2,790",
+    "~1,414 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-21T14:40:27Z",
@@ -74,7 +74,7 @@
    "desc": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
    "meta": [
     "★ 2,760",
-    "+8 in 24h",
+    "+7 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-19T14:43:10Z",
@@ -88,7 +88,7 @@
    "cat": "Infrastructure",
    "score": 91,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 581",
+   "desc": "Model on Hugging Face · open source · ♥ 583",
    "meta": [
     "329K downloads",
     "Released 3 days ago"
@@ -102,12 +102,12 @@
    "owner": "iamajmeena",
    "src": "gh",
    "cat": "Vision",
-   "score": 90,
+   "score": 89,
    "grow": 9,
    "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
    "meta": [
-    "★ 2,240",
-    "+235 in 24h",
+    "★ 2,246",
+    "+239 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-19T10:00:43Z",
@@ -121,7 +121,7 @@
    "cat": "Tools",
    "score": 87,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 694",
+   "desc": "Model on Hugging Face · open source · ♥ 696",
    "meta": [
     "0 downloads",
     "Released 9 days ago"
@@ -156,7 +156,7 @@
    "grow": null,
    "desc": "Manifold-constrained Hyper-Connections (mHC) extends residual connections to multiple streams and stabilizes residual propagation by constraining stream-mixing residual matrices to the Birkhoff polytope, the set of doubly stochastic matrices.",
    "meta": [
-    "▲ 79 upvotes",
+    "▲ 80 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-11-19T19:00:00.000Z",
@@ -208,8 +208,8 @@
    "name": "fast-anything",
    "url": "https://github.com/EL4CTEO/fast-anything",
    "from": "GitHub",
-   "use": 1409,
-   "useLabel": "~1,409 stars/day",
+   "use": 1414,
+   "useLabel": "~1,414 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -323,10 +323,10 @@
  "github": [
   {
    "repo": "EL4CTEO/fast-anything",
-   "stars": 2761,
-   "d24": 1410,
+   "stars": 2790,
+   "d24": 1414,
    "est": true,
-   "forks": 172,
+   "forks": 176,
    "contrib": null,
    "score": 97,
    "cat": "Agents",
@@ -334,10 +334,10 @@
   },
   {
    "repo": "sybil-solutions/inference-optimisation-skill",
-   "stars": 2055,
-   "d24": 303,
+   "stars": 2057,
+   "d24": 302,
    "est": true,
-   "forks": 193,
+   "forks": 195,
    "contrib": null,
    "score": 81,
    "cat": "Agents",
@@ -345,19 +345,19 @@
   },
   {
    "repo": "iamajmeena/neonclipping",
-   "stars": 2240,
-   "d24": 235,
+   "stars": 2246,
+   "d24": 239,
    "est": false,
    "forks": 135,
    "contrib": null,
-   "score": 90,
+   "score": 89,
    "cat": "Vision",
    "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM)."
   },
   {
    "repo": "bookwjitchieni1986/blender-ai-mcp-addon",
    "stars": 2760,
-   "d24": 8,
+   "d24": 7,
    "est": false,
    "forks": 40,
    "contrib": null,
@@ -376,7 +376,7 @@
    "grow": null,
    "score": 94,
    "cat": "Infrastructure",
-   "likes": 1003
+   "likes": 1007
   },
   {
    "name": "Inkling-2-Mini",
@@ -387,7 +387,7 @@
    "grow": null,
    "score": 92,
    "cat": "Vision",
-   "likes": 5288
+   "likes": 5296
   },
   {
    "name": "Inkling-2-Mini-Uncensored-GGUF",
@@ -398,7 +398,7 @@
    "grow": null,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 581
+   "likes": 583
   },
   {
    "name": "voice-isolator",
@@ -409,7 +409,7 @@
    "grow": null,
    "score": 87,
    "cat": "Tools",
-   "likes": 694
+   "likes": 696
   },
   {
    "name": "Qwen3.8-27B-pi-adapted",
@@ -421,7 +421,7 @@
    "grow": 11,
    "score": 85,
    "cat": "Agents",
-   "likes": 1015
+   "likes": 1016
   },
   {
    "name": "Hy4-flash",
@@ -736,6 +736,13 @@
  },
  "headlines": [
   {
+   "t": "‘Pervert glasses’ named word of the year by Macquarie dictionary, ahead of ‘nudify’ and ‘AI;DR’",
+   "url": "https://www.theguardian.com/science/2026/nov/23/pervert-glasses-meta-word-of-the-year-macquarie-dictionary-nudify-aidr",
+   "at": "2026-11-23T13:55:40Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
    "t": "Dylan Moran goes looking for trouble and disappears off the beaten track in this baffling comedy show",
    "url": "https://www.theguardian.com/stage/2026/nov/23/dylan-moran-looking-for-trouble-review",
    "at": "2026-11-23T13:32:49Z",
@@ -827,13 +834,6 @@
    "kind": "News"
   },
   {
-   "t": "Chinese physical AI startup Simplexity Robotics raised a $100M pre-Series A led by Ant Group, with Alibaba, Tencent, and others joining, at a $1.6B valuation",
-   "url": "https://www.techmeme.com/261123/p4#a261123p4",
-   "at": "2026-11-23T07:01:27.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Victorian Liberal party uses AI to write Jess Wilson’s tribute to Molly Meldrum ",
    "url": "https://www.theguardian.com/australia-news/2026/nov/23/victorian-liberal-party-uses-ai-to-write-jess-wilsons-tribute-to-molly-meldrum",
    "at": "2026-11-23T03:23:44Z",
@@ -841,10 +841,10 @@
    "kind": "News"
   },
   {
-   "t": "Treasury Futures Fall As Rising Stocks Damp Demand For Havens",
-   "url": "https://www.ndtvprofit.com/markets/us-treasury-futures-fall-as-rising-stocks-damp-demand-for-havens-12363816",
-   "at": "2026-11-23T01:34:14Z",
-   "src": "NDTV Profit",
+   "t": "Oracle secures all funding needed to fulfill contract with OpenAI",
+   "url": "https://markets.businessinsider.com/news/stocks/oracle-secures-all-funding-needed-to-fulfill-contract-with-openai-1036790693",
+   "at": "2026-11-23T01:55:09Z",
+   "src": "Markets Insider",
    "kind": "News"
   }
  ],
@@ -854,8 +854,8 @@
    "t": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
    "url": "https://news.ycombinator.com/item?id=50609685",
    "link": "https://z.ai/blog/glm-5.4",
-   "up": 357,
-   "com": 158,
+   "up": 400,
+   "com": 168,
    "at": "2026-11-23T10:06:43.000Z"
   },
   {
@@ -863,8 +863,8 @@
    "t": "XNU Linux: Full OS X GUI Userspace on Linux",
    "url": "https://news.ycombinator.com/item?id=50607261",
    "link": "https://github.com/AFK-surf/xnulinux",
-   "up": 433,
-   "com": 195,
+   "up": 449,
+   "com": 196,
    "at": "2026-11-23T03:49:24.000Z"
   },
   {
@@ -872,8 +872,8 @@
    "t": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
    "url": "https://news.ycombinator.com/item?id=50603845",
    "link": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
-   "up": 591,
-   "com": 247,
+   "up": 602,
+   "com": 249,
    "at": "2026-11-22T21:01:16.000Z"
   },
   {
@@ -881,8 +881,8 @@
    "t": "Amodei reportedly suggested games could pacify masses after AI took their jobs",
    "url": "https://news.ycombinator.com/item?id=50610830",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1039745/dario-amodei-video-games-ai-joblessness",
-   "up": 35,
-   "com": 30,
+   "up": 44,
+   "com": 53,
    "at": "2026-11-23T12:41:14.000Z"
   },
   {
@@ -890,8 +890,8 @@
    "t": "Perplexity and Intelligence",
    "url": "https://news.ycombinator.com/item?id=50601525",
    "link": "https://openai.com/index/perplexity-and-intelligence/",
-   "up": 627,
-   "com": 411,
+   "up": 631,
+   "com": 414,
    "at": "2026-11-22T17:06:27.000Z"
   },
   {
@@ -899,8 +899,8 @@
    "t": "The Birds of GTA 6: A Field Guide to Vice City and Leonida's Wildlife",
    "url": "https://news.ycombinator.com/item?id=50602843",
    "link": "https://www.audubon.org/magazine/birds-of-gta-6-field-guide-vice-city-wildlife",
-   "up": 553,
-   "com": 298,
+   "up": 558,
+   "com": 304,
    "at": "2026-11-22T19:10:34.000Z"
   }
  ]
