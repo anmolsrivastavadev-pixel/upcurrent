@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-23T12:01:09.053Z"
+  "updated": "2026-11-23T12:30:55.807Z"
  },
  "pulse": {
-  "trending": 74,
+  "trending": 73,
   "accelerating": 1,
   "newModels": 9,
-  "discussions": 44,
-  "stars": 3712
+  "discussions": 45,
+  "stars": 2790
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 97,
-   "grow": 87,
+   "grow": 89,
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
    "meta": [
-    "★ 2,641",
-    "+1,553 in 24h",
+    "★ 2,667",
+    "+1,545 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-21T14:40:27Z",
@@ -39,7 +39,7 @@
    "cat": "Infrastructure",
    "score": 94,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 981",
+   "desc": "Model on Hugging Face · open source · ♥ 989",
    "meta": [
     "1.3M downloads",
     "Released 3 days ago"
@@ -53,33 +53,32 @@
    "owner": "thinkingmachines",
    "src": "hf",
    "cat": "Vision",
-   "score": 93,
+   "score": 92,
    "grow": null,
-   "desc": "Vision on Hugging Face · open source · ♥ 5.2K",
+   "desc": "Vision on Hugging Face · open source · ♥ 5.3K",
    "meta": [
     "42K downloads",
-    "Released 6 days ago"
+    "Released 7 days ago"
    ],
    "at": "2026-11-17T00:26:57.000Z",
    "breakout": null,
    "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini"
   },
   {
-   "name": "rust-anything",
-   "owner": "erkamyaman",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 91,
-   "grow": 5,
-   "desc": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
+   "name": "Inkling-2-Mini-Uncensored-GGUF",
+   "owner": "AtomicChat",
+   "src": "hf",
+   "cat": "Infrastructure",
+   "score": 92,
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 573",
    "meta": [
-    "★ 8,422",
-    "+916 in 24h",
-    "Created 7 days ago"
+    "329K downloads",
+    "Released 3 days ago"
    ],
-   "at": "2026-11-16T12:10:36Z",
+   "at": "2026-11-20T20:42:23.000Z",
    "breakout": null,
-   "url": "https://github.com/erkamyaman/rust-anything"
+   "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF"
   },
   {
    "name": "blender-ai-mcp-addon",
@@ -91,7 +90,7 @@
    "desc": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
    "meta": [
     "★ 2,760",
-    "~710 in 24h",
+    "~706 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-19T14:43:10Z",
@@ -107,45 +106,13 @@
    "grow": 8,
    "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
    "meta": [
-    "★ 2,220",
-    "+230 in 24h",
+    "★ 2,230",
+    "+237 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-19T10:00:43Z",
    "breakout": null,
    "url": "https://github.com/iamajmeena/neonclipping"
-  },
-  {
-   "name": "Hy4-flash",
-   "owner": "tencent",
-   "src": "hf",
-   "cat": "Vision",
-   "score": 88,
-   "grow": null,
-   "desc": "Vision on Hugging Face · open weights · ♥ 632",
-   "meta": [
-    "7.7K downloads",
-    "Released 6 days ago"
-   ],
-   "at": "2026-11-17T03:44:46.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/tencent/Hy4-flash"
-  },
-  {
-   "name": "Inkling-2-Mini-Uncensored-GGUF",
-   "owner": "AtomicChat",
-   "src": "hf",
-   "cat": "Infrastructure",
-   "score": 88,
-   "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 564",
-   "meta": [
-    "329K downloads",
-    "Released 3 days ago"
-   ],
-   "at": "2026-11-20T20:42:23.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF"
   },
   {
    "name": "voice-isolator",
@@ -154,7 +121,7 @@
    "cat": "Tools",
    "score": 87,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 680",
+   "desc": "Model on Hugging Face · open source · ♥ 684",
    "meta": [
     "0 downloads",
     "Released 9 days ago"
@@ -178,6 +145,39 @@
    "at": "2026-11-16T06:52:31.000Z",
    "breakout": null,
    "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted"
+  },
+  {
+   "name": "cmHC: Balancing Stream Mixing in Hyper-Connections via Geometric Contraction",
+   "owner": "Paper",
+   "src": "paper",
+   "url": "https://huggingface.co/papers/2611.27193",
+   "cat": "Research",
+   "score": 85,
+   "grow": null,
+   "desc": "Manifold-constrained Hyper-Connections (mHC) extends residual connections to multiple streams and stabilizes residual propagation by constraining stream-mixing residual matrices to the Birkhoff polytope, the set of doubly stochastic matrices.",
+   "meta": [
+    "▲ 78 upvotes",
+    "Hugging Face Papers"
+   ],
+   "at": "2026-11-19T19:00:00.000Z",
+   "breakout": null
+  },
+  {
+   "name": "Yoroll",
+   "owner": "Product Hunt",
+   "src": "ph",
+   "url": "https://www.producthunt.com/products/yoroll?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29",
+   "cat": "Tools",
+   "score": 85,
+   "grow": null,
+   "desc": "Build playable stories without a game engine",
+   "meta": [
+    "▲ 352 votes",
+    "34 comments",
+    "Launched yesterday"
+   ],
+   "at": "2026-11-22T08:01:00Z",
+   "breakout": null
   }
  ],
  "breakouts": [],
@@ -208,8 +208,8 @@
    "name": "fast-anything",
    "url": "https://github.com/EL4CTEO/fast-anything",
    "from": "GitHub",
-   "use": 1553,
-   "useLabel": "+1,553 stars/day",
+   "use": 1545,
+   "useLabel": "+1,545 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -323,30 +323,19 @@
  "github": [
   {
    "repo": "EL4CTEO/fast-anything",
-   "stars": 2641,
-   "d24": 1553,
+   "stars": 2667,
+   "d24": 1545,
    "est": false,
-   "forks": 165,
+   "forks": 167,
    "contrib": null,
    "score": 97,
    "cat": "Agents",
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same."
   },
   {
-   "repo": "erkamyaman/rust-anything",
-   "stars": 8422,
-   "d24": 916,
-   "est": false,
-   "forks": 676,
-   "contrib": 24,
-   "score": 91,
-   "cat": "Agents",
-   "desc": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java."
-  },
-  {
    "repo": "bookwjitchieni1986/blender-ai-mcp-addon",
    "stars": 2760,
-   "d24": 710,
+   "d24": 706,
    "est": true,
    "forks": 40,
    "contrib": null,
@@ -356,10 +345,10 @@
   },
   {
    "repo": "sybil-solutions/inference-optimisation-skill",
-   "stars": 2034,
-   "d24": 303,
+   "stars": 2039,
+   "d24": 302,
    "est": true,
-   "forks": 191,
+   "forks": 192,
    "contrib": null,
    "score": 81,
    "cat": "Agents",
@@ -367,8 +356,8 @@
   },
   {
    "repo": "iamajmeena/neonclipping",
-   "stars": 2220,
-   "d24": 230,
+   "stars": 2230,
+   "d24": 237,
    "est": false,
    "forks": 134,
    "contrib": null,
@@ -387,7 +376,7 @@
    "grow": null,
    "score": 94,
    "cat": "Infrastructure",
-   "likes": 981
+   "likes": 989
   },
   {
    "name": "Inkling-2-Mini",
@@ -396,20 +385,9 @@
    "at": "2026-11-17T00:26:57.000Z",
    "dl": 41888,
    "grow": null,
-   "score": 93,
+   "score": 92,
    "cat": "Vision",
-   "likes": 5246
-  },
-  {
-   "name": "Hy4-flash",
-   "org": "tencent",
-   "lic": "Open weights",
-   "at": "2026-11-17T03:44:46.000Z",
-   "dl": 7696,
-   "grow": null,
-   "score": 88,
-   "cat": "Vision",
-   "likes": 632
+   "likes": 5256
   },
   {
    "name": "Inkling-2-Mini-Uncensored-GGUF",
@@ -418,9 +396,9 @@
    "at": "2026-11-20T20:42:23.000Z",
    "dl": 329497,
    "grow": null,
-   "score": 88,
+   "score": 92,
    "cat": "Infrastructure",
-   "likes": 564
+   "likes": 573
   },
   {
    "name": "voice-isolator",
@@ -431,7 +409,7 @@
    "grow": null,
    "score": 87,
    "cat": "Tools",
-   "likes": 680
+   "likes": 684
   },
   {
    "name": "Qwen3.8-27B-pi-adapted",
@@ -444,6 +422,17 @@
    "score": 85,
    "cat": "Agents",
    "likes": 1011
+  },
+  {
+   "name": "Hy4-flash",
+   "org": "tencent",
+   "lic": "Open weights",
+   "at": "2026-11-17T03:44:46.000Z",
+   "dl": 7696,
+   "grow": null,
+   "score": 83,
+   "cat": "Vision",
+   "likes": 633
   }
  ],
  "free": [
@@ -747,6 +736,27 @@
  },
  "headlines": [
   {
+   "t": "Arm CEO Rene Haas extends his contract through 2033 and will become SoftBank vice chair on December 1; a recruiting firm approached him over becoming Nvidia CEO",
+   "url": "https://www.techmeme.com/261123/p17#a261123p17",
+   "at": "2026-11-23T12:30:02.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Marlowe, which develops cloud infrastructure and performance tools to optimize non-Nvidia AI chips, raised a $277M seed led by Accel at a $1.15B valuation",
+   "url": "https://www.techmeme.com/261123/p16#a261123p16",
+   "at": "2026-11-23T12:15:00.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Bret Taylor's customer service AI startup Sierra says it's finalizing a $1.75B+ round led by Lightspeed and Greenoaks at a $30B valuation, up from $15.8B in May",
+   "url": "https://www.techmeme.com/261123/p15#a261123p15",
+   "at": "2026-11-23T12:10:00.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Sources: Jensen Huang developed a close relationship with Trump and made lobbying calls to secure AI chip sales to China, which he called a $50B per year market",
    "url": "https://www.techmeme.com/261123/p14#a261123p14",
    "at": "2026-11-23T11:40:01.000Z",
@@ -803,17 +813,24 @@
    "kind": "News"
   },
   {
-   "t": "London-based Alecto, which uses AI and legal experts to help consumers understand UK property law, raised a $20M seed led by Insight Partners",
-   "url": "https://www.techmeme.com/261123/p1#a261123p1",
-   "at": "2026-11-23T05:30:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Victorian Liberal party uses AI to write Jess Wilson’s tribute to Molly Meldrum ",
    "url": "https://www.theguardian.com/australia-news/2026/nov/23/victorian-liberal-party-uses-ai-to-write-jess-wilsons-tribute-to-molly-meldrum",
    "at": "2026-11-23T03:23:44Z",
    "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "OpenAI's Jakub Pachocki announces perplexity proposal to ensure AI safety",
+   "url": "https://www.newsbytesapp.com/news/science/openais-jakub-pachocki-announces-perplexity-proposal-to-ensure-ai-safety/tldr",
+   "at": "2026-11-23T00:09:41Z",
+   "src": "NewsBytes",
+   "kind": "News"
+  },
+  {
+   "t": "IT firms report solid earnings growth",
+   "url": "https://www.bangkokpost.com/business/general/3359625/it-firms-report-solid-earnings-growth",
+   "at": "2026-11-23T00:08:00Z",
+   "src": "Bangkok Post",
    "kind": "News"
   },
   {
@@ -829,34 +846,6 @@
    "at": "2026-11-22T23:56:48Z",
    "src": "Deccan Herald",
    "kind": "News"
-  },
-  {
-   "t": "OpenAI backs common AI development limits with ‘perplexity’ as key safety metric",
-   "url": "https://www.hindustantimes.com/world-news/us-news/openai-backs-common-ai-development-limits-with-perplexity-as-key-safety-metric-101795390716436.html",
-   "at": "2026-11-22T23:53:09Z",
-   "src": "Hindustan Times",
-   "kind": "News"
-  },
-  {
-   "t": "Edsource: Uc Gives Students Free Access To Chatgpt. Faculty Says Openai Deal Is 'Unwise'",
-   "url": "https://www.sfgate.com/news/bayarea/article/edsource-uc-gives-students-free-access-to-22545195.php",
-   "at": "2026-11-22T23:28:02Z",
-   "src": "SFGATE",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI scientist proposes industry AI limits tied to model intelligence metric",
-   "url": "https://www.marketscreener.com/news/openai-scientist-proposes-industry-ai-limits-tied-to-model-intelligence-metric-ce785ed3d18ff32d",
-   "at": "2026-11-22T23:03:39Z",
-   "src": "MarketScreener",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI's Jakub Pachocki urges measuring perplexity to slow AI",
-   "url": "https://www.newsbytesapp.com/news/science/openais-jakub-pachocki-urges-measuring-perplexity-to-slow-ai/tldr",
-   "at": "2026-11-22T21:34:07Z",
-   "src": "NewsBytes",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -865,8 +854,8 @@
    "t": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
    "url": "https://news.ycombinator.com/item?id=50609685",
    "link": "https://z.ai/blog/glm-5.4",
-   "up": 157,
-   "com": 76,
+   "up": 216,
+   "com": 96,
    "at": "2026-11-23T10:06:43.000Z"
   },
   {
@@ -874,8 +863,8 @@
    "t": "XNU Linux: Full OS X GUI Userspace on Linux",
    "url": "https://news.ycombinator.com/item?id=50607261",
    "link": "https://github.com/AFK-surf/xnulinux",
-   "up": 380,
-   "com": 172,
+   "up": 397,
+   "com": 185,
    "at": "2026-11-23T03:49:24.000Z"
   },
   {
@@ -883,8 +872,8 @@
    "t": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
    "url": "https://news.ycombinator.com/item?id=50603845",
    "link": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
-   "up": 555,
-   "com": 232,
+   "up": 566,
+   "com": 237,
    "at": "2026-11-22T21:01:16.000Z"
   },
   {
@@ -892,9 +881,18 @@
    "t": "Perplexity and Intelligence",
    "url": "https://news.ycombinator.com/item?id=50601525",
    "link": "https://openai.com/index/perplexity-and-intelligence/",
-   "up": 605,
-   "com": 405,
+   "up": 612,
+   "com": 406,
    "at": "2026-11-22T17:06:27.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "The Birds of GTA 6: A Field Guide to Vice City and Leonida's Wildlife",
+   "url": "https://news.ycombinator.com/item?id=50602843",
+   "link": "https://www.audubon.org/magazine/birds-of-gta-6-field-guide-vice-city-wildlife",
+   "up": 534,
+   "com": 279,
+   "at": "2026-11-22T19:10:34.000Z"
   },
   {
    "src": "Hacker News",
@@ -902,17 +900,8 @@
    "url": "https://news.ycombinator.com/item?id=50609079",
    "link": "https://huijzer.xyz/posts/174/gta-6-building-personal-behavioral-profile-for-eve",
    "up": 100,
-   "com": 67,
+   "com": 68,
    "at": "2026-11-23T08:51:50.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "The Birds of GTA 6: A Field Guide to Vice City and Leonida's Wildlife",
-   "url": "https://news.ycombinator.com/item?id=50602843",
-   "link": "https://www.audubon.org/magazine/birds-of-gta-6-field-guide-vice-city-wildlife",
-   "up": 526,
-   "com": 269,
-   "at": "2026-11-22T19:10:34.000Z"
   }
  ]
 }
