@@ -1638,7 +1638,7 @@ function collectExplainers(days, data) {
   days.forEach(day => {
     const d = data[day];
     (d.rising || []).forEach((r, i) => {
-      if (!r.url || !KIND[r.src]) return;
+      if (!r.url || !KIND[r.src] || /nsfw/i.test(`${r.name} ${r.desc || ""}`)) return;
       let it = items.get(r.url);
       if (!it && i >= EXPLAIN_TOP) return;
       if (!it) items.set(r.url, it = { url: r.url, src: r.src, name: r.name, owner: r.owner, cat: r.cat, desc: r.desc, at: r.at, hist: [], top: 0 });
