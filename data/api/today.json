@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-23T18:31:04.121Z"
+  "updated": "2026-11-23T19:01:06.827Z"
  },
  "pulse": {
-  "trending": 74,
+  "trending": 73,
   "accelerating": 1,
-  "newModels": 9,
-  "discussions": 46,
-  "stars": 2318
+  "newModels": 8,
+  "discussions": 47,
+  "stars": 2119
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
    "meta": [
-    "★ 3,004",
-    "~1,391 in 24h",
+    "★ 3,019",
+    "~1,384 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-21T14:40:27Z",
@@ -39,7 +39,7 @@
    "cat": "Infrastructure",
    "score": 94,
    "grow": 60,
-   "desc": "Model on Hugging Face · open source · ♥ 1K",
+   "desc": "Model on Hugging Face · open source · ♥ 1.1K",
    "meta": [
     "1.3M downloads",
     "Released 3 days ago"
@@ -73,8 +73,8 @@
    "grow": 0,
    "desc": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
    "meta": [
-    "★ 2,764",
-    "+13 in 24h",
+    "★ 2,765",
+    "+15 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-19T14:43:10Z",
@@ -88,7 +88,7 @@
    "cat": "Infrastructure",
    "score": 91,
    "grow": 154,
-   "desc": "Model on Hugging Face · open source · ♥ 615",
+   "desc": "Model on Hugging Face · open source · ♥ 616",
    "meta": [
     "329K downloads",
     "Released 3 days ago"
@@ -106,7 +106,7 @@
    "grow": null,
    "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
    "meta": [
-    "★ 2,283",
+    "★ 2,291",
     "~524 in 24h",
     "Created 4 days ago"
    ],
@@ -121,7 +121,7 @@
    "cat": "Tools",
    "score": 87,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 712",
+   "desc": "Model on Hugging Face · open source · ♥ 713",
    "meta": [
     "0 downloads",
     "Released 10 days ago"
@@ -136,11 +136,11 @@
    "src": "hf",
    "cat": "Agents",
    "score": 85,
-   "grow": 11,
+   "grow": null,
    "desc": "Model on Hugging Face · open source · ♥ 1K",
    "meta": [
     "3.1K downloads",
-    "Released 7 days ago"
+    "Released 8 days ago"
    ],
    "at": "2026-11-16T06:52:31.000Z",
    "breakout": null,
@@ -156,7 +156,7 @@
    "grow": null,
    "desc": "Manifold-constrained Hyper-Connections (mHC) extends residual connections to multiple streams and stabilizes residual propagation by constraining stream-mixing residual matrices to the Birkhoff polytope, the set of doubly stochastic matrices.",
    "meta": [
-    "▲ 84 upvotes",
+    "▲ 85 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-11-19T19:00:00.000Z",
@@ -172,8 +172,8 @@
    "grow": null,
    "desc": "Build playable stories without a game engine",
    "meta": [
-    "▲ 357 votes",
-    "33 comments",
+    "▲ 358 votes",
+    "34 comments",
     "Launched yesterday"
    ],
    "at": "2026-11-22T08:01:00Z",
@@ -208,8 +208,8 @@
    "name": "fast-anything",
    "url": "https://github.com/EL4CTEO/fast-anything",
    "from": "GitHub",
-   "use": 1391,
-   "useLabel": "~1,391 stars/day",
+   "use": 1384,
+   "useLabel": "~1,384 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -239,6 +239,16 @@
   }
  ],
  "receipts": [
+  {
+   "name": "wquguru/cicada",
+   "url": "https://github.com/wquguru/cicada",
+   "kind": "stars",
+   "first": "2026-11-05T15:30:50.070Z",
+   "firstV": 1445,
+   "m": 2500,
+   "at": "2026-11-23T19:01:06.827Z",
+   "lead": 435.5046547222222
+  },
   {
    "name": "unsloth/Inkling-2-Mini-GGUF",
    "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
@@ -308,25 +318,15 @@
    "m": 10000,
    "at": "2026-11-22T10:30:58.435Z",
    "lead": 140.4967511111111
-  },
-  {
-   "name": "thinkingmachines/Inkling-2-Mini",
-   "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
-   "kind": "downloads",
-   "first": "2026-11-20T21:01:03.487Z",
-   "firstV": 136,
-   "m": 10000,
-   "at": "2026-11-22T10:30:58.435Z",
-   "lead": 37.498596666666664
   }
  ],
  "github": [
   {
    "repo": "EL4CTEO/fast-anything",
-   "stars": 3004,
-   "d24": 1391,
+   "stars": 3019,
+   "d24": 1384,
    "est": true,
-   "forks": 193,
+   "forks": 194,
    "contrib": null,
    "score": 97,
    "cat": "Agents",
@@ -334,32 +334,21 @@
   },
   {
    "repo": "iamajmeena/neonclipping",
-   "stars": 2283,
+   "stars": 2291,
    "d24": 524,
    "est": true,
-   "forks": 141,
+   "forks": 142,
    "contrib": null,
    "score": 89,
    "cat": "Vision",
    "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM)."
   },
   {
-   "repo": "sybil-solutions/inference-optimisation-skill",
-   "stars": 2092,
-   "d24": 195,
-   "est": false,
-   "forks": 198,
-   "contrib": null,
-   "score": 81,
-   "cat": "Agents",
-   "desc": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization"
-  },
-  {
    "repo": "pierridotite/mobile-agent-testers",
-   "stars": 1360,
-   "d24": 195,
+   "stars": 1368,
+   "d24": 196,
    "est": true,
-   "forks": 130,
+   "forks": 132,
    "contrib": null,
    "score": 71,
    "cat": "Agents",
@@ -367,8 +356,8 @@
   },
   {
    "repo": "bookwjitchieni1986/blender-ai-mcp-addon",
-   "stars": 2764,
-   "d24": 13,
+   "stars": 2765,
+   "d24": 15,
    "est": false,
    "forks": 40,
    "contrib": null,
@@ -387,7 +376,7 @@
    "grow": 60,
    "score": 94,
    "cat": "Infrastructure",
-   "likes": 1049
+   "likes": 1054
   },
   {
    "name": "Inkling-2-Mini",
@@ -398,7 +387,7 @@
    "grow": 78,
    "score": 92,
    "cat": "Vision",
-   "likes": 5384
+   "likes": 5397
   },
   {
    "name": "Inkling-2-Mini-Uncensored-GGUF",
@@ -409,7 +398,7 @@
    "grow": 154,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 615
+   "likes": 616
   },
   {
    "name": "voice-isolator",
@@ -420,7 +409,7 @@
    "grow": null,
    "score": 87,
    "cat": "Tools",
-   "likes": 712
+   "likes": 713
   },
   {
    "name": "Qwen3.8-27B-pi-adapted",
@@ -429,10 +418,10 @@
    "lic": "Open source",
    "at": "2026-11-16T06:52:31.000Z",
    "dl": 3132,
-   "grow": 11,
+   "grow": null,
    "score": 85,
    "cat": "Agents",
-   "likes": 1024
+   "likes": 1025
   },
   {
    "name": "Hy4-flash",
@@ -855,8 +844,8 @@
    "t": "GLM-5.4: Toward generalized coding with our first loop transformer",
    "url": "https://news.ycombinator.com/item?id=50609685",
    "link": "https://z.ai/blog/glm-5.4",
-   "up": 830,
-   "com": 298,
+   "up": 861,
+   "com": 304,
    "at": "2026-11-23T10:06:43.000Z"
   },
   {
@@ -864,35 +853,35 @@
    "t": "XNU Linux: Full OS X GUI Userspace on Linux",
    "url": "https://news.ycombinator.com/item?id=50607261",
    "link": "https://github.com/AFK-surf/xnulinux",
-   "up": 543,
-   "com": 225,
+   "up": 550,
+   "com": 227,
    "at": "2026-11-23T03:49:24.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
-   "url": "https://news.ycombinator.com/item?id=50603845",
-   "link": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
-   "up": 692,
-   "com": 279,
-   "at": "2026-11-22T21:01:16.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Cyberleek posted the GTA 6 Xbox build executable",
    "url": "https://news.ycombinator.com/item?id=50612686",
    "link": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1y3jzqe/cyberleek_posted_the_gta_6_xbox_build_executable/",
-   "up": 113,
-   "com": 81,
+   "up": 134,
+   "com": 112,
    "at": "2026-11-23T14:49:44.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+   "url": "https://news.ycombinator.com/item?id=50603845",
+   "link": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+   "up": 700,
+   "com": 280,
+   "at": "2026-11-22T21:01:16.000Z"
   },
   {
    "src": "Hacker News",
    "t": "The Birds of GTA 6: A Field Guide to Vice City and Leonida's Wildlife",
    "url": "https://news.ycombinator.com/item?id=50602843",
    "link": "https://www.audubon.org/magazine/birds-of-gta-6-field-guide-vice-city-wildlife",
-   "up": 620,
-   "com": 350,
+   "up": 623,
+   "com": 354,
    "at": "2026-11-22T19:10:34.000Z"
   },
   {
@@ -900,8 +889,8 @@
    "t": "Nospeaker ─ Make your MacBook's trackpad talk using its haptic motor",
    "url": "https://news.ycombinator.com/item?id=50610318",
    "link": "https://github.com/os6/nospeaker",
-   "up": 170,
-   "com": 88,
+   "up": 193,
+   "com": 102,
    "at": "2026-11-23T11:31:54.000Z"
   }
  ]
