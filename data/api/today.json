@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-24T17:34:05.514Z"
+  "updated": "2026-11-24T18:01:12.987Z"
  },
  "pulse": {
   "trending": 74,
   "accelerating": 4,
   "newModels": 13,
-  "discussions": 38,
-  "stars": 972
+  "discussions": 37,
+  "stars": 731
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 5,
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
    "meta": [
-    "★ 3,533",
-    "+513 in 24h",
+    "★ 3,535",
+    "+491 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-21T14:40:27Z",
@@ -70,11 +70,11 @@
    "src": "gh",
    "cat": "Vision",
    "score": 89,
-   "grow": null,
+   "grow": 3,
    "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
    "meta": [
-    "★ 2,439",
-    "~459 in 24h",
+    "★ 2,444",
+    "+240 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-11-19T10:00:43Z",
@@ -88,7 +88,7 @@
    "cat": "Infrastructure",
    "score": 89,
    "grow": 74,
-   "desc": "Model on Hugging Face · open source · ♥ 714",
+   "desc": "Model on Hugging Face · open source · ♥ 716",
    "meta": [
     "574K downloads",
     "Released 4 days ago"
@@ -104,7 +104,7 @@
    "cat": "Tools",
    "score": 87,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 785",
+   "desc": "Model on Hugging Face · open source · ♥ 787",
    "meta": [
     "13K downloads",
     "Released 11 days ago"
@@ -139,7 +139,7 @@
    "grow": null,
    "desc": "Code localizers are usually trained to predict the files a reference patch edits, but the code a fixer needs to read is not the same as the code it changes.",
    "meta": [
-    "▲ 50 upvotes",
+    "▲ 51 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-11-08T19:00:00.000Z",
@@ -220,8 +220,8 @@
     },
     {
      "src": "YouTube",
-     "t": "GEMINI 5 LEAKED?! GLM 5.4 Is Out, OpenAI GPT-7 Bel, Nano Banana Pro 2 & MORE! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=7n3cZzR0tVE"
+     "t": "Claude Opus 5.6 Early Preview! Gemini 4 Helium, GLM-5.4, Quantum AI & Superintelligence! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=N6kzEOdzSus"
     }
    ],
    "buzz": 2,
@@ -231,8 +231,8 @@
    "name": "fast-anything",
    "url": "https://github.com/EL4CTEO/fast-anything",
    "from": "GitHub",
-   "use": 513,
-   "useLabel": "+513 stars/day",
+   "use": 491,
+   "useLabel": "+491 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -346,8 +346,8 @@
  "github": [
   {
    "repo": "EL4CTEO/fast-anything",
-   "stars": 3533,
-   "d24": 513,
+   "stars": 3535,
+   "d24": 491,
    "est": false,
    "forks": 252,
    "contrib": null,
@@ -357,10 +357,10 @@
   },
   {
    "repo": "iamajmeena/neonclipping",
-   "stars": 2439,
-   "d24": 459,
-   "est": true,
-   "forks": 153,
+   "stars": 2444,
+   "d24": 240,
+   "est": false,
+   "forks": 154,
    "contrib": null,
    "score": 89,
    "cat": "Vision",
@@ -377,7 +377,7 @@
    "grow": 48,
    "score": 93,
    "cat": "Infrastructure",
-   "likes": 1215
+   "likes": 1218
   },
   {
    "name": "Inkling-2-Mini",
@@ -388,7 +388,7 @@
    "grow": 65,
    "score": 91,
    "cat": "Vision",
-   "likes": 5701
+   "likes": 5705
   },
   {
    "name": "Inkling-2-Mini-Uncensored-GGUF",
@@ -399,7 +399,7 @@
    "grow": 74,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 714
+   "likes": 716
   },
   {
    "name": "voice-isolator",
@@ -410,7 +410,7 @@
    "grow": null,
    "score": 87,
    "cat": "Tools",
-   "likes": 785
+   "likes": 787
   },
   {
    "name": "Hy4-flash",
@@ -433,7 +433,7 @@
    "grow": null,
    "score": 83,
    "cat": "Agents",
-   "likes": 1054
+   "likes": 1055
   }
  ],
  "free": [
@@ -819,8 +819,8 @@
    "t": "Tidal bans AI-generated music",
    "url": "https://news.ycombinator.com/item?id=50630309",
    "link": "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/",
-   "up": 199,
-   "com": 160,
+   "up": 229,
+   "com": 188,
    "at": "2026-11-24T16:12:38.000Z"
   },
   {
@@ -828,8 +828,8 @@
    "t": "LLM agents work for their parent companies, not for you",
    "url": "https://news.ycombinator.com/item?id=50627340",
    "link": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
-   "up": 623,
-   "com": 255,
+   "up": 656,
+   "com": 272,
    "at": "2026-11-24T12:40:15.000Z"
   },
   {
@@ -838,26 +838,26 @@
    "url": "https://news.ycombinator.com/item?id=50616933",
    "link": "https://github.com/glushchenko/fsnotes/discussions/2056",
    "up": 607,
-   "com": 152,
+   "com": 153,
    "at": "2026-11-23T18:48:10.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "India's opposition storms Meta's offices to get its Instagram accounts back",
-   "url": "https://news.ycombinator.com/item?id=50624487",
-   "link": "https://korben.info/en/india-opposition-storms-meta-offices-instagram-accounts.html",
-   "up": 223,
-   "com": 104,
-   "at": "2026-11-24T06:28:04.000Z"
   },
   {
    "src": "Hacker News",
    "t": "A training engine for your local model, using your idle compute",
    "url": "https://news.ycombinator.com/item?id=50629231",
    "link": "https://github.com/sous-labs/songe",
-   "up": 48,
-   "com": 5,
+   "up": 64,
+   "com": 7,
    "at": "2026-11-24T15:03:40.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "India's opposition storms Meta's offices to get its Instagram accounts back",
+   "url": "https://news.ycombinator.com/item?id=50624487",
+   "link": "https://korben.info/en/india-opposition-storms-meta-offices-instagram-accounts.html",
+   "up": 224,
+   "com": 104,
+   "at": "2026-11-24T06:28:04.000Z"
   },
   {
    "src": "Hacker News",
