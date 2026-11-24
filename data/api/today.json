@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-24T22:01:11.127Z"
+  "updated": "2026-11-24T22:31:00.563Z"
  },
  "pulse": {
   "trending": 75,
   "accelerating": 4,
-  "newModels": 14,
-  "discussions": 36,
-  "stars": 625
+  "newModels": 15,
+  "discussions": 37,
+  "stars": 614
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 6,
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
    "meta": [
-    "★ 3,573",
-    "+407 in 24h",
+    "★ 3,577",
+    "+399 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-21T14:40:27Z",
@@ -71,7 +71,7 @@
    "cat": "Infrastructure",
    "score": 91,
    "grow": 74,
-   "desc": "Model on Hugging Face · open source · ♥ 742",
+   "desc": "Model on Hugging Face · open source · ♥ 744",
    "meta": [
     "574K downloads",
     "Released 4 days ago"
@@ -89,8 +89,8 @@
    "grow": 4,
    "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
    "meta": [
-    "★ 2,475",
-    "+218 in 24h",
+    "★ 2,478",
+    "+215 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-11-19T10:00:43Z",
@@ -104,7 +104,7 @@
    "cat": "Tools",
    "score": 87,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 809",
+   "desc": "Model on Hugging Face · open source · ♥ 812",
    "meta": [
     "13K downloads",
     "Released 11 days ago"
@@ -169,7 +169,7 @@
    "cat": "Tools",
    "score": 83,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 975",
+   "desc": "Model on Hugging Face · open source · ♥ 977",
    "meta": [
     "9.6K downloads",
     "Released 12 days ago"
@@ -181,6 +181,28 @@
  ],
  "breakouts": [],
  "hype": [
+  {
+   "name": "GPT-6",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "Hacker News",
+     "t": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+     "url": "https://news.ycombinator.com/item?id=50634658"
+    },
+    {
+     "src": "OpenAI blog",
+     "t": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+     "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities"
+    }
+   ],
+   "buzz": 2,
+   "verdict": "Talk only, no public usage numbers"
+  },
   {
    "name": "GLM-5.4",
    "url": null,
@@ -207,8 +229,8 @@
    "name": "fast-anything",
    "url": "https://github.com/EL4CTEO/fast-anything",
    "from": "GitHub",
-   "use": 407,
-   "useLabel": "+407 stars/day",
+   "use": 399,
+   "useLabel": "+399 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -322,8 +344,8 @@
  "github": [
   {
    "repo": "EL4CTEO/fast-anything",
-   "stars": 3573,
-   "d24": 407,
+   "stars": 3577,
+   "d24": 399,
    "est": false,
    "forks": 255,
    "contrib": null,
@@ -333,8 +355,8 @@
   },
   {
    "repo": "iamajmeena/neonclipping",
-   "stars": 2475,
-   "d24": 218,
+   "stars": 2478,
+   "d24": 215,
    "est": false,
    "forks": 155,
    "contrib": null,
@@ -353,7 +375,7 @@
    "grow": 48,
    "score": 93,
    "cat": "Infrastructure",
-   "likes": 1245
+   "likes": 1247
   },
   {
    "name": "Inkling-2-Mini",
@@ -364,7 +386,7 @@
    "grow": 65,
    "score": 91,
    "cat": "Vision",
-   "likes": 5760
+   "likes": 5765
   },
   {
    "name": "Inkling-2-Mini-Uncensored-GGUF",
@@ -375,7 +397,7 @@
    "grow": 74,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 742
+   "likes": 744
   },
   {
    "name": "voice-isolator",
@@ -386,7 +408,7 @@
    "grow": null,
    "score": 87,
    "cat": "Tools",
-   "likes": 809
+   "likes": 812
   },
   {
    "name": "Qwen3.8-27B-pi-adapted",
@@ -410,7 +432,7 @@
    "grow": 0,
    "score": 83,
    "cat": "Tools",
-   "likes": 975
+   "likes": 977
   }
  ],
  "free": [
@@ -678,6 +700,13 @@
  },
  "headlines": [
   {
+   "t": "Anthropic rolls out \"Install as app\" in beta, which turns Claude artifacts into Mac and Windows apps with notifications, optional full computer access, and more",
+   "url": "https://www.techmeme.com/261124/p40#a261124p40",
+   "at": "2026-11-24T22:05:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Anthropic details Siren, a honeypot test that tempts AI agents to escape sandboxes; its newer models fell for it 0.6%-1.6% of the time, vs. 25.8% for Mythos 5",
    "url": "https://www.techmeme.com/261124/p38#a261124p38",
    "at": "2026-11-24T21:35:02.000Z",
@@ -781,13 +810,6 @@
    "at": "2026-11-24T14:22:17Z",
    "src": "The Guardian",
    "kind": "News"
-  },
-  {
-   "t": "Jensen Huang returns to Nvidia as Silicon Valley rethinks its alliance with Trump",
-   "url": "https://www.theguardian.com/global/2026/nov/24/jensen-huang-nvidia-return-silicon-valley-trump",
-   "at": "2026-11-24T13:33:44Z",
-   "src": "The Guardian",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -796,8 +818,8 @@
    "t": "LLM agents work for their parent companies, not for you",
    "url": "https://news.ycombinator.com/item?id=50627340",
    "link": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
-   "up": 831,
-   "com": 346,
+   "up": 845,
+   "com": 349,
    "at": "2026-11-24T12:40:15.000Z"
   },
   {
@@ -805,45 +827,45 @@
    "t": "Tidal bans AI-generated music",
    "url": "https://news.ycombinator.com/item?id=50630309",
    "link": "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/",
-   "up": 307,
-   "com": 287,
+   "up": 309,
+   "com": 292,
    "at": "2026-11-24T16:12:38.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?",
-   "url": "https://news.ycombinator.com/item?id=50630809",
-   "link": "",
-   "up": 197,
-   "com": 148,
-   "at": "2026-11-24T16:45:44.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Working with AI",
    "url": "https://news.ycombinator.com/item?id=50634734",
    "link": "https://www.anthropic.com/research/working-with-ai",
-   "up": 28,
-   "com": 17,
+   "up": 56,
+   "com": 48,
    "at": "2026-11-24T21:07:38.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "OpenAI reveals they solved VP ≠ VNP before Anthropic",
-   "url": "https://news.ycombinator.com/item?id=50632756",
-   "link": "https://github.com/openai/math/tree/main/preprints/VP-and-VNP-are-different-November-23-2026",
-   "up": 81,
-   "com": 87,
-   "at": "2026-11-24T18:55:12.000Z"
+   "t": "Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?",
+   "url": "https://news.ycombinator.com/item?id=50630809",
+   "link": "",
+   "up": 201,
+   "com": 155,
+   "at": "2026-11-24T16:45:44.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Launch HN: Versine (YC F26) – MCP to send and receive money",
-   "url": "https://news.ycombinator.com/item?id=50634426",
-   "link": "",
-   "up": 30,
-   "com": 13,
-   "at": "2026-11-24T20:44:15.000Z"
+   "t": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+   "url": "https://news.ycombinator.com/item?id=50634658",
+   "link": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+   "up": 45,
+   "com": 3,
+   "at": "2026-11-24T21:02:22.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "GTA 6 Running on Windows",
+   "url": "https://news.ycombinator.com/item?id=50627783",
+   "link": "https://twitter.com/raul_bs3/status/2125213756238291075",
+   "up": 215,
+   "com": 245,
+   "at": "2026-11-24T13:19:31.000Z"
   }
  ]
 }
