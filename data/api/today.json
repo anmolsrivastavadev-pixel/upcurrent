@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-24T03:01:01.033Z"
+  "updated": "2026-11-24T03:30:53.838Z"
  },
  "pulse": {
   "trending": 71,
   "accelerating": 1,
   "newModels": 10,
-  "discussions": 44,
-  "stars": 929
+  "discussions": 45,
+  "stars": 924
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 96,
-   "grow": 17,
+   "grow": 18,
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
    "meta": [
-    "★ 3,198",
-    "+823 in 24h",
+    "★ 3,212",
+    "+818 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-21T14:40:27Z",
@@ -71,7 +71,7 @@
    "cat": "Infrastructure",
    "score": 91,
    "grow": 154,
-   "desc": "Model on Hugging Face · open source · ♥ 659",
+   "desc": "Model on Hugging Face · open source · ♥ 662",
    "meta": [
     "329K downloads",
     "Released 3 days ago"
@@ -89,7 +89,7 @@
    "grow": 2,
    "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
    "meta": [
-    "★ 2,312",
+    "★ 2,314",
     "+106 in 24h",
     "Created 5 days ago"
    ],
@@ -104,7 +104,7 @@
    "cat": "Tools",
    "score": 87,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 740",
+   "desc": "Model on Hugging Face · open source · ♥ 742",
    "meta": [
     "0 downloads",
     "Released 10 days ago"
@@ -130,16 +130,16 @@
    "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted"
   },
   {
-   "name": "cmHC: Balancing Stream Mixing in Hyper-Connections via Geometric Contraction",
+   "name": "Learning Video Foresight Reasoning from Unlabeled Videos via On-Policy Self-Distillation",
    "owner": "Paper",
    "src": "paper",
-   "url": "https://huggingface.co/papers/2611.27193",
+   "url": "https://huggingface.co/papers/2611.26954",
    "cat": "Research",
    "score": 85,
    "grow": null,
-   "desc": "Manifold-constrained Hyper-Connections (mHC) extends residual connections to multiple streams and stabilizes residual propagation by constraining stream-mixing residual matrices to the Birkhoff polytope, the set of doubly stochastic matrices.",
+   "desc": "Video foresight reasoning requires vision-language models to anticipate future events or next actions from currently observed videos.",
    "meta": [
-    "▲ 94 upvotes",
+    "▲ 37 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-11-19T19:00:00.000Z",
@@ -163,19 +163,19 @@
    "breakout": null
   },
   {
-   "name": "Non-penetrating World Models",
+   "name": "Plan4D: Generative Plannable 4D Worlds",
    "owner": "Paper",
    "src": "paper",
-   "url": "https://huggingface.co/papers/2611.27963",
+   "url": "https://huggingface.co/papers/2611.26516",
    "cat": "Research",
    "score": 83,
    "grow": null,
-   "desc": "We study a new problem of preventing object penetration in interactive video world models.",
+   "desc": "Most world models for future prediction prioritize aestetic quality of generated videos, but offer only weak physical grounding and limited geometric consistency over time, due to the lack of explicit 4D modeling.",
    "meta": [
-    "▲ 55 upvotes",
+    "▲ 20 upvotes",
     "Hugging Face Papers"
    ],
-   "at": "2026-11-19T19:00:00.000Z",
+   "at": "2026-11-18T19:00:00.000Z",
    "breakout": null
   }
  ],
@@ -207,8 +207,8 @@
    "name": "fast-anything",
    "url": "https://github.com/EL4CTEO/fast-anything",
    "from": "GitHub",
-   "use": 823,
-   "useLabel": "+823 stars/day",
+   "use": 818,
+   "useLabel": "+818 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -322,8 +322,8 @@
  "github": [
   {
    "repo": "EL4CTEO/fast-anything",
-   "stars": 3198,
-   "d24": 823,
+   "stars": 3212,
+   "d24": 818,
    "est": false,
    "forks": 211,
    "contrib": null,
@@ -333,7 +333,7 @@
   },
   {
    "repo": "iamajmeena/neonclipping",
-   "stars": 2312,
+   "stars": 2314,
    "d24": 106,
    "est": false,
    "forks": 148,
@@ -353,7 +353,7 @@
    "grow": 60,
    "score": 94,
    "cat": "Infrastructure",
-   "likes": 1121
+   "likes": 1126
   },
   {
    "name": "Inkling-2-Mini",
@@ -364,7 +364,7 @@
    "grow": 78,
    "score": 92,
    "cat": "Vision",
-   "likes": 5514
+   "likes": 5520
   },
   {
    "name": "Inkling-2-Mini-Uncensored-GGUF",
@@ -375,7 +375,7 @@
    "grow": 154,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 659
+   "likes": 662
   },
   {
    "name": "voice-isolator",
@@ -386,7 +386,7 @@
    "grow": null,
    "score": 87,
    "cat": "Tools",
-   "likes": 740
+   "likes": 742
   },
   {
    "name": "Qwen3.8-27B-pi-adapted",
@@ -398,7 +398,7 @@
    "grow": 0,
    "score": 85,
    "cat": "Agents",
-   "likes": 1039
+   "likes": 1040
   },
   {
    "name": "Haru-4B",
@@ -410,7 +410,7 @@
    "grow": 0,
    "score": 82,
    "cat": "Tools",
-   "likes": 941
+   "likes": 942
   }
  ],
  "free": [
@@ -704,6 +704,13 @@
  },
  "headlines": [
   {
+   "t": "Sources: Jensen Huang disclosed additional affairs beyond the two already reported during his Sunday meeting with Nvidia's board, but was remorseful about them",
+   "url": "https://www.techmeme.com/261123/p51#a261123p51",
+   "at": "2026-11-24T03:15:00.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Filing: ex-OpenAI engineer Abdulrahman Alfozan recorded a meeting with foreign government reps and photographed a confidential term sheet with another company",
    "url": "https://www.techmeme.com/261123/p50#a261123p50",
    "at": "2026-11-24T02:35:01.000Z",
@@ -807,41 +814,34 @@
    "at": "2026-11-23T17:00:08.000Z",
    "src": "NVIDIA",
    "kind": "Lab blog"
-  },
-  {
-   "t": "Finding faster quantum algorithms with agents and formal verification",
-   "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
-   "at": "2026-11-23T16:59:40.000Z",
-   "src": "Google DeepMind",
-   "kind": "Lab blog"
   }
  ],
  "discussions": [
   {
    "src": "Hacker News",
-   "t": "Apple removed my open-source app from EU App Stores after 9 years",
-   "url": "https://news.ycombinator.com/item?id=50616933",
-   "link": "https://github.com/glushchenko/fsnotes/discussions/2056",
-   "up": 534,
-   "com": 119,
-   "at": "2026-11-23T18:48:10.000Z"
-  },
-  {
-   "src": "Hacker News",
    "t": "GLM-5.4: Toward generalized coding with our first loop transformer",
    "url": "https://news.ycombinator.com/item?id=50609685",
    "link": "https://z.ai/blog/glm-5.4",
-   "up": 1075,
-   "com": 348,
+   "up": 1078,
+   "com": 350,
    "at": "2026-11-23T10:06:43.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Apple removed my open-source app from EU App Stores after 9 years",
+   "url": "https://news.ycombinator.com/item?id=50616933",
+   "link": "https://github.com/glushchenko/fsnotes/discussions/2056",
+   "up": 537,
+   "com": 119,
+   "at": "2026-11-23T18:48:10.000Z"
   },
   {
    "src": "Hacker News",
    "t": "VP ≠ VNP over Every Field",
    "url": "https://news.ycombinator.com/item?id=50620102",
    "link": "https://github.com/anthropics/formal-math/tree/main/vp-vnp",
-   "up": 264,
-   "com": 228,
+   "up": 275,
+   "com": 233,
    "at": "2026-11-23T22:09:10.000Z"
   },
   {
@@ -858,8 +858,8 @@
    "t": "GPUI is getting its own repository",
    "url": "https://news.ycombinator.com/item?id=50619103",
    "link": "https://github.com/zed-industries/gpui",
-   "up": 151,
-   "com": 52,
+   "up": 163,
+   "com": 57,
    "at": "2026-11-23T20:52:54.000Z"
   },
   {
@@ -867,8 +867,8 @@
    "t": "Cyberleek posted the GTA 6 Xbox build executable",
    "url": "https://news.ycombinator.com/item?id=50612686",
    "link": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1y3jzqe/cyberleek_posted_the_gta_6_xbox_build_executable/",
-   "up": 267,
-   "com": 291,
+   "up": 269,
+   "com": 292,
    "at": "2026-11-23T14:49:44.000Z"
   }
  ]
