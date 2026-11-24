@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-24T08:01:11.769Z"
+  "updated": "2026-11-24T08:30:56.831Z"
  },
  "pulse": {
   "trending": 71,
   "accelerating": 0,
   "newModels": 11,
-  "discussions": 47,
-  "stars": 880
+  "discussions": 48,
+  "stars": 881
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 22,
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
    "meta": [
-    "★ 3,321",
-    "+761 in 24h",
+    "★ 3,336",
+    "+760 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-21T14:40:27Z",
@@ -71,7 +71,7 @@
    "cat": "Infrastructure",
    "score": 91,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 683",
+   "desc": "Model on Hugging Face · open source · ♥ 687",
    "meta": [
     "329K downloads",
     "Released 3 days ago"
@@ -85,12 +85,12 @@
    "owner": "iamajmeena",
    "src": "gh",
    "cat": "Vision",
-   "score": 90,
+   "score": 89,
    "grow": 4,
    "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
    "meta": [
-    "★ 2,343",
-    "+119 in 24h",
+    "★ 2,347",
+    "+121 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-11-19T10:00:43Z",
@@ -104,7 +104,7 @@
    "cat": "Tools",
    "score": 87,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 756",
+   "desc": "Model on Hugging Face · open source · ♥ 757",
    "meta": [
     "0 downloads",
     "Released 10 days ago"
@@ -130,16 +130,16 @@
    "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted"
   },
   {
-   "name": "RUIBench: What Makes a Good Robot-Use Interface?",
+   "name": "WorldLeague: Benchmarking Physical Agency",
    "owner": "Paper",
    "src": "paper",
-   "url": "https://huggingface.co/papers/2611.31115",
+   "url": "https://huggingface.co/papers/2611.30989",
    "cat": "Research",
    "score": 85,
    "grow": null,
-   "desc": "Foundation models can reason about complex physical tasks, yet translating this intelligence into reliable robot execution remains challenging.",
+   "desc": "AI systems can now operate Blender, follow instructions in complex video games, and manipulate objects with robot arms.",
    "meta": [
-    "▲ 13 upvotes",
+    "▲ 23 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-11-22T19:00:00.000Z",
@@ -155,7 +155,7 @@
    "grow": null,
    "desc": "Turn your website into a stunning launch video in minutes",
    "meta": [
-    "▲ 329 votes",
+    "▲ 330 votes",
     "42 comments",
     "Launched yesterday"
    ],
@@ -163,19 +163,19 @@
    "breakout": null
   },
   {
-   "name": "WorldLeague: Benchmarking Physical Agency",
+   "name": "ViDecide: Teaching Video Diffusion Models to Reason and Plan Step by Step",
    "owner": "Paper",
    "src": "paper",
-   "url": "https://huggingface.co/papers/2611.30989",
+   "url": "https://huggingface.co/papers/2611.26389",
    "cat": "Research",
    "score": 83,
    "grow": null,
-   "desc": "AI systems can now operate Blender, follow instructions in complex video games, and manipulate objects with robot arms.",
+   "desc": "Current leading video generation models can synthesize highly realistic videos, while still frequently violating physical and logical constraints in multi-step reasoning and planning, even after training with large-scale reasoning data or existing diffusion RL methods.",
    "meta": [
-    "▲ 12 upvotes",
+    "▲ 22 upvotes",
     "Hugging Face Papers"
    ],
-   "at": "2026-11-22T19:00:00.000Z",
+   "at": "2026-11-18T19:00:00.000Z",
    "breakout": null
   }
  ],
@@ -224,8 +224,8 @@
    "name": "fast-anything",
    "url": "https://github.com/EL4CTEO/fast-anything",
    "from": "GitHub",
-   "use": 761,
-   "useLabel": "+761 stars/day",
+   "use": 760,
+   "useLabel": "+760 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -339,8 +339,8 @@
  "github": [
   {
    "repo": "EL4CTEO/fast-anything",
-   "stars": 3321,
-   "d24": 761,
+   "stars": 3336,
+   "d24": 760,
    "est": false,
    "forks": 222,
    "contrib": null,
@@ -350,12 +350,12 @@
   },
   {
    "repo": "iamajmeena/neonclipping",
-   "stars": 2343,
-   "d24": 119,
+   "stars": 2347,
+   "d24": 121,
    "est": false,
-   "forks": 149,
+   "forks": 150,
    "contrib": null,
-   "score": 90,
+   "score": 89,
    "cat": "Vision",
    "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM)."
   }
@@ -370,7 +370,7 @@
    "grow": null,
    "score": 94,
    "cat": "Infrastructure",
-   "likes": 1152
+   "likes": 1155
   },
   {
    "name": "Inkling-2-Mini",
@@ -381,7 +381,7 @@
    "grow": null,
    "score": 92,
    "cat": "Vision",
-   "likes": 5577
+   "likes": 5582
   },
   {
    "name": "Inkling-2-Mini-Uncensored-GGUF",
@@ -392,7 +392,7 @@
    "grow": null,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 683
+   "likes": 687
   },
   {
    "name": "voice-isolator",
@@ -403,7 +403,7 @@
    "grow": null,
    "score": 87,
    "cat": "Tools",
-   "likes": 756
+   "likes": 757
   },
   {
    "name": "Qwen3.8-27B-pi-adapted",
@@ -819,10 +819,10 @@
    "kind": "Lab blog"
   },
   {
-   "t": "Anthropic stock continues its downward spiral, plunges another 3.6% as Jensen Huang’s return boosts open",
-   "url": "https://techstartups.com/2026/11/23/anthropic-stock-continues-its-downward-spiral-plunges-another-3-6-as-jensen-huangs-return-boosts-open-source-ai/",
-   "at": "2026-11-23T19:53:25Z",
-   "src": "TechStartups.com",
+   "t": "From Microsoft to OpenAI: Mapping Nvidia's vast AI network",
+   "url": "https://www.usatoday.com/story/graphics/2026/11/23/how-nvidia-connects-to-other-companies/92925053007/",
+   "at": "2026-11-23T20:27:15Z",
+   "src": "USA TODAY",
    "kind": "News"
   }
  ],
@@ -832,8 +832,8 @@
    "t": "India's opposition storms Meta's offices to get its Instagram accounts back",
    "url": "https://news.ycombinator.com/item?id=50624487",
    "link": "https://korben.info/en/india-opposition-storms-meta-offices-instagram-accounts.html",
-   "up": 161,
-   "com": 50,
+   "up": 197,
+   "com": 74,
    "at": "2026-11-24T06:28:04.000Z"
   },
   {
@@ -841,8 +841,8 @@
    "t": "GLM-5.4: Toward generalized coding with our first loop transformer",
    "url": "https://news.ycombinator.com/item?id=50609685",
    "link": "https://z.ai/blog/glm-5.4",
-   "up": 1107,
-   "com": 360,
+   "up": 1114,
+   "com": 361,
    "at": "2026-11-23T10:06:43.000Z"
   },
   {
@@ -850,8 +850,8 @@
    "t": "Apple removed my open-source app from EU App Stores after 9 years",
    "url": "https://news.ycombinator.com/item?id=50616933",
    "link": "https://github.com/glushchenko/fsnotes/discussions/2056",
-   "up": 563,
-   "com": 129,
+   "up": 565,
+   "com": 130,
    "at": "2026-11-23T18:48:10.000Z"
   },
   {
@@ -859,27 +859,27 @@
    "t": "VP ≠ VNP over Every Field",
    "url": "https://news.ycombinator.com/item?id=50620102",
    "link": "https://github.com/anthropics/formal-math/tree/main/vp-vnp",
-   "up": 317,
-   "com": 282,
+   "up": 323,
+   "com": 284,
    "at": "2026-11-23T22:09:10.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "VP ≠ VNP over Every Field [pdf]",
+   "url": "https://news.ycombinator.com/item?id=50624929",
+   "link": "https://github.com/anthropics/formal-math/blob/vp-vnp/vp-vnp/paper.pdf",
+   "up": 22,
+   "com": 6,
+   "at": "2026-11-24T07:38:50.000Z"
   },
   {
    "src": "Hacker News",
    "t": "GPUI is getting its own repository",
    "url": "https://news.ycombinator.com/item?id=50619103",
    "link": "https://github.com/zed-industries/gpui",
-   "up": 235,
-   "com": 89,
+   "up": 242,
+   "com": 94,
    "at": "2026-11-23T20:52:54.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Cyberleek posted the GTA 6 Xbox build executable",
-   "url": "https://news.ycombinator.com/item?id=50612686",
-   "link": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1y3jzqe/cyberleek_posted_the_gta_6_xbox_build_executable/",
-   "up": 287,
-   "com": 305,
-   "at": "2026-11-23T14:49:44.000Z"
   }
  ]
 }
