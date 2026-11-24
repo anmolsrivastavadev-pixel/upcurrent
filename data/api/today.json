@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-24T11:01:03.192Z"
+  "updated": "2026-11-24T11:30:55.200Z"
  },
  "pulse": {
   "trending": 71,
   "accelerating": 3,
   "newModels": 9,
-  "discussions": 48,
-  "stars": 1338
+  "discussions": 47,
+  "stars": 1333
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
    "meta": [
-    "★ 3,405",
-    "~1,196 in 24h",
+    "★ 3,416",
+    "~1,191 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-21T14:40:27Z",
@@ -70,7 +70,7 @@
    "src": "hf",
    "cat": "Infrastructure",
    "score": 91,
-   "grow": null,
+   "grow": 74,
    "desc": "Model on Hugging Face · open source · ♥ 692",
    "meta": [
     "574K downloads",
@@ -89,7 +89,7 @@
    "grow": 5,
    "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
    "meta": [
-    "★ 2,376",
+    "★ 2,379",
     "+142 in 24h",
     "Created 5 days ago"
    ],
@@ -123,7 +123,7 @@
    "grow": null,
    "desc": "We present WeMM-Ecom, a family of multimodal large language models that deliver frontier e-commerce capabilities while achieving state-of-the-art general-purpose performance at their respective scales.",
    "meta": [
-    "▲ 52 upvotes",
+    "▲ 54 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-11-22T19:00:00.000Z",
@@ -163,19 +163,19 @@
    "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted"
   },
   {
-   "name": "ViDecide: Teaching Video Diffusion Models to Reason and Plan Step by Step",
+   "name": "Let the Fixer Decide: Training a Code Localizer from the Fixer's Likelihood",
    "owner": "Paper",
    "src": "paper",
-   "url": "https://huggingface.co/papers/2611.26389",
+   "url": "https://huggingface.co/papers/2611.12164",
    "cat": "Research",
    "score": 83,
    "grow": null,
-   "desc": "Current leading video generation models can synthesize highly realistic videos, while still frequently violating physical and logical constraints in multi-step reasoning and planning, even after training with large-scale reasoning data or existing diffusion RL methods.",
+   "desc": "Code localizers are usually trained to predict the files a reference patch edits, but the code a fixer needs to read is not the same as the code it changes.",
    "meta": [
-    "▲ 31 upvotes",
+    "▲ 35 upvotes",
     "Hugging Face Papers"
    ],
-   "at": "2026-11-18T19:00:00.000Z",
+   "at": "2026-11-08T19:00:00.000Z",
    "breakout": null
   }
  ],
@@ -202,8 +202,8 @@
    "name": "fast-anything",
    "url": "https://github.com/EL4CTEO/fast-anything",
    "from": "GitHub",
-   "use": 1196,
-   "useLabel": "~1,196 stars/day",
+   "use": 1191,
+   "useLabel": "~1,191 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -317,10 +317,10 @@
  "github": [
   {
    "repo": "EL4CTEO/fast-anything",
-   "stars": 3405,
-   "d24": 1196,
+   "stars": 3416,
+   "d24": 1191,
    "est": true,
-   "forks": 231,
+   "forks": 232,
    "contrib": null,
    "score": 96,
    "cat": "Agents",
@@ -328,7 +328,7 @@
   },
   {
    "repo": "iamajmeena/neonclipping",
-   "stars": 2376,
+   "stars": 2379,
    "d24": 142,
    "est": false,
    "forks": 150,
@@ -348,7 +348,7 @@
    "grow": null,
    "score": 93,
    "cat": "Infrastructure",
-   "likes": 1173
+   "likes": 1176
   },
   {
    "name": "Inkling-2-Mini",
@@ -359,7 +359,7 @@
    "grow": null,
    "score": 92,
    "cat": "Vision",
-   "likes": 5613
+   "likes": 5619
   },
   {
    "name": "Inkling-2-Mini-Uncensored-GGUF",
@@ -367,7 +367,7 @@
    "lic": "Open source",
    "at": "2026-11-20T20:42:23.000Z",
    "dl": 573775,
-   "grow": null,
+   "grow": 74,
    "score": 91,
    "cat": "Infrastructure",
    "likes": 692
@@ -402,10 +402,10 @@
    "lic": "Open source",
    "at": "2026-11-12T11:05:59.000Z",
    "dl": 9575,
-   "grow": 5,
+   "grow": null,
    "score": 82,
    "cat": "Tools",
-   "likes": 947
+   "likes": 948
   }
  ],
  "free": [
@@ -685,6 +685,13 @@
  },
  "headlines": [
   {
+   "t": "Sources: Anthropic and OpenAI employees warn that internal, unreleased models have achieved rapid advances in reasoning, making them unsafe to release publicly",
+   "url": "https://www.techmeme.com/261124/p11#a261124p11",
+   "at": "2026-11-24T11:20:02.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Meta rolls out Muse to UK adults to help with everyday tasks, the first Big Tech company to launch an AI agent in the UK; UK watchdogs have warned about agents",
    "url": "https://www.techmeme.com/261124/p4#a261124p4",
    "at": "2026-11-24T07:50:01.000Z",
@@ -748,31 +755,17 @@
    "kind": "News"
   },
   {
-   "t": "Sources: Jensen Huang disclosed additional affairs beyond the two already reported during his Sunday meeting with Nvidia's board, but was remorseful about them",
-   "url": "https://www.techmeme.com/261123/p51#a261123p51",
-   "at": "2026-11-24T03:15:00.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Filing: ex-OpenAI engineer Abdulrahman Alfozan recorded a meeting with foreign government reps and photographed a confidential term sheet with another company",
-   "url": "https://www.techmeme.com/261123/p50#a261123p50",
-   "at": "2026-11-24T02:35:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "US prosecutors say the ex-OpenAI engineer charged with bugging an exec conference room had dozens of OpenAI meeting recordings, many on possible trade secrets",
-   "url": "https://www.techmeme.com/261123/p49#a261123p49",
-   "at": "2026-11-24T02:10:02.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Nvidia rejoices at Jensen Huang’s second coming as White House takes victory lap",
    "url": "https://www.theguardian.com/technology/2026/nov/23/nvidia-jensen-huang-return-ceo",
    "at": "2026-11-24T01:34:39Z",
    "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "Physics-guided AI reconstructs fluid flow from sparse, noisy data",
+   "url": "https://phys.org/news/2026-11-physics-ai-reconstructs-fluid-sparse.html",
+   "at": "2026-11-23T23:20:01Z",
+   "src": "Phys.org",
    "kind": "News"
   },
   {
@@ -795,6 +788,13 @@
    "at": "2026-11-23T22:54:00Z",
    "src": "Bangkok Post",
    "kind": "News"
+  },
+  {
+   "t": "Elizabeth Warren pushes for investigation into Nvidia, Jensen Huang",
+   "url": "https://www.bostonglobe.com/2026/11/23/nation/nvidia-elizabeth-warren-senate-jensen-huang/",
+   "at": "2026-11-23T22:41:59Z",
+   "src": "The Boston Globe",
+   "kind": "News"
   }
  ],
  "discussions": [
@@ -803,8 +803,8 @@
    "t": "India's opposition storms Meta's offices to get its Instagram accounts back",
    "url": "https://news.ycombinator.com/item?id=50624487",
    "link": "https://korben.info/en/india-opposition-storms-meta-offices-instagram-accounts.html",
-   "up": 203,
-   "com": 88,
+   "up": 205,
+   "com": 92,
    "at": "2026-11-24T06:28:04.000Z"
   },
   {
@@ -812,8 +812,8 @@
    "t": "Apple removed my open-source app from EU App Stores after 9 years",
    "url": "https://news.ycombinator.com/item?id=50616933",
    "link": "https://github.com/glushchenko/fsnotes/discussions/2056",
-   "up": 583,
-   "com": 142,
+   "up": 588,
+   "com": 143,
    "at": "2026-11-23T18:48:10.000Z"
   },
   {
@@ -821,7 +821,7 @@
    "t": "VP ≠ VNP over Every Field",
    "url": "https://news.ycombinator.com/item?id=50620102",
    "link": "https://github.com/anthropics/formal-math/tree/main/vp-vnp",
-   "up": 330,
+   "up": 331,
    "com": 294,
    "at": "2026-11-23T22:09:10.000Z"
   },
@@ -830,8 +830,8 @@
    "t": "GPUI is getting its own repository",
    "url": "https://news.ycombinator.com/item?id=50619103",
    "link": "https://github.com/zed-industries/gpui",
-   "up": 273,
-   "com": 103,
+   "up": 284,
+   "com": 104,
    "at": "2026-11-23T20:52:54.000Z"
   },
   {
@@ -839,8 +839,8 @@
    "t": "Jevons Paradox in AI: Cheaper Tokens Won't Pay for Capex",
    "url": "https://news.ycombinator.com/item?id=50625888",
    "link": "https://philippdubach.com/posts/cheaper-ai-tokens-wont-pay-for-capex/",
-   "up": 23,
-   "com": 3,
+   "up": 27,
+   "com": 4,
    "at": "2026-11-24T09:39:50.000Z"
   },
   {
@@ -849,7 +849,7 @@
    "url": "https://news.ycombinator.com/item?id=50612686",
    "link": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1y3jzqe/cyberleek_posted_the_gta_6_xbox_build_executable/",
    "up": 291,
-   "com": 307,
+   "com": 308,
    "at": "2026-11-23T14:49:44.000Z"
   }
  ]
