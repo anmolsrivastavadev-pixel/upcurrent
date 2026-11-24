@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-24T16:01:07.856Z"
+  "updated": "2026-11-24T16:30:57.978Z"
  },
  "pulse": {
   "trending": 73,
   "accelerating": 4,
   "newModels": 12,
-  "discussions": 40,
-  "stars": 1028
+  "discussions": 41,
+  "stars": 1008
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 5,
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
    "meta": [
-    "★ 3,515",
-    "+568 in 24h",
+    "★ 3,521",
+    "+549 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-21T14:40:27Z",
@@ -73,8 +73,8 @@
    "grow": null,
    "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
    "meta": [
-    "★ 2,415",
-    "~460 in 24h",
+    "★ 2,419",
+    "~459 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-11-19T10:00:43Z",
@@ -104,7 +104,7 @@
    "cat": "Tools",
    "score": 87,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 780",
+   "desc": "Model on Hugging Face · open source · ♥ 782",
    "meta": [
     "13K downloads",
     "Released 11 days ago"
@@ -139,7 +139,7 @@
    "grow": null,
    "desc": "Code localizers are usually trained to predict the files a reference patch edits, but the code a fixer needs to read is not the same as the code it changes.",
    "meta": [
-    "▲ 47 upvotes",
+    "▲ 48 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-11-08T19:00:00.000Z",
@@ -155,7 +155,7 @@
    "grow": null,
    "desc": "Turn your website into a stunning launch video in minutes",
    "meta": [
-    "▲ 336 votes",
+    "▲ 338 votes",
     "47 comments",
     "Launched yesterday"
    ],
@@ -207,8 +207,8 @@
    "name": "fast-anything",
    "url": "https://github.com/EL4CTEO/fast-anything",
    "from": "GitHub",
-   "use": 568,
-   "useLabel": "+568 stars/day",
+   "use": 549,
+   "useLabel": "+549 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -322,10 +322,10 @@
  "github": [
   {
    "repo": "EL4CTEO/fast-anything",
-   "stars": 3515,
-   "d24": 568,
+   "stars": 3521,
+   "d24": 549,
    "est": false,
-   "forks": 247,
+   "forks": 250,
    "contrib": null,
    "score": 96,
    "cat": "Agents",
@@ -333,8 +333,8 @@
   },
   {
    "repo": "iamajmeena/neonclipping",
-   "stars": 2415,
-   "d24": 460,
+   "stars": 2419,
+   "d24": 459,
    "est": true,
    "forks": 153,
    "contrib": null,
@@ -353,7 +353,7 @@
    "grow": 48,
    "score": 93,
    "cat": "Infrastructure",
-   "likes": 1204
+   "likes": 1205
   },
   {
    "name": "Inkling-2-Mini",
@@ -364,7 +364,7 @@
    "grow": 65,
    "score": 91,
    "cat": "Vision",
-   "likes": 5682
+   "likes": 5688
   },
   {
    "name": "Inkling-2-Mini-Uncensored-GGUF",
@@ -386,7 +386,7 @@
    "grow": null,
    "score": 87,
    "cat": "Tools",
-   "likes": 780
+   "likes": 782
   },
   {
    "name": "Hy4-flash",
@@ -409,7 +409,7 @@
    "grow": null,
    "score": 83,
    "cat": "Agents",
-   "likes": 1052
+   "likes": 1054
   }
  ],
  "free": [
@@ -573,18 +573,6 @@
    "added": false
   },
   {
-   "name": "Dots3-Note Preview",
-   "prov": "OpenRouter",
-   "ctx": 512000,
-   "url": "https://openrouter.ai/dots-studio/dots-3-note-preview:free",
-   "caps": [
-    "image",
-    "reasoning",
-    "tools"
-   ],
-   "added": false
-  },
-  {
    "name": "Nemotron 3.5 Lightning",
    "prov": "OpenRouter",
    "ctx": 1000000,
@@ -689,6 +677,27 @@
  },
  "headlines": [
   {
+   "t": "‘The mistake has been corrected’: end of Jensen Huang’s brief walk in the wilderness",
+   "url": "https://www.theguardian.com/technology/2026/nov/24/mistake-corrected-jensen-huang-resinstated-nvidia-analysis",
+   "at": "2026-11-24T16:27:41Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "Nvidia staff: what do you think of Jensen Huang’s return as chief executive?",
+   "url": "https://www.theguardian.com/technology/2026/nov/24/nvidia-staff-what-do-you-think-jensen-huang-return-chief-executive",
+   "at": "2026-11-24T16:25:57Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "Experts say Trump effectively overrode Nvidia's board, and reinstating Jensen Huang before its probe ends could invite shareholder suits and political scrutiny",
+   "url": "https://www.techmeme.com/261124/p23#a261124p23",
+   "at": "2026-11-24T16:01:38.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Nvidia falls 6%+, paring its 31% jump on Jensen Huang's return as CEO; AMD and Micron drop 9%+, and Arm and Marvell 8%+, after posting strong gains on Monday",
    "url": "https://www.techmeme.com/261124/p22#a261124p22",
    "at": "2026-11-24T15:25:01.000Z",
@@ -778,27 +787,6 @@
    "at": "2026-11-24T04:47:11Z",
    "src": "The Guardian",
    "kind": "News"
-  },
-  {
-   "t": "OpenAI insider: An AI accident is the most likely way people will die",
-   "url": "https://www.youtube.com/watch?v=qgL_IbP2qKg",
-   "at": "2026-11-24T04:00:06Z",
-   "src": "CNN",
-   "kind": "Video"
-  },
-  {
-   "t": "Microsoft steps up efforts to build advanced AI models with its in",
-   "url": "https://www.tribuneindia.com/news/business/microsoft-steps-up-efforts-to-build-advanced-ai-models-with-its-in-house-rocket-system/",
-   "at": "2026-11-24T03:58:27Z",
-   "src": "The Tribune",
-   "kind": "News"
-  },
-  {
-   "t": "Microsoft Builds 'Rocket' System for Advanced AI, Aims for Self",
-   "url": "https://www.lokmattimes.com/business/microsoft-builds-rocket-system-for-advanced-ai-aims-for-self-reliance-a001-w01/",
-   "at": "2026-11-24T03:57:00Z",
-   "src": "Lokmat Times",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -807,9 +795,18 @@
    "t": "LLM agents work for their parent companies, not for you",
    "url": "https://news.ycombinator.com/item?id=50627340",
    "link": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
-   "up": 483,
-   "com": 207,
+   "up": 540,
+   "com": 227,
    "at": "2026-11-24T12:40:15.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Tidal Bans AI-Generated Music",
+   "url": "https://news.ycombinator.com/item?id=50630309",
+   "link": "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/",
+   "up": 28,
+   "com": 13,
+   "at": "2026-11-24T16:12:38.000Z"
   },
   {
    "src": "Hacker News",
@@ -822,21 +819,21 @@
   },
   {
    "src": "Hacker News",
-   "t": "GTA 6 Running on Windows",
-   "url": "https://news.ycombinator.com/item?id=50627783",
-   "link": "https://twitter.com/raul_bs3/status/2125213756238291075",
-   "up": 62,
-   "com": 50,
-   "at": "2026-11-24T13:19:31.000Z"
-  },
-  {
-   "src": "Hacker News",
    "t": "India's opposition storms Meta's offices to get its Instagram accounts back",
    "url": "https://news.ycombinator.com/item?id=50624487",
    "link": "https://korben.info/en/india-opposition-storms-meta-offices-instagram-accounts.html",
-   "up": 215,
-   "com": 96,
+   "up": 216,
+   "com": 99,
    "at": "2026-11-24T06:28:04.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "GTA 6 Running on Windows",
+   "url": "https://news.ycombinator.com/item?id=50627783",
+   "link": "https://twitter.com/raul_bs3/status/2125213756238291075",
+   "up": 63,
+   "com": 69,
+   "at": "2026-11-24T13:19:31.000Z"
   },
   {
    "src": "Hacker News",
@@ -844,17 +841,8 @@
    "url": "https://news.ycombinator.com/item?id=50620102",
    "link": "https://github.com/anthropics/formal-math/tree/main/vp-vnp",
    "up": 344,
-   "com": 314,
+   "com": 315,
    "at": "2026-11-23T22:09:10.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "GPUI is getting its own repository",
-   "url": "https://news.ycombinator.com/item?id=50619103",
-   "link": "https://github.com/zed-industries/gpui",
-   "up": 343,
-   "com": 121,
-   "at": "2026-11-23T20:52:54.000Z"
   }
  ]
 }
