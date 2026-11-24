@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-24T16:30:57.978Z"
+  "updated": "2026-11-24T17:01:08.821Z"
  },
  "pulse": {
   "trending": 73,
   "accelerating": 4,
   "newModels": 12,
   "discussions": 41,
-  "stars": 1008
+  "stars": 994
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 5,
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
    "meta": [
-    "★ 3,521",
-    "+549 in 24h",
+    "★ 3,528",
+    "+534 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-21T14:40:27Z",
@@ -73,8 +73,8 @@
    "grow": null,
    "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
    "meta": [
-    "★ 2,419",
-    "~459 in 24h",
+    "★ 2,432",
+    "~460 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-11-19T10:00:43Z",
@@ -88,7 +88,7 @@
    "cat": "Infrastructure",
    "score": 89,
    "grow": 74,
-   "desc": "Model on Hugging Face · open source · ♥ 712",
+   "desc": "Model on Hugging Face · open source · ♥ 713",
    "meta": [
     "574K downloads",
     "Released 4 days ago"
@@ -104,7 +104,7 @@
    "cat": "Tools",
    "score": 87,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 782",
+   "desc": "Model on Hugging Face · open source · ♥ 784",
    "meta": [
     "13K downloads",
     "Released 11 days ago"
@@ -196,8 +196,8 @@
     },
     {
      "src": "YouTube",
-     "t": "GEMINI 5 LEAKED?! GLM 5.4 Is Out, OpenAI GPT-7 Bel, Nano Banana Pro 2 & MORE! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=7n3cZzR0tVE"
+     "t": "Claude Opus 5.6 Early Preview! Gemini 4 Helium, GLM-5.4, Quantum AI & Superintelligence! AI NEWS",
+     "url": "https://www.youtube.com/watch?v=N6kzEOdzSus"
     }
    ],
    "buzz": 2,
@@ -207,8 +207,8 @@
    "name": "fast-anything",
    "url": "https://github.com/EL4CTEO/fast-anything",
    "from": "GitHub",
-   "use": 549,
-   "useLabel": "+549 stars/day",
+   "use": 534,
+   "useLabel": "+534 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -322,10 +322,10 @@
  "github": [
   {
    "repo": "EL4CTEO/fast-anything",
-   "stars": 3521,
-   "d24": 549,
+   "stars": 3528,
+   "d24": 534,
    "est": false,
-   "forks": 250,
+   "forks": 252,
    "contrib": null,
    "score": 96,
    "cat": "Agents",
@@ -333,8 +333,8 @@
   },
   {
    "repo": "iamajmeena/neonclipping",
-   "stars": 2419,
-   "d24": 459,
+   "stars": 2432,
+   "d24": 460,
    "est": true,
    "forks": 153,
    "contrib": null,
@@ -353,7 +353,7 @@
    "grow": 48,
    "score": 93,
    "cat": "Infrastructure",
-   "likes": 1205
+   "likes": 1208
   },
   {
    "name": "Inkling-2-Mini",
@@ -364,7 +364,7 @@
    "grow": 65,
    "score": 91,
    "cat": "Vision",
-   "likes": 5688
+   "likes": 5694
   },
   {
    "name": "Inkling-2-Mini-Uncensored-GGUF",
@@ -375,7 +375,7 @@
    "grow": 74,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 712
+   "likes": 713
   },
   {
    "name": "voice-isolator",
@@ -386,7 +386,7 @@
    "grow": null,
    "score": 87,
    "cat": "Tools",
-   "likes": 782
+   "likes": 784
   },
   {
    "name": "Hy4-flash",
@@ -668,6 +668,13 @@
   "events": [
    {
     "type": "removed",
+    "name": "Dots3-Note Preview",
+    "prov": "OpenRouter",
+    "url": "https://openrouter.ai/dots-studio/dots-3-note-preview:free",
+    "at": "2026-11-24T17:01:08.821Z"
+   },
+   {
+    "type": "removed",
     "name": "Qwen4 Max Free",
     "prov": "OpenCode Zen",
     "url": null,
@@ -676,6 +683,13 @@
   ]
  },
  "headlines": [
+  {
+   "t": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+   "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+   "at": "2026-11-24T16:34:13.000Z",
+   "src": "Hugging Face",
+   "kind": "Lab blog"
+  },
   {
    "t": "‘The mistake has been corrected’: end of Jensen Huang’s brief walk in the wilderness",
    "url": "https://www.theguardian.com/technology/2026/nov/24/mistake-corrected-jensen-huang-resinstated-nvidia-analysis",
@@ -698,14 +712,14 @@
    "kind": "News"
   },
   {
-   "t": "Nvidia falls 6%+, paring its 31% jump on Jensen Huang's return as CEO; AMD and Micron drop 9%+, and Arm and Marvell 8%+, after posting strong gains on Monday",
+   "t": "Nvidia falls 8%+, paring its 31% jump on Jensen Huang's return as CEO; AMD and Micron drop 11%+, and Arm and Marvell 8%+, after posting strong gains on Monday",
    "url": "https://www.techmeme.com/261124/p22#a261124p22",
    "at": "2026-11-24T15:25:01.000Z",
    "src": "Techmeme",
    "kind": "News"
   },
   {
-   "t": "Anthropic falls 8%+ to ~$80, below its $83 IPO price and a sharp fall from its $111.50 IPO pop; Dario and Daniela Amodei each sold 3.37M+ shares worth $280M+",
+   "t": "Anthropic falls 12%+ to ~$76, below its $83 IPO price and a sharp fall from its $111.50 IPO pop; Dario and Daniela Amodei each sold 3.37M+ shares worth $280M+",
    "url": "https://www.techmeme.com/261124/p21#a261124p21",
    "at": "2026-11-24T14:45:30.000Z",
    "src": "Techmeme",
@@ -780,13 +794,6 @@
    "at": "2026-11-24T11:20:02.000Z",
    "src": "Techmeme",
    "kind": "News"
-  },
-  {
-   "t": "‘Produce a good result by any means’: how AI is testing South Korea’s exam obsession ",
-   "url": "https://www.theguardian.com/world/2026/nov/24/produce-a-good-result-by-any-means-how-ai-is-testing-south-koreas-exam-obsession",
-   "at": "2026-11-24T04:47:11Z",
-   "src": "The Guardian",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -795,8 +802,8 @@
    "t": "LLM agents work for their parent companies, not for you",
    "url": "https://news.ycombinator.com/item?id=50627340",
    "link": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
-   "up": 540,
-   "com": 227,
+   "up": 580,
+   "com": 246,
    "at": "2026-11-24T12:40:15.000Z"
   },
   {
@@ -804,8 +811,8 @@
    "t": "Tidal Bans AI-Generated Music",
    "url": "https://news.ycombinator.com/item?id=50630309",
    "link": "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/",
-   "up": 28,
-   "com": 13,
+   "up": 126,
+   "com": 86,
    "at": "2026-11-24T16:12:38.000Z"
   },
   {
@@ -822,26 +829,26 @@
    "t": "India's opposition storms Meta's offices to get its Instagram accounts back",
    "url": "https://news.ycombinator.com/item?id=50624487",
    "link": "https://korben.info/en/india-opposition-storms-meta-offices-instagram-accounts.html",
-   "up": 216,
-   "com": 99,
+   "up": 218,
+   "com": 102,
    "at": "2026-11-24T06:28:04.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "GTA 6 Running on Windows",
-   "url": "https://news.ycombinator.com/item?id=50627783",
-   "link": "https://twitter.com/raul_bs3/status/2125213756238291075",
-   "up": 63,
-   "com": 69,
-   "at": "2026-11-24T13:19:31.000Z"
+   "t": "A training engine for your local model, using your idle compute",
+   "url": "https://news.ycombinator.com/item?id=50629231",
+   "link": "https://github.com/sous-labs/songe",
+   "up": 37,
+   "com": 4,
+   "at": "2026-11-24T15:03:40.000Z"
   },
   {
    "src": "Hacker News",
    "t": "VP ≠ VNP over Every Field",
    "url": "https://news.ycombinator.com/item?id=50620102",
    "link": "https://github.com/anthropics/formal-math/tree/main/vp-vnp",
-   "up": 344,
-   "com": 315,
+   "up": 346,
+   "com": 316,
    "at": "2026-11-23T22:09:10.000Z"
   }
  ]
