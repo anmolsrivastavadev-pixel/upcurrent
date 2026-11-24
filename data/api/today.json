@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-24T05:01:01.692Z"
+  "updated": "2026-11-24T05:30:53.239Z"
  },
  "pulse": {
   "trending": 71,
-  "accelerating": 1,
+  "accelerating": 0,
   "newModels": 9,
-  "discussions": 42,
-  "stars": 906
+  "discussions": 44,
+  "stars": 895
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 96,
-   "grow": 19,
+   "grow": 20,
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
    "meta": [
-    "★ 3,249",
-    "+796 in 24h",
+    "★ 3,258",
+    "+785 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-21T14:40:27Z",
@@ -70,7 +70,7 @@
    "src": "hf",
    "cat": "Infrastructure",
    "score": 91,
-   "grow": 154,
+   "grow": null,
    "desc": "Model on Hugging Face · open source · ♥ 671",
    "meta": [
     "329K downloads",
@@ -89,7 +89,7 @@
    "grow": 3,
    "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
    "meta": [
-    "★ 2,323",
+    "★ 2,325",
     "+110 in 24h",
     "Created 5 days ago"
    ],
@@ -163,19 +163,20 @@
    "breakout": null
   },
   {
-   "name": "Plan4D: Generative Plannable 4D Worlds",
-   "owner": "Paper",
-   "src": "paper",
-   "url": "https://huggingface.co/papers/2611.26516",
-   "cat": "Research",
+   "name": "Rankhog",
+   "owner": "Product Hunt",
+   "src": "ph",
+   "url": "https://www.producthunt.com/products/rankhog?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29",
+   "cat": "Tools",
    "score": 83,
    "grow": null,
-   "desc": "Most world models for future prediction prioritize aestetic quality of generated videos, but offer only weak physical grounding and limited geometric consistency over time, due to the lack of explicit 4D modeling.",
+   "desc": "Get customers from Reddit on autopilot",
    "meta": [
-    "▲ 25 upvotes",
-    "Hugging Face Papers"
+    "▲ 350 votes",
+    "41 comments",
+    "Launched 2 days ago"
    ],
-   "at": "2026-11-18T19:00:00.000Z",
+   "at": "2026-11-22T08:00:00Z",
    "breakout": null
   }
  ],
@@ -207,8 +208,8 @@
    "name": "fast-anything",
    "url": "https://github.com/EL4CTEO/fast-anything",
    "from": "GitHub",
-   "use": 796,
-   "useLabel": "+796 stars/day",
+   "use": 785,
+   "useLabel": "+785 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -322,8 +323,8 @@
  "github": [
   {
    "repo": "EL4CTEO/fast-anything",
-   "stars": 3249,
-   "d24": 796,
+   "stars": 3258,
+   "d24": 785,
    "est": false,
    "forks": 216,
    "contrib": null,
@@ -333,7 +334,7 @@
   },
   {
    "repo": "iamajmeena/neonclipping",
-   "stars": 2323,
+   "stars": 2325,
    "d24": 110,
    "est": false,
    "forks": 148,
@@ -364,7 +365,7 @@
    "grow": 78,
    "score": 92,
    "cat": "Vision",
-   "likes": 5534
+   "likes": 5543
   },
   {
    "name": "Inkling-2-Mini-Uncensored-GGUF",
@@ -372,7 +373,7 @@
    "lic": "Open source",
    "at": "2026-11-20T20:42:23.000Z",
    "dl": 329497,
-   "grow": 154,
+   "grow": null,
    "score": 91,
    "cat": "Infrastructure",
    "likes": 671
@@ -697,6 +698,13 @@
  },
  "headlines": [
   {
+   "t": "PM Lawrence Wong says he doesn't want Singapore used to circumvent US chip export controls, as authorities probe Megaspeed's purchases of Nvidia chips",
+   "url": "https://www.techmeme.com/261124/p1#a261124p1",
+   "at": "2026-11-24T05:05:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "‘Produce a good result by any means’: how AI is testing South Korea’s exam obsession ",
    "url": "https://www.theguardian.com/world/2026/nov/24/produce-a-good-result-by-any-means-how-ai-is-testing-south-koreas-exam-obsession",
    "at": "2026-11-24T04:47:11Z",
@@ -760,13 +768,6 @@
    "kind": "News"
   },
   {
-   "t": "Anthropic unveils Claude Ship, letting Claude review, fix, and approve GitHub pull requests based on team policies, in beta for Claude Team and Enterprise tiers",
-   "url": "https://www.techmeme.com/261123/p41#a261123p41",
-   "at": "2026-11-23T21:25:00.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "OpenAI and Cisco introduce Shirudo",
    "url": "https://openai.com/index/introducing-shirudo",
    "at": "2026-11-23T21:20:00.000Z",
@@ -778,6 +779,13 @@
    "url": "https://www.theguardian.com/world/2026/nov/23/swedens-datacentre-politics-are-more-complicated-than-they-appear",
    "at": "2026-11-23T18:04:25Z",
    "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "Bitcoin recovers 17% from $55K lows as Nvidia gains trigger $500M liquidations",
+   "url": "https://www.cryptobreaking.com/bitcoin-recovers-17-from-55k/",
+   "at": "2026-11-23T17:24:58Z",
+   "src": "Crypto Breaking News",
    "kind": "News"
   },
   {
@@ -800,13 +808,6 @@
    "at": "2026-11-23T17:18:06Z",
    "src": "The Guardian",
    "kind": "News"
-  },
-  {
-   "t": "Germany's Lower Saxony Seeks Deeper Partnership with India in AI, Green Energy",
-   "url": "https://www.lokmattimes.com/international/germanys-lower-saxony-seeks-deeper-partnership-with-india-in-ai-green-energy-a001-w01/",
-   "at": "2026-11-23T17:00:38Z",
-   "src": "Lokmat Times",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -815,8 +816,8 @@
    "t": "GLM-5.4: Toward generalized coding with our first loop transformer",
    "url": "https://news.ycombinator.com/item?id=50609685",
    "link": "https://z.ai/blog/glm-5.4",
-   "up": 1087,
-   "com": 353,
+   "up": 1088,
+   "com": 355,
    "at": "2026-11-23T10:06:43.000Z"
   },
   {
@@ -824,8 +825,8 @@
    "t": "Apple removed my open-source app from EU App Stores after 9 years",
    "url": "https://news.ycombinator.com/item?id=50616933",
    "link": "https://github.com/glushchenko/fsnotes/discussions/2056",
-   "up": 544,
-   "com": 122,
+   "up": 549,
+   "com": 123,
    "at": "2026-11-23T18:48:10.000Z"
   },
   {
@@ -833,8 +834,8 @@
    "t": "VP ≠ VNP over Every Field",
    "url": "https://news.ycombinator.com/item?id=50620102",
    "link": "https://github.com/anthropics/formal-math/tree/main/vp-vnp",
-   "up": 299,
-   "com": 257,
+   "up": 301,
+   "com": 261,
    "at": "2026-11-23T22:09:10.000Z"
   },
   {
@@ -842,8 +843,8 @@
    "t": "GPUI is getting its own repository",
    "url": "https://news.ycombinator.com/item?id=50619103",
    "link": "https://github.com/zed-industries/gpui",
-   "up": 192,
-   "com": 65,
+   "up": 199,
+   "com": 70,
    "at": "2026-11-23T20:52:54.000Z"
   },
   {
@@ -851,8 +852,8 @@
    "t": "Cyberleek posted the GTA 6 Xbox build executable",
    "url": "https://news.ycombinator.com/item?id=50612686",
    "link": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1y3jzqe/cyberleek_posted_the_gta_6_xbox_build_executable/",
-   "up": 275,
-   "com": 298,
+   "up": 276,
+   "com": 301,
    "at": "2026-11-23T14:49:44.000Z"
   },
   {
@@ -860,8 +861,8 @@
    "t": "Nospeaker ─ Make your MacBook's trackpad talk using its haptic motor",
    "url": "https://news.ycombinator.com/item?id=50610318",
    "link": "https://github.com/os6/nospeaker",
-   "up": 304,
-   "com": 170,
+   "up": 305,
+   "com": 172,
    "at": "2026-11-23T11:31:54.000Z"
   }
  ]
