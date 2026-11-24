@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-24T01:30:58.418Z"
+  "updated": "2026-11-24T02:01:15.121Z"
  },
  "pulse": {
   "trending": 71,
   "accelerating": 1,
   "newModels": 9,
-  "discussions": 45,
-  "stars": 940
+  "discussions": 46,
+  "stars": 924
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 97,
-   "grow": 15,
+   "grow": 16,
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
    "meta": [
-    "★ 3,146",
-    "+822 in 24h",
+    "★ 3,158",
+    "+812 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-21T14:40:27Z",
@@ -71,7 +71,7 @@
    "cat": "Infrastructure",
    "score": 91,
    "grow": 154,
-   "desc": "Model on Hugging Face · open source · ♥ 652",
+   "desc": "Model on Hugging Face · open source · ♥ 655",
    "meta": [
     "329K downloads",
     "Released 3 days ago"
@@ -90,7 +90,7 @@
    "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
    "meta": [
     "★ 2,310",
-    "+118 in 24h",
+    "+112 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-11-19T10:00:43Z",
@@ -104,7 +104,7 @@
    "cat": "Tools",
    "score": 87,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 734",
+   "desc": "Model on Hugging Face · open source · ♥ 737",
    "meta": [
     "0 downloads",
     "Released 10 days ago"
@@ -139,7 +139,7 @@
    "grow": null,
    "desc": "Manifold-constrained Hyper-Connections (mHC) extends residual connections to multiple streams and stabilizes residual propagation by constraining stream-mixing residual matrices to the Birkhoff polytope, the set of doubly stochastic matrices.",
    "meta": [
-    "▲ 92 upvotes",
+    "▲ 94 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-11-19T19:00:00.000Z",
@@ -155,7 +155,7 @@
    "grow": null,
    "desc": "Build playable stories without a game engine",
    "meta": [
-    "▲ 361 votes",
+    "▲ 360 votes",
     "34 comments",
     "Launched 2 days ago"
    ],
@@ -207,8 +207,8 @@
    "name": "fast-anything",
    "url": "https://github.com/EL4CTEO/fast-anything",
    "from": "GitHub",
-   "use": 822,
-   "useLabel": "+822 stars/day",
+   "use": 812,
+   "useLabel": "+812 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -322,10 +322,10 @@
  "github": [
   {
    "repo": "EL4CTEO/fast-anything",
-   "stars": 3146,
-   "d24": 822,
+   "stars": 3158,
+   "d24": 812,
    "est": false,
-   "forks": 204,
+   "forks": 205,
    "contrib": null,
    "score": 97,
    "cat": "Agents",
@@ -334,7 +334,7 @@
   {
    "repo": "iamajmeena/neonclipping",
    "stars": 2310,
-   "d24": 118,
+   "d24": 112,
    "est": false,
    "forks": 148,
    "contrib": null,
@@ -353,7 +353,7 @@
    "grow": 60,
    "score": 94,
    "cat": "Infrastructure",
-   "likes": 1116
+   "likes": 1118
   },
   {
    "name": "Inkling-2-Mini",
@@ -364,7 +364,7 @@
    "grow": 78,
    "score": 92,
    "cat": "Vision",
-   "likes": 5496
+   "likes": 5500
   },
   {
    "name": "Inkling-2-Mini-Uncensored-GGUF",
@@ -375,7 +375,7 @@
    "grow": 154,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 652
+   "likes": 655
   },
   {
    "name": "voice-isolator",
@@ -386,7 +386,7 @@
    "grow": null,
    "score": 87,
    "cat": "Tools",
-   "likes": 734
+   "likes": 737
   },
   {
    "name": "Qwen3.8-27B-pi-adapted",
@@ -398,7 +398,7 @@
    "grow": 0,
    "score": 85,
    "cat": "Agents",
-   "likes": 1037
+   "likes": 1038
   },
   {
    "name": "Haru-4B",
@@ -410,7 +410,7 @@
    "grow": 0,
    "score": 82,
    "cat": "Tools",
-   "likes": 939
+   "likes": 940
   }
  ],
  "free": [
@@ -704,6 +704,13 @@
  },
  "headlines": [
   {
+   "t": "Nvidia rejoices at Jensen Huang’s second coming as White House takes victory lap",
+   "url": "https://www.theguardian.com/technology/2026/nov/23/nvidia-jensen-huang-return-ceo",
+   "at": "2026-11-24T01:34:39Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
    "t": "Supertake, which uses AI agents to turn users' market predictions into investment portfolios via Coinbase and Robinhood, raised a $20M seed led by Adjacent",
    "url": "https://www.techmeme.com/261123/p46#a261123p46",
    "at": "2026-11-24T00:25:01.000Z",
@@ -767,13 +774,6 @@
    "kind": "News"
   },
   {
-   "t": "Sources: Nvidia board's decision to reinstate Jensen Huang was done without consulting Nvidia's senior leadership, who were only informed at the last minute",
-   "url": "https://www.techmeme.com/261123/p33#a261123p33",
-   "at": "2026-11-23T18:01:16.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Supercharging transformer residual connections",
    "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
    "at": "2026-11-23T17:21:12.000Z",
@@ -822,8 +822,8 @@
    "t": "Apple removed my open-source app from EU App Stores after 9 years",
    "url": "https://news.ycombinator.com/item?id=50616933",
    "link": "https://github.com/glushchenko/fsnotes/discussions/2056",
-   "up": 513,
-   "com": 109,
+   "up": 523,
+   "com": 115,
    "at": "2026-11-23T18:48:10.000Z"
   },
   {
@@ -831,8 +831,8 @@
    "t": "GLM-5.4: Toward generalized coding with our first loop transformer",
    "url": "https://news.ycombinator.com/item?id=50609685",
    "link": "https://z.ai/blog/glm-5.4",
-   "up": 1049,
-   "com": 345,
+   "up": 1060,
+   "com": 346,
    "at": "2026-11-23T10:06:43.000Z"
   },
   {
@@ -840,8 +840,8 @@
    "t": "VP ≠ VNP over Every Field",
    "url": "https://news.ycombinator.com/item?id=50620102",
    "link": "https://github.com/anthropics/formal-math/tree/main/vp-vnp",
-   "up": 226,
-   "com": 192,
+   "up": 239,
+   "com": 201,
    "at": "2026-11-23T22:09:10.000Z"
   },
   {
@@ -849,7 +849,7 @@
    "t": "XNU Linux: Full OS X GUI Userspace on Linux",
    "url": "https://news.ycombinator.com/item?id=50607261",
    "link": "https://github.com/AFK-surf/xnulinux",
-   "up": 601,
+   "up": 602,
    "com": 244,
    "at": "2026-11-23T03:49:24.000Z"
   },
@@ -858,8 +858,8 @@
    "t": "GPUI is getting its own repository",
    "url": "https://news.ycombinator.com/item?id=50619103",
    "link": "https://github.com/zed-industries/gpui",
-   "up": 117,
-   "com": 33,
+   "up": 129,
+   "com": 35,
    "at": "2026-11-23T20:52:54.000Z"
   },
   {
@@ -867,8 +867,8 @@
    "t": "Cyberleek posted the GTA 6 Xbox build executable",
    "url": "https://news.ycombinator.com/item?id=50612686",
    "link": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1y3jzqe/cyberleek_posted_the_gta_6_xbox_build_executable/",
-   "up": 259,
-   "com": 284,
+   "up": 263,
+   "com": 286,
    "at": "2026-11-23T14:49:44.000Z"
   }
  ]
