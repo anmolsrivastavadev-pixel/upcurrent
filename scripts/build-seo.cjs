@@ -76,7 +76,14 @@ const RELATED = {
 // morning email leaves them out.
 const ALERT_PAGES = new Set(["/free-ai-models/", "/free-ai-models/history/", "/free-ai-models/openrouter/", "/free-ai-models/api/", "/free-ai-models/opencode/"]);
 const ALERT_FORM = `<section id="alerts" class="alertbox"><h2>Get an email when a new AI model goes free</h2><p>One short email on the days a model becomes free on OpenRouter or OpenCode, or stops being free (with its new price when there is one), and nothing on other days. Free offers often end within two weeks, so alerts help you catch them. Unsubscribe any time.</p><form class="nla" action="https://buttondown.com/api/emails/embed-subscribe/anmolsrivastavadev" method="post" target="_blank" onsubmit="try{window.goatcounter&&goatcounter.count&&goatcounter.count({path:'free-alert-signup',title:'Free model alert signup',event:true})}catch(e){}"><input type="email" name="email" required placeholder="you@example.com" aria-label="Email address for free model alerts" autocomplete="email"><input type="hidden" name="metadata__free_alerts" value="yes"><input type="hidden" name="metadata__alerts_only" value="yes"><button type="submit">Alert me</button></form></section>`;
-function page({ title, description, canonical, body, ld, ogType = "article", up = "../" }) {
+const STABLE_SINCE = {
+  "privacy/": "2026-11-23", "terms/": "2026-11-23", "advertise/": "2026-11-22", "for-teams/": "2026-11-22", "promote/": "2026-11-22",
+  "faq/": "2026-11-22", "llm-api/": "2026-11-22", "llm-api/what-is-an-llm-api/": "2026-11-22", "llm-api/tokens/": "2026-11-22",
+  "llm-api/api-key/": "2026-11-22", "llm-api/python/": "2026-11-22", "promote/buy-github-stars/": "2026-11-22", "promote/show-hn/": "2026-11-22",
+  "promote/launch-platforms/": "2026-11-22", "github-trending-api/": "2026-11-22"
+};
+
+function page({ title, description, canonical, body, ld, ogType = "article", up = "../", noindex = false }) {
   // On-page rules: title under 60 characters (drop the brand suffix when it would push it over),
   // and the single H1 mirrors the title.
   const bare = title.replace(/\s*\|\s*Upcurrent.*$/, "");
@@ -90,7 +97,7 @@ function page({ title, description, canonical, body, ld, ogType = "article", up 
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(description)}">
 <link rel="canonical" href="${canonical}">
-<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="robots" content="${noindex ? "noindex, follow" : "index, follow, max-image-preview:large"}">
 <meta name="theme-color" content="#0f1829">
 <link rel="icon" href="${up}favicon.svg" type="image/svg+xml">
 <link rel="alternate" type="application/json" title="Upcurrent open data" href="${up}data/api/today.json">
@@ -1755,7 +1762,7 @@ ${faqHtml(qa)}
     faq(qa),
     breadcrumb([["Upcurrent", SITE], ["Explained", SITE + "what-is/"], [clip(label, 60), url]])
   ];
-  return page({ title, description, canonical: url, body, ld, up: "../../" });
+  return page({ title, description, canonical: url, body, ld, up: "../../", noindex: !!F.gone });
 }
 
 function explainerIndex(items) {
@@ -1823,11 +1830,30 @@ ${qa.slice(1).map(([q, a]) => `<section><h2>${esc(q)}</h2><p>${esc(a)}</p></sect
     ...Object.keys(guides).map(slug => ({ loc: `${SITE}${slug}/`, lastmod: latest, changefreq: "hourly", priority: "0.9" })),
     { loc: SITE + "about/", lastmod: latest, changefreq: "monthly", priority: "0.5" },
     ...(explained.length ? [{ loc: SITE + "what-is/", lastmod: latest, changefreq: "daily", priority: "0.8" }] : []),
-    ...explained.map(it => ({ loc: `${SITE}what-is/${it.slug}/`, lastmod: data[it.hist[it.hist.length - 1].day].about?.updated || latest, changefreq: "daily", priority: "0.7" })),
+    ...explained.filter(it => !repoFacts(it)?.gone).map(it => ({ loc: `${SITE}what-is/${it.slug}/`, lastmod: data[it.hist[it.hist.length - 1].day].about?.updated || latest, changefreq: "daily", priority: "0.7" })),
     { loc: SITE + "email.html", lastmod: latest, changefreq: "daily", priority: "0.6" },
     { loc: SITE + "data.html", lastmod: latest, changefreq: "weekly", priority: "0.6" },
     ...days.map(day => ({ loc: `${SITE}daily/${day}.html`, lastmod: data[day].about?.updated || day, changefreq: day === days[days.length - 1] ? "hourly" : "monthly", priority: "0.7" }))
   ];
+  // Google only trusts <lastmod> if it's accurate, so a page keeps its old date until its content changes.
+  // page-dates.json is published with the site (not committed) and read back from the live copy next run.
+  {
+    let prev = {};
+    try { const r = await fetch(SITE + "page-dates.json", { signal: AbortSignal.timeout(10000) }); if (r.ok) prev = await r.json(); } catch {}
+    const dates = {};
+    for (const u of urls) {
+      const rel = u.loc.slice(SITE.length);
+      if (rel === "") continue; // home page changes every run
+      const file = path.join(ROOT, rel === "" || rel.endsWith("/") ? rel + "index.html" : rel);
+      let html; try { html = fs.readFileSync(file, "utf8"); } catch { continue; }
+      const hash = require("crypto").createHash("sha1").update(html).digest("hex").slice(0, 16);
+      const old = prev[rel];
+      if (old && old[0] === hash && old[1]) u.lastmod = old[1];
+      else if (!old && STABLE_SINCE[rel]) u.lastmod = STABLE_SINCE[rel];
+      dates[rel] = [hash, u.lastmod];
+    }
+    fs.writeFileSync(path.join(ROOT, "page-dates.json"), JSON.stringify(dates));
+  }
   fs.writeFileSync(path.join(ROOT, "sitemap.xml"), `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls.map(u => `  <url><loc>${u.loc}</loc><lastmod>${u.lastmod}</lastmod><changefreq>${u.changefreq}</changefreq><priority>${u.priority}</priority></url>`).join("\n")}
