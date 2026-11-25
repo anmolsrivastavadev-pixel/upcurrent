@@ -29,12 +29,12 @@ const ldJson = o => `<script type="application/ld+json">${JSON.stringify(o).repl
 const CSS = `*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 var(--font-body);-webkit-font-smoothing:antialiased}
 a{color:var(--link)}.wrap{max-width:820px;margin:0 auto;padding-inline:16px}
 header{border-bottom:1px solid var(--line)}header .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:14px;flex-wrap:wrap}
-.logo{font:800 21px/1 var(--font-display);letter-spacing:-.03em;color:var(--ink);text-decoration:none}
+.logo{font:900 27px/1 var(--font-display);letter-spacing:.005em;color:var(--ink);text-decoration:none}
 main{padding-block:36px 56px;display:grid;gap:36px}main>section{min-width:0}
-h1{font:800 clamp(28px,6vw,42px)/1.08 var(--font-display);letter-spacing:-.035em;margin:0 0 12px;text-wrap:balance}
-h2{font:700 22px/1.2 var(--font-display);letter-spacing:-.02em;margin:0 0 12px}
+h1{font:900 clamp(38px,7vw,60px)/.98 var(--font-display);letter-spacing:0;margin:0 0 12px;text-wrap:balance}
+h2{font:800 30px/1.05 var(--font-display);letter-spacing:0;margin:0 0 12px}
 p{margin:0 0 10px;max-width:68ch}.lede{font-size:18px;color:var(--muted)}
-.eyebrow{font:600 11.5px/1 var(--font-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--up-text);margin-bottom:12px}
+.eyebrow{font:600 14px/1.2 var(--font-body);color:var(--up-text);margin-bottom:12px}
 ol.rows,ul.rows{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
 .rows li{padding-block:12px;border-bottom:1px solid var(--line);display:grid;gap:3px;min-width:0}
 .rows .t{font-weight:600;overflow-wrap:anywhere}.rows .m{color:var(--muted);font-size:14.5px;overflow-wrap:anywhere}
@@ -53,7 +53,7 @@ footer{border-top:1px solid var(--line);padding-block:22px;color:var(--muted);fo
 iframe.skiptranslate,.goog-te-banner-frame,#goog-gt-tt,.goog-te-balloon-frame,.VIpgJd-ZVi9od-ORHb-OEVmcd,.VIpgJd-ZVi9od-aZ2wEe-wOHMyf{display:none!important}
 body{top:0!important}font[style]{background:none!important;box-shadow:none!important}
 .nl,.nla{display:flex;flex-wrap:wrap;gap:8px}.alertbox{border:1px solid var(--line);border-radius:14px;padding:4px 18px 18px}.nl input[type=email],.nla input[type=email]{flex:1 1 220px;min-width:0;font:inherit;padding:11px 14px;border-radius:10px;border:1px solid var(--line);background:var(--paper);color:var(--ink)}.nl button,.nla button{font:700 15px var(--font-body);padding:11px 18px;border-radius:10px;border:0;background:var(--warm);color:#111;cursor:pointer}
-code{font:13.5px var(--font-mono);background:var(--code,var(--chip));color:var(--code-ink,var(--ink));padding:1px 5px;border-radius:4px;overflow-wrap:anywhere}pre{background:var(--code,var(--chip));padding:14px 16px;border-radius:10px;overflow-x:auto;max-width:100%}pre code{padding:0;background:none;overflow-wrap:normal}
+code{font:13.5px var(--font-code);background:var(--code,var(--chip));color:var(--code-ink,var(--ink));padding:1px 5px;border-radius:4px;overflow-wrap:anywhere}pre{background:var(--code,var(--chip));padding:14px 16px;border-radius:10px;overflow-x:auto;max-width:100%}pre code{padding:0;background:none;overflow-wrap:normal}
 .finder{display:flex;flex-wrap:wrap;gap:8px}.finder label{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:6px 14px;border:1px solid var(--line);border-radius:999px;font-size:14.5px;cursor:pointer}.finder input{width:18px;height:18px;accent-color:var(--hot)}
 .tablewrap{overflow-x:auto;margin:12px 0}.tablewrap td.num{white-space:nowrap;overflow-wrap:normal}.jt{min-width:600px}.jt thead th{overflow-wrap:normal}.tablewrap table{border-collapse:collapse;width:100%;font-size:14.5px}.tablewrap th,.tablewrap td{border-bottom:1px solid var(--line);padding:10px 8px;text-align:left;vertical-align:top;overflow-wrap:anywhere}.tablewrap thead th{font-weight:600}.tablewrap tbody th{font-weight:500;width:28%}.chart{margin:16px 0}.chart img{display:block;max-width:100%;height:auto;border-radius:14px}.chart figcaption{font-size:14px;color:var(--ink-2,inherit);opacity:.8;margin-top:6px}`;
 
@@ -117,7 +117,7 @@ function page({ title, description, canonical, body, ld, ogType = "article", up 
 <meta name="twitter:image" content="${SITE}og.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Schibsted+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=optional" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Schibsted+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=optional"></noscript>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Hanken+Grotesk:wght@400;500;600;700&display=optional" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Hanken+Grotesk:wght@400;500;600;700&display=optional"></noscript>
 <link rel="stylesheet" href="${up}tokens.css">
 <style>${CSS}</style>
 ${ld.map(ldJson).join("\n")}

@@ -50,27 +50,27 @@ const rows = top.map((r, i) => `
   </div>`).join("");
 
 const html = `<!doctype html><html><head><meta charset="utf-8">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Schibsted+Grotesk:wght@500;600&family=JetBrains+Mono:wght@500;600&display=block">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&family=Hanken+Grotesk:wght@500;600;700&display=block">
 <style>
 *{box-sizing:border-box;margin:0}
 html,body{width:1200px;height:630px;overflow:hidden}
-body{background:#0c111a;color:#e8edf5;font-family:"Schibsted Grotesk",system-ui,sans-serif;padding:52px 64px;display:flex;flex-direction:column;
+body{background:#16112f;color:#f3f0ff;font-family:"Hanken Grotesk",system-ui,sans-serif;padding:52px 64px;display:flex;flex-direction:column;
   background-image:radial-gradient(900px 500px at 105% -10%,rgba(226,65,47,.22),transparent 60%),radial-gradient(700px 420px at -10% 110%,rgba(47,157,181,.18),transparent 60%)}
 .top{display:flex;align-items:center;justify-content:space-between}
-.brand{display:flex;align-items:center;gap:14px;font-family:"Bricolage Grotesque";font-weight:800;font-size:34px}
-.live{font-family:"JetBrains Mono";font-size:20px;color:#a3aec0;display:flex;align-items:center;gap:10px}
+.brand{display:flex;align-items:center;gap:14px;font-family:"Big Shoulders Display";font-weight:800;font-size:42px}
+.live{font-family:"Hanken Grotesk";font-size:20px;color:#b9b2dc;display:flex;align-items:center;gap:10px}
 .dot{width:12px;height:12px;border-radius:50%;background:#3fd09a;box-shadow:0 0 0 6px rgba(63,208,154,.18)}
-h1{font-family:"Bricolage Grotesque";font-weight:800;font-size:60px;letter-spacing:-1.5px;margin:30px 0 22px}
+h1{font-family:"Big Shoulders Display";font-weight:900;font-size:76px;line-height:.95;letter-spacing:0;margin:30px 0 22px}
 h1 em{font-style:normal;color:#f5ad45}
 .rows{display:flex;flex-direction:column;gap:12px}
 .row{display:flex;align-items:center;gap:22px;background:#131a26;border:1px solid #232d3f;border-radius:14px;padding:14px 24px}
-.rank{font-family:"Bricolage Grotesque";font-weight:800;font-size:34px;color:#ff5c48;width:26px}
+.rank{font-family:"Big Shoulders Display";font-weight:800;font-size:44px;color:#ff5c48;width:26px}
 .body{flex:1;min-width:0}
-.name{font-family:"Bricolage Grotesque";font-weight:700;font-size:31px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.sub{font-size:19px;color:#a3aec0;margin-top:2px}
-.stat{font-family:"JetBrains Mono";font-weight:600;font-size:24px;color:#3fd09a;white-space:nowrap}
-.foot{margin-top:auto;display:flex;justify-content:space-between;font-family:"JetBrains Mono";font-size:19px;color:#a3aec0}
-.foot b{color:#e8edf5;font-weight:600}
+.name{font-family:"Big Shoulders Display";font-weight:800;font-size:38px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.sub{font-size:19px;color:#b9b2dc;margin-top:2px}
+.stat{font-family:"Hanken Grotesk";font-weight:600;font-size:24px;color:#3fd09a;white-space:nowrap}
+.foot{margin-top:auto;display:flex;justify-content:space-between;font-family:"Hanken Grotesk";font-size:19px;color:#b9b2dc}
+.foot b{color:#f3f0ff;font-weight:600}
 </style></head><body>
 <div class="top">
   <div class="brand"><svg width="42" height="42" viewBox="0 0 32 32"><g fill="none" stroke-width="3.2" stroke-linecap="round"><path d="M5 25c4-1 6-5 6-10" stroke="#46b9d1"/><path d="M13 26c4.5-1.5 7-7 6.5-15" stroke="#f5ad45"/><path d="M21 27c5-2 7.5-10 6-21" stroke="#ff5c48"/></g></svg>Upcurrent</div>

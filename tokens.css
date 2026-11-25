@@ -1,51 +1,60 @@
 /* Upcurrent design tokens. Every page links this file, so a colour or size changes in one place.
+   Direction (Nov 2026 redesign): a thermal camera pointed at AI. Deep indigo "night sky" surfaces,
+   and momentum shown on a thermal scale (violet -> amber -> red-orange), like rising warm air.
    Text colours (--ink, --muted, --faint, --hot-text, --up-text, --link) all pass WCAG AA (4.5:1) on --bg and --paper.
    --cool, --warm, --hot and --up are for bars, dots and charts only; use the -text versions for words.
-   --badge-hot and --badge-up are backgrounds for small white labels (pass 4.5:1 with white in both themes). */
+   --badge-hot and --badge-up are backgrounds for small white labels (pass 4.5:1 with white in both themes).
+   --sky* is the dark hero/band surface; it stays dark in both themes. */
 :root {
   /* colour: surfaces and text */
-  --bg: #eef1f4; --paper: #ffffff; --chip: #e3e8ee; --line: #d6dce4;
-  --ink: #0f1829; --muted: #4f5b6e; --faint: #586476; --link: #2a45cf;
-  --band: #0f1829; --band-ink: #e9eef6; --code: #0f1829; --code-ink: #e9eef6;
-  /* colour: heat scale (decoration) */
-  --cool: #2f9db5; --warm: #ef9b2d; --hot: #e2412f; --up: #12895f;
+  --bg: #f4f3f9; --paper: #ffffff; --chip: #e9e6f3; --line: #dcd8ea;
+  --ink: #1a1538; --muted: #4e4970; --faint: #5d5880; --link: #4a2fd0;
+  --band: #16112f; --band-ink: #eeeaff; --code: #16112f; --code-ink: #eeeaff;
+  --sky: #16112f; --sky-2: #221a4a; --sky-ink: #f3f0ff; --sky-muted: #b9b2dc; --sky-line: #352c66;
+  /* colour: heat scale (decoration) — a thermal ramp */
+  --cool: #6b3fd4; --warm: #f59b23; --hot: #e8432c; --up: #14966a;
   /* colour: heat scale (text and labels) */
-  --hot-text: #b52817; --up-text: #0b7a52; --cool-text: #1d6f82;
-  --badge-hot: #c42d1c; --badge-up: #0b7a52;
+  --hot-text: #b42a16; --up-text: #0b7650; --cool-text: #5531b8;
+  --badge-hot: #c22e1a; --badge-up: #0b7650;
 
   /* type */
-  --font-display: "Bricolage Grotesque", "Avenir Next", system-ui, sans-serif;
-  --font-body: "Schibsted Grotesk", "Helvetica Neue", system-ui, sans-serif;
-  --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", monospace;
-  --text-xs: 12px;    /* labels, timestamps, mono metadata */
+  --font-display: "Big Shoulders Display", "Avenir Next Condensed", "Arial Narrow", system-ui, sans-serif;
+  --font-body: "Hanken Grotesk", "Helvetica Neue", system-ui, sans-serif;
+  /* No monospace on the site any more: data uses the body face with tabular figures. */
+  --font-mono: "Hanken Grotesk", "Helvetica Neue", system-ui, sans-serif;
+  --font-code: ui-monospace, "SF Mono", Menlo, Consolas, monospace; /* real code and URLs only */
+  --text-xs: 12px;    /* labels, timestamps, metadata */
   --text-sm: 13.5px;  /* secondary text, chips, buttons */
   --text-md: 15px;    /* descriptions, section intros */
   --text-base: 16px;  /* body */
   --text-lg: 19px;    /* row titles */
-  --text-xl: clamp(24px, 3vw, 32px); /* section titles */
+  --text-xl: clamp(30px, 4vw, 44px); /* section titles (condensed face, so set large) */
 
   /* shape and space */
-  --radius-sm: 4px; --radius-md: 8px; --radius-lg: 14px; --radius-pill: 999px;
+  --radius-sm: 3px; --radius-md: 6px; --radius-lg: 12px; --radius-pill: 999px;
   --space-1: 4px; --space-2: 8px; --space-3: 12px; --space-4: 16px; --space-5: 24px; --space-6: 48px;
   --target: 36px;     /* smallest clickable height; 44px on touch screens */
 }
 @media (pointer: coarse) { :root { --target: 44px; } }
+body { font-variant-numeric: tabular-nums; }
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #0c111a; --paper: #131a26; --chip: #1c2535; --line: #232d3f;
-    --ink: #e8edf5; --muted: #a3aec0; --faint: #8f9ab0; --link: #8fa3ff;
-    --band: #19223a; --band-ink: #e8edf5; --code: #080c13; --code-ink: #dfe6f1;
-    --cool: #46b9d1; --warm: #f5ad45; --hot: #ff5c48; --up: #3fd09a;
-    --hot-text: #ff8a7a; --up-text: #3fd09a; --cool-text: #6fcde0;
+    --bg: #0d0a1f; --paper: #161130; --chip: #221b45; --line: #2b2352;
+    --ink: #efecff; --muted: #b4add6; --faint: #9d96c4; --link: #a998ff;
+    --band: #1f1844; --band-ink: #efecff; --code: #07051a; --code-ink: #e6e1ff;
+    --sky: #120d2c; --sky-2: #1d1645; --sky-ink: #f3f0ff; --sky-muted: #b9b2dc; --sky-line: #342b66;
+    --cool: #8b63ff; --warm: #ffae3d; --hot: #ff5a3f; --up: #35d39a;
+    --hot-text: #ff8c76; --up-text: #44d9a2; --cool-text: #b39cff;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
-  --bg: #0c111a; --paper: #131a26; --chip: #1c2535; --line: #232d3f;
-  --ink: #e8edf5; --muted: #a3aec0; --faint: #8f9ab0; --link: #8fa3ff;
-  --band: #19223a; --band-ink: #e8edf5; --code: #080c13; --code-ink: #dfe6f1;
-  --cool: #46b9d1; --warm: #f5ad45; --hot: #ff5c48; --up: #3fd09a;
-  --hot-text: #ff8a7a; --up-text: #3fd09a; --cool-text: #6fcde0;
+  --bg: #0d0a1f; --paper: #161130; --chip: #221b45; --line: #2b2352;
+  --ink: #efecff; --muted: #b4add6; --faint: #9d96c4; --link: #a998ff;
+  --band: #1f1844; --band-ink: #efecff; --code: #07051a; --code-ink: #e6e1ff;
+  --sky: #120d2c; --sky-2: #1d1645; --sky-ink: #f3f0ff; --sky-muted: #b9b2dc; --sky-line: #342b66;
+  --cool: #8b63ff; --warm: #ffae3d; --hot: #ff5a3f; --up: #35d39a;
+  --hot-text: #ff8c76; --up-text: #44d9a2; --cool-text: #b39cff;
   color-scheme: dark;
 }
