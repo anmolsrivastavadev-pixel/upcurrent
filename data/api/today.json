@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-25T01:30:50.278Z"
+  "updated": "2026-11-25T01:34:58.710Z"
  },
  "pulse": {
   "trending": 76,
   "accelerating": 2,
   "newModels": 15,
   "discussions": 40,
-  "stars": 774
+  "stars": 771
  },
  "rising": [
   {
@@ -25,7 +25,7 @@
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
    "meta": [
     "★ 3,619",
-    "+387 in 24h",
+    "+385 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-21T14:40:27Z",
@@ -70,7 +70,7 @@
    "src": "hf",
    "cat": "Infrastructure",
    "score": 91,
-   "grow": 74,
+   "grow": null,
    "desc": "Model on Hugging Face · open source · ♥ 756",
    "meta": [
     "574K downloads",
@@ -90,7 +90,7 @@
    "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
    "meta": [
     "★ 2,487",
-    "+183 in 24h",
+    "+182 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-11-19T10:00:43Z",
@@ -130,19 +130,19 @@
    "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted"
   },
   {
-   "name": "Beam Model Technical Report",
+   "name": "Nemotron-Labs-VisualCreation: Pixel as Code for Agentic Visual Creation",
    "owner": "Paper",
    "src": "paper",
-   "url": "https://huggingface.co/papers/2611.26358",
+   "url": "https://huggingface.co/papers/2611.31358",
    "cat": "Research",
    "score": 85,
    "grow": null,
-   "desc": "Beam is a sparse Mixture-of-Experts (MoE) model with 501.3B total parameters and 23.4B active parameters, specifically built and optimized for coding, reasoning, and agentic workloads.",
+   "desc": "Visual creation demands expressive imagery together with precise control over text, layout, and structure.",
    "meta": [
-    "▲ 14 upvotes",
+    "▲ 18 upvotes",
     "Hugging Face Papers"
    ],
-   "at": "2026-11-18T19:00:00.000Z",
+   "at": "2026-11-22T19:00:00.000Z",
    "breakout": null
   },
   {
@@ -308,8 +308,8 @@
    "name": "fast-anything",
    "url": "https://github.com/EL4CTEO/fast-anything",
    "from": "GitHub",
-   "use": 387,
-   "useLabel": "+387 stars/day",
+   "use": 385,
+   "useLabel": "+385 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -424,7 +424,7 @@
   {
    "repo": "EL4CTEO/fast-anything",
    "stars": 3619,
-   "d24": 387,
+   "d24": 385,
    "est": false,
    "forks": 257,
    "contrib": null,
@@ -434,7 +434,7 @@
   },
   {
    "repo": "INK-Q/agy-fast",
-   "stars": 1194,
+   "stars": 1195,
    "d24": 204,
    "est": true,
    "forks": 71,
@@ -446,7 +446,7 @@
   {
    "repo": "iamajmeena/neonclipping",
    "stars": 2487,
-   "d24": 183,
+   "d24": 182,
    "est": false,
    "forks": 155,
    "contrib": null,
@@ -476,7 +476,7 @@
    "grow": 65,
    "score": 91,
    "cat": "Vision",
-   "likes": 5786
+   "likes": 5787
   },
   {
    "name": "Inkling-2-Mini-Uncensored-GGUF",
@@ -484,7 +484,7 @@
    "lic": "Open source",
    "at": "2026-11-20T20:42:23.000Z",
    "dl": 573775,
-   "grow": 74,
+   "grow": null,
    "score": 91,
    "cat": "Infrastructure",
    "likes": 756
@@ -880,6 +880,13 @@
    "kind": "News"
   },
   {
+   "t": "Globe boosts growth with NCS joint venture",
+   "url": "https://www.manilatimes.net/2026/11/24/news/globe-boosts-growth-with-ncs-joint-venture/2477193",
+   "at": "2026-11-24T13:33:00Z",
+   "src": "The Manila Times",
+   "kind": "News"
+  },
+  {
    "t": "Nasdaq Futures Fall as Questions Linger Over AI Trade -- Update",
    "url": "https://www.marketscreener.com/news/nasdaq-futures-fall-as-questions-linger-over-ai-trade-update-ce7851dbdb8bf22c",
    "at": "2026-11-24T13:28:24Z",
@@ -892,13 +899,6 @@
    "at": "2026-11-24T13:28:23Z",
    "src": "NewsBytes",
    "kind": "News"
-  },
-  {
-   "t": "Anthropic, OpenAI employees' shocking warning: AI models are now too powerful for public release",
-   "url": "https://www.indiatoday.in/technology/news/story/anthropic-openai-employees-shocking-warning-ai-models-are-now-too-powerful-for-public-3046032-2026-11-24",
-   "at": "2026-11-24T13:15:43Z",
-   "src": "India Today",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -907,8 +907,8 @@
    "t": "LLM agents work for their parent companies, not for you",
    "url": "https://news.ycombinator.com/item?id=50627340",
    "link": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
-   "up": 904,
-   "com": 380,
+   "up": 905,
+   "com": 382,
    "at": "2026-11-24T12:40:15.000Z"
   },
   {
@@ -916,7 +916,7 @@
    "t": "GPT-6 models demonstrate intrinsic protein-design capabilities",
    "url": "https://news.ycombinator.com/item?id=50634658",
    "link": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
-   "up": 159,
+   "up": 160,
    "com": 37,
    "at": "2026-11-24T21:02:22.000Z"
   },
@@ -925,7 +925,7 @@
    "t": "Tidal bans AI-generated music",
    "url": "https://news.ycombinator.com/item?id=50630309",
    "link": "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/",
-   "up": 317,
+   "up": 318,
    "com": 303,
    "at": "2026-11-24T16:12:38.000Z"
   },
@@ -943,8 +943,8 @@
    "t": "GTA 6 Running on Windows",
    "url": "https://news.ycombinator.com/item?id=50627783",
    "link": "https://twitter.com/raul_bs3/status/2125213756238291075",
-   "up": 278,
-   "com": 356,
+   "up": 281,
+   "com": 358,
    "at": "2026-11-24T13:19:31.000Z"
   },
   {
@@ -952,7 +952,7 @@
    "t": "Get in, friends, the Atmosphere is happening",
    "url": "https://news.ycombinator.com/item?id=50636286",
    "link": "https://tropopause.pckt.blog/get-in-friends-the-atmosphere-is-happening-q8sf9a9",
-   "up": 46,
+   "up": 47,
    "com": 41,
    "at": "2026-11-24T23:23:35.000Z"
   }
