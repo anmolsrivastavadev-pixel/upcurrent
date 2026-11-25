@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-25T22:01:00.581Z"
+  "updated": "2026-11-25T22:30:51.300Z"
  },
  "pulse": {
   "trending": 75,
   "accelerating": 3,
   "newModels": 13,
-  "discussions": 45,
-  "stars": 731
+  "discussions": 47,
+  "stars": 726
  },
  "rising": [
   {
@@ -21,10 +21,10 @@
    "src": "gh",
    "cat": "Agents",
    "score": 93,
-   "grow": 6,
+   "grow": 7,
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
    "meta": [
-    "★ 3,929",
+    "★ 3,936",
     "+354 in 24h",
     "Created 4 days ago"
    ],
@@ -49,28 +49,12 @@
    "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF"
   },
   {
-   "name": "Ternary-Bonsai-2.5-27B-GGUF",
-   "owner": "prism-ml",
-   "src": "hf",
-   "cat": "Agents",
-   "score": 91,
-   "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 310",
-   "meta": [
-    "59K downloads",
-    "Released yesterday"
-   ],
-   "at": "2026-11-24T16:32:20.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF"
-  },
-  {
    "name": "Inkling-2-Mini",
    "owner": "thinkingmachines",
    "src": "hf",
    "cat": "Vision",
    "score": 90,
-   "grow": 40,
+   "grow": null,
    "desc": "Vision on Hugging Face · open source · ♥ 6K",
    "meta": [
     "97K downloads",
@@ -97,6 +81,22 @@
    "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF"
   },
   {
+   "name": "Ternary-Bonsai-2.5-27B-GGUF",
+   "owner": "prism-ml",
+   "src": "hf",
+   "cat": "Agents",
+   "score": 90,
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 311",
+   "meta": [
+    "59K downloads",
+    "Released yesterday"
+   ],
+   "at": "2026-11-24T16:32:20.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF"
+  },
+  {
    "name": "neonclipping",
    "owner": "iamajmeena",
    "src": "gh",
@@ -105,8 +105,8 @@
    "grow": 4,
    "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
    "meta": [
-    "★ 2,621",
-    "+153 in 24h",
+    "★ 2,622",
+    "+149 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-11-19T10:00:43Z",
@@ -120,7 +120,7 @@
    "cat": "Tools",
    "score": 87,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 890",
+   "desc": "Model on Hugging Face · open source · ♥ 891",
    "meta": [
     "15K downloads",
     "Released 12 days ago"
@@ -155,7 +155,7 @@
    "grow": null,
    "desc": "Build an always-on AI team with shared memory",
    "meta": [
-    "▲ 257 votes",
+    "▲ 260 votes",
     "37 comments",
     "Launched 14h ago"
    ],
@@ -183,7 +183,7 @@
   {
    "key": "valley",
    "label": "Valley",
-   "n": 3,
+   "n": 4,
    "sources": [
     {
      "src": "Product Hunt",
@@ -199,34 +199,17 @@
      "src": "Fortune",
      "t": "Fortune Tech: Silicon Valley's hottest new product? The prenup",
      "url": "https://fortune.com/2026/11/25/silicon-valleys-hottest-new-product-the-prenup/"
+    },
+    {
+     "src": "New York Post",
+     "t": "Why is Silicon Valley making AI we fear and not what we actually need?",
+     "url": "https://nypost.com/2026/11/24/opinion/why-is-silicon-valley-making-ai-we-fear-and-not-the-ai-we-need/"
     }
    ],
    "since": "2026-11-24T17:30:58.584Z"
   }
  ],
  "hype": [
-  {
-   "name": "GPT-6",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
-    {
-     "src": "OpenAI blog",
-     "t": "GPT-6 models demonstrate intrinsic protein-design capabilities",
-     "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities"
-    },
-    {
-     "src": "Biztoc.com",
-     "t": "OpenAI: GPT-6 models can design new protein shapes",
-     "url": "https://biztoc.com/x/3c010055f1504ec8"
-    }
-   ],
-   "buzz": 2,
-   "verdict": "Talk only, no public usage numbers"
-  },
   {
    "name": "Inkling-2-Mini",
    "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
@@ -363,7 +346,7 @@
  "github": [
   {
    "repo": "EL4CTEO/fast-anything",
-   "stars": 3929,
+   "stars": 3936,
    "d24": 354,
    "est": false,
    "forks": 282,
@@ -374,8 +357,8 @@
   },
   {
    "repo": "INK-Q/agy-fast",
-   "stars": 1500,
-   "d24": 224,
+   "stars": 1501,
+   "d24": 223,
    "est": true,
    "forks": 86,
    "contrib": null,
@@ -385,8 +368,8 @@
   },
   {
    "repo": "iamajmeena/neonclipping",
-   "stars": 2621,
-   "d24": 153,
+   "stars": 2622,
+   "d24": 149,
    "est": false,
    "forks": 165,
    "contrib": null,
@@ -408,27 +391,15 @@
    "likes": 1364
   },
   {
-   "name": "Ternary-Bonsai-2.5-27B-GGUF",
-   "org": "prism-ml",
-   "size": "27B",
-   "lic": "Open source",
-   "at": "2026-11-24T16:32:20.000Z",
-   "dl": 59366,
-   "grow": null,
-   "score": 91,
-   "cat": "Agents",
-   "likes": 310
-  },
-  {
    "name": "Inkling-2-Mini",
    "org": "thinkingmachines",
    "lic": "Open source",
    "at": "2026-11-17T00:26:57.000Z",
    "dl": 96527,
-   "grow": 40,
+   "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 6012
+   "likes": 6013
   },
   {
    "name": "Inkling-2-Mini-Uncensored-GGUF",
@@ -442,6 +413,18 @@
    "likes": 834
   },
   {
+   "name": "Ternary-Bonsai-2.5-27B-GGUF",
+   "org": "prism-ml",
+   "size": "27B",
+   "lic": "Open source",
+   "at": "2026-11-24T16:32:20.000Z",
+   "dl": 59366,
+   "grow": null,
+   "score": 90,
+   "cat": "Agents",
+   "likes": 311
+  },
+  {
    "name": "voice-isolator",
    "org": "inworld",
    "lic": "Open source",
@@ -450,7 +433,7 @@
    "grow": null,
    "score": 87,
    "cat": "Tools",
-   "likes": 890
+   "likes": 891
   },
   {
    "name": "Sulphur-3",
@@ -461,7 +444,7 @@
    "grow": 18,
    "score": 84,
    "cat": "Tools",
-   "likes": 1051
+   "likes": 1057
   }
  ],
  "free": [
@@ -819,17 +802,17 @@
    "kind": "Video"
   },
   {
-   "t": "An Indic Voice Agent with CUGA",
-   "url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
-   "at": "2026-11-25T10:22:09.000Z",
-   "src": "Hugging Face",
-   "kind": "Lab blog"
+   "t": "Retailers face rising AI cyberattack threat ahead of Black Friday, many uninsured",
+   "url": "https://www.thestar.com.my/tech/tech-news/2026/11/25/retailers-face-rising-ai-cyberattack-threat-ahead-of-black-friday-many-uninsured",
+   "at": "2026-11-25T10:27:00Z",
+   "src": "The Star",
+   "kind": "News"
   },
   {
-   "t": "AI's shock-and-awe raid on maths looks like pride before a fall | Rafael Behr",
-   "url": "https://www.theguardian.com/commentisfree/2026/nov/25/ai-mathematics-human-knowledge-progress-technology-industry",
-   "at": "2026-11-25T10:05:15Z",
-   "src": "The Guardian",
+   "t": "Iran Accuses US of Using AI in Deadly Attacks, Urges UN Oversight",
+   "url": "https://www.lokmattimes.com/international/iran-accuses-us-of-using-ai-in-deadly-attacks-urges-un-oversight-a001-w01/",
+   "at": "2026-11-25T10:24:51Z",
+   "src": "Lokmat Times",
    "kind": "News"
   }
  ],
@@ -839,17 +822,26 @@
    "t": "Rumors swirling that labs might have cracked Factoring in P",
    "url": "https://news.ycombinator.com/item?id=50643065",
    "link": "https://www.reddit.com/r/singularity/comments/1y59ef1/rumor_that_openai_or_anthropic_found_a_way_to/",
-   "up": 418,
-   "com": 295,
+   "up": 433,
+   "com": 305,
    "at": "2026-11-25T15:08:44.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Much shorter version of GRH Lean verification from Anthropic",
+   "url": "https://news.ycombinator.com/item?id=50648050",
+   "link": "https://github.com/lsernau/grh-lean",
+   "up": 52,
+   "com": 14,
+   "at": "2026-11-25T21:48:10.000Z"
   },
   {
    "src": "Hacker News",
    "t": "The matrix multiplication exponent is nine fourths [pdf]",
    "url": "https://news.ycombinator.com/item?id=50637220",
    "link": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
-   "up": 991,
-   "com": 552,
+   "up": 1003,
+   "com": 554,
    "at": "2026-11-25T01:19:26.000Z"
   },
   {
@@ -857,36 +849,27 @@
    "t": "Google releases Cogentic papers on integer factorization, discrete logs and more",
    "url": "https://news.ycombinator.com/item?id=50642086",
    "link": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
-   "up": 402,
-   "com": 314,
+   "up": 415,
+   "com": 316,
    "at": "2026-11-25T13:33:07.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Investigating degraded experiences across GitHub products",
-   "url": "https://news.ycombinator.com/item?id=50643720",
-   "link": "https://www.githubstatus.com/incidents/qn8mfv6q5hlx",
-   "up": 174,
-   "com": 93,
-   "at": "2026-11-25T15:59:23.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Windows Loudness Equalization, reverse-engineered and ported to PipeWire",
    "url": "https://news.ycombinator.com/item?id=50641171",
    "link": "https://github.com/xoxorwr/pw-loudness-eq",
-   "up": 296,
-   "com": 166,
+   "up": 298,
+   "com": 168,
    "at": "2026-11-25T11:34:25.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Bypassing iOS Safari's 60 FPS Limit to Build Web Applications That Feel Native",
-   "url": "https://news.ycombinator.com/item?id=50637890",
-   "link": "https://rida.dev/blog/bypassing-ios-safari-60-fps-limit",
-   "up": 426,
-   "com": 140,
-   "at": "2026-11-25T03:04:37.000Z"
+   "t": "Investigating degraded experiences across GitHub products",
+   "url": "https://news.ycombinator.com/item?id=50643720",
+   "link": "https://www.githubstatus.com/incidents/qn8mfv6q5hlx",
+   "up": 175,
+   "com": 94,
+   "at": "2026-11-25T15:59:23.000Z"
   }
  ]
 }
