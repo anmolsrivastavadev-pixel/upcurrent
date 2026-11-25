@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-25T05:30:54.769Z"
+  "updated": "2026-11-25T06:01:03.407Z"
  },
  "pulse": {
   "trending": 76,
   "accelerating": 0,
-  "newModels": 15,
-  "discussions": 47,
-  "stars": 782
+  "newModels": 14,
+  "discussions": 49,
+  "stars": 1688
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 95,
-   "grow": 10,
+   "grow": null,
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
    "meta": [
-    "★ 3,685",
-    "+389 in 24h",
+    "★ 3,693",
+    "~1,015 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-21T14:40:27Z",
@@ -71,7 +71,7 @@
    "cat": "Infrastructure",
    "score": 90,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 762",
+   "desc": "Model on Hugging Face · open source · ♥ 764",
    "meta": [
     "574K downloads",
     "Released 4 days ago"
@@ -89,8 +89,8 @@
    "grow": 6,
    "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
    "meta": [
-    "★ 2,516",
-    "+181 in 24h",
+    "★ 2,517",
+    "+177 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-11-19T10:00:43Z",
@@ -103,8 +103,8 @@
    "src": "hf",
    "cat": "Tools",
    "score": 87,
-   "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 824",
+   "grow": 0,
+   "desc": "Model on Hugging Face · open source · ♥ 826",
    "meta": [
     "13K downloads",
     "Released 11 days ago"
@@ -114,16 +114,16 @@
    "url": "https://huggingface.co/inworld/voice-isolator"
   },
   {
-   "name": "Rewirable Circuits in Transformers with Loom Attention",
+   "name": "ACAP: Asynchronous Coding Agents for Efficient Robot Control",
    "owner": "Paper",
    "src": "paper",
-   "url": "https://huggingface.co/papers/2611.30634",
+   "url": "https://huggingface.co/papers/2611.31205",
    "cat": "Research",
    "score": 85,
    "grow": null,
-   "desc": "We propose loom attention, which allows a Transformer to dynamically rewire its circuits at every token by interweaving a head's vertical attention over the outputs of earlier heads (to obtain its query, key and value) with its horizontal attention over tokens.",
+   "desc": "Coding agents can construct and revise robot behavior during execution, but using one agent for the whole robot can delay otherwise independent work.",
    "meta": [
-    "▲ 22 upvotes",
+    "▲ 25 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-11-22T19:00:00.000Z",
@@ -139,7 +139,7 @@
    "grow": null,
    "desc": "Turn your website into a stunning launch video in minutes",
    "meta": [
-    "▲ 340 votes",
+    "▲ 341 votes",
     "47 comments",
     "Launched 2 days ago"
    ],
@@ -153,7 +153,7 @@
    "cat": "Tools",
    "score": 84,
    "grow": 20,
-   "desc": "Model on Hugging Face · open weights · ♥ 949",
+   "desc": "Model on Hugging Face · open weights · ♥ 951",
    "meta": [
     "161K downloads",
     "Released 24 days ago"
@@ -169,7 +169,7 @@
    "cat": "Tools",
    "score": 84,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 185",
+   "desc": "Model on Hugging Face · open source · ♥ 186",
    "meta": [
     "733 downloads",
     "Released 2 days ago"
@@ -258,8 +258,8 @@
    "name": "fast-anything",
    "url": "https://github.com/EL4CTEO/fast-anything",
    "from": "GitHub",
-   "use": 389,
-   "useLabel": "+389 stars/day",
+   "use": 1015,
+   "useLabel": "~1,015 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -373,9 +373,9 @@
  "github": [
   {
    "repo": "EL4CTEO/fast-anything",
-   "stars": 3685,
-   "d24": 389,
-   "est": false,
+   "stars": 3693,
+   "d24": 1015,
+   "est": true,
    "forks": 264,
    "contrib": null,
    "score": 95,
@@ -384,9 +384,9 @@
   },
   {
    "repo": "INK-Q/agy-fast",
-   "stars": 1275,
-   "d24": 212,
-   "est": true,
+   "stars": 1292,
+   "d24": 496,
+   "est": false,
    "forks": 77,
    "contrib": null,
    "score": 76,
@@ -395,8 +395,8 @@
   },
   {
    "repo": "iamajmeena/neonclipping",
-   "stars": 2516,
-   "d24": 181,
+   "stars": 2517,
+   "d24": 177,
    "est": false,
    "forks": 157,
    "contrib": null,
@@ -415,7 +415,7 @@
    "grow": null,
    "score": 93,
    "cat": "Infrastructure",
-   "likes": 1273
+   "likes": 1275
   },
   {
    "name": "Inkling-2-Mini",
@@ -426,7 +426,7 @@
    "grow": null,
    "score": 91,
    "cat": "Vision",
-   "likes": 5822
+   "likes": 5827
   },
   {
    "name": "Inkling-2-Mini-Uncensored-GGUF",
@@ -437,7 +437,7 @@
    "grow": null,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 762
+   "likes": 764
   },
   {
    "name": "voice-isolator",
@@ -445,10 +445,10 @@
    "lic": "Open source",
    "at": "2026-11-14T02:14:35.000Z",
    "dl": 12733,
-   "grow": null,
+   "grow": 0,
    "score": 87,
    "cat": "Tools",
-   "likes": 824
+   "likes": 826
   },
   {
    "name": "Sulphur-3",
@@ -459,7 +459,7 @@
    "grow": 20,
    "score": 84,
    "cat": "Tools",
-   "likes": 949
+   "likes": 951
   },
   {
    "name": "Ling-3.2-air",
@@ -470,7 +470,7 @@
    "grow": 0,
    "score": 84,
    "cat": "Tools",
-   "likes": 185
+   "likes": 186
   }
  ],
  "free": [
@@ -738,6 +738,20 @@
  },
  "headlines": [
   {
+   "t": "NJ-based AidenAI, which helps enterprises integrate AI into apps, data infrastructure, and business workflows, raised a $32M Series A led by A91 Partners",
+   "url": "https://www.techmeme.com/261125/p2#a261125p2",
+   "at": "2026-11-25T05:50:13.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Sources: the EU plans to mobilize up to €50B for its Sovereign Tech Equity Fund to make long-term, high-risk bets on European AI and quantum computing companies",
+   "url": "https://www.techmeme.com/261125/p1#a261125p1",
+   "at": "2026-11-25T05:40:03.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "HP reports Q4 revenue up 9.3% YoY to $16B, above $15.3B est., gives \"prudent\" fiscal 2027 guidance above estimates, and says AI PCs reached ~60% of shipments",
    "url": "https://www.techmeme.com/261124/p50#a261124p50",
    "at": "2026-11-25T02:30:02.000Z",
@@ -780,10 +794,17 @@
    "kind": "News"
   },
   {
-   "t": "Anthropic rolls out \"Install as app\" in beta, which turns Claude artifacts into Mac and Windows apps with notifications, optional full computer access, and more",
-   "url": "https://www.techmeme.com/261124/p40#a261124p40",
-   "at": "2026-11-24T22:05:01.000Z",
-   "src": "Techmeme",
+   "t": "House Committee: Commerce Approved 879,000 AI Chips for Chinese Military",
+   "url": "https://www.naturalnews.com/2026-11-24-commerce-approved-ai-chips-chinese-military-firms.html",
+   "at": "2026-11-24T17:50:48Z",
+   "src": "Natural News",
+   "kind": "News"
+  },
+  {
+   "t": "Nvidia, Chip Stocks Fall On Data Center Spending Fears",
+   "url": "https://www.investors.com/news/technology/chip-stocks-fall-data-center-spending-fears/",
+   "at": "2026-11-24T17:41:23Z",
+   "src": "Investor's Business Daily",
    "kind": "News"
   },
   {
@@ -827,27 +848,6 @@
    "at": "2026-11-24T17:13:00Z",
    "src": "The News International",
    "kind": "News"
-  },
-  {
-   "t": "Hyderabad Police Stations To Turn Smart With Artificial Intelligence",
-   "url": "https://www.deccanchronicle.com/southern-states/telangana/hyderabad-police-stations-to-turn-smart-with-artificial-intelligence-2007618",
-   "at": "2026-11-24T17:10:33Z",
-   "src": "Deccan Chronicle",
-   "kind": "News"
-  },
-  {
-   "t": "'They will be able to trick us': OpenAI, Anthropic employees fear their new AI models may be too dangerous to release",
-   "url": "https://www.moneycontrol.com/world/they-will-be-able-to-trick-us-openai-anthropic-employees-fear-their-new-ai-models-may-be-too-dangerous-to-release-article-14088240.html",
-   "at": "2026-11-24T17:07:34Z",
-   "src": "Moneycontrol",
-   "kind": "News"
-  },
-  {
-   "t": "Anthropic and OpenAI Staff Worried Models Becoming Too Powerful to Ever Release, Report",
-   "url": "https://www.tmz.com/2026/11/24/anthropic-and-openai-employees-worried-models-becoming-too-powerful/",
-   "at": "2026-11-24T17:03:30Z",
-   "src": "TMZ",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -856,8 +856,8 @@
    "t": "Matrix Multiplication is Θ(n^2.25) [pdf]",
    "url": "https://news.ycombinator.com/item?id=50637220",
    "link": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
-   "up": 358,
-   "com": 172,
+   "up": 391,
+   "com": 196,
    "at": "2026-11-25T01:19:26.000Z"
   },
   {
@@ -865,8 +865,8 @@
    "t": "LLM agents work for their parent companies, not for you",
    "url": "https://news.ycombinator.com/item?id=50627340",
    "link": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
-   "up": 952,
-   "com": 393,
+   "up": 958,
+   "com": 394,
    "at": "2026-11-24T12:40:15.000Z"
   },
   {
@@ -874,17 +874,26 @@
    "t": "Gemini refused to give me the lyrics to Twinkle Twinkle Little Star",
    "url": "https://news.ycombinator.com/item?id=50638320",
    "link": "https://www.comentr.com/technology/01M88DWQ0R4NCMYR17AFEWRG1F",
-   "up": 47,
-   "com": 34,
+   "up": 85,
+   "com": 56,
    "at": "2026-11-25T04:03:33.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Treasury CIO is too busy vibecoding instead of doing his job #147",
+   "url": "https://news.ycombinator.com/item?id=50638647",
+   "link": "https://github.com/samcorcos/legatum/issues/147",
+   "up": 40,
+   "com": 2,
+   "at": "2026-11-25T04:56:36.000Z"
   },
   {
    "src": "Hacker News",
    "t": "PenGPT: A Generative Transformer for Handwriting and Sketches",
    "url": "https://news.ycombinator.com/item?id=50637056",
    "link": "https://greydanus.github.io/2026/11/12/pengpt/",
-   "up": 147,
-   "com": 25,
+   "up": 163,
+   "com": 28,
    "at": "2026-11-25T00:54:49.000Z"
   },
   {
@@ -892,18 +901,9 @@
    "t": "GPT-6 models demonstrate intrinsic protein-design capabilities",
    "url": "https://news.ycombinator.com/item?id=50634658",
    "link": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
-   "up": 222,
+   "up": 229,
    "com": 69,
    "at": "2026-11-24T21:02:22.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Tidal bans AI-generated music",
-   "url": "https://news.ycombinator.com/item?id=50630309",
-   "link": "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/",
-   "up": 320,
-   "com": 308,
-   "at": "2026-11-24T16:12:38.000Z"
   }
  ]
 }
