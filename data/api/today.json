@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-25T01:01:06.240Z"
+  "updated": "2026-11-25T01:30:50.278Z"
  },
  "pulse": {
   "trending": 76,
   "accelerating": 2,
   "newModels": 15,
-  "discussions": 39,
-  "stars": 776
+  "discussions": 40,
+  "stars": 774
  },
  "rising": [
   {
@@ -21,10 +21,10 @@
    "src": "gh",
    "cat": "Agents",
    "score": 95,
-   "grow": 7,
+   "grow": 8,
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
    "meta": [
-    "★ 3,611",
+    "★ 3,619",
     "+387 in 24h",
     "Created 3 days ago"
    ],
@@ -42,7 +42,7 @@
    "desc": "Model on Hugging Face · open source · ♥ 1.3K",
    "meta": [
     "1.9M downloads",
-    "Released 4 days ago"
+    "Released 5 days ago"
    ],
    "at": "2026-11-20T13:09:48.000Z",
    "breakout": null,
@@ -71,7 +71,7 @@
    "cat": "Infrastructure",
    "score": 91,
    "grow": 74,
-   "desc": "Model on Hugging Face · open source · ♥ 755",
+   "desc": "Model on Hugging Face · open source · ♥ 756",
    "meta": [
     "574K downloads",
     "Released 4 days ago"
@@ -89,8 +89,8 @@
    "grow": 4,
    "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
    "meta": [
-    "★ 2,485",
-    "+186 in 24h",
+    "★ 2,487",
+    "+183 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-11-19T10:00:43Z",
@@ -104,7 +104,7 @@
    "cat": "Tools",
    "score": 87,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 817",
+   "desc": "Model on Hugging Face · open source · ♥ 818",
    "meta": [
     "13K downloads",
     "Released 11 days ago"
@@ -169,7 +169,7 @@
    "cat": "Tools",
    "score": 83,
    "grow": 20,
-   "desc": "Model on Hugging Face · open weights · ♥ 913",
+   "desc": "Model on Hugging Face · open weights · ♥ 919",
    "meta": [
     "161K downloads",
     "Released 24 days ago"
@@ -180,34 +180,6 @@
   }
  ],
  "breakouts": [
-  {
-   "key": "gpt 6.2",
-   "label": "GPT-6.2",
-   "n": 4,
-   "sources": [
-    {
-     "src": "Lobsters",
-     "t": "GPT 6.2 Astra Solves a Historical Mystery",
-     "url": "https://lobste.rs/s/0al7hs/gpt_6_2_astra_solves_historical_mystery"
-    },
-    {
-     "src": "TechRadar",
-     "t": "ChatGPT-5.6 fans mourn model’s demise as OpenAI confirms retirement date - but its GPT-6.2 replacement is already rolling out",
-     "url": "https://www.techradar.com/ai-platforms-assistants/chatgpt/chatgpt-5-6-fans-mourn-models-demise-as-openai-confirms-retirement-date-but-its-gpt-6-2-replacement-is-already-rolling-out"
-    },
-    {
-     "src": "NewsBytes",
-     "t": "OpenAI adds GPT-6.2 Sol to ChatGPT chat tab for subscribers",
-     "url": "https://www.newsbytesapp.com/news/science/openai-adds-gpt-62-sol-to-chatgpt-chat-tab-for-subscribers/tldr"
-    },
-    {
-     "src": "Times of India",
-     "t": "OpenAI brings GPT-6.2 Sol to ChatGPT's Chat tab, will retire GPT-5.6 Sol next month",
-     "url": "https://timesofindia.indiatimes.com/technology/tech-news/openai-brings-gpt-6-2-sol-to-chatgpts-chat-tab-will-retire-gpt-5-6-sol-next-month/articleshow/136129951.cms"
-    }
-   ],
-   "since": "2026-11-03T23:15:42.727Z"
-  },
   {
    "key": "gpt 6",
    "label": "GPT-6",
@@ -230,17 +202,12 @@
     }
    ],
    "since": "2026-11-25T00:01:02.723Z"
-  }
- ],
- "hype": [
+  },
   {
-   "name": "GPT-6.2",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
+   "key": "gpt 6.2",
+   "label": "GPT-6.2",
+   "n": 3,
+   "sources": [
     {
      "src": "Lobsters",
      "t": "GPT 6.2 Astra Solves a Historical Mystery",
@@ -255,16 +222,12 @@
      "src": "NewsBytes",
      "t": "OpenAI adds GPT-6.2 Sol to ChatGPT chat tab for subscribers",
      "url": "https://www.newsbytesapp.com/news/science/openai-adds-gpt-62-sol-to-chatgpt-chat-tab-for-subscribers/tldr"
-    },
-    {
-     "src": "Times of India",
-     "t": "OpenAI brings GPT-6.2 Sol to ChatGPT's Chat tab, will retire GPT-5.6 Sol next month",
-     "url": "https://timesofindia.indiatimes.com/technology/tech-news/openai-brings-gpt-6-2-sol-to-chatgpts-chat-tab-will-retire-gpt-5-6-sol-next-month/articleshow/136129951.cms"
     }
    ],
-   "buzz": 4,
-   "verdict": "Talk only, no public usage numbers"
-  },
+   "since": "2026-11-03T23:15:42.727Z"
+  }
+ ],
+ "hype": [
   {
    "name": "GPT-6",
    "url": null,
@@ -287,6 +250,33 @@
      "src": "Techmeme",
      "t": "OpenAI says GPT-6 models can design new protein shapes and sequences using only reasoning and code, without calling specialized biology models to generate them",
      "url": "https://www.techmeme.com/261124/p44#a261124p44"
+    }
+   ],
+   "buzz": 3,
+   "verdict": "Talk only, no public usage numbers"
+  },
+  {
+   "name": "GPT-6.2",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
+    {
+     "src": "Lobsters",
+     "t": "GPT 6.2 Astra Solves a Historical Mystery",
+     "url": "https://lobste.rs/s/0al7hs/gpt_6_2_astra_solves_historical_mystery"
+    },
+    {
+     "src": "TechRadar",
+     "t": "ChatGPT-5.6 fans mourn model’s demise as OpenAI confirms retirement date - but its GPT-6.2 replacement is already rolling out",
+     "url": "https://www.techradar.com/ai-platforms-assistants/chatgpt/chatgpt-5-6-fans-mourn-models-demise-as-openai-confirms-retirement-date-but-its-gpt-6-2-replacement-is-already-rolling-out"
+    },
+    {
+     "src": "NewsBytes",
+     "t": "OpenAI adds GPT-6.2 Sol to ChatGPT chat tab for subscribers",
+     "url": "https://www.newsbytesapp.com/news/science/openai-adds-gpt-62-sol-to-chatgpt-chat-tab-for-subscribers/tldr"
     }
    ],
    "buzz": 3,
@@ -433,10 +423,10 @@
  "github": [
   {
    "repo": "EL4CTEO/fast-anything",
-   "stars": 3611,
+   "stars": 3619,
    "d24": 387,
    "est": false,
-   "forks": 256,
+   "forks": 257,
    "contrib": null,
    "score": 95,
    "cat": "Agents",
@@ -444,10 +434,10 @@
   },
   {
    "repo": "INK-Q/agy-fast",
-   "stars": 1184,
-   "d24": 203,
+   "stars": 1194,
+   "d24": 204,
    "est": true,
-   "forks": 69,
+   "forks": 71,
    "contrib": null,
    "score": 76,
    "cat": "Agents",
@@ -455,10 +445,10 @@
   },
   {
    "repo": "iamajmeena/neonclipping",
-   "stars": 2485,
-   "d24": 186,
+   "stars": 2487,
+   "d24": 183,
    "est": false,
-   "forks": 156,
+   "forks": 155,
    "contrib": null,
    "score": 89,
    "cat": "Vision",
@@ -475,7 +465,7 @@
    "grow": 48,
    "score": 93,
    "cat": "Infrastructure",
-   "likes": 1255
+   "likes": 1256
   },
   {
    "name": "Inkling-2-Mini",
@@ -486,7 +476,7 @@
    "grow": 65,
    "score": 91,
    "cat": "Vision",
-   "likes": 5785
+   "likes": 5786
   },
   {
    "name": "Inkling-2-Mini-Uncensored-GGUF",
@@ -497,7 +487,7 @@
    "grow": 74,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 755
+   "likes": 756
   },
   {
    "name": "voice-isolator",
@@ -508,7 +498,7 @@
    "grow": null,
    "score": 87,
    "cat": "Tools",
-   "likes": 817
+   "likes": 818
   },
   {
    "name": "Qwen3.8-27B-pi-adapted",
@@ -531,7 +521,7 @@
    "grow": 20,
    "score": 83,
    "cat": "Tools",
-   "likes": 913
+   "likes": 919
   }
  ],
  "free": [
@@ -799,6 +789,13 @@
  },
  "headlines": [
   {
+   "t": "I asked AI if it was OK to use AI to write an obituary. The answer surprised me | Anna Spargo-Ryan",
+   "url": "https://www.theguardian.com/commentisfree/2026/nov/25/jess-wilson-molly-meldrum-tribute-ai-ethics-obituary",
+   "at": "2026-11-25T01:00:01Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
    "t": "OpenAI says GPT-6 models can design new protein shapes and sequences using only reasoning and code, without calling specialized biology models to generate them",
    "url": "https://www.techmeme.com/261124/p44#a261124p44",
    "at": "2026-11-24T23:40:02.000Z",
@@ -837,20 +834,6 @@
    "t": "Sources: Jensen Huang said Nvidia doesn't need a succession plan because it operates a unique business model and such a plan would create unnecessary hierarchy",
    "url": "https://www.techmeme.com/261124/p34#a261124p34",
    "at": "2026-11-24T20:10:00.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Sources: the CIA, ODNI, and NGA found a breach of an open-source intelligence system that exposed some unclassified info; hackers likely used the AI tool Artex",
-   "url": "https://www.techmeme.com/261124/p33#a261124p33",
-   "at": "2026-11-24T20:05:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "President Trump finds himself isolated in DC over his moves to reinstate Jensen Huang as even some of his staunchest allies vow to probe Huang and Nvidia",
-   "url": "https://www.techmeme.com/261124/p32#a261124p32",
-   "at": "2026-11-24T19:35:01.000Z",
    "src": "Techmeme",
    "kind": "News"
   },
@@ -897,17 +880,24 @@
    "kind": "News"
   },
   {
-   "t": "GPT-6 models demonstrate intrinsic protein-design capabilities",
-   "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
-   "at": "2026-11-24T13:00:00.000Z",
-   "src": "OpenAI",
-   "kind": "Lab blog"
+   "t": "Nasdaq Futures Fall as Questions Linger Over AI Trade -- Update",
+   "url": "https://www.marketscreener.com/news/nasdaq-futures-fall-as-questions-linger-over-ai-trade-update-ce7851dbdb8bf22c",
+   "at": "2026-11-24T13:28:24Z",
+   "src": "MarketScreener",
+   "kind": "News"
   },
   {
-   "t": "ChatGPT-5.6 fans mourn model’s demise as OpenAI confirms retirement date - but its GPT-6.2 replacement is already rolling out",
-   "url": "https://www.techradar.com/ai-platforms-assistants/chatgpt/chatgpt-5-6-fans-mourn-models-demise-as-openai-confirms-retirement-date-but-its-gpt-6-2-replacement-is-already-rolling-out",
-   "at": "2026-11-24T12:58:59Z",
-   "src": "TechRadar",
+   "t": "OpenAI and Anthropic employees warn AI models may outpace oversight",
+   "url": "https://www.newsbytesapp.com/news/science/openai-and-anthropic-employees-warn-ai-models-may-outpace-oversight/tldr",
+   "at": "2026-11-24T13:28:23Z",
+   "src": "NewsBytes",
+   "kind": "News"
+  },
+  {
+   "t": "Anthropic, OpenAI employees' shocking warning: AI models are now too powerful for public release",
+   "url": "https://www.indiatoday.in/technology/news/story/anthropic-openai-employees-shocking-warning-ai-models-are-now-too-powerful-for-public-3046032-2026-11-24",
+   "at": "2026-11-24T13:15:43Z",
+   "src": "India Today",
    "kind": "News"
   }
  ],
@@ -917,8 +907,8 @@
    "t": "LLM agents work for their parent companies, not for you",
    "url": "https://news.ycombinator.com/item?id=50627340",
    "link": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
-   "up": 894,
-   "com": 377,
+   "up": 904,
+   "com": 380,
    "at": "2026-11-24T12:40:15.000Z"
   },
   {
@@ -926,8 +916,8 @@
    "t": "GPT-6 models demonstrate intrinsic protein-design capabilities",
    "url": "https://news.ycombinator.com/item?id=50634658",
    "link": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
-   "up": 149,
-   "com": 34,
+   "up": 159,
+   "com": 37,
    "at": "2026-11-24T21:02:22.000Z"
   },
   {
@@ -935,8 +925,8 @@
    "t": "Tidal bans AI-generated music",
    "url": "https://news.ycombinator.com/item?id=50630309",
    "link": "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/",
-   "up": 316,
-   "com": 300,
+   "up": 317,
+   "com": 303,
    "at": "2026-11-24T16:12:38.000Z"
   },
   {
@@ -944,27 +934,27 @@
    "t": "Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?",
    "url": "https://news.ycombinator.com/item?id=50630809",
    "link": "",
-   "up": 220,
-   "com": 163,
+   "up": 222,
+   "com": 165,
    "at": "2026-11-24T16:45:44.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Get in, friends, the Atmosphere is happening",
-   "url": "https://news.ycombinator.com/item?id=50636286",
-   "link": "https://tropopause.pckt.blog/get-in-friends-the-atmosphere-is-happening-q8sf9a9",
-   "up": 38,
-   "com": 34,
-   "at": "2026-11-24T23:23:35.000Z"
   },
   {
    "src": "Hacker News",
    "t": "GTA 6 Running on Windows",
    "url": "https://news.ycombinator.com/item?id=50627783",
    "link": "https://twitter.com/raul_bs3/status/2125213756238291075",
-   "up": 271,
-   "com": 341,
+   "up": 278,
+   "com": 356,
    "at": "2026-11-24T13:19:31.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Get in, friends, the Atmosphere is happening",
+   "url": "https://news.ycombinator.com/item?id=50636286",
+   "link": "https://tropopause.pckt.blog/get-in-friends-the-atmosphere-is-happening-q8sf9a9",
+   "up": 46,
+   "com": 41,
+   "at": "2026-11-24T23:23:35.000Z"
   }
  ]
 }
