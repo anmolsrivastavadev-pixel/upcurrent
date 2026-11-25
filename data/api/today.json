@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-25T11:30:52.815Z"
+  "updated": "2026-11-25T12:01:05.850Z"
  },
  "pulse": {
   "trending": 76,
   "accelerating": 4,
-  "newModels": 14,
-  "discussions": 46,
-  "stars": 1908
+  "newModels": 15,
+  "discussions": 47,
+  "stars": 1305
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 94,
-   "grow": null,
+   "grow": 3,
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
    "meta": [
-    "★ 3,781",
-    "~977 in 24h",
+    "★ 3,789",
+    "+384 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-21T14:40:27Z",
@@ -71,7 +71,7 @@
    "cat": "Infrastructure",
    "score": 90,
    "grow": 33,
-   "desc": "Model on Hugging Face · open source · ♥ 787",
+   "desc": "Model on Hugging Face · open source · ♥ 790",
    "meta": [
     "762K downloads",
     "Released 5 days ago"
@@ -89,13 +89,29 @@
    "grow": null,
    "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
    "meta": [
-    "★ 2,559",
-    "~422 in 24h",
+    "★ 2,562",
+    "~421 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-11-19T10:00:43Z",
    "breakout": null,
    "url": "https://github.com/iamajmeena/neonclipping"
+  },
+  {
+   "name": "Ternary-Bonsai-2.5-27B-GGUF",
+   "owner": "prism-ml",
+   "src": "hf",
+   "cat": "Agents",
+   "score": 88,
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 209",
+   "meta": [
+    "59K downloads",
+    "Released 19h ago"
+   ],
+   "at": "2026-11-24T16:32:20.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF"
   },
   {
    "name": "voice-isolator",
@@ -104,7 +120,7 @@
    "cat": "Tools",
    "score": 87,
    "grow": 20,
-   "desc": "Model on Hugging Face · open source · ♥ 847",
+   "desc": "Model on Hugging Face · open source · ♥ 848",
    "meta": [
     "15K downloads",
     "Released 11 days ago"
@@ -112,22 +128,6 @@
    "at": "2026-11-14T02:14:35.000Z",
    "breakout": null,
    "url": "https://huggingface.co/inworld/voice-isolator"
-  },
-  {
-   "name": "Ternary-Bonsai-2.5-27B-GGUF",
-   "owner": "prism-ml",
-   "src": "hf",
-   "cat": "Agents",
-   "score": 87,
-   "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 203",
-   "meta": [
-    "59K downloads",
-    "Released 19h ago"
-   ],
-   "at": "2026-11-24T16:32:20.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF"
   },
   {
    "name": "Lazy Agents Answer Against Their Own Beliefs: Reinforcement Learning with Verifiable Beliefs Teaches Them to Act on What They Believe",
@@ -139,7 +139,7 @@
    "grow": null,
    "desc": "AI agents working on long tasks often commit to an answer before they have enough evidence, a behavior called laziness.",
    "meta": [
-    "▲ 51 upvotes",
+    "▲ 52 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-11-23T19:00:00.000Z",
@@ -169,7 +169,7 @@
    "cat": "Tools",
    "score": 84,
    "grow": null,
-   "desc": "Model on Hugging Face · open weights · ♥ 966",
+   "desc": "Model on Hugging Face · open weights · ♥ 968",
    "meta": [
     "190K downloads",
     "Released 25 days ago"
@@ -226,11 +226,11 @@
    "verdict": "Talk only, no public usage numbers"
   },
   {
-   "name": "fast-anything",
-   "url": "https://github.com/EL4CTEO/fast-anything",
+   "name": "agy-fast",
+   "url": "https://github.com/INK-Q/agy-fast",
    "from": "GitHub",
-   "use": 977,
-   "useLabel": "~977 stars/day",
+   "use": 500,
+   "useLabel": "+500 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -343,22 +343,11 @@
  ],
  "github": [
   {
-   "repo": "EL4CTEO/fast-anything",
-   "stars": 3781,
-   "d24": 977,
-   "est": true,
-   "forks": 271,
-   "contrib": null,
-   "score": 94,
-   "cat": "Agents",
-   "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same."
-  },
-  {
    "repo": "INK-Q/agy-fast",
-   "stars": 1412,
-   "d24": 509,
+   "stars": 1418,
+   "d24": 500,
    "est": false,
-   "forks": 81,
+   "forks": 82,
    "contrib": null,
    "score": 77,
    "cat": "Agents",
@@ -366,14 +355,25 @@
   },
   {
    "repo": "iamajmeena/neonclipping",
-   "stars": 2559,
-   "d24": 422,
+   "stars": 2562,
+   "d24": 421,
    "est": true,
    "forks": 162,
    "contrib": null,
    "score": 88,
    "cat": "Vision",
    "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM)."
+  },
+  {
+   "repo": "EL4CTEO/fast-anything",
+   "stars": 3789,
+   "d24": 384,
+   "est": false,
+   "forks": 272,
+   "contrib": null,
+   "score": 94,
+   "cat": "Agents",
+   "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same."
   }
  ],
  "models": [
@@ -386,7 +386,7 @@
    "grow": 28,
    "score": 93,
    "cat": "Infrastructure",
-   "likes": 1298
+   "likes": 1304
   },
   {
    "name": "Inkling-2-Mini",
@@ -397,7 +397,7 @@
    "grow": 40,
    "score": 91,
    "cat": "Vision",
-   "likes": 5880
+   "likes": 5883
   },
   {
    "name": "Inkling-2-Mini-Uncensored-GGUF",
@@ -408,7 +408,19 @@
    "grow": 33,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 787
+   "likes": 790
+  },
+  {
+   "name": "Ternary-Bonsai-2.5-27B-GGUF",
+   "org": "prism-ml",
+   "size": "27B",
+   "lic": "Open source",
+   "at": "2026-11-24T16:32:20.000Z",
+   "dl": 59366,
+   "grow": null,
+   "score": 88,
+   "cat": "Agents",
+   "likes": 209
   },
   {
    "name": "voice-isolator",
@@ -419,19 +431,7 @@
    "grow": 20,
    "score": 87,
    "cat": "Tools",
-   "likes": 847
-  },
-  {
-   "name": "Ternary-Bonsai-2.5-27B-GGUF",
-   "org": "prism-ml",
-   "size": "27B",
-   "lic": "Open source",
-   "at": "2026-11-24T16:32:20.000Z",
-   "dl": 59366,
-   "grow": null,
-   "score": 87,
-   "cat": "Agents",
-   "likes": 203
+   "likes": 848
   },
   {
    "name": "Sulphur-3",
@@ -442,7 +442,7 @@
    "grow": null,
    "score": 84,
    "cat": "Tools",
-   "likes": 966
+   "likes": 968
   }
  ],
  "free": [
@@ -710,6 +710,13 @@
  },
  "headlines": [
   {
+   "t": "Nvidia's board reinstating Jensen Huang as CEO under pressure from President Trump represents \"another installment of his regrettable state capitalism\"",
+   "url": "https://www.techmeme.com/261125/p16#a261125p16",
+   "at": "2026-11-25T11:30:05.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "An Indic Voice Agent with CUGA",
    "url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
    "at": "2026-11-25T10:22:09.000Z",
@@ -745,20 +752,6 @@
    "kind": "News"
   },
   {
-   "t": "NJ-based AidenAI, which helps enterprises integrate AI into apps, data infrastructure, and business workflows, raised a $32M Series A led by A91 Partners",
-   "url": "https://www.techmeme.com/261125/p2#a261125p2",
-   "at": "2026-11-25T05:50:13.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Sources: the EU plans to mobilize up to €50B for its Sovereign Tech Equity Fund to make long-term, high-risk bets on European AI and quantum computing companies",
-   "url": "https://www.techmeme.com/261125/p1#a261125p1",
-   "at": "2026-11-25T05:40:03.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Tidal bans 100% AI-generated music with plans to delete more than 27m tracks",
    "url": "https://www.theguardian.com/music/2026/nov/25/tidal-streaming-service-bans-ai-generated-music",
    "at": "2026-11-25T02:12:22Z",
@@ -770,6 +763,27 @@
    "url": "https://www.theguardian.com/commentisfree/2026/nov/25/jess-wilson-molly-meldrum-tribute-ai-ethics-obituary",
    "at": "2026-11-25T01:00:01Z",
    "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "Large UK Company Tax Heads Report Mild Efficiency Gains With AI",
+   "url": "https://news.bloombergtax.com/daily-tax-report/large-uk-company-tax-heads-report-mild-efficiency-gains-with-ai",
+   "at": "2026-11-25T00:01:01Z",
+   "src": "Bloomberg Tax News",
+   "kind": "News"
+  },
+  {
+   "t": "Taiwan’s local vote tests Lai with presidential race on horizon",
+   "url": "https://www.japantimes.co.jp/news/2026/11/25/asia-pacific/politics/taiwan-vote-lai-presidential-race/",
+   "at": "2026-11-24T23:55:32Z",
+   "src": "The Japan Times ",
+   "kind": "News"
+  },
+  {
+   "t": "Saudi man suspected of spying on OpenAI released on bond",
+   "url": "https://www.thenationalnews.com/future/2026/11/24/saudi-openai-suspect-released-spy/",
+   "at": "2026-11-24T23:43:06Z",
+   "src": "The National",
    "kind": "News"
   },
   {
@@ -806,20 +820,6 @@
    "at": "2026-11-24T21:45:49Z",
    "src": "CNBC",
    "kind": "News"
-  },
-  {
-   "t": "Drops for Nvidia, Anthropic and other AI stocks drag the markets back down",
-   "url": "https://www.cbc.ca/news/business/stock-market-latest-nvidia-anthropic-ai-stocks-9.7434596",
-   "at": "2026-11-24T21:45:31Z",
-   "src": "CBC.ca",
-   "kind": "News"
-  },
-  {
-   "t": "Saudi national charged in OpenAI bugging to be released on $1 million bond",
-   "url": "https://www.newsbreak.com/news/5027718393807-saudi-national-charged-in-openai-bugging-to-be-released-on-1-million-bond",
-   "at": "2026-11-24T21:45:00Z",
-   "src": "NewsBreak",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -828,8 +828,8 @@
    "t": "Matrix Multiplication is Θ(n^2.25) [pdf]",
    "url": "https://news.ycombinator.com/item?id=50637220",
    "link": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
-   "up": 686,
-   "com": 377,
+   "up": 704,
+   "com": 391,
    "at": "2026-11-25T01:19:26.000Z"
   },
   {
@@ -846,8 +846,8 @@
    "t": "Bypassing iOS Safari's 60 FPS Limit to Build Web Applications That Feel Native",
    "url": "https://news.ycombinator.com/item?id=50637890",
    "link": "https://rida.dev/blog/bypassing-ios-safari-60-fps-limit",
-   "up": 228,
-   "com": 79,
+   "up": 241,
+   "com": 80,
    "at": "2026-11-25T03:04:37.000Z"
   },
   {
@@ -855,8 +855,8 @@
    "t": "PenGPT: A Generative Transformer for Handwriting and Sketches",
    "url": "https://news.ycombinator.com/item?id=50637056",
    "link": "https://greydanus.github.io/2026/11/12/pengpt/",
-   "up": 275,
-   "com": 48,
+   "up": 278,
+   "com": 49,
    "at": "2026-11-25T00:54:49.000Z"
   },
   {
@@ -865,7 +865,7 @@
    "url": "https://news.ycombinator.com/item?id=50638320",
    "link": "https://www.comentr.com/technology/01M88DWQ0R4NCMYR17AFEWRG1F",
    "up": 185,
-   "com": 124,
+   "com": 131,
    "at": "2026-11-25T04:03:33.000Z"
   },
   {
@@ -873,8 +873,8 @@
    "t": "Show HN: Old Nvidia and ATI tech demos, running again in the browser",
    "url": "https://news.ycombinator.com/item?id=50638503",
    "link": "https://gpu-demo-gallery.pages.dev/",
-   "up": 156,
-   "com": 38,
+   "up": 166,
+   "com": 40,
    "at": "2026-11-25T04:31:48.000Z"
   }
  ]
