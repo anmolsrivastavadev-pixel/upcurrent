@@ -5,13 +5,13 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-25T05:01:05.232Z"
+  "updated": "2026-11-25T05:30:54.769Z"
  },
  "pulse": {
   "trending": 76,
   "accelerating": 0,
   "newModels": 15,
-  "discussions": 43,
+  "discussions": 47,
   "stars": 782
  },
  "rising": [
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 95,
-   "grow": 9,
+   "grow": 10,
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
    "meta": [
-    "★ 3,679",
-    "+391 in 24h",
+    "★ 3,685",
+    "+389 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-21T14:40:27Z",
@@ -86,10 +86,10 @@
    "src": "gh",
    "cat": "Vision",
    "score": 89,
-   "grow": 5,
+   "grow": 6,
    "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
    "meta": [
-    "★ 2,512",
+    "★ 2,516",
     "+181 in 24h",
     "Created 6 days ago"
    ],
@@ -112,6 +112,22 @@
    "at": "2026-11-14T02:14:35.000Z",
    "breakout": null,
    "url": "https://huggingface.co/inworld/voice-isolator"
+  },
+  {
+   "name": "Rewirable Circuits in Transformers with Loom Attention",
+   "owner": "Paper",
+   "src": "paper",
+   "url": "https://huggingface.co/papers/2611.30634",
+   "cat": "Research",
+   "score": 85,
+   "grow": null,
+   "desc": "We propose loom attention, which allows a Transformer to dynamically rewire its circuits at every token by interweaving a head's vertical attention over the outputs of earlier heads (to obtain its query, key and value) with its horizontal attention over tokens.",
+   "meta": [
+    "▲ 22 upvotes",
+    "Hugging Face Papers"
+   ],
+   "at": "2026-11-22T19:00:00.000Z",
+   "breakout": null
   },
   {
    "name": "Motionflare",
@@ -137,7 +153,7 @@
    "cat": "Tools",
    "score": 84,
    "grow": 20,
-   "desc": "Model on Hugging Face · open weights · ♥ 947",
+   "desc": "Model on Hugging Face · open weights · ♥ 949",
    "meta": [
     "161K downloads",
     "Released 24 days ago"
@@ -153,7 +169,7 @@
    "cat": "Tools",
    "score": 84,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 184",
+   "desc": "Model on Hugging Face · open source · ♥ 185",
    "meta": [
     "733 downloads",
     "Released 2 days ago"
@@ -161,22 +177,6 @@
    "at": "2026-11-23T03:55:12.000Z",
    "breakout": null,
    "url": "https://huggingface.co/inclusionAI/Ling-3.2-air"
-  },
-  {
-   "name": "Qwen3.8-27B-pi-adapted",
-   "owner": "harness-hub",
-   "src": "hf",
-   "cat": "Agents",
-   "score": 83,
-   "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 1.1K",
-   "meta": [
-    "3.5K downloads",
-    "Released 9 days ago"
-   ],
-   "at": "2026-11-16T06:52:31.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted"
   }
  ],
  "breakouts": [
@@ -255,55 +255,11 @@
    "verdict": "Talk only, no public usage numbers"
   },
   {
-   "name": "GPT-6.2",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
-    {
-     "src": "Techmeme",
-     "t": "A history professor says GPT-6.2 Astra solved a historical mystery in 22 minutes by identifying the creator of an anonymous 1808 sketchbook held at Yale",
-     "url": "https://www.techmeme.com/261124/p49#a261124p49"
-    },
-    {
-     "src": "Republic World",
-     "t": "Google Unveils Gemini 4 Neon AI Model, Claims It Beats OpenAI's GPT-6.2 Sol And Claude Opus 5.5 In Most Benchmarks",
-     "url": "https://www.republicworld.com/tech/google-unveils-gemini-4-neon-ai-model-claims-it-beats-openai-s-gpt-62-sol-and-claude-opus-55-in-most-benchmarks-2026-11-24-141779"
-    }
-   ],
-   "buzz": 2,
-   "verdict": "Talk only, no public usage numbers"
-  },
-  {
-   "name": "Gemini 4",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
-    {
-     "src": "Republic World",
-     "t": "Google Unveils Gemini 4 Neon AI Model, Claims It Beats OpenAI's GPT-6.2 Sol And Claude Opus 5.5 In Most Benchmarks",
-     "url": "https://www.republicworld.com/tech/google-unveils-gemini-4-neon-ai-model-claims-it-beats-openai-s-gpt-62-sol-and-claude-opus-55-in-most-benchmarks-2026-11-24-141779"
-    },
-    {
-     "src": "YouTube",
-     "t": "Claude Opus 5.6 Early Preview! Gemini 4 Helium, GLM-5.4, Quantum AI & Superintelligence! AI NEWS",
-     "url": "https://www.youtube.com/watch?v=N6kzEOdzSus"
-    }
-   ],
-   "buzz": 2,
-   "verdict": "Talk only, no public usage numbers"
-  },
-  {
    "name": "fast-anything",
    "url": "https://github.com/EL4CTEO/fast-anything",
    "from": "GitHub",
-   "use": 391,
-   "useLabel": "+391 stars/day",
+   "use": 389,
+   "useLabel": "+389 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -417,8 +373,8 @@
  "github": [
   {
    "repo": "EL4CTEO/fast-anything",
-   "stars": 3679,
-   "d24": 391,
+   "stars": 3685,
+   "d24": 389,
    "est": false,
    "forks": 264,
    "contrib": null,
@@ -428,10 +384,10 @@
   },
   {
    "repo": "INK-Q/agy-fast",
-   "stars": 1260,
-   "d24": 210,
+   "stars": 1275,
+   "d24": 212,
    "est": true,
-   "forks": 75,
+   "forks": 77,
    "contrib": null,
    "score": 76,
    "cat": "Agents",
@@ -439,10 +395,10 @@
   },
   {
    "repo": "iamajmeena/neonclipping",
-   "stars": 2512,
+   "stars": 2516,
    "d24": 181,
    "est": false,
-   "forks": 155,
+   "forks": 157,
    "contrib": null,
    "score": 89,
    "cat": "Vision",
@@ -459,7 +415,7 @@
    "grow": null,
    "score": 93,
    "cat": "Infrastructure",
-   "likes": 1271
+   "likes": 1273
   },
   {
    "name": "Inkling-2-Mini",
@@ -470,7 +426,7 @@
    "grow": null,
    "score": 91,
    "cat": "Vision",
-   "likes": 5817
+   "likes": 5822
   },
   {
    "name": "Inkling-2-Mini-Uncensored-GGUF",
@@ -503,7 +459,7 @@
    "grow": 20,
    "score": 84,
    "cat": "Tools",
-   "likes": 947
+   "likes": 949
   },
   {
    "name": "Ling-3.2-air",
@@ -514,7 +470,7 @@
    "grow": 0,
    "score": 84,
    "cat": "Tools",
-   "likes": 184
+   "likes": 185
   }
  ],
  "free": [
@@ -831,66 +787,66 @@
    "kind": "News"
   },
   {
-   "t": "Meta expands Muse to the U.K.",
-   "url": "https://www.socialmediatoday.com/news/meta-expands-muse-to-the-uk/875697/",
-   "at": "2026-11-24T16:47:38Z",
-   "src": "Social Media Today",
+   "t": "Peter Gabriel contends with AI's impact in 'o/i'",
+   "url": "https://www.courant.com/2026/11/24/music-review-peter-gabriel-i-o/",
+   "at": "2026-11-24T17:22:00Z",
+   "src": "Hartford Courant",
    "kind": "News"
   },
   {
-   "t": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
-   "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
-   "at": "2026-11-24T16:34:13.000Z",
-   "src": "Hugging Face",
-   "kind": "Lab blog"
-  },
-  {
-   "t": "Anthropic, OpenAI Insiders Insist They've Built Something So Dangerous They Can't Control It... And Want Everyone Leashed",
-   "url": "https://www.zerohedge.com/markets/anthropic-and-openai-insiders-insist-theyve-built-something-so-dangerous-they-cant-control",
-   "at": "2026-11-24T16:30:00Z",
-   "src": "ZeroHedge",
+   "t": "AI Is Making Social Security Faster, but Can It Make It Fairer?",
+   "url": "https://www.devdiscourse.com/article/technology/4011168-ai-is-making-social-security-faster-but-can-it-make-it-fairer",
+   "at": "2026-11-24T17:21:16Z",
+   "src": "Devdiscourse",
    "kind": "News"
   },
   {
-   "t": "‘The mistake has been corrected’: end of Jensen Huang’s brief walk in the wilderness",
-   "url": "https://www.theguardian.com/technology/2026/nov/24/mistake-corrected-jensen-huang-resinstated-nvidia-analysis",
-   "at": "2026-11-24T16:27:41Z",
-   "src": "The Guardian",
+   "t": "EU sees over €200 billion in missed tax revenues per year",
+   "url": "https://economictimes.indiatimes.com/news/international/world-news/eu-sees-over-200-billion-in-missed-tax-revenues-per-year/articleshow/136137998.cms",
+   "at": "2026-11-24T17:18:00Z",
+   "src": "The Economic Times",
    "kind": "News"
   },
   {
-   "t": "Nvidia staff: what do you think of Jensen Huang’s return as chief executive?",
-   "url": "https://www.theguardian.com/technology/2026/nov/24/nvidia-staff-what-do-you-think-jensen-huang-return-chief-executive",
-   "at": "2026-11-24T16:25:57Z",
-   "src": "The Guardian",
+   "t": "Pope Francis Saw the ‘Gates of Hell.’ A Math Problem Could Open Them",
+   "url": "https://www.newsweek.com/pope-francis-saw-gates-hell-math-problem-could-open-them-12763925",
+   "at": "2026-11-24T17:16:11Z",
+   "src": "Newsweek",
    "kind": "News"
   },
   {
-   "t": "No more ‘AI Best Friends’ - why New York just banned popular toys for kids",
-   "url": "https://www.the-sun.com/money/17349847/ban-artificial-intelligence-chatbots-toys-kids-new-york/",
-   "at": "2026-11-24T16:17:27Z",
-   "src": "The Sun U.S Edition",
+   "t": "OpenAI spying case: Ex-engineer allegedly stole trade secrets, recorded meetings, and kept confidential document",
+   "url": "https://www.livemint.com/companies/news/openai-spying-case-ex-engineer-allegedly-stole-trade-secrets-recorded-meetings-and-kept-confidential-document-11795535399704.html",
+   "at": "2026-11-24T17:15:01Z",
+   "src": "Livemint",
    "kind": "News"
   },
   {
-   "t": "Major job fears as AI already taking Irish roles from workers & alert over ‘major skills & leadership’ workforce gap",
-   "url": "https://www.thesun.ie/news/17964932/ai-irish-jobs-skills-money-employment-careers/",
-   "at": "2026-11-24T16:12:41Z",
-   "src": "The Irish Sun",
+   "t": "OpenAI, Anthropic staff warn unreleased AI models are too powerful to release: Here’s why",
+   "url": "https://www.thenews.com.pk/latest/1424969-openai-anthropic-staff-warn-unreleased-ai-models-are-too-powerful-to-release-heres-why",
+   "at": "2026-11-24T17:13:00Z",
+   "src": "The News International",
    "kind": "News"
   },
   {
-   "t": "AI talent grab: Amazon to buy Decart for $7.5B",
-   "url": "https://www.manilatimes.net/2026/11/25/business/foreign-business/ai-talent-grab-amazon-to-buy-decart-for-75b/2477462",
-   "at": "2026-11-24T16:08:00Z",
-   "src": "The Manila Times",
+   "t": "Hyderabad Police Stations To Turn Smart With Artificial Intelligence",
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/hyderabad-police-stations-to-turn-smart-with-artificial-intelligence-2007618",
+   "at": "2026-11-24T17:10:33Z",
+   "src": "Deccan Chronicle",
    "kind": "News"
   },
   {
-   "t": "CrowdStrike snaps up Zscaler in record deal",
-   "url": "https://www.manilatimes.net/2026/11/25/business/foreign-business/crowdstrike-snaps-up-zscaler-in-record-deal/2477461",
-   "at": "2026-11-24T16:07:00Z",
-   "src": "The Manila Times",
+   "t": "'They will be able to trick us': OpenAI, Anthropic employees fear their new AI models may be too dangerous to release",
+   "url": "https://www.moneycontrol.com/world/they-will-be-able-to-trick-us-openai-anthropic-employees-fear-their-new-ai-models-may-be-too-dangerous-to-release-article-14088240.html",
+   "at": "2026-11-24T17:07:34Z",
+   "src": "Moneycontrol",
+   "kind": "News"
+  },
+  {
+   "t": "Anthropic and OpenAI Staff Worried Models Becoming Too Powerful to Ever Release, Report",
+   "url": "https://www.tmz.com/2026/11/24/anthropic-and-openai-employees-worried-models-becoming-too-powerful/",
+   "at": "2026-11-24T17:03:30Z",
+   "src": "TMZ",
    "kind": "News"
   }
  ],
@@ -900,8 +856,8 @@
    "t": "Matrix Multiplication is Θ(n^2.25) [pdf]",
    "url": "https://news.ycombinator.com/item?id=50637220",
    "link": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
-   "up": 324,
-   "com": 145,
+   "up": 358,
+   "com": 172,
    "at": "2026-11-25T01:19:26.000Z"
   },
   {
@@ -909,17 +865,26 @@
    "t": "LLM agents work for their parent companies, not for you",
    "url": "https://news.ycombinator.com/item?id=50627340",
    "link": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
-   "up": 947,
+   "up": 952,
    "com": 393,
    "at": "2026-11-24T12:40:15.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Gemini refused to give me the lyrics to Twinkle Twinkle Little Star",
+   "url": "https://news.ycombinator.com/item?id=50638320",
+   "link": "https://www.comentr.com/technology/01M88DWQ0R4NCMYR17AFEWRG1F",
+   "up": 47,
+   "com": 34,
+   "at": "2026-11-25T04:03:33.000Z"
   },
   {
    "src": "Hacker News",
    "t": "PenGPT: A Generative Transformer for Handwriting and Sketches",
    "url": "https://news.ycombinator.com/item?id=50637056",
    "link": "https://greydanus.github.io/2026/11/12/pengpt/",
-   "up": 139,
-   "com": 24,
+   "up": 147,
+   "com": 25,
    "at": "2026-11-25T00:54:49.000Z"
   },
   {
@@ -927,8 +892,8 @@
    "t": "GPT-6 models demonstrate intrinsic protein-design capabilities",
    "url": "https://news.ycombinator.com/item?id=50634658",
    "link": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
-   "up": 217,
-   "com": 65,
+   "up": 222,
+   "com": 69,
    "at": "2026-11-24T21:02:22.000Z"
   },
   {
@@ -939,15 +904,6 @@
    "up": 320,
    "com": 308,
    "at": "2026-11-24T16:12:38.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Marginalia Search, Money, C++, Rust, AI, Stuff",
-   "url": "https://news.ycombinator.com/item?id=50638220",
-   "link": "https://www.marginalia.nu/log/a_141_marginalia_update/",
-   "up": 28,
-   "com": 5,
-   "at": "2026-11-25T03:47:42.000Z"
   }
  ]
 }
