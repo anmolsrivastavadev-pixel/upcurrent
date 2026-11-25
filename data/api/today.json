@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-25T02:01:14.423Z"
+  "updated": "2026-11-25T02:31:00.210Z"
  },
  "pulse": {
   "trending": 76,
   "accelerating": 2,
   "newModels": 15,
-  "discussions": 40,
-  "stars": 772
+  "discussions": 38,
+  "stars": 771
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 8,
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
    "meta": [
-    "★ 3,628",
-    "+388 in 24h",
+    "★ 3,635",
+    "+387 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-21T14:40:27Z",
@@ -38,7 +38,7 @@
    "src": "hf",
    "cat": "Infrastructure",
    "score": 93,
-   "grow": 48,
+   "grow": null,
    "desc": "Model on Hugging Face · open source · ♥ 1.3K",
    "meta": [
     "1.9M downloads",
@@ -86,11 +86,11 @@
    "src": "gh",
    "cat": "Vision",
    "score": 89,
-   "grow": 4,
+   "grow": 5,
    "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
    "meta": [
-    "★ 2,489",
-    "+180 in 24h",
+    "★ 2,492",
+    "+179 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-11-19T10:00:43Z",
@@ -104,7 +104,7 @@
    "cat": "Tools",
    "score": 87,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 818",
+   "desc": "Model on Hugging Face · open source · ♥ 819",
    "meta": [
     "13K downloads",
     "Released 11 days ago"
@@ -139,7 +139,7 @@
    "grow": null,
    "desc": "Visual creation demands expressive imagery together with precise control over text, layout, and structure.",
    "meta": [
-    "▲ 20 upvotes",
+    "▲ 24 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-11-22T19:00:00.000Z",
@@ -169,7 +169,7 @@
    "cat": "Tools",
    "score": 83,
    "grow": 20,
-   "desc": "Model on Hugging Face · open weights · ♥ 923",
+   "desc": "Model on Hugging Face · open weights · ♥ 928",
    "meta": [
     "161K downloads",
     "Released 24 days ago"
@@ -202,29 +202,6 @@
     }
    ],
    "since": "2026-11-25T00:01:02.723Z"
-  },
-  {
-   "key": "valley",
-   "label": "Valley",
-   "n": 3,
-   "sources": [
-    {
-     "src": "Product Hunt",
-     "t": "Valley",
-     "url": "https://www.producthunt.com/products/valley-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
-    },
-    {
-     "src": "The Guardian",
-     "t": "Jensen Huang returns to Nvidia as Silicon Valley rethinks its alliance with Trump",
-     "url": "https://www.theguardian.com/global/2026/nov/24/jensen-huang-nvidia-return-silicon-valley-trump"
-    },
-    {
-     "src": "The Atlantic",
-     "t": "Jensen Huang and Silicon Valley’s Short-Term Thinking",
-     "url": "https://www.theatlantic.com/podcasts/2026/11/ra-nvidia/689551/?utm_source=feed"
-    }
-   ],
-   "since": "2026-11-24T17:30:58.584Z"
   }
  ],
  "hype": [
@@ -281,8 +258,8 @@
    "name": "fast-anything",
    "url": "https://github.com/EL4CTEO/fast-anything",
    "from": "GitHub",
-   "use": 388,
-   "useLabel": "+388 stars/day",
+   "use": 387,
+   "useLabel": "+387 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -300,11 +277,11 @@
    "verdict": "Used a lot, hardly talked about"
   },
   {
-   "name": "MiniMax-H3-Image",
-   "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+   "name": "flux-3-image-klein-comfy",
+   "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
    "from": "Hugging Face",
-   "use": 1003202,
-   "useLabel": "1M downloads",
+   "use": 892024,
+   "useLabel": "892K downloads",
    "usePct": 0.96875,
    "talk": [],
    "buzz": 0,
@@ -396,10 +373,10 @@
  "github": [
   {
    "repo": "EL4CTEO/fast-anything",
-   "stars": 3628,
-   "d24": 388,
+   "stars": 3635,
+   "d24": 387,
    "est": false,
-   "forks": 257,
+   "forks": 260,
    "contrib": null,
    "score": 95,
    "cat": "Agents",
@@ -407,8 +384,8 @@
   },
   {
    "repo": "INK-Q/agy-fast",
-   "stars": 1201,
-   "d24": 204,
+   "stars": 1208,
+   "d24": 205,
    "est": true,
    "forks": 72,
    "contrib": null,
@@ -418,8 +395,8 @@
   },
   {
    "repo": "iamajmeena/neonclipping",
-   "stars": 2489,
-   "d24": 180,
+   "stars": 2492,
+   "d24": 179,
    "est": false,
    "forks": 155,
    "contrib": null,
@@ -435,10 +412,10 @@
    "lic": "Open source",
    "at": "2026-11-20T13:09:48.000Z",
    "dl": 1913407,
-   "grow": 48,
+   "grow": null,
    "score": 93,
    "cat": "Infrastructure",
-   "likes": 1258
+   "likes": 1259
   },
   {
    "name": "Inkling-2-Mini",
@@ -449,7 +426,7 @@
    "grow": null,
    "score": 91,
    "cat": "Vision",
-   "likes": 5789
+   "likes": 5795
   },
   {
    "name": "Inkling-2-Mini-Uncensored-GGUF",
@@ -471,7 +448,7 @@
    "grow": null,
    "score": 87,
    "cat": "Tools",
-   "likes": 818
+   "likes": 819
   },
   {
    "name": "Qwen3.8-27B-pi-adapted",
@@ -483,7 +460,7 @@
    "grow": 0,
    "score": 85,
    "cat": "Agents",
-   "likes": 1073
+   "likes": 1074
   },
   {
    "name": "Sulphur-3",
@@ -494,7 +471,7 @@
    "grow": 20,
    "score": 83,
    "cat": "Tools",
-   "likes": 923
+   "likes": 928
   }
  ],
  "free": [
@@ -762,6 +739,27 @@
  },
  "headlines": [
   {
+   "t": "HP reports Q4 revenue up 9.3% YoY to $16B, above $15.3B est., gives \"prudent\" fiscal 2027 guidance above estimates, and says AI PCs reached ~60% of shipments",
+   "url": "https://www.techmeme.com/261124/p50#a261124p50",
+   "at": "2026-11-25T02:30:02.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Tidal bans 100% AI-generated music with plans to delete more than 27m tracks",
+   "url": "https://www.theguardian.com/music/2026/nov/25/tidal-streaming-service-bans-ai-generated-music",
+   "at": "2026-11-25T02:12:22Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "A history professor says GPT-6.2 Astra solved a historical mystery in 22 minutes by identifying the creator of an anonymous 1808 sketchbook held at Yale",
+   "url": "https://www.techmeme.com/261124/p49#a261124p49",
+   "at": "2026-11-25T02:00:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "I asked AI if it was OK to use AI to write an obituary. The answer surprised me | Anna Spargo-Ryan",
    "url": "https://www.theguardian.com/commentisfree/2026/nov/25/jess-wilson-molly-meldrum-tribute-ai-ethics-obituary",
    "at": "2026-11-25T01:00:01Z",
@@ -804,13 +802,6 @@
    "kind": "News"
   },
   {
-   "t": "Sources: Jensen Huang said Nvidia doesn't need a succession plan because it operates a unique business model and such a plan would create unnecessary hierarchy",
-   "url": "https://www.techmeme.com/261124/p34#a261124p34",
-   "at": "2026-11-24T20:10:00.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
    "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
    "at": "2026-11-24T16:34:13.000Z",
@@ -839,67 +830,53 @@
    "kind": "News"
   },
   {
-   "t": "Mamdani says Nvidia drama shows stock market is overly dependent on AI",
-   "url": "https://www.theguardian.com/us-news/2026/nov/24/mamdani-nvidia-stock-market-ai",
-   "at": "2026-11-24T14:22:17Z",
-   "src": "The Guardian",
+   "t": "Siemens Energy: the stock market eased off, not the factories",
+   "url": "https://www.marketscreener.com/news/siemens-energy-the-stock-market-eased-off-not-the-factories-ce7851dbdb8cf523",
+   "at": "2026-11-24T14:29:41Z",
+   "src": "MarketScreener",
    "kind": "News"
   },
   {
-   "t": "Global AI Spending Set to Reach £3.2 Trillion by 2027 Amidst Infrastructure Boom",
-   "url": "https://www.lokmattimes.com/technology/global-ai-spending-set-to-reach-ps32-trillion-by-2027-amidst-infrastructure-boom-a001-w02/",
-   "at": "2026-11-24T13:56:14Z",
-   "src": "Lokmat Times",
+   "t": "Advanced AI bots ‘too powerful to ever release’ already exist",
+   "url": "https://metro.co.uk/2026/11/24/advanced-ai-bots-too-powerful-ever-release-already-exist-29816291/",
+   "at": "2026-11-24T14:28:34Z",
+   "src": "Metro.co.uk",
    "kind": "News"
   },
   {
-   "t": "Grayscale Flags Bitcoin ‘Oversold’ Near $62K, Cites AI Risks",
-   "url": "https://www.cryptobreaking.com/grayscale-flags-bitcoin-oversold-near/",
-   "at": "2026-11-24T13:45:24Z",
-   "src": "Crypto Breaking News",
-   "kind": "News"
-  },
-  {
-   "t": "Former OpenAI employee may have captured trade secrets with hidden listening device.",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1041125/former-openai-employee-may-have-captured-trade-secrets-with-hidden-listening-device",
-   "at": "2026-11-24T13:44:16Z",
-   "src": "The Verge",
-   "kind": "News"
-  },
-  {
-   "t": "AI researcher says it will get worse",
-   "url": "https://www.bnnbloomberg.ca/business/technology/2026/11/24/things-are-going-to-get-worse-before-they-get-better-ai-researcher-warns-as-hacks-pile-up/",
-   "at": "2026-11-24T13:36:57Z",
-   "src": "Bnn Bloomberg",
+   "t": "Anthropic boss warns AI could wipe out 80 per cent of junior City jobs",
+   "url": "https://www.cityam.com/anthropic-boss-warns-ai-could-wipe-out-80-per-cent-of-junior-city-jobs/",
+   "at": "2026-11-24T14:23:15Z",
+   "src": "City A.M.",
    "kind": "News"
   }
  ],
  "discussions": [
   {
    "src": "Hacker News",
-   "t": "LLM agents work for their parent companies, not for you",
-   "url": "https://news.ycombinator.com/item?id=50627340",
-   "link": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
-   "up": 912,
-   "com": 386,
-   "at": "2026-11-24T12:40:15.000Z"
-  },
-  {
-   "src": "Hacker News",
    "t": "Matrix Multiplication is O(n^2.25) [pdf]",
    "url": "https://news.ycombinator.com/item?id=50637220",
    "link": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
-   "up": 38,
-   "com": 4,
+   "up": 97,
+   "com": 22,
    "at": "2026-11-25T01:19:26.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "LLM agents work for their parent companies, not for you",
+   "url": "https://news.ycombinator.com/item?id=50627340",
+   "link": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
+   "up": 919,
+   "com": 388,
+   "at": "2026-11-24T12:40:15.000Z"
   },
   {
    "src": "Hacker News",
    "t": "GPT-6 models demonstrate intrinsic protein-design capabilities",
    "url": "https://news.ycombinator.com/item?id=50634658",
    "link": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
-   "up": 170,
-   "com": 41,
+   "up": 181,
+   "com": 50,
    "at": "2026-11-24T21:02:22.000Z"
   },
   {
@@ -907,27 +884,27 @@
    "t": "Tidal bans AI-generated music",
    "url": "https://news.ycombinator.com/item?id=50630309",
    "link": "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/",
-   "up": 318,
-   "com": 304,
+   "up": 319,
+   "com": 306,
    "at": "2026-11-24T16:12:38.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "PenGPT: A Generative Transformer for Handwriting and Sketches",
+   "url": "https://news.ycombinator.com/item?id=50637056",
+   "link": "https://greydanus.github.io/2026/11/12/pengpt/",
+   "up": 47,
+   "com": 6,
+   "at": "2026-11-25T00:54:49.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?",
    "url": "https://news.ycombinator.com/item?id=50630809",
    "link": "",
-   "up": 226,
-   "com": 165,
+   "up": 227,
+   "com": 166,
    "at": "2026-11-24T16:45:44.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "GTA 6 Running on Windows",
-   "url": "https://news.ycombinator.com/item?id=50627783",
-   "link": "https://twitter.com/raul_bs3/status/2125213756238291075",
-   "up": 290,
-   "com": 367,
-   "at": "2026-11-24T13:19:31.000Z"
   }
  ]
 }
