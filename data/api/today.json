@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-25T04:30:54.692Z"
+  "updated": "2026-11-25T05:01:05.232Z"
  },
  "pulse": {
   "trending": 76,
   "accelerating": 0,
   "newModels": 15,
-  "discussions": 42,
-  "stars": 786
+  "discussions": 43,
+  "stars": 782
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 9,
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
    "meta": [
-    "★ 3,675",
-    "+397 in 24h",
+    "★ 3,679",
+    "+391 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-21T14:40:27Z",
@@ -71,7 +71,7 @@
    "cat": "Infrastructure",
    "score": 90,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 761",
+   "desc": "Model on Hugging Face · open source · ♥ 762",
    "meta": [
     "574K downloads",
     "Released 4 days ago"
@@ -89,8 +89,8 @@
    "grow": 5,
    "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
    "meta": [
-    "★ 2,507",
-    "+179 in 24h",
+    "★ 2,512",
+    "+181 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-11-19T10:00:43Z",
@@ -114,22 +114,6 @@
    "url": "https://huggingface.co/inworld/voice-isolator"
   },
   {
-   "name": "Interpretable Prototype-Conditioned Adaptation for Weather Forecasting",
-   "owner": "Paper",
-   "src": "paper",
-   "url": "https://huggingface.co/papers/2611.25848",
-   "cat": "Research",
-   "score": 85,
-   "grow": null,
-   "desc": "Data-driven weather forecasting requires distinguishing local states and their temporal evolution.",
-   "meta": [
-    "▲ 21 upvotes",
-    "Hugging Face Papers"
-   ],
-   "at": "2026-11-18T19:00:00.000Z",
-   "breakout": null
-  },
-  {
    "name": "Motionflare",
    "owner": "Product Hunt",
    "src": "ph",
@@ -147,20 +131,20 @@
    "breakout": null
   },
   {
-   "name": "Qwen3.8-27B-pi-adapted",
-   "owner": "harness-hub",
+   "name": "Sulphur-3",
+   "owner": "SulphurAI",
    "src": "hf",
-   "cat": "Agents",
+   "cat": "Tools",
    "score": 84,
-   "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 1.1K",
+   "grow": 20,
+   "desc": "Model on Hugging Face · open weights · ♥ 947",
    "meta": [
-    "3.5K downloads",
-    "Released 9 days ago"
+    "161K downloads",
+    "Released 24 days ago"
    ],
-   "at": "2026-11-16T06:52:31.000Z",
+   "at": "2026-10-31T20:31:01.000Z",
    "breakout": null,
-   "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted"
+   "url": "https://huggingface.co/SulphurAI/Sulphur-3"
   },
   {
    "name": "Ling-3.2-air",
@@ -177,6 +161,22 @@
    "at": "2026-11-23T03:55:12.000Z",
    "breakout": null,
    "url": "https://huggingface.co/inclusionAI/Ling-3.2-air"
+  },
+  {
+   "name": "Qwen3.8-27B-pi-adapted",
+   "owner": "harness-hub",
+   "src": "hf",
+   "cat": "Agents",
+   "score": 83,
+   "grow": 0,
+   "desc": "Model on Hugging Face · open source · ♥ 1.1K",
+   "meta": [
+    "3.5K downloads",
+    "Released 9 days ago"
+   ],
+   "at": "2026-11-16T06:52:31.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted"
   }
  ],
  "breakouts": [
@@ -302,8 +302,8 @@
    "name": "fast-anything",
    "url": "https://github.com/EL4CTEO/fast-anything",
    "from": "GitHub",
-   "use": 397,
-   "useLabel": "+397 stars/day",
+   "use": 391,
+   "useLabel": "+391 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -417,8 +417,8 @@
  "github": [
   {
    "repo": "EL4CTEO/fast-anything",
-   "stars": 3675,
-   "d24": 397,
+   "stars": 3679,
+   "d24": 391,
    "est": false,
    "forks": 264,
    "contrib": null,
@@ -428,10 +428,10 @@
   },
   {
    "repo": "INK-Q/agy-fast",
-   "stars": 1256,
+   "stars": 1260,
    "d24": 210,
    "est": true,
-   "forks": 74,
+   "forks": 75,
    "contrib": null,
    "score": 76,
    "cat": "Agents",
@@ -439,8 +439,8 @@
   },
   {
    "repo": "iamajmeena/neonclipping",
-   "stars": 2507,
-   "d24": 179,
+   "stars": 2512,
+   "d24": 181,
    "est": false,
    "forks": 155,
    "contrib": null,
@@ -459,7 +459,7 @@
    "grow": null,
    "score": 93,
    "cat": "Infrastructure",
-   "likes": 1270
+   "likes": 1271
   },
   {
    "name": "Inkling-2-Mini",
@@ -470,7 +470,7 @@
    "grow": null,
    "score": 91,
    "cat": "Vision",
-   "likes": 5813
+   "likes": 5817
   },
   {
    "name": "Inkling-2-Mini-Uncensored-GGUF",
@@ -481,7 +481,7 @@
    "grow": null,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 761
+   "likes": 762
   },
   {
    "name": "voice-isolator",
@@ -495,16 +495,15 @@
    "likes": 824
   },
   {
-   "name": "Qwen3.8-27B-pi-adapted",
-   "org": "harness-hub",
-   "size": "27B",
-   "lic": "Open source",
-   "at": "2026-11-16T06:52:31.000Z",
-   "dl": 3529,
-   "grow": 0,
+   "name": "Sulphur-3",
+   "org": "SulphurAI",
+   "lic": "Open weights",
+   "at": "2026-10-31T20:31:01.000Z",
+   "dl": 160965,
+   "grow": 20,
    "score": 84,
-   "cat": "Agents",
-   "likes": 1079
+   "cat": "Tools",
+   "likes": 947
   },
   {
    "name": "Ling-3.2-air",
@@ -832,6 +831,13 @@
    "kind": "News"
   },
   {
+   "t": "Meta expands Muse to the U.K.",
+   "url": "https://www.socialmediatoday.com/news/meta-expands-muse-to-the-uk/875697/",
+   "at": "2026-11-24T16:47:38Z",
+   "src": "Social Media Today",
+   "kind": "News"
+  },
+  {
    "t": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
    "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
    "at": "2026-11-24T16:34:13.000Z",
@@ -886,13 +892,6 @@
    "at": "2026-11-24T16:07:00Z",
    "src": "The Manila Times",
    "kind": "News"
-  },
-  {
-   "t": "OpenAI and Cisco team up to stop AI-generated security threats before they get too big",
-   "url": "https://www.techradar.com/pro/security/openai-and-cisco-team-up-to-stop-ai-generated-security-threats-before-they-get-too-big",
-   "at": "2026-11-24T16:05:00Z",
-   "src": "TechRadar",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -901,8 +900,8 @@
    "t": "Matrix Multiplication is Θ(n^2.25) [pdf]",
    "url": "https://news.ycombinator.com/item?id=50637220",
    "link": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
-   "up": 278,
-   "com": 128,
+   "up": 324,
+   "com": 145,
    "at": "2026-11-25T01:19:26.000Z"
   },
   {
@@ -910,7 +909,7 @@
    "t": "LLM agents work for their parent companies, not for you",
    "url": "https://news.ycombinator.com/item?id=50627340",
    "link": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
-   "up": 945,
+   "up": 947,
    "com": 393,
    "at": "2026-11-24T12:40:15.000Z"
   },
@@ -919,8 +918,8 @@
    "t": "PenGPT: A Generative Transformer for Handwriting and Sketches",
    "url": "https://news.ycombinator.com/item?id=50637056",
    "link": "https://greydanus.github.io/2026/11/12/pengpt/",
-   "up": 124,
-   "com": 18,
+   "up": 139,
+   "com": 24,
    "at": "2026-11-25T00:54:49.000Z"
   },
   {
@@ -928,7 +927,7 @@
    "t": "GPT-6 models demonstrate intrinsic protein-design capabilities",
    "url": "https://news.ycombinator.com/item?id=50634658",
    "link": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
-   "up": 210,
+   "up": 217,
    "com": 65,
    "at": "2026-11-24T21:02:22.000Z"
   },
@@ -943,12 +942,12 @@
   },
   {
    "src": "Hacker News",
-   "t": "GTA 6 Running on Windows",
-   "url": "https://news.ycombinator.com/item?id=50627783",
-   "link": "https://twitter.com/raul_bs3/status/2125213756238291075",
-   "up": 325,
-   "com": 420,
-   "at": "2026-11-24T13:19:31.000Z"
+   "t": "Marginalia Search, Money, C++, Rust, AI, Stuff",
+   "url": "https://news.ycombinator.com/item?id=50638220",
+   "link": "https://www.marginalia.nu/log/a_141_marginalia_update/",
+   "up": 28,
+   "com": 5,
+   "at": "2026-11-25T03:47:42.000Z"
   }
  ]
 }
