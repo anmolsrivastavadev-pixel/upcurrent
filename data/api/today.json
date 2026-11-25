@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-25T11:01:08.475Z"
+  "updated": "2026-11-25T11:30:52.815Z"
  },
  "pulse": {
   "trending": 76,
-  "accelerating": 0,
+  "accelerating": 4,
   "newModels": 14,
   "discussions": 46,
-  "stars": 1933
+  "stars": 1908
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
    "meta": [
-    "★ 3,779",
-    "~982 in 24h",
+    "★ 3,781",
+    "~977 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-21T14:40:27Z",
@@ -38,10 +38,10 @@
    "src": "hf",
    "cat": "Infrastructure",
    "score": 93,
-   "grow": 0,
+   "grow": 28,
    "desc": "Model on Hugging Face · open source · ♥ 1.3K",
    "meta": [
-    "1.9M downloads",
+    "2.4M downloads",
     "Released 5 days ago"
    ],
    "at": "2026-11-20T13:09:48.000Z",
@@ -54,10 +54,10 @@
    "src": "hf",
    "cat": "Vision",
    "score": 91,
-   "grow": 0,
+   "grow": 40,
    "desc": "Vision on Hugging Face · open source · ♥ 5.9K",
    "meta": [
-    "69K downloads",
+    "97K downloads",
     "Released 8 days ago"
    ],
    "at": "2026-11-17T00:26:57.000Z",
@@ -70,10 +70,10 @@
    "src": "hf",
    "cat": "Infrastructure",
    "score": 90,
-   "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 785",
+   "grow": 33,
+   "desc": "Model on Hugging Face · open source · ♥ 787",
    "meta": [
-    "574K downloads",
+    "762K downloads",
     "Released 5 days ago"
    ],
    "at": "2026-11-20T20:42:23.000Z",
@@ -89,8 +89,8 @@
    "grow": null,
    "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
    "meta": [
-    "★ 2,558",
-    "~423 in 24h",
+    "★ 2,559",
+    "~422 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-11-19T10:00:43Z",
@@ -103,10 +103,10 @@
    "src": "hf",
    "cat": "Tools",
    "score": 87,
-   "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 844",
+   "grow": 20,
+   "desc": "Model on Hugging Face · open source · ♥ 847",
    "meta": [
-    "13K downloads",
+    "15K downloads",
     "Released 11 days ago"
    ],
    "at": "2026-11-14T02:14:35.000Z",
@@ -120,10 +120,10 @@
    "cat": "Agents",
    "score": 87,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 202",
+   "desc": "Model on Hugging Face · open source · ♥ 203",
    "meta": [
-    "0 downloads",
-    "Released 18h ago"
+    "59K downloads",
+    "Released 19h ago"
    ],
    "at": "2026-11-24T16:32:20.000Z",
    "breakout": null,
@@ -139,7 +139,7 @@
    "grow": null,
    "desc": "AI agents working on long tasks often commit to an answer before they have enough evidence, a behavior called laziness.",
    "meta": [
-    "▲ 50 upvotes",
+    "▲ 51 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-11-23T19:00:00.000Z",
@@ -155,7 +155,7 @@
    "grow": null,
    "desc": "Put your AI agents to work in a visual workspace",
    "meta": [
-    "▲ 222 votes",
+    "▲ 224 votes",
     "33 comments",
     "Launched yesterday"
    ],
@@ -229,8 +229,8 @@
    "name": "fast-anything",
    "url": "https://github.com/EL4CTEO/fast-anything",
    "from": "GitHub",
-   "use": 982,
-   "useLabel": "~982 stars/day",
+   "use": 977,
+   "useLabel": "~977 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -240,8 +240,8 @@
    "name": "Inkling-2-Mini-GGUF",
    "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
    "from": "Hugging Face",
-   "use": 1913407,
-   "useLabel": "1.9M downloads",
+   "use": 2445633,
+   "useLabel": "2.4M downloads",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -260,6 +260,56 @@
   }
  ],
  "receipts": [
+  {
+   "name": "higurashi-ai/Haru-4B",
+   "url": "https://huggingface.co/higurashi-ai/Haru-4B",
+   "kind": "downloads",
+   "first": "2026-11-14T08:30:52.843Z",
+   "firstV": 165,
+   "m": 10000,
+   "at": "2026-11-25T11:30:52.815Z",
+   "lead": 266.9999922222222
+  },
+  {
+   "name": "tencent/Hy4-flash",
+   "url": "https://huggingface.co/tencent/Hy4-flash",
+   "kind": "downloads",
+   "first": "2026-11-18T07:01:06.321Z",
+   "firstV": 0,
+   "m": 10000,
+   "at": "2026-11-25T11:30:52.815Z",
+   "lead": 172.49624833333334
+  },
+  {
+   "name": "nari-labs/Qwen3.8-27B-NariQ-GGUF",
+   "url": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
+   "kind": "downloads",
+   "first": "2026-11-24T08:01:11.769Z",
+   "firstV": 2243,
+   "m": 10000,
+   "at": "2026-11-25T11:30:52.815Z",
+   "lead": 27.494735
+  },
+  {
+   "name": "orcarouter/Inkling-2-Mini-abliterated-GGUF",
+   "url": "https://huggingface.co/orcarouter/Inkling-2-Mini-abliterated-GGUF",
+   "kind": "downloads",
+   "first": "2026-11-24T14:30:54.916Z",
+   "firstV": 5446,
+   "m": 10000,
+   "at": "2026-11-25T11:30:52.815Z",
+   "lead": 20.99941638888889
+  },
+  {
+   "name": "prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
+   "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
+   "kind": "downloads",
+   "first": "2026-11-24T22:31:00.563Z",
+   "firstV": 0,
+   "m": 10000,
+   "at": "2026-11-25T11:30:52.815Z",
+   "lead": 12.997847777777778
+  },
   {
    "name": "NiazMorshed2007/reanimate",
    "url": "https://github.com/NiazMorshed2007/reanimate",
@@ -289,63 +339,13 @@
    "m": 2500,
    "at": "2026-11-24T19:30:56.871Z",
    "lead": 115.49707611111111
-  },
-  {
-   "name": "modelflare-ai/AnyModelBot",
-   "url": "https://github.com/modelflare-ai/AnyModelBot",
-   "kind": "stars",
-   "first": "2026-11-02T14:01:05.420Z",
-   "firstV": 1282,
-   "m": 5000,
-   "at": "2026-11-24T15:30:54.755Z",
-   "lead": 529.4970375
-  },
-  {
-   "name": "MiniMaxAI/MiniMax-H3-Image",
-   "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
-   "kind": "downloads",
-   "first": "2026-11-13T20:30:51.442Z",
-   "firstV": 437039,
-   "m": 1000000,
-   "at": "2026-11-24T10:30:59.422Z",
-   "lead": 254.00221666666667
-  },
-  {
-   "name": "inworld/voice-isolator",
-   "url": "https://huggingface.co/inworld/voice-isolator",
-   "kind": "downloads",
-   "first": "2026-11-19T02:01:04.992Z",
-   "firstV": 0,
-   "m": 10000,
-   "at": "2026-11-24T10:30:59.422Z",
-   "lead": 128.49845277777777
-  },
-  {
-   "name": "Motionsites-AI/claude-skill",
-   "url": "https://github.com/Motionsites-AI/claude-skill",
-   "kind": "stars",
-   "first": "2026-10-30T05:30:50.216Z",
-   "firstV": 1099,
-   "m": 2500,
-   "at": "2026-11-24T09:30:55.078Z",
-   "lead": 604.0013505555555
-  },
-  {
-   "name": "ZiChuanLan/freebie-radar",
-   "url": "https://github.com/ZiChuanLan/freebie-radar",
-   "kind": "stars",
-   "first": "2026-11-17T05:01:18.584Z",
-   "firstV": 1206,
-   "m": 2500,
-   "at": "2026-11-24T08:01:11.769Z",
-   "lead": 170.99810694444446
   }
  ],
  "github": [
   {
    "repo": "EL4CTEO/fast-anything",
-   "stars": 3779,
-   "d24": 982,
+   "stars": 3781,
+   "d24": 977,
    "est": true,
    "forks": 271,
    "contrib": null,
@@ -355,8 +355,8 @@
   },
   {
    "repo": "INK-Q/agy-fast",
-   "stars": 1410,
-   "d24": 528,
+   "stars": 1412,
+   "d24": 509,
    "est": false,
    "forks": 81,
    "contrib": null,
@@ -366,10 +366,10 @@
   },
   {
    "repo": "iamajmeena/neonclipping",
-   "stars": 2558,
-   "d24": 423,
+   "stars": 2559,
+   "d24": 422,
    "est": true,
-   "forks": 161,
+   "forks": 162,
    "contrib": null,
    "score": 88,
    "cat": "Vision",
@@ -382,44 +382,44 @@
    "org": "unsloth",
    "lic": "Open source",
    "at": "2026-11-20T13:09:48.000Z",
-   "dl": 1913407,
-   "grow": 0,
+   "dl": 2445633,
+   "grow": 28,
    "score": 93,
    "cat": "Infrastructure",
-   "likes": 1296
+   "likes": 1298
   },
   {
    "name": "Inkling-2-Mini",
    "org": "thinkingmachines",
    "lic": "Open source",
    "at": "2026-11-17T00:26:57.000Z",
-   "dl": 69042,
-   "grow": 0,
+   "dl": 96527,
+   "grow": 40,
    "score": 91,
    "cat": "Vision",
-   "likes": 5878
+   "likes": 5880
   },
   {
    "name": "Inkling-2-Mini-Uncensored-GGUF",
    "org": "AtomicChat",
    "lic": "Open source",
    "at": "2026-11-20T20:42:23.000Z",
-   "dl": 573775,
-   "grow": 0,
+   "dl": 762491,
+   "grow": 33,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 785
+   "likes": 787
   },
   {
    "name": "voice-isolator",
    "org": "inworld",
    "lic": "Open source",
    "at": "2026-11-14T02:14:35.000Z",
-   "dl": 12733,
-   "grow": 0,
+   "dl": 15244,
+   "grow": 20,
    "score": 87,
    "cat": "Tools",
-   "likes": 844
+   "likes": 847
   },
   {
    "name": "Ternary-Bonsai-2.5-27B-GGUF",
@@ -427,11 +427,11 @@
    "size": "27B",
    "lic": "Open source",
    "at": "2026-11-24T16:32:20.000Z",
-   "dl": 0,
+   "dl": 59366,
    "grow": null,
    "score": 87,
    "cat": "Agents",
-   "likes": 202
+   "likes": 203
   },
   {
    "name": "Sulphur-3",
@@ -773,6 +773,13 @@
    "kind": "News"
   },
   {
+   "t": "Industrials Down, but Not by Much, on Mixed AI Views - Industrials Roundup",
+   "url": "https://www.marketscreener.com/news/industrials-down-but-not-by-much-on-mixed-ai-views-industrials-roundup-ce7851dbdc8ff620",
+   "at": "2026-11-24T23:04:36Z",
+   "src": "MarketScreener",
+   "kind": "News"
+  },
+  {
    "t": "OpenAI and Anthropic Insiders Fear Their Next AI Models Are Too Dangerous to Release",
    "url": "https://decrypt.co/383933/openai-and-anthropic-insiders-fear-next-ai-models-too-dangerous",
    "at": "2026-11-24T22:36:02Z",
@@ -813,13 +820,6 @@
    "at": "2026-11-24T21:45:00Z",
    "src": "NewsBreak",
    "kind": "News"
-  },
-  {
-   "t": "Drops for Nvidia, Anthropic and other AI stocks drag the US market back down",
-   "url": "https://wtop.com/world/2026/11/asian-stocks-rally-after-wall-street-rebound-as-jensen-huang-returns-as-nvidias-ceo/",
-   "at": "2026-11-24T21:16:20Z",
-   "src": "WTOP",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -828,8 +828,8 @@
    "t": "Matrix Multiplication is Θ(n^2.25) [pdf]",
    "url": "https://news.ycombinator.com/item?id=50637220",
    "link": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
-   "up": 669,
-   "com": 354,
+   "up": 686,
+   "com": 377,
    "at": "2026-11-25T01:19:26.000Z"
   },
   {
@@ -837,7 +837,7 @@
    "t": "LLM agents work for their parent companies, not for you",
    "url": "https://news.ycombinator.com/item?id=50627340",
    "link": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
-   "up": 976,
+   "up": 977,
    "com": 403,
    "at": "2026-11-24T12:40:15.000Z"
   },
@@ -846,8 +846,8 @@
    "t": "Bypassing iOS Safari's 60 FPS Limit to Build Web Applications That Feel Native",
    "url": "https://news.ycombinator.com/item?id=50637890",
    "link": "https://rida.dev/blog/bypassing-ios-safari-60-fps-limit",
-   "up": 219,
-   "com": 76,
+   "up": 228,
+   "com": 79,
    "at": "2026-11-25T03:04:37.000Z"
   },
   {
@@ -855,8 +855,8 @@
    "t": "PenGPT: A Generative Transformer for Handwriting and Sketches",
    "url": "https://news.ycombinator.com/item?id=50637056",
    "link": "https://greydanus.github.io/2026/11/12/pengpt/",
-   "up": 267,
-   "com": 45,
+   "up": 275,
+   "com": 48,
    "at": "2026-11-25T00:54:49.000Z"
   },
   {
@@ -864,8 +864,8 @@
    "t": "Gemini refused to give me the lyrics to Twinkle Twinkle Little Star",
    "url": "https://news.ycombinator.com/item?id=50638320",
    "link": "https://www.comentr.com/technology/01M88DWQ0R4NCMYR17AFEWRG1F",
-   "up": 182,
-   "com": 122,
+   "up": 185,
+   "com": 124,
    "at": "2026-11-25T04:03:33.000Z"
   },
   {
@@ -873,8 +873,8 @@
    "t": "Show HN: Old Nvidia and ATI tech demos, running again in the browser",
    "url": "https://news.ycombinator.com/item?id=50638503",
    "link": "https://gpu-demo-gallery.pages.dev/",
-   "up": 141,
-   "com": 37,
+   "up": 156,
+   "com": 38,
    "at": "2026-11-25T04:31:48.000Z"
   }
  ]
