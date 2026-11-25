@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-25T06:01:03.407Z"
+  "updated": "2026-11-25T06:30:55.940Z"
  },
  "pulse": {
   "trending": 76,
   "accelerating": 0,
   "newModels": 14,
-  "discussions": 49,
-  "stars": 1688
+  "discussions": 50,
+  "stars": 1696
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
    "meta": [
-    "★ 3,693",
-    "~1,015 in 24h",
+    "★ 3,703",
+    "~1,012 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-21T14:40:27Z",
@@ -89,8 +89,8 @@
    "grow": 6,
    "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
    "meta": [
-    "★ 2,517",
-    "+177 in 24h",
+    "★ 2,521",
+    "+178 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-11-19T10:00:43Z",
@@ -104,7 +104,7 @@
    "cat": "Tools",
    "score": 87,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 826",
+   "desc": "Model on Hugging Face · open source · ♥ 827",
    "meta": [
     "13K downloads",
     "Released 11 days ago"
@@ -114,19 +114,19 @@
    "url": "https://huggingface.co/inworld/voice-isolator"
   },
   {
-   "name": "ACAP: Asynchronous Coding Agents for Efficient Robot Control",
+   "name": "PartAgent: Agentic 3D Part Segmentation via Expert Integration and Closed-Loop Refinement",
    "owner": "Paper",
    "src": "paper",
-   "url": "https://huggingface.co/papers/2611.31205",
+   "url": "https://huggingface.co/papers/2611.32554",
    "cat": "Research",
    "score": 85,
    "grow": null,
-   "desc": "Coding agents can construct and revise robot behavior during execution, but using one agent for the whole robot can delay otherwise independent work.",
+   "desc": "Segmenting a 3D object into semantically meaningful parts requires joint reasoning about geometric structure and semantic context.",
    "meta": [
-    "▲ 25 upvotes",
+    "▲ 20 upvotes",
     "Hugging Face Papers"
    ],
-   "at": "2026-11-22T19:00:00.000Z",
+   "at": "2026-11-23T19:00:00.000Z",
    "breakout": null
   },
   {
@@ -140,7 +140,7 @@
    "desc": "Turn your website into a stunning launch video in minutes",
    "meta": [
     "▲ 341 votes",
-    "47 comments",
+    "48 comments",
     "Launched 2 days ago"
    ],
    "at": "2026-11-23T08:01:00Z",
@@ -152,8 +152,8 @@
    "src": "hf",
    "cat": "Tools",
    "score": 84,
-   "grow": 20,
-   "desc": "Model on Hugging Face · open weights · ♥ 951",
+   "grow": null,
+   "desc": "Model on Hugging Face · open weights · ♥ 953",
    "meta": [
     "161K downloads",
     "Released 24 days ago"
@@ -169,7 +169,7 @@
    "cat": "Tools",
    "score": 84,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 186",
+   "desc": "Model on Hugging Face · open source · ♥ 187",
    "meta": [
     "733 downloads",
     "Released 2 days ago"
@@ -258,8 +258,8 @@
    "name": "fast-anything",
    "url": "https://github.com/EL4CTEO/fast-anything",
    "from": "GitHub",
-   "use": 1015,
-   "useLabel": "~1,015 stars/day",
+   "use": 1012,
+   "useLabel": "~1,012 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -289,6 +289,16 @@
   }
  ],
  "receipts": [
+  {
+   "name": "NiazMorshed2007/reanimate",
+   "url": "https://github.com/NiazMorshed2007/reanimate",
+   "kind": "stars",
+   "first": "2026-11-08T00:01:03.301Z",
+   "firstV": 1374,
+   "m": 2500,
+   "at": "2026-11-25T06:30:55.940Z",
+   "lead": 414.4979552777778
+  },
   {
    "name": "iamajmeena/neonclipping",
    "url": "https://github.com/iamajmeena/neonclipping",
@@ -358,23 +368,13 @@
    "m": 2500,
    "at": "2026-11-24T08:01:11.769Z",
    "lead": 170.99810694444446
-  },
-  {
-   "name": "expo/exact",
-   "url": "https://github.com/expo/exact",
-   "kind": "stars",
-   "first": "2026-11-13T20:30:51.442Z",
-   "firstV": 3914,
-   "m": 5000,
-   "at": "2026-11-24T07:30:55.141Z",
-   "lead": 251.0010275
   }
  ],
  "github": [
   {
    "repo": "EL4CTEO/fast-anything",
-   "stars": 3693,
-   "d24": 1015,
+   "stars": 3703,
+   "d24": 1012,
    "est": true,
    "forks": 264,
    "contrib": null,
@@ -384,8 +384,8 @@
   },
   {
    "repo": "INK-Q/agy-fast",
-   "stars": 1292,
-   "d24": 496,
+   "stars": 1305,
+   "d24": 506,
    "est": false,
    "forks": 77,
    "contrib": null,
@@ -395,10 +395,10 @@
   },
   {
    "repo": "iamajmeena/neonclipping",
-   "stars": 2517,
-   "d24": 177,
+   "stars": 2521,
+   "d24": 178,
    "est": false,
-   "forks": 157,
+   "forks": 158,
    "contrib": null,
    "score": 89,
    "cat": "Vision",
@@ -415,7 +415,7 @@
    "grow": null,
    "score": 93,
    "cat": "Infrastructure",
-   "likes": 1275
+   "likes": 1278
   },
   {
    "name": "Inkling-2-Mini",
@@ -426,7 +426,7 @@
    "grow": null,
    "score": 91,
    "cat": "Vision",
-   "likes": 5827
+   "likes": 5833
   },
   {
    "name": "Inkling-2-Mini-Uncensored-GGUF",
@@ -448,7 +448,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Tools",
-   "likes": 826
+   "likes": 827
   },
   {
    "name": "Sulphur-3",
@@ -456,10 +456,10 @@
    "lic": "Open weights",
    "at": "2026-10-31T20:31:01.000Z",
    "dl": 160965,
-   "grow": 20,
+   "grow": null,
    "score": 84,
    "cat": "Tools",
-   "likes": 951
+   "likes": 953
   },
   {
    "name": "Ling-3.2-air",
@@ -470,7 +470,7 @@
    "grow": 0,
    "score": 84,
    "cat": "Tools",
-   "likes": 186
+   "likes": 187
   }
  ],
  "free": [
@@ -738,6 +738,13 @@
  },
  "headlines": [
   {
+   "t": "Trump's tech allies reasserted their power in DC by lobbying the president to defy US intelligence agencies and pressure Nvidia to reinstate Jensen Huang as CEO",
+   "url": "https://www.techmeme.com/261125/p3#a261125p3",
+   "at": "2026-11-25T06:05:01.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "NJ-based AidenAI, which helps enterprises integrate AI into apps, data infrastructure, and business workflows, raised a $32M Series A led by A91 Partners",
    "url": "https://www.techmeme.com/261125/p2#a261125p2",
    "at": "2026-11-25T05:50:13.000Z",
@@ -794,6 +801,13 @@
    "kind": "News"
   },
   {
+   "t": "Hundreds of Ukrainian defense tech companies already use AI - Zelensky",
+   "url": "https://www.ukrinform.net/rubric-economy/4188221-hundreds-of-ukrainian-defense-tech-companies-already-use-ai-zelensky.html",
+   "at": "2026-11-24T18:29:00Z",
+   "src": "Ukrinform",
+   "kind": "News"
+  },
+  {
    "t": "House Committee: Commerce Approved 879,000 AI Chips for Chinese Military",
    "url": "https://www.naturalnews.com/2026-11-24-commerce-approved-ai-chips-chinese-military-firms.html",
    "at": "2026-11-24T17:50:48Z",
@@ -834,20 +848,6 @@
    "at": "2026-11-24T17:16:11Z",
    "src": "Newsweek",
    "kind": "News"
-  },
-  {
-   "t": "OpenAI spying case: Ex-engineer allegedly stole trade secrets, recorded meetings, and kept confidential document",
-   "url": "https://www.livemint.com/companies/news/openai-spying-case-ex-engineer-allegedly-stole-trade-secrets-recorded-meetings-and-kept-confidential-document-11795535399704.html",
-   "at": "2026-11-24T17:15:01Z",
-   "src": "Livemint",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI, Anthropic staff warn unreleased AI models are too powerful to release: Here’s why",
-   "url": "https://www.thenews.com.pk/latest/1424969-openai-anthropic-staff-warn-unreleased-ai-models-are-too-powerful-to-release-heres-why",
-   "at": "2026-11-24T17:13:00Z",
-   "src": "The News International",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -856,8 +856,8 @@
    "t": "Matrix Multiplication is Θ(n^2.25) [pdf]",
    "url": "https://news.ycombinator.com/item?id=50637220",
    "link": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
-   "up": 391,
-   "com": 196,
+   "up": 429,
+   "com": 205,
    "at": "2026-11-25T01:19:26.000Z"
   },
   {
@@ -865,45 +865,45 @@
    "t": "LLM agents work for their parent companies, not for you",
    "url": "https://news.ycombinator.com/item?id=50627340",
    "link": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
-   "up": 958,
-   "com": 394,
+   "up": 960,
+   "com": 396,
    "at": "2026-11-24T12:40:15.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Gemini refused to give me the lyrics to Twinkle Twinkle Little Star",
-   "url": "https://news.ycombinator.com/item?id=50638320",
-   "link": "https://www.comentr.com/technology/01M88DWQ0R4NCMYR17AFEWRG1F",
-   "up": 85,
-   "com": 56,
-   "at": "2026-11-25T04:03:33.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Treasury CIO is too busy vibecoding instead of doing his job #147",
    "url": "https://news.ycombinator.com/item?id=50638647",
    "link": "https://github.com/samcorcos/legatum/issues/147",
-   "up": 40,
-   "com": 2,
+   "up": 82,
+   "com": 7,
    "at": "2026-11-25T04:56:36.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Gemini refused to give me the lyrics to Twinkle Twinkle Little Star",
+   "url": "https://news.ycombinator.com/item?id=50638320",
+   "link": "https://www.comentr.com/technology/01M88DWQ0R4NCMYR17AFEWRG1F",
+   "up": 104,
+   "com": 71,
+   "at": "2026-11-25T04:03:33.000Z"
   },
   {
    "src": "Hacker News",
    "t": "PenGPT: A Generative Transformer for Handwriting and Sketches",
    "url": "https://news.ycombinator.com/item?id=50637056",
    "link": "https://greydanus.github.io/2026/11/12/pengpt/",
-   "up": 163,
-   "com": 28,
+   "up": 181,
+   "com": 31,
    "at": "2026-11-25T00:54:49.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "GPT-6 models demonstrate intrinsic protein-design capabilities",
-   "url": "https://news.ycombinator.com/item?id=50634658",
-   "link": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
-   "up": 229,
-   "com": 69,
-   "at": "2026-11-24T21:02:22.000Z"
+   "t": "Bypassing iOS Safari's 60 FPS Limit to Build Web Applications That Feel Native",
+   "url": "https://news.ycombinator.com/item?id=50637890",
+   "link": "https://rida.dev/blog/bypassing-ios-safari-60-fps-limit",
+   "up": 86,
+   "com": 21,
+   "at": "2026-11-25T03:04:37.000Z"
   }
  ]
 }
