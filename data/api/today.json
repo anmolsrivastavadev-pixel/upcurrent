@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-25T13:01:05.821Z"
+  "updated": "2026-11-25T13:30:59.414Z"
  },
  "pulse": {
   "trending": 76,
-  "accelerating": 3,
+  "accelerating": 2,
   "newModels": 15,
   "discussions": 44,
-  "stars": 1282
+  "stars": 1284
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 3,
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
    "meta": [
-    "★ 3,805",
-    "+384 in 24h",
+    "★ 3,817",
+    "+397 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-21T14:40:27Z",
@@ -71,7 +71,7 @@
    "cat": "Infrastructure",
    "score": 90,
    "grow": 33,
-   "desc": "Model on Hugging Face · open source · ♥ 792",
+   "desc": "Model on Hugging Face · open source · ♥ 793",
    "meta": [
     "762K downloads",
     "Released 5 days ago"
@@ -87,10 +87,10 @@
    "cat": "Agents",
    "score": 90,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 220",
+   "desc": "Model on Hugging Face · open source · ♥ 225",
    "meta": [
     "59K downloads",
-    "Released 20h ago"
+    "Released 21h ago"
    ],
    "at": "2026-11-24T16:32:20.000Z",
    "breakout": null,
@@ -105,8 +105,8 @@
    "grow": null,
    "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
    "meta": [
-    "★ 2,570",
-    "~420 in 24h",
+    "★ 2,574",
+    "~419 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-11-19T10:00:43Z",
@@ -139,7 +139,7 @@
    "grow": null,
    "desc": "AI agents working on long tasks often commit to an answer before they have enough evidence, a behavior called laziness.",
    "meta": [
-    "▲ 54 upvotes",
+    "▲ 55 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-11-23T19:00:00.000Z",
@@ -169,7 +169,7 @@
    "cat": "Tools",
    "score": 84,
    "grow": 18,
-   "desc": "Model on Hugging Face · open weights · ♥ 971",
+   "desc": "Model on Hugging Face · open weights · ♥ 975",
    "meta": [
     "190K downloads",
     "Released 25 days ago"
@@ -229,8 +229,8 @@
    "name": "agy-fast",
    "url": "https://github.com/INK-Q/agy-fast",
    "from": "GitHub",
-   "use": 478,
-   "useLabel": "+478 stars/day",
+   "use": 468,
+   "useLabel": "+468 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -344,8 +344,8 @@
  "github": [
   {
    "repo": "INK-Q/agy-fast",
-   "stars": 1427,
-   "d24": 478,
+   "stars": 1431,
+   "d24": 468,
    "est": false,
    "forks": 83,
    "contrib": null,
@@ -355,8 +355,8 @@
   },
   {
    "repo": "iamajmeena/neonclipping",
-   "stars": 2570,
-   "d24": 420,
+   "stars": 2574,
+   "d24": 419,
    "est": true,
    "forks": 162,
    "contrib": null,
@@ -366,8 +366,8 @@
   },
   {
    "repo": "EL4CTEO/fast-anything",
-   "stars": 3805,
-   "d24": 384,
+   "stars": 3817,
+   "d24": 397,
    "est": false,
    "forks": 273,
    "contrib": null,
@@ -397,7 +397,7 @@
    "grow": 40,
    "score": 90,
    "cat": "Vision",
-   "likes": 5895
+   "likes": 5899
   },
   {
    "name": "Inkling-2-Mini-Uncensored-GGUF",
@@ -408,7 +408,7 @@
    "grow": 33,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 792
+   "likes": 793
   },
   {
    "name": "Ternary-Bonsai-2.5-27B-GGUF",
@@ -420,7 +420,7 @@
    "grow": null,
    "score": 90,
    "cat": "Agents",
-   "likes": 220
+   "likes": 225
   },
   {
    "name": "voice-isolator",
@@ -442,7 +442,7 @@
    "grow": 18,
    "score": 84,
    "cat": "Tools",
-   "likes": 971
+   "likes": 975
   }
  ],
  "free": [
@@ -710,6 +710,27 @@
  },
  "headlines": [
   {
+   "t": "OpenAI publishes a preprint that claims to prove that the matrix multiplication exponent (ω) is exactly 9/4, addressing a major open problem in mathematics",
+   "url": "https://www.techmeme.com/261125/p21#a261125p21",
+   "at": "2026-11-25T13:23:06.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Chinese vendors in Shenzhen's Huaqiangbei market still sell US-restricted Nvidia hardware, quoting $3M+ for Blackwell B300 servers, up from $2M two months ago",
+   "url": "https://www.techmeme.com/261125/p20#a261125p20",
+   "at": "2026-11-25T13:00:57.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "Democrats must unite on AI regulation. Here’s our three-point plan | Nathan E Sanders and Bruce Schneier",
+   "url": "https://www.theguardian.com/commentisfree/2026/nov/25/democrats-ai-regulation-plan",
+   "at": "2026-11-25T13:00:26Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
    "t": "EA says it used AI and archival recordings to add late soccer commentator John Motson to EA Sports FC 27, with permission from Motson's widow and son",
    "url": "https://www.techmeme.com/261125/p18#a261125p18",
    "at": "2026-11-25T12:25:01.000Z",
@@ -745,17 +766,31 @@
    "kind": "News"
   },
   {
-   "t": "OpenAI publishes a preprint that claims to prove that the matrix multiplication exponent (ω) is exactly 9/4, addressing a major open problem in mathematics",
-   "url": "https://www.techmeme.com/261125/p5#a261125p5",
-   "at": "2026-11-25T06:55:01.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
    "t": "Tidal bans 100% AI-generated music with plans to delete more than 27m tracks",
    "url": "https://www.theguardian.com/music/2026/nov/25/tidal-streaming-service-bans-ai-generated-music",
    "at": "2026-11-25T02:12:22Z",
    "src": "The Guardian",
+   "kind": "News"
+  },
+  {
+   "t": "US intelligence agencies CIA, ODNI hit by apparent cyberattack: Report",
+   "url": "https://www.moneycontrol.com/world/us-intelligence-agencies-cia-odni-hit-by-mystery-cyberattack-report-article-14088293.html",
+   "at": "2026-11-25T01:30:55Z",
+   "src": "Moneycontrol",
+   "kind": "News"
+  },
+  {
+   "t": "Nolte: Tidal Music Service Bans All AI-Generated Music",
+   "url": "https://www.breitbart.com/entertainment/2026/11/24/nolte-tidal-music-service-bans-all-ai-generated-music/",
+   "at": "2026-11-25T01:28:17Z",
+   "src": "Breitbart News Network",
+   "kind": "News"
+  },
+  {
+   "t": "India stresses human oversight in AI use during conflicts, flags risks of misuse at UN",
+   "url": "https://www.aninews.in/news/world/us/india-stresses-human-oversight-in-ai-use-during-conflicts-flags-risks-of-misuse-at-un20261125064412/",
+   "at": "2026-11-25T01:14:12Z",
+   "src": "ANI (Asian News International)",
    "kind": "News"
   },
   {
@@ -785,41 +820,6 @@
    "at": "2026-11-25T00:40:25Z",
    "src": "MarketScreener",
    "kind": "News"
-  },
-  {
-   "t": "‘I don't know what you're talking about’: US attorney general dodges questions on Jensen Huang, backs Nvidia CEO as ‘good corporate citizen’",
-   "url": "https://timesofindia.indiatimes.com/world/us/i-dont-know-what-youre-talking-about-us-attorney-general-dodges-questions-on-jensen-huang-backs-nvidia-ceo-as-good-corporate-citizen/articleshow/136144819.cms",
-   "at": "2026-11-25T00:39:00Z",
-   "src": "Times of India",
-   "kind": "News"
-  },
-  {
-   "t": "Market Turns to Inflation Report After AI Comeback Falters",
-   "url": "https://markets.businessinsider.com/news/stocks/market-turns-to-inflation-report-after-ai-comeback-falters-1036798550",
-   "at": "2026-11-25T00:20:57Z",
-   "src": "Markets Insider",
-   "kind": "News"
-  },
-  {
-   "t": "AI consumes less water per dollar spent than almond milk or golf, Enverus report says",
-   "url": "https://www.thestar.com.my/tech/tech-news/2026/11/25/ai-consumes-less-water-per-dollar-spent-than-almond-milk-or-golf-enverus-report-says",
-   "at": "2026-11-25T00:19:00Z",
-   "src": "The Star",
-   "kind": "News"
-  },
-  {
-   "t": "Former OpenAI engineer accused of bugging HQ to be freed on $1M bond: report",
-   "url": "https://www.foxbusiness.com/fox-news-tech/saudi-national-accused-bugging-openai-executive-conference-room-freed-1m-bond-report",
-   "at": "2026-11-25T00:11:17Z",
-   "src": "Fox Business",
-   "kind": "News"
-  },
-  {
-   "t": "'I Hurt All Of You': What Jensen Huang Told Staff In 1st Meeting After Returning As Nvidia CEO",
-   "url": "https://www.news18.com/world/i-hurt-all-of-you-what-jensen-huang-told-staff-in-1st-meeting-after-returning-as-nvidia-ceo-10439565.html",
-   "at": "2026-11-25T00:06:27Z",
-   "src": "News18",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -828,8 +828,8 @@
    "t": "Matrix Multiplication is Θ(n^2.25) [pdf]",
    "url": "https://news.ycombinator.com/item?id=50637220",
    "link": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
-   "up": 749,
-   "com": 417,
+   "up": 759,
+   "com": 426,
    "at": "2026-11-25T01:19:26.000Z"
   },
   {
@@ -837,8 +837,8 @@
    "t": "Windows Loudness Equalization, reverse-engineered and ported to PipeWire",
    "url": "https://news.ycombinator.com/item?id=50641171",
    "link": "https://github.com/xoxorwr/pw-loudness-eq",
-   "up": 76,
-   "com": 28,
+   "up": 99,
+   "com": 45,
    "at": "2026-11-25T11:34:25.000Z"
   },
   {
@@ -846,8 +846,8 @@
    "t": "Bypassing iOS Safari's 60 FPS Limit to Build Web Applications That Feel Native",
    "url": "https://news.ycombinator.com/item?id=50637890",
    "link": "https://rida.dev/blog/bypassing-ios-safari-60-fps-limit",
-   "up": 259,
-   "com": 96,
+   "up": 277,
+   "com": 100,
    "at": "2026-11-25T03:04:37.000Z"
   },
   {
@@ -855,7 +855,7 @@
    "t": "PenGPT: A Generative Transformer for Handwriting and Sketches",
    "url": "https://news.ycombinator.com/item?id=50637056",
    "link": "https://greydanus.github.io/2026/11/12/pengpt/",
-   "up": 291,
+   "up": 301,
    "com": 51,
    "at": "2026-11-25T00:54:49.000Z"
   },
@@ -864,8 +864,8 @@
    "t": "Show HN: Old Nvidia and ATI tech demos, running again in the browser",
    "url": "https://news.ycombinator.com/item?id=50638503",
    "link": "https://gpu-demo-gallery.pages.dev/",
-   "up": 186,
-   "com": 45,
+   "up": 196,
+   "com": 46,
    "at": "2026-11-25T04:31:48.000Z"
   },
   {
@@ -874,7 +874,7 @@
    "url": "https://news.ycombinator.com/item?id=50638320",
    "link": "https://www.comentr.com/technology/01M88DWQ0R4NCMYR17AFEWRG1F",
    "up": 192,
-   "com": 142,
+   "com": 143,
    "at": "2026-11-25T04:03:33.000Z"
   }
  ]
