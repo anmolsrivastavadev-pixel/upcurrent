@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-25T15:30:59.138Z"
+  "updated": "2026-11-25T16:30:56.561Z"
  },
  "pulse": {
   "trending": 75,
-  "accelerating": 2,
+  "accelerating": 3,
   "newModels": 14,
   "discussions": 46,
-  "stars": 1045
+  "stars": 1001
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 4,
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
    "meta": [
-    "★ 3,848",
-    "+392 in 24h",
+    "★ 3,859",
+    "+379 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-21T14:40:27Z",
@@ -55,10 +55,10 @@
    "cat": "Agents",
    "score": 91,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 251",
+   "desc": "Model on Hugging Face · open source · ♥ 257",
    "meta": [
     "59K downloads",
-    "Released 23h ago"
+    "Released 24h ago"
    ],
    "at": "2026-11-24T16:32:20.000Z",
    "breakout": null,
@@ -87,7 +87,7 @@
    "cat": "Infrastructure",
    "score": 90,
    "grow": 33,
-   "desc": "Model on Hugging Face · open source · ♥ 797",
+   "desc": "Model on Hugging Face · open source · ♥ 802",
    "meta": [
     "762K downloads",
     "Released 5 days ago"
@@ -102,11 +102,11 @@
    "src": "gh",
    "cat": "Vision",
    "score": 88,
-   "grow": 2,
+   "grow": 3,
    "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
    "meta": [
-    "★ 2,593",
-    "+195 in 24h",
+    "★ 2,596",
+    "+181 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-11-19T10:00:43Z",
@@ -120,7 +120,7 @@
    "cat": "Tools",
    "score": 87,
    "grow": 20,
-   "desc": "Model on Hugging Face · open source · ♥ 854",
+   "desc": "Model on Hugging Face · open source · ♥ 855",
    "meta": [
     "15K downloads",
     "Released 12 days ago"
@@ -128,6 +128,22 @@
    "at": "2026-11-14T02:14:35.000Z",
    "breakout": null,
    "url": "https://huggingface.co/inworld/voice-isolator"
+  },
+  {
+   "name": "Lazy Agents Answer Against Their Own Beliefs: Reinforcement Learning with Verifiable Beliefs Teaches Them to Act on What They Believe",
+   "owner": "Paper",
+   "src": "paper",
+   "url": "https://huggingface.co/papers/2611.32884",
+   "cat": "Research",
+   "score": 85,
+   "grow": null,
+   "desc": "AI agents working on long tasks often commit to an answer before they have enough evidence, a behavior called laziness.",
+   "meta": [
+    "▲ 82 upvotes",
+    "Hugging Face Papers"
+   ],
+   "at": "2026-11-23T19:00:00.000Z",
+   "breakout": null
   },
   {
    "name": "Granular.Build",
@@ -140,7 +156,7 @@
    "desc": "Put your AI agents to work in a visual workspace",
    "meta": [
     "▲ 230 votes",
-    "33 comments",
+    "34 comments",
     "Launched yesterday"
    ],
    "at": "2026-11-24T08:01:00Z",
@@ -153,7 +169,7 @@
    "cat": "Tools",
    "score": 84,
    "grow": 18,
-   "desc": "Model on Hugging Face · open weights · ♥ 996",
+   "desc": "Model on Hugging Face · open weights · ♥ 1K",
    "meta": [
     "190K downloads",
     "Released 25 days ago"
@@ -161,22 +177,6 @@
    "at": "2026-10-31T20:31:01.000Z",
    "breakout": null,
    "url": "https://huggingface.co/SulphurAI/Sulphur-3"
-  },
-  {
-   "name": "Nemotron-Labs-VisualCreation: Pixel as Code for Agentic Visual Creation",
-   "owner": "Paper",
-   "src": "paper",
-   "url": "https://huggingface.co/papers/2611.31358",
-   "cat": "Research",
-   "score": 83,
-   "grow": null,
-   "desc": "Visual creation demands expressive imagery together with precise control over text, layout, and structure.",
-   "meta": [
-    "▲ 74 upvotes",
-    "Hugging Face Papers"
-   ],
-   "at": "2026-11-22T19:00:00.000Z",
-   "breakout": null
   }
  ],
  "breakouts": [],
@@ -207,8 +207,8 @@
    "name": "agy-fast",
    "url": "https://github.com/INK-Q/agy-fast",
    "from": "GitHub",
-   "use": 458,
-   "useLabel": "+458 stars/day",
+   "use": 441,
+   "useLabel": "+441 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -322,8 +322,8 @@
  "github": [
   {
    "repo": "INK-Q/agy-fast",
-   "stars": 1464,
-   "d24": 458,
+   "stars": 1471,
+   "d24": 441,
    "est": false,
    "forks": 85,
    "contrib": null,
@@ -333,10 +333,10 @@
   },
   {
    "repo": "EL4CTEO/fast-anything",
-   "stars": 3848,
-   "d24": 392,
+   "stars": 3859,
+   "d24": 379,
    "est": false,
-   "forks": 275,
+   "forks": 276,
    "contrib": null,
    "score": 93,
    "cat": "Agents",
@@ -344,8 +344,8 @@
   },
   {
    "repo": "iamajmeena/neonclipping",
-   "stars": 2593,
-   "d24": 195,
+   "stars": 2596,
+   "d24": 181,
    "est": false,
    "forks": 162,
    "contrib": null,
@@ -364,7 +364,7 @@
    "grow": 28,
    "score": 92,
    "cat": "Infrastructure",
-   "likes": 1315
+   "likes": 1321
   },
   {
    "name": "Ternary-Bonsai-2.5-27B-GGUF",
@@ -376,7 +376,7 @@
    "grow": null,
    "score": 91,
    "cat": "Agents",
-   "likes": 251
+   "likes": 257
   },
   {
    "name": "Inkling-2-Mini",
@@ -387,7 +387,7 @@
    "grow": 40,
    "score": 90,
    "cat": "Vision",
-   "likes": 5915
+   "likes": 5925
   },
   {
    "name": "Inkling-2-Mini-Uncensored-GGUF",
@@ -398,7 +398,7 @@
    "grow": 33,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 797
+   "likes": 802
   },
   {
    "name": "voice-isolator",
@@ -409,7 +409,7 @@
    "grow": 20,
    "score": 87,
    "cat": "Tools",
-   "likes": 854
+   "likes": 855
   },
   {
    "name": "Sulphur-3",
@@ -420,7 +420,7 @@
    "grow": 18,
    "score": 84,
    "cat": "Tools",
-   "likes": 996
+   "likes": 1000
   }
  ],
  "free": [
@@ -772,10 +772,10 @@
    "kind": "News"
   },
   {
-   "t": "TIM ZAHLER REACTS TO WORLD STAGED NEWS! AI/TRUMP/FRAUD/CYBER SCAMS/ Roblox Online Threat To Children",
-   "url": "https://www.youtube.com/watch?v=suKvAdkPM3g",
-   "at": "2026-11-25T07:56:06Z",
-   "src": "Tim Zahler ",
+   "t": "Claude Opus 5.6 (Next) Will Be the GREATEST AI Model EVER! & AI Models Are TOO POWERFUL to Release?",
+   "url": "https://www.youtube.com/watch?v=IO9ce7ubAJ8",
+   "at": "2026-11-25T08:10:47Z",
+   "src": "WorldofAI",
    "kind": "Video"
   },
   {
@@ -786,17 +786,17 @@
    "kind": "News"
   },
   {
-   "t": "Reality bites at Cornish Christmas market that was nothing like AI poster",
-   "url": "https://www.nzherald.co.nz/world/reality-bites-at-cornish-christmas-market-that-was-nothing-like-ai-poster/JBU24VEVQBBCJGEVCJ2EN6MPZM/",
-   "at": "2026-11-25T03:25:45Z",
-   "src": "The New Zealand Herald",
+   "t": "Tata Power builds a digital brain to forecast renewable power and curb losses",
+   "url": "https://economictimes.indiatimes.com/industry/renewables/tata-power-builds-a-digital-brain-to-forecast-renewable-power-and-curb-losses/articleshow/136147775.cms",
+   "at": "2026-11-25T04:13:00Z",
+   "src": "The Economic Times",
    "kind": "News"
   },
   {
-   "t": "Nvidia's AI financing commitments may face tighter US scrutiny amid stability concerns: Report",
-   "url": "https://www.tribuneindia.com/news/business/nvidias-ai-financing-commitments-may-face-tighter-us-scrutiny-amid-stability-concerns-report/",
-   "at": "2026-11-25T03:22:27Z",
-   "src": "The Tribune",
+   "t": "Asian stocks mostly decline as AI shares fall following a retreat on Wall Street",
+   "url": "https://wtop.com/world/2026/11/asian-stocks-mostly-decline-as-ai-shares-fall-following-a-retreat-on-wall-street/",
+   "at": "2026-11-25T04:10:36Z",
+   "src": "WTOP",
    "kind": "News"
   }
  ],
@@ -806,54 +806,54 @@
    "t": "Google Releases Cogentic Papers on Integer Factorization, Discrete Logs and More",
    "url": "https://news.ycombinator.com/item?id=50642086",
    "link": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
-   "up": 162,
-   "com": 125,
+   "up": 231,
+   "com": 189,
    "at": "2026-11-25T13:33:07.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Matrix Multiplication is Θ(n^2.25) [pdf]",
-   "url": "https://news.ycombinator.com/item?id=50637220",
-   "link": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
-   "up": 836,
-   "com": 458,
-   "at": "2026-11-25T01:19:26.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Windows Loudness Equalization, reverse-engineered and ported to PipeWire",
-   "url": "https://news.ycombinator.com/item?id=50641171",
-   "link": "https://github.com/xoxorwr/pw-loudness-eq",
-   "up": 171,
-   "com": 101,
-   "at": "2026-11-25T11:34:25.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Bypassing iOS Safari's 60 FPS Limit to Build Web Applications That Feel Native",
-   "url": "https://news.ycombinator.com/item?id=50637890",
-   "link": "https://rida.dev/blog/bypassing-ios-safari-60-fps-limit",
-   "up": 334,
-   "com": 117,
-   "at": "2026-11-25T03:04:37.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Rumors swirling that labs might have cracked Factoring in P",
    "url": "https://news.ycombinator.com/item?id=50643065",
    "link": "https://www.reddit.com/r/singularity/comments/1y59ef1/rumor_that_openai_or_anthropic_found_a_way_to/",
-   "up": 26,
-   "com": 9,
+   "up": 104,
+   "com": 45,
    "at": "2026-11-25T15:08:44.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "PenGPT: A Generative Transformer for Handwriting and Sketches",
-   "url": "https://news.ycombinator.com/item?id=50637056",
-   "link": "https://greydanus.github.io/2026/11/12/pengpt/",
-   "up": 337,
-   "com": 59,
-   "at": "2026-11-25T00:54:49.000Z"
+   "t": "Matrix Multiplication is Θ(n^2.25) [pdf]",
+   "url": "https://news.ycombinator.com/item?id=50637220",
+   "link": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+   "up": 862,
+   "com": 474,
+   "at": "2026-11-25T01:19:26.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Investigating degraded experiences across GitHub products",
+   "url": "https://news.ycombinator.com/item?id=50643720",
+   "link": "https://www.githubstatus.com/incidents/qn8mfv6q5hlx",
+   "up": 52,
+   "com": 19,
+   "at": "2026-11-25T15:59:23.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Windows Loudness Equalization, reverse-engineered and ported to PipeWire",
+   "url": "https://news.ycombinator.com/item?id=50641171",
+   "link": "https://github.com/xoxorwr/pw-loudness-eq",
+   "up": 215,
+   "com": 122,
+   "at": "2026-11-25T11:34:25.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "In C++, = default and {} are not the same constructor",
+   "url": "https://news.ycombinator.com/item?id=50643199",
+   "link": "https://lemire.me/blog/2026/11/02/default-and-braces-are-not-the-same-constructor/",
+   "up": 33,
+   "com": 51,
+   "at": "2026-11-25T15:20:15.000Z"
   }
  ]
 }
