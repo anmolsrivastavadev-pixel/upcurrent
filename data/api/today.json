@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-25T21:30:51.067Z"
+  "updated": "2026-11-25T22:01:00.581Z"
  },
  "pulse": {
   "trending": 75,
   "accelerating": 3,
   "newModels": 13,
-  "discussions": 46,
-  "stars": 743
+  "discussions": 45,
+  "stars": 731
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 6,
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
    "meta": [
-    "★ 3,927",
-    "+362 in 24h",
+    "★ 3,929",
+    "+354 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-21T14:40:27Z",
@@ -55,7 +55,7 @@
    "cat": "Agents",
    "score": 91,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 307",
+   "desc": "Model on Hugging Face · open source · ♥ 310",
    "meta": [
     "59K downloads",
     "Released yesterday"
@@ -86,8 +86,8 @@
    "src": "hf",
    "cat": "Infrastructure",
    "score": 90,
-   "grow": 33,
-   "desc": "Model on Hugging Face · open source · ♥ 833",
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 834",
    "meta": [
     "762K downloads",
     "Released 5 days ago"
@@ -102,12 +102,12 @@
    "src": "gh",
    "cat": "Vision",
    "score": 88,
-   "grow": 3,
+   "grow": 4,
    "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
    "meta": [
-    "★ 2,620",
-    "+157 in 24h",
-    "Created 6 days ago"
+    "★ 2,621",
+    "+153 in 24h",
+    "Created 7 days ago"
    ],
    "at": "2026-11-19T10:00:43Z",
    "breakout": null,
@@ -155,9 +155,9 @@
    "grow": null,
    "desc": "Build an always-on AI team with shared memory",
    "meta": [
-    "▲ 253 votes",
+    "▲ 257 votes",
     "37 comments",
-    "Launched 13h ago"
+    "Launched 14h ago"
    ],
    "at": "2026-11-25T08:01:00Z",
    "breakout": null
@@ -169,7 +169,7 @@
    "cat": "Tools",
    "score": 84,
    "grow": 18,
-   "desc": "Model on Hugging Face · open weights · ♥ 1K",
+   "desc": "Model on Hugging Face · open weights · ♥ 1.1K",
    "meta": [
     "190K downloads",
     "Released 25 days ago"
@@ -179,7 +179,31 @@
    "url": "https://huggingface.co/SulphurAI/Sulphur-3"
   }
  ],
- "breakouts": [],
+ "breakouts": [
+  {
+   "key": "valley",
+   "label": "Valley",
+   "n": 3,
+   "sources": [
+    {
+     "src": "Product Hunt",
+     "t": "Valley",
+     "url": "https://www.producthunt.com/products/valley-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29"
+    },
+    {
+     "src": "The Guardian",
+     "t": "Jensen Huang returns to Nvidia as Silicon Valley rethinks its alliance with Trump",
+     "url": "https://www.theguardian.com/global/2026/nov/24/jensen-huang-nvidia-return-silicon-valley-trump"
+    },
+    {
+     "src": "Fortune",
+     "t": "Fortune Tech: Silicon Valley's hottest new product? The prenup",
+     "url": "https://fortune.com/2026/11/25/silicon-valleys-hottest-new-product-the-prenup/"
+    }
+   ],
+   "since": "2026-11-24T17:30:58.584Z"
+  }
+ ],
  "hype": [
   {
    "name": "GPT-6",
@@ -195,9 +219,9 @@
      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities"
     },
     {
-     "src": "Openai.com",
-     "t": "GPT-6 models demonstrate intrinsic protein-design capabilities",
-     "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/"
+     "src": "Biztoc.com",
+     "t": "OpenAI: GPT-6 models can design new protein shapes",
+     "url": "https://biztoc.com/x/3c010055f1504ec8"
     }
    ],
    "buzz": 2,
@@ -224,8 +248,8 @@
    "name": "fast-anything",
    "url": "https://github.com/EL4CTEO/fast-anything",
    "from": "GitHub",
-   "use": 362,
-   "useLabel": "+362 stars/day",
+   "use": 354,
+   "useLabel": "+354 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -339,8 +363,8 @@
  "github": [
   {
    "repo": "EL4CTEO/fast-anything",
-   "stars": 3927,
-   "d24": 362,
+   "stars": 3929,
+   "d24": 354,
    "est": false,
    "forks": 282,
    "contrib": null,
@@ -350,7 +374,7 @@
   },
   {
    "repo": "INK-Q/agy-fast",
-   "stars": 1498,
+   "stars": 1500,
    "d24": 224,
    "est": true,
    "forks": 86,
@@ -361,10 +385,10 @@
   },
   {
    "repo": "iamajmeena/neonclipping",
-   "stars": 2620,
-   "d24": 157,
+   "stars": 2621,
+   "d24": 153,
    "est": false,
-   "forks": 164,
+   "forks": 165,
    "contrib": null,
    "score": 88,
    "cat": "Vision",
@@ -381,7 +405,7 @@
    "grow": 28,
    "score": 92,
    "cat": "Infrastructure",
-   "likes": 1362
+   "likes": 1364
   },
   {
    "name": "Ternary-Bonsai-2.5-27B-GGUF",
@@ -393,7 +417,7 @@
    "grow": null,
    "score": 91,
    "cat": "Agents",
-   "likes": 307
+   "likes": 310
   },
   {
    "name": "Inkling-2-Mini",
@@ -404,7 +428,7 @@
    "grow": 40,
    "score": 90,
    "cat": "Vision",
-   "likes": 6005
+   "likes": 6012
   },
   {
    "name": "Inkling-2-Mini-Uncensored-GGUF",
@@ -412,10 +436,10 @@
    "lic": "Open source",
    "at": "2026-11-20T20:42:23.000Z",
    "dl": 762491,
-   "grow": 33,
+   "grow": null,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 833
+   "likes": 834
   },
   {
    "name": "voice-isolator",
@@ -437,7 +461,7 @@
    "grow": 18,
    "score": 84,
    "cat": "Tools",
-   "likes": 1048
+   "likes": 1051
   }
  ],
  "free": [
@@ -697,6 +721,13 @@
  },
  "headlines": [
   {
+   "t": "NY Gov. Kathy Hochul signs a bill banning AI chatbot toys for five years, starting in February; California Gov. Gavin Newsom signed a four-year ban in September",
+   "url": "https://www.techmeme.com/261125/p37#a261125p37",
+   "at": "2026-11-25T21:30:02.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Nvidia agrees to pay $290M to settle a 2018 class action lawsuit alleging it misled shareholders about how much crypto mining fueled its GPU sales",
    "url": "https://www.techmeme.com/261125/p36#a261125p36",
    "at": "2026-11-25T21:15:01.000Z",
@@ -800,13 +831,6 @@
    "at": "2026-11-25T10:05:15Z",
    "src": "The Guardian",
    "kind": "News"
-  },
-  {
-   "t": "Backlash against data centers helped Democrats win the midterms",
-   "url": "https://www.thenewsminute.com/news/backlash-against-data-centers-helped-democrats-win-the-midterms",
-   "at": "2026-11-25T09:25:30Z",
-   "src": "The News Minute",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -815,35 +839,35 @@
    "t": "Rumors swirling that labs might have cracked Factoring in P",
    "url": "https://news.ycombinator.com/item?id=50643065",
    "link": "https://www.reddit.com/r/singularity/comments/1y59ef1/rumor_that_openai_or_anthropic_found_a_way_to/",
-   "up": 404,
-   "com": 284,
+   "up": 418,
+   "com": 295,
    "at": "2026-11-25T15:08:44.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Google releases Cogentic papers on integer factorization, discrete logs and more",
-   "url": "https://news.ycombinator.com/item?id=50642086",
-   "link": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
-   "up": 393,
-   "com": 308,
-   "at": "2026-11-25T13:33:07.000Z"
   },
   {
    "src": "Hacker News",
    "t": "The matrix multiplication exponent is nine fourths [pdf]",
    "url": "https://news.ycombinator.com/item?id=50637220",
    "link": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
-   "up": 977,
-   "com": 546,
+   "up": 991,
+   "com": 552,
    "at": "2026-11-25T01:19:26.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Google releases Cogentic papers on integer factorization, discrete logs and more",
+   "url": "https://news.ycombinator.com/item?id=50642086",
+   "link": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
+   "up": 402,
+   "com": 314,
+   "at": "2026-11-25T13:33:07.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Investigating degraded experiences across GitHub products",
    "url": "https://news.ycombinator.com/item?id=50643720",
    "link": "https://www.githubstatus.com/incidents/qn8mfv6q5hlx",
-   "up": 173,
-   "com": 91,
+   "up": 174,
+   "com": 93,
    "at": "2026-11-25T15:59:23.000Z"
   },
   {
@@ -851,18 +875,18 @@
    "t": "Windows Loudness Equalization, reverse-engineered and ported to PipeWire",
    "url": "https://news.ycombinator.com/item?id=50641171",
    "link": "https://github.com/xoxorwr/pw-loudness-eq",
-   "up": 293,
-   "com": 164,
+   "up": 296,
+   "com": 166,
    "at": "2026-11-25T11:34:25.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Spending 35B Opus 5.5 Tokens to Write a Symphony",
-   "url": "https://news.ycombinator.com/item?id=50646662",
-   "link": "https://danprice.ai/blog/opus-symphony",
-   "up": 40,
-   "com": 40,
-   "at": "2026-11-25T19:57:08.000Z"
+   "t": "Bypassing iOS Safari's 60 FPS Limit to Build Web Applications That Feel Native",
+   "url": "https://news.ycombinator.com/item?id=50637890",
+   "link": "https://rida.dev/blog/bypassing-ios-safari-60-fps-limit",
+   "up": 426,
+   "com": 140,
+   "at": "2026-11-25T03:04:37.000Z"
   }
  ]
 }
