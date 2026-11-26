@@ -5,13 +5,13 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-26T00:01:06.389Z"
+  "updated": "2026-11-26T00:30:52.956Z"
  },
  "pulse": {
   "trending": 75,
   "accelerating": 3,
   "newModels": 13,
-  "discussions": 46,
+  "discussions": 48,
   "stars": 709
  },
  "rising": [
@@ -24,8 +24,8 @@
    "grow": 7,
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
    "meta": [
-    "★ 3,950",
-    "+343 in 24h",
+    "★ 3,961",
+    "+348 in 24h",
     "Created 4 days ago"
    ],
    "at": "2026-11-21T14:40:27Z",
@@ -65,11 +65,27 @@
    "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini"
   },
   {
+   "name": "Ternary-Bonsai-2.5-27B-GGUF",
+   "owner": "prism-ml",
+   "src": "hf",
+   "cat": "Agents",
+   "score": 90,
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 323",
+   "meta": [
+    "59K downloads",
+    "Released yesterday"
+   ],
+   "at": "2026-11-24T16:32:20.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF"
+  },
+  {
    "name": "Inkling-2-Mini-Uncensored-GGUF",
    "owner": "AtomicChat",
    "src": "hf",
    "cat": "Infrastructure",
-   "score": 90,
+   "score": 89,
    "grow": null,
    "desc": "Model on Hugging Face · open source · ♥ 838",
    "meta": [
@@ -81,22 +97,6 @@
    "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF"
   },
   {
-   "name": "Ternary-Bonsai-2.5-27B-GGUF",
-   "owner": "prism-ml",
-   "src": "hf",
-   "cat": "Agents",
-   "score": 90,
-   "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 318",
-   "meta": [
-    "59K downloads",
-    "Released yesterday"
-   ],
-   "at": "2026-11-24T16:32:20.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF"
-  },
-  {
    "name": "neonclipping",
    "owner": "iamajmeena",
    "src": "gh",
@@ -106,7 +106,7 @@
    "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
    "meta": [
     "★ 2,628",
-    "+144 in 24h",
+    "+140 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-11-19T10:00:43Z",
@@ -120,7 +120,7 @@
    "cat": "Tools",
    "score": 87,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 893",
+   "desc": "Model on Hugging Face · open source · ♥ 895",
    "meta": [
     "15K downloads",
     "Released 12 days ago"
@@ -155,7 +155,7 @@
    "grow": null,
    "desc": "Build an always-on AI team with shared memory",
    "meta": [
-    "▲ 261 votes",
+    "▲ 262 votes",
     "37 comments",
     "Launched 16h ago"
    ],
@@ -202,8 +202,8 @@
    "name": "fast-anything",
    "url": "https://github.com/EL4CTEO/fast-anything",
    "from": "GitHub",
-   "use": 343,
-   "useLabel": "+343 stars/day",
+   "use": 348,
+   "useLabel": "+348 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -317,10 +317,10 @@
  "github": [
   {
    "repo": "EL4CTEO/fast-anything",
-   "stars": 3950,
-   "d24": 343,
+   "stars": 3961,
+   "d24": 348,
    "est": false,
-   "forks": 282,
+   "forks": 283,
    "contrib": null,
    "score": 93,
    "cat": "Agents",
@@ -328,8 +328,8 @@
   },
   {
    "repo": "INK-Q/agy-fast",
-   "stars": 1506,
-   "d24": 222,
+   "stars": 1508,
+   "d24": 221,
    "est": true,
    "forks": 86,
    "contrib": null,
@@ -340,7 +340,7 @@
   {
    "repo": "iamajmeena/neonclipping",
    "stars": 2628,
-   "d24": 144,
+   "d24": 140,
    "est": false,
    "forks": 165,
    "contrib": null,
@@ -370,18 +370,7 @@
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 6028
-  },
-  {
-   "name": "Inkling-2-Mini-Uncensored-GGUF",
-   "org": "AtomicChat",
-   "lic": "Open source",
-   "at": "2026-11-20T20:42:23.000Z",
-   "dl": 762491,
-   "grow": null,
-   "score": 90,
-   "cat": "Infrastructure",
-   "likes": 838
+   "likes": 6032
   },
   {
    "name": "Ternary-Bonsai-2.5-27B-GGUF",
@@ -393,7 +382,18 @@
    "grow": null,
    "score": 90,
    "cat": "Agents",
-   "likes": 318
+   "likes": 323
+  },
+  {
+   "name": "Inkling-2-Mini-Uncensored-GGUF",
+   "org": "AtomicChat",
+   "lic": "Open source",
+   "at": "2026-11-20T20:42:23.000Z",
+   "dl": 762491,
+   "grow": null,
+   "score": 89,
+   "cat": "Infrastructure",
+   "likes": 838
   },
   {
    "name": "voice-isolator",
@@ -404,7 +404,7 @@
    "grow": null,
    "score": 87,
    "cat": "Tools",
-   "likes": 893
+   "likes": 895
   },
   {
    "name": "Sulphur-3",
@@ -415,7 +415,7 @@
    "grow": 18,
    "score": 84,
    "cat": "Tools",
-   "likes": 1070
+   "likes": 1074
   }
  ],
  "free": [
@@ -773,17 +773,17 @@
    "kind": "News"
   },
   {
-   "t": "Iran claims US weaponized AI tech in strikes at UN briefing",
-   "url": "https://www.foxnews.com/live-news/ai-news-iran-war-economy-china-11-25-26",
-   "at": "2026-11-25T11:49:00Z",
-   "src": "Fox News",
+   "t": "Artificial intelligence being used in patient consultations at South Australian public hospital",
+   "url": "https://7news.com.au/news/public-health/artificial-intelligence-being-used-in-patient-consultations-at-south-australian-public-hospital-c-23213374",
+   "at": "2026-11-25T12:25:16Z",
+   "src": "7NEWS Australia",
    "kind": "News"
   },
   {
-   "t": "AI shares tumble after Wall St. retreat",
-   "url": "https://www.cp24.com/news/money/2026/11/25/global-stocks-are-mixed-as-ai-shares-tumble-after-a-retreat-on-wall-street/",
-   "at": "2026-11-25T11:44:17Z",
-   "src": "CP24 Toronto",
+   "t": "A Record $132 Billion AI Backlog Lands as Chip Stocks Whipsaw",
+   "url": "https://www.brantfordexpositor.ca/press-releases/pr-newswire/a-record-132-billion-ai-backlog-lands-as-chip-stocks-whipsaw/",
+   "at": "2026-11-25T12:22:32Z",
+   "src": "The Expositor",
    "kind": "News"
   }
  ],
@@ -793,8 +793,8 @@
    "t": "Much shorter version of GRH Lean verification from Anthropic",
    "url": "https://news.ycombinator.com/item?id=50648050",
    "link": "https://github.com/lsernau/grh-lean",
-   "up": 198,
-   "com": 88,
+   "up": 217,
+   "com": 97,
    "at": "2026-11-25T21:48:10.000Z"
   },
   {
@@ -802,7 +802,7 @@
    "t": "Rumors swirling that labs might have cracked Factoring in P",
    "url": "https://news.ycombinator.com/item?id=50643065",
    "link": "https://www.reddit.com/r/singularity/comments/1y59ef1/rumor_that_openai_or_anthropic_found_a_way_to/",
-   "up": 457,
+   "up": 458,
    "com": 332,
    "at": "2026-11-25T15:08:44.000Z"
   },
@@ -811,8 +811,8 @@
    "t": "The New York Times tells photographers not to use the latest Photoshop",
    "url": "https://news.ycombinator.com/item?id=50647673",
    "link": "https://www.dpreview.com/news/new-york-times-adobe-photoshop-2027-restriction-ai/",
-   "up": 133,
-   "com": 66,
+   "up": 155,
+   "com": 85,
    "at": "2026-11-25T21:18:02.000Z"
   },
   {
@@ -820,8 +820,8 @@
    "t": "The matrix multiplication exponent is nine fourths [pdf]",
    "url": "https://news.ycombinator.com/item?id=50637220",
    "link": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
-   "up": 1019,
-   "com": 567,
+   "up": 1021,
+   "com": 573,
    "at": "2026-11-25T01:19:26.000Z"
   },
   {
@@ -829,8 +829,8 @@
    "t": "Google releases Cogentic papers on integer factorization, discrete logs and more",
    "url": "https://news.ycombinator.com/item?id=50642086",
    "link": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
-   "up": 432,
-   "com": 321,
+   "up": 439,
+   "com": 326,
    "at": "2026-11-25T13:33:07.000Z"
   },
   {
@@ -838,7 +838,7 @@
    "t": "Windows Loudness Equalization, reverse-engineered and ported to PipeWire",
    "url": "https://news.ycombinator.com/item?id=50641171",
    "link": "https://github.com/xoxorwr/pw-loudness-eq",
-   "up": 305,
+   "up": 311,
    "com": 172,
    "at": "2026-11-25T11:34:25.000Z"
   }
