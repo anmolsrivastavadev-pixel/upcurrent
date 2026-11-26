@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-26T22:30:53.749Z"
+  "updated": "2026-11-26T23:01:03.784Z"
  },
  "pulse": {
   "trending": 74,
   "accelerating": 0,
   "newModels": 13,
-  "discussions": 39,
-  "stars": 2027
+  "discussions": 40,
+  "stars": 1993
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Infrastructure",
    "score": 96,
-   "grow": 25,
+   "grow": 26,
    "desc": "Qwen3-0.6B inference (12 KB), bare-metal bootable OS (22 KB), and from-scratch Mini-GPT trainer with live Braille TUI (32 KB) in 100% pure x86-64 NASM assembly. Zero C, zero libc, zero dependencies.",
    "meta": [
-    "★ 1,449",
-    "+984 in 24h",
+    "★ 1,460",
+    "+953 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-25T07:28:51Z",
@@ -41,8 +41,8 @@
    "grow": null,
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
    "meta": [
-    "★ 4,210",
-    "~790 in 24h",
+    "★ 4,215",
+    "~788 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-11-21T14:40:27Z",
@@ -104,7 +104,7 @@
    "cat": "Agents",
    "score": 89,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 512",
+   "desc": "Model on Hugging Face · open source · ♥ 513",
    "meta": [
     "59K downloads",
     "Released 2 days ago"
@@ -120,7 +120,7 @@
    "cat": "Tools",
    "score": 86,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 958",
+   "desc": "Model on Hugging Face · open source · ♥ 960",
    "meta": [
     "15K downloads",
     "Released 13 days ago"
@@ -155,9 +155,9 @@
    "grow": null,
    "desc": "Run 100 Claude Code or Codex sessions like 5",
    "meta": [
-    "▲ 350 votes",
-    "165 comments",
-    "Launched 14h ago"
+    "▲ 354 votes",
+    "166 comments",
+    "Launched 15h ago"
    ],
    "at": "2026-11-26T08:01:00Z",
    "breakout": null
@@ -168,7 +168,7 @@
    "src": "hf",
    "cat": "Tools",
    "score": 84,
-   "grow": 0,
+   "grow": null,
    "desc": "Model on Hugging Face · open weights · ♥ 1.2K",
    "meta": [
     "190K downloads",
@@ -229,8 +229,8 @@
    "name": "llm.asm",
    "url": "https://github.com/alesha-pro/llm.asm",
    "from": "GitHub",
-   "use": 984,
-   "useLabel": "+984 stars/day",
+   "use": 953,
+   "useLabel": "+953 stars/day",
    "usePct": 1,
    "talk": [
     {
@@ -378,10 +378,10 @@
  "github": [
   {
    "repo": "alesha-pro/llm.asm",
-   "stars": 1449,
-   "d24": 984,
+   "stars": 1460,
+   "d24": 953,
    "est": false,
-   "forks": 209,
+   "forks": 211,
    "contrib": null,
    "score": 96,
    "cat": "Infrastructure",
@@ -389,8 +389,8 @@
   },
   {
    "repo": "EL4CTEO/fast-anything",
-   "stars": 4210,
-   "d24": 790,
+   "stars": 4215,
+   "d24": 788,
    "est": true,
    "forks": 304,
    "contrib": null,
@@ -401,7 +401,7 @@
   {
    "repo": "qianyiai/KuroCat",
    "stars": 1333,
-   "d24": 253,
+   "d24": 252,
    "est": true,
    "forks": 190,
    "contrib": null,
@@ -420,7 +420,7 @@
    "grow": null,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 1489
+   "likes": 1490
   },
   {
    "name": "Inkling-2-Mini",
@@ -431,7 +431,7 @@
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 6231
+   "likes": 6234
   },
   {
    "name": "Inkling-2-Mini-Uncensored-GGUF",
@@ -454,7 +454,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Agents",
-   "likes": 512
+   "likes": 513
   },
   {
    "name": "voice-isolator",
@@ -465,7 +465,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Tools",
-   "likes": 958
+   "likes": 960
   },
   {
    "name": "Sulphur-3",
@@ -473,10 +473,10 @@
    "lic": "Open weights",
    "at": "2026-10-31T20:31:01.000Z",
    "dl": 189735,
-   "grow": 0,
+   "grow": null,
    "score": 84,
    "cat": "Tools",
-   "likes": 1208
+   "likes": 1210
   }
  ],
  "free": [
@@ -849,31 +849,31 @@
    "kind": "News"
   },
   {
-   "t": "Indian investors clock $353 million in overseas gains; Nvidia, Micron among most-traded US stocks: Vested",
-   "url": "https://economictimes.indiatimes.com/markets/stocks/news/indian-investors-clock-353-million-in-overseas-gains-nvidia-micron-among-most-traded-us-stocks-vested/articleshow/136187366.cms",
-   "at": "2026-11-26T10:22:00Z",
-   "src": "The Economic Times",
+   "t": "Mivja Brings Practical, AI-Integrated Digital Marketing Education to Learners Across India",
+   "url": "https://www.aninews.in/news/business/mivja-brings-practical-ai-integrated-digital-marketing-education-to-learners-across-india20261126162908/",
+   "at": "2026-11-26T10:59:08Z",
+   "src": "ANI (Asian News International)",
    "kind": "News"
   },
   {
-   "t": "Saviour or Devil, India Must Engage With AI: Industry, Government, and Global Experts at the Ahmedabad Dialogue Call for Impact Over Pilots",
-   "url": "https://www.tribuneindia.com/news/business/saviour-or-devil-india-must-engage-with-ai-industry-government-and-global-experts-at-the-ahmedabad-dialogue-call-for-impact-over-pilots-2-2/",
-   "at": "2026-11-26T10:15:29Z",
-   "src": "The Tribune",
+   "t": "Companies are setting up war rooms, flying to Seoul and searching eBay as AI drains the supply of memory chips",
+   "url": "https://timesofindia.indiatimes.com/technology/tech-news/companies-are-setting-up-war-rooms-flying-to-seoul-and-searching-ebay-as-ai-drains-the-supply-of-memory-chips/articleshow/136188351.cms",
+   "at": "2026-11-26T10:50:00Z",
+   "src": "Times of India",
    "kind": "News"
   },
   {
-   "t": "HP launches OmniBook Ultra 16 with NVIDIA RTX Spark in India at Rs 5,49,999",
-   "url": "https://economictimes.indiatimes.com/magazines/panache/hp-launches-omnibook-ultra-16-with-nvidia-rtx-spark-in-india-at-rs-549999/articleshow/136186747.cms",
-   "at": "2026-11-26T10:05:00Z",
-   "src": "The Economic Times",
+   "t": "Anthropic CEO rejects idea of ‘surrendering human free will’ to AI",
+   "url": "https://www.nation.com.pk/26-Nov-2026/anthropic-ceo-rejects-idea-surrendering-human-free-will-ai",
+   "at": "2026-11-26T10:34:59Z",
+   "src": "The Nation",
    "kind": "News"
   },
   {
-   "t": "Sam Altman needs a physical AI device because Apple won't give OpenAI data for ChatGPT-Tony Fadell",
-   "url": "https://fortune.com/2026/11/26/sam-altman-needs-jony-ive-to-create-a-physical-ai-device-because-apple-will-never-give-openai-the-real-world-data-chatgpt-needs-tony-fadell-says/",
-   "at": "2026-11-26T10:03:07Z",
-   "src": "Fortune",
+   "t": "IT sector employees seek national AI layoff policy as automation threatens jobs; unions and experts want NASSCOM and government to set minimum severance, advance notice, redeployment and reskilling ru",
+   "url": "https://timesofindia.indiatimes.com/business/india-business/it-sector-employees-seek-national-ai-layoff-policy-as-automation-threatens-jobs-unions-and-experts-want-nasscom-and-government-to-set-minimum-severance-advance-notice-redeployment-and-reskilling-rules-for-employees-who-lose-work/articleshow/136185743.cms",
+   "at": "2026-11-26T10:31:00Z",
+   "src": "Times of India",
    "kind": "News"
   }
  ],
@@ -883,54 +883,54 @@
    "t": "Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad",
    "url": "https://news.ycombinator.com/item?id=50659841",
    "link": "https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/",
-   "up": 102,
-   "com": 16,
+   "up": 148,
+   "com": 22,
    "at": "2026-11-26T21:08:05.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Tracking Diseases Cured by AI",
-   "url": "https://news.ycombinator.com/item?id=50657307",
-   "link": "https://diseasescuredbyai.com/",
-   "up": 290,
-   "com": 176,
-   "at": "2026-11-26T17:16:41.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "AMD-specific fork of llama.cpp",
-   "url": "https://news.ycombinator.com/item?id=50657265",
-   "link": "https://devnull.land/amd-specific-llama-cpp",
-   "up": 236,
-   "com": 54,
-   "at": "2026-11-26T17:11:29.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Show HN: Fuck_data_brokers.py",
-   "url": "https://news.ycombinator.com/item?id=50658191",
-   "link": "https://github.com/gary23w/f-ck_data_brokers",
-   "up": 165,
-   "com": 27,
-   "at": "2026-11-26T18:37:21.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "YouTube Ad Punisher – Auto-reloads YouTube pages when an ad plays",
-   "url": "https://news.ycombinator.com/item?id=50657530",
-   "link": "https://github.com/antonpictures/youtube-punisher",
-   "up": 182,
-   "com": 255,
-   "at": "2026-11-26T17:36:47.000Z"
   },
   {
    "src": "Hacker News",
    "t": "AI made self-hosting fun again",
    "url": "https://news.ycombinator.com/item?id=50660180",
    "link": "https://janlukas.blog/posts/ai-self-hosting",
-   "up": 37,
-   "com": 23,
+   "up": 80,
+   "com": 54,
    "at": "2026-11-26T21:47:45.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Tracking Diseases Cured by AI",
+   "url": "https://news.ycombinator.com/item?id=50657307",
+   "link": "https://diseasescuredbyai.com/",
+   "up": 292,
+   "com": 176,
+   "at": "2026-11-26T17:16:41.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Show HN: Fuck_data_brokers.py",
+   "url": "https://news.ycombinator.com/item?id=50658191",
+   "link": "https://github.com/gary23w/f-ck_data_brokers",
+   "up": 188,
+   "com": 33,
+   "at": "2026-11-26T18:37:21.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "AMD-specific fork of llama.cpp",
+   "url": "https://news.ycombinator.com/item?id=50657265",
+   "link": "https://devnull.land/amd-specific-llama-cpp",
+   "up": 247,
+   "com": 58,
+   "at": "2026-11-26T17:11:29.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "YouTube Ad Punisher – Auto-reloads YouTube pages when an ad plays",
+   "url": "https://news.ycombinator.com/item?id=50657530",
+   "link": "https://github.com/antonpictures/youtube-punisher",
+   "up": 200,
+   "com": 284,
+   "at": "2026-11-26T17:36:47.000Z"
   }
  ]
 }
