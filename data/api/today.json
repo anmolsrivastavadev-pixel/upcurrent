@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-26T16:01:05.347Z"
+  "updated": "2026-11-26T16:30:54.770Z"
  },
  "pulse": {
   "trending": 75,
   "accelerating": 0,
   "newModels": 14,
-  "discussions": 32,
-  "stars": 1671
+  "discussions": 33,
+  "stars": 1655
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "Qwen3-0.6B inference (12 KB), bare-metal bootable OS (22 KB), and from-scratch Mini-GPT trainer with live Braille TUI (32 KB) in 100% pure x86-64 NASM assembly. Zero C, zero libc, zero dependencies.",
    "meta": [
-    "★ 1,183",
-    "~873 in 24h",
+    "★ 1,208",
+    "~878 in 24h",
     "Created yesterday"
    ],
    "at": "2026-11-25T07:28:51Z",
@@ -41,8 +41,8 @@
    "grow": 5,
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
    "meta": [
-    "★ 4,176",
-    "+323 in 24h",
+    "★ 4,179",
+    "+317 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-11-21T14:40:27Z",
@@ -88,7 +88,7 @@
    "cat": "Agents",
    "score": 90,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 460",
+   "desc": "Model on Hugging Face · open source · ♥ 465",
    "meta": [
     "59K downloads",
     "Released 2 days ago"
@@ -120,7 +120,7 @@
    "cat": "Tools",
    "score": 87,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 932",
+   "desc": "Model on Hugging Face · open source · ♥ 935",
    "meta": [
     "15K downloads",
     "Released 13 days ago"
@@ -207,8 +207,8 @@
    "name": "llm.asm",
    "url": "https://github.com/alesha-pro/llm.asm",
    "from": "GitHub",
-   "use": 873,
-   "useLabel": "~873 stars/day",
+   "use": 878,
+   "useLabel": "~878 stars/day",
    "usePct": 1,
    "talk": [
     {
@@ -356,10 +356,10 @@
  "github": [
   {
    "repo": "alesha-pro/llm.asm",
-   "stars": 1183,
-   "d24": 873,
+   "stars": 1208,
+   "d24": 878,
    "est": true,
-   "forks": 172,
+   "forks": 176,
    "contrib": null,
    "score": 96,
    "cat": "Infrastructure",
@@ -367,8 +367,8 @@
   },
   {
    "repo": "qianyiai/kurocat",
-   "stars": 1310,
-   "d24": 475,
+   "stars": 1313,
+   "d24": 460,
    "est": false,
    "forks": 187,
    "contrib": null,
@@ -378,8 +378,8 @@
   },
   {
    "repo": "EL4CTEO/fast-anything",
-   "stars": 4176,
-   "d24": 323,
+   "stars": 4179,
+   "d24": 317,
    "est": false,
    "forks": 301,
    "contrib": null,
@@ -398,7 +398,7 @@
    "grow": 0,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 1434
+   "likes": 1435
   },
   {
    "name": "Inkling-2-Mini",
@@ -409,7 +409,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 6165
+   "likes": 6169
   },
   {
    "name": "Ternary-Bonsai-2.5-27B-GGUF",
@@ -421,7 +421,7 @@
    "grow": null,
    "score": 90,
    "cat": "Agents",
-   "likes": 460
+   "likes": 465
   },
   {
    "name": "Inkling-2-Mini-Uncensored-GGUF",
@@ -443,7 +443,7 @@
    "grow": null,
    "score": 87,
    "cat": "Tools",
-   "likes": 932
+   "likes": 935
   },
   {
    "name": "Sulphur-3",
@@ -454,7 +454,7 @@
    "grow": 0,
    "score": 84,
    "cat": "Tools",
-   "likes": 1178
+   "likes": 1179
   }
  ],
  "free": [
@@ -827,20 +827,6 @@
    "kind": "News"
   },
   {
-   "t": "Q&A with Signal's Moxie Marlinspike on AI and cryptography, his privacy-focused AI chat service Confer, surveilling AI models rather than users, and more",
-   "url": "https://www.techmeme.com/261126/p6#a261126p6",
-   "at": "2026-11-26T08:55:02.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Claude 6.0 LEAKED?! AI Quantum Scares, HUGE Gemini Breakthrough, Gemini Bots & MORE! AI NEWS",
-   "url": "https://www.youtube.com/watch?v=rsBYH09bR30",
-   "at": "2026-11-26T07:48:21Z",
-   "src": "WorldofAI",
-   "kind": "Video"
-  },
-  {
    "t": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
    "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
    "at": "2026-11-26T05:05:36.000Z",
@@ -848,10 +834,24 @@
    "kind": "Lab blog"
   },
   {
-   "t": "AI democracy: Dario Amodei hits back at other AI CEOs, says humans must not surrender free will to AI",
-   "url": "https://www.indiatoday.in/technology/news/story/ai-democracy-dario-amodei-hits-back-at-other-ai-ceos-says-humans-must-not-surrender-free-will-to-ai-3047107-2026-11-26",
-   "at": "2026-11-26T03:55:46Z",
-   "src": "India Today",
+   "t": "AI governance must remain democratic, humans should not surrender free will to systems: Anthropic CEO Dario Amodei",
+   "url": "https://www.devdiscourse.com/article/business/4012354-ai-governance-must-remain-democratic-humans-should-not-surrender-free-will-to-systems-anthropic-ceo-dario-amodei",
+   "at": "2026-11-26T04:23:29Z",
+   "src": "Devdiscourse",
+   "kind": "News"
+  },
+  {
+   "t": "SoftBank credit risk tops 500 basis points as AI worries mount",
+   "url": "https://www.cnbctv18.com/market/softbank-credit-risk-tops-500-basis-points-as-ai-worries-mount-20041733.htm",
+   "at": "2026-11-26T04:19:27Z",
+   "src": "CNBC TV18",
+   "kind": "News"
+  },
+  {
+   "t": "based firms with Chinese owners buying advanced Nvidia's most advanced chips",
+   "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/us-based-firms-with-chinese-owners-buying-advanced-nvidias-most-advanced-chips/articleshow/136178351.cms",
+   "at": "2026-11-26T04:17:20Z",
+   "src": "The Economic Times",
    "kind": "News"
   }
  ],
@@ -861,8 +861,8 @@
    "t": "Intel One Mono font",
    "url": "https://news.ycombinator.com/item?id=50653667",
    "link": "https://github.com/intel/intel-one-mono",
-   "up": 285,
-   "com": 171,
+   "up": 305,
+   "com": 183,
    "at": "2026-11-26T10:11:01.000Z"
   },
   {
@@ -870,34 +870,34 @@
    "t": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
    "url": "https://news.ycombinator.com/item?id=50651117",
    "link": "https://twitter.com/thsottiaux/status/2125784147889393806",
-   "up": 400,
-   "com": 222,
+   "up": 414,
+   "com": 229,
    "at": "2026-11-26T03:36:58.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Much shorter version of GRH Lean verification from Anthropic",
-   "url": "https://news.ycombinator.com/item?id=50648050",
-   "link": "https://github.com/lsernau/grh-lean",
-   "up": 506,
-   "com": 318,
-   "at": "2026-11-25T21:48:10.000Z"
   },
   {
    "src": "Hacker News",
    "t": "The New York Times warns photographers not to update Photoshop over AI features",
    "url": "https://news.ycombinator.com/item?id=50647673",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
-   "up": 516,
-   "com": 435,
+   "up": 529,
+   "com": 445,
    "at": "2026-11-25T21:18:02.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Much shorter version of GRH Lean verification from Anthropic",
+   "url": "https://news.ycombinator.com/item?id=50648050",
+   "link": "https://github.com/lsernau/grh-lean",
+   "up": 508,
+   "com": 322,
+   "at": "2026-11-25T21:48:10.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Minipg: PostgreSQL as a Single Executable",
    "url": "https://news.ycombinator.com/item?id=50650892",
    "link": "https://progrium.github.io/minipg/",
-   "up": 218,
+   "up": 230,
    "com": 33,
    "at": "2026-11-26T03:00:48.000Z"
   },
@@ -906,8 +906,8 @@
    "t": "Moat: Your OpenRouter Replacement",
    "url": "https://news.ycombinator.com/item?id=50652184",
    "link": "https://commandcode.ai/moat",
-   "up": 150,
-   "com": 97,
+   "up": 159,
+   "com": 101,
    "at": "2026-11-26T06:32:48.000Z"
   }
  ]
