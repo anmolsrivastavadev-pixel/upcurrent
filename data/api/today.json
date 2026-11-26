@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-26T17:30:52.559Z"
+  "updated": "2026-11-26T18:01:03.294Z"
  },
  "pulse": {
   "trending": 75,
   "accelerating": 0,
   "newModels": 14,
   "discussions": 33,
-  "stars": 1626
+  "stars": 1448
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "Qwen3-0.6B inference (12 KB), bare-metal bootable OS (22 KB), and from-scratch Mini-GPT trainer with live Braille TUI (32 KB) in 100% pure x86-64 NASM assembly. Zero C, zero libc, zero dependencies.",
    "meta": [
-    "★ 1,261",
-    "~889 in 24h",
+    "★ 1,276",
+    "~887 in 24h",
     "Created yesterday"
    ],
    "at": "2026-11-25T07:28:51Z",
@@ -41,8 +41,8 @@
    "grow": 5,
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
    "meta": [
-    "★ 4,186",
-    "+307 in 24h",
+    "★ 4,189",
+    "+302 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-11-21T14:40:27Z",
@@ -88,7 +88,7 @@
    "cat": "Agents",
    "score": 90,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 470",
+   "desc": "Model on Hugging Face · open source · ♥ 472",
    "meta": [
     "59K downloads",
     "Released 2 days ago"
@@ -103,8 +103,8 @@
    "src": "hf",
    "cat": "Infrastructure",
    "score": 89,
-   "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 887",
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 890",
    "meta": [
     "762K downloads",
     "Released 6 days ago"
@@ -120,7 +120,7 @@
    "cat": "Tools",
    "score": 87,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 935",
+   "desc": "Model on Hugging Face · open source · ♥ 937",
    "meta": [
     "15K downloads",
     "Released 13 days ago"
@@ -207,8 +207,8 @@
    "name": "llm.asm",
    "url": "https://github.com/alesha-pro/llm.asm",
    "from": "GitHub",
-   "use": 889,
-   "useLabel": "~889 stars/day",
+   "use": 887,
+   "useLabel": "~887 stars/day",
    "usePct": 1,
    "talk": [
     {
@@ -356,36 +356,36 @@
  "github": [
   {
    "repo": "alesha-pro/llm.asm",
-   "stars": 1261,
-   "d24": 889,
+   "stars": 1276,
+   "d24": 887,
    "est": true,
-   "forks": 183,
+   "forks": 184,
    "contrib": null,
    "score": 96,
    "cat": "Infrastructure",
    "desc": "Qwen3-0.6B inference (12 KB), bare-metal bootable OS (22 KB), and from-scratch Mini-GPT trainer with live Braille TUI (32 KB) in 100% pure x86-64 NASM assembly. Zero C, zero libc, zero dependencies."
   },
   {
-   "repo": "qianyiai/kurocat",
-   "stars": 1318,
-   "d24": 430,
+   "repo": "EL4CTEO/fast-anything",
+   "stars": 4189,
+   "d24": 302,
    "est": false,
+   "forks": 303,
+   "contrib": null,
+   "score": 92,
+   "cat": "Agents",
+   "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same."
+  },
+  {
+   "repo": "qianyiai/KuroCat",
+   "stars": 1321,
+   "d24": 259,
+   "est": true,
    "forks": 187,
    "contrib": null,
    "score": 81,
    "cat": "Agents",
    "desc": "KuroCat — Free open-source 3D/2D desktop typing cat & AI coding companion (Bongo Cat alternative · Tauri v2 + Rust + MCP · Claude/Codex/DeepSeek/OBS · Win/Mac/Linux/Android)｜开源3D桌面打字小黑猫与AI伴侣"
-  },
-  {
-   "repo": "EL4CTEO/fast-anything",
-   "stars": 4186,
-   "d24": 307,
-   "est": false,
-   "forks": 301,
-   "contrib": null,
-   "score": 92,
-   "cat": "Agents",
-   "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same."
   }
  ],
  "models": [
@@ -409,7 +409,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 6182
+   "likes": 6185
   },
   {
    "name": "Ternary-Bonsai-2.5-27B-GGUF",
@@ -421,7 +421,7 @@
    "grow": null,
    "score": 90,
    "cat": "Agents",
-   "likes": 470
+   "likes": 472
   },
   {
    "name": "Inkling-2-Mini-Uncensored-GGUF",
@@ -429,10 +429,10 @@
    "lic": "Open source",
    "at": "2026-11-20T20:42:23.000Z",
    "dl": 762491,
-   "grow": 0,
+   "grow": null,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 887
+   "likes": 890
   },
   {
    "name": "voice-isolator",
@@ -443,7 +443,7 @@
    "grow": null,
    "score": 87,
    "cat": "Tools",
-   "likes": 935
+   "likes": 937
   },
   {
    "name": "Sulphur-3",
@@ -454,7 +454,7 @@
    "grow": 0,
    "score": 84,
    "cat": "Tools",
-   "likes": 1182
+   "likes": 1183
   }
  ],
  "free": [
@@ -835,52 +835,70 @@
   },
   {
    "t": "Asian shares rebound led by AI stocks after Wall Street pares sharp losses",
-   "url": "https://wtop.com/world/2026/11/asian-shares-rebound-led-by-ai-stocks-after-wall-street-pares-sharp-losses/",
-   "at": "2026-11-26T05:26:43Z",
-   "src": "WTOP",
+   "url": "https://www.breitbart.com/news/asian-shares-rebound-led-by-ai-stocks-after-wall-street-pares-sharp-losses/",
+   "at": "2026-11-26T06:00:52Z",
+   "src": "Breitbart News Network",
    "kind": "News"
   },
   {
-   "t": "BP to transfer 3,000 employees to Wipro in India, Hungary and Malaysia",
-   "url": "https://www.indiatoday.in/jobs/story/bp-to-transfer-3000-employees-to-wipro-in-india-hungary-and-malaysia-educ-3047163-2026-11-26",
-   "at": "2026-11-26T05:19:43Z",
-   "src": "India Today",
+   "t": "AI could threaten Bitcoin’s cryptography before quantum computers do",
+   "url": "https://www.europesays.com/3401588/",
+   "at": "2026-11-26T05:58:07Z",
+   "src": "EUROPE SAYS",
    "kind": "News"
   },
   {
-   "t": "Rakesh Ranjan to take charge as Uber India, South Asia prez from Jan 2027",
-   "url": "https://www.business-standard.com/companies/news/uber-rakesh-ranjan-president-india-south-asia-january-2027-126112600197_1.html",
-   "at": "2026-11-26T05:18:29Z",
-   "src": "Business Standard",
+   "t": "As AI Enters the Future of Warfare, Who Takes Responsibility for Decisions That Cost Human Lives?",
+   "url": "https://techbullion.com/as-ai-enters-the-future-of-warfare-who-takes-responsibility-for-decisions-that-cost-human-lives/",
+   "at": "2026-11-26T05:51:04Z",
+   "src": "TechBullion",
    "kind": "News"
   }
  ],
  "discussions": [
   {
    "src": "Hacker News",
+   "t": "NP_R ≠ PAR_R",
+   "url": "https://news.ycombinator.com/item?id=50657059",
+   "link": "https://github.com/samueleverett01/bss-permanent-separations",
+   "up": 73,
+   "com": 57,
+   "at": "2026-11-26T16:50:55.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "AMD Specific Patches for Llama.cpp",
+   "url": "https://news.ycombinator.com/item?id=50657265",
+   "link": "https://devnull.land/amd-specific-llama-cpp",
+   "up": 56,
+   "com": 11,
+   "at": "2026-11-26T17:11:29.000Z"
+  },
+  {
+   "src": "Hacker News",
    "t": "Intel One Mono font",
    "url": "https://news.ycombinator.com/item?id=50653667",
    "link": "https://github.com/intel/intel-one-mono",
-   "up": 339,
-   "com": 196,
+   "up": 356,
+   "com": 200,
    "at": "2026-11-26T10:11:01.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "NP_R ≠ PAR_R",
-   "url": "https://news.ycombinator.com/item?id=50657059",
-   "link": "https://github.com/samueleverett01/bss-permanent-separations",
-   "up": 34,
-   "com": 12,
-   "at": "2026-11-26T16:50:55.000Z"
+   "t": "Tracking Diseases Cured by AI",
+   "url": "https://news.ycombinator.com/item?id=50657307",
+   "link": "https://diseasescuredbyai.com/",
+   "up": 40,
+   "com": 8,
+   "at": "2026-11-26T17:16:41.000Z"
   },
   {
    "src": "Hacker News",
    "t": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
    "url": "https://news.ycombinator.com/item?id=50651117",
    "link": "https://twitter.com/thsottiaux/status/2125784147889393806",
-   "up": 424,
-   "com": 239,
+   "up": 426,
+   "com": 243,
    "at": "2026-11-26T03:36:58.000Z"
   },
   {
@@ -888,27 +906,9 @@
    "t": "The New York Times warns photographers not to update Photoshop over AI features",
    "url": "https://news.ycombinator.com/item?id=50647673",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
-   "up": 554,
-   "com": 465,
+   "up": 567,
+   "com": 470,
    "at": "2026-11-25T21:18:02.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Much shorter version of GRH Lean verification from Anthropic",
-   "url": "https://news.ycombinator.com/item?id=50648050",
-   "link": "https://github.com/lsernau/grh-lean",
-   "up": 520,
-   "com": 333,
-   "at": "2026-11-25T21:48:10.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Ask HN: Any courses/products by indie makers worth getting today?",
-   "url": "https://news.ycombinator.com/item?id=50656763",
-   "link": "",
-   "up": 23,
-   "com": 8,
-   "at": "2026-11-26T16:16:41.000Z"
   }
  ]
 }
