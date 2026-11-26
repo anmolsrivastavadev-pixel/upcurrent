@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-26T07:30:58.512Z"
+  "updated": "2026-11-26T08:01:08.510Z"
  },
  "pulse": {
   "trending": 74,
   "accelerating": 0,
   "newModels": 12,
-  "discussions": 34,
-  "stars": 1496
+  "discussions": 33,
+  "stars": 1493
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
    "meta": [
-    "★ 4,058",
-    "~863 in 24h",
+    "★ 4,060",
+    "~860 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-11-21T14:40:27Z",
@@ -71,7 +71,7 @@
    "cat": "Agents",
    "score": 90,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 385",
+   "desc": "Model on Hugging Face · open source · ♥ 389",
    "meta": [
     "59K downloads",
     "Released 2 days ago"
@@ -106,7 +106,7 @@
    "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
    "meta": [
     "★ 2,645",
-    "~384 in 24h",
+    "~382 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-11-19T10:00:43Z",
@@ -120,7 +120,7 @@
    "cat": "Tools",
    "score": 87,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 911",
+   "desc": "Model on Hugging Face · open source · ♥ 913",
    "meta": [
     "15K downloads",
     "Released 12 days ago"
@@ -139,7 +139,7 @@
    "grow": null,
    "desc": "Image editing models can follow a wide range of instructions, but video editing models still lag behind, limited in part by the difficulty of collecting paired source and edited videos.",
    "meta": [
-    "▲ 22 upvotes",
+    "▲ 27 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-11-24T19:00:00.000Z",
@@ -155,9 +155,9 @@
    "grow": null,
    "desc": "Build an always-on AI team with shared memory",
    "meta": [
-    "▲ 317 votes",
-    "68 comments",
-    "Launched 23h ago"
+    "▲ 321 votes",
+    "69 comments",
+    "Launched yesterday"
    ],
    "at": "2026-11-25T08:01:00Z",
    "breakout": null
@@ -202,8 +202,8 @@
    "name": "fast-anything",
    "url": "https://github.com/EL4CTEO/fast-anything",
    "from": "GitHub",
-   "use": 863,
-   "useLabel": "~863 stars/day",
+   "use": 860,
+   "useLabel": "~860 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -317,8 +317,8 @@
  "github": [
   {
    "repo": "EL4CTEO/fast-anything",
-   "stars": 4058,
-   "d24": 863,
+   "stars": 4060,
+   "d24": 860,
    "est": true,
    "forks": 292,
    "contrib": null,
@@ -329,7 +329,7 @@
   {
    "repo": "iamajmeena/neonclipping",
    "stars": 2645,
-   "d24": 384,
+   "d24": 382,
    "est": true,
    "forks": 167,
    "contrib": null,
@@ -339,8 +339,8 @@
   },
   {
    "repo": "qianyiai/kurocat",
-   "stars": 1157,
-   "d24": 249,
+   "stars": 1172,
+   "d24": 251,
    "est": true,
    "forks": 172,
    "contrib": null,
@@ -370,7 +370,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 6090
+   "likes": 6094
   },
   {
    "name": "Ternary-Bonsai-2.5-27B-GGUF",
@@ -382,7 +382,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Agents",
-   "likes": 385
+   "likes": 389
   },
   {
    "name": "Inkling-2-Mini-Uncensored-GGUF",
@@ -404,7 +404,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Tools",
-   "likes": 911
+   "likes": 913
   },
   {
    "name": "Sulphur-3",
@@ -415,7 +415,7 @@
    "grow": null,
    "score": 84,
    "cat": "Tools",
-   "likes": 1125
+   "likes": 1127
   }
  ],
  "free": [
@@ -774,6 +774,13 @@
    "kind": "News"
   },
   {
+   "t": "Stocks slide as inflation, Nvidia losses fuel Wall Street sell",
+   "url": "https://www.breitbart.com/news/stocks-slide-as-inflation-nvidia-losses-fuel-wall-street-sell-off/",
+   "at": "2026-11-25T20:00:27Z",
+   "src": "Breitbart News Network",
+   "kind": "News"
+  },
+  {
    "t": "OpenAI is testing a way to shield business prompts while its models run",
    "url": "https://thenextweb.com/news/openai-private-inference-testing-customers",
    "at": "2026-11-25T19:27:43Z",
@@ -807,13 +814,6 @@
    "at": "2026-11-25T18:43:57Z",
    "src": "Livemint",
    "kind": "News"
-  },
-  {
-   "t": "The new Quebec college of physicians president wants to reform the code of ethics",
-   "url": "https://globalnews.ca/news/12165964/nathalie-saad-quebec-code-of-ethics/",
-   "at": "2026-11-25T18:29:23Z",
-   "src": "Global News",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -822,8 +822,8 @@
    "t": "Much shorter version of GRH Lean verification from Anthropic",
    "url": "https://news.ycombinator.com/item?id=50648050",
    "link": "https://github.com/lsernau/grh-lean",
-   "up": 420,
-   "com": 209,
+   "up": 425,
+   "com": 217,
    "at": "2026-11-25T21:48:10.000Z"
   },
   {
@@ -831,8 +831,8 @@
    "t": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
    "url": "https://news.ycombinator.com/item?id=50651117",
    "link": "https://twitter.com/thsottiaux/status/2125784147889393806",
-   "up": 168,
-   "com": 86,
+   "up": 183,
+   "com": 91,
    "at": "2026-11-26T03:36:58.000Z"
   },
   {
@@ -840,8 +840,8 @@
    "t": "The New York Times warns photographers not to update Photoshop over AI features",
    "url": "https://news.ycombinator.com/item?id=50647673",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
-   "up": 326,
-   "com": 279,
+   "up": 337,
+   "com": 288,
    "at": "2026-11-25T21:18:02.000Z"
   },
   {
@@ -849,8 +849,8 @@
    "t": "Rumors swirling that labs might have cracked Factoring in P",
    "url": "https://news.ycombinator.com/item?id=50643065",
    "link": "https://www.reddit.com/r/singularity/comments/1y59ef1/rumor_that_openai_or_anthropic_found_a_way_to/",
-   "up": 485,
-   "com": 357,
+   "up": 486,
+   "com": 356,
    "at": "2026-11-25T15:08:44.000Z"
   },
   {
@@ -858,8 +858,8 @@
    "t": "Google releases Cogentic papers on integer factorization, discrete logs and more",
    "url": "https://news.ycombinator.com/item?id=50642086",
    "link": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
-   "up": 484,
-   "com": 348,
+   "up": 490,
+   "com": 350,
    "at": "2026-11-25T13:33:07.000Z"
   },
   {
@@ -867,8 +867,8 @@
    "t": "Minipg: PostgreSQL as a Single Executable",
    "url": "https://news.ycombinator.com/item?id=50650892",
    "link": "https://progrium.github.io/minipg/",
-   "up": 76,
-   "com": 13,
+   "up": 95,
+   "com": 14,
    "at": "2026-11-26T03:00:48.000Z"
   }
  ]
