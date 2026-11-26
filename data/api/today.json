@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-26T19:01:04.645Z"
+  "updated": "2026-11-26T19:30:51.358Z"
  },
  "pulse": {
   "trending": 75,
   "accelerating": 0,
   "newModels": 14,
-  "discussions": 36,
-  "stars": 1437
+  "discussions": 37,
+  "stars": 1431
  },
  "rising": [
   {
@@ -24,9 +24,9 @@
    "grow": null,
    "desc": "Qwen3-0.6B inference (12 KB), bare-metal bootable OS (22 KB), and from-scratch Mini-GPT trainer with live Braille TUI (32 KB) in 100% pure x86-64 NASM assembly. Zero C, zero libc, zero dependencies.",
    "meta": [
-    "★ 1,309",
-    "~884 in 24h",
-    "Created yesterday"
+    "★ 1,324",
+    "~882 in 24h",
+    "Created 2 days ago"
    ],
    "at": "2026-11-25T07:28:51Z",
    "breakout": null,
@@ -41,8 +41,8 @@
    "grow": 5,
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
    "meta": [
-    "★ 4,197",
-    "+295 in 24h",
+    "★ 4,201",
+    "+292 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-11-21T14:40:27Z",
@@ -88,7 +88,7 @@
    "cat": "Agents",
    "score": 90,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 476",
+   "desc": "Model on Hugging Face · open source · ♥ 478",
    "meta": [
     "59K downloads",
     "Released 2 days ago"
@@ -104,7 +104,7 @@
    "cat": "Infrastructure",
    "score": 89,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 891",
+   "desc": "Model on Hugging Face · open source · ♥ 892",
    "meta": [
     "762K downloads",
     "Released 6 days ago"
@@ -207,8 +207,8 @@
    "name": "llm.asm",
    "url": "https://github.com/alesha-pro/llm.asm",
    "from": "GitHub",
-   "use": 884,
-   "useLabel": "~884 stars/day",
+   "use": 882,
+   "useLabel": "~882 stars/day",
    "usePct": 1,
    "talk": [
     {
@@ -356,10 +356,10 @@
  "github": [
   {
    "repo": "alesha-pro/llm.asm",
-   "stars": 1309,
-   "d24": 884,
+   "stars": 1324,
+   "d24": 882,
    "est": true,
-   "forks": 188,
+   "forks": 191,
    "contrib": null,
    "score": 96,
    "cat": "Infrastructure",
@@ -367,8 +367,8 @@
   },
   {
    "repo": "EL4CTEO/fast-anything",
-   "stars": 4197,
-   "d24": 295,
+   "stars": 4201,
+   "d24": 292,
    "est": false,
    "forks": 304,
    "contrib": null,
@@ -378,8 +378,8 @@
   },
   {
    "repo": "qianyiai/KuroCat",
-   "stars": 1325,
-   "d24": 258,
+   "stars": 1327,
+   "d24": 257,
    "est": true,
    "forks": 189,
    "contrib": null,
@@ -398,7 +398,7 @@
    "grow": null,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 1449
+   "likes": 1450
   },
   {
    "name": "Inkling-2-Mini",
@@ -409,7 +409,7 @@
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 6190
+   "likes": 6192
   },
   {
    "name": "Ternary-Bonsai-2.5-27B-GGUF",
@@ -421,7 +421,7 @@
    "grow": null,
    "score": 90,
    "cat": "Agents",
-   "likes": 476
+   "likes": 478
   },
   {
    "name": "Inkling-2-Mini-Uncensored-GGUF",
@@ -432,7 +432,7 @@
    "grow": null,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 891
+   "likes": 892
   },
   {
    "name": "voice-isolator",
@@ -454,7 +454,7 @@
    "grow": 0,
    "score": 84,
    "cat": "Tools",
-   "likes": 1185
+   "likes": 1188
   }
  ],
  "free": [
@@ -827,31 +827,31 @@
    "kind": "News"
   },
   {
-   "t": "Pull AI toys from sale until they are proven safe, campaigners demand",
-   "url": "https://www.thestar.com.my/tech/tech-news/2026/11/26/pull-ai-toys-from-sale-until-they-are-proven-safe-campaigners-demand",
-   "at": "2026-11-26T07:00:00Z",
-   "src": "The Star",
+   "t": "Ex-OpenAI researcher says Anthropic is hyperstitioning AI race, Sam Altman reacts",
+   "url": "https://www.indiatoday.in/technology/news/story/ex-openai-researcher-says-anthropic-is-hyperstitioning-ai-race-sam-altman-reacts-3047271-2026-11-26",
+   "at": "2026-11-26T07:30:17Z",
+   "src": "India Today",
    "kind": "News"
   },
   {
-   "t": "OpenAI Tests Private Inference: New Feature To Protect Your Data While ChatGPT Processes It",
-   "url": "https://www.timesnownews.com/technology-science/openai-tests-private-inference-new-feature-to-protect-your-data-while-chatgpt-processes-it-article-156568611",
-   "at": "2026-11-26T06:44:10Z",
-   "src": "Times Now",
+   "t": "A BITS Pilani alumnus from UP quit his high-paying Microsoft job to build a Bengaluru-based AI startup, missing Rs 15 lakh voluntary exit offer by just a month; his venture joins OpenAI's partner netw",
+   "url": "https://timesofindia.indiatimes.com/city/bengaluru/a-bits-pilani-alumnus-from-up-quit-his-high-paying-microsoft-job-to-build-a-bengaluru-based-ai-startup-missing-rs-15-lakh-voluntary-exit-offer-by-just-a-month-his-venture-joins-openais-partner-network/articleshow/136182490.cms",
+   "at": "2026-11-26T07:23:00Z",
+   "src": "Times of India",
    "kind": "News"
   },
   {
-   "t": "Dario Amodei defends human free will against AI rule, Elon Musk responds with one word",
-   "url": "https://www.thenews.com.pk/latest/1425178-dario-amodei-defends-human-free-will-against-ai-rule-elon-musk-responds-with-one-word",
-   "at": "2026-11-26T06:43:00Z",
-   "src": "The News International",
+   "t": "Sinulog 2027 logo changed after public backlash",
+   "url": "https://www.manilatimes.net/2026/11/26/regions/sinulog-2027-logo-changed-after-public-backlash/2478481",
+   "at": "2026-11-26T07:18:00Z",
+   "src": "The Manila Times",
    "kind": "News"
   },
   {
-   "t": "Banks Are Showcasing AI, but Where Is the Proof It Actually Works?",
-   "url": "https://www.devdiscourse.com/article/technology/4009982-banks-are-showcasing-ai-but-where-is-the-proof-it-actually-works",
-   "at": "2026-11-26T06:11:50Z",
-   "src": "Devdiscourse",
+   "t": "Karnataka to invest ₹700 cr in multi-skill centres; aims to train 5 lakh youth: Sharan Prakash Patil",
+   "url": "https://www.hindustantimes.com/education/news/karnataka-to-invest-rs-700-cr-in-multi-skill-centres-aims-to-train-5-lakh-youth-sharan-prakash-patil-101795676883569.html",
+   "at": "2026-11-26T07:11:40Z",
+   "src": "Hindustan Times",
    "kind": "News"
   }
  ],
@@ -861,8 +861,8 @@
    "t": "Tracking Diseases Cured by AI",
    "url": "https://news.ycombinator.com/item?id=50657307",
    "link": "https://diseasescuredbyai.com/",
-   "up": 235,
-   "com": 123,
+   "up": 274,
+   "com": 149,
    "at": "2026-11-26T17:16:41.000Z"
   },
   {
@@ -870,45 +870,45 @@
    "t": "AMD Specific Patches for Llama.cpp",
    "url": "https://news.ycombinator.com/item?id=50657265",
    "link": "https://devnull.land/amd-specific-llama-cpp",
-   "up": 93,
-   "com": 28,
+   "up": 119,
+   "com": 34,
    "at": "2026-11-26T17:11:29.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "NP_R ≠ PAR_R",
-   "url": "https://news.ycombinator.com/item?id=50657059",
-   "link": "https://github.com/samueleverett01/bss-permanent-separations",
-   "up": 95,
-   "com": 90,
-   "at": "2026-11-26T16:50:55.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Intel One Mono font (2023)",
    "url": "https://news.ycombinator.com/item?id=50653667",
    "link": "https://github.com/intel/intel-one-mono",
-   "up": 383,
-   "com": 215,
+   "up": 388,
+   "com": 220,
    "at": "2026-11-26T10:11:01.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "NP_R ≠ PAR_R",
+   "url": "https://news.ycombinator.com/item?id=50657059",
+   "link": "https://github.com/samueleverett01/bss-permanent-separations",
+   "up": 105,
+   "com": 107,
+   "at": "2026-11-26T16:50:55.000Z"
   },
   {
    "src": "Hacker News",
    "t": "YouTube Ad Punisher – Bypass anti-adblock",
    "url": "https://news.ycombinator.com/item?id=50657530",
    "link": "https://github.com/antonpictures/youtube-punisher",
-   "up": 43,
-   "com": 55,
+   "up": 56,
+   "com": 69,
    "at": "2026-11-26T17:36:47.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
-   "url": "https://news.ycombinator.com/item?id=50651117",
-   "link": "https://twitter.com/thsottiaux/status/2125784147889393806",
-   "up": 434,
-   "com": 245,
-   "at": "2026-11-26T03:36:58.000Z"
+   "t": "Ask HN: How do you find meaning of life at 41?",
+   "url": "https://news.ycombinator.com/item?id=50657957",
+   "link": "",
+   "up": 35,
+   "com": 50,
+   "at": "2026-11-26T18:14:53.000Z"
   }
  ]
 }
