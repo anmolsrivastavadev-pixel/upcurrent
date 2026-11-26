@@ -5,16 +5,33 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-26T15:01:10.358Z"
+  "updated": "2026-11-26T15:30:57.957Z"
  },
  "pulse": {
   "trending": 74,
   "accelerating": 0,
   "newModels": 13,
   "discussions": 34,
-  "stars": 794
+  "stars": 1666
  },
  "rising": [
+  {
+   "name": "llm.asm",
+   "owner": "alesha-pro",
+   "src": "gh",
+   "cat": "Infrastructure",
+   "score": 96,
+   "grow": null,
+   "desc": "Qwen3-0.6B inference (12 KB), bare-metal bootable OS (22 KB), and from-scratch Mini-GPT trainer with live Braille TUI (32 KB) in 100% pure x86-64 NASM assembly. Zero C, zero libc, zero dependencies.",
+   "meta": [
+    "★ 1,162",
+    "~871 in 24h",
+    "Created yesterday"
+   ],
+   "at": "2026-11-25T07:28:51Z",
+   "breakout": null,
+   "url": "https://github.com/alesha-pro/llm.asm"
+  },
   {
    "name": "fast-anything",
    "owner": "EL4CTEO",
@@ -24,8 +41,8 @@
    "grow": 4,
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
    "meta": [
-    "★ 4,156",
-    "+311 in 24h",
+    "★ 4,166",
+    "+317 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-11-21T14:40:27Z",
@@ -71,7 +88,7 @@
    "cat": "Agents",
    "score": 90,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 453",
+   "desc": "Model on Hugging Face · open source · ♥ 457",
    "meta": [
     "59K downloads",
     "Released 2 days ago"
@@ -87,7 +104,7 @@
    "cat": "Infrastructure",
    "score": 89,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 879",
+   "desc": "Model on Hugging Face · open source · ♥ 882",
    "meta": [
     "762K downloads",
     "Released 6 days ago"
@@ -103,7 +120,7 @@
    "cat": "Tools",
    "score": 87,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 929",
+   "desc": "Model on Hugging Face · open source · ♥ 930",
    "meta": [
     "15K downloads",
     "Released 13 days ago"
@@ -113,19 +130,19 @@
    "url": "https://huggingface.co/inworld/voice-isolator"
   },
   {
-   "name": "DocSEAM: Bidirectional Cross-Page Encoding for Multi-Page Document Understanding",
+   "name": "Let Vision-Language Models Generate Images through Their Representations",
    "owner": "Paper",
    "src": "paper",
-   "url": "https://huggingface.co/papers/2611.34420",
+   "url": "https://huggingface.co/papers/2611.31237",
    "cat": "Research",
    "score": 85,
    "grow": null,
-   "desc": "Multi-page document vision-language models encode each page independently, creating a feature-level discontinuity at page boundaries: visual tokens are formed without access to content on adjacent pages, and the language model must reason over these page representations formed in isolation.",
+   "desc": "Recent unified multimodal models aim to combine visual understanding and generation within a single model, yet effectively integrating the two capabilities remains challenging.",
    "meta": [
-    "▲ 25 upvotes",
+    "▲ 24 upvotes",
     "Hugging Face Papers"
    ],
-   "at": "2026-11-24T19:00:00.000Z",
+   "at": "2026-11-22T19:00:00.000Z",
    "breakout": null
   },
   {
@@ -138,7 +155,7 @@
    "grow": null,
    "desc": "Build an always-on AI team with shared memory",
    "meta": [
-    "▲ 330 votes",
+    "▲ 331 votes",
     "65 comments",
     "Launched yesterday"
    ],
@@ -160,22 +177,6 @@
    "at": "2026-10-31T20:31:01.000Z",
    "breakout": null,
    "url": "https://huggingface.co/SulphurAI/Sulphur-3"
-  },
-  {
-   "name": "Ling-3.2-air",
-   "owner": "inclusionAI",
-   "src": "hf",
-   "cat": "Tools",
-   "score": 84,
-   "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 244",
-   "meta": [
-    "1.5K downloads",
-    "Released 3 days ago"
-   ],
-   "at": "2026-11-23T03:55:12.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/inclusionAI/Ling-3.2-air"
   }
  ],
  "breakouts": [],
@@ -203,12 +204,29 @@
    "verdict": "Talk only, no public usage numbers"
   },
   {
+   "name": "llm.asm",
+   "url": "https://github.com/alesha-pro/llm.asm",
+   "from": "GitHub",
+   "use": 871,
+   "useLabel": "~871 stars/day",
+   "usePct": 1,
+   "talk": [
+    {
+     "src": "Hacker News",
+     "t": "Bare Metal Qwen",
+     "url": "https://news.ycombinator.com/item?id=50648365"
+    }
+   ],
+   "buzz": 1,
+   "verdict": "The hype matches real use"
+  },
+  {
    "name": "Inkling-2-Mini",
    "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
    "from": "Hugging Face",
    "use": 96527,
    "useLabel": "97K downloads",
-   "usePct": 0.8064516129032258,
+   "usePct": 0.8,
    "talk": [
     {
      "src": "Hugging Face blog",
@@ -218,17 +236,6 @@
    ],
    "buzz": 1,
    "verdict": "The hype matches real use"
-  },
-  {
-   "name": "kurocat",
-   "url": "https://github.com/qianyiai/kurocat",
-   "from": "GitHub",
-   "use": 483,
-   "useLabel": "+483 stars/day",
-   "usePct": 1,
-   "talk": [],
-   "buzz": 0,
-   "verdict": "Used a lot, hardly talked about"
   },
   {
    "name": "Inkling-2-Mini-GGUF",
@@ -247,7 +254,18 @@
    "from": "Hugging Face",
    "use": 860476,
    "useLabel": "860K downloads",
-   "usePct": 0.967741935483871,
+   "usePct": 0.9666666666666667,
+   "talk": [],
+   "buzz": 0,
+   "verdict": "Used a lot, hardly talked about"
+  },
+  {
+   "name": "Inkling-2-Mini-Uncensored-GGUF",
+   "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+   "from": "Hugging Face",
+   "use": 762491,
+   "useLabel": "762K downloads",
+   "usePct": 0.9333333333333333,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -337,22 +355,33 @@
  ],
  "github": [
   {
-   "repo": "qianyiai/kurocat",
-   "stars": 1293,
-   "d24": 483,
-   "est": false,
-   "forks": 186,
+   "repo": "alesha-pro/llm.asm",
+   "stars": 1162,
+   "d24": 871,
+   "est": true,
+   "forks": 169,
    "contrib": null,
-   "score": 82,
+   "score": 96,
+   "cat": "Infrastructure",
+   "desc": "Qwen3-0.6B inference (12 KB), bare-metal bootable OS (22 KB), and from-scratch Mini-GPT trainer with live Braille TUI (32 KB) in 100% pure x86-64 NASM assembly. Zero C, zero libc, zero dependencies."
+  },
+  {
+   "repo": "qianyiai/kurocat",
+   "stars": 1301,
+   "d24": 478,
+   "est": false,
+   "forks": 187,
+   "contrib": null,
+   "score": 81,
    "cat": "Agents",
    "desc": "KuroCat — Free open-source 3D/2D desktop typing cat & AI coding companion (Bongo Cat alternative · Tauri v2 + Rust + MCP · Claude/Codex/DeepSeek/OBS · Win/Mac/Linux/Android)｜开源3D桌面打字小黑猫与AI伴侣"
   },
   {
    "repo": "EL4CTEO/fast-anything",
-   "stars": 4156,
-   "d24": 311,
+   "stars": 4166,
+   "d24": 317,
    "est": false,
-   "forks": 299,
+   "forks": 300,
    "contrib": null,
    "score": 92,
    "cat": "Agents",
@@ -369,7 +398,7 @@
    "grow": 0,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 1429
+   "likes": 1432
   },
   {
    "name": "Inkling-2-Mini",
@@ -380,7 +409,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 6155
+   "likes": 6161
   },
   {
    "name": "Ternary-Bonsai-2.5-27B-GGUF",
@@ -392,7 +421,7 @@
    "grow": null,
    "score": 90,
    "cat": "Agents",
-   "likes": 453
+   "likes": 457
   },
   {
    "name": "Inkling-2-Mini-Uncensored-GGUF",
@@ -403,7 +432,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 879
+   "likes": 882
   },
   {
    "name": "voice-isolator",
@@ -414,7 +443,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Tools",
-   "likes": 929
+   "likes": 930
   },
   {
    "name": "Sulphur-3",
@@ -425,7 +454,7 @@
    "grow": 0,
    "score": 84,
    "cat": "Tools",
-   "likes": 1171
+   "likes": 1175
   }
  ],
  "free": [
@@ -798,6 +827,13 @@
    "kind": "News"
   },
   {
+   "t": "Claude 6.0 LEAKED?! AI Quantum Scares, HUGE Gemini Breakthrough, Gemini Bots & MORE! AI NEWS",
+   "url": "https://www.youtube.com/watch?v=rsBYH09bR30",
+   "at": "2026-11-26T07:48:21Z",
+   "src": "WorldofAI",
+   "kind": "Video"
+  },
+  {
    "t": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
    "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
    "at": "2026-11-26T05:05:36.000Z",
@@ -805,24 +841,17 @@
    "kind": "Lab blog"
   },
   {
-   "t": "OpenAI tests Private Inference to keep sensitive information safe: What is it and how does it work?",
-   "url": "https://www.firstpost.com/tech/openai-tests-private-inference-to-keep-sensitive-information-safe-what-is-it-and-how-does-it-work-14062655.html",
-   "at": "2026-11-26T02:41:53Z",
-   "src": "Firstpost",
+   "t": "Pakistan: Lahore student arrested over bomb plot after seeking Claude AI guidance",
+   "url": "https://www.indiatoday.in/world/story/pakistan-lahore-student-arrested-bomb-making-tips-blast-plot-claude-ai-guidance-fbi-anthropic-3047074-2026-11-26",
+   "at": "2026-11-26T03:30:52Z",
+   "src": "India Today",
    "kind": "News"
   },
   {
-   "t": "OpenAI taps Cravath litigator for court showdown with Musk over AI dominance",
-   "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-taps-cravath-litigator-for-court-showdown-with-musk-over-ai-dominance/articleshow/136176645.cms",
-   "at": "2026-11-26T02:41:13Z",
-   "src": "The Economic Times",
-   "kind": "News"
-  },
-  {
-   "t": "Ringgit firms up against dollar, softens against euro and pound",
-   "url": "https://www.malaymail.com/news/money/2026/11/26/ringgit-firms-up-against-dollar-softens-against-euro-and-pound/244815",
-   "at": "2026-11-26T02:34:00Z",
-   "src": "Malay Mail",
+   "t": "Uber appoints former Zomato CEO Rakesh Ranjan as India, South Asia head",
+   "url": "https://www.business-standard.com/companies/news/uber-appoints-former-zomato-ceo-rakesh-ranjan-as-india-south-asia-head-126112600054_1.html",
+   "at": "2026-11-26T03:20:46Z",
+   "src": "Business Standard",
    "kind": "News"
   }
  ],
@@ -832,8 +861,8 @@
    "t": "Intel One Mono font",
    "url": "https://news.ycombinator.com/item?id=50653667",
    "link": "https://github.com/intel/intel-one-mono",
-   "up": 243,
-   "com": 152,
+   "up": 266,
+   "com": 157,
    "at": "2026-11-26T10:11:01.000Z"
   },
   {
@@ -841,8 +870,8 @@
    "t": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
    "url": "https://news.ycombinator.com/item?id=50651117",
    "link": "https://twitter.com/thsottiaux/status/2125784147889393806",
-   "up": 377,
-   "com": 209,
+   "up": 390,
+   "com": 215,
    "at": "2026-11-26T03:36:58.000Z"
   },
   {
@@ -850,8 +879,8 @@
    "t": "Much shorter version of GRH Lean verification from Anthropic",
    "url": "https://news.ycombinator.com/item?id=50648050",
    "link": "https://github.com/lsernau/grh-lean",
-   "up": 497,
-   "com": 310,
+   "up": 500,
+   "com": 315,
    "at": "2026-11-25T21:48:10.000Z"
   },
   {
@@ -859,27 +888,27 @@
    "t": "The New York Times warns photographers not to update Photoshop over AI features",
    "url": "https://news.ycombinator.com/item?id=50647673",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
-   "up": 496,
-   "com": 415,
+   "up": 509,
+   "com": 428,
    "at": "2026-11-25T21:18:02.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Rumors swirling that labs might have cracked Factoring in P",
-   "url": "https://news.ycombinator.com/item?id=50643065",
-   "link": "https://www.reddit.com/r/singularity/comments/1y59ef1/rumor_that_openai_or_anthropic_found_a_way_to/",
-   "up": 494,
-   "com": 374,
-   "at": "2026-11-25T15:08:44.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Minipg: PostgreSQL as a Single Executable",
    "url": "https://news.ycombinator.com/item?id=50650892",
    "link": "https://progrium.github.io/minipg/",
-   "up": 205,
-   "com": 31,
+   "up": 211,
+   "com": 33,
    "at": "2026-11-26T03:00:48.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Moat: Your OpenRouter Replacement",
+   "url": "https://news.ycombinator.com/item?id=50652184",
+   "link": "https://commandcode.ai/moat",
+   "up": 142,
+   "com": 94,
+   "at": "2026-11-26T06:32:48.000Z"
   }
  ]
 }
