@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-26T09:30:56.102Z"
+  "updated": "2026-11-26T10:01:02.421Z"
  },
  "pulse": {
-  "trending": 74,
+  "trending": 73,
   "accelerating": 0,
   "newModels": 12,
   "discussions": 36,
-  "stars": 958
+  "stars": 566
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 2,
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
    "meta": [
-    "★ 4,088",
-    "+322 in 24h",
+    "★ 4,091",
+    "+310 in 24h",
     "Created 5 days ago"
    ],
    "at": "2026-11-21T14:40:27Z",
@@ -71,7 +71,7 @@
    "cat": "Agents",
    "score": 90,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 405",
+   "desc": "Model on Hugging Face · open source · ♥ 409",
    "meta": [
     "59K downloads",
     "Released 2 days ago"
@@ -87,7 +87,7 @@
    "cat": "Infrastructure",
    "score": 89,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 864",
+   "desc": "Model on Hugging Face · open source · ♥ 865",
    "meta": [
     "762K downloads",
     "Released 6 days ago"
@@ -97,30 +97,13 @@
    "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF"
   },
   {
-   "name": "neonclipping",
-   "owner": "iamajmeena",
-   "src": "gh",
-   "cat": "Vision",
-   "score": 87,
-   "grow": null,
-   "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
-   "meta": [
-    "★ 2,660",
-    "~381 in 24h",
-    "Created 7 days ago"
-   ],
-   "at": "2026-11-19T10:00:43Z",
-   "breakout": null,
-   "url": "https://github.com/iamajmeena/neonclipping"
-  },
-  {
    "name": "voice-isolator",
    "owner": "inworld",
    "src": "hf",
    "cat": "Tools",
    "score": 87,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 915",
+   "desc": "Model on Hugging Face · open source · ♥ 916",
    "meta": [
     "15K downloads",
     "Released 12 days ago"
@@ -139,7 +122,7 @@
    "grow": null,
    "desc": "Looped Transformers boost expressivity by reusing shared layers across loops, yet at the cost of efficiency.",
    "meta": [
-    "▲ 44 upvotes",
+    "▲ 45 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-11-24T19:00:00.000Z",
@@ -177,6 +160,22 @@
    "at": "2026-10-31T20:31:01.000Z",
    "breakout": null,
    "url": "https://huggingface.co/SulphurAI/Sulphur-3"
+  },
+  {
+   "name": "Ling-3.2-air",
+   "owner": "inclusionAI",
+   "src": "hf",
+   "cat": "Tools",
+   "score": 84,
+   "grow": null,
+   "desc": "Model on Hugging Face · open source · ♥ 240",
+   "meta": [
+    "1.5K downloads",
+    "Released 3 days ago"
+   ],
+   "at": "2026-11-23T03:55:12.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/inclusionAI/Ling-3.2-air"
   }
  ],
  "breakouts": [],
@@ -199,11 +198,11 @@
    "verdict": "The hype matches real use"
   },
   {
-   "name": "neonclipping",
-   "url": "https://github.com/iamajmeena/neonclipping",
+   "name": "fast-anything",
+   "url": "https://github.com/EL4CTEO/fast-anything",
    "from": "GitHub",
-   "use": 381,
-   "useLabel": "~381 stars/day",
+   "use": 310,
+   "useLabel": "+310 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -316,22 +315,11 @@
  ],
  "github": [
   {
-   "repo": "iamajmeena/neonclipping",
-   "stars": 2660,
-   "d24": 381,
-   "est": true,
-   "forks": 167,
-   "contrib": null,
-   "score": 87,
-   "cat": "Vision",
-   "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM)."
-  },
-  {
    "repo": "EL4CTEO/fast-anything",
-   "stars": 4088,
-   "d24": 322,
+   "stars": 4091,
+   "d24": 310,
    "est": false,
-   "forks": 293,
+   "forks": 294,
    "contrib": null,
    "score": 93,
    "cat": "Agents",
@@ -339,10 +327,10 @@
   },
   {
    "repo": "qianyiai/kurocat",
-   "stars": 1210,
-   "d24": 255,
+   "stars": 1219,
+   "d24": 256,
    "est": true,
-   "forks": 178,
+   "forks": 180,
    "contrib": null,
    "score": 82,
    "cat": "Agents",
@@ -359,7 +347,7 @@
    "grow": 0,
    "score": 92,
    "cat": "Infrastructure",
-   "likes": 1402
+   "likes": 1404
   },
   {
    "name": "Inkling-2-Mini",
@@ -370,7 +358,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 6110
+   "likes": 6114
   },
   {
    "name": "Ternary-Bonsai-2.5-27B-GGUF",
@@ -382,7 +370,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Agents",
-   "likes": 405
+   "likes": 409
   },
   {
    "name": "Inkling-2-Mini-Uncensored-GGUF",
@@ -393,7 +381,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Infrastructure",
-   "likes": 864
+   "likes": 865
   },
   {
    "name": "voice-isolator",
@@ -404,7 +392,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Tools",
-   "likes": 915
+   "likes": 916
   },
   {
    "name": "Sulphur-3",
@@ -415,7 +403,7 @@
    "grow": 0,
    "score": 84,
    "cat": "Tools",
-   "likes": 1137
+   "likes": 1141
   }
  ],
  "free": [
@@ -704,6 +692,13 @@
  },
  "headlines": [
   {
+   "t": "Sources: leading AI labs are sitting on major, unreleased algorithmic breakthroughs that could break deployed cryptosystems, but their exact nature is unknown",
+   "url": "https://www.techmeme.com/261126/p8#a261126p8",
+   "at": "2026-11-26T09:50:19.000Z",
+   "src": "Techmeme",
+   "kind": "News"
+  },
+  {
    "t": "Q&A with Signal's Moxie Marlinspike on AI and cryptography, his privacy-focused AI chat service Confer, surveilling AI models rather than users, and more",
    "url": "https://www.techmeme.com/261126/p6#a261126p6",
    "at": "2026-11-26T08:55:02.000Z",
@@ -760,10 +755,17 @@
    "kind": "News"
   },
   {
-   "t": "A coalition of 42 AGs opposes Character.AI's plan to auction off data from 21M+ US accounts, 2.1M+ registered to minors, saying the sale lacks user protections",
-   "url": "https://www.techmeme.com/261125/p41#a261125p41",
-   "at": "2026-11-25T23:50:04.000Z",
-   "src": "Techmeme",
+   "t": "AI infrastructure stocks continue their slide, but Anthropic closes higher",
+   "url": "https://www.europesays.com/3400765/",
+   "at": "2026-11-25T21:35:11Z",
+   "src": "EUROPE SAYS",
+   "kind": "News"
+  },
+  {
+   "t": "India must Focus on Reaping AI Gains, Steer Clear of Model Race",
+   "url": "https://economictimes.indiatimes.com/et-front/india-must-focus-on-reaping-ai-gains-steer-clear-of-model-race/articleshow/136172668.cms",
+   "at": "2026-11-25T21:32:00Z",
+   "src": "The Economic Times",
    "kind": "News"
   },
   {
@@ -800,20 +802,6 @@
    "at": "2026-11-25T20:03:27Z",
    "src": "TechCrunch",
    "kind": "News"
-  },
-  {
-   "t": "Stocks slide as inflation, Nvidia losses fuel Wall Street sell",
-   "url": "https://www.breitbart.com/news/stocks-slide-as-inflation-nvidia-losses-fuel-wall-street-sell-off/",
-   "at": "2026-11-25T20:00:27Z",
-   "src": "Breitbart News Network",
-   "kind": "News"
-  },
-  {
-   "t": "OpenAI is testing a way to shield business prompts while its models run",
-   "url": "https://thenextweb.com/news/openai-private-inference-testing-customers",
-   "at": "2026-11-25T19:27:43Z",
-   "src": "TNW",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -822,8 +810,8 @@
    "t": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
    "url": "https://news.ycombinator.com/item?id=50651117",
    "link": "https://twitter.com/thsottiaux/status/2125784147889393806",
-   "up": 229,
-   "com": 116,
+   "up": 246,
+   "com": 126,
    "at": "2026-11-26T03:36:58.000Z"
   },
   {
@@ -831,25 +819,17 @@
    "t": "Much shorter version of GRH Lean verification from Anthropic",
    "url": "https://news.ycombinator.com/item?id=50648050",
    "link": "https://github.com/lsernau/grh-lean",
-   "up": 450,
-   "com": 228,
+   "up": 455,
+   "com": 233,
    "at": "2026-11-25T21:48:10.000Z"
-  },
-  {
-   "src": "DEV",
-   "t": "I Built AI Test Automation. Today, I Went Back to Manual Testing.",
-   "url": "https://dev.to/thethirdcup/i-built-ai-test-automation-today-i-went-back-to-manual-testing-mlh",
-   "up": 43,
-   "com": 23,
-   "at": "2026-11-26T08:16:05Z"
   },
   {
    "src": "Hacker News",
    "t": "The New York Times warns photographers not to update Photoshop over AI features",
    "url": "https://news.ycombinator.com/item?id=50647673",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
-   "up": 378,
-   "com": 318,
+   "up": 385,
+   "com": 324,
    "at": "2026-11-25T21:18:02.000Z"
   },
   {
@@ -862,12 +842,20 @@
    "at": "2026-11-25T15:08:44.000Z"
   },
   {
+   "src": "DEV",
+   "t": "I Built AI Test Automation. Today, I Went Back to Manual Testing.",
+   "url": "https://dev.to/thethirdcup/i-built-ai-test-automation-today-i-went-back-to-manual-testing-mlh",
+   "up": 43,
+   "com": 24,
+   "at": "2026-11-26T08:16:05Z"
+  },
+  {
    "src": "Hacker News",
    "t": "Google releases Cogentic papers on integer factorization, discrete logs and more",
    "url": "https://news.ycombinator.com/item?id=50642086",
    "link": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
-   "up": 493,
-   "com": 355,
+   "up": 494,
+   "com": 356,
    "at": "2026-11-25T13:33:07.000Z"
   }
  ]
