@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-27T10:01:02.017Z"
+  "updated": "2026-11-27T10:30:56.778Z"
  },
  "pulse": {
   "trending": 74,
   "accelerating": 0,
   "newModels": 13,
-  "discussions": 45,
-  "stars": 3481
+  "discussions": 44,
+  "stars": 3409
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Infrastructure",
    "score": 95,
-   "grow": 55,
+   "grow": 56,
    "desc": "Qwen3-0.6B inference (12 KB), bare-metal bootable OS (22 KB), and from-scratch Mini-GPT trainer with live Braille TUI (32 KB) in 100% pure x86-64 NASM assembly. Zero C, zero libc, zero dependencies.",
    "meta": [
-    "★ 1,802",
-    "+830 in 24h",
+    "★ 1,811",
+    "+820 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-25T07:28:51Z",
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 95,
-   "grow": 43,
+   "grow": 45,
    "desc": "The Super Game Agent — the Unity & Unreal for AI agents, with 100+ viral games to remix. Turn 20+ coding agents (Claude Code, Codex, DeepSeek, etc.) into a full-stack AI game studio. Build and publish 3D & mini-games to WeChat, Douyin, TikTok, Telegram, itch.io, and more.",
    "meta": [
-    "★ 1,680",
-    "+1,864 in 24h",
+    "★ 1,703",
+    "+1,810 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-25T10:35:45Z",
@@ -72,7 +72,7 @@
    "cat": "Vision",
    "score": 90,
    "grow": 0,
-   "desc": "Vision on Hugging Face · open source · ♥ 6.3K",
+   "desc": "Vision on Hugging Face · open source · ♥ 6.4K",
    "meta": [
     "97K downloads",
     "Released 10 days ago"
@@ -88,7 +88,7 @@
    "cat": "Agents",
    "score": 90,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 568",
+   "desc": "Model on Hugging Face · open source · ♥ 569",
    "meta": [
     "59K downloads",
     "Released 3 days ago"
@@ -106,8 +106,8 @@
    "grow": 3,
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
    "meta": [
-    "★ 4,352",
-    "+296 in 24h",
+    "★ 4,356",
+    "+292 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-11-21T14:40:27Z",
@@ -121,7 +121,7 @@
    "cat": "Infrastructure",
    "score": 88,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 961",
+   "desc": "Model on Hugging Face · open source · ♥ 964",
    "meta": [
     "762K downloads",
     "Released 7 days ago"
@@ -156,7 +156,7 @@
    "grow": null,
    "desc": "Linear attention offers an efficient solution for long-sequence modeling via linear complexity and fixed-size recurrent states.",
    "meta": [
-    "▲ 101 upvotes",
+    "▲ 104 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-11-24T19:00:00.000Z",
@@ -172,7 +172,7 @@
    "grow": null,
    "desc": "Run 100 Claude Code or Codex sessions like 5",
    "meta": [
-    "▲ 396 votes",
+    "▲ 395 votes",
     "171 comments",
     "Launched yesterday"
    ],
@@ -247,8 +247,8 @@
    "name": "opengame",
    "url": "https://github.com/nexu-io/opengame",
    "from": "GitHub",
-   "use": 1864,
-   "useLabel": "+1,864 stars/day",
+   "use": 1810,
+   "useLabel": "+1,810 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -278,6 +278,16 @@
   }
  ],
  "receipts": [
+  {
+   "name": "simplexai-labs/linger",
+   "url": "https://github.com/simplexai-labs/linger",
+   "kind": "stars",
+   "first": "2026-11-19T16:31:01.650Z",
+   "firstV": 1262,
+   "m": 5000,
+   "at": "2026-11-27T10:30:56.778Z",
+   "lead": 185.99864666666667
+  },
   {
    "name": "pierridotite/mobile-agent-testers",
    "url": "https://github.com/pierridotite/mobile-agent-testers",
@@ -347,25 +357,15 @@
    "m": 10000,
    "at": "2026-11-25T11:30:52.815Z",
    "lead": 172.49624833333334
-  },
-  {
-   "name": "nari-labs/Qwen3.8-27B-NariQ-GGUF",
-   "url": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
-   "kind": "downloads",
-   "first": "2026-11-24T08:01:11.769Z",
-   "firstV": 2243,
-   "m": 10000,
-   "at": "2026-11-25T11:30:52.815Z",
-   "lead": 27.494735
   }
  ],
  "github": [
   {
    "repo": "nexu-io/opengame",
-   "stars": 1680,
-   "d24": 1864,
+   "stars": 1703,
+   "d24": 1810,
    "est": false,
-   "forks": 283,
+   "forks": 288,
    "contrib": null,
    "score": 95,
    "cat": "Agents",
@@ -373,10 +373,10 @@
   },
   {
    "repo": "alesha-pro/llm.asm",
-   "stars": 1802,
-   "d24": 830,
+   "stars": 1811,
+   "d24": 820,
    "est": false,
-   "forks": 278,
+   "forks": 281,
    "contrib": null,
    "score": 95,
    "cat": "Infrastructure",
@@ -384,10 +384,10 @@
   },
   {
    "repo": "qianyiai/KuroCat",
-   "stars": 1648,
-   "d24": 491,
+   "stars": 1656,
+   "d24": 487,
    "est": false,
-   "forks": 237,
+   "forks": 238,
    "contrib": null,
    "score": 81,
    "cat": "Agents",
@@ -395,10 +395,10 @@
   },
   {
    "repo": "EL4CTEO/fast-anything",
-   "stars": 4352,
-   "d24": 296,
+   "stars": 4356,
+   "d24": 292,
    "est": false,
-   "forks": 313,
+   "forks": 314,
    "contrib": null,
    "score": 89,
    "cat": "Agents",
@@ -415,7 +415,7 @@
    "grow": 0,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 1527
+   "likes": 1529
   },
   {
    "name": "Inkling-2-Mini",
@@ -426,7 +426,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 6345
+   "likes": 6352
   },
   {
    "name": "Ternary-Bonsai-2.5-27B-GGUF",
@@ -438,7 +438,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Agents",
-   "likes": 568
+   "likes": 569
   },
   {
    "name": "Inkling-2-Mini-Uncensored-GGUF",
@@ -449,7 +449,7 @@
    "grow": 0,
    "score": 88,
    "cat": "Infrastructure",
-   "likes": 961
+   "likes": 964
   },
   {
    "name": "Sulphur-3",
@@ -460,7 +460,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Tools",
-   "likes": 1277
+   "likes": 1282
   },
   {
    "name": "voice-isolator",
@@ -731,6 +731,13 @@
  },
  "headlines": [
   {
+   "t": "‘It’s not helping’: calls for guardrails and regulations as AI use rises at US retailers",
+   "url": "https://www.theguardian.com/us-news/2026/nov/27/ai-retailer-consumer-guardrails",
+   "at": "2026-11-27T10:00:02Z",
+   "src": "The Guardian",
+   "kind": "News"
+  },
+  {
    "t": "Pizza history: AI agent’s cardless purchase is a first for UK",
    "url": "https://www.theguardian.com/business/2026/nov/27/ai-agent-cardless-transaction-pizza-papa-john-uk-fca-truelayer",
    "at": "2026-11-27T09:53:11Z",
@@ -770,6 +777,13 @@
    "url": "https://www.techmeme.com/261126/p26#a261126p26",
    "at": "2026-11-27T00:30:01.000Z",
    "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "The Next Big Clean Energy Bet Borrows Its Drilling Tech From Big Oil",
+   "url": "https://www.europesays.com/3403203/",
+   "at": "2026-11-26T22:25:06Z",
+   "src": "EUROPE SAYS",
    "kind": "News"
   },
   {
@@ -827,20 +841,6 @@
    "at": "2026-11-26T19:56:27Z",
    "src": "The Tribune",
    "kind": "News"
-  },
-  {
-   "t": "How to talk with your family about AI doom at Thanksgiving dinner",
-   "url": "https://www.mercurynews.com/2026/11/26/how-to-talk-with-your-family-about-ai-doom-at-thanksgiving-2/",
-   "at": "2026-11-26T19:30:22Z",
-   "src": "The Mercury News",
-   "kind": "News"
-  },
-  {
-   "t": "Sources: SAP is preparing a plan to eliminate at least 10,000 positions, or 9% of its staff globally, to transform its software business for the AI era",
-   "url": "https://www.techmeme.com/261126/p22#a261126p22",
-   "at": "2026-11-26T16:50:28.000Z",
-   "src": "Techmeme",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -849,8 +849,8 @@
    "t": "The group chat where your AI talks behind your back",
    "url": "https://news.ycombinator.com/item?id=50663595",
    "link": "https://construct22.com/",
-   "up": 226,
-   "com": 97,
+   "up": 262,
+   "com": 107,
    "at": "2026-11-27T06:44:34.000Z"
   },
   {
@@ -858,34 +858,34 @@
    "t": "AI made self-hosting fun again",
    "url": "https://news.ycombinator.com/item?id=50660180",
    "link": "https://janlukas.blog/posts/ai-self-hosting",
-   "up": 694,
-   "com": 345,
+   "up": 715,
+   "com": 352,
    "at": "2026-11-26T21:47:45.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Hard Drive pricing has gotten bad",
-   "url": "https://news.ycombinator.com/item?id=50661646",
-   "link": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/",
-   "up": 350,
-   "com": 252,
-   "at": "2026-11-27T01:13:49.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Claude sabotaging SOTA ML research tasks",
    "url": "https://news.ycombinator.com/item?id=50664325",
    "link": "https://twitter.com/RealAstropulse/status/2126119408997466389",
-   "up": 51,
-   "com": 22,
+   "up": 88,
+   "com": 58,
    "at": "2026-11-27T08:28:08.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Hard Drive pricing has gotten bad",
+   "url": "https://news.ycombinator.com/item?id=50661646",
+   "link": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/",
+   "up": 361,
+   "com": 266,
+   "at": "2026-11-27T01:13:49.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad",
    "url": "https://news.ycombinator.com/item?id=50659841",
    "link": "https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/",
-   "up": 366,
+   "up": 373,
    "com": 90,
    "at": "2026-11-26T21:08:05.000Z"
   },
@@ -894,8 +894,8 @@
    "t": "YouTube Ad Punisher – Auto-reloads YouTube pages when an ad plays",
    "url": "https://news.ycombinator.com/item?id=50657530",
    "link": "https://github.com/antonpictures/youtube-punisher",
-   "up": 402,
-   "com": 467,
+   "up": 409,
+   "com": 471,
    "at": "2026-11-26T17:36:47.000Z"
   }
  ]
