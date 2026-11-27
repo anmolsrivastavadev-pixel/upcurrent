@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-27T16:30:55.180Z"
+  "updated": "2026-11-27T17:01:08.969Z"
  },
  "pulse": {
   "trending": 76,
   "accelerating": 7,
   "newModels": 13,
   "discussions": 49,
-  "stars": 2860
+  "stars": 2853
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 95,
-   "grow": 68,
+   "grow": 71,
    "desc": "The Super Game Agent — the Unity & Unreal for AI agents, with 100+ viral games to remix. Turn 20+ coding agents (Claude Code, Codex, DeepSeek, etc.) into a full-stack AI game studio. Build and publish 3D & mini-games to WeChat, Douyin, TikTok, Telegram, itch.io, and more.",
    "meta": [
-    "★ 1,978",
-    "+1,482 in 24h",
+    "★ 2,008",
+    "+1,480 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-25T10:35:45Z",
@@ -41,8 +41,8 @@
    "grow": null,
    "desc": "Qwen3-0.6B inference (12 KB), bare-metal bootable OS (22 KB), and from-scratch Mini-GPT trainer with live Braille TUI (32 KB) in 100% pure x86-64 NASM assembly. Zero C, zero libc, zero dependencies.",
    "meta": [
-    "★ 1,942",
-    "~817 in 24h",
+    "★ 1,957",
+    "~816 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-25T07:28:51Z",
@@ -88,7 +88,7 @@
    "cat": "Agents",
    "score": 90,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 591",
+   "desc": "Model on Hugging Face · open source · ♥ 593",
    "meta": [
     "383K downloads",
     "Released 3 days ago"
@@ -106,8 +106,8 @@
    "grow": 5,
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
    "meta": [
-    "★ 4,414",
-    "+272 in 24h",
+    "★ 4,417",
+    "+268 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-11-21T14:40:27Z",
@@ -121,7 +121,7 @@
    "cat": "Infrastructure",
    "score": 88,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 988",
+   "desc": "Model on Hugging Face · open source · ♥ 990",
    "meta": [
     "1.1M downloads",
     "Released 7 days ago"
@@ -225,8 +225,8 @@
    "name": "opengame",
    "url": "https://github.com/nexu-io/opengame",
    "from": "GitHub",
-   "use": 1482,
-   "useLabel": "+1,482 stars/day",
+   "use": 1480,
+   "useLabel": "+1,480 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -340,10 +340,10 @@
  "github": [
   {
    "repo": "nexu-io/opengame",
-   "stars": 1978,
-   "d24": 1482,
+   "stars": 2008,
+   "d24": 1480,
    "est": false,
-   "forks": 325,
+   "forks": 330,
    "contrib": null,
    "score": 95,
    "cat": "Agents",
@@ -351,10 +351,10 @@
   },
   {
    "repo": "alesha-pro/llm.asm",
-   "stars": 1942,
-   "d24": 817,
+   "stars": 1957,
+   "d24": 816,
    "est": true,
-   "forks": 305,
+   "forks": 308,
    "contrib": null,
    "score": 94,
    "cat": "Infrastructure",
@@ -362,7 +362,7 @@
   },
   {
    "repo": "qianyiai/KuroCat",
-   "stars": 1741,
+   "stars": 1746,
    "d24": 289,
    "est": true,
    "forks": 247,
@@ -373,8 +373,8 @@
   },
   {
    "repo": "EL4CTEO/fast-anything",
-   "stars": 4414,
-   "d24": 272,
+   "stars": 4417,
+   "d24": 268,
    "est": false,
    "forks": 316,
    "contrib": null,
@@ -393,7 +393,7 @@
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 6391
+   "likes": 6397
   },
   {
    "name": "Inkling-2-Mini-GGUF",
@@ -404,7 +404,7 @@
    "grow": null,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 1553
+   "likes": 1557
   },
   {
    "name": "Ternary-Bonsai-2.5-27B-GGUF",
@@ -416,7 +416,7 @@
    "grow": null,
    "score": 90,
    "cat": "Agents",
-   "likes": 591
+   "likes": 593
   },
   {
    "name": "Inkling-2-Mini-Uncensored-GGUF",
@@ -427,7 +427,7 @@
    "grow": null,
    "score": 88,
    "cat": "Infrastructure",
-   "likes": 988
+   "likes": 990
   },
   {
    "name": "Sulphur-3",
@@ -438,7 +438,7 @@
    "grow": 184,
    "score": 87,
    "cat": "Tools",
-   "likes": 1323
+   "likes": 1326
   },
   {
    "name": "voice-isolator",
@@ -761,6 +761,27 @@
    "kind": "News"
   },
   {
+   "t": "As Google threatens to cut schools’ search access, Los Angeles blocks AI features",
+   "url": "https://wtop.com/national/2026/11/as-google-threatens-to-cut-schools-search-access-los-angeles-blocks-ai-features/",
+   "at": "2026-11-27T05:01:06Z",
+   "src": "WTOP",
+   "kind": "News"
+  },
+  {
+   "t": "Nvidia stock plunges 35% from record high: Is it a buying opportunity?",
+   "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/nvidia-stock-plunges-35-from-record-high-is-it-a-buying-opportunity/slideshow/136209377.cms",
+   "at": "2026-11-27T04:41:00Z",
+   "src": "The Economic Times",
+   "kind": "News"
+  },
+  {
+   "t": "SAP layoffs 2026: At least 10,000 jobs under threat in Europe's largest tech company; check reason, affected departments and key details",
+   "url": "https://economictimes.indiatimes.com/news/new-updates/sap-layoffs-2026-at-least-10000-jobs-under-threat-as-company-reshapes-business-for-ai-check-affected-departments-and-key-details/articleshow/136208796.cms",
+   "at": "2026-11-27T04:31:00Z",
+   "src": "The Economic Times",
+   "kind": "News"
+  },
+  {
    "t": "India and UAE agree to accelerate co-development and co-production of next generation defence equipment at 14th JDCC meeting in Abu Dhabi",
    "url": "https://economictimes.indiatimes.com/news/defence/india-and-uae-agree-to-accelerate-co-development-and-co-production-of-next-generation-defence-equipment-at-14th-jdcc-meeting-in-abu-dhabi/articleshow/136208909.cms",
    "at": "2026-11-27T04:30:00Z",
@@ -794,27 +815,6 @@
    "at": "2026-11-27T04:10:56Z",
    "src": "The Manila Times",
    "kind": "News"
-  },
-  {
-   "t": "This 170-year historical study says ‘major market collapse’ is coming",
-   "url": "https://www.cnbc.com/2026/11/27/ai-bubble-burst-market-study.html",
-   "at": "2026-11-27T04:07:07Z",
-   "src": "CNBC",
-   "kind": "News"
-  },
-  {
-   "t": "Not AI or ChatGPT, Sam Altman reveals what matters most to him and who keeps him from going crazy",
-   "url": "https://www.indiatoday.in/technology/news/story/not-ai-or-chatgpt-sam-altman-reveals-what-matters-most-to-him-and-who-keeps-him-from-going-crazy-3047996-2026-11-27",
-   "at": "2026-11-27T03:50:35Z",
-   "src": "India Today",
-   "kind": "News"
-  },
-  {
-   "t": "27 November, 2026 Stock Market Updates: Sensex drops 235 points, Nifty holds 25,800, Titan top gainer",
-   "url": "https://www.indiatvnews.com/business/markets/27-november-2026-stock-market-updates-sensex-drops-235-points-nifty-holds-25-800-titan-top-gainer-it-stock-tcs-infosys-hcl-fall-2026-11-27-1060495",
-   "at": "2026-11-27T03:49:32Z",
-   "src": "India TV News",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -823,8 +823,8 @@
    "t": "Show HN: bouncemarket – a live prediction market game for a bouncing ball",
    "url": "https://news.ycombinator.com/item?id=50667726",
    "link": "https://bouncemarket.minhanhday.com/",
-   "up": 103,
-   "com": 36,
+   "up": 159,
+   "com": 44,
    "at": "2026-11-27T15:01:50.000Z"
   },
   {
@@ -832,8 +832,8 @@
    "t": "The group chat where your AI talks behind your back",
    "url": "https://news.ycombinator.com/item?id=50663595",
    "link": "https://construct22.com/",
-   "up": 532,
-   "com": 234,
+   "up": 543,
+   "com": 240,
    "at": "2026-11-27T06:44:34.000Z"
   },
   {
@@ -841,8 +841,8 @@
    "t": "AI made self-hosting fun again",
    "url": "https://news.ycombinator.com/item?id=50660180",
    "link": "https://janlukas.blog/posts/ai-self-hosting",
-   "up": 942,
-   "com": 451,
+   "up": 954,
+   "com": 457,
    "at": "2026-11-26T21:47:45.000Z"
   },
   {
@@ -850,8 +850,8 @@
    "t": "US Air Force's cloud computing platform hacked",
    "url": "https://news.ycombinator.com/item?id=50666375",
    "link": "https://news.sky.com/story/us-air-forces-cloud-computing-platform-hacked-13617163",
-   "up": 158,
-   "com": 87,
+   "up": 176,
+   "com": 96,
    "at": "2026-11-27T12:54:11.000Z"
   },
   {
@@ -859,8 +859,8 @@
    "t": "GPT 6.2 Astra Solves a Historical Mystery",
    "url": "https://news.ycombinator.com/item?id=50667744",
    "link": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
-   "up": 56,
-   "com": 23,
+   "up": 80,
+   "com": 34,
    "at": "2026-11-27T15:03:17.000Z"
   },
   {
@@ -868,8 +868,8 @@
    "t": "Hard Drive pricing has gotten bad",
    "url": "https://news.ycombinator.com/item?id=50661646",
    "link": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/",
-   "up": 488,
-   "com": 423,
+   "up": 492,
+   "com": 428,
    "at": "2026-11-27T01:13:49.000Z"
   }
  ]
