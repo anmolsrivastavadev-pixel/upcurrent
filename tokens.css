@@ -1,60 +1,52 @@
 /* Upcurrent design tokens. Every page links this file, so a colour or size changes in one place.
-   Direction (Nov 2026 redesign): a thermal camera pointed at AI. Deep indigo "night sky" surfaces,
-   and momentum shown on a thermal scale (violet -> amber -> red-orange), like rising warm air.
-   Text colours (--ink, --muted, --faint, --hot-text, --up-text, --link) all pass WCAG AA (4.5:1) on --bg and --paper.
-   --cool, --warm, --hot and --up are for bars, dots and charts only; use the -text versions for words.
-   --badge-hot and --badge-up are backgrounds for small white labels (pass 4.5:1 with white in both themes).
-   --sky* is the dark hero/band surface; it stays dark in both themes. */
+   Option 3 (brief in .interface-design/system.md): plain gray neutrals, one yellow for what is selected and the
+   main button, green/red only for up/down. The heat-scale tokens run gray -> yellow so hot items carry the yellow.
+   Text colours all pass WCAG AA (4.5:1) on --bg and --paper. Yellow is never used for text on light grounds. */
 :root {
-  /* colour: surfaces and text */
-  --bg: #f4f3f9; --paper: #ffffff; --chip: #e9e6f3; --line: #dcd8ea;
-  --ink: #1a1538; --muted: #4e4970; --faint: #5d5880; --link: #4a2fd0;
-  --band: #16112f; --band-ink: #eeeaff; --code: #16112f; --code-ink: #eeeaff;
-  --sky: #16112f; --sky-2: #221a4a; --sky-ink: #f3f0ff; --sky-muted: #b9b2dc; --sky-line: #352c66;
-  /* colour: heat scale (decoration) — a thermal ramp */
-  --cool: #6b3fd4; --warm: #f59b23; --hot: #e8432c; --up: #14966a;
-  /* colour: heat scale (text and labels) */
-  --hot-text: #b42a16; --up-text: #0b7650; --cool-text: #5531b8;
-  --badge-hot: #c22e1a; --badge-up: #0b7650;
+  --bg: #fbfbfb; --paper: #ffffff; --chip: #efefef; --line: #e1e1e1; --rail: #f4f4f4;
+  --ink: #151515; --muted: #545454; --faint: #636363; --link: #151515;
+  --band: #151515; --band-ink: #fbfbfb; --code: #151515; --code-ink: #f0f0f0;
+  --sky: #fbfbfb; --sky-2: #ffffff; --sky-ink: #151515; --sky-muted: #545454; --sky-line: #d6d6d6;
+  --accent: #ffd21e; --accent-ink: #151515; --accent-soft: #fff4c2;
+  --cool: #e2e2e2; --warm: #b5b5b5; --hot: #ffc400; --up: #128a49;
+  --hot-text: #151515; --up-text: #0b7a3e; --down-text: #c0262d; --cool-text: #545454;
+  --badge-hot: #151515; --badge-up: #0b7a3e;
 
-  /* type */
-  --font-display: "Big Shoulders Display", "Avenir Next Condensed", "Arial Narrow", system-ui, sans-serif;
-  --font-body: "Hanken Grotesk", "Helvetica Neue", system-ui, sans-serif;
-  /* No monospace on the site any more: data uses the body face with tabular figures. */
-  --font-mono: "Hanken Grotesk", "Helvetica Neue", system-ui, sans-serif;
-  --font-code: ui-monospace, "SF Mono", Menlo, Consolas, monospace; /* real code and URLs only */
-  --text-xs: 12px;    /* labels, timestamps, metadata */
-  --text-sm: 13.5px;  /* secondary text, chips, buttons */
-  --text-md: 15px;    /* descriptions, section intros */
-  --text-base: 16px;  /* body */
-  --text-lg: 19px;    /* row titles */
-  --text-xl: clamp(30px, 4vw, 44px); /* section titles (condensed face, so set large) */
+  --font-display: "Faustina", Georgia, serif;
+  --font-body: "Figtree", "Helvetica Neue", system-ui, sans-serif;
+  --font-mono: "Figtree", "Helvetica Neue", system-ui, sans-serif; /* figures use the text face, tabular */
+  --font-code: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  --text-xs: 12px; --text-sm: 13.5px; --text-md: 15px; --text-base: 16px; --text-lg: 20px;
+  --text-xl: clamp(26px, 3vw, 34px);
 
-  /* shape and space */
-  --radius-sm: 3px; --radius-md: 6px; --radius-lg: 12px; --radius-pill: 999px;
+  --radius-sm: 4px; --radius-md: 6px; --radius-lg: 10px; --radius-pill: 6px;
   --space-1: 4px; --space-2: 8px; --space-3: 12px; --space-4: 16px; --space-5: 24px; --space-6: 48px;
-  --target: 36px;     /* smallest clickable height; 44px on touch screens */
+  --target: 36px;
 }
 @media (pointer: coarse) { :root { --target: 44px; } }
 body { font-variant-numeric: tabular-nums; }
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #0d0a1f; --paper: #161130; --chip: #221b45; --line: #2b2352;
-    --ink: #efecff; --muted: #b4add6; --faint: #9d96c4; --link: #a998ff;
-    --band: #1f1844; --band-ink: #efecff; --code: #07051a; --code-ink: #e6e1ff;
-    --sky: #120d2c; --sky-2: #1d1645; --sky-ink: #f3f0ff; --sky-muted: #b9b2dc; --sky-line: #342b66;
-    --cool: #8b63ff; --warm: #ffae3d; --hot: #ff5a3f; --up: #35d39a;
-    --hot-text: #ff8c76; --up-text: #44d9a2; --cool-text: #b39cff;
+    --bg: #121212; --paper: #181818; --chip: #242424; --line: #2e2e2e; --rail: #161616;
+    --ink: #f0f0f0; --muted: #b3b3b3; --faint: #a0a0a0; --link: #f0f0f0;
+    --band: #000000; --band-ink: #f0f0f0; --code: #000000; --code-ink: #e8e8e8;
+    --sky: #121212; --sky-2: #181818; --sky-ink: #f0f0f0; --sky-muted: #b3b3b3; --sky-line: #3a3a3a;
+    --accent: #ffd21e; --accent-ink: #151515; --accent-soft: #3a3210;
+    --cool: #2e2e2e; --warm: #6a6a6a; --hot: #ffd21e; --up: #3ccf7f;
+    --hot-text: #f0f0f0; --up-text: #4cd98a; --down-text: #ff7a7f; --cool-text: #b3b3b3;
+    --badge-hot: #444444; --badge-up: #0b7a3e;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
-  --bg: #0d0a1f; --paper: #161130; --chip: #221b45; --line: #2b2352;
-  --ink: #efecff; --muted: #b4add6; --faint: #9d96c4; --link: #a998ff;
-  --band: #1f1844; --band-ink: #efecff; --code: #07051a; --code-ink: #e6e1ff;
-  --sky: #120d2c; --sky-2: #1d1645; --sky-ink: #f3f0ff; --sky-muted: #b9b2dc; --sky-line: #342b66;
-  --cool: #8b63ff; --warm: #ffae3d; --hot: #ff5a3f; --up: #35d39a;
-  --hot-text: #ff8c76; --up-text: #44d9a2; --cool-text: #b39cff;
+  --bg: #121212; --paper: #181818; --chip: #242424; --line: #2e2e2e; --rail: #161616;
+  --ink: #f0f0f0; --muted: #b3b3b3; --faint: #a0a0a0; --link: #f0f0f0;
+  --band: #000000; --band-ink: #f0f0f0; --code: #000000; --code-ink: #e8e8e8;
+  --sky: #121212; --sky-2: #181818; --sky-ink: #f0f0f0; --sky-muted: #b3b3b3; --sky-line: #3a3a3a;
+  --accent: #ffd21e; --accent-ink: #151515; --accent-soft: #3a3210;
+  --cool: #2e2e2e; --warm: #6a6a6a; --hot: #ffd21e; --up: #3ccf7f;
+  --hot-text: #f0f0f0; --up-text: #4cd98a; --down-text: #ff7a7f; --cool-text: #b3b3b3;
+  --badge-hot: #444444; --badge-up: #0b7a3e;
   color-scheme: dark;
 }

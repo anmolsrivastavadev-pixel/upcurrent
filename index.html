@@ -3,7 +3,7 @@
 <meta name="description" content="What's rising in AI today: trending GitHub AI repos, new Hugging Face models, papers, threads, headlines and free models. Updated every 30 minutes.">
 <link rel="canonical" href="https://upcurrent.dev/">
 <meta name="robots" content="index, follow, max-image-preview:large">
-<meta name="theme-color" content="#16112f">
+<meta name="theme-color" content="#fbfbfb">
 <link rel="alternate" type="application/rss+xml" title="Upcurrent daily AI trends" href="feed.xml">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -27,7 +27,7 @@
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "@id": "https://upcurrent.dev/#org", "name": "Upcurrent", "url": "https://upcurrent.dev/", "logo": "https://upcurrent.dev/icon-512.png"}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Hanken+Grotesk:wght@400;500;600;700&display=optional" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Hanken+Grotesk:wght@400;500;600;700&display=optional"></noscript>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Faustina:wght@500;600&family=Figtree:wght@400;500;600;700&display=optional" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Faustina:wght@500;600&family=Figtree:wght@400;500;600;700&display=optional"></noscript>
 <link rel="stylesheet" href="tokens.css">
 <style>
 /* Layout: a thermal camera pointed at AI. One dark "night sky" block (top bar, ticker, headline and
@@ -408,6 +408,113 @@ font[style] { background: none !important; box-shadow: none !important; }
 .win-chips { display: flex; flex-wrap: wrap; gap: 6px; } .win-chips span { padding: 4px 10px; border: 1px solid var(--line); border-radius: 999px; font-size: 13px; color: var(--muted); }
 @media (max-width: 860px) { .demo { grid-template-columns: minmax(0, 1fr); } }
 @media (max-width: 520px) { .win-body { grid-template-columns: minmax(0, 1fr); } .win-tabs { border-right: 0; border-bottom: 1px solid var(--line); grid-auto-flow: column; overflow-x: auto; } .win-tabs button { white-space: nowrap; } }
+
+/* ===== Option 3 (all the skills; brief in .interface-design/system.md) =====
+   Rules: yellow only on what is selected and the main button; Faustina headings, Figtree text and figures;
+   a section column down the left on wide screens; sections separated by space and one rule; no labels above headings. */
+.ticker { display: none; }
+.hero::before { display: none; }
+.top { background: var(--bg); border-bottom-color: var(--line); backdrop-filter: none; }
+.logo { font: 600 24px/1 var(--font-display); letter-spacing: -.01em; }
+nav.main a { color: var(--muted); border-radius: var(--radius-md); }
+nav.main a:hover, nav.main a:focus-visible { color: var(--accent-ink); background: var(--accent); }
+.search input { background: var(--paper); border-color: #8f8f8f; }
+.top .lang-pick select { background: var(--paper); border-color: #8f8f8f; }
+:focus-visible, .top :focus-visible, .hero :focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+.signup :focus-visible { outline-color: var(--band-ink); }
+
+/* the section column (wide screens) */
+@media (min-width: 1100px) {
+  body { padding-left: 248px; }
+  .top { position: fixed; top: 0; left: 0; bottom: 0; width: 248px; border-bottom: 0; border-right: 1px solid var(--line); background: var(--rail); overflow-y: auto; }
+  .top .wrap { flex-direction: column; flex-wrap: nowrap; align-items: stretch; gap: 20px; padding: 28px 18px; max-width: none; min-height: 100%; }
+  .top .search input { width: 100%; }
+  nav.main { flex: none; flex-direction: column; gap: 2px; overflow: visible; }
+  nav.main a { min-height: 40px; padding: 8px 12px; font-size: 15.5px; }
+  #langPick { margin-top: auto; }
+  .top .lang-pick select { max-width: none; width: 100%; }
+  .wrap { max-width: 1080px; padding-inline: 40px; }
+}
+
+/* first screen: headline, brief, email, then today's chart full width (no side-by-side split) */
+.hero { grid-template-columns: minmax(0, 1fr); gap: 32px; padding-block: 44px 8px; color: var(--ink); }
+.hero .eyebrow, .live { font: 500 14px var(--font-body); color: var(--muted); }
+.hero h1 { font: 600 clamp(36px, 4.6vw, 56px)/1.06 var(--font-display); letter-spacing: -.015em; margin: 14px 0 20px; max-width: 24ch; text-wrap: balance; }
+.hero h1 .mover { color: inherit; }
+.brief { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px 36px; max-width: none; }
+.brief li { font-size: 16px; color: var(--muted); }
+.brief li::before { content: "↗"; color: var(--up-text); }
+.brief li:first-child { color: var(--ink); font-weight: 600; }
+.mini-signup { margin: 22px 0 0; max-width: 540px; }
+.mini-signup label { font: 600 15px var(--font-body); color: var(--ink); }
+.mini-row input { background: var(--paper); border-color: #8f8f8f; color: var(--ink); border-radius: var(--radius-md); }
+.mini-row input::placeholder { color: var(--faint); }
+.mini-row button, .signup button, .nudge-form button { background: var(--accent); color: var(--accent-ink); border-radius: var(--radius-md); }
+.mini-row button:hover, .signup button:hover, .nudge-form button:hover { background: #ffdf5c; color: var(--accent-ink); }
+.mini-signup .ok { color: var(--up-text); }
+.hero .sample-link, .gen { color: var(--faint); font-size: 13.5px; }
+.hero .sample-link a { color: var(--ink); }
+.updraft { background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius-lg); padding: 20px 22px 12px; min-height: 300px; }
+.updraft h2 { font: 600 24px/1.15 var(--font-display); letter-spacing: -.01em; }
+.updraft p { color: var(--muted); }
+.updraft .chip { color: var(--ink); border-color: var(--line); }
+.updraft { min-height: 0; }
+.updraft canvas { flex: none; height: 200px; min-height: 0; }
+nav.main a[aria-current] { background: var(--accent); color: var(--accent-ink); font-weight: 600; }
+
+/* today's figures as one plain line */
+.glance { display: flex; flex-wrap: wrap; gap: 4px 28px; border: 0; padding: 20px 0 0; }
+.glance div { border: 0 !important; padding: 0 !important; }
+.glance b { display: inline; font: 700 16px var(--font-body); color: var(--ink); margin-right: 6px; }
+.glance span { font-size: 15px; }
+
+/* headings: no label above; the label becomes the sentence under the heading */
+.sec-head > div { display: flex; flex-direction: column-reverse; }
+.sec-head .eyebrow { font: 400 15px var(--font-body); color: var(--muted); margin-top: 6px; }
+.sec-head h2, .poll h2, .signup h2 { font: 600 var(--text-xl)/1.12 var(--font-display); letter-spacing: -.01em; }
+section.block { padding-block: 64px 8px; }
+.movers, .bo-list, .receipts, .hype, .models, .tbl, .threads, .timeline, .free, .news { border-top: 1px solid var(--ink); }
+
+/* selection carries the yellow */
+.chip[aria-pressed="true"], .seg button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.chip { border-radius: var(--radius-md); }
+.seg { border-radius: var(--radius-md); }
+
+.rank { font: 600 30px/1 var(--font-display); color: var(--faint); -webkit-text-stroke: 0; }
+.row.lead .rank { color: var(--ink); }
+.row.lead { box-shadow: inset 4px 0 0 var(--accent); }
+.row h3, .hy h3, .bo h3, .model h3, .receipts .what a, .win-hit b { font-family: var(--font-display); font-weight: 600; letter-spacing: -.005em; }
+.row h3 { font-size: 21px; line-height: 1.25; }
+.row.lead h3 { font-size: 28px; }
+.hy h3, .bo h3, .model h3 { font-size: 20px; line-height: 1.25; }
+.receipts .what a { font-size: 18px; }
+.heat .score { font: 700 22px/1 var(--font-body); border-radius: var(--radius-sm); }
+.receipts .lead, .vel b { font: 700 22px/1 var(--font-body); }
+.vel b { color: var(--ink); }
+.model .kv b { font: 700 16px var(--font-body); }
+.repo b { font: 600 15px var(--font-body); }
+.steps .k { font: 600 20px/1 var(--font-display); color: var(--ink); background: none; width: auto; height: auto; place-items: start; padding-top: 2px; }
+.steps h3, .qa h3 { font: 600 20px/1.25 var(--font-display); }
+.src, .badge-bo, .new-tag, .free-watch .ev, .hy .verdict { font: 600 var(--text-xs) var(--font-body); letter-spacing: 0; }
+.badge-bo { background: var(--accent); color: var(--accent-ink); }
+.hy .verdict, .hy .verdict.match, .hy .verdict.talk, .hy .verdict.quiet { background: none; padding: 0; border-radius: 0; color: var(--muted); font-weight: 500; }
+.spark .b i, .vel .m i { background: var(--hot); }
+.timeline .dot::before { background: var(--hot); }
+.win { box-shadow: none; }
+.win-bar i { background: var(--line) !important; opacity: 1; }
+.win-hit { background: var(--accent-soft); border-color: var(--line); }
+.win-hit .l, .win-hit .pill, .win-ev a { color: var(--ink); border-color: var(--line); }
+
+/* the one dark field */
+.signup { background: var(--band); color: var(--band-ink); }
+footer { border-top: 1px solid var(--line); }
+footer a, details.how summary, .more-links a { display: inline-block; padding-block: 4px; }
+.hero h1, .sec-head h2, .poll h2, .signup h2, .updraft h2, .row h3, .hy h3, .bo h3, .model h3, .steps h3, .qa h3, .receipts .what a, .logo { letter-spacing: 0; word-spacing: .04em; }
+@media (max-width: 600px) {
+  .brief { grid-template-columns: minmax(0, 1fr); }
+  .rank { font-size: 22px; }
+  .row.lead h3 { font-size: 23px; }
+}
 </style>
 </head><body>
 
@@ -460,7 +567,7 @@ font[style] { background: none !important; box-shadow: none !important; }
     </div>
     <div class="updraft">
       <header>
-        <div><h2>Where the momentum is</h2><p>Taller columns have more items. Faster dots mean hotter scores. Tap a column to filter the page.</p></div>
+        <div><h2>Where the momentum is</h2><p>One column per category. Taller means more items rising, yellower means hotter scores. Tap a column to show only that category.</p></div>
         <button type="button" class="chip" id="clearCat" hidden>Show all</button>
       </header>
       <canvas id="draft" role="img" aria-label="Momentum by category"></canvas>
@@ -735,7 +842,7 @@ let DATA = SNAPSHOT;
 const state = { cat: "all", q: "", win: "24h" };
 const matches = (text, cat) => (state.cat === "all" || cat === state.cat) && (!state.q || text.toLowerCase().includes(state.q));
 const CATS = ["all", "Agents", "LLMs", "Coding", "Infrastructure", "Robotics", "Vision", "Research", "Tools"];
-const SRC_LABEL = { gh: "GITHUB", hf: "HUGGING FACE", paper: "PAPER", ph: "PRODUCT HUNT" };
+const SRC_LABEL = { gh: "GitHub", hf: "Hugging Face", paper: "Paper", ph: "Product Hunt" };
 const reduceMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
 
 const cssVar = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
@@ -922,7 +1029,7 @@ function render() {
       <div class="rank">${r.rank}</div>
       <div style="min-width:0">
         <h3>${NEW("r:" + r.name)}<a href="${esc(linkFor(r))}" target="_blank" rel="noopener">${esc(r.name)}</a>${EXPLAINED[linkFor(r)] ? ` <a class="wi" href="what-is/${esc(EXPLAINED[linkFor(r)])}/">What is it?</a>` : ""}</h3>
-        <div class="tags">${r.breakout ? `<a class="badge-bo" href="#breakouts" title="Named on ${r.breakout} separate sources">BREAKOUT · ${r.breakout} SOURCES</a>` : ""}<span class="src">${SRC_LABEL[r.src] || "SOURCE"}</span>${r.owner !== "Paper" && r.owner !== "Product Hunt" ? `<span>${esc(r.owner)}</span>` : ""}<span class="cat">${r.cat}</span></div>
+        <div class="tags">${r.breakout ? `<a class="badge-bo" href="#breakouts" title="Named on ${r.breakout} separate sources">Breakout: ${r.breakout} sources</a>` : ""}<span class="src">${SRC_LABEL[r.src] || "Source"}</span>${r.owner !== "Paper" && r.owner !== "Product Hunt" ? `<span>${esc(r.owner)}</span>` : ""}<span class="cat">${r.cat}</span></div>
         <p class="desc">${esc(r.desc)}</p>
         <div class="meta">${r.meta.map(m => `<span>${esc(m)}</span>`).join("")}</div>
       </div>
@@ -968,7 +1075,7 @@ function render() {
   $("modelGrid").innerHTML = ms.length ? ms.map(m => `
     <article class="model">
       <div><div class="org">${esc(m.org)}${m.size ? " · " + m.size : ""}</div><h3>${NEW("m:" + m.org + "/" + m.name)}<a href="https://huggingface.co/${esc(m.org)}/${esc(m.name)}" target="_blank" rel="noopener">${esc(m.name)}</a></h3></div>
-      <div class="tags"><span class="src">${esc(m.lic.toUpperCase())}</span><span>released ${ago(m.at)}</span><span class="cat">${m.cat}</span></div>
+      <div class="tags"><span class="src">${esc(m.lic)}</span><span>released ${ago(m.at)}</span><span class="cat">${m.cat}</span></div>
       <div class="kv"><div>Score<b>${m.score}</b></div><div>Downloads<b>${fmt(m.dl)}</b></div><div>24h<b style="color:var(${m.grow > 0 ? "--up-text" : "--faint"})">${m.grow == null ? "—" : (m.grow > 0 ? "+" : "") + m.grow + "%"}</b></div></div>
       <div class="dlbar" title="Downloads relative to the most-downloaded model here"><i style="width:${Math.max(2, Math.sqrt((m.dl || 0) / maxDl) * 100)}%"></i></div>
     </article>`).join("") : `<div class="empty">No models match.</div>`;
@@ -1009,7 +1116,7 @@ function render() {
   const showAll = $("freeBody").dataset.all === "1";
   const logC = c => c ? Math.max(4, (Math.log2(c) - 13) / (Math.log2(2e6) - 13) * 100) : 0;
   $("freeBody").innerHTML = (showAll ? fr : fr.slice(0, 10)).map(f => `<div class="fm">
-    <span class="n">${f.added ? `<span class="new-tag">NEW TODAY</span>` : ""}${f.url ? `<a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.name)}</a>` : esc(f.name)}</span>
+    <span class="n">${f.added ? `<span class="new-tag">New today</span>` : ""}${f.url ? `<a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.name)}</a>` : esc(f.name)}</span>
     <span class="p">${f.prov} · ${added(f.at)}</span>
     <span class="ctx">${f.ctx ? `<span class="b" title="Context window, log scale"><i style="width:${logC(f.ctx)}%"></i></span>${fmt(f.ctx)} context` : ""}${[...new Set(f.caps.flatMap(x => /\//.test(x) ? x.split("/").filter((_, i) => i % 2 === 0).map(t => t === "application" || t === "text" ? "files" : t) : [x]))].map(x => `<span class="cap">${esc(x)}</span>`).join("")}</span></div>`).join("") || `<div class="empty">No models match.</div>`;
   $("freeNote").innerHTML = fr.length > 10 ? `<button type="button" class="more-btn" id="freeToggle">${showAll ? "Show fewer" : `Show all ${fr.length}`}</button>` : (D.isSnapshot && fr.length < fc.zen + fc.or ? `<div class="note">The snapshot holds ${fr.length} of ${fc.zen + fc.or}. The full list loads with live data.</div>` : "");
@@ -1057,7 +1164,7 @@ function paint() {
     ctx.fillStyle = g;
     ctx.beginPath(); ctx.roundRect ? ctx.roundRect(col.x, base - col.h, col.w, col.h, [5, 5, 0, 0]) : ctx.rect(col.x, base - col.h, col.w, col.h); ctx.fill();
     ctx.globalAlpha = dim ? 0.35 : 1;
-    ctx.fillStyle = ink; ctx.font = `800 20px ${cssVar("--font-display")}`; ctx.textAlign = "center";
+    ctx.fillStyle = ink; ctx.font = `600 15px ${cssVar("--font-body")}`; ctx.textAlign = "center";
     ctx.fillText(String(col.n), col.x + col.w / 2, base - col.h - 7);
     ctx.fillStyle = faint; ctx.font = `500 12px ${cssVar("--font-body")}`;
     let label = col.c;
@@ -1168,5 +1275,18 @@ state.win = "24h";
 // A published copy already holds today's rendered dashboard, so skip the old built-in snapshot.
 if (!document.documentElement.hasAttribute("data-prerendered")) render();
 goLive();
+
+// Option 3: mark the section in view in the section column, so the reader always knows where they are.
+(() => {
+  const links = [...document.querySelectorAll('nav.main a[href^="#"]')];
+  if (!("IntersectionObserver" in window) || !links.length) return;
+  const byId = new Map(links.map(a => [a.getAttribute("href").slice(1), a]));
+  const io = new IntersectionObserver(entries => entries.forEach(e => {
+    if (!e.isIntersecting) return;
+    links.forEach(a => a.removeAttribute("aria-current"));
+    const a = byId.get(e.target.id); if (a) a.setAttribute("aria-current", "true");
+  }), { rootMargin: "-30% 0px -60% 0px" });
+  byId.forEach((a, id) => { const el = document.getElementById(id); if (el) io.observe(el); });
+})();
 </script>
 </body></html>

@@ -29,10 +29,10 @@ const ldJson = o => `<script type="application/ld+json">${JSON.stringify(o).repl
 const CSS = `*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 var(--font-body);-webkit-font-smoothing:antialiased}
 a{color:var(--link)}.wrap{max-width:820px;margin:0 auto;padding-inline:16px}
 header{border-bottom:1px solid var(--line)}header .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:14px;flex-wrap:wrap}
-.logo{font:900 27px/1 var(--font-display);letter-spacing:.005em;color:var(--ink);text-decoration:none}
+.logo{font:600 24px/1 var(--font-display);letter-spacing:-.01em;color:var(--ink);text-decoration:none}
 main{padding-block:36px 56px;display:grid;gap:36px}main>section{min-width:0}
-h1{font:900 clamp(38px,7vw,60px)/.98 var(--font-display);letter-spacing:0;margin:0 0 12px;text-wrap:balance}
-h2{font:800 30px/1.05 var(--font-display);letter-spacing:0;margin:0 0 12px}
+h1{font:600 clamp(32px,5vw,48px)/1.1 var(--font-display);letter-spacing:-.01em;margin:0 0 12px;text-wrap:balance}
+h2{font:600 26px/1.2 var(--font-display);letter-spacing:0;margin:0 0 12px}
 p{margin:0 0 10px;max-width:68ch}.lede{font-size:18px;color:var(--muted)}
 .eyebrow{font:600 14px/1.2 var(--font-body);color:var(--up-text);margin-bottom:12px}
 ol.rows,ul.rows{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
@@ -117,7 +117,7 @@ function page({ title, description, canonical, body, ld, ogType = "article", up 
 <meta name="twitter:image" content="${SITE}og.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Hanken+Grotesk:wght@400;500;600;700&display=optional" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Hanken+Grotesk:wght@400;500;600;700&display=optional"></noscript>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Faustina:wght@500;600&family=Figtree:wght@400;500;600;700&display=optional" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Faustina:wght@500;600&family=Figtree:wght@400;500;600;700&display=optional"></noscript>
 <link rel="stylesheet" href="${up}tokens.css">
 <style>${CSS}</style>
 ${ld.map(ldJson).join("\n")}
