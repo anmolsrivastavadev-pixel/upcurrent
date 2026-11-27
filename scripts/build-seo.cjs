@@ -1729,6 +1729,19 @@ function repoFacts(it) {
   return REPO_FACTS[`${it.owner}/${it.name}`] || null;
 }
 
+// README badge for repos that reached the top 5 rising list: what-is/<slug>/badge.svg, linking back to the explainer.
+function badgeText(it) {
+  const best = Math.min(...it.hist.map(h => h.rank));
+  const day = it.hist.find(h => h.rank === best).day;
+  return { right: `${best === 1 ? "#1" : `#${best}`} rising in AI · ${shortDate(day).replace(/(\d+ \w{3})\w* /, "$1 ")}`, best, day };
+}
+function badgeSvg(it) {
+  const { right } = badgeText(it);
+  const L = "Upcurrent", w = t => Math.round([...t].reduce((n, c) => n + (/[il.,·'| ]/.test(c) ? 3.6 : /[mwMW#]/.test(c) ? 9 : /[A-Z0-9]/.test(c) ? 7.4 : 6.4), 0)) + 14;
+  const lw = w(L) + 14, rw = w(right), W = lw + rw;
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="20" role="img" aria-label="${esc(L)}: ${esc(right)}"><title>${esc(L)}: ${esc(right)}</title><linearGradient id="s" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><clipPath id="r"><rect width="${W}" height="20" rx="3" fill="#fff"/></clipPath><g clip-path="url(#r)"><rect width="${lw}" height="20" fill="#0f172a"/><rect x="${lw}" width="${rw}" height="20" fill="#e8590c"/><rect width="${W}" height="20" fill="url(#s)"/></g><g fill="none" stroke-width="1.6" stroke-linecap="round"><path d="M5 14c2-1 3-3 3-5" stroke="#2aa3bf"/><path d="M8.5 14.5c2.2-1.4 3.4-3.8 3.4-6.5" stroke="#f0a030"/><path d="M12 15c2.4-1.8 3.8-4.6 3.8-8" stroke="#e8453c"/></g><g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="11"><text x="${(lw + 14) / 2}" y="14">${esc(L)}</text><text x="${lw + rw / 2}" y="14">${esc(right)}</text></g></svg>`;
+}
+
 function explainerPage(it, all) {
   const F = repoFacts(it) || {};
   const url = `${SITE}what-is/${it.slug}/`;
@@ -1802,6 +1815,7 @@ ${F.gone ? `<section id="install"><h2>${esc(it.name)} is no longer on GitHub</h2
 cd ${esc(it.url.split("/").pop())}</code></pre><p>Then follow the setup steps in <a href="${esc(it.url)}#readme" rel="noopener">its README</a>, which lists what it needs and how to run it.</p><p><b>Check before you run it.</b> Look at who made it, read the code, and be wary of repos that ask you to download a zip or run an installer: new repos that gain stars fast are sometimes copies or malware.</p></section>` : ""}
 ${it.src === "gh" && !F.gone && first.stars != null && nowStars != null && nowStars > first.stars ? `<section class="cta" id="next"><h2>Get the next ${esc(it.name)} before it blows up</h2><p>Upcurrent spotted ${esc(it.name)} on ${esc(shortDate(first.day))} at ${fmt(first.stars)} stars. It has ${fmt(nowStars)} now. The 5 fastest-rising AI repos and models land in your inbox at 7am, free.</p><form class="nl" data-where="explainer" action="https://buttondown.com/api/emails/embed-subscribe/anmolsrivastavadev" method="post" target="_blank"><input type="email" name="email" required placeholder="you@example.com" aria-label="Email address" autocomplete="email"><input type="hidden" name="metadata__timezone" value="Europe/London"><button type="submit">Get the 7am email</button><div class="ok" hidden>Almost done: open the email we just sent and click Confirm. Not there in a minute? Check Promotions or Spam.</div></form></section>` : ""}
 ${MK?.variants ? (() => { const v = all.filter(o => o !== it && MK.variants.test(o.name)); return v.length ? `<section id="gguf"><h2>GGUF versions of ${esc(it.name)} to run locally</h2><p>Smaller GGUF builds run in Ollama, LM Studio or llama.cpp. These are the ones Upcurrent has seen rising on Hugging Face:</p><ul class="rows">${v.map(o => `<li><span class="t"><a href="../${o.slug}/">${esc(o.name)}</a></span><span class="m">by ${esc(o.owner || "")}</span></li>`).join("")}</ul></section>` : ""; })() : ""}
+${it.src === "gh" && !F.gone ? (() => { const b = `${SITE}what-is/${it.slug}/badge.svg`; const md = `[![Rising on Upcurrent](${b})](${url})`; return `<section id="badge"><h2>Made ${esc(it.name)}? Add the badge to your README</h2><p>${esc(it.name)} reached ${esc(badgeText(it).right.replace(" · ", " on "))} on Upcurrent's list of the fastest-rising AI projects. You're welcome to show it:</p><p><img src="badge.svg" alt="Rising on Upcurrent badge for ${esc(it.name)}" height="20" loading="lazy"></p><p>Markdown for your README:</p><pre><code>${esc(md)}</code></pre></section>`; })() : ""}
 <section><h2>Quick facts</h2><ul class="rows">${facts.map(([k, v, raw]) => `<li><span class="m">${esc(k)}</span><span class="t">${raw ? v : esc(v)}</span></li>`).join("")}</ul></section>
 <section><h2>How it rose, day by day</h2><p>Recorded by Upcurrent at the end of each day (UTC). Rank is its place among that day's fastest-rising AI projects.</p>
 <ol class="rows">${[...it.hist].reverse().map(h => `<li><span class="t"><a href="../../daily/${h.day}.html">${esc(shortDate(h.day))}</a> · #${h.rank}</span><span class="m num">${esc([numbersLine(it, h), `momentum ${h.score}`].filter(Boolean).join(" · "))}</span></li>`).join("")}</ol></section>
@@ -1872,7 +1886,7 @@ ${qa.slice(1).map(([q, a]) => `<section><h2>${esc(q)}</h2><p>${esc(a)}</p></sect
   console.log(`Wrote ${Object.keys(guides).length} guide pages`);
   const EXPLAIN_OUT = path.join(ROOT, "what-is");
   fs.rmSync(EXPLAIN_OUT, { recursive: true, force: true });
-  for (const it of explained) { fs.mkdirSync(path.join(EXPLAIN_OUT, it.slug), { recursive: true }); fs.writeFileSync(path.join(EXPLAIN_OUT, it.slug, "index.html"), explainerPage(it, explained)); }
+  for (const it of explained) { fs.mkdirSync(path.join(EXPLAIN_OUT, it.slug), { recursive: true }); fs.writeFileSync(path.join(EXPLAIN_OUT, it.slug, "index.html"), explainerPage(it, explained)); if (it.src === "gh" && !repoFacts(it)?.gone) fs.writeFileSync(path.join(EXPLAIN_OUT, it.slug, "badge.svg"), badgeSvg(it)); }
   if (explained.length) fs.writeFileSync(path.join(EXPLAIN_OUT, "index.html"), explainerIndex(explained));
   fs.writeFileSync(path.join(EXPLAIN_OUT, "map.json"), JSON.stringify(Object.fromEntries(EXPLAIN)));
   for (const [file, svg] of Object.entries(CHART_FILES)) { fs.mkdirSync(path.dirname(path.join(ROOT, file)), { recursive: true }); fs.writeFileSync(path.join(ROOT, file), svg); }
