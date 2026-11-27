@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-27T10:30:56.778Z"
+  "updated": "2026-11-27T11:01:07.247Z"
  },
  "pulse": {
   "trending": 74,
   "accelerating": 0,
   "newModels": 13,
-  "discussions": 44,
-  "stars": 3409
+  "discussions": 46,
+  "stars": 3348
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 56,
    "desc": "Qwen3-0.6B inference (12 KB), bare-metal bootable OS (22 KB), and from-scratch Mini-GPT trainer with live Braille TUI (32 KB) in 100% pure x86-64 NASM assembly. Zero C, zero libc, zero dependencies.",
    "meta": [
-    "★ 1,811",
-    "+820 in 24h",
+    "★ 1,818",
+    "+807 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-25T07:28:51Z",
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 95,
-   "grow": 45,
+   "grow": 47,
    "desc": "The Super Game Agent — the Unity & Unreal for AI agents, with 100+ viral games to remix. Turn 20+ coding agents (Claude Code, Codex, DeepSeek, etc.) into a full-stack AI game studio. Build and publish 3D & mini-games to WeChat, Douyin, TikTok, Telegram, itch.io, and more.",
    "meta": [
-    "★ 1,703",
-    "+1,810 in 24h",
+    "★ 1,730",
+    "+1,775 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-25T10:35:45Z",
@@ -88,7 +88,7 @@
    "cat": "Agents",
    "score": 90,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 569",
+   "desc": "Model on Hugging Face · open source · ♥ 571",
    "meta": [
     "59K downloads",
     "Released 3 days ago"
@@ -103,11 +103,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 89,
-   "grow": 3,
+   "grow": 4,
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
    "meta": [
-    "★ 4,356",
-    "+292 in 24h",
+    "★ 4,359",
+    "+286 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-11-21T14:40:27Z",
@@ -121,7 +121,7 @@
    "cat": "Infrastructure",
    "score": 88,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 964",
+   "desc": "Model on Hugging Face · open source · ♥ 965",
    "meta": [
     "762K downloads",
     "Released 7 days ago"
@@ -156,7 +156,7 @@
    "grow": null,
    "desc": "Linear attention offers an efficient solution for long-sequence modeling via linear complexity and fixed-size recurrent states.",
    "meta": [
-    "▲ 104 upvotes",
+    "▲ 102 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-11-24T19:00:00.000Z",
@@ -247,8 +247,8 @@
    "name": "opengame",
    "url": "https://github.com/nexu-io/opengame",
    "from": "GitHub",
-   "use": 1810,
-   "useLabel": "+1,810 stars/day",
+   "use": 1775,
+   "useLabel": "+1,775 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -362,10 +362,10 @@
  "github": [
   {
    "repo": "nexu-io/opengame",
-   "stars": 1703,
-   "d24": 1810,
+   "stars": 1730,
+   "d24": 1775,
    "est": false,
-   "forks": 288,
+   "forks": 291,
    "contrib": null,
    "score": 95,
    "cat": "Agents",
@@ -373,10 +373,10 @@
   },
   {
    "repo": "alesha-pro/llm.asm",
-   "stars": 1811,
-   "d24": 820,
+   "stars": 1818,
+   "d24": 807,
    "est": false,
-   "forks": 281,
+   "forks": 282,
    "contrib": null,
    "score": 95,
    "cat": "Infrastructure",
@@ -384,10 +384,10 @@
   },
   {
    "repo": "qianyiai/KuroCat",
-   "stars": 1656,
-   "d24": 487,
+   "stars": 1661,
+   "d24": 480,
    "est": false,
-   "forks": 238,
+   "forks": 240,
    "contrib": null,
    "score": 81,
    "cat": "Agents",
@@ -395,8 +395,8 @@
   },
   {
    "repo": "EL4CTEO/fast-anything",
-   "stars": 4356,
-   "d24": 292,
+   "stars": 4359,
+   "d24": 286,
    "est": false,
    "forks": 314,
    "contrib": null,
@@ -415,7 +415,7 @@
    "grow": 0,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 1529
+   "likes": 1531
   },
   {
    "name": "Inkling-2-Mini",
@@ -426,7 +426,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 6352
+   "likes": 6358
   },
   {
    "name": "Ternary-Bonsai-2.5-27B-GGUF",
@@ -438,7 +438,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Agents",
-   "likes": 569
+   "likes": 571
   },
   {
    "name": "Inkling-2-Mini-Uncensored-GGUF",
@@ -449,7 +449,7 @@
    "grow": 0,
    "score": 88,
    "cat": "Infrastructure",
-   "likes": 964
+   "likes": 965
   },
   {
    "name": "Sulphur-3",
@@ -460,7 +460,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Tools",
-   "likes": 1282
+   "likes": 1287
   },
   {
    "name": "voice-isolator",
@@ -471,7 +471,7 @@
    "grow": 0,
    "score": 82,
    "cat": "Tools",
-   "likes": 976
+   "likes": 977
   }
  ],
  "free": [
@@ -780,6 +780,20 @@
    "kind": "News"
   },
   {
+   "t": "Will AI Firms Have To Pay Authors & Artists? US Congress Prepares To Take Up Copyright Battle",
+   "url": "https://www.timesnownews.com/world/us/us-news/will-ai-firms-have-to-pay-authors-artists-us-congress-prepares-to-take-up-copyright-battle-article-156572355",
+   "at": "2026-11-26T22:54:31Z",
+   "src": "Times Now",
+   "kind": "News"
+  },
+  {
+   "t": "US Stock Market on Black Friday: Key things to watch out for S&P 500, Nasdaq, Dow Jones, Wall Street traders post-Thanksgiving holiday",
+   "url": "https://economictimes.indiatimes.com/world/business/us-stock-market-on-black-friday-key-things-to-watch-out-for-sp-500-nasdaq-dow-jones-wall-street-traders-post-thanksgiving-holiday/articleshow/136205516.cms",
+   "at": "2026-11-26T22:38:00Z",
+   "src": "The Economic Times",
+   "kind": "News"
+  },
+  {
    "t": "The Next Big Clean Energy Bet Borrows Its Drilling Tech From Big Oil",
    "url": "https://www.europesays.com/3403203/",
    "at": "2026-11-26T22:25:06Z",
@@ -827,20 +841,6 @@
    "at": "2026-11-26T20:59:34Z",
    "src": "The Mercury News",
    "kind": "News"
-  },
-  {
-   "t": "Scott Aaronson says AI labs are sitting on cryptography ‘bombshells’",
-   "url": "https://thenextweb.com/news/scott-aaronson-ai-labs-cryptography-rsa-rumours",
-   "at": "2026-11-26T20:15:34Z",
-   "src": "TNW",
-   "kind": "News"
-  },
-  {
-   "t": "Chandigarh: Pupils ultimate stakeholders of varsities, must engage actively, says new PU VC",
-   "url": "https://www.tribuneindia.com/news/chandigarh/chandigarh-pupils-ultimate-stakeholders-of-varsities-must-engage-actively-says-new-pu-vc/",
-   "at": "2026-11-26T19:56:27Z",
-   "src": "The Tribune",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -849,8 +849,8 @@
    "t": "The group chat where your AI talks behind your back",
    "url": "https://news.ycombinator.com/item?id=50663595",
    "link": "https://construct22.com/",
-   "up": 262,
-   "com": 107,
+   "up": 279,
+   "com": 112,
    "at": "2026-11-27T06:44:34.000Z"
   },
   {
@@ -858,8 +858,8 @@
    "t": "AI made self-hosting fun again",
    "url": "https://news.ycombinator.com/item?id=50660180",
    "link": "https://janlukas.blog/posts/ai-self-hosting",
-   "up": 715,
-   "com": 352,
+   "up": 734,
+   "com": 366,
    "at": "2026-11-26T21:47:45.000Z"
   },
   {
@@ -867,8 +867,8 @@
    "t": "Claude sabotaging SOTA ML research tasks",
    "url": "https://news.ycombinator.com/item?id=50664325",
    "link": "https://twitter.com/RealAstropulse/status/2126119408997466389",
-   "up": 88,
-   "com": 58,
+   "up": 106,
+   "com": 72,
    "at": "2026-11-27T08:28:08.000Z"
   },
   {
@@ -876,8 +876,8 @@
    "t": "Hard Drive pricing has gotten bad",
    "url": "https://news.ycombinator.com/item?id=50661646",
    "link": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/",
-   "up": 361,
-   "com": 266,
+   "up": 370,
+   "com": 280,
    "at": "2026-11-27T01:13:49.000Z"
   },
   {
@@ -885,8 +885,8 @@
    "t": "Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad",
    "url": "https://news.ycombinator.com/item?id=50659841",
    "link": "https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/",
-   "up": 373,
-   "com": 90,
+   "up": 375,
+   "com": 91,
    "at": "2026-11-26T21:08:05.000Z"
   },
   {
@@ -894,8 +894,8 @@
    "t": "YouTube Ad Punisher – Auto-reloads YouTube pages when an ad plays",
    "url": "https://news.ycombinator.com/item?id=50657530",
    "link": "https://github.com/antonpictures/youtube-punisher",
-   "up": 409,
-   "com": 471,
+   "up": 421,
+   "com": 476,
    "at": "2026-11-26T17:36:47.000Z"
   }
  ]
