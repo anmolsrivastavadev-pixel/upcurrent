@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-27T14:01:05.167Z"
+  "updated": "2026-11-27T14:17:40.588Z"
  },
  "pulse": {
-  "trending": 75,
-  "accelerating": 6,
-  "newModels": 12,
-  "discussions": 51,
-  "stars": 2964
+  "trending": 76,
+  "accelerating": 7,
+  "newModels": 13,
+  "discussions": 47,
+  "stars": 2937
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 95,
-   "grow": 58,
+   "grow": 59,
    "desc": "The Super Game Agent — the Unity & Unreal for AI agents, with 100+ viral games to remix. Turn 20+ coding agents (Claude Code, Codex, DeepSeek, etc.) into a full-stack AI game studio. Build and publish 3D & mini-games to WeChat, Douyin, TikTok, Telegram, itch.io, and more.",
    "meta": [
-    "★ 1,859",
-    "+1,563 in 24h",
+    "★ 1,867",
+    "+1,541 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-25T10:35:45Z",
@@ -41,13 +41,29 @@
    "grow": null,
    "desc": "Qwen3-0.6B inference (12 KB), bare-metal bootable OS (22 KB), and from-scratch Mini-GPT trainer with live Braille TUI (32 KB) in 100% pure x86-64 NASM assembly. Zero C, zero libc, zero dependencies.",
    "meta": [
-    "★ 1,872",
-    "~824 in 24h",
+    "★ 1,876",
+    "~821 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-25T07:28:51Z",
    "breakout": null,
    "url": "https://github.com/alesha-pro/llm.asm"
+  },
+  {
+   "name": "Inkling-2-Mini-GGUF",
+   "owner": "unsloth",
+   "src": "hf",
+   "cat": "Infrastructure",
+   "score": 91,
+   "grow": 35,
+   "desc": "Model on Hugging Face · open source · ♥ 1.5K",
+   "meta": [
+    "3.3M downloads",
+    "Released 7 days ago"
+   ],
+   "at": "2026-11-20T13:09:48.000Z",
+   "breakout": null,
+   "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF"
   },
   {
    "name": "Inkling-2-Mini",
@@ -66,29 +82,13 @@
    "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini"
   },
   {
-   "name": "Inkling-2-Mini-GGUF",
-   "owner": "unsloth",
-   "src": "hf",
-   "cat": "Infrastructure",
-   "score": 90,
-   "grow": 35,
-   "desc": "Model on Hugging Face · open source · ♥ 1.5K",
-   "meta": [
-    "3.3M downloads",
-    "Released 7 days ago"
-   ],
-   "at": "2026-11-20T13:09:48.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF"
-  },
-  {
    "name": "Ternary-Bonsai-2.5-27B-GGUF",
    "owner": "prism-ml",
    "src": "hf",
    "cat": "Agents",
    "score": 90,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 575",
+   "desc": "Model on Hugging Face · open source · ♥ 578",
    "meta": [
     "383K downloads",
     "Released 3 days ago"
@@ -106,8 +106,8 @@
    "grow": 4,
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
    "meta": [
-    "★ 4,396",
-    "+288 in 24h",
+    "★ 4,398",
+    "+286 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-11-21T14:40:27Z",
@@ -121,7 +121,7 @@
    "cat": "Infrastructure",
    "score": 88,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 975",
+   "desc": "Model on Hugging Face · open source · ♥ 977",
    "meta": [
     "1.1M downloads",
     "Released 7 days ago"
@@ -156,7 +156,7 @@
    "grow": null,
    "desc": "Linear attention offers an efficient solution for long-sequence modeling via linear complexity and fixed-size recurrent states.",
    "meta": [
-    "▲ 114 upvotes",
+    "▲ 116 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-11-24T19:00:00.000Z",
@@ -172,8 +172,8 @@
    "grow": null,
    "desc": "Run 100 Claude Code or Codex sessions like 5",
    "meta": [
-    "▲ 410 votes",
-    "171 comments",
+    "▲ 411 votes",
+    "172 comments",
     "Launched yesterday"
    ],
    "at": "2026-11-26T08:01:00Z",
@@ -210,7 +210,7 @@
    "from": "Hugging Face",
    "use": 155741,
    "useLabel": "156K downloads",
-   "usePct": 0.7666666666666667,
+   "usePct": 0.7741935483870968,
    "talk": [
     {
      "src": "Hugging Face blog",
@@ -225,8 +225,8 @@
    "name": "opengame",
    "url": "https://github.com/nexu-io/opengame",
    "from": "GitHub",
-   "use": 1563,
-   "useLabel": "+1,563 stars/day",
+   "use": 1541,
+   "useLabel": "+1,541 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -249,13 +249,23 @@
    "from": "Hugging Face",
    "use": 1059763,
    "useLabel": "1.1M downloads",
-   "usePct": 0.9666666666666667,
+   "usePct": 0.967741935483871,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
   }
  ],
  "receipts": [
+  {
+   "name": "AtomicChat/Ternary-Bonsai-2.5-27B-Uncensored-GGUF",
+   "url": "https://huggingface.co/AtomicChat/Ternary-Bonsai-2.5-27B-Uncensored-GGUF",
+   "kind": "downloads",
+   "first": "2026-11-27T00:01:04.469Z",
+   "firstV": 4055,
+   "m": 10000,
+   "at": "2026-11-27T14:17:40.588Z",
+   "lead": 14.276699722222222
+  },
   {
    "name": "thinkingmachines/Inkling-2-Mini",
    "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
@@ -325,23 +335,13 @@
    "m": 2500,
    "at": "2026-11-26T22:30:53.749Z",
    "lead": 78.49702777777777
-  },
-  {
-   "name": "erkamyaman/rust-anything",
-   "url": "https://github.com/erkamyaman/rust-anything",
-   "kind": "stars",
-   "first": "2026-11-18T00:01:08.004Z",
-   "firstV": 1243,
-   "m": 10000,
-   "at": "2026-11-26T17:01:06.449Z",
-   "lead": 208.99956805555556
   }
  ],
  "github": [
   {
    "repo": "nexu-io/opengame",
-   "stars": 1859,
-   "d24": 1563,
+   "stars": 1867,
+   "d24": 1541,
    "est": false,
    "forks": 307,
    "contrib": null,
@@ -351,10 +351,10 @@
   },
   {
    "repo": "alesha-pro/llm.asm",
-   "stars": 1872,
-   "d24": 824,
+   "stars": 1876,
+   "d24": 821,
    "est": true,
-   "forks": 293,
+   "forks": 294,
    "contrib": null,
    "score": 94,
    "cat": "Infrastructure",
@@ -362,7 +362,7 @@
   },
   {
    "repo": "qianyiai/KuroCat",
-   "stars": 1714,
+   "stars": 1718,
    "d24": 289,
    "est": true,
    "forks": 244,
@@ -373,8 +373,8 @@
   },
   {
    "repo": "EL4CTEO/fast-anything",
-   "stars": 4396,
-   "d24": 288,
+   "stars": 4398,
+   "d24": 286,
    "est": false,
    "forks": 316,
    "contrib": null,
@@ -384,6 +384,17 @@
   }
  ],
  "models": [
+  {
+   "name": "Inkling-2-Mini-GGUF",
+   "org": "unsloth",
+   "lic": "Open source",
+   "at": "2026-11-20T13:09:48.000Z",
+   "dl": 3302340,
+   "grow": 35,
+   "score": 91,
+   "cat": "Infrastructure",
+   "likes": 1544
+  },
   {
    "name": "Inkling-2-Mini",
    "org": "thinkingmachines",
@@ -396,17 +407,6 @@
    "likes": 6378
   },
   {
-   "name": "Inkling-2-Mini-GGUF",
-   "org": "unsloth",
-   "lic": "Open source",
-   "at": "2026-11-20T13:09:48.000Z",
-   "dl": 3302340,
-   "grow": 35,
-   "score": 90,
-   "cat": "Infrastructure",
-   "likes": 1541
-  },
-  {
    "name": "Ternary-Bonsai-2.5-27B-GGUF",
    "org": "prism-ml",
    "size": "27B",
@@ -416,7 +416,7 @@
    "grow": null,
    "score": 90,
    "cat": "Agents",
-   "likes": 575
+   "likes": 578
   },
   {
    "name": "Inkling-2-Mini-Uncensored-GGUF",
@@ -427,7 +427,7 @@
    "grow": null,
    "score": 88,
    "cat": "Infrastructure",
-   "likes": 975
+   "likes": 977
   },
   {
    "name": "Sulphur-3",
@@ -438,7 +438,7 @@
    "grow": 184,
    "score": 87,
    "cat": "Tools",
-   "likes": 1312
+   "likes": 1314
   },
   {
    "name": "OCRia-nano-1",
@@ -449,7 +449,7 @@
    "grow": 397,
    "score": 83,
    "cat": "Vision",
-   "likes": 304
+   "likes": 307
   }
  ],
  "free": [
@@ -761,6 +761,13 @@
    "kind": "News"
   },
   {
+   "t": "HSBC reshuffles India operations, hundreds of roles may be hit",
+   "url": "https://economictimes.indiatimes.com/industry/banking/finance/banking/hsbcs-major-restructuring-in-india-hundreds-of-jobs-at-risk-as-ai-takes-over-finance-roles/articleshow/136206975.cms",
+   "at": "2026-11-27T02:13:00Z",
+   "src": "The Economic Times",
+   "kind": "News"
+  },
+  {
    "t": "How OpenAI and Anthropic are using AI to solve Maths' toughest problems",
    "url": "https://indianexpress.com/article/explained/explained-ai/ai-mathematical-proofs-lean-proof-assistant-10979584/",
    "at": "2026-11-27T01:50:03Z",
@@ -808,13 +815,6 @@
    "at": "2026-11-27T00:30:01.000Z",
    "src": "Techmeme",
    "kind": "News"
-  },
-  {
-   "t": "WeFetch AI Corp. Hits 30M in Monthly AI Agent Traffic",
-   "url": "https://www.europesays.com/3403367/",
-   "at": "2026-11-27T00:00:06Z",
-   "src": "EUROPE SAYS",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -823,8 +823,8 @@
    "t": "The group chat where your AI talks behind your back",
    "url": "https://news.ycombinator.com/item?id=50663595",
    "link": "https://construct22.com/",
-   "up": 429,
-   "com": 188,
+   "up": 440,
+   "com": 190,
    "at": "2026-11-27T06:44:34.000Z"
   },
   {
@@ -832,27 +832,27 @@
    "t": "AI made self-hosting fun again",
    "url": "https://news.ycombinator.com/item?id=50660180",
    "link": "https://janlukas.blog/posts/ai-self-hosting",
-   "up": 854,
-   "com": 416,
+   "up": 870,
+   "com": 424,
    "at": "2026-11-26T21:47:45.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Hard Drive pricing has gotten bad",
-   "url": "https://news.ycombinator.com/item?id=50661646",
-   "link": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/",
-   "up": 431,
-   "com": 374,
-   "at": "2026-11-27T01:13:49.000Z"
   },
   {
    "src": "Hacker News",
    "t": "US Air Force's cloud computing platform hacked",
    "url": "https://news.ycombinator.com/item?id=50666375",
    "link": "https://news.sky.com/story/us-air-forces-cloud-computing-platform-hacked-13617163",
-   "up": 33,
-   "com": 5,
+   "up": 53,
+   "com": 15,
    "at": "2026-11-27T12:54:11.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Hard Drive pricing has gotten bad",
+   "url": "https://news.ycombinator.com/item?id=50661646",
+   "link": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/",
+   "up": 441,
+   "com": 387,
+   "at": "2026-11-27T01:13:49.000Z"
   },
   {
    "src": "Hacker News",
@@ -860,7 +860,7 @@
    "url": "https://news.ycombinator.com/item?id=50664325",
    "link": "https://twitter.com/RealAstropulse/status/2126119408997466389",
    "up": 163,
-   "com": 103,
+   "com": 104,
    "at": "2026-11-27T08:28:08.000Z"
   },
   {
@@ -868,8 +868,8 @@
    "t": "New York and California Age Gating Rules Go into Effect in the New Year",
    "url": "https://news.ycombinator.com/item?id=50666279",
    "link": "https://www.eff.org/deeplinks/2026/11/new-york-and-california-age-gating-rules-go-effect-new-year",
-   "up": 33,
-   "com": 12,
+   "up": 43,
+   "com": 22,
    "at": "2026-11-27T12:43:40.000Z"
   }
  ]
