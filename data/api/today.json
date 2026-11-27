@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-27T11:30:55.086Z"
+  "updated": "2026-11-27T12:01:09.145Z"
  },
  "pulse": {
-  "trending": 74,
+  "trending": 75,
   "accelerating": 0,
-  "newModels": 13,
+  "newModels": 14,
   "discussions": 47,
-  "stars": 3312
+  "stars": 3317
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Infrastructure",
    "score": 95,
-   "grow": 58,
+   "grow": null,
    "desc": "Qwen3-0.6B inference (12 KB), bare-metal bootable OS (22 KB), and from-scratch Mini-GPT trainer with live Braille TUI (32 KB) in 100% pure x86-64 NASM assembly. Zero C, zero libc, zero dependencies.",
    "meta": [
-    "★ 1,831",
-    "+803 in 24h",
+    "★ 1,842",
+    "~841 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-25T07:28:51Z",
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 95,
-   "grow": 50,
+   "grow": 52,
    "desc": "The Super Game Agent — the Unity & Unreal for AI agents, with 100+ viral games to remix. Turn 20+ coding agents (Claude Code, Codex, DeepSeek, etc.) into a full-stack AI game studio. Build and publish 3D & mini-games to WeChat, Douyin, TikTok, Telegram, itch.io, and more.",
    "meta": [
-    "★ 1,759",
-    "+1,752 in 24h",
+    "★ 1,784",
+    "+1,719 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-25T10:35:45Z",
@@ -88,7 +88,7 @@
    "cat": "Agents",
    "score": 90,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 573",
+   "desc": "Model on Hugging Face · open source · ♥ 575",
    "meta": [
     "59K downloads",
     "Released 3 days ago"
@@ -106,7 +106,7 @@
    "grow": 4,
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
    "meta": [
-    "★ 4,364",
+    "★ 4,370",
     "+284 in 24h",
     "Created 6 days ago"
    ],
@@ -121,7 +121,7 @@
    "cat": "Infrastructure",
    "score": 88,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 965",
+   "desc": "Model on Hugging Face · open source · ♥ 966",
    "meta": [
     "762K downloads",
     "Released 7 days ago"
@@ -172,7 +172,7 @@
    "grow": null,
    "desc": "Run 100 Claude Code or Codex sessions like 5",
    "meta": [
-    "▲ 395 votes",
+    "▲ 400 votes",
     "171 comments",
     "Launched yesterday"
    ],
@@ -210,7 +210,7 @@
    "from": "Hugging Face",
    "use": 96527,
    "useLabel": "97K downloads",
-   "usePct": 0.7931034482758621,
+   "usePct": 0.8,
    "talk": [
     {
      "src": "Hugging Face blog",
@@ -225,8 +225,8 @@
    "name": "opengame",
    "url": "https://github.com/nexu-io/opengame",
    "from": "GitHub",
-   "use": 1752,
-   "useLabel": "+1,752 stars/day",
+   "use": 1719,
+   "useLabel": "+1,719 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -249,7 +249,7 @@
    "from": "Hugging Face",
    "use": 860476,
    "useLabel": "860K downloads",
-   "usePct": 0.9655172413793104,
+   "usePct": 0.9666666666666667,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -340,10 +340,10 @@
  "github": [
   {
    "repo": "nexu-io/opengame",
-   "stars": 1759,
-   "d24": 1752,
+   "stars": 1784,
+   "d24": 1719,
    "est": false,
-   "forks": 292,
+   "forks": 294,
    "contrib": null,
    "score": 95,
    "cat": "Agents",
@@ -351,10 +351,10 @@
   },
   {
    "repo": "alesha-pro/llm.asm",
-   "stars": 1831,
-   "d24": 803,
-   "est": false,
-   "forks": 285,
+   "stars": 1842,
+   "d24": 841,
+   "est": true,
+   "forks": 286,
    "contrib": null,
    "score": 95,
    "cat": "Infrastructure",
@@ -362,7 +362,7 @@
   },
   {
    "repo": "qianyiai/KuroCat",
-   "stars": 1666,
+   "stars": 1676,
    "d24": 473,
    "est": false,
    "forks": 241,
@@ -373,7 +373,7 @@
   },
   {
    "repo": "EL4CTEO/fast-anything",
-   "stars": 4364,
+   "stars": 4370,
    "d24": 284,
    "est": false,
    "forks": 314,
@@ -393,7 +393,7 @@
    "grow": 0,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 1535
+   "likes": 1539
   },
   {
    "name": "Inkling-2-Mini",
@@ -404,7 +404,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 6362
+   "likes": 6367
   },
   {
    "name": "Ternary-Bonsai-2.5-27B-GGUF",
@@ -416,7 +416,7 @@
    "grow": null,
    "score": 90,
    "cat": "Agents",
-   "likes": 573
+   "likes": 575
   },
   {
    "name": "Inkling-2-Mini-Uncensored-GGUF",
@@ -427,7 +427,7 @@
    "grow": 0,
    "score": 88,
    "cat": "Infrastructure",
-   "likes": 965
+   "likes": 966
   },
   {
    "name": "Sulphur-3",
@@ -438,7 +438,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Tools",
-   "likes": 1288
+   "likes": 1294
   },
   {
    "name": "OCRia-nano-1",
@@ -447,9 +447,9 @@
    "at": "2026-11-03T21:44:40.000Z",
    "dl": 126,
    "grow": 0,
-   "score": 82,
+   "score": 83,
    "cat": "Vision",
-   "likes": 297
+   "likes": 299
   }
  ],
  "free": [
@@ -759,9 +759,16 @@
   },
   {
    "t": "WeFetch AI Corp. Hits 30M in Monthly AI Agent Traffic",
-   "url": "https://www.wallstreet-online.de/nachricht/21754519-wefetch-ai-corp-hits-30m-monthly-ai-agent-traffic",
-   "at": "2026-11-26T23:13:00Z",
-   "src": "Wallstreet Online",
+   "url": "https://www.europesays.com/3403367/",
+   "at": "2026-11-27T00:00:06Z",
+   "src": "EUROPE SAYS",
+   "kind": "News"
+  },
+  {
+   "t": "Stanford Physicist Uses OpenAI Astra to Probe Quantum Gravity",
+   "url": "https://www.businessinsider.com/stanford-physicist-openai-astra-quantum-gravity-smart-people-say-2026-11",
+   "at": "2026-11-26T23:50:35Z",
+   "src": "Business Insider",
    "kind": "News"
   },
   {
@@ -812,13 +819,6 @@
    "at": "2026-11-26T21:41:15Z",
    "src": "MarketScreener",
    "kind": "News"
-  },
-  {
-   "t": "SAP weighs axing at least 10,000 jobs in massive AI overhaul: report",
-   "url": "https://nypost.com/2026/11/26/business/sap-weighs-axing-at-least-10000-jobs-in-massive-ai-overhaul-report/",
-   "at": "2026-11-26T21:38:16Z",
-   "src": "New York Post",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -827,8 +827,8 @@
    "t": "The group chat where your AI talks behind your back",
    "url": "https://news.ycombinator.com/item?id=50663595",
    "link": "https://construct22.com/",
-   "up": 309,
-   "com": 133,
+   "up": 330,
+   "com": 146,
    "at": "2026-11-27T06:44:34.000Z"
   },
   {
@@ -836,17 +836,26 @@
    "t": "AI made self-hosting fun again",
    "url": "https://news.ycombinator.com/item?id=50660180",
    "link": "https://janlukas.blog/posts/ai-self-hosting",
-   "up": 753,
-   "com": 374,
+   "up": 769,
+   "com": 388,
    "at": "2026-11-26T21:47:45.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Fields-winning mathematicians worried about eerie silence over AI and encryption",
+   "url": "https://news.ycombinator.com/item?id=50665488",
+   "link": "https://www.thetimes.com/uk/technology-uk/article/ai-making-online-security-useless-smr73d3n8",
+   "up": 45,
+   "com": 37,
+   "at": "2026-11-27T11:09:04.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Claude sabotaging SOTA ML research tasks",
    "url": "https://news.ycombinator.com/item?id=50664325",
    "link": "https://twitter.com/RealAstropulse/status/2126119408997466389",
-   "up": 122,
-   "com": 78,
+   "up": 130,
+   "com": 86,
    "at": "2026-11-27T08:28:08.000Z"
   },
   {
@@ -854,8 +863,8 @@
    "t": "Hard Drive pricing has gotten bad",
    "url": "https://news.ycombinator.com/item?id=50661646",
    "link": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/",
-   "up": 376,
-   "com": 298,
+   "up": 384,
+   "com": 309,
    "at": "2026-11-27T01:13:49.000Z"
   },
   {
@@ -863,18 +872,9 @@
    "t": "Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad",
    "url": "https://news.ycombinator.com/item?id=50659841",
    "link": "https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/",
-   "up": 381,
-   "com": 92,
+   "up": 387,
+   "com": 96,
    "at": "2026-11-26T21:08:05.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "YouTube Ad Punisher – Auto-reloads YouTube pages when an ad plays",
-   "url": "https://news.ycombinator.com/item?id=50657530",
-   "link": "https://github.com/antonpictures/youtube-punisher",
-   "up": 425,
-   "com": 485,
-   "at": "2026-11-26T17:36:47.000Z"
   }
  ]
 }
