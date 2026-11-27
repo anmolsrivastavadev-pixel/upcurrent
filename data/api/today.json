@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-27T12:01:09.145Z"
+  "updated": "2026-11-27T12:30:57.305Z"
  },
  "pulse": {
   "trending": 75,
-  "accelerating": 0,
-  "newModels": 14,
-  "discussions": 47,
-  "stars": 3317
+  "accelerating": 2,
+  "newModels": 13,
+  "discussions": 49,
+  "stars": 3253
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "Qwen3-0.6B inference (12 KB), bare-metal bootable OS (22 KB), and from-scratch Mini-GPT trainer with live Braille TUI (32 KB) in 100% pure x86-64 NASM assembly. Zero C, zero libc, zero dependencies.",
    "meta": [
-    "★ 1,842",
-    "~841 in 24h",
+    "★ 1,849",
+    "~837 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-25T07:28:51Z",
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 95,
-   "grow": 52,
+   "grow": 53,
    "desc": "The Super Game Agent — the Unity & Unreal for AI agents, with 100+ viral games to remix. Turn 20+ coding agents (Claude Code, Codex, DeepSeek, etc.) into a full-stack AI game studio. Build and publish 3D & mini-games to WeChat, Douyin, TikTok, Telegram, itch.io, and more.",
    "meta": [
-    "★ 1,784",
-    "+1,719 in 24h",
+    "★ 1,797",
+    "+1,658 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-25T10:35:45Z",
@@ -75,7 +75,7 @@
    "desc": "Vision on Hugging Face · open source · ♥ 6.4K",
    "meta": [
     "97K downloads",
-    "Released 10 days ago"
+    "Released 11 days ago"
    ],
    "at": "2026-11-17T00:26:57.000Z",
    "breakout": null,
@@ -106,8 +106,8 @@
    "grow": 4,
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
    "meta": [
-    "★ 4,370",
-    "+284 in 24h",
+    "★ 4,375",
+    "+283 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-11-21T14:40:27Z",
@@ -121,7 +121,7 @@
    "cat": "Infrastructure",
    "score": 88,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 966",
+   "desc": "Model on Hugging Face · open source · ♥ 968",
    "meta": [
     "762K downloads",
     "Released 7 days ago"
@@ -136,10 +136,10 @@
    "src": "hf",
    "cat": "Tools",
    "score": 87,
-   "grow": 0,
+   "grow": 184,
    "desc": "Model on Hugging Face · open weights · ♥ 1.3K",
    "meta": [
-    "190K downloads",
+    "539K downloads",
     "Released 27 days ago"
    ],
    "at": "2026-10-31T20:31:01.000Z",
@@ -156,7 +156,7 @@
    "grow": null,
    "desc": "Linear attention offers an efficient solution for long-sequence modeling via linear complexity and fixed-size recurrent states.",
    "meta": [
-    "▲ 104 upvotes",
+    "▲ 105 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-11-24T19:00:00.000Z",
@@ -210,7 +210,7 @@
    "from": "Hugging Face",
    "use": 96527,
    "useLabel": "97K downloads",
-   "usePct": 0.8,
+   "usePct": 0.7333333333333333,
    "talk": [
     {
      "src": "Hugging Face blog",
@@ -225,8 +225,8 @@
    "name": "opengame",
    "url": "https://github.com/nexu-io/opengame",
    "from": "GitHub",
-   "use": 1719,
-   "useLabel": "+1,719 stars/day",
+   "use": 1658,
+   "useLabel": "+1,658 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -247,8 +247,8 @@
    "name": "flux-3-image-klein-comfy",
    "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
    "from": "Hugging Face",
-   "use": 860476,
-   "useLabel": "860K downloads",
+   "use": 842966,
+   "useLabel": "843K downloads",
    "usePct": 0.9666666666666667,
    "talk": [],
    "buzz": 0,
@@ -256,6 +256,16 @@
   }
  ],
  "receipts": [
+  {
+   "name": "thinkingmachines/Inkling-2-Small",
+   "url": "https://huggingface.co/thinkingmachines/Inkling-2-Small",
+   "kind": "downloads",
+   "first": "2026-11-13T20:30:51.442Z",
+   "firstV": 1064,
+   "m": 100000,
+   "at": "2026-11-27T12:30:57.305Z",
+   "lead": 328.00162861111113
+  },
   {
    "name": "simplexai-labs/linger",
    "url": "https://github.com/simplexai-labs/linger",
@@ -325,25 +335,15 @@
    "m": 10000,
    "at": "2026-11-25T11:30:52.815Z",
    "lead": 266.9999922222222
-  },
-  {
-   "name": "tencent/Hy4-flash",
-   "url": "https://huggingface.co/tencent/Hy4-flash",
-   "kind": "downloads",
-   "first": "2026-11-18T07:01:06.321Z",
-   "firstV": 0,
-   "m": 10000,
-   "at": "2026-11-25T11:30:52.815Z",
-   "lead": 172.49624833333334
   }
  ],
  "github": [
   {
    "repo": "nexu-io/opengame",
-   "stars": 1784,
-   "d24": 1719,
+   "stars": 1797,
+   "d24": 1658,
    "est": false,
-   "forks": 294,
+   "forks": 295,
    "contrib": null,
    "score": 95,
    "cat": "Agents",
@@ -351,10 +351,10 @@
   },
   {
    "repo": "alesha-pro/llm.asm",
-   "stars": 1842,
-   "d24": 841,
+   "stars": 1849,
+   "d24": 837,
    "est": true,
-   "forks": 286,
+   "forks": 288,
    "contrib": null,
    "score": 95,
    "cat": "Infrastructure",
@@ -362,10 +362,10 @@
   },
   {
    "repo": "qianyiai/KuroCat",
-   "stars": 1676,
-   "d24": 473,
+   "stars": 1687,
+   "d24": 475,
    "est": false,
-   "forks": 241,
+   "forks": 243,
    "contrib": null,
    "score": 81,
    "cat": "Agents",
@@ -373,8 +373,8 @@
   },
   {
    "repo": "EL4CTEO/fast-anything",
-   "stars": 4370,
-   "d24": 284,
+   "stars": 4375,
+   "d24": 283,
    "est": false,
    "forks": 314,
    "contrib": null,
@@ -393,7 +393,7 @@
    "grow": 0,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 1539
+   "likes": 1541
   },
   {
    "name": "Inkling-2-Mini",
@@ -404,7 +404,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 6367
+   "likes": 6369
   },
   {
    "name": "Ternary-Bonsai-2.5-27B-GGUF",
@@ -427,29 +427,29 @@
    "grow": 0,
    "score": 88,
    "cat": "Infrastructure",
-   "likes": 966
+   "likes": 968
   },
   {
    "name": "Sulphur-3",
    "org": "SulphurAI",
    "lic": "Open weights",
    "at": "2026-10-31T20:31:01.000Z",
-   "dl": 189735,
-   "grow": 0,
+   "dl": 539421,
+   "grow": 184,
    "score": 87,
    "cat": "Tools",
-   "likes": 1294
+   "likes": 1298
   },
   {
    "name": "OCRia-nano-1",
    "org": "llamaindex",
    "lic": "Open weights",
    "at": "2026-11-03T21:44:40.000Z",
-   "dl": 126,
-   "grow": 0,
+   "dl": 626,
+   "grow": 397,
    "score": 83,
    "cat": "Vision",
-   "likes": 299
+   "likes": 300
   }
  ],
  "free": [
@@ -541,18 +541,6 @@
    "ctx": 1048576,
    "url": null,
    "caps": [],
-   "added": false
-  },
-  {
-   "name": "Ling 3.2 Flash",
-   "prov": "OpenRouter",
-   "ctx": 1048576,
-   "url": "https://openrouter.ai/inclusionai/ling-3.2-flash:free",
-   "caps": [
-    "image",
-    "reasoning",
-    "tools"
-   ],
    "added": false
   },
   {
@@ -765,6 +753,13 @@
    "kind": "News"
   },
   {
+   "t": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+   "url": "https://huggingface.co/blog/video-trainium3",
+   "at": "2026-11-27T00:00:00.000Z",
+   "src": "Hugging Face",
+   "kind": "Lab blog"
+  },
+  {
    "t": "Stanford Physicist Uses OpenAI Astra to Probe Quantum Gravity",
    "url": "https://www.businessinsider.com/stanford-physicist-openai-astra-quantum-gravity-smart-people-say-2026-11",
    "at": "2026-11-26T23:50:35Z",
@@ -812,13 +807,6 @@
    "at": "2026-11-26T21:45:03Z",
    "src": "The daily Star",
    "kind": "News"
-  },
-  {
-   "t": "Sources: SAP considering cutting around 10 percent of all jobs",
-   "url": "https://www.marketscreener.com/news/sources-sap-considering-cutting-around-10-percent-of-all-jobs-ce7851d9d88dfe20",
-   "at": "2026-11-26T21:41:15Z",
-   "src": "MarketScreener",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -827,8 +815,8 @@
    "t": "The group chat where your AI talks behind your back",
    "url": "https://news.ycombinator.com/item?id=50663595",
    "link": "https://construct22.com/",
-   "up": 330,
-   "com": 146,
+   "up": 361,
+   "com": 162,
    "at": "2026-11-27T06:44:34.000Z"
   },
   {
@@ -836,8 +824,8 @@
    "t": "AI made self-hosting fun again",
    "url": "https://news.ycombinator.com/item?id=50660180",
    "link": "https://janlukas.blog/posts/ai-self-hosting",
-   "up": 769,
-   "com": 388,
+   "up": 788,
+   "com": 398,
    "at": "2026-11-26T21:47:45.000Z"
   },
   {
@@ -845,35 +833,35 @@
    "t": "Fields-winning mathematicians worried about eerie silence over AI and encryption",
    "url": "https://news.ycombinator.com/item?id=50665488",
    "link": "https://www.thetimes.com/uk/technology-uk/article/ai-making-online-security-useless-smr73d3n8",
-   "up": 45,
-   "com": 37,
+   "up": 51,
+   "com": 62,
    "at": "2026-11-27T11:09:04.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Claude sabotaging SOTA ML research tasks",
-   "url": "https://news.ycombinator.com/item?id=50664325",
-   "link": "https://twitter.com/RealAstropulse/status/2126119408997466389",
-   "up": 130,
-   "com": 86,
-   "at": "2026-11-27T08:28:08.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Hard Drive pricing has gotten bad",
    "url": "https://news.ycombinator.com/item?id=50661646",
    "link": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/",
-   "up": 384,
-   "com": 309,
+   "up": 394,
+   "com": 322,
    "at": "2026-11-27T01:13:49.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Claude sabotaging SOTA ML research tasks",
+   "url": "https://news.ycombinator.com/item?id=50664325",
+   "link": "https://twitter.com/RealAstropulse/status/2126119408997466389",
+   "up": 136,
+   "com": 87,
+   "at": "2026-11-27T08:28:08.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad",
    "url": "https://news.ycombinator.com/item?id=50659841",
    "link": "https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/",
-   "up": 387,
-   "com": 96,
+   "up": 399,
+   "com": 100,
    "at": "2026-11-26T21:08:05.000Z"
   }
  ]
