@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-27T03:30:52.992Z"
+  "updated": "2026-11-27T04:01:01.757Z"
  },
  "pulse": {
   "trending": 74,
   "accelerating": 0,
-  "newModels": 13,
-  "discussions": 46,
-  "stars": 2744
+  "newModels": 14,
+  "discussions": 44,
+  "stars": 2758
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Infrastructure",
    "score": 96,
-   "grow": 39,
+   "grow": 41,
    "desc": "Qwen3-0.6B inference (12 KB), bare-metal bootable OS (22 KB), and from-scratch Mini-GPT trainer with live Braille TUI (32 KB) in 100% pure x86-64 NASM assembly. Zero C, zero libc, zero dependencies.",
    "meta": [
-    "★ 1,620",
-    "+916 in 24h",
+    "★ 1,633",
+    "+904 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-25T07:28:51Z",
@@ -41,8 +41,8 @@
    "grow": null,
    "desc": "The Super Game Agent — the Unity & Unreal for AI agents, with 100+ viral games to remix. Turn 20+ coding agents (Claude Code, Codex, DeepSeek, etc.) into a full-stack AI game studio. Build and publish 3D & mini-games to WeChat, Douyin, TikTok, Telegram, itch.io, and more.",
    "meta": [
-    "★ 1,175",
-    "~689 in 24h",
+    "★ 1,218",
+    "~706 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-25T10:35:45Z",
@@ -74,8 +74,8 @@
    "grow": null,
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
    "meta": [
-    "★ 4,264",
-    "~770 in 24h",
+    "★ 4,273",
+    "~769 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-11-21T14:40:27Z",
@@ -105,7 +105,7 @@
    "cat": "Infrastructure",
    "score": 90,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 940",
+   "desc": "Model on Hugging Face · open source · ♥ 943",
    "meta": [
     "762K downloads",
     "Released 6 days ago"
@@ -121,7 +121,7 @@
    "cat": "Agents",
    "score": 89,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 532",
+   "desc": "Model on Hugging Face · open source · ♥ 534",
    "meta": [
     "59K downloads",
     "Released 2 days ago"
@@ -156,7 +156,7 @@
    "grow": null,
    "desc": "Linear attention offers an efficient solution for long-sequence modeling via linear complexity and fixed-size recurrent states.",
    "meta": [
-    "▲ 33 upvotes",
+    "▲ 47 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-11-24T19:00:00.000Z",
@@ -172,9 +172,9 @@
    "grow": null,
    "desc": "Run 100 Claude Code or Codex sessions like 5",
    "meta": [
-    "▲ 365 votes",
+    "▲ 367 votes",
     "169 comments",
-    "Launched 19h ago"
+    "Launched 20h ago"
    ],
    "at": "2026-11-26T08:01:00Z",
    "breakout": null
@@ -182,28 +182,6 @@
  ],
  "breakouts": [],
  "hype": [
-  {
-   "name": "GPT-6.2",
-   "url": null,
-   "from": null,
-   "use": null,
-   "useLabel": "No public numbers",
-   "usePct": null,
-   "talk": [
-    {
-     "src": "Hacker News",
-     "t": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
-     "url": "https://news.ycombinator.com/item?id=50651117"
-    },
-    {
-     "src": "Techmeme",
-     "t": "OpenAI says it corrected a GPT-6.2 Astra and Sol launch billing mistake that had incorrectly discounted usage; Astra users will now hit their limits 40% faster",
-     "url": "https://www.techmeme.com/261126/p16#a261126p16"
-    }
-   ],
-   "buzz": 2,
-   "verdict": "Talk only, no public usage numbers"
-  },
   {
    "name": "Opus 5.6",
    "url": null,
@@ -291,8 +269,8 @@
    "name": "llm.asm",
    "url": "https://github.com/alesha-pro/llm.asm",
    "from": "GitHub",
-   "use": 916,
-   "useLabel": "+916 stars/day",
+   "use": 904,
+   "useLabel": "+904 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -406,10 +384,10 @@
  "github": [
   {
    "repo": "alesha-pro/llm.asm",
-   "stars": 1620,
-   "d24": 916,
+   "stars": 1633,
+   "d24": 904,
    "est": false,
-   "forks": 241,
+   "forks": 245,
    "contrib": null,
    "score": 96,
    "cat": "Infrastructure",
@@ -417,8 +395,8 @@
   },
   {
    "repo": "EL4CTEO/fast-anything",
-   "stars": 4264,
-   "d24": 770,
+   "stars": 4273,
+   "d24": 769,
    "est": true,
    "forks": 307,
    "contrib": null,
@@ -428,10 +406,10 @@
   },
   {
    "repo": "nexu-io/opengame",
-   "stars": 1175,
-   "d24": 689,
+   "stars": 1218,
+   "d24": 706,
    "est": true,
-   "forks": 198,
+   "forks": 205,
    "contrib": null,
    "score": 93,
    "cat": "Agents",
@@ -439,10 +417,10 @@
   },
   {
    "repo": "qianyiai/KuroCat",
-   "stars": 1467,
-   "d24": 369,
+   "stars": 1479,
+   "d24": 379,
    "est": false,
-   "forks": 198,
+   "forks": 201,
    "contrib": null,
    "score": 80,
    "cat": "Agents",
@@ -459,7 +437,7 @@
    "grow": 0,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 1505
+   "likes": 1507
   },
   {
    "name": "Inkling-2-Mini",
@@ -470,7 +448,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 6278
+   "likes": 6284
   },
   {
    "name": "Inkling-2-Mini-Uncensored-GGUF",
@@ -481,7 +459,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 940
+   "likes": 943
   },
   {
    "name": "Ternary-Bonsai-2.5-27B-GGUF",
@@ -493,7 +471,7 @@
    "grow": 0,
    "score": 89,
    "cat": "Agents",
-   "likes": 532
+   "likes": 534
   },
   {
    "name": "Sulphur-3",
@@ -504,7 +482,7 @@
    "grow": null,
    "score": 85,
    "cat": "Tools",
-   "likes": 1223
+   "likes": 1226
   },
   {
    "name": "voice-isolator",
@@ -515,7 +493,7 @@
    "grow": 0,
    "score": 84,
    "cat": "Tools",
-   "likes": 968
+   "likes": 969
   }
  ],
  "free": [
@@ -803,10 +781,24 @@
    "kind": "News"
   },
   {
+   "t": "Manila wrote Asean’s AI terms before the vendors arrived",
+   "url": "https://www.manilatimes.net/2026/11/27/opinion/columns/manila-wrote-aseans-ai-terms-before-the-vendors-arrived/2478591",
+   "at": "2026-11-26T16:01:00Z",
+   "src": "The Manila Times",
+   "kind": "News"
+  },
+  {
    "t": "Avicena, which links AI chips with microLEDs instead of lasers, raised a $100M+ Series C led by Intervest, with participation from SK Hynix, Samsung, and AMD",
    "url": "https://www.techmeme.com/261126/p20#a261126p20",
    "at": "2026-11-26T15:50:27.000Z",
    "src": "Techmeme",
+   "kind": "News"
+  },
+  {
+   "t": "My phone is tapped, I'm under constant surveillance: Keralam CM V D Satheesan",
+   "url": "https://economictimes.indiatimes.com/news/politics-and-nation/my-phone-is-tapped-im-under-constant-surveillance-keralam-cm-v-d-satheesan/articleshow/136197093.cms",
+   "at": "2026-11-26T15:42:00Z",
+   "src": "The Economic Times",
    "kind": "News"
   },
   {
@@ -828,6 +820,13 @@
    "url": "https://decrypt.co/384053/openai-fixes-chatgpt-billing-error-promises-to-make-it-40-worse",
    "at": "2026-11-26T15:11:14Z",
    "src": "Decrypt",
+   "kind": "News"
+  },
+  {
+   "t": "FCC approves 1 million SpaceX data centers in space. Astronomers are dismayed.",
+   "url": "https://www.spokesman.com/stories/2026/nov/26/fcc-approves-1-million-spacex-data-centers-in-spac/",
+   "at": "2026-11-26T14:53:00Z",
+   "src": "Spokane Spokesman-Review",
    "kind": "News"
   },
   {
@@ -864,27 +863,6 @@
    "at": "2026-11-26T13:30:01.000Z",
    "src": "Techmeme",
    "kind": "News"
-  },
-  {
-   "t": "OpenAI says it corrected a GPT-6.2 Astra and Sol launch billing mistake that had incorrectly discounted usage; Astra users will now hit their limits 40% faster",
-   "url": "https://www.techmeme.com/261126/p16#a261126p16",
-   "at": "2026-11-26T13:01:08.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Analysis: institutional investors are selling stakes in older VC funds from the 2021 investment boom peak at steep discounts and rushing to back new AI funds",
-   "url": "https://www.techmeme.com/261126/p14#a261126p14",
-   "at": "2026-11-26T12:35:21.000Z",
-   "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "Dozens of court cases in England and Wales affected by undisclosed AI use in 2026",
-   "url": "https://www.theguardian.com/technology/2026/nov/26/dozens-of-court-cases-in-england-and-wales-affected-by-undisclosed-ai-use-in-2026",
-   "at": "2026-11-26T12:19:37Z",
-   "src": "The Guardian",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -893,53 +871,53 @@
    "t": "AI made self-hosting fun again",
    "url": "https://news.ycombinator.com/item?id=50660180",
    "link": "https://janlukas.blog/posts/ai-self-hosting",
-   "up": 390,
-   "com": 211,
+   "up": 410,
+   "com": 224,
    "at": "2026-11-26T21:47:45.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad",
-   "url": "https://news.ycombinator.com/item?id=50659841",
-   "link": "https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/",
-   "up": 274,
-   "com": 52,
-   "at": "2026-11-26T21:08:05.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Hard Drive pricing has gotten bad",
    "url": "https://news.ycombinator.com/item?id=50661646",
    "link": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/",
-   "up": 86,
-   "com": 30,
+   "up": 121,
+   "com": 63,
    "at": "2026-11-27T01:13:49.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "Tracking Diseases Cured by AI",
-   "url": "https://news.ycombinator.com/item?id=50657307",
-   "link": "https://diseasescuredbyai.com/",
-   "up": 305,
-   "com": 182,
-   "at": "2026-11-26T17:16:41.000Z"
+   "t": "Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad",
+   "url": "https://news.ycombinator.com/item?id=50659841",
+   "link": "https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/",
+   "up": 284,
+   "com": 61,
+   "at": "2026-11-26T21:08:05.000Z"
   },
   {
    "src": "Hacker News",
    "t": "YouTube Ad Punisher – Auto-reloads YouTube pages when an ad plays",
    "url": "https://news.ycombinator.com/item?id=50657530",
    "link": "https://github.com/antonpictures/youtube-punisher",
-   "up": 290,
-   "com": 374,
+   "up": 303,
+   "com": 379,
    "at": "2026-11-26T17:36:47.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Tracking Diseases Cured by AI",
+   "url": "https://news.ycombinator.com/item?id=50657307",
+   "link": "https://diseasescuredbyai.com/",
+   "up": 306,
+   "com": 183,
+   "at": "2026-11-26T17:16:41.000Z"
   },
   {
    "src": "Hacker News",
    "t": "AMD-specific fork of llama.cpp",
    "url": "https://news.ycombinator.com/item?id=50657265",
    "link": "https://devnull.land/amd-specific-llama-cpp",
-   "up": 300,
-   "com": 73,
+   "up": 303,
+   "com": 74,
    "at": "2026-11-26T17:11:29.000Z"
   }
  ]
