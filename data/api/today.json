@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-27T19:48:21.922Z"
+  "updated": "2026-11-27T20:01:04.885Z"
  },
  "pulse": {
-  "trending": 76,
-  "accelerating": 7,
-  "newModels": 13,
-  "discussions": 36,
-  "stars": 2990
+  "trending": 74,
+  "accelerating": 6,
+  "newModels": 10,
+  "discussions": 35,
+  "stars": 2981
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 80,
    "desc": "The Super Game Agent — the Unity & Unreal for AI agents, with 100+ viral games to remix. Turn 20+ coding agents (Claude Code, Codex, DeepSeek, etc.) into a full-stack AI game studio. Build and publish 3D & mini-games to WeChat, Douyin, TikTok, Telegram, itch.io, and more.",
    "meta": [
-    "★ 2,113",
-    "+1,382 in 24h",
+    "★ 2,117",
+    "+1,370 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-25T10:35:45Z",
@@ -41,8 +41,8 @@
    "grow": 11,
    "desc": "Qwen3-0.6B inference (12 KB), bare-metal bootable OS (22 KB), and from-scratch Mini-GPT trainer with live Braille TUI (32 KB) in 100% pure x86-64 NASM assembly. Zero C, zero libc, zero dependencies.",
    "meta": [
-    "★ 2,040",
-    "+610 in 24h",
+    "★ 2,047",
+    "+615 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-25T07:28:51Z",
@@ -88,7 +88,7 @@
    "cat": "Agents",
    "score": 90,
    "grow": 544,
-   "desc": "Model on Hugging Face · open source · ♥ 602",
+   "desc": "Model on Hugging Face · open source · ♥ 610",
    "meta": [
     "383K downloads",
     "Released 3 days ago"
@@ -107,28 +107,12 @@
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile your app, port the hot functions with your coding agent, prove they behave the same. Python, JS/TS, Ruby, Java, Kotlin, Go, PHP, C/C++, C#, R.",
    "meta": [
     "★ 4,429",
-    "~713 in 24h",
+    "~712 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-11-21T14:40:27Z",
    "breakout": null,
    "url": "https://github.com/EL4CTEO/fast-anything"
-  },
-  {
-   "name": "Inkling-2-Mini-Uncensored-GGUF",
-   "owner": "AtomicChat",
-   "src": "hf",
-   "cat": "Infrastructure",
-   "score": 88,
-   "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 994",
-   "meta": [
-    "1.1M downloads",
-    "Released 7 days ago"
-   ],
-   "at": "2026-11-20T20:42:23.000Z",
-   "breakout": null,
-   "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF"
   },
   {
    "name": "Sulphur-3",
@@ -147,20 +131,20 @@
    "url": "https://huggingface.co/SulphurAI/Sulphur-3"
   },
   {
-   "name": "Inkling-2-Mini-GSQ-RCO-GGUF",
-   "owner": "ISTA-DASLab",
+   "name": "Inkling-2-Mini-Uncensored-GGUF",
+   "owner": "AtomicChat",
    "src": "hf",
    "cat": "Infrastructure",
-   "score": 85,
+   "score": 87,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 227",
+   "desc": "Model on Hugging Face · open source · ♥ 1K",
    "meta": [
-    "25K downloads",
-    "Released yesterday"
+    "1.1M downloads",
+    "Released 7 days ago"
    ],
-   "at": "2026-11-26T13:01:01.000Z",
+   "at": "2026-11-20T20:42:23.000Z",
    "breakout": null,
-   "url": "https://huggingface.co/ISTA-DASLab/Inkling-2-Mini-GSQ-RCO-GGUF"
+   "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF"
   },
   {
    "name": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
@@ -177,6 +161,23 @@
    ],
    "at": "2026-11-24T19:00:00.000Z",
    "breakout": null
+  },
+  {
+   "name": "Hub",
+   "owner": "Product Hunt",
+   "src": "ph",
+   "url": "https://www.producthunt.com/products/hub-20?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Upcurrent+%28ID%3A+302252%29",
+   "cat": "Agents",
+   "score": 85,
+   "grow": null,
+   "desc": "Run 100 Claude Code or Codex sessions like 5",
+   "meta": [
+    "▲ 416 votes",
+    "167 comments",
+    "Launched 2 days ago"
+   ],
+   "at": "2026-11-26T08:01:00Z",
+   "breakout": null
   }
  ],
  "breakouts": [],
@@ -187,7 +188,7 @@
    "from": "Hugging Face",
    "use": 155741,
    "useLabel": "156K downloads",
-   "usePct": 0.7741935483870968,
+   "usePct": 0.7586206896551724,
    "talk": [
     {
      "src": "Hugging Face blog",
@@ -202,8 +203,8 @@
    "name": "opengame",
    "url": "https://github.com/nexu-io/opengame",
    "from": "GitHub",
-   "use": 1382,
-   "useLabel": "+1,382 stars/day",
+   "use": 1370,
+   "useLabel": "+1,370 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -226,7 +227,7 @@
    "from": "Hugging Face",
    "use": 1059763,
    "useLabel": "1.1M downloads",
-   "usePct": 0.967741935483871,
+   "usePct": 0.9655172413793104,
    "talk": [],
    "buzz": 0,
    "verdict": "Used a lot, hardly talked about"
@@ -317,10 +318,10 @@
  "github": [
   {
    "repo": "nexu-io/opengame",
-   "stars": 2113,
-   "d24": 1382,
+   "stars": 2117,
+   "d24": 1370,
    "est": false,
-   "forks": 346,
+   "forks": 347,
    "contrib": null,
    "score": 95,
    "cat": "Agents",
@@ -329,7 +330,7 @@
   {
    "repo": "EL4CTEO/fast-anything",
    "stars": 4429,
-   "d24": 713,
+   "d24": 712,
    "est": true,
    "forks": 317,
    "contrib": null,
@@ -339,8 +340,8 @@
   },
   {
    "repo": "alesha-pro/llm.asm",
-   "stars": 2040,
-   "d24": 610,
+   "stars": 2047,
+   "d24": 615,
    "est": false,
    "forks": 314,
    "contrib": null,
@@ -351,7 +352,7 @@
   {
    "repo": "qianyiai/KuroCat",
    "stars": 1755,
-   "d24": 285,
+   "d24": 284,
    "est": true,
    "forks": 246,
    "contrib": null,
@@ -370,7 +371,7 @@
    "grow": null,
    "score": 90,
    "cat": "Vision",
-   "likes": 6419
+   "likes": 6428
   },
   {
    "name": "Inkling-2-Mini-GGUF",
@@ -381,7 +382,7 @@
    "grow": null,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 1565
+   "likes": 1573
   },
   {
    "name": "Ternary-Bonsai-2.5-27B-GGUF",
@@ -393,18 +394,7 @@
    "grow": 544,
    "score": 90,
    "cat": "Agents",
-   "likes": 602
-  },
-  {
-   "name": "Inkling-2-Mini-Uncensored-GGUF",
-   "org": "AtomicChat",
-   "lic": "Open source",
-   "at": "2026-11-20T20:42:23.000Z",
-   "dl": 1059763,
-   "grow": null,
-   "score": 88,
-   "cat": "Infrastructure",
-   "likes": 994
+   "likes": 610
   },
   {
    "name": "Sulphur-3",
@@ -415,7 +405,18 @@
    "grow": null,
    "score": 87,
    "cat": "Tools",
-   "likes": 1333
+   "likes": 1347
+  },
+  {
+   "name": "Inkling-2-Mini-Uncensored-GGUF",
+   "org": "AtomicChat",
+   "lic": "Open source",
+   "at": "2026-11-20T20:42:23.000Z",
+   "dl": 1059763,
+   "grow": null,
+   "score": 87,
+   "cat": "Infrastructure",
+   "likes": 1005
   },
   {
    "name": "Inkling-2-Mini-GSQ-RCO-GGUF",
@@ -424,9 +425,9 @@
    "at": "2026-11-26T13:01:01.000Z",
    "dl": 24931,
    "grow": null,
-   "score": 85,
+   "score": 84,
    "cat": "Infrastructure",
-   "likes": 227
+   "likes": 236
   }
  ],
  "free": [
@@ -766,31 +767,31 @@
    "kind": "News"
   },
   {
+   "t": "China's humanoid robot investment set to accelerate, selective commercial use expected in 2027: Morgan Stanley",
+   "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/chinas-humanoid-robot-investment-set-to-accelerate-selective-commercial-use-expected-in-2027-morgan-stanley/articleshow/136214198.cms",
+   "at": "2026-11-27T07:56:21Z",
+   "src": "The Economic Times",
+   "kind": "News"
+  },
+  {
+   "t": "Staying honest in music & ignoring viral trends",
+   "url": "https://www.deccanherald.com/entertainment/trends-come-and-go-but-i-just-want-to-be-honest-with-the-music-i-make-says-darshan-raval-4233180",
+   "at": "2026-11-27T07:55:44Z",
+   "src": "Deccan Herald",
+   "kind": "News"
+  },
+  {
+   "t": "Execurio Network Hosts The Maiden Edition Of \"AI Pioneer Of India 2026\", Recognising The AI Powerhouses Leading India's Artificial Intelligence Revolution - Outlook Business",
+   "url": "https://www.outlookbusiness.com/spotlight/pr-wire/execurio-network-hosts-the-maiden-edition-of-ai-pioneer-of-india-2026-recognising-the-ai-powerhouses-leading-indias-artificial-intelligence-revolution",
+   "at": "2026-11-27T07:48:58Z",
+   "src": "Outlook Business",
+   "kind": "News"
+  },
+  {
    "t": "As Google threatens to cut schools’ search access, Los Angeles blocks AI features",
    "url": "https://triblive.com/news/world/as-google-threatens-to-cut-schools-search-access-los-angeles-blocks-ai-features/",
    "at": "2026-11-27T07:47:22Z",
    "src": "Pittsburgh Tribune-Review",
-   "kind": "News"
-  },
-  {
-   "t": "China's humanoid robot investment set to accelerate, selective commercial use expected in 2027: Morgan Stanley",
-   "url": "https://www.aninews.in/news/business/chinas-humanoid-robot-investment-set-to-accelerate-selective-commercial-use-expected-in-2027-morgan-stanley20261127131706/",
-   "at": "2026-11-27T07:47:06Z",
-   "src": "ANI (Asian News International)",
-   "kind": "News"
-  },
-  {
-   "t": "China's humanoid robot investment set to accelerate, commercial use expected by 2027",
-   "url": "https://www.lokmattimes.com/business/chinas-humanoid-robot-investment-set-to-accelerate-commercial-use-expected-by-2027-a001-w01/",
-   "at": "2026-11-27T07:47:06Z",
-   "src": "Lokmat Times",
-   "kind": "News"
-  },
-  {
-   "t": "Nifty To See Limited Upside? CLSA's Vikash Jain Sees Low-Teens Even As FPI Investment Continues | Here's Why",
-   "url": "https://www.ndtvprofit.com/markets/nifty-to-see-limited-upside-clsas-vikash-jain-sees-low-teens-even-as-fpi-investment-continues-heres-why-12383902",
-   "at": "2026-11-27T07:45:26Z",
-   "src": "NDTV Profit",
    "kind": "News"
   }
  ],
@@ -800,8 +801,8 @@
    "t": "I'm Scared of AI",
    "url": "https://news.ycombinator.com/item?id=50669561",
    "link": "https://thesoapbox.email/archive/3",
-   "up": 178,
-   "com": 190,
+   "up": 185,
+   "com": 199,
    "at": "2026-11-27T17:45:31.000Z"
   },
   {
@@ -809,8 +810,8 @@
    "t": "Show HN: bouncemarket – a live prediction market game for a bouncing ball",
    "url": "https://news.ycombinator.com/item?id=50667726",
    "link": "https://bouncemarket.minhanhday.com/",
-   "up": 265,
-   "com": 81,
+   "up": 267,
+   "com": 83,
    "at": "2026-11-27T15:01:50.000Z"
   },
   {
@@ -818,8 +819,8 @@
    "t": "Group chat where your AI talks behind your back",
    "url": "https://news.ycombinator.com/item?id=50663595",
    "link": "https://construct22.com/",
-   "up": 617,
-   "com": 261,
+   "up": 624,
+   "com": 262,
    "at": "2026-11-27T06:44:34.000Z"
   },
   {
@@ -827,7 +828,7 @@
    "t": "AI made self-hosting fun again",
    "url": "https://news.ycombinator.com/item?id=50660180",
    "link": "https://janlukas.blog/posts/ai-self-hosting",
-   "up": 1024,
+   "up": 1030,
    "com": 488,
    "at": "2026-11-26T21:47:45.000Z"
   },
@@ -836,18 +837,18 @@
    "t": "Convex skills send the user's app idea to a remote server without telling them",
    "url": "https://news.ycombinator.com/item?id=50669765",
    "link": "https://github.com/convex/convex-backend-skill/issues/64",
-   "up": 72,
-   "com": 19,
+   "up": 76,
+   "com": 22,
    "at": "2026-11-27T18:02:45.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "US Air Force's cloud computing platform hacked",
-   "url": "https://news.ycombinator.com/item?id=50666375",
-   "link": "https://news.sky.com/story/us-air-forces-cloud-computing-platform-hacked-13617163",
-   "up": 262,
-   "com": 159,
-   "at": "2026-11-27T12:54:11.000Z"
+   "t": "Claude sabotaging ML research tasks?",
+   "url": "https://news.ycombinator.com/item?id=50664325",
+   "link": "https://twitter.com/RealAstropulse/status/2126119408997466389",
+   "up": 431,
+   "com": 223,
+   "at": "2026-11-27T08:28:08.000Z"
   }
  ]
 }
