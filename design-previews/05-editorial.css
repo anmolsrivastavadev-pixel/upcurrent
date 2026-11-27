@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@500;700&family=Fira+Sans:wght@400;500;600&display=swap');
+:root:root:root { --bg: #ffffff; --chip: #f2f2f2; --line: #e2e2e2; --ink: #141414; --muted: #555; --cool: #e3e3e3; --warm: #a8a8a8; --hot: #141414; --up-text: #0b7a3e; --font-display: "Domine", Georgia, serif; --font-body: "Fira Sans", system-ui, sans-serif; --text-xl: 32px; --paper: #ffffff; --sky: #ffffff; --sky-2: #ffffff; --sky-ink: #141414; --sky-muted: #555; --sky-line: #e2e2e2; --faint: #555; --link: #141414; --hot-text: #141414; --band: #141414; --band-ink: #ffffff; --font-mono: "Fira Sans", system-ui, sans-serif; }
+
+.wrap { max-width: 760px; }
+.top .wrap { max-width: 1180px; }
+.hero > div:first-child { padding-top: 56px; text-align: center; }
+.dateline { justify-content: center; }
+.hero h1 { font: 700 clamp(36px, 5vw, 54px)/1.12 var(--font-display); margin-inline: auto; max-width: 18ch; }
+.brief { grid-template-columns: 1fr; text-align: left; max-width: 60ch; margin: 0 auto; }
+.mini-signup { margin-inline: auto; text-align: left; }
+.glance { justify-content: center; }
+.sec-head { flex-direction: column; align-items: center; text-align: center; }
+.sec-head > div { align-items: center; }
+.sec-head h2 { font-weight: 700; }
+.movers, .bo-list, .receipts, .hype, .models, .tbl, .threads, .timeline, .free, .news { border-top: 3px double #141414; }
+.row h3, .hy h3, .bo h3, .model h3 { font-family: var(--font-display); }
+.models { grid-template-columns: 1fr 1fr; } .split, .news, .free { grid-template-columns: 1fr; }
+.signup { grid-template-columns: 1fr; text-align: center; background: #141414; }
+
+@media (max-width: 700px) { .brief { grid-template-columns: minmax(0, 1fr) !important; } }
+.sec-head .controls { min-width: 0; }

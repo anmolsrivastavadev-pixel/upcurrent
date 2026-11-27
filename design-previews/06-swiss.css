@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@400;500;700;800&display=swap');
+:root:root:root { --bg: #ffffff; --chip: #f0f0f0; --line: #e0e0e0; --ink: #000; --muted: #555; --cool: #e0e0e0; --warm: #f59a8f; --hot: #e10600; --up-text: #0b7a3e; --font-display: "Geist", system-ui, sans-serif; --font-body: "Geist", system-ui, sans-serif; --text-xl: 40px; --paper: #ffffff; --sky: #ffffff; --sky-2: #ffffff; --sky-ink: #000; --sky-muted: #555; --sky-line: #e0e0e0; --faint: #555; --link: #000; --hot-text: #000; --band: #000; --band-ink: #ffffff; --font-mono: "Geist", system-ui, sans-serif; }
+.top { position: relative; isolation: isolate; } .top::before { content: ""; position: absolute; z-index: -1; top: 0; bottom: 0; left: 50%; width: 100vw; transform: translateX(-50%); background: #e10600; }
+
+.top { background: #e10600; border: 0; } .top a, nav.main a, .logo { color: #fff; }
+nav.main a:hover { background: rgba(0,0,0,.18); color: #fff; }
+.search input, .top .lang-pick select { background: #fff; border-color: #fff; }
+.hero > div:first-child { padding-top: 64px; display: grid; grid-template-columns: 3fr 9fr; column-gap: 32px; }
+.hero > div:first-child > * { grid-column: 2; }
+.hero > div:first-child > .dateline { grid-column: 1; grid-row: 1 / span 3; flex-direction: column; align-items: flex-start; }
+.hero h1 { font: 800 clamp(44px, 6vw, 88px)/.95 var(--font-display); letter-spacing: -.04em; margin-top: 0; max-width: 12ch; }
+.brief { grid-template-columns: 1fr 1fr; }
+section.block { display: grid; grid-template-columns: 3fr 9fr; column-gap: 32px; }
+section.block > * { grid-column: 2; } section.block .controls { flex-direction: column; align-items: flex-start; } section.block > .sec-head { grid-column: 1; grid-row: 1 / span 9; align-self: start; position: sticky; top: 90px; flex-direction: column; align-items: flex-start; }
+.sec-head h2 { font: 800 30px/1 var(--font-display); letter-spacing: -.03em; }
+.rank { font-weight: 800; color: #000; } .row.lead .rank { color: #e10600; }
+.chip[aria-pressed="true"], .seg button[aria-pressed="true"] { background: #e10600; border-color: #e10600; color: #fff; }
+.mini-row button { background: #e10600; color: #fff; }
+.signup { background: #e10600; color: #fff; } .signup button { background: #000; color: #fff; }
+@media (max-width: 900px) { .hero > div:first-child, section.block { display: block; } .sec-head { position: static; } }
+
+@media (max-width: 700px) { .brief { grid-template-columns: minmax(0, 1fr) !important; } }
+.sec-head .controls { min-width: 0; }

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;500;700&family=Red+Hat+Mono:wght@500;700&display=swap');
+:root:root:root { --bg: #0e0e0e; --paper: #151515; --chip: #222; --line: #2a2a2a; --ink: #ededed; --muted: #a6a6a6; --cool: #3a3a3a; --warm: #8a6a1a; --hot: #ffb000; --up: #2fd07a; --up-text: #3ddc84; --badge-up: #14703f; --badge-hot: #5a4400; --font-display: "Red Hat Text", system-ui, sans-serif; --font-body: "Red Hat Text", system-ui, sans-serif; --font-mono: "Red Hat Mono", ui-monospace, monospace; --text-xl: 22px; --sky: #0e0e0e; --sky-2: #151515; --sky-ink: #ededed; --sky-muted: #a6a6a6; --sky-line: #2a2a2a; --faint: #a6a6a6; --link: #ededed; --hot-text: #ededed; --band: #ededed; --band-ink: #0e0e0e; }
+
+body { font-size: 14px; }
+.wrap { max-width: 1440px; }
+.top { background: #000; } .logo { color: #ffb000; font-weight: 700; }
+nav.main a { font-size: 13.5px; } nav.main a:hover { background: #222; color: #ffb000; }
+.hero > div:first-child { padding-top: 20px; }
+.hero h1 { font: 700 34px/1.15 var(--font-display); max-width: none; letter-spacing: 0; }
+.hero h1 .mover { color: #ffb000; }
+.brief { grid-template-columns: repeat(4, minmax(0, 1fr)); font-size: 13.5px; }
+.brief li { font-size: 13.5px; }
+.mini-row button { background: #ffb000; color: #000; }
+.glance b { color: #ffb000; }
+.row { padding-block: 10px; } .row .desc { display: none; }
+.row h3, .row.lead h3 { font: 700 16px var(--font-mono); }
+.rank { font-size: 16px; }
+.heat .score { font-size: 16px; background: #222; color: #ffb000; }
+.sec-head h2 { font: 700 18px var(--font-mono); }
+.movers, .bo-list, .receipts, .hype, .models, .tbl, .threads, .timeline, .free, .news { border-top: 1px solid #ffb000; }
+.signup { background: #ffb000; color: #000; } .signup button { background: #000; color: #ffb000; }
+.updraft canvas { height: 160px; min-height: 0; flex: none; }
+
+@media (max-width: 700px) { .brief { grid-template-columns: minmax(0, 1fr) !important; } }
+.sec-head .controls { min-width: 0; }

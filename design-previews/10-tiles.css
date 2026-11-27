@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
+:root:root:root { --bg: #eef0f3; --paper: #ffffff; --chip: #eef0f3; --line: #dfe3e8; --ink: #141820; --muted: #59606b; --cool: #d5dae1; --warm: #9aa8ff; --hot: #3d5afe; --up-text: #0b7a3e; --font-display: "Rubik", system-ui, sans-serif; --font-body: "Rubik", system-ui, sans-serif; --radius-sm: 6px; --radius-md: 8px; --radius-lg: 14px; --sky: #eef0f3; --sky-2: #ffffff; --sky-ink: #141820; --sky-muted: #59606b; --sky-line: #dfe3e8; --faint: #59606b; --link: #141820; --hot-text: #141820; --band: #141820; --band-ink: #eef0f3; --font-mono: "Rubik", system-ui, sans-serif; }
+
+.hero > div:first-child { margin-top: 24px; padding: 28px; background: #fff; border-radius: 14px; }
+.hero h1 { font: 600 clamp(32px, 4vw, 48px)/1.1 var(--font-display); }
+.mini-row button { background: #3d5afe; color: #fff; }
+.glance { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; padding-top: 12px; }
+.glance div { background: #fff; border-radius: 14px; padding: 16px 18px !important; }
+.glance b { display: block; font: 600 30px/1.1 var(--font-display); }
+.movers { border: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.row { background: #fff; border: 0; border-radius: 14px; padding: 18px; grid-template-columns: 34px minmax(0,1fr); }
+.row .heat { grid-column: 2; justify-self: start; justify-items: start; grid-auto-flow: column; align-items: center; }
+.row .desc { display: none; }
+.rank { font-size: 20px; }
+.chip[aria-pressed="true"], .seg button[aria-pressed="true"] { background: #3d5afe; border-color: #3d5afe; color: #fff; }
+.updraft { background: #fff; border-radius: 14px; padding: 20px; border: 0; }
+.bo-list, .receipts, .hype, .models, .tbl, .threads, .timeline, .free, .news { border: 0; background: #fff; border-radius: 14px; padding: 4px 20px; }
+.signup { background: #3d5afe; border-radius: 14px; } .signup button { background: #fff; color: #3d5afe; }
+@media (max-width: 700px) { .glance { grid-template-columns: 1fr 1fr; } .movers { grid-template-columns: 1fr; } }
+
+@media (max-width: 700px) { .brief { grid-template-columns: minmax(0, 1fr) !important; } }
+.sec-head .controls { min-width: 0; }

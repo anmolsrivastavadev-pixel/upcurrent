@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;700&family=Geist+Mono:wght@500;600&display=swap');
+:root:root:root { --bg: #131315; --paper: #1b1b1e; --chip: #26262a; --line: #2e2e33; --ink: #eeeeef; --muted: #a9a9b0; --cool: #2c3a40; --warm: #2b8fb0; --hot: #38d6ff; --up: #3ddc84; --up-text: #4ee08f; --badge-up: #14703f; --badge-hot: #0d5f73; --font-display: "Gabarito", system-ui, sans-serif; --font-body: "Gabarito", system-ui, sans-serif; --font-mono: "Geist Mono", ui-monospace, monospace; --sky: #131315; --sky-2: #1b1b1e; --sky-ink: #eeeeef; --sky-muted: #a9a9b0; --sky-line: #2e2e33; --faint: #a9a9b0; --link: #eeeeef; --hot-text: #eeeeef; --band: #eeeeef; --band-ink: #131315; }
+
+.top { background: #131315; }
+.hero h1 { font: 700 clamp(38px, 5vw, 64px)/1.04 var(--font-display); letter-spacing: -.02em; }
+.hero h1 .mover { color: #38d6ff; }
+.mini-row input { background: #1b1b1e; border-color: #4a4a52; color: #fff; } .mini-row button { background: #38d6ff; color: #04161c; }
+.chip[aria-pressed="true"], .seg button[aria-pressed="true"] { background: #38d6ff; border-color: #38d6ff; color: #04161c; }
+.row.lead { box-shadow: inset 3px 0 0 #38d6ff; }
+.heat .score { color: #38d6ff; background: #1b2a30; }
+.movers, .bo-list, .receipts, .hype, .models, .tbl, .threads, .timeline, .free, .news { border-top: 1px solid #38d6ff; }
+.signup { background: #0d2a33; } .signup button { background: #38d6ff; color: #04161c; }
+.updraft { background: #1b1b1e; border: 1px solid #2e2e33; border-radius: 10px; padding: 20px; }
+
+@media (max-width: 700px) { .brief { grid-template-columns: minmax(0, 1fr) !important; } }
+.sec-head .controls { min-width: 0; }

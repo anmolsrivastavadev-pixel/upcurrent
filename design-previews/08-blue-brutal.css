@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Gantari:wght@400;500;700&display=swap');
+:root:root:root { --bg: #1f3bff; --paper: #1f3bff; --chip: #1630d6; --line: rgba(255,255,255,.55); --ink: #ffffff; --muted: #dfe4ff; --cool: #6f80ff; --warm: #c9d0ff; --hot: #ffffff; --up: #ffffff; --up-text: #ffffff; --badge-up: #000; --badge-hot: #000; --font-display: "Dela Gothic One", system-ui, sans-serif; --font-body: "Gantari", system-ui, sans-serif; --band: #000; --band-ink: #fff; --radius-sm: 0; --radius-md: 0; --radius-lg: 0; --radius-pill: 0; --sky: #1f3bff; --sky-2: #1f3bff; --sky-ink: #ffffff; --sky-muted: #dfe4ff; --sky-line: rgba(255,255,255,.55); --faint: #dfe4ff; --link: #ffffff; --hot-text: #ffffff; --font-mono: "Gantari", system-ui, sans-serif; }
+
+.top { background: #1f3bff; border-bottom: 3px solid #fff; }
+.search input, .top .lang-pick select, .mini-row input { background: transparent; border: 2px solid #fff; color: #fff; }
+.search input::placeholder, .mini-row input::placeholder { color: #dfe4ff; }
+.hero h1 { font: 400 clamp(40px, 6vw, 84px)/1.02 var(--font-display); letter-spacing: -.01em; max-width: 16ch; }
+.mini-row button { background: #fff; color: #1f3bff; }
+.sec-head h2 { font: 400 36px/1.05 var(--font-display); }
+.movers, .bo-list, .receipts, .hype, .models, .tbl, .threads, .timeline, .free, .news { border-top: 3px solid #fff; }
+.row, .bo, .receipts li, .hy, .model, td, th, .thread, .news li, .fm { border-bottom: 2px solid #fff !important; }
+.rank { font: 400 32px var(--font-display); color: #fff; }
+.row h3 { font: 400 22px/1.15 var(--font-display); }
+.heat .score { background: #fff; color: #1f3bff; }
+.chip, .seg { border: 2px solid #fff; color: #fff; } .chip[aria-pressed="true"], .seg button[aria-pressed="true"] { background: #fff; color: #1f3bff; }
+.since-bar, .poll, .steps li, .qa > div, .win, .free-watch, .updraft { background: transparent; border: 2px solid #fff; }
+.src { background: #fff; color: #1f3bff; }
+.signup { background: #000; } .signup button { background: #fff; color: #000; }
+
+@media (max-width: 700px) { .brief { grid-template-columns: minmax(0, 1fr) !important; } }
+.sec-head .controls { min-width: 0; }

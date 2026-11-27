@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;700&display=swap');
+:root:root:root { --bg: #f6f6f6; --paper: #ffffff; --chip: #ebebeb; --line: #dddddd; --ink: #111; --muted: #5f5f5f; --cool: #d0d0d0; --warm: #ffb27a; --hot: #ff6600; --up: #1a8a3c; --up-text: #14782f; --font-display: "Golos Text", Verdana, sans-serif; --font-body: "Golos Text", Verdana, sans-serif; --text-xl: 20px; --sky: #f6f6f6; --sky-2: #ffffff; --sky-ink: #111; --sky-muted: #5f5f5f; --sky-line: #dddddd; --faint: #5f5f5f; --link: #111; --hot-text: #111; --band: #111; --band-ink: #f6f6f6; --font-mono: "Golos Text", Verdana, sans-serif; }
+
+body { font-size: 14.5px; }
+.wrap { max-width: 980px; }
+.top { background: #ff6600; border: 0; } .top, .top a, nav.main a { color: #111; }
+nav.main a:hover { background: rgba(0,0,0,.12); color: #000; }
+.logo { font: 700 18px var(--font-display); }
+.search input, .top .lang-pick select { background: #fff; border-color: #c25000; }
+.hero > div:first-child { padding-top: 22px; }
+.hero h1 { font: 700 28px/1.2 var(--font-display); letter-spacing: 0; max-width: none; }
+.brief { grid-template-columns: 1fr 1fr; } .brief li { font-size: 14px; }
+.mini-row button { background: #ff6600; color: #111; }
+.sec-head h2 { font-size: 20px; }
+.row { padding-block: 10px; grid-template-columns: 30px minmax(0,1fr) 110px; }
+.rank { font-size: 15px; color: #828282; } .row.lead .rank { color: #ff6600; }
+.row h3, .row.lead h3 { font-size: 16px; } .row .desc { font-size: 13.5px; }
+.heat .score { font-size: 16px; }
+.movers, .bo-list, .receipts, .hype, .models, .tbl, .threads, .timeline, .free, .news { border-top: 2px solid #ff6600; }
+.chip[aria-pressed="true"], .seg button[aria-pressed="true"] { background: #ff6600; border-color: #ff6600; color: #111; }
+.signup { background: #ff6600; color: #111; } .signup button { background: #111; color: #fff; }
+.updraft canvas { height: 180px; min-height: 0; flex: none; }
+
+@media (max-width: 700px) { .brief { grid-template-columns: minmax(0, 1fr) !important; } }
+.sec-head .controls { min-width: 0; }

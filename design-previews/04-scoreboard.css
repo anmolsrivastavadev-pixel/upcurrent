@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@700;900&family=Geologica:wght@400;500;700&display=swap');
+:root:root:root { --bg: #f4f5f3; --paper: #ffffff; --chip: #e8eae6; --line: #d9dcd6; --ink: #111; --muted: #555; --cool: #cfd3cc; --warm: #9db58f; --hot: #0d5c3a; --up-text: #0b6b35; --font-display: "Geologica", system-ui, sans-serif; --font-body: "Geologica", system-ui, sans-serif; --font-mono: "Doto", ui-monospace, monospace; --sky: #f4f5f3; --sky-2: #ffffff; --sky-ink: #111; --sky-muted: #555; --sky-line: #d9dcd6; --faint: #555; --link: #111; --hot-text: #111; --band: #111; --band-ink: #f4f5f3; }
+.hero > div:first-child { position: relative; isolation: isolate; } .hero > div:first-child::before { content: ""; position: absolute; z-index: -1; top: 0; bottom: 0; left: 50%; width: 100vw; transform: translateX(-50%); background: #0d3b28; }
+#top > .glance { position: relative; isolation: isolate; } #top > .glance::before { content: ""; position: absolute; z-index: -1; top: 0; bottom: 0; left: 50%; width: 100vw; transform: translateX(-50%); background: #0d3b28; }
+
+.hero > div:first-child { padding: 40px 0 28px; color: #fff; }
+.hero h1 { font: 700 clamp(36px, 4.8vw, 60px)/1.05 var(--font-display); color: #fff; max-width: 20ch; }
+.hero .eyebrow, .live, .brief li, .hero .sample-link, .gen, .mini-signup label, .hero .sample-link a { color: #d7e6dc !important; }
+.brief li:first-child { color: #fff !important; } .brief li::before { color: #ffd400; }
+.mini-row input { background: #0a2e1f; border-color: #3d7a5c; color: #fff; } .mini-row button { background: #ffd400; color: #111; }
+#top > .glance { padding: 8px 0 36px; gap: 8px 48px; }
+.glance b { font: 900 52px/1 "Doto", monospace; color: #ffd400; display: block; }
+.glance span { color: #d7e6dc; }
+.rank { font: 900 36px/1 "Doto", monospace; color: #9aa39a; } .row.lead .rank { color: #0d5c3a; }
+.heat .score { font: 900 30px/1 "Doto", monospace; background: #0d3b28; color: #ffd400; }
+.heat .score small { color: #d7e6dc; }
+.chip[aria-pressed="true"], .seg button[aria-pressed="true"] { background: #0d3b28; border-color: #0d3b28; color: #ffd400; }
+.signup { background: #0d3b28; } .signup button { background: #ffd400; color: #111; }
+
+@media (max-width: 700px) { .brief { grid-template-columns: minmax(0, 1fr) !important; } }
+.sec-head .controls { min-width: 0; }

@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;500;700&display=swap');
+:root:root:root { --bg: #ffffff; --chip: #f1f1f1; --line: #e4e4e4; --ink: #111; --muted: #555; --cool: #e0e0e0; --warm: #ff9fcb; --hot: #ff2e88; --up-text: #0b7a3e; --font-display: "Familjen Grotesk", system-ui, sans-serif; --font-body: "Familjen Grotesk", system-ui, sans-serif; --text-xl: clamp(32px,4vw,48px); --paper: #ffffff; --sky: #ffffff; --sky-2: #ffffff; --sky-ink: #111; --sky-muted: #555; --sky-line: #e4e4e4; --faint: #555; --link: #111; --hot-text: #111; --band: #111; --band-ink: #ffffff; --font-mono: "Familjen Grotesk", system-ui, sans-serif; }
+.hero > div:first-child { position: relative; isolation: isolate; } .hero > div:first-child::before { content: ""; position: absolute; z-index: -1; top: 0; bottom: 0; left: 50%; width: 100vw; transform: translateX(-50%); background: #ff4fa3; }
+
+.hero > div:first-child { padding: 56px 0 48px; }
+.hero h1 { font: 700 clamp(48px, 7vw, 96px)/.95 var(--font-display); letter-spacing: -.03em; max-width: 14ch; color: #111; }
+.hero .eyebrow, .live, .brief li, .hero .sample-link, .gen, .mini-signup label { color: #111 !important; }
+.brief li::before { color: #111; }
+.mini-row input { border-color: #111; } .mini-row button { background: #111; color: #fff; }
+.glance { padding-top: 24px; }
+.sec-head h2 { letter-spacing: -.02em; }
+.row.lead .rank, .row.lead h3 { color: #d1006a; }
+.chip[aria-pressed="true"], .seg button[aria-pressed="true"] { background: #ff4fa3; border-color: #ff4fa3; color: #111; }
+.signup { background: #ff4fa3; color: #111; } .signup button { background: #111; color: #fff; }
+
+@media (max-width: 700px) { .brief { grid-template-columns: minmax(0, 1fr) !important; } }
+.sec-head .controls { min-width: 0; }

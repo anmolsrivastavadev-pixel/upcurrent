@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Figtree:wght@400;500;600&display=swap');
+:root:root:root { --bg: #eef7f5; --paper: #ffffff; --chip: #e2f0ec; --line: #d3e6e1; --ink: #10221f; --muted: #4f615d; --cool: #cfe5df; --warm: #7fd3c3; --hot: #0e9f8a; --up-text: #0b7a5a; --font-display: "Fredoka", system-ui, sans-serif; --font-body: "Figtree", system-ui, sans-serif; --radius-sm: 8px; --radius-md: 14px; --radius-lg: 22px; --radius-pill: 999px; --sky: #eef7f5; --sky-2: #ffffff; --sky-ink: #10221f; --sky-muted: #4f615d; --sky-line: #d3e6e1; --faint: #4f615d; --link: #10221f; --hot-text: #10221f; --band: #10221f; --band-ink: #eef7f5; --font-mono: "Figtree", system-ui, sans-serif; }
+
+.hero > div:first-child { padding: 40px 36px 32px; margin-top: 28px; background: #fff; border-radius: 28px; }
+.hero h1 { font: 600 clamp(38px, 5vw, 62px)/1.05 var(--font-display); }
+.mini-row input { border-radius: 999px; padding-inline: 18px; } .mini-row button { border-radius: 999px; background: #0e9f8a; color: #fff; }
+.glance { padding: 24px 0 0; }
+.sec-head h2 { font: 600 34px/1.1 var(--font-display); }
+.movers { border: 0; display: grid; gap: 12px; } .row { background: #fff; border: 0; border-radius: 22px; padding: 18px 20px; }
+.rank { font: 600 28px var(--font-display); color: #0e9f8a; }
+.row h3 { font-family: var(--font-display); font-weight: 600; }
+.heat .score { border-radius: 14px; background: #e2f0ec; }
+.chip, .seg { border-radius: 999px; } .chip[aria-pressed="true"], .seg button[aria-pressed="true"] { background: #0e9f8a; border-color: #0e9f8a; color: #fff; }
+.updraft { background: #fff; border-radius: 22px; padding: 22px; border: 0; }
+.signup { background: #0e9f8a; border-radius: 28px; } .signup button { background: #fff; color: #0b5c50; border-radius: 999px; }
+
+@media (max-width: 700px) { .brief { grid-template-columns: minmax(0, 1fr) !important; } }
+.sec-head .controls { min-width: 0; }
