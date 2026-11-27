@@ -3,8 +3,8 @@
 // Without BUTTONDOWN_API_KEY, or if Buttondown fails, it leaves the last saved file alone.
 //
 // SHOW_FROM: the site only shows the numbers once this many people get the morning email.
-// Change it here (0 shows them straight away). Numbers are never rounded up or padded.
-const SHOW_FROM = 50;
+// Change it here (1 shows them as soon as anyone subscribes; Anmol chose this on 27 Nov 2026). Numbers are never rounded up or padded.
+const SHOW_FROM = 1;
 
 const fs = require("fs");
 const path = require("path");
