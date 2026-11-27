@@ -107,6 +107,15 @@ section.block.is-empty { padding-block: 32px 0; }
 section.block.is-empty .sec-head p { display: none; }
 section.block.is-empty .bo-list { border-top-width: 1px; }
 section.block.is-empty .empty { padding: 14px 0; }
+.nl-proof { display: flex; flex-wrap: wrap; gap: 10px; margin: 0 0 6px; }
+.nl-proof[hidden] { display: none; }
+.nl-proof > div { display: flex; align-items: baseline; gap: 8px; padding: 10px 14px; border: 1px solid color-mix(in srgb, var(--warm) 45%, transparent); border-radius: 10px; background: color-mix(in srgb, var(--warm) 10%, transparent); }
+.nl-proof b { font: 800 30px/1 var(--font-display, inherit); color: var(--warm); }
+.nl-proof span { font-size: 14px; font-weight: 600; }
+.signup .nl-proof { margin-top: 14px; }
+.mini-signup .nl-proof { gap: 6px; }
+.mini-signup .nl-proof > div { padding: 8px 11px; }
+.mini-signup .nl-proof span { font-size: 13px; }
 .mini-signup { margin: 22px 0 6px; display: grid; gap: 7px; max-width: 460px; }
 .mini-signup label { font: 600 12px var(--font-mono); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
 .mini-row { display: flex; gap: 6px; }
@@ -431,6 +440,7 @@ font[style] { background: none !important; box-shadow: none !important; }
       <h1 id="headline"></h1>
       <ul class="brief" id="brief"></ul>
       <form class="mini-signup nl-form" id="miniSignup" method="post" target="_blank" hidden>
+        <div class="nl-proof" hidden></div>
         <label for="miniEmail">The 5 biggest AI moves, in your inbox at 7am</label>
         <div class="mini-row">
           <input type="email" id="miniEmail" name="email" required placeholder="you@example.com" autocomplete="email">
@@ -438,7 +448,6 @@ font[style] { background: none !important; box-shadow: none !important; }
         </div>
         <div class="ok" hidden>Almost done: open the email we just sent and click Confirm. Not there in a minute? Check Promotions or Spam.</div>
         <span class="sample-link">Free · one email a day · unsubscribe in one click · <a href="email.html">see today's email</a></span>
-        <span class="sample-link nl-proof" hidden></span>
       </form>
       <div class="gen" id="genText"></div>
     </div>
@@ -476,7 +485,7 @@ font[style] { background: none !important; box-shadow: none !important; }
   </section>
 
   <section class="signup" id="signup" hidden>
-    <div><h2>Get this every morning</h2><p>The 5 biggest AI moves of the day in one short email at 7am your time: new repos, models and free AI before they blow up. Free, and you can unsubscribe in one click. <a href="email.html">See today's email</a>.</p><p class="nl-proof" hidden></p></div>
+    <div><h2>Get this every morning</h2><p>The 5 biggest AI moves of the day in one short email at 7am your time: new repos, models and free AI before they blow up. Free, and you can unsubscribe in one click. <a href="email.html">See today's email</a>.</p><div class="nl-proof" hidden></div></div>
     <form id="signupForm" class="nl-form" method="post" target="_blank">
       <input type="email" name="email" required placeholder="you@example.com" aria-label="Email address" autocomplete="email">
       <button type="submit">Get the 7am email</button>
@@ -768,9 +777,11 @@ if (NEWSLETTER) {
   fetch("data/api/newsletter.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : null).then(n => {
     if (!n || !n.show_on_site || !n.morning_email_subscribers) return;
     const w = n.last_7_days || {};
-    const t = `${n.morning_email_subscribers.toLocaleString("en-US")} people get it every morning` +
-      (w.emails_sent && w.people_who_opened ? ` · ${w.people_who_opened.toLocaleString("en-US")} opened it in the last 7 days` : "") + ".";
-    document.querySelectorAll(".nl-proof").forEach(el => { el.textContent = t; el.hidden = false; });
+    const f = x => Number(x).toLocaleString("en-US");
+    const cells = [[n.morning_email_subscribers, n.morning_email_subscribers === 1 ? "reader gets it every morning" : "readers get it every morning"]];
+    if (w.emails_sent && w.people_who_opened) cells.push([w.people_who_opened, "opened it in the last 7 days"]);
+    const html = cells.map(([v, l]) => `<div><b>${f(v)}</b><span>${l}</span></div>`).join("");
+    document.querySelectorAll(".nl-proof").forEach(el => { el.innerHTML = html; el.hidden = false; });
   }).catch(() => {});
   // Ask once, after the reader has scrolled past a few sections and clearly likes the page.
   // Never if they already subscribed or closed it this week; hidden while the main signup box is on screen.
