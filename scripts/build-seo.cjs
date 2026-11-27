@@ -12,6 +12,14 @@ const path = require("path");
 
 const ROOT = path.join(__dirname, "..");
 const SITE = "https://upcurrent.dev/";
+// Real reader numbers under the signup box, from data/api/newsletter.json (scripts/newsletter-stats.cjs).
+// Shown only once that script says the list is past its threshold. Never rounded up.
+let NL; const nlProof = () => {
+  if (NL === undefined) { try { NL = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "api", "newsletter.json"), "utf8")); } catch { NL = null; } }
+  if (!NL || !NL.show_on_site || !NL.morning_email_subscribers) return "";
+  const w = NL.last_7_days || {}, f = n => n.toLocaleString("en-US");
+  return `<p class="nl-proof">${f(NL.morning_email_subscribers)} people get it every morning${w.emails_sent && w.people_who_opened ? ` · ${f(w.people_who_opened)} opened it in the last 7 days` : ""}.</p>`;
+};
 const DAILY_JSON = path.join(ROOT, "data", "api", "daily");
 const DAILY_OUT = path.join(ROOT, "daily");
 
@@ -127,7 +135,7 @@ ${ld.map(ldJson).join("\n")}
 ${body}
 <section class="cta" id="signup"><h2>Get this in your inbox at 7am</h2><p>One free email each morning with the AI repos, models and stories that are picking up speed, including new free models. Your own time zone, no spam.</p>
 <form class="nl" action="https://buttondown.com/api/emails/embed-subscribe/anmolsrivastavadev" method="post" target="_blank"><input type="email" name="email" required placeholder="you@example.com" aria-label="Email address" autocomplete="email"><input type="hidden" name="metadata__timezone" value="Europe/London"><button type="submit">Get the 7am email</button><div class="ok" hidden>Almost done: open the email we just sent and click Confirm. Not there in a minute? Check Promotions or Spam.</div></form>
-<p>Free · one email a day · unsubscribe in one click · <a href="${up}email.html">See today's email</a></p></section>
+<p>Free · one email a day · unsubscribe in one click · <a href="${up}email.html">See today's email</a></p>${nlProof()}</section>
 </main>
 <footer><div class="wrap">Upcurrent tracks what is rising in AI every 30 minutes, from GitHub, Hugging Face, arXiv, Hacker News, AI lab blogs, news sites and model providers. Numbers are as recorded at the time. <a href="${up}data.html">Open data (CC BY 4.0)</a> · ${GUIDES.map(g => `<a href="${up}${g.slug}/">${esc(g.short)}</a>`).join(" · ")} · <a href="${up}what-is/">New AI projects explained</a> · <a href="${up}reports/">Weekly reports</a> · <a href="${up}about/">About</a> · <a href="${up}faq/">FAQ</a> · <a href="${up}llm-api-pricing/">LLM API pricing</a> · <a href="${up}llm-api/">LLM API guide</a> · <a href="${up}advertise/">Advertise</a> · <a href="${up}privacy/">Privacy</a> · <a href="${up}terms/">Terms</a></div></footer>
 <script>try{var z=Intl.DateTimeFormat().resolvedOptions().timeZone;if(z)document.querySelectorAll('input[name="metadata__timezone"]').forEach(function(i){i.value=z})}catch(e){}function ucFix(v){var m=/^([^@\\s]+)@([^@\\s]+)$/.exec(v.trim());if(!m)return null;var d=m[2].toLowerCase(),fix={"gmial.com":"gmail.com","gmai.com":"gmail.com","gamil.com":"gmail.com","gmail.co":"gmail.com","gmail.con":"gmail.com","gnail.com":"gmail.com","gmal.com":"gmail.com","hotmial.com":"hotmail.com","hotmai.com":"hotmail.com","hotmail.co":"hotmail.com","outlok.com":"outlook.com","outloo.com":"outlook.com","yaho.com":"yahoo.com","yahooo.com":"yahoo.com","yahoo.co":"yahoo.com","icloud.co":"icloud.com","iclod.com":"icloud.com"}[d];return fix?m[1]+"@"+fix:null}function ucTypo(f){var i=f.querySelector('input[type=email]');if(!i)return;var h=document.createElement("div");h.className="typo";h.hidden=true;i.insertAdjacentElement("afterend",h);i.addEventListener("blur",function(){var s=ucFix(i.value);if(!s){h.hidden=true;return}h.innerHTML="";h.append("Did you mean ");var b=document.createElement("button");b.type="button";b.textContent=s;b.onclick=function(){i.value=s;h.hidden=true;i.focus()};h.append(b,"?");h.hidden=false})}document.querySelectorAll("form.nl").forEach(function(f){ucTypo(f);f.addEventListener("submit",function(){try{window.goatcounter&&window.goatcounter.count&&window.goatcounter.count({path:"subscribe",title:"Subscribed ("+(f.dataset.where||"guide page")+")",event:true})}catch(e){}var ok=f.querySelector(".ok");if(ok)setTimeout(function(){ok.hidden=false;f.reset()},100)})})</script>

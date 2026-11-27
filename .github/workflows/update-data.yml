@@ -55,6 +55,13 @@ jobs:
         env:
           BUTTONDOWN_API_KEY: ""
 
+      - name: Count newsletter readers
+        # Real subscriber and open counts for the signup boxes (data/api/newsletter.json). Reads only.
+        continue-on-error: true
+        run: node scripts/newsletter-stats.cjs
+        env:
+          BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+
       - name: Save data to the repo
         run: |
           git config user.name "github-actions[bot]"

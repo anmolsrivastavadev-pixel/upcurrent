@@ -438,6 +438,7 @@ font[style] { background: none !important; box-shadow: none !important; }
         </div>
         <div class="ok" hidden>Almost done: open the email we just sent and click Confirm. Not there in a minute? Check Promotions or Spam.</div>
         <span class="sample-link">Free · one email a day · unsubscribe in one click · <a href="email.html">see today's email</a></span>
+        <span class="sample-link nl-proof" hidden></span>
       </form>
       <div class="gen" id="genText"></div>
     </div>
@@ -475,7 +476,7 @@ font[style] { background: none !important; box-shadow: none !important; }
   </section>
 
   <section class="signup" id="signup" hidden>
-    <div><h2>Get this every morning</h2><p>The 5 biggest AI moves of the day in one short email at 7am your time: new repos, models and free AI before they blow up. Free, and you can unsubscribe in one click. <a href="email.html">See today's email</a>.</p></div>
+    <div><h2>Get this every morning</h2><p>The 5 biggest AI moves of the day in one short email at 7am your time: new repos, models and free AI before they blow up. Free, and you can unsubscribe in one click. <a href="email.html">See today's email</a>.</p><p class="nl-proof" hidden></p></div>
     <form id="signupForm" class="nl-form" method="post" target="_blank">
       <input type="email" name="email" required placeholder="you@example.com" aria-label="Email address" autocomplete="email">
       <button type="submit">Get the 7am email</button>
@@ -762,6 +763,15 @@ if (NEWSLETTER) {
       setTimeout(() => { f.querySelector(".ok").hidden = false; f.reset(); }, 100);
     });
   });
+  // Real reader numbers from Buttondown (scripts/newsletter-stats.cjs). Only shown once the list passes
+  // the threshold set there; the numbers come straight from the file and are never rounded up.
+  fetch("data/api/newsletter.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : null).then(n => {
+    if (!n || !n.show_on_site || !n.morning_email_subscribers) return;
+    const w = n.last_7_days || {};
+    const t = `${n.morning_email_subscribers.toLocaleString("en-US")} people get it every morning` +
+      (w.emails_sent && w.people_who_opened ? ` · ${w.people_who_opened.toLocaleString("en-US")} opened it in the last 7 days` : "") + ".";
+    document.querySelectorAll(".nl-proof").forEach(el => { el.textContent = t; el.hidden = false; });
+  }).catch(() => {});
   // Ask once, after the reader has scrolled past a few sections and clearly likes the page.
   // Never if they already subscribed or closed it this week; hidden while the main signup box is on screen.
   const nudge = $("nudge"), closedAt = store.get("uc-nudge-closed");
