@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-27T18:30:52.343Z"
+  "updated": "2026-11-27T18:33:28.700Z"
  },
  "pulse": {
   "trending": 76,
-  "accelerating": 9,
+  "accelerating": 8,
   "newModels": 13,
   "discussions": 39,
-  "stars": 2572
+  "stars": 3033
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": 76,
    "desc": "The Super Game Agent — the Unity & Unreal for AI agents, with 100+ viral games to remix. Turn 20+ coding agents (Claude Code, Codex, DeepSeek, etc.) into a full-stack AI game studio. Build and publish 3D & mini-games to WeChat, Douyin, TikTok, Telegram, itch.io, and more.",
    "meta": [
-    "★ 2,068",
-    "+1,429 in 24h",
+    "★ 2,072",
+    "+1,431 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-25T10:35:45Z",
@@ -41,8 +41,8 @@
    "grow": 9,
    "desc": "Qwen3-0.6B inference (12 KB), bare-metal bootable OS (22 KB), and from-scratch Mini-GPT trainer with live Braille TUI (32 KB) in 100% pure x86-64 NASM assembly. Zero C, zero libc, zero dependencies.",
    "meta": [
-    "★ 2,004",
-    "+599 in 24h",
+    "★ 2,005",
+    "+598 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-25T07:28:51Z",
@@ -103,11 +103,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 89,
-   "grow": 5,
+   "grow": null,
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
    "meta": [
-    "★ 4,425",
-    "+258 in 24h",
+    "★ 4,426",
+    "~718 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-11-21T14:40:27Z",
@@ -202,8 +202,8 @@
    "name": "opengame",
    "url": "https://github.com/nexu-io/opengame",
    "from": "GitHub",
-   "use": 1429,
-   "useLabel": "+1,429 stars/day",
+   "use": 1431,
+   "useLabel": "+1,431 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -317,8 +317,8 @@
  "github": [
   {
    "repo": "nexu-io/opengame",
-   "stars": 2068,
-   "d24": 1429,
+   "stars": 2072,
+   "d24": 1431,
    "est": false,
    "forks": 341,
    "contrib": null,
@@ -327,9 +327,20 @@
    "desc": "The Super Game Agent — the Unity & Unreal for AI agents, with 100+ viral games to remix. Turn 20+ coding agents (Claude Code, Codex, DeepSeek, etc.) into a full-stack AI game studio. Build and publish 3D & mini-games to WeChat, Douyin, TikTok, Telegram, itch.io, and more."
   },
   {
+   "repo": "EL4CTEO/fast-anything",
+   "stars": 4426,
+   "d24": 718,
+   "est": true,
+   "forks": 316,
+   "contrib": null,
+   "score": 89,
+   "cat": "Agents",
+   "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same."
+  },
+  {
    "repo": "alesha-pro/llm.asm",
-   "stars": 2004,
-   "d24": 599,
+   "stars": 2005,
+   "d24": 598,
    "est": false,
    "forks": 312,
    "contrib": null,
@@ -347,17 +358,6 @@
    "score": 81,
    "cat": "Agents",
    "desc": "KuroCat — Free open-source 3D/2D desktop typing cat & AI coding companion (Bongo Cat alternative · Tauri v2 + Rust + MCP · Claude/Codex/DeepSeek/OBS · Win/Mac/Linux/Android)｜开源3D桌面打字小黑猫与AI伴侣"
-  },
-  {
-   "repo": "EL4CTEO/fast-anything",
-   "stars": 4425,
-   "d24": 258,
-   "est": false,
-   "forks": 316,
-   "contrib": null,
-   "score": 89,
-   "cat": "Agents",
-   "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same."
   }
  ],
  "models": [
@@ -773,6 +773,13 @@
    "kind": "News"
   },
   {
+   "t": "AI can generate $600-700 billion in economic value for SME sector: RBI Governor Sanjay Malhotra",
+   "url": "https://economictimes.indiatimes.com/news/economy/finance/ai-can-generate-600-700-billion-in-economic-value-for-sme-sector-rbi-governor-sanjay-malhotra/articleshow/136212080.cms",
+   "at": "2026-11-27T06:33:00Z",
+   "src": "The Economic Times",
+   "kind": "News"
+  },
+  {
    "t": "Execurio Network Hosts the Maiden Edition of \"AI Pioneer of India 2026\", Recognising the AI Powerhouses Leading India's Artificial Intelligence Revolution",
    "url": "https://www.tribuneindia.com/news/business/execurio-network-hosts-the-maiden-edition-of-ai-pioneer-of-india-2026-recognising-the-ai-powerhouses-leading-indias-artificial-intelligence-revolution/",
    "at": "2026-11-27T06:22:43Z",
@@ -785,13 +792,6 @@
    "at": "2026-11-27T06:05:11Z",
    "src": "News18",
    "kind": "News"
-  },
-  {
-   "t": "old ‘AI Kid’ goes viral after selfie with Putin at Moscow conference",
-   "url": "https://www.tribuneindia.com/news/trending/keralas-17-year-old-ai-kid-goes-viral-after-selfie-with-putin-at-moscow-conference/",
-   "at": "2026-11-27T05:56:45Z",
-   "src": "The Tribune",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -800,8 +800,8 @@
    "t": "I'm Scared of AI",
    "url": "https://news.ycombinator.com/item?id=50669561",
    "link": "https://thesoapbox.email/archive/3",
-   "up": 89,
-   "com": 82,
+   "up": 94,
+   "com": 91,
    "at": "2026-11-27T17:45:31.000Z"
   },
   {
@@ -809,7 +809,7 @@
    "t": "Show HN: bouncemarket – a live prediction market game for a bouncing ball",
    "url": "https://news.ycombinator.com/item?id=50667726",
    "link": "https://bouncemarket.minhanhday.com/",
-   "up": 240,
+   "up": 241,
    "com": 72,
    "at": "2026-11-27T15:01:50.000Z"
   },
@@ -818,7 +818,7 @@
    "t": "Group chat where your AI talks behind your back",
    "url": "https://news.ycombinator.com/item?id=50663595",
    "link": "https://construct22.com/",
-   "up": 591,
+   "up": 592,
    "com": 252,
    "at": "2026-11-27T06:44:34.000Z"
   },
@@ -827,7 +827,7 @@
    "t": "AI made self-hosting fun again",
    "url": "https://news.ycombinator.com/item?id=50660180",
    "link": "https://janlukas.blog/posts/ai-self-hosting",
-   "up": 1003,
+   "up": 1004,
    "com": 475,
    "at": "2026-11-26T21:47:45.000Z"
   },
@@ -836,18 +836,18 @@
    "t": "US Air Force's cloud computing platform hacked",
    "url": "https://news.ycombinator.com/item?id=50666375",
    "link": "https://news.sky.com/story/us-air-forces-cloud-computing-platform-hacked-13617163",
-   "up": 230,
+   "up": 233,
    "com": 139,
    "at": "2026-11-27T12:54:11.000Z"
   },
   {
    "src": "Hacker News",
-   "t": "GPT 6.2 Astra Solves a Historical Mystery",
-   "url": "https://news.ycombinator.com/item?id=50667744",
-   "link": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
-   "up": 126,
-   "com": 52,
-   "at": "2026-11-27T15:03:17.000Z"
+   "t": "Claude sabotaging ML research tasks?",
+   "url": "https://news.ycombinator.com/item?id=50664325",
+   "link": "https://twitter.com/RealAstropulse/status/2126119408997466389",
+   "up": 367,
+   "com": 187,
+   "at": "2026-11-27T08:28:08.000Z"
   }
  ]
 }
