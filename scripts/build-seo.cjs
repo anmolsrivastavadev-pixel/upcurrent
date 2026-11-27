@@ -1679,6 +1679,36 @@ function numbersLine(it, h) {
 const REPO_KEYWORDS = {
   "nexu-io/opengame": { tag: "AI Game Agent", q: "What is opengame AI?" },
   "alesha-pro/llm.asm": { tag: "LLM in Pure Assembly", q: "What is llm.asm?" },
+  "FrigadeHQ/yogurt": { tag: "Free AI Meeting Notes", q: "What is yogurt on GitHub?" },
+};
+// Hugging Face models people search by a short name (GSC queries): title, description, first FAQ.
+const MODEL_KEYWORDS = {
+  "thinkingmachines/Inkling-2-Mini": {
+    title: "Inkling 2 Mini: Thinking Machines' Open Vision Model",
+    description: "Inkling 2 Mini is an open source vision model from Thinking Machines on Hugging Face. What it is, how popular it is, and where to get GGUF versions.",
+    q: "What is Inkling 2 Mini?",
+    variants: /^Inkling-2-Mini.*gguf/i,
+  },
+};
+// Removed repos that people still search for: keep the page indexed and point them somewhere real.
+// Offer facts hand-checked on gemini.google/students, 27 November 2026; re-check after 31 Dec 2026.
+const GONE_GUIDE = {
+  "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto": {
+    title: "Google AI Pro 2 Year Zero Cost GitHub: Removed (Free Ways)",
+    description: "The Google_AI_Pro_2Year_ZeroCost_Auto GitHub repo has been removed. Why to avoid copies of it, and the real ways to get Google AI Pro or Gemini free.",
+    html: `<section id="free-ways"><h2>Real ways to get Google AI Pro or Gemini free</h2>
+<p>The repo promised two years of Google AI Pro at zero cost, automatically. Tools like that usually work by abusing sign-up offers, which breaks Google's terms and can get your Google account suspended, and copies of them shared elsewhere are a common way to spread malware. These are the free routes Google itself offers:</p>
+<ul class="rows">
+<li><span class="t"><a href="https://gemini.google/students/" rel="noopener">Google AI Pro free for students, for 1 year</a></span><span class="m">Eligible students only, in supported countries. Redeem by 31 December 2026. A payment method is needed at sign-up, and it renews at the normal price unless you cancel. Checked 27 November 2026.</span></li>
+<li><span class="t"><a href="https://gemini.google.com/" rel="noopener">The free Gemini app</a></span><span class="m">Gemini with a normal Google account, with lower limits than AI Pro.</span></li>
+<li><span class="t"><a href="../../free-ai-models/gemini/">Free Gemini API key</a></span><span class="m">Google AI Studio's free tier, for developers. Our guide covers the limits.</span></li>
+<li><span class="t"><a href="../../free-ai-models/">Free AI models today</a></span><span class="m">Every model that's free on OpenRouter and OpenCode right now, updated every 30 minutes.</span></li>
+</ul></section>`,
+    faq: [
+      ["Is Google_AI_Pro_2Year_ZeroCost_Auto safe?", "It has been removed from GitHub, so any copy you find now comes from somewhere else and can't be checked against the original. Tools that promise free paid subscriptions by automating sign-ups break Google's terms and are a common way to spread malware. Don't run them."],
+      ["How can I get Google AI Pro for free?", "Google offers eligible students a free 1-year Google AI Pro plan at gemini.google/students, redeemable until 31 December 2026 (checked 27 November 2026). It needs a payment method and renews at the normal price unless cancelled. Anyone can use the free Gemini app and the free Gemini API tier."],
+    ],
+  },
 };
 
 let REPO_FACTS = null;
@@ -1715,7 +1745,8 @@ function explainerPage(it, all) {
   const starsDate = factsNewer ? F.fetched.slice(0, 10) : last.day;
   const ghStars = it.src === "gh" && nowStars != null ? `${fmt(nowStars)}★` : "";
   const KW = it.src === "gh" ? REPO_KEYWORDS[`${it.owner}/${it.name}`] : null;
-  const ghTitle = it.src === "gh" && F.gone ? `${it.name} GitHub: What It Was (Now Removed)` : it.src === "gh" ? [
+  const GG = F.gone ? GONE_GUIDE[`${it.owner}/${it.name}`] : null;
+  const ghTitle = GG ? GG.title : it.src === "gh" && F.gone ? `${it.name} GitHub: What It Was (Now Removed)` : it.src === "gh" ? [
     ...(KW ? [`${it.name} GitHub: ${KW.tag}, How to Install${ghStars ? ` (${ghStars})` : ""}`, `${it.name} GitHub: ${KW.tag}${ghStars ? ` (${ghStars})` : ""}`] : []),
     `${it.name} GitHub: What It Is & How to Download${ghStars ? ` (${ghStars})` : ""}`,
     `${it.name} on GitHub: What It Is & How to Install${ghStars ? ` (${ghStars})` : ""}`,
@@ -1723,18 +1754,20 @@ function explainerPage(it, all) {
     `${it.name} GitHub: What It Is${ghStars ? ` (${ghStars})` : ""}`,
     `${it.name} GitHub: What It Is`
   ].find(t => t.length <= 60) : null;
-  const title = ghTitle ? ghTitle : it.src === "paper" ? `${clip(it.name, 52)}: paper explained | Upcurrent` : [`What is ${it.name}? ${kindShort}${it.owner ? ` by ${it.owner}` : ""} | Upcurrent`, ...(it.owner ? [`What is ${it.name}? By ${it.owner} | Upcurrent`] : []), `What is ${it.name.length <= 40 ? it.name : it.name.slice(0, 39) + "…"}? | Upcurrent`].find(t => t.length <= 66) || `What is ${it.name.slice(0, 39)}…? | Upcurrent`;
-  const description = it.src === "gh" && F.gone ? clip(`${it.name} was a GitHub project by ${it.owner} that has since been removed or made private. ${summary}`, 160) : it.src === "gh" && summary
+  const MK = it.src === "hf" ? MODEL_KEYWORDS[`${it.owner}/${it.name}`] : null;
+  const title = MK ? MK.title : ghTitle ? ghTitle : it.src === "paper" ? `${clip(it.name, 52)}: paper explained | Upcurrent` : [`What is ${it.name}? ${kindShort}${it.owner ? ` by ${it.owner}` : ""} | Upcurrent`, ...(it.owner ? [`What is ${it.name}? By ${it.owner} | Upcurrent`] : []), `What is ${it.name.length <= 40 ? it.name : it.name.slice(0, 39) + "…"}? | Upcurrent`].find(t => t.length <= 66) || `What is ${it.name.slice(0, 39)}…? | Upcurrent`;
+  const description = MK ? MK.description : GG ? GG.description : it.src === "gh" && F.gone ? clip(`${it.name} was a GitHub project by ${it.owner} that has since been removed or made private. ${summary}`, 160) : it.src === "gh" && summary
     ? clip(`${nowStars != null ? `${fmt(nowStars)} GitHub stars${first.stars != null && nowStars > first.stars && it.hist.length > 1 ? ` (+${fmt(nowStars - first.stars)} since ${shortDate(first.day).replace(/ \d{4}$/, "")})` : ""}. ` : ""}What it does, how to install it, who made it: ${summary}`.replace(/\s+/g, " "), 160)
     : clip(`${what} ${summary ? summary + " " : ""}${latestNums ? `Latest: ${latestNums}.` : ""}`.replace(/\s+/g, " "), 160);
   const related = all.filter(o => o !== it && o.cat && o.cat === it.cat).sort((a, b) => b.hist[b.hist.length - 1].day.localeCompare(a.hist[a.hist.length - 1].day)).slice(0, 6);
   const qa = [
-    [it.src === "paper" ? `What is the paper “${clip(it.name, 80)}” about?` : (KW?.q || `What is ${it.name}?`), `${what}${summary ? " " + summary : ""}`],
+    [it.src === "paper" ? `What is the paper “${clip(it.name, 80)}” about?` : (KW?.q || MK?.q || `What is ${it.name}?`), `${what}${summary ? " " + summary : ""}`],
     ...(it.owner && it.src !== "paper" ? [[`Who made ${it.name}?`, `${it.name} is published by ${it.owner} on ${it.src === "gh" ? "GitHub" : "Hugging Face"}.`]] : []),
     ...(latestNums ? [[`How popular is ${it.src === "paper" ? "this paper" : it.name}?`, `On ${shortDate(last.day)} Upcurrent recorded ${latestNums}. ${growth}`.trim()]] : []),
     ...(it.src === "gh" && !F.gone && /^https:\/\/github\.com\/[^/]+\/[^/]+$/.test(it.url || "") ? [[`How do I download and install ${it.name}?`, F.install ? `Its README gives these install steps: ${F.install.split("\n").filter(l => !l.startsWith("#")).map(l => l.replace(/\s+#.*$/, "")).join(", then ")}. You can also download it from GitHub with git clone ${it.url}.` : `Download it from GitHub with git clone ${it.url}, or use the Code > Download ZIP button on its GitHub page, then follow the setup steps in its README. Read the code before you run it: new repos that gain stars fast are sometimes copies or malware.`]] : []),
     ...(F.lang ? [[`What language is ${it.name} written in?`, `${it.name} is mostly written in ${F.lang}, according to GitHub.`]] : []),
     ...(it.src === "gh" && !F.gone ? [[`Is ${it.name} safe to use?`, `Upcurrent doesn't audit code, so check it yourself before running it. What GitHub shows: ${[F.license ? `it's released under the ${F.license} licence` : "no licence is listed", F.contributors ? `${fmt(F.contributors)} ${F.contributors === 1 ? "person has" : "people have"} contributed` : "", released ? `the repo was created on ${released}` : "", F.pushed ? `and last updated on ${shortDate(F.pushed.slice(0, 10))}` : ""].filter(Boolean).join(", ")}. Be wary of new repos that ask you to download an installer or run a script you haven't read.`]] : []),
+    ...(GG ? GG.faq : []),
     ...(released && it.src !== "paper" ? [[`When was ${it.name} released?`, `${it.src === "gh" ? "The repository was created" : "The model was released"} on ${released}.`]] : [])
   ];
   const facts = [
@@ -1754,9 +1787,10 @@ function explainerPage(it, all) {
   <p><a href="${esc(it.url)}" rel="noopener"><b>${esc(tryLabel)} →</b></a></p>
   <p>${it.src === "gh" ? `It sits alongside the other <a href="../../trending-ai-github-repos/">GitHub trending repositories today</a>.` : it.src === "hf" ? `It's one of the <a href="../../new-ai-models/">new AI models</a> Upcurrent tracks on Hugging Face${/gguf|awq|fp8|mlx/i.test(it.name) ? "" : `, alongside <a href="../../new-ai-models/open-source/">new open source releases</a>`}.` : `See what else was rising on <a href="../../daily/${last.day}.html">${esc(shortDate(last.day))}</a>, or browse <a href="../">every project explained</a>.`}</p>
 </section>
-${F.gone ? `<section id="install"><h2>${esc(it.name)} is no longer on GitHub</h2><p>When Upcurrent last checked, this repository had been removed or made private, so it can't be downloaded from GitHub any more. Be careful with copies of it posted elsewhere.</p></section>` : it.src === "gh" && /^https:\/\/github\.com\/[^/]+\/[^/]+$/.test(it.url || "") ? `<section id="install"><h2>How to download and install ${esc(it.name)}</h2>${F.install ? `<p>The install steps from <a href="${esc(it.url)}#readme" rel="noopener">its README</a>:</p><pre><code>${esc(F.install)}</code></pre><p>Or download the code with git:</p>` : `<p>Download ${esc(it.name)} from GitHub with git:</p>`}<pre><code>git clone ${esc(it.url)}.git
+${F.gone ? `<section id="install"><h2>${esc(it.name)} is no longer on GitHub</h2><p>When Upcurrent last checked, this repository had been removed or made private, so it can't be downloaded from GitHub any more. Be careful with copies of it posted elsewhere.</p></section>${GG ? GG.html : ""}` : it.src === "gh" && /^https:\/\/github\.com\/[^/]+\/[^/]+$/.test(it.url || "") ? `<section id="install"><h2>How to download and install ${esc(it.name)}</h2>${F.install ? `<p>The install steps from <a href="${esc(it.url)}#readme" rel="noopener">its README</a>:</p><pre><code>${esc(F.install)}</code></pre><p>Or download the code with git:</p>` : `<p>Download ${esc(it.name)} from GitHub with git:</p>`}<pre><code>git clone ${esc(it.url)}.git
 cd ${esc(it.url.split("/").pop())}</code></pre><p>Then follow the setup steps in <a href="${esc(it.url)}#readme" rel="noopener">its README</a>, which lists what it needs and how to run it.</p><p><b>Check before you run it.</b> Look at who made it, read the code, and be wary of repos that ask you to download a zip or run an installer: new repos that gain stars fast are sometimes copies or malware.</p></section>` : ""}
 ${it.src === "gh" && !F.gone && first.stars != null && nowStars != null && nowStars > first.stars ? `<section class="cta" id="next"><h2>Get the next ${esc(it.name)} before it blows up</h2><p>Upcurrent spotted ${esc(it.name)} on ${esc(shortDate(first.day))} at ${fmt(first.stars)} stars. It has ${fmt(nowStars)} now. The 5 fastest-rising AI repos and models land in your inbox at 7am, free.</p><form class="nl" data-where="explainer" action="https://buttondown.com/api/emails/embed-subscribe/anmolsrivastavadev" method="post" target="_blank"><input type="email" name="email" required placeholder="you@example.com" aria-label="Email address" autocomplete="email"><input type="hidden" name="metadata__timezone" value="Europe/London"><button type="submit">Get the 7am email</button><div class="ok" hidden>Almost done: open the email we just sent and click Confirm. Not there in a minute? Check Promotions or Spam.</div></form></section>` : ""}
+${MK?.variants ? (() => { const v = all.filter(o => o !== it && MK.variants.test(o.name)); return v.length ? `<section id="gguf"><h2>GGUF versions of ${esc(it.name)} to run locally</h2><p>Smaller GGUF builds run in Ollama, LM Studio or llama.cpp. These are the ones Upcurrent has seen rising on Hugging Face:</p><ul class="rows">${v.map(o => `<li><span class="t"><a href="../${o.slug}/">${esc(o.name)}</a></span><span class="m">by ${esc(o.owner || "")}</span></li>`).join("")}</ul></section>` : ""; })() : ""}
 <section><h2>Quick facts</h2><ul class="rows">${facts.map(([k, v, raw]) => `<li><span class="m">${esc(k)}</span><span class="t">${raw ? v : esc(v)}</span></li>`).join("")}</ul></section>
 <section><h2>How it rose, day by day</h2><p>Recorded by Upcurrent at the end of each day (UTC). Rank is its place among that day's fastest-rising AI projects.</p>
 <ol class="rows">${[...it.hist].reverse().map(h => `<li><span class="t"><a href="../../daily/${h.day}.html">${esc(shortDate(h.day))}</a> · #${h.rank}</span><span class="m num">${esc([numbersLine(it, h), `momentum ${h.score}`].filter(Boolean).join(" · "))}</span></li>`).join("")}</ol></section>
@@ -1774,7 +1808,7 @@ ${faqHtml(qa)}
     faq(qa),
     breadcrumb([["Upcurrent", SITE], ["Explained", SITE + "what-is/"], [clip(label, 60), url]])
   ];
-  return page({ title, description, canonical: url, body, ld, up: "../../", noindex: !!F.gone });
+  return page({ title, description, canonical: url, body, ld, up: "../../", noindex: !!F.gone && !GG });
 }
 
 function explainerIndex(items) {
@@ -1842,7 +1876,7 @@ ${qa.slice(1).map(([q, a]) => `<section><h2>${esc(q)}</h2><p>${esc(a)}</p></sect
     ...Object.keys(guides).map(slug => ({ loc: `${SITE}${slug}/`, lastmod: latest, changefreq: "hourly", priority: "0.9" })),
     { loc: SITE + "about/", lastmod: latest, changefreq: "monthly", priority: "0.5" },
     ...(explained.length ? [{ loc: SITE + "what-is/", lastmod: latest, changefreq: "daily", priority: "0.8" }] : []),
-    ...explained.filter(it => !repoFacts(it)?.gone).map(it => ({ loc: `${SITE}what-is/${it.slug}/`, lastmod: data[it.hist[it.hist.length - 1].day].about?.updated || latest, changefreq: "daily", priority: "0.7" })),
+    ...explained.filter(it => !repoFacts(it)?.gone || GONE_GUIDE[`${it.owner}/${it.name}`]).map(it => ({ loc: `${SITE}what-is/${it.slug}/`, lastmod: data[it.hist[it.hist.length - 1].day].about?.updated || latest, changefreq: "daily", priority: "0.7" })),
     { loc: SITE + "email.html", lastmod: latest, changefreq: "daily", priority: "0.6" },
     { loc: SITE + "data.html", lastmod: latest, changefreq: "weekly", priority: "0.6" },
     ...days.map(day => ({ loc: `${SITE}daily/${day}.html`, lastmod: data[day].about?.updated || day, changefreq: day === days[days.length - 1] ? "hourly" : "monthly", priority: "0.7" }))
