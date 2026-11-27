@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-27T05:30:52.652Z"
+  "updated": "2026-11-27T06:01:02.865Z"
  },
  "pulse": {
   "trending": 74,
   "accelerating": 0,
   "newModels": 14,
   "discussions": 46,
-  "stars": 2278
+  "stars": 2298
  },
  "rising": [
   {
@@ -21,11 +21,11 @@
    "src": "gh",
    "cat": "Infrastructure",
    "score": 96,
-   "grow": 44,
+   "grow": 45,
    "desc": "Qwen3-0.6B inference (12 KB), bare-metal bootable OS (22 KB), and from-scratch Mini-GPT trainer with live Braille TUI (32 KB) in 100% pure x86-64 NASM assembly. Zero C, zero libc, zero dependencies.",
    "meta": [
-    "★ 1,671",
-    "+873 in 24h",
+    "★ 1,685",
+    "+866 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-25T07:28:51Z",
@@ -41,8 +41,8 @@
    "grow": null,
    "desc": "The Super Game Agent — the Unity & Unreal for AI agents, with 100+ viral games to remix. Turn 20+ coding agents (Claude Code, Codex, DeepSeek, etc.) into a full-stack AI game studio. Build and publish 3D & mini-games to WeChat, Douyin, TikTok, Telegram, itch.io, and more.",
    "meta": [
-    "★ 1,325",
-    "~741 in 24h",
+    "★ 1,359",
+    "~751 in 24h",
     "Created 2 days ago"
    ],
    "at": "2026-11-25T10:35:45Z",
@@ -74,8 +74,8 @@
    "grow": 2,
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
    "meta": [
-    "★ 4,290",
-    "+274 in 24h",
+    "★ 4,294",
+    "+269 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-11-21T14:40:27Z",
@@ -105,7 +105,7 @@
    "cat": "Infrastructure",
    "score": 90,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 948",
+   "desc": "Model on Hugging Face · open source · ♥ 950",
    "meta": [
     "762K downloads",
     "Released 6 days ago"
@@ -119,9 +119,9 @@
    "owner": "prism-ml",
    "src": "hf",
    "cat": "Agents",
-   "score": 89,
+   "score": 90,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 545",
+   "desc": "Model on Hugging Face · open source · ♥ 548",
    "meta": [
     "59K downloads",
     "Released 3 days ago"
@@ -156,7 +156,7 @@
    "grow": null,
    "desc": "Linear attention offers an efficient solution for long-sequence modeling via linear complexity and fixed-size recurrent states.",
    "meta": [
-    "▲ 60 upvotes",
+    "▲ 66 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-11-24T19:00:00.000Z",
@@ -174,7 +174,7 @@
    "meta": [
     "▲ 370 votes",
     "169 comments",
-    "Launched 21h ago"
+    "Launched 22h ago"
    ],
    "at": "2026-11-26T08:01:00Z",
    "breakout": null
@@ -269,8 +269,8 @@
    "name": "llm.asm",
    "url": "https://github.com/alesha-pro/llm.asm",
    "from": "GitHub",
-   "use": 873,
-   "useLabel": "+873 stars/day",
+   "use": 866,
+   "useLabel": "+866 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -384,10 +384,10 @@
  "github": [
   {
    "repo": "alesha-pro/llm.asm",
-   "stars": 1671,
-   "d24": 873,
+   "stars": 1685,
+   "d24": 866,
    "est": false,
-   "forks": 253,
+   "forks": 255,
    "contrib": null,
    "score": 96,
    "cat": "Infrastructure",
@@ -395,10 +395,10 @@
   },
   {
    "repo": "nexu-io/opengame",
-   "stars": 1325,
-   "d24": 741,
+   "stars": 1359,
+   "d24": 751,
    "est": true,
-   "forks": 221,
+   "forks": 224,
    "contrib": null,
    "score": 93,
    "cat": "Agents",
@@ -406,10 +406,10 @@
   },
   {
    "repo": "qianyiai/KuroCat",
-   "stars": 1508,
-   "d24": 390,
+   "stars": 1527,
+   "d24": 412,
    "est": false,
-   "forks": 206,
+   "forks": 211,
    "contrib": null,
    "score": 80,
    "cat": "Agents",
@@ -417,8 +417,8 @@
   },
   {
    "repo": "EL4CTEO/fast-anything",
-   "stars": 4290,
-   "d24": 274,
+   "stars": 4294,
+   "d24": 269,
    "est": false,
    "forks": 308,
    "contrib": null,
@@ -437,7 +437,7 @@
    "grow": 0,
    "score": 91,
    "cat": "Infrastructure",
-   "likes": 1512
+   "likes": 1513
   },
   {
    "name": "Inkling-2-Mini",
@@ -448,7 +448,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 6297
+   "likes": 6302
   },
   {
    "name": "Inkling-2-Mini-Uncensored-GGUF",
@@ -459,7 +459,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 948
+   "likes": 950
   },
   {
    "name": "Ternary-Bonsai-2.5-27B-GGUF",
@@ -469,9 +469,9 @@
    "at": "2026-11-24T16:32:20.000Z",
    "dl": 59366,
    "grow": 0,
-   "score": 89,
+   "score": 90,
    "cat": "Agents",
-   "likes": 545
+   "likes": 548
   },
   {
    "name": "Sulphur-3",
@@ -482,7 +482,7 @@
    "grow": 0,
    "score": 85,
    "cat": "Tools",
-   "likes": 1231
+   "likes": 1233
   },
   {
    "name": "voice-isolator",
@@ -491,7 +491,7 @@
    "at": "2026-11-14T02:14:35.000Z",
    "dl": 15244,
    "grow": 0,
-   "score": 84,
+   "score": 82,
    "cat": "Tools",
    "likes": 972
   }
@@ -774,6 +774,48 @@
    "kind": "News"
   },
   {
+   "t": "OpenAI and Google relied on the same small startup to connect developers to their AI. Then Anthropic bought it, reportedly for over $300 million, and shut it off to rivals",
+   "url": "https://economictimes.indiatimes.com/world/business/openai-and-google-relied-on-the-same-small-startup-to-connect-developers-to-their-ai-then-anthropic-bought-it-reportedly-for-over-300-million-and-shut-it-off-to-rivals/articleshow/136199164.cms",
+   "at": "2026-11-26T17:59:00Z",
+   "src": "The Economic Times",
+   "kind": "News"
+  },
+  {
+   "t": "Sam Altman shares what matters most to him in recent post",
+   "url": "https://www.thenews.com.pk/latest/1425314-sam-altman-shares-what-matters-most-to-him-in-recent-post",
+   "at": "2026-11-26T17:58:00Z",
+   "src": "The News International",
+   "kind": "News"
+  },
+  {
+   "t": "stakes expansion of TSMC's computer chip factories",
+   "url": "https://www.newsbreak.com/pbs-newshour-513240/5031806464630-trump-heads-to-arizona-next-week-for-a-high-stakes-expansion-of-tsmc-s-computer-chip-factories",
+   "at": "2026-11-26T17:52:00Z",
+   "src": "NewsBreak",
+   "kind": "News"
+  },
+  {
+   "t": "When AI boils down to 'intelligence'",
+   "url": "https://economictimes.indiatimes.com/opinion/just-in-jest/when-ai-boils-down-to-intelligence/articleshow/136200475.cms",
+   "at": "2026-11-26T17:51:56Z",
+   "src": "The Economic Times",
+   "kind": "News"
+  },
+  {
+   "t": "Russia’s AI Gambit: Challenging the Western Tech Monopoly at the UN",
+   "url": "https://www.naturalnews.com/2026-11-26-russia-challenging-western-tech-monopoly-at-un.html",
+   "at": "2026-11-26T17:42:30Z",
+   "src": "Natural News",
+   "kind": "News"
+  },
+  {
+   "t": "Forget Nvidia Shares? Wealthy Europeans See A Different Way To Bet On AI",
+   "url": "https://www.ndtvprofit.com/markets/forget-nvidia-shares-wealthy-europeans-see-a-different-way-to-bet-on-ai-12382269",
+   "at": "2026-11-26T17:31:31Z",
+   "src": "NDTV Profit",
+   "kind": "News"
+  },
+  {
    "t": "LinkedIn CEO Daniel Shapero says AI-Savvy Gen Z has the Edge in Frozen Job Market | Vantage",
    "url": "https://www.firstpost.com/vantage/linkedin-ceo-daniel-shapero-says-ai-savvy-gen-z-has-the-edge-in-frozen-job-market-vantage-vd2337486/",
    "at": "2026-11-26T17:23:12Z",
@@ -809,45 +851,10 @@
    "kind": "News"
   },
   {
-   "t": "How Kairium Is Bringing Artificial Intelligence to Crypto Trading",
-   "url": "https://techbullion.com/how-kairium-is-bringing-artificial-intelligence-to-crypto-trading/",
-   "at": "2026-11-26T16:19:34Z",
-   "src": "TechBullion",
-   "kind": "News"
-  },
-  {
-   "t": "AFP developing military cloud system to secure sensitive data",
-   "url": "https://www.manilatimes.net/2026/11/27/news/afp-developing-military-cloud-system-to-secure-sensitive-data/2478398",
-   "at": "2026-11-26T16:05:00Z",
-   "src": "The Manila Times",
-   "kind": "News"
-  },
-  {
-   "t": "Manila wrote Asean’s AI terms before the vendors arrived",
-   "url": "https://www.manilatimes.net/2026/11/27/opinion/columns/manila-wrote-aseans-ai-terms-before-the-vendors-arrived/2478591",
-   "at": "2026-11-26T16:01:00Z",
-   "src": "The Manila Times",
-   "kind": "News"
-  },
-  {
    "t": "Avicena, which links AI chips with microLEDs instead of lasers, raised a $100M+ Series C led by Intervest, with participation from SK Hynix, Samsung, and AMD",
    "url": "https://www.techmeme.com/261126/p20#a261126p20",
    "at": "2026-11-26T15:50:27.000Z",
    "src": "Techmeme",
-   "kind": "News"
-  },
-  {
-   "t": "My phone is tapped, I'm under constant surveillance: Keralam CM V D Satheesan",
-   "url": "https://economictimes.indiatimes.com/news/politics-and-nation/my-phone-is-tapped-im-under-constant-surveillance-keralam-cm-v-d-satheesan/articleshow/136197093.cms",
-   "at": "2026-11-26T15:42:00Z",
-   "src": "The Economic Times",
-   "kind": "News"
-  },
-  {
-   "t": "India's investment appeal strengthens amid global AI trade correction: Report",
-   "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/indias-investment-appeal-strengthens-amid-global-ai-trade-correction-report/articleshow/136196584.cms",
-   "at": "2026-11-26T15:17:18Z",
-   "src": "The Economic Times",
    "kind": "News"
   },
   {
@@ -856,13 +863,6 @@
    "at": "2026-11-26T14:06:10Z",
    "src": "The Guardian",
    "kind": "News"
-  },
-  {
-   "t": "Come for the Games, Stay for the Community With GeForce NOW",
-   "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-community-war-thunder-reward/",
-   "at": "2026-11-26T14:00:22.000Z",
-   "src": "NVIDIA",
-   "kind": "Lab blog"
   }
  ],
  "discussions": [
@@ -871,8 +871,8 @@
    "t": "AI made self-hosting fun again",
    "url": "https://news.ycombinator.com/item?id=50660180",
    "link": "https://janlukas.blog/posts/ai-self-hosting",
-   "up": 465,
-   "com": 243,
+   "up": 487,
+   "com": 251,
    "at": "2026-11-26T21:47:45.000Z"
   },
   {
@@ -880,25 +880,26 @@
    "t": "Hard Drive pricing has gotten bad",
    "url": "https://news.ycombinator.com/item?id=50661646",
    "link": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/",
-   "up": 196,
-   "com": 129,
+   "up": 226,
+   "com": 146,
    "at": "2026-11-27T01:13:49.000Z"
   },
   {
-   "src": "DEV",
-   "t": "2026 Black Friday Deals for Developers: AI Tools, DevTools, Hosting, and more",
-   "url": "https://dev.to/vinishbhaskar/2026-black-friday-deals-for-developers-ai-tools-devtools-hosting-and-more-297j",
-   "up": 40,
-   "com": 2,
-   "at": "2026-11-27T05:11:26Z"
+   "src": "Hacker News",
+   "t": "\"What's Claude's Fursona?\" and Other Questions",
+   "url": "https://news.ycombinator.com/item?id=50662933",
+   "link": "https://herecomesthemoon.net/2026/11/whats-claudes-fursona/",
+   "up": 45,
+   "com": 3,
+   "at": "2026-11-27T04:56:18.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad",
    "url": "https://news.ycombinator.com/item?id=50659841",
    "link": "https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/",
-   "up": 312,
-   "com": 73,
+   "up": 319,
+   "com": 74,
    "at": "2026-11-26T21:08:05.000Z"
   },
   {
@@ -906,8 +907,8 @@
    "t": "YouTube Ad Punisher – Auto-reloads YouTube pages when an ad plays",
    "url": "https://news.ycombinator.com/item?id=50657530",
    "link": "https://github.com/antonpictures/youtube-punisher",
-   "up": 326,
-   "com": 396,
+   "up": 334,
+   "com": 401,
    "at": "2026-11-26T17:36:47.000Z"
   },
   {
@@ -915,7 +916,7 @@
    "t": "AMD-specific fork of llama.cpp",
    "url": "https://news.ycombinator.com/item?id=50657265",
    "link": "https://devnull.land/amd-specific-llama-cpp",
-   "up": 316,
+   "up": 322,
    "com": 77,
    "at": "2026-11-26T17:11:29.000Z"
   }
