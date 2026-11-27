@@ -694,8 +694,11 @@ function chart(file, src, spec, alt, caption) {
 function freeHistory(days, data) {
   const seen = new Map();
   days.forEach(day => (data[day].free || []).forEach(f => {
-    const k = f.prov + "|" + f.name, cur = seen.get(k) || { ...f, first: day, last: day, n: 0 };
-    cur.last = day; cur.n++; cur.url = f.url || cur.url; cur.caps = f.caps || cur.caps; cur.ctx = f.ctx || cur.ctx;
+    // OpenCode Zen switched from ids ("jev-1.13") to display names ("Jev 1.13 Free") on 30 Oct 2026:
+    // same model, so match on a normalised name instead of counting a rename as one ending and one new model.
+    const norm = f.prov === "OpenCode Zen" ? f.name.toLowerCase().replace(/\s+free$/, "").replace(/[\s_]+/g, "-") : f.name;
+    const k = f.prov + "|" + norm, cur = seen.get(k) || { ...f, first: day, last: day, n: 0 };
+    cur.last = day; cur.n++; cur.name = f.name; cur.url = f.url || cur.url; cur.caps = f.caps || cur.caps; cur.ctx = f.ctx || cur.ctx;
     seen.set(k, cur);
   }));
   const lastDay = days[days.length - 1], all = [...seen.values()];
