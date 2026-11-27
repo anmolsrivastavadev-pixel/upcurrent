@@ -1674,6 +1674,13 @@ function numbersLine(it, h) {
   return h.up != null ? `${fmt(h.up)} upvotes` : "";
 }
 
+// Extra search phrases for repos going viral, taken from Google autocomplete (checked 27 Nov 2026).
+// tag: a few words for the title; q: the question people type. Only add what autocomplete really shows.
+const REPO_KEYWORDS = {
+  "nexu-io/opengame": { tag: "AI Game Agent", q: "What is opengame AI?" },
+  "alesha-pro/llm.asm": { tag: "LLM in Pure Assembly", q: "What is llm.asm?" },
+};
+
 let REPO_FACTS = null;
 function repoFacts(it) {
   if (it.src !== "gh") return null;
@@ -1702,9 +1709,14 @@ function explainerPage(it, all) {
   const latestNums = numbersLine(it, last);
   const seen = `Upcurrent first spotted it among the fastest-rising AI projects on ${shortDate(first.day)}. It has appeared on ${it.hist.length} daily list${it.hist.length > 1 ? "s" : ""} so far, peaking at #${best}.`;
   // GitHub repos: people search "<repo> github", so the title says what it is, how to install, and the star count.
-  const nowStars = F.stars ?? last.stars;
+  // Whichever count is fresher wins: repo-facts refreshes every 20h, the daily file every 30 min.
+  const factsNewer = F.stars != null && (last.stars == null || F.stars >= last.stars);
+  const nowStars = factsNewer ? F.stars : (last.stars ?? F.stars);
+  const starsDate = factsNewer ? F.fetched.slice(0, 10) : last.day;
   const ghStars = it.src === "gh" && nowStars != null ? `${fmt(nowStars)}★` : "";
+  const KW = it.src === "gh" ? REPO_KEYWORDS[`${it.owner}/${it.name}`] : null;
   const ghTitle = it.src === "gh" && F.gone ? `${it.name} GitHub: What It Was (Now Removed)` : it.src === "gh" ? [
+    ...(KW ? [`${it.name} GitHub: ${KW.tag}, How to Install${ghStars ? ` (${ghStars})` : ""}`, `${it.name} GitHub: ${KW.tag}${ghStars ? ` (${ghStars})` : ""}`] : []),
     `${it.name} GitHub: What It Is & How to Download${ghStars ? ` (${ghStars})` : ""}`,
     `${it.name} on GitHub: What It Is & How to Install${ghStars ? ` (${ghStars})` : ""}`,
     `${it.name} on GitHub: What It Is & How to Install`,
@@ -1717,7 +1729,7 @@ function explainerPage(it, all) {
     : clip(`${what} ${summary ? summary + " " : ""}${latestNums ? `Latest: ${latestNums}.` : ""}`.replace(/\s+/g, " "), 160);
   const related = all.filter(o => o !== it && o.cat && o.cat === it.cat).sort((a, b) => b.hist[b.hist.length - 1].day.localeCompare(a.hist[a.hist.length - 1].day)).slice(0, 6);
   const qa = [
-    [it.src === "paper" ? `What is the paper “${clip(it.name, 80)}” about?` : `What is ${it.name}?`, `${what}${summary ? " " + summary : ""}`],
+    [it.src === "paper" ? `What is the paper “${clip(it.name, 80)}” about?` : (KW?.q || `What is ${it.name}?`), `${what}${summary ? " " + summary : ""}`],
     ...(it.owner && it.src !== "paper" ? [[`Who made ${it.name}?`, `${it.name} is published by ${it.owner} on ${it.src === "gh" ? "GitHub" : "Hugging Face"}.`]] : []),
     ...(latestNums ? [[`How popular is ${it.src === "paper" ? "this paper" : it.name}?`, `On ${shortDate(last.day)} Upcurrent recorded ${latestNums}. ${growth}`.trim()]] : []),
     ...(it.src === "gh" && !F.gone && /^https:\/\/github\.com\/[^/]+\/[^/]+$/.test(it.url || "") ? [[`How do I download and install ${it.name}?`, F.install ? `Its README gives these install steps: ${F.install.split("\n").filter(l => !l.startsWith("#")).map(l => l.replace(/\s+#.*$/, "")).join(", then ")}. You can also download it from GitHub with git clone ${it.url}.` : `Download it from GitHub with git clone ${it.url}, or use the Code > Download ZIP button on its GitHub page, then follow the setup steps in its README. Read the code before you run it: new repos that gain stars fast are sometimes copies or malware.`]] : []),
@@ -1730,7 +1742,7 @@ function explainerPage(it, all) {
     released && [it.src === "gh" ? "Created" : it.src === "hf" ? "Released" : "Published", released],
     ["First spotted", `<a href="../../daily/${first.day}.html">${esc(shortDate(first.day))}</a>`, true],
     F.lang && ["Language", F.lang], F.license && ["Licence", F.license], F.forks != null && ["Forks", fmt(F.forks)], F.contributors && ["Contributors", fmt(F.contributors)],
-    F.pushed && ["Last updated", shortDate(F.pushed.slice(0, 10))], F.stars != null && ["Stars now", `★ ${fmt(F.stars)} (checked ${shortDate(F.fetched.slice(0, 10))})`],
+    F.pushed && ["Last updated", shortDate(F.pushed.slice(0, 10))], nowStars != null && it.src === "gh" && ["Stars now", `★ ${fmt(nowStars)} (checked ${shortDate(starsDate)})`],
     ["Best position", `#${best} of the day's top movers`], latestNums && ["Latest numbers", `${latestNums} (${shortDate(last.day)})`]
   ].filter(Boolean);
   const body = `<section>
