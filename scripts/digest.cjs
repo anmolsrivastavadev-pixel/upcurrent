@@ -139,7 +139,7 @@ const preview = `${top.slice(1, 3).map(i => i.hook).join(". ")}${top.length > 3 
 function share() {
   const page = `${SITE}daily/${data.fetchedAt.slice(0, 10)}.html`;
   const msg = encodeURIComponent(`What's rising in AI today, from Upcurrent: ${page}`);
-  return `Know someone who'd like this? Forward it, or share today's list on ${link("X", "https://x.com/intent/post?text=" + msg)}, ${link("Bluesky", "https://bsky.app/intent/compose?text=" + msg)}, ${link("LinkedIn", "https://www.linkedin.com/sharing/share-offsite/?url=" + encodeURIComponent(page))} or ${link("WhatsApp", "https://wa.me/?text=" + msg)}.`;
+  return `Got this from a friend? ${link("Get your own free 7am email", SITE + "email.html")}.\n\nKnow someone who'd like this? Forward it, or share today's list on ${link("X", "https://x.com/intent/post?text=" + msg)}, ${link("Bluesky", "https://bsky.app/intent/compose?text=" + msg)}, ${link("LinkedIn", "https://www.linkedin.com/sharing/share-offsite/?url=" + encodeURIComponent(page))} or ${link("WhatsApp", "https://wa.me/?text=" + msg)}.`;
 }
 
 const parts = [
