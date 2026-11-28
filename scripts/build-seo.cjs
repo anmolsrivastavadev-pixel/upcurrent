@@ -85,6 +85,10 @@ const RELATED = {
 };
 // Free model alerts signup (scripts/free-alerts.cjs sends them). Alert-only subscribers are marked so the
 // morning email leaves them out.
+// Pages Google already shows (GSC, 28 Nov 2026) get the 7am email offer after their first section,
+// not just at the bottom: search visits are fragile, an email reader is not.
+const MID_CTA_RE = /^\/(trending-ai-papers|trending-ai-github-repos|github-trending-archive|github-trending\/\d{4}-\d{2}|new-ai-models|daily|what-is(?:\/[^/]+)?)\/$/;
+const MID_CTA = `<section class="cta" id="early"><h2>Get tomorrow's list at 7am</h2><p>This list changes every day. The free 7am email brings you the 5 fastest-rising AI repos, models and papers, plus new free models, in your inbox each morning. Your own time zone, unsubscribe any time.</p><form class="nl" data-where="mid" action="https://buttondown.com/api/emails/embed-subscribe/anmolsrivastavadev" method="post" target="_blank"><input type="email" name="email" required placeholder="you@example.com" aria-label="Email address" autocomplete="email"><input type="hidden" name="metadata__timezone" value="Europe/London"><button type="submit">Get the 7am email</button><div class="ok" hidden>Almost done: open the email we just sent and click Confirm. Not there in a minute? Check Promotions or Spam.</div></form></section>`;
 const ALERT_PAGES = new Set(["/free-ai-models/", "/free-ai-models/history/", "/free-ai-models/openrouter/", "/free-ai-models/api/", "/free-ai-models/opencode/"]);
 const ALERT_FORM = `<section id="alerts" class="alertbox"><h2>Get an email when a new AI model goes free</h2><p>One short email on the days a model becomes free on OpenRouter or OpenCode, or stops being free (with its new price when there is one), and nothing on other days. Free offers often end within two weeks, so alerts help you catch them. Unsubscribe any time.</p><form class="nla" action="https://buttondown.com/api/emails/embed-subscribe/anmolsrivastavadev" method="post" target="_blank" onsubmit="try{window.goatcounter&&goatcounter.count&&goatcounter.count({path:'free-alert-signup',title:'Free model alert signup',event:true})}catch(e){}"><input type="email" name="email" required placeholder="you@example.com" aria-label="Email address for free model alerts" autocomplete="email"><input type="hidden" name="metadata__free_alerts" value="yes"><input type="hidden" name="metadata__alerts_only" value="yes"><button type="submit">Alert me</button></form></section>`;
 const STABLE_SINCE = {
@@ -102,6 +106,7 @@ function page({ title, description, canonical, body, ld, ogType = "article", up 
   body = body.replace(/<h1>[\s\S]*?<\/h1>/, `<h1>${esc(bare)}</h1>`);
   body = body.replace(/(<figure class="chart"><img [^>]*?) loading="lazy"/, "$1 fetchpriority=\"high\""); // first chart is often the largest thing on screen, so load it straight away
   if (ALERT_PAGES.has(canonical.replace(SITE, "/"))) body = body.replace(/(<section id="picks"|<section id="take"|<section id="list"|<section class="share")/, `${ALERT_FORM}\n$1`);
+  if (MID_CTA_RE.test(canonical.replace(SITE, "/")) && !body.includes('id="next"')) body = body.replace(/<\/section>/, `</section>\n${MID_CTA}`);
   const rel = RELATED[canonical.replace(SITE, "/")];
   if (rel) body = body.replace(/(<section class="share"|$)/, `<section><h2>Related guides</h2><p>${rel}</p></section>\n$1`);
   return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
@@ -310,7 +315,7 @@ ${wk.size ? `<section id="week"><h2>Popular AI papers this week</h2><p>Papers th
 ${ax.length ? `<section id="arxiv"><h2>Newest AI papers on arXiv</h2><p>The latest submissions in cs.AI, cs.CL and cs.LG on <a href="https://arxiv.org/list/cs.AI/recent" rel="noopener">arXiv</a>.</p><ul class="rows">${ax.map(p => `<li><span class="t">${link(p.url, p.t)}</span><span class="m">${esc(shortDate((p.at || "").slice(0, 10) || days[days.length - 1]))}</span></li>`).join("")}</ul></section>` : ""}
 <section><h2>Related</h2><p>For models rather than papers, see <a href="../new-ai-models/">new AI models and Hugging Face trending models</a>. For code, see <a href="../trending-ai-github-repos/">GitHub trending repositories today</a>.</p></section>
 ${faqHtml(qa)}`;
-      out["trending-ai-papers"] = page({ title: "Trending AI Research Papers Today (Hugging Face, arXiv)", description: clip(lede, 160), canonical: url, body, up: "../",
+      out["trending-ai-papers"] = page({ title: "Trending AI Papers Today: Hugging Face Daily Papers + arXiv", description: clip(lede, 160), canonical: url, body, up: "../",
         ld: [{ "@context": "https://schema.org", "@type": "ItemList", name: "Trending AI research papers", url, numberOfItems: hf.length, itemListElement: hf.map((p, i) => ({ "@type": "ListItem", position: i + 1, name: p.title, url: "https://huggingface.co/papers/" + p.id })) }, faq(qa), breadcrumb([["Upcurrent", SITE], ["Trending AI papers", url]])] });
     }
   }
@@ -397,7 +402,7 @@ ${faqHtml(qa)}`;
 <section id="list"><h2>Every trending AI repo in ${esc(name)}</h2><ol class="rows">${repos.map(r => rowHtml(r, "../../")).join("")}</ol></section>
 <section><h2>More months</h2><p>${prev && collect(days.filter(d => d.startsWith(prev))).length >= 10 ? `<a href="../${prev}/">GitHub trending ${esc(monthName(prev))}</a> · ` : ""}${next ? `<a href="../${next}/">GitHub trending ${esc(monthName(next))}</a> · ` : ""}<a href="../../github-trending-archive/">Every day in the GitHub trending archive</a> · <a href="../../trending-ai-github-repos/">GitHub trending repositories today</a></p></section>
 ${faqHtml(qa)}`;
-      out[`github-trending/${m}`] = page({ title: `GitHub Trending ${name}: Top ${repos.length} AI Repos`, description: clip(lede, 160), canonical: url, body, up: "../../",
+      out[`github-trending/${m}`] = page({ title: `GitHub Trending Repositories ${name}: Top ${repos.length} AI Repos`, description: clip(lede, 160), canonical: url, body, up: "../../",
         ld: [{ "@context": "https://schema.org", "@type": "ItemList", name: `GitHub trending ${name}`, url, numberOfItems: repos.length, itemListElement: repos.map((r, k) => ({ "@type": "ListItem", position: k + 1, name: r.repo, url: "https://github.com/" + r.repo })) }, faq(qa), breadcrumb([["Upcurrent", SITE], ["GitHub trending archive", SITE + "github-trending-archive/"], [name, url]])] });
     });
 
@@ -1706,6 +1711,14 @@ const MODEL_KEYWORDS = {
 };
 // Removed repos that people still search for: keep the page indexed and point them somewhere real.
 // Offer facts hand-checked on gemini.google/students, 27 November 2026; re-check after 31 Dec 2026.
+// Survive-updates audit 28 Nov 2026: near-duplicate variant pages point their canonical at the main
+// model page (which lists the variants), and pages we don't want ranking are noindexed.
+const MERGE_INTO = {
+  "unsloth-inkling-2-mini-gguf": "thinkingmachines-inkling-2-mini",
+  "atomicchat-inkling-2-mini-uncensored-gguf": "thinkingmachines-inkling-2-mini",
+  "comfy-org-minimax-h3-image": "minimaxai-minimax-h3-image",
+};
+const NOINDEX_SLUGS = new Set(["duwqijlk-muse-protocol"]); // sign-up/invite-code abuse tooling
 const GONE_GUIDE = {
   "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto": {
     title: "Google AI Pro 2 Year Zero Cost GitHub: Removed (Free Ways)",
@@ -1836,7 +1849,8 @@ ${faqHtml(qa)}
     faq(qa),
     breadcrumb([["Upcurrent", SITE], ["Explained", SITE + "what-is/"], [clip(label, 60), url]])
   ];
-  return page({ title, description, canonical: url, body, ld, up: "../../", noindex: !!F.gone && !GG });
+  const into = MERGE_INTO[it.slug] && all.some(o => o.slug === MERGE_INTO[it.slug]) ? MERGE_INTO[it.slug] : null;
+  return page({ title, description, canonical: into ? `${SITE}what-is/${into}/` : url, body, ld, up: "../../", noindex: (!!F.gone && !GG) || NOINDEX_SLUGS.has(it.slug) });
 }
 
 function explainerIndex(items) {
@@ -1904,7 +1918,7 @@ ${qa.slice(1).map(([q, a]) => `<section><h2>${esc(q)}</h2><p>${esc(a)}</p></sect
     ...Object.keys(guides).map(slug => ({ loc: `${SITE}${slug}/`, lastmod: latest, changefreq: "hourly", priority: "0.9" })),
     { loc: SITE + "about/", lastmod: latest, changefreq: "monthly", priority: "0.5" },
     ...(explained.length ? [{ loc: SITE + "what-is/", lastmod: latest, changefreq: "daily", priority: "0.8" }] : []),
-    ...explained.filter(it => !repoFacts(it)?.gone || GONE_GUIDE[`${it.owner}/${it.name}`]).map(it => ({ loc: `${SITE}what-is/${it.slug}/`, lastmod: data[it.hist[it.hist.length - 1].day].about?.updated || latest, changefreq: "daily", priority: "0.7" })),
+    ...explained.filter(it => (!repoFacts(it)?.gone || GONE_GUIDE[`${it.owner}/${it.name}`]) && !MERGE_INTO[it.slug] && !NOINDEX_SLUGS.has(it.slug)).map(it => ({ loc: `${SITE}what-is/${it.slug}/`, lastmod: data[it.hist[it.hist.length - 1].day].about?.updated || latest, changefreq: "daily", priority: "0.7" })),
     { loc: SITE + "email.html", lastmod: latest, changefreq: "daily", priority: "0.6" },
     { loc: SITE + "data.html", lastmod: latest, changefreq: "weekly", priority: "0.6" },
     ...days.map(day => ({ loc: `${SITE}daily/${day}.html`, lastmod: data[day].about?.updated || day, changefreq: day === days[days.length - 1] ? "hourly" : "monthly", priority: "0.7" }))
