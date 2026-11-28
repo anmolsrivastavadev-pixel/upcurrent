@@ -1,5 +1,6 @@
 // Fetches every source and writes data/latest.json for the page to read.
 // Run by .github/workflows/update-data.yml every hour. Locally: node scripts/update-data.cjs
+require("./fetch-timeout.cjs");
 const fs = require("fs");
 const path = require("path");
 const C = require("../core.js");

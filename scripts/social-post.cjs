@@ -5,6 +5,7 @@
 // Runs from the morning email workflow, which fires every 15-30 minutes. It posts on the first run
 // between POST_HOUR and LAST_HOUR UK time, and checks the account's own latest post so it never posts twice a day.
 // DRY_RUN=1 only prints the posts.
+require("./fetch-timeout.cjs");
 const fs = require("fs");
 const path = require("path");
 

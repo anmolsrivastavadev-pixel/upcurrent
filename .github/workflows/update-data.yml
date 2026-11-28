@@ -19,6 +19,8 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    # A normal run takes 1-3 minutes. On 9 Nov one run hung for 4 days and blocked every publish behind it.
+    timeout-minutes: 20
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url || steps.deploy_retry.outputs.page_url }}
@@ -79,9 +81,9 @@ jobs:
           exit 1
 
       - name: Build search-engine pages
-        # Daily archive pages, sitemap.xml and a pre-filled index.html for the published copy only.
-        # Never blocks the publish: if anything here fails, the site goes out as before.
-        continue-on-error: true
+        # Daily archive pages, guides, sitemap.xml and a pre-filled index.html for the published copy only.
+        # These pages are not saved in the repo, so if this step fails the publish is skipped:
+        # the site that is already live stays up, instead of going out without ~200 pages and the sitemap.
         run: |
           python3 -m http.server 8080 --bind 127.0.0.1 >/dev/null 2>&1 &
           sleep 2
@@ -97,6 +99,10 @@ jobs:
           fi
           # Today's share card (top 3 rising) for Discord, X, iMessage etc. Keeps og.png if it fails.
           [ -n "$CHROME" ] && node scripts/og-image.cjs "$CHROME" || true
+          # Last check before publishing: the key pages must exist.
+          for f in sitemap.xml robots.txt free-ai-models/index.html what-is/index.html daily/index.html; do
+            [ -s "$f" ] || { echo "::error::$f was not built, so the site was not published this time"; exit 1; }
+          done
 
       - uses: actions/configure-pages@v5
 

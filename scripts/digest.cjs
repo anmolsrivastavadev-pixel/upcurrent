@@ -1,5 +1,6 @@
 // Builds the morning email from data/latest.json and sends it through Buttondown.
 // Without BUTTONDOWN_API_KEY (or with DRY_RUN=1) it only writes data/digest.md as a preview.
+require("./fetch-timeout.cjs");
 const fs = require("fs");
 const path = require("path");
 const { build, comma, fmt } = require("../core.js");
@@ -166,6 +167,7 @@ if (!key) { console.log("::notice::No BUTTONDOWN_API_KEY, preview only."); proce
 const API = "https://api.buttondown.com/v1";
 const DEFAULT_TZ = "Europe/London";
 const SEND_HOUR = 7, LAST_HOUR = 12;
+const MAX_DATA_AGE_HOURS = 6;
 const headers = { Authorization: `Token ${key}`, "Content-Type": "application/json" };
 
 async function api(method, url, body, extra = {}) {
@@ -196,7 +198,9 @@ async function main() {
 
   const now = new Date();
   const zones = [...new Set(subs.map(s => s.metadata.timezone))];
-  const waiting = tz => subs.some(s => s.metadata.timezone === tz && s.metadata.last_sent !== localDate(tz, now));
+  // A zone is due until anyone in it has been marked with today's date. The send goes to the whole zone, so
+  // "until everyone is marked" would re-send to the whole zone whenever one person joins after 7am.
+  const waiting = tz => !subs.some(s => s.metadata.timezone === tz && s.metadata.last_sent === localDate(tz, now));
   const due = process.env.ONLY_TZ ? [process.env.ONLY_TZ] : zones.filter(tz => { const h = localHour(tz, now); return h >= SEND_HOUR && h < LAST_HOUR && waiting(tz); });
   const reach = subs.filter(s => due.includes(s.metadata.timezone)).length;
   console.log(`::notice::${subs.length} subscribers in ${zones.length} time zones (${zones.join(", ") || "none"}). Due now: ${due.join(", ") || "none"} (${reach} people).`);
@@ -210,10 +214,14 @@ async function main() {
   }
   if (!due.length) return;
   if (top.length < 2) throw new Error("Nothing to send today.");
+  // Never send old news as today's: if the site stopped updating, fail loudly instead (GitHub emails a failure notice).
+  const ageHours = (Date.now() - Date.parse(data.fetchedAt)) / 36e5;
+  if (ageHours > MAX_DATA_AGE_HOURS) throw new Error(`The data is ${Math.round(ageHours)} hours old (last update ${data.fetchedAt}), so the email was not sent. Check the Update data runs.`);
 
   await api("POST", "/emails", { subject, body, status: "about_to_send", filters }, { "X-Buttondown-Live-Dangerously": "true" });
   console.log(`::notice::Sent to ${due.join(", ")}.`);
-  // Mark who got today's email, so later runs this morning skip them.
+  // Mark who got today's email, so later runs this morning skip them. Someone who joins a zone after
+  // this point isn't marked, but the zone no longer counts as due (see "waiting"), so they start tomorrow.
   for (const s of subs.filter(s => due.includes(s.metadata.timezone))) {
     try { await api("PATCH", `/subscribers/${s.id}`, { metadata: { ...s.metadata, last_sent: localDate(s.metadata.timezone, now) } }); }
     catch (e) { console.log(`::warning::Could not mark ${s.id} as sent: ${e.message}`); }

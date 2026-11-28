@@ -5,6 +5,7 @@
 // once. It runs in the morning email workflow; the email's slug includes the date, and Buttondown refuses a
 // second email with the same slug, so a later run the same day can't send it twice.
 // Without BUTTONDOWN_API_KEY, or with DRY_RUN=1, it only prints what it would send.
+require("./fetch-timeout.cjs");
 const fs = require("fs");
 const path = require("path");
 
@@ -61,7 +62,7 @@ async function main() {
     metadata: { kind: "free-alert", day: dayStr(y) } }) });
   const t = await r.text();
   if (r.ok) return console.log(`::notice::Free alert sent for ${dayStr(y)}`);
-  if (/slug/i.test(t)) return console.log(`Free alerts: already sent for ${dayStr(y)}`);
+  if (/slug|email_duplicate/i.test(t)) return console.log(`Free alerts: already sent for ${dayStr(y)}`);
   throw new Error(`Buttondown ${r.status}: ${t.slice(0, 300)}`);
 }
 main().catch(e => { console.log(`::warning::Free alerts failed: ${e.message}`); });

@@ -6,6 +6,7 @@
 // Change it here (1 shows them as soon as anyone subscribes; Anmol chose this on 27 Nov 2026). Numbers are never rounded up or padded.
 const SHOW_FROM = 1;
 
+require("./fetch-timeout.cjs");
 const fs = require("fs");
 const path = require("path");
 const out = path.join(__dirname, "..", "data/api/newsletter.json");
