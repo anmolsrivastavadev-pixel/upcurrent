@@ -66,7 +66,9 @@
         const since = isoDay(Date.now() - 30 * DAY);
         const q = `llm OR agent OR ai OR claude OR mcp OR gpt created:>${since} stars:>100`;
         const j = await getJSON(`https://api.github.com/search/repositories?q=${encodeURIComponent(q)}&sort=stars&order=desc&per_page=60`, ghHeaders);
-        return j.items.map(x => ({ repo: x.full_name, owner: x.owner.login, name: x.name, desc: x.description || "", stars: x.stargazers_count, forks: x.forks_count, created: x.created_at, topics: x.topics || [], lang: x.language }));
+        // Bought-star guard: real repos with hundreds of stars always get forked (lowest real ratio seen
+        // Oct-Nov 2026 was ~0.9%). 300+ stars with under 0.5% forks is almost always fake stars, often a malware lure.
+        return j.items.filter(x => !(x.stargazers_count >= 300 && x.forks_count / x.stargazers_count < 0.005)).map(x => ({ repo: x.full_name, owner: x.owner.login, name: x.name, desc: x.description || "", stars: x.stargazers_count, forks: x.forks_count, created: x.created_at, topics: x.topics || [], lang: x.language }));
       },
       async hfModels() {
         const j = await getJSON("https://huggingface.co/api/models?sort=trendingScore&direction=-1&limit=40");
