@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-28T00:30:52.112Z"
+  "updated": "2026-11-28T01:01:01.785Z"
  },
  "pulse": {
   "trending": 75,
   "accelerating": 4,
   "newModels": 8,
-  "discussions": 44,
-  "stars": 2521
+  "discussions": 45,
+  "stars": 1983
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "The Super Game Agent — the Unity & Unreal for AI agents, with 100+ viral games to remix. Turn 20+ coding agents (Claude Code, Codex, DeepSeek, etc.) into a full-stack AI game studio. Build and publish 3D & mini-games to WeChat, Douyin, TikTok, Telegram, itch.io, and more.",
    "meta": [
-    "★ 2,240",
-    "~868 in 24h",
+    "★ 2,251",
+    "~865 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-25T10:35:45Z",
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "Infrastructure",
    "score": 94,
-   "grow": 20,
+   "grow": 21,
    "desc": "Qwen3-0.6B inference (12 KB), bare-metal bootable OS (22 KB), and from-scratch Mini-GPT trainer with live Braille TUI (32 KB) in 100% pure x86-64 NASM assembly. Zero C, zero libc, zero dependencies.",
    "meta": [
-    "★ 2,208",
-    "+703 in 24h",
+    "★ 2,224",
+    "+705 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-25T07:28:51Z",
@@ -55,11 +55,11 @@
    "src": "gh",
    "cat": "Agents",
    "score": 90,
-   "grow": null,
+   "grow": 1,
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile your app, port the hot functions with your coding agent, prove they behave the same. Python, JS/TS, Ruby, Java, Kotlin, Go, PHP, C/C++, C#, R.",
    "meta": [
-    "★ 4,464",
-    "~696 in 24h",
+    "★ 4,468",
+    "+156 in 24h",
     "Created 6 days ago"
    ],
    "at": "2026-11-21T14:40:27Z",
@@ -151,12 +151,12 @@
    "owner": "ISTA-DASLab",
    "src": "hf",
    "cat": "Infrastructure",
-   "score": 85,
-   "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 267",
+   "score": 87,
+   "grow": 0,
+   "desc": "Model on Hugging Face · open source · ♥ 273",
    "meta": [
     "25K downloads",
-    "Released yesterday"
+    "Released 2 days ago"
    ],
    "at": "2026-11-26T13:01:01.000Z",
    "breakout": null,
@@ -224,8 +224,8 @@
    "name": "opengame",
    "url": "https://github.com/nexu-io/opengame",
    "from": "GitHub",
-   "use": 868,
-   "useLabel": "~868 stars/day",
+   "use": 865,
+   "useLabel": "~865 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -339,10 +339,10 @@
  "github": [
   {
    "repo": "nexu-io/opengame",
-   "stars": 2240,
-   "d24": 868,
+   "stars": 2251,
+   "d24": 865,
    "est": true,
-   "forks": 361,
+   "forks": 367,
    "contrib": null,
    "score": 95,
    "cat": "Agents",
@@ -350,10 +350,10 @@
   },
   {
    "repo": "alesha-pro/llm.asm",
-   "stars": 2208,
-   "d24": 703,
+   "stars": 2224,
+   "d24": 705,
    "est": false,
-   "forks": 336,
+   "forks": 338,
    "contrib": null,
    "score": 94,
    "cat": "Infrastructure",
@@ -361,9 +361,9 @@
   },
   {
    "repo": "EL4CTEO/fast-anything",
-   "stars": 4464,
-   "d24": 696,
-   "est": true,
+   "stars": 4468,
+   "d24": 156,
+   "est": false,
    "forks": 318,
    "contrib": 13,
    "score": 90,
@@ -383,8 +383,8 @@
   },
   {
    "repo": "qianyiai/KuroCat",
-   "stars": 1762,
-   "d24": 110,
+   "stars": 1766,
+   "d24": 113,
    "est": false,
    "forks": 248,
    "contrib": null,
@@ -403,7 +403,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 6463
+   "likes": 6464
   },
   {
    "name": "Inkling-2-Mini-GGUF",
@@ -414,7 +414,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 1610
+   "likes": 1612
   },
   {
    "name": "Ternary-Bonsai-2.5-27B-GGUF",
@@ -456,10 +456,10 @@
    "lic": "Open source",
    "at": "2026-11-26T13:01:01.000Z",
    "dl": 24931,
-   "grow": null,
-   "score": 85,
+   "grow": 0,
+   "score": 87,
    "cat": "Infrastructure",
-   "likes": 267
+   "likes": 273
   }
  ],
  "free": [
@@ -792,6 +792,27 @@
    "kind": "News"
   },
   {
+   "t": "India’s First Asian Congress of Semiotics (ACS 2026) Commences at Navrachana University, Vadodara",
+   "url": "https://www.tribuneindia.com/news/business/indias-first-asian-congress-of-semiotics-acs-2026-commences-at-navrachana-university-vadodara/",
+   "at": "2026-11-27T12:37:43Z",
+   "src": "The Tribune",
+   "kind": "News"
+  },
+  {
+   "t": "Rajnath Singh on role of AI in healthcare",
+   "url": "https://www.aninews.in/news/national/general-news/8220technology-may-be-intelligent-but-cannot-replace-compassion8221-rajnath-singh-on-role-of-ai-in-healthcare20261127180203/",
+   "at": "2026-11-27T12:32:03Z",
+   "src": "ANI (Asian News International)",
+   "kind": "News"
+  },
+  {
+   "t": "Technology is intelligent, but cannot replace human compassion: Rajnath Singh",
+   "url": "https://www.lokmattimes.com/national/technology-is-intelligent-but-cannot-replace-human-compassion-rajnath-singh-a001-w01/",
+   "at": "2026-11-27T12:32:03Z",
+   "src": "Lokmat Times",
+   "kind": "News"
+  },
+  {
    "t": "World’s most Dangerous AI - Claude | Abhi and Niyu",
    "url": "https://www.youtube.com/watch?v=967wRM691jo",
    "at": "2026-11-27T12:30:30Z",
@@ -803,27 +824,6 @@
    "url": "https://www.theguardian.com/technology/2026/nov/27/meta-whistleblower-sarah-wynn-williams-calls-on-burnham-to-go-further-with-ban-on-non-disclosure-agreements",
    "at": "2026-11-27T12:30:08Z",
    "src": "The Guardian",
-   "kind": "News"
-  },
-  {
-   "t": "CAG among five global audit entities to examine adoption, risks of AI in compliance auditing",
-   "url": "https://economictimes.indiatimes.com/industry/services/consultancy-/-audit/cag-among-five-global-audit-entities-to-examine-adoption-risks-of-ai-in-compliance-auditing/articleshow/136221588.cms",
-   "at": "2026-11-27T12:14:00Z",
-   "src": "The Economic Times",
-   "kind": "News"
-  },
-  {
-   "t": "Even if I dance, you will call it AI: Mammootty makes witty remark on technology",
-   "url": "https://www.lokmattimes.com/technology/even-if-i-dance-you-will-call-it-ai-mammootty-makes-witty-remark-on-technology-a001-w02/",
-   "at": "2026-11-27T12:05:11Z",
-   "src": "Lokmat Times",
-   "kind": "News"
-  },
-  {
-   "t": "America’s biggest investor Michael Burry warns of AI bubble as Nvidia, Oracle and Meta face rising debt risks",
-   "url": "https://timesofindia.indiatimes.com/technology/tech-news/americas-biggest-investor-michael-burry-warns-of-ai-bubble-as-nvidia-oracle-and-meta-face-rising-debt-risks/articleshow/136221559.cms",
-   "at": "2026-11-27T12:05:00Z",
-   "src": "Times of India",
    "kind": "News"
   }
  ],
@@ -842,8 +842,8 @@
    "t": "Claude sabotaging ML research tasks?",
    "url": "https://news.ycombinator.com/item?id=50664325",
    "link": "https://twitter.com/RealAstropulse/status/2126119408997466389",
-   "up": 570,
-   "com": 280,
+   "up": 589,
+   "com": 285,
    "at": "2026-11-27T08:28:08.000Z"
   },
   {
@@ -851,7 +851,7 @@
    "t": "Show HN: bouncemarket – a live prediction market game for a bouncing ball",
    "url": "https://news.ycombinator.com/item?id=50667726",
    "link": "https://bouncemarket.minhanhday.com/",
-   "up": 321,
+   "up": 324,
    "com": 111,
    "at": "2026-11-27T15:01:50.000Z"
   },
@@ -860,8 +860,8 @@
    "t": "Convex skills send the user's app idea to a remote server without telling them",
    "url": "https://news.ycombinator.com/item?id=50669765",
    "link": "https://github.com/convex/convex-backend-skill/issues/64",
-   "up": 215,
-   "com": 64,
+   "up": 221,
+   "com": 70,
    "at": "2026-11-27T18:02:45.000Z"
   },
   {
@@ -870,7 +870,7 @@
    "url": "https://news.ycombinator.com/item?id=50669561",
    "link": "https://thesoapbox.email/archive/3",
    "up": 201,
-   "com": 236,
+   "com": 240,
    "at": "2026-11-27T17:45:31.000Z"
   },
   {
@@ -878,7 +878,7 @@
    "t": "US Air Force's cloud computing platform hacked",
    "url": "https://news.ycombinator.com/item?id=50666375",
    "link": "https://news.sky.com/story/us-air-forces-cloud-computing-platform-hacked-13617163",
-   "up": 320,
+   "up": 322,
    "com": 200,
    "at": "2026-11-27T12:54:11.000Z"
   }
