@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-27T23:31:01.270Z"
+  "updated": "2026-11-28T00:01:04.110Z"
  },
  "pulse": {
-  "trending": 74,
+  "trending": 76,
   "accelerating": 5,
   "newModels": 8,
   "discussions": 47,
-  "stars": 2397
+  "stars": 2669
  },
  "rising": [
   {
@@ -24,8 +24,8 @@
    "grow": null,
    "desc": "The Super Game Agent — the Unity & Unreal for AI agents, with 100+ viral games to remix. Turn 20+ coding agents (Claude Code, Codex, DeepSeek, etc.) into a full-stack AI game studio. Build and publish 3D & mini-games to WeChat, Douyin, TikTok, Telegram, itch.io, and more.",
    "meta": [
-    "★ 2,215",
-    "~873 in 24h",
+    "★ 2,228",
+    "~871 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-25T10:35:45Z",
@@ -38,16 +38,33 @@
    "src": "gh",
    "cat": "Infrastructure",
    "score": 94,
-   "grow": 18,
+   "grow": 19,
    "desc": "Qwen3-0.6B inference (12 KB), bare-metal bootable OS (22 KB), and from-scratch Mini-GPT trainer with live Braille TUI (32 KB) in 100% pure x86-64 NASM assembly. Zero C, zero libc, zero dependencies.",
    "meta": [
-    "★ 2,181",
-    "+708 in 24h",
+    "★ 2,195",
+    "+706 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-25T07:28:51Z",
    "breakout": null,
    "url": "https://github.com/alesha-pro/llm.asm"
+  },
+  {
+   "name": "fast-anything",
+   "owner": "EL4CTEO",
+   "src": "gh",
+   "cat": "Agents",
+   "score": 90,
+   "grow": null,
+   "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile your app, port the hot functions with your coding agent, prove they behave the same. Python, JS/TS, Ruby, Java, Kotlin, Go, PHP, C/C++, C#, R.",
+   "meta": [
+    "★ 4,461",
+    "~698 in 24h",
+    "Created 6 days ago"
+   ],
+   "at": "2026-11-21T14:40:27Z",
+   "breakout": null,
+   "url": "https://github.com/EL4CTEO/fast-anything"
   },
   {
    "name": "Inkling-2-Mini",
@@ -62,7 +79,7 @@
     "Released 11 days ago"
    ],
    "at": "2026-11-17T00:26:57.000Z",
-   "breakout": 3,
+   "breakout": null,
    "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini"
   },
   {
@@ -86,9 +103,9 @@
    "owner": "prism-ml",
    "src": "hf",
    "cat": "Agents",
-   "score": 90,
+   "score": 89,
    "grow": 544,
-   "desc": "Model on Hugging Face · open source · ♥ 634",
+   "desc": "Model on Hugging Face · open source · ♥ 635",
    "meta": [
     "383K downloads",
     "Released 3 days ago"
@@ -96,23 +113,6 @@
    "at": "2026-11-24T16:32:20.000Z",
    "breakout": null,
    "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF"
-  },
-  {
-   "name": "fast-anything",
-   "owner": "EL4CTEO",
-   "src": "gh",
-   "cat": "Agents",
-   "score": 89,
-   "grow": null,
-   "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile your app, port the hot functions with your coding agent, prove they behave the same. Python, JS/TS, Ruby, Java, Kotlin, Go, PHP, C/C++, C#, R.",
-   "meta": [
-    "★ 4,457",
-    "~700 in 24h",
-    "Created 6 days ago"
-   ],
-   "at": "2026-11-21T14:40:27Z",
-   "breakout": null,
-   "url": "https://github.com/EL4CTEO/fast-anything"
   },
   {
    "name": "Sulphur-3",
@@ -153,7 +153,7 @@
    "cat": "Infrastructure",
    "score": 85,
    "grow": null,
-   "desc": "Model on Hugging Face · open source · ♥ 265",
+   "desc": "Model on Hugging Face · open source · ♥ 267",
    "meta": [
     "25K downloads",
     "Released yesterday"
@@ -172,39 +172,37 @@
    "grow": null,
    "desc": "Computer-using agents are increasingly expected to complete realistic user goals rather than isolated GUI actions.",
    "meta": [
-    "▲ 102 upvotes",
+    "▲ 103 upvotes",
     "Hugging Face Papers"
    ],
    "at": "2026-11-24T19:00:00.000Z",
    "breakout": null
   }
  ],
- "breakouts": [
+ "breakouts": [],
+ "hype": [
   {
-   "key": "inkling-2-mini",
-   "label": "Inkling-2-Mini",
-   "n": 3,
-   "sources": [
-    {
-     "src": "Hugging Face",
-     "t": "thinkingmachines/Inkling-2-Mini",
-     "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini"
-    },
+   "name": "GPT-6.2",
+   "url": null,
+   "from": null,
+   "use": null,
+   "useLabel": "No public numbers",
+   "usePct": null,
+   "talk": [
     {
      "src": "Hacker News",
-     "t": "Show HN: Getting 101 tok/s from Inkling 2 Mini in vLLM on one GB10",
-     "url": "https://news.ycombinator.com/item?id=50670443"
+     "t": "GPT 6.2 Astra solves a historical mystery",
+     "url": "https://news.ycombinator.com/item?id=50667744"
     },
     {
-     "src": "Hugging Face blog",
-     "t": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
-     "url": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb"
+     "src": "TechRadar",
+     "t": "OpenAI says GPT-6.2 is better at following complicated instructions in ChatGPT - so I tested what happens when you change the plan halfway through",
+     "url": "https://www.techradar.com/ai-platforms-assistants/openai-says-gpt-6-2-is-better-at-following-complicated-instructions-in-chatgpt-so-i-tested-what-happens-when-you-change-the-plan-halfway-through"
     }
    ],
-   "since": "2026-11-21T20:30:54.883Z"
-  }
- ],
- "hype": [
+   "buzz": 2,
+   "verdict": "Talk only, no public usage numbers"
+  },
   {
    "name": "Inkling-2-Mini",
    "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
@@ -217,22 +215,17 @@
      "src": "Hacker News",
      "t": "Show HN: Getting 101 tok/s from Inkling 2 Mini in vLLM on one GB10",
      "url": "https://news.ycombinator.com/item?id=50670443"
-    },
-    {
-     "src": "Hugging Face blog",
-     "t": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
-     "url": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb"
     }
    ],
-   "buzz": 2,
+   "buzz": 1,
    "verdict": "The hype matches real use"
   },
   {
    "name": "opengame",
    "url": "https://github.com/nexu-io/opengame",
    "from": "GitHub",
-   "use": 873,
-   "useLabel": "~873 stars/day",
+   "use": 871,
+   "useLabel": "~871 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -346,10 +339,10 @@
  "github": [
   {
    "repo": "nexu-io/opengame",
-   "stars": 2215,
-   "d24": 873,
+   "stars": 2228,
+   "d24": 871,
    "est": true,
-   "forks": 358,
+   "forks": 360,
    "contrib": null,
    "score": 95,
    "cat": "Agents",
@@ -357,10 +350,10 @@
   },
   {
    "repo": "alesha-pro/llm.asm",
-   "stars": 2181,
-   "d24": 708,
+   "stars": 2195,
+   "d24": 706,
    "est": false,
-   "forks": 332,
+   "forks": 334,
    "contrib": null,
    "score": 94,
    "cat": "Infrastructure",
@@ -368,23 +361,45 @@
   },
   {
    "repo": "EL4CTEO/fast-anything",
-   "stars": 4457,
-   "d24": 700,
+   "stars": 4461,
+   "d24": 698,
    "est": true,
    "forks": 318,
-   "contrib": null,
-   "score": 89,
+   "contrib": 13,
+   "score": 90,
    "cat": "Agents",
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile your app, port the hot functions with your coding agent, prove they behave the same. Python, JS/TS, Ruby, Java, Kotlin, Go, PHP, C/C++, C#, R."
   },
   {
+   "repo": "sybil-solutions/skill-distill",
+   "stars": 1003,
+   "d24": 145,
+   "est": true,
+   "forks": 86,
+   "contrib": null,
+   "score": 71,
+   "cat": "Agents",
+   "desc": "Distill a good Claude Code / Codex session into a skill an open-weight model can follow to reproduce the task"
+  },
+  {
+   "repo": "xikhar/papercraft",
+   "stars": 933,
+   "d24": 134,
+   "est": true,
+   "forks": 102,
+   "contrib": null,
+   "score": 70,
+   "cat": "Agents",
+   "desc": "Agent skill to build games, interactive scenes, web pages and animations in a handcrafted pop-up papercraft style"
+  },
+  {
    "repo": "qianyiai/KuroCat",
-   "stars": 1760,
-   "d24": 116,
+   "stars": 1762,
+   "d24": 115,
    "est": false,
    "forks": 248,
    "contrib": null,
-   "score": 80,
+   "score": 84,
    "cat": "Agents",
    "desc": "KuroCat — Free open-source 3D/2D desktop typing cat & AI coding companion (Bongo Cat alternative · Tauri v2 + Rust + MCP · Claude/Codex/DeepSeek/OBS · Win/Mac/Linux/Android)｜开源3D桌面打字小黑猫与AI伴侣"
   }
@@ -399,7 +414,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 6460
+   "likes": 6463
   },
   {
    "name": "Inkling-2-Mini-GGUF",
@@ -410,7 +425,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Infrastructure",
-   "likes": 1605
+   "likes": 1606
   },
   {
    "name": "Ternary-Bonsai-2.5-27B-GGUF",
@@ -420,9 +435,9 @@
    "at": "2026-11-24T16:32:20.000Z",
    "dl": 382546,
    "grow": 544,
-   "score": 90,
+   "score": 89,
    "cat": "Agents",
-   "likes": 634
+   "likes": 635
   },
   {
    "name": "Sulphur-3",
@@ -433,7 +448,7 @@
    "grow": null,
    "score": 87,
    "cat": "Tools",
-   "likes": 1367
+   "likes": 1369
   },
   {
    "name": "Inkling-2-Mini-Uncensored-GGUF",
@@ -455,7 +470,7 @@
    "grow": null,
    "score": 85,
    "cat": "Infrastructure",
-   "likes": 265
+   "likes": 267
   }
  ],
  "free": [
@@ -718,6 +733,13 @@
    "kind": "News"
   },
   {
+   "t": "How AI could be coming for your bank account | BBC News",
+   "url": "https://www.youtube.com/watch?v=bgONnPA8QU8",
+   "at": "2026-11-27T20:30:09Z",
+   "src": "BBC News",
+   "kind": "Video"
+  },
+  {
    "t": "Q&A with AI researchers Ege Erdil and Daniel Kokotajlo on the odds of an intelligence explosion before 2029, pausing AI, the US antagonizing China, and more",
    "url": "https://www.techmeme.com/261127/p13#a261127p13",
    "at": "2026-11-27T20:15:01.000Z",
@@ -795,31 +817,24 @@
    "kind": "News"
   },
   {
-   "t": "Jaishankar, Piyush Goyal, global tech leaders to attend Global Technology Summit in New Delhi from December 2 to 4",
-   "url": "https://www.devdiscourse.com/article/business/4013165-jaishankar-piyush-goyal-global-tech-leaders-to-attend-global-technology-summit-in-new-delhi-from-december-2-to-4",
-   "at": "2026-11-27T11:16:47Z",
-   "src": "Devdiscourse",
+   "t": "OpenAI says GPT-6.2 is better at following complicated instructions in ChatGPT - so I tested what happens when you change the plan halfway through",
+   "url": "https://www.techradar.com/ai-platforms-assistants/openai-says-gpt-6-2-is-better-at-following-complicated-instructions-in-chatgpt-so-i-tested-what-happens-when-you-change-the-plan-halfway-through",
+   "at": "2026-11-27T11:52:03Z",
+   "src": "TechRadar",
    "kind": "News"
   },
   {
-   "t": "2026 in photos: AI, robots and new technology",
-   "url": "https://www.thestar.com.my/tech/tech-news/2026/11/27/2026-in-photos-ai-robots-and-new-technology",
-   "at": "2026-11-27T11:14:00Z",
+   "t": "MDEC appoints Adrian Marcellus as CEO",
+   "url": "https://www.thestar.com.my/business/business-news/2026/11/27/mdec-appoints-adrian-marcellus-as-ceo",
+   "at": "2026-11-27T11:43:00Z",
    "src": "The Star",
    "kind": "News"
   },
   {
-   "t": "Florida man used AI to clone a popular streamer's voice and trick crypto investors into $260,000 scam, US judge jails him; prosecutor says: Behind every fraud scheme are...",
-   "url": "https://timesofindia.indiatimes.com/technology/tech-news/florida-man-used-ai-to-clone-a-popular-streamers-voice-and-trick-crypto-investors-into-260000-scam-us-judge-jails-him-prosecutor-says-behind-every-fraud-scheme-are-/articleshow/136219638.cms",
-   "at": "2026-11-27T11:12:00Z",
-   "src": "Times of India",
-   "kind": "News"
-  },
-  {
-   "t": "China’s humanoid robot investment to accelerate, commercial deployment likely in 2027: Morgan Stanley",
-   "url": "https://www.firstpost.com/business/chinas-humanoid-robot-investment-to-accelerate-commercial-deployment-likely-in-2027-morgan-stanley-14063112.html",
-   "at": "2026-11-27T10:46:25Z",
-   "src": "Firstpost",
+   "t": "The Growing Role of Artificial Intelligence in Modern Digital Content Development",
+   "url": "https://techbullion.com/the-growing-role-of-artificial-intelligence-in-modern-digital-content-development/",
+   "at": "2026-11-27T11:38:05Z",
+   "src": "TechBullion",
    "kind": "News"
   }
  ],
@@ -829,17 +844,26 @@
    "t": "Group chat where your AI talks behind your back",
    "url": "https://news.ycombinator.com/item?id=50663595",
    "link": "https://construct22.com/",
-   "up": 672,
-   "com": 279,
+   "up": 680,
+   "com": 282,
    "at": "2026-11-27T06:44:34.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Claude sabotaging ML research tasks?",
+   "url": "https://news.ycombinator.com/item?id=50664325",
+   "link": "https://twitter.com/RealAstropulse/status/2126119408997466389",
+   "up": 553,
+   "com": 278,
+   "at": "2026-11-27T08:28:08.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Show HN: bouncemarket – a live prediction market game for a bouncing ball",
    "url": "https://news.ycombinator.com/item?id=50667726",
    "link": "https://bouncemarket.minhanhday.com/",
-   "up": 314,
-   "com": 106,
+   "up": 319,
+   "com": 110,
    "at": "2026-11-27T15:01:50.000Z"
   },
   {
@@ -847,18 +871,9 @@
    "t": "Convex skills send the user's app idea to a remote server without telling them",
    "url": "https://news.ycombinator.com/item?id=50669765",
    "link": "https://github.com/convex/convex-backend-skill/issues/64",
-   "up": 201,
-   "com": 57,
+   "up": 208,
+   "com": 59,
    "at": "2026-11-27T18:02:45.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Claude sabotaging ML research tasks?",
-   "url": "https://news.ycombinator.com/item?id=50664325",
-   "link": "https://twitter.com/RealAstropulse/status/2126119408997466389",
-   "up": 538,
-   "com": 274,
-   "at": "2026-11-27T08:28:08.000Z"
   },
   {
    "src": "Hacker News",
@@ -866,7 +881,7 @@
    "url": "https://news.ycombinator.com/item?id=50669561",
    "link": "https://thesoapbox.email/archive/3",
    "up": 199,
-   "com": 233,
+   "com": 234,
    "at": "2026-11-27T17:45:31.000Z"
   },
   {
@@ -874,8 +889,8 @@
    "t": "US Air Force's cloud computing platform hacked",
    "url": "https://news.ycombinator.com/item?id=50666375",
    "link": "https://news.sky.com/story/us-air-forces-cloud-computing-platform-hacked-13617163",
-   "up": 316,
-   "com": 197,
+   "up": 317,
+   "com": 199,
    "at": "2026-11-27T12:54:11.000Z"
   }
  ]
