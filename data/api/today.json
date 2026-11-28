@@ -5,44 +5,27 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-28T10:01:03.093Z"
+  "updated": "2026-11-28T10:13:29.004Z"
  },
  "pulse": {
-  "trending": 76,
+  "trending": 75,
   "accelerating": 0,
   "newModels": 10,
   "discussions": 46,
-  "stars": 3344
+  "stars": 2109
  },
  "rising": [
-  {
-   "name": "waifu2x-image-upscaler-windows",
-   "owner": "Red2076-arch",
-   "src": "gh",
-   "cat": "Infrastructure",
-   "score": 98,
-   "grow": null,
-   "desc": "Free AI image upscaler and photo denoiser for Windows powered by Vulkan GPU acceleration and ncnn neural networks.",
-   "meta": [
-    "★ 1,058",
-    "~1,357 in 24h",
-    "Created 19h ago"
-   ],
-   "at": "2026-11-27T15:17:56Z",
-   "breakout": null,
-   "url": "https://github.com/Red2076-arch/waifu2x-image-upscaler-windows"
-  },
   {
    "name": "opengame",
    "owner": "nexu-io",
    "src": "gh",
    "cat": "Agents",
    "score": 94,
-   "grow": 16,
+   "grow": 17,
    "desc": "The Super Game Agent — the Unity & Unreal for AI agents, with 100+ viral games to remix. Turn 20+ coding agents (Claude Code, Codex, DeepSeek, etc.) into a full-stack AI game studio. Build and publish 3D & mini-games to WeChat, Douyin, TikTok, Telegram, itch.io, and more.",
    "meta": [
-    "★ 2,577",
-    "+827 in 24h",
+    "★ 2,585",
+    "+829 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-25T10:35:45Z",
@@ -54,12 +37,12 @@
    "owner": "alesha-pro",
    "src": "gh",
    "cat": "Infrastructure",
-   "score": 93,
+   "score": 94,
    "grow": null,
    "desc": "Qwen3-0.6B inference (12 KB), bare-metal bootable OS (22 KB), and from-scratch Mini-GPT trainer with live Braille TUI (32 KB) in 100% pure x86-64 NASM assembly. Zero C, zero libc, zero dependencies.",
    "meta": [
-    "★ 2,435",
-    "~784 in 24h",
+    "★ 2,437",
+    "~783 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-25T07:28:51Z",
@@ -119,11 +102,11 @@
    "owner": "EL4CTEO",
    "src": "gh",
    "cat": "Agents",
-   "score": 88,
+   "score": 89,
    "grow": 3,
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile your app, port the hot functions with your coding agent, prove they behave the same. Python, JS/TS, Ruby, Java, Kotlin, Go, PHP, C/C++, C#, R.",
    "meta": [
-    "★ 4,570",
+    "★ 4,572",
     "+224 in 24h",
     "Created 7 days ago"
    ],
@@ -154,7 +137,7 @@
    "cat": "Infrastructure",
    "score": 87,
    "grow": 0,
-   "desc": "Model on Hugging Face · open source · ♥ 299",
+   "desc": "Model on Hugging Face · open source · ♥ 300",
    "meta": [
     "25K downloads",
     "Released 2 days ago"
@@ -169,7 +152,7 @@
    "src": "hf",
    "cat": "Infrastructure",
    "score": 85,
-   "grow": 0,
+   "grow": null,
    "desc": "Model on Hugging Face · open source · ♥ 1.1K",
    "meta": [
     "1.1M downloads",
@@ -178,6 +161,22 @@
    "at": "2026-11-20T20:42:23.000Z",
    "breakout": null,
    "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF"
+  },
+  {
+   "name": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
+   "owner": "Paper",
+   "src": "paper",
+   "url": "https://huggingface.co/papers/2611.34232",
+   "cat": "Research",
+   "score": 85,
+   "grow": null,
+   "desc": "Computer-using agents are increasingly expected to complete realistic user goals rather than isolated GUI actions.",
+   "meta": [
+    "▲ 109 upvotes",
+    "Hugging Face Papers"
+   ],
+   "at": "2026-11-24T19:00:00.000Z",
+   "breakout": null
   }
  ],
  "breakouts": [],
@@ -200,11 +199,11 @@
    "verdict": "The hype matches real use"
   },
   {
-   "name": "waifu2x-image-upscaler-windows",
-   "url": "https://github.com/Red2076-arch/waifu2x-image-upscaler-windows",
+   "name": "opengame",
+   "url": "https://github.com/nexu-io/opengame",
    "from": "GitHub",
-   "use": 1357,
-   "useLabel": "~1,357 stars/day",
+   "use": 829,
+   "useLabel": "+829 stars/day",
    "usePct": 1,
    "talk": [],
    "buzz": 0,
@@ -317,20 +316,9 @@
  ],
  "github": [
   {
-   "repo": "Red2076-arch/waifu2x-image-upscaler-windows",
-   "stars": 1058,
-   "d24": 1357,
-   "est": true,
-   "forks": 0,
-   "contrib": null,
-   "score": 98,
-   "cat": "Infrastructure",
-   "desc": "Free AI image upscaler and photo denoiser for Windows powered by Vulkan GPU acceleration and ncnn neural networks."
-  },
-  {
    "repo": "nexu-io/opengame",
-   "stars": 2577,
-   "d24": 827,
+   "stars": 2585,
+   "d24": 829,
    "est": false,
    "forks": 401,
    "contrib": null,
@@ -340,36 +328,36 @@
   },
   {
    "repo": "alesha-pro/llm.asm",
-   "stars": 2435,
-   "d24": 784,
+   "stars": 2437,
+   "d24": 783,
    "est": true,
-   "forks": 370,
+   "forks": 371,
    "contrib": null,
-   "score": 93,
+   "score": 94,
    "cat": "Infrastructure",
    "desc": "Qwen3-0.6B inference (12 KB), bare-metal bootable OS (22 KB), and from-scratch Mini-GPT trainer with live Braille TUI (32 KB) in 100% pure x86-64 NASM assembly. Zero C, zero libc, zero dependencies."
   },
   {
+   "repo": "qianyiai/KuroCat",
+   "stars": 1845,
+   "d24": 273,
+   "est": true,
+   "forks": 261,
+   "contrib": null,
+   "score": 83,
+   "cat": "Agents",
+   "desc": "KuroCat — Free open-source 3D/2D desktop typing cat & AI companion (Bongo Cat alternative · MCP · Win/Mac/Linux/Android) 开源3D桌面打字小黑猫"
+  },
+  {
    "repo": "EL4CTEO/fast-anything",
-   "stars": 4570,
+   "stars": 4572,
    "d24": 224,
    "est": false,
    "forks": 324,
    "contrib": 13,
-   "score": 88,
+   "score": 89,
    "cat": "Agents",
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile your app, port the hot functions with your coding agent, prove they behave the same. Python, JS/TS, Ruby, Java, Kotlin, Go, PHP, C/C++, C#, R."
-  },
-  {
-   "repo": "qianyiai/KuroCat",
-   "stars": 1841,
-   "d24": 152,
-   "est": false,
-   "forks": 261,
-   "contrib": null,
-   "score": 82,
-   "cat": "Agents",
-   "desc": "KuroCat — Free open-source 3D/2D desktop typing cat & AI companion (Bongo Cat alternative · MCP · Win/Mac/Linux/Android) 开源3D桌面打字小黑猫"
   }
  ],
  "models": [
@@ -394,7 +382,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 6517
+   "likes": 6520
   },
   {
    "name": "Inkling-2-Mini-GGUF",
@@ -416,7 +404,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Tools",
-   "likes": 1394
+   "likes": 1395
   },
   {
    "name": "Inkling-2-Mini-GSQ-RCO-GGUF",
@@ -427,7 +415,7 @@
    "grow": 0,
    "score": 87,
    "cat": "Infrastructure",
-   "likes": 299
+   "likes": 300
   },
   {
    "name": "Inkling-2-Mini-Uncensored-GGUF",
@@ -435,7 +423,7 @@
    "lic": "Open source",
    "at": "2026-11-20T20:42:23.000Z",
    "dl": 1059763,
-   "grow": 0,
+   "grow": null,
    "score": 85,
    "cat": "Infrastructure",
    "likes": 1050
@@ -736,6 +724,13 @@
    "kind": "News"
   },
   {
+   "t": "OpenAI accuses Apple of pressuring suppliers to block its new devices",
+   "url": "https://www.latimes.com/business/story/2026-11-27/openai-accuses-apple-of-pressuring-suppliers-to-block-its-new-devices",
+   "at": "2026-11-27T22:03:07Z",
+   "src": "Los Angeles Times",
+   "kind": "News"
+  },
+  {
    "t": "OpenAI Turns the Tables on Apple With Its Own Trade",
    "url": "https://decrypt.co/384222/openai-countersuit-apple-trade-secret-theft-claims",
    "at": "2026-11-27T21:46:03Z",
@@ -779,9 +774,9 @@
   },
   {
    "t": "OpenAI countersues Apple for stealing trade secrets",
-   "url": "https://www.cp24.com/news/money/2026/11/27/openai-countersues-apple-for-stealing-trade-secrets/",
+   "url": "https://www.bnnbloomberg.ca/business/company-news/2026/11/27/openai-countersues-apple-for-stealing-trade-secrets/",
    "at": "2026-11-27T21:03:56Z",
-   "src": "CP24 Toronto",
+   "src": "Bnn Bloomberg",
    "kind": "News"
   },
   {
@@ -797,13 +792,6 @@
    "at": "2026-11-27T20:15:01.000Z",
    "src": "Techmeme",
    "kind": "News"
-  },
-  {
-   "t": "OpenAI countersues Apple for allegedly stealing trade secrets via a staffer who returned to Apple and \"coercing and threatening\" suppliers that work with both",
-   "url": "https://www.techmeme.com/261127/p12#a261127p12",
-   "at": "2026-11-27T18:57:47.000Z",
-   "src": "Techmeme",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -812,8 +800,8 @@
    "t": "Woman evicted after landlord's AI assistant told her she could delay rent",
    "url": "https://news.ycombinator.com/item?id=50673521",
    "link": "https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai",
-   "up": 171,
-   "com": 124,
+   "up": 172,
+   "com": 125,
    "at": "2026-11-28T01:32:56.000Z"
   },
   {
@@ -821,7 +809,7 @@
    "t": "Show HN: bouncemarket – a live prediction market game for a bouncing ball",
    "url": "https://news.ycombinator.com/item?id=50667726",
    "link": "https://bouncemarket.minhanhday.com/",
-   "up": 373,
+   "up": 375,
    "com": 126,
    "at": "2026-11-27T15:01:50.000Z"
   },
@@ -830,8 +818,8 @@
    "t": "Convex skills send the user's app idea to a remote server without telling them",
    "url": "https://news.ycombinator.com/item?id=50669765",
    "link": "https://github.com/convex/convex-backend-skill/issues/64",
-   "up": 302,
-   "com": 96,
+   "up": 304,
+   "com": 97,
    "at": "2026-11-27T18:02:45.000Z"
   },
   {
@@ -857,8 +845,8 @@
    "t": "9/UX: a Macintosh-inspired desktop for 9front",
    "url": "https://news.ycombinator.com/item?id=50672008",
    "link": "https://progrium.github.io/9ux/",
-   "up": 128,
-   "com": 32,
+   "up": 129,
+   "com": 33,
    "at": "2026-11-27T21:48:14.000Z"
   }
  ]
