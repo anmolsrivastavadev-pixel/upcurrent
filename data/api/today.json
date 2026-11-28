@@ -5,14 +5,14 @@
   "docs": "https://upcurrent.dev/data.html",
   "license": "CC BY 4.0",
   "attribution": "Data from Upcurrent (https://upcurrent.dev/)",
-  "updated": "2026-11-28T05:01:02.966Z"
+  "updated": "2026-11-28T05:30:55.949Z"
  },
  "pulse": {
   "trending": 75,
   "accelerating": 3,
   "newModels": 9,
-  "discussions": 49,
-  "stars": 1866
+  "discussions": 48,
+  "stars": 1871
  },
  "rising": [
   {
@@ -24,7 +24,7 @@
    "grow": null,
    "desc": "The Super Game Agent — the Unity & Unreal for AI agents, with 100+ viral games to remix. Turn 20+ coding agents (Claude Code, Codex, DeepSeek, etc.) into a full-stack AI game studio. Build and publish 3D & mini-games to WeChat, Douyin, TikTok, Telegram, itch.io, and more.",
    "meta": [
-    "★ 2,411",
+    "★ 2,428",
     "~871 in 24h",
     "Created 3 days ago"
    ],
@@ -38,11 +38,11 @@
    "src": "gh",
    "cat": "Infrastructure",
    "score": 94,
-   "grow": 25,
+   "grow": 26,
    "desc": "Qwen3-0.6B inference (12 KB), bare-metal bootable OS (22 KB), and from-scratch Mini-GPT trainer with live Braille TUI (32 KB) in 100% pure x86-64 NASM assembly. Zero C, zero libc, zero dependencies.",
    "meta": [
-    "★ 2,307",
-    "+657 in 24h",
+    "★ 2,322",
+    "+658 in 24h",
     "Created 3 days ago"
    ],
    "at": "2026-11-25T07:28:51Z",
@@ -106,8 +106,8 @@
    "grow": 2,
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile your app, port the hot functions with your coding agent, prove they behave the same. Python, JS/TS, Ruby, Java, Kotlin, Go, PHP, C/C++, C#, R.",
    "meta": [
-    "★ 4,514",
-    "+202 in 24h",
+    "★ 4,520",
+    "+206 in 24h",
     "Created 7 days ago"
    ],
    "at": "2026-11-21T14:40:27Z",
@@ -317,7 +317,7 @@
  "github": [
   {
    "repo": "nexu-io/opengame",
-   "stars": 2411,
+   "stars": 2428,
    "d24": 871,
    "est": true,
    "forks": 386,
@@ -328,10 +328,10 @@
   },
   {
    "repo": "alesha-pro/llm.asm",
-   "stars": 2307,
-   "d24": 657,
+   "stars": 2322,
+   "d24": 658,
    "est": false,
-   "forks": 357,
+   "forks": 358,
    "contrib": null,
    "score": 94,
    "cat": "Infrastructure",
@@ -339,8 +339,8 @@
   },
   {
    "repo": "EL4CTEO/fast-anything",
-   "stars": 4514,
-   "d24": 202,
+   "stars": 4520,
+   "d24": 206,
    "est": false,
    "forks": 324,
    "contrib": 13,
@@ -350,10 +350,10 @@
   },
   {
    "repo": "qianyiai/KuroCat",
-   "stars": 1799,
+   "stars": 1802,
    "d24": 136,
    "est": false,
-   "forks": 254,
+   "forks": 255,
    "contrib": null,
    "score": 83,
    "cat": "Agents",
@@ -382,7 +382,7 @@
    "grow": 0,
    "score": 90,
    "cat": "Vision",
-   "likes": 6490
+   "likes": 6493
   },
   {
    "name": "Inkling-2-Mini-GGUF",
@@ -426,7 +426,7 @@
    "grow": 0,
    "score": 86,
    "cat": "Infrastructure",
-   "likes": 1045
+   "likes": 1046
   }
  ],
  "free": [
@@ -759,6 +759,13 @@
    "kind": "News"
   },
   {
+   "t": "Global stocks rise, key indices on track, while India bucks the trend",
+   "url": "https://www.newindianexpress.com/business/2026/Nov/27/global-stocks-rise-keeping-key-indices-on-track-while-india-bucks-the-trend",
+   "at": "2026-11-27T17:06:48Z",
+   "src": "The New Indian Express",
+   "kind": "News"
+  },
+  {
    "t": "What is Muse from Meta and how does the AI assistant work on WhatsApp and other apps?",
    "url": "https://www.thesun.co.uk/tech/41173738/meta-muse-ai-whatsapp-instagram-app-guide/",
    "at": "2026-11-27T16:58:02Z",
@@ -785,13 +792,6 @@
    "at": "2026-11-27T16:14:17Z",
    "src": "ANI (Asian News International)",
    "kind": "News"
-  },
-  {
-   "t": "Toss Odds for Humanity by 2030, Cites 2027 Disruption Risks",
-   "url": "https://www.lokmattimes.com/international/ai-threat-researcher-warns-of-coin-toss-odds-for-humanity-by-2030-cites-2027-disruption-risks-a001-w01/",
-   "at": "2026-11-27T16:14:17Z",
-   "src": "Lokmat Times",
-   "kind": "News"
   }
  ],
  "discussions": [
@@ -800,8 +800,8 @@
    "t": "Woman evicted after landlord's AI assistant told her she could delay rent",
    "url": "https://news.ycombinator.com/item?id=50673521",
    "link": "https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai",
-   "up": 117,
-   "com": 88,
+   "up": 128,
+   "com": 96,
    "at": "2026-11-28T01:32:56.000Z"
   },
   {
@@ -809,8 +809,8 @@
    "t": "Claude sabotaging ML research tasks?",
    "url": "https://news.ycombinator.com/item?id=50664325",
    "link": "https://twitter.com/RealAstropulse/status/2126119408997466389",
-   "up": 648,
-   "com": 300,
+   "up": 651,
+   "com": 303,
    "at": "2026-11-27T08:28:08.000Z"
   },
   {
@@ -818,25 +818,16 @@
    "t": "Group chat where your AI talks behind your back",
    "url": "https://news.ycombinator.com/item?id=50663595",
    "link": "https://construct22.com/",
-   "up": 692,
-   "com": 286,
+   "up": 696,
+   "com": 288,
    "at": "2026-11-27T06:44:34.000Z"
-  },
-  {
-   "src": "Hacker News",
-   "t": "Claude silently added rules to ignore users skintone preferences in our app",
-   "url": "https://news.ycombinator.com/item?id=50674489",
-   "link": "https://twitter.com/jakozloski/status/2126281598517576049",
-   "up": 31,
-   "com": 13,
-   "at": "2026-11-28T03:55:15.000Z"
   },
   {
    "src": "Hacker News",
    "t": "Show HN: bouncemarket – a live prediction market game for a bouncing ball",
    "url": "https://news.ycombinator.com/item?id=50667726",
    "link": "https://bouncemarket.minhanhday.com/",
-   "up": 344,
+   "up": 345,
    "com": 116,
    "at": "2026-11-27T15:01:50.000Z"
   },
@@ -845,9 +836,18 @@
    "t": "Convex skills send the user's app idea to a remote server without telling them",
    "url": "https://news.ycombinator.com/item?id=50669765",
    "link": "https://github.com/convex/convex-backend-skill/issues/64",
-   "up": 257,
-   "com": 82,
+   "up": 259,
+   "com": 86,
    "at": "2026-11-27T18:02:45.000Z"
+  },
+  {
+   "src": "Hacker News",
+   "t": "Claude silently added rules to ignore users skintone preferences in our app",
+   "url": "https://news.ycombinator.com/item?id=50674489",
+   "link": "https://twitter.com/jakozloski/status/2126281598517576049",
+   "up": 34,
+   "com": 17,
+   "at": "2026-11-28T03:55:15.000Z"
   }
  ]
 }
